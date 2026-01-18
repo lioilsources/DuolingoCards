@@ -60,7 +60,7 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onDoubleTap: () {
+      onLongPress: () {
         _flip();
         widget.onTap?.call();
       },

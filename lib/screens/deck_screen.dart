@@ -21,6 +21,10 @@ class _DeckScreenState extends State<DeckScreen> {
   bool _showFront = true;
   bool _isLoading = true;
 
+  // Historie viděných kartiček
+  final List<Flashcard> _history = [];
+  int _historyIndex = 0;
+
   @override
   void initState() {
     super.initState();
@@ -31,9 +35,12 @@ class _DeckScreenState extends State<DeckScreen> {
     final deck = await _deckService.loadJapaneseBasics();
     await _priorityService.loadPriorities(deck.id, deck.cards);
 
+    final firstCard = _priorityService.selectNextCard(deck.cards);
     setState(() {
       _deck = deck;
-      _currentCard = _priorityService.selectNextCard(deck.cards);
+      _currentCard = firstCard;
+      _history.add(firstCard);
+      _historyIndex = 0;
       _isLoading = false;
     });
   }
@@ -43,25 +50,43 @@ class _DeckScreenState extends State<DeckScreen> {
 
     switch (direction) {
       case SwipeDirection.up:
-        // Znám - snížit prioritu
+        // Znám - snížit prioritu, zůstat na místě
         _currentCard!.decreasePriority();
+        _priorityService.savePriorities(_deck!.id, _deck!.cards);
         break;
       case SwipeDirection.down:
-        // Neznám - zvýšit prioritu
+        // Neznám - zvýšit prioritu, zůstat na místě
         _currentCard!.increasePriority();
+        _priorityService.savePriorities(_deck!.id, _deck!.cards);
         break;
       case SwipeDirection.left:
+        // Další kartička (vpřed v historii nebo nová)
+        if (_historyIndex < _history.length - 1) {
+          // Jsme v historii - jít vpřed
+          _historyIndex++;
+          setState(() {
+            _currentCard = _history[_historyIndex];
+          });
+        } else {
+          // Jsme na konci - vybrat novou kartičku
+          final nextCard = _priorityService.selectNextCard(_deck!.cards);
+          _history.add(nextCard);
+          _historyIndex = _history.length - 1;
+          setState(() {
+            _currentCard = nextCard;
+          });
+        }
+        break;
       case SwipeDirection.right:
-        // Zatím nedefinováno - jen přejít na další
-        _currentCard!.lastSeen = DateTime.now();
+        // Zpět v historii
+        if (_historyIndex > 0) {
+          _historyIndex--;
+          setState(() {
+            _currentCard = _history[_historyIndex];
+          });
+        }
         break;
     }
-
-    _priorityService.savePriorities(_deck!.id, _deck!.cards);
-
-    setState(() {
-      _currentCard = _priorityService.selectNextCard(_deck!.cards);
-    });
   }
 
   void _onDoubleTap() {
@@ -142,7 +167,8 @@ class _DeckScreenState extends State<DeckScreen> {
               children: [
                 _buildHint(Icons.arrow_upward, 'Znám', Colors.green),
                 _buildHint(Icons.arrow_downward, 'Neznám', Colors.red),
-                _buildHint(Icons.touch_app, 'Otočit', Colors.blue),
+                _buildHint(Icons.arrow_back, 'Zpět', Colors.orange),
+                _buildHint(Icons.arrow_forward, 'Další', Colors.purple),
               ],
             ),
           ),

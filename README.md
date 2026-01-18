@@ -1,16 +1,13 @@
-# duolingo_cards
+18/1/2026
+- 10 japanese cards in deck with japanese runes
+- duo sided cards
+- up to decrease priority (I already know that world); down do increase priority (save for future, I don't know)
+- left right to keep the order
+- priority rnd algoritm
+- attaching issues with initial VM Flutter image on iOS resolved by `$flutter run --device-vmservice-port 61616 --host-vmservice-port 61616 -v`
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+17/1/2026
+- Interview Happy Coder to find right language to support both mobile platforms
+- UX requirements
+- simplify storrage requirements
+- defer image and audio requirements
