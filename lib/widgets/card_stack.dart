@@ -160,6 +160,10 @@ class _CardStackState extends State<CardStack>
   Widget _buildCardWithIndicators() {
     final opacity = (_dragOffset.distance / 150).clamp(0.0, 1.0);
 
+    // Určení dominantního směru tažení
+    final isHorizontalDominant = _dragOffset.dx.abs() > _dragOffset.dy.abs();
+    final isVerticalDominant = _dragOffset.dy.abs() > _dragOffset.dx.abs();
+
     return Stack(
       children: [
         FlashcardWidget(
@@ -167,8 +171,8 @@ class _CardStackState extends State<CardStack>
           showFront: widget.showFront,
           onTap: widget.onDoubleTap,
         ),
-        // Indikátor "Znám" (nahoru)
-        if (_dragOffset.dy < -30)
+        // Indikátor "Znám" (nahoru) - pouze při vertikálním tažení
+        if (isVerticalDominant && _dragOffset.dy < -30)
           Positioned(
             top: 20,
             left: 0,
@@ -195,8 +199,8 @@ class _CardStackState extends State<CardStack>
               ),
             ),
           ),
-        // Indikátor "Neznám" (dolů)
-        if (_dragOffset.dy > 30)
+        // Indikátor "Neznám" (dolů) - pouze při vertikálním tažení
+        if (isVerticalDominant && _dragOffset.dy > 30)
           Positioned(
             bottom: 20,
             left: 0,
@@ -223,8 +227,8 @@ class _CardStackState extends State<CardStack>
               ),
             ),
           ),
-        // Indikátor "Zpět" (doprava)
-        if (_dragOffset.dx > 30)
+        // Indikátor "Zpět" (doprava) - pouze při horizontálním tažení
+        if (isHorizontalDominant && _dragOffset.dx > 30)
           Positioned(
             right: 20,
             top: 0,
@@ -251,8 +255,8 @@ class _CardStackState extends State<CardStack>
               ),
             ),
           ),
-        // Indikátor "Další" (doleva)
-        if (_dragOffset.dx < -30)
+        // Indikátor "Další" (doleva) - pouze při horizontálním tažení
+        if (isHorizontalDominant && _dragOffset.dx < -30)
           Positioned(
             left: 20,
             top: 0,

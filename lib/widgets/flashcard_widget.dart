@@ -166,65 +166,91 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
           // Main content
           Padding(
             padding: const EdgeInsets.all(20),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                // Image (if available)
-                if (imageUrl != null && imageUrl.isNotEmpty) ...[
-                  Expanded(
-                    flex: 2,
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(12),
-                      child: imageUrl.startsWith('http')
-                          ? CachedNetworkImage(
-                              imageUrl: imageUrl,
-                              fit: BoxFit.contain,
-                              placeholder: (context, url) => const Center(
-                                child: CircularProgressIndicator(),
-                              ),
-                              errorWidget: (context, url, error) =>
-                                  const Icon(Icons.image_not_supported),
-                            )
-                          : Image.asset(
-                              imageUrl,
-                              fit: BoxFit.contain,
-                              errorBuilder: (context, error, stackTrace) =>
-                                  const Icon(Icons.image_not_supported),
-                            ),
-                    ),
-                  ),
-                  const SizedBox(height: 20),
-                ],
-                // Text content
-                Expanded(
-                  flex: imageUrl != null ? 1 : 2,
-                  child: Column(
+            child: imageUrl != null && imageUrl.isNotEmpty
+                ? Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text(
-                        text,
-                        style: TextStyle(
-                          fontSize: imageUrl != null ? 36 : 48,
-                          fontWeight: FontWeight.bold,
+                      // Image
+                      Expanded(
+                        flex: 2,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(12),
+                          child: imageUrl.startsWith('http')
+                              ? CachedNetworkImage(
+                                  imageUrl: imageUrl,
+                                  fit: BoxFit.contain,
+                                  placeholder: (context, url) => const Center(
+                                    child: CircularProgressIndicator(),
+                                  ),
+                                  errorWidget: (context, url, error) =>
+                                      const Icon(Icons.image_not_supported),
+                                )
+                              : Image.asset(
+                                  imageUrl,
+                                  fit: BoxFit.contain,
+                                  errorBuilder: (context, error, stackTrace) =>
+                                      const Icon(Icons.image_not_supported),
+                                ),
                         ),
-                        textAlign: TextAlign.center,
                       ),
-                      if (subtext != null) ...[
-                        const SizedBox(height: 12),
+                      const SizedBox(height: 20),
+                      // Text content with image
+                      Expanded(
+                        flex: 1,
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              text,
+                              style: const TextStyle(
+                                fontSize: 36,
+                                fontWeight: FontWeight.bold,
+                              ),
+                              textAlign: TextAlign.center,
+                            ),
+                            if (subtext != null) ...[
+                              const SizedBox(height: 12),
+                              Text(
+                                subtext,
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  color: Colors.grey.shade600,
+                                ),
+                                textAlign: TextAlign.center,
+                              ),
+                            ],
+                          ],
+                        ),
+                      ),
+                    ],
+                  )
+                : Center(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        // Text only - centered
                         Text(
-                          subtext,
-                          style: TextStyle(
-                            fontSize: imageUrl != null ? 18 : 24,
-                            color: Colors.grey.shade600,
+                          text,
+                          style: const TextStyle(
+                            fontSize: 48,
+                            fontWeight: FontWeight.bold,
                           ),
                           textAlign: TextAlign.center,
                         ),
+                        if (subtext != null) ...[
+                          const SizedBox(height: 16),
+                          Text(
+                            subtext,
+                            style: TextStyle(
+                              fontSize: 24,
+                              color: Colors.grey.shade600,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                        ],
                       ],
-                    ],
+                    ),
                   ),
-                ),
-              ],
-            ),
           ),
           // Audio button (top right)
           if (hasAudio)
