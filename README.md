@@ -1,3 +1,6 @@
+flutter build ios --no-codesign
+
+
 18/1/2026
 - 10 japanese cards in deck with japanese runes
 - duo sided cards

@@ -6,7 +6,9 @@ import '../services/priority_service.dart';
 import '../widgets/card_stack.dart';
 
 class DeckScreen extends StatefulWidget {
-  const DeckScreen({super.key});
+  final Deck? deck;
+
+  const DeckScreen({super.key, this.deck});
 
   @override
   State<DeckScreen> createState() => _DeckScreenState();
@@ -32,7 +34,12 @@ class _DeckScreenState extends State<DeckScreen> {
   }
 
   Future<void> _loadDeck() async {
-    final deck = await _deckService.loadJapaneseBasics();
+    Deck deck;
+    if (widget.deck != null) {
+      deck = widget.deck!;
+    } else {
+      deck = await _deckService.loadJapaneseBasics();
+    }
     await _priorityService.loadPriorities(deck.id, deck.cards);
 
     final firstCard = _priorityService.selectNextCard(deck.cards);

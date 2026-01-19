@@ -41,6 +41,18 @@ dependencies:
   # Local persistence for card priorities
   shared_preferences: ^2.2.0
 
+  # HTTP client for API calls
+  dio: ^5.4.0
+
+  # Local file storage
+  path_provider: ^2.1.0
+
+  # Cached network images
+  cached_network_image: ^3.3.0
+
+  # In-App Purchases
+  in_app_purchase: ^3.2.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

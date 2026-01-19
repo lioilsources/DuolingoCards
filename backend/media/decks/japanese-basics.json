@@ -1,0 +1,79 @@
+{
+  "id": "japanese-basics",
+  "name": "Základní japonština",
+  "description": "50 nejčastějších japonských slov pro začátečníky",
+  "frontLanguage": "ja",
+  "backLanguage": "cs",
+  "cards": [
+    {
+      "id": "1",
+      "frontText": "こんにちは",
+      "reading": "konnichiwa",
+      "backText": "Dobrý den",
+      "priority": 5
+    },
+    {
+      "id": "2",
+      "frontText": "ありがとう",
+      "reading": "arigatou",
+      "backText": "Děkuji",
+      "priority": 5
+    },
+    {
+      "id": "3",
+      "frontText": "はい",
+      "reading": "hai",
+      "backText": "Ano",
+      "priority": 5
+    },
+    {
+      "id": "4",
+      "frontText": "いいえ",
+      "reading": "iie",
+      "backText": "Ne",
+      "priority": 5
+    },
+    {
+      "id": "5",
+      "frontText": "すみません",
+      "reading": "sumimasen",
+      "backText": "Promiňte",
+      "priority": 5
+    },
+    {
+      "id": "6",
+      "frontText": "おはよう",
+      "reading": "ohayou",
+      "backText": "Dobré ráno",
+      "priority": 5
+    },
+    {
+      "id": "7",
+      "frontText": "さようなら",
+      "reading": "sayounara",
+      "backText": "Sbohem",
+      "priority": 5
+    },
+    {
+      "id": "8",
+      "frontText": "水",
+      "reading": "mizu",
+      "backText": "Voda",
+      "priority": 5
+    },
+    {
+      "id": "9",
+      "frontText": "食べる",
+      "reading": "taberu",
+      "backText": "Jíst",
+      "priority": 5
+    },
+    {
+      "id": "10",
+      "frontText": "行く",
+      "reading": "iku",
+      "backText": "Jít",
+      "priority": 5
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:audioplayers/audioplayers.dart';
 import '../models/flashcard.dart';
 
 class FlashcardWidget extends StatefulWidget {
@@ -23,6 +25,8 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
   late AnimationController _controller;
   late Animation<double> _animation;
   bool _showingFront = true;
+  final AudioPlayer _audioPlayer = AudioPlayer();
+  bool _isPlayingAudio = false;
 
   @override
   void initState() {
@@ -40,6 +44,7 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
   @override
   void dispose() {
     _controller.dispose();
+    _audioPlayer.dispose();
     super.dispose();
   }
 
@@ -54,6 +59,31 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
       _controller.reverse().then((_) {
         setState(() => _showingFront = true);
       });
+    }
+  }
+
+  Future<void> _playAudio() async {
+    final audioUrl = widget.showFront
+        ? widget.card.audioFrontUrl
+        : widget.card.audioBackUrl;
+
+    if (audioUrl == null || audioUrl.isEmpty) return;
+
+    setState(() => _isPlayingAudio = true);
+
+    try {
+      await _audioPlayer.stop();
+      if (audioUrl.startsWith('http')) {
+        await _audioPlayer.play(UrlSource(audioUrl));
+      } else {
+        await _audioPlayer.play(AssetSource(audioUrl));
+      }
+    } catch (e) {
+      // Silently fail if audio unavailable
+    } finally {
+      if (mounted) {
+        setState(() => _isPlayingAudio = false);
+      }
     }
   }
 
@@ -81,6 +111,11 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
                         ? widget.card.frontText
                         : widget.card.backText,
                     subtext: widget.showFront ? widget.card.reading : null,
+                    imageUrl: widget.card.imageUrlResolved,
+                    hasAudio: (widget.showFront
+                            ? widget.card.audioFrontUrl
+                            : widget.card.audioBackUrl) !=
+                        null,
                     color: Colors.white,
                   )
                 : Transform(
@@ -91,6 +126,11 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
                           ? widget.card.backText
                           : widget.card.frontText,
                       subtext: !widget.showFront ? widget.card.reading : null,
+                      imageUrl: null, // Only show image on front
+                      hasAudio: (!widget.showFront
+                              ? widget.card.audioFrontUrl
+                              : widget.card.audioBackUrl) !=
+                          null,
                       color: Colors.blue.shade50,
                     ),
                   ),
@@ -103,6 +143,8 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
   Widget _buildCardFace({
     required String text,
     String? subtext,
+    String? imageUrl,
+    bool hasAudio = false,
     required Color color,
   }) {
     return Container(
@@ -119,28 +161,88 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
           ),
         ],
       ),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+      child: Stack(
         children: [
-          Text(
-            text,
-            style: const TextStyle(
-              fontSize: 48,
-              fontWeight: FontWeight.bold,
+          // Main content
+          Padding(
+            padding: const EdgeInsets.all(20),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                // Image (if available)
+                if (imageUrl != null && imageUrl.isNotEmpty) ...[
+                  Expanded(
+                    flex: 2,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(12),
+                      child: imageUrl.startsWith('http')
+                          ? CachedNetworkImage(
+                              imageUrl: imageUrl,
+                              fit: BoxFit.contain,
+                              placeholder: (context, url) => const Center(
+                                child: CircularProgressIndicator(),
+                              ),
+                              errorWidget: (context, url, error) =>
+                                  const Icon(Icons.image_not_supported),
+                            )
+                          : Image.asset(
+                              imageUrl,
+                              fit: BoxFit.contain,
+                              errorBuilder: (context, error, stackTrace) =>
+                                  const Icon(Icons.image_not_supported),
+                            ),
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+                ],
+                // Text content
+                Expanded(
+                  flex: imageUrl != null ? 1 : 2,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        text,
+                        style: TextStyle(
+                          fontSize: imageUrl != null ? 36 : 48,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                      if (subtext != null) ...[
+                        const SizedBox(height: 12),
+                        Text(
+                          subtext,
+                          style: TextStyle(
+                            fontSize: imageUrl != null ? 18 : 24,
+                            color: Colors.grey.shade600,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                    ],
+                  ),
+                ),
+              ],
             ),
-            textAlign: TextAlign.center,
           ),
-          if (subtext != null) ...[
-            const SizedBox(height: 16),
-            Text(
-              subtext,
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.grey.shade600,
+          // Audio button (top right)
+          if (hasAudio)
+            Positioned(
+              top: 12,
+              right: 12,
+              child: IconButton(
+                onPressed: _isPlayingAudio ? null : _playAudio,
+                icon: Icon(
+                  _isPlayingAudio ? Icons.volume_up : Icons.volume_up_outlined,
+                  color: _isPlayingAudio
+                      ? Colors.blue
+                      : Colors.grey.shade600,
+                  size: 28,
+                ),
+                tooltip: 'Play pronunciation',
               ),
-              textAlign: TextAlign.center,
             ),
-          ],
         ],
       ),
     );
