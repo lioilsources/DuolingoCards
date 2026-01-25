@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/deck.dart';
 import '../services/deck_service.dart';
 import '../services/local_deck_service.dart';
+import '../services/priority_service.dart';
 import 'deck_screen.dart';
 import 'deck_store_screen.dart';
 
@@ -15,9 +16,11 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final LocalDeckService _localDeckService = LocalDeckService();
   final DeckService _deckService = DeckService();
+  final PriorityService _priorityService = PriorityService();
 
   List<Deck> _localDecks = [];
   Deck? _bundledDeck;
+  Map<String, PriorityStats> _deckStats = {};
   bool _isLoading = true;
 
   // TODO: Move to config
@@ -39,9 +42,21 @@ class _HomeScreenState extends State<HomeScreen> {
       // Load downloaded decks
       final localDecks = await _localDeckService.loadAllDecks();
 
+      // Load priorities and calculate stats for all decks
+      final stats = <String, PriorityStats>{};
+
+      await _priorityService.loadPriorities(bundled.id, bundled.cards);
+      stats[bundled.id] = _priorityService.getStats(bundled.cards);
+
+      for (final deck in localDecks) {
+        await _priorityService.loadPriorities(deck.id, deck.cards);
+        stats[deck.id] = _priorityService.getStats(deck.cards);
+      }
+
       setState(() {
         _bundledDeck = bundled;
         _localDecks = localDecks;
+        _deckStats = stats;
         _isLoading = false;
       });
     } catch (e) {
@@ -145,10 +160,12 @@ class _HomeScreenState extends State<HomeScreen> {
         itemBuilder: (context, index) {
           final deck = allDecks[index];
           final isBundled = deck.id == _bundledDeck?.id;
+          final stats = _deckStats[deck.id];
 
           return _DeckTile(
             deck: deck,
             isBundled: isBundled,
+            stats: stats,
             onTap: () => _openDeck(deck),
           );
         },
@@ -160,73 +177,149 @@ class _HomeScreenState extends State<HomeScreen> {
 class _DeckTile extends StatelessWidget {
   final Deck deck;
   final bool isBundled;
+  final PriorityStats? stats;
   final VoidCallback onTap;
 
   const _DeckTile({
     required this.deck,
     required this.isBundled,
     required this.onTap,
+    this.stats,
   });
 
   @override
   Widget build(BuildContext context) {
     return Card(
       margin: const EdgeInsets.only(bottom: 12),
-      child: ListTile(
-        contentPadding: const EdgeInsets.all(16),
-        leading: Container(
-          width: 50,
-          height: 50,
-          decoration: BoxDecoration(
-            color: Colors.blue.shade100,
-            borderRadius: BorderRadius.circular(8),
-          ),
-          child: Center(
-            child: Text(
-              deck.frontLanguage.toUpperCase(),
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-                color: Colors.blue.shade700,
-              ),
-            ),
-          ),
-        ),
-        title: Row(
-          children: [
-            Expanded(
-              child: Text(
-                deck.name,
-                style: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-            if (isBundled)
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(12),
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Row(
+            children: [
+              // Language badge
               Container(
-                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                width: 50,
+                height: 50,
                 decoration: BoxDecoration(
-                  color: Colors.green.shade100,
-                  borderRadius: BorderRadius.circular(12),
+                  color: Colors.blue.shade100,
+                  borderRadius: BorderRadius.circular(8),
                 ),
-                child: Text(
-                  'Free',
-                  style: TextStyle(
-                    fontSize: 12,
-                    color: Colors.green.shade700,
+                child: Center(
+                  child: Text(
+                    deck.frontLanguage.toUpperCase(),
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.blue.shade700,
+                    ),
                   ),
                 ),
               ),
-          ],
+              const SizedBox(width: 16),
+              // Title, subtitle, progress bar
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    // Title row
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            deck.name,
+                            style: const TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                        if (isBundled)
+                          Container(
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 8, vertical: 2),
+                            decoration: BoxDecoration(
+                              color: Colors.green.shade100,
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Text(
+                              'Free',
+                              style: TextStyle(
+                                fontSize: 12,
+                                color: Colors.green.shade700,
+                              ),
+                            ),
+                          ),
+                      ],
+                    ),
+                    const SizedBox(height: 4),
+                    // Subtitle
+                    Text(
+                      '${deck.cards.length} cards • ${deck.frontLanguage.toUpperCase()} → ${deck.backLanguage.toUpperCase()}',
+                      style: TextStyle(
+                        color: Colors.grey.shade600,
+                        fontSize: 14,
+                      ),
+                    ),
+                    // Progress bar
+                    if (stats != null) ...[
+                      const SizedBox(height: 8),
+                      _KnowledgeProgressBar(stats: stats!),
+                    ],
+                  ],
+                ),
+              ),
+              const SizedBox(width: 8),
+              const Icon(Icons.play_arrow),
+            ],
+          ),
         ),
-        subtitle: Text(
-          '${deck.cards.length} cards • ${deck.frontLanguage.toUpperCase()} → ${deck.backLanguage.toUpperCase()}',
-          style: TextStyle(color: Colors.grey.shade600),
-        ),
-        trailing: const Icon(Icons.play_arrow),
-        onTap: onTap,
       ),
+    );
+  }
+}
+
+class _KnowledgeProgressBar extends StatelessWidget {
+  final PriorityStats stats;
+
+  const _KnowledgeProgressBar({required this.stats});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        // Progress bar
+        ClipRRect(
+          borderRadius: BorderRadius.circular(4),
+          child: SizedBox(
+            height: 6,
+            child: Row(
+              children: [
+                // Known (green)
+                if (stats.knownPercent > 0)
+                  Expanded(
+                    flex: (stats.knownPercent * 100).round(),
+                    child: Container(color: Colors.green.shade400),
+                  ),
+                // Learning (yellow/amber)
+                if (stats.learningPercent > 0)
+                  Expanded(
+                    flex: (stats.learningPercent * 100).round(),
+                    child: Container(color: Colors.amber.shade400),
+                  ),
+                // Unknown (red)
+                if (stats.unknownPercent > 0)
+                  Expanded(
+                    flex: (stats.unknownPercent * 100).round(),
+                    child: Container(color: Colors.red.shade400),
+                  ),
+              ],
+            ),
+          ),
+        ),
+      ],
     );
   }
 }

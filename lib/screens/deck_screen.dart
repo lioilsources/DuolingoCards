@@ -57,32 +57,20 @@ class _DeckScreenState extends State<DeckScreen> {
 
     switch (direction) {
       case SwipeDirection.up:
-        // Znám - snížit prioritu, zůstat na místě
+        // Znám - snížit prioritu a přejít na další kartu
         _currentCard!.decreasePriority();
         _priorityService.savePriorities(_deck!.id, _deck!.cards);
+        _moveToNextCard();
         break;
       case SwipeDirection.down:
-        // Neznám - zvýšit prioritu, zůstat na místě
+        // Neznám - zvýšit prioritu a přejít na další kartu
         _currentCard!.increasePriority();
         _priorityService.savePriorities(_deck!.id, _deck!.cards);
+        _moveToNextCard();
         break;
       case SwipeDirection.left:
         // Další kartička (vpřed v historii nebo nová)
-        if (_historyIndex < _history.length - 1) {
-          // Jsme v historii - jít vpřed
-          _historyIndex++;
-          setState(() {
-            _currentCard = _history[_historyIndex];
-          });
-        } else {
-          // Jsme na konci - vybrat novou kartičku
-          final nextCard = _priorityService.selectNextCard(_deck!.cards);
-          _history.add(nextCard);
-          _historyIndex = _history.length - 1;
-          setState(() {
-            _currentCard = nextCard;
-          });
-        }
+        _moveToNextCard();
         break;
       case SwipeDirection.right:
         // Zpět v historii
@@ -93,6 +81,24 @@ class _DeckScreenState extends State<DeckScreen> {
           });
         }
         break;
+    }
+  }
+
+  void _moveToNextCard() {
+    if (_historyIndex < _history.length - 1) {
+      // Jsme v historii - jít vpřed
+      _historyIndex++;
+      setState(() {
+        _currentCard = _history[_historyIndex];
+      });
+    } else {
+      // Jsme na konci - vybrat novou kartičku
+      final nextCard = _priorityService.selectNextCard(_deck!.cards);
+      _history.add(nextCard);
+      _historyIndex = _history.length - 1;
+      setState(() {
+        _currentCard = nextCard;
+      });
     }
   }
 

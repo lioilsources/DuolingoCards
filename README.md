@@ -1,5 +1,6 @@
-flutter build ios --no-codesign
-
+20/1/2026
+- iOS app is crashing on mobile device if not attached to XCode: `$flutter  run --release`
+- stuck on `$flutter run` to build iOS: `$flutter build ios --no-codesign`
 
 18/1/2026
 - 10 japanese cards in deck with japanese runes

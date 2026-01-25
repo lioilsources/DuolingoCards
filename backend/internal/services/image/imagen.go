@@ -48,15 +48,8 @@ type imagenResponse struct {
 	} `json:"predictions"`
 }
 
-func (c *ImagenClient) GenerateImage(word, meaning, language string) ([]byte, error) {
-	// Create a prompt for vocabulary illustration
-	prompt := fmt.Sprintf(
-		"Simple, clean illustration for vocabulary flashcard. The word is '%s' meaning '%s'. "+
-			"Create a minimalist, colorful icon-style illustration that clearly represents this concept. "+
-			"No text, no letters, just a simple visual representation. White background.",
-		word, meaning,
-	)
-
+// GenerateImage generates an image from a prompt
+func (c *ImagenClient) GenerateImage(prompt string) ([]byte, error) {
 	url := fmt.Sprintf("%s?key=%s", geminiBaseURL, c.apiKey)
 
 	reqBody := imagenRequest{

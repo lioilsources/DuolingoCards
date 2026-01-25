@@ -58,18 +58,27 @@ class _CardStackState extends State<CardStack>
 
   void _onPanEnd(DragEndDetails details) {
     final screenSize = MediaQuery.of(context).size;
-    final threshold = screenSize.width * 0.3;
+    final distanceThreshold = screenSize.width * 0.3;
+    final velocityThreshold = 800.0; // px/s
 
+    final velocity = details.velocity.pixelsPerSecond;
     SwipeDirection? direction;
 
-    if (_dragOffset.dy < -threshold) {
-      direction = SwipeDirection.up;
-    } else if (_dragOffset.dy > threshold) {
-      direction = SwipeDirection.down;
-    } else if (_dragOffset.dx < -threshold) {
-      direction = SwipeDirection.left;
-    } else if (_dragOffset.dx > threshold) {
-      direction = SwipeDirection.right;
+    // Priorita: vertikální vs horizontální podle směru tažení
+    if (_dragOffset.dy.abs() > _dragOffset.dx.abs()) {
+      // Vertikální swipe
+      if (_dragOffset.dy < -distanceThreshold || velocity.dy < -velocityThreshold) {
+        direction = SwipeDirection.up;
+      } else if (_dragOffset.dy > distanceThreshold || velocity.dy > velocityThreshold) {
+        direction = SwipeDirection.down;
+      }
+    } else {
+      // Horizontální swipe
+      if (_dragOffset.dx < -distanceThreshold || velocity.dx < -velocityThreshold) {
+        direction = SwipeDirection.left;
+      } else if (_dragOffset.dx > distanceThreshold || velocity.dx > velocityThreshold) {
+        direction = SwipeDirection.right;
+      }
     }
 
     if (direction != null) {

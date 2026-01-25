@@ -8,6 +8,10 @@ type Deck struct {
 	BackLanguage  string `json:"backLanguage"`
 	Cards         []Card `json:"cards"`
 	MediaBaseURL  string `json:"mediaBaseUrl,omitempty"`
+
+	// Media generation settings
+	ImagePromptTemplate string `json:"imagePromptTemplate,omitempty"` // e.g. "Simple illustration of {word}, flat style"
+	TTSVoiceID          string `json:"ttsVoiceId,omitempty"`          // ElevenLabs voice ID for frontLanguage
 }
 
 type CatalogItem struct {

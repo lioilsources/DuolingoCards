@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 	"sync"
 
 	"github.com/example/duolingocards-backend/internal/config"
@@ -13,6 +14,8 @@ import (
 	"github.com/example/duolingocards-backend/internal/services/tts"
 	"github.com/example/duolingocards-backend/internal/storage"
 )
+
+const defaultImagePromptTemplate = "Simple, clean illustration for vocabulary flashcard showing '{word}'. Minimalist, colorful icon-style. No text, no letters. White background."
 
 type Generator struct {
 	ttsClient    *tts.ElevenLabsClient
@@ -177,14 +180,20 @@ func (g *Generator) StartGeneration(req models.GenerateRequest) (*models.Generat
 }
 
 func (g *Generator) generateMedia(deck *models.Deck, status *models.GenerateStatus) {
+	// Get image prompt template (use default if not set)
+	imageTemplate := deck.ImagePromptTemplate
+	if imageTemplate == "" {
+		imageTemplate = defaultImagePromptTemplate
+	}
+
 	for i := range deck.Cards {
 		card := &deck.Cards[i]
 
+		// Generate TTS for frontLanguage (the language being learned)
 		if g.ttsClient != nil {
-			// Generate Japanese audio
-			audioData, err := g.ttsClient.GenerateSpeech(card.FrontText)
+			audioData, err := g.ttsClient.GenerateSpeech(card.FrontText, deck.TTSVoiceID)
 			if err == nil {
-				url, err := g.storage.Save(deck.ID, card.ID, "audio_ja.mp3", audioData)
+				url, err := g.storage.Save(deck.ID, card.ID, "audio.mp3", audioData)
 				if err == nil {
 					if card.Media == nil {
 						card.Media = &models.Media{}
@@ -194,9 +203,10 @@ func (g *Generator) generateMedia(deck *models.Deck, status *models.GenerateStat
 			}
 		}
 
+		// Generate illustration using template
 		if g.imageClient != nil {
-			// Generate illustration
-			imageData, err := g.imageClient.GenerateImage(card.FrontText, card.BackText, deck.FrontLanguage)
+			prompt := buildImagePrompt(imageTemplate, card)
+			imageData, err := g.imageClient.GenerateImage(prompt)
 			if err == nil {
 				url, err := g.storage.Save(deck.ID, card.ID, "image.png", imageData)
 				if err == nil {
@@ -219,6 +229,17 @@ func (g *Generator) generateMedia(deck *models.Deck, status *models.GenerateStat
 	status.Status = "completed"
 	g.saveDeck(deck)
 	g.mu.Unlock()
+}
+
+// buildImagePrompt replaces placeholders in template with card values
+// Supported placeholders: {word}, {front}, {back}, {reading}
+func buildImagePrompt(template string, card *models.Card) string {
+	prompt := template
+	prompt = strings.ReplaceAll(prompt, "{word}", card.BackText)  // Use backText (translation) for image
+	prompt = strings.ReplaceAll(prompt, "{front}", card.FrontText)
+	prompt = strings.ReplaceAll(prompt, "{back}", card.BackText)
+	prompt = strings.ReplaceAll(prompt, "{reading}", card.Reading)
+	return prompt
 }
 
 func (g *Generator) GetStatus(deckID string) (*models.GenerateStatus, error) {

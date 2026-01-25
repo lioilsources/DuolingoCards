@@ -57,4 +57,47 @@ class PriorityService {
     // Fallback - vrátit první kartu
     return cards.first;
   }
+
+  /// Returns knowledge stats: (known, learning, unknown) counts
+  /// Known: priority 1-2, Learning: 3-7, Unknown: 8-10
+  PriorityStats getStats(List<Flashcard> cards) {
+    int known = 0;
+    int learning = 0;
+    int unknown = 0;
+
+    for (final card in cards) {
+      if (card.priority <= 2) {
+        known++;
+      } else if (card.priority <= 7) {
+        learning++;
+      } else {
+        unknown++;
+      }
+    }
+
+    return PriorityStats(
+      known: known,
+      learning: learning,
+      unknown: unknown,
+      total: cards.length,
+    );
+  }
+}
+
+class PriorityStats {
+  final int known;
+  final int learning;
+  final int unknown;
+  final int total;
+
+  const PriorityStats({
+    required this.known,
+    required this.learning,
+    required this.unknown,
+    required this.total,
+  });
+
+  double get knownPercent => total > 0 ? known / total : 0;
+  double get learningPercent => total > 0 ? learning / total : 0;
+  double get unknownPercent => total > 0 ? unknown / total : 0;
 }

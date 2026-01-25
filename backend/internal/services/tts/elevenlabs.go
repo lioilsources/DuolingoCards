@@ -43,8 +43,13 @@ type voiceSettings struct {
 	SimilarityBoost float64 `json:"similarity_boost"`
 }
 
-func (c *ElevenLabsClient) GenerateSpeech(text string) ([]byte, error) {
-	url := fmt.Sprintf("%s/text-to-speech/%s", elevenLabsBaseURL, c.voiceID)
+// GenerateSpeech generates audio for the given text
+// If voiceID is empty, uses the default voice
+func (c *ElevenLabsClient) GenerateSpeech(text string, voiceID string) ([]byte, error) {
+	if voiceID == "" {
+		voiceID = c.voiceID
+	}
+	url := fmt.Sprintf("%s/text-to-speech/%s", elevenLabsBaseURL, voiceID)
 
 	reqBody := ttsRequest{
 		Text:    text,
