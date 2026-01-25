@@ -1,78 +1,130 @@
 {
   "id": "japanese-basics",
   "name": "Základní japonština",
+  "description": "50 nejčastějších japonských slov pro začátečníky",
   "frontLanguage": "ja",
   "backLanguage": "cs",
+  "mediaBaseUrl": "assets/media/japanese-basics",
   "cards": [
     {
       "id": "1",
       "frontText": "こんにちは",
-      "reading": "konnichiwa",
       "backText": "Dobrý den",
-      "priority": 5
+      "reading": "konnichiwa",
+      "priority": 5,
+      "media": {
+        "image": "01-dobry-den-image.png",
+        "audioFront": "01-konnichiwa-audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "2",
       "frontText": "ありがとう",
-      "reading": "arigatou",
       "backText": "Děkuji",
-      "priority": 5
+      "reading": "arigatou",
+      "priority": 5,
+      "media": {
+        "image": "02-dekuji-image.png",
+        "audioFront": "02-arigatou-audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "3",
       "frontText": "はい",
-      "reading": "hai",
       "backText": "Ano",
-      "priority": 5
+      "reading": "hai",
+      "priority": 5,
+      "media": {
+        "image": "03-ano-image.png",
+        "audioFront": "03-hai-audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "4",
       "frontText": "いいえ",
-      "reading": "iie",
       "backText": "Ne",
-      "priority": 5
+      "reading": "iie",
+      "priority": 5,
+      "media": {
+        "image": "04-ne-image.png",
+        "audioFront": "04-iie-audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "5",
       "frontText": "すみません",
-      "reading": "sumimasen",
       "backText": "Promiňte",
-      "priority": 5
+      "reading": "sumimasen",
+      "priority": 5,
+      "media": {
+        "image": "05-prominte-image.png",
+        "audioFront": "05-sumimasen-audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "6",
       "frontText": "おはよう",
-      "reading": "ohayou",
       "backText": "Dobré ráno",
-      "priority": 5
+      "reading": "ohayou",
+      "priority": 5,
+      "media": {
+        "image": "06-dobre-rano-image.png",
+        "audioFront": "06-ohayou-audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "7",
       "frontText": "さようなら",
-      "reading": "sayounara",
       "backText": "Sbohem",
-      "priority": 5
+      "reading": "sayounara",
+      "priority": 5,
+      "media": {
+        "image": "07-sbohem-image.png",
+        "audioFront": "07-sayounara-audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "8",
       "frontText": "水",
-      "reading": "mizu",
       "backText": "Voda",
-      "priority": 5
+      "reading": "mizu",
+      "priority": 5,
+      "media": {
+        "image": "08-voda-image.png",
+        "audioFront": "08-mizu-audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "9",
       "frontText": "食べる",
-      "reading": "taberu",
       "backText": "Jíst",
-      "priority": 5
+      "reading": "taberu",
+      "priority": 5,
+      "media": {
+        "image": "09-jist-image.png",
+        "audioFront": "09-taberu-audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "10",
       "frontText": "行く",
-      "reading": "iku",
       "backText": "Jít",
-      "priority": 5
+      "reading": "iku",
+      "priority": 5,
+      "media": {
+        "image": "10-jit-image.png",
+        "audioFront": "10-iku-audio.mp3"
+      },
+      "mediaStatus": "ready"
     }
   ]
 }
