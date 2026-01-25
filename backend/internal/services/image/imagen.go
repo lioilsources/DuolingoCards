@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	// Gemini API endpoint for image generation
+	// Gemini API endpoint for image generation (Imagen 3)
 	geminiBaseURL = "https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict"
 )
 
@@ -36,9 +36,9 @@ type imagenInstance struct {
 }
 
 type imagenParams struct {
-	SampleCount       int    `json:"sampleCount"`
-	AspectRatio       string `json:"aspectRatio"`
-	PersonGeneration  string `json:"personGeneration"`
+	SampleCount      int    `json:"sampleCount"`
+	AspectRatio      string `json:"aspectRatio"`
+	PersonGeneration string `json:"personGeneration"`
 }
 
 type imagenResponse struct {
@@ -50,7 +50,27 @@ type imagenResponse struct {
 
 // GenerateImage generates an image from a prompt
 func (c *ImagenClient) GenerateImage(prompt string) ([]byte, error) {
-	url := fmt.Sprintf("%s?key=%s", geminiBaseURL, c.apiKey)
+	// Try Imagen 3 first, fall back to Imagen 4 if not available
+	models := []string{
+		"imagen-3.0-generate-002",
+		"imagen-4.0-generate-001",
+		"imagen-4.0-fast-generate-001",
+	}
+
+	var lastErr error
+	for _, model := range models {
+		data, err := c.tryGenerateWithModel(model, prompt)
+		if err == nil {
+			return data, nil
+		}
+		lastErr = err
+	}
+
+	return nil, lastErr
+}
+
+func (c *ImagenClient) tryGenerateWithModel(model, prompt string) ([]byte, error) {
+	url := fmt.Sprintf("https://generativelanguage.googleapis.com/v1beta/models/%s:predict", model)
 
 	reqBody := imagenRequest{
 		Instances: []imagenInstance{
@@ -74,6 +94,7 @@ func (c *ImagenClient) GenerateImage(prompt string) ([]byte, error) {
 	}
 
 	req.Header.Set("Content-Type", "application/json")
+	req.Header.Set("x-goog-api-key", c.apiKey)
 
 	resp, err := c.client.Do(req)
 	if err != nil {
