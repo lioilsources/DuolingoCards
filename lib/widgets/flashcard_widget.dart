@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
@@ -73,17 +74,54 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
 
     try {
       await _audioPlayer.stop();
-      if (audioUrl.startsWith('http')) {
-        await _audioPlayer.play(UrlSource(audioUrl));
-      } else {
-        await _audioPlayer.play(AssetSource(audioUrl));
-      }
+      await _audioPlayer.play(_getAudioSource(audioUrl));
     } catch (e) {
       // Silently fail if audio unavailable
     } finally {
       if (mounted) {
         setState(() => _isPlayingAudio = false);
       }
+    }
+  }
+
+  Source _getAudioSource(String audioUrl) {
+    if (audioUrl.startsWith('http')) {
+      return UrlSource(audioUrl);
+    } else if (audioUrl.startsWith('assets/')) {
+      // Remove 'assets/' prefix for AssetSource as it's added automatically
+      return AssetSource(audioUrl.substring(7));
+    } else {
+      // Local file path
+      return DeviceFileSource(audioUrl);
+    }
+  }
+
+  Widget _buildImage(String imageUrl) {
+    if (imageUrl.startsWith('http')) {
+      return CachedNetworkImage(
+        imageUrl: imageUrl,
+        fit: BoxFit.contain,
+        placeholder: (context, url) => const Center(
+          child: CircularProgressIndicator(),
+        ),
+        errorWidget: (context, url, error) =>
+            const Icon(Icons.image_not_supported),
+      );
+    } else if (imageUrl.startsWith('assets/')) {
+      return Image.asset(
+        imageUrl,
+        fit: BoxFit.contain,
+        errorBuilder: (context, error, stackTrace) =>
+            const Icon(Icons.image_not_supported),
+      );
+    } else {
+      // Local file path
+      return Image.file(
+        File(imageUrl),
+        fit: BoxFit.contain,
+        errorBuilder: (context, error, stackTrace) =>
+            const Icon(Icons.image_not_supported),
+      );
     }
   }
 
@@ -175,22 +213,7 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
                         flex: 2,
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(12),
-                          child: imageUrl.startsWith('http')
-                              ? CachedNetworkImage(
-                                  imageUrl: imageUrl,
-                                  fit: BoxFit.contain,
-                                  placeholder: (context, url) => const Center(
-                                    child: CircularProgressIndicator(),
-                                  ),
-                                  errorWidget: (context, url, error) =>
-                                      const Icon(Icons.image_not_supported),
-                                )
-                              : Image.asset(
-                                  imageUrl,
-                                  fit: BoxFit.contain,
-                                  errorBuilder: (context, error, stackTrace) =>
-                                      const Icon(Icons.image_not_supported),
-                                ),
+                          child: _buildImage(imageUrl),
                         ),
                       ),
                       const SizedBox(height: 20),

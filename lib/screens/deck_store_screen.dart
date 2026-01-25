@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/catalog.dart';
 import '../services/api_service.dart';
 import '../services/local_deck_service.dart';
+import '../services/media_download_service.dart';
 import '../services/iap_service.dart';
 import 'deck_screen.dart';
 
@@ -20,12 +21,17 @@ class DeckStoreScreen extends StatefulWidget {
 class _DeckStoreScreenState extends State<DeckStoreScreen> {
   late final ApiService _apiService;
   late final LocalDeckService _localDeckService;
+  late final MediaDownloadService _mediaDownloadService;
   final IAPService _iapService = IAPService();
 
   Catalog? _catalog;
   Set<String> _downloadedDeckIds = {};
   bool _isLoading = true;
   bool _isPurchasing = false;
+  bool _isDownloading = false;
+  int _downloadProgress = 0;
+  int _downloadTotal = 0;
+  String? _downloadingDeckName;
   String? _error;
 
   @override
@@ -33,6 +39,7 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
     super.initState();
     _apiService = ApiService(baseUrl: widget.apiBaseUrl);
     _localDeckService = LocalDeckService();
+    _mediaDownloadService = MediaDownloadService();
     _initIAP();
     _loadData();
   }
@@ -104,15 +111,32 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
     }
 
     try {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Downloading ${item.name}...')),
-      );
+      setState(() {
+        _isDownloading = true;
+        _downloadProgress = 0;
+        _downloadTotal = 0;
+        _downloadingDeckName = item.name;
+      });
 
       final deck = await _apiService.getDeck(item.id);
-      await _localDeckService.saveDeck(deck);
+
+      // Download media files with progress
+      final deckWithLocalMedia = await _mediaDownloadService.downloadDeckMedia(
+        deck,
+        onProgress: (downloaded, total) {
+          setState(() {
+            _downloadProgress = downloaded;
+            _downloadTotal = total;
+          });
+        },
+      );
+
+      await _localDeckService.saveDeck(deckWithLocalMedia);
 
       setState(() {
         _downloadedDeckIds.add(item.id);
+        _isDownloading = false;
+        _downloadingDeckName = null;
       });
 
       if (mounted) {
@@ -121,6 +145,10 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
         );
       }
     } catch (e) {
+      setState(() {
+        _isDownloading = false;
+        _downloadingDeckName = null;
+      });
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Download failed: $e')),
@@ -154,16 +182,33 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
 
   Future<void> _downloadPurchasedDeck(String deckId, String receiptData) async {
     try {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Downloading purchased deck...')),
-      );
+      setState(() {
+        _isDownloading = true;
+        _downloadProgress = 0;
+        _downloadTotal = 0;
+        _downloadingDeckName = 'purchased deck';
+      });
 
       // Download with receipt for server validation
       final deck = await _apiService.downloadDeck(deckId, receiptData: receiptData);
-      await _localDeckService.saveDeck(deck);
+
+      // Download media files with progress
+      final deckWithLocalMedia = await _mediaDownloadService.downloadDeckMedia(
+        deck,
+        onProgress: (downloaded, total) {
+          setState(() {
+            _downloadProgress = downloaded;
+            _downloadTotal = total;
+          });
+        },
+      );
+
+      await _localDeckService.saveDeck(deckWithLocalMedia);
 
       setState(() {
         _downloadedDeckIds.add(deckId);
+        _isDownloading = false;
+        _downloadingDeckName = null;
       });
 
       if (mounted) {
@@ -172,6 +217,10 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
         );
       }
     } catch (e) {
+      setState(() {
+        _isDownloading = false;
+        _downloadingDeckName = null;
+      });
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Download failed: $e')),
@@ -263,6 +312,39 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
                       'Processing purchase...',
                       style: TextStyle(color: Colors.white, fontSize: 16),
                     ),
+                  ],
+                ),
+              ),
+            ),
+          if (_isDownloading)
+            Container(
+              color: Colors.black54,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    const CircularProgressIndicator(color: Colors.white),
+                    const SizedBox(height: 16),
+                    Text(
+                      'Downloading $_downloadingDeckName...',
+                      style: const TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                    if (_downloadTotal > 0) ...[
+                      const SizedBox(height: 8),
+                      Text(
+                        '$_downloadProgress / $_downloadTotal files',
+                        style: const TextStyle(color: Colors.white70, fontSize: 14),
+                      ),
+                      const SizedBox(height: 12),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 40),
+                        child: LinearProgressIndicator(
+                          value: _downloadProgress / _downloadTotal,
+                          backgroundColor: Colors.white24,
+                          valueColor: const AlwaysStoppedAnimation<Color>(Colors.white),
+                        ),
+                      ),
+                    ],
                   ],
                 ),
               ),

@@ -28,6 +28,37 @@ class CardMedia {
       'video': video,
     };
   }
+
+  CardMedia copyWith({
+    String? image,
+    String? audioFront,
+    String? audioBack,
+    String? video,
+  }) {
+    return CardMedia(
+      image: image ?? this.image,
+      audioFront: audioFront ?? this.audioFront,
+      audioBack: audioBack ?? this.audioBack,
+      video: video ?? this.video,
+    );
+  }
+
+  CardMedia withResolvedUrls(String baseUrl) {
+    String? resolveUrl(String? path) {
+      if (path == null || path.isEmpty) return path;
+      if (path.startsWith('http') || path.startsWith('/') || path.startsWith('assets/')) {
+        return path;
+      }
+      return '$baseUrl/$path';
+    }
+
+    return CardMedia(
+      image: resolveUrl(image),
+      audioFront: resolveUrl(audioFront),
+      audioBack: resolveUrl(audioBack),
+      video: resolveUrl(video),
+    );
+  }
 }
 
 class Flashcard {
@@ -109,5 +140,38 @@ class Flashcard {
   void decreasePriority() {
     if (priority > 1) priority--;
     lastSeen = DateTime.now();
+  }
+
+  Flashcard copyWith({
+    String? id,
+    String? frontText,
+    String? backText,
+    String? reading,
+    CardMedia? media,
+    String? mediaStatus,
+    String? frontAudio,
+    String? backAudio,
+    String? imageUrl,
+    int? priority,
+    DateTime? lastSeen,
+  }) {
+    return Flashcard(
+      id: id ?? this.id,
+      frontText: frontText ?? this.frontText,
+      backText: backText ?? this.backText,
+      reading: reading ?? this.reading,
+      media: media ?? this.media,
+      mediaStatus: mediaStatus ?? this.mediaStatus,
+      frontAudio: frontAudio ?? this.frontAudio,
+      backAudio: backAudio ?? this.backAudio,
+      imageUrl: imageUrl ?? this.imageUrl,
+      priority: priority ?? this.priority,
+      lastSeen: lastSeen ?? this.lastSeen,
+    );
+  }
+
+  Flashcard withResolvedMediaUrls(String baseUrl) {
+    if (media == null) return this;
+    return copyWith(media: media!.withResolvedUrls(baseUrl));
   }
 }
