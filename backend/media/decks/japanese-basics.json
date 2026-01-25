@@ -4,77 +4,127 @@
   "description": "50 nejčastějších japonských slov pro začátečníky",
   "frontLanguage": "ja",
   "backLanguage": "cs",
-  "imagePromptTemplate": "Simple flat illustration representing '{word}', minimalist icon style, vibrant colors, white background, no text or letters",
   "cards": [
     {
       "id": "1",
       "frontText": "こんにちは",
-      "reading": "konnichiwa",
       "backText": "Dobrý den",
-      "priority": 5
+      "reading": "konnichiwa",
+      "priority": 5,
+      "media": {
+        "image": "http://localhost:8080/media/japanese-basics/1/image.png",
+        "audioFront": "http://localhost:8080/media/japanese-basics/1/audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "2",
       "frontText": "ありがとう",
-      "reading": "arigatou",
       "backText": "Děkuji",
-      "priority": 5
+      "reading": "arigatou",
+      "priority": 5,
+      "media": {
+        "image": "http://localhost:8080/media/japanese-basics/2/image.png",
+        "audioFront": "http://localhost:8080/media/japanese-basics/2/audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "3",
       "frontText": "はい",
-      "reading": "hai",
       "backText": "Ano",
-      "priority": 5
+      "reading": "hai",
+      "priority": 5,
+      "media": {
+        "image": "http://localhost:8080/media/japanese-basics/3/image.png",
+        "audioFront": "http://localhost:8080/media/japanese-basics/3/audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "4",
       "frontText": "いいえ",
-      "reading": "iie",
       "backText": "Ne",
-      "priority": 5
+      "reading": "iie",
+      "priority": 5,
+      "media": {
+        "image": "http://localhost:8080/media/japanese-basics/4/image.png",
+        "audioFront": "http://localhost:8080/media/japanese-basics/4/audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "5",
       "frontText": "すみません",
-      "reading": "sumimasen",
       "backText": "Promiňte",
-      "priority": 5
+      "reading": "sumimasen",
+      "priority": 5,
+      "media": {
+        "image": "http://localhost:8080/media/japanese-basics/5/image.png",
+        "audioFront": "http://localhost:8080/media/japanese-basics/5/audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "6",
       "frontText": "おはよう",
-      "reading": "ohayou",
       "backText": "Dobré ráno",
-      "priority": 5
+      "reading": "ohayou",
+      "priority": 5,
+      "media": {
+        "image": "http://localhost:8080/media/japanese-basics/6/image.png",
+        "audioFront": "http://localhost:8080/media/japanese-basics/6/audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "7",
       "frontText": "さようなら",
-      "reading": "sayounara",
       "backText": "Sbohem",
-      "priority": 5
+      "reading": "sayounara",
+      "priority": 5,
+      "media": {
+        "image": "http://localhost:8080/media/japanese-basics/7/image.png",
+        "audioFront": "http://localhost:8080/media/japanese-basics/7/audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "8",
       "frontText": "水",
-      "reading": "mizu",
       "backText": "Voda",
-      "priority": 5
+      "reading": "mizu",
+      "priority": 5,
+      "media": {
+        "image": "http://localhost:8080/media/japanese-basics/8/image.png",
+        "audioFront": "http://localhost:8080/media/japanese-basics/8/audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "9",
       "frontText": "食べる",
-      "reading": "taberu",
       "backText": "Jíst",
-      "priority": 5
+      "reading": "taberu",
+      "priority": 5,
+      "media": {
+        "image": "http://localhost:8080/media/japanese-basics/9/image.png",
+        "audioFront": "http://localhost:8080/media/japanese-basics/9/audio.mp3"
+      },
+      "mediaStatus": "ready"
     },
     {
       "id": "10",
       "frontText": "行く",
-      "reading": "iku",
       "backText": "Jít",
-      "priority": 5
+      "reading": "iku",
+      "priority": 5,
+      "media": {
+        "image": "http://localhost:8080/media/japanese-basics/10/image.png",
+        "audioFront": "http://localhost:8080/media/japanese-basics/10/audio.mp3"
+      },
+      "mediaStatus": "ready"
     }
-  ]
+  ],
+  "imagePromptTemplate": "Simple flat illustration representing '{word}', minimalist icon style, vibrant colors, white background, no text or letters"
 }

@@ -8,9 +8,15 @@ import (
 	"github.com/example/duolingocards-backend/internal/api"
 	"github.com/example/duolingocards-backend/internal/config"
 	"github.com/example/duolingocards-backend/internal/services"
+	"github.com/joho/godotenv"
 )
 
 func main() {
+	// Load .env file if it exists
+	if err := godotenv.Load(); err != nil {
+		log.Printf("Note: .env file not found, using environment variables")
+	}
+
 	cfg := config.Load()
 
 	generator := services.NewGenerator(cfg)

@@ -3,6 +3,7 @@ package services
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 	"os"
 	"path/filepath"
 	"strings"
@@ -186,36 +187,56 @@ func (g *Generator) generateMedia(deck *models.Deck, status *models.GenerateStat
 		imageTemplate = defaultImagePromptTemplate
 	}
 
+	log.Printf("Starting media generation for deck %s (%d cards)", deck.ID, len(deck.Cards))
+	log.Printf("TTS client: %v, Image client: %v", g.ttsClient != nil, g.imageClient != nil)
+
 	for i := range deck.Cards {
 		card := &deck.Cards[i]
+		log.Printf("Processing card %d/%d: %s", i+1, len(deck.Cards), card.FrontText)
 
 		// Generate TTS for frontLanguage (the language being learned)
 		if g.ttsClient != nil {
+			log.Printf("  Generating TTS for: %s", card.FrontText)
 			audioData, err := g.ttsClient.GenerateSpeech(card.FrontText, deck.TTSVoiceID)
-			if err == nil {
+			if err != nil {
+				log.Printf("  TTS error: %v", err)
+			} else {
 				url, err := g.storage.Save(deck.ID, card.ID, "audio.mp3", audioData)
-				if err == nil {
+				if err != nil {
+					log.Printf("  Storage error (audio): %v", err)
+				} else {
 					if card.Media == nil {
 						card.Media = &models.Media{}
 					}
 					card.Media.AudioFront = url
+					log.Printf("  TTS saved: %s", url)
 				}
 			}
+		} else {
+			log.Printf("  Skipping TTS - no client configured")
 		}
 
 		// Generate illustration using template
 		if g.imageClient != nil {
 			prompt := buildImagePrompt(imageTemplate, card)
+			log.Printf("  Generating image with prompt: %s", prompt)
 			imageData, err := g.imageClient.GenerateImage(prompt)
-			if err == nil {
+			if err != nil {
+				log.Printf("  Image error: %v", err)
+			} else {
 				url, err := g.storage.Save(deck.ID, card.ID, "image.png", imageData)
-				if err == nil {
+				if err != nil {
+					log.Printf("  Storage error (image): %v", err)
+				} else {
 					if card.Media == nil {
 						card.Media = &models.Media{}
 					}
 					card.Media.Image = url
+					log.Printf("  Image saved: %s", url)
 				}
 			}
+		} else {
+			log.Printf("  Skipping image - no client configured")
 		}
 
 		card.MediaStatus = "ready"
@@ -228,6 +249,7 @@ func (g *Generator) generateMedia(deck *models.Deck, status *models.GenerateStat
 	g.mu.Lock()
 	status.Status = "completed"
 	g.saveDeck(deck)
+	log.Printf("Media generation completed for deck %s", deck.ID)
 	g.mu.Unlock()
 }
 

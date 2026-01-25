@@ -1,3 +1,7 @@
+23/1/2026
+- tweak gestures to take dominant move
+- stats on deck lists
+
 20/1/2026
 - iOS app is crashing on mobile device if not attached to XCode: `$flutter  run --release`
 - stuck on `$flutter run` to build iOS: `$flutter build ios --no-codesign`
