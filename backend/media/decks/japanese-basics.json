@@ -1,9 +1,10 @@
 {
   "id": "japanese-basics",
   "name": "Základní japonština",
-  "description": "50 nejčastějších japonských slov pro začátečníky",
+  "description": "10 nejčastějších japonských slov pro začátečníky",
   "frontLanguage": "ja",
   "backLanguage": "cs",
+  "price": "free",
   "cards": [
     {
       "id": "1",
@@ -12,8 +13,8 @@
       "reading": "konnichiwa",
       "priority": 5,
       "media": {
-        "image": "http://localhost:8080/media/japanese-basics/1/image.png",
-        "audioFront": "http://localhost:8080/media/japanese-basics/1/audio.mp3"
+        "image": "http://192.168.88.15:8080/media/japanese-basics/01-dobry-den-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-basics/01-konnichiwa-audio.mp3"
       },
       "mediaStatus": "ready"
     },
@@ -24,8 +25,8 @@
       "reading": "arigatou",
       "priority": 5,
       "media": {
-        "image": "http://localhost:8080/media/japanese-basics/2/image.png",
-        "audioFront": "http://localhost:8080/media/japanese-basics/2/audio.mp3"
+        "image": "http://192.168.88.15:8080/media/japanese-basics/02-dekuji-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-basics/02-arigatou-audio.mp3"
       },
       "mediaStatus": "ready"
     },
@@ -36,8 +37,8 @@
       "reading": "hai",
       "priority": 5,
       "media": {
-        "image": "http://localhost:8080/media/japanese-basics/3/image.png",
-        "audioFront": "http://localhost:8080/media/japanese-basics/3/audio.mp3"
+        "image": "http://192.168.88.15:8080/media/japanese-basics/03-ano-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-basics/03-hai-audio.mp3"
       },
       "mediaStatus": "ready"
     },
@@ -48,8 +49,8 @@
       "reading": "iie",
       "priority": 5,
       "media": {
-        "image": "http://localhost:8080/media/japanese-basics/4/image.png",
-        "audioFront": "http://localhost:8080/media/japanese-basics/4/audio.mp3"
+        "image": "http://192.168.88.15:8080/media/japanese-basics/04-ne-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-basics/04-iie-audio.mp3"
       },
       "mediaStatus": "ready"
     },
@@ -60,8 +61,8 @@
       "reading": "sumimasen",
       "priority": 5,
       "media": {
-        "image": "http://localhost:8080/media/japanese-basics/5/image.png",
-        "audioFront": "http://localhost:8080/media/japanese-basics/5/audio.mp3"
+        "image": "http://192.168.88.15:8080/media/japanese-basics/05-prominte-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-basics/05-sumimasen-audio.mp3"
       },
       "mediaStatus": "ready"
     },
@@ -72,8 +73,8 @@
       "reading": "ohayou",
       "priority": 5,
       "media": {
-        "image": "http://localhost:8080/media/japanese-basics/6/image.png",
-        "audioFront": "http://localhost:8080/media/japanese-basics/6/audio.mp3"
+        "image": "http://192.168.88.15:8080/media/japanese-basics/06-dobre-rano-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-basics/06-ohayou-audio.mp3"
       },
       "mediaStatus": "ready"
     },
@@ -84,8 +85,8 @@
       "reading": "sayounara",
       "priority": 5,
       "media": {
-        "image": "http://localhost:8080/media/japanese-basics/7/image.png",
-        "audioFront": "http://localhost:8080/media/japanese-basics/7/audio.mp3"
+        "image": "http://192.168.88.15:8080/media/japanese-basics/07-sbohem-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-basics/07-sayounara-audio.mp3"
       },
       "mediaStatus": "ready"
     },
@@ -96,8 +97,8 @@
       "reading": "mizu",
       "priority": 5,
       "media": {
-        "image": "http://localhost:8080/media/japanese-basics/8/image.png",
-        "audioFront": "http://localhost:8080/media/japanese-basics/8/audio.mp3"
+        "image": "http://192.168.88.15:8080/media/japanese-basics/08-voda-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-basics/08-mizu-audio.mp3"
       },
       "mediaStatus": "ready"
     },
@@ -108,8 +109,8 @@
       "reading": "taberu",
       "priority": 5,
       "media": {
-        "image": "http://localhost:8080/media/japanese-basics/9/image.png",
-        "audioFront": "http://localhost:8080/media/japanese-basics/9/audio.mp3"
+        "image": "http://192.168.88.15:8080/media/japanese-basics/09-jist-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-basics/09-taberu-audio.mp3"
       },
       "mediaStatus": "ready"
     },
@@ -120,11 +121,12 @@
       "reading": "iku",
       "priority": 5,
       "media": {
-        "image": "http://localhost:8080/media/japanese-basics/10/image.png",
-        "audioFront": "http://localhost:8080/media/japanese-basics/10/audio.mp3"
+        "image": "http://192.168.88.15:8080/media/japanese-basics/10-jit-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-basics/10-iku-audio.mp3"
       },
       "mediaStatus": "ready"
     }
   ],
-  "imagePromptTemplate": "Simple flat illustration representing '{word}', minimalist icon style, vibrant colors, white background, no text or letters"
+  "version": 1769347815,
+  "imagePromptTemplate": "japanies anime style illustration representing word '{word}', textless image, vibrant colors, white background"
 }

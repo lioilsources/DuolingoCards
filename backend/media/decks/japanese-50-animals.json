@@ -1,0 +1,612 @@
+{
+  "id": "japanese-50-animals",
+  "name": "50 japonských zvířat",
+  "description": "50 zvířat z japonského jazyka",
+  "frontLanguage": "ja",
+  "backLanguage": "cs",
+  "price": "free",
+  "cards": [
+    {
+      "id": "1",
+      "frontText": "犬",
+      "backText": "Pes",
+      "reading": "inu",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/01-pes-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/01-inu-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "2",
+      "frontText": "猫",
+      "backText": "Kočka",
+      "reading": "neko",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/02-kocka-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/02-neko-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "3",
+      "frontText": "鳥",
+      "backText": "Pták",
+      "reading": "tori",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/03-ptak-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/03-tori-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "4",
+      "frontText": "魚",
+      "backText": "Ryba",
+      "reading": "sakana",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/04-ryba-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/04-sakana-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "5",
+      "frontText": "馬",
+      "backText": "Kůň",
+      "reading": "uma",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/05-kun-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/05-uma-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "6",
+      "frontText": "牛",
+      "backText": "Kráva",
+      "reading": "ushi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/06-krava-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/06-ushi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "7",
+      "frontText": "豚",
+      "backText": "Prase",
+      "reading": "buta",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/07-prase-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/07-buta-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "8",
+      "frontText": "羊",
+      "backText": "Ovce",
+      "reading": "hitsuji",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/08-ovce-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/08-hitsuji-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "9",
+      "frontText": "猿",
+      "backText": "Opice",
+      "reading": "saru",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/09-opice-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/09-saru-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "10",
+      "frontText": "鹿",
+      "backText": "Jelen",
+      "reading": "shika",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/10-jelen-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/10-shika-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "11",
+      "frontText": "熊",
+      "backText": "Medvěd",
+      "reading": "kuma",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/11-medved-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/11-kuma-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "12",
+      "frontText": "狐",
+      "backText": "Liška",
+      "reading": "kitsune",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/12-liska-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/12-kitsune-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "13",
+      "frontText": "狸",
+      "backText": "Mýval",
+      "reading": "tanuki",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/13-myval-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/13-tanuki-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "14",
+      "frontText": "兎",
+      "backText": "Králík",
+      "reading": "usagi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/14-kralik-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/14-usagi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "15",
+      "frontText": "鼠",
+      "backText": "Myš",
+      "reading": "nezumi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/15-mys-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/15-nezumi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "16",
+      "frontText": "蛇",
+      "backText": "Had",
+      "reading": "hebi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/16-had-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/16-hebi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "17",
+      "frontText": "亀",
+      "backText": "Želva",
+      "reading": "kame",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/17-zelva-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/17-kame-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "18",
+      "frontText": "蛙",
+      "backText": "Žába",
+      "reading": "kaeru",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/18-zaba-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/18-kaeru-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "19",
+      "frontText": "蟹",
+      "backText": "Krab",
+      "reading": "kani",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/19-krab-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/19-kani-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "20",
+      "frontText": "蝶",
+      "backText": "Motýl",
+      "reading": "chou",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/20-motyl-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/20-chou-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "21",
+      "frontText": "蜂",
+      "backText": "Včela",
+      "reading": "hachi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/21-vcela-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/21-hachi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "22",
+      "frontText": "蟻",
+      "backText": "Mravenec",
+      "reading": "ari",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/22-mravenec-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/22-ari-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "23",
+      "frontText": "蜘蛛",
+      "backText": "Pavouk",
+      "reading": "kumo",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/23-pavouk-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/23-kumo-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "24",
+      "frontText": "鯉",
+      "backText": "Kapr",
+      "reading": "koi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/24-kapr-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/24-koi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "25",
+      "frontText": "鯛",
+      "backText": "Pražma",
+      "reading": "tai",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/25-prazma-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/25-tai-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "26",
+      "frontText": "鮭",
+      "backText": "Losos",
+      "reading": "sake",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/26-losos-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/26-sake-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "27",
+      "frontText": "鮪",
+      "backText": "Tuňák",
+      "reading": "maguro",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/27-tunak-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/27-maguro-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "28",
+      "frontText": "鰻",
+      "backText": "Úhoř",
+      "reading": "unagi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/28-uhor-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/28-unagi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "29",
+      "frontText": "蛸",
+      "backText": "Chobotnice",
+      "reading": "tako",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/29-chobotnice-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/29-tako-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "30",
+      "frontText": "烏賊",
+      "backText": "Oliheň",
+      "reading": "ika",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/30-olihen-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/30-ika-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "31",
+      "frontText": "海老",
+      "backText": "Kreveta",
+      "reading": "ebi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/31-kreveta-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/31-ebi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "32",
+      "frontText": "貝",
+      "backText": "Mušle",
+      "reading": "kai",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/32-musle-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/32-kai-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "33",
+      "frontText": "鯨",
+      "backText": "Velryba",
+      "reading": "kujira",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/33-velryba-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/33-kujira-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "34",
+      "frontText": "海豚",
+      "backText": "Delfín",
+      "reading": "iruka",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/34-delfin-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/34-iruka-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "35",
+      "frontText": "鷹",
+      "backText": "Jestřáb",
+      "reading": "taka",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/35-jestrab-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/35-taka-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "36",
+      "frontText": "鷲",
+      "backText": "Orel",
+      "reading": "washi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/36-orel-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/36-washi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "37",
+      "frontText": "烏",
+      "backText": "Vrána",
+      "reading": "karasu",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/37-vrana-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/37-karasu-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "38",
+      "frontText": "雀",
+      "backText": "Vrabec",
+      "reading": "suzume",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/38-vrabec-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/38-suzume-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "39",
+      "frontText": "鶴",
+      "backText": "Jeřáb",
+      "reading": "tsuru",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/39-jerab-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/39-tsuru-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "40",
+      "frontText": "鳩",
+      "backText": "Holub",
+      "reading": "hato",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/40-holub-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/40-hato-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "41",
+      "frontText": "虎",
+      "backText": "Tygr",
+      "reading": "tora",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/41-tygr-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/41-tora-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "42",
+      "frontText": "獅子",
+      "backText": "Lev",
+      "reading": "shishi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/42-lev-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/42-shishi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "43",
+      "frontText": "象",
+      "backText": "Slon",
+      "reading": "zou",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/43-slon-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/43-zou-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "44",
+      "frontText": "龍",
+      "backText": "Drak",
+      "reading": "ryuu",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/44-drak-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/44-ryuu-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "45",
+      "frontText": "蛍",
+      "backText": "Světluška",
+      "reading": "hotaru",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/45-svetluska-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/45-hotaru-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "46",
+      "frontText": "蝉",
+      "backText": "Cikáda",
+      "reading": "semi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/46-cikada-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/46-semi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "47",
+      "frontText": "蝸牛",
+      "backText": "Hlemýžď",
+      "reading": "katatsumuri",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/47-hlemyzd-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/47-katatsumuri-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "48",
+      "frontText": "鳶",
+      "backText": "Luňák",
+      "reading": "tobi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/48-lunak-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/48-tobi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "49",
+      "frontText": "狼",
+      "backText": "Vlk",
+      "reading": "ookami",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/49-vlk-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/49-ookami-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "50",
+      "frontText": "猪",
+      "backText": "Divoké prase",
+      "reading": "inoshishi",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/japanese-50-animals/50-divoke-prase-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/japanese-50-animals/50-inoshishi-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    }
+  ],
+  "version": 1769348625,
+  "imagePromptTemplate": "japanies anime style illustration representing animal '{word}', textless image, vibrant colors, white background"
+}
