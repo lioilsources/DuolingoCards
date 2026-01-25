@@ -44,4 +44,38 @@ class Deck {
       'mediaBaseUrl': mediaBaseUrl,
     };
   }
+
+  Deck copyWith({
+    String? id,
+    String? name,
+    String? description,
+    String? frontLanguage,
+    String? backLanguage,
+    List<Flashcard>? cards,
+    String? mediaBaseUrl,
+  }) {
+    return Deck(
+      id: id ?? this.id,
+      name: name ?? this.name,
+      description: description ?? this.description,
+      frontLanguage: frontLanguage ?? this.frontLanguage,
+      backLanguage: backLanguage ?? this.backLanguage,
+      cards: cards ?? this.cards,
+      mediaBaseUrl: mediaBaseUrl ?? this.mediaBaseUrl,
+    );
+  }
+
+  /// Resolves relative media paths using mediaBaseUrl.
+  /// If mediaBaseUrl is set and media paths are relative, they will be prefixed.
+  Deck withResolvedMediaUrls() {
+    if (mediaBaseUrl == null || mediaBaseUrl!.isEmpty) {
+      return this;
+    }
+
+    final resolvedCards = cards
+        .map((card) => card.withResolvedMediaUrls(mediaBaseUrl!))
+        .toList();
+
+    return copyWith(cards: resolvedCards);
+  }
 }

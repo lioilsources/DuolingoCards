@@ -8,6 +8,10 @@ type Deck struct {
 	BackLanguage  string `json:"backLanguage"`
 	Cards         []Card `json:"cards"`
 	MediaBaseURL  string `json:"mediaBaseUrl,omitempty"`
+	Version       int64  `json:"version,omitempty"` // Unix timestamp for cache busting
+
+	// Pricing
+	Price string `json:"price,omitempty"` // "free", "tier1", "tier2" - defaults to "tier1" if empty
 
 	// Media generation settings
 	ImagePromptTemplate string `json:"imagePromptTemplate,omitempty"` // e.g. "Simple illustration of {word}, flat style"

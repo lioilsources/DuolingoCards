@@ -8,6 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 	"sync"
+	"time"
 
 	"github.com/example/duolingocards-backend/internal/config"
 	"github.com/example/duolingocards-backend/internal/models"
@@ -105,11 +106,15 @@ func (g *Generator) GetCatalog() *models.Catalog {
 			Languages:   []string{deck.FrontLanguage, deck.BackLanguage},
 		}
 
-		// First deck is free, others are paid
-		if deck.ID == "japanese-basics" {
-			item.Price = "free"
+		// Use price from deck JSON, default to "tier1" if not set
+		if deck.Price != "" {
+			item.Price = deck.Price
 		} else {
 			item.Price = "tier1"
+		}
+
+		// Add IAP product ID for paid decks
+		if item.Price != "free" {
 			item.IAPProductID = fmt.Sprintf("com.example.deck.%s", deck.ID)
 		}
 
@@ -128,19 +133,22 @@ func (g *Generator) GetDeckPreview(deckID string) (*models.DeckPreview, error) {
 		return nil, fmt.Errorf("deck not found: %s", deckID)
 	}
 
+	// Get versioned deck copy
+	versionedDeck := g.addVersionToMediaURLs(deck)
+
 	previewCount := 5
-	if len(deck.Cards) < previewCount {
-		previewCount = len(deck.Cards)
+	if len(versionedDeck.Cards) < previewCount {
+		previewCount = len(versionedDeck.Cards)
 	}
 
 	return &models.DeckPreview{
-		ID:            deck.ID,
-		Name:          deck.Name,
-		Description:   deck.Description,
-		FrontLanguage: deck.FrontLanguage,
-		BackLanguage:  deck.BackLanguage,
-		TotalCards:    len(deck.Cards),
-		PreviewCards:  deck.Cards[:previewCount],
+		ID:            versionedDeck.ID,
+		Name:          versionedDeck.Name,
+		Description:   versionedDeck.Description,
+		FrontLanguage: versionedDeck.FrontLanguage,
+		BackLanguage:  versionedDeck.BackLanguage,
+		TotalCards:    len(versionedDeck.Cards),
+		PreviewCards:  versionedDeck.Cards[:previewCount],
 	}, nil
 }
 
@@ -153,7 +161,41 @@ func (g *Generator) GetDeck(deckID string) (*models.Deck, error) {
 		return nil, fmt.Errorf("deck not found: %s", deckID)
 	}
 
-	return deck, nil
+	// Return a copy with versioned URLs to prevent cache issues
+	return g.addVersionToMediaURLs(deck), nil
+}
+
+// addVersionToMediaURLs creates a copy of the deck with version query params on media URLs
+func (g *Generator) addVersionToMediaURLs(deck *models.Deck) *models.Deck {
+	if deck.Version == 0 {
+		return deck
+	}
+
+	// Create a shallow copy of the deck
+	deckCopy := *deck
+	deckCopy.Cards = make([]models.Card, len(deck.Cards))
+
+	versionSuffix := fmt.Sprintf("?v=%d", deck.Version)
+
+	for i, card := range deck.Cards {
+		cardCopy := card
+		if card.Media != nil {
+			mediaCopy := *card.Media
+			if mediaCopy.Image != "" {
+				mediaCopy.Image = mediaCopy.Image + versionSuffix
+			}
+			if mediaCopy.AudioFront != "" {
+				mediaCopy.AudioFront = mediaCopy.AudioFront + versionSuffix
+			}
+			if mediaCopy.AudioBack != "" {
+				mediaCopy.AudioBack = mediaCopy.AudioBack + versionSuffix
+			}
+			cardCopy.Media = &mediaCopy
+		}
+		deckCopy.Cards[i] = cardCopy
+	}
+
+	return &deckCopy
 }
 
 func (g *Generator) StartGeneration(req models.GenerateRequest) (*models.GenerateStatus, error) {
@@ -192,16 +234,24 @@ func (g *Generator) generateMedia(deck *models.Deck, status *models.GenerateStat
 
 	for i := range deck.Cards {
 		card := &deck.Cards[i]
-		log.Printf("Processing card %d/%d: %s", i+1, len(deck.Cards), card.FrontText)
+		cardIndex := i + 1 // 1-based index for filenames
+		log.Printf("Processing card %d/%d: %s", cardIndex, len(deck.Cards), card.FrontText)
 
 		// Generate TTS for frontLanguage (the language being learned)
+		// Use reading (romaji) for audio filename: "01-konnichiwa-audio.mp3"
 		if g.ttsClient != nil {
-			log.Printf("  Generating TTS for: %s", card.FrontText)
+			audioSlug := card.Reading
+			if audioSlug == "" {
+				audioSlug = card.FrontText // Fallback to frontText if no reading
+			}
+			audioFilename := storage.BuildMediaFilename(cardIndex, audioSlug, "audio", "mp3")
+
+			log.Printf("  Generating TTS for: %s -> %s", card.FrontText, audioFilename)
 			audioData, err := g.ttsClient.GenerateSpeech(card.FrontText, deck.TTSVoiceID)
 			if err != nil {
 				log.Printf("  TTS error: %v", err)
 			} else {
-				url, err := g.storage.Save(deck.ID, card.ID, "audio.mp3", audioData)
+				url, err := g.storage.SaveFlat(deck.ID, audioFilename, audioData)
 				if err != nil {
 					log.Printf("  Storage error (audio): %v", err)
 				} else {
@@ -217,14 +267,17 @@ func (g *Generator) generateMedia(deck *models.Deck, status *models.GenerateStat
 		}
 
 		// Generate illustration using template
+		// Use backText (translation) for image filename: "01-dobry-den-image.png"
 		if g.imageClient != nil {
+			imageFilename := storage.BuildMediaFilename(cardIndex, card.BackText, "image", "png")
+
 			prompt := buildImagePrompt(imageTemplate, card)
-			log.Printf("  Generating image with prompt: %s", prompt)
+			log.Printf("  Generating image with prompt: %s -> %s", prompt, imageFilename)
 			imageData, err := g.imageClient.GenerateImage(prompt)
 			if err != nil {
 				log.Printf("  Image error: %v", err)
 			} else {
-				url, err := g.storage.Save(deck.ID, card.ID, "image.png", imageData)
+				url, err := g.storage.SaveFlat(deck.ID, imageFilename, imageData)
 				if err != nil {
 					log.Printf("  Storage error (image): %v", err)
 				} else {
@@ -248,8 +301,9 @@ func (g *Generator) generateMedia(deck *models.Deck, status *models.GenerateStat
 
 	g.mu.Lock()
 	status.Status = "completed"
+	deck.Version = time.Now().Unix() // Update version for cache busting
 	g.saveDeck(deck)
-	log.Printf("Media generation completed for deck %s", deck.ID)
+	log.Printf("Media generation completed for deck %s (version: %d)", deck.ID, deck.Version)
 	g.mu.Unlock()
 }
 

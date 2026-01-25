@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final PriorityService _priorityService = PriorityService();
 
   List<Deck> _localDecks = [];
-  Deck? _bundledDeck;
+  List<Deck> _bundledDecks = [];
   Map<String, PriorityStats> _deckStats = {};
   bool _isLoading = true;
 
@@ -36,8 +36,8 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() => _isLoading = true);
 
     try {
-      // Load bundled deck (always available)
-      final bundled = await _deckService.loadJapaneseBasics();
+      // Load all bundled decks (always available)
+      final bundledDecks = await _deckService.loadAllBundledDecks();
 
       // Load downloaded decks
       final localDecks = await _localDeckService.loadAllDecks();
@@ -45,8 +45,10 @@ class _HomeScreenState extends State<HomeScreen> {
       // Load priorities and calculate stats for all decks
       final stats = <String, PriorityStats>{};
 
-      await _priorityService.loadPriorities(bundled.id, bundled.cards);
-      stats[bundled.id] = _priorityService.getStats(bundled.cards);
+      for (final deck in bundledDecks) {
+        await _priorityService.loadPriorities(deck.id, deck.cards);
+        stats[deck.id] = _priorityService.getStats(deck.cards);
+      }
 
       for (final deck in localDecks) {
         await _priorityService.loadPriorities(deck.id, deck.cards);
@@ -54,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
       }
 
       setState(() {
-        _bundledDeck = bundled;
+        _bundledDecks = bundledDecks;
         _localDecks = localDecks;
         _deckStats = stats;
         _isLoading = false;
@@ -113,13 +115,14 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildDeckList() {
+    // Collect bundled deck IDs for "Free" badge logic
+    final bundledDeckIds = _bundledDecks.map((d) => d.id).toSet();
+
     final allDecks = <Deck>[];
-    if (_bundledDeck != null) {
-      allDecks.add(_bundledDeck!);
-    }
-    // Add local decks that aren't the bundled one
+    allDecks.addAll(_bundledDecks);
+    // Add local decks that aren't bundled
     for (final deck in _localDecks) {
-      if (deck.id != _bundledDeck?.id) {
+      if (!bundledDeckIds.contains(deck.id)) {
         allDecks.add(deck);
       }
     }
@@ -159,7 +162,7 @@ class _HomeScreenState extends State<HomeScreen> {
         itemCount: allDecks.length,
         itemBuilder: (context, index) {
           final deck = allDecks[index];
-          final isBundled = deck.id == _bundledDeck?.id;
+          final isBundled = bundledDeckIds.contains(deck.id);
           final stats = _deckStats[deck.id];
 
           return _DeckTile(
