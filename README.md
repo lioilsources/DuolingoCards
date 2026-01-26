@@ -1,3 +1,5 @@
+flutter clean && flutter pub get && flutter run -d 00008101-001175D90AA0001E --release
+
 23/1/2026
 - tweak gestures to take dominant move
 - stats on deck lists

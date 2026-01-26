@@ -1,0 +1,612 @@
+{
+  "id": "english-50-animals",
+  "name": "50 anglických zvířat",
+  "description": "50 zvířat z anglického jazyka",
+  "frontLanguage": "en",
+  "backLanguage": "cs",
+  "cards": [
+    {
+      "id": "1",
+      "frontText": "Dog",
+      "backText": "Pes",
+      "reading": "dog",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/01-pes-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/01-dog-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "2",
+      "frontText": "Cat",
+      "backText": "Kočka",
+      "reading": "cat",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/02-kocka-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/02-cat-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "3",
+      "frontText": "Bird",
+      "backText": "Pták",
+      "reading": "bird",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/03-ptak-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/03-bird-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "4",
+      "frontText": "Fish",
+      "backText": "Ryba",
+      "reading": "fish",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/04-ryba-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/04-fish-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "5",
+      "frontText": "Horse",
+      "backText": "Kůň",
+      "reading": "horse",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/05-kun-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/05-horse-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "6",
+      "frontText": "Cow",
+      "backText": "Kráva",
+      "reading": "cow",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/06-krava-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/06-cow-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "7",
+      "frontText": "Pig",
+      "backText": "Prase",
+      "reading": "pig",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/07-prase-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/07-pig-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "8",
+      "frontText": "Sheep",
+      "backText": "Ovce",
+      "reading": "sheep",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/08-ovce-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/08-sheep-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "9",
+      "frontText": "Monkey",
+      "backText": "Opice",
+      "reading": "monkey",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/09-opice-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/09-monkey-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "10",
+      "frontText": "Deer",
+      "backText": "Jelen",
+      "reading": "deer",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/10-jelen-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/10-deer-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "11",
+      "frontText": "Bear",
+      "backText": "Medvěd",
+      "reading": "bear",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/11-medved-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/11-bear-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "12",
+      "frontText": "Fox",
+      "backText": "Liška",
+      "reading": "fox",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/12-liska-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/12-fox-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "13",
+      "frontText": "Raccoon",
+      "backText": "Mýval",
+      "reading": "raccoon",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/13-myval-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/13-raccoon-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "14",
+      "frontText": "Rabbit",
+      "backText": "Králík",
+      "reading": "rabbit",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/14-kralik-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/14-rabbit-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "15",
+      "frontText": "Mouse",
+      "backText": "Myš",
+      "reading": "mouse",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/15-mys-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/15-mouse-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "16",
+      "frontText": "Snake",
+      "backText": "Had",
+      "reading": "snake",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/16-had-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/16-snake-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "17",
+      "frontText": "Turtle",
+      "backText": "Želva",
+      "reading": "turtle",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/17-zelva-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/17-turtle-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "18",
+      "frontText": "Frog",
+      "backText": "Žába",
+      "reading": "frog",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/18-zaba-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/18-frog-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "19",
+      "frontText": "Crab",
+      "backText": "Krab",
+      "reading": "crab",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/19-krab-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/19-crab-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "20",
+      "frontText": "Butterfly",
+      "backText": "Motýl",
+      "reading": "butterfly",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/20-motyl-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/20-butterfly-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "21",
+      "frontText": "Bee",
+      "backText": "Včela",
+      "reading": "bee",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/21-vcela-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/21-bee-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "22",
+      "frontText": "Ant",
+      "backText": "Mravenec",
+      "reading": "ant",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/22-mravenec-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/22-ant-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "23",
+      "frontText": "Spider",
+      "backText": "Pavouk",
+      "reading": "spider",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/23-pavouk-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/23-spider-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "24",
+      "frontText": "Carp",
+      "backText": "Kapr",
+      "reading": "carp",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/24-kapr-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/24-carp-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "25",
+      "frontText": "Sea bream",
+      "backText": "Pražma",
+      "reading": "sea bream",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/25-prazma-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/25-sea-bream-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "26",
+      "frontText": "Salmon",
+      "backText": "Losos",
+      "reading": "salmon",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/26-losos-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/26-salmon-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "27",
+      "frontText": "Tuna",
+      "backText": "Tuňák",
+      "reading": "tuna",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/27-tunak-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/27-tuna-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "28",
+      "frontText": "Eel",
+      "backText": "Úhoř",
+      "reading": "eel",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/28-uhor-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/28-eel-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "29",
+      "frontText": "Octopus",
+      "backText": "Chobotnice",
+      "reading": "octopus",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/29-chobotnice-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/29-octopus-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "30",
+      "frontText": "Squid",
+      "backText": "Oliheň",
+      "reading": "squid",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/30-olihen-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/30-squid-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "31",
+      "frontText": "Shrimp",
+      "backText": "Kreveta",
+      "reading": "shrimp",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/31-kreveta-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/31-shrimp-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "32",
+      "frontText": "Shellfish",
+      "backText": "Mušle",
+      "reading": "shellfish",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/32-musle-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/32-shellfish-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "33",
+      "frontText": "Whale",
+      "backText": "Velryba",
+      "reading": "whale",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/33-velryba-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/33-whale-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "34",
+      "frontText": "Dolphin",
+      "backText": "Delfín",
+      "reading": "dolphin",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/34-delfin-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/34-dolphin-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "35",
+      "frontText": "Hawk",
+      "backText": "Jestřáb",
+      "reading": "hawk",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/35-jestrab-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/35-hawk-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "36",
+      "frontText": "Eagle",
+      "backText": "Orel",
+      "reading": "eagle",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/36-orel-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/36-eagle-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "37",
+      "frontText": "Crow",
+      "backText": "Vrána",
+      "reading": "crow",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/37-vrana-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/37-crow-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "38",
+      "frontText": "Sparrow",
+      "backText": "Vrabec",
+      "reading": "sparrow",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/38-vrabec-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/38-sparrow-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "39",
+      "frontText": "Crane",
+      "backText": "Jeřáb",
+      "reading": "crane",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/39-jerab-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/39-crane-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "40",
+      "frontText": "Pigeon",
+      "backText": "Holub",
+      "reading": "pigeon",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/40-holub-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/40-pigeon-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "41",
+      "frontText": "Tiger",
+      "backText": "Tygr",
+      "reading": "tiger",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/41-tygr-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/41-tiger-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "42",
+      "frontText": "Lion",
+      "backText": "Lev",
+      "reading": "lion",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/42-lev-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/42-lion-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "43",
+      "frontText": "Elephant",
+      "backText": "Slon",
+      "reading": "elephant",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/43-slon-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/43-elephant-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "44",
+      "frontText": "Dragon",
+      "backText": "Drak",
+      "reading": "dragon",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/44-drak-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/44-dragon-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "45",
+      "frontText": "Firefly",
+      "backText": "Světluška",
+      "reading": "firefly",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/45-svetluska-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/45-firefly-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "46",
+      "frontText": "Cicada",
+      "backText": "Cikáda",
+      "reading": "cicada",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/46-cikada-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/46-cicada-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "47",
+      "frontText": "Snail",
+      "backText": "Hlemýžď",
+      "reading": "snail",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/47-hlemyzd-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/47-snail-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "48",
+      "frontText": "Kite",
+      "backText": "Luňák",
+      "reading": "kite",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/48-lunak-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/48-kite-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "49",
+      "frontText": "Wolf",
+      "backText": "Vlk",
+      "reading": "wolf",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/49-vlk-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/49-wolf-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "50",
+      "frontText": "Wild boar",
+      "backText": "Divoké prase",
+      "reading": "wild boar",
+      "priority": 5,
+      "media": {
+        "image": "http://192.168.88.15:8080/media/english-50-animals/50-divoke-prase-image.png",
+        "audioFront": "http://192.168.88.15:8080/media/english-50-animals/50-wild-boar-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    }
+  ],
+  "version": 1769354685,
+  "price": "free",
+  "imagePromptTemplate": "cute cartoon style illustration representing animal '{word}', textless image, vibrant colors, white background"
+}
