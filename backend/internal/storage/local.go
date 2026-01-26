@@ -132,3 +132,8 @@ func (s *LocalStorage) ExistsFlat(deckID, filename string) bool {
 	_, err := os.Stat(path)
 	return err == nil
 }
+
+// BuildURL constructs a URL for an existing file without saving
+func (s *LocalStorage) BuildURL(deckID, filename string) string {
+	return fmt.Sprintf("%s/%s/%s", s.baseURL, deckID, filename)
+}
