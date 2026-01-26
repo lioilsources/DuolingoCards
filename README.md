@@ -1,5 +1,11 @@
 flutter clean && flutter pub get && flutter run -d 00008101-001175D90AA0001E --release
 
+26/1/2026
+- more kind of cards (duolingo, quiz, learn)
+- instagram like cards scrolling
+- ai query for image and translation content
+- deck creation and assets scripts
+
 23/1/2026
 - tweak gestures to take dominant move
 - stats on deck lists

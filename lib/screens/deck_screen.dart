@@ -57,22 +57,10 @@ class _DeckScreenState extends State<DeckScreen> {
 
     switch (direction) {
       case SwipeDirection.up:
-        // Znám - snížit prioritu a přejít na další kartu
-        _currentCard!.decreasePriority();
-        _priorityService.savePriorities(_deck!.id, _deck!.cards);
+        // Další karta (navigace vpřed)
         _moveToNextCard();
         break;
       case SwipeDirection.down:
-        // Neznám - zvýšit prioritu a přejít na další kartu
-        _currentCard!.increasePriority();
-        _priorityService.savePriorities(_deck!.id, _deck!.cards);
-        _moveToNextCard();
-        break;
-      case SwipeDirection.left:
-        // Další kartička (vpřed v historii nebo nová)
-        _moveToNextCard();
-        break;
-      case SwipeDirection.right:
         // Zpět v historii
         if (_historyIndex > 0) {
           _historyIndex--;
@@ -80,6 +68,18 @@ class _DeckScreenState extends State<DeckScreen> {
             _currentCard = _history[_historyIndex];
           });
         }
+        break;
+      case SwipeDirection.left:
+        // Neznám - zvýšit prioritu
+        _currentCard!.increasePriority();
+        _priorityService.savePriorities(_deck!.id, _deck!.cards);
+        _moveToNextCard();
+        break;
+      case SwipeDirection.right:
+        // Znám - snížit prioritu
+        _currentCard!.decreasePriority();
+        _priorityService.savePriorities(_deck!.id, _deck!.cards);
+        _moveToNextCard();
         break;
     }
   }
@@ -98,6 +98,18 @@ class _DeckScreenState extends State<DeckScreen> {
       _historyIndex = _history.length - 1;
       setState(() {
         _currentCard = nextCard;
+      });
+    }
+  }
+
+  /// Ensure next card is ready in history (for film strip preview)
+  void _ensureNextCardReady() {
+    if (_deck == null) return;
+    if (_historyIndex >= _history.length - 1) {
+      // Add next card to history for preview
+      final nextCard = _priorityService.selectNextCard(_deck!.cards);
+      setState(() {
+        _history.add(nextCard);
       });
     }
   }
@@ -161,13 +173,15 @@ class _DeckScreenState extends State<DeckScreen> {
           Expanded(
             child: Padding(
               padding: const EdgeInsets.all(20),
-              child: _currentCard != null
+              child: _history.isNotEmpty
                   ? CardStack(
-                      key: ValueKey(_currentCard!.id + _showFront.toString()),
-                      card: _currentCard!,
+                      key: ValueKey(_showFront.toString()),
+                      cards: _history,
+                      currentIndex: _historyIndex,
                       showFront: _showFront,
                       onSwipe: _onSwipe,
                       onDoubleTap: _onDoubleTap,
+                      onPeekNext: _ensureNextCardReady,
                     )
                   : const Center(child: Text('Žádné karty')),
             ),
@@ -178,10 +192,10 @@ class _DeckScreenState extends State<DeckScreen> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                _buildHint(Icons.arrow_upward, 'Znám', Colors.green),
-                _buildHint(Icons.arrow_downward, 'Neznám', Colors.red),
-                _buildHint(Icons.arrow_back, 'Zpět', Colors.orange),
-                _buildHint(Icons.arrow_forward, 'Další', Colors.purple),
+                _buildHint(Icons.arrow_upward, 'Další', Colors.blue),
+                _buildHint(Icons.arrow_downward, 'Zpět', Colors.grey),
+                _buildHint(Icons.eco, 'Učím se', Colors.green),
+                _buildHint(Icons.favorite, 'Znám', Colors.pink),
               ],
             ),
           ),
