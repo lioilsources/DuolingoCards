@@ -246,20 +246,30 @@ func (g *Generator) generateMedia(deck *models.Deck, status *models.GenerateStat
 			}
 			audioFilename := storage.BuildMediaFilename(cardIndex, audioSlug, "audio", "mp3")
 
-			log.Printf("  Generating TTS for: %s -> %s", card.FrontText, audioFilename)
-			audioData, err := g.ttsClient.GenerateSpeech(card.FrontText, deck.TTSVoiceID)
-			if err != nil {
-				log.Printf("  TTS error: %v", err)
+			// Check if audio file already exists on disk
+			if g.storage.ExistsFlat(deck.ID, audioFilename) {
+				url := g.storage.BuildURL(deck.ID, audioFilename)
+				if card.Media == nil {
+					card.Media = &models.Media{}
+				}
+				card.Media.AudioFront = url
+				log.Printf("  TTS exists, skipping API call: %s", audioFilename)
 			} else {
-				url, err := g.storage.SaveFlat(deck.ID, audioFilename, audioData)
+				log.Printf("  Generating TTS for: %s -> %s", card.FrontText, audioFilename)
+				audioData, err := g.ttsClient.GenerateSpeech(card.FrontText, deck.TTSVoiceID)
 				if err != nil {
-					log.Printf("  Storage error (audio): %v", err)
+					log.Printf("  TTS error: %v", err)
 				} else {
-					if card.Media == nil {
-						card.Media = &models.Media{}
+					url, err := g.storage.SaveFlat(deck.ID, audioFilename, audioData)
+					if err != nil {
+						log.Printf("  Storage error (audio): %v", err)
+					} else {
+						if card.Media == nil {
+							card.Media = &models.Media{}
+						}
+						card.Media.AudioFront = url
+						log.Printf("  TTS saved: %s", url)
 					}
-					card.Media.AudioFront = url
-					log.Printf("  TTS saved: %s", url)
 				}
 			}
 		} else {
@@ -271,21 +281,31 @@ func (g *Generator) generateMedia(deck *models.Deck, status *models.GenerateStat
 		if g.imageClient != nil {
 			imageFilename := storage.BuildMediaFilename(cardIndex, card.BackText, "image", "png")
 
-			prompt := buildImagePrompt(imageTemplate, card)
-			log.Printf("  Generating image with prompt: %s -> %s", prompt, imageFilename)
-			imageData, err := g.imageClient.GenerateImage(prompt)
-			if err != nil {
-				log.Printf("  Image error: %v", err)
+			// Check if image file already exists on disk
+			if g.storage.ExistsFlat(deck.ID, imageFilename) {
+				url := g.storage.BuildURL(deck.ID, imageFilename)
+				if card.Media == nil {
+					card.Media = &models.Media{}
+				}
+				card.Media.Image = url
+				log.Printf("  Image exists, skipping API call: %s", imageFilename)
 			} else {
-				url, err := g.storage.SaveFlat(deck.ID, imageFilename, imageData)
+				prompt := buildImagePrompt(imageTemplate, card)
+				log.Printf("  Generating image with prompt: %s -> %s", prompt, imageFilename)
+				imageData, err := g.imageClient.GenerateImage(prompt)
 				if err != nil {
-					log.Printf("  Storage error (image): %v", err)
+					log.Printf("  Image error: %v", err)
 				} else {
-					if card.Media == nil {
-						card.Media = &models.Media{}
+					url, err := g.storage.SaveFlat(deck.ID, imageFilename, imageData)
+					if err != nil {
+						log.Printf("  Storage error (image): %v", err)
+					} else {
+						if card.Media == nil {
+							card.Media = &models.Media{}
+						}
+						card.Media.Image = url
+						log.Printf("  Image saved: %s", url)
 					}
-					card.Media.Image = url
-					log.Printf("  Image saved: %s", url)
 				}
 			}
 		} else {

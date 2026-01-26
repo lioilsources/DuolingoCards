@@ -7,6 +7,7 @@ class DeckService {
   static const List<String> bundledAssets = [
     'assets/data/japanese_basics.json',
     'assets/data/japanese-50-animals.json',
+    'assets/data/english-50-animals.json',
   ];
 
   Future<Deck> loadDeck(String assetPath) async {
