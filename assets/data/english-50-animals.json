@@ -1,0 +1,610 @@
+{
+  "id": "english-50-animals",
+  "name": "50 anglických zvířat",
+  "description": "50 zvířat z anglického jazyka",
+  "frontLanguage": "en",
+  "backLanguage": "cs",
+  "cards": [
+    {
+      "id": "1",
+      "frontText": "Dog",
+      "backText": "Pes",
+      "reading": "dog",
+      "priority": 5,
+      "media": {
+        "image": "01-pes-image.png",
+        "audioFront": "01-dog-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "2",
+      "frontText": "Cat",
+      "backText": "Kočka",
+      "reading": "cat",
+      "priority": 5,
+      "media": {
+        "image": "02-kocka-image.png",
+        "audioFront": "02-cat-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "3",
+      "frontText": "Bird",
+      "backText": "Pták",
+      "reading": "bird",
+      "priority": 5,
+      "media": {
+        "image": "03-ptak-image.png",
+        "audioFront": "03-bird-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "4",
+      "frontText": "Fish",
+      "backText": "Ryba",
+      "reading": "fish",
+      "priority": 5,
+      "media": {
+        "image": "04-ryba-image.png",
+        "audioFront": "04-fish-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "5",
+      "frontText": "Horse",
+      "backText": "Kůň",
+      "reading": "horse",
+      "priority": 5,
+      "media": {
+        "image": "05-kun-image.png",
+        "audioFront": "05-horse-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "6",
+      "frontText": "Cow",
+      "backText": "Kráva",
+      "reading": "cow",
+      "priority": 5,
+      "media": {
+        "image": "06-krava-image.png",
+        "audioFront": "06-cow-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "7",
+      "frontText": "Pig",
+      "backText": "Prase",
+      "reading": "pig",
+      "priority": 5,
+      "media": {
+        "image": "07-prase-image.png",
+        "audioFront": "07-pig-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "8",
+      "frontText": "Sheep",
+      "backText": "Ovce",
+      "reading": "sheep",
+      "priority": 5,
+      "media": {
+        "image": "08-ovce-image.png",
+        "audioFront": "08-sheep-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "9",
+      "frontText": "Monkey",
+      "backText": "Opice",
+      "reading": "monkey",
+      "priority": 5,
+      "media": {
+        "image": "09-opice-image.png",
+        "audioFront": "09-monkey-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "10",
+      "frontText": "Deer",
+      "backText": "Jelen",
+      "reading": "deer",
+      "priority": 5,
+      "media": {
+        "image": "10-jelen-image.png",
+        "audioFront": "10-deer-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "11",
+      "frontText": "Bear",
+      "backText": "Medvěd",
+      "reading": "bear",
+      "priority": 5,
+      "media": {
+        "image": "11-medved-image.png",
+        "audioFront": "11-bear-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "12",
+      "frontText": "Fox",
+      "backText": "Liška",
+      "reading": "fox",
+      "priority": 5,
+      "media": {
+        "image": "12-liska-image.png",
+        "audioFront": "12-fox-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "13",
+      "frontText": "Raccoon",
+      "backText": "Mýval",
+      "reading": "raccoon",
+      "priority": 5,
+      "media": {
+        "image": "13-myval-image.png",
+        "audioFront": "13-raccoon-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "14",
+      "frontText": "Rabbit",
+      "backText": "Králík",
+      "reading": "rabbit",
+      "priority": 5,
+      "media": {
+        "image": "14-kralik-image.png",
+        "audioFront": "14-rabbit-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "15",
+      "frontText": "Mouse",
+      "backText": "Myš",
+      "reading": "mouse",
+      "priority": 5,
+      "media": {
+        "image": "15-mys-image.png",
+        "audioFront": "15-mouse-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "16",
+      "frontText": "Snake",
+      "backText": "Had",
+      "reading": "snake",
+      "priority": 5,
+      "media": {
+        "image": "16-had-image.png",
+        "audioFront": "16-snake-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "17",
+      "frontText": "Turtle",
+      "backText": "Želva",
+      "reading": "turtle",
+      "priority": 5,
+      "media": {
+        "image": "17-zelva-image.png",
+        "audioFront": "17-turtle-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "18",
+      "frontText": "Frog",
+      "backText": "Žába",
+      "reading": "frog",
+      "priority": 5,
+      "media": {
+        "image": "18-zaba-image.png",
+        "audioFront": "18-frog-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "19",
+      "frontText": "Crab",
+      "backText": "Krab",
+      "reading": "crab",
+      "priority": 5,
+      "media": {
+        "image": "19-krab-image.png",
+        "audioFront": "19-crab-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "20",
+      "frontText": "Butterfly",
+      "backText": "Motýl",
+      "reading": "butterfly",
+      "priority": 5,
+      "media": {
+        "image": "20-motyl-image.png",
+        "audioFront": "20-butterfly-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "21",
+      "frontText": "Bee",
+      "backText": "Včela",
+      "reading": "bee",
+      "priority": 5,
+      "media": {
+        "image": "21-vcela-image.png",
+        "audioFront": "21-bee-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "22",
+      "frontText": "Ant",
+      "backText": "Mravenec",
+      "reading": "ant",
+      "priority": 5,
+      "media": {
+        "image": "22-mravenec-image.png",
+        "audioFront": "22-ant-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "23",
+      "frontText": "Spider",
+      "backText": "Pavouk",
+      "reading": "spider",
+      "priority": 5,
+      "media": {
+        "image": "23-pavouk-image.png",
+        "audioFront": "23-spider-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "24",
+      "frontText": "Carp",
+      "backText": "Kapr",
+      "reading": "carp",
+      "priority": 5,
+      "media": {
+        "image": "24-kapr-image.png",
+        "audioFront": "24-carp-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "25",
+      "frontText": "Sea bream",
+      "backText": "Pražma",
+      "reading": "sea bream",
+      "priority": 5,
+      "media": {
+        "image": "25-prazma-image.png",
+        "audioFront": "25-sea-bream-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "26",
+      "frontText": "Salmon",
+      "backText": "Losos",
+      "reading": "salmon",
+      "priority": 5,
+      "media": {
+        "image": "26-losos-image.png",
+        "audioFront": "26-salmon-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "27",
+      "frontText": "Tuna",
+      "backText": "Tuňák",
+      "reading": "tuna",
+      "priority": 5,
+      "media": {
+        "image": "27-tunak-image.png",
+        "audioFront": "27-tuna-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "28",
+      "frontText": "Eel",
+      "backText": "Úhoř",
+      "reading": "eel",
+      "priority": 5,
+      "media": {
+        "image": "28-uhor-image.png",
+        "audioFront": "28-eel-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "29",
+      "frontText": "Octopus",
+      "backText": "Chobotnice",
+      "reading": "octopus",
+      "priority": 5,
+      "media": {
+        "image": "29-chobotnice-image.png",
+        "audioFront": "29-octopus-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "30",
+      "frontText": "Squid",
+      "backText": "Oliheň",
+      "reading": "squid",
+      "priority": 5,
+      "media": {
+        "image": "30-olihen-image.png",
+        "audioFront": "30-squid-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "31",
+      "frontText": "Shrimp",
+      "backText": "Kreveta",
+      "reading": "shrimp",
+      "priority": 5,
+      "media": {
+        "image": "31-kreveta-image.png",
+        "audioFront": "31-shrimp-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "32",
+      "frontText": "Shellfish",
+      "backText": "Mušle",
+      "reading": "shellfish",
+      "priority": 5,
+      "media": {
+        "image": "32-musle-image.png",
+        "audioFront": "32-shellfish-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "33",
+      "frontText": "Whale",
+      "backText": "Velryba",
+      "reading": "whale",
+      "priority": 5,
+      "media": {
+        "image": "33-velryba-image.png",
+        "audioFront": "33-whale-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "34",
+      "frontText": "Dolphin",
+      "backText": "Delfín",
+      "reading": "dolphin",
+      "priority": 5,
+      "media": {
+        "image": "34-delfin-image.png",
+        "audioFront": "34-dolphin-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "35",
+      "frontText": "Hawk",
+      "backText": "Jestřáb",
+      "reading": "hawk",
+      "priority": 5,
+      "media": {
+        "image": "35-jestrab-image.png",
+        "audioFront": "35-hawk-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "36",
+      "frontText": "Eagle",
+      "backText": "Orel",
+      "reading": "eagle",
+      "priority": 5,
+      "media": {
+        "image": "36-orel-image.png",
+        "audioFront": "36-eagle-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "37",
+      "frontText": "Crow",
+      "backText": "Vrána",
+      "reading": "crow",
+      "priority": 5,
+      "media": {
+        "image": "37-vrana-image.png",
+        "audioFront": "37-crow-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "38",
+      "frontText": "Sparrow",
+      "backText": "Vrabec",
+      "reading": "sparrow",
+      "priority": 5,
+      "media": {
+        "image": "38-vrabec-image.png",
+        "audioFront": "38-sparrow-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "39",
+      "frontText": "Crane",
+      "backText": "Jeřáb",
+      "reading": "crane",
+      "priority": 5,
+      "media": {
+        "image": "39-jerab-image.png",
+        "audioFront": "39-crane-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "40",
+      "frontText": "Pigeon",
+      "backText": "Holub",
+      "reading": "pigeon",
+      "priority": 5,
+      "media": {
+        "image": "40-holub-image.png",
+        "audioFront": "40-pigeon-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "41",
+      "frontText": "Tiger",
+      "backText": "Tygr",
+      "reading": "tiger",
+      "priority": 5,
+      "media": {
+        "image": "41-tygr-image.png",
+        "audioFront": "41-tiger-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "42",
+      "frontText": "Lion",
+      "backText": "Lev",
+      "reading": "lion",
+      "priority": 5,
+      "media": {
+        "image": "42-lev-image.png",
+        "audioFront": "42-lion-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "43",
+      "frontText": "Elephant",
+      "backText": "Slon",
+      "reading": "elephant",
+      "priority": 5,
+      "media": {
+        "image": "43-slon-image.png",
+        "audioFront": "43-elephant-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "44",
+      "frontText": "Dragon",
+      "backText": "Drak",
+      "reading": "dragon",
+      "priority": 5,
+      "media": {
+        "image": "44-drak-image.png",
+        "audioFront": "44-dragon-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "45",
+      "frontText": "Firefly",
+      "backText": "Světluška",
+      "reading": "firefly",
+      "priority": 5,
+      "media": {
+        "image": "45-svetluska-image.png",
+        "audioFront": "45-firefly-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "46",
+      "frontText": "Cicada",
+      "backText": "Cikáda",
+      "reading": "cicada",
+      "priority": 5,
+      "media": {
+        "image": "46-cikada-image.png",
+        "audioFront": "46-cicada-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "47",
+      "frontText": "Snail",
+      "backText": "Hlemýžď",
+      "reading": "snail",
+      "priority": 5,
+      "media": {
+        "image": "47-hlemyzd-image.png",
+        "audioFront": "47-snail-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "48",
+      "frontText": "Kite",
+      "backText": "Luňák",
+      "reading": "kite",
+      "priority": 5,
+      "media": {
+        "image": "48-lunak-image.png",
+        "audioFront": "48-kite-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "49",
+      "frontText": "Wolf",
+      "backText": "Vlk",
+      "reading": "wolf",
+      "priority": 5,
+      "media": {
+        "image": "49-vlk-image.png",
+        "audioFront": "49-wolf-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "50",
+      "frontText": "Wild boar",
+      "backText": "Divoké prase",
+      "reading": "wild boar",
+      "priority": 5,
+      "media": {
+        "image": "50-divoke-prase-image.png",
+        "audioFront": "50-wild-boar-audio.mp3"
+      },
+      "mediaStatus": "ready"
+    }
+  ],
+  "mediaBaseUrl": "assets/media/english-50-animals"
+}
