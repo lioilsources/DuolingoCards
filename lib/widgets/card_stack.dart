@@ -74,12 +74,7 @@ class _CardStackState extends State<CardStack>
     });
   }
 
-  double _getCardHeight(BuildContext context) {
-    // Card height based on available space
-    final screenHeight = MediaQuery.of(context).size.height;
-    // Account for AppBar, padding, hints, etc.
-    return screenHeight * 0.55;
-  }
+  double? _availableHeight;
 
   void _onPanStart(DragStartDetails details) {
     _animationController.stop();
@@ -116,7 +111,7 @@ class _CardStackState extends State<CardStack>
   }
 
   void _onPanEnd(DragEndDetails details) {
-    final cardHeight = _getCardHeight(context);
+    final cardHeight = _availableHeight ?? 400;
     final velocity = details.velocity.pixelsPerSecond;
     final velocityThreshold = 500.0;
 
@@ -157,7 +152,7 @@ class _CardStackState extends State<CardStack>
   }
 
   void _animateVerticalSnap(SwipeDirection direction) {
-    final cardHeight = _getCardHeight(context) + _cardGap;
+    final cardHeight = (_availableHeight ?? 400) + _cardGap;
     final targetOffset = direction == SwipeDirection.up ? -cardHeight : cardHeight;
 
     _verticalAnimation = Tween<double>(
@@ -246,69 +241,88 @@ class _CardStackState extends State<CardStack>
 
   @override
   Widget build(BuildContext context) {
-    final cardHeight = _getCardHeight(context);
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final cardHeight = constraints.maxHeight;
+        _availableHeight = cardHeight;
 
-    return GestureDetector(
-      onPanStart: _onPanStart,
-      onPanUpdate: _onPanUpdate,
-      onPanEnd: _onPanEnd,
-      child: Row(
-        children: [
-          // Left perforations
-          _buildPerforations(cardHeight),
-          // Card stack
-          Expanded(
-            child: ClipRect(
-              child: SizedBox(
-                width: double.infinity,
-                height: cardHeight,
-                child: Stack(
-                  clipBehavior: Clip.none,
-                  children: [
-                    // Previous card (above current)
-                    if (widget.currentIndex > 0)
+        return GestureDetector(
+          onPanStart: _onPanStart,
+          onPanUpdate: _onPanUpdate,
+          onPanEnd: _onPanEnd,
+          child: Stack(
+            children: [
+              // Card stack (main content)
+              ClipRect(
+                child: SizedBox(
+                  width: double.infinity,
+                  height: cardHeight,
+                  child: Stack(
+                    clipBehavior: Clip.none,
+                    children: [
+                      // Previous card (above current)
+                      if (widget.currentIndex > 0)
+                        Positioned(
+                          top: _verticalOffset - cardHeight - _cardGap,
+                          left: 0,
+                          right: 0,
+                          height: cardHeight,
+                          child: _buildCard(
+                            widget.cards[widget.currentIndex - 1],
+                            isCurrent: false,
+                            cardHeight: cardHeight,
+                          ),
+                        ),
+
+                      // Current card (with horizontal swipe)
                       Positioned(
-                        top: _verticalOffset - cardHeight - _cardGap,
+                        top: _verticalOffset,
                         left: 0,
                         right: 0,
                         height: cardHeight,
-                        child: _buildCard(
-                          widget.cards[widget.currentIndex - 1],
-                          isCurrent: false,
-                          cardHeight: cardHeight,
-                        ),
+                        child: _buildCurrentCard(cardHeight),
                       ),
 
-                    // Current card (with horizontal swipe)
-                    Positioned(
-                      top: _verticalOffset,
-                      left: 0,
-                      right: 0,
-                      height: cardHeight,
-                      child: _buildCurrentCard(cardHeight),
-                    ),
-
-                    // Next card (below current)
-                    if (widget.currentIndex < widget.cards.length - 1)
-                      Positioned(
-                        top: _verticalOffset + cardHeight + _cardGap,
-                        left: 0,
-                        right: 0,
-                        height: cardHeight,
-                        child: _buildCard(
-                          widget.cards[widget.currentIndex + 1],
-                          isCurrent: false,
-                          cardHeight: cardHeight,
+                      // Next card (below current)
+                      if (widget.currentIndex < widget.cards.length - 1)
+                        Positioned(
+                          top: _verticalOffset + cardHeight + _cardGap,
+                          left: 0,
+                          right: 0,
+                          height: cardHeight,
+                          child: _buildCard(
+                            widget.cards[widget.currentIndex + 1],
+                            isCurrent: false,
+                            cardHeight: cardHeight,
+                          ),
                         ),
-                      ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
-            ),
+              // Film strip perforations overlay
+              _buildFilmStripOverlay(cardHeight),
+            ],
           ),
-          // Right perforations
-          _buildPerforations(cardHeight),
-        ],
+        );
+      },
+    );
+  }
+
+  Widget _buildFilmStripOverlay(double height) {
+    return Positioned(
+      top: 0,
+      left: 0,
+      right: 0,
+      height: height,
+      child: IgnorePointer(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            _buildPerforations(height),
+            _buildPerforations(height),
+          ],
+        ),
       ),
     );
   }
@@ -367,6 +381,27 @@ class _CardStackState extends State<CardStack>
           card: card,
           showFront: widget.showFront,
           onTap: widget.onDoubleTap,
+        ),
+
+        // Priority badge - top left corner
+        Positioned(
+          top: 12,
+          left: 12,
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+            decoration: BoxDecoration(
+              color: Colors.black.withValues(alpha: 0.6),
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: Text(
+              '${card.priority}/10',
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 14,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
         ),
 
           // Indicator "Next" (swipe up)

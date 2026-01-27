@@ -144,76 +144,22 @@ class _DeckScreenState extends State<DeckScreen> {
           ),
         ],
       ),
-      body: Column(
-        children: [
-          // Informace o prioritě
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  'Priorita: ${_currentCard?.priority ?? 0}/10',
-                  style: TextStyle(
-                    color: Colors.grey.shade600,
-                    fontSize: 16,
-                  ),
-                ),
-                Text(
-                  _showFront ? '日本語 → Čeština' : 'Čeština → 日本語',
-                  style: TextStyle(
-                    color: Colors.grey.shade600,
-                    fontSize: 16,
-                  ),
-                ),
-              ],
-            ),
-          ),
-          // Karta
-          Expanded(
-            child: Padding(
-              padding: const EdgeInsets.all(20),
-              child: _history.isNotEmpty
-                  ? CardStack(
-                      key: ValueKey(_showFront.toString()),
-                      cards: _history,
-                      currentIndex: _historyIndex,
-                      showFront: _showFront,
-                      onSwipe: _onSwipe,
-                      onDoubleTap: _onDoubleTap,
-                      onPeekNext: _ensureNextCardReady,
-                    )
-                  : const Center(child: Text('Žádné karty')),
-            ),
-          ),
-          // Nápověda
-          Padding(
-            padding: const EdgeInsets.all(20),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                _buildHint(Icons.arrow_upward, 'Další', Colors.blue),
-                _buildHint(Icons.arrow_downward, 'Zpět', Colors.grey),
-                _buildHint(Icons.eco, 'Učím se', Colors.green),
-                _buildHint(Icons.favorite, 'Znám', Colors.pink),
-              ],
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildHint(IconData icon, String label, Color color) {
-    return Column(
-      children: [
-        Icon(icon, color: color, size: 28),
-        const SizedBox(height: 4),
-        Text(
-          label,
-          style: TextStyle(color: color, fontSize: 14),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: _history.isNotEmpty
+              ? CardStack(
+                  key: ValueKey(_showFront.toString()),
+                  cards: _history,
+                  currentIndex: _historyIndex,
+                  showFront: _showFront,
+                  onSwipe: _onSwipe,
+                  onDoubleTap: _onDoubleTap,
+                  onPeekNext: _ensureNextCardReady,
+                )
+              : const Center(child: Text('Žádné karty')),
         ),
-      ],
+      ),
     );
   }
 }
