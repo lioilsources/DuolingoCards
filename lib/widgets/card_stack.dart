@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/flashcard.dart';
-import 'flashcard_widget.dart';
+import 'card_widget_factory.dart';
 
 enum SwipeDirection { up, down, left, right }
 
@@ -362,7 +362,7 @@ class _CardStackState extends State<CardStack>
   Widget _buildCard(Flashcard card, {required bool isCurrent, required double cardHeight}) {
     return Opacity(
       opacity: 0.7,
-      child: FlashcardWidget(
+      child: CardWidgetFactory.build(
         card: card,
         showFront: widget.showFront,
         onTap: null,
@@ -377,7 +377,7 @@ class _CardStackState extends State<CardStack>
     return Stack(
       clipBehavior: Clip.none,
       children: [
-        FlashcardWidget(
+        CardWidgetFactory.build(
           card: card,
           showFront: widget.showFront,
           onTap: widget.onDoubleTap,

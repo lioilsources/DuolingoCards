@@ -19,6 +19,9 @@ class Deck {
     this.mediaBaseUrl,
   });
 
+  /// Returns true if this is a quiz deck (visual front, no text-based language toggle needed)
+  bool get isQuizDeck => frontLanguage == 'visual';
+
   factory Deck.fromJson(Map<String, dynamic> json) {
     return Deck(
       id: json['id'] as String,
