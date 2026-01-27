@@ -1,0 +1,1036 @@
+{
+  "id": "world-capitals-50",
+  "name": "Hlavní města světa",
+  "description": "Top 50 států dle populace s jejich hlavními městy a vlajkami",
+  "cardType": "quiz",
+  "frontLanguage": "visual",
+  "backLanguage": "cs",
+  "mediaBaseUrl": "assets/media/world-capitals-50",
+  "cards": [
+    {
+      "id": "in",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Indie",
+      "media": {
+        "image": "flags/in.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Indie",
+        "subtitle": "Nové Dillí",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "1.5 mld"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "250 tis"
+          }
+        ],
+        "wikidataId": "Q668"
+      }
+    },
+    {
+      "id": "cn",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Čína",
+      "media": {
+        "image": "flags/cn.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Čína",
+        "subtitle": "Peking",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "1.4 mld"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "21.9 mil"
+          }
+        ],
+        "wikidataId": "Q148"
+      }
+    },
+    {
+      "id": "us",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Spojené státy americké",
+      "media": {
+        "image": "flags/us.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Spojené státy americké",
+        "subtitle": "Washington, D.C.",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "340.1 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "690 tis"
+          }
+        ],
+        "wikidataId": "Q30"
+      }
+    },
+    {
+      "id": "id",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Indonésie",
+      "media": {
+        "image": "flags/id.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Indonésie",
+        "subtitle": "Jakarta",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "275.4 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "11.1 mil"
+          }
+        ],
+        "wikidataId": "Q252"
+      }
+    },
+    {
+      "id": "pk",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Pákistán",
+      "media": {
+        "image": "flags/pk.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Pákistán",
+        "subtitle": "Islámábád",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "223.8 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "1.0 mil"
+          }
+        ],
+        "wikidataId": "Q843"
+      }
+    },
+    {
+      "id": "br",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Brazílie",
+      "media": {
+        "image": "flags/br.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Brazílie",
+        "subtitle": "Brasília",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "213.4 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "3.0 mil"
+          }
+        ],
+        "wikidataId": "Q155"
+      }
+    },
+    {
+      "id": "ng",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Nigérie",
+      "media": {
+        "image": "flags/ng.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Nigérie",
+        "subtitle": "Abuja",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "211.4 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "1.7 mil"
+          }
+        ],
+        "wikidataId": "Q1033"
+      }
+    },
+    {
+      "id": "bd",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Bangladéš",
+      "media": {
+        "image": "flags/bd.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Bangladéš",
+        "subtitle": "Dháka",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "171.5 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "16.8 mil"
+          }
+        ],
+        "wikidataId": "Q902"
+      }
+    },
+    {
+      "id": "ru",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Rusko",
+      "media": {
+        "image": "flags/ru.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Rusko",
+        "subtitle": "Moskva",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "146.1 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "13.3 mil"
+          }
+        ],
+        "wikidataId": "Q159"
+      }
+    },
+    {
+      "id": "et",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Etiopie",
+      "media": {
+        "image": "flags/et.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Etiopie",
+        "subtitle": "Addis Abeba",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "128.7 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "5.7 mil"
+          }
+        ],
+        "wikidataId": "Q115"
+      }
+    },
+    {
+      "id": "mx",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Mexiko",
+      "media": {
+        "image": "flags/mx.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Mexiko",
+        "subtitle": "Ciudad de México",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "124.8 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "9.2 mil"
+          }
+        ],
+        "wikidataId": "Q96"
+      }
+    },
+    {
+      "id": "jp",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Japonsko",
+      "media": {
+        "image": "flags/jp.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Japonsko",
+        "subtitle": "Tokio",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "123.8 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "14.3 mil"
+          }
+        ],
+        "wikidataId": "Q17"
+      }
+    },
+    {
+      "id": "eg",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Egypt",
+      "media": {
+        "image": "flags/eg.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Egypt",
+        "subtitle": "Káhira",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "114.5 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "9.8 mil"
+          }
+        ],
+        "wikidataId": "Q79"
+      }
+    },
+    {
+      "id": "ph",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Filipíny",
+      "media": {
+        "image": "flags/ph.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Filipíny",
+        "subtitle": "Manila",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "112.7 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "1.9 mil"
+          }
+        ],
+        "wikidataId": "Q928"
+      }
+    },
+    {
+      "id": "cd",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Konžská demokratická republika",
+      "media": {
+        "image": "flags/cd.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Konžská demokratická republika",
+        "subtitle": "Kinshasa",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "105.8 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "14.6 mil"
+          }
+        ],
+        "wikidataId": "Q974"
+      }
+    },
+    {
+      "id": "vn",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Vietnam",
+      "media": {
+        "image": "flags/vn.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Vietnam",
+        "subtitle": "Hanoj",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "96.2 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "7.6 mil"
+          }
+        ],
+        "wikidataId": "Q881"
+      }
+    },
+    {
+      "id": "ir",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Írán",
+      "media": {
+        "image": "flags/ir.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Írán",
+        "subtitle": "Teherán",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "92.4 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "8.7 mil"
+          }
+        ],
+        "wikidataId": "Q794"
+      }
+    },
+    {
+      "id": "tr",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Turecko",
+      "media": {
+        "image": "flags/tr.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Turecko",
+        "subtitle": "Ankara",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "85.4 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "5.8 mil"
+          }
+        ],
+        "wikidataId": "Q43"
+      }
+    },
+    {
+      "id": "de",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Německo",
+      "media": {
+        "image": "flags/de.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Německo",
+        "subtitle": "Berlín",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "83.6 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "3.8 mil"
+          }
+        ],
+        "wikidataId": "Q183"
+      }
+    },
+    {
+      "id": "fr",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Francie",
+      "media": {
+        "image": "flags/fr.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Francie",
+        "subtitle": "Paříž",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "68.6 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "2.1 mil"
+          }
+        ],
+        "wikidataId": "Q142"
+      }
+    },
+    {
+      "id": "gb",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Spojené království",
+      "media": {
+        "image": "flags/gb.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Spojené království",
+        "subtitle": "Londýn",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "67.3 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "8.8 mil"
+          }
+        ],
+        "wikidataId": "Q145"
+      }
+    },
+    {
+      "id": "th",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Thajsko",
+      "media": {
+        "image": "flags/th.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Thajsko",
+        "subtitle": "Bangkok",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "66.2 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "5.7 mil"
+          }
+        ],
+        "wikidataId": "Q869"
+      }
+    },
+    {
+      "id": "za",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Jihoafrická republika",
+      "media": {
+        "image": "flags/za.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Jihoafrická republika",
+        "subtitle": "Pretorie",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "62.0 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "742 tis"
+          }
+        ],
+        "wikidataId": "Q258"
+      }
+    },
+    {
+      "id": "it",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Itálie",
+      "media": {
+        "image": "flags/it.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Itálie",
+        "subtitle": "Řím",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "58.9 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "2.7 mil"
+          }
+        ],
+        "wikidataId": "Q38"
+      }
+    },
+    {
+      "id": "tz",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Tanzanie",
+      "media": {
+        "image": "flags/tz.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Tanzanie",
+        "subtitle": "Dodoma",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "57.3 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "46 tis"
+          }
+        ],
+        "wikidataId": "Q924"
+      }
+    },
+    {
+      "id": "mm",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Myanmar",
+      "media": {
+        "image": "flags/mm.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Myanmar",
+        "subtitle": "Neipyijto",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "53.4 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "1.2 mil"
+          }
+        ],
+        "wikidataId": "Q836"
+      }
+    },
+    {
+      "id": "co",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Kolumbie",
+      "media": {
+        "image": "flags/co.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Kolumbie",
+        "subtitle": "Bogota",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "52.3 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "8.0 mil"
+          }
+        ],
+        "wikidataId": "Q739"
+      }
+    },
+    {
+      "id": "kr",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Jižní Korea",
+      "media": {
+        "image": "flags/kr.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Jižní Korea",
+        "subtitle": "Soul",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "51.5 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "9.7 mil"
+          }
+        ],
+        "wikidataId": "Q884"
+      }
+    },
+    {
+      "id": "es",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Španělsko",
+      "media": {
+        "image": "flags/es.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Španělsko",
+        "subtitle": "Madrid",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "48.6 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "3.5 mil"
+          }
+        ],
+        "wikidataId": "Q29"
+      }
+    },
+    {
+      "id": "ke",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Keňa",
+      "media": {
+        "image": "flags/ke.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Keňa",
+        "subtitle": "Nairobi",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "48.5 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "5.5 mil"
+          }
+        ],
+        "wikidataId": "Q114"
+      }
+    },
+    {
+      "id": "ar",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Argentina",
+      "media": {
+        "image": "flags/ar.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Argentina",
+        "subtitle": "Buenos Aires",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "47.3 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "3.1 mil"
+          }
+        ],
+        "wikidataId": "Q414"
+      }
+    },
+    {
+      "id": "ug",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Uganda",
+      "media": {
+        "image": "flags/ug.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Uganda",
+        "subtitle": "Kampala",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "47.1 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "1.7 mil"
+          }
+        ],
+        "wikidataId": "Q1036"
+      }
+    },
+    {
+      "id": "dz",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Alžírsko",
+      "media": {
+        "image": "flags/dz.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Alžírsko",
+        "subtitle": "Alžír",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "46.2 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "2.4 mil"
+          }
+        ],
+        "wikidataId": "Q262"
+      }
+    },
+    {
+      "id": "af",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Afghánistán",
+      "media": {
+        "image": "flags/af.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Afghánistán",
+        "subtitle": "Kábul",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "41.5 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "4.3 mil"
+          }
+        ],
+        "wikidataId": "Q889"
+      }
+    },
+    {
+      "id": "ua",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Ukrajina",
+      "media": {
+        "image": "flags/ua.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Ukrajina",
+        "subtitle": "Kyjev",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "41.2 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "3.0 mil"
+          }
+        ],
+        "wikidataId": "Q212"
+      }
+    },
+    {
+      "id": "sd",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Súdán",
+      "media": {
+        "image": "flags/sd.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Súdán",
+        "subtitle": "Chartúm",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "40.5 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "5.3 mil"
+          }
+        ],
+        "wikidataId": "Q1049"
+      }
+    },
+    {
+      "id": "iq",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Irák",
+      "media": {
+        "image": "flags/iq.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Irák",
+        "subtitle": "Bagdád",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "38.3 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "8.1 mil"
+          }
+        ],
+        "wikidataId": "Q796"
+      }
+    },
+    {
+      "id": "pl",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Polsko",
+      "media": {
+        "image": "flags/pl.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Polsko",
+        "subtitle": "Varšava",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "37.6 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "1.9 mil"
+          }
+        ],
+        "wikidataId": "Q36"
+      }
+    },
+    {
+      "id": "ca",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Kanada",
+      "media": {
+        "image": "flags/ca.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Kanada",
+        "subtitle": "Ottawa",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "37.0 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "1.0 mil"
+          }
+        ],
+        "wikidataId": "Q16"
+      }
+    },
+    {
+      "id": "ma",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Maroko",
+      "media": {
+        "image": "flags/ma.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Maroko",
+        "subtitle": "Rabat",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "36.8 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "573 tis"
+          }
+        ],
+        "wikidataId": "Q1028"
+      }
+    },
+    {
+      "id": "ao",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Angola",
+      "media": {
+        "image": "flags/ao.png"
+      },
+      "quizData": {
+        "category": "capitals",
+        "title": "Angola",
+        "subtitle": "Luanda",
+        "fields": [
+          {
+            "label": "Populace státu",
+            "value": "36.7 mil"
+          },
+          {
+            "label": "Populace hl. města",
+            "value": "2.5 mil"
+          }
+        ],
+        "wikidataId": "Q916"
+      }
+    }
+  ]
+}
