@@ -1,0 +1,1198 @@
+{
+  "id": "cat-breeds-50",
+  "name": "Kočičí plemena",
+  "description": "50 nejrozšířenějších kočičích plemen s obrázky",
+  "cardType": "quiz",
+  "frontLanguage": "visual",
+  "backLanguage": "cs",
+  "mediaBaseUrl": "assets/media/cat-breeds-50",
+  "cards": [
+    {
+      "id": "turecka-van",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Turecká van",
+      "media": {
+        "image": "images/turecka-van.png"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Turecká van",
+        "subtitle": "Turkish Van",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Turecko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42724"
+      }
+    },
+    {
+      "id": "ragdoll",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Ragdoll",
+      "media": {
+        "image": "images/ragdoll.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Ragdoll",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42688"
+      }
+    },
+    {
+      "id": "foreign-white",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Foreign White",
+      "media": {
+        "image": "images/foreign-white.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Foreign White",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42727"
+      }
+    },
+    {
+      "id": "somalska-kocka",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Somálská kočka",
+      "media": {
+        "image": "images/somalska-kocka.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Somálská kočka",
+        "subtitle": "Somali",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Somálsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42715"
+      }
+    },
+    {
+      "id": "pixie-bob",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Pixie-bob",
+      "media": {
+        "image": "images/pixie-bob.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Pixie-bob",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42693"
+      }
+    },
+    {
+      "id": "oriental-longhair",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Oriental Longhair",
+      "media": {
+        "image": "images/oriental-longhair.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Oriental Longhair",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q2099338"
+      }
+    },
+    {
+      "id": "thai",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Thai",
+      "media": {
+        "image": "images/thai.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Thai",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Thajsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42732"
+      }
+    },
+    {
+      "id": "korat",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Korat",
+      "media": {
+        "image": "images/korat.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Korat",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Thajsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42691"
+      }
+    },
+    {
+      "id": "ukrajinsky-levkoy",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Ukrajinský levkoy",
+      "media": {
+        "image": "images/ukrajinsky-levkoy.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Ukrajinský levkoy",
+        "subtitle": "Ukrainian Levkoy",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Ukrajina"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q2642315"
+      }
+    },
+    {
+      "id": "european-burmese",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "European Burmese",
+      "media": {
+        "image": "images/european-burmese.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "European Burmese",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené království"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q2928528"
+      }
+    },
+    {
+      "id": "minskin",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Minskin",
+      "media": {
+        "image": "images/minskin.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Minskin",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Egypt"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q3039052"
+      }
+    },
+    {
+      "id": "sphynx",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Sphynx",
+      "media": {
+        "image": "images/sphynx.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Sphynx",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Kanada"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42712"
+      }
+    },
+    {
+      "id": "york-chocolate",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "York Chocolate",
+      "media": {
+        "image": "images/york-chocolate.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "York Chocolate",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q2166017"
+      }
+    },
+    {
+      "id": "ocicat",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Ocicat",
+      "media": {
+        "image": "images/ocicat.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Ocicat",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42685"
+      }
+    },
+    {
+      "id": "turecka-angora",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Turecká angora",
+      "media": {
+        "image": "images/turecka-angora.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Turecká angora",
+        "subtitle": "Turkish Angora",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Turecko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42720"
+      }
+    },
+    {
+      "id": "orientalni-kratkosrsta-kocka",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Orientální krátkosrstá kočka",
+      "media": {
+        "image": "images/orientalni-kratkosrsta-kocka.jpeg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Orientální krátkosrstá kočka",
+        "subtitle": "Oriental Shorthair",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42696"
+      }
+    },
+    {
+      "id": "khao-manee",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Khao Manee",
+      "media": {
+        "image": "images/khao-manee.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Khao Manee",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Thajsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42700"
+      }
+    },
+    {
+      "id": "american-burmese",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "American burmese",
+      "media": {
+        "image": "images/american-burmese.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "American burmese",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q2928526"
+      }
+    },
+    {
+      "id": "tonkinese",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Tonkinese",
+      "media": {
+        "image": "images/tonkinese.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Tonkinese",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Kanada"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42726"
+      }
+    },
+    {
+      "id": "himalayan",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Himalayan",
+      "media": {
+        "image": "images/himalayan.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Himalayan",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42959"
+      }
+    },
+    {
+      "id": "ural-rex",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Ural rex",
+      "media": {
+        "image": "images/ural-rex.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Ural rex",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42706"
+      }
+    },
+    {
+      "id": "highlander-cat",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Highlander cat",
+      "media": {
+        "image": "images/highlander-cat.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Highlander cat",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q25471053"
+      }
+    },
+    {
+      "id": "manska-kocka",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "manská kočka",
+      "media": {
+        "image": "images/manska-kocka.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "manská kočka",
+        "subtitle": "Manx",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Man"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42675"
+      }
+    },
+    {
+      "id": "mainska-myvali-kocka",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Mainská mývalí kočka",
+      "media": {
+        "image": "images/mainska-myvali-kocka.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Mainská mývalí kočka",
+        "subtitle": "Maine coon",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42659"
+      }
+    },
+    {
+      "id": "tiffany-kocka",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Tiffany (kočka)",
+      "media": {
+        "image": "images/tiffany-kocka.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Tiffany (kočka)",
+        "subtitle": "Chantilly-Tiffany",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Severní Amerika"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q392693"
+      }
+    },
+    {
+      "id": "mekong-bobtail",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Mekong Bobtail",
+      "media": {
+        "image": "images/mekong-bobtail.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Mekong Bobtail",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q16889346"
+      }
+    },
+    {
+      "id": "siamska-kocka",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Siamská kočka",
+      "media": {
+        "image": "images/siamska-kocka.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Siamská kočka",
+        "subtitle": "Siamese",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Thajsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42604"
+      }
+    },
+    {
+      "id": "evropska-kratkosrsta-kocka",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Evropská krátkosrstá kočka",
+      "media": {
+        "image": "images/evropska-kratkosrsta-kocka.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Evropská krátkosrstá kočka",
+        "subtitle": "European Shorthair",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Švédsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q20793"
+      }
+    },
+    {
+      "id": "peterbald",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Peterbald",
+      "media": {
+        "image": "images/peterbald.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Peterbald",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Rusko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42663"
+      }
+    },
+    {
+      "id": "nevska-maskarada",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Něvská maškaráda",
+      "media": {
+        "image": "images/nevska-maskarada.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Něvská maškaráda",
+        "subtitle": "Neva Masquerade",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Sovětský svaz"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42599"
+      }
+    },
+    {
+      "id": "domestic-short-haired-cat",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "domestic short-haired cat",
+      "media": {
+        "image": "images/domestic-short-haired-cat.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "domestic short-haired cat",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q12648"
+      }
+    },
+    {
+      "id": "arabian-mau",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Arabian Mau",
+      "media": {
+        "image": "images/arabian-mau.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Arabian Mau",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Arabský poloostrov"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q7970"
+      }
+    },
+    {
+      "id": "norska-lesni-kocka",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Norská lesní kočka",
+      "media": {
+        "image": "images/norska-lesni-kocka.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Norská lesní kočka",
+        "subtitle": "Norwegian Forest Cat",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Norsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42667"
+      }
+    },
+    {
+      "id": "american-wirehair",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "American Wirehair",
+      "media": {
+        "image": "images/american-wirehair.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "American Wirehair",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q7964"
+      }
+    },
+    {
+      "id": "kymerska-kocka",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Kymerská kočka",
+      "media": {
+        "image": "images/kymerska-kocka.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Kymerská kočka",
+        "subtitle": "Cymric",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Kanada"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42578"
+      }
+    },
+    {
+      "id": "selkirk-rex",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Selkirk Rex",
+      "media": {
+        "image": "images/selkirk-rex.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Selkirk Rex",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42642"
+      }
+    },
+    {
+      "id": "cyprus-cat",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Cyprus cat",
+      "media": {
+        "image": "images/cyprus-cat.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Cyprus cat",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Kypr"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q5200515"
+      }
+    },
+    {
+      "id": "americky-bobtail",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Americký bobtail",
+      "media": {
+        "image": "images/americky-bobtail.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Americký bobtail",
+        "subtitle": "American Bobtail",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q7874"
+      }
+    },
+    {
+      "id": "balinese-cat",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Balinese cat",
+      "media": {
+        "image": "images/balinese-cat.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Balinese cat",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Thajsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q9665"
+      }
+    },
+    {
+      "id": "australska-mist",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Australská mist",
+      "media": {
+        "image": "images/australska-mist.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Australská mist",
+        "subtitle": "Australian Mist",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Austrálie"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q7989"
+      }
+    },
+    {
+      "id": "foldex-cat",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "FoldEx cat",
+      "media": {
+        "image": "images/foldex-cat.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "FoldEx cat",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q17632871"
+      }
+    },
+    {
+      "id": "egyptska-mau",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Egyptská mau",
+      "media": {
+        "image": "images/egyptska-mau.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Egyptská mau",
+        "subtitle": "Egyptian Mau",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Egypt"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q7295"
+      }
+    },
+    {
+      "id": "javanese",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Javanese",
+      "media": {
+        "image": "images/javanese.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Javanese",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Kanada"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42661"
+      }
+    },
+    {
+      "id": "perska-kocka",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "perská kočka",
+      "media": {
+        "image": "images/perska-kocka.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "perská kočka",
+        "subtitle": "Persian cat",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Írán"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42610"
+      }
+    },
+    {
+      "id": "kinkalow",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Kinkalow",
+      "media": {
+        "image": "images/kinkalow.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Kinkalow",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q16663434"
+      }
+    },
+    {
+      "id": "toybob",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Toybob",
+      "media": {
+        "image": "images/toybob.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Toybob",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Rusko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q30595152"
+      }
+    },
+    {
+      "id": "donsky-sphynx",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Donský sphynx",
+      "media": {
+        "image": "images/donsky-sphynx.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Donský sphynx",
+        "subtitle": "Donskoy cat",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Rusko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q7303"
+      }
+    },
+    {
+      "id": "kocka-savanova",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Kočka savanová",
+      "media": {
+        "image": "images/kocka-savanova.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Kočka savanová",
+        "subtitle": "Savannah",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q42670"
+      }
+    },
+    {
+      "id": "sokoke",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Sokoke",
+      "media": {
+        "image": "images/sokoke.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Sokoke",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Keňa"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q2075066"
+      }
+    },
+    {
+      "id": "modern-siamese",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Modern Siamese",
+      "media": {
+        "image": "images/modern-siamese.jpg"
+      },
+      "quizData": {
+        "category": "catbreeds",
+        "title": "Modern Siamese",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q11949692"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1195 @@
+{
+  "id": "dog-breeds-50",
+  "name": "Psí plemena",
+  "description": "50 nejrozšířenějších psích plemen s obrázky",
+  "cardType": "quiz",
+  "frontLanguage": "visual",
+  "backLanguage": "cs",
+  "mediaBaseUrl": "assets/media/dog-breeds-50",
+  "cards": [
+    {
+      "id": "silken-windhound",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Silken Windhound",
+      "media": {
+        "image": "images/silken-windhound.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Silken Windhound",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39207"
+      }
+    },
+    {
+      "id": "westphalian-dachsbracke",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Westphalian Dachsbracke",
+      "media": {
+        "image": "images/westphalian-dachsbracke.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Westphalian Dachsbracke",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Německo"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39095"
+      }
+    },
+    {
+      "id": "pachon-navarro",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Pachón Navarro",
+      "media": {
+        "image": "images/pachon-navarro.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Pachón Navarro",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Španělsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39334"
+      }
+    },
+    {
+      "id": "rotvajler",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Rotvajler",
+      "media": {
+        "image": "images/rotvajler.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Rotvajler",
+        "subtitle": "Rottweiler",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Německo"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39093"
+      }
+    },
+    {
+      "id": "petit-gascon-saintongeois",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Petit Gascon Saintongeois",
+      "media": {
+        "image": "images/petit-gascon-saintongeois.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Petit Gascon Saintongeois",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Francie"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39331"
+      }
+    },
+    {
+      "id": "barvar",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Barvář",
+      "media": {
+        "image": "images/barvar.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Barvář",
+        "subtitle": "Limer",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39283"
+      }
+    },
+    {
+      "id": "rhodesky-ridgeback",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Rhodéský ridgeback",
+      "media": {
+        "image": "images/rhodesky-ridgeback.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Rhodéský ridgeback",
+        "subtitle": "Rhodesian Ridgeback",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Republika Rhodesie"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39026"
+      }
+    },
+    {
+      "id": "saarloosuv-vlcak",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Saarloosův vlčák",
+      "media": {
+        "image": "images/saarloosuv-vlcak.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Saarloosův vlčák",
+        "subtitle": "Saarloos wolfdog",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Nizozemsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39306"
+      }
+    },
+    {
+      "id": "stafordsirsky-bulterier",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Stafordšírský bulteriér",
+      "media": {
+        "image": "images/stafordsirsky-bulterier.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Stafordšírský bulteriér",
+        "subtitle": "Staffordshire Bull Terrier",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Anglie"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39285"
+      }
+    },
+    {
+      "id": "stabyhoun",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Stabyhoun",
+      "media": {
+        "image": "images/stabyhoun.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Stabyhoun",
+        "subtitle": "Stabijhoun",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39192"
+      }
+    },
+    {
+      "id": "spanelsky-vodni-pes",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Španělský vodní pes",
+      "media": {
+        "image": "images/spanelsky-vodni-pes.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Španělský vodní pes",
+        "subtitle": "Spanish Water Dog",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39200"
+      }
+    },
+    {
+      "id": "whippet",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Whippet",
+      "media": {
+        "image": "images/whippet.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Whippet",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Anglie"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39122"
+      }
+    },
+    {
+      "id": "podhalansky-ovcak",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Podhalaňský ovčák",
+      "media": {
+        "image": "images/podhalansky-ovcak.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Podhalaňský ovčák",
+        "subtitle": "Tatra Shepherd Dog",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Polsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39096"
+      }
+    },
+    {
+      "id": "black-norwegian-elkhound",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Black Norwegian Elkhound",
+      "media": {
+        "image": "images/black-norwegian-elkhound.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Black Norwegian Elkhound",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Norsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q38961"
+      }
+    },
+    {
+      "id": "tibetska-doga",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Tibetská doga",
+      "media": {
+        "image": "images/tibetska-doga.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Tibetská doga",
+        "subtitle": "Tibetan Mastiff",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Čína"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39322"
+      }
+    },
+    {
+      "id": "landseer",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Landseer",
+      "media": {
+        "image": "images/landseer.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Landseer",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q38950"
+      }
+    },
+    {
+      "id": "kanarsky-podenco",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Kanárský podenco",
+      "media": {
+        "image": "images/kanarsky-podenco.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Kanárský podenco",
+        "subtitle": "Podenco Canario",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Španělsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q38932"
+      }
+    },
+    {
+      "id": "sabueso-espanol",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Sabueso Español",
+      "media": {
+        "image": "images/sabueso-espanol.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Sabueso Español",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Španělsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39126"
+      }
+    },
+    {
+      "id": "sheltie",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "sheltie",
+      "media": {
+        "image": "images/sheltie.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "sheltie",
+        "subtitle": "Shetland Sheepdog",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené království"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39058"
+      }
+    },
+    {
+      "id": "pudlpointr",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Pudlpointr",
+      "media": {
+        "image": "images/pudlpointr.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Pudlpointr",
+        "subtitle": "Pudelpointer",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Německo"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q38930"
+      }
+    },
+    {
+      "id": "norfolk-terier",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Norfolk teriér",
+      "media": {
+        "image": "images/norfolk-terier.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Norfolk teriér",
+        "subtitle": "Norfolk Terrier",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené království"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q38940"
+      }
+    },
+    {
+      "id": "andalusian-hound",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Andalusian Hound",
+      "media": {
+        "image": "images/andalusian-hound.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Andalusian Hound",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39262"
+      }
+    },
+    {
+      "id": "yorksirsky-terier",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Yorkšírský teriér",
+      "media": {
+        "image": "images/yorksirsky-terier.png"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Yorkšírský teriér",
+        "subtitle": "Yorkshire Terrier",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Anglie"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39330"
+      }
+    },
+    {
+      "id": "waeller",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Waeller",
+      "media": {
+        "image": "images/waeller.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Waeller",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39265"
+      }
+    },
+    {
+      "id": "tyrolean-hound",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Tyrolean Hound",
+      "media": {
+        "image": "images/tyrolean-hound.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Tyrolean Hound",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Rakousko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Velký"
+          }
+        ],
+        "wikidataId": "Q39084"
+      }
+    },
+    {
+      "id": "plott-hound",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Plott Hound",
+      "media": {
+        "image": "images/plott-hound.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Plott Hound",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Německo"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39195"
+      }
+    },
+    {
+      "id": "toy-manchester-terrier",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Toy Manchester Terrier",
+      "media": {
+        "image": "images/toy-manchester-terrier.png"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Toy Manchester Terrier",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39407"
+      }
+    },
+    {
+      "id": "porcelaine",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Porcelaine",
+      "media": {
+        "image": "images/porcelaine.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Porcelaine",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Francie"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39083"
+      }
+    },
+    {
+      "id": "saluki",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Saluki",
+      "media": {
+        "image": "images/saluki.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Saluki",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Arabský poloostrov"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39108"
+      }
+    },
+    {
+      "id": "samojed",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Samojed",
+      "media": {
+        "image": "images/samojed.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Samojed",
+        "subtitle": "Samoyed",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39002"
+      }
+    },
+    {
+      "id": "zapadosibirska-lajka",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Západosibiřská lajka",
+      "media": {
+        "image": "images/zapadosibirska-lajka.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Západosibiřská lajka",
+        "subtitle": "West Siberian Laika",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Rusko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39435"
+      }
+    },
+    {
+      "id": "pekingsky-palacovy-psik",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Pekingský palácový psík",
+      "media": {
+        "image": "images/pekingsky-palacovy-psik.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Pekingský palácový psík",
+        "subtitle": "Pekingese",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Čína"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q38959"
+      }
+    },
+    {
+      "id": "teddy-roosevelt-terrier",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Teddy Roosevelt Terrier",
+      "media": {
+        "image": "images/teddy-roosevelt-terrier.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Teddy Roosevelt Terrier",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39412"
+      }
+    },
+    {
+      "id": "white-english-bulldog",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "White English Bulldog",
+      "media": {
+        "image": "images/white-english-bulldog.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "White English Bulldog",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39405"
+      }
+    },
+    {
+      "id": "paisley-terrier",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Paisley Terrier",
+      "media": {
+        "image": "images/paisley-terrier.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Paisley Terrier",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Skotsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q38980"
+      }
+    },
+    {
+      "id": "foxterier",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "foxteriér",
+      "media": {
+        "image": "images/foxterier.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "foxteriér",
+        "subtitle": "Fox Terrier",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené království"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39220"
+      }
+    },
+    {
+      "id": "svycarsky-honic",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Švýcarský honič",
+      "media": {
+        "image": "images/svycarsky-honic.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Švýcarský honič",
+        "subtitle": "Schweizer Laufhund",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Švýcarsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q38975"
+      }
+    },
+    {
+      "id": "laponsky-spic",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Laponský špic",
+      "media": {
+        "image": "images/laponsky-spic.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Laponský špic",
+        "subtitle": "Swedish Lapphund",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Švédsko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39130"
+      }
+    },
+    {
+      "id": "schwyzsky-honic",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Schwyzský honič",
+      "media": {
+        "image": "images/schwyzsky-honic.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Schwyzský honič",
+        "subtitle": "Schwyz Hound",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39280"
+      }
+    },
+    {
+      "id": "talbot",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Talbot",
+      "media": {
+        "image": "images/talbot.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Talbot",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39390"
+      }
+    },
+    {
+      "id": "treeing-walker-coonhound",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Treeing Walker Coonhound",
+      "media": {
+        "image": "images/treeing-walker-coonhound.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Treeing Walker Coonhound",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Spojené státy americké"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39244"
+      }
+    },
+    {
+      "id": "sibirsky-husky",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Sibiřský husky",
+      "media": {
+        "image": "images/sibirsky-husky.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Sibiřský husky",
+        "subtitle": "Siberian Husky",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Sibiř"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39295"
+      }
+    },
+    {
+      "id": "northern-inuit-dog",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Northern Inuit Dog",
+      "media": {
+        "image": "images/northern-inuit-dog.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Northern Inuit Dog",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Anglie"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39113"
+      }
+    },
+    {
+      "id": "slovensky-ohar-hrubosrsty",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Slovenský ohař hrubosrstý",
+      "media": {
+        "image": "images/slovensky-ohar-hrubosrsty.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Slovenský ohař hrubosrstý",
+        "subtitle": "Slovakian Rough-haired Pointer",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Slovensko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39210"
+      }
+    },
+    {
+      "id": "ruskoevropska-lajka",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Ruskoevropská lajka",
+      "media": {
+        "image": "images/ruskoevropska-lajka.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Ruskoevropská lajka",
+        "subtitle": "Russo-European Laika",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39332"
+      }
+    },
+    {
+      "id": "trpaslici-pinc",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Trpasličí pinč",
+      "media": {
+        "image": "images/trpaslici-pinc.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Trpasličí pinč",
+        "subtitle": "Miniature Pinscher",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Německo"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q38990"
+      }
+    },
+    {
+      "id": "sussex-spanel",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Sussex španěl",
+      "media": {
+        "image": "images/sussex-spanel.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Sussex španěl",
+        "subtitle": "Sussex Spaniel",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Anglie"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39138"
+      }
+    },
+    {
+      "id": "tornjak",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Tornjak",
+      "media": {
+        "image": "images/tornjak.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Tornjak",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Bosna a Hercegovina"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39133"
+      }
+    },
+    {
+      "id": "vorisek",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "voříšek",
+      "media": {
+        "image": "images/vorisek.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "voříšek",
+        "subtitle": "mongrel",
+        "fields": [
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q38945"
+      }
+    },
+    {
+      "id": "styrsky-brakyr",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Štýrský brakýř",
+      "media": {
+        "image": "images/styrsky-brakyr.jpg"
+      },
+      "quizData": {
+        "category": "dogbreeds",
+        "title": "Štýrský brakýř",
+        "subtitle": "Styrian Coarse-haired Hound",
+        "fields": [
+          {
+            "label": "Původ",
+            "value": "Rakousko"
+          },
+          {
+            "label": "Velikost",
+            "value": "Střední"
+          }
+        ],
+        "wikidataId": "Q39214"
+      }
+    }
+  ]
+}
