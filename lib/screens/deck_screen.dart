@@ -137,11 +137,13 @@ class _DeckScreenState extends State<DeckScreen> {
         elevation: 0,
         foregroundColor: Colors.black87,
         actions: [
-          IconButton(
-            icon: Icon(_showFront ? Icons.translate : Icons.abc),
-            onPressed: _onDoubleTap,
-            tooltip: _showFront ? 'Zobrazit češtinu' : 'Zobrazit japonštinu',
-          ),
+          // Hide language toggle for quiz decks (visual front)
+          if (_deck != null && !_deck!.isQuizDeck)
+            IconButton(
+              icon: Icon(_showFront ? Icons.translate : Icons.abc),
+              onPressed: _onDoubleTap,
+              tooltip: _showFront ? 'Zobrazit překlad' : 'Zobrazit originál',
+            ),
         ],
       ),
       body: SafeArea(

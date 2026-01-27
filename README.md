@@ -1,10 +1,18 @@
-flutter clean && flutter pub get && flutter run -d 00008101-001175D90AA0001E --release
+27/1/2026
+- more deck kinds
+- kind: duolingo with two languages, translation audio and imgage shared for both card sides
+- kind: quiz with two card size, one is the question like "What is the capital city of" second is the image with flag, caption with capital name + population of the city
+- kind: learning with topic on one page and number of captions or images you can scroll through to learn like movements for chi-kung and the name of the movement in deck by exercise
+- generator: duolingo = manual json with hook to grab image and translation by LLM
+- generator: quiz = fetch from wikipedia
+- generator: learnings = fully manual with different card layout like more than two card size only)
 
 26/1/2026
 - more kind of cards (duolingo, quiz, learn)
 - instagram like cards scrolling
 - ai query for image and translation content
 - deck creation and assets scripts
+- release on iOS: `flutter clean && flutter pub get && flutter run -d 00008101-001175D90AA0001E --release`
 
 23/1/2026
 - tweak gestures to take dominant move
