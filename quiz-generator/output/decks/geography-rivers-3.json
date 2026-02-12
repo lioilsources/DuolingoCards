@@ -1,0 +1,95 @@
+{
+  "id": "geography-rivers-3",
+  "name": "Světové řeky",
+  "description": "Kvíz o 3 nejznámějších řekách světa s němými mapami",
+  "cardType": "quiz",
+  "frontLanguage": "visual",
+  "backLanguage": "cs",
+  "mediaBaseUrl": "assets/media/geography-rivers-3",
+  "cards": [
+    {
+      "id": "amazon",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Amazonka",
+      "media": {
+        "image": "maps/amazon.png"
+      },
+      "quizData": {
+        "category": "rivers",
+        "title": "Amazonka",
+        "subtitle": "Amazon",
+        "fields": [
+          {
+            "label": "Délka",
+            "value": "6 992 km"
+          },
+          {
+            "label": "Pramen",
+            "value": "Nevado Mismi, Peru"
+          },
+          {
+            "label": "Ústí",
+            "value": "Atlantský oceán"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nile",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Nil",
+      "media": {
+        "image": "maps/nile.png"
+      },
+      "quizData": {
+        "category": "rivers",
+        "title": "Nil",
+        "subtitle": "Nile",
+        "fields": [
+          {
+            "label": "Délka",
+            "value": "6 650 km"
+          },
+          {
+            "label": "Pramen",
+            "value": "Jezero Viktorie"
+          },
+          {
+            "label": "Ústí",
+            "value": "Středozemní moře"
+          }
+        ]
+      }
+    },
+    {
+      "id": "danube",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Dunaj",
+      "media": {
+        "image": "maps/danube.png"
+      },
+      "quizData": {
+        "category": "rivers",
+        "title": "Dunaj",
+        "subtitle": "Danube",
+        "fields": [
+          {
+            "label": "Délka",
+            "value": "2 850 km"
+          },
+          {
+            "label": "Pramen",
+            "value": "Schwarzwald, Německo"
+          },
+          {
+            "label": "Ústí",
+            "value": "Černé moře"
+          }
+        ]
+      }
+    }
+  ]
+}

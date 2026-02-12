@@ -9,6 +9,7 @@ type QuizItem struct {
 	LocalImage string
 	Fields     []Field
 	WikidataID string
+	Extra      map[string]interface{} // Additional data (e.g., geometry for maps)
 }
 
 // Field represents a label-value pair for dynamic quiz data.

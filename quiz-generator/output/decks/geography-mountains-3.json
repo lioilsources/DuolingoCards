@@ -1,0 +1,95 @@
+{
+  "id": "geography-mountains-3",
+  "name": "Světová pohoří",
+  "description": "Kvíz o 3 nejznámějších pohořích světa s němými mapami",
+  "cardType": "quiz",
+  "frontLanguage": "visual",
+  "backLanguage": "cs",
+  "mediaBaseUrl": "assets/media/geography-mountains-3",
+  "cards": [
+    {
+      "id": "alps",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Alpy",
+      "media": {
+        "image": "maps/alps.png"
+      },
+      "quizData": {
+        "category": "mountains",
+        "title": "Alpy",
+        "subtitle": "Alps",
+        "fields": [
+          {
+            "label": "Nejvyšší bod",
+            "value": "Mont Blanc (4 808 m)"
+          },
+          {
+            "label": "Délka",
+            "value": "1 200 km"
+          },
+          {
+            "label": "Země",
+            "value": "Francie, Itálie, Švýcarsko, Rakousko, Německo, Slovinsko, Lichtenštejnsko, Monako"
+          }
+        ]
+      }
+    },
+    {
+      "id": "himalayas",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Himálaj",
+      "media": {
+        "image": "maps/himalayas.png"
+      },
+      "quizData": {
+        "category": "mountains",
+        "title": "Himálaj",
+        "subtitle": "Himalayas",
+        "fields": [
+          {
+            "label": "Nejvyšší bod",
+            "value": "Mount Everest (8 849 m)"
+          },
+          {
+            "label": "Délka",
+            "value": "2 400 km"
+          },
+          {
+            "label": "Země",
+            "value": "Nepál, Čína, Indie, Bhútán, Pákistán"
+          }
+        ]
+      }
+    },
+    {
+      "id": "andes",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Andy",
+      "media": {
+        "image": "maps/andes.png"
+      },
+      "quizData": {
+        "category": "mountains",
+        "title": "Andy",
+        "subtitle": "Andes",
+        "fields": [
+          {
+            "label": "Nejvyšší bod",
+            "value": "Aconcagua (6 961 m)"
+          },
+          {
+            "label": "Délka",
+            "value": "7 000 km"
+          },
+          {
+            "label": "Země",
+            "value": "Argentina, Chile, Peru, Bolívie, Ekvádor, Kolumbie, Venezuela"
+          }
+        ]
+      }
+    }
+  ]
+}

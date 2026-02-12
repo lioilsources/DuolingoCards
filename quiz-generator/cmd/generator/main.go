@@ -11,11 +11,13 @@ import (
 	"github.com/duolingocards/quiz-generator/internal/deck"
 	"github.com/duolingocards/quiz-generator/internal/dogbreeds"
 	"github.com/duolingocards/quiz-generator/internal/generator"
+	"github.com/duolingocards/quiz-generator/internal/geography"
 )
 
 func main() {
 	// CLI flags
-	genType := flag.String("type", "capitals", "Type of quiz to generate (capitals, mountains, rivers)")
+	genType := flag.String("type", "capitals", "Type of quiz to generate (capitals, dogbreeds, catbreeds, geography)")
+	category := flag.String("category", "mountains", "Category for geography type (mountains, rivers)")
 	limit := flag.Int("limit", 50, "Maximum number of items to fetch")
 	lang := flag.String("lang", "cs", "Language code for labels (cs, en, de, etc.)")
 	outputDir := flag.String("output", "output", "Output directory for generated files")
@@ -42,9 +44,14 @@ func main() {
 			fmt.Fprintf(os.Stderr, "Error: %v\n", err)
 			os.Exit(1)
 		}
+	case "geography":
+		if err := generateGeography(opts, *outputDir, *category); err != nil {
+			fmt.Fprintf(os.Stderr, "Error: %v\n", err)
+			os.Exit(1)
+		}
 	default:
 		fmt.Fprintf(os.Stderr, "Unknown generator type: %s\n", *genType)
-		fmt.Fprintf(os.Stderr, "Available types: capitals, dogbreeds, catbreeds\n")
+		fmt.Fprintf(os.Stderr, "Available types: capitals, dogbreeds, catbreeds, geography\n")
 		os.Exit(1)
 	}
 }
@@ -194,6 +201,71 @@ func generateCatBreeds(opts generator.Options, outputDir string) error {
 	}
 
 	deckPath := filepath.Join(decksDir, "cat-breeds-50.json")
+	fmt.Printf("\n=== Generation Complete ===\n")
+	fmt.Printf("Deck saved to: %s\n", deckPath)
+	fmt.Printf("Media saved to: %s\n", mediaDir)
+	fmt.Printf("Total cards: %d\n", len(items))
+
+	return nil
+}
+
+func generateGeography(opts generator.Options, outputDir string, category string) error {
+	gen := geography.New(category)
+
+	fmt.Printf("=== Geography Quiz Generator ===\n")
+	fmt.Printf("Category: %s, Language: %s, Limit: %d\n\n", category, opts.Language, opts.Limit)
+
+	// Fetch data from OpenStreetMap
+	items, err := gen.FetchData(opts)
+	if err != nil {
+		return fmt.Errorf("fetching data: %w", err)
+	}
+
+	if len(items) == 0 {
+		return fmt.Errorf("no data returned from OpenStreetMap")
+	}
+
+	// Generate map images
+	deckID := fmt.Sprintf("geography-%s-%d", category, opts.Limit)
+	mediaDir := filepath.Join(outputDir, "media", deckID, "maps")
+	items, err = gen.DownloadMedia(items, mediaDir)
+	if err != nil {
+		return fmt.Errorf("generating maps: %w", err)
+	}
+
+	// Build deck
+	var deckName, deckDesc string
+	switch category {
+	case "mountains":
+		deckName = "Světová pohoří"
+		deckDesc = fmt.Sprintf("Kvíz o %d nejznámějších pohořích světa s němými mapami", opts.Limit)
+	case "rivers":
+		deckName = "Světové řeky"
+		deckDesc = fmt.Sprintf("Kvíz o %d nejznámějších řekách světa s němými mapami", opts.Limit)
+	default:
+		deckName = "Geografie"
+		deckDesc = "Geografický kvíz"
+	}
+
+	builder := deck.NewBuilder(
+		deckID,
+		deckName,
+		deckDesc,
+		opts.Language,
+		fmt.Sprintf("assets/media/%s", deckID),
+	)
+
+	for _, item := range items {
+		builder.AddCard(item, category)
+	}
+
+	// Save deck JSON
+	decksDir := filepath.Join(outputDir, "decks")
+	if err := builder.SaveJSON(decksDir); err != nil {
+		return fmt.Errorf("saving deck: %w", err)
+	}
+
+	deckPath := filepath.Join(decksDir, deckID+".json")
 	fmt.Printf("\n=== Generation Complete ===\n")
 	fmt.Printf("Deck saved to: %s\n", deckPath)
 	fmt.Printf("Media saved to: %s\n", mediaDir)
