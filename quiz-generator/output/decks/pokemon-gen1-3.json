@@ -1,0 +1,179 @@
+{
+  "id": "pokemon-gen1-3",
+  "name": "Pokémoni",
+  "description": "Kvíz o 3 Pokémonech s oficiálními obrázky a statistikami",
+  "cardType": "quiz",
+  "frontLanguage": "visual",
+  "backLanguage": "cs",
+  "mediaBaseUrl": "assets/media/pokemon-gen1-3",
+  "cards": [
+    {
+      "id": "bulbasaur",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Bulbasaur",
+      "media": {
+        "image": "images/bulbasaur.png"
+      },
+      "quizData": {
+        "category": "pokemon",
+        "title": "Bulbasaur",
+        "subtitle": "フシギダネ",
+        "fields": [
+          {
+            "label": "Typ",
+            "value": "Travní, Jedový"
+          },
+          {
+            "label": "HP",
+            "value": "45"
+          },
+          {
+            "label": "Útok",
+            "value": "49"
+          },
+          {
+            "label": "Obrana",
+            "value": "49"
+          },
+          {
+            "label": "Sp. útok",
+            "value": "65"
+          },
+          {
+            "label": "Sp. obrana",
+            "value": "65"
+          },
+          {
+            "label": "Rychlost",
+            "value": "45"
+          },
+          {
+            "label": "Generace",
+            "value": "I"
+          },
+          {
+            "label": "Výška",
+            "value": "0.7 m"
+          },
+          {
+            "label": "Váha",
+            "value": "6.9 kg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ivysaur",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Ivysaur",
+      "media": {
+        "image": "images/ivysaur.png"
+      },
+      "quizData": {
+        "category": "pokemon",
+        "title": "Ivysaur",
+        "subtitle": "フシギソウ",
+        "fields": [
+          {
+            "label": "Typ",
+            "value": "Travní, Jedový"
+          },
+          {
+            "label": "HP",
+            "value": "60"
+          },
+          {
+            "label": "Útok",
+            "value": "62"
+          },
+          {
+            "label": "Obrana",
+            "value": "63"
+          },
+          {
+            "label": "Sp. útok",
+            "value": "80"
+          },
+          {
+            "label": "Sp. obrana",
+            "value": "80"
+          },
+          {
+            "label": "Rychlost",
+            "value": "60"
+          },
+          {
+            "label": "Generace",
+            "value": "I"
+          },
+          {
+            "label": "Výška",
+            "value": "1.0 m"
+          },
+          {
+            "label": "Váha",
+            "value": "13.0 kg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "venusaur",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Venusaur",
+      "media": {
+        "image": "images/venusaur.png"
+      },
+      "quizData": {
+        "category": "pokemon",
+        "title": "Venusaur",
+        "subtitle": "フシギバナ",
+        "fields": [
+          {
+            "label": "Typ",
+            "value": "Travní, Jedový"
+          },
+          {
+            "label": "HP",
+            "value": "80"
+          },
+          {
+            "label": "Útok",
+            "value": "82"
+          },
+          {
+            "label": "Obrana",
+            "value": "83"
+          },
+          {
+            "label": "Sp. útok",
+            "value": "100"
+          },
+          {
+            "label": "Sp. obrana",
+            "value": "100"
+          },
+          {
+            "label": "Rychlost",
+            "value": "80"
+          },
+          {
+            "label": "Generace",
+            "value": "I"
+          },
+          {
+            "label": "Výška",
+            "value": "2.0 m"
+          },
+          {
+            "label": "Váha",
+            "value": "100.0 kg"
+          }
+        ]
+      }
+    }
+  ]
+}
