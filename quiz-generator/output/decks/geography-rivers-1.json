@@ -1,0 +1,39 @@
+{
+  "id": "geography-rivers-1",
+  "name": "Světové řeky",
+  "description": "Kvíz o 1 nejznámějších řekách světa s němými mapami",
+  "cardType": "quiz",
+  "frontLanguage": "visual",
+  "backLanguage": "cs",
+  "mediaBaseUrl": "assets/media/geography-rivers-1",
+  "cards": [
+    {
+      "id": "amazon",
+      "type": "quiz",
+      "frontText": "",
+      "backText": "Amazonka",
+      "media": {
+        "image": "maps/amazon.png"
+      },
+      "quizData": {
+        "category": "rivers",
+        "title": "Amazonka",
+        "subtitle": "Amazon",
+        "fields": [
+          {
+            "label": "Délka",
+            "value": "6 992 km"
+          },
+          {
+            "label": "Pramen",
+            "value": "Nevado Mismi, Peru"
+          },
+          {
+            "label": "Ústí",
+            "value": "Atlantský oceán"
+          }
+        ]
+      }
+    }
+  ]
+}
