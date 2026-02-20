@@ -11,6 +11,7 @@ class DeckService {
     'assets/data/world-capitals-50.json',
     'assets/data/dog-breeds-50.json',
     'assets/data/cat-breeds-50.json',
+    'assets/data/pokemon-gen1-3.json',
   ];
 
   Future<Deck> loadDeck(String assetPath) async {
