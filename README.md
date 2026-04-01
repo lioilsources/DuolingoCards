@@ -1,37 +1,57 @@
-27/1/2026
-- more deck kinds
-- kind: duolingo with two languages, translation audio and imgage shared for both card sides
-- kind: quiz with two card size, one is the question like "What is the capital city of" second is the image with flag, caption with capital name + population of the city
-- kind: learning with topic on one page and number of captions or images you can scroll through to learn like movements for chi-kung and the name of the movement in deck by exercise
-- generator: duolingo = manual json with hook to grab image and translation by LLM
-- generator: quiz = fetch from wikipedia
-- generator: learnings = fully manual with different card layout like more than two card size only)
+# DuolingoCards
 
-26/1/2026
-- more kind of cards (duolingo, quiz, learn)
-- instagram like cards scrolling
-- ai query for image and translation content
-- deck creation and assets scripts
-- release on iOS: `flutter clean && flutter pub get && flutter run -d 00008101-001175D90AA0001E --release`
+A cross-platform flashcard learning app with AI-generated quiz decks. Features swipeable cards with spaced repetition, in-app purchases for premium decks, and a Go-based quiz generator that fetches data from Wikidata, OpenStreetMap, and PokéAPI.
 
-23/1/2026
-- tweak gestures to take dominant move
-- stats on deck lists
+## Platforms
 
-20/1/2026
-- iOS app is crashing on mobile device if not attached to XCode: `$flutter  run --release`
-- stuck on `$flutter run` to build iOS: `$flutter build ios --no-codesign`
+| Platform | Status |
+|----------|--------|
+| iOS | Supported |
+| Android | Supported |
+| Web | Supported |
+| macOS | Supported |
+| Linux | Supported |
+| Windows | Supported |
 
-18/1/2026
-- 10 japanese cards in deck with japanese runes
-- duo sided cards
-- up to decrease priority (I already know that world); down do increase priority (save for future, I don't know)
-- left right to keep the order
-- priority rnd algoritm
-- attaching issues with initial VM Flutter image on iOS resolved by `$flutter run --device-vmservice-port 61616 --host-vmservice-port 61616 -v`
+## Features
 
-17/1/2026
-- Interview Happy Coder to find right language to support both mobile platforms
-- UX requirements
-- simplify storrage requirements
-- defer image and audio requirements
+- Swipeable flashcards (Up/Down = known/unknown, Left/Right = navigate)
+- 3D flip cards (Basic) and media quiz cards
+- Spaced repetition via PriorityService
+- Decks: world capitals, animals, dog/cat breeds, geography, Pokémon
+- In-app purchases for premium deck downloads
+- Offline support for bundled free decks
+- Go CLI quiz generator (Wikidata SPARQL, OpenStreetMap Overpass API, PokéAPI)
+
+## Tech Stack
+
+- Flutter / Dart 3.10.7
+- Go (quiz-generator CLI)
+- audioplayers, dio, cached_network_image, in_app_purchase
+
+## Build
+
+```bash
+# iOS
+flutter run -d ios
+
+# Android
+flutter run -d android
+
+# Web
+flutter run -d chrome
+
+# macOS
+flutter run -d macos
+
+# Quiz generator
+cd quiz-generator
+go run . capitals
+go run . geography
+go run . pokemon
+```
+
+## Documentation
+
+- [CHANGELOG.md](CHANGELOG.md) — development history
+- [GALLERY.md](GALLERY.md) — screenshots and videos
