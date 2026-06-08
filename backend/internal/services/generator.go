@@ -20,10 +20,10 @@ import (
 const defaultImagePromptTemplate = "Simple, clean illustration for vocabulary flashcard showing '{word}'. Minimalist, colorful icon-style. No text, no letters. White background."
 
 type Generator struct {
-	ttsClient    *tts.ElevenLabsClient
-	imageClient  *image.ImagenClient
-	storage      *storage.LocalStorage
-	cfg          *config.Config
+	ttsClient   *tts.ElevenLabsClient
+	imageClient image.Generator
+	storage     *storage.LocalStorage
+	cfg         *config.Config
 
 	// In-memory deck storage (replace with DB in production)
 	decks    map[string]*models.Deck
@@ -43,8 +43,20 @@ func NewGenerator(cfg *config.Config) *Generator {
 		g.ttsClient = tts.NewElevenLabsClient(cfg.ElevenLabsKey)
 	}
 
-	if cfg.GoogleAPIKey != "" {
-		g.imageClient = image.NewImagenClient(cfg.GoogleAPIKey)
+	switch cfg.ImageBackend {
+	case "comfyui":
+		if cfg.ComfyUIURL != "" {
+			g.imageClient = image.NewComfyUIClient(
+				cfg.ComfyUIURL,
+				cfg.CFAccessClientID,
+				cfg.CFAccessClientSecret,
+				image.WithComfyJobTimeout(cfg.ComfyJobTimeout),
+			)
+		}
+	default: // "imagen"
+		if cfg.GoogleAPIKey != "" {
+			g.imageClient = image.NewImagenClient(cfg.GoogleAPIKey)
+		}
 	}
 
 	// Load existing decks from storage

@@ -5,13 +5,16 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"time"
 
 	"github.com/duolingocards/quiz-generator/internal/capitals"
 	"github.com/duolingocards/quiz-generator/internal/catbreeds"
+	"github.com/duolingocards/quiz-generator/internal/comfyuiimage"
 	"github.com/duolingocards/quiz-generator/internal/deck"
 	"github.com/duolingocards/quiz-generator/internal/dogbreeds"
 	"github.com/duolingocards/quiz-generator/internal/generator"
 	"github.com/duolingocards/quiz-generator/internal/geography"
+	"github.com/duolingocards/quiz-generator/internal/imagegen"
 	"github.com/duolingocards/quiz-generator/internal/pokemon"
 )
 
@@ -22,11 +25,30 @@ func main() {
 	limit := flag.Int("limit", 50, "Maximum number of items to fetch")
 	lang := flag.String("lang", "cs", "Language code for labels (cs, en, de, etc.)")
 	outputDir := flag.String("output", "output", "Output directory for generated files")
+	backend := flag.String("backend", "none", "Image generation backend for items without photos: none, comfyui")
+	comfyURL := flag.String("comfyui-url", "", "ComfyUI server URL (overrides COMFYUI_API_URL env var)")
+	comfyTimeout := flag.Duration("comfyui-timeout", 15*time.Minute, "Max wait time per ComfyUI job")
 	flag.Parse()
 
 	opts := generator.Options{
 		Limit:    *limit,
 		Language: *lang,
+	}
+
+	// Build optional image generator based on -backend flag.
+	var imageGen imagegen.ImageGenerator
+	if *backend == "comfyui" {
+		url := *comfyURL
+		if url == "" {
+			url = os.Getenv("COMFYUI_API_URL")
+		}
+		if url == "" {
+			fmt.Fprintln(os.Stderr, "Error: -backend=comfyui requires -comfyui-url or COMFYUI_API_URL env var")
+			os.Exit(1)
+		}
+		cfID := os.Getenv("CF_ACCESS_CLIENT_ID")
+		cfSecret := os.Getenv("CF_ACCESS_CLIENT_SECRET")
+		imageGen = comfyuiimage.NewClient(url, cfID, cfSecret, comfyuiimage.WithJobTimeout(*comfyTimeout))
 	}
 
 	switch *genType {
@@ -36,12 +58,12 @@ func main() {
 			os.Exit(1)
 		}
 	case "dogbreeds":
-		if err := generateDogBreeds(opts, *outputDir); err != nil {
+		if err := generateDogBreeds(opts, *outputDir, imageGen); err != nil {
 			fmt.Fprintf(os.Stderr, "Error: %v\n", err)
 			os.Exit(1)
 		}
 	case "catbreeds":
-		if err := generateCatBreeds(opts, *outputDir); err != nil {
+		if err := generateCatBreeds(opts, *outputDir, imageGen); err != nil {
 			fmt.Fprintf(os.Stderr, "Error: %v\n", err)
 			os.Exit(1)
 		}
@@ -113,8 +135,12 @@ func generateCapitals(opts generator.Options, outputDir string) error {
 	return nil
 }
 
-func generateDogBreeds(opts generator.Options, outputDir string) error {
-	gen := dogbreeds.New()
+func generateDogBreeds(opts generator.Options, outputDir string, imageGen imagegen.ImageGenerator) error {
+	var genOpts []func(*dogbreeds.Generator)
+	if imageGen != nil {
+		genOpts = append(genOpts, dogbreeds.WithImageGenerator(imageGen))
+	}
+	gen := dogbreeds.New(genOpts...)
 
 	fmt.Println("=== Dog Breeds Quiz Generator ===")
 	fmt.Printf("Language: %s, Limit: %d\n\n", opts.Language, opts.Limit)
@@ -164,8 +190,12 @@ func generateDogBreeds(opts generator.Options, outputDir string) error {
 	return nil
 }
 
-func generateCatBreeds(opts generator.Options, outputDir string) error {
-	gen := catbreeds.New()
+func generateCatBreeds(opts generator.Options, outputDir string, imageGen imagegen.ImageGenerator) error {
+	var genOpts []func(*catbreeds.Generator)
+	if imageGen != nil {
+		genOpts = append(genOpts, catbreeds.WithImageGenerator(imageGen))
+	}
+	gen := catbreeds.New(genOpts...)
 
 	fmt.Println("=== Cat Breeds Quiz Generator ===")
 	fmt.Printf("Language: %s, Limit: %d\n\n", opts.Language, opts.Limit)

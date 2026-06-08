@@ -1,11 +1,16 @@
 package dogbreeds
 
 import (
+	"context"
+	"encoding/base64"
 	"fmt"
+	"os"
+	"path/filepath"
 	"strings"
 	"time"
 
 	"github.com/duolingocards/quiz-generator/internal/generator"
+	"github.com/duolingocards/quiz-generator/internal/imagegen"
 	"github.com/duolingocards/quiz-generator/internal/media"
 	"github.com/duolingocards/quiz-generator/internal/sparql"
 )
@@ -76,14 +81,24 @@ var sizeCategories = map[string]string{
 type Generator struct {
 	sparqlClient *sparql.Client
 	downloader   *media.Downloader
+	imageGen     imagegen.ImageGenerator
 }
 
 // New creates a new dog breeds generator.
-func New() *Generator {
-	return &Generator{
+func New(opts ...func(*Generator)) *Generator {
+	g := &Generator{
 		sparqlClient: sparql.NewClient(),
 		downloader:   media.NewDownloader(),
 	}
+	for _, opt := range opts {
+		opt(g)
+	}
+	return g
+}
+
+// WithImageGenerator sets a fallback image generator for breeds without a Wikidata photo.
+func WithImageGenerator(gen imagegen.ImageGenerator) func(*Generator) {
+	return func(g *Generator) { g.imageGen = gen }
 }
 
 // Name returns the generator name.
@@ -179,7 +194,16 @@ func (g *Generator) DownloadMedia(items []generator.QuizItem, outputDir string) 
 
 	for i, item := range updated {
 		if item.ImageURL == "" {
-			fmt.Printf("  [%d/%d] %s: no image URL\n", i+1, len(items), item.ID)
+			if g.imageGen != nil {
+				localFile, err := g.generateFallbackImage(item, outputDir)
+				if err != nil {
+					fmt.Printf("  [%d/%d] %s: AI image generation failed: %v\n", i+1, len(items), item.ID, err)
+				} else {
+					updated[i].LocalImage = "images/" + localFile
+				}
+			} else {
+				fmt.Printf("  [%d/%d] %s: no image URL\n", i+1, len(items), item.ID)
+			}
 			continue
 		}
 
@@ -198,6 +222,48 @@ func (g *Generator) DownloadMedia(items []generator.QuizItem, outputDir string) 
 	}
 
 	return updated, nil
+}
+
+// generateFallbackImage uses the AI image generator to create an image for a breed
+// that has no Wikidata photo. The prompt is in English — Flux performs poorly on Czech.
+func (g *Generator) generateFallbackImage(item generator.QuizItem, outputDir string) (string, error) {
+	// Prefer the English name (Subtitle) for the prompt; fall back to the Czech label.
+	name := item.Subtitle
+	if name == "" {
+		name = item.Title
+	}
+	prompt := fmt.Sprintf("Professional photo of a %s dog, white background, studio lighting, breed characteristics clearly visible", name)
+	fmt.Printf("  AI generating image for %s (prompt: %q)...\n", item.ID, prompt)
+
+	ctx, cancel := context.WithTimeout(context.Background(), 20*time.Minute)
+	defer cancel()
+
+	resp, err := g.imageGen.Generate(ctx, imagegen.GenerateRequest{
+		Prompt:      prompt,
+		N:           1,
+		AspectRatio: "1:1",
+		Resolution:  "1k",
+	})
+	if err != nil {
+		return "", err
+	}
+	if len(resp.Data) == 0 {
+		return "", fmt.Errorf("no images returned")
+	}
+
+	imgBytes, err := base64.StdEncoding.DecodeString(resp.Data[0].B64JSON)
+	if err != nil {
+		return "", fmt.Errorf("decode base64 image: %w", err)
+	}
+
+	if err := os.MkdirAll(outputDir, 0755); err != nil {
+		return "", fmt.Errorf("create output dir: %w", err)
+	}
+	filename := item.ID + ".png"
+	if err := os.WriteFile(filepath.Join(outputDir, filename), imgBytes, 0644); err != nil {
+		return "", fmt.Errorf("write image: %w", err)
+	}
+	return filename, nil
 }
 
 // getSizeCategory returns the size category for a breed by Wikidata ID.
