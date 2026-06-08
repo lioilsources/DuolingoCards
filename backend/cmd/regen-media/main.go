@@ -27,7 +27,10 @@ import (
 	"github.com/joho/godotenv"
 )
 
-const promptTemplate = "Simple clean digital illustration of a %s, white background, flat icon style, no text, colorful, educational flashcard image"
+const (
+	fluxPromptTemplate = "Simple clean digital illustration of a %s, white background, flat icon style, no text, colorful, educational flashcard image"
+	ponyPromptTemplate = "score_9, score_8_up, score_7_up, masterpiece, best quality, %s, white background, simple background, full body, cute, vibrant colors, (no text:1.5), no humans, solo"
+)
 
 type card struct {
 	ID       string `json:"id"`
@@ -54,7 +57,8 @@ func main() {
 	force := flag.Bool("force", false, "Overwrite existing image files")
 	dryRun := flag.Bool("dry-run", false, "Print prompts without calling ComfyUI")
 	checkpoint := flag.String("checkpoint", "", "Override checkpoint name in workflow (e.g. ponyDiffusionV6XL_v6StartWithThisOne.safetensors)")
-	workflowType := flag.String("workflow", "sd", "Workflow type: flux (Flux fp8) or sd (SD1.5/SDXL)")
+	workflowType := flag.String("workflow", "sd", "Workflow type: flux, flux-dev, pony, sd")
+	promptFlag := flag.String("prompt", "", "Custom prompt template with %%s placeholder (overrides per-workflow default)")
 	flag.Parse()
 
 	// Resolve ComfyUI URL
@@ -103,7 +107,17 @@ func main() {
 		imgGen = image.NewComfyUIClient(url, cfID, cfSecret, opts...)
 	}
 
+	// Select prompt template: pony/sd → booru-tag style; flux → natural language.
+	tpl := fluxPromptTemplate
+	if *workflowType == "pony" || *workflowType == "sd" {
+		tpl = ponyPromptTemplate
+	}
+	if *promptFlag != "" {
+		tpl = *promptFlag
+	}
+
 	fmt.Printf("Workflow: %s\n", *workflowType)
+	fmt.Printf("Prompt template: %s\n", tpl)
 
 	fmt.Printf("Regenerating images for %d cards\n", len(d.Cards))
 	fmt.Printf("Output dirs: %s\n\n", strings.Join(outDirs, ", "))
@@ -132,7 +146,7 @@ func main() {
 			}
 		}
 
-		prompt := fmt.Sprintf(promptTemplate, c.FrontText)
+		prompt := fmt.Sprintf(tpl, c.FrontText)
 		fmt.Printf("  [%d/%d] %s → %s\n    prompt: %q\n", cardIndex, len(d.Cards), c.FrontText, filename, prompt)
 
 		if *dryRun {

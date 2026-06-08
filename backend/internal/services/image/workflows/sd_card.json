@@ -6,7 +6,7 @@
       "seed": 0,
       "steps": 25,
       "cfg": 6,
-      "sampler_name": "dpm_2m",
+      "sampler_name": "dpmpp_2m",
       "scheduler": "karras",
       "denoise": 1,
       "model": ["4", 0],
@@ -33,7 +33,7 @@
   "7": {
     "class_type": "CLIPTextEncode",
     "_meta": { "title": "Negative Prompt" },
-    "inputs": { "text": "text, letters, watermark, signature, blurry, low quality", "clip": ["4", 1] }
+    "inputs": { "text": "score_1, score_2, score_3, score_4, score_5, score_6, worst quality, low quality, watermark, text, signature, human, person, anthropomorphic, blurry, out of frame", "clip": ["4", 1] }
   },
   "8": {
     "class_type": "VAEDecode",
