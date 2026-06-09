@@ -1,0 +1,47 @@
+# Czech — PIVOT language. Author info+summary here, fact-check, then translate
+# into the remaining 19 languages.
+lang: cs
+pivot: true
+title: Divoká zvířata
+
+cards:
+  animal.lion:
+    label: lev
+    summary: Velká kočkovitá šelma žijící v afrických savanách.
+    info: |
+      Lev je velká kočkovitá šelma žijící hlavně v afrických savanách
+      jižně od Sahary. Žije ve smečkách, kterým se říká prides; samice
+      loví společně, zatímco nápadná hříva samce slouží k zastrašení
+      soupeřů. Lev je často nazýván „králem zvířat".
+
+  animal.elephant:
+    label: slon
+    summary: Největší suchozemský savec, s chobotem a velkýma ušima.
+    info: |
+      Slon africký je největší suchozemský savec na Zemi. Svůj chobot
+      používá k dýchání, pití, čichání i uchopování potravy. Sloni žijí
+      ve stádech vedených nejstarší samicí a jsou známí dobrou pamětí.
+
+  animal.giraffe:
+    label: žirafa
+    summary: Nejvyšší suchozemské zvíře s velmi dlouhým krkem.
+    info: |
+      Žirafa je nejvyšší suchozemské zvíře na světě; samci dosahují výšky
+      až přes pět metrů. Dlouhý krk jí umožňuje dosáhnout na listy akácií,
+      které jsou jejím hlavním zdrojem potravy.
+
+  animal.zebra:
+    label: zebra
+    summary: Africký lichokopytník s černobílými pruhy.
+    info: |
+      Zebra je africký lichokopytník příbuzný koni, snadno rozpoznatelný
+      podle černobílých pruhů. Vzor pruhů je u každého jedince jedinečný,
+      podobně jako lidský otisk prstu, a pomáhá matení predátorů ve stádu.
+
+  animal.wolf:
+    label: vlk
+    summary: Divoká psovitá šelma, předek domácího psa.
+    info: |
+      Vlk obecný je největší divoká psovitá šelma a předek domácího psa.
+      Žije a loví ve smečkách s pevnou sociální hierarchií a dorozumívá se
+      vytím, kterým si značkuje teritorium a svolává smečku.

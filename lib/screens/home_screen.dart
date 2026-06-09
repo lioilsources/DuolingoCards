@@ -23,9 +23,6 @@ class _HomeScreenState extends State<HomeScreen> {
   Map<String, PriorityStats> _deckStats = {};
   bool _isLoading = true;
 
-  // TODO: Move to config
-  static const String apiBaseUrl = 'http://localhost:8080';
-
   @override
   void initState() {
     super.initState();
@@ -78,8 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
     Navigator.of(context)
         .push(
           MaterialPageRoute(
-            builder: (context) =>
-                const DeckStoreScreen(apiBaseUrl: apiBaseUrl),
+            builder: (context) => const DeckStoreScreen(),
           ),
         )
         .then((_) => _loadDecks()); // Refresh after returning from store

@@ -1,0 +1,54 @@
+# animals-wild — tier 0 pilot deck (language-neutral spine).
+# Display text lives in i18n/<lang>.yaml; images live in images/<style>/.
+slug: animals-wild
+version: 1
+tier: 0
+styles:
+  - flux-real
+default_style: flux-real
+
+cards:
+  - key: animal.lion
+    hint: the big cat (Panthera leo), not the star sign or sports team
+    image: animal.lion.webp
+    brief:
+      subject: lion
+      attrs: [adult male, sitting, calm]
+      setting: African savanna grass at golden hour
+      avoid: [text, blood, humans]
+
+  - key: animal.elephant
+    hint: the African land mammal with a trunk
+    image: animal.elephant.webp
+    brief:
+      subject: African elephant
+      attrs: [large, walking]
+      setting: open savanna with acacia trees
+      avoid: [text, circus, chains]
+
+  - key: animal.giraffe
+    hint: tall long-necked savanna mammal
+    image: animal.giraffe.webp
+    brief:
+      subject: giraffe
+      attrs: [standing, browsing leaves]
+      setting: savanna beside an acacia tree
+      avoid: [text, fence]
+
+  - key: animal.zebra
+    hint: black-and-white striped horse-like mammal
+    image: animal.zebra.webp
+    brief:
+      subject: zebra
+      attrs: [standing, grazing]
+      setting: grassy plain
+      avoid: [text]
+
+  - key: animal.wolf
+    hint: wild canine (Canis lupus), not a dog
+    image: animal.wolf.webp
+    brief:
+      subject: grey wolf
+      attrs: [standing, alert]
+      setting: snowy pine forest edge
+      avoid: [text, blood, cartoon]
