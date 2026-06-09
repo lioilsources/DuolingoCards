@@ -35,14 +35,14 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
-  # Audio playback for pronunciation
+  # Audio playback (legacy decks with bundled audio assets)
   audioplayers: ^6.0.0
 
-  # Local persistence for card priorities
-  shared_preferences: ^2.2.0
+  # On-device text-to-speech pronunciation (no-backend, OS voices)
+  flutter_tts: ^4.2.0
 
-  # HTTP client for API calls
-  dio: ^5.4.0
+  # Local persistence for card priorities + on-device entitlements
+  shared_preferences: ^2.2.0
 
   # Local file storage
   path_provider: ^2.1.0
@@ -79,6 +79,9 @@ flutter:
   assets:
     - assets/data/
     - assets/audio/
+    # No-backend content (v2): bundled product catalog + language decks
+    - assets/catalog.json
+    - assets/decks/
     - assets/media/japanese-basics/
     - assets/media/japanese-50-animals/
     - assets/media/english-50-animals/

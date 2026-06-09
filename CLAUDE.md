@@ -32,9 +32,41 @@ go run cmd/generator/main.go -type pokemon -limit 151        # Pokémon Gen 1
 
 Output goes to `quiz-generator/output/decks/` (JSON) and `quiz-generator/output/media/` (images).
 
+### Content pipeline (no-backend, build-time)
+
+The v2 architecture is **no-backend**: authored content is just files in Git
+(deck-per-folder), built into bundled `deck.json` packs — there is no runtime
+server. The `content` Go tool drives the build-time pipeline:
+
+```bash
+cd quiz-generator && go build -o /tmp/content ./cmd/content   # from repo root: run /tmp/content
+/tmp/content lint    -decks decks [-strict] [-images]   # validate (replaces DB constraints)
+/tmp/content build   -decks decks -out ../assets/decks   # merge deck.yaml + i18n/*.yaml → deck.json
+/tmp/content prompts -decks decks -deck animals-wild -style pony-cartoon   # expand visual briefs
+```
+
+Authoring layout (top-level `decks/`, versioned in Git):
+
+```
+decks/<slug>/
+  deck.yaml            # language-neutral spine: slug, version, styles, cards (key, hint, visual brief)
+  i18n/<lang>.yaml     # label + summary + info per card, one file per language (cs is the pivot)
+  images/<style>/*.webp
+```
+
+`label`/`summary`/`info` are authored in the **cs pivot**, fact-checked, then
+translated to the other 19 target languages (see `internal/langs`). `build`
+folds all languages into per-field maps in `deck.json`; `lint` enforces card
+spine, translation coverage, no orphan keys, and schema. Visual briefs are
+expanded into FLUX and Pony prompts via `internal/prompt` (dual prompting).
+
 ## Architecture Overview
 
-DuolingoCards is a flashcard app with swipeable cards, priority-based spaced repetition, deck store with in-app purchases, and cloud API integration.
+DuolingoCards is a flashcard app with swipeable cards, priority-based spaced
+repetition, and a **no-backend** deck store. Content ships in the app binary
+(distribution variant B); in-app purchases unlock decks **on-device** (StoreKit
+2 / Play Billing verified locally — no server, no receipt forwarding).
+Pronunciation uses on-device TTS (`flutter_tts`), so there are no audio assets.
 
 ### Screen Flow
 
@@ -42,10 +74,10 @@ DuolingoCards is a flashcard app with swipeable cards, priority-based spaced rep
 HomeScreen (entry point)
 ├── Displays bundled deck + downloaded decks
 ├── Tap deck → DeckScreen (study mode)
-└── Store button → DeckStoreScreen
-                   ├── Browse catalog (free + paid)
-                   ├── IAP purchase flow
-                   └── Download → returns to HomeScreen
+└── Store button → DeckStoreScreen (no-backend)
+                   ├── Lists bundled decks (free + paid)
+                   ├── On-device IAP unlock (+ restore)
+                   └── Open → LanguageDeckScreen (lang pair, TTS, RTL)
 ```
 
 ### Flutter App Structure
@@ -54,27 +86,38 @@ HomeScreen (entry point)
 lib/
 ├── main.dart                    # App entry, MaterialApp
 ├── models/
-│   ├── catalog.dart             # CatalogItem, Catalog, DeckPreview (API responses)
-│   ├── deck.dart                # Deck with mediaBaseUrl
-│   └── flashcard.dart           # Flashcard + CardMedia (images, audio)
+│   ├── language_deck.dart       # No-backend LanguageDeck/LanguageCard (label/summary/info ×20 langs)
+│   ├── store_catalog.dart       # Bundled catalog.json: free decks + product SKU → deck mapping
+│   ├── deck.dart                # Legacy quiz Deck with mediaBaseUrl
+│   └── flashcard.dart           # Legacy Flashcard + CardMedia (images, audio)
 ├── screens/
 │   ├── home_screen.dart         # Deck list + store navigation
-│   ├── deck_store_screen.dart   # Catalog browser + IAP UI
-│   └── deck_screen.dart         # Study/review with swipe gestures
+│   ├── deck_store_screen.dart   # No-backend store (EntitlementService + bundled decks)
+│   ├── language_deck_screen.dart# No-backend deck viewer (lang pair, TTS, RTL)
+│   └── deck_screen.dart         # Legacy study/review with swipe gestures
 ├── services/
-│   ├── api_service.dart         # HTTP client (Dio) for remote API
-│   ├── local_deck_service.dart  # File-based deck storage in app documents
-│   ├── iap_service.dart         # In-app purchase handling (singleton)
-│   ├── deck_service.dart        # Bundled asset deck loader
+│   ├── language_deck_service.dart # Loads bundled deck.json packs from assets
+│   ├── entitlement_service.dart # On-device entitlements (catalog + IAP + restore), ChangeNotifier
+│   ├── iap_service.dart         # SKU-generic in_app_purchase wrapper (on-device verify, no server)
+│   ├── tts_service.dart         # flutter_tts pronunciation + isLanguageAvailable fallback
+│   ├── local_deck_service.dart  # File-based legacy deck storage in app documents
+│   ├── deck_service.dart        # Bundled asset deck loader (legacy)
 │   ├── priority_service.dart    # Spaced repetition + SharedPreferences
-│   ├── audio_service.dart       # AudioPlayer wrapper
-│   └── media_download_service.dart  # Downloads and caches deck media locally
+│   └── audio_service.dart       # AudioPlayer wrapper (legacy audio decks)
+├── utils/
+│   └── locale_direction.dart    # RTL detection + DirectionalText (per-string Directionality)
 └── widgets/
+    ├── pronounce_button.dart    # TTS speaker button with install-voice fallback
     ├── card_stack.dart          # Swipe gesture detection & animation
     ├── flashcard_widget.dart    # 3D flip animation + media display
     ├── card_widget_factory.dart # Factory pattern for card type widgets
     └── quiz_card_widget.dart    # Quiz-style card rendering
 ```
+
+> No-backend note: there is no `api_service`/`media_download_service` — the
+> runtime backend was removed. Decks and `catalog.json` are bundled assets;
+> `EntitlementService` decides access (free ∪ purchased) with the store as the
+> source of truth and SharedPreferences as the local cache.
 
 ### Quiz Generator Structure (Go)
 
@@ -134,15 +177,17 @@ Steps: create package in `internal/`, implement the interface, add case to switc
 
 ### Key Services
 
-- **ApiService**: HTTP client with endpoints `/api/catalog`, `/api/decks/{id}`, `/api/decks/{id}/preview`
-- **LocalDeckService**: Stores decks as `{appDocDir}/decks/{deckId}/deck.json`
-- **IAPService**: Singleton, product IDs follow `com.example.duolingocards.deck.{deckId}`
+- **LanguageDeckService**: Loads bundled no-backend `deck.json` packs from `assets/decks/`
+- **EntitlementService**: `ChangeNotifier`; loads `assets/catalog.json`, resolves free ∪ purchased decks, drives IAP + restore (no server)
+- **IAPService**: SKU-generic `in_app_purchase` wrapper; purchases verified on-device, mapping to decks lives in `EntitlementService`
+- **TtsService**: `flutter_tts` pronunciation; `isLanguageAvailable` gates a button that offers to install the OS voice when missing
+- **LocalDeckService**: Legacy file storage as `{appDocDir}/decks/{deckId}/deck.json`
 - **PriorityService**: Weighted random selection where priority (1-10) = selection weight
 
 ### State Management
 
-- Uses local `setState()` in StatefulWidgets (no Provider/Riverpod)
-- `IAPService` is a singleton for global purchase state
+- Uses local `setState()` in StatefulWidgets (no Provider/Riverpod yet — plan §9 calls for Riverpod)
+- `IAPService` is a singleton; `EntitlementService` is a `ChangeNotifier` the store screen listens to
 
 ### Flashcard Media
 

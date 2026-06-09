@@ -1,0 +1,94 @@
+{
+  "deck": "animals-wild",
+  "version": 1,
+  "styles": [
+    "flux-real"
+  ],
+  "defaultStyle": "flux-real",
+  "titles": {
+    "cs": "Divoká zvířata",
+    "en": "Wild animals"
+  },
+  "cards": [
+    {
+      "key": "animal.lion",
+      "image": "animal.lion.webp",
+      "label": {
+        "cs": "lev",
+        "en": "lion"
+      },
+      "summary": {
+        "cs": "Velká kočkovitá šelma žijící v afrických savanách.",
+        "en": "A big wild cat that lives on the African savanna."
+      },
+      "info": {
+        "cs": "Lev je velká kočkovitá šelma žijící hlavně v afrických savanách\njižně od Sahary. Žije ve smečkách, kterým se říká prides; samice\nloví společně, zatímco nápadná hříva samce slouží k zastrašení\nsoupeřů. Lev je často nazýván „králem zvířat\".\n",
+        "en": "The lion is a large cat that lives mainly on the African savanna\nsouth of the Sahara. Lions live in family groups called prides;\nthe females hunt together, while the male's striking mane helps\nintimidate rivals. The lion is often called the \"king of beasts\".\n"
+      }
+    },
+    {
+      "key": "animal.elephant",
+      "image": "animal.elephant.webp",
+      "label": {
+        "cs": "slon",
+        "en": "elephant"
+      },
+      "summary": {
+        "cs": "Největší suchozemský savec, s chobotem a velkýma ušima.",
+        "en": "The largest land animal, with a trunk and big ears."
+      },
+      "info": {
+        "cs": "Slon africký je největší suchozemský savec na Zemi. Svůj chobot\npoužívá k dýchání, pití, čichání i uchopování potravy. Sloni žijí\nve stádech vedených nejstarší samicí a jsou známí dobrou pamětí.\n",
+        "en": "The African elephant is the largest land animal on Earth. It uses\nits trunk to breathe, drink, smell and grasp food. Elephants live in\nherds led by the oldest female and are known for their good memory.\n"
+      }
+    },
+    {
+      "key": "animal.giraffe",
+      "image": "animal.giraffe.webp",
+      "label": {
+        "cs": "žirafa",
+        "en": "giraffe"
+      },
+      "summary": {
+        "cs": "Nejvyšší suchozemské zvíře s velmi dlouhým krkem.",
+        "en": "The tallest land animal, with a very long neck."
+      },
+      "info": {
+        "cs": "Žirafa je nejvyšší suchozemské zvíře na světě; samci dosahují výšky\naž přes pět metrů. Dlouhý krk jí umožňuje dosáhnout na listy akácií,\nkteré jsou jejím hlavním zdrojem potravy.\n",
+        "en": "The giraffe is the tallest land animal in the world; males can stand\nover five metres tall. Its long neck lets it reach the acacia leaves\nthat make up most of its diet.\n"
+      }
+    },
+    {
+      "key": "animal.zebra",
+      "image": "animal.zebra.webp",
+      "label": {
+        "cs": "zebra",
+        "en": "zebra"
+      },
+      "summary": {
+        "cs": "Africký lichokopytník s černobílými pruhy.",
+        "en": "An African wild horse relative with black-and-white stripes."
+      },
+      "info": {
+        "cs": "Zebra je africký lichokopytník příbuzný koni, snadno rozpoznatelný\npodle černobílých pruhů. Vzor pruhů je u každého jedince jedinečný,\npodobně jako lidský otisk prstu, a pomáhá matení predátorů ve stádu.\n",
+        "en": "The zebra is an African relative of the horse, easily recognised by\nits black-and-white stripes. Each animal's stripe pattern is unique,\nlike a human fingerprint, and helps confuse predators within the herd.\n"
+      }
+    },
+    {
+      "key": "animal.wolf",
+      "image": "animal.wolf.webp",
+      "label": {
+        "cs": "vlk",
+        "en": "wolf"
+      },
+      "summary": {
+        "cs": "Divoká psovitá šelma, předek domácího psa.",
+        "en": "A wild member of the dog family and ancestor of the dog."
+      },
+      "info": {
+        "cs": "Vlk obecný je největší divoká psovitá šelma a předek domácího psa.\nŽije a loví ve smečkách s pevnou sociální hierarchií a dorozumívá se\nvytím, kterým si značkuje teritorium a svolává smečku.\n",
+        "en": "The grey wolf is the largest wild member of the dog family and the\nancestor of the domestic dog. It lives and hunts in packs with a clear\nsocial hierarchy and communicates by howling to mark its territory and\ncall the pack together.\n"
+      }
+    }
+  ]
+}
