@@ -67,7 +67,13 @@ class _LanguageDeckScreenState extends State<LanguageDeckScreen> {
           Expanded(
             child: card == null
                 ? const Center(child: Text('This deck has no cards.'))
-                : _CardView(card: card, l1: _l1, l2: _l2),
+                : _CardView(
+                    card: card,
+                    l1: _l1,
+                    l2: _l2,
+                    slug: deck.slug,
+                    style: deck.defaultStyle,
+                  ),
           ),
           if (cards.length > 1)
             Padding(
@@ -101,8 +107,16 @@ class _CardView extends StatelessWidget {
   final LanguageCard card;
   final String l1;
   final String l2;
+  final String slug;
+  final String style;
 
-  const _CardView({required this.card, required this.l1, required this.l2});
+  const _CardView({
+    required this.card,
+    required this.l1,
+    required this.l2,
+    required this.slug,
+    required this.style,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -115,16 +129,17 @@ class _CardView extends StatelessWidget {
     return ListView(
       padding: const EdgeInsets.all(20),
       children: [
-        // Image placeholder (real webp ships under assets once generated).
-        Container(
-          height: 160,
-          decoration: BoxDecoration(
-            color: Colors.grey.shade200,
-            borderRadius: BorderRadius.circular(12),
-          ),
-          alignment: Alignment.center,
-          child: Icon(Icons.image_outlined,
-              size: 56, color: Colors.grey.shade400),
+        ClipRRect(
+          borderRadius: BorderRadius.circular(12),
+          child: card.image.isNotEmpty
+              ? Image.asset(
+                  'assets/decks/$slug/images/$style/${card.image}',
+                  height: 220,
+                  width: double.infinity,
+                  fit: BoxFit.cover,
+                  errorBuilder: (context, error, stack) => _imagePlaceholder(),
+                )
+              : _imagePlaceholder(),
         ),
         const SizedBox(height: 24),
 
@@ -168,6 +183,13 @@ class _CardView extends StatelessWidget {
       ],
     );
   }
+
+  Widget _imagePlaceholder() => Container(
+        height: 220,
+        color: Colors.grey.shade200,
+        alignment: Alignment.center,
+        child: Icon(Icons.image_outlined, size: 56, color: Colors.grey.shade400),
+      );
 }
 
 class _LangPairPicker extends StatelessWidget {

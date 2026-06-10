@@ -18,7 +18,7 @@
   "4": {
     "class_type": "CheckpointLoaderSimple",
     "_meta": { "title": "Load Checkpoint" },
-    "inputs": { "ckpt_name": "flux1-dev-fp8.safetensors" }
+    "inputs": { "ckpt_name": "ponyDiffusionV6XL_v6StartWithThisOne.safetensors" }
   },
   "5": {
     "class_type": "EmptySD3LatentImage",

@@ -66,6 +66,14 @@ func IsTarget(code string) bool {
 	return false
 }
 
+// Pivot is the language in which content is authored and fact-checked before
+// translation. It is intentionally excluded from Targets so lint does not
+// require it as a translation target.
+const Pivot = "cs"
+
+// IsPivot reports whether code is the pivot (authoring) language.
+func IsPivot(code string) bool { return code == Pivot }
+
 // IsRTL reports whether the given target code uses a right-to-left script.
 func IsRTL(code string) bool {
 	for _, t := range Targets {

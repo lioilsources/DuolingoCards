@@ -109,7 +109,7 @@ func (d *Deck) Lint(opts LintOptions) []Issue {
 		missingSev = Error
 	}
 	for _, lang := range d.Langs {
-		if !langs.IsTarget(lang) {
+		if !langs.IsTarget(lang) && !langs.IsPivot(lang) {
 			add(Warn, "i18n/%s.yaml is not one of the %d target languages", lang, len(langs.Targets))
 		}
 		f := d.I18n[lang]

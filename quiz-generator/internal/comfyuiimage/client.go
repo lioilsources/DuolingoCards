@@ -47,12 +47,14 @@ var defaultWorkflow []byte
 // Defaults match the embedded flux_card.json workflow.
 type NodeRoles struct {
 	PositivePrompt string
+	NegativePrompt string
 	Latent         string
 	Sampler        string
 }
 
 var defaultNodeRoles = NodeRoles{
 	PositivePrompt: "6",
+	NegativePrompt: "7",
 	Latent:         "5",
 	Sampler:        "3",
 }
@@ -151,7 +153,7 @@ func (c *Client) Generate(ctx context.Context, req imagegen.GenerateRequest) (*i
 	}
 
 	w, h := dimensions(req.AspectRatio, req.Resolution)
-	graph, err := c.buildWorkflow(req.Prompt, w, h, n)
+	graph, err := c.buildWorkflow(req.Prompt, req.NegativePrompt, w, h, n)
 	if err != nil {
 		return nil, err
 	}
@@ -177,13 +179,18 @@ func (c *Client) Generate(ctx context.Context, req imagegen.GenerateRequest) (*i
 	return resp, nil
 }
 
-func (c *Client) buildWorkflow(prompt string, w, h, batch int) (map[string]any, error) {
+func (c *Client) buildWorkflow(prompt, negative string, w, h, batch int) (map[string]any, error) {
 	var graph map[string]any
 	if err := json.Unmarshal(c.workflowJSON, &graph); err != nil {
 		return nil, fmt.Errorf("parse workflow: %w", err)
 	}
 	if err := setNodeInput(graph, c.roles.PositivePrompt, "text", prompt); err != nil {
 		return nil, err
+	}
+	if negative != "" {
+		if err := setNodeInput(graph, c.roles.NegativePrompt, "text", negative); err != nil {
+			return nil, err
+		}
 	}
 	if err := setNodeInput(graph, c.roles.Latent, "width", w); err != nil {
 		return nil, err
