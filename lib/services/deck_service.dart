@@ -5,6 +5,7 @@ import '../models/deck.dart';
 class DeckService {
   // List of bundled asset paths
   static const List<String> bundledAssets = [
+    'assets/data/animals-wild.json',
     'assets/data/japanese_basics.json',
     'assets/data/japanese-50-animals.json',
     'assets/data/english-50-animals.json',

@@ -4,13 +4,13 @@ slug: animals-wild
 version: 1
 tier: 0
 styles:
-  - flux-real
-default_style: flux-real
+  - pony-cartoon
+default_style: pony-cartoon
 
 cards:
   - key: animal.lion
     hint: the big cat (Panthera leo), not the star sign or sports team
-    image: animal.lion.webp
+    image: animal.lion.png
     brief:
       subject: lion
       attrs: [adult male, sitting, calm]
@@ -19,7 +19,7 @@ cards:
 
   - key: animal.elephant
     hint: the African land mammal with a trunk
-    image: animal.elephant.webp
+    image: animal.elephant.png
     brief:
       subject: African elephant
       attrs: [large, walking]
@@ -28,7 +28,7 @@ cards:
 
   - key: animal.giraffe
     hint: tall long-necked savanna mammal
-    image: animal.giraffe.webp
+    image: animal.giraffe.png
     brief:
       subject: giraffe
       attrs: [standing, browsing leaves]
@@ -37,7 +37,7 @@ cards:
 
   - key: animal.zebra
     hint: black-and-white striped horse-like mammal
-    image: animal.zebra.webp
+    image: animal.zebra.png
     brief:
       subject: zebra
       attrs: [standing, grazing]
@@ -46,7 +46,7 @@ cards:
 
   - key: animal.wolf
     hint: wild canine (Canis lupus), not a dog
-    image: animal.wolf.webp
+    image: animal.wolf.png
     brief:
       subject: grey wolf
       attrs: [standing, alert]

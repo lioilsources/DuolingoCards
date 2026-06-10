@@ -1,0 +1,55 @@
+{
+  "id": "animals-wild",
+  "name": "Divoká zvířata",
+  "description": "5 divokých zvířat — anglicky a česky",
+  "frontLanguage": "en",
+  "backLanguage": "cs",
+  "mediaBaseUrl": "assets/decks/animals-wild/images/pony-cartoon",
+  "cards": [
+    {
+      "id": "animal.lion",
+      "frontText": "lion",
+      "backText": "lev",
+      "reading": "lion",
+      "priority": 5,
+      "media": { "image": "animal.lion.png" },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "animal.elephant",
+      "frontText": "elephant",
+      "backText": "slon",
+      "reading": "elephant",
+      "priority": 5,
+      "media": { "image": "animal.elephant.png" },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "animal.giraffe",
+      "frontText": "giraffe",
+      "backText": "žirafa",
+      "reading": "giraffe",
+      "priority": 5,
+      "media": { "image": "animal.giraffe.png" },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "animal.zebra",
+      "frontText": "zebra",
+      "backText": "zebra",
+      "reading": "zebra",
+      "priority": 5,
+      "media": { "image": "animal.zebra.png" },
+      "mediaStatus": "ready"
+    },
+    {
+      "id": "animal.wolf",
+      "frontText": "wolf",
+      "backText": "vlk",
+      "reading": "wolf",
+      "priority": 5,
+      "media": { "image": "animal.wolf.png" },
+      "mediaStatus": "ready"
+    }
+  ]
+}
