@@ -1,0 +1,81 @@
+# animals-birds-flux — tier 1 paid deck, FLUX images variant.
+# i18n is shared with animals-birds via symlink.
+slug: animals-birds-flux
+version: 1
+tier: 1
+styles:
+  - flux-real
+default_style: flux-real
+
+cards:
+  - key: animal.eagle
+    hint: large bird of prey with hooked beak and keen eyesight (Aquila / Haliaeetus)
+    image: animal.eagle.png
+    brief:
+      subject: bald eagle perched on a rocky cliff, white head, brown body, sharp beak
+      attrs: [sharp talons, alert expression]
+      setting: [pine trees, blue sky, dramatic lighting]
+      avoid: [text, humans, cage]
+
+  - key: animal.owl
+    hint: nocturnal bird of prey with forward-facing eyes (order Strigiformes)
+    image: animal.owl.png
+    brief:
+      subject: great horned owl perched on a branch, round face, yellow eyes, feather tufts
+      attrs: [forward-facing eyes, soft feathers]
+      setting: [forest, dusk, warm golden light]
+      avoid: [text, humans]
+
+  - key: animal.penguin
+    hint: flightless bird from the Southern Hemisphere adapted for swimming
+    image: animal.penguin.png
+    brief:
+      subject: emperor penguin standing upright, black-and-white plumage, yellow neck patch
+      attrs: [dignified posture, fluffy feathers]
+      setting: [Antarctic ice, snow, blue sky]
+      avoid: [text, zoo enclosure]
+
+  - key: animal.parrot
+    hint: colourful tropical bird known for mimicking sounds (order Psittaciformes)
+    image: animal.parrot.png
+    brief:
+      subject: scarlet macaw perched on a branch, vivid red yellow blue feathers, curved beak
+      attrs: [bright plumage, expressive eyes]
+      setting: [tropical rainforest, green leaves, dappled light]
+      avoid: [text, cage, humans]
+
+  - key: animal.flamingo
+    hint: wading bird with pink plumage and long legs (genus Phoenicopterus)
+    image: animal.flamingo.png
+    brief:
+      subject: flamingo standing on one leg, pink plumage, curved neck, long legs
+      attrs: [graceful pose, reflected in water]
+      setting: [shallow salt lake, sunset, orange sky]
+      avoid: [text, zoo]
+
+  - key: animal.toucan
+    hint: tropical bird with an oversized colourful bill (family Ramphastidae)
+    image: animal.toucan.png
+    brief:
+      subject: toucan perched on a branch, large orange-yellow bill, black-and-white body
+      attrs: [colorful bill, curious expression]
+      setting: [tropical tree, green canopy, bright light]
+      avoid: [text, cage]
+
+  - key: animal.peacock
+    hint: male peafowl with an iridescent fan-shaped tail display
+    image: animal.peacock.png
+    brief:
+      subject: peacock with tail fan fully spread, iridescent blue-green feathers, standing
+      attrs: [magnificent tail display, regal posture]
+      setting: [garden, green grass, soft natural light]
+      avoid: [text, zoo cage, humans]
+
+  - key: animal.hummingbird
+    hint: tiny hovering bird that feeds on nectar (family Trochilidae)
+    image: animal.hummingbird.png
+    brief:
+      subject: ruby-throated hummingbird hovering mid-air, wings a blur, red throat, green back
+      attrs: [wings blurred from speed, delicate body]
+      setting: [red flower, garden, soft bokeh background]
+      avoid: [text, feeder, cage]
