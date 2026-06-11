@@ -1,0 +1,81 @@
+# animals-birds — tier 1 paid deck (language-neutral spine).
+# Display text lives in i18n/<lang>.yaml; images live in images/<style>/.
+slug: animals-birds
+version: 1
+tier: 1
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: animal.eagle
+    hint: large bird of prey with hooked beak and keen eyesight (Aquila / Haliaeetus)
+    image: animal.eagle.png
+    brief:
+      subject: bald eagle
+      attrs: [perched, white head, sharp beak, brown body]
+      setting: rocky cliff top with pine trees and sky
+      avoid: [text, humans, cage]
+
+  - key: animal.owl
+    hint: nocturnal bird of prey with forward-facing eyes (order Strigiformes)
+    image: animal.owl.png
+    brief:
+      subject: great horned owl
+      attrs: [perched, round face, yellow eyes, feather tufts]
+      setting: forest branch at dusk
+      avoid: [text, cartoon, humans]
+
+  - key: animal.penguin
+    hint: flightless bird from the Southern Hemisphere adapted for swimming
+    image: animal.penguin.png
+    brief:
+      subject: emperor penguin
+      attrs: [standing upright, black-and-white, yellow neck patch]
+      setting: Antarctic ice with blurred snowy background
+      avoid: [text, zoo enclosure, cartoon]
+
+  - key: animal.parrot
+    hint: colourful tropical bird known for mimicking sounds (order Psittaciformes)
+    image: animal.parrot.png
+    brief:
+      subject: scarlet macaw
+      attrs: [perched, bright red-yellow-blue feathers, curved beak]
+      setting: tropical rainforest branch
+      avoid: [text, cage, humans]
+
+  - key: animal.flamingo
+    hint: wading bird with pink plumage and long legs (genus Phoenicopterus)
+    image: animal.flamingo.png
+    brief:
+      subject: flamingo
+      attrs: [standing on one leg, pink feathers, curved neck]
+      setting: shallow salt lake at sunset
+      avoid: [text, zoo, cartoon]
+
+  - key: animal.toucan
+    hint: tropical bird with an oversized colourful bill (family Ramphastidae)
+    image: animal.toucan.png
+    brief:
+      subject: toucan
+      attrs: [perched, large orange-yellow bill, black-and-white body]
+      setting: tropical tree branch with green leaves
+      avoid: [text, cage, cartoon]
+
+  - key: animal.peacock
+    hint: male peafowl with an iridescent fan-shaped tail display
+    image: animal.peacock.png
+    brief:
+      subject: peacock
+      attrs: [tail fan fully spread, iridescent blue-green, standing]
+      setting: open garden or natural meadow
+      avoid: [text, zoo cage, humans]
+
+  - key: animal.hummingbird
+    hint: tiny hovering bird that feeds on nectar (family Trochilidae)
+    image: animal.hummingbird.png
+    brief:
+      subject: ruby-throated hummingbird
+      attrs: [hovering mid-air, wings blurred, red throat, green back]
+      setting: beside a bright red flower
+      avoid: [text, feeder, cage]

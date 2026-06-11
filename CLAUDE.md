@@ -38,11 +38,27 @@ The v2 architecture is **no-backend**: authored content is just files in Git
 (deck-per-folder), built into bundled `deck.json` packs — there is no runtime
 server. The `content` Go tool drives the build-time pipeline:
 
+Binary lives at `quiz-generator/bin/content` (git-ignored). Use `make` from the repo root:
+
 ```bash
-cd quiz-generator && go build -o /tmp/content ./cmd/content   # from repo root: run /tmp/content
-/tmp/content lint    -decks decks [-strict] [-images]   # validate (replaces DB constraints)
-/tmp/content build   -decks decks -out ../assets/decks   # merge deck.yaml + i18n/*.yaml → deck.json
-/tmp/content prompts -decks decks -deck animals-wild -style pony-cartoon   # expand visual briefs
+make build-tool                              # compile quiz-generator/bin/content
+make lint                                    # validate all decks
+make lint-strict                             # + require all translations + images
+make build                                   # merge deck.yaml + i18n/*.yaml → assets/decks/*.json
+make translate                               # LLM-translate all missing languages (spark-99bb:4000)
+make translate DECK=animals-sea              # only one deck
+make images DECK=animals-sea STYLE=pony-cartoon  # generate images via ComfyUI (spark-99bb:8188)
+make new-deck DECK=animals-sea STYLE=pony-cartoon  # translate + images + build in one shot
+make prompts DECK=animals-sea STYLE=pony-cartoon   # print expanded prompts (no generation)
+```
+
+Direct invocation (if needed):
+```bash
+BIN=quiz-generator/bin/content
+$BIN lint    -decks decks [-strict] [-images]
+$BIN build   -decks decks -out assets/decks
+$BIN translate -decks decks -deck animals-sea -url http://spark-99bb:4000
+$BIN images    -decks decks -deck animals-sea -style pony-cartoon -url http://spark-99bb:8188
 ```
 
 Authoring layout (top-level `decks/`, versioned in Git):

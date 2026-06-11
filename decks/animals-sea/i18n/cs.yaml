@@ -1,0 +1,78 @@
+# Czech — PIVOT language. Author info+summary here, fact-check, then translate
+# into the remaining 19 languages.
+lang: cs
+pivot: true
+title: Mořská zvířata
+
+cards:
+  animal.dolphin:
+    label: delfín
+    summary: Chytrý mořský savec žijící v hejnech a skákající z vody.
+    info: |
+      Delfín je mořský savec z čeledi delfínovitých. Je znám vysokou inteligencí,
+      schopností echolokace a hravým chováním – delfíni rádi skáčou z vln lodí
+      a komunikují pomocí pískotů a klikání. Žijí ve skupinách zvaných hejna
+      a jsou blízkými příbuznými velryb.
+
+  animal.shark:
+    label: žralok
+    summary: Velká predátorská ryba s ostrými zuby a hydrodynamickým tělem.
+    info: |
+      Žralok bílý je největší predátorská ryba na světě a dosahuje délky
+      přes šest metrů. Má schopnost cítit elektrická pole kořisti pomocí
+      Lorenziniho ampulí. Přes svou pověst je útok na člověka velmi vzácný;
+      žraloci jsou klíčoví predátoři oceánského ekosystému.
+
+  animal.whale:
+    label: velryba
+    summary: Největší zvíře na Zemi – mořský savec dýchající vzduch.
+    info: |
+      Velryba modrá je největší zvíře, jaké kdy na Zemi žilo; dosahuje délky
+      až 30 metrů a hmotnosti přes 150 tun. Živí se výhradně drobnými
+      korýši zvanými kril, které filtruje přes kosticové desky. Vydává
+      nejhlasitější zvuky ze všech živočichů.
+
+  animal.octopus:
+    label: chobotnice
+    summary: Měkkýš s osmi chapadly, schopný měnit barvu a tvar těla.
+    info: |
+      Chobotnice je bezobratlý živočich z třídy hlavonožců. Má tři srdce,
+      modrou krev a dokáže okamžitě měnit barvu i texturu kůže pomocí
+      chromatoforů. Je velmi inteligentní – zvládá otevírat zavřené nádoby
+      a řešit labyrinty.
+
+  animal.seahorse:
+    label: mořský koník
+    summary: Drobná ryba plavající ve svislé poloze; samec nosí mláďata.
+    info: |
+      Mořský koník je ryba z rodu Hippocampus, která se pohybuje ve svislé
+      poloze pomocí hřbetní ploutve. Zajímavostí je, že mláďata nosí
+      v váčku samec, nikoli samice. Svým ocasem se přidržuje mořské trávy
+      a čeká na průplutí kořisti.
+
+  animal.sea_turtle:
+    label: mořská želva
+    summary: Velký mořský plaz, který se vrací na plážena kladení vajec.
+    info: |
+      Mořská želva zelená je jeden ze sedmi druhů mořských želv. Samice se
+      každé dva až pět let vrací na pláž, kde se sama vylíhla, aby
+      nakladla vajíčka. Dospělí jedinci jsou býložravci a živí se mořskou
+      trávou a řasami; mláďata jsou všežravci.
+
+  animal.crab:
+    label: krab
+    summary: Desetinožkový korýš s pancířem a klepety, pohybující se do strany.
+    info: |
+      Krab je korýš z infrařádu Brachyura. Má tvrdý chitinový krunýř,
+      který pravidelně svléká (ekdyze), aby mohl růst. Pohybuje se
+      charakteristicky do boku. Klepeta slouží k obraně, lovu i komunikaci.
+      Žije jak v oceánech, tak ve sladké vodě nebo na souši.
+
+  animal.jellyfish:
+    label: medúza
+    summary: Průsvitné mořské zvíře ve tvaru zvonu s jedovými chapadly.
+    info: |
+      Medúza je mořský živočich z kmene žahavců bez mozku, srdce ani kostí –
+      tělo tvoří z 95 % voda. Pohybuje se pulzací zvonkovitého těla.
+      Chapadla obsahují žahavé buňky (nematocysty), které paralyzují kořist.
+      Některé druhy jsou téměř nesmrtelné – mohou se vrátit do juvenilního stádia.
