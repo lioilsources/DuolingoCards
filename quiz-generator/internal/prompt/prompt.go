@@ -55,8 +55,7 @@ var (
 	StylePonyCartoon = Style{
 		Name:           "pony-cartoon",
 		Backend:        BackendPony,
-		PositiveSuffix: "cartoon, vibrant colors, clean lineart, cute",
-		ExtraNegative:  "realistic, photo, 3d render",
+		PositiveSuffix: "(semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo",
 	}
 )
 
@@ -67,10 +66,10 @@ var DefaultStyles = map[string]Style{
 }
 
 // ponyQualityTags is the conventional Pony quality preamble.
-const ponyQualityTags = "score_9, score_8_up, score_7_up"
+const ponyQualityTags = "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres"
 
 // ponyBaseNegative is the always-on Pony negative prompt.
-const ponyBaseNegative = "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed"
+const ponyBaseNegative = "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style"
 
 // Expand renders a brief for a given style.
 func Expand(b content.VisualBrief, s Style) Prompt {
@@ -100,9 +99,9 @@ func expandFlux(b content.VisualBrief, s Style) Prompt {
 		sb.WriteString(" ")
 	}
 	sb.WriteString(b.Subject)
-	if b.Setting != "" {
+	if len(b.Setting) > 0 {
 		sb.WriteString(" in ")
-		sb.WriteString(b.Setting)
+		sb.WriteString(strings.Join(b.Setting, ", "))
 	}
 	sb.WriteString(".")
 	// Distilled FLUX ignores negatives → fold "avoid" into the positive prompt.
@@ -125,9 +124,7 @@ func expandPony(b content.VisualBrief, s Style) Prompt {
 		tags = append(tags, b.Subject)
 	}
 	tags = append(tags, b.Attrs...)
-	if b.Setting != "" {
-		tags = append(tags, b.Setting)
-	}
+	tags = append(tags, b.Setting...)
 	if s.PositiveSuffix != "" {
 		tags = append(tags, s.PositiveSuffix)
 	}

@@ -43,6 +43,25 @@ const (
 //go:embed workflows/flux_card.json
 var defaultWorkflow []byte
 
+//go:embed workflows/flux_dev.json
+var fluxDevWorkflow []byte
+
+// FluxDevNodeRoles are the node IDs for the flux_dev.json workflow.
+var FluxDevNodeRoles = NodeRoles{
+	PositivePrompt: "4",
+	NegativePrompt: "5",
+	Latent:         "6",
+	Sampler:        "8",
+}
+
+// WithFluxDev switches the client to use the FLUX Dev workflow.
+func WithFluxDev() ClientOption {
+	return func(c *Client) {
+		c.workflowJSON = fluxDevWorkflow
+		c.roles = FluxDevNodeRoles
+	}
+}
+
 // NodeRoles maps logical roles to node IDs in the workflow graph.
 // Defaults match the embedded flux_card.json workflow.
 type NodeRoles struct {

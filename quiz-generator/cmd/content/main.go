@@ -27,6 +27,18 @@ import (
 	"github.com/duolingocards/quiz-generator/internal/translate"
 )
 
+// mergedBrief returns a copy of the card brief with deck-level BriefAttrs prepended.
+func mergedBrief(c content.CardYAML, d *content.Deck) content.VisualBrief {
+	b := c.Brief
+	if len(d.Meta.BriefAttrs) > 0 {
+		merged := make([]string, 0, len(d.Meta.BriefAttrs)+len(b.Attrs))
+		merged = append(merged, d.Meta.BriefAttrs...)
+		merged = append(merged, b.Attrs...)
+		b.Attrs = merged
+	}
+	return b
+}
+
 func main() {
 	if len(os.Args) < 2 {
 		usage()
@@ -210,7 +222,7 @@ func runPrompts(args []string) error {
 			return fmt.Errorf("deck %q has no default_style; pass -style", d.Meta.Slug)
 		}
 		for _, c := range d.Meta.Cards {
-			p, err := prompt.ExpandByName(c.Brief, style)
+			p, err := prompt.ExpandByName(mergedBrief(c, d), style)
 			if err != nil {
 				return err
 			}
@@ -251,12 +263,14 @@ func runImages(args []string) error {
 		return err
 	}
 
-	client := comfyuiimage.NewClient(*comfyURL, "", "")
+	ponyClient := comfyuiimage.NewClient(*comfyURL, "", "")
+	fluxClient := comfyuiimage.NewClient(*comfyURL, "", "", comfyuiimage.WithFluxDev())
 
 	type job struct {
 		deck     *content.Deck
 		card     content.CardYAML
 		style    string
+		backend  prompt.Backend
 		outPath  string
 		positive string
 		negative string
@@ -289,11 +303,11 @@ func runImages(args []string) error {
 					continue
 				}
 			}
-			p, err := prompt.ExpandByName(c.Brief, style)
+			p, err := prompt.ExpandByName(mergedBrief(c, d), style)
 			if err != nil {
 				return fmt.Errorf("expand prompt for %s/%s: %w", d.Meta.Slug, c.Key, err)
 			}
-			jobs = append(jobs, job{deck: d, card: c, style: style, outPath: outPath, positive: p.Positive, negative: p.Negative})
+			jobs = append(jobs, job{deck: d, card: c, style: style, backend: p.Backend, outPath: outPath, positive: p.Positive, negative: p.Negative})
 		}
 	}
 
@@ -319,7 +333,11 @@ func runImages(args []string) error {
 			defer wg.Done()
 			for j := range work {
 				label := fmt.Sprintf("%s/%s", j.deck.Meta.Slug, j.card.Key)
-				resp, err := client.Generate(context.Background(), imagegen.GenerateRequest{
+				imgClient := ponyClient
+				if j.backend == prompt.BackendFlux {
+					imgClient = fluxClient
+				}
+				resp, err := imgClient.Generate(context.Background(), imagegen.GenerateRequest{
 					Prompt:         j.positive,
 					NegativePrompt: j.negative,
 					N:              1,
@@ -367,7 +385,7 @@ func runTranslate(args []string) error {
 	decksDir := fs.String("decks", "decks", "root folder of deck-per-folder subfolders")
 	deckSlug := fs.String("deck", "", "only translate this deck slug (default: all)")
 	langCode := fs.String("lang", "", "only translate this language code (default: all missing)")
-	llmURL := fs.String("url", "http://spark-99bb:4000", "LLM base URL (OpenAI-compatible)")
+	llmURL := fs.String("url", "http://spark-99bb:8080", "LLM base URL (OpenAI-compatible)")
 	llmModel := fs.String("model", "llm-lab", "model name")
 	workers := fs.Int("workers", 3, "parallel translation workers (one per language)")
 	force := fs.Bool("force", false, "re-translate even if i18n file already exists")

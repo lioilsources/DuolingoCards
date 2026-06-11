@@ -1,8 +1,8 @@
 # animals-sea — tier 1 paid deck (language-neutral spine).
-# Display text lives in i18n/<lang>.yaml; images live in images/<style>/.
 slug: animals-sea
 version: 1
 tier: 1
+brief_attrs: [source_furry, "(feral:1.25)", "(realistic animal anatomy:1.35)", "(detailed skin texture:1.3)", "(natural proportions:1.25)"]
 styles:
   - pony-cartoon
 default_style: pony-cartoon
@@ -14,7 +14,7 @@ cards:
     brief:
       subject: dolphin
       attrs: [jumping, playful, blue-grey]
-      setting: clear ocean water with sunlight
+      setting: [ocean, clear water, sunlight]
       avoid: [text, humans, aquarium tanks]
 
   - key: animal.shark
@@ -23,7 +23,7 @@ cards:
     brief:
       subject: great white shark
       attrs: [swimming, mouth closed, powerful]
-      setting: open blue ocean underwater
+      setting: [ocean, blue water, underwater]
       avoid: [text, blood, divers]
 
   - key: animal.whale
@@ -32,7 +32,7 @@ cards:
     brief:
       subject: blue whale
       attrs: [surfacing, blowing spout]
-      setting: open ocean surface at daylight
+      setting: [ocean surface, daylight, blue water]
       avoid: [text, humans, boats]
 
   - key: animal.octopus
@@ -40,8 +40,8 @@ cards:
     image: animal.octopus.png
     brief:
       subject: octopus
-      attrs: [orange-red, tentacles spread, resting on rock]
-      setting: shallow ocean floor with coral
+      attrs: [orange-red, tentacles spread, resting]
+      setting: [ocean floor, coral, shallow water]
       avoid: [text, cartoon, humans]
 
   - key: animal.seahorse
@@ -49,17 +49,17 @@ cards:
     image: animal.seahorse.png
     brief:
       subject: seahorse
-      attrs: [vertical, yellow, clinging to seagrass]
-      setting: clear shallow water with seagrass
+      attrs: [vertical, yellow, clinging]
+      setting: [seagrass, shallow water, clear]
       avoid: [text, aquarium, humans]
 
   - key: animal.sea_turtle
     hint: large marine reptile that returns to beaches to lay eggs
     image: animal.sea_turtle.png
     brief:
-      subject: green sea turtle
+      subject: sea turtle
       attrs: [swimming, graceful, green-brown shell]
-      setting: clear blue tropical water with sunlight rays
+      setting: [tropical water, blue, sunlight rays]
       avoid: [text, fishing nets, humans]
 
   - key: animal.crab
@@ -67,9 +67,9 @@ cards:
     image: animal.crab.png
     brief:
       subject: red crab
-      attrs: [sideways, claws raised, on sand]
-      setting: sandy beach or shallow seabed
-      avoid: [text, boiling pot, cartoon]
+      attrs: [claws raised, on sand]
+      setting: [sandy beach, shallow seabed]
+      avoid: [text, boiling pot]
 
   - key: animal.jellyfish
     hint: gelatinous, bell-shaped marine animal with trailing tentacles
@@ -77,5 +77,5 @@ cards:
     brief:
       subject: jellyfish
       attrs: [translucent, drifting, tentacles trailing]
-      setting: deep blue ocean water with light rays
-      avoid: [text, cartoon, dead jellyfish]
+      setting: [deep blue ocean, light rays]
+      avoid: [text, dead jellyfish]

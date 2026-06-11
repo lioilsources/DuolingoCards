@@ -214,6 +214,8 @@ const _kLangNames = {
   'vi': '🇻🇳 Vietnamese',
   'ko': '🇰🇷 Korean',
   'ha': '🇳🇬 Hausa',
+  'la': '🏛️ Latin',
+  'sa': '🕉️ Sanskrit',
 };
 
 class _LangPairPicker extends StatelessWidget {

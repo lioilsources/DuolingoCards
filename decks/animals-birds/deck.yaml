@@ -1,8 +1,8 @@
 # animals-birds — tier 1 paid deck (language-neutral spine).
-# Display text lives in i18n/<lang>.yaml; images live in images/<style>/.
 slug: animals-birds
 version: 1
 tier: 1
+brief_attrs: [source_furry, "(feral:1.25)", "(realistic animal anatomy:1.35)", "(detailed feathers:1.3)", "(natural proportions:1.25)"]
 styles:
   - pony-cartoon
 default_style: pony-cartoon
@@ -14,7 +14,7 @@ cards:
     brief:
       subject: bald eagle
       attrs: [perched, white head, sharp beak, brown body]
-      setting: rocky cliff top with pine trees and sky
+      setting: [rocky cliff, pine trees, blue sky]
       avoid: [text, humans, cage]
 
   - key: animal.owl
@@ -23,8 +23,8 @@ cards:
     brief:
       subject: great horned owl
       attrs: [perched, round face, yellow eyes, feather tufts]
-      setting: forest branch at dusk
-      avoid: [text, cartoon, humans]
+      setting: [forest branch, dusk, warm light]
+      avoid: [text, humans]
 
   - key: animal.penguin
     hint: flightless bird from the Southern Hemisphere adapted for swimming
@@ -32,8 +32,8 @@ cards:
     brief:
       subject: emperor penguin
       attrs: [standing upright, black-and-white, yellow neck patch]
-      setting: Antarctic ice with blurred snowy background
-      avoid: [text, zoo enclosure, cartoon]
+      setting: [Antarctic ice, snow, blue sky]
+      avoid: [text, zoo enclosure]
 
   - key: animal.parrot
     hint: colourful tropical bird known for mimicking sounds (order Psittaciformes)
@@ -41,7 +41,7 @@ cards:
     brief:
       subject: scarlet macaw
       attrs: [perched, bright red-yellow-blue feathers, curved beak]
-      setting: tropical rainforest branch
+      setting: [tropical rainforest, branch, green leaves]
       avoid: [text, cage, humans]
 
   - key: animal.flamingo
@@ -50,8 +50,8 @@ cards:
     brief:
       subject: flamingo
       attrs: [standing on one leg, pink feathers, curved neck]
-      setting: shallow salt lake at sunset
-      avoid: [text, zoo, cartoon]
+      setting: [shallow lake, sunset, orange sky]
+      avoid: [text, zoo]
 
   - key: animal.toucan
     hint: tropical bird with an oversized colourful bill (family Ramphastidae)
@@ -59,23 +59,23 @@ cards:
     brief:
       subject: toucan
       attrs: [perched, large orange-yellow bill, black-and-white body]
-      setting: tropical tree branch with green leaves
-      avoid: [text, cage, cartoon]
+      setting: [tropical tree, branch, green leaves]
+      avoid: [text, cage]
 
   - key: animal.peacock
     hint: male peafowl with an iridescent fan-shaped tail display
     image: animal.peacock.png
     brief:
       subject: peacock
-      attrs: [tail fan fully spread, iridescent blue-green, standing]
-      setting: open garden or natural meadow
+      attrs: [tail fan spread, iridescent blue-green, standing]
+      setting: [garden, green grass, outdoor]
       avoid: [text, zoo cage, humans]
 
   - key: animal.hummingbird
     hint: tiny hovering bird that feeds on nectar (family Trochilidae)
     image: animal.hummingbird.png
     brief:
-      subject: ruby-throated hummingbird
-      attrs: [hovering mid-air, wings blurred, red throat, green back]
-      setting: beside a bright red flower
+      subject: hummingbird
+      attrs: [hovering, wings blurred, red throat, green back]
+      setting: [red flower, garden, close-up]
       avoid: [text, feeder, cage]

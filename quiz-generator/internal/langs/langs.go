@@ -36,6 +36,8 @@ var Targets = []Target{
 	{Code: "vi", Name: "Vietnamese"},
 	{Code: "ko", Name: "Korean"},
 	{Code: "ha", Name: "Hausa"},
+	{Code: "la", Name: "Latin"},
+	{Code: "sa", Name: "Sanskrit"},
 }
 
 // Codes returns just the locale codes, in canonical order.

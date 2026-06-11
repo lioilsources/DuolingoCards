@@ -121,6 +121,13 @@ func translateCard(ctx context.Context, client *llm.Client, hint string, pc cont
 	}
 
 	raw = strings.TrimSpace(raw)
+	// Strip optional markdown code fence (```json ... ``` or ``` ... ```).
+	if strings.HasPrefix(raw, "```") {
+		raw = strings.TrimPrefix(raw, "```json")
+		raw = strings.TrimPrefix(raw, "```")
+		raw = strings.TrimSuffix(raw, "```")
+		raw = strings.TrimSpace(raw)
+	}
 	if start := strings.Index(raw, "{"); start >= 0 {
 		if end := strings.LastIndex(raw, "}"); end > start {
 			raw = raw[start : end+1]

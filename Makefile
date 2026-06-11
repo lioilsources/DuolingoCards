@@ -1,7 +1,7 @@
 CONTENT   := quiz-generator/bin/content
 DECKS_SRC := decks
 DECKS_OUT := assets/decks
-SPARK_LLM := http://spark-99bb:4000
+SPARK_LLM := http://spark-99bb:8080
 SPARK_IMG := http://spark-99bb:8188
 
 # ── build tool ───────────────────────────────────────────────────────────────

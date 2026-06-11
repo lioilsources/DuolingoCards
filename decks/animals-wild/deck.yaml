@@ -3,6 +3,7 @@
 slug: animals-wild
 version: 1
 tier: 0
+brief_attrs: [source_furry, "(feral:1.25)", quadrupedal, "(realistic animal anatomy:1.35)", "(detailed fur texture:1.3)", "(natural proportions:1.25)"]
 styles:
   - pony-cartoon
 default_style: pony-cartoon
@@ -14,7 +15,7 @@ cards:
     brief:
       subject: lion
       attrs: [adult male, sitting, calm]
-      setting: African savanna grass at golden hour
+      setting: [savanna, grass, golden hour, warm light]
       avoid: [text, blood, humans]
 
   - key: animal.elephant
@@ -23,7 +24,7 @@ cards:
     brief:
       subject: African elephant
       attrs: [large, walking]
-      setting: open savanna with acacia trees
+      setting: [savanna, acacia trees, open plain]
       avoid: [text, circus, chains]
 
   - key: animal.giraffe
@@ -32,7 +33,7 @@ cards:
     brief:
       subject: giraffe
       attrs: [standing, browsing leaves]
-      setting: savanna beside an acacia tree
+      setting: [savanna, acacia tree, blue sky]
       avoid: [text, fence]
 
   - key: animal.zebra
@@ -41,7 +42,7 @@ cards:
     brief:
       subject: zebra
       attrs: [standing, grazing]
-      setting: grassy plain
+      setting: [grassy plain, outdoor]
       avoid: [text]
 
   - key: animal.wolf
@@ -50,5 +51,5 @@ cards:
     brief:
       subject: grey wolf
       attrs: [standing, alert]
-      setting: snowy pine forest edge
-      avoid: [text, blood, cartoon]
+      setting: [snowy forest, pine trees, winter]
+      avoid: [text, blood]

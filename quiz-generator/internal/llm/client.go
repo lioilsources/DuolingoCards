@@ -47,8 +47,9 @@ func (c *Client) Complete(ctx context.Context, system, user string) (string, err
 	body, err := json.Marshal(map[string]any{
 		"model":       c.model,
 		"messages":    messages,
-		"temperature": 0.2,
-		"max_tokens":  800,
+		"temperature":        0.2,
+		"max_tokens":         2048,
+		"repetition_penalty": 1.15,
 	})
 	if err != nil {
 		return "", fmt.Errorf("marshal request: %w", err)

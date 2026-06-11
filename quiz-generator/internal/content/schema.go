@@ -19,6 +19,7 @@ type DeckYAML struct {
 	Styles       []string   `yaml:"styles"`        // named image style configs, e.g. flux-real, pony-cartoon
 	DefaultStyle string     `yaml:"default_style"` // style used at runtime when no override
 	Tier         int        `yaml:"tier"`          // localization tier 0-3 (see plan §8)
+	BriefAttrs   []string   `yaml:"brief_attrs"`   // extra attrs merged into every card's brief (e.g. feral, cute)
 	Cards        []CardYAML `yaml:"cards"`
 }
 
@@ -38,7 +39,7 @@ type CardYAML struct {
 type VisualBrief struct {
 	Subject string   `yaml:"subject"` // main thing, e.g. "lion"
 	Attrs   []string `yaml:"attrs"`   // adjectives/poses, e.g. ["friendly","sitting"]
-	Setting string   `yaml:"setting"` // background/context, e.g. "savanna grass"
+	Setting []string `yaml:"setting"` // background tags, e.g. ["savanna","grass","golden hour"]
 	Avoid   []string `yaml:"avoid"`   // things to keep out, e.g. ["text","blood"]
 }
 
