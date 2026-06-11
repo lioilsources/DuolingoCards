@@ -192,6 +192,30 @@ class _CardView extends StatelessWidget {
       );
 }
 
+const _kLangNames = {
+  'cs': '🇨🇿 Czech',
+  'en': '🇬🇧 English',
+  'zh-CN': '🇨🇳 Chinese',
+  'hi': '🇮🇳 Hindi',
+  'es-419': '🇲🇽 Spanish',
+  'ar': '🇸🇦 Arabic',
+  'fr': '🇫🇷 French',
+  'bn': '🇧🇩 Bengali',
+  'pt-BR': '🇧🇷 Portuguese',
+  'ru': '🇷🇺 Russian',
+  'id': '🇮🇩 Indonesian',
+  'ur': '🇵🇰 Urdu',
+  'de': '🇩🇪 German',
+  'ja': '🇯🇵 Japanese',
+  'mr': '🇮🇳 Marathi',
+  'te': '🇮🇳 Telugu',
+  'tr': '🇹🇷 Turkish',
+  'ta': '🇱🇰 Tamil',
+  'vi': '🇻🇳 Vietnamese',
+  'ko': '🇰🇷 Korean',
+  'ha': '🇳🇬 Hausa',
+};
+
 class _LangPairPicker extends StatelessWidget {
   final List<String> languages;
   final String l1;
@@ -227,7 +251,7 @@ class _LangPairPicker extends StatelessWidget {
         if (v != null) onChanged(v);
       },
       items: languages
-          .map((l) => DropdownMenuItem(value: l, child: Text(l)))
+          .map((l) => DropdownMenuItem(value: l, child: Text(_kLangNames[l] ?? l)))
           .toList(),
     );
   }

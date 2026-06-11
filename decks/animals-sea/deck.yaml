@@ -1,0 +1,81 @@
+# animals-sea — tier 1 paid deck (language-neutral spine).
+# Display text lives in i18n/<lang>.yaml; images live in images/<style>/.
+slug: animals-sea
+version: 1
+tier: 1
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: animal.dolphin
+    hint: intelligent marine mammal known for jumping and echolocation
+    image: animal.dolphin.png
+    brief:
+      subject: dolphin
+      attrs: [jumping, playful, blue-grey]
+      setting: clear ocean water with sunlight
+      avoid: [text, humans, aquarium tanks]
+
+  - key: animal.shark
+    hint: large predatory fish with rows of teeth (Selachimorpha)
+    image: animal.shark.png
+    brief:
+      subject: great white shark
+      attrs: [swimming, mouth closed, powerful]
+      setting: open blue ocean underwater
+      avoid: [text, blood, divers]
+
+  - key: animal.whale
+    hint: the largest animal on Earth (blue whale, Balaenoptera musculus)
+    image: animal.whale.png
+    brief:
+      subject: blue whale
+      attrs: [surfacing, blowing spout]
+      setting: open ocean surface at daylight
+      avoid: [text, humans, boats]
+
+  - key: animal.octopus
+    hint: eight-armed cephalopod mollusc
+    image: animal.octopus.png
+    brief:
+      subject: octopus
+      attrs: [orange-red, tentacles spread, resting on rock]
+      setting: shallow ocean floor with coral
+      avoid: [text, cartoon, humans]
+
+  - key: animal.seahorse
+    hint: small upright-swimming fish (genus Hippocampus)
+    image: animal.seahorse.png
+    brief:
+      subject: seahorse
+      attrs: [vertical, yellow, clinging to seagrass]
+      setting: clear shallow water with seagrass
+      avoid: [text, aquarium, humans]
+
+  - key: animal.sea_turtle
+    hint: large marine reptile that returns to beaches to lay eggs
+    image: animal.sea_turtle.png
+    brief:
+      subject: green sea turtle
+      attrs: [swimming, graceful, green-brown shell]
+      setting: clear blue tropical water with sunlight rays
+      avoid: [text, fishing nets, humans]
+
+  - key: animal.crab
+    hint: ten-legged crustacean with claws and a hard shell
+    image: animal.crab.png
+    brief:
+      subject: red crab
+      attrs: [sideways, claws raised, on sand]
+      setting: sandy beach or shallow seabed
+      avoid: [text, boiling pot, cartoon]
+
+  - key: animal.jellyfish
+    hint: gelatinous, bell-shaped marine animal with trailing tentacles
+    image: animal.jellyfish.png
+    brief:
+      subject: jellyfish
+      attrs: [translucent, drifting, tentacles trailing]
+      setting: deep blue ocean water with light rays
+      avoid: [text, cartoon, dead jellyfish]
