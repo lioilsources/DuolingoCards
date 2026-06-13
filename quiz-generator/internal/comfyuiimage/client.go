@@ -172,7 +172,11 @@ func (c *Client) Generate(ctx context.Context, req imagegen.GenerateRequest) (*i
 	}
 
 	w, h := dimensions(req.AspectRatio, req.Resolution)
-	graph, err := c.buildWorkflow(req.Prompt, req.NegativePrompt, w, h, n)
+	seed := req.Seed
+	if seed == 0 {
+		seed = randSeed()
+	}
+	graph, err := c.buildWorkflow(req.Prompt, req.NegativePrompt, w, h, n, seed)
 	if err != nil {
 		return nil, err
 	}
@@ -198,7 +202,7 @@ func (c *Client) Generate(ctx context.Context, req imagegen.GenerateRequest) (*i
 	return resp, nil
 }
 
-func (c *Client) buildWorkflow(prompt, negative string, w, h, batch int) (map[string]any, error) {
+func (c *Client) buildWorkflow(prompt, negative string, w, h, batch int, seed int64) (map[string]any, error) {
 	var graph map[string]any
 	if err := json.Unmarshal(c.workflowJSON, &graph); err != nil {
 		return nil, fmt.Errorf("parse workflow: %w", err)
@@ -220,7 +224,7 @@ func (c *Client) buildWorkflow(prompt, negative string, w, h, batch int) (map[st
 	if err := setNodeInput(graph, c.roles.Latent, "batch_size", batch); err != nil {
 		return nil, err
 	}
-	if err := setNodeInput(graph, c.roles.Sampler, "seed", randSeed()); err != nil {
+	if err := setNodeInput(graph, c.roles.Sampler, "seed", seed); err != nil {
 		return nil, err
 	}
 	return graph, nil

@@ -4,6 +4,12 @@ DECKS_OUT := assets/decks
 SPARK_LLM := http://spark-99bb:8080
 SPARK_IMG := http://spark-99bb:8188
 
+# Models for the iterative image-tuning loop (OpenAI-compatible on $(SPARK_LLM)).
+VALIDATOR_MODEL := qwen-vl   # vision model that scores generated images
+BUILDER_MODEL   := nemotron  # instruct model that rewrites prompts
+TUNE_ITERS      := 4
+TUNE_SCORE      := 8
+
 # ── build tool ───────────────────────────────────────────────────────────────
 
 .PHONY: build-tool
@@ -53,6 +59,21 @@ images-force: $(CONTENT)
 	$(CONTENT) images -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
 	  $(if $(STYLE),-style $(STYLE)) \
 	  -url $(SPARK_IMG) -workers 2 -force
+
+# ── tune (iterative image tuning) ──────────────────────────────────────────────
+# Generate → validate (VL model) → refine prompt (instruct model) → loop, per card.
+# Saves the final image, the winning prompt (decks/<slug>/tuned/<style>.yaml) and a
+# transcript of the LLM conversation (decks/<slug>/tuned/logs/).
+# Usage: make tune DECK=animals-sea STYLE=pony-cartoon
+
+.PHONY: tune
+tune: $(CONTENT)
+	$(CONTENT) images -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
+	  $(if $(STYLE),-style $(STYLE)) \
+	  -url $(SPARK_IMG) -workers 2 -force \
+	  -tune -max-iters $(TUNE_ITERS) -score-threshold $(TUNE_SCORE) \
+	  -llm-url $(SPARK_LLM) \
+	  -validator-model $(VALIDATOR_MODEL) -builder-model $(BUILDER_MODEL)
 
 # ── prompts (debug) ───────────────────────────────────────────────────────────
 
