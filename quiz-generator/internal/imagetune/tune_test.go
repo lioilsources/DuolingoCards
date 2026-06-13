@@ -109,6 +109,36 @@ func TestTuneHitsMaxIters(t *testing.T) {
 	}
 }
 
+type errVal struct{ raw string }
+
+func (v *errVal) Validate(ctx context.Context, img []byte, t Target) (Verdict, error) {
+	return Verdict{Model: "broken-vlm", RawRequest: "req", RawResponse: v.raw},
+		fmt.Errorf("validator returned no JSON")
+}
+
+func TestTuneGracefulOnValidatorError(t *testing.T) {
+	gen := &fakeGen{}
+	val := &errVal{raw: `{"`}
+	bld := &fakeBld{}
+	out, err := Tune(context.Background(), gen, val, bld, initPrompt(), Target{Subject: "ant"},
+		Options{MaxIters: 3, ScoreThreshold: 8})
+	if err != nil {
+		t.Fatalf("Tune should not hard-fail on validator error, got %v", err)
+	}
+	if out.ValidatorErr == nil {
+		t.Fatal("ValidatorErr should be set")
+	}
+	if gen.n != 1 || bld.calls != 0 {
+		t.Fatalf("should stop after 1 gen with no refine: gen=%d bld=%d", gen.n, bld.calls)
+	}
+	if len(out.Image) == 0 {
+		t.Fatal("generated image must be preserved despite validator failure")
+	}
+	if len(out.Transcript) != 1 || out.Transcript[0].Verdict.RawResponse != `{"` {
+		t.Fatalf("raw validator output not captured: %+v", out.Transcript)
+	}
+}
+
 func TestTuneTranscriptCapturesExchanges(t *testing.T) {
 	gen := &fakeGen{}
 	val := &fakeVal{scores: []float64{4, 9}}

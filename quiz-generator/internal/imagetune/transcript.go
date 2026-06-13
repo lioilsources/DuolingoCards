@@ -118,6 +118,9 @@ func RenderTranscript(w io.Writer, card, style string, t Target, out Result) {
 	fmt.Fprintf(w, "# Tuning transcript — %s [%s]\n\n", card, style)
 	fmt.Fprintf(w, "Result: %d iteration(s), final score %.1f, passed=%t, seed=%d\n\n",
 		out.Iters, out.Score, out.Passed, out.Seed)
+	if out.ValidatorErr != nil {
+		fmt.Fprintf(w, "> ⚠️ validator produced no usable verdict: %v\n\n", out.ValidatorErr)
+	}
 	fmt.Fprintf(w, "## Target\n\n```\n%s```\n\n", t.Describe())
 
 	for _, rec := range out.Transcript {

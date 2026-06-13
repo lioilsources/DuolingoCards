@@ -459,7 +459,11 @@ func runImages(args []string) error {
 					}
 					mu.Lock()
 					generated++
-					fmt.Printf("  OK   %s → %s (score %.1f, %d iter, seed %d)\n", label, j.outPath, result.Score, result.Iters, result.Seed)
+					if result.ValidatorErr != nil {
+						fmt.Printf("  WARN %s → %s saved, but validator gave no usable verdict: %v (see transcript)\n", label, j.outPath, result.ValidatorErr)
+					} else {
+						fmt.Printf("  OK   %s → %s (score %.1f, %d iter, seed %d)\n", label, j.outPath, result.Score, result.Iters, result.Seed)
+					}
 					mu.Unlock()
 					continue
 				}
