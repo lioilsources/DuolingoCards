@@ -2,24 +2,50 @@
   "card": "insect.bee",
   "style": "pony-cartoon",
   "target": "Subject: honey bee (včela)\nDisambiguation: fuzzy stinging insect that makes honey (Apis mellifera)\nDesired attributes: yellow and black stripes, translucent wings, collecting pollen\nDesired setting: on a yellow flower, garden, daylight\nMust avoid: text, wasp, hornet\n",
-  "iters": 1,
-  "score": 0,
-  "passed": false,
-  "seed": 710723409621117798,
+  "iters": 2,
+  "score": 8,
+  "passed": true,
+  "seed": 7823497951058440175,
   "iterations": [
     {
       "n": 1,
-      "seed": 710723409621117798,
+      "seed": 4586095859826384239,
       "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, honey bee, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), yellow and black stripes, translucent wings, collecting pollen, on a yellow flower, garden, daylight, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo",
       "negative": "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, wasp, hornet",
       "validator": {
-        "model": "",
-        "score": 0,
+        "model": "validator",
+        "score": 2,
         "pass": false,
-        "issues": null,
-        "suggestions": "",
-        "raw_request": "",
-        "raw_response": ""
+        "issues": [
+          "The subject is not a honey bee.",
+          "The subject has human-like features instead of being an insect."
+        ],
+        "suggestions": "Replace the humanoid figure with a realistic honey bee illustration featuring yellow and black stripes, translucent wings, and appropriate anatomy. Ensure there's no text present and confirm the setting includes a yellow flower and outdoor environment during daylight hours without any wasps or hornets.",
+        "raw_request": "Concept the image must depict:\nSubject: honey bee (včela)\nDisambiguation: fuzzy stinging insect that makes honey (Apis mellifera)\nDesired attributes: yellow and black stripes, translucent wings, collecting pollen\nDesired setting: on a yellow flower, garden, daylight\nMust avoid: text, wasp, hornet\n\nReview the attached image.",
+        "raw_response": "{\n  \"score\": 2,\n  \"pass\": false,\n  \"issues\": [\n    \"The subject is not a honey bee.\",\n    \"The subject has human-like features instead of being an insect.\"\n  ],\n  \"suggestions\": \"Replace the humanoid figure with a realistic honey bee illustration featuring yellow and black stripes, translucent wings, and appropriate anatomy. Ensure there's no text present and confirm the setting includes a yellow flower and outdoor environment during daylight hours without any wasps or hornets.\" \n}"
+      },
+      "builder": {
+        "model": "builder",
+        "request": "Concept the image must depict:\nSubject: honey bee (včela)\nDisambiguation: fuzzy stinging insect that makes honey (Apis mellifera)\nDesired attributes: yellow and black stripes, translucent wings, collecting pollen\nDesired setting: on a yellow flower, garden, daylight\nMust avoid: text, wasp, hornet\n\nCurrent positive prompt:\nscore_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, honey bee, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), yellow and black stripes, translucent wings, collecting pollen, on a yellow flower, garden, daylight, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo\n\nCurrent negative prompt:\ntext, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, wasp, hornet\n\nReviewer score: 2.0/10\nReviewer issues:\n- The subject is not a honey bee.\n- The subject has human-like features instead of being an insect.\nReviewer suggestions: Replace the humanoid figure with a realistic honey bee illustration featuring yellow and black stripes, translucent wings, and appropriate anatomy. Ensure there's no text present and confirm the setting includes a yellow flower and outdoor environment during daylight hours without any wasps or hornets.\n",
+        "response": "{\n  \"positive\": \"score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Apis mellifera, (honey bee:1.5), (yellow and black stripes:1.4), (translucent wings:1.3), (collecting pollen:1.2), macro photography, (highly detailed:1.2), six legs, realistic insect anatomy, (natural colors:1.3), semi-realistic, detailed environment, solo, on a yellow flower, garden, daylight\",\n  \"negative\": \"text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, wasp, hornet\"\n}"
+      }
+    },
+    {
+      "n": 2,
+      "seed": 7823497951058440175,
+      "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Apis mellifera, (honey bee:1.5), (yellow and black stripes:1.4), (translucent wings:1.3), (collecting pollen:1.2), macro photography, (highly detailed:1.2), six legs, realistic insect anatomy, (natural colors:1.3), semi-realistic, detailed environment, solo, on a yellow flower, garden, daylight",
+      "negative": "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, wasp, hornet",
+      "validator": {
+        "model": "validator",
+        "score": 8,
+        "pass": false,
+        "issues": [
+          "The wings appear too light and lack translucency.",
+          "There is no visible pollen being collected."
+        ],
+        "suggestions": "Ensure the wings have more detail resembling transparency and add some pollen grains near the bee's legs.",
+        "raw_request": "Concept the image must depict:\nSubject: honey bee (včela)\nDisambiguation: fuzzy stinging insect that makes honey (Apis mellifera)\nDesired attributes: yellow and black stripes, translucent wings, collecting pollen\nDesired setting: on a yellow flower, garden, daylight\nMust avoid: text, wasp, hornet\n\nReview the attached image.",
+        "raw_response": "{\n  \"score\": 8,\n  \"pass\": false,\n  \"issues\": [\n    \"The wings appear too light and lack translucency.\",\n    \"There is no visible pollen being collected.\"\n  ],\n  \"suggestions\": \"Ensure the wings have more detail resembling transparency and add some pollen grains near the bee's legs.\"\n}"
       }
     }
   ]

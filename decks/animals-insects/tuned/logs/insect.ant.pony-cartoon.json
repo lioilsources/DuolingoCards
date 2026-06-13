@@ -2,24 +2,73 @@
   "card": "insect.ant",
   "style": "pony-cartoon",
   "target": "Subject: ant (mravenec)\nDisambiguation: small social insect that lives in colonies (Formicidae)\nDesired attributes: black, three body segments, carrying a leaf\nDesired setting: on soil, close to the ground, blurred greenery\nMust avoid: text, other insects, ant hill diagram\n",
-  "iters": 1,
-  "score": 0,
+  "iters": 3,
+  "score": 2,
   "passed": false,
-  "seed": 6118336680451288987,
+  "seed": 2123964723955702240,
   "iterations": [
     {
       "n": 1,
-      "seed": 6118336680451288987,
+      "seed": 2126022169738805133,
       "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), black, three body segments, carrying a leaf, on soil, close to the ground, blurred greenery, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo",
       "negative": "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, other insects, ant hill diagram",
       "validator": {
         "model": "validator",
         "score": 0,
         "pass": false,
-        "issues": null,
-        "suggestions": "",
+        "issues": [
+          "The image depicts a giraffe instead of an ant",
+          "There is no leaf-carrying behavior depicted by any animal"
+        ],
+        "suggestions": "Replace the giraffe with an ant, ensure there's a leaf being carried, and adjust the background to match the desired setting.",
         "raw_request": "Concept the image must depict:\nSubject: ant (mravenec)\nDisambiguation: small social insect that lives in colonies (Formicidae)\nDesired attributes: black, three body segments, carrying a leaf\nDesired setting: on soil, close to the ground, blurred greenery\nMust avoid: text, other insects, ant hill diagram\n\nReview the attached image.",
-        "raw_response": "```json\n{\n    \" score\n"
+        "raw_response": "{\n  \"score\": 0,\n  \"pass\": false,\n  \"issues\": [\n    \"The image depicts a giraffe instead of an ant\",\n    \"There is no leaf-carrying behavior depicted by any animal\"\n  ],\n  \"suggestions\": \"Replace the giraffe with an ant, ensure there's a leaf being carried, and adjust the background to match the desired setting.\"\n}"
+      },
+      "builder": {
+        "model": "builder",
+        "request": "Concept the image must depict:\nSubject: ant (mravenec)\nDisambiguation: small social insect that lives in colonies (Formicidae)\nDesired attributes: black, three body segments, carrying a leaf\nDesired setting: on soil, close to the ground, blurred greenery\nMust avoid: text, other insects, ant hill diagram\n\nCurrent positive prompt:\nscore_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), black, three body segments, carrying a leaf, on soil, close to the ground, blurred greenery, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo\n\nCurrent negative prompt:\ntext, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, other insects, ant hill diagram\n\nReviewer score: 0.0/10\nReviewer issues:\n- The image depicts a giraffe instead of an ant\n- There is no leaf-carrying behavior depicted by any animal\nReviewer suggestions: Replace the giraffe with an ant, ensure there's a leaf being carried, and adjust the background to match the desired setting.\n",
+        "response": "{\n  \"positive\": \"score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (small insect:1.2), (three body segments:1.3), (carrying a leaf:1.4), black exoskeleton, six slender legs, crawling on damp soil, close to the ground, blurred green foliage background, semi-realistic texture, detailed surface patterns, natural color palette, photorealistic macro perspective, subtle depth of field\",\n  \"negative\": \"giraffe, tall animal, long neck, leaves not held, no leaf interaction, text overlay, watercolor effect, illustration style, drawing lines, cartoon outline, coloring book art, lineart, pastel wash, digital painting brush strokes, marker bleed, crayon scribble, clipart silhouette, vector graphic, flat design, simple shapes, geometric forms, minimalist composition, stylized rendering, exaggerated proportions, whimsical theme, fantasy elements\"\n}"
+      }
+    },
+    {
+      "n": 2,
+      "seed": 2765115382095320279,
+      "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (small insect:1.2), (three body segments:1.3), (carrying a leaf:1.4), black exoskeleton, six slender legs, crawling on damp soil, close to the ground, blurred green foliage background, semi-realistic texture, detailed surface patterns, natural color palette, photorealistic macro perspective, subtle depth of field",
+      "negative": "giraffe, tall animal, long neck, leaves not held, no leaf interaction, text overlay, watercolor effect, illustration style, drawing lines, cartoon outline, coloring book art, lineart, pastel wash, digital painting brush strokes, marker bleed, crayon scribble, clipart silhouette, vector graphic, flat design, simple shapes, geometric forms, minimalist composition, stylized rendering, exaggerated proportions, whimsical theme, fantasy elements",
+      "validator": {
+        "model": "validator",
+        "score": 2,
+        "pass": false,
+        "issues": [
+          "The subject is not an ant",
+          "The coloration does not match typical ants"
+        ],
+        "suggestions": "Replace the beetle-like creature with an actual ant species from Formicidae family.",
+        "raw_request": "Concept the image must depict:\nSubject: ant (mravenec)\nDisambiguation: small social insect that lives in colonies (Formicidae)\nDesired attributes: black, three body segments, carrying a leaf\nDesired setting: on soil, close to the ground, blurred greenery\nMust avoid: text, other insects, ant hill diagram\n\nReview the attached image.",
+        "raw_response": "{\n  \"score\": 2,\n  \"pass\": false,\n  \"issues\": [\n    \"The subject is not an ant\",\n    \"The coloration does not match typical ants\"\n  ],\n  \"suggestions\": \"Replace the beetle-like creature with an actual ant species from Formicidae family.\"\n}"
+      },
+      "builder": {
+        "model": "builder",
+        "request": "Concept the image must depict:\nSubject: ant (mravenec)\nDisambiguation: small social insect that lives in colonies (Formicidae)\nDesired attributes: black, three body segments, carrying a leaf\nDesired setting: on soil, close to the ground, blurred greenery\nMust avoid: text, other insects, ant hill diagram\n\nCurrent positive prompt:\nscore_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (small insect:1.2), (three body segments:1.3), (carrying a leaf:1.4), black exoskeleton, six slender legs, crawling on damp soil, close to the ground, blurred green foliage background, semi-realistic texture, detailed surface patterns, natural color palette, photorealistic macro perspective, subtle depth of field\n\nCurrent negative prompt:\ngiraffe, tall animal, long neck, leaves not held, no leaf interaction, text overlay, watercolor effect, illustration style, drawing lines, cartoon outline, coloring book art, lineart, pastel wash, digital painting brush strokes, marker bleed, crayon scribble, clipart silhouette, vector graphic, flat design, simple shapes, geometric forms, minimalist composition, stylized rendering, exaggerated proportions, whimsical theme, fantasy elements\n\nReviewer score: 2.0/10\nReviewer issues:\n- The subject is not an ant\n- The coloration does not match typical ants\nReviewer suggestions: Replace the beetle-like creature with an actual ant species from Formicidae family.\n",
+        "response": "{\n  \"positive\": \"score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (black ant:1.5), (Formica rufa:1.6), (three body segments:1.3), (carrying a leaf:1.4), glossy exoskeleton, segmented abdomen, six jointed legs, crawling on moist earth, near ground level, shallow depth of field, soft bokeh of distant ferns, realistic micro photography\",\n  \"negative\": \"beetle, ladybug, grasshopper, cricket, termite, aphid, caterpillar, butterfly, moth, fly, bee, wasp, hornet, mantis, spider, scorpion, cockroach, cicada, locust, dragonfly, praying_mantis, flea, tick, worm, slug, snail, centipede, millipede, woodlouse, pill_bug, earwig, bed_bug, stink_bug, shield_bug, fire_fly, glow_worm, jellyfish, octopus, squid, fish, bird, reptile, mammal, human, dinosaur, mythical_creature, alien, robot, vehicle, building, sign, word, lettering, text_overlay, graffiti, logo, brand_name, watermark, signature, caption, label, arrow, icon, UI_element, frame, border, vignette, lens_flare, bloom, halo_effects, noise_grain, pixelated, jpeg_artifact, compression_artifacts\"\n}"
+      }
+    },
+    {
+      "n": 3,
+      "seed": 2123964723955702240,
+      "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (black ant:1.5), (Formica rufa:1.6), (three body segments:1.3), (carrying a leaf:1.4), glossy exoskeleton, segmented abdomen, six jointed legs, crawling on moist earth, near ground level, shallow depth of field, soft bokeh of distant ferns, realistic micro photography",
+      "negative": "beetle, ladybug, grasshopper, cricket, termite, aphid, caterpillar, butterfly, moth, fly, bee, wasp, hornet, mantis, spider, scorpion, cockroach, cicada, locust, dragonfly, praying_mantis, flea, tick, worm, slug, snail, centipede, millipede, woodlouse, pill_bug, earwig, bed_bug, stink_bug, shield_bug, fire_fly, glow_worm, jellyfish, octopus, squid, fish, bird, reptile, mammal, human, dinosaur, mythical_creature, alien, robot, vehicle, building, sign, word, lettering, text_overlay, graffiti, logo, brand_name, watermark, signature, caption, label, arrow, icon, UI_element, frame, border, vignette, lens_flare, bloom, halo_effects, noise_grain, pixelated, jpeg_artifact, compression_artifacts",
+      "validator": {
+        "model": "validator",
+        "score": 2,
+        "pass": false,
+        "issues": [
+          "The image depicts human figures instead of ants.",
+          "There is no leaf being carried by any figure."
+        ],
+        "suggestions": "Replace humans with ants, ensure they have a leaf in their mouth, and adjust the background to show them on soil near the ground with blurred greenery.",
+        "raw_request": "Concept the image must depict:\nSubject: ant (mravenec)\nDisambiguation: small social insect that lives in colonies (Formicidae)\nDesired attributes: black, three body segments, carrying a leaf\nDesired setting: on soil, close to the ground, blurred greenery\nMust avoid: text, other insects, ant hill diagram\n\nReview the attached image.",
+        "raw_response": "{\n  \"score\": 2,\n  \"pass\": false,\n  \"issues\": [\n    \"The image depicts human figures instead of ants.\",\n    \"There is no leaf being carried by any figure.\"\n  ],\n  \"suggestions\": \"Replace humans with ants, ensure they have a leaf in their mouth, and adjust the background to show them on soil near the ground with blurred greenery.\"\n}"
       }
     }
   ]

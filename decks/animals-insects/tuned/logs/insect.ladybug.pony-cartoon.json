@@ -2,24 +2,73 @@
   "card": "insect.ladybug",
   "style": "pony-cartoon",
   "target": "Subject: ladybug (beruška)\nDisambiguation: small round red beetle with black spots (Coccinellidae)\nDesired attributes: red domed shell, black spots, glossy\nDesired setting: on a green leaf, garden, dewdrops\nMust avoid: text, other insects\n",
-  "iters": 1,
-  "score": 0,
+  "iters": 3,
+  "score": 6,
   "passed": false,
-  "seed": 1692172427645814136,
+  "seed": 895113662874171412,
   "iterations": [
     {
       "n": 1,
-      "seed": 1692172427645814136,
+      "seed": 6478798417246466077,
       "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ladybug, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), red domed shell, black spots, glossy, on a green leaf, garden, dewdrops, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo",
       "negative": "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, other insects",
       "validator": {
         "model": "validator",
-        "score": 0,
+        "score": 2,
         "pass": false,
-        "issues": null,
-        "suggestions": "",
+        "issues": [
+          "The creature depicted is not a ladybug.",
+          "It has wings which are not characteristic of ladybugs."
+        ],
+        "suggestions": "Replace the insect with a realistic ladybug model without wings.",
         "raw_request": "Concept the image must depict:\nSubject: ladybug (beruška)\nDisambiguation: small round red beetle with black spots (Coccinellidae)\nDesired attributes: red domed shell, black spots, glossy\nDesired setting: on a green leaf, garden, dewdrops\nMust avoid: text, other insects\n\nReview the attached image.",
-        "raw_response": "```json\n{\n    \"11: \"true\n}\n"
+        "raw_response": "{\n  \"score\": 2,\n  \"pass\": false,\n  \"issues\": [\n    \"The creature depicted is not a ladybug.\",\n    \"It has wings which are not characteristic of ladybugs.\"\n  ],\n  \"suggestions\": \"Replace the insect with a realistic ladybug model without wings.\"\n}"
+      },
+      "builder": {
+        "model": "builder",
+        "request": "Concept the image must depict:\nSubject: ladybug (beruška)\nDisambiguation: small round red beetle with black spots (Coccinellidae)\nDesired attributes: red domed shell, black spots, glossy\nDesired setting: on a green leaf, garden, dewdrops\nMust avoid: text, other insects\n\nCurrent positive prompt:\nscore_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ladybug, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), red domed shell, black spots, glossy, on a green leaf, garden, dewdrops, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo\n\nCurrent negative prompt:\ntext, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, other insects\n\nReviewer score: 2.0/10\nReviewer issues:\n- The creature depicted is not a ladybug.\n- It has wings which are not characteristic of ladybugs.\nReviewer suggestions: Replace the insect with a realistic ladybug model without wings.\n",
+        "response": "{\n  \"positive\": \"score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Coccinellidae, (ladybug:1.5), (red domed shell:1.4), (black spots:1.3), glossy, on a green leaf, garden, dewdrops, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo\",\n  \"negative\": \"text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style\"\n}"
+      }
+    },
+    {
+      "n": 2,
+      "seed": 7086641205971621633,
+      "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Coccinellidae, (ladybug:1.5), (red domed shell:1.4), (black spots:1.3), glossy, on a green leaf, garden, dewdrops, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo",
+      "negative": "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style",
+      "validator": {
+        "model": "validator",
+        "score": 2,
+        "pass": false,
+        "issues": [
+          "The subject is not a ladybug but appears to be some kind of turtle-like creature.",
+          "There are additional insects present which violate the 'must avoid' rule."
+        ],
+        "suggestions": "Replace the large turtle-like creature with a proper ladybug and remove any other insects from the scene.",
+        "raw_request": "Concept the image must depict:\nSubject: ladybug (beruška)\nDisambiguation: small round red beetle with black spots (Coccinellidae)\nDesired attributes: red domed shell, black spots, glossy\nDesired setting: on a green leaf, garden, dewdrops\nMust avoid: text, other insects\n\nReview the attached image.",
+        "raw_response": "{\n  \"score\": 2,\n  \"pass\": false,\n  \"issues\": [\n    \"The subject is not a ladybug but appears to be some kind of turtle-like creature.\",\n    \"There are additional insects present which violate the 'must avoid' rule.\"\n  ],\n  \"suggestions\": \"Replace the large turtle-like creature with a proper ladybug and remove any other insects from the scene.\"\n}"
+      },
+      "builder": {
+        "model": "builder",
+        "request": "Concept the image must depict:\nSubject: ladybug (beruška)\nDisambiguation: small round red beetle with black spots (Coccinellidae)\nDesired attributes: red domed shell, black spots, glossy\nDesired setting: on a green leaf, garden, dewdrops\nMust avoid: text, other insects\n\nCurrent positive prompt:\nscore_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Coccinellidae, (ladybug:1.5), (red domed shell:1.4), (black spots:1.3), glossy, on a green leaf, garden, dewdrops, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo\n\nCurrent negative prompt:\ntext, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style\n\nReviewer score: 2.0/10\nReviewer issues:\n- The subject is not a ladybug but appears to be some kind of turtle-like creature.\n- There are additional insects present which violate the 'must avoid' rule.\nReviewer suggestions: Replace the large turtle-like creature with a proper ladybug and remove any other insects from the scene.\n",
+        "response": "{\"positive\":\"score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Coccinellidae, (ladybug:1.6), (small round red beetle:1.5), (glossy red domed shell:1.4), (black spots:1.3), glossy, on a fresh green leaf, garden, dew drops, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo\",\"negative\":\"text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style\"}"
+      }
+    },
+    {
+      "n": 3,
+      "seed": 895113662874171412,
+      "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Coccinellidae, (ladybug:1.6), (small round red beetle:1.5), (glossy red domed shell:1.4), (black spots:1.3), glossy, on a fresh green leaf, garden, dew drops, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo",
+      "negative": "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style",
+      "validator": {
+        "model": "validator",
+        "score": 6,
+        "pass": false,
+        "issues": [
+          "The main subject is not a ladybug, but rather appears to be a large, unrealistic version of a ladybug.",
+          "There are multiple ladybugs present, which violates the 'must avoid' rule."
+        ],
+        "suggestions": "Ensure the main subject is accurately depicted as a ladybug without any additional insects nearby.",
+        "raw_request": "Concept the image must depict:\nSubject: ladybug (beruška)\nDisambiguation: small round red beetle with black spots (Coccinellidae)\nDesired attributes: red domed shell, black spots, glossy\nDesired setting: on a green leaf, garden, dewdrops\nMust avoid: text, other insects\n\nReview the attached image.",
+        "raw_response": "{\n  \"score\": 6,\n  \"pass\": false,\n  \"issues\": [\n    \"The main subject is not a ladybug, but rather appears to be a large, unrealistic version of a ladybug.\",\n    \"There are multiple ladybugs present, which violates the 'must avoid' rule.\"\n  ],\n  \"suggestions\": \"Ensure the main subject is accurately depicted as a ladybug without any additional insects nearby.\"\n}"
       }
     }
   ]
