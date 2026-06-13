@@ -1,0 +1,26 @@
+{
+  "card": "insect.dragonfly",
+  "style": "pony-cartoon",
+  "target": "Subject: dragonfly (vážka)\nDisambiguation: long-bodied insect with two pairs of large transparent wings (Odonata)\nDesired attributes: iridescent blue body, four long transparent wings, perched\nDesired setting: on a reed, near a pond, sunlight\nMust avoid: text, butterfly, damselfly swarm\n",
+  "iters": 1,
+  "score": 0,
+  "passed": false,
+  "seed": 4538737895377507251,
+  "iterations": [
+    {
+      "n": 1,
+      "seed": 4538737895377507251,
+      "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dragonfly, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), iridescent blue body, four long transparent wings, perched, on a reed, near a pond, sunlight, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo",
+      "negative": "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, butterfly, damselfly swarm",
+      "validator": {
+        "model": "validator",
+        "score": 0,
+        "pass": false,
+        "issues": null,
+        "suggestions": "",
+        "raw_request": "Concept the image must depict:\nSubject: dragonfly (vážka)\nDisambiguation: long-bodied insect with two pairs of large transparent wings (Odonata)\nDesired attributes: iridescent blue body, four long transparent wings, perched\nDesired setting: on a reed, near a pond, sunlight\nMust avoid: text, butterfly, damselfly swarm\n\nReview the attached image.",
+        "raw_response": "```json\n{\n\n"
+      }
+    }
+  ]
+}

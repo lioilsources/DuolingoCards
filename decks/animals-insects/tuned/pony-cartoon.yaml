@@ -1,0 +1,37 @@
+style: pony-cartoon
+cards:
+    insect.ant:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), black, three body segments, carrying a leaf, on soil, close to the ground, blurred greenery, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, other insects, ant hill diagram
+        seed: 6118336680451288987
+        model: builder
+        iters: 1
+        updated_at: "2026-06-13T11:27:01Z"
+    insect.bee:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, honey bee, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), yellow and black stripes, translucent wings, collecting pollen, on a yellow flower, garden, daylight, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, wasp, hornet
+        seed: 710723409621117798
+        model: builder
+        iters: 1
+        updated_at: "2026-06-13T11:24:46Z"
+    insect.butterfly:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, monarch butterfly, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), wings spread, orange and black patterned wings, on a flower, green meadow, sunlight, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, human hands, other insects
+        seed: 4332882677698194421
+        model: builder
+        iters: 1
+        updated_at: "2026-06-13T11:23:20Z"
+    insect.dragonfly:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dragonfly, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), iridescent blue body, four long transparent wings, perched, on a reed, near a pond, sunlight, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, butterfly, damselfly swarm
+        seed: 4538737895377507251
+        model: builder
+        iters: 1
+        updated_at: "2026-06-13T11:26:16Z"
+    insect.ladybug:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ladybug, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), red domed shell, black spots, glossy, on a green leaf, garden, dewdrops, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, other insects
+        seed: 1692172427645814136
+        model: builder
+        iters: 1
+        updated_at: "2026-06-13T11:25:32Z"
