@@ -47,9 +47,13 @@ type Result struct {
 	Prompt     prompt.Prompt
 	Seed       int64
 	Score      float64
-	Passed     bool // score crossed the threshold
+	Passed     bool  // score crossed the threshold
 	Iters      int
 	Transcript []IterRecord
+	// ValidatorErr is set when the validator never produced a usable verdict
+	// (e.g. the model returned unparseable output). The generated image is still
+	// returned and saved; the loop just cannot improve it.
+	ValidatorErr error
 }
 
 // Tune runs the iterative loop for a single card and returns the final image,
@@ -98,11 +102,7 @@ func Tune(ctx context.Context, gen imagegen.ImageGenerator, val imageValidator, 
 			return out, fmt.Errorf("decode image (iter %d): %w", i, err)
 		}
 
-		verdict, err := val.Validate(ctx, img, t)
-		if err != nil {
-			return out, fmt.Errorf("validate (iter %d): %w", i, err)
-		}
-
+		verdict, verr := val.Validate(ctx, img, t)
 		rec := IterRecord{N: i, Prompt: cur, Seed: seed, Verdict: verdict}
 
 		// The current attempt is always the latest result we'd keep.
@@ -112,6 +112,16 @@ func Tune(ctx context.Context, gen imagegen.ImageGenerator, val imageValidator, 
 		out.Score = verdict.Score
 		out.Passed = verdict.Score >= threshold
 		out.Iters = i
+
+		if verr != nil {
+			// The validator gave no usable verdict (e.g. unparseable model
+			// output). Keep the image we generated and record the raw response
+			// for inspection, but stop — we have no signal to refine on.
+			out.ValidatorErr = verr
+			out.Transcript = append(out.Transcript, rec)
+			logf(opts.Log, "  [tune] iter %d: validator error: %v\n         raw: %q\n", i, verr, truncate(verdict.RawResponse, 240))
+			break
+		}
 
 		logIter(opts.Log, rec, threshold)
 

@@ -1,0 +1,56 @@
+# animals-insects — test deck for the iterative image-tuning pipeline.
+# Insect-appropriate brief_attrs (not the furry/quadrupedal mammal scaffolding
+# used by animals-wild/animals-sea).
+slug: animals-insects
+version: 1
+tier: 1
+brief_attrs: ["(insect:1.2)", "(six legs:1.2)", "(realistic insect anatomy:1.3)", "macro photography", "(highly detailed:1.2)"]
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: insect.butterfly
+    hint: flying insect with large patterned scaled wings (Lepidoptera)
+    image: insect.butterfly.png
+    brief:
+      subject: monarch butterfly
+      attrs: [wings spread, orange and black patterned wings]
+      setting: [on a flower, green meadow, sunlight]
+      avoid: [text, human hands, other insects]
+
+  - key: insect.bee
+    hint: fuzzy stinging insect that makes honey (Apis mellifera)
+    image: insect.bee.png
+    brief:
+      subject: honey bee
+      attrs: [yellow and black stripes, translucent wings, collecting pollen]
+      setting: [on a yellow flower, garden, daylight]
+      avoid: [text, wasp, hornet]
+
+  - key: insect.ladybug
+    hint: small round red beetle with black spots (Coccinellidae)
+    image: insect.ladybug.png
+    brief:
+      subject: ladybug
+      attrs: [red domed shell, black spots, glossy]
+      setting: [on a green leaf, garden, dewdrops]
+      avoid: [text, other insects]
+
+  - key: insect.dragonfly
+    hint: long-bodied insect with two pairs of large transparent wings (Odonata)
+    image: insect.dragonfly.png
+    brief:
+      subject: dragonfly
+      attrs: [iridescent blue body, four long transparent wings, perched]
+      setting: [on a reed, near a pond, sunlight]
+      avoid: [text, butterfly, damselfly swarm]
+
+  - key: insect.ant
+    hint: small social insect that lives in colonies (Formicidae)
+    image: insect.ant.png
+    brief:
+      subject: ant
+      attrs: [black, three body segments, carrying a leaf]
+      setting: [on soil, close to the ground, blurred greenery]
+      avoid: [text, other insects, ant hill diagram]
