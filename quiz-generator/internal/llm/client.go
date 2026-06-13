@@ -5,6 +5,7 @@ package llm
 import (
 	"bytes"
 	"context"
+	"encoding/base64"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -33,6 +34,9 @@ func NewClient(baseURL, model string) *Client {
 	}
 }
 
+// Model returns the model name this client targets.
+func (c *Client) Model() string { return c.model }
+
 func cfHeaders() (id, secret string) {
 	return os.Getenv("CF_ACCESS_CLIENT_ID"), os.Getenv("CF_ACCESS_CLIENT_SECRET")
 }
@@ -40,13 +44,36 @@ func cfHeaders() (id, secret string) {
 // Complete sends a system + user message and returns the assistant reply.
 // Retries up to 3 times on 404/5xx with exponential backoff.
 func (c *Client) Complete(ctx context.Context, system, user string) (string, error) {
-	messages := []map[string]string{
-		{"role": "system", "content": system},
-		{"role": "user", "content": user},
+	messages := []any{
+		map[string]any{"role": "system", "content": system},
+		map[string]any{"role": "user", "content": user},
 	}
+	return c.complete(ctx, messages)
+}
+
+// CompleteVision sends a system + user message together with an image and
+// returns the assistant reply. It targets vision-language models exposed over
+// the OpenAI-compatible chat API, where the image is passed as a base64 data
+// URI inside the user message's multimodal content array. img must be raw image
+// bytes (PNG/WebP/JPEG); the MIME type is inferred from the magic bytes.
+func (c *Client) CompleteVision(ctx context.Context, system, user string, img []byte) (string, error) {
+	dataURI := "data:" + sniffMIME(img) + ";base64," + base64.StdEncoding.EncodeToString(img)
+	messages := []any{
+		map[string]any{"role": "system", "content": system},
+		map[string]any{"role": "user", "content": []any{
+			map[string]any{"type": "text", "text": user},
+			map[string]any{"type": "image_url", "image_url": map[string]any{"url": dataURI}},
+		}},
+	}
+	return c.complete(ctx, messages)
+}
+
+// complete marshals the request, posts it with retry/backoff and CF Access
+// headers, and extracts the assistant reply.
+func (c *Client) complete(ctx context.Context, messages []any) (string, error) {
 	body, err := json.Marshal(map[string]any{
-		"model":       c.model,
-		"messages":    messages,
+		"model":              c.model,
+		"messages":           messages,
 		"temperature":        0.2,
 		"max_tokens":         2048,
 		"repetition_penalty": 1.15,
@@ -105,7 +132,7 @@ func (c *Client) Complete(ctx context.Context, system, user string) (string, err
 	var payload struct {
 		Choices []struct {
 			Message struct {
-				Content         *string `json:"content"`
+				Content          *string `json:"content"`
 				ReasoningContent string  `json:"reasoning_content"`
 			} `json:"message"`
 		} `json:"choices"`
@@ -124,4 +151,19 @@ func (c *Client) Complete(ctx context.Context, system, user string) (string, err
 		return msg.ReasoningContent, nil
 	}
 	return "", fmt.Errorf("empty content in response")
+}
+
+// sniffMIME returns the image MIME type from the leading magic bytes, defaulting
+// to image/png when unrecognized.
+func sniffMIME(b []byte) string {
+	switch {
+	case len(b) >= 8 && string(b[:8]) == "\x89PNG\r\n\x1a\n":
+		return "image/png"
+	case len(b) >= 3 && b[0] == 0xFF && b[1] == 0xD8 && b[2] == 0xFF:
+		return "image/jpeg"
+	case len(b) >= 12 && string(b[:4]) == "RIFF" && string(b[8:12]) == "WEBP":
+		return "image/webp"
+	default:
+		return "image/png"
+	}
 }

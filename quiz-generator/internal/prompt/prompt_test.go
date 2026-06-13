@@ -10,7 +10,7 @@ import (
 var lionBrief = content.VisualBrief{
 	Subject: "lion",
 	Attrs:   []string{"sitting", "calm"},
-	Setting: "savanna grass",
+	Setting: []string{"savanna grass"},
 	Avoid:   []string{"text", "blood"},
 }
 
@@ -41,7 +41,7 @@ func TestExpandPony(t *testing.T) {
 	if !strings.HasPrefix(p.Positive, "score_9") {
 		t.Fatalf("Pony positive should start with score tags: %q", p.Positive)
 	}
-	for _, want := range []string{"text", "blood", "realistic"} {
+	for _, want := range []string{"text", "blood", "bad anatomy"} {
 		if !strings.Contains(p.Negative, want) {
 			t.Fatalf("Pony negative missing %q: %q", want, p.Negative)
 		}

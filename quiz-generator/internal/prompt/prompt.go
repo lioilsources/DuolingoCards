@@ -71,6 +71,24 @@ const ponyQualityTags = "score_9, score_8_up, score_7_up, best quality, masterpi
 // ponyBaseNegative is the always-on Pony negative prompt.
 const ponyBaseNegative = "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style"
 
+// DialectGuide returns a short description of the prompt conventions a backend
+// expects. It is meant to be embedded in an LLM system prompt so a prompt-tuning
+// model rewrites prompts in the same dialect Expand would have produced.
+func DialectGuide(b Backend) string {
+	switch b {
+	case BackendPony:
+		return "Pony/SDXL dialect: a comma-separated tag soup, NOT prose. " +
+			"Always keep the quality preamble \"" + ponyQualityTags + "\" at the front. " +
+			"Use danbooru-style tags for the subject, pose, and setting; weight emphasis with (tag:1.2). " +
+			"Provide a full negative prompt of unwanted tags; the always-on base negatives are: \"" + ponyBaseNegative + "\"."
+	default:
+		return "FLUX dialect: one natural-language sentence describing the subject, " +
+			"its attributes and setting (e.g. \"A calm sitting lion in savanna grass, golden hour.\"). " +
+			"Distilled FLUX ignores negative prompts, so fold anything to avoid into the positive " +
+			"sentence (\"...clean composition without text, blood.\"). Leave the negative prompt empty."
+	}
+}
+
 // Expand renders a brief for a given style.
 func Expand(b content.VisualBrief, s Style) Prompt {
 	switch s.Backend {

@@ -14,13 +14,16 @@ type ImageGenerator interface {
 
 // GenerateRequest is a backend-neutral image generation request.
 type GenerateRequest struct {
-	Model           string `json:"model"`
-	Prompt          string `json:"prompt"`
-	NegativePrompt  string `json:"negative_prompt,omitempty"`
-	N               int    `json:"n"`
-	AspectRatio     string `json:"aspect_ratio,omitempty"`
-	Resolution      string `json:"resolution,omitempty"`
-	ResponseFormat  string `json:"response_format"`
+	Model          string `json:"model"`
+	Prompt         string `json:"prompt"`
+	NegativePrompt string `json:"negative_prompt,omitempty"`
+	N              int    `json:"n"`
+	AspectRatio    string `json:"aspect_ratio,omitempty"`
+	Resolution     string `json:"resolution,omitempty"`
+	ResponseFormat string `json:"response_format"`
+	// Seed pins the sampler seed for reproducibility. When 0 the backend picks a
+	// random seed.
+	Seed int64 `json:"seed,omitempty"`
 }
 
 // GenerateResponse holds generated images.

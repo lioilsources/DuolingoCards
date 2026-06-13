@@ -5,9 +5,12 @@
 //	content build   [-decks DIR] [-out DIR] [-strict]  merge deck.yaml + i18n/*.yaml → deck.json
 //	content prompts [-decks DIR] [-style NAME]          expand visual briefs → FLUX/Pony prompts
 //	content images  [-decks DIR] [-deck SLUG] [-style NAME] [-url URL] [-workers N] [-force]
+//	                [-tune [-max-iters N] [-score-threshold F] [-llm-url URL]
+//	                       [-validator-model M] [-builder-model M] [-tune-log-json]]
 //
 // All commands run entirely offline on local files in Git, except `images`
-// which calls a ComfyUI server.
+// which calls a ComfyUI server (and, with -tune, an OpenAI-compatible LLM server
+// for the validate→refine loop).
 package main
 
 import (
@@ -17,10 +20,12 @@ import (
 	"os"
 	"path/filepath"
 	"sync"
+	"time"
 
 	"github.com/duolingocards/quiz-generator/internal/comfyuiimage"
 	"github.com/duolingocards/quiz-generator/internal/content"
 	"github.com/duolingocards/quiz-generator/internal/imagegen"
+	"github.com/duolingocards/quiz-generator/internal/imagetune"
 	"github.com/duolingocards/quiz-generator/internal/langs"
 	"github.com/duolingocards/quiz-generator/internal/llm"
 	"github.com/duolingocards/quiz-generator/internal/prompt"
@@ -37,6 +42,55 @@ func mergedBrief(c content.CardYAML, d *content.Deck) content.VisualBrief {
 		b.Attrs = merged
 	}
 	return b
+}
+
+// buildTarget assembles the tuning Target for a card: the concept the image must
+// depict. It uses the card's own brief (not the deck-level brief_attrs, which are
+// model scaffolding, not part of the concept) plus the disambiguation hint and,
+// when available, the pivot-language label for extra grounding.
+func buildTarget(c content.CardYAML, d *content.Deck) imagetune.Target {
+	t := imagetune.Target{
+		Subject: c.Brief.Subject,
+		Hint:    c.Hint,
+		Attrs:   c.Brief.Attrs,
+		Setting: c.Brief.Setting,
+		Avoid:   c.Brief.Avoid,
+	}
+	if pl := d.PivotLang(); pl != "" {
+		if f, ok := d.I18n[pl]; ok {
+			if ci, ok := f.Cards[c.Key]; ok {
+				t.Label = ci.Label
+			}
+		}
+	}
+	return t
+}
+
+// writeTranscript saves the per-card tuning transcript (Markdown, and optionally
+// JSON) under decks/<slug>/tuned/logs/.
+func writeTranscript(deckDir, card, style string, t imagetune.Target, result imagetune.Result, alsoJSON bool) error {
+	logDir := filepath.Join(deckDir, "tuned", "logs")
+	if err := os.MkdirAll(logDir, 0755); err != nil {
+		return err
+	}
+	f, err := os.Create(filepath.Join(logDir, card+"."+style+".md"))
+	if err != nil {
+		return err
+	}
+	imagetune.RenderTranscript(f, card, style, t, result)
+	if err := f.Close(); err != nil {
+		return err
+	}
+	if alsoJSON {
+		data, err := imagetune.TranscriptJSON(card, style, t, result)
+		if err != nil {
+			return err
+		}
+		if err := os.WriteFile(filepath.Join(logDir, card+"."+style+".json"), data, 0644); err != nil {
+			return err
+		}
+	}
+	return nil
 }
 
 func main() {
@@ -254,6 +308,13 @@ func runImages(args []string) error {
 	comfyURL := fs.String("url", "http://spark-99bb:8188", "ComfyUI server base URL")
 	workers := fs.Int("workers", 2, "parallel image generation workers")
 	force := fs.Bool("force", false, "regenerate images that already exist")
+	tune := fs.Bool("tune", false, "iterative tuning: generate → validate (VL model) → refine prompt (instruct model) → loop")
+	maxIters := fs.Int("max-iters", 4, "tuning: max generate/validate iterations per card")
+	scoreThreshold := fs.Float64("score-threshold", 8, "tuning: accept image when validator score >= this (0-10)")
+	llmURL := fs.String("llm-url", "http://spark-99bb:8080", "tuning: OpenAI-compatible LLM base URL for validator + builder")
+	validatorModel := fs.String("validator-model", "qwen-vl", "tuning: vision-language model that scores images")
+	builderModel := fs.String("builder-model", "nemotron", "tuning: instruct model that rewrites prompts")
+	tuneLogJSON := fs.Bool("tune-log-json", false, "tuning: also write a machine-readable JSON transcript per card")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -266,6 +327,13 @@ func runImages(args []string) error {
 	ponyClient := comfyuiimage.NewClient(*comfyURL, "", "")
 	fluxClient := comfyuiimage.NewClient(*comfyURL, "", "", comfyuiimage.WithFluxDev())
 
+	var validator *imagetune.Validator
+	var builder *imagetune.Builder
+	if *tune {
+		validator = imagetune.NewValidator(llm.NewClient(*llmURL, *validatorModel))
+		builder = imagetune.NewBuilder(llm.NewClient(*llmURL, *builderModel))
+	}
+
 	type job struct {
 		deck     *content.Deck
 		card     content.CardYAML
@@ -274,6 +342,7 @@ func runImages(args []string) error {
 		outPath  string
 		positive string
 		negative string
+		seed     int64 // from a tuned sidecar override; 0 = random
 	}
 
 	var jobs []job
@@ -292,6 +361,12 @@ func runImages(args []string) error {
 		if err := os.MkdirAll(outDir, 0755); err != nil {
 			return fmt.Errorf("create output dir: %w", err)
 		}
+		// Tuned sidecar: the prompt that previously produced each card's image.
+		// Used as a reproducible override (and as a warm start when re-tuning).
+		tuned, err := content.LoadTuned(d.Dir, style)
+		if err != nil {
+			return fmt.Errorf("load tuned sidecar for %s: %w", d.Meta.Slug, err)
+		}
 		for _, c := range d.Meta.Cards {
 			if c.Image == "" || c.Brief.Subject == "" {
 				continue
@@ -307,7 +382,13 @@ func runImages(args []string) error {
 			if err != nil {
 				return fmt.Errorf("expand prompt for %s/%s: %w", d.Meta.Slug, c.Key, err)
 			}
-			jobs = append(jobs, job{deck: d, card: c, style: style, backend: p.Backend, outPath: outPath, positive: p.Positive, negative: p.Negative})
+			j := job{deck: d, card: c, style: style, backend: p.Backend, outPath: outPath, positive: p.Positive, negative: p.Negative}
+			if entry, ok := tuned[c.Key]; ok {
+				j.positive = entry.Positive
+				j.negative = entry.Negative
+				j.seed = entry.Seed
+			}
+			jobs = append(jobs, j)
 		}
 	}
 
@@ -337,6 +418,52 @@ func runImages(args []string) error {
 				if j.backend == prompt.BackendFlux {
 					imgClient = fluxClient
 				}
+
+				if *tune {
+					fmt.Printf("  TUNE %s\n", label)
+					init := prompt.Prompt{Style: j.style, Backend: j.backend, Positive: j.positive, Negative: j.negative}
+					target := buildTarget(j.card, j.deck)
+					result, err := imagetune.Tune(context.Background(), imgClient, validator, builder, init, target, imagetune.Options{
+						MaxIters:       *maxIters,
+						ScoreThreshold: *scoreThreshold,
+						AspectRatio:    "1:1",
+						Resolution:     "1k",
+						Log:            os.Stderr,
+					})
+					if err == nil {
+						err = os.WriteFile(j.outPath, result.Image, 0644)
+					}
+					if err != nil {
+						mu.Lock()
+						failed++
+						fmt.Printf("  FAIL %s: %v\n", label, err)
+						mu.Unlock()
+						continue
+					}
+					mu.Lock()
+					serr := content.SaveTuned(j.deck.Dir, j.style, j.card.Key, content.TunedEntry{
+						Positive:  result.Prompt.Positive,
+						Negative:  result.Prompt.Negative,
+						Seed:      result.Seed,
+						Score:     result.Score,
+						Model:     *builderModel,
+						Iters:     result.Iters,
+						UpdatedAt: time.Now().UTC().Format(time.RFC3339),
+					})
+					mu.Unlock()
+					if serr != nil {
+						fmt.Fprintf(os.Stderr, "  WARN %s: save tuned sidecar: %v\n", label, serr)
+					}
+					if terr := writeTranscript(j.deck.Dir, j.card.Key, j.style, target, result, *tuneLogJSON); terr != nil {
+						fmt.Fprintf(os.Stderr, "  WARN %s: write transcript: %v\n", label, terr)
+					}
+					mu.Lock()
+					generated++
+					fmt.Printf("  OK   %s → %s (score %.1f, %d iter, seed %d)\n", label, j.outPath, result.Score, result.Iters, result.Seed)
+					mu.Unlock()
+					continue
+				}
+
 				resp, err := imgClient.Generate(context.Background(), imagegen.GenerateRequest{
 					Prompt:         j.positive,
 					NegativePrompt: j.negative,
@@ -344,6 +471,7 @@ func runImages(args []string) error {
 					AspectRatio:    "1:1",
 					Resolution:     "1k",
 					ResponseFormat: "b64_json",
+					Seed:           j.seed,
 				})
 				mu.Lock()
 				if err != nil {
