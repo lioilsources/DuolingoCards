@@ -2,24 +2,73 @@
   "card": "insect.butterfly",
   "style": "pony-cartoon",
   "target": "Subject: monarch butterfly (motýl)\nDisambiguation: flying insect with large patterned scaled wings (Lepidoptera)\nDesired attributes: wings spread, orange and black patterned wings\nDesired setting: on a flower, green meadow, sunlight\nMust avoid: text, human hands, other insects\n",
-  "iters": 1,
-  "score": 0,
+  "iters": 3,
+  "score": 2,
   "passed": false,
-  "seed": 4332882677698194421,
+  "seed": 5334539290426545597,
   "iterations": [
     {
       "n": 1,
-      "seed": 4332882677698194421,
+      "seed": 6773907425159833620,
       "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, monarch butterfly, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), wings spread, orange and black patterned wings, on a flower, green meadow, sunlight, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo",
       "negative": "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, human hands, other insects",
       "validator": {
-        "model": "",
-        "score": 0,
+        "model": "validator",
+        "score": 2,
         "pass": false,
-        "issues": null,
-        "suggestions": "",
-        "raw_request": "",
-        "raw_response": ""
+        "issues": [
+          "The creature depicted is not a monarch butterfly.",
+          "The wings have blue and brown patterns instead of orange and black."
+        ],
+        "suggestions": "Replace the creature with a monarch butterfly, ensuring its wings display the characteristic orange and black coloration.",
+        "raw_request": "Concept the image must depict:\nSubject: monarch butterfly (motýl)\nDisambiguation: flying insect with large patterned scaled wings (Lepidoptera)\nDesired attributes: wings spread, orange and black patterned wings\nDesired setting: on a flower, green meadow, sunlight\nMust avoid: text, human hands, other insects\n\nReview the attached image.",
+        "raw_response": "{\n  \"score\": 2,\n  \"pass\": false,\n  \"issues\": [\n    \"The creature depicted is not a monarch butterfly.\",\n    \"The wings have blue and brown patterns instead of orange and black.\"\n  ],\n  \"suggestions\": \"Replace the creature with a monarch butterfly, ensuring its wings display the characteristic orange and black coloration.\"\n}"
+      },
+      "builder": {
+        "model": "builder",
+        "request": "Concept the image must depict:\nSubject: monarch butterfly (motýl)\nDisambiguation: flying insect with large patterned scaled wings (Lepidoptera)\nDesired attributes: wings spread, orange and black patterned wings\nDesired setting: on a flower, green meadow, sunlight\nMust avoid: text, human hands, other insects\n\nCurrent positive prompt:\nscore_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, monarch butterfly, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), wings spread, orange and black patterned wings, on a flower, green meadow, sunlight, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo\n\nCurrent negative prompt:\ntext, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, human hands, other insects\n\nReviewer score: 2.0/10\nReviewer issues:\n- The creature depicted is not a monarch butterfly.\n- The wings have blue and brown patterns instead of orange and black.\nReviewer suggestions: Replace the creature with a monarch butterfly, ensuring its wings display the characteristic orange and black coloration.\n",
+        "response": "{\n  \"positive\": \"score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, monarch butterfly, (wings spread:1.5), (orange and black pattern:1.4), (large patterned scales:1.3), macro photography, (highly detailed:1.2), six legs, realistic insect anatomy, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo\",\n  \"negative\": \"text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, human hands, other insects\"\n}"
+      }
+    },
+    {
+      "n": 2,
+      "seed": 5112134180520227366,
+      "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, monarch butterfly, (wings spread:1.5), (orange and black pattern:1.4), (large patterned scales:1.3), macro photography, (highly detailed:1.2), six legs, realistic insect anatomy, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo",
+      "negative": "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, human hands, other insects",
+      "validator": {
+        "model": "validator",
+        "score": 2,
+        "pass": false,
+        "issues": [
+          "The creature depicted is not a monarch butterfly.",
+          "It has bird-like features such as a beak and tail feathers instead of butterfly wings."
+        ],
+        "suggestions": "Replace the bird-like creature with a detailed illustration of a monarch butterfly with its wings spread, showing the characteristic orange and black patterns against a background suggesting a natural outdoor environment like a green meadow under sunlight.",
+        "raw_request": "Concept the image must depict:\nSubject: monarch butterfly (motýl)\nDisambiguation: flying insect with large patterned scaled wings (Lepidoptera)\nDesired attributes: wings spread, orange and black patterned wings\nDesired setting: on a flower, green meadow, sunlight\nMust avoid: text, human hands, other insects\n\nReview the attached image.",
+        "raw_response": "{\n  \"score\": 2,\n  \"pass\": false,\n  \"issues\": [\n    \"The creature depicted is not a monarch butterfly.\",\n    \"It has bird-like features such as a beak and tail feathers instead of butterfly wings.\"\n  ],\n  \"suggestions\": \"Replace the bird-like creature with a detailed illustration of a monarch butterfly with its wings spread, showing the characteristic orange and black patterns against a background suggesting a natural outdoor environment like a green meadow under sunlight.\"\n}"
+      },
+      "builder": {
+        "model": "builder",
+        "request": "Concept the image must depict:\nSubject: monarch butterfly (motýl)\nDisambiguation: flying insect with large patterned scaled wings (Lepidoptera)\nDesired attributes: wings spread, orange and black patterned wings\nDesired setting: on a flower, green meadow, sunlight\nMust avoid: text, human hands, other insects\n\nCurrent positive prompt:\nscore_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, monarch butterfly, (wings spread:1.5), (orange and black pattern:1.4), (large patterned scales:1.3), macro photography, (highly detailed:1.2), six legs, realistic insect anatomy, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo\n\nCurrent negative prompt:\ntext, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, human hands, other insects\n\nReviewer score: 2.0/10\nReviewer issues:\n- The creature depicted is not a monarch butterfly.\n- It has bird-like features such as a beak and tail feathers instead of butterfly wings.\nReviewer suggestions: Replace the bird-like creature with a detailed illustration of a monarch butterfly with its wings spread, showing the characteristic orange and black patterns against a background suggesting a natural outdoor environment like a green meadow under sunlight.\n",
+        "response": "{\n  \"positive\": \"score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, monarch butterfly, (wings spread:1.6), (orange and black wing pattern:1.5), (detailed scale texture:1.4), macro photography, (intricate wing veins:1.3), (realistic antennae:1.2), high detail, vivid color contrast, sunlit meadow, lush green foliage, natural light, shallow depth of field\",\n  \"negative\": \"bird, beak, tail feathers, avian, feathered, reptile, scaly skin, wings resembling birds, cartoonish, anime, chibi, tiny eyes, simplified shapes, low resolution, blur, text, watermark, signature, human hand, multiple insects\"\n}"
+      }
+    },
+    {
+      "n": 3,
+      "seed": 5334539290426545597,
+      "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, monarch butterfly, (wings spread:1.6), (orange and black wing pattern:1.5), (detailed scale texture:1.4), macro photography, (intricate wing veins:1.3), (realistic antennae:1.2), high detail, vivid color contrast, sunlit meadow, lush green foliage, natural light, shallow depth of field",
+      "negative": "bird, beak, tail feathers, avian, feathered, reptile, scaly skin, wings resembling birds, cartoonish, anime, chibi, tiny eyes, simplified shapes, low resolution, blur, text, watermark, signature, human hand, multiple insects",
+      "validator": {
+        "model": "validator",
+        "score": 2,
+        "pass": false,
+        "issues": [
+          "The subject is not a monarch butterfly",
+          "There is a human figure present instead"
+        ],
+        "suggestions": "Replace the human figure with a monarch butterfly and ensure its wings have the correct orange and black pattern.",
+        "raw_request": "Concept the image must depict:\nSubject: monarch butterfly (motýl)\nDisambiguation: flying insect with large patterned scaled wings (Lepidoptera)\nDesired attributes: wings spread, orange and black patterned wings\nDesired setting: on a flower, green meadow, sunlight\nMust avoid: text, human hands, other insects\n\nReview the attached image.",
+        "raw_response": "{\n  \"score\": 2,\n  \"pass\": false,\n  \"issues\": [\n    \"The subject is not a monarch butterfly\",\n    \"There is a human figure present instead\"\n  ],\n  \"suggestions\": \"Replace the human figure with a monarch butterfly and ensure its wings have the correct orange and black pattern.\"\n}"
       }
     }
   ]

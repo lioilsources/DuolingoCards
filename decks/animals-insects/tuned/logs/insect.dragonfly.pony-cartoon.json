@@ -2,24 +2,73 @@
   "card": "insect.dragonfly",
   "style": "pony-cartoon",
   "target": "Subject: dragonfly (vážka)\nDisambiguation: long-bodied insect with two pairs of large transparent wings (Odonata)\nDesired attributes: iridescent blue body, four long transparent wings, perched\nDesired setting: on a reed, near a pond, sunlight\nMust avoid: text, butterfly, damselfly swarm\n",
-  "iters": 1,
-  "score": 0,
+  "iters": 3,
+  "score": 6,
   "passed": false,
-  "seed": 4538737895377507251,
+  "seed": 8801431934714622049,
   "iterations": [
     {
       "n": 1,
-      "seed": 4538737895377507251,
+      "seed": 1261052096216875707,
       "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dragonfly, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), iridescent blue body, four long transparent wings, perched, on a reed, near a pond, sunlight, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo",
       "negative": "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, butterfly, damselfly swarm",
       "validator": {
         "model": "validator",
-        "score": 0,
+        "score": 6,
         "pass": false,
-        "issues": null,
-        "suggestions": "",
+        "issues": [
+          "The creature depicted is not a dragonfly, as it has features resembling both butterflies and damselflies.",
+          "It does not have iridescent blue coloration."
+        ],
+        "suggestions": "Replace the creature with a realistic dragonfly model featuring iridescent blue coloring, four long transparent wings, and perch it on a reed by a pond under sunlight conditions without any visible text or other insects nearby.",
         "raw_request": "Concept the image must depict:\nSubject: dragonfly (vážka)\nDisambiguation: long-bodied insect with two pairs of large transparent wings (Odonata)\nDesired attributes: iridescent blue body, four long transparent wings, perched\nDesired setting: on a reed, near a pond, sunlight\nMust avoid: text, butterfly, damselfly swarm\n\nReview the attached image.",
-        "raw_response": "```json\n{\n\n"
+        "raw_response": "{\n  \"score\": 6,\n  \"pass\": false,\n  \"issues\": [\n    \"The creature depicted is not a dragonfly, as it has features resembling both butterflies and damselflies.\",\n    \"It does not have iridescent blue coloration.\"\n  ],\n  \"suggestions\": \"Replace the creature with a realistic dragonfly model featuring iridescent blue coloring, four long transparent wings, and perch it on a reed by a pond under sunlight conditions without any visible text or other insects nearby.\"\n}"
+      },
+      "builder": {
+        "model": "builder",
+        "request": "Concept the image must depict:\nSubject: dragonfly (vážka)\nDisambiguation: long-bodied insect with two pairs of large transparent wings (Odonata)\nDesired attributes: iridescent blue body, four long transparent wings, perched\nDesired setting: on a reed, near a pond, sunlight\nMust avoid: text, butterfly, damselfly swarm\n\nCurrent positive prompt:\nscore_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dragonfly, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), iridescent blue body, four long transparent wings, perched, on a reed, near a pond, sunlight, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo\n\nCurrent negative prompt:\ntext, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, butterfly, damselfly swarm\n\nReviewer score: 6.0/10\nReviewer issues:\n- The creature depicted is not a dragonfly, as it has features resembling both butterflies and damselflies.\n- It does not have iridescent blue coloration.\nReviewer suggestions: Replace the creature with a realistic dragonfly model featuring iridescent blue coloring, four long transparent wings, and perch it on a reed by a pond under sunlight conditions without any visible text or other insects nearby.\n",
+        "response": "{\n  \"positive\": \"score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dragonfly, (iridescent blue body:1.5), (four long transparent wings:1.4), (perched on a reed:1.3), (near a pond:1.2), (sunlight filtering through reeds:1.2), macro photography, (highly detailed:1.2), realistic insect anatomy, six legs, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo\",\n  \"negative\": \"text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, butterfly, damselfly swarm\"\n}"
+      }
+    },
+    {
+      "n": 2,
+      "seed": 2753654764107866981,
+      "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dragonfly, (iridescent blue body:1.5), (four long transparent wings:1.4), (perched on a reed:1.3), (near a pond:1.2), (sunlight filtering through reeds:1.2), macro photography, (highly detailed:1.2), realistic insect anatomy, six legs, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo",
+      "negative": "text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, butterfly, damselfly swarm",
+      "validator": {
+        "model": "validator",
+        "score": 6,
+        "pass": false,
+        "issues": [
+          "The creature depicted is not a dragonfly.",
+          "It has features resembling both a bird and a fairy-like being."
+        ],
+        "suggestions": "Replace the creature with a realistic dragonfly and ensure its anatomy matches Odonata characteristics such as long bodies and transparent wings.",
+        "raw_request": "Concept the image must depict:\nSubject: dragonfly (vážka)\nDisambiguation: long-bodied insect with two pairs of large transparent wings (Odonata)\nDesired attributes: iridescent blue body, four long transparent wings, perched\nDesired setting: on a reed, near a pond, sunlight\nMust avoid: text, butterfly, damselfly swarm\n\nReview the attached image.",
+        "raw_response": "{\n  \"score\": 6,\n  \"pass\": false,\n  \"issues\": [\n    \"The creature depicted is not a dragonfly.\",\n    \"It has features resembling both a bird and a fairy-like being.\"\n  ],\n  \"suggestions\": \"Replace the creature with a realistic dragonfly and ensure its anatomy matches Odonata characteristics such as long bodies and transparent wings.\"\n}"
+      },
+      "builder": {
+        "model": "builder",
+        "request": "Concept the image must depict:\nSubject: dragonfly (vážka)\nDisambiguation: long-bodied insect with two pairs of large transparent wings (Odonata)\nDesired attributes: iridescent blue body, four long transparent wings, perched\nDesired setting: on a reed, near a pond, sunlight\nMust avoid: text, butterfly, damselfly swarm\n\nCurrent positive prompt:\nscore_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dragonfly, (iridescent blue body:1.5), (four long transparent wings:1.4), (perched on a reed:1.3), (near a pond:1.2), (sunlight filtering through reeds:1.2), macro photography, (highly detailed:1.2), realistic insect anatomy, six legs, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo\n\nCurrent negative prompt:\ntext, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, butterfly, damselfly swarm\n\nReviewer score: 6.0/10\nReviewer issues:\n- The creature depicted is not a dragonfly.\n- It has features resembling both a bird and a fairy-like being.\nReviewer suggestions: Replace the creature with a realistic dragonfly and ensure its anatomy matches Odonata characteristics such as long bodies and transparent wings.\n",
+        "response": "{\n  \"positive\": \"score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dragonfly, (long slender abdomen:1.5), (two pairs of large transparent wings:1.4), (iridescent blue exoskeleton:1.5), (six segmented legs:1.3), (perched on a reed stalk:1.3), (near a freshwater pond:1.2), (dappled sunlight through tall reeds:1.2), macro photography, (extreme close-up:1.2), hyperrealistic insect anatomy, accurate Odonata morphology, photorealistic texture, shallow depth of field, natural color grading, wildlife documentary realism\",\n  \"negative\": \"butterfly, damselfly swarm, bird, avian, feathered, fairy, winged humanoid, mythical creature, fantasy, magical, glowing, sparkle, glitter, pastel colors, cute, kawaii, anthropomorphic, humanlike, standing upright, bipedal, clothing, accessories, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style\"\n}"
+      }
+    },
+    {
+      "n": 3,
+      "seed": 8801431934714622049,
+      "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dragonfly, (long slender abdomen:1.5), (two pairs of large transparent wings:1.4), (iridescent blue exoskeleton:1.5), (six segmented legs:1.3), (perched on a reed stalk:1.3), (near a freshwater pond:1.2), (dappled sunlight through tall reeds:1.2), macro photography, (extreme close-up:1.2), hyperrealistic insect anatomy, accurate Odonata morphology, photorealistic texture, shallow depth of field, natural color grading, wildlife documentary realism",
+      "negative": "butterfly, damselfly swarm, bird, avian, feathered, fairy, winged humanoid, mythical creature, fantasy, magical, glowing, sparkle, glitter, pastel colors, cute, kawaii, anthropomorphic, humanlike, standing upright, bipedal, clothing, accessories, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style",
+      "validator": {
+        "model": "validator",
+        "score": 6,
+        "pass": false,
+        "issues": [
+          "The creature is not a dragonfly but appears more like a hybrid between a dragonfly and another insect.",
+          "There's no visible text in the image."
+        ],
+        "suggestions": "Ensure the creature depicted matches the characteristics of a dragonfly as described by Odonata classification. Remove any textual elements from future images.",
+        "raw_request": "Concept the image must depict:\nSubject: dragonfly (vážka)\nDisambiguation: long-bodied insect with two pairs of large transparent wings (Odonata)\nDesired attributes: iridescent blue body, four long transparent wings, perched\nDesired setting: on a reed, near a pond, sunlight\nMust avoid: text, butterfly, damselfly swarm\n\nReview the attached image.",
+        "raw_response": "{\n  \"score\": 6,\n  \"pass\": false,\n  \"issues\": [\n    \"The creature is not a dragonfly but appears more like a hybrid between a dragonfly and another insect.\",\n    \"There's no visible text in the image.\"\n  ],\n  \"suggestions\": \"Ensure the creature depicted matches the characteristics of a dragonfly as described by Odonata classification. Remove any textual elements from future images.\"\n}"
       }
     }
   ]
