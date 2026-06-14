@@ -1,0 +1,65 @@
+style: pony-cartoon
+cards:
+    animal.crab:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, red crab, source_furry, (ten-legged_crustacean:1.4), (claws_raised:1.3), hard_shell, sandy_beach, shallow_seabed, (realistic_red_crab:1.5), (accurate_proportions:1.3), (crustacean_anatomy:1.2), detailed_exoskeleton, natural_colors, natural_pose, wildlife_photography_style, detailed_environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style, boiling_pot
+        seed: 6649324569477384382
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-13T13:20:15Z"
+    animal.dolphin:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dolphin, source_furry, (feral:1.25), (realistic animal anatomy:1.35), (detailed skin texture:1.3), (natural proportions:1.25), jumping, playful, blue-grey, ocean, clear water, sunlight, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, humans, aquarium tanks
+        seed: 307864062978825191
+        model: builder
+        iters: 1
+        updated_at: "2026-06-13T13:06:18Z"
+    animal.jellyfish:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, jellyfish, (translucent_jellyfish:1.5), (drifting_jellyfish:1.4), (tentacle_trailing:1.4), gelatinous_bell_shape, deep_blue_ocean, light_beams, ethereal, soft_focus, semi_transparent, gentle_diffusion, subtle_glow, delicate_veil, smooth_surface, flowing_motion, serene_atmosphere
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style
+        seed: 6296033694478911331
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-13T13:22:22Z"
+    animal.octopus:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, octopus, source_furry, (feral:1.25), (realistic animal anatomy:1.35), (detailed skin texture:1.3), (natural proportions:1.25), orange-red, tentacles spread, resting, ocean floor, coral, shallow water, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, cartoon, humans
+        seed: 1889249548157404346
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-13T13:11:21Z"
+    animal.sea_turtle:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, sea turtle, (green brown shell:1.6), (swimming gracefully:1.5), (sunlight rays through water:1.4), (coral reef background:1.3), (palm trees silhouette:1.2), moving flippers, large marine reptile, nesting behavior, beach sand, tropical ocean, turquoise water, vibrant colors, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, dynamic underwater pose, wildlife photography
+        negative: fishlike, reptilian face, smooth skin texture, metallic scales, cartoon fish, mermaid tail, human hands, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 2826306238569527279
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-13T13:18:05Z"
+    animal.seahorse:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Hippocampus, (seahorse:1.3), (vertical orientation:1.2), (bright yellow coloration:1.7), (suction cup attachment:1.4), clinging to seagrass, seagrass meadow, shallow coastal waters, crystal clear visibility, ultra realistic texture, macro photography detail, natural underwater light rays, tranquil marine ecosystem
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 9211060403356885704
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-13T13:17:30Z"
+    animal.shark:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, great white shark, source_furry, (feral:1.25), (realistic animal anatomy:1.35), (detailed skin texture:1.3), (natural proportions:1.25), swimming, mouth closed, powerful, ocean, blue water, underwater, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, mist, fog
+        seed: 6578498123289946930
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-13T13:10:01Z"
+    animal.whale:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, blue whale, (largest animal:1.5), (Balaenoptera musculus:1.4), (surfacing:1.3), (blowing spout:1.3), ocean surface, daylight, deep blue water, realistic whale anatomy, massive body length, streamlined shape, smooth thick skin, prominent blowhole, open mouth exhaling misty plume, gentle eye, accurate flipper placement, solitary, wildlife photography realism, ultra-detailed texture
+        negative: seal, seal features, whiskers, flippers as legs, short snout, carnivore teeth, marine predator, shark, fish, dolphin, human, boat, ship, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 6933985833559794025
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-13T13:12:05Z"

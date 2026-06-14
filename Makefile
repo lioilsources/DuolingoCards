@@ -5,8 +5,8 @@ SPARK_LLM := http://spark-99bb:8080
 SPARK_IMG := http://spark-99bb:8188
 
 # Models for the iterative image-tuning loop (OpenAI-compatible on $(SPARK_LLM)).
-VALIDATOR_MODEL := qwen-vl   # vision model that scores generated images
-BUILDER_MODEL   := nemotron  # instruct model that rewrites prompts
+VALIDATOR_MODEL := validator  # vision model that scores generated images
+BUILDER_MODEL   := builder    # instruct model that rewrites prompts
 TUNE_ITERS      := 4
 TUNE_SCORE      := 8
 

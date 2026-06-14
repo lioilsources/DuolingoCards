@@ -1,42 +1,41 @@
 style: pony-cartoon
 cards:
     insect.ant:
-        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (black ant:1.5), (Formica rufa:1.6), (three body segments:1.3), (carrying a leaf:1.4), glossy exoskeleton, segmented abdomen, six jointed legs, crawling on moist earth, near ground level, shallow depth of field, soft bokeh of distant ferns, realistic micro photography
-        negative: beetle, ladybug, grasshopper, cricket, termite, aphid, caterpillar, butterfly, moth, fly, bee, wasp, hornet, mantis, spider, scorpion, cockroach, cicada, locust, dragonfly, praying_mantis, flea, tick, worm, slug, snail, centipede, millipede, woodlouse, pill_bug, earwig, bed_bug, stink_bug, shield_bug, fire_fly, glow_worm, jellyfish, octopus, squid, fish, bird, reptile, mammal, human, dinosaur, mythical_creature, alien, robot, vehicle, building, sign, word, lettering, text_overlay, graffiti, logo, brand_name, watermark, signature, caption, label, arrow, icon, UI_element, frame, border, vignette, lens_flare, bloom, halo_effects, noise_grain, pixelated, jpeg_artifact, compression_artifacts
-        seed: 2123964723955702240
-        score: 2
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Formica rufa, (ant:1.6), (black ant:1.6), (three body segments:1.3), (carrying a leaf:1.4), tiny size, glossy exoskeleton, segmented abdomen, six jointed legs, crawling on damp soil, close to ground, shallow depth of field, soft bokeh of blurred green foliage
+        negative: pink, pink color, multiple body parts, extra limbs, extra segments, insect swarm, beetle, termite, wasp, hornet, ladybug, butterfly, moth, fly, mosquito, spider, worm, caterpillar, larva, pupa, egg, colony diagram, ant hill diagram, human, person, mannequin, humanoid, hand, fingers, palm, clothing, shoes, backpack, bag, tool, utensil, plant pot, flowerpot, garden decoration, illustration, drawing, diagram, label, sign, caption, text
+        seed: 7651877129063112464
         model: builder
-        iters: 3
-        updated_at: "2026-06-13T12:26:36Z"
+        iters: 4
+        updated_at: "2026-06-13T13:01:47Z"
     insect.bee:
-        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Apis mellifera, (honey bee:1.5), (yellow and black stripes:1.4), (translucent wings:1.3), (collecting pollen:1.2), macro photography, (highly detailed:1.2), six legs, realistic insect anatomy, (natural colors:1.3), semi-realistic, detailed environment, solo, on a yellow flower, garden, daylight
-        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, wasp, hornet
-        seed: 7823497951058440175
-        score: 8
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Apis mellifera, (single honey bee:1.6), (fuzzy body:1.5), (yellow and black stripes:1.5), (translucent wings:1.4), (collecting pollen:1.3), macro photography, highly detailed, six legs, realistic insect anatomy, natural colors, semi-realistic, detailed environment, solo, on a yellow flower, garden, daylight
+        negative: multiple heads, extra heads, double-headed, three-headed, two-headed
+        seed: 6435379518678757164
+        score: 6
         model: builder
-        iters: 2
-        updated_at: "2026-06-13T12:19:27Z"
+        iters: 4
+        updated_at: "2026-06-13T12:57:07Z"
     insect.butterfly:
-        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, monarch butterfly, (wings spread:1.6), (orange and black wing pattern:1.5), (detailed scale texture:1.4), macro photography, (intricate wing veins:1.3), (realistic antennae:1.2), high detail, vivid color contrast, sunlit meadow, lush green foliage, natural light, shallow depth of field
-        negative: bird, beak, tail feathers, avian, feathered, reptile, scaly skin, wings resembling birds, cartoonish, anime, chibi, tiny eyes, simplified shapes, low resolution, blur, text, watermark, signature, human hand, multiple insects
-        seed: 5334539290426545597
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, monarch butterfly, (wings spread:1.5), (large patterned scaled wings:1.6), orange and black wing pattern, detailed scale texture, intricate wing veins, realistic antennae, high detail, vivid color contrast, sunlit meadow, lush green foliage, natural light, shallow depth of field
+        negative: four wings, bird, beak, tail feathers, avian, feathered, reptile, scaly skin, wings resembling birds, cartoonish, anime, chibi, tiny eyes, simplified shapes, low resolution, blur, text, watermark, signature, human hand, multiple insects
+        seed: 634310450917510409
         score: 2
         model: builder
-        iters: 3
-        updated_at: "2026-06-13T12:17:53Z"
+        iters: 4
+        updated_at: "2026-06-13T12:57:45Z"
     insect.dragonfly:
         positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dragonfly, (long slender abdomen:1.5), (two pairs of large transparent wings:1.4), (iridescent blue exoskeleton:1.5), (six segmented legs:1.3), (perched on a reed stalk:1.3), (near a freshwater pond:1.2), (dappled sunlight through tall reeds:1.2), macro photography, (extreme close-up:1.2), hyperrealistic insect anatomy, accurate Odonata morphology, photorealistic texture, shallow depth of field, natural color grading, wildlife documentary realism
         negative: butterfly, damselfly swarm, bird, avian, feathered, fairy, winged humanoid, mythical creature, fantasy, magical, glowing, sparkle, glitter, pastel colors, cute, kawaii, anthropomorphic, humanlike, standing upright, bipedal, clothing, accessories, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
-        seed: 8801431934714622049
-        score: 6
+        seed: 863195962038440950
+        score: 8
         model: builder
-        iters: 3
-        updated_at: "2026-06-13T12:24:10Z"
+        iters: 1
+        updated_at: "2026-06-13T12:58:56Z"
     insect.ladybug:
         positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Coccinellidae, (ladybug:1.6), (small round red beetle:1.5), (glossy red domed shell:1.4), (black spots:1.3), glossy, on a fresh green leaf, garden, dew drops, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
         negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
-        seed: 895113662874171412
-        score: 6
+        seed: 6478237214504114878
+        score: 9
         model: builder
-        iters: 3
-        updated_at: "2026-06-13T12:21:48Z"
+        iters: 1
+        updated_at: "2026-06-13T12:58:20Z"

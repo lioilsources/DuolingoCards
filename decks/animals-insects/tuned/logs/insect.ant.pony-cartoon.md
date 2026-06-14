@@ -1,6 +1,6 @@
 # Tuning transcript — insect.ant [pony-cartoon]
 
-Result: 3 iteration(s), final score 2.0, passed=false, seed=2123964723955702240
+Result: 4 iteration(s), final score 0.0, passed=false, seed=7651877129063112464
 
 ## Target
 
@@ -12,23 +12,23 @@ Desired setting: on soil, close to the ground, blurred greenery
 Must avoid: text, other insects, ant hill diagram
 ```
 
-## Iteration 1 (seed 2126022169738805133)
+## Iteration 1 (seed 5439059446784586030)
 
 ### Prompt generated from
 
-**positive:** score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), black, three body segments, carrying a leaf, on soil, close to the ground, blurred greenery, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+**positive:** score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (black ant:1.5), (Formica rufa:1.6), (three body segments:1.3), (carrying a leaf:1.4), glossy exoskeleton, segmented abdomen, six jointed legs, crawling on moist earth, near ground level, shallow depth of field, soft bokeh of distant ferns, realistic micro photography
 
-**negative:** text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, other insects, ant hill diagram
+**negative:** beetle, ladybug, grasshopper, cricket, termite, aphid, caterpillar, butterfly, moth, fly, bee, wasp, hornet, mantis, spider, scorpion, cockroach, cicada, locust, dragonfly, praying_mantis, flea, tick, worm, slug, snail, centipede, millipede, woodlouse, pill_bug, earwig, bed_bug, stink_bug, shield_bug, fire_fly, glow_worm, jellyfish, octopus, squid, fish, bird, reptile, mammal, human, dinosaur, mythical_creature, alien, robot, vehicle, building, sign, word, lettering, text_overlay, graffiti, logo, brand_name, watermark, signature, caption, label, arrow, icon, UI_element, frame, border, vignette, lens_flare, bloom, halo_effects, noise_grain, pixelated, jpeg_artifact, compression_artifacts
 
 ### Validator (validator)
 
 score: **0.0**, pass: false
 
 issues:
-- The image depicts a giraffe instead of an ant
-- There is no leaf-carrying behavior depicted by any animal
+- The image depicts two human figures instead of ants.
+- There is no leaf being carried by any figure.
 
-suggestions: Replace the giraffe with an ant, ensure there's a leaf being carried, and adjust the background to match the desired setting.
+suggestions: Replace the human characters with ants, ensure they have distinct black coloration, show them as having three body segments each, and include a leaf near their feet.
 
 <details><summary>raw validator request</summary>
 
@@ -51,10 +51,10 @@ Review the attached image.
   "score": 0,
   "pass": false,
   "issues": [
-    "The image depicts a giraffe instead of an ant",
-    "There is no leaf-carrying behavior depicted by any animal"
+    "The image depicts two human figures instead of ants.",
+    "There is no leaf being carried by any figure."
   ],
-  "suggestions": "Replace the giraffe with an ant, ensure there's a leaf being carried, and adjust the background to match the desired setting."
+  "suggestions": "Replace the human characters with ants, ensure they have distinct black coloration, show them as having three body segments each, and include a leaf near their feet."
 }
 ```
 </details>
@@ -72,16 +72,16 @@ Desired setting: on soil, close to the ground, blurred greenery
 Must avoid: text, other insects, ant hill diagram
 
 Current positive prompt:
-score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (insect:1.2), (six legs:1.2), (realistic insect anatomy:1.3), macro photography, (highly detailed:1.2), black, three body segments, carrying a leaf, on soil, close to the ground, blurred greenery, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (black ant:1.5), (Formica rufa:1.6), (three body segments:1.3), (carrying a leaf:1.4), glossy exoskeleton, segmented abdomen, six jointed legs, crawling on moist earth, near ground level, shallow depth of field, soft bokeh of distant ferns, realistic micro photography
 
 Current negative prompt:
-text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, other insects, ant hill diagram
+beetle, ladybug, grasshopper, cricket, termite, aphid, caterpillar, butterfly, moth, fly, bee, wasp, hornet, mantis, spider, scorpion, cockroach, cicada, locust, dragonfly, praying_mantis, flea, tick, worm, slug, snail, centipede, millipede, woodlouse, pill_bug, earwig, bed_bug, stink_bug, shield_bug, fire_fly, glow_worm, jellyfish, octopus, squid, fish, bird, reptile, mammal, human, dinosaur, mythical_creature, alien, robot, vehicle, building, sign, word, lettering, text_overlay, graffiti, logo, brand_name, watermark, signature, caption, label, arrow, icon, UI_element, frame, border, vignette, lens_flare, bloom, halo_effects, noise_grain, pixelated, jpeg_artifact, compression_artifacts
 
 Reviewer score: 0.0/10
 Reviewer issues:
-- The image depicts a giraffe instead of an ant
-- There is no leaf-carrying behavior depicted by any animal
-Reviewer suggestions: Replace the giraffe with an ant, ensure there's a leaf being carried, and adjust the background to match the desired setting.
+- The image depicts two human figures instead of ants.
+- There is no leaf being carried by any figure.
+Reviewer suggestions: Replace the human characters with ants, ensure they have distinct black coloration, show them as having three body segments each, and include a leaf near their feet.
 
 ```
 </details>
@@ -90,19 +90,98 @@ Reviewer suggestions: Replace the giraffe with an ant, ensure there's a leaf bei
 
 ```
 {
-  "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (small insect:1.2), (three body segments:1.3), (carrying a leaf:1.4), black exoskeleton, six slender legs, crawling on damp soil, close to the ground, blurred green foliage background, semi-realistic texture, detailed surface patterns, natural color palette, photorealistic macro perspective, subtle depth of field",
-  "negative": "giraffe, tall animal, long neck, leaves not held, no leaf interaction, text overlay, watercolor effect, illustration style, drawing lines, cartoon outline, coloring book art, lineart, pastel wash, digital painting brush strokes, marker bleed, crayon scribble, clipart silhouette, vector graphic, flat design, simple shapes, geometric forms, minimalist composition, stylized rendering, exaggerated proportions, whimsical theme, fantasy elements"
+    "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (small ant:1.5), (black ant:1.5), (three body segments:1.3) per ant, (carrying a leaf:1.4) near feet, glossy exoskeleton, segmented abdomen, six jointed legs, crawling on moist earth, near ground level, shallow depth of field, soft bokeh of distant ferns, realistic micro photography",
+    "negative": ""
 }
 ```
 </details>
 
-## Iteration 2 (seed 2765115382095320279)
+## Iteration 2 (seed 1814201605949804502)
 
 ### Prompt generated from
 
-**positive:** score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (small insect:1.2), (three body segments:1.3), (carrying a leaf:1.4), black exoskeleton, six slender legs, crawling on damp soil, close to the ground, blurred green foliage background, semi-realistic texture, detailed surface patterns, natural color palette, photorealistic macro perspective, subtle depth of field
+**positive:** score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (small ant:1.5), (black ant:1.5), (three body segments:1.3) per ant, (carrying a leaf:1.4) near feet, glossy exoskeleton, segmented abdomen, six jointed legs, crawling on moist earth, near ground level, shallow depth of field, soft bokeh of distant ferns, realistic micro photography
 
-**negative:** giraffe, tall animal, long neck, leaves not held, no leaf interaction, text overlay, watercolor effect, illustration style, drawing lines, cartoon outline, coloring book art, lineart, pastel wash, digital painting brush strokes, marker bleed, crayon scribble, clipart silhouette, vector graphic, flat design, simple shapes, geometric forms, minimalist composition, stylized rendering, exaggerated proportions, whimsical theme, fantasy elements
+### Validator (validator)
+
+score: **2.0**, pass: false
+
+issues:
+- The image depicts a human figure holding leaves rather than an ant
+- There is no ant present in the image
+
+suggestions: Replace the human figure with an ant, ensure the ant has the characteristic black coloration and three body segments.
+
+<details><summary>raw validator request</summary>
+
+```
+Concept the image must depict:
+Subject: ant (mravenec)
+Disambiguation: small social insect that lives in colonies (Formicidae)
+Desired attributes: black, three body segments, carrying a leaf
+Desired setting: on soil, close to the ground, blurred greenery
+Must avoid: text, other insects, ant hill diagram
+
+Review the attached image.
+```
+</details>
+
+<details><summary>raw validator response</summary>
+
+```
+{
+  "score": 2,
+  "pass": false,
+  "issues": [
+    "The image depicts a human figure holding leaves rather than an ant",
+    "There is no ant present in the image"
+  ],
+  "suggestions": "Replace the human figure with an ant, ensure the ant has the characteristic black coloration and three body segments."
+}
+```
+</details>
+
+### Builder (builder) → refined prompt
+
+<details><summary>raw builder request</summary>
+
+```
+Concept the image must depict:
+Subject: ant (mravenec)
+Disambiguation: small social insect that lives in colonies (Formicidae)
+Desired attributes: black, three body segments, carrying a leaf
+Desired setting: on soil, close to the ground, blurred greenery
+Must avoid: text, other insects, ant hill diagram
+
+Current positive prompt:
+score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (small ant:1.5), (black ant:1.5), (three body segments:1.3) per ant, (carrying a leaf:1.4) near feet, glossy exoskeleton, segmented abdomen, six jointed legs, crawling on moist earth, near ground level, shallow depth of field, soft bokeh of distant ferns, realistic micro photography
+
+Reviewer score: 2.0/10
+Reviewer issues:
+- The image depicts a human figure holding leaves rather than an ant
+- There is no ant present in the image
+Reviewer suggestions: Replace the human figure with an ant, ensure the ant has the characteristic black coloration and three body segments.
+
+```
+</details>
+
+<details><summary>raw builder response</summary>
+
+```
+{
+  "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Formica rufa, (ant:1.5), (black ant:1.5), (three body segments:1.3), (carrying a leaf:1.4), tiny size, glossy exoskeleton, segmented abdomen, six jointed legs, crawling on damp soil, close to ground, shallow depth of field, soft bokeh of blurred green foliage",
+  "negative": "human, person, mannequin, humanoid, hand, fingers, palm, clothing, shoes, backpack, bag, tool, utensil, plant pot, flowerpot, garden decoration, illustration, drawing, diagram, label, sign, caption, text"
+}
+```
+</details>
+
+## Iteration 3 (seed 142517395788680995)
+
+### Prompt generated from
+
+**positive:** score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Formica rufa, (ant:1.5), (black ant:1.5), (three body segments:1.3), (carrying a leaf:1.4), tiny size, glossy exoskeleton, segmented abdomen, six jointed legs, crawling on damp soil, close to ground, shallow depth of field, soft bokeh of blurred green foliage
+
+**negative:** human, person, mannequin, humanoid, hand, fingers, palm, clothing, shoes, backpack, bag, tool, utensil, plant pot, flowerpot, garden decoration, illustration, drawing, diagram, label, sign, caption, text
 
 ### Validator (validator)
 
@@ -110,9 +189,10 @@ score: **2.0**, pass: false
 
 issues:
 - The subject is not an ant
-- The coloration does not match typical ants
+- The color is pink instead of black
+- There are multiple body segments, which isn't typical for ants
 
-suggestions: Replace the beetle-like creature with an actual ant species from Formicidae family.
+suggestions: Replace the subject with an actual ant from Formicidae family.
 
 <details><summary>raw validator request</summary>
 
@@ -136,9 +216,10 @@ Review the attached image.
   "pass": false,
   "issues": [
     "The subject is not an ant",
-    "The coloration does not match typical ants"
+    "The color is pink instead of black",
+    "There are multiple body segments, which isn't typical for ants"
   ],
-  "suggestions": "Replace the beetle-like creature with an actual ant species from Formicidae family."
+  "suggestions": "Replace the subject with an actual ant from Formicidae family."
 }
 ```
 </details>
@@ -156,16 +237,17 @@ Desired setting: on soil, close to the ground, blurred greenery
 Must avoid: text, other insects, ant hill diagram
 
 Current positive prompt:
-score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (small insect:1.2), (three body segments:1.3), (carrying a leaf:1.4), black exoskeleton, six slender legs, crawling on damp soil, close to the ground, blurred green foliage background, semi-realistic texture, detailed surface patterns, natural color palette, photorealistic macro perspective, subtle depth of field
+score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Formica rufa, (ant:1.5), (black ant:1.5), (three body segments:1.3), (carrying a leaf:1.4), tiny size, glossy exoskeleton, segmented abdomen, six jointed legs, crawling on damp soil, close to ground, shallow depth of field, soft bokeh of blurred green foliage
 
 Current negative prompt:
-giraffe, tall animal, long neck, leaves not held, no leaf interaction, text overlay, watercolor effect, illustration style, drawing lines, cartoon outline, coloring book art, lineart, pastel wash, digital painting brush strokes, marker bleed, crayon scribble, clipart silhouette, vector graphic, flat design, simple shapes, geometric forms, minimalist composition, stylized rendering, exaggerated proportions, whimsical theme, fantasy elements
+human, person, mannequin, humanoid, hand, fingers, palm, clothing, shoes, backpack, bag, tool, utensil, plant pot, flowerpot, garden decoration, illustration, drawing, diagram, label, sign, caption, text
 
 Reviewer score: 2.0/10
 Reviewer issues:
 - The subject is not an ant
-- The coloration does not match typical ants
-Reviewer suggestions: Replace the beetle-like creature with an actual ant species from Formicidae family.
+- The color is pink instead of black
+- There are multiple body segments, which isn't typical for ants
+Reviewer suggestions: Replace the subject with an actual ant from Formicidae family.
 
 ```
 </details>
@@ -174,29 +256,29 @@ Reviewer suggestions: Replace the beetle-like creature with an actual ant specie
 
 ```
 {
-  "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (black ant:1.5), (Formica rufa:1.6), (three body segments:1.3), (carrying a leaf:1.4), glossy exoskeleton, segmented abdomen, six jointed legs, crawling on moist earth, near ground level, shallow depth of field, soft bokeh of distant ferns, realistic micro photography",
-  "negative": "beetle, ladybug, grasshopper, cricket, termite, aphid, caterpillar, butterfly, moth, fly, bee, wasp, hornet, mantis, spider, scorpion, cockroach, cicada, locust, dragonfly, praying_mantis, flea, tick, worm, slug, snail, centipede, millipede, woodlouse, pill_bug, earwig, bed_bug, stink_bug, shield_bug, fire_fly, glow_worm, jellyfish, octopus, squid, fish, bird, reptile, mammal, human, dinosaur, mythical_creature, alien, robot, vehicle, building, sign, word, lettering, text_overlay, graffiti, logo, brand_name, watermark, signature, caption, label, arrow, icon, UI_element, frame, border, vignette, lens_flare, bloom, halo_effects, noise_grain, pixelated, jpeg_artifact, compression_artifacts"
+  "positive": "score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Formica rufa, (ant:1.6), (black ant:1.6), (three body segments:1.3), (carrying a leaf:1.4), tiny size, glossy exoskeleton, segmented abdomen, six jointed legs, crawling on damp soil, close to ground, shallow depth of field, soft bokeh of blurred green foliage",
+  "negative": "pink, pink color, multiple body parts, extra limbs, extra segments, insect swarm, beetle, termite, wasp, hornet, ladybug, butterfly, moth, fly, mosquito, spider, worm, caterpillar, larva, pupa, egg, colony diagram, ant hill diagram, human, person, mannequin, humanoid, hand, fingers, palm, clothing, shoes, backpack, bag, tool, utensil, plant pot, flowerpot, garden decoration, illustration, drawing, diagram, label, sign, caption, text"
 }
 ```
 </details>
 
-## Iteration 3 (seed 2123964723955702240)
+## Iteration 4 (seed 7651877129063112464)
 
 ### Prompt generated from
 
-**positive:** score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ant, (black ant:1.5), (Formica rufa:1.6), (three body segments:1.3), (carrying a leaf:1.4), glossy exoskeleton, segmented abdomen, six jointed legs, crawling on moist earth, near ground level, shallow depth of field, soft bokeh of distant ferns, realistic micro photography
+**positive:** score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Formica rufa, (ant:1.6), (black ant:1.6), (three body segments:1.3), (carrying a leaf:1.4), tiny size, glossy exoskeleton, segmented abdomen, six jointed legs, crawling on damp soil, close to ground, shallow depth of field, soft bokeh of blurred green foliage
 
-**negative:** beetle, ladybug, grasshopper, cricket, termite, aphid, caterpillar, butterfly, moth, fly, bee, wasp, hornet, mantis, spider, scorpion, cockroach, cicada, locust, dragonfly, praying_mantis, flea, tick, worm, slug, snail, centipede, millipede, woodlouse, pill_bug, earwig, bed_bug, stink_bug, shield_bug, fire_fly, glow_worm, jellyfish, octopus, squid, fish, bird, reptile, mammal, human, dinosaur, mythical_creature, alien, robot, vehicle, building, sign, word, lettering, text_overlay, graffiti, logo, brand_name, watermark, signature, caption, label, arrow, icon, UI_element, frame, border, vignette, lens_flare, bloom, halo_effects, noise_grain, pixelated, jpeg_artifact, compression_artifacts
+**negative:** pink, pink color, multiple body parts, extra limbs, extra segments, insect swarm, beetle, termite, wasp, hornet, ladybug, butterfly, moth, fly, mosquito, spider, worm, caterpillar, larva, pupa, egg, colony diagram, ant hill diagram, human, person, mannequin, humanoid, hand, fingers, palm, clothing, shoes, backpack, bag, tool, utensil, plant pot, flowerpot, garden decoration, illustration, drawing, diagram, label, sign, caption, text
 
 ### Validator (validator)
 
-score: **2.0**, pass: false
+score: **0.0**, pass: false
 
 issues:
-- The image depicts human figures instead of ants.
-- There is no leaf being carried by any figure.
+- The image depicts two human figures embracing rather than an ant.
+- There is no visible leaf being carried by any creature.
 
-suggestions: Replace humans with ants, ensure they have a leaf in their mouth, and adjust the background to show them on soil near the ground with blurred greenery.
+suggestions: Replace the human figures with ants, ensure they have three body segments and carry a leaf, set them on soil near the ground with blurred greenery in the background.
 
 <details><summary>raw validator request</summary>
 
@@ -216,13 +298,13 @@ Review the attached image.
 
 ```
 {
-  "score": 2,
+  "score": 0,
   "pass": false,
   "issues": [
-    "The image depicts human figures instead of ants.",
-    "There is no leaf being carried by any figure."
+    "The image depicts two human figures embracing rather than an ant.",
+    "There is no visible leaf being carried by any creature."
   ],
-  "suggestions": "Replace humans with ants, ensure they have a leaf in their mouth, and adjust the background to show them on soil near the ground with blurred greenery."
+  "suggestions": "Replace the human figures with ants, ensure they have three body segments and carry a leaf, set them on soil near the ground with blurred greenery in the background."
 }
 ```
 </details>
