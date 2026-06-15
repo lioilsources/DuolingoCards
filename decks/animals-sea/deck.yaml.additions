@@ -1,0 +1,314 @@
+  - key: animal.lobster
+    hint: large clawed marine crustacean (Homarus americanus / Homarus gammarus)
+    image: animal.lobster.png
+    brief:
+      subject: Atlantic lobster
+      attrs: [dark blue-brown, large claws, segmented, walking on sea floor]
+      setting: [rocky ocean floor, dim blue-green light, underwater]
+      avoid: [text, cooked red lobster, crab, humans]
+
+  - key: animal.shrimp
+    hint: small transparent marine crustacean (Penaeidae / Caridea)
+    image: animal.shrimp.png
+    brief:
+      subject: transparent shrimp
+      attrs: [translucent, slender, segmented, long antennae, swimming]
+      setting: [coral reef, clear blue water, underwater]
+      avoid: [text, cooked, lobster, crab, humans]
+
+  - key: animal.starfish
+    hint: five-armed echinoderm living on the sea floor (Asteroidea)
+    image: animal.starfish.png
+    brief:
+      subject: red starfish
+      attrs: [vivid orange-red, five arms, textured bumpy surface, on rock]
+      setting: [tidal pool or reef, clear water, wet rock]
+      avoid: [text, humans, sand dollar, other sea creatures]
+
+  - key: animal.sea_urchin
+    hint: spiny globular echinoderm on the sea floor (Echinoidea)
+    image: animal.sea_urchin.png
+    brief:
+      subject: purple sea urchin
+      attrs: [spiny globe, vivid purple or red, long spines, resting on reef]
+      setting: [coral reef or rocky sea floor, clear water, underwater]
+      avoid: [text, starfish, humans, cooked]
+
+  - key: animal.clownfish
+    hint: small orange fish with white bands living with sea anemones (Amphiprioninae)
+    image: animal.clownfish.png
+    brief:
+      subject: clownfish in anemone
+      attrs: [vivid orange, white bands with black border, swimming in pink anemone tentacles]
+      setting: [tropical coral reef, blue water, sea anemone]
+      avoid: [text, other fish, humans]
+
+  - key: animal.seal
+    hint: flippered marine mammal that sunbathes on rocks (Phoca vitulina)
+    image: animal.seal.png
+    brief:
+      subject: harbour seal
+      attrs: [grey spotted, large round eyes, no visible ear flap, resting on rock]
+      setting: [coastal rock, grey-blue sea, overcast sky]
+      avoid: [text, sea lion, walrus, humans]
+
+  - key: animal.walrus
+    hint: large Arctic marine mammal with long ivory tusks and whiskers (Odobenus rosmarus)
+    image: animal.walrus.png
+    brief:
+      subject: walrus
+      attrs: [massive, pink-grey wrinkled skin, long ivory tusks, bristly whiskers, hauled out on ice]
+      setting: [Arctic ice floe, cold grey sea, overcast sky]
+      avoid: [text, seal, sea lion, humans]
+
+  - key: animal.orca
+    hint: killer whale, the largest dolphin, with distinctive black and white markings (Orcinus orca)
+    image: animal.orca.png
+    brief:
+      subject: orca killer whale
+      attrs: [glossy black, white eye patch, white belly, tall dorsal fin, breaching]
+      setting: [open ocean, spray, dramatic sky]
+      avoid: [text, humans, aquarium pool, dolphin]
+
+  - key: animal.narwhal
+    hint: Arctic whale with a long spiral ivory tusk (Monodon monoceros)
+    image: animal.narwhal.png
+    brief:
+      subject: narwhal
+      attrs: [grey with dark spots, long spiral tusk on male, swimming, Arctic waters]
+      setting: [Arctic ocean, ice floes, grey-blue water]
+      avoid: [text, unicorn, humans, aquarium]
+
+  - key: animal.manatee
+    hint: slow gentle sea cow, a large herbivorous marine mammal (Trichechus)
+    image: animal.manatee.png
+    brief:
+      subject: West Indian manatee
+      attrs: [large, rotund, grey-brown, paddle-shaped tail, browsing on seagrass, gentle]
+      setting: [shallow tropical sea, seagrass meadow, clear warm water]
+      avoid: [text, dugong, dolphin, humans]
+
+  - key: animal.sea_lion
+    hint: eared seal with external ear flaps that can walk on flippers (Otariinae)
+    image: animal.sea_lion.png
+    brief:
+      subject: California sea lion
+      attrs: [sleek dark brown, visible ear flap, long neck, upright pose, whiskers, intelligent eyes]
+      setting: [rocky coastline, breaking waves, overcast sky]
+      avoid: [text, seal, walrus, zoo, humans]
+
+  - key: animal.manta_ray
+    hint: huge flat cartilaginous fish that filter-feeds plankton (Manta birostris)
+    image: animal.manta_ray.png
+    brief:
+      subject: oceanic manta ray
+      attrs: [enormous flat black and white wings, wide mouth, graceful gliding, underwater]
+      setting: [deep blue open ocean, shafts of sunlight, underwater view]
+      avoid: [text, stingray, shark, humans]
+
+  - key: animal.swordfish
+    hint: large fast-swimming fish with a long pointed sword-like bill (Xiphias gladius)
+    image: animal.swordfish.png
+    brief:
+      subject: swordfish
+      attrs: [sleek, silver-blue, long flat pointed bill, crescent tail, leaping]
+      setting: [open ocean surface, spray, blue sky]
+      avoid: [text, marlin, sailfish, humans]
+
+  - key: animal.tuna
+    hint: fast torpedo-shaped ocean fish, commercially important (Thunnus)
+    image: animal.tuna.png
+    brief:
+      subject: bluefin tuna
+      attrs: [torpedo-shaped, dark blue back, silver belly, small finlets along tail, swimming fast]
+      setting: [open ocean, deep blue water, school visible]
+      avoid: [text, cooked, swordfish, humans]
+
+  - key: animal.salmon
+    hint: migratory fish that returns from the sea to freshwater rivers to spawn (Salmo salar)
+    image: animal.salmon.png
+    brief:
+      subject: Atlantic salmon leaping up a waterfall
+      attrs: [silver-pink, muscular, leaping mid-air, water droplets]
+      setting: [rocky river waterfall, spray, forest]
+      avoid: [text, trout, cooked, humans]
+
+  - key: animal.eel
+    hint: long snake-like fish (Anguilla anguilla), the European eel
+    image: animal.eel.png
+    brief:
+      subject: European eel
+      attrs: [long sinuous body, dark olive-brown, small pectoral fins, undulating]
+      setting: [muddy river bottom or seagrass, dim underwater light]
+      avoid: [text, sea snake, moray eel, electric eel, humans]
+
+  - key: animal.squid
+    hint: fast-swimming cephalopod with ten arms and jets of ink (Loligo)
+    image: animal.squid.png
+    brief:
+      subject: common squid
+      attrs: [torpedo-shaped, translucent, iridescent, ten tentacles, fins at rear]
+      setting: [dark ocean, bioluminescent glow, underwater]
+      avoid: [text, octopus, cuttlefish, humans]
+
+  - key: animal.nautilus
+    hint: ancient shelled cephalopod, a living fossil (Nautilus pompilius)
+    image: animal.nautilus.png
+    brief:
+      subject: nautilus
+      attrs: [white and orange striped spiral shell, tentacles emerging, floating, deep sea]
+      setting: [dark deep ocean, soft bioluminescence, underwater]
+      avoid: [text, ammonite, snail, humans]
+
+  - key: animal.clam
+    hint: bivalve mollusc living buried in sand on the sea floor (Bivalvia)
+    image: animal.clam.png
+    brief:
+      subject: giant clam
+      attrs: [huge ribbed shell, vivid iridescent blue-purple mantle, partially open]
+      setting: [shallow tropical reef, clear water, coral around]
+      avoid: [text, oyster, mussel, humans, cooked]
+
+  - key: animal.oyster
+    hint: bivalve mollusc living on coastal rocks and reefs (Ostrea)
+    image: animal.oyster.png
+    brief:
+      subject: oyster on reef
+      attrs: [rough grey irregular shell, partially open, glistening inside, clustered]
+      setting: [rocky tidal zone, sea water, algae]
+      avoid: [text, clam, mussel, humans, cooked]
+
+  - key: animal.mussel
+    hint: dark-shelled bivalve mollusc found in clusters on rocks (Mytilus)
+    image: animal.mussel.png
+    brief:
+      subject: blue mussels on rock
+      attrs: [smooth dark blue-black shells, oval, clustered tightly on rock, byssus threads]
+      setting: [rocky intertidal zone, wave splash, green algae]
+      avoid: [text, oyster, clam, humans, cooked]
+
+  - key: animal.sea_anemone
+    hint: flower-like colonial marine animal attached to rocks (Actiniaria)
+    image: animal.sea_anemone.png
+    brief:
+      subject: sea anemone
+      attrs: [vivid orange or pink, waving tentacles, flower-like, attached to rock]
+      setting: [coral reef, clear water, underwater, colourful background]
+      avoid: [text, coral, jellyfish, humans]
+
+  - key: animal.stingray
+    hint: flat cartilaginous fish with a venomous barbed tail (Dasyatidae)
+    image: animal.stingray.png
+    brief:
+      subject: blue-spotted stingray
+      attrs: [flat disc-shaped body, vivid blue spots, long thin tail with barb, gliding over sand]
+      setting: [sandy sea floor, tropical shallow water, shafts of light, underwater]
+      avoid: [text, manta ray, shark, humans]
+
+  - key: animal.hammerhead_shark
+    hint: shark with a distinctive hammer-shaped head (Sphyrna)
+    image: animal.hammerhead_shark.png
+    brief:
+      subject: great hammerhead shark
+      attrs: [hammer-shaped head, grey, streamlined, swimming, dark fin above]
+      setting: [open ocean, blue water, from below looking up, schools of fish]
+      avoid: [text, great white shark, humans, blood]
+
+  - key: animal.beluga_whale
+    hint: small white Arctic whale with a bulging forehead (Delphinapterus leucas)
+    image: animal.beluga_whale.png
+    brief:
+      subject: beluga whale
+      attrs: [pure white, bulging round forehead (melon), no dorsal fin, smiling expression, surfacing]
+      setting: [Arctic sea, grey-blue water, ice floes in background]
+      avoid: [text, narwhal, orca, humans, aquarium]
+
+  - key: animal.puffer_fish
+    hint: fish that inflates itself into a spiny ball as a defence (Tetraodontidae)
+    image: animal.puffer_fish.png
+    brief:
+      subject: puffer fish inflated
+      attrs: [round, inflated to sphere, yellow with dark spots, spines raised, pop-eyed]
+      setting: [coral reef, clear blue water, underwater]
+      avoid: [text, blowfish deflated, other fish, humans]
+
+  - key: animal.anglerfish
+    hint: deep-sea fish with a glowing lure dangling from its head (Lophiiformes)
+    image: animal.anglerfish.png
+    brief:
+      subject: deep-sea anglerfish
+      attrs: [huge gaping mouth, sharp teeth, glowing bioluminescent lure, ugly, dark]
+      setting: [black deep ocean, bioluminescent light, total darkness background]
+      avoid: [text, humans, cartoon, other fish]
+
+  - key: animal.sea_cucumber
+    hint: soft-bodied cylindrical echinoderm on the sea floor (Holothuroidea)
+    image: animal.sea_cucumber.png
+    brief:
+      subject: sea cucumber
+      attrs: [elongated, soft, wrinkled, brownish, resting on sea floor]
+      setting: [coral reef or sandy sea floor, clear water, underwater]
+      avoid: [text, worm, slug, humans, cooked]
+
+  - key: animal.sea_slug
+    hint: colourful shell-less marine mollusc (Nudibranchia)
+    image: animal.sea_slug.png
+    brief:
+      subject: nudibranch sea slug
+      attrs: [vivid colours, orange and purple, branched cerata on back, slow moving]
+      setting: [coral reef, close-up macro, clear water, colourful coral background]
+      avoid: [text, land slug, other molluscs, humans]
+
+  - key: animal.barnacle
+    hint: sessile crustacean that attaches permanently to rocks and ships (Cirripedia)
+    image: animal.barnacle.png
+    brief:
+      subject: acorn barnacles on rock
+      attrs: [clusters of white conical shells, barnacle plates visible, on wet dark rock]
+      setting: [tidal rock, crashing waves, sea spray, macro]
+      avoid: [text, oyster, mussel, humans]
+
+  - key: animal.sea_otter
+    hint: marine mammal that floats on its back and uses rocks as tools (Enhydra lutris)
+    image: animal.sea_otter.png
+    brief:
+      subject: sea otter floating on back
+      attrs: [thick brown fur, floating on back, holding food on chest, cute round face, whiskers]
+      setting: [kelp forest, ocean surface, Pacific coast]
+      avoid: [text, river otter, humans, zoo]
+
+  - key: animal.dugong
+    hint: sea cow closely related to the manatee but with a forked tail (Dugong dugon)
+    image: animal.dugong.png
+    brief:
+      subject: dugong
+      attrs: [large, grey, dolphin-like forked tail, small flippers, browsing on seagrass]
+      setting: [shallow warm tropical sea, seagrass meadow, clear water]
+      avoid: [text, manatee, dolphin, humans]
+
+  - key: animal.lionfish
+    hint: venomous Pacific fish with dramatic striped fan-like spines (Pterois)
+    image: animal.lionfish.png
+    brief:
+      subject: red lionfish
+      attrs: [vivid red and white stripes, fan of venomous spines, flowing pectoral fins, hovering]
+      setting: [coral reef, dark background, dramatic lighting, underwater]
+      avoid: [text, other fish, humans, scorpionfish]
+
+  - key: animal.moray_eel
+    hint: large eel-like fish hiding in reef crevices with fearsome teeth (Muraenidae)
+    image: animal.moray_eel.png
+    brief:
+      subject: green moray eel
+      attrs: [long, muscular, vivid green, mouth slightly open showing teeth, peering from hole]
+      setting: [coral reef, rocky crevice, clear tropical water]
+      avoid: [text, sea snake, other eels, humans]
+
+  - key: animal.horseshoe_crab
+    hint: ancient armoured marine arthropod, a living fossil (Limulus polyphemus)
+    image: animal.horseshoe_crab.png
+    brief:
+      subject: horseshoe crab
+      attrs: [dome-shaped brown carapace, ten legs, long spike tail, walking on sand]
+      setting: [sandy beach at tide line, shallow water, dawn or dusk]
+      avoid: [text, crab, spider, humans]

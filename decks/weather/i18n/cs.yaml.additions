@@ -1,0 +1,199 @@
+  weather.hailing:
+    label: krupobití
+    summary: Srážky padající jako pevné kuličky ledu.
+    info: Krupobití vzniká, když kapky vody v bouřkách zmrznou a padají jako ledové kuličky. Průměr krup se pohybuje od milimetru po desítky centimetrů; velké krupy ničí úrodu a automobily.
+
+  weather.thunderstorm:
+    label: bouřka
+    summary: Prudká bouře s blesky, hromem a silným deštěm.
+    info: Bouřka vzniká v bouřkových mracích (cumulonimbu) dosahujících výšky 15 km. Blesk je elektrický výboj mezi mrakem a zemí nebo uvnitř mraku. V každou sekundu udeří na Zemi přibližně 100 blesků.
+
+  weather.lightning:
+    label: blesk
+    summary: Oslnivý elektrický výboj mezi mrakem a zemí.
+    info: Blesk je elektrický výboj s proudem přes 30 000 ampérů a teplotou až 30 000 K – pětkrát více než povrch Slunce. Zvuk hromu je způsoben rychlým zahřátím vzduchu kolem blesku.
+
+  weather.frosty:
+    label: mrazivý (jinovatka)
+    summary: Jemné ledové krystaly pokrývající povrchy za chladných nocí.
+    info: Jinovatka tvoří sublimací vodní páry přímo na povrchy, jejichž teplota klesla pod bod mrazu. Tvoří nádherné krystalické vzory na listech, pavučinách a oknech.
+
+  weather.icy:
+    label: ledový (náledí)
+    summary: Povrchy pokryté vrstvou nebezpečného kluzáku ledu.
+    info: Náledí vzniká zmrznutím deště nebo oblátí na studených površích. Je jednou z nejnebezpečnějších zimních podmínek pro chodce i řidiče. Jen tenká průhledná vrstva ledhu – tzv. „black ice" – je neviditelná.
+
+  weather.humid:
+    label: vlhký vzduch
+    summary: Vzduch nasycený vodní párou, dusný a těžký.
+    info: Relativní vlhkost 100 % znamená, že vzduch je plně nasycen vodní párou. Vlhký horký vzduch je subjektivně nepříjemnější než suchý stejné teploty, protože pot se neodpařuje. Tropické podnebí bývá trvale velmi vlhké.
+
+  weather.hot:
+    label: horko
+    summary: Velmi vysoká teplota vzduchu, parné vedro.
+    info: Rekordní zaznamenaná teplota vzduchu je 56,7 °C (Údolí smrti, USA, 1913). Vedro je zdravotním rizikem: přehřátí (úpal) ohrožuje starší lidi a malé děti. Vlny horka jsou stále intenzivnější vlivem klimatické změny.
+
+  weather.cold:
+    label: chlad
+    summary: Velmi nízká teplota vzduchu, mrazivé podmínky.
+    info: Rekordní naměřená teplota vzduchu na Zemi je −89,2 °C (Antarktida, 1983). Chlad zpomaluje chemické reakce a tím i biologické procesy. „Wind chill" – pocitová teplota – je nižší než skutečná při silném větru.
+
+  weather.tornado:
+    label: tornádo
+    summary: Rychle rotující vzdušný sloupec spojující mrak se zemí.
+    info: Tornádo je nejsilnějším přechodovým jevem na Zemi; nejsilnější (F5) mají rychlost větru přes 500 km/h. Nejčastěji se vyskytují v USA v „Tornado Alley". Způsobují obrovské materiální škody, ale jsou krátkodobé.
+
+  weather.hurricane:
+    label: hurikán
+    summary: Obří tropická cyklóna s větry přes 119 km/h.
+    info: Hurikán (v Pacifiku tajfun, v Indickém oceánu cyklón) je rotující bouřkový systém s okem v centru. Energie hurikánu se rovná tisícům jaderných bomb. Kategorii 1–5 určuje Saffirova–Simpsonova stupnice.
+
+  weather.blizzard:
+    label: sněhová bouře
+    summary: Silná sněhová bouře s viditelností téměř nulovou.
+    info: Blizzard je definován větrem přes 56 km/h a sněžením snižujícím viditelnost pod 400 m po dobu 3+ hodin. Nejsilnější blizzardy jsou zaznamenávány v kanadské prérii a na severu USA. Mohou paralyzovat celá města.
+
+  weather.heatwave:
+    label: vlna horka
+    summary: Prodloužené období abnormálně vysokých teplot.
+    info: Vlna horka je definována jako nejméně 3 dny teplot přesahujících klimatický průměr o 5 °C. Jsou jedněmi z nejsmrtelnějších přírodních jevů; vlna horka v Evropě 2003 zabila přes 70 000 lidí.
+
+  weather.drought:
+    label: sucho
+    summary: Dlouhé období bez srážek způsobující nedostatek vody.
+    info: Sucho je deficitem srážek v porovnání s průměrem za dostatečně dlouhé období. Zemědělské sucho postihuje úrody, hydrologické sucho mění průtoky řek. Klimatická změna prodlužuje a prohlubuje sucha.
+
+  weather.flood:
+    label: záplava
+    summary: Voda pokrývající jinak suchou zemi při povodních.
+    info: Záplavy jsou nejčastější přírodní katastrofou na světě. Vznikají přívalovými srážkami, táním sněhu nebo přeplněním řek. Floodplain (říční niva) je přirozené místo záplav – zastavování niv záplavy zesiluje.
+
+  weather.sandstorm:
+    label: písečná bouře
+    summary: Zeď písku a prachu unášená silnými pouštními větry.
+    info: Písečné bouře (haboob) mohou dosáhnout výšky 1,5 km a pohřbít vesnice pod metry písku. Jsou typické pro Saharu, Arabský poloostrov a asijské pouště. Přenášejí prach tisíce kilometrů – saharský prach dosáhl i na Kanárské ostrovy.
+
+  weather.partly_cloudy:
+    label: polojasno
+    summary: Směs slunce a mraků, obloha částečně zatažená.
+    info: Polojasno je meteorologický termín pro 3/8–4/8 pokrytí oblohy mraky. Je to nejběžnější typ počasí v mírném pásu. Částečné mraky snižují úpal a zároveň umožňují sluneční záření.
+
+  weather.overcast:
+    label: zataženo
+    summary: Obloha zcela pokrytá šedými mraky, bez slunce.
+    info: Úplná oblačnost (8/8 nebo 10/10) způsobuje rovnoměrné difuzní osvětlení bez stínů. Je typická pro podzimní a zimní dny v mírném pásu. Snižuje denní teploty a zvyšuje pocit šedivosti.
+
+  weather.sleet:
+    label: mrznoucí déšť a sníh (déšť se sněhem)
+    summary: Smíšené srážky – mokrý sníh a déšť padající zároveň.
+    info: Déšť se sněhem vzniká, když sníh roztaje ve vyšší vzduchové vrstvě a dopadá jako mokré vločky nebo ledové kapky. Je typický pro přechodné roční období. Způsobuje nejhorší viditelnost ze všech srážek.
+
+  weather.drizzle:
+    label: mrholení
+    summary: Velmi jemné kapky deště padající tiše a jemně.
+    info: Mrholení jsou kapičky průměru menšího než 0,5 mm; vznikají v nízké stratkové oblačnosti. Typické pro atlantické pobřeží a podzimní dny. Zdánlivě neškodné – ale déle trvající mrholení promočí stejně jako déšť.
+
+  weather.shower:
+    label: přeháňka
+    summary: Krátkodobý místní déšť, který rychle přejde.
+    info: Přeháňka je krátkodobá srážka z konvektivní oblačnosti (cumulus). Může přijít a za deset minut zmizet pod jasnou oblohou. Typická pro jarní a letní odpoledne v mírném klimatu.
+
+  weather.sunrise:
+    label: východ slunce
+    summary: Okamžik, kdy se Slunce vynoří nad horizontem ráno.
+    info: Východ slunce je způsoben rotací Země, která přesouvá danou polohu do dosahu slunečních paprsků. Vzduchová hmota při horizontu rozptyluje modré světlo, a proto obloha je při východu oranžová až červená.
+
+  weather.sunset:
+    label: západ slunce
+    summary: Okamžik, kdy Slunce mizí pod horizontem večer.
+    info: Západ slunce bývá barevnější než východ, protože vzduch přes den nabude aerosolů. Průměrný západ slunce trvá asi 2–3 minuty; v polárních oblastech může být „západ" hodiny dlouhý.
+
+  weather.aurora:
+    label: polární záře
+    summary: Barevné záře na noční obloze v polárních oblastech.
+    info: Aurora borealis (severní záře) vzniká srážkami nabitých částic slunečního větru s molekulami zemské atmosféry. Různé barvy odpovídají různým výškám a plynům – zelená (kyslík, 100 km), fialová (dusík). Je viditelná do 60–70° zeměpisné šířky.
+
+  weather.misty:
+    label: opalescentní / mlžný
+    summary: Jemná mlha snižující viditelnost v údolích a lesích.
+    info: Mist (opalescentní mlha) je méně hustá než skutečná mlha – viditelnost je nad 1 km. Vzniká ochlazením povrchového vzduchu pod rosný bod. Typická pro ranní údolí a říční nivy.
+
+  weather.freezing:
+    label: mrzne
+    summary: Teplota na nebo pod bodem mrazu, voda se mění v led.
+    info: Bod mrazu vody je 0 °C při normálním tlaku. Pod bodem mrazu přestane tekutá voda existovat – zmrzne. Mrznutí má obrovský fyzikální důsledek: led je lehčí než voda, proto plave (jinak by vodní plochy zamrzaly celé).
+
+  weather.muggy:
+    label: dusno
+    summary: Horké a extrémně vlhké počasí, nepříjemně lepivé.
+    info: Dusno vzniká kombinací vysoké teploty a vlhkosti; „heat index" popisuje pocitovou teplotu. Při 35 °C a 80% vlhkosti je pocitová teplota přes 50 °C. Tělo nedokáže efektivně chladit pocením.
+
+  weather.breezy:
+    label: větrno (mírné)
+    summary: Příjemný slabý vítr pohybující listy a vlasy.
+    info: Vítr stupně 3 Beaufortovy stupnice (12–19 km/h) se označuje jako slabý. Pohybuje listy a lehkými větvemi. Je příjemný za horkého počasí – urychluje odpařování potu.
+
+  weather.gloomy:
+    label: smutné počasí
+    summary: Temné a tísnivé počasí s těžkou oblačností a málo světla.
+    info: Pocit tísně z šedého počasí má fyziologický základ – nedostatek světla snižuje serotonin a zvyšuje melatonin. Sezonní afektivní porucha (SAD) postihuje miliony lidí v zimě. Světelná terapie pomáhá.
+
+  weather.clear:
+    label: jasno
+    summary: Bezoblačná obloha s perfektní viditelností.
+    info: Jasná obloha (0–2/8 pokrytí) umožňuje maximální sluneční záření a nejlepší viditelnost. V horách může jasná obloha paradoxně znamenat riziko – UV záření je silnější. Noci s jasnou oblohou jsou nejchladnější, protože bez mraků teplo uniká.
+
+  weather.dew:
+    label: rosa
+    summary: Drobné kapičky vody tvořící se přes noc na chladných površích.
+    info: Rosa se tvoří kondenzací vodní páry na površích, jejichž teplota klesla pod rosný bod. Je důležitá pro pouštní ekosystémy – brouci na Namib sbírají rosu svým tělem. Rosa byla historicky symbolem čistoty a znovuzrození.
+
+  weather.avalanche:
+    label: lavina
+    summary: Masy sněhu řítící se po horském svahu.
+    info: Laviny mohou dosáhnout rychlosti přes 300 km/h. Jsou nejnebezpečnějším horským jevem – ročně zabijí stovky lidí. Nebezpečí laviny závisí na úhlu svahu, typu sněhu a zahřátí povrchu.
+
+  weather.typhoon:
+    label: tajfun
+    summary: Tropická cyklóna v Pacifiku s větry přes 119 km/h.
+    info: Tajfun je totéž co hurikán – jen v jiném oceánu (Tichý ocean, západ). Sezóna tajfunů trvá od června do listopadu. Filipíny a Japonsko jsou nejčastěji zasahovanými oblastmi.
+
+  weather.monsoon:
+    label: monzun
+    summary: Sezónní změna větrů přinášející tropické přívaly dešťů.
+    info: Monzun je systém sezonně se měnících větrů způsobený rozdílem zahřátí pevniny a moře. Indický letní monzun přináší 80 % ročních srážek. Zemědělství v Asii je na monzunu existenčně závislé.
+
+  weather.dust_storm:
+    label: prachová bouře
+    summary: Mrak prachu a hlíny unášený větrem v suchých oblastech.
+    info: Prachové bouře vznikají v oblastech s extrémně suchým povrchem bez vegetace. Sahara generuje miliardy tun prachu ročně – část dosahuje Amazonie, kde fertilizuje lesní půdu. Prašný vítr sirocco z Afriky dosahuje Evropy.
+
+  weather.haze:
+    label: opar
+    summary: Lehké zakalení ovzduší snižující dohlednost.
+    info: Opar je způsoben jemnými pevnými nebo kapalnými částicemi v ovzduší (aerosoly, prach, vlhkost). Snižuje dohlednost pod 10 km. Je typický pro letní odpoledne nebo průmyslové oblasti.
+
+  weather.smog:
+    label: smog
+    summary: Vzduchové znečistění nad městy kombinující kouř a mlhu.
+    info: Smog (smoke + fog) vzniká chemickými reakcemi znečišťujících látek z dopravy a průmyslu. Londýnský smog 1952 zabil přes 4 000 lidí za 4 dny. Moderní fotochemický smog (hnědý) vzniká působením UV záření na výfukové plyny.
+
+  weather.frost:
+    label: mráz (jinovatka)
+    summary: Ledové krystaly pokrývající povrchy při mrznutí.
+    info: Mrázová jinovatka (hoar frost) tvoří nádherné jemné bílé krystaly na větvích a trávě. Vzniká přímou sublimací vodní páry do pevného stavu. Je rozdílná od holého ledu – je drobná a krystalická.
+
+  weather.ice_storm:
+    label: ledová bouře
+    summary: Mrznoucí déšť pokrývající vše vrstvou tuhého ledu.
+    info: Ledová bouře vzniká, když déšť dopadá na povrchy teplotou pod 0 °C a ihned tuhne. Vrstva ledu může dosáhnout centimetrů; láme větve a elektrické vodiče. Je nejničivější zimní jev pro infrastrukturu.
+
+  weather.snowstorm:
+    label: sněhová vichřice
+    summary: Silné sněžení s větrem a sníženou viditelností.
+    info: Sněhová vichřice kombinuje sněžení a vítr, který tvoří závěje. Na rozdíl od blizzardu nemusí mít takovou intenzitu větru. Česká republika zažívá sněhové vichřice zejména v horách a na Moravě.
+
+  weather.waterspout:
+    label: vodní smršť
+    summary: Tornádu podobný sloupec vody a páry nad hladinou moře.
+    info: Vodní smršť je rotující sloupec vzduchu a vodní páry nad mořem nebo jezerem. Dosahuje výšky přes 1 km; trvá 15–30 minut. Je méně nebezpečná než suchozemské tornádo, ale pro lodě nebezpečná.

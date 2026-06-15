@@ -34,3 +34,382 @@ cards:
     label: kachna
     summary: Vodní pták s plochým zobákem, chovaný na farmách.
     info: Domácí kachna je drůbež chovaná pro maso a vejce. Dobře plave díky plovacím blanám mezi prsty a vydává charakteristické kvákání.
+
+  farm.turkey:
+    label: krocan
+    summary: Velký domácí pták chovaný pro maso, symbol amerického svátku Díkůvzdání.
+    info: |
+      Krocan domácí pochází z Mexika, kde byl domestikován Aztéky před více než 2 000 lety.
+      Samec má charakteristický lalok a dokáže rozložit ocasní peří do tvaru vějíře.
+      V USA je tradiční pokrm na Den díkůvzdání; celosvětově je to druhé nejrozšířenější domestikované drůbeží zvíře.
+      V češtině nám slovo krocan dalo i označení nafoukaného člověka.
+
+  farm.rabbit:
+    label: králík
+    summary: Domácí králík chovaný pro maso, srst nebo jako mazlíček.
+    info: |
+      Králík domácí byl domestikován ve středověku z evropského králíka divokého.
+      Má více než 50 uznávaných plemen lišících se velikostí, barvou a typem srsti.
+      Samice (králice) může porodit 4 až 12 mláďat a mít několik vrhů ročně.
+      Králík je třetím nejoblíbenějším domácím mazlíčkem v Evropě po psech a kočkách.
+
+  farm.rooster:
+    label: kohout
+    summary: Samec domácího slepice; svým kokrháním ohlašuje svítání.
+    info: |
+      Kohout je samec domácí slepice a je poznatelný podle barevného opeření, hřebínku a ostruh.
+      Kokorhání je způsob teritoriálního chování a probíhá nejen za svítání, ale kdykoli.
+      V česku je kohout symbolem bdělosti; v čínském horoskopu je jedním z dvanácti zvířat.
+      Dávní Řekové ho obětovali Asklépiovi jako symbol nového úsvitu.
+
+  farm.goose:
+    label: husa domácí
+    summary: Velký domestikovaný drůbeží pták chovaný pro maso, sádlo a peří.
+    info: |
+      Husa domácí pochází z divokých hus před více než 3 000 lety.
+      Byla jedním z prvních domestikovaných zvířat; v Římě střežily husy Kapitol.
+      Cení se pro husí sádlo, jatečné maso, ale i pro husí játra (foie gras).
+      Husí peří bylo tradičním psacím nástrojem (brk).
+
+  farm.guinea_fowl:
+    label: perlička
+    summary: Africký pták chovaný pro maso a jako hlídač před hady.
+    info: |
+      Perlička přilbová pochází z Afriky, kde žije divoce v savanách.
+      Na farmách je ceněna jako přirozený hlídač; svým hlasitým kvákáním upozorní na hady, predátory i neznámé lidi.
+      Má charakteristické bíle tečkované šedé peří a červeno-modrou neperovatou hlavu.
+      Její maso je chuťově podobné pernaté zvěři.
+
+  farm.quail:
+    label: křepelka japonská
+    summary: Malý pták farmářsky chovaný pro vajíčka a maso.
+    info: |
+      Křepelka japonská je domestikovaný druh křepelky chovaný intenzivně pro vajíčka a maso.
+      Samice snáší vajíčka téměř každý den; vajíčka jsou delikatesou v mnoha kuchyních.
+      Dozrává rychle a již v šesti týdnech začíná snášet.
+      Chovají se i jako zpívající ptáci v Japonsku, kde je jejich chov starou tradicí.
+
+  farm.llama:
+    label: lama
+    summary: Jihoamerický velbloudovitý savec chovaný pro vlnu a jako nosné zvíře.
+    info: |
+      Lama je domestikovaný jihoamerický velbloudovec domestikovaný Inky před více než 5 000 lety.
+      Byla hlavním nákladním zvířetem říší And; dokáže nést až 30 % své tělesné hmotnosti.
+      Pelíšek lamiiny vlny je ceněn pro tepelné vlastnosti.
+      Pri ohrožení nebo nespokojenosti lama proslule plivá.
+
+  farm.alpaca:
+    label: alpaka
+    summary: Menší příbuzný lamy chovaný pro jemnou vlnu.
+    info: |
+      Alpaka je menší příbuzný lamy domestikovaný ve vysokohorských Andách.
+      Její vlna je jednou z nejjemnějších přírodních vláken na světě; je teplá, hypoalergenní a jemnější než kašmír.
+      Existují dvě plemena: Huacaya (kudrnatá) a Suri (hedvábná).
+      Chov alpak se rychle rozšiřuje i do Evropy.
+
+  farm.yak:
+    label: jak
+    summary: Velký chlupáč tibetské náhorní plošiny; poskytuje mléko, maso i tah.
+    info: |
+      Jak domácí je domestikovaná forma yaka žijícího na Tibetské náhorní plošině ve výškách 3 000 až 5 500 m.
+      Je základem tibetské ekonomiky; poskytuje mléko, maso, vlnu a tah.
+      Jeho vlna je velmi jemná a teplá.
+      Džomo je kříženec yaka a skotu; produkuje více mléka než jak čistokrevný.
+
+  farm.ox:
+    label: vůl
+    summary: Kastrovaný býk historicky nejdůležitější tažné zvíře zemědělství.
+    info: |
+      Vůl je kastrovaný samec domácího skotu domestikovaný pro práci.
+      Byl po tisíce let základním tažným zvířetem zemědělství ve většině světa.
+      Díky silnému a pokornému charakteru vyoral víc půdy než koně v raném zemědělství.
+      V moderní zemědělství ho nahradily traktory, ale v rozvojových zemích se stále používá.
+
+  farm.mule:
+    label: mezek
+    summary: Sterilní kříženec koně a osla s výjimečnou vytrvalostí a sílou.
+    info: |
+      Mezek je kříženec klisny (kobyla) a osla (samec); opačný kříženec se nazývá mula.
+      Je sterilní, ale velmi vytrvalý, silný a odolný.
+      Má dobrou orientaci v terénu a je opatrnější než kůň; méně panikáří.
+      Po celá tisíciletí byl nepostradatelný pro přepravu v hornatém terénu.
+
+  farm.pony:
+    label: poník
+    summary: Malé plnokrevné plemeno koně, oblíbené pro jízdu dětí.
+    info: |
+      Poník je malé plemeno koně nepřesahující výšku 14,2 rukou (147 cm) v kohoutku.
+      Shetlandský poník je nejmenší a pochází ze skotských Shetlandských ostrovů.
+      Jsou to robustní zvířata odolná vůči drsným podmínkám.
+      Jsou oblíbeni jako jezdecká zvířata pro děti i jako tažná zvířata do dolů.
+
+  farm.lamb:
+    label: jehně
+    summary: Mládě ovce do jednoho roku věku, symbol jara a nevinnosti.
+    info: |
+      Jehně je mladá ovce do jednoho roku věku.
+      Zrodí se s vlnou a začíná se pásti v prvních dnech života.
+      V křesťanství je symbolem nevinnosti a Krista jako Beránka božího.
+      Berání maso (jehněčí) je oblíbenou delikatesou v mnoha kuchyních světa.
+
+  farm.piglet:
+    label: sele
+    summary: Mládě prasete, typicky ružovkové a hravé.
+    info: |
+      Sele je mládě domácího prasete v prvních týdnech života.
+      Nově narozená selata jsou velmi malá, ale rychle rostou.
+      Samice (prasnice) rodí průměrně 10 až 12 selat v jednom vrhu.
+      Selata jsou inteligentní; výzkumy ukazují, že prasata jsou inteligentní jako psi.
+
+  farm.calf:
+    label: tele
+    summary: Mládě krávy do jednoho roku věku.
+    info: |
+      Tele je mládě skotu od narození do odstavení nebo do jednoho roku věku.
+      Narozené tele se brzy postaví na nohy; instinkt matky je silný.
+      Telata chovaná pro mléčnou produkci jsou brzy oddělena od matky.
+      Telecí maso (veal) je ceněnou delikatesou v mnoha evropských kuchyních.
+
+  farm.foal:
+    label: hříbě
+    summary: Mládě koně do jednoho roku; stojí na nohou již v prvních hodinách.
+    info: |
+      Hříbě je mládě koně do prvního roku života.
+      Během prvních hodin po narození se postaví na nohy a začíná sát mléko.
+      Má nápadně dlouhé nohy oproti tělu; ty se zkrátí s dospíváním.
+      Hříbata jsou hravá a zvídavá; jejich výchova (breaking) začíná až ve věku dvou až tří let.
+
+  farm.peacock:
+    label: páv domácí
+    summary: Samec páva chovaný na statcích a parcích pro okrasu.
+    info: |
+      Páv modrý je původem z Indie a byl domestikován před tisíci lety jako okrasný pták.
+      Samec (páv) rozkládá přes 150 zdobených per do ohromujícího vějíře k přilákání samic.
+      Jeho volání je velmi hlasité a pronikavé.
+      V Indii je páv národním ptákem a symbolem krásy.
+
+  farm.pheasant:
+    label: bažant farmový
+    summary: Bažant chovaný na farmách a vypouštěný k lovu.
+    info: |
+      Bažant obecný je v Česku chováný na farmách a pravidelně vypouštěn do přírody pro účely myslivosti.
+      Jeho původ je v Asii; do Evropy byl dovezen Římany.
+      Samec má nápadné barvení a dlouhý ocas; samice je nenápadně hnědá.
+      Bažantí maso je ceněná zvěřina s delikátní chutí.
+
+  farm.emu:
+    label: emu farmové
+    summary: Emu chované pro olej, maso a kůži v Austrálii.
+    info: |
+      Emu je v Austrálii chováno na farmách pro maso, tukový olej (využívaný v kosmetice) a kůži.
+      Olej z tuku emu má protizánětlivé vlastnosti a používá se v tradiční i moderní medicíně.
+      Emu farmářství se rozšiřuje i do USA a Evropy.
+      Emu jsou zvídavá zvířata, která se neostýchají přibližovat k lidem.
+
+  farm.ostrich:
+    label: pštros farmový
+    summary: Pštros chovaný pro maso, peří a kůži.
+    info: |
+      Pštros je nejrychlejší dvounožec a na farmách se chová pro maso, kůži a peří.
+      Pštrosí maso je červené jako hovězí, ale s nižším obsahem tuku a cholesterolu.
+      Kůže pštrosa je ceněna v luxusní koženické výrobě.
+      Per pštrosa se tradičně používalo k výzdobě klobouků a fanoušků.
+
+  farm.deer:
+    label: jelen farmový
+    summary: Farmově chovaný jelen nebo daněk pro zvěřinu a výrobu paroží.
+    info: |
+      Daněk nebo jelen je v Česku chováný v oborách a farmách pro zvěřinové maso.
+      Daňci jsou menší než jeleni lesní a mají charakteristicky lopato vité parohy.
+      Paroží shazují každý rok a znovu dorůstá.
+      Zvěřina z farmových jelenovitých je zdravou alternativou k hovězímu masu.
+
+  farm.boar:
+    label: kanec
+    summary: Divoký nebo domestikovaný samec prasete.
+    info: |
+      Kanec je nekastrovaný samec domácího nebo divokého prasete.
+      Na farmách jsou kanci chováni pro rozmnožování; jejich semeno se používá pro umělou inseminaci.
+      Divoký kanec (divočák) má mohutné kly a je schopen agresivní obrany.
+      V gastronomii je kančí maso ceněnou zvěřinou.
+
+  farm.barn_cat:
+    label: kočka stájová
+    summary: Domácí kočka chovaná na statku jako lovec hlodavců.
+    info: |
+      Stájová kočka je domácí kočka žijící v zemědělském prostředí, kde loví myši a potkany.
+      Chrání zásoby krmiva a obilí před hlodavci.
+      Bývá méně socializována s lidmi než pokojová kočka.
+      V historii byly kočky uctívány v Egyptě právě pro svou schopnost chránit zásoby.
+
+  farm.sheepdog:
+    label: ovčácký pes
+    summary: Pes speciálně trénovaný k řízení a ochraně stáda ovcí.
+    info: |
+      Border Kolie je nejpopulárnější ovčácký pes, chovaný pro řízení stáda pomocí pohledu (eye) a tichých povelů.
+      Patří k nejinteligentnějším plemenům psů.
+      Pracovní schopnosti se dědí a musejí být rozvíjeny tréninkem od štěněte.
+      Soutěže v ovčáckém skákání (sheepdog trials) jsou populárním sportem v Británii.
+
+  farm.beehive:
+    label: včelí úl
+    summary: Dřevěná konstrukce sloužící jako umělé sídlo medonosné včely.
+    info: |
+      Včelí úl je umělé bydliště včelí kolonie; nahrazuje dutiny stromů, v nichž žijí divoké včely.
+      Jedna kolonie má typicky 50 000 až 80 000 včel.
+      Každá kolonie produkuje každoročně 20 až 30 kg medu.
+      Včely jsou klíčovými opylovači; třetina světové potravy závisí na jejich opylování.
+
+  farm.silkworm:
+    label: bource morušový
+    summary: Housenka bource morušového produkující přírodní hedvábí.
+    info: |
+      Bourec morušový je housenka můry Bombyx mori domestikovaná v Číně před více než 5 000 lety.
+      Jeho zámotek z jednoho vlákna dlouhého přes 900 metrů je zdrojem přírodního hedvábí.
+      Byl tak cenný, že Čína po staletí přísně střežila tajemství jeho produkce.
+      Hedvábná stezka dostala název právě od obchodu s tímto materiálem.
+
+  farm.garden_snail:
+    label: šnek zahradní
+    summary: Velký suchozemský měkkýš jedlý ve francouzské kuchyni jako escargot.
+    info: |
+      Šnek zahradní (hlemýžď zahradní) je největší suchozemský plž Evropy.
+      Je ceněnou francouzskou delikatesou pod názvem escargot.
+      Přes zimu se ukrývá a uzavírá ulitu blánou (hibernaculum).
+      Jeho chov (helicicultura) probíhá ve Francii, Itálii a dalších zemích.
+
+  farm.freshwater_crayfish:
+    label: rak říční
+    summary: Sladkovodní korýš farmářsky chovaný jako delikátní pochoutka.
+    info: |
+      Rak říční byl v Čechách hojný, ale byl téměř vyhuben račím morem a znečištěním vod.
+      Dnes se pěstuje ve speciálních farmách.
+      Je indikátorem čistoty vody; žije jen v čistých tocích.
+      V 19. století byl export raků z Česka do Francie a Německa velkým byznysem.
+
+  farm.trout:
+    label: pstruh
+    summary: Lososovitá ryba chovaná v rybích farmách i volných vodách.
+    info: |
+      Pstruh duhový pochází ze Severní Ameriky a byl introdukován do Evropy jako farmová ryba.
+      Pstruh obecný (potoční) je původní evropský druh žijící v čistých rychle tekoucích vodách.
+      Obě jsou ceněnými sportovními a gastronomickými rybami.
+      Chov pstruhů je v Česku tradičním odvětvím, zejména v horských oblastech.
+
+  farm.salmon:
+    label: losos
+    summary: Velká mořská ryba táhnoucí do řek na tření; hojně chovaná ve farmách.
+    info: |
+      Losos obecný je anadromní ryba; vyrůstá v moři, ale k tření se vrací do svých rodných řek.
+      Schopnost najít rodnou řeku je navigována magnetickým polem Země a čichem.
+      Farmový chov lososů v Norsku a Skotsku je jedním z největších odvětví akvakultury.
+      Losos je bohatý na omega-3 mastné kyseliny prospěšné pro zdraví.
+
+  farm.tilapia:
+    label: tilapie
+    summary: Tropická sladkovodní ryba masivně chovaná po celém světě.
+    info: |
+      Tilapie nilská je jedna z nejrozšířenějších farmovaných ryb světa; ročně se produkují miliony tun.
+      Původem pochází z Nilu a afrických jezer, ale dnes se chová na všech kontinentech.
+      Vyznačuje se odolností, rychlým růstem a nenáročností na krmivo.
+      Je to druhá nejchovanější ryba světa po kaprovi.
+
+  farm.carp:
+    label: kapr
+    summary: Velká sladkovodní ryba; tradiční vánoční pokrm v Česku.
+    info: |
+      Kapr obecný je největší ryba chovaná v českých rybnících a je neodmyslitelně spojena s českými Vánocemi.
+      Byl domestikován ve střední Evropě ve středověku, zejména v Čechách (třeboňské rybníky).
+      Je všežravec a rychle roste; dosahuje hmotnosti přes 30 kg.
+      Třeboňské rybníky jsou jedním z největších rybničních systémů v Evropě.
+
+  farm.farm_shrimp:
+    label: krevetka farmová
+    summary: Mořská krevetka intenzivně chovaná v pobřežních rybnících.
+    info: |
+      Krevetka bílá tichomořská je celosvětově nejchovanější druh krevet.
+      Farmy se nacházejí zejména v jihovýchodní Asii a Latinské Americe.
+      Intenzivní chov krevet je kontroverzní kvůli dopadům na mangrovové porosty.
+      Krevety jsou druhý nejoblíbenější mořský plod na světě po tuňákovi.
+
+  farm.oyster:
+    label: ústřice farmová
+    summary: Mořský mlž chovaný na lanech a mřížích v pobřežních vodách.
+    info: |
+      Ústřice se chová v pobřežních vodách na lanech nebo v mřížích; dospívá za 3 až 5 let.
+      Filtruje vodu a pomáhá čistit mořské ekosystémy.
+      Je delikatesou konzumovanou syrovou nebo vařenou.
+      Bisserotická (perlorodka) ústřice je zdrojem přírodních perel.
+
+  farm.mussel:
+    label: slávka
+    summary: Jedlý mořský mlž chovaný na lanech v přílivu mořských vod.
+    info: |
+      Slávka jedlá je mlž hojně chovaný ve farmách podél atlantského pobřeží Evropy.
+      Chová se na lanech nebo kůlech v přílivu a odlivu.
+      Filtruje vodu a je ekologicky šetrnou potravinou s malou uhlíkovou stopou.
+      Je součástí mnoha tradičních pokrmů jako belgické moules-frites.
+
+  farm.pigeon_farm:
+    label: holub domestikovaný
+    summary: Domácí holub chovaný pro maso (squab) nebo závodní létání.
+    info: |
+      Holub domácí je domestikovaný skalní holub; šlechtěním vznikly stovky plemen.
+      Squab (maso młodého holuba) je v mnoha kulturách ceněnou delikatesou.
+      Závodní holubi jsou šlechtěni pro rychlost; rekordní jedinci letí přes 150 km/h.
+      Holubáři mají v Česku silnou tradici.
+
+  farm.guinea_pig_farm:
+    label: morče farmové
+    summary: Morče chované pro maso v Latinské Americe nebo jako mazlíček.
+    info: |
+      Morče domácí pochází z And, kde bylo domestikováno Inky před více než 3 000 lety jako zdroj masa.
+      Dodnes je tradiční potravinou v Peru, Ekvádoru a Kolumbii (cuy).
+      V Evropě a Severní Americe je oblíbeným dětským mazlíčkem.
+      Komunikuje složitými zvuky včetně čuňání, vrkání a hvízdání.
+
+  farm.water_buffalo:
+    label: buvol domácí
+    summary: Velký asijský bovid základní tažné zvíře rýžových polí.
+    info: |
+      Buvol domácí je domestikovaná forma vodního buvola a základní hospodářské zvíře Asie.
+      Po tisíce let orá rýžová pole a přepravuje náklad.
+      Jeho mléko je tučnější než kravské a používá se k výrobě mozzarelly di bufala.
+      V Indii je posvátné zvíře hinduistů.
+
+  farm.goat_dairy:
+    label: koza dojná
+    summary: Koza chovaná pro mléko, z nějž se vyrábí sýry a jogurty.
+    info: |
+      Koza domácí je domestikovaná před více než 10 000 lety a je jedním z nejrozšířenějších hospodářských zvířat.
+      Kozí mléko je bohaté na živiny a snáze stravitelné než kravské; vhodné pro lidi s intolerancí laktózy.
+      Z kozího mléka se vyrábí slavné sýry jako Chèvre, Feta nebo Halloumi.
+      Kozy jsou odolné a přizpůsobivé; pasou se i na kamenité horské půdě.
+
+  farm.highland_cattle:
+    label: skot Scottish Highland
+    summary: Skotský skot s dlouhou rezavou srstí a mohutnými rohy.
+    info: |
+      Skotský Highland je staré plemeno skotu chované v drsnýchabiotopech skotských vysočin.
+      Jeho charakteristická dlouhá rezavá srst chrání před vlhkem a chladem.
+      Je odolný a méně náchylný k nemocem než jiná plemena.
+      Jeho maso je libové a velmi aromatické; oblíbená alternativa k standardnímu hovězímu.
+
+  farm.ram:
+    label: beran
+    summary: Dospělý samec ovce s mohutnými spirálními rohy.
+    info: |
+      Beran je dospělý samec domácí ovce.
+      Má výrazné spirálně stočené rohy, které samice (ovce) nemají nebo mají jen malé.
+      Behemříje (podzimu) soupeří samci přímými střety čely a rohy.
+      V symbolice a mytologii je beran spojován se sílou, plodností a vůdcovstvím.
+
+  farm.sow:
+    label: prasnice
+    summary: Dospělá samice prasete, matka selat.
+    info: |
+      Prasnice je dospělá samice domácího prasete.
+      Může rodit dvakrát ročně a průměrný vrh čítá 10 až 14 selat.
+      Intenzivní chov prasnic je v moderním zemědělství kontroverzní kvůli podmínkám prostorných boxů.
+      Prasnice jsou inteligentní a v přirozených podmínkách pečují o mláďata po dobu 12 až 16 týdnů.
+

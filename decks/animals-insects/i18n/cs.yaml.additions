@@ -1,0 +1,335 @@
+  insect.beetle:
+    label: brouk
+    summary: Hmyz s tvrdými krovkami kryjícími blanitá křídla.
+    info: |
+      Brouci tvoří největší řád hmyzu – popsáno je přes 400 000 druhů.
+      Mají tuhé krovky (elytra), které chrání blanitá létací křídla.
+      Žijí téměř ve všech prostředích a plní různé ekologické role – od predátorů po rozkladače.
+
+  insect.grasshopper:
+    label: kobylka
+    summary: Skákající hmyz s mohutnými zadními nohami, žijící na loukách.
+    info: |
+      Kobylky a sarančata jsou dobrými skokany – jejich mohutné zadní nohy jim umožní skočit dvacetkrát délku těla.
+      Produkují zvuk třením zadní nohé o křídla – tzv. stridulaví.
+      Jsou důležitou potravou ptáků, ještěrek a dalšího hmyzu.
+
+  insect.cricket:
+    label: cvrček
+    summary: Noční cvrlikající hmyz s dlouhými tykadly.
+    info: |
+      Cvrček domácí je znám charakteristickým cvrlikáním, které tvoří samci třením křídel.
+      Rychlost cvrlikání závisí na teplotě – čím teplejší noc, tím rychlejší rytmus.
+      V Asii jsou cvrčci tradičně chováni jako mazlíčci nebo pro sporty.
+
+  insect.mosquito:
+    label: komár
+    summary: Létající hmyz, jehož samičky sajú krev.
+    info: |
+      Samičky komára bodají a sajú krev, kterou potřebují pro tvorbu vajíček.
+      Samci se živí výhradně nektarem; je to komár, ne samec, kdo štípe.
+      Komáři přenáší závažné nemoci jako malárii a horečku dengue.
+
+  insect.fly:
+    label: moucha
+    summary: Dvakrídlý létající hmyz, jeden z nejběžnějších hmyzů.
+    info: |
+      Moucha domácí má jen dvě křídla (ostatní jsou zakrnělé do tyčinek pro rovnováhu).
+      Vidí téměř 360° kolem sebe díky mozaikovým očím.
+      Je přenašečem bakteriálních nemocí, protože přistává na odpadcích i potravinách.
+
+  insect.moth:
+    label: můra
+    summary: Noční létající hmyz s pestrobarevnými nebo nenápadnými křídly.
+    info: |
+      Můry jsou příbuzné motýlům, ale většinou létají v noci a mají hřebenovitá tykadla.
+      Je jich na světě přibližně 160 000 druhů – desetkrát více než motýlů.
+      Larvy bource morušového, která je můrou, produkují hedvábí pro textilní průmysl.
+
+  insect.caterpillar:
+    label: housenka
+    summary: Larva motýla nebo můry s členěným tělem a mnoha nohami.
+    info: |
+      Housenka je žravá larva motýla nebo můry; jejím jediným cílem je jíst a růst.
+      Tvoří zákuklí (kuklu), v níž proběhne metamorfóza na dospělce.
+      Některé housenky jsou chráněny jedovatými trichomy nebo výrazným zbarvením.
+
+  insect.praying_mantis:
+    label: kudlanka
+    summary: Dravý hmyz s nohami složenými jako v modlitbě.
+    info: |
+      Kudlanka nábožná je obávaný predátor lovící hmyz a někdy i malé obratlovce.
+      Dokáže otočit hlavu o 180° – unikátní schopnost v řádu hmyzu.
+      Samice někdy sežere samce hned po páření; vajíčka kladou do pěnových vaků.
+
+  insect.stick_insect:
+    label: strašilka
+    summary: Hmyz dokonale napodobující vzhled větviček nebo listí.
+    info: |
+      Strašilky jsou mistři kamufláže; jejich tělo napodobuje větvičky nebo listy s dokonalou přesností.
+      Jsou většinou herbivorní a živí se listím; pohybují se velmi pomalu.
+      Jsou oblíbenými terárijními zvířaty díky nenáročnosti a neobvyklému vzhledu.
+
+  insect.firefly:
+    label: světluška
+    summary: Brouk vydávající bioluminiscenční záblesky světla v noci.
+    info: |
+      Světluška je brouk produkující studené světlo chemickou reakcí luciferinu a luciferázy.
+      Záblesky slouží k signalizaci při páření; každý druh má specifický vzor záblesků.
+      V Asii světlušky tvoří impozantní synchronizovaná světelná divadla.
+
+  insect.wasp:
+    label: vosa
+    summary: Žluto-černý létající hmyz s tenkým pasem a žihadlem.
+    info: |
+      Vosa obecná je sociální hmyz žijící v papírových hnízdech ze zpracovaného dřeva.
+      Na rozdíl od včely může bodnout opakovaně; je agresivnější a aktivnější predátor.
+      Reguluje populace jiného hmyzu a je důležitým predátorem zahradních škůdců.
+
+  insect.cockroach:
+    label: šváb
+    summary: Odolný noční plochý hmyz s dlouhými tykadly.
+    info: |
+      Šváb je jeden z evolučně nejstarších hmyzů – jeho předkové žili před 300 miliony let.
+      Je odolný vůči záření, pesticidům i vysokým teplotám.
+      Ve volné přírodě plní důležitou roli rozkladačů; v domácnostech je považován za škůdce.
+
+  insect.spider:
+    label: pavouk
+    summary: Osminohý pavoukovotec tkající sítě k chytání hmyzu.
+    info: |
+      Pavouk křižák staví geometricky dokonalé kulaté sítě z pružného hedvábí.
+      Pavučinové vlákno je silnější než ocel stejné tloušťky.
+      Pavouci jsou důležitými predátory hmyzu; na světě žije přes 45 000 druhů.
+
+  insect.scorpion:
+    label: škorpion
+    summary: Pavoukovotec s klepety a zahnutým jedovatým ohonem.
+    info: |
+      Škorpion je pavoukovotec s charakteristickým zakřiveným ohonem zakončeným jedovým ostnem.
+      Svítí modrozeleně pod ultrafialovým světlem – důvod není zcela objasněn.
+      Většina druhů je pro lidi nebezpečná jen mírně; jen asi 25 druhů produkuje smrtelný jed.
+
+  insect.centipede:
+    label: stonožka
+    summary: Dlouhý článkovaný živočich s mnoha páry noh.
+    info: |
+      Stonožka má jeden pár noh na každý článek těla – ne sto, jak napovídá jméno.
+      Je to rychlý noční predátor lovící hmyz, žížaly i malé hlodavce.
+      Přední pár noh je přeměněn na jedové chelicery.
+
+  insect.flea:
+    label: blecha
+    summary: Drobný bezkrídlý skákající parazit sající krev.
+    info: |
+      Blecha je mistr skoku – dokáže vyskočit až 150násobek své vlastní délky.
+      Je přenašečem morové bacily (Yersinia pestis), která v minulosti způsobila epidemie moru.
+      Ploché tělo jí umožňuje klouzat mezi chlupy hostitele a není snadno odstraněna.
+
+  insect.termite:
+    label: termit
+    summary: Sociální dřevorubec stavějící obrovské mraveniště z hlíny.
+    info: |
+      Termiti žijí v koloniích čítajících miliony jedinců s dělnicemi, vojáky a královnou.
+      Stavějí mohutné komíny z hlíny vysoké až 9 metrů s ventilačním systémem.
+      Rozklad dřeva termity je klíčový pro lesní ekosystémy a koloběh živin.
+
+  insect.bumblebee:
+    label: čmelák
+    summary: Velká chlupatá včela s hlasitým bzukotem.
+    info: |
+      Čmelák je robustnější a chlupitější než včela medonosná a létá i za chladného počasí.
+      Je klíčovým opylovačem mnohých plodin a planých rostlin.
+      Vibruje svaly při přistání na květ – tzv. buzz pollination – a uvolňuje více pylu.
+
+  insect.hornet:
+    label: sršeň
+    summary: Největší evropská vosa, s mocným žihadlem.
+    info: |
+      Sršeň obecná je největší zástupce vos ve střední Evropě.
+      Hnízdo staví z papírové hmoty ze zpracovaného dřeva.
+      Přes svou pověst je méně agresivní než vosa; bodne jen při přímém ohrožení.
+
+  insect.cicada:
+    label: cikáda
+    summary: Hlučný létající hmyz zpívající za letních veder.
+    info: |
+      Cikáda produkuje jeden z nejhlasitějších zvuků v přírodě – až 120 decibelů.
+      Zvuk vydávají samci vibracemi blanek (tymbálů) na bocích těla.
+      Některé druhy žijí jako larvy v půdě 13 nebo 17 let a pak se hromadně líhnou.
+
+  insect.locust:
+    label: saranče
+    summary: Stěhovavá kobylka schopná tvořit ničivé mraky.
+    info: |
+      Saranče pouštnáé se za příznivých podmínek mění z osamělého hmyzu na stádní.
+      Roje čítají miliardy jedinců a mohou zničit úrodu na ploše stovek kilometrů čtverečních.
+      Jsou zmíněny jako biblická pohroma; dodnes ohrožují zemědělství v Africe a Asii.
+
+  insect.aphid:
+    label: mšice
+    summary: Drobný hmyz sajúcí mízu rostlin ve velkých skupinách.
+    info: |
+      Mšice jsou drobní hmyz skupinově sajúcí rostlinné mízy.
+      Produkují medovici, kterou sbírají mravenci a výměnou je „pasou" a chrání.
+      Mohou přenášet rostlinné viry a způsobovat silné poškození zemědělských plodin.
+
+  insect.earwig:
+    label: škvoř
+    summary: Protáhlý hmyz s kleštěmi na konci těla.
+    info: |
+      Škvoř obecný má na konci těla charakteristická kleště (cerky), která slouží k obraně a páření.
+      Pověra o lezení do uší je neopodstatněná – nestává se to.
+      Je noční všežravec; samice pečuje o vajíčka a chrání je.
+
+  insect.silverfish:
+    label: rybenka
+    summary: Stříbřitý bezkrídlý hmyz živící se škrobem v papíru.
+    info: |
+      Rybenka cukrová je jeden z nejstarších hmyzů – je podobná svým pravěkým předkům před 400 miliony let.
+      Živí se škrobem, lepidlem a papírem; ničí knihy, tapety a textilie.
+      Je nocturní a pohybuje se rybovitým pohybem, podle něhož dostala jméno.
+
+  insect.water_strider:
+    label: vodoměrka
+    summary: Hmyz bruslící po hladině vody díky povrchovému napětí.
+    info: |
+      Vodoměrka obecná využívá povrchové napětí vody díky voskovitým hydrofobním chloupkům na nohách.
+      Žije na klidných vodních plochách a loví hmyz padající do vody.
+      Každý dotyk nohy tvoří drobnou prohlubeň ve vodní hladině, ale ji neprotrhne.
+
+  insect.mite:
+    label: roztoč
+    summary: Drobný pavoukovotec, neviditelný okem, žijící všude kolem nás.
+    info: |
+      Roztoči jsou drobní pavoukovotci s osmi nohami; žijí v půdě, prachu, na rostlinách i na zvířatech.
+      Prachový roztoč je hlavní příčinou alergií u citlivých lidí.
+      Jsou klíčovými rozkladači v ekosystémech a přenašeči některých nemocí.
+
+  insect.tick:
+    label: klíště
+    summary: Pavoukovotec sajúcí krev a přenášející nebezpečné nemoci.
+    info: |
+      Klíště obecné je ektoparazit sajúcí krev plazů, ptáků i savců včetně člověka.
+      Přenáší borreliózu (Lymeovu nemoc) a klíšťovou encefalitidu.
+      Po přisátí na hostiteli bobtná a může sajú několik dní; je třeba ho rychle a správně odstranit.
+
+  insect.dung_beetle:
+    label: chrobák hnojný
+    summary: Brouk kutálející kuličky hnoje, symbol starého Egypta.
+    info: |
+      Chrobák posvátný byl uctíván ve starém Egyptě jako symbol slunce a znovuzrození.
+      Kutálí kuličky trusu, v nichž klade vajíčka; larvy se živí trusem jako potravou.
+      Naviguje se podle Mléčné dráhy – je prvním doloženým živočichem, který ji takto využívá.
+
+  insect.stag_beetle:
+    label: roháč obecný
+    summary: Největší evropský brouk s parohovitými kusadly samce.
+    info: |
+      Roháč obecný je největší brouk střední Evropy a chráněný druh.
+      Obří kusadla samce připomínají parohy jelena – odtud latinské jméno Lucanus cervus.
+      Larvy se vyvíjejí v tlícím dřevě dubů až 5–8 let; dospělci žijí jen několik týdnů.
+
+  insect.atlas_moth:
+    label: Atlas příze
+    summary: Jeden z největších motýlů světa s obřím rozsahem křídel.
+    info: |
+      Martináč atlas (Atlas moth) má rozpětí křídel až 30 cm – je to jeden z největších motýlů.
+      Žije v tropických lesích jihovýchodní Asie.
+      Dospělec nemá ústní ústrojí a nežere; žije jen z rezerv z housenky a přežije jen 1–2 týdny.
+
+  insect.hawk_moth:
+    label: lišaj
+    summary: Velká můra hemitrující u květů jako kolibřík.
+    info: |
+      Lišajové jsou mohutní nočními letci schopní viset na místě jako kolibříci.
+      Jejich dlouhý sosák (proboscis) dosahuje až 30 cm u některých tropických druhů.
+      Lišaj lebkovitý (Acherontia atropos) má na hrudi vzor lebky; byl oblíbeným motivem gotiky.
+
+  insect.weevil:
+    label: nosatec
+    summary: Drobný brouk s charakteristickým prodlouženým rypáčkem.
+    info: |
+      Nosatci jsou největší čeledí brouků – existuje přes 80 000 druhů.
+      Prodloužený rypáček (rostrum) slouží k vrtání do semen, plodů a kůry stromů.
+      Jsou škůdci obilí, bavlny a plodin; obilní nosatec napadá sklady obilnin.
+
+  insect.lacewing:
+    label: zlatoočka
+    summary: Jemný hmyz se zlatýma očima a průhlednými krajkovitými křídly.
+    info: |
+      Zlatoočka obecná je šetrný predátor; její larvy se nazývají „lvi mšic".
+      Larvy sají mšice jako kořist a jsou využívány v biologické ochraně rostlin.
+      Dospělci jsou nocturní a přitahováni světlem; kladou vejce na vláskovitých stopcích.
+
+  insect.crane_fly:
+    label: tipula
+    summary: Protáhlý létající hmyz s extrémně dlouhými nohami, podobný komárovi.
+    info: |
+      Tipula (komár obrovský) vypadá jako obří komár, ale nekouše a nežere.
+      Dospělci žijí jen krátce; larvy (nematody) žijí v půdě a živí se kořeny trav.
+      Patří k jednomu z prvních létajících hmyzů, který se v roce objeví.
+
+  insect.mayfly:
+    label: jepice
+    summary: Hmyz s velmi krátkým dospělým životem trvajícím jen hodiny.
+    info: |
+      Jepice je symbol krátkosti života – dospělci žijí jen hodiny až dny.
+      Larvy (nymfy) žijí ve vodě 1–3 roky; po vylíhnutí se nepárně líhnou v obrovských rojích.
+      Jsou citlivé na znečištění vody a slouží jako bioindikátory kvality vodních toků.
+
+  insect.damselfly:
+    label: šidélko
+    summary: Štíhlý hmyz podobný vážce, s křídly složenými podél těla.
+    info: |
+      Šidélko je příbuzné vážce, ale je menší a štíhlejší a v klidu skládá křídla podél těla.
+      Žije u vodních ploch, kde se rozmnožuje; larvy žijí pod hladinou jako predátoři.
+      Je ukazatelem kvality vodních biotopů.
+
+  insect.robber_fly:
+    label: palice
+    summary: Dravá moucha chytající jiný hmyz za letu.
+    info: |
+      Palice (čeleď Asilidae) jsou vzácní vzdušní predátoři, kteří chytají i větší hmyz za letu.
+      Mají silné bodavé sosáky pro injekci paralyzujícího jedu do kořisti.
+      Jsou důležitými regulátory populací jiného hmyzu; ve světě žije přes 7 000 druhů.
+
+  insect.ground_beetle:
+    label: střevlík
+    summary: Rychlý dravý brouk žijící pod kameny a v zemi.
+    info: |
+      Střevlík fialový je jeden z nejkrásnějších a největších střevlíků střední Evropy.
+      Je noční predátor dešťovek, housenek a jiných bezobratlých.
+      Je oblíbeným indikátorem zdraví lesa a chráněným druhem v mnoha zemích.
+
+  insect.tiger_beetle:
+    label: svižník
+    summary: Rychle běhající irizující brouk s obrovskýma očima.
+    info: |
+      Svižník polní je jeden z nejrychlejších suchozemských živočichů – pohybuje se 9 km/h.
+      Má tak velké oči, že při maximální rychlosti dočasně oslepne.
+      Je dravcem lovícím hmyz na slunečných písčitých cestách a písčitých plochách.
+
+  insect.leafcutter_ant:
+    label: mravenec listořez
+    summary: Tropický mravenec přenášející kusy listů do svého hnízda.
+    info: |
+      Mravenec listořez nepožívá listy přímo – pěstuje na nich houby, jimiž se živí.
+      Kolonie čítá až 8 milionů jedinců a jejich podzemní hnízdo může obsadit plochu 600 m².
+      Jsou jedním ze tří druhů hmyzu (vedle člověka a termitů), který aktivně pěstuje potravu.
+
+  insect.army_ant:
+    label: mravenec legie
+    summary: Kočovný mravenec lovící ve velkých roích vše ve svém okolí.
+    info: |
+      Legionáři (Eciton) žijí jako kočovníci – každou noc přemisťují kolonii na nové místo.
+      Roj čítá až 700 000 jedinců a loví vše, co jim přijde do cesty.
+      Staví živé mosty a bivaky ze svých vlastních těl pro přechod překážek.
+
+  insect.carpenter_ant:
+    label: mravenec tesař
+    summary: Velký černý mravenec vytesávající chodby ve dřevě.
+    info: |
+      Mravenec tesař (Camponotus) je největší mravenec střední Evropy.
+      Nevyžírá dřevo jako potravu, ale tesá v něm chodby pro hnízdo.
+      Oslabuje staré stromy a dřevěné konstrukce; v lese je ale důležitým rozkladačem.

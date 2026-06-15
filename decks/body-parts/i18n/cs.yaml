@@ -34,3 +34,382 @@ cards:
     label: srdce
     summary: Sval pumpující krev celým tělem nepřetržitě.
     info: Srdce je dutý sval velikosti pěsti, který tluče průměrně 70krát za minutu. Za celý život napumpuje krev vzdálenost odpovídající třem oběhům Země.
+
+  body.arm:
+    label: paže
+    summary: Horní končetina od ramene po zápěstí.
+    info: |
+      Paže je horní končetina tvořená třemi segmenty: nadloktím, předloktím a rukou.
+      Obsahuje přes 30 svalů, kostí a šlach zajišťujících pohyb.
+      Kosti nadloktí (humerus) a předloktí (radius a ulna) jsou spojeny v loketním kloubu.
+      Lidská ruka je díky opozici palce jednou z nejdůmyslnějších evolučních adaptací.
+
+  body.leg:
+    label: noha
+    summary: Dolní končetina od kyčle po kotník.
+    info: |
+      Noha (dolní končetina) se skládá ze stehna, lýtka a chodidla.
+      Je přizpůsobena k bipedální chůzi a obsahuje nejsilnější svaly těla (čtyřhlavý sval).
+      Femur (kost stehenní) je nejdelší a nejsilnější kost v těle.
+      Achillova šlacha spojující lýtkový sval s patní kostí je nejsilnější šlacha v těle.
+
+  body.knee:
+    label: koleno
+    summary: Největší kloub těla spojující stehno s lýtkem.
+    info: |
+      Koleno je největší kloub lidského těla a jeden z nejkomplexnějších.
+      Sestává z čéšky, menisků, zkřížených vazů a postranních vazů.
+      Je přizpůsobeno k unášení váhy těla při chůzi a běhu.
+      Zranění kolenního kloubu jsou jednou z nejčastějších sportovních úrazů.
+
+  body.elbow:
+    label: loket
+    summary: Kloub ohýbající paži; název pochází z luku.
+    info: |
+      Loket je kloub na vnější straně spoje nadloktí a předloktí.
+      Umožňuje ohýbání a natahování paže a rotaci předloktí.
+      Zajímavostí je, že na lokti není kůže vybavena hmatovými buňkami.
+      Úder na nerv (ulnaris) procházející loktem způsobuje typické mravenčení.
+
+  body.shoulder:
+    label: rameno
+    summary: Kloub spojující paži s trupem s největším rozsahem pohybu.
+    info: |
+      Ramenní kloub má největší rozsah pohybu ze všech kloubů těla.
+      Jde o kulový kloub tvořený hlavicí pažní kosti a jamkou lopatky.
+      Nestabilita ramene ho činí náchylným k vykloubení.
+      Rotátorová manžeta (svalová skupina) stabilizuje ramenní kloub.
+
+  body.neck:
+    label: krk
+    summary: Část těla spojující hlavu s trupem; obsahuje životně důležité cévy.
+    info: |
+      Krk je oblast mezi lebkou a hrudníkem obsahující sedm krčních obratlů.
+      Procházejí jím životně důležité struktury: tepny, jícen, průdušnice a mícha.
+      Obsahuje řadu svalů umožňujících otáčení a naklánění hlavy.
+      Žirafa má stejný počet krčních obratlů jako člověk (7), pouze jsou mnohem delší.
+
+  body.chest:
+    label: hrudník
+    summary: Přední část trupu obsahující srdce a plíce.
+    info: |
+      Hrudník je přední část trupu ohraničená žebry, hrudní kostí a páteří.
+      Chrání životně důležité orgány: srdce a plíce.
+      Hrudní koš se skládá z 12 párů žeber, hrudní kosti a hrudní části páteře.
+      Dýchání pohybem hrudníku zajišťuje bránice a mezižeberní svaly.
+
+  body.back:
+    label: záda
+    summary: Zadní část trupu; největší svalová skupina těla.
+    info: |
+      Záda jsou zadní část trupu od šíje po hýžde.
+      Obsahují páteř (33 obratlů) obklopenou svaly zádovými.
+      Bolesti zad jsou jednou z nejčastějších příčin pracovní neschopnosti.
+      Svaly zad (trapézový, latissimus dorsi) jsou největší svalovou skupinou horní části těla.
+
+  body.stomach:
+    label: břicho
+    summary: Přední část trupu pod hrudníkem; hovorově i název žaludku.
+    info: |
+      Břicho je přední část trupu mezi hrudníkem a pánví.
+      Obsahuje trávicí orgány: žaludek, střeva, játra, slinivku a slezinu.
+      Břišní svaly (abdominální) stabilizují páteř a chrání orgány.
+      Žaludek (gastrum) je svalnatý orgán trávicí systému.
+
+  body.hip:
+    label: bok
+    summary: Oblast okolo pánve; největší kloub nesoucí váhu těla.
+    info: |
+      Bok je oblast okolo kyčelního kloubu (articulus coxae), který spojuje stehenní kost s pánevní.
+      Jde o kulový kloub unášející váhu těla při chůzi.
+      Ženy mají v průměru širší pánev než muži kvůli porodu.
+      Náhrada kyčelního kloubu je jedno z nejčastějších ortopedických chirurgických výkonů.
+
+  body.finger:
+    label: prst ruky
+    summary: Jeden z pěti prstů na ruce; každý má tři články.
+    info: |
+      Prst ruky je jeden z pěti prstů; palec má dva články, ostatní tři.
+      Ocitneme vždy deset prstů: kombinace jejich pohybů umožňuje chůzi nástrojů, hudbu a psaní.
+      Fingerprinty jsou jedinečné u každého člověka.
+      Prsty jsou díky hustotě hmatových receptorů jedním z nejcitlivějších částí těla.
+
+  body.thumb:
+    label: palec
+    summary: Zkrácený mohutný prst na ruce; opoziční pohyb palce je klíčový pro úchop.
+    info: |
+      Palec je zkrácený první prst ruky schopný opozice (dotýkání se ostatních prstů).
+      Opoziční pohyb palce je klíčovou adaptací umožňující lidskou manipulaci s nástroji.
+      Vyvinula se v průběhu evoluce a je přítomna jen u primátů.
+      Známé gesto palec nahoru (thumbs up) je celosvětovým signálem souhlasu a pozitivity.
+
+  body.toe:
+    label: prst nohy
+    summary: Jeden z pěti prstů na noze; palec nohy nese váhu při chůzi.
+    info: |
+      Prst nohy je jeden z pěti prstů nohy.
+      Palec nohy (hallux) je zásadní pro rovnováhu a odraz při chůzi; nese největší část váhy.
+      Na rozdíl od primátů nemůže lidský palec nohy vykonávat opozici.
+      Zdravý stav nehtů nohou je indikátorem celkového zdraví organismu.
+
+  body.wrist:
+    label: zápěstí
+    summary: Kloub spojující ruku s předloktím; klíčový pro jemnou motoriku.
+    info: |
+      Zápěstí je oblast spojující ruku s předloktím tvořená osmi drobnými kostmi (karpálie).
+      Umožňuje pohyb ruky ve čtyřech směrech a rotaci.
+      Karpální tunel (úzký kanál v zápěstí) může způsobit syndrom karpálního tunelu při přetížení.
+      Pulz lze snadno nahmatat na vnitřní straně zápěstí.
+
+  body.ankle:
+    label: kotník
+    summary: Kloub spojující chodidlo s bércem; nejčastěji zraněný kloub.
+    info: |
+      Kotník je kloub spojující bérec s chodidlem tvořený třemi kostmi.
+      Umožňuje pohyb chodidla nahoru a dolů a mírné stranové pohyby.
+      Vyvrtnutý kotník (distorze) je nejčastějším sportovním zraněním.
+      Achillova šlacha přichází k patní kosti v oblasti kotníku.
+
+  body.heel:
+    label: pata
+    summary: Zadní část chodidla; nese váhu celého těla při stoji.
+    info: |
+      Pata (calcaneus) je největší kost chodidla.
+      Při stoji nese většinu váhy těla.
+      Patní kost je spojena s Achillovou šlachou.
+      Bolest paty (plantární fasciitida) je jednou z nejčastějších potíží chodidla.
+
+  body.palm:
+    label: dlaň
+    summary: Vnitřní plocha ruky; oblast nejhustšich hmatových receptorů.
+    info: |
+      Dlaň je vnitřní plocha ruky mezi prsty a zápěstím.
+      Obsahuje velmi hustou sít hmatových receptorů (Meissnerova tělíska).
+      Na dlani nejsou vlasové folikuly ani mazové žlázy.
+      Čarování z dlaně (chiromantie) je staroveká praktika čtení osudu z linek dlaně.
+
+  body.forehead:
+    label: čelo
+    summary: Přední část lebky nad obočím; plocha pro výraz emocí.
+    info: |
+      Čelo je přední část lebky nad obočím a pod vlasovou linií.
+      Je jednou z nejviditelnějších oblastí při výrazu emocí; svraštění čela vyjadřuje znepokojení.
+      U mnoha kultur bylo označení na čele symbolické (přísaha, kasta).
+      V neurologii je čelní lalok mozku spojen s plánováním a rozhodováním.
+
+  body.chin:
+    label: brada
+    summary: Dolní část obličeje pod dolním rtem.
+    info: |
+      Brada je nejspodnější část obličeje tvořená dolní čelistí.
+      U lidí je výrazná brada (prominence menti) jedinečná vlastnost v živočišné říši; jiné primáti ji nemají.
+      Proč máme bradu, je stále předmětem vědecké debaty.
+      V angličtině se výraz chin up používá jako povzbuzení k optimismu.
+
+  body.cheek:
+    label: tvář
+    summary: Tučnatá oblast na bocích obličeje; vyjadřuje rudnutím emoce.
+    info: |
+      Tvář (líce) je oblast na bocích obličeje obsahující lícní kost a tukové polštářky.
+      Rudnutí tváří (erytém) je automatická fyziologická reakce na emoce, jako jsou stud nebo vzrušení.
+      Tváře miminek jsou záměrně drobné a tučné; evoluční adaptace vzbuzující rodičovskou náklonnost.
+      Na tvář se přibližuje líbání ve většině kultur světa.
+
+  body.tongue:
+    label: jazyk
+    summary: Svalový orgán v ústech pro chuť, žvýkání a řeč.
+    info: |
+      Jazyk je svalový orgán pokrytý chuťovými pohárky (přes 10 000).
+      Umožňuje chuťové vnímání pěti základních chutí: sladké, slané, kyselé, hořké a umami.
+      Je klíčový pro artikulaci řeči a pomáhá při polykání.
+      Jazyk je nejrychlejší sval v těle; pracuje i při mluvení rychlostí přes 100 km/h.
+
+  body.tooth:
+    label: zub
+    summary: Tvrdá struktura v ústech k žvýkání potravy.
+    info: |
+      Zub je tvrdá struktura tvořená sklovinou (nejtvrdší tkáň těla), dentinem a dřeňovou dutinou.
+      Člověk má ve stálém chrupu 32 zubů.
+      Skloviná se po ztrátě neobnoví; prevence je klíčová.
+      Nejstarší zachované lidské zuby jsou staré přes dva miliony let a pomáhají rekonstruovat evoluci.
+
+  body.lip:
+    label: ret
+    summary: Jedna ze dvou masitých okrajů ústního otvoru.
+    info: |
+      Ret je jedna ze dvou měkkých svalnatých tkání ohraničujících ústa.
+      Jsou zásobeny mnoha nervovými zakončeními a jsou velmi citlivé.
+      Barva rtů je způsobena prokrvením; modravé rty mohou signalizovat nedostatek kyslíku.
+      Rty jsou klíčové pro mimiku, polibky i výslovnost hlásek p, b, m.
+
+  body.eyebrow:
+    label: obočí
+    summary: Pás chlupů nad každým okem; klíčové pro výraz obličeje.
+    info: |
+      Obočí je pás chlupů nad horním víčkem oka.
+      Je klíčové pro neverbální komunikaci; pohybem obočí vyjadřujeme širší škálu emocí.
+      Funkčně chrání oko před potem a deštěm.
+      Výzkumy ukazují, že lidé obtížněji rozeznávají tváře bez obočí než tváře bez očí.
+
+  body.hair:
+    label: vlasy
+    summary: Vlákna rostoucí z vlasové pokožky na hlavě.
+    info: |
+      Vlasy jsou vlákna z keratinu rostoucí z vlasových folikulů na hlavě.
+      Člověk má průměrně 100 000 vlasů na hlavě; každý den jich vypadne 50 až 100.
+      Roste přibližně 1,25 cm za měsíc.
+      Barva vlasů je dána pigmentem melaninem; šednutí nastává, když folikuly přestanou melanin produkovat.
+
+  body.nail:
+    label: nehet
+    summary: Tvrdá keratinová destička na konci prstů rukou a nohou.
+    info: |
+      Nehet je tvrdá destička z keratinu na konci každého prstu.
+      Chrání citlivé konečky prstů a zlepšují úchop drobných předmětů.
+      Narůstají přibližně 3 mm za měsíc; nehty na rukou rostou rychleji než na nohou.
+      Stav nehtů odráží zdravotní stav: bílé skvrny, rýhy nebo zbarvení mohou signalizovat nemoc.
+
+  body.brain:
+    label: mozek
+    summary: Řídicí centrum těla; nejkomplexnější biologická struktura ve vesmíru.
+    info: |
+      Lidský mozek váží přibližně 1,4 kg a obsahuje přes 86 miliard neuronů.
+      Je rozdělen na dvě hemisféry; levá ovládá pravou stranu těla a vice versa.
+      Spoléhá na 20 % energie celého těla přesto, že tvoří jen 2 % hmotnosti.
+      Mozek je jedinou tkání v těle, která necítí bolest (nemá nociceptory).
+
+  body.lung:
+    label: plíce
+    summary: Párový orgán hrudní dutiny přijímající kyslík z vzduchu.
+    info: |
+      Plíce jsou párový orgán v hrudní dutině tvořený miliony plicních sklípků (alveolů).
+      Plocha celkového povrchu alveolů v plicích je přibližně 70 m².
+      Dospělý člověk dýchá 12 až 20x za minutu a přijme 500 ml vzduchu při každém nádechu.
+      Pravá plíce je větší než levá, protože srdce zaujímá část místa na levé straně.
+
+  body.liver:
+    label: játra
+    summary: Největší vnitřní orgán těla; chemická laboratoř organismu.
+    info: |
+      Játra jsou největší vnitřní orgán vážící přes 1,5 kg.
+      Plní přes 500 funkcí: filtrují krev, produkují žluč, syntetizují bílkoviny a ukládají glykogen.
+      Jsou jediným orgánem schopným kompletní regenerace ze zbytku tkáně.
+      Velké množství alkoholu nebo toxinů může způsobit cirhózu (jizevnaté poškození jater).
+
+  body.kidney:
+    label: ledvina
+    summary: Párový orgán filtrující krev a produkující moč.
+    info: |
+      Ledviny jsou párový orgán ve tvaru fazole umístěný v zadní části břišní dutiny.
+      Filtrují přes 180 litrů krve denně a produkují 1 až 2 litry moče.
+      Obsahují přes milion filtrační jednotek (nefronů).
+      Ledviny regulují krevní tlak, rovnováhu elektrolytů a produkci červených krvinek.
+
+  body.spine:
+    label: páteř
+    summary: Sloupec 33 obratlů chránící míchu a podporující tělo.
+    info: |
+      Páteř je sloupec 33 obratlů spojujících lebku s kostrčí.
+      Chrání míchu a slouží jako hlavní opora těla.
+      Mezi obratli jsou meziobratlové ploténky fungující jako tlumivče nárazů.
+      Přirozené zakřivení páteře (lordóza, kyfóza) je adaptací pro vzpřímenou chůzi.
+
+  body.bone:
+    label: kost
+    summary: Tvrdá pojivová tkáň tvořící kostru; živý orgán obsahující dřeň.
+    info: |
+      Kost je tvrdá tkáň tvořená kostními buňkami a minerálními solemi (vápník, fosfor).
+      Lidská kostra má 206 kostí v dospělosti; dítě jich má přes 300 (mnoho srostí).
+      Kostní dřeň produkuje červené krvinky, bílé krvinky a krevní destičky.
+      Kosti jsou živá tkáň; neustále se přestavují a hojí po zlomeninách.
+
+  body.muscle:
+    label: sval
+    summary: Stažlivá tkáň umožňující pohyb těla.
+    info: |
+      Sval je tkáň schopná kontrakce, umožňující pohyb těla.
+      Lidské tělo má přes 600 svalů tvořících 40 % tělesné hmotnosti.
+      Nejsilnější sval je žvýkací sval (masseter); nejmenší je třmínkový sval ve středním uchu.
+      Svaly jsou trojího druhu: kosterní (ovladatelné), hladké (vnitřní orgány) a srdeční.
+
+  body.skin:
+    label: kůže
+    summary: Největší orgán těla; ochrana, termoregulace a hmat.
+    info: |
+      Kůže je největší orgán lidského těla a pokrývá plochu přibližně 2 m².
+      Plní funkce: ochrana před infekcí, UV záření, termoregulace, hmat a syntéza vitamínu D.
+      Obnova buněk vnější vrstvy trvá přibližně 2 až 4 týdny.
+      Kůže je domovem přes milion bakterií na 1 cm² povrchu.
+
+  body.throat:
+    label: hrdlo
+    summary: Dutina spojující ústa s jícnem a průdušnicí.
+    info: |
+      Hrdlo (hltan) je dutina za nosem a ústy sloužící jako cesta pro vzduch i potravu.
+      Obsahuje mandle (tonzily) jako součást imunitního systému.
+      Hltanový reflex (gag reflex) brání vdechnutí cizích těles.
+      Angína a záněty hrdla jsou jedny z nejčastějších dětských onemocnění.
+
+  body.calf:
+    label: lýtko
+    summary: Zadní část dolní nohy mezi kolenem a kotníkem.
+    info: |
+      Lýtko je zadní svalová část dolní nohy mezi kolenem a kotníkem.
+      Hlavní sval lýtka (gastrocnemius) umožňuje stoupání na špičky a odraz při skoku.
+      Lýtko je klíčové pro venózní návrat krve ze spodních končetin k srdci.
+      Křeče lýtka jsou časté u sportovců i těhotných žen.
+
+  body.thigh:
+    label: stehno
+    summary: Část nohy mezi kyčlí a kolenem; největší svalová skupina.
+    info: |
+      Stehno je část dolní končetiny mezi kyčelním a kolenním kloubem.
+      Obsahuje nejsilnější svalovou skupinu těla: čtyřhlavý sval stehenní (quadriceps) a hamstringy.
+      Stehenní kost (femur) je nejdelší a nejsilnější kost v těle.
+      Zraněné stehenní kosti nebo svaly výrazně omezují pohyblivost.
+
+  body.belly_button:
+    label: pupík
+    summary: Jizva uprostřed břicha po přestřižení pupečníku.
+    info: |
+      Pupík (umbilicus) je jizva v místě přichycení pupečníku, přes nějž plod přijímal živiny od matky.
+      Jeho tvar (vpadlý nebo vypouklý) závisí na způsobu zahojení.
+      Pupík hostí specifické mikrobiální společenstvo; výzkumy zaznamenaly unikátní bakterie.
+      V kulturách celého světa má pupík symbolický i spirituální charakter.
+
+  body.temple:
+    label: spánek
+    summary: Měkká oblast na bocích čela nad lícní kostí.
+    info: |
+      Spánek je oblast na bocích hlavy nad lícní kostí a před uchem.
+      Je anatomicky měkčí část lebky (squamózní část spánkové kosti) a zranitelná vůči nárazům.
+      Spánkové tepny (temporální) jsou dobře hmatatelné při klepání srdce.
+      Svalový sval (temporalis) se přikládá zde a slouží k žvýkání.
+
+  body.jaw:
+    label: čelist
+    summary: Dolní kost obličeje pohybující se při žvýkání a mluvení.
+    info: |
+      Čelist (mandibula) je jediná pohyblivá kost lebky.
+      Umožňuje žvýkání, polykání a mluvení.
+      TMJ (temporomandibulární kloub) je jedním z nejkomplexnějších kloubů těla.
+      Bolesti čelisti mohou být způsobeny skřípáním zubů (bruxismus) nebo zánětem kloubu.
+
+  body.eyelash:
+    label: řasa
+    summary: Řada zakřivených chlupů na okraji víčka chránící oko.
+    info: |
+      Řasy jsou krátké zakřivené chlupy rostoucí na okrajích víček.
+      Chrání oko před prachem, potem a cizorodými předměty.
+      Dospělý člověk má 100 až 150 řas na horním víčku a 50 až 75 na dolním.
+      Řasy se obnoví přibližně za 4 až 8 týdnů.
+
+  body.vein:
+    label: žíla
+    summary: Céva vedoucí odkysličenou krev k srdci; viditelná na zápěstí.
+    info: |
+      Žíla je krevní céva vedoucí krev zpět k srdci.
+      Na rozdíl od tepen mají žíly chlopně bránící zpětnému toku krve.
+      Modravé zbarvení žil na zápěstí je optický efekt; krev v žilách je tmavě červená, nikoli modrá.
+      Křečové žíly vznikají selháním chlopní.
+

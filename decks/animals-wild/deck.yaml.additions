@@ -1,0 +1,395 @@
+  - key: animal.bear
+    hint: large omnivorous mammal (Ursidae), not the teddy bear toy
+    image: animal.bear.png
+    brief:
+      subject: brown bear
+      attrs: [large, standing on all fours, thick fur, alert]
+      setting: [forest, pine trees, dappled light]
+      avoid: [text, humans, circus, zoo]
+
+  - key: animal.tiger
+    hint: largest wild cat with orange and black stripes (Panthera tigris)
+    image: animal.tiger.png
+    brief:
+      subject: Bengal tiger
+      attrs: [orange and black stripes, prowling, powerful]
+      setting: [jungle undergrowth, dappled sunlight, tall grass]
+      avoid: [text, humans, cage]
+
+  - key: animal.hippopotamus
+    hint: large semi-aquatic African mammal (Hippopotamus amphibius)
+    image: animal.hippopotamus.png
+    brief:
+      subject: hippopotamus
+      attrs: [massive, grey, mouth open showing teeth, standing in water]
+      setting: [river, muddy water, African riverbank]
+      avoid: [text, cartoon, humans]
+
+  - key: animal.rhinoceros
+    hint: large thick-skinned African or Asian mammal with one or two horns
+    image: animal.rhinoceros.png
+    brief:
+      subject: white rhinoceros
+      attrs: [massive, grey, two horns, standing]
+      setting: [savanna, dry grass, open plain]
+      avoid: [text, humans, zoo]
+
+  - key: animal.gorilla
+    hint: largest living primate, great ape from central Africa (Gorilla)
+    image: animal.gorilla.png
+    brief:
+      subject: silverback gorilla
+      attrs: [large, black fur, silver back, sitting upright, powerful]
+      setting: [jungle, dense vegetation, green leaves]
+      avoid: [text, humans, zoo cage]
+
+  - key: animal.chimpanzee
+    hint: our closest living relative, great ape (Pan troglodytes)
+    image: animal.chimpanzee.png
+    brief:
+      subject: chimpanzee
+      attrs: [brown-black fur, expressive face, sitting in tree]
+      setting: [tropical forest, tree branches, green canopy]
+      avoid: [text, humans, clothing]
+
+  - key: animal.kangaroo
+    hint: large jumping marsupial native to Australia (Macropus)
+    image: animal.kangaroo.png
+    brief:
+      subject: red kangaroo
+      attrs: [upright posture, large hind legs, long tail, joey in pouch]
+      setting: [Australian outback, red earth, dry scrub]
+      avoid: [text, humans, zoo]
+
+  - key: animal.koala
+    hint: tree-dwelling marsupial that eats eucalyptus leaves (Phascolarctos cinereus)
+    image: animal.koala.png
+    brief:
+      subject: koala
+      attrs: [fluffy grey fur, large round ears, clinging to branch, sleepy]
+      setting: [eucalyptus tree, green leaves, Australian bush]
+      avoid: [text, humans, zoo]
+
+  - key: animal.giant_panda
+    hint: black and white bear native to China (Ailuropoda melanoleuca)
+    image: animal.giant_panda.png
+    brief:
+      subject: giant panda
+      attrs: [black and white markings, sitting, eating bamboo]
+      setting: [bamboo forest, green bamboo stalks, calm]
+      avoid: [text, humans, zoo enclosure]
+
+  - key: animal.cheetah
+    hint: fastest land animal, spotted big cat (Acinonyx jubatus)
+    image: animal.cheetah.png
+    brief:
+      subject: cheetah
+      attrs: [slender, black spots on golden coat, sitting alert, tear marks on face]
+      setting: [savanna, short grass, golden light]
+      avoid: [text, humans, cage]
+
+  - key: animal.leopard
+    hint: solitary spotted big cat (Panthera pardus), not a cheetah
+    image: animal.leopard.png
+    brief:
+      subject: leopard
+      attrs: [rosette spots, muscular, draped on tree branch, alert]
+      setting: [African savanna tree, branches, golden hour light]
+      avoid: [text, humans, cage, cheetah markings]
+
+  - key: animal.jaguar
+    hint: largest American cat with rosette spots (Panthera onca)
+    image: animal.jaguar.png
+    brief:
+      subject: jaguar
+      attrs: [stocky build, rosette spots, walking, powerful]
+      setting: [tropical rainforest, dense jungle floor, dappled light]
+      avoid: [text, humans, spotted like cheetah]
+
+  - key: animal.hyena
+    hint: African carnivore known for its laugh-like call (Crocuta crocuta)
+    image: animal.hyena.png
+    brief:
+      subject: spotted hyena
+      attrs: [brown with spots, sloping back, large head, alert]
+      setting: [savanna, dry grass, rocky ground]
+      avoid: [text, humans, prey animal]
+
+  - key: animal.buffalo
+    hint: African Cape buffalo (Syncerus caffer), not American bison
+    image: animal.buffalo.png
+    brief:
+      subject: African Cape buffalo
+      attrs: [large, dark grey-brown, curved horns, standing]
+      setting: [savanna, grass, watering hole nearby]
+      avoid: [text, humans, American bison]
+
+  - key: animal.bison
+    hint: North American bison (Bison bison), the American buffalo
+    image: animal.bison.png
+    brief:
+      subject: American bison
+      attrs: [massive hump, shaggy brown mane, large head, standing]
+      setting: [Great Plains, tall grass, open prairie]
+      avoid: [text, humans, African buffalo]
+
+  - key: animal.moose
+    hint: largest member of the deer family with broad antlers (Alces alces)
+    image: animal.moose.png
+    brief:
+      subject: bull moose
+      attrs: [very large, broad palmate antlers, long nose, dark brown]
+      setting: [boreal forest, lake shore, conifer trees]
+      avoid: [text, humans, hunting]
+
+  - key: animal.deer
+    hint: graceful hoofed mammal with antlers (Cervidae family), the red deer
+    image: animal.deer.png
+    brief:
+      subject: red deer stag
+      attrs: [slender, reddish-brown coat, large antlers, standing]
+      setting: [autumn forest, golden leaves, morning light]
+      avoid: [text, hunting, humans]
+
+  - key: animal.fox
+    hint: small red wild canine with a bushy tail (Vulpes vulpes)
+    image: animal.fox.png
+    brief:
+      subject: red fox
+      attrs: [reddish-orange fur, white chest, bushy tail, alert ears]
+      setting: [autumn forest edge, fallen leaves, soft light]
+      avoid: [text, humans, pet collar]
+
+  - key: animal.raccoon
+    hint: North American omnivore with black eye mask and striped tail (Procyon lotor)
+    image: animal.raccoon.png
+    brief:
+      subject: raccoon
+      attrs: [black eye mask, grey fur, ringed tail, sitting]
+      setting: [forest, tree trunk, night setting]
+      avoid: [text, humans, urban trash]
+
+  - key: animal.otter
+    hint: semi-aquatic mammal with sleek fur that loves rivers (Lutrinae)
+    image: animal.otter.png
+    brief:
+      subject: river otter
+      attrs: [sleek brown fur, playful, floating on back, webbed paws]
+      setting: [river, water surface, rocks, sunlight]
+      avoid: [text, humans, aquarium]
+
+  - key: animal.beaver
+    hint: large semi-aquatic rodent that builds dams (Castor fiber / Castor canadensis)
+    image: animal.beaver.png
+    brief:
+      subject: beaver
+      attrs: [large flat tail, brown fur, gnawing, stout body]
+      setting: [river bank, log dam, water, willow trees]
+      avoid: [text, humans, zoo]
+
+  - key: animal.meerkat
+    hint: small social mongoose from southern African deserts (Suricata suricatta)
+    image: animal.meerkat.png
+    brief:
+      subject: meerkat
+      attrs: [standing upright on hind legs, slender, brown and tan, alert]
+      setting: [Kalahari desert, sandy ground, open sky]
+      avoid: [text, humans, zoo]
+
+  - key: animal.warthog
+    hint: wild African pig with tusks and facial warts (Phacochoerus africanus)
+    image: animal.warthog.png
+    brief:
+      subject: warthog
+      attrs: [grey, curved tusks, facial warts, tufted tail raised while running]
+      setting: [savanna, dry grass, red earth]
+      avoid: [text, humans, domestic pig]
+
+  - key: animal.wildebeest
+    hint: large African antelope known for mass migration (Connochaetes)
+    image: animal.wildebeest.png
+    brief:
+      subject: blue wildebeest
+      attrs: [grey-blue coat, curved horns, bearded chin, sturdy]
+      setting: [savanna, grass plain, dust, herd in background]
+      avoid: [text, humans, zoo]
+
+  - key: animal.baboon
+    hint: large ground-dwelling Old World monkey (Papio), with dog-like muzzle
+    image: animal.baboon.png
+    brief:
+      subject: olive baboon
+      attrs: [dog-like muzzle, brown-olive fur, sitting, expressive]
+      setting: [savanna rocks, open plain, African landscape]
+      avoid: [text, humans, zoo cage]
+
+  - key: animal.mandrill
+    hint: colourful-faced monkey with blue and red face (Mandrillus sphinx)
+    image: animal.mandrill.png
+    brief:
+      subject: mandrill
+      attrs: [vivid blue and red face, olive-brown body, powerful, sitting]
+      setting: [tropical rainforest, undergrowth, dark background]
+      avoid: [text, humans, zoo]
+
+  - key: animal.orangutan
+    hint: large orange-haired great ape from Borneo and Sumatra (Pongo)
+    image: animal.orangutan.png
+    brief:
+      subject: Bornean orangutan
+      attrs: [long orange-red hair, long arms, climbing, expressive face]
+      setting: [tropical rainforest canopy, thick branches, green leaves]
+      avoid: [text, humans, zoo cage]
+
+  - key: animal.camel
+    hint: large desert ungulate with one or two humps (Camelus)
+    image: animal.camel.png
+    brief:
+      subject: dromedary camel
+      attrs: [one hump, sandy-brown, standing, large padded feet]
+      setting: [desert, sand dunes, hot sun, blue sky]
+      avoid: [text, humans, saddle, two-humped]
+
+  - key: animal.polar_bear
+    hint: Arctic white bear (Ursus maritimus), world's largest land carnivore
+    image: animal.polar_bear.png
+    brief:
+      subject: polar bear
+      attrs: [white thick fur, large, walking on ice, powerful]
+      setting: [Arctic ice, snow, grey-blue sky, frozen sea]
+      avoid: [text, humans, zoo, brown bear]
+
+  - key: animal.reindeer
+    hint: deer species with antlers on both sexes, called caribou in North America (Rangifer tarandus)
+    image: animal.reindeer.png
+    brief:
+      subject: reindeer
+      attrs: [brown coat, large broad antlers, hooves, standing in snow]
+      setting: [snowy tundra, pine trees, winter sky]
+      avoid: [text, Christmas harness, sleigh, humans]
+
+  - key: animal.gazelle
+    hint: slender African antelope with lyre-shaped horns (Gazella)
+    image: animal.gazelle.png
+    brief:
+      subject: Thomson's gazelle
+      attrs: [slender, tan coat, black side stripe, curved horns, alert]
+      setting: [East African savanna, short grass, open plain]
+      avoid: [text, humans, predator]
+
+  - key: animal.lynx
+    hint: medium-sized wild cat with ear tufts and a short tail (Lynx)
+    image: animal.lynx.png
+    brief:
+      subject: Eurasian lynx
+      attrs: [spotted grey-brown coat, ear tufts, short tail, piercing eyes]
+      setting: [boreal forest, snow, pine trees, winter]
+      avoid: [text, humans, domestic cat]
+
+  - key: animal.wolverine
+    hint: stocky solitary mustelid known for strength and ferocity (Gulo gulo)
+    image: animal.wolverine.png
+    brief:
+      subject: wolverine
+      attrs: [stocky, dark brown with pale side stripes, powerful claws, walking]
+      setting: [boreal forest, snow, rocky terrain]
+      avoid: [text, humans, comic book character]
+
+  - key: animal.coyote
+    hint: North American wild canine, smaller and leaner than a wolf (Canis latrans)
+    image: animal.coyote.png
+    brief:
+      subject: coyote
+      attrs: [grey-brown coat, lean build, pointed snout, alert ears, sitting]
+      setting: [American grassland, dry scrub, dusk sky]
+      avoid: [text, humans, dog, wolf]
+
+  - key: animal.snow_leopard
+    hint: elusive spotted big cat of Central Asian mountains (Panthera uncia)
+    image: animal.snow_leopard.png
+    brief:
+      subject: snow leopard
+      attrs: [pale grey spotted coat, thick tail, mountain terrain, crouching]
+      setting: [rocky mountain peaks, snow, grey stone, dramatic sky]
+      avoid: [text, humans, cage, regular leopard]
+
+  - key: animal.wild_boar
+    hint: wild pig of Europe and Asia, ancestor of the domestic pig (Sus scrofa)
+    image: animal.wild_boar.png
+    brief:
+      subject: wild boar
+      attrs: [dark bristly coat, curved tusks, stocky, rooting in ground]
+      setting: [deciduous forest, leaf litter, mud]
+      avoid: [text, humans, domestic pig]
+
+  - key: animal.giant_anteater
+    hint: large insectivore with a very long snout and tongue (Myrmecophaga tridactyla)
+    image: animal.giant_anteater.png
+    brief:
+      subject: giant anteater
+      attrs: [elongated snout, bushy tail, coarse grey and black fur, walking]
+      setting: [South American grassland, savanna, dry grass]
+      avoid: [text, humans, zoo]
+
+  - key: animal.tapir
+    hint: stocky forest mammal with a short prehensile snout (Tapirus)
+    image: animal.tapir.png
+    brief:
+      subject: Malayan tapir
+      attrs: [black and white bicolor coat, pig-like snout, stocky, standing]
+      setting: [tropical rainforest, undergrowth, green vegetation]
+      avoid: [text, humans, zoo]
+
+  - key: animal.okapi
+    hint: forest giraffe of Congo with zebra-striped legs (Okapia johnstoni)
+    image: animal.okapi.png
+    brief:
+      subject: okapi
+      attrs: [dark chestnut body, white-striped legs, long tongue, deer-like]
+      setting: [Congo rainforest, dense vegetation, dappled light]
+      avoid: [text, humans, zoo]
+
+  - key: animal.aardvark
+    hint: nocturnal African insectivore with a long pig-like snout (Orycteropus afer)
+    image: animal.aardvark.png
+    brief:
+      subject: aardvark
+      attrs: [long tubular snout, large ears, grey-pink skin, digging]
+      setting: [African plain, sandy soil, night setting]
+      avoid: [text, humans, anteater]
+
+  - key: animal.sloth
+    hint: slow tree-dwelling mammal from Central and South America (Folivora)
+    image: animal.sloth.png
+    brief:
+      subject: three-toed sloth
+      attrs: [shaggy pale greenish fur, long claws, hanging upside down, sleepy face]
+      setting: [tropical rainforest, tree branch, green canopy]
+      avoid: [text, humans, zoo]
+
+  - key: animal.capybara
+    hint: world's largest rodent, semi-aquatic and native to South America (Hydrochoerus hydrochaeris)
+    image: animal.capybara.png
+    brief:
+      subject: capybara
+      attrs: [large, barrel-shaped, brown coarse fur, calm, sitting near water]
+      setting: [South American riverbank, green vegetation, calm water]
+      avoid: [text, humans, zoo]
+
+  - key: animal.armadillo
+    hint: armoured mammal with bony plates native to the Americas (Dasypodidae)
+    image: animal.armadillo.png
+    brief:
+      subject: nine-banded armadillo
+      attrs: [bony armoured shell, small ears, scaly tail, walking]
+      setting: [American scrubland, dry soil, leaf litter]
+      avoid: [text, humans, curled into ball]
+
+  - key: animal.fennec_fox
+    hint: tiny desert fox with enormous ears (Vulpes zerda)
+    image: animal.fennec_fox.png
+    brief:
+      subject: fennec fox
+      attrs: [cream-coloured fur, enormous round ears, small pointed snout, big eyes]
+      setting: [Sahara desert, sand, night sky, moonlight]
+      avoid: [text, humans, pet collar, red fox]

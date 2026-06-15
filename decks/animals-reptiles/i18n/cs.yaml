@@ -34,3 +34,382 @@ cards:
     label: mlok
     summary: Obojživelník s lesklou kůží a dlouhým ocasem.
     info: Mlok skvrnitý je chráněný středoevropský obojživelník se žlutočernými skvrnami. Vylučuje jedovaté látky z kůže a žije ve vlhkých lesích.
+
+  reptile.alligator:
+    label: aligátor
+    summary: Velký krokodýlovec s kulatým čumákem žijící v USA a Číně.
+    info: |
+      Aligátor americký je jedním ze dvou žijících druhů aligátorů; druhý je menší čínský aligátor.
+      Od krokodýlů ho odlišuje širší kulatý čumák a to, že při zavřeném chrupu nejsou vidět zuby.
+      Žije v bažinách, řekách a jezerech jihovýchodní USA.
+      Je důležitým vrcholovým predátorem a ochráncem mokřadních ekosystémů.
+
+  reptile.python:
+    label: krajta
+    summary: Velký nejedovatý had škrtící svou kořist.
+    info: |
+      Krajty jsou nejdelší hadi světa; krajta mřížkovaná dosahuje délky přes 7 metrů.
+      Zabíjí kořist škrcením, nikoli jedem; ochrnou ji kolem krku a trupu.
+      Mají tepelné receptory (infralochy) umožňující detekci teplokrevné kořisti i ve tmě.
+      Krajta barmská je invazní druh na Floridě, kde decimuje divou zvěř.
+
+  reptile.cobra:
+    label: kobra
+    summary: Jedovatý had s charakteristickým kapucí; jedovatý výstražný posed.
+    info: |
+      Kobra je jedovatý had ze skupiny Elapidae proslulý schopností rozepnout kůži za hlavou do kapuce jako varování.
+      Jed (neurotoxin) ochromuje nervový systém kořisti.
+      Kobra brýlová je národním symbolem Egypta a Indie.
+      Kobra chrlící jed (Naja nigricollis) dokáže plivat jed na vzdálenost přes dva metry, cílí na oči.
+
+  reptile.boa_constrictor:
+    label: hroznýš královský
+    summary: Velký jihoamerický had škrtící kořist v objemu těla.
+    info: |
+      Hroznýš královský je velký nejedovatý jihoamerický had.
+      Kořist zabíjí tak, že se kolem ní ovine a při každém výdechu kořisti stiskne svaly silněji, čímž zabrání nádechu.
+      Je populárním exotickým mazlíčkem díky klidné povaze.
+      Dosahuje délky 2 až 4 metrů a žije přes 30 let.
+
+  reptile.monitor_lizard:
+    label: varan
+    summary: Velká aktivní predátorská ještěrka s rozdvojeným jazykem.
+    info: |
+      Varan je velká ještěrka z rodu Varanus s bifurkovaným (rozdvojeným) jazykem sloužícím jako čichový organ.
+      Komodo varan je největší žijící ještěrka na světě (délka přes 3 metry).
+      Varani jsou inteligentní; vědci zaznamenali použití jednoduchých nástrojů.
+      Varani nilský decimují populace krokodýlů konzumováním jejich vajíček.
+
+  reptile.iguana:
+    label: leguán zelený
+    summary: Velká zelená ještěrka tropické Ameriky s ostnatým hřebenem.
+    info: |
+      Leguán zelený je velká bylinožravá ještěrka z tropické Ameriky dorůstající až 2 metrů.
+      Má třetí oko na temeni (parietální oko) citlivé na světelné změny.
+      Je sociální; hierarchie dominance se projevuje tlačením hlavy a barvou těla.
+      Je ohrožen hlavně ztrátou přirozeného prostředí; v zajetí se chová jako agresivní dospělec.
+
+  reptile.tuatara:
+    label: tuatara
+    summary: Novozélandský živoucí fossil, jediný přeživší z řádu Rhynchocephalia.
+    info: |
+      Tuatara je jeden z nejstarších plazů světa; jeho řád existoval v době dinosaurů.
+      Žije výhradně na ostrovech Nového Zélandu.
+      Roste extrémně pomalu; pohlavní zralosti dosahuje až v 10 až 20 letech.
+      Nejstarší jedinci dosahují věku přes 100 let a třetí oko u mláďat je funkční.
+
+  reptile.skink:
+    label: skink
+    summary: Ještěr s hladkými lesklými šupinami a krátkýma nohama.
+    info: |
+      Scinky jsou velká čeleď ještěrů s přes 1 500 druhy a vyznačují se hladkými cykloidními šupinami.
+      Některé druhy jsou nohama zakrnělé nebo zcela beznohé.
+      Modrojazyčný skink australský vyplazuje výrazně modrý jazyk jako varovný signál predátorům.
+      Žijí na různých biotopech od tropů po pouště.
+
+  reptile.anole:
+    label: anolis
+    summary: Malá americká ještěrka měnící barvu; samec má výrazné laloky.
+    info: |
+      Anolis je rod malých ještěrek z Ameriky s přes 400 druhy.
+      Samci mají barevný hrdelní lalok (dewlap), kterým komunikují a přitahují samice.
+      Zelený anolis může měnit barvu z zelené na hnědou v závislosti na teplotě a emocích.
+      Jsou rychlí a agil ní; dokáží šplhat po skle díky adhezivním podušičkám.
+
+  reptile.komodo_dragon:
+    label: komodský drak
+    summary: Největší žijící ještěrka světa z indonéského ostrova Komodo.
+    info: |
+      Komodský drak je největší žijící ještěrka dosahující délky přes 3 metry a hmotnosti přes 70 kg.
+      Historicky se věřilo, že zabíjí bakteriemi v slinách; ve skutečnosti má jedovaté žlázy.
+      Loví jeleny, prasata a dokonce buvoly.
+      Žije jen na několika indonéských ostrovech a je kriticky ohrožen.
+
+  reptile.caiman:
+    label: kajman
+    summary: Jihoamerický krokodýlovec menší než krokodýl nebo aligátor.
+    info: |
+      Kajman brýlový je nejrozšířenější krokodýlovec Jižní Ameriky.
+      Je menší než pravé krokodýly; dorůstá délky do 2,5 metru.
+      Žije v tropických řekách, jezerech a bažinách od Mexika po Argentinu.
+      Je lovejn pro kůži; stavy jsou kvůli tomu ohroženy v některých oblastech.
+
+  reptile.gharial:
+    label: gaviál
+    summary: Krokodýlovec s extrémně úzkým zobákem specializovaný na ryby.
+    info: |
+      Gaviál je krokodýlovec z Indie s charakteristicky velmi dlouhým a úzkým čenichem, přizpůsobeným k lovu ryb.
+      Samci mají na špičce čenichu výrůstek (ghara).
+      Je kriticky ohrožen; žije pouze v řekách severní Indie a Nepálu.
+      Patří k nejstarším krokodýlovcům a byl rozšířen téměř po celé Asii.
+
+  reptile.horned_lizard:
+    label: ještěrka rohatá
+    summary: Plochá trnová ještěrka ze severoamerických pouští s rohy na hlavě.
+    info: |
+      Rohatá ještěrka (Phrynosoma) je plochá trnitá ještěrka žijící v pouštích jihozápadu USA a Mexika.
+      Při ohrožení dokáže vystříknout krev z očí na vzdálenost přes metr jako obranný mechanismus.
+      Je špatně pohyblivá; spoléhá na kamufláž.
+      Je ohrožena pesticidy, které ničí její hlavní potravu, mravence.
+
+  reptile.gila_monster:
+    label: heloderm
+    summary: Jedovatá podsaditá ještěrka amerického jihozápadu s mozaikovitou kůží.
+    info: |
+      Heloderm Gila (Heloderma suspectum) je jedním z mála jedovatých ještěrek světa.
+      Má korálkovou kůži s oranžovočerným vzorem jako varování.
+      Jed vpravuje soustavou drážek v zubech, nikoli dutými zuby jako hadi.
+      Žije pomalu a lazebně; vydaje málo energie a jí jen několikrát ročně.
+
+  reptile.rattlesnake:
+    label: chřestýš
+    summary: Jedovatý had s chřestítkem na konci ocasu jako varováním.
+    info: |
+      Chřestýš je jedovatý had ze skupiny zmijovitých s charakteristickým chřestítkem na konci ocasu.
+      Chřestítko je tvořeno zrohovělými články a při ohrožení slouží jako varování.
+      Má tepelné receptory (jamky) umožňující detekci teplokrevné kořisti i ve tmě.
+      Jeho kousnutí vyžaduje okamžité lékařské ošetření.
+
+  reptile.viper:
+    label: zmije
+    summary: Jedovatá zmijovitá šelma s trojúhelníkovou hlavou a vinutým tělem.
+    info: |
+      Zmije obecná je jediný jedovatý had přirozeně vyskytující se v Česku.
+      Je poznatelná podle klikatého vzoru na hřbetě a zásekovitých žihadlových zubů.
+      Bodnutí je bolestivé a vyžaduje lékařský dozor, ale je zřídkakdy smrtelné pro zdravého dospělého.
+      Je chráněna zákonem; v Česku se nesmí chytit ani zabít.
+
+  reptile.tree_frog:
+    label: rosnička
+    summary: Stromová žabka s přísavkami na prstech lezoucí po listech.
+    info: |
+      Rosnička zelená je malá žabka ze skupiny Hylidae s přísavkami na konečcích prstů umožňujícími šplhání po hladkých površích.
+      V Česku žije jedna původní rosnička obecná; je chráněna zákonem.
+      Mění barvu z zelené na šedou nebo hnědou v závislosti na teplotě a vlhkosti.
+      Vydává hlasitý krátkání zpěv především v noci a před deštěm.
+
+  reptile.poison_dart_frog:
+    label: pralesnička
+    summary: Malá jasně zbarvená jedovatá žabka tropické Ameriky.
+    info: |
+      Pralesnička je malá žabka ze skupiny Dendrobatidae žijící v tropických lesích Střední a Jižní Ameriky.
+      Její jasné barvy (červená, modrá, žlutá) slouží jako varování jedovatosti (apozematismus).
+      Některé druhy jsou nejjedovatějšími obratlovci světa.
+      Indiáni si jejich jedem otrávali šipky (odtud poison dart frog).
+
+  reptile.axolotl:
+    label: axolotl
+    summary: Mexický vodní mloček uchovávající larválné rysy celý život.
+    info: |
+      Axolotl je vodní mloček z Mexika projevující neotenii, tedy si uchoval larválné rysy celý život včetně vnějších žaber.
+      Je endemit jezer v okolí Mexico City a je kriticky ohrožen znečistěním.
+      Má pozoruhodnou regenerační schopnost a může obnovit končetiny, část srdce i míchy.
+      Je populárním exotickým mazlíčkem pro jedinečný vzhled.
+
+  reptile.newt:
+    label: čolek
+    summary: Malý ocasatý obojživelník žijící ve vodě i na souši.
+    info: |
+      Čolek velký je největší středoevropský čolek dorůstající délky přes 15 cm.
+      V období rozmnožování se samec pyšní výrazným hřbetem a skvrnami jako hady.
+      V České republice jsou všechny druhy čolků chráněny zákonem.
+      Zimu tráví pod kořeny stromů nebo v norách mimo vodu.
+
+  reptile.toad:
+    label: ropucha
+    summary: Suchozemský bradavičnatý obojživelník příbuzný žábě.
+    info: |
+      Ropucha obecná je nejrozšířenější žáby v České republice.
+      Bradavice nekřeší mušky; slouží jako ochrana a jsou zdrojem jedových výměšků.
+      Migruje každý rok ve velkých skupinách do vodních nádrží k rozmnožování; v Česku ji pomáhají dobrovolníci přecházet silnice.
+      Živí se slimáky, červy a hmyzem a je přirozeným regulátorem zahradních škůdců.
+
+  reptile.sea_snake:
+    label: mořský had
+    summary: Jedovatý had přizpůsobený mořskému životu s pádlovitým ocasem.
+    info: |
+      Mořský had je jedovatý plaz z čeledi Hydrophiinae dokonale přizpůsobený životu v oceánu.
+      Má plochý pádlovitý ocas pro plavání.
+      Jeho jed je neurotoxický a mnohonásobně silnější než kobří; ale hadi jsou velmi mírumilovní.
+      Dýchají vzduch a musejí pravidelně vynořovat se k hladině.
+
+  reptile.king_snake:
+    label: had královsky
+    summary: Nejedovatý americký had imunní vůči jedu chřestýšů, loví jiné hady.
+    info: |
+      Had královský je nejedovatý americký had schopný konzumovat jiné jedovaté hady, včetně chřestýšů, vůči jejichž jedu je imunní.
+      Jeho zbarvení (černobílé pruhy) napodobuje jedovatého korálovce.
+      Je důležitým regulátorem populací myší, ptáků a plazů.
+      Je oblíbeným exotickým mazlíčkem díky mírné povaze.
+
+  reptile.mamba:
+    label: mamba
+    summary: Rychlý vysoce jedovatý africký stromový had.
+    info: |
+      Mamba černá je jeden z nejrychlejších a nejjedovatějších hadů světa.
+      Dosahuje rychlosti přes 20 km/h po zemi a je schopna šplhání po stromech.
+      Jeho neurotoxický jed bez protilátky způsobí smrt v řádu hodin.
+      Název černá mamba pochází od zbarvení vnitřku úst, nikoli od barvy těla (která je šedá nebo olivová).
+
+  reptile.anaconda:
+    label: anakonda
+    summary: Nejtěžší had světa žijící v amazonských bažinách.
+    info: |
+      Anakonda zelená je nejtěžší had světa; samice dosahuje hmotnosti přes 90 kg a délky 5 až 6 metrů.
+      Žije v bažinách a řekách tropické Jižní Ameriky.
+      Je polovodní a loví ryby, ptáky, kapybary i kaimany.
+      Na rozdíl od krajt rodí živá mláďata (viviparita).
+
+  reptile.glass_lizard:
+    label: slepýš
+    summary: Beznohá ještěrka, která přesto není had; má pohyblivá víčka.
+    info: |
+      Slepýš obecný je beznohá ještěrka žijící po celé Evropě, která se snadno zamění s hadem.
+      Na rozdíl od hadů má pohyblivá víčka a ušní otvory.
+      Dokáže odhodit ocas jako obranu (autotomie); ocas jim znovu dorůstá.
+      V Česku je chráněn zákonem a je hojný v lesních i polních biotopech.
+
+  reptile.frilled_lizard:
+    label: agama límcová
+    summary: Ještěrka rozevírající dramatický límec a utíkající po dvou nohách.
+    info: |
+      Agama límcová je australský plaz, jehož límec (kožní záhyb okolo krku) se rozevře při ohrožení jako výstražný projev.
+      Běží po zadních nohách bipedálně jako miniaturní dinosaurus.
+      V klidu je límec složen.
+      Je symbolem Australského severního teritoria a oblíbenou ikonou australské fauny.
+
+  reptile.basilisk:
+    label: bazilišek
+    summary: Americká ještěrka schopná krátkodobě běžet po hladině vody.
+    info: |
+      Bazilišek zdobený (Jesus Christ lizard) je schopný utíkat po hladině vody díky rýhovaným prstům s třásněmi, které zachytávají vzduch pod vodou.
+      Může takto přeběhnout přes 20 metrů před potopením.
+      Samec má výrazný hřeben na hlavě a zádech.
+      Na stromech se kamufláž je jeho základní strategií obrany.
+
+  reptile.uromastyx:
+    label: uromastyx
+    summary: Pouštní ještěrka s ostnatým ocasem z Afriky a Blízkého východu.
+    info: |
+      Uromastyx je pouštní ještěrka ze severní Afriky, Blízkého východu a Indie s charakteristickým trnnatým ocasem sloužícím k obraně.
+      Je přísně býložravec; živí se semeny, trávou a listím.
+      V terariích je chována jako exotický mazlíček.
+      Soudí se, že může žít přes 20 let.
+
+  reptile.agama:
+    label: agama
+    summary: Barevná skalní ještěrka Afriky; samec má nápadné barvení.
+    info: |
+      Agamy jsou velká čeleď ještěrů z Afriky, Asie a Austrálie s přes 300 druhy.
+      Samci agamy červenohlavé mají výrazné oranžové hlavy a modré tělo jako signál dominance.
+      U termoregulace aktivně přizpůsobují barvu; v chladu jsou tmavší, v teple světlejší.
+      Některé druhy (Draco) umějí plachtit pomocí prodloužených žeber.
+
+  reptile.mud_turtle:
+    label: blátivá želva
+    summary: Malá americká sladkovodní suchozemsko-vodní želva.
+    info: |
+      Blátivé želvy (Kinosternon) jsou malé přibližně 15 cm velké želvy ze Severní a Střední Ameriky.
+      Když jsou ohroženy, vydávají silný pach z pachových žláz.
+      Mohou přečkat sucho zahrabáním se do bahna a hybernáciíou.
+      Jsou všežravé a živí se hmyzem, červy a vodními rostlinami.
+
+  reptile.box_turtle:
+    label: škatulová želva
+    summary: Malá suchozemská želva schopná zavřít se úplně uvnitř krunýře.
+    info: |
+      Škatulová želva je severoamerická suchozemská želva schopná kompletně uzavřít krunýř pohyblivou přední deskou.
+      Žije v lesích a loukách jako solistický živočich.
+      Může žít přes 100 let; ve volné přírodě dosahuje věku 40 až 50 let.
+      Je chráněna v USA a mnohé státy zakazují jejich sběr z přírody.
+
+  reptile.snapping_turtle:
+    label: kousavá želva
+    summary: Velká agresivní sladkovodní americká želva se silnými čelistmi.
+    info: |
+      Kousavá želva obecná je velká agresivní severoamerická sladkovodní želva s mohutným hákovitým zobákem.
+      Na suchu je agresivní; ve vodě je mírumilovnější.
+      Může vážit přes 35 kg a žít přes 40 let.
+      Je všežravá; loví ryby, vodní ptáky a jí i mrtvoly.
+
+  reptile.matamata:
+    label: matamata
+    summary: Bizarně vypadající jihoamerická želva napodobující listový odpad.
+    info: |
+      Matamata je jedna z nejbizarnějších sladkovodních želv jihovýchodní Jižní Ameriky.
+      Její krunýř a hlava dokonale napodobují hnilobný list a větvičku, což je výjimečná kamuflá.
+      Potravu nechytá zubama; místo toho rozevře obrovská ústa, vtáhne vodu s kořistí a zavře ji.
+      Žije v stojatých a pomalu tekoucích tocích Amazonie.
+
+  reptile.worm_lizard:
+    label: červovitec
+    summary: Beznohý půdní plaz podobající se červu žijící pod zemí.
+    info: |
+      Červovitci jsou málo prozkoumaní beznoozí plazi ze skupiny Amphisbaenia žijící v tropické Africe a Americe.
+      Na pohled připomínají velké žížaly; mají segmentovanou kůži a rudimentární oči.
+      Žijí celý život pod zemí a živí se mravenci a termity.
+      Posunují se charakteristickým akordeonovým pohybem.
+
+  reptile.mudskipper:
+    label: šplhavec blátonosný
+    summary: Ryba chodicí na pevnině a šplhající po stromech díky prsním ploutvím.
+    info: |
+      Šplhavec blátonosný je ryba z čeledi gobiídovitých, která stráví velkou část života mimo vodu.
+      Pohybuje se po blatistech pomocí výrazných prsních ploutví jako berlí.
+      Dýchá přes vlhkou kůži a dokáže šplhat po kořenech mangrovníků.
+      Na plátu hájí teritorium a provádí výrazné exhibice.
+
+  reptile.leatherback_turtle:
+    label: kožatka
+    summary: Největší mořská želva s koženým krunýřem místo tvrdých štítků.
+    info: |
+      Kožatka velká je největší mořská želva na světě dosahující délky přes 2 metry a hmotnosti přes 700 kg.
+      Nemá tvrdý kostěný krunýř, ale kůži vyztuženou drobnými kostičkami (osteodermy).
+      Migruje obrovské vzdálenosti přes oceány; zaznamenané putování přes 16 000 km.
+      Živí se výhradně medúzami a je kriticky ohrožena.
+
+  reptile.hawksbill_turtle:
+    label: karetka pravá
+    summary: Kriticky ohrožená mořská želva s úzkým haví zobákem.
+    info: |
+      Karetka pravá je kriticky ohrožená mořská želva ze skupiny Eretmochelys.
+      Její krunýř byl historicky zdrojem želoviny; nelegální obchod ji téměř vyhubil.
+      Jí výhradně houby a mořské živočichy v korálových útesech.
+      Pomáhá udržovat zdravé korálové útesy tím, že odstraňuje houby.
+
+  reptile.caecilian:
+    label: červorovec
+    summary: Beznohý tropický obojživelník připomínající červa nebo hada.
+    info: |
+      Červorovec je beznohý obojživelník ze skupiny Gymnophiona, málo prozkoumaný a žijící skrytě v tropických půdách.
+      Vypadá jako velká žížala nebo bledý had.
+      Má malé zakrnělé oči; orientuje se čichome a tentakulí (smyslové orgány na hlavě).
+      Některé druhy rodí živá mláďata, jiné kladou vajíčka.
+
+  reptile.flying_dragon:
+    label: drak létající
+    summary: Malá jihovýchodoasijská ještěrka plachtící na prodloužených žebrech.
+    info: |
+      Drak létající (Draco volans) je malá ještěrka z jihovýchodní Asie schopná plachtit díky kožní bláně napnuté na prodloužených žebrech.
+      Plachtí z stromu na strom za účelem získání teritoria nebo úniku před predátory.
+      Samec má výrazně žlutý krční lalok.
+      Ne letí aktivním mávnutím křídel; pouze klouzá.
+
+  reptile.thorny_devil:
+    label: moloch trnitý
+    summary: Australská ještěrka pokrytá trny absorbující vodu kapilárami.
+    info: |
+      Moloch trnitý je malá australská ještěrka pokrytá tisíci ostrých trnů.
+      Má fascinující schopnost absorbovat vodu kůží pomocí kapilárních drážek mezi trny; voda je vedena přímo k ústům.
+      Živí se výhradně drobnými mravenci; sní jich až 2 500 za jeden posel.
+      Na trnitém hřbetu má falešnou hlavu jako obrannou taktiku.
+
+  reptile.wall_lizard:
+    label: ještěrka zední
+    summary: Štíhlá rychlá ještěrka žijící na zídkách a skalnatých svazích.
+    info: |
+      Ještěrka zední je drobná ještěrka původem z jižní Evropy a severozápadní Afriky.
+      V Česku se vyskytuje jako introdukovaný druh na zahřátých skalách a zdech.
+      Je rychlá a obratná; v nebezpečí odhodí ocas.
+      V posledních dekádách se rozšiřuje i severněji díky oteplování klimatu.
+

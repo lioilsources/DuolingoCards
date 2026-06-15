@@ -34,3 +34,382 @@ cards:
     label: morče
     summary: Malý chlupatý hlodavec, oblíbený mazlíček pro děti.
     info: Morče domácí je společenský hlodavec z Jižní Ameriky. Vydává pískavé zvuky, je přátelský a rád má lidskou společnost.
+
+  pet.mouse:
+    label: myš bílá
+    summary: Malý domestikovaný hlodavec chovaný jako mazlíček nebo laboratorní zvíře.
+    info: |
+      Bílá domácí myš je domestikovaná forma myši domácí, šlechtěná jako laboratorní i dekorativní zvíře.
+      Je inteligentní a rychle se učí labyrinty a triky.
+      Žije 2 až 3 roky a je sociálním zvířetem; doporučuje se chovat ve skupinách.
+      Myši jsou klíčovými zvířaty v lékařském výzkumu.
+
+  pet.rat:
+    label: krysa domácí
+    summary: Inteligentní domestikovaný hlodavec, oddaný mazlíček překvapivě chytrý.
+    info: |
+      Domácí krysa je jedním z nejinteligentnějších hlodavců; naučí se reagovat na jméno a ovládat složité úkoly.
+      Je sociálně vyvinutá a tvoří silné vazby s lidmi i ostatními krysami.
+      Žije 2 až 3 roky; v Asii je symbolem důvtipu a prosperity (čínský horoskop).
+      Pomáhají odhalovat nášlapné miny v Africe díky svému čichu.
+
+  pet.ferret:
+    label: fretka
+    summary: Hravý domestikovaný lasicovitý savec, zvídavý a mazlivý mazlíček.
+    info: |
+      Fretka je domestikovaná forma tchoře bílého, domestikovaná před více než 2 500 lety k lovu zajíců.
+      Je zvídavá a hravá; typicky spí 14 až 18 hodin denně a zbytek tráví bouřlivou hrou.
+      Má charakteristický pižmový pach z mazových žláz.
+      V Česku je fretka oblíbeným neobvyklým domácím mazlíčkem.
+
+  pet.gerbil:
+    label: pískomil
+    summary: Malý pouštní hlodavec s dlouhým chlupatým ocasem.
+    info: |
+      Pískomil mongolský pochází z suchých stepí Mongolska a Číny.
+      Je přizpůsoben k životu v poušti; velmi málo pije, protože výborně zpracovává vodu z potravy.
+      Žije ve skupinách a je aktivní přes den, takže je vhodný mazlíček pro sledování.
+      Rad kope tunely a potřebuje dostatek substrátu pro přirozené chování.
+
+  pet.chinchilla:
+    label: činčila
+    summary: Jihoamerický hlodavec s nejhustší srstí ze všech suchozemských savců.
+    info: |
+      Činčila je hlodavec z And s rekordně hustou srstí; z jednoho folikulu vyrůstá 60 až 80 chlupů (u člověka jen jeden).
+      Drží se v teplotách do 25 °C; přehřátí pro ni může být smrtelné.
+      Dokáže se dožít 15 let, výjimečně přes 20 let.
+      Její srst byla historicky tak ceněna, že je druh ohrožen pytláctvím.
+
+  pet.hedgehog:
+    label: ježek africký
+    summary: Malý bodlinatý hmyzožravec srolující se do klubíčka při ohrožení.
+    info: |
+      Ježek africký trpasličí je oblíbený exotický mazlíček chovaný po celém světě.
+      Má na hřbetu 5 000 až 7 000 dutých ostní z keratinu.
+      Při ohrožení se stočí do neprostupné kuličky.
+      Je noční a potřebuje kolo pro pohyb; může uběhnout až 5 km za noc.
+
+  pet.sugar_glider:
+    label: vačice létavá
+    summary: Malý australský vačnatec plachtící mezi stromy blanou podél těla.
+    info: |
+      Vačice létavá je malý australský vačnatec schopný plachtění díky blaně (patagiu) napnuté mezi předníma a zadníma nohama.
+      Má velké noční oči a je velmi sociální; trpí osaměním.
+      Komunikuje štěkáním, syčením a purr zní.
+      Je noční a v zajetí potřebuje společnost.
+
+  pet.bearded_dragon:
+    label: vousatý drak
+    summary: Australská ještěrka populární jako teplomilný exotický mazlíček.
+    info: |
+      Vousatý drak střední je jedním z nejpopulárnějších plazů v zajetí díky klidné povaze.
+      Jeho vousy se nafukují a tmavnou jako projev emocí nebo dominance.
+      Komunikuje mávnutím paže (arm wave) jako submisivní gesto.
+      Je všežravec; jí hmyz, zeleninu i ovoce.
+
+  pet.leopard_gecko:
+    label: gekon leopardí
+    summary: Malý skvrnnatý gekon nocturní, ideální plaz pro začátečníky.
+    info: |
+      Gekon leopardí pochází z pouštních oblastí Pakistánu a Afghánistánu.
+      Na rozdíl od většiny gekonů nemá přísavky na prstech; nemůže šplhat po skle.
+      Má pohyblivá víčka, což je u gekonů neobvyklé.
+      Ukládá tuk do ocasu; ocas dokáže odhodit (autotomie) a znovu mu dorůstá.
+
+  pet.corn_snake:
+    label: užovka kukuřičná
+    summary: Mírumilovný červeno-oranžový had vhodný pro začátečníky.
+    info: |
+      Užovka kukuřičná pochází z jihovýchodu USA, kde žije na polích a v lesích.
+      Je nejedovatá a mírná; zřídkakdy kousne a je odolná.
+      Name dostala pravděpodobně od kukuřičných polí nebo od skvrnnatého vzoru břicha připomínajícího kukuřičné zrno.
+      Dosahuje délky přes metr a žije až 20 let v zajetí.
+
+  pet.axolotl:
+    label: axolotl
+    summary: Mexický mloček žijící trvale ve vodě s vnějšími žábrami.
+    info: |
+      Axolotl je vodní mloček z Mexika, který si zachovává larválny tvar po celý život (neotenie).
+      Má výrazné vnější žábry a charakteristický usmívající se výraz.
+      Je endemit jezera Xochimilco v Mexiku a je kriticky ohrožen.
+      Má pozoruhodnou regenerační schopnost; může obnovit končetiny i části srdce a mozku.
+
+  pet.cockatiel:
+    label: nimfa
+    summary: Malý australský papoušek s chocholkou, oblíbený pro schopnost zpěvu.
+    info: |
+      Nimfa (korela) pochází z Austrálie, kde žije ve stepích a lesích.
+      Samci jsou výbornými imitátory: naučí se písně, melodie i lidská slova.
+      Je sociální a v zajetí velmi snadno navazuje kontakt s majitelem.
+      Žije 15 až 20 let; je třetím nejoblíbenějším chovným ptákem světa.
+
+  pet.lovebird:
+    label: agapornis
+    summary: Malý barevný papoušek tvořící pevné párové svazky.
+    info: |
+      Agapornis (papouška neorozlučník) je malý africký papoušek proslulý silnými párovými vazbami.
+      Páry se vzájemně krmí, čistí a tráví maximum času společně; odtud název lovebird.
+      Existuje devět druhů, lišících se barvou a výskytem.
+      Samci i samice dokáží napodobovat zvuky.
+
+  pet.budgerigar:
+    label: andulka
+    summary: Nejpopulárnější klec ní pták světa, malý australský papoušek.
+    info: |
+      Andulka vlnkovaná je nejrozšířenějším chovným ptákem na světě po kanárkovi.
+      Divoké andulky jsou zeleno-žlutě zbarveny; barevné mutace (modré, bílé, šedé) vznikly šlechtěním.
+      Samci dokáží napodobovat lidský hlas a naučit se stovky slov.
+      Žijí 5 až 10 let a jsou sociálním zvířetem.
+
+  pet.canary:
+    label: kanárek
+    summary: Malý zpěvný ptáček šlechtěný pro hlas a jasně žluté zbarvení.
+    info: |
+      Kanárek pochází z Kanárských ostrovů a byl domestikován v 15. století španělskými dobyvatel.
+      Šlechtěním vzniklo mnoho typů: zpívající (Roller, Waterslager), barevní (červení, bílí) a tvarové.
+      Samci zpívají složité melodie; naučí se fragmenty jiných písní.
+      Historicky sloužili jako detektor oxidu uhelnatého v uhlových dolech.
+
+  pet.betta_fish:
+    label: betta
+    summary: Barevná labyrinthová ryba s okázalými ploutvemi z jihovýchodní Asie.
+    info: |
+      Betta bojovná je labyrinthová ryba dýchající vzduch pomocí speciálního orgánu a žijící v mělkých rýžových polích Thajska.
+      Samci jsou agresivní k sobě navzájem; odtud název siamská bojovná ryba.
+      Šlechtěním vznikly okázalé formy s obrovskými splývavými ploutvemi.
+      Žije 3 až 5 let a je relativně nenáročná.
+
+  pet.clownfish:
+    label: klaun očkatý
+    summary: Oranžova ryba žijící v symbióze s mořskými sasankami.
+    info: |
+      Klaun očkatý je malá mořská ryba z tropického Indo-Pacifiku žijící v symbióze s mořskými sasankami.
+      Sasanka ho chrání svými jedovými chapadly, on ji čistí a odvrací predátory.
+      Po filmovém Hledání Nema (2003) se stal ikonou mořského akvarismu.
+      Všechny klauny se rodí jako samci; dominantní jedinec se může přeměnit na samici.
+
+  pet.crayfish:
+    label: rak akvarijní
+    summary: Malý barevný sladkovodní rak v akváriu.
+    info: |
+      Akvarijní raci jsou oblíbenými obyvateli sladkovodních akvárií díky aktivnímu chování a živým barvám.
+      Modrý rak floridský (Procambarus alleni) je nejoblíbenějším druhem pro akvárium.
+      Svléká krunýř (ekdyze) při růstu; nový krunýř je zpočátku měkký.
+      Jsou užiteční jako čističi dna; konzumují řasy a zbytky potravy.
+
+  pet.tarantula:
+    label: ptakopysk
+    summary: Velký chlupatý pavouk exotický mazlíček pro odvážné.
+    info: |
+      Ptakopysk růžový je oblíbenou tarantulou pro začátečníky díky klidné povaze.
+      Největší druh, goliáš ptakopysk, je největší pavouk na světě s délkou noh přes 30 cm.
+      Jeho jed je srovnatelný s vosím a pro zdravého dospělého člověka není nebezpečný.
+      Tarantuly mohou žít 20 až 30 let.
+
+  pet.hermit_crab:
+    label: rak poustevník
+    summary: Malý korýš bydlící v vypůjčené mušli, exotický domácí mazlíček.
+    info: |
+      Rak poustevník je korýš, který nemá vlastní pevný krunýř a chrání měkký zadeček v prázdných mušlích ulitnatých.
+      Když vyroste, hledá větší mušli.
+      Suché raky poustevníky se chovají jako mazlíčci; jsou sociální a žijí ve skupinách.
+      V přírodě žijí na plážích a v přílivu tropů.
+
+  pet.iguana:
+    label: leguán
+    summary: Velká zelená ještěrka z tropické Ameriky oblíbená jako exotický mazlíček.
+    info: |
+      Leguán zelený je velká jihoamerická ještěrka dorůstající až 2 metry.
+      Je přísně býložravec; v zajetí vyžaduje rozmanitou zeleninu a UVB osvětlení.
+      Má třetí oko na temeni hlavy (parietální oko) citlivé na světlo.
+      Může žít přes 20 let v zajetí, ale je náročný na prostředí a péči.
+
+  pet.chameleon:
+    label: chameleon
+    summary: Ještěrka měnící barvu s nezávisle pohyblivýma očima.
+    info: |
+      Chameleon je ještěrka se schopností měnit barvu kůže pomocí chromatoforů; barvu mění jako komunikaci emocí, nikoli primárně jako kamufláž.
+      Každé oko se pohybuje nezávisle a dokáže pokrýt téměř 360 stupňů.
+      Jazyk je delší než tělo a vystřeluje rychlostí 26 km/h.
+      Žije výhradně na stromech a má kleštičkovité nožky pro uchopování větví.
+
+  pet.degu:
+    label: degu
+    summary: Malý čilský hlodavec podobný ši nčile se sociálním chováním.
+    info: |
+      Degu je malý chilský hlodavec příbuzný morčeti a čince.
+      Je přísně diurnální (denní) a velmi sociální; trpí osaměním.
+      Je náchylný na cukrovku; v zajetí nesmí dostávat sladké ovoce.
+      Je průkopnickým modelovým organizmem pro výzkum Alzheimerovy choroby.
+
+  pet.prairie_dog:
+    label: psoun prériový
+    summary: Společenský hlodavec kopající tunely v severoamerických préeriích.
+    info: |
+      Psoun prériový je sociální hlodavec ze severní Ameriky žijící v rozsáhlých podzemních koloniích.
+      Komunikuje sofistikovaným systémem zvuků, který vědci označují jako nejkomplexnější živočišný jazyk po člověku.
+      Název dog dostaly kvůli štěkavému varování před predátory.
+      Jejich kolonie jsou klíčovými ekosystémy pro desítky dalších druhů.
+
+  pet.mini_pig:
+    label: miniaturní prase
+    summary: Malé domácí prase chované jako mazlíček.
+    info: |
+      Miniaturní prasata (teacup nebo micro pigs) jsou šlechtěná malá plemena domácího prasete.
+      Jsou inteligentní, čistotná a naučí se triky jako psi.
+      Vyhýbají se sluníčku (nemají potní žlázy) a valí se v bahně pro termoregulaci.
+      Mnoho majitelů je překvapeno, když jejich prasátko vyroste větší, než prodejci slibovali.
+
+  pet.koi:
+    label: kapr koi
+    summary: Dekorativní kapr se žív ými barvami chovaný v zahradních rybnících.
+    info: |
+      Kapr koi je okrasné plemeno kapra obecného, šlechtěné v Japonsku od 17. století.
+      Existuje přes 100 barevných variací; nejcennější jedinci se prodávají za statisíce korun.
+      Dokáže se dožít přes 200 let; nejstarší známý koi (Hanako) žil 226 let.
+      V japonské kultuře symbolizuje odvahu, vytrvalost a štěstí.
+
+  pet.angelfish:
+    label: skalar
+    summary: Elegantní diskovitá tropická ryba s podlouhlými ploutvemi.
+    info: |
+      Skalar amazónský je jednou z nejoblíbenějších akvarijních ryb pro svůj elegantní trojúhelníkový tvar a dlouhé plovoucí ploutve.
+      Pochází z amazónské povodí a potřebuje teplu vodu (24 až 28 °C).
+      Je šelma a může sníst malé rybky.
+      V Japonsku byl okouzlující skalar prvním tropic kým druhem importovaným v roce 1909.
+
+  pet.oscar_fish:
+    label: oskar
+    summary: Velká inteligentní cichlida z Amazonie reagující na majitele.
+    info: |
+      Oskar paví je velká jihoamerická cichlida proslulá inteligencí a schopností rozeznat svého majitele.
+      Vyžaduje velké akvárium (minimálně 200 litrů) a pravidelné krmení živou nebo mraženou potravou.
+      Dorůstá délky přes 35 cm a žije až 15 let.
+      Nekdy se chová více jako pes než ryba; plave ke sklu, když se majitel přiblíží.
+
+  pet.dove_pet:
+    label: holubice domácí
+    summary: Čistě bílá holubice chovaná jako mazlíček nebo pro slavnostní vypouštění.
+    info: |
+      Bílá holubice je domestikovaný skalní holub šlechtěný pro čistě bílé zbarvení.
+      Je klidná a přívětivá; na rozdíl od papoušků nekouše a nepláče.
+      Používá se při svatbách, pohřbech a slavnostech po celém světě.
+      Je symbolem míru od biblické doby.
+
+  pet.quail_pet:
+    label: křepelka mazlíček
+    summary: Malý nenáročný pták chovaný jako pokojový mazlíček.
+    info: |
+      Japonská křepelka je drobný ptáček chovaný buď pro vejce nebo jako mazlíček.
+      Váží jen 100 gramů a je nejmenší chovanou drůbeží.
+      Samci křepelky vylupují: pí-pi-pit, samice tiše kvokají.
+      Jsou tiché a vhodné i pro byty.
+
+  pet.mynah_bird:
+    label: myna
+    summary: Mluvící asijský špaček s výjimečnou schopností napodobovat hlasy.
+    info: |
+      Myna horská je pták z čeledi špakovitých proslulý jednou z nejlepších schopností mluvení ze všech ptáků.
+      Napodobuje tóny, akcenty a intonaci lidského hlasu s pozoruhodnou přesností.
+      Pochází z jihovýchodní Asie a Indie.
+      V zajetí dokáže naučit stovky slov a frází.
+
+  pet.tortoise_pet:
+    label: suchozemská želva
+    summary: Dlouhověká suchozemská želva, mazlíček na celý život.
+    info: |
+      Hermannova želva je drobná jihoevropská želva populární jako mazlíček.
+      Může se dožít přes 100 let; přežívá majitele.
+      V zimě hibernuje, přičemž metabolismus téměř zastaví.
+      V Česku je chov bez povolení zakázán u některých druhů.
+
+  pet.ball_python:
+    label: krajta královská
+    summary: Klidný kulatý had vinoucí se do kuličky, ideální plaz pro začátečníky.
+    info: |
+      Krajta královská pochází ze západní a střední Afriky, kde žije v savanách a lesích.
+      Při ohrožení se stočí do pevné kuličky (odtud ball python).
+      Dosahuje délky 120 až 150 cm a žije přes 30 let.
+      Existuje přes 8 000 barevných mutací šlechtěných v zajetí.
+
+  pet.blue_tongue_skink:
+    label: skink modrý jazyk
+    summary: Australský ještěr s výrazně modrým jazykem sloužícím k zastrašení.
+    info: |
+      Skink modrojazyčný je velký australský skink s charakteristicky modrým jazykem.
+      Jazyk vyplazuje jako varování predátorům; modrá barva je odstrašující.
+      Je to neagresivní, tučné a pomalé zvíře oblíbené jako mazlíček.
+      Žije 15 až 20 let a dorůstá délky přes 50 cm.
+
+  pet.crested_gecko:
+    label: gekon chocholatý
+    summary: Noční gekon s výraznou hřebenovitou chocholkou a velkýma očima.
+    info: |
+      Gekon chocholatý pochází z Nové Kaledonie a byl považován za vyhynulého až do roku 1994.
+      Dokáže skákat a je aktivní v noci.
+      Na rozdíl od jiných gekonů nevyžaduje speciální UVB osvětlení.
+      Živí se ovocem a hmyzem a v zajetí existuje široká paleta barevných mutací.
+
+  pet.frilled_lizard:
+    label: agama límcová
+    summary: Australská ještěrka rozevírající dramatický límcový záhyb jako obrana.
+    info: |
+      Agama límcová je australská ještěrka, která při ohrožení rozevře velký límec kolem krku, vydá syčivý zvuk a stojí na zadních nohách.
+      Límec je vyztužen prodlouženými žebry.
+      Běhá na zadních nohách jako miniaturní T-rex.
+      Je populárním objektem wildlife fotografů a symbolem Australského severního teritoria.
+
+  pet.red_eared_slider:
+    label: želva nádherná
+    summary: Populární sladkovodní akvarijní želva s červenými pruhy za ušima.
+    info: |
+      Želva nádherná je původem ze severní Ameriky a je nejrozšířenějším plazem v zajetí na světě.
+      Charakteristický červený pruh za uchem ji odlišuje od podobných druhů.
+      Potřebuje jak vodní část, tak suchou plochu k hřání pod UV lampou.
+      Může žít přes 30 let; mnohé jsou vypuštěny do volné přírody, kde se stávají invazním druhem.
+
+  pet.electric_eel:
+    label: úhoř elektrický
+    summary: Jihoamerická ryba generující elektrické výboje až 860 voltů.
+    info: |
+      Úhoř elektrický není pravý úhoř, ale příbuzný kaprovitých z jihoamerické Amazonie.
+      Dokáže generovat elektrické výboje až 860 voltů k omráčení kořisti nebo obraně.
+      Dýchá vzduch a musí se pravidelně vynořovat na hladinu.
+      Většina jeho těla je tvořena elektrickými orgány z přeměněné svalové tkáně.
+
+  pet.discus_fish:
+    label: skalár diskus
+    summary: Okázalá diskovitá ryba považovaná za krále tropického akvária.
+    info: |
+      Diskus (Symphysodon) je velká amazónská ryba kruhového tvaru a nádherných barev.
+      Je to jedno z nejnáročnějších akvarijních ryb; vyžaduje přesnou chemii vody a teplotu 28 až 32 °C.
+      Mladé ryby se živí výměškem z kůže rodičů; je to vzácný jev u ryb.
+      Šlechtěním vznikly stovky barevných variací.
+
+  pet.moon_jellyfish:
+    label: medúza měsíční
+    summary: Průsvitná bioluminescenční medúza chovaná ve speciálních akváriích.
+    info: |
+      Medúza měsíční je jedním z nejběžnějších druhů medúz a je relativně bezpečná pro člověka.
+      Je skoro průhledná a vidíme skrz ni čtyři kruhové gonády.
+      Chov v akváriu byl donedávna velmi obtížný; dnes existují speciální kruhové nádrže (kreisel).
+      Žije 12 až 18 měsíců.
+
+  pet.sea_horse_pet:
+    label: mořský koník v akváriu
+    summary: Mořský koník v mořském akváriu, exotický a fascinující.
+    info: |
+      Mořský koník je jedním z nejobtížnějších mořských živočichů k chovu v zajetí; vyžaduje živou potravu (artemie, misidy) a klidné prostředí.
+      Samec nosí mláďata v břišním vaku; rodí stovky mláďat najednou.
+      Žijí v párech a jsou si věrní na celý život.
+      Jsou kriticky ohroženi nelegálním sběrem pro tradiční medicínu.
+
+  pet.mandarin_fish:
+    label: mandarínka
+    summary: Nejbarevnější mořská ryba světa s psychedelickým vzorem.
+    info: |
+      Mandarínka nádherná je malá mořská ryba z korálových útesů Indo-Pacifiku s jedním z nejnápadnějších zbarvení v živočišné říši.
+      Nemá šupiny; barvu tvoří speciální buňky s pigmentem (chromatofory) a fluorescenčními sloučeninami.
+      Živí se výhradně drobnou živou kořistí a je velmi obtížná k chovu.
+      Je chráněna mezinárodními úmluvami.
+

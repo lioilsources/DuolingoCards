@@ -80,3 +80,382 @@ cards:
       attrs: [full arc rainbow, seven colours, bright, clearing sky, blue sky visible]
       setting: [outdoor, landscape, after rain, uplifting]
       avoid: [text, dark storm, no rainbow, people]
+
+  - key: weather.hailing
+    hint: precipitation of ice pellets (hail) falling from a storm cloud
+    image: weather.hailing.png
+    brief:
+      subject: hailstorm scene
+      attrs: [hailstones falling, dark grey clouds, white ice pellets, dramatic]
+      setting: [open field, dramatic sky, hailstones on ground]
+      avoid: [text, humans]
+
+  - key: weather.thunderstorm
+    hint: severe storm with thunder, lightning, heavy rain and wind
+    image: weather.thunderstorm.png
+    brief:
+      subject: thunderstorm
+      attrs: [dark storm clouds, lightning bolts, heavy rain, dramatic]
+      setting: [dramatic sky, dark stormy landscape]
+      avoid: [text, humans]
+
+  - key: weather.lightning
+    hint: sudden electrostatic discharge in the atmosphere
+    image: weather.lightning.png
+    brief:
+      subject: lightning bolt
+      attrs: [vivid white-blue lightning bolt, dark stormy sky, dramatic, striking]
+      setting: [dark sky, silhouette of trees or landscape, dramatic]
+      avoid: [text, humans]
+
+  - key: weather.frosty
+    hint: surface frost; ice crystals coating plants and ground overnight
+    image: weather.frosty.png
+    brief:
+      subject: morning frost
+      attrs: [white frost crystals, on leaf or grass, sparkling, cold]
+      setting: [garden, frozen grass, cold morning light]
+      avoid: [text, humans]
+
+  - key: weather.icy
+    hint: surfaces covered in clear ice making them dangerously slippery
+    image: weather.icy.png
+    brief:
+      subject: icy road or surface
+      attrs: [sheet of clear ice, reflective, cold, bare tree]
+      setting: [frozen road, winter, grey sky]
+      avoid: [text, humans, cars]
+
+  - key: weather.humid
+    hint: hot, moist air with high water vapour content
+    image: weather.humid.png
+    brief:
+      subject: humid tropical air
+      attrs: [heat haze, lush tropical vegetation, misty, muggy air]
+      setting: [tropical jungle, steam rising, midday sun]
+      avoid: [text, humans]
+
+  - key: weather.hot
+    hint: extreme heat; blazing sunshine
+    image: weather.hot.png
+    brief:
+      subject: extreme heat scene
+      attrs: [blazing sun, heat shimmer, cracked dry earth, intense yellow-orange]
+      setting: [desert or dry landscape, harsh midday light]
+      avoid: [text, humans]
+
+  - key: weather.cold
+    hint: very low temperature; frost and breath visible
+    image: weather.cold.png
+    brief:
+      subject: extreme cold outdoor scene
+      attrs: [person bundled up or bare tree, breath visible, snow, grey sky]
+      setting: [winter landscape, frost, cold blue tones]
+      avoid: [text, humans]
+
+  - key: weather.tornado
+    hint: violent rotating column of air in contact with the ground
+    image: weather.tornado.png
+    brief:
+      subject: tornado
+      attrs: [funnel cloud, dark grey rotating, dramatic, touching ground]
+      setting: [open plain, dark dramatic sky, flying debris]
+      avoid: [text, humans, blood, death]
+
+  - key: weather.hurricane
+    hint: massive tropical cyclone with spiralling winds around a calm eye
+    image: weather.hurricane.png
+    brief:
+      subject: hurricane from above
+      attrs: [spiral cloud formation, eye visible, ocean below, massive]
+      setting: [aerial or satellite view, tropical ocean, swirling]
+      avoid: [text, death, blood]
+
+  - key: weather.blizzard
+    hint: severe snowstorm with strong winds and near-zero visibility
+    image: weather.blizzard.png
+    brief:
+      subject: blizzard
+      attrs: [white-out, blowing snow, wind, bare trees, near-zero visibility]
+      setting: [open winter landscape, grey-white, extreme cold]
+      avoid: [text, humans]
+
+  - key: weather.heatwave
+    hint: prolonged period of excessively hot weather
+    image: weather.heatwave.png
+    brief:
+      subject: heatwave scene
+      attrs: [baking heat, sun glare, parched earth, heat shimmer]
+      setting: [dry landscape, intense yellow-orange, cracked earth]
+      avoid: [text, humans]
+
+  - key: weather.drought
+    hint: prolonged absence of rainfall causing water shortage
+    image: weather.drought.png
+    brief:
+      subject: drought
+      attrs: [cracked dry earth, dead vegetation, scorched, dry riverbed]
+      setting: [harsh sunlit landscape, grey-brown, parched]
+      avoid: [text, humans, animals]
+
+  - key: weather.flood
+    hint: overflow of water covering normally dry land
+    image: weather.flood.png
+    brief:
+      subject: flood scene
+      attrs: [water covering roads or fields, muddy brown water, submerged trees]
+      setting: [landscape, floodwater, dramatic sky]
+      avoid: [text, humans, death]
+
+  - key: weather.sandstorm
+    hint: wall of sand and dust blown by strong desert winds
+    image: weather.sandstorm.png
+    brief:
+      subject: sandstorm
+      attrs: [wall of sand, orange-brown cloud, dramatic, sky darkened]
+      setting: [desert, horizon sand wall, dramatic orange sky]
+      avoid: [text, humans]
+
+  - key: weather.partly_cloudy
+    hint: mix of sunshine and clouds; blue sky partially covered
+    image: weather.partly_cloudy.png
+    brief:
+      subject: partly cloudy sky
+      attrs: [blue sky, white fluffy clouds, sunlight between clouds, pleasant]
+      setting: [open sky, pleasant weather, daytime]
+      avoid: [text, humans]
+
+  - key: weather.overcast
+    hint: completely covered with grey clouds; dull but no rain yet
+    image: weather.overcast.png
+    brief:
+      subject: overcast sky
+      attrs: [solid grey cloud cover, flat diffuse light, dull, no blue sky]
+      setting: [landscape under overcast sky, muted colours]
+      avoid: [text, humans]
+
+  - key: weather.sleet
+    hint: mix of rain and snow; partially melted snowflakes falling
+    image: weather.sleet.png
+    brief:
+      subject: sleet
+      attrs: [rain and snow mix, grey wet weather, mixed precipitation, cold]
+      setting: [grey sky, wet road or landscape, dreary]
+      avoid: [text, humans]
+
+  - key: weather.drizzle
+    hint: very light rain in tiny droplets; misting
+    image: weather.drizzle.png
+    brief:
+      subject: drizzle
+      attrs: [fine mist of rain, damp grey, misty, soft light]
+      setting: [city street or countryside, grey damp atmosphere]
+      avoid: [text, humans]
+
+  - key: weather.shower
+    hint: brief but sometimes heavy burst of rain
+    image: weather.shower.png
+    brief:
+      subject: rain shower
+      attrs: [sudden downpour, dark cloud, heavy rain, rainbow possible]
+      setting: [landscape, dark cloud overhead, sunlight breaking through]
+      avoid: [text, humans]
+
+  - key: weather.sunrise
+    hint: the sun appearing above the horizon at dawn
+    image: weather.sunrise.png
+    brief:
+      subject: sunrise
+      attrs: [golden orange sun rising, horizon glow, streaks of colour, peaceful]
+      setting: [open landscape, horizon, dawn colours]
+      avoid: [text, humans]
+
+  - key: weather.sunset
+    hint: the sun setting below the horizon at dusk
+    image: weather.sunset.png
+    brief:
+      subject: sunset
+      attrs: [vivid orange red and purple sky, sun on horizon, reflection on water, beautiful]
+      setting: [ocean or landscape, golden hour, dramatic colours]
+      avoid: [text, humans]
+
+  - key: weather.aurora
+    hint: aurora borealis or australis; coloured lights in the night sky
+    image: weather.aurora.png
+    brief:
+      subject: aurora borealis
+      attrs: [green and purple lights, wavy curtains, night sky, stars visible]
+      setting: [Arctic or sub-Arctic landscape, night, dark foreground]
+      avoid: [text, humans]
+
+  - key: weather.misty
+    hint: low visibility due to thin mist or light fog
+    image: weather.misty.png
+    brief:
+      subject: misty morning
+      attrs: [soft mist, trees emerging from mist, low visibility, atmospheric]
+      setting: [forest or valley, dawn light, ethereal]
+      avoid: [text, humans]
+
+  - key: weather.freezing
+    hint: temperature below 0 °C; everything icing over
+    image: weather.freezing.png
+    brief:
+      subject: freezing conditions
+      attrs: [icicles, frozen puddles, ice-coated branches, blue-grey cold]
+      setting: [winter landscape, frozen, cold blue tones]
+      avoid: [text, humans]
+
+  - key: weather.muggy
+    hint: hot and oppressively humid; uncomfortable
+    image: weather.muggy.png
+    brief:
+      subject: muggy summer day
+      attrs: [hazy hot, damp air, wilting plants, heavy atmosphere]
+      setting: [summer city or jungle, haze, oppressive heat]
+      avoid: [text, humans]
+
+  - key: weather.breezy
+    hint: pleasantly mild wind; leaves and hair moving gently
+    image: weather.breezy.png
+    brief:
+      subject: gentle breeze
+      attrs: [leaves blowing, gentle movement, sunny, pleasant]
+      setting: [park or countryside, dappled light, cheerful]
+      avoid: [text, humans]
+
+  - key: weather.gloomy
+    hint: dark overcast weather with a depressive atmosphere
+    image: weather.gloomy.png
+    brief:
+      subject: gloomy weather
+      attrs: [dark sky, bare trees, wet ground, grey palette]
+      setting: [autumn or winter, grey, moody]
+      avoid: [text, humans]
+
+  - key: weather.clear
+    hint: perfectly clear sky; no clouds at all
+    image: weather.clear.png
+    brief:
+      subject: clear blue sky
+      attrs: [perfect blue sky, no clouds, bright sun, vivid]
+      setting: [open landscape, day, vivid blue]
+      avoid: [text, humans]
+
+  - key: weather.dew
+    hint: water droplets condensed on surfaces overnight
+    image: weather.dew.png
+    brief:
+      subject: morning dew
+      attrs: [water droplets on leaf or spider web, sparkling, close-up, morning]
+      setting: [macro, green leaf, dawn light]
+      avoid: [text, humans]
+
+  - key: weather.avalanche
+    hint: sudden flow of snow and ice down a mountain slope
+    image: weather.avalanche.png
+    brief:
+      subject: avalanche
+      attrs: [wall of snow rushing down mountain, dramatic, white powder, fast]
+      setting: [mountain slope, snow, dramatic speed]
+      avoid: [text, humans, death]
+
+  - key: weather.typhoon
+    hint: tropical cyclone in the Northwest Pacific (same as hurricane)
+    image: weather.typhoon.png
+    brief:
+      subject: typhoon
+      attrs: [spiral storm, large, ocean, dramatic dark clouds]
+      setting: [Pacific ocean aerial view, swirling clouds, dark dramatic]
+      avoid: [text, death]
+
+  - key: weather.monsoon
+    hint: seasonal reversal of winds bringing heavy rainfall to tropical regions
+    image: weather.monsoon.png
+    brief:
+      subject: monsoon rain
+      attrs: [tropical downpour, heavy rain, lush green, flooded streets]
+      setting: [South Asian setting, puddles, grey sky, heavy rain]
+      avoid: [text, humans]
+
+  - key: weather.dust_storm
+    hint: large cloud of dust and sand blown across arid regions
+    image: weather.dust_storm.png
+    brief:
+      subject: dust storm
+      attrs: [brown dust wall, covering landscape, dramatic, orange-brown sky]
+      setting: [dry outback or desert, advancing dust, dramatic]
+      avoid: [text, humans]
+
+  - key: weather.haze
+    hint: reduced visibility from fine dust, smoke or pollution
+    image: weather.haze.png
+    brief:
+      subject: hazy urban sky
+      attrs: [grey-beige haze, reduced visibility, city skyline in haze, diffuse]
+      setting: [city skyline, polluted or dusty air, flat light]
+      avoid: [text, humans]
+
+  - key: weather.frost_flowers
+    hint: ice crystals forming in floral patterns on cold surfaces
+    image: weather.frost_flowers.png
+    brief:
+      subject: frost flowers ice crystals
+      attrs: [intricate ice crystal patterns, flower-like, white on dark surface, macro]
+      setting: [dark background, macro, frozen surface, beautiful]
+      avoid: [text, humans]
+
+  - key: weather.ice_storm
+    hint: freezing rain that coats everything in a layer of clear ice
+    image: weather.ice_storm.png
+    brief:
+      subject: ice storm aftermath
+      attrs: [branches coated in clear ice, sparkling, heavy, dangerous beauty]
+      setting: [winter landscape, trees glazed in ice, cold sunlight]
+      avoid: [text, humans]
+
+  - key: weather.heat_lightning
+    hint: lightning seen at a distance without audible thunder
+    image: weather.heat_lightning.png
+    brief:
+      subject: heat lightning
+      attrs: [distant lightning flashes, warm night sky, no storm close, far away]
+      setting: [night landscape, distant flashes, summer night]
+      avoid: [text, humans]
+
+  - key: weather.waterspout
+    hint: rotating column of water-laden air over a body of water
+    image: weather.waterspout.png
+    brief:
+      subject: waterspout
+      attrs: [funnel of cloud connecting sea to sky, rotating, dramatic, ocean]
+      setting: [sea surface, dramatic sky, funnel visible]
+      avoid: [text, humans]
+
+  - key: weather.whiteout
+    hint: blizzard conditions with zero visibility in white snow
+    image: weather.whiteout.png
+    brief:
+      subject: whiteout blizzard
+      attrs: [total white, impossible to see, blowing snow, polar landscape]
+      setting: [Arctic or mountain, white nothingness, extreme cold]
+      avoid: [text, humans]
+
+  - key: weather.heat_shimmer
+    hint: visual distortion above hot surfaces due to air temperature
+    image: weather.heat_shimmer.png
+    brief:
+      subject: heat shimmer mirage
+      attrs: [wavy distortion above road, mirage, hot tarmac, desert road]
+      setting: [desert road, extreme heat, distant mirage]
+      avoid: [text, humans]
+
+
+  - key: weather.slush
+    hint: partially melted snow forming a wet slushy mixture on the ground
+    image: weather.slush.png
+    brief:
+      subject: slushy snow on road or pavement
+      attrs: [grey-white wet slush, melting snow, puddles, dreary]
+      setting: [city pavement or road, overcast winter sky, cold wet]
+      avoid: [text, humans, cars]

@@ -54,3 +54,409 @@ cards:
       attrs: [black, three body segments, carrying a leaf]
       setting: [on soil, close to the ground, blurred greenery]
       avoid: [text, other insects, ant hill diagram]
+
+  - key: insect.beetle
+    hint: hard-shelled insect (order Coleoptera), most species-rich order
+    image: insect.beetle.png
+    brief:
+      subject: stag beetle
+      attrs: [large, shiny black, prominent mandibles, male]
+      setting: [oak tree bark, forest floor, dappled light]
+      avoid: [text, humans]
+
+  - key: insect.grasshopper
+    hint: jumping insect with long hind legs (order Orthoptera)
+    image: insect.grasshopper.png
+    brief:
+      subject: grasshopper
+      attrs: [sitting on blade of grass, green, long hind legs folded]
+      setting: [green meadow, sunny, grass blades]
+      avoid: [text, humans]
+
+  - key: insect.cricket
+    hint: chirping nocturnal insect (Gryllus genus)
+    image: insect.cricket.png
+    brief:
+      subject: field cricket
+      attrs: [black, on soil, antennae prominent]
+      setting: [garden soil, night or dusk, leaf litter]
+      avoid: [text, humans]
+
+  - key: insect.mosquito
+    hint: blood-sucking flying insect (Culicidae)
+    image: insect.mosquito.png
+    brief:
+      subject: mosquito
+      attrs: [close-up, wings visible, long proboscis, grey]
+      setting: [macro view, white or neutral background]
+      avoid: [text, blood, humans]
+
+  - key: insect.fly
+    hint: common housefly (Musca domestica), two-winged insect
+    image: insect.fly.png
+    brief:
+      subject: housefly
+      attrs: [close-up, large compound eyes, grey, transparent wings]
+      setting: [macro view, neutral background]
+      avoid: [text, filth]
+
+  - key: insect.moth
+    hint: nocturnal flying insect related to butterfly (Lepidoptera)
+    image: insect.moth.png
+    brief:
+      subject: luna moth
+      attrs: [wings spread, pale green, long tails, beautiful]
+      setting: [night scene, moonlight, leaf]
+      avoid: [text, humans]
+
+  - key: insect.caterpillar
+    hint: larva of butterfly or moth, often colourful and segmented
+    image: insect.caterpillar.png
+    brief:
+      subject: swallowtail caterpillar
+      attrs: [green, yellow markings, segmented body, on branch]
+      setting: [green leaf, plant stem, close-up]
+      avoid: [text, humans]
+
+  - key: insect.praying_mantis
+    hint: predatory insect with forelegs held as if in prayer (Mantodea)
+    image: insect.praying_mantis.png
+    brief:
+      subject: praying mantis
+      attrs: [green, forelegs raised, alert, camouflaged]
+      setting: [green plant, leaf, macro]
+      avoid: [text, blood, humans]
+
+  - key: insect.stick_insect
+    hint: camouflaged insect resembling a twig (Phasmatodea)
+    image: insect.stick_insect.png
+    brief:
+      subject: stick insect
+      attrs: [brown, elongated, on twig, perfectly camouflaged]
+      setting: [tree branch, bark, close-up]
+      avoid: [text, humans]
+
+  - key: insect.firefly
+    hint: bioluminescent beetle that flashes light at night (Lampyridae)
+    image: insect.firefly.png
+    brief:
+      subject: firefly
+      attrs: [glowing abdomen, wings open, warm yellow-green light]
+      setting: [dark night scene, grass, magical glow]
+      avoid: [text, humans]
+
+  - key: insect.wasp
+    hint: yellow-and-black stinging insect (Vespula genus)
+    image: insect.wasp.png
+    brief:
+      subject: common wasp
+      attrs: [yellow and black banded, wings folded, on flower or wood]
+      setting: [outdoor setting, macro]
+      avoid: [text, nest, humans]
+
+  - key: insect.cockroach
+    hint: fast nocturnal scavenger insect (Blattodea)
+    image: insect.cockroach.png
+    brief:
+      subject: American cockroach
+      attrs: [brown, shiny, oval body, antennae long]
+      setting: [neutral background, floor surface]
+      avoid: [text, filth, humans]
+
+  - key: insect.spider
+    hint: eight-legged arachnid (not a true insect) that spins webs
+    image: insect.spider.png
+    brief:
+      subject: garden spider
+      attrs: [on web, black and yellow, web visible, symmetrical]
+      setting: [dewdrop web, garden, morning light]
+      avoid: [text, humans]
+
+  - key: insect.scorpion
+    hint: venomous arachnid with claws and a curved stinging tail
+    image: insect.scorpion.png
+    brief:
+      subject: emperor scorpion
+      attrs: [black, claws raised, tail curved, large]
+      setting: [desert rock, sand, macro]
+      avoid: [text, blood, humans]
+
+  - key: insect.centipede
+    hint: many-legged arthropod (class Chilopoda) with one pair of legs per segment
+    image: insect.centipede.png
+    brief:
+      subject: centipede
+      attrs: [long, orange-brown, many legs, curling]
+      setting: [soil, leaf litter, macro]
+      avoid: [text, humans]
+
+  - key: insect.flea
+    hint: tiny jumping parasitic insect (Siphonaptera)
+    image: insect.flea.png
+    brief:
+      subject: flea
+      attrs: [extreme macro, brown, flattened body, powerful hind legs]
+      setting: [extreme close-up, dark background]
+      avoid: [text, blood, animals]
+
+  - key: insect.termite
+    hint: social wood-eating insect (Isoptera), builds large mounds
+    image: insect.termite.png
+    brief:
+      subject: termite soldier
+      attrs: [white body, large mandibles, close-up]
+      setting: [termite mound or tunnel, macro]
+      avoid: [text, humans]
+
+  - key: insect.bumblebee
+    hint: large fuzzy bee with loud buzz (Bombus genus)
+    image: insect.bumblebee.png
+    brief:
+      subject: bumblebee
+      attrs: [yellow and black fuzzy, on flower, pollen basket visible]
+      setting: [garden flower, bright colors, macro]
+      avoid: [text, hive, humans]
+
+  - key: insect.hornet
+    hint: large aggressive wasp (Vespa crabro), bigger than common wasp
+    image: insect.hornet.png
+    brief:
+      subject: European hornet
+      attrs: [large, brown and yellow, wings folded]
+      setting: [tree branch, bark, macro]
+      avoid: [text, nest, blood]
+
+  - key: insect.cicada
+    hint: loud singing insect (Cicadidae); males produce loud buzzing song
+    image: insect.cicada.png
+    brief:
+      subject: cicada
+      attrs: [green-brown, wing venation visible, on tree trunk]
+      setting: [tree bark, summer, macro]
+      avoid: [text, humans]
+
+  - key: insect.locust
+    hint: swarming grasshopper that forms massive destructive swarms
+    image: insect.locust.png
+    brief:
+      subject: desert locust
+      attrs: [beige-yellow, wings half open, on plant stem]
+      setting: [dry plant, neutral background, macro]
+      avoid: [text, swarm, humans]
+
+  - key: insect.aphid
+    hint: tiny sap-sucking insect (Aphididae), found on plant stems
+    image: insect.aphid.png
+    brief:
+      subject: green aphid
+      attrs: [tiny, green, cluster on stem, soft body]
+      setting: [plant stem, extreme macro, green leaf]
+      avoid: [text, humans]
+
+  - key: insect.earwig
+    hint: elongated insect with pincers at tail end (Dermaptera)
+    image: insect.earwig.png
+    brief:
+      subject: earwig
+      attrs: [dark brown, pincers at tail, elongated, antennae]
+      setting: [soil, leaf litter, macro]
+      avoid: [text, humans]
+
+  - key: insect.silverfish
+    hint: wingless fast-moving insect (Lepisma saccharina) found indoors
+    image: insect.silverfish.png
+    brief:
+      subject: silverfish
+      attrs: [silvery grey, elongated, three tail filaments, fast]
+      setting: [white background, floor surface, macro]
+      avoid: [text, humans]
+
+  - key: insect.water_strider
+    hint: insect that walks on water surface using surface tension
+    image: insect.water_strider.png
+    brief:
+      subject: water strider
+      attrs: [elongated body, long legs on water, dark]
+      setting: [pond surface, water, reflections, macro]
+      avoid: [text, humans]
+
+  - key: insect.dung_beetle
+    hint: beetle that rolls balls of animal dung (Scarabaeidae)
+    image: insect.dung_beetle.png
+    brief:
+      subject: dung beetle
+      attrs: [shiny black, rolling dung ball, strong legs]
+      setting: [dry savanna, soil, dung ball]
+      avoid: [text, humans]
+
+  - key: insect.stag_beetle
+    hint: large beetle with antler-like mandibles (Lucanus cervus)
+    image: insect.stag_beetle.png
+    brief:
+      subject: stag beetle
+      attrs: [large, reddish-brown mandibles like antlers, male, shiny]
+      setting: [oak branch, bark, dusk]
+      avoid: [text, humans]
+
+  - key: insect.atlas_moth
+    hint: one of the world's largest moths (Attacus atlas)
+    image: insect.atlas_moth.png
+    brief:
+      subject: atlas moth
+      attrs: [enormous wings, brown and white pattern, wings spread, macro]
+      setting: [leaf or neutral background, natural light]
+      avoid: [text, humans]
+
+  - key: insect.weevil
+    hint: small beetle with a long snout (Curculionidae)
+    image: insect.weevil.png
+    brief:
+      subject: weevil
+      attrs: [tiny, brown, elongated snout, on grain or seed]
+      setting: [macro, neutral background]
+      avoid: [text, humans]
+
+  - key: insect.lacewing
+    hint: delicate insect with large transparent net-veined wings (Chrysopidae)
+    image: insect.lacewing.png
+    brief:
+      subject: green lacewing
+      attrs: [pale green, transparent net-veined wings, delicate, large eyes]
+      setting: [plant stem, macro, night light]
+      avoid: [text, humans]
+
+  - key: insect.crane_fly
+    hint: long-legged fly resembling a giant mosquito (Tipulidae)
+    image: insect.crane_fly.png
+    brief:
+      subject: crane fly
+      attrs: [extremely long legs, grey-brown, wings spread, delicate]
+      setting: [grass, dew, macro]
+      avoid: [text, humans]
+
+  - key: insect.mayfly
+    hint: short-lived insect that swarms near rivers (Ephemeroptera)
+    image: insect.mayfly.png
+    brief:
+      subject: mayfly
+      attrs: [delicate, upright tails, translucent wings, resting on leaf]
+      setting: [riverside, macro, morning light]
+      avoid: [text, humans]
+
+  - key: insect.damselfly
+    hint: slender relative of dragonfly that rests with wings folded (Zygoptera)
+    image: insect.damselfly.png
+    brief:
+      subject: common blue damselfly
+      attrs: [bright blue, slender, wings folded back, resting on stem]
+      setting: [pond vegetation, macro, sunny]
+      avoid: [text, humans]
+
+  - key: insect.robber_fly
+    hint: predatory fly that catches insects in flight (Asilidae)
+    image: insect.robber_fly.png
+    brief:
+      subject: robber fly
+      attrs: [hairy, bearded face, strong legs, grey-brown]
+      setting: [twig perch, macro, outdoor]
+      avoid: [text, blood, prey]
+
+  - key: insect.ground_beetle
+    hint: fast-running predatory beetle (Carabidae) found under stones
+    image: insect.ground_beetle.png
+    brief:
+      subject: violet ground beetle
+      attrs: [shiny dark purple-green, fast, long legs, oval]
+      setting: [soil, under stone, macro]
+      avoid: [text, humans]
+
+  - key: insect.tiger_beetle
+    hint: fast iridescent predatory beetle (Cicindelinae)
+    image: insect.tiger_beetle.png
+    brief:
+      subject: green tiger beetle
+      attrs: [metallic green, large eyes, long legs, fast]
+      setting: [sandy path, macro, sunlit]
+      avoid: [text, humans]
+
+  - key: insect.hoverfly
+    hint: bee-like fly that hovers and pollinates flowers (Syrphidae)
+    image: insect.hoverfly.png
+    brief:
+      subject: hoverfly
+      attrs: [yellow and black banded, hovering on flower, transparent wings]
+      setting: [flower, macro, sunny]
+      avoid: [text, humans]
+
+  - key: insect.whirligig_beetle
+    hint: beetle that whirls in circles on water surface (Gyrinidae)
+    image: insect.whirligig_beetle.png
+    brief:
+      subject: whirligig beetle
+      attrs: [shiny black oval, on water surface, small]
+      setting: [pond surface, ripples, macro]
+      avoid: [text, humans]
+
+  - key: insect.louse
+    hint: tiny parasitic insect living on host skin and hair (Phthiraptera)
+    image: insect.louse.png
+    brief:
+      subject: head louse
+      attrs: [tiny, grey, clinging to hair shaft, extreme macro]
+      setting: [extreme close-up, neutral background]
+      avoid: [text, humans]
+
+  - key: insect.bedbug
+    hint: flat oval blood-sucking pest (Cimex lectularius)
+    image: insect.bedbug.png
+    brief:
+      subject: bed bug
+      attrs: [flat oval body, reddish-brown, extreme macro]
+      setting: [extreme close-up, white background]
+      avoid: [text, humans, blood]
+
+  - key: insect.antlion
+    hint: insect larva that digs pit traps to catch ants (Myrmeleontidae)
+    image: insect.antlion.png
+    brief:
+      subject: antlion larva
+      attrs: [in pit, sand, small mandibles visible, sand pit trap]
+      setting: [sand, dry soil, macro]
+      avoid: [text, humans]
+
+  - key: insect.goliath_beetle
+    hint: one of the world's heaviest insects (Goliathus goliatus)
+    image: insect.goliath_beetle.png
+    brief:
+      subject: Goliath beetle
+      attrs: [enormous, white and brown markings, on branch, powerful]
+      setting: [tropical branch, macro]
+      avoid: [text, humans]
+
+  - key: insect.bombardier_beetle
+    hint: beetle that sprays hot toxic liquid as defence (Carabidae)
+    image: insect.bombardier_beetle.png
+    brief:
+      subject: bombardier beetle
+      attrs: [blue-black and orange, compact, rounded]
+      setting: [soil, leaf litter, macro]
+      avoid: [text, spray, humans]
+
+  - key: insect.diving_beetle
+    hint: aquatic predatory beetle that swims in ponds (Dytiscidae)
+    image: insect.diving_beetle.png
+    brief:
+      subject: great diving beetle
+      attrs: [oval, dark brown, streamlined, swimming underwater]
+      setting: [pond underwater, aquatic plants, macro]
+      avoid: [text, humans]
+
+  - key: insect.velvet_ant
+    hint: wingless female wasp with velvet fur (Mutillidae)
+    image: insect.velvet_ant.png
+    brief:
+      subject: velvet ant
+      attrs: [bright red and black, fuzzy, wingless female, on soil]
+      setting: [sandy soil, macro]
+      avoid: [text, blood, humans]
+

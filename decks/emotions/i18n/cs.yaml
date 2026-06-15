@@ -34,3 +34,382 @@ cards:
     label: klidný
     summary: Cítit vnitřní mír a pohodu, být v klidu.
     info: Klid je stav psychické a fyzické rovnováhy. Zpomaluje srdeční tep, prohlubuje dech a umožňuje jasné myšlení a dobré rozhodování.
+
+  emotion.bored:
+    label: nuda
+    summary: Pocit nezájmu a prázdnoty bez podnětů k zapojení.
+    info: |
+      Nuda je negativní emocionální stav způsobený absencí podnětů nebo smysluplné aktivity.
+      Může vést k hledání nových zážitků nebo k tvůrčímu myšlení.
+      Z evolučního pohledu motivuje k hledání příležitostí.
+      Výzkumy ukazují, že chronická nuda zvyšuje riziko deprese.
+
+  emotion.confused:
+    label: zmatenost
+    summary: Pocit nejistoty, kdy nerozumíme situaci nebo informaci.
+    info: |
+      Zmatenost nastane, když nám chybí kontext nebo znalosti k pochopení situace.
+      Je přirozenou součástí učení; kognitivní disonance stimuluje hledání odpovědí.
+      Na tváři se projevuje nakloněním hlavy a svraštěním čela.
+      Zmatenost v komunikaci může způsobit nedorozumění; klíčem je ptát se.
+
+  emotion.disgusted:
+    label: znechucení
+    summary: Silný pocit odporu při setkání s nepříjemným podnětem.
+    info: |
+      Znechucení je základní emoce chránící nás před škodlivými věcmi (toxickým jídlem, nemocemi).
+      Evoluční funkce: odrazuje od konzumace pokazených potravin.
+      Projevuje se svraštěním nosu, vyplazením jazyka a charakteristickým výrazem.
+      Vyvolává ho i morálně nechutné chování; funguje jako sociální regulátor.
+
+  emotion.embarrassed:
+    label: zahanbení
+    summary: Nepříjemný pocit studu v sociální situaci.
+    info: |
+      Zahanbení je sociální emoce vznikající, když věříme, že jsme porušili společenské normy.
+      Projevuje se zarudnutím (blush), odvrácením pohledu a zhroucenou polohou.
+      Má sociální funkci: signalizuje ostatním naše povědomí o normách a ochotu se jich držet.
+      Výzkumy ukazují, že lidé, kteří se snadno stydí, jsou vnímáni jako důvěryhodnější.
+
+  emotion.proud:
+    label: hrdost
+    summary: Pozitivní pocit uspokojení z vlastních úspěchů nebo skupiny.
+    info: |
+      Hrdost je emoce spojena s pocitem úspěchu nebo příslušnosti k něčemu hodnotnému.
+      Vzpřímená póza, zvednutá hlava a rozšírená hruď jsou universálními projevy hrdosti.
+      Může být zdravá (motivuje k rozvoji) nebo nezdravá (arogance).
+      V hinduistickém pojetí je hrdost (ahamkara) překážkou duchovního rozvoje.
+
+  emotion.jealous:
+    label: závist
+    summary: Negativní emoce plynoucí ze srovnávání s ostatními.
+    info: |
+      Závist je emoce vznikající, když vnímáme, že jiný má něco, co bychom chtěli my.
+      Různí se od žárlivosti: závist se týká cizích výhod, žárlivost ohrožení vlastního vztahu.
+      Může motivovat k lepšímu výkonu nebo způsobit resentiment.
+      V kulturách celého světa je zelená barva symbolem závisti.
+
+  emotion.lonely:
+    label: osamělost
+    summary: Bolestivý pocit chybějícího kontaktu s ostatními.
+    info: |
+      Osamělost je subjektivní pocit izolace nezávislý na skutečném počtu lidí v okolí.
+      Je silným prediktorem zdravotních problémů; chronická osamělost zkracuje život.
+      Mozek reaguje na sociální bolest stejně jako na fyzickou bolest.
+      V moderní době je epidemie osamělosti vážným veřejnozdravotním problémem.
+
+  emotion.grateful:
+    label: vděčnost
+    summary: Hřejivý pocit ocenění toho dobrého, co máme nebo dostáváme.
+    info: |
+      Vděčnost je pozitivní emoce vznikající, když si uvědomujeme dobro v našem životě.
+      Výzkumy v pozitivní psychologii ukazují, že pravidelné projevování vděčnosti zvyšuje spokojenost.
+      Aktivuje centra odměny v mozku podobně jako fyzické potěšení.
+      Denní psaní vděčnostního deníku je jednou z nejúčinnějších technik zlepšení nálady.
+
+  emotion.hopeful:
+    label: naděje
+    summary: Optimistický pocit, že budoucnost bude dobrá.
+    info: |
+      Naděje je emoce kombinující touhu po lepší budoucnosti a víru v její dosažitelnost.
+      Je klíčovým faktorem odolnosti (resilience) v obtížných situacích.
+      Výzkumy ukazují, že pacienti s vyšší nadějí se zotavují rychleji.
+      Emile Durkheim zjistil, že nedostatek naděje je klíčovým faktorem suicidálního chování.
+
+  emotion.worried:
+    label: starost
+    summary: Opakované negativní myšlení o možných budoucích problémech.
+    info: |
+      Starost je kognitivní emocionální stav zaměřený na anticipaci možných hrozeb.
+      Mírná starost je adaptivní a motivuje k přípravě.
+      Chronická starost (úzkostná porucha) narušuje každodenní fungování.
+      Mindfulness a záměrné zastavení spirály starostí jsou účinnými technikami.
+
+  emotion.frustrated:
+    label: frustrace
+    summary: Pocit podráždění, když dosažení cíle naráží na překážky.
+    info: |
+      Frustrace je emoce vznikající, když jsou naše cíle blokovány překážkami.
+      Může vést ke konstruktivní akci (hledání alternativy) nebo ke destruktivní (agrese).
+      Frustrationtheory (teorie frustrace-agrese) byla vlivnou psychologickou teorií 20. let 20. stol.
+      Fyzické projevy: zaťaté pěsti, zarudnutí, napětí svalů.
+
+  emotion.relieved:
+    label: úleva
+    summary: Příjemný pocit uvolnění po odeznění napětí nebo ohrožení.
+    info: |
+      Úleva je emoce zažívaná po odeznění stresu, obavy nebo bolesti.
+      Projevuje se hlubokým výdechem, uvolněním svalového napětí a pocitem lehkosti.
+      Je evolučně důležitá; signalizuje, že hrozba pominula a lze relaxovat.
+      Výzkumy mozku ukazují, že úleva aktivuje podobné oblasti jako odměna.
+
+  emotion.amused:
+    label: pobavení
+    summary: Lehký příjemný pocit zábavy nebo rozptýlení.
+    info: |
+      Pobavení je mírná pozitivní emoce vyvolaná něčím vtipným nebo zajímavým.
+      Liší se od smíchu; smích je výsledek pobavení, ale ne každé pobavení způsobí smích.
+      Je sociálně sdílená emoce; věci nám přijdou vtipnější, když je sdílíme s ostatními.
+      Vypovídá o inteligenci: smysl pro humor je spojen s rozpoznáváním nekonzistencí.
+
+  emotion.nostalgic:
+    label: nostalgie
+    summary: Sladkotrpký pocit stesku po minulosti.
+    info: |
+      Nostalgie je emoce plná sladkotrpkosti; vzpomínka na minulost je příjemná, ale zároveň bolestivá.
+      Slovo pochází z řeckého nostos (návrat domů) a algos (bolest).
+      Výzkumy ukazují, že nostalgie zvyšuje sociální spojení a pocit smysluplnosti.
+      Bývá spouštěna vůněmi, hudbou nebo místy spojenými s minulostí.
+
+  emotion.curious:
+    label: zvědavost
+    summary: Touha po novém poznání a pochopení.
+    info: |
+      Zvědavost je motivační stav iniciující hledání nových informací a zkušeností.
+      Je spojena s dopaminerovým systémem odměny; zvídavost doslova přináší potěšení.
+      Důležitá pro vědecký pokrok a osobní rozvoj.
+      Děti jsou přirozeně zvídavé; vzdělávací systémy mohou tuto vlastnost posilovat nebo potlačovat.
+
+  emotion.confident:
+    label: sebevědomí
+    summary: Víra ve vlastní schopnosti a hodnotu.
+    info: |
+      Sebevědomí je emocionální stav důvěry ve vlastní schopnosti a úsudek.
+      Vzpřímená póza, přímý oční kontakt a klidný hlas jsou projevy sebevědomí.
+      Amy Cuddy (TED talk 2012) popularizovala mocenské pózy jako způsob zvyšování sebevědomí.
+      Může se budovat úspěchem v malých krocích a pozitivní zpětnou vazbou.
+
+  emotion.anxious:
+    label: úzkost
+    summary: Nepříjemný pocit nervozity a obav z nejisté budoucnosti.
+    info: |
+      Úzkost je emoce anticipující ohrožení; mírná úzkost je adaptivní a zlepšuje výkon.
+      Projevuje se fyzicky: bušení srdce, pocení, zkrácený dech, napjaté svaly.
+      Úzkostná porucha je nejčastější duševní nemocí; postihuje přes 300 milionů lidí.
+      Kognitivně-behaviorální terapie (KBT) je nejúčinnější léčbou úzkostných poruch.
+
+  emotion.cheerful:
+    label: radostnost
+    summary: Příjemný stav veselé nálady a optimismu.
+    info: |
+      Radostnost je pozitivní emocionální stav charakteristický živým entuziasmem a dobrou náladou.
+      Souvisí s extravertní osobností a vysokou mírou pozitivního afektu.
+      Je nakažlivá; přítomnost radostného člověka zlepšuje náladu okolí.
+      Výzkumy ukazují, že radostní lidé mají silnější imunitní systém.
+
+  emotion.melancholy:
+    label: melancholie
+    summary: Tichý smutek s prvky zamyšlenosti a krásy.
+    info: |
+      Melancholie je pensive emoce kombinující smutek, zamyšlenost a určitou sladkost.
+      Pochází z řeckého slova pro černou žluč (melan chole); starověcí lékaři ji připisovali přebytku černé žluče.
+      Na rozdíl od deprese obsahuje estetický prvek; umění, hudba a literatura ji často oslavují.
+      Evokuje ji podzimní příroda, stará fotografie nebo smutná hudba.
+
+  emotion.disappointed:
+    label: zklamání
+    summary: Nepříjemný pocit, když realita nesplní naše očekávání.
+    info: |
+      Zklamání vzniká, když výsledek neodpovídá očekávání nebo přání.
+      Je silnější při vysoké investici emocí nebo úsilí.
+      Výzkumy ukazují, že očekávání jsou klíčová; nižší očekávání vedou k menšímu zklamání.
+      Vzdělání emocionální inteligence zahrnuje práci s nepříjemnými emocemi jako zklamáním.
+
+  emotion.content:
+    label: spokojenost
+    summary: Klidné, tichou spokojenost bez touhy po více.
+    info: |
+      Spokojenost je klidný pozitivní emocionální stav bez potřeby změny.
+      Liší se od štěstí; spokojenost je klidná, zatímco štěstí je živé.
+      Buddhismus klade spokojenost (santosa) jako klíčovou ctnost na cestě k osvícení.
+      Výzkumy v psychologii blahobytu ukazují, že spokojenost je odolnější než euforie.
+
+  emotion.nervous:
+    label: nervozita
+    summary: Mírná úzkost před nějakou událostí; motýli v žaludku.
+    info: |
+      Nervozita je mírný úzkostný stav typicky spojený s anticipací důležité události.
+      Fyziologicky se projevuje zvýšenou aktivitou sympatického nervového systému: bušení srdce, pocení.
+      Mírná nervozita zlepšuje výkon; příliš silná ho narušuje.
+      Technika přerámování nervozity na vzrušení (excitement reappraisal) je účinnou strategií.
+
+  emotion.loving:
+    label: láska
+    summary: Hluboký pocit náklonnosti a přilnutí k druhé osobě.
+    info: |
+      Láska je komplexní emoce kombinující náklonnost, péči, důvěru a intimitu.
+      Neurochemicky je spojena s oxytocinem, dopaminem a serotoninem.
+      Helen Fisher rozlišuje tři systémy: sexuální touhu, romantickou lásku a hlubší připoutání.
+      Je universální emocí přítomnou ve všech kulturách, ačkoli její vyjadřování se liší.
+
+  emotion.shocked:
+    label: šok
+    summary: Náhlé omráčení nečekanou informací nebo událostí.
+    info: |
+      Šok je intenzivní emoce vyvolaná neočekávanou, překvapivou nebo šokující informací.
+      Projevuje se náhlým zamrznutím, otevřenými ústy a rozšířenými zornicemi.
+      Evoluční funkce: zastavit aktivitu a zpracovat neočekávanou informaci.
+      Emocionální šok (trauma) může mít dlouhodobé psychologické následky.
+
+  emotion.determined:
+    label: odhodlání
+    summary: Silný záměr dosáhnout cíle navzdory překážkám.
+    info: |
+      Odhodlání je motivační emocionální stav charakteristický soustředěným záměrem a vytrvalostí.
+      Projevuje se zaťatými čelistmi, napnutým tělem a intenzivním pohledem.
+      Úzce souvisí s pojmem grit (Angela Duckworth): kombinace vášně a vytrvalosti.
+      Výzkumy ukazují, že odhodlání předpovídá úspěch lépe než inteligence.
+
+  emotion.shy:
+    label: stydlivost
+    summary: Nervózní zadržení v sociálních situacích, zejména s cizími lidmi.
+    info: |
+      Stydlivost je sociální emoce projevující se nervozitou a zadržením v přítomnosti cizích lidí.
+      Je spojována s introvertní osobností, ale nejsou totéž.
+      Mírná stydlivost je normální; vážná forma (sociální fobie) narušuje fungování.
+      Kulturní vliv je silný: v některých kulturách je stydlivost ctností, v jiných překážkou.
+
+  emotion.guilty:
+    label: vina
+    summary: Bolestivý pocit po porušení vlastních morálních zásad.
+    info: |
+      Vina je emoce vznikající po spáchání činu, který považujeme za špatný.
+      Liší se od studu: vina se zaměřuje na konkrétní chování, stud na celou osobu.
+      Má sociální funkci: motivuje k omluvě a nápravě, posiluje morální chování.
+      Nezdravá vina (přehnaná, neustálá) může vést k depresi.
+
+  emotion.overwhelmed:
+    label: zahlcení
+    summary: Pocit, kdy je na nás příliš mnoho najednou.
+    info: |
+      Zahlcení nastane, když požadavky překračují naše zdroje zvládání.
+      Projevuje se kognitivním selháním (neschopnost myslet jasně), emočním výbuchem nebo zamrznutím.
+      Určitá míra zahlcení je zvládnutelná; chronické zahlcení vede k vyhoření.
+      Time management, delegování a mindfulness jsou účinné strategie.
+
+  emotion.peaceful:
+    label: klid
+    summary: Hluboký pocit vnitřního míru a pohody.
+    info: |
+      Klid je pozitivní emocionální stav absence stresu a rušení.
+      Je cílem meditačních praxí, zejména mindfulness a zenové meditace.
+      Aktivuje parasympatický nervový systém: snižuje tepovou frekvenci a krevní tlak.
+      V ekopsychologii je pobyt v přírodě jedním z nejúčinnějších způsobů dosažení klidu.
+
+  emotion.playful:
+    label: hravost
+    summary: Živá nálada a touha po zábavě a hře.
+    info: |
+      Hravost je emocionální stav charakteristický radostí ze hry, humoru a experimentování.
+      U dospělých je pozitivním prediktorem kreativity a dobré mentální pohody.
+      Evoluční funkce: rozvíjení dovedností v bezpečném kontextu.
+      Stuart Brown (National Institute for Play) dokládá, že hra je nezbytná pro zdravé fungování v každém věku.
+
+  emotion.serious:
+    label: vážnost
+    summary: Klidný soubor bez humoru; soustředění na závažné věci.
+    info: |
+      Vážnost je emocionální postoj charakteristický soustředěností a absencí lehkovážnosti.
+      Je důležitá v situacích vyžadujících soustředění a pečlivé uvažování.
+      Může být kulturně vnímaná různě; v některých kulturách je vážnost ctí, v jiných je spojena s nedostupností.
+      Rovnováha vážnosti a hravosti je klíčem k psychologické pružnosti.
+
+  emotion.upset:
+    label: rozrušení
+    summary: Nepříjemné emocionální rozrušení způsobené negativní událostí.
+    info: |
+      Rozrušení je obecný negativní emocionální stav kombinující smutek, vztek a úzkost.
+      Je reakcí na nepříjemné události, zklamání nebo konflikt.
+      Fyziologicky aktivuje stresovou osu (HPA): zvyšuje kortizol.
+      Emocionální regulace (dýchání, kognitivní přerámování) pomáhá rozrušení zvládnout.
+
+  emotion.amazed:
+    label: úžas
+    summary: Silný pozitivní překvapivý pocit při setkání s něčím výjimečným.
+    info: |
+      Úžas (awe) je intenzivní emoce vyvolaná setkáním s něčím obrovským nebo ohromujícím.
+      Snižuje pocit vlastní důležitosti (small self effect) a zvyšuje pocit propojení s okolím.
+      Výzkumy ukazují, že úžas snižuje stres a zvyšuje prosociální chování.
+      Zažívá se v přírodě, při poslechu hudby nebo při pohledu na krásné umění.
+
+  emotion.annoyed:
+    label: podrážděnost
+    summary: Mírný pocit vzteku způsobený opakujícím se rušivým podnětem.
+    info: |
+      Podrážděnost je mírná negativní emoce vyvolaná opakujícím se rušivým podnětem.
+      Často předchází intenzivnějšímu vzteku.
+      Může být způsobena nedostatkem spánku, hladem nebo přetížením.
+      Poznání vlastních spouštěčů je klíčem k lepší regulaci.
+
+  emotion.delighted:
+    label: nadšená radost
+    summary: Silná radost z příjemné události nebo překvapení.
+    info: |
+      Nadšená radost je intenzivní pozitivní emoce vyvolaná příjemnými událostmi nebo překvapeními.
+      Je silnější než základní radost a projevuje se dynamičtěji: skákáním, voláním, smíchem.
+      Evoluční funkce: posiluje chování vedoucí k žádoucím výsledkům.
+      Je sociálně nakažlivá; sdílená radost je více než dvojnásobná.
+
+  emotion.hopeless:
+    label: beznaděj
+    summary: Pocit, že budoucnost nemůže přinést nic dobrého.
+    info: |
+      Beznaděj je negativní emocionální stav charakteristický přesvědčením, že situace se nemůže zlepšit.
+      Je klíčovým rysem deprese a faktorem suicidálního rizika.
+      Aarona Becka model kognitivní terapie identifikoval beznaděj jako jádrové přesvědčení.
+      Náhled a kognitivní restrukturace jsou účinnými intervencemi.
+
+  emotion.inspired:
+    label: inspirace
+    summary: Kreativní vzrušení motivující k tvůrčí akci.
+    info: |
+      Inspirace je emocionální stav charakteristický náhlou motivací a kreativním vzrušením.
+      Bývá spojena s epifanií nebo setkáním s výjimečným dílem nebo osobou.
+      Neurovědecky aktivuje prefrontální kortex a centrum odměny.
+      Může být kultivována prostředím, pravidelným záměrným hledáním a otevřeností k novým zkušenostem.
+
+  emotion.irritated:
+    label: podrážděnost silnější
+    summary: Stav zvýšené reaktivity na drobné podněty; hranice vzteku.
+    info: |
+      Podrážděnost je emocionální stav zvýšené reaktivity, kdy i drobné podněty vyvolávají silnější negativní reakci.
+      Může signalizovat vyčerpání, nedostatek spánku nebo nahromaděný stres.
+      Ženy v pubertě, těhotenství nebo menopauze mohou zažívat hormonálně podmíněnou podrážděnost.
+      Rozlišování od skutečného vzteku pomáhá regulaci.
+
+  emotion.joyful:
+    label: radost
+    summary: Intenzivní štěstí a exuberance; přeplňující pozitivní emoce.
+    info: |
+      Radost je intenzivní pozitivní emoce překypující štěstím.
+      Je spojována s vnitřní motivací a flow stavem (Csikszentmihalyi).
+      Evoluční funkce: posiluje sociální vazby a motivaci k prospěšnému chování.
+      Je celospolečensky ceněnou emocí; v pozitivní psychologii je klíčovým ukazatelem pohody (well-being).
+
+  emotion.miserable:
+    label: trápení
+    summary: Extrémní nevole a utrpení; nejhorší stupeň smutku.
+    info: |
+      Trápení je intenzivní negativní emocionální stav charakteristický hlubokou nevoli a utrpením.
+      Může být způsobeno fyzickou bolestí, emočním zraněním nebo ztrátou.
+      Chronické trápení je symptomem deprese.
+      Sociální podpora a profesionální pomoc jsou klíčové pro zvládání intenzivního trápení.
+
+  emotion.optimistic:
+    label: optimismus
+    summary: Sklon očekávat dobré výsledky a vidět pozitivní stránky.
+    info: |
+      Optimismus je kognitivně-emocionální styl charakteristický očekáváním pozitivních výsledků.
+      Martin Seligman (pozitivní psychologie) identifikoval optimismus jako klíčový faktor odolnosti.
+      Optimisté žijí déle, jsou zdravější a jsou úspěšnější.
+      Optimismus lze naučit: vnímání výzev jako dočasných, specifických a ovlivnitelných.
+
+  emotion.pessimistic:
+    label: pesimismus
+    summary: Sklon očekávat špatné výsledky a soustředit se na negativa.
+    info: |
+      Pesimismus je kognitivně-emocionální styl charakteristický očekáváním negativních výsledků.
+      Mírný pesimismus může být adaptivní; realistické hodnocení rizik pomáhá vyhýbat se nebezpečí.
+      Chronický pesimismus je spojen s vyšším rizikem deprese a horšími zdravotními výsledky.
+      Kognitivně-behaviorální terapie pomáhá pesimistický myšlenkový vzor měnit.
+

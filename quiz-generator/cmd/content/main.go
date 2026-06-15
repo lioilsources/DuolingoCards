@@ -542,7 +542,7 @@ func runTranslate(args []string) error {
 	langCode := fs.String("lang", "", "only translate this language code (default: all missing)")
 	llmURL := fs.String("url", "http://spark-99bb:8080", "LLM base URL (OpenAI-compatible)")
 	llmModel := fs.String("model", "llm-lab", "model name")
-	workers := fs.Int("workers", 3, "parallel translation workers (one per language)")
+	workers := fs.Int("workers", 8, "parallel translation workers (one per language)")
 	force := fs.Bool("force", false, "re-translate even if i18n file already exists")
 	if err := fs.Parse(args); err != nil {
 		return err

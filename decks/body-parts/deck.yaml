@@ -80,3 +80,382 @@ cards:
       attrs: [red, heart shape, simplified anatomy, cartoon style, cute]
       setting: [white background, centered, clean]
       avoid: [text, scary, blood dripping, realistic anatomy]
+
+  - key: body.arm
+    hint: the upper limb from shoulder to hand
+    image: body.arm.png
+    brief:
+      subject: cartoon arm
+      attrs: [raised, showing muscles, simple, clear]
+      setting: [white or light background, child-friendly illustration]
+      avoid: [text, realistic anatomy]
+
+  - key: body.leg
+    hint: the lower limb from hip to foot
+    image: body.leg.png
+    brief:
+      subject: cartoon leg
+      attrs: [standing, simple shape, clear outline]
+      setting: [white background, child-friendly]
+      avoid: [text, realistic anatomy]
+
+  - key: body.knee
+    hint: the joint in the middle of the leg
+    image: body.knee.png
+    brief:
+      subject: cartoon knee
+      attrs: [highlighted, bent slightly, simple]
+      setting: [white background, clear focus]
+      avoid: [text]
+
+  - key: body.elbow
+    hint: the joint in the middle of the arm
+    image: body.elbow.png
+    brief:
+      subject: cartoon elbow joint
+      attrs: [bent arm, elbow highlighted, simple]
+      setting: [white background, clear]
+      avoid: [text]
+
+  - key: body.shoulder
+    hint: the joint where the arm meets the body
+    image: body.shoulder.png
+    brief:
+      subject: cartoon shoulder
+      attrs: [shoulder highlighted, simple outline, clear]
+      setting: [white background, child-friendly]
+      avoid: [text]
+
+  - key: body.neck
+    hint: the part connecting the head to the body
+    image: body.neck.png
+    brief:
+      subject: cartoon neck
+      attrs: [simple character, neck highlighted, clear]
+      setting: [white background, front view]
+      avoid: [text]
+
+  - key: body.chest
+    hint: the front of the torso, between neck and stomach
+    image: body.chest.png
+    brief:
+      subject: cartoon chest
+      attrs: [simple character, chest highlighted, front view]
+      setting: [white background, child-friendly]
+      avoid: [text]
+
+  - key: body.back
+    hint: the rear of the torso
+    image: body.back.png
+    brief:
+      subject: cartoon back
+      attrs: [simple character, back highlighted, rear view]
+      setting: [white background, child-friendly]
+      avoid: [text]
+
+  - key: body.stomach
+    hint: the abdomen; the belly area
+    image: body.stomach.png
+    brief:
+      subject: cartoon stomach
+      attrs: [simple character, stomach highlighted, front view]
+      setting: [white background, child-friendly]
+      avoid: [text]
+
+  - key: body.hip
+    hint: the area at the side of the pelvis
+    image: body.hip.png
+    brief:
+      subject: cartoon hip area
+      attrs: [simple character, hips highlighted, front view]
+      setting: [white background, child-friendly]
+      avoid: [text]
+
+  - key: body.finger
+    hint: one of the five digits on the hand
+    image: body.finger.png
+    brief:
+      subject: cartoon finger
+      attrs: [pointing up, one finger highlighted, clear, simple]
+      setting: [white background, close-up hand]
+      avoid: [text]
+
+  - key: body.thumb
+    hint: the short thick first digit of the hand; thumbs up
+    image: body.thumb.png
+    brief:
+      subject: cartoon thumb up gesture
+      attrs: [thumbs up, highlighted, simple, cartoon hand]
+      setting: [white background, cheerful]
+      avoid: [text]
+
+  - key: body.toe
+    hint: one of the five digits on the foot
+    image: body.toe.png
+    brief:
+      subject: cartoon toes
+      attrs: [foot close-up, toes highlighted, wiggling, simple]
+      setting: [white background, cartoon foot]
+      avoid: [text]
+
+  - key: body.wrist
+    hint: the joint between the hand and the forearm
+    image: body.wrist.png
+    brief:
+      subject: cartoon wrist
+      attrs: [wrist highlighted, simple arm and hand, front view]
+      setting: [white background, clear]
+      avoid: [text]
+
+  - key: body.ankle
+    hint: the joint between the foot and the leg
+    image: body.ankle.png
+    brief:
+      subject: cartoon ankle
+      attrs: [ankle highlighted, simple leg and foot]
+      setting: [white background, side view, clear]
+      avoid: [text]
+
+  - key: body.heel
+    hint: the back bottom part of the foot
+    image: body.heel.png
+    brief:
+      subject: cartoon heel
+      attrs: [heel highlighted, foot side view, simple]
+      setting: [white background, clear]
+      avoid: [text]
+
+  - key: body.palm
+    hint: the inner flat surface of the hand
+    image: body.palm.png
+    brief:
+      subject: cartoon open palm
+      attrs: [open hand, palm facing up, fingers spread, simple]
+      setting: [white background, clear]
+      avoid: [text]
+
+  - key: body.forehead
+    hint: the part of the face above the eyebrows
+    image: body.forehead.png
+    brief:
+      subject: cartoon forehead
+      attrs: [simple face, forehead highlighted, front view, cartoon]
+      setting: [white background, child-friendly]
+      avoid: [text]
+
+  - key: body.chin
+    hint: the lowest part of the face below the lower lip
+    image: body.chin.png
+    brief:
+      subject: cartoon chin
+      attrs: [simple face, chin highlighted, front view]
+      setting: [white background, child-friendly]
+      avoid: [text]
+
+  - key: body.cheek
+    hint: the fleshy area on either side of the face
+    image: body.cheek.png
+    brief:
+      subject: cartoon cheeks
+      attrs: [simple face, cheeks highlighted with pink flush, cute]
+      setting: [white background, child-friendly]
+      avoid: [text]
+
+  - key: body.tongue
+    hint: the muscular organ inside the mouth used for tasting and speaking
+    image: body.tongue.png
+    brief:
+      subject: cartoon tongue
+      attrs: [mouth open, tongue sticking out, pink, silly]
+      setting: [white background, close-up cartoon mouth]
+      avoid: [text]
+
+  - key: body.tooth
+    hint: one of the hard white structures inside the mouth for chewing
+    image: body.tooth.png
+    brief:
+      subject: cartoon tooth
+      attrs: [single tooth, white, smiling, simple]
+      setting: [white or light background, cartoon style]
+      avoid: [text]
+
+  - key: body.lip
+    hint: either of the two fleshy edges of the mouth
+    image: body.lip.png
+    brief:
+      subject: cartoon lips
+      attrs: [pink, closed smile, simple, clear]
+      setting: [white background, front view, child-friendly]
+      avoid: [text]
+
+  - key: body.eyebrow
+    hint: the strip of hair above each eye
+    image: body.eyebrow.png
+    brief:
+      subject: cartoon eyebrows
+      attrs: [simple face, eyebrows highlighted, expressive, thick]
+      setting: [white background, child-friendly face]
+      avoid: [text]
+
+  - key: body.hair
+    hint: the fibres growing on the head
+    image: body.hair.png
+    brief:
+      subject: cartoon hair
+      attrs: [simple character, hair highlighted, colourful or dark, cute]
+      setting: [white background, child-friendly]
+      avoid: [text]
+
+  - key: body.nail
+    hint: the hard keratin covering at the end of each finger or toe
+    image: body.nail.png
+    brief:
+      subject: cartoon fingernails
+      attrs: [hand close-up, nails highlighted, simple, clear]
+      setting: [white background, close-up]
+      avoid: [text]
+
+  - key: body.brain
+    hint: the organ inside the skull that controls thought and the body
+    image: body.brain.png
+    brief:
+      subject: cartoon brain
+      attrs: [pink-grey, convoluted, glowing, illustrated, simple]
+      setting: [white or light background, educational illustration]
+      avoid: [text, blood, realistic]
+
+  - key: body.lung
+    hint: one of the two organs in the chest for breathing
+    image: body.lung.png
+    brief:
+      subject: cartoon lungs
+      attrs: [pink, pair of lungs, illustrated, simple]
+      setting: [white background, educational illustration]
+      avoid: [text, blood, realistic]
+
+  - key: body.liver
+    hint: the large organ in the abdomen for filtering blood
+    image: body.liver.png
+    brief:
+      subject: cartoon liver
+      attrs: [reddish-brown, simple organ illustration, clear]
+      setting: [white background, educational illustration]
+      avoid: [text, blood, realistic]
+
+  - key: body.kidney
+    hint: one of two bean-shaped organs that filter blood and produce urine
+    image: body.kidney.png
+    brief:
+      subject: cartoon kidneys
+      attrs: [bean-shaped, pink pair, simple illustrated]
+      setting: [white background, educational illustration]
+      avoid: [text, blood, realistic]
+
+  - key: body.spine
+    hint: the column of vertebrae running down the back
+    image: body.spine.png
+    brief:
+      subject: cartoon spine
+      attrs: [illustrated skeleton back, spine highlighted, simple, cartoon]
+      setting: [white background, educational illustration]
+      avoid: [text, blood, realistic]
+
+  - key: body.bone
+    hint: the hard tissue forming the skeleton
+    image: body.bone.png
+    brief:
+      subject: cartoon bone
+      attrs: [white, classic bone shape, simple, clean]
+      setting: [white or light background, cartoon style]
+      avoid: [text, blood]
+
+  - key: body.muscle
+    hint: the tissue that contracts to produce movement
+    image: body.muscle.png
+    brief:
+      subject: cartoon muscle arm flex
+      attrs: [flexed arm, muscle highlighted, simple cartoon, strong]
+      setting: [white or light background, child-friendly]
+      avoid: [text, blood, realistic]
+
+  - key: body.skin
+    hint: the outer covering of the body; largest organ
+    image: body.skin.png
+    brief:
+      subject: cartoon skin texture close-up
+      attrs: [smooth, illustrated, simple cross-section or surface]
+      setting: [white background, educational style]
+      avoid: [text, blood, realistic]
+
+  - key: body.throat
+    hint: the passage inside the neck connecting mouth to oesophagus
+    image: body.throat.png
+    brief:
+      subject: cartoon throat illustration
+      attrs: [cartoon character, mouth open, throat highlighted, simple]
+      setting: [white background, educational illustration]
+      avoid: [text, blood]
+
+  - key: body.calf
+    hint: the back part of the lower leg, below the knee
+    image: body.calf.png
+    brief:
+      subject: cartoon calf muscle
+      attrs: [leg, calf highlighted, simple cartoon]
+      setting: [white background, side view]
+      avoid: [text]
+
+  - key: body.thigh
+    hint: the part of the leg between the hip and the knee
+    image: body.thigh.png
+    brief:
+      subject: cartoon thigh
+      attrs: [simple cartoon leg, thigh highlighted, front view]
+      setting: [white background, clear]
+      avoid: [text]
+
+  - key: body.belly_button
+    hint: the small hollow or raised area in the centre of the abdomen
+    image: body.belly_button.png
+    brief:
+      subject: cartoon belly button
+      attrs: [simple cartoon tummy, belly button highlighted, cute, child]
+      setting: [white background, cartoon style]
+      avoid: [text]
+
+  - key: body.temple
+    hint: the flat area on either side of the forehead above the cheek
+    image: body.temple.png
+    brief:
+      subject: cartoon temple area
+      attrs: [simple face, temple highlighted, side view]
+      setting: [white background, child-friendly]
+      avoid: [text]
+
+  - key: body.jaw
+    hint: the lower bone of the face that holds the lower teeth
+    image: body.jaw.png
+    brief:
+      subject: cartoon jaw
+      attrs: [simple cartoon face, jaw highlighted or moving, side view]
+      setting: [white background, clear]
+      avoid: [text]
+
+  - key: body.eyelash
+    hint: the row of curved hairs growing from the edge of the eyelid
+    image: body.eyelash.png
+    brief:
+      subject: cartoon eye with eyelashes
+      attrs: [close-up eye, long lashes highlighted, simple cute cartoon]
+      setting: [white background, simple illustration]
+      avoid: [text]
+
+  - key: body.vein
+    hint: a blood vessel that carries blood toward the heart
+    image: body.vein.png
+    brief:
+      subject: cartoon vein in arm
+      attrs: [blue vein visible, simple cartoon arm, clear, educational]
+      setting: [white background, simple illustration]
+      avoid: [text, blood, realistic]
+

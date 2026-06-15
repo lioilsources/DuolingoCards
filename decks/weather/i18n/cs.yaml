@@ -34,3 +34,381 @@ cards:
     label: duha
     summary: Barevný oblouk na obloze po dešti, kdy svítí slunce.
     info: Duha vzniká lomem a odrazem slunečního světla v kapkách deště. Obsahuje sedm barev – červenou, oranžovou, žlutou, zelenou, modrou, indigovou a fialovou.
+
+  weather.hailing:
+    label: krupobití
+    summary: Srážky ledových zrn; kroupy mohou poškodit úrodu a vozidla.
+    info: |
+      Krupobití je srážka tvořená ledovými zrny (kroupami) vytvářenými v bouřkových oblacích.
+      Kroupy vznikají, když vodní kapky opakovaně přecházejí chladnou a teplou částí oblaku.
+      Mohou dosáhnout průměru přes 10 cm a způsobit vážné škody na úrodě, vozidlech i střechách.
+      Největší zaznamenaná kroupy měla průměr přes 20 cm.
+
+  weather.thunderstorm:
+    label: bouřka
+    summary: Intenzivní atmosferický jev s blesky, hromem, deštěm a větrem.
+    info: |
+      Bouřka vzniká v kumulonimbech, mohutných oblacích dosahujících výšky přes 10 km.
+      Bleskový výboj je elektrostatická porucha; blesk ohřeje vzduch na 30 000 °C za zlomek sekundy.
+      Hrom je zvukový efekt rychlé expanze zahřátého vzduchu.
+      Bouřky vznikají v létě, kdy slunce ohřívá půdu a způsobuje konvektivní proudy.
+
+  weather.lightning:
+    label: blesk
+    summary: Elektrostatický výboj mezi mrakem a zemí nebo mezi mraky.
+    info: |
+      Blesk je silný elektrický výboj vznikající, když rozdíl nábojů v bouřkovém oblaku dosáhne kritické hodnoty.
+      Rychlost blesku je přibližně třetina rychlosti světla.
+      Na Zemi udeří přibližně 100 blesků za sekundu.
+      Hromosvod (Franklin, 1752) je prvním vědecky navrženým ochranným zařízením.
+
+  weather.frosty:
+    label: mrazivé ráno
+    summary: Povrchový jinovatka; ledové krystaly pokrývají rostliny a zem.
+    info: |
+      Jinovatka vzniká, když teplota povrchu klesne pod bod mrazu a vzdušná vlhkost zkrystalizuje.
+      Tvoří nádherné vzory na listech, sklech a povrchu půdy.
+      Liší se od inea (mrazu): jinovatka je sublimovaný vzdušný led, inej je zmrzlá rosa.
+      Jinovatka je pro rostliny nebezpečná; zemědělci ji monitorují k ochraně úrody.
+
+  weather.icy:
+    label: náledí
+    summary: Nebezpečný led na površích způsobující klouzání.
+    info: |
+      Náledí vzniká zmrznutím dešťových kapek nebo tání sněhu na studených površích.
+      Je jednou z nejnebezpečnějších zimních situací pro dopravu.
+      Kluzavost ledu je způsobena tenkou vrstvou kapalné vody na jeho povrchu.
+      Posyp solí nebo pískem snižuje nebezpečí klouzání.
+
+  weather.humid:
+    label: vlhkost
+    summary: Vzduch nasycený vodní parou; horký a dusný pocit.
+    info: |
+      Vlhkost (humidity) měří obsah vodní páry ve vzduchu.
+      Relativní vlhkost 100 % znamená nasycení vzduchu; při překročení kondenzuje voda.
+      Vysoká vlhkost zvyšuje pocit horka, protože pot se neodpařuje.
+      Tropické oblasti mají celoroční vysokou vlhkost; u nás je nejvyšší v létě.
+
+  weather.hot:
+    label: horko
+    summary: Extrémní teplo způsobující npohodlí a zdravotní rizika.
+    info: |
+      Extrémní horko je meteorologický jev s teplotami výrazně nad sezonním průměrem.
+      V kombinaci s vlhkostí může způsobit úpal (heat stroke) ohrožující život.
+      V Česku přesáhly teploty v horkých vlnách 38 °C.
+      Globální oteplování zvyšuje frekvenci a intenzitu veder.
+
+  weather.cold:
+    label: zima
+    summary: Extrémní chlad s teplotami hluboko pod bodem mrazu.
+    info: |
+      Extrémní chlad (mrazy) nastávají, když arktický vzduch pronikne do mírných šířek.
+      Nejnižší přirozeně naměřená teplota na Zemi: -89,2 °C na stanici Vostok v Antarktidě.
+      Organismus reaguje na chlad zúžením krevních cév a třesením.
+      Hypotermie nastává, kdy tělesná teplota klesne pod 35 °C.
+
+  weather.tornado:
+    label: tornádo
+    summary: Ničivý rotující vzduchový sloup sahající od oblaku k zemi.
+    info: |
+      Tornádo je rychle rotující sloupeček vzduchu vzniklý z bouřky dotýkající se zemského povrchu.
+      Rychlost větru může přesáhnout 500 km/h.
+      Nejčastěji se vyskytuje v Tornado Alley v USA (Kansas, Oklahoma, Texas).
+      V Česku tornáda existují, ale jsou vzácná; v létě 2021 zasáhlo jižní Moravu silné tornádo.
+
+  weather.hurricane:
+    label: hurikán
+    summary: Mohutný tropický cyklon s větry přes 120 km/h.
+    info: |
+      Hurikán je tropický cyklon v Atlantiku a východním Pacifiku s větry přes 120 km/h.
+      Též zvaný tajfun (západní Pacifik) nebo cyklón (Indický oceán).
+      Energie hurikánu odpovídá desítkám atomových bomb za den.
+      Nejsilnější hurikány dosáhly 5. kategorie s větry přes 250 km/h.
+
+  weather.blizzard:
+    label: sněhová bouře
+    summary: Silná sněhová bouře s hustým sněhem a větrem téměř nulovou viditelností.
+    info: |
+      Sněhová bouře je silný sněhový jev kombinující husté sněžení a silný vítr.
+      Způsobuje téměř nulovou viditelnost (whiteout) a vysoké sněhové závěje.
+      Historicky způsobovaly sněhové bouře smrt tisíců lidí.
+      Blizzard of 1888 v USA pohřbil New York pod 130 cm sněhu.
+
+  weather.heatwave:
+    label: vedra
+    summary: Prolongovaná période nadprůměrného horka; zdravotní riziko.
+    info: |
+      Vlna veder je prolongovaná perioda extrémního horka přesahující normální sezonní teploty.
+      Evropská vlna veder 2003 způsobila přes 70 000 přemrštěných úmrtí.
+      Zvláště nebezpečná pro seniory, děti a nemocné.
+      Globální oteplování způsobuje prodlužování a zesilování veder.
+
+  weather.drought:
+    label: sucho
+    summary: Dlouhodobý nedostatek srážek způsobující nedostatek vody.
+    info: |
+      Sucho je meteorologická situace s dlouhotrvajícím deficitem srážek.
+      Vede ke ztrátám úrody, nedostatku vody a požárům.
+      V Česku bylo sucho v letech 2015-2020 nejhorší za 500 let.
+      Globální oteplování zhoršuje sucha v mnoha oblastech světa.
+
+  weather.flood:
+    label: záplava
+    summary: Přelití vody z koryt vodních toků na normálně suché území.
+    info: |
+      Záplava vzniká při nadměrných srážkách, tání sněhu nebo selhání hrází.
+      Povodně jsou nejnákladnější přírodní katastrofou na světě.
+      V Česku způsobily povodně 1997 a 2002 miliardové škody a desítky mrtvých.
+      Přírodní protipovodňová opatření (mokřady, lesy) pomáhají snižovat riziko.
+
+  weather.sandstorm:
+    label: písečná bouře
+    summary: Zeď písku a prachu hnána silným větrem v pouštních oblastech.
+    info: |
+      Písečná bouře vzniká, když silný vítr zdvihne obrovské množství prachu a písku.
+      Habub je specifický typ písečné bouře v Sahelu a Arabském poloostrově.
+      Může pohřbít vesnice a způsobit respirační problémy.
+      Haboob v Arizoně (USA) jsou výjimečným přírodním divadlem.
+
+  weather.partly_cloudy:
+    label: polojasno
+    summary: Obloha částečně pokryta oblaky; střídání slunce a stínu.
+    info: |
+      Polojasno je meteorologická situace s 3/8 až 5/8 oblačnosti.
+      Je jedním z nejpříjemnějších typů počasí pro venkovní aktivity.
+      Obsahuje kumulové oblaky (cumulus), které se vyvíjejí v teplejší části dne.
+      Meteorologové sledují oblačnost v okás (1 okta = 1/8 pokrytí oblohy).
+
+  weather.overcast:
+    label: zataženo
+    summary: Obloha kompletně pokrytá šedými mraky bez přímého slunce.
+    info: |
+      Zatažená obloha nastane při 7/8 nebo 8/8 oblačnosti.
+      Světlo je difúzní a nevytváří stíny.
+      V geograficky závislé depresivní poruše (SAD) hraje nedostatek slunce klíčovou roli.
+      Svetlosní terapie simuluje sluneční světlo a pomáhá.
+
+  weather.sleet:
+    label: mrznoucí déšť
+    summary: Směs deště a sněhu; částečně roztátá sněhová zrna.
+    info: |
+      Mrznoucí déšť (sleet) vzniká, když sněhové vločky procházejí teplou vrstvou vzduchu a částečně se roztaví.
+      Pokryje povrchy tenkou vrstvou ledu (náledí).
+      Je nebezpečný pro dopravu.
+      V češtině se sleet označuje jako mrznoucí déšť nebo průtrž mraku.
+
+  weather.drizzle:
+    label: mrholení
+    summary: Velmi lehký déšť v drobných kapičkách.
+    info: |
+      Mrholení je srážka s velmi drobnými kapkami menšími než 0,5 mm.
+      Nevzniká z konvektivních cumulonimbů, ale z nízké stratiformní oblačnosti.
+      Je typické pro oceánické klima (Velká Británie, severozápad Francie).
+      Přes svou jemnost může způsobit výrazné nasáknutí.
+
+  weather.shower:
+    label: přeháňka
+    summary: Krátký intenzivní déšť z kumulonimbového oblaku.
+    info: |
+      Přeháňka je krátká intenzivní srážka z konvektivního oblaku (cumulus nebo cumulonimbus).
+      Nastane rychle a odezní za minuty až hodiny.
+      Je typická pro léto: solární ohřev způsobuje konvekci a tvorbu cumulonimbů odpoledne.
+      Po přeháňce se může objevit duha.
+
+  weather.sunrise:
+    label: svítání
+    summary: Moment, kdy se slunce zvedá nad horizont na začátku dne.
+    info: |
+      Svítání je astronomický okamžik, kdy sluneční kotouč překročí horizont.
+      Jeho barevnost (oranžová, růžová) způsobuje Rayleighův rozptyl světla.
+      V polárních oblastech nastává svítání ve specifické sezoně (polární den a noc).
+      Zelený záblesk (green flash) je vzácný optický jev viditelný při svítání v čisté atmosféře.
+
+  weather.sunset:
+    label: západ slunce
+    summary: Moment, kdy slunce zmizí pod horizont na konci dne.
+    info: |
+      Západ slunce je denní okamžik, kdy slunce klesne pod horizont.
+      Barevná paleta (oranžová, červená, fialová) je způsobena rozptylem slunečního světla.
+      Nejkrásnější západy slunce nastávají po sopečných erupcích, kdy prach v atmosféře zesiluje barvy.
+      Západ slunce byl od starověku symbolem konce, klidu a romantiky.
+
+  weather.aurora:
+    label: polární záře
+    summary: Přírodní světelný jev způsobený slunečním větrem v magnetosféře.
+    info: |
+      Polární záře (aurora borealis na severu, aurora australis na jihu) vzniká, když nabitické sluneční částice interagují s atmosférou.
+      Vytváří záclony a spirály zelené, fialové a červené barvy.
+      Nejlépe viditelná v polárních oblastech (Norsko, Island, Kanada, Antarktida).
+      Indiáni ji považovali za tančící duchy předků.
+
+  weather.misty:
+    label: mlhavo
+    summary: Nízká viditelnost kvůli tenké mlze nebo světlé mlze.
+    info: |
+      Mlhavé počasí nastává při kondenzaci vodní páry v přízemní vrstvě vzduchu.
+      Od husté mlhy se liší tím, že viditelnost je omezena, ale ne pod 1 km.
+      Často se tvoří nad řekami, rybníky a v dolinách za studených nocí.
+      Mlhavé ráno nad českou krajinou je typickým obrazem podzimu.
+
+  weather.freezing:
+    label: mráz
+    summary: Teploty pod bodem mrazu způsobující zmrznutí vody.
+    info: |
+      Mráz nastává při teplotách pod 0 °C, kdy se voda přeměňuje na led.
+      Biologicky ohrožuje rostliny, příledí způsobuje dopravní nehody.
+      Nejsilnější mrazy v Česku bývají v lednu (historické minimum přes -42 °C v Litvínovicích 1929).
+      Sníh je tuhé skupenství vody; jeho tvorba v oblacích závisí na teplotě a kondenzačních jádrech.
+
+  weather.muggy:
+    label: dusno
+    summary: Nepříjemně horký a vlhký vzduch způsobující pocit udušení.
+    info: |
+      Dusno je kombinace vysoké teploty a vysoké relativní vlhkosti.
+      Vysoká vlhkost zabraňuje odpařování potu, takže tělo nemůže efektivně chladit.
+      Index tepla (heat index) kombinuje teplotu a vlhkost pro vyjádření pocitové teploty.
+      Dusno je typické pro tropické a subtropické oblasti v létě.
+
+  weather.breezy:
+    label: větřík
+    summary: Příjemný mírný vítr osvěžující teplý den.
+    info: |
+      Větřík je mírný vítr o rychlosti 6 až 11 m/s (Beaufort 3-4).
+      Způsobuje pohyb listů, vlasů a lehkých předmětů.
+      Fyziologicky snižuje pocit horka odpařováním potu.
+      Beaufortova stupnice (1806) klasifikuje vítr do 12 stupňů; větřík je 3 (lehký vánek) nebo 4.
+
+  weather.gloomy:
+    label: chmurno
+    summary: Temné zatažené počasí s depresivní atmosférou.
+    info: |
+      Chmurné počasí je charakteristické nízkými tmavými oblaky, tlumeným světlem a mrazivou nebo deštivou atmosférou.
+      Asociuje se s melancholií a podzimem.
+      SAD (Seasonal Affective Disorder) je porucha způsobená nedostatkem slunce v zimě.
+      Gothická literatura a gotická hudba čerpají z estetiky chmurného počasí.
+
+  weather.clear:
+    label: jasno
+    summary: Dokonale čistá obloha bez jediného oblaku.
+    info: |
+      Jasno je meteorologická situace s oblačností menší než 1/8 pokrytí oblohy.
+      Umožňuje nejsilnější sluneční záření a nejlepší astronomická pozorování.
+      V noci při jasnu je tepelné záření silnější; teploty klesají rychleji.
+      Jasná obloha je v češtině spojena s pohodou a příznivými podmínkami pro outdoor aktivity.
+
+  weather.dew:
+    label: rosa
+    summary: Vodní kapičky kondenzující na povrchu za studenou noc.
+    info: |
+      Rosa je voda kondenzující ze vzduchu na studených površích za klidných nocí.
+      Tvoří se, když povrch vychladne pod rosný bod (dew point).
+      Je důležitým zdrojem vody pro rostliny a živočichy v suchých oblastech.
+      Pastevci v poušti Atacama jímají ranní rosu pomocí sítí.
+
+  weather.avalanche:
+    label: lavina
+    summary: Masa sněhu a ledu řítící se z horského svahu.
+    info: |
+      Lavina je rychlé pohybující se sněhové masy po horském svahu.
+      Nejnebezpečnější jsou laviny prachového sněhu dosahující rychlosti přes 300 km/h.
+      V Alpách zabijí průměrně 150 lidí ročně.
+      Signál beeperu (lavinový vyhledávač) je povinným vybavením v lavinovém terénu.
+
+  weather.typhoon:
+    label: tajfun
+    summary: Tropický cyklon v severozápadním Pacifiku s větry přes 120 km/h.
+    info: |
+      Tajfun je název pro hurikán ve Filipínách, Číně, Japonsku a okolí.
+      Filipíny jsou zasaženy průměrně 20 tajfuny ročně.
+      Tajfun Nina (1975) způsobil povodeň v Číně, která si vyžádala přes 229 000 životů.
+      Název pochází pravděpodobně z čínského tai fung (velký vítr).
+
+  weather.monsoon:
+    label: monzun
+    summary: Sezonní změna větrů přinášející období intenzivních dešťů.
+    info: |
+      Monzun je klimatický jev způsobený sezonní reverzi větrů mezi oceánem a souší.
+      Indo-Pákistánský monzun přináší od června do září 70 až 90 % ročních srážek.
+      Na 700 milionů lidí závisí na monzunu pro zemědělství.
+      Selhání monzunu způsobuje sucha a hladomory; silný monzun záplavy.
+
+  weather.dust_storm:
+    label: prašná bouře
+    summary: Zeď prachu hnána silným větrem v suchých oblastech.
+    info: |
+      Prašná bouře vzniká, když silný vítr zdvihne jemnozrnné suchozemské částice do vzduchu.
+      V Saharské Africe se prachu říká harmattan.
+      Saharský prach pravidelně překrývá Atlantik a dosahuje Ameriky; výzkumy ukazují jeho vliv na Amazonský les.
+      Prašné bouře v USA (Dust Bowl) v 30. letech 20. stol. způsobily ekologickou katastrofu na středozápadě.
+
+  weather.haze:
+    label: opar
+    summary: Snížená viditelnost způsobená prachem, dýmem nebo znečištěním.
+    info: |
+      Opar je snížená atmosferická průhlednost způsobená prachem, dýmem nebo jemnými aerosolovými částicemi.
+      Liší se od mlhy: mlha je tvořena vodními kapkami, opar pevnými nebo kapalnými aerosoly.
+      Asijské megaměsto bývají ohrožena smogem (kombinace oparu a průmyslu).
+      UPM (fine particulate matter) v oparu je zdravotním rizikem pro dýchací soustavu.
+
+  weather.frost_flowers:
+    label: ledové květiny
+    summary: Krásné ledové krystaly tvořící se na studených površích.
+    info: |
+      Ledové květiny (ice flowers) jsou krystalické útvary vzniklé zamrznutím vlhkosti na extrémně studených površích.
+      Na arktickém moři vznikají intricate ledové krystalické vzory.
+      Jsou vizuálně neobyčejně krásné a jsou oblíbeným objektem přírodní fotografie.
+      Tvoří se jen za specifických podmínek: teplý vlhký povrch a extrémně studený vzduch.
+
+  weather.ice_storm:
+    label: ledová bouře
+    summary: Mrzoucí déšť pokrývající vše tenkou vrstvou průhledného ledu.
+    info: |
+      Ledová bouře (freezing rain storm) nastane, když teplý vzduch nad studenou vrstvou způsobí déšť, který okamžitě zmrzne.
+      V důsledku jsou větve, dráty a vozovky pokryty silnou průhlednou vrstvou ledu.
+      Vyčerpaná elektrická síť pod tíhou ledu způsobuje blackouty.
+      Ledová bouře 1998 v Québecu způsobila největší kalamitu v kanadských dějinách.
+
+  weather.heat_lightning:
+    label: tepelné blesky
+    summary: Vzdálené záblesky bouřky bez slyšitelného hromu.
+    info: |
+      Tepelné blesky jsou záblesky vzdálené bouřky, jejichž hrom není slyšet kvůli velké vzdálenosti.
+      Název je zavádějící; nejde o specifický typ blesku způsobený horkem.
+      Slyšíme jen blesky vzdálené do 16 km; vzdálenější jsou tiché.
+      Slouží jako letní noční divadlo viditelné na obzoru za jasného počasí.
+
+  weather.waterspout:
+    label: vodní smrš
+    summary: Rotující sloup vody spojující moře nebo jezero s oblakem.
+    info: |
+      Vodní smrš je rotující vzduchový sloup nad vodní plochou.
+      Nebezpečná tornická vodní smrš se tvoří z bouřky; slabší fair-weather waterspout z kumulonimbu.
+      Může nasát ryby nebo jiné živočichy a přenést je na pevninu.
+      V Jadranu a kolem Floridy jsou vodní smrště relativně časté.
+
+  weather.whiteout:
+    label: bílá tma
+    summary: Stav polární bouře, při němž sníh způsobí ztrátu veškerého kontrastu.
+    info: |
+      Whiteout nastane, když sněhová bouře a reflexe sněhu způsobí, že nebe a země splyne v jedno bílé pole.
+      Poskytuje nulovou viditelnost a dezorientaci.
+      Je smrtelně nebezpečný v polárním nebo horském prostředí.
+      Piloti letadel se mohou v whiteout dezorientovat a ztratit referenci horizontu.
+
+  weather.heat_shimmer:
+    label: marení
+    summary: Optické zkroucení vzduchu nad horkými povrchy; optický klam.
+    info: |
+      Marení (heat shimmer, mirrage) je optický jev způsobený lámáním světla v teplem stoupajícím vzduchu.
+      Horký vzduch nad asfaltem nebo pouští má nižší hustotu; světelné paprsky se ohýbají.
+      Způsobuje zdánlivé kaluže na horké silnici (mirrage).
+      Fata morgana je složitější mirage způsobená teplotními inverzemi.
+
+  weather.slush:
+    label: rozbředlý sníh
+    summary: Částečně roztátý sníh smíšený s vodou; kluzká a nepříjemná zimní povrchová vrstva.
+    info: |
+      Rozbředlý sníh (slush) vzniká, když teplota stoupne těsně nad bod mrazu a sníh se začne tát.
+      Je velmi kluzký a nebezpečný pro chodce i motoristy.
+      Na vozovkách způsobuje aquaplaning a snižuje adhezi pneumatik.
+      Bývá kombinován s posypem solí nebo pískem ke zlepšení trakce.

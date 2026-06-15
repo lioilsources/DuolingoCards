@@ -1,0 +1,377 @@
+  - key: insect.beetle
+    hint: hardshell insect with wing cases (Coleoptera), the largest insect order
+    image: insect.beetle.png
+    brief:
+      subject: shiny green ground beetle
+      attrs: [hard wing cases, six legs, iridescent green, walking on soil]
+      setting: [forest floor, leaf litter, close-up, macro]
+      avoid: [text, ladybug, other insects]
+
+  - key: insect.grasshopper
+    hint: jumping insect with large hind legs that produces chirping sounds (Acrididae)
+    image: insect.grasshopper.png
+    brief:
+      subject: green grasshopper
+      attrs: [long hind legs, green body, large compound eyes, perched on grass stem]
+      setting: [green meadow, grass blades, sunlight, macro]
+      avoid: [text, cricket, locust, other insects]
+
+  - key: insect.cricket
+    hint: nocturnal chirping insect with long antennae (Gryllidae)
+    image: insect.cricket.png
+    brief:
+      subject: brown cricket
+      attrs: [brown body, long antennae, long hind legs, sitting]
+      setting: [soil and leaf litter, close-up, macro]
+      avoid: [text, grasshopper, locust]
+
+  - key: insect.mosquito
+    hint: blood-sucking flying insect (Culicidae) known for its buzzing
+    image: insect.mosquito.png
+    brief:
+      subject: mosquito
+      attrs: [long proboscis, slender body, long thin legs, wings, sitting]
+      setting: [macro, dark background, close-up]
+      avoid: [text, other insects, blood, humans]
+
+  - key: insect.fly
+    hint: common two-winged flying insect (Musca domestica), the housefly
+    image: insect.fly.png
+    brief:
+      subject: common housefly
+      attrs: [grey body, red compound eyes, two wings, hairy legs, perched]
+      setting: [close-up, macro, neutral surface]
+      avoid: [text, mosquito, other insects]
+
+  - key: insect.moth
+    hint: nocturnal flying insect related to butterflies (Lepidoptera)
+    image: insect.moth.png
+    brief:
+      subject: cream-coloured moth
+      attrs: [feathery antennae, broad wings, muted brown-cream pattern, perched flat]
+      setting: [dark background, bark, night atmosphere, macro]
+      avoid: [text, butterfly, bee]
+
+  - key: insect.caterpillar
+    hint: larval stage of a butterfly or moth, a segmented crawling larva
+    image: insect.caterpillar.png
+    brief:
+      subject: green caterpillar
+      attrs: [segmented green body, tiny legs, crawling on leaf, plump]
+      setting: [green leaf, close-up, macro, natural light]
+      avoid: [text, butterfly, pupa, other insects]
+
+  - key: insect.praying_mantis
+    hint: large predatory insect that holds its forelegs in a prayer-like pose (Mantodea)
+    image: insect.praying_mantis.png
+    brief:
+      subject: praying mantis
+      attrs: [green body, large compound eyes, raptorial forelegs raised, triangular head]
+      setting: [green leaves, garden, close-up, macro]
+      avoid: [text, other insects, human hands]
+
+  - key: insect.stick_insect
+    hint: camouflaged insect that mimics a twig or stick (Phasmatodea)
+    image: insect.stick_insect.png
+    brief:
+      subject: stick insect
+      attrs: [long thin brown body, six spindly legs, mimicking a twig, motionless]
+      setting: [on a branch, bark texture, close-up]
+      avoid: [text, leaf insect, other insects]
+
+  - key: insect.firefly
+    hint: bioluminescent beetle that flashes light at night (Lampyridae)
+    image: insect.firefly.png
+    brief:
+      subject: firefly
+      attrs: [glowing yellow-green light on abdomen, dark body, flying, wings spread]
+      setting: [night garden, dark background, glowing light, magical atmosphere]
+      avoid: [text, other insects, daylight]
+
+  - key: insect.wasp
+    hint: yellow-and-black stinging insect related to bees (Vespula / Polistes)
+    image: insect.wasp.png
+    brief:
+      subject: common wasp
+      attrs: [bright yellow and black stripes, slender waist, clear wings, alert]
+      setting: [close-up, macro, neutral background]
+      avoid: [text, bee, hornet, other insects]
+
+  - key: insect.cockroach
+    hint: resilient flat-bodied nocturnal insect (Blattodea)
+    image: insect.cockroach.png
+    brief:
+      subject: American cockroach
+      attrs: [reddish-brown, flat oval body, long antennae, six legs, running]
+      setting: [dark background, floor surface, close-up]
+      avoid: [text, other insects, human disgust]
+
+  - key: insect.spider
+    hint: eight-legged arachnid that spins webs to catch prey (Araneae)
+    image: insect.spider.png
+    brief:
+      subject: garden spider
+      attrs: [eight legs, round abdomen with cross pattern, sitting in web, detailed]
+      setting: [web with dew drops, garden, morning light, macro]
+      avoid: [text, scary, other arachnids]
+
+  - key: insect.scorpion
+    hint: eight-legged arachnid with a curved venomous tail stinger (Scorpiones)
+    image: insect.scorpion.png
+    brief:
+      subject: yellow scorpion
+      attrs: [eight legs, large claws, curved segmented tail with stinger, yellow]
+      setting: [sandy desert ground, macro, dramatic lighting]
+      avoid: [text, other insects, humans]
+
+  - key: insect.centipede
+    hint: many-legged elongated arthropod with one pair of legs per segment (Chilopoda)
+    image: insect.centipede.png
+    brief:
+      subject: brown centipede
+      attrs: [long segmented body, many legs, fast-looking, brown-orange]
+      setting: [leaf litter, soil, macro, close-up]
+      avoid: [text, millipede, other insects]
+
+  - key: insect.flea
+    hint: tiny wingless parasitic jumping insect that feeds on blood (Siphonaptera)
+    image: insect.flea.png
+    brief:
+      subject: flea
+      attrs: [tiny, dark brown, laterally flattened, long jumping legs, close-up]
+      setting: [extreme macro, white background, magnified view]
+      avoid: [text, tick, mite, other insects]
+
+  - key: insect.termite
+    hint: wood-eating social insect that builds large mound colonies (Isoptera)
+    image: insect.termite.png
+    brief:
+      subject: worker termite
+      attrs: [pale cream body, six legs, soft, rounded head, large mandibles]
+      setting: [wood grain, macro, close-up]
+      avoid: [text, ant, other insects]
+
+  - key: insect.bumblebee
+    hint: large fuzzy round bee that pollinates flowers (Bombus)
+    image: insect.bumblebee.png
+    brief:
+      subject: bumblebee
+      attrs: [large fuzzy black and yellow body, round shape, flying, pollen baskets on legs]
+      setting: [on a purple flower, garden, close-up, macro]
+      avoid: [text, honey bee, wasp, other insects]
+
+  - key: insect.hornet
+    hint: large social wasp significantly bigger than a common wasp (Vespa)
+    image: insect.hornet.png
+    brief:
+      subject: European hornet
+      attrs: [large, yellow-brown and black, powerful wings, reddish head]
+      setting: [on bark or nest, close-up, macro]
+      avoid: [text, wasp, bee, other insects]
+
+  - key: insect.cicada
+    hint: loud singing insect with transparent wings that emerges periodically (Cicadidae)
+    image: insect.cicada.png
+    brief:
+      subject: cicada
+      attrs: [large, green-brown, transparent veined wings, bulging red eyes]
+      setting: [on tree bark, summer, macro, sunlit]
+      avoid: [text, other insects, grasshopper]
+
+  - key: insect.locust
+    hint: migratory grasshopper forming destructive swarms (Acrididae)
+    image: insect.locust.png
+    brief:
+      subject: desert locust
+      attrs: [yellow-brown body, large wings, powerful hind legs, flying]
+      setting: [dry landscape, blue sky, macro or swarm in background]
+      avoid: [text, grasshopper, cricket]
+
+  - key: insect.aphid
+    hint: tiny soft-bodied plant-sucking insect often found on rose stems (Aphididae)
+    image: insect.aphid.png
+    brief:
+      subject: green aphid colony
+      attrs: [tiny, pear-shaped green bodies, clustered on stem, cornicles visible]
+      setting: [green plant stem, macro, close-up, natural light]
+      avoid: [text, other insects, large scale]
+
+  - key: insect.earwig
+    hint: slender insect with pincers at the end of the abdomen (Dermaptera)
+    image: insect.earwig.png
+    brief:
+      subject: common earwig
+      attrs: [elongated brown body, prominent pincers at tail, antennae, six legs]
+      setting: [soil or bark, macro, close-up]
+      avoid: [text, other insects, scary pincers]
+
+  - key: insect.silverfish
+    hint: wingless silvery insect that moves like a fish and eats starch (Lepisma saccharina)
+    image: insect.silverfish.png
+    brief:
+      subject: silverfish
+      attrs: [silvery-grey, elongated, tapered body, three tail filaments, scaly]
+      setting: [white paper or book, macro, close-up]
+      avoid: [text, other insects, fish]
+
+  - key: insect.water_strider
+    hint: insect that walks on the surface of water using surface tension (Gerridae)
+    image: insect.water_strider.png
+    brief:
+      subject: water strider
+      attrs: [long thin legs spread wide, dark slender body, skating on water surface]
+      setting: [calm pond, water surface, reflection, macro]
+      avoid: [text, other insects, swimming]
+
+  - key: insect.mite
+    hint: tiny eight-legged arachnid, often microscopic and parasitic (Acari)
+    image: insect.mite.png
+    brief:
+      subject: red spider mite
+      attrs: [tiny, round red body, eight legs, very small, detailed macro]
+      setting: [leaf surface, extreme macro, green background]
+      avoid: [text, tick, spider, other insects]
+
+  - key: insect.tick
+    hint: blood-sucking eight-legged arachnid that attaches to skin (Ixodida)
+    image: insect.tick.png
+    brief:
+      subject: deer tick
+      attrs: [oval brown body, eight legs, engorged abdomen, clinging]
+      setting: [animal fur or leaf, extreme macro, close-up]
+      avoid: [text, mite, spider, other insects]
+
+  - key: insect.dung_beetle
+    hint: beetle that rolls animal dung into balls as food or nests (Scarabaeinae)
+    image: insect.dung_beetle.png
+    brief:
+      subject: dung beetle rolling a ball
+      attrs: [black shiny, round dung ball, pushing with back legs, strong]
+      setting: [savanna soil, low angle, natural light, macro]
+      avoid: [text, other insects, humans]
+
+  - key: insect.stag_beetle
+    hint: large beetle with antler-like mandibles on the male (Lucanus cervus)
+    image: insect.stag_beetle.png
+    brief:
+      subject: stag beetle male
+      attrs: [shiny dark brown, huge branching mandibles like antlers, large, sturdy]
+      setting: [tree bark, oak wood, forest, macro]
+      avoid: [text, female stag beetle, other insects]
+
+  - key: insect.atlas_moth
+    hint: one of the largest moths in the world with snake-head wing tips (Attacus atlas)
+    image: insect.atlas_moth.png
+    brief:
+      subject: Atlas moth
+      attrs: [enormous wingspan, brown and orange patterned wings, snake-head tips, perched]
+      setting: [tropical leaf, dark background, dramatic lighting]
+      avoid: [text, butterfly, other insects]
+
+  - key: insect.hawk_moth
+    hint: fast-flying moth that hovers like a hummingbird to feed on flowers (Sphingidae)
+    image: insect.hawk_moth.png
+    brief:
+      subject: death's-head hawk moth
+      attrs: [large, brown with skull pattern on thorax, hovering, long proboscis]
+      setting: [night flower, dark background, dramatic lighting]
+      avoid: [text, other moths, butterfly]
+
+  - key: insect.weevil
+    hint: small beetle with a distinctive long snout (Curculionidae)
+    image: insect.weevil.png
+    brief:
+      subject: acorn weevil
+      attrs: [tiny, reddish-brown, long curved snout (rostrum), on acorn]
+      setting: [acorn on leaf, extreme macro, close-up]
+      avoid: [text, other beetles, other insects]
+
+  - key: insect.lacewing
+    hint: delicate insect with large transparent green lace-like wings (Chrysopidae)
+    image: insect.lacewing.png
+    brief:
+      subject: green lacewing
+      attrs: [bright green, large transparent veined wings, golden eyes, delicate]
+      setting: [on a leaf, macro, natural light]
+      avoid: [text, dragonfly, other insects]
+
+  - key: insect.crane_fly
+    hint: long-legged flying insect resembling a giant mosquito (Tipulidae)
+    image: insect.crane_fly.png
+    brief:
+      subject: crane fly
+      attrs: [extremely long thin legs, slender brown body, two wings, fragile-looking]
+      setting: [on white wall or leaf, close-up, macro]
+      avoid: [text, mosquito, other insects]
+
+  - key: insect.mayfly
+    hint: short-lived winged insect with two upright wings and tail filaments (Ephemeroptera)
+    image: insect.mayfly.png
+    brief:
+      subject: mayfly
+      attrs: [two upright transparent wings, long three tail filaments, pale, delicate]
+      setting: [near water, macro, soft light]
+      avoid: [text, dragonfly, other insects]
+
+  - key: insect.damselfly
+    hint: slender insect like a dragonfly but with wings folded back at rest (Zygoptera)
+    image: insect.damselfly.png
+    brief:
+      subject: common blue damselfly
+      attrs: [vivid blue, slender body, wings folded back, perched on reed]
+      setting: [pond edge, reed, water background, macro]
+      avoid: [text, dragonfly, other insects]
+
+  - key: insect.robber_fly
+    hint: large predatory fly that catches other insects in mid-air (Asilidae)
+    image: insect.robber_fly.png
+    brief:
+      subject: robber fly
+      attrs: [large, hairy, grey-brown, powerful legs, perched on twig, alert]
+      setting: [sunny branch, close-up, macro, garden]
+      avoid: [text, other flies, other insects]
+
+  - key: insect.ground_beetle
+    hint: fast-moving predatory beetle found on the ground (Carabidae)
+    image: insect.ground_beetle.png
+    brief:
+      subject: violet ground beetle
+      attrs: [metallic violet-blue, fast-looking, long legs, shiny wing cases, running]
+      setting: [soil, leaf litter, macro, close-up]
+      avoid: [text, other beetles, other insects]
+
+  - key: insect.tiger_beetle
+    hint: fast-running predatory beetle with iridescent colours (Cicindelinae)
+    image: insect.tiger_beetle.png
+    brief:
+      subject: six-spotted tiger beetle
+      attrs: [iridescent green, white spots, long legs, large eyes, running]
+      setting: [sandy path, sunny day, macro, close-up]
+      avoid: [text, other beetles, other insects]
+
+  - key: insect.leafcutter_ant
+    hint: tropical ant that carries leaf pieces to cultivate fungus gardens (Atta)
+    image: insect.leafcutter_ant.png
+    brief:
+      subject: leafcutter ant carrying a leaf
+      attrs: [black, carrying a bright green leaf piece above head, strong]
+      setting: [tropical forest floor, macro, natural light]
+      avoid: [text, other ants, other insects]
+
+  - key: insect.army_ant
+    hint: nomadic swarming ant that forms living bridges and raids prey (Eciton)
+    image: insect.army_ant.png
+    brief:
+      subject: army ants forming a chain
+      attrs: [dark brown, several ants interlocked, dynamic, tiny but many]
+      setting: [tropical forest floor, dramatic, macro]
+      avoid: [text, single ant, other insects]
+
+  - key: insect.carpenter_ant
+    hint: large black ant that tunnels through wood to build nests (Camponotus)
+    image: insect.carpenter_ant.png
+    brief:
+      subject: carpenter ant
+      attrs: [large, shiny black, big mandibles, on wood surface, detailed]
+      setting: [wooden bark, close-up, macro]
+      avoid: [text, other ants, other insects, sawdust]

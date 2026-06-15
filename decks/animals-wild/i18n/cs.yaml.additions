@@ -1,0 +1,351 @@
+  animal.bear:
+    label: medvěd
+    summary: Velký všežravý savec žijící v lesích a horách.
+    info: |
+      Medvěd hnědý je největší suchozemský predátor Evropy a Asie.
+      Je všežravý a živí se rybami, bobulemi, medem i drobnými savci.
+      V zimě upadá do zimního spánku a v té době se rodí mláďata.
+
+  animal.tiger:
+    label: tygr
+    summary: Největší kočkovitá šelma s oranžovočerným pruhovým vzorem.
+    info: |
+      Tygr bengálský je největší divoká kočka světa; samci váží až 300 kg.
+      Pruhy jsou u každého jedince jedinečné jako otisky prstů.
+      Je to samotářský lovec přepadávající kořist ze zálohy; je kriticky ohrožen.
+
+  animal.hippopotamus:
+    label: hroch
+    summary: Velký polowodní africký savec s mohutnou tlamou.
+    info: |
+      Hroch obojživelný je třetí největší suchozemský savec na světě.
+      Přes den se chladí ve vodě a v noci se pase na trávě.
+      Navzdory pomalému vzhledu je jedním z nejnebezpečnějších zvířat Afriky.
+
+  animal.rhinoceros:
+    label: nosorožec
+    summary: Mohutné zvíře s jedním nebo dvěma rohy na nose.
+    info: |
+      Nosorožec bílý je druhý největší suchozemský savec po slonovi.
+      Jeho roh je tvořen keratinem – stejnou látkou jako lidské nehty.
+      Všechny druhy nosorožce jsou kriticky ohroženy pytláctvím.
+
+  animal.gorilla:
+    label: gorila
+    summary: Největší žijící primát, velká africká opice.
+    info: |
+      Gorila horská žije v centrální Africe v hustých pralesích.
+      Skupině, vedené samcem se stříbrným hřbetem (silverback), říkáme tlupa.
+      Gorily jsou převážně herbivory a jsou geneticky velmi blízké lidem.
+
+  animal.chimpanzee:
+    label: šimpanz
+    summary: Náš nejbližší živý příbuzný mezi primáty.
+    info: |
+      Šimpanz učenlivý sdílí s člověkem přibližně 98,7 % DNA.
+      Používá nástroje – například klacky k lovení termitů nebo kameny k loupání ořechů.
+      Žije v hierarchicky uspořádaných tlupách a komunikuje bohatou paletou zvuků a gest.
+
+  animal.kangaroo:
+    label: klokan
+    summary: Velký skákající vačnatec typický pro Austrálii.
+    info: |
+      Klokan červený je největší vačnatec na světě a dokáže skákat až osm metrů daleko.
+      Samice nosí mláďata (joeys) ve vaku na břiše, kde dospívají několik měsíců.
+      Klokan je národní symbol Austrálie a je zobrazen na jejím státním znaku.
+
+  animal.koala:
+    label: koala
+    summary: Stromový vačnatec živící se listy eukalyptu.
+    info: |
+      Koala medvídkovitá žije výlučně v Austrálii a živí se listy eukalyptu.
+      Spí až 20 hodin denně, protože eukalyptové listy mají malou výživnou hodnotu.
+      Není medvěd, jak se lidé mylně domnívají – je to vačnatec.
+
+  animal.giant_panda:
+    label: panda velká
+    summary: Černo-bílý medvěd z Číny živící se bambusy.
+    info: |
+      Panda velká žije v bambusamových lesích jihozápadní Číny.
+      Denně sní až 38 kg bambusu, protože má krátký trávicí systém pro rostlinnou stravu.
+      Je symbolem ochrany přírody a jejím logem je organizace WWF.
+
+  animal.cheetah:
+    label: gepard
+    summary: Nejrychlejší suchozemské zvíře, štíhlá skvrnovaná kočkovitá šelma.
+    info: |
+      Gepard štíhlý dosahuje při sprintu rychlosti až 120 km/h.
+      Na rozdíl od ostatních velkých koček má plně viditelné drápy – nezatahuje je.
+      Gepardi loví za denního světla zrakem a jsou nejlepšími sprintery živočišné říše.
+
+  animal.leopard:
+    label: levhart
+    summary: Samotářská skvrnovaná velká kočka žijící v Africe i Asii.
+    info: |
+      Levhart skvrnitý je nejrozšířenější velká kočka světa, adaptovaná na různé prostředí.
+      Je znám schopností šplhat po stromech a vynášet kořist do korun, kde ji ukrývá.
+      Melanistická varianta levharta se nazývá černý panter.
+
+  animal.jaguar:
+    label: jaguár
+    summary: Největší kočkovitá šelma Ameriky s tmavými rosety.
+    info: |
+      Jaguár americký je třetí největší kočka světa a jediný zástupce rodu Panthera v Americe.
+      Jeho rozety (skvrny) jsou tmavší a mají uvnitř tečky, na rozdíl od levharta.
+      Rád plave a loví ryby, kajmany i kapybary u vodních toků.
+
+  animal.hyena:
+    label: hyena
+    summary: Africká šelma proslavená svým charakteristickým smíchem.
+    info: |
+      Hyena skvrnitá má nejsilnější čelisti ze všech suchozemských savců; rozkouše i kosti.
+      Přestože je nazývána mrchožroutem, aktivně loví asi 70 % potravy.
+      Žije v hierarchických klanech vedených samicemi.
+
+  animal.buffalo:
+    label: buvol
+    summary: Divoký africký buvol s charakteristickými zahnutými rohy.
+    info: |
+      Buvolovec africký žije v afrických savanách ve stádech o stovkách kusů.
+      Je považován za jedno z nejnebezpečnějších zvířat Afriky – je nepředvídatelný.
+      Rohy samců jsou v základně srostlé do tzv. kštice (bossu), která chrání lebku.
+
+  animal.bison:
+    label: bizon
+    summary: Velký severoamerický zubr s charakteristickým hrbem.
+    info: |
+      Bizon americký je největší suchozemský savec Severní Ameriky.
+      V 19. století byl téměř vyhuben lovem; původně žilo na prériích přes 30 milionů kusů.
+      Dnes se jejich počty díky ochraně přírody obnovovaly; žijí i v národních parcích.
+
+  animal.moose:
+    label: los
+    summary: Největší jelen světa s mohutnými lopatkových parohy.
+    info: |
+      Los evropský (v Americe nazývaný moose) je největší člen čeledi jelenovitých.
+      Samci shazují a obnovují mohutné lopatkové parohy každý rok.
+      Výborně plave a tráví hodně času u vodních ploch, kde se pase na vodních rostlinách.
+
+  animal.deer:
+    label: jelen
+    summary: Elegantní lesní kopytník samce s výraznými parohy.
+    info: |
+      Jelen evropský je největší divoký kopytník střední Evropy.
+      Samci nosí parohy, které každý rok shazují a nové vyrůstají za tři měsíce.
+      Na podzim probíhá říje – samci řvou a soupeří parohy o samice.
+
+  animal.fox:
+    label: liška
+    summary: Malá rudá šelma s chvostnatým ocasem z čeledi psovitých.
+    info: |
+      Liška obecná je nejrozšířenější psovitá šelma světa, přizpůsobená i městskému prostředí.
+      Je samotářský noční lovec; živí se myšmi, hmyzem, bobulemi i zbytky potravy.
+      Její chvost (ocas) slouží k rovnováze, komunikaci a zahřívání v zimě.
+
+  animal.raccoon:
+    label: mýval
+    summary: Severoamerický savec s černou maskou na obličeji.
+    info: |
+      Mýval severní je středně velký všežravec s typickou černou maskou přes oči.
+      Má velmi zručné přední tlapky, jimiž prozkoumává potravu; anglicky „raccoon" pochází z algonkinského slova.
+      Původně žil v lesích Severní Ameriky, dnes se ale rozšířil i do Evropy.
+
+  animal.otter:
+    label: vydra
+    summary: Elegantní polowodní savec s hustou voděodolnou srstí.
+    info: |
+      Vydra říční je šikovný plavec s hustou voděodolnou srstí a plovacími blanami.
+      Živí se hlavně rybami, raky a žabami; svou kořist chytá pod vodou.
+      Je citlivým ukazatelem čistoty vody – vrací se do řek po jejich sanaci.
+
+  animal.beaver:
+    label: bobr
+    summary: Velký hlodavec stavějící hráze a přehrady na řekách.
+    info: |
+      Bobr evropský je po kapybaře druhý největší hlodavec světa.
+      Staví hráze z kmenů a větví, čímž vytváří tůně a mokřady, v nichž žije.
+      Jeho přehrady mají zásadní vliv na krajinu a biodiverzitu okolí.
+
+  animal.meerkat:
+    label: surikata
+    summary: Malý společenský savec z pouštní Afriky, stojící na zadních.
+    info: |
+      Surikata obecná žije v skupinách v poušti Kalahari v jižní Africe.
+      Hlídky stojí na zadních nohách a sledují okolí, aby varovaly smečku před predátory.
+      Je imunní vůči jedu škorpionů a hadů, jimiž se živí.
+
+  animal.warthog:
+    label: prase bradavičnaté
+    summary: Divoké africké prase s kly a bradavičnatou tváří.
+    info: |
+      Prase bradavičnaté žije v afrických savanách a dostalo jméno po kožovitých výrůstcích na tváři.
+      Kly (přerostlé tesáky) používá k obraně a hrabání potravy.
+      Uteká od predátorů s ocasem vztyčeným jako anténa – díky tomu je snadno rozpoznatelné.
+
+  animal.wildebeest:
+    label: pakůň
+    summary: Velká africká antilopa proslulá masovými migracemi.
+    info: |
+      Pakůň modrý je účastníkem největší pozemní migrace zvířat na světě.
+      Každý rok přes 1,5 milionu pakůňů migruje mezi Tanzanií a Keňou za dešti a zelení.
+      Jsou hlavní kořistí lvů a gepardů a tvoří základ potravního řetězce savany.
+
+  animal.baboon:
+    label: pavián
+    summary: Velká africká opice s prodlouženým čenichem žijící na zemi.
+    info: |
+      Pavián je velký primát žijící v afrických savanách a skalnatých oblastech.
+      Žije ve tlupách čítajících desítky jedinců s propracovanou sociální hierarchií.
+      Je všežravý a inteligentní; dokáže krást potraviny a otevírat zavíratelné nádoby.
+
+  animal.mandrill:
+    label: mandril
+    summary: Opice s nápadně barevnou modro-červenou tváří.
+    info: |
+      Mandril sfingový je největší opice světa a žije v rovníkových lesích Afriky.
+      Samci mají nápadnou modro-červenou obličejovou masku, která zesiluje v době páření.
+      Žije ve velkých skupinách a komunikuje mimickými výrazy i hlasovými signály.
+
+  animal.orangutan:
+    label: orangutan
+    summary: Velká oranžová opice šplhající v korunách stromů.
+    info: |
+      Orangutan bornejský je největší stromová opice a třetí nejbližší příbuzný člověka.
+      Jméno pochází z malajského „orang utan" – lesní člověk.
+      Hrozí mu vyhynutí kvůli kácení tropických lesů pro pěstování palmy olejné.
+
+  animal.camel:
+    label: velbloud
+    summary: Velký pouštní savec s jedním nebo dvěma hrbami.
+    info: |
+      Velbloud jednohrbý (dromedár) žije v pouštích Arábie a severní Afriky.
+      Jeho hrb není zásobárna vody, ale tuku, který slouží jako energetická rezerva.
+      Je výborně přizpůsoben suchu – dokáže vydržet týdny bez vody a poté vypít stovky litrů najednou.
+
+  animal.polar_bear:
+    label: lední medvěd
+    summary: Největší suchozemský predátor světa žijící v Arktidě.
+    info: |
+      Lední medvěd je největší pozemní šelma světa; samci váží přes 700 kg.
+      Srst je průhledná a duté chlupy soustřeďují teplo; kůže pod ní je černá.
+      Výborně plave a loví tuleny u ledových ker; je ohrožen táním Arktidy.
+
+  animal.reindeer:
+    label: sob
+    summary: Jelen chladných oblastí, u obou pohlaví rostou parohy.
+    info: |
+      Sob polární je jediný druh jelena, u kterého mají parohy i samice.
+      Žije v arktické tundře a subpolárních lesích; v Severní Americe se nazývá karibu.
+      Je domestikován Sámem a dalšími arktickými národy jako tažné a hospodářské zvíře.
+
+  animal.gazelle:
+    label: gazela
+    summary: Štíhlá africká antilopa s lyrovitými rohy a elegantním skokem.
+    info: |
+      Gazela Thompsonova je jednou z nejrychlejších afrikých antilop a dosahuje 80 km/h.
+      Provádí charakteristické vysoké skoky zvané „stotting", jimiž signalizuje kondici predátorům.
+      Žije ve stádech na afrických savanách a je hlavní potravou gepardů a lvů.
+
+  animal.lynx:
+    label: rys
+    summary: Středně velká kočkovitá šelma s chomáčky chlupů na uších.
+    info: |
+      Rys ostrovid je největší kočkovitá šelma Evropy.
+      Je noční samotář lovící srnce, zajíce a jiné menší savce.
+      V Česku byl téměř vyhuben a dnes se vrací díky reintrodukci z Karpat.
+
+  animal.wolverine:
+    label: rosomák
+    summary: Statný lasicovitý savec proslulý neobyčejnou silou a dravostí.
+    info: |
+      Rosomák sibiřský je největší zástupce čeledi lasicovitých.
+      Přes svou malou postavu dokáže přemoci kořist mnohem větší, jako jsou sobí telata.
+      Žije v boreálních lesích a tundře; je legendou pro svou nezdolnost a sílu.
+
+  animal.coyote:
+    label: kojot
+    summary: Severoamerická divoká psovitá šelma podobná vlku, ale menší.
+    info: |
+      Kojot prérijní je velmi přizpůsobivý a rozšířil se z prérie do lesů i měst.
+      Je znám vytím za soumraku a svítání; tvoří páry, které spolu loví.
+      Hraje důležitou roli v kultuře indiánů jako mazaný trickster.
+
+  animal.snow_leopard:
+    label: levhart sněžný
+    summary: Tajuplná skvrnovaná velká kočka horských oblastí Asie.
+    info: |
+      Levhart sněžný žije v horách střední Asie ve výškách až 5 500 m n. m.
+      Má hustou vlnitou srst a velmi dlouhý ocas, který mu pomáhá udržet rovnováhu na skalách.
+      Je kriticky ohrožen pytláctvím a ztrátou přirozeného prostředí.
+
+  animal.wild_boar:
+    label: divočák
+    summary: Divoké prase předek domácího vepře, s výraznými kly.
+    info: |
+      Divočák lesní je prapředkem domácího prasete; v Česku je hojný a lovný zvěř.
+      Samci mají výrazné kly, které si ostří o stromy, a mohou být nebezpeční.
+      Je všežravý a ryje v zemi čenichem za kořínky, žaludy a červy.
+
+  animal.giant_anteater:
+    label: mravenečník velký
+    summary: Velký jihoamerický savec s trubicovitým čenichem a lepkavým jazykem.
+    info: |
+      Mravenečník velký žije v savanách a tropických lesích Jižní Ameriky.
+      Nemá zuby – kořist spolyká celou; jeho jazyk se pohybuje 150krát za minutu.
+      Denně sní přes 35 000 mravenců a termitů; svůj revír označuje pachovými žlázami.
+
+  animal.tapir:
+    label: tapír
+    summary: Statný pralesní savec s krátkým pohyblivým chobotem.
+    info: |
+      Tapír je primitivní kopytnatec příbuzný nosorožci a koni.
+      Pohyblivý chobotek používá k uchopení větví a k plavání.
+      Je přehlíženým, ale důležitým šiřitelem semen v tropických lesích Asie a Ameriky.
+
+  animal.okapi:
+    label: okapi
+    summary: Lesní příbuzný žirafy s pruhovanými nohami z Konga.
+    info: |
+      Okapi Johnstonovo bylo vědě popsáno teprve v roce 1901 a dlouho bylo pokládáno za mýtus.
+      Je jediným žijícím příbuzným žirafy a žije výhradně v deštném pralese Konga.
+      Má modrý jazyk jako žirafa a používá ho k uchopení listů a ke čištění očí.
+
+  animal.aardvark:
+    label: hrabáč
+    summary: Noční africký savec ryjící nory a živící se mravenci.
+    info: |
+      Hrabáč kapský je noční samotář s trubicovitým čenichem a velkýma ušima.
+      Živí se výhradně mravenci a termity, které loví lepkavým jazykem.
+      Vyhrabává mohutné nory, které pak slouží jako útočiště dalším zvířatům.
+
+  animal.sloth:
+    label: lenochod
+    summary: Pomalý stromový savec visící hlavou dolů v pralesních korunách.
+    info: |
+      Lenochod tříprstý je jedním z nejpomalejších savců na světě.
+      Pohybuje se tak pomalu, že na jeho srsti rostou zelené řasy – výborná maskování.
+      Spí 15 hodin denně a trávení potravy mu trvá týden; za celý život nesestoupí z jednoho stromu.
+
+  animal.capybara:
+    label: kapybara
+    summary: Největší hlodavec světa žijící u jihoamerických řek.
+    info: |
+      Kapybara velká je polowodní hlodavec vážící až 65 kg.
+      Žije ve skupinách u řek a jezer tropické Jižní Ameriky.
+      Je neobyčejně klidná a přátelská; v zajetí se spřátelí s téměř jakýmkoli zvířetem.
+
+  animal.armadillo:
+    label: pásovec
+    summary: Americký savec chráněný kosterními destičkami jako pancíř.
+    info: |
+      Pásovec devítipásý má celé tělo pokryté kostnými štítky z keratinu.
+      Při ohrožení se dokáže svinout do kuličky nebo rychle zahrabat.
+      Je jediný savec přirozeně nakažitelný leprou a slouží jako laboratorní model.
+
+  animal.fennec_fox:
+    label: fenek
+    summary: Drobná pouštní liška se zvláště velkýma ušima.
+    info: |
+      Fenek pouštní je nejmenší druh lišky na světě.
+      Obrovské uši mu slouží k detekci kořisti pod pískem i k ochlazování těla v horku.
+      Žije v Sahaře, je noční a kopá si nory do písku.

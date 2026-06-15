@@ -80,3 +80,382 @@ cards:
       attrs: [white feathers, orange bill, waddling]
       setting: [pond edge, green reeds, water reflection]
       avoid: [text, humans, basket]
+
+  - key: farm.turkey
+    hint: large domesticated bird raised for meat, especially at Thanksgiving (Meleagris gallopavo)
+    image: farm.turkey.png
+    brief:
+      subject: domestic turkey
+      attrs: [large, bronze-brown, fan tail displayed, male]
+      setting: [farmyard, green grass, sunny]
+      avoid: [text, humans]
+
+  - key: farm.rabbit
+    hint: domesticated rabbit kept for meat, fur or as a pet (Oryctolagus cuniculus)
+    image: farm.rabbit.png
+    brief:
+      subject: domestic rabbit
+      attrs: [white or grey, floppy ears, sitting on hay, fluffy]
+      setting: [barn interior, hay, soft light]
+      avoid: [text, humans]
+
+  - key: farm.rooster
+    hint: adult male chicken with a colourful comb and tail (Gallus gallus domesticus)
+    image: farm.rooster.png
+    brief:
+      subject: rooster
+      attrs: [colourful plumage, large red comb, crowing, upright]
+      setting: [farmyard, fence post, sunrise]
+      avoid: [text, humans]
+
+  - key: farm.goose
+    hint: domesticated goose kept for meat, eggs and down (Anser anser domesticus)
+    image: farm.goose.png
+    brief:
+      subject: domestic white goose
+      attrs: [white, orange bill, standing, large]
+      setting: [farmyard, green grass, pond nearby]
+      avoid: [text, humans]
+
+  - key: farm.guinea_fowl
+    hint: helmeted guinea fowl kept on farms as pest control (Numida meleagris)
+    image: farm.guinea_fowl.png
+    brief:
+      subject: helmeted guinea fowl
+      attrs: [spotted grey-white, red and blue head, small, flock]
+      setting: [farmyard, dry ground, African-style setting]
+      avoid: [text, humans]
+
+  - key: farm.quail
+    hint: small domesticated quail farmed for eggs and meat (Coturnix japonica)
+    image: farm.quail.png
+    brief:
+      subject: Japanese quail
+      attrs: [small, brown streaked, plump, ground-level]
+      setting: [straw floor, soft light, farmyard]
+      avoid: [text, humans]
+
+  - key: farm.llama
+    hint: South American camelid domesticated for wool and transport (Lama glama)
+    image: farm.llama.png
+    brief:
+      subject: llama
+      attrs: [tall, long neck, fluffy white or brown, alert]
+      setting: [Andean highland, dry grass, mountains in background]
+      avoid: [text, spitting, humans]
+
+  - key: farm.alpaca
+    hint: small South American camelid farmed for fine wool (Vicugna pacos)
+    image: farm.alpaca.png
+    brief:
+      subject: alpaca
+      attrs: [fluffy dense fleece, brown or white, small gentle, long neck]
+      setting: [green hillside, Andean setting, sunny]
+      avoid: [text, humans]
+
+  - key: farm.yak
+    hint: large long-haired bovid of the Himalayan plateau (Bos grunniens)
+    image: farm.yak.png
+    brief:
+      subject: domestic yak
+      attrs: [very long dark shaggy hair, horned, standing, massive]
+      setting: [high Himalayan plateau, snow capped peaks, cold]
+      avoid: [text, humans]
+
+  - key: farm.ox
+    hint: castrated bull used as a draught animal (Bos taurus)
+    image: farm.ox.png
+    brief:
+      subject: ox
+      attrs: [large, muscular, black or brown, yoke on neck]
+      setting: [ploughed field, earthy, traditional farm]
+      avoid: [text, humans]
+
+  - key: farm.mule
+    hint: sterile hybrid of a horse and a donkey (Equus mulus)
+    image: farm.mule.png
+    brief:
+      subject: mule
+      attrs: [grey-brown, sturdy, long ears, calm]
+      setting: [farmyard, dirt road, traditional setting]
+      avoid: [text, humans]
+
+  - key: farm.pony
+    hint: small horse breed not exceeding 14.2 hands at withers
+    image: farm.pony.png
+    brief:
+      subject: Shetland pony
+      attrs: [very small, thick mane, sturdy, brown or piebald]
+      setting: [green pasture, fence, sunny]
+      avoid: [text, humans]
+
+  - key: farm.lamb
+    hint: young sheep in its first year of life
+    image: farm.lamb.png
+    brief:
+      subject: lamb
+      attrs: [white fluffy, small, on grass, spring]
+      setting: [green meadow, flowers, sunny spring day]
+      avoid: [text, blood, humans]
+
+  - key: farm.piglet
+    hint: baby pig, young of the domestic sow
+    image: farm.piglet.png
+    brief:
+      subject: piglet
+      attrs: [tiny, pink, curly tail, playful]
+      setting: [straw bedding, barn, soft light]
+      avoid: [text, humans]
+
+  - key: farm.calf
+    hint: young of the domestic cow, less than one year old
+    image: farm.calf.png
+    brief:
+      subject: calf
+      attrs: [brown or black-white, small, beside mother, big eyes]
+      setting: [green pasture, fence, sunny]
+      avoid: [text, humans]
+
+  - key: farm.foal
+    hint: young horse less than one year old; newborns stand within hours
+    image: farm.foal.png
+    brief:
+      subject: foal
+      attrs: [chestnut, long spindly legs, beside mare, soft, young]
+      setting: [paddock, grass, soft light]
+      avoid: [text, humans]
+
+  - key: farm.peacock
+    hint: male peafowl with iridescent tail train; often kept on estates (Pavo cristatus)
+    image: farm.peacock.png
+    brief:
+      subject: peacock
+      attrs: [iridescent blue-green, enormous tail fan displayed, standing, male]
+      setting: [garden or estate lawn, green background]
+      avoid: [text, humans]
+
+  - key: farm.pheasant
+    hint: pheasant reared on farms and estates for hunting (Phasianus colchicus)
+    image: farm.pheasant.png
+    brief:
+      subject: pheasant male
+      attrs: [copper-gold, red face patch, long tail, male]
+      setting: [woodland edge, autumn leaves]
+      avoid: [text, blood, hunting]
+
+  - key: farm.emu
+    hint: emu farmed for oil, meat and leather (Dromaius novaehollandiae)
+    image: farm.emu.png
+    brief:
+      subject: emu
+      attrs: [shaggy brown, tall, long neck, on farm]
+      setting: [farm paddock, dry grass, Australian setting]
+      avoid: [text, humans]
+
+  - key: farm.ostrich
+    hint: ostrich farmed for meat, feathers and leather
+    image: farm.ostrich.png
+    brief:
+      subject: farm ostrich
+      attrs: [tall, black and white male, long neck, enclosure]
+      setting: [farm enclosure, dry ground, sunny]
+      avoid: [text, humans]
+
+  - key: farm.deer
+    hint: farmed red deer or fallow deer kept for venison
+    image: farm.deer.png
+    brief:
+      subject: fallow deer
+      attrs: [spotted, medium size, antlers if male, behind fence]
+      setting: [green deer park, autumn, dappled light]
+      avoid: [text, blood, hunting]
+
+  - key: farm.boar
+    hint: domestic male pig or wild boar kept on farm (Sus scrofa)
+    image: farm.boar.png
+    brief:
+      subject: farm boar
+      attrs: [large, pink or black, tusks visible, muddy]
+      setting: [pig pen, mud, straw]
+      avoid: [text, blood, humans]
+
+  - key: farm.barn_cat
+    hint: domestic cat kept on a farm to control rodents
+    image: farm.barn_cat.png
+    brief:
+      subject: barn cat
+      attrs: [tabby, alert, perched on hay bale, farm setting]
+      setting: [barn interior, hay bales, golden light]
+      avoid: [text, dead mouse, humans]
+
+  - key: farm.sheepdog
+    hint: herding dog used to manage sheep on a farm (Border Collie)
+    image: farm.sheepdog.png
+    brief:
+      subject: Border Collie sheepdog
+      attrs: [black and white, alert, herding pose, with sheep behind]
+      setting: [hillside pasture, sheep in background, cloudy day]
+      avoid: [text, humans]
+
+  - key: farm.beehive
+    hint: managed honey bee colony in a wooden hive (Apis mellifera)
+    image: farm.beehive.png
+    brief:
+      subject: wooden beehive
+      attrs: [yellow and white painted boxes, bees flying around, stacked]
+      setting: [meadow, wildflowers, sunny]
+      avoid: [text, humans]
+
+  - key: farm.silkworm
+    hint: caterpillar of the silk moth farmed for silk production (Bombyx mori)
+    image: farm.silkworm.png
+    brief:
+      subject: silkworm on mulberry leaf
+      attrs: [white, plump caterpillar, on leaf, spinning silk cocoon]
+      setting: [mulberry leaf, close-up, clean background]
+      avoid: [text, humans]
+
+  - key: farm.garden_snail
+    hint: large land snail farmed as food in France (Helix pomatia)
+    image: farm.garden_snail.png
+    brief:
+      subject: escargot garden snail
+      attrs: [spiral shell, brown, emerging from shell, on leaf]
+      setting: [garden soil, leaf, macro]
+      avoid: [text, humans]
+
+  - key: farm.freshwater_crayfish
+    hint: freshwater crustacean farmed for food (Astacus astacus or Procambarus)
+    image: farm.freshwater_crayfish.png
+    brief:
+      subject: crayfish
+      attrs: [reddish-brown, claws raised, in water, small lobster-like]
+      setting: [clear fresh water, pebble bottom]
+      avoid: [text, boiling pot, humans]
+
+  - key: farm.trout
+    hint: freshwater fish farmed for food (Oncorhynchus mykiss or Salmo trutta)
+    image: farm.trout.png
+    brief:
+      subject: rainbow trout
+      attrs: [silver with pink stripe, spotted, in clear water]
+      setting: [clear mountain stream or fish farm pool]
+      avoid: [text, humans, dead fish]
+
+  - key: farm.salmon
+    hint: anadromous fish widely farmed for food (Salmo salar)
+    image: farm.salmon.png
+    brief:
+      subject: Atlantic salmon
+      attrs: [silver-pink, in water, strong, large]
+      setting: [cold clean water, fish farm net pen ok]
+      avoid: [text, dead fish, humans]
+
+  - key: farm.tilapia
+    hint: freshwater fish widely farmed in warm climates (Oreochromis niloticus)
+    image: farm.tilapia.png
+    brief:
+      subject: Nile tilapia
+      attrs: [grey-silver, oval body, in water]
+      setting: [clear warm water, fish farm setting]
+      avoid: [text, dead fish, humans]
+
+  - key: farm.carp
+    hint: large freshwater fish farmed in ponds (Cyprinus carpio)
+    image: farm.carp.png
+    brief:
+      subject: common carp
+      attrs: [golden-brown, large scales, in pond, surfacing]
+      setting: [muddy pond, calm water, reeds]
+      avoid: [text, dead fish, humans]
+
+  - key: farm.farm_shrimp
+    hint: shrimp farmed in coastal ponds for food (Litopenaeus vannamei)
+    image: farm.farm_shrimp.png
+    brief:
+      subject: farmed white shrimp
+      attrs: [translucent, in shallow water, small, many together]
+      setting: [shallow coastal pond, clear water]
+      avoid: [text, dead, humans]
+
+  - key: farm.oyster
+    hint: bivalve mollusc farmed on ropes or cages in coastal waters (Ostrea/Crassostrea)
+    image: farm.oyster.png
+    brief:
+      subject: Pacific oyster
+      attrs: [rough grey shell, on rope or mesh, coastal]
+      setting: [sea bay, ropes in water, overcast coastal]
+      avoid: [text, humans]
+
+  - key: farm.mussel
+    hint: edible bivalve farmed on ropes in sea water (Mytilus edulis)
+    image: farm.mussel.png
+    brief:
+      subject: blue mussel
+      attrs: [blue-black shells, clustered on rope, marine]
+      setting: [sea water, farm rope, coastal setting]
+      avoid: [text, humans]
+
+  - key: farm.pigeon_farm
+    hint: domestic pigeon kept for meat (squab) or racing (Columbia livia)
+    image: farm.pigeon_farm.png
+    brief:
+      subject: farm pigeon
+      attrs: [grey, in pigeon loft, white or coloured, calm]
+      setting: [pigeon loft, wooden perches, soft light]
+      avoid: [text, humans]
+
+  - key: farm.guinea_pig_farm
+    hint: guinea pig farmed for food in South America (Cavia porcellus)
+    image: farm.guinea_pig_farm.png
+    brief:
+      subject: guinea pig
+      attrs: [round, brown and white, short ears, on hay]
+      setting: [straw bedding, clean enclosure]
+      avoid: [text, humans]
+
+  - key: farm.water_buffalo
+    hint: large bovid domesticated for farming in Asia (Bubalus bubalis)
+    image: farm.water_buffalo.png
+    brief:
+      subject: water buffalo
+      attrs: [black, large swept-back horns, in water or field, massive]
+      setting: [rice paddy or water, Asian farm landscape]
+      avoid: [text, humans]
+
+  - key: farm.goat_dairy
+    hint: dairy goat being milked on a small farm (Capra aegagrus hircus)
+    image: farm.goat_dairy.png
+    brief:
+      subject: dairy goat
+      attrs: [white, calm, being milked or in milking parlour]
+      setting: [clean farm milking area, straw, soft light]
+      avoid: [text, humans]
+
+  - key: farm.highland_cattle
+    hint: shaggy long-haired cattle breed from Scotland (Bos taurus)
+    image: farm.highland_cattle.png
+    brief:
+      subject: Highland cow
+      attrs: [long orange shaggy hair, long horns, gentle, standing]
+      setting: [Scottish highland, heather moor, misty]
+      avoid: [text, humans]
+
+  - key: farm.ram
+    hint: adult male sheep with large spiral horns (Ovis aries)
+    image: farm.ram.png
+    brief:
+      subject: ram
+      attrs: [large spiral horns, white or brown fleece, male, alert]
+      setting: [green hillside, open pasture, blue sky]
+      avoid: [text, humans]
+
+  - key: farm.sow
+    hint: adult female pig, mother of piglets
+    image: farm.sow.png
+    brief:
+      subject: sow with piglets
+      attrs: [large pink, nursing piglets, lying, content]
+      setting: [straw barn, soft warm light]
+      avoid: [text, humans]
+

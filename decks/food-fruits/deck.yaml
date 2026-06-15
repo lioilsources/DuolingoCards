@@ -98,3 +98,364 @@ cards:
       attrs: [golden yellow, spiky crown, diamond-patterned skin]
       setting: [clean white surface, soft shadow]
       avoid: [text, sliced, other fruits]
+
+  - key: fruit.lemon
+    hint: sour yellow citrus fruit (Citrus limon)
+    image: fruit.lemon.png
+    brief:
+      subject: bright yellow lemon
+      attrs: [oval, bright yellow, glossy, with green leaf]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.lime
+    hint: small green sour citrus fruit (Citrus aurantiifolia)
+    image: fruit.lime.png
+    brief:
+      subject: small green lime
+      attrs: [round, vivid green, glossy]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.kiwi
+    hint: small brown hairy fruit with vivid green flesh (Actinidia deliciosa)
+    image: fruit.kiwi.png
+    brief:
+      subject: kiwi fruit
+      attrs: [hairy brown skin, small round, single fruit]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.peach
+    hint: soft fuzzy yellow-pink stone fruit (Prunus persica)
+    image: fruit.peach.png
+    brief:
+      subject: ripe peach
+      attrs: [yellow-orange, pink blush, fuzzy skin, round]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.plum
+    hint: small oval purple stone fruit (Prunus domestica)
+    image: fruit.plum.png
+    brief:
+      subject: purple plum
+      attrs: [dark purple, oval, glossy, with bloom]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.apricot
+    hint: small orange stone fruit (Prunus armeniaca)
+    image: fruit.apricot.png
+    brief:
+      subject: orange apricot
+      attrs: [small, orange, velvety skin, round]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.raspberry
+    hint: small red berry made of drupelets (Rubus idaeus)
+    image: fruit.raspberry.png
+    brief:
+      subject: red raspberry
+      attrs: [bright red, cluster of drupelets, small]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.blueberry
+    hint: small dark blue berry (Vaccinium corymbosum)
+    image: fruit.blueberry.png
+    brief:
+      subject: blueberries
+      attrs: [dark blue, small round, waxy bloom, cluster]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.blackberry
+    hint: dark purple-black berry (Rubus fruticosus)
+    image: fruit.blackberry.png
+    brief:
+      subject: blackberries
+      attrs: [dark purple-black, cluster of drupelets, glossy]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.coconut
+    hint: large tropical nut with fibrous husk (Cocos nucifera)
+    image: fruit.coconut.png
+    brief:
+      subject: whole coconut
+      attrs: [brown, fibrous shell, hairy, round]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.papaya
+    hint: large orange tropical fruit (Carica papaya)
+    image: fruit.papaya.png
+    brief:
+      subject: ripe papaya
+      attrs: [large, orange-green skin, oval]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.guava
+    hint: tropical fruit with pink or white flesh (Psidium guajava)
+    image: fruit.guava.png
+    brief:
+      subject: guava fruit
+      attrs: [pale green skin, round, tropical]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.pomegranate
+    hint: red multi-seeded fruit with crown (Punica granatum)
+    image: fruit.pomegranate.png
+    brief:
+      subject: red pomegranate
+      attrs: [deep red, round, distinctive crown, leathery]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.fig
+    hint: pear-shaped fruit with sweet interior (Ficus carica)
+    image: fruit.fig.png
+    brief:
+      subject: purple fig
+      attrs: [dark purple, pear-shaped, soft skin]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.date
+    hint: sweet brown oblong fruit of the date palm (Phoenix dactylifera)
+    image: fruit.date.png
+    brief:
+      subject: medjool dates
+      attrs: [dark brown, elongated, wrinkled skin, cluster]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.melon
+    hint: large round or oval fruit with orange or green flesh (Cucumis melo)
+    image: fruit.melon.png
+    brief:
+      subject: yellow melon
+      attrs: [round, pale yellow skin, netted]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.cantaloupe
+    hint: orange-fleshed netted melon (Cucumis melo var. cantalupensis)
+    image: fruit.cantaloupe.png
+    brief:
+      subject: cantaloupe melon
+      attrs: [netted beige skin, round, orange-green]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.grapefruit
+    hint: large bitter-sweet citrus fruit (Citrus paradisi)
+    image: fruit.grapefruit.png
+    brief:
+      subject: pink grapefruit
+      attrs: [large, yellow-pink, round, citrus]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.tangerine
+    hint: small sweet loose-skinned orange (Citrus reticulata)
+    image: fruit.tangerine.png
+    brief:
+      subject: tangerine orange
+      attrs: [small, bright orange, with green leaf]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.passion_fruit
+    hint: tropical vine fruit with wrinkled purple skin (Passiflora edulis)
+    image: fruit.passion_fruit.png
+    brief:
+      subject: passion fruit
+      attrs: [wrinkled purple skin, small round, exotic]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.lychee
+    hint: small red rough-skinned tropical fruit with translucent flesh (Litchi chinensis)
+    image: fruit.lychee.png
+    brief:
+      subject: lychee fruit
+      attrs: [red rough skin, small round, cluster]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.dragon_fruit
+    hint: pink tropical cactus fruit with white spotted flesh (Hylocereus)
+    image: fruit.dragon_fruit.png
+    brief:
+      subject: pink dragon fruit
+      attrs: [vivid pink, scaly skin, spiky green tips]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.starfruit
+    hint: star-shaped yellow tropical fruit (Averrhoa carambola)
+    image: fruit.starfruit.png
+    brief:
+      subject: yellow starfruit
+      attrs: [yellow, five-pointed star cross-section, waxy]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.avocado
+    hint: creamy green-fleshed tropical fruit (Persea americana)
+    image: fruit.avocado.png
+    brief:
+      subject: dark green avocado
+      attrs: [pear-shaped, dark green bumpy skin, single]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.persimmon
+    hint: orange tomato-like fruit (Diospyros kaki)
+    image: fruit.persimmon.png
+    brief:
+      subject: orange persimmon
+      attrs: [round, vivid orange, shiny, with green star calyx]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.mulberry
+    hint: long dark berry from mulberry tree (Morus species)
+    image: fruit.mulberry.png
+    brief:
+      subject: dark mulberry
+      attrs: [dark purple, elongated, like blackberry but thinner]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.cranberry
+    hint: small tart red berry (Vaccinium macrocarpon)
+    image: fruit.cranberry.png
+    brief:
+      subject: red cranberries
+      attrs: [small, bright red, round, cluster]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.gooseberry
+    hint: small translucent green or red berry (Ribes uva-crispa)
+    image: fruit.gooseberry.png
+    brief:
+      subject: green gooseberries
+      attrs: [small, translucent green, veined, cluster]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.currant
+    hint: tiny red, black or white berries (Ribes)
+    image: fruit.currant.png
+    brief:
+      subject: red currants
+      attrs: [tiny red, hanging in cluster, translucent]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.quince
+    hint: yellow hard aromatic fruit (Cydonia oblonga)
+    image: fruit.quince.png
+    brief:
+      subject: yellow quince
+      attrs: [pear-shaped, yellow, lumpy skin]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.jackfruit
+    hint: enormous green spiky tropical fruit (Artocarpus heterophyllus)
+    image: fruit.jackfruit.png
+    brief:
+      subject: large green jackfruit
+      attrs: [enormous, spiky green skin, bumpy]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.durian
+    hint: large spiky tropical fruit with pungent odour (Durio zibethinus)
+    image: fruit.durian.png
+    brief:
+      subject: durian fruit
+      attrs: [large, green-yellow, sharp conical spines, unique]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.rambutan
+    hint: red hairy tropical fruit (Nephelium lappaceum)
+    image: fruit.rambutan.png
+    brief:
+      subject: red rambutan
+      attrs: [bright red, soft spiny hairs, oval, exotic]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.longan
+    hint: small round tropical fruit related to lychee (Dimocarpus longan)
+    image: fruit.longan.png
+    brief:
+      subject: longan fruit
+      attrs: [small round, tan-brown smooth skin, cluster]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.tamarind
+    hint: brown pod with tart pulp (Tamarindus indica)
+    image: fruit.tamarind.png
+    brief:
+      subject: tamarind pods
+      attrs: [brown curved pod, dry brittle shell, cluster]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.nectarine
+    hint: smooth-skinned peach variety (Prunus persica var. nucipersica)
+    image: fruit.nectarine.png
+    brief:
+      subject: red-yellow nectarine
+      attrs: [smooth skin, red and yellow, round, glossy]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.damson
+    hint: small dark blue-black plum variety
+    image: fruit.damson.png
+    brief:
+      subject: dark damson plums
+      attrs: [small, dark blue-black, oval, cluster]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.medlar
+    hint: small brown apple-like fruit (Mespilus germanica)
+    image: fruit.medlar.png
+    brief:
+      subject: brown medlar fruit
+      attrs: [brown, round, open star end, rustic]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.ackee
+    hint: red tropical fruit with yellow arils (Blighia sapida); national fruit of Jamaica
+    image: fruit.ackee.png
+    brief:
+      subject: open red ackee
+      attrs: [red pod, open revealing yellow arils, tropical]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.feijoa
+    hint: oval green aromatic fruit (Acca sellowiana)
+    image: fruit.feijoa.png
+    brief:
+      subject: green feijoa
+      attrs: [oval, waxy green, small]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+

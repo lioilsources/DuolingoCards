@@ -1,0 +1,341 @@
+  - key: pet.mouse
+    hint: small domesticated white or fancy mouse kept as a pet (Mus musculus)
+    image: pet.mouse.png
+    brief:
+      subject: fancy pet mouse
+      attrs: [tiny, white or colourful, round ears, long tail, sitting in palm-sized pose]
+      setting: [clean bedding, simple pet cage or white background]
+      avoid: [text, wild mouse, scary, cartoon]
+
+  - key: pet.rat
+    hint: domesticated fancy rat kept as an intelligent pet (Rattus norvegicus domestica)
+    image: pet.rat.png
+    brief:
+      subject: fancy pet rat
+      attrs: [white or patched, large round ears, pink tail, curious expression, sitting]
+      setting: [clean pet habitat, bedding, neutral background]
+      avoid: [text, wild rat, scary, cartoon]
+
+  - key: pet.ferret
+    hint: domesticated mustelid kept as a playful pet (Mustela putorius furo)
+    image: pet.ferret.png
+    brief:
+      subject: ferret
+      attrs: [long sleek body, black mask marking, white and brown fur, playful pose]
+      setting: [clean indoor pet setting, colourful toy, soft light]
+      avoid: [text, weasel, wild animal, humans]
+
+  - key: pet.gerbil
+    hint: small sandy-coloured burrowing rodent kept as a pet (Meriones unguiculatus)
+    image: pet.gerbil.png
+    brief:
+      subject: Mongolian gerbil
+      attrs: [sandy-brown, tufted tail, big dark eyes, upright curious pose]
+      setting: [pet tank with sand, clean background]
+      avoid: [text, hamster, mouse, cartoon]
+
+  - key: pet.chinchilla
+    hint: fluffy grey South American rodent with extremely soft fur (Chinchilla lanigera)
+    image: pet.chinchilla.png
+    brief:
+      subject: chinchilla
+      attrs: [dense grey-blue soft fur, large round ears, bushy tail, sitting upright, cute]
+      setting: [clean white or neutral background, soft lighting]
+      avoid: [text, squirrel, rabbit, cartoon]
+
+  - key: pet.hedgehog
+    hint: small spiny insectivore kept as an exotic pet (Atelerix albiventris)
+    image: pet.hedgehog.png
+    brief:
+      subject: African pygmy hedgehog
+      attrs: [brown and white spines, white soft belly, small pointed snout, curled slightly]
+      setting: [clean white background, soft natural light]
+      avoid: [text, porcupine, wild hedgehog, humans]
+
+  - key: pet.sugar_glider
+    hint: small marsupial with a gliding membrane kept as an exotic pet (Petaurus breviceps)
+    image: pet.sugar_glider.png
+    brief:
+      subject: sugar glider
+      attrs: [grey with dark dorsal stripe, large round eyes, gliding membrane visible, perched]
+      setting: [branch or hand, dark background, studio light]
+      avoid: [text, flying squirrel, humans]
+
+  - key: pet.bearded_dragon
+    hint: Australian lizard with a spiky beard that is a popular pet (Pogona vitticeps)
+    image: pet.bearded_dragon.png
+    brief:
+      subject: bearded dragon lizard
+      attrs: [orange-tan scales, spiky beard, flat body, perched on rock, alert]
+      setting: [terrarium rock, warm lighting, UV light]
+      avoid: [text, iguana, other reptiles, humans]
+
+  - key: pet.leopard_gecko
+    hint: nocturnal spotted gecko popular as a first reptile pet (Eublepharis macularius)
+    image: pet.leopard_gecko.png
+    brief:
+      subject: leopard gecko
+      attrs: [yellow with black spots, large eyes, plump tail, smiling expression, perched]
+      setting: [terrarium, rock or bark, warm light]
+      avoid: [text, bearded dragon, wild gecko, cartoon]
+
+  - key: pet.corn_snake
+    hint: orange and red patterned colubrid snake popular as a beginner pet (Pantherophis guttatus)
+    image: pet.corn_snake.png
+    brief:
+      subject: corn snake
+      attrs: [orange with red blotches, smooth scales, coiled, alert head raised]
+      setting: [terrarium, branch, warm colour background]
+      avoid: [text, venomous snake, rat snake, humans]
+
+  - key: pet.axolotl
+    hint: neotenic Mexican salamander with feathery external gills kept as a pet (Ambystoma mexicanum)
+    image: pet.axolotl.png
+    brief:
+      subject: axolotl
+      attrs: [pink or white, feathery pink external gills, wide head, flat body, smiling]
+      setting: [aquarium, clean water, gentle lighting]
+      avoid: [text, fish, other salamanders, humans]
+
+  - key: pet.cockatiel
+    hint: small crested parrot from Australia with orange cheek patches (Nymphicus hollandicus)
+    image: pet.cockatiel.png
+    brief:
+      subject: cockatiel
+      attrs: [grey body, yellow crest, orange circular cheek patch, small, perched, singing]
+      setting: [perch or branch, clean background, warm light]
+      avoid: [text, cage bars, budgerigar, humans]
+
+  - key: pet.lovebird
+    hint: small brightly coloured affectionate parrot (Agapornis)
+    image: pet.lovebird.png
+    brief:
+      subject: peach-faced lovebird
+      attrs: [vivid green body, peachy-orange face, short tail, small, perched in pair]
+      setting: [natural branch, warm light, green background]
+      avoid: [text, cage, budgerigar, humans]
+
+  - key: pet.budgerigar
+    hint: small green and yellow parakeet commonly kept as a pet (Melopsittacus undulatus)
+    image: pet.budgerigar.png
+    brief:
+      subject: budgerigar parakeet
+      attrs: [vivid green and yellow, blue cheek patches, black scalloped markings, small, perched]
+      setting: [natural branch or perch, warm light, clean background]
+      avoid: [text, cage, cockatiel, humans]
+
+  - key: pet.canary
+    hint: small yellow singing bird kept as a pet (Serinus canaria domestica)
+    image: pet.canary.png
+    brief:
+      subject: yellow canary
+      attrs: [bright lemon yellow, round small body, beak slightly open singing, perched]
+      setting: [natural twig or perch, white or light background, warm light]
+      avoid: [text, cage bars, budgerigar, humans]
+
+  - key: pet.betta_fish
+    hint: colourful freshwater fighting fish with flowing fins (Betta splendens)
+    image: pet.betta_fish.png
+    brief:
+      subject: betta splenden fish
+      attrs: [vivid blue-red iridescent fins, long flowing tail, aggressive display posture]
+      setting: [aquarium, clean water, dark background, light on fins]
+      avoid: [text, goldfish, other fish, humans]
+
+  - key: pet.clownfish
+    hint: small orange fish with white bands living with sea anemones (Amphiprioninae)
+    image: pet.clownfish.png
+    brief:
+      subject: clownfish
+      attrs: [vivid orange, white bands with black borders, small, swimming among anemone]
+      setting: [sea anemone, coral reef aquarium, blue water]
+      avoid: [text, other fish, cartoon, humans]
+
+  - key: pet.crayfish
+    hint: freshwater crayfish kept in aquariums as an unusual pet (Procambarus clarkii)
+    image: pet.crayfish.png
+    brief:
+      subject: blue electric crayfish
+      attrs: [vivid electric blue, large claws, segmented body, walking on gravel]
+      setting: [freshwater aquarium, gravel, aquatic plants]
+      avoid: [text, lobster, sea crab, cooked, humans]
+
+  - key: pet.tarantula
+    hint: large hairy spider kept as an exotic pet (Theraphosidae)
+    image: pet.tarantula.png
+    brief:
+      subject: rose-hair tarantula
+      attrs: [large, pinkish-grey, very hairy legs and body, calm, spread out]
+      setting: [terrarium floor, bark or substrate, soft light]
+      avoid: [text, web, scary, humans]
+
+  - key: pet.hermit_crab
+    hint: soft-bodied crustacean living in a borrowed shell kept as a pet (Paguroidea)
+    image: pet.hermit_crab.png
+    brief:
+      subject: hermit crab in shell
+      attrs: [striped legs, peeking from colourful spiral shell, small, curious]
+      setting: [sandy terrarium, shells around, warm light]
+      avoid: [text, sea crab, lobster, humans]
+
+  - key: pet.iguana
+    hint: large green lizard with a dorsal crest kept as an exotic pet (Iguana iguana)
+    image: pet.iguana.png
+    brief:
+      subject: green iguana
+      attrs: [vivid green, dorsal crest along spine, dewlap under chin, long tail, perched on branch]
+      setting: [terrarium or tropical branch, bright UV light, green background]
+      avoid: [text, bearded dragon, wild iguana, humans]
+
+  - key: pet.chameleon
+    hint: colour-changing lizard with turret eyes and prehensile tail (Chamaeleo calyptratus)
+    image: pet.chameleon.png
+    brief:
+      subject: veiled chameleon
+      attrs: [vivid green with yellow and blue stripes, turret eyes moving independently, gripping branch]
+      setting: [tropical branches, lush green leaves, terrarium setting]
+      avoid: [text, other lizards, humans]
+
+  - key: pet.degu
+    hint: small social South American rodent resembling a cross between a rat and squirrel (Octodon degus)
+    image: pet.degu.png
+    brief:
+      subject: degu
+      attrs: [sandy-brown, large ears, dark tufted tail tip, round bright eyes, alert]
+      setting: [cage or white background, bedding or branch]
+      avoid: [text, chinchilla, rat, cartoon]
+
+  - key: pet.prairie_dog
+    hint: social burrowing North American rodent sometimes kept as an exotic pet (Cynomys)
+    image: pet.prairie_dog.png
+    brief:
+      subject: black-tailed prairie dog
+      attrs: [tan-brown, short stocky body, upright on hind legs, alert, cute]
+      setting: [clean background, or dry sandy terrain]
+      avoid: [text, meerkat, ground squirrel, humans]
+
+  - key: pet.mini_pig
+    hint: small domesticated pig bred to stay small as a pet (Sus scrofa domesticus)
+    image: pet.mini_pig.png
+    brief:
+      subject: mini pig
+      attrs: [very small, pink or black, cute snout, plump, waddling]
+      setting: [clean indoor or garden setting, soft light]
+      avoid: [text, farm pig, cartoon, humans]
+
+  - key: pet.miniature_donkey
+    hint: tiny donkey breed kept as a pet and companion animal (Equus africanus asinus)
+    image: pet.miniature_donkey.png
+    brief:
+      subject: miniature donkey
+      attrs: [small, grey-brown, large ears, fluffy mane, gentle expression, standing]
+      setting: [green paddock, wooden fence, soft light]
+      avoid: [text, horse, mule, humans]
+
+  - key: pet.capybara
+    hint: giant rodent sometimes kept as an exotic pet in suitable climates (Hydrochoerus hydrochaeris)
+    image: pet.capybara.png
+    brief:
+      subject: pet capybara
+      attrs: [large, barrel-shaped, coarse brown fur, calm, sitting on grass]
+      setting: [garden or pool edge, green vegetation, sunny day]
+      avoid: [text, wild capybara, humans, zoo]
+
+  - key: pet.fennec_fox
+    hint: tiny desert fox with huge ears sometimes kept as an exotic pet (Vulpes zerda)
+    image: pet.fennec_fox.png
+    brief:
+      subject: fennec fox
+      attrs: [cream fur, enormous round ears, large dark eyes, tiny pointed snout, sitting]
+      setting: [clean indoor setting, warm light, soft neutral background]
+      avoid: [text, red fox, pet collar, cartoon, humans]
+
+  - key: pet.koi
+    hint: ornamental coloured carp kept in garden ponds (Cyprinus rubrofuscus)
+    image: pet.koi.png
+    brief:
+      subject: koi fish
+      attrs: [orange-white-black patterned, large, elegant, swimming near surface]
+      setting: [ornamental garden pond, lily pads, clear water, reflection]
+      avoid: [text, goldfish, carp, humans]
+
+  - key: pet.angelfish
+    hint: laterally flattened tropical freshwater fish with long fins (Pterophyllum scalare)
+    image: pet.angelfish.png
+    brief:
+      subject: angelfish
+      attrs: [triangular body, long flowing fins, silver with black vertical stripes, graceful]
+      setting: [aquarium, aquatic plants, dark background, soft blue light]
+      avoid: [text, marine angelfish, other fish, humans]
+
+  - key: pet.oscar_fish
+    hint: large intelligent cichlid fish kept in aquariums (Astronotus ocellatus)
+    image: pet.oscar_fish.png
+    brief:
+      subject: Oscar fish
+      attrs: [large, orange-red and black marbled pattern, big expressive eyes, swimming]
+      setting: [large aquarium, gravel, driftwood, dark background]
+      avoid: [text, other cichlids, humans]
+
+  - key: pet.cockatoo
+    hint: large white crested parrot from Australia kept as a pet (Cacatua galerita)
+    image: pet.cockatoo.png
+    brief:
+      subject: sulphur-crested cockatoo as a pet
+      attrs: [white plumage, yellow crest raised, black beak, perched on arm or T-bar]
+      setting: [indoor pet setting, warm light, person's arm if needed]
+      avoid: [text, cage, wild cockatoo, cage bars obscuring bird]
+
+  - key: pet.parrot_grey
+    hint: African grey parrot, the most intelligent and best-talking pet parrot (Psittacus erithacus)
+    image: pet.parrot_grey.png
+    brief:
+      subject: African grey parrot
+      attrs: [grey plumage, bright red tail, black bill, intelligent eyes, perched]
+      setting: [perch or branch, neutral background, warm light]
+      avoid: [text, cage, cockatoo, macaw, humans]
+
+  - key: pet.dove
+    hint: small white or ringneck dove kept as a gentle pet (Streptopelia risoria)
+    image: pet.dove.png
+    brief:
+      subject: white ringneck dove
+      attrs: [pure white, small, gentle, soft eyes, perched or cupped in hands]
+      setting: [perch or soft light background]
+      avoid: [text, pigeon, cage, humans]
+
+  - key: pet.quail
+    hint: small quail kept as a pet or for eggs (Coturnix japonica)
+    image: pet.quail.png
+    brief:
+      subject: Japanese quail
+      attrs: [small, brown spotted plumage, round body, calm, perched]
+      setting: [small aviary or natural background, clean setting]
+      avoid: [text, chicken, pheasant, humans]
+
+  - key: pet.mynah_bird
+    hint: glossy black bird that mimics human speech kept as a pet (Gracula religiosa)
+    image: pet.mynah_bird.png
+    brief:
+      subject: common hill mynah bird
+      attrs: [glossy black plumage, bright orange-yellow bill, yellow wattles, perched, alert]
+      setting: [perch or branch, neutral background, warm light]
+      avoid: [text, starling, cage, humans]
+
+  - key: pet.skunk
+    hint: black and white striped mammal sometimes kept as a de-scented pet (Mephitis mephitis)
+    image: pet.skunk.png
+    brief:
+      subject: striped skunk
+      attrs: [black with white stripe down back, fluffy tail, small, cute pose]
+      setting: [neutral indoor setting, soft light]
+      avoid: [text, smelly spray, wild skunk, cartoon]
+
+  - key: pet.opossum
+    hint: North American marsupial sometimes kept as an exotic pet (Didelphis virginiana)
+    image: pet.opossum.png
+    brief:
+      subject: Virginia opossum
+      attrs: [pale grey-white, pointed snout, round dark eyes, prehensile tail, clinging]
+      setting: [branch or perch, clean background, soft warm light]
+      avoid: [text, wild opossum, rat, scary, humans]

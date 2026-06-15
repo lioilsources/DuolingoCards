@@ -98,3 +98,364 @@ cards:
       attrs: [white papery bulb, multiple cloves visible, dry stalk]
       setting: [clean white surface, soft shadow]
       avoid: [text, peeled cloves, other vegetables]
+
+  - key: veg.spinach
+    hint: leafy green vegetable rich in iron (Spinacia oleracea)
+    image: veg.spinach.png
+    brief:
+      subject: bunch of spinach leaves
+      attrs: [dark green, large leaves, bunch, fresh]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.lettuce
+    hint: crisp leafy salad vegetable (Lactuca sativa)
+    image: veg.lettuce.png
+    brief:
+      subject: green lettuce head
+      attrs: [pale green, ruffled leaves, round head]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.cabbage
+    hint: large round leafy vegetable with tightly packed leaves (Brassica oleracea)
+    image: veg.cabbage.png
+    brief:
+      subject: green cabbage head
+      attrs: [round, pale green, tight leaves]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.cauliflower
+    hint: white dense flower head vegetable (Brassica oleracea var. botrytis)
+    image: veg.cauliflower.png
+    brief:
+      subject: white cauliflower head
+      attrs: [white dense curds, green outer leaves, round]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.eggplant
+    hint: dark purple elongated vegetable (Solanum melongena); also called aubergine
+    image: veg.eggplant.png
+    brief:
+      subject: dark purple aubergine
+      attrs: [glossy, dark purple, oval, with green calyx]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.zucchini
+    hint: elongated green summer squash (Cucurbita pepo); also courgette
+    image: veg.zucchini.png
+    brief:
+      subject: green zucchini
+      attrs: [elongated, dark green, smooth skin]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.pumpkin
+    hint: large orange round squash (Cucurbita maxima or pepo)
+    image: veg.pumpkin.png
+    brief:
+      subject: orange pumpkin
+      attrs: [round, orange, ribbed, with green stem]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.squash
+    hint: varied-shaped winter squash (Cucurbita species)
+    image: veg.squash.png
+    brief:
+      subject: butternut squash
+      attrs: [pear-shaped, tan-orange skin, smooth]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.beet
+    hint: deep red root vegetable (Beta vulgaris)
+    image: veg.beet.png
+    brief:
+      subject: dark red beetroot
+      attrs: [round, dark purple-red, with green stalks]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.radish
+    hint: small crisp red or white root vegetable (Raphanus sativus)
+    image: veg.radish.png
+    brief:
+      subject: red radish
+      attrs: [small round, bright red, white tip, with green leaves]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.turnip
+    hint: round white-purple root vegetable (Brassica rapa)
+    image: veg.turnip.png
+    brief:
+      subject: white turnip
+      attrs: [round, white bottom purple top, small root]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.celery
+    hint: crunchy green stalked vegetable (Apium graveolens)
+    image: veg.celery.png
+    brief:
+      subject: celery stalks
+      attrs: [pale green, tall ribbed stalks, bunch, leafy top]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.leek
+    hint: large mild onion-family vegetable (Allium ampeloprasum)
+    image: veg.leek.png
+    brief:
+      subject: leek
+      attrs: [long, white bottom, dark green top, flat leaves]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.asparagus
+    hint: tender green spring shoots (Asparagus officinalis)
+    image: veg.asparagus.png
+    brief:
+      subject: green asparagus spears
+      attrs: [slender, green, pointed tips, bunch]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.artichoke
+    hint: large green thistle-like vegetable (Cynara cardunculus)
+    image: veg.artichoke.png
+    brief:
+      subject: globe artichoke
+      attrs: [large, green, scaled, thistle-like head]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.peas
+    hint: small round green legume seeds in a pod (Pisum sativum)
+    image: veg.peas.png
+    brief:
+      subject: green pea pods
+      attrs: [round green pods, open showing peas, bright green]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.green_beans
+    hint: long slender green legume pods (Phaseolus vulgaris)
+    image: veg.green_beans.png
+    brief:
+      subject: green beans
+      attrs: [long, slender, bright green, bundle]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.lentils
+    hint: small flat disc-shaped legume seeds (Lens culinaris)
+    image: veg.lentils.png
+    brief:
+      subject: mixed lentils pile
+      attrs: [small, flat, brown green or red, pile]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.chickpeas
+    hint: round beige legume seeds (Cicer arietinum)
+    image: veg.chickpeas.png
+    brief:
+      subject: dried chickpeas
+      attrs: [beige, round, irregular, dry pile]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.sweet_potato
+    hint: orange starchy tuber (Ipomoea batatas)
+    image: veg.sweet_potato.png
+    brief:
+      subject: orange sweet potato
+      attrs: [elongated, orange-red skin, slightly tapered]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.yam
+    hint: large starchy tropical tuber (Dioscorea species)
+    image: veg.yam.png
+    brief:
+      subject: dark brown yam
+      attrs: [large, rough dark brown skin, elongated, starchy]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.ginger
+    hint: knobby beige root used as spice (Zingiber officinale)
+    image: veg.ginger.png
+    brief:
+      subject: fresh ginger root
+      attrs: [knobby, pale beige, irregular, root]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.parsley
+    hint: bright green herb with flat or curly leaves (Petroselinum crispum)
+    image: veg.parsley.png
+    brief:
+      subject: fresh parsley
+      attrs: [bright green, flat or curly, fresh bunch, herb]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.chili
+    hint: small hot red or green chilli pepper (Capsicum annuum)
+    image: veg.chili.png
+    brief:
+      subject: red chilli peppers
+      attrs: [bright red, thin, pointed, cluster]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.spring_onion
+    hint: long thin onion with white base and green stalks (Allium fistulosum)
+    image: veg.spring_onion.png
+    brief:
+      subject: spring onions
+      attrs: [white base, long green stalks, bunch]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.kale
+    hint: dark blue-green ruffled leafy vegetable (Brassica oleracea var. sabellica)
+    image: veg.kale.png
+    brief:
+      subject: curly kale leaves
+      attrs: [dark blue-green, ruffled, large leaves, fresh]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.chard
+    hint: large colourful leafy vegetable with red or rainbow stalks (Beta vulgaris)
+    image: veg.chard.png
+    brief:
+      subject: rainbow chard
+      attrs: [large glossy leaves, bright red or rainbow stalks, fresh]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.endive
+    hint: pale leafy vegetable with bitter taste; chicory family (Cichorium)
+    image: veg.endive.png
+    brief:
+      subject: pale endive
+      attrs: [pale yellow-green, tight elongated head, pointed]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.watercress
+    hint: small dark green spicy water herb (Nasturtium officinale)
+    image: veg.watercress.png
+    brief:
+      subject: fresh watercress
+      attrs: [small dark green leaves, rounded, fresh bunch, peppery]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.arugula
+    hint: peppery dark green salad leaf (Eruca vesicaria); rocket
+    image: veg.arugula.png
+    brief:
+      subject: fresh rocket arugula
+      attrs: [dark green, lobed leaves, peppery, small leaves]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.bok_choy
+    hint: Chinese leafy green with white stalks (Brassica rapa subsp. chinensis)
+    image: veg.bok_choy.png
+    brief:
+      subject: bok choy
+      attrs: [white stalks, dark green leaves, compact, Asian green]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.kohlrabi
+    hint: blue-green bulb on stalks; stem of cabbage family (Brassica oleracea)
+    image: veg.kohlrabi.png
+    brief:
+      subject: green kohlrabi
+      attrs: [round green bulb, stalks, alien-looking, pale green]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.celeriac
+    hint: knobby large white root; root of celery (Apium graveolens var. rapaceum)
+    image: veg.celeriac.png
+    brief:
+      subject: celeriac root
+      attrs: [large, knobby, white-beige, round root]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.parsnip
+    hint: long tapered white root vegetable (Pastinaca sativa)
+    image: veg.parsnip.png
+    brief:
+      subject: cream parsnip
+      attrs: [cream-white, long, tapered, root]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.swede
+    hint: large purple-yellow round root vegetable (Brassica napus); rutabaga
+    image: veg.swede.png
+    brief:
+      subject: swede rutabaga
+      attrs: [large round, purple top, yellow bottom, turnip-like]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.fennel
+    hint: white bulb with feathery fronds; anise-flavoured (Foeniculum vulgare)
+    image: veg.fennel.png
+    brief:
+      subject: fennel bulb
+      attrs: [white bulb, feathery green fronds, flat base, anise]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.okra
+    hint: long green ridged seed pod (Abelmoschus esculentus); lady fingers
+    image: veg.okra.png
+    brief:
+      subject: green okra pods
+      attrs: [long, ridged, dark green, pointed tip, star cross-section]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.lotus_root
+    hint: sliced lotus rhizome with holes; used in Asian cuisine (Nelumbo nucifera)
+    image: veg.lotus_root.png
+    brief:
+      subject: lotus root slice
+      attrs: [disc with holes, cream white, cross-section, beautiful pattern]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.bamboo_shoot
+    hint: young bamboo shoot used in Asian cooking (Bambusoideae)
+    image: veg.bamboo_shoot.png
+    brief:
+      subject: bamboo shoots
+      attrs: [conical, pale yellow, layered husks, Asian ingredient]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+
+  - key: veg.taro
+    hint: large starchy purple-flecked corm (Colocasia esculenta)
+    image: veg.taro.png
+    brief:
+      subject: taro corm
+      attrs: [brown hairy skin, large, round starchy, with purple dots]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, sliced, cooked, other vegetables]
+

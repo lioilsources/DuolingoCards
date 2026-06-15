@@ -79,3 +79,382 @@ cards:
       attrs: [translucent, drifting, tentacles trailing]
       setting: [deep blue ocean, light rays]
       avoid: [text, dead jellyfish]
+
+  - key: animal.lobster
+    hint: large marine crustacean with claws; bright red when cooked (Homarus)
+    image: animal.lobster.png
+    brief:
+      subject: Atlantic lobster
+      attrs: [dark blue-green, large claws, in water or on rock, long antennae]
+      setting: [ocean floor, rocky seabed, dark water]
+      avoid: [text, boiling pot, dead]
+
+  - key: animal.shrimp
+    hint: small fast-swimming crustacean (Penaeidae or similar)
+    image: animal.shrimp.png
+    brief:
+      subject: shrimp
+      attrs: [translucent pink, bent body, antennae, small]
+      setting: [clear ocean water, macro, tropical reef]
+      avoid: [text, boiling, dead]
+
+  - key: animal.starfish
+    hint: five-armed echinoderm of the ocean floor (Asteroidea)
+    image: animal.starfish.png
+    brief:
+      subject: sea star
+      attrs: [bright orange or red, five arms, on rock or sand, flat]
+      setting: [tidal pool, sandy ocean floor, sunlit water]
+      avoid: [text, humans]
+
+  - key: animal.sea_urchin
+    hint: spiny ball-shaped echinoderm on the ocean floor (Echinoidea)
+    image: animal.sea_urchin.png
+    brief:
+      subject: sea urchin
+      attrs: [dark purple spines, round, on rock, spiky]
+      setting: [rocky reef, shallow water, sunlit]
+      avoid: [text, humans]
+
+  - key: animal.clownfish
+    hint: orange-white fish living in sea anemones (Amphiprioninae)
+    image: animal.clownfish.png
+    brief:
+      subject: clownfish
+      attrs: [orange with white bars, small, in anemone, vivid]
+      setting: [sea anemone, coral reef, blue water]
+      avoid: [text, nets, humans]
+
+  - key: animal.seal
+    hint: marine mammal with flippers that basks on rocks (Phocidae)
+    image: animal.seal.png
+    brief:
+      subject: harbour seal
+      attrs: [grey spotted, resting on rock, flippers, cute face]
+      setting: [rocky coast, sea spray, overcast sky]
+      avoid: [text, circus, humans]
+
+  - key: animal.walrus
+    hint: large Arctic marine mammal with long tusks (Odobenus rosmarus)
+    image: animal.walrus.png
+    brief:
+      subject: walrus
+      attrs: [enormous, tan-brown, long ivory tusks, hauled out on ice]
+      setting: [Arctic ice floe, cold grey sea, overcast]
+      avoid: [text, blood, humans]
+
+  - key: animal.orca
+    hint: black-and-white apex predator also called killer whale (Orcinus orca)
+    image: animal.orca.png
+    brief:
+      subject: orca killer whale
+      attrs: [black and white, tall dorsal fin, surfacing, powerful]
+      setting: [open ocean, splashing water, grey sky]
+      avoid: [text, circus, nets, captivity]
+
+  - key: animal.narwhal
+    hint: Arctic whale with a long spiral tusk (Monodon monoceros)
+    image: animal.narwhal.png
+    brief:
+      subject: narwhal
+      attrs: [grey spotted, single long spiral tusk, in icy water, group]
+      setting: [Arctic ocean, ice floes, blue-grey water]
+      avoid: [text, humans]
+
+  - key: animal.manatee
+    hint: slow gentle marine herbivore (Trichechus); called sea cow
+    image: animal.manatee.png
+    brief:
+      subject: West Indian manatee
+      attrs: [large grey, round, slow, wrinkled skin, in water]
+      setting: [warm tropical water, green seagrass, sunlit]
+      avoid: [text, boat propeller, humans]
+
+  - key: animal.sea_lion
+    hint: eared seal that can walk on flippers (Otariidae)
+    image: animal.sea_lion.png
+    brief:
+      subject: California sea lion
+      attrs: [dark brown, agile, barking, on rocks]
+      setting: [Pacific rocky coast, sunlight, waves]
+      avoid: [text, circus, humans]
+
+  - key: animal.manta_ray
+    hint: giant graceful ray that filter-feeds near the surface (Manta birostris)
+    image: animal.manta_ray.png
+    brief:
+      subject: oceanic manta ray
+      attrs: [enormous wingspan, black above white below, filter feeding, graceful]
+      setting: [open ocean, blue water, sunlight rays]
+      avoid: [text, nets, humans]
+
+  - key: animal.swordfish
+    hint: large fast pelagic fish with a long flat bill (Xiphias gladius)
+    image: animal.swordfish.png
+    brief:
+      subject: swordfish
+      attrs: [dark blue-silver, long flat pointed bill, sleek, leaping]
+      setting: [open ocean, blue water, sunlight]
+      avoid: [text, dead, blood, humans]
+
+  - key: animal.tuna
+    hint: fast schooling pelagic fish with streamlined body (Thunnus)
+    image: animal.tuna.png
+    brief:
+      subject: bluefin tuna
+      attrs: [steel blue-silver, streamlined, fast, schooling]
+      setting: [open ocean, dark blue water]
+      avoid: [text, dead, nets, humans]
+
+  - key: animal.salmon
+    hint: large anadromous fish (Salmo salar or Oncorhynchus)
+    image: animal.salmon.png
+    brief:
+      subject: Atlantic salmon
+      attrs: [silver-pink, leaping upstream, strong, large]
+      setting: [clear mountain river, waterfall, spray]
+      avoid: [text, dead, nets]
+
+  - key: animal.eel
+    hint: long snake-like fish (Anguilla or Gymnothorax for moray)
+    image: animal.eel.png
+    brief:
+      subject: moray eel
+      attrs: [green spotted, emerging from crevice, long, open mouth]
+      setting: [coral reef, rocky crevice, tropical]
+      avoid: [text, blood, humans]
+
+  - key: animal.squid
+    hint: ten-armed cephalopod mollusk that jets through water (Teuthida)
+    image: animal.squid.png
+    brief:
+      subject: giant squid
+      attrs: [pale pink, ten tentacles, large eye, in ocean]
+      setting: [deep dark ocean, dim light]
+      avoid: [text, blood, dead, humans]
+
+  - key: animal.nautilus
+    hint: ancient cephalopod with a coiled chambered shell (Nautilus)
+    image: animal.nautilus.png
+    brief:
+      subject: nautilus
+      attrs: [spiral shell, coiled, cream with stripes, tentacles visible, underwater]
+      setting: [deep clear water, dark background, underwater]
+      avoid: [text, humans]
+
+  - key: animal.clam
+    hint: bivalve mollusk with two hinged shells (Bivalvia)
+    image: animal.clam.png
+    brief:
+      subject: giant clam
+      attrs: [massive, purple-blue mantle, in reef, partly open]
+      setting: [tropical coral reef, clear blue water, colourful]
+      avoid: [text, humans]
+
+  - key: animal.oyster
+    hint: bivalve grown on reefs and rocks (Ostrea or Crassostrea)
+    image: animal.oyster.png
+    brief:
+      subject: Pacific oyster
+      attrs: [rough shell, open showing pearl-white inside, on rock, natural]
+      setting: [tidal rock, seawater, coastal]
+      avoid: [text, humans]
+
+  - key: animal.mussel
+    hint: dark-shelled bivalve clustering on rocks (Mytilus)
+    image: animal.mussel.png
+    brief:
+      subject: blue mussel
+      attrs: [blue-black, clustered on rock, oval, marine]
+      setting: [tidal rock, surf, coastal]
+      avoid: [text, humans]
+
+  - key: animal.sea_anemone
+    hint: flower-like marine animal with stinging tentacles (Actiniaria)
+    image: animal.sea_anemone.png
+    brief:
+      subject: sea anemone
+      attrs: [vivid orange or purple, waving tentacles, anchored to rock]
+      setting: [coral reef, blue water, colourful reef]
+      avoid: [text, humans]
+
+  - key: animal.stingray
+    hint: flat ray with venomous spine on tail (Dasyatidae)
+    image: animal.stingray.png
+    brief:
+      subject: southern stingray
+      attrs: [flat, diamond-shaped, brown-grey, resting on sandy bottom]
+      setting: [sandy ocean floor, clear water, tropical]
+      avoid: [text, blood, humans]
+
+  - key: animal.hammerhead_shark
+    hint: shark with a distinctive T-shaped head (Sphyrnidae)
+    image: animal.hammerhead_shark.png
+    brief:
+      subject: great hammerhead shark
+      attrs: [distinctive flat hammer-shaped head, grey, large, swimming]
+      setting: [open ocean, blue water, from below]
+      avoid: [text, blood, humans]
+
+  - key: animal.beluga_whale
+    hint: small white Arctic whale with bulbous forehead (Delphinapterus leucas)
+    image: animal.beluga_whale.png
+    brief:
+      subject: beluga whale
+      attrs: [pure white, bulbous melon forehead, small, smiling face]
+      setting: [Arctic coastal water, grey blue sea, ice]
+      avoid: [text, circus, captivity, humans]
+
+  - key: animal.puffer_fish
+    hint: fish that inflates to a spiny ball when threatened (Tetraodontidae)
+    image: animal.puffer_fish.png
+    brief:
+      subject: puffer fish
+      attrs: [round spiny inflated ball, spotted, yellow-brown, floating]
+      setting: [tropical water, coral reef]
+      avoid: [text, blood, poison, humans]
+
+  - key: animal.anglerfish
+    hint: deep-sea fish with bioluminescent lure (Lophiiformes)
+    image: animal.anglerfish.png
+    brief:
+      subject: deep sea anglerfish
+      attrs: [dark, bioluminescent lure on head, large teeth, deep sea]
+      setting: [absolute darkness, blue bioluminescent glow, deep sea]
+      avoid: [text, blood, humans]
+
+  - key: animal.sea_cucumber
+    hint: soft elongated sea animal that eats detritus (Holothuroidea)
+    image: animal.sea_cucumber.png
+    brief:
+      subject: sea cucumber
+      attrs: [elongated, brown or orange, soft, on sandy floor]
+      setting: [sandy ocean floor, tropical, shallow]
+      avoid: [text, humans]
+
+  - key: animal.sea_slug
+    hint: colourful shell-less marine mollusc (Nudibranchia)
+    image: animal.sea_slug.png
+    brief:
+      subject: nudibranch sea slug
+      attrs: [vivid purple orange blue, elaborate frills, tiny, on reef]
+      setting: [coral reef, macro, vivid colours, close-up]
+      avoid: [text, humans]
+
+  - key: animal.barnacle
+    hint: sessile crustacean that attaches to rocks and ships (Cirripedia)
+    image: animal.barnacle.png
+    brief:
+      subject: barnacles
+      attrs: [whitish conical shells, clustered on rock, filter feeding, tidal]
+      setting: [tidal rock, surf, barnacle cluster]
+      avoid: [text, humans]
+
+  - key: animal.sea_otter
+    hint: marine otter that floats on its back using tools (Enhydra lutris)
+    image: animal.sea_otter.png
+    brief:
+      subject: sea otter
+      attrs: [floating on back, holding paws, using rock as tool, brown]
+      setting: [kelp forest surface, Pacific ocean, sunny calm]
+      avoid: [text, humans]
+
+  - key: animal.dugong
+    hint: gentle marine herbivore related to manatee, found in Indian Ocean (Dugong dugon)
+    image: animal.dugong.png
+    brief:
+      subject: dugong
+      attrs: [large grey, rounded snout, tail with flukes, peaceful]
+      setting: [warm tropical coastal water, seagrass meadow]
+      avoid: [text, boat, humans]
+
+  - key: animal.piranha
+    hint: freshwater predatory fish of South America (Pygocentrus nattereri)
+    image: animal.piranha.png
+    brief:
+      subject: red-bellied piranha
+      attrs: [silver, red belly, sharp teeth visible, alert eyes]
+      setting: [dark Amazon river water, murky brown, tropical]
+      avoid: [text, blood, feeding frenzy]
+
+  - key: animal.catfish
+    hint: bottom-dwelling freshwater fish with barbels (Siluriformes)
+    image: animal.catfish.png
+    brief:
+      subject: wels catfish
+      attrs: [large, grey-green, barbels visible, bottom of river]
+      setting: [murky river bottom, dark water, riverbed]
+      avoid: [text, dead, humans]
+
+  - key: animal.carp_river
+    hint: common carp in its natural river habitat (Cyprinus carpio)
+    image: animal.carp_river.png
+    brief:
+      subject: common carp
+      attrs: [golden-brown, large scales, in clear river, surfacing]
+      setting: [clear river or pond, reeds, dappled light]
+      avoid: [text, dead, nets]
+
+  - key: animal.frogfish
+    hint: bizarre ambush predator that walks on fins (Antennariidae)
+    image: animal.frogfish.png
+    brief:
+      subject: frogfish
+      attrs: [warty, camouflaged orange or red, walking on fins, lure visible]
+      setting: [tropical reef, coral, macro]
+      avoid: [text, blood, humans]
+
+  - key: animal.lionfish
+    hint: venomous coral reef fish with dramatic spines (Pterois)
+    image: animal.lionfish.png
+    brief:
+      subject: red lionfish
+      attrs: [vivid red and white stripes, feathery venomous spines, tropical reef]
+      setting: [coral reef, blue tropical water, vivid]
+      avoid: [text, blood, sting, humans]
+
+  - key: animal.clown_triggerfish
+    hint: boldly patterned reef fish (Balistoides conspicillum)
+    image: animal.clown_triggerfish.png
+    brief:
+      subject: clown triggerfish
+      attrs: [white spots on dark body, orange mouth, vivid, reef]
+      setting: [tropical coral reef, blue water, colourful]
+      avoid: [text, humans]
+
+  - key: animal.blue_tang
+    hint: bright blue reef fish (Paracanthurus hepatus) from Finding Nemo
+    image: animal.blue_tang.png
+    brief:
+      subject: blue tang fish
+      attrs: [vivid blue, yellow tail, oval, reef fish]
+      setting: [coral reef, blue water, vivid colours]
+      avoid: [text, tank, humans]
+
+  - key: animal.horseshoe_crab
+    hint: ancient arthropod surviving 450 million years (Limulus polyphemus)
+    image: animal.horseshoe_crab.png
+    brief:
+      subject: horseshoe crab
+      attrs: [dome-shaped brown shell, tail spine, walking on beach, primordial]
+      setting: [sandy beach, tidal flat, spawning scene]
+      avoid: [text, blood, humans]
+
+  - key: animal.giant_squid
+    hint: enormous deep-sea cephalopod reaching 13+ metres (Architeuthis)
+    image: animal.giant_squid.png
+    brief:
+      subject: giant squid
+      attrs: [enormous, red-brown, ten arms, deep ocean]
+      setting: [dark abyssal ocean, dim light, mysterious]
+      avoid: [text, blood, dead]
+
+
+  - key: animal.flying_fish
+    hint: tropical fish that glides above the water using wing-like pectoral fins (Exocoetidae)
+    image: animal.flying_fish.png
+    brief:
+      subject: flying fish gliding above ocean surface
+      attrs: [silver, large wing-like pectoral fins, gliding, airborne]
+      setting: [tropical ocean surface, blue water, bright daylight, spray]
+      avoid: [text, humans, boats]

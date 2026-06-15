@@ -79,3 +79,382 @@ cards:
       attrs: [hovering, wings blurred, red throat, green back]
       setting: [red flower, garden, close-up]
       avoid: [text, feeder, cage]
+
+  - key: animal.crow
+    hint: intelligent black corvid known for problem-solving (Corvus corone)
+    image: animal.crow.png
+    brief:
+      subject: carrion crow
+      attrs: [jet black, perched, intelligent gaze]
+      setting: [bare branch, grey sky, urban or rural]
+      avoid: [text, dead animal]
+
+  - key: animal.pigeon
+    hint: common city dove (Columba livia domestica), grey with iridescent neck
+    image: animal.pigeon.png
+    brief:
+      subject: rock pigeon
+      attrs: [grey, iridescent neck, strutting, urban]
+      setting: [city pavement, sunlight]
+      avoid: [text, humans]
+
+  - key: animal.sparrow
+    hint: small brown seed-eating songbird (Passer domesticus)
+    image: animal.sparrow.png
+    brief:
+      subject: house sparrow
+      attrs: [small, brown streaked, perched on twig]
+      setting: [garden hedge, soft light]
+      avoid: [text, humans]
+
+  - key: animal.robin
+    hint: small bird with distinctive red breast (Erithacus rubecula)
+    image: animal.robin.png
+    brief:
+      subject: European robin
+      attrs: [red breast, small, perched, alert]
+      setting: [garden, green bush, winter or spring]
+      avoid: [text, humans]
+
+  - key: animal.duck
+    hint: common dabbling water bird (Anas platyrhynchos), male has green head
+    image: animal.duck.png
+    brief:
+      subject: mallard duck
+      attrs: [male, glossy green head, yellow bill, floating]
+      setting: [calm pond, reeds, sunny]
+      avoid: [text, bread, humans]
+
+  - key: animal.swan
+    hint: large elegant white water bird (Cygnus olor)
+    image: animal.swan.png
+    brief:
+      subject: mute swan
+      attrs: [brilliant white, long curved neck, on water, graceful]
+      setting: [still lake, reeds, golden light]
+      avoid: [text, humans]
+
+  - key: animal.goose
+    hint: large water bird (Anser anser); geese honk and migrate in V formation
+    image: animal.goose.png
+    brief:
+      subject: greylag goose
+      attrs: [grey-brown, standing on bank, orange bill]
+      setting: [riverbank, green grass, sunny]
+      avoid: [text, humans]
+
+  - key: animal.stork
+    hint: large white bird with red bill that nests on rooftops (Ciconia ciconia)
+    image: animal.stork.png
+    brief:
+      subject: white stork
+      attrs: [white body, black wings, long red bill, long red legs]
+      setting: [meadow, nest on chimney or tree, blue sky]
+      avoid: [text, baby, humans]
+
+  - key: animal.heron
+    hint: tall wading bird that stands motionless to fish (Ardea cinerea)
+    image: animal.heron.png
+    brief:
+      subject: grey heron
+      attrs: [tall, grey, long neck, standing in shallow water, patient]
+      setting: [river edge, reeds, misty morning]
+      avoid: [text, humans]
+
+  - key: animal.crane
+    hint: large graceful migratory bird known for dancing displays (Grus grus)
+    image: animal.crane.png
+    brief:
+      subject: common crane
+      attrs: [grey, red crown, long neck extended, in flight or standing]
+      setting: [open field, morning mist]
+      avoid: [text, humans]
+
+  - key: animal.ostrich
+    hint: world's largest bird, flightless, runs fast (Struthio camelus)
+    image: animal.ostrich.png
+    brief:
+      subject: ostrich
+      attrs: [very tall, black and white plumage, male, long neck and legs]
+      setting: [African savanna, dry grass, blue sky]
+      avoid: [text, humans]
+
+  - key: animal.emu
+    hint: second-largest bird; flightless Australian ratite (Dromaius novaehollandiae)
+    image: animal.emu.png
+    brief:
+      subject: emu
+      attrs: [brown shaggy feathers, tall, long neck, standing]
+      setting: [Australian outback, red earth, blue sky]
+      avoid: [text, humans]
+
+  - key: animal.pelican
+    hint: large water bird with enormous throat pouch (Pelecanus)
+    image: animal.pelican.png
+    brief:
+      subject: great white pelican
+      attrs: [white, large orange bill with pouch, on water]
+      setting: [coastal lagoon, sunny, blue water]
+      avoid: [text, fish visible ok, humans]
+
+  - key: animal.puffin
+    hint: small seabird with colourful parrot-like bill (Fratercula arctica)
+    image: animal.puffin.png
+    brief:
+      subject: Atlantic puffin
+      attrs: [black and white, colourful triangular bill, standing on cliff]
+      setting: [rocky sea cliff, ocean backdrop, grey sky]
+      avoid: [text, humans]
+
+  - key: animal.albatross
+    hint: enormous seabird with widest wingspan of any living bird (Diomedea)
+    image: animal.albatross.png
+    brief:
+      subject: wandering albatross
+      attrs: [huge wingspan, white and black, soaring, over ocean]
+      setting: [open ocean, waves, clouds]
+      avoid: [text, humans]
+
+  - key: animal.seagull
+    hint: coastal scavenging seabird (Larus argentatus)
+    image: animal.seagull.png
+    brief:
+      subject: herring gull
+      attrs: [white and grey, yellow bill, standing or gliding, sky]
+      setting: [beach, waves, blue sky]
+      avoid: [text, humans, food]
+
+  - key: animal.hawk
+    hint: medium-sized bird of prey with sharp talons (Accipiter or Buteo)
+    image: animal.hawk.png
+    brief:
+      subject: red-tailed hawk
+      attrs: [brown and white, perched, sharp hooked beak, alert]
+      setting: [tree branch, clear sky]
+      avoid: [text, prey, blood]
+
+  - key: animal.falcon
+    hint: fast aerial hunter with pointed wings (Falco peregrinus)
+    image: animal.falcon.png
+    brief:
+      subject: peregrine falcon
+      attrs: [blue-grey, cream underparts, dark moustache mark, perched upright]
+      setting: [rocky cliff or tall building, sky]
+      avoid: [text, prey, blood]
+
+  - key: animal.woodpecker
+    hint: bird that hammers tree bark to find insects (Picidae)
+    image: animal.woodpecker.png
+    brief:
+      subject: great spotted woodpecker
+      attrs: [black white and red, clinging to trunk, bill on bark]
+      setting: [tree trunk, forest, bark texture]
+      avoid: [text, humans]
+
+  - key: animal.cuckoo
+    hint: brood-parasitic bird known for its two-note call (Cuculus canorus)
+    image: animal.cuckoo.png
+    brief:
+      subject: common cuckoo
+      attrs: [grey, barred underparts, long tail, perched]
+      setting: [forest branch, spring, green leaves]
+      avoid: [text, humans]
+
+  - key: animal.kingfisher
+    hint: jewel-coloured bird that dives for fish (Alcedo atthis)
+    image: animal.kingfisher.png
+    brief:
+      subject: common kingfisher
+      attrs: [electric blue and orange, perched over water, small, brilliant colors]
+      setting: [riverside branch, dappled light, stream]
+      avoid: [text, humans]
+
+  - key: animal.canary
+    hint: small bright yellow singing bird (Serinus canaria domestica)
+    image: animal.canary.png
+    brief:
+      subject: domestic canary
+      attrs: [bright yellow, small, perched, singing]
+      setting: [natural branch, soft light, green background]
+      avoid: [text, cage, humans]
+
+  - key: animal.nightingale
+    hint: small brown bird famous for its powerful melodious song (Luscinia megarhynchos)
+    image: animal.nightingale.png
+    brief:
+      subject: common nightingale
+      attrs: [small, brown, perched on twig, singing, plain]
+      setting: [woodland edge, dusk, green leaves]
+      avoid: [text, humans]
+
+  - key: animal.dove
+    hint: gentle symbol of peace; white or pale grey pigeon (Columba livia)
+    image: animal.dove.png
+    brief:
+      subject: white dove
+      attrs: [pure white, soft plumage, gentle, perched or in flight]
+      setting: [soft natural light, green background]
+      avoid: [text, cage, humans]
+
+  - key: animal.raven
+    hint: large all-black corvid known for intelligence (Corvus corax)
+    image: animal.raven.png
+    brief:
+      subject: common raven
+      attrs: [large, entirely black, glossy, heavy bill, perched]
+      setting: [rocky outcrop or dead tree, dramatic sky]
+      avoid: [text, dead animals]
+
+  - key: animal.magpie
+    hint: black-and-white corvid with long tail known for stealing shiny objects
+    image: animal.magpie.png
+    brief:
+      subject: Eurasian magpie
+      attrs: [black and white, long iridescent tail, perched, alert]
+      setting: [garden or field, green background]
+      avoid: [text, humans]
+
+  - key: animal.swallow
+    hint: fast aerial insectivore with forked tail (Hirundo rustica)
+    image: animal.swallow.png
+    brief:
+      subject: barn swallow
+      attrs: [blue-black back, red throat, forked tail, in flight]
+      setting: [open sky, barn or countryside, summer]
+      avoid: [text, humans]
+
+  - key: animal.condor
+    hint: enormous New World vulture with bare head (Vultur gryphus)
+    image: animal.condor.png
+    brief:
+      subject: Andean condor
+      attrs: [black, white wing patches, bald red head, soaring, huge wingspan]
+      setting: [Andean mountain thermals, blue sky, mountains]
+      avoid: [text, carrion, blood]
+
+  - key: animal.macaw
+    hint: large brilliantly coloured South American parrot (Ara genus)
+    image: animal.macaw.png
+    brief:
+      subject: scarlet macaw
+      attrs: [red blue and yellow, large, long tail, perched or flying]
+      setting: [tropical rainforest, green canopy]
+      avoid: [text, cage, humans]
+
+  - key: animal.cockatoo
+    hint: crested white parrot from Australasia (Cacatuidae)
+    image: animal.cockatoo.png
+    brief:
+      subject: sulphur-crested cockatoo
+      attrs: [white, bright yellow crest raised, large, perched]
+      setting: [eucalyptus tree, blue sky]
+      avoid: [text, cage, humans]
+
+  - key: animal.budgerigar
+    hint: small colourful parakeet popular as a pet (Melopsittacus undulatus)
+    image: animal.budgerigar.png
+    brief:
+      subject: budgerigar
+      attrs: [green and yellow, small, perched, barred wing pattern]
+      setting: [natural branch, soft light]
+      avoid: [text, cage, humans]
+
+  - key: animal.hornbill
+    hint: tropical bird with enormous casqued bill (Bucerotidae)
+    image: animal.hornbill.png
+    brief:
+      subject: great hornbill
+      attrs: [black and white, enormous yellow casqued bill, large, perched]
+      setting: [tropical forest, green, big branch]
+      avoid: [text, humans]
+
+  - key: animal.roadrunner
+    hint: fast-running ground cuckoo of North American deserts (Geococcyx)
+    image: animal.roadrunner.png
+    brief:
+      subject: greater roadrunner
+      attrs: [brown streaked, long tail, crest, running, ground bird]
+      setting: [desert scrub, dry ground, cactus]
+      avoid: [text, cartoon, humans]
+
+  - key: animal.kookaburra
+    hint: laughing kingfisher of Australia (Dacelo novaeguineae)
+    image: animal.kookaburra.png
+    brief:
+      subject: laughing kookaburra
+      attrs: [brown and white, large head, heavy bill, perched]
+      setting: [eucalyptus branch, Australian bush, sunny]
+      avoid: [text, humans]
+
+  - key: animal.lorikeet
+    hint: small brightly coloured nectar-feeding parrot (Trichoglossus)
+    image: animal.lorikeet.png
+    brief:
+      subject: rainbow lorikeet
+      attrs: [vivid red blue green yellow, small, clinging to flower, feeding]
+      setting: [tropical flower, bright colors, green leaves]
+      avoid: [text, cage, humans]
+
+  - key: animal.ibis
+    hint: long-curved-bill wading bird; sacred in ancient Egypt (Threskiornithidae)
+    image: animal.ibis.png
+    brief:
+      subject: African sacred ibis
+      attrs: [white body, black head and neck, long curved black bill, wading]
+      setting: [shallow water, reeds, blue sky]
+      avoid: [text, humans]
+
+  - key: animal.spoonbill
+    hint: wading bird with flat spoon-shaped bill (Platalea leucorodia)
+    image: animal.spoonbill.png
+    brief:
+      subject: Eurasian spoonbill
+      attrs: [white, spoon-shaped flat bill, wading, long legs]
+      setting: [shallow lagoon, pink sunrise light, reeds]
+      avoid: [text, humans]
+
+  - key: animal.secretary_bird
+    hint: long-legged African raptor that kills snakes by stomping (Sagittarius serpentarius)
+    image: animal.secretary_bird.png
+    brief:
+      subject: secretary bird
+      attrs: [grey and black, long legs, crest of black quills, standing tall]
+      setting: [open savanna, dry grass, blue sky]
+      avoid: [text, blood, snake]
+
+  - key: animal.cassowary
+    hint: dangerous flightless bird of New Guinea (Casuarius casuarius)
+    image: animal.cassowary.png
+    brief:
+      subject: southern cassowary
+      attrs: [black shaggy feathers, blue and red neck, large casque, powerful]
+      setting: [rainforest, green undergrowth]
+      avoid: [text, blood, humans]
+
+  - key: animal.lyrebird
+    hint: Australian bird with extraordinary tail and ability to mimic sounds
+    image: animal.lyrebird.png
+    brief:
+      subject: superb lyrebird
+      attrs: [brown, spectacular lyre-shaped tail displayed, male]
+      setting: [Australian forest floor, dappled light]
+      avoid: [text, humans]
+
+  - key: animal.quail
+    hint: small plump ground-nesting game bird (Coturnix coturnix)
+    image: animal.quail.png
+    brief:
+      subject: common quail
+      attrs: [small, brown streaked, plump, ground level, short tail]
+      setting: [field, wheat or grass, sunny]
+      avoid: [text, hunting, humans]
+
+  - key: animal.pheasant
+    hint: large colourful game bird (Phasianus colchicus); male has long tail
+    image: animal.pheasant.png
+    brief:
+      subject: ring-necked pheasant male
+      attrs: [vivid red face, green head, copper body, very long tail]
+      setting: [field edge, autumn, golden light]
+      avoid: [text, hunting, blood]
+

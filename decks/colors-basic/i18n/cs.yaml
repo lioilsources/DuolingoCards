@@ -42,3 +42,364 @@ cards:
     label: bílá
     summary: Nejsvětlejší barva, odraz veškerého světla.
     info: Bílá obsahuje všechny barvy viditelného spektra současně. Symbolizuje čistotu, nevinnost a nové začátky; v mnoha kulturách je barvou míru.
+
+  color.grey:
+    label: šedá
+    summary: Barva mezi černou a bílou; barva oblak a betonu.
+    info: |
+      Šedá je achromatická barva vytvořená smícháním bílé a černé.
+      Je považována za neutrální a nevtíravou.
+      V psychologii symbolizuje neutralitu, vyváženost a někdy i bezbarvost.
+      Ve svém tmavém odstínu se nazývá antracit; světlý odstín je téměř bílý.
+
+  color.beige:
+    label: béžová
+    summary: Světlá písková hnědá; teplá neutrální barva.
+    info: |
+      Béžová je světlá, teplá barva mezi bílou a zlatohnědou.
+      Pochází ze starofrancouzského slova pro přírodní vlnu.
+      Hojně se používá v interiérovém designu jako teplý neutrální základ.
+      Je blízká barvám pisku a nepálené hlíny.
+
+  color.ivory:
+    label: slonovinová
+    summary: Krémově bílá barva jako sloní kel; teplejší než čistá bílá.
+    info: |
+      Slonovinová je jemně nažloutlá, krémová bílá barva.
+      Název pochází od sloní kly (ivory).
+      Používá se v módě, designu i při popisu kůže.
+      Od čisté bílé se liší teplým nádechem; smíchání bílé s trochou žluté nebo béžové ji vytvoří.
+
+  color.cream:
+    label: krémová
+    summary: Velmi světlá žluto-bílá barva jako smetana.
+    info: |
+      Krémová barva je velmi světlý žluto-bílý odstín.
+      Název pochází od barvy čerstvé smetany (cream).
+      V interiérovém designu se používá jako teplejší alternativa čisté bílé.
+      Na škále je mezi bílou a slonovinovou.
+
+  color.maroon:
+    label: kaštanová
+    summary: Tmavá červenohnědá barva; hluboká víno-červená.
+    info: |
+      Kaštanová (maroon) je tmavá červenohnědá barva pojmenovaná po kaštanu (marrón ve španělštině).
+      Je populární barvou v módě, sportovních dresech a uniformách.
+      V angličtině se slovo maroon používá i pro člověka uvězněného na pustém ostrově.
+      Od bordó se liší méně purpurovým nádechem; od tmavě červené méně tmavostí.
+
+  color.navy:
+    label: námořnická modrá
+    summary: Velmi tmavá modrá jako noční oceán.
+    info: |
+      Námořnická modrá (navy) je velmi tmavá modrá barva.
+      Název pochází od uniforem britského Royal Navy (Královského námořnictva) z 18. stol.
+      Je jednou z nejpopulárnějších základních barev v módě a formálním oblékání.
+      Kombinuje se dobře s bílou, béžovou a zlatou.
+
+  color.teal:
+    label: modrozelená
+    summary: Modrá se zeleným nádechem jako barva moře.
+    info: |
+      Modrozelená (teal) je barva pojmenovaná po kreji obecném (Anas crecca), jehož křídla jsou v tomto odstínu.
+      Je to barva v horní části tyrkysového spektra.
+      Populární v grafickém designu jako kontrastní barva k oranžové.
+      Rychlostní zkratka v CSS: #008080.
+
+  color.turquoise:
+    label: tyrkysová
+    summary: Živá modrozelená jako tropická voda.
+    info: |
+      Tyrkysová je živá modrozelená barva pojmenovaná po polodrahokamu tyrkys.
+      Kameny tyrkys byly ceněny v starověkém Egyptě, Persii a Americe.
+      Je barva tropického moře, mořských ledu nebo nebe za jasného dne.
+      V designu se používá pro čistou, osvěžující a moderní estetiku.
+
+  color.lime:
+    label: limetková
+    summary: Živá žlutozelená barva jako limetky.
+    info: |
+      Limetková (lime) je jasná, sytá žluto-zelená barva pojmenovaná po citrusu limeta.
+      Je výraznější než listová zeleň; obsahuje více žlutého nádece.
+      Hojně se používá v grafickém designu jako akcent a call-to-action barva.
+      Bezpečnostní vesty jsou obvykle limetkové kvůli vysoké viditelnosti.
+
+  color.olive:
+    label: olivová
+    summary: Matná žlutozelená barva jako olivy.
+    info: |
+      Olivová je tlumená žluto-zelená barva pojmenovaná po olivovníku (Olea europaea).
+      Je klasickou vojenskou a kempingovou barvou díky maskování v přírodním prostředí.
+      V módě je tradiční barvou armádního (military) stylu.
+      Kombinuje se dobře s béžovou, hnědou a kaštanovou.
+
+  color.gold:
+    label: zlatá
+    summary: Hluboká zářivá žlutá jako drahý kov zlato.
+    info: |
+      Zlatá je barva evokující drahý kov zlato.
+      Symbolizuje bohatství, prestiž, úspěch a vznešenost.
+      V heraldice je jednou ze dvou kovů (zlato a stříbro) přímo používaných v erbu.
+      Goldová medaile symbolizuje nejvyšší výkon v soutěžích a olympiádách.
+
+  color.silver:
+    label: stříbrná
+    summary: Lesklá šedavá barva jako kov stříbro.
+    info: |
+      Stříbrná je metalická barva evokující drahý kov stříbro.
+      Symbolizuje modernitu, eleganci, technologii a průmyslový design.
+      V heraldice je druhým kovem; v olympiádách symbolizuje druhé místo.
+      Auto se stříbrným lakováním je nejpopulárnější barvou auta v mnoha zemích.
+
+  color.copper:
+    label: měděná
+    summary: Červenohnědá metalická barva jako kov měď.
+    info: |
+      Měděná je červenohnědá barva kovového lesku evokující kov měď (Cuprum).
+      Měď byla jedním z prvních kovů zpracovávaných lidmi, v době měděné (chalkolitu).
+      Staré měděné střechy zzelenají oxidací (patinou); zelená měď je tyrkysová.
+      Měděné vlasy (auburn) jsou populárním opisem pro ryšavé vlasy.
+
+  color.bronze:
+    label: bronzová
+    summary: Tmavá zlatohnědá metalická barva jako kov bronz.
+    info: |
+      Bronzová je tmavě zlatohnědá metalická barva evokující slitinu mědi a cínu.
+      Doba bronzová (cca 3300-1200 př. n. l.) je nazvána po tomto kovu.
+      V olympijských hrách symbolizuje třetí místo (bronzová medaile).
+      Bronzové sochy jsou typické pro veřejná prostranství.
+
+  color.coral:
+    label: korálová
+    summary: Živá pinkově-oranžová barva jako mořský korál.
+    info: |
+      Korálová je teplá živá barva mezi oranžovou a růžovou pojmenovaná po mořských korálech.
+      Je velmi populární v letní módě a interiérovém designu.
+      Pantone ji vyhlásilo jako barvu roku 2019 pod názvem Living Coral.
+      Kombinuje se dobře s tyrkysovou, bílou a zlatou.
+
+  color.salmon:
+    label: lososová
+    summary: Světlá pinkově-oranžová barva jako maso lososa.
+    info: |
+      Lososová je jemná pinkově-oranžová barva pojmenovaná po barvě masa lososa.
+      Je teplejší a světlejší než korálová.
+      Hojně se používá v módě jako jemná alternativa k růžové.
+      V interiérovém designu působí teplým a přívětivým dojmem.
+
+  color.rose:
+    label: růžová
+    summary: Jemná pink-červená jako okvětní lístek růže.
+    info: |
+      Růžová (rose) je jemná červenorůžová barva pojmenovaná po květu růže.
+      Liší se od světle růžové (pink): rose je tmavší a více červená.
+      Samuel Beckett: Neni žádná barva přirozená pro srdce jako růžová.
+      V heraldice se rose (heraldická růže) objevuje v erbu anglického království.
+
+  color.magenta:
+    label: purpurová
+    summary: Živá purpurová-pink barva; mezi červenou a modrou.
+    info: |
+      Purpurová (magenta) je živá barva mezi červenou a modrou bez odpovídající vlnové délky ve viditelném spektru.
+      Název pochází od bitvy u Magenty (1859) v Itálii.
+      Je jednou ze základních barev v CMYK tisku (C-M-Y-K: cyan, magenta, yellow, key).
+      Nejde ji najít v duze; vzniká, když mozek smíchá červenou a modrou.
+
+  color.violet:
+    label: fialová
+    summary: Modrá-fialová barva; na konci viditelného spektra.
+    info: |
+      Fialová (violet) je barva na konci viditelného spektra s vlnovou délkou přibližně 380-420 nm.
+      Je pojmenována po květině violka (Viola).
+      V chápání barev se od purpurové liší: fialová je blíže modré, purpurová je mezi červenou a modrou.
+      V minulosti byla fialová barviva velmi vzácná a drahá; fialové roucho nosili jen panovníci.
+
+  color.indigo:
+    label: indigová
+    summary: Temná modrofialová barva jako indigo barvivo.
+    info: |
+      Indigová je hluboká modrofialová barva pojmenovaná po barvicí látce indigo (z rostliny Indigofera).
+      Po celé tisíce let bylo indigo jednou z nejcennějších barvicích látek.
+      Je jednou ze sedmi barev duhy (ROYGBIV: red, orange, yellow, green, blue, indigo, violet).
+      V moderním chápání je indigová blízká tmavé modré.
+
+  color.lavender:
+    label: levandulová
+    summary: Velmi světlá fialová barva jako levandulové kvítky.
+    info: |
+      Levandulová je jemná světle fialová barva pojmenovaná po bylině levanduli (Lavandula).
+      Evokuje klid, čistotu a provensálské krajiny Francie.
+      V aromaterapii jsou levandulové vůně spojovány s relaxací a spánkem.
+      Je populární v designu pokojů pro děti a v spa estetice.
+
+  color.mint:
+    label: mátová
+    summary: Velmi světlá zelená barva jako lístky máty.
+    info: |
+      Mátová je svěží světlé zelená barva pojmenovaná po bylině máta (Mentha).
+      Evokuje čistotu, svěžest a chladivost.
+      Je populární barvou v moderním interiérovém designu a retro estetice (50. léta).
+      Mátová zmrzlina nebo mátový čaj jsou typickými asociacemi.
+
+  color.khaki:
+    label: khaki
+    summary: Matná světle hnědožlutá barva; vojenský terénní odstín.
+    info: |
+      Khaki je tlumená světle hnědožlutá barva popularizovaná britskou armádou v Indii v 19. stol.
+      Slovo pochází z urdštiny/hindštiny: khak = prach, bláto.
+      Je základní barvou vojenských uniforem a terénního oblečení.
+      Khaki kalhoty jsou od 90. let 20. stol. módním evergreenovým základem.
+
+  color.tan:
+    label: pískovaná
+    summary: Světle hnědá barva jako opálená kůže.
+    info: |
+      Pískovaná (tan) je světle hnědá barva připomínající zemi nebo opálenou kůži.
+      Název pochází ze zpracování kůže pomocí třísla (tanning).
+      Je blízká béžové, ale mírně tmavší a více žlutohnědá.
+      Hojně se používá v módě kožených doplňků, bot a kabátů.
+
+  color.amber:
+    label: jantarová
+    summary: Teplá zlatooranžová barva jako minerál jantar.
+    info: |
+      Jantarová je teplá zlatooranžová barva pojmenovaná po minerálu jantar (zkamenelá pryskyřice).
+      Jantar byl v pravěku ceněn jako dekorační a duchovní materiál.
+      Jantarové signální světlo (žlutá na semaforu) je universálně symbolem opatrnosti.
+      Předlohové inkluse v jantaru jsou vzácné fosílie organizmů starých až 100 milionů let.
+
+  color.crimson:
+    label: karmínová
+    summary: Hluboká sytá červená barva; tmavší než šarlatová.
+    info: |
+      Karmínová je hluboká, živá červená barva pojmenovaná po karmínu, červeném barvičním pigmentu.
+      Karmín se tradičně vyráběl z červce nopálového (Dactylopius coccus).
+      Je barvou harvardské univerzity (Harvard Crimson).
+      V heraldice se označuje jako gules.
+
+  color.scarlet:
+    label: šarlatová
+    summary: Jasná červenooranžová barva; světlejší než karmínová.
+    info: |
+      Šarlatová je jasná červenooranžová barva pojmenovaná po barvicí látce šarlach.
+      Je o trochu světlejší a více oranžová než karmínová.
+      V historii označovala luxusní červené látky.
+      Šarlatové písmeno (The Scarlet Letter, Hawthorne) je symbolem hanby.
+
+  color.cobalt:
+    label: kobaltová
+    summary: Živá středně tmavá modrá jako kobaltový pigment.
+    info: |
+      Kobaltová modrá je živá, sytá modrá barva pojmenovaná po chemickém prvku kobalt (Co).
+      Kobaltová modř byla jedním z nejpopulárnějších modrých pigmentů 19. stol. malby.
+      Používá se v keramice, skle a výtvarném umění.
+      Byla oblíbenou barvou Vincenta van Gogha.
+
+  color.aqua:
+    label: aqua
+    summary: Jasná modrozelená barva jako čistá voda.
+    info: |
+      Aqua je jasná modrozelená barva; v HTML a CSS jsou aqua a cyan synonymem (#00FFFF).
+      Název pochází z latiny: aqua = voda.
+      Evokuje tropické moře, bazény a svěžest.
+      Hojně se používá v grafickém designu jako kontrastní barva pro moderní rozhraní.
+
+  color.chartreuse:
+    label: žlutozelená
+    summary: Živá barva mezi žlutou a zelenou.
+    info: |
+      Chartreusse (žlutozelená) je živá barva přesně mezi žlutou a zelenou ve spektru.
+      Název pochází od bylinného likéru Chartreuse ze stejnojmenného francouzského kláštera.
+      Je jednou z nejlépe viditelných barev pro lidské oko.
+      Pilotní vesty a sportovní označení bývají v chartreuse pro maximální viditelnost.
+
+  color.mauve:
+    label: lila
+    summary: Tlumená purpurová-pink; prašná lilavá barva.
+    info: |
+      Lila (mauve) je jemná tlumená purpurová-pink barva.
+      Název pochází z francouzštiny (mauve = slézovník, Malva sylvestris).
+      Byla první synteticky vyrobená barvicí látka (anilinová fialová, William Perkin, 1856).
+      Je populární v vintage a viktoriánské estetice.
+
+  color.periwinkle:
+    label: periwinkle modrá
+    summary: Světlá modrofialová barva jako květ brčálu.
+    info: |
+      Periwinkle je světlá modrofialová barva pojmenovaná po květině brčál menší (Vinca minor).
+      Je v pomezí světle modré a levandulové.
+      Populární v módě a dekoraci jako jemná, romantická barva.
+      V HTML: přibližně #CCCCFF.
+
+  color.fuchsia:
+    label: fuchsiová
+    summary: Živá purpurová-pink barva jako květ fuchsie.
+    info: |
+      Fuchsiová je živá purpurová-pink barva pojmenovaná po rostlině fuchsie (Fuchsia).
+      Rostlina je pojmenována po německém botaniku Leonhartu Fuchsovi (1501-1566).
+      V CSS a HTML je fuchsia synonymem pro magenta (#FF00FF).
+      Je extravagantní barvou asociovanou s módou, 80. léty a popovým uměním.
+
+  color.cyan:
+    label: azurová
+    summary: Živá modrozelená barva; jedna ze základních barev tisku.
+    info: |
+      Azurová (cyan) je živá modrozelená barva; v RGB modelu má hodnotu R:0, G:255, B:255.
+      Je jednou ze čtyř základních barev CMYK tisku (C = cyan).
+      V přírodě se vyskytuje jako barva mělkého tropického moře za jasného dne.
+      Byla také základní barvou počítačových terminálů éry CRT monitorů.
+
+  color.vermillion:
+    label: rumělková
+    summary: Živá červenooranžová barva jako rumělka.
+    info: |
+      Rumělková (vermillion) je živá červenooranžová barva pojmenovaná po minerálu rumělka (cinnabar, HgS).
+      Byla jedním z nejpoužívanějších červených pigmentů v historii.
+      Cínská rumělka je toxický minerál (rtuť); dnes se synteticky nahrazuje.
+      Je typická barva čínských laků, japonských chrámů a pravoslavných ikon.
+
+  color.ochre:
+    label: okrová
+    summary: Zemitá žlutohnědá barva jako přírodní pigment okr.
+    info: |
+      Okrová je zemitá žlutohnědá barva pojmenovaná po pigmentu okr (železitý hydroxid).
+      Jde o jeden z nejstarších pigmentů; pravěcí lidé ho používali v jeskynním malování.
+      V přírodě se nachází jako okrový kámen v zemině.
+      Vyskytuje se v paleolitických malbách v Altamiře, Lascaux a dalších jeskyních.
+
+  color.sienna:
+    label: sienská hněď
+    summary: Červenohnědá zemitá barva jako pigment siena.
+    info: |
+      Sienská hněď je zemitá červenohnědá barva pojmenovaná po italském městě Siena.
+      Raw sienna je žluto-hnědá; burnt sienna (pálená) je červenohnědá.
+      Je oblíbenou barvou renesančních maleb a teplou zemitou barvou přírody.
+      Používá se v akvarelech jako základní teplá hnědá barva.
+
+  color.azure:
+    label: azurová modrá
+    summary: Jasná nebeská modrá jako letní obloha.
+    info: |
+      Azurová modrá (azure) je jasná, živá barva oblohy; pojmenovaná po minerálu lazurit (lapis lazuli).
+      Je součástí erbu řady zemí (Francie, Izrael, Finsko).
+      Lazurit byl v renesanci dražší než zlato a používal se pro modré pláště Madony.
+      Azure je barvou Microsoftu pro cloudovou platformu Azure.
+
+  color.charcoal:
+    label: antracitová
+    summary: Velmi tmavá šedá barva jako dřevěné uhlí.
+    info: |
+      Antracitová (charcoal) je velmi tmavá šedá barva téměř černá, jako dřevěné uhlí (charcoal).
+      Je populární v moderním interiérovém designu jako alternativa k černé.
+      V módě je základní neutrální barva vhodná pro formální oblékání.
+      Antracitová košile nebo oblek působí elegantněji než černá.
+
+  color.burgundy:
+    label: burgundská
+    summary: Tmavá vínovočervená barva jako červené víno z Burgundska.
+    info: |
+      Burgundská je tmavá červeno-purpurová barva pojmenovaná po vinařském regionu Burgundsko (Bourgogne) ve Francii.
+      Evokuje červené víno, luxus a bohatství.
+      V módě je jednou z nejoblíbenějších podzimních barev.
+      Kombinuje se dobře se zlatou, béžovou a námořnickou modrou.
+

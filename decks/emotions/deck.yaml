@@ -80,3 +80,382 @@ cards:
       attrs: [gentle smile, relaxed eyes, peaceful expression, hands resting]
       setting: [soft mint green background, simple, centered]
       avoid: [text, angry expression, stressed pose, chaotic background]
+
+  - key: emotion.bored
+    hint: feeling uninterested and without anything to engage with
+    image: emotion.bored.png
+    brief:
+      subject: cartoon character bored
+      attrs: [yawning, droopy eyes, slouching, uninterested]
+      setting: [simple background, cartoon style]
+      avoid: [text]
+
+  - key: emotion.confused
+    hint: feeling uncertain or unable to understand something
+    image: emotion.confused.png
+    brief:
+      subject: cartoon character confused
+      attrs: [head tilted, question marks around, furrowed brows, puzzled]
+      setting: [simple background, cartoon style]
+      avoid: [text]
+
+  - key: emotion.disgusted
+    hint: feeling strong revulsion or distaste
+    image: emotion.disgusted.png
+    brief:
+      subject: cartoon character disgusted
+      attrs: [nose wrinkled, grimacing, tongue out, recoiling]
+      setting: [simple background, cartoon style]
+      avoid: [text, vomit]
+
+  - key: emotion.embarrassed
+    hint: feeling self-conscious and ashamed in a social situation
+    image: emotion.embarrassed.png
+    brief:
+      subject: cartoon character embarrassed
+      attrs: [red face, covering face with hands, hunched, blushing]
+      setting: [simple background, cartoon style]
+      avoid: [text]
+
+  - key: emotion.proud
+    hint: feeling satisfied with one's achievements; chest puffed out
+    image: emotion.proud.png
+    brief:
+      subject: cartoon character proud
+      attrs: [chest puffed out, standing tall, big smile, hands on hips]
+      setting: [simple background, cartoon style]
+      avoid: [text]
+
+  - key: emotion.jealous
+    hint: "feeling envious of someone else's advantages (green is the colour of envy)"
+    image: emotion.jealous.png
+    brief:
+      subject: cartoon character jealous
+      attrs: [green tinge, side-eyes, frowning, arms crossed]
+      setting: [simple background, cartoon style]
+      avoid: [text]
+
+  - key: emotion.lonely
+    hint: feeling sad because of lacking company
+    image: emotion.lonely.png
+    brief:
+      subject: cartoon character lonely
+      attrs: [sitting alone, knees drawn up, single tear, sad expression]
+      setting: [simple background, dark or empty feel, cartoon]
+      avoid: [text]
+
+  - key: emotion.grateful
+    hint: feeling thankful and appreciative
+    image: emotion.grateful.png
+    brief:
+      subject: cartoon character grateful
+      attrs: [hands clasped, warm smile, glowing, eyes soft]
+      setting: [warm background, simple cartoon]
+      avoid: [text]
+
+  - key: emotion.hopeful
+    hint: feeling optimistic about the future; a hint of a smile
+    image: emotion.hopeful.png
+    brief:
+      subject: cartoon character hopeful
+      attrs: [looking up, small smile, hands together, dreamy expression]
+      setting: [soft warm light, simple background]
+      avoid: [text]
+
+  - key: emotion.worried
+    hint: feeling anxious about possible problems; furrowed brow
+    image: emotion.worried.png
+    brief:
+      subject: cartoon character worried
+      attrs: [biting lip, furrowed brow, sweating, wringing hands]
+      setting: [simple background, cartoon style]
+      avoid: [text]
+
+  - key: emotion.frustrated
+    hint: feeling annoyed when unable to achieve something
+    image: emotion.frustrated.png
+    brief:
+      subject: cartoon character frustrated
+      attrs: [gritting teeth, fists clenched, steam from head, red face]
+      setting: [simple background, cartoon style]
+      avoid: [text]
+
+  - key: emotion.relieved
+    hint: feeling reassured after tension or anxiety has passed
+    image: emotion.relieved.png
+    brief:
+      subject: cartoon character relieved
+      attrs: [exhaling, hand on chest, eyes closed briefly, tension released]
+      setting: [simple background, warm light]
+      avoid: [text]
+
+  - key: emotion.amused
+    hint: feeling lightly entertained or tickled; smirking
+    image: emotion.amused.png
+    brief:
+      subject: cartoon character amused
+      attrs: [smirk, one eyebrow raised, chuckling, relaxed]
+      setting: [simple background, cartoon]
+      avoid: [text]
+
+  - key: emotion.nostalgic
+    hint: feeling sentimental about the past
+    image: emotion.nostalgic.png
+    brief:
+      subject: cartoon character nostalgic
+      attrs: [dreamy expression, looking at old photo or memory, soft smile, teary eye]
+      setting: [warm sepia-toned background, simple cartoon]
+      avoid: [text]
+
+  - key: emotion.curious
+    hint: feeling eager to know or learn something
+    image: emotion.curious.png
+    brief:
+      subject: cartoon character curious
+      attrs: [leaning forward, wide eyes, finger on chin, eager]
+      setting: [simple background, cartoon]
+      avoid: [text]
+
+  - key: emotion.confident
+    hint: feeling sure of one's abilities; bold posture
+    image: emotion.confident.png
+    brief:
+      subject: cartoon character confident
+      attrs: [standing straight, strong posture, smiling broadly, arms out]
+      setting: [bright background, simple cartoon]
+      avoid: [text]
+
+  - key: emotion.anxious
+    hint: feeling nervously worried; fidgeting
+    image: emotion.anxious.png
+    brief:
+      subject: cartoon character anxious
+      attrs: [fidgeting, sweating, wide eyes, biting nails]
+      setting: [simple background, slightly chaotic cartoon]
+      avoid: [text]
+
+  - key: emotion.cheerful
+    hint: feeling noticeably happy and optimistic
+    image: emotion.cheerful.png
+    brief:
+      subject: cartoon character cheerful
+      attrs: [big grin, bright eyes, bouncy posture, arms spread]
+      setting: [sunny bright background, cartoon]
+      avoid: [text]
+
+  - key: emotion.melancholy
+    hint: feeling a pensive sadness; wistful
+    image: emotion.melancholy.png
+    brief:
+      subject: cartoon character melancholy
+      attrs: [gazing out window, soft sad expression, single tear, introspective]
+      setting: [rainy window, blue-grey tones, simple cartoon]
+      avoid: [text]
+
+  - key: emotion.disappointed
+    hint: feeling let down when expectations are not met
+    image: emotion.disappointed.png
+    brief:
+      subject: cartoon character disappointed
+      attrs: [slouched, downward mouth, shaking head, eyes down]
+      setting: [simple background, muted colours, cartoon]
+      avoid: [text]
+
+  - key: emotion.content
+    hint: feeling peaceful satisfaction; not excited but quietly happy
+    image: emotion.content.png
+    brief:
+      subject: cartoon character content
+      attrs: [gentle smile, relaxed posture, eyes half-closed, serene]
+      setting: [warm soft background, simple cartoon]
+      avoid: [text]
+
+  - key: emotion.nervous
+    hint: feeling unease before an event; butterflies in stomach
+    image: emotion.nervous.png
+    brief:
+      subject: cartoon character nervous
+      attrs: [fidgeting feet, hand on stomach, wide eyes, pale]
+      setting: [simple background, slight sweat, cartoon]
+      avoid: [text]
+
+  - key: emotion.loving
+    hint: feeling deep affection; heart eyes
+    image: emotion.loving.png
+    brief:
+      subject: cartoon character in love
+      attrs: [heart eyes, warm blush, dreamy smile, hands on heart]
+      setting: [soft pink background, hearts floating, cartoon]
+      avoid: [text]
+
+  - key: emotion.shocked
+    hint: feeling sudden astonishment; jaw dropped
+    image: emotion.shocked.png
+    brief:
+      subject: cartoon character shocked
+      attrs: [jaw dropped, eyes wide, hand over mouth, frozen]
+      setting: [simple background, cartoon, dramatic]
+      avoid: [text]
+
+  - key: emotion.determined
+    hint: feeling resolute and focused on a goal
+    image: emotion.determined.png
+    brief:
+      subject: cartoon character determined
+      attrs: [serious face, clenched fist raised, forward-leaning, intense gaze]
+      setting: [simple background, strong colours, cartoon]
+      avoid: [text]
+
+  - key: emotion.shy
+    hint: feeling nervous or timid in social situations
+    image: emotion.shy.png
+    brief:
+      subject: cartoon character shy
+      attrs: [head down, hands fidgeting, peeking up, blushing]
+      setting: [simple background, soft colours, cartoon]
+      avoid: [text]
+
+  - key: emotion.guilty
+    hint: feeling remorseful after doing something wrong
+    image: emotion.guilty.png
+    brief:
+      subject: cartoon character guilty
+      attrs: [looking down, hands behind back, biting lip, guilty expression]
+      setting: [simple background, muted tones, cartoon]
+      avoid: [text]
+
+  - key: emotion.overwhelmed
+    hint: feeling swamped with too much at once
+    image: emotion.overwhelmed.png
+    brief:
+      subject: cartoon character overwhelmed
+      attrs: [hands on head, papers or tasks flying, stressed expression, wide eyes]
+      setting: [chaotic background, cartoon]
+      avoid: [text]
+
+  - key: emotion.peaceful
+    hint: feeling calm and free from disturbance
+    image: emotion.peaceful.png
+    brief:
+      subject: cartoon character peaceful
+      attrs: [eyes closed, serene smile, hands in lap, relaxed]
+      setting: [nature background or soft white, simple cartoon]
+      avoid: [text]
+
+  - key: emotion.playful
+    hint: feeling lively and wanting to have fun
+    image: emotion.playful.png
+    brief:
+      subject: cartoon character playful
+      attrs: [grinning mischievously, winking, fingers pointing, bouncy posture]
+      setting: [colourful background, simple cartoon]
+      avoid: [text]
+
+  - key: emotion.serious
+    hint: feeling solemn and not joking; focused
+    image: emotion.serious.png
+    brief:
+      subject: cartoon character serious
+      attrs: [straight face, arms crossed or firm posture, steady gaze, no smile]
+      setting: [simple dark background, cartoon]
+      avoid: [text]
+
+  - key: emotion.upset
+    hint: feeling unhappy and disturbed
+    image: emotion.upset.png
+    brief:
+      subject: cartoon character upset
+      attrs: [mouth down, tears forming, hugging self, distressed]
+      setting: [simple background, muted tones, cartoon]
+      avoid: [text]
+
+  - key: emotion.amazed
+    hint: feeling astonishment and wonder
+    image: emotion.amazed.png
+    brief:
+      subject: cartoon character amazed
+      attrs: [eyes huge, mouth O shape, starry eyes, hands to cheeks]
+      setting: [sparkles around, simple background, cartoon]
+      avoid: [text]
+
+  - key: emotion.annoyed
+    hint: feeling mildly irritated by something
+    image: emotion.annoyed.png
+    brief:
+      subject: cartoon character annoyed
+      attrs: [rolling eyes, arms folded, frown, tapping foot]
+      setting: [simple background, cartoon]
+      avoid: [text]
+
+  - key: emotion.delighted
+    hint: feeling great pleasure; stronger than happy
+    image: emotion.delighted.png
+    brief:
+      subject: cartoon character delighted
+      attrs: [jumping for joy, starry eyes, huge grin, hands raised]
+      setting: [bright joyful background, cartoon]
+      avoid: [text]
+
+  - key: emotion.hopeless
+    hint: feeling no hope; despair
+    image: emotion.hopeless.png
+    brief:
+      subject: cartoon character hopeless
+      attrs: [slouched totally, empty eyes, head in hands, grey tones]
+      setting: [dark simple background, muted cartoon]
+      avoid: [text]
+
+  - key: emotion.inspired
+    hint: feeling creative excitement and motivation
+    image: emotion.inspired.png
+    brief:
+      subject: cartoon character inspired
+      attrs: [light bulb above head, bright eyes, ideas floating, energised posture]
+      setting: [colourful sparkling background, cartoon]
+      avoid: [text]
+
+  - key: emotion.irritated
+    hint: feeling slightly angry; on edge
+    image: emotion.irritated.png
+    brief:
+      subject: cartoon character irritated
+      attrs: [clenched teeth, frown, one eye twitching, slightly red]
+      setting: [simple background, cartoon]
+      avoid: [text]
+
+  - key: emotion.joyful
+    hint: feeling intense happiness; exuberant
+    image: emotion.joyful.png
+    brief:
+      subject: cartoon character joyful
+      attrs: [leaping, huge smile, arms wide, confetti around]
+      setting: [colourful festive background, cartoon]
+      avoid: [text]
+
+  - key: emotion.miserable
+    hint: feeling extreme unhappiness
+    image: emotion.miserable.png
+    brief:
+      subject: cartoon character miserable
+      attrs: [slumped, rain cloud above head, frowning deeply, tears]
+      setting: [grey rainy background, simple cartoon]
+      avoid: [text]
+
+  - key: emotion.optimistic
+    hint: feeling hopeful about the future; expecting good things
+    image: emotion.optimistic.png
+    brief:
+      subject: cartoon character optimistic
+      attrs: [sunny disposition, thumbs up, wide smile, bright eyes]
+      setting: [sunny background, simple cartoon]
+      avoid: [text]
+
+  - key: emotion.pessimistic
+    hint: expecting the worst; a dark cloud overhead
+    image: emotion.pessimistic.png
+    brief:
+      subject: cartoon character pessimistic
+      attrs: [frown, storm cloud overhead, slumped posture, arms crossed]
+      setting: [grey background, simple cartoon]
+      avoid: [text]
+

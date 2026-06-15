@@ -1,0 +1,377 @@
+  - key: body.arm
+    hint: the upper limb of the human body from shoulder to wrist (brachium + antebrachium)
+    image: body.arm.png
+    brief:
+      subject: cartoon human arm, side view
+      attrs: [simple cartoon style, full arm with elbow, clean lines]
+      setting: [white background, centered, clean]
+      avoid: [text, hand included, shoulder included, realistic]
+
+  - key: body.leg
+    hint: the lower limb of the human body from hip to ankle (membrum inferius)
+    image: body.leg.png
+    brief:
+      subject: cartoon human leg, side view
+      attrs: [simple cartoon style, full leg with knee, clean lines]
+      setting: [white background, centered, clean]
+      avoid: [text, foot included, hip included, realistic]
+
+  - key: body.knee
+    hint: the joint in the middle of the leg (genu)
+    image: body.knee.png
+    brief:
+      subject: cartoon human knee joint, front or side view
+      attrs: [simple cartoon style, knee highlighted with colour, rounded kneecap visible]
+      setting: [white background, centered, clean]
+      avoid: [text, full leg, realistic anatomy]
+
+  - key: body.elbow
+    hint: the joint in the middle of the arm (cubitus)
+    image: body.elbow.png
+    brief:
+      subject: cartoon human elbow, arm bent at right angle
+      attrs: [simple cartoon style, elbow highlighted, bent arm position]
+      setting: [white background, centered, clean]
+      avoid: [text, full arm, realistic anatomy]
+
+  - key: body.shoulder
+    hint: the joint connecting the arm to the trunk (articulatio humeri)
+    image: body.shoulder.png
+    brief:
+      subject: cartoon human shoulder, front view
+      attrs: [simple cartoon style, shoulder joint highlighted, rounded shape]
+      setting: [white background, centered, clean]
+      avoid: [text, neck, arm, full body, realistic]
+
+  - key: body.neck
+    hint: the part of the body connecting the head to the trunk (cervix)
+    image: body.neck.png
+    brief:
+      subject: cartoon human neck, front view
+      attrs: [simple cartoon style, neck between head and shoulders, clean lines]
+      setting: [white background, centered, clean]
+      avoid: [text, full body, realistic anatomy]
+
+  - key: body.chest
+    hint: the front of the thorax, the area over the heart and lungs (thorax)
+    image: body.chest.png
+    brief:
+      subject: cartoon human chest, front view
+      attrs: [simple cartoon style, chest area highlighted, clean lines]
+      setting: [white background, centered, clean]
+      avoid: [text, full body, realistic, internal organs]
+
+  - key: body.back
+    hint: the posterior side of the torso (dorsum)
+    image: body.back.png
+    brief:
+      subject: cartoon human back, rear view
+      attrs: [simple cartoon style, back of torso visible, spine line suggested]
+      setting: [white background, centered, clean]
+      avoid: [text, full body, front view, realistic]
+
+  - key: body.stomach
+    hint: the front of the abdomen, colloquially the belly (abdomen)
+    image: body.stomach.png
+    brief:
+      subject: cartoon human belly, front view
+      attrs: [simple cartoon style, belly area highlighted, belly button visible, clean lines]
+      setting: [white background, centered, clean]
+      avoid: [text, internal stomach organ, full body, realistic]
+
+  - key: body.hip
+    hint: the lateral area of the pelvis, the joint between trunk and leg (coxa)
+    image: body.hip.png
+    brief:
+      subject: cartoon human hip area, front view
+      attrs: [simple cartoon style, hip area highlighted, curved pelvis shape]
+      setting: [white background, centered, clean]
+      avoid: [text, full body, realistic anatomy]
+
+  - key: body.finger
+    hint: one of the four longer digits on the hand (digitus manus)
+    image: body.finger.png
+    brief:
+      subject: cartoon index finger pointing up
+      attrs: [single finger, pointing upward, simple cartoon style, clean lines]
+      setting: [white background, centered, clean]
+      avoid: [text, whole hand, thumb, realistic]
+
+  - key: body.thumb
+    hint: the short thick first digit of the hand (pollex)
+    image: body.thumb.png
+    brief:
+      subject: cartoon thumb pointing up (thumbs-up gesture)
+      attrs: [simple cartoon style, thumb up, clean lines, fist below thumb]
+      setting: [white background, centered, clean]
+      avoid: [text, whole hand, other fingers, realistic]
+
+  - key: body.toe
+    hint: one of the five digits of the foot (digitus pedis)
+    image: body.toe.png
+    brief:
+      subject: cartoon foot with highlighted big toe
+      attrs: [simple cartoon style, foot from above, big toe highlighted with colour, five toes visible]
+      setting: [white background, centered, clean]
+      avoid: [text, full leg, shoe, realistic]
+
+  - key: body.wrist
+    hint: the joint connecting the hand to the forearm (carpus)
+    image: body.wrist.png
+    brief:
+      subject: cartoon human wrist, front view
+      attrs: [simple cartoon style, wrist area highlighted with colour, hand partially visible]
+      setting: [white background, centered, clean]
+      avoid: [text, full arm, watch, realistic]
+
+  - key: body.ankle
+    hint: the joint connecting the foot to the leg (talus)
+    image: body.ankle.png
+    brief:
+      subject: cartoon human ankle, side view
+      attrs: [simple cartoon style, ankle area highlighted with colour, foot partially visible]
+      setting: [white background, centered, clean]
+      avoid: [text, shoe, sock, full leg, realistic]
+
+  - key: body.heel
+    hint: the back of the foot below the ankle (calx)
+    image: body.heel.png
+    brief:
+      subject: cartoon human foot showing heel, side view
+      attrs: [simple cartoon style, heel highlighted, rounded back of foot]
+      setting: [white background, centered, clean]
+      avoid: [text, shoe, sock, realistic]
+
+  - key: body.palm
+    hint: the inner surface of the hand (palma manus)
+    image: body.palm.png
+    brief:
+      subject: cartoon human palm facing viewer
+      attrs: [simple cartoon style, open hand palm up, fingers visible, palm lines suggested]
+      setting: [white background, centered, clean]
+      avoid: [text, back of hand, realistic, fingers bent]
+
+  - key: body.forehead
+    hint: the area of the face above the eyes and below the hairline (frons)
+    image: body.forehead.png
+    brief:
+      subject: cartoon human forehead, front view
+      attrs: [simple cartoon style, forehead highlighted with colour, face partially shown, hairline above]
+      setting: [white background, centered, clean]
+      avoid: [text, full face, realistic]
+
+  - key: body.chin
+    hint: the lower part of the face below the mouth (mentum)
+    image: body.chin.png
+    brief:
+      subject: cartoon face with chin highlighted
+      attrs: [simple cartoon style, chin area highlighted with colour, lower face visible]
+      setting: [white background, centered, clean]
+      avoid: [text, full face, beard, realistic]
+
+  - key: body.cheek
+    hint: the fleshy side of the face below the eye (bucca)
+    image: body.cheek.png
+    brief:
+      subject: cartoon face with cheek highlighted
+      attrs: [simple cartoon style, one cheek highlighted in pink or colour, round face, smiling]
+      setting: [white background, centered, clean]
+      avoid: [text, full face, realistic]
+
+  - key: body.tongue
+    hint: the muscular organ in the mouth used for taste and speech (lingua)
+    image: body.tongue.png
+    brief:
+      subject: cartoon open mouth showing tongue
+      attrs: [simple cartoon style, mouth wide open, pink tongue visible, clean lines]
+      setting: [white background, centered, clean]
+      avoid: [text, teeth, realistic anatomy]
+
+  - key: body.tooth
+    hint: one of the hard white structures in the mouth used for chewing (dens)
+    image: body.tooth.png
+    brief:
+      subject: cartoon single tooth
+      attrs: [simple cartoon style, single white tooth, rounded shape, cute]
+      setting: [white background, centered, clean]
+      avoid: [text, full mouth, realistic, dentures]
+
+  - key: body.lip
+    hint: the two fleshy edges of the mouth (labium oris)
+    image: body.lip.png
+    brief:
+      subject: cartoon lips, front view
+      attrs: [simple cartoon style, upper and lower lips, rosy pink, closed smile]
+      setting: [white background, centered, clean]
+      avoid: [text, open mouth, teeth, realistic]
+
+  - key: body.eyebrow
+    hint: the ridge of hair above the eye (supercilium)
+    image: body.eyebrow.png
+    brief:
+      subject: cartoon eye with prominent eyebrow above
+      attrs: [simple cartoon style, raised eyebrow highlighted, eye below for context]
+      setting: [white background, centered, clean]
+      avoid: [text, full face, realistic]
+
+  - key: body.hair
+    hint: the covering of keratin filaments on the head (capillus)
+    image: body.hair.png
+    brief:
+      subject: cartoon head with wavy hair
+      attrs: [simple cartoon style, flowing hair visible, round head, clean lines]
+      setting: [white background, centered, clean]
+      avoid: [text, full face, realistic, other body parts]
+
+  - key: body.nail
+    hint: the hard keratin plate at the tip of fingers and toes (unguis)
+    image: body.nail.png
+    brief:
+      subject: cartoon fingertip with nail
+      attrs: [simple cartoon style, fingertip close-up, nail highlighted with colour]
+      setting: [white background, centered, clean]
+      avoid: [text, full hand, nail polish excess, realistic]
+
+  - key: body.brain
+    hint: the organ of thought and control inside the skull (encephalon)
+    image: body.brain.png
+    brief:
+      subject: cartoon human brain
+      attrs: [simple cartoon style, pink-grey, folded surface (gyri), cute, centred]
+      setting: [white background, centered, clean]
+      avoid: [text, skull, realistic anatomy diagram, scary]
+
+  - key: body.lung
+    hint: one of the two organs in the chest used for breathing (pulmo)
+    image: body.lung.png
+    brief:
+      subject: cartoon pair of lungs
+      attrs: [simple cartoon style, two lungs, pink, paired, cute shape, trachea above]
+      setting: [white background, centered, clean]
+      avoid: [text, heart, ribs, realistic anatomy, scary]
+
+  - key: body.liver
+    hint: the large brown organ in the abdomen that filters blood (hepar)
+    image: body.liver.png
+    brief:
+      subject: cartoon liver
+      attrs: [simple cartoon style, reddish-brown, large lobe shape, cute icon]
+      setting: [white background, centered, clean]
+      avoid: [text, kidney, stomach, realistic anatomy]
+
+  - key: body.kidney
+    hint: one of two bean-shaped organs that filter blood and produce urine (ren)
+    image: body.kidney.png
+    brief:
+      subject: cartoon kidney pair
+      attrs: [simple cartoon style, bean-shaped, reddish, paired, cute icon]
+      setting: [white background, centered, clean]
+      avoid: [text, liver, heart, realistic anatomy]
+
+  - key: body.spine
+    hint: the column of vertebrae running down the centre of the back (columna vertebralis)
+    image: body.spine.png
+    brief:
+      subject: cartoon human spine, side view
+      attrs: [simple cartoon style, stacked vertebrae, curved S-shape, clean lines]
+      setting: [white background, centered, clean]
+      avoid: [text, full skeleton, ribs, realistic]
+
+  - key: body.bone
+    hint: the hard mineralised tissue forming the skeleton (os)
+    image: body.bone.png
+    brief:
+      subject: cartoon single bone (femur-like)
+      attrs: [simple cartoon style, classic bone shape with round ends, white, clean]
+      setting: [white background, centered, clean]
+      avoid: [text, skull, multiple bones, skull crossbones, scary]
+
+  - key: body.muscle
+    hint: the tissue that contracts to produce movement in the body (musculus)
+    image: body.muscle.png
+    brief:
+      subject: cartoon flexed bicep muscle
+      attrs: [simple cartoon style, flexed arm with bulging bicep, strong, clean lines]
+      setting: [white background, centered, clean]
+      avoid: [text, bodybuilder, realistic anatomy, scary]
+
+  - key: body.skin
+    hint: the outer covering of the body, the largest organ (cutis)
+    image: body.skin.png
+    brief:
+      subject: cartoon zoomed-in skin cross-section icon
+      attrs: [simple cartoon style, layers of skin, texture dots, pore and hair follicle visible]
+      setting: [white background, centered, clean diagram-style]
+      avoid: [text, realistic cross-section, wounds, scary]
+
+  - key: body.throat
+    hint: the passage inside the neck connecting mouth to stomach and lungs (fauces / pharynx)
+    image: body.throat.png
+    brief:
+      subject: cartoon open mouth showing throat
+      attrs: [simple cartoon style, open mouth, throat passage visible below tongue, uvula hanging]
+      setting: [white background, centered, clean]
+      avoid: [text, realistic anatomy, teeth prominent, scary]
+
+  - key: body.shoulder_blade
+    hint: the flat triangular bone at the back of the shoulder (scapula)
+    image: body.shoulder_blade.png
+    brief:
+      subject: cartoon back of torso with shoulder blade highlighted
+      attrs: [simple cartoon style, triangular shoulder blade highlighted in colour, back view]
+      setting: [white background, centered, clean]
+      avoid: [text, full skeleton, ribs, realistic]
+
+  - key: body.calf
+    hint: the back of the lower leg, the gastrocnemius muscle (sura)
+    image: body.calf.png
+    brief:
+      subject: cartoon lower leg showing calf muscle highlighted
+      attrs: [simple cartoon style, back of lower leg, calf muscle area highlighted with colour]
+      setting: [white background, centered, clean]
+      avoid: [text, full leg, foot, realistic anatomy]
+
+  - key: body.thigh
+    hint: the upper part of the leg between hip and knee (femur / coxa)
+    image: body.thigh.png
+    brief:
+      subject: cartoon upper leg (thigh) front view
+      attrs: [simple cartoon style, thigh highlighted with colour, knee below for reference]
+      setting: [white background, centered, clean]
+      avoid: [text, full leg, realistic, shorts]
+
+  - key: body.buttocks
+    hint: the fleshy area at the lower back behind the pelvis (nates)
+    image: body.buttocks.png
+    brief:
+      subject: cartoon rear view of lower body showing buttocks
+      attrs: [simple cartoon style, round buttocks shape visible from rear, clean, child-friendly]
+      setting: [white background, centered, clean, modest]
+      avoid: [text, realistic, explicit, full body]
+
+  - key: body.belly_button
+    hint: the navel, the scar where the umbilical cord was attached (umbilicus)
+    image: body.belly_button.png
+    brief:
+      subject: cartoon belly with belly button highlighted
+      attrs: [simple cartoon style, round belly with navel marked, clean, cute]
+      setting: [white background, centered, clean]
+      avoid: [text, realistic, full body]
+
+  - key: body.temple
+    hint: the flat area on the side of the head between the eye and ear (tempora)
+    image: body.temple.png
+    brief:
+      subject: cartoon face profile with temple highlighted
+      attrs: [simple cartoon style, side of head, temple area highlighted with colour]
+      setting: [white background, centered, clean]
+      avoid: [text, full face, realistic, religious temple]
+
+  - key: body.jaw
+    hint: the lower jawbone, the mandible (mandibula)
+    image: body.jaw.png
+    brief:
+      subject: cartoon face with jaw highlighted
+      attrs: [simple cartoon style, lower jaw highlighted with colour, face profile or front view]
+      setting: [white background, centered, clean]
+      avoid: [text, full skeleton, realistic anatomy]

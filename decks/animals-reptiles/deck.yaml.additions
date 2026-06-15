@@ -1,0 +1,332 @@
+  - key: reptile.alligator
+    hint: large American crocodilian with a rounded snout (Alligator mississippiensis)
+    image: reptile.alligator.png
+    brief:
+      subject: American alligator
+      attrs: [wide rounded snout, dark grey-black, large, basking on bank]
+      setting: [swamp, muddy bank, cypress trees, warm sunlight]
+      avoid: [text, crocodile, humans]
+
+  - key: reptile.python
+    hint: large non-venomous constricting snake (Python regius / Burmese python)
+    image: reptile.python.png
+    brief:
+      subject: ball python
+      attrs: [coiled, brown and tan patterned scales, round head, calm]
+      setting: [jungle floor or branch, dappled light]
+      avoid: [text, venomous snake, humans]
+
+  - key: reptile.cobra
+    hint: venomous snake that spreads a hood when threatened (Naja)
+    image: reptile.cobra.png
+    brief:
+      subject: Indian cobra
+      attrs: [hooded, raised, speckled brown, threat display, alert]
+      setting: [rocky terrain, warm earth, dramatic light]
+      avoid: [text, humans, snake charmer]
+
+  - key: reptile.boa_constrictor
+    hint: large heavy-bodied snake that kills by constriction (Boa constrictor)
+    image: reptile.boa_constrictor.png
+    brief:
+      subject: boa constrictor
+      attrs: [thick muscular body, saddle pattern in brown and grey, coiled on branch]
+      setting: [tropical rainforest, thick branch, dappled jungle light]
+      avoid: [text, python, venomous snake, humans]
+
+  - key: reptile.monitor_lizard
+    hint: large predatory lizard with a forked tongue (Varanus)
+    image: reptile.monitor_lizard.png
+    brief:
+      subject: Nile monitor lizard
+      attrs: [large, dark with yellow spots, forked tongue extended, walking]
+      setting: [rocky riverbank, African landscape, sunlit]
+      avoid: [text, komodo dragon, iguana, humans]
+
+  - key: reptile.iguana
+    hint: large green herbivorous lizard with a dorsal crest (Iguana iguana)
+    image: reptile.iguana.png
+    brief:
+      subject: green iguana
+      attrs: [vivid green, dorsal spines along back, dewlap under chin, long tail, perched on branch]
+      setting: [tropical branch, bright green leaves, sunlit]
+      avoid: [text, monitor lizard, chameleon, humans]
+
+  - key: reptile.tuatara
+    hint: lizard-like reptile found only in New Zealand, a living fossil (Sphenodon punctatus)
+    image: reptile.tuatara.png
+    brief:
+      subject: tuatara
+      attrs: [greenish-grey, spiny crest, third eye visible on head, perched on rock]
+      setting: [New Zealand coastal rocky terrain, grey sky]
+      avoid: [text, lizard, iguana, humans]
+
+  - key: reptile.skink
+    hint: smooth-scaled lizard with reduced or no visible legs (Scincidae)
+    image: reptile.skink.png
+    brief:
+      subject: blue-tongued skink
+      attrs: [stocky, brown-grey with crossbands, blue tongue extended, walking]
+      setting: [leaf litter, Australian bush floor, natural light]
+      avoid: [text, gecko, other lizards, humans]
+
+  - key: reptile.anole
+    hint: small green lizard with a colourful throat fan (Anolis carolinensis)
+    image: reptile.anole.png
+    brief:
+      subject: green anole lizard
+      attrs: [vivid green, pink throat fan (dewlap) extended, clinging to branch]
+      setting: [tropical leaves, bright sunlight, green background]
+      avoid: [text, chameleon, gecko, humans]
+
+  - key: reptile.komodo_dragon
+    hint: world's largest lizard, a monitor from Indonesian islands (Varanus komodoensis)
+    image: reptile.komodo_dragon.png
+    brief:
+      subject: Komodo dragon
+      attrs: [enormous, grey-brown, forked tongue, powerful claws, walking]
+      setting: [dry Indonesian scrubland, open rocky terrain, hot sun]
+      avoid: [text, humans, alligator, monitor lizard generic]
+
+  - key: reptile.caiman
+    hint: smaller South American crocodilian (Caiman crocodilus)
+    image: reptile.caiman.png
+    brief:
+      subject: spectacled caiman
+      attrs: [olive-green, spectacle ridge between eyes, basking, smaller crocodilian]
+      setting: [tropical river bank, Amazonian vegetation, warm light]
+      avoid: [text, alligator, crocodile, humans]
+
+  - key: reptile.gharial
+    hint: long slender-snouted Indian crocodilian (Gavialis gangeticus)
+    image: reptile.gharial.png
+    brief:
+      subject: gharial
+      attrs: [very long narrow snout, many small teeth, large, grey-green, resting on riverbank]
+      setting: [Indian river, sandy bank, warm sunny day]
+      avoid: [text, crocodile, alligator, humans]
+
+  - key: reptile.horned_lizard
+    hint: flat spiny lizard with horns that can squirt blood from eyes (Phrynosoma)
+    image: reptile.horned_lizard.png
+    brief:
+      subject: Texas horned lizard
+      attrs: [flat body, crown of spiny horns, sandy brown, cryptic pattern, resting on rock]
+      setting: [desert rocks, sandy soil, strong sunlight]
+      avoid: [text, toad, other lizards, humans]
+
+  - key: reptile.gila_monster
+    hint: venomous lizard of American deserts with beaded scales (Heloderma suspectum)
+    image: reptile.gila_monster.png
+    brief:
+      subject: Gila monster
+      attrs: [heavy-bodied, orange and black beaded pattern, thick tail, slow walk]
+      setting: [Sonoran desert, rocky terrain, hot sunlight]
+      avoid: [text, other lizards, humans]
+
+  - key: reptile.rattlesnake
+    hint: venomous pit viper with a rattle on its tail (Crotalus)
+    image: reptile.rattlesnake.png
+    brief:
+      subject: western diamondback rattlesnake
+      attrs: [diamond pattern on brown scales, coiled, rattle visible on tail tip, alert]
+      setting: [American desert rocks, dry scrub, sunlight]
+      avoid: [text, humans, other snakes]
+
+  - key: reptile.viper
+    hint: venomous snake with a triangular head and heat-sensing pits (Viperidae)
+    image: reptile.viper.png
+    brief:
+      subject: common European adder viper
+      attrs: [grey with zigzag dorsal pattern, triangular head, coiled, alert]
+      setting: [heath or moorland, stone or log, dappled light]
+      avoid: [text, cobra, rattlesnake, humans]
+
+  - key: reptile.tree_frog
+    hint: arboreal frog with sticky adhesive toe pads for climbing (Hylidae)
+    image: reptile.tree_frog.png
+    brief:
+      subject: red-eyed tree frog
+      attrs: [vivid green, large red eyes, orange feet, clinging to leaf, vivid]
+      setting: [tropical leaf, dark background, macro]
+      avoid: [text, pond frog, humans]
+
+  - key: reptile.poison_dart_frog
+    hint: tiny brilliantly coloured toxic frog from tropical forests (Dendrobatidae)
+    image: reptile.poison_dart_frog.png
+    brief:
+      subject: blue poison dart frog
+      attrs: [vivid electric blue with black spots, tiny, sitting on leaf]
+      setting: [tropical leaf, dark background, macro, lush green surroundings]
+      avoid: [text, tree frog, other frogs, humans]
+
+  - key: reptile.axolotl
+    hint: Mexican neotenic salamander with external gills (Ambystoma mexicanum)
+    image: reptile.axolotl.png
+    brief:
+      subject: axolotl
+      attrs: [pink feathery external gills, wide head, lidless eyes, pale skin, aquatic]
+      setting: [aquarium, clear water, green aquatic plants, soft light]
+      avoid: [text, fish, other salamanders, humans]
+
+  - key: reptile.newt
+    hint: small semi-aquatic salamander with a flattened tail (Triturus / Notophthalmus)
+    image: reptile.newt.png
+    brief:
+      subject: great crested newt
+      attrs: [dark brown with orange spotted belly, jagged dorsal crest (male), in water]
+      setting: [pond, aquatic plants, clean water]
+      avoid: [text, salamander, lizard, humans]
+
+  - key: reptile.toad
+    hint: warty-skinned terrestrial amphibian (Bufo bufo), different from a frog
+    image: reptile.toad.png
+    brief:
+      subject: common toad
+      attrs: [brown warty skin, stocky, crouching, large eyes, golden iris]
+      setting: [garden soil, leaf litter, damp ground]
+      avoid: [text, frog, humans, cartoon]
+
+  - key: reptile.sea_snake
+    hint: venomous snake adapted to life in tropical ocean waters (Hydrophiidae)
+    image: reptile.sea_snake.png
+    brief:
+      subject: banded sea snake
+      attrs: [banded black and yellow, flattened paddle tail, swimming in coral reef]
+      setting: [tropical ocean, coral reef, clear blue water, underwater]
+      avoid: [text, eel, land snake, humans]
+
+  - key: reptile.king_snake
+    hint: non-venomous snake that eats other snakes and mimics the coral snake (Lampropeltis)
+    image: reptile.king_snake.png
+    brief:
+      subject: California king snake
+      attrs: [black with white bands, glossy scales, coiled or moving, bold pattern]
+      setting: [rocky scrubland, dry terrain, natural light]
+      avoid: [text, coral snake, venomous, humans]
+
+  - key: reptile.coral_snake
+    hint: small venomous snake with red, yellow and black rings (Micrurus)
+    image: reptile.coral_snake.png
+    brief:
+      subject: eastern coral snake
+      attrs: [vivid red, yellow and black alternating rings, small, slender]
+      setting: [leaf litter, forest floor, dramatic colouring]
+      avoid: [text, king snake, humans, cut or harm]
+
+  - key: reptile.mamba
+    hint: fast-moving highly venomous African snake (Dendroaspis)
+    image: reptile.mamba.png
+    brief:
+      subject: black mamba
+      attrs: [olive-grey, very long and slender, fast look, open mouth showing black interior, raised head]
+      setting: [African scrub, rocky outcrop, dramatic setting]
+      avoid: [text, cobra, other snakes, humans]
+
+  - key: reptile.anaconda
+    hint: world's heaviest snake, semi-aquatic from South America (Eunectes murinus)
+    image: reptile.anaconda.png
+    brief:
+      subject: green anaconda
+      attrs: [enormous girth, dark green with oval black spots, partially in water, coiled]
+      setting: [Amazon river edge, tropical vegetation, dark water]
+      avoid: [text, python, humans, cartoon]
+
+  - key: reptile.frilled_lizard
+    hint: Australian lizard with a spectacular neck frill used for display (Chlamydosaurus kingii)
+    image: reptile.frilled_lizard.png
+    brief:
+      subject: frilled-neck lizard
+      attrs: [large frill spread wide around neck, upright on hind legs, orange and brown, alarmed display]
+      setting: [Australian dry scrubland, sunlight, tree trunk or ground]
+      avoid: [text, iguana, other lizards, humans]
+
+  - key: reptile.basilisk
+    hint: Central American lizard that can run on water on its hind legs (Basiliscus)
+    image: reptile.basilisk.png
+    brief:
+      subject: green basilisk lizard
+      attrs: [vivid green, high crest on head and back, running on water, bipedal sprint]
+      setting: [tropical river, water surface, rainforest, spray]
+      avoid: [text, iguana, humans, mythical basilisk]
+
+  - key: reptile.blue_tongued_skink
+    hint: Australian skink famous for a vivid blue tongue defence display (Tiliqua scincoides)
+    image: reptile.blue_tongued_skink.png
+    brief:
+      subject: blue-tongued skink with tongue extended
+      attrs: [bright blue tongue out, stocky brown-grey body, crossband pattern, low to ground]
+      setting: [leaf litter, Australian bush, natural light]
+      avoid: [text, generic skink, other lizards, humans]
+
+  - key: reptile.agama
+    hint: brightly coloured African and Asian lizard (Agama agama)
+    image: reptile.agama.png
+    brief:
+      subject: red-headed agama lizard
+      attrs: [male, bright red-orange head, blue body, perched on rock, basking]
+      setting: [rocky sub-Saharan Africa, sunlit rocks, blue sky]
+      avoid: [text, chameleon, iguana, humans]
+
+  - key: reptile.sea_turtle_leatherback
+    hint: world's largest turtle with a flexible leathery shell (Dermochelys coriacea)
+    image: reptile.sea_turtle_leatherback.png
+    brief:
+      subject: leatherback sea turtle
+      attrs: [enormous, dark leathery ridged shell, no scutes, swimming in deep ocean]
+      setting: [deep blue ocean, sunlight filtering from above, underwater view]
+      avoid: [text, regular sea turtle, humans, beach nesting]
+
+  - key: reptile.mud_turtle
+    hint: small freshwater turtle that burrows into mud (Kinosternon)
+    image: reptile.mud_turtle.png
+    brief:
+      subject: common mud turtle
+      attrs: [small, olive-brown dome shell, muddy, short legs, on bank]
+      setting: [muddy pond bank, shallow water, cattails]
+      avoid: [text, snapping turtle, tortoise, humans]
+
+  - key: reptile.box_turtle
+    hint: North American turtle with a hinged shell that closes completely (Terrapene)
+    image: reptile.box_turtle.png
+    brief:
+      subject: eastern box turtle
+      attrs: [high domed shell with orange and yellow pattern, hinged plastron, walking on leaf litter]
+      setting: [forest floor, fallen leaves, dappled light]
+      avoid: [text, tortoise, water turtle, humans]
+
+  - key: reptile.snapping_turtle
+    hint: large aggressive North American freshwater turtle (Chelydra serpentina)
+    image: reptile.snapping_turtle.png
+    brief:
+      subject: common snapping turtle
+      attrs: [large, rough dark shell, strong hooked beak, powerful, resting in mud]
+      setting: [pond bank, murky water, algae on shell]
+      avoid: [text, box turtle, alligator snapping turtle, humans]
+
+  - key: reptile.matamata
+    hint: bizarre flat-headed Amazon turtle with a triangular snout and fringed neck (Chelus fimbriata)
+    image: reptile.matamata.png
+    brief:
+      subject: matamata turtle
+      attrs: [bizarre flat triangular head, fringed neck, rough algae-covered shell, aquatic, camouflaged]
+      setting: [Amazon river bed, murky shallow water, leaf litter on bottom]
+      avoid: [text, other turtles, humans]
+
+  - key: reptile.worm_lizard
+    hint: legless burrowing reptile resembling a worm (Amphisbaenia)
+    image: reptile.worm_lizard.png
+    brief:
+      subject: worm lizard
+      attrs: [pink-white, smooth ringed skin, eyeless, worm-like, partially emerging from soil]
+      setting: [sandy soil, garden, close-up, macro]
+      avoid: [text, worm, snake, other lizards]
+
+  - key: reptile.blind_snake
+    hint: tiny worm-like burrowing snake (Typhlopidae)
+    image: reptile.blind_snake.png
+    brief:
+      subject: blind snake
+      attrs: [tiny, pink-brown, smooth, vestigial eyes, coiled on soil]
+      setting: [soil, leaf litter, close-up, macro]
+      avoid: [text, worm, other snakes, humans]

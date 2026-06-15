@@ -1,0 +1,377 @@
+  - key: emotion.bored
+    hint: feeling uninterested and lacking stimulation, wanting something to happen
+    image: emotion.bored.png
+    brief:
+      subject: bored cartoon child character
+      attrs: [drooping eyelids, head resting on hand, flat mouth, restless expression]
+      setting: [grey or muted background, simple, centered]
+      avoid: [text, happy expression, exciting action, scary]
+
+  - key: emotion.confused
+    hint: feeling unable to understand something clearly, puzzled
+    image: emotion.confused.png
+    brief:
+      subject: confused cartoon child character
+      attrs: [tilted head, question mark above head, furrowed brow, one eyebrow up]
+      setting: [light purple or grey background, simple, centered]
+      avoid: [text, happy, angry, scary]
+
+  - key: emotion.disgusted
+    hint: feeling strong revulsion or nausea at something unpleasant
+    image: emotion.disgusted.png
+    brief:
+      subject: disgusted cartoon child character
+      attrs: [face screwed up, tongue out, wrinkled nose, waving hand away]
+      setting: [green-grey background, simple, centered]
+      avoid: [text, happy, scary, actual disgusting content]
+
+  - key: emotion.embarrassed
+    hint: feeling self-conscious and ashamed, blushing cheeks
+    image: emotion.embarrassed.png
+    brief:
+      subject: embarrassed cartoon child character
+      attrs: [bright red cheeks, eyes looking away sideways, hands over cheeks, sheepish smile]
+      setting: [soft pink or light red background, simple, centered]
+      avoid: [text, happy, angry, scary]
+
+  - key: emotion.proud
+    hint: feeling deep satisfaction from achievement, standing tall
+    image: emotion.proud.png
+    brief:
+      subject: proud cartoon child character
+      attrs: [chin up, chest puffed out, big confident smile, hands on hips or thumbs up]
+      setting: [golden yellow background, simple, centered]
+      avoid: [text, sad, scared, arrogant expression]
+
+  - key: emotion.jealous
+    hint: feeling envy or resentment toward someone else's good fortune
+    image: emotion.jealous.png
+    brief:
+      subject: jealous cartoon child character
+      attrs: [green tint on face, narrowed eyes, arms crossed, scowling sidelong glance]
+      setting: [green background, simple, centered]
+      avoid: [text, happy, scared, violent expression]
+
+  - key: emotion.lonely
+    hint: feeling sad because of lacking company or connection
+    image: emotion.lonely.png
+    brief:
+      subject: lonely cartoon child character
+      attrs: [sitting alone, hugging knees, sad eyes, small in frame, isolated]
+      setting: [dim blue or grey background, empty space around, simple]
+      avoid: [text, crowd around, happy, scary]
+
+  - key: emotion.grateful
+    hint: feeling thankful and appreciative for kindness received
+    image: emotion.grateful.png
+    brief:
+      subject: grateful cartoon child character
+      attrs: [hands clasped together, warm smile, eyes gentle and soft, slight bow]
+      setting: [warm golden or peach background, simple, centered]
+      avoid: [text, sad, angry, scary]
+
+  - key: emotion.hopeful
+    hint: feeling optimistic about something good happening in the future
+    image: emotion.hopeful.png
+    brief:
+      subject: hopeful cartoon child character
+      attrs: [eyes looking upward, soft smile, hands clasped, dreamy expression, a star above]
+      setting: [light blue background, gentle glow, simple, centered]
+      avoid: [text, sad, scared, dark mood]
+
+  - key: emotion.worried
+    hint: feeling anxious about something that might go wrong
+    image: emotion.worried.png
+    brief:
+      subject: worried cartoon child character
+      attrs: [furrowed brow, nervous eyes, biting lip, hands wringing or fidgeting]
+      setting: [grey-blue background, simple, centered]
+      avoid: [text, happy, angry, violent]
+
+  - key: emotion.frustrated
+    hint: feeling annoyed and blocked from achieving something
+    image: emotion.frustrated.png
+    brief:
+      subject: frustrated cartoon child character
+      attrs: [clenched fists, teeth gritted, steam coming from head, eyes squeezed]
+      setting: [dark orange or red-orange background, simple, centered]
+      avoid: [text, happy, scared, violent content]
+
+  - key: emotion.relieved
+    hint: feeling a release of tension after a worry passes
+    image: emotion.relieved.png
+    brief:
+      subject: relieved cartoon child character
+      attrs: [big exhale, eyes closed softly, small smile, hand on chest or wiping forehead]
+      setting: [light green or pale blue background, simple, centered]
+      avoid: [text, scared, angry, dramatic]
+
+  - key: emotion.amused
+    hint: feeling entertained and lightly delighted by something funny
+    image: emotion.amused.png
+    brief:
+      subject: amused cartoon child character
+      attrs: [small smirk, one eyebrow slightly raised, eyes twinkling, suppressed laugh]
+      setting: [warm yellow-orange background, simple, centered]
+      avoid: [text, laughing hard, sad, scary]
+
+  - key: emotion.nostalgic
+    hint: feeling a wistful longing for happy times from the past
+    image: emotion.nostalgic.png
+    brief:
+      subject: nostalgic cartoon child character
+      attrs: [soft dreamy smile, eyes looking into distance, thought bubble with old memory, gentle]
+      setting: [sepia or warm amber background, simple, centered]
+      avoid: [text, sad, happy modern, scary]
+
+  - key: emotion.curious
+    hint: feeling eager to learn or know something new
+    image: emotion.curious.png
+    brief:
+      subject: curious cartoon child character
+      attrs: [leaning forward, big wide eyes, finger on chin, question mark or magnifying glass nearby]
+      setting: [light teal or aqua background, simple, centered]
+      avoid: [text, bored, scared, angry]
+
+  - key: emotion.confident
+    hint: feeling sure of oneself and one's abilities
+    image: emotion.confident.png
+    brief:
+      subject: confident cartoon child character
+      attrs: [standing straight, thumbs up, big smile, cape or superhero pose, shining eyes]
+      setting: [bright blue background, simple, star burst behind, centered]
+      avoid: [text, scared, sad, arrogant expression]
+
+  - key: emotion.anxious
+    hint: feeling nervous tension and unease about uncertain outcomes
+    image: emotion.anxious.png
+    brief:
+      subject: anxious cartoon child character
+      attrs: [biting nails, sweating, wide nervous eyes, shoulders hunched]
+      setting: [pale blue-grey background, simple, centered]
+      avoid: [text, calm, happy, violent content]
+
+  - key: emotion.cheerful
+    hint: feeling noticeably happy and optimistic, radiating good mood
+    image: emotion.cheerful.png
+    brief:
+      subject: cheerful cartoon child character
+      attrs: [bright wide smile, arms out, bouncing energy, sun or flowers around, rosy cheeks]
+      setting: [bright yellow background, simple, centered]
+      avoid: [text, sad, angry, scary]
+
+  - key: emotion.melancholy
+    hint: feeling a gentle, prolonged sadness or pensiveness
+    image: emotion.melancholy.png
+    brief:
+      subject: melancholy cartoon child character
+      attrs: [soft sad eyes, small wistful frown, chin down, rain drops or blue clouds above]
+      setting: [muted blue-grey background, soft, centered]
+      avoid: [text, happy, angry, crying dramatically]
+
+  - key: emotion.disappointed
+    hint: feeling let down when expectations were not met
+    image: emotion.disappointed.png
+    brief:
+      subject: disappointed cartoon child character
+      attrs: [flat mouth turned down slightly, drooping eyes, shoulder slumped, empty hands]
+      setting: [dull grey or pale brown background, simple, centered]
+      avoid: [text, happy, angry, crying]
+
+  - key: emotion.content
+    hint: feeling quietly satisfied and at peace with the present moment
+    image: emotion.content.png
+    brief:
+      subject: content cartoon child character
+      attrs: [gentle closed-eyes smile, relaxed posture, hands folded, peaceful expression]
+      setting: [soft warm beige or light green background, simple, centered]
+      avoid: [text, excited, sad, dramatic emotion]
+
+  - key: emotion.nervous
+    hint: feeling tense apprehension before an uncertain event
+    image: emotion.nervous.png
+    brief:
+      subject: nervous cartoon child character
+      attrs: [fidgeting hands, wobbly lines near body suggesting shaking, wide eyes, sweat drop]
+      setting: [pale yellow or light grey background, simple, centered]
+      avoid: [text, calm, happy, angry]
+
+  - key: emotion.loving
+    hint: feeling deep affection and warmth toward someone
+    image: emotion.loving.png
+    brief:
+      subject: loving cartoon child character
+      attrs: [heart eyes or red hearts floating, wide warm smile, arms open, rosy cheeks]
+      setting: [warm pink background, simple, hearts around, centered]
+      avoid: [text, sad, angry, scary, romantic adult content]
+
+  - key: emotion.shocked
+    hint: feeling sudden extreme surprise or distress at unexpected news
+    image: emotion.shocked.png
+    brief:
+      subject: shocked cartoon child character
+      attrs: [huge wide eyes, both hands on cheeks, mouth wide open in O, hair spiking up]
+      setting: [bright white or electric blue background, simple, centered]
+      avoid: [text, calm, happy, violent content]
+
+  - key: emotion.determined
+    hint: feeling firm and resolute about achieving a goal, not giving up
+    image: emotion.determined.png
+    brief:
+      subject: determined cartoon child character
+      attrs: [set jaw, fists raised, eyes focused and intense, leaning forward, action pose]
+      setting: [bold orange or red background, simple, centered]
+      avoid: [text, sad, scared, happy-go-lucky]
+
+  - key: emotion.shy
+    hint: feeling timid and self-conscious around others, avoiding attention
+    image: emotion.shy.png
+    brief:
+      subject: shy cartoon child character
+      attrs: [hiding face behind hands, peeking sideways, blushing cheeks, hunched shoulders]
+      setting: [soft pastel pink or lavender background, simple, centered]
+      avoid: [text, confident, happy-outgoing, scary]
+
+  - key: emotion.guilty
+    hint: feeling regret and remorse for having done something wrong
+    image: emotion.guilty.png
+    brief:
+      subject: guilty cartoon child character
+      attrs: [downcast eyes, finger pointing at self, looking down, small defeated posture]
+      setting: [dull dark green or grey background, simple, centered]
+      avoid: [text, happy, proud, scary]
+
+  - key: emotion.overwhelmed
+    hint: feeling flooded by too many tasks or emotions at once
+    image: emotion.overwhelmed.png
+    brief:
+      subject: overwhelmed cartoon child character
+      attrs: [head in hands, lots of swirling things around (stars, spirals), wide panicked eyes]
+      setting: [chaotic colourful background, simple character centered]
+      avoid: [text, calm, bored, happy]
+
+  - key: emotion.peaceful
+    hint: feeling serene inner calm, undisturbed and tranquil
+    image: emotion.peaceful.png
+    brief:
+      subject: peaceful cartoon child character
+      attrs: [eyes closed, gentle smile, breathing slowly, sitting cross-legged, soft glow around]
+      setting: [very soft sky blue or pale green background, simple, centered]
+      avoid: [text, scared, angry, excited]
+
+  - key: emotion.playful
+    hint: feeling in the mood for fun, mischief, and games
+    image: emotion.playful.png
+    brief:
+      subject: playful cartoon child character
+      attrs: [tongue sticking out, mischievous grin, winking eye, jumping or skipping, arms out]
+      setting: [colourful pink or purple background, playful shapes, simple, centered]
+      avoid: [text, sad, serious, angry]
+
+  - key: emotion.serious
+    hint: feeling focused and solemn, not in the mood for jokes
+    image: emotion.serious.png
+    brief:
+      subject: serious cartoon child character
+      attrs: [straight flat mouth, furrowed brow, arms crossed, upright posture, steady gaze]
+      setting: [dark blue or grey background, simple, centered]
+      avoid: [text, smiling, playful, scared]
+
+  - key: emotion.upset
+    hint: feeling emotionally disturbed and distressed
+    image: emotion.upset.png
+    brief:
+      subject: upset cartoon child character
+      attrs: [crying tears, mouth downturned, fists clenched, red eyes, dishevelled look]
+      setting: [stormy grey or blue background, simple, centered]
+      avoid: [text, happy, calm, violent content]
+
+  - key: emotion.amazed
+    hint: feeling profound wonder and astonishment at something extraordinary
+    image: emotion.amazed.png
+    brief:
+      subject: amazed cartoon child character
+      attrs: [huge sparkling eyes, mouth dropped open in awe, hands raised, star burst effect]
+      setting: [bright violet or gold background, sparkles around, simple, centered]
+      avoid: [text, bored, scared, angry]
+
+  - key: emotion.annoyed
+    hint: feeling mildly irritated by something persistent or trivial
+    image: emotion.annoyed.png
+    brief:
+      subject: annoyed cartoon child character
+      attrs: [eye twitch, flat unamused look, vein popping on forehead, lips pressed together]
+      setting: [warm yellow or peach background, simple, centered]
+      avoid: [text, happy, scared, violent rage]
+
+  - key: emotion.delighted
+    hint: feeling great pleasure and joy at something wonderful
+    image: emotion.delighted.png
+    brief:
+      subject: delighted cartoon child character
+      attrs: [enormous joyful grin, stars in eyes, clapping hands, bouncing with joy, rosy cheeks]
+      setting: [bright sunny yellow background, confetti or stars around, simple, centered]
+      avoid: [text, sad, angry, scary]
+
+  - key: emotion.hopeless
+    hint: feeling despair and believing that nothing will improve
+    image: emotion.hopeless.png
+    brief:
+      subject: hopeless cartoon child character
+      attrs: [slumped shoulders, head hanging down, deep frown, dark clouds above, arms limp]
+      setting: [very dark grey or dark blue background, simple, centered, without violent content]
+      avoid: [text, happy, calm, violent or self-harm content]
+
+  - key: emotion.inspired
+    hint: feeling creatively energised and motivated by an idea or person
+    image: emotion.inspired.png
+    brief:
+      subject: inspired cartoon child character
+      attrs: [lightbulb moment above head, shining eyes, big smile, arms raised in eureka pose]
+      setting: [bright orange or yellow background, simple, lightbulb graphic, centered]
+      avoid: [text, bored, sad, scared]
+
+  - key: emotion.irritated
+    hint: feeling mildly angry at an ongoing small annoyance
+    image: emotion.irritated.png
+    brief:
+      subject: irritated cartoon child character
+      attrs: [tight-lipped scowl, furrowed brow, red cheeks, arms crossed tightly, steam from ears]
+      setting: [warm orange-red background, simple, centered]
+      avoid: [text, happy, sad, violent rage]
+
+  - key: emotion.joyful
+    hint: feeling intense happiness and delight, bubbling with positive energy
+    image: emotion.joyful.png
+    brief:
+      subject: joyful cartoon child character
+      attrs: [leaping in the air, arms spread wide, massive grin, sparkles and stars around, eyes shining]
+      setting: [bright rainbow or sunshine yellow background, simple, centered]
+      avoid: [text, sad, angry, calm]
+
+  - key: emotion.miserable
+    hint: feeling utterly wretched and deeply unhappy
+    image: emotion.miserable.png
+    brief:
+      subject: miserable cartoon child character
+      attrs: [slumped in corner, rain cloud directly above, streaming tears, deep frown, grey]
+      setting: [very dark grey background, simple, moody, centered]
+      avoid: [text, happy, calm, violent content]
+
+  - key: emotion.optimistic
+    hint: feeling positive and expecting good outcomes in the future
+    image: emotion.optimistic.png
+    brief:
+      subject: optimistic cartoon child character
+      attrs: [bright smile, looking up at rising sun or rainbow, thumbs up, eyes bright, upright]
+      setting: [sunrise gradient background, soft warm colours, simple, centered]
+      avoid: [text, pessimistic, sad, scared]
+
+  - key: emotion.pessimistic
+    hint: feeling negative and expecting bad outcomes or focusing on the worst
+    image: emotion.pessimistic.png
+    brief:
+      subject: pessimistic cartoon child character
+      attrs: [gloomy face, dark storm cloud above, frown, arms crossed, dark circles, grey tone]
+      setting: [dark grey or stormy background, simple, centered]
+      avoid: [text, happy, optimistic, violent content]

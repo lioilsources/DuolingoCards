@@ -1,0 +1,359 @@
+  - key: color.grey
+    hint: the neutral colour between black and white (also spelled gray)
+    image: color.grey.png
+    brief:
+      subject: grey elephant silhouette
+      attrs: [solid grey, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.beige
+    hint: a pale sandy light brown colour
+    image: color.beige.png
+    brief:
+      subject: beige sand dune or simple beige square
+      attrs: [solid beige, simple, clean]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.ivory
+    hint: an off-white colour resembling ivory tusks
+    image: color.ivory.png
+    brief:
+      subject: ivory coloured egg or simple oval
+      attrs: [warm off-white, ivory tone, simple, clean]
+      setting: [light grey background, centered]
+      avoid: [text, gradient, bright white, complex pattern]
+
+  - key: color.cream
+    hint: a very pale yellow-white colour like fresh cream
+    image: color.cream.png
+    brief:
+      subject: cream coloured simple drop or circle
+      attrs: [warm creamy pale yellow-white, simple, bold]
+      setting: [light background, centered]
+      avoid: [text, gradient, pure white, complex pattern]
+
+  - key: color.maroon
+    hint: a dark brownish-red colour (also called dark red or burgundy in some uses)
+    image: color.maroon.png
+    brief:
+      subject: maroon wine bottle silhouette
+      attrs: [solid dark red-brown, maroon, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, bright red, complex pattern]
+
+  - key: color.navy
+    hint: a very dark blue colour like a sailor's uniform (navy blue)
+    image: color.navy.png
+    brief:
+      subject: navy blue anchor
+      attrs: [solid navy blue, dark, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, sky blue, complex pattern]
+
+  - key: color.teal
+    hint: a cyan-green colour between blue and green
+    image: color.teal.png
+    brief:
+      subject: teal circle or teapot silhouette
+      attrs: [solid teal, blue-green, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.turquoise
+    hint: a bright blue-green colour like the gemstone or tropical sea
+    image: color.turquoise.png
+    brief:
+      subject: turquoise gemstone or simple round shape
+      attrs: [vivid blue-green turquoise, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.lime
+    hint: a vivid yellow-green colour like the lime citrus fruit
+    image: color.lime.png
+    brief:
+      subject: lime green citrus fruit
+      attrs: [solid vivid lime green, round, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, dark green, complex pattern]
+
+  - key: color.olive
+    hint: a dark yellowish-green colour like olives
+    image: color.olive.png
+    brief:
+      subject: olive coloured round fruit with leaf
+      attrs: [solid olive dark yellow-green, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, bright green, complex pattern]
+
+  - key: color.gold
+    hint: a rich yellow colour like the precious metal gold
+    image: color.gold.png
+    brief:
+      subject: gold coin
+      attrs: [solid gleaming gold, round coin, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, yellow, complex pattern]
+
+  - key: color.silver
+    hint: a shiny grey-white colour like the precious metal silver
+    image: color.silver.png
+    brief:
+      subject: silver star
+      attrs: [solid metallic silver-grey, star shape, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, grey, complex pattern]
+
+  - key: color.copper
+    hint: a reddish-brown metallic colour like the metal copper
+    image: color.copper.png
+    brief:
+      subject: copper penny coin
+      attrs: [solid reddish-brown copper colour, round, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, bronze, complex pattern]
+
+  - key: color.bronze
+    hint: a dark golden-brown colour like the alloy bronze
+    image: color.bronze.png
+    brief:
+      subject: bronze medal disc
+      attrs: [solid dark golden-brown bronze, round, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, gold, copper, complex pattern]
+
+  - key: color.coral
+    hint: a warm pinkish-orange colour like coral reef organisms
+    image: color.coral.png
+    brief:
+      subject: coral branch silhouette
+      attrs: [solid warm pinkish-orange coral, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, pink, orange, complex pattern]
+
+  - key: color.salmon
+    hint: a light pinkish-orange colour like salmon fish flesh
+    image: color.salmon.png
+    brief:
+      subject: salmon fish silhouette
+      attrs: [solid salmon pink-orange, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, orange, pink, complex pattern]
+
+  - key: color.rose
+    hint: a soft pink colour like a rose flower
+    image: color.rose.png
+    brief:
+      subject: rose flower
+      attrs: [solid rose soft pink, simple flower, bold, cute]
+      setting: [white background, centered]
+      avoid: [text, gradient, red, complex pattern]
+
+  - key: color.magenta
+    hint: a vivid purplish-pink colour between red and blue-purple
+    image: color.magenta.png
+    brief:
+      subject: magenta triangle
+      attrs: [solid vivid magenta, bold, simple]
+      setting: [white background, centered]
+      avoid: [text, gradient, pink, purple, complex pattern]
+
+  - key: color.violet
+    hint: a blue-purple colour at the end of the visible spectrum
+    image: color.violet.png
+    brief:
+      subject: violet flower
+      attrs: [solid violet purple, flower shape, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, purple, blue, complex pattern]
+
+  - key: color.indigo
+    hint: a deep blue-purple colour between blue and violet on the spectrum
+    image: color.indigo.png
+    brief:
+      subject: indigo teardrop or simple shape
+      attrs: [solid deep indigo blue-purple, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, navy, violet, complex pattern]
+
+  - key: color.lavender
+    hint: a pale purple colour like the lavender flower
+    image: color.lavender.png
+    brief:
+      subject: lavender sprig
+      attrs: [solid pale purple lavender, flower sprig, simple, bold, cute]
+      setting: [white background, centered]
+      avoid: [text, gradient, dark purple, complex pattern]
+
+  - key: color.mint
+    hint: a pale cool green colour like mint leaves
+    image: color.mint.png
+    brief:
+      subject: mint leaf
+      attrs: [solid pale cool mint green, leaf shape, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, dark green, complex pattern]
+
+  - key: color.khaki
+    hint: a dull brownish-yellow colour often used in military clothing
+    image: color.khaki.png
+    brief:
+      subject: khaki square or simple rectangle
+      attrs: [solid dull brownish-yellow khaki, simple, clean]
+      setting: [white background, centered]
+      avoid: [text, gradient, brown, complex pattern]
+
+  - key: color.tan
+    hint: a light brown colour like a sun tan
+    image: color.tan.png
+    brief:
+      subject: tan coloured sun or simple circle
+      attrs: [solid light tan brown, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, brown, beige, complex pattern]
+
+  - key: color.amber
+    hint: a warm golden-orange colour like tree resin amber
+    image: color.amber.png
+    brief:
+      subject: amber drop of resin
+      attrs: [solid warm golden-orange amber, drop shape, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, yellow, orange, complex pattern]
+
+  - key: color.crimson
+    hint: a deep vivid red colour
+    image: color.crimson.png
+    brief:
+      subject: crimson red rose
+      attrs: [solid deep vivid crimson red, rose or heart shape, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, light red, complex pattern]
+
+  - key: color.scarlet
+    hint: a bright vivid red colour, slightly more orange than crimson
+    image: color.scarlet.png
+    brief:
+      subject: scarlet ribbon or simple shape
+      attrs: [solid bright scarlet red, slightly orange-toned, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, dark red, complex pattern]
+
+  - key: color.cobalt
+    hint: a deep bright blue colour like the mineral cobalt
+    image: color.cobalt.png
+    brief:
+      subject: cobalt blue jar or circle
+      attrs: [solid deep vivid cobalt blue, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, navy, sky blue, complex pattern]
+
+  - key: color.aqua
+    hint: a bright blue-green colour like clear tropical water (aqua = water in Latin)
+    image: color.aqua.png
+    brief:
+      subject: aqua water wave or simple drop
+      attrs: [solid bright aqua blue-green, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, turquoise, teal, complex pattern]
+
+  - key: color.chartreuse
+    hint: a vivid yellow-green colour halfway between yellow and green
+    image: color.chartreuse.png
+    brief:
+      subject: chartreuse circle
+      attrs: [solid vivid yellow-green chartreuse, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, lime, yellow, complex pattern]
+
+  - key: color.mauve
+    hint: a pale purple-pink colour, a dusty muted purple
+    image: color.mauve.png
+    brief:
+      subject: mauve simple flower or oval
+      attrs: [solid dusty pale purple-pink mauve, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, bright purple, pink, complex pattern]
+
+  - key: color.periwinkle
+    hint: a pale blue-purple colour like the periwinkle flower
+    image: color.periwinkle.png
+    brief:
+      subject: periwinkle flower or simple circle
+      attrs: [solid pale blue-purple periwinkle, simple, bold, cute]
+      setting: [white background, centered]
+      avoid: [text, gradient, violet, blue, complex pattern]
+
+  - key: color.fuchsia
+    hint: a vivid pink-magenta colour like the fuchsia flower
+    image: color.fuchsia.png
+    brief:
+      subject: fuchsia flower
+      attrs: [solid vivid pink-magenta fuchsia, flower shape, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, pink, magenta, complex pattern]
+
+  - key: color.cyan
+    hint: a bright blue-green colour, the complementary colour of red
+    image: color.cyan.png
+    brief:
+      subject: cyan droplet or circle
+      attrs: [solid bright cyan blue-green, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, aqua, teal, complex pattern]
+
+  - key: color.vermillion
+    hint: a vivid red-orange colour like the traditional vermillion pigment
+    image: color.vermillion.png
+    brief:
+      subject: vermillion red-orange circle or paint splash
+      attrs: [solid vivid red-orange vermillion, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, dark red, complex pattern]
+
+  - key: color.ochre
+    hint: a natural earthy yellow-brown colour derived from clay
+    image: color.ochre.png
+    brief:
+      subject: ochre simple square or clay pot
+      attrs: [solid earthy yellow-brown ochre, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, brown, yellow, complex pattern]
+
+  - key: color.sienna
+    hint: a natural earthy brown-orange colour from Siena clay pigment
+    image: color.sienna.png
+    brief:
+      subject: sienna hill shape or clay blob
+      attrs: [solid warm earthy brown-orange sienna, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, brown, ochre, complex pattern]
+
+  - key: color.azure
+    hint: a clear bright blue colour like an unclouded sky
+    image: color.azure.png
+    brief:
+      subject: azure sky circle or cloud with sky
+      attrs: [solid clear bright azure blue, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, navy, cyan, complex pattern]
+
+  - key: color.charcoal
+    hint: a very dark grey colour like charcoal or pencil lead
+    image: color.charcoal.png
+    brief:
+      subject: charcoal dark grey square or pencil
+      attrs: [solid very dark grey charcoal, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, black, medium grey, complex pattern]
+
+  - key: color.burgundy
+    hint: a deep dark red colour like Burgundy wine
+    image: color.burgundy.png
+    brief:
+      subject: burgundy wine glass
+      attrs: [solid deep dark red-purple burgundy, wine glass silhouette, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, maroon, red, complex pattern]

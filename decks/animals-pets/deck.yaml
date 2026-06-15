@@ -80,3 +80,382 @@ cards:
       attrs: [round, fluffy, tri-colour fur, sitting]
       setting: [green meadow, close-up, soft background]
       avoid: [text, cage, humans]
+
+  - key: pet.mouse
+    hint: small domesticated mouse kept as a pet (Mus musculus)
+    image: pet.mouse.png
+    brief:
+      subject: white laboratory or pet mouse
+      attrs: [white, tiny, large ears, curious, whiskers]
+      setting: [wooden surface, pet cage setting, soft light]
+      avoid: [text, dead mouse, humans]
+
+  - key: pet.rat
+    hint: domesticated rat kept as an intelligent affectionate pet (Rattus norvegicus)
+    image: pet.rat.png
+    brief:
+      subject: pet rat
+      attrs: [white or hooded, sitting upright, friendly, intelligent eyes]
+      setting: [wooden surface or owner's hand, soft light]
+      avoid: [text, dead rat, humans]
+
+  - key: pet.ferret
+    hint: playful domesticated mustelid related to weasels (Mustela putorius furo)
+    image: pet.ferret.png
+    brief:
+      subject: ferret
+      attrs: [long slender body, cream or sable, curious face, bright eyes]
+      setting: [wooden floor, soft furnishings, indoor]
+      avoid: [text, humans]
+
+  - key: pet.gerbil
+    hint: small social rodent from desert regions, popular pocket pet (Meriones unguiculatus)
+    image: pet.gerbil.png
+    brief:
+      subject: Mongolian gerbil
+      attrs: [sandy brown, large eyes, long tufted tail, alert]
+      setting: [sand or wood surface, close-up]
+      avoid: [text, humans]
+
+  - key: pet.chinchilla
+    hint: soft-furred South American rodent with very dense coat (Chinchilla lanigera)
+    image: pet.chinchilla.png
+    brief:
+      subject: chinchilla
+      attrs: [grey, ultra-soft dense fur, round ears, big eyes]
+      setting: [shelf or wooden perch, soft light]
+      avoid: [text, cage, humans]
+
+  - key: pet.hedgehog
+    hint: small spiny insectivore rolled into a ball when threatened (Erinaceus europaeus)
+    image: pet.hedgehog.png
+    brief:
+      subject: African pygmy hedgehog
+      attrs: [spiny back, snuffling, small, brown spines white belly]
+      setting: [natural surface, fallen leaves or soft bedding]
+      avoid: [text, humans]
+
+  - key: pet.sugar_glider
+    hint: small nocturnal gliding marsupial from Australia (Petaurus breviceps)
+    image: pet.sugar_glider.png
+    brief:
+      subject: sugar glider
+      attrs: [grey stripe, gliding membrane stretched, large eyes, tiny]
+      setting: [dark background with tree, gliding pose]
+      avoid: [text, cage, humans]
+
+  - key: pet.bearded_dragon
+    hint: popular pet lizard from Australia (Pogona vitticeps)
+    image: pet.bearded_dragon.png
+    brief:
+      subject: bearded dragon
+      attrs: [orange-tan, spiny beard, relaxed on rock, alert]
+      setting: [warm rock, bright light, terrarium feel]
+      avoid: [text, cage, humans]
+
+  - key: pet.leopard_gecko
+    hint: small nocturnal gecko with spots, popular beginner reptile (Eublepharis macularius)
+    image: pet.leopard_gecko.png
+    brief:
+      subject: leopard gecko
+      attrs: [yellow with black spots, large eyes, smiling expression, tail]
+      setting: [rocky surface, warm light, terrarium]
+      avoid: [text, cage, humans]
+
+  - key: pet.corn_snake
+    hint: docile orange-red pet snake, popular beginner reptile (Pantherophis guttatus)
+    image: pet.corn_snake.png
+    brief:
+      subject: corn snake
+      attrs: [orange and red blotches, slender, coiled gently, non-threatening]
+      setting: [wooden surface or branch, soft warm light]
+      avoid: [text, cage, humans]
+
+  - key: pet.axolotl
+    hint: aquatic Mexican salamander that keeps larval gills throughout life (Ambystoma mexicanum)
+    image: pet.axolotl.png
+    brief:
+      subject: axolotl
+      attrs: [pale pink, feathery external gills, smiling face, underwater]
+      setting: [clear aquarium water, aquatic plants, blue-green tones]
+      avoid: [text, humans]
+
+  - key: pet.cockatiel
+    hint: small crested parrot from Australia, popular singing pet (Nymphicus hollandicus)
+    image: pet.cockatiel.png
+    brief:
+      subject: cockatiel
+      attrs: [grey with yellow face, orange cheek patch, crest raised, perched]
+      setting: [natural perch, soft indoor light]
+      avoid: [text, cage, humans]
+
+  - key: pet.lovebird
+    hint: small brightly coloured parrot that bonds in pairs (Agapornis)
+    image: pet.lovebird.png
+    brief:
+      subject: Fischer's lovebird
+      attrs: [green body, orange-red face, round small, vivid colors]
+      setting: [natural branch, soft light]
+      avoid: [text, cage, humans]
+
+  - key: pet.budgerigar
+    hint: small colourful Australian parakeet, most popular pet bird (Melopsittacus undulatus)
+    image: pet.budgerigar.png
+    brief:
+      subject: budgerigar
+      attrs: [green and yellow, blue cere, perched, barred wings]
+      setting: [natural branch, garden light]
+      avoid: [text, cage, humans]
+
+  - key: pet.canary
+    hint: small singing bird bred for its voice and bright yellow colour (Serinus canaria)
+    image: pet.canary.png
+    brief:
+      subject: yellow canary
+      attrs: [bright yellow, small, perched singing]
+      setting: [natural twig, warm soft light]
+      avoid: [text, cage, humans]
+
+  - key: pet.betta_fish
+    hint: colourful labyrinth fish with flowing fins from Southeast Asia (Betta splendens)
+    image: pet.betta_fish.png
+    brief:
+      subject: Siamese fighting fish
+      attrs: [vivid blue-red, flowing fins, in water, dramatic]
+      setting: [clear aquarium, aquatic plants, dark background]
+      avoid: [text, fighting, humans]
+
+  - key: pet.clownfish
+    hint: small orange-white marine fish that lives in sea anemones (Amphiprioninae)
+    image: pet.clownfish.png
+    brief:
+      subject: clownfish
+      attrs: [orange with white bars, in sea anemone, small]
+      setting: [sea anemone, tropical reef, blue water]
+      avoid: [text, net, humans]
+
+  - key: pet.crayfish
+    hint: freshwater crayfish kept in aquariums (Cambarellus or Procambarus)
+    image: pet.crayfish.png
+    brief:
+      subject: blue crayfish
+      attrs: [vivid blue, claws raised, small, in water]
+      setting: [aquarium, pebble bottom, clear water]
+      avoid: [text, boiling, humans]
+
+  - key: pet.tarantula
+    hint: large hairy spider kept as an exotic pet (Theraphosidae)
+    image: pet.tarantula.png
+    brief:
+      subject: rose hair tarantula
+      attrs: [large, hairy legs, brown pink, resting on hand or log]
+      setting: [dark wood surface, macro, moody light]
+      avoid: [text, dead prey, humans]
+
+  - key: pet.hermit_crab
+    hint: land crab that carries a borrowed shell (Coenobita)
+    image: pet.hermit_crab.png
+    brief:
+      subject: hermit crab
+      attrs: [in decorative shell, small claws visible, on sandy surface]
+      setting: [sand, tropical setting, warm light]
+      avoid: [text, humans]
+
+  - key: pet.iguana
+    hint: large herbivorous lizard from Central America kept as a pet (Iguana iguana)
+    image: pet.iguana.png
+    brief:
+      subject: green iguana
+      attrs: [bright green, spiny crest, long tail, basking, alert]
+      setting: [branch, tropical setting, sunny warm]
+      avoid: [text, cage, humans]
+
+  - key: pet.chameleon
+    hint: colour-changing lizard with independently moving eyes (Chamaeleo)
+    image: pet.chameleon.png
+    brief:
+      subject: veiled chameleon
+      attrs: [green turning yellow, independently rotating eyes, gripping branch, tongue coiled]
+      setting: [tropical branch, dappled light]
+      avoid: [text, cage, humans]
+
+  - key: pet.degu
+    hint: small social rodent from Chile, similar to chinchilla (Octodon degus)
+    image: pet.degu.png
+    brief:
+      subject: degu
+      attrs: [brown-grey, large ears, long tail with tufted end, alert]
+      setting: [wooden surface or branch, close-up]
+      avoid: [text, cage, humans]
+
+  - key: pet.prairie_dog
+    hint: burrowing social rodent from North American grasslands (Cynomys)
+    image: pet.prairie_dog.png
+    brief:
+      subject: black-tailed prairie dog
+      attrs: [tan-brown, round, sitting upright, calling]
+      setting: [dry grassland, burrow entrance, sunny]
+      avoid: [text, cage, humans]
+
+  - key: pet.mini_pig
+    hint: miniature domestic pig kept as a companion animal
+    image: pet.mini_pig.png
+    brief:
+      subject: miniature pig
+      attrs: [pink, small, cute expression, standing]
+      setting: [soft bedding or garden, sunny, small]
+      avoid: [text, slaughter, humans]
+
+  - key: pet.koi
+    hint: ornamental variety of common carp bred for bright colours (Cyprinus carpio)
+    image: pet.koi.png
+    brief:
+      subject: koi carp
+      attrs: [vivid orange white red, graceful, in clear water, large]
+      setting: [ornamental garden pond, lily pads, clear water]
+      avoid: [text, humans]
+
+  - key: pet.angelfish
+    hint: tall disc-shaped tropical aquarium fish (Pterophyllum scalare)
+    image: pet.angelfish.png
+    brief:
+      subject: freshwater angelfish
+      attrs: [disc-shaped, striped, elegant long fins, in aquarium]
+      setting: [planted aquarium, green plants, clear water]
+      avoid: [text, humans]
+
+  - key: pet.oscar_fish
+    hint: large intelligent cichlid from South America (Astronotus ocellatus)
+    image: pet.oscar_fish.png
+    brief:
+      subject: oscar cichlid
+      attrs: [dark with orange blotches, large, expressive eyes, in aquarium]
+      setting: [large aquarium, dark background, clear water]
+      avoid: [text, humans]
+
+  - key: pet.dove_pet
+    hint: white dove kept as a gentle pet or used for releases (Columba livia)
+    image: pet.dove_pet.png
+    brief:
+      subject: pet white dove
+      attrs: [pure white, soft, perched on hand, gentle]
+      setting: [indoor or garden, soft natural light]
+      avoid: [text, cage, humans]
+
+  - key: pet.quail_pet
+    hint: button quail or Japanese quail kept as a small pet bird (Coturnix)
+    image: pet.quail_pet.png
+    brief:
+      subject: button quail
+      attrs: [tiny, brown speckled, very small, ground bird]
+      setting: [leaf litter or small enclosure, close-up]
+      avoid: [text, cage, humans]
+
+  - key: pet.mynah_bird
+    hint: talking starling-family bird from Asia (Gracula religiosa)
+    image: pet.mynah_bird.png
+    brief:
+      subject: common hill mynah
+      attrs: [black, yellow wattles, bright eye, perched]
+      setting: [natural branch, soft light]
+      avoid: [text, cage, humans]
+
+  - key: pet.tortoise_pet
+    hint: small land tortoise kept as a long-lived pet (Testudo genus)
+    image: pet.tortoise_pet.png
+    brief:
+      subject: Hermann's tortoise
+      attrs: [domed yellow-brown shell, walking on grass, slow]
+      setting: [garden, green grass, sunny]
+      avoid: [text, cage, humans]
+
+  - key: pet.ball_python
+    hint: docile coiling python popular as a first snake (Python regius)
+    image: pet.ball_python.png
+    brief:
+      subject: ball python
+      attrs: [patterned brown and tan, coiled, placid, smooth scales]
+      setting: [wooden surface, warm light]
+      avoid: [text, cage, humans]
+
+  - key: pet.blue_tongue_skink
+    hint: large skink with a vivid blue tongue (Tiliqua scincoides)
+    image: pet.blue_tongue_skink.png
+    brief:
+      subject: blue-tongue skink
+      attrs: [grey-tan, blue tongue extended, stout body, close-up]
+      setting: [rock or wood surface, warm light, terrarium]
+      avoid: [text, cage, humans]
+
+  - key: pet.crested_gecko
+    hint: nocturnal gecko with eyelash-like crests (Correlophus ciliatus)
+    image: pet.crested_gecko.png
+    brief:
+      subject: crested gecko
+      attrs: [brown-tan, eyelash crests, large eyes, padded toes, clinging]
+      setting: [tropical branch, dark background, moody light]
+      avoid: [text, cage, humans]
+
+  - key: pet.frilled_lizard
+    hint: lizard that displays a large neck frill when threatened (Chlamydosaurus kingii)
+    image: pet.frilled_lizard.png
+    brief:
+      subject: frilled-neck lizard
+      attrs: [frill displayed, orange-brown, bipedal pose, dramatic]
+      setting: [Australian scrub, dry branch, dramatic lighting]
+      avoid: [text, blood, cage]
+
+  - key: pet.red_eared_slider
+    hint: popular pet turtle with red ear patches (Trachemys scripta elegans)
+    image: pet.red_eared_slider.png
+    brief:
+      subject: red-eared slider turtle
+      attrs: [green, red patch behind eye, on basking rock, aquatic]
+      setting: [sunny rock, water below, terrarium or pond]
+      avoid: [text, cage, humans]
+
+  - key: pet.electric_eel
+    hint: freshwater fish that generates powerful electric shocks (Electrophorus electricus)
+    image: pet.electric_eel.png
+    brief:
+      subject: electric eel
+      attrs: [long, olive-grey, in dark water, snake-like]
+      setting: [dark aquarium, black background, murky water]
+      avoid: [text, shock, humans]
+
+  - key: pet.discus_fish
+    hint: colourful disc-shaped tropical fish considered king of aquariums (Symphysodon)
+    image: pet.discus_fish.png
+    brief:
+      subject: discus fish
+      attrs: [circular, vivid turquoise and red stripes, elegant, in aquarium]
+      setting: [planted aquarium, dark background, vivid colors]
+      avoid: [text, humans]
+
+  - key: pet.moon_jellyfish
+    hint: small bioluminescent jellyfish kept in specialised aquariums (Aurelia aurita)
+    image: pet.moon_jellyfish.png
+    brief:
+      subject: moon jellyfish
+      attrs: [translucent white, four rings visible, glowing, floating]
+      setting: [dark aquarium, blue back light, ethereal]
+      avoid: [text, humans]
+
+  - key: pet.sea_horse_pet
+    hint: seahorse kept in specialised marine aquariums (Hippocampus)
+    image: pet.sea_horse_pet.png
+    brief:
+      subject: seahorse in aquarium
+      attrs: [yellow or orange, vertical posture, tail gripping coral, close-up]
+      setting: [marine aquarium, coral, blue water]
+      avoid: [text, cage, humans]
+
+  - key: pet.mandarin_fish
+    hint: extremely colourful small reef fish (Synchiropus splendidus)
+    image: pet.mandarin_fish.png
+    brief:
+      subject: mandarinfish
+      attrs: [psychedelic blue green orange swirls, tiny, on coral, vivid]
+      setting: [coral reef, blue marine water, macro]
+      avoid: [text, humans]
+
