@@ -52,6 +52,7 @@ var FluxDevNodeRoles = NodeRoles{
 	NegativePrompt: "5",
 	Latent:         "6",
 	Sampler:        "8",
+	SaveImage:      "10",
 }
 
 // WithFluxDev switches the client to use the FLUX Dev workflow.
@@ -69,6 +70,7 @@ type NodeRoles struct {
 	NegativePrompt string
 	Latent         string
 	Sampler        string
+	SaveImage      string
 }
 
 var defaultNodeRoles = NodeRoles{
@@ -76,6 +78,7 @@ var defaultNodeRoles = NodeRoles{
 	NegativePrompt: "7",
 	Latent:         "5",
 	Sampler:        "3",
+	SaveImage:      "9",
 }
 
 // Client implements imagegen.ImageGenerator against a ComfyUI server.
@@ -176,7 +179,7 @@ func (c *Client) Generate(ctx context.Context, req imagegen.GenerateRequest) (*i
 	if seed == 0 {
 		seed = randSeed()
 	}
-	graph, err := c.buildWorkflow(req.Prompt, req.NegativePrompt, w, h, n, seed)
+	graph, err := c.buildWorkflow(req.Prompt, req.NegativePrompt, w, h, n, seed, req.FilenamePrefix)
 	if err != nil {
 		return nil, err
 	}
@@ -202,7 +205,7 @@ func (c *Client) Generate(ctx context.Context, req imagegen.GenerateRequest) (*i
 	return resp, nil
 }
 
-func (c *Client) buildWorkflow(prompt, negative string, w, h, batch int, seed int64) (map[string]any, error) {
+func (c *Client) buildWorkflow(prompt, negative string, w, h, batch int, seed int64, filenamePrefix string) (map[string]any, error) {
 	var graph map[string]any
 	if err := json.Unmarshal(c.workflowJSON, &graph); err != nil {
 		return nil, fmt.Errorf("parse workflow: %w", err)
@@ -226,6 +229,11 @@ func (c *Client) buildWorkflow(prompt, negative string, w, h, batch int, seed in
 	}
 	if err := setNodeInput(graph, c.roles.Sampler, "seed", seed); err != nil {
 		return nil, err
+	}
+	if filenamePrefix != "" && c.roles.SaveImage != "" {
+		if err := setNodeInput(graph, c.roles.SaveImage, "filename_prefix", filenamePrefix); err != nil {
+			return nil, err
+		}
 	}
 	return graph, nil
 }

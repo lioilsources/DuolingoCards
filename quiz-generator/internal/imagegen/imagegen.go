@@ -24,6 +24,9 @@ type GenerateRequest struct {
 	// Seed pins the sampler seed for reproducibility. When 0 the backend picks a
 	// random seed.
 	Seed int64 `json:"seed,omitempty"`
+	// FilenamePrefix is an optional hint passed to the backend so the saved output
+	// file carries a descriptive name (e.g. "cards-animals-pets-dog-flux").
+	FilenamePrefix string `json:"filename_prefix,omitempty"`
 }
 
 // GenerateResponse holds generated images.

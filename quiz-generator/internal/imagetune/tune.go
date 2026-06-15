@@ -30,6 +30,9 @@ type Options struct {
 	AspectRatio    string  // default "1:1"
 	Resolution     string  // default "1k"
 	Log            io.Writer
+	// FilenamePrefix is forwarded to the image generator so ComfyUI saves output
+	// with a descriptive name (e.g. "cards-animals-pets-dog-flux").
+	FilenamePrefix string
 }
 
 // IterRecord captures one generate→validate→refine round for the transcript.
@@ -90,6 +93,7 @@ func Tune(ctx context.Context, gen imagegen.ImageGenerator, val imageValidator, 
 			Resolution:     res,
 			ResponseFormat: "b64_json",
 			Seed:           seed,
+			FilenamePrefix: opts.FilenamePrefix,
 		})
 		if err != nil {
 			return out, fmt.Errorf("generate (iter %d): %w", i, err)

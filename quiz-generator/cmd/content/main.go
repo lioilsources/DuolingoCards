@@ -19,6 +19,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 	"sync"
 	"time"
 
@@ -64,6 +65,26 @@ func buildTarget(c content.CardYAML, d *content.Deck) imagetune.Target {
 		}
 	}
 	return t
+}
+
+// imageFilenamePrefix builds the ComfyUI filename_prefix for a card image so the
+// output appears in the UI as e.g. "cards-animals-pets-dog-flux" instead of the
+// generic "cards_*" default.
+func imageFilenamePrefix(deckSlug, cardKey, style string) string {
+	// Strip namespace prefix from card key: "pets.dog" → "dog"
+	keyPart := cardKey
+	if i := strings.LastIndex(cardKey, "."); i >= 0 {
+		keyPart = cardKey[i+1:]
+	}
+	// Short style alias: "flux-real" → "flux", "pony-cartoon" → "pony"
+	styleAlias := style
+	switch style {
+	case "flux-real":
+		styleAlias = "flux"
+	case "pony-cartoon":
+		styleAlias = "pony"
+	}
+	return fmt.Sprintf("cards-%s-%s-%s", deckSlug, keyPart, styleAlias)
 }
 
 // writeTranscript saves the per-card tuning transcript (Markdown, and optionally
@@ -429,6 +450,7 @@ func runImages(args []string) error {
 						AspectRatio:    "1:1",
 						Resolution:     "1k",
 						Log:            os.Stderr,
+						FilenamePrefix: imageFilenamePrefix(j.deck.Meta.Slug, j.card.Key, j.style),
 					})
 					if err == nil {
 						err = os.WriteFile(j.outPath, result.Image, 0644)
@@ -476,6 +498,7 @@ func runImages(args []string) error {
 					Resolution:     "1k",
 					ResponseFormat: "b64_json",
 					Seed:           j.seed,
+					FilenamePrefix: imageFilenamePrefix(j.deck.Meta.Slug, j.card.Key, j.style),
 				})
 				mu.Lock()
 				if err != nil {
