@@ -1,0 +1,57 @@
+style: flux-real
+cards:
+    emotion.angry:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), furrowed brows, scowling mouth, red face, fists clenched angry cartoon child character in orange-red background, simple, centered. Clean composition without text, happy expression, sad expression, violence. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7278343019391057823
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T05:12:55Z"
+    emotion.calm:
+        positive: calm cartoon child character with a gentle smile, completely closed relaxed eyes conveying peace, peaceful expression, hands resting on lap, standing centered against a soft mint green background, clean composition without text, angry expressions, stress, chaos
+        seed: 4993263873492099541
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T05:20:29Z"
+    emotion.excited:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), huge grin, sparkling eyes, jumping or dancing, arms wide excited cartoon child character in bright green background, simple, centered, confetti. Clean composition without text, calm expression, sad expression, violence. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1556917616450136686
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T05:19:03Z"
+    emotion.happy:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), big smile, bright eyes, arms raised, joyful expression happy cartoon child character in warm yellow background, simple, centered. Clean composition without text, tears, dark mood, scary. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8826716625471635564
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T05:11:57Z"
+    emotion.sad:
+        positive: sad cartoon child character with a clear frown, downcast eyes, subtle tear on cheek, drooping posture, soft blue background, centered composition
+        seed: 1122757758271827193
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T05:15:33Z"
+    emotion.scared:
+        positive: a scared cartoon child character with a deeply hunched posture, arms wrapped tightly around their head as if shielding themselves from unseen danger, extremely wide and glassy terrified eyes filled with dread, visible trembling throughout every limb, set against a plain dark grey-blue backdrop with soft ambient lighting emphasizing isolation and vulnerability
+        seed: 4381565659341102495
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T05:18:10Z"
+    emotion.surprised:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), wide open eyes, open mouth O-shape, hands on cheeks, eyebrows raised surprised cartoon child character in light purple background, simple, centered. Clean composition without text, scared expression, calm expression, violence. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6595408083551543308
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T05:13:49Z"
+    emotion.tired:
+        positive: a tired cartoon child character with half-closed droopy eyes, open-mouthed yawn, deeply slumped posture, soft grey background, centered composition
+        seed: 6690347201075706937
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T05:19:40Z"

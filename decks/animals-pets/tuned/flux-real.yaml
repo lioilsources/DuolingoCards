@@ -1,0 +1,56 @@
+style: flux-real
+cards:
+    pet.cat:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), sitting upright, alert, striped fur tabby cat in on a wooden floor, indoors, warm light. Clean composition without text, humans, other animals. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8772004897284885276
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T04:15:44Z"
+    pet.dog:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), sitting, wagging tail, friendly, fluffy golden retriever dog in garden lawn, outdoor, sunny day. Clean composition without text, leash, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6358145467030335787
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T04:15:15Z"
+    pet.goldfish:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), orange, flowing fins, swimming goldfish in clear water, aquatic plants, bubbles. Clean composition without text, humans, bowl label. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2828045587282327785
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T04:16:58Z"
+    pet.guinea_pig:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), round, fluffy, tri-colour fur, sitting guinea pig in green meadow, close-up, soft background. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1682083645207215437
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T04:18:24Z"
+    pet.hamster:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), chubby cheeks, round body, holding food golden hamster in wooden surface, soft background. Clean composition without text, cage, wheel. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 25837254264888246
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T04:16:34Z"
+    pet.parrot:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), perched, bright green and yellow feathers, curious green budgerigar parakeet in wooden perch, blurred indoor background. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4059065475889047790
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T04:17:24Z"
+    pet.rabbit:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), sitting, long ears, fluffy, cute white rabbit in green grass, garden, soft light. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5284726617156198135
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T04:16:07Z"
+    pet.turtle:
+        positive: small red-eared slider turtle resting on smooth stones at edge of shallow pond water, tiny green shell with distinct red facial markings visible
+        seed: 5559850821067333238
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T04:18:46Z"

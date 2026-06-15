@@ -1,0 +1,56 @@
+style: flux-real
+cards:
+    weather.cloudy:
+        positive: large dense white and grey clouds filling almost all of the sky from horizon to horizon creating a full overcast gray ceiling with soft diffused light and no sign of sun
+        seed: 4056060449831514283
+        score: 8
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T05:25:59Z"
+    weather.foggy:
+        positive: Thick low white fog hugging the forest floor on a foggy morning, dense fog reducing visibility as trees fade into the haze, early morning ethereal atmosphere
+        seed: 6794996484277039491
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T05:30:05Z"
+    weather.rainbow:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), full arc rainbow, seven colours, bright, clearing sky, blue sky visible rainbow after rain in outdoor, landscape, after rain, uplifting. Clean composition without text, dark storm, no rainbow, people. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1704063060300492052
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T05:30:25Z"
+    weather.rainy:
+        positive: Heavy rain falling under dark grey storm clouds with puddles reflecting the gloom on a wet street, raindrops creating ripples, no sunlight breaking through, clean composition without text, sunshine, snow, people
+        seed: 8621136363045169061
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T05:21:54Z"
+    weather.snowy:
+        positive: Snowy day with delicate snowflakes drifting down onto a pristine white snow-covered ground beneath bare leafless trees under a muted grey overcast sky in a quiet serene winter forest clearing clean composition without humans or text
+        seed: 8123664726362503414
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T05:23:26Z"
+    weather.stormy:
+        positive: dark stormy thunderclouds over a turbulent sea with jagged lightning bolts piercing through heavy torrential rain under a brooding twilight sky intense chiaroscuro lighting emphasizing contrast deep shadows and electric energy atmospheric tension raw power of nature cinematic wide angle perspective epic scale primal force untamed wilderness majestic yet ominous mood
+        seed: 6257313015727436227
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T05:29:30Z"
+    weather.sunny:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), large yellow sun, clear blue sky, warm light rays bright sunny day in outdoor, green landscape, simple horizon. Clean composition without text, clouds, rain, people. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8548411529229481075
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T05:21:31Z"
+    weather.windy:
+        positive: Strong wind bends trees dramatically with sharply curved branches, sending many leaves swirling and dancing through the air in graceful arcs across an open sunny meadow.
+        seed: 2581033027718468071
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T05:27:33Z"
