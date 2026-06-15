@@ -1,22 +1,35 @@
 import 'dart:io' show Platform;
 
-/// Local, bundled product catalog (`assets/catalog.json`) — the no-backend
-/// replacement for a server-side entitlement table.
+/// Local, bundled product catalog (`assets/catalog.json`).
 ///
-/// It maps store SKUs (per platform) to the deck slugs they unlock and lists
-/// the decks that are free. Because everything ships in the binary
-/// (distribution variant B), a purchase only flips a local entitlement flag.
+/// Contains:
+/// - [free] deck slugs (tier 0 — no purchase needed)
+/// - [creditPacks] consumable IAP products that add credits to the balance
+/// - [deckPricing] tier → credit cost mapping
+/// - [products] legacy non-consumable products (kept for restore compatibility)
 class StoreCatalog {
-  /// Deck slugs that require no purchase.
   final List<String> free;
+  final List<CreditPack> creditPacks;
+  final List<DeckPricingTier> deckPricing;
   final List<StoreProduct> products;
 
-  const StoreCatalog({required this.free, required this.products});
+  const StoreCatalog({
+    required this.free,
+    required this.creditPacks,
+    required this.deckPricing,
+    required this.products,
+  });
 
   factory StoreCatalog.fromJson(Map<String, dynamic> json) {
     return StoreCatalog(
       free: (json['free'] as List<dynamic>? ?? const [])
           .map((e) => e as String)
+          .toList(),
+      creditPacks: (json['creditPacks'] as List<dynamic>? ?? const [])
+          .map((e) => CreditPack.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      deckPricing: (json['deckPricing'] as List<dynamic>? ?? const [])
+          .map((e) => DeckPricingTier.fromJson(e as Map<String, dynamic>))
           .toList(),
       products: (json['products'] as List<dynamic>? ?? const [])
           .map((e) => StoreProduct.fromJson(e as Map<String, dynamic>))
@@ -26,15 +39,31 @@ class StoreCatalog {
 
   bool isFree(String deckSlug) => free.contains(deckSlug);
 
-  /// The product whose [StoreProduct.unlocks] contains [deckSlug], or null.
-  StoreProduct? productForDeck(String deckSlug) {
-    for (final p in products) {
-      if (p.unlocks.contains(deckSlug)) return p;
+  /// Credit cost for a given [tier] (defaults to 1 if tier not in deckPricing).
+  int creditsForTier(int tier) {
+    for (final t in deckPricing) {
+      if (t.tier == tier) return t.credits;
+    }
+    return 1;
+  }
+
+  /// All credit-pack SKUs for the current platform.
+  Set<String> creditPackSkusForCurrentPlatform() {
+    return creditPacks
+        .map((p) => p.skuForCurrentPlatform())
+        .whereType<String>()
+        .toSet();
+  }
+
+  /// Find a credit pack by its platform SKU.
+  CreditPack? creditPackForSku(String sku) {
+    for (final p in creditPacks) {
+      if (p.skuForCurrentPlatform() == sku) return p;
     }
     return null;
   }
 
-  /// SKUs to query from the store for the current platform.
+  // Legacy non-consumable helpers (kept for restore flow).
   Set<String> skusForCurrentPlatform() {
     return products
         .map((p) => p.skuForCurrentPlatform())
@@ -42,7 +71,13 @@ class StoreCatalog {
         .toSet();
   }
 
-  /// Resolve a platform SKU back to its product code.
+  StoreProduct? productForDeck(String deckSlug) {
+    for (final p in products) {
+      if (p.unlocks.contains(deckSlug)) return p;
+    }
+    return null;
+  }
+
   StoreProduct? productForSku(String sku) {
     for (final p in products) {
       if (p.skuForCurrentPlatform() == sku) return p;
@@ -51,14 +86,59 @@ class StoreCatalog {
   }
 }
 
-class StoreProduct {
-  /// Platform-neutral product code (e.g. `pack.animals.mega`).
+/// A consumable IAP product that adds [credits] to the user's balance.
+class CreditPack {
   final String code;
-
-  /// Platform → store SKU (keys: `apple`, `google`).
+  final int credits;
   final Map<String, String> sku;
+  final String? bonus;
+  final bool highlighted;
 
-  /// Deck slugs unlocked when this product is owned.
+  const CreditPack({
+    required this.code,
+    required this.credits,
+    required this.sku,
+    this.bonus,
+    this.highlighted = false,
+  });
+
+  factory CreditPack.fromJson(Map<String, dynamic> json) {
+    return CreditPack(
+      code: json['code'] as String,
+      credits: json['credits'] as int,
+      sku: (json['sku'] as Map<String, dynamic>? ?? const {})
+          .map((k, v) => MapEntry(k, v as String)),
+      bonus: json['bonus'] as String?,
+      highlighted: json['highlighted'] as bool? ?? false,
+    );
+  }
+
+  String? skuForCurrentPlatform() {
+    if (Platform.isIOS || Platform.isMacOS) return sku['apple'];
+    if (Platform.isAndroid) return sku['google'];
+    return sku.values.isNotEmpty ? sku.values.first : null;
+  }
+}
+
+/// Maps a deck tier to a credit cost.
+class DeckPricingTier {
+  final int tier;
+  final int credits;
+
+  const DeckPricingTier({required this.tier, required this.credits});
+
+  factory DeckPricingTier.fromJson(Map<String, dynamic> json) {
+    return DeckPricingTier(
+      tier: json['tier'] as int,
+      credits: json['credits'] as int,
+    );
+  }
+}
+
+/// Legacy non-consumable product (kept for restore compatibility).
+class StoreProduct {
+  final String code;
+  final Map<String, String> sku;
   final List<String> unlocks;
 
   const StoreProduct({
@@ -81,7 +161,6 @@ class StoreProduct {
   String? skuForCurrentPlatform() {
     if (Platform.isIOS || Platform.isMacOS) return sku['apple'];
     if (Platform.isAndroid) return sku['google'];
-    // Fallback for desktop/dev: first defined SKU.
     return sku.values.isNotEmpty ? sku.values.first : null;
   }
 }

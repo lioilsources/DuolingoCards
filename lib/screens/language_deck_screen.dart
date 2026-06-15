@@ -133,7 +133,7 @@ class _CardView extends StatelessWidget {
           borderRadius: BorderRadius.circular(12),
           child: card.image.isNotEmpty
               ? Image.asset(
-                  'assets/decks/$slug/images/$style/${card.image}',
+                  'decks/$slug/images/$style/${card.image}',
                   height: 220,
                   width: double.infinity,
                   fit: BoxFit.cover,

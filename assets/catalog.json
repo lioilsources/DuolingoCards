@@ -1,19 +1,36 @@
 {
   "free": [
-    "animals-wild"
+    "animals-wild",
+    "body-parts",
+    "colors-basic",
+    "emotions",
+    "food-fruits",
+    "food-vegetables",
+    "numbers-1-10",
+    "weather"
   ],
-  "products": [
+  "creditPacks": [
     {
-      "code": "pack.animals.mega",
-      "sku": {
-        "apple": "com.ol1n.cards.animals",
-        "google": "pack_animals_mega"
-      },
-      "unlocks": [
-        "animals-sea",
-        "animals-birds",
-        "animals-birds-flux"
-      ]
+      "code": "credits.pack.3",
+      "credits": 3,
+      "sku": { "apple": "com.ol1n.cards.credits3", "google": "credits_pack_3" }
+    },
+    {
+      "code": "credits.pack.10",
+      "credits": 10,
+      "sku": { "apple": "com.ol1n.cards.credits10", "google": "credits_pack_10" },
+      "bonus": "10 decků za cenu 2",
+      "highlighted": true
+    },
+    {
+      "code": "credits.pack.25",
+      "credits": 25,
+      "sku": { "apple": "com.ol1n.cards.credits25", "google": "credits_pack_25" }
     }
-  ]
+  ],
+  "deckPricing": [
+    { "tier": 0, "credits": 0 },
+    { "tier": 1, "credits": 1 }
+  ],
+  "products": []
 }

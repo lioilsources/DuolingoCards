@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
 
 import '../models/language_deck.dart';
+import '../models/search_index.dart';
 import '../services/entitlement_service.dart';
 import '../services/language_deck_service.dart';
-import 'language_deck_screen.dart';
+import '../services/search_service.dart';
+import '../widgets/credit_balance_header.dart';
+import '../widgets/credit_pack_sheet.dart';
+import 'deck_store_detail_screen.dart';
 
-/// No-backend deck store.
+/// Deck store: searchable list of all bundled decks.
 ///
-/// All decks ship in the binary (distribution variant B); this screen lists
-/// the bundled [LanguageDeck]s and uses [EntitlementService] to show whether
-/// each is free, already unlocked, or purchasable. Buying flips a local
-/// entitlement on-device — there is no catalog API and no download step.
+/// Tap a deck to open [DeckStoreDetailScreen] where the user picks language,
+/// style, previews cards, and unlocks or opens the deck.
 class DeckStoreScreen extends StatefulWidget {
   const DeckStoreScreen({super.key});
 
@@ -20,9 +22,13 @@ class DeckStoreScreen extends StatefulWidget {
 
 class _DeckStoreScreenState extends State<DeckStoreScreen> {
   final EntitlementService _entitlements = EntitlementService();
-  final LanguageDeckService _decks = LanguageDeckService.instance;
+  final LanguageDeckService _deckService = LanguageDeckService.instance;
+  final SearchService _searchService = SearchService.instance;
+  final TextEditingController _searchCtrl = TextEditingController();
 
   List<LanguageDeck> _allDecks = [];
+  SearchIndex? _index;
+  List<DeckSearchEntry> _results = [];
   bool _isLoading = true;
   String? _error;
 
@@ -30,18 +36,25 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
   void initState() {
     super.initState();
     _entitlements.addListener(_onEntitlementsChanged);
+    _searchCtrl.addListener(_onSearch);
     _init();
   }
 
   @override
   void dispose() {
     _entitlements.removeListener(_onEntitlementsChanged);
-    _entitlements.dispose();
+    _searchCtrl.dispose();
     super.dispose();
   }
 
   void _onEntitlementsChanged() {
     if (mounted) setState(() {});
+  }
+
+  void _onSearch() {
+    final idx = _index;
+    if (idx == null) return;
+    setState(() => _results = idx.search(_searchCtrl.text));
   }
 
   Future<void> _init() async {
@@ -51,9 +64,12 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
     });
     try {
       await _entitlements.initialize();
-      final decks = await _decks.loadAll();
+      final decks = await _deckService.loadAll();
+      final index = await _searchService.buildIndex(decks);
       setState(() {
         _allDecks = decks;
+        _index = index;
+        _results = index.search(_searchCtrl.text);
         _isLoading = false;
       });
     } catch (e) {
@@ -64,18 +80,14 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
     }
   }
 
-  Future<void> _buy(LanguageDeck deck) async {
-    final ok = await _entitlements.purchaseDeck(deck.slug);
-    if (!ok && mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Purchase could not be started')),
-      );
-    }
-  }
-
-  void _open(LanguageDeck deck) {
+  void _openDetail(LanguageDeck deck) {
     Navigator.of(context).push(
-      MaterialPageRoute(builder: (_) => LanguageDeckScreen(deck: deck)),
+      MaterialPageRoute(
+        builder: (_) => DeckStoreDetailScreen(
+          deck: deck,
+          entitlements: _entitlements,
+        ),
+      ),
     );
   }
 
@@ -93,7 +105,43 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
           IconButton(icon: const Icon(Icons.refresh), onPressed: _init),
         ],
       ),
-      body: _buildBody(),
+      body: Column(
+        children: [
+          ListenableBuilder(
+            listenable: _entitlements,
+            builder: (context, _) => CreditBalanceHeader(
+              balance: _entitlements.creditBalance,
+              onBuyCredits: () => showCreditPackSheet(context, _entitlements),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
+            child: TextField(
+              controller: _searchCtrl,
+              decoration: InputDecoration(
+                hintText: 'Hledat decky...',
+                prefixIcon: const Icon(Icons.search),
+                suffixIcon: _searchCtrl.text.isNotEmpty
+                    ? IconButton(
+                        icon: const Icon(Icons.clear),
+                        onPressed: () {
+                          _searchCtrl.clear();
+                          _onSearch();
+                        },
+                      )
+                    : null,
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(12),
+                  borderSide: BorderSide.none,
+                ),
+                filled: true,
+                isDense: true,
+              ),
+            ),
+          ),
+          Expanded(child: _buildBody()),
+        ],
+      ),
     );
   }
 
@@ -111,24 +159,31 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
         ),
       );
     }
-    if (_allDecks.isEmpty) {
-      return const Center(child: Text('No decks available'));
+    if (_results.isEmpty) {
+      return Center(
+        child: Text(
+          _searchCtrl.text.isEmpty ? 'No decks available.' : 'Nothing found.',
+          style: TextStyle(color: Colors.grey.shade600),
+        ),
+      );
     }
+
     return RefreshIndicator(
       onRefresh: _init,
       child: ListView.builder(
-        padding: const EdgeInsets.all(16),
-        itemCount: _allDecks.length,
-        itemBuilder: (context, index) {
-          final deck = _allDecks[index];
-          final unlocked = _entitlements.isUnlocked(deck.slug);
-          final price = _entitlements.priceForDeck(deck.slug);
-          return _DeckCard(
+        padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+        itemCount: _results.length,
+        itemBuilder: (context, i) {
+          final entry = _results[i];
+          final deck = _allDecks.firstWhere(
+            (d) => d.slug == entry.slug,
+            orElse: () => _allDecks.first,
+          );
+          return _DeckTile(
             deck: deck,
-            unlocked: unlocked,
-            price: price,
-            onBuy: () => _buy(deck),
-            onOpen: () => _open(deck),
+            isFree: _entitlements.catalog?.isFree(deck.slug) ?? false,
+            cost: _entitlements.creditCostForTier(deck.tier),
+            onTap: () => _openDetail(deck),
           );
         },
       ),
@@ -136,55 +191,72 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
   }
 }
 
-class _DeckCard extends StatelessWidget {
+class _DeckTile extends StatelessWidget {
   final LanguageDeck deck;
-  final bool unlocked;
-  final String? price;
-  final VoidCallback onBuy;
-  final VoidCallback onOpen;
+  final bool isFree;
+  final int cost;
+  final VoidCallback onTap;
 
-  const _DeckCard({
+  const _DeckTile({
     required this.deck,
-    required this.unlocked,
-    required this.price,
-    required this.onBuy,
-    required this.onOpen,
+    required this.isFree,
+    required this.cost,
+    required this.onTap,
   });
 
   @override
   Widget build(BuildContext context) {
-    final title = deck.titles['en'] ?? deck.title('en');
     return Card(
-      margin: const EdgeInsets.only(bottom: 12),
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Row(
+      margin: const EdgeInsets.only(bottom: 10),
+      child: ListTile(
+        onTap: onTap,
+        title: Text(
+          deck.title(Localizations.localeOf(context).languageCode),
+          style: const TextStyle(fontWeight: FontWeight.w600),
+        ),
+        subtitle: Text(
+          '${deck.cards.length} karet · ${deck.availableLanguages.length} jazyků',
+        ),
+        trailing: Row(
+          mainAxisSize: MainAxisSize.min,
           children: [
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(title,
-                      style: const TextStyle(
-                          fontSize: 18, fontWeight: FontWeight.bold)),
-                  const SizedBox(height: 4),
-                  Text(
-                    '${deck.cards.length} cards • ${deck.availableLanguages.length} languages',
-                    style: TextStyle(color: Colors.grey.shade600),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(width: 8),
-            if (unlocked)
-              ElevatedButton(onPressed: onOpen, child: const Text('Open'))
+            if (isFree)
+              _Badge(label: 'Zdarma', color: Colors.green.shade600)
             else
-              ElevatedButton.icon(
-                onPressed: onBuy,
-                icon: const Icon(Icons.shopping_cart),
-                label: Text(price ?? 'Buy'),
+              _Badge(
+                label: '$cost kr.',
+                color: Theme.of(context).colorScheme.primary,
               ),
+            const SizedBox(width: 4),
+            const Icon(Icons.chevron_right),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+class _Badge extends StatelessWidget {
+  final String label;
+  final Color color;
+
+  const _Badge({required this.label, required this.color});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: 0.12),
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(color: color.withValues(alpha: 0.4)),
+      ),
+      child: Text(
+        label,
+        style: TextStyle(
+          fontSize: 11,
+          fontWeight: FontWeight.w600,
+          color: color,
         ),
       ),
     );

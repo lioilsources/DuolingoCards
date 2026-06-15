@@ -2,18 +2,13 @@ import 'dart:async';
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
-import 'package:in_app_purchase_storekit/in_app_purchase_storekit.dart';
 import 'package:in_app_purchase_storekit/store_kit_wrappers.dart';
 
 /// No-backend in-app purchase client.
 ///
-/// This is a thin, SKU-generic wrapper around `in_app_purchase`. Purchases are
-/// verified *on device* by StoreKit 2 / Play Billing — there is no server and
-/// no receipt is forwarded anywhere. The store remains the source of truth;
-/// [restorePurchases] re-derives ownership at any time.
-///
-/// Mapping SKU → unlocked decks lives in [EntitlementService] (driven by the
-/// bundled `catalog.json`), keeping this class free of product knowledge.
+/// Handles both non-consumable products (legacy deck bundles) and consumable
+/// credit packs. Purchases are verified on-device by StoreKit 2 / Play Billing.
+/// Product-to-entitlement mapping lives in [EntitlementService].
 class IAPService {
   static final IAPService _instance = IAPService._internal();
   factory IAPService() => _instance;
@@ -22,17 +17,28 @@ class IAPService {
   final InAppPurchase _iap = InAppPurchase.instance;
   StreamSubscription<List<PurchaseDetails>>? _subscription;
 
-  /// Fired when a SKU becomes owned (fresh purchase or restore). The bool is
-  /// true for a brand-new purchase, false for a restore.
+  // Non-consumable callback (legacy deck bundles + restore).
   void Function(String sku, {required bool restored})? onProductOwned;
+
+  // Consumable callback (credit packs). EntitlementService resolves the credit
+  // amount from the catalog by SKU.
+  void Function(String sku, {required bool restored})? onConsumablePurchased;
+
   void Function(String error)? onPurchaseError;
 
   bool _isAvailable = false;
   Map<String, ProductDetails> _products = {};
   final Set<String> _ownedSkus = {};
+  Set<String> _consumableSkus = {};
 
   bool get isAvailable => _isAvailable;
   Set<String> get ownedSkus => Set.unmodifiable(_ownedSkus);
+
+  /// Register which SKUs should be treated as consumable (credit packs).
+  /// Must be called before [initialize].
+  void registerConsumableSkus(Set<String> skus) {
+    _consumableSkus = Set.unmodifiable(skus);
+  }
 
   Future<void> initialize() async {
     _isAvailable = await _iap.isAvailable();
@@ -47,7 +53,7 @@ class IAPService {
       onError: (error) => debugPrint('IAP stream error: $error'),
     );
 
-    // Clear any stuck iOS transactions left from a previous run.
+    // Clear stuck iOS transactions from previous runs.
     if (Platform.isIOS) {
       final paymentWrapper = SKPaymentQueueWrapper();
       final transactions = await paymentWrapper.transactions();
@@ -69,10 +75,9 @@ class IAPService {
   }
 
   ProductDetails? product(String sku) => _products[sku];
-
   String? localizedPrice(String sku) => _products[sku]?.price;
 
-  /// Start a non-consumable purchase for [sku].
+  /// Start a non-consumable purchase (legacy deck bundles).
   Future<bool> buy(String sku) async {
     if (!_isAvailable) {
       onPurchaseError?.call('In-App Purchases not available');
@@ -93,8 +98,28 @@ class IAPService {
     }
   }
 
-  /// Ask the store to replay owned products; each arrives via [onProductOwned]
-  /// with `restored: true`.
+  /// Start a consumable purchase (credit packs).
+  Future<bool> buyConsumable(String sku) async {
+    if (!_isAvailable) {
+      onPurchaseError?.call('In-App Purchases not available');
+      return false;
+    }
+    final details = _products[sku];
+    if (details == null) {
+      onPurchaseError?.call('Product not found: $sku');
+      return false;
+    }
+    try {
+      return await _iap.buyConsumable(
+        purchaseParam: PurchaseParam(productDetails: details),
+      );
+    } catch (e) {
+      onPurchaseError?.call(e.toString());
+      return false;
+    }
+  }
+
+  /// Ask the store to replay owned non-consumable products.
   Future<void> restorePurchases() async {
     if (!_isAvailable) return;
     await _iap.restorePurchases();
@@ -107,6 +132,8 @@ class IAPService {
   }
 
   Future<void> _handlePurchase(PurchaseDetails purchase) async {
+    final isConsumable = _consumableSkus.contains(purchase.productID);
+
     switch (purchase.status) {
       case PurchaseStatus.pending:
         debugPrint('Purchase pending: ${purchase.productID}');
@@ -116,18 +143,21 @@ class IAPService {
         break;
       case PurchaseStatus.purchased:
       case PurchaseStatus.restored:
-        _ownedSkus.add(purchase.productID);
-        onProductOwned?.call(
-          purchase.productID,
-          restored: purchase.status == PurchaseStatus.restored,
-        );
+        final wasRestored = purchase.status == PurchaseStatus.restored;
+        if (isConsumable) {
+          onConsumablePurchased?.call(purchase.productID, restored: wasRestored);
+        } else {
+          _ownedSkus.add(purchase.productID);
+          onProductOwned?.call(purchase.productID, restored: wasRestored);
+        }
         break;
       case PurchaseStatus.canceled:
         debugPrint('Purchase canceled: ${purchase.productID}');
         break;
     }
 
-    if (purchase.pendingCompletePurchase) {
+    // Consumables must be completed immediately (no pendingCompletePurchase guard).
+    if (isConsumable || purchase.pendingCompletePurchase) {
       await _iap.completePurchase(purchase);
     }
   }
