@@ -1,0 +1,36 @@
+lang: la
+pivot: false
+title: Emotio
+cards:
+  emotion.angry:
+    label: indignatus
+    summary: Sentire fortem indignationem vel iram, esse exasperatum.
+    info: Indignatio est affectus ut reactio ad perceptam iniustitiam aut minacem. Aumentat frequention cordis et parat corpus ad reactionem 'pugna vel fugi'.
+  emotion.calm:
+    label: tranquillus
+    summary: Sentire pacem interiorem et commodum, esse tranquillo.
+    info: Tranquillicitas est status aequilibri mentis et corporis. Mitigit pulsus cardiacum, profundat respirationem et permittit cogitationem claram et bonam decisionem.
+  emotion.excited:
+    label: gaudens
+    summary: Sentire fortis gaudium et exspectationem iucundam.
+    info: Gaudium est intensa affectus positiva cum expectatio eventus gratissimi. Augeat vim, acceleret cor et creativum cogitationem fovet.
+  emotion.happy:
+    label: felix
+    summary: Gaudium aut voluptatem sentire vel esse in bono dispositione.
+    info: Felix est affectus placens cum liberatio dopamine et serotonini associatur. Apparet risu, gestibus vivis et corpore aperto.
+  emotion.sad:
+    label: tristis
+    summary: Sentire dolorem vel insatisfactum esse, depressus esse.
+    info: Tristitia est affectus naturalis ut reactio ad amissim aut frustratio. Manifestatur lacrimis, angulis labiorum deprimitis et gestu defletito.
+  emotion.scared:
+    label: timidus
+    summary: Sentiremetum vel formorem de periculo aut minacem.
+    info: Timor est affectus defensivus fundamentalis. Inducit liberatio adrenaline, accelerat cor et parat corpus ad fugam vel protectionem.
+  emotion.surprised:
+    label: miratus
+    summary: Sentire subitum miramentum super eventu inexpectato.
+    info: Miramentum est affectus brevis qui durat solum secundis paucas. Apparet ore aperto, elevatis superciliis et pupillis dilatatibus.
+  emotion.tired:
+    label: fatigatus
+    summary: Sentire fatigationem corporalem vel mentalem et requirere requiem.
+    info: Fatiga est signum corporis quod requirit requiem. Apparet dormientia, tarditate reactionum et diminuta facultate concentendi.

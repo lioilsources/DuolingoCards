@@ -1,0 +1,36 @@
+lang: ha
+pivot: false
+title: Watakan Sauran Arewa
+cards:
+  weather.cloudy:
+    label: oblačno
+    summary: Obloha piny daidai wato garken ran, an gan shafin ran.
+    info: Wato garken ran ya zama daga kanne da yake wajen ran da yauka ran. Masu ran na farko ya kira adi 60% ran suna.
+  weather.foggy:
+    label: mlhavo
+    summary: Haushe da yake ne wajen gari.
+    info: Mlhavo ya ke maraka daga cikin gami, ya kamatawa minci zuwa ukan daga muka. Ya kasance don karshe mai karfi da suka hausa daga kilomitru.
+  weather.rainbow:
+    label: duha
+    summary: Gororin arka duka da ranin gilci ta hanyar ranu wanda yake ranar sun tsoro.
+    info: Duka ya rawere da ranar sun lafiya kafin ranu ne kuma ranar sun yi amfani da ranau ranu. Ya canza sashinan duka - kamar da kawkawo, warsha, zauro, zulufawa, birnin, indigo, da mutum.
+  weather.rainy:
+    label: déšť
+    summary: Mau kòfà da yake na gilma daga mara.
+    info: Dènye ya kamata wajen kandensashin garku wani gilman duka mara. Ya zaici kowanne rungawa, tsamiya, da amfaniyar gilman da kusanyi, kuma kafin dènya ya kuje don ranar 9 m / s.
+  weather.snowy:
+    label: sneji
+    summary: Mai wace da suzu a cikin gilma.
+    info: Sneji yake ne don zamani mai wace da suzu a cikin gilma, ya kamata daga ran koye zuwa ran zuguwanci. Wato ran ran koye a cikin gilma za ka’are zuwa kristali n’kafin ran, wanda ke amfani da simetriya.
+  weather.stormy:
+    label: Boushiki
+    summary: Wajeti hausa da gaskiya, harbin da uwan zamani.
+    info: Boushika ya nace wato kuma da nimbi. Gaski ne elektiricitari da ke samun daga farko na farko; Harbe ne amfani da sauri duka shekaru ta yauke suzu wato.
+  weather.sunny:
+    label: sunan
+    summary: Gari gaba da suna, kuma kan musamman.
+    info: Sunanan watsakan jangare suka kamaruwa yake kaukale suna kamaruwan kusa. Suna ya yi dawakin gaji da wasu ga'acewaka ke biyanin halbawa.
+  weather.windy:
+    label: wàtèr
+    summary: Har jinsha daga hunkuna kuma da yake na daraje tsamiya.
+    info: Wata'ru ya haifar da farko ta wani gaskiya tare da farko ta har da mutum shi ne kamar suka zuwa alama ga daya da adan ki ka'idari kuma zuwa alama ga daya da adan ki kasa.

@@ -1,0 +1,36 @@
+lang: de
+pivot: false
+title: Wetter
+cards:
+  weather.cloudy:
+    label: wolkenbedeckt
+    summary: Himmel bedeckt mit dichten Wolken, ohne direkte Sonne.
+    info: Wolken sind sichtbare Ansammlungen von winzigen Wassertröpfchen oder Eiskristallen. Mehr als 60 % der Erdatmosphäre ist stets bewölkt.
+  weather.foggy:
+    label: nebelhaft
+    summary: Dichter Bodennebel, der die Sicht stark reduziert.
+    info: Nebel besteht aus Wassertröpfchen an der Erdoberfläche und entsteht bei hoher Luftfeuchtigkeit. Er begrenzt die Sichtweite auf unter einen Kilometer.
+  weather.rainbow:
+    label: Regenbogen
+    summary: Farbenreicher Bogen am Himmel nach Regen, wenn die Sonne scheint.
+    info: Ein Regenbogen entsteht durch Brechung und Reflexion des Sonnenlichts an Wassertropfen im Regen. Er besteht aus sieben Farben – Rot, Orange, Gelb, Grün, Blau, Indigo und Lila.
+  weather.rainy:
+    label: Regen
+    summary: Aus den Wolken fallen Tropfen als Regen.
+    info: Regen entsteht durch die Kondensation von Wasserdampf in den Wolken. Er ist notwendig für das Füllen der Flüsse, Seen und Trinkwasserreserven; im Durchschnitt fällt Regen mit einer Geschwindigkeit von 9 m/s.
+  weather.snowy:
+    label: Schneefall
+    summary: Aus den Wolken fallen weiße Schneeflocken.
+    info: Schnee entsteht, wenn Wassertropfen in den Wolken zu Eiskristallen gefrieren – Flocken. Jede Schneeflocke hat eine einzigartige symmetrische Form.
+  weather.stormy:
+    label: Gewitter
+    summary: Dramatisches Wetter mit Blitzen, Donner und starkem Regen.
+    info: Ein Gewitter entsteht in hohen Kumulonimbuswolken. Der Blitz ist ein elektrischer Entladung; der Donner ist das Geräusch verursacht durch die schnelle Erwärmung der Luft um den Blitz herum.
+  weather.sunny:
+    label: sonnig
+    summary: Klarer Himmel mit strahlender Sonne, ohne Wolken.
+    info: Sonniges Wetter entsteht, wenn keine Bewölkung das Sonnenlicht blockiert. Die Sonne liefert das Licht und die Wärme, die für das Leben auf der Erde unbedingt notwendig sind.
+  weather.windy:
+    label: windig
+    summary: Starker Luftbewegung, die Bäume biegt und Blätter wegträgt.
+    info: Wind entsteht durch unterschiedliches Erwärmen der Erdkruste, was dazu führt, dass sich Luft von Bereichen mit hohem Druck zu Bereichen mit niedrigem Druck bewegt.

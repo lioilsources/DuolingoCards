@@ -1,0 +1,36 @@
+lang: pt-BR
+pivot: false
+title: Clima
+cards:
+  weather.cloudy:
+    label: nublado
+    summary: Céu coberto com nuvens densas e sem sol direto.
+    info: Nuvens são visíveis aglomerados de pequenas gotículas d'água ou cristais de gelo. Mais de 60% do céu da Terra está sempre coberto por nuvens.
+  weather.foggy:
+    label: neblina
+    summary: Neblina densa no nível do solo reduzindo a visibilidade.
+    info: A neblina é um tipo de nuvem formada por gotículas d'água que se encontra ao nível do chão. Ela ocorre em altos níveis de umidade e reduz a visibilidade para menos de 1 quilômetro.
+  weather.rainbow:
+    label: arco-íris
+    summary: Arco colorido no céu após a chuva quando o sol brilha.
+    info: O arco-íris surge pela refração e reflexão da luz solar nas gotas de água. Ele contém sete cores – vermelha, laranja, amarela, verde, azul, anil e violeta.
+  weather.rainy:
+    label: chuva
+    summary: Gotas de água caem como chuva dos nuvens.
+    info: A chuva forma-se pela condensação do vapor d'água nas nuvens. É essencial para encher rios, lagos e reservas de água potável; uma chuva média cai com velocidade de 9 m/s.
+  weather.snowy:
+    label: neve
+    summary: Gotas de água no céu congelam e caem como flocos brancos.
+    info: A neve forma-se quando gotículas d'água nas nuvens congelam em cristais de gelo - flocos. Cada flocinho de neve tem uma forma simétrica única.
+  weather.stormy:
+    label: tempestade
+    summary: Clima dramático com relâmpagos, trovões e chuva forte.
+    info: Uma tempestade ocorre em nuvens cumulonimbos altas. O raio é uma descarga elétrica; o trovão é um som causado pelo rápido aquecimento do ar ao redor do raio.
+  weather.sunny:
+    label: ensolarado
+    summary: Céu claro com sol brilhante, sem nuvens.
+    info: O tempo ensolarado ocorre quando não há nuvens bloqueando os raios do Sol. O Sol fornece luz e calor essenciais para a vida na Terra.
+  weather.windy:
+    label: ventoso
+    summary: Movimento forte de ar que curva árvores e carrega folhas.
+    info: O vento surge por um aquecimento desigual da superfície terrestre, o que causa o movimento do ar das áreas de alta pressão para as áreas de baixa pressão.

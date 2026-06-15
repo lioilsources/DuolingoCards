@@ -1,0 +1,76 @@
+style: pony-cartoon
+cards:
+    veg.broccoli:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, broccoli, (green vegetable:1.5), (flower head:1.6), (stalk:1.3), (white background:1.4), (shadow:1.2), photorealistic texture, deep emerald color, intricate details, realistic lighting, natural arrangement
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 6934513948708897201
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:17:56Z"
+    veg.carrot:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Daucus carota, (orange carrot:1.5), (tapered root:1.4), (vibrant orange color:1.3), (leafy greens:0.9), clean white background, soft shadow, realistic photography, sharp focus, high resolution, detailed texture
+        negative: parsley, turnip, beetroot, radish, baby carrots, sliced, cut, chopped, other vegetables, text, watermark, signature
+        seed: 7736009233737133960
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:12:15Z"
+    veg.corn:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ear of corn, Zea mays, golden yellow kernels, dense rows of kernels, green husk partially peeled back exposing silky threads, close-up macro perspective, pure white seamless backdrop, gentle diffused shadow underneath, hyperrealistic photography, razor-sharp focus on kernel grain, vivid natural color palette, studio illumination accentuating depth
+        negative: human face, facial features, skin tone, eye, nose, mouth, portrait, expressive expression, painted illustration, watercolor effect, pastel hues, cartoonish rendering, line art, digital painting, brush strokes, text overlay, watermark, signature, pine cone, coniferous seed pod, brown scales, woody texture, resin droplets, evergreen components, botanical misclassification, monochrome scheme, greyscale only, single-layered surface, smooth uniform area lacking segmentation, absent husk fiber details, non-maize flora, generic vegetable silhouette, ambiguous organic shapes
+        seed: 2924506230174760523
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:29:48Z"
+    veg.cucumber:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (long:1.3),(cylindrical:1.4),(dark green skin:1.5),(fresh:1.2),okurka,(clean white surface:1.6),(soft shadow:1.3),photorealistic texture,vibrant colors,highly detailed,semi-realistic,natural colors,realistic lighting
+        negative: person,face,hands,fingers,mouth,nose,eyes,brow,skin tone,text,watermark,signature,blurry,lowres,bad anatomy,extra limbs,deformed,abstract,stylized,minimalistic,deformed proportions,wrong anatomy,barbie doll,toy-like,plastic,low detail,sketch,mlp style,pony ears,cutie mark,chibi,huge eyes,oversized head,simplified shading,flat shading,source_pony,pony style,equine features,cartoonish,anime style
+        seed: 4626903697067204604
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:24:29Z"
+    veg.garlic:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, garlic bulb, whole garlic bulb, pungent white bulb, Allium sativum, white papery skin, multiple cloves visible, dry stalk, clean white background, soft shadow, soft studio lighting, photorealistic texture, high detail, natural colors, realistic photography
+        negative: light fixture, lamp, ceiling, pendant, overhead light, illumination device, electrical equipment, wires, plug, socket, outlet, decorative item, flower pot, plant, vegetable, onion, shallot, leek, scallion, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 6335563155307300105
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:36:11Z"
+    veg.mushroom:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, button mushroom, Agaricus bisporus, (round pale beige cap:1.2), (short white stalk:1.2), smooth, clean white surface, soft shadow, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose
+        negative: human, person, wearing, hat, clothing, accessory, face, skin, body parts, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 2888727117679294276
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:35:37Z"
+    veg.onion:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, yellow onion, whole onion, papery golden skin, dry roots, round bulb, close up, (yellow onion:1.5), (clean white surface:1.3), soft shadow, photorealistic texture, vibrant colors, highly detailed, semi-realistic, natural colors
+        negative: flowers, sliced, rings, other vegetables, human face, portrait, head, person, body, hands, arms, legs, clothing, shoes, accessories, jewelry, hair, facial features, nose, mouth, eyes, eyebrows, teeth, smile, expression, anthropomorphic, humanoid, mannequin, doll, statue, sculpture, illustration, painting, drawing, line art, comic, manga, anime, cartoon, chibi, cute, kawaii, fantasy, sci-fi, futuristic, cyberpunk, steampunk, surrealism, abstract, symbolic, metaphorical, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 3120811418119247843
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:23:48Z"
+    veg.pepper:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (red bell pepper:1.5), paprika, Capsicum annuum, whole fruit, (bright red color:1.6), (glossy skin:1.4), (blocky shape:1.3), (green stem attached:1.3), clean white surface, soft shadow
+        negative: sliced, spicy pepper, other vegetables
+        seed: 8570105417097268306
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:30:29Z"
+    veg.potato:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, brambor, (brown_potato:1.6), (oval_shape:1.3), (earthy_brown_skin:1.4), (irregular_form:1.2), clean_white_surface, soft_shadow, semi_realistic, photorealistic_texture, high_resolution, natural_lighting
+        negative: person, human, woman, man, face, body, clothing, hands, feet, portrait, anthropomorphic, cartoon_character, illustration, drawing, painting, text, watermark, signature, blurry, lowres, bad_anatomy, extra_limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style
+        seed: 1077882074042441109
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:12:56Z"
+    veg.tomato:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (round tomato:1.4), bright red, glossy skin, fresh green stem, fresh green leaves, clean white background, soft shadow, photorealistic texture, high detail, natural lighting
+        negative: human, person, flower, blossom, petals, bouquet, garden, foliage, plant, vine, leafy, decorative, sliced, sauce, juice, ketchup, canned food, carrot, cucumber, lettuce, broccoli, pea
+        seed: 7491122458728031218
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:18:34Z"

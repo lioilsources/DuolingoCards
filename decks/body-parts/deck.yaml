@@ -1,0 +1,81 @@
+# body-parts — basic human body parts illustrated in cartoon style.
+slug: body-parts
+version: 1
+tier: 0
+brief_attrs: ["(cute cartoon character:1.2)", "(simple illustration:1.2)", "(clear focus:1.3)", "(child-friendly:1.1)"]
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: body.head
+    hint: the upper part of the human body containing the brain and face
+    image: body.head.png
+    brief:
+      subject: cartoon human head, front view
+      attrs: [simple round head, cute cartoon face, eyes, nose, mouth, neutral expression]
+      setting: [white background, centered, clean]
+      avoid: [text, body below neck, scary expression, realistic human]
+
+  - key: body.hand
+    hint: the end of the arm with five fingers (manus)
+    image: body.hand.png
+    brief:
+      subject: cartoon human hand, palm facing viewer
+      attrs: [five fingers spread, simple cartoon style, clean lines]
+      setting: [white background, centered, clean]
+      avoid: [text, glove, scary, realistic hand, arm included]
+
+  - key: body.foot
+    hint: the lower extremity of the leg below the ankle (pes)
+    image: body.foot.png
+    brief:
+      subject: cartoon human foot, side view
+      attrs: [simple cartoon style, five toes visible, clean lines]
+      setting: [white background, centered, clean]
+      avoid: [text, shoe, realistic foot, leg included]
+
+  - key: body.eye
+    hint: the organ of sight (oculus)
+    image: body.eye.png
+    brief:
+      subject: cartoon human eye, front view
+      attrs: [large iris, pupil, eyelashes, cute cartoon style]
+      setting: [white background, centered, close-up, clean]
+      avoid: [text, scary eye, bloodshot, realistic eye]
+
+  - key: body.ear
+    hint: the organ of hearing on the side of the head (auris)
+    image: body.ear.png
+    brief:
+      subject: cartoon human ear, side view
+      attrs: [simple rounded shape, cartoon style, clean lines]
+      setting: [white background, centered, close-up, clean]
+      avoid: [text, earring, realistic ear, head attached]
+
+  - key: body.nose
+    hint: the organ of smell projecting from the face (nasus)
+    image: body.nose.png
+    brief:
+      subject: cartoon human nose, front view
+      attrs: [small, button nose, simple cartoon style, nostrils visible]
+      setting: [white background, centered, close-up, clean]
+      avoid: [text, realistic nose, face attached, ugly]
+
+  - key: body.mouth
+    hint: the opening in the face used for eating and speaking (os)
+    image: body.mouth.png
+    brief:
+      subject: cartoon human mouth with smile
+      attrs: [lips, teeth, gentle smile, cartoon style]
+      setting: [white background, centered, close-up, clean]
+      avoid: [text, scary teeth, tongue out, realistic mouth]
+
+  - key: body.heart
+    hint: the organ that pumps blood through the body (cor)
+    image: body.heart.png
+    brief:
+      subject: cute cartoon anatomical heart
+      attrs: [red, heart shape, simplified anatomy, cartoon style, cute]
+      setting: [white background, centered, clean]
+      avoid: [text, scary, blood dripping, realistic anatomy]

@@ -1,0 +1,66 @@
+style: pony-cartoon
+cards:
+    reptile.chameleon:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, veiled chameleon, (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), perched on a branch, vivid green and blue patterns, one eye forward, leafy branch, tropical, soft light, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, humans, white studio
+        seed: 6205120766340299305
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-14T22:31:23Z"
+    reptile.crocodile:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (nile crocodile:1.5), (crocodylus niloticus:1.5), (semi-aquatic reptile:1.4), (large size:1.3), (basking on bank:1.4), (mouth slightly open:1.3), (visible teeth:1.2), (thick armored osteoderm scales:1.5), (muscular tail:1.3), (muddy riverbank:1.5), (tropical environment:1.2), (dense foliage:1.2), (dappled sunlight:1.3), (wet skin sheen:1.2), (realistic wildlife photograph:1.3)
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 2573219914244735705
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-14T22:30:00Z"
+    reptile.frog:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, red-eyed tree frog, (bright green body:1.4), (red eyes:1.5), (clinging to leaf:1.6), smooth skin, wet skin, tropical leaf, raindrops on leaves, lush foliage, vibrant greens, hyper-detailed textures, photorealistic rendering, natural lighting, high resolution
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, dragons, reptilian scales, scaly skin
+        seed: 4564277601572275845
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-14T22:34:55Z"
+    reptile.gecko:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, leopard gecko, reptile, (leopard gecko accurate proportions:1.5), (horizontal cling:1.4), (wide eyes:1.3), yellow and black spotted pattern, clinging to flat stone horizontally, sticky toe pads, flat stone, blurred rocky background, no vegetation, rock texture dominant, semi-realistic, detailed scales, natural colors, high detail, natural shading, volumetric lighting, wildlife photography
+        negative: exaggerated eyes, large eyes, big eyes, cute eyes, cartoonish eyes, chibi eyes, tiny pupils, round eyes, vertical climb, climbing vertically, green foliage, leaves, grass, trees, bushes, shrubs, garden, forest floor, overgrown, plant life, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 1081835781790131274
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T22:32:09Z"
+    reptile.lizard:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, green iguana, (green iguana:1.5), (visible dewlap:1.4), (spiky crest:1.3), (perched:1.3), alert, on a rock, tropical vegetation, sunlight, semi-realistic, detailed scales, high resolution, natural color palette, realistic texture, accurate anatomy, wildlife photography
+        negative: dragon, wing, feather, mythical, fantasy, reptilian wings, flying lizard, large wingspan, scaled wings, batlike, insectoid, bird like, talons exaggerated, overgrown spikes, horns, fire breathing, serpentine body, limbless, legless, aquatic, desert habitat, snow, cold climate
+        seed: 8904168959133771303
+        score: 8
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T22:25:37Z"
+    reptile.salamander:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, fire salamander, (Urodela:1.4), (moist skin:1.3), (long tail:1.5), (black body with yellow spots:1.6), quadrupedal stance, digitigrade feet, elongated body, short legs, smooth skin texture, walking through mossy forest floor, wet fallen leaves, dimly lit shadowy environment, semi-realistic rendering, highly detailed furless dermis, natural ambient occlusion
+        negative: human posture, upright bipedal stance, humanoid gait, saddle, harness, reins, bridle, backpack, armor plating, saddlebags, decorative accessories, anthropomorphic, clothing, gloves, shoes, boots, rider, equestrian equipment, cart, wagon, carriage
+        seed: 6636722422591246708
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T22:39:18Z"
+    reptile.snake:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, green_tree_python, vivid_lime_green_coloration, smooth_scaled_body, coiled_posture, slender_shape, tropical_branch_perch, dense_jungle_foliage, dappled_light_through_canopy
+        negative: legs, mammalian_face, human_like_features, venom_drip, white_rose, flower, dead_prey
+        seed: 1301672193305111698
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T22:26:22Z"
+    reptile.tortoise:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, giant tortoise, (domed shell:1.8), (wrinkled neck:1.7), (slow movement:1.3), (dry grassland:1.2), (sunny:1.2), (open field:1.2), realistic turtle anatomy, natural proportions, detailed scutes, weathered skin texture, aged appearance, deep creases, gentle walk, solitary, wildlife photography, natural lighting
+        negative: dinosaur,prehistoric,spiked tail,horns,teeth,Jurassic,Cretaceous,reptilian spikes,scaled armor,anthropomorphic,cartoonish,exaggerated size,fantasy creature,mythical beast,sharp claws,fire breathing,text,aquarium water,humans
+        seed: 430994742785253929
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T22:37:09Z"

@@ -1,0 +1,66 @@
+style: pony-cartoon
+cards:
+    weather.cloudy:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, cloudy sky, oblačno, nature scene, atmospheric, detailed, large white and grey clouds, overcast sky, no sun visible, outdoor, sky view, soft light, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment
+        negative: person, face, human, figure, silhouette, individual, crowd, group, man, woman, child, torso, limb, hand, foot, clothing, accessories, jewelry, hair, beard, moustache, expression, emotion, identity, facial features, eye contact, gaze, stare, smile, frown, teeth, mouth, lips, cheek, nose, forehead, brow, scalp, skin tone, complexion, ethnicity, race, gender, age, adult, senior, youth, teenager, infant, baby, toddler, elder, mature, young, old, character, persona, avatar, illustration, drawing, painting, render, CGI, 3D model, sculpture, mask, prosthetic, costume, disguise, uniform, attire, outfit, dress, shirt, pants, shorts, skirt, shoes, boots, hat, cap, hood, helmet, glasses, sunglasses, earrings, necklace, bracelet, ring, watch, bag, backpack, purse, luggage, vehicle, car, truck, bus, train, boat, ship, airplane, helicopter, motorcycle, bicycle, scooter, skateboard, rollerblades, sports equipment, ball, bat, stick, racket, gear, tool, instrument, device, gadget, technology, electronics, computer, phone, tablet, laptop, camera, microphone, speaker, screen, monitor, display, interface, UI element, button, icon, cursor, pointer, arrow, marker, label, caption, title, subtitle, description, text, words, letters, numbers, symbols, characters, font, typography, language, script, alphabet, glyphs
+        seed: 4475528637192171991
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:31:40Z"
+    weather.foggy:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, foggy morning, nature scene:(1.2), atmospheric:(1.3), detailed:(1.2), vibrant colors:(1.2), wide establishing shot:(1.1), dense white fog,(thick low cloud:1.5),(ground level fog:1.4), misty atmosphere, reduced visibility, tree silhouettes,fading trees,landscape,clouds near ground,overcast sky,diffuse lighting,ethereal,atmospheric perspective,subtle gradients
+        negative: text,watermark,signature,blurry,lowres,bad anatomy,extra limbs,deformed,abstract,stylized,minimalistic,deformed proportions,wrong anatomy,barby doll,toy like,plastic,low detail,sketch,mlp style,pony ears,cutie mark,chibi,huge eyes,oversized head,simplified shading,flat shading,source_pony,pony style,equine features,cartoonish,anime style,bright sunlight,heavy rain,people
+        seed: 5363120671039457047
+        score: 8
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:37:32Z"
+    weather.rainbow:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, rainbow after rain:nature scene:1.2, atmospheric:1.3, detailed:1.2, vibrant colors:1.2, wide establishing shot:1.1, full circular rainbow:1.4, seven colors:1.5, bright:1.6, clearing sky:1.4, blue sky visible:1.4, outdoor:1.2, landscape:1.2, after rain:1.2, uplifting:1.2, semi-realistic:1.2, detailed cartoon:1.1, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo, mountain peak surrounded by rainbow
+        negative: dark storm, partial rainbow, incomplete arc
+        seed: 6451211813776981189
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:43:19Z"
+    weather.rainy:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, rainy_day:nature_scene:1.2, atmospheric:1.3, detailed:1.2, vibrant_colors:1.2, wide_establishing_shot:1.1, heavy_rain_falling, dark_grey_clouds, puddles_on_ground, rain_streaks, outdoor, overcast_sky, wet_ground, semi_realistic:1.2, detailed_cartoon:1.1, highly_detailed, intricate_details, soft_realistic_shading, volumetric_lighting, natural_colors, natural_pose, wildlife_photography_style, detailed_environment:solo:wolf
+        negative: sunlight,sunbeams,direct_light,bright,clear_sky,blue_sky,green_plants,tree,bushes,vegetation,dry_ground,dry_leaves,yellow_flowers,lilac_bloom,purple_flowers,white_flowers,green_foliage,grass_blades,flower_field,forest_background,mountain,building,cityscape,urban_area,people,human,female,child,boy,man,woman,text,watermark,signature,blurry,lowres,bad_anatomy,extra_limbs,deformed,abstract,stylized,minimalistic,deformed_proportions,wrong_anatomy,barbie_doll,toy_like,plastic,low_detail,sketch,mlp_style,pony_ears,cutie_mark,chibi,huge_eyes,oversized_head,simplified_shading,flat_shading,source_pony,pony_style,equine_features,cartoonish,anime_style
+        seed: 5367700372967577337
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:25:17Z"
+    weather.snowy:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, snowy day, nature scene:1.2, atmospheric:1.3, detailed:1.2, vibrant colors:1.2, wide establishing shot:1.1, snowflakes falling:1.4, white snow-covered ground, bare trees, grey sky, outdoor, winter landscape, peaceful, semi-realistic:1.2, detailed cartoon:1.1, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo, red fox
+        negative: sunlight, rays, bright light, sunny, clear sky, blue sky, rainbow, glare, lens flare, golden hour, warm tones, orange glow, daylight, illumination, shine, sparkle, glitter, cat, animal, creature, mammal, furry, pet, dog, wolf, bear, deer, bird, insect, butterfly, moth, bee, dragonfly, horse, cow, goat, sheep, rabbit, squirrel, hedgehog, raccoon, opossum, skunk, armadillo, porcupine, mole, vole, lemming, hamster, guinea pig, chinchilla, ferret, weasel, stoat, mink, otter, seal, sea lion, walrus, manatee, dolphin, whale, shark, fish, turtle, reptile, amphibian, crustacean, mollusk, coral, plankton, algae, fungus, moss, lichen, rock, stone, boulder, cliff, mountain, hill, valley, canyon, river, stream, lake, pond, ocean, sea, beach, sand, dune, desert, cactus, succulent, plant, tree, shrub, bush, flower, blossom, vine, grass, weed, herb, crop, farmland, field, pasture, meadow, garden, orchard, greenhouse, indoor, house, building, structure, interior, room, furniture, chair, table, bed, lamp, clock, mirror, door, window, signage, label, caption, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 225185596374407752
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:30:55Z"
+    weather.stormy:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, thunderstorm:nature scene:1.5, atmospheric:1.4, detailed:1.3, vibrant colors:1.3, wide establishing shot:1.2, dark dramatic clouds, lightning bolt, heavy rain, dramatic sky, outdoor, dark sky, dramatic lighting, dramatic atmosphere, semi-realistic:1.3, detailed cartoon:1.2, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, dinosaur
+        seed: 6222741574387220956
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:42:43Z"
+    weather.sunny:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, bright sunny day, nature scene, atmospheric, vibrant colors, wide establishing shot, extremely large yellow sun, clear blue sky without clouds, prominent sunlight beams, outdoor, lush green meadow, gentle rolling hills, distant horizon line, ultra-detailed foliage, crisp sharp focus, photorealistic rendering
+        negative: clouds, cloud cover, overcast, precipitation, raindrops, water droplets, mist, fog, haze, gray sky, stormy weather
+        seed: 3741522229812260333
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:24:38Z"
+    weather.windy:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, nature scene, atmospheric, detailed, vibrant colors, wide establishing shot, trees bending dramatically in wind, leaves flying violently, curved wind lines, dynamic motion, outdoor, open field, swirling leaves around tree base, dramatic wind effects, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 5483900572646672397
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:37:00Z"

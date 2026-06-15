@@ -1,0 +1,36 @@
+lang: cs
+pivot: true
+title: Počasí
+cards:
+  weather.sunny:
+    label: slunečno
+    summary: Jasné nebe se svítícím sluncem, bez mraků.
+    info: Slunečné počasí vzniká, když oblačnost neblokuje sluneční záření. Slunce dodává světlo a teplo nezbytné pro život na Zemi.
+  weather.rainy:
+    label: deštivo
+    summary: Z mraků padají kapky vody jako déšť.
+    info: Déšť vzniká kondenzací vodní páry v mracích. Je nezbytný pro plnění řek, jezer a zásob pitné vody; průměrný déšť padá rychlostí 9 m/s.
+  weather.snowy:
+    label: sněžení
+    summary: Z mraků padají bílé sněhové vločky.
+    info: Sníh vzniká, když se vodní kapky v mracích mrznou na ledové krystaly – vločky. Každá sněhová vločka má jedinečný symetrický tvar.
+  weather.cloudy:
+    label: oblačno
+    summary: Obloha pokrytá hustými mraky, bez přímého slunce.
+    info: Mraky jsou viditelné shluky drobných kapek vody nebo ledových krystalů. Přes 60 % oblohy Země je vždy pokryto oblačností.
+  weather.windy:
+    label: větrno
+    summary: Silný pohyb vzduchu ohýbající stromy a unášející listy.
+    info: Vítr vzniká rozdílným zahříváním zemského povrchu, které způsobuje pohyb vzduchu z oblastí vysokého tlaku do oblastí nízkého tlaku.
+  weather.foggy:
+    label: mlhavo
+    summary: Hustá přízemní mlha snižující viditelnost.
+    info: Mlha je mraky na úrovni zemského povrchu, tvořená kapičkami vody. Vzniká při vysoké vlhkosti a snižuje viditelnost pod 1 km.
+  weather.stormy:
+    label: bouřka
+    summary: Dramatické počasí s blesky, hromem a silným deštěm.
+    info: Bouřka vzniká ve vysokých kumulonimbových mracích. Blesk je elektrický výboj; hrom je zvuk způsobený rychlým ohřátím vzduchu kolem blesku.
+  weather.rainbow:
+    label: duha
+    summary: Barevný oblouk na obloze po dešti, kdy svítí slunce.
+    info: Duha vzniká lomem a odrazem slunečního světla v kapkách deště. Obsahuje sedm barev – červenou, oranžovou, žlutou, zelenou, modrou, indigovou a fialovou.

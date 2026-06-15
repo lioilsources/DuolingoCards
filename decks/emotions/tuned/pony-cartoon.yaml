@@ -1,0 +1,66 @@
+style: pony-cartoon
+cards:
+    emotion.angry:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, angry cartoon child character, (furrowed brows:1.5), (scowling mouth:1.5), (blushing cheeks:1.3), red face, clenched fists, angry expression, childlike proportions, small stature, wide-eyed but angry gaze, orange-red background, solid color backdrop, centered composition, clean lines, bold outlines, expressive facial features, semi-realistic rendering, high detail linework, vibrant saturated palette
+        negative: blue skin, pale skin, green skin, purple skin, yellow skin, white hair, black hair, brown hair, gray skin, neon colors, unrealistic skin tones, realistic human, photorealistic, detailed textures, clothing details, accessories, environment elements, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 2934621107017280115
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:08:29Z"
+    emotion.calm:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, young child, (gentle smile:1.6), (relaxed eyes:1.5), (peaceful expression:1.5), (hands resting:1.4), (soft mint green background:1.3), (simple centered composition:1.2), childlike innocence, clean outlines, delicate gradients, subtle lighting, muted palette
+        negative: adult, teenager, mature facial structure, stern look, tense posture, aggressive stance, chaotic colors, cluttered scene, text, watermark
+        seed: 5096495349211864012
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:19:22Z"
+    emotion.excited:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, 6-year-old girl, (huge grin:1.5), (sparkling eyes:1.5), (jumping mid-air:1.6), (arms wide open:1.4), bright green solid background, simple centered layout, colorful confetti falling gently, joyful exuberant energy, vivid saturated colors, clean sharp lines
+        negative: adult, mature face, serious look, static pose, dull eyes, closed mouth, somber mood, dark background, plain white space, muted colors, lack of sparkle, no motion effects, exaggerated adult proportions, overly detailed clothing, realistic skin texture, complex patterns
+        seed: 7166164507690232967
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:18:03Z"
+    emotion.happy:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (cute_child:1.5), (happy_face:1.6), (wide_smile:1.5), (sparkling_eyes:1.4), (jumping_or_raising_arms:1.3), (playful_pose:1.4), (simple_warm_yellow_bg:1.6), solid_color_background, centered_composition, simple_background, child_friendly, cheerful_expressions, pastel_palette, rounded_edges, soft_outlines
+        negative: adult_body, mature_face, realistic_hands, elongated_limbs, slender_neck, narrow_shoulders, sharp_jowls, serious_expression, frown, closed_mouth, dull_eyes, tired_posture, slumped_over, gloomy_atmosphere, muted_colors, desaturated_palette, cold_tone, blue_green_bg, complex_patterns, cluttered_background, text, watermark, signature, blurry, lowres, bad_anatomy, extra_limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style, tears, dark_mood, scary
+        seed: 5528606487331595954
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:02:37Z"
+    emotion.sad:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, sad cartoon child character, (sad cartoon child:1.5), (one face only:1.6), (frowning mouth:1.7), (downcast eyes:1.6), (tear on cheek:1.7), (drooping posture:1.5), (simple centered composition:1.6), (soft blue background:1.3), (minimalist backdrop:1.2), (childlike simplicity:1.4), (emotional focus:1.5)
+        negative: multiple faces, duplicate faces, extra faces, two faces, three faces, facial duplication, duplicated subjects, additional people, crowd, group, multiple characters, more than one person, extra individuals, overlapping heads, double portrait, twin children, parallel figures
+        seed: 7341106676179778629
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:03:21Z"
+    emotion.scared:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, child character, (wide_scared_eyes:1.5), (fearful_expression:1.4), (trembling_body:1.3), (slight_shoulder_hunch:1.2), (defensive_pose:1.3), (centered_composition:1.1), (simple_dark_grey_blue_background:1.1), soft_dramatic_lighting, highly_expressive_face
+        negative: monster, violent_content, happy_expression
+        seed: 3740225570100471073
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:12:11Z"
+    emotion.surprised:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, shocked cartoon kid, (shocked cartoon kid:1.4), (huge pupils:1.5), (open mouth O shape:1.4), (raised eyebrows:1.3), (light purple background:1.2), (centered composition:1.1), (cartoon style:1.3), (big expressive eyes:1.5), (mouth agape:1.4), (cheeks pressed by fingers:1.3), (bright colors:1.2), (soft shading:1.1)
+        negative: realistic human, photorealism, adult, elderly, male, female, neutral expression, closed eyes, normal eyes, narrow eyes, subtle smile, frown, grimace, angry, sad, tears, blood, weapon, knife, gun, explosion, fire, smoke, dark background, night scene, outdoor, indoor clutter, messy room, furniture, plants, animals, pets, dog, cat, bird, fish, car, building, cityscape, landscape, sky, clouds, stars, moon, galaxy, space, cosmic, nebula, galaxy core, universe, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 3465747525352769004
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T01:06:14Z"
+    emotion.tired:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (child:1.5), (young_boy_or_girl:1.3), (tired_child:1.4), (half-closed_droopy_eyes:1.7), (yawning_mouth:1.5), (slouching_posture:1.5), simple_background, centered_composition, soft_gray_backdrop, fatigued_expression, semi_realistic, detailed_cartoon, highly_detailed, intricate_details, soft_shading, subtle_lighting
+        negative: text, watermark, signature, blurry, lowres, bad_anatomy, extra_limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style, energetic_pose, awake_expression, scary
+        seed: 1720169426290210484
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T01:14:25Z"

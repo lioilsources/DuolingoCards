@@ -1,0 +1,36 @@
+lang: la
+pivot: false
+title: Tempus
+cards:
+  weather.cloudy:
+    label: nubilum
+    summary: Caelum tectum densis nubibus et sine sole directo.
+    info: Nubes sunt visibilia aggregata ex minutulis guttulis aquae vel crystallorum glaciei. Praetereat 60% telluris caelus semper tegitur nubilibus.
+  weather.foggy:
+    label: nebulōsus
+    summary: Spissus nubes tellureus visibilitatem minuit.
+    info: Nebula est nubes ad terrae superficiem appensa ex gutticulis aquae composita. Oritur cum altis umoris gradibus et visibilitatem sub unum kilometrum minuit.
+  weather.rainbow:
+    label: arcus
+    summary: Colore coloratum caeli post pluviam cum solem splendet.
+    info: Arcus ex lumine solari fracto et reflectente in gutturibus pluviis nascitur. Continet septem colores – rubrum, aurantiacum, flavum, viride, caeruleum, indicum et violaceum.
+  weather.rainy:
+    label: pluvia
+    summary: Ex nubibus cadunt guttulae aquae ut ploviam.
+    info: Pluvia ex condensatione vaporis aquae in nubibus originatur. Est necessaria ad implectionem fluminum, lacuum et reservatarum fontium potabilis aquae; media velocitas pluviis est circa 9 metrorum per secundam.
+  weather.snowy:
+    label: Nix
+    summary: Ex nubibus cadunt albi cristalli nivis.
+    info: Nix ex aquae guttulis in nubibus congelatis fit crystalli glacie - flores nives. Cada crista nivis formam unicum et simetricum habet.
+  weather.stormy:
+    label: tempestas
+    summary: Počasium dramaticum cum fulguribus et tonitru ac pluviis copiosis.
+    info: Tempestate nascitur ex nimbi cumulis altis. Fulmen est ignis electricus; tonitrui sonitus fit ab aeris calore cito circa fulmen.
+  weather.sunny:
+    label: serenum
+    summary: Caelum clarum cum sole splendente, sine nubibus.
+    info: Tempus serenum occurrit quando nubes non impediunt radium solare. Sol lux et calorem necessarios pro vitam terrae praebet.
+  weather.windy:
+    label: ventosus
+    summary: Fortis aeris motus arbores flectens et folia ferens.
+    info: Ventus ex diverso terrae superficiei calore oriatur, quod aerem ab area pressione alta ad areas bassae pressionis movere causat.

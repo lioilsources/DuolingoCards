@@ -1,0 +1,81 @@
+style: pony-cartoon
+cards:
+    num.eight:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, eight simple cartoon flowers, (large numeral 8:1.5), bold outline, cute cartoon style, white background, centered composition, clean layout, bright saturated colors, smooth gradients, high contrast, crisp edges, precise count eight, no extra flora
+        negative: human figure, person, silhouette, torso, arms, legs, body parts, skin tone, facial features, clothing, accessories, multiple flowers beyond eight, seven flowers, nine flowers, text labels, words, letters, numbers other than 8, caption, label, logo, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 5441029419301642963
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:28:46Z"
+    num.five:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, five round dots, (dice_like_arrangement:1.4), (large_bold_numeral_5:1.6), (cute_cartoon_style:1.3), simple_illustration, white_background, centered_composition, clean_layout
+        negative: human_head,person,mannequin,humanoid,facial_features,hair_strands,skin_texture,fingers,hands,arms,legs,torso,joints,silhouette,outline,shadow,gradient,pattern,stripes,polka_dots,grid,lines,shapes,symbols,numbers_except_5,multiple_numerals,roman_numerals,greek_letters,mathematical_operators,text_labels,words,captions,typography,lettering,comic_panels,frames,borders,edges,corners,perspective_distortion,depth_blur,motion_blur,lens_flare,reflections,glare,shine,sparkle,glow,neon,hologram,metallic,chrome,glass,liquid,water_drops,splashes,smoke,mist,fog,atmosphere,clouds,sky,horizon,ground_plane,floor_tiles,carpet_fibers,wood_grain,fabric_weave,stitches,seams,buttons,zippers,pockets,bags,containers,vessels,cups,mugs,plates,bowls,utensils,food_items,fruit,vegetables,meat_cuts,liquids,beverages,drinks,steam,vapor,condensation,dew_drops,frost,ice_crystals,snowflakes,rain,drizzle,hail,thunderstorm,lightning_bolts,tornadoes,hurricanes,cyclones,whirlwinds,gusts,winds,air_currents,turbulence,eddies,vortices,swirling_patterns,spirals,helices,coils,springs,gears,machinery,engines,motors,pistons,rods,shafts,bearings,screws,nuts,bolts,rivets,fasteners,connectors,cables,wires,strings,ropes,yarns,fibers,textiles,fabrics,denim,cotton,silk,wool,linen,polyester_blends,patterns,motifs,designs,drawings,sketches,line_art,ink_wash,watercolor_washes,pastel_strokes,charcoal_smudges,oil_paints,acrylic_layers,digital_brushstrokes,pixelated_artifacts,JPEG_artifacts,banding_gradients,posterization_effects,color_banding,dithering_patterns,halftone_screens,dot_matrices,screen_tones,stippling_techniques,cross_hatching,scribbles,doodles,random_marks,stray_pixels,glitches,data_corruption,binary_file_errors
+        seed: 6782616644640432280
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:22:22Z"
+    num.four:
+        positive: (butterfly:1.5),(colorful butterfly:1.5),(number 4:1.8),bold,cute cartoon style,largest size,numeral prominent,white background,centered,clean composition,vibrant colors,crisp outlines,smooth shading
+        negative: multiple butterflies,two butterflies,three butterflies,five butterflies,text labels,word "four",letter "4" spelled out,small numeral,tiny number,pterodactyl,dinosaur,reptile,winged creature
+        seed: 3986125497159470134
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:16:29Z"
+    num.nine:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, nine round dots, grid arrangement, three by three layout, large numeral 9, bold outline, cute cartoon style, simple illustration, centered composition, white background, clean, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors
+        negative: animal, pet, creature, dog, cat, bird, horse, rabbit, mouse, elephant, lion, tiger, bear, wolf, deer, fox, raccoon, squirrel, insect, bee, butterfly, fish, shark, dolphin, whale, octopus, spider, snake, lizard, reptile, amphibian, mammal, any living being, text labels, word, lettering, writing, numbers other than nine, eight, ten, dot count error, scattered points, random placement, chaotic arrangement, off-center, misaligned, multiple grids, double grid, overlapping elements, complex background, pattern variation, gradient fill, shadow cast, reflection, blur, out of focus
+        seed: 9142924003455964189
+        score: 2
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T00:32:10Z"
+    num.one:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (single apple:1.6), (large bold numeral 1:2.0), cute cartoon style, white background, centered composition, clean, isolated element
+        negative: multiple apples, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text labels, other fruits, multiple objects
+        seed: 8525104594727911368
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:10:03Z"
+    num.seven:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, seven red hearts, large bold numeral 7, cute cartoon style, white background, centered composition, clean layout
+        negative: multiple hearts, six hearts, eight hearts, text label, words, letters, realistic shading, photorealistic, detailed shading, volumetric lighting, natural colors
+        seed: 754029877225842676
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:28:08Z"
+    num.six:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, six vibrant balloon colors, (exactly six balloons:1.5), (large bold numeral 6 formed by balloons:1.4), (distinctly colored balloons:1.3), (bold outlined cartoons:1.2), (cute cartoon style:1.2), (centered composition:1.2), (plain white background:1.2), (even spacing:1.1)
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text labels, five or seven balloons, nest, tangled, organic shape
+        seed: 5505134549796952447
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:23:00Z"
+    num.ten:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (ten yellow stars:1.5), (two rows of five stars:1.6), (large bold numeral 10:1.7), (white background:1.4), (centered composition:1.4), (neat arrangement:1.5), (uniform star shape:1.3), (minimalist design:1.2), (cartoon style:1.2)
+        negative: scattered stars, floating stars, uneven spacing, misaligned rows, extra stars, nine stars, eleven stars, text label, words, letters, symbols, complex pattern, texture overlay, gradient background
+        seed: 5828010257326330272
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:33:54Z"
+    num.three:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, three cartoon fish, (large numeral 3:1.6), (cute cartoon style:1.5), (bold outlines:1.4), (vibrant colors:1.3), simple white background, centered composition, clean layout, natural pose, detailed scales, bold and clear numerals integrated into each fish
+        negative: dragon, reptile, scaled monster, mythical creature, text, word, letter, label, caption, words, letters beyond numeral 3, multi-colored background, gradient, pattern, human figure, person, man, woman, child, adult, humanoid, bipedal, facial hair, clothing details, realistic skin texture, complex background, multiple numbers other than three, two fish, four fish
+        seed: 1077080523617907221
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:15:51Z"
+    num.two:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, two yellow stars, large numeral 2, bold, cute cartoon style, white background, centered, clean
+        negative: three_or_more_objects
+        seed: 5996820625267518195
+        score: 3
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:10:44Z"

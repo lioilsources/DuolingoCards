@@ -1,0 +1,64 @@
+style: pony-cartoon
+cards:
+    body.ear:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (cartoon human ear:1.6), side view, ucho, simplified cartoon ear, clean lines, rounded shape, white background, centered, close-up, child-friendly, clear focus, high detail, smooth shading
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, realistic ear, neck, hair, earring, tattoo, lips
+        seed: 4485615931935491103
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:50:51Z"
+    body.eye:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, cartoon human eye, front view, oculus, large iris:1.4, big pupil:1.4, exaggerated eyelashes:1.5, stylized drawing:1.6, illustration:1.6, clean lines:1.3, child-friendly, cute cartoon style, white background, centered, close-up, isolated eye only, pure eye focus
+        negative: text, photorealistic, realistic eye, scary eye, bloodshot, detailed environment, facial features, nose mouth forehead skin texture pores wrinkles reflection glare shadows depth lighting complex patterns
+        seed: 733156478753342975
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:45:40Z"
+    body.foot:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, cartoon human foot, side view, (single foot:1.5), (five toes visible:1.5), (simple cartoon style:1.6), (clean lines:1.6), (white background:1.4), (centered composition:1.3), child-friendly, simple shapes, limited palette, bold outlines, smooth shading
+        negative: multiple feet, tree branch, leg included, shoe, realistic foot, limb, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 3001089315243157854
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:44:59Z"
+    body.hand:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, cartoon human hand, palm facing viewer, (five fingers spread:1.5), (simple cartoon style:1.6), (clean lines:1.4), (white background:1.3), (centered composition:1.3), isolated hand only
+        negative: face, torso, arm, wrist, sleeve, glove, scary, realistic hand, photorealistic, detailed skin texture, wrinkles, veins, nails, shading variation, complex background, environment, objects, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 1852177172584626745
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:39:06Z"
+    body.head:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, cartoon human head, front view, (cute cartoon character:1.2), (simple illustration:1.2), (neutral expression:1.4), clear focus, child-friendly, simple round head, cute cartoon face, eyes, nose, mouth, white background, centered, clean
+        negative: scary expression, realistic human, detailed facial wrinkles, complex hairstyle, exaggerated emotions, deep shadows, high contrast, photorealistic, anatomical accuracy
+        seed: 2604457890495646268
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:39:47Z"
+    body.heart:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, cute cartoon anatomical heart, (heart shape:1.6), (red color:1.5), simple outline, centered composition, white background, clean lines
+        negative: human face, facial features, portrait, person, individual, anthropomorphic, humanoid, skin texture, nose, mouth, eyes, teeth, skull, skeletal system, organs, circulatory system, medical diagram, clinical, scary, blood dripping, realistic anatomy, photorealistic, detailed shading, volumetric lighting
+        seed: 9116872002132404552
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:57:18Z"
+    body.mouth:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, cartoon human mouth with gentle smile, (mouth only:1.6), (soft rounded teeth:1.3), (non-scary teeth:1.4), (no hair:1.5), centered composition, close-up view, clean background, simple illustration, child friendly, cute expression, subtle blush, smooth lines, vibrant pastel palette, glossy lip shine
+        negative: hair, hairstyle, strands, ponytail, braid, curls, long hair, short hair, bangs, sideburns, beard, moustache, eyebrows, eyelashes, nose, forehead, cheeks, jawline, chin, neck, shoulders, torso, arms, hands, fingers, legs, feet, body, clothing, shirt, dress, jacket, shoes, accessories, glasses, earrings, hats, caps, helmets, props, objects, environment, room, furniture, floor, wallpaper, texture, pattern, gradient, shadow, lighting effects, dramatic shadows, reflections, glare, blur, noise, grain, pixelation, distortion, perspective error, fisheye lens, wide angle, depth of field, bokeh, vignette, motion blur, streaks, speed lines, comic panels, speech bubbles, captions, labels, titles, fonts, typography, words, letters, numbers, symbols, emojis, icons, logos, brands, trademarks, copyright marks, signatures, watermarks
+        seed: 2743560592103125787
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:56:42Z"
+    body.nose:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (tiny button nose:1.4), isolated, front-facing, open nostrils, simple shape, bold outline, solid pastel fill, pure white backdrop, centered composition, extreme close-up, clean lines
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, realistic nose, face attached, ugly
+        seed: 2874885715938967752
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:51:34Z"

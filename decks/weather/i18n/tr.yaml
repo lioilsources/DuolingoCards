@@ -1,0 +1,36 @@
+lang: tr
+pivot: false
+title: Hava Durumu
+cards:
+  weather.cloudy:
+    label: bulutlu
+    summary: Gök bulutlarla kaplı ve doğrudan güneş yok.
+    info: Bulutlar su damlaları veya buz kristallerinden oluşan görülebilir kümelere sahiptir. Dünya'nın gökyüzü her zaman yaklaşık yüzde 60'ından fazlası bulutlarla kaplıdır.
+  weather.foggy:
+    label: sisli
+    summary: Yoğun yer seviyesinde sis görülebilirliği azaltır.
+    info: Sis, yeryüzeyine yakın bir hava katmanında su damlacıklarından oluşan bulutlardır. Yoğun nem nedeniyle oluşur ve görüş mesafesini 1 kilometreden daha kısa olacak şekilde azaltabilir.
+  weather.rainbow:
+    label: Gökkuşağı
+    summary: Yağıştan sonra gökyüzünde güneşli havalarda görünen renkli bir yay.
+    info: 'Gökkuşağı yağmur damlalarında güneş ışığının kırılması ve yansıması sonucu oluşur. Yedi farklı rengi vardır: kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor.'
+  weather.rainy:
+    label: yağmur
+    summary: Bulutlardan su damlaları olarak yağmur düşer.
+    info: Yağmur, bulutlardaki su buharının yoğuşmasıyla oluşur. Nehirlerin, gölleri ve içme suyu depolarını doldurmak için gereklidir; ortalama bir yağmurun hızı saniyede 9 metredir.
+  weather.snowy:
+    label: kar yağışı
+    summary: Bulutlardan beyaz kar kristalleri düşer.
+    info: Kar, bulutlarda su damlalarının donarak buz kristallerine dönüşmesiyle oluşur – bu da kar kristalini oluşturur. Her bir kar kristali benzersiz ve simetrik bir şekle sahiptir.
+  weather.stormy:
+    label: fırtına
+    summary: Şimşeklerle, gökgürültüsüyle ve yoğun yağışla birlikte şiddetli bir hava durumu.
+    info: Fırtınalar yüksek bulutlar olan kümülonimbüs bulutlarında meydana gelir. Şimşek elektriksel bir kıvılcım olurken, gökgürültüsü şimşeğin etrafındaki havayı çok hızlı ısıtmasıyla oluşan sesdir.
+  weather.sunny:
+    label: güneşli
+    summary: Güneşin parladığı, bulutların olmadığı açık bir gökyüzü.
+    info: Güneşli hava, bulutsuz iken güneş ışınlarının engellenmeden yeryüzüne ulaşmasına bağlıdır. Güneş, yaşam için gerekli olan ısıyı ve ışığı sağlar.
+  weather.windy:
+    label: rüzgarlı
+    summary: Ağaçları bükerek yaprakları taşıyan güçlü hava hareketi.
+    info: Rüzgar, yeryüzüne farklı şekilde ısıtılan yüzeylerden kaynaklanan basınç farkı nedeniyle oluşur ve bu da yüksek basınç bölgelerinden düşük basınç bölgelerine doğru havanın hareket etmesine yol açar.

@@ -1,0 +1,81 @@
+style: pony-cartoon
+cards:
+    fruit.apple:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (red apple:1.6), (single apple:1.5), (round shape:1.4), (glossy finish:1.5), (bright red color:1.6), (no green hues:1.5), (white background:1.4), (soft shadow:1.3), (studio lighting:1.4), (clean surface:1.4), (high detail:1.4)
+        negative: multiple colors, green hue, multicolored, label, text, watermark, signature, leaf, foliage, stem variation, imperfect shape, bruised, rotten, sliced, cut open, seeds visible, multiple apples, other fruits
+        seed: 245905714071653432
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T22:45:09Z"
+    fruit.banana:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (yellow banana:1.3), ripe, curved, bright yellow, single fruit, Musa species, clean white surface, soft shadow, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, cat, feline, animal, cat head
+        seed: 6129850713070252588
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T22:44:29Z"
+    fruit.cherry:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, pair of red cherries, (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, two cherries, bright red, glossy, green stems joined, clean white surface, soft shadow, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose
+        negative: human face, pink background
+        seed: 4741128466537657821
+        score: 2
+        model: builder
+        iters: 3
+        updated_at: "2026-06-14T23:02:21Z"
+    fruit.grape:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, cluster of small round grapes, (deep purple:1.4), (glistening:1.5), vibrant colors, highly detailed, photorealistic texture, clean white background, soft studio lighting, soft shadow, semi-realistic, detailed cartoon, natural colors, natural pose, wildlife photography style
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 4700944827690660849
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-14T22:53:05Z"
+    fruit.mango:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ripe mango, whole, oval, yellow-orange skin with red blush, smooth texture, clean white surface, soft shadow, semi-realistic, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style
+        negative: sunflower, sliced, leaf, flower, petal, blossom, foliage, green plant, garden, orchard, tree branch, stem, vine, tropical fruit mix, pineapple, banana, papaya, kiwi, mango split, mango segment, juice drip, liquid splash, splash effect, abstract shape, non-fruit element, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 5372257418610701325
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T22:59:01Z"
+    fruit.orange:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Citrus sinensis, (round:1.5), (bright orange:1.6), (glossy peel:1.7), (green leaves:1.3), clean white surface, soft shadow, semi-realistic, photorealistic texture, vibrant colors, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 548680237415543216
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T22:50:26Z"
+    fruit.pear:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (green pear:1.5), (teardrop shape:1.6), (pale green skin:1.4), (slight blush:1.3), stem, (clean white surface:1.6), (soft shadow:1.2), photorealistic texture, high detail, sharp focus, natural lighting, subtle gradient background
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, human figure, person, mannequin, silhouette, multiple figures, crowd, hands, arms, legs, torso, face, facial features, eyes, nose, mouth, hair, clothing, shoes, accessories, plant, leaf, vine, branch, flower, bud, seed pod
+        seed: 2855245334859213558
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:05:43Z"
+    fruit.pineapple:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, pineapple, (pineapple:1.5), (tropical_fruit:1.4), (yellow_flesh:1.3), (spiky_crown:1.6), (diamond_pattern_skin:1.5), (golden_yellow:1.4), (clean_white_surface:1.3), (soft_shadow:1.2)
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style, sliced, other_fruits
+        seed: 8716502383338455518
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:07:02Z"
+    fruit.strawberry:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, ripe strawberry, (red heart shaped:1.6), (bright red:1.5), (tiny seeds:1.4), (green leafy cap:1.3), (clean white background:1.4), (soft studio lighting:1.3), photorealistic texture, high detail, vibrant colors, natural lighting, semi-realistic, detailed rendering
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 6554607566790353783
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T22:51:04Z"
+    fruit.watermelon:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, watermelon, (large:1.2), (green striped exterior:1.3), (red flesh interior:1.5), round shape, clean white surface, soft studio lighting, vibrant colors, highly detailed, photorealistic texture, semi-realistic, detailed cartoon, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, leaves, splashes
+        seed: 7508102180120633321
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T22:56:52Z"

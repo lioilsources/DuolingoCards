@@ -1,0 +1,99 @@
+# numbers-1-10 — numerals 1 through 10 illustrated with objects.
+slug: numbers-1-10
+version: 1
+tier: 0
+brief_attrs: ["(cute cartoon:1.2)", "(simple illustration:1.2)", "(bold and clear:1.2)", "(centered composition:1.1)"]
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: num.one
+    hint: the numeral 1, cardinal number one
+    image: num.one.png
+    brief:
+      subject: one apple on a plain background
+      attrs: [single apple, large numeral 1, bold, cute cartoon style]
+      setting: [white background, centered, clean]
+      avoid: [text labels, other fruits, multiple objects]
+
+  - key: num.two
+    hint: the numeral 2, cardinal number two
+    image: num.two.png
+    brief:
+      subject: two stars on a plain background
+      attrs: [two yellow stars, large numeral 2, bold, cute cartoon style]
+      setting: [white background, centered, clean]
+      avoid: [text labels, three or more objects]
+
+  - key: num.three
+    hint: the numeral 3, cardinal number three
+    image: num.three.png
+    brief:
+      subject: three fish on a plain background
+      attrs: [three cartoon fish, large numeral 3, bold, cute cartoon style]
+      setting: [white background, centered, clean]
+      avoid: [text labels, two or four fish]
+
+  - key: num.four
+    hint: the numeral 4, cardinal number four
+    image: num.four.png
+    brief:
+      subject: four butterflies on a plain background
+      attrs: [four colourful butterflies, large numeral 4, bold, cute cartoon style]
+      setting: [white background, centered, clean]
+      avoid: [text labels, three or five butterflies]
+
+  - key: num.five
+    hint: the numeral 5, cardinal number five
+    image: num.five.png
+    brief:
+      subject: five dots arranged like dice on a plain background
+      attrs: [five round dots, large numeral 5, bold, cute cartoon style]
+      setting: [white background, centered, clean]
+      avoid: [text labels, four or six dots]
+
+  - key: num.six
+    hint: the numeral 6, cardinal number six
+    image: num.six.png
+    brief:
+      subject: six balloons on a plain background
+      attrs: [six colourful round balloons, large numeral 6, bold, cute cartoon style]
+      setting: [white background, centered, clean]
+      avoid: [text labels, five or seven balloons]
+
+  - key: num.seven
+    hint: the numeral 7, cardinal number seven
+    image: num.seven.png
+    brief:
+      subject: seven hearts on a plain background
+      attrs: [seven red hearts, large numeral 7, bold, cute cartoon style]
+      setting: [white background, centered, clean]
+      avoid: [text labels, six or eight hearts]
+
+  - key: num.eight
+    hint: the numeral 8, cardinal number eight
+    image: num.eight.png
+    brief:
+      subject: eight flowers on a plain background
+      attrs: [eight simple cartoon flowers, large numeral 8, bold, cute cartoon style]
+      setting: [white background, centered, clean]
+      avoid: [text labels, seven or nine flowers]
+
+  - key: num.nine
+    hint: the numeral 9, cardinal number nine
+    image: num.nine.png
+    brief:
+      subject: nine dots in a 3x3 grid on a plain background
+      attrs: [nine round dots, grid arrangement, large numeral 9, bold, cute cartoon style]
+      setting: [white background, centered, clean]
+      avoid: [text labels, eight or ten dots]
+
+  - key: num.ten
+    hint: the numeral 10, cardinal number ten
+    image: num.ten.png
+    brief:
+      subject: ten stars in two rows on a plain background
+      attrs: [ten yellow stars, two rows of five, large numeral 10, bold, cute cartoon style]
+      setting: [white background, centered, clean]
+      avoid: [text labels, nine or eleven stars]

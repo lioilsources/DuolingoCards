@@ -1,0 +1,81 @@
+style: pony-cartoon
+cards:
+    color.black:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (černá čtvercová forma:1.4), (tvrdá černá:1.5), (jednoduchý design:1.6), (tlustá černá hranice:1.3), čisté naplnění, rovnoměrné vyplnění, středovaný objekt na čistém bílém pozadí
+        negative: osoba, figura humana, ropa negra, piel, sombras, gradiente, patrón, colores adicionales, multicolor, degradado, texto, marca de agua, firma, borroso, baja resolución, mala anatomía, extremidades extras, deformado, abstracto, estilizado, proporciones incorrectas, muñeca barbie, juguete como, plástico, bajo detalle, boceto, estilo MLP, orejas de poní, marca de corte, cabeza desproporcionada, ojos gigantes, cabeza enorme, sombreado simplificado, sombreado plano, fuente_pón i, estilo_pón i, características ecuinas, caricaturesco, estilo anime
+        seed: 1427478382806670679
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:04:21Z"
+    color.blue:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (blue circle:1.6), (solid fill:1.7), (bold outline:1.4), centered on white background, pure blue hue, uniform saturation, smooth edges, minimalist composition
+        negative: black, gray, red, green, yellow, purple, orange, brown, pink, cyan, magenta, rainbow, multicolored, gradient, pattern, stripes, dots, text, lettering, typography, words, symbols
+        seed: 8713370253261053503
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:41:19Z"
+    color.brown:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (brown_bear_silhouette:1.6), (solid_brown:1.5), (uniform_color:1.4), (single_bear:1.7), (white_background:1.8), (centered:1.6), (bold_outline:1.3), (minimal_detail:1.2)
+        negative: multiple_bears, gradient, multi_color, color_variation, shading, texture, complex_patterns, extra_elements, human_figure, torso, arms, legs, clothing, accessories, unrealistic, photorealistic, detailed_fur, realistic_lighting, environment
+        seed: 4775313399456782456
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:59:07Z"
+    color.green:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, pure_green, solid_green, bold_outline, simple_silhouette, centered_composition, clean_design, flat_color, white_background
+        negative: black, grayscale, dark, shadow, texture, noise, grain, blur, out_of_focus, distortion, artifacts, text, watermark, signature, blurry, lowres, bad_anatomy, extra_limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style
+        seed: 6789096333056114196
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:47:05Z"
+    color.orange:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (plain orange circle:1.6), (solid fill:1.5), (simple shape:1.4), bold outline, centered composition, pure white background, flat color application, high contrast, crisp edges
+        negative: clock, timepieces, gears, numerals, tick marks, hour hand, minute hand, second hand, circular patterns, decorative motifs, gradients, multi-color fills, textures, outlines beyond primary stroke, subtle shading variations, edge artifacts, pixelation, smudging, overlapping layers, additional circles, concentric designs, intricate details, ornamental flourishes
+        seed: 1482868177327401571
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:52:46Z"
+    color.pink:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (single pink flower shape:1.6), (solid pink:1.5), (cute:1.4), centered composition, white background, clean lines, subtle glow
+        negative: multiple flowers, green foliage, gradient, other colors, complex pattern
+        seed: 5526416530728781228
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:58:25Z"
+    color.purple:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (symmetrical purple diamond:1.3), perfect symmetry, precise geometry, sharp angular facets, even facet angles, solid uniform purple without gradient, vivid saturated hue, clean bold outline, centered on stark white background, minimalist layout, flat color application, high contrast clarity
+        negative: gradient, uneven coloring, asymmetrical shape, irregular facets, inconsistent saturation, color variation, texture overlay
+        seed: 4120360919089586140
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:53:25Z"
+    color.red:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (solid red heart:1.5), pure red, uniform fill, bold outline, centered on plain white canvas, crisp edges, smooth surface
+        negative: gradient, multi-color, multicolored, patterned, speckled, variegated, tiny hearts, secondary elements, overlay, embossing, shadow, glow
+        seed: 8239571195576533773
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:42:00Z"
+    color.white:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (white circle:1.6), (thin grey border:1.3), centered composition, light grey background, solid white fill, bold silhouette, crisp edges, high contrast
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, gradient, other colors, complex pattern
+        seed: 6215128281498467797
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T00:04:56Z"
+    color.yellow:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (solid yellow:1.8), (star burst:1.4), bold outline, centered composition, pure yellow, flat fill, minimalist design, high contrast against white background
+        negative: purple, multi-color, pastel palette, subtle tones, texture overlay, noise, grain, blur, vignette, shadow play, ambient occlusion, depth cues, atmospheric perspective, realism, photorealism, photographic elements, lens flare, bokeh, motion blur, landscape, scenery, horizon, sky, clouds, trees, mountains, buildings, distant objects
+        seed: 2132200938037039646
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-14T23:47:46Z"

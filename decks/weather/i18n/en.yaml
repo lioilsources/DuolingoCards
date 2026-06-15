@@ -1,0 +1,36 @@
+lang: en
+pivot: false
+title: Weather
+cards:
+  weather.cloudy:
+    label: cloudy
+    summary: Sky covered with dense clouds, without direct sunlight.
+    info: Clouds are visible clusters of tiny water droplets or ice crystals. Over 60% of Earth's sky is always covered by cloud cover.
+  weather.foggy:
+    label: foggy
+    summary: Thick fog near ground level that reduces visibility.
+    info: Fog consists of water droplets forming clouds at ground level. It occurs when humidity is high and can reduce visibility to less than 1 kilometer.
+  weather.rainbow:
+    label: rainbow
+    summary: A colourful arc in the sky after rain when the sun is shining.
+    info: Rainbows form due to refraction and reflection of sunlight within raindrops. They consist of seven colors—red, orange, yellow, green, blue, indigo, and violet.
+  weather.rainy:
+    label: rain
+    summary: Water drops fall from clouds as rain.
+    info: Rain forms by condensation of water vapor in clouds. It is essential for filling rivers, lakes, and potable water reserves; average rain falls at a speed of 9 m/s.
+  weather.snowy:
+    label: snowfall
+    summary: White snowflakes fall from clouds.
+    info: Snow forms when water droplets in clouds freeze into ice crystals—snowflakes. Each snowflake has a unique symmetric shape.
+  weather.stormy:
+    label: thunderstorm
+    summary: Dramatic weather with lightning, thunder, and heavy rain.
+    info: A thunderstorm forms in high cumulonimbus clouds. Lightning is an electrical discharge; thunder is the sound caused by rapid heating of air around the lightning.
+  weather.sunny:
+    label: sunny
+    summary: Clear sky with bright sunshine, no clouds.
+    info: Sunny weather occurs when cloud cover does not block sunlight. The sun provides light and heat essential for life on Earth.
+  weather.windy:
+    label: windy
+    summary: Strong movement of air that bends trees and carries leaves.
+    info: Wind is created by uneven heating of the Earth's surface, which causes air to move from areas of high pressure to areas of low pressure.

@@ -1,0 +1,36 @@
+lang: cs
+pivot: true
+title: Emoce
+cards:
+  emotion.happy:
+    label: šťastný
+    summary: Cítit radost nebo potěšení, být v dobré náladě.
+    info: Štěstí je příjemná emoce spojená s uvolňováním dopaminu a serotoninu. Projevuje se úsměvem, živou gestikulací a otevřeným postojem těla.
+  emotion.sad:
+    label: smutný
+    summary: Cítit zármutek nebo nespokojenost, být v depresi.
+    info: Smutek je přirozená emoce jako reakce na ztrátu nebo zklamání. Projevuje se slzami, sklopenými koutky úst a pokleslou postavou.
+  emotion.angry:
+    label: naštvaný
+    summary: Cítit silné rozhořčení nebo vztek, být rozzlobený.
+    info: Vztek je emoce jako reakce na vnímanou nespravedlnost nebo hrozbu. Zvyšuje tepovou frekvenci a připravuje tělo na reakci „bojuj nebo uteč".
+  emotion.surprised:
+    label: překvapený
+    summary: Cítit náhlý úžas nad nečekanou událostí.
+    info: Překvapení je velmi krátká emoce trvající jen sekundy. Projevuje se otevřenými ústy, zdviženými obočími a rozšířenými zornicemi.
+  emotion.scared:
+    label: vystrašený
+    summary: Cítit strach nebo hrůzu z nebezpečí nebo ohrožení.
+    info: Strach je základní obranná emoce. Spouští uvolnění adrenalinu, zrychluje srdce a připravuje tělo na útěk nebo ochranu.
+  emotion.tired:
+    label: unavený
+    summary: Cítit fyzické nebo duševní vyčerpání, potřebovat odpočinek.
+    info: Únava je signál těla, že potřebuje odpočinek. Projevuje se ospalostí, zpomalením reakcí a sníženou schopností soustředění.
+  emotion.excited:
+    label: nadšený
+    summary: Cítit silné nadšení a radostné očekávání.
+    info: Nadšení je intenzivní pozitivní emoce spojená s očekáváním příjemné události. Zvyšuje energii, zrychluje srdce a podporuje kreativní myšlení.
+  emotion.calm:
+    label: klidný
+    summary: Cítit vnitřní mír a pohodu, být v klidu.
+    info: Klid je stav psychické a fyzické rovnováhy. Zpomaluje srdeční tep, prohlubuje dech a umožňuje jasné myšlení a dobré rozhodování.

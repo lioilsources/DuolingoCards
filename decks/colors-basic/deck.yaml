@@ -1,0 +1,99 @@
+# colors-basic — basic colours shown as simple illustrations.
+slug: colors-basic
+version: 1
+tier: 0
+brief_attrs: ["(simple illustration:1.2)", "(clean design:1.2)", "(flat color:1.1)", "(centered composition:1.2)"]
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: color.red
+    hint: the colour red, the warmest primary colour
+    image: color.red.png
+    brief:
+      subject: red heart shape
+      attrs: [solid red, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.blue
+    hint: the colour blue, the colour of the sky and ocean
+    image: color.blue.png
+    brief:
+      subject: blue circle
+      attrs: [solid blue, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.green
+    hint: the colour green, the colour of grass and leaves
+    image: color.green.png
+    brief:
+      subject: green leaf shape
+      attrs: [solid green, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.yellow
+    hint: the colour yellow, the colour of the sun
+    image: color.yellow.png
+    brief:
+      subject: yellow sun shape
+      attrs: [solid yellow, simple star burst, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.orange
+    hint: the colour orange, a warm secondary colour between red and yellow
+    image: color.orange.png
+    brief:
+      subject: orange circle
+      attrs: [solid orange, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.purple
+    hint: the colour purple, a cool secondary colour between red and blue
+    image: color.purple.png
+    brief:
+      subject: purple diamond shape
+      attrs: [solid purple, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.pink
+    hint: the colour pink, a light tint of red
+    image: color.pink.png
+    brief:
+      subject: pink flower shape
+      attrs: [solid pink, simple, bold, cute]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.brown
+    hint: the colour brown, an earthy secondary colour
+    image: color.brown.png
+    brief:
+      subject: brown bear silhouette
+      attrs: [solid brown, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.black
+    hint: the colour black, the darkest colour, the absence of light
+    image: color.black.png
+    brief:
+      subject: black square
+      attrs: [solid black, simple, bold]
+      setting: [white background, centered]
+      avoid: [text, gradient, other colors, complex pattern]
+
+  - key: color.white
+    hint: the colour white, the lightest colour
+    image: color.white.png
+    brief:
+      subject: white circle with thin grey outline
+      attrs: [solid white, simple, bold, thin grey border]
+      setting: [light grey background, centered]
+      avoid: [text, gradient, other colors, complex pattern]

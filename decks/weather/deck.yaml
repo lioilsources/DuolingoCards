@@ -1,0 +1,81 @@
+# weather — common weather phenomena and conditions.
+slug: weather
+version: 1
+tier: 0
+brief_attrs: ["(nature scene:1.2)", "(atmospheric:1.3)", "(detailed:1.2)", "(vibrant colors:1.2)", "(wide establishing shot:1.1)"]
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: weather.sunny
+    hint: clear sky with bright sunshine, no clouds
+    image: weather.sunny.png
+    brief:
+      subject: bright sunny day
+      attrs: [large yellow sun, clear blue sky, warm light rays]
+      setting: [outdoor, green landscape, simple horizon]
+      avoid: [text, clouds, rain, people]
+
+  - key: weather.rainy
+    hint: precipitation falling from clouds as water droplets
+    image: weather.rainy.png
+    brief:
+      subject: rainy day
+      attrs: [heavy rain falling, dark grey clouds, puddles on ground, rain streaks]
+      setting: [outdoor, overcast sky, wet ground]
+      avoid: [text, sunshine, snow, people]
+
+  - key: weather.snowy
+    hint: precipitation falling as white snowflakes, winter weather
+    image: weather.snowy.png
+    brief:
+      subject: snowy day
+      attrs: [snowflakes falling, white snow-covered ground, bare trees, grey sky]
+      setting: [outdoor, winter landscape, peaceful]
+      avoid: [text, rain, sunshine, people]
+
+  - key: weather.cloudy
+    hint: sky covered with clouds, grey and overcast
+    image: weather.cloudy.png
+    brief:
+      subject: cloudy sky
+      attrs: [large white and grey clouds, overcast sky, no sun visible]
+      setting: [outdoor, sky view, soft light]
+      avoid: [text, rain, lightning, bright sunshine]
+
+  - key: weather.windy
+    hint: strong moving air creating gusts, bending trees
+    image: weather.windy.png
+    brief:
+      subject: windy day
+      attrs: [trees bending in wind, leaves flying, curved wind lines, dynamic motion]
+      setting: [outdoor, open field, swirling leaves]
+      avoid: [text, rain, snow, people]
+
+  - key: weather.foggy
+    hint: thick low cloud at ground level reducing visibility
+    image: weather.foggy.png
+    brief:
+      subject: foggy morning
+      attrs: [dense white fog, misty atmosphere, reduced visibility, trees fading into fog]
+      setting: [outdoor, forest or field, early morning, ethereal]
+      avoid: [text, bright sunlight, heavy rain, people]
+
+  - key: weather.stormy
+    hint: severe weather with thunder, lightning and strong rain
+    image: weather.stormy.png
+    brief:
+      subject: thunderstorm
+      attrs: [dark dramatic clouds, lightning bolt, heavy rain, dramatic sky]
+      setting: [outdoor, dark sky, dramatic lighting, dramatic atmosphere]
+      avoid: [text, sunshine, snow, people]
+
+  - key: weather.rainbow
+    hint: colourful arc of light seen after rain when sun shines through water droplets
+    image: weather.rainbow.png
+    brief:
+      subject: rainbow after rain
+      attrs: [full arc rainbow, seven colours, bright, clearing sky, blue sky visible]
+      setting: [outdoor, landscape, after rain, uplifting]
+      avoid: [text, dark storm, no rainbow, people]

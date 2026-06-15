@@ -1,0 +1,36 @@
+lang: es-419
+pivot: false
+title: Clima
+cards:
+  weather.cloudy:
+    label: nublado
+    summary: Cielo cubierto con nubes densas y sin sol directo.
+    info: Las nubes son agrupaciones visibles de pequeñas gotitas de agua o cristales de hielo. Más del 60 % del cielo terrestre está siempre cubierto por nubes.
+  weather.foggy:
+    label: neblina
+    summary: Espeso vapor de neblina que reduce la visibilidad.
+    info: La niebla es un tipo de nube baja formada por gotitas de agua al nivel del suelo. Se forma cuando hay una alta humedad y disminuye la visibilidad a menos de 1 kilómetro.
+  weather.rainbow:
+    label: arco iris
+    summary: Arco colorido en el cielo después de la lluvia cuando brilla el sol.
+    info: 'El arco iris se forma por la refracción y reflexión de la luz solar en las gotas de agua. Contiene siete colores: rojo, naranja, amarillo, verde, azul, índigo y violeta.'
+  weather.rainy:
+    label: lluvia
+    summary: De las nubes caen gotas de agua como lluvia.
+    info: La lluvia se forma por la condensación del vapor de agua en las nubes. Es esencial para llenar ríos, lagos y reservas de agua potable; una lluvia promedio cae a una velocidad de 9 m/s.
+  weather.snowy:
+    label: nevada
+    summary: De las nubes caen copos de nieve blancos.
+    info: La nieve se forma cuando gotas de agua en las nubes se congelan formando cristales de hielo llamados copos. Cada copo de nieve tiene una forma simétrica única.
+  weather.stormy:
+    label: tormenta
+    summary: Clima dramático con relámpagos, truenos y fuerte lluvia.
+    info: Una tormenta se forma en nubes cumulonimbos altas. Un relámpago es una descarga eléctrica; el trueno es un sonido causado por el rápido calentamiento del aire alrededor del relámpago.
+  weather.sunny:
+    label: soleado
+    summary: Cielo despejado con sol brillante, sin nubes.
+    info: El clima soleado ocurre cuando la nubosidad no bloquea la radiación solar. El sol proporciona luz y calor necesarios para la vida en la Tierra.
+  weather.windy:
+    label: ventoso
+    summary: Fuerte movimiento del aire que dobla los árboles y lleva las hojas.
+    info: El viento se forma por el calentamiento desigual de la superficie terrestre, lo cual provoca el movimiento del aire desde áreas de alta presión hacia áreas de baja presión.

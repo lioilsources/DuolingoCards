@@ -1,0 +1,81 @@
+# animals-reptiles — reptiles and amphibians.
+slug: animals-reptiles
+version: 1
+tier: 1
+brief_attrs: ["(reptile:1.2)", "(realistic animal anatomy:1.3)", "(detailed scales:1.3)", "(natural proportions:1.2)", "(highly detailed:1.1)"]
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: reptile.snake
+    hint: legless elongated reptile (suborder Serpentes), not a worm
+    image: reptile.snake.png
+    brief:
+      subject: green tree python
+      attrs: [coiled around a branch, bright green, patterned scales]
+      setting: [tropical tree branch, jungle, soft dappled light]
+      avoid: [text, venom drip, humans, dead prey]
+
+  - key: reptile.lizard
+    hint: scaly four-legged reptile (order Squamata), not a salamander
+    image: reptile.lizard.png
+    brief:
+      subject: green iguana
+      attrs: [perched, alert, dewlap, spiky crest]
+      setting: [on a rock, tropical vegetation, sunlight]
+      avoid: [text, humans, other animals]
+
+  - key: reptile.crocodile
+    hint: large semi-aquatic reptile (order Crocodilia), not an alligator
+    image: reptile.crocodile.png
+    brief:
+      subject: Nile crocodile
+      attrs: [basking, mouth slightly open, armoured scales, powerful]
+      setting: [muddy riverbank, tropical, sunlight]
+      avoid: [text, blood, humans]
+
+  - key: reptile.gecko
+    hint: small wall-climbing lizard with sticky toe pads (family Gekkonidae)
+    image: reptile.gecko.png
+    brief:
+      subject: leopard gecko
+      attrs: [yellow and black spotted, wide eyes, clinging to surface]
+      setting: [on a flat stone, blurred rocky background]
+      avoid: [text, humans, hand]
+
+  - key: reptile.chameleon
+    hint: colour-changing arboreal lizard (family Chamaeleonidae)
+    image: reptile.chameleon.png
+    brief:
+      subject: veiled chameleon
+      attrs: [perched on a branch, vivid green and blue patterns, one eye forward]
+      setting: [leafy branch, tropical, soft light]
+      avoid: [text, humans, white studio]
+
+  - key: reptile.tortoise
+    hint: slow land-dwelling reptile with a domed shell (family Testudinidae)
+    image: reptile.tortoise.png
+    brief:
+      subject: giant tortoise
+      attrs: [domed shell, old wrinkled neck, walking slowly]
+      setting: [dry grassland, sunny, open field]
+      avoid: [text, aquarium water, humans]
+
+  - key: reptile.frog
+    hint: smooth-skinned amphibian that jumps and croaks (order Anura)
+    image: reptile.frog.png
+    brief:
+      subject: red-eyed tree frog
+      attrs: [bright green body, red eyes, clinging to a leaf, vivid]
+      setting: [tropical leaf, rain drops, green background]
+      avoid: [text, humans, dead insects]
+
+  - key: reptile.salamander
+    hint: moist-skinned amphibian with a long tail (order Urodela)
+    image: reptile.salamander.png
+    brief:
+      subject: fire salamander
+      attrs: [black body with yellow spots, walking, smooth skin]
+      setting: [mossy forest floor, wet leaves, dark background]
+      avoid: [text, humans, other animals]

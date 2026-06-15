@@ -1,0 +1,99 @@
+# food-vegetables — common vegetables.
+slug: food-vegetables
+version: 1
+tier: 0
+brief_attrs: ["(still life:1.2)", "(vibrant colors:1.3)", "(highly detailed:1.2)", "(photorealistic texture:1.1)", "clean white background", "soft studio lighting"]
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: veg.carrot
+    hint: orange root vegetable (Daucus carota), not a parsnip
+    image: veg.carrot.png
+    brief:
+      subject: orange carrot
+      attrs: [long tapered root, bright orange, green leafy top]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, sliced, other vegetables, baby carrots]
+
+  - key: veg.potato
+    hint: starchy underground tuber (Solanum tuberosum), a staple food
+    image: veg.potato.png
+    brief:
+      subject: brown potato
+      attrs: [oval, earthy brown skin, slightly irregular shape]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, peeled, cooked, french fries]
+
+  - key: veg.broccoli
+    hint: green vegetable with dense flower head (Brassica oleracea)
+    image: veg.broccoli.png
+    brief:
+      subject: broccoli
+      attrs: [dark green florets, thick pale stalk, dense head]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, cooked, other vegetables]
+
+  - key: veg.tomato
+    hint: red round fruit used as a vegetable (Solanum lycopersicum)
+    image: veg.tomato.png
+    brief:
+      subject: red tomato
+      attrs: [round, bright red, glossy, green stem and leaves attached]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, sliced, sauce, other vegetables]
+
+  - key: veg.onion
+    hint: pungent layered bulb vegetable (Allium cepa)
+    image: veg.onion.png
+    brief:
+      subject: yellow onion
+      attrs: [round bulb, papery golden skin, dry roots]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, sliced, rings, other vegetables]
+
+  - key: veg.cucumber
+    hint: long green cylindrical vegetable (Cucumis sativus)
+    image: veg.cucumber.png
+    brief:
+      subject: green cucumber
+      attrs: [long, cylindrical, dark green skin, fresh]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, sliced, pickled, other vegetables]
+
+  - key: veg.corn
+    hint: tall grass crop with yellow kernels (Zea mays), also called maize
+    image: veg.corn.png
+    brief:
+      subject: ear of corn
+      attrs: [yellow kernels, green husk partially peeled, rows of kernels]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, popcorn, other vegetables, canned]
+
+  - key: veg.pepper
+    hint: colourful bell pepper (Capsicum annuum), also called capsicum
+    image: veg.pepper.png
+    brief:
+      subject: red bell pepper
+      attrs: [bright red, glossy, blocky shape, green stem]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, sliced, spicy pepper, other vegetables]
+
+  - key: veg.mushroom
+    hint: edible fungus with a cap and stalk (e.g. button mushroom, Agaricus bisporus)
+    image: veg.mushroom.png
+    brief:
+      subject: button mushroom
+      attrs: [round pale beige cap, short white stalk, smooth]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, cooked, poisonous mushroom, multiple mushrooms]
+
+  - key: veg.garlic
+    hint: pungent white bulb used as flavouring (Allium sativum)
+    image: veg.garlic.png
+    brief:
+      subject: garlic bulb
+      attrs: [white papery bulb, multiple cloves visible, dry stalk]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, peeled cloves, other vegetables]

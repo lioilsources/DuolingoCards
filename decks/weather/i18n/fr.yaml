@@ -1,0 +1,36 @@
+lang: fr
+pivot: false
+title: Météo
+cards:
+  weather.cloudy:
+    label: nuageux
+    summary: Ciel recouvert de nuages épais sans soleil direct.
+    info: Les nuages sont des amas visibles de minuscules gouttelettes d'eau ou de cristaux de glace. Plus de 60 % du ciel terrestre est toujours couvert par les nuages.
+  weather.foggy:
+    label: brouillard
+    summary: Brouillard épais au niveau du sol réduisant la visibilité.
+    info: Le brouillard est composé de gouttelettes d'eau à l'interface entre le sol et l'atmosphère. Il se forme lorsque l'humidité relative est élevée et il diminue la visibilité en dessous de 1 kilomètre.
+  weather.rainbow:
+    label: arc-en-ciel
+    summary: Un arc coloré dans le ciel après la pluie lorsque le soleil brille.
+    info: 'L''arc-en-ciel se forme par la réfraction et la réflexion de la lumière du soleil dans les gouttes de pluie. Il contient sept couleurs : rouge, orange, jaune, vert, bleu, indigo et violet.'
+  weather.rainy:
+    label: pluie
+    summary: Des gouttes d'eau tombent des nuages sous forme de pluie.
+    info: La pluie se forme par la condensation de la vapeur d'eau dans les nuages. Elle est essentielle pour remplir les rivières, les lacs et les réserves d'eau potable ; en moyenne, la pluie tombe à une vitesse de 9 m/s.
+  weather.snowy:
+    label: neige
+    summary: Des flocons de neige blancs tombent des nuages.
+    info: La neige se forme lorsque les gouttelettes d'eau dans les nuages gelent en cristaux de glace - des flocons. Chaque flocon de neige possède une forme unique et symétrique.
+  weather.stormy:
+    label: tempête
+    summary: Météo dramatique avec éclairs, tonnerre et forte pluie.
+    info: Une tempête se forme dans des nuages cumulonimbus élevés. L'éclair est une décharge électrique ; le tonnerre est un son causé par le chauffage rapide de l'air autour de l'éclair.
+  weather.sunny:
+    label: ensoleillé
+    summary: Ciel clair avec un soleil brillant, sans nuages.
+    info: Le temps ensoleillé apparaît lorsque les nuages n'obstruent pas la lumière du soleil. Le soleil fournit la lumière et la chaleur nécessaires à la vie sur Terre.
+  weather.windy:
+    label: vent
+    summary: Un mouvement d'air fort qui courbe les arbres et emporte les feuilles.
+    info: Le vent se forme à cause du réchauffement différentiel de la surface terrestre, ce qui entraîne le déplacement de l'air des zones de haute pression vers celles de basse pression.

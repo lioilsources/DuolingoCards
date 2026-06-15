@@ -1,0 +1,36 @@
+lang: tr
+pivot: false
+title: Duygular
+cards:
+  emotion.angry:
+    label: öfke
+    summary: Kuvvetli bir kızgınlık ya da öfkeyi hissetmek, sinirlenmek.
+    info: Öfke, algılanan adaletsizlik veya tehditlere karşı duygusal bir reaksiyondur. Kalp atış hızını artırır ve bedeni 'mücadele et ya da kaç' cevabına hazırlar.
+  emotion.calm:
+    label: sakin
+    summary: İçsel barış ve rahatlık hissi; sakin olmak.
+    info: Sakın, zihinsel ve fiziksel denge durumudur. Kalbin atımını yavaşlatır, nefes almayı derinleştirir ve net düşünmeyi ve iyi karar vermeyi sağlar.
+  emotion.excited:
+    label: heyecanlı
+    summary: Güçlü bir heyecan ve memnunluk dolu beklenti hissi.
+    info: Heyecan, olumlu bir duygu olan keyifli bir etkinliğin beklenmesiyle ilişkili yoğun bir duygudur. Enerjiyi artırır, kalp atışını hızlandırır ve yaratıcı düşünmeyi destekler.
+  emotion.happy:
+    label: mutlu
+    summary: Nezehirli bir duygudur; iyi hissedebilmekle ilişkilidir.
+    info: Mutluluk dopamin ve seratonin salgılanmasıyla bağlantılı olumlu bir duygudur. Gülümseme, canlı el gönüllü hareketleri ve açık bedensel duruşlar ile kendini gösterir.
+  emotion.sad:
+    label: üzgün
+    summary: Üzüntü ya da memnakiyetsizlik hissi; depresif durumda olmak.
+    info: Üzgünlük kayıp veya hayal kırıklığına karşı doğal bir duygudur. Gözyaşları, dudak uçlarının aşağı dönmesi ve yorgun bir duruşla kendini gösterir.
+  emotion.scared:
+    label: korkmuş
+    summary: Tehlikeden veya tehditten korkma hissi.
+    info: Korku temel bir savunma duygusudur. Adrenaliği serbest bırakmaya başlar, kalp atışını hızlandırır ve vücuttan kaçmak ya da korunmak için hazırlık yapar.
+  emotion.surprised:
+    label: şaşkın
+    summary: Beklenmedik bir durum karşısında aniden hayrete dalmak.
+    info: Şaşkınlık sadece birkaç saniye süren çok kısa bir duygudur. Ağız açık, kaşlar yukarı ve göz bebekleri genişlemiş haldedir.
+  emotion.tired:
+    label: yorgun
+    summary: Fiziksel ya da zihinsel yorgunluk hissi, dinlenmeye ihtiyaç duyulması.
+    info: Yorgunluk bedenden dinleneceğine dair bir sinyaldir. Uykuya eğilim, tepki süresinin uzaması ve dikkat kapasitesinde azalma ile kendini gösterir.

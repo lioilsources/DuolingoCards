@@ -1,0 +1,36 @@
+lang: zh-CN
+pivot: false
+title: 天气
+cards:
+  weather.cloudy:
+    label: 多云
+    summary: 天空被密集的云覆盖，没有直射阳光。
+    info: 云是由可见的小水滴或冰晶聚集而成。地球上的天空有超过60%始终处于云层覆盖之下。
+  weather.foggy:
+    label: 雾
+    summary: 浓雾降低能见度。
+    info: 雾是贴近地面的云，由水滴组成。当空气湿度高时形成，并将能见度降至1公里以下。
+  weather.rainbow:
+    label: 彩虹
+    summary: 雨后天空中出现的彩色光弧，此时阳光照射。
+    info: 彩虹是由于太阳光在雨滴中的折射和反射而形成的。它包含七种颜色——红色、橙色、黄色、绿色、蓝色、靛蓝和紫色。
+  weather.rainy:
+    label: 下雨
+    summary: 雨水以水滴的形式从云中落下。
+    info: 雨是由于云中的水蒸气凝结而形成的。它是河流、湖泊和饮用水储备充满的必要条件；平均降雨速度为每秒9米。
+  weather.snowy:
+    label: 下雪
+    summary: 从云中飘落白色的雪花。
+    info: 当云中的水滴冻结成冰晶——雪花时，就会形成雪。每一片雪花都有独特的对称形状。
+  weather.stormy:
+    label: 雷暴
+    summary: 伴有闪电、雷鸣和强降雨的剧烈天气。
+    info: 雷暴通常在高耸的积雨云中形成。闪电是电流放电现象，而雷声则是由于闪电周围空气迅速受热产生的声音。
+  weather.sunny:
+    label: 晴朗
+    summary: 阳光明媚的天空，没有云。
+    info: 晴天是指云层未阻挡太阳辐射的情况。太阳为地球上的生命提供必要的光和热。
+  weather.windy:
+    label: 有风
+    summary: 强风吹弯树木并卷起树叶。
+    info: 风是由于地球表面受热不均而产生的，这种温差导致空气从高压区向低压区流动。

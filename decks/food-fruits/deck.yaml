@@ -1,0 +1,99 @@
+# food-fruits — common fruits.
+slug: food-fruits
+version: 1
+tier: 0
+brief_attrs: ["(still life:1.2)", "(vibrant colors:1.3)", "(highly detailed:1.2)", "(photorealistic texture:1.1)", "clean white background", "soft studio lighting"]
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: fruit.apple
+    hint: round red or green fruit from the apple tree (Malus domestica)
+    image: fruit.apple.png
+    brief:
+      subject: red apple
+      attrs: [shiny, round, green stalk, perfect shape]
+      setting: [clean white surface, soft shadow, studio light]
+      avoid: [text, label, cut open, other fruits]
+
+  - key: fruit.banana
+    hint: long curved yellow tropical fruit (Musa species)
+    image: fruit.banana.png
+    brief:
+      subject: yellow banana
+      attrs: [curved, ripe, bright yellow, single fruit]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, bunch of bananas, peel removed, brown spots]
+
+  - key: fruit.orange
+    hint: round citrus fruit with a thick orange peel (Citrus sinensis)
+    image: fruit.orange.png
+    brief:
+      subject: orange citrus fruit
+      attrs: [round, bright orange, glossy peel, green leaves attached]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, sliced, juice, other fruits]
+
+  - key: fruit.strawberry
+    hint: red heart-shaped berry with seeds on the surface (Fragaria × ananassa)
+    image: fruit.strawberry.png
+    brief:
+      subject: ripe strawberry
+      attrs: [bright red, heart-shaped, tiny seeds, green leafy cap]
+      setting: [clean white surface, soft light]
+      avoid: [text, cut, jam, other fruits]
+
+  - key: fruit.grape
+    hint: small round fruit that grows in clusters on a vine (Vitis vinifera)
+    image: fruit.grape.png
+    brief:
+      subject: bunch of purple grapes
+      attrs: [cluster of small round grapes, deep purple, glistening]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, wine, raisins, single grape only]
+
+  - key: fruit.watermelon
+    hint: large green-striped fruit with red flesh and black seeds (Citrullus lanatus)
+    image: fruit.watermelon.png
+    brief:
+      subject: watermelon
+      attrs: [large, green striped exterior, round]
+      setting: [clean white surface, soft light]
+      avoid: [text, sliced open, other fruits]
+
+  - key: fruit.mango
+    hint: tropical stone fruit with yellow-orange flesh (Mangifera indica)
+    image: fruit.mango.png
+    brief:
+      subject: ripe mango
+      attrs: [oval, yellow-orange skin with red blush, smooth]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, sliced, other tropical fruits]
+
+  - key: fruit.cherry
+    hint: small round red stone fruit that grows in pairs (genus Prunus)
+    image: fruit.cherry.png
+    brief:
+      subject: pair of red cherries
+      attrs: [two cherries, bright red, glossy, green stems joined]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, jar, other fruits, single cherry]
+
+  - key: fruit.pear
+    hint: teardrop-shaped fruit with a sweet mild flavour (genus Pyrus)
+    image: fruit.pear.png
+    brief:
+      subject: green pear
+      attrs: [teardrop shape, pale green skin, slight blush, stem]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, other fruits, cut open]
+
+  - key: fruit.pineapple
+    hint: tropical fruit with spiky crown and yellow flesh (Ananas comosus)
+    image: fruit.pineapple.png
+    brief:
+      subject: pineapple
+      attrs: [golden yellow, spiky crown, diamond-patterned skin]
+      setting: [clean white surface, soft shadow]
+      avoid: [text, sliced, other fruits]

@@ -1,0 +1,81 @@
+# emotions — basic human emotions shown through cartoon character expressions.
+slug: emotions
+version: 1
+tier: 0
+brief_attrs: ["(cute cartoon character:1.3)", "(expressive face:1.3)", "(simple background:1.1)", "(child-friendly:1.2)", "(clear emotion:1.3)"]
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: emotion.happy
+    hint: feeling joy or pleasure, opposite of sad
+    image: emotion.happy.png
+    brief:
+      subject: happy cartoon child character
+      attrs: [big smile, bright eyes, arms raised, joyful expression]
+      setting: [warm yellow background, simple, centered]
+      avoid: [text, tears, dark mood, scary]
+
+  - key: emotion.sad
+    hint: feeling unhappy or sorrowful, opposite of happy
+    image: emotion.sad.png
+    brief:
+      subject: sad cartoon child character
+      attrs: [frowning mouth, downcast eyes, tear on cheek, drooping posture]
+      setting: [soft blue background, simple, centered]
+      avoid: [text, angry expression, happy expression, scary]
+
+  - key: emotion.angry
+    hint: feeling strong displeasure or rage, opposite of calm
+    image: emotion.angry.png
+    brief:
+      subject: angry cartoon child character
+      attrs: [furrowed brows, scowling mouth, red face, fists clenched]
+      setting: [orange-red background, simple, centered]
+      avoid: [text, happy expression, sad expression, violence]
+
+  - key: emotion.surprised
+    hint: feeling sudden astonishment, wide-eyed reaction
+    image: emotion.surprised.png
+    brief:
+      subject: surprised cartoon child character
+      attrs: [wide open eyes, open mouth O-shape, hands on cheeks, eyebrows raised]
+      setting: [light purple background, simple, centered]
+      avoid: [text, scared expression, calm expression, violence]
+
+  - key: emotion.scared
+    hint: feeling fear or fright, wanting to hide
+    image: emotion.scared.png
+    brief:
+      subject: scared cartoon child character
+      attrs: [trembling, wide scared eyes, hunched posture, hands up in defense]
+      setting: [dark grey-blue background, simple, centered]
+      avoid: [text, monster, violent content, happy expression]
+
+  - key: emotion.tired
+    hint: feeling fatigue or the need to sleep, exhausted
+    image: emotion.tired.png
+    brief:
+      subject: tired cartoon child character
+      attrs: [half-closed droopy eyes, yawning mouth, slouched posture]
+      setting: [soft grey background, simple, centered]
+      avoid: [text, energetic pose, awake expression, scary]
+
+  - key: emotion.excited
+    hint: feeling enthusiastic anticipation or great enthusiasm
+    image: emotion.excited.png
+    brief:
+      subject: excited cartoon child character
+      attrs: [huge grin, sparkling eyes, jumping or dancing, arms wide]
+      setting: [bright green background, simple, centered, confetti]
+      avoid: [text, calm expression, sad expression, violence]
+
+  - key: emotion.calm
+    hint: feeling peaceful and relaxed, not stressed
+    image: emotion.calm.png
+    brief:
+      subject: calm cartoon child character
+      attrs: [gentle smile, relaxed eyes, peaceful expression, hands resting]
+      setting: [soft mint green background, simple, centered]
+      avoid: [text, angry expression, stressed pose, chaotic background]

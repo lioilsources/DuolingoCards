@@ -1,0 +1,36 @@
+lang: vi
+pivot: false
+title: Thời tiết
+cards:
+  weather.cloudy:
+    label: mây
+    summary: Trời được che phủ bởi những đám mây dày đặc và không có ánh nắng trực tiếp.
+    info: Mây là các cụm nhỏ gồm giọt nước hoặc tinh thể băng nhìn thấy được. Hơn 60% bầu trời Trái Đất luôn bị bao phủ bởi mây.
+  weather.foggy:
+    label: sương mù
+    summary: Sương mù dày đặc làm giảm tầm nhìn.
+    info: Sương mù là những đám mây ở mức mặt đất được tạo thành từ các giọt nước nhỏ li ti. Nó hình thành khi độ ẩm cao và có thể làm tầm nhìn dưới 1km.
+  weather.rainbow:
+    label: cầu vồng
+    summary: Vòm màu sắc trên bầu trời sau cơn mưa khi mặt trời xuất hiện.
+    info: Cầu vồng hình thành do sự khúc xạ và phản xạ ánh sáng mặt trời trong các giọt nước mưa. Nó gồm bảy màu – đỏ, cam, vàng, lục, lam, chàm và tím.
+  weather.rainy:
+    label: mưa
+    summary: Những giọt nước rơi từ đám mây là mưa.
+    info: Mưa hình thành do sự ngưng tụ hơi nước trong các đám mây. Mưa rất cần thiết để bổ sung nguồn nước cho sông, hồ và cung cấp nước uống; trung bình, những hạt mưa rơi với tốc độ khoảng 9 mét/giây.
+  weather.snowy:
+    label: tuyết rơi
+    summary: Những bông tuyết trắng rơi từ đám mây.
+    info: Tuyết được hình thành khi những giọt nước trong mây đóng băng tạo ra các tinh thể băng - bông tuyết. Mỗi bông tuyết đều có dạng đối xứng độc đáo.
+  weather.stormy:
+    label: cuộc bão
+    summary: Thời tiết nghiêm trọng với sấm sét và mưa lớn.
+    info: Cuộc bão hình thành trong những đám mây cumulonimbus cao. Sét là tia chớp điện; tiếng sấm là âm thanh do không khí xung quanh sét nhanh chóng bị làm nóng.
+  weather.sunny:
+    label: nắng
+    summary: Trời trong xanh với ánh nắng chói chang, không có mây.
+    info: Thời tiết nắng xảy ra khi không có đám mây nào cản trở tia sáng mặt trời. Mặt trời mang lại ánh sáng và nhiệt cần thiết cho sự sống trên Trái đất.
+  weather.windy:
+    label: có gió
+    summary: Gió mạnh làm cong cây và cuốn lá đi.
+    info: Gió hình thành do sự sưởi nóng không đều của bề mặt Trái Đất, gây ra chuyển động của không khí từ các khu vực có áp suất cao sang các khu vực có áp suất thấp.

@@ -1,0 +1,36 @@
+lang: id
+pivot: false
+title: Cuaca
+cards:
+  weather.cloudy:
+    label: berawan
+    summary: Langit tertutup awan tebal tanpa sinar matahari langsung.
+    info: Awan adalah gumpalan kecil tetesan air atau kristal es yang terlihat di langit. Lebih dari 60% langit Bumi selalu tertutup oleh awan.
+  weather.foggy:
+    label: kebun
+    summary: Kabut tebal di permukaan tanah yang mengurangi visibilitas.
+    info: Kabut adalah awan pada tingkat permukaan bumi terdiri dari tetesan air kecil. Kabut muncul saat kelembapan udara tinggi dan mengurangi jarak pandang hingga kurang dari 1 kilometer.
+  weather.rainbow:
+    label: pelangi
+    summary: Busur warna di langit setelah hujan ketika matahari bersinar.
+    info: Pelangi terbentuk karena pembiasaan dan pemantulan cahaya matahari dalam tetes-tetes air hujan. Pelangi mengandung tujuh warna yaitu merah, oranye, kuning, hijau, biru, nila, dan ungu.
+  weather.rainy:
+    label: hujan
+    summary: Butir-butir air turun dari awan sebagai hujan.
+    info: Hujan terbentuk melalui proses kondensasi uap air di dalam awan. Hujan sangat penting untuk mengisi aliran sungai, danau serta cadangan air minum; kecepatan rata-rata jatuhnya tetesan hujan adalah sekitar 9 meter per detik.
+  weather.snowy:
+    label: salju
+    summary: Butiran salju putih turun dari awan.
+    info: Salju terbentuk ketika tetes air di dalam awan membeku menjadi kristal es—vločky. Setiap butir salju memiliki bentuk simetris yang unik.
+  weather.stormy:
+    label: badai
+    summary: Cuaca dramatis dengan petir, guntur, dan hujan deras.
+    info: Badai terjadi di awan kumulonimbus yang tinggi. Petir adalah kilatan listrik; guntur adalah suara yang disebabkan oleh pemanasan udara secara cepat akibat petir.
+  weather.sunny:
+    label: cerah
+    summary: Langit jernih dengan matahari bersinar terang, tanpa awan.
+    info: Cuaca cerah muncul ketika langit tidak tertutupi oleh awan yang menghalangi radiasi matahari. Matahari memberikan cahaya dan panas yang diperlukan untuk kehidupan di Bumi.
+  weather.windy:
+    label: berangin
+    summary: Angin kencang yang menggoyahkan pohon dan membawa daun.
+    info: Angin terjadi karena perbedaan pemanasan permukaan bumi yang menyebabkan udara bergerak dari area tekanan tinggi ke area tekanan rendah.

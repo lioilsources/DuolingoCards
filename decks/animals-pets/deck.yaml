@@ -1,0 +1,81 @@
+# animals-pets — domestic and pet animals.
+slug: animals-pets
+version: 1
+tier: 1
+brief_attrs: [source_furry, "(feral:1.25)", quadrupedal, "(realistic animal anatomy:1.35)", "(detailed fur texture:1.3)", "(natural proportions:1.25)"]
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: pet.dog
+    hint: the domestic dog (Canis lupus familiaris), common household pet
+    image: pet.dog.png
+    brief:
+      subject: golden retriever dog
+      attrs: [sitting, wagging tail, friendly, fluffy]
+      setting: [garden lawn, outdoor, sunny day]
+      avoid: [text, leash, humans]
+
+  - key: pet.cat
+    hint: the domestic cat (Felis catus), common household pet
+    image: pet.cat.png
+    brief:
+      subject: tabby cat
+      attrs: [sitting upright, alert, striped fur]
+      setting: [on a wooden floor, indoors, warm light]
+      avoid: [text, humans, other animals]
+
+  - key: pet.rabbit
+    hint: domestic rabbit (Oryctolagus cuniculus), kept as a pet
+    image: pet.rabbit.png
+    brief:
+      subject: white rabbit
+      attrs: [sitting, long ears, fluffy, cute]
+      setting: [green grass, garden, soft light]
+      avoid: [text, cage, humans]
+
+  - key: pet.hamster
+    hint: small rodent commonly kept as a pet (genus Mesocricetus)
+    image: pet.hamster.png
+    brief:
+      subject: golden hamster
+      attrs: [chubby cheeks, round body, holding food]
+      setting: [wooden surface, soft background]
+      avoid: [text, cage, wheel]
+
+  - key: pet.goldfish
+    hint: small ornamental freshwater fish kept in aquariums (Carassius auratus)
+    image: pet.goldfish.png
+    brief:
+      subject: goldfish
+      attrs: [orange, flowing fins, swimming]
+      setting: [clear water, aquatic plants, bubbles]
+      avoid: [text, humans, bowl label]
+
+  - key: pet.parrot
+    hint: colourful talking bird kept as a pet (order Psittaciformes)
+    image: pet.parrot.png
+    brief:
+      subject: green budgerigar parakeet
+      attrs: [perched, bright green and yellow feathers, curious]
+      setting: [wooden perch, blurred indoor background]
+      avoid: [text, cage, humans]
+
+  - key: pet.turtle
+    hint: small aquatic turtle kept as a pet (family Emydidae)
+    image: pet.turtle.png
+    brief:
+      subject: red-eared slider turtle
+      attrs: [small, green shell, red markings on head, resting]
+      setting: [on a rock, shallow pond water]
+      avoid: [text, humans, tank label]
+
+  - key: pet.guinea_pig
+    hint: small fluffy rodent popular as a pet (Cavia porcellus)
+    image: pet.guinea_pig.png
+    brief:
+      subject: guinea pig
+      attrs: [round, fluffy, tri-colour fur, sitting]
+      setting: [green meadow, close-up, soft background]
+      avoid: [text, cage, humans]

@@ -1,0 +1,81 @@
+# animals-farm — common farm animals.
+slug: animals-farm
+version: 1
+tier: 1
+brief_attrs: [source_furry, "(feral:1.25)", "(realistic animal anatomy:1.35)", "(detailed fur texture:1.3)", "(natural proportions:1.25)"]
+styles:
+  - pony-cartoon
+default_style: pony-cartoon
+
+cards:
+  - key: farm.cow
+    hint: large dairy/beef bovine (Bos taurus), kept on farms
+    image: farm.cow.png
+    brief:
+      subject: Holstein dairy cow
+      attrs: [black and white patches, standing, calm]
+      setting: [green pasture, blue sky, fence]
+      avoid: [text, slaughterhouse, humans]
+
+  - key: farm.pig
+    hint: domestic pig (Sus scrofa domesticus), pink farm animal
+    image: farm.pig.png
+    brief:
+      subject: domestic pig
+      attrs: [pink, round snout, curly tail, standing]
+      setting: [muddy farm yard, hay in background]
+      avoid: [text, slaughter, humans]
+
+  - key: farm.sheep
+    hint: woolly farm animal (Ovis aries) raised for wool and meat
+    image: farm.sheep.png
+    brief:
+      subject: white sheep
+      attrs: [fluffy white wool, standing, calm, black face]
+      setting: [green hillside, blue sky, open field]
+      avoid: [text, shearing, humans]
+
+  - key: farm.chicken
+    hint: domestic chicken (Gallus gallus domesticus), common farm bird
+    image: farm.chicken.png
+    brief:
+      subject: red hen
+      attrs: [red comb, brown feathers, standing, pecking]
+      setting: [barn yard, straw ground, outdoor]
+      avoid: [text, humans, coop label]
+
+  - key: farm.goat
+    hint: domestic goat (Capra aegagrus hircus), horned farm animal
+    image: farm.goat.png
+    brief:
+      subject: white goat
+      attrs: [small horns, beard, standing on a rock, curious]
+      setting: [rocky hillside, green grass, daylight]
+      avoid: [text, humans, fence label]
+
+  - key: farm.horse
+    hint: domestic horse (Equus ferus caballus), large farm and riding animal
+    image: farm.horse.png
+    brief:
+      subject: chestnut horse
+      attrs: [strong, standing, brown coat, flowing mane]
+      setting: [green meadow, wooden fence, sunny day]
+      avoid: [text, saddle, humans]
+
+  - key: farm.donkey
+    hint: domestic donkey (Equus africanus asinus), sure-footed working animal
+    image: farm.donkey.png
+    brief:
+      subject: grey donkey
+      attrs: [large ears, grey fur, standing, calm]
+      setting: [dry landscape, stone wall background]
+      avoid: [text, cart, humans]
+
+  - key: farm.duck
+    hint: domestic duck (Anas platyrhynchos domesticus), farmyard waterfowl
+    image: farm.duck.png
+    brief:
+      subject: white domestic duck
+      attrs: [white feathers, orange bill, waddling]
+      setting: [pond edge, green reeds, water reflection]
+      avoid: [text, humans, basket]
