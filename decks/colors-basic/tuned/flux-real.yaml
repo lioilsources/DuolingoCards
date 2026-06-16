@@ -1,72 +1,352 @@
 style: flux-real
 cards:
+    color.amber:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), warm golden-orange, transparent, gem-like, simple amber teardrop gem in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2577380826051248976
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:36:40Z"
+    color.aqua:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), bright aqua blue-green, water drop, simple aqua water drop in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8966412523908556176
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:38:18Z"
+    color.azure:
+        positive: a perfect circular shape filled with bright azure blue, clean flat solid color, centered on white background, minimalist design, crisp edges, no gradient, no texture
+        seed: 4626304390983162437
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T01:44:03Z"
+    color.beige:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), solid beige, warm neutral, simple beige sand dune shape in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8837676686931200230
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:20:40Z"
     color.black:
         positive: A perfectly matte solid black square with uniformly deep black color across every edge, razor sharp clean boundaries showing no hint of gradient or shading, placed dead center against flawlessly smooth pure white background, minimalist composition highlighting absolute darkness
-        seed: 2126060613551428820
+        seed: 7636988202668945569
         score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:18:58Z"
+    color.blue:
+        positive: a perfectly uniform solid blue circle with consistent vibrant hue across all areas, sharply defined edges against a pristine white background
+        seed: 4323218560645086000
+        score: 10
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T01:14:12Z"
+    color.bronze:
+        positive: dark brownish-gold metallic bronze simple bronze medal shape with subtle sheen centered on white background clean composition without text other colors
+        seed: 7293067412446674276
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T01:29:15Z"
+    color.brown:
+        positive: a clean flat vector-style brown bear silhouette fully filled with uniform matte brown color, solid fill throughout entire shape including head and limbs, no internal shading or gradients, set against pure white background, perfectly centered
+        seed: 7222133726215296608
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T01:19:24Z"
+    color.burgundy:
+        positive: Simple flat illustration of a centered burgundy wine glass silhouette, completely filled with solid dark wine burgundy red-purple color, clean design, no texture or shading, uniform fill across entire shape including base, white background
+        seed: 8526574932100253892
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T01:45:27Z"
+    color.charcoal:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), very dark grey almost black, simple, bold charcoal square in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2690085168998856144
+        score: 10
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:43:38Z"
+    color.chartreuse:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), vivid yellow-green, bold, simple star chartreuse star in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3266375003354233877
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:38:43Z"
+    color.cobalt:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), vivid cobalt blue, bold, simple cobalt blue square in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8929559756715276887
+        score: 10
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:37:56Z"
+    color.copper:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), reddish-brown metallic, copper, simple copper coin shape in white background, centered, slight sheen. Clean composition without text, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7146609442593776616
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:27:51Z"
+    color.coral:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), vivid coral pink-orange, simple, bold coral flower shape in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1273270916958510614
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:28:51Z"
+    color.cream:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), cream yellow-white, simple, block cream colour swatch in white background, centered. Clean composition without text, gradient. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1460976980173101618
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:21:36Z"
+    color.crimson:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), deep vivid crimson red, bold, simple crimson circle in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5799326792073475703
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:37:02Z"
+    color.cyan:
+        positive: vivid cyan flat circle with bright clean edges on pure white background centered
+        seed: 2325177243366557396
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T01:41:29Z"
+    color.fuchsia:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), vivid fuchsia hot pink, bold, simple fuchsia diamond in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1238644278873673902
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:40:04Z"
+    color.gold:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), metallic gold, bright, shiny, simple star gold star shape in white background, centered. Clean composition without text, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7175516305397595289
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:26:08Z"
+    color.green:
+        positive: Solid vibrant green flat leaf shape with bold clean edges centered on pure white background
+        seed: 819614583573676643
+        score: 6
         model: builder
         iters: 4
-        updated_at: "2026-06-15T04:47:40Z"
-    color.blue:
-        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), solid blue, simple, bold blue circle in white background, centered. Clean composition without text, gradient, other colors, complex pattern. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 4144730986710303951
+        updated_at: "2026-06-16T01:15:48Z"
+    color.grey:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), solid grey, simple, bold grey storm cloud shape in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6589660877065722001
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:41:43Z"
-    color.brown:
-        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), solid brown, simple, bold brown bear silhouette in white background, centered. Clean composition without text, gradient, other colors, complex pattern. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 6092809316735164408
+        updated_at: "2026-06-16T01:20:16Z"
+    color.indigo:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), deep indigo blue-violet, simple, bold indigo teardrop in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8755402047480351519
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:45:15Z"
-    color.green:
-        positive: solid green flat leaf shape centered on white background clean design bold simple uniform green fill no gradient no variation
-        seed: 2674180828632702763
+        updated_at: "2026-06-16T01:33:34Z"
+    color.ivory:
+        positive: a clean flat-color illustration of a true elongated oval shape in warm creamy ivory with smooth rounded edges, solid uniform tone throughout, centered on a plain white background with a gentle soft drop shadow, minimalist bold design suitable for a children's book
+        seed: 7243769442571549217
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T01:22:57Z"
+    color.khaki:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), khaki dull yellow-brown, simple, bold khaki square patch in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7731129323484226012
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:35:48Z"
+    color.lavender:
+        positive: a flat clean centered simple illustration of a pale lavender sprig silhouette with uniform solid pale lavender purple leaves and stem no texture or shading only pure flat color on white background
+        seed: 3144885927833937468
         score: 9
         model: builder
         iters: 2
-        updated_at: "2026-06-15T04:43:30Z"
-    color.orange:
-        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), solid orange, simple, bold orange circle in white background, centered. Clean composition without text, gradient, other colors, complex pattern. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 6889314443899178444
+        updated_at: "2026-06-16T01:35:21Z"
+    color.lime:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), bright yellow-green, vivid, simple, bold lime green circle in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 149258272321743935
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:43:58Z"
+        updated_at: "2026-06-16T01:25:13Z"
+    color.magenta:
+        positive: a vivid magenta purplish-pink bold simple symmetrical diamond with sharp even corners glowing intensely on a pure white background centered flat solid vibrant color
+        seed: 6261658291223890753
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T01:33:59Z"
+    color.maroon:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), dark brownish red, bold, simple maroon shield shape in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7154903658477928508
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:22:33Z"
+    color.mauve:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), muted mauve purple-pink, soft, simple mauve oval in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3961275756539131437
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:39:12Z"
+    color.mint:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), pale mint green, fresh, simple mint leaf shape in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8652956782778867054
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:34:56Z"
+    color.navy:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), dark navy blue, simple icon, bold navy anchor icon in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2007083130884102687
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:23:23Z"
+    color.ochre:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), earthy ochre yellow-brown, muted, simple ochre rock shape in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3181966732100729701
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:42:19Z"
+    color.olive:
+        positive: an olive-shaped oval object in dull yellow-green earthy tone, centered on a clean white background
+        seed: 116447279048779632
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T01:27:29Z"
+    color.orange:
+        positive: solid flat orange circle with clean sharp edges on pure white background centered
+        seed: 7461913109282265186
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T01:17:31Z"
+    color.periwinkle:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), light periwinkle blue-violet, simple, soft periwinkle flower shape in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2115583822831488743
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:39:36Z"
     color.pink:
         positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), solid pink, simple, bold, cute pink flower shape in white background, centered. Clean composition without text, gradient, other colors, complex pattern. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 1394806247607216241
+        seed: 1125313618914741861
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:44:46Z"
+        updated_at: "2026-06-16T01:17:57Z"
     color.purple:
         positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), solid purple, simple, bold purple diamond shape in white background, centered. Clean composition without text, gradient, other colors, complex pattern. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 5798676146110026207
+        seed: 1666931260778336119
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:44:21Z"
+        updated_at: "2026-06-16T01:17:05Z"
     color.red:
         positive: solid red heart shape completely filled with uniform vivid crimson color on pure white background centered clean flat vector illustration bold outline minimalist design
-        seed: 923017047320481212
+        seed: 5863710821050440292
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:11:43Z"
+    color.rose:
+        positive: soft rose pink-red flat-color rose flower silhouette with clean edges centered on pure white background bold shape only no leaves no gradient no extra hues
+        seed: 945880372960318805
         score: 9
         model: builder
         iters: 2
-        updated_at: "2026-06-15T04:42:09Z"
+        updated_at: "2026-06-16T01:31:16Z"
+    color.salmon:
+        positive: A light pink-orange salmon-colored fish slice rendered as a simple flat shape with subtle flesh-like texture, centered on a crisp white background, no extra details
+        seed: 6299755726126188289
+        score: 8
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T01:31:42Z"
+    color.scarlet:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), bright scarlet red, simple, bold scarlet banner shape in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3249841696494592568
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:37:29Z"
+    color.sienna:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), reddish-brown sienna, earthy, simple sienna earth mound in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3560954295434568096
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:42:44Z"
+    color.silver:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), metallic silver, shiny, simple circle silver medal shape in white background, centered, subtle sheen. Clean composition without text, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7395472599803430921
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:27:04Z"
+    color.tan:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), light brown tan, earthy, simple tan rectangle swatch in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8416203488537092706
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:36:12Z"
+    color.teal:
+        positive: teal wave shape flat bold clean centered on white background with solid teal blue-green fill no ripple texture no shading no gradient
+        seed: 7957776851031865380
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T01:24:49Z"
+    color.turquoise:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), vivid turquoise, jewel-like, simple turquoise gem shape in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8687959854803215123
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:24:22Z"
+    color.vermillion:
+        positive: vivid red-orange vermillion flat solid-color swatch centered on pure white background clean composition with sharp crisp edges no texture no shading
+        seed: 5461965520423110677
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T01:41:56Z"
+    color.violet:
+        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), violet blue-purple, simple, bold violet petal shape in white background, centered. Clean composition without text, gradient, other colors. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5487693238206668816
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:32:37Z"
     color.white:
         positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), solid white, simple, bold, thin grey border white circle with thin grey outline in light grey background, centered. Clean composition without text, gradient, other colors, complex pattern. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 4877793990377075195
+        seed: 6124155456508006066
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:46:11Z"
+        updated_at: "2026-06-16T01:19:50Z"
     color.yellow:
-        positive: A (simple illustration:1.2), (clean design:1.2), (flat color:1.1), (centered composition:1.2), solid yellow, simple star burst, bold yellow sun shape in white background, centered. Clean composition without text, gradient, other colors, complex pattern. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 5038589209597947983
+        positive: solid bright yellow sun shape with clear sharp starburst edges on clean white background centered flat color no shading or blending
+        seed: 8436317743676251828
         score: 9
         model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:43:05Z"
+        iters: 2
+        updated_at: "2026-06-16T01:16:09Z"

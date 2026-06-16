@@ -1,6 +1,6 @@
 # Tuning transcript — num.one [flux-real]
 
-Result: 3 iteration(s), final score 8.0, passed=true, seed=5139079159483813824
+Result: 4 iteration(s), final score 6.0, passed=false, seed=7802253314181370380
 
 ## Target
 
@@ -12,21 +12,21 @@ Desired setting: white background, centered, clean
 Must avoid: text labels, other fruits, multiple objects
 ```
 
-## Iteration 1 (seed 2408470125477731512)
+## Iteration 1 (seed 3542654972019743450)
 
 ### Prompt generated from
 
-**positive:** A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), single apple, large numeral 1, bold, cute cartoon style one apple on a plain background in white background, centered, clean. Clean composition without text labels, other fruits, multiple objects. natural lighting, soft focus background, high detail, friendly children's book illustration style
+**positive:** a cute cartoon single apple with a large bold numeral 1 centered on a pure white background, clean composition without shadows, text labels, other fruits or multiple objects
 
 ### Validator (validator)
 
 score: **6.0**, pass: false
 
 issues:
-- The apple is not centered.
-- There's a shadow under the apple which violates the clean background requirement.
+- The image depicts an apple with a large numeral '1' inside it instead of just showing a single apple.
+- There is no plain background as described.
 
-suggestions: Center the apple within its bounding box and remove any shadows from around it.
+suggestions: Replace the apple with a simple representation of a single apple without any numbers inside. Ensure there's a plain white background around the apple.
 
 <details><summary>raw validator request</summary>
 
@@ -49,10 +49,10 @@ Review the attached image.
   "score": 6,
   "pass": false,
   "issues": [
-    "The apple is not centered.",
-    "There's a shadow under the apple which violates the clean background requirement."
+    "The image depicts an apple with a large numeral '1' inside it instead of just showing a single apple.",
+    "There is no plain background as described."
   ],
-  "suggestions": "Center the apple within its bounding box and remove any shadows from around it."
+  "suggestions": "Replace the apple with a simple representation of a single apple without any numbers inside. Ensure there's a plain white background around the apple."
 }
 ```
 </details>
@@ -70,13 +70,13 @@ Desired setting: white background, centered, clean
 Must avoid: text labels, other fruits, multiple objects
 
 Current positive prompt:
-A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), single apple, large numeral 1, bold, cute cartoon style one apple on a plain background in white background, centered, clean. Clean composition without text labels, other fruits, multiple objects. natural lighting, soft focus background, high detail, friendly children's book illustration style
+a cute cartoon single apple with a large bold numeral 1 centered on a pure white background, clean composition without shadows, text labels, other fruits or multiple objects
 
 Reviewer score: 6.0/10
 Reviewer issues:
-- The apple is not centered.
-- There's a shadow under the apple which violates the clean background requirement.
-Reviewer suggestions: Center the apple within its bounding box and remove any shadows from around it.
+- The image depicts an apple with a large numeral '1' inside it instead of just showing a single apple.
+- There is no plain background as described.
+Reviewer suggestions: Replace the apple with a simple representation of a single apple without any numbers inside. Ensure there's a plain white background around the apple.
 
 ```
 </details>
@@ -85,27 +85,27 @@ Reviewer suggestions: Center the apple within its bounding box and remove any sh
 
 ```
 {
-  "positive": "a cute cartoon single apple with a large bold numeral 1 centered on a pure white background, clean composition without shadows, text labels, other fruits or multiple objects",
+  "positive": "one large bold cute cartoon numeral 1 centered on a pure white background next to a simple red single apple",
   "negative": ""
 }
 ```
 </details>
 
-## Iteration 2 (seed 8507583921427615238)
+## Iteration 2 (seed 2677347620737387436)
 
 ### Prompt generated from
 
-**positive:** a cute cartoon single apple with a large bold numeral 1 centered on a pure white background, clean composition without shadows, text labels, other fruits or multiple objects
+**positive:** one large bold cute cartoon numeral 1 centered on a pure white background next to a simple red single apple
 
 ### Validator (validator)
 
 score: **2.0**, pass: false
 
 issues:
-- The image depicts a large red numeral '1' instead of an apple.
-- There is no apple present.
+- The image depicts a red numeral '1' instead of an apple
+- There is no apple present
 
-suggestions: Replace the numeral '1' with an apple illustration while maintaining the same size and style as the current design.
+suggestions: Replace the numeral '1' with an apple illustration.
 
 <details><summary>raw validator request</summary>
 
@@ -128,10 +128,10 @@ Review the attached image.
   "score": 2,
   "pass": false,
   "issues": [
-    "The image depicts a large red numeral '1' instead of an apple.",
-    "There is no apple present."
+    "The image depicts a red numeral '1' instead of an apple",
+    "There is no apple present"
   ],
-  "suggestions": "Replace the numeral '1' with an apple illustration while maintaining the same size and style as the current design."
+  "suggestions": "Replace the numeral '1' with an apple illustration."
 }
 ```
 </details>
@@ -149,13 +149,13 @@ Desired setting: white background, centered, clean
 Must avoid: text labels, other fruits, multiple objects
 
 Current positive prompt:
-a cute cartoon single apple with a large bold numeral 1 centered on a pure white background, clean composition without shadows, text labels, other fruits or multiple objects
+one large bold cute cartoon numeral 1 centered on a pure white background next to a simple red single apple
 
 Reviewer score: 2.0/10
 Reviewer issues:
-- The image depicts a large red numeral '1' instead of an apple.
-- There is no apple present.
-Reviewer suggestions: Replace the numeral '1' with an apple illustration while maintaining the same size and style as the current design.
+- The image depicts a red numeral '1' instead of an apple
+- There is no apple present
+Reviewer suggestions: Replace the numeral '1' with an apple illustration.
 
 ```
 </details>
@@ -163,19 +163,28 @@ Reviewer suggestions: Replace the numeral '1' with an apple illustration while m
 <details><summary>raw builder response</summary>
 
 ```
-{"positive":"a cute cartoon single apple with a large bold numeral 1 centered on a pure white background, clean composition without shadows, text labels, other fruits or multiple objects","negative":""}
+{
+    "positive": "a large bold cute cartoon single red apple centered on a pure white background",
+    "negative": ""
+}
 ```
 </details>
 
-## Iteration 3 (seed 5139079159483813824)
+## Iteration 3 (seed 5419674729463513031)
 
 ### Prompt generated from
 
-**positive:** a cute cartoon single apple with a large bold numeral 1 centered on a pure white background, clean composition without shadows, text labels, other fruits or multiple objects
+**positive:** a large bold cute cartoon single red apple centered on a pure white background
 
 ### Validator (validator)
 
-score: **8.0**, pass: true
+score: **6.0**, pass: false
+
+issues:
+- The image is missing the large numeral '1' as per the disambiguation.
+- There's no text label present.
+
+suggestions: Add a large numeral '1' next to the apple to meet the disambiguation requirement.
 
 <details><summary>raw validator request</summary>
 
@@ -195,10 +204,92 @@ Review the attached image.
 
 ```
 {
-  "score": 8,
-  "pass": true,
-  "issues": [],
-  "suggestions": ""
+  "score": 6,
+  "pass": false,
+  "issues": [
+    "The image is missing the large numeral '1' as per the disambiguation.",
+    "There's no text label present."
+  ],
+  "suggestions": "Add a large numeral '1' next to the apple to meet the disambiguation requirement."
+}
+```
+</details>
+
+### Builder (builder) → refined prompt
+
+<details><summary>raw builder request</summary>
+
+```
+Concept the image must depict:
+Subject: one apple on a plain background (jedna)
+Disambiguation: the numeral 1, cardinal number one
+Desired attributes: single apple, large numeral 1, bold, cute cartoon style
+Desired setting: white background, centered, clean
+Must avoid: text labels, other fruits, multiple objects
+
+Current positive prompt:
+a large bold cute cartoon single red apple centered on a pure white background
+
+Reviewer score: 6.0/10
+Reviewer issues:
+- The image is missing the large numeral '1' as per the disambiguation.
+- There's no text label present.
+Reviewer suggestions: Add a large numeral '1' next to the apple to meet the disambiguation requirement.
+
+```
+</details>
+
+<details><summary>raw builder response</summary>
+
+```
+{
+  "positive": "One bright red apple with a large bold cute cartoon numeral 1 beside it centered on a pure white background",
+  "negative": ""
+}
+```
+</details>
+
+## Iteration 4 (seed 7802253314181370380)
+
+### Prompt generated from
+
+**positive:** One bright red apple with a large bold cute cartoon numeral 1 beside it centered on a pure white background
+
+### Validator (validator)
+
+score: **6.0**, pass: false
+
+issues:
+- The numeral is not as large nor as bold as desired.
+- The setting could be cleaner.
+
+suggestions: Increase the size and boldness of the numeral '1' to make it more prominent. Ensure there's ample negative space around the apple and numeral to enhance clarity.
+
+<details><summary>raw validator request</summary>
+
+```
+Concept the image must depict:
+Subject: one apple on a plain background (jedna)
+Disambiguation: the numeral 1, cardinal number one
+Desired attributes: single apple, large numeral 1, bold, cute cartoon style
+Desired setting: white background, centered, clean
+Must avoid: text labels, other fruits, multiple objects
+
+Review the attached image.
+```
+</details>
+
+<details><summary>raw validator response</summary>
+
+```
+{
+  "score": 6,
+  "pass": false,
+  "issues": [
+    "The numeral is not as large nor as bold as desired.",
+    "The setting could be cleaner."
+  ],
+  "suggestions": "Increase the size and boldness of the numeral '1' to make it more prominent. Ensure there's ample negative space around the apple and numeral to enhance clarity."
 }
 ```
 </details>

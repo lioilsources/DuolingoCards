@@ -1,6 +1,6 @@
 # Tuning transcript — fruit.pear [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=5412114176549555963
+Result: 1 iteration(s), final score 8.0, passed=true, seed=5727131534479402084
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: clean white surface, soft shadow
 Must avoid: text, other fruits, cut open
 ```
 
-## Iteration 1 (seed 5412114176549555963)
+## Iteration 1 (seed 5727131534479402084)
 
 ### Prompt generated from
 
@@ -20,7 +20,7 @@ Must avoid: text, other fruits, cut open
 
 ### Validator (validator)
 
-score: **9.0**, pass: true
+score: **8.0**, pass: true
 
 <details><summary>raw validator request</summary>
 
@@ -40,7 +40,7 @@ Review the attached image.
 
 ```
 {
-  "score": 9,
+  "score": 8,
   "pass": true,
   "issues": [],
   "suggestions": ""

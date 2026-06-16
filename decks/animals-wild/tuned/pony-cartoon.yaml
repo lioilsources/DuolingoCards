@@ -1,0 +1,392 @@
+style: pony-cartoon
+cards:
+    animal.aardvark:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Orycteropus_afer, feral:1.25, quadrupedal, realistic animal anatomy:1.35, detailed fur texture:1.3, natural proportions:1.25, digging, elongated tubular snout:1.6, pale pink-grey skin, large donkey ears, dry savanna, termite mound being excavated, dusk, semi-realistic:1.2, detailed cartoon:1.1, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 5324596290422901023
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:51:07Z"
+    animal.armadillo:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dasypus_novemcinctus, feral, quadrupedal, realistic_animal_anatomy:1.5, detailed_fur_texture:1.4, natural_proportions:1.4, walking, armored_band_shell, grey_brown, small, dry_grassland, soil, dusk, semi_realistic:1.3, detailed_cartoon:1.2, highly_detailed, intricate_details, soft_shading, volumetric_lighting, natural_colors, natural_pose, wildlife_photography_style, detailed_environment, solo
+        negative: mountainous, rocky_outcrop, distant_mountains, alpine, forest, trees, pine_trees
+        seed: 8888482354389404016
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:59:01Z"
+    animal.baboon:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Papio anubis, olive baboon, (elongated muzzle:1.6), (olive brown coat:1.5), (large size:1.4), (quadrupedal sitting posture:1.3), (savanna landscape:1.3), (rocky outcrop perch:1.2), (open sky above:1.2), realistic primate facial structure, detailed fur texture, natural proportions, solitary figure, wildlife photography composition, natural lighting
+        negative: dog, canine, feline, whiskers prominent, short nose, rounded face, golden yellow, tawny, domestic pet, housecat, lioness, mane suggestion, anthropomorphic, human hands, wearing clothes, holding objects, smiling expression, cute aesthetic
+        seed: 3802130066711209970
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:23:09Z"
+    animal.bear:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Ursus arctos, feral, standing upright, thick brown fur, dense shaggy coat, muscular posture, forest, pine trees, mountain stream, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: resting, lying down, back view, short fur, thin coat, small size, domestic, human, circus, anthropomorphic
+        seed: 5969157316349443501
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T15:45:34Z"
+    animal.beaver:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, castor_canadensis, source_furry, (large rodent:1.4), feral, quadrupedal, realistic_animal_anatomy, detailed_fur_texture, natural_proportions, gnawing_tree_branch, flat_paddle_tail, brown_fur, riverbank, water, birch_trees, semi_realistic, detailed_cartoon, highly_detailed, intricate_details, soft_realistic_shading, volumetric_lighting, natural_colors, natural_pose, wildlife_photography_style, detailed_environment, solo
+        negative: mouse, rat, small_rodent, tiny_body, pointed_nose, long_tail, whiskers_only, cartoon_mouse, cute_mouse, vermin, pest, insect, bug
+        seed: 4236823821178706686
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:11:13Z"
+    animal.bison:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Bison_bison, wild, quadrupedal, realistic_animal_anatomy, detailed_fur_texture, natural_proportions, standing, deep_chestnut_coat, thick_dark_mane, massive_head, pronounced_hump, open_plains, tall_golden_grass, expansive_sky, semi_realistic, highly_detailed, intricate_details, soft_realistic_shading, volumetric_lighting, natural_colors, natural_pose, wildlife_photography_style, detailed_environment, solo
+        negative: wolf,canine,lupine,doglike,snout_too_long,pointed_snout,sharp_teeth,carnivore,fur_pattern_wildcat,feline,catlike,whiskers,small_head,slender_body,text,watermark,signature,blurry,lowres,bad_anotomy,extra_limbs,deformed,abstract,stylized,minimalistic,deformed_proportions,wrong_anatomy,barbie_doll,toy_like,plastic,low_detail,sketch,mlp_style,pony_ears,cutie_mark,chibi,huge_eyes,oversized_head,simplified_shading,flat_shading,source_pony,pony_style,equine_features,cartoonish,anime_style
+        seed: 6912638410765792903
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:04:48Z"
+    animal.buffalo:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, African buffalo, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), standing, dark brown, large curved horns, stocky, savanna, green grass, trees in background, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, mud, blood
+        seed: 6227014274165229335
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T16:00:03Z"
+    animal.camel:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dromedary_camel, single_hump, sandy_beige_coat, standing, desert, sand_dunes, blue_sky, realistic_animal_anatomy, detailed_fur_texture, natural_colors, natural_pose, wildlife_photography_style, detailed_environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 8098146674726652341
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:28:56Z"
+    animal.capybara:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, capybara, Hydrochoerus hydrochaeris, large rodent, semi-aquatic mammal, resting on riverbank, barrel-shaped body, dense brown fur, calm serene expression, lush green grass banks, shallow flowing water edge, rippling surface reflections, wet moss stones, overhanging willow branches, natural sunlight dappled through foliage, hyper-detailed fur strands, photorealistic textures, lifelike anatomical accuracy, authentic wildlife behavior
+        negative: raccoon, masked bandit, ringed pattern, black mask, striped tail, dexterous paws, omnivorous scavenger, nocturnal activity, trash can raiding, urban environment, cityscape, concrete surfaces, trash bins, food wrappers, human interaction, hand gestures, anthropomorphism, cute aesthetic, cartoonish features, exaggerated expressions
+        seed: 6404302788308983377
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:56:58Z"
+    animal.cheetah:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, cheetah, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), standing alert, spotted coat, lean and slender, savanna, golden grass, clear blue sky, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, blood, humans
+        seed: 7774037300694265455
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T15:57:36Z"
+    animal.chimpanzee:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, chimpanzee, source_furry, feral, quadrupedal, (realistic animal anatomy:1.4), (expressive_face:1.3), dark_fur, sitting_on_branch, tropical_forest, tree, dense_canopy, lush_green, natural_colors, photorealistic_wildlife, high_detail
+        negative: fox, vulpine_features, red_orange_fur, pointed_ears, bushy_tail, snout_shape, whisker_pattern, tail_length, species_mismatch, anthropomorphic, humanoid, bipedal, clothing, accessories, cage, enclosure, fence, signage, text, watermark, signature, blurry, lowres, bad_anatomy, extra_limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style
+        seed: 2722542009007000103
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T15:48:25Z"
+    animal.coyote:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, coyote, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), standing alert, lean build, grey-tan coat, pointed muzzle, prairie, dry grass, sunset, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text
+        seed: 4829784474409346284
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T16:35:18Z"
+    animal.deer:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, red deer stag, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), standing alert, large branching antlers, reddish-brown, forest clearing, autumn, golden light, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, blood, hunters
+        seed: 9194713231579036582
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T16:02:42Z"
+    animal.elephant:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, African elephant, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), large, walking, savanna, acacia trees, open plain, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, circus, chains
+        seed: 7692786083368821082
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T15:38:08Z"
+    animal.fennec_fox:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, fennec fox, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), sitting, enormous round ears, cream-white coat, alert, sand dunes, desert night or day, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, cage, humans
+        seed: 7631567634670994686
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T16:58:18Z"
+    animal.fox:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, red fox, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), sitting, orange-red fur, bushy tail, alert ears, forest edge, autumn leaves, dusk light, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, hunting, dead prey
+        seed: 6629314380475903752
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T16:04:05Z"
+    animal.gazelle:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Thomson's gazelle, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), standing alert, slender build, lyre-shaped horns, tan, savanna, dry short grass, blue sky, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, blood, hunters
+        seed: 6780062022534921692
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T16:29:27Z"
+    animal.giant_anteater:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, giant_anteater, Myrmecophaga_tridactyla, feral, quadrupedal, realistic_animal_anatomY, detailed_fur_texture, natural_proportions, walking, long_tubular_snout, bushy_tail, black_and_white_flank_stripe, South_American_grassland, termite_mound, open_sky, semi_realistic, detailed_cartoon, highly_detailed, intricate_details, soft_realistic_shading, volumetric_lighting, natural_colors, natural_pose, wildlife_photography_style, detailed_environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad_anatomy, extra_limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style, cats
+        seed: 5088456006855248012
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:41:59Z"
+    animal.giant_panda:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, giant_panda, source_furry, feral, quadrupedal, realistic_animal_anatomy, detailed_fur_texture, natural_proportions, (eating_bamboo_stalk:1.4), sitting, black_and_white, bamboo_forest, green_bamboo_stalks, semi_realistic, detailed_cartoon, highly_detailed, intricate_details, soft_realistic_shading, volumetric_lighting, natural_colors, natural_pose, wildlife_photography_style, detailed_environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad_anatomy, extra_limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style
+        seed: 5898022086662207220
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T15:56:58Z"
+    animal.giraffe:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, giraffe, source_furry, (browsing_leaves:1.4), (neck_bent_towards_tree:1.3), quadrupedal, (realistic_animal_anatomy:1.35), (detailed_fur_texture:1.3), (natural_proportions:1.25), standing, browsing leaves, savanna, acacia_tree, blue_sky, semi_realistic, detailed_cartoon, highly_detailed, intricate_details, soft_realistic_shading, volumetric_lighting, natural_colors, natural_pose, wildlife_photography_style, detailed_environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad_anatomy, extra_limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style
+        seed: 6062782899108664336
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T15:40:11Z"
+    animal.gorilla:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, silverback gorilla, sitting contently, calm expression, thoughtful demeanor, (seated position:1.5), (contemplative mood:1.4), (prominent silver back:1.3), (deep dark fur texture:1.2), (jungle canopy:1.2), (emerald green foliage:1.2), (forest floor terrain:1.2), (wildlife authenticity:1.3), (dappled sunlight filtering through trees:1.2), ultra realistic fur details, subtle leaf veins
+        negative: lion, mane, feline facial structure, carnivore, catlike nose, whiskers, tiger stripes, leopard spots, domestic cat, house cat, small cat, pet, anthropomorphic, human clothing, zoo enclosure, cage bars, chain link fence, concrete floor, artificial background, studio lighting, painted backdrop, cartoonish rendering, cel shaded, line art, ink drawing, watercolor wash, pastel sketch, manga style, anime influence, chibi proportions, exaggerated eyes, cute aesthetic, plush toy appearance, stuffed animal, action figure, plastic figurine
+        seed: 2683121918087446701
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T15:50:42Z"
+    animal.hippopotamus:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, hippopotamus, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), in water, mouth open wide, grey, massive, muddy river, African landscape, sunny, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, humans
+        seed: 8275693301122683053
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T15:43:25Z"
+    animal.hyena:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, spotted hyena, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), standing, spotted coat, alert grin, dry savanna, dusk light, rocky ground, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, blood, carrion
+        seed: 6486287491116931144
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T15:59:26Z"
+    animal.jaguar:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, jaguar, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), walking, rosette-patterned coat, powerful muscular build, rainforest, green vegetation, river bank, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, blood, humans
+        seed: 9037677047298801578
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T15:58:52Z"
+    animal.kangaroo:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, red kangaroo, feral, quadrupedal, (red kangaroo:1.6), (large marsupial:1.5), (upright posture:1.3), (joey in pouch:1.7), reddish-brown fur, Australian outback, dry red earth, blue sky, semi-realistic, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: foxes, multiple foxes, fox family, anthropomorphic, human figures, people, clothing, accessories, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 3725532327151338
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T15:54:23Z"
+    animal.koala:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, koala, grey fluffy fur, sleepy expression, clinging to eucalyptus branch, eucalyptus tree, dense green leaves, multiple eucalyptus branches
+        negative: bear, brown fur, brown-colored fur, non-grey fur
+        seed: 2663802894125502561
+        score: 8
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T15:56:24Z"
+    animal.leopard:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, leopard, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), resting on tree branch, rosette-spotted coat, relaxed, acacia tree, savanna, golden evening light, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, blood
+        seed: 1143916316399993019
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T15:58:11Z"
+    animal.lion:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, lion, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), adult male, sitting, calm, savanna, grass, golden hour, warm light, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, blood, humans
+        seed: 6202931498910106325
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T15:37:32Z"
+    animal.lynx:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Eurasian lynx, Lynx lynx, medium sized wild cat, quadrupedal, realistic animal anatomy, detailed fur texture, natural proportions, crouching, spotted tawny coat, prominent tufted ears, ear tufts, snow-covered ground, falling snowflakes, snowy forest, pine trees, twilight, winter dusk, semi-realistic, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 5500940296053782433
+        score: 8
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:34:33Z"
+    animal.mandrill:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Mandrillus_sphinx, (vivid_red_and_blue_facial_markings:1.5), bright_crimson_eye_rings, electric_cobalt_cheek_patches, olive_brown_fur, sitting_posture, tropical_forest_floor, lush_green_undergrowth, moss-covered_trunks, tangled_vines, humid_atmosphere, sunbeams_through_canopy, hyper_detailed_fur_strands, lifelike_skin_texture, natural_color_grading
+        negative: human_face, human_hair, fantasy_setting, magical_elements, glowing_aura, ethereal_lighting, surreal_colors, cartoonish_style, anime_style, exaggerated_proportions, cute_overload, pastel_colors, whimsical_tone, text, watermark, signature, blurry, lowres, bad_anatomy, extra_limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch
+        seed: 9207297358380354788
+        score: 3
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T17:04:14Z"
+    animal.meerkat:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, meerkat, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), standing upright on hind legs, sentinel pose, tan and brown, dry desert, rocky ground, blue sky, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, humans
+        seed: 1356729343306601147
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T16:11:50Z"
+    animal.moose:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, moose, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), standing, huge palmate antlers, dark brown, boreal forest, autumn lake, misty morning, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, hunting, humans
+        seed: 5863138817062709564
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T16:01:22Z"
+    animal.okapi:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, okapi, feral, quadrupedal, realistic animal anatomy, detailed fur texture, natural proportions, standing, zebra-striped hindquarters, dark brown body, long neck, dense rainforest, lush green foliage, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: zebra, stripes everywhere, stripe-covered body, zebra pattern, zebra stripes on whole body, zebra-like, zebra markings across torso, zebra coat, zebra coloration, zebra pattern covering body
+        seed: 6632447527447018362
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T16:44:53Z"
+    animal.orangutan:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Pongo pygmaeus, Bornean orangutan, large male, reddish brown hair, dense shaggy coat, extremely long arms, curved fingers gripping branch, hanging from branch, tropical rainforest, dense foliage, lush green canopy, sunlight filtering through leaves, natural forest floor, authentic habitat, photorealistic rendering, ultra detailed fur strands, anatomically correct primate posture, realistic eye structure, expressive facial features
+        negative: wings, winged, birdlike, flying, avian, feathers, flight, insectoid, bug, arthropod, reptile, scaled, fish, aquatic, marine, plantigrade, digitigrade, hooves, claws, talons, mythical, fantasy, magical, supernatural, angelic, demonic, celestial, ethereal, glowing, aura, halo, divine, radiant, luminous, neon, cyberpunk, futuristic, sci fi, technology, robot, mechanical, gears, circuitry, spaceship, spacecraft, satellite, UFO, alien, extraterrestrial, otherworldly, surreal, dreamlike, abstract, distorted, warped, melted, fragmented, glitch, pixelated, noise, grain, jpeg artifacts, compression artifacts
+        seed: 8546922649188944773
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:23:53Z"
+    animal.otter:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Enhydra lutrus, (sea otter:1.5), (brown sleek fur:1.6), (floating on back:1.4), (holding paws together:1.4), ocean surface with kelp, calm water, sunny, (wildlife photography:1.3), (natural colors:1.3), detailed environment, solo
+        negative: seal, otter, river otter, furry, anthropomorphic, human, text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 5800662632326614712
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:10:33Z"
+    animal.polar_bear:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, polar bear, feral, quadrupedal, (realistic animal anatomy:1.4), (black nose:1.3), (large size:1.2), (thick white fur:1.3), walking on ice, Arctic sea ice, snow, white landscape, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, wolves, canine, dog, domestic dog
+        seed: 7210388897625897838
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T16:26:38Z"
+    animal.porcupine:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, dikobraz, African crested porcupine, Hystrix cristata, feral, quadrupedal, realistic animal anatomy, detailed fur texture, natural proportions, standing, long black and white quills raised prominently along spine, stocky body, rocky terrain, dry grass, dusk, semi-realistic, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: wolf, canine, doglike, lupine, domestic dog, domesticated canid, pet, tame, human interaction, anthropomorphic, clothing, accessories, collar, leash, harness, speech bubble, caption, label, signage, text overlay, handwritten note, digital artifact, glitch, distortion, noise, pixelation, compression artifacts
+        seed: 8995449988781919859
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T17:04:51Z"
+    animal.raccoon:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, raccoon, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), sitting, black eye mask, grey ringed tail, curious expression, forest, log or tree stump, dusk, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, trash can, humans
+        seed: 2058662075765710793
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T16:05:22Z"
+    animal.reindeer:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, reindeer, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), standing, large branching antlers, grey-brown winter coat, snowy tundra, pine forest in background, snow, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, sleigh, humans
+        seed: 9105264414880943717
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T16:28:08Z"
+    animal.rhinoceros:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, white rhinoceros, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), grazing, grey, one large horn, stocky, savanna, dry grass, blue sky, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, blood, hunters
+        seed: 8368055479313010193
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T15:44:46Z"
+    animal.sloth:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, (three_toed_sloth:1.6), realistic_animal_anatomy, detailed_fur_texture, natural_proportions, hanging_upside_down_from_branch, pale_grey_green_fur, long_curved_claws, tropical_rainforest, tree_branch, green_canopy, semi_realistic, detailed_cartoon, highly_detailed, intricate_details, soft_realistic_shading, volumetric_lighting, natural_colors, natural_pose, wildlife_photography_style, detailed_environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad_anatomy, extra_limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style
+        seed: 1013558027850776703
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:53:14Z"
+    animal.snow_leopard:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, snow leopard, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), resting on rocky ledge, pale spotted coat, very long thick tail, snowy mountain peaks, rocky cliff, grey sky, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, cage, blood
+        seed: 3169033076575265193
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T16:35:57Z"
+    animal.tapir:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Tapirus_bairdii, malayan_tapir, (black_and_white_coloring:1.6), (prehensile_proboscis:1.5), quadrupedal, realistic_animal_anatomy, detailed_fur_texture, natural_proportions, standing, tropical_rainforest, dense_vegetation, tall_trees_with_vines, moss-covered_trunks, flowing_water_source, rainwater_pool, dappled_light_through_canopy, humid_atmosphere, rich_green_undergrowth, wet_surface_reflections, semi_realistic, highly_detailed, intricate_textures, soft_global_illumination, vibrant_natural_palette
+        negative: text, watermark, signature, blurry, lowres, bad_anatomy, extra_limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style
+        seed: 2925460426104485617
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:47:15Z"
+    animal.tiger:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Bengal tiger, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), walking, orange with black stripes, muscular, dense jungle, green foliage, dappled light, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, blood, cage
+        seed: 3046634240957206549
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T15:42:07Z"
+    animal.warthog:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Phacochoerus africanus, warthog, quadrupedal, realistic animal anatomy, detailed fur texture, natural proportions, standing, grey rough hide, curved tusks, facial warts, savanna, dry grass, African landscape, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style
+        seed: 6432350685864559030
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:17:09Z"
+    animal.wild_boar:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Eurasian_wild_pig, Sus_scrofa, feral:1.25, quadrupedal, realistic_animal_anatomy:1.35, detailed_fur_texture:1.3, natural_proportions:1.25, standing, dark_brown_bristly_fur, curved_upward_tusks:1.4, forest_floor, oak_tree, autumn_leaves:1.3, semi_realistic:1.2, detailed_cartoon:1.1, highly_detailed, intricate_details, soft_realistic_shading, volumetric_lighting, natural_colors, natural_pose, wildlife_photography_style, detailed_environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad_anatomy, extra_limbs, deformed, abstract, stylized, minimalistic, deformed_proportions, wrong_anatomy, barbie_doll, toy_like, plastic, low_detail, sketch, mlp_style, pony_ears, cutie_mark, chibi, huge_eyes, oversized_head, simplified_shading, flat_shading, source_pony, pony_style, equine_features, cartoonish, anime_style
+        seed: 1910700417355392490
+        score: 8
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:41:18Z"
+    animal.wildebeest:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, wildebeest, connochaetes_taurinus, feral, quadrupedal, realistic_animal_anatomy:1.5, dark_grey_coat:1.5, curved_horns:1.5, shaggy_mane:1.3, walking, open_plains, dry_grass, herd_visible_in_background, semi_realistic, detailed_cartoon, highly_detailed, intricate_details, soft_realistic_shading, volumetric_lighting, natural_colors, natural_pose, wildlife_photography_style, detailed_environment
+        negative: white_fur
+        seed: 6537356438468931253
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T16:17:48Z"
+    animal.wolf:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, grey wolf, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), standing, alert, snowy forest, pine trees, winter, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text, blood
+        seed: 2233010744173220016
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T15:40:46Z"
+    animal.wolverine:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, Gulo gulo, wolverine, source_furry, feral, quadrupedal, realistic animal anatomy, detailed fur texture, natural proportions, walking, dark brown coat, stocky build, bushy tail, snowy boreal forest, rocks, winter, semi-realistic, detailed cartoon, highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: wolf, lupine, canine, doglike, canis lupus familiaris
+        seed: 1506254687650869990
+        model: builder
+        iters: 3
+        updated_at: "2026-06-15T16:33:51Z"
+    animal.zebra:
+        positive: score_9, score_8_up, score_7_up, best quality, masterpiece, absurdres, zebra, source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), standing, grazing, grassy plain, outdoor, (semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo
+        negative: text, watermark, signature, blurry, lowres, bad anatomy, extra limbs, deformed, abstract, stylized, minimalistic, deformed proportions, wrong anatomy, barbie doll, toy-like, plastic, low detail, sketch, mlp style, pony ears, cutie mark, chibi, huge eyes, oversized head, simplified shading, flat shading, source_pony, pony style, equine features, cartoonish, anime style, text
+        seed: 2588401090493929031
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T15:39:29Z"

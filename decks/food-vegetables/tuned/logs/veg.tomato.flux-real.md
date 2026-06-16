@@ -1,6 +1,6 @@
 # Tuning transcript — veg.tomato [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=6780727375488872032
+Result: 1 iteration(s), final score 9.0, passed=true, seed=7851479326620930082
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: clean white surface, soft shadow
 Must avoid: text, sliced, sauce, other vegetables
 ```
 
-## Iteration 1 (seed 6780727375488872032)
+## Iteration 1 (seed 7851479326620930082)
 
 ### Prompt generated from
 

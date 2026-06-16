@@ -1,6 +1,6 @@
 # Tuning transcript — color.purple [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=5798676146110026207
+Result: 1 iteration(s), final score 9.0, passed=true, seed=1666931260778336119
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: white background, centered
 Must avoid: text, gradient, other colors, complex pattern
 ```
 
-## Iteration 1 (seed 5798676146110026207)
+## Iteration 1 (seed 1666931260778336119)
 
 ### Prompt generated from
 

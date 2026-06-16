@@ -1,57 +1,352 @@
 style: flux-real
 cards:
-    reptile.chameleon:
-        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), perched on a branch, vivid green and blue patterns, one eye forward veiled chameleon in leafy branch, tropical, soft light. Clean composition without text, humans, white studio. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 5771533720120323264
-        model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:26:09Z"
-    reptile.crocodile:
-        positive: Large male Nile crocodile basking on a sunlit muddy riverbank with warm tropical light highlighting its heavily armored scaly hide, mouth slightly open revealing a broad distinctively shaped snout and interlocking teeth, realistic anatomical features characteristic of Crocodylus niloticus
-        seed: 2513718320072377610
-        score: 2
-        model: builder
-        iters: 4
-        updated_at: "2026-06-15T04:26:44Z"
-    reptile.frog:
-        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), bright green body, red eyes, clinging to a leaf, vivid red-eyed tree frog in tropical leaf, rain drops, green background. Clean composition without text, humans, dead insects. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 3434672272431643399
+    reptile.agama:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), bright red-orange head male, blue body, flat, on rock, alert red-headed agama in rocky African surface, sunny, dramatic colours. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2914673470040876819
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:27:35Z"
-    reptile.gecko:
-        positive: small wall-climbing leopard gecko with sticky toe pads, yellow and black spotted pattern, wide round eyes, clinging to a flat stone, blurred rocky background, clean composition without text, humans, or hand
-        seed: 8563580163322358783
+        updated_at: "2026-06-15T22:07:51Z"
+    reptile.alligator:
+        positive: a large American alligator with dark grey skin and a distinct rounded snout partially submerged in murky swamp water near a dense cypress-lined bank under southern US light
+        seed: 1162785679980480395
+        score: 8
+        model: builder
+        iters: 3
+        updated_at: "2026-06-15T21:40:54Z"
+    reptile.anaconda:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), enormous, dark green with black blotches, partially in water green anaconda in Amazon swamp, dark water, lily pads. Clean composition without text, prey, blood. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 345272610377958686
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T22:03:26Z"
+    reptile.anole:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), bright green, dewlap displayed, clinging to branch, small green anole in tropical leaf, green background, sunny. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1494033282258901544
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:46:34Z"
+    reptile.axolotl:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), pink white, external feathery gills, underwater, smiling expression axolotl in clear blue aquarium water, aquatic plants. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3084821187862184023
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:57:55Z"
+    reptile.basilisk:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), vivid green, tall crest, running on water surface or alert plumed basilisk in tropical stream bank, green vegetation. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4540656277696437446
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T22:06:30Z"
+    reptile.boa_constrictor:
+        positive: large South American constricting snake Boa constrictor with realistic amber eyes, highly detailed rough scales, thick tan and brown patterned body coiled naturally on a tropical branch under dappled rainforest light, clean composition without text prey or blood
+        seed: 2304884290093782542
         score: 9
         model: builder
         iters: 2
-        updated_at: "2026-06-15T04:25:10Z"
-    reptile.lizard:
-        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), perched, alert, dewlap, spiky crest green iguana in on a rock, tropical vegetation, sunlight. Clean composition without text, humans, other animals. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 1407455488589602805
+        updated_at: "2026-06-15T21:42:44Z"
+    reptile.box_turtle:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), domed orange-black patterned shell, on leaf litter, small, walking Eastern box turtle in forest floor, autumn leaves, dappled light. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3265683789109292929
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:22:43Z"
-    reptile.salamander:
-        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), black body with yellow spots, walking, smooth skin fire salamander in mossy forest floor, wet leaves, dark background. Clean composition without text, humans, other animals. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 4688444680919489215
-        score: 9
-        model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:28:35Z"
-    reptile.snake:
-        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), coiled around a branch, bright green, patterned scales green tree python in tropical tree branch, jungle, soft dappled light. Clean composition without text, venom drip, humans, dead prey. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 3581444889857033361
-        score: 9
-        model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:23:09Z"
-    reptile.tortoise:
-        positive: An elderly giant tortoise with deeply wrinkled neck moving slowly across a sunlit dry grassland under a clear blue sky
-        seed: 8416813553314803876
-        score: 9
+        updated_at: "2026-06-15T22:08:49Z"
+    reptile.caecilian:
+        positive: A limbless tropical caecilian Gymnophiona with deep dark grey-purple uniformly colored elongated worm-like body smooth segmented skin burrowing through rich moist tropical soil amidst dense leaf litter captured in extreme close up
+        seed: 5851036182534659696
+        score: 6
         model: builder
         iters: 4
-        updated_at: "2026-06-15T04:29:30Z"
+        updated_at: "2026-06-15T22:25:37Z"
+    reptile.caiman:
+        positive: Spectacled caiman with distinctive spectacles on its eyes, greenish-grey armored skin, realistic crocodilian anatomy, highly detailed scales and natural proportions, swimming in dark tropical riverbank water surrounded by dense rainforest foliage under soft natural lighting, clean composition without text blood or humans.
+        seed: 7985443992864935612
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:50:08Z"
+    reptile.chameleon:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), perched on a branch, vivid green and blue patterns, one eye forward veiled chameleon in leafy branch, tropical, soft light. Clean composition without text, humans, white studio. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 317553362303412401
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:36:00Z"
+    reptile.cobra:
+        positive: Upright Indian cobra spreading its expansive hood dramatically, showcasing intricate scale patterns across its body, poised on dry rocky sandy terrain under clear daylight
+        seed: 5600877141571527149
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-15T21:42:20Z"
+    reptile.crocodile:
+        positive: A large male Nile crocodile basking on a sunlit, muddy riverbank under warm tropical light, mouth slightly open showing its distinctively broader snout and visible interlocking teeth, heavily armored scutes glistening with dampness amid thick reeds and dark silt banks
+        seed: 6286722071259117297
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T21:37:34Z"
+    reptile.flying_dragon:
+        positive: small Draco volans lizard gliding through air with visible rib-supported membrane stretching between elongated ribs, vibrant orange-yellow translucent wing skin revealing underlying scale patterns, clinging to mossy tropical tree bark under dappled sunlight filtering through emerald canopy
+        seed: 8571811305244433542
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-15T22:27:08Z"
+    reptile.frilled_lizard:
+        positive: An aggressive frilled-neck lizard with its massive frill dramatically expanded as if inflated by air pressure, bright orange-brown skin stretched taut over the extended cartilage ribs, standing upright on two sturdy legs with front limbs lifted defensively, perched on a gnarled eucalyptus branch in arid Australian scrubland under harsh midday sun casting sharp shadows, emphasizing heightened defensive posture and imminent threat.
+        seed: 2607768030662905318
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T22:05:32Z"
+    reptile.frog:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), bright green body, red eyes, clinging to a leaf, vivid red-eyed tree frog in tropical leaf, rain drops, green background. Clean composition without text, humans, dead insects. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2651933238570499120
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:37:54Z"
+    reptile.gecko:
+        positive: small wall-climbing leopard gecko with sticky toe pads, yellow and black spotted pattern, wide round eyes, clinging to a flat stone, blurred rocky background, clean composition without text, humans, or hand
+        seed: 5465227609396437858
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:35:02Z"
+    reptile.gharial:
+        positive: a realistic gharial (Gavialis gangeticus) with a very long thin snout, pale grey‑brown coloration, standing in calm Indian river water beside sandbars, highly detailed scales and natural proportions, clean composition without text, blood or humans
+        seed: 5949702547548923123
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:51:58Z"
+    reptile.gila_monster:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), orange and black beaded skin, stout, slow, forked tongue Gila monster in desert rock, dry scrub, sunny. Clean composition without text, blood, bite. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 9050739152114732110
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:52:34Z"
+    reptile.glass_lizard:
+        positive: Glass lizard slepýš completely limbless glossy tan brown elongated reptile resting on sunlit dry grassland near weathered stones with closed eyelids
+        seed: 3941647510810380976
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T22:07:02Z"
+    reptile.hawksbill_turtle:
+        positive: Critically endangered hawksbill sea turtle with a distinctively narrow beak and richly amber-patterned shell gracefully swimming among vibrant corals in crystal-clear shallow tropical waters illuminated by sunbeams piercing the surface
+        seed: 3308704039731013367
+        score: 8
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T22:24:02Z"
+    reptile.horned_lizard:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), flat, spiny horns, camouflaged, beige-brown Texas horned lizard in desert sand, dry rocky ground, sunny. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2329836551371339705
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:51:35Z"
+    reptile.iguana:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), bright green, spiny dorsal crest, long tail, basking green iguana in tropical branch or rock, sunny warm. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8802166127612850240
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:43:40Z"
+    reptile.king_snake:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), black and white banded, glossy, coiled or moving California kingsnake in rocky scrubland, natural setting. Clean composition without text, prey, blood. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8225767299733210569
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T22:02:38Z"
+    reptile.komodo_dragon:
+        positive: Very large Komodo dragon (world's largest lizard) Varanus komodoensis walking on four legs across a dry rocky Indonesian landscape featuring native scrub vegetation under bright tropical sun
+        seed: 3248425195957070820
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T21:50:35Z"
+    reptile.leatherback_turtle:
+        positive: Huge leatherback sea turtle surfacing at the ocean surface in deep open blue water showing prominent leathery ridged back with smooth leathery texture and visible light reflections from above
+        seed: 6844092785779619634
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T22:21:28Z"
+    reptile.lizard:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), perched, alert, dewlap, spiky crest green iguana in on a rock, tropical vegetation, sunlight. Clean composition without text, humans, other animals. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5005622180818902904
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:34:03Z"
+    reptile.mamba:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), dark grey or black, sleek, alert head raised, fast black mamba in African bush, branch or ground, dramatic. Clean composition without text, blood, strike, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7838572176232570777
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T22:03:02Z"
+    reptile.matamata:
+        positive: bizarre rough lumpy shelled matamata turtle with a distinct leaf-shaped head swimming gracefully beneath dark Amazon river water creating visible ripples and tiny bubbles
+        seed: 7891296773408470322
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T22:15:32Z"
+    reptile.monitor_lizard:
+        positive: Grey-yellow patterned large Nile monitor lizard with distinct scale markings, forked tongue extended, alert posture on African riverbank rocks under natural lighting, clean composition without text blood or humans
+        seed: 1972348940122715313
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:44:05Z"
+    reptile.mud_turtle:
+        positive: a small semi‑aquatic mud turtle Kinosternon with a compact dark domed shell lightly speckled with mud, perched on a mossy bank beside shallow water filled with delicate water plants
+        seed: 7018924622527041752
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T22:11:26Z"
+    reptile.mudskipper:
+        positive: Realistic Periophthalmus mudskipper standing on a tropical mudflat among tangled mangrove roots, displaying iconic upward‑pointed bulging eyes atop its head, broad pectoral fins lifted like sturdy crutches supporting its body, wet mottled brown skin slick with humidity, accurate amphibious posture and behavior
+        seed: 7480576287743403419
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T22:19:53Z"
+    reptile.newt:
+        positive: Great crested newt (čolek), realistic amphibian anatomy, small semi-aquatic salamander with flattened tail, dark brown dorsal surface, bright orange-yellow ventrum, distinct warty skin texture, perched at pond edge amid fresh spring green vegetation
+        seed: 8912184558974322891
+        score: 8
+        model: builder
+        iters: 3
+        updated_at: "2026-06-15T22:00:46Z"
+    reptile.poison_dart_frog:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), vivid blue or red, tiny, sitting on leaf, warning colours poison dart frog in tropical leaf, dark rainforest floor, close-up. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3692269648903138215
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:57:33Z"
+    reptile.python:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), very large, patterned brown tan, coiled, powerful Burmese python in jungle floor or branch, dappled light. Clean composition without text, prey, blood. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6152835402802857735
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:39:17Z"
+    reptile.rattlesnake:
+        positive: Western diamondback rattlesnake coiled on sandy desert ground with distinctly patterned diamond scales covering its entire dorsal surface, prominent segmented rattle visibly attached to the tail tip, alert posture with head lifted, detailed weathered texture and fine sand grains
+        seed: 963652256758832584
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T21:56:12Z"
+    reptile.salamander:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), black body with yellow spots, walking, smooth skin fire salamander in mossy forest floor, wet leaves, dark background. Clean composition without text, humans, other animals. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1160709822168457812
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:38:20Z"
+    reptile.sea_snake:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), banded black and yellow, paddle tail, in sea water, graceful banded sea snake in tropical ocean, coral reef, blue water. Clean composition without text, blood, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3688546787737511026
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T22:01:40Z"
+    reptile.skink:
+        positive: Grey-brown smooth-scaled blue-tongue skink with visible scale texture, short sturdy limbs, vivid blue tongue extended, perched on weathered rock amidst arid scrubland under dry grasses
+        seed: 7186888194809272020
+        score: 8
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T21:48:04Z"
+    reptile.snake:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), coiled around a branch, bright green, patterned scales green tree python in tropical tree branch, jungle, soft dappled light. Clean composition without text, venom drip, humans, dead prey. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4297688267962187565
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:33:12Z"
+    reptile.snapping_turtle:
+        positive: large aggressive freshwater snapping turtle kousavá želva with deeply scarred rugged shell heavily coated in thick mossy algae patches showing pronounced roughness and weathered texture, alert eyes scanning the murky environment from within a muddy pond surrounded by dark water
+        seed: 8601726521264719029
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T22:12:55Z"
+    reptile.thorny_devil:
+        positive: Moloch horridus, the thorny devil, perched on sandy soil under bright sun, featuring dense spikes covering its entire body, predominantly yellow‑brown hues, small reptilian form, set within the vast Australian red desert.
+        seed: 7379009287473784875
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-15T22:28:38Z"
+    reptile.toad:
+        positive: Real European common toad (Bufo bufo) with warty brown skin, squat posture, golden-hued eyes perched atop damp leaf-covered garden soil at dusk
+        seed: 5935702653282942601
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T22:02:15Z"
+    reptile.tortoise:
+        positive: An elderly giant tortoise with deeply wrinkled neck moving slowly across a sunlit dry grassland under a clear blue sky
+        seed: 516448191764108319
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:37:00Z"
+    reptile.tree_frog:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), vivid green, large red eyes, orange feet, clinging to leaf red-eyed tree frog in tropical leaf, dark background, vivid colours. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 9068214327081239494
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:57:04Z"
+    reptile.tuatara:
+        positive: Grey-green tuatara on a rocky New Zealand coast covered in green moss under a grey sky, featuring a spiny crest, prehistoric appearance, realistic anatomy, detailed scales, natural proportions, highly detailed texture, alert eyes, clean composition without text or humans
+        seed: 1960323421902383122
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:45:40Z"
+    reptile.uromastyx:
+        positive: A (reptile:1.2), (realistic animal anatomy:1.3), (detailed scales:1.3), (natural proportions:1.2), (highly detailed:1.1), yellow-orange, spiny tail, basking, compact uromastyx lizard in rocky desert, dry rock, sunny. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1033839120166371422
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T22:07:26Z"
+    reptile.viper:
+        positive: Venomous European adder with a clear triangular head, distinctive black-and-white zig-zag dorsal pattern, coiled tightly on a rugged rock within heathland featuring sparse dwarf shrubs, lichens-covered stones, and patches of moss under soft dappled sunlight
+        seed: 5787599710873465664
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T21:56:45Z"
+    reptile.wall_lizard:
+        positive: a slender alert Podarcis muralis lizard with subtle brown-green mottled pattern perched on a sunlit Mediterranean stone wall
+        seed: 7623368535952621240
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-15T22:30:00Z"
+    reptile.worm_lizard:
+        positive: Pink segmented worm lizard (Amphisbaenia), legless burrowing reptile resembling a large worm, emerging from dark moist soil in extreme close-up macro view, clearly showing multiple distinct annular rings along its elongated body, completely eyeless head partially covered by loose soil particles, glossy smooth skin texture, roots gently curling around it
+        seed: 6204128983099721540
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T22:17:02Z"

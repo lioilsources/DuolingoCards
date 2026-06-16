@@ -4,9 +4,31 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"strings"
 
 	"github.com/duolingocards/quiz-generator/internal/llm"
 )
+
+// flexString unmarshals a JSON string OR a JSON array of strings (joined by "; ").
+// The validator model returns [] when it has no suggestions, but a plain string otherwise.
+type flexString string
+
+func (f *flexString) UnmarshalJSON(b []byte) error {
+	if len(b) > 0 && b[0] == '[' {
+		var arr []string
+		if err := json.Unmarshal(b, &arr); err != nil {
+			return err
+		}
+		*f = flexString(strings.Join(arr, "; "))
+		return nil
+	}
+	var s string
+	if err := json.Unmarshal(b, &s); err != nil {
+		return err
+	}
+	*f = flexString(s)
+	return nil
+}
 
 // visionClient is the subset of llm.Client the validator needs. It lets tests
 // inject a fake without a live server.
@@ -29,7 +51,7 @@ type Verdict struct {
 	Score       float64  `json:"score"`       // 0-10, higher is better
 	Pass        bool     `json:"pass"`        // model's own accept/reject
 	Issues      []string `json:"issues"`      // concrete problems with the image
-	Suggestions string   `json:"suggestions"` // how to improve the prompt
+	Suggestions flexString `json:"suggestions"` // how to improve the prompt
 	Model       string   `json:"-"`           // validator model name
 	RawRequest  string   `json:"-"`           // user message sent (for transcript)
 	RawResponse string   `json:"-"`           // raw model reply (for transcript)

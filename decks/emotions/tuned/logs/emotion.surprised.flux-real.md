@@ -1,8 +1,6 @@
 # Tuning transcript — emotion.surprised [flux-real]
 
-Result: 1 iteration(s), final score 0.0, passed=false, seed=6595408083551543308
-
-> ⚠️ validator produced no usable verdict: parse validator JSON: json: cannot unmarshal array into Go struct field Verdict.suggestions of type string
+Result: 1 iteration(s), final score 9.0, passed=true, seed=237582939340411598
 
 ## Target
 
@@ -14,7 +12,7 @@ Desired setting: light purple background, simple, centered
 Must avoid: text, scared expression, calm expression, violence
 ```
 
-## Iteration 1 (seed 6595408083551543308)
+## Iteration 1 (seed 237582939340411598)
 
 ### Prompt generated from
 
@@ -22,7 +20,7 @@ Must avoid: text, scared expression, calm expression, violence
 
 ### Validator (validator)
 
-score: **0.0**, pass: false
+score: **9.0**, pass: true
 
 <details><summary>raw validator request</summary>
 
@@ -42,10 +40,10 @@ Review the attached image.
 
 ```
 {
-  "score": 8,
+  "score": 9,
   "pass": true,
   "issues": [],
-  "suggestions": []
+  "suggestions": ""
 }
 ```
 </details>

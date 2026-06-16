@@ -1,6 +1,6 @@
 # Tuning transcript — emotion.scared [flux-real]
 
-Result: 4 iteration(s), final score 6.0, passed=false, seed=4381565659341102495
+Result: 4 iteration(s), final score 6.0, passed=false, seed=5553570894067778708
 
 ## Target
 
@@ -12,21 +12,21 @@ Desired setting: dark grey-blue background, simple, centered
 Must avoid: text, monster, violent content, happy expression
 ```
 
-## Iteration 1 (seed 7908889432528755972)
+## Iteration 1 (seed 268882323521313760)
 
 ### Prompt generated from
 
-**positive:** A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), trembling, wide scared eyes, hunched posture, hands up in defense scared cartoon child character in dark grey-blue background, simple, centered. Clean composition without text, monster, violent content, happy expression. natural lighting, soft focus background, high detail, friendly children's book illustration style
+**positive:** a scared cartoon child character with a deeply hunched posture, arms wrapped tightly around their head as if shielding themselves from unseen danger, extremely wide and glassy terrified eyes filled with dread, visible trembling throughout every limb, set against a plain dark grey-blue backdrop with soft ambient lighting emphasizing isolation and vulnerability
 
 ### Validator (validator)
 
-score: **2.0**, pass: false
+score: **6.0**, pass: false
 
 issues:
-- The character is not showing signs of being scared.
-- The character's eyes are open widely, which could be interpreted as surprise rather than fear.
+- The character's eyes do not appear wide enough
+- The posture is more crouched than hunched
 
-suggestions: Ensure the character displays a fearful expression by making their eyes smaller and more teary, adding sweat drops under the arms, and adjusting the body language to show fear such as crouching down slightly instead of standing straight.
+suggestions: Increase the size of the eyes to make them wider and ensure they convey fear effectively.
 
 <details><summary>raw validator request</summary>
 
@@ -46,13 +46,13 @@ Review the attached image.
 
 ```
 {
-  "score": 2,
+  "score": 6,
   "pass": false,
   "issues": [
-    "The character is not showing signs of being scared.",
-    "The character's eyes are open widely, which could be interpreted as surprise rather than fear."
+    "The character's eyes do not appear wide enough",
+    "The posture is more crouched than hunched"
   ],
-  "suggestions": "Ensure the character displays a fearful expression by making their eyes smaller and more teary, adding sweat drops under the arms, and adjusting the body language to show fear such as crouching down slightly instead of standing straight."
+  "suggestions": "Increase the size of the eyes to make them wider and ensure they convey fear effectively."
 }
 ```
 </details>
@@ -70,13 +70,13 @@ Desired setting: dark grey-blue background, simple, centered
 Must avoid: text, monster, violent content, happy expression
 
 Current positive prompt:
-A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), trembling, wide scared eyes, hunched posture, hands up in defense scared cartoon child character in dark grey-blue background, simple, centered. Clean composition without text, monster, violent content, happy expression. natural lighting, soft focus background, high detail, friendly children's book illustration style
+a scared cartoon child character with a deeply hunched posture, arms wrapped tightly around their head as if shielding themselves from unseen danger, extremely wide and glassy terrified eyes filled with dread, visible trembling throughout every limb, set against a plain dark grey-blue backdrop with soft ambient lighting emphasizing isolation and vulnerability
 
-Reviewer score: 2.0/10
+Reviewer score: 6.0/10
 Reviewer issues:
-- The character is not showing signs of being scared.
-- The character's eyes are open widely, which could be interpreted as surprise rather than fear.
-Reviewer suggestions: Ensure the character displays a fearful expression by making their eyes smaller and more teary, adding sweat drops under the arms, and adjusting the body language to show fear such as crouching down slightly instead of standing straight.
+- The character's eyes do not appear wide enough
+- The posture is more crouched than hunched
+Reviewer suggestions: Increase the size of the eyes to make them wider and ensure they convey fear effectively.
 
 ```
 </details>
@@ -85,17 +85,17 @@ Reviewer suggestions: Ensure the character displays a fearful expression by maki
 
 ```
 {
-  "positive": "Scared cartoon child character with narrowed teary eyes, small worried mouth, visible sweat droplets on forehead and armpits, slight crouch, hands raised defensively, dark blue-grey background, centered, clean composition without text, monster, violence, or happiness",
+  "positive": "scared cartoon child character with extremely wide glassy terrified eyes conveying intense fear, deeply hunched protective posture with arms raised defensively above head, trembling limbs, set against a plain dark grey-blue backdrop with subtle shadows emphasizing isolation",
   "negative": ""
 }
 ```
 </details>
 
-## Iteration 2 (seed 6346421352601710667)
+## Iteration 2 (seed 1433924502635258232)
 
 ### Prompt generated from
 
-**positive:** Scared cartoon child character with narrowed teary eyes, small worried mouth, visible sweat droplets on forehead and armpits, slight crouch, hands raised defensively, dark blue-grey background, centered, clean composition without text, monster, violence, or happiness
+**positive:** scared cartoon child character with extremely wide glassy terrified eyes conveying intense fear, deeply hunched protective posture with arms raised defensively above head, trembling limbs, set against a plain dark grey-blue backdrop with subtle shadows emphasizing isolation
 
 ### Validator (validator)
 
@@ -103,9 +103,9 @@ score: **6.0**, pass: false
 
 issues:
 - The character is not trembling.
-- The eyes are wide open, which could be interpreted as surprise rather than fear.
+- The character's posture does not show a hunched position.
 
-suggestions: Ensure the character's body language includes visible shaking or tremors, and adjust facial features to convey more fear instead of surprise.
+suggestions: Ensure the character has visible shaking limbs and a more crouched stance while maintaining the wide-eyed expression and hand placement on ears as defenses against fear.
 
 <details><summary>raw validator request</summary>
 
@@ -129,9 +129,9 @@ Review the attached image.
   "pass": false,
   "issues": [
     "The character is not trembling.",
-    "The eyes are wide open, which could be interpreted as surprise rather than fear."
+    "The character's posture does not show a hunched position."
   ],
-  "suggestions": "Ensure the character's body language includes visible shaking or tremors, and adjust facial features to convey more fear instead of surprise."
+  "suggestions": "Ensure the character has visible shaking limbs and a more crouched stance while maintaining the wide-eyed expression and hand placement on ears as defenses against fear."
 }
 ```
 </details>
@@ -149,13 +149,13 @@ Desired setting: dark grey-blue background, simple, centered
 Must avoid: text, monster, violent content, happy expression
 
 Current positive prompt:
-Scared cartoon child character with narrowed teary eyes, small worried mouth, visible sweat droplets on forehead and armpits, slight crouch, hands raised defensively, dark blue-grey background, centered, clean composition without text, monster, violence, or happiness
+scared cartoon child character with extremely wide glassy terrified eyes conveying intense fear, deeply hunched protective posture with arms raised defensively above head, trembling limbs, set against a plain dark grey-blue backdrop with subtle shadows emphasizing isolation
 
 Reviewer score: 6.0/10
 Reviewer issues:
 - The character is not trembling.
-- The eyes are wide open, which could be interpreted as surprise rather than fear.
-Reviewer suggestions: Ensure the character's body language includes visible shaking or tremors, and adjust facial features to convey more fear instead of surprise.
+- The character's posture does not show a hunched position.
+Reviewer suggestions: Ensure the character has visible shaking limbs and a more crouched stance while maintaining the wide-eyed expression and hand placement on ears as defenses against fear.
 
 ```
 </details>
@@ -164,27 +164,27 @@ Reviewer suggestions: Ensure the character's body language includes visible shak
 
 ```
 {
-  "positive": "scared cartoon child character visibly trembling with shaky limbs, wide terrified eyes showing panic, hunching forward in defensive pose, hands lifted protectively above face, dark grey-blue background, centered composition",
+  "positive": "a frightened cartoon child character with extremely wide glassy terrified eyes showing intense fear, visibly trembling body and shaking limbs, deeply hunched crouching posture with arms covering ears protectively, set against a plain dark grey-blue backdrop emphasizing isolation",
   "negative": ""
 }
 ```
 </details>
 
-## Iteration 3 (seed 2422784257788015300)
+## Iteration 3 (seed 5142408510723325953)
 
 ### Prompt generated from
 
-**positive:** scared cartoon child character visibly trembling with shaky limbs, wide terrified eyes showing panic, hunching forward in defensive pose, hands lifted protectively above face, dark grey-blue background, centered composition
+**positive:** a frightened cartoon child character with extremely wide glassy terrified eyes showing intense fear, visibly trembling body and shaking limbs, deeply hunched crouching posture with arms covering ears protectively, set against a plain dark grey-blue backdrop emphasizing isolation
 
 ### Validator (validator)
 
 score: **6.0**, pass: false
 
 issues:
-- The child's posture is not fully hunched
-- The child does not have wide scared eyes
+- The character is not trembling.
+- The character's posture does not show a hunched position.
 
-suggestions: Ensure the child has a more hunched posture and wider, more frightened-looking eyes.
+suggestions: Ensure the character has visible shaking limbs and a more crouched stance to better convey fear.
 
 <details><summary>raw validator request</summary>
 
@@ -207,10 +207,10 @@ Review the attached image.
   "score": 6,
   "pass": false,
   "issues": [
-    "The child's posture is not fully hunched",
-    "The child does not have wide scared eyes"
+    "The character is not trembling.",
+    "The character's posture does not show a hunched position."
   ],
-  "suggestions": "Ensure the child has a more hunched posture and wider, more frightened-looking eyes."
+  "suggestions": "Ensure the character has visible shaking limbs and a more crouched stance to better convey fear."
 }
 ```
 </details>
@@ -228,13 +228,13 @@ Desired setting: dark grey-blue background, simple, centered
 Must avoid: text, monster, violent content, happy expression
 
 Current positive prompt:
-scared cartoon child character visibly trembling with shaky limbs, wide terrified eyes showing panic, hunching forward in defensive pose, hands lifted protectively above face, dark grey-blue background, centered composition
+a frightened cartoon child character with extremely wide glassy terrified eyes showing intense fear, visibly trembling body and shaking limbs, deeply hunched crouching posture with arms covering ears protectively, set against a plain dark grey-blue backdrop emphasizing isolation
 
 Reviewer score: 6.0/10
 Reviewer issues:
-- The child's posture is not fully hunched
-- The child does not have wide scared eyes
-Reviewer suggestions: Ensure the child has a more hunched posture and wider, more frightened-looking eyes.
+- The character is not trembling.
+- The character's posture does not show a hunched position.
+Reviewer suggestions: Ensure the character has visible shaking limbs and a more crouched stance to better convey fear.
 
 ```
 </details>
@@ -243,28 +243,27 @@ Reviewer suggestions: Ensure the child has a more hunched posture and wider, mor
 
 ```
 {
-  "positive": "a scared cartoon child character with a deeply hunched posture, arms wrapped tightly around their head as if shielding themselves from unseen danger, extremely wide and glassy terrified eyes filled with dread, visible trembling throughout every limb, set against a plain dark grey-blue backdrop with soft ambient lighting emphasizing isolation and vulnerability",
+  "positive": "scared cartoon child character with trembling whole-body shake, extreme wide glassy terrified eyes, deeply hunched crouching posture with arms raised defensively over head, set against a plain dark grey-blue backdrop emphasizing isolation",
   "negative": ""
 }
 ```
 </details>
 
-## Iteration 4 (seed 4381565659341102495)
+## Iteration 4 (seed 5553570894067778708)
 
 ### Prompt generated from
 
-**positive:** a scared cartoon child character with a deeply hunched posture, arms wrapped tightly around their head as if shielding themselves from unseen danger, extremely wide and glassy terrified eyes filled with dread, visible trembling throughout every limb, set against a plain dark grey-blue backdrop with soft ambient lighting emphasizing isolation and vulnerability
+**positive:** scared cartoon child character with trembling whole-body shake, extreme wide glassy terrified eyes, deeply hunched crouching posture with arms raised defensively over head, set against a plain dark grey-blue backdrop emphasizing isolation
 
 ### Validator (validator)
 
 score: **6.0**, pass: false
 
 issues:
-- The character's posture is not fully hunched.
-- The character has a slightly open mouth which doesn't match the described 'wide scared eyes'.
-- There might be some slight blurring around edges.
+- The character is not trembling.
+- The eyes are wide open, which can be interpreted as shock rather than fear.
 
-suggestions: Ensure the character's posture is more visibly hunched, close their mouth completely if they're meant to be frightened, and refine any edge blur effects.
+suggestions: Ensure the character's body language conveys tremors more visibly by adding slight shaking motions. The eyes should reflect fear instead of shock.
 
 <details><summary>raw validator request</summary>
 
@@ -287,11 +286,10 @@ Review the attached image.
   "score": 6,
   "pass": false,
   "issues": [
-    "The character's posture is not fully hunched.",
-    "The character has a slightly open mouth which doesn't match the described 'wide scared eyes'.",
-    "There might be some slight blurring around edges."
+    "The character is not trembling.",
+    "The eyes are wide open, which can be interpreted as shock rather than fear."
   ],
-  "suggestions": "Ensure the character's posture is more visibly hunched, close their mouth completely if they're meant to be frightened, and refine any edge blur effects."
+  "suggestions": "Ensure the character's body language conveys tremors more visibly by adding slight shaking motions. The eyes should reflect fear instead of shock."
 }
 ```
 </details>

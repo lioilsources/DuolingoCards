@@ -1,68 +1,352 @@
 style: flux-real
 cards:
+    veg.artichoke:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, large, green, scaled, thistle-like head globe artichoke in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1189532618132401301
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:43:03Z"
+    veg.arugula:
+        positive: Fresh peppery dark green arugula with varied sized lobed leaves showing subtle veining and tiny speckled edges indicating spicy texture, arranged as a delicate still life on pristine white surface under soft studio lighting casting gentle shadows, emphasizing natural irregularity and culinary vibrancy
+        seed: 2815527190317469216
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:56:31Z"
+    veg.asparagus:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, slender, green, pointed tips, bunch green asparagus spears in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6400954041669360758
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:42:38Z"
+    veg.bamboo_shoot:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, conical, pale yellow, layered husks, Asian ingredient bamboo shoots in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7307747759381409359
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T04:05:43Z"
+    veg.beet:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, round, dark purple-red, with green stalks dark red beetroot in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6025692007773082015
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:40:02Z"
+    veg.bok_choy:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, white stalks, dark green leaves, compact, Asian green bok choy in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4693613073138779727
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:57:24Z"
     veg.broccoli:
         positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, dark green florets, thick pale stalk, dense head broccoli in clean white surface, soft shadow. Clean composition without text, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 8845207240770275496
+        seed: 2910739005366718771
+        score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:37:15Z"
+        updated_at: "2026-06-16T03:28:25Z"
+    veg.cabbage:
+        positive: a fresh green cabbage head with loosely arranged outer leaves and tightly packed inner layers, round shape, pale green color, dense leaf structure, placed on a pure white background under soft studio lighting casting gentle shadows
+        seed: 7696167476182828715
+        score: 9
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T03:36:49Z"
     veg.carrot:
         positive: An orange Daucus carota mrkv with a perfectly straight elongated shape, vivid bright orange skin, crisp green leafy crown at the top, resting on a pristine white surface under smooth even illumination creating only a faint subtle reflection and zero harsh shadows
-        seed: 3580404848894056159
-        score: 9
-        model: builder
-        iters: 2
-        updated_at: "2026-06-15T04:36:24Z"
-    veg.corn:
-        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, yellow kernels, green husk partially peeled, rows of kernels ear of corn in clean white surface, soft shadow. Clean composition without text, popcorn, other vegetables, canned. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 2308111974088593992
+        seed: 7580035421546722442
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:38:58Z"
-    veg.cucumber:
-        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, long, cylindrical, dark green skin, fresh green cucumber in clean white surface, soft shadow. Clean composition without text, sliced, pickled, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 4405661359487817690
+        updated_at: "2026-06-16T03:24:51Z"
+    veg.cauliflower:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, white dense curds, green outer leaves, round white cauliflower head in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4982295884581397101
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:38:30Z"
-    veg.garlic:
-        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, white papery bulb, multiple cloves visible, dry stalk garlic bulb in clean white surface, soft shadow. Clean composition without text, peeled cloves, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 6297472763785296333
-        model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:40:18Z"
-    veg.mushroom:
-        positive: Round pale beige button mushroom with a completely smooth cap and short white stalk resting on a pristine white surface under gentle soft shadow, flawless seamless appearance
-        seed: 6709855039350166839
+        updated_at: "2026-06-16T03:37:14Z"
+    veg.celeriac:
+        positive: large knobby white-beige celeriac root with prominent bumps and irregular protrusions resting on a pristine white surface under soft studio lighting
+        seed: 1131466008447894899
         score: 9
-        model: builder
-        iters: 2
-        updated_at: "2026-06-15T04:40:44Z"
-    veg.onion:
-        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, round bulb, papery golden skin, dry roots yellow onion in clean white surface, soft shadow. Clean composition without text, sliced, rings, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 3637178945818398349
-        score: 9
-        model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:38:05Z"
-    veg.pepper:
-        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, bright red, glossy, blocky shape, green stem red bell pepper in clean white surface, soft shadow. Clean composition without text, sliced, spicy pepper, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 4021561957043503979
-        model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:39:23Z"
-    veg.potato:
-        positive: A matte-finish oval brown potato with rough earthy brown skin and subtle irregularities rests on a pristine white surface casting a gentle diffuse shadow.
-        seed: 4823857538632671451
         model: builder
         iters: 3
-        updated_at: "2026-06-15T04:36:48Z"
-    veg.tomato:
-        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, round, bright red, glossy, green stem and leaves attached red tomato in clean white surface, soft shadow. Clean composition without text, sliced, sauce, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 6780727375488872032
+        updated_at: "2026-06-16T04:00:26Z"
+    veg.celery:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, pale green, tall ribbed stalks, bunch, leafy top celery stalks in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7553501578317518657
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:37:42Z"
+        updated_at: "2026-06-16T03:41:23Z"
+    veg.chard:
+        positive: Large glossy rainbow chard leaves with vibrant multicolored stems on a clean white surface under soft studio lighting
+        seed: 7966367669823645624
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:53:35Z"
+    veg.chickpeas:
+        positive: Beige round irregularly piled dried chickpea seeds (cizrna) on a pristine white surface under soft studio lighting creating delicate shadows
+        seed: 2176956857846279495
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T03:49:34Z"
+    veg.chili:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, bright red, thin, pointed, cluster red chilli peppers in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8310888912596010177
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:51:15Z"
+    veg.corn:
+        positive: An ear of corn (maize) with vibrant yellow kernels, green husk partially peeled back, clearly showing distinct kernel rows, resting on a pristine white surface under gentle soft studio shadows, photorealistic texture emphasizing freshness and realism, clean minimalist composition suitable for a children's book illustration, devoid of any text or extraneous elements
+        seed: 173614196566851829
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:31:07Z"
+    veg.cucumber:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, long, cylindrical, dark green skin, fresh green cucumber in clean white surface, soft shadow. Clean composition without text, sliced, pickled, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6416068673434194979
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:29:43Z"
+    veg.eggplant:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, glossy, dark purple, oval, with green calyx dark purple aubergine in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8058997668794942014
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:37:42Z"
+    veg.endive:
+        positive: One slender pale endive (čekanka) with a single tightly packed elongated pointed leaf, pale yellow‑green hue, crisp texture, set against a pristine white backdrop with subtle shadowing illuminated by soft studio light
+        seed: 4008702964708195556
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T03:57:01Z"
+    veg.fennel:
+        positive: white fennel bulb with bright ivory hue, crisp feathery green fronds dotted with tiny aromatic seeds suggesting anise flavor, resting on spotless white surface under gentle studio shadows
+        seed: 2269115255640902413
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:03:23Z"
+    veg.garlic:
+        positive: white papery garlic bulb with bright white cloves and a dry stalk resting on a pristine white surface under gentle soft shadows
+        seed: 8268470039451946594
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:32:51Z"
+    veg.ginger:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, knobby, pale beige, irregular, root fresh ginger root in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 810469946352332369
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:50:24Z"
+    veg.green_beans:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, long, slender, bright green, bundle green beans in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5122885975735999855
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:44:03Z"
+    veg.kale:
+        positive: Curly kale leaves on a clean white surface under soft studio lighting, dark blue-green ruffled leaves, large size, fresh appearance
+        seed: 1661709396395846468
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:53:08Z"
+    veg.kohlrabi:
+        positive: a fresh green kohlrabi with a smooth blue-green rounded bulb, pale green hue, slender leafy stalks attached, resting on a pristine white surface under soft studio lighting
+        seed: 8243816455595048425
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:01:01Z"
+    veg.leek:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, long, white bottom, dark green top, flat leaves leek in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 725950151036210370
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:42:13Z"
+    veg.lentils:
+        positive: Small flat disc-shaped lens culinaris lentils forming a neat pile with rich brown-green and deep red tones on a pristine white surface under soft studio lighting creating gentle shadows clean composition without text sliced cooking or additional vegetables
+        seed: 371551886338274841
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:45:55Z"
+    veg.lettuce:
+        positive: a crisp pale‑green round head of fresh lettuce with tightly curled ruffled leaves resting on a spotless white surface under soft studio lighting creating a delicate even shadow
+        seed: 3048827305672247098
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T03:36:28Z"
+    veg.lotus_root:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, disc with holes, cream white, cross-section, beautiful pattern lotus root slice in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4026684056514935708
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T04:04:48Z"
+    veg.mushroom:
+        positive: Round pale beige button mushroom with a completely smooth cap and short white stalk resting on a pristine white surface under gentle soft shadow, flawless seamless appearance
+        seed: 981192423161029470
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:31:29Z"
+    veg.okra:
+        positive: Long slender green okra pods with prominent deep ridges extending from base to tip, sharply pointed ends revealing crisp star-shaped cross-sections, resting on a pristine white backdrop bathed in even soft studio illumination that creates delicate shadows
+        seed: 598136388540343531
+        score: 8
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:07:11Z"
+    veg.onion:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, round bulb, papery golden skin, dry roots yellow onion in clean white surface, soft shadow. Clean composition without text, sliced, rings, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2345275477358629732
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:29:15Z"
+    veg.parsley:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, bright green, flat or curly, fresh bunch, herb fresh parsley in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4835953378548837371
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:50:50Z"
+    veg.parsnip:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, cream-white, long, tapered, root cream parsnip in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2404008688799954155
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T04:01:21Z"
+    veg.peas:
+        positive: Green pea pods of Pisum sativum opened to reveal bright green peas nestled within each pod, resting on a clean white surface with soft shadows and gentle studio lighting
+        seed: 1976185056207015123
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T03:45:31Z"
+    veg.pepper:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, bright red, glossy, blocky shape, green stem red bell pepper in clean white surface, soft shadow. Clean composition without text, sliced, spicy pepper, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 828312600953767073
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:30:40Z"
+    veg.potato:
+        positive: An oval-shaped brown potato with uneven, deeply earthy brown, coarse-grained, bumpy skin resting on a pristine white surface casting a soft diffused shadow
+        seed: 7566563245119977088
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T03:27:58Z"
+    veg.pumpkin:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, round, orange, ribbed, with green stem orange pumpkin in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4589254025883749061
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:38:38Z"
+    veg.radish:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, small round, bright red, white tip, with green leaves red radish in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4271750616161678107
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:40:23Z"
+    veg.spinach:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, dark green, large leaves, bunch, fresh bunch of spinach leaves in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 400038976721475257
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:32:25Z"
+    veg.spring_onion:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, white base, long green stalks, bunch spring onions in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2624406279869199241
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:51:39Z"
+    veg.squash:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, pear-shaped, tan-orange skin, smooth butternut squash in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1206509659583823627
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:39:29Z"
+    veg.swede:
+        positive: large round swede rutabaga with prominent purple crown and yellow base, featuring a distinct greenish stem attached to the top, resting on a pristine white surface with subtle soft shadow beneath gentle studio illumination
+        seed: 102932140275844648
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T04:03:48Z"
+    veg.sweet_potato:
+        positive: An elongated orange-red-skinned sweet potato (Ipomoea batatas) resting on a pristine white surface under soft studio lighting, featuring subtle tapering at both ends, photorealistic texture, vibrant yet muted tones, gentle shadow beneath, clean minimalist composition devoid of text, slicing, cooking marks, or additional produce
+        seed: 3905845154552193151
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:47:56Z"
+    veg.taro:
+        positive: A large, round, starchy taro corm with brown hairy skin featuring many small purple speckles on a clean white background under gentle studio lighting
+        seed: 8694785840212273744
+        score: 9
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:09:45Z"
+    veg.tomato:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, round, bright red, glossy, green stem and leaves attached red tomato in clean white surface, soft shadow. Clean composition without text, sliced, sauce, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7851479326620930082
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:28:51Z"
+    veg.turnip:
+        positive: round white-bottomed purple-topped small white turnip with smooth skin resting on a pristine white surface under soft studio lighting casting a gentle shadow
+        seed: 4052339643372406029
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:41:48Z"
+    veg.watercress:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, small dark green leaves, rounded, fresh bunch, peppery fresh watercress in clean white surface, soft shadow, studio light. Clean composition without text, sliced, cooked, other vegetables. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 475449465497525456
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:54:30Z"
+    veg.yam:
+        positive: Large elongated dark brown yam from Dioscorea species on clean white surface with soft studio shadows showing rough starchy skin
+        seed: 6796733940150785425
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:49:58Z"
+    veg.zucchini:
+        positive: One elongated dark green smooth-skinned zucchini on a pristine white surface with soft studio shadows.
+        seed: 2001044033033596699
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:39:01Z"

@@ -1,6 +1,6 @@
 # Tuning transcript — reptile.salamander [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=4688444680919489215
+Result: 1 iteration(s), final score 9.0, passed=true, seed=1160709822168457812
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: mossy forest floor, wet leaves, dark background
 Must avoid: text, humans, other animals
 ```
 
-## Iteration 1 (seed 4688444680919489215)
+## Iteration 1 (seed 1160709822168457812)
 
 ### Prompt generated from
 

@@ -1,6 +1,6 @@
 # Tuning transcript — reptile.frog [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=3434672272431643399
+Result: 1 iteration(s), final score 9.0, passed=true, seed=2651933238570499120
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: tropical leaf, rain drops, green background
 Must avoid: text, humans, dead insects
 ```
 
-## Iteration 1 (seed 3434672272431643399)
+## Iteration 1 (seed 2651933238570499120)
 
 ### Prompt generated from
 

@@ -1,6 +1,6 @@
 # Tuning transcript — emotion.calm [flux-real]
 
-Result: 2 iteration(s), final score 9.0, passed=true, seed=4993263873492099541
+Result: 2 iteration(s), final score 9.0, passed=true, seed=4733872647280095373
 
 ## Target
 
@@ -12,21 +12,22 @@ Desired setting: soft mint green background, simple, centered
 Must avoid: text, angry expression, stressed pose, chaotic background
 ```
 
-## Iteration 1 (seed 8340207924069810710)
+## Iteration 1 (seed 2972774925414692532)
 
 ### Prompt generated from
 
-**positive:** A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), gentle smile, relaxed eyes, peaceful expression, hands resting calm cartoon child character in soft mint green background, simple, centered. Clean composition without text, angry expression, stressed pose, chaotic background. natural lighting, soft focus background, high detail, friendly children's book illustration style
+**positive:** calm cartoon child character with a gentle smile, completely closed relaxed eyes conveying peace, peaceful expression, hands resting on lap, standing centered against a soft mint green background, clean composition without text, angry expressions, stress, chaos
 
 ### Validator (validator)
 
 score: **6.0**, pass: false
 
 issues:
-- The character is not smiling gently.
-- The eyes appear slightly open rather than relaxed.
+- The character's expression is not entirely relaxed as intended.
+- The character has a slight blush on their cheeks which might be perceived as slightly more lively than 'peaceful'.
+- There appears to be some small text near the bottom corner.
 
-suggestions: Ensure the character has a gentle smile and fully closed eyes while maintaining a peaceful expression.
+suggestions: Ensure the character's eyes are fully closed and relaxed without any hint of stress. Remove any text from the image if present.
 
 <details><summary>raw validator request</summary>
 
@@ -49,10 +50,11 @@ Review the attached image.
   "score": 6,
   "pass": false,
   "issues": [
-    "The character is not smiling gently.",
-    "The eyes appear slightly open rather than relaxed."
+    "The character's expression is not entirely relaxed as intended.",
+    "The character has a slight blush on their cheeks which might be perceived as slightly more lively than 'peaceful'.",
+    "There appears to be some small text near the bottom corner."
   ],
-  "suggestions": "Ensure the character has a gentle smile and fully closed eyes while maintaining a peaceful expression."
+  "suggestions": "Ensure the character's eyes are fully closed and relaxed without any hint of stress. Remove any text from the image if present."
 }
 ```
 </details>
@@ -70,13 +72,14 @@ Desired setting: soft mint green background, simple, centered
 Must avoid: text, angry expression, stressed pose, chaotic background
 
 Current positive prompt:
-A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), gentle smile, relaxed eyes, peaceful expression, hands resting calm cartoon child character in soft mint green background, simple, centered. Clean composition without text, angry expression, stressed pose, chaotic background. natural lighting, soft focus background, high detail, friendly children's book illustration style
+calm cartoon child character with a gentle smile, completely closed relaxed eyes conveying peace, peaceful expression, hands resting on lap, standing centered against a soft mint green background, clean composition without text, angry expressions, stress, chaos
 
 Reviewer score: 6.0/10
 Reviewer issues:
-- The character is not smiling gently.
-- The eyes appear slightly open rather than relaxed.
-Reviewer suggestions: Ensure the character has a gentle smile and fully closed eyes while maintaining a peaceful expression.
+- The character's expression is not entirely relaxed as intended.
+- The character has a slight blush on their cheeks which might be perceived as slightly more lively than 'peaceful'.
+- There appears to be some small text near the bottom corner.
+Reviewer suggestions: Ensure the character's eyes are fully closed and relaxed without any hint of stress. Remove any text from the image if present.
 
 ```
 </details>
@@ -85,17 +88,17 @@ Reviewer suggestions: Ensure the character has a gentle smile and fully closed e
 
 ```
 {
-  "positive": "calm cartoon child character with a gentle smile, completely closed relaxed eyes conveying peace, peaceful expression, hands resting on lap, standing centered against a soft mint green background, clean composition without text, angry expressions, stress, chaos",
+  "positive": "Calm cartoon child character with a gentle smile, completely closed relaxed eyes showing pure peace, peaceful expression, hands resting on lap, standing centered against a soft mint green background",
   "negative": ""
 }
 ```
 </details>
 
-## Iteration 2 (seed 4993263873492099541)
+## Iteration 2 (seed 4733872647280095373)
 
 ### Prompt generated from
 
-**positive:** calm cartoon child character with a gentle smile, completely closed relaxed eyes conveying peace, peaceful expression, hands resting on lap, standing centered against a soft mint green background, clean composition without text, angry expressions, stress, chaos
+**positive:** Calm cartoon child character with a gentle smile, completely closed relaxed eyes showing pure peace, peaceful expression, hands resting on lap, standing centered against a soft mint green background
 
 ### Validator (validator)
 

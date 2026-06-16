@@ -1,6 +1,6 @@
 # Tuning transcript — pet.rabbit [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=5284726617156198135
+Result: 1 iteration(s), final score 9.0, passed=true, seed=5786616960515784040
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: green grass, garden, soft light
 Must avoid: text, cage, humans
 ```
 
-## Iteration 1 (seed 5284726617156198135)
+## Iteration 1 (seed 5786616960515784040)
 
 ### Prompt generated from
 

@@ -1,6 +1,6 @@
 # Tuning transcript — emotion.excited [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=1556917616450136686
+Result: 1 iteration(s), final score 8.0, passed=true, seed=4336882470488075467
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: bright green background, simple, centered, confetti
 Must avoid: text, calm expression, sad expression, violence
 ```
 
-## Iteration 1 (seed 1556917616450136686)
+## Iteration 1 (seed 4336882470488075467)
 
 ### Prompt generated from
 
@@ -20,7 +20,7 @@ Must avoid: text, calm expression, sad expression, violence
 
 ### Validator (validator)
 
-score: **9.0**, pass: true
+score: **8.0**, pass: true
 
 <details><summary>raw validator request</summary>
 
@@ -40,7 +40,7 @@ Review the attached image.
 
 ```
 {
-  "score": 9,
+  "score": 8,
   "pass": true,
   "issues": [],
   "suggestions": ""

@@ -1,8 +1,6 @@
 # Tuning transcript — num.six [flux-real]
 
-Result: 1 iteration(s), final score 0.0, passed=false, seed=2801148132162250251
-
-> ⚠️ validator produced no usable verdict: parse validator JSON: json: cannot unmarshal array into Go struct field Verdict.suggestions of type string
+Result: 1 iteration(s), final score 8.0, passed=true, seed=3586034057736784345
 
 ## Target
 
@@ -14,7 +12,7 @@ Desired setting: white background, centered, clean
 Must avoid: text labels, five or seven balloons
 ```
 
-## Iteration 1 (seed 2801148132162250251)
+## Iteration 1 (seed 3586034057736784345)
 
 ### Prompt generated from
 
@@ -22,7 +20,7 @@ Must avoid: text labels, five or seven balloons
 
 ### Validator (validator)
 
-score: **0.0**, pass: false
+score: **8.0**, pass: true
 
 <details><summary>raw validator request</summary>
 
@@ -45,7 +43,7 @@ Review the attached image.
   "score": 8,
   "pass": true,
   "issues": [],
-  "suggestions": []
+  "suggestions": ""
 }
 ```
 </details>

@@ -1,6 +1,6 @@
 # Tuning transcript — pet.goldfish [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=2828045587282327785
+Result: 1 iteration(s), final score 9.0, passed=true, seed=1199724215946616266
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: clear water, aquatic plants, bubbles
 Must avoid: text, humans, bowl label
 ```
 
-## Iteration 1 (seed 2828045587282327785)
+## Iteration 1 (seed 1199724215946616266)
 
 ### Prompt generated from
 

@@ -1,6 +1,6 @@
 # Tuning transcript — emotion.tired [flux-real]
 
-Result: 4 iteration(s), final score 6.0, passed=false, seed=6690347201075706937
+Result: 4 iteration(s), final score 2.0, passed=false, seed=2906328584705497731
 
 ## Target
 
@@ -12,247 +12,7 @@ Desired setting: soft grey background, simple, centered
 Must avoid: text, energetic pose, awake expression, scary
 ```
 
-## Iteration 1 (seed 2510904641562205990)
-
-### Prompt generated from
-
-**positive:** A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), half-closed droopy eyes, yawning mouth, slouched posture tired cartoon child character in soft grey background, simple, centered. Clean composition without text, energetic pose, awake expression, scary. natural lighting, soft focus background, high detail, friendly children's book illustration style
-
-### Validator (validator)
-
-score: **6.0**, pass: false
-
-issues:
-- The character's eyes are not fully closed.
-- There is a slight blush on the cheeks which might indicate shyness rather than exhaustion.
-
-suggestions: Ensure the eyes are more droopily closed without any visible eyelashes. Remove the blushing effect as it does not align with the intended state of being tired.
-
-<details><summary>raw validator request</summary>
-
-```
-Concept the image must depict:
-Subject: tired cartoon child character (unavený)
-Disambiguation: feeling fatigue or the need to sleep, exhausted
-Desired attributes: half-closed droopy eyes, yawning mouth, slouched posture
-Desired setting: soft grey background, simple, centered
-Must avoid: text, energetic pose, awake expression, scary
-
-Review the attached image.
-```
-</details>
-
-<details><summary>raw validator response</summary>
-
-```
-{
-  "score": 6,
-  "pass": false,
-  "issues": [
-    "The character's eyes are not fully closed.",
-    "There is a slight blush on the cheeks which might indicate shyness rather than exhaustion."
-  ],
-  "suggestions": "Ensure the eyes are more droopily closed without any visible eyelashes. Remove the blushing effect as it does not align with the intended state of being tired."
-}
-```
-</details>
-
-### Builder (builder) → refined prompt
-
-<details><summary>raw builder request</summary>
-
-```
-Concept the image must depict:
-Subject: tired cartoon child character (unavený)
-Disambiguation: feeling fatigue or the need to sleep, exhausted
-Desired attributes: half-closed droopy eyes, yawning mouth, slouched posture
-Desired setting: soft grey background, simple, centered
-Must avoid: text, energetic pose, awake expression, scary
-
-Current positive prompt:
-A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), half-closed droopy eyes, yawning mouth, slouched posture tired cartoon child character in soft grey background, simple, centered. Clean composition without text, energetic pose, awake expression, scary. natural lighting, soft focus background, high detail, friendly children's book illustration style
-
-Reviewer score: 6.0/10
-Reviewer issues:
-- The character's eyes are not fully closed.
-- There is a slight blush on the cheeks which might indicate shyness rather than exhaustion.
-Reviewer suggestions: Ensure the eyes are more droopily closed without any visible eyelashes. Remove the blushing effect as it does not align with the intended state of being tired.
-
-```
-</details>
-
-<details><summary>raw builder response</summary>
-
-```
-{
-  "positive": "Tired cartoon child character with completely drooping eyes showing deep fatigue, slightly open mouth mid-yawn, slumped shoulders, soft grey background, centered composition, clean layout without text or energy, gentle ambient light, subtle shadows emphasizing heaviness",
-  "negative": ""
-}
-```
-</details>
-
-## Iteration 2 (seed 836886860252362339)
-
-### Prompt generated from
-
-**positive:** Tired cartoon child character with completely drooping eyes showing deep fatigue, slightly open mouth mid-yawn, slumped shoulders, soft grey background, centered composition, clean layout without text or energy, gentle ambient light, subtle shadows emphasizing heaviness
-
-### Validator (validator)
-
-score: **2.0**, pass: false
-
-issues:
-- The character's eyes are not half-closed and droopy.
-- The character is not yawning as expected.
-
-suggestions: Adjust the facial features to show half-closed droopy eyes and add a yawn-like expression on the mouth while maintaining the overall sleepy theme.
-
-<details><summary>raw validator request</summary>
-
-```
-Concept the image must depict:
-Subject: tired cartoon child character (unavený)
-Disambiguation: feeling fatigue or the need to sleep, exhausted
-Desired attributes: half-closed droopy eyes, yawning mouth, slouched posture
-Desired setting: soft grey background, simple, centered
-Must avoid: text, energetic pose, awake expression, scary
-
-Review the attached image.
-```
-</details>
-
-<details><summary>raw validator response</summary>
-
-```
-{
-  "score": 2,
-  "pass": false,
-  "issues": [
-    "The character's eyes are not half-closed and droopy.",
-    "The character is not yawning as expected."
-  ],
-  "suggestions": "Adjust the facial features to show half-closed droopy eyes and add a yawn-like expression on the mouth while maintaining the overall sleepy theme."
-}
-```
-</details>
-
-### Builder (builder) → refined prompt
-
-<details><summary>raw builder request</summary>
-
-```
-Concept the image must depict:
-Subject: tired cartoon child character (unavený)
-Disambiguation: feeling fatigue or the need to sleep, exhausted
-Desired attributes: half-closed droopy eyes, yawning mouth, slouched posture
-Desired setting: soft grey background, simple, centered
-Must avoid: text, energetic pose, awake expression, scary
-
-Current positive prompt:
-Tired cartoon child character with completely drooping eyes showing deep fatigue, slightly open mouth mid-yawn, slumped shoulders, soft grey background, centered composition, clean layout without text or energy, gentle ambient light, subtle shadows emphasizing heaviness
-
-Reviewer score: 2.0/10
-Reviewer issues:
-- The character's eyes are not half-closed and droopy.
-- The character is not yawning as expected.
-Reviewer suggestions: Adjust the facial features to show half-closed droopy eyes and add a yawn-like expression on the mouth while maintaining the overall sleepy theme.
-
-```
-</details>
-
-<details><summary>raw builder response</summary>
-
-```
-{
-  "positive": "tired cartoon child character with half closed droopy eyes, slight gaping mouth mid-yawn, slumped posture, soft grey background, centered composition",
-  "negative": ""
-}
-```
-</details>
-
-## Iteration 3 (seed 7589906235401620524)
-
-### Prompt generated from
-
-**positive:** tired cartoon child character with half closed droopy eyes, slight gaping mouth mid-yawn, slumped posture, soft grey background, centered composition
-
-### Validator (validator)
-
-score: **2.0**, pass: false
-
-issues:
-- The character's eyes are not half-closed or droopy.
-- The character is not yawning.
-- The character has a wide-eyed look which contradicts being tired.
-
-suggestions: Adjust the character’s facial features to show half-closed droopy eyes and a yawn. Ensure there is no text present and adjust the posture to be more slumped rather than upright.
-
-<details><summary>raw validator request</summary>
-
-```
-Concept the image must depict:
-Subject: tired cartoon child character (unavený)
-Disambiguation: feeling fatigue or the need to sleep, exhausted
-Desired attributes: half-closed droopy eyes, yawning mouth, slouched posture
-Desired setting: soft grey background, simple, centered
-Must avoid: text, energetic pose, awake expression, scary
-
-Review the attached image.
-```
-</details>
-
-<details><summary>raw validator response</summary>
-
-```
-{
-  "score": 2,
-  "pass": false,
-  "issues": [
-    "The character's eyes are not half-closed or droopy.",
-    "The character is not yawning.",
-    "The character has a wide-eyed look which contradicts being tired."
-  ],
-  "suggestions": "Adjust the character’s facial features to show half-closed droopy eyes and a yawn. Ensure there is no text present and adjust the posture to be more slumped rather than upright."
-}
-```
-</details>
-
-### Builder (builder) → refined prompt
-
-<details><summary>raw builder request</summary>
-
-```
-Concept the image must depict:
-Subject: tired cartoon child character (unavený)
-Disambiguation: feeling fatigue or the need to sleep, exhausted
-Desired attributes: half-closed droopy eyes, yawning mouth, slouched posture
-Desired setting: soft grey background, simple, centered
-Must avoid: text, energetic pose, awake expression, scary
-
-Current positive prompt:
-tired cartoon child character with half closed droopy eyes, slight gaping mouth mid-yawn, slumped posture, soft grey background, centered composition
-
-Reviewer score: 2.0/10
-Reviewer issues:
-- The character's eyes are not half-closed or droopy.
-- The character is not yawning.
-- The character has a wide-eyed look which contradicts being tired.
-Reviewer suggestions: Adjust the character’s facial features to show half-closed droopy eyes and a yawn. Ensure there is no text present and adjust the posture to be more slumped rather than upright.
-
-```
-</details>
-
-<details><summary>raw builder response</summary>
-
-```
-{
-  "positive": "a tired cartoon child character with half-closed droopy eyes, open-mouthed yawn, deeply slumped posture, soft grey background, centered composition",
-  "negative": ""
-}
-```
-</details>
-
-## Iteration 4 (seed 6690347201075706937)
+## Iteration 1 (seed 1317025170760716169)
 
 ### Prompt generated from
 
@@ -260,13 +20,13 @@ Reviewer suggestions: Adjust the character’s facial features to show half-clos
 
 ### Validator (validator)
 
-score: **6.0**, pass: false
+score: **3.0**, pass: false
 
 issues:
-- The eyes should be half-closed instead of fully closed
-- There is some text present on the left side which violates the 'must avoid' criteria
+- The character's eyes are not half-closed and droopy.
+- The character is not yawning.
 
-suggestions: Ensure the eyes are depicted as half-closed rather than fully closed. Remove any text from the image.
+suggestions: Ensure the character has half-closed droopy eyes and a yawning mouth instead of a wide open mouth. Adjust the pose slightly to make sure there is some slouching present as well.
 
 <details><summary>raw validator request</summary>
 
@@ -286,13 +46,250 @@ Review the attached image.
 
 ```
 {
-  "score": 6,
+  "score": 3,
   "pass": false,
   "issues": [
-    "The eyes should be half-closed instead of fully closed",
-    "There is some text present on the left side which violates the 'must avoid' criteria"
+    "The character's eyes are not half-closed and droopy.",
+    "The character is not yawning."
   ],
-  "suggestions": "Ensure the eyes are depicted as half-closed rather than fully closed. Remove any text from the image."
+  "suggestions": "Ensure the character has half-closed droopy eyes and a yawning mouth instead of a wide open mouth. Adjust the pose slightly to make sure there is some slouching present as well."
+}
+```
+</details>
+
+### Builder (builder) → refined prompt
+
+<details><summary>raw builder request</summary>
+
+```
+Concept the image must depict:
+Subject: tired cartoon child character (unavený)
+Disambiguation: feeling fatigue or the need to sleep, exhausted
+Desired attributes: half-closed droopy eyes, yawning mouth, slouched posture
+Desired setting: soft grey background, simple, centered
+Must avoid: text, energetic pose, awake expression, scary
+
+Current positive prompt:
+a tired cartoon child character with half-closed droopy eyes, open-mouthed yawn, deeply slumped posture, soft grey background, centered composition
+
+Reviewer score: 3.0/10
+Reviewer issues:
+- The character's eyes are not half-closed and droopy.
+- The character is not yawning.
+Reviewer suggestions: Ensure the character has half-closed droopy eyes and a yawning mouth instead of a wide open mouth. Adjust the pose slightly to make sure there is some slouching present as well.
+
+```
+</details>
+
+<details><summary>raw builder response</summary>
+
+```
+{
+  "positive": "tired cartoon child character with half-closed droopy eyes, gently yawning mouth, softly slumped posture, soft grey background, centered composition",
+  "negative": ""
+}
+```
+</details>
+
+## Iteration 2 (seed 6385037346107726270)
+
+### Prompt generated from
+
+**positive:** tired cartoon child character with half-closed droopy eyes, gently yawning mouth, softly slumped posture, soft grey background, centered composition
+
+### Validator (validator)
+
+score: **2.0**, pass: false
+
+issues:
+- The character is not showing signs of being tired such as half-closed droopy eyes or a yawn.
+- The character has a happy expression which contradicts the intended tiredness.
+
+suggestions: Ensure the character's facial features match those described - closed eyes with droopiness and a yawn-like expression would be more appropriate. Also, adjust the overall mood from cheerful to sleepy.
+
+<details><summary>raw validator request</summary>
+
+```
+Concept the image must depict:
+Subject: tired cartoon child character (unavený)
+Disambiguation: feeling fatigue or the need to sleep, exhausted
+Desired attributes: half-closed droopy eyes, yawning mouth, slouched posture
+Desired setting: soft grey background, simple, centered
+Must avoid: text, energetic pose, awake expression, scary
+
+Review the attached image.
+```
+</details>
+
+<details><summary>raw validator response</summary>
+
+```
+{
+  "score": 2,
+  "pass": false,
+  "issues": [
+    "The character is not showing signs of being tired such as half-closed droopy eyes or a yawn.",
+    "The character has a happy expression which contradicts the intended tiredness."
+  ],
+  "suggestions": "Ensure the character's facial features match those described - closed eyes with droopiness and a yawn-like expression would be more appropriate. Also, adjust the overall mood from cheerful to sleepy."
+}
+```
+</details>
+
+### Builder (builder) → refined prompt
+
+<details><summary>raw builder request</summary>
+
+```
+Concept the image must depict:
+Subject: tired cartoon child character (unavený)
+Disambiguation: feeling fatigue or the need to sleep, exhausted
+Desired attributes: half-closed droopy eyes, yawning mouth, slouched posture
+Desired setting: soft grey background, simple, centered
+Must avoid: text, energetic pose, awake expression, scary
+
+Current positive prompt:
+tired cartoon child character with half-closed droopy eyes, gently yawning mouth, softly slumped posture, soft grey background, centered composition
+
+Reviewer score: 2.0/10
+Reviewer issues:
+- The character is not showing signs of being tired such as half-closed droopy eyes or a yawn.
+- The character has a happy expression which contradicts the intended tiredness.
+Reviewer suggestions: Ensure the character's facial features match those described - closed eyes with droopiness and a yawn-like expression would be more appropriate. Also, adjust the overall mood from cheerful to sleepy.
+
+```
+</details>
+
+<details><summary>raw builder response</summary>
+
+```
+{
+  "positive": "a tired cartoon child character with tightly shut drooping eyelids, wide open-mouthed yawn, deeply slumped posture against a plain soft gray backdrop, centered composition",
+  "negative": ""
+}
+```
+</details>
+
+## Iteration 3 (seed 156285926080679047)
+
+### Prompt generated from
+
+**positive:** a tired cartoon child character with tightly shut drooping eyelids, wide open-mouthed yawn, deeply slumped posture against a plain soft gray backdrop, centered composition
+
+### Validator (validator)
+
+score: **2.0**, pass: false
+
+issues:
+- The character is not showing signs of being tired
+- The eyes are open wide rather than half-closed
+
+suggestions: Ensure the character's eyes are half-closed and drooping, and its mouth should be slightly open as if yawning.
+
+<details><summary>raw validator request</summary>
+
+```
+Concept the image must depict:
+Subject: tired cartoon child character (unavený)
+Disambiguation: feeling fatigue or the need to sleep, exhausted
+Desired attributes: half-closed droopy eyes, yawning mouth, slouched posture
+Desired setting: soft grey background, simple, centered
+Must avoid: text, energetic pose, awake expression, scary
+
+Review the attached image.
+```
+</details>
+
+<details><summary>raw validator response</summary>
+
+```
+{
+  "score": 2,
+  "pass": false,
+  "issues": [
+    "The character is not showing signs of being tired",
+    "The eyes are open wide rather than half-closed"
+  ],
+  "suggestions": "Ensure the character's eyes are half-closed and drooping, and its mouth should be slightly open as if yawning."
+}
+```
+</details>
+
+### Builder (builder) → refined prompt
+
+<details><summary>raw builder request</summary>
+
+```
+Concept the image must depict:
+Subject: tired cartoon child character (unavený)
+Disambiguation: feeling fatigue or the need to sleep, exhausted
+Desired attributes: half-closed droopy eyes, yawning mouth, slouched posture
+Desired setting: soft grey background, simple, centered
+Must avoid: text, energetic pose, awake expression, scary
+
+Current positive prompt:
+a tired cartoon child character with tightly shut drooping eyelids, wide open-mouthed yawn, deeply slumped posture against a plain soft gray backdrop, centered composition
+
+Reviewer score: 2.0/10
+Reviewer issues:
+- The character is not showing signs of being tired
+- The eyes are open wide rather than half-closed
+Reviewer suggestions: Ensure the character's eyes are half-closed and drooping, and its mouth should be slightly open as if yawning.
+
+```
+</details>
+
+<details><summary>raw builder response</summary>
+
+```
+{
+  "positive": "tired cartoon child character with half closed drooping eyelids, slightly open yawning mouth, slouched posture against a soft gray background, centered",
+  "negative": ""
+}
+```
+</details>
+
+## Iteration 4 (seed 2906328584705497731)
+
+### Prompt generated from
+
+**positive:** tired cartoon child character with half closed drooping eyelids, slightly open yawning mouth, slouched posture against a soft gray background, centered
+
+### Validator (validator)
+
+score: **2.0**, pass: false
+
+issues:
+- The character is not showing signs of being tired
+- The eyes are open wide rather than half-closed
+
+suggestions: Ensure the character's eyes are half-closed and drooping, and adjust their posture to be more slumped.
+
+<details><summary>raw validator request</summary>
+
+```
+Concept the image must depict:
+Subject: tired cartoon child character (unavený)
+Disambiguation: feeling fatigue or the need to sleep, exhausted
+Desired attributes: half-closed droopy eyes, yawning mouth, slouched posture
+Desired setting: soft grey background, simple, centered
+Must avoid: text, energetic pose, awake expression, scary
+
+Review the attached image.
+```
+</details>
+
+<details><summary>raw validator response</summary>
+
+```
+{
+  "score": 2,
+  "pass": false,
+  "issues": [
+    "The character is not showing signs of being tired",
+    "The eyes are open wide rather than half-closed"
+  ],
+  "suggestions": "Ensure the character's eyes are half-closed and drooping, and adjust their posture to be more slumped."
 }
 ```
 </details>

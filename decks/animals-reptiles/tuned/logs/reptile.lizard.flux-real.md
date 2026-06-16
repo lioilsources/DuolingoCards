@@ -1,6 +1,6 @@
 # Tuning transcript — reptile.lizard [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=1407455488589602805
+Result: 1 iteration(s), final score 9.0, passed=true, seed=5005622180818902904
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: on a rock, tropical vegetation, sunlight
 Must avoid: text, humans, other animals
 ```
 
-## Iteration 1 (seed 1407455488589602805)
+## Iteration 1 (seed 5005622180818902904)
 
 ### Prompt generated from
 

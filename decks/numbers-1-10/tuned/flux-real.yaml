@@ -1,71 +1,352 @@
 style: flux-real
 cards:
     num.eight:
-        positive: Bold large numeral 8 surrounded by exactly eight simple cartoon flowers centered on a clean white background
-        seed: 2979981372511315770
-        score: 9
-        model: builder
-        iters: 3
-        updated_at: "2026-06-15T04:58:01Z"
-    num.five:
-        positive: Five perfectly round, evenly spaced cartoon-style dots arranged around a bold large numeral 5, rendered as a cute playful element, centered on a pristine white background
-        seed: 8204641932355337501
-        score: 9
-        model: builder
-        iters: 3
-        updated_at: "2026-06-15T04:54:36Z"
-    num.four:
-        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), four colourful butterflies, large numeral 4, bold, cute cartoon style four butterflies on a plain background in white background, centered, clean. Clean composition without text labels, three or five butterflies. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 7461231082222457950
-        score: 8
-        model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:51:41Z"
-    num.nine:
-        positive: nine round dots arranged in a perfect 3x3 grid forming a bold cute cartoon numeral 9 with each dot shaped like the digit 9, centered on a pure white background, simple illustration with strong outlines and vibrant colors
-        seed: 8825220137355289505
+        positive: Bold large numeral 8 with thick outlines surrounded by exactly eight simple cartoon flowers centered on a clean white background
+        seed: 2875309060575320892
         score: 9
         model: builder
         iters: 2
-        updated_at: "2026-06-15T04:59:55Z"
-    num.one:
-        positive: a cute cartoon single apple with a large bold numeral 1 centered on a pure white background, clean composition without shadows, text labels, other fruits or multiple objects
-        seed: 5139079159483813824
+        updated_at: "2026-06-16T04:20:14Z"
+    num.eighteen:
+        positive: Bold simple cartoon numerals with smooth distinct strokes forming the number 18 surrounded by exactly eighteen colorful cute butterfly characters arranged around it in a balanced centered layout against pure white background
+        seed: 275777368667594972
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:30:09Z"
+    num.eleven:
+        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), 11 apples, large numeral 11, bold, cute cartoon style eleven apples in white background, centered, clean. Clean composition without text labels, other numbers. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8382224297280423071
         score: 8
         model: builder
-        iters: 3
-        updated_at: "2026-06-15T04:50:42Z"
-    num.seven:
-        positive: seven bright red hearts arranged around a prominent large bold numeral 7 at center with equal spacing cute cartoon style centered on pure white background
-        seed: 8370200627461971620
+        iters: 1
+        updated_at: "2026-06-16T04:23:45Z"
+    num.fifteen:
+        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), 15 flowers, large numeral 15, bold, cute cartoon style fifteen flowers in white background, centered, clean. Clean composition without text labels, other numbers. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 9119616066489840
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T04:27:05Z"
+    num.fifty:
+        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), 50 dots arranged in a grid, large numeral 50, bold, cute cartoon style fifty coloured dots in white background, centered, clean. Clean composition without text labels, other numbers. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8671918190328327033
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:11:02Z"
+    num.five:
+        positive: Bold cute cartoon-style numeral 5 surrounded by exactly five perfect round dots evenly spaced on a pristine white background
+        seed: 7845177244189052472
         score: 6
         model: builder
         iters: 4
-        updated_at: "2026-06-15T04:58:34Z"
-    num.six:
-        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), six colourful round balloons, large numeral 6, bold, cute cartoon style six balloons on a plain background in white background, centered, clean. Clean composition without text labels, five or seven balloons. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 2801148132162250251
-        model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:55:03Z"
-    num.ten:
-        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), ten yellow stars, two rows of five, large numeral 10, bold, cute cartoon style ten stars in two rows on a plain background in white background, centered, clean. Clean composition without text labels, nine or eleven stars. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 2905003071292451896
-        score: 8
-        model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:59:36Z"
-    num.three:
-        positive: Three adorable cartoon fish gathered around a huge, bold, bright red numeral 3 centered on a pristine white backdrop
-        seed: 3406879192909525841
+        updated_at: "2026-06-16T04:18:46Z"
+    num.forty:
+        positive: Forty individual circles arranged precisely to form a bold large numeral "40" in a cute cartoon style, each circle distinct yet part of the shape, set against a pristine white background, centered and clean, with thick outlined edges emphasizing playfulness
+        seed: 5634437560237749822
         score: 2
         model: builder
         iters: 4
-        updated_at: "2026-06-15T04:54:16Z"
-    num.two:
-        positive: two bright yellow five-pointed stars with smooth solid fill and subtle shine, each containing a single bold black numeral "2" clearly visible inside, set against a pure white background, centered composition, simple flat design, cute cartoon style
-        seed: 2394985935501043176
+        updated_at: "2026-06-16T05:00:31Z"
+    num.forty_eight:
+        positive: forty eight flowers forming a large bold cute cartoon numeral 48 centered on a clean white background with exactly forty eight distinct colorful blossoms integrated within the digits ensuring each petal is clearly illustrated and avoiding any additional numerals
+        seed: 7463378973944240354
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:08:18Z"
+    num.forty_five:
+        positive: forty-five cute cartoon-style leaves arranged as a single large bold numeral 45 centered on a clean white background
+        seed: 9061099300387187747
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:06:17Z"
+    num.forty_four:
+        positive: Forty-four cute cartoon-style hearts forming a large bold numeral 44 centered on a clean white background
+        seed: 7531561438030037751
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:04:52Z"
+    num.forty_nine:
+        positive: Large bold cute cartoon numeral "49" formed by exactly forty‑nine bright colorful dots arranged precisely to spell the number, centered on a pure white background, each dot matching the style of the surrounding digits, clean composition without extra text
+        seed: 8735920321813147117
+        score: 8
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T05:12:29Z"
+    num.forty_one:
+        positive: large bold cute cartoon numeral 41 formed by exactly 41 colorful dots arranged around it centered on a clean white background
+        seed: 959025409940280719
         score: 9
         model: builder
         iters: 3
-        updated_at: "2026-06-15T04:50:18Z"
+        updated_at: "2026-06-16T05:00:52Z"
+    num.forty_seven:
+        positive: Forty‑seven bright pastel circles arranged to form a large, bold, cute cartoon numeral 47 centered on a pure white background
+        seed: 5256192357514687948
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T05:09:56Z"
+    num.forty_six:
+        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), 46 stars, large numeral 46, bold, cute cartoon style forty six stars in white background, centered, clean. Clean composition without text labels, other numbers. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2790048133196604950
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:05:51Z"
+    num.forty_three:
+        positive: Forty-three colorful balloons arranged around a single prominent large bold cute cartoon numeral 43 centered on a pure white background with clean simple illustration style
+        seed: 3303491459316829426
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:02:55Z"
+    num.forty_two:
+        positive: Forty-two cute cartoon-style large bold numerals four and two composed entirely of exactly forty-two uniformly sized colorful squares forming each digit, arranged as solid filled shapes on a pristine white background, centered and cleanly isolated
+        seed: 1613191450761520300
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T05:04:32Z"
+    num.four:
+        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), four colourful butterflies, large numeral 4, bold, cute cartoon style four butterflies on a plain background in white background, centered, clean. Clean composition without text labels, three or five butterflies. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2664166654592935411
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T04:14:45Z"
+    num.fourteen:
+        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), 14 coloured dots, large numeral 14, bold, cute cartoon style fourteen dots in white background, centered, clean. Clean composition without text labels, other numbers. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7076219219551058330
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T04:26:39Z"
+    num.nine:
+        positive: Nine round dots arranged in a perfect 3x3 grid forming a bold, cute cartoon-style numeral 9, each dot solid-colored with subtle outlines, set against a clean white background
+        seed: 3729937806956832500
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:22:50Z"
+    num.nineteen:
+        positive: (cute cartoon:1.3), (bold playful numeral 19:1.6), surrounded by exactly nineteen vivid colorful circles each unique bright hue radiating outward like confetti halo, all drawn in thick outlined kawaii cartoon style with glossy finish, perfectly centered on pristine white canvas, symmetrical arrangement emphasizing joyful innocence and simple magic
+        seed: 5654358228885221131
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:33:52Z"
+    num.one:
+        positive: One bright red apple with a large bold cute cartoon numeral 1 beside it centered on a pure white background
+        seed: 7802253314181370380
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:11:20Z"
+    num.seven:
+        positive: Seven bright red hearts surrounding a prominently bold large numeral 7 centered on a pure white background in cute cartoon style with playful tiny stars near each heart
+        seed: 2132986956179707309
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:18:11Z"
+    num.seventeen:
+        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), 17 leaves, large numeral 17, bold, cute cartoon style seventeen leaves in white background, centered, clean. Clean composition without text labels, other numbers. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 9125755284122232021
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T04:28:10Z"
+    num.six:
+        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), six colourful round balloons, large numeral 6, bold, cute cartoon style six balloons on a plain background in white background, centered, clean. Clean composition without text labels, five or seven balloons. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3586034057736784345
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T04:16:11Z"
+    num.sixteen:
+        positive: Large bold cute cartoon-style numeral 16 formed by exactly sixteen brightly colored balloons arranged tightly together, centered against a pristine white background, clean minimalist composition
+        seed: 7036302649865867801
+        score: 8
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T04:29:48Z"
+    num.ten:
+        positive: ten cheerful yellow star icons forming exactly two neat rows of five stars each directly under a big friendly orange numeral 10 rendered in bold cute cartoon style on a pure white background
+        seed: 6375544244187899395
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:24:18Z"
+    num.thirteen:
+        positive: Bold cute cartoon large numeral 13 formed by exactly thirteen solid gold stars arranged as the digits with no extra elements centered on pure white background clean composition
+        seed: 4710310675072094937
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:26:13Z"
+    num.thirty:
+        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), 30 dots, large numeral 30, bold, cute cartoon style thirty coloured dots in white background, centered, clean. Clean composition without text labels, other numbers. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8500478751479813623
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T04:45:12Z"
+    num.thirty_eight:
+        positive: One large bold cute cartoon-style numeral 38 surrounded by thirty-eight simple white petals on a centered clean white background
+        seed: 2501933720726466905
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T04:57:44Z"
+    num.thirty_five:
+        positive: Thirty‑five bright colorful dots arranged around the large bold numerals 3 and 5 forming a cute cartoon style with simple illustration centered on a pure white background clean composition without text labels or other numbers
+        seed: 5538678117860165744
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:53:22Z"
+    num.thirty_four:
+        positive: Thirty‑four colorful balloon shapes forming the numeral 34, arranged as a single cohesive balloon figure, bold outlines, bright primary colors, cute cartoon style, centered on a pure white background, clean composition without any additional numbers or text
+        seed: 2060016215536668849
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:51:44Z"
+    num.thirty_nine:
+        positive: A (cute cartoon:1.2), (simple illustration:1.2), (bold and clear:1.2), (centered composition:1.1), 39 stars, large numeral 39, bold, cute cartoon style thirty nine stars in white background, centered, clean. Clean composition without text labels, other numbers. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8032999697206786880
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T04:56:12Z"
+    num.thirty_one:
+        positive: Thirty-one stars arranged around a large bold cute cartoon numeral 31 centered on white background clean composition
+        seed: 1763376278130211674
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:47:08Z"
+    num.thirty_seven:
+        positive: Thirty seven leaves with a very large bold numeral 37 as a central element surrounded by many additional leaves creating a full set of thirty seven leaves in a cute cartoon simple illustration centered on a clean white background
+        seed: 5533058286939005234
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:55:12Z"
+    num.thirty_six:
+        positive: Bold pink numeral 36 made from many small cute cartoon hearts, centered on a pure white background, clean and whimsical
+        seed: 4077671847951542736
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T04:54:46Z"
+    num.thirty_three:
+        positive: Thirty-three bold cute cartoon circles arranged to form the numeral 33 on a pure white background, centered, cleanly spaced
+        seed: 7986011767782077877
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:51:21Z"
+    num.thirty_two:
+        positive: Thirty-two cute cartoon squares forming a large bold numeral 32 centered on a clean white background
+        seed: 524612291848841212
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:49:47Z"
+    num.three:
+        positive: three cartoonish fish with bright colors floating above a pristine white background beside a large bold black numeral 3 centered cleanly
+        seed: 7492876591402322103
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:15:13Z"
+    num.twelve:
+        positive: Twelve cute cartoon-style candles arranged in a neat circle with a bold large numeral 12 at center on a pure white background, simple illustration, centered composition, clean and bright, no extra text or numbers
+        seed: 7331309156918886787
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:25:45Z"
+    num.twenty:
+        positive: Twenty red hearts arranged around a bold large numeral 20 in cute cartoon style on a white background, centered with clean composition
+        seed: 7438347238187247344
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:32:11Z"
+    num.twenty_eight:
+        positive: Twenty eight hearts arranged as a large bold numeral 28 made from four small hearts per digit in cute cartoon style centered on a pure white background clean composition
+        seed: 8648600687938676533
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:44:14Z"
+    num.twenty_five:
+        positive: Twenty‑five bright colorful balloons tied together forming a huge bold numeral 25 floating above them on a pure white background, centered with extra balloons swirling outward creating a full set of exactly twenty‑five balloons, big prominent numeral, cute cartoon style, simple illustration, bold and clear, clean composition
+        seed: 4771475321046812092
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:40:22Z"
+    num.twenty_four:
+        positive: Twenty four bold cute cartoon squares arranged as the numeral 24, each square filled with solid color and outlined thickly, set against a pure white background, centered composition
+        seed: 8068501820274808398
+        score: 8
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:41:59Z"
+    num.twenty_nine:
+        positive: Twenty-nine bold cute cartoon circles arranged as the numeral 29, centered on a pure white background, simple illustration, clean composition, no text labels or other numbers
+        seed: 2078593592832731939
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:45:40Z"
+    num.twenty_one:
+        positive: Twenty-one distinct colorful circles arranged playfully around a prominent bold numeral 21 in a cute cartoon style, centered against a pristine white background
+        seed: 72198770435950095
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:36:31Z"
+    num.twenty_seven:
+        positive: Twenty seven vibrant colorful flowers arranged around a large bold cute cartoon numeral 27 centered on a pure white background simple illustration clean composition bold outlines bright cheerful palette friendly children's book style
+        seed: 1274913434242924813
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:43:49Z"
+    num.twenty_six:
+        positive: Twenty six leaves forming a bold cute cartoon numeral 26 on a white background centered cleanly with exactly twenty six distinct leaves evenly spread across the two digits no extra numbers or text
+        seed: 9155158242278732660
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:42:19Z"
+    num.twenty_three:
+        positive: Twenty three cute cartoon-style dots arranged like the numeral 23 on a clean white background, centered and bold
+        seed: 5338506018460848880
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T04:38:22Z"
+    num.twenty_two:
+        positive: Twenty-two medium-sized shiny stars arranged as a bold cute cartoon numeral 22 centered on a pure white background, featuring varied star shapes like five-pointed, six-pointed, sparkle-edged, and outlined variants.
+        seed: 6266139988908399815
+        score: 9
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:37:58Z"
+    num.two:
+        positive: Two large bold yellow five-pointed stars centered on a pristine white background, each formed entirely as a solid shape containing a single oversized bold black numeral "2" integrated within the star design
+        seed: 7109812070537997946
+        score: 9
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T04:13:47Z"

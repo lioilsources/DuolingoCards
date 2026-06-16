@@ -1,6 +1,6 @@
 # Tuning transcript — fruit.orange [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=4124549461081298883
+Result: 1 iteration(s), final score 9.0, passed=true, seed=4757722935856571460
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: clean white surface, soft shadow
 Must avoid: text, sliced, juice, other fruits
 ```
 
-## Iteration 1 (seed 4124549461081298883)
+## Iteration 1 (seed 4757722935856571460)
 
 ### Prompt generated from
 

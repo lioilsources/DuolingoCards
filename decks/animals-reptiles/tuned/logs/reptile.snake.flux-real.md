@@ -1,6 +1,6 @@
 # Tuning transcript — reptile.snake [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=3581444889857033361
+Result: 1 iteration(s), final score 9.0, passed=true, seed=4297688267962187565
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: tropical tree branch, jungle, soft dappled light
 Must avoid: text, venom drip, humans, dead prey
 ```
 
-## Iteration 1 (seed 3581444889857033361)
+## Iteration 1 (seed 4297688267962187565)
 
 ### Prompt generated from
 

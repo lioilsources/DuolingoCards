@@ -1,6 +1,6 @@
 # Tuning transcript — fruit.cherry [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=3079276549376682037
+Result: 1 iteration(s), final score 9.0, passed=true, seed=2154235105047518903
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: clean white surface, soft shadow
 Must avoid: text, jar, other fruits, single cherry
 ```
 
-## Iteration 1 (seed 3079276549376682037)
+## Iteration 1 (seed 2154235105047518903)
 
 ### Prompt generated from
 

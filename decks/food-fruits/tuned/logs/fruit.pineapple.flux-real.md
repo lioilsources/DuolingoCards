@@ -1,8 +1,6 @@
 # Tuning transcript — fruit.pineapple [flux-real]
 
-Result: 1 iteration(s), final score 0.0, passed=false, seed=1765036914052848268
-
-> ⚠️ validator produced no usable verdict: parse validator JSON: json: cannot unmarshal array into Go struct field Verdict.suggestions of type string
+Result: 1 iteration(s), final score 9.0, passed=true, seed=1216982340312135484
 
 ## Target
 
@@ -14,7 +12,7 @@ Desired setting: clean white surface, soft shadow
 Must avoid: text, sliced, other fruits
 ```
 
-## Iteration 1 (seed 1765036914052848268)
+## Iteration 1 (seed 1216982340312135484)
 
 ### Prompt generated from
 
@@ -22,7 +20,7 @@ Must avoid: text, sliced, other fruits
 
 ### Validator (validator)
 
-score: **0.0**, pass: false
+score: **9.0**, pass: true
 
 <details><summary>raw validator request</summary>
 
@@ -45,7 +43,7 @@ Review the attached image.
   "score": 9,
   "pass": true,
   "issues": [],
-  "suggestions": []
+  "suggestions": ""
 }
 ```
 </details>

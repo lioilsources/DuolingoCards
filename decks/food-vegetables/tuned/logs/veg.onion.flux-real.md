@@ -1,6 +1,6 @@
 # Tuning transcript — veg.onion [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=3637178945818398349
+Result: 1 iteration(s), final score 9.0, passed=true, seed=2345275477358629732
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: clean white surface, soft shadow
 Must avoid: text, sliced, rings, other vegetables
 ```
 
-## Iteration 1 (seed 3637178945818398349)
+## Iteration 1 (seed 2345275477358629732)
 
 ### Prompt generated from
 

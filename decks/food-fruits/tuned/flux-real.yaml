@@ -1,71 +1,352 @@
 style: flux-real
 cards:
-    fruit.apple:
-        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, shiny, round, green stalk, perfect shape red apple in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 1346490083221367002
+    fruit.ackee:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, red pod, open revealing yellow arils, tropical open red ackee in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4308413841661079449
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:30:01Z"
-    fruit.banana:
-        positive: single ripe curved bright yellow banana on clean white surface with soft shadow
-        seed: 1210353415160143228
+        updated_at: "2026-06-16T03:23:23Z"
+    fruit.apple:
+        positive: a single perfectly round bright red apple with a glossy shine, smooth flawless skin, distinct green stem attached at the top, resting on a pristine white seamless surface under soft diffused studio lighting casting a gentle subtle shadow, isolated clean composition free of any imperfections
+        seed: 8656996079843177784
         score: 9
         model: builder
         iters: 2
-        updated_at: "2026-06-15T04:31:25Z"
+        updated_at: "2026-06-16T02:36:07Z"
+    fruit.apricot:
+        positive: small orange apricot with velvety skin resting on a clean white surface under soft studio lighting, tiny rounded shape casting delicate shadow
+        seed: 4470144514026750458
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T02:49:11Z"
+    fruit.avocado:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, pear-shaped, dark green bumpy skin, single dark green avocado in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2210470688063783972
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:08:27Z"
+    fruit.banana:
+        positive: single ripe curved bright yellow banana on clean white surface with soft shadow
+        seed: 2352127692211461981
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:35:43Z"
+    fruit.blackberry:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, dark purple-black, cluster of drupelets, glossy blackberries in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4802415875845722569
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:50:59Z"
+    fruit.blueberry:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, dark blue, small round, waxy bloom, cluster blueberries in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3438260814776069943
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:50:35Z"
+    fruit.cantaloupe:
+        positive: A fresh cantaloupe melon featuring distinct netting over beige-orange skin, perfectly round form, placed on a pristine white surface illuminated by soft studio lighting creating subtle shadows
+        seed: 7181537244272716801
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T03:03:40Z"
     fruit.cherry:
         positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, two cherries, bright red, glossy, green stems joined pair of red cherries in clean white surface, soft shadow. Clean composition without text, jar, other fruits, single cherry. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 3079276549376682037
+        seed: 2154235105047518903
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:33:34Z"
+        updated_at: "2026-06-16T02:38:48Z"
+    fruit.coconut:
+        positive: large tropical nut with fibrous husk Cocos nucifera brown hairy round whole coconut on clean white surface soft shadow studio light highly detailed photorealistic texture emphasizing visible fibrous strands
+        seed: 8815720557787505086
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T02:52:24Z"
+    fruit.cranberry:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, small, bright red, round, cluster red cranberries in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3880093519704999823
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:10:15Z"
+    fruit.currant:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, tiny red, hanging in cluster, translucent red currants in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1993841938005944004
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:12:12Z"
+    fruit.damson:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, small, dark blue-black, oval, cluster dark damson plums in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4396697477398004766
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:19:55Z"
+    fruit.date:
+        positive: Close-up of authentic Medjool dates with deeply wrinkled, dark brown elongated skins arranged in a tight cluster on pristine white backdrop under even studio illumination emphasizing rich matte tones
+        seed: 424555670689941679
+        score: 9
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T03:00:37Z"
+    fruit.dragon_fruit:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, vivid pink, scaly skin, spiky green tips pink dragon fruit in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4206072588678896354
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:07:28Z"
+    fruit.durian:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, large, green-yellow, sharp conical spines, unique durian fruit in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7403613334634221690
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:14:34Z"
+    fruit.feijoa:
+        positive: An oval waxy green green feijoa from Acca sellowiana resting on a clean white surface under soft studio lighting, casting a gentle shadow
+        seed: 6106311820336082219
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T03:27:44Z"
+    fruit.fig:
+        positive: ripe purple fig shaped distinctly like a pear with smooth velvety skin and deep violet hue resting on a pristine white backdrop under gentle studio lighting casting a subtle shadow
+        seed: 5718359642684807390
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T03:00:15Z"
+    fruit.gooseberry:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, small, translucent green, veined, cluster green gooseberries in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3010909391320373902
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:11:14Z"
     fruit.grape:
         positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, cluster of small round grapes, deep purple, glistening bunch of purple grapes in clean white surface, soft shadow. Clean composition without text, wine, raisins, single grape only. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 7862467414405265797
+        seed: 5472609273808905341
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:32:16Z"
+        updated_at: "2026-06-16T02:37:23Z"
+    fruit.grapefruit:
+        positive: large yellow-pink grapefruit with a bright citrus hue, round shape, smooth skin, resting on a pristine white surface under soft studio shadows
+        seed: 1015352090091710610
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T03:05:14Z"
+    fruit.guava:
+        positive: A ripe guava fruit with smooth pale green skin, slightly oval but recognizably rounded form, gently dimpled texture showing fine pores and subtle blush hues, placed on a spotless white seamless backdrop illuminated by even soft studio lighting creating a crisp yet diffused shadow
+        seed: 4123044814467585473
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:56:35Z"
+    fruit.jackfruit:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, enormous, spiky green skin, bumpy large green jackfruit in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2204554385646520162
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:13:37Z"
+    fruit.kiwi:
+        positive: Small round kiwi fruit resting on a pristine white surface under soft studio lighting, showcasing its fuzzy brown skin and vibrant green flesh inside, isolated without shadows or labels
+        seed: 1057680854268787716
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:45:50Z"
+    fruit.lemon:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, oval, bright yellow, glossy, with green leaf bright yellow lemon in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7120803555830885844
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:41:43Z"
+    fruit.lime:
+        positive: small fresh green lime with smooth shiny skin placed directly on a pristine white surface under soft studio lighting creating gentle shadows
+        seed: 5215069014559284881
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T02:43:09Z"
+    fruit.longan:
+        positive: Small perfectly round tiny longan fruits with completely smooth glossy tan brown skins tightly clustered together on a spotless pure white background illuminated by gentle diffused studio lights
+        seed: 7676543760408078811
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T03:18:59Z"
+    fruit.lychee:
+        positive: Small red rough-skinned lychee fruit Litchi chinensis clustered together on a clean white surface under soft studio lighting showing subtle translucence through semi-transparent pinkish-white flesh
+        seed: 5613020014065702620
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:07:06Z"
     fruit.mango:
-        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, oval, yellow-orange skin with red blush, smooth ripe mango in clean white surface, soft shadow. Clean composition without text, sliced, other tropical fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 3677556049244223643
-        score: 9
+        positive: An oval ripe mango with uniformly smooth yellow-orange skin featuring natural reddish-pink blush areas characteristic of Mangifera indica, centered on a pristine white surface beneath subtle soft shadows
+        seed: 3804299651339400413
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:41:19Z"
+    fruit.medlar:
+        positive: brown Medlar fruit Mespilus germanica small round brown apple like shape with distinct open star shaped blossom end resting on pristine white surface under soft studio lighting creating gentle shadow
+        seed: 7842127005507077732
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T03:23:58Z"
+    fruit.melon:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, round, pale yellow skin, netted yellow melon in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 367883354222611775
+        score: 8
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:33:07Z"
+        updated_at: "2026-06-16T03:01:11Z"
+    fruit.mulberry:
+        positive: dark mulberry elongated slender fruit deep violet hue resting on pristine white surface under gentle studio lighting casting subtle shadow photorealistic texture vivid color rich saturation clean minimalist composition devoid of stem or cut marks
+        seed: 4366972918895371405
+        score: 9
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T03:12:39Z"
+    fruit.nectarine:
+        positive: A fresh red-yellow nectarine resting on a pristine white surface under soft studio lighting, featuring flawless smooth, glossy skin with vibrant red and yellow hues evenly covering its perfectly rounded shape, free from any stem.
+        seed: 3497925178109416612
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T03:22:31Z"
     fruit.orange:
         positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, round, bright orange, glossy peel, green leaves attached orange citrus fruit in clean white surface, soft shadow. Clean composition without text, sliced, juice, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 4124549461081298883
+        seed: 4757722935856571460
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:30:59Z"
+        updated_at: "2026-06-16T02:36:32Z"
+    fruit.papaya:
+        positive: A large oval ripe papaya with smooth orange-green gradient skin transitioning naturally from deep green near the stem end to bright orange across most of the surface, gently curved shape, resting on a pristine white seamless surface under soft diffused studio lighting casting a subtle shadow
+        seed: 1224802987761587866
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:55:08Z"
+    fruit.passion_fruit:
+        positive: Small round passion fruit with deeply wrinkled purple skin resting on a pristine white surface under crisp studio lighting casting a subtle defined shadow emphasizing proportionate scale
+        seed: 3154012610408966560
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:06:38Z"
+    fruit.peach:
+        positive: a ripe peach (broskev) with dominant yellow-orange hue, pronounced pink blush, clearly showing fine fuzzy texture covering its rounded form, resting on a pristine white surface under soft studio lighting creating delicate shadows
+        seed: 1797617286336399532
+        score: 9
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:47:15Z"
     fruit.pear:
         positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, teardrop shape, pale green skin, slight blush, stem green pear in clean white surface, soft shadow. Clean composition without text, other fruits, cut open. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 5412114176549555963
-        score: 9
+        seed: 5727131534479402084
+        score: 8
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:33:58Z"
+        updated_at: "2026-06-16T02:39:48Z"
+    fruit.persimmon:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, round, vivid orange, shiny, with green star calyx orange persimmon in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 287240550024937814
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:09:19Z"
     fruit.pineapple:
         positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, golden yellow, spiky crown, diamond-patterned skin pineapple in clean white surface, soft shadow. Clean composition without text, sliced, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 1765036914052848268
+        seed: 1216982340312135484
+        score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:34:21Z"
+        updated_at: "2026-06-16T02:40:48Z"
+    fruit.plum:
+        positive: Small oval purple plum Prunus domestica on a clean white surface, deep violet glossy skin with subtle bloom, smooth texture, no stem, soft studio lighting casting gentle shadow
+        seed: 2917461347322759239
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:49:47Z"
+    fruit.pomegranate:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, deep red, round, distinctive crown, leathery red pomegranate in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3567229947241363740
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:55:59Z"
+    fruit.quince:
+        positive: A ripe yellow quince (kdoule) shaped like a smooth pear with subtle bumps along its skin, standing alone on a spotless white surface bathed in gentle studio illumination that creates a faint shadow beneath it
+        seed: 8105984196740306713
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T03:16:08Z"
+    fruit.rambutan:
+        positive: An oval-shaped red rambutan with bright color and soft spiky hairs resting on a clean white surface under gentle studio lighting casting a subtle refined shadow
+        seed: 726385614109094489
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:16:31Z"
+    fruit.raspberry:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, bright red, cluster of drupelets, small red raspberry in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1834687109503218098
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:50:07Z"
+    fruit.starfruit:
+        positive: A fresh yellow karambola sliced horizontally showing a perfect five-pointed star cross-section on a clean white surface under soft studio lighting highlighting its glossy waxy skin
+        seed: 267664181332268762
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:08:53Z"
     fruit.strawberry:
         positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, bright red, heart-shaped, tiny seeds, green leafy cap ripe strawberry in clean white surface, soft light. Clean composition without text, cut, jam, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 5768771386027092818
+        seed: 5106485956606561804
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:31:48Z"
+        updated_at: "2026-06-16T02:37:01Z"
+    fruit.tamarind:
+        positive: Brown curved tamarind pod with dry brittle shell on a clean white surface under soft studio lighting, accurate earthy brown tone matching Tamarindus indica, clustered naturally, no text shadows
+        seed: 7340941951259533868
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T03:18:30Z"
+    fruit.tangerine:
+        positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, small, bright orange, with green leaf tangerine orange in clean white surface, soft shadow, studio light. Clean composition without text, label, cut open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6746925047843006687
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T03:04:40Z"
     fruit.watermelon:
         positive: A (still life:1.2), (vibrant colors:1.3), (highly detailed:1.2), (photorealistic texture:1.1), clean white background, soft studio lighting, large, green striped exterior, round watermelon in clean white surface, soft light. Clean composition without text, sliced open, other fruits. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 5741184025626143468
+        seed: 1252393854459199904
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:32:40Z"
+        updated_at: "2026-06-16T02:37:49Z"

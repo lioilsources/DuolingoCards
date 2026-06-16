@@ -1,6 +1,6 @@
 # Tuning transcript — fruit.watermelon [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=5741184025626143468
+Result: 1 iteration(s), final score 9.0, passed=true, seed=1252393854459199904
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: clean white surface, soft light
 Must avoid: text, sliced open, other fruits
 ```
 
-## Iteration 1 (seed 5741184025626143468)
+## Iteration 1 (seed 1252393854459199904)
 
 ### Prompt generated from
 

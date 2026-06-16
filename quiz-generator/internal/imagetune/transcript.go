@@ -99,7 +99,7 @@ func TranscriptJSON(card, style string, t Target, out Result) ([]byte, error) {
 			Positive: rec.Prompt.Positive, Negative: rec.Prompt.Negative,
 			Validator: validatorJSON{
 				Model: rec.Verdict.Model, Score: rec.Verdict.Score, Pass: rec.Verdict.Pass,
-				Issues: rec.Verdict.Issues, Suggestions: rec.Verdict.Suggestions,
+				Issues: rec.Verdict.Issues, Suggestions: string(rec.Verdict.Suggestions),
 				RawRequest: rec.Verdict.RawRequest, RawResponse: rec.Verdict.RawResponse,
 			},
 		}

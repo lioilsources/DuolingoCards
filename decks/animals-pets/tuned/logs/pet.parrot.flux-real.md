@@ -1,6 +1,6 @@
 # Tuning transcript — pet.parrot [flux-real]
 
-Result: 1 iteration(s), final score 8.0, passed=true, seed=4059065475889047790
+Result: 1 iteration(s), final score 9.0, passed=true, seed=4810425094557706283
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: wooden perch, blurred indoor background
 Must avoid: text, cage, humans
 ```
 
-## Iteration 1 (seed 4059065475889047790)
+## Iteration 1 (seed 4810425094557706283)
 
 ### Prompt generated from
 
@@ -20,7 +20,7 @@ Must avoid: text, cage, humans
 
 ### Validator (validator)
 
-score: **8.0**, pass: true
+score: **9.0**, pass: true
 
 <details><summary>raw validator request</summary>
 
@@ -40,7 +40,7 @@ Review the attached image.
 
 ```
 {
-  "score": 8,
+  "score": 9,
   "pass": true,
   "issues": [],
   "suggestions": ""

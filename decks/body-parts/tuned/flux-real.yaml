@@ -1,57 +1,352 @@
 style: flux-real
 cards:
-    body.ear:
-        positive: Simple rounded cartoon human ear from the side, child-friendly illustration, clean lines, centered on white background, close-up, no text
-        seed: 69506115388517710
+    body.ankle:
+        positive: Cartoon ankle (kotník) shown from the side against a plain white background, highlighting the joint where foot meets leg with detailed contours and subtle shading to emphasize anatomical structure
+        seed: 914275975064576062
+        score: 8
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T00:39:00Z"
+    body.arm:
+        positive: a cute cartoon human arm raised showing defined muscles simple clear child-friendly illustration on white background clean composition without text
+        seed: 1277109445775655389
         score: 9
         model: builder
         iters: 2
-        updated_at: "2026-06-15T05:06:56Z"
-    body.eye:
-        positive: A cute cartoon child-friendly simple illustration with clear focus featuring a large iris and pupil surrounded by prominent eyelashes on a centered close-up cartoon human eye against a pure white background, clean composition without text scary eye bloodshot or realistic details natural lighting soft focus background high detail friendly children's book illustration style
-        seed: 2198296001420763031
+        updated_at: "2026-06-16T00:15:59Z"
+    body.back:
+        positive: Simplified childlike cartoon character seen from behind, emphasizing the rounded torso and shoulder blades as the central focus, clean white background, gentle pastel colors, minimal outlines, no clothing, clear silhouette highlighting the rear view
+        seed: 3059543368542435090
+        score: 9
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:28:40Z"
+    body.belly_button:
+        positive: a cute simple cartoon human belly button on a clean white background
+        seed: 3636172616239861470
+        score: 9
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T01:06:53Z"
+    body.bone:
+        positive: white classic bone shape simple clean cartoon bone on light background child friendly illustration clear focus natural lighting soft focus high detail friendly children's book style
+        seed: 4489538907707261689
         score: 9
         model: builder
         iters: 2
-        updated_at: "2026-06-15T05:05:26Z"
-    body.foot:
-        positive: a simple cartoon human foot shown in profile with exactly five clearly defined toes rendered in smooth rounded shapes and bold black outlines filled with flat vibrant colors against a plain white background centered and isolated without any extra details such as shoes legs or text
-        seed: 2231376199189785907
-        score: 9
-        model: builder
-        iters: 4
-        updated_at: "2026-06-15T05:05:03Z"
-    body.hand:
-        positive: a cute cartoon human hand viewed straight-on with palm facing the viewer, five clearly separated fingers spread outward, simplified rounded shapes and bold outlines, flat bright colors, completely isolated on a pure white background
-        seed: 2116148412202037079
-        score: 6
-        model: builder
-        iters: 4
-        updated_at: "2026-06-15T05:03:39Z"
-    body.head:
-        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), simple round head, cute cartoon face, eyes, nose, mouth, neutral expression cartoon human head, front view in white background, centered, clean. Clean composition without text, body below neck, scary expression, realistic human. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 5144837437265292851
-        score: 9
+        updated_at: "2026-06-16T00:53:15Z"
+    body.brain:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), pink-grey, convoluted, glowing, illustrated, simple cartoon brain in white or light background, educational illustration. Clean composition without text, blood, realistic. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6670992912057874224
+        score: 8
         model: builder
         iters: 1
-        updated_at: "2026-06-15T05:00:56Z"
-    body.heart:
-        positive: a cute cartoon anatomical heart with exaggerated rounded shape simplified smooth curves minimal line work no shading flat vibrant red color centered on plain white background
-        seed: 170990213994994805
-        model: builder
-        iters: 3
-        updated_at: "2026-06-15T05:11:27Z"
-    body.mouth:
-        positive: Cartoon human mouth with a gentle smile featuring uniformly rounded, fully connected teeth arranged side by side, soft smooth curves throughout, child-friendly simple illustration on a crisp white background, perfectly centered close‑up, clean composition free of text, tongue, scary teeth, or realism.
-        seed: 9104874265781260926
-        score: 9
-        model: builder
-        iters: 3
-        updated_at: "2026-06-15T05:10:00Z"
-    body.nose:
-        positive: small cute button shaped cartoon human nose viewed straight-on with clearly defined rounded tip soft shading subtle curved edges showing two tiny open symmetrical nostrils centered on a plain white background
-        seed: 8664108625079415122
+        updated_at: "2026-06-16T00:50:00Z"
+    body.calf:
+        positive: Simple cartoon calf muscle viewed from the side on a pure white background, entirely shaded in solid red to highlight it clearly
+        seed: 5129477996658022435
         score: 2
         model: builder
         iters: 4
-        updated_at: "2026-06-15T05:09:38Z"
+        updated_at: "2026-06-16T01:02:58Z"
+    body.cheek:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), simple face, cheeks highlighted with pink flush, cute cartoon cheeks in white background, child-friendly. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2184492183805044012
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:44:59Z"
+    body.chest:
+        positive: Front-facing cartoon human chest centered against clean white background, clearly outlined rounded form emphasizing chest region with gentle highlight effect, minimalist design avoiding clothing textures or extraneous features, child-safe simplicity
+        seed: 1020055803624177487
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:28:21Z"
+    body.chin:
+        positive: simple front-facing cartoon chin isolated on white background featuring just the lowest facial feature below the lips as a subtle horizontal line under a gentle smiling mouth with soft rounded shape child friendly
+        seed: 1642569848190733074
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:44:37Z"
+    body.ear:
+        positive: Simple rounded cartoon human ear from the side, child-friendly illustration, clean lines, centered on white background, close-up, no text
+        seed: 3663648478972813345
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:10:42Z"
+    body.elbow:
+        positive: Cartoon elbow joint clearly highlighted on a bent arm against a plain white background, showing a distinct angle at the elbow center
+        seed: 2514682089412503748
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T00:20:27Z"
+    body.eye:
+        positive: A cute cartoon child-friendly simple illustration with clear focus featuring a large iris and pupil surrounded by prominent eyelashes on a centered close-up cartoon human eye against a pure white background, clean composition without text scary eye bloodshot or realistic details natural lighting soft focus background high detail friendly children's book illustration style
+        seed: 1850015422235782130
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:10:18Z"
+    body.eyebrow:
+        positive: Simple child-friendly cartoon face featuring distinct thick expressive eyebrows as visible strips of hair above each eye on a pure white background
+        seed: 2956828496914053347
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:49:37Z"
+    body.eyelash:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), close-up eye, long lashes highlighted, simple cute cartoon cartoon eye with eyelashes in white background, simple illustration. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1443334447056296457
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:09:23Z"
+    body.finger:
+        positive: A cute cartoon child-friendly finger pointing upward with just one finger highlighted clearly against a clean white background, close-up view of the hand, simple illustration, natural lighting, soft focus background, high detail
+        seed: 2365965205918168755
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T00:31:01Z"
+    body.foot:
+        positive: a simple cartoon human foot shown in profile with exactly five clearly defined toes rendered in smooth rounded shapes and bold black outlines filled with flat vibrant colors against a plain white background centered and isolated without any extra details such as shoes legs or text
+        seed: 546451229791514347
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:09:30Z"
+    body.forehead:
+        positive: simple cartoon-style frontal face showing a clearly defined forehead as the main focus, smooth rounded surface emphasized by soft lighting, minimalist design with clean lines, set against plain white background suitable for children
+        seed: 8986876282225550293
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:44:08Z"
+    body.hair:
+        positive: a cute cartoon character with simple illustration clear focus child-friendly featuring cartoon hair made of many distinct colored strands each fiber clearly defined and highlighted by bright light making it colorful and vibrant clean composition without text
+        seed: 4051310060466925224
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T00:48:10Z"
+    body.hand:
+        positive: simple cartoon human hand palm facing viewer with five fingers spread as flat uniform shapes on a pure white background centered clean minimalist design using only thick bold outlines and flat colors
+        seed: 5078990376156992217
+        score: 8
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T00:09:52Z"
+    body.head:
+        positive: a cute cartoon childlike human head with a simple round shape, featuring clear eyes nose and mouth on a neutral expression centered against a pure white background with only the face visible above the neck clean composition free of text or extra elements
+        seed: 6923977242672628501
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T00:07:03Z"
+    body.heart:
+        positive: a cute cartoon anatomical heart with exaggerated rounded shape simplified smooth curves minimal line work no shading flat vibrant red color centered on plain white background
+        seed: 7344386475418117764
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:14:05Z"
+    body.heel:
+        positive: Minimalist child-friendly cartoon showing only the back-bottom edge of a single shoe sole in side view against clean white background
+        seed: 9068139119404915217
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:40:27Z"
+    body.hip:
+        positive: Front-facing simple child-friendly cartoon character focusing clearly on the lateral pelvic region with emphasized hips shown as part of the lower torso against a clean white background
+        seed: 8455075710614864988
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:32:32Z"
+    body.jaw:
+        positive: Simple cartoon-style side view of a human jawbone on a white background, clearly showing the lower facial bone structure holding lower teeth with subtle motion lines suggesting gentle movement
+        seed: 2554955198548867179
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T01:10:54Z"
+    body.kidney:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), bean-shaped, pink pair, simple illustrated cartoon kidneys in white background, educational illustration. Clean composition without text, blood, realistic. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7226237189959368661
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:51:18Z"
+    body.knee:
+        positive: Cartoon knee centered on clean white background, slightly bent at a gentle angle, clearly highlighted mid-joint with prominent bright marking
+        seed: 4921701692825083791
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:20:07Z"
+    body.leg:
+        positive: A whimsical cartoon leg standing upright on a pristine white background, featuring a bold black outline and minimalist shapes reminiscent of classic children’s illustration
+        seed: 3464909202484587161
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T00:17:28Z"
+    body.lip:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), pink, closed smile, simple, clear cartoon lips in white background, front view, child-friendly. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7939902606220400859
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:46:13Z"
+    body.liver:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), reddish-brown, simple organ illustration, clear cartoon liver in white background, educational illustration. Clean composition without text, blood, realistic. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7350816202999862033
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:50:51Z"
+    body.lung:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), pink, pair of lungs, illustrated, simple cartoon lungs in white background, educational illustration. Clean composition without text, blood, realistic. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5687982914976399657
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:50:26Z"
+    body.mouth:
+        positive: Cartoon human mouth with a gentle smile featuring soft rounded friendly teeth smoothly integrated into a compact mouth shape connected by seamless curved lips on a crisp white background centered close up
+        seed: 5590065678987382551
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:14:38Z"
+    body.muscle:
+        positive: Cartoon illustration of a flexed muscular arm showing detailed biceps contracting prominently on a clean white background, child-friendly style with simplified yet anatomically precise muscles and strong clear outlines
+        seed: 371380284735646928
+        score: 8
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T00:56:12Z"
+    body.nail:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), hand close-up, nails highlighted, simple, clear cartoon fingernails in white background, close-up. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6036187105999314769
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:49:08Z"
+    body.neck:
+        positive: a clean minimalist cartoon illustration featuring a stylized human head smoothly transitioning down to a distinctively highlighted neck segment that continues into a subtle shoulder outline, all rendered with soft shading to emphasize the connection point against a pure white background
+        seed: 7012315637998357674
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:24:41Z"
+    body.nose:
+        positive: small cute button-shaped cartoon human nose front view showing tiny symmetric open nostrils clearly visible on a pure white background
+        seed: 4116399462919232333
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T00:13:09Z"
+    body.palm:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), open hand, palm facing up, fingers spread, simple cartoon open palm in white background, clear. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6549185777517560158
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:39:56Z"
+    body.shoulder:
+        positive: a simplified cartoon illustration focusing precisely on the ramano shoulder joint as a distinct anatomical point connecting arm and torso, featuring only essential outlines and a single bright highlight marking the joint location against a pure white background
+        seed: 6098808325499129900
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:24:08Z"
+    body.skin:
+        positive: Simplified flat cartoon illustration of human skin close-up showing clearly defined layered structure including epidermis dermis and hypodermis on pure white background educational style soft gentle colors focused detail no fingers no hands no text no blood
+        seed: 6908158887125209607
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:58:48Z"
+    body.spine:
+        positive: cartoon spine illustrating a complete skeletal back with all vertebrae extending upward and downward on a pure white background, each vertebra distinctly outlined and shaded differently to highlight the spinal column as a clear educational element
+        seed: 8503676376269527317
+        score: 9
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:54:46Z"
+    body.stomach:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), simple character, stomach highlighted, front view cartoon stomach in white background, child-friendly. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 117407337966738039
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:29:05Z"
+    body.temple:
+        positive: Simple cartoon face shown from side view with clear highlights marking the temple areas on each side of the forehead just above the cheeks, featuring smooth rounded shapes and bright colors on a pure white background designed for children
+        seed: 1436149454108661680
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T01:08:30Z"
+    body.thigh:
+        positive: front-view cartoon thigh showing both upper and lower segments with clear shading or color contrast distinguishing the thigh portion, simple style, isolated on white background
+        seed: 3092985251598558465
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T01:04:29Z"
+    body.throat:
+        positive: cartoon throat illustration with visible neck extending upward from an open mouth, highlighting the passage connecting to the esophagus as a distinct highlighted pathway within the oral cavity
+        seed: 4349224518805607210
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T01:00:22Z"
+    body.thumb:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), thumbs up, highlighted, simple, cartoon hand cartoon thumb up gesture in white background, cheerful. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 191008766869806274
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:31:59Z"
+    body.toe:
+        positive: Cartoon close-up of a single wiggly toe on a white background, exaggerated bend at every joint, bright outline and subtle gradient shading to make it pop like classic animated feet
+        seed: 4220442463568538752
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:36:07Z"
+    body.tongue:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), mouth open, tongue sticking out, pink, silly cartoon tongue in white background, close-up cartoon mouth. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5823517629350294858
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:45:24Z"
+    body.tooth:
+        positive: A (cute cartoon character:1.2), (simple illustration:1.2), (clear focus:1.3), (child-friendly:1.1), single tooth, white, smiling, simple cartoon tooth in white or light background, cartoon style. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 176137112102864559
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T00:45:50Z"
+    body.vein:
+        positive: Simple cartoon arm with a clearly visible blue vein on its inner side against a clean white background, child-friendly educational illustration, no text, no blood, no realism
+        seed: 4170745308419256276
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T01:11:19Z"
+    body.wrist:
+        positive: a clean cartoon wrist centered on a white background, simplified smooth arm and hand in subtle pastel tones, front view emphasizing the distinct wrist joint with a thick contrasting border to make it stand out clearly
+        seed: 6282048068168879663
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T00:36:38Z"

@@ -1,56 +1,352 @@
 style: flux-real
 cards:
-    weather.cloudy:
-        positive: large dense white and grey clouds filling almost all of the sky from horizon to horizon creating a full overcast gray ceiling with soft diffused light and no sign of sun
-        seed: 4056060449831514283
-        score: 8
+    weather.aurora:
+        positive: Aurora borealis with vibrant green and deep purple wavy curtain-like lights dancing across a starry night sky over a quiet Arctic tundra under moonlight, clean composition without people or text
+        seed: 7529443808059133824
+        score: 9
         model: builder
-        iters: 4
-        updated_at: "2026-06-15T05:25:59Z"
-    weather.foggy:
-        positive: Thick low white fog hugging the forest floor on a foggy morning, dense fog reducing visibility as trees fade into the haze, early morning ethereal atmosphere
-        seed: 6794996484277039491
+        iters: 2
+        updated_at: "2026-06-16T05:40:09Z"
+    weather.avalanche:
+        positive: An overwhelming avalanche surging down a steep snowy mountainside as a massive wall of cascading snow, pure white powder swirling at high velocity, dramatic lighting highlighting the rapid descent, clean composition without any human presence.
+        seed: 6431640327684055974
         score: 6
         model: builder
         iters: 4
-        updated_at: "2026-06-15T05:30:05Z"
-    weather.rainbow:
-        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), full arc rainbow, seven colours, bright, clearing sky, blue sky visible rainbow after rain in outdoor, landscape, after rain, uplifting. Clean composition without text, dark storm, no rainbow, people. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 1704063060300492052
-        model: builder
-        iters: 1
-        updated_at: "2026-06-15T05:30:25Z"
-    weather.rainy:
-        positive: Heavy rain falling under dark grey storm clouds with puddles reflecting the gloom on a wet street, raindrops creating ripples, no sunlight breaking through, clean composition without text, sunshine, snow, people
-        seed: 8621136363045169061
-        model: builder
-        iters: 2
-        updated_at: "2026-06-15T05:21:54Z"
-    weather.snowy:
-        positive: Snowy day with delicate snowflakes drifting down onto a pristine white snow-covered ground beneath bare leafless trees under a muted grey overcast sky in a quiet serene winter forest clearing clean composition without humans or text
-        seed: 8123664726362503414
-        score: 9
-        model: builder
-        iters: 2
-        updated_at: "2026-06-15T05:23:26Z"
-    weather.stormy:
-        positive: dark stormy thunderclouds over a turbulent sea with jagged lightning bolts piercing through heavy torrential rain under a brooding twilight sky intense chiaroscuro lighting emphasizing contrast deep shadows and electric energy atmospheric tension raw power of nature cinematic wide angle perspective epic scale primal force untamed wilderness majestic yet ominous mood
-        seed: 6257313015727436227
+        updated_at: "2026-06-16T05:49:02Z"
+    weather.blizzard:
+        positive: Severe blizzard with intense white-out conditions featuring violent wind-driven snow, dense swirling flakes creating chaotic motion blur across bare skeletal trees under harsh overcast light, open frozen tundra at twilight with zero visibility beyond few meters, icy ground texture, desaturated monochrome palette emphasizing brutal cold
+        seed: 2288575851572529868
         score: 8
         model: builder
         iters: 2
-        updated_at: "2026-06-15T05:29:30Z"
-    weather.sunny:
-        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), large yellow sun, clear blue sky, warm light rays bright sunny day in outdoor, green landscape, simple horizon. Clean composition without text, clouds, rain, people. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 8548411529229481075
+        updated_at: "2026-06-16T05:27:50Z"
+    weather.breezy:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), leaves blowing, gentle movement, sunny, pleasant gentle breeze in park or countryside, dappled light, cheerful. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8635666420080981716
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T05:21:31Z"
-    weather.windy:
-        positive: Strong wind bends trees dramatically with sharply curved branches, sending many leaves swirling and dancing through the air in graceful arcs across an open sunny meadow.
-        seed: 2581033027718468071
+        updated_at: "2026-06-16T05:42:00Z"
+    weather.clear:
+        positive: perfectly clear blue sky with no clouds bright sun vivid blue open landscape daytime clean composition without text humans
+        seed: 5117465446858501656
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:44:55Z"
+    weather.cloudy:
+        positive: large dense white and grey clouds filling almost all of the sky from horizon to horizon creating a full overcast gray ceiling with soft diffused light and no sign of sun
+        seed: 3695668320412638076
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:14:12Z"
+    weather.cold:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), person bundled up or bare tree, breath visible, snow, grey sky extreme cold outdoor scene in winter landscape, frost, cold blue tones. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 681658671265239437
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:23:52Z"
+    weather.dew:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), water droplets on leaf or spider web, sparkling, close-up, morning morning dew in macro, green leaf, dawn light. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2944467308865130629
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:45:23Z"
+    weather.drizzle:
+        positive: Fine delicate mist of drizzle like whispered breath over a quiet cobblestone street at dawn, ultra-light vapor rising gently, damp grey atmosphere with soft diffused light filtered through thin cloud cover, surfaces glistening with microscopic dew but showing absolutely no puddles or runoff, historical brick facades in muted earth tones blurred by gentle atmospheric haze, faint amber interior glow barely visible behind slightly fogged windowpanes suggesting hidden illumination, completely devoid of any written markings, lettering or human-made symbols preserving perfect visual silence
+        seed: 2400311318107086710
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T05:37:53Z"
+    weather.drought:
+        positive: Drought with cracked dry earth, dead brown vegetation, scorched ground, dry riverbed under harsh uniform sunlight across a grey-brown parched landscape clean composition without text humans animals
+        seed: 7369384919296115478
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:30:11Z"
+    weather.dust_storm:
+        positive: a massive dust storm sweeping across an open arid desert, forming a towering brown dust wall that blankets the terrain beneath a dramatic orange‑brown sky, captured from a low angle to emphasize height and movement, vivid texture detail on grains, strong contrast between dark clouds and bright horizon
+        seed: 1877172349746203054
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T05:52:04Z"
+    weather.flood:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), water covering roads or fields, muddy brown water, submerged trees flood scene in landscape, floodwater, dramatic sky. Clean composition without text, humans, death. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3671237259108795902
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:29:48Z"
+    weather.foggy:
+        positive: Thick low white fog hugging the forest floor on a foggy morning, dense fog reducing visibility as trees fade into the haze, early morning ethereal atmosphere
+        seed: 6372009655721048690
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:15:07Z"
+    weather.freezing:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), icicles, frozen puddles, ice-coated branches, blue-grey cold freezing conditions in winter landscape, frozen, cold blue tones. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2050263928368336918
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:41:00Z"
+    weather.frost_flowers:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), intricate ice crystal patterns, flower-like, white on dark surface, macro frost flowers ice crystals in dark background, macro, frozen surface, beautiful. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6479005514850694744
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:52:55Z"
+    weather.frosty:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), white frost crystals, on leaf or grass, sparkling, cold morning frost in garden, frozen grass, cold morning light. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8644060358945680010
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:20:24Z"
+    weather.gloomy:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), dark sky, bare trees, wet ground, grey palette gloomy weather in autumn or winter, grey, moody. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 214304459853630405
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:42:55Z"
+    weather.hailing:
+        positive: Realistic sharp translucent hailstones falling through dark stormy clouds over an expansive barren plain beneath heavy gray skies, with white icy pellets scattering across the ground and covering the cracked earth under brooding atmospheric light
+        seed: 2867260843593231763
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T05:20:59Z"
+    weather.haze:
+        positive: Grey-beige haze over a dense city skyline at dusk, reduced visibility obscuring building details, diffused flat light filtering through smoggy atmosphere, clean composition without text or people
+        seed: 7195969554303786631
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:52:27Z"
+    weather.heat_lightning:
+        positive: multiple distant silent lightning flashes flickering softly across a deep indigo summer night sky over quiet remote mountains under crystal-clear stars with subtle warm glows tracing the horizon far beyond any cloud cover clean composition without text
+        seed: 799868915670465335
         score: 2
         model: builder
         iters: 4
-        updated_at: "2026-06-15T05:27:33Z"
+        updated_at: "2026-06-16T05:57:15Z"
+    weather.heat_shimmer:
+        positive: a scorching desert road at high noon with cracked hot tarmac emitting rising heat haze, showing intense wavy distortion directly above the pavement where the horizon appears stretched and distorted
+        seed: 5811324901456145087
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T06:02:02Z"
+    weather.heatwave:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), baking heat, sun glare, parched earth, heat shimmer heatwave scene in dry landscape, intense yellow-orange, cracked earth. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5814468443650851663
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:28:50Z"
+    weather.hot:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), blazing sun, heat shimmer, cracked dry earth, intense yellow-orange extreme heat scene in desert or dry landscape, harsh midday light. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1284706349277510835
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:22:58Z"
+    weather.humid:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), heat haze, lush tropical vegetation, misty, muggy air humid tropical air in tropical jungle, steam rising, midday sun. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3309172739368863510
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:22:04Z"
+    weather.hurricane:
+        positive: aerial view of a massive tropical hurricane seen from above showing a clear circular eye surrounded by tightly wound spiraling cloud walls and dense banded clouds descending toward a vivid turquoise ocean surface
+        seed: 1781772129305078910
+        score: 3
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T05:28:25Z"
+    weather.ice_storm:
+        positive: Ice storm aftermath featuring bare tree branches completely encased in thick transparent glaze of clear ice, heavy and glittering like shattered crystal, dangerously beautiful yet fragile, set against a stark winter scene with cold low sun casting sharp shadows
+        seed: 6755303936383953345
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T05:56:41Z"
+    weather.icy:
+        positive: Icy road covered by a thin transparent sheet of ice reflecting a bare leafless tree beneath a muted gray winter sky
+        seed: 7823106818420853262
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T05:24:26Z"
+    weather.lightning:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), vivid white-blue lightning bolt, dark stormy sky, dramatic, striking lightning bolt in dark sky, silhouette of trees or landscape, dramatic. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8537831939047240601
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:19:28Z"
+    weather.misty:
+        positive: soft mist with dense low-visibility atmosphere, trees barely emerging from thick fog in a quiet forest at dawn, diffused cloud cover blocking all direct sunlight, gentle ambient glow, wide serene view, clean composition without text, humans, or pathways
+        seed: 4057271739529425791
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:40:33Z"
+    weather.monsoon:
+        positive: Monsoon rain drenched South Asian alleyway with towering bamboo trees and terracotta rooftops, heavy tropical downpour creating shimmering puddles across weathered stone paths, saturated emerald foliage dripping with moisture beneath a brooding slate-gray sky, reflective floodwater mirroring muted amber glow of submerged paper lanterns and glowing oil lamps, delicate droplets suspended above rippling surface tension patterns where rain meets stagnant pools
+        seed: 3256577291681386142
+        score: 8
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T05:50:32Z"
+    weather.muggy:
+        positive: muggy summer dusk with diffused dim light filtering through thick humid air causing wilted leaves and drooping branches under dense canopy
+        seed: 2282720427523294149
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T05:44:33Z"
+    weather.overcast:
+        positive: solid uniform grey cloud cover filling the entire sky, completely covering all areas without any blue patches, flat diffused lighting casting even dull tones across a muted landscape, clean composition without text or people
+        seed: 6386154974671577250
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:33:37Z"
+    weather.partly_cloudy:
+        positive: Bright sunny patches break through a partly cloudy blue sky with white fluffy clouds, showing clear beams of light across the open daylight atmosphere.
+        seed: 8422751383431079532
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:32:07Z"
+    weather.rainbow:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), full arc rainbow, seven colours, bright, clearing sky, blue sky visible rainbow after rain in outdoor, landscape, after rain, uplifting. Clean composition without text, dark storm, no rainbow, people. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3226235123119458810
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:17:02Z"
+    weather.rainy:
+        positive: Heavy rain falling under dark grey storm clouds with puddles reflecting the gloom on a wet street, raindrops creating ripples, no sunlight breaking through, clean composition without text, sunshine, snow, people
+        seed: 1143392309459232591
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:13:19Z"
+    weather.sandstorm:
+        positive: wall of sand with massive swirling dust clouds blowing across darkening desert sky at sunset, orange brown storm filling foreground before distant horizon, dramatic atmospheric darkness
+        seed: 1822709378401789590
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:31:42Z"
+    weather.shower:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), sudden downpour, dark cloud, heavy rain, rainbow possible rain shower in landscape, dark cloud overhead, sunlight breaking through. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7478847714226007568
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:37:15Z"
+    weather.sleet:
+        positive: Grey wet weather with sleet mixing rain and snow, partially melted flakes visibly falling from a heavy grey cloudy sky onto a slick wet road under a dreary overcast sky, emphasizing cold dampness
+        seed: 678947356595048946
+        score: 8
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T05:36:19Z"
+    weather.slush:
+        positive: Close-up of city pavement blanketed in a thick layer of grey-white slush made from partially melted snow, showing wet, glossy patches, subtle pooling water, and icy melt patterns beneath an overcast winter sky
+        seed: 4941530318258460338
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T06:04:06Z"
+    weather.snowy:
+        positive: Snowy day with delicate snowflakes drifting down onto a pristine white snow-covered ground beneath bare leafless trees under a muted grey overcast sky in a quiet serene winter forest clearing clean composition without humans or text
+        seed: 3371537236230954352
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:13:44Z"
+    weather.stormy:
+        positive: dark stormy thunderclouds over a turbulent sea with jagged lightning bolts piercing through heavy torrential rain under a brooding twilight sky intense chiaroscuro lighting emphasizing contrast deep shadows and electric energy atmospheric tension raw power of nature cinematic wide angle perspective epic scale primal force untamed wilderness majestic yet ominous mood
+        seed: 3591481810398359809
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:16:04Z"
+    weather.sunny:
+        positive: bright sunny day with large yellow sun clear blue sky warm light rays over green landscape simple horizon clean composition no clouds no text
+        seed: 7222195587084278483
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:12:56Z"
+    weather.sunrise:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), golden orange sun rising, horizon glow, streaks of colour, peaceful sunrise in open landscape, horizon, dawn colours. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4207110968046479900
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:38:14Z"
+    weather.sunset:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), vivid orange red and purple sky, sun on horizon, reflection on water, beautiful sunset in ocean or landscape, golden hour, dramatic colours. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3760631275572060064
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:38:40Z"
+    weather.thunderstorm:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), dark storm clouds, lightning bolts, heavy rain, dramatic thunderstorm in dramatic sky, dark stormy landscape. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1976695194662806306
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:18:33Z"
+    weather.tornado:
+        positive: A violent rotating column of air touching the ground on an open plain under a deep dark stormy sky filled with swirling dust and flying debris, funnel cloud dark grey intense rotation dramatic atmosphere, wide atmospheric perspective detailed texture vibrant contrast clean composition without text humans blood death
+        seed: 9016965733500644025
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:25:50Z"
+    weather.typhoon:
+        positive: Spiral-shaped typhoon dominating the Pacific Ocean from an aerial perspective, massive rotating cloud walls forming a distinct vortex pattern above churning sea surface, deep indigo and charcoal storm clouds illuminated by occasional lightning flashes, dynamic motion blur emphasizing centrifugal force, ultra-wide cinematic framing capturing entire cyclonic system against horizon
+        seed: 2651750162884955817
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T05:47:24Z"
+    weather.waterspout:
+        positive: A (nature scene:1.2), (atmospheric:1.3), (detailed:1.2), (vibrant colors:1.2), (wide establishing shot:1.1), funnel of cloud connecting sea to sky, rotating, dramatic, ocean waterspout in sea surface, dramatic sky, funnel visible. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8524581794840952816
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T05:57:34Z"
+    weather.whiteout:
+        positive: total whiteout blizzard with zero visibility, uniform endless white void, swirling snow patterns filling air, polar landscape devoid of all detail, extreme cold atmosphere, impossible to discern any feature
+        seed: 7991099613353444709
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T06:01:30Z"
+    weather.windy:
+        positive: Windy day with strong gusting winds sweeping across an open green meadow under overcast skies, dramatic curved wind lines shaping the atmosphere, trees bent dramatically with swaying branches and leaves flying off in spirals, dynamic motion captured
+        seed: 2426483785449185380
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T05:17:37Z"

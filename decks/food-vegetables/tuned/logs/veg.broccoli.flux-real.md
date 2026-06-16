@@ -1,8 +1,6 @@
 # Tuning transcript — veg.broccoli [flux-real]
 
-Result: 1 iteration(s), final score 0.0, passed=false, seed=8845207240770275496
-
-> ⚠️ validator produced no usable verdict: parse validator JSON: json: cannot unmarshal array into Go struct field Verdict.suggestions of type string
+Result: 1 iteration(s), final score 9.0, passed=true, seed=2910739005366718771
 
 ## Target
 
@@ -14,7 +12,7 @@ Desired setting: clean white surface, soft shadow
 Must avoid: text, cooked, other vegetables
 ```
 
-## Iteration 1 (seed 8845207240770275496)
+## Iteration 1 (seed 2910739005366718771)
 
 ### Prompt generated from
 
@@ -22,7 +20,7 @@ Must avoid: text, cooked, other vegetables
 
 ### Validator (validator)
 
-score: **0.0**, pass: false
+score: **9.0**, pass: true
 
 <details><summary>raw validator request</summary>
 
@@ -45,7 +43,7 @@ Review the attached image.
   "score": 9,
   "pass": true,
   "issues": [],
-  "suggestions": []
+  "suggestions": ""
 }
 ```
 </details>

@@ -1,6 +1,6 @@
 # Tuning transcript — emotion.angry [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=7278343019391057823
+Result: 1 iteration(s), final score 9.0, passed=true, seed=1142038264747521632
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: orange-red background, simple, centered
 Must avoid: text, happy expression, sad expression, violence
 ```
 
-## Iteration 1 (seed 7278343019391057823)
+## Iteration 1 (seed 1142038264747521632)
 
 ### Prompt generated from
 

@@ -1,56 +1,352 @@
 style: flux-real
 cards:
-    pet.cat:
-        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), sitting upright, alert, striped fur tabby cat in on a wooden floor, indoors, warm light. Clean composition without text, humans, other animals. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 8772004897284885276
-        model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:15:44Z"
-    pet.dog:
-        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), sitting, wagging tail, friendly, fluffy golden retriever dog in garden lawn, outdoor, sunny day. Clean composition without text, leash, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 6358145467030335787
+    pet.angelfish:
+        positive: freshwater angelfish with a round, disc-like body shape, prominent vertical stripes, long flowing fins, swimming gracefully in a lush planted aquarium surrounded by vibrant green foliage and crystal-clear water
+        seed: 3939625729108194124
         score: 9
         model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:15:15Z"
-    pet.goldfish:
-        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), orange, flowing fins, swimming goldfish in clear water, aquatic plants, bubbles. Clean composition without text, humans, bowl label. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 2828045587282327785
+        iters: 2
+        updated_at: "2026-06-15T21:20:46Z"
+    pet.axolotl:
+        positive: An adorable realistic axolotl with pale pink skin, feathery external gills, gentle smile, fully aquatic in crystal-clear aquarium water surrounded by lush green aquatic plants under soft blue-green lighting.
+        seed: 4382167374806307146
         score: 9
         model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:16:58Z"
-    pet.guinea_pig:
-        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), round, fluffy, tri-colour fur, sitting guinea pig in green meadow, close-up, soft background. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 1682083645207215437
+        iters: 2
+        updated_at: "2026-06-15T21:07:38Z"
+    pet.ball_python:
+        positive: Realistic ball python (Python regius) curled gently on a polished wooden surface under warm light, showing detailed patterned brown and tan skin with smooth glossy scales, docile expression, clean composition without text, cage or humans
+        seed: 7863259087672361433
         score: 9
         model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:18:24Z"
-    pet.hamster:
-        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), chubby cheeks, round body, holding food golden hamster in wooden surface, soft background. Clean composition without text, cage, wheel. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 25837254264888246
+        iters: 2
+        updated_at: "2026-06-15T21:24:49Z"
+    pet.bearded_dragon:
+        positive: orange-tan patterned bearded dragon with distinct markings, prominent spiky beard, realistic reptile scales, resting calmly on sunlit warm rock inside a terrarium-like enclosure, bright focused lighting highlighting pattern details
+        seed: 995638302998682757
+        score: 9
         model: builder
-        iters: 1
-        updated_at: "2026-06-15T04:16:34Z"
-    pet.parrot:
-        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), perched, bright green and yellow feathers, curious green budgerigar parakeet in wooden perch, blurred indoor background. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 4059065475889047790
+        iters: 2
+        updated_at: "2026-06-15T21:03:48Z"
+    pet.betta_fish:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), vivid blue-red, flowing fins, in water, dramatic Siamese fighting fish in clear aquarium, aquatic plants, dark background. Clean composition without text, fighting, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4483572655603901595
         score: 8
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:17:24Z"
-    pet.rabbit:
-        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), sitting, long ears, fluffy, cute white rabbit in green grass, garden, soft light. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 5284726617156198135
+        updated_at: "2026-06-15T21:09:27Z"
+    pet.blue_tongue_skink:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), grey-tan, blue tongue extended, stout body, close-up blue-tongue skink in rock or wood surface, warm light, terrarium. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8840466539145066147
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T04:16:07Z"
-    pet.turtle:
-        positive: small red-eared slider turtle resting on smooth stones at edge of shallow pond water, tiny green shell with distinct red facial markings visible
-        seed: 5559850821067333238
+        updated_at: "2026-06-15T21:24:26Z"
+    pet.budgerigar:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), green and yellow, blue cere, perched, barred wings budgerigar in natural branch, garden light. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5587460254879340501
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:08:30Z"
+    pet.canary:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), bright yellow, small, perched singing yellow canary in natural twig, warm soft light. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7738130854216558347
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:08:53Z"
+    pet.cat:
+        positive: An alert tabby cat with striped fur sits upright on a wooden floor indoors under warm glowing light highlighting its attentive eyes and detailed fur.
+        seed: 7375458455412363880
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T20:55:24Z"
+    pet.chameleon:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), green turning yellow, independently rotating eyes, gripping branch, tongue coiled veiled chameleon in tropical branch, dappled light. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2778287695830302806
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:14:57Z"
+    pet.chinchilla:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), grey, ultra-soft dense fur, round ears, big eyes chinchilla in shelf or wooden perch, soft light. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5912707674595857805
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:00:15Z"
+    pet.clownfish:
+        positive: small realistic orange-and-white striped clownfish living alone inside a vibrant sea anemone on a coral reef under clear turquoise tropical water
+        seed: 5688240356746445295
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:10:53Z"
+    pet.cockatiel:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), grey with yellow face, orange cheek patch, crest raised, perched cockatiel in natural perch, soft indoor light. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8058410842187843413
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:07:12Z"
+    pet.corn_snake:
+        positive: docile orange-red corn snake (Pantherophis guttatus) with vivid orange and red blotches, slender body gently coiled on a wooden surface under soft warm light, clean composition without text, cage, humans
+        seed: 6550820062813012478
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:06:10Z"
+    pet.crayfish:
+        positive: Realistic vivid blue freshwater crayfish Cambarellus or Procambarus with proportionally large claws raised small size surrounded by flowing water in crystal-clear aquarium over smooth pebble substrate
+        seed: 4835031225018604433
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T21:13:28Z"
+    pet.crested_gecko:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), brown-tan, eyelash crests, large eyes, padded toes, clinging crested gecko in tropical branch, dark background, moody light. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5830490147366954688
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:25:14Z"
+    pet.degu:
+        positive: a small brown-grey degu with large rounded ears, long tail ending in a distinctive tuft, perched alertly on a rustic wooden branch, showing subtle brown-grey shading across its body
+        seed: 6516099157525119188
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T21:18:58Z"
+    pet.discus_fish:
+        positive: A perfectly circular, vibrantly colored discus fish with bold turquoise and red stripe patterns swimming gracefully in a lush planted aquarium against a deep dark backdrop, showcasing rich vivid hues and elegant form, clean composition free of text and watermarks.
+        seed: 4108626116207230571
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:29:47Z"
+    pet.dog:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), sitting, wagging tail, friendly, fluffy golden retriever dog in garden lawn, outdoor, sunny day. Clean composition without text, leash, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7369811610892050530
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T20:53:35Z"
+    pet.dove_pet:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), pure white, soft, perched on hand, gentle pet white dove in indoor or garden, soft natural light. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3060647923838031777
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:21:46Z"
+    pet.electric_eel:
+        positive: electric eel (úhoř elektrický) with elongated sinuous body in shades of muted olive‑grey, moving gracefully through dimly lit murky water inside a pitch‑black aquarium against a solid black backdrop
+        seed: 2039425465140687265
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T21:31:24Z"
+    pet.ferret:
+        positive: A realistic domestic ferret (Mustela putorius furo) with a long slender body, creamy fur, bright expressive eyes, distinct pointed nose and prominent whiskers, perched on a warm wooden floor surrounded by soft furnishings indoors, clean composition without text or humans
+        seed: 3848844226445175451
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T20:59:48Z"
+    pet.frilled_lizard:
+        positive: Frill‑necked agamid Chlamydosaurus kingii with its massive neck frill fully expanded in a threatening display, bright orange‑brown scaly skin highlighted by stark contrast between light and shadow, standing upright on a weathered dry branch amid dramatic sunlit Australian scrub, swirling dust motes caught in the harsh backlighting emphasizing the fierce atmosphere
+        seed: 4631667719899471724
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-15T21:27:46Z"
+    pet.gerbil:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), sandy brown, large eyes, long tufted tail, alert Mongolian gerbil in sand or wood surface, close-up. Clean composition without text, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 526047184706759310
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T20:59:23Z"
+    pet.goldfish:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), orange, flowing fins, swimming goldfish in clear water, aquatic plants, bubbles. Clean composition without text, humans, bowl label. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1199724215946616266
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T20:56:16Z"
+    pet.guinea_pig:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), round, fluffy, tri-colour fur, sitting guinea pig in green meadow, close-up, soft background. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 9044997698342710632
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T20:57:32Z"
+    pet.hamster:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), chubby cheeks, round body, holding food golden hamster in wooden surface, soft background. Clean composition without text, cage, wheel. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1790985565127025531
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T20:55:49Z"
+    pet.hedgehog:
+        positive: African pygmy hedgehog curled into a defensive ball on a carpet of fallen autumn leaves, featuring short dense brown spines covering most of its body, creamy-white underside visible only at the edges where it rolls slightly, tiny pink nose twitching as it sniffs the leaf litter, compact size fitting naturally within the leaf pile, gentle expression despite posture
+        seed: 5796490587486393391
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:01:46Z"
+    pet.hermit_crab:
+        positive: a realistic hermit crab (Coenobita) wearing a decorative shell with small claws clearly visible, standing on a sandy tropical beach at warm golden-hour lighting, clean composition without text or humans
+        seed: 9027554355905102700
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:13:50Z"
+    pet.iguana:
+        positive: bright green spiny-crested green iguana perched on a sunlit tropical tree branch surrounded by dense foliage and dappled sunlight creating a vibrant natural outdoor scene
+        seed: 2754075878954916700
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:15:18Z"
+    pet.koi:
+        positive: vivid orange white red koi carp with elongated sleek body swimming gracefully among lily pads in a serene ornamental garden pond under gentle daylight
+        seed: 2481626772970268204
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:19:18Z"
+    pet.leopard_gecko:
+        positive: small nocturnal leopard gecko Eublepharis macularius with yellow body covered in distinct black spots, large prominent eyes and gentle smiling expression on smooth rock inside terrarium illuminated by warm light
+        seed: 4818291928812762884
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:05:45Z"
+    pet.lovebird:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), green body, orange-red face, round small, vivid colors Fischer's lovebird in natural branch, soft light. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6773787663314521376
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:08:03Z"
+    pet.mandarin_fish:
+        positive: Extremely colorful tiny mandarinfish (Synchiropus splendidus) with psychedelic blue-green-orange swirling patterns perched on vibrant coral in clear blue marine water, captured in close-up macro view within a lively coral reef setting, natural lighting highlighting vivid colors, clean composition without text or humans
+        seed: 7174982325478239259
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:33:36Z"
+    pet.mini_pig:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), pink, small, cute expression, standing miniature pig in soft bedding or garden, sunny, small. Clean composition without text, slaughter, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3253803973863824746
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:17:15Z"
+    pet.moon_jellyfish:
+        positive: translucent white moon jellyfish with clear four concentric rings glowing softly floating in a dark aquarium illuminated by blue backlight creating an ethereal scene
+        seed: 8847936768821098382
         score: 8
         model: builder
         iters: 2
-        updated_at: "2026-06-15T04:18:46Z"
+        updated_at: "2026-06-15T21:31:54Z"
+    pet.mouse:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), white, tiny, large ears, curious, whiskers white laboratory or pet mouse in wooden surface, pet cage setting, soft light. Clean composition without text, dead mouse, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6143903757043574656
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T20:57:57Z"
+    pet.mynah_bird:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), black, yellow wattles, bright eye, perched common hill mynah in natural branch, soft light. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2564008443426379655
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:23:03Z"
+    pet.oscar_fish:
+        positive: Oscar cichlid (Astronotus ocellatus) large dark body covered in distinct orange blotches, massive size, expressive eyes, swimming calmly in a spacious aquarium with dark backdrop and crystal-clear water
+        seed: 1287817581748325324
+        score: 9
+        model: builder
+        iters: 3
+        updated_at: "2026-06-15T21:22:09Z"
+    pet.parrot:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), perched, bright green and yellow feathers, curious green budgerigar parakeet in wooden perch, blurred indoor background. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4810425094557706283
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T20:56:40Z"
+    pet.prairie_dog:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), tan-brown, round, sitting upright, calling black-tailed prairie dog in dry grassland, burrow entrance, sunny. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 9114189204275830375
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:16:13Z"
+    pet.quail_pet:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), tiny, brown speckled, very small, ground bird button quail in leaf litter or small enclosure, close-up. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5467726732532013701
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:22:36Z"
+    pet.rabbit:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), sitting, long ears, fluffy, cute white rabbit in green grass, garden, soft light. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5786616960515784040
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T20:54:58Z"
+    pet.rat:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), white or hooded, sitting upright, friendly, intelligent eyes pet rat in wooden surface or owner's hand, soft light. Clean composition without text, dead rat, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8211982547322493791
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T20:58:23Z"
+    pet.red_eared_slider:
+        positive: green red-eared slider turtle with bright red patches behind both eyes perched on a sunlit basking rock above shallow water in a terrarium-like pond environment clean composition without text cage or humans
+        seed: 8449967367731048121
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-15T21:27:19Z"
+    pet.sea_horse_pet:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), yellow or orange, vertical posture, tail gripping coral, close-up seahorse in aquarium in marine aquarium, coral, blue water. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1072909357379483126
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:32:14Z"
+    pet.sugar_glider:
+        positive: Small nocturnal sugar glider with a prominent grey stripe across its back, taut gliding membrane fully extended like open wings, large luminous eyes catching starlight, perched on a eucalyptus branch under a deep black night sky scattered with faint stars
+        seed: 4630703124410552430
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-15T21:04:19Z"
+    pet.tarantula:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), large, hairy legs, brown pink, resting on hand or log rose hair tarantula in dark wood surface, macro, moody light. Clean composition without text, dead prey, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3945065101502351481
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:11:53Z"
+    pet.tortoise_pet:
+        positive: A source_furry, (feral:1.25), quadrupedal, (realistic animal anatomy:1.35), (detailed fur texture:1.3), (natural proportions:1.25), domed yellow-brown shell, walking on grass, slow Hermann's tortoise in garden, green grass, sunny. Clean composition without text, cage, humans. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6621967825428894297
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T21:23:26Z"
+    pet.turtle:
+        positive: small red-eared slider turtle resting on smooth stones at edge of shallow pond water, tiny green shell with distinct red facial markings visible
+        seed: 7418402300141999346
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-15T20:57:04Z"

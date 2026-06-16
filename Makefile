@@ -1,8 +1,8 @@
 CONTENT   := quiz-generator/bin/content
 DECKS_SRC := decks
 DECKS_OUT := assets/decks
-SPARK_LLM := http://spark-99bb:8080
-SPARK_IMG := http://spark-99bb:8188
+SPARK_LLM := http://192.168.88.66:8080
+SPARK_IMG := http://192.168.88.66:8188
 
 # Models for the iterative image-tuning loop (OpenAI-compatible on $(SPARK_LLM)).
 VALIDATOR_MODEL := validator  # vision model that scores generated images

@@ -1,57 +1,352 @@
 style: flux-real
 cards:
-    emotion.angry:
-        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), furrowed brows, scowling mouth, red face, fists clenched angry cartoon child character in orange-red background, simple, centered. Clean composition without text, happy expression, sad expression, violence. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 7278343019391057823
+    emotion.amazed:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), eyes huge, mouth O shape, starry eyes, hands to cheeks cartoon character amazed in sparkles around, simple background, cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5848183173825121104
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T05:12:55Z"
+        updated_at: "2026-06-16T02:28:57Z"
+    emotion.amused:
+        positive: cartoon character with a subtle smirk formed by a gentle upward curve of the lips, left eyebrow slightly raised while right remains neutral, faint chuckle visible as a small grin, relaxed posture, simple clean background
+        seed: 5372231689875279917
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:07:26Z"
+    emotion.angry:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), furrowed brows, scowling mouth, red face, fists clenched angry cartoon child character in orange-red background, simple, centered. Clean composition without text, happy expression, sad expression, violence. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 1142038264747521632
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:46:27Z"
+    emotion.annoyed:
+        positive: A cartoon character showing mild irritation with rolled eyes looking upward, a sharp frown, arms tightly crossed, and a light tap of the right foot on a clean white backdrop, flat vector illustration, bold outlines, saturated primary palette, playful yet sullen expression
+        seed: 7087599035686878811
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:32:43Z"
+    emotion.anxious:
+        positive: Anxious cartoon character clearly showing nervous worry through rapid finger-tapping and restless leg-shifting movements, tiny sweat droplets glistening on forehead and upper lip, ultra-wide startled eyes revealing inner anxiety, teeth lightly pressed together during subtle nail-biting, set against a clean yet softly busy pastel-colored cartoon scene
+        seed: 5601921187065182343
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:13:22Z"
+    emotion.bored:
+        positive: A small cartoonish barefoot childlike figure lying flat on their back with heavy-lidded droopy eyes half closed yawn visible slack jaw slight smile of indifference and rounded slumped torso radiating pure bored apathy against a clean white seamless backdrop
+        seed: 109096432431379994
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T01:57:16Z"
     emotion.calm:
-        positive: calm cartoon child character with a gentle smile, completely closed relaxed eyes conveying peace, peaceful expression, hands resting on lap, standing centered against a soft mint green background, clean composition without text, angry expressions, stress, chaos
-        seed: 4993263873492099541
+        positive: Calm cartoon child character with a gentle smile, completely closed relaxed eyes showing pure peace, peaceful expression, hands resting on lap, standing centered against a soft mint green background
+        seed: 4733872647280095373
         score: 9
         model: builder
         iters: 2
-        updated_at: "2026-06-15T05:20:29Z"
+        updated_at: "2026-06-16T01:54:28Z"
+    emotion.cheerful:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), big grin, bright eyes, bouncy posture, arms spread cartoon character cheerful in sunny bright background, cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8699288450548701161
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:10:34Z"
+    emotion.confident:
+        positive: Cartoon character confident with expressive face, child-friendly clear emotion, standing straight, strong posture, smiling broadly, arms out, bright background, simple cartoon clean composition without text natural lighting soft focus high detail friendly children's book illustration style
+        seed: 2168626018767545172
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T02:09:40Z"
+    emotion.confused:
+        positive: A cute expressive cartoon childlike character with head tilted, intensely furrowed brows and tightly closed eyes showing deep confusion, surrounded by floating question marks, simple clean background, child-friendly illustration, clear emotional intensity, natural lighting, soft focus, high detail
+        seed: 744545721600389167
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T01:56:38Z"
+    emotion.content:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), gentle smile, relaxed posture, eyes half-closed, serene cartoon character content in warm soft background, simple cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4452050220070852248
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:15:46Z"
+    emotion.curious:
+        positive: A cute cartoon character with expressive face showing clear curiosity, leaning slightly forward, wide open eyes, finger gently touching chin, child-friendly clean composition without any text, simple background, bright colors, gentle shading, high detail, suitable for a children's book illustration.
+        seed: 3461370777469112616
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T02:09:14Z"
+    emotion.delighted:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), jumping for joy, starry eyes, huge grin, hands raised cartoon character delighted in bright joyful background, cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2449778466286455449
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:30:18Z"
+    emotion.determined:
+        positive: Cartoon character with a serious but determined expression conveying resolve, eyes wide open and focused straight ahead, slight lean forward with clenched fist raised, strong colors and clean bold outlines on plain background
+        seed: 8114620703250866937
+        score: 8
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T02:22:42Z"
+    emotion.disappointed:
+        positive: A sad cartoon character showing deep disappointment with a strongly downturned mouth, slouched posture, bowed head, and downward‑looking eyes, gently shaking their head, set against a simple muted pastel background, clean composition without text
+        seed: 328179122667377929
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:17:19Z"
+    emotion.disgusted:
+        positive: A cartoon character displaying intense disgust with a deeply wrinkled nose, exaggerated grimace, tongue hanging out, visibly recoiling backward as if repulsed by something foul, conveying strong revulsion and distaste, child-friendly expression but authentically grossed-out, simple clean background, flat cartoon shading, bright even lighting, minimalist backdrop
+        seed: 6207522549919559240
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:00:40Z"
+    emotion.embarrassed:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), red face, covering face with hands, hunched, blushing cartoon character embarrassed in simple background, cartoon style. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3974737476751602419
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:58:07Z"
     emotion.excited:
         positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), huge grin, sparkling eyes, jumping or dancing, arms wide excited cartoon child character in bright green background, simple, centered, confetti. Clean composition without text, calm expression, sad expression, violence. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 1556917616450136686
+        seed: 4336882470488075467
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:52:27Z"
+    emotion.frustrated:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), gritting teeth, fists clenched, steam from head, red face cartoon character frustrated in simple background, cartoon style. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2297303831537194545
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T05:19:03Z"
+        updated_at: "2026-06-16T02:03:15Z"
+    emotion.grateful:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), hands clasped, warm smile, glowing, eyes soft cartoon character grateful in warm background, simple cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 81906701139814944
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:01:55Z"
+    emotion.guilty:
+        positive: A cute cartoon character feeling remorseful, head bowed low as if looking down, arms folded neatly behind their back, lips gently bitten, conveying guilt on a plain muted-toned backdrop
+        seed: 2803550711181351737
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:26:09Z"
     emotion.happy:
         positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), big smile, bright eyes, arms raised, joyful expression happy cartoon child character in warm yellow background, simple, centered. Clean composition without text, tears, dark mood, scary. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 8826716625471635564
+        seed: 2669935866851060270
         score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T05:11:57Z"
-    emotion.sad:
-        positive: sad cartoon child character with a clear frown, downcast eyes, subtle tear on cheek, drooping posture, soft blue background, centered composition
-        seed: 1122757758271827193
-        score: 6
-        model: builder
-        iters: 4
-        updated_at: "2026-06-15T05:15:33Z"
-    emotion.scared:
-        positive: a scared cartoon child character with a deeply hunched posture, arms wrapped tightly around their head as if shielding themselves from unseen danger, extremely wide and glassy terrified eyes filled with dread, visible trembling throughout every limb, set against a plain dark grey-blue backdrop with soft ambient lighting emphasizing isolation and vulnerability
-        seed: 4381565659341102495
-        score: 6
-        model: builder
-        iters: 4
-        updated_at: "2026-06-15T05:18:10Z"
-    emotion.surprised:
-        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), wide open eyes, open mouth O-shape, hands on cheeks, eyebrows raised surprised cartoon child character in light purple background, simple, centered. Clean composition without text, scared expression, calm expression, violence. natural lighting, soft focus background, high detail, friendly children's book illustration style
-        seed: 6595408083551543308
+        updated_at: "2026-06-16T01:45:02Z"
+    emotion.hopeful:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), looking up, small smile, hands together, dreamy expression cartoon character hopeful in soft warm light, simple background. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7807901872682286471
+        score: 9
         model: builder
         iters: 1
-        updated_at: "2026-06-15T05:13:49Z"
-    emotion.tired:
-        positive: a tired cartoon child character with half-closed droopy eyes, open-mouthed yawn, deeply slumped posture, soft grey background, centered composition
-        seed: 6690347201075706937
+        updated_at: "2026-06-16T02:02:23Z"
+    emotion.hopeless:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), slouched totally, empty eyes, head in hands, grey tones cartoon character hopeless in dark simple background, muted cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 354181728878647305
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:31:16Z"
+    emotion.inspired:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), light bulb above head, bright eyes, ideas floating, energised posture cartoon character inspired in colourful sparkling background, cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5856580779636248608
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:32:10Z"
+    emotion.irritated:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), clenched teeth, frown, one eye twitching, slightly red cartoon character irritated in simple background, cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8373272036993356650
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:33:05Z"
+    emotion.jealous:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), green tinge, side-eyes, frowning, arms crossed cartoon character jealous in simple background, cartoon style. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 7256669687112453912
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:01:03Z"
+    emotion.joyful:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), leaping, huge smile, arms wide, confetti around cartoon character joyful in colourful festive background, cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 6670794320012811251
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:33:29Z"
+    emotion.lonely:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), sitting alone, knees drawn up, single tear, sad expression cartoon character lonely in simple background, dark or empty feel, cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 8330995180959008500
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:01:31Z"
+    emotion.loving:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), heart eyes, warm blush, dreamy smile, hands on heart cartoon character in love in soft pink background, hearts floating, cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5298787408931701187
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:18:12Z"
+    emotion.melancholy:
+        positive: A gentle cartoon childlike figure looking outward through a rain‑streaked window, showing a pensive, wistful expression with a single tear glistening on their cheek beneath muted blue‑gray skies
+        seed: 6109527498149902506
+        score: 9
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:14:48Z"
+    emotion.miserable:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), slumped, rain cloud above head, frowning deeply, tears cartoon character miserable in grey rainy background, simple cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3739632184269912926
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:33:54Z"
+    emotion.nervous:
+        positive: A cute cartoon character feeling nervous before an event, with wide eyes, pale skin, subtle sweat droplets near the brow, faint sheen on the forehead, clearly fidgeting feet moving restlessly and a hand resting gently on the stomach.
+        seed: 8249027463934738851
         score: 6
         model: builder
         iters: 4
-        updated_at: "2026-06-15T05:19:40Z"
+        updated_at: "2026-06-16T02:19:53Z"
+    emotion.nostalgic:
+        positive: dreamy nostalgic cartoon character gently holding an old photograph with a soft wistful gaze and subtle tearful eye under warm sepia tones
+        seed: 5667143629997936464
+        score: 9
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T02:07:43Z"
+    emotion.optimistic:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), sunny disposition, thumbs up, wide smile, bright eyes cartoon character optimistic in sunny background, simple cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 815011942700469068
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:34:22Z"
+    emotion.overwhelmed:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), hands on head, papers or tasks flying, stressed expression, wide eyes cartoon character overwhelmed in chaotic background, cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 2109267232560137153
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:23:38Z"
+    emotion.peaceful:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), eyes closed, serene smile, hands in lap, relaxed cartoon character peaceful in nature background or soft white, simple cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 5660417908055041312
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:24:35Z"
+    emotion.pessimistic:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), frown, storm cloud overhead, slumped posture, arms crossed cartoon character pessimistic in grey background, simple cartoon. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3774486024993536977
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:34:46Z"
+    emotion.playful:
+        positive: Cartoon character with a mischievous grin and winking eyes, playfully pointing finger, bouncing posture against a vibrant colorful background, child‑friendly clean composition without any text
+        seed: 5820249073317078967
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T02:26:29Z"
+    emotion.proud:
+        positive: Cartoon character proudly standing upright with chest puffed out and both hands firmly placed on hips, wearing a wide grin, set against a clean simple background in vibrant cartoon style, child-friendly atmosphere, expressive happy eyes, bright cheerful colors, smooth bold outlines, flat shading, centered composition, crisp linework, no text
+        seed: 6632744114442834899
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T02:00:11Z"
+    emotion.relieved:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), exhaling, hand on chest, eyes closed briefly, tension released cartoon character relieved in simple background, warm light. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 3636727906309040551
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:03:39Z"
+    emotion.sad:
+        positive: a sad cartoon child character with a clear frowning mouth, strongly downcast eyes gazing far downward, a single tear beneath the eye, drooping posture, set against a soft blue background, centered composition
+        seed: 1022584304853686856
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T01:48:54Z"
+    emotion.scared:
+        positive: scared cartoon child character with trembling whole-body shake, extreme wide glassy terrified eyes, deeply hunched crouching posture with arms raised defensively over head, set against a plain dark grey-blue backdrop emphasizing isolation
+        seed: 5553570894067778708
+        score: 6
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T01:51:34Z"
+    emotion.serious:
+        positive: Serious cartoon character with a straight face, neutral eyes, arms crossed, stern posture, steady gaze, simple dark background, clean composition without text.
+        seed: 5719185489814142179
+        score: 8
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T02:28:01Z"
+    emotion.shocked:
+        positive: A cute expressive cartoon character with jaw open wide showing shock, eyes widened dramatically, hand covering mouth as if surprised, frozen pose conveying sudden astonishment, clean simple background, child-friendly style, clear emotional reaction of shock instead of fear, subtle motion lines suggesting jaw drop, gentle lighting, soft focus background, high detail, friendly children's book illustration
+        seed: 4938563987609786013
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T02:20:12Z"
+    emotion.shy:
+        positive: shy cartoon child with head bowed, hands clasped nervously near cheeks, eyes briefly glancing upward from lowered gaze, subtle blush on cheeks, standing against plain pastel backdrop, gentle ambient light, clean line art, minimalist composition
+        seed: 1726486129483365734
+        score: 9
+        model: builder
+        iters: 2
+        updated_at: "2026-06-16T02:22:15Z"
+    emotion.surprised:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), wide open eyes, open mouth O-shape, hands on cheeks, eyebrows raised surprised cartoon child character in light purple background, simple, centered. Clean composition without text, scared expression, calm expression, violence. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 237582939340411598
+        score: 9
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T01:47:20Z"
+    emotion.tired:
+        positive: tired cartoon child character with half closed drooping eyelids, slightly open yawning mouth, slouched posture against a soft gray background, centered
+        seed: 2906328584705497731
+        score: 2
+        model: builder
+        iters: 4
+        updated_at: "2026-06-16T01:53:01Z"
+    emotion.upset:
+        positive: Upset cartoon character with downturned mouth, tears forming on cheeks, hugging self tightly, simple muted background, child-friendly clean composition
+        seed: 4586152065315445099
+        score: 8
+        model: builder
+        iters: 3
+        updated_at: "2026-06-16T02:29:23Z"
+    emotion.worried:
+        positive: A (cute cartoon character:1.3), (expressive face:1.3), (simple background:1.1), (child-friendly:1.2), (clear emotion:1.3), biting lip, furrowed brow, sweating, wringing hands cartoon character worried in simple background, cartoon style. Clean composition without text. natural lighting, soft focus background, high detail, friendly children's book illustration style
+        seed: 4251587585841936754
+        score: 8
+        model: builder
+        iters: 1
+        updated_at: "2026-06-16T02:02:49Z"

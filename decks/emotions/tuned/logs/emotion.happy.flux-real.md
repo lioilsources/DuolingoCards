@@ -1,6 +1,6 @@
 # Tuning transcript — emotion.happy [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=8826716625471635564
+Result: 1 iteration(s), final score 9.0, passed=true, seed=2669935866851060270
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: warm yellow background, simple, centered
 Must avoid: text, tears, dark mood, scary
 ```
 
-## Iteration 1 (seed 8826716625471635564)
+## Iteration 1 (seed 2669935866851060270)
 
 ### Prompt generated from
 

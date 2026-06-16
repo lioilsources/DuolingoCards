@@ -1,6 +1,6 @@
 # Tuning transcript — color.pink [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=1394806247607216241
+Result: 1 iteration(s), final score 9.0, passed=true, seed=1125313618914741861
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: white background, centered
 Must avoid: text, gradient, other colors, complex pattern
 ```
 
-## Iteration 1 (seed 1394806247607216241)
+## Iteration 1 (seed 1125313618914741861)
 
 ### Prompt generated from
 

@@ -1,6 +1,6 @@
 # Tuning transcript — fruit.strawberry [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=5768771386027092818
+Result: 1 iteration(s), final score 9.0, passed=true, seed=5106485956606561804
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: clean white surface, soft light
 Must avoid: text, cut, jam, other fruits
 ```
 
-## Iteration 1 (seed 5768771386027092818)
+## Iteration 1 (seed 5106485956606561804)
 
 ### Prompt generated from
 

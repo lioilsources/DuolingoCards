@@ -1,6 +1,6 @@
 # Tuning transcript — fruit.grape [flux-real]
 
-Result: 1 iteration(s), final score 9.0, passed=true, seed=7862467414405265797
+Result: 1 iteration(s), final score 9.0, passed=true, seed=5472609273808905341
 
 ## Target
 
@@ -12,7 +12,7 @@ Desired setting: clean white surface, soft shadow
 Must avoid: text, wine, raisins, single grape only
 ```
 
-## Iteration 1 (seed 7862467414405265797)
+## Iteration 1 (seed 5472609273808905341)
 
 ### Prompt generated from
 

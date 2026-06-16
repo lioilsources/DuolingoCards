@@ -71,7 +71,7 @@ func (b *Builder) Refine(ctx context.Context, cur prompt.Prompt, t Target, v Ver
 	}
 	if v.Suggestions != "" {
 		user.WriteString("Reviewer suggestions: ")
-		user.WriteString(v.Suggestions)
+		user.WriteString(string(v.Suggestions))
 		user.WriteString("\n")
 	}
 

@@ -1,8 +1,6 @@
 # Tuning transcript — reptile.chameleon [flux-real]
 
-Result: 1 iteration(s), final score 0.0, passed=false, seed=5771533720120323264
-
-> ⚠️ validator produced no usable verdict: parse validator JSON: json: cannot unmarshal array into Go struct field Verdict.suggestions of type string
+Result: 1 iteration(s), final score 9.0, passed=true, seed=317553362303412401
 
 ## Target
 
@@ -14,7 +12,7 @@ Desired setting: leafy branch, tropical, soft light
 Must avoid: text, humans, white studio
 ```
 
-## Iteration 1 (seed 5771533720120323264)
+## Iteration 1 (seed 317553362303412401)
 
 ### Prompt generated from
 
@@ -22,7 +20,7 @@ Must avoid: text, humans, white studio
 
 ### Validator (validator)
 
-score: **0.0**, pass: false
+score: **9.0**, pass: true
 
 <details><summary>raw validator request</summary>
 
@@ -42,10 +40,10 @@ Review the attached image.
 
 ```
 {
-  "score": 8,
+  "score": 9,
   "pass": true,
   "issues": [],
-  "suggestions": []
+  "suggestions": ""
 }
 ```
 </details>
