@@ -78,21 +78,21 @@ flutter:
   # Assets
   assets:
     - assets/data/
-    - assets/audio/
     # No-backend content (v2): bundled product catalog + language decks
     - assets/catalog.json
     - assets/decks/
     # Deck images (sourced from decks/ authoring tree)
-    - decks/animals-birds-flux/images/flux-real/
     - decks/animals-birds/images/flux-real/
     - decks/animals-birds/images/pony-cartoon/
     - decks/animals-farm/images/flux-real/
     - decks/animals-farm/images/pony-cartoon/
+    - decks/animals-insects/images/flux-real/
     - decks/animals-insects/images/pony-cartoon/
     - decks/animals-pets/images/flux-real/
     - decks/animals-pets/images/pony-cartoon/
     - decks/animals-reptiles/images/flux-real/
     - decks/animals-reptiles/images/pony-cartoon/
+    - decks/animals-sea/images/flux-real/
     - decks/animals-sea/images/pony-cartoon/
     - decks/animals-wild/images/flux-real/
     - decks/animals-wild/images/pony-cartoon/
