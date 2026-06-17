@@ -2,18 +2,130 @@ lang: la
 pivot: false
 title: Aves
 cards:
+  animal.albatross:
+    label: albatrus
+    summary: Marinus avis cum latissimo pennigerum intervallo inter omnes aves.
+    info: Albatrus migratorius habet maximum intervallum pennarum omnium volantium animalium, quod potest excedere tres et dimidium metra. Praeter aliquot dies annui, vitam totam in mari patagio vivit et mille kilomatra sine adscendendo navigare potest. Salinarum aquam bibit et per glandulas nasales sal efficit. In maritimâ tradițiōne, occisi albatro nihil boni praefigit.
+  animal.budgerigar:
+    label: psittacus
+    summary: Parrotculus coloratus ex Australiae domesticus.
+    info: Psittacus undulatus originis est de interioribus Austriae ubi in magnis volucrum coetu habitat. Est secundus frequentissime domesticatus avis post canarium. Masculi imitantur humanum vocem et centenas verba discere possunt. Selvatici psittaci virides et flavi sunt; mutationes colore per culturam factae sunt.
+  animal.canary:
+    label: canarium
+    summary: Parus citrinus domesticatus et popularis aves cantor.
+    info: Canarius domesticus ex insulis Canariis originatur et saeculo XVII domesticatus est. Color citrinus per selectam genetica creavitur; forma silvestris viridis-fuscus est. Masculi complexas melodias carminant et concursus in canticum canariorum sunt phaenomenon globale. Historice in minibus ut detector carbonicium utilisabantur.
+  animal.cassowary:
+    label: casuar
+    summary: Periculosus avis non volans novae Guineae cum ungulis acutis.
+    info: Casuar est magnus avis non volans ex nova Guinea et Australia septentrionali. Consideratur periculissimus avis mundo; longi uncini super digito interno sunt capaci ferire graviter. Elevata cornua ossium probabilitur ad navigationem in silvis densis utile esse. Est dispersor principalis seminum silvarum tropicalium.
+  animal.cockatoo:
+    label: cacatuus
+    summary: Albus psittacus ex Australia cum conspicua cruenta cresta.
+    info: Cacatuus auriceps est unus ex notissimis psittacis familiae Cacatuidae. Egregia sua cresta rutila erectatur quando excitatus est vel timore movetur. Est sapiens et imitare potest vocem humanam. Usque ad octoginta annos in captivitate vivere potest et in Australia pro herbicida reputatur.
+  animal.condor:
+    label: condor
+    summary: Maximus avis volans Americae cum capite nudis.
+    info: Condor andinus est maximus avis volans secundum pondus et latitudinem alarum. Est aquila; cibatur cadaveribus magnorum mammalium et importantem partem in ecosystema gerit. Planat per ingentes currentes calores super montibus Andis sine motu alarum.
+  animal.crane:
+    label: grus
+    summary: Magnus avis migratorius notus pro ritualibus saltationibus et voce potente.
+    info: |-
+      Gris grus est avis migrans magnus qui annuatim millia passuum transigit.
+      Famosus factus est per rituales saltus, quos cum pariter saltat et pinnas patet.
+      Transit in ingentibus volucrum coetu per Bohemiam autumnali et vernanti tempore.
+      Nomen huius avium generis ad machinam architectonicam tradatum est.
+  animal.crow:
+    label: corax
+    summary: Intelligens pullus avis familiae Corvidae cum problema solvere potest.
+    info: Corax est avis familiae Corvidae notabiliter intelligentia praeditus qui facies humanas agnoscat, instrumenta utatur et complexos labores solveret. In binis vel parvis societatibus habitat et omnivorus est. In mythologia Bohemica corvi saepe virtutes mysticas haberi dicuntur.
+  animal.cuckoo:
+    label: cuculus
+    summary: Parasitus nidicola ovum sua in nidi aliena celans.
+    info: Cuculus vulgaris notus est parasitismo nidico; ova ponit in nidi aliorum avium, ubi sunt ex incubatione et nutricione parentis adoptivae. Pullus cuculi brevi expellit alia ova et pullula ex nido. Cantus eius bisyllabicus 'cucu' symbol est adventus veris. Masculi cantant, feminae tonum ruttentem emittunt.
+  animal.dove:
+    label: palumbus
+    summary: Mirus pax; candidus palumbus cum tenero plumo.
+    info: Albus palumbus est internationalis symbolum pacis ex antiquitate; in Biblia ad Navum ramum olivarum attulit. In Christianismo Sancti Spiritus repraesentat. Domestica columba in realitate saxifraga domesticata est; albiditas per selectionem genetica creavit. Emissio album palumborum parte rituum et celebratorum orbis terrarum est.
+  animal.duck:
+    label: anser
+    summary: Aquatic bird with a flat beak; males have green heads.
+    info: The wild duck is the most widespread species of ducks worldwide and an ancestor of most domestic breeds. Males (drakes) have characteristically glossy green heads while females are inconspicuously brown. They are dabbling ducks that feed by skimming food at the surface rather than diving.
   animal.eagle:
     label: aquila
     summary: Magnus aves rapax cum rostro curvato et visu acuto.
     info: Aquila chrysaetos est symbolus nationalis USA et inter maximos rapaces Americae Septentrionalis. Praedat praecipue pisces, quos capere potest directe ex aqua unguibus acutis. Alae eius pandunt ultra duo metra et in natura vitam circa 20 annos complectunt.
+  animal.emu:
+    label: ema
+    summary: Secundus maximus avis mundi, non volatilis struthioniformes Australiensis.
+    info: Emu est secundus maximus avis mundo et endemica Australiae. Non potest volare, sed bene natare et celeriter currere potest. Masculus incubat ovum et curat puerulos, femina discedit. Anno MCMLXXXII exercitus Australianus perdiderunt sanguinem contra emus ad hostilia avium grexes minantes agricolam.
+  animal.falcon:
+    label: falco
+    summary: Rapido animal volantis in cursu directo superiore ad 320 km/h.
+    info: Falco peregrinus est celerrimum animale terrae; velocitatem plus quam 320 km/h attingit dum in cursu directo volat. Oculorum tenebras sub oculis habet quae lumen solare refractionem inhibent. Hunc avem homines captaverunt iam plures millia annorum; falconaria est inscripta apud UNESCO. In Boemia nidificat super altas aedificationes et saxos.
   animal.flamingo:
     label: flamingo
     summary: Rosa avis palustris, stans in aqua tenue una pede.
     info: Flamingus ruber colorem suum ex carotenoidibus, qui in alga et sanguis in quibus hanc avem nutricantur, capiat. Pueri nascuntur cinerei et colorem suum tempore acquirunt. Rostrum curvum ad filtrationem ciborum ex aqua utitur, caput deorsum versus imponens.
+  animal.goose:
+    label: anser
+    summary: Magnus avis aquatilis migrans in forma clavis; nidificat in terra.
+    info: Anser domesticus est progenitor silvestris gallinarum domesticarum. Migrat in formato caracteristico clavis, ubi aves mutationem ponunt in positione ducens. Sunt valde territoriales dum nidificant et pugnant pro pullos sine timore. In historia, anseres Capitolium Romae custodiebant, clamore suis advertentes de Gallicis hostibus.
+  animal.hawk:
+    label: accipiter
+    summary: Velox rapax qui aves et mammalia cacarens silvis et agris.
+    info: Accipiter est genus aquilinarum ex familia accipitridae capax venationis inter densam vegetationem propter breves alas rotundas et longum caudam. Est celer et flexibilis; cacaret aves volando aut ex latere. Feminae saepe multo maiores sunt quam masculi. In falconaria accipiter erat pretiosus avis venaticus.
+  animal.heron:
+    label: ardea
+    summary: Altus avis palustris immotus propter piscem ad aquam.
+    info: Ardea cinerea est maximus avis palustris in Europae mediae regionibus. Stabit tanquam statua et expectat donec pisces accedant ad ipsum, deinde rapidissime rostro pulsatur. Capax est totum piscem vel ranas deglutire. Vola cum collo flexo in formam S, quod distinguit eam ab herodibus, qui colla extendunt dum volant.
+  animal.hornbill:
+    label: buceros
+    summary: Tropicus avis cum ingente rostro et cornu decorativo.
+    info: Buceros est avis ex familia Bucerotidarum notabilis pro magnifico rostro cum appendiculī ossēs (cornu). Habitat silvis tropicalibus Africæ et Asiæ. Non nidet in cuniculis sed in cavitatibus arborum; femina ab ore masculi clauditur et manet intra totam duratam incubationis. Præsentia eius indicat integritatem silvarum tropicalium.
   animal.hummingbird:
     label: trochilus
     summary: Parvissimus avis mundi, qui potest stare in loco et volare retro.
     info: Trochilus rubricollis est species trochili, quae sola in orientali parte Americae Septentrionalis nidificat. Alarum motus eius usque ad 53 vicibus secundum, qui sonum typicum efficit. Habet nectaris et parvorum insectorum cibum; cor ejus batit usque ad 1200 vicibus minuta.
+  animal.ibis:
+    label: ibis
+    summary: Aquatices avis cum curvo rostro, sacra apud Aegyptios veteres.
+    info: Ibis est avis aquatica ex familia Threskiornithidarum cum conspicuo longo et curato rostro. Ibis sanctus honorabatur in Aegypto vetere ut incarnatio divinitatis Thotae. Habitat coloniis palustribus atque deltatibus fluminum.
+  animal.kingfisher:
+    label: alcedo
+    summary: Jewel-colored kingfisher diving for fish near streams.
+    info: The river kingfisher is one of Europe's most beautiful birds with an electric blue back and orange breast. It perches on branches above water watching for fish before plunging headfirst to catch them. Its presence indicates clean water—where it lives, the water is healthy. In Japan, a similar kingfisher (hisui) symbolizes beauty.
+  animal.kookaburra:
+    label: Risus regalis
+    summary: Regulus australis cum voce clamante simili hominis risui.
+    info: Regulus novoguineensis (risus rex) est magnus australis regulus celeber pro voce sonora similique homini ridendo. Est symbolus australi aeque et clamo eius tradidice dies matutinas atque occasos annuntiat. Cervidos, colubros, gnaweros et insecta cacare potest.
+  animal.lorikeet:
+    label: lory
+    summary: Parvus et coloratus psittacus qui nutritur melle floreali atque polline.
+    info: Lory sunt parvi psittacidi ex Australesia cum spectaculis maximis inter omnes psittacos. E lingua setacea specialiter collectant mel florum tropicalium et pollinem. Sunt impertientes apes in silvis tropicalibus. Vivunt in turmis, sonantes et ludendi studiosi; celeriter homines amicos faciunt.
+  animal.lyrebird:
+    label: lirauda
+    summary: Australiana avis cum mirabili cantu et imitando circumsonitus.
+    info: 'Lirauda magnifica est avis Australiensis celeber pro sua virtute imitandi quamlibet sonum ex circuitu suis: motriculas electris, clausulas camerae photographicae, clangores automotoria vel canoris aliarum avium. Masculi femellas ad se trahunt ostendendo elegantem caudam lirae formam habentem et perfectas imitationes. Hoc animal insignia est civitatis Victorianae.'
+  animal.macaw:
+    label: ara
+    summary: Magnus psittacus Neotropicalis cum pennibus coloratis et rostro robusto.
+    info: Ara est magnus psittacus silvarum tropicalium Americae cum spectaculare colore plumarum inter omnes aves. Habet fortiter curvatam rostrum capax de frangendo duras nucleos seminum. Vivunt binarie, dum coniuncti manent per totam vitam. Periclitantur ab deforestatione et commercio illicito animalium exoticorum.
+  animal.magpie:
+    label: corvus
+    summary: Corvus niger cum cauda viridi et longa.
+    info: Corvus generalis est avis familiae Corvidae cum conspicua coloratione nigroalba et coda viridique splendoris longa. Dicitur furtivus esse rerum lucens, sed investigationes haec fabulam non confirmant. Est unum ex paucis avibus mammiferorum quae speculum suum reflectere sciat. In Sinaea symbolo felicitatis et laetitiae est.
+  animal.nightingale:
+    label: luscinia
+    summary: Parvus avis rutilus qui cantat unum ex pulchrissimis melodijs avium.
+    info: Luscinia communis est parvus avis rutilus cuius masculus carpit unam ex complexissimis et pulchrissimis cantilenis avium. Cantat praecipue noctu et ad auroram, unde originem nominis habet. Est remotus cognatus phoeniculi. Poetae totius orbis terrarum ab Dante usque ad Keats celebraverunt canticum luscinae ut symbolum amoris et mélancholia.
+  animal.ostrich:
+    label: strutio
+    summary: Maximus avis mundi, non volat; currere potest velocitate usque ad 70 km/h.
+    info: |-
+      Strutius bicornis est maximus et gravis avium orbis terrarum; masculi altitudinem usque ad 2,7 metrorum attingunt et pondus superant 150 kg.
+      Non potest volare, sed est velocior digitatus binarius mundo, cum velocitate transire 70 km/h.
+      Ova eius sunt maxima ex omnibus avibus.
+      Digitus oppositus pedis absent est; tantum duo digiti habet.
   animal.owl:
     label: strigō
     summary: Nocturnus avēs rapax cum ōculīs rotundīs, vōlum silente et auditu praeclāro.
@@ -26,10 +138,78 @@ cards:
     label: pavon
     summary: Masculus pavonis cum caudā elegantī cōrōnā.
     info: Pavus corōnātus Indiā subcontinentī nascitur. Masculus (pavus) dilatāt caudam, quae in re verā sunt penna opercularia prolongātā, in ventaginem dum femellās adurat. Iridiscentiēs colorēs non pigmentīs, sed lūcis refractiōnē in microstructurīs pennārum oriuntur.
+  animal.pelican:
+    label: pelicanus
+    summary: Magnus avis aquatilis cum gulae pellegrandi pro piscatione.
+    info: Pelicanus est magnus avis aquatilis cum rostro vacuiter dilatabili ad capturam pisces. Vacuus capax usque ad tredecim litros aquae, quam exprimit et pisces deglutit. Volaunt in formationibus aerodynamicis utiles ascendentium currentum inter se. In symbologia Christiana pelicanus significat caritatem sacrilegam.
   animal.penguin:
     label: pinguinus
     summary: Avis non volans ex hemisphaerio australi, magnus nata tor.
     info: Pinguis imperialis est maximus inter omnes pinguinos; altitudo superat unum metrum. Habitat in Antarctica et ovum ponit in frigore extremo – masculi incubant ova in pedibus per totam hyemem antarcticam. Sub aqua velocitas superat 30 km/h.
+  animal.pheasant:
+    label: phasianus
+    summary: Coloratus avis ludens; gallus habet colorationem conspicuam et caudam longam.
+    info: |-
+      Phasianus vulgaris Asiae ex Europam adlatum est, sed iam pars naturalis faunae europaeae factus est.
+      Gallus (gallus) colorationem conspicuam habet, corpus viride-aureum et sacculum rubrum circum oculum characteristicum.
+      Est avium venaticarum communissima Bohemia et fundamentum traditionis venatoriae.
+      Nidificat in terra inter frondes densas.
+  animal.pigeon:
+    label: palumbus
+    summary: Spiss frequent urbium et ruralium ex Columbidae familia.
+    info: Palumbus saxatilis est progenitor omnium palumborum domesticorum et ferocum in urbis. Fuit primus aves domesticatus; milles annos hominibus ut palumbus postalis servivit. Habet mirabile sensum navigationis et centena millia passuum ab hac loco iter ad patriam invenire potest.
+  animal.puffin:
+    label: fratresculus
+    summary: Parvus avis marinus cum rostro colorato similis psittaco.
+    info: Fratresculus borealis est parvus avis tubinarum cum rostro multicolore et transversim striatus. Capiet eum piscem per submersio et natatio simulans pedes decern vel plus pinnatis in ore. nidificat in coloniis super rupestris scrobibusque clifforum. Est icona perpetua Islandiae et insularum Farerarum.
+  animal.quail:
+    label: coturnix
+    summary: Parva et timidus aves camporum nidificans in herba.
+    info: Coturnix est minimus exemplar familiae phasianidarum in Europa. Est timida; saepe auditur (canticulum 'piti-pity') magis quam videtur. Contrario modo ceteris phasianidibus migrat et hiemnat in Africa. Ova eius sunt delicia popularis.
+  animal.raven:
+    label: corvus
+    summary: Magnus et sapiens avis niger cum caracteristico crocito.
+    info: Corvus magnus est maximus avis familiae Corvidae longior quam sexaginta centimetrica. Est praestantissime sagacis atque habet facultatem futura planere, ludere et socias relationes constituere. In mythologia Saxonum septentrionalium (Huginn et Muninn, corvi Odini) et Celticorum statum magicum tenebat. Turris Londinensis legenda custoditur quia regnum cadet si corvi turrim relinquant.
+  animal.roadrunner:
+    label: cuculus terrenus
+    summary: Velox currator desertorum Americae Septentrionalis; symbolum cartoonum.
+    info: Cuculus terrenus magnus (currator vialem) est avis familiae cuculidarum quae ambulationem et cursu prioriter adhibet quam volatum. Attigit velocitatem superantem triginta kilometer per horam et serpentulas, lacertas, insecta et parva mammalia comedat. Est capax capturare et occidere natrix. Fama facta est ut heroas animatarum serialium Americae de Curratore Viam et Canis.
+  animal.robin:
+    label: rubeculus
+    summary: Parus rutilus cum pectore rubro et symbolum Natalis in Britannia.
+    info: Rubeculus communis est parus exilis cantor cum pectore conspicuo rutilante. Forte sed non ostentatim currit post cultores hortos et lumbricos collectat. Est avis nationalis Angliae et traditio Natalina. Terram suam tenet omni tempore anni et canit etiam hieme.
+  animal.seagull:
+    label: gull
+    summary: Coastal bird scavenging for food near people and at sea.
+    info: The silver gull is one of Europe's most widespread coastal birds. It is adaptable and omnivorous, living not only along seashores but also inland by lakes and rivers. Intelligent and sometimes remembers places where it has been fed by humans.
+  animal.secretary_bird:
+    label: serpentarius
+    summary: Longipes rapax Africae serpentes calcando necans.
+    info: Aquila serpentaria est avis rapax magnus ex Africa ambulans praecipue pedibus apertis in pratis acervisque herbarum. Necat coluberes et roditores cum ictu potente pedum ponderis triplum corporis sui. Nomen suum habet propter plumas longas super capite similiter ad barbas auriculares scribae. Est symbola nationalia Aethiopiae meridionalis et Sudan.
+  animal.sparrow:
+    label: passer
+    summary: Parvus pullus passerinus testaceus habitat vicinitate sedium humanorum.
+    info: Passer domesticus est unus ex avibus maximè diffusis mundo et fidelis companion hominis. Habitat prope sedes humanae, ubi nidificat inter fissuras parietum et tectōrum. In ultimīs decenniēs populātiōnēs urbānae passeri notabiliter dēcrevērunt. Pro Boemīs passer est symbolum vulgaritatis atque adaptabilitātis.
+  animal.spoonbill:
+    label: colymbus
+    summary: Albus avis palustris cum rostro caractheristicum cuchariforme.
+    info: Colymbus albus est similis ibis, sed facile discernitur propter rostrum planum et spatulatum. Pro quaerendo cibum movet rostro lateribus in aqua parva. Nidificat coloniarum in stagnis et frutex riparios. In Boemia colymbus rarus est, verum frequens visitator in Moravia meridiocanal.
+  animal.stork:
+    label: ciconia
+    summary: Magnus albus avis cum rostro rubro; legendario pueri ad domos mittitur.
+    info: Ciconia alba est avis migrans qui nidificat super tectis et pilis per totam Europam. Hiems habitat in Africa tropicali et annualiter revertitur ad idem nidi, quod annuo tempore ampliat. Est symbolum primaverae atque fertilitatis; in traditione populari infantia ferre fert. Bohemia est unum ex importantissimis Europae regionibus pro nidificatione ciconiarum.
+  animal.swallow:
+    label: hirundō
+    summary: Celer aeris insectivorus cum coda bifida.
+    info: ' Hirundo rustica est avis migrans hiems in Africa sub-sahariana et nidificans in Europa. Est magister volantis; insecta venat exclusivamente in volatu et potest bibere ex superficie sine adscensu. Nidificat in horrea et sub tectis; in folklore praesentia hirundinis ostendit felicitatem domui. Symbolizat ver, reditus et fidelitatem patriae.'
+  animal.swan:
+    label: cygnus
+    summary: Magnus et elegans avis aquatilis albis plumis, symbolum pulchritudinis et amoris.
+    info: |-
+      Anser gigas est maximus volantis avium Europae cum apertura alarum super 2,4 metra.
+      Symbolum pulchritudinis, amoris et fidelitatis est; coniuges sunt inter se per totam vitam fideles.
+      Inconscienter elevat rostrum suum et tumescunt pennae ut hostibus monent.
+      In fabula H.C. Andersenii cygnus fit symbolum metamorphosis pulli aestivi deformis.
   animal.toucan:
     label: tukani
     summary: Avis tropicalis cum rostro magnifica colorata.
@@ -37,3 +217,7 @@ cards:
       Tukani gigantes in silvis pluviosis Americae Centralis et Meridionalis habitat.
       Rostri conspicui longitudo superat 20 cm, sed est levis, quod camerae aeris sunt.
       Utatur ad regulationem caloris corporis, fructus rumpere et signum visuale pro aliis tukanis.
+  animal.woodpecker:
+    label: picus
+    summary: Aves percussio corticis arborum insecta quaerens vel cavitates excavandas.
+    info: Picus est avis familiae Picidae adaptata ad percussiones ligni rostro rigido et cauda robusta ut supporto. Lingua eius potest esse tripla longitudine rostri et utilis ad extrahendas larvas ex foratis locis. Percussiones ad communicationem et significationem territorii usurpat. Dryocopus martius maximus Europae picus est.

@@ -2,42 +2,217 @@ lang: la
 pivot: false
 title: Fructus
 cards:
+  fruit.ackee:
+    label: ackea
+    summary: Rubrum tropicum pomum cum flavidarum hypopysis comestionabilium partibus.
+    info: Plumus Ackea (Blighia sapida), rubra fructu cum flavis hypopyxis comestibilibus et nationale poma Iamaicae est nomine capti Bliss qui anno MDCCLXXXXIII hoc plantam descripsit.
   fruit.apple:
     label: malum
     summary: Fructus rotundus ruber vel viridis ex arbore malorum dulci-acidulo sapore.
     info: Malum est fructus arboris Malus domestica, una de culturis pomacearum frequentissimae mundo. Continet vitamin C et fibras; sunt superiores septem milia species.
+  fruit.apricot:
+    label: praecum praenum
+    summary: fructus parvus et auratus ex Prunu Armeniacae;
+    info: '{"hint":"pruna rubra","label":"praecum praenum","summary":"Fructus parvus et auratus ex Pruno Armeniacae;","info":"Pruina rubra originatur ab Asia Media\nCultivari potest Bohemio totaque Europa; dulcissimi sunt de Turcia Hispania\nBeta-carotene atque vitaminis A saturata est\nDulcis prandium sanitas."}'
+  fruit.avocado:
+    label: avo
+    summary: Cremosa persea tropicales utilis pro guacamo.
+    info: Avo (persea americana) originatur ex Mexico et America Centralis. Botaniciter fructus est sed culinarie ut legume usitat. Continet salubres unioses lipidae cum acido oleico similique olii olearii.
   fruit.banana:
     label: banana
     summary: Fluctus dulcis fructus ex regione torrida.
     info: Banana est fructus plantae tropicalis familiae Musacearum. Est satur cum kalio et saccariis naturalibus qui praebent celerem vim.
+  fruit.blackberry:
+    label: morata
+    summary: Bacca nigro-purpuraea ex rubore.
+    info: Mora (Rufus spinosior), est tenebris purpurea compota baccatum arbustis spinosorum genitus. Moras silvestres sylvarum marginibus et dumetosis crescit naturaliter. Habet multum vitamin C ac K atque fibram.
+  fruit.blueberry:
+    label: Blueberry
+    summary: Dark blue fruit rich in antioxidants that supports cognitive function and heart health.
+    info: '{"label":"blueberry","summary":"Densa caerulea baca; alimentum potentissimum cum pluribus antioxidans."}'
+  fruit.cantaloupe:
+    label: canthali
+    summary: Melone reticulatum flavido-rufus carnibus intensè flavidis.
+    info: Cantālis muscatus variēta 'cantalupensis' est species mūscae ex Asia originata cum carne lutea et dulci gustu. Nomen derivat ab habitaculo papalis Cantalupa apud Romae sitō. Carne sua aurantiaca plena β-carotīnum atque vitaminum A abundat.
   fruit.cherry:
     label: pruna
     summary: Parva rotunda rubra fructus lapideus geminus crescens.
     info: Pruna est fructus mali volucris, popularis aestiva pomum. Continet antioxidants et melatonina; sunt varietates dulces et acidae (cerasus).
+  fruit.coconut:
+    label: coconut
+    summary: Magnus subtropicalis germen cum pericardio durissimo carne alba.
+    info: |-
+      {"hint":"nut large tropical Cocos nucifera","info":"Coconutum vel Coccos nucifera est fructus palmæ coccometricae; botanicaliter dicitur germen non semina sed endocarpium esse.
+      Aqua coquillata interiore immatura fruitu naturali potabilis liquor cum elementorum mineralium continet.
+      Pannellum et olivum ex coco sunt fundamenta culinarie Southeast Asiaticarum Indiaque.
+      Palma cocos appellatur arbor mille usibus utilis."}
+  fruit.cranberry:
+    label: craneberga
+    summary: Mica rubra acidius fructus; tradicionalis Americae adjunctio.
+    info: |-
+      {"hint":"mala rubra acida bacca","info":"Cranberrum est mica acidium fructu ruber cum Vaccinium macrocarpon genus.
+      Est utilis ad festivitatem Americanae Gratitudinis ut cranberries saucia.
+      Continet proantcyanidine quod inhibet adherence bacteriarum Escherichiae Coli ad urinariorum vasorum parietes.
+  fruit.currant:
+    label: rubus
+    summary: Parva rubrum, caeruleum aut album fragile cum racemoso aggeramento.
+    info: Rubus est fructus parvulus qui crescit aggregatim racemo similem. Rubus nigra species continet maximè vitamin C inter omnes fragiles et utilis pro saporis fundamenti ad britannicum potum Rynbrae vel liquorem Cassius nomine 'cassis'. Reddita specie utitur confectibus ac decorando dulciaria.
+  fruit.damson:
+    label: pruna damasce
+    summary: Parva tenebris tingens pruni specie communiter cultiva in agrestibus Britanniae.
+    info: Pruna damascea est species prunorum parva et nigro-caerulea vel nigrans cum sapore acido quando cruda consumitur sed optima ad confectaria, marmelladae atque aquavitam Damasoniam producendos. Nomen ex urbe Damascus derivatur unde fructus Europa pervenit; hortis Angliae ab antiquo collocata.
+  fruit.date:
+    label: date
+    summary: Fruges dolentes atque brunneas de forma ovalis ab arbore Phoenico Dactlyfera provenientes.
+    info: Dattulae sunt fructus dulces palmae Phoenix dactyliferae et ex hac causa saeculis multis pro alimentorum fontem utilisantur apud Orientales medii orientis regionis. Continent plus quam sexaginta percentum sucri et ergo magnam vim nutriens habent.
+  fruit.dragon_fruit:
+    label: pomum draconis
+    summary: Fructus rosaceus actiniarum spinosorum cum carnine albâ punctata.
+    info: Poma dragonis (hylocerus), originarius ex America Centrali et Mexico est fructus decoratissimus cum cuticula rubro-purpurea atque carne alba nigris pustulis contexta. Sapor eius delicatus est ac continet antioxidantes et vitaminum C.
+  fruit.durian:
+    label: duriānum
+    summary: Fructus magnus aculeatus tropicalis cum potentissimo odoratū.
+    info: Duriānum est fructum spinosum ex regionibus tropicalibus cum odorī fortis quae aliqui aversantur et alius amant; multōs hotelles Asiaticē prohibuunt eundem. Pulpam album lactescens dulcis gustūque complexa habet—cum amygdalae, vanillae atque casei sapores. In Asia Australiori pretium ut delicata luxuria.
+  fruit.feijoa:
+    label: pluma
+    summary: Ovalis viridis fructus cum aromate.
+    info: Plumaria (Acacia spinosissima), rostlina patřící do čeledi akáciovitých nebo feijoaceae je tropicko-subtropická bylinkovito-stromatová rosta ze severozapadní Afriky.
+  fruit.fig:
+    label: figus
+    summary: Fructus similis pyri ex arbore ficiferae dulcis atque multa semen.
+    info: Figus non est fructus sed receptaculum replectum millibus minimorum floruum. Ficium cum foliis Adam et Eva usque ad calcem sibi induxerunt secundum fabulam Biblicam.
+  fruit.gooseberry:
+    label: ampelus
+    summary: Frugulus rotundus perspicuus; amatus inter cultores.
+    info: Ampelus sylvestris est fructus parvus qui habitat in hortis Europae centralis et medium tam viridi quam rubro colore apparit. Hic fructus vitaminum C abundare fert. Vinum crenatum ex ampelo silvestri factum historiciter potiones popularia fuit.
   fruit.grape:
     label: grape
     summary: Small round berry growing in cluster-like bunches.
     info: The grapevine produces grapes in various colors—from green to dark purple. Grapes can be eaten fresh, dried into raisins, or pressed for wine.
+  fruit.grapefruit:
+    label: pomace
+    summary: Fruxcitrum dulce-amare grande
+    info: Poma citris (Citus paradisus) est fructus mixtus exponens cum poncirem et mandarineo. Descriptum fuit saeculo XVIII apud Barbados. Rosa atque rubra varietates continent lycopenum ac betacarotinem.
+  fruit.guava:
+    label: papaya
+    summary: Frux tropicalis cum intenso odore ac carne candida aut rubro-pallescere.
+    info: Papaya (Carica papaya), originans ex America tropicali et iam diffusa per totum Asiensem atque Africanas regiones tropicales est fructus cum carne alba vel rosea fortis odoratis proprietatibus. Papayae cuticula necnon semen comestibilia sunt omnis frugius nutriens esse potuit.
+  fruit.jackfruit:
+    label: artocarpus
+    summary: Maximus arboreus frux
+    info: '{"lang": "lat", "json": {"label":"jackfructu","summary":"Fructus enormis et spinosus ex Asiae tropicalis regionibus","info":"Jackficus vel artocarpus heterophyllos arbor maximas fruges fert quae usque ad trigintaquinqve kilogrammos ponderent. In India, Bangladesh ac Thailandia est cibum fundamentale pro hominibus qui carnem non comedunt aut eam raro sumant. Frugulus immaturus siccitate sua fit utilis ut carnis substitutio vegetariana."}}'
+  fruit.kiwi:
+    label: actinium
+    summary: Fructus brunneus pilifer cum carne viridi vividae.
+    info: Kivi (Achena dolia), znám jako Actinia dolia velocius, originatur ex Sinis ubi nominatur 'Yang Tao' aut 'Malum Anseris Sinarium'. Nova Zeelandia e commercio reddidit et postea secundum aves nationales suos Achenas renominavit. Continet duplam quantitatem vitaminii C quam Citrus.
+  fruit.lemon:
+    label: '"limbus"'
+    summary: '{"summary": "Acidulus Citri Fructus Vitae Source."}'
+    info: '{"info":"Citrōsus fructus ex Asia proveniens est acidus et flavescens cum multis vitaminis acido C atque citrico."}'
+  fruit.lime:
+    label: lime
+    summary: Parva viridescentes acidae Citri species utilis in culina tropicali.
+    info: '{"hint":"citris viridis acridus parvus fructus","info":"Lime est minor Citrus cum succo acidulo et cortice aromatico. Est necessarius in coquina Mexicana, Thailandica atque Vietnamitica. Continet minus vitaminis C quam Citrum sed fortem odorem habet. Consumptio Limes marinos ab escorbuto defendere potest."}'
+  fruit.longan:
+    label: plumone
+    summary: Fructus parvus et brunneus de arboribus tropicalibus similis litchio.
+    info: Plumon (Sideroxylon mascatense), znám také jako longan nebo Dimocarpus longan, est fructus ex arbore troica originis Sinensis. Nomen derivatur ab lingua Sinitico 'longyan', quae significat oculum draconis ob carne perspicuum cum semine nigrō interiore.
+  fruit.lychee:
+    label: lychea
+    summary: Frutex parvulus asiaticus cum pulpa transparens.
+    info: Lychee (Litchi sinense), est fructus ex Asia meridionali originis cum cortice rubro et scabro qui deligitur ut revelare carne album lucens. Gustum dulcem atque aromatum habet.
   fruit.mango:
     label: mango
     summary: Tropicus fructus cum carne succulenta citrinoflava.
     info: Mango indicum dicitur rex frugum tropicalium. Est saturum vitaminis A et C atque originem ex Asiâ meridionali habet, ubi iam millesimum quadruplum annorum colitur.
+  fruit.medlar:
+    label: mespillus
+    summary: Fructus minusculus brunneus affinis malo, qui maturo fit modo post colligendum.
+    info: Pomaria (Mesepillus germenicus), quae similis est pomum parvum cum cortice fuscus et sapore dulcis-acidulus post maturandum per putrefactionem naturalem positis fructibus usque ad mollitiem corpusculi. Habet multas ligninas ac vitaminum C.
+  fruit.melon:
+    label: melon
+    summary: Frux dulcis magnus cum carne aurea, virescens seu candida.
+    info: Melo est fructus tropicali vel sub-tropicali cum carne lutea aut viridi ex Africa et Asia originante quae hodie cultu mundialis facta sunt. Plerique species aquam superiore centenario partium continet itaque excellenter hydatantur. Cantaluppa, honedew, galea atque aliae multitudines variant.
+  fruit.mulberry:
+    label: morea
+    summary: Bacca purpureo-nigricans de arbore Mora; alimentum vermeculorum.
+    info: Morea est bacca nigra ex arbore Moraceae genere Morei; folia huius arboris sunt cibus vermiculi sericini. Albae, rubrae et nigrum morearum genera sunt praesentia inter quas tenebris dulcissima dicitur esse.
+  fruit.nectarine:
+    label: nectarinia
+    summary: Poma laevigata sine pilosis squama velutinum.
+    info: nectarinia est Pruni speciei varietas cum glabri cuticulae epidermis et dulci gustu. Differt ab albis praecipue per gene mutationem causam adhaerentis pelliculæ integumenti. Nomen ex 'nectare' deorum derivatur atque perfectio suavitatis testificari videtur.
   fruit.orange:
     label: pomelo
     summary: Rotundum fructus citri cum dulci aurantiaco limbo.
     info: Pomelus est fructus citricola ex Asia orientali oriens, nunc cultus per orbem terrarum. Est refertus vitamine C et popularis ut suus.
+  fruit.papaya:
+    label: mango
+    summary: Frux maximus cum carne aurantiaca saturata.
+    info: '{"hint":"magnus fructus citrinus ex America tropicale","info":"Mango (Magnifera indica), quae originem suam ab India et Malaysia capere videtur, est arbor altissima cum foliis longis acutis."}'
+  fruit.passion_fruit:
+    label: passus fructus
+    summary: Frutescens ex America Meridionali originarius Passiflorae generis; cuirassum purpureo-rugosum habet interioraque ad abundantiam vitaminorum ac antioxydantium repleta.
+    info: '{"label":"passus fructus","summary":"Frutex tropicalis cum cuticula violacea rugosa et seminis aromatica substantia interiore."}'
+  fruit.peach:
+    label: persicum
+    summary: Frutices dulces cum pellice softique rubro-flavida.
+    info: Persicum pruna ex Sinis originatur et ibi immortalitatis symbolum est.
   fruit.pear:
     label: pyrea
     summary: Fructus lacrimae formam habens dulcis et teneris gustu.
     info: Pyrea est fructus malum communis pyri, propinquum pomorum genere. Tenera pulpa succosa et altus cellulose continet; centinae species exstant.
+  fruit.persimmon:
+    label: pomo
+    summary: Frux aurantiaca sanguineae simile cum suavitate mellifica.
+    info: |-
+      {"hint":"pomum similis pomus aurea","info":"Pomo japonicum est ex Sinu et Iaponia originale;
+      immaturum pomo acidulum atque tenax est,
+      maturum dulcissimum quasi mel.
+      Poma sunt repleta vitaminis A,C ac mineralibus.
+      In Japan tradidionaliter autumni fructus vocantur kakus."}
   fruit.pineapple:
     label: ananass
     summary: Fructus tropicalis cum corona spinosa et carne flava.
     info: Ananas originatur ex America Meridionali et iam colitur in zona tropicali totius orbis terrarum. Continet enzym bromelian, qui ad digestionem auxit.
+  fruit.plum:
+    label: pluma
+    summary: Frux rubro-viridis ad aquam igneam ac condiriem spectans.
+    info: Plumula (pruna domesticum) est fructus basis Europae centralis et fere ovatus purpurea parvulus. Aqua ardentium plumularia seu distillatum ex pruno utilisatur pro potu populari Bohemico-Slavicum. Conditurae de prunos sunt praetermissio tipicus autumnalis cum plusquam mille ducentis cultivaribus orbisque terracrum.
+  fruit.pomegranate:
+    label: malus punicus
+    summary: Frux rubens milia dulcium seminali habens.
+    info: Malus punicus (Punica granatum), originarius ex Asia media et regionibus mediterraneis est fructus ruber cum plurimis arillus transparens quae circa sexcenta continet semina dulcia. Est rich in antioxidants atque investigatur pro effectu suo super cor ac inflammationem.
+  fruit.quince:
+    label: quincus
+    summary: Durus flavus fructus cum pomo cognatus semper caliditer paratur.
+    info: Quinces sunt similis pomorum malus et persicae; cruda est durissima atque acidula. Semper cocti sumuntur ut membrillae confectio seu vinum quincefactum fiat.
+  fruit.rambutan:
+    label: rambotana
+    summary: Rubrum pilosum tropicum poma simile lycho.
+    info: Rambothanus (Nephelium lappaceum), qui ex Malaysia originatur et cuius nomen est ab 'rambut' quod capilli significat, rubra testa cum mollibus appendiciulis spinosis induta est. Pulpus clarus dulcisque similis Lychee fructui sunt, vitaminis acidoascorbico ferroque abundans.
+  fruit.raspberry:
+    label: strabōs
+    summary: Frūctu rubeus compositus; signatur summā temporīm āgricolæ.
+    info: |-
+      Strawberry (Fragaria × ananassa) est fructus compositus ex multis parvis carpellis cum nucleo interiore similiter structuratis constituta etiam Rubus genere adiecta specie Idaei rubri.
+      Pascitur aut sponte nata sunt horticulturae sub aestate vel autumnale tempore colligenda.
+      In eadem reperies vitaminum C acque K, magnesii elementum oxidantia atque antoxidans.
+  fruit.starfruit:
+    label: carambola
+    summary: Frutex flavo-tropicus qui formas stellaras creant cum secaret.
+    info: Carambolus (Averrhoa carambola) originatur ex Asia meridi et orientali. Cum transversim caeditur, efficit formam stellaris perfecte (unde nomen fructus stellae). Gustu acido-dulci gaudet atque abundans est vitaminis C.
   fruit.strawberry:
     label: fresa
     summary: Rubor cordifomis et succosa bacca.
     info: Fragara hortensis est fructus popularis ex familia Rosaceae. Est abundans in vitamine C et antioxidantibus; colligitur aestate et dulci odorata est.
+  fruit.tamarind:
+    label: Tamarindus
+    summary: Fructus brunneus leguminosus cum pulpe acida fundamentale coci nationes Thailandenses.
+    info: Tamarindus indicus originat ex Africa tropicali et nunc cultivatur per totum orbem tropicalem. Pulpus est acidulus dulcisque utilis ad condimenta como Pad Thay, salsa Worcestersirem atque chimichurrim Indicum. Nomen derivatum est ab lingua Arabica 'tamr al-hindi' quae signifi cat 'date Indiane'. Est copiosus acidis vinici is potassii , vitaminis B complexisque ferro.
+  fruit.tangerine:
+    label: poma citrina
+    summary: Parvum dulce circumscriptum cum cuticle laxa
+    info: '{"hint":"petit dulcis circumscriptus cum cuticle laxa","info":"Poma citrina mandarinensis est parva et faciliter eluca cytrina ex origine Sinica\r\\nEst symbolum anni novi Sinitici atque felicitatis\r\\nPomum natalis typicum Bohemiae\r\\N continet vitaminum C, antioxydantes ac flavenones.'
   fruit.watermelon:
     label: cucumis aquosus
     summary: Magnus fructus viridi-striatus cum carne rubra succulenta.

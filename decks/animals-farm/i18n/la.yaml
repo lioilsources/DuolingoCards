@@ -2,6 +2,38 @@ lang: la
 pivot: false
 title: Animalia domestica
 cards:
+  farm.alpaca:
+    label: alpacum
+    summary: Mens Camelo vicinus textile lanus.
+    info: Alpacon est species Camelidae parva et domesticata quae habitat montibus altis Peruviae. Lana eius una ex tenuissimis naturaliter textilibus mundo notatur esse tepes atque hypoallergicam cum filo cashmere minus densum comparatum. Duo sunt generatio animalium hujius speciei nomine Huancahuas pellice crispatam habentisque veluti Seriam.
+  farm.barn_cat:
+    label: felis agricola
+    summary: Cattus domesticus ad usum rusticum muribus et araneis inserviens.
+    info: Felis agricolae est catus qui habitat in ambiente rurale ubi micetes atque muscos venat. Hoc animalia granaria ac fruges ab herbivora protegit. Non tam societatem cum hominibus quaerunt quam gregales felines. In Aegypto felinae colabantur quoniam res publicas defendebant.
+  farm.beehive:
+    label: colonia Apis
+    summary: Structura lignea ad habitandum coloniam artificialiter Api melifica.
+    info: |-
+      Coloniaria est habitatum artificiale pro coloniculis apiaribus et substituit cavitates arborum ubi vivunt apes saepe silvestres.
+      Typica una colonia habebit inter quinquaginta milia atque octogintamilia apis.
+      Custodia annua ex productione melli circa viginti vel triginta chili gramorum fit.
+      Apes sunt pollinatores principales; tertius alimentus orbis terrae ab eorum polletione dependet.
+  farm.boar:
+    label: sus
+    summary: Domestica vel autem ferus porcus mascula.
+    info: Sus est masculus non castratus domesticus sive silvestris porci speciei Sus scrofa. In agris sunt suses coluntur ad multiplicandum et semen eorum utilisatur artificialiter per inseminationem. Ferus suillus magnas incisors habet atque defensio aggressiva potest esse.
+  farm.calf:
+    label: vitulus
+    summary: Vitulī sunt iuvēntus vaccae usque ad annōs unum.
+    info: |-
+      Vitulus est puerperium bovis ab āge nativitate donec nutriatur aut annum compleat.
+      Post partum vitulus cito ambulare discitur et mater sua fortiter cupiditates nutritivas habet.
+      Ii vituli qui lacte productio causa educantur brevissime a genetricibus separantur.
+      Carnis vitulinæ utilis multarum Europae tabernicula praeclaritas reputatur.
+  farm.carp:
+    label: carp
+    summary: Large freshwater fish traditionally eaten at Christmas.
+    info: The common carp is among the largest pond-farmed species raised across Europe since medieval times when it was domesticated especially by Bohemian fishermen who developed extensive aquaculture systems like those found today near Trebon which remain some key examples globally for their scale.
   farm.chicken:
     label: pullum
     summary: Aves domestica ovans.
@@ -10,6 +42,14 @@ cards:
     label: bos
     summary: Magnus animal domesticum lactis datur.
     info: Bos domesticus est ad lacticem et carnem cultus. Est unus ex fontibus ciborum primariis in toto mundo; vacca singula quotidie 20–30 litros lactis reddit.
+  farm.deer:
+    label: cervus domesticatus
+    summary: Jelens cervat veluti dainos domestici sunt ad carnem et cornua.
+    info: |-
+      Cervus aut daenus est animalia quae apud Cechiam domariuntur in ageris sive ferarum pecuarioribus ut carnes silvestris fiat.
+      Daine minor esse solet quam cerves silvanus atque ramorum particularium forma notatur.
+      Cornua annuatim decidere solent ac rursus crescere possunt.
+      Carne ex agricolis cerviculis sanitas altius comparata cum carne bovis.
   farm.donkey:
     label: asinus
     summary: Spotify ambulans gregarius cum passu stabile.
@@ -18,19 +58,196 @@ cards:
     label: anser
     summary: Aqua aves cum rostro plano, qui in agris colitur.
     info: Anser domesticus est volucris gallinaceus ad carnem et ova colitur. Bene natat gratias pelliculis inter digitos et sonum characteristicum emittit.
+  farm.emu:
+    label: dromaī
+    summary: Chovi dromoī sunt ad olēum, carnem et cuticulam.
+    info: In Australia domestici Dromaei cibariuntur ut carōs edant, ex grasse eorum facta est ūtilis ac potens contra inflammationes esse; hanc res usatur tum antiquā medĭcina tum novissimâ. Emūrum cultura transmisit sese Americae borealis atque Europæ. Hoc animalia curiosiora sunt hominibus accedentia.
+  farm.farm_shrimp:
+    label: litopenaus
+    summary: Marina penaeida intensim culta in stagnis littoralibus.
+    info: "Penaeus litopenaeus est species marinus frequentissime cultura per orbem terrarum;\nsunt praecipue ad orientalis Asia et America Latina; \ncultura intensiva controversia propter effectuum sylvarum mangrove;\nes alter maximus productus aquaticus post thunnus."
+  farm.foal:
+    label: pulpa
+    summary: Ponies iugis annus unum et pedes statit hora primo.
+    info: Pulpula est equidae puerulus qui anno suo primario vivat vitam suam incipiens. In horaribus primariis ex genitore orta ambulant superpedem et lactare coeperunt matris seu patriginas. Pedi longiores sunt corpore comparati sed cum maturitate breviorem formam capient.
+  farm.freshwater_crayfish:
+    label: astax
+    summary: Crustacea dulcis aquae culta pro cibum.
+    info: Palaemon fluviatilis fuerit copiosissimus Bohemiae sed fere exterminatus est per morbum rachium et pollutionem aquaticam. Hodie in agricolis particularibus cultura fit. Est indicator puritate aque; habitat tantum in currentibus pulchratis. In saeculo nono decima commercium palamonum ex Boethia ad Galliam atque Germaniam magnificum negotiatu erat.
+  farm.garden_snail:
+    label: helix hortensis
+    summary: Magnus terrestri molluscus comestibilis in culinaria Gallica ut escaragō cinctus.
+    info: |-
+      Helix hortensīs est maximus Europae terra habitantis helicidēs.
+      In Gallia cum nomine 'escarga' sumptuositās reputatur et comeditur.
+      Hiems perditam operculum pellicularem clostrumque efficit; apud Gallas cultūra ejusdem generis locutur.
   farm.goat:
     label: capra
     summary: Animalia domestica cornuta dare lactem sapidum.
     info: Capra domesticus cibatur propter lac, carnem et lanam. Est adaptiva et potest subsistere super varietate vegetationis, inclusa arida regiones.
+  farm.goat_dairy:
+    label: caprina lactea
+    summary: Ovis domesticata ad lac factumque ex eo casei et yogurtis.
+    info: |-
+      Capra domestica est animalia agraria quae iam plus quam decem milibus annorum culturae sunt subiecta atque inter saecularia praestantissima numeratur.
+      Lactes caprinus multas nutritiones continet ac facile digestibilior estquam vacuinus; idoneus hominibus cum intollerentia galactosae.
+      Ex latte caprino coagitari possunt celebres formagi ut Chevrensis vel Phete seu Halumi.
+      Pervicaces autem sunt Capreae necnon accommodabiles montanisque saxosis herbari poterunt.
+  farm.goose:
+    label: anser domesticus
+    summary: Magnus avis gallinaceae domesticatus ad carnem et plumum.
+    info: Ansere domesticæ ex silvestribus ante plusquam triennium milia mutantur sunt. Fuerunt inter primos animalia domesticata; apud Romam anses Capitolii custodirent urbem nocturnis horis. Capiantur non modo pro carne sed etiam hepatis foenum atque pinnas plumi.
+  farm.guinea_fowl:
+    label: numidā
+    summary: Afrikana avis domesticata ad carnem et ut custos contra colubros.
+    info: |-
+      Helmutatus numides ex Africa proveniet ubi silvester habitat inter acaciatas praterias.
+      In agris valuit sicut naturaliter vigilans animal quod clamore suo notificet de serpibus, praedorum aut hominum ignotorum adventus.
+      Pennae eius grises sunt cum maculis albis caputque nudum rubro-ceruleum habet.
+      Carnes eam similique gustu avium venaticarum.
+  farm.guinea_pig_farm:
+    label: porcel·lus domesticus
+    summary: Porculus domesticus est animal cavitum ad carnem velut petis in Americâ meridionali.
+    info: |-
+      Domesticatus ab Indigenīs per plus de tria milia annōrum ut fons carnis ex montibus Anthis proveniens nunc traditicō comeditur apud Peruviam et Columbiam sub nomine 'cuy'.
+      In Europā atque America Septentrionali hoc genus frequenter tenetur sicut amiculum puerile.
+  farm.highland_cattle:
+    label: bos Scotticus montanus
+    summary: Scoti bovis cum crinita rufus pellice et cornibus magnis.
+    info: Scotticae Highlands sunt antiquum genus Bos Tauri domesticatus habitantis in arduis locis Alpium Scotorum. Caracteristica eorum vestimentum est prolixum atque rubiginosum ut defendat ab umore ac frigido. Habet fortitudinem maioram nec morborum facilem affectio comparatum ad alia genera. Carnes eius dulcis esse dicitur aromaticaque multoque grata substituta carnis vaccae communiter usitata.
   farm.horse:
     label: caballus
     summary: Fortis animal domesticum ad equestram exercitationem et laboris usum destinatum.
     info: Caballus domesticus mille annorum esset necessarius ad transportandum, agricolam et pugnam. Hodie quoque educatur ad lusum atque recreationem.
+  farm.lamb:
+    label: agnellus
+    summary: Agnelli sunt iuvenilia ovis ad unum annorum spatium vitæ pertinentia et innocentiae vel Christi typice symbolum.
+    info: Agnellus est parva ovis qui nascitur cum pellice lanoso atque pascat diebus primis suae vitae anno primo vivendi. In Christianismo agnum pro innocentiæ ac Domini Agni repraesentat significationem habet. Carō ex agnis comedenda multarum culinariarum omnibus gustatur.
+  farm.llama:
+    label: lāma
+    summary: Meridianus Camelidae mammalis educatus causa lanis et ut animal onerarium.
+    info: Camelīdae familiae genus Lamas sunt domati ab Indōs ante plusquam quinque milia annos America meridiōnaliter. Hoc animale erat principium bestiae vecticula per regna Anthis montanum gentes; potest usque ad triginta percenta ponderis corporali sustine. Lanis eius valde pretiantur cēleri caloris insulare virtute. Cum sit minacens aut irascitur, notissime sputatur.
+  farm.mule:
+    label: mulus
+    summary: Hybrid sterile equi et asini cum mirabili constantia atque fortitudine.
+    info: Mulus est hybrida filius quinis magnae feminae animalium genere Equus appellatae et assinum masculum; inversus hybrids nomen habet hemasinus. Steriliter generatur sed robustissimus esse videtur nec minus durabilis quam potentior species eorum duarum. Terrenam directionem bene comprehendit ac prudentius agit comparatus ad caballum; rarius timorem sentit aut pani cam redditur.
+  farm.mussel:
+    label: mutilus
+    summary: Edibilis marinus musculus culturus super funiculis aquae marinæ.
+    info: |-
+      Mutilus comestibilis est molluscus frequentiter coltus in agricolis longo litorum Europæ Atlanticorum.
+      Culturatur super funniculis vel rotulis inter fluxum et refluxum marinis.
+      Filtra aquam atque cibus ecologicè benignus cum parva carbonica vestigio est.
+      Participat multis cibis traditionales ut Belgicae 'moules frittes'.
+  farm.ostrich:
+    label: Struthio domesticum
+    summary: Ovis struthionis carnibus plumulis et cuticula.
+    info: Strutius est celerrimus ambulans bipes atque agri eandam creant ad carnes, pelles ac pennas utilisatas. Carō eius rubra similiter bovina sed cum minore grassum et colesterolum quantitate comparatur; cutica valde pretiosa inter opificia luxuriosos reputatur. Pennae strutii tradidionaliter ut capite ornare veluti casquettae aut insignia usura sunt.
+  farm.ox:
+    label: bos
+    summary: Castratus bos domesticus historicum animale tractile agriculturae principaliter utilis.
+    info: Boss est masculus Bos tauri castrate et ad laborandum destinatum. Milles annorum fuit fundamentalis instrumentum tractorium agricola mundique usitatissimum. Propter fortitudinem suam atque mansuetudinem plus terrae aravit quam equi apud primordia agriculture. In hodierna agrocolatura substitutus est tractoribus sed nondum desinit esse utiles pauperioribus regionibus.
+  farm.oyster:
+    label: mollusca bissextilia collocata
+    summary: Molluscum marinium culturale suspenditur aut retegatur aquae littoralis.
+    info: Suspenduntur vel retentantur ostreæ in litore aquatico super funiculos seu gittera et ad maturationem triennium usque quinquiennis consummat. Filtrat amnia ac auxilium praebet purificantibus systematis marinorum. Comedit cruda sive cocta ut cibaria rara. Ostreas nymphaea sunt genitoris perlularum naturaliter.
+  farm.peacock:
+    label: paoninus domesticus
+    summary: Paonis masculus cum cauda irisata et longa cortica ornamentaliter colitur apud villas.
+    info: |-
+      Indigenae paoni indici sunt ab antiquitate ad ornamentum culti aves.
+      Masculus suam plumulatricem exornatam super centena pennaria spectacolare pandit ut femellas attrectet.
+      Praecipua eius cantio est sonora ac penetrativa.
+      In India paonus nationalis avis atque pulchritudo symbolus habetur.
+  farm.pheasant:
+    label: phasianus domesticus
+    summary: Pavo coturnix domestica et ad venationem emissi.
+    info: In Bohemia Phasianus vulgaris est domesticatus et saepe emitteratur naturae causa caedis. Originat ex Asia; per Romanos Europa traductus est. Machus conspicuum coloratum ac longum caudam habet; femella fuscans inconspicua est.
   farm.pig:
     label: sus
     summary: Animalia domestica roseum cum rhinocerio cartilagineo.
     info: Sus est animalia domestica intelligens, quod creari potest ad carnem producendam. Est omnivorum et complexas res memorare potest.
+  farm.pigeon_farm:
+    label: columba domesticus
+    summary: Pigeon domesticus cultus ad carnem comedariam vel cursas volatiles.
+    info: |-
+      Colomba domestica est columba saxosa qui per selectio artificialis evexit centenas species geneticas.
+      Pulmo iuvenilium colombarum dicitur squabs et multarum gentium ciborum luxuries reputatur.
+      Volucres curriculares sunt electae velocitati maximae; exempla recordaria superant rapiditate quinquecentos pedes horario.
+      Traditione aviculturae longissima habent Bohemia.
+  farm.piglet:
+    label: porcellus
+    summary: Porcellos sunt pueri sus scrofa domestica.
+    info: Porceuli sunt infantes suorum primis hebdomadibus vitae. Nati porceuli parvī sunt sed cito crescunt. Feminae sūsque decem ad duodecim pueros unico partu procreant. Porcele intellegere possunt; investigationes monstraverunt suis esse tantam intelligentiam quantum canes.
+  farm.pony:
+    label: equus pony
+    summary: Equidae parva et vigorosa equorum generis ad usum infantem equestram apta.
+    info: Equus pony est genus minimae speciei equinae non altior quam pedibus quattuordecim cum duobus digitis manuum vel centimetris cxcvii apud vertebra lumbalis ultima sita. Equus Shetlandicus ex insulis Shetlandicis proveniens omnium minimus est inter horrea huius modi; fortiter constitutus sunt ut hostilibus conditionibus resistant. Ad montandum pueros sicut animalia equitativa utilis sunt tamquam item ad tractationem rerum subterranearum.
+  farm.quail:
+    label: coturnix
+    summary: Parus ex Coturnixo gallinaceae familiae ad ovum et carnem culturam destinatus.
+    info: Coturnix coturnix est species avium domestica intensim cultura ut ova atque carnes producat. Femella quotidianiter ponit, cum ovaria multarum culinariorum sunt delicata. Maturat celerter nec non sex hebdomadibus incipiens poni. In Iaponiis quoque cantare docentur, ubi huius generis collocatio vetustissima trado est.
+  farm.rabbit:
+    label: cuniculus
+    summary: Cuniculus domesticus nutritus ad carnem aut pellem seu ut animalia domestica.
+    info: Cuniculi sunt ex Oryctolaugis europaei mediae aevo domesticati et plus quam quinquaginta genera recognita habent variante magnitudine, colore atque genere pilorum. Femella unum annuum parturitiones cum quatru decim usque duodecem neonatos potest parire.
+  farm.ram:
+    label: aegram
+    summary: Adultis masculus ovi cum magnisque cornibus spiralemente tortis.
+    info: Aegrāmen est adultīs mascŭlus ōvis domesticē. Habet conspicua cornuba quae adspirant et sunt longiora quam apud femellas vel non habent at all; namque capra nōndum āgerunt aut parva tantum. In tempore rutationis autumnali masculi pugnant inter se frontibus ac cernubus directe collidens ut dominarentur.
+  farm.rooster:
+    label: gallina
+    summary: Maturum masculinum Gallus gallus domesticus cum crine colorato et cauda.
+    info: Cock est vir dominicae pullarii atque notabilis pro plumo vario, rostro ornatus ac cincinnulo. Cantare ad tempora matutinas seu nocturnas pertinet ut signet suam dominationem locorum sibi tributa. In Bohemia gallina custodiae pictura videtur esse symbolum vigilantis animae; apud Sinenses unus duodecem animalium Zodiaci nominatum.
+  farm.salmon:
+    label: salmon
+    summary: Mare clupea ad flumina migrans ut ponat ovula et multo colitur.
+    info: Salmus vulgaris est pisces mare otiosus qui nascuntur in mari sed revertuntur ad sua patria fluminia ut pontificet. Habeatur facultas iter paterne flumen per navigatione campo magneticum tellure et olfactum. Colitura salmones Norvegia atque Scotia sunt inter magnae aquaculture industriae.
   farm.sheep:
     label: ovi
     summary: Animal lanigerum domesticum, quod dat lanam et lac.
     info: Ovis domestica est animal, quod pro lana, lacte et carne colitur. In gregibus habitat et unum ex primis animantibus historicis domesticatis est.
+  farm.sheepdog:
+    label: canis pastor
+    summary: Canis ad pastorem et gregum curam instructus.
+    info: Pastor canis britannicus est plerique grex pastoralium cunicularius qui pecora per aspectum atque silentiosos praecipitavit gestire potest. Ad intelligentissimos canineas genera pertinet. Capacitas laborandi hereditaria est sed exercebat ab infante esse debet. Saltatoria pastoralia sunt populariter ludi Angliae.
+  farm.silkworm:
+    label: vermiculus sericum
+    summary: Vermiculus vermis seri producentis naturalem sarcinam.
+    info: |-
+      Ver miculus sericus est larva bombycis Mori domesticata apud Sinas plusquam quinquaginta milia annorum abhinc.
+      Sua cocca ex filamento super novacentos metro longum fontem naturaliter originatam sarcinas praebet.
+      Tam pretiosus fuit ut Sina saecula secreta sua custodiret rigide;
+      ex hoc commercio via Serica nomine appellatur.
+  farm.sow:
+    label: sus scrobis
+    summary: Adult femella porci domestici et mater pullorum.
+    info: Sus domesticus est animalia omnívora ex familia Suidae quod habitat inter silvas palustrales atque tropicales Asiae, Africae et Americae Centralis. Susi sunt animantia socialia cum structura societatis complexa; masculi adultes solitarii vivunt dum feminæ convivia formare possint.
+  farm.tilapia:
+    label: tilapia
+    summary: Rex tropica dulceacqua saepe colitur per orbem terrarum.
+    info: |-
+      Nilotica tilapia est una ex piscibus aquae dulcis carissime culta mundo totius genere; annuatim tonnarum millia producuntur.
+      Originatur ab Nilo et lacubus Africae sed nunc omnium continentuum cultura patet.
+      Est robusta species cum cito incremento nec multas esca requirit.
+      Secunda post cyprinidem frequentissima piscina mundi.
+  farm.trout:
+    label: truta
+    summary: Salmonidae species culta et silvestris.
+    info: |-
+      Truita iridescens ex America Septentrionali originatur atque ad Europam transfertur ut piscis culturales sit.
+       Truita fluviatilis europaea est specie indigena quae aquas puras ac currentes habitat.
+       Utraque sunt quaerentur propter ludi piscariae et culinarium pretium.
+       Cultura troutarum Bohemia tradicionaliter exercetur, praecipue montanisque regionibus.
+  farm.turkey:
+    label: meles
+    summary: Magnus avis domesticatus ad carnem destinatur et typicus festivae gratiarum actio Americanæ est.
+    info: Numida mexicana ab Aztecis ante plusquam duo milia annis domesticata fuit apud Mexico originariam suam regionem habens. Gallus cum insigni plicula capitis potest cauda plumatim veluti umbraculum patere ostendere. In America Septentrionali cibus traditionaliter consumptus die Gratias agendi est; numidice totius orbis secundus maximè diffusa species avium domesticatarum est.
+  farm.water_buffalo:
+    label: bufalus
+    summary: Domesticatus bubalinus utilis pro arationem et transportes terrarum ricinis Asiaticae.
+    info: Bufali sunt animalia agraria multa saecula ad culturam camporum de risi ac transportationem usura domestica facta ex Bubalino aquatico derivata. Lac eorum grassetius est quam vaccae lactis atque ad Mozzarella Di Bufalo fabricandam impingitur. In India hoc genus sanctitatem inter religionis Hinduismus habet.
+  farm.yak:
+    label: bos
+    summary: Domesticus Bos grunniens altiplanis Tibeti vivit et lacte, carne atque trahendo utilem est.
+    info: Yak domesticus est speciei Bovini altales superiore Tibe occupantis inter elevatas regiones 3 000–5 500 metrum. Est fundamentum economiae Tibetanae propter multitudinem utilium rerum quas praebet sicut lac, carnem pellem aut vires tractivas. Pellis eius valde tenera ac tepida reputatur.

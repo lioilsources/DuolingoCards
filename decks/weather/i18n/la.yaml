@@ -2,14 +2,141 @@ lang: la
 pivot: false
 title: Tempus
 cards:
+  weather.aurora:
+    label: Aurora
+    summary: Phoenomenon naturaliter lumine causatum ab vento solari intra magneto-sphaeram.
+    info: Aurorae Boreales et Australis sunt phaenomenon luminarium quod fit cum particula solaribus electris interactant atmosphere nostram creantes coloratas laminae virides, purpureas atque rubras. Maxime conspicua est ad regiones polares ut Norvegia, Islandia, Canada vel Antarctica. Indigenae Americae hanc spectaculum pro spiritus antestatorum putaverunt.
+  weather.avalanche:
+    label: avalanche
+    summary: Massa nix et glacie cadens de collis.
+    info: Avalancha est motus celer sanguis nivalem per declivity montium. Periculosissimae sunt avalanches pulvis nivi qui velocitatem superant tricentum kilometra horam. In Alpis medium centena quinquaginta homines annuo interfiunt.
+  weather.blizzard:
+    label: tempestas nivea
+    summary: Intensa tempestas nigra mixta densaque nix ac fluctu aeris ad minimam visibilitem.
+    info: Tempestas nivea est fenomenum nivale intensum quod coniunctio nebulosae pluviae et ventoris fortis sit. Causat prope nullam visibilitatem (albus effluxus), altas cumulosque nives. Historice tempestates niviales milia homines necaverunt; exemplar notabile est Tempestas Nivea Anni MDCCCLXXXVIII Americae Novoromanae ubi Nova Anglia sub centesimo trecento millimetrismo pondere frigidae humeravit.
+  weather.breezy:
+    label: brevis auricula
+    summary: Aureola mitis refrescat diem tepidum.
+    info: '{"hint":"ventus lenis et dulcis","info":"Ventulus brevis est ventus moderatus cum velocitate inter sexpedes ac undecim metra pro secunda (Befaurti gradus tertius vel quartus).\nPone folia, capillos atque parietas leves movere facit. \Naturam caloris per sudorem evaporationem mitigat physiologiciter. \Scala Befaurotica annuo millesimo octingentesimo sexto anno ad duodecimum grades aerum distinetur; brevis aura tertiua aut quarta sunt."}'
+  weather.clear:
+    label: claritas
+    summary: Caelo omnino purgo sine uno solo nuvola.
+    info: Claritas est conditio meteorologicum cum nimbo veluti minore quam octava pars caeli operata sit. Clarus dies fortissimum radiatum solare permittere et optima observationes astronomicae habere potest. Noctu sub claro cælum irradiatio calida magis intensa fit nec non temperaturas rapidius decrescunt.
   weather.cloudy:
     label: nubilum
     summary: Caelum tectum densis nubibus et sine sole directo.
     info: Nubes sunt visibilia aggregata ex minutulis guttulis aquae vel crystallorum glaciei. Praetereat 60% telluris caelus semper tegitur nubilibus.
+  weather.cold:
+    label: hiems
+    summary: Frigitas extrema cum gradibus multo infra puncti congelation.
+    info: Extremum frigiditas fit cum aer Arcticus intrat latitudines temperatas. Frigida naturaliter mensurata minima super terram est −89 °C ad statione Vostock apud Antarctica. Corporis animalium respondet frigiō per vasorum angustation et tremorem.
+  weather.dew:
+    label: rosm
+    summary: Aquilia guttulae per noxem gelida.
+    info: Ros est aquae condensata ex aeris super superficies frigidas nocte tranquilla. Formatur cum temperatura superficialis cadat infra punctum rugosus. Est fons importanti aquarum plantis et animalibus aridalium regionum; pastores desertorum Atacam habent retes ad colligendum matutinam ros.
+  weather.drizzle:
+    label: mistum
+    summary: Pluviola tenuissima de minutis gutticuli.
+    info: Mistum est pluvia ex guttulis minime parvis minusquam millimetro semis etiam non e convexitiva nimbostratulo sed ab humilibus stratis formandam. Est commune apud climata oceanica ut Britanniae Magnae aut aquilana Galli.
+  weather.drought:
+    label: siccit
+    summary: Longior absentia precipitatio causans penuriam aque.
+    info: Siccitas est status meteorologicus cum deficit longi terminis pluviarum et nivium. Causatur per defectum aquae ad fruges crescere necnon pro ignibus incendendi.
+  weather.dust_storm:
+    label: tempestas pulveris
+    summary: Murus pulveris impellens velox aurora in locis exsiccatos.
+    info: '{"hint":"grandis pulvis et nubes siccitatis moti per regiones desertas","info":"Tempestas pulveris fit cum fortis aura elevat finullos terrae particulas ad aerem\nIn Africa saharaea tempestatibus nomina datur Harmatanus\nEx africa saharica panniculus reguliter transmittitur super Atlanticum atque America pervenietur\nInvestigationes ostendunt eius effectum in Silvanam Amazonensem\nTurbines e U.S.A., quod ''Bull''s Eye'' appellatum est anno tricesimo secundi millesimique saeculi ecologicam catastropham medius occidentalem causavit."}'
+  weather.flood:
+    label: inunda
+    summary: Excessus aquae de rivorum litore ad loca siccina.
+    info: Inundatio fit ex pluviis nimphis vel frigido nivem aut ruptura dikearum. Inondationes sunt calamitates naturales praecox expensivas mundo per totam historiam. Anno MCMXCVII et MM II inundationes Bohemiae milia nummos damnumque decenas mortuos effecerunt.
   weather.foggy:
     label: nebulōsus
     summary: Spissus nubes tellureus visibilitatem minuit.
     info: Nebula est nubes ad terrae superficiem appensa ex gutticulis aquae composita. Oritur cum altis umoris gradibus et visibilitatem sub unum kilometrum minuit.
+  weather.freezing:
+    label: frigor
+    summary: Temperaturas inferiores ad punctum solidificationis quod causet congelationem aque.
+    info: |-
+      {"hint":"temperatura sub zero gradus Celsius; omnia glacie concreta","info":"Frigo contingit cum temperaturae sunt infra zerum Graduum Celci ubi aqua fit ghiacium.
+      Biològice periclitat plantas et geliditas causat accidentia viaria.
+      Maximi frigores Bohemiae saepissime Ianuario fiunt (minimum historicum plusquam minus quadraginta duo Gradi Celii anno millesimo nongentesimo nonagesimo secundo apud Livtinoviciam)."}
+  weather.frost_flowers:
+    label: flores glacieles
+    summary: Pulcra cristallorum glacialium forma super frigidas superficies.
+    info: Flores glacieles sunt formationes crystallinae natale ex congelatione humidi super superficies valde frigidas. In mari Arctico formantur intricati pattern crystallici de glio. Sunt visualiter mirabilis pulcher et frequentia obiecta photographiae naturalistica.
+  weather.frosty:
+    label: morosus mane
+    summary: Superficies rimi; cristallinae lamellae plantas ac terrain tegunt.
+    info: 'Rime formatur cum temperatura superficiei descendit infra punctum congelationis et humiditas aeris crystallizatur. Formant mirabiles ornamenta foliis, vitrisque atque terrae superfaciebus. Differt ab glacie vel frigore gelido: rima est vapor aquae solidificatus ex atmosphaera, glacies autem est rosarum coagulatio.'
+  weather.gloomy:
+    label: nubes
+    summary: Tenebricosum ac densa nebula cum triste clima.
+    info: Nubilum tempus pro suam tenebrosum caelum et luce attenuatam cum frigido aut pluvioso aeris genere notatur. Adhibetur ad melancoliam atque autumni temporale referri. SADS (Dispositio affectiva saeclorum), quae hiems solari penuria causatur, huiusmodi climatum effectibus afficitur.
+  weather.hailing:
+    label: hyalis
+    summary: Precipitatia granularum glaciei quae agricolatur ac vehicula laedere potest.
+    info: Hyalis est precipitatio formata ex granulis glaciei cretae in nubibus tempestatum. Granula hyalica generantur quando gutture aquae iter vice transit frigidam et caldam partem nubes. Potent esse diametro superiore ad decimetre duo centimetra atque damnum graviter causare agri culturae, automobilium vel tegulorum.
+  weather.haze:
+    label: halo
+    summary: Diminitur visibilitas per pulverulentos materiales seu industriales emissiones.
+    info: Halo est diminuta transparentia atmospherica causata pulvisculo vel fumis aut micris partículis aeriosulis. Differt ab nube quae ex guttulis aquatis constat dum halo e solidis sive liquidis aeriosis fit.
+  weather.heat_lightning:
+    label: fulmen calidus
+    summary: Fulgura remotae tormenta sine audibili tonitu.
+    info: Boltones calidos sunt fulgures procul distantis tempestatis quorum tonitus non auditur ex magnitudine distantiæ. Nomen fallax est et non refert ad aliquam specificum genus fulminis causatum caloribus corporalium. Audimus tantummodo fulmina ab usque decimâ novissima milliaria; longius recedentia silent.
+  weather.heat_shimmer:
+    label: miragus
+    summary: Phantom lucis interfaciei tepelentis cum illusiones oculorum.
+    info: Mirago est phaenomenon opticum causatum refractione luminis per aerem calidum ascendens super superficies teples utque asphalti vel desertus. Aer calidus habet minorem densitatem quam frigidior et radii lumini flexura patantur ad normale visio perturbatur. Hoc fenestra falsae paludis videtur esse via calorica aut fata Morgana quod complexius miragium ex inversionibus thermalibus ortum.
+  weather.heatwave:
+    label: calor
+    summary: Tempus diuturnum excessiva feracitatis aeris.
+    info: Caloris aestivus est tempore longe superante calorem summum saezonalem et periculosum sibi similem generare potest. Europaeana calorium unda anno MMIII plures quam septimum milia mortuum causavit atque praecipue senioribus infantulis ac infirmis nocuit.
+  weather.hot:
+    label: calores
+    summary: Tepore excessivum generat incommodum et risces sanitatis.
+    info: Calor extremitas est phaenomenon meteorologicum cum temperaturis multo superiore medio saeclorum. Cum humido coniunctus potest causare apoplexiam caloris periculosam vitae. In Boemia tempora aestiva excedunt annum gradus Celsius tricesimum octavum.
+  weather.humid:
+    label: humiditas
+    summary: Aera satiata aqueo fumo creans sensus caloris atque oppressionis.
+    info: Humiditas mensurat quantitatem vaporis aquae in aerem atmosphaerico. Humiditates relativas ad centum percent condensant hydorem cum saturatur sit et transgreditur limites normales.
+  weather.hurricane:
+    label: Magnus Tempestas
+    summary: Cycloidis Tropicalis Forte Cum Ventorum Velocitas Super Dua Centenas Viginta Milias Horae.
+    info: "{\"hint\":\"tempestas magnifica cum ventis spiralibus circa ocularum quietem\",\"info\":\"Tempestat Magnus est cycloides tropicalis Atlanticus et Pacificus orientalis cum velocitate aerium superiore ad ducentos viginti milias horae.\nItem appellatus typhoon (Pacificus occidentalis vel circulus Indicus). \nPotentia tempestatis Magna comparatur decimis partibus bombardarum atomicarum diebus.\nFortissimi tempestates Magne attingunt quintam categoriam cum rapiditate aerium trans quingenties milliariorum per horas.\"}"
+  weather.ice_storm:
+    label: glacialis tempestas
+    summary: Glacies cadens siccus respicere cuncta subtilem laminam transparentis gelerii.
+    info: Siccus pluvia cum glacie fit quando calidior aer super frigidum stratum causat imbrem qui statim congelatur et omnia crassa transparente glacie tegitur.
+  weather.icy:
+    label: glacies
+    summary: '{"summ":"Pericolosus glacies qui adhærebit ad superficiēs et faciat eas lubricās."}'
+    info: '{"inf": "Glacies periculosus fit congelatione guttularum pluviae vel fusionis nivis super superficies frigidas\nEst una ex maximè insidiosis hiemalem circumstantia transvecturium \nSliternitas glacie causatur lamina minima aquae liquidæ subter eam \nSalarum aut arenarum spargimenta mitigat pericula slidendi"}'
+  weather.lightning:
+    label: fulmen
+    summary: Electrical discharge between clouds-to-ground.
+    info: Lightning is caused by an electric current when charge differences within thundercloud reach critical levels. It travels at about one-third speed light's velocity on Earth where approximately hundred strikes occur every second globally.
+  weather.misty:
+    label: caliginositas
+    summary: Parva visibiliter ex subtili brume aut luce nebulosa.
+    info: Caelestium condicio est cum vapor aquæ prope terram coagulatur et creantur nubes dilutus vel fumosus nebulae. Hoc differt ab espesso caligine eo quod visibilitas limitetur sed non infra unius milliaris spatium.
+  weather.monsoon:
+    label: monsōnums
+    summary: Mutatio temporalis ventorum qui abundantia pluviae praebet.
+    info: Monsōnum est phānomenon climatīcum causatum mutatu aeris inter mari et terram per annūm. Monsōni Indici et Pakisti circa septuaginta ad novēnti percentum pluviorum annualium dant ab Iunius usque Septembri. Circiter septigentae miliōnes hominibus agricolae sunt dependentes ex isto meteorismo.
+  weather.muggy:
+    label: calore et humido
+    summary: Aer calorosum ac humidum causat sensim suffocationis.
+    info: Calor et humido est combinatio altitudinis caloris cum altae umiditate relativa. Alta uminitas impedit sudorem exhalare ut corpus non refrigeret efficax modo.
+  weather.overcast:
+    label: nebulus
+    summary: Caelo completo grise isdem tecto sine directo sole.
+    info: Nebulus plenus occurrit cum nubilitas sit 7/8 vel 8/8. Lux est diffusa et umbras non generat. In depressione depressiva geographicam dependentia affecta (DSG), deficit solis partem gravissimam gerit. Therapia luminis lux diurnum simulare videtur necnon auxilium praestatur.
+  weather.partly_cloudy:
+    label: partitus
+    summary: Sky partly covered with clouds alternating sunlight.
+    info: Partly cloudy is defined by cloud cover between three-eighths to five-eighths according to weather standards. It includes cumulus clouds that develop during warmer parts of day.
   weather.rainbow:
     label: arcus
     summary: Colore coloratum caeli post pluviam cum solem splendet.
@@ -18,6 +145,25 @@ cards:
     label: pluvia
     summary: Ex nubibus cadunt guttulae aquae ut ploviam.
     info: Pluvia ex condensatione vaporis aquae in nubibus originatur. Est necessaria ad implectionem fluminum, lacuum et reservatarum fontium potabilis aquae; media velocitas pluviis est circa 9 metrorum per secundam.
+  weather.sandstorm:
+    label: tempestatibus arenariis
+    summary: Tempestas arenaria est murus ex sable ac pulveri motu per fortes vires e regionibus aridior.
+    info: Sic mutatio climaticus potest causare tempestates arenarias cum fortissimo ventis qui elevant magnam quantitatem pulvis et arena. Haboo sunt species particularis talem procellarum frequentium inter deserta sahelicana atque peninsulam arabiam; tales habent potentem effectum super villas quae possunt esse sepultae vel ad aeris respirationes perturbatas.
+  weather.shower:
+    label: pluviō brevī
+    summary: Plūvia celer ac densa e nuānis convēctiōniis oriens.
+    info: '{"label":"nimbus","summary":"Pluvius brevis et intensus ex nube convectiva."}'
+  weather.sleet:
+    label: glaciale imber
+    summary: Mixtio imbres ac nive; partim fusa granula frigida.
+    info: Siccus pluvia vel glacies cadit cum nives incipiat fundi dum transit per calidam aeris stratum et non tota resolvatur. Hic fenomenum superficies subtilem gelerium operitur quod est gravis viatoribus atque automobilistae.
+  weather.slush:
+    label: Nivis Slups
+    summary: Partialis fusa nix mixta cum aquae strata hibernale crassa
+    info: |-
+      Slusps est cum temperatura paulatime crescit super frigorem gelationis et nix coepit fundere
+      Est valde glabrum atque periculosum ut ambulatores itaque motrices vehicula
+      durante viaductibus causatur hydroplanatio automatico ac decrementum adherentiae rotarum
   weather.snowy:
     label: Nix
     summary: Ex nubibus cadunt albi cristalli nivis.
@@ -30,6 +176,34 @@ cards:
     label: serenum
     summary: Caelum clarum cum sole splendente, sine nubibus.
     info: Tempus serenum occurrit quando nubes non impediunt radium solare. Sol lux et calorem necessarios pro vitam terrae praebet.
+  weather.sunrise:
+    label: aurora
+    summary: Instantia qua Sol ascendat super lineam horizontalem ad initium diei.
+    info: Aurora est momentus cum disco solis transire per orbem rationem geographicum. Colores eius sunt causati dispersione luminis secundum Legem Rayleight; propterea aurorae saepius rubra vel rosea videantur. In regionibus polaribus dies et noctes polares frequentia occurriunt dum tempore specifico anni.
+  weather.sunset:
+    label: occasus solar
+    summary: Instantia quando Sol interit infra lineam horizontalem fine die.
+    info: Solis occasus est dies momentum ubi Sol subire discit ad horizontem. Paletta colorum (aurantius, ruber et violaceus) causatur lumine solari diffuso per atmosphere; pulcherrimi tamen sunt post eruptiones vulcanicas cum cinere amplificat colores.
+  weather.thunderstorm:
+    label: tempesta
+    summary: Phenomenon atmospheric intensum cum fulgore tonitrui pluviae ventique.
+    info: Tempestas nascitur inter cumulo-nubes magnae quae altitudinem superant decimum kilometer. Fulmen est defectus electro-statica et ignavum calorem aeris usque ad trigesima milia graduum Celsius intra fractionem secundorum. Tonitru sunt soni expansio rapido caloriferentium.
+  weather.tornado:
+    label: tempetum
+    summary: Columna destructiva aeris gyrantis ab nube ad terrain.
+    info: Tornado est columna aeris veloci iteratae ex tempestate quae terram contingit. Velocitas venti potest superare 500km/h. Maxime frequentia sunt in America Septentrionalis 'Allium' tornado (Kansio, Oklahomo, Texasio). In Boemia etiam sunt, sed rari; fortissimum tornado Bohemiam meridionalem anno 2021 affecvit.
+  weather.typhoon:
+    label: typhon
+    summary: Cyclonus tropicalis cum vento veloci super CCLXII kilometer per horam.
+    info: Typhoon est unus tempestas magnus inter Philippinas, Sinam et Iaponiam circa regionem illa. In mediocri anno Philippine is insula afficitur ab annuo viginti typhonis. Typhon Ninna anni MCMLXXV causavit inundationem gravis in Sina, quae vitales plusquam CCXXIX milia homines abstulit.
+  weather.waterspout:
+    label: spiramen aquaticum
+    summary: Columna revolvens aquae connectens mare aut lac tum idcirco cum nuvola.
+    info: Aquae spiramenta sunt columna aeris circumfluentium super superficie aquarum. Periculosus tempestivus spiret ex nube pluvialique genitum est et minor clara dies spireta cum nimbi cumulate formatur.
+  weather.whiteout:
+    label: alba noctes
+    summary: Status borealis procellae dum nix omnem contrastum intercludit.
+    info: Albus exstinguo contingit cum tempestas nivea et reflectio nivis causant caelum atque terram confluere ut unum album spatium fiat; hanc conditionem nullus visibilitas est nec orientatio potest esse. Hic status mortaliter periculosus est in regionibus polaribus aut montanis ubi aviatoria possunt disoriēntari ac refractionem horizondis amittere.
   weather.windy:
     label: ventosus
     summary: Fortis aeris motus arbores flectens et folia ferens.

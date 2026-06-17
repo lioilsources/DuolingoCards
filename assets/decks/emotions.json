@@ -663,6 +663,552 @@
         "vi": "Thanh thảnh là trạng thái cân bằng tinh thần và thể chất. Nó làm chậm nhịp tim, tăng cường hơi thở sâu và giúp tư duy rõ ràng cũng như ra quyết định tốt.",
         "zh-CN": "平静是一种心理与身体平衡的状态。它会减缓心跳、加深呼吸，并有助于清晰思考和做出良好决策。"
       }
+    },
+    {
+      "key": "emotion.bored",
+      "image": "emotion.bored.png",
+      "label": {
+        "cs": "nuda"
+      },
+      "summary": {
+        "cs": "Pocit nezájmu a prázdnoty bez podnětů k zapojení."
+      },
+      "info": {
+        "cs": "Nuda je negativní emocionální stav způsobený absencí podnětů nebo smysluplné aktivity.\nMůže vést k hledání nových zážitků nebo k tvůrčímu myšlení.\nZ evolučního pohledu motivuje k hledání příležitostí.\nVýzkumy ukazují, že chronická nuda zvyšuje riziko deprese.\n"
+      }
+    },
+    {
+      "key": "emotion.confused",
+      "image": "emotion.confused.png",
+      "label": {
+        "cs": "zmatenost"
+      },
+      "summary": {
+        "cs": "Pocit nejistoty, kdy nerozumíme situaci nebo informaci."
+      },
+      "info": {
+        "cs": "Zmatenost nastane, když nám chybí kontext nebo znalosti k pochopení situace.\nJe přirozenou součástí učení; kognitivní disonance stimuluje hledání odpovědí.\nNa tváři se projevuje nakloněním hlavy a svraštěním čela.\nZmatenost v komunikaci může způsobit nedorozumění; klíčem je ptát se.\n"
+      }
+    },
+    {
+      "key": "emotion.disgusted",
+      "image": "emotion.disgusted.png",
+      "label": {
+        "cs": "znechucení"
+      },
+      "summary": {
+        "cs": "Silný pocit odporu při setkání s nepříjemným podnětem."
+      },
+      "info": {
+        "cs": "Znechucení je základní emoce chránící nás před škodlivými věcmi (toxickým jídlem, nemocemi).\nEvoluční funkce: odrazuje od konzumace pokazených potravin.\nProjevuje se svraštěním nosu, vyplazením jazyka a charakteristickým výrazem.\nVyvolává ho i morálně nechutné chování; funguje jako sociální regulátor.\n"
+      }
+    },
+    {
+      "key": "emotion.embarrassed",
+      "image": "emotion.embarrassed.png",
+      "label": {
+        "cs": "zahanbení"
+      },
+      "summary": {
+        "cs": "Nepříjemný pocit studu v sociální situaci."
+      },
+      "info": {
+        "cs": "Zahanbení je sociální emoce vznikající, když věříme, že jsme porušili společenské normy.\nProjevuje se zarudnutím (blush), odvrácením pohledu a zhroucenou polohou.\nMá sociální funkci: signalizuje ostatním naše povědomí o normách a ochotu se jich držet.\nVýzkumy ukazují, že lidé, kteří se snadno stydí, jsou vnímáni jako důvěryhodnější.\n"
+      }
+    },
+    {
+      "key": "emotion.proud",
+      "image": "emotion.proud.png",
+      "label": {
+        "cs": "hrdost"
+      },
+      "summary": {
+        "cs": "Pozitivní pocit uspokojení z vlastních úspěchů nebo skupiny."
+      },
+      "info": {
+        "cs": "Hrdost je emoce spojena s pocitem úspěchu nebo příslušnosti k něčemu hodnotnému.\nVzpřímená póza, zvednutá hlava a rozšírená hruď jsou universálními projevy hrdosti.\nMůže být zdravá (motivuje k rozvoji) nebo nezdravá (arogance).\nV hinduistickém pojetí je hrdost (ahamkara) překážkou duchovního rozvoje.\n"
+      }
+    },
+    {
+      "key": "emotion.jealous",
+      "image": "emotion.jealous.png",
+      "label": {
+        "cs": "závist"
+      },
+      "summary": {
+        "cs": "Negativní emoce plynoucí ze srovnávání s ostatními."
+      },
+      "info": {
+        "cs": "Závist je emoce vznikající, když vnímáme, že jiný má něco, co bychom chtěli my.\nRůzní se od žárlivosti: závist se týká cizích výhod, žárlivost ohrožení vlastního vztahu.\nMůže motivovat k lepšímu výkonu nebo způsobit resentiment.\nV kulturách celého světa je zelená barva symbolem závisti.\n"
+      }
+    },
+    {
+      "key": "emotion.lonely",
+      "image": "emotion.lonely.png",
+      "label": {
+        "cs": "osamělost"
+      },
+      "summary": {
+        "cs": "Bolestivý pocit chybějícího kontaktu s ostatními."
+      },
+      "info": {
+        "cs": "Osamělost je subjektivní pocit izolace nezávislý na skutečném počtu lidí v okolí.\nJe silným prediktorem zdravotních problémů; chronická osamělost zkracuje život.\nMozek reaguje na sociální bolest stejně jako na fyzickou bolest.\nV moderní době je epidemie osamělosti vážným veřejnozdravotním problémem.\n"
+      }
+    },
+    {
+      "key": "emotion.grateful",
+      "image": "emotion.grateful.png",
+      "label": {
+        "cs": "vděčnost"
+      },
+      "summary": {
+        "cs": "Hřejivý pocit ocenění toho dobrého, co máme nebo dostáváme."
+      },
+      "info": {
+        "cs": "Vděčnost je pozitivní emoce vznikající, když si uvědomujeme dobro v našem životě.\nVýzkumy v pozitivní psychologii ukazují, že pravidelné projevování vděčnosti zvyšuje spokojenost.\nAktivuje centra odměny v mozku podobně jako fyzické potěšení.\nDenní psaní vděčnostního deníku je jednou z nejúčinnějších technik zlepšení nálady.\n"
+      }
+    },
+    {
+      "key": "emotion.hopeful",
+      "image": "emotion.hopeful.png",
+      "label": {
+        "cs": "naděje"
+      },
+      "summary": {
+        "cs": "Optimistický pocit, že budoucnost bude dobrá."
+      },
+      "info": {
+        "cs": "Naděje je emoce kombinující touhu po lepší budoucnosti a víru v její dosažitelnost.\nJe klíčovým faktorem odolnosti (resilience) v obtížných situacích.\nVýzkumy ukazují, že pacienti s vyšší nadějí se zotavují rychleji.\nEmile Durkheim zjistil, že nedostatek naděje je klíčovým faktorem suicidálního chování.\n"
+      }
+    },
+    {
+      "key": "emotion.worried",
+      "image": "emotion.worried.png",
+      "label": {
+        "cs": "starost"
+      },
+      "summary": {
+        "cs": "Opakované negativní myšlení o možných budoucích problémech."
+      },
+      "info": {
+        "cs": "Starost je kognitivní emocionální stav zaměřený na anticipaci možných hrozeb.\nMírná starost je adaptivní a motivuje k přípravě.\nChronická starost (úzkostná porucha) narušuje každodenní fungování.\nMindfulness a záměrné zastavení spirály starostí jsou účinnými technikami.\n"
+      }
+    },
+    {
+      "key": "emotion.frustrated",
+      "image": "emotion.frustrated.png",
+      "label": {
+        "cs": "frustrace"
+      },
+      "summary": {
+        "cs": "Pocit podráždění, když dosažení cíle naráží na překážky."
+      },
+      "info": {
+        "cs": "Frustrace je emoce vznikající, když jsou naše cíle blokovány překážkami.\nMůže vést ke konstruktivní akci (hledání alternativy) nebo ke destruktivní (agrese).\nFrustrationtheory (teorie frustrace-agrese) byla vlivnou psychologickou teorií 20. let 20. stol.\nFyzické projevy: zaťaté pěsti, zarudnutí, napětí svalů.\n"
+      }
+    },
+    {
+      "key": "emotion.relieved",
+      "image": "emotion.relieved.png",
+      "label": {
+        "cs": "úleva"
+      },
+      "summary": {
+        "cs": "Příjemný pocit uvolnění po odeznění napětí nebo ohrožení."
+      },
+      "info": {
+        "cs": "Úleva je emoce zažívaná po odeznění stresu, obavy nebo bolesti.\nProjevuje se hlubokým výdechem, uvolněním svalového napětí a pocitem lehkosti.\nJe evolučně důležitá; signalizuje, že hrozba pominula a lze relaxovat.\nVýzkumy mozku ukazují, že úleva aktivuje podobné oblasti jako odměna.\n"
+      }
+    },
+    {
+      "key": "emotion.amused",
+      "image": "emotion.amused.png",
+      "label": {
+        "cs": "pobavení"
+      },
+      "summary": {
+        "cs": "Lehký příjemný pocit zábavy nebo rozptýlení."
+      },
+      "info": {
+        "cs": "Pobavení je mírná pozitivní emoce vyvolaná něčím vtipným nebo zajímavým.\nLiší se od smíchu; smích je výsledek pobavení, ale ne každé pobavení způsobí smích.\nJe sociálně sdílená emoce; věci nám přijdou vtipnější, když je sdílíme s ostatními.\nVypovídá o inteligenci: smysl pro humor je spojen s rozpoznáváním nekonzistencí.\n"
+      }
+    },
+    {
+      "key": "emotion.nostalgic",
+      "image": "emotion.nostalgic.png",
+      "label": {
+        "cs": "nostalgie"
+      },
+      "summary": {
+        "cs": "Sladkotrpký pocit stesku po minulosti."
+      },
+      "info": {
+        "cs": "Nostalgie je emoce plná sladkotrpkosti; vzpomínka na minulost je příjemná, ale zároveň bolestivá.\nSlovo pochází z řeckého nostos (návrat domů) a algos (bolest).\nVýzkumy ukazují, že nostalgie zvyšuje sociální spojení a pocit smysluplnosti.\nBývá spouštěna vůněmi, hudbou nebo místy spojenými s minulostí.\n"
+      }
+    },
+    {
+      "key": "emotion.curious",
+      "image": "emotion.curious.png",
+      "label": {
+        "cs": "zvědavost"
+      },
+      "summary": {
+        "cs": "Touha po novém poznání a pochopení."
+      },
+      "info": {
+        "cs": "Zvědavost je motivační stav iniciující hledání nových informací a zkušeností.\nJe spojena s dopaminerovým systémem odměny; zvídavost doslova přináší potěšení.\nDůležitá pro vědecký pokrok a osobní rozvoj.\nDěti jsou přirozeně zvídavé; vzdělávací systémy mohou tuto vlastnost posilovat nebo potlačovat.\n"
+      }
+    },
+    {
+      "key": "emotion.confident",
+      "image": "emotion.confident.png",
+      "label": {
+        "cs": "sebevědomí"
+      },
+      "summary": {
+        "cs": "Víra ve vlastní schopnosti a hodnotu."
+      },
+      "info": {
+        "cs": "Sebevědomí je emocionální stav důvěry ve vlastní schopnosti a úsudek.\nVzpřímená póza, přímý oční kontakt a klidný hlas jsou projevy sebevědomí.\nAmy Cuddy (TED talk 2012) popularizovala mocenské pózy jako způsob zvyšování sebevědomí.\nMůže se budovat úspěchem v malých krocích a pozitivní zpětnou vazbou.\n"
+      }
+    },
+    {
+      "key": "emotion.anxious",
+      "image": "emotion.anxious.png",
+      "label": {
+        "cs": "úzkost"
+      },
+      "summary": {
+        "cs": "Nepříjemný pocit nervozity a obav z nejisté budoucnosti."
+      },
+      "info": {
+        "cs": "Úzkost je emoce anticipující ohrožení; mírná úzkost je adaptivní a zlepšuje výkon.\nProjevuje se fyzicky: bušení srdce, pocení, zkrácený dech, napjaté svaly.\nÚzkostná porucha je nejčastější duševní nemocí; postihuje přes 300 milionů lidí.\nKognitivně-behaviorální terapie (KBT) je nejúčinnější léčbou úzkostných poruch.\n"
+      }
+    },
+    {
+      "key": "emotion.cheerful",
+      "image": "emotion.cheerful.png",
+      "label": {
+        "cs": "radostnost"
+      },
+      "summary": {
+        "cs": "Příjemný stav veselé nálady a optimismu."
+      },
+      "info": {
+        "cs": "Radostnost je pozitivní emocionální stav charakteristický živým entuziasmem a dobrou náladou.\nSouvisí s extravertní osobností a vysokou mírou pozitivního afektu.\nJe nakažlivá; přítomnost radostného člověka zlepšuje náladu okolí.\nVýzkumy ukazují, že radostní lidé mají silnější imunitní systém.\n"
+      }
+    },
+    {
+      "key": "emotion.melancholy",
+      "image": "emotion.melancholy.png",
+      "label": {
+        "cs": "melancholie"
+      },
+      "summary": {
+        "cs": "Tichý smutek s prvky zamyšlenosti a krásy."
+      },
+      "info": {
+        "cs": "Melancholie je pensive emoce kombinující smutek, zamyšlenost a určitou sladkost.\nPochází z řeckého slova pro černou žluč (melan chole); starověcí lékaři ji připisovali přebytku černé žluče.\nNa rozdíl od deprese obsahuje estetický prvek; umění, hudba a literatura ji často oslavují.\nEvokuje ji podzimní příroda, stará fotografie nebo smutná hudba.\n"
+      }
+    },
+    {
+      "key": "emotion.disappointed",
+      "image": "emotion.disappointed.png",
+      "label": {
+        "cs": "zklamání"
+      },
+      "summary": {
+        "cs": "Nepříjemný pocit, když realita nesplní naše očekávání."
+      },
+      "info": {
+        "cs": "Zklamání vzniká, když výsledek neodpovídá očekávání nebo přání.\nJe silnější při vysoké investici emocí nebo úsilí.\nVýzkumy ukazují, že očekávání jsou klíčová; nižší očekávání vedou k menšímu zklamání.\nVzdělání emocionální inteligence zahrnuje práci s nepříjemnými emocemi jako zklamáním.\n"
+      }
+    },
+    {
+      "key": "emotion.content",
+      "image": "emotion.content.png",
+      "label": {
+        "cs": "spokojenost"
+      },
+      "summary": {
+        "cs": "Klidné, tichou spokojenost bez touhy po více."
+      },
+      "info": {
+        "cs": "Spokojenost je klidný pozitivní emocionální stav bez potřeby změny.\nLiší se od štěstí; spokojenost je klidná, zatímco štěstí je živé.\nBuddhismus klade spokojenost (santosa) jako klíčovou ctnost na cestě k osvícení.\nVýzkumy v psychologii blahobytu ukazují, že spokojenost je odolnější než euforie.\n"
+      }
+    },
+    {
+      "key": "emotion.nervous",
+      "image": "emotion.nervous.png",
+      "label": {
+        "cs": "nervozita"
+      },
+      "summary": {
+        "cs": "Mírná úzkost před nějakou událostí; motýli v žaludku."
+      },
+      "info": {
+        "cs": "Nervozita je mírný úzkostný stav typicky spojený s anticipací důležité události.\nFyziologicky se projevuje zvýšenou aktivitou sympatického nervového systému: bušení srdce, pocení.\nMírná nervozita zlepšuje výkon; příliš silná ho narušuje.\nTechnika přerámování nervozity na vzrušení (excitement reappraisal) je účinnou strategií.\n"
+      }
+    },
+    {
+      "key": "emotion.loving",
+      "image": "emotion.loving.png",
+      "label": {
+        "cs": "láska"
+      },
+      "summary": {
+        "cs": "Hluboký pocit náklonnosti a přilnutí k druhé osobě."
+      },
+      "info": {
+        "cs": "Láska je komplexní emoce kombinující náklonnost, péči, důvěru a intimitu.\nNeurochemicky je spojena s oxytocinem, dopaminem a serotoninem.\nHelen Fisher rozlišuje tři systémy: sexuální touhu, romantickou lásku a hlubší připoutání.\nJe universální emocí přítomnou ve všech kulturách, ačkoli její vyjadřování se liší.\n"
+      }
+    },
+    {
+      "key": "emotion.shocked",
+      "image": "emotion.shocked.png",
+      "label": {
+        "cs": "šok"
+      },
+      "summary": {
+        "cs": "Náhlé omráčení nečekanou informací nebo událostí."
+      },
+      "info": {
+        "cs": "Šok je intenzivní emoce vyvolaná neočekávanou, překvapivou nebo šokující informací.\nProjevuje se náhlým zamrznutím, otevřenými ústy a rozšířenými zornicemi.\nEvoluční funkce: zastavit aktivitu a zpracovat neočekávanou informaci.\nEmocionální šok (trauma) může mít dlouhodobé psychologické následky.\n"
+      }
+    },
+    {
+      "key": "emotion.determined",
+      "image": "emotion.determined.png",
+      "label": {
+        "cs": "odhodlání"
+      },
+      "summary": {
+        "cs": "Silný záměr dosáhnout cíle navzdory překážkám."
+      },
+      "info": {
+        "cs": "Odhodlání je motivační emocionální stav charakteristický soustředěným záměrem a vytrvalostí.\nProjevuje se zaťatými čelistmi, napnutým tělem a intenzivním pohledem.\nÚzce souvisí s pojmem grit (Angela Duckworth): kombinace vášně a vytrvalosti.\nVýzkumy ukazují, že odhodlání předpovídá úspěch lépe než inteligence.\n"
+      }
+    },
+    {
+      "key": "emotion.shy",
+      "image": "emotion.shy.png",
+      "label": {
+        "cs": "stydlivost"
+      },
+      "summary": {
+        "cs": "Nervózní zadržení v sociálních situacích, zejména s cizími lidmi."
+      },
+      "info": {
+        "cs": "Stydlivost je sociální emoce projevující se nervozitou a zadržením v přítomnosti cizích lidí.\nJe spojována s introvertní osobností, ale nejsou totéž.\nMírná stydlivost je normální; vážná forma (sociální fobie) narušuje fungování.\nKulturní vliv je silný: v některých kulturách je stydlivost ctností, v jiných překážkou.\n"
+      }
+    },
+    {
+      "key": "emotion.guilty",
+      "image": "emotion.guilty.png",
+      "label": {
+        "cs": "vina"
+      },
+      "summary": {
+        "cs": "Bolestivý pocit po porušení vlastních morálních zásad."
+      },
+      "info": {
+        "cs": "Vina je emoce vznikající po spáchání činu, který považujeme za špatný.\nLiší se od studu: vina se zaměřuje na konkrétní chování, stud na celou osobu.\nMá sociální funkci: motivuje k omluvě a nápravě, posiluje morální chování.\nNezdravá vina (přehnaná, neustálá) může vést k depresi.\n"
+      }
+    },
+    {
+      "key": "emotion.overwhelmed",
+      "image": "emotion.overwhelmed.png",
+      "label": {
+        "cs": "zahlcení"
+      },
+      "summary": {
+        "cs": "Pocit, kdy je na nás příliš mnoho najednou."
+      },
+      "info": {
+        "cs": "Zahlcení nastane, když požadavky překračují naše zdroje zvládání.\nProjevuje se kognitivním selháním (neschopnost myslet jasně), emočním výbuchem nebo zamrznutím.\nUrčitá míra zahlcení je zvládnutelná; chronické zahlcení vede k vyhoření.\nTime management, delegování a mindfulness jsou účinné strategie.\n"
+      }
+    },
+    {
+      "key": "emotion.peaceful",
+      "image": "emotion.peaceful.png",
+      "label": {
+        "cs": "klid"
+      },
+      "summary": {
+        "cs": "Hluboký pocit vnitřního míru a pohody."
+      },
+      "info": {
+        "cs": "Klid je pozitivní emocionální stav absence stresu a rušení.\nJe cílem meditačních praxí, zejména mindfulness a zenové meditace.\nAktivuje parasympatický nervový systém: snižuje tepovou frekvenci a krevní tlak.\nV ekopsychologii je pobyt v přírodě jedním z nejúčinnějších způsobů dosažení klidu.\n"
+      }
+    },
+    {
+      "key": "emotion.playful",
+      "image": "emotion.playful.png",
+      "label": {
+        "cs": "hravost"
+      },
+      "summary": {
+        "cs": "Živá nálada a touha po zábavě a hře."
+      },
+      "info": {
+        "cs": "Hravost je emocionální stav charakteristický radostí ze hry, humoru a experimentování.\nU dospělých je pozitivním prediktorem kreativity a dobré mentální pohody.\nEvoluční funkce: rozvíjení dovedností v bezpečném kontextu.\nStuart Brown (National Institute for Play) dokládá, že hra je nezbytná pro zdravé fungování v každém věku.\n"
+      }
+    },
+    {
+      "key": "emotion.serious",
+      "image": "emotion.serious.png",
+      "label": {
+        "cs": "vážnost"
+      },
+      "summary": {
+        "cs": "Klidný soubor bez humoru; soustředění na závažné věci."
+      },
+      "info": {
+        "cs": "Vážnost je emocionální postoj charakteristický soustředěností a absencí lehkovážnosti.\nJe důležitá v situacích vyžadujících soustředění a pečlivé uvažování.\nMůže být kulturně vnímaná různě; v některých kulturách je vážnost ctí, v jiných je spojena s nedostupností.\nRovnováha vážnosti a hravosti je klíčem k psychologické pružnosti.\n"
+      }
+    },
+    {
+      "key": "emotion.upset",
+      "image": "emotion.upset.png",
+      "label": {
+        "cs": "rozrušení"
+      },
+      "summary": {
+        "cs": "Nepříjemné emocionální rozrušení způsobené negativní událostí."
+      },
+      "info": {
+        "cs": "Rozrušení je obecný negativní emocionální stav kombinující smutek, vztek a úzkost.\nJe reakcí na nepříjemné události, zklamání nebo konflikt.\nFyziologicky aktivuje stresovou osu (HPA): zvyšuje kortizol.\nEmocionální regulace (dýchání, kognitivní přerámování) pomáhá rozrušení zvládnout.\n"
+      }
+    },
+    {
+      "key": "emotion.amazed",
+      "image": "emotion.amazed.png",
+      "label": {
+        "cs": "úžas"
+      },
+      "summary": {
+        "cs": "Silný pozitivní překvapivý pocit při setkání s něčím výjimečným."
+      },
+      "info": {
+        "cs": "Úžas (awe) je intenzivní emoce vyvolaná setkáním s něčím obrovským nebo ohromujícím.\nSnižuje pocit vlastní důležitosti (small self effect) a zvyšuje pocit propojení s okolím.\nVýzkumy ukazují, že úžas snižuje stres a zvyšuje prosociální chování.\nZažívá se v přírodě, při poslechu hudby nebo při pohledu na krásné umění.\n"
+      }
+    },
+    {
+      "key": "emotion.annoyed",
+      "image": "emotion.annoyed.png",
+      "label": {
+        "cs": "podrážděnost"
+      },
+      "summary": {
+        "cs": "Mírný pocit vzteku způsobený opakujícím se rušivým podnětem."
+      },
+      "info": {
+        "cs": "Podrážděnost je mírná negativní emoce vyvolaná opakujícím se rušivým podnětem.\nČasto předchází intenzivnějšímu vzteku.\nMůže být způsobena nedostatkem spánku, hladem nebo přetížením.\nPoznání vlastních spouštěčů je klíčem k lepší regulaci.\n"
+      }
+    },
+    {
+      "key": "emotion.delighted",
+      "image": "emotion.delighted.png",
+      "label": {
+        "cs": "nadšená radost"
+      },
+      "summary": {
+        "cs": "Silná radost z příjemné události nebo překvapení."
+      },
+      "info": {
+        "cs": "Nadšená radost je intenzivní pozitivní emoce vyvolaná příjemnými událostmi nebo překvapeními.\nJe silnější než základní radost a projevuje se dynamičtěji: skákáním, voláním, smíchem.\nEvoluční funkce: posiluje chování vedoucí k žádoucím výsledkům.\nJe sociálně nakažlivá; sdílená radost je více než dvojnásobná.\n"
+      }
+    },
+    {
+      "key": "emotion.hopeless",
+      "image": "emotion.hopeless.png",
+      "label": {
+        "cs": "beznaděj"
+      },
+      "summary": {
+        "cs": "Pocit, že budoucnost nemůže přinést nic dobrého."
+      },
+      "info": {
+        "cs": "Beznaděj je negativní emocionální stav charakteristický přesvědčením, že situace se nemůže zlepšit.\nJe klíčovým rysem deprese a faktorem suicidálního rizika.\nAarona Becka model kognitivní terapie identifikoval beznaděj jako jádrové přesvědčení.\nNáhled a kognitivní restrukturace jsou účinnými intervencemi.\n"
+      }
+    },
+    {
+      "key": "emotion.inspired",
+      "image": "emotion.inspired.png",
+      "label": {
+        "cs": "inspirace"
+      },
+      "summary": {
+        "cs": "Kreativní vzrušení motivující k tvůrčí akci."
+      },
+      "info": {
+        "cs": "Inspirace je emocionální stav charakteristický náhlou motivací a kreativním vzrušením.\nBývá spojena s epifanií nebo setkáním s výjimečným dílem nebo osobou.\nNeurovědecky aktivuje prefrontální kortex a centrum odměny.\nMůže být kultivována prostředím, pravidelným záměrným hledáním a otevřeností k novým zkušenostem.\n"
+      }
+    },
+    {
+      "key": "emotion.irritated",
+      "image": "emotion.irritated.png",
+      "label": {
+        "cs": "podrážděnost silnější"
+      },
+      "summary": {
+        "cs": "Stav zvýšené reaktivity na drobné podněty; hranice vzteku."
+      },
+      "info": {
+        "cs": "Podrážděnost je emocionální stav zvýšené reaktivity, kdy i drobné podněty vyvolávají silnější negativní reakci.\nMůže signalizovat vyčerpání, nedostatek spánku nebo nahromaděný stres.\nŽeny v pubertě, těhotenství nebo menopauze mohou zažívat hormonálně podmíněnou podrážděnost.\nRozlišování od skutečného vzteku pomáhá regulaci.\n"
+      }
+    },
+    {
+      "key": "emotion.joyful",
+      "image": "emotion.joyful.png",
+      "label": {
+        "cs": "radost"
+      },
+      "summary": {
+        "cs": "Intenzivní štěstí a exuberance; přeplňující pozitivní emoce."
+      },
+      "info": {
+        "cs": "Radost je intenzivní pozitivní emoce překypující štěstím.\nJe spojována s vnitřní motivací a flow stavem (Csikszentmihalyi).\nEvoluční funkce: posiluje sociální vazby a motivaci k prospěšnému chování.\nJe celospolečensky ceněnou emocí; v pozitivní psychologii je klíčovým ukazatelem pohody (well-being).\n"
+      }
+    },
+    {
+      "key": "emotion.miserable",
+      "image": "emotion.miserable.png",
+      "label": {
+        "cs": "trápení"
+      },
+      "summary": {
+        "cs": "Extrémní nevole a utrpení; nejhorší stupeň smutku."
+      },
+      "info": {
+        "cs": "Trápení je intenzivní negativní emocionální stav charakteristický hlubokou nevoli a utrpením.\nMůže být způsobeno fyzickou bolestí, emočním zraněním nebo ztrátou.\nChronické trápení je symptomem deprese.\nSociální podpora a profesionální pomoc jsou klíčové pro zvládání intenzivního trápení.\n"
+      }
+    },
+    {
+      "key": "emotion.optimistic",
+      "image": "emotion.optimistic.png",
+      "label": {
+        "cs": "optimismus"
+      },
+      "summary": {
+        "cs": "Sklon očekávat dobré výsledky a vidět pozitivní stránky."
+      },
+      "info": {
+        "cs": "Optimismus je kognitivně-emocionální styl charakteristický očekáváním pozitivních výsledků.\nMartin Seligman (pozitivní psychologie) identifikoval optimismus jako klíčový faktor odolnosti.\nOptimisté žijí déle, jsou zdravější a jsou úspěšnější.\nOptimismus lze naučit: vnímání výzev jako dočasných, specifických a ovlivnitelných.\n"
+      }
+    },
+    {
+      "key": "emotion.pessimistic",
+      "image": "emotion.pessimistic.png",
+      "label": {
+        "cs": "pesimismus"
+      },
+      "summary": {
+        "cs": "Sklon očekávat špatné výsledky a soustředit se na negativa."
+      },
+      "info": {
+        "cs": "Pesimismus je kognitivně-emocionální styl charakteristický očekáváním negativních výsledků.\nMírný pesimismus může být adaptivní; realistické hodnocení rizik pomáhá vyhýbat se nebezpečí.\nChronický pesimismus je spojen s vyšším rizikem deprese a horšími zdravotními výsledky.\nKognitivně-behaviorální terapie pomáhá pesimistický myšlenkový vzor měnit.\n"
+      }
     }
   ]
 }

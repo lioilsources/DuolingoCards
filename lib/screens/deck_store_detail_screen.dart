@@ -210,7 +210,6 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                       cost: _cost,
                       unlocking: _unlocking,
                       onUnlock: _unlock,
-                      onOpen: _openDeck,
                     ),
                   ],
                 ),
@@ -261,8 +260,7 @@ class _CardPreview extends StatelessWidget {
               child: card.image.isNotEmpty
                   ? Image.asset(
                       'decks/$slug/images/$style/${card.image}',
-                      height: 180,
-                      fit: BoxFit.cover,
+                      fit: BoxFit.contain,
                       errorBuilder: (_, __, ___) => _placeholder(),
                     )
                   : _placeholder(),
@@ -397,7 +395,6 @@ class _ActionButton extends StatelessWidget {
   final int cost;
   final bool unlocking;
   final VoidCallback onUnlock;
-  final VoidCallback onOpen;
 
   const _ActionButton({
     required this.tier,
@@ -405,16 +402,25 @@ class _ActionButton extends StatelessWidget {
     required this.cost,
     required this.unlocking,
     required this.onUnlock,
-    required this.onOpen,
   });
 
   @override
   Widget build(BuildContext context) {
     if (entitled || tier == 0) {
-      return FilledButton.icon(
-        onPressed: onOpen,
-        icon: const Icon(Icons.play_arrow),
-        label: Text(tier == 0 && !entitled ? 'Přidat a otevřít' : 'Otevřít'),
+      return Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(Icons.check_circle,
+              color: Theme.of(context).colorScheme.primary, size: 20),
+          const SizedBox(width: 6),
+          Text(
+            tier == 0 ? 'Zdarma' : 'Odemčeno',
+            style: TextStyle(
+              color: Theme.of(context).colorScheme.primary,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+        ],
       );
     }
     return FilledButton.tonal(

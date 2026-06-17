@@ -2,18 +2,122 @@ lang: vi
 pivot: false
 title: Chim chóc
 cards:
+  animal.albatross:
+    label: albatros
+    summary: Chim biển có cánh rộng nhất trong tất cả các loài chim.
+    info: Cánh của Albatros di cư có thể mở rộng hơn 3,5 mét – là kích thước lớn nhất trong giới chim hiện đại. Loài này dành phần lớn cuộc đời trên mặt nước và có khả năng bay hàng nghìn kilômét mà không cần hạ cánh. Chúng uống nước mặn và bài tiết muối qua tuyến xoang mũi.
+  animal.budgerigar:
+    label: andulka
+    summary: Chim bồ câu nhỏ màu sắc từ Úc, thú cưng phổ biến.
+    info: Andulka vlnkovaná đến từ vùng nội địa Australia, nơi chúng sống thành đàn lớn. Đây là loài chim nuôi phổ biến thứ hai thế giới sau vàng anh. Chim trống có thể bắt chước giọng người và học được hàng trăm từ.
+  animal.canary:
+    label: kanárek
+    summary: Con chim vàng nhỏ xinh có tiếng hót hay được nuôi làm thú cưng.
+    info: Chim nhái nhà đến từ quần đảo Canary và đã được thuần hóa vào thế kỷ 17. Màu vàng của chúng là kết quả của việc lai tạo; chim hoang dã thường mang màu xanh lá - nâu. Chim trống biết hót những giai điệu phức tạp; các cuộc thi hót của chim nhái trở thành hiện tượng toàn cầu. Trong lịch sử, chim nhái từng được dùng trong mỏ để phát hiện khí CO.
+  animal.cassowary:
+    label: kasuár
+    summary: Loài chim không biết bay nguy hiểm của Papua New Guinea có móng vuốt sắc nhọn.
+    info: Kasuár là loài chim to lớn không thể bay sinh sống ở Papua New Guinea và miền bắc Australia. Nó được coi là loài chim nguy hiểm nhất thế giới do những móng vuốt dài trên ngón chân trong có khả năng gây thương tích nghiêm trọng. Chiếc mũ xương cao trên đầu (cái casque) có lẽ giúp nó định hướng trong rừng rậm. Loài này đóng vai trò quan trọng trong việc phát tán hạt cây nhiệt đới.
+  animal.cockatoo:
+    label: kakadu
+    summary: Một loại bồ câu trắng có mào vàng đặc trưng đến từ châu Úc và châu Á.
+    info: Kakadu đầu vàng là một trong những loài vẹt nổi tiếng nhất thuộc họ Kakaduo. Mào vàng rực rỡ của nó dựng lên khi chúng bị kích động hoặc hoảng sợ. Chúng rất thông minh và có thể bắt chước giọng người. Trong điều kiện nuôi nhốt, chúng sống tới 80 năm và ở Australia được coi là sinh vật gây hại mùa màng.
+  animal.condor:
+    label: kondor
+    summary: Chim ăn xác lớn nhất ở Mỹ có đầu trần.
+    info: Kondor là loài chim bay lớn nhất thế giới về trọng lượng và chiều dài cánh. Đây là một loại cú; nó kiếm ăn bằng cách nuốt xác động vật có vú lớn và đóng vai trò quan trọng trong hệ sinh thái. Nó lướt trên các luồng nhiệt khổng lồ phía trên dãy núi Andes mà không cần đập cánh.
+  animal.crane:
+    label: jeřáb
+    summary: Loài chim di cư lớn được biết đến với các nghi lễ nhảy và tiếng hú mạnh mẽ.
+    info: Chim Jeřáb là một loài chim di cư to lớn, bay hàng nghìn kilômét mỗi năm. Loài này nổi tiếng nhờ những màn trình diễn nhảy đặc biệt khi chúng nhảy lên và dang rộng đôi cánh. Vào mùa thu và xuân, đàn chim Jeřáb di chuyển qua Cộng hòa Séc trong số lượng rất đông.
+  animal.crow:
+    label: vrána
+    summary: Chim đen thông minh thuộc họ Corvidae có khả năng giải quyết vấn đề.
+    info: Vrána là loài chim trong họ Krkavcovitých nổi tiếng với trí tuệ phi thường. Nó có thể nhận diện khuôn mặt con người, sử dụng công cụ và thực hiện các nhiệm vụ phức tạp. Chúng sống thành cặp hoặc nhóm nhỏ và là động vật ăn tạp.
+  animal.cuckoo:
+    label: chim cu
+    summary: Chim sinh sản kiểu ký sinh bằng cách đặt trứng vào tổ chim khác.
+    info: Chim cu thường sinh sản theo kiểu ký sinh trong tổ của các loài chim khác; chúng đẻ trứng vào tổ lạ và để chim nuôi dưỡng đó ấp nở và chăm sóc con non. Trứng chim cu sau khi nở sẽ đẩy những quả trứng hoặc con non còn lại ra khỏi tổ. Tiếng kêu hai âm tiết đặc trưng 'cu-cu' là biểu tượng cho sự đến của mùa xuân. Chim trống kêu tiếng 'cu', còn chim mái phát ra âm thanh rít.
+  animal.dove:
+    label: holub
+    summary: Đại bàng trắng là biểu tượng của hòa bình.
+    info: Con chim bồ câu trắng là biểu tượng quốc tế cho hòa bình từ thời cổ đại; trong Kinh Thánh, nó mang nhánh dương xỉ đến cho Noah. Trong Kitô giáo, nó tượng trưng cho Chúa Thánh Thần. Chim bồ câu nhà thực ra là giống chim bồ câu đá được thuần hóa; màu trắng xuất phát từ việc lai tạo. Việc thả chim bồ câu trắng thường xuyên là một phần của các nghi lễ và lễ kỷ niệm trên toàn thế giới.
+  animal.duck:
+    label: con ngan
+    summary: Chim nước có mỏ dẹp; con đực (ngạn trống) có đầu xanh.
+    info: Ngan hoang là loài ngan phổ biến nhất thế giới và tổ tiên của hầu hết các giống ngan nhà. Con đực (ngạn trống) có đặc điểm nổi bật với cái đầu bóng màu xanh lá cây, trong khi con cái thì có bộ lông nâu nhạt không gây chú ý. Đây là những con ngan gảy nước kiếm ăn bằng cách tìm thức ăn ở mặt nước chứ không bơi sâu xuống đáy. Ngan là một phần không thể thiếu trong ao hồ và dòng sông tại Cộng hòa Séc.
   animal.eagle:
     label: sếu
     summary: Chim ưng lớn với mỏ cong và thị lực sắc bén.
     info: Sếu đầu trắng là biểu tượng quốc gia của Hoa Kỳ và là một trong những loài chim ăn thịt lớn nhất tại Bắc Mỹ. Nó chủ yếu săn bắt cá, thường bắt cá trực tiếp từ mặt nước bằng móng vuốt sắc nhọn. Sải cánh của nó có thể lên tới hơn hai mét và trong tự nhiên có thể sống khoảng 20 năm.
+  animal.emu:
+    label: emu
+    summary: Chim khổng tôm thứ hai thế giới, chim không biết bay của Úc.
+    info: Emu là loài chim lớn thứ hai trên Trái Đất và chỉ có ở Úc. Nó không thể bay nhưng lại rất giỏi bơi và chạy nhanh. Con đực sẽ ngồi ấp trứng và chăm sóc con non trong khi con cái rời đi. Năm 1932, quân đội Australia đã thua trận gọi là 'Chiến tranh Emu' chống lại đàn chim này vì chúng đe dọa mùa màng.
+  animal.falcon:
+    label: diệc
+    summary: Loài chim săn mồi nhanh nhất thế giới khi bay lao xuống (trên 320 km/h).
+    info: Diệc thường di cư là loài động vật nhanh nhất trên Trái Đất; tốc độ của nó trong cú phóng có thể vượt quá 320 km/h. Nó có những chấm đen đặc trưng dưới mắt giúp giảm ánh sáng phản chiếu từ mặt trời. Con người đã săn bắn cùng với chúng hơn 2.000 năm; nghệ thuật săn bằng diệc được ghi vào danh sách Di sản Văn hóa phi vật thể của UNESCO. Tại Cộng hòa Séc, chúng làm tổ trên các tòa nhà cao tầng và đá núi.
   animal.flamingo:
     label: plameňák
     summary: Chim bơi lội màu hồng đứng trên một chân trong vùng nước nông.
     info: Màu sắc đặc trưng của plameňák růžový đến từ các carotenoid có trong tảo và động vật phù du mà chúng ăn. Ấu trùng sinh ra có màu xám trắng và chỉ dần chuyển màu theo thời gian. Mỏ cong của chúng hoạt động như một cái lọc – plameňák lọc thức ăn từ nước bằng cách cúi đầu xuống.
+  animal.goose:
+    label: husa
+    summary: Chim nước lớn di cư thành hình tam giác; làm tổ trên mặt đất.
+    info: Husa velká là tổ tiên hoang dã của các giống vịt nhà. Nó di cư trong đội hình đặc trưng dạng chữ V, nơi những con chim luân phiên nhau giữ vai trò dẫn đầu. Chúng rất bảo vệ lãnh thổ khi đẻ trứng và sẵn sàng chống lại kẻ thù để bảo vệ con non.
+  animal.hawk:
+    label: sếu
+    summary: Chim săn mồi nhanh nhẹn săn chim và thú trong rừng và đồng cỏ.
+    info: Sếu là một giống chim ăn thịt thuộc họ Sếu có khả năng săn mồi hiệu quả giữa thảm thực vật dày nhờ vào đôi cánh ngắn tròn và đuôi dài. Nó rất nhanh nhẹn và khéo léo; săn chim khác khi bay hoặc từ vị trí ẩn nấp. Chim cái thường to hơn đáng kể so với chim đực. Trong thể thao nuôi sếu, sếu được coi là loài chim săn mồi quý giá.
+  animal.heron:
+    label: volavka
+    summary: Chim nước cao đứng im để săn cá.
+    info: Đây là loài chim nước lớn nhất ở Trung Âu. Chim có thể đứng yên như tượng và chờ cho đến khi con mồi bơi lại gần rồi đột ngột tấn công bằng mỏ. Nó có khả năng nuốt trọn cả con cá hoặc nhái.
+  animal.hornbill:
+    label: zoborožec
+    summary: Chim nhiệt đới có mỏ to và sừng trên đầu.
+    info: Zoborožec là loài chim thuộc họ Bucerotidae với đặc điểm nổi bật là cái mỏ lớn kèm phần sừng xương (casque). Nó sống trong các khu rừng nhiệt đới của châu Phi và châu Á. Thay vì làm tổ dưới đất như nhiều loài khác, nó chọn những lỗ trống trong thân cây để sinh sản; con mái sẽ được con trống 'cô lập' bên trong suốt quá trình ấp trứng.
   animal.hummingbird:
     label: kolibřík
     summary: Chim nhỏ nhất thế giới có thể lơ lửng tại chỗ và bay lùi.
     info: Kolibřík rubínohrdlý là loài chim duy nhất thường xuyên làm tổ ở miền đông Bắc Mỹ. Nó vỗ cánh lên đến 53 lần mỗi giây, tạo ra âm thanh tí tách đặc trưng. Nó ăn mật hoa và côn trùng nhỏ; tim của nó đập đến 1.200 lần mỗi phút.
+  animal.ibis:
+    label: ibis
+    summary: Loài chim bơi lội có mỏ cong đặc trưng, được tôn kính như biểu tượng của thần Thoth ở Ai Cập cổ đại.
+    info: Ibis là một loài chim thuộc họ Threskiornithidae với cái mỏ dài và cong rõ rệt. Ibis linh thiêng từng được người Ai Cập cổ đại thờ phụng như hình ảnh hóa thân của vị thần Thoth. Loài này sinh sống thành đàn trong các khu vực ngập nước và cửa sông.
+  animal.kingfisher:
+    label: ledňáček
+    summary: Chim có lông nhiều màu sắc săn cá bằng cách nhào lộn từ trên không.
+    info: Ledňáček říční là một trong những loài chim đẹp nhất châu Âu với lưng xanh điện và ngực cam rực rỡ. Nó đậu trên cành cây phía trên mặt nước để quan sát con mồi rồi lao mình xuống bắt cá. Loài này được coi là chỉ số cho chất lượng nguồn nước sạch – nơi nào nó sinh sống thì nước ở đó khỏe mạnh.
+  animal.kookaburra:
+    label: ledňáček smějící se
+    summary: Một loài chim bói cá Australia có tiếng kêu như tiếng cười người.
+    info: Ledňáček smějící se (còn gọi là kookaburra) là một loài chim bói cá lớn của Úc nổi bật với tiếng gào to đặc trưng gợi nhớ đến tiếng cười con người. Loài này được coi là biểu tượng cho vùng bush ở Úc và tiếng kêu của nó thường báo hiệu mặt trời mọc hay lặn. Kookaburra săn các loại thằn lằn, rắn, gậm nhấm và côn trùng.
+  animal.lorikeet:
+    label: lori
+    summary: Chim công nhỏ màu sắc sặc sỡ ăn mật hoa và phấn hoa.
+    info: Lori là một loài chim công nhỏ ở khu vực Australasie có bộ lông phong phú nhất trong tất cả các loài chim công. Với chiếc lưỡi chải đặc biệt, nó thu hoạch mật và phấn từ những bông hoa nhiệt đới. Lori đóng vai trò quan trọng trong việc thụ phấn cho rừng nhiệt đới.
+  animal.lyrebird:
+    label: lyrochvost
+    summary: Chim Úc có khả năng bắt chước chính xác mọi âm thanh xung quanh.
+    info: 'Lyrochvost là loài chim đặc trưng của Úc nổi tiếng với kỹ năng mô phỏng gần như bất kỳ âm thanh nào từ môi trường sống của nó: máy cưa điện, âm thanh chụp ảnh, còi báo động ô tô hoặc tiếng kêu của các loài chim khác. Con đực thu hút con cái bằng cách trình diễn chiếc đuôi hình lược tỉ mỉ và những bản sao giọng tuyệt vời. Đây cũng là biểu tượng cho bang Victoria tại Úc.'
+  animal.macaw:
+    label: ara
+    summary: Chim cảnh đuôi dài nhiệt đới Nam Mỹ có lông màu sắc rực rỡ và mỏ khỏe.
+    info: Ara là một loài chim cảnh sống trong rừng mưa nhiệt đới của châu Mỹ với bộ lông rực rỡ nhất so với bất kỳ loài chim nào khác. Chúng sở hữu cái mỏ cong mạnh mẽ đủ để mở những hạt dẻ cứng. Ara thường sinh sống thành cặp đôi gắn bó suốt đời.
+  animal.magpie:
+    label: straka
+    summary: Chim đen-trắng với đuôi dài có ánh xanh cầu vồng.
+    info: Sẻ thường là loài chim thuộc họ Krkavec, có màu sắc đen trắng nổi bật và đuôi dài óng ánh xanh lục. Nó được truyền thuyết gắn liền hình ảnh trộm cắp các vật sáng bóng nhưng nghiên cứu không chứng minh điều này. Đây là một trong số ít loài chim biết nhận ra phản chiếu của mình trên gương.
+  animal.nightingale:
+    label: slavík
+    summary: Con chim nhỏ màu nâu hót một trong những giai điệu đẹp nhất của loài chim.
+    info: Chim sâu thường là con chim nhỏ có bộ lông nâu, đực biết hát một trong những bài ca phức tạp và tuyệt vời nhất của các loài chim. Nó hay cất tiếng vào ban đêm hoặc lúc bình minh – nguồn gốc cho cái tên của nó. Chim sâu là họ hàng xa với sẻ đỏ. Các nhà thơ từ Dante đến Keats đã tôn vinh giọng hót của chim sâu như biểu tượng cho tình yêu lãng mạn và tâm trạng buồn bã.
+  animal.ostrich:
+    label: đà điểu
+    summary: Chim chạy nhanh nhất thế giới, không biết bay; có thể đạt tốc độ lên đến 70 km/h.
+    info: Đà điểu là loài chim lớn và nặng nhất trên Trái Đất; con đực cao tới 2,7 mét và cân nặng hơn 150 kg. Nó không thể bay nhưng lại là động vật hai chân nhanh nhất thế giới với vận tốc vượt quá 70 km/h. Trứng của nó cũng to nhất trong tất cả các loại chim. Chim này thiếu ngón út ở chân sau; chỉ còn lại hai ngón.
   animal.owl:
     label: sova
     summary: Chim ẩn mình ban đêm có mắt tròn, bay thầm và thính tai tuyệt vời.
@@ -26,11 +130,79 @@ cards:
     label: páv
     summary: Con đực của loài công có đuôi hình quạt đầy màu sắc.
     info: Công xanh đến từ bán đảo Ấn Độ. Con đực (công) sẽ xòe đuôi của mình – thực chất là những lông phủ dài – thành hình quạt khi thu hút con cái. Màu sắc lấp lánh này không phải do sắc tố mà do hiện tượng khúc xạ ánh sáng trên cấu trúc vi mô của lông.
+  animal.pelican:
+    label: đà diểu
+    summary: Chim nước lớn với mỏ túi khổng lồ để câu cá.
+    info: Đà diểu là loài chim nước to có cái mỏ dạng túi đặc trưng được dùng như lưới bắt cá. Túi của chúng có thể chứa đến 13 lít nước; sau đó chúng đẩy nước ra ngoài và nuốt chửng con mồi. Chúng bay thành đội hình khí động học và tận dụng các luồng không khí tạo bởi sự thăng bằng lẫn nhau. Trong biểu tượng Kitô giáo, đà diểu là biểu tượng cho tình yêu hy sinh.
   animal.penguin:
     label: đà điểu
     summary: Chim không biết bay ở bán cầu nam, bơi rất giỏi.
     info: Đà điểu hoàng đế là loài đà điểu lớn nhất, cao hơn 1,1 mét. Nó sống ở Nam Cực và đẻ trứng trong điều kiện lạnh giá nhất – con đực ấp trứng bằng chân suốt mùa đông Nam Cực. Dưới nước, nó có thể bơi với tốc độ hơn 30 km/h.
+  animal.pheasant:
+    label: bažant
+    summary: Chim trĩ lớn và sặc sỡ; con đực có màu sắc nổi bật và đuôi dài.
+    info: Gà ri châu Á được du nhập vào châu Âu từ châu Á, nhưng ngày nay đã trở thành một phần tự nhiên của động vật hoang dã châu Âu. Con đực (gà trống) có bộ lông bắt mắt với thân xanh đồng và túi đỏ đặc trưng quanh mắt. Đây là loài chim săn bắn phổ biến nhất tại Cộng hòa Séc và đóng vai trò nền tảng trong truyền thống thợ săn. Gà ri làm tổ dưới đất ở những nơi cây cối rậm rạp.
+  animal.pigeon:
+    label: chim bồ câu
+    summary: Chim bồ thường thấy ở thành phố và vùng ngoại ô, có nguồn gốc từ chim bồ đá.
+    info: Chim bồ đá là tổ tiên của tất cả các giống chim bồ nhà và hoang dã trong đô thị. Đây là loài chim được thuần hóa đầu tiên; đã phục vụ con người như chim đưa thư suốt hàng nghìn năm. Chim này có khả năng định hướng phi thường và có thể tìm đường về nhà từ khoảng cách hàng trăm kilômét.
+  animal.puffin:
+    label: papuchalk
+    summary: Chim biển nhỏ có mỏ màu sắc như mỏ bồ câu.
+    info: Papuchalk phía Bắc là một loài chim biển nhỏ với cái mỏ nhiều màu giống mỏ bồ câu. Nó săn bằng cách nhảy xuống nước và bơi để đuổi theo cá; nó có thể mang hơn mười con cá cùng lúc trong miệng. Loài này làm tổ thành đàn trên các vách đá dựng đứng hoặc hang động. Đây cũng là biểu tượng nổi tiếng của Iceland và quần đảo Faroe.
+  animal.quail:
+    label: quyển
+    summary: Loài chim nhỏ sống kín đáo làm tổ dưới đất trong cỏ.
+    info: Quyển là loài chim nhỏ nhất thuộc họ Gà ở châu Âu. Nó sống rất kín đáo; chúng ta thường nghe tiếng kêu 'píp-píp' của nó nhiều hơn là nhìn thấy. Khác với các loại gà khác, quyển di cư và mùa đông qua châu Phi. Trứng của nó được coi là món ăn cao cấp.
+  animal.raven:
+    label: krkavec
+    summary: Chim đen thông minh to lớn với tiếng kêu đặc trưng.
+    info: Cú Mèo là loài chim lớn nhất trong họ Gà Rừng, dài hơn 60 cm và có khả năng phi thường về trí tuệ như lập kế hoạch cho tương lai, chơi đùa và tạo ra các mối quan hệ xã hội. Trong thần thoại của người phương Bắc (những con cú Odin Huginn và Muninn) cũng như Celtic, nó mang tính chất tâm linh cao cả. Tháp London được bảo vệ bởi một truyền thuyết rằng nếu những chú cú rời khỏi tháp thì triều đại sẽ sụp đổ.
+  animal.roadrunner:
+    label: cúc cu đất
+    summary: Vận động viên chạy nhanh của sa mạc Bắc Mỹ; biểu tượng trong phim hoạt hình.
+    info: Cúc cu đất (con đường chạy) là loài chim thuộc họ cúc cu thích đi bộ và chạy hơn bay. Nó có thể đạt tốc độ trên 30km/h và ăn rắn, thằn lằn, sâu bọ cũng như các thú nhỏ. Loài này đủ sức bắt và giết được con tắc kè. Nó nổi tiếng khi trở thành nhân vật chính trong loạt phim hoạt hình Road Runner và Chó Hoang.
+  animal.robin:
+    label: đỏ lông
+    summary: Chim nhỏ có ngực đỏ, biểu tượng Giáng sinh tại Anh.
+    info: Đỏ lông là loài chim nhỏ với ngực đặc trưng màu cam-cherry. Nó táo bạo nhưng không gây chú ý khi theo dõi các động vật đào đất trong vườn và nhặt những con dế bị lộ ra. Đây cũng là chim quốc gia của Vương quốc Anh và biểu tượng truyền thống cho dịp lễ Giáng sinh.
+  animal.seagull:
+    label: racek
+    summary: Chim biển kiếm ăn ven bờ và gần con người.
+    info: Racek stříbřitý là một trong những loài chim biển phổ biến nhất ở châu Âu. Nó thích nghi tốt, có khả năng săn mồi linh hoạt không chỉ dọc các bãi biển mà còn ở vùng nội địa gần hồ và sông. Loài này thông minh đến mức đôi khi nhớ được nơi nào con người cho chúng ăn.
+  animal.secretary_bird:
+    label: chim thư ký
+    summary: Chim săn mồi châu Phi chân dài giết rắn bằng cách đá.
+    info: Chim thư ký là loài chim săn mồi lớn sinh sống chủ yếu ở thảo nguyên mở của châu Phi. Nó tiêu diệt các con vật như rắn và gặm nhấm bằng những cú đá mạnh mẽ từ đôi chân nặng gấp ba lần trọng lượng cơ thể nó. Tên gọi của nó xuất phát từ những lông vũ dài trên đầu trông giống kiểu tóc xù phía sau tai của một người thư ký.
+  animal.sparrow:
+    label: vrbiec
+    summary: Con chim nhỏ màu nâu sống gần khu dân cư.
+    info: Vrbiec nhà là một trong những loài chim phổ biến nhất thế giới và luôn gắn bó với con người. Nó thường sinh sống ở các thành phố, làm tổ trong khe tường hoặc mái nhà. Trong vài thập kỷ gần đây, số lượng của nó tại các đô thị đã giảm mạnh đáng kể.
+  animal.spoonbill:
+    label: kolpík
+    summary: Một loài chim trắng đặc trưng với cái mỏ dẹt hình muỗng.
+    info: Chim Kolpík có liên quan đến họ Ibis nhưng dễ dàng phân biệt nhờ vào chiếc mỏ phẳng và cong như thìa. Khi kiếm ăn, nó di chuyển mỏ qua lại trong nước nông để tìm thức ăn. Loài này làm tổ thành đàn ở các khu vực cỏ ngập nước và bụi cây.
+  animal.stork:
+    label: đà diểu
+    summary: Chim trắng lớn với mỏ đỏ; được cho là mang lại trẻ em.
+    info: Đà diểu trắng là loài chim di cư làm tổ trên mái nhà và cột điện khắp châu Âu. Nó sống qua mùa đông ở châu Phi nhiệt đới và mỗi năm trở về cùng một tổ để tiếp tục xây dựng nó to hơn. Loài này tượng trưng cho mùa xuân và sự sinh sản; trong truyền thuyết dân gian, chúng được tin rằng sẽ mang trẻ con đến.
+  animal.swallow:
+    label: chim én
+    summary: Động vật ăn côn trùng trên không nhanh nhẹn với đuôi phân nhánh đặc trưng.
+    info: Chim én thường là loài chim di cư nghỉ đông ở châu Phi cận Sahara và làm tổ tại châu Âu. Nó là một vận động viên bay tuyệt vời; săn mồi hoàn toàn trong khi đang bay và có thể uống nước từ mặt hồ mà không cần hạ cánh. Chim én làm tổ dưới mái nhà hoặc trong chuồng trại nông nghiệp; trong văn hóa dân gian, sự xuất hiện của chim én mang lại may mắn cho gia đình. Loài này tượng trưng cho mùa xuân, sự trở về và lòng trung thành với quê hương.
+  animal.swan:
+    label: thiên nga
+    summary: Một loài chim nước trắng tinh tế và lớn, biểu tượng của vẻ đẹp và tình yêu lãng mạn.
+    info: Thiên nga to là loài chim bay lớn nhất ở châu Âu với cánh rộng hơn 2,4 mét. Nó đại diện cho sự xinh đẹp, tình yêu và lòng trung thành; các cặp đôi gắn bó suốt đời. Khi cảnh báo kẻ thù, chúng vô thức nhấc cổ lên và phồng lông ra. Trong truyện cổ tích của H.C. Andersen, thiên nga là hình ảnh chuyển hóa từ chú vịt xấu xí.
   animal.toucan:
     label: tukan
     summary: Chim nhiệt đới có mỏ to và nhiều màu sắc.
     info: Tukan to sống trong các rừng mưa nhiệt đới của Trung và Nam Mỹ. Mỏ nổi bật của nó dài hơn 20 cm nhưng rất nhẹ – được cấu tạo từ các khoang chứa khí. Mỏ giúp điều hòa nhiệt độ cơ thể, bẻ quả và làm tín hiệu thị giác cho các con tukan khác.
+  animal.woodpecker:
+    label: đà điểu
+    summary: Chim gõ vào vỏ cây để tìm côn trùng hoặc khoét hang.
+    info: |-
+      Đà điểu là loài chim thuộc họ Picidae thích nghi với việc啄击树木的坚硬喙和作为支撑点的硬尾巴。
+      它的舌头长度可达喙的三倍，用于从钻孔中取出幼虫。
+      它们通过敲击来交流并标记领地。
+      Gỗ lớn nhất ở châu Âu là Dryocopus martius.

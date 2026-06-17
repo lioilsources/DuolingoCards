@@ -6,19 +6,225 @@ cards:
     label: hormiga
     summary: Insecto social pequeño que vive en colonias.
     info: La hormiga es un insecto que forma grandes colonias con división del trabajo.
+  insect.antlion:
+    label: antlion
+    summary: La larva construye trampas excavadas en arenas secas donde captura hormigas.
+    info: |-
+      {"hint":"larva de insecto que excava trampas en forma de cono para cazar hormigas","info":"El antlion es una larva perteneciente a la familia Myrmeleontidae y cavita hoyos cóncavos en arena seca.
+      Cuando las hormigas resbalan hacia el fondo del agujero, son atrapadas por los mandíbulas del animal e inyectados con jugos digestivos;
+      el adulto tiene un aspecto semejante al de libélulas pero no muy llamativo,
+      y pasa sus días volando durante la noche; estas larvas pueden vivir varios años bajo tierra sin alimentarse."}
+  insect.aphid:
+    label: Cochina
+    summary: Insecto pequeño que absorbe savia encontrándose comúnmente en tallos de plantas; produce melaza dulce.
+    info: '{"hint":"pequeño insecto chupador de savia","info":"Las cochinillas son pequeños escarabajos que pertenecen al superorden Aphidoidea y se alimentan con la savia vegetal\nProducen una sustancia dulce llamada miel animal sobre la cual los hormigueros cuidan en intercambio por protección\nSe reproducen extremadamente rápido; un solo ejemplar femenino puede dar lugar durante el año a cientos de millones de descendientes\nSon plagas importantes para las culturas agrícolas","label":"cochina","summary":"Pequeño insecto chupa-savia encontrado en tallos"}'
+  insect.atlas_moth:
+    label: maraña atla
+    summary: Una de las mariposas más grandes del mundo cuyas alas tienen diseños similares a cabezas de serpent.
+    info: '{"hint":"una de las mariposas nocturnas más grandes del mundo","info":"La mora atlas es una de las mariposas nocturnas más grandes con un envergadura alar que puede alcanzar los 30 centímetros.\nLas puntas de sus alas están coloreadas para parecerse a la cabeza de serpientes y así ahuyentar depredadores.\nLos adultos carecen por completo de boca e incluso comiendo nada vivirán solo unos días como adultos.\nProviene de bosques tropicales de Asia sureste."}'
+  insect.bedbug:
+    label: chincha
+    summary: Parasito plana que chupa sangre por la noche; se oculta entre grietas de mobiliario.
+    info: La chinche común es un insecto plano y ovado perteneciente a la familia Cimicidae que está principalmente activa durante las noches. Muerde e ingiere sangre del huésped dormido. Se oculta en los resquicios de colchas, muebles y detrás de papel pintado.
   insect.bee:
     label: abeja
     summary: Insecto amarillo y negro que poliniza flores y produce miel.
     info: La abeja melífera es un insecto social que vive en colmenas y recolecta néctar de las plantas para producir miel.
+  insect.beetle:
+    label: escarabajo
+    summary: Los escarabajos forman parte del más numeroso orden entre todos aquellos clasificados como insectos.
+    info: Las escarabajos pertenecen al orden de los coleópteros y constituyen aproximadamente el 40% del número total de especies descritas en este grupo. Se caracterizan por tener alas duras llamadas élitros que cubren las verdaderas alas voladoras debajo de ellas. El ciervo escarabajo es la mayor especie europea dentro de esta categoría; además, sus machos poseen mandíbulas grandes con forma parecida a cuernos.
+  insect.bombardier_beetle:
+    label: strevlik delestelek
+    summary: Escarabajos que disparan vapores tóxicos calientes como medio de defensa.
+    info: El strelitz armado es un escarabajo de la subfamilia Carabeidos que defiende su vida con una estrategia única al mezclar dos sustancias químicas en el cuerpo posterior para crear una reacción explosiva cuya temperatura supera los 100 °C; este vapor altamente tóxico puede ser expulsado hasta mil veces por segundo y representa uno de los ejemplos más fascinantes del uso de veneno como forma natural de protección.
+  insect.bumblebee:
+    label: abejas
+    summary: Gran insecto peludo con un sonoro zumbarido que poliniza plantas especialmente en climas fríos.
+    info: La abeja es una gran avispa peluda del género Bombus y pariente de la colmena común.
   insect.butterfly:
     label: mariposa
     summary: Insecto volador con grandes alas coloridas.
     info: La mariposa es un insecto con dos pares de alas escamasadas, frecuentemente colores llamativos.
+  insect.caterpillar:
+    label: oruga
+    summary: Oruga de mariposas u otras polillas.
+    info: Una oruga es la lara de una mariposa o polilla y pasa gran parte de su vida comiendo hojas para acumular energía necesaria para transformarse en adulto. Algunas tienen colores llamativos que alertan sobre sus venenosos características ante depredadores.
+  insect.centipede:
+    label: ciempies
+    summary: Artrópodo multipedio con una sola pareja de extremidades por segmento corporal.
+    info: La ciempiés pertenece a la clase Chilópodos y tiene un solo par de piernas en cada segmento del cuerpo (no cien pies como sugiere su nombre). Es depredador rápido que cazan insectos, gusanos e otros pequeños animales con columna vertebral.
+  insect.cicada:
+    label: cigarra
+    summary: Insecto famoso por su canto ruidoso durante días calurosos.
+    info: '{"info":"Las cigarras son un tipo de insecto perteneciente al superorden Cicadoidea conocido por ser uno de los sons más fuertes entre todos los insectos\u00a8 Los machos producen el sonido con membranas especiales llamadas timbal en la parte posterior del cuerpo para llamar hembras\u00a8 Algunas especies en Estados Unidos tienen ciclos reproductivos cada diecisiete o trece años\u00a8 Las ninfas pasan varios años bajo tierra alimentándose de raíces."}'
+  insect.cockroach:
+    label: cucaracha
+    summary: Insecto rápido carnívoro nocturno muy resistente.
+    info: El cucarachón es uno de los insectos más resistentes del mundo y puede sobrevivir radiación o condiciones que matarían otros animales. Existen alrededor de 4 500 especies pero solo unos treinta habitan cerca de las personas.
+  insect.crane_fly:
+    label: tipulka
+    summary: Una gran avispa parecida al mosquito con patas extremadamente largas.
+    info: La tipúlk es un insecto con dos alas de la familia Tipulidae que visualmente parece una mosca gigante pero no muerde ni parasita.
+  insect.cricket:
+    label: grillo
+    summary: Insecto nocturno conocido por el canto estridente producido por los machos.
+    info: El grillo campo es un insecto nocturno del orden de los ortópteros que vive principalmente en la noche. Los machos emiten sonidos frotando sus alas entre sí para llamar hembras y marcar su territorio.
+  insect.damselfly:
+    label: Libélula
+    summary: Insecto similar a una mantisa religiosa cuyas alas se pliegan perpendicularmente al cuerpo durante su reposo.
+    info: '{"info":"La libélula es un insecto pariente de las mantis religiosas pero más delgado y cuando descansa dobla sus alas en ángulo recto con el cuerpo, al contrario que la mantisa."}'
+  insect.diving_beetle:
+    label: potápico
+    summary: Escarabajodepresaque nada debajo dela superfi cie.
+    info: El potápnik grande es un escarabajo acuático depredador de la familia Dytiscidae que vive en estanques y aguas quietas. Puede nadar suavemente gracias a sus patas traseras planas que funcionan como remos. Se respira en la superficie del agua e almacena aire bajo las alas.
   insect.dragonfly:
     label: libélula
     summary: Insecto con cuerpo largo y dos pares de alas trasparentes.
     info: La libélula es un insecto carnívoro con una vista excelente que caza cerca de cuerpos de agua.
+  insect.dung_beetle:
+    label: escarabajo
+    summary: Insecto que hace rodar pelotas de excremento; considerado sagrado en Egipto.
+    info: El escarabajo sagrado es un insecto de la familia Scarabaeidae que forma el estiércol en bolitas y las empuja para enterrarlas e incubar huevos allí dentro. En Egipto antiguo era símbolo del sol y del dios Khepre. Es uno de los muy pocos animales capaces de navegar usando como referencia la Vía Láctea.
+  insect.earwig:
+    label: escorpiones
+    summary: Escorpion es un tipo particular de insecto cuyo rasgo distintivo incluye dos apéndices terminales muy desarrollados usados principalmente cuando necesitan defenderse o reproducirse.
+    info: '{"hint":"insecto alargado con pinzas en el extremo de la cola","info":{"label":"escarabajo","resumen":"Insector alargado con pinzas en el final del cuerpo.","información": "El escorpión es un insecto perteneciente al orden Dermaptera caracterizado por tener unas estructuras llamadas cercos que funcionan como pinzas y sirven tanto para defensa propia como durante los apareamientos. Su nombre proviene de una creencia popular según la cual se mete dentro de las orejas humanas, lo cual no tiene fundamento real ni científico. Las hembras son únicas porque cuidan sus huevos así también protegen a las crías recién nacidas algo poco común entre otros tipos similares."}}'
+  insect.firefly:
+    label: luz de la luna
+    summary: Escarabajito productor de luz bioluminiscente para llamar pareja.
+    info: La luz de la luna es un tipo de escarabajo perteneciente a la familia Lampiridae que puede emitir una luz fría mediante el fenómeno conocido como bioluminiscencia en su abdomen. Tanto los machos como las hembras emiten luces con patrones distintivos para reconocerse entre sí y atrajérse mutuamente; este proceso está regulado por una reacción química involucrando al Luciferina junto con la Luciferasa.
+  insect.flea:
+    label: pioja
+    summary: Pequeño animal que salta y chupa sangre.
+    info: Una pioja es un insecto sin alas del orden de los sifontéteros especializado en una vida parásita. Sus fuertes patas traseras les permiten saltar más allá de ciento cincuenta veces su longitud corporal. Chupan sangre tanto de mamíferos como aves y pueden transmitir enfermedades; históricamente las pulgas han sido portadoras de la peste.
+  insect.fly:
+    label: Mosca
+    summary: insector volante capaz de transportar gérmenes
+    info: '{"hint":"mosquito común de la casa","info":{"label":"Mosca","summary":"Insecto volador con dos alas que puede transmitir bacterias","details":["La mosca es el insecto más frecuente en los hogares humanos y tiene un par funcional único de alas para volar mientras otro par llamado "balancines", ayuda al equilibrio durante su vuelo.","Sus compuestos ojos permiten ver casi todo lo que está cerca hasta una distancia de unos metros sin moverse mucho."]},'
+  insect.goliath_beetle:
+    label: goliat
+    summary: Uno de los insectos más grandes y pesados del mundo proveniente de la Africa tropical.
+    info: El Goliat gigante es uno de los insectos más grandes del mundo; los machos pueden pesar hasta 100 gramos y alcanzar una longitud superior a los 11 centímetros. Vive en las selvas lluviosas tropicales de África ecuatorial.
+  insect.grasshopper:
+    label: grillo
+    summary: Saltamontés con patas traseras muy desarrolladas
+    info: '{"hint":"saltador con patas traseras largas","info":{"label": "grillo", "summary": "Insecto saltarín de patas posteriores alargadas y canto chillón característico ","definition": {"type": "string","value": "El grillo es un insecto del orden ortóptero que tiene fuertes piernas traseras para poder brincar hasta el doblentuplo largo corporal\r\nLos machos emiten sonidos rasposos frotando sus alas contra las patas\r\nPasan su vida alimentándose por plantas; en grandes bandas pueden causar daños severos sobre cultivos."}}}'
+  insect.ground_beetle:
+    label: carábido
+    summary: Escarabajos rápidos que cacean presa debajo de rocas.
+    info: |-
+      {"info":"El carábido es un tipo de escarabajo perteneciente a la familia Carabidae y muchos son depredadores nocturnos activos que cazan otros insectos así como gusanos o babosas bajo las piedras;
+      están muy ágiles para correr rápido cuando se sienten amenazados por peligros externos;
+      algunas especies tales como el carábido morado tienen colores metálicos brillantes hermosamente llamativos,
+      y también sirve como indicador del estado saludable tanto en suelos naturales como prácticas agrarias."}
+  insect.hornet:
+    label: Avispa
+    summary: Es una gran avispa agresiva con un fuerte piquete.
+    info: La avispa europea común es la mayor abeja social en Europa y puede crecer más de 3,5 centímetros.
+  insect.hoverfly:
+    label: syrfide
+    summary: Mosca similar en apariencia al colorido de los himenópteros polinizando flores.
+    info: La syrfide es un insecto con dos alas de la familia Syrphidae que imita el colorido de las avispas y abejas como protección contra depredadores (mimetismo bateico), aunque ella misma no puede picar.
+  insect.lacewing:
+    label: Mantis Religiosa
+    summary: Insecto delicado con alas transparentes y nerviosas; sus huevos cazan chinches.
+    info: La mantis religiosa es un insecto de la familia Chrysopidae con alas delgadas y trasparentes llenas de venas en forma de red y tiene los ojos dorados. Sus crías son depredadores que consumen grandes cantidades de cochinillas lo cual las hace guardianes naturales de plantas. Los adultos viven alimentándose de néctar y polen.
   insect.ladybug:
     label: beruška
     summary: Pequeño escarabajo rojo y redondo con manchas negras.
     info: La beruška es un pequeño insecto que se alimenta de cochinillas y resulta útil en el jardín.
+  insect.locust:
+    label: langosta
+    summary: Langosta formadora de destructivas multitudes.
+    info: La langosta migratoria es un tipo de grillo que bajo ciertas condiciones forma enormes bandadas en movimiento. Una sola banda puede contener miles o millones de individuos y arrasar con una cosecha completa sobre cientos de hectáreas al día.
+  insect.louse:
+    label: pioja
+    summary: Pequeño insecto sin alas viviendo sobre la piel y pelos mamíferos.
+    info: La pioja es un pequeño insecto sin alas del orden Phthiraptera que vive en la piel y el pelo o pelaje de sus huéspedes. Se alimentan de sangre e irritación causando picor. La lice común infantil se encuentra mundialmente distribuida afectando niños independientemente de las condiciones sanitarias.
+  insect.mayfly:
+    label: mayfly
+    summary: Insecto con vida adulta extremadamente corta, viviendo solamente algunas horas hasta unos pocos días.
+    info: |-
+      {"info":"Las mayflies son un tipo de insecto que pertenece al orden Ephemeroptera y simboliza la efimeridad del tiempo;
+      durante su etapa adulta solo vive horas o días,
+      sin tener órganos bucales funcionales ni alimentarse en absoluto.
+      Sus ninfas pasan entre uno y tres años bajo el agua antes de emerger como adultos.
+      El masivo desove colectivo es una espectacular representación natural;
+      en Hungría este evento único ocurre cada año sobre las aguas del Danubio."}
+  insect.mosquito:
+    label: Mosca
+    summary: Insecto con dos alas y capacidad parasitaria sobre otros organismos vivientes mediante extracción sanguínea femenina específica dentro de especie culícidoa diversificada globalmente por encima cantidad exacta definible numéricamente según contexto ecológico mundial actualizado constantemente dependiendo nuevas investigaciones científicas realizadas últimamente acerca biodiversidad animal terrestre incluida subfamilia mencionada previamente durante este proceso explicativo detallado aquí mismo ahora mismo instantaneamente.
+    info: '{"hint":"insecto volador que chupa sangre (Culicidae)","info":"El mosquito es un insecto de dos alas perteneciente a la familia Culicidae\. Las hembras succionan la sangre de los animales para obtener proteínas necesarias para el desarrollo de sus huevos\; mientras tanto, los machos se alimentan del néctar\. Los mosquitos transmiten enfermedades peligrosas como malaria, dengue o Zika\. Existen más de tres mil quinientos tipos diferentes en todo el mundo","label":"mosquito","summary":"Insector con dos alas cuyas hembras pueden propagar enfermedades al tomarles sangre."}'
+  insect.moth:
+    label: polilla
+    summary: Parente nocturno de la mariposa vuela con luces tiene antenas plumosas
+    info: Las polillas son mariposas nocturnas del orden de los lépidopteros que tienen las alas plegadas hacia ambos costados cuando están en reposo y se diferencian así claramente de sus parientes diurnos Las polillas pueden ser atrajidas por la luz artificial Algunas especies producen seda natural gracias al capullo de ciertas larvas La Polilla Luna es una de las más hermosas del mundo
+  insect.praying_mantis:
+    label: mantid
+    summary: Insecto predador conocido por el estilo de plegaria de sus patas frontales.
+    info: La mantis religiosa es un insecto depredador de la familia Mantidae que debe su nombre al hecho de mantener las patas delanteras cruzadas como en una actitud devota o rezando. Es experta cazadora y puede atacar con tanta rapidez que atrapa sus presas antes de que estas puedan reaccionar.
+  insect.robber_fly:
+    label: střechatka
+    summary: Mosca carnívora que atrapa otro tipo de insectos durante el vuelo.
+    info: La střechatka es un insecto depredador de dos alas perteneciente a la familia Asilidae que caza otros insectos directamente en vuelo. Tiene patas fuertes para agarrar su presa y una picadura con el cual se introduce veneno paralizante.
+  insect.scorpion:
+    label: escorpión
+    summary: Artrópodo peligroso para el ser humano.
+    info: Las escorpiones son arácnidos con pinzas típicos y una cola curvada terminando en un aguijón venenoso.
+  insect.silverfish:
+    label: cucarachita
+    summary: Insecto rápido sin alas encontrado comúnmente cerca de libros o documentos.
+    info: La cucaracha es un tipo de insecto sin alas del orden Zinóptera que vive en hogares y alimenta con almidón, papel, cola para libros e hilos textiles.
+  insect.spider:
+    label: Araña
+    summary: Las arañas son animales con ocho extremidades que crean redes para capturar insectos.
+    info: '{"hint":"aracnídeo de ocho patas que teje telarañas","info":"Una araña es un artrópodo con cuerpo dividido en dos partes y posee ocho piernas; pertenece al orden Araneida. Tiene la capacidad para fabricar seda mediante glándulas especializadas utilizada tanto como trampa para cazar presas pequeñas así también para construir el capullo donde depositará sus huevos. Existen más de cuarenta mil especies reconocidas actualmente."}'
+  insect.stag_beetle:
+    label: ciervo
+    summary: Escarabajo más grande de Europa; el macho posee colas parecidas a cuernos.
+    info: El ciervo de los prados es el mayor escarabajo europeo que puede alcanzar una longitud superior a los 7 centímetros. El macho tiene colas grandes con forma de asta utilizadas para luchar por las hembras. La larva vive hasta siete años en troncos podridos de robles y come setas.
+  insect.stick_insect:
+    label: phasma
+    summary: Insecto capaz de camuflarse perfectamente pareciendo una rama.
+    info: La strašilka es un tipo de insecto que pertenece al grupo Phasmatoidea y es experto en imitación perfecta del entorno natural como ramitas o hojas. Al sentirse amenazada permanece completamente quieta para no ser detectada fácilmente por sus depredadores.
+  insect.termite:
+    label: término
+    summary: Insector social constructora de grandes montículos hechos principalmente de tierra.
+    info: |-
+      {"hint":"insecto social que come madera","info":"El termit es un insecto social de la orden Isópteros y está relacionado con las aligoteras.
+      Viven en colonias compuestas por reyes, reinas, soldados y obreros.
+      Construyen complejos nidos llamados termiófilos o colmenares muy altos especialmente en regiones cálidas del mundo tropical hasta alcanzar una altura máxima de nueve metros dotándolos además de sistemas para ventilarlos internamente;
+      están consideradas como descomponedoras principales de materiales lignocelulósicos contribuyendo así significativamente dentro los ecosistemas tropicales."}
+  insect.tiger_beetle:
+    label: tigre
+    summary: Escarabajo colorido muy rapido con una vision excelente.
+    info: |-
+      {"info":"El tiger es un escarlapi perteneciente al subfamilia de los Carabidae conocido por su velocidad excepcional y visión aguda.
+      Puede correr tan rápido que debe detenerse para reorienarse debido a la rapidez del movimiento en relación con el sistema visual limitado.
+      Tienen cuerpos metálicos brillantes colores como verde azulado rojo y tienen grandes ojos redondos.
+      Sus larvas construyen túneles verticales bajo tierra donde esperan ocultas dentro de las aberturas buscando presa."}
+  insect.velvet_ant:
+    label: abejón peludo
+    summary: Avispa negra con patrón rojo que parece tener pelos como un pincel.
+    info: El abejón peludo es en realidad una avispa de la familia Mutillidae cuyas hembras son aladas y se parecen más bien poco a las hormigas.
+  insect.wasp:
+    label: avispa
+    summary: Insecto picador color amarillo-negro que construye nidos de papel.
+    info: |-
+      La avispa común es un insecto picador del género Vespuła con el típico patrón de advertencia amarillo y negro
+      Construye nidos hechos de papel usando material vegetal masticado,
+      a diferencia de las abejas puede piquetear varias veces
+      Es útil como control natural contra plagas.
+  insect.water_strider:
+    label: escarabajo acuático
+    summary: Insector que puede moverse sobre la superficie del agua debido a su capacidad para aprovechar la tensión superficial.
+    info: El escarabajo acuático es un insecto de la familia Gerridae capaz de caminar sobre el agua gracias al pelaje hidrofóbico en sus patas y por la tensión superficial del líquido.
+  insect.weevil:
+    label: curulónido
+    summary: Escarbajo pequeño con un hocico extendido típico.
+    info: '{"hint":"escarabajo pequeño con un pico largo (curculiónidos)","info":"El curulónido es una especie de escarabajos perteneciente a la familia Curculionidae que contiene más de sesenta mil insectos en el mundo entero y representa la mayor cantidad dentro del reino animal. El característico hocico alargado sirve para perforar semillas frutas o troncos. Algunas especies son plagas agrícolas importantes como por ejemplo el curulónido algodonero; otras están especializadas exclusivamente sobre ciertas plantas","label":"curulónido","summary":"Escarabajo diminuto con un hocico prolongado."}'
+  insect.whirligig_beetle:
+    label: vírne
+    summary: Insectillo pequeño que gira junto otras criaturas arriba del nivel acuífero.
+    info: '{"hint":"escarabajo que da vueltas en círculos sobre la superficie del agua","info":"El vírne es un escarabajo acuático de la familia Gyrinidae que vive en la capa superficial y el movimiento circular por manadas ayuda al animalito evitar depredadores\nSus ojos están divididos en dos partes; una ve encima del agua mientras otra mira debajo\nDetecta las olas pequeñas en la superficie para identificar comida u amenazas\nDa vueltas durante día pero vuela cuando llegan noches","label":"vírne","summary":"Pequeño insecto que hace movimientos circulares con otros individuos sobre la superficie líquida"}'

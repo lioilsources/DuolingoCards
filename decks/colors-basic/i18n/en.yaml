@@ -2,6 +2,22 @@ lang: en
 pivot: false
 title: Basic Colors
 cards:
+  color.amber:
+    label: amber
+    summary: A warm orange-gold hue resembling fossilized tree sap.
+    info: Amber is a warm gold-orange color named after the mineral amber (fossilized tree sap). Amber was valued since ancient times for decorative and spiritual purposes. An amber signal light (yellow on traffic lights) universally symbolizes caution.
+  color.aqua:
+    label: aquamarine
+    summary: Intense greenish-blue like clean sea.
+    info: Aquamarine is an intense green-blue color used for coloring waters; it was named after Latin 'aquae' which means water because its hue resembles tropical seas, pools and freshness.
+  color.azure:
+    label: sky-blue
+    summary: A vibrant azure hue mirroring clean daytime horizons.
+    info: Sky-blue is an intense shade resembling that of midday skies during summertime weather conditions across many regions globally today.
+  color.beige:
+    label: beige
+    summary: Light sandy brown hue considered to be among warm neutrals.
+    info: Beige is a soft sand-brown color that lies between white and golden brown. It comes from an old French term for natural waves found on tanned leather.
   color.black:
     label: black
     summary: The darkest color, absence of light.
@@ -10,18 +26,127 @@ cards:
     label: blue
     summary: Cold primary color of the sky and sea.
     info: Blue is a cold primary light color. It is the most popular color worldwide and represents calmness, trust, and depth.
+  color.bronze:
+    label: bronze
+    summary: A deep golden-brown metallic hue resembling alloyed metals.
+    info: The color bronze is associated with copper-tin alloys used during ancient times; it also refers to an era known for its use called 'the Bronze Age' which lasted approximately between years -3300 until around year -1200 BC.
   color.brown:
     label: brown
     summary: Earthy secondary color of wood and soil.
     info: Brown is a secondary color created by mixing red, yellow, and black. It symbolizes land, nature, and stability; it's popular in natural and autumn themes.
+  color.burgundy:
+    label: bordeaux
+    summary: Dark burgundy-colored wine like those produced by French Bordeaux vineyards.
+    info: Bordeaux is a dark crimson to purplish-red color named after the winemaking region Bourgogne/Burgundy in France. It evokes images of rich red wines, luxury, and opulence. In fashion it's among the most popular autumn colors that pairs well with gold tones, beige hues and navy blue.
+  color.charcoal:
+    label: charcoal
+    summary: A near-black color resembling burnt carbon.
+    info: Charcoal is an extremely deep shade of gray that appears nearly black due to its resemblance to wood coal. It's popular for use in contemporary interior designs where it serves as less intense than pure black while still providing strong contrast effects.
+  color.chartreuse:
+    label: chartreuse
+    summary: An energetic shade lying precisely midway between yellow and green.
+    info: Chartreuse is an intense color exactly halfway between yellow and green on the spectrum. The name comes from the herbal liqueur produced at the similarly named French monastery.
+  color.cobalt:
+    label: cobalt
+    summary: A vibrant mid-dim blue resembling cobalt pigment.
+    info: Cobalt Blue is an intense dark to moderate blue color named after the chemical element Cobalt (symbol Co). It was among the most popular blue pigments for painting during the nineteenth century. Used widely in ceramics, glasswork, and fine art.
+  color.copper:
+    label: bronze
+    summary: Reddish brown metallic shade resembling pure copper.
+    info: Bronze is a red-brown metallic color that resembles copper (cupric). Copper was one of the first metals processed by humans during the Chalcolithic period. Old bronze roofs turn green due to oxidation; verdigris appears turquoise.
+  color.coral:
+    label: coral
+    summary: A vibrant pinky-orange shade resembling coral.
+    info: Coral is an energetic color between orange and pink named after sea corals. It's very popular for summer fashion and interior design.
+  color.cream:
+    label: creamy
+    summary: A soft white-yellow hue similar to fresh cream.
+    info: Cream color is an extremely pale shade that resembles freshly whipped cream. It gets its name directly from it's similarity to real cream.
+  color.crimson:
+    label: crimson
+    summary: A vibrant shade of red deeper than scarlet.
+    info: Crimson is an intense dark red color named after carmine dye used by artists since ancient times to create rich pigments for paintings on canvas.
+  color.cyan:
+    label: azure
+    summary: A bright bluish-green hue commonly associated with deep ocean waters under sunny skies.
+    info: Azure blue is an intense turquoise color that appears when there's no red component present but both maximum amounts for yellow components exist within digital imaging systems like those used today across various industries including photography & design fields alike.
+  color.fuchsia:
+    label: fuchsia
+    summary: A vibrant violet-red hue reminiscent of flowers on plants called by that very term.
+    info: |-
+      Fuchsia is an intense purple-pink color named after the plant genus Fuschia.
+      The name honors German botanist Leonard Fuchs (1501–1566). In web design standards like CSS and HTML, 'fuchsia' serves also to denote what's known more commonly today under its alternative designation—Magenta—with hex code #ffOOFF being used for both hues interchangeably within digital contexts.
+  color.gold:
+    label: golden
+    summary: A rich glowing golden hue reminiscent of pure gold.
+    info: Golden is a color that represents gold itself—a noble metallic element associated with wealth, prestige, success, and grandeur. In heraldry it's directly used along silver to denote metals within coats-of-arms.
   color.green:
     label: green
     summary: The color of grass and leaves, a secondary color made by mixing blue and yellow.
     info: Green is a secondary color created by mixing blue and yellow. It symbolizes nature and freshness; it is perceived most sensitively by the human eye among all colors.
+  color.grey:
+    label: gray
+    summary: Color located somewhere on spectrum between black and white.
+    info: Gray is an achromatic color created by mixing white and black colors. It's considered to be non-invasive and neutral. In psychology it represents neutrality and balance but sometimes also dullness.
+  color.indigo:
+    label: indigo
+    summary: Dark purplish-blue shade similar to an ancient natural pigment.
+    info: The color named 'indigo' is derived from the plant-based dye called indigo. For thousands of years it was considered to be among the most valuable dyes available today.
+  color.ivory:
+    label: ivory
+    summary: A warm off-white color resembling an ivory tooth.
+    info: Ivory is a soft cream-colored shade that has subtle hints of yellow to give it warmth compared to stark white tones.
+  color.khaki:
+    label: khaki
+    summary: Muted pale yellow-brown shade commonly associated with military camouflage.
+    info: |-
+      A muted pale yellow-brown color that was made famous by British troops stationed in India during the nineteenth century
+      The term comes via Urdu/Hindi 'khāki' which means dust or mud,
+      it is now used for army uniforms and outdoor clothing.
+  color.lavender:
+    label: lavender
+    summary: A very light purple similar to lavender flower petals.
+    info: Lavender is a soft pale violet color named after the herb lavender plant (Lavendula). It evokes calmness, purity, and Provencal landscapes of France.
+  color.lime:
+    label: lime
+    summary: A lively yellow-green like limes.
+    info: Lime is a bright, intense yellow-green color named after the fruit lemon-lime citronella plant. It's more vibrant than leaf green because it contains much higher amounts of yellowness.
+  color.magenta:
+    label: purple
+    summary: A bright violet-red hue lying somewhere along both ends - crimson & indigo.
+    info: Magenta is an intense color that lies between blue and red without having its own wavelength on visible light spectrum. The name comes after Battle at Magenta near Italy where French army used it for their uniforms back then.
+  color.maroon:
+    label: Maroon
+    summary: A rich shade resembling both burgundy wine colors.
+    info: Chestnut color is named after chestnuts—'marron' means 'chestnut' in Spanish—and it's characterized by its rich reddish-brown hue that resembles strong red wines like port. It’s commonly used for fashion items such as coats due to being warm yet elegant looking.
+  color.mauve:
+    label: lavender
+    summary: Subdued purple-pink shade used for Victorian style.
+    info: Mauve is an elegant subdued purple-pink color named after French 'slézovnice' plant (Malva sylvester). It was first synthetically produced dye called aniline violet by William Perkins in 1856.
+  color.mint:
+    label: pastel
+    summary: A soft pale green similar to mint.
+    info: Pastel is a fresh bright green color named after the herb mint (Mentha). It evokes cleanliness, freshness, and coolness.
+  color.navy:
+    label: naval blue
+    summary: A very dark hue similar to ocean depths beneath starlit skies.
+    info: Naval Blue is an extremely deep shade of blue resembling that seen on oceans under moonlight during nighttime hours.
+  color.ochre:
+    label: Ocher
+    summary: Earthy yellow-brown natural iron-based pigment.
+    info: Ocher is an earthen yellow-brown color named after the ochre pigment (iron oxide). It's considered to be one of the oldest pigments used by prehistoric people for cave painting. In nature it occurs as red soil stone called 'ocher rock'.
+  color.olive:
+    label: green
+    summary: A soft yellow-green resembling ripe olives.
+    info: Olive is a muted yellowish green named after the olive tree's fruit coloration. It has become classic for military camouflage due to its natural environment blending properties.
   color.orange:
     label: orange
     summary: A warm secondary color made from red and yellow.
     info: Orange is a secondary color created by mixing red and yellow. It symbolizes enthusiasm and creativity; it is named after the fruit of an orange.
+  color.periwinkle:
+    label: periwinkle
+    summary: A pale bluish-purple color resembling that found on certain plants.
+    info: Periwinkle is a soft shade between light blue and lavender named after the Vinca minor plant's flowers. It has been popular for use in fashion and interior design due to its delicate appearance.
   color.pink:
     label: pink
     summary: A light shade of red, gentle and cute color.
@@ -34,6 +159,50 @@ cards:
     label: red
     summary: Warm primary color of blood and fire.
     info: Red is one of three basic colors of light. It evokes energy, passion, and danger; in many cultures it represents happiness and strength.
+  color.rose:
+    label: rose
+    summary: A gentle pink-red resembling a rose's petal.
+    info: Rose is a delicate reddish-pink color named after the flower rose. It differs from light pink by being darker and more crimson.
+  color.salmon:
+    label: salmon
+    summary: A warm pale orange-pink similar to cooked salmon.
+    info: Salmon is a soft pinkish-orange color named after the meaty hue found on salmon fillets. It's warmer than coral but lighter overall; widely used fashionably within clothing lines for its gentle alternative to traditional roses hues.
+  color.scarlet:
+    label: scarlet
+    summary: A vibrant reddish-orange hue that’s brighter than carmine.
+    info: Scarlet is a vivid reddish-orange color named after the dye substance crimson. It's slightly lighter and more orangish than carmine. Historically it denoted luxurious red fabrics.
+  color.sienna:
+    label: sien
+    summary: A warm brown earth tone used historically by Renaissance painters.
+    info: Sienne is an earthen red-brown color named after the Italian city of Siene. Raw sienna has yellow tones while burnt sienne appears more intensely orange-red.
+  color.silver:
+    label: '"silver"'
+    summary: '"Shiny light-gray hue resembling actual elemental Silver"'
+    info: |-
+      {"hint":"A shiny gray similar to the metal silver","info":"Silver is an metallic color that represents expensive precious metals such as argentum/silver itself.
+      It stands for modernity, elegance technology and industrial designs
+      In heraldry it's second most important metal after gold;
+      in Olympic games medals made out these materials represent runner-up positions respectively."}
+  color.tan:
+    label: tan
+    summary: A soft golden-yellow shade similar to weathered wood.
+    info: Tan is a pale yellow-brown color resembling soil or sun-tanned leather. The name comes historically from processing animal hides using vegetable matter such as oak bark during tan-making processes.
+  color.teal:
+    label: teal
+    summary: A bluish green hue resembling ocean colors.
+    info: Teal is named after the common teal duck's wings which have that coloration; it appears at higher end on turquoise spectrum scale used by designers for contrast against orange hues.
+  color.turquoise:
+    label: turquoise
+    summary: A vibrant sea-like shade resembling ocean depths.
+    info: Turquoise is an intense green-blue color named after the semi-precious stone turquoise. The stones were valued in ancient Egypt, Persia, and America.
+  color.vermillion:
+    label: red ochre
+    summary: An intense reddish orange hue similar to vermillions.
+    info: Red ochre is an intense reddish orange color named after cinnabar mineral (HgS). It was historically among the most used red pigments; however, it's toxic mercury-based substance now replaced by synthetic alternatives.
+  color.violet:
+    label: indigo
+    summary: Blue-violet hue at visible light's end.
+    info: Purple is named after the flower violet (genus Viola). In color theory it differs slightly from magenta—purple lies closer to red while indigo leans toward blue.
   color.white:
     label: white
     summary: The lightest color, reflecting all visible light.

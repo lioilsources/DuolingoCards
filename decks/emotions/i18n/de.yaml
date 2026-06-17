@@ -2,22 +2,178 @@ lang: de
 pivot: false
 title: Emotionen
 cards:
+  emotion.amazed:
+    label: Verwunderung
+    summary: Starke positive überraschende Gefühlsreaktion vor außergewöhnlichen Erscheinungen.
+    info: |-
+      Erstaunen ist eine intensive Emotion ausgelöst durch das Erleben etwas Großes oder beeindruckendes.
+      Es reduziert das Gefühl eigener Wichtigkeit und verstärkt die Empfindung von Verbindung mit der Umgebung.
+      Studien zeigen, dass Staunen Stress senken kann und prosoziales Verhalten fördert,
+      es tritt oft bei Naturerfahrungen auf beim Hören von Musik oder Beobachten schöner Kunst.
+  emotion.amused:
+    label: amüsiert
+    summary: Ein leichter angenehmer Eindruck der Unterhaltung.
+    info: Amüsement ist eine milde positive Emotion ausgelöst durch etwas Witziges oder Interessantes. Es unterscheidet sich von Lachen; das Lachen ist die Folge des Amüsments, aber nicht jedes Amusement führt zum Lachen. Es handelt sich um eine soziale geteilte Emotion – Dinge erscheinen uns witziger, wenn wir sie mit anderen teilen.
   emotion.angry:
     label: wütend
     summary: Starke Unmut oder Wut empfinden, ärgerlich sein.
     info: Wut ist eine Emotion als Reaktion auf wahrgenommene Ungerechtigkeit oder Bedrohung. Sie erhöht den Puls und bereitet den Körper auf die 'Kampf-oder-Flucht'-Reaktion vor.
+  emotion.annoyed:
+    label: reizbare
+    summary: Ein leichtes Gefühl des Ärgers aufgrund sich immer wiederholender Störungen.
+    info: Reizbarkeit ist eine milde negative Emotion ausgelöst durch wiederkehrende störendere Reize und kann oft zu intensiverer Wut führen. Sie wird häufig von Schlafentzug, Hunger oder Überforderung verursacht. Das Erkennen eigener Auslöser spielt bei der Verbesserung ihrer Regulation eine entscheidende Rolle.
+  emotion.anxious:
+    label: Ängstlichkeit
+    summary: Unangenehm empfundenes Gefühl von Nervosität sowie Sorge um unsichere Zukunft.
+    info: Angst ist eine Emotion vor einer angedeuteten Bedrohung; geringfügige Angst kann angepasste Reaktionen auslösen und Leistung verbessern. Sie äußert sich körperlich durch Herzklopfen, Schweißausbrüche, Atemnot oder verspannte Muskeln. Angsterkrankungen sind die häufigsten psychischen Erkrankungen weltweit mit über drei Milliarden Betroffenen.
+  emotion.bored:
+    label: langeweilig
+    summary: Empfindung des Nichtinteressiert-seins und Leere ohne Anreize zum Engagement.
+    info: Langeweile ist ein negatives emotionales Erleben verursacht durch das Fehlen von Reizen oder sinnvollen Aktivitäten. Sie kann dazu führen, dass man nach neuen Erfahrungen sucht oder sich kreativen Gedanken zuwenden will. Aus evolutionärer Sicht treibt sie zur Suche nach Chancen an. Studien zeigen außerdem auf, dass eine dauerhafte Langweile die Risiken für Depression erhöhen könnte.
   emotion.calm:
     label: ruhig
     summary: Inneren Frieden und Wohlbefinden fühlen, ruhig sein.
     info: Ruhe ist ein Zustand mentaler und körperlicher Ausgewogenheit. Sie verlangsamt den Herzschlag, vertieft die Atmung und ermöglicht klares Denken sowie gute Entscheidungen.
+  emotion.cheerful:
+    label: freudig
+    summary: Ein angenehmer Zustand von Frohsinnigkeit und Optimismus.
+    info: Freude ist ein positiver emotionaler Zustand mit energiegeladenem Enthusiasmus und guter Stimmung verbunden. Sie hängt oft mit einer extrovertierten Persönlichkeit zusammen sowie einem hohen Maß an Positivismus. Freue sich auf andere übertragbar – die Anwesenheit eines fröhlichen Menschen verbessert das Umfelds Gemütszustände.
+  emotion.confident:
+    label: selbstbewusste
+    summary: Vertrauen in die eigenen Fähigkeiten.
+    info: Selbstbewusstsein ist ein emotionaler Zustand des Vertrauens in eigene Fähigkeiten und Urteilsfähigkeit. Eine aufrechte Haltung, direkte Augenkontakt und eine ruhige Stimme sind Ausdrucksformen von Selbstbewusstein. Amy Cuddy hat durch ihre TED-Vorlesung im Jahr 2012 mächtige Posen als Methode zur Steigerung der Selbsicherheit populär gemacht.
+  emotion.confused:
+    label: verwirrt
+    summary: Ein Gefühl von Unsicherheit, bei dem man die Situation oder Informationen nicht versteht.
+    info: Verwirrung entsteht dann, wenn uns der Kontext oder das Wissen zum Verständnis einer Situation fehlt. Sie ist eine natürliche Komponente des Lernens und kann durch kognitive Dissonanz den Suchprozess nach Antworten anregen.
+  emotion.content:
+    label: zufriedene Ruhe
+    summary: Ein beruhiges Gefühl tiefer Befriedigung mit keinem Bedürfnis danach zu verlangern.
+    info: Zufriedenheit ist ein ruhiger positiver emotionaler Zustand ohne den Wunsch nach Veränderung. Sie unterscheidet sich von Glück; Zufriedenheit ist still und gelassen, während Glück dynamisch und aufregend wirkt. Der Buddhismus betrachtet die Zufriedenheit als eine der Schlüsseleigenschaften im Weg zur Erleuchtung unter dem Namen 'Santosha'. Forschungen zum Thema glückliches Leben zeigen außerdem, dass Zufriedenheit robuster sei als Euphorie.
+  emotion.curious:
+    label: neugier
+    summary: Sehnsucht nach neuem Wissen oder Verständnis.
+    info: Neugier ist ein motivationaler Zustand, der das Streben nach neuen Informationen und Erfahrungen auslöst. Sie steht im Zusammenhang mit dem Dopaminsystem des Belohnungsmechanismus – Neugier bringt buchstäblich Freude mit sich. Sie spielt eine wichtige Rolle für den wissenschaftlichen Fortschritt sowie persönliche Entwicklung.
+  emotion.delighted:
+    label: begeisterte Freude
+    summary: Starke Freude an einem positiven Erlebnis oder einer Überraschung.
+    info: Begeisterte Freude ist eine intensive positive Emotion ausgelöst durch angenehme Ereignisse oder Überraschungen. Sie ist stärker als die grundlegende Freue und äußert sich dynamischer wie Springen, Rufen oder Lachen. Ihre evolutionäre Funktion besteht darin, Verhaltensweisen zu verstärken, welche gewünschte Ergebnisse hervorrufen.
+  emotion.determined:
+    label: entschiedenes Streben
+    summary: Starker Wille zum Erreichen eines Ziels trotz Hindernissen.
+    info: Entschlossenheit ist ein motivierter emotionaler Zustand und wird durch konzentrierte Absicht sowie Ausdauer gekennzeichnet. Sie äußert sich beispielsweise an zusammengebissenen Zähnen, einem verspannten Körper oder intensiven Blicken. Eng damit verbunden sind Begriffe wie Grit von Angela Duckworth – eine Kombination aus Leidenschaft und Durchhaltevermögen.
+  emotion.disappointed:
+    label: enttäuscht
+    summary: Unangenehmes Gefühl, wenn Realität unsere Erwartungen nicht erfüllt.
+    info: Enttäuschung entsteht dann, wenn das Ergebnis nicht den Erwartungen oder Wünschen entspricht. Sie ist stärker ausgeprägt bei hoher emotionaler Investition und Anstrengung. Studien zeigen, dass die Höhe der Erwartungen ein Schlüsselmerkmal darstellt – geringere Erwartungen führen zu weniger Enttäuschung.
+  emotion.disgusted:
+    label: widerwillen
+    summary: Starke Empfindung des Abscheus bei Begegnungen unangenehmer Reize.
+    info: Widerwillen ist eine grundlegende Emotion, die uns vor schädlichen Dingen wie giftigem Essen oder Krankheiten beschützt. Ihre evolutionäre Funktion besteht darin abzuhalten von der Aufnahme verdorbener Nahrungsmittel. Sie äußert sich durch das Runzeln der Nasenbrauen und Zunge herausstreckendes Verhalten mit einem typischen Ausdruck im Gesicht.
+  emotion.embarrassed:
+    label: Erbitter
+    summary: Unangenehm empfundenes Gefühl von Schuldgefühlen oder Verlegenheit.
+    info: 'Scham ist eine soziale Emotion, die entsteht, wenn wir glauben, dass wir gesellschaftliche Normen verletzt haben. Sie äußert sich durch Rötung der Wangen (Gesichtsrotwerden), abgewandten Blick und hängende Haltung. Sie hat eine soziale Funktion: sie zeigt anderen unsere Bewusstheit über Normen sowie unser Willen zu deren Einhaltung.'
   emotion.excited:
     label: begeistert
     summary: Starke Begeisterung und freudvolle Erwartung fühlen.
     info: Begeisterung ist eine intensive positive Emotion, die mit der Erwartung eines angenehmen Ereignisses verbunden ist. Sie steigert die Energie, beschleunigt den Herzschlag und fördert kreatives Denken.
+  emotion.frustrated:
+    label: Verärgerung
+    summary: Ein Gefühl von Unmut tritt auf, wenn Zielverfolgungen an Barrieren stoßen.
+    info: Frustrierung entsteht als Emotion, wenn unsere Ziele durch Hindernisse blockiert werden. Sie kann zu einer konstruktiven Handlung führen – wie das Suchen nach Alternativen oder aber auch zur zerstörerischen Reaktion etwa Aggression. Die Frustration-Aggressions-Theorie war eine einflussreiche Theorie der Psychologie im Jahrzehnt um die zwanziger Jahre des letzten Jahrtausends.
+  emotion.grateful:
+    label: Danke
+    summary: Ein warmherziger Eindruck davon zu wissen schätzen was man hat oder bekommt.
+    info: Dankbarkeit ist eine positive Emotion, die entsteht, wenn wir das Gute im Leben erkennen und wertschätzen. Forschungen der positiven Psychologie zeigen, dass regelmäßige Demonstration von Dankbarkeit Zufriedenheit steigert; sie aktiviert Belohnungszentren des Gehirns ähnlich wie physische Freude. Das tägliche Schreiben eines Dankes-Tagebuchs gilt als einer der effektivsten Methoden zur Verbesserung der Stimmung.
+  emotion.guilty:
+    label: Schuld
+    summary: Unangenehm empfundenes Gefühl bei der Nichteinhaltung eigener ethischer Prinzipien.
+    info: Schuld ist eine Emotion, die entsteht nach dem Begehen einer Handlung, welche wir als falsch betrachten. Sie unterscheidet sich von Scham; Schuld fokussiert auf konkretes Verhalten und nicht auf den ganzen Menschen selbst. Sie hat sozialen Zweck – sie treibt zur Entschuldigung an sowie zu Korrekturmaßnahmen und stärkt moralisches Benehmen.
   emotion.happy:
     label: glücklich
     summary: Freude oder Vergnügen empfinden, gut gelaunt sein.
     info: Glück ist eine angenehme Emotion, die mit dem Ausschüttung von Dopamin und Serotonin verbunden ist. Sie äußert sich durch Lächern, lebendige Gestikulation und einen offenen Körpersprache.
+  emotion.hopeful:
+    label: Hoffnung
+    summary: Ein optimistisches Gefühl dafür, dass sich alles zum Guten wenden wird.
+    info: Hoffnung ist eine Emotion, die den Wunsch nach einer besseren Zukunft und das Vertrauen darin verbindet, dass diese erreichbar sein wird.
+  emotion.hopeless:
+    label: Hoffnungslosigkeit
+    summary: Gefühl davon überzeugt zu sein, nichts Positives mehr erwarten zu können.
+    info: Hoffnungslosigkeit ist ein negatives emotionales Zustand gekennzeichnet durch die Überzeugung, dass sich eine Situation nicht verbessern lässt. Sie ist ein Schlüsselmerkmal der Depression und Risikofaktor für Suizidalität. Der Kognitionstherapiemodell von Aaron Beck hat Hoffnungslosigkeit als grundlegendes Glaubenssatz erkannt.
+  emotion.inspired:
+    label: ' Inspiration'
+    summary: ' Kreative Begeisterung zur erfinderischen Handlung anspornend.'
+    info: Inspiration ist ein emotionaler Zustand mit plötzlicher Motivation und kreativer Erregung verbunden. Sie tritt oft im Zusammenhang mit einer Epiphanie oder dem Zusammentreffen mit einem außergewöhnlichen Werk oder Menschen auf. Neurologisch gesehen wird der Präfrontalcortex sowie das Belohnungscenter angeregt.
+  emotion.irritated:
+    label: starke Nervosität
+    summary: Zustand einer übersteigerten Empfindlichkeit gegenüber kleinen Auslösungen – Grenzbereich zum Zorn.
+    info: Erregung ist ein emotionaler Zustand erhöhter Reaktivität, bei dem selbst kleine Anreize starke negative Reaktionen auslösen können. Sie kann Erschöpfung, Schlafentzug oder angesammelten Stress anzeigen. Frauen während der Pubertät, Schwangerschaft und Menopause erleben oft durch Hormone verurschte Erregbarkeit.
+  emotion.jealous:
+    label: neidisch sein
+    summary: Negative Empfindung durch den Vergleich mit anderen.
+    info: Neid ist eine Emotion, die entsteht, wenn wir wahrnehmen, dass jemand anders etwas hat, was auch uns gefallen würde. Sie unterscheidet sich von Eifersucht; Neid betrifft fremde Vorteile und nicht unbedingt Beziehungen oder Eigentum. Er kann zu besseren Leistungen anspornen oder aber Resignation verursachen.
+  emotion.joyful:
+    label: Freude
+    summary: Starke Freue über Erfolg oder Erlebnisse; intensives Glücksgefühl.
+    info: Freude ist eine intensive positive Emotion mit einem Überfluss an Glückseligkeit und Lebensfreudigkeit. Sie hängt eng zusammen mit intrinsischer Motivation sowie dem Flow-Zustand nach Csikszentmihalyi.
+  emotion.lonely:
+    label: Einsamkeit
+    summary: Schmerzhafte Empfindung fehlenden Kontakts zu anderen.
+    info: Alleinheit ist ein subjektives Gefühl der Isolation unabhängig von der tatsächlichen Anzahl an Menschen um einen herum. Sie ist eine starke Vorhersage für Gesundheitsprobleme und kann die Lebenserwartung reduzieren bei länger bestehender Alleinheit.
+  emotion.loving:
+    label: lieben
+    summary: Tief empfundenes Zuneigungsgefühl zu einer Person.
+    info: Liebe ist eine komplexe Emotion mit Wärmegefühl, Fürsorge und Vertrauen verbunden sowie Intimität. Neurologisch hängt sie zusammen mit Oxytocin, Dopamine und Serotonin. Helen Fishers Forschung unterscheidet drei Systeme der Liebe – erotische Begierde, romantisches Gefühl für einen anderen Menschen und ein tieferes Band.
+  emotion.melancholy:
+    label: wehmüchtig
+    summary: Stille Wehmut gepaart mit Nachdenken über Schönheit.
+    info: Wehmütigkeit ist eine nachdenkliche Emotion mit Traurigkeit und einer gewissen Süße verbunden. Der Begriff stammt aus dem Griechischen für schwarze Galle ('mela' = schwarz + 'chole'); antike Ärzte vermuteten sie aufgrund eines Überflusses an schwarzer Gallenflüssigkeit im Körper.
+  emotion.miserable:
+    label: leidend sein
+    summary: Extremes Unbehagen und Elend; schwerster Grad von Traurigkeit.
+    info: Leiden ist ein intensiver negatives emotionales Zustand gekennzeichnet durch tiefe Unwohlsein und Schmerzen. Es kann aus körperlicher Schmerz entstehen oder emotionaler Verletzung sowie einem Verlust resultieren. Chronisches Leid ist ein Symptom der Depression.
+  emotion.nervous:
+    label: ungezwirt
+    summary: Leichtes Unbehagen vor einem Event.
+    info: Ungezwirnstimmung ist ein leichtes angstbezogenes Gefühl und wird meist mit der Vorfreude auf eine wichtige Ereignis verbunden. Physiologisch äußert sie sich durch erhöhte Aktivität des sympathischen Nervesystems wie Herzklopfen oder Schweißausbruch. Leichte Ungezweiztheit verbessert die Leistungsfähigkeit – zu starke hingegen stört diese negativ ab. Die Technik zur Uminterpretation von Ungezwirsheit als Aufregung (Excitement Reappraisal) hat sich dabei beweisen.
+  emotion.nostalgic:
+    label: Wehmut
+    summary: Ein süße-saurer Gefühlsimpuls der Sehnsucht nach der Vergangenheit.
+    info: Heimatweh ist eine Emotion mit süß-saurem Gefühl – Erinnerungen an die Vergangenheit sind angenehm und gleichzeitig schmerzhaft. Der Begriff kommt aus dem Griechischen 'noastos' für Heimkehr und 'algia', was Schmerzen bedeutet. Forschung zeigt außerdem auf, dass das Heimatweh soziale Bindungen verstärkt sowie Sinn stiften kann.
+  emotion.optimistic:
+    label: Optimismus
+    summary: Tendenz positive Resultate zu erwarten sowie das Gute darin wahrzunehmen.
+    info: Optimismus ist ein kognitive-emotionales Verhalten mit der Erwartung positiver Ergebnisse. Martin Seligman hat den Optimismus als einen Schlüssel zur Resilienz bezeichnet und er gehört zu den Grundpfeilen der Positiven Psychologie. Forscher haben festgestellt, dass optimistische Menschen länger leben, gesünder sind und erfolgreicher im Leben werden können.
+  emotion.overwhelmed:
+    label: überfordern
+    summary: Ein Gefühl von Druck entsteht, sobald mehrere Aufgaben gleichzeitig auf uns kommen.
+    info: Überforderung tritt ein, wenn Anforderungen unsere Ressourcen übertreffen und die Fähigkeit zur Bewältigung übersteigen. Sie äußert sich durch kognitive Störungen wie Unfähigkeit klar zu denken oder emotionale Ausbrüche sowie Lähmungserscheinungen. Ein gewisses Maß an Überlastung ist beweisbar meist erträglich, aber eine dauerhaft bestehende kann zum Burnout führen.
+  emotion.peaceful:
+    label: Ruhe
+    summary: Ein tiefes Gefühl des inneren Wohlstands.
+    info: Frieden ist ein positiver emotionaler Zustand ohne Stress und Störungen. Er wird insbesondere durch Achtsamkeitspraktiken wie Mindfulness-Meditation oder Zen-Meditation angestrebt. Der Friede aktiviert das Parasympathikum – er senkt den Herzschlag sowie den Blutdruck abwärts. In der Öko-Psychotherapie gilt die Aufenthalte im Freien als eine der effektivsten Methoden zur Erlangung von innerem Ruhe.
+  emotion.pessimistic:
+    label: Pessimismus
+    summary: Tendenz negative Resultate vorherzusehen sowie sich auf Negatives konzentrieren.
+    info: Pessimismus ist ein kognitive-emotionales Verhaltensmuster gekennzeichnet durch das Erwarten von schlechten Ergebnissen. Ein gewisser Grad an Pessimmus kann angepasst sein – eine reale Einschätzung der Risiken hilft dabei Gefahren zu vermeiden. Chronischer Pesimismus hängt jedoch mit einem erhöhten Depressionsrisiko und schlechterer Gesundheit zusammen.
+  emotion.playful:
+    label: spieltriebig
+    summary: Lebhafte Stimmung mit Sehnsucht nach Unterhaltung und Spielen.
+    info: Spieltrieb ist ein emotionaler Zustand gekennzeichnet durch Freude am Spiel, Humor und Experimentieren. Bei Erwachsenen ist er positiver Prädiktor für Kreativität und gute psychische Gesundheit. Evolutionsbedingte Funktion besteht im Fördern von Kompetenzentwicklung innerhalb eines sicheren Kontextes.
+  emotion.proud:
+    label: stolz
+    summary: Positives Empfindung über eigene Errungenheiten oder Gruppe.
+    info: |-
+      Stolzer ist eine Emotion verbunden mit dem Gefühl des Erfolgs oder der Zugehörigkeit zu etwas Wertvollem.
+      Gerade Haltung, erhobene Kopfhaltung und ein aufgerichteter Brustkorbs sind universelle Ausdrücke von Stolz.
+      Er kann gesund sein (Motivation zur Weiterentwicklung fördert), aber auch ungesunde Formen annehmen wie Arroganz.
+      Im Hinduismus gilt Stolz als Ahamkaras, was spirituelle Entwicklung behindern könnte.
+  emotion.relieved:
+    label: Erleichterung
+    summary: Ein angenehmes Empfinden von Entspannung nach Erholung vom Druck oder Gefährdungsgefühl.
+    info: Erleichung ist eine Emotion, die nach dem Abklingen von Stress, Sorge oder Schmerz empfunden wird und sich durch einen tiefen Atemzug, das Loslassen der Muskelverspannung sowie ein Gefühl des Wohlbefindens zeigt.
   emotion.sad:
     label: traurig
     summary: Trauer oder Unzufriedenheit empfinden, depressiv sein.
@@ -26,6 +182,18 @@ cards:
     label: erschrocken
     summary: Angst oder Schreck vor Gefahr oder Bedrohung empfinden.
     info: Schreck ist eine grundlegende Abwehrreaktion. Er löst den Adrenalinspiegel aus, beschleunigt das Herz und bereitet den Körper auf Flucht oder Verteidigung vor.
+  emotion.serious:
+    label: ernste Einstellung
+    summary: Eine ernsthafte Stimmung ohne Komik; Fokus auf wichtige Angelegenheiten.
+    info: Ernsthaftigkeit ist eine emotionale Haltung gekennzeichnet durch Konzentration und Abwesenheit von Leichtigkeit oder Humor. Sie spielt im Kontexten mit Bedeutungsschwere sowie bei der Anforderung intensiver Aufmerksamkeit eine Rolle.
+  emotion.shocked:
+    label: schreck
+    summary: Plötzliches Erstarrungserleben aufgrund einer überraschenden Nachricht.
+    info: Schreck ist eine intensive Emotion ausgelöst durch unerwartete oder schockierende Informationen und zeigt sich als plötzliche Starre mit geöffnetem Mund sowie erweiterten Pupillen. Die evolutionäre Funktion besteht darin, die Aktivität anzuhalten und diese Information zu verarbeiten.
+  emotion.shy:
+    label: schüchterne
+    summary: Unruhige Zurückhaltung in gesellschaftlichen Situationen vor allem gegenüber Fremden.
+    info: Schüchternheit ist eine soziale Emotion und äußert sich durch Nervosität und Zurückhaltung im Beisein anderer Menschen. Sie hängt oft mit einer Introvertiertheitspersönlichkeit zusammen, aber sie sind nicht dasselbe. Leichte Schüchternheit ist normal; bei schwerwiegender Form – Sozialphobie – stört es das Funktionieren.
   emotion.surprised:
     label: überrascht
     summary: Plötzlicher Staunen über eine unerwartete Situation.
@@ -34,3 +202,15 @@ cards:
     label: ermüdet
     summary: Körperliches oder geistiges Erschöpfungsgefühl haben und Ruhe benötigen.
     info: Ermüdung ist ein Signal des Körpers, dass er Pause braucht. Sie äußert sich durch Schläfrigkeit, verlangsamte Reaktionen und eine verringerte Konzentration.
+  emotion.upset:
+    label: Erregtheit
+    summary: Unbehagen durch eine negative Situation verursacht.
+    info: Aufregung ist ein allgemeiner negatives emotionales Zustand mit Traurigkeit, Wut und Angst verbunden. Es tritt als Reaktion auf unangenehme Ereignisse, Enttäuschungen oder Konflikte auf. Physiologisch wird die Stressachse (Hypothalamus-Hypophyse-Nebenniere) angeregt – Cortisol steigt an.
+  emotion.worried:
+    label: Besorgnis
+    summary: Wiederkehrendes negatives Denken über potenzielle Zukunftsproblemen.
+    info: |-
+      Sorge ist ein kognitive emotionale Zustand mit Fokus auf die Antizipation möglicher Bedrohungen.
+      Leichte Sorgen sind anpassungsfähig und motivieren zur Vorbereitung.
+      Chronische Sorgfalt (Angststörung) stört das tägliche Funktionieren.
+      Achtsamkeit und gezielte Unterbrechung der Sorge-Spiralen sind effektive Techniken.

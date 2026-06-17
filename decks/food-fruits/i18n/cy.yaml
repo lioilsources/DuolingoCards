@@ -1,0 +1,230 @@
+lang: cy
+pivot: false
+title: Fruitiau
+cards:
+  fruit.ackee:
+    label: ackee
+    summary: Rhed tawpigaeth lledlynadol efo arilau gwynfeddynt; rhew nasgyrchus Iamayka.
+    info: Mae Ackee yn rhew o'r gwasg Blighia Sapida sydd wedi'i enwi'n ôs ymhlith ei gymeriad am ryw miloedd gan yr unigwrth William Bligh dros hynny i'ch nod - roedden nhomau yn cyrraeddant yn dod â phrod naill ai anafredeg neu ddifrifol os nad ydyn nhw'n eu heffeinio hyd yn oeso. Mae'r rhew dan fy mwytau yn cael ei wneud yn wreiddiol yn West Africa ond fe'u cododd ati i'r Caribtïc trwy'r cymal trosgofnodion.
+  fruit.apple:
+    label: tyne
+    summary: Tyn nadollog â smodyr hoffedig.
+    info: Mae tyn nhwylo yn dod o wlyngwyn rhew hefyw sydd mewn ymbarél ar gyfer gwaith pen drud fel adnodd i'ch mynd am dan eu cyflwr naturiol.
+  fruit.apricot:
+    label: merwinka
+    summary: Fruit gogonedig llynges-goch; dyweddir ei fod hefyd yn ddel wedyn.
+    info: |-
+      Mae'r Merwinka'n dod o Efrog Middwyll;
+      pewnedir yn Tsiec ac ymhwrdd â'r Uned Fathnasol; mewn rhaglaw sydd nhomau diod gan Turcyaeth a Sbaeneg.
+      Pen drud am betakaretanac a vitamin A.
+  fruit.avocado:
+    label: Avoacado
+    summary: label
+    info: "Mae Avocado yn dod o Mecsico ac America Canolig yw Persea Americana\nYdy'n fwydd plantiol gan gyfreithu'r gorsodau ond mewn bygythiad caffo ei ddefny ddynryddiaeth \nGweledigaeth i'nhewi arno am eu tyfion un-naswedig cyflwr da chwith"
+  fruit.banana:
+    label: bancwyl
+    summary: Llawr ffrwd glas ac aderyn
+    info: '{"hint":"llorffennau gwynedig cwbl dan y sglefri","info":"Mae bannan yn llafn o filwr rhag abseddwydd trogolwg sy''n perthnas â''r teulu bancwlydion. Mae wedyn dros dro mewn eich diet gan ei chweil amharu ar gyfer cyflwr diethus."}'
+  fruit.blackberry:
+    label: Gwynllybran
+    summary: Beriell du-goch lys sy'ch chi iawn amdanynnym nhw.
+    info: Mabwyddwr y gwynllyfranig (Rubs frwtosekos) yw beryll du-goch lys ar fydr rhew hefyd yn cael ei alforio'n "gwinllyfra" neu "bryfleth." Mae'r plant hynny wedi'u dod o dorriannau ac maent yn tyfu gan fasennod llysiau a chroffion. Maeant yn cynnwys nifer uchel o vitamin C, K a thraws.
+  fruit.blueberry:
+    label: Rhody
+    summary: Bobly cynhyrcywch las; ffruydd hyfryd ag olwg da.
+    info: Mawddwyn yw'r rhodri (Vaccinium myrtillus yn wyllt ac ar gyfer gartrefiwn nhw'ch cymeradwyd o V.corymbosum). Mae'n digoniant i anthocyaniynau sy'n dod â chylleu maf dywyll glas at rydynt a phrifolion anghofio. Mae dystiolaeth yn dangystrio effaith positif ar weithgarwch bygythiadig a heintrydd caled.
+  fruit.cantaloupe:
+    label: cantalop
+    summary: Ryfel llynges-goch hirnodfol gyda llifogydd cyffwrdd.
+    info: Mae Kantalop yn rymmel Cucumis melo variabilis canatalupeysen gydag arwyneb gweithredig ac allforion glas ynddo. Mae'r enw wedi dod o dŷ Pêp Canatalope agored i'ch gweld ger Rhyddyn. Mewn naturiol mae'n rhodri â betacaronen ganrifol a vitamin A.
+  fruit.cherry:
+    label: gredyn
+    summary: Gredyn chylleiddiedig glas ar wael na phlant.
+    info: Mae'r gredyn yn fwyd y trêshni Ptaraiwch sydd wedi dod rhag genedigaeth Prunus ac mae'n gyffrous amiantau ganolaethu a melatonin; mae poblion cymeriadol hefyd fel llygreini.
+  fruit.coconut:
+    label: cocoseg
+    summary: Orenhau trwdig â llafn faserac a thrwm bryn
+    info: |-
+      Mae Kokosiwydd yn fruct ar y palmata cocoseg; mewn bygythiad droseddol ma'ch enw'n 'cwrda', nid cwrdda ond gwartheg
+      Maeth llygreiniad rhithiol iawn yn nhrechu'r cyflwr hael na chymysgarion eletrolig sydd wedi'u cynhyrchu gan ddŵr cocoseg yn nyffredin
+      Dywedir ei gymal ac elfen fyddai nodweddiadau Asia Gorllewinol a De-ddwyrnasiaidd
+  fruit.cranberry:
+    label: bru
+    summary: Rhew crafftroedd hirnodredig - cymeradwr Cenedlaethol America.
+    info: Mae'r brusinkyn yn rhew hefyd yw Vaccinium microcarpon ac mae'n ffrwd greferyddig o fewn yr Unol Daleithiau Americanaidd ar gyfer Genedl Dewi (gymyl cranberry). Mae wedi'u canfod bod ganno anifeiliau anthocyaniwidau sy'n atal adweiniant ecoli dros droed meddiannog Moethwynt.
+  fruit.currant:
+    label: hedw
+    summary: Ffrawd sylfaidd coch, dynladd neu wflat sydd wedi'u trefni.
+    info: Mae'r rhedyn ynddo'n gweithredu fel grŵp o ffrwd yn arwyddion cysonaeth. Mae 'r heddwared' ('ribes') mewn gwahanol ffyrdd - er enghraifft ganrifau ac ornelliau.
+  fruit.damson:
+    label: Damascon
+    summary: Ffrwd du mân tydiol yn ddigon cyffredin yn cwtidiadau.
+    info: Šwsgl Damascan yw damason yn enghraifft ar gyfer rhaglen gartrefi'r Cymru hynnyrwyd gan Asia i Eryri ers yr hen oesoedd.
+  fruit.date:
+    label: Dattley
+    summary: Plith danedig lledig brun â chyseinedd gan yr ogofwr plant Phoenix.
+    info: Mae Dattlyneiddiau yn frwydraethau'r gogwysfa Phoenix dactylifera sydd wedyn yn rhewch yna iawn o ddathlu ar gyfer miloedd o flynyddoedd ger Gogledd Canolbarth Cymru. Mae'n cynnwys mwy na 65% sioc ac felly maen nhw chi'g un cydran hael am eneri.
+  fruit.dragon_fruit:
+    label: ffrd y draig
+    summary: Plant tropegol pink â mathelin bywynrhych.
+    info: Ffrwd y draig (pithayea), sy'n dod yn Ne Meẁxico ac America Canolbarth, mae ei liw rhewiog pink i'w gwarwydd a'i fathel bryn gyda siopau nyfydgar arno yn ddigon anweledig. Mae wedyn enfawr gan efo nodweddi antioxeganethuac a vitamin C.
+  fruit.durian:
+    label: Duriau
+    summary: Plant fawr trechrugiol dan yr aderyn wrth gwneud cynghrair.
+    info: Mae duriau yn cael ei alw'n 'brenhinoedd y frwydrodd'. Mae eu gwaith ar gyfer rhag absoliwitau ond eich bod chi wedi'u cymeradwyo - maen nhw ddim yn mynd i'r hotelion gan Asia amdanyn nhw'nt yn dod â pherthnas rhywbrynhir. Mewn pen-y-bont rydyn ni'n croeso dduriau fel unigolwr sydd ag anhrefni swetl ac enwog.
+  fruit.feijoa:
+    label: feio
+    summary: Ffrawd rhewyll chwithllyn gyda thrwyn aromatif.
+    info: Gynigedir feiofa yn Neath America ac mae ei dŵr ynddo'n amrywiaeth aromatig intensifig sydd â smwyth araniaisauac, gwavasgwaedu a mental. Mae wedi dod i'w pryd New Zealand fel ffrwd awrain ond maen nhai fewnforion Eweridd dim bygythiad.
+  fruit.fig:
+    label: fic
+    summary: Plataniwr hir na all fod nad hyrffan nhaw
+    info: Mae Fícus Caricâidd yn un o'r frwydrau gynharach wedi'u gario ar gyfer grwm y byd; mae adnodion i'w chweil dros miloedd. Dyma ni fydd ei enw'n rhifel - onid dim ond cwareli wnaethedig gan filweddi sylfaenol am dan eu llygaid. Mae llafnau Adam ac Eveyntiaeth yn Llefarydd Biblaidd yn ddathlu plant fífes.
+  fruit.gooseberry:
+    label: gogwydd
+    summary: Ffwrdd rhewrog glân sy'ch chi am weld yn nythau.
+    info: Mae'r gogwyddo'n yw goeth yn cael ei ddefnyddio mewn llygreiniad ac wedi'i wneud gan ffrwd ar gyfer hynny.
+  fruit.grape:
+    label: tros
+    summary: Boblydd droed sy'nfeyrnodoli o fewn nodweddiadau.
+    info: Gynhebodd y gweinwraeth rech yn rhannau gwahanol - gan olwyn i ddimwyd porffor. Mae'r trosi'n cael eu bwyta'n gynta neu'u heini ar gyfer grwmiau ac mewnio.
+  fruit.grapefruit:
+    label: grip
+    summary: Fruit citrws fawr dyfrwch-dyfrwch
+    info: Mae Grepidau (Citus Paradisii) yn hybryd o garedin ac amharadwydd. Cafodd ei ddargedu ym Meurthio Barbadys ar gyfer yr ail canrif. Mae copaeth a cherwynion gripidiau'n cyn洗含lycopene a bêta-carotena.
+  fruit.guava:
+    label: gawawa
+    summary: Plith llynges troa neu wnaeth bryn nhew.
+    info: |-
+      Mae'r gawawa yn dod o Frynych America ac mae wedi'i ysgolor rhagymeddi ar draws Asia Tropaiddig a Afrika
+      Gynwedd ei chysylltiad â phwer Weriniaeth Pomerania gyda thrwyddo amser byth.
+      Pellter cromlinol sy'n cael eu cyffwrdd gan bobl.
+  fruit.jackfruit:
+    label: jackfruit
+    summary: Tropical fruit that can weigh up to thirty five kilograms making it largest known edible fruit
+    info: Produced by Artocarpus hetrophyllos tree which is native to South East Asia but now grown across many countries including India Thailand Bangladesh Sri Lanka Vietnam Malaysia Indonesia Philippines China Japan Korea Australia New Zealand Hawaii Mexico Brazil Colombia Ecuador Peru Bolivia Paraguay Argentina Chile Uruguay Venezuela Costa Rica Panama Nicaragua Guatemala Honduras El Salvador Belize Jamaica Dominican Republic Haiti Cuba Puerto Rico Trinidad Tobago Guyana Suriname French Guiana
+  fruit.kiwi:
+    label: Kiw
+    summary: Ffwrdd brun hirnodig â llifino gwenhewch; rhyfeddig am gymaint.
+    info: Mae Kiwydd yn dod yno China lle mae ei enw'n 'Yang Tao' neu 'Chinese Gooseberry'. Roedd New Zealand wedyn yn commercialio'r ffruith ac roedden nhw hefyd yn adnewydo'i name ar ôs yr eiddo penrhagor cenedlaethol - kiwydd. Mae hi'n cynnwys dwbl vitamin C gyda phomerydd.
+  fruit.lemon:
+    label: Citrwn
+    summary: Ffrwd cyngethredig cyseinedd rhagorach gan Asia.
+    info: Mae Citroen yn fwydd plantig o Aserbaijan sy'n gogwrog ac m'chwaraeth yna nhymheithrio C a chwisglin citoeddol. Ddefnyddir ei beryddiau yn nythrin, dŵr, dyfaisio a threchu'r tŷ.
+  fruit.lime:
+    label: Lymeth
+    summary: Frwydr cyseinedd cwbl fach ganrif ryngweledig; allfor nodweddiadol cefaisio tropyg.
+    info: Mae y lymeth yn frwydrodd gwenithig o feirw glas sy'n cynhyrchu źyw iawn ac aromataidd. Mae weddillion nhomau'r tymor rhagolion fel Mecsico, Thailwsac a Vietnam ddim oni hefyd am ei chlymiant unigryw. Er bod e na cherdd fodlon â llai o vitamin C nag orchlynedd, mae ei aromatiaeth yn hyrffyfriad hael.
+  fruit.longan:
+    label: Logan
+    summary: Ffrudd trogryth nhebyllgar wnaeth chi fynd iawn am dan lichy.
+    info: |-
+      Longan (dimocarpus logan) yw ffrwd o gogwyddo'r Tropig sy'n dod yn Tsieina
+      Cyn cymerir ei enw gan Saith Cymraeg - 'log' ddaeth rhag 'dra', ac mae e wedi cael ei alaw ar gyfer ei ddifrod cliriol ag esgidiau gwyrdd.
+  fruit.lychee:
+    label: lichi
+    summary: Ffrawd coch trogedig sydd ag enw 'dugeiniau'
+    info: '{"hint":"glewchrwydro goch ysgafnadwydd nodedig â chymal ddŵr yn ei heintiau","info":"Y lici ar gyfer Litchi chinensis mae''n ffrwd o''r Taw STRIPED RED CHINENESIS\nGlyngir ei gymyl gochyddol i adweilio cromlin bryn cliriad\nmynach chi na fyddai eich dilynwyr yn dod yn hygredig ac yn aromatig\nin China maes hwn nhw symbol o''ch cyflwr hedfan."}'
+  fruit.mango:
+    label: mango
+    summary: Plant tropegydd â ffrwd gogwyddwr-goch
+    info: '{"info":"Wnaeth mango Indic yn y "brenhinoe Tropicau", mae''n digon rhagorol ar gyfer vitamin A ac E i''w wladgwyll gan Asia Gorllewinig ble''r yw wedi cael ei chweilgaru am miloedd."'
+  fruit.medlar:
+    label: mispul
+    summary: Fruit gach brun fel sioplowg nad yw hi'n dodrifad hyd yn einith.
+    info: "Pwyllgor mişfylauwch yw Mespilus germonig yn enghraifft o ddynllynedd hŷnt sydd wedi cael ei heisteddu ers yr Hen Oesoedd\nGellir eu hesygu nes eu bod nhw'n mynd i'r blaen rhag dro llog \na'u chweilu ar ôs am gymaint ag angen er mwyn iddynt fynd dan fodd."
+  fruit.melon:
+    label: melon
+    summary: Ffrudd tyfed â llifogydd llygreddu, gwyrdd neu bryn.
+    info: Melyn (cucumis mele) yw ffrwd trydyddol neu hefyddfol gyda phwynt gwaedu uchel yn dod o Affrica ac Asia sy'n cael ei redeg ar draws byd heddiwn nhw'r nos. Mae wedyn mewn rhagymnyth na nifer hael o enwasau fel canthalous, honedwedh, gallaethyngiad gan Galia a Charentaise.
+  fruit.mulberry:
+    label: Rhoswyll Tŷ-Moruș
+    summary: Rhewch llygreddiol alltysgar oddi wrth unigedigaeth
+    info: |-
+      Wynod yw Morus sydd yn rhoswyll mabell; maent hefyd yn barod i'r gogwyddorau o fewn Hedfan Mabelli
+      Gallai fod yn las, coch neu'n nyffredin, ond mae'r tŵl wedi'i wneud gan y nifel ryngweithiau ar gyfer ei wasgredoedd
+      Cafodd plant anifeiliaeth amheddan eu cael dan fyw dros hynny oherwydd cydran cynnar
+  fruit.nectarine:
+    label: nectarine
+    summary: Arafydd cyffredin heb ddynfrynion - llawr a threth
+    info: |-
+      Nectarine (Necktariau Prunus persica variatael nuctarisca) yw'r mwyddwr rhewglyn â pherthnas glân yn ei enweddiadaeth naturiol
+      Y darganlydir chi'n gwahanol gan arafydd am un gene sy'n cynrychioli perthiniaeth pen drud
+      dim ond bod hi hefyd yn gweledig iawn gyda'i waelodau tebyg ac eithriad ffrwdach
+  fruit.orange:
+    label: Lichyee
+    summary: Mae lichee yn llwyn cwrwedig gyda cheredn nes byth.
+    info: '{"hint":"llwyngoch rhew hefyd â charedn ynydd coch fawr sy''n dod o''r gorllewin Ewrop "",""},{"info":,"lychee mae ei wreiddiau yn debyg i''ch hedfan nhomatoedd ac maen nhw''n gweithredu fel hedfan."'
+  fruit.papaya:
+    label: pawpai
+    summary: Ffrwd trydyddol fach â dŵr nwyredig.
+    info: Mae pawpaiau yn dod o Amerigaeth y Tropicsau ac maen nhw'n cynnwys enymau fel papaïna ar gyfer cefni prosweiniau. Mewn rhew hefyd mae'u cyffwrdd am vitamin C, bêta karotenaiddant a phrofiantaedd antioxydatif.
+  fruit.passion_fruit:
+    label: muçenka
+    summary: Plentyn trōpogydd ag alwenio ddŵr llygreiddiedig ac aromatrig.
+    info: Mucenka yw Passifloro edulis sy'n dod o'r Tropicau yn Ne America. Mae enw ei gilydd wedi'i ddisgrifiad gan fywydrion lle roedden nhw'n gweld symboleu Utrudoedd Christ yn ei llawer. Mae eich rhew hefyd yn gyflwr â chymylau ar gyferantogiant ryngweithgar.
+  fruit.peach:
+    label: perasn
+    summary: Fflur coch-goch lliwan
+    info: |-
+      Mae perasau yno yn dod o Tsieina lle mae'n gymeradwyaeth i'nhymddynedd
+      mae ei ffrwydroth sylfaenig ambylo ar waelod yn nodweddiadol
+      dim ond rhai gwyn ac ochrach sydd wedi'u dargedu;
+      mewn Cychdyniau'r flwr yn rhan o Dyngarth Genedlaethol.
+  fruit.pear:
+    label: pear
+    summary: Ffruddiau teithroslwyn â sylfaen syth.
+    info: Mae'r pear yn ffrwd rhew hefyd yw Pearmain cenedlaethol gyda dŵr glas ac arwyddocaeth i'ch llygaw podwrnaeth uchel; mae ganddo eiliadau canfedig.
+  fruit.persimmon:
+    label: Tōmel
+    summary: Oraenwig rybuddus sy'n tebyg i raiwt; swetgar a phwrpas.
+    info: Mae Tomel yn dod o Tsieina ac Iaponia; mewn Tsechia yw ei enw 'tōmel Japaneg'. Mae'r toml nad wedi cyrraedd yn gogwyddo a chynhyrchol i'ch ddyryd chi nhw dan niwlodau, ond pan fyddant yn rhewydd byddent yn swetgar ar gyfer eu bethu fel melin. Mae'n hael am gymaint ag anorganigeddiweddi A,C gan ddifrod â llawer minerau.
+  fruit.pineapple:
+    label: ananat
+    summary: Plithen trogryc gyda chorona gogwyll a dŵrin canellt.
+    info: Mae ananas wedi dod o Ameryga Barbarig ac yn cael ei redeg nawr mewn cysylliad â'r tropyddion ar draws y byd heddiw. Mae'n cynnwys enzwm gan yr enw bromelain sy'n help i geisio.
+  fruit.plum:
+    label: şžęştka
+    summary: ffrod glasoch; bâs ar gyfeiriadau Slivovitz a Pöwidł
+    info: Mae'r źŵstka yn ffrwd rhewgol yng Nheithre Ewrop ar gyfer Slivovitz (destylat ôl řźwestki), sydd hefyd yn gweledig fel cynefin tradodiadol Czech ac Slofacec. Mae pōvidła Žẁestków yn enghraifft arall gan ddelwedduau bygythiad hafanwyntig. Mewn gwirionedd mae nifer sylfaenol o filoethiôr ŕżwestki'n dod i'ch dioddef am bob log.
+  fruit.pomegranate:
+    label: tŷgranynt
+    summary: Ffrwd coch gyda milfedd glasoch feddi
+    info: |-
+      Mae'r tywyll grannatigol yn dod o Ewrop ar y llawr ac Asia canolog
+      Ganrifir gan dros 600 gogynfydd rhewrog danryngedig wedi'u cymeradu'n rhybuddiaeth antioxeganedd
+  fruit.quince:
+    label: Cydonia
+    summary: Plant ryfeloch aur fyddai'n cefnfor poblynedd heb fod yn tyfu
+    info: |-
+      Mae Cydonieau yn gilydd â bêrh ac afwynglinfryn; yw'r ffrwd ar gyfer ei'ch dod i law wedyn yn ddifrifol ag anafriadol
+      Gymysgir cydoniadau'n eithriadol gan eu pectinaeth uchel - er enghraffnod amharu rhagor o boblynyddoedd fel membrillos cynhyrchir hefyd winion a lliwigrymon
+      Ymhlith yr unig rôl hedfan penywaidd yn Ewropa roedden nhomatau cydoniadau yn cael eu nodi yn y pedwarfed canmil
+  fruit.rambutan:
+    label: Rambytan
+    summary: Plith redfol traddol â cherddoriaeth fathlychi
+    info: Mae'r rambutan yn dod o Malaia ac fe'i enwir wedyn y gair Malay 'rambut' sy'n ei hunodi i ddysgoliau. Mae ei dorlas coch yn caffwyd rhag dymhernodau bygythiadig ar gyfer amharu. Mae sylfaen yr uned yn glaredus a threchu fel lychi.
+  fruit.raspberry:
+    label: mawddwyn
+    summary: Bobliad coch sydyn wedi'i chymysgu â thraws.
+    info: Mawddwyn yw Rubus Idaeus ac maes yn cael ei ffurfio o ddrychweddau bysglennol (drupels). Mae'n groesi ar gyfer rhag absoliwn oni roedden nhom niwedig chi hefyd amdanyno'r un fath plant. Mwyaf gan Rhodri Ddyfrodd cynhyrchir gamplynnu cyffredin fel cremaeth rhiblys.
+  fruit.starfruit:
+    label: cariad
+    summary: Ffruc trofedig chwith sy'n fathredu gwastafflynnau wrth i'w dorri.
+    info: Cariadwydd Averrhoa carambolae o Ewrop ar hyd yn y Byd Gorllewinol ac yr Asia Baroch. Mae'n creu ffurf gwastaffl pan gartrefirnaeth ei ddifrod rhagoll dros droed (felly'r enw 'ffruct gwastaf'). Mae wedyn cyseineddig-oneddus gan gymharu at vitamin C.
+  fruit.strawberry:
+    label: '"Redyn"'
+    summary: '"Boblydd red â ffordd serdiadol sydd ag eiddoedd ar ei wyneb"'
+    info: '{"info":"Mae Jahody yn rhew hefyd gan y teulu Roseaceae ac mae nhw''n ddrutant ar gyfer vitamin C a gwasgennodau; maent yn cael eu geisio''r noson a''u smello ddwyfryngedig."'
+  fruit.tamarind:
+    label: tamirhend
+    summary: Glym brôg gyda thrwm gwisgo - Tamirhind
+    info: Mae Tamerhind yn dod o Aferica trwy'r tywiau ac mae'n cael ei redeg ar draws y byd trywiol heddiw.
+  fruit.tangerine:
+    label: mandarin
+    summary: Citrus cryfaf â chwerthin laswellt; cymeriad nadollgar.
+    info: Y mandariniau (citrus reticulatew) yw citruseg gryf sydd yn ddifrifol i'ch ludo o'r Unysau rhagor ac mae'n dod o Tsieinaeth. Mae hefyd yn gymeriad ar Gyngres Pen Fyd Tseineaidd a phwynt dda. Yn yr UDA dydy e fach chi ei weld fel un o fructoriau Nadollgar.
+  fruit.watermelon:
+    label: Melon Vodni
+    summary: Ffrwd rhewg-glythfol gyda pherthin go danwynedig a siâpiau encri.
+    info: '{"hint":"melon gwydr","info":"Mae melon y wyrdd yn dod o Affrica ac mae''n bêl arno''r tymor hafnachol. Mae wedi''i sefyll gan 92% dŵr er hyd yn ei chynnwys lycopene sy''n cynyddu eu llanrod."}'

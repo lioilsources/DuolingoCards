@@ -663,6 +663,552 @@
         "vi": "Cầu vồng hình thành do sự khúc xạ và phản xạ ánh sáng mặt trời trong các giọt nước mưa. Nó gồm bảy màu – đỏ, cam, vàng, lục, lam, chàm và tím.",
         "zh-CN": "彩虹是由于太阳光在雨滴中的折射和反射而形成的。它包含七种颜色——红色、橙色、黄色、绿色、蓝色、靛蓝和紫色。"
       }
+    },
+    {
+      "key": "weather.hailing",
+      "image": "weather.hailing.png",
+      "label": {
+        "cs": "krupobití"
+      },
+      "summary": {
+        "cs": "Srážky ledových zrn; kroupy mohou poškodit úrodu a vozidla."
+      },
+      "info": {
+        "cs": "Krupobití je srážka tvořená ledovými zrny (kroupami) vytvářenými v bouřkových oblacích.\nKroupy vznikají, když vodní kapky opakovaně přecházejí chladnou a teplou částí oblaku.\nMohou dosáhnout průměru přes 10 cm a způsobit vážné škody na úrodě, vozidlech i střechách.\nNejvětší zaznamenaná kroupy měla průměr přes 20 cm.\n"
+      }
+    },
+    {
+      "key": "weather.thunderstorm",
+      "image": "weather.thunderstorm.png",
+      "label": {
+        "cs": "bouřka"
+      },
+      "summary": {
+        "cs": "Intenzivní atmosferický jev s blesky, hromem, deštěm a větrem."
+      },
+      "info": {
+        "cs": "Bouřka vzniká v kumulonimbech, mohutných oblacích dosahujících výšky přes 10 km.\nBleskový výboj je elektrostatická porucha; blesk ohřeje vzduch na 30 000 °C za zlomek sekundy.\nHrom je zvukový efekt rychlé expanze zahřátého vzduchu.\nBouřky vznikají v létě, kdy slunce ohřívá půdu a způsobuje konvektivní proudy.\n"
+      }
+    },
+    {
+      "key": "weather.lightning",
+      "image": "weather.lightning.png",
+      "label": {
+        "cs": "blesk"
+      },
+      "summary": {
+        "cs": "Elektrostatický výboj mezi mrakem a zemí nebo mezi mraky."
+      },
+      "info": {
+        "cs": "Blesk je silný elektrický výboj vznikající, když rozdíl nábojů v bouřkovém oblaku dosáhne kritické hodnoty.\nRychlost blesku je přibližně třetina rychlosti světla.\nNa Zemi udeří přibližně 100 blesků za sekundu.\nHromosvod (Franklin, 1752) je prvním vědecky navrženým ochranným zařízením.\n"
+      }
+    },
+    {
+      "key": "weather.frosty",
+      "image": "weather.frosty.png",
+      "label": {
+        "cs": "mrazivé ráno"
+      },
+      "summary": {
+        "cs": "Povrchový jinovatka; ledové krystaly pokrývají rostliny a zem."
+      },
+      "info": {
+        "cs": "Jinovatka vzniká, když teplota povrchu klesne pod bod mrazu a vzdušná vlhkost zkrystalizuje.\nTvoří nádherné vzory na listech, sklech a povrchu půdy.\nLiší se od inea (mrazu): jinovatka je sublimovaný vzdušný led, inej je zmrzlá rosa.\nJinovatka je pro rostliny nebezpečná; zemědělci ji monitorují k ochraně úrody.\n"
+      }
+    },
+    {
+      "key": "weather.icy",
+      "image": "weather.icy.png",
+      "label": {
+        "cs": "náledí"
+      },
+      "summary": {
+        "cs": "Nebezpečný led na površích způsobující klouzání."
+      },
+      "info": {
+        "cs": "Náledí vzniká zmrznutím dešťových kapek nebo tání sněhu na studených površích.\nJe jednou z nejnebezpečnějších zimních situací pro dopravu.\nKluzavost ledu je způsobena tenkou vrstvou kapalné vody na jeho povrchu.\nPosyp solí nebo pískem snižuje nebezpečí klouzání.\n"
+      }
+    },
+    {
+      "key": "weather.humid",
+      "image": "weather.humid.png",
+      "label": {
+        "cs": "vlhkost"
+      },
+      "summary": {
+        "cs": "Vzduch nasycený vodní parou; horký a dusný pocit."
+      },
+      "info": {
+        "cs": "Vlhkost (humidity) měří obsah vodní páry ve vzduchu.\nRelativní vlhkost 100 % znamená nasycení vzduchu; při překročení kondenzuje voda.\nVysoká vlhkost zvyšuje pocit horka, protože pot se neodpařuje.\nTropické oblasti mají celoroční vysokou vlhkost; u nás je nejvyšší v létě.\n"
+      }
+    },
+    {
+      "key": "weather.hot",
+      "image": "weather.hot.png",
+      "label": {
+        "cs": "horko"
+      },
+      "summary": {
+        "cs": "Extrémní teplo způsobující npohodlí a zdravotní rizika."
+      },
+      "info": {
+        "cs": "Extrémní horko je meteorologický jev s teplotami výrazně nad sezonním průměrem.\nV kombinaci s vlhkostí může způsobit úpal (heat stroke) ohrožující život.\nV Česku přesáhly teploty v horkých vlnách 38 °C.\nGlobální oteplování zvyšuje frekvenci a intenzitu veder.\n"
+      }
+    },
+    {
+      "key": "weather.cold",
+      "image": "weather.cold.png",
+      "label": {
+        "cs": "zima"
+      },
+      "summary": {
+        "cs": "Extrémní chlad s teplotami hluboko pod bodem mrazu."
+      },
+      "info": {
+        "cs": "Extrémní chlad (mrazy) nastávají, když arktický vzduch pronikne do mírných šířek.\nNejnižší přirozeně naměřená teplota na Zemi: -89,2 °C na stanici Vostok v Antarktidě.\nOrganismus reaguje na chlad zúžením krevních cév a třesením.\nHypotermie nastává, kdy tělesná teplota klesne pod 35 °C.\n"
+      }
+    },
+    {
+      "key": "weather.tornado",
+      "image": "weather.tornado.png",
+      "label": {
+        "cs": "tornádo"
+      },
+      "summary": {
+        "cs": "Ničivý rotující vzduchový sloup sahající od oblaku k zemi."
+      },
+      "info": {
+        "cs": "Tornádo je rychle rotující sloupeček vzduchu vzniklý z bouřky dotýkající se zemského povrchu.\nRychlost větru může přesáhnout 500 km/h.\nNejčastěji se vyskytuje v Tornado Alley v USA (Kansas, Oklahoma, Texas).\nV Česku tornáda existují, ale jsou vzácná; v létě 2021 zasáhlo jižní Moravu silné tornádo.\n"
+      }
+    },
+    {
+      "key": "weather.hurricane",
+      "image": "weather.hurricane.png",
+      "label": {
+        "cs": "hurikán"
+      },
+      "summary": {
+        "cs": "Mohutný tropický cyklon s větry přes 120 km/h."
+      },
+      "info": {
+        "cs": "Hurikán je tropický cyklon v Atlantiku a východním Pacifiku s větry přes 120 km/h.\nTéž zvaný tajfun (západní Pacifik) nebo cyklón (Indický oceán).\nEnergie hurikánu odpovídá desítkám atomových bomb za den.\nNejsilnější hurikány dosáhly 5. kategorie s větry přes 250 km/h.\n"
+      }
+    },
+    {
+      "key": "weather.blizzard",
+      "image": "weather.blizzard.png",
+      "label": {
+        "cs": "sněhová bouře"
+      },
+      "summary": {
+        "cs": "Silná sněhová bouře s hustým sněhem a větrem téměř nulovou viditelností."
+      },
+      "info": {
+        "cs": "Sněhová bouře je silný sněhový jev kombinující husté sněžení a silný vítr.\nZpůsobuje téměř nulovou viditelnost (whiteout) a vysoké sněhové závěje.\nHistoricky způsobovaly sněhové bouře smrt tisíců lidí.\nBlizzard of 1888 v USA pohřbil New York pod 130 cm sněhu.\n"
+      }
+    },
+    {
+      "key": "weather.heatwave",
+      "image": "weather.heatwave.png",
+      "label": {
+        "cs": "vedra"
+      },
+      "summary": {
+        "cs": "Prolongovaná période nadprůměrného horka; zdravotní riziko."
+      },
+      "info": {
+        "cs": "Vlna veder je prolongovaná perioda extrémního horka přesahující normální sezonní teploty.\nEvropská vlna veder 2003 způsobila přes 70 000 přemrštěných úmrtí.\nZvláště nebezpečná pro seniory, děti a nemocné.\nGlobální oteplování způsobuje prodlužování a zesilování veder.\n"
+      }
+    },
+    {
+      "key": "weather.drought",
+      "image": "weather.drought.png",
+      "label": {
+        "cs": "sucho"
+      },
+      "summary": {
+        "cs": "Dlouhodobý nedostatek srážek způsobující nedostatek vody."
+      },
+      "info": {
+        "cs": "Sucho je meteorologická situace s dlouhotrvajícím deficitem srážek.\nVede ke ztrátám úrody, nedostatku vody a požárům.\nV Česku bylo sucho v letech 2015-2020 nejhorší za 500 let.\nGlobální oteplování zhoršuje sucha v mnoha oblastech světa.\n"
+      }
+    },
+    {
+      "key": "weather.flood",
+      "image": "weather.flood.png",
+      "label": {
+        "cs": "záplava"
+      },
+      "summary": {
+        "cs": "Přelití vody z koryt vodních toků na normálně suché území."
+      },
+      "info": {
+        "cs": "Záplava vzniká při nadměrných srážkách, tání sněhu nebo selhání hrází.\nPovodně jsou nejnákladnější přírodní katastrofou na světě.\nV Česku způsobily povodně 1997 a 2002 miliardové škody a desítky mrtvých.\nPřírodní protipovodňová opatření (mokřady, lesy) pomáhají snižovat riziko.\n"
+      }
+    },
+    {
+      "key": "weather.sandstorm",
+      "image": "weather.sandstorm.png",
+      "label": {
+        "cs": "písečná bouře"
+      },
+      "summary": {
+        "cs": "Zeď písku a prachu hnána silným větrem v pouštních oblastech."
+      },
+      "info": {
+        "cs": "Písečná bouře vzniká, když silný vítr zdvihne obrovské množství prachu a písku.\nHabub je specifický typ písečné bouře v Sahelu a Arabském poloostrově.\nMůže pohřbít vesnice a způsobit respirační problémy.\nHaboob v Arizoně (USA) jsou výjimečným přírodním divadlem.\n"
+      }
+    },
+    {
+      "key": "weather.partly_cloudy",
+      "image": "weather.partly_cloudy.png",
+      "label": {
+        "cs": "polojasno"
+      },
+      "summary": {
+        "cs": "Obloha částečně pokryta oblaky; střídání slunce a stínu."
+      },
+      "info": {
+        "cs": "Polojasno je meteorologická situace s 3/8 až 5/8 oblačnosti.\nJe jedním z nejpříjemnějších typů počasí pro venkovní aktivity.\nObsahuje kumulové oblaky (cumulus), které se vyvíjejí v teplejší části dne.\nMeteorologové sledují oblačnost v okás (1 okta = 1/8 pokrytí oblohy).\n"
+      }
+    },
+    {
+      "key": "weather.overcast",
+      "image": "weather.overcast.png",
+      "label": {
+        "cs": "zataženo"
+      },
+      "summary": {
+        "cs": "Obloha kompletně pokrytá šedými mraky bez přímého slunce."
+      },
+      "info": {
+        "cs": "Zatažená obloha nastane při 7/8 nebo 8/8 oblačnosti.\nSvětlo je difúzní a nevytváří stíny.\nV geograficky závislé depresivní poruše (SAD) hraje nedostatek slunce klíčovou roli.\nSvetlosní terapie simuluje sluneční světlo a pomáhá.\n"
+      }
+    },
+    {
+      "key": "weather.sleet",
+      "image": "weather.sleet.png",
+      "label": {
+        "cs": "mrznoucí déšť"
+      },
+      "summary": {
+        "cs": "Směs deště a sněhu; částečně roztátá sněhová zrna."
+      },
+      "info": {
+        "cs": "Mrznoucí déšť (sleet) vzniká, když sněhové vločky procházejí teplou vrstvou vzduchu a částečně se roztaví.\nPokryje povrchy tenkou vrstvou ledu (náledí).\nJe nebezpečný pro dopravu.\nV češtině se sleet označuje jako mrznoucí déšť nebo průtrž mraku.\n"
+      }
+    },
+    {
+      "key": "weather.drizzle",
+      "image": "weather.drizzle.png",
+      "label": {
+        "cs": "mrholení"
+      },
+      "summary": {
+        "cs": "Velmi lehký déšť v drobných kapičkách."
+      },
+      "info": {
+        "cs": "Mrholení je srážka s velmi drobnými kapkami menšími než 0,5 mm.\nNevzniká z konvektivních cumulonimbů, ale z nízké stratiformní oblačnosti.\nJe typické pro oceánické klima (Velká Británie, severozápad Francie).\nPřes svou jemnost může způsobit výrazné nasáknutí.\n"
+      }
+    },
+    {
+      "key": "weather.shower",
+      "image": "weather.shower.png",
+      "label": {
+        "cs": "přeháňka"
+      },
+      "summary": {
+        "cs": "Krátký intenzivní déšť z kumulonimbového oblaku."
+      },
+      "info": {
+        "cs": "Přeháňka je krátká intenzivní srážka z konvektivního oblaku (cumulus nebo cumulonimbus).\nNastane rychle a odezní za minuty až hodiny.\nJe typická pro léto: solární ohřev způsobuje konvekci a tvorbu cumulonimbů odpoledne.\nPo přeháňce se může objevit duha.\n"
+      }
+    },
+    {
+      "key": "weather.sunrise",
+      "image": "weather.sunrise.png",
+      "label": {
+        "cs": "svítání"
+      },
+      "summary": {
+        "cs": "Moment, kdy se slunce zvedá nad horizont na začátku dne."
+      },
+      "info": {
+        "cs": "Svítání je astronomický okamžik, kdy sluneční kotouč překročí horizont.\nJeho barevnost (oranžová, růžová) způsobuje Rayleighův rozptyl světla.\nV polárních oblastech nastává svítání ve specifické sezoně (polární den a noc).\nZelený záblesk (green flash) je vzácný optický jev viditelný při svítání v čisté atmosféře.\n"
+      }
+    },
+    {
+      "key": "weather.sunset",
+      "image": "weather.sunset.png",
+      "label": {
+        "cs": "západ slunce"
+      },
+      "summary": {
+        "cs": "Moment, kdy slunce zmizí pod horizont na konci dne."
+      },
+      "info": {
+        "cs": "Západ slunce je denní okamžik, kdy slunce klesne pod horizont.\nBarevná paleta (oranžová, červená, fialová) je způsobena rozptylem slunečního světla.\nNejkrásnější západy slunce nastávají po sopečných erupcích, kdy prach v atmosféře zesiluje barvy.\nZápad slunce byl od starověku symbolem konce, klidu a romantiky.\n"
+      }
+    },
+    {
+      "key": "weather.aurora",
+      "image": "weather.aurora.png",
+      "label": {
+        "cs": "polární záře"
+      },
+      "summary": {
+        "cs": "Přírodní světelný jev způsobený slunečním větrem v magnetosféře."
+      },
+      "info": {
+        "cs": "Polární záře (aurora borealis na severu, aurora australis na jihu) vzniká, když nabitické sluneční částice interagují s atmosférou.\nVytváří záclony a spirály zelené, fialové a červené barvy.\nNejlépe viditelná v polárních oblastech (Norsko, Island, Kanada, Antarktida).\nIndiáni ji považovali za tančící duchy předků.\n"
+      }
+    },
+    {
+      "key": "weather.misty",
+      "image": "weather.misty.png",
+      "label": {
+        "cs": "mlhavo"
+      },
+      "summary": {
+        "cs": "Nízká viditelnost kvůli tenké mlze nebo světlé mlze."
+      },
+      "info": {
+        "cs": "Mlhavé počasí nastává při kondenzaci vodní páry v přízemní vrstvě vzduchu.\nOd husté mlhy se liší tím, že viditelnost je omezena, ale ne pod 1 km.\nČasto se tvoří nad řekami, rybníky a v dolinách za studených nocí.\nMlhavé ráno nad českou krajinou je typickým obrazem podzimu.\n"
+      }
+    },
+    {
+      "key": "weather.freezing",
+      "image": "weather.freezing.png",
+      "label": {
+        "cs": "mráz"
+      },
+      "summary": {
+        "cs": "Teploty pod bodem mrazu způsobující zmrznutí vody."
+      },
+      "info": {
+        "cs": "Mráz nastává při teplotách pod 0 °C, kdy se voda přeměňuje na led.\nBiologicky ohrožuje rostliny, příledí způsobuje dopravní nehody.\nNejsilnější mrazy v Česku bývají v lednu (historické minimum přes -42 °C v Litvínovicích 1929).\nSníh je tuhé skupenství vody; jeho tvorba v oblacích závisí na teplotě a kondenzačních jádrech.\n"
+      }
+    },
+    {
+      "key": "weather.muggy",
+      "image": "weather.muggy.png",
+      "label": {
+        "cs": "dusno"
+      },
+      "summary": {
+        "cs": "Nepříjemně horký a vlhký vzduch způsobující pocit udušení."
+      },
+      "info": {
+        "cs": "Dusno je kombinace vysoké teploty a vysoké relativní vlhkosti.\nVysoká vlhkost zabraňuje odpařování potu, takže tělo nemůže efektivně chladit.\nIndex tepla (heat index) kombinuje teplotu a vlhkost pro vyjádření pocitové teploty.\nDusno je typické pro tropické a subtropické oblasti v létě.\n"
+      }
+    },
+    {
+      "key": "weather.breezy",
+      "image": "weather.breezy.png",
+      "label": {
+        "cs": "větřík"
+      },
+      "summary": {
+        "cs": "Příjemný mírný vítr osvěžující teplý den."
+      },
+      "info": {
+        "cs": "Větřík je mírný vítr o rychlosti 6 až 11 m/s (Beaufort 3-4).\nZpůsobuje pohyb listů, vlasů a lehkých předmětů.\nFyziologicky snižuje pocit horka odpařováním potu.\nBeaufortova stupnice (1806) klasifikuje vítr do 12 stupňů; větřík je 3 (lehký vánek) nebo 4.\n"
+      }
+    },
+    {
+      "key": "weather.gloomy",
+      "image": "weather.gloomy.png",
+      "label": {
+        "cs": "chmurno"
+      },
+      "summary": {
+        "cs": "Temné zatažené počasí s depresivní atmosférou."
+      },
+      "info": {
+        "cs": "Chmurné počasí je charakteristické nízkými tmavými oblaky, tlumeným světlem a mrazivou nebo deštivou atmosférou.\nAsociuje se s melancholií a podzimem.\nSAD (Seasonal Affective Disorder) je porucha způsobená nedostatkem slunce v zimě.\nGothická literatura a gotická hudba čerpají z estetiky chmurného počasí.\n"
+      }
+    },
+    {
+      "key": "weather.clear",
+      "image": "weather.clear.png",
+      "label": {
+        "cs": "jasno"
+      },
+      "summary": {
+        "cs": "Dokonale čistá obloha bez jediného oblaku."
+      },
+      "info": {
+        "cs": "Jasno je meteorologická situace s oblačností menší než 1/8 pokrytí oblohy.\nUmožňuje nejsilnější sluneční záření a nejlepší astronomická pozorování.\nV noci při jasnu je tepelné záření silnější; teploty klesají rychleji.\nJasná obloha je v češtině spojena s pohodou a příznivými podmínkami pro outdoor aktivity.\n"
+      }
+    },
+    {
+      "key": "weather.dew",
+      "image": "weather.dew.png",
+      "label": {
+        "cs": "rosa"
+      },
+      "summary": {
+        "cs": "Vodní kapičky kondenzující na povrchu za studenou noc."
+      },
+      "info": {
+        "cs": "Rosa je voda kondenzující ze vzduchu na studených površích za klidných nocí.\nTvoří se, když povrch vychladne pod rosný bod (dew point).\nJe důležitým zdrojem vody pro rostliny a živočichy v suchých oblastech.\nPastevci v poušti Atacama jímají ranní rosu pomocí sítí.\n"
+      }
+    },
+    {
+      "key": "weather.avalanche",
+      "image": "weather.avalanche.png",
+      "label": {
+        "cs": "lavina"
+      },
+      "summary": {
+        "cs": "Masa sněhu a ledu řítící se z horského svahu."
+      },
+      "info": {
+        "cs": "Lavina je rychlé pohybující se sněhové masy po horském svahu.\nNejnebezpečnější jsou laviny prachového sněhu dosahující rychlosti přes 300 km/h.\nV Alpách zabijí průměrně 150 lidí ročně.\nSignál beeperu (lavinový vyhledávač) je povinným vybavením v lavinovém terénu.\n"
+      }
+    },
+    {
+      "key": "weather.typhoon",
+      "image": "weather.typhoon.png",
+      "label": {
+        "cs": "tajfun"
+      },
+      "summary": {
+        "cs": "Tropický cyklon v severozápadním Pacifiku s větry přes 120 km/h."
+      },
+      "info": {
+        "cs": "Tajfun je název pro hurikán ve Filipínách, Číně, Japonsku a okolí.\nFilipíny jsou zasaženy průměrně 20 tajfuny ročně.\nTajfun Nina (1975) způsobil povodeň v Číně, která si vyžádala přes 229 000 životů.\nNázev pochází pravděpodobně z čínského tai fung (velký vítr).\n"
+      }
+    },
+    {
+      "key": "weather.monsoon",
+      "image": "weather.monsoon.png",
+      "label": {
+        "cs": "monzun"
+      },
+      "summary": {
+        "cs": "Sezonní změna větrů přinášející období intenzivních dešťů."
+      },
+      "info": {
+        "cs": "Monzun je klimatický jev způsobený sezonní reverzi větrů mezi oceánem a souší.\nIndo-Pákistánský monzun přináší od června do září 70 až 90 % ročních srážek.\nNa 700 milionů lidí závisí na monzunu pro zemědělství.\nSelhání monzunu způsobuje sucha a hladomory; silný monzun záplavy.\n"
+      }
+    },
+    {
+      "key": "weather.dust_storm",
+      "image": "weather.dust_storm.png",
+      "label": {
+        "cs": "prašná bouře"
+      },
+      "summary": {
+        "cs": "Zeď prachu hnána silným větrem v suchých oblastech."
+      },
+      "info": {
+        "cs": "Prašná bouře vzniká, když silný vítr zdvihne jemnozrnné suchozemské částice do vzduchu.\nV Saharské Africe se prachu říká harmattan.\nSaharský prach pravidelně překrývá Atlantik a dosahuje Ameriky; výzkumy ukazují jeho vliv na Amazonský les.\nPrašné bouře v USA (Dust Bowl) v 30. letech 20. stol. způsobily ekologickou katastrofu na středozápadě.\n"
+      }
+    },
+    {
+      "key": "weather.haze",
+      "image": "weather.haze.png",
+      "label": {
+        "cs": "opar"
+      },
+      "summary": {
+        "cs": "Snížená viditelnost způsobená prachem, dýmem nebo znečištěním."
+      },
+      "info": {
+        "cs": "Opar je snížená atmosferická průhlednost způsobená prachem, dýmem nebo jemnými aerosolovými částicemi.\nLiší se od mlhy: mlha je tvořena vodními kapkami, opar pevnými nebo kapalnými aerosoly.\nAsijské megaměsto bývají ohrožena smogem (kombinace oparu a průmyslu).\nUPM (fine particulate matter) v oparu je zdravotním rizikem pro dýchací soustavu.\n"
+      }
+    },
+    {
+      "key": "weather.frost_flowers",
+      "image": "weather.frost_flowers.png",
+      "label": {
+        "cs": "ledové květiny"
+      },
+      "summary": {
+        "cs": "Krásné ledové krystaly tvořící se na studených površích."
+      },
+      "info": {
+        "cs": "Ledové květiny (ice flowers) jsou krystalické útvary vzniklé zamrznutím vlhkosti na extrémně studených površích.\nNa arktickém moři vznikají intricate ledové krystalické vzory.\nJsou vizuálně neobyčejně krásné a jsou oblíbeným objektem přírodní fotografie.\nTvoří se jen za specifických podmínek: teplý vlhký povrch a extrémně studený vzduch.\n"
+      }
+    },
+    {
+      "key": "weather.ice_storm",
+      "image": "weather.ice_storm.png",
+      "label": {
+        "cs": "ledová bouře"
+      },
+      "summary": {
+        "cs": "Mrzoucí déšť pokrývající vše tenkou vrstvou průhledného ledu."
+      },
+      "info": {
+        "cs": "Ledová bouře (freezing rain storm) nastane, když teplý vzduch nad studenou vrstvou způsobí déšť, který okamžitě zmrzne.\nV důsledku jsou větve, dráty a vozovky pokryty silnou průhlednou vrstvou ledu.\nVyčerpaná elektrická síť pod tíhou ledu způsobuje blackouty.\nLedová bouře 1998 v Québecu způsobila největší kalamitu v kanadských dějinách.\n"
+      }
+    },
+    {
+      "key": "weather.heat_lightning",
+      "image": "weather.heat_lightning.png",
+      "label": {
+        "cs": "tepelné blesky"
+      },
+      "summary": {
+        "cs": "Vzdálené záblesky bouřky bez slyšitelného hromu."
+      },
+      "info": {
+        "cs": "Tepelné blesky jsou záblesky vzdálené bouřky, jejichž hrom není slyšet kvůli velké vzdálenosti.\nNázev je zavádějící; nejde o specifický typ blesku způsobený horkem.\nSlyšíme jen blesky vzdálené do 16 km; vzdálenější jsou tiché.\nSlouží jako letní noční divadlo viditelné na obzoru za jasného počasí.\n"
+      }
+    },
+    {
+      "key": "weather.waterspout",
+      "image": "weather.waterspout.png",
+      "label": {
+        "cs": "vodní smrš"
+      },
+      "summary": {
+        "cs": "Rotující sloup vody spojující moře nebo jezero s oblakem."
+      },
+      "info": {
+        "cs": "Vodní smrš je rotující vzduchový sloup nad vodní plochou.\nNebezpečná tornická vodní smrš se tvoří z bouřky; slabší fair-weather waterspout z kumulonimbu.\nMůže nasát ryby nebo jiné živočichy a přenést je na pevninu.\nV Jadranu a kolem Floridy jsou vodní smrště relativně časté.\n"
+      }
+    },
+    {
+      "key": "weather.whiteout",
+      "image": "weather.whiteout.png",
+      "label": {
+        "cs": "bílá tma"
+      },
+      "summary": {
+        "cs": "Stav polární bouře, při němž sníh způsobí ztrátu veškerého kontrastu."
+      },
+      "info": {
+        "cs": "Whiteout nastane, když sněhová bouře a reflexe sněhu způsobí, že nebe a země splyne v jedno bílé pole.\nPoskytuje nulovou viditelnost a dezorientaci.\nJe smrtelně nebezpečný v polárním nebo horském prostředí.\nPiloti letadel se mohou v whiteout dezorientovat a ztratit referenci horizontu.\n"
+      }
+    },
+    {
+      "key": "weather.heat_shimmer",
+      "image": "weather.heat_shimmer.png",
+      "label": {
+        "cs": "marení"
+      },
+      "summary": {
+        "cs": "Optické zkroucení vzduchu nad horkými povrchy; optický klam."
+      },
+      "info": {
+        "cs": "Marení (heat shimmer, mirrage) je optický jev způsobený lámáním světla v teplem stoupajícím vzduchu.\nHorký vzduch nad asfaltem nebo pouští má nižší hustotu; světelné paprsky se ohýbají.\nZpůsobuje zdánlivé kaluže na horké silnici (mirrage).\nFata morgana je složitější mirage způsobená teplotními inverzemi.\n"
+      }
+    },
+    {
+      "key": "weather.slush",
+      "image": "weather.slush.png",
+      "label": {
+        "cs": "rozbředlý sníh"
+      },
+      "summary": {
+        "cs": "Částečně roztátý sníh smíšený s vodou; kluzká a nepříjemná zimní povrchová vrstva."
+      },
+      "info": {
+        "cs": "Rozbředlý sníh (slush) vzniká, když teplota stoupne těsně nad bod mrazu a sníh se začne tát.\nJe velmi kluzký a nebezpečný pro chodce i motoristy.\nNa vozovkách způsobuje aquaplaning a snižuje adhezi pneumatik.\nBývá kombinován s posypem solí nebo pískem ke zlepšení trakce.\n"
+      }
     }
   ]
 }

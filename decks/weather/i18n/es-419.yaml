@@ -2,14 +2,141 @@ lang: es-419
 pivot: false
 title: Clima
 cards:
+  weather.aurora:
+    label: luz polar
+    summary: Fenómeno natural causado por el viento solar dentro de la magnétosa.
+    info: La luz polar o la aurora de Boreas y Austral se produce cuando las partículas solares cargadas interactúan con la atmósfera terrestre creando luces coloridas en el cielo nocturno como cortinas verdes, violetas y rojas que son más visibles cerca del polo Norte por ejemplo Noruega, Isla Groenlandia e incluso Canadá donde los indios lo consideraban espíritus danzantes.
+  weather.avalanche:
+    label: Avalancha
+    summary: Cuerpo grande y rápido de hielo o nieve descendiendo desde un cerro.
+    info: Una avalancha es una masa de nieve que se mueve rápidamente por la pendiente montañosa. Las más peligrosas son las llamadas 'avalanches de polvo', cuya velocidad puede superar los 300 kilómetros por hora; en promedio matan al año unos 150 personas solamente en los Alpes.
+  weather.blizzard:
+    label: blizzar
+    summary: Una tormenta blizzard es un fenómeno meteorológico intenso causado por la acumulación de nieve durante días seguidos en condiciones climáticas extremas.
+    info: '{"hint":"tormenta de nieve severa con fuertes vientos y visibilidad casi cero","info":{"label":"Tormenta de Nieve","summary":"Fuerte tormenta de nieve combinando lluvia intensa de nieve y viento que causa una visibilidad prácticamente nula.","content":{}}'
+  weather.breezy:
+    label: refresco
+    summary: Es un suave pero fresco viento típicamente asociado con días cálidos.
+    info: Un refrescante es un viento moderado con una velocidad de entre 6 y 11 km/h que mueve las hojas, el cabello y objetos ligeros. Fisiológicamente reduce la sensación del calor al evaporar sudor.
+  weather.clear:
+    label: cielo despejado
+    summary: Un cielo completamente limpio sin ni siquiera el más pequeño fragmento en forma de nube.
+    info: Cielo despejado es una situación climática con menos de un octavo del cielo cubierto por nubes y permite la mayor irradiancia solar directa posible así como las mejores condiciones para observaciones astronómicas nocturnas.
   weather.cloudy:
     label: nublado
     summary: Cielo cubierto con nubes densas y sin sol directo.
     info: Las nubes son agrupaciones visibles de pequeñas gotitas de agua o cristales de hielo. Más del 60 % del cielo terrestre está siempre cubierto por nubes.
+  weather.cold:
+    label: invierno
+    summary: Bajo nivel térmico ambiental caracterizado principalmente por temperaturas bajo cero.
+    info: El frío extremo ocurre cuando el aire ártico llega hasta latitudes templadas y puede causar helados severos en la superficie terrestre o marina. La temperatura más baja registrada naturalmente es de –89,2 °C alcanzado por primera vez en la estación rusa Voróntsevskaya situada sobre una meseta glacial del interior antárctido. El cuerpo humano responde al frío con un mecanismo fisiológico que incluye contracción periférica vascular seguida rápidamente por escalofríos para generar calor corporal adicional.
+  weather.dew:
+    label: albañuelo
+    summary: Gotitas de agua formadas mediante la condensación sobre las superficies tras una noche fresca.
+    info: La rosa es agua que condensa del aire en superficies frías durante noches tranquilas y sin lluvia. Se forma cuando la temperatura de una superficie cae por debajo del punto de rocío. Es un recurso importante para plantas y animales en regiones áridas; los pastores del desierto de Atacama recogen el albañuelo con redes.
+  weather.drizzle:
+    label: chaparrón
+    summary: Lluvia ligera compuesta por finas partículas.
+    info: El chaparrón es una precipitación con gotas muy pequeñas de menos de 0,5 milímetros y no se forma en las tormentosas norias convectivas sino que proviene del cielo cubierto por capas bajas estratificadas típicos para climas oceanicos como el Reino Unido u Occidente francés.
+  weather.drought:
+    label: sequia
+    summary: Falta persistente de lluvias causando carencia de agua.
+    info: La sequía es una situación climática con déficit prolongado de precipitaciones que llevan pérdidas en la cosecha y escasez hídrica además incendios forestales; entre los años 2015 al 2020 fue el peor periodo seco registrado en Chequia durante mil quinientos años.
+  weather.dust_storm:
+    label: Tormenta de Polvo
+    summary: Muro de polvo movido por un fuerte viento en lugares muy secos.
+    info: '{"hint":"gran nube de polvo y arena transportada por el aire en regiones áridas","info":{"label":"tormenta de polvo","summary":"Una pared de polvo impulsada por un fuerte viento en áreas secas."},"content":{}}'
+  weather.flood:
+    label: inundación
+    summary: Desbordamiento de agua hacia tierras normalmente secas.
+    info: Una inundación ocurre por lluvias intensas, el derretimiento de la nieve o falla en diques. Las inundaciones son los eventos naturales más costosos del mundo. En Chequia las inundaciones ocurridas en 1997 y 2002 causaron pérdidas millonarias e hicieron decenas de muertos.
   weather.foggy:
     label: neblina
     summary: Espeso vapor de neblina que reduce la visibilidad.
     info: La niebla es un tipo de nube baja formada por gotitas de agua al nivel del suelo. Se forma cuando hay una alta humedad y disminuye la visibilidad a menos de 1 kilómetro.
+  weather.freezing:
+    label: frío
+    summary: Temperaturas inferiores al punto de congelamiento causando solidificación o helado.
+    info: '{"hint":"temperatura por debajo de los 0 °C; todo congelándose","info":"El frío ocurre cuando las temperaturas están bajo cero grados Celsius y el agua cambia su estado físico al hielo.\nPuede ser peligroso para plantas biológicamente hablando, mientras que la formación del hielo causa accidentes viales.\nLos días más fríos en Chequia normalmente son durante enero (la temperatura histórica mínima registrada fue menor a menos cuarenta dos grados centígrados en Litvinovkovice en mil novecientos veintinueve).\nLa nieve es un tipo sólido de agua; su crecimiento dentro nubes depende tanto de la temperatura como también núcleos condensadores."}'
+  weather.frost_flowers:
+    label: flores de nieve
+    summary: Hermosas formas cristales de hielo creando figuras sobre las superficies frías.
+    info: Las flores de hielo son formaciones cristalinas que aparecen cuando la humedad congelada forma patrones en superficies extremadamente frías. En el océano ártico surgen diseños intrincados y detallados hechos por estos minerales del agua helada.
+  weather.frosty:
+    label: helada
+    summary: Heladas nocturnas causan recubrimientos blancuzcos sobre plantas y tierra.
+    info: La helada ocurre cuando la temperatura de la superficie baja por debajo del punto de congelación y el aire húmedo cristaliza formando patrones hermosos en las hojas, vidrios o suelo. Se diferencia del escarchamiento porque es una capa de vapor directamente solidificado mientras que este último proviene de gotas líquidas convertidas al estado sólido tras enfriarse.
+  weather.gloomy:
+    label: lluvioso
+    summary: Clima oscuro cubierto con ambiente deprimente.
+    info: El clima nublado está caracterizado por nubes bajas y oscuras, luz apagada y una atmósfera fría o lluviosa. Se asocia con melancolía e invierno. El TAEI (Trastorno Afectivo Estacional) es un trastorno causado por la falta de sol en el invierno.
+  weather.hailing:
+    label: granizado
+    summary: Precipitaciones heladas que pueden afectar cosechas automóviles.
+    info: El granizo es una forma de precipitación compuesta por pequeños trozos o gránulos de hielo formados dentro de nubes tormentosas. Los copos se crean cuando las gotas de agua pasan repetidas veces entre la parte fría y caliente del interior de estas nubes. Pueden alcanzar diámetros superiores a los 10 centímetros causando daño significativo en cultivos vehículos e incluso techos.
+  weather.haze:
+    label: Hollín
+    summary: Reducción de visibilidad debido al polvo, humo o contaminación.
+    info: El hollín es la reducida transparencia de la atmósfera causada por polvo, humo o partículas finas en suspensión. Se diferencia del niebla porque el niebla está compuesta por gotitas de agua y el hollín lo forman aerossóis sólidos u líquidos. Las grandes ciudades asiáticas suelen estar afectadas por una contaminación llamada 'smog' que combina efectos del aire sucio con emisiones industriales.
+  weather.heat_lightning:
+    label: relámpago terrestre
+    summary: Destello visible en una tormenta muy alejada sin trueno perceptible.
+    info: Los relámpagos térmicos son destellos de tormenta distante cuyo trueno no se escucha debido a la gran distancia. El nombre es engañoso ya que no representan un tipo específico causado por el calor. Solo podemos escuchar los rayos dentro del radio máximo de audición (~16 kilómetros); más allá suenan silenciosos.
+  weather.heat_shimmer:
+    label: fata morgan
+    summary: Alucinaciones visuales en superficies calientes debido a cambios en temperatura del aire.
+    info: El fenómeno de la fata Morgana es un tipo complejo de alucinación óptica causada por inversión térmica.
+  weather.heatwave:
+    label: onda de calor
+    summary: Período prolongado con altas temperaturas anormales
+    info: |-
+      Una onda de calor es un período extendido de intenso calor que supera las temperaturas típicas para la temporada actual
+      La onda europea de calores en el año 2003 causó más de setenta mil muertes por sobrecalentamiento
+      Es especialmente peligrosa para ancianos, niños y personas enfermas
+  weather.hot:
+    label: calor
+    summary: Calor extremo que causa malestar e riesgos para salud.
+    info: El calor extremo es un fenómeno climático con temperaturas claramente por encima del promedio estacional y puede causar golpes de calor que ponen en peligro la vida cuando se combina con alta humedad.
+  weather.humid:
+    label: humedad
+    summary: Aire cargado con vapor de agua; sensación caliente e irrespirable.
+    info: La humedad mide el contenido de vapor de agua en el aire. Una humedad relativa del 100% significa que el aire está saturado y al sobrepasar este límite ocurre la condensación. Alta humedad incrementa la sensación térmica porque dificulta la evaporación del sudor.
+  weather.hurricane:
+    label: 飓风
+    summary: 一个热带气旋，其速度超过每小时一百二十公里。
+    info: Un huracán es un ciclón en el océano Atlántico y el Pacífico oriental con velocidades de los vientos superiores a las 120 kilómetros por hora. También se llama tyfón si está ubicado al otro lado del mundo en el Pacífico occidental u Océano Índico como ciclón. La energía liberada durante la vida útil promedio de un huracán equivale aproximadamente a cien mil megatones.
+  weather.ice_storm:
+    label: tormenta glacial
+    summary: Lluvia helada formando una fina película de cristal.
+    info: '{"hint":"lluvia helada que cubre todo con una capa de hielo transparente","info":"Una tormenta glacial ocurre cuando el aire cálido sobre una capa fría provoca lluvia que se congela al instante.\nComo resultado, las ramas, los cables y la carretera quedan recubiertos por un espeso estrato transparente de hielo. \nLa red eléctrica agotada bajo el peso del hielo causa apagones generalizados. \nEn Quebec en 1998 hubo una tormenta glacial que causó uno de los mayores desastres registrados hasta ahora."}'
+  weather.icy:
+    label: hielo
+    summary: Hielo peligroso que causa deslices.
+    info: El hielo se forma por la congelación de gotas de lluvia o el derretimiento de nieve en superficies frías. Es una de las condiciones más peligrosas del invierno para los vehículos y peatones. La resbaladiza capa superior es causada por un finísimo estrato de agua líquida sobre su superficie.
+  weather.lightning:
+    label: rayo
+    summary: Descarga estática entre las nubes o entre tierra.
+    info: Un rayo es un fuerte descarga eléctrica que ocurre cuando la diferencia de cargas en una tormenta alcanza su valor crítico. La velocidad del relámpago es aproximadamente un tercio de la luz y hay alrededor de cien impactos por segundo sobre el planeta Tierra.
+  weather.misty:
+    label: bruma
+    summary: Baja visibilidad debido al humo fino u otra niebla ligera.
+    info: El clima brumoso ocurre cuando el vapor de agua condensa en una capa baja del aire y reduce la visibilidad sin llegar por debajo de los 1 kilómetro. Se forma con frecuencia sobre ríos, lagunas pequeñas y valles durante noches frías.
+  weather.monsoon:
+    label: monzón
+    summary: Cambio estacional de los vientos que traen una temporada intensiva de lluvia.
+    info: El monzón es un fenómeno climático causado por la reversión estacional del viento entre el océano y tierra firme. El monzón en India e Pakistán trae del 70 al 90% de las lluvias anuales desde junio hasta septiembre. Más de setecientos millones de personas dependen del monzón para sus actividades agrícolas.
+  weather.muggy:
+    label: calor sofocante
+    summary: Aire caluroso e incómodo causado por un ambiente muy caliente y con mucha humedad.
+    info: El calor sofocante es una combinación de altas temperaturas y alta humedad relativa que impide la evaporación del sudor, dificultando así el enfriamiento corporal efectivo.
+  weather.overcast:
+    label: cielo completamente nuboso
+    summary: El cielo está totalmente ocupado por capas densas e interconectadas formadas principalmente por cirros bajos.
+    info: Un cielo nublado ocurre cuando hay una cubierta de entre 7 y 8 octavas con nubes grises que tapizan el firmamento sin permitir la entrada directa del sol al suelo. La luz es dispersada uniformemente en todas direcciones creando un ambiente cálido pero opaco donde las sombras se desvanecen o simplemente no existen.
+  weather.partly_cloudy:
+    label: cieloparcialmentenublado
+    summary: Cielo cubierto parcialmente por nubes.
+    info: El cielo parcialmente nublado es una situación climática con entre tres octavos y cinco octavos de cobertura en el cielo. Es uno de los tipos más placenteros para actividades al aire libre porque permite la alternancia del sol y las sombras durante el día.
   weather.rainbow:
     label: arco iris
     summary: Arco colorido en el cielo después de la lluvia cuando brilla el sol.
@@ -18,6 +145,24 @@ cards:
     label: lluvia
     summary: De las nubes caen gotas de agua como lluvia.
     info: La lluvia se forma por la condensación del vapor de agua en las nubes. Es esencial para llenar ríos, lagos y reservas de agua potable; una lluvia promedio cae a una velocidad de 9 m/s.
+  weather.sandstorm:
+    label: tormenta de arena
+    summary: Un pared formada por arenas y polvos movidos por intensos vientos en regiones desérticas.
+    info: Una tormenta de arena se forma cuando un fuerte viento levanta una gran cantidad de polvo y arena. El haboób es un tipo específico de tormenta de arena en el Sáhara y la península arábica que puede enterrar aldeas e incluso causar problemas respiratorios; los habóobs son eventos naturales excepcionales también observados ocasionalmente en Arizona.
+  weather.shower:
+    label: tormenta
+    summary: Lluvia corta e intensa desde nube nimborcumliforme.
+    info: '{"hint":"breve pero a veces fuerte lluvia","info":"Una tormenta es una precipitación intensiva y breve proveniente de nubes convectivas como cúmulos o nimborcúmulos.\nPuede comenzar rápidamente e irse en minutos hasta horas.\nEs típica para el verano cuando la radiación solar provoca convección creando nimborcúmulos por las tardes.\nDespués puede aparecer un arco iris."}'
+  weather.sleet:
+    label: lluvia helada
+    summary: Mezcla de agua líquida e hielo.
+    info: |-
+      La lluvia helada ocurre cuando copos de nieve pasan por una capa cálida del aire y parcialmente funden
+      Cubre las superficies con un fina capa de hielo que puede ser peligroso para el tráfico.
+  weather.slush:
+    label: hielo derretido
+    summary: Nieve parcialmente fundida mezclándose con agua formando una capa heladora desagradable.
+    info: El hielo derretido o el 'agua de nieve' ocurre cuando la temperatura sube ligeramente por encima del punto congelante y comienza a derritirse parte de la nieve acumulada en el suelo. Es muy resbaladizo e peligroso tanto para peatones como conductores ya que puede causar hidropланeo sobre las carreteras reduciendo considerablemente la adherencia entre los neumáticos y la superficie pavimentada.
   weather.snowy:
     label: nevada
     summary: De las nubes caen copos de nieve blancos.
@@ -30,6 +175,34 @@ cards:
     label: soleado
     summary: Cielo despejado con sol brillante, sin nubes.
     info: El clima soleado ocurre cuando la nubosidad no bloquea la radiación solar. El sol proporciona luz y calor necesarios para la vida en la Tierra.
+  weather.sunrise:
+    label: amanecer
+    summary: Es el momento en que el sol aparece sobre el horizonte al inicio del día.
+    info: El amanecer es un fenómeno astronómico que ocurre cuando el disco solar cruza la línea del horizonte. Su coloración naranja o rosada está causada por la dispersión de luz según el efecto Rayleigh. En regiones polares este evento tiene lugar en una temporada específica conocida como día y noche polar.
+  weather.sunset:
+    label: amanecer
+    summary: Es cuando el sol desaparece detrás del horizonte.
+    info: El amanecer es el momento del día en que el sol se pone por debajo de la línea del horizonte al finalizar el día.
+  weather.thunderstorm:
+    label: tormenta
+    summary: Evento meteorológico intenso caracterizado por lluvia intensa, relámpagos, truenos e incluso fuertes ráfagas.
+    info: Una tormenta se forma en cumulonimbos, nubes grandes que alcanzan una altura superior a los 10 kilómetros. El relámpago es un fallo electrostático y el rayo calienta al aire hasta unos 30 000 grados Celsius en fracciones de segundo. El trueno corresponde con la expansión rápida del aire caliente.
+  weather.tornado:
+    label: tormenta
+    summary: Columna destructiva giratoria conectada desde las nubes hasta tierra.
+    info: Un tornado es un tubo de aire que gira rápidamente formado por una tormenta y en contacto con la superficie terrestre. La velocidad del viento puede superar los 500 kilómetros por hora. Los tornados ocurren principalmente en el 'Corredor de Tornados' ubicado en Estados Unidos (como Kansas, Oklahoma o Texas). En Chequia también hay tornados pero son muy raros; uno fuerte golpeó la región sur de Moravia durante verano de 2021.
+  weather.typhoon:
+    label: typhoon
+    summary: Ciclón tropical con velocidades del viento superiores a los 120 kilómetros por hora.
+    info: Un typhoon es el nombre de un huracán en las Filipinas, China y Japón. En promedio, las Filipinas son afectadas por unos 20 tormentas anualmente. El Typhoon Nina causó una inundación masiva en la República Popular China que mató más de cien mil personas.
+  weather.waterspout:
+    label: tornado marítimo
+    summary: Columna giratoria conectando el océano con las nubes.
+    info: Un tornado acuático es un remolino de aire sobre una masa de agua que puede formarse durante tormentas o en nubes cumulónimbos más débiles. Puede absorber peces u otros animales y transportarlos hacia la tierra firme. Los torpedeos son fenómenos bastante comunes alrededor del Mar Jónico e Italia.
+  weather.whiteout:
+    label: niebla blanca
+    summary: Condición meteorológica polar donde la acumulación intensiva de nieve elimina cualquier contraste visual.
+    info: Un blanco absoluto ocurre cuando una tormenta de nieve y la reflectancia del hielo causan que el cielo y tierra desaparezcan en un solo campo completamente blando; esto proporciona cero visibilidad e induce confusión espacial grave.
   weather.windy:
     label: ventoso
     summary: Fuerte movimiento del aire que dobla los árboles y lleva las hojas.

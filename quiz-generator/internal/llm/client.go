@@ -15,7 +15,7 @@ import (
 	"time"
 )
 
-const defaultTimeout = 300 * time.Second
+const defaultTimeout = 360 * time.Second
 
 // Client calls an OpenAI-compatible /v1/chat/completions endpoint.
 type Client struct {
@@ -48,7 +48,26 @@ func (c *Client) Complete(ctx context.Context, system, user string) (string, err
 		map[string]any{"role": "system", "content": system},
 		map[string]any{"role": "user", "content": user},
 	}
-	return c.complete(ctx, messages)
+	return c.complete(ctx, messages, nil)
+}
+
+// CompleteJSON is like Complete but constrains the output to the given JSON
+// schema using vLLM's guided decoding (response_format type=json_schema).
+// schema is a JSON Schema object, e.g. map[string]any{"type":"object",...}.
+// name is a short identifier for the schema (used by vLLM internally).
+func (c *Client) CompleteJSON(ctx context.Context, system, user, name string, schema map[string]any) (string, error) {
+	messages := []any{
+		map[string]any{"role": "system", "content": system},
+		map[string]any{"role": "user", "content": user},
+	}
+	rf := map[string]any{
+		"type": "json_schema",
+		"json_schema": map[string]any{
+			"name":   name,
+			"schema": schema,
+		},
+	}
+	return c.complete(ctx, messages, rf)
 }
 
 // CompleteVision sends a system + user message together with an image and
@@ -65,19 +84,24 @@ func (c *Client) CompleteVision(ctx context.Context, system, user string, img []
 			map[string]any{"type": "image_url", "image_url": map[string]any{"url": dataURI}},
 		}},
 	}
-	return c.complete(ctx, messages)
+	return c.complete(ctx, messages, nil)
 }
 
 // complete marshals the request, posts it with retry/backoff and CF Access
-// headers, and extracts the assistant reply.
-func (c *Client) complete(ctx context.Context, messages []any) (string, error) {
-	body, err := json.Marshal(map[string]any{
+// headers, and extracts the assistant reply. responseFormat is added to the
+// payload as-is when non-nil (e.g. json_schema guided decoding).
+func (c *Client) complete(ctx context.Context, messages []any, responseFormat map[string]any) (string, error) {
+	payload := map[string]any{
 		"model":              c.model,
 		"messages":           messages,
 		"temperature":        0.2,
-		"max_tokens":         2048,
-		"repetition_penalty": 1.15,
-	})
+		"max_tokens":         512,
+		"repetition_penalty": 1.3,
+	}
+	if responseFormat != nil {
+		payload["response_format"] = responseFormat
+	}
+	body, err := json.Marshal(payload)
 	if err != nil {
 		return "", fmt.Errorf("marshal request: %w", err)
 	}
@@ -129,7 +153,7 @@ func (c *Client) complete(ctx context.Context, messages []any) (string, error) {
 		}
 	}
 
-	var payload struct {
+	var result struct {
 		Choices []struct {
 			Message struct {
 				Content          *string `json:"content"`
@@ -137,13 +161,13 @@ func (c *Client) complete(ctx context.Context, messages []any) (string, error) {
 			} `json:"message"`
 		} `json:"choices"`
 	}
-	if err := json.Unmarshal(respBody, &payload); err != nil {
+	if err := json.Unmarshal(respBody, &result); err != nil {
 		return "", fmt.Errorf("decode response: %w", err)
 	}
-	if len(payload.Choices) == 0 {
+	if len(result.Choices) == 0 {
 		return "", fmt.Errorf("empty choices in response")
 	}
-	msg := payload.Choices[0].Message
+	msg := result.Choices[0].Message
 	if msg.Content != nil && *msg.Content != "" {
 		return *msg.Content, nil
 	}

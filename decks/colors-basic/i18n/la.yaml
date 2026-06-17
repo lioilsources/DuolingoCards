@@ -2,6 +2,27 @@ lang: la
 pivot: false
 title: Colores Fundamentales
 cards:
+  color.amber:
+    label: gamberaceus
+    summary: Calida aureo-flava tinctio sicut lapis gambius.
+    info: Gambium est calida aurantiacum color qui nomen suum accepit ab lapide gamberus quod resina fossilis est. In antiquitate pretiosum erat pro decoratione et spiritualiter utile mateirale. Lumen gambii flavidum ad ostendendum cautelas communia usura sunt.
+  color.aqua:
+    label: Aquae Colōr
+    summary: Color clarior flavumque mixta aquarum purarum.
+    info: '{"inf": "Cyanus est color vivacis et viridi caerulei intermixtus qui frequentissime usitat in arte digitali ut colorem contrastantis ponat. In codice WWW Aqua sive Cyan vocatur cum eadem notione chromatica #00FFFF. Nomen ex verbo ''aquā'' derivatum est quod significare potuit fluvium vel fontem."}'
+  color.azure:
+    label: Caelo Azuresco
+    summary: Claritas Caeli Est Modestus Azzureus
+    info: |-
+      {"hint":"caelum caeruleum clarissimum","info":"Caeruleus azureus est color coeli sereni aestivi et vivaciter purpuratus;
+      est nomen lapis lazuroides lapide Lazulite derivatum.
+      Est hoc colore insignis plurimorum gentium ut Franciae, Israelitis atque Finlandiae.
+      lapis azuri costabat plus quam aurum Renascendi tempore utilis ad pallia BVM picturae.
+      et Caeruleus Azureus est colorem corporisque informaticae cum nomine 'Microsoft Azure'."}
+  color.beige:
+    label: beige
+    summary: Color clarior sabbatis flavicantus; calidus tintillum.
+    info: Beige est una coloris clara et tepida quae cadit inter album atque ferrugineum aurantiacum. Derivatur ab antiquo gallico verbo significante undam naturalem. Multus usus habet ad structurandum spatium interioribus ut basis tepes nequitina.
   color.black:
     label: nigra
     summary: Tenebris color, lux luminis absentia.
@@ -10,18 +31,134 @@ cards:
     label: caerulea
     summary: Frigida prima coloratio caeli et maris.
     info: Caerulea est frigida prima coloratio lux. Est coloratio plurimum dilecta in mundo et symbolon tranquillitatis, fiduciae atque profunditatis.
+  color.bronze:
+    label: brumale
+    summary: Color metallus obscura aureofusa sicut ferrum brume.
+    info: Brumalis est color metallus obscurè aurantiatùs-fuscus qui alludit ad legam cupri et stanni. Aetas bronziata nomine hoc metalls appellatur; tempore circa annum mundi ante Christum nummos XXXIII usque ducentos decimum secundum annuos spectabat. In ludis Olympiadensibus tertium locum repraesentare medalloae brumaleariae sunt.
   color.brown:
     label: ferruginea
     summary: Terra secunda coloris ligni et terrae.
     info: Ferruginea est color terra secunda quae nascitur ex mixtione rubri, flavi et nigri. Habet symbolica significationem terrae, naturae atque stabilitatis; frequenter usitatur in thematibus naturalibus aut autumnalibus.
+  color.burgundy:
+    label: vinacepurpureum
+    summary: Color purpureus velut vinum rubrum quod fit apud Burgundiam.
+    info: Vinacepurpureum est color profundus atque nocturnus qui ex vinis burgundiensibus originem ducit ab illius regio viticola Bourgognia Galliae. Habet connotationes de luxe et opulento genere vivendi.
+  color.charcoal:
+    label: antrectivus
+    summary: Color griseum obscurum similis igni ex arboribus.
+    info: Antrectiva est color griseus fuscissimus, quasi nigra sicut lignum carbonisatum. Est populariter usitatia in interioribus moderne ut alterna ad nigram et utilis modica vestimentorum formalium.
+  color.chartreuse:
+    label: chartrea
+    summary: color inter auriculum ac verdim cum vivecitur ad medium visibilium rerum per hominem
+    info: '{"label":"chartrea","summary":"Viva color inter auriculam et viridem","info":"Coloris chartreau est vivens qui exacte cadit inter aureum atque verdantem spectri partim. Nomen derivat ab aquae herbae Chartres quod ex monasterio eodem nomine Francogallice proveniat. Hoc unius generis maximum conspicuum oculi humani sunt hoc colore."}'
+  color.cobalt:
+    label: caelureum
+    summary: Color vive media tenebris sicut pigmentum coelestis.
+    info: Cerulean cyanus est color vivida et saturata qui nomen dedit elementi chymico Cobalto (Co). Fuit unus ex populares pigments caeli secundi decimi saeculi picturae; hodie utitur ceraminibus, vitris atque artis plasticas.
+  color.copper:
+    label: rutilus
+    summary: Color ferrugineus ut cuprum.
+    info: Rufus est color metalli qui similat cuprum vel aurum purpurascens; Cupro fuit unus ex primoribus metallis quos homines tractaverunt tempore chalcolitico antea ferri et argenti usurae. Tectera vetusta de cupto viridescentia patina oxida fiunt; rutilans autem caeruleo-viridis cum rubedo dicitur 'cuper'. Capilli cypresii sunt capelli luteoflavi sive fulvi.
+  color.coral:
+    label: coralis
+    summary: Viva rosa cum rubro flammae ut coralia.
+    info: Coralis est color vivus et calidus inter aurantiacum atque roseolum qui ex corali marino denominatus est. Multo populariter usitatur vestimentorum aestivo ac structura interiori. Pantone annum anni MDXIX nomine 'Living Coral' declaravit.
+  color.cream:
+    label: Cremor
+    summary: Albus cum luteolum tenue sicut crema.
+    info: |-
+      {"hint":"albus cum luteolus tenuissimus sicut caseum recentem","info":"Color cremoris est albus cum luteolo pallidioris toni.
+      Nomina derivat ex colore casae novae (crema).\nIn arte interiorum utatur pro calida alterna ad puram albuminem \nSituatur inter niveum et elephanti color."}
+  color.crimson:
+    label: crimson
+    summary: Color profunda atque saturata rubeola; tenebris quam sanguinea.
+    info: Crimson est coloris rubri profundum et vivax qui nomen dedit ex crimine, rubro pigmento pictorico. Traditionally producitur de insecto Dactylopius cocci. Est colorem universitatis Harvard.
+  color.cyan:
+    label: '"caeruleum vivido-viridescens"'
+    summary: '{"summary": "Color intensae tonalitates cianea quae ad pigmentos principes impressiones pertinent."}'
+    info: '{"info":"Caeruleum vivide viridi-cyanus est color primarius systematis CMYK typographicae et inter chromata naturalia frequentissimus videtur ut colorem maris tropicali apud diem claram repraesentans. In computatris antiquorum monitores CRT caeruleo vivo tabularium usura fuit notabiliter conspicua."}'
+  color.fuchsia:
+    label: rubra viva
+    summary: Color violentaceoflavus similis floribus fuscia.
+    info: |-
+      Rubra vivida est color violaceo-rubens qui ex flore speciei 'fucsia' derivatur.
+      Hortus hunc colorem post Leonardum Buchsem Germanicum philosophum et medicam nominavit.
+      In codice programmatico ut CSS vel HTML rubrum istud idem est quod magentum cum significatione # FF00FF.
+  color.gold:
+    label: Auratum
+    summary: Color auratus similis metallo pretioso aureo.
+    info: '{"gold": "aurum"}'
   color.green:
     label: viridis
     summary: Color herbae et foliorum, color secundarius ex caeruleo et flavo mixto.
     info: Virides est color secundarius qui nascitur ex miscendo caeruleum cum flavo. Hic color symbolizat naturam, vitam et frescor; oculus humanus eum percepit sensitivissime inter omnes colores.
+  color.grey:
+    label: grīs
+    summary: Color inter medium et album
+    info: '{"gray": "Achromatic color created by mixing white and black\nThe gray is considered to be neutral and unobstrusive\In psychology it represents neutrality, balance, sometimes also dullness\The dark shade called anthracite while light shades almost resemble white"}'
+  color.indigo:
+    label: caeruleofuscus
+    summary: Color caeruleofuscus sicut pigmentum indicum.
+    info: Caeruleo-fuscus est color profundae violaceitatis similisque tinturae indicum ex planta Indigofera derivatae. Per milia annorum fuit unus inter pretiosissimos dies quos usi sunt ad tingendum textilia.
+  color.ivory:
+    label: ivorium
+    summary: Color similis dente elephanthi; tepidior quam purpurātum album.
+    info: Ivorium est coloris albi cum tono crēmi et lūteī subtus. Nomen ex dentibus elephanti derivatur quod simile sunt huic colōri. Usurpatur tum ad vestitus atque desigum pictoriam tum ut describat cutem hominis.
+  color.khaki:
+    label: terra
+    summary: Pulverulentus luteoflavus; tonsor terrae militia.
+    info: |-
+      {"hint":"pallidus flavo-coccineus cum cinere; color militaris","info":"Terra est pallidae tincturae flava-rufae exsiccata quae ab exercitu Brittanico India anno XIX saeculo poposcit.
+      Nomen originem ducat de lingua Urdu/Sanskritica 'khak' significans pulvis vel limos.
+      Est basis uniformium militarum et vestimentorum montanorum.
+      Pantalones terra sunt modicos constantes desexu anni CCXC ad nos venientes."}
+  color.lavender:
+    label: color lavendarius
+    summary: Purpuraceo tener florescentes similis.
+    info: Color lavendularis est color purpureus tenuissimus qui nomen accepit ab herba Lavandulae (lavanda). Evocat tranquillitatem et pulchritudinem Provincialem Galliae; odorem suum cum relaxatione atque somno iungunt in artem odorantem. Color hic populariter usitat in decorando cubiculis puerorum vel locis balneariorum.
+  color.lime:
+    label: viridescens
+    summary: Viva auranti-viridi coloratio sicut de cito lymo.
+    info: Viridis flavus saturatus color qui ex citro acido 'lime' derivatur est notabiliter vivacior quam virides foliariae et plus flavi tinctura continet. Hic usum frequentem habet ad accentuum ponendum atque actiones excitandas in arte graphica.
+  color.magenta:
+    label: magnum
+    summary: Viva rubeo-caelestis cum non habente longitudinem undarum in spectrum.
+    info: Magentum est color vivus inter rubrum et caeruleum sine longitudine undae correspondentis in spectro visibili. Nomen derivatur ab expeditione ad Mantuanam anno MDLIX apud Italiam.
+  color.maroon:
+    label: castaneus
+    summary: Color obscurior rubro-fuscus aut vinaceo.
+    info: Castaneus est color rutilus tenebris et fuscis mixtus qui ex nomine castanae derivatur ('castanum' lingua Hispanica). Frequens utitur hoc colore modae sartoria ac vestimentorum militarium vel athletarum signaculum esse solet.
+  color.mauve:
+    label: '{"label": "Malvacium"}'
+    summary: '{"summary": "Color mutescens rubeolus-violetaceus vel cinerascit."}'
+    info: '{"info":"Mala (latvia) color est pallida atque exiguus rubor violaceus-carmine qui nomen dedit plantae Malve silvestri et specie Mauvoe Francogallice. Hoc primus annis MDCCCLVI per Willelmum Perkins inventus fuerat pigmentum artificiale aniline quod Victoriae saeculi stilisque retro notabilem efficit."}'
+  color.mint:
+    label: Matōna
+    summary: Colorem tenue viride similem fodi matonis aut pastille dentariae exprimit.
+    info: '{"hint":"viridis pallidus sicut folia menthe vel dentifricium","info":{"label":"Viridia Pallida Menthes","summary":"Color viridi pallescens similis colori foliorum menthas."},"content":{}}'
+  color.navy:
+    label: caerulum navalem
+    summary: Color profunde caelestis similis mari noctu.
+    info: Caeruleum navalis est color caeli nocturni profundus et tenebrosior quam normale caelatum. Nomen derivatur ab uniformibus Navis Regiae Anglorum saeculo XVIII usitatis.
+  color.ochre:
+    label: ochra
+    summary: Terra flava ferrugine pigments naturaliter occurrit.
+    info: Ochrus est terra rutilis flavo-coccinea coloratione quae ex oxidato ferri fit. Hic pigmentum unus antiquissimus est quem homines praehistorici ad picturam cavernarum usi sunt.
+  color.olive:
+    label: viridis
+    summary: Color pallescens inter aurantiacum atque viride.
+    info: Viridescens ex olearia est color qui similis pallido viridi foliis oleae seu fructibus. Usus militaris et campestre propter similitudinem cum naturam habet; frequentiterque vestimentorum genere usurae militarum notatur.
   color.orange:
     label: nārāngea
     summary: Calida color secundarius ex rubro et flāvo factus.
     info: Nārāngeum est color secundarius qui ex mixtione rōbri et flāvi nascitur. Hic color enthūsiasmum atque creativitatem significat; ab fructu narangis appellatur.
+  color.periwinkle:
+    label: color vincai
+    summary: Color clarior purpureocœrulescens similis floribus Vinchae.
+    info: |-
+      {"hint":"lilacinus caeruleus sicut flos Vincae minores","info":"Caeruleo-fialis est color qui inter cæruleum et lavandum cadit atque ex flore Vinchae minors nomen trahit.
+      Usitatissimus ut decorativus ac tener velut amatorius colorem habet.
+      In codice HTLM proxime approximatur cum hexadecim numero CCCCCCFF."
   color.pink:
     label: rosa
     summary: Pallidus rubri tonus, tener et pulcher color.
@@ -34,6 +171,48 @@ cards:
     label: rubeus
     summary: Calida prima coloris sanguinis et ignis.
     info: Rubeus est unus trium fundamentorum luminis. Suggestit vim, passiones atque pericula; multae culturae prospere ac fortitudinem significat.
+  color.rose:
+    label: rose
+    summary: Color delica rubra-purpura similes florem rosarum.
+    info: Rose est coloris delicatus rubro-pinkus similis foliolo rosae. Differt ab alba rosae (rosaceum), quod rose clarius et magisque purpureum est.
+  color.salmon:
+    label: salmonicola
+    summary: Color delica rosa-citrina sicut carnes trutae.
+    info: Salmonesus est color delicatus roseum-rubra qui nomen dedit carne salminis. Est calidior et clarior quam coralium utilisatur frequentiter modo ut variatio subtilis pro rubro. In disegno interiori praebet impressionem calefacientem atque amicabilem.
+  color.scarlet:
+    label: scarlatus
+    summary: Coloris claro-rubro-flavidus qui pallidius est quam carninenum.
+    info: Scarlet est coloris rubroflavida clara quae ex substantia scarlate derivatur et paulo clarior atque flavidior quam carminium dicitur. Historice hanc colorem usi sunt ad significationem textorum pretiosissimarum rubeentium.
+  color.sienna:
+    label: sinaensis terra
+    summary: Rutilus sinus terrenus pinguis.
+    info: Sinaensis terra est ferruginea rutilans tinta terrae nominata propter urbem Italiam Sinensem. Terra sinensis cruda flavo-rubra est et calcinata rubrica-tenuis fit. Usus picturae Renascentiae frequentissimus erat cum calida coloratione naturali.
+  color.silver:
+    label: argentum
+    summary: Luminosum cinereum similis metalem argentum.
+    info: |-
+      {"info":"Argentum est color metallicus qui ad imaginem pretiosae metalli argentique pertinet\u00b4
+      Habet symbolum modernitatis et elegantiae sicut technology et industriam \ud835�design\ud835�\ud835�\ud835�\ud835�\ndesign\ud835�\ud835�\ud835쾌\ud835�\ud835�\ud835�\nIn blazonario secundus metalls signatur\nOlimpica insignia pro loco altero usura\nAutomobile cum verniculatione argentea plurimum popularitas inter variis nationibus."}
+  color.tan:
+    label: carnea
+    summary: Color pallidofuscus sicut cuticula solariter explorata.
+    info: '{"hint":"coloris ex cute tanata","info":"Carminea est color pallidus atque fuscus similis terrae vel cuticulae solari expostae\r\\nTerminus ab arte pellentaria derivatur\/nam scindebatur pellem ut tenera et durabilior fieret\.\r\\nPallida cum carneo simile sed paulatim obscurius ac plus luteofusa \"caramelina\"\"\r\\nFrequenter adhibetur pro vestimentorum textura, calciarum picturas autem quoque casu."}'
+  color.teal:
+    label: tealis
+    summary: Color marinus cum venia viridis
+    info: '{"hint":"color aquae et caeli","info":"Tealis est color qui derivatur ab Anatis vulgaris plumis alarum cum tinctura cærulea ac viridi similique mari oceanico spectaculo. Hic situs superior partem spectrum turquesiae occupavit. In arte graphica ut colorem contrastantis ad flavidulum utilis videtur esse. Notatio velocitatis in codice Cascading Style Sheets: #008080."}'
+  color.turquoise:
+    label: caeruleum
+    summary: Color aquae tropicalis
+    info: Caeruleum vivida est coloris aquae marinae subtropicalium et glacie oceanica vel caeli sereni die claro. Nomen ex lapide semiprecioso Turquoise derivatur qui antiquo Aegypto, Persia ac America pretiatus fuit.
+  color.vermillion:
+    label: rubracinnaber
+    summary: Color intensae flavescentiae rubeas similis cinnabario.
+    info: Rubra cinnabaris est color vivus rubro-flavius qui derivatur ab ore mineralis cin-nah-barii vel mercurio sulfuro. Fuit unus ex communissimorum rubrorum pigmentorum historiae; nunc tamen substitutur artificialiter propter toxicitatem mercuream.
+  color.violet:
+    label: violaceum
+    summary: Color mixtus de cæruleo et violo.
+    info: Violaceum est color ad finem spectri visibilis cum longitudine circa 380–420 nanometrorum situs qui ex flore Viola nomen accepit. A rubro distinguitur quod proximus caeruleo est et non inter rubeum atque caeleste ut praeterea notatur.
   color.white:
     label: albus
     summary: Clarissima color, reflexio totius luminis.

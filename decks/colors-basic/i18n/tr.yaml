@@ -2,6 +2,22 @@ lang: tr
 pivot: false
 title: Temel Renkler
 cards:
+  color.amber:
+    label: amber
+    summary: Mineral amber gibi sıcak altın-portakallı bir renktir.
+    info: Amber rengarenk bir sıcak altın portakalı renktir ve bu isim taşlaşmış balzam olan mineral ambre'den gelmektedir. Antik çağlardan beri süsleme malzemesi olarak değer verilmiştir. Amber sinyallerindeki sarı lambalar her yerde özenli olma simgesidir.
+  color.aqua:
+    label: aquamarine
+    summary: Temiz suda bulunan parlak mavimsi yeşildir.
+    info: '''Aquamarine'' parlante mavi yeşil bir renktir ve HTML ile CSS''de ''aquamarine'', ''cyan'' olarak kullanılır(#00FFFF). Latince kelime olan "aqwa" yani su kökenlidir. Tropikal denizleri, havuzları ve tazeliği çağrıştırır.'
+  color.azure:
+    label: türküş gri
+    summary: Yazı mevsimi göğüne benzer parlak türküş gri.
+    info: Türküş gri mavi (blue azure), yaz gökyüzü gibi canlı ve saf bir renktir. Lapis lazuvi adlı mineralden isim alır. Lazurit Rönessans döneminde altın kadar değerliydi ve Ananenin mavilikleri için kullanılırdı.
+  color.beige:
+    label: beji
+    summary: Açık kumlu kahve rengindeyken sıcak nötral bir renk.
+    info: Bej pastel bir tonla sarımsı kahverengi arası sıcak nötral renktir. Eski Fransızcadaki doğal dalga kelimesinden gelmektedir. İç mimaride genellikle sıcak ve nötr temel olarak kullanılır.
   color.black:
     label: siyah
     summary: En koyu renk, ışığın yokluğu.
@@ -10,18 +26,130 @@ cards:
     label: mavi
     summary: Gökten ve okyanusun soğuk birincil rengi.
     info: Mavi ışığın soğuk birincil bir renkidir. Dünyanın en çok sevilen rengi olup sakinlik, güven ve derinliği simgeler.
+  color.bronze:
+    label: beyaz
+    summary: Karbonatlı sarımsı koyu gri-metal tonları.
+    info: Brons rengi bakırın kalayla karışımından elde edilen bir alaşımı çağrıştıran karabata-kahverengimsi altın renkte metaldir. Brons Çağı (yaklaşık MÖ 3300–MÖ 1200) bu madenden isim almaktadır. Olimpiyat Oyunlarında üçüncü sırayı simgeler (bronza medal). Kamusal alanlarda tipik olarak bronzen heykel bulunur.
   color.brown:
     label: kahverengi
     summary: Yer ve ahşap gibi doğa unsurlarını temsil eden ikinci derece bir toprak rengidir.
     info: Kahverengi kırmızı, sarı ve siyahın karışımından meydana gelen ikincil bir renktir. Yeryüzü, doğa ve istikrarı simgeler; doğal ve sonbahar temalı konularda sıklıkla kullanılır.
+  color.burgundy:
+    label: burbon kırmızısı
+    summary: Fransa'nın Bourgogne bölgesinden gelen bordeaux kırmızısına benzer koyu pembe-mor tonları vardır.
+    info: Bourgeois bir Fransız şarap bacası olan Burgundi'dan ismini alan burgond kırmızısı koyu mor-kırmızıdır. Elinde tutulan bordo renkli奢侈品 gibi lüks hissi uyandırır. Modada en çok tercih edilen sonbahar rengi budur.
+  color.charcoal:
+    label: anthrazit
+    summary: Ağaçkömüre benzeyen oldukça koyu gri renkte.
+    info: Anthrazit rengi çok kararan bir gri renktir ve neredeyse siyahtır gibi kömürdür.
+  color.chartreuse:
+    label: Sarım Yeşil
+    summary: Canlı bir renktir.
+    info: Chatrez (sarımsı yeşil), ismi aynı adlı Fransız manastırının bitki bazlı şerbetinden gelir; bu renk tam olarak sarı ile yeşili birleştiren canlı bir rengi temsil eder. İnsan gözü için en iyi görünen dört renge sahiptir.
+  color.cobalt:
+    label: gökyüzü mavisi
+    summary: Canlı orta koyu mavi gibi goktaş pigmantıdır
+    info: |-
+      Göktaşı mavi bir canlı ve doygun mavishiridir ki adı kimyasal element Kobaltı (Co) ile verilmiştir
+      1800'lerde en popüler boyalar arasında yer aldı
+      Çanaklarda cam sanatında resim yapımında kullanılır
+      Vincent Van Gogh bu rengi çok severdi
+  color.copper:
+    label: bakırlar
+    summary: Birinci metale benzer kırmızımsı-kahverengi renk.
+    info: Kırmızımsı-kahverengi bir metallerden gelen parlaklık olan bakır rengi insanlar tarafından işlenmeye başlanan ilk elementler arasında yer alıyordu ve chalkolithik çağ olarak bilinen bu dönemde kullanılırdı.
+  color.coral:
+    label: Mercimeklilik
+    summary: Denizin pırıl pırıl renkteki sıcak bir tonudur.
+    info: Pırlanta mavisi bir deniz merciğine benzer sıcak ve canlı pembe-kırmızılı turuncudur. Pantone tarafından 'Yaşayan Mercimek' isimli yıldönümü rengidir.
+  color.cream:
+    label: kremon
+    summary: Çorbaya benzer oldukça açık sarılı beyaz renktir.
+    info: Krem rengi çok hafif sarı beyaz bir tondur ve ismini çorba kreamının rengine borçlar. İç mimaride saf beyaza göre daha sıcak bir seçenek olarak kullanılır.
+  color.crimson:
+    label: crimson
+    summary: Derine giden doymuş kırmızı tonları; saraydan daha kararan.
+    info: Crimson kırmızısı, crimson adlı bir boyanın ismine verilen canlı ve derin pembe rengi ifade eder. Geleneksel olarak bu renge nopal böceği kullanılarak elde edilir.
+  color.cyan:
+    label: türküş
+    summary: Canlı bir yeşilimsi mavilik; baskı için temel olanlardan biridir.
+    info: Türküsü (syan), canlı bir yeşilimsi-mavi renktir ve RGB sistemine göre kırmızıda 'R':0, Yeşilde 'G':255, Mavide ise 'B':255 değerlerini alır.
+  color.fuchsia:
+    label: fuksiyevi
+    summary: Canlı pembei-violent renkte fuksiyanın çiçekleri gibi
+    info: |-
+      Fuksiyevi rengli canlı pembe-violent bir renktir ve bu isim bitki fuksiya'den gelmektedir.
+      Bitkinin adı Alman bota-nist Lefart Fuksiye' den almıştır
+      CSS ve HTML de fuxsiyevi renk mor ile aynı anlama gelir(# FF00FF)
+      Moda sanatıyla ilişkilendirilen dikkati çeken bir renktir.
+  color.gold:
+    label: ' Altın'
+    summary: Değerli altını anımsatan derin parlak sarıdır.
+    info: Altın rengi değerli madeni altınla çağrıştıran bir renktir. Zenginlik, prestij, başarı ve lüksün sembolidir. Heralyde emblemlerde doğrudan kullanılan iki metalden (altın ve gümüş) birisidir.
   color.green:
     label: yeşil
     summary: Çayır ve yaprakların rengi, mavi ile sarının karışımından oluşan ikincil bir renktir.
     info: Yeşil, mavi ve sarı renklerin karışımından meydana gelen ikincil bir renktir. Doğa, doğallık ve taze olma anlayışını simgeler; göz bu renge diğer tüm renklere göre en hassas şekilde tepki verir.
+  color.grey:
+    label: gri
+    summary: Siyah ile beyaza yakın olan gri tonları bulutlarla benzerlik göstermektedir.
+    info: Gri renk siyah ve beyazın karışımından oluşan bir achromatik rengi temsil eder. Nötral ve sade olarak kabul görür. Psikolojide tarafsızlık, dengeli duruşun yanı sıra bazen yetersizliği de sembolize edebilir.
+  color.indigo:
+    label: gökgürültüsü
+    summary: Gök gürültüsünün verdiği gibi derin mavimsi fiole bir renkidir.
+    info: İndik gölgesi bitkisinin rengine benzer koyu mavi-fiyonksı bir renktir ve bu isimden gelmiştir. Binlerce yıldır en değerli boyacılardan birisi olarak kullanılmıştır. Yedi-renkli gökyüzü bandında yer almakta olup kırmızıdan sonra turuncuya kadar olan aralığın ardından sarıya geçmeden önce yeşil ile siyah arasında bulunan bu tonlarla tanınıyor.
+  color.ivory:
+    label: ivorie
+    summary: Filler dişi gibi bir kremlere benzer beyaz renk; saf beyaza göre daha sıcaktır.
+    info: Ivorie rengare çaylarak sarımsı bir krema beyazıdır ve adını fillerin dişinden alır. Modada, dizajnda veya cilt açıklamalarında kullanılır. Saf beynle farkı sıcak tonları içermesidir.
+  color.khaki:
+    label: kahki
+    summary: '''Cafesu'
+    info: Kahki, 19. yüzyılda İngiliz ordusu tarafından Hindistan'da popüler hale gelen mat bir açık kahverengi sarısı renktir. Kelime Urdu/Türkçe kökenlidir ve 'kahve' ya da topraksız anlamına gelmektedir.
+  color.lavender:
+    label: lavant mavisi
+    summary: Çok açık mavi gibi lavantalarda rastlanılan çok hafif pembe-mor arası bir gölgedir.
+    info: Mauve bir ton olan lavanta rengi bitki Lavendrada ispirasyon bulan hafif mor renktir. Huzur ve temizliği çağrıştırır; Fransa'nın Provans bölgesinde görülen manzaraları anlatmaktadır. Aromaterapide bu kokular dinlendirici etkilere sahip olup uykuya yardımcı olduğu bilinmektedir.
+  color.lime:
+    label: limonlu
+    summary: Canlı bir sarı-mavidir.
+    info: Limonata maviye-beyaz bir tonudur ve ismini sitrus olan limetten alır. Yaprak yeşili kadar canlı değildir fakat içinde daha fazla sarı renk içerir. Grafik tasarımında dikkati çekebilecek şekilde kullanılır.
+  color.magenta:
+    label: mor
+    summary: Mor pembe renkte canlı mor
+    info: Magentanın adı İtalyada geçen bir savaştan sonra verilmiştir.
+  color.maroon:
+    label: kestane
+    summary: Derin koyu kızılımsı kahverengimsi.
+    info: Kestane rengi (kızıl), İspanyolcadaki 'marrón' kelimesinden türeyerek isim kazanmış derin bir kahve-kırmızıdır. Modada popüler olan bu renk spor ekipmanlarında da sıkça kullanılır. Ayrıca Anglikaca'de mahsur kaldığı adalarla ilişkilendirilirken bordo ile kıyaslandığında daha az morumsuzdur.
+  color.mauve:
+    label: Mor
+    summary: Yumuşatılmış koyu pembe-mor; tozluk içeren çileğimsi renkte.
+    info: Mavi (morfolu), naz ikinci derecede yumuşak bir mor-kırmızılıktır. Adını Fransızcadaki 'mave' kelimesinden alıyor ki bu demek oluyor ki lavanta bitkisi olan Malve silvestris. Bu ilk sentezlenmiş boya maddesiydi ve anilos mavisi olarak biliniyordu. İngiliz kimyager Willian Perkins tarafından keşfedildi.
+  color.mint:
+    label: matova
+    summary: Yapraklarda veya diş macunu gibi çok açık yeşildir.
+    info: Matematik bir bitki olan Menthe'den isim alan Matova'nın rengi taze ve açık yeşil tonları temsil eder. Temizlik, hafifliği ve serinliği çağrıştırır. Modern iç mekân tasarımı ile retroluk (özellikle beşinci on yıl) için popüler renktir.
+  color.navy:
+    label: Donanma Mavis
+    summary: Gece denizi gibi oldukça koyu bir mavi.
+    info: Deniz mavisi (mavi), çok koyu bir mavidir. İsmi 18'inci yüzyıldan beri Britanya Kraliyet Donanmasının üniformalarından gelmektedir. Modada ve resmi giysilerde en popüler temel renklerden biridir.
+  color.ochre:
+    label: okrum
+    summary: '''Naturol pigmente olan okrdan dolayı toprak rengi sarıkahverenmsi bir renktir.'
+    info: Okrum topraklı bir sarı-kahverengimsi renktir ve ismini demiryapısındaki hidroksitten gelen 'okr' adlı doğal boya maddesinden alır. Bu boyanın tarihi çok eskiye dayanmaktadır çünkü Paleolojitik Çağ'daki insanlar mağara resimlerinde ondan yararlanmıştır. Okrum doğada yeraltında bulunan okru taşı olarak bulunur.
+  color.olive:
+    label: yeşillik
+    summary: Zeytindeki mat sarılımsı yeşil.
+    info: Yeşilimsi sarı yeşili bir renktir ve adını zeytin ağacı olan Olea europaea'dan alır. Tabii ortamda maskeleme yapmasından dolayı geleneksel askerî ve çadırlık rengidir. Modada da bu yüzden askeri tarza özgüdür. Bej tonları ile iyi uyum sağlar.
   color.orange:
     label: turuncu
     summary: Kırmızı ve sarının karışımından oluşan sıcak ikincil bir renk.
     info: Turuncu, kırmızıyla sarının karıştırılmasıyla elde edilen ikinci derece bir rengdir. Enthusiasm ve yaratıcılığı simgeler; portakal meyvesinden isimlendirilmiştir.
+  color.periwinkle:
+    label: lavanta
+    summary: Bir nevi açık pembe-mavi tonunda bulunan ve lavantalara benzeyen bu görsel etkinlikte kullanılır.
+    info: Lavanta adlı bitkiye benzer bir morumsu renk olan Periwillink mavisi, Vinca Minor olarak bilinen küçük lavant renginde çiçekten isim almaktadır.
   color.pink:
     label: gül bezi
     summary: Kırmızının hafif bir tonu olan yumuşak ve tatlı bir renk.
@@ -34,6 +162,54 @@ cards:
     label: kırmızı
     summary: Kanın ve ateşin sıcak birincil rengi.
     info: Kırmızı, ışığın üç temel renklerinden biridir. Enerji, tutku ve tehlikeleri çağrıştırır; birçok kültürde mutluluğu ve gücü simgeler.
+  color.rose:
+    label: gülümsü
+    summary: Gül yaprağına benzer yumuşak pembei-kırmızı
+    info: Rose renkli pembe bir tonudur ve gül çiçeğinden isim almıştır. Rose rengi açık pembeden daha koyu ve kırmızıya yakındır. Samuel Becket'e göre kalbin doğal hali gibi görünen tek renk budur.
+  color.salmon:
+    label: somonsuy
+    summary: Somondaki gibi hafif pembei-turuncuya yakın bir renktir.
+    info: |-
+      Salmon pastırı benzeri yumuşak pembe-kırmızısı bir renktir ve ismini somon balığı etinin renginden alır.
+      Korallardaki kırmızıyla karşılaştırıldığında daha sıcak ve açık tonlarda yer alır.
+      Mod dünyasında pembenin zarif bir alternatifi olarak yaygın şekilde kullanılırken,
+      iç mekân tasarımlarında da sıcaklık veren dost canlısı hissi uyandırır.
+  color.scarlet:
+    label: şahrana
+    summary: Açık kırmızılı turunculu renk
+    info: Şahane adı boyacı madde scarlet'ten gelir ve biraz daha açık pembe tonu vardır. Kırmızdan çok hafif turuncudur.
+  color.sienna:
+    label: sien
+    summary: Beyazlatılmış veya pişmiş olan kızıl-kahve topraklı pigment.
+    info: Sien nöbeti adını İtalya'daki bir şehirden alır ve toprak kırmızı kahverengidir. Ham sien sarıkahvere renkteyken yanmış sien ise sıcak-kırmızılışlıdır. Renesans resimlerinde sıkça kullanılan bu doğal tonlu toprağın alt yapısında su boyasına temel ısıtılmış turuncu-sarı aralığı vardır.
+  color.silver:
+    label: silver
+    summary: Metalik gri gibi parlayan gümüş tonu.
+    info: |-
+      Gümüş rengi değerli gümış metali çağrışıtıran bir metallik renktir.
+      Moderniteyi, zarafeti ve teknoloji ile endüstriyel tasarım simgelerini temsil eder.
+      Kabartma sanatında ikinci maden olarak kullanılırken Olimpiyatlarda ise ikinciliği göstermektedir.
+      Paspaslı boyası olan otomobil birçok ülkede en popüler araba modelidir.
+  color.tan:
+    label: tan
+    summary: Açık kahve renkte ciltten esinlenmiş bir gölgelendirme.
+    info: Tan rengi adını derinin sadeleştirilmesi işleminden alır ve açık sarı-kahverengimsi bir tonu ifade eder.
+  color.teal:
+    label: tirköz
+    summary: Denizin renginde maviye çalan yeşilimsi bir renktir.
+    info: Türkuaz mavisi bir renktir ve ismini deniz kuşunun kanadındaki bu tonundan alır.
+  color.turquoise:
+    label: türköz
+    summary: Sıcak iklim denizleri gibi canlı mavi yeşil.
+    info: Türkozsuyel bir renktir ve ismini yarım değerli türküsz taşından alır. Tarih boyunca Antik Mısır'dan ABD'ye kadar birçok kültürde bu taşı kıymetle görmüşlerdir.
+  color.vermillion:
+    label: kemer
+    summary: Canlı kirmizi-turuncu renkteki kermes boya.
+    info: Kermes kırmızısı bir mineral olan cinnbar ya da mercurius sulfid'dir ve tarihteki en çok kullanılan kırmızi boyalardandır.
+  color.violet:
+    label: mor
+    summary: Görünür ışıktaki mavi-mor arası bir rengi ifade eder.
+    info: Morfolu renk adı Viola bitkisinden gelir ve görünür ışık spektrumunun sonunda yer alır. Morolu dalga boyutları yaklaşık olarak 380–420 nanometredir.
   color.white:
     label: beyaz
     summary: Görülebilir tüm ışığın yansımasıyla oluşan en açık renk.

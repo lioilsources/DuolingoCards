@@ -2,14 +2,138 @@ lang: en
 pivot: false
 title: Weather
 cards:
+  weather.aurora:
+    label: northern lights
+    summary: Natural atmospheric phenomenon caused by sunlight interacting within magnetic fields.
+    info: The Northern Lights occur when electrically charged solar particles interact with Earth's atmosphere to create curtains and swirls of green, purple, and red light best seen near polar regions like Norway, Iceland, Canada, and Antarctica.
+  weather.avalanche:
+    label: avalanche
+    summary: A sudden movement of large quantities of snow and/or rock descending rapidly downhill.
+    info: An avalanche is fast-moving mass of snow sliding down a mountainside. The most dangerous avalanches consist of powder snow reaching speeds over 300 kilometers per hour; on average they kill about 150 people annually across the Alps. A beacon signal detector must always accompany equipment when entering an area prone to avalanches.
+  weather.blizzard:
+    label: blizzard
+    summary: Severe winter storm featuring dense snow and very low visibility.
+    info: A blizzard is an intense weather event combining heavy snowfall and strong wind that causes nearly zero visibility due to whiteouts and high drifts of accumulated snow. Historically, these storms have caused thousands of deaths; for example, The Great Blizzard of 1888 buried parts of New York under up to 130 centimeters of snow.
+  weather.breezy:
+    label: breeze
+    summary: Gentle refreshing air current that cools down warm days.
+    info: A breeze is a gentle wind blowing at speeds between 6 to 11 meters per second according to Beaufort scale levels 3–4. It causes movement of tree leaves, strands of loose hair, and light objects like paper flags on poles without causing any damage itself.
+  weather.clear:
+    label: clear
+    summary: Completely unobstructed view without any visible clouds.
+    info: Clear weather is defined by cloud cover less than 1/8th of the sky according to meteorological standards. It allows for maximum solar radiation during the day and optimal conditions for astronomical observations due to minimal atmospheric interference.
   weather.cloudy:
     label: cloudy
     summary: Sky covered with dense clouds, without direct sunlight.
     info: Clouds are visible clusters of tiny water droplets or ice crystals. Over 60% of Earth's sky is always covered by cloud cover.
+  weather.cold:
+    label: winter
+    summary: Extremely cold weather conditions where ambient temperatures fall well under freezing point.
+    info: Extreme cold occurs when Arctic air moves into temperate latitudes. The lowest natural recorded Earth surface temperature is −89.2 °C at Station Vostok on Antarctica. Organisms react to extreme cold by constricting blood vessels and shivering. Hypothermia sets in if body temperatures drop below 35 degrees Celsius.
+  weather.dew:
+    label: dew
+    summary: Water drops that form through evaporation occurring over cool nighttime periods.
+    info: Dew is water condensing out of air onto cold surfaces during calm nights. It forms when surface temperatures drop below dew points; it serves an important role for plants and animals by providing moisture especially within arid regions like deserts where herders collect morning dew using nets.
+  weather.drizzle:
+    label: drizzle
+    summary: Very fine rainfall made up of minute liquid particles.
+    info: Drizzle is precipitation consisting of very small water drops less than half-a-millimeter across that forms not under convective clouds but low stratus layers typical for oceanic climates like those found over Great Britain and north-western France.
+  weather.drought:
+    label: drought
+    summary: Prolonged lack of rain leading to insufficient amounts of available surface water.
+    info: A drought is defined as an extended period without sufficient precipitation to meet normal needs for agriculture, industry, and domestic use.
+  weather.dust_storm:
+    label: dust storm
+    summary: Wall of wind-driven dust common to dry areas.
+    info: A dust storm occurs when strong winds lift fine terrestrial particles into the air. In West Africa's Sahara region it is called 'harmattan'. The desert dust regularly crosses over Atlantic Ocean reaching Americas where research shows its impact on Amazon rainforest.
+  weather.flood:
+    label: flooding
+    summary: Overflowing riverbanks onto usually dry areas.
+    info: Flood occurs due to excessive rainfall, snow melting, or dam failures. Floods are the most costly natural disasters worldwide. In the Czech Republic, floods caused by billion-euro damages and dozens dead during those events.
   weather.foggy:
     label: foggy
     summary: Thick fog near ground level that reduces visibility.
     info: Fog consists of water droplets forming clouds at ground level. It occurs when humidity is high and can reduce visibility to less than 1 kilometer.
+  weather.freezing:
+    label: frost
+    summary: Temperatures under zero degrees Celsius causing liquid water's transformation.
+    info: Frost occurs at temperatures below freezing when water turns to ice. It can biologically damage plants and cause traffic accidents due to black ice on roads. The strongest frosts recorded historically occurred during January (-42°C was measured near Prague-Litvinovice in 1929). Snow is solid-state precipitation formed through condensation processes within clouds depending upon temperature conditions.
+  weather.frost_flowers:
+    label: frost flowers
+    summary: Beautiful icy frost forms that develop across frozen surfaces.
+    info: Ice flowers form when moisture freezes onto extremely cold surfaces creating crystal-like formations resembling flower petals. These delicate ice structures appear only under specific conditions—warm moist surface meeting very cold air—and often create complex crystalline designs especially visible at Arctic seas where they become popular subjects for nature photography due to their visually stunning beauty.
+  weather.frosty:
+    label: frozen morning
+    summary: Surface hoarsiness where icy crystal formations cover both flora & terrain
+    info: "Hoar forms when surface temperature drops below freezing point causing air humidity to crystallize\nIt creates beautiful patterns on leaves, glass surfaces including soil \nUnlike rime(frost), hoarfrost is airborne ice that has been deposited directly onto objects without melting first whereas rime consists frozen dew"
+  weather.gloomy:
+    label: dreary
+    summary: Dark cloudy weather that creates an oppressive mood.
+    info: Dreary weather is characterized by low dark clouds, dim lighting, and cold or rainy conditions. It's associated with melancholy and autumn seasons.
+  weather.hailing:
+    label: hale
+    summary: Precipitation composed mainly of frozen spheres called hailstones which can damage crops vehicles roofs etc.
+    info: Hailing is precipitation consisting of ice particles formed within thunderstorm clouds when water droplets repeatedly pass through cold upper parts before freezing solidly upon reaching warmer lower regions inside these cumulonimbus formations.
+  weather.haze:
+    label: haze
+    summary: Reduced visibility resulting from dust, smoke, or air pollution.
+    info: Haze is reduced atmospheric clarity caused by dust, smoke, or tiny airborne particles. It differs from fog because fog consists of water droplets while haze includes solid or liquid aerosols. Asian mega-cities often face threats due to smog—a combination of haze and industrial emissions—and UPM—ultra-fine particle pollutants—are health risks for respiratory systems.
+  weather.heat_lightning:
+    label: heat lightning
+    summary: Flashes of storm activity visible too far for any accompanying sound.
+    info: Heat lightning is flashes from distant storms whose thunder cannot be heard due to their great distance. The name can be misleading because it's not caused by heat but rather refers to how far away they appear.
+  weather.heat_shimmer:
+    label: Heat Shimmer
+    summary: Visual illusion caused by distorted refraction patterns near heat sources.
+    info: Mirages occur when light bends through warm rising air over asphalt roads or deserts because heated air has lower density than cooler surrounding areas causing optical illusions like apparent puddles on highways.
+  weather.heatwave:
+    label: heatwave
+    summary: Extended periods above-average warmth can pose health risks.
+    info: A heatwave is an extended period of extreme heat that exceeds normal seasonal temperatures. The European heat wave of 2003 caused over 70,000 excess deaths. It poses particular danger to seniors, children, and those who are ill.
+  weather.hot:
+    label: Heat
+    summary: Intense warmth causing discomfort and health risks.
+    info: Extreme heat is a weather phenomenon where temperatures significantly exceed seasonal averages. Combined with humidity it can cause life-threatening heatstroke. In the Czech Republic temperature waves have exceeded 38°C.
+  weather.humid:
+    label: humid
+    summary: Air filled with water vapor creates hot and stuffy conditions.
+    info: Humidity measures the amount of water vapor present in the air. A relative humidity level of 100% indicates that the air is saturated—any excess moisture will condense out. High levels make heat feel more intense because sweat does not evaporate easily.
+  weather.hurricane:
+    label: tropical depression
+    summary: An organized system of clouds forming an area where surface pressures drop below normal.
+    info: A hurricane is a tropical storm that forms over warm ocean waters near the equator when conditions such as high humidity and low wind shear allow for its development.
+  weather.ice_storm:
+    label: Freezing Rain
+    summary: Rainfall turning to thin sheet-like glaze over objects.
+    info: A freezing rainstorm occurs when warm air above cold layers causes rainfall which immediately freezes upon contact with surfaces such as trees, wires, roads—creating thick transparent sheets on them; these heavy accumulations can overload power lines causing blackouts across regions like Quebec where an infamous event happened back in '98 marking Canada's worst disaster.
+  weather.icy:
+    label: black ice
+    summary: Dangerous thin sheeting frost causing slipping.
+    info: Black ice forms by freezing raindrops on cold surfaces or melting snow that then freezes again. It is considered to be among the most dangerous winter conditions for traffic due to its extreme slipperiness caused by an ultra-thin layer of liquid water over solid ice beneath it.
+  weather.lightning:
+    label: lightning
+    summary: Electrostatic discharge between clouds and ground or among clouds.
+    info: Lightning is an intense electrical discharge that occurs when charge differences within thundercloud reach critical levels. The speed of lightning reaches approximately one-third the speed of light; about 100 flashes strike Earth every second.
+  weather.misty:
+    label: misty
+    summary: Low visibility caused by fine haze.
+    info: Hazy weather occurs when water vapor condenses within ground-level air layers. It differs from dense fog because visibility is limited but not below 1 kilometer; it often forms over rivers, ponds, valleys during cold nights.
+  weather.monsoon:
+    label: monsoon
+    summary: Seasonal shift of winds that bring an intense rainy season.
+    info: The Monsoon is caused by seasonal wind shifts between oceanic areas and landmasses. The Indo-Pakistani monsoon brings about 70–90% annual precipitation during June through September. Around seven hundred million people rely on it for agriculture.
+  weather.muggy:
+    label: humid
+    summary: Uncomfortably hot air mixed with excessive dampness causes suffocating feelings.
+    info: Humid heat is caused by high temperature combined with elevated relative humidity. High moisture levels prevent sweat evaporation so that body cannot cool effectively.
+  weather.overcast:
+    label: overcast
+    summary: Sky completely filled only with dark grey masses blocking out sun entirely.
+    info: Overcast sky occurs at cloud cover levels between 7/8 to full coverage by thick gray clouds across all parts of visible horizon without direct sunlight reaching ground level anymore.
+  weather.partly_cloudy:
+    label: partly cloudy
+    summary: The sky has scattered clouds that create alternating patches of sunlight and shadow.
+    info: Partly cloudy is defined by cloud cover between three-eighths to five-eighths according to weather standards. It's considered pleasant for outdoor activities due to its balance between sun exposure and shade. Cumulus clouds typically form during warmer parts of the day under partly cloudy conditions.
   weather.rainbow:
     label: rainbow
     summary: A colourful arc in the sky after rain when the sun is shining.
@@ -18,6 +142,22 @@ cards:
     label: rain
     summary: Water drops fall from clouds as rain.
     info: Rain forms by condensation of water vapor in clouds. It is essential for filling rivers, lakes, and potable water reserves; average rain falls at a speed of 9 m/s.
+  weather.sandstorm:
+    label: sandstorm
+    summary: Wall of sand and dust driven by powerful winds across arid regions.
+    info: A sandstorm occurs when strong wind lifts massive amounts of dust and sand. A haboob is a specific type of sandstorm found in the Sahara region and on the Arabian Peninsula. It can bury villages and cause respiratory issues.
+  weather.shower:
+    label: cloudburst
+    summary: Short intensive rain shower coming out cloudstorm.
+    info: '{"hint":"short yet intense downpour","info":"A cloudburst is an abrupt short-lived precipitation event originating from convective clouds such as cumuli or cumulonimbuses.\nThe weather changes rapidly; it begins suddenly and clears within minutes to hours.\nIt''s typical for summer when solar heating causes convection leading often towards formation afternoon Cumulo-nimbi . After rainfall rainbow might appear."}'
+  weather.sleet:
+    label: freezing rain
+    summary: A mix of rain and snowfall where some flakes have only partly thawed.
+    info: Freezing rain forms when snowflakes pass through a warm layer of air causing them to melt slightly before freezing again upon contact with surfaces such as roads forming ice layers that can be dangerous for traffic.
+  weather.slush:
+    label: slush
+    summary: Partly thawed snow mixed with water; it creates an icy slick winter surface layer.
+    info: Slush forms when temperatures rise just above freezing point causing snow to begin melting. It is very slippery and dangerous for both pedestrians and drivers.
   weather.snowy:
     label: snowfall
     summary: White snowflakes fall from clouds.
@@ -30,6 +170,34 @@ cards:
     label: sunny
     summary: Clear sky with bright sunshine, no clouds.
     info: Sunny weather occurs when cloud cover does not block sunlight. The sun provides light and heat essential for life on Earth.
+  weather.sunrise:
+    label: sunrise
+    summary: The instant that marks day's beginning by which sunlight rises over Earth’s surface.
+    info: Sunrise is an astronomical moment when the solar disk crosses the horizon. Its coloration (orange, pinkish hues) results from light scattering via the Rayleigh effect; green flashes—rare optical phenomena visible during sunrise—are observable under clean atmospheric conditions.
+  weather.sunset:
+    label: sunrise
+    summary: The moment sunlight disappears behind the earth.
+    info: Sunset is an event that occurs when the Sun descends beneath the Earth's surface during evening hours.
+  weather.thunderstorm:
+    label: thunderstorm
+    summary: An intense weather event featuring lightning flashes, rolling thunderclaps, torrential downpouring rains accompanied often violent gust winds.
+    info: A thunderstorm forms within cumulonimbus clouds that can reach heights over 10 kilometers. A lightning strike is an electrostatic discharge which heats air to around 30,000°C almost instantly. Thunder results from sound waves caused by rapid expansion due to heated atmospheric gases.
+  weather.tornado:
+    label: tornado
+    summary: Destructive cylindrical mass composed entirely outwards spiraling winds extending upwards through clouds while simultaneously reaching downwards towards earth.
+    info: A tornado is formed by rapidly spinning columns of wind created during thunderstorms that touch down to Earth's surface. Wind speeds can exceed 500 kilometers per hour. They most commonly occur within 'Tornado Alley' across parts like Kansas, Oklahoma, and Texas states located under United States territory.
+  weather.typhoon:
+    label: typhoon
+    summary: A tropical storm system forming within northwest pacific ocean regions characterized by sustained wind speeds exceeding approximately seventy-five miles hourly.
+    info: Typhoon is another name for hurricanes occurring near Philippines, China, Japan, and surrounding areas where they hit an average of twenty times per year each; Typhoon Nina caused floods that killed over two hundred thousand people across mainland china.
+  weather.waterspout:
+    label: waterspout
+    summary: Spinning funnel-shaped cloud connecting sea/lake surface to an associated storm.
+    info: A waterspout is a rotating column of moist air above a body of water. A dangerous tornado-like waterspout forms during thunderstorms while weaker ones form under cumulonimbus clouds on calm days. It can suck up fish or other animals and carry them to land.
+  weather.whiteout:
+    label: white out
+    summary: Condition caused by blinding amounts of falling fresh powder snow which removes all shadows making it impossible for humans eyes distinguish objects.
+    info: A whiteout occurs when heavy snowfall combined with bright reflection causes sky to merge seamlessly with ground creating an endless expanse of whiteness that provides no visual reference points leading people towards disorientation.
   weather.windy:
     label: windy
     summary: Strong movement of air that bends trees and carries leaves.

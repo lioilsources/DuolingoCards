@@ -2,6 +2,48 @@ lang: pt-BR
 pivot: false
 title: Animais Marinhos
 cards:
+  animal.anglerfish:
+    label: diabo-marinho
+    summary: Peixe profundo que tem um anzol brilhante no nariz.
+    info: O diabo-marinho vive em profundezas do mar escuro abaixo de mil metros e possui uma isca luminosa no rosto para atrair presas ou machos. O macho é extremamente pequeno e ao encontrar fêmeas ele gruda nelas fisicamente fundindo suas estruturas corporais com elas.
+  animal.barnacle:
+    label: caranguejo lanternário
+    summary: Pequeno artrópode marinho fixado nas superfícies duras como pedras ou embarcações.
+    info: Os lanternários são equinodermos fixados da subclasse Ciripédia que grudam-se em rochas e cascos de navios com uma secreção cimentosa. Alimenta-se por filtração do plâncton usando pernas expostas fora das conchas. Suas lagartixas nadam livremente até encontrarem um local para ficar preso ao longo toda sua vida.
+  animal.beluga_whale:
+    label: Belaúga
+    summary: Pequena baleia ártica com cabeça alongada e expressão amigável.
+    info: A beluga é uma pequena baleia branca que habita os oceanos árticos e subárcticos. Sua testa redonda chamada melão serve para eco-localização. É única entre as baleias por poder mover o pescoço lateralmente.
+  animal.blue_tang:
+    label: Surgeonfish Azul-Vivo
+    summary: Pequeno peixe tropical corado azulado; protagonista de Procura por Nemo.
+    info: |-
+      O Surgeonfish azul-vivo ou peixe-cirurgião é uma pequena espécie de recife com coloração claramente azulada e cauda amarela encontrada nos recifes coralinos do Pacífico e Índico.
+      A animação 'Procurando Nemo' aumentou seu interesse em cativeiro embora seja exigente no aquário doméstico.
+      Possui um filamento afiado nas raizes da barbatana caudal que lhe dá origens ao nome cirurgiãos.
+  animal.carp_river:
+    label: caprim
+    summary: Grande peixe dulcícola marrom-dourado encontrado tanto nos riachos quanto nas pisciculturas.
+    info: |-
+      O capim é originário da Ásia e foi introduzido na Europa já no período medieval.
+      É um peixe onívoro que revira o fundo dos rios podendo turvar a água com isso
+      Ele também simboliza os natal em República Tcheca onde comerciantes vendem exemplares vivos dentro de recipientes.
+  animal.catfish:
+    label: silúria
+    summary: Grande peixe de água doce com bigode que se esconde no fundo dos rios.
+    info: O silúrio-comum é o maior peixe de água doce da Europa; pode atingir mais de dois metros e pesar acima de cem quilos. Seus bigodes característicos servem como órgãos olfativos e táteis.
+  animal.clam:
+    label: mexilhão-gigante
+    summary: É uma espécie que vive em recifes coralinos tropicais.
+    info: O mexilão-gigante é o maior molusco bivalva do mundo e pode atingir mais de um metro em comprimento com peso acima dos 200 quilogramas.
+  animal.clown_triggerfish:
+    label: Peixe-Pulso Clowns
+    summary: Peixe tropical intensamente colorido com manchas brancas e barbatanas laranjas.
+    info: '{"hint":"peixe de recife com padrão chamativo (Balistoides conspicillum)","info":"O peixe-pulso clowns é um grande peixe tropical da família dos balístidos que possui uma das colorações mais exóticas entre os peixes marinhos\nPossui dentes fortes para triturar corais e moluscos duras\nA denominação ''pulso'' vem do primeiro espinha dorsal funcionando como trava (''gatilho''), bloqueia o segundo\nPode ser agressivo aos mergulhadores durante período reprodutivo","label":"Peixe-Pulso Clowns","summary":"Um peixe tropical vividamente pigmentado com manchas brancas e bigodes laranja."}'
+  animal.clownfish:
+    label: peixe-palha
+    summary: Peixe laranja que vive na simbiose com uma perigosa anêmone do mar.
+    info: O peixe-palha amarelo vive em anêmonas marinhos cujos tentáculos tóxicos matariam outras riqueiras de peixes; ele é imune graças à mucosa protetora. Na simbiose com os equidnas, limpa-os e afasta seus predadores enquanto eles oferecem proteção ao peixinho. Todos nascem como macho mas um dominante pode tornar-se fêmea.
   animal.crab:
     label: caranguejo
     summary: Crustáceo de dez patas com carapaça dura e garras que se move para os lados.
@@ -10,26 +52,162 @@ cards:
     label: delfim
     summary: Mamífero marinho inteligente que vive em cardumes e salta da água.
     info: O delfim é um mamífero marinho pertencente à família dos cetáceos. É conhecido por sua alta inteligência, capacidade de ecolocalização e comportamento brincalhão – os delfins adoram saltar das ondas de embarcações e se comunicam usando assobios e cliques. Eles vivem em grupos chamados cardumes e são parentes próximos das baleias.
+  animal.dugong:
+    label: diguongo
+    summary: Herbvoro silencioso do Oceano Índico e Pacífico relacionado ao mantim.
+    info: O duguongo é um mamífero marinho parentado com os manteis que vive no Oceano Índico e Pacífico. Alimenta-se exclusivamente de ervas marinhas. É considerado uma possível fonte da lenda das ninfas do mar, pois navegadores confundiram-no erroneamente por criaturas sobrenaturais.
+  animal.eel:
+    label: enguia/murenha
+    summary: Peixes semelhantes à cobra encontrados em rachaduras nos recifes.
+    info: A murena é uma grande peixe marinha da família dos murênidos que costuma esconder-se nas fendas de recifes coralinos. Possui duas fileiras de dentes; além das mandíbulas bucais, possui mandíbulas internas para ajudar na ingestão da presa até o pescoço. Ela não ataca proativamente e normalmente só mordisa quando provocada.
+  animal.flying_fish:
+    label: flierfish
+    summary: Peixe热带 capable de deslizar acima das águas usando suas grandes barbatanas.
+    info: O flierfish ou 'exocoeta' é um peixe tropical capaz de saltar da água e planar no ar com suas barbatanas torácicas que funcionam como asas; ele pode voar até uma distância de 200 metros alcançando altura máxima de cerca de 1 metro e meio para escapar de seus predadores naturais tais como atuns, espadas marinhas e golfinhos. Barbados também chamado por esse motivo de Terra do Peixes Voadores inclui estes animais em sua culinária tradicional bem como na cultura local.
+  animal.frogfish:
+    label: antennário
+    summary: Esperando emboscado em recifes珊瑚inos caça usando iscas.
+    info: '{"hint":"predador ambuscada bizarra que caminha sobre barbatanas (Antennariidae)","info":"O antennário é um pequeno peixe marinho da família dos antenários com uma capacidade de mimetismo excelente\ne tem nadadeiras torácicas moldadas como pernas pelas quais anda pelo fundo do oceano\. Na primeira nadadeira dorsal possui uma isca móvel chamada ilício para atrair presa\. Ele pode engolir uma presa cujo tamanho seja praticamente igual ao seu próprio e isso tudo dura apenas seis milissegundos","label":"antennário","summary":"Esperando emboscado em recifes coralinos caça usando iscas."}'
+  animal.giant_squid:
+    label: Lula-gigante
+    summary: O maior ser sem vértebras vivendo no oceano profundo.
+    info: Os lulas gigantes (Architeuthis dux) são os maiores invertebrados do mundo e podem atingir mais de 13 metros de comprimento. Elas possuem olhos com diâmetro maior que 25 centímetros – os maiores da fauna animal -, adaptados à escuridão das profundezas marítimas. Vivem em fundos entre 300 e mil metros abaixo da superfície sendo uma presa principal para baleias assassinas.
+  animal.hammerhead_shark:
+    label: tubarão-martel
+    summary: Peixe cartilaginoso com corpo alongado e cabeçote distinto em formato de T.
+    info: O tubarão martelo tem uma cabeça alargada e plana em forma de 'T'. Essa característica permite melhor detecção da presa por meio dos órgãos elétricos chamados ampulhas do órgão de Lorentzi e facilita movimentos precisos no ambiente aquático.
+  animal.horseshoe_crab:
+    label: carangueijo-toure
+    summary: Antigo artrópode existindo há aproximadamente 450 milhões de anos.
+    info: O caranguejo-touro (Limulus polyphemus) é um artrópode com cerca de 450 milhões de anos que sobrevive desde o período Paleozoico sem mudanças significativas. Ele não está relacionado aos verdadeiros camarões e sim mais próximo dos aracnídeos como os escorpins. Seu sangue azulado contém uma substância única chamada coágulo-gen, usada para verificar segurança em medicamentos e vacinas.
   animal.jellyfish:
     label: medusa
     summary: Animal marinho transparente em forma de sino com braços venenosos.
     info: A medusa é um animal marinho pertencente ao filo Cnidaria que não possui cérebro, coração nem ossos – seu corpo é composto por cerca de 95% água. Ela se move através da contração pulsante de seu corpo em formato de sino. Seus braços contêm células urticantes chamadas cnidoblastos, capazes de paralisar suas presas. Algumas espécies são quase imortais e podem voltar para uma fase juvenil.
+  animal.lionfish:
+    label: peixe-leão
+    summary: Peixe tropical venenoso com espinhos dramáticos e coloração estriada.
+    info: O peixe-leão vermelho é uma espécie de peixe marinho venenoso da família dos escorpiões-do-mar com listras branco-vermelhas proeminentes e espinhos tóxicos.
+  animal.lobster:
+    label: carangueijo
+    summary: Grande aracnídeo com pinças vermelhas quando cozinhado mas verde-esverdeado na vida selvagem.
+    info: O caranguejo-atlântico é um grande artrópode marinho da família dos néfrops que pode atingir mais de 60 centímetros de comprimento e vive por até cinquenta anos.
+  animal.manatee:
+    label: Dugongo/manati
+    summary: Herbívoro lento chamado vaca-marinha.
+    info: O manatim é um grande mamífero marinho que se alimenta exclusivamente de ervas marinhas.
+  animal.manta_ray:
+    label: raia-manta
+    summary: Grande ave marinha elegante que filtra plancton perto da superfície do oceano.
+    info: A Manta oceanográfica é uma das maiores espécies de raia com um envergadura maior que sete metros e peso acima dos dois mil quilogramas. Filtra plancton usando placas branquiais enquanto nada com sua boca aberta.
+  animal.mussel:
+    label: Musselha
+    summary: É uma concha escura agrupada sobre pedras em áreas de subida e descida das marés.
+    info: A musselha é um molusco que vive nas zonas de marés do Oceano Atlântico e Pacífico. Ela fixa-se em rochas com fios firmes chamados bisso. Filtra água e atua como indicador da poluição dos oceanos ao acumular toxinas e metais pesados.
+  animal.narwhal:
+    label: monocércefalo
+    summary: Baleia ártica com chifres em forma de caracol lembrando criaturas mitológicas.
+    info: O baleia ártica Narvál é uma pequena espécie de golfinho que pode chegar aos cinco metros e possui um dente espiralado típico da espécie Monodonte monócero. Esse 'chifre' mede até três metros no macho adulto mas está ausente nas fêmeas.
+  animal.nautilus:
+    label: Náutilos
+    summary: Cephalópodo antigo que sobrevive desde os tempos dos dinossauros.
+    info: O nautilo é um molusco cefalópode primitivo com concha espiralandada e viveu quase sem mudanças por mais de 400 milhões anos.
   animal.octopus:
     label: lula
     summary: Molusco com oito braços capaz de mudar cor e forma do corpo.
     info: Lulas são animais invertebrados da classe dos cefalópodes. Possuem três corações, sangue azul e podem alterar instantaneamente a cor e a textura da pele usando cromatóforos. São muito inteligentes – conseguem abrir recipientes fechados e resolver labirintos.
+  animal.orca:
+    label: baleia assassina
+    summary: Predador marinho de topo com aparência preto-e-branca.
+    info: A baleia assassina é o maior representante da família das golfinhos e um dos animais mais inteligentes do mundo.
+  animal.oyster:
+    label: ostra
+    summary: molusco filtrador d'água; fonte de pérolas e iguaria apreciada.
+    info: |-
+      Ostras são moluscos que filtram água; uma única ostra pode filtrar até 200 litros de água por dia.
+      Alguns tipos produzem pérolas quando um objeto estranho irrita sua concha.
+      As ostras cruas são consideradas iguarias e tradicionalmente comidas nos meses cujos nomes contêm a letra 'R'.
+      Sua criação em oceanos é sustentável ambientalmente e ajuda na purificação da água do mar.
+  animal.piranha:
+    label: piranha
+    summary: Peixe carnívoro de água doce sul-americano com presas pontiagudas.
+    info: A piranha vermelha é uma peixe carnívoro de água doce da Amazônia com dentes afiados triangulares. Sua reputação como um predador mortal está exagerada; raramente ataca pessoas saudáveis que estão nadando ou banhando-se. Elas caçam em cardumes e possuem forte olfato capazes de detectar sangue à distância.
+  animal.puffer_fish:
+    label: peixe bolinha
+    summary: Peixe que pode incharse em uma bola cheia de espinhos.
+    info: O peixe-bolha é uma série de peixes da família dos tetradontideos capazes de encher seu corpo com água ou ar para formar um esfera pontuda quando ameaçados.
+  animal.salmon:
+    label: salmão
+    summary: Grande espécie de salmão que migra desde os oceanos até riachos superficiais.
+    info: O salmão é um peixe anadrômico que cresce no oceano e retorna aos rios de origem após centenas de quilômetros para desova. Quando está em seu período reprodutivo, muda sua cor da prateada para fortemente vermelha. Após reproduzir-se, grande parte dos salmones (espécies pacíficas) morre; seus corpos apodrecem liberando nutrientes ao ecossistema florestal natural.
+  animal.sea_anemone:
+    label: anêmone de água doce
+    summary: Animal aquático semelhante à floração da corais com garras tóxicos.
+    info: A anêmona marinha é um cnidário que visualmente se parece com uma flor fixada em rochas. Seus braços possuem células venenosas chamadas nematócitos para imobilizar suas presas e vive em simbiose com peixes-palha, algas e camarões-limpa-peixe.
+  animal.sea_cucumber:
+    label: pepino-do-mar
+    summary: Animal marinho cilíndrico coletando restos orgânicos no solo.
+    info: Os pepinos-do-mar são equinodermos marinhos da classe dos holotúridas que vivem no fundo do oceano. Eles filtram sedimentos e alimentam-se de resíduos orgânicos. Quando ameaçados, expulsam seus intestinos ou um líquido aquoso os quais podem ser regenerados.
+  animal.sea_lion:
+    label: lobão
+    summary: Foca que tem orelinhas visíveis e consegue locomover-se sobre suas patas.
+    info: O lobo-do-mar da Califórnia é o representante mais conhecido dos otáridios ou focas de orelinha. Diferente das verdadeiras focas, possui botões auriculares externos e pode caminhar com quatro nadadeiras. É excepcionalmente esperto; no entretenimento aprendem truques complexos.
+  animal.sea_otter:
+    label: lontra-marinh
+    summary: Lontras-marinhas nadam em suas costas usando pedra para abrir conchas.
+    info: A lontra marinha é um mamífero marinheiro da América do Norte com o pelo mais denso de todos os mamíferos (800 mil pelos por centímetro quadrado). Ela usa pedras como ferramentas para quebrar mexilhões e caracóis colocados no peito. Dorme flutuando sobre sua barriga segurada pelas patas das outras lontros para não ser levada pela correnteza.
+  animal.sea_slug:
+    label: placocefalo/nudibrânquiode
+    summary: Peixe-marinho colorido sem carapaça encontrado nos recifes.
+    info: Placóforos ou nudibranquios são moluscos marinhos sem concha que vivem em recifes de corais. Eles possuem algumas das cores mais notáveis do reino animal e servem como aviso sobre sua toxicidade. Alguns tipos absorvem células tóxicas da alimentação (como coral) para se defender.
   animal.sea_turtle:
     label: Tartaruga-marinha
     summary: Réptil marinho grande que retorna às praias para botar ovos.
     info: A tartaruga-verde é um dos sete tipos de tartarugas marinhas. As fêmeas retornam à praia onde nasceram a cada dois e cinco anos para depositar seus ovos. Indivíduos adultos são herbívoros e se alimentam de algas e ervas marinhas; os filhotes são onívoros.
+  animal.sea_urchin:
+    label: ouriças-do-mar
+    summary: Ouriças-do-Mar são animais marinhos com corpos arredondados cobertos de espinhos vivendo sobre rochas.
+    info: Uma ouriça-do-mar é um equinoderme marinho da classe dos Ecinos que possui espinhos móveis em sua superfícies externa. Entre os seus espinhos estão órgãos especializados chamados pedicelários usados para limpeza e captura de presas pequenas. Alimentam-se principalmente por algas, fungos e restos orgânicos no fundo do oceano.
   animal.seahorse:
     label: peixe-palha
     summary: Pequena ave que nada em posição vertical; o macho carrega os filhotes.
     info: O peixe-palha é um pequeno peixe do gênero Hippocampus que se move na posição vertical usando sua nadadeira dorsal. Uma curiosidade é que são os machos que carregam os filhotes em uma bolsa abdominal, e não as fêmeas. Ele usa sua cauda para se segurar nas algas marinhas enquanto aguarda a passagem de suas presas.
+  animal.seal:
+    label: foca
+    summary: Mamífero aquático descansando sobre pedras enquanto pesca peixes nos oceanos.
+    info: O foca comum é um mamífero marinho da família dos fócidos que possui corpo hidrodinâmico e não tem orelias externas. Vive ao longo das costas do Oceano Atlântico e Pacífico passando tempo tanto no ar quanto em rochedos submersos ou expostos à superfície terrestre. Consegue mergulhar até mais de quinhentos metros abaixo do nível médio global atualmente observado para caça submarina durante cerca de meia hora.
   animal.shark:
     label: Tubarão
     summary: Grande peixe predador com dentes afiados e corpo hidrodinâmico.
     info: O tubarão-branco é o maior predador marinho do mundo e pode atingir mais de seis metros de comprimento. Ele consegue sentir campos elétricos das presas usando os órgãos Ampola de Lorenzini. Apesar da sua reputação, ataques aos seres humanos são extremamente raros; tubarões desempenham um papel fundamental como predadores-chave no ecossistema marinho.
+  animal.shrimp:
+    label: caranguejo
+    summary: Pequeno crustáceo marinho considerado um dos principais produtos pesqueiros globais.
+    info: Caranguejos são pequenos crustácios marinhos ou de água doce com dez pares de pernas. Existem mais de 2 mil espécies e eles estão entre os frutos do mar mais consumidos mundialmente após camarões. Eles atuam como filtros naturais da água e também se alimentam outros organismos menores sendo assim parte essencial das cadeias tróficas oceanográficas.
+  animal.squid:
+    label: lula
+    summary: Cephalópole desarmado movendo-se através da água via jet propulsion.
+    info: Lulas são moluscos cefalópodes com dez braços (oito pernas mais dois tentáculos). Movem-se por meio de jatos d'água e conseguem mudar sua cor usando cromatóforos. As lulas gigantes (Arquitemuís), que podem ultrapassar os treze metros em comprimento, são consideradas como sendo os maiores animais invertebrados do mundo.
+  animal.starfish:
+    label: estrela-do-mar
+    summary: Animal marinho pentarradiado capaz de regenerar os membros perdidos.
+    info: Estrelas-do-mar são equinoderma marinhos com tipicamente cinco braços. Eles conseguem regerar um braço perdido ou até mesmo criar novo corpo de uma parte cortada do braço. Alimentam-se de moluscos cucas conchas eles quebram usando ganchos.
+  animal.stingray:
+    label: raya
+    summary: peixe marinho plano com espinhas na parte de trás da barriga
+    info: '{"hint":"raio plano com espinho venenoso na cauda","info":{"label":"Raya\/Raia","summary":"Peixe marinho plano com espinhos nas nadadeiras peitorais e espinação defensiva no rabo que repousam em fundos arenosos","details":{}}}'
+  animal.swordfish:
+    label: espada
+    summary: Peixe predador pégalico muito rápido com focinho alongado.
+    info: O espada grande é um peixe pélagico de águas quentes e subquentes nos oceanos tropicalizados do mundo todo. Seu bico plano em forma de lâmina serve para acertar presas como outros pequenos cardumes ou moluscos, não perfurar com ele diretamente no corpo da vítima. É uma das maiores velocidades registradas entre os animais aquáticos terrestres, podendo atingir mais que cem quilômetros por hora.
+  animal.tuna:
+    label: atum
+    summary: Peixepelágica rápida pescadapara indústriaalimentícia em grandes quantidades.
+    info: O atum azul é uma espécie de atum que pode chegar aos três metros e pesar mais do que setecentos quilogramas. É um peixe homeotérmico capaz de manter sua temperatura corporal acima da água ao seu redor. Ele também pertence às criaturas marinhas com maior velocidade registrada até agora no mundo marinho alcançando cerca de sessentaquilômetros por hora.
+  animal.walrus:
+    label: morsa
+    summary: Grande mamífero ártico com dentes e bigodes semelhantes aos da elefantina.
+    info: A morsa é um grande ceta do Ártico caracterizada por grandes presas de marfim que podem ultrapassar meio metro em comprimento.
   animal.whale:
     label: baleia azul
     summary: O maior animal da Terra – um mamífero marinho que respira ar.

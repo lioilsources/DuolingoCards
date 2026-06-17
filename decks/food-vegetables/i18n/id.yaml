@@ -2,14 +2,70 @@ lang: id
 pivot: false
 title: Sayuran
 cards:
+  veg.artichoke:
+    label: sayuran
+    summary: Tanaman hias atau makanan ringan dalam wadah tertutup untuk menghiasi meja.
+    info: '{"hint":"Sayuran berduri hijau besar yang menyerupai bunga dahlia","info":"Artichoke adalah benih dari tanaman tumbuh liar dengan daun bergigi dan bentuk seperti kembang api.","label":"artichoke","summary":"Tanaman sayur berbentuk bulat kecil dengan warna hijau terang."}'
+  veg.arugula:
+    label: rocket
+    summary: Daun sayur segar warna cokelat kehijauenan dengan aroma kuat.
+    info: Rocket atau arugula berasal dari wilayah Mediterania dan memiliki cita rasa pedas serta agak terbakar karena mengandung senyawa glucosinate yang alami. Daun hijau gelap ini digunakan dalam masakan Italia sebagai dasarnya untuk berbagai hidangan seperti pizza dengan cara ditambahkan setelah dipanggang.
+  veg.asparagus:
+    label: kacang polong
+    summary: Tunas musim semi halus; sayur segar istimewa.
+    info: '{"hint":"kecambah hijau musim semi yang empuk","info":"Kecambah (Asparagus officinalis) adalah salah satu sayuran musiman termahal di musim panas.","label":"kacang polong","summary":"Tunas musim semi halus; sayur segar istimewa."}'
+  veg.bamboo_shoot:
+    label: výhorny bambusa
+    summary: Tunas muda dari tanaman bambu.
+    info: Výhornya bambusa adalah tunas muda pohon bambu yang dipetik segera setelah tumbuhnya berkecambah di Asia Tenggara dan Timur Jauh.
+  veg.beet:
+    label: bit
+    summary: Sayuran umbi bulat warna coklat tua; bahan pewarnanya serta pangan.
+    info: |-
+      Bitak (Beta vulgaris) mengandung beta-sianin yang merupakan pigmen merah alami kuat.
+      Ia juga tinggi akan nitrat yang meningkatkan performa olahraga dan menurunkan tekanan darah.
+      Sorgum gula adalah varietas berbeda dari bit akar; sumber utama gula putih.
+      Pewarnaan air seni menjadi pink atau ungu setelah makan bit merah disebut beaturia—fenomena ini tidak membahayakan.
+  veg.bok_choy:
+    label: Bok Choy
+    summary: Sayuran daun Asia dengan batang putih dan daun gelap.
+    info: Pok Choi atau Bok Choy adalah sayuran berdaun yang tumbuh di Tiongkok dan digunakan dalam masakan China, Jepang serta Thailand. Sayur ini mengandung vitamin C, K, A beserta kalsium.
   veg.broccoli:
     label: brokoli
     summary: Sayuran hijau dengan kepala bunga padat pada batang tebal.
     info: Brokoli adalah sayuran hijau dari keluarga kubis-kubisan. Ia sangat kaya akan vitamin C dan K serta antioksidan; brokoli berasal dari Italia.
+  veg.cabbage:
+    label: kol
+    summary: Bentuk sayuran bundar dengan daun yang padat.
+    info: Sayur kol bulat berdaun rapat ini telah dibudidayakan di Eropa selama ribuan tahun dan mengandung vitamin C serta K bersifat anti-kanker seperti glucosinolate.
   veg.carrot:
     label: wortel
     summary: Sayuran akar berwarna oranye dengan rasa manis.
     info: Wortel biasa adalah tanaman dua tahun yang ditanam untuk akarnya yang juicy dan berwarna oranye. Ia kaya akan beta-karoten (previtamin A) dan serat.
+  veg.cauliflower:
+    label: kembang kol
+    summary: Himpitan kecil banyak kuntum membentuk kepala tebal seperti bola
+    info: '{"hint":"kepal bunga padat berwarna putih","info":"kembang kol adalah kerabat dari brokoli\nbentuknya yang bulat dan warnanya yang putih disebut demikian karena daun-daunan melindungi bagian tengah sehingga tidak terjadi fotosintesis untuk menghasilkan klorofil\nterdapat juga jenis ungu, jambon/oranye maupun hijau\nkini di dunia kuliner tanpa gluten menjadi penganti tepung atau nasi"}'
+  veg.celeriac:
+    label: celer akar bulat besar
+    summary: Akar putih besar dengan bentuk menyerupai buah anggur merupakan basis utama dalam membuat sop
+    info: Celor akar bulat besar berwarna putih adalah jenis celur yang dipanen dari bagian akarnya saja dan memiliki aroma serta rasa kuat seperti celor biasanya digunakan sebagai dasar untuk sup salad remoulade atau masakan panggang berasal dari wilayah Mediterania populer di dapur Ceko Prancis Jerman
+  veg.celery:
+    label: peterseli
+    summary: Sayuran hijau renyah dengan aroma kuat ini dikatakan memiliki efek negatif pada jumlah energinya.
+    info: Peterseli beraroma tajam berasal dari Laut Tengah dan merupakan bagian penting dalam masakan Prancis sebagai dasar trio 'mirepoix' yang terdiri atas bawang bombai, wortel, serta peterseli sendiri. Petersely juga digunakan untuk membuat minuman detoksifikasi populer yaitu jus batangnya.
+  veg.chard:
+    label: bayam merah
+    summary: sayuran daun berwarna ceria dengan batang multicolor
+    info: '{"hint":"Sayur berdaun besar yang warna-warni dengan batang merah atau pelangi","info":{"label":"Bayam Merah","summary":"Sayuran daun hijau kaya vitamin dan mineral dengan batang bermacam-macam warna seperti merah muda hingga ungu","detail":{"description":"Bayam merah adalah sayuran dari spesies Beta vulgaris subspecies cycla\/cicla\u00f4. Tumbuh di dataran Eropa terutama Jerman dan Austria sebagai tanaman musim dingin karena ketahanannya pada cuaca dingin. Bayam ini memiliki tekstur renyah namun kuat serta rasa agak manis."},"nutrition":{"vitamins":[{"name":"K","function":"penting untuk pembekuan darah dan metabolisme tulang"},{"name":"A","function":"untuk penglihatan normal, pertahanan imunitas, perkembangan sel kulit"}],"minerals":[{"element":"Kalium","role":"menjaga tekanan darah stabil melalui fungsi jantung"}]}}}'
+  veg.chickpeas:
+    label: chickpeas
+    summary: Bijian polong-polongan berwarna beige bulat.
+    info: '{"hint":"biji polong-polongan berwarna beige bulat","info":"Chickpeas atau garbanzo bean adalah jenis kedele yang populer di Timur Tengah dan India\ndan merupakan bahan dasar untuk membuat humus serta falfal. Kacang ini juga mengandung banyak protein nabati sehingga sangat diminati dalam makanan vegan maupun vegetarian. Selain itu air dari chickpeas dapat digunakan sebagai pengganti putih telor saat memanggang."}'
+  veg.chili:
+    label: cabai
+    summary: Bawang cabai berwarna merah atau hijau yang digunakan sebagai dasar masakan rica.
+    info: Cabai rawit merah atau hijau kecil yang sangat pedas termasuk jenis Capsicum annuum dan lainnya. Rasa terbakar disebabkan oleh capsaicin dengan tingkat keramahan diukur menggunakan skala Scoville (misal jalapeno memiliki antara 2.500 hingga 8.000 satuan Scoville). Fungsi evolutif dari senyawa ini adalah untuk mengusir mamalia tetapi tidak burung karena burung membantu menyebarluaskan bijinya.
   veg.corn:
     label: jagung
     summary: Sayuran kuning dengan baris biji berair pada tongkol.
@@ -18,18 +74,82 @@ cards:
     label: timun
     summary: Sayuran hijau panjang dengan daging segar yang berair.
     info: Timun adalah sayuran tropis dari keluarga labu-labuan. Mengandung 95% air, menyegarkan dan populer dalam salad atau sebagai camilan.
+  veg.eggplant:
+    label: terung
+    summary: sayuran berbentuk oval dengan warna ungu tua
+    info: '{"hint":"Sayuran ungu gelap memanjang (Solanum melongena), juga disebut terung","info":"Terung (Solanum melongena) berasal dari India dan telah ditanam selama ribuan tahun.\nPada Italia dinamakan melanzana di Prancis menjadi aubergine sedangkan Amerika Serikat menyebutnya telur-telur karena bentuk yang menyerupaikan telur ayam\/telor\. Terdapat senyawa antosianida yaitu antioksidant kuat dalam kulit hitam tebal ini.\nMerupakan dasar masak-masakan mediterania serta Timur Tengah seperti Moussaka Baba Ganoush atau Ratatouille."}'
+  veg.endive:
+    label: endive
+    summary: Sayuran segar bergizi rendah kalori namun banyak serat
+    info: '{"hint":"sayuran berdaun hijau dengan rasa pahit dari keluarga Chicory","info":"Endive atau witloof adalah sayur daun yang memiliki karakteristik rasanya yang sangat pedas dan tidak biasa untuk jenis makanannya sendiri karena mengandung senyawa kimia tertentu seperti aciditas tinggi serta warnanyapun terlihat lebih putih akibat proses penumbuhan tanaman di bawah sinar matahari langsung maupun gelap total selama beberapa waktu,"}'
+  veg.fennel:
+    label: adas
+    summary: Buah berbentuk bawang putih dan daun seperti pucuk serta rasanya gurih.
+    info: Adas manis (Anethum graveolens), juga disebut fenikl atau Foenicolum vulgarie memiliki rasa yang mirip dengan adas karena mengandung senyawa bernama anetola di dalamnya.
   veg.garlic:
     label: bawang putih
     summary: Bulat berwarna putih dengan aroma kuat yang menjadi dasar rasa banyak masakan.
     info: Bawang putih telah digunakan selama ribuan tahun dalam memasak sebagai bumbu dan obat-obatan. Mengandung allicin yang memiliki sifat antimikroba dan anti-inflamasi.
+  veg.ginger:
+    label: jahe
+    summary: akar kuning agak bulat dengan cita rasa pedih dan aromatis
+    info: '{"info":"Jahe\" adalah akar dari tumbuhan yang berasal dari Asia Tropis\. Mengandung senyawa gingerol sebagai penyebab rasa pedas dan efek anti-inflamasi\. Penelitian menunjukkan bahwa jahe dapat membantu mengatasi mual serta gangguan pencernaan\. Teh jahe, bir berjahe, dan kue jahe seperti gingerbread merupakan beberapa contoh olahan populer menggunakan rempah ini\", "label": "jahe", "summary": "Akar coklat keputihan dengan tekstur kasar dan aroma kuat."}'
+  veg.green_beans:
+    label: buncil
+    summary: Lobak berisi biji fagiol yang masih mentah.
+    info: Buncis hijau panjang dan ramping dikumpulkan dalam keadaan belum matang secara penuh. Mereka juga dikenal sebagai French beans atau bobi beans serta mengandung vitamin C, K, dan folat.
+  veg.kale:
+    label: sayuran daun biru tua
+    summary: Super sayuran dengan warna biru kehijauan.
+    info: Sayur berdaun hijau gelap yang sangat bergizi ini mengandung vitamin K, A, dan C serta antioksidant. Pada dekade tahun 2010-an menjadi makanan utama bagi vegetarian dan gerakan hidup sehat.
+  veg.kohlrabi:
+    label: Rabarbara
+    summary: Sayuran hias berasal dari kelompok kubis.
+    info: '{"bulb": "Bunga ungu dengan batang tebal yang tumbuh dari tanaman Brassica oleracea", "stem": "Batangnya berisi dan dimakan bersama daunnya"}'
+  veg.leek:
+    label: Porok
+    summary: Sayura berkarakteristik ringan dengan aroma mirip bawang; digunakan sebagai basis untuk membuat kuah kaldu maupun pasta.
+    info: |-
+      {"hint":"Sayuran berkeluarga bawang yang besar dan tidak pedas (Allium ampeloprasum)","info":"Leek atau porok (Allium ampeloprasum) adalah kerabat dari bawang bombai dan bawang putih\r
+      Ini merupakan simbol nasional Wales; orang Welsh memakainya pada hari Santo David\r
+      Mengandung alisin serta vitamin K dan C\r
+      Sup porok tradisional ditemukan dalam masakan Britania Raya, Prancis, dan Republik Ceska","label":"porok","summary":"sayur-sayuran rasa manis seperti bawang; dasar sup dan saus."}
+  veg.lentils:
+    label: kacang lentil
+    summary: Bijian bulatan pipih dari kelompok tumbuhan Leguminosae
+    info: '{"hint":"biji polong berbentuk cakram datar kecil","info":"Kacang lentil merah dan hijau adalah salah satu jenis tanaman yang sudah dipelihara selama ribuan tahun di Asia Tenggara. Kedua varietas ini bisa dimasak dalam waktu sekitar setengah jam hingga sepuluh menit lebih cepat dibandingkan dengan buncis atau kedele biasa karena tidak perlu direndam terlebih dahulu."}'
+  veg.lettuce:
+    label: selada
+    summary: Sayuran hijau renyah untuk dasar campuran salad.
+    info: '{"hint":"sayuran segar berdaun krispi","info":"Selada kepala (Latua sativa) telah dibudidayakan sejak zaman Mesir Kuno. Mengandung lebih dari 95% air dan merupakan sayur rendah kalori yang populer dalam banyak varietas seperti selada iceber, romaine, lolla, butterhead, daun akasia. Di Yunani dulu digunakan sebagai persembahan agama serta direkomendasikan oleh Hipocrates karena sifat menenangkannya."}'
+  veg.lotus_root:
+    label: akar bunga teratai
+    summary: Penampang melintir dengan lubang-lubang cantik membuat akar bunga teratai menjadi makanan istimewa.
+    info: Akar bunga teratai suci adalah batang yang tumbuh di tanah dari spesies Nelumbo nucifera dan digunakan dalam masakan Asia seperti Tiongkok, Jepang, serta India karena tekstur renyahnnya. Batas penampangan memperlihatkan pola lubang simetri pada bagian tengah akar ini.
   veg.mushroom:
     label: jamur
     summary: Jamur cokelat muda yang digunakan dalam masakan.
     info: Agaricus bisporus adalah jamur tertanam terbesar di dunia. Kaya akan protein, vitamin B dan mineral; digunakan dalam berbagai hidangan.
+  veg.okra:
+    label: bijian
+    summary: Buah dengan tekstur licin digunakan dalam masakan Amerika Selatan.
+    info: '{"hint":"biji berduri hijau panjang","info":"Bijinya mengandung protein dan serat yang tinggi serta vitamin A,C,E,B6,dan kalsium"}'
   veg.onion:
     label: bawang bombai
     summary: Sayuran bawang berlapis pedas untuk menambah rasa makanan.
     info: Bawang bombai adalah salah satu sayuran paling banyak ditanam di dunia. Digunakan sebagai penyedap masakan di seluruh dunia; mengandung flavonoid yang memiliki efek antimikroba.
+  veg.parsley:
+    label: petitselem
+    summary: Herba hijau terang dengan aroma kuat.
+    info: Petisium (Petroselinum crispum) banyak digunakan sebagai bumbu dan dekorasi makanan. Mengandung lebih banyak vitamin C daripada jeruk secara berat badan. Ada varietas yang halus atau melengkung serta bergulir-guliran daunnya.
+  veg.parsnip:
+    label: pasinaka
+    summary: Sayur akar putih kecoklatan dari era pertengahan.
+    info: Pasinaka adalah sayuran berakar yang berkaitan dengan wortel dan memiliki rasa manis serta gurih seperti kacang. Dulu menjadi kompon utama di Eropa sebelum datangnya ubi kayu tetapi saat ini lebih jarang ditemukan.
+  veg.peas:
+    label: kacang
+    summary: Bijian bulatan hijau dalam kulit buah.
+    info: Kacang polong merah muda atau buncis adalah tanaman berbiji yang sudah dibudidayakan sejak zaman purba oleh manusia. Gregor Mendel melakukan eksperimen tentang genetika menggunakan tumbuhan ini antara tahun 1856 hingga 1863 untuk mengetahui bagaimana sifat-sifat diturunkan dari satu generasi ke lainnya.
   veg.pepper:
     label: paprika
     summary: Sayuran berwarna cerah dengan rasa manis atau pedas.
@@ -38,7 +158,55 @@ cards:
     label: kentang
     summary: Dasar umbi berwarna cokelat dari banyak hidangan di seluruh dunia.
     info: Kentang berasal dari Pegunungan Andes di Amerika Selatan dan merupakan salah satu tanaman pangan terpenting di dunia. Kentang adalah sumber karbohidrat, vitamin C, dan kalium.
+  veg.pumpkin:
+    label: Lampiran
+    summary: Benda bundar bewarna jingga sebagai simbol perayaan Halloween.
+    info: '{"hint":"labu-labui besar berwarna jingga bulat (cucurmax atau cucump)","info":"Labu-labui ini berasal dari Benua Amerika dan mengandung banyak betakarotin serta vitamin-vitamin seperti A dan C","label":"lampion halloween","summary":"Simbol Halloween yang terkenal dengan warnanya yang cerah."}'
+  veg.radish:
+    label: wortel
+    summary: Sayur-sayuran segar merah muda di musim semi.
+    info: '{"hint":"sayuran akar merah atau putih yang renyah dan kecil","info":"Radish adalah sayuran berakar cepat tumbuh dari spesies Raphanus sativus.\nWortel merah biasanya lebih kecil sedangkan wortel musim dingin seperti daikon cenderung besar dengan warna terang.\nMengandungi glikozisinolate yang memiliki efek antimikrobialnya sendiri.\nPada masakan Jepun, daikon merupakan komponennya dasar."}'
+  veg.spinach:
+    label: bayam
+    summary: Sayuran hijau gelap dengan kadar besi yang tinggi.
+    info: Bayam berasal dari Pars kecil zaman pertengahan dan mengandung vitamin K, A, C serta folat yang tinggi. Bayam juga merupakan sumber besi alami sehingga sering digunakan sebagai suplemen nutrisi untuk anak-anak sejak tahun tiga puluhan melalui karakter Popeye si pelaut dalam komiks.
+  veg.spring_onion:
+    label: bawang hijau
+    summary: Cabe rawit yang memiliki bagian dasar berwarna putih serta batang daun bewarna hijau digunakan untuk menambah rasa pada salad.
+    info: '{"info":"Bawang hijau musim semi ((Allium fistulosum atau Allium cepa)) dipanen dalam keadaan belum matang sepenuhnya.\nTeksturnya lebih halus dan kurang pedas dibandingkan dengan bawang biasa.\nDigunakan di masakan Asia sebagai pelengkap hidangan salad maupun sup."}'
+  veg.squash:
+    label: kubis
+    summary: Sayuran dasar masakan gugur dengan bentuk variatif
+    info: '{"hint":"labu-labui musiman berbentuk bervariasi","info":"Labu musim dingin (cucurbita), mencakup varietas seperti labu buttercup dan kabocha\ndapat membentuk kulit keras yang melindungi selama beberapa bulan hingga menyeluruh sepanjang musim dingin\nkaya akan vitamin-vitamin penting termasuk juga kompleks B serta vitamin C\nadalah bagian dari pola konsumsi tiga saudara dalam sistem pertanian tradisional suku Indian"}'
+  veg.swede:
+    label: lobak
+    summary: Sayuran akar ungu-kuning besar berbentuk bulat; pendamping sajian haggis.
+    info: Kubis lobak merah gelap adalah hasil persilangan antara kol dan lobak yang dikenal sebagai 'rutabaga' di Amerika atau menjadi pelengkap tak terpisahkan dari hidangan tradisional Skotlandia bernama haggis. Rasanya manis dengan aroma rempah halus setelah dimasak.
+  veg.sweet_potato:
+    label: singkong
+    summary: Buah umbi berwarna orange manis bukan kerabat dekat kentang tropis.
+    info: Ubi jalar atau singkong ungu merah (Ipomoea batatas) berasal dari Amerika Selatan dan secara tumbuh-tumuhan tidak berkaitan dengan ubi kayu biasanya seperti kentang. Ubi ini mengandung banyak betakarotennya yang memberikan warna oranye pada dagingnya serta vitamin-vitamin penting termasuk juga serat makanannya.
+  veg.taro:
+    label: talas
+    summary: Akar umbi kaya pati bergaris-garis biru muda
+    info: '{"hint":"akar umbi ungu berpati yang besar","info":"Ubi kayu atau talas adalah tanaman akar dari genus Colocasia spesies esculenta dengan warna kulit dan daging bervariasi tergantung jenisnya."}'
   veg.tomato:
     label: tomat
     summary: Buah merah bulat yang digunakan sebagai sayuran.
     info: Tomat secara botani adalah buah (biji), tetapi di dapur digunakan seperti sayuran. Tomat berasal dari Amerika Selatan dan mengandung likopen serta vitamin C.
+  veg.turnip:
+    label: wortel ungu
+    summary: Sayur berwarna biru-merah dengan bentuk bundar; hidangan lama di Asia.
+    info: '{"hint":"akar putih ungu bulat","info":"Wortel ungu adalah sayuran akar yang kerabat dekat kubis dan lobak.\nPada abad ke-XVI menjadi makanan pokok Eropa sebelum ubi kayu datang dari benua Barat Laut Aмерика.\nMengandung vitamin С, кальций и serat膳食纤维.\nAlternatif daging vegetarian; sup wortel ungu merupakan resep tradisional Tiongkok."}'
+  veg.watercress:
+    label: rerichia air
+    summary: tanaman liar berwarna hijau tua dari aliran-air
+    info: '{"hint":"herba air hijau gelap pedas kecil","info":"Roripha aquatikus tumbuh di sungai dingin dan sumber mata airnya\nmempunyai rasa panas seperti lada karena kandungan glikosilasi sintirin\njuga mengandung vitamin C,K,beta karotena yang tinggi \ndi Inggris digunakan sebagai saus roti tradisional sedangkan Perancis menyebutnya dengan nama potage au cresson"}'
+  veg.yam:
+    label: ubi
+    summary: Tumbuhan dengan akar tebal mengandung pati tinggi.
+    info: Ubi jalar atau singkong adalah umbi berpati besar dari daerah tropis di Afrika, Asia dan Kepulauan Karibia yang biasanya digunakan sebagai bahan pokok utama terutama untuk wilayah Sub-Sahara Afrika dimana lebih dari 95% produksi dunia ditanam disini.
+  veg.zucchini:
+    label: timun
+    summary: Sayuran berwarna hijau yang bisa digunakan dalam masak-memasak maupun panggang.
+    info: '{"hint":"timun jepang","info":"Timun Jepang adalah mentimun musiman yang dipanen sebelum matang sempurna dengan panjang antara 7 hingga 25 sentimeter dan berasal dari Meksiko serta dibawa ke Eropa oleh Italia. Mengandung lebih dari 90 persen air sehingga rendah kalori. Telah diteliti sebagai pengganti mie untuk makan bebas gluten."}'

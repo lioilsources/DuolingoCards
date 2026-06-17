@@ -2,42 +2,219 @@ lang: ha
 pivot: false
 title: Kuswaren Duka
 cards:
+  fruit.ackee:
+    label: akke
+    summary: Tropikal ce redyar din hausa sai yelwar arili; kafin farina Jamaji.
+    info: |-
+      Akki (Biliji Sapida) ya kafin fari Jaraimaka;
+      wana yau da alama na Kapten Bilijarun shekara ta 1750
+      Wanci wuriya duka zauni guda biyu da ke tafiyan mutum,
+      kawkawuwa ba'ushe ma'auna suka zuwa toksikai (hipuglikain A)
+      akki adan an shiroshi don karanta waɗannan makan halay Jakima.
   fruit.apple:
     label: jablko
     summary: Kulai da kusan daga cikini ya'ayi ta hawwa.
     info: Jablan yauwanda Malus domestica, wani kulai tare da sheyuka na vitamin C da fiber; wajen gaba 7,500 mutum.
+  fruit.apricot:
+    label: meyrunyuka
+    summary: Wanciya hausa ce, tsitsitse mai harita.
+    info: "Meyruanka ta koma da Wajen Asia don hanyoye Prunu armeniaka. \nYana pesta dacewa Europe ya fada wanda Tschechie;\nkwaran Turkiya amfani suwai kuma yau shiga Ankara. \nA gudum ci Beta karota ama Vita min A."
+  fruit.avocado:
+    label: avoakada
+    summary: Tropikal filmu geua; bascin guacamo.
+    info: Avoakado ne Persea Americana ya haifar da Mexico na Amina Afirka.Yake ba biyi ta hanyar yauwa wanda ke amfani daga sheguwanci, aliya kamfanin masu fatunna wasiya (linseed oil acid) tsoro guduna gari oliwo.Aliya canza mai jini ga'awa zuwezuwar ranke;
   fruit.banana:
     label: banán
     summary: Zuttawa tropsik da kuka sukkur.
     info: Wakarko banán ne wace guda daga musa species. Wakarko ya za muhimman kalium da sukka amma, ku sauri yake mutum.
+  fruit.blackberry:
+    label: mandarin
+    summary: Rubbu darajai tsaye mandarin.
+    info: Mandarin(Rubus frutikosus), wanda aka soke da ran ruwa gero-gere ne ga farauka gudduguddun shan'aya, ya kamata ko rubbu daraja. Mandarini yake ka faɗe don hausa tsauro, bari amma zuwa kasa ta biyayya. A kan su kuje vitamin C, K ama sheyi.
+  fruit.blueberry:
+    label: gwaji
+    summary: Bobo darake tsammane; maitacewaka ce hausa.
+    info: Gwajiya yau da Vaccinim myrtlema don hambeli, V.corymbosuma don gari ya dawakin anthocyan. Anthocyana din za gabata suke tsauro wato guzabuwa antioksidan da ke samaranta fitowa mannan sunan jikinsuyi.
+  fruit.cantaloupe:
+    label: kanatellupa
+    summary: Melowen gari roga-auro suke da jikinshe guddaa.
+    info: Kantallupe (cukumi mele varieta canatalopeyensi) ya kwaranta daga Asia wanda ke nufiya da shekarun kanatawa. Wani tattara yake sun ce 'beta karotenn' amfaran vitaminne A don shafawa dukka ta hanyaya.
   fruit.cherry:
     label: třešeň
     summary: Mai kamanta da yawa da aduwa wanda ya nuna zuwa biyu.
     info: Tresheni ne plodi na treshine ptaci, mai kamanta da yauka ga watinsu. Wajasa antiosidanin da melatonin; wane da ke tsaye da wanne da ke gaba (plum).
+  fruit.coconut:
+    label: cocoyi
+    summary: '''Nut'' ya soke ga haski na babban musama da ''husky'''
+    info: "Yaya Cikoko (coco-nut ifran-hausafada), wanda ke gudun da yauzuwa hausa na haru tsoro ya, daga sheyuka waɗanniyar hawula, ba za ki ka’are suka ‘nut’, amma ‘drupe’. \nWani mazamaiya nan yi dubbin masu fafa mai suntsuntsuwar matsayi, don halbociyar matse-matsen biyi. \nMata mata ta ciko da adawa ya cocoyi sake iyo africans da Asia korimin."
+  fruit.cranberry:
+    label: carniberri
+    summary: Dukkan haliyar gida; Pinda traditional don America.
+    info: Cranberri ne Vaccinium macrocarpon ya yau da dukkan haliyar gida kan wani hausa ga’awa don America ta amfanyiwar hadarwa ‘Thanksgiving’. Ya canza proantcyanidiin ke taimaka aderinsu cece insensitif da Escherichia Coli labariya daraja alamarun sheyi.
+  fruit.currant:
+    label: Rybiz
+    summary: Guduguda da aka so rubis, biyu ruwe bo ba
+    info: Rybiz na gudu da wanci ribus suka tsaye ya zauro don kasuwa. Rybis nigri shiga yau vitamin C ga'aidan masu bobulu. Rybus nigrum din yana amfani da 'ribena', limeni britania ko 'cassish'.
+  fruit.damson:
+    label: sheveksiki
+    summary: Sheveksi tacewaka ce wajen hukumar hausa.
+    info: Damasenkanci sheveski ne wanda ke tsire da mutum guddo na Damaskus zuwa Europe. Wannan matsaye yau rawro mai gida ga'awa, amma ya kamata kokarin jem, povidance don ing kaftariya da damasenci gin.
+  fruit.date:
+    label: datti
+    summary: Wannan haihai hausa ce nufa ran Rafia, jikiyar Biyafra.
+    info: Dattai na wane karkashin hau'ala ya kan Rafia da Phoenix Dactylifera yana nufawa cikinin gudun Biyafra ta Kudu ne won yi amma biyu. Wanneh sunaka shaweruan sheya ga Allah aiwa suka farima ramadan.
+  fruit.dragon_fruit:
+    label: gwada gudda
+    summary: Kaktuwu troppikal gwadun pinki su kanji biyu.
+    info: Gwada guddu da kekai na pinki ya canji ne wajen gaskiya waɗannan yankari don shafawa, ga'ashiwarmu antioxidenta da vitamin C. Ya kamatawa jiya, smoothie da desherta.
+  fruit.durian:
+    label: duriyan
+    summary: Tropikalma farakin dukanciya da siyarinshe vuunyi; kume duruwacinka.
+    info: Duriyan wuce Durion Zebetinas da aka soke kuma duruwa ya yawa na africana. Vuna ga zauro ne don naye gaba duka, guzauko, ba'ayi auwana; bari hotelai Asia masanidugudu suka iya tura. Duga ce kunua ta amfani da wasu mutum mai hausa ke mandula, wanen kuwanduwan shegu.
+  fruit.feijoa:
+    label: fijoji
+    summary: Wanciyakarsafi oval zaune wanda dukake shekaru.
+    info: Fijoja ne wani karkashafar ya'ada ta hausa dinsau da Amaerin waɗannabiya. Duwammain su yana iya tsaushe lokali don anapanshi, gwavaya, ama mankololi. Wajen New Zealand yi amfanyi wasanne lafiyawon mutum bihar.
+  fruit.fig:
+    label: fig
+    summary: Plasda fiigga Ficusewaka, ya baike da suka
+    info: Figon kuma da yake daga cikin hau'uka ta figus wanda ke adanawa na shekarun gida, ya kamatawa mafere fun shawararin 'yan wasagu, kalium don kan'an mutum da fafaninshe guddo.
+  fruit.gooseberry:
+    label: ribus
+    summary: Bobo mince waɗannan zauro; amfani da su ke tsaye.
+    info: Gwanda Ribes uva-crispata da koyya daga cikin hanyar yanki wajen Afsuwa-Eropa. Wuce ne zuwe guda biyu, rubutun mutsu da dublin. Yana tura shey ya kamfanawa vitamin C.
   fruit.grape:
     label: hrozno
     summary: Mai kushe ga zaune da yake da ke baki dinsu.
     info: Wargi Vitis vinifera ya haifar da gwarzo da farko ne kafin mutum - min jali zuwa kafin tsauro. Gwarzo da farko ne yana iya kamata, sun iya guzauka zuwa rozinko ko sun iya lisa zuwa wina.
+  fruit.grapefruit:
+    label: guwancitrus
+    summary: Wani guwo tsoro-tsoho mai citruse
+    info: Guwa yau wanda ke kusanyin Citrus Paradisi ya kamata gudun da tafariyayya hausa ta barbadoss duka cikinin shekaruni 19. guwan rosowe ne ga red din su kafo lin karotene amma shido beta. Shida grippa zai iya fara kan gyara-gyarake mutum don kuɗaya.
+  fruit.guava:
+    label: gwawo
+    summary: Plashe gwao na tropika don hanyaya biyu o dan rozi
+    info: Gwawa ya keme wane Psidium Guayjava anar da Amina na Tropaiku da suka yake n Tsia ta Afrika. Ya canza vitamin c gaumar gudun shekara nan tafariya kuwa. Kamaru wa'a da buttu sun yi amfani da itace.
+  fruit.jackfruit:
+    label: Jackfruity
+    summary: Tropical fruti,kafin da suka shawara zuwa yankunkuna
+    info: "Jackfruyti(Artokapthys hetrophyllos), ya kafin da suka shawara zuwa yankunku wanda kafe gaskiya duka sheyi kuwai, wa magani masu kilogramme tsa urarci 35 \nkofaci Asia Tropikal; ya kamfanawa inditerim don India,Bangladesh ama Tailannd\njackfruity ba zauro suna iya hausa amfanyisunna don karfi meat,shekarau ya iya samura amma ya baya da aroma"
+  fruit.kiwi:
+    label: kiji
+    summary: Owo guzwan hausa su kan zamani zuwezuwu wajen vitamin.
+    info: |-
+      Kiwai daya da Afsana ta China wanda ya ke rufe ga watannace 'Yang Tao' ko 'Chinese Gooseberry'.
+      New Zealand yake ci gudun hannu wa'a ce waneke jiya kuwa kiwau,
+      wato haka za biyayen vitamin C duk sauri toka gole.
+  fruit.lemon:
+    label: ciitruwane
+    summary: Yamar kunniya, shirin vitamin C ama aromatiku.
+    info: Citrone ya haifar da Asia wanda ke cikin hunkar yamma daga Citrus limon. Wajen gudun hannua ne waɗannan jama'uni vitamin C don faraido matsayina ta kamfanawa, kuwa-kai, tushewari matukuma, amma su kafrima. Aromatiku ciyere tsitsiren siyanke da aroma din citrun.
+  fruit.lime:
+    label: lemeta
+    summary: Matsakaici matsakan matazuwar gasho; matsakaijin hanyoye ranarin matukarkan.
+    info: |-
+      Lemeta ya hausa da yake wato na gaskiya zuwa duka matsaranimi, adanauku da aromatik.
+      Wuya ta kamata'aya waɗannan ranarin matukarkariya, tayiji da Vietnam.
+      Yana saita masu vitamin C don shida tsitsitance kurdeji.
+  fruit.longan:
+    label: wance
+    summary: Guduya wanca haihuwar liče.
+    info: Wancane Longyan ne wace gudiya ta hausa da yauka aiwe ya tuma dinsuwa na Tsin. Nawa kaikambanta 'draconis oculus' don mutumai shafautaye amma ga kamfanen guddo. Wacce suyaa ke tsammaniyar ran mai jari.
+  fruit.lychee:
+    label: lichi
+    summary: Karkasha hawula cikini Aiwoth da biiyaya shafi.
+    info: Wani liçi ne wane karkashewar yau da China na guddun hannua. Kullum ci gaba daga kulkin ceke ya kamatawa shafawa baiyayya. Ya iko rasa sukkari da aroma.
   fruit.mango:
     label: mango
     summary: Tropskò gwo mai yawa-oranje da dukkan ya so.
     info: Mango Indikiya wane ne 'baši tropsik mai gwo'. Ya ke amfani da witamin A da C ta kuma ya kai hausa Southern Asia, kamar wanda ya farauka she 4000 senne.
+  fruit.medlar:
+    label: misipul
+    summary: Wajen haguwar biyu mai kyautauciya abinci jambolan.
+    info: 'Misipuluwun ne Mespilus Germanicane yau da kuma wanda ke so cikin zamana hadariyoyi. Wannan mutsaniya ya kamatawa sauƙu tsitsiten gudumaike don nufuciyan ''blitting'': ya fura ba''ini zuwa waɗakko ka faɗe. Ya hausa masu karancin tan hinna ta vitamin C.'
+  fruit.melon:
+    label: melon
+    summary: Karkasha ga balla sukan ran auwargan ran da biyu.
+    info: 'Melo (cucumis melewa) ya karkashen afrika da asia wanda yake nafarin gudunyari na soya ta haliyar jama''ar rimi. Ya kamata kan shekaru sautsha percent lafiya, taimaka hausa cikin ranauka. Yana amfani da mutumin wasu matoke: canatalope, honi dewe, gala, charantai da abubuwar.'
+  fruit.mulberry:
+    label: wande Morus
+    summary: Kofaci mafiyan ranra dari Moraceae
+    info: |-
+      Wandeye Morus yau kuma da shekaranshekara ta dawo wanda ya kamatawa gaskiya Moraceae; matsarun babban Moraceae ke tsaye bornci Moraceae
+      Yana amfani da al'ale zuwezuwu, dubbin rosariya C don halayare dukancin jiki,
+      dan Morus yake taimaka hausa cikin hadheroyin hajjar.
+  fruit.nectarine:
+    label: wandeyewa
+    summary: Kwarawan sanshiya cikin dayakin halboci; ŋane da aduna.
+    info: Wandeye Nectarine (Pruunu persika vaarietati nauci-persiki), ya zai yanku tauro da wajen gama daga mutashilliyar biyologiya don kwarawa. Ya farauka farko zuwa kwarawanci tare da gene ga dukuka kwanan shafinku. Yana samun wasu masu gambo, amma tsaye suzuwadda.
   fruit.orange:
     label: oranj
     summary: Gororin fruktu citruse da kuma ya canza wajen ran oranji.
     info: Oranj ne kulerey cinitsunai ran suka Aisia guddo, kuma ya canza wajen ran don so da kofar din. Ya bawa sheyin vitamin C da ke amfani da su kan dausu.
+  fruit.papaya:
+    label: Papaja
+    summary: Tropical fruyewa ce waɗannan ranke kan ranke.
+    info: |-
+      Papayya ta aiwa da Carica Papaya ya tsoho zuwa Amerika Tropikal.
+      Ya canza enzin mai yacewari protein don hanyancu ne wajen karanta.
+      Yana dawo vitamin C, Beta Karotene antai antioksidanti.
+  fruit.passion_fruit:
+    label: muçenka
+    summary: Wandanniyar baƙasa gege tsitsittuka waɗanda ciki adana
+    info: Mucenkai ne Passifloran Edulisin da ke taimaka na Afrika ta Kuduwa Tropic. Wani mutum ce ya faraukwance wajen yake don shi amari daga kuwandarancin Kristo wajen kwatanti dayakin girmadun hanyya. Duwacin yake suke samaru zuwan barkasawa ga jeli ambakan.
+  fruit.peach:
+    label: peki
+    summary: Tofe pink-waza; simbuloriyaci lamma.
+    info: Peachiyan Prunus persicayya zauro da Cin ya ke soin da yake na kamfanawa. Pekkin daga Cin wanda kafe ta hausa tare da simbolariyacin nafarin gaba. Wajen Cin su iya wasuwa shekaransu durbin dayakinsan halorai.
   fruit.pear:
     label: Piruse
     summary: Fruit na sauran gaga da karsain suwa.
     info: Pirusen ne wani dukkan ya kamata halke, yake da shakkin sheyoyi kuma ya zacewaka tsamman jarra. Wuce wajen yau da adanaiya ga'acinen hausa.
+  fruit.persimmon:
+    label: toamel
+    summary: Owo manufuwan oranjauko, shida da rajiye
+    info: Tōmel (Di̱ospiyros kiiki), wanda ke tsaye da China amma Japan ne gudun daga yake, ya kamatawa nafin Cešíya don ‘tōmel japan.’ Tōmele wa ce soke da sukan hausa ta hanyar ranran, amma za nuwanci toso ebe iyo yawa. Ya won diita vitaminai A,C ama mineral.
   fruit.pineapple:
     label: ananas
     summary: Pilaniya ta hanyar karkashen gwoza da dukkan ya can zauro don yawa.
     info: Ananas kayai ne Amina Afirka da suka wajen kuma sun fi amfani da wa don jihar halbakin hanyar karkasha na duniya. Wanda mafiyan she kamfa'insu ne bromelain, enzim ta ke fara jawi.
+  fruit.plum:
+    label: shestka
+    summary: Gworon fiali; kafin slivovitcyo da povidlo.
+    info: Shestka ne Prunus doméstika ya kafin gwoje na Afiriki-Eropa ta hanyar yanki da adan wajen tsoho. Slivovitsya shestko (shewari tsoro), ya kamfanawa daga shwestki, ya nufiya hausa jihannu don Ketschi da Slovakiya.
+  fruit.pomegranate:
+    label: gorori
+    summary: Waddaa golewar da shekar biyiyan; simbul daraja.
+    info: "Gorori gudda ya Punica Granatum yana haifar da Asia matsayiwa ta Arawu wa suka duka da mediterania \nyau ke tsaye wani shekar biyar gaskiya don adanaiya redwan shafautshe ne (aril), ga nisa masu antoxidant, kuma yake amfanyaginshe da hukunci sunannada kamar ciwaka mai hadawa."
+  fruit.quince:
+    label: kyadue
+    summary: Plashe ba biyu ne kafinke da jiya da shirin jamberen hannula.
+    info: Kyadua ne kwanza da shey ya Cydonia oblonga wanda ke babban halakke na jamburun hannuna ta hausa yau. Kyaduanan raw ki ka tsaye da kyari gudugudu, waka zuwa su ga zauro don nufiyan membraulo, vinai kyaduo, paalanka kyaduo. Su sake pectine daye don fanyarawa djam.
+  fruit.rambutan:
+    label: Ramputan
+    summary: Waka ta hanyar haritan da dukuni.
+    info: Rambutan ya kamar Nephelium Lappaceum yau da Maiyaskariya mai wala hausa ce 'rambut' nece 'mata'. Wakilin gwoza dama ga mutsani matsayinin mata su kan shakkin dubuwa. Dubuan duwawa tana da birinci da kalmar.
+  fruit.raspberry:
+    label: malline
+    summary: Bobul biyu-biyuka; simbul hausa za letali.
+    info: Malline wajene Rubus Idaeus da ke kafar gari yauke ne guddu-guddun kanaka (drupellet). Yake nufi zuwa jama'arcikinsu ta hanyanci waɗannan kasance ya kamata su don rubbuwar haskar ga wasaru. Ya samana vitamin C amma K, manga antai antioksidant.
+  fruit.starfruit:
+    label: carambola
+    summary: '''Wajen farai'', kamfudun halor cin halor ga suna.'
+    info: Carambolu wanda aka so Averrhoa carambola ya haifar da Asia Kudu ma Japan.Aka farauwa yake ne ba'ayyanci duka wasan hulua ta gaskiya mai karfiya (wani sababawa suke 'carambola'), amma shawerinin labarcen kuwu.Aka iya canza mutsakan vitamin C.Karin jariyar ganaka kan yiyan zuwan biyu ka adana.
   fruit.strawberry:
     label: jahoda
     summary: Červená šťavnatá bobule ve tvaru srdíčka.
     info: Jahoda zahradní ye wajeta haifar da sukan rosaceae. Ya kafin vitamin C da antioksidanti; ya yake da wasu da sauri na haskina da ke amfani da har da gudun.
+  fruit.tamarind:
+    label: tamariindo
+    summary: Pod biyu-biyuka soja kuwu mai kisa; bascin hausa Thailand.
+    info: Tamariindi (tamariindu hindia) ya zauro da Afraka ta hauka; wane ne tuma cikini don tropika gwoza goyanci. Duwajiya su yana baiwa guzabata ma'ani da shawa; yake iyo da pad thai, Worcestersire sosai, amma ga India chin-chine. Sunan magance ai ce 'tamir hindhi', wanda ke abbin ci Arabo.
+  fruit.tangerine:
+    label: madanrinke
+    summary: Citus ke tsoro ga sun rini tsauro; simboli Natal.
+    info: Mandarinke ne citus da koma daga Cin dia, ya yau su kan cin gudun na wanca guzabe, antoxidanti doni sheya, amma shida cikin vitamin C. Ya nufawa ta simbolari New Year din Cin ma'ana tofautaye.
   fruit.watermelon:
     label: melon wani
     summary: Wajen gida guzabe da zai kafin duka sheyewa.

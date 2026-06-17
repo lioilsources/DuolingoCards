@@ -2,14 +2,72 @@ lang: de
 pivot: false
 title: Insekten und Amphibien
 cards:
+  reptile.agama:
+    label: Aga
+    summary: Farbig geflecktes Reptil aus Afrikas Steingebieten.
+    info: Agamen sind eine große Familie von Echsen aus Afrika, Asien und Australien mit über 300 Arten. Männliche Agame haben helle Köpfteile wie die orangefarbenen Kopfregionen der Rotköpfe sowie bläue Körperfarbungen als Zeichen ihrer Dominanz. Sie passen ihre Farbe für Thermorregulation an – dunkler im Kältestresszustand oder hellere Färbung bei Wärmebedarf.
+  reptile.alligator:
+    label: alligator
+    summary: Ein großer Schuppenreptilienart mit rundem Schnauze aus den Vereinten Staaten.
+    info: Der Amerikanische Alligator ist einer der beiden lebenden Arten von Alligatoren; die zweite Art ist der kleinere Chinesische Alligator. Er unterscheidet sich durch einen breiteren runden Schnabel und dadurch, dass seine Zähne bei geschlossenem Kiefer nicht zu sehen sind.
+  reptile.anaconda:
+    label: anacondas
+    summary: Schwerstes Reptil auf dem Planeten das in den Amazonasfeuchtgebieten lebt.
+    info: |-
+      {"hint":"weltgrößte Schlange und halbwasserschwalbe (Eunectes murinus)","info":"Die grüne Anaconda ist die schwerste Schlangenart der Welt;
+      sie kann bis zu einem Gewicht von über 90 Kilogramm mit einer Länge zwischen fünf und sechs Metern erreichen.
+      Sie lebt im Sumpfgebiet und Flüssen des tropischen Südamerika.
+      Es handelt sich um eine Halbschwimmer-Schlange,
+      die Fische fängt sowie Vögel, Kapibaren oder Krokodile jagd
+      und anders als andere Schuppenreptilien lebend gebärend (Viviparie) ist."}
+  reptile.anole:
+    label: Gecko
+    summary: Kleine ameikanische Eidechsenspezies die ihre Färbung ändert; das Männchen hat markante Lappentasche.
+    info: Ein Anolis ist eine Art kleiner Echse aus Amerika mit über 400 Arten. Männchen haben einen farbenfrohen Kehllappen (Dewlaps), den sie zur Kommunikation und zum Angeziehen von Weibchen nutzen. Der grüne Gecko kann seine Farbe vom Grün bis Braun verändern abhängig von Temperatur oder Emotionen.
+  reptile.axolotl:
+    label: Axolot
+    summary: Ein mexikanischer Wasser-Moloch mit kiemenförmigen Merkmalen über den ganzen Lebenszyklus.
+    info: Der Axolotl ist ein aquatischer Moloch aus Mexiko und zeigt Neotenie – das bedeutet, dass er seine Larvenmerkmale sein gesamtes Leben lang behält, einschließlich der äußeren Kiemen.
+  reptile.basilisk:
+    label: Basilikus
+    summary: Eine amerikanische Eidechse imstande kurzfristig auf dem Wasserlauf.
+    info: Der Schuppenbasilisk ist fähig über Wasser zu laufen dank seiner gefurchten Zehen mit Federn, die Luft unter der Wasseroberfläche einfangen können. Er kann so bis zu zwanzig Meter zurücklegen bevor er versinkt.
+  reptile.boa_constrictor:
+    label: Königpython
+    summary: Große südamerikanische Schlinge erstickt Opfer mit dem Körper.
+    info: Die Königspython ist eine große nicht giftige Schlange aus Südamerika. Sie tötet ihre Beute durch Ersticken – sie windet sich um die Beute und presst bei jedem Atemzug fester zu, sodass keine Luft einströmen kann. Aufgrund ihrer ruhigen Natur wird sie als beliebtes Exotenhaustier gehalten.
+  reptile.box_turtle:
+    label: Boxschildkröte
+    summary: Kleine Landschildkröten können sich innerhalb ihres Schutzpanzers ganz verstecken.
+    info: Die Boxschildkröte ist eine nordamerikanische Landtierart mit der Fähigkeit ihren Panzer vollständig durch bewegliche Vorderteile zu verschließen.
+  reptile.caecilian:
+    label: Wormenschlange
+    summary: Ein beinefreier tropischer Schwänzelähmung mit Wurm-/Schneckenaufbau.
+    info: Der Wormschwanz ist ein beinausgefallener Amphibien aus der Gruppe der Apodenten und wird selten untersucht sowie versteckt im Tropengrundleben gefunden. Er sieht wie eine große Regelmücke oder Schlangenhaut aus.
+  reptile.caiman:
+    label: Brillenkappad
+    summary: Südamerikanischer Reptilienart aus der Familie der Krokodyle.
+    info: Der Brillenkappad hat die größte Verbreitung aller Krokodylierarten Südamerikas und ist kleiner als echte Krokodile – er erreicht eine Länge von bis zu zwei Metern. Er kommt an Flüssen, Seen sowie Sumpfgebieten im Tropengürtel vom mexikanischen Hochland bis nach Argentinien vor.
   reptile.chameleon:
     label: Echse
     summary: Farbwechselnde Echse mit beweglichen Augen.
     info: Die farbverändernde Baumbewohner-Eidechse (Familie Chamaeleonidae) verändert ihre Farbe nicht zur Tarnung, sondern zur Kommunikation und Temperaturregulation. Ihre Augen können unabhängig voneinander sich bewegen.
+  reptile.cobra:
+    label: Kobra
+    summary: Giftschlange mit markantem Kapuzenschlag; toxisches Warngift.
+    info: Eine Kobra ist eine giftige Schlange aus der Familie der Rüsselschlangen und bekannt für die Fähigkeit, das Fell hinter dem Kopf zu einem Schleier aufzublasen als Warnung. Der Giftstoff (Neurogift) lähmt das Nervensystem ihrer Beute. Die Bruchschuppen-Kobra ist ein Nationalsymbol Ägyptens sowie Indiens.
   reptile.crocodile:
     label: Krokodil
     summary: Großes urzeitliches Reptil, das an Flüssen und Sumpfgebieten lebt.
     info: Das Nilkrokodil ist eines der größten Reptilien der Welt. Es lebt in Afrika und jagt aus dem Wasser. Es hat den stärksten Biss aller Lebewesen.
+  reptile.flying_dragon:
+    label: Flug-Echte
+    summary: Kleine südöstliche asiatische Eidechse mit Segelmembran an den Rippen.
+    info: Der Fliegende Drache (Draco volans) ist eine kleine Eidechse aus Südostasien, die durch ein Hautfell auf verlängerten Rippen segeln kann. Er gleitet von Baum zu Baum zur Territorialverteidigung oder um vor Fressfeinden wegzukommen. Männchen haben einen deutlich gelben Halsfleck.
+  reptile.frilled_lizard:
+    label: Kragenwarzenaggame
+    summary: Eidechsengattung aus Australien erweitert beim Angriff einen markanten Kragen und bewältigt ihre Fortbewegung durch Laufen auf zwei Beinen.
+    info: Die Kragenwarzenaggame ist eine australische Echtechse mit einem Hautfalten-Kragen um den Hals, der sich bei Bedrohung als Warnsignal aufbläht und sichtbar wird. Sie läuft wie ein Mini-Dinosaurier zweibeinig auf ihren Vorderbeinen fortbewegt. Im Ruhezustand bleibt ihr Kragen zusammengeklappt.
   reptile.frog:
     label: Kröte
     summary: Grünes springendes Amphibium mit roten Augen.
@@ -18,19 +76,151 @@ cards:
     label: Gecko
     summary: Kleiner Echsenartiger, der an vertikalen Oberflächen klettern kann.
     info: Der Leopardengecko ist eine beliebte Art im Terrarium. Millionen winziger Haare auf seinen Füßen ermöglichen es ihm, über Steine und Wände zu klettern – nicht Klebstoff.
+  reptile.gharial:
+    label: Gharial
+    summary: Ein Krokodylier-Typ mit extrem engem Schnabel spezialisiert auf das Fangen von Fischen.
+    info: Der Gharial ist ein Krokodylier aus Indien mit einem sehr langen und schmalen Schnabeltypischen Merkmal für die Fischbeutung. Männchen haben an der Spitze des Schnabels eine Erhebung namens 'ghar'. Es gilt als stark gefährdet und kommt nur noch im nördlichen Teil von Flüssen in Nordindien sowie Nepal vor.
+  reptile.gila_monster:
+    label: Gilanatter
+    summary: Giftige robuste Echseneidechse aus dem Südwesten Amerikas mit mosaikartiger Haut.
+    info: Das Heloderm der Gila (Heloderma suspectum) ist eine von nur wenigen giftigen Eidechsen weltweit. Es hat ein perlengroßes Fell mit einem orangefarben-schwarzen Muster als Warnung und injiziert Gift über Kerbtaschen an den Zähnen – nicht durch hohle Zähne wie bei Schlangen. Das Tier bewegt sich langsam und träge sowie verbraucht wenig Energie und frisst im Jahr lediglich einige Male.
+  reptile.glass_lizard:
+    label: Erdmoloch
+    summary: Ein Molochartiger Kriechtiertyp, der keine Eidechse oder Schlange ist.
+    info: Der Erdmoloch ist eine eierlegeende Schuppenkriechtiere ohne Beine und kommt überall im Europa vor. Er wird oft mit einer Schlange verwechselt. Im Gegensatz zu den Schlangen hat er bewegliche Augenlider sowie Ohrenöffnungen.
+  reptile.hawksbill_turtle:
+    label: Caretta
+    summary: Von Aussterben bedrozte Meeresschildkröte mit schmal gezogenem Schnabel.
+    info: Die Caretta caretta ist eine vom Aussterben bedrohte Meeresschildkröte aus der Gattung Eretmochelys. Historisch war ihre Panzerquelle für Tortellin bekannt und illegaler Handel hat sie fast zur Ausrottung gebracht.
+  reptile.horned_lizard:
+    label: Hornschuppe
+    summary: Flach gestaltete Stachel-Eidechsen aus nordamerikanischen Wüstengebieten mit Hörnerglieder an ihrem Schädel.
+    info: Die Hornschuppe ist eine flache stachelige Eidechse aus den Wüsten des Südwestens der Vereinigten Staaten und von Mexico mit hörnerartigen Auswölbungen am Kopf. Bei Bedrohung kann sie Blut bis zu einem Meter weit als Verteidigungsmechanismus durch die Augen spritzen. Sie bewegt sich schlecht fortbewegen und verlässt sich auf Tarnung.
+  reptile.iguana:
+    label: Grünes Gecko
+    summary: Ein großer grünen Reptil aus der Tropische Amerikanischen Region mit einer krummen Rückenkette.
+    info: '{"hint":"große pflanzenfressende Echse mit einem stacheligen Kamm (Anolis anoline)","info":"Der grüne Leguan ist eine große Pflanzenspeise-Eschel aus der Tropischen Amerika und kann bis zu zwei Meter groß werden.\nEr hat ein drittes Auge auf dem Scheitel (Parietalauge), das lichtempfindlich ist.\nEs handelt sich um einen sozialen Tierart; Dominanzhierarchien zeigen sich durch Kopftreten sowie die Körperfarbe.\nDie Hauptbedrohung für den Leguan sind Verluste des natürlichen Lebensraums; im Gefangenschaft verhält er sich wie ein aggressiver Erwachsener","label":"grüner Leguan","summary":"Großes grün gefärbte Schuppenreptil aus Tropischer Amerika mit einer spitzen Krone."}'
+  reptile.king_snake:
+    label: Königsschlange
+    summary: Nicht-giftige Amerikanische Schlange mit Immunität gegenüber dem Gegen des Rattenschenkel.
+    info: Der Königspython ist ein nicht giftiger US-Schlangenart und kann andere gefährliche Schlangen fressen wie Kobra, gegen deren Gifte er immun ist. Seine Färbung (schwarze Streifen auf weißer Grundfarbe) ahmt die der Giftkröten nach. Er spielt eine wichtige Rolle bei der Regulation von Mause-, Vogel- und Reptilienpopulation.
+  reptile.komodo_dragon:
+    label: Komo-Waran
+    summary: Die weltweit größte heutige Echse vom Inselkomo in Indonesien.
+    info: Der Komo-Waran ist die größte heute lebende Echse und erreicht eine Länge von über drei Metern sowie ein Gewicht von mehr als siebenzig Kilogramm. Früher glaubte man, dass er mit Bakterien im Speichel tötet – tatsächlich besitzt er jedoch Giftdrüsen. Er jagt Rehe, Wildschweine und sogar Bisons.
+  reptile.leatherback_turtle:
+    label: Lederschildkröte
+    summary: Größte Meeresschildkröte mit lederner Schutzschale anstatt harter Plättchen.
+    info: Die Große Lederschildkröte ist die größte Meeresschildkröte der Welt und erreicht eine Länge von über zwei Metern sowie ein Gewicht von mehr als siebenhundert Kilogramm. Anstelle eines festen Knochenschilds besitzt sie gefügtes Hautgewebe mit kleinen Versteifungen aus Osteodermen. Sie migriert riesige Distanzen durch den Atlantik – Reisen bis zu einer Strecke von 16 000 km wurden beobachtet.
   reptile.lizard:
     label: Echse
     summary: Vierbeiniger schuppiger Reptilien aus warmen Regionen.
     info: Die grüne Igel ist eine große Eidechse aus Mittel- und Südamerika. Sie ernährt sich von Pflanzen, ist ein ausgezeichneter Kletterer und kann abgebrochene Schwanzteile regenerieren.
+  reptile.mamba:
+    label: Schwarze Mamba
+    summary: Schnelle hochgiftige afrikanische Baumschlange.
+    info: Die Schwarze Mamba ist eine der schnellsten und giftigsten Schlangen weltweit mit Geschwindigkeiten von über 20 Kilometern pro Stunde auf dem Boden sowie Kletterfähigkeit an Bäumen.
+  reptile.matamata:
+    label: Mantamar
+    summary: Eine exotisch aussehende südamerikanische Schildkroete die abgefallene Pflanzenreste täuschend ähnlich darstellt.
+    info: Die Matamata ist eine der bizarrsten Süßwasser-Schildkröten im Südosten von Nordost-Amerika. Ihr Panzer und Kopf ahmen perfekt einen verrotteten Blattrest oder ein Aststück nach – das macht sie zu einer außerordentlich effektiven Tarnung. Sie erbeutet ihre Beute nicht mit Zähnen; stattdessen öffnet sie riesige Mäuler zum Einziehen des Wassers samt Opfer und schließt es wieder.
+  reptile.monitor_lizard:
+    label: Waran
+    summary: Großes aktives Raubtier-Echsenvieh mit einer gespalteten Zunge.
+    info: Ein Waran ist eine große Echse aus der Gattung Varanus mit einem gespaltenen Zunge als Geruchsorgan. Der Kommodowaran ist die größte noch existierende Art von Schuppenreptilien auf der Welt und kann über drei Meter lang werden. Warane sind intelligent genug dazu fähig einfache Werkzeuge zu nutzen.
+  reptile.mud_turtle:
+    label: Blaue Moorfrosch
+    summary: Eine kleine süßwasserlebende Halbwasserschildkröte aus Amerika.
+    info: Moorfrösche (Kinosternon) sind kleine Schildkröten mit einer Größe von etwa 15 Zentimetern aus Nord und Mittelamerika. Wenn sie bedroht werden, geben sie einen starken Geruch durch Drüsen ab. Sie können Trockenperioden überdauern indem sie sich im Schlamm vergraben und in den Winterschlaf gehen.
+  reptile.mudskipper:
+    label: Mangrovengoby
+    summary: Ein Fisch, der an Land wandert und dank seiner Brustflosse sogar Bäume erklimmen kann.
+    info: Der Perleperlmutterfisch ist ein Fisch aus der Familie der Gobienartigen und verbringt einen großen Teil seines Lebens außerhalb des Wassers. Er bewegt sich auf Schlammflächen mit seinen ausgeprägten Brustflossen wie eine Kriechpflanze fort. Der Fisch atmet durch seine feuchte Haut und kann über Mangrove-Wurzeln krabbeln.
+  reptile.newt:
+    label: Molch
+    summary: Kleiner Schwänzling-Lurch, der sowohl Wasser als auch Land bewohnt.
+    info: |-
+      Der Große Molch ist der größte Mittel-Europeaner Molche und wächst über eine Länge von 15 Zentimetern heran.
+      Im Fortpflanzungszeitraum präsentiert sich das Männchen mit einem markanten Rücken und Flecken wie bei Schlangen.
+      In Tschechiens Republik sind alle Molcharten durch Gesetz geschützt.
+      Den Winter verbringen sie unter Wurzeln oder außerhalb des Wassers im Bau.
+  reptile.poison_dart_frog:
+    label: Pralenfrosch
+    summary: Kleiner farbig gefärbter Giftpfeiler des Amazonasbeckens.
+    info: Die Pralensnik ist eine kleine Froschart aus der Familie Dendrobatoidea und lebt im Regenwald Mittelamerikas sowie Südostasiens. Ihre hellfarbige Erscheinung – meist rot oder gelborangefarben mit schwarzen Streifenmusterungen auf dem Rückenteil – dient als Warnsignal für ihre Toxizität; diese Form von Aposematismus signalisiert potentielle Gefahr an mögliche Raubtiere abwehrend. Einige Arten sind sogar unter den giftigsten Tieren weltweit.
+  reptile.python:
+    label: python
+    summary: Großes Nichtgiftschlange erwürgt seine Nahrung.
+    info: '{"hint":"große nicht giftige Echse","info":"Pythons sind die längsten Schlangen der Welt; das Netzpython erreicht eine Länge von über sieben Metern. Sie töten ihre Beute durch Ersticken und nicht mit Gift; sie ersticken es um Hals und Körper herum. Sie haben Wärmerezeptoren (Infrared-Sensoren), was ermöglicht, warmblütiges Opfer auch im Dunklen zu erkennen. Das Burmesische Python ist ein invasive Art auf Florida, wo es wilde Tiere dezimiert."}'
+  reptile.rattlesnake:
+    label: Klapperschlange
+    summary: Giftschwelle mit dem Rasseln auf dem Endteil ihres Schwanzes zur Warnung.
+    info: |-
+      Die Klapperschlange ist eine giftige Schlange aus der Gruppe der Otterartigen mit einem typischen Rasselorgan am Ende des Schwanzes.
+      Das Rasselschwänzchen besteht aus hornähnlichen Glieder und dient als Warnung bei Bedrohung.
+      Es besitzt Wärmerezeptoren (Gruben), die es ermöglichen Beute selbst im Dunklen zu erkennen,
+      ein Biss dieser Schlangen erfordert sofortiges medizinisches Behandlung.
   reptile.salamander:
     label: Axolotl
     summary: Amphibier mit glatter Haut und langem Schwanz.
     info: Der Axolotl ist ein geschütztes Amphibium Mitteleuropas mit gelb-schwarzen Flecken. Er sondert Gifte über die Haut ab und lebt in feuchten Wäldern.
+  reptile.sea_snake:
+    label: Seenschlange
+    summary: Eine giftige Schlange mit paddelartigem Schweif.
+    info: Die Seeschlange ist eine giftige Echse aus der Unterfamilie Hydrophinidae und perfekt an das Leben im Ozean angepasst. Sie hat einen flachen paddelförmigen Schwanz zum Schweben durch das Wasser.
+  reptile.skink:
+    label: Skink
+    summary: Echse mit glatten schimmernden Schuppen und kurzen Gliedern.
+    info: |-
+      Skinks sind eine große Echsengattung mit über 1 500 Arten und zeichnen sich durch glatte kreisförmige Schuppen aus.
+      Einige Arten haben verkürzte oder sogar völlig fehlende Beine.
+      Der Blauzungenskink Australiens zeigt seine deutlich blaue Zunge als Warnsignal vor Raubtieren,
+      deren Lebensraum reicht von den Tropen bis zu Wüsten.
   reptile.snake:
     label: Schlange
     summary: Lebewesen ohne Beine mit langem, flexiblen Körper.
     info: Schlangen sind Reptilien mit verlängertem Körper und fehlen Gliedmaßen. Es gibt über 3 700 Arten; sie jagen mithilfe des Geruchssinns (Jacobsons Organ) und einige davon sind giftig.
+  reptile.snapping_turtle:
+    label: Alligatorkrokodilschildkröte
+    summary: Große, aggressive Süsswasser-Amscheldkröte aus Amerika mit starker Kiefer.
+    info: Die Alligator-Schildkröte ist eine große und aggressiven Süßwasserschildkröte Nord Amerikas mit einem starken hakenförmigen Schnabel. Auf dem Land verhält sie sich aggressiv, im Wasser friedlicher. Sie kann über 35 Kilogramm wiegen und mehr als vierzig Jahre alt werden.
+  reptile.thorny_devil:
+    label: Thronschuppen-Eidechs
+    summary: Eine von Australien stammende Schuppentierart, welche sich mithilfe feiner Kanäle entlang der Körperoberfläche passives Trinkverhalten erlaubt.
+    info: Der Moloch ist eine kleine australische Echse mit tausenden scharfer Stacheln auf dem Rücken und hat die beeindruckende Fähigkeit Wasser über Kapillaren zwischen den Dornen durch seine Haut zu saugen – das Nass wird direkt zum Mund geleitet.
+  reptile.toad:
+    label: Kröte
+    summary: Landbewohnende warzhafte Amphibie aus der Familie der Echten Krokusse.
+    info: Die Europäische Kröte ist die verbreitetste Krötensorte der Tschechischen Republik. Die Warzen auf ihrer Haut produzieren kein Gebrüll wie bei Fröschen und dienen als Schutz sowie Quelle für Giftabsonderungen. Jährlich wandern sie in großen Gruppen zu Wasserstellen zum Paaren; im tschechischen Raum helfen ehrenamtliche Helfer dabei, dass sie Straßen sicher überqueren können.
   reptile.tortoise:
     label: Landkrebs
     summary: Langsamer Landplaz mit einer kupferförmigen Panzerung.
     info: Die Galäpagos-Schildkröte ist die größte Landschildkröte der Welt und lebt auf den Galäpagosinseln. Sie kann über 150 Jahre alt werden. Der Panzer ist ein Teil ihres Skelettes.
+  reptile.tree_frog:
+    label: Rosenkränze
+    summary: Baumfrosch mit Sauger am Finger, der über Blätter klettert.
+    info: |-
+      Die grüne Froschlilie ist eine kleine Frösche aus der Gruppe der Laubfröschchen mit Saugern an den Enden ihrer Zehen, die es ihnen ermöglichen auf glatten Oberflächen zu klettern.
+      In Tschechiens heimische Art ist das gemeine Raukopf-Froschkrebs und unter Schutz steht.
+      Es verändert seine Farbe von grün nach grau oder braun abhängig von Temperatur und Feuchtigkeit.
+      Sie gibt einen lauten kurzen Gesang vor allem bei Nacht und bevor Regen kommt.
+  reptile.tuatara:
+    label: Tuatara
+    summary: Lebender Fossil aus Neuseeland.
+    info: Der Tuatar ist einer der ältesten Reptilienarten weltweit und sein Ordnung bestand bereits zur Zeit der Dinosaurier.
+  reptile.uromastyx:
+    label: Uromastix
+    summary: Wüstenechse mit stacheligem Schweif aus Afrika.
+    info: Der Uromastix ist eine Wüstengecko-Art aus Nordafrika und dem Nahen Osten mit einem typischen spitzzahnigen Schwanz zur Verteidigung.
+  reptile.viper:
+    label: Natter
+    summary: Giftschlangengattung mit dreieckigem Kopfprofil und gewundener Körperform.
+    info: Die Vipera ist die einzige giftige Schlange, die sich natürlicherweise in der Tschechischen Republik findet. Sie ist erkennbar an dem wellenförmigen Muster auf ihrem Rücken und den spitzzahnartigen Giftzähnen. Ein Biss kann schmerzhafte Symptome verursachen und erfordert ärztliche Aufsicht – für einen gesunden Erwachsenen ist ein tödliches Ereignis jedoch äußerst selten.
+  reptile.wall_lizard:
+    label: Mauereidechse
+    summary: Eine schlanke schnelle Eidechse die an Zäunen und felsigen Hängen lebt.
+    info: Die Mauer-Eidechse ist eine kleine Eidechse aus südlich Europa und Nordwestafrika. In der Tschechiischen Republik kommt sie als eingeführte Art auf erhitzten Felsen an Wänden vor. Sie ist schnell und geschickt; bei Gefahr verliert sie ihren Schwanz.
+  reptile.worm_lizard:
+    label: Wurmgeschöpf
+    summary: Ein beinloses Erdplastierungsleben ähnelt einem Wurm.
+    info: Schlängelwürmer sind wenig erforschte Schuppenreptilien der Gruppe Amphibolida aus den Tropen Afrikas und Americas ohne Beine. Sie sehen auf Anhieb wie dicke Regelmäuse aus mit gestreckter Haut und reduzierten Augen. Sie verbringen ihr gesamtes Leben unterirdisch und ernähren sich von Ameisen und Termiten durch typische Federbewegungen.

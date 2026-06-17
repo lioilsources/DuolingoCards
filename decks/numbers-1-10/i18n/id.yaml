@@ -6,18 +6,82 @@ cards:
     label: delapan
     summary: Angka 8, gurita memiliki delapan lengan.
     info: Delapan adalah 2³ (dua pangkat tiga). Delapan terbalik (∞) merupakan simbol tak hingga; dalam budaya Tiongkok, angka delapan dianggap sebagai angka paling beruntung.
+  num.eighteen:
+    label: delapannya
+    summary: Delapan belas
+    info: '{"hint":"angka kardinal 18","info":"Angka 18 adalah bilangan alami setelah angka 17 dan sebelum angka 19\nBentuk romawi: XVIII\. Angka urutan\/ordinalnya yaitu ''kelima belas''. Dalam sistem basis sepuluh ditulis sebagai penjumlahan antara delapan dengan sepuluh."}'
+  num.eleven:
+    label: sebelas
+    summary: Bilangannya yaitu 11 atau 'XI' jika menggunakan huruf Romawi.
+    info: Angka 11 adalah bilangan alami setelah angka 10 dan sebelum angka 12 dalam sistem dasar sepuluh yang ditulis sebagai penjumlahan dari satu plus sepulu.
+  num.fifteen:
+    label: limabelas
+    summary: Bilangan kardinal 15 atau ordinal kelima belas.
+    info: Angka 15 adalah bilangan alami setelah angka 14 dan sebelum angka 16 dalam sistem dasar sepuluh yang ditulis sebagai penjumlahan dari lima tambah sepuluh.
+  num.fifty:
+    label: limapuluh
+    summary: Bilangannya yaitu Limapuluhan.
+    info: Angka lima puluh adalah bilangan alami yang mengikuti angka empat sembilan dan diikuti oleh angka satu ratus satunya Lima Puluh dalam sistem romawi disimbolkan dengan huruf 'L'. Dalam bentuk ordinalnya ditulis sebagai kelima puluhan.
   num.five:
     label: lima
     summary: Angka 5, jumlah jari tangan kita.
     info: Lima adalah dasar dari sistem bilangan desimal karena manusia memiliki lima jari di setiap tangannya. Planet Venus menggambar bintang berbentuk lima sudut di langit.
+  num.forty:
+    label: empat puluh
+    summary: Bilangan kardinal empat belas atau empattigapuluhan.
+    info: Angka 40 adalah bilangan alami setelah angka 39 dan sebelum angka 41 dalam sistem basis sepuluh.
+  num.forty_eight:
+    label: Empat Puluh Delapan
+    summary: Nomor Kartesius 48
+    info: '{"hint":"bilangan kardinal empat puluh delapan","info":"Angka 48 adalah bilangan alami setelah angka 47 dan sebelum angka 49\nBilangan Romawi: XLVIII\.\nKata ganti ordinalnya yaitu keempatpuluh kedelapan atau yang disebut juga sebagai urutan kelima belas dari bawah hingga kesembilanbelas kali lipatan tiga plus satu satuan lagi."}'
+  num.forty_five:
+    label: Empat Puluh Lima
+    summary: Nomor ordinalnya adalah Empat Puluhan Pertama.
+    info: '{"hint":"bilangan kardinal empat puluh lima","info":"Angka 45 adalah bilangan alami setelah angka 44 dan sebelum angka 46\nBilang romawi: XLV\. Angka urutannya yaitu keempatpuluh pertama atau yang disebut juga sebagai ''keempatpuluhan''. Dalam sistem basis sepuluh ditulis menjadi 5+40."}'
+  num.forty_four:
+    label: empat puluh empat
+    summary: Bilangannya berada di antara dua digit terakhir pada derajat keempat belas.
+    info: '{"info":"Angka 44 adalah bilangan alami setelah angka 43 dan sebelum angka 45 dalam sistem basis sepuluh yang ditulis sebagai penjumlahan dari 4 dengan 40 serta disimbolkan oleh huruf romawi yaitu XLIV."}'
+  num.forty_nine:
+    label: Empat puluh Sembilan
+    summary: Nomor kardinal 49
+    info: '{"info":"Angka 49 adalah bilangan alami setelah angka 48 dan sebelum angka 50\nBilangan Romawi: XLIX\.\nPangkat ordinalnya: keempatpuluh sembilan.\nDalam sistem basis sepulu dapat ditulis sebagai 9 "+" 40."}'
+  num.forty_one:
+    label: empat belas satunya
+    summary: Nomor kardinal 41
+    info: Angka 41 adalah bilangan alami setelah angka 40 dan sebelum angka 42 dalam sistem dasar sepuluh yang ditulis sebagai penjumlahan dari satu tambah empat puluhan.
+  num.forty_seven:
+    label: Empat Puluh Tujuh
+    summary: Nomor kardinal 47
+    info: '{"info":"Angka 47 adalah bilangan alami setelah angka 46 dan sebelum angka 48\nBilangan Romawi: XLVII\. Angka ordinalnya yaitu keempat puluh tujuh atau ke-47\. Dalam sistem basis sepuluh ditulis sebagai jumlah dari 7 plus 40."}'
+  num.forty_six:
+    label: Empat Puluh Enam
+    summary: 'Nomor ordinal 46; Nominal: Empat Puluh Enam; Bilangan romawinya: XLVI.'
+    info: '{"info":"Angka 46 adalah bilangan alami setelah angka 45 dan sebelum angka 47\nBilangan Romawi: XLVI\. Angka urutan\/ordinalnya yaitu keempat puluh enam atau ke-46 dalam bahasa Indonesia. Dalam sistem basis sepuluh ditulis sebagai penjumlahan antara 6 dengan 40."}'
+  num.forty_three:
+    label: empat puluh tiga
+    summary: Nomor kardinal 43
+    info: Angka 43 adalah bilangan alami setelah angka 42 dan sebelum angka 44 dalam sistem numerasi Desimal. Angka ini dapat ditulis sebagai III di belakang X untuk menunjukkan bentuk Romawi dari XLIII.
+  num.forty_two:
+    label: '{"label": "XLII",'
+    summary: '{"summary": "Bilangan kardinal 42; Ordinal: ke-XLIII; Nomor romawinya: XLII."}'
+    info: '{"info":"Angka 42 adalah bilangan alami setelah angka 41 dan sebelum angka 43.\nNomor Romawi: XLII\. Angka ordinalnya yaitu keempat puluhan kedua. Dalam sistem basis sepuluh ditulis sebagai jumlah dari dua plus empat puluh."}'
   num.four:
     label: empat
     summary: Angka 4, persegi memiliki empat sisi.
     info: Empat adalah hasil kuadrat dari dua—hasil perkalian 2 × 2. Dalam budaya Jepang dan Tiongkok, angka ini dianggap sebagai angka tidak beruntung (bunyi kata mirip dengan kata 'kematian').
+  num.fourteen:
+    label: Empat Belas
+    summary: Nomor empat belas
+    info: '{"hint":"bilangan kardinal 14","info":"Angka 14 adalah bilangan alami setelah angka 13 dan sebelum angka 15\nBilangan Romawi: XIV\nPangkat keempat belas\NDalam sistem basis sepuluh ditulis sebagai 4+10."}'
   num.nine:
     label: sembilan
     summary: Angka 9, angka satuan terakhir.
     info: Sembilan adalah bilangan satu digit tertinggi. Sifat menariknya adalah setiap hasil perkalian dengan sembilan memiliki jumlah digit yang selalu habis dibagi sembilan.
+  num.nineteen:
+    label: sembilan belas
+    summary: Nomor 19; urutan ke sembilan belas
+    info: '{"hint":"bilangan kardinal 19","info":"Angka 19 adalah bilangan alami setelah angka 18 dan sebelum angka 20\nBilangan Romawi: XIX\.\nPangkat ordinalnya yaitu kesembilanbelas\.\NDalam sistem basis sepuluh ditulis sebagai 9 "+" 10."}'
   num.one:
     label: satu
     summary: Angka 1, bilangan alami pertama.
@@ -26,18 +90,122 @@ cards:
     label: tujuh
     summary: Angka 7, jumlah warna pelangi.
     info: Tujuh dianggap sebagai angka beruntung dalam banyak budaya. Pelangi memiliki tujuh warna, seminggu terdiri dari tujuh hari, dan ada tujuh benua.
+  num.seventeen:
+    label: tujuh belas
+    summary: Nomor 17; pengurutannya ketujuh belas
+    info: '{"hint":"bilangan kardinal tujuh belas","info":"Angka 17 adalah bilangan alami setelah angka 16 dan sebelum angka 18\nBilangan Romawi: XVII\.\nPenghitungan urutan ke-tujuhbelas\.\nDalam sistem basis sepuluh ditulis sebagai 7 "+" 10."}'
   num.six:
     label: enam
     summary: Angka 6, sarang lebah memiliki sel berbentuk heksagonal.
     info: Enam adalah "bilangan sempurna"—jumlah semua pembagi yang dimilikinya (1 + 2 + 3 = 6). Bentuk segi enam (heksagonal) merupakan cara terhemat untuk menutup permukaan.
+  num.sixteen:
+    label: Enambelas
+    summary: Nomor 16
+    info: |-
+      {"hint":"bilangan kardinal enam belas","info":"Angka 16 adalah bilangan alami setelah angka 15 dan sebelum angka 17.
+      Bilangan Romawi: XVI.
+      Kata ganti nomina ordinalnya yaitu 'enam bela'.
+      Pada sistem basis sepuluh ditulis sebagai 6+10."}
   num.ten:
     label: sepuluh
     summary: Angka 10, dasar sistem bilangan desimal kita.
     info: Sepuluh adalah dasar dari sistem desimal karena manusia memiliki total sepuluh jari di tangan mereka. Sepuluh merupakan ukuran alami untuk menghitung sejak zaman kuno.
+  num.thirteen:
+    label: Tigabelas
+    summary: Nomor indeks ke-tigabelas
+    info: '{"hint":"angka kardinal 13","info":"Angka 13 adalah bilangan alami setelah angka 12 dan sebelum angka 14\nBilangan Romawi: XIII\. Bilangan ordinalnya yaitu ketiga belas\. Dalam sistem basis sepuluh ditulis sebagai penjumlahan dari 3 dengan 10."}'
+  num.thirty:
+    label: Tiga puluh
+    summary: Bilangannya yaitu Tiga Puluh.
+    info: Angka 30 adalah bilangan alami setelah angka 29 dan sebelum angka 31 dalam sistem dasar sepuluh yang ditulis sebagai 'thirty'. Angka romawi untuknya adalah XXX.
+  num.thirty_eight:
+    label: Tigapuluhoit
+    summary: Nomor 38
+    info: '{"hint":"bilangan kardinal 38","info": "Angka 38 adalah bilangan alami setelah angka 37 dan sebelum angka 39\nBilangan Romawi: XXXVIII\. Angka ordinalnya yaitu ketiga puluh delapan atau ke-tujuh belas dalam urutan tertentu. Dalam sistem basis sepuluh ditulis sebagai jumlah dari 8 dengan 30."}'
+  num.thirty_five:
+    label: Tigapuluh Lima
+    summary: Nomor ordinal/urutannya adalah 'ke-TGL' atau disebut juga "ketiga puluh kelima"
+    info: '{"hint":"bilangan kardinal 35","info":"Angka 35 adalah bilangan alami setelah angka 34 dan sebelum angka 36\nBilangan Romawi: XXXV\. Angka urutan\/ordinalnya yaitu ketiga puluh lima atau ke-tigapuluhlima dalam bahasa Indonesia. Dalam sistem basis sepuluhan ditulis sebagai penjumlahan antara 5 dengan 30."}'
+  num.thirty_four:
+    label: Tiga Puluh Empat
+    summary: '{ "summary": "Nomor kardinal 34 ; nomornya urutan /ordinal/: TigaPuluhKeEmpat , romawinya:XXXIV." }'
+    info: '{"info":"Angka 34 adalah bilangan alami setelah angka 33 dan sebelum angka 35\nBilangan Romawi: XXXIV\. Angka ordinalnya yaitu ketiga puluh empat\/keempat belas atau dalam bahasa Indonesia disebut ''ketigapuluh keempatan''. Dalam sistem basis sepuluhan ditulis sebagai penjumlahan antara satuan dengan kelipatan sepuluh seperti berikut ini : 4+3×(sepuluh)."}'
+  num.thirty_nine:
+    label: Tiga Puluh Sembilan
+    summary: 'Nomor ordinal/urutannya: Tiga Puluhan Kebelasembaran'
+    info: '{"hint":"bilangan kardinal 39","info":"Angka 39 adalah bilangan alami setelah angka 38 dan sebelum angka 40\nBilangan Romawi: XXXIX\. Angka urutan\/ordinalnya yaitu ketiga puluh sembilan atau ke-tigapulusembilan. Dalam sistem basis sepuluhya ditulis sebagai 9 "+" 30."}'
+  num.thirty_one:
+    label: thirtyone
+    summary: Nomor 31
+    info: '{"hint":"bilangan kardinal 31","info":"Angka 31 adalah bilangan alami setelah angka 30 dan sebelum angka 32\nBilangan Romawi: XXXI\. Angka ordinalnya yaitu ketiga puluh satu pertama\/ketigapulh-satu\/pertama. Dalam sistem basis sepuluhyang ditulis sebagai 1 "+" 30."}'
+  num.thirty_seven:
+    label: Tiga Puluh Tujuh
+    summary: Nomor ordinal ke-tujuhpuluhan
+    info: Angka 37 adalah bilangan alami setelah angka 36 dan sebelum angka 38 dalam sistem numerasi Desimal Indonesia.
+  num.thirty_six:
+    label: Tigapuluhsatu
+    summary: Nomor 36
+    info: '{"hint":"bilangan kardinal 36","info":"Angka 36 adalah bilangan alami setelah angka 35 dan sebelum angka 37\nBilangan Romawi: XXXVI\. Angka ordinalnya yaitu ketiga puluh enam pertama\/kedua. Dalam sistem basis sepuluh ditulis sebagai 6 "+" 30."}'
+  num.thirty_three:
+    label: XXXIII
+    summary: Bilangannya 33
+    info: '{"info":"Angka 33 adalah bilangan alami setelah angka 32 dan sebelum angka 34 dalam sistem basis sepuluh yang ditulis sebagai penjumlahan dari 3+30","label":"Tiga puluh tiga","summary":"Kata keterangan jumlahnya 33; kata urutan ke-tigapuluhtiga; huruf romawi untuk angka ini yaitu XXXIII"}'
+  num.thirty_two:
+    label: thirty two
+    summary: Nomor ordinal/ordinals ke-tiga-puluhtwo
+    info: '{"hint":"bilangan kardinal 32","info":"Angka 32 adalah bilangan alami setelah angka 31 dan sebelum angka 33\nBilangan Romawi: XXXII\.\nKata urutan\/ordinalnya: ketiga puluhan kedua\/ketigapuluhtwo. Dalam sistem basis sepuluh ditulis sebagai 2 + 30."}'
   num.three:
     label: tiga
     summary: Angka 3, bilangan prima ganjil pertama.
     info: Bilangan tiga dianggap sebagai angka ajaib dalam banyak budaya—ada cerita rakyat tentang tiga keinginan, segitiga memiliki tiga sisi dan hari dibagi menjadi tiga bagian.
+  num.twelve:
+    label: duabelas
+    summary: Bilangannya berada di antara satu sampai duabelas.
+    info: Angka 12 adalah bilangan alami setelah angka 11 dan sebelum angka 13 dalam sistem dasar sepuluh yang ditulis sebagai penjumlahan dari dua belas yaitu 2+10.
+  num.twenty:
+    label: dua Puluh
+    summary: Bilangan dasar 20.
+    info: Angka dua puluh adalah bilangan alami setelah angka sembilan belas dan sebelum tiga puluh satu dalam sistem basis sepuluh.
+  num.twenty_eight:
+    label: dua puluh delapan
+    summary: '{"summary":"Nomor kardinal 28; nomor urut kelima belas pertama kali disebutkan dalam bahasa Indonesia dengan istilah ''kedua puluh delapan''; simbol romawinya berupa huruf kapital yang terdiri atas tiga buku besar X V I serta satu garis horizontal di bawah mereka semua sehingga membentuk bentuk tertentu seperti pada contoh tersebut."}'
+    info: '{"info":"Angka 28 adalah bilangan alami setelah angka 27 dan sebelum angka 29."\n"Aksara Romawi: XXVIII."\n"Bilangan ordinalnya yaitu kedua puluh delapan atau ke-28."\n"Dalam sistem basis sepuluh ditulis sebagai jumlah dari 8 plus 20."}'
+  num.twenty_five:
+    label: duapuluhtiga
+    summary: 'nominal dua belas tiga; urutan: duapuluhtiga; huruf roman: xxv'
+    info: '{"info":"Angka 25 adalah bilangan alami setelah angka 24 dan sebelum angka 26\nBilangan Romawi: XXV\.\nKata keterurutan\/ordinalnya: kedua puluh lima pertama kali digunakan dalam sistem basis sepuluh sebagai penjumlahan dari 5 dengan 20","label":"duapuluhtiga","summary":"Nomor ordinal ke-duapuluhtiganya yaitu ''kedua-puluhtiga'' atau disebut juga dengan istilah lain seperti romawinya ditulis menjadi XXV"}'
+  num.twenty_four:
+    label: XXIV
+    summary: Nomor kardinal dua puluh empat
+    info: '{"info":"Angka 24 adalah bilangan alami setelah angka 23 dan sebelum angka 25\nBilangan Romawi: XXIV\.\nPangkat ordinalnya yaitu kedua puluh empat\/kedua belas keempat\\(dua puluh keempat)\"}'
+  num.twenty_nine:
+    label: dua puluh sembilan
+    summary: 'Nomor ordinal/angka urut : dua puluh sembilan ; dalam huruf romawinya disebutkan sebagai XXIX.'
+    info: '{"info":"Angka 29 adalah bilangan alami setelah angka 28 dan sebelum angka 30\nBilangan Romawi: XXIX\.\nKata keterurutan\/ordinalnya yaitu kedua puluh sembilan ke-. \nDalam sistem basis sepuluh ditulis sebagai penjumlahan antara 9 dengan 20."}'
+  num.twenty_one:
+    label: dua belas
+    summary: Pencacah nominal 21
+    info: '{"info":"Angka 21 adalah bilangan alami setelah angka 20 dan sebelum angka 22\nBilangan Romawi: XXI\.\nPencacah ordinalnya yaitu kedua puluh satu pertama kali muncul di sini\\"}'
+  num.twenty_seven:
+    label: dua puluh tujuh
+    summary: Nomor 27; urutan ke-duapuluhtujuh
+    info: |-
+      {"hint":"bilangan kardinal dua puluh tujuh","info":"Angka 27 adalah bilangan alami setelah angka 26 dan sebelum angka 28.
+      Bilangan Romawi: XXVII.
+      Kata ganti ordinalnya: kedua puluhan ketujuhan.
+      Pada sistem basis sepuluh ditulis sebagai 7 + 20."}
+  num.twenty_six:
+    label: dua puluh enam
+    summary: Nomor kardinal dua puluh enam
+    info: '{"info":"Angka 26 adalah bilangan alami setelah angka 25 dan sebelum angka 27\nBilangan Romawi: XXVI\.\nKata urutan\/ordinalnya: kedua puluh enam.\nDalam sistem basis sepuluh ditulis sebagai 6 "+" 20."}'
+  num.twenty_three:
+    label: dua puluh tiga
+    summary: 'Nomor 23; urutan ke-duapuluhtiga; romawinya: XXIII.'
+    info: '{"hint":"bilangan kardinal 23 atau dua puluh tiga","info":"Angka 23 adalah bilangan alami setelah angka 22 dan sebelum angka 24.\nBilangan Romawi: XXIII\. Angka ordinalnya yaitu kedua puluh ketiga. Dalam sistem basis sepuluh ditulis sebagai 3+20."}'
+  num.twenty_two:
+    label: '"XX"'
+    summary: '{"summary":"Bilangannya yaitu duabelas"}'
+    info: '{"info":"Angka 22 adalah bilangan alami setelah angka 21 dan sebelum angka 23 dalam sistem basis sepuluh yang ditulis sebagai penjumlahan dari dua puluhan dengan satu satuan atau secara sederhana disebut ''dua belas''. Dalam notasi Romawi digunakan simbol XXI untuk menunjukkan nilai tersebut."}'
   num.two:
     label: dua
     summary: Angka 2, satu-satunya bilangan prima genap.

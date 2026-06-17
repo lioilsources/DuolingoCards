@@ -6,18 +6,82 @@ cards:
     label: huit
     summary: Le nombre 8, une pieuvre a huit bras.
     info: Huit est égal à 2³ (deux puissance trois). Une huit retournée (∞) représente le symbole de l'infini ; en culture chinoise, le chiffre huit est considéré comme le plus chanceux de tous.
+  num.eighteen:
+    label: dix-huit
+    summary: 'Numéro cardinale : dix-huit ; ordinal : dix-huitième.'
+    info: Le nombre 18 est un entier naturel qui suit le chiffre 17 et précède le chiffre 19 dans la numération décimale.
+  num.eleven:
+    label: Onze
+    summary: Numéro onze ou encore onzième
+    info: 'Le nombre 11 est un entier naturel qui suit immédiatement le chiffre dix et précède douze dans la numération arabe décimale ; il s''écrit en lettres romaines comme ''XI''. En tant que ordinalité numérique, on l''appelle «onzième». Dans notre système de base dezimalni, ce peut être représenté par une somme simple : 1+10.'
+  num.fifteen:
+    label: quinze
+    summary: 'Numéro cardinale : quinze ; ordinal : quinzième.'
+    info: Le nombre 15 est un entier naturel qui suit immédiatement le chiffre 14 et précède directement celui de 16 dans la numération arabe décimale.
+  num.fifty:
+    label: cinquante
+    summary: 'Numéro cardinale : Cinquante ; Numéro ordonné : Cinquantième ; Écriture latine : L'
+    info: Le nombre 50 est un entier naturel qui suit immédiatement le chiffre 49 et précède directement celui de 51 dans la numération décimale. En notation romaine il s'écrit 'L'. Son ordinal correspondant en français est « cinquantième ».
   num.five:
     label: cinq
     summary: Le nombre 5, c’est autant de doigts que nous avons à la main.
     info: Cinq est à la base du système numérique décimal, car les humains ont cinq doigts sur chaque main. La planète Vénus dessine dans le ciel une étoile à cinq branches.
+  num.forty:
+    label: quarante
+    summary: 'Numéro quarante ; ordinal : quatrième-dizaine ; en lettres romaines : XL.'
+    info: Le nombre 40 est un entier naturel qui suit immédiatement le chiffre 39 et précède directement celui de 41 dans la numération décimale.
+  num.forty_eight:
+    label: quarante-huit
+    summary: 'Numéro cardinale : quarante-huit ; ordinal : Quarantième huitième ; en lettres romaines : XLVIII.'
+    info: Le nombre 48 est un entier naturel qui suit immédiatement le chiffre 47 et précède directement celui de 49 dans la numération décimale.
+  num.forty_five:
+    label: quarante-cinq
+    summary: 'Numéro cardinale : quarante-cinq ; ordinal : Quarantième cinquième ; en lettres romaines : XLV.'
+    info: Le nombre 45 est un entier naturel qui suit le chiffre 44 et précède le chiffre 46 dans la numération décimale.
+  num.forty_four:
+    label: quarante-quatre
+    summary: 'Numéro cardinale : quarante-quatre ; ordinal : Quarantième quatrième.'
+    info: Le nombre 44 est un entier naturel qui suit le chiffre 43 et précède le chiffre 45 dans la numération décimale.
+  num.forty_nine:
+    label: quarante-neuf
+    summary: 'Numéro cardinale : quarante-neuf ; ordinal : quarantième neuvième ; en lettres romaines : XLIX.'
+    info: Le nombre 49 est un entier naturel qui suit immédiatement le chiffre 48 et précède directement celui de 50 dans la numération décimale.
+  num.forty_one:
+    label: quarante-et-un
+    summary: 'Numéro cardinale : quarante-et-un ; ordinal : Quarantième premier.'
+    info: Le nombre 41 est un entier naturel qui suit le chiffre 40 et précède celui de 42 dans la numération décimale.
+  num.forty_seven:
+    label: quarante-sept
+    summary: 'Numéro cardinale : quarante-sept ; ordinal : Quarantième septième ; en lettres romaines : XLVII.'
+    info: Le nombre 47 est un entier naturel qui suit le chiffre 46 et précède le numéro 48.
+  num.forty_six:
+    label: quarante-six
+    summary: 'Numéro cardinale : quarante-six ; ordinal : Quarantième sixième.'
+    info: Le nombre 46 est un entier naturel qui suit le chiffre 45 et précède le chiffre 47 dans la numération décimale.
+  num.forty_three:
+    label: quarante-trois
+    summary: Numéro cardinale 43 ; ordinal quarantième troisième.
+    info: 'Le nombre 43 est un entier naturel qui suit le chiffre 42 et précède celui de 44 dans la numération décimale. En lettres romaines il s''écrit : XLIII.'
+  num.forty_two:
+    label: quarante-deux
+    summary: 'Numéro cardinale quarante-deux ; ordinal : Quarantième deuxième.'
+    info: Le nombre 42 est un entier naturel qui suit immédiatement le chiffre 41 et précède directement celui de 43 dans la numération arabe décimale.
   num.four:
     label: quatre
     summary: Le nombre 4, un carré a quatre côtés.
     info: Quatre est le carré de deux – résultat de 2 × 2. Dans les cultures japonaise et chinoise, il est considéré comme un chiffre malchanceux (sa prononciation ressemble à celle du mot « mort »).
+  num.fourteen:
+    label: quatorze
+    summary: 'Numéro cardinale : quatorze ; ordinal : quatorzième.'
+    info: Le nombre 14 est un entier naturel qui suit le chiffre 13 et précède le chiffre 15 dans la numération décimale.
   num.nine:
     label: neuf
     summary: Le nombre 9, dernier chiffre à un seul chiffre.
     info: 'Neuf est le plus grand chiffre unique. Propriété remarquable : tout nombre multiplié par neuf donne une somme de ses chiffres toujours divisible par neuf.'
+  num.nineteen:
+    label: dix-neuf
+    summary: 'Numéro cardinale : dix-neuf ; ordinal : neuvième-dizaine ; en lettres romaines : XIX.'
+    info: Le nombre 19 est un entier naturel qui suit le chiffre 18 et précède le chiffre 20 dans la numération décimale.
   num.one:
     label: un
     summary: Le nombre 1, premier nombre naturel.
@@ -26,18 +90,117 @@ cards:
     label: sept
     summary: Le nombre 7, autant de couleurs que l'arc-en-ciel.
     info: Sept est considéré comme un chiffre chanceux dans beaucoup de cultures. L'arc-en-ciel compte sept couleurs, la semaine comporte sept jours et il existe sept continents.
+  num.seventeen:
+    label: dix-sept
+    summary: 'Numéro cardinale dix-sept ; ordinal : seizième ; romain : XVI.'
+    info: Le nombre 17 est un entier naturel qui suit le chiffre 16 et précède celui de 18 dans la numération arabe décimale.
   num.six:
     label: six
     summary: Le nombre 6, les alvéoles des abeilles sont hexagonales.
     info: Six est un « nombre parfait » – la somme de tous ses diviseurs (1 + 2 + 3 = 6). Les formes hexagonales constituent le moyen le plus économique pour carreler une surface.
+  num.sixteen:
+    label: seize
+    summary: 'Numéro cardinale seize ; ordinal : seizième.'
+    info: Le nombre 16 est un entier naturel qui suit le chiffre 15 et précède celui de 17 dans la numération arabe décimale.
   num.ten:
     label: dix
     summary: Le nombre 10, base de notre système numérique décimal.
     info: Dix est à la base du système décimal car les humains ont au total dix doigts sur leurs mains. Dix est une mesure naturelle pour compter depuis l'antiquité.
+  num.thirteen:
+    label: treize
+    summary: 'Numéro cardinaux : treize ; ordinal : troisième ; romain : XIII.'
+    info: Le nombre 13 est un entier naturel qui suit le chiffre 12 et précède le chiffre 14 dans la numération arabe décimale.
+  num.thirty:
+    label: Trente
+    summary: 'Numéro cardinale : Trente ; ordinal : Trentième.'
+    info: Le nombre trente est un entier naturel qui suit vingt-neuf et précède trente-et-un dans la numération décimale. En chiffres romains il s'écrit comme 'XXX'. Sa forme ordinaux est « trentième ».
+  num.thirty_eight:
+    label: Trente-huit
+    summary: 'Numéro cardinale : Trente-huit ; ordinal : trente huitième.'
+    info: Le nombre 38 est un entier naturel qui suit immédiatement le chiffre 37 et précède directement celui de 39 dans la numération décimale.
+  num.thirty_five:
+    label: Trente-cinq
+    summary: 'Numéro cardinale : Trente-Cinq ; Ordinal : Treizième Cinquième'
+    info: Le nombre 35 est un entier naturel qui suit immédiatement le chiffre 34 et précède directement celui de 36 dans la numération décimale.
+  num.thirty_four:
+    label: trente-quatre
+    summary: 'Numéro cardinale : trente-quatre ; ordinal : Trente-et-quatrième.'
+    info: Le nombre 34 est un entier naturel qui suit immédiatement le chiffre 33 et précède directement celui de 35 dans la numération décimale.
+  num.thirty_nine:
+    label: Trente-neuf
+    summary: 'Numéro cardinale : Trente-neuf ; ordinal : trentième neuvième ; en lettres romaines : XXXIX.'
+    info: Le nombre 39 est un entier naturel qui suit le chiffre 38 et précède celui de 40 dans la numération arabe décimale.
+  num.thirty_one:
+    label: Trente-et-un
+    summary: 'Numéro cardinale : Trente-et-Un ; Numéro ordinal : Treizième premier ; En lettres romaines : XX XI.'
+    info: Le nombre 31 est un entier naturel qui suit immédiatement le chiffre 30 et précède directement celui de 32 dans la numération décimale.
+  num.thirty_seven:
+    label: Trente-sept
+    summary: 'Numéro cardinale : Trente-sept ; ordinal : trente-septime'
+    info: Le nombre 37 est un entier naturel qui suit immédiatement le chiffre 36 et précède directement celui de 38 dans la numération arabe décimale.
+  num.thirty_six:
+    label: Trente-Six
+    summary: 'Numéro cardinale : Trente-sept ; ordinal : trentième septième.'
+    info: Le nombre 36 est un entier naturel qui suit immédiatement le chiffre 35 et précède directement celui de 37 dans la numération décimale.
+  num.thirty_three:
+    label: trente-trois
+    summary: 'Numéro cardinale : trente-trois ; ordinal : trentième troisième.'
+    info: Le nombre 33 est un entier naturel qui suit le chiffre 32 et précède le chiffre 34 dans la numération décimale.
+  num.thirty_two:
+    label: Trente-deux
+    summary: 'Numéro cardinale : Trente-deux ; ordinal : trente-second'
+    info: Le nombre 32 est un entier naturel qui suit immédiatement le chiffre 31 et précède directement celui de 33 dans la numération décimale.
   num.three:
     label: trois
     summary: Le nombre 3, premier nombre premier impair.
     info: Le chiffre trois est considéré comme un nombre magique dans de nombreuses cultures – il existe des contes sur les trois souhaits, le triangle possède trois côtés et la journée se divise en trois parties.
+  num.twelve:
+    label: Douze
+    summary: 'Numéro douze ; ordinal : dodécimo ; romain : XII.'
+    info: Le nombre 12 est un entier naturel qui suit immédiatement le chiffre 11 et précède directement celui de 13 dans la numération décimale.
+  num.twenty:
+    label: vingt
+    summary: 'Numéro de base : VINGT ; ordinal : VINGTIÈME.'
+    info: Le nombre vingt est un entier naturel qui suit seize et précède vingt-et-un dans la numération cardinale en français.
+  num.twenty_eight:
+    label: vingt-huit
+    summary: 'Numéro cardinale : vingt-huit ; ordinal : vingtième huitième.'
+    info: Le nombre 28 est un entier naturel qui suit le chiffre 27 et précède celui de 29 dans la numération décimale. En lettres romaines il s'écrit comme XXVIII.
+  num.twenty_five:
+    label: vingt-cinq
+    summary: 'Numéro cardinale : vingt-cinq ; ordinal : vingtième premier ou vingt-et-unième selon les conventions locales.'
+    info: Le nombre 25 est un entier naturel qui suit immédiatement le chiffre 24 et précède directement celui de 26 dans la numération décimale.
+  num.twenty_four:
+    label: vingt-quatre
+    summary: 'Numéro cardinale vingt-quatre ; ordinal : vingtième quatrième.'
+    info: Le nombre 24 est un entier naturel qui suit immédiatement le chiffre 23 et précède directement celui de 25 dans la numération décimale.
+  num.twenty_nine:
+    label: vingt-neuf
+    summary: 'Numéro cardinale : vingt-neuf ; ordinal : vingtième neuvième.'
+    info: Le nombre 29 est un entier naturel qui suit immédiatement le chiffre 28 et précède directement celui de 30 dans la numération décimale.
+  num.twenty_one:
+    label: vingt et un
+    summary: 'Numéro cardinale 21 ; ordinal : vingtième-premier / vingt-etunième ; roman numerique : XXI.'
+    info: |-
+      Le nombre 21 est un entier naturel qui suit le chiffre 20 et précède celui de 22.
+      En numération romaine : XXI ; en ordinaux français : vingt-et-unième ou vingtième premier selon les contextes.
+      Dans la base décimale il s'écrit comme étant égal à l’addition d’un plus vingt.
+  num.twenty_seven:
+    label: vingt-sept
+    summary: 'Numéro cardinale : vingt-sept ; ordinal : vingtième septième.'
+    info: Le nombre 27 est un entier naturel qui suit immédiatement le chiffre 26 et précède directement celui de 28 dans la numération décimale.
+  num.twenty_six:
+    label: vingt-six
+    summary: 'Numéro cardinale : vingt-six ; ordinal : vingtième sixième.'
+    info: Le nombre 26 est un entier naturel qui suit immédiatement le chiffre 25 et précède directement celui de 27 dans la numération décimale.
+  num.twenty_three:
+    label: vingt-trois
+    summary: 'Numéro cardinale : vingt-trois ; ordinal : vingtième troisième.'
+    info: Le nombre 23 est un entier naturel qui suit le chiffre 22 et précède le chiffre 24 dans la numération décimale.
+  num.twenty_two:
+    label: vingt-deux
+    summary: 'Numéro cardinale : vingt-deux ; ordinal : vingtième deuxième.'
+    info: Le nombre 22 est un entier naturel qui suit immédiatement le chiffre 21 et précède directement celui de 23 dans la numération décimale.
   num.two:
     label: deux
     summary: Le nombre 2, seul nombre premier pair.

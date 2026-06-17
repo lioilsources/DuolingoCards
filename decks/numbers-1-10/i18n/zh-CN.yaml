@@ -6,18 +6,102 @@ cards:
     label: 八
     summary: 数字8，章鱼有八条触手。
     info: 8是2的三次方（2³）。倒置的8字形（∞）代表无限符号；在中国文化中，8是最吉利的数字。
+  num.eighteen:
+    label: 八
+    summary: |+
+      数字的名称18；序列号：第八个；罗马数字：XVIII．
+
+    info: '{"hint":"数字十八，基数词","info":"数字18是自然数，在数字17之后和在数字19之前。\r\n罗马数字：XVIII；序数形式为第十八位（osmnáctý）。\r\n十进制表示方式写作8+10。","label":"osmnáct","summary":"数字18；顺序编号：osmnáctý；用罗马字母写法:XVIII."}'
+  num.eleven:
+    label: 十一
+    summary: 基数词：十一；序数词：第十一（xi）
+    info: |-
+      数字十一是自然数，位于十之后和十二之前。
+      罗马数字表示为XI。序数形式是一百一十四位次的表达方式，在十进制中写作1+10。
+  num.fifteen:
+    label: Patnact
+    summary: 基数：十五 / 序列号：第五次 / 罗马字母编号:XV
+    info: |-
+      数字十五是自然数，在十四之后，十六之前。
+      罗马数字为XV；序数词形式为第十五（patnáctý）
+      在十进制中表示五加十。
+  num.fifty:
+    label: fifty
+    summary: 基数词：五十；序数词：第五十； 罗马字母写法:L
+    info: |-
+      数字五十是自然数，位于四十九之后和五十一之前。
+      罗马数字表示为L。序数词形式为第（Padesátý）
+      在十进制中写作：50。
   num.five:
     label: 五
     summary: 数字5，我们每只手有五个手指。
     info: 五是十进制数系的基础，因为人类每只手上都有五个手指。金星在天空中描绘出一颗五角形的星星。
+  num.forty:
+    label: 四十
+    summary: 基数词 四十； 序列号 第四十个
+    info: |-
+      数字四十是三十九之后，四十一之前的自然数。
+      罗马数字为XL。序数词形式为第四个十位的第四（即：第四十个）
+      在十进制中写作40。
+  num.forty_eight:
+    label: 四十八
+    summary: 基数词：48；序数词：第四十八；罗马字写法：XLVIII
+    info: 数字48是自然数，在47之后，49之前。罗马数字写作XLVIII；序数为第四十八位（第四个十加第八）。在十进制中表示成八加上四十。
+  num.forty_five:
+    label: 四十五
+    summary: 基数词：四十又五或直接读作‘四十五’；序数词：第四十五个位置的描述用语；以罗马字符书写时则使用“XLV”。
+    info: 数字45是自然数，位于44之后和46之前。罗马数字表示为XLV；序数形式写作第四十五位（第）。在十进制中可以写成5加40。
+  num.forty_four:
+    label: 四十四
+    summary: 基数词44（第44）
+    info: |-
+      数字四十四是自然数，位于三十三之后和四十之前。
+      罗马数字表示为XLIV。序数形式：第四十四个；在十进制中写作4+40。
+  num.forty_nine:
+    label: 四十九
+    summary: 基数词：四十九（第四个九）
+    info: 数字四十九是自然数，位于四十八之后和五十之前。罗马数字表示为XLIX；序数形式写作第四十九位，在十进制系统中可写成九加四十。
+  num.forty_one:
+    label: 四十一
+    summary: 基数：四十又一 / 序数：第一十四位 / 罗马字表示法：XLI
+    info: 数字41是自然数，在40之后，42之前。罗马数字为XLI；序数词形式为第四十一（第41个）。在十进制中写作1+40。
+  num.forty_seven:
+    label: 四十七
+    summary: 基数词：四十； 序列号：第七十二次； 罗马字母：X L V I
+    info: |-
+      数字47是自然数，位于数字46之后和数字48之前。
+      罗马数字表示为XLVII。序数形式写作第四十七位（第47个）
+      在十进制中可以写成7+40。
+  num.forty_six:
+    label: 四十六
+    summary: 基数：四十（六）
+    info: 数字46是自然数，在45之后，47之前。罗马数字为XLVI；序数词形式为第四十六位。
+  num.forty_three:
+    label: 四十三
+    summary: 基数：四十（三）个单位的数目；序号表达式：第十四三个次序位置上的编号值；用古罗马风格书写时则写作XLI
+    info: 数字43是自然数，位于数字42之后和数字44之前。罗马数字为XLIII；序数词形式为第四十三位，在十进制中表示方式为3+40。
+  num.forty_two:
+    label: 四十二
+    summary: 基数：四十又二（即十进制中的表示）
+    info: 数字42是自然数，位于数字41之后和数字43之前。罗马数字为XLII；序数词形式为第四十二位。
   num.four:
     label: 四
     summary: 数字4，正方形有四条边。
     info: 四是二的平方——即2×2的结果。在日本和中国文化中，它被认为是一个不吉利的数字（发音与“死”相似）。
+  num.fourteen:
+    label: 十四
+    summary: 基数词：14 或 十四；序数词：第十四个 / 第四十个？
+    info: 数字十四是自然数，位于十三之后和十五之前。罗马数字表示为XIV；序数形式写作第十四位（或称作第四十）。在十进制中可以写成四加一。
   num.nine:
     label: 九
     summary: 数字9，最后一个一位数。
     info: 九是最大的个位数。值得注意的特性：任何数乘以九后，其各位数字之和总是能被九整除。
+  num.nineteen:
+    label: 十九
+    summary: 基数：十九（19）；序数：第九个（xu shù di jiǔ ge），即第十九位
+    info: |-
+      数字十九是自然数，位于十八之后和二十之前。
+      罗马数字为XIX；序数词形式为第十九位。在十进制中表示为九加十个。
   num.one:
     label: 一
     summary: 数字1，第一个自然数。
@@ -26,18 +110,136 @@ cards:
     label: 七
     summary: 数字7，彩虹有七种颜色。
     info: 在许多文化中，7被认为是一个幸运的数字。彩虹有七种颜色，一周有七天，并且存在七大洲。
+  num.seventeen:
+    label: seventeen
+    summary: 基数词：十七；序数词：第七个；罗马字书写方式:XVII
+    info: 数字十七是自然数，位于十六之后和十八之前。罗马数字表示为XVII；序数形式写作第十七位（sedmnáctý）。在十进制系统中可以写成七加十。
   num.six:
     label: 六
     summary: 数字6，蜂巢有六边形的格子。
     info: 六是一个“完美数”——所有因数（1 + 2 + 3）之和等于它本身。六角形是最节省空间的地砖方式之一。
+  num.sixteen:
+    label: 十六
+    summary: 基数：十六（16）；序号：第六十；罗马上：XVI
+    info: 数字十六是自然数，位于十五之后和十七之前。罗马数字为XVI；序数词形式为第十六位。
   num.ten:
     label: 十
     summary: 数字10，我们十进制数系的基础。
     info: 十是十进制系统的基本单位，因为人类双手共有十个手指。自古以来，十就成为计数的自然标准。
+  num.thirteen:
+    label: thirteen
+    summary: 基数词：13；序数词：第三十位；罗马字写法：XIII
+    info: 数字十三是自然数，位于十二之后和十四之前。罗马数字表示为XIII；序数形式为第十三（trīnačty）。在十进制系统中写作3+10。
+  num.thirty:
+    label: '\"\", "summary": \"");'
+    summary: '"\"\", "summary": \"")'
+    info: '{"info":"数字三十是自然数，在二十九之后，三十一之前。\u58f1\ufffd\u674e\ufffd\u6b21\ufffd\u6d6e\ufffdXXX\ufffd\u6c42\u5de5\u5bf9\u6bd4\ufffd\u5df2\u5aee\ufffd\u6cb9\u6cd5\u5ba4\u4ea6\u5faa\u5fc3\u53bb\u5efa\u7acb\ufffd\'
+  num.thirty_eight:
+    label: 三十八
+    summary: 基数词：三十八；序数词：第三十八个
+    info: 数字三十八是自然数，位于三十和四十之间。它的罗马数字表示为XXXVIII，在十进制系统中写作八加三十。
+  num.thirty_five:
+    label: 三十五
+    summary: 基数词35；序数词：第三十五；罗马字写法：XXXV
+    info: |-
+      数字三十五是自然数，位于三十四个和第三十六个之间。
+      罗马数字为XXXV。序数形式为第35位（中文：第三十）。在十进制中表示方式为五加三十。
+  num.thirty_four:
+    label: thirty-four
+    summary: 基数词：34；序数词：third forty fourth / 第四十位；罗马字：XXXIV
+    info: 数字三十四是自然数，位于三十和三十五之间。罗马数字表示为XXXIV；序数形式写作第三十四个（第34个）。在十进制中可以写成四加三十。
+  num.thirty_nine:
+    label: 三十九
+    summary: 基数词：三十九；序数词：第三十九位（第39）
+    info: 数字三十九是自然数，位于三十和四十之间。它的罗马字母表示为XXXIX，在十进制系统中写作九加三十。
+  num.thirty_one:
+    label: thirty-one
+    summary: 基数词31（第31位）
+    info: |-
+      数字三十一是三十之后，三十二之前的自然数。
+      罗马数字为XXXI。序数形式：第三十一位；在十进制中表示方式为1+30。
+  num.thirty_seven:
+    label: thirty seven
+    summary: 基数：三十七；序数：第十三第七；罗马字写法：XXXVII
+    info: 数字三十七是自然数，位于三十和四之间。罗马数字为XXXVII；序数词形式为第三十第七（trícità sémty）。在十进制系统中表示成七加三十。
+  num.thirty_six:
+    label: thirty six
+    summary: 基数词：三十六；序数词：third sixth；罗马字写法：XXXVI
+    info: 数字三十六是自然数，位于三十五回后和第三十七之前。罗马数字为XXXVI；序数形式为第叁拾陆位（tricatý šestý）。在十进制中写作六加三十。
+  num.thirty_three:
+    label: 三十三
+    summary: 基数词：三十三；序数词：第三十三位（第thirty-third）
+    info: 数字三十三是自然数，位于三十和三十四之间。罗马数字表示为XXXIII，在十进制中写作3+30。
+  num.thirty_two:
+    label: thirty two
+    summary: 基数词32；序数词thirdty second；罗马字XXXII
+    info: |-
+      数字三十二是自然数，位于三十一位之后和第三十三位之前。
+      罗马数字为XXXII。序数形式为第32个（tricty druhy）
+      在十进制系统中表示方式：2+30。
   num.three:
     label: 三
     summary: 数字3，第一个奇素数。
     info: 在许多文化中，三被认为是神奇的数字——有童话故事讲到三个愿望，三角形有三条边，而一天被分为三个部分。
+  num.twelve:
+    label: 十二
+    summary: 基数：十二；序数：第十二；罗马字写法：XII
+    info: 数字十二是自然数，位于十一之后和十三之前。罗马数字表示为XII；序数词形式为第十二（duànlì）。在十进制中写作2+10。
+  num.twenty:
+    label: twenty
+    summary: 基数：二十 / 序列号：第二十 / 罗马字写法：XX
+    info: |-
+      数字二十是自然数，位于十九之后、二十一之前。
+      罗马数字表示为XX；序数词形式为第二十（第廿）
+      在十进制中写作20。
+  num.twenty_eight:
+    label: 二十八
+    summary: 基数词：二十 八； 序 数 ： 第二十四八次； 罗马字：X X V I
+    info: 数字28是自然数，位于数字27之后和数字29之前。罗马数字为XXVIII；序数形式为第二十八位（第28个）。在十进制中表示为8加20。
+  num.twenty_five:
+    label: 二十
+    summary: 基数字25；序号表达式：第二十五(第廿第五)，用罗马字母写法则是XXV。
+    info: |-
+      数字25是自然数，位于数字24之后和数字26之前。
+      罗马数字为：XXV；序数词形式为第二十五（第廿五）
+      在十进制中表示成5+20。
+  num.twenty_four:
+    label: twenty four
+    summary: 基数：24；序号表达式：second fourth；罗马字母写法：XXIV
+    info: |-
+      数字二十四是自然数，位于二十三之后和二十五之前。
+      罗马数字为XXIV。序数词形式为第二十四（即第四个二十）
+      在十进制中表示方式为四加二十。
+  num.twenty_nine:
+    label: 二十九
+    summary: 基数：二十又九 / 序列位置：第九个第二个
+    info: 数字29是自然数，在28之后，位于30之前。罗马数字为XXIX；序数词形式为第二十九（第廿九）。在十进制中表示方式为9+20。
+  num.twenty_one:
+    label: 二十一
+    summary: 基数：二十一个位的数目字
+    info: 数字21是自然数，在20之后，22之前。罗马数字为XXI；序数词形式为第二十一（第廿一）。在十进制中表示成1+20。
+  num.twenty_seven:
+    label: 二十七
+    summary: 基数：二十又七个单位的量度值
+    info: 数字27是自然数，在26之后，28之前。罗马数字为XXVII；序数词形式为第廿七（第二十七）。在十进制中表示成7+20。
+  num.twenty_six:
+    label: twenty six
+    summary: 数字24（第四个）
+    info: |-
+      {"hint":"数字的数词形式，基数词二十六","info":"数字二十四是自然中的一个整数，在二十五之后和在十七之前。
+      罗马数字：XXIVI。\r
+      序号编号为第二十位第六个；
+      用阿拉伯数字表示则写作六加二十的形式。
+  num.twenty_three:
+    label: 二十三
+    summary: 基数词二十（三）个、第廿三位
+    info: |-
+      数字23是自然数，在22之后，24之前。
+      罗马数字为：XXIII；序数词形式为第二十三位。在十进制中写作3+20。
+  num.twenty_two:
+    label: 二十二
+    summary: 数字22
+    info: '{"hint":"数字的数词形式，基数二十","info":"数字22是自然数，在21之后和在23之前。\r罗马数字：XXI；序号编号为第二十位。\r以十进制表示法写作2+20的形式。");'
   num.two:
     label: 二
     summary: 数字2，唯一的偶质数。

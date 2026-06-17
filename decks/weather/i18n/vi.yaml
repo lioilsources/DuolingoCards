@@ -2,14 +2,160 @@ lang: vi
 pivot: false
 title: Thời tiết
 cards:
+  weather.aurora:
+    label: cực quang
+    summary: Hiện tượng tự nhiên do gió Mặt Trời gây nên trong từ trường của Trái đất.
+    info: Cực quang bắc phương hay nam phương là hiện tượng ánh sáng màu xuất hiện trên bầu trời đêm khi các hạt năng lượng mặt trời tương tác với khí quyển Trái Đất và tạo ra những lớp sóng hoặc xoắn hình xanh lá cây, tím và đỏ. Hiện tượng này dễ dàng nhìn thấy nhất ở vùng cực như Na Uy, Iceland, Canada và Nam Cực.
+  weather.avalanche:
+    label: tuyết lở
+    summary: Khối lượng lớn băng và tuyết tuôn từ sườn đồi núi.
+    info: Tuyết lở là hiện tượng khối tuyết di chuyển nhanh xuống dốc núi. Nguy hiểm nhất là các vụ trượt tuyết bụi đạt tốc độ hơn 300km/giờ; tại Dãy Alps chúng giết chết khoảng 150 người mỗi năm.
+  weather.blizzard:
+    label: '"bão tuyết"'
+    summary: Cơn bão tuyết mãnh liệt có nhiều băng giá rơi xuống đất mặt cộng thêm luồng khí thổi xoay tròn tạo nên điều kiện quan sát kém.
+    info: |-
+      {"hint":"bão tuyết dữ dội kèm gió mạnh và tầm nhìn gần như bằng không","info":"Bão tuyết là hiện tượng thời tiết nghiêm trọng kết hợp giữa lượng mưa tuyết dày đặc với giông bão lớn,
+      gây ra tình trạng tầm nhìn cực kỳ hạn chế gọi là white-out cùng những đống tuyết cao ngất trời.
+      Theo lịch sử thì các cơn bão này đã khiến hàng ngàn người thiệt mạng;
+      bão năm 1947 tại Mỹ từng chôn lấp thành phố New-York dưới lớp tuyết lên đến hơn một mét."}
+  weather.breezy:
+    label: gió nhẹ
+    summary: Gió dễ chịu mang lại sự tươi mát cho ngày nắng.
+    info: Gió nhẹ là gió có tốc độ từ 6 đến 11 mét/giây (Bofurto cấp số 3–4). Nó làm di chuyển lá cây và tóc người một cách dịu dàng cũng như các vật thể nhỏ gọn khác. Về mặt sinh lý học nó giúp giảm cảm giác nóng bằng việc bốc hơi nước ra khỏi da.
+  weather.clear:
+    label: trời quang
+    summary: Bầu trời trong xanh tuyệt đối mà không một gợn mây.
+    info: Trời quang là tình trạng thời tiết khi lượng mây che phủ bầu trời nhỏ hơn 1/8 và hoàn toàn không có đám mây nào cả.
   weather.cloudy:
     label: mây
     summary: Trời được che phủ bởi những đám mây dày đặc và không có ánh nắng trực tiếp.
     info: Mây là các cụm nhỏ gồm giọt nước hoặc tinh thể băng nhìn thấy được. Hơn 60% bầu trời Trái Đất luôn bị bao phủ bởi mây.
+  weather.cold:
+    label: cơn đông
+    summary: Lạnh buốt đến mức nhiệt độ giảm sâu dưới điểm đóng băng.
+    info: Sự lạnh giá cực độ xảy ra khi không khí Bắc Cực xâm nhập vào các vùng ôn đới. Nhiệt độ thấp nhất từng được ghi nhận trên Trái Đất là −89,2 °C tại trạm nghiên cứu Vostok ở Nam Cực. Cơ thể phản ứng với cái rét bằng cách co mạch máu và run rẩy.
+  weather.dew:
+    label: sương
+    summary: Những giọt nước nhỏ được tạo ra do sự ngưng tụ trên bề mặt sau buổi tối giá rét.
+    info: Sương là nước ngưng tụ từ không khí lên các bề mặt lạnh vào những đêm yên tĩnh. Nó hình thành khi nhiệt độ của bề mặt giảm xuống dưới điểm sương và đóng vai trò như một nguồn cung cấp nước quan trọng cho thực vật cũng như động vật ở vùng khô hạn.
+  weather.drizzle:
+    label: mưa bụi
+    summary: Loại mưa nhẹ với hạt nước cực kỳ tinh tế.
+    info: Mưa bụi là loại mưa có các giọt nước rất nhỏ dưới 0,5mm và không xuất phát từ những đám mây dông đối lưu mà đến từ lớp mây tầng thấp dạng phẳng. Đây là hiện tượng đặc trưng cho khí hậu ô dương như ở Anh hoặc tây bắc Pháp.
+  weather.drought:
+    label: hạn hán
+    summary: Thiếu hụt lâu dài về lượng mưa gây ra việc cung cấp không đủ nguồn nước.
+    info: |-
+      Hạn hán là tình trạng khí tượng với sự thiếu hụt kéo dài lượng mưa,
+      gây ra mất mùa, khan hiếm nước và các vụ cháy rừng.
+      Từ năm 2015 đến 2020 tại Cộng hòa Séc đã ghi nhận hạn hán nghiêm trọng nhất trong vòng 500 năm qua.
+      Hiệu ứng nhà kính toàn cầu làm cho hiện tượng này trở nên tồi tệ hơn ở nhiều khu vực trên thế giới.
+  weather.dust_storm:
+    label: bão bụi
+    summary: Tường bụi được đẩy bởi một luồn khí mạnh trong môi trường hanh hao.
+    info: '{"hint":"lớp bụi và cát lớn bị thổi qua các khu vực khô hạn","info":"Cơn bão bụi hình thành khi gió mạnh nâng những hạt đất nhỏ lên không trung.\nỞ châu Phi Sa mạc Sahara thì cái tên gọi cho loại gió này là Harmattan. \nBụi từ sa mạc thường xuyên vượt Đại Tây Dương đến Mỹ Châu Mễ; nghiên cứu chỉ ra rằng nó ảnh hưởng tới rừng Amazon. \nNhững trận cuồng phong ở Hoa Kỳ vào thập niên ba của thế kỷ hai mươi gây nên thảm họa sinh thái tại vùng Trung tây bộ."}'
+  weather.flood:
+    label: lũ
+    summary: Sự tràn lan của dòng chảy từ lòng sông sang khu vực khô ráng.
+    info: '{"hint":"lũ lụt","info":"Lũ xảy ra khi có lượng mưa lớn bất thường, băng tan hoặc đê điều bị sập. Lũ là thảm họa tự nhiên gây thiệt hại cao nhất trên thế giới. Các trận lũ năm 1997 và 2002 tại Cộng hòa Séc đã để lại hàng tỷ euro tổn thất cùng nhiều người chết. Biện pháp phòng chống thiên tai bằng các yếu tố sinh thái như vùng đất ngập nước hay rừng cũng giúp giảm thiểu mức độ ảnh hưởng của chúng."}'
   weather.foggy:
     label: sương mù
     summary: Sương mù dày đặc làm giảm tầm nhìn.
     info: Sương mù là những đám mây ở mức mặt đất được tạo thành từ các giọt nước nhỏ li ti. Nó hình thành khi độ ẩm cao và có thể làm tầm nhìn dưới 1km.
+  weather.freezing:
+    label: gió lạnh
+    summary: Nhiệt độ xuống thấp hơn điểm đông đặc làm cho nước bị đóng băng.
+    info: Sương giá xảy ra ở nhiệt độ dưới 0°C khi nước chuyển thành băng và có thể đe dọa sinh học đối với thực vật cũng như gây tai nạn giao thông do đường trơn bởi lớp sương đóng băng trên mặt đất.
+  weather.frost_flowers:
+    label: băng hoa
+    summary: Những viên đá bám vào nhau để tạo thành mô-hình như-bông-hoa khi gặp nhiệt độ thấp.
+    info: Băng hoa là các cấu trúc kết tinh được hình thành do độ ẩm đóng băng trên những bề mặt cực lạnh. Những mẫu thiết kế phức tạp của tinh thể băng thường xuất hiện ở biển Bắc Cực và có vẻ ngoài rất đẹp mắt; chúng trở nên phổ biến trong nhiếp ảnh thiên nhiên. Băng hoa chỉ tạo ra dưới điều kiện cụ thể nhất định gồm một bề mặt nóng ướt và không khí siêu giá.
+  weather.frosty:
+    label: sáng có sương giá
+    summary: Lớp phủ bằng các tinh thể băng ở bên ngoài thực vật.
+    info: Sương giá hình thành khi nhiệt độ bề mặt giảm xuống dưới điểm đóng băng và độ ẩm trong không khí kết tinh lại. Nó tạo ra những họa tiết tuyệt đẹp trên lá cây, kính hoặc nền đất. Sương giá khác với sương đông – đây là nước đá bốc hơi từ không khí còn đó thì được gọi là đọng lạnh.
+  weather.gloomy:
+    label: u ám
+    summary: Khí hậu xám xịt đầy tính bi quan.
+    info: Thời tiết u ám được đặc trưng bởi những đám mây tối màu thấp thoáng dưới bầu trời âm u và không khí lạnh lẽo hoặc có mưa phùn. Nó thường gắn liền với cảm giác buồn bã và mùa thu. Rối loạn trầm cảm theo mùa SAD là một chứng rối loại gây ra do thiếu nắng vào mùa đông.
+  weather.hailing:
+    label: Mưa đá
+    summary: Là hiện tượng rơi xuống mặt đất các viên băng nhỏ gọi là sỏi đá.
+    info: Các hạt mưa đá được hình thành trong những đám mây bão khi các giọt nước liên tục di chuyển qua phần lạnh và nóng của khối mây này. Chúng có thể đạt đường kính hơn 10cm gây thiệt hại nghiêm trọng cho mùa vụ cây trồng cũng như phương tiện giao thông hay mái nhà.
+  weather.haze:
+    label: smoke
+    summary: Giảm khả năng thấy rõ vì có nhiều hạt nhỏ như bụi hay chất thải.
+    info: Sương mù là hiện tượng giảm tầm nhìn do bụi mịn hoặc khói gây ra trong không khí và thường liên quan đến ô nhiễm môi trường.
+  weather.heat_lightning:
+    label: chớp nhiệt
+    summary: Những ánh chớp của một trận mưa rào nhìn thấy rõ nhưng không kèm âm thanh.
+    info: Chớp nhiệt là những chói sáng từ cơn giông ở xa mà tiếng sấm không thể nghe thấy vì khoảng cách quá lớn. Tên gọi có phần gây hiểu lầm bởi đây không phải loại chớp cụ thể nào được tạo ra trực tiếp bằng nhiệt độ cao.
+  weather.heat_shimmer:
+    label: hiệu ứng Mirage
+    summary: Biến dạng thị giác do thay đổi nhiệt độ không khí phía trên vật thể nóng.
+    info: Hiện tượng Marenì là hiệu ứng quang học do sự khúc xạ ánh sáng trong không khí nóng lên từ các bề mặt như nhựa đường hoặc sa mạc. Không khí ở trên những nơi này có mật độ thấp hơn khiến tia sáng bị uốn cong và tạo ra hình ảnh giả lập của ao nước xuất hiện dọc theo con đường đang nắng gắt – gọi chung là 'ảo giác'. Fata Morgana lại phức tạp hơn khi được gây nên bởi nghịch nhiệt.
+  weather.heatwave:
+    label: vùng nhiệt
+    summary: Kỳ vọng kéo dài về cái lạnh không khí
+    info: |-
+      Sóng nhiệt là giai đoạn kéo dài của thời tiết nóng bất thường vượt quá mức nhiệt độ mùa vụ bình thường
+      Cuộc sóng nhiệt ở châu Âu năm 2003 đã gây ra hơn 70 nghìn ca tử vong ngoài dự kiến
+      có nguy hiểm đặc biệt đối với người già trẻ em và những bệnh nhân đang điều trị
+      Hiệu ứng nhà kính làm cho các đợt nắng nóng ngày càng nghiêm trọng
+  weather.hot:
+    label: Hơi nắng
+    summary: Sự gia tăng nhiệt độ đáng kể tạo nên cảm giác khó chịu và nguy cơ ảnh hưởng đến sức khỏe.
+    info: Nhiệt độ cực cao là hiện tượng khí tượng với nhiệt độ vượt xa mức trung bình của mùa trong năm. Khi kết hợp cùng độ ẩm có thể gây ra sốt nóng đe dọa tính mạng con người.
+  weather.humid:
+    label: độ ẩm
+    summary: Không khí chứa nhiều hơi nước gây nên cảm giác闷热
+    info: |-
+      Độ ẩm đo lượng hơi nước trong không khí
+      Độ ẩm tương đối đạt mức tối đa là khi không khí bão hòa và nếu vượt quá sẽ xảy ra ngưng tụ thành giọt sương hoặc mưa
+      Mức độ ẩm cao làm tăng cảm giác nóng vì khiến cho mồ hôi khó bay hơi
+  weather.hurricane:
+    label: bão
+    summary: Siêu bão có tốc độ gió trên 120km/giờ.
+    info: '{"info":"Bão là một cơn bão nhiệt đới ở Đại Tây Dương và Thái Bình Dương phía tây với gió mạnh hơn 120km/giờ.\nCũng được gọi là lốc xoắn hoặc cuồng phong tùy khu vực biển khác nhau như Ấn Độ Dương hay vùng nước sâu của Thái Bình Dương\.\nNăng lượng từ siêu bão tương đương hàng chục quả bom nguyên tử mỗi ngày\.","label":"bão","summary":"Siêu bão có tốc độ gió trên 120km\/giờ."}'
+  weather.ice_storm:
+    label: băng giá
+    summary: Mưa đông đặc che phủ mọi thứ bằng một lớp băng min.
+    info: Cơn bão băng xảy ra khi không khí nóng ở trên lớp lạnh tạo mưa đóng băng ngay lập tức sau đó làm cho cây cối và dây điện đều bị phủ một tầng mỏng trong suốt của nước đá.
+  weather.icy:
+    label: băng giá
+    summary: Lớp nước đá có hại khiến người ta dễ bị té.
+    info: |-
+      Băng giá hình thành khi giọt mưa hoặc băng tan chảy trên các bề mặt lạnh đông lại
+      Đây là một trong những tình huống mùa đông nguy hiểm nhất cho giao thông
+      Sự trơn tuột của lớp nước đá được gây ra bởi một lớp mỏng nước lỏng ở phía ngoài
+  weather.lightning:
+    label: sét
+    summary: Hiện tượng tĩnh điện giữa các khối mây hoặc từ mây sang mặt đất.
+    info: Sét là hiện tượng phóng điện mạnh xảy ra khi sự chênh lệch điện tích trong đám mây giông đạt đến giá trị tới hạn. Tốc độ sét khoảng một phần ba tốc độ ánh sáng và có trung bình xấp xỉ 100 lần sét đánh xuống Trái Đất mỗi giây.
+  weather.misty:
+    label: sương mờ
+    summary: Tầm nhìn thấp do có nhiều loại sương hoặc màn sương nhẹ.
+    info: Thời tiết sương mù xảy ra khi hơi nước ngưng tụ trong lớp không khí gần mặt đất. Khác với mưa lớn ở chỗ tầm nhìn bị hạn chế nhưng vẫn trên dưới một kilômét.
+  weather.monsoon:
+    label: mưa
+    summary: Thay đổi hàng tháng của không khí mang lại một khoảng thời gian có lượng mưa lớn.
+    info: Mùa mưa là hiện tượng khí hậu được gây ra bởi sự đảo ngược gió mùa giữa đại dương và lục địa vào các thời điểm nhất định trong năm.
+  weather.muggy:
+    label: độ ngột
+    summary: Không khí nóng bức và ẩm thấp gây cảm giác nghẹt thở.
+    info: Độ ngột là sự kết hợp giữa nhiệt độ cao và độ ẩm tương đối lớn trong không khí. Độ ẩm cao ngăn cản mồ hôi bốc hơi nên cơ thể khó làm mát hiệu quả.
+  weather.overcast:
+    label: trời âm
+    summary: Bầu trời hoàn toàn được bao phủ bởi các đám mâу màu хám mà кнông còn thấy ánh нàпg.
+    info: |-
+      Trời âm u xảy ra khi có từ 7/8 đến 8/8 mây che phủ bầu trời
+      Ánh sáng bị tán xạ và không tạo bóng rõ ràng,
+      v rối loạn trầm cảm phụ thuộc vào địa lý liên quan ánh nắng thiếu mặt trời là yếu tố chính;
+      thay thế bằng đèn nhân tạo mô phỏng ánh sáng tự nhiên giúp cải thiện.
+  weather.partly_cloudy:
+    label: po-lo-jas-no
+    summary: Bầu trời bị phủ từng lớp mỏng bởi đám mây tạo nên sự xen lẫn của ánh nắng mặt trời với bóng râm.
+    info: Polojiorno là tình huống thời tiết có từ ba đến năm phần tám mây che bầu trời xanh lam. Đây được coi là một trong những kiểu thời tiết dễ chịu nhất cho các hoạt động ngoài trời và thường chứa đựng loại mây cumulus phát triển vào khoảng giữa ngày khi nhiệt độ tăng cao hơn.
   weather.rainbow:
     label: cầu vồng
     summary: Vòm màu sắc trên bầu trời sau cơn mưa khi mặt trời xuất hiện.
@@ -18,6 +164,22 @@ cards:
     label: mưa
     summary: Những giọt nước rơi từ đám mây là mưa.
     info: Mưa hình thành do sự ngưng tụ hơi nước trong các đám mây. Mưa rất cần thiết để bổ sung nguồn nước cho sông, hồ và cung cấp nước uống; trung bình, những hạt mưa rơi với tốc độ khoảng 9 mét/giây.
+  weather.sandstorm:
+    label: bão cát
+    summary: Tường bùi nhúm được thổi bởi những luồng không khí nóng ở vùng hoang mạc.
+    info: Bão cát hình thành khi gió mạnh cuốn lên một lượng lớn bụi và đất sét từ sa mạc hoặc các khu vực khô hạn khác trong môi trường nhiệt đới như châu Phi hay Trung Đông.
+  weather.shower:
+    label: mưa giông
+    summary: Trận mưa nặng hạt từ những đám mây cuộn.
+    info: '{"hint":"Cơn mưa ngắn nhưng đôi khi mạnh","info":"Mưa giông là cơn mưa dữ dội từ đám mây đối lưu (mây xù hoặc cuộn).\NCơn mưa đến nhanh và tan trong vài phút cho tới giờ đồng hồ\.Thường xảy ra vào mùa hè do ánh nắng mặt trời gây lên sự đối lưu tạo thành các khối mây cuộn về chiều\.Sau trận mưa có thể xuất hiện cầu vồng."}'
+  weather.sleet:
+    label: mùa đông
+    summary: Hỗn hợp giữa mưa và tuyết.
+    info: Mưa đóng băng xảy ra khi tuyết rơi đi qua lớp không khí nóng và tan một phần thành nước mưa lạnh hoặc giọt đá nhỏ. Nó tạo nên một lớp mỏng băng trên bề mặt đường phố gây nguy hiểm cho giao thông.
+  weather.slush:
+    label: tuyết nhão
+    summary: Lớp hỗn hợp nước từ việc một phần lượng tuyết đã bị rã đông tạo ra lớp bề mặt mùa đông dễ gây té ngã.
+    info: Tuyết tan chảy (tuyết nhão) hình thành khi nhiệt độ tăng lên gần điểm đóng băng và bắt đầu làm cho tuyết nóng dần lại. Nó rất trơn trợt và nguy hiểm đối với người đi bộ cũng như lái xe máy hoặc ô tô.
   weather.snowy:
     label: tuyết rơi
     summary: Những bông tuyết trắng rơi từ đám mây.
@@ -30,6 +192,37 @@ cards:
     label: nắng
     summary: Trời trong xanh với ánh nắng chói chang, không có mây.
     info: Thời tiết nắng xảy ra khi không có đám mây nào cản trở tia sáng mặt trời. Mặt trời mang lại ánh sáng và nhiệt cần thiết cho sự sống trên Trái đất.
+  weather.sunrise:
+    label: hoàng hôn
+    summary: Lúc Mặt Trời ló ra khỏi đường chân trời ở cuối chiều.
+    info: Hoàng hôn là thời điểm mặt trời bắt đầu xuất hiện trên đường chân trời khi bình minh đến gần hơn vào buổi sáng sớm nhất trong ngày.
+  weather.sunset:
+    label: hồng hào
+    summary: Thời khắc mà Mặt Trời biến mất phía bên dưới đường chân trời vào cuối một ngày.
+    info: Hoạt động mặt trời lặn là thời điểm trong ngày khi Mặt Trời hạ xuống dưới đường chân trời. Bảng màu sắc phong phú như cam, đỏ và tím xảy ra do ánh sáng bị phân tán trên bầu khí quyển của trái đất. Những buổi hoàng hôn đẹp nhất thường xuất hiện sau các vụ nổ núi lửa vì bụi mịn từ đó làm tăng cường độ những gam màu.
+  weather.thunderstorm:
+    label: giông
+    summary: Hiện tượng thời tiết đặc trưng bởi những vụ đánh trống trời đất kèm theo âm thanh ài ánh sáng cùng nước rơi xuống mặt đất.
+    info: '{"hint":"cơn giông dữ dội có tiếng chớp闪电 và mưa to gió lớn","info":"Gió bão hình thành trong các đám mây cumulonimbus khổng lồ cao hơn cả 10km. Tia chớp là hiện tượng phóng điện tĩnh giữa hai vật thể tích tụ lại với nhau khi hiệu điện thế đủ mạnh để gây ra tia lửa điện làm nóng không khí lên tới mức nhiệt độ khoảng trên dưới ba vạn độ C chỉ sau một phần nghìn giây đồng hồ mà thôi! Tiếng nổ của cơn cuồng phong này chính do sự giãn nở đột ngột của khối lượng không khí bị gia tốc cực kỳ nhanh chóng tạo nên."}'
+  weather.tornado:
+    label: xoắn cuồng phong
+    summary: Cột luồng không khí phá hủy đang xoay tròn nối liền giữa đám mây với đất.
+    info: Một cơn xoắn cuồng phong là một cái trụ không khí quay nhanh được hình thành từ bão và chạm tới bề mặt Trái Đất. Vận tốc gió có thể lên đến hơn 804km/giờ. Thường xảy ra nhất ở khu vực 'Đường hầm Xoắn' tại Mỹ như Kansas, Oklahoma hay Texas.
+  weather.typhoon:
+    label: typhoon
+    summary: Bão nhiệt đới trên Thái Bình Dương phía tây nam với tốc độ gió vượt quá 120km/giờ.
+    info: |-
+      Cơn bão được gọi là typhoon ở Philippines, Trung Quốc và Nhật Bản cùng khu vực xung quanh đây.
+      Philippines trung bình bị ảnh hưởng bởi khoảng hai mươi cơn typhoon mỗi năm.
+      Typhoon Nina vào năm 1975 gây ra lũ lụt tại Trung Quốc khiến hơn 229 nghìn người thiệt mạng.
+  weather.waterspout:
+    label: xoắn nước
+    summary: Cột nước xoay kết nối biển hay hồ với đám mây.
+    info: Dụng cụ xoắn nước là cột không khí chứa nhiều hơi nước quay tròn trên mặt nước. Một loại xoắn nước nguy hiểm có thể hình thành từ bão hoặc mây cumulonimbus trong thời tiết đẹp hơn và nhẹ nhàng hơn.
+  weather.whiteout:
+    label: Bản đêm
+    summary: Tình trạng thời tiết cực đoan ở các khu vực Bắc Cực hoặc núi cao trong đó lượng lớn bụi tuyết làm cho mọi thứ trở nên trống rỗng.
+    info: Hiện tượng Whiteout xảy ra khi cơn bão tuyết và phản xạ của băng tuyết khiến bầu trời và mặt đất hòa vào nhau tạo thành một vùng màu trắng đồng nhất. Điều này gây mất định hướng hoàn toàn về không gian cũng như khả năng nhìn thấy môi trường quanh mình.
   weather.windy:
     label: có gió
     summary: Gió mạnh làm cong cây và cuốn lá đi.

@@ -2,42 +2,238 @@ lang: id
 pivot: false
 title: Buah-buahan
 cards:
+  fruit.ackee:
+    label: pepaya merah
+    summary: Buah pepaya merah dengan biji kuning yang dapat dimakan.
+    info: Pepaya merah atau 'ackee' berasal dari Barat Daya Afrika dan dibawa ke Kariibia melalui perdagangan budak. Buah ini menjadi buah nasional Jamaika yang dinamai menurut Kapten Bligh pada tahun 1793.
   fruit.apple:
     label: apel
     summary: Buah merah atau hijau bulat dengan rasa manis dan asam.
     info: Apel adalah buah dari pohon apel liar, salah satu tanaman buah terpenting di dunia. Mengandung vitamin C dan serat; ada lebih dari 7.500 varietas.
+  fruit.apricot:
+    label: plum
+    summary: Buah kecil warnanya kuning/oranye dengan rasa agak masam.
+    info: |-
+      {"hint":"Buah kecil berwarna jingga mirip batu","info":"Plum Armenia berasal dari Asia tengah dan ditanam di seluruh Eropa termasuk Ceko;
+      mereka yang paling manis datang dari Turki dan Spanyol.
+      Kaya akan betakarotena dan vitamin A,
+      dan plum kering adalah camilan bergizi populer."}
+  fruit.avocado:
+    label: avocado
+    summary: Buah pepaya amrik dengan daging putih creamy
+    info: '{"hint":"buah berdaging hijau creamy dari daerah tropis","info":"Pepaya amrik atau avocado berasal dari Meksiko dan Amerika Tengah\nSecara botanical termasuk buah-buahan tetapi secara kuliner digunakan sebagai sayuran\nMengandung minyak tak jenuh tunggal yang baik seperti minyak zaitun yaitu asam linolenat\nPada saat ini menjadi makanan trend di seluruh dunia karena manfaatnya bagi kesehatan tubuh"}'
   fruit.banana:
     label: pisang
     summary: Buah tropis kuning dengan daging manis.
     info: Pisang adalah buah dari tanaman tropis dalam keluarga Musaceae. Buah ini kaya akan kalium dan gula alami yang memberikan energi cepat.
+  fruit.blackberry:
+    label: blackberry
+    summary: Buah blackberry berasal dari tanaman Rubus fruticosus.
+    info: '{"hint":"buah ungu gelap hampir hitam yang tumbuh di semak berduri","info":"Blackberry atau stroberi liar adalah buah bulat dengan warna ungu tua dan terdiri dari banyak biji kecil."}'
+  fruit.blueberry:
+    label: blueberry
+    summary: Buah beri biru gelap dengan manfaat tinggi untuk fungsi kognitif.
+    info: Blueberry liar hutan dan kebun mengandung banyak antioksidan yang disebut anthocyanin.
+  fruit.cantaloupe:
+    label: cantaloup
+    summary: Semangka coklat keemasan berkulit anyaman dengan isi daging merona cerah.
+    info: '{"hint":"melon berkulit jaring dengan daging jeruk (Cucumus melo var. canatalupensis)","info": "Kantelop (cucumis melo var.cantalupensis) adalah jenis semangka yang populer berasal dari Asia\r\. Nama ini diambil dari kediaman Paus Cantalupa dekat Roma\r\. Dagingnya warna orange kaya akan betakarot dan vitamin A\r\. Ini merupakan salah satu jenis semangka termanis."}'
   fruit.cherry:
     label: třešeň
     summary: Buah beri merah bulat kecil yang tumbuh dalam pasangan.
     info: Třešeň adalah buah dari persik burung, sebuah buah musim panas yang populer. Mengandung antioksidan dan melatonin; terdapat varietas manis maupun asam (seperti cherry).
+  fruit.coconut:
+    label: kelapa
+    summary: Buah tropika besar dengan kulit berserabut.
+    info: '{"hint":"nut megah dengan cangkul serat yang tebal","info":"Kelapa adalah buah dari pohon kelapa dan secara ilmiah disebut sebagai biji keras atau daging buahnya berupa endosperma. Air kelapa di dalam buah muda merupakan minuman elektrolit alami. Susu dan minyak kelapa menjadi dasar masakan Asia Tenggara serta India."}'
+  fruit.cranberry:
+    label: blueberi liar
+    summary: Buah biru dengan citra alami dari hutan.
+    info: '{"hint":"buah kecil berbentuk aprikot merah muda","info":"Blueberi liar ((Rubus idaeus)) adalah buah yang tumbuh di hutan dan memiliki rasa manis-citrus.'
+  fruit.currant:
+    label: ribis
+    summary: Buah kecil merah muda berwarna ungu gelap yang tumbuh dalam gugusan.
+    info: Blackcurrant atau ribis hitam mengandung vitamin C terbesar di antara semua jenis berry dan menjadi dasar rasa minuman Britania bernama 'Ribena' serta liqueur Cassis. Red currants digunakan untuk membuat selai maupun sebagai penghias hidangan penutup.
+  fruit.damson:
+    label: persik damaskus
+    summary: buah persik kecil dengan warna gelap biasanya terdapat pada pertanian desa inggris.
+    info: '{"hint":"varietas buah persik biru gelap kehitaman","info":"Persik Damaskus adalah varietas persik yang berwarna biru tua hingga hitam dan ukurannya kecil.","label":"persik damaskus","summary":"Buah persik kecil dengan warna gelap umum di tukang bunga pedesaan Inggris."}'
+  fruit.date:
+    label: kurma
+    summary: Buah hijau atau kuning-kuning dengan tekstur renyah.
+    info: |-
+      {"hint":"buah cokelat bulat manis dari pohon kurma (Phoenix daktlifer)","info":"Kurma adalah buah yang berasal dari tanaman Phoenix daktlyfera dan memiliki rasa sangat manis serta berwarna kecoklatan dengan bentuk oval.
+      Buah ini telah menjadi makanan pokok di Timur Tengah selama ribuan tahun lalu karena kandungan gula lebih dari 60% sehingga merupakan sumber tenaga penting bagi tubuh manusia.
+      Pada agama Islam terutamanya dalam tradisi Iftaar setelah puasa Ramadan orang-orang biasa memulai makannya dengan mengkonsumsi beberapa butir kurma."}
+  fruit.dragon_fruit:
+    label: buahan draconiana
+    summary: pluh kaktus tropis berwarne merah muda denngan isi putih bertotol-totol
+    info: "{\"hint\":\"buah lidah buaya tropis berwarna merah muda dengan tekstur putih bercak hitam\",\"info\":\"Buah draco (lidah buaya atau hylocereus) berasal dari Meksiko dan Amerika Tengah.\r\nCangkanya yang cerah warna pink serta isinya kulitnya yang bewarna putih berserat kecil gelap sangat menarik secara visual.\r\nIa memiliki cita rasanyan yang ringan;\",\"label\":\"buhan draconian\",\"summary\":\"Pluh kaktus tropis berwana merah mudha dengan isi putih bertotol.\"}"
+  fruit.durian:
+    label: buahn durian
+    summary: buah besar berduri dengan bau tajam
+    info: Buah durian adalah buah yang disebut raja dari semua jenis buah-buahan di daerah khatulistiwa ini memiliki aroma kuat dan tidak menyenangkan bagi beberapa orang tetapi menarik untuk lainnya sehingga banyak hotel Asia melarang membawanya masuk ke dalam ruangan
+  fruit.feijoa:
+    label: fejoa
+    summary: Bulan kecil dengan rasa manis.
+    info: '{"hint":"buah aromatik berbentuk oval dan hijau","info":"Buah fejoa berasal dari Benua Selatan Amerika. Daging buahnnya memiliki aroma yang kuat seperti nanas, jambu biji, serta minyak mint\/menthol. Buah ini sangat populer di Selandia Baru sebagai makanan musim gugur. Meskipun kurang dikenali di Eropa, ia tetap disukai oleh negara-negara tempat asalnya."}'
+  fruit.fig:
+    label: fig
+    summary: Biji biji buah ara
+    info: |-
+      {"hint":"buah berbentuk pir dengan bagian dalam yang manis (Ficus carica)","info":"Buah ara atau fig adalah salah satu buah tertua yang ditanam manusia; ada catatan penanaman sejak lebih dari 11 ribu tahun lalu.
+      Sebenarnya ini tidak benar-benar sebuah buah melainkan wadah yang diisi oleh seribu bunga kecil.
+      Daun-daun Adam dan Hawa pada kisah Alkitab merupakan daun tanaman arau.
+      Ara kering menjadi sumber terbaik untuk mengambil kalsium, kalium serta serat makanannya."}
+  fruit.gooseberry:
+    label: blackcurrant
+    summary: Buah bulat dengan permukaan mengkilat; sangat digemari di daerah pertanian.
+    info: '{"hint":"buah beri hijau atau merah transparan kecil","info":"Blackcurrant (( Ribes ) uva - crispa )) adalah buah yang khas untuk taman-taman Eropa Tengah\ndapat ditemukan dalam varietas warna biru gelap dan ungu tergantung jenisnya\nkaya akan vitamin C\nwine dari blackcurrant merupakan minuman populer secara sejarah di wilayah tersebut."}'
   fruit.grape:
     label: anggur
     summary: Buah kecil bulat yang tumbuh dalam gugusan pada tanaman merambat.
     info: Anggur dihasilkan oleh tanaman Vitis vinifera dan memiliki berbagai warna mulai dari hijau hingga ungu gelap. Anggur dapat dimakan segar, dikeringkan menjadi kismis, atau diperas untuk membuat anggur.
+  fruit.grapefruit:
+    label: '"grape"'
+    summary: '"Biji-bijian super untuk kesehatan tubuh manusia."'
+    info: |-
+      {"hint":"buah sitrat yang besar dan rasanya pedas-manis (Citrus paradisi)","info":"Buah grepa atau grapefruit adalah hibrida antara jeruk bali dengan buah persimmon.
+      Ia ditemukan pada abad ke-delapan belas di pulau Barbados.
+      Grappia merah serta jambolan mengandung lycopene dan karotin-beta.
+      Sari dari grapple bereaksi terhadap banyak obat-obatan;
+      apakah pasien harus memberitahu dokter."}
+  fruit.guava:
+    label: pisang
+    summary: Buah tropis dengan aroma kuat berdaging putih atau merona.
+    info: Pisang guaya berasal dari Amerika Tropikal dan tersebar di Asia serta Afrika yang iklimnya hangat. Pisanga ini mengandung vitamin C hingga empat kali lebih banyak dibandingkan jeruk. Kulit maupun bijinya dapat dimakan karena seluruh bagian buah tersebut bernilai gizi tinggi.
+  fruit.jackfruit:
+    label: chebulowani
+    summary: Biji raksasa tropikal; biji tertua di dunia.
+    info: |-
+      {"hint":"buah hutan hijau besar berduri dari Asia Tropis","info":"Buah chelbowanika menghasilkan buah terbesar yang tumbuh di pohon; bisa mencapai bobot lebih dari 35 kilogramnya.
+      Asalnya berasal dari Asia Tropis dan merupakan sumber nutrisi utama bagi penduduk India, Bangladesh serta Thailand.
+      Buah ini dalam keadaan mentah memiliki tekstur netral sehingga digunakan sebagai pengganti daging vegetarian,
+      maka ketika sudah matang dengan warna kuning akan menjadi manis aromatik."}
+  fruit.kiwi:
+    label: pisangan
+    summary: Bahan makanan berkhasiat tinggi pada pengambilan vitamin.
+    info: '{"hint":"Buah cokelat berbulu kecil dengan果肉 hijau terang ((Aktinia deliciosus))","info":"Pisanga (aktinia deliciosus) berasal dari Tiongkok di mana disebut yang Tao atau buah persik burung bebek China\nSelandia Baru mempopulerkannya dan menamakannya sesuai nama burung nasionalnya yaitu kiwi\.\nMengandung dua kali vitamin C dibandingkan jeruk\.\nDaging buahnya adalah hijau cerah ada juga varietas emas (kuning)","label":"pisanga","summary":"buah cokelat buluh dengan isinya hijau serta banyak mengandungi vitamin"}'
+  fruit.lemon:
+    label: Sitru
+    summary: Sumber vitamin C alami dengan rasa asam kuat.
+    info: '{"hint":"buah sitrat kuning masam dari Asia","info":{"label":"sitrun","summary":"Buah sitrut yang mengandung vitamin C dan aroma segar","details":{}}}'
+  fruit.lime:
+    label: lemon
+    summary: Buah sitrum hijau kecil yang masam; bahan penting untuk masakan Tropika seperti Mexiko, Thailand, dan Vietnam karena rasanya yang unik meskipun kadar Vitamin-C lebih rendah dibandingkan jeruk biasa namun memberikan rasa segar serta manfaat bagi tubuh terutama sebagai antioksidant sehingga bisa membantu pencegahan kurang darah akibat defisiensi Vitamine-C pada para maritim atau kapten laut dulu kali ya hehe :D
+    info: '{"hint":"buah sitrat hijau kecil yang masam","info":"Lemon adalah buah sitrut hijau kecil dengan air yang masam dan kulit aromatiknya digunakan dalam memasak di daerah Meksiko,Tailandia,dan Vietnam.Tidak mengandung vitaminC sebanyak jeruk tetapi memiliki aroma kuat.Konsumsi lemon melindungi pelaut dari penyakit scurvy(vitamin c)","label":"lemon","summary":"Buah sitrun hijau kecil yang masam;bahan utama masakan tropis."}'
+  fruit.longan:
+    label: langkan
+    summary: buah coklat kecil tropika terkait erat dengan litchi
+    info: '{"hint":"Buah bulat kecil dari daerah tropis yang berkaitan dengan buah litci (Litchi chinensis)","info":"Langkaun atau Long Yan adalah nama dalam bahasa Cina untuk Draconis Oculum karena penampilannya seperti mata naga pada dagingnya yang transparan dan berisi biji hitam","Rasanya manis aromatis","Dalam pengobatan tradisional Tiongkok dianggap sebagai makanan yang mendukung darah dan jantung."}'
+  fruit.lychee:
+    label: lichy
+    summary: buah tropika China/Timur Jauh merah muda dengan tekstur unik dan rasanyasweet
+    info: '{"hint":"Buah kecil merah berkulit kasar dari daerah tropis dengan daging bening yang transparan","label":"lichi","summary":"Buah tropis merah muda Asia Tenggara dengan kulit keras dan rasa manis aromatik","definition":{"text": "Lichi atau liči adalah buah tropis berasal dari Cina memiliki cangkok merah kasar di luar serta bagian dalamnya putih bersifat transparan. Rasanya sangat gurih karena mengandung aroma khas alami."},"example_sentence": {"sentence": "Di pasar tradisionil Indonesia terdapat penjual es liliput segarnya yaitu air rebusan bijinya disajikan dingin sebagai minuman menyegarkan", "translation": "There is also seller selling cold refreshing drinks made by boiling seeds at traditional market here too"}}'
   fruit.mango:
     label: mango
     summary: Buah tropis dengan daging berair berwarna kuning-oranye.
     info: Mango adalah yang disebut 'raja buah tropis'. Buah ini mengandung vitamin A dan C serta berasal dari Asia Selatan, di mana telah dibudidayakan selama 4.000 tahun.
+  fruit.medlar:
+    label: piru
+    summary: Buah cokelat seperti aprikot dengan rasa khas.
+    info: Piru (Mesipillus Germanika atau Mespilus germanica) adalah tanaman buah tua yang sudah dibudidayakan sejak abad pertengahan di kebun. Buatnya bisa dimakan setelah melalui proses 'blitting' yaitu mengeringkan hingga empuk seusai panen.
+  fruit.melon:
+    label: semangka
+    summary: Besar manis berisi daging kuning/oranye/hijau/biru.
+    info: '{"hint":"Buah bulat atau lonjong besar dengan果肉橙色或绿色（Cucumis melo）","info":"Semangka (Cucumis melon) adalah buah tropis hingga sub-tropical yang memiliki kandungan air tinggi.\nAsli dari Afrika dan Asia; saat ini dibudidayakan di seluruh dunia.\nMengandung lebih dari 90% airnya; sangat baik untuk hidrasi tubuh.\nAda ratusan varietas seperti cantaloup, honey dew, galiya, charantai serta lain-lain."}'
+  fruit.mulberry:
+    label: ara
+    summary: Biji buah ungu tua yang dihasilkan oleh pohon ara.
+    info: Buah gelap dari tanaman ara (genus Morus); daunnya digunakan sebagai makanan ulat sutra.
+  fruit.nectarine:
+    label: necktarna
+    summary: Pir tanpa bulu berair manis.
+    info: '{"hint":"varietas buah pir smooth-skinned","info":"Neckturna adalah variasi alami dari jenis pir dengan kulit halus yang merupakan hasil perubahan genetik pada satu gen untuk kehalusan permukaan kulitnya. Ia memiliki rasa mirip tetapi tekstur lebih padat dan keras dibandingkan pir biasanya."}'
   fruit.orange:
     label: jeruk bali
     summary: Buah sitrus bulat dengan kulit beraroma oranye tebal.
     info: Jeruk bali adalah buah sitrus yang berasal dari Asia Tenggara dan kini dibudidayakan di seluruh dunia. Buah ini mengandung vitamin C tinggi dan populer sebagai jus.
+  fruit.papaya:
+    label: mangga
+    summary: Buah mangga adalah buah tropika dengan daging kuning cerah.
+    info: '{"hint":"Buah tropis besar berwarna jeruk yang mengandung enzim papan untuk mencerna protein","info":"Mangga pepino berasal dari Benua Kecil dan merupakan sumber vitamin C serta antioksidan alami."}'
+  fruit.passion_fruit:
+    label: mucha
+    summary: Buah tropis dengan kulit biru kehitaman atau coklat tua bergelombang dan isian aroma semerbak.
+    info: '{"hint":"buah tanaman merambat tropis dengan kulit ungu berkerut","info":"Mucheňa berasal dari Amerika Selatan yang iklimnya tropis\ndan namanya diambil oleh para imigran karena mereka melihat simbol-simbol penderitaan Yesus dalam bentuk kuntum bunganya\. Buah ini memiliki daging buah yang mengandungi banyak biji dan dilapisi lendir aromatis\., serta menjadi sumber vitamin C, serat膳食纤维和抗氧化剂的优质来源。"}'
+  fruit.peach:
+    label: persik
+    summary: Buah merah muda-kuning dengan tekstur seperti sutra; simbol musim panas.
+    info: '{"hint":"buah batu berbulu halus kuning-mawarnya","info":"Peach (Persik Prunus) berasal dari Tiongkok di mana menjadi simbol ketidakmatian\ndan kulitnya yang lembut serta bulunya sangat karakteristik\. Terdapat varietas putih dan kuning; peach tanpa rambut disebutnectarine\. Di Tiongkok buah ini adalah bagian tradisi tahun baru dan mitologi penyembuhan."}'
   fruit.pear:
     label: pear
     summary: Buah berbentuk tetesan air mata dengan rasa manis yang lembut.
     info: Pir adalah buah dari pohon pir biasa, kerabat dekat apel. Pir memiliki daging yang halus dan juicy serta kaya serat; terdapat ratusan varietasnya.
+  fruit.persimmon:
+    label: tomete
+    summary: Buah berwarna orange mirip tomat yang manis.
+    info: Tomete (diospyros kaki) berasal dari Tiongkok dan Jepang; di Republik Ceska dikenali sebagai tomete Jepang.
   fruit.pineapple:
     label: nanas
     summary: Buah tropis dengan mahkota berduri dan daging kuning.
     info: Nanas berasal dari Amerika Selatan dan kini dibudidayakan di sabuk tropis seluruh dunia. Buah ini mengandung enzim bromelain yang membantu proses pencernaan.
+  fruit.plum:
+    label: blue plum
+    summary: Purple rounded fruit used for jam-making
+    info: '{"hint":"Buah kecil berbentuk lonjong ungu dari spesies Prunus domestica","info":{"label":"plum","summary":"Plums are small round fruits that grow on trees and have many uses including making jams and brandy."}}'
+  fruit.pomegranate:
+    label: buahan delima
+    summary: Buah merah pohon dengan ribuan bijinya manis; simbol kesuburan.
+    info: '{"hint":"buah merah berbiji banyak dengan mahkota","info":"Buah delima (Punica granatum) berasal dari Asia Tengah dan Mediterania\nMengandung lebih dari 600 biji dalam daging buah transparan yang disebut arilnya\.\nPenuh akan antioksidant; penelitian mengamati pengaruhnya pada hati serta peradangan\\"}'
+  fruit.quince:
+    label: Quince / Kudul
+    summary: buah keras warna coklat tua mirip apel; dikonsumsi setelah melalui proses panas
+    info: |-
+      {"hint":"Buah aromatik keras berwarna kuning (Cydonia oblonga)","info":"Aprikot liar (quince dalam bahasa Indonesia sering disebut sebagai buah kudul atau quinces) adalah kerabat dari apel dan pir;
+      ya mentah memiliki tekstur yang sangat keras serta agak pahit.
+
+      Biasanya diproses secara termal seperti membuat selai kudul (menggunakan nama lokal 'Membrillo'), minuman anggur dari kudul,
+      ataupun arak dari ekstraksi bahan tersebut.
+      Biji ini mengandung banyakpektin sehingga cocok untuk pembuatan produk-produk pengawetan seperti selai.
+      Pada abad ke-16 di Eropa tercatat bahwa jenis makanan awetan pertama dibuat dengan menggunakan buah-buahan ini."}
+  fruit.rambutan:
+    label: salak
+    summary: Buah hias tropika coklat atau merah dengan tekstur serupa liked.
+    info: Salak merah berasal dari Malaysia dan namanya diambil dari kata Melayu 'rambut' yang berarti rambut karena kulitnya penuh dengan bulir-bulir halus seperti kait kecil. Daging buah ini transparan serta manis mirip liked. Buah ini juga mengandung vitamin C dan besi dalam jumlah tinggi.
+  fruit.raspberry:
+    label: strawberry
+    summary: '"Buah strawberry merupakan simbol kemewahan bagi para pecinta alam"'
+    info: |-
+      {"hint":"buah merah kecil yang terdiri dari banyak buahan biji berair","info":"Strawberry atau stroberi adalah jenis buah komposit yang tersusun atas beberapa bagian kecil bernama druplet.
+      Buah ini bisa hidup liar maupun dibudidayakan;
+      sedangkan panennya biasanya dilakukan di musim panas dan gugur.
+      Stroberi kaya akan vitamin C serta antioksidan lainnya seperti vitamin E,
+      mangan,dll."}
+  fruit.starfruit:
+    label: Cambolla
+    summary: Buah tropika berwarna kuning yang menghasilkan bentuk bintang ketika dikupas.
+    info: '{"hint":"buah berwarna kuning yang bentuknya bintang dari daerah tropis","info":{"label":"cambolla","summary":"Buah tropik berwarna kuning membentuk pola seperti bintang saat dipotong secara melintas.","detail":{}}}'
   fruit.strawberry:
     label: strawberry
     summary: Red juicy fruit shaped like a heart.
     info: Strawberries are popular fruits from the rose family. They are rich in vitamin C and antioxidants; they are harvested in summer and have a sweet fragrance.
+  fruit.tamarind:
+    label: asam jawa
+    summary: Buah polong-polongan warna coklat dengan isi masam
+    info: '{"hint":"buah coklat dengan isian masam yang menyenangkan","info":"Asam Jawa berasal dari Afrika Tropis dan saat ini dibudidayakan di seluruh dunia beriklim tropis. Daging buahnya sangat masam dan manis serta digunakan dalam hidangan seperti pad thai, saus Worcestershire, maupun chutney India."}'
+  fruit.tangerine:
+    label: pepaya mandarin
+    summary: buah citron berkulit tipis dengan rasa manis ; Simbol natal.
+    info: |-
+      {"hint":"orange manis kulit longgar yang kecil (Citrus retikulata)","info":"Pepaya mandarin atau Citrus reticulata adalah buah sitrun kecil dan mudah dikupas berasal dari Tiongkok.
+      Buah ini menjadi simbol tahun baru cina serta kemakmuran
+      Di Republik Ceska merupakan makanan khas Natal,
+      mengandung vitamin-C antioksidan juga flavonoid","label":"pepaya mandarin","summary":"buah citron berkulit tipis dengan rasa manis ; Simbol natal."}
   fruit.watermelon:
     label: semangka
     summary: Buah besar berbentuk bulat dengan daging merah yang juicy.

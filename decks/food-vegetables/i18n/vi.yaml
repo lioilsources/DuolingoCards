@@ -2,14 +2,69 @@ lang: vi
 pivot: false
 title: Rau xanh
 cards:
+  veg.artichoke:
+    label: bông cải
+    summary: Một loại rau xanh giống cúc dại với lá nhọn dài.
+    info: Bông cải nghệ tây là chồi non của một cây thân gai to lớn có tên khoa học là Cynara carduncculus. Người ta ăn phần tim và các cơ sở dày đặc ở dưới những cánh hoa này. Bông cải cũng được sử dụng để tạo hương vị cho đồ uống như rượu Vermouth Cinzano hoặc Cynar nhờ vào chiết xuất từ bắp chuối.
+  veg.arugula:
+    label: xà lách đắng
+    summary: Loại lá xanh đậm dùng làm món tráng miệng với hương vị độc đáo.
+    info: Xà lách đắng Rucola có nguồn gốc từ Địa Trung Hải và sở hữu vị cay nồng đặc trưng nhờ hợp chất glucosinolate. Đây là một thành phần quan trọng trong nền ẩm thực Ý thường được thêm vào pizza khi đã hoàn tất quá trình nướng.
+  veg.asparagus:
+    label: cải
+    summary: Màu non vào đầu mùa thu hoạch – đây cũng chính là món ăn đặc sản của Đức.
+    info: Cải mầm trắng là một trong những loại rau mùa xuân đắt giá nhất và được trồng mà không cần ánh nắng mặt trời nên có vị mềm mại hơn cải xanh thông thường.
+  veg.bamboo_shoot:
+    label: vỏ măng tre
+    summary: Chồi trẻ từ thân trúc; rau mềm thường dùng ở châu Á.
+    info: Vỏ măng tre là những chồi non của cây tre được thu hoạch sớm sau khi chúng nhú lên khỏi đất. Đây là nguyên liệu cơ bản trong nền ẩm thực Trung Quốc, Nhật Bản và Thái Lan.
+  veg.beet:
+    label: bệ tím
+    summary: Một loại củ hình tròn có màu nâu sẫm dùng làm thực phẩm cũng như chất tạo mầu.
+    info: Bèo đỏ chứa beta-xian, một sắc tố tự nhiên màu đỏ đậm. Nó giàu nitrat giúp tăng hiệu suất thể thao và giảm huyết áp. Mía đường là giống khác của cây bẹt thuộc loài Beta vulgaris – nguồn gốc chính của đường trắng.
+  veg.bok_choy:
+    label: bắp chuối
+    summary: Loại cây ăn lá với thân trắng mọc ở khu vực Đông Nam Á.
+    info: Bắp chuối/Bồ ngư thảo là một loại rau lá xanh có nguồn gốc từ Trung Quốc và được sử dụng phổ biến trong nền ẩm thực của nhiều quốc gia châu Á như Nhật Bản hay Thái Lan nhờ vào hương vị đặc trưng cũng như giá trị dinh dưỡng cao mà nó mang lại.
   veg.broccoli:
     label: bông cải xanh
     summary: Loại rau xanh có đầu hoa dày đặc trên thân to.
     info: Bông cải xanh là một loại rau thuộc họ bắp cải. Nó chứa rất nhiều vitamin C, K và chất chống oxy hóa; nguồn gốc từ Ý.
+  veg.cabbage:
+    label: bắp cải
+    summary: Loại củ dạng đầu bông gồm nhiều lớp lá dày đặc.
+    info: Bắp cải (Brassica oleracea) là một loại rau lá xanh có hình tròn với các lá xếp chặt lại đã được trồng ở châu Âu hàng nghìn năm trước đây và vẫn phổ biến cho đến ngày này nhờ vào hàm lượng vitamin cao như Vitamin C hay Vitamin K cùng những hợp chất glucosinolate giúp chống ung thư hiệu quả.
   veg.carrot:
     label: cà rốt
     summary: Cây củ quả có vị ngọt màu cam.
     info: Cà rốt là một loại cây hai năm được trồng vì củ giòn và màu cam sặc sỡ của nó. Nó giàu beta-carotene (tiền vitamin A) và chất xơ.
+  veg.cauliflower:
+    label: cải bắp
+    summary: Một loài cây Brassicaceae được sử dụng như gia vị trong nhiều nền văn hóa.
+    info: Cải bắp tím (Brassica oleracea var. botrytis) là một loại thân thuộc với súp lơ xanh và trắng. Màu sắc của cải có thể thay đổi từ màu vàng đến nâu hoặc đen tùy vào điều kiện trồng trọt.
+  veg.celeriac:
+    label: cần tây bulbous
+    summary: Gốc trắng lớn hình cục gạch thuộc về cần tây.
+    info: Củ cần tây Bulbous là một giống của cây cần tây được trồng chủ yếu vì củ to và thơm đặc trưng. Nó có mùi vị đậm đà như hương liệu tiêu biểu cho loại rau này. Cây thường dùng để nấu súp, làm món salad remoulade hoặc các bữa ăn chiên.
+  veg.celery:
+    label: rau mùi tây xoắn
+    summary: Loại cây xà lách giòn với hương thơm đặc trưng
+    info: |-
+      Rau mùi tây xoắn (Apium graveolenes) có nguồn gốc từ Địa Trung Hải
+      Người ta cho rằng việc tiêu hóa rau này tốn nhiều calo hơn lượng mà nó mang lại nhưng điều đó chưa được chứng minh thực tế nào xác nhận
+      Nó là thành phần cơ bản trong ba loại gia vị của nền ẩm thực Pháp gọi chung là 'mirpoux' gồm hành củ, cà rốt và rau mùi
+  veg.chard:
+    label: rau máu
+    summary: Loại rau lá to lớn đầy màu sắc với cuống đa dạng.
+    info: Rau máu non tía Beta vulgaris subspecies cicla là một loài họ với củ cải đỏ. Nó có thân màu xanh lá cây, đỏ, vàng hoặc nhiều sắc như cầu vòng và giàu vitamin nhóm K, A cùng các khoáng chất thiết yếu như kali hay magiê.
+  veg.chickpeas:
+    label: đậu gà tây
+    summary: Hạt đậu hình tròn màu be nhạt thường thấy trong các món như Hummus hoặc Falafel.
+    info: "Đậu gà tây (Cicer arietinum) là một loại đậu phổ biến ở Trung Đông và Ấn Độ.\nNó được dùng làm nguyên liệu chính để chế tạo món Hummus (pate từ đậu gà tây) và Falafel (những viên chiên). \nLoại hạt này giàu đạm thực vật nên rất thích hợp với người ăn chay thuần hay ăn kiêng không sử dụng thịt động vật."
+  veg.chili:
+    label: chili
+    summary: Một loại giấy đỏ tươi hoặc xanh lá cây thường được sử dụng trong nhiều nền văn hóa nấu nướng như Ấn Độ.
+    info: Ớt cayenne hoặc Capsicum annuum là một giống ớt rất nóng và có chứa capsaicin - chất gây cảm giác bỏng rát khi ăn vào miệng người hay động vật nhai lại nhưng không ảnh hưởng đến chim vì chúng giúp phát tán hạt qua phân của các loài này.
   veg.corn:
     label: ngô
     summary: Cây cỏ cao có các hạt vàng xếp thành hàng trên bông.
@@ -18,18 +73,85 @@ cards:
     label: dưa chuột
     summary: Một loại rau xanh dài có thịt giòn mát.
     info: Dưa chuột là một loại thực phẩm nhiệt đới thuộc họ bầu bí. Nó chứa khoảng 95% nước và thường được dùng làm món tráng miệng hoặc trong các món salad.
+  veg.eggplant:
+    label: '"eggplant"'
+    summary: Một loài cây có lá to với quả hình bầu dục thường sử dụng làm nguyên liệu cho nhiều công thức nấu nướng truyền thống.
+    info: '{"hint":"cây rau dài màu tím sẫm thuộc họ cà chua biếc","info": "Cà dái ngựa Ấn Độ đã được trồng hàng nghìn năm ở châu Á và Trung Đông.\nỞ Ý gọi là melanzana, Pháp gọi là aubergine còn Mỹ thì dùng tên eggplant.\nChứa chất anthocyan - một loại chống oxy hóa mạnh trong lớp vỏ ngoài đậm đặc này.\nRất phổ biến trong các món ăn Địa trung hải như Moussaka hay Baba Ganoush."}'
+  veg.endive:
+    label: xà lách
+    summary: Món ăn nhẹ làm nền cho món trộn.
+    info: '{"hint":"rau lái nhạt có vị đắng; họ bồ công anh","info":"Rau xà lách trắng (hoặc rau witloof thuộc chi Cichorium hoặc C. endivia) là một loại thực phẩm với hương vị đặc trưng hơi cay nồng và tính chất độc đáo của nó đến từ các axit intybolic. Màu sắc sáng được tạo ra bằng cách trồng trong bóng tối (râu bò), hay dưới ánh nắng mặt trời trực tiếp như ở Belgiê. Vị đắng này giảm đi khi nấu mềm hơn qua phương pháp blanching. Rau witloof Belga - còn gọi là ''spring salad'' phổ biến tại Pháp cũng như nước Bỉ."}'
+  veg.fennel:
+    label: thì là
+    summary: Một loại hành tím với những cuống lá mọc tỏa ra hình quạt cùng hương thơm dịu nhẹ.
+    info: |-
+      Cây thì là hoa vàng có vị ngọt giống mùi tây nhờ chất anethol trong thành phần hóa học của nó
+      Người ta ăn củ trắng cũng như thân và lá dạng lông chim màu xanh đậm,
+      cũng được sử dụng làm gia vị cơ bản cho các món nấu kiểu Địa Trung Hải ở Ý – đặc biệt phổ biến khi chế biến sốt pesto hoặc cá nướng.
   veg.garlic:
     label: tỏi
     summary: Củ trắng cay nồng có mùi đặc trưng, là nền tảng tạo vị cho nhiều món ăn.
     info: Tỏi đã được sử dụng trong nhà bếp suốt hàng nghìn năm vừa như gia vị vừa như thuốc. Nó chứa hoạt chất allicin có tính kháng khuẩn và chống viêm.
+  veg.ginger:
+    label: gừng
+    summary: Rễ màu be dạng củ dùng làm gia vị.
+    info: Gừng vàng là rễ của một loài cây có nguồn gốc từ châu Á nhiệt đới và chứa chất gingerol – hợp chất chịu trách nhiệm cho vị cay nồng cũng như tính kháng viêm hiệu quả cao trong việc giảm nghén hoặc buồn nôn do dạ dày.
+  veg.green_beans:
+    label: đậu Fava
+    summary: Quả đậu xanh dài không phải đợi đến lúc già mới hái.
+    info: '{"hint":"các quả đậu xanh dài và thon Phaseolus vulgaris","info":"Các hạt đậu fava chưa chín được thu hoạch sớm để làm rau ăn tươi hoặc nấu canh. Chúng còn có tên gọi khác là đậu Pháp hay đậu que. Loại này chứa vitamin C, K cùng với axít folic. Một món truyền thống của Mỹ thường dùng chúng kết hợp cùng phô mai Parmesan sau khi đã luộc sơ qua nước nóng."}'
+  veg.kale:
+    label: bông cải
+    summary: Màu tím thẫm với cuống lá xoăn lại tạo nên hình dạng đặc trưng như bông sen.
+    info: Bông cải xanh nhung (Brassica oleracea var. sabellika) là một loại thực phẩm giàu dinh dưỡng có màu lá tối đậm. Nó chứa nhiều vitamin K, A và chất chống oxy hóa cùng các kháng thể tự nhiên khác. Trong những năm 2010 trở thành biểu tượng của siêu thức ăn cho người thuần chay hoặc phong trào sức khỏe.
+  veg.kohlrabi:
+    label: Rabarber
+    summary: Loại cây trồng với củ to trên cuống ngắn thuộc chi Brassica.
+    info: Cải bắp tím (Brassica oleracea gongylodes) là một loại rau họ cải giống như su hào nhưng có củ hình tròn màu xanh lam-xám được ăn cả thân và lá. Nó mang vị ngọt giòn nhẹ nhàng khi dùng sống hoặc nấu chín.
+  veg.leek:
+    label: bắp chuối
+    summary: Một loài rau củ có vị ngọt nhẹ thường được dùng làm nguyên liệu nấu sуп hoặc sốt.
+    info: Bắp chuối tây (Allium ampeloprasum) là một loại thực vật thuộc họ hành và tỏi. Đây cũng là biểu tượng quốc gia của xứ Wales; người Welsh mang nó vào ngày lễ thánh David.
+  veg.lentils:
+    label: '"đậu"'
+    summary: '"Hạt đậu phẳng dùng làm nguyên liệu bổ sung dinh dưỡng vào chế độ ăn không thịt"'
+    info: '{"hint":"những hạt đậu phẳng nhỏ hình đĩa","info":"Đậu xanh (Lens Culinary) là một trong những loại cây họ Đậu lâu đời nhất được trồng cách đây khoảng mười nghìn năm. Có các giống màu đỏ, xanh lá và đen như beluga. Không cần ngâm vẫn có thể nấu chín sau từ hai mươi đến ba mươi phút – nhanh hơn cả đậu hà lan. Đây cũng chính là nguồn cung cấp chất đạm chủ yếu cho nền ẩm thực Ấn Độ mà người ta gọi tắt thành dal hay dhal."}'
+  veg.lettuce:
+    label: salat đầu bông
+    summary: Rau xà lách giòn tan thường dùng làm cơ sở cho các món trộn.
+    info: Salat đầu bông (Latua sativa) đã được trồng từ thời cổ đại ở Ai Cập và chứa hơn 95% nước nên là một loại rau ít calo. Loại này có nhiều giống như iceberg, romaine, lollo, butterhead hoặc lá sồi.
+  veg.lotus_root:
+    label: cây củ sen
+    summary: Một món ăn truyền thống châu Á với cấu trúc độc đáo từ những khoan nhỏ trên bề mặt.
+    info: Củ sen là thân rễ của cây sen thiêng liếng thuộc loài Nelumbo nucifera mọc dưới lòng đất và có các lỗ đối xứng lộ ra khi cắt ngang mặt phẳng dọc trung tâm tạo thành một mô hình đặc trưng cho nó. Đây cũng chính yếu tố cơ bản trong nền văn hóa nấu ăn Á Đông như Trung Quốc hay Ấn Độ.
   veg.mushroom:
     label: nấm
     summary: Nấm màu xám-xanh có mũ và cuống được sử dụng trong nấu ăn.
     info: Agaricus bisporus là loại nấm trồng phổ biến nhất trên thế giới. Giàu protein, vitamin B và khoáng chất; được dùng trong vô số món ăn.
+  veg.okra:
+    label: cà cuống
+    summary: Quả dài màu xanh vân sóng có bề mặt nhẵn bóng dùng để nấu canh.
+    info: |-
+      Cà cuống (Abelmoschus esculentus) có nguồn gốc từ châu Phi nhiệt đới
+      Là thành phần chính trong món ăn Mỹ gọi là gumbo với kết cấu trơn mịn giúp làm đặc nước sốt;
+      cắt ngang cà cuống sẽ thấy hình sao,
+      nó giàu chất xơ và vitamin C, K cùng axit folic.
   veg.onion:
     label: hành
     summary: Loại củ hành có lớp mỏng và tính cay nóng dùng để nêm gia vị cho món ăn.
     info: Hành tây là một trong những loại rau xanh được trồng nhiều nhất trên thế giới. Nó được sử dụng rộng rãi khắp nơi để tăng hương vị cho các món ăn; đồng thời chứa các hợp chất flavonoid có tác dụng kháng khuẩn.
+  veg.parsley:
+    label: rau mùi
+    summary: Cây thảo màu xanh sáng; vừa làm đồ trang trí trong bữa ăn cũng như nguyên liệu tạo hương thơm.
+    info: Rau mùi tây (Petroselinum crispum) thường được sử dụng như gia vị và trang trí món ăn. Nó chứa nhiều vitamin C hơn cam (tính theo trọng lượng). Có hai loại chính là lá phẳng hoặc cuộn sóng; các đầu bếp ưu tiên dùng rau có lá phẳng vì hương vị đậm đà hơn.
+  veg.parsnip:
+    label: parsnip
+    summary: Rễ màu kem nhạt với hình dạng thon dần ra hai đầu.
+    info: Parsnip là một loại rau củ có thân trắng dài thuộc họ cà rốt và liên quan đến khoai lang vàng. Đây từng là thực phẩm cơ bản của châu Âu trước khi ngô xuất hiện rộng rãi hơn trong bữa ăn hàng ngày ở khu vực này.
+  veg.peas:
+    label: đậu
+    summary: Những hạt nhỏ tròn màu xanh bên trong quả bao tử.
+    info: Đậu xanh là một loại đậu đã được trồng từ thời cổ đại. Gregor Mendel nghiên cứu về đậu trong các thí nghiệm di truyền của ông vào giai đoạn năm 1856–1863.
   veg.pepper:
     label: ớt chuông
     summary: Một loại rau màu sắc bóng bẩy có vị ngọt hoặc cay.
@@ -38,7 +160,69 @@ cards:
     label: khoai tây
     summary: Củ nâu là nguyên liệu cơ bản của nhiều món ăn trên toàn thế giới.
     info: Khoai tây có nguồn gốc từ dãy núi Anđê ở Nam Mỹ và là một trong những cây trồng quan trọng nhất thế giới. Đây là nguồn cung cấp tinh bột, vitamin C và kali.
+  veg.pumpkin:
+    label: bơng
+    summary: Một củ quả tròn to màu cam thường được dùng vào dịp lễ hội mùa thu.
+    info: Bơng bí ngô đỏ lớn có nguồn gốc từ châu Mỹ và giàu carotene-beta cũng như vitamin A & C của nó. Truyền thống chạm khắc Halloween bắt đầu ở Ireland với việc sử dụng bông để làm đèn lồng Jack-O'. Những hạt giống bên trong là một lựa chọn tuyệt vời cho khoáng chất kẽm, magiê cùng các loại đạm thực vật.
+  veg.radish:
+    label: cà
+    summary: Loại quả mọng nhỏ với vỏ mềm bên ngoài.
+    info: Cà ráu đỏ là loại củ nhanh lớn và có màu hồng hoặc trắng tùy vào giống cây trồng như cà tím hay cà chua vàng.
+  veg.spinach:
+    label: rau chân vịt
+    summary: Loại cải lá xanh đậm chứa nhiều chất sắt.
+    info: Rau chân vịt có nguồn gốc từ Iran thời Trung cổ và giàu vitamin như K, A, C cùng với axit folic và sắt. Từ những năm 1930 nhân vật Popeye đã giúp rau này trở thành thực phẩm bổ dưỡng cho trẻ em qua các truyện tranh.
+  veg.spring_onion:
+    label: củ cải trắng
+    summary: Cây củ cải với thân màu vàng đậm ở dưới đất.
+    info: Hành xanh mùa xuân được thu hoạch khi chưa chín hoàn toàn và có vị nhẹ nhàng hơn hành thường. Nó phổ biến trong nền ẩm thực Á Đông như nguyên liệu trang trí hoặc nấu cùng salad cũng như các món canh.
+  veg.squash:
+    label: dưa
+    summary: Loại quả bầu dục mùa thu đông khác nhau về hình dáng
+    info: '{"hint":"cà chua mùa đông hình dạng đa dạng","info":"Dưa máng mùa đông (Cucurbita) bao gồm các giống như dừa vàng butternut, hạt óc chó, Delicata và Kabocha.\nNó tạo ra lớp vỏ cứng bảo vệ trong nhiều tháng có thể được lưu trữ suốt cả mùa đông.\nGiàu vitamin A, C và nhóm B.\nQuan trọng đối với người da đỏ ở hệ thống Ba chị em (lúa ngô - đậu nành - cà)."}'
+  veg.swede:
+    label: củ tuřín
+    summary: Loại rau củ tròn màu tím-vàng lớn thường dùng kèm với các món đặc sản của Scotland.
+    info: Củ tuřín (Brassica napus) là sự lai giữa bắp cải và củ cải đường. Tại Mỹ nó được gọi là rutabaga còn ở Scotland thì không thể thiếu trong món ăn truyền thống như haggis. Sau khi nấu chín, nó có vị ngọt nhẹ nhàng.
+  veg.sweet_potato:
+    label: củ dền đỏ
+    summary: Cây rau màu thuộc họ Dền
+    info: "Khoai lang (danh pháp khoa học là Ipomeea batatas), có nguồn gốc từ Nam Mỹ và không liên quan về mặt thực vật với khoai tây thông thường\nNó giàu carotene-beta, vitamin A & C cùng chất xơ \nMàu cam của thịt củ do hàm lượng cao Beta-carote"
+  veg.taro:
+    label: Tarot
+    summary: Quả lớn có hoa văn đỏ đậm ; thức ăn chủ yếu ở môi trường sống nhiệt đới .
+    info: |-
+      {"hint":"Củ to có đốm tía chứa chất bột mì (Colocasia esculenta)","info":"Khoai lang dại hay còn gọi là Taro (Colocasia esculenta), một loại củ nhiệt đới đã được trồng từ hơn nghìn năm trước đây.
+      Nó đóng vai trò như thực phẩm chính ở các khu vực châu Á và Thái Bình Dương;
+      Poi Hawaii làm bằng khoai lang lên men
+      Vị của nó hơi giống hạt óc chó,
+      và những chấm màu tím trong ruột củ cũng là biểu tượng thị giác cho cây này.
+      Loài này chưa nấu sẽ gây cảm giác nóng rát do axit oxalic nên cần phải luộc kỹ","label":"tarot","summary":"Cây ăn quả lớn với nhiều đường nét hình học đỏ thẫm; nguồn dinh dưỡng cơ bản tại vùng khí hậu ôn hòa."}
   veg.tomato:
     label: cà chua
     summary: Quả tròn đỏ được sử dụng như rau.
     info: Cà chua về mặt thực vật là một loại quả (quả mọng), nhưng trong nấu ăn thì lại được dùng như rau. Loài này có nguồn gốc từ Nam Mỹ và chứa lycopene cùng vitamin C.
+  veg.turnip:
+    label: củ cải tím
+    summary: Một loài cây thân thảo với lá mọc thành rosette.
+    info: |-
+      Củ cải tím (Raphanus sativus) là một loại củ có màu trắng và tía thuộc họ Brassicaceae liên quan đến cà rốt.
+      Nó từng là thực phẩm cơ bản ở châu Âu trước khi khoai tây du nhập từ Bắc Mỹ.
+      Loại này chứa vitamin C, canxi và chất xơ;
+      như thịt chay thay thế trong bữa ăn.
+  veg.watercress:
+    label: Rau húng quế
+    summary: Loài cây nhỏ màu xanh thẫm với đặc tính gây cảm giác châm chích từ dòng chảy.
+    info: '{"hint":"cây gia vị nước xanh đậm có mùi cay nóng","info":"Cải xoong (Nasturtium officinale) mọc ở các con suối và mạch nước lạnh.\NCó hương vị nồng nhiệt như tiêu nhờ chất glycoside gọi là sinigrine.\NRich vitamin C, K và betacaroteno.\NTại Anh đây được dùng làm món sốt truyền thống cho bánh sandwich còn tại Pháp thì nấu thành súp cải xoong."}'
+  veg.yam:
+    label: khoai lang
+    summary: Cây thân leo thuộc họ Khoai môn.
+    info: Khoai lang (dạng Dioscorea) là một củ giàu tinh bột lớn của các khu vực nhiệt đới châu Phi, Á và Caribe. Nó khác với khoai mỡ ở chỗ khoai lang khô hơn, nhiều tinh bột hơn và ít ngọt hơn. Củ có thể nặng tới 70kg.
+  veg.zucchini:
+    label: mướp
+    summary: Quả bầu dục màu xanh dùng đa dạng để nấu hoặc nướng.
+    info: |-
+      {"hint":"mướp xanh dài mùa hè (Cucurbita pepo), còn gọi là mướp","info":"Mướp non (Cucurbita pepo) là loại quả bầu dục thu hoạch khi chưa chín hoàn toàn có chiều dài từ 7 đến 25cm.\r
+      Nó xuất xứ từ Mexico và được Ý phổ biến rộng rãi tại châu Âu.\r
+      Chứa hơn 90% nước nên năng lượng thấp.\r
+      Đang được nghiên cứu như một thay thế cho sợi pasta trong chế độ ăn không chứa gluten."}

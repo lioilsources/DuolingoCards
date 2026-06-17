@@ -425,6 +425,591 @@
         "vi": "Sói hoang là loài săn mồi thuộc họ chó lớn nhất và là tổ tiên của chó nhà. Nó sống và săn mồi theo đàn với cấu trúc xã hội rõ ràng và giao tiếp bằng tiếng hú để đánh dấu lãnh thổ và tập hợp đàn.",
         "zh-CN": "灰狼是最大的野生犬科动物，也是家犬的祖先。它们以群体形式生活和捕猎，具有严格的社交等级制度，并通过嚎叫来标记领地和召集群体。"
       }
+    },
+    {
+      "key": "animal.bear",
+      "image": "animal.bear.png",
+      "label": {
+        "cs": "medvěd"
+      },
+      "summary": {
+        "cs": "Velký všežravý savec s hustou srstí, symbol síly přírody."
+      },
+      "info": {
+        "cs": "Medvěd hnědý je největší suchozemská šelma Evropy a Asie, dosahující hmotnosti až 700 kg.\nJe všežravý a živí se rybami, bobulemi, medem i drobnými savci.\nNa zimu upadá do zimního spánku, během něhož samice rodí mláďata.\nV české hovorové řeči je symbolem síly a pohodlí.\n"
+      }
+    },
+    {
+      "key": "animal.tiger",
+      "image": "animal.tiger.png",
+      "label": {
+        "cs": "tygr"
+      },
+      "summary": {
+        "cs": "Největší kočkovitá šelma světa s oranžovým pruhovým vzorem."
+      },
+      "info": {
+        "cs": "Tygr bengálský je největší volně žijící kočkovitá šelma.\nKaždý jedinec má jedinečný vzor pruhů, podobně jako lidský otisk prstu.\nNa rozdíl od lvů je tygr samotář a výborný plavec.\nJe kriticky ohrožen – ve volné přírodě jich žije méně než čtyři tisíce.\n"
+      }
+    },
+    {
+      "key": "animal.hippopotamus",
+      "image": "animal.hippopotamus.png",
+      "label": {
+        "cs": "hroch"
+      },
+      "summary": {
+        "cs": "Velký polo vodní savec z Afriky s obrovskými čelistmi."
+      },
+      "info": {
+        "cs": "Hroch obojživelný je třetí největší suchozemský savec po slonovi a nosorožci.\nPřes den odpočívá ve vodě, která ho chrání před přehřátím; v noci se pasí na souši.\nKůže vylučuje červenou tekutinu sloužící jako přirozený sluneční krém a antibiotikum.\nNavzdory zdání je hroch velmi nebezpečný a rychlý.\n"
+      }
+    },
+    {
+      "key": "animal.rhinoceros",
+      "image": "animal.rhinoceros.png",
+      "label": {
+        "cs": "nosorožec"
+      },
+      "summary": {
+        "cs": "Mohutný savec s jedním nebo dvěma rohy na nose."
+      },
+      "info": {
+        "cs": "Nosorožec bílý je druhým největším suchozemským savcem po slonovi.\nJeho roh není z kosti, ale z keratinu, stejné látky jako lidské nehty.\nNosorožci jsou vážně ohroženi pytláctvím kvůli mylné víře v léčivé vlastnosti rohu.\nVe volné přírodě žijí dva druhy v Africe a tři v Asii.\n"
+      }
+    },
+    {
+      "key": "animal.gorilla",
+      "image": "animal.gorilla.png",
+      "label": {
+        "cs": "gorila"
+      },
+      "summary": {
+        "cs": "Největší primát na Zemi, velká opice z rovníkové Afriky."
+      },
+      "info": {
+        "cs": "Gorila je největší primát; dospělý samec (stříbrohřbetec) může vážit až 200 kg.\nGorily jsou převážně býložravé a živí se listy, výhonky a ovocem.\nKomunikují zvuky, mimikou i tlučením do hrudi.\nJsou naši nejbližší příbuzní spolu se šimpanzi a sdílíme s nimi přes 98 % DNA.\n"
+      }
+    },
+    {
+      "key": "animal.chimpanzee",
+      "image": "animal.chimpanzee.png",
+      "label": {
+        "cs": "šimpanz"
+      },
+      "summary": {
+        "cs": "Inteligentní opice, nejbližší živočišný příbuzný člověka."
+      },
+      "info": {
+        "cs": "Šimpanz obecný je společně s bonobem naším nejbližším živočišným příbuzným a sdílíme s ním asi 98,7 % DNA.\nŠimpanzi používají nástroje, například větvičky na lovení termitů, a umí se naučit základy znakového jazyka.\nPřenášejí kulturní zvyky v rámci skupin a žijí ve složitých sociálních hierarchiích.\n"
+      }
+    },
+    {
+      "key": "animal.kangaroo",
+      "image": "animal.kangaroo.png",
+      "label": {
+        "cs": "klokan"
+      },
+      "summary": {
+        "cs": "Velký australský vačnatec skákající na silných zadních nohách."
+      },
+      "info": {
+        "cs": "Klokan rudý je největší australský vačnatec a nejvyšší skákající zvíře na světě, dokáže skočit přes devět metrů daleko.\nSamice nosí mláďata (joey) v břišním vaku po dobu asi šesti měsíců.\nKlokan je ikonickým symbolem Austrálie a vyobrazuje se i na australském státním znaku.\n"
+      }
+    },
+    {
+      "key": "animal.koala",
+      "image": "animal.koala.png",
+      "label": {
+        "cs": "koala"
+      },
+      "summary": {
+        "cs": "Australský vačnatec žijící na eukalyptových stromech."
+      },
+      "info": {
+        "cs": "Koala není medvěd, ale vačnatec.\nŽiví se téměř výhradně listy eukalyptu, které jsou pro většinu živočichů jedovaté; koala má speciální trávicí systém.\nSpí až 22 hodin denně, protože listy eukalyptu mají nízkou výživnou hodnotu.\nJe chráněna australskými zákony.\n"
+      }
+    },
+    {
+      "key": "animal.giant_panda",
+      "image": "animal.giant_panda.png",
+      "label": {
+        "cs": "panda velká"
+      },
+      "summary": {
+        "cs": "Černobílý medvěd z Číny živící se výhradně bambusem."
+      },
+      "info": {
+        "cs": "Panda velká je endemit jihozápadní Číny a celosvětový symbol ochrany přírody.\nPřes 99 % její stravy tvoří bambus, ačkoli anatomicky jde o masožravce.\nMá šestý prst, zbytnělou kost zápěstí, který slouží jako palec při uchopování bambusových stonků.\nNa světě žije jen asi 1 800 divokých pand.\n"
+      }
+    },
+    {
+      "key": "animal.cheetah",
+      "image": "animal.cheetah.png",
+      "label": {
+        "cs": "gepard"
+      },
+      "summary": {
+        "cs": "Nejrychlejší suchozemské zvíře, dosahující přes 110 km/h."
+      },
+      "info": {
+        "cs": "Gepard je nejrychlejší suchozemský živočich a za tři vteřiny zrychlí z nuly na 100 km/h.\nNa rozdíl od ostatních velkých koček nemůže vrčet, ale místo toho vrní.\nJeho štíhlé tělo a nezatažitelné drápy jsou adaptacemi pro rychlost, nikoli sílu.\nPo krátkém sprintu musí odpočívat, aby vychladl.\n"
+      }
+    },
+    {
+      "key": "animal.leopard",
+      "image": "animal.leopard.png",
+      "label": {
+        "cs": "leopard"
+      },
+      "summary": {
+        "cs": "Velká kočkovitá šelma se skvrnitou srstí, výborná šplhačka."
+      },
+      "info": {
+        "cs": "Leopard je nejrozšířenější velká kočkovitá šelma a výjimečný šplhač, který přenáší kořist do korun stromů, aby ji ochránil před hyenami a lvy.\nPřizpůsobivostí překonává ostatní velké kočky a žije v Africe, na Blízkém i Dálném východě.\nMelanistická forma se nazývá černý panter.\n"
+      }
+    },
+    {
+      "key": "animal.jaguar",
+      "image": "animal.jaguar.png",
+      "label": {
+        "cs": "jaguár"
+      },
+      "summary": {
+        "cs": "Největší kočkovitá šelma Ameriky s rozetovými skvrnami."
+      },
+      "info": {
+        "cs": "Jaguár je třetí největší kočkovitá šelma světa a jediná velká kočka obou Amerik.\nNa rozdíl od levharta má na rozetových skvrnách drobné tečky uvnitř.\nJe výborný plavec a rybář a loví ryby, krokodýly i kapybary.\nV kultuře Mayů a Aztéků byl posvátným symbolem síly a královské moci.\n"
+      }
+    },
+    {
+      "key": "animal.hyena",
+      "image": "animal.hyena.png",
+      "label": {
+        "cs": "hyena"
+      },
+      "summary": {
+        "cs": "Skvrnitý predátor a mrchožrout afrických savan."
+      },
+      "info": {
+        "cs": "Hyena skvrnitá je největší člen čeledi hyenovitých a navzdory pověsti není primárně mrchožrout, přes 60 % potravy si sama uloví.\nSamice jsou dominantní a větší než samci.\nJejí smích je ve skutečnosti zvuk vzrušení nebo strachu, nikoli projev veselosti.\n"
+      }
+    },
+    {
+      "key": "animal.buffalo",
+      "image": "animal.buffalo.png",
+      "label": {
+        "cs": "buvol africký"
+      },
+      "summary": {
+        "cs": "Velký africký bovid žijící ve stádech, jeden z Velké pětky."
+      },
+      "info": {
+        "cs": "Buvol africký je jeden z nejnebezpečnějších savců Afriky a součást takzvané Velké pětky.\nŽije ve stádech čítajících stovky až tisíce jedinců a je schopen zahnat i lvy společnou obranou.\nStaří samci žijící mimo stádo jsou zvláště nepředvídatelní a agresivní.\n"
+      }
+    },
+    {
+      "key": "animal.bison",
+      "image": "animal.bison.png",
+      "label": {
+        "cs": "bizon"
+      },
+      "summary": {
+        "cs": "Velký severoamerický bovid s typickou chlupatou hřívou."
+      },
+      "info": {
+        "cs": "Bizon americký je nejtěžší suchozemský živočich Severní Ameriky.\nV 19. století byl téměř vyhuben; z odhadovaných 30 až 60 milionů kusů jich zbylo méně než tisíc.\nDíky ochranným programům se počty obnovily na přibližně 500 000 kusů.\nJe symbolem amerického Divokého západu a národním zvířetem USA.\n"
+      }
+    },
+    {
+      "key": "animal.moose",
+      "image": "animal.moose.png",
+      "label": {
+        "cs": "los"
+      },
+      "summary": {
+        "cs": "Největší jelenovitý savec s lopato vitými parohy."
+      },
+      "info": {
+        "cs": "Los je největší jelenovitý na světě; samci dorůstají výšky přes dvě metry v kohoutku a nesou lopatovité parohy o rozpětí až 180 cm.\nŽije v boreálních lesích Severní Ameriky, Evropy a Asie.\nJe výborný plavec a potápěč, ponořuje hlavu pod vodu kvůli vodním rostlinám.\n"
+      }
+    },
+    {
+      "key": "animal.deer",
+      "image": "animal.deer.png",
+      "label": {
+        "cs": "jelen"
+      },
+      "summary": {
+        "cs": "Gracézní kopytnatec; samec má parohy, které každoročně shazuje."
+      },
+      "info": {
+        "cs": "Jelen lesní je nejrozšířenější velký jelen Evropy.\nSamci (jeleni) nosí parohy, které každý rok shazují a znovu dorůstají, jde o nejrychleji rostoucí tkáň v živočišné říši.\nV říji vydávají mohutný řev a svádějí souboje o samice (laně).\nV České republice je jelen národním symbolem myslivosti.\n"
+      }
+    },
+    {
+      "key": "animal.fox",
+      "image": "animal.fox.png",
+      "label": {
+        "cs": "liška"
+      },
+      "summary": {
+        "cs": "Chytrá malá psovitá šelma s hustým ocasem a rezavou srstí."
+      },
+      "info": {
+        "cs": "Liška obecná je nejrozšířenější psovitá šelma světa a vynikající přizpůsobivec, žije v lesích, stepích i městech.\nJe proslulá mazaností opěvovanou v pohádkách a bajkách po celém světě.\nLoví myši, ptáky a hmyz; v nouzi sbírá i odpadky.\nSamice (liška) rodí čtyři až šest mláďat.\n"
+      }
+    },
+    {
+      "key": "animal.raccoon",
+      "image": "animal.raccoon.png",
+      "label": {
+        "cs": "mýval"
+      },
+      "summary": {
+        "cs": "Americké zvíře s černou maskou a pruhovaným ocasem."
+      },
+      "info": {
+        "cs": "Mýval severní pochází ze Severní Ameriky, ale byl zavlečen do Evropy, kde se dnes masivně rozmnožil.\nJe proslulý zdánlivým mytím potravy před jídlem; ve skutečnosti tak zjemňuje citlivost tlapek.\nJe všežravý a mimořádně přizpůsobivý, žije i v hustě osídlených městech.\n"
+      }
+    },
+    {
+      "key": "animal.otter",
+      "image": "animal.otter.png",
+      "label": {
+        "cs": "vydra"
+      },
+      "summary": {
+        "cs": "Hravý polo vodní savec žijící u čistých vodních toků."
+      },
+      "info": {
+        "cs": "Vydra říční je šelmička z čeledi lasicovitých dokonale přizpůsobená životu ve vodě.\nMá hustou voděodolnou srst, plovací blány a může zadržet dech přes minutu.\nVydry jsou indikátorem čistoty vod; kde žijí, je voda zdravá.\nV Česku se po dlouhém úbytku opět postupně rozšiřují.\n"
+      }
+    },
+    {
+      "key": "animal.beaver",
+      "image": "animal.beaver.png",
+      "label": {
+        "cs": "bobr"
+      },
+      "summary": {
+        "cs": "Velký hlodavec stavějící hráze a budující mokřadní ekosystémy."
+      },
+      "info": {
+        "cs": "Bobr evropský je druhý největší hlodavec světa.\nBuduje hráze z větví a bahna, čímž vytváří tůně a mokřady, které jsou domovem mnoha druhů živočichů.\nMá plochý šupinatý ocas, velké oranžové řezáky a voděodolnou srst.\nBobr byl v Čechách vyhuben, ale v posledních dekádách se vrátil.\n"
+      }
+    },
+    {
+      "key": "animal.meerkat",
+      "image": "animal.meerkat.png",
+      "label": {
+        "cs": "surikata"
+      },
+      "summary": {
+        "cs": "Malý společenský savec z pouště Kalahari stojící na zadních nohách."
+      },
+      "info": {
+        "cs": "Surikata je malý ssavec z čeledi mangustovitých žijící v jižní Africe.\nŽije ve skupinách s pevnou sociální strukturou; jeden člen skupiny vždy hlídkuje na vyvýšeném místě.\nJe imunní vůči hadímu jedu a jedu škorpionů.\nSurikaty se vzájemně učí loveckým technikám.\n"
+      }
+    },
+    {
+      "key": "animal.warthog",
+      "image": "animal.warthog.png",
+      "label": {
+        "cs": "prase bradavičnaté"
+      },
+      "summary": {
+        "cs": "Africké divoké prase s mohutnými kly a bradavicemi na tváři."
+      },
+      "info": {
+        "cs": "Prase bradavičnaté je volně žijící africký sudokopytník příbuzný domácímu praseti.\nSamci mají na tváři tukové výrůstky (bradavice) a zahnuté kly, které slouží k obraně.\nPři útěku utíká s ocasem vztyčeným svisle jako anténa.\nV hrabání nor nepoužívá vlastní síly, ale obsazuje nory dikobrazů.\n"
+      }
+    },
+    {
+      "key": "animal.wildebeest",
+      "image": "animal.wildebeest.png",
+      "label": {
+        "cs": "pakůň"
+      },
+      "summary": {
+        "cs": "Migrující africká antilopa účastnící se největší suchozemské migrace."
+      },
+      "info": {
+        "cs": "Pakůň gnu je proslulý jednou z největších pozemních migrací na světě, přes milion zvířat každoročně přechází mezi Serengeti a Masai Mara.\nJe klíčovou kořistí lvů, gepardů a krokodýlů.\nSamice rodí téměř všechny najednou v rozmezí pouhých dvou až tří týdnů.\n"
+      }
+    },
+    {
+      "key": "animal.baboon",
+      "image": "animal.baboon.png",
+      "label": {
+        "cs": "pavián"
+      },
+      "summary": {
+        "cs": "Velký africký primát s charakteristickým čenichem a společenským životem."
+      },
+      "info": {
+        "cs": "Pavián je rod velkých primátů obývajících africké savany a skalnaté oblasti.\nŽijí ve smečkách s hierarchickým uspořádáním a komunikují bohatou škálou zvuků a mimiky.\nSamci jsou výrazně větší než samice.\nPaviáni jsou všežravci a v Egyptě byli uctíváni jako posvátná zvířata.\n"
+      }
+    },
+    {
+      "key": "animal.orangutan",
+      "image": "animal.orangutan.png",
+      "label": {
+        "cs": "orangutan"
+      },
+      "summary": {
+        "cs": "Velká červenohnědá opice žijící na stromech Bornea a Sumatry."
+      },
+      "info": {
+        "cs": "Orangutan je jediný velký lidoop žijící mimo Afriku.\nJeho název pochází z malajštiny a znamená lesní člověk.\nJe nejsamotářštějším z velkých lidoopů a tráví většinu života v korunách stromů.\nMatky pečují o mláďata až osm let, nejdelší péče o potomstvo ze všech savců mimo člověka.\n"
+      }
+    },
+    {
+      "key": "animal.camel",
+      "image": "animal.camel.png",
+      "label": {
+        "cs": "velbloud"
+      },
+      "summary": {
+        "cs": "Pouštní savec s hrby sloužícími jako zásobárna tuku."
+      },
+      "info": {
+        "cs": "Velbloud jednohrbý (dromedár) je dokonale přizpůsoben životu v poušti; jeho hrb ukládá tuk, nikoli vodu, jako energetická rezerva.\nDokáže vypít najednou přes 100 litrů vody a přežít týdny bez příjmu tekutin.\nByl domestikován před více než 3 000 lety a je klíčovým dopravním prostředkem pouštních civilizací.\n"
+      }
+    },
+    {
+      "key": "animal.polar_bear",
+      "image": "animal.polar_bear.png",
+      "label": {
+        "cs": "lední medvěd"
+      },
+      "summary": {
+        "cs": "Největší suchozemský predátor žijící v Arktidě."
+      },
+      "info": {
+        "cs": "Lední medvěd je největší suchozemská šelma a vrcholný predátor Arktidy.\nJeho bílá srst dokonale izoluje teplo; každý chlup je dutý a průhledný.\nJe výborný plavec a může uplavat stovky kilometrů.\nGlobální oteplování zmenšuje plochu ledu, na němž loví, a ohrožuje celou populaci.\n"
+      }
+    },
+    {
+      "key": "animal.reindeer",
+      "image": "animal.reindeer.png",
+      "label": {
+        "cs": "sob"
+      },
+      "summary": {
+        "cs": "Jelenovitý savec tundrů; parohy mají i samice."
+      },
+      "info": {
+        "cs": "Sob polární je jediný jelenovitý druh, u něhož nosí parohy i samice.\nŽije v tundrách Severní Ameriky, Evropy a Asie a je schopen migrovat tisíce kilometrů.\nSámové ho tradičně chovají jako hospodářské zvíře.\nJeho kopyta jsou přizpůsobena zimnímu prostředí, v létě měkčí pro chůzi po mechu, v zimě tvrdší na ledu.\n"
+      }
+    },
+    {
+      "key": "animal.gazelle",
+      "image": "animal.gazelle.png",
+      "label": {
+        "cs": "gazela"
+      },
+      "summary": {
+        "cs": "Štíhlá rychlá antilopa afrických a asijských savan."
+      },
+      "info": {
+        "cs": "Gazela Thomsonova je jednou z nejrozšířenějších gazel Afriky.\nJe schopna dosáhnout rychlosti přes 80 km/h a provádí charakteristické skoky jako signál predátorům.\nŽije v obrovských stádech a je klíčovou kořistí gepardů, lvů a psů hyenových.\n"
+      }
+    },
+    {
+      "key": "animal.lynx",
+      "image": "animal.lynx.png",
+      "label": {
+        "cs": "rys"
+      },
+      "summary": {
+        "cs": "Středně velká divoká kočka s chomáčky chlupů na špičkách uší."
+      },
+      "info": {
+        "cs": "Rys ostrovid je největší evropská divoká kočka.\nPoznáme ho podle charakteristických chomáčků černých chlupů na špičkách uší a krátkého ocasu.\nLoví převážně za soumraku a v noci; jeho hlavní kořistí jsou srnci a zajíci.\nV Česku byl vyhuben, ale v druhé polovině 20. století byl úspěšně znovu vysazen.\n"
+      }
+    },
+    {
+      "key": "animal.wolverine",
+      "image": "animal.wolverine.png",
+      "label": {
+        "cs": "rosomák"
+      },
+      "summary": {
+        "cs": "Silné a zuřivé lasicovité zvíře boreálních lesů a tundry."
+      },
+      "info": {
+        "cs": "Rosomák je největší suchozemský příslušník čeledi lasicovitých.\nNavzdory malé velikosti je proslulý mimořádnou silou a agresivitou a dokáže zahnat medvěda od kořisti.\nŽije v rozsáhlých teritoriích boreálních lesů a tundry Severní Ameriky, Evropy a Asie.\n"
+      }
+    },
+    {
+      "key": "animal.coyote",
+      "image": "animal.coyote.png",
+      "label": {
+        "cs": "kojot"
+      },
+      "summary": {
+        "cs": "Severoamerický psovitý šelma adaptovaný i na život ve městech."
+      },
+      "info": {
+        "cs": "Kojot je adaptabilní psovitý šelma obývající celou Severní Ameriku.\nNa rozdíl od vlka se přizpůsobil i životu v blízkosti lidí a rozšířil se do měst.\nV americké indiánské mytologii hraje roli mazaného trickra.\nKomunikuje vytím, zejména za soumraku a v noci.\n"
+      }
+    },
+    {
+      "key": "animal.snow_leopard",
+      "image": "animal.snow_leopard.png",
+      "label": {
+        "cs": "sněžný leopard"
+      },
+      "summary": {
+        "cs": "Vzácná velká kočka vysokých pohoří střední Asie."
+      },
+      "info": {
+        "cs": "Sněžný leopard žije ve vysokohorském prostředí Himaláje, Tibetu a středoasijských pohoří ve výškách 3 000 až 5 000 metrů.\nMá mimořádně dlouhý ocas sloužící k udržování rovnováhy na skalách.\nNa světě jich žije odhadem jen 4 000 až 6 500.\nJe jednou z nejméně prozkoumaných velkých koček světa.\n"
+      }
+    },
+    {
+      "key": "animal.wild_boar",
+      "image": "animal.wild_boar.png",
+      "label": {
+        "cs": "divočák"
+      },
+      "summary": {
+        "cs": "Divoké prase s kly, předek všech plemen domácích prasat."
+      },
+      "info": {
+        "cs": "Divočák je původní evropský druh a předek všech plemen domácích prasat.\nJsou to inteligentní a adaptabilní všežravci, kteří vyhrabávají kořeny, žaludy, ale loví i drobné živočichy.\nSamice (bachyně) pečují o selata v skupinkách.\nV Česku je divočák nejčastěji lovnou zvěří.\n"
+      }
+    },
+    {
+      "key": "animal.giant_anteater",
+      "image": "animal.giant_anteater.png",
+      "label": {
+        "cs": "mravenečník velký"
+      },
+      "summary": {
+        "cs": "Velký bezzubý savec s dlouhým rysem a lepivým jazykem."
+      },
+      "info": {
+        "cs": "Mravenečník velký je největší druh mravenečníků a žije v Střední a Jižní Americe.\nNemá zuby; mraveniště rozbíjí silnými drápy a mravence sbírá až 60 cm dlouhým lepivým jazykem.\nZa den sní přes 35 000 mravenců a termitů.\nSamice nosí mládě na hřbetě.\n"
+      }
+    },
+    {
+      "key": "animal.tapir",
+      "image": "animal.tapir.png",
+      "label": {
+        "cs": "tapír"
+      },
+      "summary": {
+        "cs": "Velký herbivor s krátkým chobotem, příbuzný nosorožci a koni."
+      },
+      "info": {
+        "cs": "Tapír je primitivní lichokopytnatec příbuzný nosorožcům a koním, přestože to není zřejmé.\nŽije v tropických deštných lesích Ameriky a jihovýchodní Asie.\nJeho krátký pružný chobot slouží k uchopování větví a listů.\nTapíři jsou ohroženi vykácením lesů a pytláctvím.\n"
+      }
+    },
+    {
+      "key": "animal.okapi",
+      "image": "animal.okapi.png",
+      "label": {
+        "cs": "okapi"
+      },
+      "summary": {
+        "cs": "Lesní příbuzný žirafy s zebrovitě pruhovanými nohami z Konga."
+      },
+      "info": {
+        "cs": "Okapi bylo vědecky popsáno teprve v roce 1901 a je jedním z posledních velkých savců, které věda objevila.\nPřestože vizuálně připomíná kříženec žirafy a zebry, je nejbližším žijícím příbuzným žirafy.\nŽije výhradně v deštném pralese Konžské demokratické republiky a je národním symbolem země.\n"
+      }
+    },
+    {
+      "key": "animal.aardvark",
+      "image": "animal.aardvark.png",
+      "label": {
+        "cs": "hrabáč"
+      },
+      "summary": {
+        "cs": "Noční africký insektivor s prasečím rysem, kopající nory."
+      },
+      "info": {
+        "cs": "Hrabáč kapský je jediný žijící druh řádu Tubulidentata a nemá žádné blízké příbuzné.\nNokturnální způsob života, silné drápy a lepivý jazyk jsou adaptace pro lov mravenců a termitů.\nJeho opuštěné nory využívá desítky dalších druhů zvířat.\nAfrikánský název znamená zemní prase.\n"
+      }
+    },
+    {
+      "key": "animal.sloth",
+      "image": "animal.sloth.png",
+      "label": {
+        "cs": "lenochod"
+      },
+      "summary": {
+        "cs": "Pomalý stromový savec visící vzhůru nohama v korunách stromů."
+      },
+      "info": {
+        "cs": "Lenochod je savec dokonale přizpůsobený pomalému životu v korunách tropických stromů.\nPohybuje se tak pomalu, že na jeho srsti rostou zelené řasy sloužící jako kamufláž.\nMetabolismus má tak pomalý, že se vyprázdní jen jednou týdně.\nMá mimořádně silné hákovité drápy, díky nimž může viset i po smrti.\n"
+      }
+    },
+    {
+      "key": "animal.capybara",
+      "image": "animal.capybara.png",
+      "label": {
+        "cs": "kapybara"
+      },
+      "summary": {
+        "cs": "Největší hlodavec světa, polo vodní a velmi klidný."
+      },
+      "info": {
+        "cs": "Kapybara je největší žijící hlodavec; dospělci váží 35 až 66 kg.\nŽije v tropických oblastech Jižní Ameriky u řek, jezer a bažin.\nJe velmi společenská a díky klidné povaze si s ní rozumí téměř každé jiné zvíře.\nNa sociálních sítích se stala ikonou nenucené pohody.\n"
+      }
+    },
+    {
+      "key": "animal.armadillo",
+      "image": "animal.armadillo.png",
+      "label": {
+        "cs": "pásovec"
+      },
+      "summary": {
+        "cs": "Drobný savec v krunýři z kostěných šupin."
+      },
+      "info": {
+        "cs": "Pásovec devítipásý je jediný savec s pravým kostěným krunýřem.\nPři ohrožení se některé druhy srolují do kuličky.\nJe to vynikající kopáč a dokáže vyhrabat noru za méně než dvě minuty.\nJe přirozeným hostitelem bakterie způsobující lepru.\n"
+      }
+    },
+    {
+      "key": "animal.fennec_fox",
+      "image": "animal.fennec_fox.png",
+      "label": {
+        "cs": "fenek"
+      },
+      "summary": {
+        "cs": "Nejmenší psovitá šelma světa s obrovskýma ušima."
+      },
+      "info": {
+        "cs": "Fenek je nejmenší psovitá šelma světa přizpůsobená životu v Saharské poušti.\nObrovské uši slouží k vyzařování tělesného tepla a výbornému sluchu.\nLedviny má tak efektivní, že dokáže přežít bez přímého příjmu vody; vlhkost získává z potravy.\nV noci loví hmyz, hlodavce a plazy.\n"
+      }
+    },
+    {
+      "key": "animal.mandrill",
+      "image": "animal.mandrill.png",
+      "label": {
+        "cs": "mandril"
+      },
+      "summary": {
+        "cs": "Nejbarevnější primát světa s modročervenou tváří."
+      },
+      "info": {
+        "cs": "Mandril je největší žijící opice Starého světa a nejbarevnější primát.\nSamci mají zářivě modrou a červenou obličejovou masku, která signalizuje sociální postavení.\nŽijí ve skupinách v rovníkových pralesích Kamerunu, Gabonu a Konžské republiky.\n"
+      }
+    },
+    {
+      "key": "animal.porcupine",
+      "image": "animal.porcupine.png",
+      "label": {
+        "cs": "dikobraz"
+      },
+      "summary": {
+        "cs": "Velký hlodavec pokrytý ostrými obrannými ostny."
+      },
+      "info": {
+        "cs": "Dikobraz je hlodavec chráněný tisíci ostrých dutých ostní, která jsou přeměněnými chlupy.\nOstny se neodstřelují jako šípy; při dotyku se snadno uvolní a zaboří do těla predátora.\nDikobraz je největší africký hlodavec a v noci vyhledává kůru, kořeny a zeleninu.\n"
+      }
     }
   ]
 }

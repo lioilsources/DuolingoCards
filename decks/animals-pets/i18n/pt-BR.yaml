@@ -2,14 +2,106 @@ lang: pt-BR
 pivot: false
 title: Animais de estimação
 cards:
+  pet.angelfish:
+    label: escalar
+    summary: Peixe tropical com corpo em forma de disco e nadadeiras alongadas.
+    info: '{"hint":"peixe de aquário热带 alto e em forma de disco","info":"O escalope da Amazônia é uma das peixes de aquário mais populares por sua elegante formato triangular e longas nadadeiras que parecem flutuar.\nOrigina-se do vale amazônico e precisa d''água quente (de 24 até 28°C).\nÉ carnívoro e pode comer pequenos peixinhos.\No Japão o encantador escarlate foi primeira espécie tropical importada no ano de 1909."}'
+  pet.axolotl:
+    label: axólot
+    summary: Anfibio aquatico do México que vive permanentemente na água com brânquias.
+    info: O axólot é um anfioxo aquático do México que mantém sua forma de lárva durante toda vida (neotenico). Possui brânquias externas proeminentes e uma expressão característica parecida com sorrisos. É nativo da Lagoa de Xochimilco no México e está criticamente ameaçado.
+  pet.ball_python:
+    label: Jiboia-bola
+    summary: Um cobra tranquila que forma bolinhas ao ser intimidada; ideal para iniciantes.
+    info: A jiboia-bola é originária da África ocidental e central, onde habita savanas e florestas. Quando ameaçada, enrola-se em uma bola compacta (da qual vem o nome 'jiboia-bola'). Ela pode atingir de 120 a 150 centímetros de comprimento e vive mais de trinta anos.
+  pet.bearded_dragon:
+    label: dragão barbado
+    summary: Réptil popular da Austrália frequentemente mantido por pessoas que gostem de animais domésticos tropicais.
+    info: O dragão barbudo é um dos répteis mais comuns em cativeiro devido à sua natureza calma e dócil. Suas barbas incham e escurecem como expressões de emoção ou dominância social. Ele também comunica-se usando movimentos das patas superiores para sinalizar submissão.
+  pet.betta_fish:
+    label: betta
+    summary: Peixe colorido do labirinto com grandes nadadeiras originário da Ásia.
+    info: A betta é uma peixe-labirinto que respira ar por meio de um órgão especial e vive em campos rasos de arroz no Tailândia. Os machos são agressivos entre si; daqui vem o nome 'peixes-bois'. Por seleção genética surgiram formas exuberantes com enormes barbatanas soltas.
+  pet.blue_tongue_skink:
+    label: geco-língua-roxa
+    summary: Répteis australianos conhecidos por sua língua distintamente rósea usada principalmente em situações defensivas.
+    info: O geco azul-tongue é um réptil grande da Austrália com uma língua claramente roxa que ele mostra como aviso aos predadores; essa cor serve para assustar e afastar ameaças. É um animal não agressivo, robusto e lento muito popular entre os colecionadores de animais domésticos. Pode vivenciar até 15 ou mesmo 20 anos e crescer mais do que meio metro.
+  pet.budgerigar:
+    label: periquito
+    summary: Papagaio pequeno muito popular em cativeiro.
+    info: O periquito anil é o pássaro de estimação mais comum do mundo depois dos canários. Os exemplares selvagens são verdes e amarelados; variações coloridas como azuis, brancas ou cinzas surgiram através da seleção artificial. Machos podem imitar vozes humanas e aprender centenas de palavras.
+  pet.canary:
+    label: canário
+    summary: Pequeno pássaro que canta criado por sua voz e cor amarela intensa.
+    info: O canário vem das Ilhas Canárias e foi domesticado no século XV pelos conquistadores espanhóis. Através de seleção genética surgiram muitos tipos como os cantores (como o Roller ou Waterluaser), coloridos (vermelhos, brancos etc.) e formas específicas. Os machos entoam melodias complexas e podem aprender trechos da música dos outros.
   pet.cat:
     label: gato
     summary: Animal de estimação independente com patas macias.
     info: O gato doméstico é uma fera da família dos felinos criada como animal de companhia. É conhecido por sua agilidade, limpeza e personalidade independente.
+  pet.chameleon:
+    label: camaleão
+    summary: Répteis que podem mudar de cor possuem os dois olhos móveis.
+    info: |-
+      {"hint":"réptil que troca de cor com olhos independentes em movimento (Chamaeleo)","info":"O camaleão é uma lagarta capaz de mudar sua pele usando cromatóforos; ele altera suas cores para comunicar emoções e não principalmente como disfarce.
+      Cada um dos seus olhos move-se independente podendo cobrir quase 360 graus.
+      Seu língua pode ser maior do que seu corpo sendo lançado à velocidade de até 26km por hora.
+      Vive exclusivamente nas árvore tendo patas adaptadas para segurar galho."}
+  pet.chinchilla:
+    label: guanxeta
+    summary: Roedor sul-americano que possui o pelo mais denso dentre todos os mamíferos terrestres.
+    info: A guanxeta é um roedor dos Andes com pelagem extremamente densa; de cada foliculo crescem entre 60 e 80 pelos (em humanos apenas um). Elas ficam ativas em temperaturas até 25°C; superaquecer pode ser fatal para elas.
+  pet.clownfish:
+    label: peixe-palha
+    summary: Pequeno peixe laranja vivendo em simbiose com atinias.
+    info: O peixe-palha olhos-brancos é uma pequena espécie de água salgada que vive em simbiose com actínias no Pacífico e Índico tropicalizados. A atinia protege-o com suas tentáculas urticantes enquanto ele limpa-a dos parasitas e afasta os predadores. Após o filme Procurando Nemo (2003), tornaram-se ícones do aquarismo marinho.
+  pet.cockatiel:
+    label: ninfa
+    summary: Pequeno pássaro Australiano com crina, muito conhecido por sua habilidade musical.
+    info: A ninfa é originária da Austrália e vive em campos abertos e florestas. Os machos são excelentes imitações capazes de aprender músicas, melodias ou até palavras humanas. É uma ave social que estabelece facilmente vínculo com o dono quando mantida como animal doméstico.
+  pet.corn_snake:
+    label: cobra-corn
+    summary: Cobra amarelo-vermelha mansa adequada para iniciantes.
+    info: A cobra-corn Snake provém do sudeste dos EUA e vive em campos florestais ou campestres. É não venenosa e dócil; raramente morde e é resistente. Seu nome pode vir das terras de milho onde habita ou pelo padrão estriado no ventre que se parece com grãos de milho.
+  pet.crayfish:
+    label: carangujo
+    summary: Pequeno carango colorido encontrado no fundo do aquário.
+    info: Caranguejos de aquário são habitantes populares em tanques dulcícolas graças ao comportamento ativo e às cores vivas.
+  pet.crested_gecko:
+    label: Gecko com Pêlos
+    summary: Répteis noturnos que possuem uma crina semelhante às pestanas.
+    info: O Geko de Cilios é originário da Nova Calegônia e foi considerado extinto até 1994. Ele consegue saltar e está ativo à noite.
+  pet.degu:
+    label: degú
+    summary: Pequeno mamífero herbívoro originário do sul do Peru e nordeste da Argentina.
+    info: O degu é um pequeno roedor da região do Chile que está relacionado ao coelho e à preguiça-de-crista-chinesa. É estritamente diurno (ativo durante o dia), muito sociável e sofre com isolamento. Ele tem predisposição para diabetes tipo I em cativeiro por isso não deve comer frutas doces.
+  pet.discus_fish:
+    label: peixe-disco
+    summary: Peixe exótico com formato em disco considerado o rei do aquário热带.
+    info: Os Discos ou Symphysodons são peixes grandes de forma circular e cores deslumbrantes encontrados no rio Amazonas.
   pet.dog:
     label: cão
     summary: Fiel animal de estimação e amigo do ser humano.
     info: O cão é um lobo domesticado, o mais antigo animal domesticado pelo homem. Existem mais de 400 raças diferentes e ele é conhecido como "o melhor amigo do homem".
+  pet.dove_pet:
+    label: pombo-doméstico
+    summary: Pomba branco-limpo mantida como animalzinho ou liberada durante cerimônias.
+    info: A Pomba-branca é um rolo-pombo domesticado criado para ter coloração totalmente branca. É calma e amigável; ao contrário de periquitos não morde nem faz barulho excessivo. Ela é usada em casamentos, funerais e celebrações por todo o mundo.
+  pet.electric_eel:
+    label: peixe elástico
+    summary: Peixe sudamericano que gera choques elétricos com voltagens altas.
+    info: O peixe-elétrico não é um verdadeiro enguias, mas está relacionado aos bagres da Amazônia sul-americana. É capaz de gerar descargas elétricas até 860 volts para atordoar suas presas ou defesa pessoal e precisa respira ar periodicamente subindo à superfície.
+  pet.ferret:
+    label: guaxina
+    summary: Animal mamífero da família dos mustélidos que foi domesticado com sucesso.
+    info: A guaxina é uma forma de tchotcha branca domesticada há mais de dois mil e quinhentos anos para caçar coelho. É curiosa e brincalhona; normalmente dorme entre catorze e dezesseis horas por dia e passa o restante do tempo se divertindo intensamente. Ela tem um cheiro característico chamado 'cheiro de gengibre', proveniente das glândulas anais.
+  pet.frilled_lizard:
+    label: agama límbica
+    summary: Uma cobra-australiana que exibe dramáticamente o seu colar como forma defensiva.
+    info: O agame de pescoço é uma lagarta da Austrália que abre um grande dobra ao redor do pescoço quando ameaçada e faz barulhos sibilantes enquanto se levanta sobre suas patas traseiras. O colar é reforçado por costelas alongadas.
+  pet.gerbil:
+    label: juncal
+    summary: Pequeno roedor de origens desérticas com cauda longa pelada.
+    info: O juncal é originário das estepes secas da Mongolia e China.
   pet.goldfish:
     label: peixe dourado
     summary: Peixe laranja-dourado mantido em aquários.
@@ -22,14 +114,101 @@ cards:
     label: hamster
     summary: Pequeno e fofinho roedor com bochechas cheias.
     info: O hamster dourado é um animal de estimação popular. Ele esconde reservas de comida em suas bochechas, está ativo principalmente à noite e gosta de correr na roda.
+  pet.hedgehog:
+    label: ourso-preguiça
+    summary: Pequeno insetívoro com espinhos capazes de formar uma bolinha ao serem intimidados.
+    info: O ourso-preguiça é um animal pequeno e espinhoso que rola-se em uma bola quando ameaçado.
+  pet.hermit_crab:
+    label: carangueijo ermita
+    summary: Pequeno crustáceo morando numa casca alugada, animalzinho exótico domesticado.
+    info: O caranguejo eremítico é um artrópode que não possui seu próprio caparão duro e protege sua parte traseira mole com conchas de moluscos vazias. Quando cresce, procura uma concha maior. Caranguejos secos são tratados como animais de estimação; eles são sociais e vivem em grupos.
+  pet.iguana:
+    label: iguana
+    summary: Grande répteis verdes originários das Américas tropicais muito populares como animais domésticos exóticos.
+    info: O Iguana verde é uma grande lagarta da América do Sul que pode atingir até dois metros de comprimento. É estritamente vegetariana e em cativeiro requer variedade de verduras e iluminação com luz ultravioleta B para sua saúde adequada. Possui um terceiro olho no topo da cabeça chamado ocelo parietal sensível à luz.
+  pet.koi:
+    label: Caprin Koi
+    summary: peixe decorativo com tonalidades vibrantes mantido nas piscinas caseiras
+    info: '{"hint":"variante ornamental da truta arco-íris criada por cores vivas","info":"O capim Koi é uma variedade ornamenta de peixe comum domesticado no Japão desde o século XVII\nExiste mais de cem variações coloridas e os indivíduos mais valiosos são vendidos na casa das centenas ou milhares de reais\nEles podem chegar aos duzentos anos de idade sendo que Hanaco foi um dos exemplares conhecidos com vida útil registrada em doiscentos e vinte e seis anos\nNa cultura japonesa ele simboliza coragem persistência e felicidade","label":"caprim koi","summary":"Peixe decorativo com brilhantes tons mantido nos lagos domésticos"}'
+  pet.leopard_gecko:
+    label: Gecon Leopardo
+    summary: Pequeno geco noturno com manchas que se tornou um animal ideal para iniciantes.
+    info: O geco-leopardo é originário das áreas desérticas de Paquistão e Afeganistão. Diferentemente da maioria dos gécos não possui ventosas nos dedos para subir em superfícies como o vidro. Possui pestanas móveis algo incomum nesses répteis.
+  pet.lovebird:
+    label: agapornis
+    summary: Pequena ave colorida famosa pela formação de laços românticos estáveis.
+    info: O Agapornis é um pequeno papagaio da África conhecido por suas fortes conexões em pares. Os casais alimentam-se mutuamente e passam muito tempo juntos; dessa forma surgiu seu nome comum 'lovebird'. Existem nove espécies diferentes que variam na cor e distribuição geográfica.
+  pet.mandarin_fish:
+    label: mandarínka
+    summary: Pequeno peixe tropical extremamente colorido da família Synchiropidae.
+    info: A mandarinha deslumbrante é uma pequena peixe marinha dos recifes de coral do Índico e Pacífico com um das colorações mais notáveis no reino animal.
+  pet.mini_pig:
+    label: porquinho da Índia
+    summary: Pequenos animais semelhantes ao porco mantidos como pets.
+    info: Porcos miniatura são raças pequenas de porco domestico criadas em tamanho reduzido para serem companheiros humanos. Eles são inteligentes e limpos como cães; aprendem truques com facilidade. Evitam o sol porque não têm glândulas sudoríparas e rolam no lamaço para regular sua temperatura corporal.
+  pet.moon_jellyfish:
+    label: caravela luminosa
+    summary: Caravela brilho-biológica transparente mantida em aquários especializados.
+    info: O caravela mensal é um dos tipos de caravelas mais comuns e é relativamente segura para os humanos. É quase transparente e podemos ver através dela suas quatros gônadas circulares. O cultivo em aquários era até recentemente muito difícil; hoje há tanques especiais redondos chamados kreisels.
+  pet.mouse:
+    label: camundongo
+    summary: Pequeno mamífero herbívoro mantido como animal de estimação ou utilizado na pesquisa médica.
+    info: A camundongo branco é uma espécie de ratinho doméstico criado tanto para fins científicos quanto como animal ornamentais e companhia. É um bicho muito inteligente que aprende rapidamente labirintos e truques comuns em treinos específicos.
+  pet.mynah_bird:
+    label: mínha
+    summary: Pardal asiático falante com excepcional capacidade para imitar vozes.
+    info: |-
+      O Mynah é um pássaro da família dos estorninhos conhecido por uma das melhores habilidades de falar entre todos os aves
+      Ele imita tons, entonações e pronúncia humana com notável precisão,
+      vindo do Sudeste Asiático e Índia.
+  pet.oscar_fish:
+    label: oscar
+    summary: Grande peixe-inteligente originado da Amazônia que responde ao contato humano.
+    info: O oscar é uma grande ciclide da América do Sul conhecido por sua alta capacidade intelectual e pela habilidade de reconhecer seu dono. Ele exige um aquário espaçoso com no mínimo 200 litros e alimentação regular com alimentos vivos ou congelados para manter-se saudável. Pode atingir mais de 35 centímetros em comprimento e viver até quinze anos.
   pet.parrot:
     label: periquito
     summary: Pássaro colorido capaz de imitar a voz humana.
     info: O periquito é o tipo mais comum de papagaio mantido como animal de estimação. É inteligente, sociável e consegue imitar sons e palavras.
+  pet.prairie_dog:
+    label: psoun préio
+    summary: Roedor social que escava túneis nas pradarias norte-americanas.
+    info: O psoun Prério é um roedor social da América do Norte que vive em colônias subterrâneas extensas. Ele comunica-se por meio de uma complexa linguagem sonora considerada o sistema mais avançado entre os animais após o ser humano. O nome 'dog' foi dado pela vocalização semelhante ao latido usada para alertar sobre predadores.
+  pet.quail_pet:
+    label: periquito
+    summary: Pequena ave silenciosa adequada à criação dentro do apartamento.
+    info: A periquita japonesa é um pequeno pássaro criado tanto para ovos quanto como animal de estimação. Ela pesa apenas cerca de 100 g e é considerada o menor tipo de ave doméstica. Os machos cantam com sons 'pi-pi-pit', enquanto fêmeas emitem som baixo.
   pet.rabbit:
     label: coelho
     summary: Animal peludo com orelhas longas.
     info: O coelho doméstico é um animal de estimação popular com pelos macios e orelhas longas características. Alimenta-se de feno, legumes e grama fresca.
+  pet.rat:
+    label: ratazana
+    summary: Roedor inteligente que faz um companheiro fiel surpreendentemente perspicaz.
+    info: A ratoeira domesticada é uma das espécies de roedores mais inteligentes e pode aprender com facilidade para responder ao nome ou executar atividades complexas. Ela tem desenvolvimento social avançado e forma fortes laços tanto com humanos quanto entre si. Vive por cerca de dois à três anos sendo símbolo da sabedoria e prosperidade no calendário chinês.
+  pet.red_eared_slider:
+    label: Tartaruga-verdadeira
+    summary: Popular tartaruga aquática de água doce que possui faixas vermelhas atrás das orelhas.
+    info: A tartaruga de ouvido vermelho é originária da América do Norte e é o réptil mais comum em cativeiro no mundo inteiro.
+  pet.sea_horse_pet:
+    label: Cavalinho-Mar no aquário
+    summary: Um Cavalinho-Mar mantido em um aquário do mar, animal exótico que desperta admiração.
+    info: O cavalinho-mar é um dos animais marinhos mais difíceis de ser criado em cativeiro; requer alimento vivo como artêmias e mísidos além de um ambiente tranquilo.O macho carrega os filhotes num saco ventral produzindo centenas ao mesmo tempo.Eles vivem aos pares sendo fiéis por toda vida.São criticamente ameaçados pela coleta ilegal para uso nas práticas médicas tradicionais.
+  pet.sugar_glider:
+    label: sugar-glidder
+    summary: Pequeno mamífero Australiano que voa por meio de uma membrana ao longo do corpo.
+    info: O sugar-glider é um pequeno cinturão da Austrália capaz de planar graças à membrana elástica estendida entre suas patas dianteiras e traseiras. Possui grandes olhos noturnos e é muito socializando-se com outros membros do grupo ou sofre isolamento emocional. Comunicação inclui latidos, sussuros e sons semelhantes aos miados.
+  pet.tarantula:
+    label: aranhas-tarântula
+    summary: Grande animal peludo mantido como bicho-exótico pelo corajoso.
+    info: |-
+      O avsunha-pena rosa é uma aranha-tarântula popular entre iniciantes por sua natureza calma.
+      A maior espécie, o birigui gigante de pelos longos, é considerada como sendo a maior aranha do mundo com pernas que ultrapassam os 30 centímetros em comprimento;
+      sua picada não representa um grande problema para adultos saudáveis e seu veneno pode ser comparado ao da abelha.
+      As tarântulas podem viver até trinta anos.
+  pet.tortoise_pet:
+    label: tartaruga terrestre
+    summary: Tartaruga terrestre com grande duração de vida que faz um bom companheiro por toda sua existência.
+    info: A tartaruga de Hermann é uma pequena tartaruga da Europa Meridional popular como animal doméstico e pode viver mais de cem anos, superando até mesmo seus donos em expectativa de vida. Ela entra no estado de hibérnea durante o inverno, quando seu metabolismo quase para completamente.
   pet.turtle:
     label: tartaruga
     summary: Animal lento com couraça dura.

@@ -2,14 +2,78 @@ lang: vi
 pivot: false
 title: Bò sát và Ếch nhái
 cards:
+  reptile.agama:
+    label: agama
+    summary: Một loại thằn lằn đá màu sắc sinh sống tại Châu Phi.
+    info: Các loài Agama là một họ rắn lớn đến từ châu Phi và Áo với hơn 450 loài khác nhau có thể được tìm thấy ở đây cùng như Úc nữa.
+  reptile.alligator:
+    label: cá sấu
+    summary: Một động vật thuộc họ Cá Sâu lớn với cái mũi cong sinh sống tại Hoa Kỳ.
+    info: Cá sấu Mỹ là một trong hai loài cá sấu còn sống sót hiện nay; loài thứ hai nhỏ hơn gọi là cá sấu Trung Quốc. Nó khác với rồng nước ở chỗ có hàm miệng rộng và tròn hơn cũng như khi há miệng không thấy răng lộ ra ngoài.
+  reptile.anaconda:
+    label: '"Rồng Xanh"'
+    summary: '"Loại thằn lằn lớn nhất hành tinh đang tồn tại chủ yếu quanh khu vực rừng mưa Amadon"'
+    info: |-
+      {"hint":"con rắn nặng nhất thế giới, sống bán thủy sinh","info":"Con Rana xanh là loài trăn bò nước to và dài nhất trên Trái Đất;
+      mỗi con cái có thể đạt trọng lượng hơn chín mươi kilogram với chiều dài từ năm đến sáu mét.
+      o Nó thường xuất hiện ở các vùng đầm lầy và sông ngòi của châu Mỹ nhiệt đới,
+      sống dưới mặt nước để săn cá voi nhỏ cũng như chim muông hay cún chuột Amazon cùng crocodile.
+      và khác biệt so với đa số những loại rùa thì nó lại mang thai bằng cách sinh trực tiếp cho ra trứng đã nở sẵn bên trong cơ thể mẹ."}
+  reptile.anole:
+    label: anoline
+    summary: Thằn lét mỹ biết biến hóa màu da
+    info: |-
+      Anol là một chi thằn lén nhỏ ở châu Mỹ với hơn 400 loài khác nhau
+      Con đực có túi cổ màu sắc để giao tiếp và thu hút con cái
+      Loài Anoline xanh lá cây có thể đổi từ màu xanh sang nâu tùy vào nhiệt độ hay cảm xúc
+  reptile.axolotl:
+    label: axolotl
+    summary: Cóc nước Mexico duy trì đặc trưng của giai đoạn phôi thai trong toàn bộ cuộc đời.
+    info: |-
+      Axlô-tốt là loài cóc nước từ México thể hiện đặc điểm không thay đổi hình thái trưởng thành và giữ lại các đặc tính nhộng suốt đời bao gồm cả mang ngoài.
+      Loài này chỉ phân bố ở những hồ xung quanh Thành phố Mexico và đang bị đe dọa nghiêm trọng do ô nhiễm môi trường.
+      Nó sở hữu khả năng tái tạo đáng nể, cho phép phục hồi chi肢, một phần tim cũng như tuỷ sống.
+      Đây còn được nuôi phổ biến làm thú cưng ngoại lai nhờ vẻ bề ngoài độc đáo.
+  reptile.basilisk:
+    label: thằn lằn basilisk
+    summary: Loài thằn lằn châu Mỹ có thể tạm thời chạy lên trên mặt nước.
+    info: '{"hint":"con thằn lằn có thể chạy trên mặt nước bằng chân sau (Basilisk)","info":"Thằn Lằn Basilisk được trang trí (thằn lằn Chúa Giêsu) có khả năng chạy nhanh trên bề mặt của nước nhờ vào các ngón chân gợn sóng với những tua nhỏ giúp chúng bắt giữ không khí dưới đáy nước.\nNó có thể di chuyển khoảng hơn hai mươi mét như vậy trước khi chìm xuống.\nCon đực sở hữu một cái lược rõ ràng ở đầu và lưng mình.\nTrên cây thì che giấu là chiến thuật phòng thủ cơ bản cho nó."}'
+  reptile.boa_constrictor:
+    label: boa hoàng đế
+    summary: Loại rắn Nam Mỹ to lớn dùng cơ thể ép nghẹt săn mồi.
+    info: Rắn boa hoàng đế là loài rắn không có độc lớn ở Nam Mỹ. Nó giết猎物 bằng cách quấn xung quanh và siết chặt hơn mỗi khi nó thở ra để ngăn cản việc hít vào tiếp tục. Vì tính tình hiền lành nên đây cũng là một trong những loại thú nuôi ngoại lai phổ biến.
+  reptile.box_turtle:
+    label: turtle box
+    summary: Small land turtles capable of closing themselves entirely within their shells.
+    info: '{"hint":"con rùa đất có thể đóng hoàn toàn vào mai của nó","info": "Rùa hộp là một loài rùa trên cạn ở Bắc Mỹ với khả năng khép lại lớp vỏ bằng tấm ngực di động để che chắn hoàn toàn bên trong.질장뛴쪽 결�꺼충쾨몮별 킭CDE8못췄컐췯춸뮠췜췏춼몪벪췰몺볊쳨뮰볌믐쪼뫛볐쯨뫐벸뫌뮭쫎뫝쫊뫞뫟쫚뫰뫾뫿몠몯몰몬몭몱몲몳몴몵몶몷몸몹몺못몼몽몾몿뫀뫁뫂뫃뫄뫅뫆뫇뫈뫉뫊뫋뫌뫍뫎뫏뫑뫒뫓뫔뫕뫖뫗뫘뫙"}'
+  reptile.caecilian:
+    label: cà rô-rơ-véc
+    summary: Động vật lưỡng cư không chân ở khu vực nhiệt đới nhìn như sâu hay rắn.
+    info: Cà rô-rơ-véc là một loài động vật lưỡng cư không có chân thuộc nhóm Gymnophiona, ít được nghiên cứu và sống bí mật trong các vùng đất nhiệt đới. Nó trông giống như con giun lớn hoặc rắn nhợt màu. Cà rô-rơ-véc có đôi mắt nhỏ teo lại; định hướng bằng khứu giác và xúc tu cảm thụ trên đầu.
+  reptile.caiman:
+    label: crocodylier
+    summary: Crocodile-like animal found along coasts worldwide that is not related to alligators but resembles them closely due to similar appearance despite different origins.
+    info: '{"hint":"Một loài rồng nước Nam Mỹ nhỏ hơn cá sấu thật sự","info":"Rắn mamba là sinh vật có xương sống phổ biến nhất ở châu Phi và Trung Đông.","label":"mamba","summary":"Sinh vật có xương sống phổ biến nhất ở châu Phi."}'
   reptile.chameleon:
     label: thằn lằn đổi màu
     summary: Con vật có thể thay đổi màu da và có đôi mắt di chuyển độc lập.
     info: Thằn lằn đổi màu không phải để ngụy trang mà chủ yếu là để giao tiếp và điều chỉnh nhiệt độ cơ thể. Mắt của nó có khả năng di chuyển riêng biệt.
+  reptile.cobra:
+    label: cобра
+    summary: Rắn có độc với đặc điểm nhận dạng rõ ràng - hình dáng chiếc mũ trùm đầu.
+    info: Cobras là loài rắn có độc thuộc họ Rắn hổ mang nổi tiếng với khả năng phồng da sau đầu thành cái mũ như một hành động cảnh báo khi bị đe dọa. Chất kịch毒 của chúng làm tê liệt hệ thần kinh con mồi bằng neurotoxin. Cobras mắt kính được coi là biểu tượng quốc gia ở Ai Cập và Ấn Độ.
   reptile.crocodile:
     label: crocodile
     summary: Ancient large reptile living near rivers and swamps.
     info: The Nile crocodile is one of the largest reptiles in the world. It lives in Africa and hunts from water. It has the strongest bite force among all living animals.
+  reptile.flying_dragon:
+    label: thằn lén biết bay
+    summary: Một loại cá thể động vật sống tại khu vực đông nam á được đặc trưng bởi kỹ thuật phi công nghệ cao trong việc điều khiển thân mình qua khoảng cách lớn mà không cần cánh cụp hay đập mạnh mẽ như chim thường làm vậy.
+    info: '{"hint":"con thằn lén bay bằng màng da mở rộng từ xương sườn","info":"Thằn lén biết bay (Draco volans) là một loài bò sát nhỏ ở Đông Nam Á có khả năng trượt không khí nhờ vào tấm mô liên kết căng trên các xương sườn kéo dài ra ngoài.","label":"thằn lén biết bay","summary":"Loài rắn nhảy ngắn của châu Á sử dụng những phần mềm để di chuyển giữa cây và cây."}'
+  reptile.frilled_lizard:
+    label: thằn lén có cổ áo
+    summary: Con thằn lén này phồng lên chiếc 'áo khoác' lớn trên lưng để phòng thủ đồng thời di chuyển về phía trước chỉ dùng đôi chân sau.
+    info: Thằn lén có cổ áo là loài bò sát ở Úc mà phần da gấp quanh cổ của nó mở ra khi bị đe dọa như một hành động cảnh báo. Nó chạy bằng hai chân sau giống hệt con khủng long tí hon và thường được thấy trong trạng thái thư giãn với lớp da đó cuộn lại thành nếp nhăn nhỏ gọn.
   reptile.frog:
     label: cóc
     summary: Một loài động vật hai giới xanh có mắt đỏ và nhảy.
@@ -18,19 +82,143 @@ cards:
     label: gekon
     summary: Con thằn lằn nhỏ có khả năng bò trên các bề mặt thẳng đứng.
     info: Thằn lằn gecko là loài bò sát được nuôi trong phòng kính phổ biến. Chúng leo tường và đá bằng hàng triệu sợi lông vi mô ở chân chứ không phải nhờ keo dính.
+  reptile.gharial:
+    label: rái cá
+    summary: Loại động vật giống trăn dưới nước chuyên hóa về việc ăn cá.
+    info: Rái cá là một loại rắn nước ở Ấn Độ có đặc điểm nổi bật với mõm rất dài và hẹp thích nghi để săn bắt cá. Con đực có phần nhô ra trên đầu mũi gọi là gharo. Loài này đang bị nguy cơ tuyệt chủng cao vì chỉ còn sống trong các con sông miền bắc Ấn Độ và Nepal.
+  reptile.gila_monster:
+    label: heli
+    summary: Loài rắn nặng và to ở vùng tây nam Hoa Kỳ với lớp da hoa văn như đá quý.
+    info: Hổ mang Heloderm (Gila monster - tên khoa học là Heloderma suspectum) là một trong số ít loài thằn lén có độc trên thế giới.
+  reptile.glass_lizard:
+    label: thằn lén
+    summary: Loài thằn lát không chân nhưng vẫn khác hoàn toàn về mặt sinh học với một chú rắn.
+    info: Thằn lén mù thường là loài thằn lét không chân sống khắp châu Âu và dễ bị nhầm lẫn với rắn. Khác biệt so với các con rắn thì chúng có mi mắt cử động được cùng những hốc tai nhỏ. Thằn lén này còn biết tách đuôi để tự vệ—dui sẽ mọc lại sau đó.
+  reptile.hawksbill_turtle:
+    label: rùa Hawksbill
+    summary: Loài cá thể có nguy cơ cao với cái mõm nhỏ hẹp đặc trưng.
+    info: Rùa Hawksbill là loài rùa biển thuộc chi Eretmochelys đang bị đe dọa nghiêm trọng về mặt sinh học và môi trường tự nhiên của nó. Vỏ ngoài từng được dùng để sản xuất hàng hóa từ da bò giả như ví hoặc dây chuyền thời trang nhưng việc buôn bán bất hợp pháp đã gần khiến chúng tuyệt chủng hoàn toàn.
+  reptile.horned_lizard:
+    label: thằn lén có sừng
+    summary: Loài thằn lén nhọn hình dạng bằng của châu Mỹ với những cái sừng trên đầu.
+    info: Thằn lén có sừng (phylum Phrynosoma) là loài thằn lén phẳng và gai sống ở các sa mạc phía tây nam Hoa Kỳ và Mexico. Khi bị đe dọa, nó có thể bắn máu từ mắt ra xa hơn một mét như cơ chế tự vệ.
+  reptile.iguana:
+    label: thằn lén xanh
+    summary: Con thằn lén xanh khổng lồ từ khu vực Châu mỹ Nhiệt Đới mang hình dáng mào cứng.
+    info: '{"hint":"con thằn lén ăn cỏ to có gai trên lưng","info": "Thằn lén xanh là loài rắn lớn sống ở châu Mỹ nhiệt đới dài tới hai mét\.\nNó có con mắt thứ ba phía sau đầu \(mắt trung tâm pariental\), nhạy cảm với ánh sáng và sự biến đổi của nó\.\nChúng xã hội hóa cao; bản đồ quyền lực được thể hiện qua hành vi đẩy cổ hoặc màu sắc da\.\nLoài này đang bị nguy hiểm chủ yếu do mất môi trường tự nhiên; khi nuôi trong điều kiện nhân tạo thì chúng trở nên hung dữ như người trưởng thành."}'
+  reptile.king_snake:
+    label: rắn hoàng gia
+    summary: Loại rắn không chứa nọc tại Hoa Kỳ được đề cập đến đây hoàn toàn kháng lại mọi tác động gây hại từ chất kịch độc tồn tại bên trong thân hình những chú Rattlesnake.
+    info: '{"info":"Rắn hoàng gia là loài rắn không có nọc ở Mỹ và có khả năng ăn các loại rắn độc khác bao gồm cả cạp chai mà nó miễn dịch với chất kịch độc của chúng.\rMàu sắc sặc sỡ (vân đen trắng xen kẽ nhau) giúp mô phỏng lại màu sắc đặc trưng trên cơ thể con cá đuối san hô một cách gần giống nhất.\rNó đóng vai trò quan trọng trong việc kiểm soát số lượng chuột,birds,reptiles,v.v.. \rĐây cũng chính là lý do khiến cho người ta nuôi làm thú cảnh vì tính tình hiền lành"}'
+  reptile.komodo_dragon:
+    label: con rắn khổng lồ
+    summary: Loài thằn lằn活着最大的动物，来自印度尼西亚的科莫多岛。
+    info: Rồng Komodo là loài thằn lằn sống còn lớn nhất thế giới với chiều dài hơn ba mét và cân nặng lên tới trên bảy mươi kilogram. Trước đây người ta tin rằng nó giết con mồi bằng vi khuẩn trong nước miếng nhưng thực tế thì chúng có tuyến độc tố. Rồng này săn các loại như sơn dương, heo rừng thậm chí cả trâu.
+  reptile.leatherback_turtle:
+    label: rùa da
+    summary: Loài rùa biển to nhất trên Trái Đất sở hữu bộ giáp làm từ chất liệu mềm mại thay cho cấu trúc chắc chắn.
+    info: Rùa da là loài rùa biển lớn nhất thế giới với chiều dài hơn hai mét và cân nặng vượt quá bảy trăm ki-lô-gam. Thay vì mai cứng bằng xương như các loại khác thì nó có lớp vỏ được củng cố bởi những mảnh xương nhỏ gọi là osteoderm. Nó di cư quãng đường rất xa qua đại dương—đã ghi nhận hành trình lên đến mười sáu nghìn kilômét—and ăn hoàn toàn sứa.
   reptile.lizard:
     label: thằn lằn
     summary: Bò có vảy bốn chân phổ biến ở các vùng nhiệt đới.
     info: Iguana xanh là một loài thằn lằn lớn đến từ Trung và Nam Mỹ. Nó ăn thực vật, rất giỏi leo trèo và có khả năng tái tạo lại phần đuôi bị gãy.
+  reptile.mamba:
+    label: rắn đốm
+    summary: Loài rắn cực kỳ độc hại sinh sống tại khu vực rừng nhiệt đới Châu phi.
+    info: '{"hint":"had nhanh và độc nhất châu Phi","info":"Con Mamba đen là một trong những con rắn có tốc độ cao và chứa chất kịch tính mạnh mẽ trên thế giới.\n Nó di chuyển với vận tốc hơn cả 20km/giờ khi bò ở mặt đất cũng như leo trèo lên cây cối rất thành thạo. \nChất độc thần kinh của nó nếu không được điều trị bằng kháng thể sẽ gây tử vong chỉ sau vài giờ đồng hồ.\nTên gọi ''con Rắn Đen'' đến từ màu sắc bên trong miệng chứ không phải do lớp da ngoài cơ thể chúng - thường mang tone xám hoặc olive."}'
+  reptile.matamata:
+    label: Rùa matamata
+    summary: Loại rùa kiểu dáng kỳ dị từ khu vực Trung - Nam Mĩ mô phỏng hình dạng các mảnh vụn thực vật.
+    info: Một trong những loài rùa nước ngọt kỳ lạ nhất ở đông nam châu Mỹ Nam là Matamata có vỏ và đầu trông giống như một chiếc lá mục nát hoặc cành cây chết – đây chính xác là sự ngụy trang tuyệt vời cho nó khi sống dưới đáy sông hồ đục đặc trưng của rừng nhiệt đới Amazôn.
+  reptile.monitor_lizard:
+    label: thằn lằn
+    summary: Thằn lằn rắn đuôi cáo là một loại bò sát săn mồi hoạt động mạnh mẽ.
+    info: Rồng komodo là loài thằn lằn lớn nhất còn sống trên thế giới với chiều dài hơn ba mét và có đầu lưỡi phân nhánh dùng như cơ quan khứu giác để ngửi mùi thức ăn từ xa.
+  reptile.mud_turtle:
+    label: bùi nhúi
+    summary: Loài ba ba nước ngọt bán thủy sinh có kích thước nhỏ tại châu Mĩ.
+    info: Rùa bùi nhúi (kinosternon) là những con rùa nhỏ khoảng 15cm sống ở Bắc và Trung Mỹ. Khi bị đe dọa chúng tiết ra mùi mạnh từ các tuyến hương của mình để tự vệ.
+  reptile.mudskipper:
+    label: cá trèo
+    summary: Loài cá đi bộ được ở cạn nhờ vào các fin ngực.
+    info: Cóc lội bùn là loài cá thuộc họ Cá đinh, sống phần lớn cuộc đời ngoài nước và di chuyển trên nền đất mềm bằng những鳍 ngực to rõ như bánh xe. Nó hô hấp qua da luôn giữ độ ẩm cao đồng thời có thể leo lên rễ cây ngập mặn.
+  reptile.newt:
+    label: cócgai
+    summary: Loài bò sát có đuôi sống vừa trên mặt nước vừa trên cạn.
+    info: '{"hint":"con cá sấu nhỏ bán thủy sinh có đuôi phẳng","info":"Cóc lớn là loài cóc to nhất ở Trung Âu với chiều dài lên đến hơn 15cm.\nTrong mùa giao phối con đực nổi bật bởi lưng rõ ràng và những vết chấm như rắn.\nỞ Cộng hòa Séc tất cả các loại cóc đều được luật pháp bảo vệ.\nMùa đông chúng sống dưới gốc cây hoặc trong hang đất ngoài nước."}'
+  reptile.poison_dart_frog:
+    label: cócsừng
+    summary: Loại cóc màu sặc sỡ rất kịch độc đến từ châu Mĩ Nhiệt Đới.
+    info: Cóc rừng là loài cóc nhỏ thuộc họ Cóc dendrobatid sống trong các khu rừng nhiệt đới ở Trung và Nam Mỹ của nó. Màu sắc rực rỡ như đỏ, xanh lam hoặc vàng trên cơ thể chúng được dùng để cảnh báo về độc tính cao (hiện tượng aposematism), một số loại thậm chí còn trở thành động vật xương khớp nguy hiểm nhất thế giới.
+  reptile.python:
+    label: python
+    summary: Loài rắn lớn không chứa nọc độc nhưng vẫn có khả năng làm chết người.
+    info: Rắn蟒 là loài rắn không có nọc độc dài nhất thế giới; Rắn蟒 lưới có thể đạt chiều dài hơn 7 mét và giết猎物 bằng cách siết cổ chứ không dùng chất kịch độc như các loại khác.Rắn蟒 có cảm biến nhiệt giúp phát hiện động vật máu nóng ngay cả trong bóng tối.
+  reptile.rattlesnake:
+    label: rắn lông xanh
+    summary: Loài bò sát sinh sống chủ yếu tại khu vực Bắc Mỹ.
+    info: Rắn lông xanh là loài có nọc độc thuộc nhóm rắn hổ mang với đặc điểm nổi bật là cái đuôi rung ở cuối thân mình. Cái đuôi này được cấu tạo từ các đốt xương hóa đá và khi bị uy hiếp sẽ phát ra âm thanh cảnh báo nguy hiểm cho kẻ thù biết đến sự hiện diện của nó.
   reptile.salamander:
     label: mlok
     summary: Động vật lưỡng cư có vảy nhẵn và đuôi dài.
     info: Mlok có chấm là loài động vật lưỡng cư được bảo vệ tại Trung Âu với những đốm vàng đen trên da. Nó tiết ra chất độc qua da và sống trong các khu rừng ẩm ướt.
+  reptile.sea_snake:
+    label: rắn biển
+    summary: Loài rắn một loại động vật có xương sống đã được điều chỉnh đặc biệt cho đời sống ở vùng ven biển và có đuôi dạng lá.
+    info: Rắn biển là loài bò có độc thuộc họ Rắn nước thích nghi hoàn hảo với cuộc sống dưới đại dương. Chúng sở hữu đuôi phẳng như mái chèo để giúp chúng di chuyển trong môi trường thủy sinh này.
+  reptile.skink:
+    label: skink
+    summary: Thằn lằn có lớp da bóng bẩy cùng đôi chân ngắn.
+    info: Skinks là một họ lớn các loài thằn lằn với hơn 1.500 loài và có đặc điểm nổi bật là những chiếc vảy trơn láng hình xoắn. Một số loài bị teo chân hoặc hoàn toàn không có chân. Skink màu xanh dương Úc phun ra cái lưỡi sáng màu lam rõ ràng như tín hiệu cảnh báo cho kẻ săn mồi.
   reptile.snake:
     label: rắn
     summary: Động vật bò có vảy dài và mềm không chân.
     info: Rắn là loài bò sát với cơ thể kéo dài không có chi. Có hơn 3.700 loài rắn; chúng săn mồi bằng khứu giác (cơ quan Jacobson) và một số loài mang độc.
+  reptile.snapping_turtle:
+    label: rua gai
+    summary: Loài rùa nước ngọt to con của châu Mĩ với hàm răng chắc.
+    info: Rùa gai là loài rùa nước ngọt lớn và hung hăng ở Bắc Mỹ có hàm răng khỏe mạnh dạng móc câu. Nó trở nên hung dữ trên mặt đất nhưng hiền lành hơn trong môi trường dưới nước. Rùa này nặng tới hàng chục kilogram và sống được nhiều năm.
+  reptile.thorny_devil:
+    label: Thằn Lằn Có Gai
+    summary: Loài thằn lằn sống tại Úc với lớp vỏ ngoài nhiều gai giúp thu thập độ ẩm bằng cách sử dụng hệ thống kênh mao mạch.
+    info: |-
+      {"hint":"con rắn có gai ở Úc dẫn nước sương tới miệng","info":"Con Moloch có gai là một loài thằn lằn nhỏ của Úc được bao phủ bởi hàng ngàn cái mỏng nhọn.
+      Nó sở hữu khả năng hấp thụ nước qua da nhờ các đường viền mao quản giữa những chiếc móng này; lượng nước sẽ chảy trực tiếp đến miệng nó.
+      Chúng chỉ ăn côn trùng thuộc họ kiến và mỗi lần kiếm thức ăn chúng nuốt lên đến hơn hai nghìn con kiến
+      Trên lưng đầy gai còn mang đầu giả như chiến thuật phòng thủ."}
+  reptile.toad:
+    label: ếch
+    summary: Động vật lưỡng tính sống chủ yếu ở đất liền với nhiều mụn.
+    info: |-
+      Ếch nhái châu Âu là loài cóc phổ biến nhất tại Cộng hòa Séc.
+      Những gai trên da không phải để cắn ruồi mà dùng làm lớp bảo vệ và tiết ra chất độc chống kẻ thù.
+      Nó di cư mỗi năm thành đàn lớn đến các hồ nước sinh sản;
+      tại CH Séc người ta thường hỗ trợ chúng qua đường bộ.
   reptile.tortoise:
     label: rùa cạn
     summary: Động vật bò sát chậm chạp có mai tròn sống trên đất liền.
     info: Rùa voi là loài rùa cạn lớn nhất thế giới. Nó sinh sống ở quần đảo Galapagos và có thể sống hơn 150 năm. Mai của nó là một phần của bộ xương.
+  reptile.tree_frog:
+    label: rośnicza
+    summary: Loài cóc sinh hoạt trên cành cây bằng cách sử dụng các gai hút.
+    info: Cóc xanh lá là loài cóc nhỏ thuộc họ Cacix (Hylidae), với những đệm mút ở đầu ngón chân giúp bám vào các bề mặt trơn nhẵn để leo cây. Tại Cộng hòa Séc chỉ sống một loại tự nhiên của nó – đó là cá thể được bảo vệ bởi luật pháp và thường thay đổi màu sắc từ xanh sang xám hoặc vàng tùy nhiệt độ và độ ẩm môi trường.
+  reptile.tuatara:
+    label: đồng tiền vàng
+    summary: Loài hóa thạch còn sót lại duy nhất ở châu Phi.
+    info: Động vật tuatar là một trong những loài bò sát cổ xưa nhất thế giới; bộ của nó đã tồn tại từ thời khủng long. Nó chỉ sống trên các hòn đảo thuộc New Zealand và phát triển cực kỳ chậm chạp - phải mất đến hơn mười năm để đạt được tuổi dậy thì. Một số cá thể già có độ tuổi lên tới cả trăm năm.
+  reptile.uromastyx:
+    label: uromastyx
+    summary: Thằn lền sa mạc với đuôi nhọn ở châu Á.
+    info: Uromastyx là loài thằn lén sa mạc từ Bắc Phi và Trung Đông có đuôi gai đặc trưng dùng để tự vệ.
+  reptile.viper:
+    label: rắn
+    summary: Một con mèo rừng rắn độc với cái đầu dạng tam giác và thân dài quấn cuộn.
+    info: '{"hint":"rắn độc có đầu tam giác và chất kịch độc làm tan máu","info":"Rắn lục là loài rắn độc duy nhất tự nhiên sinh sống tại Cộng hòa Séc.\Nó được nhận biết bởi họa tiết uốn khúc trên lưng và răng nanh hình gai nhọn đặc trưng của nó.\Việc bị cắn gây đau đớn cần sự giám sát y tế nhưng hiếm khi nguy hiểm đến tính mạng người lớn khỏe mạnh.\Loài này đang được pháp luật bảo vệ; ở cộng hoà séc không thể bắt hay giết chúng dưới bất kỳ lý do nào."}'
+  reptile.wall_lizard:
+    label: tắc kè tường
+    summary: Loài tắc kè mảnh khảnh di chuyển nhanh ở những khu vực như tường hay sườn núi đá.
+    info: Tắc kè tường là loài tắc kè nhỏ có nguồn gốc từ châu Âu phía nam và Bắc Phi tây bắc. Nó được du nhập vào Cộng hòa Séc nơi sinh sống trên các tảng đá nóng hoặc bức tường. Loài này nhanh nhẹn linh hoạt khi gặp nguy hiểm sẽ tự cắt đuôi để thoát thân.
+  reptile.worm_lizard:
+    label: đỉa giun
+    summary: Động vật lưỡng cư không đuôi sống chui luồn trong hang hốc.
+    info: Các loài đỉa giun là những động vật bò sát không có chân thuộc nhóm Amphisbaenia sống ở châu Phi và Nam Mỹ nhiệt đới ít được nghiên cứu kỹ hơn so với các loại rắn khác. Về mặt hình dạng bên ngoài chúng giống như một con dế to lớn dài ngoằng ra mà còn mang trên mình lớp da phân đoạn rõ ràng cùng đôi mắt nhỏ lép ngắn ngủn nữa đấy! Chúng dành cả đời sinh hoạt dưới lòng đất bằng cách di chuyển đặc trưng kiểu accordion đồng thời ăn côn trùng.

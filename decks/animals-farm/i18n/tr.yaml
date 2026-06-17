@@ -2,6 +2,30 @@ lang: tr
 pivot: false
 title: Ekonomik Hayvanlar
 cards:
+  farm.alpaca:
+    label: alpaka
+    summary: İnce yünü için beslenen lamanın küçük soyunu temsil eder.
+    info: Lama'nın küçük bir türü olan Alpaca, yüksek dağlık bölgelerde yetiştirilir. Lifleri dünyadaki en yumuşak doğal liflerden birisidir; sıcak tutar, hipoteylijeniktir ve kürdan daha yumuşaktır.
+  farm.barn_cat:
+    label: eve oturan kedi
+    summary: Tarım amacına yönelik olarak faresini temin etmek için yetiştirilen eve oturan kedi.
+    info: Eve oturmuş bir kedidir ve tarımsal ortamda fareleri ile tilkiyi avlar. Hayvan yemi ve buğday gibi tahıl depolarını kemiricilerden korurlar. Genellikle ev içlerinde yaşayan kedilere göre insanlara daha az sosyalleşmiştir.
+  farm.beehive:
+    label: Bal Arılığı
+    summary: Ahşaptan yapılan bu yapı, medoнос arısına sunulan yapay evdir.
+    info: Bir kovanın tipik olarak 50 bin ila 80 binden fazla bal arısı içerdiği ahşap bir yapının içinde yaşayan ve doğal ağacın boşluğunu yerine geçen bu yapılar yabanıl arıların yaşam alanını değiştiriyor.
+  farm.boar:
+    label: erkek
+    summary: Yabanî ya da evcilleştirilmiş geyik.
+    info: Erkek bir evcil veya yabanıl geyiği olarak yetiştirilen ve sterilize edilmemiş erkektir. Tarım alanlarında üremen için kullanılır; spermi yapay tohumlama amacıyla değerlendirilir. Yabani erkek geyikler güçlü dişleri vardır ve saldırıya karşı savunma yeteneğine sahiptir. Gastronomide eti değerli kabul eden av hayvanıdır.
+  farm.calf:
+    label: tel
+    summary: Büyük baş gülgeninin bebeği.
+    info: Telle süt veren bir boğa ile doğurduğu bebek hayvanıdır ve doğumdan itibaren ya emzirilmesi sona erene kadar veya yaşının en fazla bir yıl olmasına kadardır. Yeni doğan telin annesiyle güçlü bağları vardır çünkü anneye olan refleksif bağlılığı iyidir. Süt üretimi için yetiştirilen telloar kısa sürede ana babasından ayrılır. Telat eti birçok Avrupa mutfağında değerli bir yemektir.
+  farm.carp:
+    label: Balık
+    summary: Bol miktarda tatlı su alanlarında yetişen bir denizaltı çeşididir.
+    info: Orta Avrupa'daki orta çağda özellikle Çek Cumhuriyeti'nde yetiştirilen kaplan balığıdır. Tüm yemeği seven bu tür hızlı büyümekte olup kilosu 30'un üstüne çıkabilmektedir.
   farm.chicken:
     label: horoz
     summary: Yumurta veren tarımsal bir kuş.
@@ -10,6 +34,10 @@ cards:
     label: inek
     summary: Süt veren büyük tarımsal bir hayvan.
     info: İnekler süt ve et üretimi için çiftliklerde beslenir. Dünya genelinde en önemli besin kaynaklarından biridir; bir inek günde yaklaşık olarak 20–30 litre süt verebilir.
+  farm.deer:
+    label: farmda yetişen geyik
+    summary: Et üretimine yönelik çiftlikte beslenen geyik ya da daman.
+    info: Çek Cumhuriyetinde dağ ve çalı geyikleri hayvan çiftliklerinde et üretimi için yetiştirilmekte olup bu türden elde edilen kırmızı et sağlıklı bir seçenek olarak değerlendiriliyor.
   farm.donkey:
     label: Eşek
     summary: Güvenilir yürüyüşlü kulaklı çalışkan hayvan.
@@ -18,19 +46,166 @@ cards:
     label: ördek
     summary: Yaprak burunlu su kuşu, tarlalarda beslenir.
     info: Ördek et ve yumurta üretimi için yetiştirilen bir kuştur. Parmakları arasındaki yüzen zarlar sayesinde iyi yüzer ve karakteristik bir ses çıkarır.
+  farm.emu:
+    label: Emü Tarımı
+    summary: Avustralyada emülerin yağı, eti ve derisinden yararlanmak amacıyla yetiştirilmeleridir.
+    info: Australya'da emü, etleri için ve yağları ile cilt bakımında kullanılan derisi için çiftliklerde yetiştirilir. Emü yağı anti-inflamatuar özelliklere sahiptir ve geleneksel ve çağdaş tıpta kullanılır. Emü tarımının Avrupa'ya da yayılması bekleniyor.
+  farm.farm_shrimp:
+    label: farm kenevirgaları
+    summary: Denizin kenarındaki havuzlarda yoğun şekilde yetiştirilen deniz kenevirgasıdır.
+    info: Beyaz Pasifik Kenevirgasi kümeslerde dünyada en çok yetiştirilen kabuklu deniz hayvanıdır. Özellikle Güneydoğu Asya ve Latin Amerikasında bu tarım yapılır. Yoğun kenevirgası养殖ı mangle çalılıklarına zarar verdiği için tartışmalı bir konudur.
+  farm.foal:
+    label: fohsa
+    summary: Yeni doğmuş bir ata denk gelen ifadeyi belirtmektedir.
+    info: Fohsa bir yaşından küçük atın yavrusu demektir. Fohlalar doğduktan birkaç saat sonra ayakta durmaya başlar ve emmeye devam ederler. Vücuduna göre oldukça uzun bacakları vardır ama bu zamanla kısalır. Genellikle eğlenceli ve meraklıdır fakat eğitimleri iki ila üç yaşında başlatılır.
+  farm.freshwater_crayfish:
+    label: saçaklı deniz kabuklu
+    summary: Yem olarak beslenilen tatlısu kabuklusudur.
+    info: Akdeniz sazanı Çek Cumhuriyetinde geçmişte yaygındı ancak bir salgın hastalığından dolayı neredeyse yok olmuştu ayrıca su kirliliği de bu durumu etkilemiştir. Bugün özel yetiştiricilik merkezlerinde yetişir hale gelmiştir.
+  farm.garden_snail:
+    label: balkon kabuğu
+    summary: '''Escargot'' adıyla fransız mutfağında tüketilen tüketime uygun büyük karada yaşayan bir hayvan.'
+    info: Balkon kabuğu (garden helix), Avrupa'nın en büyük karasal yengecini temsil eder. Fransız mutfağında 'escargot' olarak bilinen bir delicilik ürünüdür. Kış mevsiminde örtülecek şekilde deniz kabuğunun içine gider; bu durum hibernasyona yol açar.
   farm.goat:
     label: keçi
     summary: Lezzetli süt veren, boynuzlu tarım hayvanı.
     info: Yerel keçiler süt, et ve yünü için yetiştirilir. Kurak bölgeler dahil olmak üzere çeşitli bitki örtülerine adapte olabilirler.
+  farm.goat_dairy:
+    label: Süt veren koç
+    summary: Peynir yapımı amacıyla yetiştirilen ve yoğurt üretimi ile ilişkilendirilebilecek şekilde değerlendirildiği bilinen bir hayvan.
+    info: Evde beslenen keçilerin tırmığı bin yıldan fazla süredir evcilleştiriliyor ve en yaygın tarım hayvanlarından biri oluyorlar. Kuzu sütü vitamin açısından çok zengindir ve sığır sütünden daha kolay sindirimlidir; bu yüzden laktoz toleranssızlığı olan insanlara uygundurlar. Taze peynire benzer Chevres veya Fetalar gibi meşhur peynirlere kadar birçok ürün elde edilirken, halloumis de içeride yer alabilirler. Ayrıca dayanıklı oldukları için dağlık arazilerde otlayabilmektedir.
+  farm.goose:
+    label: evcil hüh
+    summary: Et, tüyü ve süzgeçleri için yetiştirilen büyük bir kuş türüdür.
+    info: Domestike hüsne binlerce yıl önce yabanıl hüsnelere dayanmaktadır ve evcilleştirilen hayvanlardan biridir; Roma'daki Capitol Hükümdarları'nın kapısını korumak için kullanılırdılar. Evcil hüsne eti, yumurtaları ile beraber değerlidir ayrıca karaciğeri de prestijli olarak kabul edilmektedir.
+  farm.guinea_fowl:
+    label: papagan
+    summary: Yılanlardan korunmak için yetiştirilen Afrikalı papaga
+    info: Afrika'da çöl bozkırı gibi alanlarda yabanıl olarak yaşayan helmetli papağandaki bir kuş türüdür. Tarım arazilerinde doğal gözetleyici olarak değerlidir çünkü sığırların yakınında olur ve gürültülü sesleri ile yılanları ya da yabancı insanlar tarafından fark edilebilmesini sağlayabilirler. Gri renkte beyaza dalmış tüylere sahiptir ayrıca kırmızılı mavi tonlarında baş kısmı vardır.
+  farm.guinea_pig_farm:
+    label: Guinea Pig
+    summary: Latince Amerika'da beslenen veya bir hayvan olarak tutulan guinea.
+    info: Domestic guineafrogunuz Andorlardan gelir ve İnkalar tarafından binlerce yıl önce et kaynağı olarak evcilştirilmiştir.
+  farm.highland_cattle:
+    label: İrlik İngilizeyi Boğu
+    summary: Kahverengimsi uzun tüylü ve büyük boynuzlu İrlik İngilterek boğıları.
+    info: Scottish Highlands Irlande'nin çayırlı ve soğuk iklimine uyum sağlamış eski bir boğa ırkıdır.
   farm.horse:
     label: at
     summary: At, hem yolculuk hem de iş için kullanılan güçlü bir tarım hayvanıdır.
     info: Binlerce yıldır ulaşım, tarım ve savaşta vazgeçilmez olan evcil at, günümüzde spor ve eğlence amacıyla da yetiştirilmektedir.
+  farm.lamb:
+    label: kuz
+    summary: Bir yaşında olana dek genç bir keçi; baharı ve macera ruhunun belirtisi.
+    info: Kuzu bir yaşına kadar olan küçük bir keçidir ve genellikle ilk günlerinden itibaren otlarla beslenmeye başlar. Hristiyanlık'ta beraberlik simgesini temsil ederken aynı zamanda İsa'nın Tanrısal Koyunu olarak sembolizasyonu da vardır.
+  farm.llama:
+    label: lame
+    summary: Yünlüsü için yetiştirilen bir alpağa türü.
+    info: Alpaka adlı bu hayvanı İnkalar bin beş yüz yıldan fazladır evcilştiriyorlar ve And Dağları'nda ana yük taşıma memeli olarak kullanılıyorlardı. Alpakalara bedensel kilosunun yüzde otuzunu taşımak yetebiliyor. Yünleri ısıtıcı özelliklerinden dolayı değerli oluyor.
+  farm.mule:
+    label: mezek
+    summary: At ve eşekten elde edilen sterilden güçlü ve dayanklı bir hayvan.
+    info: Hybrid bir atın dişisi ve eşeği ile meydan okuyan adı mezektir; bu iki canlının tersi yönündeki hibritine ise 'mule' denmektedir.
+  farm.mussel:
+    label: slava
+    summary: Deniz tuzlu sularda halatlara tutturularak beslenen yemeli iki kanatlı deniz kabuklusudur.
+    info: Yemeğin bir parçası olan slavka Avrupa'nın Atlantik sahilleri boyunca çiftliklerde yaygın olarak yetiştirilir. Gelgit suyunda halatlar veya halkalar üzerinde yetiştirilmektedir.
+  farm.ostrich:
+    label: et, tüy ve deri üretimi yapan emül
+    summary: Eti, tüyü ve derisinden dolayı beslenmesi amaçlanan emü.
+    info: Emü emekli kuşun en hızlı iki bacaklıdır ve etiyle birlikte tüyleri ile derisi için çiftliklerde yetiştirilir.
+  farm.ox:
+    label: ox
+    summary: Emeksiz sığır geçmişte en önemli tarım çekme hayvanıydı.
+    info: |-
+      Ox, iş yapmak için evcilendirilmiş domesticus bovine'ın emektirici erkektir.
+      Yüzyıllar boyunca dünyanın çoğu yerinde tarımın temel çekme hayvanıdır.
+      Gücünün yanında itaatkar doğası sayesinde ilk dönemlerde atlar kadar çok arazi sürmeye yaramıştır.
+      Modern tarımımda traktörler tarafından değiştirilmiştir fakat gelişmemiş ülkelerde hâlâ kullanılmaya devam edilmektedir.
+  farm.oyster:
+    label: çift kapaklı karides
+    summary: Denizin kenarındaki sularda ipler veya ağlar üzerinde çift kabuğu bir yaratık.
+    info: Çift kabuklu deniz hayvanı olan midye sahil sularında ip ya da kafeslerde yetiştirilir ve olgunlaşması yaklaşık olarak üç ila beş yıl sürer. Midyeler suyu süzerken aynı zamanda okyanusların temizlenmesine yardımcı olurlar.
+  farm.peacock:
+    label: evcilleştirilmiş pağak
+    summary: Pağak erkeği bahçe veya tarım arazilerinde estetik amaçlı yetiştirilen kuştur.
+    info: Mavi pağak Hindistan'dan köken alır ve bin yıldan fazla süredir dekoreatif bir kuş olarak evcil tutulur. Erkek bireyleri (pağıt), dişi bireyi çekmek için yaklaşık yüzden fazla gülüşmeli tüyü açarak etrafa yaydıkları muazzam bir önlük oluştururlar. Pağaçın sesi oldukça yüksek ve keskin olup uzun mesafe taşınabilir.
+  farm.pheasant:
+    label: farm bağırsı
+    summary: Av için çiftliklerde beslenen ve serbest kalacak şekilde dışarıya salınan bu kuşun eti tatlandırıcıdır.
+    info: Çiftliklerde yetiştirilen ve av amaçlı doğaya bırakılan orta büyüklükte bir kuş türüdür.
   farm.pig:
     label: pıras
     summary: Yumuşak burunlu pembe bir evcil hayvanıdır.
     info: Pırasa zeki bir tarım hayvanıdır ve et üretimi için beslenir. Tükenmez yemektedir ve karmaşık görevleri hatırlayabilir.
+  farm.pigeon_farm:
+    label: evcil güvercin
+    summary: Et veya yarışımla uçuşmak amacıyla evcil tutulan güvercidir.
+    info: Evde beslenen taş güvercinidir ve onlarla yüzlerce ırk geliştirilmiştir. Squab yani genç bir güvercinden elde edilen et birçok kültürde değerli bir tatlı olarak kabul görmektedir. Yarışma amaçlı güvercirin hızları için yetiştirilmektedir; rekorlu bireyleri saatte 150 kilometreden fazlasını uçabilir hale gelmektedir.
+  farm.piglet:
+    label: sele
+    summary: Sığırlardan yeni doğmuş bebek hayvanlardır.
+    info: Sele evcilik sığırın ilk haftalarında yaşarlar ve çok küçük doğurları hızlı büyürler. Dişiler genellikle bir doğumda on ila iki buçuk arası yavrular verir.
+  farm.pony:
+    label: At
+    summary: Çocukların binmesinde kullanılan kısa boylu tam kanlı at türüdür.
+    info: Poni küçük bir ata yavrusu olup genellikle omuz yüksekliği olarak en fazla 14,2 el uzunluğunu geçmez ve bu yaklaşık 147 santimetre eder.
+  farm.quail:
+    label: japonyalı ceviz kuşu
+    summary: Yumurta ve et üretimine yönelik tarım amaçlı küçük boyutlu bir kuştur.
+    info: Japon ceviz kuşu evcilleştirilmiş bir kuş türüdür ve yumurta ile et üretimi için yoğun şekilde yetiştirilir. Dişi bireyler neredeyse her gün yumurtlar; bu yumurtalar birçok mutfağın delicatessenıdır. Ceviz kuşları hızlıca olgunlaşır ve altı hafta içinde yumurtlamaya başlayabilirler.
+  farm.rabbit:
+    label: tavşan
+    summary: Et için yetiştirilen ya da peliste kullanılan veya dost canlısı olarak tutulan evcilleştirilmiştir.
+    info: Avrupa kavuniğinden Orta Çağ'dan beri beslenen yabanıl tavşanlardandır. Farklı boyutlarla, renkle ve tüy tiplerindeki 50'ye yakın tanınmış ıslah edilmiş soya sahiptirler. Dişi bir dişimane olarak adlandırılır; bu hayvanların doğumu yılda birkaç kez olmak üzere dört ila on arasında bebek verebilmesine olanak sağlar.
+  farm.ram:
+    label: tekerlekcikoyunu
+    summary: Koyuna壮大な螺旋状の角を持つ成体オス。
+    info: Tekerlekçi koyun erkeği evcil bir hayvan türüdür ve büyük boyutta vidalı boynuzları vardır; dişilerin ise küçük ya da hiç boynuzu olmazlar.
+  farm.rooster:
+    label: tavuk
+    summary: Ev yapımı tavuka sahip olmak; Aurora ismini kullanarak sabaha haber verebilmesi.
+    info: '{"hint":"erkek yetişkin tavuk ile renkli bir kamış ve kırlangıç (gallus gallus domestik)","info":"Erkeği evcil piliğin erkesidir ve rengarenk tüyleriyle tanınır, yarasa ve sivrisinekten kaynaklanan timsah dişlerinin olduğu yerdeki çatlaklar nedeniyle de biliniyor\r\nTavuğu gölgelendirmenin amacı topraktaki böcekleri öldürmek için yapılan tarım işlevsel yöntemdir\r\nÇeşitlilikte bulunan bu bitkiyi Çince''deki on iki hayvandan birisi olarak kabul ediyoruz\r\nEski Yunanlıların asklepion''a sunulan kurbanları arasında yeni doğuş sembolü olan bu kuşun varlığı da mevcuttur","label":"tavuk","summary":"Domesticum pilici masculus; aurora adını vererek güneş doğumunu duyuran."}'
+  farm.salmon:
+    label: sazan
+    summary: Denizin derinde yaşayan bu balıklara yumurtlama için derenlere gelmektedir.
+    info: Atlantik sazanı bir anyodromatik balık olup denizde yetişir ancak üremeye döngüsel olarak doğdukları nehirlere geri dönerler. Anayla olan bağlarını manyetik alanlar ile algılama becerisine sahiptirler. Norveç'te ve İskoçya'da yetiştirilen Atlanti sazaların kültürü su ürünleri üretiminin en büyük sektörlerinden biridir.
   farm.sheep:
     label: koyun
     summary: Şapka veren ve süt veren tıknazlı hayvan.
     info: Koyunlar yün, süt ve et için yetiştirilirler. Sürü içinde yaşarlar ve tarihte evcilleştirilen ilk hayvanlardan biridir.
+  farm.sheepdog:
+    label: Ovçayıcı Köpeği
+    summary: Koyun sürüsünü yönlendirmeyi ve korumayı amaçlayan özel olarak yetiştirilen bir köpektir.
+    info: Border Colli, bir çiftlik üzerinde yavruları yönetmek için göz ve sessiz emirlerle eğitilmiş en popüler köpek ırkıdır. En zeki köpek ırklarından sayılır. Çalışma kapasitesini kalıtım aracılığıyla alırlar ancak bu yetenekleri doğrultarak küçük yaşlardan itibaren antrenmanlarla geliştirilmelidir.
+  farm.silkworm:
+    label: Morus Böceği
+    summary: Yumurtadan çıkan Morus böcekleri doğal bir şekilde ipek üretilmesini sağlar.
+    info: Morus larvası Çin'de 5000 yıldan fazla süredir iplik üretimi için yetiştirilen Bombyx mori kelebeğinin yumurta hâlindeki evresidir.
+  farm.sow:
+    label: ineği
+    summary: Yetmişken bir horoğun dişi bireyi ve yavruyu doğuran ana.
+    info: Domestic bir horozun yetişkin dişisi olan bir ineğin annesi olarak bilinen hayvanlar yavruları için doğal ortamda bakım sağlarken tarım sektöründe sıklıkla yetiştirilirler.
+  farm.tilapia:
+    label: nil tilapia
+    summary: Sıcak iklimlerde küresel ölçekte yoğun şekilde养殖 edilen tatlı su balığı.
+    info: Nil tilapiası dünyada en yaygın olarak yetiştirilen balıklardan biridir ve her yıl milyonlarca ton üretilmektedir. Aslen Nil Nehri'ndeki Afrika gölleri ile ilişkilendirilmekle beraber günümüzde tüm kıtalarda yetiştirilmekte olup dayanıklı yapısıyla bilinir ayrıca hızlı büyümesiyle tanınır. Yemeğe olan ihtiyacı azdır.
+  farm.trout:
+    label: alabalık
+    summary: Balıkların yetiştirildiği sularda ya da serbest su ortamlarında yaşayan tatlısu lososi.
+    info: |-
+      Arkahevi denizanadır ve Avrupa'ya çiftlik balığı olarak tanıtılmıştır.
+      Akarsu alabalığı ise temiz hızlı akan suların doğal Avrupalı türüdür.
+      İlkleri hem spor amaçlı hem de yemek için değerli birer balık olup ikincisi Çek Cumhuriyeti'nin dağlık bölgelerinde gelenekseldir.
+  farm.turkey:
+    label: Horuz
+    summary: Et üretimi amaçlı beslenen büyük bir evcil hayvan, özellikle Kızartmaya özgü.
+    info: Domestican hindi Meksiko'da Aztekiler tarafından binlerce yıl önce evcilştirilmiştir. Erkek horozun karakteristik bir kulaklısı vardır ve kırlangıç tüyü gibi yastık şeklindeki ekşiğini açabilir. Amerikan Güzelliği'nde geleneksel olarak Kızartma için servis edilen etiyle tanınır; dünyada en çok yetiştirilen ikinci kuş türüdür.
+  farm.water_buffalo:
+    label: domestik buvol
+    summary: Asya'da pirinç tarlalarında temel çalıșma hayvanıdır.
+    info: Domestic buffalo is a farmed form of water buffalo and an essential livestock animal across Asia. For thousands of years it has plowed rice fields and transported goods.
+  farm.yak:
+    label: Yak
+    summary: Tibet'te sütü, eti ve çekiş gücü ile bilinen büyük tüylü bir memeli.
+    info: Domestic yak, Tibet'in yüksek düzlüklerinde 3000 ila 5500 metre arasında yaşayan bir hayvandır.

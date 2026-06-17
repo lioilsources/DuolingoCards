@@ -2,6 +2,42 @@ lang: de
 pivot: false
 title: Meeresgetier
 cards:
+  animal.anglerfish:
+    label: Meeresdämon
+    summary: Tiefseefisch mit einer am Kopf befestigten biolu-minescenz ausgestatteten Köder.
+    info: Der Meeresdämon (Lophius) lebt im Dunkel des Oceans unterhalb von etwa tausend Metern Tiefe. Weibchen besitzen an der Stirn eine bioleuchtende Angelhakenstruktur namens Illicitum zur Anziehung ihrer Beute und Männchen. Der männliche Dämon ist außergewöhnlich klein – nachdem er ein Weibchen gefunden hat, hängt sich daran fest und verschmilzt mit ihm auf biologistische Art.
+  animal.barnacle:
+    label: Thyreobräu
+    summary: Kleine Krustentierart, die auf Steinen oder Schiffsgehäusen sesshaft ist.
+    info: Barnen sind sesshafte Krebstiere der Unterklasse Cirripedia und heften sich mit einem Zementabsonderung an Felsen, Schiffsrümpfe sowie Wale an. Sie ernähren sich durch Filtration von Plankton mithilfe ihrer aus dem Gehäuse hervorstehenden Beine.
+  animal.beluga_whale:
+    label: Belaug
+    summary: Kleine weißer Nordpolwalfisch mit gerundeter Kopfform.
+    info: Die Beluga ist eine kleine weiße Wale aus den Meeren des Arktischen und Subarctischen Raums mit einem markanten runden Stirnteil namens Melone zur Echoortung.
+  animal.blue_tang:
+    label: Blaues Meer
+    summary: Helle blaue Riffschwärme; Star aus Finding Nemo.
+    info: Der Blaue Tang (Paracantheirus hepatus) ist eine kleine Meeresfischart mit hellblauer Färbung und einem gelben Schwanz aus den Korallenriffen des Indischen Ozeans und Pazifiks. Der Film 'Finding Nemo' steigerte das Interesse an seiner Tierhaltung, obwohl er anspruchsvoll im Käfigleben ist. Er besitzt einen Schneidrand am Grund der Flosse (Skalpell), von dem sich die Bezeichnung Surgeonfish ableitet.
+  animal.carp_river:
+    label: Flußbarbe
+    summary: Große goldbraune Süßwasserfischart, welche sich vor allem an Flüssen oder Teichen ansiedelt.
+    info: Der Flussbarsch ist von asiatischem Ursprung und wurde bereits im Mittelalter nach Europa eingeführt. Er frisst alles und grabbelt am Boden herum, wobei er das Wasser verschmutzen kann. Der Flussbarsch symbolisiert die tschechischen Weihnachten – Händler verkaufen ihn auf dem Markt lebend aus Becken. Zu den weltweit meistgezüchteten Fischen gehört der Flussbarsch mit über hundert Zuchtrassen.
+  animal.catfish:
+    label: Welse
+    summary: Großer Fisch mit Schnurrhaaren am Boden der Flüsse verborgen.
+    info: Der Große Welse ist die größte Süßwasserfischart Europas und kann eine Länge von über zwei Metern sowie ein Gewicht von mehr als 100 Kilogramm erreichen.
+  animal.clam:
+    label: Großer Muschelnachtmahr
+    summary: Die weltweit größten Muscheln leben an Korallenriffen des Tropik.
+    info: Der Große Muschelkrebsschwanzfisch ist die größte Schnecke der Welt und erreicht eine Länge von über einem Meter sowie ein Gewicht von mehr als 200 Kilogramm. Er lebt im Symbiosenverhältnis mit photosynthetischen Algen namens Zooxantellen innerhalb seiner Mantelfläche. Der Tier kann älter werden als 100 Jahre alt sein.
+  animal.clown_triggerfish:
+    label: Clownpfefferfisch
+    summary: Farbfroh gestaltetes tropisches Riff-Fischen mit weißlichen Punkten und orange gefärbtem Maul.
+    info: "{\"hint\":\"fremdgestylte Korallengestaltete Fische (Balistoides conspicillum)\",\"info\":\"Die Clown-Puffer ist eine große tropische Meeresfischart aus der Familie Balistidae mit einem der farbenprächtigsten Erscheinungsbilder unter den Meeresschildkröten.\r\nSie hat starke Zähne zum Brechen harter Korallen und Muscheln\r\nDer Name Puffer stammt von dem ersten Rückenstachel, der wie ein Sicherungsmechanismus funktioniert, um die Beweglichkeit des zweiten Stachels zu blockieren.\r\nIm Brutzeitraum kann sie gegenüber Tauchern aggressiv sein\",\"label\":\"Clownpfefferfisch\",\"summary\":\"Farbfrohe tropische Fischart mit weißen Flecken und orangefarbenem Mund.\"}"
+  animal.clownfish:
+    label: Augen-Klappfisch
+    summary: Ein orangefarbener Fisch aus der Familie Amphiprionidae, der eng verbunden mit giftigen Meeresseesternen lebt.
+    info: Der Augenklappfisch lebt mit Seesternebielen zusammen und ist gegen deren Gifte durch eine Schutzschicht immun. Er hält die Anemonen sauber und vertreibt Raubtiere, während sie ihm Sicherheit bieten. Alle Klappfische werden zunächst als Männchen geboren – das dominante Individuum kann sich später zu einer Weiblichkeit entwickeln.
   animal.crab:
     label: Hummer
     summary: Zehnfüßiger Krebs mit Panzer und Scherenklauen, der seitlich bewegt.
@@ -10,26 +46,171 @@ cards:
     label: Delphin
     summary: Intelligenter Meeresbewohner, der in Gruppen lebt und aus dem Wasser springt.
     info: Der Delphin ist ein Meeressäuger aus der Familie der Delphine. Er ist bekannt für seine hohe Intelligenz, die Fähigkeit zur Echolokation sowie sein spielerisches Verhalten – Delphine lieben es, über Wellen zu springen und kommunizieren durch Pfeifen und Klicken. Sie leben in Gruppen namens Schwärme und sind nahe Verwandte der Wale.
+  animal.dugong:
+    label: Mantelhai
+    summary: Stiller Meerbewohner aus dem Indischen und pazifischen Raum nahe Verwandtschaft zum Mantel.
+    info: |-
+      Der Delfin ist ein mit dem Manati verwandter Meersäuger im Indischen und Pazifischen Ozean,
+      der ausschließlich von Seegras ernährt wird
+      und als mögliche Inspiration für Meerjungfrauen gilt;
+      die Seeleute verwechselten ihn fälschlicherweise mit anderen Meereswesen.
+  animal.eel:
+    label: Aal/Morra
+    summary: Schlangeartiger Fisch bewegend durch Spalten des Korallentanks.
+    info: Eine Morähe ist ein großer Meeresfisch aus der Familie Muraniden, die sich hinter Rissen im Korallenreefs versteckt. Sie hat zwei Kieferpaare – zusätzlich zu den Mundkiefern besitzt sie innere Schlundkiefe zum Zerren ihrer Beute ins Halsbereich rein. Sie greift nicht aggressiv an und beißt meist nur nach Provokation.
+  animal.flying_fish:
+    label: Lettorneurfisch
+    summary: Ein tropischer Fisch mit flügelartigen Brustflossen zum Gleiten über dem Meer.
+    info: Der Letourneurfisch ist eine Tiefseefische aus der Familie Exocoetiden und kann von Wasser abheben sowie durch die Luft gleiten.
+  animal.frogfish:
+    label: Froschangel
+    summary: Versteckt auf Korallenriffen lauerndes Raubtier, das seine Opfer anlockt.
+    info: Der Anglerfisch (Anglerfish), auch als Antennarius bezeichnet, ist eine kleine Meeresfischart aus der Familie der Antennarier mit hervorragender Tarnung. Er hat Brustflossen geformt wie Füße und bewegt sich damit über den Grund. An seiner ersten Rückenfinne trägt er einen mobilen Köder zum Locken von Beute.
+  animal.giant_squid:
+    label: riesiger Oktopus
+    summary: Das weltweit grössste weichteilige Lebewesen aus den Tiefseebereichen.
+    info: Riesengroße Tintenfische (Architeuthis dux) sind die größten Weichtiere der Welt und erreichen Längen von über 13 Metern. Sie besitzen die grössten Augen im Tierreich mit einem Durchmesser von mehr als 25 Zentimetern – angepasst an das Dunkel der Tiefe. Sie leben auf Meerestiefen zwischen 300 bis 1 000 Meter tief und bilden eine Hauptbeute für Wale. Erstmals wurde ein lebender Riesen-Tintenfisch am Meeresgrund fotografisch festgehalten erst ab dem Jahr 2004.
+  animal.hammerhead_shark:
+    label: Hammerhai
+    summary: Ein Haifisch mit einem typischen breiten kopfartigen Körper.
+    info: Der Hammerhai ist eine Gruppe von Haien mit einer ungewöhnlich verbreiterten flachen Kopfform (Cephaloflex). Der ausgedehnte Schädel ermöglicht bessere Beuteerkennung durch die elektrosensiblen Organe und verbessertes Manövriervermögen im Wasser.
+  animal.horseshoe_crab:
+    label: Hufeißenkrabs
+    summary: Ein uralter Tierschwimmer der seit über vierfünfig Million Jahren fast gleich geblieben.
+    info: Der Hufeisenkrebs ist ein etwa 450 Millionen Jahre alter Gliederfußtier aus dem Devon mit kaum verändertem Aussehen bis heute. Er steht nicht im Verwandtschaftsverband zu den wahren Krustentieren wie Krebstierchen oder Garnelen und ist näher verwandt mit Spinnentieren als solche. Sein blaues Blut enthält eine besondere Substanz namens Koagulin genutzt für Tests auf Sicherheit von Medikamenten sowie Impfstoffen.
   animal.jellyfish:
     label: Muschelwurm
     summary: Transparents marines Tier im Glockenform mit giftigen Tentakeln.
     info: Ein Muschelwurm ist ein mariner Lebewesen aus dem Stamm der Nesseltiere ohne Gehirn, Herz oder Knochen – sein Körper besteht zu 95 % aus Wasser. Es bewegt sich durch die pulsierende Bewegung seiner glockenförmigen Form voran. Die Tentakel enthalten stechende Zellen (Nematocyten), die Beute lähmen können. Einige Arten sind fast unsterblich – sie können in einen jugendlichen Zustand zurückkehren.
+  animal.lionfish:
+    label: Seeadler
+    summary: Giftiger Tropenfish mit dramatischen Dörntern und gestreiftem Erscheinungsbild.
+    info: Der Rotfleckige Seeadler ist eine giftige Meeresfischart aus der Familie der Steinfische mit markanten roten und weißen Streifen sowie schmerzhaften Dornen. Der Giftstoff verursacht starke Schmerzen; Lebensgefahr entsteht selten. Er gilt als invasive Art im karibischen Raum und Mittelmeer, wo er einheimische Fischarten stark dezimierte.
+  animal.lobster:
+    label: Krebs
+    summary: Großmarinischer Krebstier mit Scherenklauen; kocht rötlich aber lebt blaugrün.
+    info: Der Atlantische Hummer ist ein großer mariner Krebs aus der Familie der Neprowiden und kann eine Länge von über 60 Zentimetern erreichen. Er hat im rohen Zustand einen dunkelbläulich-grünen Farbton und färbt sich erst beim Kochen rot durch die Bildung eines Ketons. Der Hummer kann mehr als fünfzig Jahre alt werden.
+  animal.manatee:
+    label: Dugongs/Mantische
+    summary: Langsam bewegender mariner Pflanzenfresser genannt Seebulle.
+    info: Der Delfinartige Hai (Manati) ist ein großer Meeresbewohner, der ausschließlich von Meergras ernährt wird.
+  animal.manta_ray:
+    label: Rai-Manta
+    summary: Eine große elegante Fischflosse, welche das Phytoplankton nahe der Meeresoberfläche filternd aufnimmt.
+    info: Der Riffmanta ist die größere Art der Mantas mit einer Flügelspanne von über sieben Metern und einem Gewicht von mehr als zweitausend Kilogramm. Er fängt Plankton durch Kiemenbleche während des Schwimmens mit offener Kiefer an. Der Manta hat keinen giftigen Stachel und stellt für den Menschen keine Gefahr dar.
+  animal.mussel:
+    label: Edelmuschel
+    summary: Dunkle Muschelschwärme auf Steinen im Gezeitengebiet.
+    info: Die Edelmuschel ist eine Muschelart aus den Flutzonen des Atlantiks und Pazifiks. Sie hält sich an Felsen mit festen Seidenfäden namens Byssus fest. Die Miesmuscheln filtern das Wasser und dienen als Indikator für die Verschmutzung der Ozeane durch Toxine sowie Schwermetalle.
+  animal.narwhal:
+    label: Walros
+    summary: Eine arktische Robbe mit einer schraubenförmigen Erhebung erinnert an den mythischen Einhorn.
+    info: '{"hint":"\"Arctische Wale mit einem langen Schneckenzahn (Monodon monoceros)", "info": "Der Walross ist eine kleine arktische Robbe (~4 Meter Länge), die sich durch einen markanten Schneckenzahnschmelz auszeichnet – tatsächlich ein überdimensionierter linkser Frontschneidezahn. Der Zahn kann bis zu drei Metern erreichen und fehlt bei Weibchen komplett. Es leben gesellig im Arktischen Ozean. Im Mittelalter glaubte man fälschlicherweise an mystisch heilende Eigenschaften von Narwal-Hörner."}'
+  animal.nautilus:
+    label: Nautil
+    summary: Altes Kopffüßler-Tier im Spiralschalenpanzer, das seit Dinosaurierzeiten existiert.
+    info: '{"hint":"ältester Kopffußtiere mit einer gewundenen Kammernschale (Nautillus)","info":"Der Nautilus ist ein primitives Kopffußtier mit spiralig aufgerollter Schnecke und fast unverändert über die letzten 400 Millionen Jahre geblieben.\nDie Schale besteht aus mehreren Kammerabschnitten; der Nautillius regelt seine Auftriebsfähigkeit durch Gasfüllung dieser Räume.\nIm Gegensatz zu anderen Tintentieren besitzt er einfache Augen ohne Linse (Lichtlochgesehen).\nEr wird international vor Überfischung geschützt."}'
   animal.octopus:
     label: Kalmare
     summary: Schneckenartiges Tier mit acht Tentakeln, das Farbe und Körperform verändern kann.
     info: Ein Kalmar ist ein geripptes Lebewesen aus der Klasse der Kopffüßer. Es hat drei Herzen, bläuliches Blut und kann die Hautfarbe sowie -textur durch Chromatophore sofort ändern. Es ist sehr intelligent – es kann verschlossene Behälter öffnen und Labyrinthe lösen.
+  animal.orca:
+    label: Killerwal
+    summary: Schwarzer Hai mit weißer Maserung
+    info: Die Killerwale ist der größte Vertreter der Delphinfamilie und eines der intelligentesten Tiere auf dem Planeten.
+  animal.oyster:
+    label: Auster
+    summary: Wasserfilternde Schale; Quelle für Perlmuttkugeln und beliebt roh.
+    info: Muscheln filtern Wasser – eine Muschel kann bis zu 200 Liter pro Tag reinigen. Einige Arten produzieren Perlen durch Reize im Mantel von Fremdkörpern. Roh gegessene Austern sind als Delicatesse geschätzt und traditionell nur an Monaten mit dem Buchstaben 'R' verzehrt.
+  animal.piranha:
+    label: Baumart
+    summary: Ein südamerikanischer Fisch mit spitz gebissenen Zähnen.
+    info: Der Rote Bauchpfeilfisch ist ein furchterregender Raubfisch aus dem Süßwasser der Amazons mit spitzen dreieckigen Zähnen.
+  animal.puffer_fish:
+    label: Pufferfisch
+    summary: Ein Pufferball-Fish, das sich bei Bedrohung in ein Stacheltier verwandelt.
+    info: Der Fisch ist eine Art aus der Familie Tetraodontidae und kann sein Körper mit Wasser oder Luft aufblasen zu einem stacheligen Ball. Er enthält Tetrodotoxin – einen starken natürlichen Giftstoff -, weshalb Lebergewebe sowie Geschlechtsorgane tödlich sind.
+  animal.salmon:
+    label: Lachs
+    summary: Große lachsartige Fische steigen vom Meer ins Flussbett zur Paarungszeit.
+    info: |-
+      Lachs ist ein Anadroper Fisch; er wächst im Meer heran und kehrt nach hunderten von Kilometern zu seinen Heimatflüssen zurück, um sich fortzupflanzten
+      Wenn Lachse aufsteigen, verändert ihre Farbe vom Silbernen zum deutlich Rotlichen.
+      Nach der Fortpflanzung sterben die meisten Lachsenarten aus dem Pazifik ab; deren Körper verwesen und nähren so den natürlichen Waldökosystem.
+      Er enthält reichhaltig Omega-3-Fettsäuren.
+  animal.sea_anemone:
+    label: Meeregel
+    summary: Blütengleiches Meereslebewesen mit stechenden Tentakel, bewohnt Korallenriffe.
+    info: Die Meeranemone ist ein Nesseltier (Zwischenkieferer), das an einen auf Felsen befestigten Blumenblüte erinnert und giftige Zellen namens Nematocythen hat, um Beute zu lähmen.
+  animal.sea_cucumber:
+    label: Seegurke
+    summary: Zylinderförmiges Meerestier das anorganische Abfälle vom Grund sammelt.
+    info: Seeigelartige Tiere der Klasse Holothuroidea leben am Meeresboden und filtern Sedimente sowie organisches Material als Nahrung. Bei Bedrohung werfen sie ihre Eingeweide oder eine wässrige Flüssigkeit ab; diese regenerieren sich jedoch später wieder. Siegel sind im asiatischen Raum sehr geschätzt – insbesondere unter dem Namen 'Trepangs' – und bilden traditionell einen Bestandteil chinesischer Küche.
+  animal.sea_lion:
+    label: Kalifornischer Lachs
+    summary: Ein ohrentieriger Robbenart mit dem Können des Laufens auf Schwimmbäuchen.
+    info: Der Kalifornien-Lachsh ist der bekannteste Vertreter der Ohrenrobbenfamilie Otariidae und hat äußere Ohrmuscheln sowie die Fähigkeit zu laufen auf vier Schwimmhäuten an den Vorderbeinen.
+  animal.sea_otter:
+    label: Seeadlerott
+    summary: Der Seeadlerott schwebt rücklings über dem Meeresspiegel und zerbröselt Miesmuscheln mithilfe von Felsen.
+    info: Die Seeadlerotter ist ein Meersäuger Nordamerikas mit der dichtesten Fellbehaarung aller Säugetiere (acht Millionen Haare auf Quadratzentimeter). Sie benutzt Steine als Werkzeug zum Zerbrechen von Muscheln und Schalentieren wie Austern an ihrer Brust. Während des Schlafs schwimmt sie flach im Wasser; um nicht vom Strom fortgerissen zu werden, halten sich die Ottern gegenseitig am Schwanz.
+  animal.sea_slug:
+    label: Plankton/Nacktschneck
+    summary: Farbiger mariner Mollusk mit nacktem Körper auf Riffs.
+    info: Gymnobdelliden oder Nacktschnecken sind farbenfrohe Meereswürmer ohne Schale und leben auf Korallenriffen. Sie haben einige der am meisten auffälligen Farbtöne im Tierreich – diese dienen als Warnung vor Giftigkeit an. Einige Arten übernehmen toxische Zellen aus ihrer Nahrung wie Nesseltiere und nutzen sie zur eigenen Verteidigung.
   animal.sea_turtle:
     label: Meeres­schildkröte
     summary: Ein großer Meeresreptilienart, die zum Eiablage an Strände zurückkehrt.
     info: Die grüne Meeresschildkröte ist eine von sieben Schildkrötengattungen im Meer. Weibchen kehren alle zwei bis fünf Jahre zum Strand zurück, an dem sie selbst geschlüpft sind, um ihre Eier abzulegen. Erwachsene Individuen ernähren sich als Pflanzenfresser von Seetang und Algen; Jungtiere hingegen sind Allesfresser.
+  animal.sea_urchin:
+    label: Seeigels
+    summary: Runder Meeressternfisch mit Borsten auf dem felsenigen Grund.
+    info: Ein Seeigel ist ein mariner Stachelhaut-Tier aus der Gruppe der Echinoiden mit beweglichen Dornen bedeckt.
   animal.seahorse:
     label: Seepferdchen
     summary: Kleine Fischart, die aufrecht schwimmt; der Männchen trägt das Junges.
     info: Das Seepferdchen ist ein Fisch aus der Gattung Hippocampus und bewegt sich im Wasser vertikal mithilfe seiner Rückenflosse. Besonders interessant ist, dass der Männchen die Jungen in einem Beutel trägt – nicht die Weibchen. Mit seinem Schwanz klammert es sich an Meeresalgen fest und wartet darauf, dass seine Beute vorbeizieht.
+  animal.seal:
+    label: Robbe
+    summary: Ein Meersäuger ruht sich an Steinen aus und fängt Fische am Meer.
+    info: Der Robbe ist ein mariner Säugetier der Familie Phocidea mit einem strömungsgünstigen Körper und ohne Ohrmuscheln. Sie leben entlang den Küsten des Atlantiks und Pazifiks sowie sowohl im Wasser als auch auf Felsen verbringen sie Zeit. Die Tiere können bis zu einer Tiefe von über 500 Metern tauchen und bleiben mehrere Minuten unter Wasser.
   animal.shark:
     label: Hai
     summary: Große Raubfischart mit scharfen Zähnen und strömungsgünstigem Körper.
     info: Der Weiße Hai ist die größte raubende Fischart der Welt und erreicht eine Länge von über sechs Metern. Er besitzt die Fähigkeit, durch Lorenzinischen Ampullen das elektrische Feld seiner Beute wahrzunehmen. Obwohl er berüchtigt ist, sind Angriffe auf Menschen äußerst selten; Haie spielen als Schlüsselrauber eine wichtige Rolle im Meeresökosystem.
+  animal.shrimp:
+    label: Garnel
+    summary: Ein kleiner Gliedertier-Meerbewohner aus der Familie Penäide.
+    info: |-
+      Schrimps sind kleine Meeres oder Süßwasser-Gliederfüßer mit insgesamt zwölf Beinen und zwei Scherenfingern an den Vorderbeinen.
+      Es gibt über 2 000 Arten von Garnelen weltweit;
+      die Nachfrage nach ihnen ist nur geringer als die für Muscheln,
+      wichtigste Nahrungsquelle im Ozeansystem
+      und eine wichtige Ressource zur Erzeugung von Lebensmitteln entlang der Küstenlinien Tropenregionen.
+  animal.squid:
+    label: Tintenfisch
+    summary: Ein Tiefseegewässer-Tier aus dem Tierreich der Cephalopoden.
+    info: Tintenfische sind Kopffüßer mit zehn Armen (acht Fühlerarme plus zwei Fangarmen). Sie bewegen sich durch das Ausstoßen von Wasser und können ihre Farbe mittels Chromatophoren verändern. Riesentintenfische (Architeuthis), die über elf Meter lang werden, gehören zu den größten Ungepaarten der Welt.
+  animal.starfish:
+    label: Stern
+    summary: Ein fünfarmiger mariner Tierspezies imstande zu regenerieren die fehlenden Arme.
+    info: Sterne sind Meereswirbellose mit typischerweise fünf Armen. Sie können ganze verlorene Arme oder aus einem verstümmelten Arm ein ganzes Körper wiederherstellen. Sie ernähren sich von Muscheln und öffnen deren Schalen mithilfe ihrer Saugnapfarme.
+  animal.stingray:
+    label: Stachelroche
+    summary: Flache Meeresschildkrötengattung mit stachliger Endschwänze; ruht auf sandigem Grund.
+    info: Der Stachelrochen ist ein Verwandte des Rochens mit einem flachen kreisförmigen Körper angepasst an das Leben am Meeresgrund. Der Schwanz vieler Arten trägt einen giftigem Dorn zur Verteidigung. Er bewegt sich durch Wellenbewegungen seiner Brustflossen wie Flügelschlag.
+  animal.swordfish:
+    label: Schwertfisch
+    summary: Große Raubtier-Fischart im offenen Meer mit einem lang gezogenen Schwertrahmen-Schnauzenprofil.
+    info: Der Schwertfisch ist eine große Fischart aus den warmen und subwarmen Ozeanregionen der Welt. Sein flacher schwerterartiger Schnabel dient dazu, Beute wie Fische oder Rochensäuglinge zu betäuben – nicht jedoch zum Stechen durchbohren. Er gilt als einer der schnellsten Fische mit Geschwindigkeiten über hundert Kilometern pro Stunde.
+  animal.tuna:
+    label: Blauhai
+    summary: Schnelle pelagische Tierart intensiv gefangen für Lebensmittelindustrie.
+    info: Der Blaufink ist die größte Art der Thunfische und erreicht eine Länge von über drei Metern sowie ein Gewicht von mehr als siebenhundert Kilogramm. Er besitzt einen thermoregulierenden Körperbau mit einer Körpertemperatur höherer als das umgebende Wasser. Der Fisch zählt zu den schnellsten Meeresbewohnern – er kann Geschwindigkeiten bis über 70 Stundenkilometer entwickeln.
+  animal.walrus:
+    label: Walros
+    summary: Große Meerespflanze im Polarmeer mit langen Zähnen.
+    info: Der Walross ist ein großer arktischer Pinniped mit riesigen zahnförmigen Stoßzähnen aus Elfenbein von über einem Meter Länge.
   animal.whale:
     label: Blauwal
     summary: Das größte Tier der Erde – ein mit Sauerstoff atmender Meeresbewohner.

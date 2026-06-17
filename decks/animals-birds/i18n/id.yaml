@@ -2,18 +2,133 @@ lang: id
 pivot: false
 title: Burung-burung
 cards:
+  animal.albatross:
+    label: albatros
+    summary: Burung laut dengan rentang sayap terbesar di antara semua burung.
+    info: Albatros migran memiliki rentang sayap terlebar dari semua burung yang bisa mencapai lebih dari 3,5 meter. Mereka menghabiskan sebagian besar hidupnya di lautan terbuka dan mampu terbang ribuan kilometer tanpa henti. Albatros minum air laut dan membuang garam melalui kelenjar hidung mereka. Dalam tradisi kelautan, membunuh albatros dipercayai sebagai pertanda kecelakaan.
+  animal.budgerigar:
+    label: paruh
+    summary: Burung beo kecil berwarna dari Australia yang populer sebagai hewan peliharaan.
+    info: Paruh bergaris berasal dari daerah pedalaman Australia, di mana mereka hidup dalam kelompok besar. Ini adalah burung peliharaan paling umum setelah canary. Jantan dapat meniru suara manusia dan belajar ratusan kata. Paruh liar bewarna hijau-kuning; variasi warna lainnya terbentuk melalui pemuliaan.
+  animal.canary:
+    label: kanari
+    summary: Burung kecil berwarna kuning yang populer sebagai hewan peliharaan.
+    info: Kanari berasal dari Kepulauan Canary dan telah dijinakkan sejak abad ke-17. Warna kuningnya diperoleh melalui seleksi bibit; warna liar kanari adalah hijau-kelabu. Jantan kanari menyanyikan lagu-lagu kompleks; kompetisi bernyanyi kanari menjadi fenomena global.
+  animal.cassowary:
+    label: kasuár
+    summary: Burung tidak bisa terbang yang berbahaya dari Papua dengan kuku tajam.
+    info: Kasuár adalah burung besar yang tidak bisa terbang di wilayah Papua dan utara Australia. Ia dikenal sebagai burung paling berbahaya di dunia karena cakar panjang pada jari dalamnya mampu menyebabkan luka serius. Topi tulang tinggi (casque)-nya kemungkinan digunakan untuk membantu navigasi di hutan belantara.
+  animal.cockatoo:
+    label: kakatua
+    summary: Burung beo putih dari Australia dan Pasifik dengan mahkota kuning mencolok.
+    info: Kakatua kuning adalah salah satu burung beo terkenal dalam keluarga kakatua. Mahkotanya yang berwarna kuning akan tegak ketika ia merasa gembira atau cemas. Ia sangat cerdas dan mampu menirukan suara manusia. Kakatua ini bisa hidup hingga usia delapan puluh tahun di penangkaran, serta di Australia dianggap sebagai pengganggu hasil pertanian.
+  animal.condor:
+    label: condor
+    summary: Burung terbang terbesar di Amerika dengan kepala yang tidak berbulu.
+    info: Condor adalah burung terbang terbesar di dunia dalam hal bobot dan rentang sayapnya. Ini adalah jenis bangau; mereka memakan mayat mamalia besar dan memiliki peran penting dalam ekosistem. Mereka menggantoleh di angin termal raksasa di atas Pegunungan Andes tanpa harus mengepakkan sayap.
+  animal.crane:
+    label: burung crane
+    summary: Burung besar yang terkenal dengan ritual tari dan berteriak keras.
+    info: |-
+      Crane abu-abu adalah burung migran besar yang setiap tahun menempuh ribuan kilometer.
+      Ia dikenal karena ritual tarian uniknya di mana pasangan burung melompat-lompat sambil membuka sayap mereka.
+      Mereka bermigrasi dalam rombongan besar melewati Ceko pada musim gugur dan semi.
+      Nama crane juga digunakan untuk alat konstruksi.
+  animal.crow:
+    label: burung crows
+    summary: Burung hitam cerdas dari keluarga Corvidae yang mampu menyelesaikan masalah.
+    info: Ekor adalah burung dari familia Corvidae dikenal kecerdasan luar biasa. Ia dapat mengenali wajah manusia, menggunakan alat-alat dan menyelesaikan tugas-tugas kompleks. Mereka hidup dalam pasangan atau kelompok kecil serta bersifat omnivora.
+  animal.cuckoo:
+    label: burung cucak
+    summary: Parasit telur yang menyembunyikan telurnya di sarang burung lain.
+    info: Burung cucuk adalah terkenal dengan parasitisme sarangnya; ia meletakkan telurnya ke dalam sarang burung lain untuk dierami dan dipelihara oleh induk tirinya. Anakan cucuk segera mendorong telur atau anak-anak lain dari sarang tersebut keluar. Suaranya dua nada 'ku ku' menjadi simbol kedatangan musim semi. Jantan mengepak suara ini, sementara betina mengeluarkan bunyi berbuih.
+  animal.dove:
+    label: merpati putih
+    summary: Simbol perdamaian; merpati bersayap putih dengan bulu halus.
+    info: Merpati putih adalah simbol internasional perdamaian sejak zaman kuno; dalam Alkitab, seekor burung membawa ranting pohon zaitun kepada Nuh. Dalam agama Kristen, ia melambangkan Roh Kudus. Merpati rumahan sebenarnya berasal dari jenis merpati batu yang telah dijinakkan; warna putihnya muncul karena hasil seleksi genetika. Pelepasan merpati putih merupakan bagian dari upacara dan perayaan di seluruh dunia.
+  animal.duck:
+    label: bebek
+    summary: Burung air dengan paruh datar; jantan (beken) memiliki kepala hijau.
+    info: |-
+      Bebek liar adalah spesies bebek tersebar luas di dunia dan nenek moyang dari kebanyakan ras bebek domestik.
+      Jantannya (beken) memiliki ciri khas kepala berkilauan warna hijau, sedangkan betinanya berwarna cokelat yang tidak mencolok.
+      Mereka termasuk bebek penampis makanannya di permukaan air tanpa perlu menyelam.
+      Di Ceko, bebek merupakan bagian tak terpisahkan dari danau serta aliran sungai.
   animal.eagle:
     label: elang
     summary: Burung besar pemangsa dengan paruh melengkung dan penglihatan tajam.
     info: Elang putih adalah simbol nasional Amerika Serikat dan termasuk predator terbesar di Amerika Utara. Mereka memangsa terutama ikan yang ditangkap langsung dari air dengan cakar tajamnya. Elang ini memiliki rentang sayap lebih dari dua meter dan bisa hidup hingga sekitar 20 tahun di alam liar.
+  animal.emu:
+    label: emu
+    summary: Burung terbesar kedua di dunia, burung berkaki Australia yang tidak bisa terbang.
+    info: Emu cokelat adalah burung terbesar kedua di dunia dan endemik Australia. Ia tidak dapat terbang tetapi piawai berenang dan cepat berlari. Jantan bertelur dan merawat anak-anaknya sementara betina pergi. Pada tahun 1932, tentara Australia kalah dalam Perang Emu melawan kelompok burung ini yang mengancam hasil pertanian.
+  animal.falcon:
+    label: elang
+    summary: Hewan tercepat di dunia dalam nosediving (melebihi 320 km/jam).
+    info: Elang liar adalah hewan tercepat di Bumi; saat melakukan nosedive mencapai kecepatan lebih dari 320 km/jam. Ia memiliki lingkaran gelap khas di bawah matanya yang mengurangi pantulan cahaya matahari. Manusia telah berburu dengan elang selama lebih dari 2.000 tahun; olahraga ini termasuk daftar UNESCO. Di Ceko, mereka berkembang biak di gedung-gedung tinggi dan tebing.
   animal.flamingo:
     label: plameňák
     summary: Burung berkaki panjang berbulu merah muda yang berdiri di air dangkal.
     info: Warna khas plameňák berasal dari karotenoid yang terkandung dalam ganggang dan plankton yang menjadi makanannya. Burung muda lahir berwarna abu-abu pucat dan berubah warna seiring waktu. Paruh yang melengkung berfungsi sebagai saringan—plameňák menyaring makanan dari air dengan memasukkan kepalanya ke bawah.
+  animal.goose:
+    label: bebek
+    summary: Burung air besar yang bermigrasi dalam bentuk V dan berkembang biak di darat.
+    info: |-
+      Bebek liar adalah nenek moyang dari bebek peliharaan.
+      Mereka bermigrasi dalam formasi V dengan bergantian memimpin perjalanan.
+      Mereka sangat territorial saat bertelur dan berani melindungi anak-anaknya.
+  animal.hawk:
+    label: elang
+    summary: Pemburu cepat yang menangkap burung dan mamalia di hutan serta padang rumput.
+    info: Elang adalah jenis burung buas dari keluarga Accipitridae yang mampu berburu di area dengan vegetasi padat karena sayapnya pendek dan melengkung serta ekornya panjang. Ia sangat cepat dan gesit; memburu burung saat terbang atau dari posisi mengintai. Betina elang biasanya jauh lebih besar daripada jantan. Dalam olahraga ngerak, elang merupakan burung pemburu yang sangat bernilai.
+  animal.heron:
+    label: burung berendam
+    summary: Burung tinggi yang berdiri tak bergerak mencari ikan di air.
+    info: Berkas abu-abu adalah burung berendam terbesar di Eropa Tengah. Ia berdiri seperti patung tanpa gerakan dan menunggu hingga ikan mendekat, lalu dengan cepat menggigitnya menggunakan paruhnya. Ia mampu menelan ikan dan katak utuh.
+  animal.hornbill:
+    label: burung kasquer
+    summary: Burung tropis dengan paruh besar dan penonjolan tulang.
+    info: Burung kasquer adalah burung dari keluarga Bucerotidae yang memiliki ciri khas berupa paruh besar dengan tonjolan tulang (kasque). Ia hidup di hutan-hutan tropis Afrika dan Asia. Berbeda dengan kebanyakan burung, ia tidak membuat sarang dalam lubang tanah melainkan di lubang pohon; betina ditempatkan oleh jantan ke dalam lubang tersebut dan tetap tinggal di situ selama masa berkembang biaknya. Kehadirannya merupakan indikator bahwa hutan tropis dalam kondisi sehat.
   animal.hummingbird:
     label: kolibri
     summary: Burung terkecil di dunia yang mampu mengambang di udara dan terbang mundur.
     info: Kolibri rubi leher adalah satu-satunya spesies kolibri yang berkembang biak secara teratur di bagian timur Amerika Utara. Ia mengibaskan sayapnya hingga 53 kali per detik, menghasilkan suara berdengung khas. Kolibri ini memakan nektar dan serangga kecil; jantungnya berdetak hingga 1.200 kali per menit.
+  animal.ibis:
+    label: ibis
+    summary: Burung berkaki dengan paruh melengkung yang suci di Mesir kuno.
+    info: Ibis adalah burung berkaki dari keluarga Threskiornithidae dengan ciri khas paruh panjang dan melengkung. Ibis suci dikultuskan dalam kebudayaan Mesir kuno sebagai manifestasi dewa Thoth. Burung ini tinggal berkoloni di daerah rawa dan delta sungai.
+  animal.kingfisher:
+    label: ledňáček
+    summary: Burung berwarna permata yang memburu ikan dengan cara terjun bebas di dekat sungai.
+    info: Leddnyaček adalah salah satu burung paling cantik di Eropa dengan tubuh biru listrik dan dada oranye. Ia duduk di cabang pohon di atas air untuk mengamati ikan lalu melompat ke dalam air secara vertikal. Burung ini menjadi penunjuk kebersihan aliran air karena tempat tinggalnya menandakan bahwa air tersebut bersih. Di Jepang, spesies serupa (hisui) merupakan simbol dari keindahan.
+  animal.kookaburra:
+    label: burung kingfisher tertawa
+    summary: Burung kingfisher Australia yang terkenal dengan tawanya menyerupai tawa manusia.
+    info: Kookaburra adalah burung kingfisher besar dari Australia dikenal karena suara berisiknya yang mirip tawa manusia. Ia menjadi simbol dari hutan liar Australia dan seruan tradisional untuk menyambut matahari terbit maupun tenggelam. Kookaburra memangsa kadal, ular, mamalia kecil, serta serangga.
+  animal.lorikeet:
+    label: lori
+    summary: Burung beo kecil berwarna-warni yang hidup dari madu dan serbuk sari.
+    info: Lori adalah burung beo kecil dari kawasan Australia dengan warna tubuh yang sangat mencolok di antara semua jenis beo. Dengan lidah bulat khasnya, lori mengumpulkan madu dan serbuk sari dari bunga-bunga tropis. Ia juga memainkan peran penting sebagai penyerbu hutan tropis.
+  animal.lyrebird:
+    label: lyrochvost
+    summary: Burung Australia yang meniru suara sekitar dengan presisi sempurna.
+    info: Lirochvost nádherný adalah burung dari Australia dikenal karena kemampuan meniru hampir semua suara di lingkungan sekitarnya seperti mesin pemotong kayu, kamera foto, klakson mobil atau panggilan burung lainnya. Jantan memikat betina dengan menampilkan ekornya yang indah berbentuk lira dan tiruan suara yang sangat baik. Ia menjadi simbol negara bagian Victoria.
+  animal.macaw:
+    label: ara
+    summary: Burung beo besar dari daerah Neotropika dengan bulu berwarna cerah dan paruh kuat.
+    info: Ara adalah burung beo hutan tropis Amerika yang memiliki warna bulu paling mencolok di antara semua jenis burung. Mereka memiliki paruh tebal dan melengkung yang mampu memecahkan inti kacang keras. Burung ini hidup dalam pasangan monogami seumur hidup mereka.
+  animal.magpie:
+    label: straka
+    summary: Burung hitam-putih dengan ekor hijau berkilau panjang.
+    info: Straka adalah burung dari keluarga korak yang memiliki warna hitam dan putih serta berekor panjang mengilat kehijauan. Ia dikenal sebagai pencuri benda bersinar meskipun penelitian tidak membuktikan legenda ini. Straka juga merupakan salah satu spesies burung mamalia yang mampu mengenali refleksinya di cermin.
+  animal.nightingale:
+    label: burung robin
+    summary: Burung cokelat kecil yang menyanyi salah satu lagu burung terindah.
+    info: Robin Eropa adalah burung coklat kecil di mana jantan betina menghasilkan salah satu lagu burung yang paling kompleks dan indah. Ia biasanya bernyanyi pada malam hari atau menjelang fajar, dari mana berasal namanya. Robin ini merupakan kerabat dekat blackcap. Penyair dari seluruh dunia mulai dari Dante hingga Keats memuliakan nyanyian robin sebagai simbol romansa dan kesedihan.
+  animal.ostrich:
+    label: burung emu
+    summary: Burung terbesar di dunia yang tidak bisa terbang dan berlari dengan kecepatan hingga 70 km/jam.
+    info: Emu adalah burung tertinggi dan paling berat di dunia; jantan dapat mencapai ketinggian hingga 2,7 meter dan berat lebih dari 150 kg. Ia tidak mampu terbang, tetapi merupakan dua kaki tercepat di dunia, mencapai kecepatan melebihi 70 km/jam. Telurnya adalah telur terbesar dibandingkan semua jenis burung. Jari-jari kaki depannya hilang; hanya memiliki dua jari.
   animal.owl:
     label: burung hantu
     summary: Burung pemangsa malam dengan mata bulat, terbang hampir tanpa suara, dan memiliki pendengaran yang sangat tajam.
@@ -26,11 +141,83 @@ cards:
     label: páv
     summary: Jantan merak dengan ekor berbentuk payung penuh warna-warni.
     info: Merak bercabang asli berasal dari subbenua India. Jantan (merak) membuka ekornya—yang sebenarnya adalah bulu penutup yang memanjang—menjadi bentuk payung saat menarik betina. Warna berkilau tidak berasal dari pigmen, tetapi dari refraksi cahaya pada mikrostruktur bulu.
+  animal.pelican:
+    label: burung pelikan
+    summary: Burung air besar dengan paruh berongga besar untuk menangkap ikan.
+    info: Pelikan adalah burung air besar yang memiliki ciri khas paruh berongga sebagai jaring penangkap ikan. Rongga tersebut dapat memuat hingga 13 liter air, dan kemudian airnya dikeluarkan sehingga ikan tertahan di dalamnya. Mereka terbang dalam formasi aerodinamis dan menggunakan aliran udara dari sayap satu sama lain.
   animal.penguin:
     label: penguin
     summary: Burung tidak bisa terbang dari belahan bumi selatan yang sangat pandai berenang.
     info: Penguin raja adalah penguin terbesar; mencapai tinggi lebih dari 1,1 meter. Hidup di Antarktika dan bertelur di suhu terdingin—jantan menjaga telur hangat di kakinya sepanjang musim dingin Antarktika. Di bawah air, penguin bisa mencapai kecepatan lebih dari 30 km/jam.
+  animal.pheasant:
+    label: pheasant
+    summary: Large colorful game bird with males having distinctive coloring and a long tail.
+    info: The common pheasant was brought to Europe from Asia but is now a natural part of European fauna. The male (cock) has striking coloration, including green-brown body plumage and a characteristic red wattle around its eye. It is the most widespread game bird in the Czech Republic and forms the basis of hunting tradition. It nests on the ground in dense vegetation.
+  animal.pigeon:
+    label: merpati
+    summary: Burung kelabu umum di perkotaan dan pedesaan yang berasal dari merpati batuan.
+    info: Merpati batuan adalah nenek moyang semua jenis merpati rumahan maupun liar di perkotaan. Ia merupakan burung pertama yang dikembangbiakkan manusia; selama beribu tahun digunakan sebagai pengirim surat melalui merpati pos. Merpati memiliki kemampuan navigasi luar biasa dan dapat menemukan jalan pulang meskipun dari ratusan kilometer jauhnya. Di budaya-budaya di seluruh dunia, merpati menjadi simbol perdamaian.
+  animal.puffin:
+    label: burung laut berparuh warna-warni
+    summary: Burung laut kecil dengan paruh seperti burung papaga yang berwarna.
+    info: Alcidae utara adalah burung laut kecil dari keluarga alcids dengan paruh bergaris-garis berwarna cerah. Ia menangkap ikan dengan cara menyelam dan mengikuti mangsa di bawah air; mampu membawa lebih dari sepuluh ekor ikan sekaligus dalam sekali gigitan. Burung ini bersarang secara berkoloni di tebing batuan dan lubang-lubang.
+  animal.quail:
+    label: burung quail
+    summary: Burung kecil yang tinggal di padang rumput dan berkembang biak di tanah.
+    info: Quail lapangan adalah anggota terkecil dari keluarga pheasant di Eropa. Ia bersifat sangat tertutup; kita lebih mudah mendengar suaranya (piti-pitu) daripada melihatnya. Berbeda dengan jenis burung pheasant lainnya, ia bermigrasi dan menghabiskan musim dingin di Afrika. Telur quail ini dikenal sebagai makanan favorit.
+  animal.raven:
+    label: krkavec
+    summary: Burung hitam cerdas dengan ciri khas berdengung di tenggorokannya.
+    info: Krkavec besar adalah burung terbesar dari keluarga Corvidae yang panjangnya lebih dari 60 cm. Ia sangat pintar dan memiliki kemampuan untuk merencanakan ke depan, bermain-main, serta membangun hubungan sosial. Dalam mitos orang-orang Utara seperti Odin yang dikaitkan dengan dua burung gagak bernama Huginn dan Muninn atau pun dalam mitos Celtic, ia memiliki posisi mistis.
+  animal.roadrunner:
+    label: burung cucak
+    summary: Pelari cepat gurun di Amerika Utara; simbol serial kartun.
+    info: Burung cucak liar (roadrunner) adalah burung dari keluarga cucak yang lebih menyukai berjalan dan berlari daripada terbang. Ia bisa mencapai kecepatan melebihi 30 km/jam dan memakan ular, kadal, serangga, serta mamalia kecil. Burung ini mampu menangkap dan membunuh ular piton.
+  animal.robin:
+    label: burung merah
+    summary: Burung kecil dengan dada merah yang merupakan simbol Natal di Inggris Raya.
+    info: Burung merah adalah burung pemakan cacing tanah kecil dengan warna dada khas oranye-merah. Ia berani dan sering mengikuti orang-orang yang sedang membalikkan tanah untuk mencari makanan seperti cacing. Burung ini tinggal sepanjang tahun di wilayahnya sendiri dan tetap berkicau bahkan pada musim dingin.
+  animal.seagull:
+    label: burung laut
+    summary: Burung pesisir yang mencari makanan di sekitar manusia dan di pantai.
+    info: Burung laut ini adalah salah satu burung laut terluas di Eropa. Ia bersifat adaptif dan omnivora; hidup tidak hanya di garis pantai laut tetapi juga di daratan dekat danau dan sungai. Burung ini cerdas dan kadang-kadang ingat tempat-tempat di mana orang memberinya makan.
+  animal.secretary_bird:
+    label: burung surat
+    summary: Burung pemangsa Afrika dengan kaki panjang yang membunuh ular dengan tendangan kuat.
+    info: |-
+      Burung surat adalah burung pemangsa besar dari Afrika yang bergerak di padang savana terbuka.
+      Ia membunuh ular dan mamalia kecil menggunakan tendangan kuat kakinya yang memiliki massa tiga kali lipat tubuhnya.
+      Namanya berasal dari bulu-bulu panjang di kepalanya yang menyerupai jenggot penulis.
+      Ini merupakan simbol nasional Republik Afrika Selatan dan Sudan.
+  animal.sparrow:
+    label: vogel
+    summary: Burung kecil coklat yang hidup di dekat pemukiman manusia.
+    info: Elang rumah adalah salah satu burung tersebar luas di dunia dan pengiring setia manusia. Ia tinggal di dekat permukiman manusia, bertelur dalam celah dinding dan atap bangunan. Dalam beberapa dekade terakhir populasi elang menurun secara signifikan di perkotaan.
+  animal.spoonbill:
+    label: kolpík
+    summary: Burung berkaki putih dengan paruh berbentuk sendok yang khas.
+    info: Kolpík putih adalah kerabat dari burung ibis, tetapi mudah dibedakan karena ujung paruhnya datar dan menyerupai sendok. Saat mencari makan, ia menggerakkan paruhnya ke samping di air dangkal. Ia bersarang dalam kelompok besar di rawa dan semak belukar.
+  animal.stork:
+    label: cucurut
+    summary: Burung putih besar dengan paruh merah yang konon membawa bayi.
+    info: Cucurut adalah burung migran yang berkembang biak di atap dan tiang di seluruh Eropa. Ia bermigrasi ke Afrika tropis untuk musim dingin dan kembali setiap tahun ke sarang yang sama, terus memperbesar ukuran sarangnya dari waktu ke waktu. Cucurut menjadi simbol musim semi dan kesuburan; dalam tradisi rakyat dikatakan bahwa ia mengantarkan anak-anak. Republik Ceko merupakan salah satu negara paling penting di Eropa bagi perkembangbiakan cucurut.
+  animal.swallow:
+    label: burung pipit
+    summary: Burung pemangsa serangga di udara dengan ekor bercabang khas.
+    info: Bebek air adalah burung migran yang menghabiskan musim dinginnya di Afrika sub-Sahel dan berkembang biak di Eropa. Ia ahli terbang; menangkap serangga semata-mata saat terbang dan mampu minum dari permukaan tanpa harus mendarat. Burung ini bersarang di gudang-gudang atau di bawah atap bangunan; dalam mitos rakyat kehadiran bebek air membawa berkah bagi rumah tangga. Simbol musim semi, kepulangan, serta kesetiaan pada rumah.
+  animal.swan:
+    label: bebek
+    summary: Burung air putih besar dan anggun yang menjadi simbol keindahan dan romansa.
+    info: |-
+      Bebek raksasa adalah burung terbesar di Eropa dengan rentang sayap lebih dari 2,4 meter.
+      Ia melambangkan kecantikan, cinta, dan kesetiaan; pasangan bebek setia seumur hidup mereka.
+      Mereka secara refleks mengangkat paruhnya dan meniup bulunya sebagai peringatan bagi para penyerang.
+      Dalam cerita rakyat oleh H.C. Andersen, bebek merupakan simbol transformasi angsa yang tidak enak.
   animal.toucan:
     label: tukan
     summary: Burung tropis dengan paruh besar berwarna-warni.
     info: Tukan raksasa hidup di hutan hujan Amerika Tengah dan Selatan. Paruhnya yang mencolok panjang lebih dari 20 cm, tetapi sangat ringan—terdiri dari ruang-ruang udara. Paruh ini berfungsi untuk mengatur suhu tubuh, memotong buah, dan sebagai sinyal visual bagi tukan lainnya.
+  animal.woodpecker:
+    label: woodpecker
+    summary: Burung yang mengetuk kulit pohon untuk mencari serangga atau membuat lubang.
+    info: Woodpecker adalah burung dari kelompok Picidae yang beradaptasi dengan paruh keras dan ekor kuat sebagai penopang saat mengetuk kayu. Lidahnya bisa sampai tiga kali lebih panjang daripada paruhnya dan digunakan untuk mengeluarkan larva dari lubang-lubang yang dibuat. Mereka juga menggunakan ketukan untuk berkomunikasi dan mempertahankan wilayah mereka. Woodpecker Eropa terbesar adalah Great Spotted Woodpecker (Dendrocopos major).

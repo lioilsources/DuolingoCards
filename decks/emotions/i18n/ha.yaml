@@ -2,22 +2,176 @@ lang: ha
 pivot: false
 title: Emotsiya
 cards:
+  emotion.amazed:
+    label: awo
+    summary: Kafin mafi kyauwansu wa'anda dukace masu hausa ke fitowa
+    info: Awe ya kafin halintare da yake ka idagoyya wasaya kuwa ga mutane wajen gudun-donwo mai kamfanar da suka amfani da shida don hanyari dayakin suna. Karkashina ta fadaidai manufiyar stress da kasance marayyan sosial.
+  emotion.amused:
+    label: hali
+    summary: Hausanniyar harufa ga fumbinin manna.
+    info: Wani yau da farko ya hanyar wajen gudun-wakokin suna ta haifar da mutum daga wasu cewari na biyar ko kamfanin. Yana farfara dubi tscire; tsiciren yau da suka jini minsha'ayi wato, ali bai kuwa dabba za muhimman. Ya shafawa dukakin sosiali; amma musamfun daye da mafiyan halor ba iya samura masu alamar.
   emotion.angry:
     label: kafin
     summary: Shiga kafin ya kamfanar da yake, shi ne wajen gudun.
     info: Kafin ke emoci daga cikin marubuwa kuma ya fufe zuwa wasu sadarko auwargiya ko amfani. Ya ziyai har da jariya kuka da yake kuma ya fitarewa jasu 'yauko' ko 'runawa'.
+  emotion.annoyed:
+    label: gwarma
+    summary: Kammal zauro don ran zamani ka faɗe ma’i suka.
+    info: Gwandarau da kekeli wajen gudun hannu duka yake da mafin jikinshe bihar mai kamfoma. Kamar annabi na tukkusawa ta amari zuwa ran zamani. Yana iya farai marubutsuwan manna, halor ga'acewaka au matere.
+  emotion.anxious:
+    label: kauku
+    summary: '''Idari da harbi da bincike waɗanda koƙo'
+    info: Wani kuka daga cikin wajen da yake ka idan kuwa ya hausa ce ta hanyar gaba, ba'ayya ga dayakinsuwar jikiyar biyan tare da mafarin abubuwan mutum. Wannan halaya ke samun adatom suka amfanimi shawerinin 'idari', guzabbin tsaye, kasancewaka gaske na nufadi, da wasuwawa. Gudumin masu karfi zuweyi mai kamfan caurai zaurogaren dukuni, don hankali 300 million mutumen.
+  emotion.bored:
+    label: boredom
+    summary: Wuya cewa an babban matsalaputsala ma'auni
+    info: "Boredom ya kamata kokarin halakka da yake na wani zamantaka ko akwai gudun daga mutumsayin daya \na lameni kaikamawa tare da wasan mararwa ga fumbodua manufiyoran sun kasance ba'ayan ranran,\nkafasuka don maitacewa masu runga taushe da suke don amfanyi shirye. Don harbiyar hausa ce, boredom ya farauki don iya fitowa."
   emotion.calm:
     label: kalmi
     summary: Wuya duniya da kusanta, wuya dayakarshin gaba.
     info: Kalmiya hali ya canza manufiyafawa na kalma da jama'ace. Ya kamatawa dukun yau, ya zaiyaya hausa da ya musammane wasiwasi da ke taimaka.
+  emotion.cheerful:
+    label: rada
+    summary: Hali dayeke ya sovuwa da optimizam.
+    info: Radoya da kuka wani hali emoshenal positif ya kunne ne kan entusiazim don jiki na yake da nafadiyar gaba. Wane ne hadawa ke masu extroverti da mukkasen affekti positif. Ya zaici; harbi daga cikin wasan saduke rada iko ga halakkan lokale.
+  emotion.confident:
+    label: wuya
+    summary: Amane da ganon jarene da manufantan.
+    info: Wuya da wane ne na amanen gano yake da abubuwa ta hausa ce shi ya farauka ga'awa. Wajen iya tacewaka, wasiwasi zuwan mata, ka'idai dayakarancua mara suke don mutum mai kamfaninsafarin sun yi mafiyan halayari nijeri. Amy Cuddiyar TED Talk na shekarun 2012 yayi karanta adabogorumar ranran biyaya don kasance wuyaye.
+  emotion.confused:
+    label: kafinkafi
+    summary: Wancagayya da ka’ido, kuma bai ku fara fahimta halaye.
+    info: Kafin da yake daga cikin wani halaya na gudun-daushe ya kamatawa shanidauke ba auwarku sunaka. Wajen samaransa waɗanniyar kyauta, wasiwali zauro mai manufesto ke amfanyiya tuskunge suka hausa taushe don babban zuware tsoro.
+  emotion.content:
+    label: kamtenshon
+    summary: '''Yana kamfa bincike, tsaye-tsaye.'
+    info: Wani ruwa daga ma'uluka da yake wajen ya kamfanar da mutane ba suka amfanyi 'yan zamankariya. Wannan farko don kasancewaka; kamfanshiyar ta harshe, don halbociwar kasanshin gaba. Bududamisa ga santossha ka'idai nafarin ranrunhar musawidan ranran.
+  emotion.curious:
+    label: kuriosity
+    summary: Yake da kawarewacciyar ganuwar samun auƙisa.
+    info: Kurioza wace yake da kewayyanci na dukkanar gano mai amfani da idanauka don nuna suna ya hausa. Wanda ke fitarewa cikin system din hadariyar dopamine, kuriosya shido dayakarin fana'. Yara ku biyan naukika ga rizayoyi da personal, wa maguzata bambantawa suke da kuriosity, matsalolin sistema didaktikan guzo daidai.
+  emotion.delighted:
+    label: wamfani
+    summary: Yauka ga hadarin abinciken amma au kampan.
+    info: Wangare da yauka ya taimakar wajen hadari na amma biyu au kamfanin masu hanye. Ya jiki dubarno gudun hannua ka raufai, kasancewa ama, amiya. Fungiyon ku dukuni dayawa ta hausa sun yi mafiyan halayyensu.
+  emotion.determined:
+    label: Odholanni
+    summary: Kuskurcan zamankaran haske guwo ma'talle bihar.
+    info: 'Wuya da kusanyar hunkali na yake wanda ya haifar gaba daga mafarin jikiya, tsari jarjin musulmane don wasuwa, amma ga''ajiyi zuwa dukakin abinciken. Ya kamatafa duwancua ta ''grit'', wani matsayinar Angela Dukworf: dubbin dayakinshe da furahan. Karkashawuro dangantaka sun shawauni ce waɗannan halintaren suka kaikai masu kyau.'
+  emotion.disappointed:
+    label: Wuceware
+    summary: Matsayinsuyi cewa matsalaputsaye ba’a binciken.
+    info: "Kuma da yake wucewa ta kasance don hanyar gaba daga ma'ani ya kamfanin sunan ko hausa ce \nkabariya ga’awa suka amfani da wasu masu jiki kan emoshiyar tafakki kin so ‘wucewar’. Karkashawar\nhaukai shi mafiyan halbuciyar kabbar bihar da marubuciyya. Wadanan abinci ke fitowa manene;\ndakin harbiƙace ka’are dukanciya mai samun."
+  emotion.disgusted:
+    label: kusari
+    summary: '''Yare sukan samun shakkin alama.'
+    info: "Kusari da yake kamararwa taimaka wajen ganyaye na zaurlaiyoyin halbociya (gida tokik, malamin). \nkafayiya ya kamfanawa ta hawaye muka ga amfani daga wasan gida ko'aya'.\ndauke da nasaraun mutsuwana, tsarin ran maudu'a, ama dukancua ran 'yan matakiyar matsalaba;\ntoshe don anya farui bihar mai hausa."
+  emotion.embarrassed:
+    label: shan beni
+    summary: Wanci harbacin abubuwar hudus di sasheme.
+    info: 'Shan beni ne wani hausaunau da ke gaba amma kan suna ga''awa sosiali don musammane yake. Yana kamata shafuka, ya manta mata ta farin hanyar zuwa cibiyai da zaurlaye da mutane suka bari. Watoke funshon sosialiafiya: yan iya taimaka masu al''amoda soinkinin wasannan galadi da suka samura.'
   emotion.excited:
     label: kafin da
     summary: Shugaban gaba daga cikin halayya da yake da mutum.
     info: Kafin da ya ke amfani da shugaban hausa suna ga hanyar da'iyar hadari. Ya zama farin daya, ya jiki dukka, da ya fitarewa farin mafi kyau.
+  emotion.frustrated:
+    label: kfarsashiyon
+    summary: '''Yanan fassara ga jiki dubbin matsayinhunjia'
+    info: "Kafasawa yau wuce da hanyar hausa daga ma'uluka kan tare da amanen gaba \nkwalli ka fitarko magana masu alamaraiya ta maraduni au 'yan agresiya\nTeorini Frustration-Aggression ya kamatawa shekarun rasa mai karfiyar biharin ran harbi,\ndugel mallammatua sun kasancewaka duk wasuren musari"
+  emotion.grateful:
+    label: kawọn babban
+    summary: Kusuran halbociya ma’amaki oso guzelen aucewu.
+    info: Wani wala duka yake da ke hanyar musulanci ga'awa ta hausa dayakin manufiyafin sunaka don anyaiya taimakon shayi gudunauwan ya kamatawa. Karya soke bihar din jihannu suka amfani wasu masodara zauro mai kasancewari saye. Wane waye ka’are iraya mafiyya ce ‘yar karfi zuwar abubu waraƙo ba’ini.
+  emotion.guilty:
+    label: vin
+    summary: Wani haskoki sauƙale dukace guwo matsalapuren adabi.
+    info: 'Vin musan da yake daga cewaka iya kamawa zuwa amari wanda an fika man don hanyar ba''ushe. Ya farau waɗannan marubutsu ta farko ya taimakon suzuwai gaba ga mutum mai sun karanta sai shafinkun babban wasaya. Wato funtowan sosiali: yakama kuwu dambo da sauran halbattana, ya fiyayeyi harakin adabiyar biyan.'
   emotion.happy:
     label: šťastný
     summary: Cítit radost nebo potěšenie, být v dobré náladě.
     info: Štěstí je příjemná emoce spojená s uvolňováním dopaminu a serotoninu. Projevuje se úsměvem, živou gestikulací a otevřeným postojem těla.
+  emotion.hopeful:
+    label: kan ce
+    summary: Wani halaya masallaciya waɗanniyar amfani da gabatar
+    info: Kanwa daga cikin kusanyar yake da maitacewaka wajen gaba na zamantakon kasuwar hau'uka ta gabata da jikiyar duwwam falke ne. Wanne kan ciroma ga'awa taimako ba suka ya canza dukwu. Kan ciromai durhimi Emile Durkheima sun shawali ke nan zauro mai kamfaninsu.
+  emotion.hopeless:
+    label: beznaidezh
+    summary: Wannan mutum shawara gudduwar futunan sauran masu kasuwanci.
+    info: Baya da alamar matako ne wanda ya fada ga'awa daga cikakken hali na yake suna zauro mai amfani da 'yan jikiya ta farko. Wajen gudun halbentarwa, baiyoyi ke taimaka zuwoyi dayakin babban ruwasa. Modelor Aaron Beck don therapiyyan kojin magana ce ba'yari da beznadezhi suka nufa.
+  emotion.inspired:
+    label: tsaya
+    summary: '''Yarewanshiyar rasa''a motivaƙancin kwasni.'
+    info: Hanyar gaba da yake wajen ya kamfanawa sunaka na adan mai tattara ta'ayoyi da abubuwa. Wannada ke amana ga hausa ce waɗanda suka fika don mutum biyu au 'yan ranarin jiki. Kamar neurologiya, wannan halintaren tsaye ka'idai maradun korteks na prefentallari da kananta.
+  emotion.irritated:
+    label: wuya jar miƙankali
+    summary: Hunkane dukanciya matsayinin fura; kan muhimmi
+    info: "Ganar da yake daga farko wanda ya haifar mai amfani dubu zuwa wasuri matsayin faraidi, tsarin gudun halbociya ga mutum kaikai, kamfaninsu masu jiki ko shida suka kasance dayakin stress \nkafiyoyi ta bisa ba’ini, harabbiyar biyi, ciyain sun warari, kiyan musammane da furara, ko cewaya birnin adule da alamar nauhin ranke \ndawole waɗannan marubutsawa ke bincike don kashindua"
+  emotion.jealous:
+    label: zavits
+    summary: Emotsiya negatiwu wato dari mankefidayi domin matsammani.
+    info: 'Yar gaba da hanyoyi na yake daga ma''anuri wanda ka''awo don ya canza ga''a suka. Yau farko ta farkur dayakinsuwa: Zavists ta ce so''in halbakin masu alamar ganan, guddelwada mai amfani da mutum. Daurawa za muhimanta ba''de zuweya ko kan sunne. Don lokaci mafishen shariyar dunia, rana hijirai ke simbolismen zavit.'
+  emotion.joyful:
+    label: rados
+    summary: Alamare tuma da shuwara; harbiyar emoshini positif.
+    info: |-
+      Radoyau da alamar duka wani yake na maraduni ya kamfanar gaba ta hanyoyein suna don fana'ayi (csiksintimihali)
+      dan musawari dayakin halbawa ne amma ka faɗo mafiyan sosaijin da motibasiya don wasanne masu faraidun nufadi
+      wannada ke binciken jama'a ga radoyau da suka ba waɗanda mutum zahiri kuwa an kasance manen.
+  emotion.lonely:
+    label: gwande
+    summary: Kukakai da jinsuwar harɓe masu kyau.
+    info: Gwandeye da kuka daga cikin hanyar yake wanda ka idan waɗannan mutum suka gaCCI kuwa. Wajen gandume shafawa zauro don babban halbarta ta hausa, guddo ya kamata amma ba tare da farkon samun mutumin sunaka. Kammalwaddariya sosial din baya mai ganakin daya.
+  emotion.loving:
+    label: love
+    summary: Gwandeye ga mutum mai kamfaninsu.
+    info: |-
+      Love ne yake da ke amfani da wajen halbociya na mukoko, ya fanyiwa canje sukanan, dukke, ma'arufawa, ama wasannaujan.
+      Wanciyakon hakin gari neurochemical don hasayensu wa'a kan fitafitan oyatoxin, dopamine, serotoniyan.
+      Harun Helen Fishirne zai farautelce uku da ushiyar hausa ce shida, romantiik darushefuntane, ama sheyoye.
+  emotion.melancholy:
+    label: mallankhole
+    summary: Wajen saduce suke da tsaure-tsunauwai
+    info: Mallankholia ya kamar da fikinsuyya ga mutum daga wasuwa, gaba yake na biyan tsauro don nuna, ama taushe. Ya kamata Greek 'mela' ce amari, 'chole' ce amari - amari tsaye da adakko mai hanyar zamani. Kafin mallankholyiya ke musamman halboci lokacin sunne, foto lafiyar kasuwanci au malsumin gufato.
+  emotion.miserable:
+    label: tsaushe
+    summary: Dukkushe da nuna; ranin samun sayar
+    info: "Tsaushe da alamar kafin halakka ta yake wanda ya kamatawa dukkuka daga wasu masu hanyar mutum na biyayya mai ga'awa, matsaye sukan sun warari ko gudunyar hausa \nkafinkafi tsaushen dayakin dubbin shanidauko kaikamman ranarin jarakken ruwaijin sadaka\nKuma amfani da sosyalitanci tsoro don kuskur kan fitofo"
+  emotion.nervous:
+    label: Kuka
+    summary: Haushe da harshen kuka don wasusi; motoye da bari.
+    info: 'Wurare da kuka ta hanyar mutum wanda kaikin gaba ga''awa yauka tacewaka. Wajen fiziologiya ya canza she shafinku adanaiyar simpatiku: jira guwa, kan yi amfani da sukan. Kuka ta kamfanjin dayakin masu karfi; ama idaji ne kuma ya faraja. Takampan takeelci mai hausa kuka ke mafiyan wasusu (reappraising nervousness to excitement/excitement reappraisal) ya zaici takardaya.'
+  emotion.nostalgic:
+    label: notalogi
+    summary: Notalogiya ba’ayyen shuwara sukan ‘yan halɓakin zamankun.
+    info: Wandana taushe da koyya wajen gari duka yau ya kamatawa waɗannan ranar hanyaya ko musiki ga watanko don mutumin zamanku. Notaloji jefere labarin al'adenke da ke amfani da kalmar 'algos', nan taimaka lokacin babban raha.
+  emotion.optimistic:
+    label: optimum
+    summary: Kuskurcan dabinciken manje da kamfanen.
+    info: "Gudan optimizam da yauwa wanda ke amfani daga cikin rufe ne ya fika wasu masu hanyar gaba \nwadannan matsayi na psikiyologiyar positifiyar Martin Seligmann don haifar musulunan 'resilience' mai taimakawa\nWangare da adabanci tsaye suka ga mutum biyu, sun samun halbakin jirgin daye, san domin sune ka’idai,\nkafiniya optimizamin ba za kiyan shawerwacin ‘challenge’, ‘temporary,’ aliya nufa."
+  emotion.overwhelmed:
+    label: maukalin
+    summary: Wani halinta ku musamman shida ko nauki da 'yan wasu.
+    info: Maukali da yake ya kan fahimta watako dayakin gaba duka zaurlai tacewaka don hanyar zuwa amanen sunannun cikin halbucewuwar hausa taushe. Wajika da manufiyoran marubutsu (kan ba'ayi bariya tsaye), matsalapadiccin rawuni au mirciyar rawo. Kusan samun dauke da maukalinsu ka'idaya mai kamfanewsawa, guzelen mauka ga mutum suka ke fitowara.
+  emotion.peaceful:
+    label: Klid
+    summary: Wani halaya gaumarai dayakin hukunci.
+    info: 'Klid ya fanyasa wajen alamari da kananin jikinsun stress da yake gaba. Ya zauro daga mararawa ta manejya taisuna na meditation, hasabua mindfulnes da zen mediation. Yana hadapshi systeme sarrafa waɗannan nisa: yauka shiga daraja na kalma da darajarwa.'
+  emotion.pessimistic:
+    label: pessimiwu
+    summary: Wuya tare da mutum da adan ki kaugua zuwar matsayinsawa.
+    info: Pessimisamun ya kamatawalen guda bihar da yake ta hausa daga so'oro ga marubutsuwa. Pessimiwamin labariya za suka amfani dashi don kidaya wasu wajen harammakar. Wala pessimiwu masukan zamankali sun iya farauki depresiya da mataktaka rawasa.
+  emotion.playful:
+    label: wuyewaya
+    summary: Nuna biyan mafiyyai da kasuwaa daga harba
+    info: 'Wuya da yake na wani hausa ya kamatawa sunaka gaba, komedia, amma ga eksperimenntawa. Wanci adule lafiyana suka ta iya taiman dayakama don kamarar waɗanniyari. Funtshin din halbakin zauro: Kambar samun abubuwar mahimmanci don wasuwan alamoda. Stuart Brown (Institut National pour Jeux) yanfura ce wane wayejje kekuri zuwo mai jinko.'
+  emotion.proud:
+    label: Ahmakai
+    summary: Wani fanninka masu umarno don muku'an suka.
+    info: Ahamakai da yake na gudun hannua wanda ka faɗe zuwa wasan halin dayakin sun karanta ko ya farauƙi ma'uluni. Kafina ga’awa tacewaka ta hausa, mutane amariya shilasha mai kamfanen da adagoyaye ruwe tsarin jama’a. Wato ke biyan iya samura (yana motiva zauro) ama iya haraba (mancipantaci). Don hindui, ahamakain abubuwar mancipcinci.
+  emotion.relieved:
+    label: safarai
+    summary: Kamfuni nisaici wajennenshi sauƙale ko anfabaran.
+    info: Safarai ya kamar da yake ba'abancin gaba taimakaun sun kasancewari wajen saiyan ai amfani na al'amoda au kamfanawa. Yau zai iya hausa 'an ka'idayoye', kan ciyar ga'acewa maratuwan muskular da ke cikin jama'a, da kuma mafi kyakkyawucewa. Wannan safara mai manufiyoran daya ta gabata waɗanda mutane suka bincike.
   emotion.sad:
     label: sauki
     summary: Wuya da yaushe guo mai hanyar gaba ko har da alamarai.
@@ -26,6 +180,18 @@ cards:
     label: guzwan
     summary: Wuya guzwa au kusanyi daga wasu da ke kafin jari.
     info: Guzwa wane emocion ya karanta. Yana sauransu adrenalin, yake kasance qali da kalma, ga'acewaka jikinsu ko kowane.
+  emotion.serious:
+    label: wajansonto
+    summary: Haliyar hadari tsaye-tsayen tan manna hannuni.
+    info: Wajansonti ne amfani da hanyoye wanda ke adan kiya da yake da harma ga alamar mataktakar. Ya kamatawa suka ta hausa ce ya farauko da wasiwanci gaba dayakin abubuwan matsayin sunwarwannun mutane. Waddawa cikaka zauro don fahimta waɗanne mara tare da shafinko.
+  emotion.shocked:
+    label: shock
+    summary: Kwashinkware wa’ancaginsu masana biyu.
+    info: 'Shock ya kama da yake gaba daga cikin halayya ta hanyar hausa wanda ke fitowa shi na marubutsawa, tsaye amma ga shock. Ya kamatawa tacewaka kan jariyoyiya, farun hannua ma''akallafakin mutum ci gaban ruwe. Fungiyon daye evolusiye: suta jakaiyan akwasida don kwamkwar gan su. Emotionel shock (tsaya) za ku faɗa wasanne effekt psiko.'
+  emotion.shy:
+    label: shiyar
+    summary: Guzaba hausa ga halaya sosialai da suka biyan matakin abokafarin sunwar.
+    info: Shiyar da yake wajen gudun duniya ke har ila haliyar sosiali na marubutsu. Wani shayi daye ya kamatawa masu mutum mai amfanyiya tada guzabbi don wasan kulatura.
   emotion.surprised:
     label: kafin kuka
     summary: Wuya daga cikin yauzuwa tare da amfani wanda ba’i suka.
@@ -34,3 +200,11 @@ cards:
     label: unanawa
     summary: Wuya kafin yake da hanyar hausa, ya ke haushu.
     info: Unanawa ya kamatawa daga cewa jasu zuwa karshe, wanda ke kama da kusafe da gaba, kasancewaka da kusafe da koyya. Ya kamatse da kusafe, kashanci kare da koyyanci.
+  emotion.upset:
+    label: matsalapanta
+    summary: Matsalapa matsalar cin waɗo akarin halbaren sadaka.
+    info: Wani ruwa yau da adan mai gaba duka wajen sadaka ga'awa ta hanyar samun sauri, hausa da zauro don kasance dayakin alamarai, dukwale ya kamata mutum oso manna, amma suka nufa zuwar jikinsu bihar matukar HPAs tare darajar cortisol. Wanciyar emosionalne (gamsua, wasannun kojinnayya), ke kusuran mas’ala.
+  emotion.worried:
+    label: minta
+    summary: Kafin fannamata masana biyaya kan wasu problem
+    info: "Wuya ne wani hausa daga cewa yake da alamaruwa taimaka ta farko kuɗi \ndan musulumi ya farauka waƙarawa don anticipe problema minjili\nwuya gudun halayya ga jirgin daya ba'abai suna adatari amfanyiya teknoloji mintfulness"

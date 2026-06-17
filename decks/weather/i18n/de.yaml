@@ -2,14 +2,151 @@ lang: de
 pivot: false
 title: Wetter
 cards:
+  weather.aurora:
+    label: Polarlicht
+    summary: Ein natürlicher Lichteffekt verursacht vom Solarwind innerhalb des Magnetfeldes.
+    info: Die Polarlichter entstehen durch die Interaktion geladener Sonnenpartikel mit der Atmosphäre und erzeugen grüne, lila oder rote Schleier sowie Spiralen am Himmel. Sie sind vor allem an Polregionen wie Norwegen, Island, Canada oder Antarctica zu beobachten.
+  weather.avalanche:
+    label: Lawine
+    summary: Massen von Schnee und Eis stürzen vom Berg ab.
+    info: Eine Lawine ist eine sich schnell bewegende Schneemasse auf einem Berghang. Die gefährlichsten sind Pulverschnee-Lawinen mit Geschwindigkeiten über 300 km/h; sie töten im Durchschnitt jährlich etwa 150 Menschen in den Alpen.
+  weather.blizzard:
+    label: Schneeburg
+    summary: Ein intensiver Schneefall begrenzt die Sicht auf nahezu Null.
+    info: Eine Schneesturm ist ein starker Wetterphänomen mit heftigem Niederschlag und starken Winden. Er führt zu fast null Sichtweite (White-out-Effekt) sowie hohen Lawinenablagerungen an den Hängen. Historisch gesehen haben solche Stürme Tausende von Menschenleben gefordert; der Blizzard im Jahr 1888 begrub beispielweise New York unter bis zu einem Meter Schnee.
+  weather.breezy:
+    label: Brise
+    summary: Eine angenehme, milde Brise frischt einen warmen Tag auf.
+    info: Ein Brise ist ein sanfter Wind mit einer Geschwindigkeit von 6 bis 11 m/s (Böenstufe Beaufort 3–4). Er verursacht das Bewegen der Blätter und Haare sowie leichter Gegenstände. Physiologisch gesehen reduziert er durch die Verdunsten des Schweißes das Wärmegefühl.
+  weather.clear:
+    label: klar
+    summary: Ganz klarer Himmel ohne einen einzigen Schimmer an Bewölkung.
+    info: Klar ist eine wettertechnische Situation mit einer Wolkenbedeckung von weniger als einem Achtel des Himmels. Sie ermöglicht das stärkste Sonnenlicht und die besten astrophysikalischen Beobachtungen sowie intensiveres Wärmestrahlung bei Nacht – Temperaturentwicklung verläuft schneller abwärts.
   weather.cloudy:
     label: wolkenbedeckt
     summary: Himmel bedeckt mit dichten Wolken, ohne direkte Sonne.
     info: Wolken sind sichtbare Ansammlungen von winzigen Wassertröpfchen oder Eiskristallen. Mehr als 60 % der Erdatmosphäre ist stets bewölkt.
+  weather.cold:
+    label: Winter
+    summary: Extreme Kalte mit Temperaturen weit unter Null.
+    info: Extrem kalte Temperaturentstehen,dass wenn Arktisluft bis zu den gemäßigten Breiten gelangt. Die niedrigste jemals natürlichen Temperatur auf der Erde betrug minus 89 Komma zwei Grad Celsius an der Station Woschtok im antarctischen Kontinent. Der Organismus verengt Blutgefäße und beginnt mit dem Schütteln bei Kälteregung.
+  weather.dew:
+    label: Taue
+    summary: Wassertropfen bilden sich nachts bei niedriger Temperature.
+    info: Tauwasser entsteht durch Kondensation von Feuchtigkeit aus der Luft auf kalten Oberflächen an ruhigen Nächten. Es bildet sich, wenn die Temperatur einer Fläche unter den Taupunkt sinkt. Tau ist eine wichtige Wasserquelle für Pflanzen und Tiere im Trockengebiet; Wüstenhirte nutzen Netze am Morgen zum Sammlung des Tauwassers.
+  weather.drizzle:
+    label: Neß
+    summary: Sehr leichter Regen bestehend aus winzigen Wassertropfen.
+    info: Neß ist ein Niederschlag mit sehr feinen Tropfen kleiner als 0,5 Millimeter Durchmesser. Er entsteht nicht aus aufsteigenden Cumulonenimbuswolken sondern aus niedrigen Schichtnebel-Wolkentypen und kommt besonders im Ozeanklima vor wie beispielsweise Großbritannien oder Nordwestfrankreich.
+  weather.drought:
+    label: trockene Periode
+    summary: Eine ausgedehnt fehlende Regenvorkommen verursacht Wasserengpass.
+    info: Trockenheit ist eine meteorologische Situation mit langfristigem Niederschlagsdefizit und führt zu Ernteausfällen, Wassermangel sowie Bränden. In Tschechiens Geschichte war die Trockenheitsperiode von 2015 bis 2020 am schlimmsten seit über 500 Jahren.
+  weather.dust_storm:
+    label: Staubsturm
+    summary: Ein Wall von Staub getrieben vom starken Wind im trockenen Gebiet.
+    info: Eine Staubsturm entsteht, wenn ein kräftiger Wind feinkörnige landwirtschaftliche Partikel aus der Erdoberfläche hebt und durch die Luft trägt. Im saharaartigen Afrika wird dieser Sand als Harmattan bezeichnet. Der Sahara-Staub erreicht regelmäßig den Atlantischen Ozean und gelangt bis nach Nordamerika – Forschungen zeigen seinen Einfluss auf den Amazonaswald.
+  weather.flood:
+    label: Flussüberlauf
+    summary: Das Überlaufen eines Gewäßers auf normalerweise trockenes Land.
+    info: |-
+      Eine Überschwemmung entsteht durch übermäßig viel Niederschlag oder Schneeschmelze und kann auch auftreten wenn Dämme brechen.
+      Überflutungen sind die kostspieligsten Naturgefahren weltweit,
+      in der Tschechoslowakei verursachten die Fluten von 1997 und 2002 Milliardenschäden sowie Todesfälle.
+      Natürliche Maßnahmen zur Minderung von Hochwasser wie Moore und Wälder helfen das Risiko zu reduzieren.
   weather.foggy:
     label: nebelhaft
     summary: Dichter Bodennebel, der die Sicht stark reduziert.
     info: Nebel besteht aus Wassertröpfchen an der Erdoberfläche und entsteht bei hoher Luftfeuchtigkeit. Er begrenzt die Sichtweite auf unter einen Kilometer.
+  weather.freezing:
+    label: frost
+    summary: Temperaturen unter dem Eispunkt führen zum Erstarrendes Wassert.
+    info: Frost entsteht bei Temperaturen unter null Grad Celsius und verursacht das Gefrieren von Wasser zu Eis. Biologisch kann er Pflanzen gefährden, während Glatteis Verkehrsunfälle auslöst. Die stärksten Fristeile im Tschechenland treten meistens Januar auf – historisches Minimum betrug über minus 42°C an der Stadt Litvinov 1929. Schnee ist eine feste Form des Wassers; seine Entstehung hängt innerhalb Wolken von Temperatur sowie Kondensationkerne ab.
+  weather.frost_flowers:
+    label: eisige Blumen
+    summary: Schöne Eis-Kristallformationen an frostkalten Flächen.
+    info: Eisblüten entstehen durch das Erfrieren von Feuchtigkeit auf extrem kalten Oberflächen und bilden komplex geformte Eiskristalle mit blumigen Mustern. Sie treten hauptsächlich im Arktischen Ozean auf und sind visuell faszinierend sowie beliebtes Motiv der Naturfotografie. Ihre Entstehung erfordert spezifische Bedingungen wie einen warm-feuchten Untergrund bei gleichzeitig sehr kühlem Luftklima.
+  weather.frosty:
+    label: Frostige Morgendämmerung
+    summary: Oberfläche mit eiszugelassen; Kristallschicht bedeckt Pflanzen und Erdboden.
+    info: Eisblüte entsteht, wenn die Oberflächentemperatur unter den Gefrierpunkt sinkt und Feuchtigkeit im Luft kondensiert kristallisiert sich ab. Sie bildet wunderschöne Muster auf Blättern, Glasoberflächen sowie dem Boden. Eisblüten unterscheiden von Frost – sie sind direkt aus der Sublimation des Wasserdampfs gebildeter Eiskristalle während Frost ist gefrorener Tau.
+  weather.gloomy:
+    label: wolkig
+    summary: Dunkles überdecktes Wetter mit depressiver Atmosphäre.
+    info: Wolkenverhangenes Wetter ist durch tief hängende dunkle Wolke und gedämpftes Licht sowie kühlen oder regnerischen Charakter gekennzeichnet. Es wird mit Melancholie und dem Herbst verbunden. Die Saisonale Affektive Störung entsteht aufgrund des Mangels an Sonnenlicht im Winter.
+  weather.hailing:
+    label: Graupelschauer
+    summary: Niederschlagsform mit eisernen Körnern; Graupe kann Getreideeinsammlung beeinträchtigen.
+    info: Hagel ist ein Niederschlag aus Eiskörnerchen oder Hagelnüssen, die sich innerhalb von Gewitterwolken bilden. Die Körner entstehen durch wiederholte Durchgänge der Wassertropfen zwischen kalten und warmen Bereichen im Wolkeinneren. Sie können einen Durchmesser über 10 Zentimeter erreichen und erheblichen Schaden an Ernteerträgen, Fahrzeugen sowie Dächern verursachen.
+  weather.haze:
+    label: Graupel
+    summary: Vermindertes Sichtigkeitsvermögen infolge Feinstäube, Ruß oder Umweltverschmutzung.
+    info: Graupel ist eine verminderte Atmosphärensichtbarkeit durch Staubpartikel oder Rauch entstanden aus feinen Aerosolen. Graupel unterscheidet sich von Nebel daran dass letzterer Wassertröpfchen enthält während er feste und flüssige Partikel beinhaltet. Asienmetropole sind oft aufgrund Smogs bedroht was ein Mischung aus Industrieabgasen mit Graupeleffekten bedeutet.
+  weather.heat_lightning:
+    label: wärmeresistent
+    summary: Entfernte Blitzschläge eines Sturms ohne hörbaren Donner.
+    info: Wärmegewitter sind Blitzschüsse von weit entfernten Gewittersystemen, deren Donner aufgrund der großen Distanz nicht gehört wird. Der Name ist irreführend – es handelt sich dabei um keinen speziellen Typ von Blitzen verursacht durch Hitze. Wir hören nur Blitze bis zu einer Entfernung von etwa 10 Meilen; weitere davon bleiben stumm.
+  weather.heat_shimmer:
+    label: Scheineffekte
+    summary: Lichtbrechungen in heißer Luft führen zu visuellen Täuschungen.
+    info: Ein Miren ist ein optischer Effekt durch das Brechen von Lichtstrahlen im warm aufsteigenden Luftstrom über heißen Oberflächen wie Asphalt oder Wüstenböden mit geringerer Dichte. Die abgelenkten Strahlungslinien erzeugen scheinbare Pfützen an der Straße und können auch komplexere Phänomene namens Fata Morgana verursachen.
+  weather.heatwave:
+    label: Hitzewellen
+    summary: Ausdauernde Perioden außergewöhnlich hoher Temperatur – Gesundheitsrisiken.
+    info: Eine Hitzewelle ist eine ausgedehnte Periode extremer Hitze mit Temperaturen über dem normalen Saisonmittelwert. Die europäische Hitzewelle im Jahr 2003 führte zu mehr als 70 000 zusätzlichen Todesfällen und stellt besonders für Senioren, Kinder sowie kranke Menschen ein großes Risiko dar.
+  weather.hot:
+    label: Hitze
+    summary: Extreme Wärme verursacht Unbehagen sowie Gesundheitsrisiken.
+    info: Extremer Hitze ist ein wissenschaftlicher Begriff für Temperaturextremen weit über dem saisonalen Durchschnitt und kann bei Kombination mit Feuchtigkeit zu einem Lebensgefahr bedeutenenden Hitzschlag führen.
+  weather.humid:
+    label: feuchter
+    summary: Luft gesättigt mit Wasserdämpfen; warm und stickige Empfindung.
+    info: |-
+      Feuchtigkeit misst den Wasserdampfgehalt der Luft.
+      Eine relative Feuchte von 100 % bedeutet Sättigungsluft; bei Überschreitung kondensiert Wasser
+      Hohe Feuchte erhöht das Wärmeempfinden, da Schweiß nicht verdunsten kann,
+      tropische Regionen haben ganzjährig hohe Feuchten;
+      hier ist sie im Sommer am höchsten.
+  weather.hurricane:
+    label: Hurrkikan
+    summary: Mächtiger Tropenzyklon mit Win Geschwindigkeiten über 120 km/h.
+    info: Ein Hurrikan ist ein tropischer Zyklon im Atlantik und östlichen Pazifik mit Windgeschwindigkeiten über 120 km/h. Er wird auch Typhoon genannt (westlicher Pazifik) oder Zyklon (Imdigozean). Die Energiemenge eines Hurrikans entspricht der von Dutzenden Atombomben pro Tag.
+  weather.ice_storm:
+    label: Eisregent
+    summary: Ein Frostregenguss legt eine dünnere durchsichtige Eisschicht auf alle Gegenstände.
+    info: Eine Eistürme entsteht dann, wenn warmer Luft über einer kalten Schicht Regen verursacht, der sofort gefriert und alles mit einer dickflüssigen transparenten Eisdecke bedeckt. Die Stromnetze können unter dem Gewicht des Eises zusammenbrechen und Blackouts auslösen.
+  weather.icy:
+    label: Glatteis
+    summary: Besonders rutschiges Eis auf Straßenoberflächen.
+    info: Eis entsteht durch das Erfrieren von Regentropfen oder Schmelzwasser auf kalten Oberflächen und ist eine der gefährlichsten Winterbedingungen für den Verkehr. Die Rutschgefahr wird verursacht durch die dünne Wasser-Schicht an seiner Oberfläche; Salzen oder Sandstreuen reduziert diese Gefahren.
+  weather.lightning:
+    label: Blitz
+    summary: Starker elektrostatischer Entladungsstrom zwischen dem Himmel und Boden.
+    info: Ein Blitz entsteht durch einen starken Stromstoß zwischen Wolken oder einer Wolkenerde und tritt auf, wenn die Ladungsdifferenz im Gewitterwolke den kritischen Wert erreicht. Die Geschwindigkeit des Blitze ist ungefähr ein Drittel der Lichtgeschwindigkeit. Auf der Erde schlagen etwa hunderter von Blitzen pro Sekunde ein.
+  weather.misty:
+    label: nebelig
+    summary: Geringe Sicht aufgrund leichter Dunstäufnahme.
+    info: Neblühender Nebel entsteht durch die Kondensation von Wasserdampf in der bodennahen Luftschicht und unterscheidet sich vom dichten Nebel dadurch, dass die Sichtweite eingeschränkt ist, aber nicht unter einen Kilometer fällt. Er bildet sich häufig über Flüssen, Teichen oder Tälern an kühlen Nächten.
+  weather.monsoon:
+    label: Monsun
+    summary: Saisonwechsel der Winde mit intensiven Regenzeiten.
+    info: |-
+      Der Monsun ist ein Klimaphänomen verursacht durch die saisonale Windumkehr zwischen Ozean und Festland.
+       Der Indien-Pakistan-Monsun bringt von Juni bis September etwa 70–90 % des jährlichen Niederschlages.
+       Etwa siebenhundert Millionen Menschen sind vom Monsun für ihre Landwirtschaft abhängig.
+       Ein versagender Monsun führt zu Dürren und Hungernissen; während starker Monsuns können Überschwemmungen entstehen.
+  weather.muggy:
+    label: schwül
+    summary: Unangenehm heißer feuchter Atemluft erzeugt ein Gefühl von Erstickungsgefahr.
+    info: Schwitzen ist eine Kombination aus hoher Temperatur und relativer Luftfeuchtigkeit im Raum von über 60%. Hohe Feuchte verhindert das Verdunsten des Schweißes auf der Haut, wodurch die Kühlung durch den Körper nicht effizient genug erfolgen kann.
+  weather.overcast:
+    label: bedeckt
+    summary: Der gesamte Himmelsbogen wird mit grauen Wolken bedeckt ohne direkte Einwirkung des Sonnenlichts.
+    info: Bedeckter Himmel tritt bei einer Bewölkung von 7/8 oder 8/8 ein. Das Licht ist diffus und erzeugt keine Schatten. Bei der saisonal abhängigen depressiven Störung (SSD/SAD) spielt das Fehlen an Sonne eine Schlüsselrolle. Lichteinstrahlungsbehandlungen simulieren Tageslicht und helfen.
+  weather.partly_cloudy:
+    label: halbledig
+    summary: Der Himmel wird teilweise durch Wolke bedeckt und wechselt zwischen Sonnenlicht und Schatten.
+    info: Halbleuchtes Wetter ist eine wetterkundliche Situation mit einer Bewölkung von drei bis fünf Oktanten. Es gehört zu den angenehmsten Arten des Wetters für Outdoor-Aktivitäten an. Halbklar enthält Kumulationswolken (Cumuli), die sich im Laufe der wärmeren Tageszeit entwickeln.
   weather.rainbow:
     label: Regenbogen
     summary: Farbenreicher Bogen am Himmel nach Regen, wenn die Sonne scheint.
@@ -18,6 +155,22 @@ cards:
     label: Regen
     summary: Aus den Wolken fallen Tropfen als Regen.
     info: Regen entsteht durch die Kondensation von Wasserdampf in den Wolken. Er ist notwendig für das Füllen der Flüsse, Seen und Trinkwasserreserven; im Durchschnitt fällt Regen mit einer Geschwindigkeit von 9 m/s.
+  weather.sandstorm:
+    label: Sandsturm
+    summary: Wand aus Sand und Staub getrieben durch starkem Wind in Wüstengegenden.
+    info: Eine Sandsturm entsteht, wenn starker Wind riesige Mengen an Staub und Sand aufwirbelt. Ein Haboob ist eine spezifische Form von Sandstürmen im Sahelexport und Arabischen Halbinsel. Er kann Dörfer verschüttet und Atemprobleme verursachen; die Arizona-Haboobs sind ein außergewöhnliches Naturschauspiel.
+  weather.shower:
+    label: Regenschauer
+    summary: Intensive kurzzeitige Regenniederschläge aus einer Gewitterwolke.
+    info: '{"hint":"kurz aber manchmal heftiger Regenguss","info":"Ein Schauer ist ein kurzer intensiver Niederschlag aus einem Konvektionswolke wie Cumulus oder Cumulonimbus.\nEr entsteht schnell und hält Minuten bis Stunden an.\nTypisch für den Sommer sind sie aufgrund der solarbedingten Aufwindbewegungen und Bildung von Cumulonen am Nachmittag.\Nach dem Schauer kann sich eine Regenbogen bilden.","label":"Schauer","summary":"Kurzfassender starker Regenschauerguss aus einer Kumulonimbuswolkens."}'
+  weather.sleet:
+    label: Regenschauer
+    summary: Mischung aus Regenwasserpartikel und geschmolzene Schnee.
+    info: Eisregen entsteht, wenn Schneeflocken durch eine warmere Luftschicht fallen und teilweise schmelzen.
+  weather.slush:
+    label: aufgetauter Schnee
+    summary: Teils geschmolzener Schnee gemischt mit Wasser – eine glatte Winteroberfläche.
+    info: Auftauender Schnee entsteht, wenn die Temperatur leicht über dem Gefrierpunkt ansteigt und der Schnee beginnt zu schmelzen. Er ist sehr rutschig und gefährlich für Fußgänger wie auch Fahrer von Motorfahrzeugen.
   weather.snowy:
     label: Schneefall
     summary: Aus den Wolken fallen weiße Schneeflocken.
@@ -30,6 +183,34 @@ cards:
     label: sonnig
     summary: Klarer Himmel mit strahlender Sonne, ohne Wolken.
     info: Sonniges Wetter entsteht, wenn keine Bewölkung das Sonnenlicht blockiert. Die Sonne liefert das Licht und die Wärme, die für das Leben auf der Erde unbedingt notwendig sind.
+  weather.sunrise:
+    label: Taganbruch
+    summary: Der Zeitpunkt des Tagesbeginns mit Erhebung der Sonnescheibe über den Horizont.
+    info: Dämmerung ist der Moment im Sonnenlauf, wenn die untergehende oder aufsteigende Scheibe über dem Horizont sichtbar wird und sich das Licht durch Rayleigh-Streuung färbt – typischerweise orange bis rosa. In Polargebieten tritt Dämmerung nur während spezifisch saisonaler Perioden wie Tag ohne Nacht ein; außerdem kann manchmal eine seltenere Erscheinung namens grüner Blitz beobachtet werden.
+  weather.sunset:
+    label: Sonnenuntergang
+    summary: Augenblick am Ende eines Tages, bei dem sich die Sonne hinter dem Horizont verabschiedet.
+    info: Der Sonnenuntergang ist der Tagesmoment, zu dem die Sonne unter den Horizont sinkt. Die farbige Palette – orange, rot und lila – entsteht durch Streuung des Sonnenlichtes. Besonders beeindruckende Sonnenuntergänge treten nach vulkanischen Eruptionen auf, wenn Staubpartikel in der Atmosphäre Farben intensivieren.
+  weather.thunderstorm:
+    label: Gewitter
+    summary: Starker Wetterphänomen mit Blitzen, Donnergrollen, Regen und Wind.
+    info: Ein Gewitter entsteht in Cumulonimbuswolken – riesigen Wolken mit einer Höhe von über 10 Kilometern. Der Blitz ist ein elektrischer Entladungsvorgang und erhitzt die Luft auf etwa 30 000 Grad Celsius innerhalb eines Bruchteils einer Sekunde. Donner ist der Schalleffekt schneller Expansion erwärmter Lufts.
+  weather.tornado:
+    label: Tornado
+    summary: Zerstörungsfähiger winddurchzogener Schacht zwischen Wolken und Boden.
+    info: Ein Tornado ist ein schnell drehender Luftschlauch aus einer Gewitterwolke bis zum Erdboden mit Windgeschwindigkeiten von über 500 Kilometern pro Stunde. Sie kommen häufig im sogenannten 'Tornado Alley' der Vereinigten Staaten vor – insbesondere Kansas, Oklahoma und Texas sind betroffen.
+  weather.typhoon:
+    label: Taifu
+    summary: Ein tropischer Zyklon im Nordwest-Pazifik mit Windgeschwindigkeiten über hunderdtzwanzig Kilometern die Stunde.
+    info: Typhoon ist der Name für einen Hurrikan auf den Philippinen, China und Japan sowie deren Umgebung. Die Philippinen werden durchschnittlich jährlich von etwa zwanzig Typhonen getroffen. Der Taifu Nina im Jahr 1975 verursachte eine Überschwemmung in China mit über zweihundertneunzigtausend Todesopfern.
+  weather.waterspout:
+    label: Wassertornado
+    summary: Dreher Schlauch zwischen Meer/Ozean und Wolke.
+    info: Ein Wasserhagel ist ein drehender Luftschliff über einer wasserführenden Fläche. Eine gefährliche stürmische Wassersäule entsteht aus einem Gewittersturm; eine schwächere Sonnenwassersäule bildet sich von Cumulusnebel ab. Sie kann Fische oder andere Tiere ansaugen und auf das Land transportieren.
+  weather.whiteout:
+    label: weiße Finsternis
+    summary: Zustand einer Polarstürme mit totaler Kontrasterosion durch den Schneespiegel.
+    info: Ein Whiteout entsteht dann, wenn Schnee und die Reflexion des Wetters dazu führen, dass Himmel und Erdoberfläche zu einem einzigen weißen Feld verschmelzen. Es bietet keine Sichtbarkeit mehr an und verursacht Desorientationen; er kann tödlich gefährlich sein im Polargebiet oder Bergregionen.
   weather.windy:
     label: windig
     summary: Starker Luftbewegung, die Bäume biegt und Blätter wegträgt.

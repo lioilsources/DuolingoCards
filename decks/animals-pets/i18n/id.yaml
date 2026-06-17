@@ -2,14 +2,115 @@ lang: id
 pivot: false
 title: Hewan Peliharaan
 cards:
+  pet.angelfish:
+    label: diskus
+    summary: Bentuk bundar pipih indah dengan ekor menyerupai payet.
+    info: '{"hint":"ikan akuarium berwarna-warni dari kelompok cichlid","info":{"title": "Discus", "content": ["Ikan Discus adalah salah satu ikan hias air tawar yang sangat populer karena bentuknya bulat seperti kue dan warnanya yang cerah." , "Mereka berasal dari sungai-sungai di Amerika Selatan dengan suhu sekitar 26–30°C." , "Memakan plankton kecil atau serpihan tanaman dalam aquascape mereka." ]},'
+  pet.axolotl:
+    label: axolotl
+    summary: caecilian air permanen dengan insang
+    info: '{"hint":"ikan berudu Meksiko yang menjaga insang bentuk anak-anak selama hidupnya","info":"Axolotl adalah caecilian air dari Mexico yang mempertahankan ciri-cirinya sebagai embrio hingga akhir hayat (nekrotomi).\nIkan ini memiliki eksternal insang dan wajah tersenyumlah karakteristik.\nEndemik di Danau Xochimilco di Mexico serta terancam punah secara serius.\nPunya kemampuan luar biasa untuk meregenerasi tubuhnya sendiri; dapat mengembalikan anggota badan maupun bagian jantung & otak.'
+  pet.ball_python:
+    label: piton raja
+    summary: Hewan melata tenang yang membentuk gulungan bulat sempurna ketika digelindingkan.
+    info: '{"hint":"ular berbuk yang patuh dan populer sebagai reptil pertama","info":"Ular piton raja berasal dari barat daya hingga tengah Afrika di mana ia hidup di sabana serta hutan-hutannya.\nSaat merasa terancam, u lar ini menggulung dirinya menjadi bola padu (dari sinilah istilah ''ball python''). \nPanjangnya mencapai antara 120 sampai dengan 150 sentimeter dan usianya bisa lebih dari tiga puluh tahun. \nLebih dari delapan ribu variasi warnanya telah dikembangbiakkan secara buatan."}'
+  pet.bearded_dragon:
+    label: iguana berbulu
+    summary: Reptil dari Australia ini sangat diminati untuk dipelihara.
+    info: Iguana berbulu adalah salah satu reptil peliharaan paling populer karena sifatnya yang tenang dan mudah dijinakan. Bulunya bisa mengembung atau gelap sebagai ekspresi emosi maupun dominasi teritorial. Ia juga menunjukkan tanda ketaatan dengan gerakan melambai-lambaikan lengan.
+  pet.betta_fish:
+    label: betta
+    summary: Ikan labirinth warna cerah dengan sirip menonjol berasal dari Asia Tenggara.
+    info: |-
+      {"hint":"ikan labirin yang berwarna-warni dengan sirip menggantung dari Asia Tenggara","info":"Ikan betta adalah ikan labirintus yang dapat bernapas udara menggunakan organ spesial dan hidup di sawah-sawah padi dangkal Thailand.
+      Jantan-jatannya bersifat agresif terhadap satu sama lainnya;
+      dari sinilah nama umum 'ikan petarung'.
+      Pemuliaan telah menciptakan bentuk-bentuk megah dengan ekor besar yang menjuntai.
+      Mereka bisa bertahan hingga usia antara tiga sampai lima tahun serta relatif mudah dirawat.
+  pet.blue_tongue_skink:
+    label: blue-tongue lizard
+    summary: Reptil Australia dengan lidah berwarna biru terang digunakan untuk memperingatkan ancaman.
+    info: Blue-tongued Skink adalah reptil besar dari Australia yang memiliki lidah biru mencolok sebagai ciri utamanya. Ia menonjolkan lidahnya untuk mengintimidasi predator karena warna birunya dianggap tidak menyenangkan bagi mereka.
+  pet.budgerigar:
+    label: budgerigar
+    summary: Burung kicau terpopular didunia yaitu jenis lovebird dari Australia.
+    info: |-
+      Budgerigar adalah burung peliharaan paling umum di dunia setelah canary.
+      Pada kehidupannya liar budgerigars berwarna hijau-kuning dan warnanya bervariasi karena hasil pemuliaan seperti biru, putih atau abu-abu.
+      Jantan mampu menirukan suara manusia serta belajar ratusan kata dalam bahasa yang digunakan oleh orang-orang disekelilingnya.
+      mereka hidup antara lima sampai sepuluh tahun lamanya.
+  pet.canary:
+    label: kanari
+    summary: Hewan piaraan ini adalah burung cantik yang memiliki bulu kuning cemerlang dan dikembangkan untuk kemampuan menirunya.
+    info: '{"hint":"burung kecil yang dibiakkan karena suaranya dan warna kuning cerahnya","info":"Burung kanari berasal dari Kepulauan Canary dan dijinakan oleh penjajah Spanyol pada abad ke-15\nDengan seleksi bibit telah terbentuk banyak jenis seperti bernyanyi (roller, waterslager), berwarna-warni merah atau putih serta bentukan tertentu\nPada umummya burung jantan menyanyikan lagu-lagu kompleks dengan belajar potongan-potongan nyanyian lain\nSecara historis mereka digunakan sebagai pendetector karbon monoksida dalam tambang batubara."}'
   pet.cat:
     label: kucing
     summary: Hewan peliharaan rumah tangga mandiri dengan kaki yang lembut.
     info: Kucing domestik adalah mamalia dari keluarga Felidae yang dipelihara sebagai hewan piaraan. Dikenal karena kecermatannya, kebersihan dirinya sendiri, dan sifatnya yang independen.
+  pet.chameleon:
+    label: chameleon
+    summary: Reptil penampil ulasan warna dengan kedua bola mata terpisahkan dalam gerakkannya.
+    info: '{"hint":"Kadal berubah warna dengan mata yang bisa digerakkan secara independen (Chamaeleo)","info":"Chameleon adalah hewan reptil jenis kadal yang memiliki kemampuan mengganti warna kulitnya menggunakan cahaya dari sel-sel spesial bernama khromafor; perubahan warnanya lebih untuk mengekspresikan emosi daripada utamanya sebagai cara menyamar.Kedua matanya dapat bergerak sendiri-sendiri dan mencangkul sudut hingga nyaris 360 derajat.Lidarannya panjang melewati tubuhnya serta meluncur cepat sampai kecepatan 26 kilometer/jam.Hewannya hidup hanya di pepohonan saja dan mempunya kakinya seperti pinset agar mudah menjepiti cabang-cabangan","label":"chameleon","summary":"Hewan reptil penghias warna dengan dua buah mata gerakan bebas."}'
+  pet.chinchilla:
+    label: kancil
+    summary: Hewan pemakan kayu dari wilayah selatan amerika serikat dengan pelindung tubuh tertipis.
+    info: '{"hint":"mamalia berkambing halus dari Amerika Selatan dengan bulu sangat rapat (Chinchilla lanigera)","info":"Kincir adalah mamalia pohon di Pegunungan Andes yang memiliki rontokan terpadat secara rekor; satu folikel menghasilkan antara 60 hingga 80 helai rambutnya (pada manusia hanya ada satu).\nMereka mempertahankan dirinya pada temperatur kurang dari atau sama dengan 25 derajat Celcius; kelebihan panas bisa menjadi fatal bagi mereka. \nUmur kincira mencapai sampai usia 15 tahun dan dalam kasus langka lebih dari dua puluh tahun. \nPelana ini begitu dicari nilai ekonomisnya bahwa spesies tersebut berstatus ancaman penjarahan."}'
+  pet.clownfish:
+    label: kloun oό?at?
+    summary: Ikan berwarna jeruk yang hidup secara simbiosis dengan anggrek laut.
+    info: '{"hint":"ikan laut kecil berwarna jingga putih yang hidup di dalam terpedo laut (Amphiprioninae)","info":"Ikan klown mata besar adalah ikan air laut dari daerah Indopasisifik tropis yang tinggal bersimbiosis dengan anggrek lautnya.Simbiotik ini melindungi dia menggunakan tentakel berbisa dan ia membersihan serta mengusir predator.Setelah tayangnya film Finding Nemo pada tahun 2003 menjadi simbol utama akuarium laut.Ibu semua jenis kloun lahir sebagai laki-laku tetapi individu dominannya bisa bertukar gender","label":"kloun o\uc{485}\uc{79}?at\'''',''summary'':''Ikan warna jeruk yang hidup secara simbiosis dengan anggrek laut."}'
+  pet.cockatiel:
+    label: nimfa
+    summary: Burung kecil berbulu merah dengan ekor panjang yang populer karena kemampuan menyanyinya.
+    info: Kukus nimfa berasal dari Australia dan hidup di padang rumput serta hutan-hutannya. Jantan-jantannya sangat mahir meniru suara seperti lagu-lagunya atau bahkan kata-kata manusia.
+  pet.corn_snake:
+    label: kobra jagung
+    summary: Hewan penjinakan merah-orange yang ramah untuk pemula.
+    info: Kobra jagung berasal dari bagian tenggara Amerika Serikat dan hidup di ladang serta hutan-hutannya. Ia tidak berbisa dan bersifat damai—langka sekali mengigit serta tahan terhadap penyakit.
+  pet.crayfish:
+    label: raciu akuarium
+    summary: Udang kecil bermotif terang pada akuarium air tawar.
+    info: '{"hint":"udang sungai yang dipelihara di akuarium (Cambarellus atau Procambarus)","info":"Raci akuarium adalah hewan peliharaan populer dalam akuarium air tawar karena tingkah lakunya aktif dan warnanya cerah."\n"Blue Florida Crayfish (Procambarus alleni) merupakan spesies paling diminati untuk akuarium."\n"Mereka mengganti kulitnya saat berkembang biasa melalui proses ecdysis; cangker baru awalnya masih lunak."\n"Berguna sebagai penghias dasar akuarium mereka memakan ganggang serta sisa-sisa makanan","label":"raciu akuarium","summary":"Seekor udang kecil berwarna-warni dari akuarium air tawar"}'
+  pet.crested_gecko:
+    label: cecak berbulu
+    summary: Cicak malam dengan mahkota seperti rambut halus dan matanya besar.
+    info: |-
+      {"hint":"cicak malam dengan duri mirip bulu mata dan penampilan menarik","info":"Cecak berbulu New Caledonia berasal dari pulau tersebut yang sempat dianggap punah sampai tahun 1994.
+      Ia mampu melompat dan aktif pada waktu gelap.
+      Berbeda dengan cicak lainnya ia tidak membutuhkan lampu khusial untuk sinar ultraviolet B.
+      Makanannya adalah buah-buhan serta serangga kecil; dalam pemeliharaan terdapat banyak variasi warnanya."}
+  pet.degu:
+    label: degus
+    summary: Hewa pengerat khas Chili berperilaku sosial seperti incle.
+    info: '{"degus" adalah hewan pengerat kecil dari Chili yang mirip dengan kelinci dan cincila. Hewan ini aktif siang hari saja serta sangat sosial sehingga mudah stres jika kesepian.'
+  pet.discus_fish:
+    label: diskus
+    summary: Seekor ikan indah seperti cakram yang disebut raja dalam akuarium tropis.
+    info: Ikan Diskus berwarna-warni adalah ikan besar dari Amazon yang memiliki bentuk bulat dan warnanya sangat menarik. Ikan ini termasuk salah satu jenis ikan hias akuarium terpilih karena membutuhkan kimia air serta suhu antara 28 sampai 32 derajat Celsius dengan presisi tinggi untuk bertahan hidupnya. Anak-anak Discus makan melalui sisa kulit induukan mereka—fenomena langka di kalangan spesies ikan.
   pet.dog:
     label: anjing
     summary: Hewan peliharaan setia di rumah.
     info: Anjing adalah hewan yang telah dibiakkan dari serigala dan merupakan satwa ternak tertua manusia. Lebih dari 400 ras anjing ada saat ini, dan mereka dikenal sebagai 'teman terbaik manusia'.
+  pet.dove_pet:
+    label: Holubice Doméstika
+    summary: Mburung merpat putih bersih yang dipelihara sebagai binatang kesayangan ataupun dilepas pada momen-momen penting.
+    info: '{"hint":"merpat putih yang dipelihara sebagai hewan peliharan atau dilepaskan untuk acara tertentu","info":{"label":"Merpat Putih Domestikasi","summary":"Burung merpat putih bersih yang dipelihara sebagai binatang kesayangan dan sering digunakan dalam upacara seperti pernikahan dan pemakaman di seluruh dunia."},"data":{}}'
+  pet.electric_eel:
+    label: listrik
+    summary: Ikan Air Tawar Di Asia Yang Mengeluarkan Listrik Hingga 5 Volt.
+    info: Lele listrik bukan ikan sungai yang sesungguhnya tetapi kerabat dari kelompok perikan air tawar di Amerika Selatan seperti Sungai Amazone. Ia mampu menghasilkan lonjakan listrik sampai dengan 860 volt untuk menumbangkan mangsa atau pertahan dirinya sendiri.
+  pet.ferret:
+    label: armadilo
+    summary: Ajaibnya armadilus menyenangkan ini sangat penasaran.
+    info: Armadillo adalah bentuk yang telah dijinakkan dari Mustela nivalis dan sudah dibudidayakan lebih dari dua ribu lima ratus tahun lalu untuk berburu kelinci.
+  pet.frilled_lizard:
+    label: iguana berkerudung
+    summary: Kadal dari Australia yang memperlihatkan lipatan pakaian dramatis untuk pertahan diri.
+    info: '{"hint":"reptil yang menampilkan kerah besar di sekitar tenggorokan saat merasa terancam","info":"Iguana berkerudung adalah kadal Australia yang ketika menghadapi ancaman membuka celah dada luas disekitar leher mereka dan membuat suara mendesis serta melompat dengan kedua kakinya belakangnya.Lapisan ini dipertegas oleh tulang rusuk panjang.Ia lari seperti miniatur dinosaurus Trex.Populer sebagai subjek fotografi alami juga simbol wilayah utara australia."}'
+  pet.gerbil:
+    label: arjuna
+    summary: Mamalia berkuku kecil dari gurun dengan ekor panjang bersurai.
+    info: '{"hint":"kecil mamalia berkuku dari daerah gurun yang populer sebagai hewan peliharaan karung tangan","info":"Arjuna pasir berasal dari padang rumput kering Mongolia dan Tiongkok\nIa beradaptasi untuk hidup di gurun dengan sangat sedikit minum karena ia memproses air dari makanannya secara efisien\nHewannya tinggal dalam kelompok-kelompok kecil serta aktif siang hari sehingga cocok menjadi teman pengamatan\nDia suka mengorek terowongan dan butuh cukup media tanah agar bisa mengeksplor perilaku alami"}'
   pet.goldfish:
     label: ikan emas
     summary: Ikan berwarna keemasan yang dipelihara di akuarium.
@@ -22,14 +123,124 @@ cards:
     label: Hamster
     summary: Hewan pengerat lucu kecil dengan pipi berisi.
     info: Hamster emas adalah hewan peliharaan yang populer. Mereka menyimpan cadangan makanan di pipinya dan aktif terutama pada malam hari; mereka juga suka berlari di roda.
+  pet.hedgehog:
+    label: hedgehog afrik
+    summary: Karnivor berduri kecil yang menggulung dirinya menjadi bola saat terancam.
+    info: Hedgehog Afrika mini adalah mamalia kecil yang populer sebagai peliharaan di seluruh dunia.
+  pet.hermit_crab:
+    label: beguk
+    summary: Hewan laut eksotik yang menggunakan rumah pinjam.
+    info: |-
+      Beguk pasir adalah crustasea yang tidak memiliki duri keras sendiri dan melindungi bagian belakang lunanya dengan cangkul kerucut kosong dari siput berduri.
+      Saat tumbuh besar ia mencari cangkul lebih besar.
+      Beguk pasir kering dijinakan sebagai binatang peliharaan karena bersifat sosial serta hidup dalam kelompok-kelompok kecil.
+      Pada alam liar mereka tinggal di pantai-pantai tropis.
+  pet.iguana:
+    label: kadal
+    summary: Hewa peliharaan tropikal amerika yang disukai karena warnanya biru langit dan bentuknya unik.
+    info: '{"hint":"reptil pemakan rumput besar dari Amerika Tengah yang dipelihara sebagai hewan peliharaan (iguana iguana)","info":"Kadal hijau adalah reptil amerika selatan dewasa mencapai panjang sampai dengan dua meter\nDia secara ketat memakannya daun-daunan dan di penangkaran mengharuskan beragam sayuran segar serta penerangan uvb\nMemiliki mata ke-tiga pada bagian atas kepala yaitu parietal eye sensitif terhadap cahaya\nDapat hidup lebih dari duapuluh tahun dalam penjagaan tetapi sangat bergantung lingkungan sekitarnya","label":"kadal leguan","summary":"Reptil hijau raksasa dari amrik utara populer sebagai anjing laut eksotis."}'
+  pet.koi:
+    label: ikan koi
+    summary: Varietas ikan air t awar dengan corak warna-warninya menonjol digunakan dalam kolam renungan.
+    info: |-
+      {"hint":"varietas hias ikan karper biasa yang dibudidayakan untuk warnanya yang cerah (Cypri nus carpio)","info":"Ikan Koi adalah varian dekoratif dari jenis C yprinidae umum Cyprinus Carpio yang telah dihasilkan oleh para breeder di Jepang selama abad ke tujuh belas .
+      Terdapat lebih dari seratus variasi berdasarkan warna ; individ u-individu termahal bisa terjual dengan harga ratusan ribuan dolar.
+      Umur maksimalnya mencapai dua ratus tahun;
+      dalam budaya lokal simbolikatannya meliputi kepahlawanan dan ketahan an serta kemakmuran."}
+  pet.leopard_gecko:
+    label: Leopard Gecko
+    summary: Kecil nokturnal spot-tailed gecko ideal untuk pemula.
+    info: Geckong Leopard berasal dari daerah gurun Pakistan dan Afghanistan. Berbeda dengan kebanyakan kadal lainnya, ia tidak memiliki cangkang pada jari-jarinya sehingga dia tidak bisa merayap di atas permukaan yang licin seperti kaca. Ikan ini juga unik karena mempunyai kelopak mata bergerak.
+  pet.lovebird:
+    label: lovebird
+    summary: Burung agam dengan warna cerah dan hubungan berpasang-pasangan.
+    info: Agapornis adalah burung beo kecil dari Afrika yang dikenal karena ikatan pasangan mereka yang kuat.
+  pet.mandarin_fish:
+    label: ikan mandarin
+    summary: Salah satu spesies ikan air laut termewarnai dengan pola psikedelik.
+    info: Ikan Mandariña indah adalah ikan laut kecil dari terumbu karang di Pasifik dan Hindia yang memiliki warna salah satu paling mencolok dalam dunia hewan.
+  pet.mini_pig:
+    label: babihutanimini
+    summary: Hewan peliharaan berupa babi rumah dalam skala mini.
+    info: Babi hutan miniatur atau babi teko adalah ras kecil dari babi domestik yang telah dihibridisasi untuk ukuran tubuhnya lebih kecil dan tetap terkontrol selama hidup dewasa mereka.
+  pet.moon_jellyfish:
+    label: ubur bulan
+    summary: Ubek cahaya biru jernih yang dipelihara pada akuarium khusus.
+    info: '{"hint":"ubur laut bercahaya kecil yang dipelihara di akuarium spesial","info":"Ubur bulan adalah salah satu jenis ubur paling umum dan relatif aman bagi manusia.\nHampir transparan dengan empat indung telurnya terlihat melalui tubuhnya dalam bentuk lingkaran.\nPembiakan di akuarium sebelumnya sangat sulit; saat ini sudah ada tangki bundar khusus untuk itu (tangki kreisel).\NUmur hidupnya berkisar antara 12 hingga 18 bulan."}'
+  pet.mouse:
+    label: mice white
+    summary: Kecil mamalia berkuku terpelihara sebagai binatang kesayangan atau subjek eksperimen ilmuwan.
+    info: '{"hint":"tikus rumahan kecil yang dipelihara sebagai hewan peliharaan","info":"Tikus putih adalah bentuk tikus rumah tangga yang telah dijinakkan dan dikembangbiakan baik untuk penelitian maupun estetika.","label":"mus whitney","summary":"Hewani pengerat berbulu halus dengan warna dominasi coklat atau hitam."}'
+  pet.mynah_bird:
+    label: pipig
+    summary: Sparrow bicara dari Asia memiliki kecakapan istimewa dalam mengimitasi suara.
+    info: |-
+      {"hint":"burung pipig suara dari kelompok burung myna di asia","info":"Burung Mynah adalah sparrow yang terkenal karena kemampuan berbicaranya sangat baik dibandingkan dengan jenis burung lainnya.
+      Ia dapat menirukan nada dan pelafalan bahasa manusia secara luar biasa tepat.
+      Aslinya berasal dari kawasan Asia Tenggara serta India.
+      Di penangkaran ia bisa diajar ratusan kata atau frase."}
+  pet.oscar_fish:
+    label: ikannya
+    summary: ikan mas air tawar yang terkenal karena tingkah lakunya
+    info: '{"hint":"ikan kerang besar yang cerdas dari Amerika Selatan","info":"Ikan Oscar adalah ikan mas tropis berukuran besar dan sangat pintar berasal dari Sungai Orinoco di Venezuela dengan nama ilmiah Astronotus ocellatus. Ia bisa mengingat wajah pemiliknya bahkan sampai meminta diberi makan saat melihat orang tersebut mendekati akuarium."}'
   pet.parrot:
     label: burung beo
     summary: Burung berwarna yang dapat meniru suara manusia.
     info: Beo bergelombang adalah jenis burung beo paling umum yang dipelihara sebagai hewan peliharaan. Ia cerdas, bersosialisasi dengan baik dan bisa menirukan bunyi serta kata-kata.
+  pet.prairie_dog:
+    label: tupai prairi
+    summary: Mamalia bulu pendek pembuat lubang-lubang pada daerah dataran rendah di utara amerika serikat.
+    info: '{"hint":"rodent sosial penggali dari padang rumput di Amerika Utara","info":"Tupai prairi adalah hewan pengerat yang hidup secara bersamaan dengan populasi besar lainnya dan tinggal dalam komunitas bawah tanah luasan besar.","label":"tupai prairi","summary":"Hewannya merupakan mamalia berbulu kecil yang menciptakan terowongan kompleks untuk tempat berkumpul."}'
+  pet.quail_pet:
+    label: '"burung ciri peliharaan"'
+    summary: '"Burung kecil tidak membutuhkan perawatan intensif yang dipelihara dalam ruangan."'
+    info: |-
+      {"hint":"tombol burung ciri atau japanese quail yang dipelihara sebagai hewan peliharan kecil (coturnix)","info":"Kurcaci Jepang adalah seekor ayam kecil yang dipelihara baik untuk telur maupun menjadi binatang piaraan.
+      Beratnya hanya sekitar seratus gram dan merupakan unggas terkecil yang dipelihara.
+      Pria kurcaci berkokok seperti ini: pipipit, betina mengeluarkan suara mendesis rendah.
+      Mereka tenang sehingga cocok juga ditempatkan di apartemen."}
   pet.rabbit:
     label: kelinci
     summary: Hewan peliharaan berbulu dengan telinga panjang.
     info: Kelinci domestik adalah hewan peliharaan yang populer dengan bulu halus dan memiliki telinga panjang khas. Mereka memakan rumput, sayuran, serta rerumputan segar.
+  pet.rat:
+    label: Kucing Tikus Rumahan
+    summary: Hewan piaraan cerdas ini sangat setia kepada pemiliknya.
+    info: |-
+      {"hint":"tikus peliharaan yang cerdas dan penuh kasih sayang","info":"Tikus rumah adalah salah satu mamalia berkantung terpandai; mereka bisa diajar untuk merespons panggilannya serta menyelesaikan pekerjaan kompleks dengan baik.
+      Mereka memiliki perkembangan sosial tinggi sehingga membentuk ikatan kuat tidak hanya pada manusia tetapi juga antar sesama tikusnya sendiri.
+      Umur rata-rata mencapai dua hingga tiga tahun;
+      di Asia menjadi simbol kecerdikan dan kemakmurkan dalam kalender Cina,
+      mampu mendeteksi ranjau darat di Afrika berkat penciumannya."}
+  pet.red_eared_slider:
+    label: Turtle Elegan
+    summary: Penyu akuarium sungai umum dengan garis-garis merah di belakang daun telingga.
+    info: '{"hint":"kura-kura pelih yang populer dengan bintil merah di telinganya","info":"Kura-kura cantik ini berasal dari Amerika Utara dan merupakan reptilia tertangkap terbanyak di dunia.\nPita merah karakteristik di belakang telinganya membedakan spesies ini dari jenis serupa lainnya.\NIa perlu bagian air serta area darat untuk berjemur di bawah lampu sinar ultraviolet.\DI dapat hidup lebih dari tiga puluh tahun; banyak individu dilepaskan ke alam liar menjadi species invasif."}'
+  pet.sea_horse_pet:
+    label: iklan duyung
+    summary: ikan duyung di akuarium air laut
+    info: |-
+      {"hint":"ikan duyung yang dipelihara di akuarium laut spesialisasi","info":"Ikan duyung adalah salah satu hewan laut terberat untuk dikembangbiakkan dalam penangkaran karena membutuhkan makanan hidup seperti artemia dan mysis serta lingkungan tenang.
+      Pria ikan duyung membawa anak-anaknya ke luar tubuh mereka melalui ransel perut selama beberapa minggu sebelum melepaskannya;
+      mereka bisa menghasilkan ribuan bayi secara bersamaan setiap kali berkembang biak.
+      iKAN DuyUNG HIDUP DALAM PASANGAN DAN SETIA SELAMA SEUMUR HAYATNYA,
+      tapi populasinya sangat rentan disebabkan oleh pemanenan ilegal demi pengobatan tradisional."}
+  pet.sugar_glider:
+    label: koala terbang
+    summary: Hewa berkantung Australia kecil yang meluncur dengan membentangkan kulit tubuh.
+    info: Koala terbang adalah hewan berkantung kecil dari Australia yang mampu menggulir di udara berkat membrannya (patagium), menyerupai parasut antara kaki depan dan belakangnya.
+  pet.tarantula:
+    label: theraphosa
+    summary: Pengumpil bulu besar pelengkap kehidupan ekstrem.
+    info: |-
+      {"hint":"labah-labah berbulu besar yang dipelihara sebagai hewan eksotis","info":"Karena sifatnya tenang dan ramah terhadap pemula, Avicularia rosea adalah jenis labah-labah Tarantula populer untuk para penggemar awal.
+      Spesies tertinggi dari kelompok ini yaitu Theraphosa blondi merupakan spesies labah-labah paling tinggi di dunia dengan panjang kaki mencapai lebih dari tiga puluh sentimeter.
+      Pembawa racun mereka tidak membahayakan bagi orang dewasa sehat karena toksinnya mirip seperti semut api.
+      Labah-labah Tarantula bisa hidup selama dua sampai tiga dekade."}
+  pet.tortoise_pet:
+    label: beruang
+    summary: Beruang berumur panjang ini menjadi teman baik selama sisa hayat.
+    info: '{"hint":"tukik darat kecil yang dipelihara sebagai binatang peliharaan abadi dari genera Testudo","info":"Kura-kura Hermann adalah kura-kura Eropa Selatan kecil populer dijadikan binatang kesayangan karena usianya panjang.\nIa bisa hidup lebih dari seratus tahun dan bertahan setelah pemiliknya meninggal dunia.\nPada musim dingin ia menghibernasi dengan proses metabolisme terhenti nyaris sepenuhnya.\nDi Ceko dilarangkan membiakkan beberapa spesies tanpa izin resmi."}'
   pet.turtle:
     label: kura
     summary: Hewan lambat dengan cangkul keras.

@@ -2,14 +2,66 @@ lang: es-419
 pivot: false
 title: Anfibios y anélidos
 cards:
+  reptile.agama:
+    label: agama
+    summary: Lagarta rocosa tropical que usa sus vivaces tonalidades para comunicación visual.
+    info: '{"info":"Las agamas son una familia numerosa de lagartijas originarias de África y partes de Asia con más de trescientos tipos diferentes. Los machos tienen colores llamativos como cabeza anaranjada o cuerpo azulado para mostrar su jerarquía social. Cambian el color según la temperatura del ambiente - se oscurecen cuando hace frío y clarian al calentarse."}'
+  reptile.alligator:
+    label: caimán
+    summary: Un gran reptil similar al coccodrilo con un hocico cuadrado que vive en Estados Unidos.
+    info: El caimán americano es uno de los dos especies vivas de caimanes; el otro es el más pequeño caimán chino. Se diferencia de las cocodrilos por su hocico ancho y redondo así como porque no se ven sus dientes cuando tiene la boca cerrada.
+  reptile.anaconda:
+    label: Anacondra
+    summary: Serpiente acuática muy grande originaria de América tropical sur.
+    info: '{"hint":"serpiente más pesada del mundo y semiacuática","info":{"label":"anaconda","summary":"La serpiente más pesada que vive en las ciénagas de la selva amazónica","definition":{}}}'
+  reptile.anole:
+    label: Anólis
+    summary: Pequeña lagarta americana capaz de cambiar colores; los machos poseen prominentes pliegues.
+    info: El Anolis es un género de pequeñas lagartijas originarias de América con más de 400 especies diferentes. Los machos tienen una bolsa en el cuello llamada dewlap que utilizan para comunicarse y atrapar hembras. El anolis verde puede cambiar su coloración entre verde y café dependiendo del clima o sus estados emocionales.
+  reptile.axolotl:
+    label: axóloto
+    summary: Anfibio acuático nativo del sureste de Asia conocido por sus características juveniles permanentes.
+    info: El axólotl es un anfibio acuático originario de México que muestra una característica llamada neotonía; esto significa que conserva rasgos infantiles durante toda su vida, incluyendo branquias externas visibles en la cabeza y el cuello.
+  reptile.basilisk:
+    label: basilisco
+    summary: iguana americana capaz de caminar por un breve período sobre la superficie del agua.
+    info: '{"info":"El basilisco decorado es capaz de correr sobre la superficie del agua gracias al surco en sus dedos con pelos que atrapan aire bajo el agua y puede recorrer así más o menos veinte metros antes de sumergirse; los machos tienen una cresta distintiva tanto encima como detrás","label":"basilisco","summary":"Iguana americana capaz de caminar por un breve periodo sobre la superficie del agua."}'
+  reptile.boa_constrictor:
+    label: boa real
+    summary: Gran culebra sudamericana que estrangula la presa enrollándose sobre ella.
+    info: La boa real es un gran serpiente no venenosa de Sudamérica que mata a sus presas envolviéndolas y apretando fuerte cada vez más al exhalar para evitar su respiración.
+  reptile.box_turtle:
+    label: Tortuga box
+    summary: Pequeña tortuga terrestre con capacidad total para encerrarse bajo su propio casco.
+    info: '{"info":"La tortuga de caja es una tortuga terrestre originaria del norte de América que puede cerrar completamente la capa superior móvil de su carapaça para protegerse dentro de ella. Viven en bosques y praderas como animales individuales sin necesidad de compañía social o grupal. Pueden vivir más allá de los 100 años pero normalmente alcanzan entre las edades de cuarenta hasta sesenta años en el entorno natural donde habitan. En Estados Unidos está considerada especie protegida por lo cual muchos estados prohíben recolectar ejemplares directamente desde sus hábitats naturales."}'
+  reptile.caecilian:
+    label: '"caecilo"'
+    summary: Anfibio acuático-tropical sin piernas similar al gusano.
+    info: '{"info":"El caecilio es un anfibio sin patas de la orden Gymnopiones que vive oculto en suelos tropicales y está poco estudiado."}'
+  reptile.caiman:
+    label: caimán
+    summary: Un reptil similar al cocodrilo o al iguanodonte pero pequeño.
+    info: El caimán de río es el cROCODILIANO más común en Sudamérica. Es menor que los cocodrilos reales y puede crecer hasta unos dos metros ochenta centímetros. Vive en ríos tropicales, lagos e inundaciones desde México hasta Argentina.
   reptile.chameleon:
     label: camaleón
     summary: Reptil arborícola que cambia de color y tiene ojos móviles.
     info: El camaleón emite cambios de color no para camuflarse, sino para comunicarse y regular su temperatura corporal. Sus ojos pueden moverse independientemente uno del otro.
+  reptile.cobra:
+    label: Cobija
+    summary: Serpiente venenosa con característica capuchona que muestra en actitud defensiva.
+    info: La cobija es un serpiente venenosa de la familia elápido conocida por su capacidad para expandir una piel bajo la cabeza formando como si fuera capucha cuando se encuentra amenazada.
   reptile.crocodile:
     label: cocodrilo
     summary: Reptil antiguo que vive cerca de ríos y pantanos.
     info: El cocodrilo del Nilo es uno de los reptiles más grandes del mundo. Vive en África y caza desde el agua. Tiene la mandíbula más fuerte de todos los animales vivos.
+  reptile.flying_dragon:
+    label: dragon volante
+    summary: pequeno reptil del sudeste Asiatico que puede planear con su pelle tendida en costillae prolongate
+    info: '{"hint":"lagarto que se desplaza usando membranas extendidas de costillas","info":{"label":"dragón volador","summary":"Pequeño lagartijo sureños asiático capaz de planear gracias a una piel estirada sobre sus costillas alargadas\nPlanea entre árbol y árbol para conseguir territorio o escapar de depredadores\nEl macho tiene un collar amarillo muy llamativo\nNo vuela activamente agitando las alas solo planea"}'
+  reptile.frilled_lizard:
+    label: agama con collar
+    summary: Reptil que abre dramáticamente su cola y corre sobre dos patas.
+    info: El agamón collar es un reptil de Australia cuyo colar o dobladillo cutáneo alrededor del cuello puede expandirse cuando el animal siente peligro como una forma defensiva y advertencia para depredadores potenciales.
   reptile.frog:
     label: rana
     summary: Anfibio verde saltador con ojos rojos.
@@ -18,19 +70,140 @@ cards:
     label: géko
     summary: Pequeño lagarto capaz de escalar superficies verticales.
     info: El géko leopardo es un reptil popular en terrarios. Se mantiene sobre rocas y paredes gracias a millones de pelusas microscópicas en sus patas, no por pegamento.
+  reptile.gharial:
+    label: gharia
+    summary: Animal semiacuático carnívoro con boca larga y fina especialmente diseñada para atrapar animales pequeños como pececillos.
+    info: '{"hint":"reptil similar al cocodril que se alimenta de peces y tiene un hocico muy largo y estrecho (Crocodylus palustris)","info":"El gharial es una especie endémica del norte de la India con el hocico característicamente largo y angosto adaptado para cazar peces\nLos machos tienen crestas en punta de su hocico llamadas ''garra''\nEstá críticamente amenazada; vive solo en ríos del nordeste indio y Nepal\nPertenece entre los más antiguos reptiles similares al caimán y fue ampliamente distribuido por casi toda Asia","label":"gharial","summary":"Reptil acuático especializado en pescar gracias a sus mandíbulas extremadamente afiladas."}'
+  reptile.gila_monster:
+    label: gila monster
+    summary: Lagarto pesado con escamas moteadas que vive en el sudoeste americano.
+    info: El helodermo gila es una de las pocas lagartijas venenosas del mundo y tiene un patrón marron-naranja en su piel para advertir peligro. Introduce el veneno por surcos dentales no huecas como los serpientes.
+  reptile.glass_lizard:
+    label: cecilia
+    summary: Lagarta sin piernas pero no es realmente un reptil acelérico ya que posee ojos cubiertos por parpados.
+    info: El cecilia común es una lagartija sin patas que vive en toda Europa y puede confundirse fácilmente con serpiente. A diferencia de las serpentinas tiene párpados móviles y orejillas visibles. Puede desprender su cola como medida defensiva (autoamputación), la cual luego crece nuevamente.
+  reptile.hawksbill_turtle:
+    label: '"caretta común"'
+    summary: Tortuga marina con pico estrecho que está criticamente amenazada.
+    info: '{"info":"La caretta común es una tortuga marina críticamente amenazada de la especie Eretmochelys. Su caparrosa fue históricamente fuente de colas de tortugas y el comercio ilegal casi la extinguió. Se alimenta exclusivamente de setas y organismos en arrecifes coralinos. Ayuda mantener los corales sanos al eliminar las algas."}'
+  reptile.horned_lizard:
+    label: iguana cornuda
+    summary: Reptil espinoso plano originario de América del Norte con cuernos sobre la cabeza.
+    info: '{"hint":"reptil espinoso plano con proyecciones similares a cuernos en la cabeza","info":"La iguanita cornuda vive en las desiertas regiones del sudoeste de Estados Unidos y México.\nCuando se encuentra amenazada puede expulsar sangre desde sus ojos hasta un metro como mecanismo defensivo.\nSe mueve lentamente dependiendo principalmente del camuflaje para protegerse.\nEstá bajo peligro por los insecticidas que matan su principal alimento, las hormigas."}'
+  reptile.iguana:
+    label: iguanas verdes
+    summary: Lagarto verde de tamaño considerable originario de regiones cálidas americanas dotado de una cola dentada.
+    info: '{"hint":"lagarto herbívoro grande con una cresta espinosa (iguana iguana)","info":"El lagartijo verde es un gran reptil herbívoro de América tropical que puede llegar a medir hasta dos metros\. Tiene un tercer ojo en la coronilla sensible a los cambios luminosos\.(Parietal eye is sensitive to light changes) Es social y su jerarquía dominante se manifiesta mediante empujones con el hocico y colores corporales distintivos\. Está amenazado principalmente por pérdida del hábitat natural; cuando está cautivo muestra comportamiento hostil típico de adultos","label":"iguanas verdes","summary":"Gran lagarta verde de las Américas tropicales con una espina dorsal."}'
+  reptile.king_snake:
+    label: serpiente real
+    summary: Serpiente americana sin veneno con resistencia ante el veneno de la víbora cascabelear.
+    info: La serpiente real es una culebra no venenosa de América capaz de consumir otras cobras tóxicas como las víboras cascabel y contra su veneno tiene inmunidad. Su coloración en rayas negrasy blancas se parece al coral venenoso que finge para protegerse del peligro. Es un importante controlador natural de poblaciones de ratones, aves e insectos reptantes.
+  reptile.komodo_dragon:
+    label: dragón comodoreño
+    summary: La mayor lagarta现存 del planeta proveniente del archipiélago Indonesio.
+    info: El dragón de Comodoro es la mayor lagartija现存 en el mundo alcanzando más de tres metros y pesando hasta setenta kilogramos o incluso más. Históricamente se creía que mataba con bacterias presente en su saliva pero realmente tiene glándulas venenosas. Caza ciervos cerdos e inclusive búfalos.
+  reptile.leatherback_turtle:
+    label: carey
+    summary: Tortuga marina más grande que posee escamas blandas en vez de caparrosas.
+    info: La tortuga carey es la más grande del mundo y puede alcanzar una longitud de más de 2 metros con un peso superior a los 700 kilogramos. En lugar de tener caparrosas duras tiene piel reforzada por pequeños huesitos llamados osteodermis. Migran enormes distancias sobre océanos; ya ha sido registrada migraciones superiores a las 16 mil millas náuticas.
   reptile.lizard:
     label: lagarto
     summary: Reptil de cuatro patas con escamas común en zonas cálidas.
     info: La iguana verde es un lagarto grande originario de América Central y del Sur. Se alimenta de plantas, es un excelente escalador y puede regenerar la parte cortada de su cola.
+  reptile.mamba:
+    label: mamba
+    summary: Serpiént rápido muy venenoso originario de Africa.
+    info: '{"hint":"rápido y altamente venenoso serpiente arborícola africana (Dendroaspis)","info":"La Mamba negra es una de las serpientes más rápidas y venenosas del mundo.\nPuede alcanzar velocidades superiores a los 20 km/h en tierra firme e incluso escalar árboles con habilidad.\nSu veneno neurológico puede causar la muerte dentro de horas si no se administra antídoto adecuado.\nEl nombre ''negra'' proviene del color negro que tiene el interior de su boca, no por el tono generalmente gris u oliva de su cuerpo","label":"mamba","summary":"Serpiente rápida muy venenosa originaria de África."}'
+  reptile.matamata:
+    label: matamata
+    summary: Tortuga sudamericana que se parece mucho al follaje.
+    info: El matamata es una de las tortugas dulceacuícolas más extrañas del sureste de América del Sur. Su caparazón y cabeza imitan perfectamente un hoja podrida o ramita caída, lo cual representa un camuflaje excepcional. No atrapa su presa con dientes; en lugar de eso abre sus grandes bocas para tragar agua junto con la comida e immediatamente cierra.
+  reptile.monitor_lizard:
+    label: monitor
+    summary: Gran reptil carnívoro activo con lengua partida.
+    info: El varano es una gran lagartija del género Varanus con lengua dividida que sirve como órgano olfativo. El monitor de Komodo es la mayor iguana现存 en el mundo (longitud superior a los tres metros). Los monitores son inteligentes y científicos han observado su uso herramientas simples.
+  reptile.mud_turtle:
+    label: tortuga blanqueada
+    summary: Pequeña tortuga dulceacuícola de tierra y agua originaria de las Américas.
+    info: Las tortugas blanqueadas son pequeñas y miden aproximadamente unos quince centímetros; habitan en América del Norte y Central. Cuando están amenazadas liberan un fuerte olor por glándulas odorantes que poseen. Pueden sobrevivir al verano árido enterrándose en el lodo e hibernando.
+  reptile.mudskipper:
+    label: perióftalo
+    summary: Pez capaz de caminar en tierra firme gracias a sus grandes aletas.
+    info: El Periophthalmus es un tipo de gobio que pasa gran parte de su vida fuera del agua y puede moverse por el lodo usando sus prominentes aletas pectorales como patines. Respira mediante la piel húmeda e incluso tiene capacidad para trepar sobre las raíces de los árboles de marisma.
+  reptile.newt:
+    label: Salamandra terrestre
+    summary: Pequeña rana sin patas que vive tanto en aguas dulces como tierra firme.
+    info: '{"hint":"pequeño siren psicofilo con cola plana","info":{"label":"sirena común europea","definition":">La sirena grande es la más grande de las sirenas en Europa central y puede crecer hasta una longitud superior a los 15 centímetros\.\nDurante el período reproductivo, el macho muestra un cuerpo distintivo parecido al del camaleón\.\nEn República Checa están protegidas todas las especies por ley\.\nPasan el invierno bajo raices de árboles u otros refugios fuera del agua."}}'
+  reptile.poison_dart_frog:
+    label: ranita
+    summary: pequena ranita luminosa con toxicas americanotropical .
+    info: |-
+      {"hint":"rana pequeña de color brillante y altamente tóxica (dendrobátidos)","info":"La rana es una pequeñaja perteneciente al grupo dendróbatoidea que vive en los bosques tropicales del centro y suramérica.
+      su llamativo colorido (rojo, azul, amarillo), sirve como advertencia sobre su veneno (aposomatismo);
+      algunos tipos son los más peligrosos vertebrados del mundo;
+      y las tribus indias usaban el veneno para sus flechas",
+       "label": "Ranita","summary": "Pequeña ranita luminosa con toxinas tropical americano."}
+  reptile.python:
+    label: pitón
+    summary: Serpiente grande no venenosa que mata sus víctimas ahogándolas.
+    info: Las pitones son las serpientes más largas del mundo y algunas pueden alcanzar una longitud de hasta siete metros o incluso más. Matan su presa mediante estrangulamiento en lugar de veneno al apretarla por el cuello y cuerpo. Tienen sensores térmicos que les permiten detectar animales calurosos como la fauna silvestre aún cuando estén oscuro.
+  reptile.rattlesnake:
+    label: Víbora
+    summary: Serpiente venenosa con colita vibradora como advertencia
+    info: '{"hint":"víbora venenosa con cola que hace sonido característico del género Crotalus","info":"La víbora es una serpiente venenosa de la familia de las viboras y tiene un órgano vibrador en el extremo de su cuerpo para alertar cuando se siente amenazada\nEl órgano está compuesto por segmentos córneos huecos que producen este efectivo aviso acústico al agitarlos rápidamente\nTambién posee sensores térmicos llamados fosetas loreales capaces detectar presas cálidas incluso sin luz visible\nUn mordisco requiere atención médica urgente debido a sus toxinas peligrosas"}'
   reptile.salamander:
     label: salamandra
     summary: Anfibio con piel brillante y cola larga.
     info: La salamandra manchada es un anfibio protegido de Europa Central que tiene manchas amarillo-negras. Libera sustancias tóxicas por la piel y vive en bosques húmedos.
+  reptile.sea_snake:
+    label: víbora marina
+    summary: Serpiente con cola paletuda adaptada perfectamente a vivir bajo agua.
+    info: '{"hint":"serpiente venenosa de cola plana adaptada para la vida marítima","info":"La víbora marina es un reptil perteneciente a la familia Hydrophiidae que está completamente adaptado al estilo de vida en el océano\nTiene una cola ancha y paletuda adecuada para nadar\nSu veneno tiene efectos neurológicos y múltiples veces más potente que el del cobra pero las serpientes son muy pacíficas\nRespiran aire por lo tanto deben salir regularmente hacia la superficie"}'
+  reptile.skink:
+    label: escink
+    summary: Lagarto con brillantes escamas suaves y cortas piernas.
+    info: Los escinks son una gran familia de lagartos con más de mil quinientas especies y están caracterizados por tener escalas lisas cíclicas. Algunas especies tienen las patas muy reducidas o completamente ausentes. El escink azulaustraliano muestra un lengua claramente azul como señal para advertirles los depredadores.
   reptile.snake:
     label: serpiente
     summary: Reptil alargado sin patas con cuerpo largo y flexible.
     info: Las serpientes son reptiles con cuerpos alargados y sin extremidades. Existen más de 3 700 especies; cazan usando el sentido del olfato (órgano Jacobson) y algunas son venenosas.
+  reptile.snapping_turtle:
+    label: tortuga terrestre
+    summary: Tortuga grande y agresiva del río americano con mandíbulas poderosas.
+    info: La tortuga de agua dulce común es una gran y agresiva especie norteamericana con un pico fuerte en forma de garfio que puede pesar más de 35 kilogramos e incluso vivir por encima de los cuarenta años.
+  reptile.thorny_devil:
+    label: lagarto Moloch
+    summary: Lagarta con crestas en forma de pinchos que canaliza humedad.
+    info: El moloch espinoso es una pequeña lagartija de Australia cubierta por miles de púas afiladas que tiene la capacidad sorprendente de absorber agua mediante su piel usando surcos capilares entre las espigas para llevar el líquido directamente hacia sus labios y come exclusivamente hormigueros pequeños comiendo hasta dos mil quinientas al día.
+  reptile.toad:
+    label: ranita
+    summary: Anfibio terrícola verrucoso relacionado con ranas.
+    info: '{"hint":"anfibio terrestre verrugoso","info":"La rana torpe común es la más extendida en la República Checa\nLas glándulas parotidianas no cantan moscas; sirven como protección y son una fuente de secreciones venenosas\. Cada año migra en grandes grupos hacia embalses para reproducirse; en el país checo voluntarios ayudan al paso por las carreteras\. Se alimenta con babosas, gusanos e insectos y regula naturalmente plagas del jardín."}'
   reptile.tortoise:
     label: tortuga terrestre
     summary: Reptil lento con caparrosa carapa en tierra.
     info: La tortuga gigante es la mayor tortuga terrestre del mundo. Vive en las islas Galápagos y puede llegar a vivir más de 150 años. Su caparrosa forma parte de su esqueleto.
+  reptile.tree_frog:
+    label: Ranita
+    summary: Pequeña rana arbolada con ventosas para escalar hojas.
+    info: La rana verde es una pequeña ranita perteneciente al grupo Hylidae con ventosas en las puntas de los dedos que permiten trepar por superficies lisas. En la República Checa vive un ejemplar original llamado comúnmente 'ranita'; está protegido por ley y puede cambiar su coloración entre el verde, gris o marrón según temperatura y humedad ambiental.
+  reptile.tuatara:
+    label: Tuatara
+    summary: Fósil viviente originario de Nueva Zelanda.
+    info: El tuatar es uno de los réptiles más antiguos del mundo y su orden ha estado en la Tierra desde tiempos de los dinosaurios.
+  reptile.uromastyx:
+    label: uro
+    summary: Iguana desierta con cola acanalada originaria de África
+    info: El uromastix es una iguana desértica de África del Norte y el Oriente Medio con un característico rabo espinesco que sirva para la defensa.
+  reptile.viper:
+    label: víbora
+    summary: Serpiente venenosa con cabeza triangular y cuerpo enrollado
+    info: '{"info":"La víbora común es la única serpiente venenosa que ocurre naturalmente en la República Checa\. Se reconoce por el patrón ondulado en su espalda y sus colas afiladas\/\'
+  reptile.wall_lizard:
+    label: lagartija muro
+    summary: Lagarto rápido y pequeño comúnmente encontrado en piedras cálidas.
+    info: La lagartija muro es una pequeña reptil originaria del sur de Europa y el noroeste de África que en la República Checa vive como especie introducida sobre rocas calientes y paredes. Es rápida e hábil para escapar cuando está amenazada al desprender su cola.
+  reptile.worm_lizard:
+    label: amfibión
+    summary: Reptil acelular subterráneo similar al gusano.
+    info: Los amfisbenios son lagartos sin patas poco estudiados de la familia Amphisbaenia que habitan en África y América tropical. A simple vista parecen gusanos grandes con piel segmentada y ojos reducidos. Pasan toda su vida bajo tierra alimentándose principalmente de hormigas y termitas.

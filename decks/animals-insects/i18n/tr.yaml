@@ -6,19 +6,216 @@ cards:
     label: karınca
     summary: Koloniler halinde yaşayan küçük bir toplumsal böcek.
     info: Karınca, görevlerin paylaşımıyla büyük koloniler oluşturan bir böcektir.
+  insect.antlion:
+    label: tüzelsiz cürek
+    summary: Karınıncalar için çukursuyunu kazma yeteneğindeki larvalardır.
+    info: Tuzelsizcükürler, Mravelekontoide denilen böcek familyasından olup kurak bir çamurlu yerde konik şeklinde tuzağa benzer delikler kazanır. Bir karınca bu tuzaktaki yere kayarsa onları tutmaya çalışan dişleriyle yakalayarak sindirici sıvılar enjekte eder. Yetişkin örnekleri ise uçurum sineklilerine benzeyen belirsiz özelliktedir ve geceler boyunca uçuşmaktadırlar.
+  insect.aphid:
+    label: '"karınca"'
+    summary: '"Bitkinin gövdesinden şeker içeren sıvıyı emerek beslenen minyatür böceğ"'
+    info: '{"info":"Karadeliler, bitki gövdelerinde bulunan ve Aphidoidea üst familyasına bağlı olan küçük bir nektar emen böceklerdir.\nŞekeri bol balıksuyu üretirler ki bu da karantinasını yapmak için arılara koruma sağlar\.\nÇok hızlı çoğalırlar; yılda tek dişinin yüz binlere kadar yavrular meydana getirebilmesine yol açabilir\.\nPazarlık ürünlerini önemli zararlılarıdır."}'
+  insect.atlas_moth:
+    label: attakusu
+    summary: Köprücük altına yerleştirilen destek.
+    info: Atlas kelebeklerinden biri olan Atlas attakusudur ve kanat açıklığı en fazla 30 santimetreye ulaşır. Kanatlının uçları yılan başlarına benzer şekilde boyanmıştır ki bu da avcılarından korunmasını sağlar. Yetişkin bireyleri ağzı yoktur çünkü beslenmezler yalnızca birkaç gün yaşarlar.
+  insect.bedbug:
+    label: şömen
+    summary: Günler boyunca uyuyan evcil hayvanların kanını emen düzgün bir dış iskeletli böcek.
+    info: Evlat yengeç bir geceliği olan sivrisineğidir.
   insect.bee:
     label: balıç
     summary: Çiçekleri tozlayan ve bal üreten sarışın böcek.
     info: Bal arısı (apis mellifera), sadece bal yapmakla kalmaz aynı zamanda çiçeklerin tozu ile bitkiler arasında polen taşıyan önemli bir rol oynar.
+  insect.beetle:
+    label: böceği
+    summary: Coleoptera adlı bu sınıfa yaklaşık olarak karıncalardan sonra gelen en büyük hayvan grubu olan tüm kuşakları içeren böceklerin çoğunu oluşturur.
+    info: Karıncaların çoğu koleopterler sınıfına dahil edilen böcekleri içerir.
+  insect.bombardier_beetle:
+    label: topuzlu kırıkboynuz
+    summary: Toxik karışımlı保卫手段を用いる甲虫。
+    info: Topuzlu kırıkboynuz böceği, arka kısmında iki kimyasal maddenin karıştırılması sonucunda patlayıcı bir tepkimeye neden olan ve sıcaklığı 100°C'yi aşan benzersiz bir yolla savunma sağlar. Bu yüksek toksik buhar gürültülü şekilde anlık olarak binlerce kez ateşlenebilir.
+  insect.bumblebee:
+    label: bal arısı
+    summary: Derin sesli balçalar çıkaran büyük tüylü karınca benzeri hayvanlar.
+    info: Bombyx cinsiyle ilişkilidir; uzun kanatlı böceklerden birisidir.
   insect.butterfly:
     label: kelebek
     summary: Büyük renkli kanatlı uçan böcek.
     info: Kelebekler genellikle dikkati çeken renkli iki çift tınlı kanata sahip olan böcektir.
+  insect.caterpillar:
+    label: sülük
+    summary: Kelebeğin veya böceğin sülüği.
+    info: Böcek ya da kelebekin yumurtasından çıkan ve öncelikli olarak yaprak yiyerek enerji biriktirdiği evredir.
+  insect.centipede:
+    label: sülük
+    summary: Her vücudunda halkasında bir bacak çiftine sahip çokbacağlı hayvan.
+    info: Kılıç solucanı Chilipoda sınıfına dahildir ve her bir gövdeleri halkası üzerinde tek bacak çiftine sahiptir (isminin tersine yüzlerce ayak değil). Hızlı avcıdır; böcekleri, yassıkları ve küçük omurgalılara saldırır. İlk bacak çifte zehirli dişlere dönüşmüş olup avlarını felç etmek için kullanılır. Bazı tropikal türler ise 30 santimetreye kadar uzunluğa ulaşabilir.
+  insect.cicada:
+    label: cılda
+    summary: Gün batımında bağrışmayı seven ve bu yüzden bilinen böcektir.
+    info: |-
+      Serdaroğlu, tüm böcekler arasında en gürültülü sesleri çıkaran Cicadoidea üstfamilyasından bir arıtıdır.
+      Erkek cıkıldaklar özel olarak kıvrılmış olan kuyruklarında bulunan timbal adlı yapıları kullanarak dişilerini çekmek için yüksek frekansta uğultu çıkarırlar.
+      Amerika Birleşmiş Devletleri'ndeki bazı serdarogulları on yedi yıllık veya otuz üç yıllık gelişim döngülarına sahiptir;
+      yavrularının nymfaları yıllardır topraktan beslenerek yaşıyorlardır.
+  insect.cockroach:
+    label: kama
+    summary: Gece aktifliği olan hızlı yarasa benzeri bir arıltıcı böceği.
+    info: Kamak bir böcek türüdür ve dünyanın en dayanıklı bacaklı hayvanlarından biridir; yüksek seviye nükleer radyasyonu bile diğer canlıları öldürürken onun için ölümcül olmayabilir.
+  insect.crane_fly:
+    label: Tıpula
+    summary: Uçuz sinirden farklı olarak yemek almayan ancak bitki köküyle besleyebilen büyük sineklere benzeyen tür.
+    info: Büyük bir sinekkurdu gibi görünen tipülka iki kanatlı böceklerin Tipulidae familyasına aittir ve ısırmayarak ya da parazite olmaksızın yaşamları geçer. Uygun savunma mekanizması olan çok uzun bacakları vardır ki bu bacaklar kolayca kırılır. Yetişkinleri yalnız birkaç gün yaşamakta ve beslenmemekte veya bal özünü tüketmektedir.
+  insect.cricket:
+    label: çıkışkan
+    summary: Erkeğinin çıtırdamasıyla tanınan gececilerden bir arthropod
+    info: Çıtırçıtır böceği geceleri aktif olan bir ortopotterdırırılardan memelidirler. Erkek bireyleri kanatlarını sürterek ses çıkararak dişilere yaklaşmak ve toprak sınırlarını belirtmek için kullanırlarlar. Çin gibi bazı Asya ülkelerinde bu böcekler sadece doğal olarak değil aynı zamanda evcil hayvan olarak da besleniyorlardır.
+  insect.damselfly:
+    label: libelle
+    summary: Hedefe ulaşmakta kullanılır.
+    info: Libellula, karınca gibi ama daha zayıf bir böcek olup dinlenirken kanatlarını vücuduna paralel şekilde katlar ki bu da hekim kuşağından farklıdır.Libeller uçurumda küçük böceklere saldırarak avlayıcıdırlar.Nimfa evreleri su içinde yaşayacakları için önemli derecede akarsulara katkı sağlıyor.
+  insect.diving_beetle:
+    label: potáníç
+    summary: Avcı türünde olan su kenarı boydan boya hareket eden bir denizcanavarı.
+    info: |-
+      Büyük potapçı su böceği olarak bilinen Potápnič veliky, göllerde ve duruksularda yaşayan Dytsicidae familyasından bir avcı suda canavarıdır.
+      Pürüzsüz yüzmesini düz arka ayakları sayesinde elverişli kılar çünkü bu ayaklar kürek gibi çalışır.
+      Yüzüp soluk alırken yüzebilir ve kanopi altına havayı tutabilir.
+      Insektilerden yavrulara kadar küçük balıklara ve kurbağalara kadar pek çok şey yakalar;
+      suyun altında aktif olurken geceleri uçar.
   insect.dragonfly:
     label: sivrisinek
     summary: Uzun bedenli ve iki çift büyük şeffaf kanatlı böcek.
     info: Sivrisinekler su kenarlarında avlayan gözleriyle dikkat çeken yırtıcı böceklerdir.
+  insect.dung_beetle:
+    label: karınca
+    summary: İsrafa dair top şeklindeki parçacıkları iten böcek; eski Mısır'da tapındığı var.
+    info: Kutsal karınca böceği, israfı küreler halinde şekillendirip yumurtalarını gömmeye ve yerleştirme için yuvalarına taşıyan bir deniz faresidir.
+  insect.earwig:
+    label: şövör
+    summary: Arkasında kesicilerle karakterize uzatılmış böcek.
+    info: Kampanozofa bir türdür ve arkanın ucunda bulunan kesici organları ile tanınırlar ki bu yapı hem savunma amaçlıdır hem de çiftleşme sırasında kullanılırlar.
+  insect.firefly:
+    label: ısıklanma
+    summary: Yarasa benzeri yaratıkları çeken ısıtlama.
+    info: Işık böceği, arılar familyasından ve kıç kısmında soğuk bir ışık üretmeyi sağlayan canlıdır. Erkekler ile dişiler farklı kalıp şeklindeki ışınlara sahiptir ki bu sayede kendini tanıtmaya yardımcı olur. Bu olay Luciferin maddesiyle enzim olan Luciferas arasındaki kimyasal tepkimeden kaynaklanır.
+  insect.flea:
+    label: pulga
+    summary: Küçük atlayan pulgalar memelilerin ve kuşların kanını emer.
+    info: Pulgas kanatlı olmayan böceklerden ve sifonnateora sırtında yaşayan bir hayvanlardır.
+  insect.fly:
+    label: evcil
+    summary: Evcil bir ikiyeğreli sivrisinektir.
+    info: Evdeki en yaygın ikiyeğrel böcek evcildir.
+  insect.goliath_beetle:
+    label: Büyük Goliaths
+    summary: Tropikal Afrikadan dünyadaki en büyük böcek türleri arasında yer alır.
+    info: Afrika'nın ekvatöryal yağmur ormanlarında yaşarlar ve yetişkinler meyve ile ağac gövdeleriyle beslenirler.
+  insect.grasshopper:
+    label: saçaklı
+    summary: Uzun bacakları ve çığlık verme kapasitesine sahip salınabilen bir insektör.
+    info: "{\"hint\":\"sallanma yeteneği olan uzun bacaklı insektlerden bir sırt üstü\",\"info\":\"Sarı böcek, arımsızlar sınıfına mensup güçlü arkaya ayaklara sahip bir hayvan olup bu sayede bedeni boyutundaki mesafeyi yirmilik olarak atlayabilir.\r\nErkekleri kanatlarını diz ile süterek karakteristik ses çıkarırlar\r\nBitki beslenir; büyük gruplardaysa ürün hasadında zarar verebilir."
+  insect.ground_beetle:
+    label: çakırlık
+    summary: Taşların altına ya da yaprakta yaşayan hızlı yavrulara saldıran bir böçek.
+    info: Çakıl böceği, Çakılılar familyasından bir böcek türüdür ve çoğu türünce aktif geceli avcıdır; diğer böcekleri, solucanları ve denizanaslarını yakalar. Tehlikelerden kaçmak için çok hızlıdırlar. Bazı türler gibi mor çakırın metalimsi parlaklığa sahip etraflıdır.
+  insect.hornet:
+    label: Sarı Karınca
+    summary: Avrupa’nın en büyük örümcek türüdür.
+    info: Büyük sarı karınca sosyal bir arısırığıdır ve Avrupa'nın en büyük böceği olup boyu 3,5 santimetreye kadar ulaşabilir. Ağaçlarda veya çatılara yapışan odunların içinde kâğıtlık yuvalar kurarlar. Sosyete üyelerinin diğer karıncalardaki gibi güçlü sancakları vardır ancak yalnızca doğrudan tehditle karşılaşsalar bile saldırırlar.
+  insect.hoverfly:
+    label: pesstreşenka
+    summary: Arılara benzeyerek çiçekleri tozlayan böceği.
+    info: Böcek benzeri iki kanatlı bir insektör olan pestreşenka, kendi korunması için arı ve balina renklerini taklit eder ama kendisi sancımazdır.
+  insect.lacewing:
+    label: altıngoç
+    summary: Şeffaf damarlara sahip küçük bir insekttir.
+    info: Altın gözlü böceklerin şeffaf damarsal çeyrekleri vardır ve altın renginde gözleri ile biliniyorlar.
   insect.ladybug:
     label: böcek
     summary: Küçük yuvarlak kırmızı böcek siyah noktalarla.
     info: Böcek, bitlerle beslenir ve bahçede faydalıdır.
+  insect.locust:
+    label: nomad karınca
+    summary: Yok edici etki yaratan binlerce bireyin olduğu sürüleri oluşturan nomad karınca.
+    info: Nomadi kırıkayısı Afrika ve Asya ülkelerinde tarımsal kaynakların yok olmasına neden olan en büyük felaketlerden biridir.
+  insect.louse:
+    label: Yengeç
+    summary: Kan emerek yaşayan küçük uçaksı böcek.
+    info: Pembeysler kan emiciyleri olarak bilinen kýrbacıksız sineklere bağlı bir sırtlan türüdür.
+  insect.mayfly:
+    label: mayfly
+    summary: Yetişkiği en kısa ömürlü hayvanlardan oluşan böcektir.
+    info: Mayflyler Ephemeropterya takımına mensup böcek türleri olup geçici olan şeyin sembolüdür ve yetişkin bireylerinin yaşam süresi yalnızca birkaç saat ile gün kadardır.Yetişkilerde işlevsel sindirim sistemi yoktur dolayısıyla beslenmezler.Nimfalar ise su altında bir ila üç yıl yaşarlar.Belgrad'daki Danubis Nehri'nde mayflylerin toplu olarak üremesi doğal harikasıdır.
+  insect.mosquito:
+    label: sincap
+    summary: İki kanatlı bir arthropoddur; dişleri kan içeriyor ve hastalık yayılmasına yol açabiliyor.
+    info: |-
+      {"hint":"kan emici uçan böcek","info":"Sineklere kulak verilirken iki kanatlı bir arthropoddur ve Culicidae familyasına dahildir\r
+      Dişiler protein elde etmek için hayvanlardan kan alırlar; erkekler bal özü ile beslenir\.\r
+      Kızamıkla enfekte olabilirsiniz çünkü bazı hastalıkları taşıyıcıdır\., örneğin malaria veya Zika gibi tehlikeli hastalıklara neden olanları\r
+      Yeryüzünde yaklaşık olarak üç bin beşi aşkın tür vardır\.
+  insect.moth:
+    label: yaratık
+    summary: Gündüz uçuşmayan, günışığı altında uçup tüylü antenleri olan kelebeğin yakın aile üyesiydi.
+    info: |-
+      Yaprak böceklerinin gecesi geçen kuşağındaki gece kelebekleri yarasa benzerdir ve dinlenirken kanatlarını yan tarafa katlarlar.
+      Bazı türler yapay aydınlata çekilir.
+      Pırlanta örümceği larvaları doğal ipek üretimi için önemlidir.
+      Ay çaprazı yarasası dünyanın en güzel yaraçlarından birisidir.
+  insect.praying_mantis:
+    label: mantıs
+    summary: Dua pozuna benzeyen konumda bulunan öndeki bacakları ile bilinen bu böceklerin saldırı hızı oldukça yüksektir.
+    info: Nabız mantısı, Mantideae grubunda yer alan bir avcı böyündür ve adını dua eder gibi duran ön ayaklarından alır. Yemeğe çok beceriklidir; birkaç milisaniye içinde hızlıca saldırıp maça sıkılarak yakalar. Dişiler bazen erkeği çiftleşmeden sonra yiyebilir ama her zaman böyle olmayabilir.
+  insect.robber_fly:
+    label: sarp sineği
+    summary: Uçuşa devam etmelerini sağlayan avcılar arasında yer alan zararsız böceği.
+    info: Sarp sineği avcı iki kanatlı bir böcek olup uçuşan diğer böceklere saldırır ve onları yakalarlar. Güçlü ayaklara sahiptirler ki bu sayede avlarını tutabilirler ayrıca boğazlarına sokarak felcin enjekte edebilen sivri dişleri vardır. Bazı türleri yılan faresine veya karınca gibi görünerek doğal düşmanlarından korunurlar.
+  insect.scorpion:
+    label: scorpion
+    summary: Kandıraçlı ve kıvrandığı uzun boynuzlu ölümcül bir örümcektür.
+    info: Scorpionler çenesine benzer kandıracık ve kıvrılmış bir dikenli bacaklara sahip olan örümcek sınıfında yer alan hayvanlardır değil de böcek). Bu canlılar yaklaşık olarak 430 milyondan fazla yıldır dünyada yaşamaktadırlar çünkü en eski fosilleşmiş scorpion örnekleri bu kadar eskidir.
+  insect.silverfish:
+    label: kırbacı
+    summary: Kitapların yanında hızlı hareket eden kanatsız bir arthropod.
+    info: Kırbacılırınca kırık olmayan ve sadece Zygentomada bulunan Lepismata serbestleri olarak bilinen bu böcekler ev ortamında yaşarlar.
+  insect.spider:
+    label: taraklı
+    summary: Sekiz ayaklı olan taraklılar böceklere karşı ağ yaparak avlanmaya yardımcı olurlar.
+    info: Tarantula örümceklerdir ve gerçek böcek değildir; sekiz bacakları vardır ve bedenleri iki parçadan oluşur. Örgü dokuma yeteneğine sahiptirler ki bu ağlar kuşaklarını veya yumurtalarını sarabilmek için kullanılır ya da avlamada faydalanırlar. Dünyanın her yerinde yaklaşık olarak dört bin yirmibeş farklı taraklı hayvan yaşamaktadır.
+  insect.stag_beetle:
+    label: Boynuzlu Kabuğu
+    summary: Avrupa’nın en büyük kabuki; erkeği boynuz şeklindeki yapılar ile tanınıyor.
+    info: Geniş boynuz benzeri sivrilerine sahip olan bu böcek Avrupa'nın en büyük kabuklülerinden biridir ve boyca yedi santimetreye kadar ulaşabilir. Erkekleri dişilere rakip olmak için devasa boynuzu gibi uzunlamasına kesici yapısırken larvaları ise meşe ağacının çürümüş odunsal kısmında yaşayarak mantarlara beslenme alışkanlığı göstermektedir.
+  insect.stick_insect:
+    label: stick
+    summary: Yaprağı veya dala çok benzer böcek.
+    info: Stick insektleri Phasmatoidea grubuna bağlıdır ve mükemmel bir taklidi vardır; bedenlerini dal ya da yaprak gibi gösterirler.
+  insect.termite:
+    label: Termite
+    summary: Büyük topraksı yuvalar inşa eden sosyalleşmiş odunsal besleyici böcek.
+    info: Tümörlerin uzak akrabası olan termitter sosyal bir insekttir ve isopter grubuna dahildir.
+  insect.tiger_beetle:
+    label: carbid
+    summary: Yüksek kaliteli metalik rengindeki gözlem gücüne sahip hızlı yaratık.
+    info: Carabid böceği olarak bilinen bu örümcek altfamilyasına mensup hızlı ve göz alıcı renkte bir karınca avcısıdır. Yerden hızla koşarken durmak ve yeniden yön bulma ihtiyacı duyar çünkü hareketleri görsel sistemine çok süratlidir.
+  insect.velvet_ant:
+    label: ""
+    summary: ""
+    info: Koyun akıllısı aslında Mutillidae familyasından bir sivridir; dişiler kanatlı değildirler ama karınca gibi görünürler.
+  insect.wasp:
+    label: sinekkovan
+    summary: Kağıt yuvalarına ev sahibi olan sarı-siyahlı sokan arthropod.
+    info: Sarı ve siyah uyarı rengine sahip bu sokma böceklerden biridir.
+  insect.water_strider:
+    label: su üstü böceği
+    summary: Suya batmadan yüzgeç gibi ilerleyen özel yapıya sahip küçük bir arthropoddur.
+    info: Yüzey gerilimi sayesinde su yüzünde yürüyen ve bacaklarındaki hidrofobik tüyler nedeniyle yüzen bir böcek olan Vodoměrka, suda boğulan diğer böcekleri algılayabiliyor; bu da dalga hareketleri ile oluyor.
+  insect.weevil:
+    label: buruşukan
+    summary: Uzun burusuyla tanınır.
+    info: Buruşkanlar dünyadaki en büyük hayvan familyasından olan Curculionidae'ye bağlı bir bölmektir ve bu familyada dünya çapında altı bin türden fazlasıdır. Uzun buruşu ile meyvelerine veya fidanlarına girip beslenmektedirler.
+  insect.whirligig_beetle:
+    label: çarkıncak
+    summary: Sürüyle birlikte suda dönerek hareket eden küçük çarkıncaktır.
+    info: Çarkıncaklar su yüzeyinde yaşayan ve avlanmayı engellemeye yardımcı olan sürüler halinde dönen küçük böcek türleri olup Gyrinidae familyasına dahildir.

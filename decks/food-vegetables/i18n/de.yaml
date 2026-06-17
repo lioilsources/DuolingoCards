@@ -2,14 +2,66 @@ lang: de
 pivot: false
 title: Gemüse
 cards:
+  veg.artichoke:
+    label: artichoke
+    summary: Große grün-dorneige Pflanzennahrung mit essbaren Blütendoldern.
+    info: Artischock ist eigentlich ein Knospenansatz einer großen Dornengewächs-Pflanze namens Cardoon und wird aus der Gattung 'Carduus' gezüchtet. Man isst das Herz am untersten Teil sowie die faserigen Basiselemente ihrer Blätter. Er gibt Getränken Geschmack – daher enthalten beispielweise Cinzano oder Cynar-Aperitifweine Artischockenextrakte.
+  veg.arugula:
+    label: rocket
+    summary: Scharfe dunkle grüne Salatblattsorte; beliebt im Italien.
+    info: Rocket (Eruca vesicaria subspecie sativa), stammt aus dem Mittelmeerraum und hat aufgrund von Glucosinen einen typisch scharfen bis leicht bitteren Geschmack mit einer pikanten Note. Es ist ein Grundbestandteil der italienischen Küche – roh wird es nach dem Backprozess oft als Topping für Pizza hinzugefügt.
+  veg.asparagus:
+    label: Schälerbe
+    summary: Feines Javarsprünglinge; Delikates Saisongemüse.
+    info: Schälerbsen (Asparagus officinalis), auch Spargel genannt, ist eine der wertvollsten Frühjahrsfrüchte im Anbau. Weiße Schälerbsen werden ohne direkten Sonnenkontakt angebaut und sind feiner als grün geerntete Exemplare. Bei etwa 20–40 Prozent der Menschen verursacht die Aufnahme von Asparaginsäure einen typischen Uringeruch.
+  veg.bamboo_shoot:
+    label: bamboo sprouts
+    summary: Young shoots harvested early for use across East Asia.
+    info: Bamboosprosse sind junge Sämlinge der Bambussorte, die kurz nach dem Austreiben geerntet werden. Sie dienen als Grundlage für chinesisches, japanisches und thaiköchisches Essen.
+  veg.beet:
+    label: rote Bete
+    summary: Dunkel rote runde Wurzelgemüseart mit natürlicher Färbung und Nährwert.
+    info: '{"betanin": "rot", "durchblutungsfördernd": true}'
+  veg.bok_choy:
+    label: Chinesischer Kohlspross
+    summary: Blühendes Gemüsesortiment aus Asien.
+    info: Bai Chois oder Pak Choi ist eine asiatische grüne Blattgemüseart mit weißen Stängeln und dunklen Blättern aus der Gattung Brassicaceae unter dem botanischen Namen 'Brassica napus var. parachinens'. Es wird oft als Grundzutat für Gerichte im vietnamesischen sowie südostasiatischen Raum verwendet.
   veg.broccoli:
     label: Brokkoli
     summary: Grünes Gemüse mit dichter Blütenkopf auf fettigem Stiel.
     info: Brokkoli ist ein grünes Gemüse aus der Familie der Kreuzblütengewächse. Es ist außergewöhnlich reich an Vitamin C, K und Antioxidantien; es kommt aus Italien.
+  veg.cabbage:
+    label: Weisskohli
+    summary: Runde grünliche Pflanzensortierung mit festgelegten Blättern; Basis für saueres Kraut.
+    info: Weißkohl (Brassica oleracea) ist eine alte Gemüsesorte aus Europa mit tausendjähriger Anbautradition und enthält Vitamin B6 sowie Glucosinate mit抗癌 properties. Durch Gärung entsteht Sauerkraut reich an Probiotika. In der deutschen Küche wird Kohl als Grundbeilage serviert.
   veg.carrot:
     label: Karotte
     summary: Orange Wurzelgemüse mit süßem Geschmack.
     info: Die Karotte ist eine zweijährige Pflanze, die für ihre saftigen orangefarbenen Wurzeln angebaut wird. Sie enthält viel Beta-Carotin (Vorläufer von Vitamin A) und Ballaststoffe.
+  veg.cauliflower:
+    label: Blumenkohl
+    summary: Weißer dicht zusammengestauter Köpf aus vielen kleinen Röschen; ein typisches Beispiel für weißes Gemüse.
+    info: Blumenkohl (Brassica oleracea var. botritis) ist eine Verwandte der Brokkoliartigkeiten. Die weiße Farbe entsteht dadurch, dass die Blätter den Kopf vor direktem Sonnenlicht schützen und so Chlorophyllbildung verhindern. Es gibt auch lila-, orange- sowie grüne Sorten von Kohl dieser Art.
+  veg.celeriac:
+    label: Kohlensellerie
+    summary: Große knotige weiße Wurzel des KohlenSellerie; Basis vieler Suppen.
+    info: Knollen-Sellerie (Apium graveolens var. rapaceum) ist eine Selleriesorte angebaut für ihre Wurzel. Sie hat einen intensiven Sellerieschmack und Geruch. Sie dient als Grundlage von Suppen, Salaten wie Remouladen sowie gebratener oder gegarteter Speisen.
+  veg.celery:
+    label: knollenpetersilie
+    summary: Cruncy grüns Gewächs mit intensiver Aromatik; Null-Kalorien-Effekt fragwürdig.
+    info: '{"hint":"krautig grünes Gemüse mit Stängeln (Apium graveolens)","info":"Knollengrüne Petersilie aus dem Mittelmeerraum\nEs wird angenommen, dass der Verbrauch von Kalorien beim Verdauen mehr ist als das Angebot des Celers; dies wurde jedoch nicht nachweislich bestätigt\.\nSie bildet die Grundlage für ein Trio französischer Küche: Mirepoix (Zwiebel, Karotte und Celler).\nPetersiliensaft ist eine beliebte Detox-Lösung","label":"knollenpetersilie","summary":"Krachendes grün-gewürziges Krautgemüse; null Kalorien?"}'
+  veg.chard:
+    label: rote Bete
+    summary: Farbiges Gemüse aus dem Grünkohl-Familienteil.
+    info: Rote Bete (Beta vulgaris subsp. cicla) ist eine Verwandte der roten Rübe und kommt mit grünem Blattgemüse sowie Stielen von rot bis Regenbogenfarben vor. Sie enthält reichlich Vitamin K, A und C sowie Mineralien wie Kalium oder Magnesium. In Tschechien wurde sie traditionell angebaut – heute kehrt sie zurück ins moderne Gastronomieszenario.
+  veg.chickpeas:
+    label: Linsen
+    summary: Runde braune Hülsenfrüchte; Basis von Hummus.
+    info: Chickpeas (Cicer arietinum) sind eine beliebte Hülsenfrucht im Nahen Osten und Indien. Sie bilden die Grundlage für Hummus (eine Paste aus Chickpeas) sowie Falafeln (gebratenes Hackfleisch). Sie enthalten viel pflanzlichen Proteinen und werden oft veganer oder vegetarianischer Ernährung bevorzugt verwendet.
+  veg.chili:
+    label: Chili
+    summary: Scharfes rotes oder grünes Gemüse; Grundlage vieler feuriger Speisen.
+    info: Die Chilischote ist eine sehr scharfe Paprikasorte aus der Gattung Capsicumpflanzen wie Capsicum annum und Co.). Die Schärze wird durch Capcaisin verursacht – sie lässt sich anhand der Skala von Scoville messen mit Werten zwischen beispielsweise Jalapeno-Pepper bei etwa 2 500–8 000 SHUs bis hin zu über einer Million für den Carolina Reaper). Der biologische Zweck des Capsacins besteht darin Säuger abzuschrecken ohne Vögel beeinträchtigt werden da diese Samen verbreiten. Asiatische sowie mexikanische oder auch indische Gerichte sind ohne Chili kaum vorstellbar.
   veg.corn:
     label: Mais
     summary: Gelbe Pflanze mit reihenweise saftigen Körnern im Kolben.
@@ -18,18 +70,78 @@ cards:
     label: Gurke
     summary: Lange grünes Gemüse mit erfrischender saftiger Masse.
     info: Die Stangengurke ist eine tropische Pflanze aus der Gattung der Kürbisse. Sie besteht zu 95 % aus Wasser und wird oft als Beilage oder Snack genossen.
+  veg.eggplant:
+    label: Aubergine
+    summary: Dunkelpurpurfarbenes oval geformtes Gemüse; Grundlage für Gerichte wie Moussaka und Ratatouille.
+    info: Die Aubergine ist ein dunkelvioles verlängertes Gemüse aus der Familie Solanaceae mit wissenschaftlichem Namen 'Eggplant' oder auch 'Aubergine'. Sie wird seit tausenden von Jahren angebaut und kommt ursprünglich aus Indien.
+  veg.endive:
+    label: endive
+    summary: Helle grünliche Pflanzennahrung mit bittersüßem Aroma
+    info: Endivie (Cichorium intybus oder C. endivia) ist ein Gemüse mit typisch bitterem Geschmack. Die weiße Farbe entsteht durch Anbau im Dunkeln (Chicoree) oder vom Sonnenlicht abgeschirmt (Witloof). Der Bitterstoff wird hauptsächlich von Intybinsäuren verursacht und kann durch Blanchieren reduziert werden.
+  veg.fennel:
+    label: Sellerie
+    summary: Weißer Kopf aus dem Selleriegewächs mit einer aromatischen Note.
+    info: Dill (Foeniculum vulgare) hat einen süßlichen Anisgeschmack aufgrund des Inhaltsstoffes Anethol. Man isst die Knolle sowie Stängel und gefiederartige Blätter. Es ist eine Grundlage der italienischen Mittelmeerküche wie beispielsweise Pesto-Saucen oder Salate mit gebratenem Fisch.
   veg.garlic:
     label: Knoblauch
     summary: Scharf riechende weiße Knolle mit intensivem Aroma, Grundlage der Geschmacksgabe vieler Gerichte.
     info: Angebauter Knoblauch wird seit tausenden von Jahren in der Küche sowohl als Gewürz als auch als Medizin verwendet. Er enthält Allicin, das antibakterielle und entzündungshemmende Eigenschaften besitzt.
+  veg.ginger:
+    label: Ingwertrocken
+    summary: Knollige braune Wurzel mit würzigem Aroma.
+    info: Immergrün ist eine Pflanze aus der Tropenasienregion mit einer knollenförmigen Wurzel als Gewürzmittel namens Ingwerwurzel oder Kurkuma. Sie enthält Gingerole, die für ihre brennende und entzündungshemmende Eigenschaft verantwortlich sind.
+  veg.green_beans:
+    label: Bohnen
+    summary: Lange grüne Erbstabilschote von Phaseolus vulgaris.
+    info: Erbsenbohnenschoten werden noch unreif geerntet und heißen auch French Beans oder String Beans. Sie enthalten Vitamin B9 sowie Vitamine A und C.
+  veg.kale:
+    label: rauke
+    summary: Dunkle, welleförmige Superfood-Gemüseart.
+    info: Rauke (Brassica oleracea var. sabellika), auch krause Rauke genannt, ist eine sehr nahrhafte dunkelgrüne Gemüsesorte mit wellenförmigen Blättern und einer tiefblauen bis grünlichen Färbung. Sie enthält reichlich Vitamin B-Komplex sowie Antioxidantien wie Beta-Carotine aus der Gruppe der Caroteine.
+  veg.kohlrabi:
+    label: rhababer
+    summary: Gemüsepflanzensorte mit runden Knollen an Stielen; verwandt mit Kohlpflanzen.
+    info: Rabarber (Brassica oleracea gongylodes) ist eine Gemüsepflanze aus der Familie des Spargels und Blattgemüses im Verwandtschaftskreis von Weißkohlarten wie Brokkoli oder Rosenkohlrabi. Der essbare Teil besteht aus dem aufgeblähten Stiel sowie den Laubblättern mit einer mild-süßlichen Note – er kann roh genossen werden aber auch gekocht serviert werden. Sein Name kommt vom Deutschen 'Kohl' für Grünkohl und 'Rabe', was Tuernier bedeutet.
+  veg.leek:
+    label: porre
+    summary: Großes milde Gemüse aus der Zwiebelfamilie
+    info: Porre (Allium ampeloprasum) ist verwandt mit Zwiebel und Knoblauchsowie. Es ist ein nationales Symbol von Walenien; die Einwohner tragen es am Tag des heiligen David. Porre enthält Allicin sowie Vitamine K und C.
+  veg.lentils:
+    label: Linse
+    summary: Kleine flache Hülsenfruchtensamen; wichtige Proteinquelle bei vegetarischer Ernährung.
+    info: Linsen (Lens culinariae) sind eine der ältesten Hülsenfrüchte und werden seit etwa 10 000 Jahren angebaut. Sie gibt es in roter, grünlicher, brauner sowie schwarzer Variante wie die Belugalinse. Ohne Einweichen können sie innerhalb von 20 bis 30 Minuten gekocht werden – schneller als Bohnen.
+  veg.lettuce:
+    label: romischer Kopfsalat
+    summary: Ein krispiger Blattgemüse-Typ aus dem Grundstock grünlicher Salatsorten.
+    info: Römische Salate werden seit der Antike im alten Ägypten angebaut und enthalten über 95 Prozent Wasser sowie sind kalorienarm. Es gibt viele Sorten wie Iceberg-, Romain-, Lollo-, Butterhead oder Eichblattsalat.
+  veg.lotus_root:
+    label: Lotuswurzeln
+    summary: Querschnitt durch den Wurzelstock des Lotuspflanzen mit attraktiven Öffnungen; ein beliebter Leckerbissen aus Asia.
+    info: Die Lotlinienwurzel ist die unterirdische Ausläufersprossung der heiligen Lotusblume und enthält auf dem Querprofil symmetrische Löcher im Muster. Sie bildet eine Grundlage für Asiens Küche – insbesondere Chinas-, Japans- sowie Indiens -, da sie Vitamine wie Vitamin C, B6 enthalten und kaliumreich sind mit einer knorpelig-krosseren Konsistenz.
   veg.mushroom:
     label: Pilz
     summary: Ein fahlbrauner Schirmpilz für die Küche.
     info: Der Zweisporen-Porling ist der weltweit am meisten angebauter Pilz. Er enthält viel Eiweiß, Vitamin B und Mineralien sowie wird er in unzähligen Gerichten verwendet.
+  veg.okra:
+    label: Oktopod
+    summary: Grünes rippiges Samenbeutel mit schleimiger Textur und Grundlage für Gumbo-Suppe.
+    info: Bockshornkleesamenpod (Abelmoschus esculetus), auch als Ladyfingers bezeichnet
   veg.onion:
     label: Zwiebel
     summary: Scharfe geschichtete Knoblauchsartige Gemüse zur Würzung von Speisen.
     info: Die gewöhnliche Zwiebel ist eines der am meisten angebauten Gemüsesorten weltweit. Sie wird verwendet, um Gerichte auf der ganzen Welt zu würzen und enthält Flavonoide mit antibakteriellen Eigenschaften.
+  veg.parsley:
+    label: kerbeldill
+    summary: Heller grüner Krautgewächs mit flachen oder gewellten Blättern.
+    info: Kerbel (Petroselinum crispum) wird häufig als Gewürz und Garnitur verwendet. Er enthält mehr Vitamin C als Orangen im Verhältnis zum Gewicht. Es gibt eine glatte beziehungsweise flache Sorte sowie krause Varietäten – Köche bevorzugen die flachblättrige für ihren intensiveren Geschmack.
+  veg.parsnip:
+    label: Wurzelpetersilie
+    summary: Eine cremefarbene weiße Knolle aus dem Mittelalter.
+    info: Petersilienwurzel ist eine Wurzelform der Petersilie und verwandt mit Karotten.
+  veg.peas:
+    label: erbsen
+    summary: Kleine runde grüne Körner im Schote.
+    info: Erbsen (Pisum sativum) sind Hülsenfrüchte und werden seit der Antike angebaut. Gregor Mendel untersuchte Erbsen bei seinen Versuchen zur Vererbung von Merkmalen zwischen den Jahren 1856 bis 1863.
   veg.pepper:
     label: Pfeffer
     summary: Glänzendes farbiges Gemüse mit süßem oder scharfem Geschmack.
@@ -38,7 +150,55 @@ cards:
     label: Kartoffel
     summary: Der braune Stamm der Grundlage vieler Gerichte weltweit.
     info: Die Kartoffel stammt aus den Anden im Südamerika und gehört zu den wichtigsten Kulturpflanzen der Welt. Sie ist eine Quelle für Kohlenhydrate, Vitamin C und Kalium.
+  veg.pumpkin:
+    label: Kürbis
+    summary: Großer orangefarbener runder Gemüsetypus; Symbol der Herbstküche und von Halloween.
+    info: Die Kürbisart (Cucurbita maxima oder pepo) stammt aus Amerika und ist reich an Beta-Carotin sowie Vitaminen A und C. Die irische Tradition des Halloween-Kunstschnitzens mit Jack-O’Lantern entstand später dort. Ihre Samen sind eine hervorragende Quelle für Zink, Magnesium und pflanzliches Protein.
+  veg.radish:
+    label: rote Bete
+    summary: Kleine knackige orange oder weisse Wurzelpflanze.
+    info: Die Rote Bete ist eine schnell wachsende Wurzelgemüseart mit einer kleinen orangefarbenen Form und großen weißen Winterform wie Daikon aus Japan. Sie enthält Glucosinate mit antimikrobiellen Eigenschaften.
+  veg.spinach:
+    label: Blattgemüse
+    summary: Eisenhaltiges grünliches Blättergemüse.
+    info: Spargel kommt aus dem mittelalterlichen Iran und ist reich an Vitaminen der Gruppe B sowie Eisen.
+  veg.spring_onion:
+    label: frühlingszwiebel
+    summary: Feine Zwiebel mit weißer Basis und grünlichen Stängeln; gern zum Würzen verwendet.
+    info: Frühlingsschnittlauchs (entweder Allium fistulosum oder Allium cepa) wird noch unreif geerntet und ist daher feiner sowie weniger pikant als normale Zwiebeln. Es dient häufig der Veredelung von Gerichten im Asienküche wie Salate, Suppen und Soßen. Er eignet sich hervorragend roh genossen aber auch gekocht.
+  veg.squash:
+    label: Kürbus
+    summary: Verschiedene Formen an Winterkürbsen; Grundgemüsesorte für Herbstküche.
+    info: '{"hint":"vielfältig geformte Winterkürbisse (Gattung Cucurbita)","info":"Winterkäsebohnen (Cucurbiteae), wie Butternuss-, Eichel-, Delikate und Kürbis-Kabocha-Sorten gehören dazu.\nSie bilden eine harte Schale aus, die sie Monate schützt; man kann sie den ganzen Winter über lagern.\nDie Früchte enthalten reichlich Vitamine der Gruppen A, C sowie des Vitamin-B-Komplexes.\nIm Ernährungsraum der Indianer im Dreigestirnsystem von Mais-Erbsete-kürbishaltigen Speisen spielten diese Pflanzen eine bedeutende Rolle."}'
+  veg.swede:
+    label: Rote Bete
+    summary: Kreisförmiges purpurrot-gelbes Gemüse aus der Familie Brassicaceae.
+    info: Die Rote Bete (Beta vulgaris), auch als Rotkohl bezeichnet, ist eine Wurzelgemüseart mit einer charakteristischen roten bis violettblauen Farbe und einem süßlichen Geschmack nach dem Kochen.
+  veg.sweet_potato:
+    label: Süßkartoffeln
+    summary: Orange süße Wurzelgemüseart; keine Verwandte der normalen Erdbeere.
+    info: Die Süßkartoffel (Ipomoea batatas) kommt aus Südamerika und ist nicht pflanzengenetisch mit der Kartoffel verwandt.
+  veg.taro:
+    label: Kolokasi
+    summary: Große Kartoffelartige Wurzelflechte aus den Tropen.
+    info: Tarawurzel (Colocasia esculenta) ist eine Tropenwurzelpflanze mit einer Kultivierungsgeschichte von über 10 000 Jahren und wird als Grundnahrungsmittel auf Hawaii genutzt – beispielsweise im Form des fermentierten Poi-Gerichtes. Sie hat einen leicht nussigen Geschmack sowie typische lila Flecken an der Schale.
   veg.tomato:
     label: Tomate
     summary: Rotrundes Fruchtgemüse.
     info: Der Tomatenapfel ist botanisch gesehen eine Beere und gehört zur Gattung Solanum lycopersicum. Er stammt aus Südamerika und enthält Lycopin sowie Vitamin C.
+  veg.turnip:
+    label: rote Bete
+    summary: Kugelförmiges weiß-lila Wurzelpulver; ein altes Mittelalterliches Nahrungsprodukt.
+    info: Rote Bete (Beta vulgaris subsp. amara), auch als Wurzelgemüse bekannt und verwandt mit der normalen Rettichpflanze Brassica napus var., war vor dem Eintreffen von Kartoffeln aus Westamerika eine Grundnahrungsmittelart Europas. Sie enthält Vitamin C sowie Calciumgehalt und Ballaststoffe.
+  veg.watercress:
+    label: Kresse
+    summary: Eine kleine dunkelgrüne schmerzhafte Pflanze aus Wasserläufen.
+    info: Wasserkresse (Nasturtium officinale) wächst an kühlen Bächen und Quellen. Sie hat eine scharfe, pikante Geschmack durch den Glucosid-Sinigrininhalt. Wasserkresse ist reich an Vitamin C, K sowie Beta-Carotin.
+  veg.yam:
+    label: yam
+    summary: Große starre tropische Knolle
+    info: Yam ist eine große starke Wurzel aus den Tropenregionen von Afrika, Asia und der Karibik. Es unterscheidet sich vom Süßkartoffel durch seine trockenere Konsistenz sowie höherem Stärkekgehalt mit geringerer süße. Yam kann bis zu sieben Kilogramm schwer sein.
+  veg.zucchini:
+    label: Zucchini
+    summary: Grünes Gemüse der Gattung Cucurbitaceae.
+    info: Die Zucchini ist eine grüne Sommerkürbis mit einer Länge von etwa 7–25 cm und wird noch unreif geerntet. Sie stammt aus Mexico und wurde durch Italien europaweit bekannt gemacht. Der Geschmack erinnert an Gurken oder Melonen.

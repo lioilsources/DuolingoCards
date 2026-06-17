@@ -663,6 +663,552 @@
         "vi": "Thủy tức là sinh vật biển thuộc ngành Ruột khoang không có não, tim hay xương – cơ thể gồm tới 95% nước. Nó di chuyển bằng cách co bóp thân hình chuông của mình. Những xúc tu kéo dài chứa tế bào ruột khoang (nematocysts) giúp làm tê liệt con mồi. Một số loài gần như bất tử – chúng có thể quay lại giai đoạn non.",
         "zh-CN": "水母是一种没有大脑、心脏或骨骼的腔肠动物——其身体由大约95%的水分组成。它通过脉动钟状的身体移动。触手上含有刺细胞（刺丝胞），能麻痹猎物。某些种类几乎不朽——它们可以回到幼体阶段。"
       }
+    },
+    {
+      "key": "animal.lobster",
+      "image": "animal.lobster.png",
+      "label": {
+        "cs": "humr"
+      },
+      "summary": {
+        "cs": "Velký mořský korýš s klepety; vaří se červený ale žije modrozeleně."
+      },
+      "info": {
+        "cs": "Humr atlantický je velký mořský korýš z čeledi Nephropidae dorůstající délky přes 60 cm.\nJe za syrova tmavě modrozelený; červeně zbarvit se v ketonu teprve při vaření.\nMůže žít přes 50 let.\nJe ceněnou mořskou pochoutkou; obchodování s humry je miliardovým odvětvím.\n"
+      }
+    },
+    {
+      "key": "animal.shrimp",
+      "image": "animal.shrimp.png",
+      "label": {
+        "cs": "kreveta"
+      },
+      "summary": {
+        "cs": "Malý mořský korýš, světové populární mořské plody."
+      },
+      "info": {
+        "cs": "Krevety jsou malé mořské nebo sladkovodní korýše s 10 páry noh.\nExistuje přes 2 000 druhů; jsou druhým nejpopulárnějším mořským plodem na světě.\nJsou filtrátory a predátoři; jsou klíčovými články oceánského potravinového řetězce.\nMnoho druhů je důležitým zdrojem obživy v tropických pobřežních komunitách.\n"
+      }
+    },
+    {
+      "key": "animal.starfish",
+      "image": "animal.starfish.png",
+      "label": {
+        "cs": "hvězdice"
+      },
+      "summary": {
+        "cs": "Pětiramenný mořský živočich schopný regenerovat ztracená ramena."
+      },
+      "info": {
+        "cs": "Hvězdice jsou mořské ostnokožce s typicky pěti rameny.\nDokáží regenerovat celé ztracené rameno nebo z amputovaného ramene vytvořit nové tělo.\nŽivý se mlži, jejichž ulity rozevírají pomocí přísavek.\nExistuje přes 1 800 druhů od přílivových zon až po abysální hloubky.\n"
+      }
+    },
+    {
+      "key": "animal.sea_urchin",
+      "image": "animal.sea_urchin.png",
+      "label": {
+        "cs": "ježovka"
+      },
+      "summary": {
+        "cs": "Kulatý mořský ostnokožec pokrytý trny na skalnatém dně."
+      },
+      "info": {
+        "cs": "Ježovka je mořský ostnokožec ze skupiny Echinoidea pokrytý pohyblivými ostny.\nMezi ostrny má speciální orgány (pedicellárie) k čistění a lovu.\nŽiví se řasami, houbami a organickými zbytky.\nJejí gonády (uni) jsou ceněnou japonskou delikatesou.\n"
+      }
+    },
+    {
+      "key": "animal.clownfish",
+      "image": "animal.clownfish.png",
+      "label": {
+        "cs": "klaun očkatý"
+      },
+      "summary": {
+        "cs": "Oranžová ryba žijící v symbióze s jedovatou mořskou sasankou."
+      },
+      "info": {
+        "cs": "Klaun očkatý žije v mořských sasankách, jejichž jedovaté chapadly by jiné ryby zabil; klaun je imunní díky ochranné sliznici.\nV symbióze čistí sasanku a odvrhuje predátory; sasanka mu poskytuje ochranu.\nVšichni klauní se rodí jako samci; dominantní přesně se může stát samicí.\nFilm Hledání Nema z roku 2003 z nich udělal celosvětové celebrity.\n"
+      }
+    },
+    {
+      "key": "animal.seal",
+      "image": "animal.seal.png",
+      "label": {
+        "cs": "tuleň"
+      },
+      "summary": {
+        "cs": "Mořský savec odpočívající na skalách a lovící ryby v oceánu."
+      },
+      "info": {
+        "cs": "Tuleň obecný je mořský savec z čeledi Phocidae s aerodinamickým tělem bez ušních boltců.\nŽije podél pobřeží Atlantiku a Pacifiku a tráví čas jak ve vodě, tak na skalách.\nDokáže se potopit do hloubky přes 500 metrů a vydržet pod vodou přes půl hodiny.\nJe ohrožen znečistěním a lovem.\n"
+      }
+    },
+    {
+      "key": "animal.walrus",
+      "image": "animal.walrus.png",
+      "label": {
+        "cs": "mrož"
+      },
+      "summary": {
+        "cs": "Velký arktický savec se slonovitými kly a vousy."
+      },
+      "info": {
+        "cs": "Mrož je velký arktický pinnipéd charakteristický enormními slonovinovými kly (rozštiřky) dosahujícími délky přes metr.\nKly slouží k výstupu na led, k bojům mezi samci a k hierarchii.\nJe sociální a halaší v obrovských koloniích.\nGlobální oteplování ohrožuje jeho habitát na arktickém ledu.\n"
+      }
+    },
+    {
+      "key": "animal.orca",
+      "image": "animal.orca.png",
+      "label": {
+        "cs": "kosatka"
+      },
+      "summary": {
+        "cs": "Černobílý vrcholový predátor oceánů, nejvelkořejší z delfínů."
+      },
+      "info": {
+        "cs": "Kosatka dravá je největší zástupce čeledi delfínovitých a jeden z nejinteligentnějších živočichů světa.\nLoví v koordinovaných skupinách (rodech); každý rod má unikátní lovecké techniky.\nKomunikuje dialekty zvukových signálů odlišných mezi různými rody.\nV zajetí (SeaWorld) trpí; kampaně za práva zvířat dosáhly omezení chovu.\n"
+      }
+    },
+    {
+      "key": "animal.narwhal",
+      "image": "animal.narwhal.png",
+      "label": {
+        "cs": "narval"
+      },
+      "summary": {
+        "cs": "Arktická velryba s spirálovitým rohem připomínající pohádkového jednorožce."
+      },
+      "info": {
+        "cs": "Narval je malá arktická velryba (délka do 5 metrů) s charakteristickým spirálovitým tusem, který je ve skutečnosti přerostlý levý řezák.\nTus může dosáhnout délky přes 3 metry; u samic chybí.\nŽije ve skupinách v arktickém oceánu.\nVe středověku se věřilo, že narvalí tusy jsou jednorožčí rohy s magickými léčivými vlastnostmi.\n"
+      }
+    },
+    {
+      "key": "animal.manatee",
+      "image": "animal.manatee.png",
+      "label": {
+        "cs": "dugong/kapustňák"
+      },
+      "summary": {
+        "cs": "Pomalý mořský herbivor nazývaný mořská kráva."
+      },
+      "info": {
+        "cs": "Kapustňák (manatee) je velký mořský savec živící se výhradně mořskými travami.\nŽije ve mělkých tropických zálivech, ústích řek a průplavech Karibiku, Floridy a Afriky.\nJe vážně ohrožen srážkami s motorovými čluny; mnozí mají na kůži jizvy od vrtulí.\nŠe pohybuje pomalu (3–5 km/h) a dýchá každých 3–5 minut.\n"
+      }
+    },
+    {
+      "key": "animal.sea_lion",
+      "image": "animal.sea_lion.png",
+      "label": {
+        "cs": "lachtan"
+      },
+      "summary": {
+        "cs": "Ušatý ploutvonožec schopný chodit na ploutvích; hlasité štěkání."
+      },
+      "info": {
+        "cs": "Lachtan kalifornský je nejznámější zástupce ušatých tuleňů (Otariidae).\nNa rozdíl od tuleňů pravých má vnější ušní boltce a může chodit na čtyřech ploutvích.\nJe výjimečně inteligentní; v zábavním průmyslu se učí složité triky.\nV přírodě loví ryby, oliheň a korýše.\n"
+      }
+    },
+    {
+      "key": "animal.manta_ray",
+      "image": "animal.manta_ray.png",
+      "label": {
+        "cs": "rai manta"
+      },
+      "summary": {
+        "cs": "Obrovská gracézní rejnočka filtrující plankton u hladiny oceánu."
+      },
+      "info": {
+        "cs": "Manta oceánská je největší druh rejnoků s rozpětím ploutví přes 7 metrů a hmotností přes 2 000 kg.\nFiltruje plankton pomocí žaberních destiček při plavání s otevřenou tlamou.\nNemá jedovatý osten; je zcela neškodná pro člověka.\nŘadí se k nejinteligentnějším rybám; pravděpodobně rozpoznává svůj obraz v zrcadle.\n"
+      }
+    },
+    {
+      "key": "animal.swordfish",
+      "image": "animal.swordfish.png",
+      "label": {
+        "cs": "mečoun"
+      },
+      "summary": {
+        "cs": "Velká dravá pelagická ryba s dlouhým mečovitým zobákem."
+      },
+      "info": {
+        "cs": "Mečoun velký je velká pelagická ryba z tropických a subtropických oceánů.\nJeho plochý mečovitý zobák slouží k omráčení kořisti (ryb a olihnů), nikoli k propichování.\nJe jednou z nejrychlejších ryb; dosahuje rychlosti přes 100 km/h.\nJe ceněnou sportovní i gastronomickou rybou.\n"
+      }
+    },
+    {
+      "key": "animal.tuna",
+      "image": "animal.tuna.png",
+      "label": {
+        "cs": "tuňák"
+      },
+      "summary": {
+        "cs": "Rychlá pelagická ryba lovená v obrovském množství pro potravinářský průmysl."
+      },
+      "info": {
+        "cs": "Tuňák modroploutvý je největší druh tuňáka dorůstající délky přes 3 metry a hmotnosti přes 700 kg.\nJe endotermní (teplokrevný) a udržuje tělesnou teplotu vyšší než okolní voda.\nPatří k nejrychlejším rybám oceánu; dosahuje rychlosti přes 70 km/h.\nJe kriticky ohrožen nadměrným rybolovem; jeden exemplář se na japonském trhu prodá za statisíce dolarů.\n"
+      }
+    },
+    {
+      "key": "animal.salmon",
+      "image": "animal.salmon.png",
+      "label": {
+        "cs": "losos"
+      },
+      "summary": {
+        "cs": "Velká lososovitá ryba stoupající z moře do řek na tření."
+      },
+      "info": {
+        "cs": "Losos je anadromní ryba; vyrůstá v moři, ale k tření se vrací do svých rodných řek po stovkách kilometrů.\nKdyž losos vyplyne, změní barvu z stříbrné na výrazně červenou.\nPo tření většina lososů (pacifické druhy) uhyne; těla hnijí a živiny se dostávají do přirozeného ekosystému lesa.\nJe bohatý na omega-3 mastné kyseliny.\n"
+      }
+    },
+    {
+      "key": "animal.eel",
+      "image": "animal.eel.png",
+      "label": {
+        "cs": "úhoř/murénа"
+      },
+      "summary": {
+        "cs": "Hadovitá ryba pohybující se v trhlinách korálového útesu."
+      },
+      "info": {
+        "cs": "Murénа je velká mořská ryba z čeledi Muraenidae skrývající se v trhlinách korálového útesu.\nMá dvojici čelistí; kromě čelistí ústní má vnitřní čelisti (faringeální) k vtahování kořisti do hrdla.\nNeútočí aktivně; kousnutí způsobuje zpravidla při provokaci.\nÚhoř říční (Anguilla anguilla) migruje do Sargasového moře, kde se rozmnožuje a umírá.\n"
+      }
+    },
+    {
+      "key": "animal.squid",
+      "image": "animal.squid.png",
+      "label": {
+        "cs": "olihně"
+      },
+      "summary": {
+        "cs": "Desetiramenný hlavonožec pohybující se tryskáním vody."
+      },
+      "info": {
+        "cs": "Olihně jsou hlavonožci s 10 rameny (8 chapadel + 2 lovecká lovné chapadla).\nPohybují se tryskáním vody a dokáží měnit barvu pomocí chromatoforů.\nObří olihně (Architeuthis) s délkou přes 13 metrů jsou největšími bezobratlými na světě.\nZanechávají stopy na kůži vorvaňů, s nimiž bojují v hlubinách oceánu.\n"
+      }
+    },
+    {
+      "key": "animal.nautilus",
+      "image": "animal.nautilus.png",
+      "label": {
+        "cs": "nautilus"
+      },
+      "summary": {
+        "cs": "Starověký hlavonožec v závitnicové ulitě, přeživší od doby dinosaurů."
+      },
+      "info": {
+        "cs": "Nautilus je primitivní hlavonožec se spirálně stočenou ulitou, žijící téměř nezměněn přes 400 milionů let.\nUlita je rozdělena na komory; nautilus reguluje vztlak plnicím komorami plynem.\nNa rozdíl od ostatních hlavonožců má jednoduché oči bez čočky (pinhole camera).\nJe chráněn mezinárodními úmluvami před přelovením.\n"
+      }
+    },
+    {
+      "key": "animal.clam",
+      "image": "animal.clam.png",
+      "label": {
+        "cs": "mlž obří"
+      },
+      "summary": {
+        "cs": "Největší mlž na světě žijící v tropickém korálových útesech."
+      },
+      "info": {
+        "cs": "Mlž obří (Tridacna gigas) je největší mlž na světě dorůstající délky přes metr a hmotnosti přes 200 kg.\nŽije v symbióze s fotosyntetickými řasami (zooxanthellae) uvnitř pláštěmu.\nMůže žít přes 100 let.\nPověst, že lapá potápěče, je mýtus; mlž se zavírá příliš pomalu.\n"
+      }
+    },
+    {
+      "key": "animal.oyster",
+      "image": "animal.oyster.png",
+      "label": {
+        "cs": "ústřice"
+      },
+      "summary": {
+        "cs": "Mlž filtrující vodu; zdroj perel a oblíbená delikátesa."
+      },
+      "info": {
+        "cs": "Ústřice jsou mlže filtrující vodu; jedna ústřice vyfiltruje až 200 litrů vody denně.\nNěkteré druhy produkují perly, když jim cizí předmět dráždí plášť.\nSyrové ústřice jsou ceněnou delikatesou; tradičně se jí v měsících s písmenem R.\nJejich chov v oceánech je ekologicky šetrný a pomáhá čistit mořskou vodu.\n"
+      }
+    },
+    {
+      "key": "animal.mussel",
+      "image": "animal.mussel.png",
+      "label": {
+        "cs": "slávka"
+      },
+      "summary": {
+        "cs": "Tmavý mlž shlukující se na skalách v přílivu a odlivu."
+      },
+      "info": {
+        "cs": "Slávka jedlá je mlž žijící v přílivových zónách Atlantiku a Tichého oceánu.\nPřichycuje se na skalách pevnými vlákny (bisus).\nFiltruje vodu a je indikátorem znečištění oceánů; akumuluje toxiny a těžké kovy.\nJe ceněnou potravinou; belgické moules-frites jsou světoznámou specialitou.\n"
+      }
+    },
+    {
+      "key": "animal.sea_anemone",
+      "image": "animal.sea_anemone.png",
+      "label": {
+        "cs": "sasanka mořská"
+      },
+      "summary": {
+        "cs": "Kvědinový mořský živočich s jedovatými chapadly, obývá korálové útesy."
+      },
+      "info": {
+        "cs": "Mořská sasanka je žahavec (Cnidaria) vizuálně připomínající květ připevněný ke skalám.\nChapadla mají jedovaté buňky (nematocysty) k paralyzování kořisti.\nŽije v symbióze s klauni, řasami a kreveti-čistíři.\nMůže žít přes 100 let a je potenciálně nesmrtelná (nikdy neumírá stářím).\n"
+      }
+    },
+    {
+      "key": "animal.stingray",
+      "image": "animal.stingray.png",
+      "label": {
+        "cs": "rejnok"
+      },
+      "summary": {
+        "cs": "Plochá mořská ryba s ostny na ocasu; odpočívá na písčitém dně."
+      },
+      "info": {
+        "cs": "Rejnok je příbuzný žraloka s plochým diskovitým tělem přizpůsobeným k životu u dna.\nOhon mnoha druhů je vybaven jedovatým ostnem sloužícím k obraně.\nPohybuje se vlněním hrudních ploutví jako mávání křídly.\nNěkteré druhy jsou elektrogenní a dokáží omráčit kořist elektrickými výboji.\n"
+      }
+    },
+    {
+      "key": "animal.hammerhead_shark",
+      "image": "animal.hammerhead_shark.png",
+      "label": {
+        "cs": "žralok kladivoun"
+      },
+      "summary": {
+        "cs": "Žralok s charakteristicky rozšířenou plochou hlavou ve tvaru T."
+      },
+      "info": {
+        "cs": "Žralok kladivoun je rod žraloků s bizarně rozšířenou plochou hlavou (cefalofoil).\nRozšířená hlava umožňuje lepší detekci kořisti elektrickými orgány (ampule Lorenziniho) a lepší manévrování.\nŽije v tropických oceánech a loví ryby, rejnoky a chobotnice.\nNěkteré druhy jsou ohroženy; jsou loveny pro žraločí ploutve.\n"
+      }
+    },
+    {
+      "key": "animal.beluga_whale",
+      "image": "animal.beluga_whale.png",
+      "label": {
+        "cs": "beluga"
+      },
+      "summary": {
+        "cs": "Malá bílá arktická velryba se zaoblenou hlavou a přátelský výraz."
+      },
+      "info": {
+        "cs": "Beluga (Delphinapterus leucas) je malá bílá velryba arktických a subarktických moří.\nJejí výrazná bulbovitá čelo (melon) slouží k echolokaci.\nJe jedinou velrybou schopnou pohybovat krkem do stran.\nKomunikuje rozmanitou paletou zvuků; námořníci ji historicky nazývali mořský kanárek.\n"
+      }
+    },
+    {
+      "key": "animal.puffer_fish",
+      "image": "animal.puffer_fish.png",
+      "label": {
+        "cs": "ryba fugu"
+      },
+      "summary": {
+        "cs": "Ryba nafukující se do ostnaté kuličky; ryba fugu je pochoutkou i jedem."
+      },
+      "info": {
+        "cs": "Fugu je řada ryb z čeledi Tetraodontidae schopných nafouknutí těla vodou nebo vzduchem do ostnaté kuličky.\nObsahuje tetrodotoxin, jeden z nejsilnějších přírodních jedů; jaterní tkáně a gonády jsou smrtelné.\nV Japonsku je fugu delikatesou; kuchaři musejí mít speciální licenci.\nNafukování je obranný mechanismus, nikoli útok.\n"
+      }
+    },
+    {
+      "key": "animal.anglerfish",
+      "image": "animal.anglerfish.png",
+      "label": {
+        "cs": "mořský ďábel"
+      },
+      "summary": {
+        "cs": "Hlubinná ryba s bioluminiscenčním návnad ahem na čele."
+      },
+      "info": {
+        "cs": "Mořský ďábel (Lophius) žije v hlubinách oceánu přitémna přes 1 000 metrů.\nSamice má na čele bioluminiscenční návnad (illicium) k lákání kořisti a samců.\nSamec je neobyčejně malý; po nalezení samice se přisaje a splyne s ní biologicky.\nBioluminiscence pochází z bakterií žijících v symbióze v návnadě.\n"
+      }
+    },
+    {
+      "key": "animal.sea_cucumber",
+      "image": "animal.sea_cucumber.png",
+      "label": {
+        "cs": "sumýš"
+      },
+      "summary": {
+        "cs": "Válcovitý mořský živočich sbírající organické zbytky ze dna."
+      },
+      "info": {
+        "cs": "Sumýšové jsou mořské ostnokožce z třídy Holothuroidea žijící na oceánském dně.\nFiltrují sediment a živí se organickými zbytky.\nPři ohrožení vyvrhují střeva nebo vodnatou tekutinu, která se ale obnoví.\nJsou ceněnou pochoutkou v Asii (trepang) a jsou tradiční složkou čínské kuchyně.\n"
+      }
+    },
+    {
+      "key": "animal.sea_slug",
+      "image": "animal.sea_slug.png",
+      "label": {
+        "cs": "plakofora/nahožáber"
+      },
+      "summary": {
+        "cs": "Pestrobarevný nahý mořský mlž bez ulity na korálových útesech."
+      },
+      "info": {
+        "cs": "Nahožábrí (Nudibranchia) jsou mořské měkkýše bez ulity žijící na korálových útesech.\nMají jedny z nejnápadnějších barev v živočišné říši; slouží jako varování jedovatosti.\nNěkteré druhy si přisvojují jedovaté buňky z potravy (korálovcov) a používají je k vlastní obraně.\nExistuje přes 3 000 druhů v nejrůznějších tvarech a barvách.\n"
+      }
+    },
+    {
+      "key": "animal.barnacle",
+      "image": "animal.barnacle.png",
+      "label": {
+        "cs": "rak světlonoš"
+      },
+      "summary": {
+        "cs": "Malý korýš přisedle žijící na skalách a lodních trupech."
+      },
+      "info": {
+        "cs": "Světlonoši jsou přisedlé korýše z podtřídy Cirripedia; přichytávají se cementovým výměškem na skalách, lodích i velrybách.\nŽiví se filtrací planktonu pomocí nožiček vyčnívajících z ulity.\nJejich larvy jsou plovavé; usadí se a přemění se na dospělce přisedlé na celý život.\nV mořské biologii jsou klíčovými organismy při studiu koloni zace povrchů.\n"
+      }
+    },
+    {
+      "key": "animal.sea_otter",
+      "image": "animal.sea_otter.png",
+      "label": {
+        "cs": "vydra mořská"
+      },
+      "summary": {
+        "cs": "Mořská vydra plovoucí na zádech a pomocí kamenů rozbíjí mušle."
+      },
+      "info": {
+        "cs": "Vydra mořská je mořský savec ze Severní Ameriky s nejhustší srstí ze všech savců (800 000 chlupů na cm²).\nPoužívá kameny jako nástroj k rozbíjení ústřic a ježovek položených na hrudi.\nSpí plovoucí na hladině; drží se navzájem za tlapky, aby ji proud neodnesl.\nByla téměř vyhubena pro kožešinu; díky ochranným programům se populace obnovila.\n"
+      }
+    },
+    {
+      "key": "animal.dugong",
+      "image": "animal.dugong.png",
+      "label": {
+        "cs": "dugong"
+      },
+      "summary": {
+        "cs": "Tichý mořský herbivor z Indického a Tichého oceánu příbuzný manateji."
+      },
+      "info": {
+        "cs": "Dugong je mořský savec příbuzný kapustňákovi žijící v Indickém a Tichém oceánu.\nŽiví se výhradně mořskými trávami.\nJe považován za pravděpodobnou inspiraci mořských panen; mořeplavci ho mylně identifikovali jako mořské bytosti.\nJe vážně ohrožen; populace klesá vlivem ztráty habitátu a srážek s čluny.\n"
+      }
+    },
+    {
+      "key": "animal.piranha",
+      "image": "animal.piranha.png",
+      "label": {
+        "cs": "piráňa"
+      },
+      "summary": {
+        "cs": "Jihoamerická dravá sladkovodní ryba s ostrými zoubky."
+      },
+      "info": {
+        "cs": "Pirána červenobřichá je dravá sladkovodní ryba z Amazonie s ostrými trojúhelníkovými zuby.\nJejí pověst smrtelného predátora je přehnaná; na zdravého koupajícího se člověka útočí vzácně.\nLoví ve hejnech; silný čich detekuje krev z velké vzdálenosti.\nJe důležitým článkem říčního ekosystému Amazonie.\n"
+      }
+    },
+    {
+      "key": "animal.catfish",
+      "image": "animal.catfish.png",
+      "label": {
+        "cs": "sumec"
+      },
+      "summary": {
+        "cs": "Velká sladkovodní ryba s vousky, skrytá u dna řek."
+      },
+      "info": {
+        "cs": "Sumec velký je největší sladkovodní ryba Evropy; dosahuje délky přes 2 metry a hmotnosti přes 100 kg.\nCharakteristické vousky (barbely) slouží jako čichové a hmatové orgány.\nŽije u dna řek a jezer; je nokturnální predátor.\nV Česku je sumec ceněnou sportovní rybou.\n"
+      }
+    },
+    {
+      "key": "animal.carp_river",
+      "image": "animal.carp_river.png",
+      "label": {
+        "cs": "kapr říční"
+      },
+      "summary": {
+        "cs": "Velká zlatohnědá sladkovodní ryba žijící v řekách a rybnících."
+      },
+      "info": {
+        "cs": "Kapr obecný je původem z Asie a byl introdukován do Evropy již ve středověku.\nJe všežravec; vyhrabává dno a může zakalovat vodu.\nJe symbolem českých Vánoc; trhovci ho prodávají živého z kádí.\nPatří k nejchovanějším rybám světa a existuje přes 100 plemen.\n"
+      }
+    },
+    {
+      "key": "animal.frogfish",
+      "image": "animal.frogfish.png",
+      "label": {
+        "cs": "žabičník"
+      },
+      "summary": {
+        "cs": "Maskovaná záloha na korálových útesech, loví na lákadlo."
+      },
+      "info": {
+        "cs": "Žabičník (Antennarius) je malá mořská ryba z čeledi Antennariidae s mistrovskou kamuflají.\nMá prsní ploutve tvarované jako chodidla, po nichž se chodí po dně.\nNa první dorz ální ploutvi má pohyblivou návnadu (illicium) k lákání kořisti.\nJe schopen pozřít kořist skoro stejně velkou jako samo; polknutí trvá 6 milisekund.\n"
+      }
+    },
+    {
+      "key": "animal.lionfish",
+      "image": "animal.lionfish.png",
+      "label": {
+        "cs": "krutopásek"
+      },
+      "summary": {
+        "cs": "Jedovatá trop ická ryba s dramatickými trnami a pruhovaným zbarvením."
+      },
+      "info": {
+        "cs": "Krutopásek červený je jedovatá mořská ryba z čeledi Scorpaenidae s výraznými červenobílými pruhy a jedovatými trny.\nJeho jed způsobuje intenzivní bolest; k životu ohrožující situaci zřídkakdy dochází.\nJe invazním druhem v Karibiku a Středozemním moři; decimuje tam domácí druhy ryb.\nNemá přirozené predátory ve vodách mimo původní habitát.\n"
+      }
+    },
+    {
+      "key": "animal.clown_triggerfish",
+      "image": "animal.clown_triggerfish.png",
+      "label": {
+        "cs": "spoušťovka klaun"
+      },
+      "summary": {
+        "cs": "Výrazně zbarvená tropická ryba s bílými skvrnami a oranžovými rty."
+      },
+      "info": {
+        "cs": "Spoušťovka klaun je velká tropická ryba z čeledi Balistidae s jedním z nejokázalejších zbarvení mezi mořskými rybami.\nMá silné zuby k drcení tvrdých korálů a mlžů.\nNázev spoušťovka pochází od prvního hřbetního ostnu, který funguje jako pojistka (spoušť), zablokující druhý.\nMůže být agresivní k potápěčům v období hnízdění.\n"
+      }
+    },
+    {
+      "key": "animal.blue_tang",
+      "image": "animal.blue_tang.png",
+      "label": {
+        "cs": "kanic modrý"
+      },
+      "summary": {
+        "cs": "Jasně modrá rybka korálových útesů; hvězda z Hledání Nema."
+      },
+      "info": {
+        "cs": "Kanic modrý (Paracanthurus hepatus) je malá mořská ryba s jasně modrým zbarvením a žlutým ocasem z korálových útesů Indo-Pacifiku.\nFilm Hledání Dory (2016) zvýšil zájem o chov, ačkoli je náročná v zajetí.\nMá ostren na kořeni ocasu (skalpel), od něhož pochází název surgeonfish.\nŽiví se zooplanktonem a fytoplanktonem.\n"
+      }
+    },
+    {
+      "key": "animal.horseshoe_crab",
+      "image": "animal.horseshoe_crab.png",
+      "label": {
+        "cs": "podkožec"
+      },
+      "summary": {
+        "cs": "Starověký členovtec přežívající 450 milionů let bez větších změn."
+      },
+      "info": {
+        "cs": "Podkožec (Limulus polyphemus) je přibližně 450 milionů let starý plžovec, přežívající od prvohor bez podstatných změn.\nNení příbuzný pravým krabům; blíže příbuzný pavoukovcům.\nJeho modrá krev obsahuje unikátní látku (koagulogen) používanou k testování bezpečnosti léků a vakcín.\nKaždé jaro se hejno táhne na pláže k páření; je důležitou potravou pro migrující ptáky.\n"
+      }
+    },
+    {
+      "key": "animal.giant_squid",
+      "image": "animal.giant_squid.png",
+      "label": {
+        "cs": "obří chobotnice"
+      },
+      "summary": {
+        "cs": "Největší bezobratlý živočich světa žijící v hlubokém oceánu."
+      },
+      "info": {
+        "cs": "Obří olihně (Architeuthis dux) jsou největší bezobratlí na světě dosahující délky přes 13 metrů.\nMají největší oči v živočišné říši (průměr přes 25 cm), přizpůsobené temnotě hlubín.\nŽijí v hloubkách 300 až 1 000 metrů a jsou hlavní potravou vorvaňů.\nŽivá obří olihně na oceánském dně nebyla poprvé nafotografována do roku 2004.\n"
+      }
+    },
+    {
+      "key": "animal.flying_fish",
+      "image": "animal.flying_fish.png",
+      "label": {
+        "cs": "letoun"
+      },
+      "summary": {
+        "cs": "Tropická ryba klouzající nad hladinou oceánu pomocí prsních ploutví."
+      },
+      "info": {
+        "cs": "Letoun (Exocoetidae) je tropická ryba schopná skákat z vody a klouzat vzduchem.\nRozepnuté prsní ploutve fungují jako křídla; ryba může letět až 200 metrů a dosáhnout výšky 1,2 m.\nTakto uniká predátorům (tuňákům, marlinům, delfínům).\nBarbados se nazývá \"Zemí létajících ryb\"; letouni jsou součástí národní kuchyně i kultury.\n"
+      }
     }
   ]
 }

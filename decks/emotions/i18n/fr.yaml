@@ -2,22 +2,174 @@ lang: fr
 pivot: false
 title: Émotions
 cards:
+  emotion.amazed:
+    label: admiration
+    summary: Fort sentiment positif surpris lors du contact avec quelque chose d’exceptionnel.
+    info: L'émerveillement est une émotion intense provoquée par un contact avec quelque chose de grand ou impressionnant. Il réduit la perception personnelle d'importance et augmente l'impression d'être connecté à son environnement.
+  emotion.amused:
+    label: amusement
+    summary: Un léger sentiment agréable de divertissement.
+    info: 'L''amusement est une émotion positive modérée provoquée par quelque chose d''amusant ou intéressant. Il diffère du rire ; un rire résulte de l’amusement mais chaque amusement ne génère pas nécessairement des risées. C’est aussi une émotion partagable socialement : les choses nous semblent plus amusantes lorsqu’on les partage avec autrui.'
   emotion.angry:
     label: furieux
     summary: Éprouver un fort mécontentement ou de la colère, être enragé.
     info: 'La colère est une émotion réactionnelle face à une injustice perçue ou une menace. Elle accélère le rythme cardiaque et prépare le corps pour la réponse « combattre ou fuir ». '
+  emotion.annoyed:
+    label: Irritation
+    summary: Un sentiment d'inconfort léger provoqué par des stimuli irritants.
+    info: L'irritabilité est une émotion négative modérée causée par un stimulus perturbateur récurrente. Elle précède souvent de la colère plus intense et peut être due à manque de sommeil, faim ou surcharge mentale.
+  emotion.anxious:
+    label: anxiété
+    summary: Sentiment désagréable d'inquiétude face à des incertitudes sur l'avenir.
+    info: 'L''anxiété est une émotion qui anticipe un danger ; l’anxiété modérée est adaptive et améliore la performance. Elle se manifeste physiquement : palpitations cardiaques, transpiration, respiration courte, muscles tendus. Le trouble anxieux est la maladie mentale la plus fréquente au monde ; il touche plus de trois cents millions de personnes.'
+  emotion.bored:
+    label: Ennui
+    summary: Sentiment d'inintérêt et vide sans stimulus pour s'engager.
+    info: L'ennui est un état émotionnel négatif causé par l’absence d’estimations ou d’une activité significative. Il peut conduire à la recherche d'éxperiences nouvelles ou au raisonnement créateur et motive évolutionnairement à chercher des opportunités. Des recherches montrent que l'ennui persistant augmente les risques dépressifs.
   emotion.calm:
     label: calme
     summary: Respirer la sérénité intérieure et l'équilibre.
     info: Le calme est un état d’équilibre mental et physique qui ralentit le rythme cardiaque, profonde la respiration et permet une pensée claire ainsi qu’une bonne prise de décision.
+  emotion.cheerful:
+    label: joie
+    summary: État agréable marqué par une bonne humeur et du optimisme.
+    info: La joie est un état émotionnel positif caractérisé par une vive passion et de bonne humeur. Elle se lie à la personnalité extraversionnelle ainsi qu'à l'existence d'un fort affectivité positive. C'est contagieux ; la présence des personnes joyeuses améliore l'humeur environnante.
+  emotion.confident:
+    label: confiance
+    summary: Croyance en vos propres capacités.
+    info: La confiance en soi est un état émotionnel de foi dans ses propres compétences et jugement. Une attitude droite, un contact visuel direct et une voix calme sont des manifestations de la confiance en soi.
+  emotion.confused:
+    label: confusion
+    summary: Sentir de l'incertitude face à une situation ou information incomprise.
+    info: La confusion survient lorsque nous manquons de contexte ou de connaissances pour comprendre une situation. C'est une composante naturelle de l'apprentissage ; la désinformation cognitive pousse à chercher des réponses. Elle peut être visible sur les traits du visage par un mouvement d'inclinaison de tête et un froncement sourcilaire.
+  emotion.content:
+    label: Satisfaction
+    summary: Un profond et paisible bien-être sans désir supplémentaire.
+    info: La sérénité est un état émotionnel positif calme sans besoin de changement. Elle diffère du bonheur ; la tranquillité apaisée oppose à l'excitation dynamique liée au bonheur. Le bouddhisme considère cette paix intérieure comme une vertu fondamentale sur le chemin vers l'éveil spirituel. Des recherches en psychologie positive montrent que ce sentiment d’équilibre interne résiste mieux aux fluctuations qu’une euphorie passagère.
+  emotion.curious:
+    label: curiosité
+    summary: Envie naturelle d'apprendre ou comprendre quelque chose.
+    info: La curiosité est un état motivationnel qui initie la recherche d'informations et de nouvelles expériences. Elle est liée au système récompensant impliquant la dopamine ; littéralement, elle procure du plaisir.
+  emotion.delighted:
+    label: joie enthousiaste
+    summary: Une grande joie causée par un événement agréable ou une surprise.
+    info: 'La joie enthousiaste est une émotion positive intense provoquée par des événements agréables ou des surprises. Elle est plus forte que la simple joie et s''exprime de manière dynamique : en sautillant, hurlant ou riant à haute voix. Fonction évolutive : elle renforce les comportements qui mènent aux résultats souhaités.'
+  emotion.determined:
+    label: détermination
+    summary: Un fort désir pour atteindre son but malgré les obstacles.
+    info: La détermination est un état émotionnel motivant caractérisé par une concentration d'objectif et de la persévérance. Elle se manifeste souvent sous forme de mâchoires serrées, du corps tendu ou encore via un regard intense.
+  emotion.disappointed:
+    label: déception
+    summary: Sentiment pénible ressenti quand la réalité ne répond pas à nos attentes.
+    info: Le déception survient lorsque les résultats ne correspondent pas aux attentes ou désirs. Elle est plus forte lorsqu'il y a une grande implication émotionnelle ou un effort important. Des recherches montrent que nos attentes jouent un rôle clé ; des attentes modérées entraînement moins de déceptions.
+  emotion.disgusted:
+    label: dégoût
+    summary: Fort sentiment d'aversion ressenti lorsqu'on entre en contact avec quelque chose d'inconvenant.
+    info: Le dégoût est une émotion fondamentale qui nous protège contre les choses nuisibles comme la nourriture toxique ou certaines maladies. Son fonctionnement évolutif consiste à dissuader de consommer des aliments pourris. Il se manifeste par un froncement du nez, l'extension de la langue et un expression distinctive.
+  emotion.embarrassed:
+    label: Honte
+    summary: Un sentiment désagréable de gêne dans une situation sociale.
+    info: 'La honte est une émotion sociale qui apparaît lorsque nous croyons avoir enfreint des règles sociales. Elle s''exprime par un rougissement, l''évitement du regard et la posture affaissée. Elle remplit également une fonction sociale : elle signale aux autres notre conscience de ces normes ainsi que notre volonté de les respecter.'
   emotion.excited:
     label: enthousiaste
     summary: Éprouver une forte excitation et un joyeux sentiment d'attente.
     info: L’enthousiasme est une émotion positive intense liée à l’anticipation d’un événement agréable. Il augmente l’énergie, accélère le cœur et favorise la pensée créative.
+  emotion.frustrated:
+    label: frustation
+    summary: Sentiment irritant ressentu lorsqu'un obstacle empêche atteindre un objectif.
+    info: La frustration est une émotion qui apparaît lorsque nos buts sont entravés par des obstacles. Elle peut mener à l'action constructive (recherche d'une alternative) ou destructive (hostilitié). La théorie de la frustration-hostilitié fut une importante théorie psychologique dans les années 1920.
+  emotion.grateful:
+    label: gratitude
+    summary: Un doux sentiment d’appréciation pour ce qu’on possède ou reçoit.
+    info: La gratitude est une émotion positive qui apparaît lorsque nous prenons conscience du bien dans notre vie. Des recherches en psychologie positive montrent que l'expression régulière de la reconnaissance augmente le sentiment de satisfaction et active les centres des récompenses cérébraux d'une manière similaire à un plaisir physique.
+  emotion.guilty:
+    label: remord
+    summary: Sentiment douloureux ressenti lorsqu’on transgresse ses propres principes moraux.
+    info: 'Le remords est une émotion qui apparaît après avoir commis un acte que l''on juge mauvais. Il diffère de la honte : les regrets concernent spécifiquement un comportement alors que la honte porte sur toute la personne. Le sentiment de culpabilité joue aussi un rôle social en incitant à s''excuser et réparer ses erreurs ainsi qu''à renforcer son comportement moral.'
   emotion.happy:
     label: heureux
     summary: Ressentir de la joie ou du plaisir, être dans une bonne humeur.
     info: Le bonheur est une émotion agréable liée à la libération de dopamine et de sérotonine. Il se manifeste par un sourire, des gestes expressifs et une posture corporelle ouverte.
+  emotion.hopeful:
+    label: espoir
+    summary: Sentiment optimiste selon lequel l’avenir sera bon.
+    info: L'espoir est une émotion combinant un désir d'un futur meilleur et la croyance en sa réalisabilité. C'est un facteur clé de résilience dans les situations difficiles ; des recherches montrent que les patients ayant plus d'espérance guérissent plus rapidement.
+  emotion.hopeless:
+    label: Désespérance
+    summary: C'est l'idée qu'aucun bien ne peut venir du futur.
+    info: L'espoir perdu est un état émotionnel négatif caractérisé par la conviction que les choses ne peuvent pas s'améliorer.
+  emotion.inspired:
+    label: Inspiration
+    summary: Excitement créatif qui motive à agir.
+    info: L'inspiration est un état émotionnel caractérisé par une motivation subite et un excitation créative. Elle se manifeste souvent lors de l'épiphanie ou en rencontrant œuvre exceptionnelle ou personne remarquable.
+  emotion.irritated:
+    label: Irritabilité marquée
+    summary: État caractérisé par une hypersensibilité face à des déclencheurs mineurs ; seuil proche de colère.
+    info: L'irritabilité est un état d'une réactivité émotionnelle accrue où même de petits stimuli provoquent une forte réponse négative. Elle peut indiquer l'épuisement, le manque de sommeil ou du stress accumulé. Les femmes en adolescence, pendant la grossesse ou à la ménopause peuvent ressentir une irritabilité liée aux hormones.
+  emotion.jealous:
+    label: jalousie
+    summary: Émotions négatives issues du comparatif avec autrui.
+    info: 'La jalousie est une émotion qui naît lorsque nous percevons que quelqu''un d''autre possède quelque chose dont nous aurions souhaité disposer. Elle diffère de la jalouse : alors que la première concerne les avantages des autres, celle-ci implique un sentiment lié à l''insécurité dans ses relations personnelles ou amoureuses.'
+  emotion.joyful:
+    label: joie
+    summary: Un grand bonheur intense et expansif ; émotion positivement abondante.
+    info: 'La joie est une émotion positive intense débordante de bonheur. Elle est liée à la motivation intrinsèque et au état d''absorption ou ''flow'' selon Csikszentmihalyi. Fonction évolutionnaire : elle renforce les liens sociaux ainsi que l’envie agir bénéfiquement ; c’est un sentiment apprécié collectivement qui constitue en psychologie positive un indicateur clé du bien-être.'
+  emotion.lonely:
+    label: solitude
+    summary: Sentiment pénible lié au manque de contact avec les autres.
+    info: La solitude est un sentiment subjectif d'isolement indépendant du nombre réel de personnes autour de soi. Elle prédit fortement des problèmes de santé ; la solitude chronique raccourcit l’espérance de vie. Le cerveau répond à une douleur sociale exactement comme il le fait pour une souffrance physique.
+  emotion.loving:
+    label: amour
+    summary: Un sentiment intense d’affection et d’attachement envers une autre personne.
+    info: 'L''amour est une émotion complexe qui combine l''affection, la sollicitude, la confiance et l''intimité. D''un point de vue neurochimique, il est lié à l''ocytocine, au dopamine et au sérotonine. Helen Fisher distingue trois systèmes : le désir sexuel, l’amour romanesque et un attachement plus profond.'
+  emotion.melancholy:
+    label: mélancolie
+    summary: Un silence triste mêlé d’introspection et de beauté.
+    info: La mélancolie est une émotion réfléchie qui combine tristesse, méditation et un certain charme. Elle provient du mot grec pour la bile noire ; les anciens médecins l'attribuaient à un excès de cette substance. Contrairement à la dépression, elle comporte un élément esthétique que l'on célèbre souvent dans l’art, la musique ou la littérature.
+  emotion.miserable:
+    label: Souffrance
+    summary: États extrêmes de mal-être ; le stade ultime de la tristesse.
+    info: La souffrance est un état émotionnel négatif intense caractérisé par une profonde aversion et des douleurs morales ou physiques. Elle peut résulter d'une blessure physique, psychologique ou du chagrin provoqué par la perte. La souffrance chronique constitue souvent un symptôme dépressif.
+  emotion.nervous:
+    label: anxiétude
+    summary: Une petite crainte avant quelque chose qui arrive.
+    info: 'L''anxiété est un état léger de tension généralement lié à l''anticipation d''un événement important. Sur le plan physiologique, elle manifeste par une activité accrue du système nerveux sympathique : palpitations cardiaques et transpiration. Une légère anxiété améliore les performances ; en revanche, si forte qu''elle devient perturbatrice.'
+  emotion.nostalgic:
+    label: nostalgie
+    summary: Sentiment sucré-amère lié au regret pour un temps révolu.
+    info: La nostalgie est une émotion teintée de douceur et d'amertume ; se souvenir du passé peut être agréable mais aussi pénible. Le mot provient des mots grecs 'nostos' qui signifie retour à la maison et 'algos', qui veut dire souffrance ou douleur.
+  emotion.optimistic:
+    label: optimisme
+    summary: Tendance à attendre des bons résultats et voir du bon côté.
+    info: L'optimisme est un style cognitivo-affectif caractérisé par une attente de résultats positifs. Martin Seligman en psychologie positive considère que l’optimisme constitue un facteur clé dans la résilience personnelle ; les optimistes vivent plus longtemps et sont aussi plus sains ainsi qu’un peu plus performants. L’apprentissage d’une vision temporaire, spécifique mais maîtrisable des défis peut développer cet état.
+  emotion.overwhelmed:
+    label: surcharge
+    summary: C'est quand trop d'exigences sont placées devant nous en même temps.
+    info: La surcharge survient lorsque les exigences dépassent nos ressources de gestion. Elle se manifeste par un échec cognitif (incapacité à penser clairement), une crise émotionnelle ou encore la figuration mentale et physique. Un certain niveau de surcharge est gérable ; cependant, l'accumulation constante peut conduire au burnout.
+  emotion.peaceful:
+    label: calme
+    summary: Un profond sentiment intérieur de paix et bien-être.
+    info: Le calme est un état émotionnel positif caractérisé par l'absence de stress et d’agitation. Il constitue une finalité des pratiques méditatives comme la pleine conscience ou les techniques du Zen ; il active ainsi le système nerveux para-sympathique en réduisant notamment la fréquence cardiaque et la pression artérielle.
+  emotion.pessimistic:
+    label: pessimisme
+    summary: Tendance à attendre de mauvais résultat et à porter attention aux aspects négatifs.
+    info: Le pessimisme est un style cognitif et émotionnel caractérisé par l'attente d'éventuelles mauvais résultats.Ne pas être trop optimiste peut aider à mieux gérer les risques en anticipant des situations difficiles.Le pessimisme chronique augmente cependant la probabilité du développement dépressions ou maladies graves.La thérapie comportementale cognitive aide à modifier ce type particulier pensée.
+  emotion.playful:
+    label: jeux
+    summary: Une humeur vive et une envie de s'amuser.
+    info: Le jeu est un état émotionnel caractérisé par la joie du jeu, l'humour et l'expérimentation. Chez les adultes, c'est un bon indicateur de créativité et bien-être mental positif.
+  emotion.proud:
+    label: fierté
+    summary: Sentiment positif lié aux succès personnels ou collectifs.
+    info: |-
+      La fierté est une émotion liée au sentiment de réussite ou à l'appartenance quelque chose de précieux.
+      Une posture droite, la tête haute et un torse bombé sont des expressions universelles de fierté.
+      Elle peut être positive (elle motive le développement personnel), mais aussi néfaste sous forme d'orgueil.
+      Dans sa conception hindoue, elle se nomme 'Ahamkar', et constitue un obstacle spirituel.
+  emotion.relieved:
+    label: soulagement
+    summary: Sentiment agréable de détente suite à la fin d'une situation tendue.
+    info: Le soulagement est une émotion ressentie après la disparition du stress, de l'anxiété ou de la douleur. Il se manifeste par un soupir profond, un relâchement musculaire et une sensation de légèreté.
   emotion.sad:
     label: triste
     summary: Ressentir du chagrin ou de l'insatisfaction, être déprimé.
@@ -26,6 +178,18 @@ cards:
     label: effrayé
     summary: Ressentir de la peur ou de l'horreur face à un danger ou une menace.
     info: La peur est une émotion défensive fondamentale. Elle déclenche la libération d'adrénaline, accélère le cœur et prépare le corps à fuir ou se protéger.
+  emotion.serious:
+    label: gravité
+    summary: Un comportement calme sans humour ; se concentrer sur des choses importantes.
+    info: La gravité est une attitude émotionnelle caractérisée par la concentration et l'absence de légèreté.
+  emotion.shocked:
+    label: choc
+    summary: Étendue subite causée par une information ou un événement non attendu.
+    info: Le choc est une émotion intense provoquée par un information ou événement imprévus et surprenants. Il s'exprime souvent par la figuration immédiate avec les yeux grands ouverts et des pupilles dilatées. Son fonctionnement évoitif consiste à arrêter l’activité pour traiter cette nouvelle information ; cependant, en cas de traumatisme émotif lié au choc, il peut entraîner des conséquences psychologiques durables.
+  emotion.shy:
+    label: pudeur
+    summary: Réticence nerveuse face aux relations sociales.
+    info: La pudeur est une émotion sociale qui manifeste de la nervosité et un repli dans les interactions avec des personnes extérieures à son cercle intime. Elle peut être associée au tempérament extraverti mais ce sont deux concepts distinctes. Une certaine réserve naturelle est toutefois courante ; en revanche, sa forme sévère – l’aphasophobie ou phobie sociale – perturbant gravement la vie quotidienne.
   emotion.surprised:
     label: étonné
     summary: Ressentir une soudaine stupéfaction face à un événement inattendu.
@@ -34,3 +198,11 @@ cards:
     label: fatigué
     summary: Ressentir une fatigue physique ou mentale et avoir besoin de repos.
     info: La fatigue est un signal envoyé par le corps pour indiquer qu'il a besoin de repos. Elle se manifeste par une somnolence accrue, une ralentissement des réactions et une diminution de la capacité à se concentrer.
+  emotion.upset:
+    label: Agitation
+    summary: Un malaise émotif causé par un évènement défavorable.
+    info: L'agitation émotionnelle est un état négatif général combinant tristesse, colère et anxiété. C'est une réaction face à des événements désagréables, du déception ou aux conflits. Sur le plan physiologique, elle active l’axe de stress (HPO), augmentant ainsi les niveaux de cortisol.
+  emotion.worried:
+    label: inquiétude
+    summary: Pensées répétitives centrées autour du risque futur.
+    info: L'inquiétude est un état émotionnel cognitif axé sur l'anticipation de menaces possibles. Une légère anxiété peut être adaptive et motiver la préparation face à des situations potentiellement difficiles. En revanche, une crainte chronique ou trouble anxieux perturbe les activités quotidiennes normales ; cependant, la pleine conscience ainsi que d'autres techniques visent efficacement à interrompre cette boucle.

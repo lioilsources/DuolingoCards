@@ -2,14 +2,115 @@ lang: tr
 pivot: false
 title: Ev Hayvanları
 cards:
+  pet.angelfish:
+    label: Scalar
+    summary: Uzun ve dalgalandırıcı yüzgecleri olan zarife bir disktüründen tropikal balığa denk gelmektedir.
+    info: Amazon havzasından gelen Skalardan bahsederken bu balık uzun ve dalgalı yüzen yüzgeçlerine sahip üçgen şeklindeki zarif yapısıyla en çok sevilendir. Sıcak suya ihtiyaç duyarlar; ideal sıcaklık aralığı 24 ile 28 santigrat derecedir. Avcıdır ve küçük balıkları yiyebilir.
+  pet.axolotl:
+    label: aksaliyot
+    summary: Dış solungaçlarıyla ömrü boyunca sürekli olarak sudan beslenen bir Meksiko salamlıdır.
+    info: Aksoliyotl Meksikalı suşağıdır ve yaşam boyu yavruların benzerini korur (neothen). Belirgin dış solungaçları vardır ve genellikle neşe verici bir ifadeye sahiptir.
+  pet.ball_python:
+    label: Taç Yılığı
+    summary: Sakin ve dairesel hareket eden bu yılan başlangıç için idealdir.
+    info: Büyük Taç Yılanı Batı ve Orta Afrika'da çayırlarla kaplı ovalerde yaşıyorlar. Tehdit altında iken sert bir top haline sarılıyorlar (bundan dolayı da bilye yılanları olarak biliniyor). Uzunlukları genellikle 120 ile 150 santimetre arasında olur; ömürleri ise otuz yılı aşabilirler.
+  pet.bearded_dragon:
+    label: Voye Ejderhası
+    summary: Isıl ortamda yaşamasını seven ABD'den gelen Voye Ejderhası.
+    info: Orta büyüklükte bir ejderhaya sahip olan Vousatý Drac, sakin yapısı sayesinde en popüler sürüngenlerden biri olarak ev hayvanı haline gelmiştir. Emosyonel ya da baskın davranışlar gösterirken kudur ve buharlaşır. Alt sınıftan gelen komutları kolayca anlayabilmelerini sağlayan el hareketleriyle iletişim kurarlar.
+  pet.betta_fish:
+    label: betta
+    summary: Güneydoğu Asya'da bulunan renkli, uzun fıtıkları olan bir türdür.
+    info: Siam savaş balığı olarak da bilinen betta, özel bir organla hava soluyan ve Tayland'taki derin olmayan pirinc tarlalarında yaşayan labirent balığıdır. Erkek bireyler arası agressif davranışlardan dolayı bu isim verilmiştir.
+  pet.blue_tongue_skink:
+    label: modrosözlü yılan faresi
+    summary: Avustralyalı bir sürüngen olan modrosözlü yılan faresinin belirgin özelliği uyarı amaçlı olarak kullanılan açık mavi rengindeki dilidir.
+    info: Modrojılgın yılan faresi Avustralya'lı bir yılan farelidir ve karakteristik mavimsi dilli yapısıyla tanınırlar. Dillerini avcıları uzak tutmak için öne çıkarırlar çünkü bu renk onların sinirden kaçmasına neden olur.
+  pet.budgerigar:
+    label: melopsittakus
+    summary: En popüler cinsiyetsiz kuş türü olan küçük Avustralya papağanı.
+    info: Vaveylan melopisitte dünya üzerinde en yaygın evcil hayvan kuşudur. Yabanıl vavaylanlar yeşil-sarı renklidir ve bu renkteki varyasyonlara (mavi, beyaz, gri), yetiştirme yoluyla ulaşılır. Erkekler insan sesini taklit edebiliyor ve yüz kadar kelime öğrenebilir.
+  pet.canary:
+    label: kuğular
+    summary: Özel ses tonu ve parlak sarı rengi için yetiştirilen küçük bir şarkı söyleyen kuş.
+    info: Cancun kuşları Kanaarya adalarından gelir ve İspanyol istilacılar tarafından on dördüncü yüzyılda evcilleştirildi.
   pet.cat:
     label: kuşak
     summary: Yumuşak ayaklı bağımsız bir ev hayvanı.
     info: Ev kuşağı, kedgiler familyasından ve genellikle sevimli bir yavru olarak beslenir. Hareketliliği, temizliği ve bağımsız karakteriyle tanınır.
+  pet.chameleon:
+    label: Camille
+    summary: Başka amaçla renk değiştirip gözleriyle dönen sürüngen
+    info: Kamelopard bir yılan faresi olup derisinin rengini kroamatforlar aracılığıyla değiştirebilir ve bu değişikliği duygu iletmek için kullanır öncellikli olarak saklanmak değil. Her göz bağımsız hareket edebilir ve neredeyse 360 derecelik görüş açısı sağlayabilir.
+  pet.chinchilla:
+    label: çinko
+    summary: En yoğun tüyleri ile bilinen Güney Amerika'da bulunan bir tür çamurdan oluşan hayvan.
+    info: Çincillalar, tıknazlar arasında en yoğun tüylere sahip olan ve her bir folyükülden 60 ila 80 adet tüy çıkabilen And dağlarında yaşayan memelilerdir. Sıcaklık olarak maksimumda 25°C'yi taşıyor olmaya mecbur edilir çünkü aşırı sıcakta ölebilirler.
+  pet.clownfish:
+    label: gözüklük
+    summary: Deniz anaçılarıyla birlikte yaşayan küçük turuncu renkteki gözüğlülerden oluşan balık türüdür.
+    info: Gözüklük balığı deniz anaçlarının simbiotik ortaklığıyla yaşar ve bu canlıları temizlerken kendisini avlardan korurlarıdır.
+  pet.cockatiel:
+    label: karıncık
+    summary: Avusturalyanın küçük bir ötücü kuşudur
+    info: |-
+      Karıncık kuşu Avustralya'dan gelir burada bozkır ve ormanlarda yaşarlar
+      Erkekleri harika taklit edicilerdir müzikler şarkıları hatta insan sözlerini öğrenilebilir
+      Sosyal bir hayvandırlar evlatlık olarak sahiplenildiğinde çok kolayca bağ kurabilirler
+      Yaşıyor 15 ila 20 yıl arasında dünyadaki en popüler üçüncü yaban faresidir
+  pet.corn_snake:
+    label: cornsnake
+    summary: Barışçık kırmızı-turuncuyu renkli başlangıcı için uygundurlar
+    info: |-
+      Bülbül yılanı Güneydoğu ABD'den gelir ve tarlalarda ve ormanlık alanlarda yaşarlar
+      Zehirsizdirler ve sakin yapılıdır;
+      bazen ısırmalarına rağmen dirençlidirlers
+      Adlarını muhtemelen mısırın olduğu arazilerden ya da karidesi kalça deseni nedeniyle verilmiş olabilir
+      Yüksek bir metre uzunluğuna ulaşabilme potansiyeline sahiptirler ve hapsedilmeler durumunda en fazla otuz yıl yaşamaya devam edebilirler
+  pet.crayfish:
+    label: aquarium yengesi
+    summary: Renkli küçük tatlısu yengecini akvaryumlarda tutarlar.
+    info: Akvaryum yengeçleri aktif davranışları ve canlı renklerinden dolayı tatlı su akvaryumu için popüler bir tercihtir.
+  pet.crested_gecko:
+    label: ceylan gökkuşağı geçidi
+    summary: Belirgin bir kıl benzeri çene yapısına sahip olan ve büyük gözleriyle öne çıkan geğe.
+    info: Ceylan Gökkuşağı Geçidi Nouvelle Caledonia'dan gelir ve yok olduğu sanılıyordu ki bu durumun sona ermesine kadar 1994 yılına kadar sürdürdü. Zıplamayı başarabilir ve geceler boyu aktiftir.
+  pet.degu:
+    label: degü
+    summary: Sosyal davranışları olan Chilli kökenli küçük bir kemireg.
+    info: Digu bir Chilli'li küçük kemirgen ve sincap ile ilişkilidir. Gündüz aktif olup çok sosyaldir ve yalnız kalma konusunda sorun yaşarlar. Diyabete yatkındırlar bu yüzden evcilikte tatlı meyvelerden uzak tutulmalıdır. Ayrıca Alzheimera karşı araştırmalar için önemli deney hayvanıdır.
+  pet.discus_fish:
+    label: diskus
+    summary: Tropikal akvaryumlarda 'krallık' olarak bilinen gösterişli diski şeklinde balıklardır.
+    info: Discus balığı (Simphysodön), Amazon havzasında yaşayan büyük ve renklere dair etkinliği olan yuvarlak bir su canlısıdır. Akvaryumculukta en yüksek bakım gereksinimine sahip kabul edilen bu tür için suda kimyası hassas olmalı ve sıcaklık genellikle 28 ile 32 santigrat derece arasında tutulmalıdır.
   pet.dog:
     label: köpek
     summary: İnsanın en iyi dostu olan sadık bir ev hayvanı.
     info: Köpek, insanın en eski evcilleştirilmiş hayvanıdır ve bu nedenle 'insanın en iyi dostu' olarak bilinir. Yüzden fazla ırkı vardır.
+  pet.dove_pet:
+    label: evcil güve
+    summary: Mavi yaban güvesinden türeyen saf siyah bir güvedir.
+    info: Siyah göbek kuşu olarak bilinen beyaz güvercinin evcilleştirilmiş türüdür ve tamamen beyazeski renge sahip olacak şekilde ıslahlıdır. Huzurludur ve dostundır; kakmacılardan farklı olarak ısırmaz veya ağlamazlar. Evlenmelerde, cenaze törenlerinde ve kutlama etkinliklerinde dünyanın her yerinde kullanılır.
+  pet.electric_eel:
+    label: elektirikli akar
+    summary: Güney Amerikalı bu su canlısı, avını etkisizleştirmek ya da kendini korumak için en fazla 850 Voltluk elektriğe sahiptir.
+    info: Elektrik balığı Asya ve Afrika'daki gerçek deniz üşüleriyle değil, Güney Amerika'nın Orinoke ve Amazonsuyolları havzalarındaki birer yakın akrabasıdır.
+  pet.ferret:
+    label: püşkürge
+    summary: Oynak, evcilleştirilmiştir, ilgili olduğu memeli bir laşıktır.
+    info: |-
+      Püskürge evlatiğinin avlanmak için bin beş yüz yıldan fazla önce evcilleştirilmiş formudur ve meraklıdır ayrıca oyun içindedir;
+      typical olarak günde on dört ila sekiz saat uyumakta ve gerisini ise enerjik bir şekilde geçiriyorlar.
+      Pıtır mavilerden kaynaklı karakteristik bir kokuya sahiptirler.
+      Çek Cumhuriyetinde nadiren görülen ama sevilmiş bir ev hayvanıdır.
+  pet.frilled_lizard:
+    label: kral agaması
+    summary: Tehdit edildiği zaman dramatik şekilde genişlettiği boyun kıvrımını savunma amaçlı kullanabilen bir avusturalyalı jilezbedir.
+    info: Kral Agamayı Avustralya'da bulunan bir yılan türüdür ve tehdit altında kalındığında boynunu çevreleyen büyük bir kolyeri açar, sısıltılı ses çıkarır ve arka bacakları üzerinde durur.
+  pet.gerbil:
+    label: Çöl Fareleri
+    summary: Uzun tüylü bir kuyruklu küçük bir çöle özgü kemirgen.
+    info: Mongol çölü faresi Çin'in kurak bozkırlarından gelir.
   pet.goldfish:
     label: altın balığı
     summary: Altın rengi bir akvaryum balığıdır.
@@ -22,14 +123,98 @@ cards:
     label: Hamster
     summary: Yürekli bir suratları olan sevimli küçük bir çenektir.
     info: Altıncılar genelde evcil hayvan olarak beslenirler. Yemekleri saklamak için yüzlerine toplayabilir ve özellikle gece aktif olurlar; ayrıca tekerlek üzerinde koşmayı severler.
+  pet.hedgehog:
+    label: afrikalı çakal
+    summary: Tehdit edildiği zaman top şeklinde bükülerek kendini koruyan küçük tırnaklı böcek yiyicidir.
+    info: Afrikalı cüce yarasalar dünyada yaygın olarak beslenen popüler bir evcil hayvanıdır. Omurgasında 5000 ila 7000 arasında boş keratin tüyleri vardır ve tehdit altında iken geçirimsiz bir küreye dönüşürler.
+  pet.hermit_crab:
+    label: yaban rak
+    summary: Borçlanılmış kabuktaki küçük ekşili kurbağa türüdür.
+    info: Yaban rakı deniz kabukları gibi bir şey kullanarak sert karapınarını olmayan yumuşacık arka kısmına sahiptir. Büyürken daha büyük bir kabuğu bulur. Kurutulmuş yaban raklarının evcil hayvan olarak beslenmesi yaygındır çünkü sosyaldirler ve gruplar halinde yaşarlardır.
+  pet.iguana:
+    label: jiraf
+    summary: Tropikal Amerikanın büyük yeşil yılanlarıdır.
+    info: Yeşil jiraf bir Güney Amerika yılanı olup iki metre uzunluğuna kadar ulaşır. Bitkisel besleyici ve sığındayken çeşitli sebzeler ile UVB aydınlatmaya ihtiyaç duyar. Başının tepesinde ışığa hassas üçüncü göz olan pariyetal göze sahiptir. Sığında on beşi aşkın yaşlanabilir ama ortamdan ve bakımından çok isteyen hayvanlardır.
+  pet.koi:
+    label: Çin Balığı
+    summary: Güzel renklere sahip bu balık bahçıvanlık amaçlı havuzlarda beslenmektedir.
+    info: Kapri Koyi Çin balığı türünün dekoratif bir çeşididir ve Japonya'da 17'nci yüzyıldan beri yetiştirilmekteydi.
+  pet.leopard_gecko:
+    label: jeyi
+    summary: .
+    info: Leopard jiyası Pakistan ve Afganistan'ın çöl bölgelerinden gelir. Çoğu jiya gibi parmaklarında emici olmayıp camda tırmanamazlar. Jialar arasında dikkati çekmektedir çünkü gözlerini kapatabilme yeteneğine sahiptirler.
+  pet.lovebird:
+    label: agapornis
+    summary: Renkli boynuz kakaposunun cinsidir.
+    info: Agapornis (boynuz kakaposu), Afrika'dan gelen ve güçlü çift bağlarıyla tanınır küçük bir kuştur.
+  pet.mandarin_fish:
+    label: mandarin balığı
+    summary: Psikedeli deseni ile dünyada en çok renklidir.
+    info: İndo-Pacific'taki mercan kayalıkları habitatında yaşayan Mandarın Balığı, hayvanlar alebinde en dikkati çeken renklerden birine sahiptir ve pullara ihtiyaç duymaz çünkü rengini pigmentsel hücreleriyle oluşturur ayrıca floresans bileşiklere de sahip olabilir.
+  pet.mini_pig:
+    label: Tea Cup Domestik Sığırcık
+    summary: Evliyin dostu olan küçük bir yabanıl sığırların soylamasıdır.
+    info: Mini mini domestic pigs olarak bilinen minyatür sığır türüdürler ve genellikle evcil hayvanlar olarak yetiştirilirler.
+  pet.moon_jellyfish:
+    label: ay jelişkisi
+    summary: Özel havuzlardan tutulan şeffaf biyolüminesanslı ayırt edici gelinlik.
+    info: Ay jelişiği en yaygın jelinye türlerinden biridir ve insanlar için göreceli olarak güvenlidir.
+  pet.mouse:
+    label: fare
+    summary: Küçük boyutlu, evcilleştirilmiş bir memeli olup ya dostluk için veya deneysel çalışmalar içinde kullanılır.
+    info: Siyah ev faresi beslenmiş bir fare türüdür hem deney hayvanı olarak hem de ornamental amaçlarla yetiştirilir.
+  pet.mynah_bird:
+    label: dağ minası
+    summary: Asya'dan gelen harika konuşmacılığa sahip özel bir şapaçtır.
+    info: Dağ mynası, kuşlar arasında en iyi konuşma becerisine sahip olan bir şapağıdır ve insan sesini oldukça doğru şekilde taklit edebilir; bu da onun tonlarını, telaffuzunu ve infleksiyonunu kopyalayabilmesidir.
+  pet.oscar_fish:
+    label: oscar
+    summary: Büyük boyutunda, zeki bir çilcidır.
+    info: Amazon'dan gelen Oskar balığı büyük ve zeki bir çiçildir. Sahip tanıyabilme yeteneğine sahiptir.
   pet.parrot:
     label: Papağan
     summary: Renkli ve insan sesini taklit edebilen bir kuş.
     info: Vlnkovan Andulka en yaygın evcilikte tutulan papağan türüdür. Zeki, sosyal ve sese taklidin yanı sıra kelimeleri de öğrenebilir.
+  pet.prairie_dog:
+    label: birleşmiş plaseanter psöunu
+    summary: Sohbet eden, sığınma yuvası olan burular açarak Kuzey Amerikan çayırında yaşamaya devam etmeye çalışan bir kemiri.
+    info: |-
+      Birleşmiş Plaseanter Psöunları Kuzey Amerika'da geniş yeraltı topluluklarında yaşayan sosyal bir kemiricidir.
+      Bu hayvanlar karmaşık ses sistemleriyle iletişim kurar ve bilim adamları bu dili insanlardan sonra en kompleks canlının dilini tanımlamaktadır.
+      Predisyon türlerine karşı çıkartılan havlayan uyarılarından dolayı 'dog' ismini aldılar.
+      Koloniler onların için ana ekoloji olup diğer birçok canlıya ev sahiplenmektedir.
+  pet.quail_pet:
+    label: kuşburnu
+    summary: Kolay bakımı olan küçük bir iç mekan dostudur.
+    info: Yapısal olarak Japon kuşburnu küçük bir ötücüdür ve yumurtalar ya da evcil hayvanlar için yetiştirilirlerdir.
   pet.rabbit:
     label: tavşan
     summary: Uzun kulaklı tüylü bir evcil hayvanı.
     info: Evcil tavşan, yumuşak tüyler ve karakteristik uzun kulaklarla tanınır. Evcil hayvan olarak popülerdir ve ot, sebze ve taze çayır ile beslenir.
+  pet.rat:
+    label: ev faresi
+    summary: Akıllı evcil hayvan olarak beslenen bu fare oldukça sadık ve şaşırtıcı derecede zeki.
+    info: Evliya fare en akıllı sıçanlardan biridir ve ismine tepki vererek karmaşık görevleri öğrenilebilirler.
+  pet.red_eared_slider:
+    label: elegans
+    summary: Amerika kıtasından gelen, evcil hayvan olarak en çok sahiplenilen tatlısu kabuklu yumuşakçalardır.
+    info: Kırmızılık kulak arkası çizgisi ile benzer türlerden ayırt edilebilen bu kaplumbağa, hem su havuzu hem de güneşlenmek için kurutuculu bir alan gerektirir ve UV lambasına ihtiyaç duyar. Hayat süresi otuz yıldan fazla olabilir.
+  pet.sea_horse_pet:
+    label: denizevi
+    summary: Akvaryumda yaşayan ilginç ve nadide bir deniz canavarı olan denizevi.
+    info: Deniz atılığı deniz hayvanları arasında en çok yetiştirilmesini güç yapanlardan birisidir çünkü canlı beslenme ve sakin ortam gerektiren artemiya ve mısır gibi organizmlarla beslenebilirler.
+  pet.sugar_glider:
+    label: vaçiça uçuşmaca
+    summary: Özellikle vücudun boyuna yayılmış kılif ile ağaçlar arasında uçabilme yeteneğine sahip küçük bir Avusturalyalı kesekuyrukludur.
+    info: Küçük bir Avustralya kesekuyruklu memeli olan Vaçıca uçuşucu öncelikle ön ve arka bacakları arasında gerilen kılıf sayesinde ağacın arasını planşör yapabilir.
+  pet.tarantula:
+    label: örümcek
+    summary: Dünya'nın en büyük örümceğine sahip olan bu türün bacak uzunluğu 30 santimetreyi aşar.
+    info: Kırlangıç örümceği, deneyimsizler için popüler bir yılan balığıdır çünkü huzurlu yapısı nedeniyle tercih edilir.
+  pet.tortoise_pet:
+    label: karada yaşayan kaplan
+    summary: Hayata uzun süre dayanabilen karada yaşayan kaplanlar hayatınızda önemli olabilecek dostlardır.
+    info: Taksonomi olarak Testudo cinsine giren Hermann kaplanı küçük bir Akdeniz kara kabuğudur ve evcil hayvan olarak popülerdir. Hayat boyunca sahibinden yaşayabilir çünkü ömrü genellikle 100 yılı aşar. Kışın üreme döngüsünü durdurmak için dormansiyede kalır.
   pet.turtle:
     label: tavşan
     summary: Yavaş hareket eden ve sert bir kabuku olan hayvan.

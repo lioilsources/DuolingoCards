@@ -2,18 +2,122 @@ lang: en
 pivot: false
 title: Birds
 cards:
+  animal.albatross:
+    label: wandering albatross
+    summary: Seabird with the largest wingspan of all birds.
+    info: The wandering albatross has the greatest wingspan of any bird, reaching over 3.5 meters. It spends most of its life on open oceans and can fly thousands of kilometers without landing. It drinks seawater and excretes salt through nasal glands. In maritime tradition, killing an albatross is considered an omen of bad luck.
+  animal.budgerigar:
+    label: budgerigar
+    summary: Small colorful Australian parrot commonly kept as a pet.
+    info: The budgerigar originates from inland Australia, where it lives in large flocks. It is the most widespread domesticated bird species in the world after canaries. Males can mimic human speech and learn hundreds of words. Wild budgerigars have green-yellow coloring; colored mutations were developed through selective breeding.
+  animal.canary:
+    label: canary
+    summary: A small yellow songbird popular as a pet.
+    info: The domesticated canary comes from the Canary Islands and was tamed in the 17th century. Breeding produced its characteristic yellow color; wild canaries are green-brown. Males sing complex melodies; competitive canary singing is a global phenomenon. Historically, canaries were used in mines to detect carbon monoxide.
+  animal.cassowary:
+    label: cassowary
+    summary: Dangerous flightless bird of New Guinea with sharp claws.
+    info: The cassowary is a large flightless bird found in New Guinea and northern Australia. It is considered the world's most dangerous bird; its long claws on the inner toe can cause serious injury. The high bony helmet likely serves navigation through dense forests. It plays an essential role in spreading seeds in tropical rainforests.
+  animal.cockatoo:
+    label: cockatoo
+    summary: A crested white Australian parrot with an expressive yellow crest.
+    info: The Yellow-crested Cockatoo is one of the most well-known members of the cockatoo family. Its distinctive yellow crest rises when excited or alarmed. It is intelligent and can mimic human speech. In captivity, it may live up to 80 years and is considered a crop pest in Australia.
+  animal.condor:
+    label: condor
+    summary: Largest flying bird in America with a bald head.
+    info: The Andean condor is the largest flying bird in the world by mass and wingspan. It is a vulture that feeds on large mammal carcasses and plays an important role in the ecosystem. It soars on massive thermal updrafts over the Andes without flapping its wings. For indigenous peoples of the Andes, the condor is a sacred symbol of sky and freedom.
+  animal.crane:
+    label: crane
+    summary: Large migratory bird famous for dance rituals and powerful calls.
+    info: The common crane is a large migratory bird that travels thousands of kilometers every year. It has become well-known for its elaborate mating dances where pairs jump and spread their wings dramatically. These birds fly in massive flocks across the Czech Republic during autumn and spring.
+  animal.crow:
+    label: crow
+    summary: An intelligent black bird from the crow family capable of solving problems.
+    info: Crows are birds from the crow family renowned for their exceptional intelligence. They can recognize human faces, use tools, and solve complex tasks. They live in pairs or small groups and are omnivores.
+  animal.cuckoo:
+    label: cuckoo
+    summary: Brood parasite that hides eggs in other birds' nests.
+    info: The common cuckoo is famous for brood parasitism; it lays its eggs in the nests of other birds, where they are incubated and raised by foster parents. The young cuckoo soon ejects any other eggs and nestlings from the host's nest. Its two-syllable 'kuku' call symbolizes the arrival of spring. Males make the characteristic calls, while females produce a croaking sound.
+  animal.dove:
+    label: pigeon
+    summary: A pure white dove with soft feathers that is a gentle symbol of peace.
+    info: The white dove has been an international symbol of peace since ancient times; it brought Noah an olive branch according to the Bible. In Christianity, it represents the Holy Spirit. The domesticated rock dove bred for its white coloration is commonly used today. Releasing white doves remains part of ceremonies and celebrations worldwide.
+  animal.duck:
+    label: wild duck
+    summary: Waterfowl with flat bill; males have green heads.
+    info: The wild duck is the most widespread species of ducks worldwide and an ancestor of most domestic breeds. Males (drakes) have characteristically glossy green heads while females are inconspicuously brown. They are dabbling ducks that feed by skimming food at the surface rather than diving. The duck is an inseparable part of ponds and river systems in Bohemia.
   animal.eagle:
     label: bald eagle
     summary: Large bird of prey with a hooked beak and keen eyesight.
     info: The bald eagle is the national symbol of the USA and one of the largest raptors in North America. It primarily hunts fish, which it catches directly from the water using its sharp talons. It has a wingspan of over two meters and can live up to around 20 years in the wild.
+  animal.emu:
+    label: emu
+    summary: Second largest bird in the world, flightless Australian ratite.
+    info: The emu is the second largest bird in the world and endemic to Australia. It cannot fly but is an excellent swimmer and fast runner. The male sits on eggs and cares for the young while the female leaves.
+  animal.falcon:
+    label: falcon
+    summary: The fastest animal in a dive (over 320 km/h).
+    info: The Peregrine Falcon is the fastest animal on Earth, reaching speeds over 320 km/h during its stoop. It has distinctive dark markings under its eyes that reduce glare from sunlight. Humans have hunted using falcons for more than 2,000 years; falconry is listed by UNESCO. In the Czech Republic, it nests on tall buildings and cliffs.
   animal.flamingo:
     label: flamingo
     summary: Pink wading bird standing on one leg in shallow water.
     info: The pink flamingo gets its characteristic color from carotenoids contained in algae and crustaceans, which it feeds on. Chicks are born greyish-white and only gradually develop their coloration over time. The curved beak functions as a filter – the flamingo filters food from the water by holding its head upside down.
+  animal.goose:
+    label: goose
+    summary: Large waterfowl migrating in a V-formation; nests on land.
+    info: The greater white-fronted goose is the wild ancestor of domestic geese. They migrate in characteristic V-formations where birds take turns leading. They are highly territorial during nesting and fearlessly defend their young. Historically, they guarded the Capitoline Hill in Rome, alerting people to danger with their cries before the Gallic invasion.
+  animal.hawk:
+    label: Hawk
+    summary: Fast predator hunting birds and mammals in forests and fields.
+    info: A hawk is a genus of raptor within the Accipitridae family capable of hunting in dense vegetation due to its short rounded wings and long tail. It is very fast and agile, preying on birds while flying or from ambush. Females are typically significantly larger than males. In falconry, hawks were valued as hunting birds.
+  animal.heron:
+    label: heron
+    summary: Tall wading bird standing still near water waiting for fish.
+    info: The grey heron is the largest wading bird in Central Europe. It stands completely still like a statue, waiting until a fish comes within reach before striking with its beak in an instant. It can swallow whole fish and frogs.
+  animal.hornbill:
+    label: hornbill
+    summary: A tropical bird with an oversized beak and bony casque.
+    info: The hornbill is a member of the family Bucerotidae known for its large beak with a bony extension called a casque. It inhabits tropical forests across Africa and Asia. Instead of nesting in burrows, it nests inside tree hollows; the female allows herself to be sealed by the male within the cavity during breeding season. Its presence indicates a healthy tropical forest.
   animal.hummingbird:
     label: hummingbird
     summary: The smallest bird in the world capable of hovering and flying backwards.
     info: The ruby-throated hummingbird is the only species regularly nesting in eastern North America. It flaps its wings up to 53 times per second, creating a characteristic humming sound. It feeds on nectar and small insects; its heart beats up to 1,200 times per minute.
+  animal.ibis:
+    label: ibis
+    summary: Wading bird with a curved beak, sacred in ancient Egypt.
+    info: The ibis is a wading bird from the family Threskiornithidae characterized by its long, curved bill. The sacred ibis was revered in ancient Egypt as an embodiment of the god Thoth. It lives colonially in wetlands and river deltas. The brown ibis was accidentally introduced to Europe and now aggressively spreads as an invasive species.
+  animal.kingfisher:
+    label: kingfisher
+    summary: Jewel-colored bird that plunges to catch fish near streams.
+    info: The river kingfisher is one of Europe's most beautiful birds with an electric blue back and orange breast. It perches on branches above water watching for fish before diving headfirst. Its presence indicates clean water—where it lives, the water is healthy. In Japan, a similar kingfisher (hisui) symbolizes beauty.
+  animal.kookaburra:
+    label: Laughing kookaburra
+    summary: An Australian kingfisher known for its loud call resembling human laughter.
+    info: The laughing kookaburra is a large Australian kingfisher famous for its vocalizations that mimic human laughter. It is a symbol of the Australian bush, with its calls traditionally marking sunrise and sunset. It hunts lizards, snakes, rodents, and insects.
+  animal.lorikeet:
+    label: lory
+    summary: Small colorful parrot feeding on nectar and pollen.
+    info: The Rainbow Lorikeet is a small parrot from Australasia with the most vibrant coloring among all parrots. It uses its specialized brush-tipped tongue to collect nectar and pollen from tropical flowers, making it an important pollinator of rainforests. They live in flocks and are noisy and playful; they quickly form bonds with humans when kept in captivity.
+  animal.lyrebird:
+    label: lyrebird
+    summary: An Australian bird that mimics any surrounding sound with perfect accuracy.
+    info: 'The superb lyrebird is an Australian bird renowned for its ability to imitate almost any sound from its surroundings: chainsaws, camera shutters, car alarms, or calls of other birds. Males attract females by displaying their elaborate lyre-shaped tail and performing flawless imitations. It is a symbol of the Australian state of Victoria.'
+  animal.macaw:
+    label: macaw
+    summary: Large Neotropical parrot with brightly colored feathers and a strong beak.
+    info: Macaws are large tropical forest parrots found in America that have some of the most striking coloration among all birds. They possess a powerful curved beak capable of cracking hard nut shells. These birds live in pairs that remain together for life. Their populations are threatened by deforestation and illegal trade in exotic animals.
+  animal.magpie:
+    label: raven
+    summary: Black-and-white bird with a long iridescent green tail.
+    info: The common raven is a bird from the crow family with striking black-and-white coloring and a long, greenish-shiny tail. It has a reputation as a thief of shiny objects, but research does not confirm this legend. It is one of the few perching birds that can recognize its reflection in a mirror. In China, it is a symbol of happiness and joy.
+  animal.nightingale:
+    label: nightingale
+    summary: Small brown bird that sings one of the most beautiful bird songs.
+    info: The common nightingale is a small brown bird whose male sings one of the most complex and beautiful bird songs. It primarily sings at night and during twilight, which is where it gets its name. It is a distant relative of the thrush. Poets around the world—from Dante to Keats—have celebrated the nightingale's song as a symbol of romance and melancholy.
+  animal.ostrich:
+    label: ostrich
+    summary: Largest bird in the world, flightless; can run up to 70 km/h.
+    info: The common ostrich is the tallest and heaviest bird on Earth; males reach heights of up to 2.7 meters and weights over 150 kg. It cannot fly but is the fastest bipedal animal in the world, reaching speeds exceeding 70 km/h. Its eggs are the largest among all birds. The first toe on its foot is absent; it has only two toes.
   animal.owl:
     label: owl
     summary: Nocturnal bird of prey with round eyes, silent flight and excellent hearing.
@@ -26,11 +130,75 @@ cards:
     label: peacock
     summary: Male peacock with a magnificent fan-shaped tail full of colorful eyes.
     info: The peacock originates from the Indian subcontinent. The male (peacock) spreads its tail—actually elongated covert feathers—into a fan during courtship displays. The iridescent colors are not caused by pigments, but by the refraction of light on the microstructures of the feathers.
+  animal.pelican:
+    label: pelican
+    summary: Large water bird with an enormous pouched beak for fishing.
+    info: A pelican is a large water bird with a distinctive pouched beak that functions like a net to catch fish. The pouch can hold up to 13 liters of water, which it then squeezes out before swallowing its prey. Pelicans fly in aerodynamic formations and use air waves created by rising thermals. In Christian symbolism, the pelican represents selfless love.
   animal.penguin:
     label: penguin
     summary: Flightless bird from the Southern Hemisphere, excellent swimmer.
     info: The Emperor penguin is the largest of all penguins; it can reach a height of over 1.1 meters. It lives in Antarctica and lays eggs in the harshest cold—males keep the eggs warm on their feet throughout the Antarctic winter. Underwater, it can reach speeds of over 30 km/h.
+  animal.pheasant:
+    label: pheasant
+    summary: Large colorful game bird; males have striking plumage and long tails.
+    info: The common pheasant was introduced to Europe from Asia but is now a natural part of European fauna. The male (cock) has conspicuous coloring with green-brown body feathers and a distinctive red wattle around its eye. It is the most widespread game bird in the Czech Republic and forms the basis of hunting tradition. It nests on the ground in dense vegetation.
+  animal.pigeon:
+    label: pigeon
+    summary: Common gray bird of cities and countryside, originally rock pigeon.
+    info: The rock pigeon is the ancestor of all domesticated and feral pigeons found in cities. It was the first bird to be domesticated by humans and served for thousands of years as messenger birds. Pigeons have an exceptional sense of navigation and can find their way home from hundreds of kilometers away. In cultures around the world, they symbolize peace.
+  animal.puffin:
+    label: Atlantic puffin
+    summary: Small seabird with colorful parrot-like beak.
+    info: The Atlantic puffin is a small auks bird with a brightly patterned beak. It hunts by diving underwater to chase fish and can carry more than ten fish at once in its beak. It nests in colonies on rocky cliffs and in burrows. It is an enduring icon of Iceland and the Faroe Islands.
+  animal.quail:
+    label: quail
+    summary: Small shy grassland bird nesting on the ground.
+    info: The common quail is the smallest representative of the pheasant family in Europe. It is elusive; we hear it more easily (with its 'piti-piti' call) than see it. Unlike other pheasants, it migrates and winters in Africa. Its eggs are considered a delicacy.
+  animal.raven:
+    label: crow
+    summary: Large intelligent black bird with distinctive throaty cawing.
+    info: The common raven is the largest bird in the crow family, measuring over 60 cm long. It is exceptionally intelligent, capable of planning ahead, playing games, and forming social bonds. In mythology, both among Northerners (Odin's ravens Huginn and Muninn) and Celts, it held mystical significance. The Tower of London is said to be protected by a legend that claims the realm will fall if the ravens ever leave the tower.
+  animal.roadrunner:
+    label: ground cuckoo
+    summary: Fast runner of North American deserts; symbol of animated series.
+    info: The greater roadrunner is a bird belonging to the cuckoo family that prefers walking and running over flying. It can reach speeds exceeding 30 km/h and feeds on snakes, lizards, insects, and small mammals. It is capable of catching and killing scorpions.
+  animal.robin:
+    label: redstart
+    summary: Small bird with a red chest, Christmas symbol in Great Britain.
+    info: The common redstart is a small songbird known for its distinct orange-red breast. It fearlessly follows gardeners digging up soil to collect exposed earthworms. It is the national bird of Great Britain and a traditional symbol of Christmas. The species remains on its territory year-round and sings even during winter.
+  animal.seagull:
+    label: gull
+    summary: Coastal bird scavenging for food near people and at sea.
+    info: The Silver gull is one of Europe's most widespread coastal birds. It is adaptable and omnivorous, living not only along coasts but also inland by lakes and rivers. Intelligent and sometimes remembers places where it has been fed by humans. Its aggressive interest in human food is the subject of many stories among seaside tourists.
+  animal.secretary_bird:
+    label: Secretarybird
+    summary: Long-legged African raptor killing snakes with stomps.
+    info: The Secretarybird is a large African bird of prey that walks primarily on open savannas. It kills snakes and rodents using powerful foot stomps weighing three times its body weight. Its name comes from long head feathers resembling the whiskers behind an office clerk's ear. It is a national symbol of South Africa and Sudan.
+  animal.sparrow:
+    label: sparrow
+    summary: Small brown singing bird living near human settlements.
+    info: The house sparrow is one of the most widespread birds in the world and a faithful companion to humans. It stays close to human dwellings, nesting in wall crevices and roofs. In recent decades, its population has significantly declined in cities.
+  animal.spoonbill:
+    label: spoonbill
+    summary: White wading bird with a distinctive spoon-shaped bill.
+    info: The White Spoonbill is related to storks but can be easily distinguished by its flat, spatula-like bill tip. It moves its bill side-to-side while foraging in shallow water. It nests colonially in reed beds and scrublands.
+  animal.stork:
+    label: stork
+    summary: Large white bird with a red beak; said to bring children.
+    info: The White Stork is a migratory bird nesting on roofs and poles throughout Europe. It winters in tropical Africa and returns each year to the same nest, which it enlarges over time. It is a symbol of spring and fertility; in folk tradition, it brings babies. The Czech Republic is one of the most important European countries for stork nesting.
+  animal.swallow:
+    label: swift
+    summary: Fast aerial insectivore with a forked tail.
+    info: The common swift is a migratory bird that winters in sub-Saharan Africa and breeds in Europe. It is a master of flight; it hunts insects exclusively while flying and can drink water from the surface without landing. It nests in barns and under eaves; in folklore, the presence of swallows brings good luck to homes. They symbolize spring, return, and loyalty to home.
+  animal.swan:
+    label: goose
+    summary: Large elegant white water bird, symbol of beauty and romance.
+    info: The mute swan is Europe's largest flying bird with a wingspan exceeding 2.4 meters. It represents beauty, love, and loyalty; pairs remain faithful for life. They instinctively raise their beaks and puff up their feathers to warn off intruders. In Hans Christian Andersen’s fairy tale, the swan symbolizes transformation from an ugly duckling.
   animal.toucan:
     label: toucan
     summary: Tropical bird with an oversized colorful beak.
     info: The toucan lives in the rainforests of Central and South America. Its striking beak is over 20 cm long but very light – it is made up of air chambers. It is used for regulating body temperature, tearing fruit, and as a visual signal for other toucans.
+  animal.woodpecker:
+    label: woodpecker
+    summary: A bird that taps on tree trunks to locate insects or excavate cavities.
+    info: Woodpeckers belong to the family Picidae and have adapted strong beaks and stiff tails for climbing and hammering wood. Their tongues can be up to three times longer than their beak and help extract larvae from drilled holes. They communicate and mark territory by drumming with their bills. The Great Spotted Woodpecker (Dendrocopos major) is Europe's largest species.

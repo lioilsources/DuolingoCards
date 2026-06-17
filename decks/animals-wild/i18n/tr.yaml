@@ -2,22 +2,212 @@ lang: tr
 pivot: false
 title: Yaban Hayvanları
 cards:
+  animal.aardvark:
+    label: hrábac
+    summary: Afrika'da yaşayan geceli bir böcek yiyici hayvan.
+    info: |-
+      Kapsky hrabaşı活着的 Tubulidentata 目中的唯一物种，没有近亲。
+      夜行性的生活方式、强壮的爪子和粘性的舌头是捕食蚂蚁和白蚁的一种适应能力。
+      它废弃的地洞被数十种其他动物使用。
+      非洲名称意为地猪。
+  animal.armadillo:
+    label: kaplumbağa
+    summary: Kostütlü küçük memeli.
+    info: Devitli kaplumbağı kemikten yapılmış bir kabukla örtülüdür ve bu özellikle diğer hayvanlardan ayrılır.
+  animal.baboon:
+    label: guvern
+    summary: Karakteristik burun yapısıyla tanınan sosyal afrikalı primat
+    info: Guvercinler Afrika'nın çayır bölgelerini ve kayalık alanları terkedilmiş büyük memeli hayvanlardır. Sosyal bir yaşam tarzı sürerken hiyerarşili gruplarda yaşarlarken sesleriyle ve jestleri ile iletişim kururları. Erkek guvernin dişiye göre daha büyüktür.Guvenrin her yemeği yerken Mısır'da tapınılan kutsal varlıklar olarak kabul edilir.
+  animal.bear:
+    label: ayı
+    summary: Yoğun tüylü bir etçil yaratığıdır.
+    info: Karamel ayı Avrupa ve Asya'nın en büyük karasallık memeli hayvanıdır; kiloya kadar ulaşabilirler.
+  animal.beaver:
+    label: avrupabobrı
+    summary: Barajları yapıp bataklık ekoloji sistemleri yapan büyük memeli.
+    info: Avrupa bobrı büyük dalga ve çamur kullanarak barajlar yapar; bu da birçok hayvanın yaşadığı göletler oluşturur. Yassı bir pullu kuyruklu, büyük turuncu kesici dişli suya dayanıklı tüylüdür.
+  animal.bison:
+    label: bisyon
+    summary: Karakteristik tüylü bir gerdana sahip büyük bir Avrupa memelisi.
+    info: Amerikan Bison'u Kuzey Amerika'nın en ağır karasal hayvanıdır. 19. yüzyılda tahmini olarak 30 ila 60 milyon olan popülasyondan binin altına düşmüştür ama koruma projeleri sayesinde yaklaşık yarım milyona çıkmıştır.
+  animal.buffalo:
+    label: afrikalı gavi
+    summary: '''Big five''te yer alan büyük afrikalı sığınsı benzeri bir canlıdır.'
+    info: Afrika'nın en tehlikeli memelilerinden biri olan afrikalı gavialar 'The Big Five' olarak bilinen hayatta kalma listesinin parçasıdır. Yüzlerce ila binlere kadar bireyi içeren sürü içinde yaşlar; ortak savunmalarla hattâ kurtarılmış kaplanları bile sürükleyebilir. Sürüden ayrı yaşayan yaşlı erkekleri ise özellikle öngörülemeyen davranışlardaki agressifliğiyle tanınırlar.
+  animal.camel:
+    label: Kamçı
+    summary: Çöldeki hayvanların beslenmesinde önemli rol oynamanın yanında
+    info: Tekeli boynuzlu kamaşırı çöl yaşamına tamamen uyum sağlamıştır ve yastığındaki yağ depolarında su değil yağı saklar ki bu da onun için bir enerji kaynakıdır.
+  animal.capybara:
+    label: kapibira
+    summary: Dünyanın en büyük sırtlanıdır.
+    info: Kapibara dünyadaki en büyük hayvanlardan biri olan Hydrochoerus hydrochaeris türüdür ve yetişkinlerinin kilosu genellikle 35 ile 60 arasında değişir.
+  animal.cheetah:
+    label: Leopard
+    summary: En yüksek hıza sahip olan yarasa değil ama bir memeli olarak en hızlı kara canavarıdır.
+    info: Je leopard en hızlı karasal hayvandır ve üç saniyede sıfırdan saatte 100 kilometreye kadar hızlanabilir.
+  animal.chimpanzee:
+    label: şimpanse
+    summary: İnsana en yakın canlı akraba olan akıllı maymun.
+    info: Ortalama şimpansımızla yaklaşık olarak %98,7 ortak genetik kodumuzu paylaşan bizim en yakın hayvan akrabamızdır. Şimpansiler termite avlamada dal gibi araçları kullanırlar ayrıca işaret dili temelini öğrenilebilirler.
+  animal.coyote:
+    label: çakıl
+    summary: Yaban hayatı ile şehirlere kadar geniş alanları kaplayan adapte olmuş çakallar.
+    info: Çakalın benzeridir ama koyunu yemeyen bir hayvan olarak bilinir.
+  animal.deer:
+    label: geyi̇k
+    summary: Akıllı bir otçul memeli hayvan
+    info: Orman geyiği Avrupa'nın en yaygın büyük geyik türüdür.
   animal.elephant:
     label: Fil
     summary: En büyük karasal memeli, chobiti ve büyük kulakları ile tanınır.
     info: Afrikalı fil, dünyadaki en büyük karasal memelidir. Chobitini nefes almak, içmek, koklama ve yemeği tutmak için kullanır. Fil, yaşlı dişinin önderliğindeki bir sürüde yaşar ve iyi hafızalarıyla tanınır.
+  animal.fennec_fox:
+    label: fener
+    summary: En küçük köpek familyasına mensubu olan bir yaban maymunudur.
+    info: Feneğin kulakları büyük olup ısı散发 ve iyi işitme için kullanılırken böceklerden su alarak hayatta kalır.
+  animal.fox:
+    label: Yılan
+    summary: Zeki küçük soylu köpeğin kıllı kuyruğu vardır.
+    info: Kırmızı yarasa dünyada en yaygın olan soylu köpek türüdür ve harika bir uyum sağlayıcıdır; ormanlarda, bozkırlarda ve şehirlerde yaşayabilir.
+  animal.gazelle:
+    label: geyik
+    summary: Afrika ve Asya çayırları için uzun boylu hızlı bir antilopot.
+    info: |-
+      Thomson'ın Gazeliği Afrika'nın en yaygın geyiklerinden biridir.
+      Saatte 80 kilometreden fazla hıza ulaşabilir ve avcılara sinyal olarak karakteristik sıçramalar yapar.
+      Çok büyük kavaklar içinde yaşayarak leopardların, aslanların ve hiyen köpeklerinin temel av kaynağıdır.
+  animal.giant_anteater:
+    label: forman
+    summary: Uzun buruna sahip yapışkan diline sahip olan dişi olmayan memeli.
+    info: Büyük bir formanın en büyük türüdür ve Orta ve Güney Amerika'da yaşar. Dişleri yoktur; kovuşturmak için güçlü pençlerini kullanır ve yapışkan diliyle böcek toplar. Günde yaklaşık olarak bin yirmibeş adet karıncayı yer.
+  animal.giant_panda:
+    label: 大熊猫
+    summary: Çin'de bulunan tamamıyla bambusa beslenen siyah-beyaz renkteki ayıy
+    info: Büyük panda Çin'in güneybatısının endemic bir hayvanıdır ve dünya genelinde doğanın korunması sembolüdür. Beslenmesinin yaklaşık yüzde 99’unda bambusu yer alır; ancak anatomi olarak et yiyendir. Bambuş gövdelerini tutmak için el bileğinden çıkan ekstra kemikle dördüncü parmağına benzer şekilde altıncı parmasına sahiptir. Yalnızca dünyada yaşayan yaklaşık bin sekiz yüz adet野生大熊猫 vardır.
   animal.giraffe:
     label: Geyik
     summary: Çok uzun boylu ve uzun boylu en uzun karasal hayvan.
     info: Geyik, dünyadaki en uzun karasal hayvandır; erkekler beş metreyi aşan yüksekliğe ulaşabilir. Uzun boynu, beslenmesinin ana kaynaklarından olan akasya yapraklarına ulaşmalarını sağlar.
+  animal.gorilla:
+    label: gorila
+    summary: Yeryüzündeki en büyük primatlar, ekvatöryal Afrika'dan gelen bu hayvanların genetik yapısı bizimkiyle çok benzerdir.
+    info: Gorilalar dişilerle birlikte en büyük memeli primatlardır ve erkeklerin kilosu hatta 450'e kadar çıkabilir.
+  animal.hippopotamus:
+    label: hippopotam
+    summary: Afrika'nın büyük bir yarım su memeli canavarıdır.
+    info: Afrika'dan gelen bu büyük yarı-su canlısı dişili olarak üçüncü sıradadır çünkü fillerden sonra en çok yer kaplayan hayvanlardandır. Güneşli günlerde soğuk sularda dinlenerek kendini aşırı ısıdan korurken geceleyin karaya çıkarak otla beslenir.
+  animal.hyena:
+    label: Hidra
+    summary: Afrikalı hidralar genellikle yaban hayatı ile karıştırılır.
+    info: Leoparın avladığını sandıktayız ama aslında büyük bir kısmı kendisi avlar; bu hayvan Afrika çayırları için tipiktir.
+  animal.jaguar:
+    label: Panthra Onça
+    summary: Amerika'nın en büyük kedigili memeli haydutudur.
+    info: Yak elişi dünyanın üçüncü en büyük kedigilleridir ve birlikte hem Kuzey'den hem de Güney'e kadar tüm Amerikalarda yaşayan tek büyük yılandır. Leoparın tersine, içlerinde küçük noktalara sahiptir. Uzun mesafe yüzmesini bilir; balık tutmayı sever ayrıca kapibarılar gibi hayvanları avlamaktan da zevk alır.
+  animal.kangaroo:
+    label: kanguru
+    summary: Gücün ayaklarda oturan bir avustralyalı memeli.
+    info: Tüylü koyunlar arasında en büyük olan kırmızı kanguru Avustralya'nın en yüksek sıçrayan hayvanıdır ve yaklaşık sekiz ila dokuz metre uzağa atlayabilir.
+  animal.koala:
+    label: köle
+    summary: Eukaflottan beslenen Avusturalyalı yarasada
+    info: Köle bir ayı değil ama yarasa tipi memeli hayvanıdır ve genellikle toksik olan eukaflot yapraklarını tüketir çünkü Avustralya kanunları tarafından korunan özel sindirim sistemine sahiptir.
+  animal.leopard:
+    label: leopard
+    summary: Körelmeyi engelleme amaçlı olarak ağaçta konumlandırılan bir felid.
+    info: Leopar en yaygın büyük kedi türüdür ve nadiren ağaca çıkar; avını köpeklerin ya da aslanların ulaşamayacağı yerlere taşır.
   animal.lion:
     label: Aslan
     summary: Afrika savanlarında yaşayan büyük kedi türü.
     info: Aslan, özellikle Sahara'nın güneyindeki Afrika savanlarında yaşayan büyük kedi türlerindendir. Sürüsüne 'prides' denir; dişiler birlikte avlar, erkeğin dikkat çeken sakalı ise rakipleri korkutmak için kullanılır. Aslan genellikle 'hayvanların kralı' olarak bilinir.
+  animal.lynx:
+    label: Kurt
+    summary: Uçlarında tüyler olan kulaklı orta boy bir yaban kedisi.
+    info: Yaban kedisi olarak bilinen Rüyas Ostrovitza Avrupa'nın en büyük yaban kedisidir.
+  animal.mandrill:
+    label: manzır
+    summary: En renkli primat olan manzırın mavilikirmizi yüzlü görünüşü vardır.
+    info: Manzır, Afrika'nın ekvatöryal yağmur ormanlarında yaşayan en büyük yaşlı dünya maymunudur; erkekler parlak mavi ve kırmızı bir yüz masası ile öne çıkarlar ki bu sosyal statüyü gösterir.
+  animal.meerkat:
+    label: sürikan
+    summary: Kalahari çölü'nde dik durarak hareket eden küçük toplumsal bir memelidir.
+    info: Suriyaka Afrika'nın güneyinde yaşayan bir memeli hayvan türüdür. Sürüler halinde yaşarlar ve sabırlı bir sosyal yapıya sahiptirler; her zaman sürünün üyesinden birisi yüksek yerde dikkatle beklemektedir.
+  animal.moose:
+    label: elk
+    summary: En büyük elkindir.
+    info: Elklerin en büyüğüdür ve erkekleri boyun ucunda iki metre yüksekliğe ulaşır ayrıca geniş yelpaze şeklinde boynuzları vardır. Kafasını suyun altına daldırmak için yeraltındaki bitkilere ulaşmak amacıyla mükemmel bir yüzücü ve dalışçıdır.
+  animal.okapi:
+    label: okapi
+    summary: Kongodaki ormanda yaşayan, bacakları çizgili geyiği andırarak dikkat çeken okapidir.
+    info: Okapi ilk kez bilimsel olarak 1901 yılında tanımlandı ve bu da doğanın en son büyük memeli hayvanlarından biridir. Görünüşüyle zebrayla karışık gibi görünen ama aslında geyik ile genetik açıdan çok yakın olan okapiler yalnızca Kongo Demokratik Cumhuriyetindeki yağmur ormanlarında yaşarlar.
+  animal.orangutan:
+    label: oranjit
+    summary: Borneo ve Sumatrada yaşarlar.
+    info: Oranjin tanrı yalnız yaşayan en büyük maymun türüdür ve yaşamının çoğunu ağacın tepesinde geçirirler.
+  animal.otter:
+    label: Çöle
+    summary: Temiz akarsuların kenarında yaşayıp oynak hareketli yabanıl mamallardır.
+    info: Riviera çölgede yaşayan tamamen suya uyum sağlamış bir memeli hayvanıdır. Yüzmesini kolaylaştıran sert tüylü pelinleri vardır ve nefesi tutabilirler.
+  animal.polar_bear:
+    label: buz ayıs
+    summary: Arktika'da yaşayan en büyük kara yırtıcı hayvanı.
+    info: Buz ayısı kutupsal bölgenin en büyük karasal yırtıcısıdır ve ekosistemin doruk avcıları arasındadır.
+  animal.porcupine:
+    label: dikenfare
+    summary: Sert savunma dişleriyle kaplı büyük bir kemirgedir.
+    info: Kamış faresi binlerce sivri ve boş iğne şeklinde türe dönmüş kıllar ile korunan bir kemirgenedir.
+  animal.raccoon:
+    label: Ayıcık
+    summary: Maskeli, gece aktifliği gösteren bir memelidir.
+    info: Kuzey Amerika'dan gelen Kızıl Ayı, Avrupa'ya sokularak bugün burada yaygınlaşmıştır. Yiyecek yiymeden önce sanki yıkıyor gibi görünür ama aslında bu davranışla ayaklarının hassasiyetini artırır. Her şey yenir bir hayvan olup yoğun nüfuslu şehirlere bile adapte olmuştur.
+  animal.reindeer:
+    label: so
+    summary: Tundra bölgelerine özgü memeli; her cinsiyetinin üzerinde yarasa var.
+    info: Polar sobu, Kuzey Amerika'da, Avrupada ve Asi'ya yayılmış olan bir bozkırda yaşayan tek gergedan kuşağıdır ki hem erkeklerde hem de dişilerinde sadece bu hayvanın ayakları vardır. Bu hayvandan binlerce kilometerlik göçebelere sahiptir. Sám topluluklar tarafından geliri elde etmek amacıyla yetiştirilmesi gerekli olurken, soğuk iklimlere uyum sağlamıştır.
+  animal.rhinoceros:
+    label: Gergedan
+    summary: Burun üzerinde tek ya da çift boynuzlu güçlü bir hayvan.
+    info: |-
+      Beyaz gergedan fillerin ardından kara toprak memeli olarak ikinci sıradadır.
+      Kökten değil keratinden yapılmıştır ve insan fingernail ile aynı maddedir.
+      Pilülük nedeniyle yanlış bir fikri olan iyi etkinlikleri için tehdit altındalar.
+  animal.sloth:
+    label: kutrubacak
+    summary: Tropikal ormanlarda bitişik olarak yaşayan yavaş hareketli kutrubağa.
+    info: Kutrupağakuyruklu bir memeli olup dengeyi kaybedene kadar ağaca tutunabilir ve ölümden sonra bile sarkmaya devam edebilir.
+  animal.snow_leopard:
+    label: beyazyama
+    summary: Orta Asyanın yüksek dağlarındaki ender bir büyük kedidir.
+    info: '{"info":"Beyaz yamaları ile tanınan bu hayvan Orta Asya dağlarında yaşayan nadir bir büyük kedidir."}'
+  animal.tapir:
+    label: tavşan
+    summary: Kısacık buruna sahip büyük otobur hayvan; tapirozla ve ata ilişkindir.
+    info: Tapirozunların ve atların soyundan gelen ilkel tekayaklı bir memeli olmasına rağmen bu çok açıktır değil. Tropikal yağmur ormanlarında yaşamaktadırlar Kuzey ve Güney Amerika ile Güneydoğu Asya'da. Kısa esnek burunu dalları tutmak için kullanılır yapraklara.
+  animal.tiger:
+    label: pantera
+    summary: Tiger world's largest big cat species.
+    info: Bengalas panterası dünyadaki en büyük yaban kedisi olarak bilinir.
+  animal.warthog:
+    label: Bradaviçnatı Afrikalı Yabanısı
+    summary: Yüzünde güçlü dişli ve bıyıklı Afrikanın yabanıl hali.
+    info: Afrika'da yaşayan ve evcilin Afrika yabanisi ile ilişkilendirilen Prase Bradavičnaté bir geyik memeli hayvanıdır. Erkeklerinin yüzünde çıkıntılar olan dikenleri vardır ki bu da onlara savunma amaçlı yardımcı olurken kullanılır.
+  animal.wild_boar:
+    label: boar
+    summary: Domestic pigs' ancestors
+    info: Boar European jilebi türüdür ve tüm yabanıl hindiba soylarıdırın atasıdır.
+  animal.wildebeest:
+    label: gazzella
+    summary: En büyük karaları göçe katılan Afrika memelisi
+    info: Gazelle pakunu dünyadaki en büyük karasal göçlerden birine tanıklık eder; her yıl yaklaşık bir milyon hayvan Serengueti ve Maasi Mara arasında geçiş yapar.
   animal.wolf:
     label: Kurt
     summary: Ev köpeğinin atası olan yabanıl bir psovit memeli.
     info: Köpek (Canis lupus) en büyük yabanıl psovit memeli ve ev köpeğinin atasıdır. Sosyal bir hiyerarşiyle av yapan ve avlayan bir sürüde yaşar. Teritoriyu işaretlemek ve sürüyü toplamak için havlamalarıyla iletişim kurar.
+  animal.wolverine:
+    label: Yaban Sincabı
+    summary: Boreal ormanlarda yaşıyan güçlü ve öfke dolusu bir sincap.
+    info: Yaban sincabı karaçam ve çayır gibi soğuk bölgelerde yaşayan en büyük karasu kuşağı memeli hayvanıdır. Küçük bedenine rağmen olağanüstü güçlüdür ve saldırgan olup bir ayı avından uzaklaştırabilir.
   animal.zebra:
     label: Zebr
     summary: Siyah-beyaz çizgili Afrika köpekboynuzu türü.

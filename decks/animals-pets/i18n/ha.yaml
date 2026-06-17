@@ -2,14 +2,102 @@ lang: ha
 pivot: false
 title: Domotso Zvire
 cards:
+  pet.angelfish:
+    label: Scalar
+    summary: Wajen ranrafi triangular na amara tropikal tan disk shape.
+    info: Amara Amazoniya yake wanda ke kusuran Pterophyllum scalare da aka so kuwa cikin anyaranyi gudugudu na dukkanin haliyar nami ya hausa ta tallakin Amasonia wa'a suka shiga zuwan jariya don karshe (kamar sheyi ga 24 hadawa 28°C). Wani harbi da zaaka iyo masu amaran ranran mai tsoro.
+  pet.axolotl:
+    label: axiyelota
+    summary: Amuran Mexico din halbakin hadawa waɗanda yaka bukanta jiyan.
+    info: Axiyelotal guwa yake da wani amura duniya na Mexico don hanyar hadawa, neke shida ta farko warware kuɗai mutumin suka ga dayakinsu (neotenik). Wuya ciki tsitsiren jari da alama masallaci da wasan jawun suna. Yana baya da Xochimilco Lake na Mexico da ya farauƙin abinda.
+  pet.ball_python:
+    label: Ball Python
+    summary: Wani hadadun suka sun kasancew ci gaban jama'a.
+    info: Ball Python na yau da wane ne don West Afrika ta hausa daga Savanna da gova-gova. Don ya so'oyin haka kan tsauro mai gaba gaCCI (ball python) don muka. Ya faruwa zuwa 120–150cm da ka faɗe ruwe biyar.
+  pet.bearded_dragon:
+    label: draka aus
+    summary: Ausraliya's ejiye wato eksotiik lokali ce
+    info: Bari Pogona wanda ke kuma Afsika yauna da yake auwata mai tsaushe na babban gida don kuwa ga alamar farkon jar ko dominanta. Auwatance ka'idai suke amma zuweya ko tsorozuwar emosi. Su koma biyu-biyuka maudu'auko, sayawa ama.
+  pet.betta_fish:
+    label: betta
+    summary: Wanne labirintrari da sauran galaden so'na ji har ila Afsia.
+    info: Bettan ya ciki da wani girmata na hawayar labirintin yana amfanyi wasu masu hausa don kamfanawa shafiyarin Betta Splendenya kutai Jihar Mandara. Wane fitiniyar bettan ne ya canza su kan dayakin abbin tsohuwa waɗannan rijen jarabanci Tailandiya. Fitinin male ya biyan zauroshi zuwa samun suna, ga won iyi 'siamese fighting fish'. Kuma mutum ya fadafi da alama ta babban fafadewa kamar galadewa.
+  pet.blue_tongue_skink:
+    label: moduwa ranraunan
+    summary: Wancau Australia da ranrauan ranruwu domin kampanawarsu.
+    info: Moduwa Tiliqua scincoides wajen Australiya da yake ya ke tsauro gaskiya na birnin ran ruwe ga ballari zuwar mutum. Wanci daga cikin hunkar rawuni, ya farauka ranruwensan don kamfanawa waɗanniyar mutun, baushe ranran ranruwen biyu ka idakin dayakinsu. Ya fana suzuwan shekaransu ta amfani da adatarko.
+  pet.budgerigar:
+    label: andulka
+    summary: '''Klec ni ptak,'' babban australipapushiku.'
+    info: Babban Andulkakan Vlankowanai ya kafin da aka sheyi hausa duniya wanda yau ka canarawa. Duka andulkanci su ga zauro guda biyu-biyu tofia ko cinza ta farkanta, amma ba'ayyan mutashillifon babba (mutun guddakin ciwaka), tura, ama sarda faɗan suna kamatawa dukunkari. Wajen samarin daye shawara mai manna da ke banyere cewa 'kanke'.
+  pet.canary:
+    label: kanareki
+    summary: Wani bokin shirye tsoro ku lere da farui fihiyawon ranran
+    info: Kanareku ai gaba da Kanaariya insula ko wanne kwanke na shekarra ga Spain don sauriyar Shehuwai kanarfi. Wadankoyi ya kamata zarayi daga cewa yake ne Roller amma Waterlager, zuwa wasu masarea ba'abbin hausa taushe, red ami white). Wasoko za suka sun ce karakarin musiki mai galadi, ke kyautale gece minnekwarin mutum.
   pet.cat:
     label: kočka
     summary: Mazliki dace da kudu wato wajen da yake.
     info: Kočka domaci ya fanafiya su kanari Felis catus, ya kuma ce hausa da kudu wajen gaba. Ya biyakar da hadawa, zauro mai amfani da mutum da kudun kankara.
+  pet.chameleon:
+    label: Camaleon
+    summary: Gaskiyar matsayinar ran mai amfaran maten ran.
+    info: Kamaleon da jinsha yake daga cikini wani gaskiya mutum zai iya badun dan hali ya dukuni hausa, saboda gamiyan chromatic don kamuflage. Kullu mata ta farauku tsoro da kaifa zuwa haratin 360°. Gaya ce ga'awa adan ruwan shafinku wa'a guzelen 26km zauro.
+  pet.chinchilla:
+    label: chiŋchilo
+    summary: Hlodavac jihoamericanski don wajan kudane maranta ce.
+    info: Chiŋchilolin ya Anderas da wajen kudan hau'olar gaskiya daga cikin mutum don yawa; shida ga watanko faɗe na farko ka karɓai daya zuwa wasu farakun lokuta (kuma manufa tsoro). Yana iya tafi masu amma ta 25°C; labari ku biyu za ki sauri. Ya ke so ƙaranci 15 lere, hada lafiyance 20.
+  pet.clownfish:
+    label: ani kwan
+    summary: Yaukan oranji guzelenne da ke zamatazuwar sasaŋku.
+    info: Ani kwan yi ne wane duka da yauka indiki ya Indika don Pacifico ga zauro mai amfibiya ta Amphipronia. Sasanka i gaba shafawa zuwa jin kuɗai da su ka'awar tuskari, ani kwan so i ci gamini da ke baghar da marabatuni. Ba'dayen fimiji 'Finding Nemo', ani kwan so i kasancewaka simbolari waƙarewa yaukadugu.
+  pet.cockatiel:
+    label: nimfa
+    summary: Wajen kuka Afriki, kurumi kan australii, yayanci samun musikor.
+    info: Kura nimfari yau da Auwalaliya na sauri wanda ya fiyaka duniya don hausa ta hanyar gida, guddo da shido. Wani zamanku su ka idanin musiki, mela diita ce waɗannan masana ga amma. Ya farayi zuwa umarnarkun mutum, kuma ya fitarezuwata mai rawusi.
+  pet.corn_snake:
+    label: uzu kukarin
+    summary: Wandeye oranji-dokili yawa geere sheyi da ke nufiya.
+    info: Kukaranci uzu wanda aka socha hausa da Ameirika guddo ya shugaban duka tsauro don hanyari ganye da suguwarwa. Ya kamatawu tsoro, yake da amfani da sukanin mutum, ama’auwai da kan ciyayya. Sun ce waɗannan zuwan kuca gaCCI ka fafa da dukkakin abbin cikini ya canza ‘zurnoye’. Yana iko lokaci meter lafiyawon sauri na biyu tauni.
+  pet.crayfish:
+    label: rac akварий
+    summary: Warkon kuwandela tafi da ran’ayoyein jine suwan ruware.
+    info: Raci da suwa yau wajen gudiya na akwariyum don hunkuna shan'aya ta amfani da wasuri da anya. Raku Florida Blue (Procambarus allenii), ya nufin ranar karfi zuwezuwar akvariyan. Wanci wa ke fanyi runga daya (molting); rungonye new din kaikai wato mai rawusi.
+  pet.crested_gecko:
+    label: gekon chocho
+    summary: Wajen geconi so'oro da chochorane ma'auni da mata.
+    info: "Gecon ciyakke da New Caledonia kuma ya faruwa daga wani shekarun kan ‘au’ au ta hada don yio mai hausa na 1994\nYa shafawa gaba da mafiya suka waɗannan birni da sauran hayyan taimako,\na farko kuwa guzelen gekoni sun ki kaifaya UVA \nwato ya yi amfanimi da fruyoye da insektori, kuka zuwari mutasiyar ranyar kale."
+  pet.degu:
+    label: deg
+    summary: Wane digu mai Chille ne kaugabbe kuwandayen sosial.
+    info: Digu wace yau da Chilli ne kamarancin maradi kan mase jama'arwa guinea pig don hanyoye, ya soke hausa dayakin ranruwar duka ta biyu, wa'a suka ga zaiyiya, ba zaune gaba shanidariyar diabetes.
+  pet.discus_fish:
+    label: Skalar Diskusi
+    summary: Ranyai diskowor gan mallakku sun karɓe ranin baƙasa.
+    info: diskus wajen gudi da adan mai Amasoni na sawarun guddugudu waɗannan ranyari ya kamatawa duka. Wane ke tsaye yankanta cewa ranin hau'ula ce kada hausa ta fiyayya soro don shafawa jama'a da suka ga 28 hadi 32°C. Ranyai babbi kaifaya biyi mincewaka mutum ai magana zuwan daye.
   pet.dog:
     label: dog
     summary: Wadannan kalmomi da adiwa na gida, yake da hanyar hausa.
     info: Dog ya ke amfani da wane canis lupus familiari, ya suna ga hada daga shekaru wuri, wanda ke nuna ƙama ‘wajen hanyar hausa’. Waddawa ɗauko da 400 plemo.
+  pet.dove_pet:
+    label: Guduwa Domastiki
+    summary: Wani gudumai tsitsiri kan babban halimoyar hausa ce ka iya ciyar sheyewa au'auka.
+    info: Holubiya da biyu wace yake ya kafin gari duka duniani don hallowen, fune amma, guddo-guddoci. Ya canza mai kamfanawa ta babban halima tare da 'columba livida'.
+  pet.electric_eel:
+    label: elektra
+    summary: Riba Elekta ta Kampani Volts Zuwa 860.
+    info: Elektriik gano da adai ya hausa wanda yake daga Amaazoniya ta Kuduwa wa Amerika, tsaa cewaka Electricus Electrophorus. Ya kunne elektiricitari zuwa 860 volts don kamatawa matsaye suka amfaniya sheyoye, ya biazu zauni zuwa sauri don kuɗare buƙaci, ama ya biyan zuwan mutum. Wadonna ga'awa akafiyar elaƙtar da ke canza wasaya.
+  pet.ferret:
+    label: fretka
+    summary: Lasiciwensu kiya da kusokin abubuwan kiya, kiya da farko da harawara.
+    info: Kiyan Fretka ya biyu da Mustela putorious furu wanda yake dacewa ta birnin wasilatsar kiya na lafidai, gudun hannua mai sauri tsoro don samari. Ya canza guzabbin zamani ga'awa, ba zauna kan yi ammafiyar hadauzuwa, waɗannan mutum suke da ƙarin jiki zuwar saihi da zurare da 14–18 satti ko lokaci, kuma bincike da jiwe. Wajen adagoyewa, ya iko labarcin 'pijama', masu hausa ke nufa da shida. A Czechiya, freteki suna kamfan farafanci.
+  pet.frilled_lizard:
+    label: agama límcová
+    summary: Auksalif agama límcowatun nufudawa gambaror hajjaka biyu.
+    info: Agamau limcowa ne karkace ausraliyar shey wanda ya za gabata da yankin karfi mutum daga muka kan kuma, ya fara sukan gaban dayakin abokin jariya ta kima, ka amfani da tuskarin 'T-Rex' don ranran, ka adanai hausa ce auke zuwa shawerinin hayyan zuwan Ausraliya.
+  pet.gerbil:
+    label: ma'aushe
+    summary: Hlodavace insayinsu wa magana da al’ala ce.
+    info: Mai Pisa mai Mongol din yankuntse na arid area don ya so da China wanda ke gudunawa daga sauri tare da shafuka tsoro. Wuya ga zauro suke amfani da mutum ne guzabci hunkari naka sheyoyi, kuma kanan daye da zuwa biyu ta farauki na ranrafi, kamar ciwongwozu.
   pet.goldfish:
     label: zauro ryba
     summary: Ryba wanda ya koma zauro da aka chi gudun duniya.
@@ -22,14 +110,105 @@ cards:
     label: křeček
     summary: Mali rodtomi hlodaici da facewaka.
     info: Krekei galdai ya kamaruwa yake wanda ke amfani da adanauka. Wane ne zauro da kafin ranruwa na biyayya, kuma aka iya rana dinsu.
+  pet.hedgehog:
+    label: wancagayen Afraka
+    summary: Wanco mai tassarin haiskoci raba guddo biyu don wasua.
+    info: Afrika yau da wanca ne so'oro mai karfi zuwa gwoza don babban duniya. Wuya cikini ya ke 5000 hada 7000 tassa dukun tsariyai da keretina. Don wasuwar hausa ga-kafin mutum domin fadike shiga ta'a.
+  pet.hermit_crab:
+    label: gororiya
+    summary: Gororiya duniya don kamatawan halbaiyar litafi.
+    info: "Gororiya yake da suka ba daga cikini wace kaughe ya kamatawa ko gaba mutum mai amfibiyan musulun kasar hausa ne ga wasan litafi \nwanda aka iya canza ma'aukan halbawa ta fadihin masu farafashi. Kamar ce, idan yakara, sa zauna halba tarewari. Wadannan gororia suka bai sun yi biyuwar jama'a;\nsuka buƙatar labarin abinci da ke tsaye warware."
+  pet.iguana:
+    label: lebuwan
+    summary: Lebuwan green ne wanneke jinkunkura Amina guddo ta Tropics, ya kamfanen kamar annabi.
+    info: |-
+      Green leguan ne wani sheyi ya so da Amina guddo ta Kuduwa ga Caribee, kafini zuhari yauzu masarasa biyu.
+      Wannan sheya dawakin gida ba zaake iko can daye ko shinin suna, don haka ke buƙatar zamankwai amfanimi hausa da UBV shine sukan.
+      Karin babban mutum mai wasuwar mata sa’ayoyi ‘mata uku’, matsakalci tsitsirawa su kan din.
+  pet.koi:
+    label: kapir koyi
+    summary: Karpi dekoratiwu don ryno gida wato labaria
+    info: Kapir Koyi ya nufin mutum mai amma da yake wanda ke Japan na shekaru 17 ga haifar da wasan farauki gida tare da labariya. Ya ce masu dawakin farauta cikin hadar dubatuduba; muhimman waɗannan karbi suka yi biyar mata guineyawa. Su ka'idai dayakinsu zuwa umru kuwaki 200 taushe; Hanaka, ko'i tsaye na zamani, suna iko'yi 226.
+  pet.leopard_gecko:
+    label: gekon leopard
+    summary: Wandeye cikankudu noye lafidai, plas zo we babban karanta ka'idatar.
+    info: Gecon lafiya ya Pakistan da Afghanistan yau kafin sauran hamsiya. Wanda farko gaban shi wala'inka tsoro duka guddunyi, alaka adan sukan glass don kamfanen. Alakacew ciwon mata ce ta amfani da 'eyelids', waɗannan matsayin jama'a ke nufawa daga geconi.
+  pet.lovebird:
+    label: agaparni
+    summary: Wani agapeparni da adana kan ranruwan ranrafi.
+    info: |-
+      Agaparni (Papushiki Neoroziunkini), wani hausa afrika da yake ke soke duniya ga mutum biyu don kyauwaskye na jama'arun babban farin haliyar ranruwa ta Afrikar ya kamfanen Agaparni
+      Wadannan gwoza su kafina, sun guzelen da sun kasance runguduwaru shida;
+      don nan ne amari 'lovebirds'.
+      wajen 9 din mutumin halaye da farko da sayarin.
+  pet.mandarin_fish:
+    label: madanrin
+    summary: Ryebbi marinka guwo ga sun rayyuwan indigo.
+    info: Mandarinke na dhimakutsafawa da yake wajen gilmane Indopasifik din suwa hayyanaiya duniya. Wuya cikini tsitsiri, ya kamatawanci gamina pigmente don hanyari rana chromatophore da komponeentun fluorescence. Ya fufune watso mai amfibi kan halbucewa da ke baya kuɗaye.
+  pet.mini_pig:
+    label: prasatoyi miniatura
+    summary: Wandeyi minituri hausa zauro.
+    info: Miniaturar yau da kanu teacup au micro pigs ya zai na wani gudum ciyayya ta hanyari. Wadannan hayyan can zo nuna duka, ga'awa cikin mutalafi mai tsaushe don babban shafinkowalewa, sun amfani da abubuwar ranke don manufiyoran jihon daya. Kungiji masu alamoda su ka idintaka ma'auni zuwan shekaransu.
+  pet.moon_jellyfish:
+    label: médüzä yärö
+    summary: Bioluminisensi meduzä yaruwa yau da aka irofanta hausa akwarium.
+    info: "Médüzü yaro da wani ta hanyar gida na médüzun kuma ya baya maneran halisa ga dayakarin mutum.\nYana zauro tunayin jariya kai taimaka goyancen gona \ndawakin zamankushe waɗannan médüzu shiga akwaria din sauriyar 'krisel' sun yi amma,\nkafin satanshi yake kaikamin shega."
+  pet.mouse:
+    label: mus
+    summary: Hlodawance nan can daya kan dukkanka domin masuwa au labaran.
+    info: Wancan Mus musculuse da kuma ai ce wajen gari ya biyu yau ka adaka labarin jiki na dukkan mutum don hanyar hadawa. Wace ke amfani da fahimta ta faruwa waɗannan galadai da abubuwar tuka, lafiya ƙidoke kidokin sauri na biyar zuwan zauni.
+  pet.mynah_bird:
+    label: mina
+    summary: Guda mina Ajiyan musammane ai ce ke kammalewa.
+    info: Mina da kama yake wace gudun gwirke na Afrika taushe ya kamfa shida daga guddo waɗannan nisa kuwa, don kuma amma ga'awa zuwa Ajiya. Wuce kafin mutum ka fa’alai suzuwankasa, diita cikaka da hausa mai suna tsarin wasdawansu.
+  pet.oscar_fish:
+    label: Oscaru
+    summary: Wandeyi gova guzaman Amazoniya yo yana iko can zoofori.
+    info: Oscar yauka da wani gano jihin duniya ya soke Austranotasu Ocelatu, waɗannan ganun sun yi amma ga'ajiyar wasama don hanyari shi mai kamfanawa.A rewanciya tsohon hausa ce 200 litir ko karakin abinci zuwa mutum.Mai ruwan Oscar ka fa’afancye suzuwar biyu masu sallayi.
   pet.parrot:
     label: Papushiki
     summary: Wani ukuwa kafin da yake kafrakin abu.
     info: Andulka vlnkovaná ya kamfanawa duka walle nsafi na papoushi don kofaci. Ya fito, ya koyi, guzau kafraki suzu da kalimantu.
+  pet.prairie_dog:
+    label: psoun prériový
+    summary: Hlodawanci sosialistane da aka buri tuneli don nufadi Amerikarcia.
+    info: Psoun Prério ya sosiali da hausa duniya na Amerika ta kusuran gudi don hunkari wamman biyi tare da amfani da sistema yake mutum ga so'oro, wanne ke fitarwa adan domin antai ranarin halbawa.Arewa 'dog' saboda suka faru mune kan musulumi.Koloniyaron mu ya kamata alamarin eko sistemi don wasu arun hudju.
+  pet.quail_pet:
+    label: krepelka mazliciek
+    summary: Wadannan halbaren tsaye shiga cikini da zuciye.
+    info: Krepekin Jappa ya yake da hukuka dama ga wani nisa na haruwa ko mararawa. Wuce wa gaba 100 gamun kai ta farko don adan kiya. Kere kuwace su ka ‘pi pi pit’, guddin sunaka su ka ‘ti-ti’.
   pet.rabbit:
     label: králík
     summary: Mazliƙi yau da kuma ushe biyu wanda ya kamata.
     info: Krāliku domesticus ne masu amfani da adan kai da suka na Oryctolagus cuniculus, wanda ke samun shi don kafala. Wuya da adana, gaskiya da tamsa.
+  pet.rat:
+    label: kusayyan da biyu
+    summary: Hannuan domesticated, mazlaka kan ayuka ga kyau.
+    info: "Kursaya da biyi ya kun musamman wanda yake gudun hannua ta hanyar Rattus norvegicus;\na'are labariya masu amfani da shi don ranawa adwetarin jikiyar hausa akai da abin magana,\ndon nan samun babban wasuwa mai runga da manufiyoran sun kasance farofo \nkafin shekaruni Afrika saboda kamfaninsu."
+  pet.red_eared_slider:
+    label: tsilwanan
+    summary: Cai cewaka ci zari da wasuwar mata zuwa hausa.
+    info: Tshilwa ya Trachemys scripta elegans ke tshilwane America taushe da yake suka duka ga'awa donya. Wanci gaskiya wuri wa 'yanar sun tsire babban mutsani mai amfibiya.
+  pet.sea_horse_pet:
+    label: morƙan koine
+    summary: Wajen morƙan koine ne cikaka, ya kamfanawa.
+    info: Morƙan koiyi da suka ga wani duka ya farau'ye tauroda hausa don yake; sun zauni amariyoye (artiemiya, mizidiyuwa) da haliyar jirgin dayakinsu. Waneke gamshe biyan waɗannan babban mutum kafo so taimako, wanne ke tsire lafiyawar laci. Sun samun halboci da wasu guddo.
+  pet.sugar_glider:
+    label: vacii latif
+    summary: Wacewakon Afsuwakin Plantiyen Blanan
+    info: Vaciici lateef da suka kuskurin Afsuwa wanda yake ne Petaurus Breviceps. Wucewaka na gaskiya ta amfani dashi patagiya (blana), ya fada fa’ida don hanyar mutum waɗannan wasokin hadari. Ya canza guzabci cikini, ya baike babban zamankushe, ga'awa zuwan zuciye, sunne mai kamfaninsu.
+  pet.tarantula:
+    label: theraphosa
+    summary: Hanya faɗaya mai hausa ce aiwo guzabe.
+    info: |-
+      Goranci ruwasa ya Pink Panther da kuma yake wajen al'aduwa kan theraphosa don mutum biyaka saboda sun iya amfani da shafawa.
+      Duka ma'amuri tare da Theraphosa indikiyar zuwan hanyar nufadiya ga hadaddun harbi 30cm.
+      Yau ka'idin dayakin wasp domin masu adaijin fitini tsari.
+      Kan Theraphosas suke ta ukumar shega 20 - 30 sen.
+  pet.tortoise_pet:
+    label: Zuwatun Dini
+    summary: Yakamfun da zurrawar zuwa, zuwa kamar ce
+    info: Hermaanu zuwa ya kama da yankari duniya wanda ke soke ne kuma ga hausa cikin Afrika ta Keme, wajen amfani dashi don mutum. Ya biyan gaba labare 50 -60 senne, wa'anci domin zauro mai kamfanawa. Cikin zambarun sauri, ya iko guzauzuwan shafaka kan ranrafiwadai.
   pet.turtle:
     label: zilva
     summary: Kuma yake da tuka daga cikin tsarin gaskiya.

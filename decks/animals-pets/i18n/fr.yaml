@@ -2,14 +2,105 @@ lang: fr
 pivot: false
 title: Animaux de compagnie
 cards:
+  pet.angelfish:
+    label: cichlide
+    summary: Élégant poisson disque tropical avec des nageoires allongées.
+    info: Le cichlidé amazonien est l'un des poissons d'aquarium les plus populaires grâce à sa forme élégante triangulaire et ses nageoires longues flottantes. Il provient du bassin de l'Amazone et nécessite une eau chaude entre 24°C et 28°C. C'est un prédateur capable de consommer de petits poisons.
+  pet.axolotl:
+    label: axolotle
+    summary: Salamandre mexicain vivant en milieu aqueux avec des branchies extérieures.
+    info: L'axolotle est un蝾螈 aquatique du Mexique qui conserve sa forme de larve toute sa vie (néoténie). Il possède des branchies externes et une expression caractéristique semblant sourire.
+  pet.ball_python:
+    label: serpent Royal
+    summary: Reptile calme qui roule sa queue pour former une balle lorsqu’il sent la menace; parfait comme premier animal exotique.
+    info: Le serpent royal africain provient de l'Afrique occidentale et centrale où il vit dans des prairies herbeuses ou en forêt dense. Lorsqu'il est menacé, ce reptile s'enroule étroitement sur lui-même formant une boule compacte d'où son nom anglais 'ball python'. Il peut atteindre jusqu'à un mètre cinquante de longueur avec plus de trente ans d'espérance de vie.
+  pet.bearded_dragon:
+    label: dragon à crêtes
+    summary: Reptile populaire originaire de la région tropicale.
+    info: Le dragon à crête est l'un des reptiles les plus populaires en captivité grâce à sa nature calme.
+  pet.betta_fish:
+    label: Poisson bêtta
+    summary: Un poisson coloré du sud-est asiatique doté de grandes nagesoies.
+    info: Le poisson-bétta est une espèce de poissons-labyrinthe qui respire l'air grâce à un organe spécial et vit dans les champs de riz peu profonds en Thaïlande. Les mâles sont très territoriaux entre eux ; c'est pourquoi on appelle cette créature 'poisson combattant'. Grâce au croisement sélectif ont été obtenues des variétés spectaculaires avec des nageoires énormes et étirées.
+  pet.blue_tongue_skink:
+    label: lézard-tigre à langue bleue
+    summary: Lézard australien reconnu par son langage bleu utilisé pour intimider.
+    info: Le Skink à langue bleue est un grand lézard australien avec une langue caractéristiquement bleu vif qu'il sort comme moyen de dissuasion face aux prédateurs ; la couleur bleue agit ainsi en tant que signal d'avertissement non-agressif et efficace. C'est également un animal gras, lent qui devient populaire auprès des collectionneurs grâce à sa nature calme. Il peut vivre entre 15 et 20 ans tout en atteignant plus de 50 centimètres.
+  pet.budgerigar:
+    label: Perroquet
+    summary: 'L''universel oiseau domestique populaire du globe terrestre : un petit perruche originaire d''Australie.'
+    info: |-
+      Le psittacidae à motifs ondulés est l'oiseau de compagnie le plus répandu au monde après les canaris.
+      Les perroquets sauvages sont colorés en vert et jaune ; des mutations ont permis d’obtenir des couleurs comme bleues ou grises grâce aux sélections génétiques.
+      Les mâles peuvent imiter la voix humaine et apprendre plusieurs centaines de mots.
+  pet.canary:
+    label: canario
+    summary: Petit oiseau chanteur élevé pour sa voix et ses couleurs jaunes vives.
+    info: Le kanari vit à l'origine aux îles Canaries et fut apprivoisé par les conquérants espagnols au XVe siècle.
   pet.cat:
     label: chat
     summary: Animal de compagnie domestique indépendant avec des pattes molles.
     info: Le chat domestique est un félin de la famille des félins élevé comme animal de compagnie. Il est connu pour son agilité, sa propreté et son caractère indépendant.
+  pet.chameleon:
+    label: caméléon
+    summary: Lézard changeur de teinte doté d'yeux mobiles séparément.
+    info: Le chameleon est un lézard capable de changer la couleur de sa peau grâce à des cellules appelées chromatophores ; il modifie ses couleurs principalement pour communiquer ses émotions et non seulement comme camouflage camouflant. Chacun de ses yeux peut bouger indépendammentement en offrant une vision presque circulaire sur environ 360°. Sa langue mesure plus longue que son corps entier et elle sort avec une rapidité d'environ 26 kilomètres par heure.
+  pet.chinchilla:
+    label: guemil
+    summary: Rongeur sud-américain dont la peau possède parmi tous les mammifères terrestres la densité capillaire maximale.
+    info: La guemil est un rongeur des Andes avec une fourrure extrêmement dense ; il pousse entre 60 et 80 poils d'un seul follicule pileux (contre seulement un chez l'homme). Elle préfère les températures inférieures à 25 °C car la surchauffe peut être mortelle pour elle. La guemil vit jusqu'à quinze ans, exceptionnellement plus de vingt.
+  pet.clownfish:
+    label: poisson clown
+    summary: Poisson orangé qui vit en symbiose avec certaines méduses.
+    info: Le poisson-clown à œil de chat est une petite espèce d'eau salée du Pacifique et Indien tropical vivant en symbiose avec les actinies marines. L'actinia protège la poissons par ses tentacles urticants tandis que ce dernier nettoie l'anémoniaire et éloigne certains prédateurs. Après le film Finding Dory sorti en 2003 il devint un symbole emblématique des aquariums marins.
+  pet.cockatiel:
+    label: perroquet à collier
+    summary: Petit psittacidé australien avec crête, populaire pour sa capacité de chant.
+    info: 'La perroquet à collier vit en Australie où elle habite des prairies et forêts. Les mâles sont d''excellents imitateurs : ils apprennent des chants, mélodies ainsi que des mots humains. Elle est sociale et très facilement attachée au propriétaire lorsqu''elle est captive.'
+  pet.corn_snake:
+    label: couleuvre de l'indien
+    summary: Serpent rouge-orange docile adapté aux débutants.
+    info: La couleuvre de l'Indien est originaire du sud-est des États-Unis où elle vit dans les champs et forêts. Elle n'est pas venimeuse ni agressive ; rarement mordante et robuste.
+  pet.crayfish:
+    label: écrevisse
+    summary: Petit crustacé coloré présent dans un aquarium.
+    info: Les écrevisses de compagnie sont des habitants populaires dans les aquariums dulçaquicoles grâce à leur comportement actif et leurs couleurs vivantes. L'écrevisse bleue du Floride (Procambarus alleni) est la plus populaire pour l'aqua culturelle. Elle mue en perdant son exosquelette lors de sa croissance ; celui-ci étant initialement mou après chaque mue.
+  pet.crested_gecko:
+    label: Geckon à crête
+    summary: Un lézard nocturne doté d'une couronne ressemblant à des sourcils.
+    info: Le Gekko à barbe est originaire de Nouvelle-Calédonie et était considéré comme éteint jusqu'en 1994. Il saute avec agilité et mène une vie active la nuit. Contrairement aux autres gékons, il n'a pas besoin d'éclairage ultraviolet particulier.
+  pet.degu:
+    label: dégué
+    summary: Petit rongeur chiliène ressemblant au cochon d’Inde avec comportements sociaux.
+    info: 'Le dégué est un petit rongeur originaire du Chili apparenté au cobaye et à la chinchille. Il est strictement diurne (actif de jour) et très sociable ; il souffre facilement d''isolement. Le dégué est sujet aux problèmes liés au sucre : en captivité, on ne doit pas lui donner des fruits trop sucrés.'
+  pet.discus_fish:
+    label: scalare
+    summary: Un élégant poisson discoïde considéré comme roi de l’aquariophilie.
+    info: Les disques (Symphysodon), sont de grandes poissons amazoniens en forme circulaire et aux couleurs magnifiques. C'est l'un des plus exigeants poisson d'aquarium ; il nécessite une chimie précise dans l'eau ainsi qu'une température entre 28 à 32 °C. Les jeunes poissons s'alimentent du mucus provenant de la peau parentale ce qui est un phénomène rare chez les poissons.
   pet.dog:
     label: chien
     summary: Fidèle animal de compagnie, ami des humains.
     info: Le chien est un loup apprivoisé et le plus ancien animal domestique de l'homme. Il existe plus de 400 races différentes, et il est surnommé « le meilleur ami de l'homme ».
+  pet.dove_pet:
+    label: colombelle
+    summary: Colombe blanche élevée comme animal de compagnie ou libérée en occasion solennelle.
+    info: La colombelle blanche est un pigeon des rochers domesticable élevé pour sa coloration entièrement blanche. Elle est calme et amicale ; contrairement aux perroquets, elle ne mâche pas ni ne pleure. On l'utilise lors de mariages, enterrements et cérémonies à travers le monde.
+  pet.electric_eel:
+    label: silure électrique
+    summary: Poisson amazonien capable de produire une tension pouvant atteindre 860 volts.
+    info: Le silure électrique n'est pas un véritable anguil mais est apparenté aux characins d'Amazonie sud-américaine. Il peut générer des décharges électriques allant jusqu'à 860 volts pour étourdir sa proie ou se défendre et respire l’air en surface de manière régulière.
+  pet.ferret:
+    label: félin
+    summary: Animal carnivore domestiqué joueur, curieux et affectueux.
+    info: Le fouine est une forme apprivoisée du têtu blanc qui fut dressée il y a plus de deux milles cinq cents ans pour chasser les lapins. Elle est curieuse et joueuse ; elle dort habituellement entre quatorze à dix-huit heures par jour en passant le reste dans des jeux frénétiques. Le félin dégage un odeur caractéristique provenant de ses glandes anales.
+  pet.frilled_lizard:
+    label: lézard à crête
+    summary: Reptile australien montrant un replis de peau au niveau du cou pour se défendre.
+    info: Le lézard à crête royale est un reptile australien qui ouvre une grande membrane autour du cou lorsqu'il se sent menacé et émet alors un sifflement tout en marchant sur ses pattes arrière comme si c'était un mini Tyrannosaure Rex.
+  pet.gerbil:
+    label: gerbillon
+    summary: Petit rongeur vivant dans les régions chaudes avec une longue queue poilue.
+    info: Le gerbil de Mongolia provient des steppes arides du Mongolia et de la Chine. Il est adapté à une vie en milieu désertique ; il boit très peu car son organisme traite efficacement l'eau provenant de sa nourriture.
   pet.goldfish:
     label: poisson rouge
     summary: Poisson doré d'une couleur orange-or tenue en captivité dans un aquarium.
@@ -22,14 +113,98 @@ cards:
     label: hamster
     summary: Petit rongeur mignon aux joues gonflées.
     info: Le hamster d'or est un animal de compagnie populaire. Il cache ses réserves alimentaires dans ses joues, est actif surtout la nuit et aime courir en roue.
+  pet.hedgehog:
+    label: hérisson
+    summary: Petit mammifère carnivore à épines qui roule sa carcasse lorsqu'il sent une menace.
+    info: Le hérisson nain est un animal de compagnie exotique populaire élevé dans le monde entier. Il possède entre 5 000 et 7 000 épines creuses en kératine sur son dos.
+  pet.hermit_crab:
+    label: crabier
+    summary: Petit crustacé habitant dans une coquille empruntée, animal domestique exotique.
+    info: Le crabe ermite est un crustacé qui n'a pas son propre carapace rigide et protège sa queue molle dans des coquilles d'escargots vides. Quand il grandit, il cherche une plus grande coque. Les jeunes crabes érinthés sont élevés comme animaux de compagnie ; ils sont sociaux et vivent en groupes.
+  pet.iguana:
+    label: lézard
+    summary: Grand lézard tropical américain populaire comme animal domestique exotique.
+    info: Le lézard vert est un grand reptile d'Amérique du Sud pouvant atteindre deux mètres de longueur. Il se nourrit strictement de plantes ; en captivité, il nécessite une alimentation variée et des lumières UVB pour sa santé. Sur son crâne figure également un troisième œil sensible à la lumière située au sommet de la tête.
+  pet.koi:
+    label: poisson chat
+    summary: Poisson chat orneman tal élevé dans les étangs avec ses couleurs vives.
+    info: Le koï est une souche décorative du poisson-chat commun élevée au Japon depuis le XVIIᵉ siècle. Il existe plus de cent variations colorées ; les spécimens les plus précieux peuvent être vendus pour des milliers d'euros.
+  pet.leopard_gecko:
+    label: gékon léopards
+    summary: Petite salamandre noire avec des taches, idéal pour débuter dans l'élevage.
+    info: Le Gekko léopard provient des régions désertiques du Pakistan et de l'Afghanistan. Contrairement à la majorité des gékons, il n'a pas d'aspirateurs sur les pattes ; donc, il est incapable de grimper aux vitres. Il possède également un couvercle mobile ce qui rend cette espèce atypique parmi les autres gékons.
+  pet.lovebird:
+    label: agapornis
+    summary: Petit perroquet coloré formant des unions stables.
+    info: L'Agapornis est un petit perroquet originaire d'Afrique connu pour ses fortes attaches entre les couples. Les paires s'alimentent mutuellement et passent la plupart de leur temps ensemble ; c'est pourquoi on l'appelle aussi 'lovebird'. Il existe neuf espèces différentes qui varient selon leurs couleurs et leur répartition géographique.
+  pet.mandarin_fish:
+    label: mandarine
+    summary: La poissons marine la plus colorée au monde avec un motif psychédélique.
+    info: Le mandarin splendide est une petite poisson de mer des récifs coralliens d'Indo-Océanie qui possède l'une des colorations les plus remarquables du règne animal.
+  pet.mini_pig:
+    label: porc miniature
+    summary: Petit cochon tenu en tant que mascotte.
+    info: Les porcs nains sont de petits animaux domestiques élevés comme compagnons. Ils sont intelligents et propres ainsi qu'agiles dans l'apprentissage d’astuces similaires à celles des chiens.
+  pet.moon_jellyfish:
+    label: méduse lunaire
+    summary: Méduse lumineuse transparente élevée dans des aquarium spéciaux.
+    info: La méduse lunaire est l'une des espèces de méduses les plus courantes et elle est assez peu dangereuse pour l'humain. Elle est presque transparente et on peut voir à travers ses quatre glandes génitales circulaires.
+  pet.mouse:
+    label: souris
+    summary: Petit rodent domestiqué élevé soit comme compagnon ou bien pour la recherche médicale.
+    info: La souris blanche est une forme apprivoisée du rat noir élevée comme animal expérimental et décoratif. Elle est intelligente et capable d'apprendre rapidement les labyrinthes ainsi que des tours. Son espérance de vie varie entre deux à trois ans ; c'est un animal social qu'il convient donc d'élever en groupe.
+  pet.mynah_bird:
+    label: mynh
+    summary: Oiseau asiatique capable d'imiter exceptionnellement bien les sons vocaux.
+    info: |-
+      Le Mynah est un oiseau de la famille des passériformes connu pour être l'un des meilleurs imitateurs parmi les oiseaux en termes d'imitation du langage humain.
+      Il reproduit avec une remarquable précision les tons, accents et intonation de voix humaine.
+      Originaire d’Asie du Sud-Est et de l’Inde,
+      il peut apprendre à prononcer plusieurs centaines de mots ou phrases.
+  pet.oscar_fish:
+    label: oscars
+    summary: Grande cichlite intelligente originaire du bassin amazonien qui réagit au comportement de son maître.
+    info: L'Oscar est une grande cichlide sud-américaine connue pour son intelligence et sa capacité à reconnaître son propriétaire. Il nécessite un grand aquarium d'au moins 200 litres ainsi qu'une alimentation régulière avec des aliments vivants ou congelés. L’animal peut atteindre plus de 35 centimètres de longueur et vivre jusqu'à 15 ans.
   pet.parrot:
     label: perroquet
     summary: Oiseau coloré capable d'imiter la voix humaine.
     info: L’andouille à queue ondulée est l’espèce de perroquet la plus répandue élevée en animal de compagnie. Elle est intelligente, sociable et peut imiter des sons ainsi que des mots.
+  pet.prairie_dog:
+    label: psoun de Prairie
+    summary: Rongeur creuseur socialement organisé qui vit en Amérique du Nord.
+    info: Le psoun de prairie est un rongeur social d'Amérique du Nord vivant dans des colonies souterraines étendues. Il communique par un système complexe de sons que les scientifiques considèrent comme la langue animale la plus élaborée après celle humaine.
+  pet.quail_pet:
+    label: pintade d'intérieur
+    summary: Petite espèce discrète idéallement adaptée à l'élevage intérieur.
+    info: La pintade japonaise est un petit oiseau domestiqué soit pour ses œufs ou comme animal de compagnie. Elle n'a que 100 grammes et c'est la volaille la plus petite élevée en captivité.
   pet.rabbit:
     label: lapin
     summary: Animal peluche avec des oreilles longues.
     info: Le lapin domestique est un animal de compagnie populaire au pelage doux et aux grandes oreilles caractéristiques. Il se nourrit d'herbe séchée, de légumes et d'herbes fraîches.
+  pet.rat:
+    label: souris grise
+    summary: Un animal de compagnie doux et affectueux qui possède une intelligence étonnamment élevée.
+    info: La souris grise est l'un des rongeurs les plus intelligents ; elle peut apprendre à réagir sur son nom et accomplir des tâches complexes. Elle est socialement développée et forme de fortes attaches avec ses propriétaires ainsi qu'entre elles-mêmes.
+  pet.red_eared_slider:
+    label: Tortue élégante
+    summary: Une populaire tortue aquatique douce avec une marque rouge à côté de ses oreilles.
+    info: La tortue élégante est originaire d'Amérique du Nord et c'est l'amphibien ou reptile de compagnie le plus répandu au monde en captivité. Sa tache rouge derrière la patte lui permet facilement de distinguer des espèces similaires.
+  pet.sea_horse_pet:
+    label: Cheval de mer
+    summary: Un animal marin fragile élevé exclusivement par paires fidèles.
+    info: Le cheval de mer est l'un des animaux marins les plus difficiles à élever en captivité ; il nécessite une alimentation vivante (aréties, mysides) et un environnement calme. Le mâle porte ses petits dans une poche ventrale pendant plusieurs semaines avant d'enfanter simultanément centaines de jeunes. Ils forment des couples monogames pour la vie.
+  pet.sugar_glider:
+    label: sugar glider
+    summary: Petit animal volant originaire d'Australie utilisant sa peau membranaire comme voile.
+    info: Le sugar glider est un petit mammifère australien capable de planer grâce à une membrane élastique étirée entre ses pattes avant et arrière qui lui permet de se déplacer facilement dans les arbres la nuit. Il possède des yeux grands pour voir en pleine obscurité ainsi qu’un comportement très social ; il souffre du stress lorsqu’il vit seul.
+  pet.tarantula:
+    label: arachnid
+    summary: Grand et poilu, c'est un animal exotique idéal.
+    info: L'Avicularia rosea est une araignée populaire pour les débutants en raison de son tempérament calme.
+  pet.tortoise_pet:
+    label: tortue terrestre
+    summary: Tortue terrestre长寿，陪伴一生的宠物。
+    info: La tortue d'Hermès est une petite tortue méridionale populaire en tant qu'animal de compagnie. Elle peut vivre plus de cent ans et survivre à son propriétaire ; elle entre dans l'hivernation pendant laquelle son métabolisme s'arrête presque complètement.
   pet.turtle:
     label: tortue
     summary: Animal lent avec une carapace dure.

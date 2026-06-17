@@ -821,6 +821,526 @@
         "vi": "Tỏi đã được sử dụng trong nhà bếp suốt hàng nghìn năm vừa như gia vị vừa như thuốc. Nó chứa hoạt chất allicin có tính kháng khuẩn và chống viêm.",
         "zh-CN": "栽培的大蒜在厨房中被用作香料和药物已有数千年历史。它含有大蒜素，这种物质具有抗菌和抗炎特性。"
       }
+    },
+    {
+      "key": "veg.spinach",
+      "image": "veg.spinach.png",
+      "label": {
+        "cs": "špenát"
+      },
+      "summary": {
+        "cs": "Tmavě zelená listová zelenina bohatá na železo."
+      },
+      "info": {
+        "cs": "Špenát (Spinacia oleracea) pochází ze středověké Persie.\nJe bohatý na vitamíny K, A, C, folát a železo.\nPopeye (komiksový námořník) propagoval špenát jako superpotravinu pro děti od 30. let.\nVaření špenátu uvolňuje kyselinu šťavelovou, která může vázat vápník a železo.\n"
+      }
+    },
+    {
+      "key": "veg.lettuce",
+      "image": "veg.lettuce.png",
+      "label": {
+        "cs": "hlávkový salát"
+      },
+      "summary": {
+        "cs": "Křehká listová zelenina; základ zelených salátů."
+      },
+      "info": {
+        "cs": "Hlávkový salát (Lactuca sativa) je pěstěný od starověku v Egyptě.\nObsahuje přes 95 % vody; je nízkokalorická zelenina.\nExistuje v mnoha odrůdách: iceberg, romain, lollo, butterhead, oak leaf.\nV Řecku byl salát obětní potravinou; Hippokrates ho doporučoval jako uklidňující lék.\n"
+      }
+    },
+    {
+      "key": "veg.cabbage",
+      "image": "veg.cabbage.png",
+      "label": {
+        "cs": "hlávkové zelí"
+      },
+      "summary": {
+        "cs": "Kulatá zelenina s tuhými listy; základ kysaného zelí."
+      },
+      "info": {
+        "cs": "Hlávkové zelí (Brassica oleracea) je starobylá zelenina pěstovaná v Evropě tisíce let.\nObsahuje vitamíny C, K a glukosinoláty s protirakovinnými vlastnostmi.\nZkvašením vzniká kysané zelí (sauerkraut), bohaté na probiotika.\nV německé kuchyni je zelí základní přílohou; v korejské kimchi.\n"
+      }
+    },
+    {
+      "key": "veg.cauliflower",
+      "image": "veg.cauliflower.png",
+      "label": {
+        "cs": "květák"
+      },
+      "summary": {
+        "cs": "Bílá hustá hlava z mnoha kvítků; belgická investice do bílé zeleniny."
+      },
+      "info": {
+        "cs": "Květák (Brassica oleracea var. botrytis) je příbuzný brokolici.\nBílá barva vzniká, protože listy chrání hlavu před sluncem, čímž zabraňují tvorbě chlorofylu.\nExistují i fialové, oranžové a zelené odrůdy.\nKvěták je ve stravě bez lepku populárním substituentem mouky a rýže.\n"
+      }
+    },
+    {
+      "key": "veg.eggplant",
+      "image": "veg.eggplant.png",
+      "label": {
+        "cs": "lilek"
+      },
+      "summary": {
+        "cs": "Tmavě fialová oválná zelenina; základ moussaky a ratatouille."
+      },
+      "info": {
+        "cs": "Lilek (Solanum melongena) pochází z Indie; pěstuje se tisíce let.\nV Itálii se nazývá melanzana, ve Francii aubergine, v USA eggplant.\nObsahuje nasunin, silný antioxidant v tmavé slupce.\nJe základem středomořské a blízkovýchodní kuchyně: moussaka, baba ganoush, ratatouille.\n"
+      }
+    },
+    {
+      "key": "veg.zucchini",
+      "image": "veg.zucchini.png",
+      "label": {
+        "cs": "cuketa"
+      },
+      "summary": {
+        "cs": "Zelená letní tykev; všestranná zelenina pro vaření i pečení."
+      },
+      "info": {
+        "cs": "Cuketa (Cucurbita pepo) je letní tykev sklízená ještě nezralá (7-25 cm).\nPochází z Mexika; v Evropě byla popularizována Italy.\nObsahuje přes 90 % vody; je nízkokalorická.\nZkoumaná jako substitut nudlí (zoodles) pro bezlepkovou dietu.\n"
+      }
+    },
+    {
+      "key": "veg.pumpkin",
+      "image": "veg.pumpkin.png",
+      "label": {
+        "cs": "dýně"
+      },
+      "summary": {
+        "cs": "Velká oranžová kulatá tykev; symbol Halloweenu a podzimní kuchyně."
+      },
+      "info": {
+        "cs": "Dýně (Cucurbita maxima nebo pepo) pochází z Ameriky.\nJe bohatá na beta-karoten a vitamíny A a C.\nHalloweenská řezbářská tradice (jack-o'-lantern) pochází z Irska.\nSemena dýně jsou výborným zdrojem zinku, hořčíku a rostlinného proteinu.\n"
+      }
+    },
+    {
+      "key": "veg.squash",
+      "image": "veg.squash.png",
+      "label": {
+        "cs": "tykev"
+      },
+      "summary": {
+        "cs": "Různotvará zimní tykev; základní zelenina podzimní kuchyně."
+      },
+      "info": {
+        "cs": "Zimní tykev (Cucurbita) zahrnuje butternut, acorn, delicata a kabocha odrůdy.\nVytváří tvrdou slupku chrání měsíce; lze ji skladovat celou zimu.\nJe bohatá na vitamíny A, C a komplex B.\nVýznamný v jídle indiánů ve Třech sestrách (corn-beans-squash) systému.\n"
+      }
+    },
+    {
+      "key": "veg.beet",
+      "image": "veg.beet.png",
+      "label": {
+        "cs": "červená řepa"
+      },
+      "summary": {
+        "cs": "Tmavě červená kulatá kořenová zelenina; barvivo i potravina."
+      },
+      "info": {
+        "cs": "Červená řepa (Beta vulgaris) obsahuje betanin, silný přírodní červený pigment.\nJe bohatá na dusičnany, které zvyšují sportovní výkon a snižují krevní tlak.\nCukorná řepa je jiná odrůda; je zdrojem bílého cukru.\nRůžová moč (beeturia) po konzumaci červené řepy je harmlesní fenomén.\n"
+      }
+    },
+    {
+      "key": "veg.radish",
+      "image": "veg.radish.png",
+      "label": {
+        "cs": "ředkev"
+      },
+      "summary": {
+        "cs": "Malá pálivá červená kořenová zelenina; aperitiv a jarní lahůdka."
+      },
+      "info": {
+        "cs": "Ředkev (Raphanus sativus) je rychle rostoucí kořenová zelenina.\nMalá zahradní ředkev je červená; velká zimní ředkev bývá bílá (daikon).\nObsahuje glukosinoláty s antibakteriálními vlastnostmi.\nV Japonsku je daikon ředkev základní kuchyňskou ingrediencí.\n"
+      }
+    },
+    {
+      "key": "veg.turnip",
+      "image": "veg.turnip.png",
+      "label": {
+        "cs": "vodnice"
+      },
+      "summary": {
+        "cs": "Bílo-fialová kulatá kořenová zelenina; stará středoevropská potravina."
+      },
+      "info": {
+        "cs": "Vodnice (Brassica rapa) je kořenová zelenina příbuzná řepě.\nByla základní potravinou Evropy před příchodem brambor ze Západní Ameriky.\nObsahuje vitamín C, vápník a vlákninu.\nVegetariánská alternativa masa; vodnicová polévka je tradiční středoevropský recept.\n"
+      }
+    },
+    {
+      "key": "veg.celery",
+      "image": "veg.celery.png",
+      "label": {
+        "cs": "řapíkatý celer"
+      },
+      "summary": {
+        "cs": "Křupavá zelená zelenina s intenzivním arómatem; nulové kalorie?"
+      },
+      "info": {
+        "cs": "Řapíkatý celer (Apium graveolens) pochází ze Středomoří.\nJe tvrzeno, že konzumace celeru spotřebuje více kalorií při trávení, než dodá; faktualizací se to neprokázalo.\nJe základem trojice francouzské kuchyně: mirepoix (cibule, mrkev, celer).\nCelerová šťáva je populárním detoxifikačním nápojem.\n"
+      }
+    },
+    {
+      "key": "veg.leek",
+      "image": "veg.leek.png",
+      "label": {
+        "cs": "pórek"
+      },
+      "summary": {
+        "cs": "Velká mírná cibulová zelenina; základ polévek a ragú."
+      },
+      "info": {
+        "cs": "Pórek (Allium ampeloprasum) je příbuzný cibuli a česneku.\nJe národním symbolem Walesu; Welšané ho nosí na svátek sv. Davida.\nObsahuje alicin a vitamíny K a C.\nPórkové polévky jsou tradiční v britské, francouzské a české kuchyni.\n"
+      }
+    },
+    {
+      "key": "veg.asparagus",
+      "image": "veg.asparagus.png",
+      "label": {
+        "cs": "chřest"
+      },
+      "summary": {
+        "cs": "Jemné jarní výhonky; delikátní sezónní zelenina."
+      },
+      "info": {
+        "cs": "Chřest (Asparagus officinalis) je jedno z nejcenějších jarních zelenin.\nBílý chřest se pěstuje bez slunce; je jemnější než zelený.\nPo konzumaci způsobuje charakteristický zápach moče u 20-40 % lidí (asparagusine).\nJe tradiční oblíbenou zeleninou v německé (Spargel) a francouzské kuchyni.\n"
+      }
+    },
+    {
+      "key": "veg.artichoke",
+      "image": "veg.artichoke.png",
+      "label": {
+        "cs": "artyčok"
+      },
+      "summary": {
+        "cs": "Velká zelenou bodlák-zelenina; jíme jen zárodky kvítků."
+      },
+      "info": {
+        "cs": "Artyčok (Cynara cardunculus var. scolymus) je vlastně zárodek velké bodlákové rostliny.\nJí se srdce (bottom) a masité základy šupin.\nOchutí drinky; proto Cinzano a Cynar vermut obsahují artyčokový extrakt.\nJe bohatý na inulín, prebiotikum podporující zdraví střev.\n"
+      }
+    },
+    {
+      "key": "veg.peas",
+      "image": "veg.peas.png",
+      "label": {
+        "cs": "hrách"
+      },
+      "summary": {
+        "cs": "Drobné zelené kuličky v lusku; jarní symbol jemnosti."
+      },
+      "info": {
+        "cs": "Hrách (Pisum sativum) je luštěnina pěstovaná od pravěku.\nGregor Mendel zkoumal hrách ve svých pokusech o dědičnosti (1856-1863).\nMoroví hrách (snow peas) se jedí celý lusk; cukrový hrách (sugar snap) je sladší.\nJe bohatý na rostlinný protein, vitamíny a vlákninu.\n"
+      }
+    },
+    {
+      "key": "veg.green_beans",
+      "image": "veg.green_beans.png",
+      "label": {
+        "cs": "fazolové lusky"
+      },
+      "summary": {
+        "cs": "Dlouhé zelené lusky fazole; sklízejí se nezralé."
+      },
+      "info": {
+        "cs": "Fazolové lusky (Phaseolus vulgaris) se sklízejí ještě nezralé.\nNazývají se také french beans, string beans nebo bobby beans.\nObsahují vitamíny C, K a folát.\nBlanchované a restované s mandlemi jsou klasickým americkým garniturním pokrmem (green bean casserole).\n"
+      }
+    },
+    {
+      "key": "veg.lentils",
+      "image": "veg.lentils.png",
+      "label": {
+        "cs": "čočka"
+      },
+      "summary": {
+        "cs": "Malé ploché luštěniny; základní zdroj proteinu v bezmasé stravě."
+      },
+      "info": {
+        "cs": "Čočka (Lens culinaris) je jedna z nejstarších luštěnin; pěstovaná 10 000 let.\nExistuje v červené, zelené, hnědé a černé (beluga) odrůdě.\nBez máčení lze vařit za 20-30 minut; je rychlejší než fazole.\nJe základním zdrojem proteinu v indické kuchyni (dal, dahl).\n"
+      }
+    },
+    {
+      "key": "veg.chickpeas",
+      "image": "veg.chickpeas.png",
+      "label": {
+        "cs": "cizrna"
+      },
+      "summary": {
+        "cs": "Kulatá béžová luštěnina; základ hummusu a falafel."
+      },
+      "info": {
+        "cs": "Cizrna (Cicer arietinum) je oblíbenou luštěninou Blízkého Východu a Indie.\nJe základem hummusu (cizrnová pasta) a falafel (smažené kuličky).\nBohatá na rostlinný protein; populárna v veganské a vegetariánské stravě.\nVoda z cizrny (aquafaba) nahrazuje vaječný bílek v pečení.\n"
+      }
+    },
+    {
+      "key": "veg.sweet_potato",
+      "image": "veg.sweet_potato.png",
+      "label": {
+        "cs": "batát"
+      },
+      "summary": {
+        "cs": "Oranžová sladká hlíza; netradiční bramborový příbuzný ze subtropů."
+      },
+      "info": {
+        "cs": "Batát (Ipomoea batatas) pochází z Jižní Ameriky; nesouvisí botanicky s bramborem.\nJe bohatý na beta-karoten, vitamíny A a C a vlákninu.\nOranžová barva dužiny je způsobena beta-karotenem.\nJe staletím základní potravinou v africké, asijské a latinskoamerické kuchyni.\n"
+      }
+    },
+    {
+      "key": "veg.yam",
+      "image": "veg.yam.png",
+      "label": {
+        "cs": "jam"
+      },
+      "summary": {
+        "cs": "Velká škrobová tropická hlíza; zaměňována s barátem."
+      },
+      "info": {
+        "cs": "Jam (Dioscorea) je velká škrobová hlíza tropických oblastí Afriky, Asie a Karibiku.\nLiší se od barátu: jam je sušší, škrobovitější a méně sladký.\nMůže vážit až 70 kg.\nJe základní potravinou v subsaharské Africe, kde se pěstuje přes 95 % světové produkce.\n"
+      }
+    },
+    {
+      "key": "veg.ginger",
+      "image": "veg.ginger.png",
+      "label": {
+        "cs": "zázvor"
+      },
+      "summary": {
+        "cs": "Knoflíkovitý kořen s pálivou a aromatickou chutí."
+      },
+      "info": {
+        "cs": "Zázvor (Zingiber officinale) je kořen rostliny pocházející z tropické Asie.\nObsahuje gingerol, látku zodpovědnou za pálivost a protizánětlivé vlastnosti.\nVýzkumy prokazují účinnost zázvoru při nevolnosti a žaludeční nevolnosti.\nZázvorový čaj, zázvorové pivo a zázvorové sušenky (gingerbread) jsou populárními produkty.\n"
+      }
+    },
+    {
+      "key": "veg.parsley",
+      "image": "veg.parsley.png",
+      "label": {
+        "cs": "petržel"
+      },
+      "summary": {
+        "cs": "Jasně zelená bylina; garnitura i aromatická přísada."
+      },
+      "info": {
+        "cs": "Petržel (Petroselinum crispum) je hojně používána jako koření a garnitura.\nObsahuje více vitamínu C než pomeranče (váhově).\nExistuje hladká (plochá) a kudrnatá odrůda; kuchaři preferují plochou pro silnější chuť.\nVe starověkém Řecku byla petržel spojena se smrtí; na rakvi se pokládaly petržele.\n"
+      }
+    },
+    {
+      "key": "veg.chili",
+      "image": "veg.chili.png",
+      "label": {
+        "cs": "chilli"
+      },
+      "summary": {
+        "cs": "Pálivá červená nebo zelená paprika; základ pikantní kuchyně."
+      },
+      "info": {
+        "cs": "Chilli paprika (Capsicum annuum a spol.) je velmi pálivá odrůda papriky.\nPálivost způsobuje kapsaicin; měří se Scoville stupnicí (jalapeño: 2 500-8 000 SHU, carolina reaper: 2 000 000+ SHU).\nEvoluční funkce kapsaicinu: odradit savce, nikoli ptáky (kteří šíří semena).\nÁzijská, mexická a indická kuchyně jsou bez chilli nepředstavitelné.\n"
+      }
+    },
+    {
+      "key": "veg.spring_onion",
+      "image": "veg.spring_onion.png",
+      "label": {
+        "cs": "jarní cibulka"
+      },
+      "summary": {
+        "cs": "Jemná cibule s bílou bází a zelenými stonky; salátová přísada."
+      },
+      "info": {
+        "cs": "Jarní cibulka (Allium fistulosum nebo Allium cepa) je sklízena ještě nezralá.\nJe jemnější a méně pálivá než cibule.\nPoužívá se v asijské kuchyni jako garnitura, v saltech a polévkách.\nVynikající surová i tepelně upravená.\n"
+      }
+    },
+    {
+      "key": "veg.kale",
+      "image": "veg.kale.png",
+      "label": {
+        "cs": "kapusta kadeřavá"
+      },
+      "summary": {
+        "cs": "Tmavě modrá kadeřavá listová zelenina; superpotravina."
+      },
+      "info": {
+        "cs": "Kapusta kadeřavá (Brassica oleracea var. sabellica) je velmi výživná tmavě zelená zelenina.\nJe bohatá na vitamíny K, A, C a antioxidanty.\nV 2010s se stala ikonickou superpotravinnou vegetariánů a zdravotního hnutí.\nSyrová kale je hořká; masírováním s olejem nebo blanšírováním zjemníme chuť.\n"
+      }
+    },
+    {
+      "key": "veg.chard",
+      "image": "veg.chard.png",
+      "label": {
+        "cs": "mangold"
+      },
+      "summary": {
+        "cs": "Barevná listová zelenina s pestrobarevnými stonky."
+      },
+      "info": {
+        "cs": "Mangold (Beta vulgaris subsp. cicla) je příbuzný červené řepě.\nExistuje se zelenými, červenými, žlutými nebo duhovými stonky.\nJe bohatý na vitamíny K, A a C a minerály (draslík, hořčík).\nV Čechách byl tradičně pěstovaný; dnes se vrací do módní gastronomie.\n"
+      }
+    },
+    {
+      "key": "veg.endive",
+      "image": "veg.endive.png",
+      "label": {
+        "cs": "čekanka"
+      },
+      "summary": {
+        "cs": "Světlá listová zelenina s hořkou chutí; základ salátů."
+      },
+      "info": {
+        "cs": "Čekanka (Cichorium intybus nebo C. endivia) je zelenina s charakteristicky hořkou chutí.\nBílá barva vzniká pěstováním ve tmě (chicory) nebo od slunce (witloof).\nHořkost je způsobena intybinovými kyselinami; snižuje se blanšírováním.\nBelgická čekanka (witloof) je delikátní jarní zelenina oblíbená ve Francii a Belgii.\n"
+      }
+    },
+    {
+      "key": "veg.watercress",
+      "image": "veg.watercress.png",
+      "label": {
+        "cs": "řeřicha vodní"
+      },
+      "summary": {
+        "cs": "Malá tmavozelená pálivá bylina z vodních toků."
+      },
+      "info": {
+        "cs": "Řeřicha vodní (Nasturtium officinale) roste ve studených potocích a pramenech.\nMá pálivou, pepřovou chuť díky glukosinolátu sinigrin.\nJe bohatá na vitamíny C, K a beta-karoten.\nV Británii je tradiční sendvičová zálivka; ve Francii potage au cresson.\n"
+      }
+    },
+    {
+      "key": "veg.arugula",
+      "image": "veg.arugula.png",
+      "label": {
+        "cs": "rukola"
+      },
+      "summary": {
+        "cs": "Pálivá tmavě zelená salátová zelenina; italský oblíbenec."
+      },
+      "info": {
+        "cs": "Rukola (Eruca vesicaria subsp. sativa) pochází ze Středomoří.\nMá charakteristicky peppery, hořce-pálivou chuť díky glukosinolátu.\nJe základem italské kuchyně; na pizzu se přidává syrová po upečení.\nV Čechách ji budeme znát jako rukolu; v Británii jako rocket.\n"
+      }
+    },
+    {
+      "key": "veg.bok_choy",
+      "image": "veg.bok_choy.png",
+      "label": {
+        "cs": "pak choi"
+      },
+      "summary": {
+        "cs": "Asijská listová zelenina s bílými stonky a tmavými listy."
+      },
+      "info": {
+        "cs": "Pak choi / bok choy (Brassica rapa subsp. chinensis) pochází z Číny.\nJe základní zeleninou čínské, japonské a thajské kuchyně.\nJe bohatý na vitamíny C, K, A a kalcium.\nRychlý způsob přípravy: restování na woku s česnekem a zázvorem za dvě minuty.\n"
+      }
+    },
+    {
+      "key": "veg.kohlrabi",
+      "image": "veg.kohlrabi.png",
+      "label": {
+        "cs": "kedluben"
+      },
+      "summary": {
+        "cs": "Zelenina s kulatou bulvou na stoncích; příbuzná zelí."
+      },
+      "info": {
+        "cs": "Kedluben (Brassica oleracea gongylodes) je zelenina příbuzná zelí.\nJí se bulva (ztloustlý stonek) i listy.\nMá jemnou sladko-křupavou chuť; syrový i vařený.\nNázev pochází z němčiny: Kohl = zelí, Rabi = tuřín.\nJe populární v Indii, Německu a Čechách.\n"
+      }
+    },
+    {
+      "key": "veg.celeriac",
+      "image": "veg.celeriac.png",
+      "label": {
+        "cs": "bulvový celer"
+      },
+      "summary": {
+        "cs": "Velký knoflíkovitý bílý kořen celeru; základ polévek."
+      },
+      "info": {
+        "cs": "Bulvový celer (Apium graveolens var. rapaceum) je odrůda celeru pěstovaná pro kořen.\nMá intenzivní celeriovou vůni a chuť.\nJe základem polévek, celeriového salátu (remoulade) a pečených pokrmů.\nPůvodem ze Středomoří; oblíbený v české, francouzské a německé kuchyni.\n"
+      }
+    },
+    {
+      "key": "veg.parsnip",
+      "image": "veg.parsnip.png",
+      "label": {
+        "cs": "pastinák"
+      },
+      "summary": {
+        "cs": "Krémový bílý kořen; středověká základní zelenina Evropy."
+      },
+      "info": {
+        "cs": "Pastinák (Pastinaca sativa) je kořenová zelenina příbuzná mrkvi.\nByl základní potravinou Evropy před příchodem brambor; nyní je méně běžný.\nMá sladkou, oříškovou chuť; po mrazu ještě zesladne.\nExcelentní pečený nebo v polévce; základ tradičního britského sunday roast.\n"
+      }
+    },
+    {
+      "key": "veg.swede",
+      "image": "veg.swede.png",
+      "label": {
+        "cs": "tuřín"
+      },
+      "summary": {
+        "cs": "Velká fialovo-žlutá kořenová zelenina; skotský haggis companion."
+      },
+      "info": {
+        "cs": "Tuřín (Brassica napus) je kříženec zelí a řepy.\nV Americe se nazývá rutabaga; ve Skotsku je neodmyslitelnou přílohou haggis.\nMá sladkou a jemně kořennou chuť po uvaření.\nJe bohatý na vitamín C a vlákninu; oblíbený v severní Evropě.\n"
+      }
+    },
+    {
+      "key": "veg.fennel",
+      "image": "veg.fennel.png",
+      "label": {
+        "cs": "fenykl"
+      },
+      "summary": {
+        "cs": "Bílá cibule s peříčkovitými vršky a sladkou anýzovou chutí."
+      },
+      "info": {
+        "cs": "Fenykl (Foeniculum vulgare) má sladkou anýzovou chuť díky anetolu.\nJí se bulva, stonky i peříčkovité listy.\nJe základem italské středomořské kuchyně; pesto, saláty a pečená ryba.\nSemena fenyklu jsou koření a digestiv v asijské a italské kuchyni.\n"
+      }
+    },
+    {
+      "key": "veg.okra",
+      "image": "veg.okra.png",
+      "label": {
+        "cs": "okra"
+      },
+      "summary": {
+        "cs": "Zelené žebrované lusky s kluzkou texturou; základ gumba."
+      },
+      "info": {
+        "cs": "Okra (Abelmoschus esculentus) pochází z tropické Afriky.\nJe základem amerického pokrmu gumbo; kluzká textura zahušťuje omáčky.\nNa průřezu tvoří okra hvězdičky.\nJe bohatá na vlákninu, vitamíny C a K a folát.\n"
+      }
+    },
+    {
+      "key": "veg.lotus_root",
+      "image": "veg.lotus_root.png",
+      "label": {
+        "cs": "lotosový kořen"
+      },
+      "summary": {
+        "cs": "Průřez kořene lotusu s krásnými otvory; asijská delikátesa."
+      },
+      "info": {
+        "cs": "Lotosový kořen (Nelumbo nucifera) je podzemní oddenek posvátného lotusu.\nNa průřezu odhaluje symetrické otvory ve vzoru.\nJe základem asijské kuchyně: čínské, japonské a indické.\nObsahuje vitamíny C, B6 a draslík; má chrumkavou texturu.\n"
+      }
+    },
+    {
+      "key": "veg.bamboo_shoot",
+      "image": "veg.bamboo_shoot.png",
+      "label": {
+        "cs": "bambusové výhonky"
+      },
+      "summary": {
+        "cs": "Mladé výhonky bambusu; křehká asijská zelenina."
+      },
+      "info": {
+        "cs": "Bambusové výhonky jsou mladé výhonky bambusu sklízené brzy po vyrašení.\nJsou základem čínské, japonské a thajské kuchyně.\nČerstvé výhonky obsahují kyanid a musejí být vařeny; konzervované jsou bezpečné.\nJe nízkokalorické a bohaté na vlákninu.\n"
+      }
+    },
+    {
+      "key": "veg.taro",
+      "image": "veg.taro.png",
+      "label": {
+        "cs": "taro"
+      },
+      "summary": {
+        "cs": "Velká škrobová hlíza s fialovými skvrnami; tropická základní potravina."
+      },
+      "info": {
+        "cs": "Taro (Colocasia esculenta) je tropická hlíza pěstovaná 10 000 let.\nJe základní potravinou Polynésie, Afriky a Asie; havaijské poi je fermentované taro.\nMá lehce oříškovou chuť; fialové skvrny v dužině jsou vizuálním symbolem.\nSyrové taro obsahuje šťavelany způsobující pálení; vaření je nutné.\n"
+      }
     }
   ]
 }

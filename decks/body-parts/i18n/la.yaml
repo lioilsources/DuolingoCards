@@ -2,18 +2,82 @@ lang: la
 pivot: false
 title: Partes corporis
 cards:
+  body.ankle:
+    label: taliocurruculum
+    summary: Articulatio connectens pes cum peroneo; frequentissime vulnerabilis articulus.
+    info: Tibiapedis articolatio est interligamentum pedis et cruris ex tribus ossibus compositum quae movet plantam sursum deorsumque atque parvas laterales motiones permittit. Luxatio talocruralis communissima lésio athletica dicitur.
+  body.arm:
+    label: bracchiō
+    summary: Membru superior ab humero ad carpe.
+    info: 'Braccium est membrum superius constitutum tribus partibus: brachio, antibrachio et manu. Continet plus quam triginta musculos ossa atque tendones motuum causam agentes. Ossa brachiī (humerus), antibrachiī autem sunt radius ac ulna connectentur articulo cubiti.'
+  body.back:
+    label: dorsum
+    summary: Pars posterior corporis humani.
+    info: Dorsum est pars posterior torvis ab collis ad femoris partem superior eminet. Includit columnam vertebralem cum tribus et triginta vertebris circumdata musculorum dorsalis. Dolor lumbosacralis communiter causatur incapacitate laborali.
+  body.belly_button:
+    label: umbilicus
+    summary: Cicatrix mediae partis abdominis post sectionem funis.
+    info: Umbiliculus est cicatrix ubicus funis umbilicalis erat adhaerens fetus uteri mater misit nutrimenta. Forma eiusdem loci dependet ab eo quomodo cauterizatum fuerit. Umbilicum habitat communitas microbica specifica et studia notaverunt bacterias singulares.
+  body.bone:
+    label: ossa
+    summary: Durus textilium ligamentariorum genitus structuras formans.
+    info: Os est durum et consistit ex cellulis osseis atque salibus mineralibus calcem phosphorumque continentibus. In adulto sunt ossa duo centena sexdecim numero; puer plura trescentos superat quae multoties concretae sunt vel considuntur. Medulla ostia rubra globuli alba granulocyticaque productio praebet.
+  body.brain:
+    label: cerebrum
+    summary: Centrūm regiminis corporalis; structurā complexissimē biologicī inter omnia cœli elementa.
+    info: Cerebrum hominis pondus habet proxime unam libram et quattuor uncias atque ultra octoginta sex millia neurōnum continens. In duas hemisphere divisa est cerebri dextra pars corpus laevam gubernat e contrario autem. Duo decima corporalium virium utitur licet tantum duo percenta ponderis totius corpore sit.
+  body.calf:
+    label: crus posterius
+    summary: Parterior regio inferioris cruris inter genu ac mallolium.
+    info: Crus posterior est musculosa pars inferioris cruris inter geniculum et malleolum pedis. Musculus principalis crus posterioris (triceps surae), qui permet saltum et ambulationem ad digitos extenderes, crucialis est pro reversione venæ de membris inferioribus versus cor. Crampae frequentissimœ sunt apud athletas atque mulieres gravida.
+  body.cheek:
+    label: facies
+    summary: Regiones carnosae latere facialis indicant emotiones per ruborem.
+    info: Facies sunt carnosa regiones laterales faciei continens ossa malaria et depósita adipis subcutanei. Rubor facialis est responsum physiologicum spontaneum ad affectus sicut timorem vel motum passionalem. Facies infantium sunt propositio intentionaliter parvula atque pingua quae evolutionem repraesentat adaptationem ut parentale affinitatem excitet.
+  body.chest:
+    label: thorax
+    summary: Parterior toracis portio continens cordis ac pneumones.
+    info: Thorax est pars anterior truncus circumdata costis et sternum protegens organa vitale ut cor atque pulmones.
+  body.chin:
+    label: mentum
+    summary: Partes infra labium inferius.
+    info: Mentum est pars inferior faciei formata mandibula inferiore. Prominentia mentis apud homines notabiliter distinguit eorum speciem inter animalia primate non habens similes cum aliis primatis. Causa existendi menti adhuc subiectus disputatione scientifica.
   body.ear:
     label: auris
     summary: Organum sensus auditus lateralis capitis.
     info: Auris sonoras undas captat et eas ut signa nervosa cerebro transmittit. Similiter continet apparatus equilibrii (systēma vestibularium).
+  body.elbow:
+    label: cubit
+    summary: Articulus flectens manu; ex arcu derivatum.
+    info: Cubitus est artificium exterius inter manus et brachium. Permittit flexionem atque extensionem manuum ac rotationem antebrachi. Curiosum factum hoc cubiti cutis non habere tactus cellulas.
   body.eye:
     label: oculus
     summary: Organ sensus visus cum pupilla colorata.
     info: Oculus humanum distinguere potest approxime decem milliones umbrarum coloris. Retina bacillos continet (ad videndum nocturne) et coni (ad colores conspicuos).
+  body.eyebrow:
+    label: supercilia
+    summary: Stripa pilorum supra singula oculi.
+    info: Supercilium est functio non verbali communicationis et expressione emotionum per motus superciliorum.
+  body.eyelash:
+    label: cili
+    summary: Serie pilorum incurvarum in limite palpebris protectrix visi.
+    info: Cilia sunt breves pila curvata nascens ex limbo palpebrae et oculum protegunt ab pulvere, sudore atque corporibus alienis. Homo adultus habet circa centena ad centenaria quinquaginta pilorum superiore palpebram et media cinquagesima ad septuagensim inferius.
+  body.finger:
+    label: digitus
+    summary: Unus de quinque digitalbus manus
+    info: '{"hint":"unus quinquae digitorum manus","info":"Digitus manuum est unus ex quinque digitis; pollex duas phalanges habet et reliqui tres\u005CnDecem digitos semper habeamus\/habebimus/habebo: combinatio motuum eorum instrumenta operari permittit ut ambularemus, musicam facere atque scribere\u005CFingertprints unici sunt pro singulo homini\u005CDigitus ob densitate tactilium sensorum corporis partibus sensitivissimis esse potest."}'
   body.foot:
     label: pēs
     summary: Inferior pars cruris, qua ambulamus et stationem habemus.
     info: Pēs pondus totius corporis sustinet et possibilitatem ambulationis bicipitam dat. Habet 26 ossa, 33 artaculae et plus quam centum musculi, tendinae et ligamina.
+  body.forehead:
+    label: frōns
+    summary: Anterior pars cranī supra supracilia; locus expressendi passiones.
+    info: Frōntem est pars cranī anterius superciliis et sub lineā pilorum capillōrum sita. Est una ex praeclărissimis regionibus ad exprimens affectus cum rugationes frōntēs anxietatem denuntiant. Multarum gentium culturae signacula vel sigilla fronti applicata sunt symbolicè ut juramenta aut castæ.
+  body.hair:
+    label: pili
+    summary: Filamenta de cuticula capitis.
+    info: Pilim sunt filamenta ex carnatina quae e folliculis capillorum nascuntur super capita humana. Homo medium habet centum millia pilorum per capitale; quotidie cadent inter quotinquaginta et centum. Crescit approxime unam virgam digitorum mensis uno.
   body.hand:
     label: manus
     summary: Partis brachii terminans cum quinque digitis.
@@ -26,11 +90,118 @@ cards:
     label: cor
     summary: Musculus incessanter pulsans sanguinem per totum corpus.
     info: Cor est musculus cavus magnitudinis palmae manus, qui bat medie 70 vicibus pro minuta. Per totam vitam sanguinem ad distantiem triplicis circumferentiae Terrae propellere poterat.
+  body.heel:
+    label: calcanēa
+    summary: Partes inferiores posticae pedis sunt calcanēae.
+    info: Calcāneum est ossis pedis magnī et pondus corporis totius sustinet dum stabimus. Os calcānum cum tendōne Achilles concretur.
+  body.hip:
+    label: lateralis
+    summary: Regio lateralis pelvis; maior junctura ponderosum.
+    info: Lateralis est regio ad latus ossis ilii et articulationem femoris cum osse ischio pubico. Articulatio trochanterica typus spheroidea sustinet pondus corporis dum ambulum fit.
+  body.jaw:
+    label: maxilla
+    summary: Oss is faciei inferiore quae movetur dum aliquid mastico vel locuto.
+    info: Mandība est unica ossis mobilis cranii; permittit manducandum et loquendum per motum dentium inferiorum. Articulus temporomaxillaris interdum dicitur TMJ, qui complexissimus articularius corporis humano esse potest.
+  body.kidney:
+    label: ren
+    summary: Organus parialis qui filtret sanguinem et generetur urina.
+    info: Ren sunt organa bilia cordis formae fabae situata retro cavitate abdominis posteriori. Filtrant plus quam centum octoginta literas sanguinem die et producunt inter unam ac duas litteras urinam; continebunt plures millies unitates filtrationis nephrosque. Ren regitant tensionem arteriam, equilibriam electrolitorum atque productionem globulorum rubrorum.
+  body.knee:
+    label: geniculum
+    summary: Maxima junctura connectens crurem ad suram.
+    info: Geniculum est maior articulus corporis humani et unus ex complexissimis articulturis. Constat ex femore, méniscus genicularius, ligamenta cruciatum anterius atque posterius cum laterali externo internumque. Ad sustinentiam ponderis corporei dum ambulatur vel curras accommodatum.
+  body.leg:
+    label: crus
+    summary: Membra inferiora ab ossiculo coxae usque ad malleolum.
+    info: Crus et pes componunt inferiorem membrem corporis humanum; sunt adaptati ad ambulare binos pedes atque continent musculos fortissimos corpore humanae naturae ut quadriceps femoris.
+  body.lip:
+    label: lābia
+    summary: Unum duarum carnosarum limborum ad ostium buccale.
+    info: Labia sunt duo carnosa musculorum strata circumdentia os labiale. Sunt abundanter innervata et nimis sensilia esse solent. Colorationem eorum exanguinem reddere potest cyanosis quae deficium aerii signare videtur.
+  body.liver:
+    label: hepati
+    summary: Viscus maximum interna corpus humanum; officina chimica viventia sunt hepatis functio multa circa quingenti numero esse videtur."}}"
+    info: '{"hint":"organum magnum abdomine sanguinem purgans","info":{"label":"hepar","summary":"Maximum visceris internorum corporis et officina chimica animalium est hepar.'
+  body.lung:
+    label: pulmo
+    summary: Organothoracicus binarius qui atmosphaeram oxygeno satiet.
+    info: Pulmones sunt organa duo thoracis constituta ex millibus minutorum vesiculae pulmonales quae aerem recipit et oxigenium corpore nostro utilisatur. Superficies totalis membranae alveolaris est circa septuaginta metrorum quadratorum magnitudinis.
   body.mouth:
     label: ora
     summary: Aperitūra in facie ad cibum sumendum et loquendum.
     info: Ora digestīonem incipiunt – dentes cibi fractio sunt, sāliqua eorum resolvunt. Item instrumentum primum sermonis atque communicationis sunt.
+  body.muscle:
+    label: musculus
+    summary: Textura contractibilis permitiens movendi corpus.
+    info: Musculus est textura contractibilis permittens motum corporis. Corpus humanum habet plusquam sexcentos musculos constituentes prope quaranta percent corporei ponderis. Fortissimusmusculus est masseter; parvissimus est tensor tympani auriculae mediae.
+  body.nail:
+    label: unguis
+    summary: Durum lamina ex queratino ad finem digitorum.
+    info: Unguis est laminum durum ex queratino terminans digitos utrosque manus et pedis. Protegit extremitates sensibiles digitorum ac auxit prehensionem parvorum obiecti. Crescit circa tria millimetric per mensiem velocius apud manuum unguiculae quam apud pes.
+  body.neck:
+    label: collum
+    summary: Partes corporis connectent collegit capit ad truncus;
+    info: Collum est regio inter cranium et thoracem continens septem vertebrae cervicales. Per hanc regionem transit structura vitalis ut arteriae, esophagus, larynx et medulla spinalis. Continet musculos permittentes caput moveri atque inclinari.
   body.nose:
     label: naris
     summary: Organ olfactionis et respirationis in medio faciei.
     info: Nasus aer inspiratum filtra, caloret et humidificat. Differentiat plus unius billionis odorum distinctorum et cum memoria et affectibus strictim coniunctus est.
+  body.palm:
+    label: Palmus
+    summary: Internae manus superfacies cum maximis tactilem receptors.
+    info: '{"hint":"palma","info":"Palma est superficies interna manus inter digitos et carpium articulationem\u00b4 \"Continet densam reteceptorium tactilium Meisneriana corpusculorum\"\u00bb\u00e9 Palmas non habent pilifera follicula nec glandulas sebacias\u00c7 Chiromantria palmariorum lectio linearum fate futurae antiquitatis practica est\", "label": "palmus", "summary": "Superficies interna manuum\u00b5 regio receptoria tactilia denso."}'
+  body.shoulder:
+    label: bracchion
+    summary: Articulus connectens manus corpusque cum maximorum movendi spatii.
+    info: Humeralis articulatio maximum motus omnibus corporum artulationes habet et globosam formam scapulae cavitas cum humeri capite componit. Instabilis est brachium quod ad luxationem propensius fit.
+  body.skin:
+    label: cutis
+    summary: Maximus corpus organon; protegit, regulat calorem et sentiat.
+    info: Cutis est maior organis corporalis humani et ambit superficiem proxime duos metra quadratos. Functiones eius sunt protectio ab infectione atque radiatio ultravioletta, regulation thermica, tactus sensibilis ac productio vitaminum D. Renovo cellulas extera strata circa biennium vel quattuor hebdomas consumit.
+  body.spine:
+    label: columna vertebralis
+    summary: Colonna ex tribusdecim triumque ossibus constans quæ spina protectet atque corpori subsistit.
+    info: '{"label":"columna vertebralis","summary":"Columnae spinalis cum 33 vertebribus medullam protegens et corpus sustinentem."}'
+  body.stomach:
+    label: ventriculum
+    summary: Partes anteriores corporis infra torax locatam designare potest autem tum id quod stomachum significatur.
+    info: 'Abdomen est pars anterior truncus inter thoracis et pelvis regione situata. Hic sunt viscera digestiva: ventriculus, intestina, ficcus hepatis, pancreas ac splenium. Musculorum abdominalium functio consistit in stabilizationem columna spinalis atque protectionem organon.'
+  body.temple:
+    label: tempora
+    summary: Regio mollilina lateraliter frontalis supra fauces.
+    info: Tempora sunt regiones laterales capitis super faciem osseam et ante auriculas. Anatomiciter istae partes cranii molles sunt squamosa temporo ossium cranius atque vulnerabiles ad percussiones. Arteriae temporales bene palpabilur cum pulsationibus cordis.
+  body.thigh:
+    label: os femoral
+    summary: Parte pedis inter coxam et genu; maximus aggregatum muscularium.
+    info: 'Fems est pars inferioris membri inter articulationes coxae et genus. Continet fortissimam musculorum grupum corporis humano: quadricepsem femoris atque hamstrings. Os femorale longissimum ac robustissimum corpus humanum.'
+  body.throat:
+    label: guttur
+    summary: Cavitatem inter ore cum cardia ac tracheae.
+    info: |-
+      Guttur est cavitas post nasum et os servans ut viam aeris atque alimentorum transitus.
+      Includit tonsillos partem systematis immunitarii esse.
+      Reflexus gag refert corpora aliena aspirare prohibere.
+  body.thumb:
+    label: pollex
+    summary: Brevis et robusta manus digitus; motus oppositus clavis adprehensionis.
+    info: Digitus brevis et crassus manus est capax oppositionis cum reliquis digitis manuum. Motio oppositiva pollicis fuit adaptationem cruciaria utensilium manipulatione humana per evolutionem acquisita atque praesens tantum apud simios.
+  body.toe:
+    label: digitus pedis
+    summary: Unus de quinque digitis pedis.
+    info: Digitus pedis est unus ex quinque digitis pedis. Hallux vel pollex pedis fundamentaliter ad pondus sustinent et equilibriam servandam contribuit dum ambulatur.
+  body.tongue:
+    label: lingua
+    summary: Musculosa pars intra os pro gustu digestione loquendo.
+    info: Lingua est musculus tegitus papillis gustativis plus minus centum milibus et permittit perceptionem quinque fundamentorum saporem dulce salinis acidi amari et umamii. Est necessarius ad articulationem verborum et deglutitionem. Lingua celerior omni alio corpore humano velocius quam centena millia passuum per horam.
+  body.tooth:
+    label: dens
+    summary: Structura durus intra os ut masticationi alimentorum.
+    info: Dens est structura durus composita ex enamelio (tela corporis fortissima), cemento et camera pulpare. Homo adultus habet tricesimum duo densum permanentium. Enamel post eiusdam amissionem non renovatur; praeventione curationis crux est. Antiqui homines den tes sunt duos millia annorum antiquiores atque ad evolutionem reconstructionem auxiliarunt.
+  body.vein:
+    label: vena
+    summary: Conductus qui sanguinem deoxygynatum ad cor fert.
+    info: Vena est vasculum quod sanguinem ad cor ducat. Venae clapes habent ut regurgitationem sanguinis prohibeat et differentes sunt ab arteriis.
+  body.wrist:
+    label: cubitum
+    summary: Articulus qui jungit manum cum antebrachio; essentialis motui finito.
+    info: Cubitus est regio connectens manum cum antebrachium et formata ex octo ossibus minutis (ossa carpalia). Permittere movimentum manus ad quattuor latera atque rotationem. Tunnel carpale vel canalis strictus cubiti potest causare syndrome tunnelis carpolici sub gravamine excessivo.

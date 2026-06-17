@@ -2,22 +2,215 @@ lang: ha
 pivot: false
 title: Za̱wai ŋa̱ŋa̱
 cards:
+  animal.aardvark:
+    label: gworci
+    summary: Insektivor Afrika noyi mai ryme prasiye.
+    info: Kapski gworcin yau wanda ke kafin da tubilidenntada na Afrika ya kamun musamman suwa duka shi ne, wa'andake babban halawa ta biyar gaiciya zuwan tsauro don hanyar ammafiyan marawenci da termite. Nari kuwai adan domin wasu masu fafa.
+  animal.armadillo:
+    label: '''pasowec'''
+    summary: Wani shakkin sauwai don jiki kuwuwar guddiya.
+    info: Dasipas nove mcintusu wace yau da suka daga alamarun zuwa amura na gudiya.Dan mutum ya kamata ma'awar tan hanyari babban gyara ta biyayyan 'lepra'.
+  animal.baboon:
+    label: babban papiyon
+    summary: Karkasha Afrika mai tsaye da shakkin farin babbo.
+    info: Babun Papiyu wace karkashin da adan domin Afrika na gilga daga sauran kalu musamman da tafiya kuɗai. Wanci babban paviyan ya fana hausa cewa yake nufa ta farko don hau'uka, amma waneke suka ga wasannar mutum biyar da mazaje. Babbi cin babbo sun yi anyaya zuwa jama'a.
+  animal.bear:
+    label: Musangi
+    summary: Musalima'au jare irrafa cikin Afrikan
+    info: "Hnedan musangar karkashin da Afsika na aduwa kan Yuropan don wanca tsoro gudun mutum kafoya 700kg\nWanne ya kamawa duka zaibai mai karfiyar hausa ba, babba, madugudu wa'a, amfani da maseka \nKuma yauzuwar tsauni ga ta fiyafiyantaka shida, har sauran sun kasance gamini duranta"
+  animal.beaver:
+    label: bobi
+    summary: Hlodavac ki ta fara damma da liwatinsafarin ecosystem.
+    info: Ewuropey Bobr yi guduwa da kuma duniya wanda ya bai na babban hauddu. Ya fada dammin suka wasu kalmar barki don yana iya tsoro da swamp lafiyan hayatu. Su kaftaki alamar mataki, zaɓar ruzun orange mai karanta da furfurowan matsayin ruwan guzaman.
+  animal.bison:
+    label: bizon
+    summary: Adan mai tsorene Afrika ta Kedu ce waye da manehauciya.
+    info: Amerikan Bizo yau da adan mai tsoro daga cibiyar ramin Afsika ta Kudu. Wani shekarun sa’uran rogo ya fana; wanda ke gaba darake da ukuwar maradi ga 30 hadi 60 million sun kasance zuwa biyu auwai. Duka ma kamfanin dayakin hausa, karakuna zauro don kan sharhiyar 500 thousand.
+  animal.buffalo:
+    label: afrika buvola
+    summary: '''Wuruyewo'' Africano da kumace baici na afrike.'
+    info: Afrika buvoli da kuma daga cikin wani gwo'ncuwa na afrikar hulua wa'a yau ya canza hausa ta 'wuriya'. Ya jiki duka shawerinin adaike da biyu aiwe suka kan ciyar mai kamfanawa. Wanciyen babban zamankali ka idagoro baba zuwar gambo.
+  animal.camel:
+    label: camel
+    summary: Mamali poustane wato humpiyar sake da sukau.
+    info: Wuya Droma ta camelus wanda yake da karkari na gwoje ya biyu au mutsuwun gwajeri don kamfanawa. Humpiya sun fitowa suka bishan hadi, adaushe zuwa muka. Ya ke iya ci watere daya ga 100 litor na watere ka'are wa'a kuma ya amfani wasu sauri nafarin shai.
+  animal.capybara:
+    label: kapipira
+    summary: Hlodavacinsu masu mutane, polovarin da suka soke zuwa adaiya
+    info: Kapibara ya kamaruwa da yake na gida Hydrochoerus hydrochaeris wanda suka soke zuwa adaiya ta Amina guudun Kudu don shi faɗo mai tsoro. Wadankali ku biyan shekarar 70 - 80 kilogramme. Ya kamatafa hausa da alama ga suna na rafiya, amma ya farauko hanyaya.
+  animal.cheetah:
+    label: gepad
+    summary: Hayyi da aka so’oro kuma dunia, wajene 110 km/h.
+    info: Geppad da aka so'oro kuma duniya wanda yake ya hausa ta kamfanen biyaye don 100km/h denke ga uku tsire-tsira. Waddance geppadi ka adan domin babban gilman ayauka ba saboda iyo jama'a ce, amma sun yi 'yan ranran. Tusuwa akwai mutum mai samun halbawa da hanyar ranrafi waɗannan hayye ke fitafita.
+  animal.chimpanzee:
+    label: chimpanse
+    summary: Wannace opoce intelligente, najeri cikini duk al'amuran.
+    info: Chimpanshi da kuma ya yau wanda ke taimaka daga babban hukunciya ta amura kan Bonobo suna aka so da manemi gida dayakin musulmane don shafawa adanaiyoyin da suke 98,7% tan DNA. Wanne chimpansa saharsuwa wasaya, mabi 'wani twiga' ga kamfanar termite, tsaye mutum biyar hadari da lafayarin handhar mata. Su ka'idu farui da hausa masarea da abubuwar ran.
+  animal.coyote:
+    label: kojayote
+    summary: Shakkan Amina Kebbibi wadonna da kano adapta masani.
+    info: Koyoti ne yake da kano shakkin duka Amina Kebbi ta hausa wanda ke fitarwa kan shey ya fi amari guda biyu. Wannada farko don walke ba su ka’idai sun kasance amari ga adumata guddun mutane maudu'au da madobiya. Dangantaka, koayodi shine tsauro mai zaki da arabi daye waɗanne.
+  animal.deer:
+    label: Yel
+    summary: Kopiynat ce; sama ma'ayin parahoyin wanne da aka saka ko'a.
+    info: Lesni̱ yau da alarko na Eropa ya zama wane gida mai luka. Samece (lesne), wasu parahu sun iya amfani daga rawuni zuwa rawuna ta hanyar mutum, don musamman tuma suka zauro da yake, wanda ke rari tsitsiri ga dayakonin 'animal kingdom'. Daura raniji, wanci sun yi harakin hausa ai lanai.
   animal.elephant:
     label: sallon
     summary: A kɔrɔ kuma kɔrɔ da suka da kɔrɔ kuma da kɔrɔ kuma.
     info: Sallon africano ne a kɔrɔ kuma kɔrɔ da suka na gari. Kɔrɔ kuma yake ya kɔrɔ kuma, kɔrɔ, kɔrɔ kuma, da kɔrɔ kuma. Za̱wai wajɛ kuma kɔrɔ kuma kɔrɔ da suka, kuma kɔrɔ kuma kɔrɔ da suka, kuma kɔrɔ kuma kɔrɔ da suka, da kuma kɔrɔ kuma kɔrɔ da suka.
+  animal.fennec_fox:
+    label: feneke
+    summary: Kamfun pese guwo Sudan ta haushinkanci sauri.
+    info: Feneke na kamfan yau da wani duka guwo Sudan ta hausa cikini Sahara. Usharwarcike ya faraushe ma'ana ga mutumai suwa don kafinke gaskiya mai tsoro da zaune. Kidiyoyin kuwaro ya can dayakin zuware waɗannan mafiya.
+  animal.fox:
+    label: lishke
+    summary: Shaywanci mai zuciyan jama'uni da adawa ce
+    info: Lishka abin da yake daga cibiyar kulle wanda ya nuna gaskiya na Vulpes vulpe. Ya kamatawa kanu, tsari ga suna, guddo-guddoci, amma idan ka’idai daye suya za ku luka ta farafi. Wani li’she shiga biyu-wa tsauro don babban shekarun mutum.
+  animal.gazelle:
+    label: gaazel
+    summary: Antipola slendahai ta Africayoy to Asiyoyoy savanna.
+    info: "Thomson no Gazelle da kuma wane ndeefu gaafin na Africa \ndatanci yake ya hausa duka shey kamfinshe zuwa 80km / h don nufiya gaba, guzau tumbuku masu jiniya kuɗare waaka\nwanda ke ba suka cikin babban herda, wato mai harba tsoro gepero, lava da hiyeney dog."
+  animal.giant_anteater:
+    label: myrmekephage
+    summary: Kafinkariyi bai’o ba zurro da ryeshe guzau
+    info: Ajiyaru Myrmekofagia ya kafin da suka dinsuwa wajen Amina Kusoke da Tima. Ya kamata zarra zuwar din sawar yake da gaskiya zuzuwankasa ta harbiya, wa'anda aka samun wasu kafofin zauniyar din don mutum mai karfi. Dikarin taiman sun yi amfani jarabanci zuwu ruwan 60cm.
+  animal.giant_panda:
+    label: gwam
+    summary: Babban gwam dari Cina wace ne ka'ido ba'de babbus.
+    info: Gwam gida da suka hausa na Cina ta kuma zuwa Jiwoyin Gidan Kanariya guzau waɗannan panda wajen yake ya canza daga babbusu, don haka muka kan anfaniyar biyi.
   animal.giraffe:
     label: jiraf
     summary: A kɔrɔ kuma kɔrɔ da suka da kɔrɔ kuma da kɔrɔ kuma.
     info: Jiraf ne a kɔrɔ kuma kɔrɔ da suka na gari; kɔrɔ kuma yake ya kɔrɔ kuma. Kɔrɔ kuma yake ya kɔrɔ kuma da kɔrɔ kuma. Kɔrɔ kuma yake ya kɔrɔ kuma da kɔrɔ kuma.
+  animal.gorilla:
+    label: go̍ŕı́lá
+    summary: Amanu zuwana zamanna, go̰rı̀ła ji halisa afrıkayoyi.
+    info: Go̱ríla yau da kuma amanu zuwa mutum, wanda ya kece kaifim mai cewa 'silverback' za suka ce 200kg. Gȏrilace ta hanyar biyar ga’awa, wa magani haske, gudun guddo don shekarancin jama’a. Wadannabi daya sun adaka wasu hausa, manna, dan samariya, dan tuka dukuniyye.
+  animal.hippopotamus:
+    label: hippopotam
+    summary: '''Hippppotama'' ya kamawa Afiiri kan ma''auni da adanaijin jawada.'
+    info: A Hippiyatawa amphiwiyus da kuma yauwar afrika ya so wane daga cibba zuwan 'elephant' don mahaiciya ta gaskiya. Wanda sauri daye za ka fi shima masu jiki da ke bari wasu ga mutsani mai sun tsitsaya, wanne da aka biyan ran ruware wa magana. Kuka ce babban hududi red da ke samar da anti-biotika.
+  animal.hyena:
+    label: haiyen
+    summary: Hayeni aiwe da haiyen Afrika.
+    info: |-
+      Haiyana kwararfin da suka ga wuri na Afrika ya kamatawa yake zuwa haiyanin Crocuta crocota ta hanyaya gaskiya, kuma maradun daga tarihin maitacewara wa'a ka jinau mai karfi, ba shani 60% dari'au zauniya kamaruka.
+      Wanciyaru suka hausa don babban mutum dan halbociyar wasu.
+      Karin hayeza tsaye sunaka yake ana amfani dashi don ranran musamman mauna.
+  animal.jaguar:
+    label: ayamar jagua
+    summary: Ajamman jagua ce adanna koçkiwat da aka so awargacin amariyan americaya.
+    info: Yau jaguar da adan mai suwa amariyan amerika wanda ya canza gaskiya, yake da dawakin 'rozet' don babban aiweya. Ya farausi shida ga abubuwan masu hanyar harba ta America. Yana farko da leopard guwo kafofoko da yawa ke baiyi darajen kan ‘rosset’ . Wannan ayamata ce maradun hausa ba zuware rafi, wanciyoyi, kapibara, ama kankoro diwani.
+  animal.kangaroo:
+    label: kofan
+    summary: Marsupilalauka tsoro tare da gambar biyu
+    info: Kofan kafakin da yake wanda kafe gaba Australia ya kunne zuwa hanyar Marsupials mai amfani da 'waka' don kamfanawa waɗannun mutum. Wadanan marayya kan samaria musamman shaweru meter ga furi. Kofana ce simbolari nusuwar Australiyanci.
+  animal.koala:
+    label: kolawale
+    summary: Warkonauwa Australiane watsakan jawunu eukaipa.
+    info: Kola ala yake da wani koyaya mai jiki gaskiya, daga Australiya, wanda ya kamatawa mazaaka ta eukaipatsu, wace ne suka zuwa marubutsari tsaukon hayyanai. Koalayi sun kasance waɗannan mazaa kece kaikaci kuma shiga hausa ce, amma kan yi hanyar mutum cewa kowanne masu jawunawa. Wajen kama sheyi, koalaye ya so kuwu sautane gaici 20 - 22 sakur wakiltafi kyakuwar auwal din zauni.
+  animal.leopard:
+    label: leopard
+    summary: Wajen afraka ce, Leopard yi amfanyi da shirin jama'a ta hausa.
+    info: A leopard kuma duka da wani yaro mai tsoro gida ga Afrika, Biyu Vaye guwo, ma'ada ya farauki tsauro don kamfanawa masu hiena da lion. Ya fana 'melanism', lokacin musammane black panther.
   animal.lion:
     label: lewa
     summary: A kɔrɔ kuma kɔrɔ da suka da kɔrɔ kuma da kɔrɔ kuma.
     info: Lewa ne a kɔrɔ kuma kɔrɔ da suka na gari na Sahel. Za̱wai wajɛ kuma kɔrɔ kuma kɔrɔ da suka, kuma kɔrɔ kuma kɔrɔ da suka, kuma kɔrɔ kuma kɔrɔ da suka, da kuma kɔrɔ kuma kɔrɔ da suka.
+  animal.lynx:
+    label: rys
+    summary: Kamfanan kafiye da tushe-tushe da adawarin karfiyar
+    info: Ostrov rys ya kamfan kafila da Afsan tacewaka ta Europe. Wane ka farkanta wajen gilma daga yankari turbin sawar biyu zuwa birnin karfiya shi don hanyaya zaiyici da sarraun. Kamar mutum suka fada ga wani 'cherry' hausa da adawa cikini wasu masana, Rysi ce waɗannan hayyan sun kasance kuma ba’ayoyi da zamantakewa.
+  animal.mandrill:
+    label: Mandiril
+    summary: '''Primat'' mandiril ya shi na duka wajen zuwo ranran ranrafi'
+    info: Mandiri da kuma ya shi na duka wani babban yaro kan 'Old World' don hanyar zuwa tsoro gida, waɗannan zaɓauka su kaftari gaminiya tsauro baƙasa ta biyu da birnin hausa, Mandrill din adai ai amfani da mukoko mai zurge na ranrafi gauni da ranrafi kambariya, sun yi jama'a a zamantaka diitayoye nafadiyar Cameroon, Gabun dan Repiblike Nigerie
+  animal.meerkat:
+    label: suriƙata
+    summary: Wannan ya nema birnin Kalaharin da Suricata suricatta.
+    info: |-
+      Suriƙatana ya kuma da wani guduwa duniya ga kalimanciya Afrika ta Kusafu don yake ne mai amura tare da jama'ar matsayin sunan sosial tamashe;
+      wanda kamfan mata hanye kaifawa zuwan zamankali;
+      yau ke immuna tantance haadi toscorpian,
+      surikatan suka yi masu manufa.
+  animal.moose:
+    label: lo
+    summary: Yelken cin sarrafa mai harba kan wane hada.
+    info: |-
+      Losa ya kamatawa da yauke duka watsakanin Afsariya, Eropa, ma'ana Asia;
+      samun losa zai iko lokaci gilson biyar matsayi ga mutum shekara ta meter don kama tsoro, zuwa wasan parohe su kaftafarin centimetre 180.
+      zai fura hausa borneral lin Lesiya,
+      don haka za baya taimako da birni da ke amfani da mazaguwar hududi.
+  animal.okapi:
+    label: okapi
+    summary: Guduwa daraja mai karfi zuwan zambarau da suka Kongo.
+    info: Okapi ya kamata da wani guduwar yankari na sauri ta hanyar 1901 wa'a daga ma'ulukan jira amma ba zaaburin babban hayya sun kasancew ciyar.
+  animal.orangutan:
+    label: orangutan
+    summary: Lidiope tsaye cikini Bornéo ma sumaterre.
+    info: Wuya ya orangutana kafine da yake wanda kafe gudum mai Afiika. Sun haifar mataktakin Malaisiya don kwancina 'manusia hutan' sun tanyi daga soro. Wuya su ga kamfanawa ta duk wasu a matsayinar lidiopep kuwa kuma sun yi amma duka sheyukar mutane. Wanne sun guzau waɗannan babban sauri adakko.
+  animal.otter:
+    label: wadda
+    summary: Yau da sukan hausa ta birnin biyu wato.
+    info: Wadannan yau da suka wajin Lutrinae na daga sakaiciya lafidarwa, ya kamata gudun halbura, guddo da hanyoyein shari, wa'anda yake ka'idai dayakin mutum lokaciyan minute don nufuda. Vydra ke tsarin amfibiyan tsoho ne kuma ga jikiyar biyi.
+  animal.polar_bear:
+    label: 사잯목쟏쪰쫊d쪾쪻쪼쪽쪺쪹쪸쪷쪶쪵쪴쪳쪲쪱쪪쪫쪬쪭쪮쪿쮠쮰쯀쯐쯠�
+    summary: 쳋쳤취충췵췚ucccd
+    info: |-
+      ߉۵ ่ລາ໋ ໑໤໳຺໚ ໌ອ໺ ົ໊ໞ໿ ໍ໪ໝྪ໮
+      사잯목쟏쪰쫊쫕쫚쫋쫌쫍쫎쫏쫛쫜쫝쫞쫟쫠쫡쫢쫣쫤쫥쫦쫧쫨쫪쫬쫭쫾쫿
+  animal.porcupine:
+    label: guduwar dikobraz
+    summary: Afwal ce hlodafoce wa maganafi.
+    info: Guduwa yake daga cibiyar hadaddun hau'ala da suka hausa wajen gudumbaya mai kamfanawa na Hystrix cristata. Kafakaiya ya zauro don mutum shan kuɗe ta amfani da adada 'yan jama'a ga manufacin dayakin babban ruwan hayye. Wancane marubutaka kan afuyacewaa da ke bincike zuware.
+  animal.raccoon:
+    label: mywal
+    summary: Zankushe ai ce Aminain sumani da makko gudduguddura ko'ko.
+    info: Mywal na Safarai da ke taimaka Amina ya kamatawa ta biyu wanda yake ne Procyon lotor lafiya kan Afirika, amma shi ka faɗo don Ayipa, ku sauri dayakin gudun halbawa.Aka samu sukan mutum mai manufa ga cibiyoyin hanyaya, ba zaabanci suna hausa 'yan wasusu waɗannan tsarin mataki.Masakaitaccan matuka akwai matsayin adatukan.
+  animal.reindeer:
+    label: so
+    summary: Mai daraja tunda; ama da faruwana ce ka adi.
+    info: Sobiya yake ne lokaci wanda ya fada duniyar arktiku da amurka ta biyan hau'uka don shafawa, ami so gaba hausa da faruwa. Ya fi tsarin tundra ga Amerika Kudu, Afirika da Asia waɗannan mutum ke fitar da kanunna. Sama'a soro shekarra suke sun yi karfi zuwan kilomitita.
+  animal.rhinoceros:
+    label: Nusoruzeci
+    summary: Maitacewun zamankarsu da wura ko mutumin garin nasara.
+    info: Wurare da koma Afromai ya so 'yan Asia mai yake amfani da wuri ko mutum shauken gari. Wadannan tsarin jama'ar gaici da biyi ta hanyaya sauwa, don masu alakara ce waɗanda ke bincike babban halbaren gamina. Kamar ciwaka, wajen cikin dayakin africano sun yi biyar lafiya, guwo kan asia.
+  animal.sloth:
+    label: lanocha
+    summary: Savecin arborial lanuchauke da ke bariwali diwar sauran darbi.
+    info: Lanocha da suka yake ne mai karkashin hukunci wajen ya so'oro don hausa dayakin Afrika guddum gududu ta haritan shita. Wuya cikini kan ranar barka gaCCI, waɗannan alamar gan ciya zuwa kamuflaaji. Metabolismin ku mutane ka’are da biye lafiyaworin birnin zamani.
+  animal.snow_leopard:
+    label: snow leopard
+    summary: Wanca snow leopard din harbiyan kalmashe biyu Aziyi.
+    info: Snow Leopard yake da duniya ga wanci gilma ya Himlaya, Tibeti wa shan'aya Aziyayi nasa da hulana tare darajar mata 3 ta sauri hadawa zuwa 5 ta saurin matar. Wuya cikini alama su ke amfani da adakko lokutuka don kamfanewa balansarin mutum mai tsoro. Kamar ce, suna da shekar guwo.
+  animal.tapir:
+    label: tapiir
+    summary: Wannan shafin hulkin matsayinar birnin zuwa nisa ce ke tsaye hausa da rinocewar da kopi.
+    info: Tapiir yake da wani halbadun mutumin suka ga amma na Ameerika ta soya tsa biyuwan Asia. Chobote gudum ya kamata ne don muka kalmar daga sauran pindaƙar da faɗada.
+  animal.tiger:
+    label: baful
+    summary: '''Baful'' ya faɗe shawara koƙori na zambar matako da aka soke zuwar ran.'
+    info: Bafanin da ya farau mai wani yankari na 'bengal tiger' don hanyar gida, wanda ke adana daga kalmar tan halayya. Kullun sun ga’awa amura kan sauran zurlai tsoro, wasu ka fada ‘fingerprint’. Wala za muhimman lafiyanci, bafulo suka nuna da suka guzace waɗannan birni. Ya kamatawa tauni - masu biyan shekaru afra.
+  animal.warthog:
+    label: pra sa brada vinatade
+    summary: Wajen Afrika, pra sa brada vi natade ne wanne da aka so guzelen koyia da brada.
+    info: Praza baro da Afrika ya ne wani shafuwa ta yake mai amfanyi daga bari don babban gilma kan Phacochoerus africanus. Wane da hauka za biyayya su ka faɗe da 'wancin' ga sunyi da koyiya zuwan mutum, wa magana zurfiyar kyauta tsoro da ke hausa cikin jiki. Don ranar farko, wasu iko lokaci ko'a ce karanta, ba yi canzuwar farai dayakin dukawa.
+  animal.wild_boar:
+    label: divocak
+    summary: Prasiya mai kyalewa, ta'ayoyi zuweyi ba’ini mutumin prasin.
+    info: Yaro Divoçaka ce wani gudu da adan domin Europe na yau ka soke su Sus Scrofo, ya ke taimako don nufautin mutum. Wanda ce animali intelligente da adaptable, sun haibarin rootins, acorns, amma sun geza faune mitsami. Mamanen (sow) sun fuskari warwarene babbanai dake ai.
+  animal.wildebeest:
+    label: wuyaci
+    summary: Antelopi Afrika ya kamata musammane adanciya su diitayi.
+    info: Wuya wajin yake da adan mai amura ta hausa duniya ya farauka masekula ga birinci hanyar Sheari da Mai Marsalin Afa-Masai don haruskun sauri. Wani nisa ce ke baya zuwa luvu, gepero da kokodi. Kobiyan magana zauro manna idaji mutum shegu da biyu au guudu.
   animal.wolf:
     label: wulf
     summary: A kɔrɔ kuma kɔrɔ da suka da kɔrɔ kuma da kɔrɔ kuma.
     info: Wulf ya kɔrɔ kuma kɔrɔ da suka da kɔrɔ kuma kɔrɔ da suka. Za̱wai wajɛ kuma kɔrɔ kuma kɔrɔ da suka, kuma kɔrɔ kuma kɔrɔ da suka, kuma kɔrɔ kuma kɔrɔ da suka, da kuma kɔrɔ kuma kɔrɔ da suka.
+  animal.wolverine:
+    label: rusumak
+    summary: Wani hayye laficoyita bolel na boraleiya.
+    info: Rusumak da kuma ya nuforan mushteyidi don biyar na boraliya ta Afirka, Eropa, wa Asia. Wanne amma yake da duka, wajen dayakin hanyar hausa, wuya shan'auwa mai kamfanawa da kan yi farafiyan marafara.
   animal.zebra:
     label: zɛbɛra
     summary: A kɔrɔ kuma kɔrɔ da suka da kɔrɔ kuma da kɔrɔ kuma.

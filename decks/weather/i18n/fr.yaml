@@ -2,14 +2,146 @@ lang: fr
 pivot: false
 title: Météo
 cards:
+  weather.aurora:
+    label: aurores
+    summary: Phénomène lumineux naturel provoqué par les vents solaires dans la magnétosphère.
+    info: L'aurore boréale ou australe est causée par des particules solaires chargées qui interragissent avec l'atmosphère terrestre et créent des écharpes de lumière vertes, violettes et rouges visibles principalement aux régions polaires comme en Norvège, au Canada ou à l'Irlande du Sud ainsi qu'en Antarctide.
+  weather.avalanche:
+    label: avalanche
+    summary: Massa di neve e ghiaccio che si precipita da una pendice montagnosa.
+    info: Une avalanche est une masse de neige en mouvement rapide sur un versant montagneux. Les avalanches de névé peuvent atteindre des vitesses supérieures à 300 km/h et sont les plus dangereuses. En moyenne, elles tuent environ 150 personnes par an dans les Alpes.
+  weather.blizzard:
+    label: tempête de neige
+    summary: Tempête forte avec chutes intenses de neige et vent rendant la visibilité pratiquement nulle.
+    info: Une tempête de neige est un phénomène météo intense combinant une chute abondante et des vents violents qui réduisent la visibilité à presque néant ('blanchiment'). Elle provoque d'importants accumulations de neige ainsi qu'une très faible ou aucune visibilité au sol.
+  weather.breezy:
+    label: brise
+    summary: Un agréable petit souffle qui apporte fraîcheur sur jours chaudes.
+    info: Une brise est un vent modéré se déplaçant à une vitesse de 6 à 11 km/h selon l'échelle Beaufort (degré 3–4). Elle provoque des mouvements légers dans les feuilles et les cheveux ainsi que chez d'autres objets fragiles ou légères. Physiologiquement elle réduit la sensation thermique en évaporant la sueur.
+  weather.clear:
+    label: ciel clair
+    summary: Un ciel complètement net sans aucun nuage.
+    info: Le ciel dégagé est une situation météo où la couverture nuageuse est inférieure à un huitième du ciel. Cela permet au rayonnement solaire d'être maximal et aux observations astronomiques de se faire dans les meilleures conditions possibles. La nuit sous ce type de ciel favorise l'émission thermique plus intense ; ainsi, les températures baissent rapidement.
   weather.cloudy:
     label: nuageux
     summary: Ciel recouvert de nuages épais sans soleil direct.
     info: Les nuages sont des amas visibles de minuscules gouttelettes d'eau ou de cristaux de glace. Plus de 60 % du ciel terrestre est toujours couvert par les nuages.
+  weather.cold:
+    label: hiver
+    summary: Froid intense avec des températures bien inférieures au point de congélation.
+    info: 'Un froid extrême (-80°C ou plus bas), comme celui observé à la station de l''Antarctique en Antarctide où une température naturelle record est mesurée : -89,2 °C. Le corps réagit au froid par un état d''épiderme contracté et des frissons pour produire du chaud interne.'
+  weather.dew:
+    label: Rosée
+    summary: Gouttelettes d’eau formées par la condensation nocturne.
+    info: La rosée est l'eau qui condense de l'air sur des surfaces froides pendant les nuits calmes. Elle apparaît lorsque la température du sol tombe en dessous du point de rosée. C'est une importante source d'eau pour les plantes et animaux dans les régions arides ; par exemple, les bergers au désert d’Atacame collectent la brume matinale à travers des filets.
+  weather.drizzle:
+    label: brouillard
+    summary: Pluie très légère sous forme de minuscules gouttes.
+    info: |-
+      Le brouillard est une précipitation composée de gouttelettes extrêmement fines inférieures à 0,5 mm.
+      Il provient non pas des nuages convectifs Cumulonimbus mais d'une couverture stratoforme basse.
+      C'est caractéristique du climat océanique comme en Grande-Bretagne ou dans l'extrême nord-ouest de la France.
+      Bien que subtil au toucher, il peut entraîner un imbibage marqué.
+  weather.drought:
+    label: Sécheresse
+    summary: Manque persistant de pluie causant un manque d'eau.
+    info: La sécheresse est une situation météorologique caractérisée par un déficit prolongé de précipitations. Elle entraîne des pertes agricoles, la pénurie d'eau et les incendies.
+  weather.dust_storm:
+    label: tempête de sable
+    summary: Un mur de poudre transporté par une forte brise en zones très sèches.
+    info: Une tempête de poussière est créée lorsque des vents forts soulèvent des particules terrestres fines dans l'air. En Afrique du Sahara on appelle ce phénomène 'harmattan'. La poussière saharienne traverse régulièrement l’Atlantique et atteint l'Afrique ; selon certaines recherches elle aurait un impact sur la forêt amazonienne.
+  weather.flood:
+    label: inondation
+    summary: Débordement de l'eau hors du lit normal vers une zone habituellement sèche.
+    info: Une inondation se produit en cas de fortes précipitations, fonte excessive de la neige ou rupture d'une digue. Les inondations sont les catastrophes naturelles les plus coûteuses au monde. En Tchéquie, celles survenues en 1997 et 2002 ont causé des dégâts estimés à plusieurs milliards ainsi que dizaines de morts. Des mesures écologiques anti-inondations comme marais et forêts réduisent efficacement ce risque.
   weather.foggy:
     label: brouillard
     summary: Brouillard épais au niveau du sol réduisant la visibilité.
     info: Le brouillard est composé de gouttelettes d'eau à l'interface entre le sol et l'atmosphère. Il se forme lorsque l'humidité relative est élevée et il diminue la visibilité en dessous de 1 kilomètre.
+  weather.freezing:
+    label: '"gel"'
+    summary: Des températures sous point conglomérant provoque congélations.
+    info: "{\"hint\":\"température en dessous de 0\\xa0°C ; tout gèle\",\"info\":\"Le gel survient à des températures inférieures à 0 \\xb0 C où l'eau devient glace. \nIl menace biologiquement les plantes et la formation du verglas cause des accidents routiers.\nLes plus fortes chutes sont typiques pour janvier tchèque (minimum historique autour de moins 42 \\xb0 dans les environs de Lvov en 1929). La neige est un état solide d’eau dont la production dépend de la température atmosphérique et des noyaux condensants.\"}"
+  weather.frost_flowers:
+    label: fleurs de glace
+    summary: Des cristaux magnifiques s'épanouissant sous forme florale sur des supports gelés.
+    info: Les fleurs de glace sont des formations cristallines formées par la congélation d'humidité sur des surfaces très froides. Elles créent des motifs complexes et détaillés à l'image du pôle Nord marin. Ces structures ont une beauté visuelle extraordinaire qui en fait un sujet populaire pour les photographies naturelles.
+  weather.frosty:
+    label: matinal
+    summary: Gel matinal ; des cristaux de glace recouvrent plantes et terre.
+    info: 'La givre se forme lorsque la température de surface descend en dessous du point de gel et que l''humidité atmosphérique cristallise. Elle crée des motifs magnifiques sur les feuilles, verres et surfaces terrestres. Contrairement au glace blanche : le givre est une formation directe d''eau gazeuse à état solide par dépôt surfacique sans passer par un liquide intermédiaire.'
+  weather.gloomy:
+    label: gris
+    summary: Météo couverte noire avec un climat déprimant.
+    info: Le temps gris caractérise des nuages bas et sombres ainsi qu'une lumière tamisée dans une ambiance froide ou pluvieuse. Il évoque souvent la tristesse et l'automne. Le TPAZ (Trouble Adaptatif Saisonnier en français), provient d'un manque de soleil pendant les mois hivernaux.
+  weather.hailing:
+    label: grêle
+    summary: Précipitations sous forme de grenaille ; elles causent des dommages aux cultures et aux voitures.
+    info: La grêle est une précipitation composée de grains de glace formés dans les nuages d'orage. Les grenades se forment lorsque des gouttes d'eau traversent répétitivement la partie chaude et froide du nuage. Elles peuvent atteindre un diamètre supérieur à 10 cm et causer des dégâts importants sur l’agriculture, les véhicules ainsi que toits.
+  weather.haze:
+    label: brume
+    summary: Réduction de l'atmosphère transparente due à du pollen, fumées ou autres éléments.
+    info: La brume est une réduction de la visibilité causée par des poussières fines ou des pollutions industrielles et urbaines.
+  weather.heat_lightning:
+    label: Éclats lumineux
+    summary: Des lueurs lointaines sans tonnerre perceptible.
+    info: Les éclairs thermiques sont des étincelles d'orages distants dont on n’entend pas le tonnerre à cause de leur grande distance. Le nom est trompeur ; il ne désigne aucun type particulier d’éclair causé par la chaleur.
+  weather.heat_shimmer:
+    label: Mirage
+    summary: Déformation optique de l'air au dessus des surfaces chauffées ; illusion visuelle.
+    info: Le Mirençe est un phénomène visuel causé par la réfraction de la lumière dans des couches d'air chaud ascendant. L’air au-dessus du bitume ou du désert étant moins dense que celui en altitude, les rayons lumineux s’y courbent et créent une illusion comme celle d’une flaque sur une route chaude. Un fata Morgana correspond à ce type plus complexe de mirage provoqué par des inversions thermiques.
+  weather.heatwave:
+    label: vague de chaleur
+    summary: Longue période anormalement chaude ; risque sanitaire.
+    info: Une vague de chaleur est une longue période de températures excessivement élevées dépassant les valeurs saisonnières habituelles. La vague record en Europe en 2003 causa plus de 70 000 décès prématurés et fut particulièrement dangereuse pour personnes âgées, enfants ou malades.
+  weather.hot:
+    label: chaleur
+    summary: Chaleur excessive causant des désagréments et des risques sanitaires.
+    info: Une chaleur extrême est un phénomène météorologique où les températures dépassent nettement la moyenne saisonnière. En combinaison avec l'humidité de l’air elle peut provoquer une insolation pouvant mettre en danger sa vie.
+  weather.humid:
+    label: Humidité
+    summary: 'Air chargé en vapeur d’eau : sensation chaude et étouffante.'
+    info: L'humidité mesure la quantité de vapeur d'eau dans l’air. Une humidité relative à 100% signifie que l’air est saturé ; au-delà, il y aura condensation. Un taux élevé augmente le sentiment de chaleur car la sueur s’évapore moins facilement.
+  weather.hurricane:
+    label: ouragan
+    summary: Ouragan puissant avec des vents dépassant les 120 km/h.
+    info: |-
+      Un ouragan est un cyclone tropical dans l'Atlantique et l'Océan pacifique oriental avec des vents supérieurs à 120 km/h.
+      Appelé aussi typhon (Océan pacifique occidental) ou cyclone (océan Indien)
+      L'énergie d'un我们的飓风相当于每天数十颗原子弹的威力。
+      The most powerful hurricanes reached category 5 with wind speeds over 250 km/h.
+  weather.ice_storm:
+    label: tempête de verglas
+    summary: Pluie gelée formant sur tout objet une mince pellicule de glace.
+    info: Une tempête de verglas se produit lorsque l'air chaud au-dessus d'une couche froide provoque une pluie qui gèle instantanément. En conséquence, les branches, fils électriques et routes sont recouvris par un épais revêtement transparent de glace. Le réseau électrique épuisé sous la charge du poids de cette glace peut entraîner des pannes généralisées.
+  weather.icy:
+    label: glace noire
+    summary: Glace instable recouvrant les surfaces et causant un risque de patinage.
+    info: La glace noire se forme par la congélation des gouttes d'eau ou du dégel de la neige sur les surfaces froides. C'est l'une des situations hivernales les plus dangereuses pour la circulation routière.
+  weather.lightning:
+    label: Éclair
+    summary: Décharge électrostatique entre les nuages et le sol ou entre des nuages.
+    info: Un éclair est une décharge électrique intense qui se produit lorsque la différence de charges dans un nuage d'orage atteint sa valeur critique. La vitesse du foudre représente environ un tiers celle de la lumière. Environ cent coups de foudre frappent chaque seconde sur Terre.
+  weather.misty:
+    label: brumaire
+    summary: Faible visibilité à cause du brouillard léger ou des nuages.
+    info: Le temps brumeux survient par condensation de la vapeur d'eau dans une couche basse d'air. Contrairement au brouillard dense, la visibilité est réduite mais pas en dessous de 1 kilomètre.
+  weather.monsoon:
+    label: mousson
+    summary: Changement saisonnier des vents qui amènerait une période d'intenses pluies.
+    info: Le phénomène climatique du mousson est causé par une inversion saisonnière des vents entre l'océan et la terre ferme. Le mousoon indo-pakistanais apporte entre juin et septembre environ 70 à 90% des précipitations annuelles dans ces régions tropicales. Plusieurs centaines de millions de personnes dépendent du mousson pour leurs activités agricoles.
+  weather.muggy:
+    label: Étouffant
+    summary: Air chaud et humide désagréable provoquant un sentiment d’étouffement.
+    info: L'étouffement est une combinaison de température élevée et d'humidité relative importante. Une forte humidité empêche la transpiration de s'évaporer, donc le corps ne peut pas se refroidir efficacement.
+  weather.overcast:
+    label: couvert
+    summary: Le ciel complet recouvre gris sans rayon direct.
+    info: Un ciel couvert se produit avec une couverture nuageuse de 7 sur 8 ou pleine charge. La lumière est diffuse et n'entretient pas d’ombres. Dans les troubles dépressifs saisonniers liés à la géographie (TDS), le manque du soleil joue un rôle clé ; l’éclairagisme imite alors la lumière solaire pour aider.
+  weather.partly_cloudy:
+    label: demi-sky
+    summary: Ciel partiellement recouvert par quelques nuages ; alternance entre soleil et ombre.
+    info: Le demi-ciel clair est une situation météo avec un couvert nuageux de 3 à 5 octants. C'est l'un des types les plus agréables pour réaliser des activités en extérieur. Il contient principalement des cumuls qui apparaissent généralement dans la partie chaude de la journée.
   weather.rainbow:
     label: arc-en-ciel
     summary: Un arc coloré dans le ciel après la pluie lorsque le soleil brille.
@@ -18,6 +150,22 @@ cards:
     label: pluie
     summary: Des gouttes d'eau tombent des nuages sous forme de pluie.
     info: La pluie se forme par la condensation de la vapeur d'eau dans les nuages. Elle est essentielle pour remplir les rivières, les lacs et les réserves d'eau potable ; en moyenne, la pluie tombe à une vitesse de 9 m/s.
+  weather.sandstorm:
+    label: tempête de sable
+    summary: Un mur de sable et de poussières transporté par une forte brise en zones désertiques.
+    info: Une tempête de sable se produit lorsque des vents violents soulèvent d'énormes quantités de poussière et de sable. L'habyb est un type spécifique de tempête de sable dans la région du Sahara et sur le golfe Arabique ; il peut ensevelir les villages et provoquer des difficultés respiratoires.
+  weather.shower:
+    label: aversive
+    summary: Pluie brève et abondante issue d’un nuage cumulo-nimbique.
+    info: '{"hint":"brève mais parfois intense pluie","info":"Une aversive est une courte précipitation intensive provenant d''un nuage convectif (cumuleux ou cumulo-nimbique).\nElle arrive rapidement et disparaît en quelques minutes à heures.\nC''est caractéristique de l''été : la chaleur solaire provoque la convection et forme des cumulo-nibes dans l’après-midi.\nUn arc-en-ciel peut apparaître après un épisode d''aversion.","langue": "français", "traduction": {}}'
+  weather.sleet:
+    label: bruine gelante
+    summary: Mélange de pluie et de neige ; gouttelettes provenant de cristaux de glace partiels.
+    info: La plupart du temps appelée grésive en français, la 'grêle' ou plus précisément ici « bruine gelante » est formée lorsque des flocons de neige traversent une couche d’air chaude et fond partiellement.
+  weather.slush:
+    label: Neige fondue
+    summary: Mélange partiellement fondu entre eau et neige ; couche hivernale glissante.
+    info: La neige fondue ou 'mélange boueux' apparaît lorsque la température monte légèrement au-dessus du point de gel et que la neige commence à fondre. Elle est très glissante et dangereuse pour les piétons comme pour les automobilistes. Sur l’asphalte elle provoque un phénomène d’aquaplanage qui réduit ladhésion des pneus.
   weather.snowy:
     label: neige
     summary: Des flocons de neige blancs tombent des nuages.
@@ -30,6 +178,34 @@ cards:
     label: ensoleillé
     summary: Ciel clair avec un soleil brillant, sans nuages.
     info: Le temps ensoleillé apparaît lorsque les nuages n'obstruent pas la lumière du soleil. Le soleil fournit la lumière et la chaleur nécessaires à la vie sur Terre.
+  weather.sunrise:
+    label: aube
+    summary: Instant auquel le Soleil apparaît sur l’horizon pour marquer le début de la journée.
+    info: L'aube est l'instant astrononomique où la surface du soleil franchit l'horizon. Sa couleur orangée ou rose s'explique par une diffusion de lumière appelée effet Rayleigh. Dans les régions polaires, cette période survient durant des saisons spécifiques comme en cas de jour et nuit polaire.
+  weather.sunset:
+    label: Couchant
+    summary: Instant pendant lequel nous voyons se terminer chaque jour avec sa luminosité.
+    info: Le coucher de soleil est un moment quotidien où la lumière du Soleil disparaît sous l'horizon en fin de journée. La palette colorée (orange, rouge et violet) résulte de la diffusion de cette même lumière solaire dans l’atmosphère terrestre ; les couleurs sont particulièrement intenses après des éruptions volcaniques qui ajoutent plus de poussières à notre ciel bleu. Depuis l'époque antique jusqu'à aujourd'hui encore on considère ce phénomène céleste comme une image symbolique signifiant non seulement la fin mais aussi apaisement ainsi que romance.
+  weather.thunderstorm:
+    label: tempête
+    summary: Phénomène météo intense avec foudre, tonnerre, pluie et vent.
+    info: Une tempête se forme dans les cumulo-nimbus, d'immenses nuages dépassant la hauteur de 10 kilomètres. Un éclair est une décharge électrostatique ; il chauffe instantanément l’air à environ 30 000°C en un fraction de seconde.
+  weather.tornado:
+    label: ouragan
+    summary: Colonne destructrice de vents tourbillonnants s'étendant depuis nuage jusqu'à terre.
+    info: Un tornado est un poteau d'air tournant à grande vitesse qui naît dans une tempête et touche la surface terrestre. La vitesse du vent peut dépasser les 804 kilomètres par heure.
+  weather.typhoon:
+    label: typhon
+    summary: Cyclone tropical survenant à l'est du nord-est asiatique avec des vents dépassant 120 kilomètres-heure.
+    info: Un typhon est un nom pour une tempête tropicale dans les Philippines, la Chine et au Japon ainsi que leurs alentours. Les Philippines sont touchées en moyenne par environ 20 typhons chaque année. Le Typhon Nina de l'année 1975 causa des crues importantes en Chine qui coûtèrent plus de 229 000 vies.
+  weather.waterspout:
+    label: arc-en-ciel marin
+    summary: Pilier tourbillonnant reliant l’océan à un nuage.
+    info: Un arc-en-ciel marin est un pilier d'air chargé de vapeur au-dessus d'une étendue d'eau. Un arc-en-ciel maritime dangereux peut être formé par une tempête ; les arcs plus faibles apparaissent dans des cumulo-nimbus en temps calme. Ils peuvent aspirer du poisson ou autres créatures et les transporter sur la terre ferme.
+  weather.whiteout:
+    label: Brouillard blanc
+    summary: Phénomène météo dans une tempête arctique où la perte totale de contraste empêche tout repérage.
+    info: 'Un phénomène de ''white-out'' survient lorsque l''éclairage diffus du ciel et la réflexion sur la couche blanche rendent impossible d’identifier les contours des objets ou leur distance : on perd toute notion visuelle.'
   weather.windy:
     label: vent
     summary: Un mouvement d'air fort qui courbe les arbres et emporte les feuilles.

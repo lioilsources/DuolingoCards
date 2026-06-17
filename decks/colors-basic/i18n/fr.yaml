@@ -2,6 +2,22 @@ lang: fr
 pivot: false
 title: Couleurs de base
 cards:
+  color.amber:
+    label: ambres
+    summary: Une chaleur dorée orangée semblable au minéral ambré.
+    info: L'ambre est une couleur chaude dorée-orangée nommée d'après le minéral ambre (résine fossilisée). L'ambre était précieux dans l'ancien temps comme matériau décoratif et spirituel.
+  color.aqua:
+    label: aquamarine
+    summary: Teinte de couleur turquoise comme l'eau pure.
+    info: 'Aquamarine est une teinte bleue et verte claire ; en HTML et CSS, ''aquamarine'' ou ''cyan'' sont des termes équivalents (#00FFFF). Le nom vient du latin : « aqua » signifie eau.'
+  color.azure:
+    label: bleu céleste
+    summary: Un brillant bleu ciel évoquant un été lumineux.
+    info: Le bleu azur est une teinte vive et claire de ciel ; il tire son nom du minéral lapis-lазуrite. Il figure sur les armoiries d'une multitude de pays comme la France, Israël ou Finlande. Le lapis-lазуrite était plus précieux que l'or à la Renaissance et servait notamment pour confectionner des manteaux bleus portés par la Vierge.
+  color.beige:
+    label: beige
+    summary: Une brune sableux clair ; une couleur neuve chaude.
+    info: Beige est une couleur claire et chaude située entre la blanc et brun doré. Elle provient d'un mot ancien en français pour décrire l'onde naturelle du lin. On utilise fréquemment cette nuance dans les projets de décorations intérieures comme base chaleureuse mais neutre.
   color.black:
     label: noire
     summary: La couleur noire, la plus sombre des couleurs, l'absence de lumière.
@@ -10,18 +26,122 @@ cards:
     label: bleu
     summary: Couleur primaire froide du ciel et de l'océan.
     info: Le bleu est une couleur primaire froide de la lumière. C'est la couleur la plus populaire au monde et elle symbolise la tranquillité, la confiance et la profondeur.
+  color.bronze:
+    label: bronze
+    summary: Une teinte métallique sombre de la couleur du métal appelé bronze.
+    info: La couleur bronze est une teinte métallique sombre entre dorée et brun foncé qui rappelle alliage du cuivre au étain.
   color.brown:
     label: marron
     summary: Couleur secondaire terrestre du bois et des sols.
     info: Le marron est une couleur secondaire obtenue en mélangant le rouge, le jaune et le noir. Elle symbolise la terre, la nature et la stabilité ; elle est populaire dans les thèmes naturels et automnaux.
+  color.burgundy:
+    label: bordeaux
+    summary: Une couleur rouge sombre rappelant un vin rouge provenant du vignoble bourguignon.
+    info: Le bordeaux est une teinte rouge violacée profonde nommée d'après la région viticole de Bourgogne en France. Elle évoque les vins rouges, le luxe et l’opulence. C'est dans la mode l'une des couleurs automnales préférées.
+  color.charcoal:
+    label: antrecite
+    summary: Une couleur grise extrêmement foncée semblable au charbon.
+    info: Antrecite est une teinte de gris très sombre presque noire qui ressemble au charbon. Elle est populaire dans la conception intérieure moderne comme alternative à l'orange pur. Dans les tendances vestimentaires actuelles, c'est un coloris neutre idéal pour des tenues élégantes.
+  color.chartreuse:
+    label: jaune citron
+    summary: Teinte vivante se trouvant à mi-distance entre la couleur orange et celle verte.
+    info: Le jaune citron est une teinte vive située exactement entre le jaune et le vert dans le spectre des couleurs. Son nom provient du liqueur herbois Citrus de l'abbaye éponyme en France.
+  color.cobalt:
+    label: bleu cobalt
+    summary: Un médium à tonalité sombre très vivace comme le pigment du cobalt.
+    info: Bleu Cobalt est une teinte vive et saturée de bleu nommé d'après l’élément chimique cobalt (Co). C’était un des pigments bleus les plus populaires au XIXe siècle pour la peinture. Il sert dans la céramique, le verre ainsi que dans l'art pictural.
+  color.copper:
+    label: cuivré
+    summary: Teinte rouille-marron d’un aspect brillant comme celui du cuivre.
+    info: La couleur cuivrée est une teinte rougeâtre-brun qui rappelle l'apparence métallique du cuivre (cupre). Le cuivre était un des premiers métaux travaillés par l'homme à la période chalcolithique ou de la pierre et du cuivre. Les anciennes toitures en cuivre deviennent vertes avec l’oxydation ; ce type particulier s’appelle patine.
+  color.coral:
+    label: coraille
+    summary: Une vivante nuance de rose orangé comme un coral marin.
+    info: Corail est une couleur chaude et vive entre l'orange et le rose nommée d'après les coraux marins. C'est très populaire dans la mode étéienne et le design intérieur.
+  color.cream:
+    label: crème
+    summary: Une nuance blanche-beige comme celle d'un yaourt.
+    info: La couleur crème est un ton très clair de jaune-blanc ressemblant à celui du lait frais ou des couleurs naturelsles plus chaudes que les tons blancs purs.
+  color.crimson:
+    label: crimson
+    summary: Rouge intense très sombre qui dépasse même les nuances éclatantes comme le carmin.
+    info: Crimson est une teinte rouge profonde et vive nommée d'après l'écarlate, un pigment colorant rougeâtre. L'écarlate était traditionnellement produite à partir du cochenille (Dactylopius coccus). C'est la couleur de l'université Harvard (The Harvard Crimson) ; en héraldique elle s'appelle 'gules'.
+  color.cyan:
+    label: bleu cyane
+    summary: Teinte vive entre le turquoise et le violet ; utilisé pour imprimer.
+    info: 'Le bleu azur est une teinte vive de vert et de bleu ; dans le modèle RVB elle possède les valeurs : Rouge à O, Vert à 255, Bleu à 255. C''est l''une des quatre couleurs primaires utilisées en impression CYANMAGENTA-JAUNE-Noir (CMJN). Elle apparaît naturellement comme couleur du ciel tropical clair au-dessus de la mer peu profonde.'
+  color.fuchsia:
+    label: Rose de fuschia
+    summary: Teinte vivace entre le pourpre-violet typique des fleurs de cette espèce.
+    info: Le rose de fuschia est une teinte vive et violette nommée d'après la plante du même nom (la fuschia). La plante doit son nom à l'universitaire allemand Leonard Fuchs (1497–1566), célèbre médecin-botaniste. En programmation web avec les langages comme CSS ou HTML, 'rose de fuschia' peut être utilisé comme un terme équivalent au violet intense ('# FF00FF'). C'est aussi une couleur extravagante associée aux années 80 ainsi qu'à certaines tendances artistiques populaires.
+  color.gold:
+    label: Or
+    summary: Une teinte profonde jaune brillante comme celle du métal précieux.
+    info: L'or est une couleur évoquant l'éclat du métal précieux de même nom. Elle symbolise la richesse, la prestige, le succès et les honneurs élevés. En héraldique, c'est un des deux métaux utilisables directement dans les armoiries.
   color.green:
     label: verte
     summary: La couleur de l'herbe et des feuilles, une couleur secondaire obtenue en mélangeant le bleu et le jaune.
     info: Le vert est une couleur secondaire qui résulte du mélange du bleu et du jaune. Elle symbolise la nature, les plantes et la fraîcheur ; l’œil humain perçoit cette couleur plus facilement que toutes les autres.
+  color.grey:
+    label: gris
+    summary: Couleur entre noire et blanche ; celle des nuages et du béton.
+    info: Le gris est une couleur acromatique créée en mélangeant du blanc et du noir. Il est considéré comme neutre et discret. En psychologie, il symbolise la neutralité, l'équilibre parfois aussi l'absence de vitalité.
+  color.indigo:
+    label: indigo
+    summary: Une nuance sombre entre le bleu foncé et le violine.
+    info: 'L''indigo est une teinte profonde de bleu-violacé nommée d’après la substance colorante naturelle extraite des plantes appelées ''indigo''. Pendant des milliers d''années, cette couleur était considérée comme précieuse et très recherchée pour sa beauté unique. Elle fait partie intégrale aux sept couleurs arc-en-ciel : rouge, orangé, jaune, vert, bleu, indigo, violette.'
+  color.ivory:
+    label: ivorie
+    summary: Une couleur blanc-crème comme un dent d’éléphante ; plus chaude que du blanc pur.
+    info: Ivorie est une couleur blanche crème légèrement jaune pâle. Le nom provient des défenses d'éléphant (ivoire). Elle est utilisée en mode, dans la conception et pour décrire les couleurs de peau.
+  color.khaki:
+    label: Kaki
+    summary: Teinte marron-beige claire ; nuance militaire.
+    info: Le kaki est une teinte de couleur beige-brunâtre ternie qui fut popularisée par l'armée britannique en Inde au XIXᵉ siècle. Le mot provient du ourdu ou hindi où 'khak' signifie poussière et boue. C'est la base des uniformes militaires ainsi que pour les habits d'équitation.
+  color.lavender:
+    label: lilas
+    summary: Une très pâle couleur lilas comme celle des fleurs du plantain.
+    info: La lavande est une délicate teinte violine nommée d'après l'herbe laurier-citronnelle (lavandin). Elle évoque calme et pureté ainsi que les paysages de Provence en France.
+  color.lime:
+    label: citron
+    summary: Une vivante nuance verte-jauane semblable aux couleurs des agrumes.
+    info: Le citron vert est une couleur vive et saturée de jaune-vert nommée d'après la fruitière clémentine ou limes. Elle est plus intense que les verts feuilles ; elle contient davantage du teinte jaunâtre. Il s'utilise fréquemment dans un graphisme comme accent coloré ainsi qu'une couleur pour inciter à agir.
+  color.magenta:
+    label: pourpre
+    summary: Une teinte vive de rose-violet ; se situe entre le rouge et le violet.
+    info: Le pourpre (mauve) est une couleur vive entre la rouge et la bleue sans longueur d'onde correspondante dans le spectre visible.
+  color.maroon:
+    label: Marron
+    summary: Une nuance profonde de brun roux ; ressemblant à du vin.
+    info: Le Marron est une teinte de rouge-brun sombre nommé d'après la châtaigne ('marrón' en espagnol). C'est une couleur populaire dans les tendances vestimentaires ainsi que pour des tenues et uniformes sportifs.
+  color.mauve:
+    label: violette
+    summary: Teinte apaisée entre le pourpre et le rose ; un gris lavande.
+    info: 'Le mauve ou violet pâle est une teinte douce de rose-violet éteint. Le nom vient du français ''slézovnice'' (Malva sylvestris). C''était la première couleur synthétique jamais produite : l''aniline violine par William Perkin en 1856.'
+  color.mint:
+    label: matte
+    summary: Une très pâle nuance vert comme celle du feuillage ou dentifrice.
+    info: Matte est une teinte verte claire et fraîche nommée d'après l'herbe menthe (menthol). Elle évoque la propreté, la fraîcheur et un effet rafraîchissant. C'est une couleur populaire dans les designs intérieurs contemporains ainsi que pour des styles rétro tels qu'ils étaient à partir de années soixante.
+  color.navy:
+    label: bleu marine
+    summary: Un bleu profond comme celui d'un océan nocturne.
+    info: Bleu marine est une teinte de bleu très sombre qui tire son nom des uniformes du Royaume-Uni au XVIIIᵉ siècle. C'est l'une des couleurs les plus populaires en mode et dans la tenue habillée classique.
+  color.ochre:
+    label: ocre
+    summary: Teinte terreuse brun-jaune comme le pigment minéra l.
+    info: Ocre est une teinte terreuse jaune-brunâtre nommée d'après un pig ment nature l oxyhydroxyde de fer. C'est l'un des plus anciens p igments ; les peuples préhistoriques s'en servaient pour la peinture rupestre . On le trouve en tant que pierre ocreuse dans le sol.
+  color.olive:
+    label: verte
+    summary: Teinte vert châtaignier.
+    info: La couleur verte est une teinte jaune-mauve ternie nommée en l'honneur de la plante Olea europea L., dont les fruits donnent cette nuance caractéristique. C'est classiquement utilisée comme couleur militaire et pour camping grâce à son camouflage dans un environnement naturel.
   color.orange:
     label: orange
     summary: Une couleur secondaire chaude issue du rouge et du jaune.
     info: L'orange est une couleur secondaire obtenue en mélangeant le rouge et le jaune. Elle symbolise l'enthousiasme et la créativité ; elle tire son nom de la couleur du fruit d'oranger.
+  color.periwinkle:
+    label: bleu pervenche
+    summary: Une couleur bleu-fuchsia claire comme celle des pétales.
+    info: La Periwinkle est une teinte bleu-pourpre clair nommée d'après la fleur Vinca minime (bruyère). Elle se situe entre un bleu ciel et du lavande.
   color.pink:
     label: rose
     summary: Un ton clair de rouge, couleur douce et charmante.
@@ -34,6 +154,46 @@ cards:
     label: rouge
     summary: Chaleur de la couleur primaire associée au sang et au feu.
     info: Le rouge est l'une des trois couleurs primaires de la lumière. Il évoque l'énergie, la passion et le danger ; dans plusieurs cultures, il symbolise également le bonheur et la force.
+  color.rose:
+    label: rosière
+    summary: Une délicate nuance de rouge comme un pétales de roses.
+    info: 'Rose est une douce teinte de rouge-pink nommée d''après la fleur du rosier. Elle diffère légèrement du rosa clair : la couleur ''rose'' est plus foncée et contient davantage de rouge que ce dernier.'
+  color.salmon:
+    label: salmon
+    summary: Couleur claire de type orange-pink semblable à celle des filets de saumons.
+    info: Salmon est une douce couleur rose orangée nommée d'après la chair du saumon. Elle est plus chaude et lumineuse que corail. Utilisée fréquemment en mode comme alternative subtile au rouge framboise.
+  color.scarlet:
+    label: écaille
+    summary: Teinte rouge-orangée vif ; plus clair que le carmin.
+    info: Écarlate est une teinte rouge-orange vive nommée d'après la substance colorante écarlate. Elle est légèrement plus claire et davantage orangée que le cramoisi. Historiquement, elle désignait des textiles rouges de luxe.
+  color.sienna:
+    label: terre de Sienne
+    summary: Une pigmentation brun-orange comme un pigment de Sienne.
+    info: La terre de Sienne est une couleur terreuse rougeâtre-brunâtre nommée d'après la ville italienne de Sienne. La raw Sienna est jaune-marron ; la Burnt Sienna (cuite au feu) est plus roussie et foncée en tonalité brune. C'est une couleur populaire dans les peintures du Renaissance ainsi qu'une chaleur naturelle des couleurs terrestres.
+  color.silver:
+    label: argent
+    summary: Une teinte gris brillant comme celle du métaux argent.
+    info: Argent est une couleur métallique évoquant le précieux métal argent. Elle symbolise la modernité, l'élégance, les technologies et le design industriel.
+  color.tan:
+    label: brun doré
+    summary: Une teinte brun claro comme celle d'une peau hâlée.
+    info: Tan est une couleur châtain clair qui rappelle la terre ou la peau bronzée. Le nom provient du processus de transformation des cuirs par lessivage au tanin.
+  color.teal:
+    label: bleuet
+    summary: Bleu avec un soupçon de vert semblable à celle des océans.
+    info: Teinte bleue-verdâtre nommé d'après l'aile de la sarcelle huppée dont les plumes sont dans cette teinte. C'est une couleur située en haut du spectre turquoise et populaire en graphisme comme couleur contrastante par rapport à l’orange.
+  color.turquoise:
+    label: turquoise
+    summary: Une vivante nuance verte avec un reflet azur.
+    info: La couleur turquoise est une teinte vive de vert bleuté nommée d'après la pierre semi-précieuse du même nom. Les turquoises étaient appréciées en Égypte antique, à l'époque perse et aux Amériques. C'est aussi la couleur des eaux marines tropicales ou encore celle du ciel clair.
+  color.vermillion:
+    label: carmin
+    summary: Teinte rouge-orangée intense comme celle obtenue avec le cinabre.
+    info: Le carmin est une teinte rouge orangé vive nommé sur la base du minéraux céruse ou cinabre (HgS). C'était l'un des pigments rouges les plus utilisés dans l'histoire. Le soufre de mercure utilisé autrefois était un composant chimique très toxique ; aujourd'hui on utilise sa version synthétique.
+  color.violet:
+    label: violette
+    summary: Couleur bleutée-violette ; située en fin du spectre visible.
+    info: 'Le violet est la couleur à l''extrémité du spectre visible avec une longueur d’onde approximative de 380–420 nanomètres. Il tire son nom de la fleur Violacée (genre Viola). Dans la perception des couleurs, il diffère légèrement du pourpre : le violet est plus proche du bleu tandis que le pourpre se situe entre rouge et bleu.'
   color.white:
     label: blanche
     summary: La couleur la plus claire, réflexion de toute la lumière.

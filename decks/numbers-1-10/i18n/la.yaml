@@ -6,18 +6,85 @@ cards:
     label: octo
     summary: Numerus 8, calamari octo brachia habent.
     info: Octogesimus numerus est 2³ (duo cubum). Inversa figura octogesimalis (∞) symbolum infiniti est; in cultura Sinica numero octo felicissimus omnium consideratur.
+  num.eighteen:
+    label: duodeviginti
+    summary: Numeralium cardinale duodeviginta
+    info: Numerus 18 naturalis est numerus post numero 17 et ante numera 19 veniens. Numeri romani forma est 'XVIII'. In systema decimalia scribitur ut 8 plus 10.
+  num.eleven:
+    label: '"undecim"'
+    summary: '"Cardinals numerus xi"'
+    info: '{"inf": "Numerus undecim est numerus naturalis post decem et ante duodecimum\u{a}. Numerale Romanum: XI\. Ordinaliter scribitur ''undevicesimus''. In systemate decimali exprimitur ut 1+10."}'
+  num.fifteen:
+    label: quindicēs
+    summary: Cardinaliter十五，ordinaliter第十五
+    info: '{"inf": "Numerus quindiciesimus est numerus naturalis post decem et quadringentum et ante sedecim centena milia. Numeratio Romana scribitur ut ''XV''. In systemate decimali exprimitur per additionem V plus X."}'
+  num.fifty:
+    label: '"quinquaginta"'
+    summary: '{"summ": "Cardinaliter: Quinquaginta"}'
+    info: '{"inf":"Numerus quinquaginta est numerus naturalis post numerales XLIX et ante numero LI veniens. Numerale Romanum pro eundem est ''L''. In systemate decimali scribitur ut 50."}'
   num.five:
     label: quinque
     summary: Numerus 5, tot digitorum manibus habemus.
     info: Quinque fundamentum systematis decimalis est, quia homines quinque digitos in singula manus habeant. Venus stellam cum quinque radiis caelo describit.
+  num.forty:
+    label: quadragenarius
+    summary: Cardinalis numerus 40.
+    info: Numerus quadraginta naturalis est qui sequitur numerum triginta novem et praecedit quadragesimum unum.
+  num.forty_eight:
+    label: quadraginta octō
+    summary: Numeral cardīnum quaterdecimum octōvium XLVIII
+    info: '{"inf":"Numerus 48 est numerus naturalis post numero 47 et ante numerosum 49\u00b6Digita Romanae sunt XLVIIIModus positionalis decimale scripturam habebit ut 8+40","lab":"quadraginta octō","sum":"Cardinaliter quadragintā octō"}'
+  num.forty_five:
+    label: Quadraginta quinquaginta
+    summary: Numeralia Cardinales - Numeri qui sunt inter Quadragesima duo atque Sexagesimus primus sita sunt numero XLIV ad LXI usque extenduntur.
+    info: '{"hint":"numerus cardinālis quadraginta quīndēcim","info":"Numerus quadrageimum unus est numerus naturalis post numerales XXXXII et ante XXLVI sequentem.","label":"quadragintacentumquingenti","summary":"Cardinaliter: Quadraginta Quindemicium."}'
+  num.forty_four:
+    label: '"quadraginta quattuor"'
+    summary: Numeralium cardinarum quadragintaquattuor
+    info: '{"inf": "Numerus 44 naturalis est qui sequitur numerum 43 et praecedit numeros 45\u867c Numerus Romanus: XLIV\. Ordinaliter dicitur quartus decimus quater\u867b In systemate decimali scribitur ut 4 \+ 40."}'
+  num.forty_nine:
+    label: quadraginta novem
+    summary: Numeralium cardinale quadragintanoven; ordinalia quarta decima nona; romane scriptum XLIX.
+    info: Numerus 49 naturalis est qui post numerum 48 et ante numeraim 50 venit. Numeratio Romana huius numero XLIX dicitur.
+  num.forty_one:
+    label: Quadraeunt unus
+    summary: Numeralium XLi
+    info: '{"hint":"numerus cardinals XLi","info":"Numerus naturalis est qui sequitur numerum quadraginta et praecedit numero quadragesimae duo\u2019s. Numerus romanicus scribitur ut ''XLI''. Ordinaliter dicitur ''quadragesimus primus''. In systemate decimali exprimitur sicut summa unius plus quadregintas."}'
+  num.forty_seven:
+    label: quadringenties septimum
+    summary: Numeralium cardinale quaterdecimum
+    info: |-
+      Numerus 47 est numerus naturalis qui sequitur post numeralem 46 et antecedit numero 48
+      Cifra Romana eius est 'XLVII'.
+      In systema decimali scribitur ut summa septem plus quadraginta.
+  num.forty_six:
+    label: quadraginta sex
+    summary: Cardinalis numero quadragintasex correspondens est ordinales tertiarius secundus.
+    info: Numerus 46 naturalis est qui post numerum 45 et ante numerum 47 venit. Numeratio Romana huius numeri 'XLVI' dicitur.
+  num.forty_three:
+    label: '"quadragintatres"'
+    summary: Numeralium Cardinale Numerus Quadraginta Tres
+    info: "{\"hint\":\"numerus cardinals quadraginta tres\",\"info\":\"Numerus 43 est numerus naturalis post numero 42 et ante numerosum 44\\u201cDigitas Romanae: XLIII\\. \\\"Nomina ordinaria:\\\tquadragesimus tertius\\. In systemate decimal scribitur ut 3 plus 40.\""
+  num.forty_two:
+    label: quadrae duplus
+    summary: 'Numeralium cardinalem 42; ordinaliter: quadragesimus secundus.'
+    info: Numerus quadraginta duo est numerus naturalis post numero quadragesimae primi et ante numero quaragintatre. Numerale Romanum scribitur ut 'XLII'. In systema decimalia exprimitur sicut summa duorum atque quater decem.
   num.four:
     label: quattuor
     summary: Numerus 4, quadratum habet quatuor latera.
     info: Quattro est quadratum binarii – resultat ex 2 × 2. In cultura Japonica et Sinica consideratur numerus infelcis (similitudo sonoris verbi cum verbo 'mors').
+  num.fourteen:
+    label: '"quattuordecim"'
+    summary: '{"summ": {"numeral_cardinal": "Quattro decem", "ordinal_number": "Quartodecumus", "roman_numeral": "XIV"}}'
+    info: '{"inf": "Numerus 14 naturalis est qui post numerum 13 et ante numrum 15 venit\r\nDigitas Romanae: XIV\r\nIndex ordinalis: quartodecimus\r\nIn systema decimalia scribitur ut 4+10."}'
   num.nine:
     label: novem
     summary: Numerus 9, ultimum numerum unius digiti.
     info: 'Novem est maximus numerus unus digitus. Proprietas mirabilis: Numerus multiplicatus per novem semper habet summam numericam divisibilem per novem.'
+  num.nineteen:
+    label: '"numerus dies"'
+    summary: '{"summ": "Cardinaliter: dies IX; ordinaliter: dies nonagesimus primus"}'
+    info: '{"inf": "Numerus 19 naturalis est numerus post numeros XVIII et ante XX veniens. Numeri romani forma scripta est ''XIV''. In systemate decimali scribitur ut novem decim cum dieci."}'
   num.one:
     label: unus
     summary: Numerus 1, primum numerum naturale.
@@ -26,18 +93,114 @@ cards:
     label: septem
     summary: Numerus 7, totidem colorum est in arcus celestis.
     info: Septimus numerus in multis culturae pro felicem habetur. Arcus celestis septem colores habet, hebdomas dies septem et sunt septem continentiae.
+  num.seventeen:
+    label: Septendecim
+    summary: Numeralium cardinales Septendecimus
+    info: Numerus septemdecim est numerus naturalis post sexaginta sextum et ante duodecimum octogesimum. Numerale cardinālis scribitur ut 'septendecim', quod significat idem ac 'XVIi' litterīs Romanōrum.
   num.six:
     label: sex
     summary: Numerus sex; favus apium hexagonalis cellulae habet.
     info: Sex est numerus perfectus quia summa omnium divisorum eiusdem (1 + 2 + 3 = 6) ipsi numero aequatur. Formae hexagonales sunt efficacissima modus planitiei tectura.
+  num.sixteen:
+    label: sedecim
+    summary: Numeralium cardinales 16
+    info: '{"hint":"numerus cardinals sedecim","info":"Numerus naturalis sexdecem sequitur numerum quinque et decem antequam septendecim veniat cum numero naturale sive decimali systemate scripturam habens ''sex'' plus ''deca''.\r\nScribitur per litteras romanas ut XVIIIM. \r\nIn ordine seu positione dicitur sextus decimus."}'
   num.ten:
     label: decem
     summary: Numerus 10, basis nostrae decimalis systematis numerorum.
     info: Decem est radix systematis decimalis, quia homines decem digitos manuum habent totaliter. Decem ab antiquo tempore naturalis mensura ad computandum fuit.
+  num.thirteen:
+    label: tredecim
+    summary: Numeralium cardinales tertius cum tria dies sunt.
+    info: Numerus tredecim est numerus naturalis post duodecimum et ante quattuordecimum veniens. Numeri romani forma scribitur ut 'XIII'. In systemate decimali exprimitur per additionem trium decemque.
+  num.thirty:
+    label: triginta
+    summary: 'Cardinaliter: triginta ordinaliter: tricesimus'
+    info: '{"inf":"Numerus triginta est numerus naturalis post numerales XXIX et ante numerores XLI situs qui scribitur ut ''XXX'' litterarum Romanorum forma velut cardinales tertius decimus denarius systema decimalia scripturae digitali cum figura digitale tripla"}'
+  num.thirty_eight:
+    label: Triginta Octo
+    summary: Digitus ordinalis Triginta Octo
+    info: '{"hint":"numerus cardinals tricesimus octauus","info":"Numeros triginta octo sequitur numerum trigintas septem et praecedit numeros triginta novens\r\\nCifra romana est XXXVIII\.\r\\nOrdinalis digitus est tertius decimus quinquagesimus secundus \(triciesmus octaus\)\.\r\\nIn systema decimali scribitur ut ''octo'' plus ''thirty''."}'
+  num.thirty_five:
+    label: Trigintacentenus
+    summary: Numeralium Cardinales Tredecim Quingentos
+    info: '{"hint":"numerus cardinals tredecim quinquaginta","info":"Numerus naturalis qui sequitur numerum tricesimum quartum et praecedit trigesimum sextum est numero 35\u2019. Numerale Romanum: XXXV\. Ordinaliter scribitur ut quintus tertius decimus \"trigesimus quintus\", atque in systemate decimali exprimitur per additionem V plus XXX."}'
+  num.thirty_four:
+    label: Trigesimum Quartus
+    summary: Numeralium Cardinales Trigitra Quarta
+    info: "{\"hint\":\"numerus cardinals tricesimus quartus\",\"info\":\"Numeros naturalis est qui sequitur numerum triginta tres et antecedit numeros triginta quinque\\u202f;\r\nDigitus Romanus: XXXIV\\u202f;\r\nCardinaliter scribitur ut 'trigintaquattuor' velut summa digitorum decimales systematis: IV plus XL.\"}"
+  num.thirty_nine:
+    label: triciesimous nōnas
+    summary: Numeralium cardinālis trigesimum nouenum
+    info: Numerus tricesimus nonus est numerus naturalis post triginta octo et ante quadragintam. In systemate decimali scribitur ut novem plus trenta.
+  num.thirty_one:
+    label: Trigesimus Primus
+    summary: Cardinaliter Triginta Unus seu Numerus Naturalis Tredecim Prima
+    info: Numerus tricesimus primus est numerus naturalis qui sequitur triginta et praecedit trigintam duo. In systemate decimali scribitur ut 'triginta unus', sive unum plus triginta.
+  num.thirty_seven:
+    label: trigintas septem
+    summary: 'Numeralium cardinale 37; ordinalia: triciesimus septimus.'
+    info: Numerus tricesimus septimus est numerus naturalis qui sequitur post triginta sex et antecedit triginta octo. In systemate decimali scribitur ut VII plus trenta.
+  num.thirty_six:
+    label: triginta sex
+    summary: 'Cardinaliter: triginta sex'
+    info: Numerus tricesimus sextus est numerus naturalis qui sequitur triginta quinque et praecedit trigintas septem.
+  num.thirty_three:
+    label: '"tredecim"'
+    summary: Numeralium Tredecim
+    info: '{"hint":"numerus cardinals tricesimus tertius","info":"Numerus tretriginta tres est numerus naturalis post numerales triginteduos et ante quadragesimum primum\u{e}. \"XXXIII\" litterae Romanae scribuntur pro numero huiusmodi\. Ordinaliter dicitur ''Trigesimostertius''. In systemate decimali exprimitur ut summa trium decem triens cum vigesimali tribus."'
+  num.thirty_two:
+    label: triginta duos
+    summary: 'Cardinaliter: tredecim viginti duplus; ordinaliter: triginta primus bisque'
+    info: Numerus triciesimus secundus est numerus naturalis qui sequitur triginta unum et praecedit trigintam trium. In systemate decimali scribitur ut duo plus triginta.
   num.three:
     label: tres
     summary: Numerus 3, primus numerus primus impar.
     info: Tres est consideratus numerus magicus in multis culturae – sunt fabulae de tribus votis, trigonum habet tres latera et dies dividi potest in tres partes.
+  num.twelve:
+    label: Duodeci
+    summary: '{"summ": "Cardinalis numero duodecim; ordinales sunt duodevicesimus aut secundi novemdecimes; notatur Romanesque ut ''XII''",}'
+    info: '{"inf":"Numerus duodecim est numerus naturalis post undecimum et ante tertium decimum situs. Numeratio Romana scribitur ut ''XII''. Ordo seu ordinaliter exprimitur per ''duodevicesimus'' vel ''secundum novemdecimi''. In systemate decimali exponitur sicut duo plus dies."}'
+  num.twenty:
+    label: vigesima
+    summary: Numeralia cardinalem vigesimam significat.
+    info: Numerus viginti est numerus naturalis post numeraem XIX et ante numero XXI veniens. In systemate decimali scribitur ut 'viginta'. Numerale ordinale huius numeri est vicesimus.
+  num.twenty_eight:
+    label: vigintiocto
+    summary: Numeralia cardinale vigintiocto
+    info: Numerus 28 naturalis est numerus post numero 27 et ante numerales 29 veniens. Numeri romani forma huius numeri sunt XXVIII.
+  num.twenty_five:
+    label: viginti-quinquaginta
+    summary: 'Numeralium cardinales 25; ordinaliter: secundus quintus decimus; Romana cifra: XXV.'
+    info: Numerus vingt-cinq est numerus naturalis post numero viginti-quattuor et ante numero viginti-sex. Numerale Romanum eius est 'XXV'. In systema decimalia scribitur ut summa quinque plus viginta.
+  num.twenty_four:
+    label: vingtiquatuor
+    summary: 'Numeralium cardinale 24; ordinalia: vigesimus quartus; Romanice scripta: XXIV.'
+    info: Numerus vingtiquatuor est numerus naturalis post vigintitres et ante quinquagintaquinque. Numeratio Romana scribitur ut 'XXIV'. In systemate decimali exprimitur sicut summa de qua(n)drumdecim plus quadraginta.
+  num.twenty_nine:
+    label: vigesima nōna
+    summary: '{"summ": "{\''e}\u7b \u7b{\''a}} {\''e}{\''e} {\''r}: vigesimās novēm; rīmus: X IX."}'
+    info: '{"inf": "Numerus 29 naturalis est numerus post numero 28 et ante numerosum 30\u5c64 Numeri romani sunt XXIX\u5c64 Ordinaliter scribitur vicesimus nonus\u5c64 In systemate decimali scriptio eius est utique 9 plusve 20"}'
+  num.twenty_one:
+    label: vigintiunus
+    summary: Numeralium cardinale viginti unus
+    info: Numerus viginti unus est numerus naturalis post numerales vingti et ante numero xxii. In systema decimalia scribitur ut unum plus viginta.
+  num.twenty_seven:
+    label: viginti Septem
+    summary: Numeralium cardinalem Vigintiseptimus seu viginti septem.
+    info: Numerus viginti septem est numerus naturalis post numerales vicesimum sextum et ante numero vicesimum octavam sequens. Numerale romanicum huius numeri est 'XXVII'. In systemate decimali scribitur ut summa VII plus VIGINTI.
+  num.twenty_six:
+    label: vigintises
+    summary: 'Numeralium cardinales viginties sex ; ordinalia : secundum vigesimam sextam , forma romani scripta :XX VI .'
+    info: '{"info":"Numerus 26 est numerus naturalis post numeros viginti quinque et ante numero triginta septimum\nDigitas Romanae litterae sunt XXVI\. \"","label": "vigintisex", "summary": "Cardinalis Numerus Vigintiseptimus\"}'
+  num.twenty_three:
+    label: vigintitres
+    summary: 'Numeralum cardinale 23; ordinaliter: viginticesimus tertius; Romanice scriptum: XXIII.'
+    info: Numerus vigintitres est numerus naturalis post vingtiduo et ante viginitriplex. Numeratio Romana scribitur ut 'XXIII'. In systemate decimali exprimitur per additionem trium ad vicenarium.
+  num.twenty_two:
+    label: XXII
+    summary: Numeralium cardinale viginti duo
+    info: Numerus viginti duo est numerus naturalis qui sequitur numero viginta unus et praecedit numeros triginta tria. In systemate decimali scribitur ut 'viginti plus duae'.
   num.two:
     label: duo
     summary: Numerus 2, unicum numerum primarium par.

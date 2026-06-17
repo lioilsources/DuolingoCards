@@ -2,14 +2,151 @@ lang: id
 pivot: false
 title: Cuaca
 cards:
+  weather.aurora:
+    label: cahaya Aurora
+    summary: Cahaya alami langka akibat aktivitas sinar Matahari.
+    info: Aurora polar atau australs dihasilkan ketika partikel bermuatan dari angin matahari berinteraksi dengan atmosfer Bumi dan menghasilkan warna hijau, ungu serta merah dalam bentuk tirai maupun spiral yang terlihat lebih baik pada daerah kutub seperti Norwegia, Islandia, Canada ataupun Antarctica.
+  weather.avalanche:
+    label: avalansi
+    summary: Massa es dan air mengalir turun dari sisi bukit.
+    info: Avalanche adalah gerakan cepat massa salju di lereng gunung atau pegunungan. Yang paling berbahaya adalah avalanche debu yang bisa mencapai kecepatan lebih dari 300 kilometer per jam.
+  weather.blizzard:
+    label: badai salju
+    summary: Cuaca buruk disertai turunnya butiran kristal air membeku secara intensif bersama tiupan udara dingin sangat deras sehingga membuat penglihatan menjadi sulit.
+    info: '{"hint":"badai salju parah dengan angin kencang dan visibilitas hampir nol","info":"Badai salju adalah fenomena cuaca kuat yang menggabungkan curahan salju tebal dan angin keras.\nPada badai ini terjadi kondisi visibilitas nyaris nihil atau white-out serta penimbunan salju berlebihan di permukaan tanah.\nSecara histori badai-badai seperti ini telah menyebabkan ribuan orang meninggal akibat tertimpa atau tersesat dalam kejadian alam tersebut.\nContohnya Badai Salju tahun 1888 AS menutup seluruh wilayah Kota New York oleh lapisan es setinggi lebih dari satu meter."}'
+  weather.breezy:
+    label: angin sepoi-sepoi
+    summary: Sebuah angin yang menenangkan di hari hangat.
+    info: Angin ringan bertiup dengan kecepatan antara 6 dan 11 meter per detik sesuai skala Beaufort nomor tiga atau empat menyebabkan daun bergerak serta mengibarkan helai-helai rambut manusia.
+  weather.clear:
+    label: cerah
+    summary: Langit benar-benar bersih tanpa satu pun awan.
+    info: Cerah adalah kondisi cuaca dengan awan kurang dari 1/8 penutup langit yang memungkinkan radiasi matahari terkuat dan pengamatan astronomis terbaik serta pada malam hari menyebarkan panas lebih kuat sehingga suhu turun cepat.
   weather.cloudy:
     label: berawan
     summary: Langit tertutup awan tebal tanpa sinar matahari langsung.
     info: Awan adalah gumpalan kecil tetesan air atau kristal es yang terlihat di langit. Lebih dari 60% langit Bumi selalu tertutup oleh awan.
+  weather.cold:
+    label: musim salju
+    summary: Kedinginan ekstrim dengan suhu jauh dibawah titik beku.
+    info: Suhu ekstrem sangat rendah terjadi ketika udara Arktik masuk ke wilayah lintang sedang. Suhu alamiah tertinggi yang pernah diukur adalah sebesar –89,2°C pada stasiun Vostok di Antarctica. Tubuh bereaksi terhadap dingin dengan cara menyempitkan pembuluh darah dan menggigil.
+  weather.dew:
+    label: roas
+    summary: Butiran kecil air hasil kondeksasi pada permukaan selama malam berdingin.
+    info: Ros adalah air yang mengkondensasi dari udara pada permukaan dingin di malam hari tenang dan membentuk ketika suhu turun hingga mencapai titik embun atau lebih rendah darinya.
+  weather.drizzle:
+    label: gerimis
+    summary: Hujan sangat tipis dalam bentuk butiran kecil.
+    info: Gerimis adalah hujan dengan tetesan sangat halus kurang dari 0,5 milimeter yang tidak berasal dari awan ciri-cirian konveksi seperti Cumulonimbus, melainkan dari lapisan awan rendah berbentuk strataformasi. Fenomen ini umum terjadi di iklim laut atau samudra dan meskipun ringannya dapat menyebabkan penyerapan air secara signifikan.
+  weather.drought:
+    label: Pemanasan global
+    summary: Cuaca panas secara terus-menerus mengakibatkan peningkatan kemarau.
+    info: Kemarau adalah kondisi cuaca dengan kurangnya curah hujan dalam jangka waktu lama yang menyebabkan kerugian hasil pertanian dan krisis air serta meningkatkan risiko api atau kebakaran di berbagai wilayah.
+  weather.dust_storm:
+    label: Badai Debu
+    summary: Wall debu dikembangkan dari angin keras dalam area kering.
+    info: '{"hint":"awan debu dan pasir yang besar terbawa angin di daerah gurun","info":{"label":"badai debu","summary":"dinding debus ditiup oleh angin kuat di wilayah kering."},"data":{}}'
+  weather.flood:
+    label: zaplav
+    summary: Melimpahnnya air dari sungai menuju daerah normalnya kering.
+    info: |-
+      {"hint":"banjir yang meluap ke daratan biasanya kering","info":"Banjir terjadi akibat hujan deras, pencairan salju atau kerusakan bendungan.\r
+      Banjir adalah bencana alam termahal di dunia.\r
+      Di Ceko banjir tahun 1997 dan 2002 menyebabkan korban jiwa puluhan orang serta merugikan triliunan dolar.\r
+      Upaya pencegahan secara alami seperti rawa dan hutan membantu mengurangi risiko ini."}
   weather.foggy:
     label: kebun
     summary: Kabut tebal di permukaan tanah yang mengurangi visibilitas.
     info: Kabut adalah awan pada tingkat permukaan bumi terdiri dari tetesan air kecil. Kabut muncul saat kelembapan udara tinggi dan mengurangi jarak pandang hingga kurang dari 1 kilometer.
+  weather.freezing:
+    label: '"MRÁZ"'
+    summary: Pada saat temperatur turun sampai batasan ambang nilai konstanta fisika tersebut maka akan terbentulah Es.
+    info: '{"hint":"Suhu di bawah nol derajat Celcius; segalanya membeku","info":"Es terjadi pada suhu dibawah titik beku air yaitu kurang dari atau sama dengan NOL Derajat Celsius dimana es dapat merusak tanaman secara biologi dan menyebabkan kecelakaan lalu lintas akibat licinnya permukaan karena adanya salju yang menempel disepanjang badan jalan serta trotoar . Di Ceko , bulan Januari merupakan waktu paling dingin untuk menghadapi cuaca ekstrim seperti ini ; catatan historis mencatat bahwa tahun 1875 ditemukan daerah bernama LITVINOVICHEK memiliki rekam medis tertinggi hingga minus empat puluhan derajad celcius ! Salju adalah bentuk padat dari molekul H₂O ; pembentukkan kristalisasi butiran-butirannya bergantung kepada faktor-faktornya termasuk juga inti pengembunan udara."}'
+  weather.frost_flowers:
+    label: bunga-bunga salju
+    summary: Kristal bunga es cantik yang dibentuk oleh kondensasi uap air di udara dingin.
+    info: Bunga es terbentuk dari kelembapan yang membeku pada permukaan sangat dingin di laut Arktika dan menciptakan pola kristal kompleks serta indah secara visual menjadi subjek populer dalam fotografi alam liar.
+  weather.frosty:
+    label: pagi bersalju
+    summary: Salju tipis memutihkan tumbuhan-tumbuhannya.
+    info: Frost terjadi ketika suhu permukaan turun di bawah titik beku dan kelembapan udara mengkristal menjadi kristal es yang membentuk pola menarik pada daun-daunan tanaman serta bagian luar seperti kaca atau tanah. Frost berbeda dengan embun beku karena frost adalah uap air langsung dibekukan dari atmosfer sedangkan embun beku merupakan tetesan air hasil kondensasi kemudian baru membeku.
+  weather.gloomy:
+    label: Mendung
+    summary: Kondisi langit penuh awan tebal disertai pencahayaan minim.
+    info: '{"hint":"cuaca gelap dan berawan dengan suasana yang menyedihkan","info":"Cuaca mendung ditandai oleh awan rendah yang gelap, cahaya redup serta udara dingin atau hujan.\nDiasosiasiakan dengan kesedihan musiman dan perasaan melankolis terutama di musim gugur.\nDisorder Afektif Musiman adalah gangguan mental akibat kurangnya paparan sinar matahari pada masa-masa tertentu seperti bulan-bulan salju\/musim dingin.\nLiteratur gothic maupun genre musik goth sering kali mengambil nuansa cuaca ini sebagai bagian dari gaya artistis mereka."}'
+  weather.hailing:
+    label: hujan es
+    summary: Curah hujan dengan kristal es dapat merusak tanaman pangan dan mobil.
+    info: Hujan es adalah curah hujan yang terdiri dari butiran es atau krupuk yang dibentuk di dalam awan badai. Butir-butir ini berasal ketika tetesan air berulang kali melewati bagian dingin dan hangat dari suatu awan. Mereka bisa mencapai diameter lebih dari 10 sentimeter serta menyebabkan kerusakan serius pada hasil pertanian, kendaraan maupun atap rumah.
+  weather.haze:
+    label: asap
+    summary: Pengurangan visibilitas akibat adanya debu tipis, asap pabrik ataupun pencemaran lingkungan.
+    info: Kabut adalah pengurangan kejernihan udara disebabkan oleh debu halus atau polusi yang mengandung partikel-partikel aerosol padat maupun cairan. Kabut berbeda dari awan kabut biasa karena terdiri atas butiran air sementara kabut tersusun dari kotoran dan emisi industri seperti asap.
+  weather.heat_lightning:
+    label: petir panas
+    summary: Kilatan dari badai jauh tanpa mendengarkan dentuman.
+    info: Petir panas adalah kilat badai yang terjadi di kejauhan sehingga guntur tidak bisa didengar karena jaraknya sangat jauh. Nama ini menyesatkan sebab bukanlah jenis petir khusus akibat suhu tinggi.
+  weather.heat_shimmer:
+    label: lensapanas
+    summary: Distorsi visual akibat perbedaan suhu udara.
+    info: Lensa panas atau ilusi cahaya terjadi karena pembiasan sinar di udara yang hangat dan bergerak ke atas.
+  weather.heatwave:
+    label: badai panas
+    summary: Periode pemanasan secara intensif melampaui batas biasanya; risiko untuk kesehatan.
+    info: Badai panas adalah periode berkepanjangan dengan suhu ekstrem yang melebihi temperatur musiman normalnya. Badai panas di Eropa pada tahun 2003 menyebabkan lebih dari 70 ribu kematian akibat terlalu banyak kehilangan cairan tubuh dan kondisi medis lainnya. Kondisi ini sangat membahayakan bagi lansia, anak-anak serta orang-orang sakit.
+  weather.hot:
+    label: panas ekstrem
+    summary: Panas terik mengakibatkan ketidaknyamanan serta risiko gangguan kesehatan.
+    info: Hiper panas adalah fenomena cuaca dengan suhu jauh di atas rata-rata musiman dan dapat menyebabkan dehidrasi atau gejala kesehatan serius seperti strok panas yang berbahaya bagi nyawa manusia.
+  weather.humid:
+    label: kelembaban
+    summary: Udara jenuh dengan uap air yang membuat rasa panas dan pengap.
+    info: Kelembapan mengukur kandungan uap air di udara.
+  weather.hurricane:
+    label: badai
+    summary: Angin puting beliung besar berkecepatan melebihi 120km per jam.
+    info: Badai topan adalah siklon tropis di Samudra Atlantik dan Pasifik Barat dengan angin lebih dari 120 km/jam. Juga disebut badai taufan (Pasifik Timur), atau siklone pasifik barat daya (Samudera Hindia). Energi yang dilepaskan oleh sebuah badai bisa setara puluhan bom nuklir dalam sehari.
+  weather.ice_storm:
+    label: badai salju beku
+    summary: Hujan dengan suhu rendah menutupi segala sesuatunya dalam bentuk tipis dari kristalisasi.
+    info: Salju beku atau badai hujan es terjadi ketika udara hangat di atas lapisan dingin menyebabkan air yang langsung membeku saat mengalir ke permukaan bumi dan menciptakan lapisan transparan dari salju beku pada cabang-cabang pohon, tali-talian listrik maupun jalan raya; berdasarkan data historis tahun 1998 Quebec pernah menderita kerusahan besar akibat fenomena ini.
+  weather.icy:
+    label: es tipis
+    summary: Lapisan es berbahaya pada permukaan menyebabkan slip.
+    info: Esper dapat terbentuk dari tetesan hujan atau mencairnya salju di permukaan dingin yang membeku menjadi es transparan dan licin.
+  weather.lightning:
+    label: petir
+    summary: Muatan statis antara dua awan atau antara awan dan tanah
+    info: |-
+      Petir adalah muatan listrik kuat yang terjadi ketika perbedaan beban di awan badai mencapai nilai kritisnya
+      Kecepatannya sekitar sepertiga kecepatan cahaya
+      di Bumi turun petir kurang lebih seratus kali setiap detik
+      Penyalur sambaran petir pertama dirancang secara ilmiiah oleh Franklin pada tahun 1752
+  weather.misty:
+    label: berkabut
+    summary: Kebiasaan rendah karena kabus tipis.
+    info: Cuaca berkabut terjadi akibat pengembunan uap air di lapisan udara permukaan bumi. Berbeda dengan kabut tebal yang mengurangi visibilitas hingga jarak pendek dari satu kilometer atau kurang.
+  weather.monsoon:
+    label: musim
+    summary: Perubahan musiman angin mengakibatkan periode hujan deras.
+    info: |-
+      Musim adalah fenomena iklim yang disebabkan oleh perubahan musiman angin antara lautan dan daratan.
+       Muson India-Pakistan membawa 70 sampai 90% curah hujan tahunan dari bulan Juni ke September.
+       Tujuh ratus juta orang bergantung pada musim untuk pertanian mereka;
+       Kegagalan musim menyebabkan kemarau panjang dan kelaparan,
+       sedangkan musim intens dapat memicu banjir.
+  weather.muggy:
+    label: gerah
+    summary: Udara panas dan lembap menyebabkan rasa gerah.
+    info: Gerah adalah gabungan suhu tinggi dan kelembapan relatif yang juga tinggi. Kelembaban tinggi menghambat penguapan keringat sehingga tubuh tidak bisa mendinginkan dirinya secara efisien.
+  weather.overcast:
+    label: langit tertutup
+    summary: Seluruh langit ditutup rapat oleh lapisan tebal awan abu-abu tanpa adanya pencahayaan langsung.
+    info: Langit tertutup penuh dengan awan mengakibatkan cahaya menjadi redup dan tidak membentuk bayangan langsung dari matahari. Kondisi ini dapat memengaruhi gangguan keadaan perasaan musiman yang disebabkan oleh kurangnya paparan sinar matahari secara alami di wilayah-wilayah beriklim dingin atau gelap sepanjang hari.
+  weather.partly_cloudy:
+    label: partly cloudy
+    summary: Langit parsial tertutup awak dan menyebabkan pergantian sinar matahari langsung maupun bayangan.
+    info: Partly cloudy adalah kondisi cuaca dengan penutupan awal antara 3 hingga 5 dari skala delapan bagian langit yang digunakan oleh para ahli meterologi untuk mengukur kepadatan awan di udara.
   weather.rainbow:
     label: pelangi
     summary: Busur warna di langit setelah hujan ketika matahari bersinar.
@@ -18,6 +155,22 @@ cards:
     label: hujan
     summary: Butir-butir air turun dari awan sebagai hujan.
     info: Hujan terbentuk melalui proses kondensasi uap air di dalam awan. Hujan sangat penting untuk mengisi aliran sungai, danau serta cadangan air minum; kecepatan rata-rata jatuhnya tetesan hujan adalah sekitar 9 meter per detik.
+  weather.sandstorm:
+    label: badai pasir
+    summary: Dinding tebal dari campuran pasir dan debu ditiup oleh angin keras dalam daerah gurun.
+    info: Badai pasir terjadi ketika angin kuat mengangkat jumlah besar debu dan pasir ke udara. Haboob adalah jenis badai pasir yang spesifik di wilayah Sahara dan Semenanjung Arab; dapat menutupi desa-desa serta menyebabkan masalah pernapasan bagi manusia.
+  weather.shower:
+    label: hujan lokal
+    summary: Hujan sing intensif saka awan kumulonimbus.
+    info: '{"hint":"hujan deras sing pendek","info":"Hujan lokal yaiku hujan ringan nanging bisa tekan tingkat intensif saka awan convective (cumulus utawa cumulonimbus).\nPanyebabna cepet lan mbubarake dina menitan nganti jam.\nIki karakteristik musim panas: pemanasan matahari nyebabaké convection lan pembentukan cumulonibus ing sore hari.\NSesudah hujan lokal ana kemungkinan terjadi pelangi."}'
+  weather.sleet:
+    label: hujan es
+    summary: Campuran hujan dengan butiran air atau kristal salji.
+    info: Hujan es yang membeku terjadi ketika kristal salju melewati lapisan udara hangat dan sedikit mencair di tengah jalan ke bumi.
+  weather.slush:
+    label: salju basah
+    summary: Campuran air dengan salju setengah cair membentuk lapisan permukaan musiman yang licin.
+    info: Salju yang meleleh parsial terjadi ketika suhu naik sedikit di atas titik beku dan salju mulai mencair. Ini sangat licin serta berbahaya bagi pejalan kaki maupun pengendara kendaraan bermotor.
   weather.snowy:
     label: salju
     summary: Butiran salju putih turun dari awan.
@@ -30,6 +183,34 @@ cards:
     label: cerah
     summary: Langit jernih dengan matahari bersinar terang, tanpa awan.
     info: Cuaca cerah muncul ketika langit tidak tertutupi oleh awan yang menghalangi radiasi matahari. Matahari memberikan cahaya dan panas yang diperlukan untuk kehidupan di Bumi.
+  weather.sunrise:
+    label: fajar
+    summary: Momen dimana matahari mulai menunjukkan dirinya dari bawah garis ufuk.
+    info: '{"hint":"matahari muncul di atas cakrawala pada pagi hari","info":"Fajar adalah momen astronomis ketika permukaan matahari melewati garis ufuk.\nPewarnaannya yang berwarna jingga atau merah muda disebabkan oleh hamburan Cahaya Rayleigh.\nDi daerah kutub fajar terjadi dalam musim tertentu seperti siang dan malam kutuba.\nKilau hijau (''green flash'') merupakan fenomena optikal langka yang dapat diamati saat fajar dengan udara bersih."}'
+  weather.sunset:
+    label: senja
+    summary: Momen dimana sinar matahari tidak lagi muncul karena posisi mataharinya telah melewati batas ufuk.
+    info: Senja adalah momen di mana matahari tenggelam ke bawah garis cakrawala akibat rotasi Bumi terhadap Matahari yang membuatnya tampak bergerak dari timur ke barat sepanjang hari hingga menghilang ketika malam tiba.
+  weather.thunderstorm:
+    label: badai
+    summary: Peristiwa cuaca intensif dengan petir, guntur, hujan, serta angin.
+    info: Petir terjadi di dalam awan cumulonimbus yang besar dan mencapai tinggi lebih dari 10 kilometer. Petir adalah gangguan statis listrik; petir dapat memanas udara menjadi suhu sekitar 30 ribu derajat Celcius hanya dalam sepersekian detik.
+  weather.tornado:
+    label: angin putih
+    summary: Putaran aliran udara kuat menembus awan ke arah daratan.
+    info: Angin tornado adalah angin yang berputar sangat cepat dan berasal dari badai hingga menyentuh permukaan tanah. Kecepatannya bisa mencapai lebih dari 804 kilometer per jam atau setara dengan 500 mil/jam di udara bebasnya. Angin ini paling sering terjadi di wilayah bernama 'The Tornado Alley' Amerika Serikat seperti Kansas, Oklahoma serta Texas.
+  weather.typhoon:
+    label: taifu
+    summary: Badai tropis dengan kecepatan udara melebihi 86 mph.
+    info: Taifu adalah nama untuk badai topan di Filiphina, Tiongkok, Jepang dan sekitarnya. Rata-rata setiap tahunnya, pulau-pulau ini terkena taifu hingga dua kali dalam satu minggu atau lebih dari seratus hari per bulan selama musim angin kencang yang berlangsung antara Mei sampai November.
+  weather.waterspout:
+    label: puting beliung laut
+    summary: Puting beliung laut menghubungkan lautan dengan awan melalui kolom udara dan air.
+    info: Puting beliung laut adalah putaran angin berisi uap di atas permukaan perairan yang terbentuk dari badai atau awan cumulonimbus.
+  weather.whiteout:
+    label: '"keadaan gelap putih"'
+    summary: Keadaan badai polar dimana hujan salju menimbulkan hilangnya semua perbedaan visual.
+    info: '{"hint":"Kondisi badai putih dengan visibilitas nihil di salju yang mengkilap","info":"Bibir laut terjadi ketika badai salju dan refleksi cahaya dari permukaan es menyebabkan langit dan tanah bergabung menjadi satu medan warna putih tunggal.\nIni memberikan visibilitas nol serta disorientasi bagi pengamatnya. \nSituasi ini sangat berbahayanya dalam lingkungan kutub atau pegunungan tinggi. \nPara pilot pesawat bisa kehilangan orientasi horizontal mereka selama kondisi seperti ini."}'
   weather.windy:
     label: berangin
     summary: Angin kencang yang menggoyahkan pohon dan membawa daun.

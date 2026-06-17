@@ -2,6 +2,30 @@ lang: de
 pivot: false
 title: Haustiere
 cards:
+  farm.alpaca:
+    label: Amerikanisches Kamel
+    summary: Kleinere Verwandte der Lama werden für ihre feine Wolle gezüchtet.
+    info: 'Das Alpaca ist ein kleineres verwandtes Tier zur Lama und wird auf den Hochgebirgsanden gehalten. Sein Fell gehört zu den feinsten natürlichen Fasern weltweit – es ist warm, hypoallergisch und sogar dünner als Kaschmir. Es gibt zwei Rassen: die flauschige Huacaya sowie das glänzende Suri.'
+  farm.barn_cat:
+    label: Katzenteiler
+    summary: Ein Haustier-Kater gehalten auf einem Bauernhof zur Kontrolle von Nagetieren.
+    info: Eine Ställekatze ist eine Hauskatze, die im landwirtschaftlichen Umfeld lebt und Mäuse sowie Ratten jagt. Sie beschützt Futterreserven vor Schädlingen wie Nager. Im Gegensatz zu Stubenkätzchen sind sie weniger sozialisiert mit Menschen.
+  farm.beehive:
+    label: Bienenstock
+    summary: Holzkonstrukt als künstliches Zuhause für Honigbienenvölker.
+    info: Ein Bienentock ist ein kunstvolles Wohnort einer Bienenkolonie und ersetzt die Baumhöhlen von wilden Bienenpopulationen. Eine Kolonie besteht normalerweise aus etwa 50 000 bis 80 000 Tieren. Jährlich erzeugt jede solche Gruppe zwischen 20 und 30 Kilogramm Honig.
+  farm.boar:
+    label: Eber
+    summary: Wildes oder gezüchtetes Sauengefährte.
+    info: Ein Eber ist ein nicht gekastrierter Männchen des Hausschweins oder Wildschweines. Auf Farmen werden Ebere zum Zuchtzweck gehalten und ihr Samens wird für die kunstliche Besamung verwendet. Der wilde Eber hat starke Stoßzähne und kann aggressiven Verteidigung zeigen. In der Gastronomie gilt das Fleisch vom Eber als wertvolle Jagdbeute.
+  farm.calf:
+    label: Kalb
+    summary: Kühekalb bis zu einem Jahr alt.
+    info: Ein Kalb ist das Jungtier der Rinder vom Geburtstag an bis zum Absetzen oder etwa ein Jahr lang. Ein geborenes Kalb steht rasch auf die Beine und zeigt starke Mutterinstinkte bei den Kühen. Kälber für Milcherzeugung werden oft früh von ihrer Mama getrennt. Kalbfleisch gilt als Delicatesse in vielen europäischen Kochtraditionen.
+  farm.carp:
+    label: Hecht
+    summary: Große Süßwasserfischart und traditionelles Weihnachtsgericht im Tschechischen Raum.
+    info: Der Hecht ist die größte Fischart, welche auf den tschechischen Teichen gezüchtet wird, und er gehört untrennbar zu den tschechischen Feiertagen dazu. Er wurde bereits während des Mittelalters vor allem in Böhmen domestiziert – insbesondere an der Třebonische Seenplatte bekannt geworden. Der Raubfisch ernährt sich von Allem, wächst schnell heran und kann ein Gewicht über dreißig Kilogramme erreichen.
   farm.chicken:
     label: Huhn
     summary: Haustierart, die Eier legt.
@@ -10,6 +34,10 @@ cards:
     label: Rind
     summary: Großes Nutztier, das Milch gibt.
     info: Das Hausrind wird für seine Milch und sein Fleisch gehalten. Es ist eine der wichtigsten Nahrungsquellen weltweit; eine Melkkuh kann täglich 20 bis 30 Liter Milch liefern.
+  farm.deer:
+    label: Hirsche aus der Farmhaltung
+    summary: Im Rahmen der Landwirtschaft werden Rehe oder Hirsche gezüchtet für Wildbret und Geweihherstellung.
+    info: In Tschechien wird im Jagdbereich sowie auf speziellen Höfen zwischen Rehen und Fasanen unterschieden; hierbei handelt es sich um Tiere mit besonderem Wert als Nahrungsmittelquelle durch ihre Fleischqualität. Rotrehs sind kleiner als Rothirschen und tragen typische kräftige Geweihteile. Diese verlieren sie jedes Jahr erneut, wachsen aber nach. Das von solcher Tierart stammende Wildfleisch gilt als gesunde Alternative zum Rindfleisch.
   farm.donkey:
     label: Esels
     summary: Ein robustes und zuverlässiges Arbeitsgetier mit sicheren Schritten.
@@ -18,19 +46,183 @@ cards:
     label: Gans
     summary: Wasservogel mit flachem Schnabel, der auf Farmen gehalten wird.
     info: Die Hauggans ist ein Geflügel, das zur Fleisch- und Eiergewinnung gezüchtet wird. Sie schwimmt gut dank den Schwimmhäuten zwischen ihren Zehen und gibt typisches Gackern von sich.
+  farm.emu:
+    label: Kasuarifarm
+    summary: Zucht von Emus für Öl, Fleisch und Leder in Australien.
+    info: In Farmen werden Emus hauptsächlich wegen ihres Fettes zur Herstellung eines Öls genutzt, das unter anderem im Kosmetikbereich Anwendung findet sowie um Leberwurstfett zu gewinnen; außerdem wird die Haut der Tiere verarbeitet. Das aus dem Fett extrahierte Öl hat entzündungshemmende Eigenschaften und kommt sowohl traditionell als auch heutzutage noch häufiger zum Einsatz. Die Zuchtbusiness mit diesen Vögeln breitet sich mittlerweile bis nach Nordamerika hinüber. Interessant ist dabei besonders ihre Neugier – sie nähern sich Menschen oft ohne Scheu.
+  farm.farm_shrimp:
+    label: Geflügelte Garnelen
+    summary: Meeresshrimp intensiv im Küstenbereichen gezüchtet.
+    info: |-
+      Die TIGER-Garnelensorte Litopenaeus vannamei ist weltweit am meisten angebaute Art von Shrimps.
+      Farms befinden sich hauptsächlich Südosten und Lateinamerika.
+      Der intensive Anbau dieser Garnellen wird umstritten wegen Auswirkungen auf Mangrovebestände.
+      Shrimps sind die zweitbeliebteste Meeresfrucht der Welt nach Thunfisch.
+  farm.foal:
+    label: Fohlen
+    summary: Ein Fohl ist ein Jungtier eines Pferdes bis zu einem Jahr alt und steht bereits Stunden nach der Geburt auf.
+    info: ' Ein Fohl ist das junge Tier des Pferds im ersten Lebensjahr. Innerhalb weniger Stunden nach seiner Geburt kann es sich aufrichten und beginnt mit dem Trinken von Muttermilch. Es hat besonders lange Beine gegenüber seinem Körperbau – diese verkürzen sich später beim Wachsen.'
+  farm.freshwater_crayfish:
+    label: Flusskrebs
+    summary: Ein Süßwasser-Krustentier landwirtschaftlich gezüchtet als Delicatesse.
+    info: Der Flusskrebs war einstmals häufig im Binnenland vertreten, wurde aber fast ausgerottet durch Krebserkrankungen und Wasserverschmutzung. Heute wird er auf speziellen Farmen angebaut. Er ist Anzeiger für sauberes Wasser – nur dort kann er überleben.
+  farm.garden_snail:
+    label: Gartenfrösche
+    summary: Großer Landkrebs als Delicatesse im französischen Escargotteller.
+    info: Der Gartenschnecke ist die größte Landschildkuar Europas und wird unter dem Namen 'Escargotte' geschätzt. Er verbringt den Winter durch eine Schale aus Membrane abgedichtet an einem sicheren Ort. Sein Anbau ('Héliiculture') erfolgt hauptsächlich in Frankreich sowie auch anderen Ländern.
   farm.goat:
     label: Ziege
     summary: Haustier mit Hörnern, das aromatisches Milch gibt.
     info: Die Haunziege wird für ihre Milch, ihr Fleisch und ihren Wolle gehalten. Sie ist anpassungsfähig und kann auf unterschiedlichen Vegetationstypen überleben, einschließlich trockener Gebiete.
+  farm.goat_dairy:
+    label: Milchkuh
+    summary: Eine Ziege gezüchtet für ihre Milch zur Herstellung von Käse und Joghurt.
+    info: Die Haarziege wurde vor mehr als 10 000 Jahren domestiziert und ist eines der verbreitetsten Nutztiere. Ihre Milch enthält viele Nährstoffe und wird leichter vertragen als Rindermilch – sie eignet sich daher gut für Menschen mit Lactoseintoleranz. Aus ihrer Milch werden berühmte Käsesorten wie Chèvre, Fetakäse oder Halloumi hergestellt. Die Tiere sind robust und anpassungsfähig genug dazu, um auf felsigen Bergböden zu grasen.
+  farm.goose:
+    label: Haushuhn
+    summary: Großes domestiziertes Geflügel für Fleisch, Eier und Federn gezüchtet.
+    info: Das Haushuhn entstand vor mehr als 3 000 Jahren aus wilden Hühnerarten. Es war eines der ersten domestizierten Tiere – im antiken Rom bewachten die Kappenhähne den Capitol. Das Tier wird geschätzt wegen seiner Legehennen-Eigenschaften wie auch des Schlachtfleisches sowie speziell von Enteneiern oder Foie Gras.
+  farm.guinea_fowl:
+    label: Steinperlhuhn
+    summary: Afrikantier gezüchtet für das Fleisch und als Wächter vor Schlangen.
+    info: |-
+      Das Steinperlhuhn stammt aus Afrika, wo es wild im Buschland lebt.
+      Auf Farmen wird es geschätzt wegen seiner natürlichen Aufmerksamkeit – durch sein lautes Geklapper warnt es vor Schlangen, Raubtieren sowie unbekanntem Personal.
+      Es hat typisches graues Federnkleid mit weißen Punkten und einen rostroten bis bläulichen nacktfarbenen Kopf.
+      Sein Fleisch schmeckt ähnlich wie Wildgeflügel.
+  farm.guinea_pig_farm:
+    label: Haussüßer
+    summary: Süßlinge aus Südamerika gezogen für Fleisch oder als Haustier.
+    info: |-
+      Der Haussüssling stammt von den Anden ab und wurde vor mehr als 3 000 Jahren vom Inkareich domestiziert, um ihn als Nahrungsquelle zu nutzen.
+      Heute ist er eine traditionelle Speise im Perú, Ecuador und Kolumbien unter dem Namen cuy.
+      In Europa und Nordamerika wird der Süßling hingegen häufiger als Kindertiere gehalten.
+      Er kommuniziert durch komplexe Geräusche wie Schnauben, Jaulen und Pfeifen.
+  farm.highland_cattle:
+    label: Highland-Rind
+    summary: Schottisches Rinder mit langer rötlicher Mähne und kräftigen Hörnern.
+    info: Die schottische Hochgebirgsrindsrasse ist ein altes Schaftrierpferd aus den anspruchsvollen Lebensräumen der schottischen Highlands. Ihre markante lange braune Wolle bietet Schutz vor Nässe und Kälte. Sie sind widerstandsfähig und weniger anfällig für Krankheiten als andere Rassen.
   farm.horse:
     label: Horse
     summary: Strong domesticated animal used for riding and work.
     info: The domestic horse has been essential for transportation, agriculture, and warfare for thousands of years. Today it is also bred for sports and recreation.
+  farm.lamb:
+    label: Lamm
+    summary: Ein Jungtier einer Schafherde bis zu einem Jahr alt; Symbol für den Frühling und Unschuld.
+    info: Eine Lämmer ist ein junges Schaf im Alter von maximal einem Jahr. Es wird mit Flaum geboren und beginnt kurz nach der Geburt zu grasen. Im Christentum steht es als Zeichen der Unschuld sowie des Gotteslamms Jesu.
+  farm.llama:
+    label: ' Lama'
+    summary: ' Südamericaner Kameltier zur Faserproduktion und als Lasttier.'
+    info: Die Lamas wurden vor mehr als 5 000 Jahren von den Inkas gezüchtet. Sie waren das wichtigste Transportmittel der Andenregionen und können bis zu 30 Prozent ihres Eigengewichts tragen. Das weiche Wollkleid wird wegen seiner wärmenden Eigenschaft geschätzt. Bei Bedrohung oder Unzufriedenheit ist es bekannt, dass die Tiere speien.
+  farm.mule:
+    label: Hengstling
+    summary: Unfruchtbares Mischwesen aus Pferd und Esel mit außergewöhnlicher Ausdauer und Stärke.
+    info: Ein Hengstling entsteht durch die Kreuzung einer Stute (Pferdinchen) mit einem Eselbullen (Eselfalter). Der umgekehrte Vorgang ergibt eine Mulle oder Mauleselin. Er ist unfruchbar aber sehr widerstandsfähig, stark und robust. Seine Orientierung im Gelände ist guter als bei dem Pferden; er reagiert ruhiger auf Herausforderungen.
+  farm.mussel:
+    label: Schale
+    summary: Essiger Miesmuschel gezüchtet an Seilen im Meerwasser.
+    info: Die Edelschal ist eine Muschelart, die auf Farmen entlang der Atlantikküste Europas weit verbreitet angebaut wird. Sie wächst an Leinen oder Körben und profitiert vom Gezeitenwechsel. Die Schalentiere filtern das Wasser und gelten als umweltfreundliche Nahrung mit geringer CO₂-Bilanz.
+  farm.ostrich:
+    label: Strauß der Farm
+    summary: Ein Strauß wird für Fleisch, Federn und Leder gezüchtet.
+    info: Der Strauß ist das schnellste Zweibeinertier auf dem Planeten und wird auf Farms wegen des Fettes-, Cholesterinspiegels sowie seiner Haut und Federwerte gehalten.
+  farm.ox:
+    label: Ochse
+    summary: Gekastrierter Rindvieh-Bulle war im Laufe der Geschichte das wichtigste Zugtier des Ackerbaus.
+    info: "Ein Ochs ist ein gekastrierter männlicher Hausrinderartig geborener und für die Arbeit gezüchteter Tierbauernbetrieb. \nEr bildete Jahrtausende lang das grundlegende Zugpferd der Landwirtschaft fast überall auf der Welt ab. \nSeine starke und gehorsame Natur ermöglichte es ihm, mehr Boden zu ackern als Pferde bei früherer landwirtschaftlichen Produktion. \nIn heutiger Zeit haben ihn Traktoren weitgehend verdrängt; dennoch wird er immer noch in Entwicklungsländern genutzt."
+  farm.oyster:
+    label: Zuchthammermuschel
+    summary: Ein Meeresweichtier gezüchtet an Seilen und Käfigen im Küstenwasser.
+    info: Die Zuchthummermuschel wird in küstennahem Wasser auf Leinen oder Gittern gezüchtet und erreift nach etwa drei bis fünf Jahren die Reifezeit. Sie filtert das Wasser und trägt so zur Reinigung der marinen Ökosysteme bei. Als Delicatesse kann sie roh oder gekocht verzehrt werden. Die Perlmuschel ist eine weitere Art von Muscheln, aus denen natürliche Perlmutterperlen entstanden sind.
+  farm.peacock:
+    label: Hahnenvogel
+    summary: Männlicher Hahnen mit schillerndem Schwanzgefieder wird oft auf Gutsbesitzern gehalten.
+    info: Der blaue Pfau stammt aus der Region von Indien und wurde vor tausenden Jahren als Ziergeflügel gezähmte. Der Männchen entfaltet über einhundert verzierte Federn zu einem beeindruckendem Fächer um Weibchen anzulocken. Sein Ruf ist sehr laut und durchdringend.
+  farm.pheasant:
+    label: aufgezogene Rebhenne
+    summary: Rebhenne auf Farmen gezogen und für die Jagd freigelassen.
+    info: Die Rebhenne wird in der Tschechoslowakei auf Farmen gehalten und regelmäßig zur Jagdzwecken ins Freie ausgewildert. Ihr Ursprung liegt in Asien; sie wurde von den Römern nach Europa gebracht. Der Männchen hat ein auffälliges Gefieder mit langem Schwanzflugzeug, während das Weibchen unauffällig braun gefärbt ist. Das Fleisch der Rebhenne gilt als wertvolle Beuteart mit feiner Geschmack.
   farm.pig:
     label: Schwein
     summary: Ein rosa Haustier mit knorpeligem Schnauzbart.
     info: Das Haus-Schwein ist ein intelligenter Nutztiertyp, der zum Fleischgewinn gezüchtet wird. Es ist Allesfresser und kann komplexe Aufgaben merken.
+  farm.pigeon_farm:
+    label: Haushuhn
+    summary: Hausgezüchteter Taube für Fleisch (Putenfleisch von Jungtieren) oder Rennen.
+    info: Die Haustaube ist eine gezähmtte Felsentaube; durch Zucht entstanden hunderte Rassen. Putenfleisch vom jungen Hahn wird als Delikatesse vieler Kulturen geschätzt. Wettflugtauben werden auf Geschwindigkeit gezüchtet und können über 150 Kilometer die Stunde fliegen. In der Tschechischen Republik hat das Tiersport stark verbreitet.
+  farm.piglet:
+    label: Schweinchen
+    summary: Jungtier des Hausschwines, meist rosa und spielerisch.
+    info: |-
+      Ein Schweinchen ist das Junges eines Haushuhnes im ersten Lebensmonaten.
+      Neugeborenen Schweinchens sind sehr klein aber wachsen schnell heran.
+      Weibliche Tiere (Hühnerinnen oder Sauen), gebären durchschnittlich zehn bis zwölf Junge auf einmal.
+      Die Jungen von Hühnern sind intelligent – Forscher haben festgestellt dass die Intelligenz der Schafe dem Hund ähnelt.
+  farm.pony:
+    label: Müller
+    summary: Kleiner Pferderassen-Typ mit einer Widerristhöhe von maximal 14,2 Händen.
+    info: Ein Pony ist eine kleine Rasse des Vollblutpferdes und überschreitet die Höhe von nicht mehr als 14,2 Handsbreiten im Widerristmaß (ca. 147 Zentimeter). Das schottische Shetlands-Pony stammt aus den Schären Islands der Highlands und gilt als das kleinste Vertretung dieser Gruppe. Diese Tiere sind widerstandsfähig gegen harte Wetterbedingungen sowie beliebt sowohl für Reitunterrichte bei Kindern wie auch zur Arbeit unter Tage.
+  farm.quail:
+    label: Japanische Rebhuhn
+    summary: Ein kleiner Haustierart für Eier und Fleisch gezüchteter Vogel.
+    info: Das Japanische Rebhuhn ist eine domestizierte Art von Rebhuhen intensiv gehaltenen zur Gewinnung von Eiern und Fleisch. Die Hennen legen fast täglich Eier – diese gelten als Delicatesse in vielen Küchen. Sie reifen schnell heran und beginnen bereits nach sechs Wochen mit dem Legen. In Japan werden sie auch als Gesangsvögel gehalten, wobei ihre Zucht dort zu einer alten Tradition gehört.
+  farm.rabbit:
+    label: Hase
+    summary: Haussame Hasen werden für Fleisch, Pelz oder als Haustiere gehalten.
+    info: Der Europäische Wildhas ist der Vorfahre des heutigen Haushasens und wurde im Mittelalter gezähmt. Es gibt über 50 anerkannte Rassen mit unterschiedlicher Größe, Farbe und Felltypologie. Die Weibchen können Würfe von vier bis zwölf Jungtieren haben und mehrere Mal jährlich Junge zur Welt bringen.
+  farm.ram:
+    label: Bock
+    summary: Erwachsener Rammel mit kräftigen schraubenförmigen Hörnern.
+    info: Ein Bock ist ein erwachsender Männchen der Hausschafart Ovis aries. Er hat markante螺旋förmige Hörner; die Weibchen haben entweder keine oder nur sehr kleine. Im Herbst kämpfen sich männliche Schafe durch direkte Kopfstöße und Hornkämpfe um Partnerinnen an. In Symbolik und Mythologie steht das Bild des Bocks für Stärke, Fruchtbarkeit und Führungsqualitäten.
+  farm.rooster:
+    label: Hahn
+    summary: Männchen der Haushühnerart Gallus gallus domesticus mit farbenfrohem Gefieder und kräftigem Hahnenbesen.
+    info: Ein Hahn ist das männliche Exemplar des Hausgeflügels und erkennt man an seinem prächtigen Federkleid sowie dem sogenannten Kamm am Kopf oder den Federn im Schwanzbereich – auch als 'Schwimmfedern' bekannt. Sein Gockelrufen hat einen territorial markierenden Charakter und kann nicht nur zum Sonnenaufgang auftreten sondern zu jeder Tageszeit. In Tschechien gilt der Hahn traditionell als Symbol für Wachsamkeit; innerhalb des chinischen Tierkreises gehört er ebenfalls zur Gruppe von zwölf Zeichen. Die alten Griechen opferten ihm sogar Askлепios unter anderem Namen Apollo, da sie ihn als Sinnbild eines neuen Anfangs betrachteten.
+  farm.salmon:
+    label: Lachs
+    summary: Große Meeresfischart mit Wanderung zu Flüssen zum Laichen und weit verbreitet im Fischzuchtgewerbe.
+    info: |-
+      Der atlantische Lachsmüller ist eine Anadrome-Fishart – er wächst auf dem Meer heran, kehrt aber zur Fortpflanzung zurück ins Geburtsflußbett seiner Eltern.
+      Die Orientierung nach der Heimatquelle erfolgt durch das Erdmagnetfeld sowie Geruchssinn.
+      In Norwegen und Schottland wird die kommerzielle Aufzucht von Atlantischen Lachsen als einer der größten Zweige des Aquakulturmarktes betrieben.
+      Atlantischer Lachs enthält reiche Mengen Omega-3 Fettsäuren, welche gesundheitlich fördernd wirken.
   farm.sheep:
     label: Schaf
     summary: Wolliges Nutztier, das Wolle und Milch gibt.
     info: Das Hausschaf wird für seine Wolle, sein Fleisch und ihre Milch gehalten. Es lebt in Herden und gehört zu den ersten domestizierten Tieren der Geschichte.
+  farm.sheepdog:
+    label: Schäferhund
+    summary: Ein Hundeart, der speziell trainiert wird, um eine Schafsherde zu lenken und zu beschützen.
+    info: Der Border-Kollie ist die beliebteste Rasse von Herdenschutzhunden; er führt das Vieh durch Blickkontakt sowie sanfte Kommandos an. Er zählt zu den intelligentesten Hunderrassen überhaupt. Seine Arbeitsfähigkeit vererbt sich genetisch und muss bereits im Welpenalter gezielt gefördert werden. In Großbritannien sind Wettkämpfe wie Sheepdog Trials ein verbreiteter Sport.
+  farm.silkworm:
+    label: Seidenraupeneule
+    summary: Die Raupe der Seidenspinner eiert natürlichen Seide an.
+    info: Der Seidendomestizit ist die Rauppe des kultivierten Züchterseiderspinners (Bombyx mori), den man vor mehr als 5 000 Jahren im heutigen China gezähmt hat. Der Kokon dieser Motte enthält ein Faden von über 900 Metern Länge und dient somit als Quelle für Naturseide. Sie war so wertvoll, dass sich das Reich Jahrhunderte lang strikt um ihre Geheimhaltung bemühte; sogar nach außen hin verbot es jegliche Verbreitung ihrer Herstellungsmethode.
+  farm.sow:
+    label: Schweinemutter
+    summary: Erwachsene Sau im Stallbetrieb und Mutter von Ferkeln.
+    info: Eine Schweinemutter ist eine erwachsene weibliche Haussau auf der Landwirtschaftlichen Betriebe. Sie kann jährlich zwei Würfe mit durchschnittlich etwa elf bis vierzehn Jungtieren haben. Der intensive Halt von Schweinen unter Boxenbedingungen wird heutzutage kritisch beobachtet wegen möglicher Tierquälerei. Zudem sind die Tiere sehr intelligent; bei natürlichen Lebensumständen kümmern sie sich über einen Zeitraum von zwölf bis sechszehn Wochen intensiv um ihre Jungen.
+  farm.tilapia:
+    label: Maulbars
+    summary: Eine tropische Süßwasserfischart mit weltweit großflächigem Anbau.
+    info: Der Nilenmaulbar ist eine der am weitest verbreiteten gezüchteten Fischen auf der Welt und jährlich werden Millionen Tonnen produziert. Er stammt originär aus dem Nilbecken sowie afrikanischen Seen, wird aber mittlerweile bereits überall auf den Kontinenten angezuchtet. Seine Robustheit, schnelle Wachstumsrate und geringe Futternahrung machen ihn besonders attraktiv für die Aquakultur.
+  farm.trout:
+    label: Bachforelle
+    summary: Lachsartige Fischart aus Zuchtfarmen und freier Wildbeute.
+    info: |-
+      Die Regenböckerring ist ein nordamerikanischer Lachsen nach Europa eingeführt für die Aquakultur.
+      Der Bachfaden hingegen stammt von hierher – er bewohnt saubere Flüsse mit schnellem Wasserfluss im europäischen Raum.
+      Beide Arten geliebt sowohl als Jagdbeutel wie auch kulinarische Delikatesse.
+      In Tschechiens Bergregionen hat sich Forellenhaltung zu einer etablierten Tradition entwickelt.
+  farm.turkey:
+    label: Truthahn
+    summary: Großes Haustiergeflügel für Fleisch gezogen und Symbol des US-Dankfests.
+    info: Der Truthuhn stammt aus Mexico, wo er vor mehr als 2 000 Jahren von den Azteken domestiziert wurde. Der Hahn hat ein typisches Kinnhöcker-Federkleid und kann sein Schwanzgefieder zu einem Fächer aufstellen. In Amerika ist der Truthahn traditionell das Festessen zum Tag der Dankbarkeit – weltweit gehört die Art außerdem zur zweithäufigsten domestizierten Geflügelsorte.
+  farm.water_buffalo:
+    label: Haubitze
+    summary: Großes asiatisches Rind als Zugtier für Reisanbau.
+    info: Die Haunitz ist eine gezähmte Form des Wasserkühe und das grundlegende Nutztier im Asiengraum. Sie pflügen seit Jahrtausenden Reispolder oder transportieren Lasten. Ihre Milch hat einen höheren Fettgehalt als Kuhmilch und wird zur Herstellung von Mozzarella aus Buffalo-Milch verwendet. In Indien gilt sie außerdem als heilig bei Hindus.
+  farm.yak:
+    label: Yak
+    summary: Großes langhaariges Rind der Tibetischen Hochebene; liefert Milch, Fleisch und Zug.
+    info: Der Yak ist eine domesticisierte Form des wildlebenden Bos grunniens auf dem Tibe-tan Plateau zwischen etwa 3 000 bis 5 500 Metern Höhe. Er bildet die Grundlage für die Wirtschaft im Hochgebirge durch seine Produktion von Milch, Fleisch sowie Wolle – diese ist besonders fein und warm. Ein Mule oder Dzomo entsteht aus einer Kreuzung eines Yaks mit einem Hausrind und gibt mehr Milch ab als ein reinerblütiger Yak.

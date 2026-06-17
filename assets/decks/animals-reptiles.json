@@ -664,6 +664,552 @@
         "vi": "Mlok có chấm là loài động vật lưỡng cư được bảo vệ tại Trung Âu với những đốm vàng đen trên da. Nó tiết ra chất độc qua da và sống trong các khu rừng ẩm ướt.",
         "zh-CN": "斑点火蜥蜴是一种受到保护的中欧两栖动物，身上带有黄黑相间的斑纹。它会从皮肤分泌毒液，并生活在潮湿的森林里。"
       }
+    },
+    {
+      "key": "reptile.alligator",
+      "image": "reptile.alligator.png",
+      "label": {
+        "cs": "aligátor"
+      },
+      "summary": {
+        "cs": "Velký krokodýlovec s kulatým čumákem žijící v USA a Číně."
+      },
+      "info": {
+        "cs": "Aligátor americký je jedním ze dvou žijících druhů aligátorů; druhý je menší čínský aligátor.\nOd krokodýlů ho odlišuje širší kulatý čumák a to, že při zavřeném chrupu nejsou vidět zuby.\nŽije v bažinách, řekách a jezerech jihovýchodní USA.\nJe důležitým vrcholovým predátorem a ochráncem mokřadních ekosystémů.\n"
+      }
+    },
+    {
+      "key": "reptile.python",
+      "image": "reptile.python.png",
+      "label": {
+        "cs": "krajta"
+      },
+      "summary": {
+        "cs": "Velký nejedovatý had škrtící svou kořist."
+      },
+      "info": {
+        "cs": "Krajty jsou nejdelší hadi světa; krajta mřížkovaná dosahuje délky přes 7 metrů.\nZabíjí kořist škrcením, nikoli jedem; ochrnou ji kolem krku a trupu.\nMají tepelné receptory (infralochy) umožňující detekci teplokrevné kořisti i ve tmě.\nKrajta barmská je invazní druh na Floridě, kde decimuje divou zvěř.\n"
+      }
+    },
+    {
+      "key": "reptile.cobra",
+      "image": "reptile.cobra.png",
+      "label": {
+        "cs": "kobra"
+      },
+      "summary": {
+        "cs": "Jedovatý had s charakteristickým kapucí; jedovatý výstražný posed."
+      },
+      "info": {
+        "cs": "Kobra je jedovatý had ze skupiny Elapidae proslulý schopností rozepnout kůži za hlavou do kapuce jako varování.\nJed (neurotoxin) ochromuje nervový systém kořisti.\nKobra brýlová je národním symbolem Egypta a Indie.\nKobra chrlící jed (Naja nigricollis) dokáže plivat jed na vzdálenost přes dva metry, cílí na oči.\n"
+      }
+    },
+    {
+      "key": "reptile.boa_constrictor",
+      "image": "reptile.boa_constrictor.png",
+      "label": {
+        "cs": "hroznýš královský"
+      },
+      "summary": {
+        "cs": "Velký jihoamerický had škrtící kořist v objemu těla."
+      },
+      "info": {
+        "cs": "Hroznýš královský je velký nejedovatý jihoamerický had.\nKořist zabíjí tak, že se kolem ní ovine a při každém výdechu kořisti stiskne svaly silněji, čímž zabrání nádechu.\nJe populárním exotickým mazlíčkem díky klidné povaze.\nDosahuje délky 2 až 4 metrů a žije přes 30 let.\n"
+      }
+    },
+    {
+      "key": "reptile.monitor_lizard",
+      "image": "reptile.monitor_lizard.png",
+      "label": {
+        "cs": "varan"
+      },
+      "summary": {
+        "cs": "Velká aktivní predátorská ještěrka s rozdvojeným jazykem."
+      },
+      "info": {
+        "cs": "Varan je velká ještěrka z rodu Varanus s bifurkovaným (rozdvojeným) jazykem sloužícím jako čichový organ.\nKomodo varan je největší žijící ještěrka na světě (délka přes 3 metry).\nVarani jsou inteligentní; vědci zaznamenali použití jednoduchých nástrojů.\nVarani nilský decimují populace krokodýlů konzumováním jejich vajíček.\n"
+      }
+    },
+    {
+      "key": "reptile.iguana",
+      "image": "reptile.iguana.png",
+      "label": {
+        "cs": "leguán zelený"
+      },
+      "summary": {
+        "cs": "Velká zelená ještěrka tropické Ameriky s ostnatým hřebenem."
+      },
+      "info": {
+        "cs": "Leguán zelený je velká bylinožravá ještěrka z tropické Ameriky dorůstající až 2 metrů.\nMá třetí oko na temeni (parietální oko) citlivé na světelné změny.\nJe sociální; hierarchie dominance se projevuje tlačením hlavy a barvou těla.\nJe ohrožen hlavně ztrátou přirozeného prostředí; v zajetí se chová jako agresivní dospělec.\n"
+      }
+    },
+    {
+      "key": "reptile.tuatara",
+      "image": "reptile.tuatara.png",
+      "label": {
+        "cs": "tuatara"
+      },
+      "summary": {
+        "cs": "Novozélandský živoucí fossil, jediný přeživší z řádu Rhynchocephalia."
+      },
+      "info": {
+        "cs": "Tuatara je jeden z nejstarších plazů světa; jeho řád existoval v době dinosaurů.\nŽije výhradně na ostrovech Nového Zélandu.\nRoste extrémně pomalu; pohlavní zralosti dosahuje až v 10 až 20 letech.\nNejstarší jedinci dosahují věku přes 100 let a třetí oko u mláďat je funkční.\n"
+      }
+    },
+    {
+      "key": "reptile.skink",
+      "image": "reptile.skink.png",
+      "label": {
+        "cs": "skink"
+      },
+      "summary": {
+        "cs": "Ještěr s hladkými lesklými šupinami a krátkýma nohama."
+      },
+      "info": {
+        "cs": "Scinky jsou velká čeleď ještěrů s přes 1 500 druhy a vyznačují se hladkými cykloidními šupinami.\nNěkteré druhy jsou nohama zakrnělé nebo zcela beznohé.\nModrojazyčný skink australský vyplazuje výrazně modrý jazyk jako varovný signál predátorům.\nŽijí na různých biotopech od tropů po pouště.\n"
+      }
+    },
+    {
+      "key": "reptile.anole",
+      "image": "reptile.anole.png",
+      "label": {
+        "cs": "anolis"
+      },
+      "summary": {
+        "cs": "Malá americká ještěrka měnící barvu; samec má výrazné laloky."
+      },
+      "info": {
+        "cs": "Anolis je rod malých ještěrek z Ameriky s přes 400 druhy.\nSamci mají barevný hrdelní lalok (dewlap), kterým komunikují a přitahují samice.\nZelený anolis může měnit barvu z zelené na hnědou v závislosti na teplotě a emocích.\nJsou rychlí a agil ní; dokáží šplhat po skle díky adhezivním podušičkám.\n"
+      }
+    },
+    {
+      "key": "reptile.komodo_dragon",
+      "image": "reptile.komodo_dragon.png",
+      "label": {
+        "cs": "komodský drak"
+      },
+      "summary": {
+        "cs": "Největší žijící ještěrka světa z indonéského ostrova Komodo."
+      },
+      "info": {
+        "cs": "Komodský drak je největší žijící ještěrka dosahující délky přes 3 metry a hmotnosti přes 70 kg.\nHistoricky se věřilo, že zabíjí bakteriemi v slinách; ve skutečnosti má jedovaté žlázy.\nLoví jeleny, prasata a dokonce buvoly.\nŽije jen na několika indonéských ostrovech a je kriticky ohrožen.\n"
+      }
+    },
+    {
+      "key": "reptile.caiman",
+      "image": "reptile.caiman.png",
+      "label": {
+        "cs": "kajman"
+      },
+      "summary": {
+        "cs": "Jihoamerický krokodýlovec menší než krokodýl nebo aligátor."
+      },
+      "info": {
+        "cs": "Kajman brýlový je nejrozšířenější krokodýlovec Jižní Ameriky.\nJe menší než pravé krokodýly; dorůstá délky do 2,5 metru.\nŽije v tropických řekách, jezerech a bažinách od Mexika po Argentinu.\nJe lovejn pro kůži; stavy jsou kvůli tomu ohroženy v některých oblastech.\n"
+      }
+    },
+    {
+      "key": "reptile.gharial",
+      "image": "reptile.gharial.png",
+      "label": {
+        "cs": "gaviál"
+      },
+      "summary": {
+        "cs": "Krokodýlovec s extrémně úzkým zobákem specializovaný na ryby."
+      },
+      "info": {
+        "cs": "Gaviál je krokodýlovec z Indie s charakteristicky velmi dlouhým a úzkým čenichem, přizpůsobeným k lovu ryb.\nSamci mají na špičce čenichu výrůstek (ghara).\nJe kriticky ohrožen; žije pouze v řekách severní Indie a Nepálu.\nPatří k nejstarším krokodýlovcům a byl rozšířen téměř po celé Asii.\n"
+      }
+    },
+    {
+      "key": "reptile.horned_lizard",
+      "image": "reptile.horned_lizard.png",
+      "label": {
+        "cs": "ještěrka rohatá"
+      },
+      "summary": {
+        "cs": "Plochá trnová ještěrka ze severoamerických pouští s rohy na hlavě."
+      },
+      "info": {
+        "cs": "Rohatá ještěrka (Phrynosoma) je plochá trnitá ještěrka žijící v pouštích jihozápadu USA a Mexika.\nPři ohrožení dokáže vystříknout krev z očí na vzdálenost přes metr jako obranný mechanismus.\nJe špatně pohyblivá; spoléhá na kamufláž.\nJe ohrožena pesticidy, které ničí její hlavní potravu, mravence.\n"
+      }
+    },
+    {
+      "key": "reptile.gila_monster",
+      "image": "reptile.gila_monster.png",
+      "label": {
+        "cs": "heloderm"
+      },
+      "summary": {
+        "cs": "Jedovatá podsaditá ještěrka amerického jihozápadu s mozaikovitou kůží."
+      },
+      "info": {
+        "cs": "Heloderm Gila (Heloderma suspectum) je jedním z mála jedovatých ještěrek světa.\nMá korálkovou kůži s oranžovočerným vzorem jako varování.\nJed vpravuje soustavou drážek v zubech, nikoli dutými zuby jako hadi.\nŽije pomalu a lazebně; vydaje málo energie a jí jen několikrát ročně.\n"
+      }
+    },
+    {
+      "key": "reptile.rattlesnake",
+      "image": "reptile.rattlesnake.png",
+      "label": {
+        "cs": "chřestýš"
+      },
+      "summary": {
+        "cs": "Jedovatý had s chřestítkem na konci ocasu jako varováním."
+      },
+      "info": {
+        "cs": "Chřestýš je jedovatý had ze skupiny zmijovitých s charakteristickým chřestítkem na konci ocasu.\nChřestítko je tvořeno zrohovělými články a při ohrožení slouží jako varování.\nMá tepelné receptory (jamky) umožňující detekci teplokrevné kořisti i ve tmě.\nJeho kousnutí vyžaduje okamžité lékařské ošetření.\n"
+      }
+    },
+    {
+      "key": "reptile.viper",
+      "image": "reptile.viper.png",
+      "label": {
+        "cs": "zmije"
+      },
+      "summary": {
+        "cs": "Jedovatá zmijovitá šelma s trojúhelníkovou hlavou a vinutým tělem."
+      },
+      "info": {
+        "cs": "Zmije obecná je jediný jedovatý had přirozeně vyskytující se v Česku.\nJe poznatelná podle klikatého vzoru na hřbetě a zásekovitých žihadlových zubů.\nBodnutí je bolestivé a vyžaduje lékařský dozor, ale je zřídkakdy smrtelné pro zdravého dospělého.\nJe chráněna zákonem; v Česku se nesmí chytit ani zabít.\n"
+      }
+    },
+    {
+      "key": "reptile.tree_frog",
+      "image": "reptile.tree_frog.png",
+      "label": {
+        "cs": "rosnička"
+      },
+      "summary": {
+        "cs": "Stromová žabka s přísavkami na prstech lezoucí po listech."
+      },
+      "info": {
+        "cs": "Rosnička zelená je malá žabka ze skupiny Hylidae s přísavkami na konečcích prstů umožňujícími šplhání po hladkých površích.\nV Česku žije jedna původní rosnička obecná; je chráněna zákonem.\nMění barvu z zelené na šedou nebo hnědou v závislosti na teplotě a vlhkosti.\nVydává hlasitý krátkání zpěv především v noci a před deštěm.\n"
+      }
+    },
+    {
+      "key": "reptile.poison_dart_frog",
+      "image": "reptile.poison_dart_frog.png",
+      "label": {
+        "cs": "pralesnička"
+      },
+      "summary": {
+        "cs": "Malá jasně zbarvená jedovatá žabka tropické Ameriky."
+      },
+      "info": {
+        "cs": "Pralesnička je malá žabka ze skupiny Dendrobatidae žijící v tropických lesích Střední a Jižní Ameriky.\nJejí jasné barvy (červená, modrá, žlutá) slouží jako varování jedovatosti (apozematismus).\nNěkteré druhy jsou nejjedovatějšími obratlovci světa.\nIndiáni si jejich jedem otrávali šipky (odtud poison dart frog).\n"
+      }
+    },
+    {
+      "key": "reptile.axolotl",
+      "image": "reptile.axolotl.png",
+      "label": {
+        "cs": "axolotl"
+      },
+      "summary": {
+        "cs": "Mexický vodní mloček uchovávající larválné rysy celý život."
+      },
+      "info": {
+        "cs": "Axolotl je vodní mloček z Mexika projevující neotenii, tedy si uchoval larválné rysy celý život včetně vnějších žaber.\nJe endemit jezer v okolí Mexico City a je kriticky ohrožen znečistěním.\nMá pozoruhodnou regenerační schopnost a může obnovit končetiny, část srdce i míchy.\nJe populárním exotickým mazlíčkem pro jedinečný vzhled.\n"
+      }
+    },
+    {
+      "key": "reptile.newt",
+      "image": "reptile.newt.png",
+      "label": {
+        "cs": "čolek"
+      },
+      "summary": {
+        "cs": "Malý ocasatý obojživelník žijící ve vodě i na souši."
+      },
+      "info": {
+        "cs": "Čolek velký je největší středoevropský čolek dorůstající délky přes 15 cm.\nV období rozmnožování se samec pyšní výrazným hřbetem a skvrnami jako hady.\nV České republice jsou všechny druhy čolků chráněny zákonem.\nZimu tráví pod kořeny stromů nebo v norách mimo vodu.\n"
+      }
+    },
+    {
+      "key": "reptile.toad",
+      "image": "reptile.toad.png",
+      "label": {
+        "cs": "ropucha"
+      },
+      "summary": {
+        "cs": "Suchozemský bradavičnatý obojživelník příbuzný žábě."
+      },
+      "info": {
+        "cs": "Ropucha obecná je nejrozšířenější žáby v České republice.\nBradavice nekřeší mušky; slouží jako ochrana a jsou zdrojem jedových výměšků.\nMigruje každý rok ve velkých skupinách do vodních nádrží k rozmnožování; v Česku ji pomáhají dobrovolníci přecházet silnice.\nŽiví se slimáky, červy a hmyzem a je přirozeným regulátorem zahradních škůdců.\n"
+      }
+    },
+    {
+      "key": "reptile.sea_snake",
+      "image": "reptile.sea_snake.png",
+      "label": {
+        "cs": "mořský had"
+      },
+      "summary": {
+        "cs": "Jedovatý had přizpůsobený mořskému životu s pádlovitým ocasem."
+      },
+      "info": {
+        "cs": "Mořský had je jedovatý plaz z čeledi Hydrophiinae dokonale přizpůsobený životu v oceánu.\nMá plochý pádlovitý ocas pro plavání.\nJeho jed je neurotoxický a mnohonásobně silnější než kobří; ale hadi jsou velmi mírumilovní.\nDýchají vzduch a musejí pravidelně vynořovat se k hladině.\n"
+      }
+    },
+    {
+      "key": "reptile.king_snake",
+      "image": "reptile.king_snake.png",
+      "label": {
+        "cs": "had královsky"
+      },
+      "summary": {
+        "cs": "Nejedovatý americký had imunní vůči jedu chřestýšů, loví jiné hady."
+      },
+      "info": {
+        "cs": "Had královský je nejedovatý americký had schopný konzumovat jiné jedovaté hady, včetně chřestýšů, vůči jejichž jedu je imunní.\nJeho zbarvení (černobílé pruhy) napodobuje jedovatého korálovce.\nJe důležitým regulátorem populací myší, ptáků a plazů.\nJe oblíbeným exotickým mazlíčkem díky mírné povaze.\n"
+      }
+    },
+    {
+      "key": "reptile.mamba",
+      "image": "reptile.mamba.png",
+      "label": {
+        "cs": "mamba"
+      },
+      "summary": {
+        "cs": "Rychlý vysoce jedovatý africký stromový had."
+      },
+      "info": {
+        "cs": "Mamba černá je jeden z nejrychlejších a nejjedovatějších hadů světa.\nDosahuje rychlosti přes 20 km/h po zemi a je schopna šplhání po stromech.\nJeho neurotoxický jed bez protilátky způsobí smrt v řádu hodin.\nNázev černá mamba pochází od zbarvení vnitřku úst, nikoli od barvy těla (která je šedá nebo olivová).\n"
+      }
+    },
+    {
+      "key": "reptile.anaconda",
+      "image": "reptile.anaconda.png",
+      "label": {
+        "cs": "anakonda"
+      },
+      "summary": {
+        "cs": "Nejtěžší had světa žijící v amazonských bažinách."
+      },
+      "info": {
+        "cs": "Anakonda zelená je nejtěžší had světa; samice dosahuje hmotnosti přes 90 kg a délky 5 až 6 metrů.\nŽije v bažinách a řekách tropické Jižní Ameriky.\nJe polovodní a loví ryby, ptáky, kapybary i kaimany.\nNa rozdíl od krajt rodí živá mláďata (viviparita).\n"
+      }
+    },
+    {
+      "key": "reptile.glass_lizard",
+      "image": "reptile.glass_lizard.png",
+      "label": {
+        "cs": "slepýš"
+      },
+      "summary": {
+        "cs": "Beznohá ještěrka, která přesto není had; má pohyblivá víčka."
+      },
+      "info": {
+        "cs": "Slepýš obecný je beznohá ještěrka žijící po celé Evropě, která se snadno zamění s hadem.\nNa rozdíl od hadů má pohyblivá víčka a ušní otvory.\nDokáže odhodit ocas jako obranu (autotomie); ocas jim znovu dorůstá.\nV Česku je chráněn zákonem a je hojný v lesních i polních biotopech.\n"
+      }
+    },
+    {
+      "key": "reptile.frilled_lizard",
+      "image": "reptile.frilled_lizard.png",
+      "label": {
+        "cs": "agama límcová"
+      },
+      "summary": {
+        "cs": "Ještěrka rozevírající dramatický límec a utíkající po dvou nohách."
+      },
+      "info": {
+        "cs": "Agama límcová je australský plaz, jehož límec (kožní záhyb okolo krku) se rozevře při ohrožení jako výstražný projev.\nBěží po zadních nohách bipedálně jako miniaturní dinosaurus.\nV klidu je límec složen.\nJe symbolem Australského severního teritoria a oblíbenou ikonou australské fauny.\n"
+      }
+    },
+    {
+      "key": "reptile.basilisk",
+      "image": "reptile.basilisk.png",
+      "label": {
+        "cs": "bazilišek"
+      },
+      "summary": {
+        "cs": "Americká ještěrka schopná krátkodobě běžet po hladině vody."
+      },
+      "info": {
+        "cs": "Bazilišek zdobený (Jesus Christ lizard) je schopný utíkat po hladině vody díky rýhovaným prstům s třásněmi, které zachytávají vzduch pod vodou.\nMůže takto přeběhnout přes 20 metrů před potopením.\nSamec má výrazný hřeben na hlavě a zádech.\nNa stromech se kamufláž je jeho základní strategií obrany.\n"
+      }
+    },
+    {
+      "key": "reptile.uromastyx",
+      "image": "reptile.uromastyx.png",
+      "label": {
+        "cs": "uromastyx"
+      },
+      "summary": {
+        "cs": "Pouštní ještěrka s ostnatým ocasem z Afriky a Blízkého východu."
+      },
+      "info": {
+        "cs": "Uromastyx je pouštní ještěrka ze severní Afriky, Blízkého východu a Indie s charakteristickým trnnatým ocasem sloužícím k obraně.\nJe přísně býložravec; živí se semeny, trávou a listím.\nV terariích je chována jako exotický mazlíček.\nSoudí se, že může žít přes 20 let.\n"
+      }
+    },
+    {
+      "key": "reptile.agama",
+      "image": "reptile.agama.png",
+      "label": {
+        "cs": "agama"
+      },
+      "summary": {
+        "cs": "Barevná skalní ještěrka Afriky; samec má nápadné barvení."
+      },
+      "info": {
+        "cs": "Agamy jsou velká čeleď ještěrů z Afriky, Asie a Austrálie s přes 300 druhy.\nSamci agamy červenohlavé mají výrazné oranžové hlavy a modré tělo jako signál dominance.\nU termoregulace aktivně přizpůsobují barvu; v chladu jsou tmavší, v teple světlejší.\nNěkteré druhy (Draco) umějí plachtit pomocí prodloužených žeber.\n"
+      }
+    },
+    {
+      "key": "reptile.mud_turtle",
+      "image": "reptile.mud_turtle.png",
+      "label": {
+        "cs": "blátivá želva"
+      },
+      "summary": {
+        "cs": "Malá americká sladkovodní suchozemsko-vodní želva."
+      },
+      "info": {
+        "cs": "Blátivé želvy (Kinosternon) jsou malé přibližně 15 cm velké želvy ze Severní a Střední Ameriky.\nKdyž jsou ohroženy, vydávají silný pach z pachových žláz.\nMohou přečkat sucho zahrabáním se do bahna a hybernáciíou.\nJsou všežravé a živí se hmyzem, červy a vodními rostlinami.\n"
+      }
+    },
+    {
+      "key": "reptile.box_turtle",
+      "image": "reptile.box_turtle.png",
+      "label": {
+        "cs": "škatulová želva"
+      },
+      "summary": {
+        "cs": "Malá suchozemská želva schopná zavřít se úplně uvnitř krunýře."
+      },
+      "info": {
+        "cs": "Škatulová želva je severoamerická suchozemská želva schopná kompletně uzavřít krunýř pohyblivou přední deskou.\nŽije v lesích a loukách jako solistický živočich.\nMůže žít přes 100 let; ve volné přírodě dosahuje věku 40 až 50 let.\nJe chráněna v USA a mnohé státy zakazují jejich sběr z přírody.\n"
+      }
+    },
+    {
+      "key": "reptile.snapping_turtle",
+      "image": "reptile.snapping_turtle.png",
+      "label": {
+        "cs": "kousavá želva"
+      },
+      "summary": {
+        "cs": "Velká agresivní sladkovodní americká želva se silnými čelistmi."
+      },
+      "info": {
+        "cs": "Kousavá želva obecná je velká agresivní severoamerická sladkovodní želva s mohutným hákovitým zobákem.\nNa suchu je agresivní; ve vodě je mírumilovnější.\nMůže vážit přes 35 kg a žít přes 40 let.\nJe všežravá; loví ryby, vodní ptáky a jí i mrtvoly.\n"
+      }
+    },
+    {
+      "key": "reptile.matamata",
+      "image": "reptile.matamata.png",
+      "label": {
+        "cs": "matamata"
+      },
+      "summary": {
+        "cs": "Bizarně vypadající jihoamerická želva napodobující listový odpad."
+      },
+      "info": {
+        "cs": "Matamata je jedna z nejbizarnějších sladkovodních želv jihovýchodní Jižní Ameriky.\nJejí krunýř a hlava dokonale napodobují hnilobný list a větvičku, což je výjimečná kamuflá.\nPotravu nechytá zubama; místo toho rozevře obrovská ústa, vtáhne vodu s kořistí a zavře ji.\nŽije v stojatých a pomalu tekoucích tocích Amazonie.\n"
+      }
+    },
+    {
+      "key": "reptile.worm_lizard",
+      "image": "reptile.worm_lizard.png",
+      "label": {
+        "cs": "červovitec"
+      },
+      "summary": {
+        "cs": "Beznohý půdní plaz podobající se červu žijící pod zemí."
+      },
+      "info": {
+        "cs": "Červovitci jsou málo prozkoumaní beznoozí plazi ze skupiny Amphisbaenia žijící v tropické Africe a Americe.\nNa pohled připomínají velké žížaly; mají segmentovanou kůži a rudimentární oči.\nŽijí celý život pod zemí a živí se mravenci a termity.\nPosunují se charakteristickým akordeonovým pohybem.\n"
+      }
+    },
+    {
+      "key": "reptile.mudskipper",
+      "image": "reptile.mudskipper.png",
+      "label": {
+        "cs": "šplhavec blátonosný"
+      },
+      "summary": {
+        "cs": "Ryba chodicí na pevnině a šplhající po stromech díky prsním ploutvím."
+      },
+      "info": {
+        "cs": "Šplhavec blátonosný je ryba z čeledi gobiídovitých, která stráví velkou část života mimo vodu.\nPohybuje se po blatistech pomocí výrazných prsních ploutví jako berlí.\nDýchá přes vlhkou kůži a dokáže šplhat po kořenech mangrovníků.\nNa plátu hájí teritorium a provádí výrazné exhibice.\n"
+      }
+    },
+    {
+      "key": "reptile.leatherback_turtle",
+      "image": "reptile.leatherback_turtle.png",
+      "label": {
+        "cs": "kožatka"
+      },
+      "summary": {
+        "cs": "Největší mořská želva s koženým krunýřem místo tvrdých štítků."
+      },
+      "info": {
+        "cs": "Kožatka velká je největší mořská želva na světě dosahující délky přes 2 metry a hmotnosti přes 700 kg.\nNemá tvrdý kostěný krunýř, ale kůži vyztuženou drobnými kostičkami (osteodermy).\nMigruje obrovské vzdálenosti přes oceány; zaznamenané putování přes 16 000 km.\nŽiví se výhradně medúzami a je kriticky ohrožena.\n"
+      }
+    },
+    {
+      "key": "reptile.hawksbill_turtle",
+      "image": "reptile.hawksbill_turtle.png",
+      "label": {
+        "cs": "karetka pravá"
+      },
+      "summary": {
+        "cs": "Kriticky ohrožená mořská želva s úzkým haví zobákem."
+      },
+      "info": {
+        "cs": "Karetka pravá je kriticky ohrožená mořská želva ze skupiny Eretmochelys.\nJejí krunýř byl historicky zdrojem želoviny; nelegální obchod ji téměř vyhubil.\nJí výhradně houby a mořské živočichy v korálových útesech.\nPomáhá udržovat zdravé korálové útesy tím, že odstraňuje houby.\n"
+      }
+    },
+    {
+      "key": "reptile.caecilian",
+      "image": "reptile.caecilian.png",
+      "label": {
+        "cs": "červorovec"
+      },
+      "summary": {
+        "cs": "Beznohý tropický obojživelník připomínající červa nebo hada."
+      },
+      "info": {
+        "cs": "Červorovec je beznohý obojživelník ze skupiny Gymnophiona, málo prozkoumaný a žijící skrytě v tropických půdách.\nVypadá jako velká žížala nebo bledý had.\nMá malé zakrnělé oči; orientuje se čichome a tentakulí (smyslové orgány na hlavě).\nNěkteré druhy rodí živá mláďata, jiné kladou vajíčka.\n"
+      }
+    },
+    {
+      "key": "reptile.flying_dragon",
+      "image": "reptile.flying_dragon.png",
+      "label": {
+        "cs": "drak létající"
+      },
+      "summary": {
+        "cs": "Malá jihovýchodoasijská ještěrka plachtící na prodloužených žebrech."
+      },
+      "info": {
+        "cs": "Drak létající (Draco volans) je malá ještěrka z jihovýchodní Asie schopná plachtit díky kožní bláně napnuté na prodloužených žebrech.\nPlachtí z stromu na strom za účelem získání teritoria nebo úniku před predátory.\nSamec má výrazně žlutý krční lalok.\nNe letí aktivním mávnutím křídel; pouze klouzá.\n"
+      }
+    },
+    {
+      "key": "reptile.thorny_devil",
+      "image": "reptile.thorny_devil.png",
+      "label": {
+        "cs": "moloch trnitý"
+      },
+      "summary": {
+        "cs": "Australská ještěrka pokrytá trny absorbující vodu kapilárami."
+      },
+      "info": {
+        "cs": "Moloch trnitý je malá australská ještěrka pokrytá tisíci ostrých trnů.\nMá fascinující schopnost absorbovat vodu kůží pomocí kapilárních drážek mezi trny; voda je vedena přímo k ústům.\nŽiví se výhradně drobnými mravenci; sní jich až 2 500 za jeden posel.\nNa trnitém hřbetu má falešnou hlavu jako obrannou taktiku.\n"
+      }
+    },
+    {
+      "key": "reptile.wall_lizard",
+      "image": "reptile.wall_lizard.png",
+      "label": {
+        "cs": "ještěrka zední"
+      },
+      "summary": {
+        "cs": "Štíhlá rychlá ještěrka žijící na zídkách a skalnatých svazích."
+      },
+      "info": {
+        "cs": "Ještěrka zední je drobná ještěrka původem z jižní Evropy a severozápadní Afriky.\nV Česku se vyskytuje jako introdukovaný druh na zahřátých skalách a zdech.\nJe rychlá a obratná; v nebezpečí odhodí ocas.\nV posledních dekádách se rozšiřuje i severněji díky oteplování klimatu.\n"
+      }
     }
   ]
 }

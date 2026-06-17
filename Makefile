@@ -3,6 +3,7 @@ DECKS_SRC := decks
 DECKS_OUT := assets/decks
 SPARK_LLM := http://192.168.88.66:8080
 SPARK_IMG := http://192.168.88.66:8188
+WORKERS   ?= 5
 
 # Models for the iterative image-tuning loop (OpenAI-compatible on $(SPARK_LLM)).
 VALIDATOR_MODEL := validator  # vision model that scores generated images
@@ -38,12 +39,12 @@ build: $(CONTENT)
 .PHONY: translate
 translate: $(CONTENT)
 	$(CONTENT) translate -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
-	  -url $(SPARK_LLM) -workers 5
+	  -url $(SPARK_LLM) -workers $(WORKERS)
 
 .PHONY: translate-force
 translate-force: $(CONTENT)
 	$(CONTENT) translate -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
-	  -url $(SPARK_LLM) -workers 5 -force
+	  -url $(SPARK_LLM) -workers $(WORKERS) -force
 
 # ── images ────────────────────────────────────────────────────────────────────
 # Generate missing images for all decks (or pass DECK=animals-sea STYLE=pony-cartoon).

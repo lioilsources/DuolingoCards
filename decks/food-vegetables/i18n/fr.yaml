@@ -2,14 +2,68 @@ lang: fr
 pivot: false
 title: Légumes verts
 cards:
+  veg.artichoke:
+    label: Artichaut
+    summary: Plantes à feuilles vert piquant ressemblent au chardon ; on consomme uniquement ses boutons floraux.
+    info: L'artichaut est en fait un bourgeon d'une grande plante épineuse de la variété 'scolymus'. On mange son cœur et les bases charnu des écailles. Il donne goût aux apéritifs ; c'est pourquoi l'extrait d'artichaut figure dans certaines marques comme Cinzano ou Vermouth Cynar.
+  veg.arugula:
+    label: roquette
+    summary: Feuille verte sombre au goût épicé utilisée en salade.
+    info: La roquette de Rome provient du bassin méditerranéen et est connue pour son goût caractéristique épicé-dur à cause des glucosinolates qu'elle contient. Elle fait partie intégrante de la cuisine italienne ; on l'ajoute crue sur les pizzas après cuisson.
+  veg.asparagus:
+    label: Pousse
+    summary: Tendres pousses vertes de printemps ; délicatesse saisonnière.
+    info: L'asperge blanche est cultivée sans soleil et plus tendre que la verte ; elle produit un parfum urinaire caractéristique chez environ 20 à 40% des personnes consommant cette plante due au composé appelé 'asparginase'. C'est une légume traditionnellement apprécié dans les cuisines allemande ('Sparge') comme française.
+  veg.bamboo_shoot:
+    label: pousses de bambou
+    summary: Des jeunes pousses tendres utilisés comme légume asiatique.
+    info: Les pousses de bambous sont des jeunes pousseuses récoltées tôt après leur émergence du bambou. Elles constituent la base de la cuisine chinoise, japonaise et thaïlandaise.
+  veg.beet:
+    label: betterave
+    summary: Légume-racine rond d'une teinte sombre rougeâtre servant aussi bien comme aliment que pour sa pigmentation.
+    info: La betterave rouge contient du bétaïne, un puissant colorant naturel de couleur rouge. Elle est riche en nitrates qui améliorent les performances physiques et réduisent la pression artérielle. La canne à sucre est une variété différente ; elle fournit du sirop blanc.
+  veg.bok_choy:
+    label: Bokchoy
+    summary: Légume feuilleux d'origine Asiatique avec tiges blanches
+    info: Le pak choï ou bok choy ( Brassica napus sous-spb. pekinensis ) provient de Chine et est une base des cuisines thaïlandaise japonaise et asiatique en général . Il contient beaucoup de laitue , potassium , calcium ainsi que les vitamines A,C,K.
   veg.broccoli:
     label: brocoli
     summary: Légume vert avec une tête florale dense sur un pied charnu.
     info: Le brocoli est un légume vert de la famille des crocus. Il est particulièrement riche en vitamine C, en vitamine K et en antioxydants ; il provient d'Italie.
+  veg.cabbage:
+    label: chou
+    summary: Légumineuse arrondie à feuilles serrées ; base pour faire du kraût.
+    info: Le chou de tête (Brassica oleracea) est une légume ancien cultivé en Europe depuis des milliers d'années. Il contient les vitamines C et K ainsi que des glucosinolates possédant des propriétés anticancérigènes. Lorsqu'il fermentescence, il devient du sauerkraût riche en probiotiques.
   veg.carrot:
     label: carotte
     summary: Légume-racine orange au goût sucré.
     info: La carotte commune est une plante bisannuelle cultivée pour sa racine juteuse et orangée. Elle est riche en bêta-carotène (provitamine A) et en fibres.
+  veg.cauliflower:
+    label: chou-fleur
+    summary: Tête denses composée de nombreux bourgeons floraux ; une innovation culinaire en Belgique avec cette légumineuse.
+    info: Le chou-fleur (Brassica oleracea var. botritis) est apparenté au broccoli. Sa couleur blanche apparaît car les feuilles protègent la tête du soleil, empêchant ainsi l'apparition de la chlorophyllie. Il existe également des variétés violettes, orange et vertes.
+  veg.celeriac:
+    label: céleri rave
+    summary: Racine blanchâtre très odorante utilisée dans les recettes culinaires.
+    info: Le céleri-rave est une variété de céleri cultivée pour sa racine épaisse et blanche qui ressemble à un petit choux. Elle possède une forte odeur d'aneth ainsi qu'un goût prononcé en anis étoilé ou fenouil. C'est l'ingrédient principal des soupes au céleri, du rémoulade aux herbes aromatiques comme la mayonnaise relevée par exemple.
+  veg.celery:
+    label: céleri
+    summary: Légume vert croquant avec un fort aroma ; contient-il vraiment moins de calories ?
+    info: |-
+      {"hint":"légume croquant à tige verte","info":"Le céleri raveur (Apiun graveolens) provient de la Méditerranée\.\nOn affirme que consommer du céleri dépense plus de calories qu'il en fournit ; cela n'a pas été confirmé par des faits concrets\.\nIl est l'ingrédient fondamental d'une triade culinaire française : mirabelle (carotte, oignon et céleri).\\
+      La jus de céleri est une boisson détoxifiante populaire."}
+  veg.chard:
+    label: chard
+    summary: Légume-feuille colorée avec des tiges aux couleurs variées.
+    info: Le mangold est apparenté à la betterave rouge et possède des tiges vertes, rouges ou jaunes ainsi que multicolores. Il contient de nombreuses vitamines comme les vitamine K, A et C ainsi qu'en minéraux tels que potassium et magnésium.
+  veg.chickpeas:
+    label: pois chiche
+    summary: Légumineuse ronde brune utilisée dans plusieurs plats orientaux.
+    info: Le pois chiche (Cicer arietinum) est une légumineuse populaire du Proche-Orient et de l'Inde. Il sert notamment à préparer la purée appelée tahini pour les recettes comme le houmous ou des boulettes frites telles que les falafels.
+  veg.chili:
+    label: poivre
+    summary: Poireau rouge ou vert épicé ; base des cuisines relevées.
+    info: 'Le poivre de chili ( Capsicum annuum et suivants) est une variété très épicée du genre paprika. L''épaisseur provient d''une molécule appelée capsaïcine ; elle s''apprécie sur l’échelle de Scoville : jalapeños entre environ 2 500 à 8 000 unités HB ou « Hotness » , Carolina Reaper dépassent les deux millions . La fonction évolutionnaire de la capsaîcine consiste surtout à dissuader les mammifères sans affecter les oiseaux qui propagent les graines.'
   veg.corn:
     label: maïs
     summary: Plante aux grains jaunes disposés en rangées sur l'épi.
@@ -18,18 +72,80 @@ cards:
     label: concombre
     summary: Légume vert allongé à chair rafraîchissante et juteuse.
     info: Le concombre est une plante potagère tropicale de la famille des cucurbitacées. Il contient 95 % d'eau, ce qui en fait un aliment rafraîchissant très apprécié dans les salades ou comme collation.
+  veg.eggplant:
+    label: aubergine
+    summary: Plante allongée violet foncé utilisée dans plusieurs recettes méditéerraneennes comme la moussaka.
+    info: La courgette noire ou l'eggplant provient d’Inde et est cultivée depuis des milliers d’années en Asie du Sud-Est avant de s’étendre vers la Méditerranée via les Arabes au Moyen Âge.
+  veg.endive:
+    label: Chicorie
+    summary: Légumineuse à tiges claires au goût amer souvent utilisée dans les salades.
+    info: 'La Chicoreade (en français : "endive") est une plante de la famille des Asteraceae qui possède un goût caractéristiquement amer et dont les feuilles sont utilisées comme légume vert. Sa couleur blanc-crème provient d''une culture en l''absence totale ou partielle du soleil selon qu''il s''agit respectivement de chicories ou witloofs belges. La saveur amère vient principalement d''un composant naturel appelé acide intybique ; cette amertume peut être réduite par éblanchissement.'
+  veg.fennel:
+    label: fenouil
+    summary: Plante ressemblant à un oignon blanc avec des feuilles en forme de pennes et au goût doux semblable à l'anis.
+    info: Le fenouil (Anethum graveolens), également appelé "fennel", est une plante aromatique utilisée dans la cuisine méditerranéenne et asiatique pour ses propriétés culinaires et digestives.
   veg.garlic:
     label: ail
     summary: Bulbe blanche piquante à forte odeur, base du goût de nombreux plats.
     info: L'ail cultivé est utilisé en cuisine depuis des milliers d'années comme épice et remède. Il contient l'allicine qui possède des propriétés antibactériennes et anti-inflammatoires.
+  veg.ginger:
+    label: Gingembre
+    summary: Racine aromatique au goût épicé.
+    info: Le gingembre est une plante originaire d'Asie du Sud-Est dont la racine tuberculeuse jaune-blanchâtre est utilisée comme épice et remède naturel. Il contient de l’acide génerique qui lui confère ses propriétés irritantes mais aussi anti-inflammatoires reconnues scientifiquement.
+  veg.green_beans:
+    label: pois mange-tout
+    summary: Des longues gousses vert pâle qui poussent sur la plante de fèves ; elles peuvent être consommées crues.
+    info: Les pois mangetout (Phaseolus vulgaris) sont récoltés avant leur maturation complète. Ils portent aussi les noms de haricots verts anglais ou haricots filets et contiennent des vitamines C, K ainsi que du folate.
+  veg.kale:
+    label: choux frisé
+    summary: Légumineuse bleue sombre aux feuilles bouclées ; superaliment.
+    info: La choux frisé (Brassica oleracea var. sabauda) est une légume feuillu très nutritif d'une couleur verte foncée. Il contient de la vitamine K, des antioxydants ainsi que les vitamines A et C en abondance. Au cours des années 2010, il devint un aliment iconique pour les régimes vegan/végétaliens et dans l'industrie santé. Le kale cru peut être amer ; on adoucit sa saveur par du massage à huile ou par éblanchissement.
+  veg.kohlrabi:
+    label: Choux-Rave
+    summary: Légume avec des tubercules ronds sur ses tiges ; proche du chou.
+    info: 'Le choux-rave (Brassica oleracea gongylodes) est une plante potagère apparentée au chou. On consomme la tige épaissie ainsi que les feuilles ; il possède un goût délicatement sucré et croquant, pouvant être cru ou cuit. Son nom provient de l''allemand : ''Kohl'', signifiant chou, et ''Rabe'', qui désigne sa forme arrondie.'
+  veg.leek:
+    label: poireau
+    summary: Légume doux ressemblant à une oignonnière utilisée pour faire des soupes.
+    info: Le poireau (Allium ampeloprasum) est apparenté à l'oignon et à l'ail. Il sert de symbole national du Pays-de-Galles ; les Gallois portent des feuilles de poireaux lors de la fête saint David.
+  veg.lentils:
+    label: lentille
+    summary: Petites graines plates de forme disque appartenant aux légumes secs utilisées comme base protéique dans un régime alimentaire non carniste.
+    info: 'Le lentil est une des légumineuses les plus anciennes ; cultivée depuis environ 10 000 ans. Elle existe en variétés rouge, verte, marron et noire (bélouga ou beluga). On peut la cuire sans préalablement la faire tremper pendant seulement 20 à 30 minutes : c’est donc plus rapide que pour les haricots.'
+  veg.lettuce:
+    label: laîtue
+    summary: Plante à feuilles croquantes utilisées comme base des salades vertes.
+    info: 'La laitue (Lactuca sativa) est cultivée depuis l''Antiquité en Égypte. Elle contient plus de 95% d''eau et c''est une légume faible en calories. Il existe plusieurs variétés : ice berg, roquette, lollo, tête de bœuf ou feuille d’érable.'
+  veg.lotus_root:
+    label: Souche de lotus
+    summary: Coupe traversante d'une racine de lotus avec ses beaux trous ; délicatesse asiatique.
+    info: 'La souche de lotus (Nelumbo nuciféra) est un organe souterrain du sacré lotus. En coupe transversale, elle révèle des trous réguliers en forme symétrique et constitue une base essentielle dans la cuisine asiatique : chinoise, japonaise ou encore indienne.'
   veg.mushroom:
     label: champignon
     summary: Champignon blette-brun à chapeau et tige utilisé en cuisine.
     info: Le champignon de Paris est le plus cultivé au monde. Riche en protéines, vitamines B et minéraux ; il s'utilise dans un grand nombre de plats.
+  veg.okra:
+    label: Oka
+    summary: Fruit long vert strié aux textures visqueuse ; utilisé dans la sauce au Gombo.
+    info: L'OKRA ou Abelmoschus esculetus provient d'Afrique équatoriale et est utilisée comme base du plat américain Gumbo grâce à sa texture glissante qui permet de faire des sauces onctueuses.
   veg.onion:
     label: oignon
     summary: Oignon piquant en couche utilisé pour assaisonner les plats.
     info: L'oignon commun est l'un des légumes les plus cultivés au monde. Il est utilisé partout dans le monde comme assaisonnement ; il contient des flavonoïdes ayant des effets antibactériens.
+  veg.parsley:
+    label: persil
+    summary: Herbe verte claire utilisée tanto pour décorer qu'épicier.
+    info: 'Le persil (Petroselinum crispum) est largement utilisé comme épice et pour la décoration des plats. Il contient plus de vitamine C que les oranges en poids. On distingue deux variétés : lisse ou plate, et frisée ; les chefs préfèrent généralement celle à feuilles plates car elle offre un goût plus prononcé.'
+  veg.parsnip:
+    label: panais
+    summary: 'Racine crème-blanc : légume fondamental d’Europe médiévale.'
+    info: Le panais est une racine blanche ressemblant à la carotte ; il était autrefois un aliment de base en Europe avant l'arrivée des pommes de terre et reste moins courant aujourd'hui.
+  veg.peas:
+    label: pois
+    summary: Petites boules vertes en gousse ; symbole printanier délicat.
+    info: |-
+      Le pois est une légumineuse cultivée depuis la préhistoire
+      Gregor Mendel étudiait les pois dans ses expériences sur l'hérédité de 1856 à 1863.
   veg.pepper:
     label: poivre
     summary: Légume coloré au goût sucré ou épicé.
@@ -38,7 +154,59 @@ cards:
     label: pomme de terre
     summary: Base brunâtre et淀粉质 d'une multitude de plats à travers le monde.
     info: La pomme de terre provient des Andes en Amérique du Sud et est l'une des cultures les plus importantes au monde. Elle fournit des glucides, de la vitamine C et du potassium.
+  veg.pumpkin:
+    label: citrouille
+    summary: Grande citrouille orangé arrondie ; symbole emblématique pour Halloween.
+    info: La citrouille (Cucurbita maxima ou pepo) provient d'Amérique du Nord et est riche en bêta-carotène ainsi qu'en vitamines A et C. La tradition de la décoration halloweenesque avec des figures taillées dans les courges appelée « jack-o’-lantern » vient d'Irlande.
+  veg.radish:
+    label: Radis
+    summary: Petite plante colorée utilisée pour ses vertues médicinales.
+    info: Le radis (Raphanus sativus) est une racine comestible qui croît rapidement. Le petit radis de jardin est rouge ; les grandes variétés d'hiver sont souvent blanches comme la moutarde japonaise appelée 'daïkon'. Il contient des glucosinolates dotés de propriétés antibiotiques et en Asie il entre dans beaucoup de recettes culinaire.
+  veg.spinach:
+    label: Épinard
+    summary: Plante verte feuillue très riche en fer.
+    info: L'épinard provient de l'ancienne Perse médiévale et est riche en vitamines K, A, C ainsi qu'en acide fólique et fer. Depuis les années 1930, Popeye la mouche bleue promeut l’épinard comme aliment idéal pour enfants. La cuisson libère une grande quantité d’acides oxaliques qui peuvent lier calcium et fer.
+  veg.spring_onion:
+    label: Oignons verts
+    summary: Un légume fin à tige verte utilisée crue en salade.
+    info: L'oignon de printemps ou ognion vert est récolté avant d'être mature et présente une texture plus tendre que l'oignon ordinaire avec moins de picanteur. Il est couramment utilisé dans la cuisine asiatique comme accompagnement pour les assaisonnements, sauces froides et soupes.
+  veg.squash:
+    label: courgette
+    summary: 'Courges d’hivers de formes diverses : légume fondamental dans la cuisine automnale.'
+    info: La courge d'hiver (Cucurbita) comprend les variétés butternut, potiron à coques, délicate et kabocha. Elle forme une peau solide qui la protège pendant des mois ; elle peut être stockée toute l'année en hiver.
+  veg.swede:
+    label: navet
+    summary: Légume racine rond violet jaune ; accompagnement traditionnel écossais.
+    info: Le navet chinois ou mélange de laitue et betterave est populaire en Europe du Nord pour sa saveur sucrée légèrement épicé une fois cuit.
+  veg.sweet_potato:
+    label: patate
+    summary: Racine orange sucrée ; parente non traditionnelle des pommes de terres originant des régions sous-tropicale.
+    info: La patate douce (Ipomoea batatas), originaire d'Amérique du Sud et sans lien botanical avec la pomme de terre ordinaire, est riche en bêta-carotène ainsi qu'en vitamines A et C plus une bonne quantité de fibres alimentaires.
+  veg.taro:
+    label: manioc
+    summary: Grand tubercule淀粉质带紫色斑点；热带基本粮食。
+    info: '{"hint":"gros tubercule riche en amidon tacheté de violet","info":"Le manioc (Colocasia esculenta) est une racine tropicale cultivée depuis plus de 10 000 ans.슠Il constitue l''alimentation de base des populations polynésiennes, africaines et asiatiques ; la soupe hawaïenne appelée ''poi'' se fait à partir d''un manioc fermenté.슠Sa saveur légèrement noisetteuse lui donne un goût distinctif ; les taches violacées dans sa chair sont symboliquement importantes.슠La consommation crue contient des oxalates pouvant causer une sensation brûlante au palais ; il doit impérativement être cuisiné avant ingestion."}'
   veg.tomato:
     label: tomate
     summary: Fruit rouge et rond utilisé comme légume.
     info: Le tomate est botaniquement un fruit (baie), mais il est utilisé en cuisine comme légume. Il provient d'Amérique du Sud et contient de la lycopine et de la vitamine C.
+  veg.turnip:
+    label: navet
+    summary: Légume-racine blanc-violet rond ; ancienne alimentation centrale-européenne.
+    info: La navette amère (Brassica napus ou Brassica oleracea var. sylvestris), parfois confondue avec la moutarde chinoise (Sinapis olerscea), est une plante cultivée pour ses feuilles et son tubercule racine comestibles.
+  veg.watercress:
+    label: Cresson
+    summary: Petite plante verte foncé avec saveurs fortement aromatisée trouvée en milieu aqueux.
+    info: La nasturcie aquatique ou "cresse de fontaine" est une plante hydrique qui croît dans les ruisseaux et sources froids. Elle possède un goût épicé similaire à la moutarde grâce aux glucosinolates comme l'épinardine. Cette herbe contient des quantités élevées de vitamine C, K ainsi que du bêta-carotène.
+  veg.yam:
+    label: yam
+    summary: Grande racine淀粉质 tropicale ; souvent confondue avec la patate douce.
+    info: |-
+      Le yam est une grande racine淀粉质 provenant des régions tropicales d'Afrique, d'Asie et du Caribe
+      Il diffère de la patate douce : le yam est plus sec, plus farinacé et moins sucré,
+      et peut peser jusqu'à 70 kilogrammes.
+      C'est un aliment de base en Afrique sub-saharienne où l'on cultive près de 95% de sa production mondiale.
+  veg.zucchini:
+    label: courge
+    summary: Légume vert estival polyvalent idéal pour cuisiner.
+    info: La Courge spaghetti (Cucumis meloniformis ou Cucurbite pépo selon les sources), est une variété de concombre cultivé en été et récolté avant maturité entre 7 à 25 centimètres environ. Originaire du Mexique ; elle fut introduite dans l'Europe par la Italie qui lui donna sa notoriété. Elle contient plus de 90% d'eau ce qui fait qu'elle soit faible en calories.

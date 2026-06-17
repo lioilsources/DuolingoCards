@@ -2,6 +2,22 @@ lang: vi
 pivot: false
 title: Các màu cơ bản
 cards:
+  color.amber:
+    label: hổ-phách
+    summary: Hồng nâu hoặc vàng nhạt của loại nhựa gỗ hoá thạch.
+    info: Màu hổ phách là màu vàng cam ấm áp được đặt tên từ khoáng chất hổ phách (nhựa cây hóa thạch). Hổ phách đã từng bị đánh giá cao như một vật liệu trang trí và tinh thần trong thời kỳ đồ đá cổ xưa.
+  color.aqua:
+    label: màu nước
+    summary: '''Aquamarine'', hay còn được biết đến với tên khác như ''xanh lam nhạt'', là một sắc thái của ánh nắng mặt trời phản chiếu trên những hồ bơi hoặc biển nhiệt đới.'
+    info: 'Màu nước là màu xanh lục sáng; trong HTML và CSS, ''aquamarine'' và ''cyan'' có cùng mã hex #00FFFF. Tên gọi bắt nguồn từ tiếng Latinh - ''aqua'' nghĩa là nước.'
+  color.azure:
+    label: xanh lam
+    summary: Xanh nhạt rực rỡ giống bầu trời ngày hạ.
+    info: Màu xanh lam ngọc bích là màu của bầu trời sáng và sống động như mùa hè; tên gọi này bắt nguồn từ khoáng chất lapis lazuli. Màu sắc này xuất hiện trên huy hiệu quốc gia nhiều nước như Pháp, Israel hay Phần Lan.
+  color.beige:
+    label: màu be
+    summary: Nâu cát sáng; gam trung lập ấm.
+    info: Màu be là màu sáng và ấm giữa trắng và nâu vàng nhạt. Tên gọi bắt nguồn từ tiếng Pháp cổ để chỉ một loại sóng tự nhiên. Màu này thường được sử dụng trong thiết kế nội thất như nền trung tính ấm áp.
   color.black:
     label: đen
     summary: Màu tối nhất, sự vắng mặt của ánh sáng.
@@ -10,18 +26,140 @@ cards:
     label: màu xanh lam
     summary: Màu sơ cấp lạnh của bầu trời và đại dương.
     info: Xanh lam là màu lạnh thuộc nhóm ba màu cơ bản trong ánh sáng. Đây được coi là màu sắc yêu thích nhất trên thế giới và tượng trưng cho sự bình yên, lòng tin tưởng cũng như chiều sâu.
+  color.bronze:
+    label: đồng
+    summary: Ánh sáng kim loại đậm như chất liệu đồng.
+    info: Màu đồng thau là màu ánh kim sậm có sắc vàng đỏ gợi đến hợp kim của đồng và thiếc. Thời đại Đồng Thau (~3300–1200 TCN) được đặt tên dựa trên loại kim loại này. Trong Thế vận hội Olympic, nó biểu tượng cho vị trí thứ ba bằng huy chương đồng.
   color.brown:
     label: màu nâu
     summary: Màu đất đặc trưng của gỗ và đất.
     info: Nâu là màu thứ cấp được tạo ra bằng cách trộn đỏ, vàng và đen. Nó tượng trưng cho đất đai, thiên nhiên và sự ổn định; thường được sử dụng trong các chủ đề tự nhiên hoặc mùa thu.
+  color.burgundy:
+    label: burgrundi
+    summary: Gam màu đỏ sẫm như rượu vang từ khu vực Burgundy.
+    info: Màu burgundy là màu đỏ tím đậm được đặt tên theo vùng sản xuất rượu vang Bourgogne ở Pháp. Màu này gợi lên hình ảnh của những loại rượu vang đỏ cao cấp và sự sang trọng giàu có. Trong thời trang đây cũng là một trong các gam mùa thu yêu thích nhất.
+  color.charcoal:
+    label: anthracite
+    summary: một sắc thái của nâu đỏ đậm thường thấy ở các loại đá trầm tích
+    info: Màu anthracite là một màu xám rất tối gần như đen giống than gỗ. Nó phổ biến trong thiết kế nội thất hiện đại làm thay thế cho màu đen.
+  color.chartreuse:
+    label: màu vàng-xanh
+    summary: Bar da cam ở khoảng trung gian giữa vàng và xanh.
+    info: Màu vàng xanh lá cây sinh động là màu nằm chính xác giữa vàng và lục trong quang phổ của ánh sáng khả kiến đối với mắt người. Tên gọi bắt nguồn từ loại rượu mùi có tên tương tự do tu viện Pháp sản xuất.
+  color.cobalt:
+    label: xanh coban
+    summary: Màu sặc sỡ trung bình đến tối giống chất liệu vẽ bằng bột coban.
+    info: Xanh coban là một màu xanh tươi sáng và đậm được đặt tên dựa trên nguyên tố hóa học Coban (Co). Đây từng là loại thuốc nhuộm xanh phổ biến nhất trong hội họa thế kỷ XIX. Màu này còn thường xuyên xuất hiện ở gốm sứ, thủy tinh cũng như nghệ thuật tạo hình.
+  color.copper:
+    label: đồng
+    summary: Ánh đỏ-nâu đặc trưng như chất liệu kim loại đồng.
+    info: Đỏ nâu kim loại là màu có ánh phản chiếu của đồng – một trong những kim loại đầu tiên được con người sử dụng từ thời đồ Đồng và Chalkolithi; mái nhà bằng đồng cũ thường chuyển sang xanh lam do quá trình oxy hóa tạo thành patina.
+  color.coral:
+    label: san hô
+    summary: Loại sắc thái hồng-cam sinh động như các loại珊瑚 từ đại dương.
+    info: |-
+      Màu san hô là một màu nóng sống động giữa cam và hồng được đặt tên theo những con san hô biển.
+      Nó rất phổ biến trong thời trang mùa hè và thiết kế nội thất.
+      Công ty Pantone đã công bố đây là 'màu của năm' vào năm 2019 với cái tên Living Coral.
+  color.cream:
+    label: màu kem
+    summary: Sắc cam nhẹ hoặc be rất mỏng manh và thanh khiết.
+    info: Màu kem là một sắc độ vàng nhạt pha chút trắng như màu của sữa tươi mới vắt ra từ bơ. Tên gọi bắt nguồn trực tiếp từ chính chất liệu này – cụ thể hơn nữa thì đó là tông sáng nhất trong số các loại sơn trang trí nội thất hiện nay.
+  color.crimson:
+    label: carmin
+    summary: Đỏ đậm sẫm hơn cả màu hồng.
+    info: Màu carmin là một màu đỏ sâu và sống động được đặt tên từ chất liệu phẩm nhuộm đỏ có nguồn gốc truyền thống từ loài bọ Dactylopius coccus. Đây cũng chính là tông màu của trường đại học Harvard (The Harvard Crimson). Trong ngành thư pháp quốc huy thì nó còn mang ý nghĩa biểu tượng cho sắc 'gules'.
+  color.cyan:
+    label: xanh lam
+    summary: Sắc thái mạnh mẽ giữa xanh lá cây với ánh sáng xanh dương.
+    info: Màu xanh lam nhạt là màu sắc sống động của nước biển nhiệt đới nông vào ban ngày trong tự nhiên và cũng từng được sử dụng làm màu cơ bản trên màn hình máy tính CRT.
+  color.fuchsia:
+    label: hồng nhung
+    summary: Sắc độ giữa cam - vàng đặc trưng cho mùa thu.
+    info: |-
+      Màu hồng nhung là màu sắc sống động của hoa tím phớt đỏ được đặt tên từ loài cây fucsia.
+      Loài thực vật này mang tên nhà sinh học người Đức Leopold Blumenbach vào thế kỷ XVI
+      Trong lập trình web như CSS và HTML thì thuật ngữ 'pink' cũng có thể dùng để chỉ đến mã hex #ff00ff tương ứng với màu xanh lá đậm.
+  color.gold:
+    label: vàng
+    summary: một sắc cam sáng như ánh nắng mặt trời
+    info: |-
+      {"info":"Màu vàng là màu gợi lên hình ảnh của kim loại quý - vàng\r
+      Biểu tượng cho sự giàu có, danh tiếng cao cả và thành công rực rỡ\r
+      Trong thư pháp hoàng gia thì đây cũng chính một trong hai chất liệu được sử dụng trực tiếp để tạo ra biểu hiệu\"}
   color.green:
     label: xanh lá
     summary: Màu cỏ và lá cây, màu thứ cấp từ xanh lam và vàng.
     info: Xanh lá là một màu phụ được tạo ra bằng cách pha trộn giữa xanh lam và vàng. Nó tượng trưng cho thiên nhiên, sự sống và tươi mới; mắt người nhạy cảm nhất với màu này trong tất cả các màu sắc.
+  color.grey:
+    label: xám
+    summary: Màu giữa hai cực của thang độ sáng tối
+    info: |-
+      Xám là màu không có sắc tố được tạo ra bằng cách trộn trắng và đen
+      Nó thường bị coi là một màu trung lập và ít gây chú ý đến thị giác
+      Trong tâm lý học xám tượng trưng cho sự cân đối cũng như tính chất vô hại hoặc thiếu cảm xúc
+  color.indigo:
+    label: Chỉ
+    summary: Dạng sắc thái của ánh sáng nhìn thấy với bước sóng khoảng giữa 405 và 467 nm.
+    info: Màu chỉ là màu xanh lam đậm được đặt tên dựa trên chất nhuộm tự nhiên có nguồn gốc từ cây Chỉ Dye. Trong hàng ngàn năm qua, chỉ đã trở thành một trong những loại phẩm nhuộm quý giá nhất thế giới.
+  color.ivory:
+    label: ivor
+    summary: Bề ngoài giống màu của chiếc nanh voi; Ấp áp hơn so với sắc trắng thuần.
+    info: Màu ivory là màu trắng kem nhạt với chút vàng nhẹ. Tên gọi bắt nguồn từ răng voi (Ivory). Màu này thường được sử dụng trong thời trang và thiết kế cũng như khi mô tả da người.
+  color.khaki:
+    label: Kha-Khi
+    summary: Tông vàng xám nhẹ của bộ đồ đồng hành quân
+    info: |-
+      Màu kha-khi là màu vàng nâu nhạt được quân đội Anh phổ biến ở Ấn Độ vào thế kỷ XIX
+      Tên gọi bắt nguồn từ tiếng Urdu/Hindi 'khak' có nghĩa bụi bẩn hoặc đất sét,
+      màu này thường dùng cho trang phục và quần áo ngoài trời hiện đại.
+  color.lavender:
+    label: màu oải hương
+    summary: Sắc màu như hoa oải hương.
+    info: Màu oải hương là một sắc tím nhạt rất nhẹ được đặt tên từ loại thảo mộc lavandin (lavender). Nó gợi lên sự bình yên và sạch sẽ cùng với khung cảnh Provence của Pháp.
+  color.lime:
+    label: xanh lục
+    summary: Xanh nhạt của vỏ ngoài quả chua.
+    info: Màu xanh lục chanh là một màu sắc tươi sáng và bão hòa có tên lấy từ loại trái cây họ cam quýt gọi là quả chua leo. Màu này nổi bật hơn so với các tông xanh lá thông thường vì chứa nhiều thành phần vàng trong đó.
+  color.magenta:
+    label: phổng
+    summary: Một sắc hồng đậm như chàm; nằm giữa đỏ và xanh.
+    info: Màu chàm (tím đỏ hoặc phơnghồng) là màu sặc sỡ nằm giữa đỏ và xanh lam mà không có bước sóng tương ứng trong quang phổ nhìn thấy được bằng mắt thường. Tên gọi bắt nguồn từ trận chiến ở Magnesia năm 1859 tại Ý.
+  color.maroon:
+    label: Màu栗
+    summary: Đỏ rượu sâu đậm.
+    info: Nâu sẫm đỏ thẫm là màu sắc được đặt tên từ quả dẻ tây ('marron' trong tiếng Tây Ban Nha). Đây là một gam màu phổ biến trong thời trang và đồng phục thể thao hoặc quân đội.
+  color.mauve:
+    label: hoa nhài
+    summary: Một gam màu hồng-tím trầm hoặc bụi bặm.
+    info: Hoa nhài (lavender/màu tím mận chua) là một màu hồng phớt tím dịu nhẹ và hơi tối hơn so với các sắc độ pastel thông thường.
+  color.mint:
+    label: xanh bạc hà
+    summary: màu lá cây bạc hà
+    info: Xanh bạc hà là một màu xanh nhạt tươi sáng được đặt tên từ loại thảo mộc bạc hà (menthe). Nó gợi lên sự sạch sẽ và cảm giác lạnh dịu.
+  color.navy:
+    label: xanh hải quân
+    summary: Xanh hải quân là loại xanh đậm giống với đại dương về đêm.
+    info: Màu xanh hải quân là một màu rất tối gần như đen của biển vào ban đêm và thường được gọi là 'màu navy'. Tên này bắt nguồn từ trang phục đồng phục thời thế kỷ thứ mười tám cho thủy thủ đoàn Hải quân Hoàng gia Anh.
+  color.ochre:
+    label: 赭色
+    summary: 一种类似天然赭石矿物的颜色
+    info: Okr là màu vàng nâu đất có nguồn gốc từ chất色素赭石（氧化铁）。这是最古老的颜料之一，史前人类曾用它在洞穴中作画。这种颜色的石头以赤陶的形式存在于自然界，并且出现在阿尔塔米拉、拉斯科等旧石器时代的壁画上。
+  color.olive:
+    label: ô li vi
+    summary: Gam màu vàng xanh nhợt như quả ôli.
+    info: Màu ô-li-vê là màu vàng xanh nhạt được đặt tên từ cây oli-xi-tốt châu Âu (olea europeae). Đây là một gam màu quân đội và cắm trại truyền thống nhờ khả năng che giấu trong môi trường tự nhiên. Trong thời trang đây cũng là tông màu mang phong cách quân sự.
   color.orange:
     label: cam
     summary: Màu thứ cấp ấm áp được tạo ra từ đỏ và vàng.
     info: Cam là màu thứ cấp hình thành bằng cách trộn lẫn đỏ và vàng. Nó tượng trưng cho sự nhiệt huyết và sáng tạo; tên gọi của nó bắt nguồn từ trái cam.
+  color.periwinkle:
+    label: màu periwinkle
+    summary: Hue trắng nhẹ có điểm nhấn hồng pastel đặc trưng cho mùa xuân
+    info: |-
+      Màu Periwinkle là một sắc độ xanh lam nhạt pha chút tím được đặt tên từ loài hoa Catharanthus roseus nhỏ bé thuộc họ Bồ công anh - Asteraceae
+      Nó nằm giữa gam màu xanh da trời và lavender,
+      một lựa chọn phổ biến trong thời trang cũng như thiết kế nội thất vì vẻ dịu dàng lãng mạn của nó.
   color.pink:
     label: hồng
     summary: Màu hồng là một sắc độ nhạt của màu đỏ.
@@ -34,6 +172,46 @@ cards:
     label: đỏ
     summary: Màu đỏ - màu nóng nhất trong các màu cơ bản.
     info: Đỏ là một trong ba màu chính của ánh sáng. Màu này gợi lên năng lượng, đam mê và nguy hiểm; ở nhiều nền văn hóa, nó tượng trưng cho may mắn và sức mạnh.
+  color.rose:
+    label: màu hồng
+    summary: Sắc hồng nhẹ giống cánh lá hồng.
+    info: Màu hồng phấn là một màu đỏ nhạt như cánh hoa hồng được đặt tên từ loài cây này. Nó khác với màu hồng sáng hơn và ít cam hơn so với màu hồng thông thường; Samuel Beckett từng nói rằng không có sắc nào tự nhiên cho tim con người bằng màu hồng. Trong thư pháp hoàng gia Anh cổ điển còn xuất hiện biểu tượng của bông hồng.
+  color.salmon:
+    label: Cá hồi
+    summary: Đó là gam màu hồng-cam nhẹ giống như thịt cá hồi.
+    info: Màu cá hồi là màu hồng nhạt có ánh cam được đặt tên dựa trên sắc thái của thịt cá hồi. Màu này sáng và ấm hơn so với coral. Nó thường xuyên xuất hiện trong ngành thời trang như một lựa chọn tinh tế thay thế cho màu hồng.
+  color.scarlet:
+    label: màu sơn
+    summary: Gam màu vàng-cam tươi rực rỡ.
+    info: Màu đỏ chói có chút ánh cam được đặt tên từ chất tạo màu sắc mỏng. Nó sáng hơn và mang nhiều gam cam so với màu carmin. Trong lịch sử, nó biểu thị các vải đỏ xa hoa.
+  color.sienna:
+    label: sien đỏ
+    summary: Màu nhuộm tự nhiên với gam nâu nóng từ đá hoặc khoáng chất.
+    info: Sien đỏ là một loại màu đất có sắc nâu cam được đặt tên theo thành phố Ý Siêna. Màu này ở dạng thô thì vàng-nâu và khi đã đốt sẽ chuyển sang tông hồng-cam đậm hơn.
+  color.silver:
+    label: xanh nhạt
+    summary: Gam màu sáng bóng với chất lượng tương tự như hợp kim.
+    info: '{"hint":"Màu xám ánh kim như màu bạc","info":"Xanh nhạt là một gam sắc có tính phản quang gợi đến sự cao cấp của loại vật liệu quý giá - đồng thời cũng thể hiện tinh thần công nghệ và thiết kế sản phẩm hiện đại trong ngành kỹ thuật cơ khí."}'
+  color.tan:
+    label: màu tan
+    summary: Một gam màu nâu sáng như da được ram nắng.
+    info: Màu pískovaná là màu nâu nhạt gợi nhớ đến đất hoặc da rám nắng. Tên gọi bắt nguồn từ quá trình xử lý da bằng cách dùng chất làm mềm và bảo vệ cho da động vật (ram nắng). Màu này gần giống với màu be nhưng hơi tối hơn một chút và có sắc vàng đậm.
+  color.teal:
+    label: '#008080'
+    summary: Xanh dương pha chút xanh lá cây giống màu biển.
+    info: Màu xanh lam-xanh lục được đặt tên dựa trên cánh của chim vịt trời Anas crecka có màu này ở phần đầu cầu vòng ngọc bích. Đây là một gam màu phổ biến trong thiết kế đồ họa như sắc thái tương phản với cam.
+  color.turquoise:
+    label: thạch anh lam
+    summary: Xanh dương lá cây sôi nổi giống vùng nước nhiệt đới.
+    info: Màu thạch anh lam là màu xanh lục sống động được đặt tên từ loại đá bán quý thạch anh lam này đã từng rất đắt giá ở Ai Cập cổ đại và Mỹ hiện nay cũng như các nước phương Đông khác. Đây chính xác là sắc thái của biển nhiệt đới hay băng muối hoặc bầu trời trong sáng vào ban ngày.
+  color.vermillion:
+    label: mercury-red
+    summary: Đỏ cam sống động tương tự mercury.
+    info: Màu đỏ cam rực rỡ này được đặt tên theo khoáng chất cinnabar hay mercurius sulfidus và là một trong những màu sắc phổ biến nhất của lịch sử nghệ thuật với vai trò như thuốc nhuộm hoặc sơn mài.
+  color.violet:
+    label: tím
+    summary: Sắc thái giao động giữa hai gam cơ bản – xanh dương cùng trắng.
+    info: Màu tím là màu ở cuối quang phổ nhìn thấy có bước sóng khoảng từ 380 đến 450 nanomet. Tên gọi của nó bắt nguồn từ loài hoa violet trong tiếng Anh Latin 'violaceum'. Trong nhận thức về sắc độ thì khác với đỏ thẫm hay còn gọi là hồng đậm hơn nữa vì đây gần như chỉ mang tính chất chuyển tiếp giữa xanh lam và cam.
   color.white:
     label: màu trắng
     summary: Màu sáng nhất, phản chiếu toàn bộ ánh sáng.

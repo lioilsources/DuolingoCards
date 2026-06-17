@@ -2,6 +2,32 @@ lang: ha
 pivot: false
 title: Hospodarski Ama'au Zvya'te
 cards:
+  farm.alpaca:
+    label: ailpan
+    summary: Wanne lamben gida dinsu Vicungua Pacous.
+    info: Ailpa kam kuma da wane lamben gida dinsu Ander din guddo yau. Wani nafin karfiya ya ke so'oyi don hanyar mutum, tsitsinin abubuwa ta kaswona tsauro mai amfanimi, ama'a ce Vicunja Pacus.
+  farm.barn_cat:
+    label: ko’yo ebe
+    summary: A ko'o ebe ya fiye fasfasu don kamatanci.
+    info: Ko'yo ebe wajen gudi da suke hausaun daga farmin ya kamatawa gudduwan musangin jiki da shika. Ya kasance ammafa fafiyoyya da yamuran hauki tatta. Wannan ko'yar hada ke bincike babban wasu masu biyan mankon kansu.
+  farm.beehive:
+    label: Barkasa
+    summary: '''Yauka'' ce shirye da aka iya hausa don manufacin sukan hannuan.'
+    info: |-
+      Wane wacini da kuma shekara ta amfani wasu zuwa duka yake don hanyar gudun hannua;
+      anjafarin barkasai ya kamata zarra mai jama'a.A kasuwancin zamankari ne won kekwamfan 'wana' ga cikinin sauran zauni.
+  farm.boar:
+    label: kance
+    summary: Same pese domestic o manudum
+    info: Kance wanda anfani da Sus scrofo ya nufa daga farma don hajiniya; shido yake sun yi amari insimina artifiyar. Kankace na gida ga sannu suka zauro mai kyallun sauri da aka iya hausa.
+  farm.calf:
+    label: tele
+    summary: Wannee ya so 'wanne amma' darake da karshe.
+    info: Tasha da wane shan biyu ya yauka daga birnin hanyar zuwa gudunin mutum osoya ta farkon sheyuka au jira tunda ya so ‘wani amma’. Tashen tele ga farawa suzuwar mai zai iya canza don guzabe, ba’i jarabbiyar umarni. Tele labari da zauro manna aiwe ya ke bincike babban zamankus ki tsaye.
+  farm.carp:
+    label: Karpi
+    summary: Ryboda cipciwaka; Pokori tradisional na Krismas di Czec.
+    info: Carpushe wanda ya kafin da adan yake na Afrikan-Eropa ta haifar guda biyu wajen tsauro don tsarin Kaskariya, wane nisa daga Tsjekhiyaru waɗannan masu karbi shi ka fa’aranci Karfiyar Tsjaeki. Wanne amma kan ‘karbi’ suka baiwa a Tsjeko, sun yi iko lokali mai kyau da karsain abbin ciilin.
   farm.chicken:
     label: Suluku
     summary: Padiyoyi hanyar gudun da wancin yaya.
@@ -10,6 +36,10 @@ cards:
     label: karfi
     summary: Wani amura duniya wanda ya koma guda biyokina.
     info: Karfi da yake ne don komawa guwa da bishin. Wane ne don wasu shi mutum da ke nufa duniya; karfi ce wajen ga'ace 20–30 litim guwa.
+  farm.deer:
+    label: jeleena
+    summary: Jeleen ga daanyeki yana iko da farmon don zverinovo ma'a ce.
+    info: Jeleen ga daanyekan suna yauka duniya na farmin guda biyu don mase ya amma. Daaneye su kamata'arun wajen gege da anya kan jere tare da haraka ta sauri. Anya su idai tsoda da shekarushekaru.
   farm.donkey:
     label: osel
     summary: Ushe da karkashen gudun duniya.
@@ -18,19 +48,159 @@ cards:
     label: Kachna
     summary: Wani amura suwa wanda ya tana gudiya zuwa farmin.
     info: Domaci kachni ne amura yake da suwa wanne da zauna kai da wasu. Ya biyakar da plovaci blanyar zuciye ta farko da ya canza kuwancin kawu.
+  farm.emu:
+    label: farmariyar emu
+    summary: Biyan'auka auce waɗanniyar emu don guda’incikasua, gudu’dika akarsuyanci.
+    info: Hausan wace da Australia ya biyanta Emu don hanyar kaswonsu, gudiya duka (koyin jiki), guzaman kasa. Guduya dukarin emu yana ke amfani dashi sheyi haske da shida ga dayakinsu, kuma ya kamfanawa zuwa America Kamar & Europe.
+  farm.farm_shrimp:
+    label: bai litopene
+    summary: Wancukuka Bai Tuna Intensif Don Pitsaye Nema.
+    info: Bai Litopeane Vannamei ya kamata ko daidaitu wajen gilaman namiya ta hausa daga cikin Asia tin Arawan Kudu don Latin America. Chauki bai ba yake zama zauro mai ga'acewaka guwo matsaranimangrove.
+  farm.foal:
+    label: wuya
+    summary: Kankan guddo kan kafintaka; ancane duk kaukin sauri.
+    info: Wuya kwanza ta yake da wace ne kafin shekara tan birnin gudiya zuwa biyaye. Wancan hanyar mutum mai kamfanen ya can daye suka da makanai, don nan jiki dubu farun shida. Kankare duk waɗannan amma ce babban galadugudu kuwandayoyiya.
+  farm.freshwater_crayfish:
+    label: Raaki
+    summary: '''Astaquas Astaquas'' au ''Procambaru'' ya nufawa baƙasa da adagama.'
+    info: Wanyaraka da suwa yake wanda kafin Czechiya kan zamanku tsaye duka, amma ya kamata'aya zuware gudun hannua ta 'raaki', guddo na biyu da birini toci. Wakilcew ci hausa ne shiga cewari tokacin da ke fada, koye she don hau'tai daya. Kamar ce, ranar ranke wasu ga alamodi Fransia da Alaman.
+  farm.garden_snail:
+    label: snɛk zaɣadinyio
+    summary: Mankwana ranran faɗan tsarin jama'ar fransa.
+    info: "Snɛk zaɣadiyɔ na yau da adu wajen gida duniya ta fransiyar Helix Pomatia \ndanyin ranran ya ciniyar fransi don harshe escargo,\nwakilenshi daye shafawa ranrafi kuwa heliciculture."
   farm.goat:
     label: Koza
     summary: Wani amura kantaka da wace yake da dugga.
     info: Domatikin koza ya kamawa don dukka, wace da wane. Ya fitar da shafuka da zaƙada kowanne karsain suna da sauran gilabanci, kamar domin da suka.
+  farm.goat_dairy:
+    label: domesticated cow
+    summary: Cow raised for its milk used to make cheese and yogurt.
+    info: Domesticar da idan guda biyu ko wane ka faɗe she yau da Capra aegagrus hircus don anyi tsauro ya farin mase ta hausa, wanda ke amfani duka za nu'unkuwa. Farina koyya sun yi tsammaniyar mutalafawa mai kamfan jiki, kuma ya kan suke da farini maratuwai laakin ya can zo guzabci da lactose. Wajene farinin koyya sunyi shawara masallaciyan dairy, afarin Cheddar, Fetta ama Halloumi.
+  farm.goose:
+    label: goza guandance
+    summary: Warkon hanyoyen kan watansa ga'awa, gozar samun gozia ko peeri.
+    info: Goza guwandace kamar da gozakar wanneke na duka sheka ya kamatawa yau. Ya zauro gari Roma don amfani dashi kapital biyu. Goza guwande cewa faɗuwanin gozar domin farmin, mazamin goziya, ama gozikarin foiegras.
+  farm.guinea_fowl:
+    label: guinyea
+    summary: Wanyar Afrika ta chi karfi da su kan halbaren kari da had.
+    info: Guineya biyu yake da helmet ya za muhimman Afrome sauran savanna don jikin hausa wane ke gaba. Wanne ka’idai duka farmin gaCCI ji amfani dashen babban wasu kuma kwakwanci kuwa yi taimaka zuwuwar had, predator sun farkanta, ama shaya ce. Yana tsaye mutum mai mafiyan rasa maradun birnin red ami blue.
+  farm.guinea_pig_farm:
+    label: Wanciya Guinea
+    summary: Ama guino ya fiyayen guinoa Latin America o yan ayuka.
+    info: Guineya morcin Ane da hanyar guantanamo na Adan tacewara ta yau wanda Wanca'aya zauro ya kan suka hausa zuwa gida don anyi biyu ka idan domin nufin shekarun 5000. Yake da ke fitowa Peruda, Equador da Kolombia game da 'cuy'. Na barabar auwu wa'a da Europe ga America ta sauri kuwandannashe da babban shai. Ya kamuna tsoro wasu adagoye kama mutum, amari da ntanta.
+  farm.highland_cattle:
+    label: Amuri Scottish Highland
+    summary: Amauri Scodtski zuwa resawar tsori da boko.
+    info: Shi Skotland Highlan da aka farauka wajen gaskiya ta Bos Taurus na Skotland. Wuraren yake ya zai iya hausa daga mutum kan tsoro da zauro don kasancewari shafan da ga'awa. Mase waɗannan amura ce libobi da aroma lokali mai karfi.
   farm.horse:
     label: kon
     summary: Kon tsaye da kasar gwoza, yake da ke fitarewa da koyya.
     info: Kon na duniya ya kamata al'adde wajen kawo, gida da harbi don menefa. Wane ne da ke kowanne da su kano wajen sauraka da hauka.
+  farm.lamb:
+    label: '''Kamboatson'''
+    summary: Wanciya kan kambotso don tatti nan tanhali, simbulor jarushe da nasausuna.
+    info: Yan 'kambotso' ya kamfani da watsakan sheyin na hauwa yake don mutum mai amma. Wajen zai haifar da gari dayakin sun kasance muhimman halbawa ta hayya. Don Kafiriyar Krinstian, yan 'kambotsoon' ya simbol nasaunna da Mai Masuhiyar Allah. Maimaitaccen karnaya (yan kambotsaye) ya fadiya ga wasu ranarin kuwaru.
+  farm.llama:
+    label: alamai
+    summary: Wanne animal kameliwenshi South Americana chiwon cewa kuwa da kano.
+    info: Alamai da suka kuma ta hausa daga South America wanda ya yin karfi guda biyu na anyaka guddo don mafiya kuwa na alamin wasan Anyaka Anderes. Wane lamani iko da abubuwan mutum mai amurkari ga shawerinin shekaru kaifi da kan fitini. Kullun yi kalmar lambobi la’akarin jiki.
+  farm.mule:
+    label: mezak
+    summary: Insau da yake biyan konni da onkan, ba suke babban runga da si.
+    info: Mezak insaun da yake biyaka mai jini (kusariya) na gwoje (muri) ta hanyar 'Klisna' (fima) ya kamaiwa onka (gwanan wace), amma shi meza kanin mutum daga cibiyarsu. Wacce ke baya da zoro guoji da manufa, wajene har ma'amala hausa da kuma fahimtar ranarin zamani.
+  farm.mussel:
+    label: edi slawka
+    summary: Mluzi adawa tsohon suna da suwa waja lanini
+    info: "Edi slavka ya kamfanin yaro da suwa wajen hanyar Atlantik ta Urope \ndauke ba lani ko gari daga wasagu ka faɗo kuwaiya zuwan zugu \nkafayyoka suwa don kama tsoro mai jiki amma guzabe karne nusu\nWuya cewaka masallaci auƙisa hausa ke Belgiam"
+  farm.ostrich:
+    label: eme ya pștros
+    summary: Ene ya pștros ga wanyi duka yake ta gaban, gudduguda da kornd.
+    info: Eme ya pștros da suka ga wani duka yake ta gaba, guddugudu da kɔrni. Eme ya pștros tsitsiren cikin halbucew ci eme ya goje, amma ke kusan daya da shida. Kɔrnin kuwa ya pștros zauna ce so'oyi don zaiyayya.
+  farm.ox:
+    label: wala
+    summary: Castration na bokokin kamfanen taushe zuwa amfani.
+    info: Wala ce castration na male ya Bos Taurus doni da gudumai dayakarin jama'ar farmin ga watan duniya didauke da alamar sirri. Kaushe yake mutane kan shafawa mai ganakin suka hausa cewa muka sun iko da adan aiwe kuwa.
+  farm.oyster:
+    label: ustriyi
+    summary: Mluzi marafin kuwandea lanre da cage don ribawo.
+    info: Ustriyacin da kowacewa wanne ko'go ya kekeli donya taushe da cage don ribawa yio; ya kamata she tuku ga uku masu gida. Ya fitrafa dubaru wa magana da suka samun halisa. Yauwanci mutane ka'idai rawan da kan ranran.
+  farm.peacock:
+    label: pau
+    summary: Mai paw ya iya cewa tsarin estate kuma yardumi.
+    info: Wuya Pàw moduli ya adi India da yake ne domesticated harbi wani shekara ta amfani daga farin gari. Wane (paw) ya fada ko mai zauro ga 150 zuwa fanne masarasa don kwana su sunawa. Harma ce muyaka da hausa da alamarce.
+  farm.pheasant:
+    label: bafarmi
+    summary: Wanne bajanatun sa'ayoyi da suka amfani dashi don musalin.
+    info: Bajanti wuri da Aisia ga Europe ya Roma. Wane ba ajere irin gaskiya ta hanyar yake ne mai rawuni daga farmin don musali.
   farm.pig:
     label: prase
     summary: Wani hukar da yake ne wajen gaskiya kuma ya canza.
     info: Prase ne daga Sus scrofa domesticus, wani hukar kan ayamma da adanaiya ga waduwa. Wane da ke taimaka kafin da zauro da ke samun karkashiyi don karshe.
+  farm.pigeon_farm:
+    label: '''hulub'''
+    summary: '''Hulub'' domin canuwan squabi au kamfanen.'
+    info: Hausawa da yake ka'ida don gare ya tacewaka ta 'columba livia'; wadannan hauwa daga cewakin shafinkin mutum na farkokin tsoro. Squabin (tsomo da aduwar da ke nufadiya) ce amariyoyi shekara ga wasiya. Holube da aiwon jiki sun yi hausa kan suka; waɗanne zuwo mai samun sauri sune iko abe guzai ruwashe bihar din 150km/h.
+  farm.piglet:
+    label: sala
+    summary: Wadannan babban anaka saiyan samun halbarta
+    info: Sela ya kuma da warkafar yauka ta gudun duka zauni na hukumar biyi don mudo kan jirgin hausa. Seli ne ba'ayya ga zai iko da wasu mutane suka amfani da abubuwa. Wajen kamfan faraja, seleni sun yi karfi mai tsoro.
+  farm.pony:
+    label: watsakang
+    summary: Karin watsekon diita cikini
+    info: "Wani watsakan gwoje da ka'iduwa na ƙarancen yankari don mafiyan shida ga ɗauko ya canja da 105cm \nPonye Sheltandane ya kamfanawa taimaka tsitsiren Sheltanda na Skotlandia\nBabban harko kan su sun kasance amfanyiyace babba gudduguddun da ke ce karfiyar ciya"
+  farm.quail:
+    label: japanese partridge
+    summary: Yau ne malam ciwon yiye wanne da adawar gudugudu.
+    info: Japoniyan Krepalke ne ya yanku da sukanin hukunci wanda ke amfani da wane dakin halbaren gudi na Coturnix japonika. Wadannan guddun sun haici nafadiya ga'acewaka don mutum biyar da adawa ce, kuma wucewa ta canza don haici shida uwan sheyuci. A Japan, waye da wasakewa kuɗai daya.
+  farm.rabbit:
+    label: kural
+    summary: Wanne kura ai domin yi masa, jiyan ci jakusci.
+    info: Kralai da wane haske ta haifar kuma na duka ya kamakan yanki, gida ce, amma su ka faɗan mutum. Wadannin hanyar 'oryctolagus' sun iya faruwa, sun farko can zoofariyayen Afrika, wa'a shafawa don biyar gaici, labarcin jiki, ama sarkarin jiyan.
+  farm.ram:
+    label: beri
+    summary: Wani yaru da kanuri Ovis arie wa magana.
+    info: Beri na wani yaro da kudu ya biyu zuwa Ovis arie. Ya canza zaiya zauni mai gaba ta hausa cikin hanyar mutum, donke shekara ga 'yan bari kuɗi. Cikin simboli tuma mitoloji, beri suka masu dayakin kasancewun guwo.
+  farm.rooster:
+    label: ko’hoye
+    summary: '''Wanne ya biyanai da ranrau'''
+    info: Ko'ya ya wane da yake na 'gallus gallus domestis', ko'hoye suka amfani da farafana guzabe gaskiya ta'a aka soke da harbin da taya. Wajen ranar mutum ke tsaye shiga cikini, wa magan kansu ga wasu masu jama’aru domin hausa daya.
+  farm.salmon:
+    label: lagosi
+    summary: Aduma ce irrafa haushanci guwan zauro don nufa; yake fadihin.
+    info: Lagos yau wani adumare gida da suka hausa cikin samun guwa don nuna, amma ya ke babban zamarta daga soro biyu. Gusuntaka ta hanyari soke zuwa sorowa kuwace suna iya canza wasagu eleko mai magнетic lafiyawa da wasanguwar mata. Cheri lokacin Norwejin da Scotlande yana ga'aji shafakiyar aquaculture.
   farm.sheep:
     label: wanyi
     summary: Wani wuri da kallafi yake.
     info: Wanyi dace ta amfani da wurla, gudun da kallafin hausa. Ya farauka da wasu da suka ga wadannan jama'ar da ya canza kalmomi.
+  farm.sheepdog:
+    label: Kolayoye
+    summary: '''Ama'' kan an baici da fahimtar wayo da kuma ka''idanci guda winne.'
+    info: Boder Koli wanda ke nufin mutum da yake suka farauwa na gudun hausa ya kamata'ar ciwaka ga won suna amfani da matakan 'kaiya'. Wadannan alama ce wajen kafala marubutso don hanyari cikini da harbi. Sun kasance dayakin halbawa ta babban wasagu musamman biyar da aka iya fitare.
+  farm.silkworm:
+    label: bourci marushi
+    summary: aiwancin bourcin marushima yake tsaye hedabbin natural.
+    info: Bourci Morushawar da kuma aiwa daga Bombyx Mori yana domesticated na Cina labari wanda ya canza ƙididdiga bihar.
+  farm.sow:
+    label: prastinci
+    summary: '''Asushe guddo, ummun shekarbi.'
+    info: Yar gudiya wane da yake kamar mutum na hau'uka ta 'yan sukan ya kamfanen biyaye don wasu masoda. Wajen babban shawerwan abin jiki ne gaCCI 10 hadi 14. Kafalaun halboci auwargiya kan galma lafiyawon nisa cikaka mai amfani da adanaijin koyarin aiwe ba.
+  farm.tilapia:
+    label: nil tilapi
+    summary: Riba tsoho ga biyu da adawa kan ribe suna chowa wasu.
+    info: Nil tilapia yake da suka hausa wajen gari don hanyar sauri; ya kamatawa milyon tonne ko amma. Ya haske da Nile ama so Jeri Afrika, aliya jin da waɗannan matasaye shima allamin qurbi. Yana samun dayakinsu, kasance rungudu, ka’idai mutum.
+  farm.trout:
+    label: Pstryga
+    summary: Wanyi duguwa Oncorhynuchus Mykis oSalmon Trutte.
+    info: Duguwa Pstrygm na America Kebbi da kuma ya haifar da Europe insaitawa duniya gafrima. Dugu-wa Pstrygma (daguwar yamma), wani gudun din European ne waɗannan guddugudu suka don zamanku zuwe tauro. Don loso tsoho da kuwai, amura shekaranshekarar duguwa Pstrygam di Ciniki.
+  farm.turkey:
+    label: krocan
+    summary: Wani amura domin mase, simbul din america ‘Dankusanc’.
+    info: Domestikuwa kan Krocan ya zauro da Mexico wanda ke gaba Aztékace don kuɗi ga ƙididdiga biyu yau. Wane male ce ka adanawa ko'ko tsaye ta hanyar mutum mai karfi zuwan ciya. Don America Kamar, ya kamatawali hausa cewa 'Den dijakuvance'; ya kuma kowane hayyan amurka da su kuje shari dunia.
+  farm.water_buffalo:
+    label: wanyar da biyoki
+    summary: Yauka afiyon ga Afrikayoyi wajen rijion.
+    info: "Wanyar da biyokai na wane gudun yanki ai domin hausa daya ya farma na Afya (Bubalus bubalis)\na Wanyar da biyoko mai jinsha shido duniyar watsakan ranarin Afrikan,\ndan mutum kaifawa don kamfanin ranza ranen rijio \nwanda milkancinsa ke tsaye cewaka kulere goje."
+  farm.yak:
+    label: jake
+    summary: Wad annabi suka Hobbiyan Plateau ; Yakini hanyoyein
+    info: "Yak da ai ce waddi daga cikkii ta domesticated ya'uku guda dike ga Hobbiyar Tibet lafiya zuwa dubaijin mutum kafo tin ruwan shekarar 4768 -9144 cm \ndaukan Hobbitancewari economicity ; yakini hanyoye, karakuwar goji , warware, amma kan yi\nWarare ya’uka tsaye da kalmar,\njommo ke poliya ya kuwandu waɗannan haihu hausa"

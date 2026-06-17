@@ -2,14 +2,69 @@ lang: pt-BR
 pivot: false
 title: Anfíbios e anelídeos
 cards:
+  reptile.agama:
+    label: ágama
+    summary: Lagarto colorido que vive em rochedos na África.
+    info: As agamas são uma grande família de lagartos da África, Ásia e Austrália com mais de 300 espécies. Os machos das agamas vermelho-cabeça têm cabeças laranja marcantes e corpos azuis como sinais de dominância.
+  reptile.alligator:
+    label: jacaré
+    summary: Grande réptil semelhante ao jacaré com focinho redondo que vive nos Estados Unidos e na China
+    info: "O alligator norte-americano é um dos dois espécies de jacarés viventes hoje em dia sendo o outro menor e originário da china\nDiferente do cágado ele possui focinho mais largo arredondado não mostrando os dentes quando está com sua mandibula fechada \nHabita pântanos rios lagos no sul este dos EUA\nÉ importante predador superior e protetor das ecossistemas pantanosas"
+  reptile.anaconda:
+    label: anacondra
+    summary: Serpente maior do planeta que habita os pantanalos amazonenses
+    info: |-
+      A anaconda verde é a serpente mais pesada do mundo e pode atingir até nove metros de comprimento com peso acima de 90kg nas fêmeas
+      Vive em pântanos da América tropical sulista,
+      a caça peixes aves capivaras jacares
+  reptile.anole:
+    label: anólis
+    summary: Pequena lagarta americana capaz de trocar cores; os machos têm penachos proeminentes.
+    info: O Anolis é um gênero de pequenas lagartixas da América com mais de 400 espécies. Os machos possuem uma bolsa colorida no pescoço chamada dewlap que usam para se comunicar e atrair fêmeas. O anole verde pode mudar sua cor entre o verde e marrom dependendo do clima ou emoções.
+  reptile.axolotl:
+    label: axolote
+    summary: Salamandra d'água mexicana com respiração branquiaca visível.
+    info: O axolotle é um anfioxo aquático da Mêxico que apresenta neotenia e mantém características de larva durante toda sua vida, incluindo brânquias externas. É uma espécie endêmica dos lagos ao redor do Cidade do México e está criticamente ameaçada por poluição ambiental. Possui capacidades extraordinariamente altas para se recuperar fisicamente; pode reconstruir membros corporais como pernas ou braços assim como partes importantes do coração e medula espinhal.
+  reptile.basilisk:
+    label: basilisco
+    summary: Répteis americanos capazes de correr temporariamente pela superfície das águas.
+    info: O basilisco decorado (lagarto de Jesus Cristo) é capaz de correr sobre a superfície da água graças aos dedos sulcados com cerdas que capturam ar sob a água. Ele pode percorrer até cerca de 20 metros assim antes de afundar.
+  reptile.boa_constrictor:
+    label: Jiboia Real
+    summary: Grande serpente sul-americana que estrangula a presa ao envolvê-la.
+    info: A jiboia real é uma cobra grande e não venenosa da América do Sul que mata suas presas enrolando-se em volta delas com força para impedir o respirar deles durante cada expiração dela. É um animal doméstico exótico popular por causa de sua natureza calma.
+  reptile.box_turtle:
+    label: tartaruga-de-caixa
+    summary: Pequena tartaruga terrestre que consegue ficar totalmente dentro de seu casco.
+    info: A tartaruga de caixa é uma tartaruga terrestre da América do Norte capaz de fechar completamente sua carapaça com um disco frontal móvel.
+  reptile.caecilian:
+    label: Cérvio
+    summary: Anfibio热带的无足动物，类似蠕虫或蛇。
+    info: O cérvius é um anfíbio sem pernas da ordem dos Cérvidos e está pouco estudado nas terras tropicais onde vive ocultamente. Ele parece uma grande lombriga ou serpente clara com olhos pequenos encolhidos que usam cheiro para localizar coisas junto com antenas sensoriais no topo de sua cabeça.
+  reptile.caiman:
+    label: jacaré
+    summary: Réptil-crocótilo sul-americano menor que um jacaré ou alligator.
+    info: O jacaré de barbela é o réptil-crocódilo mais comum da América do Sul. É menor que os verdadeiros jacarsés e pode atingir até dois metros e meio em comprimento. Vive nos rios, lagos e pântanos tropicais desde o México até a Argentina.
   reptile.chameleon:
     label: camaleão
     summary: Réptil arborícola que muda de cor e tem olhos móveis.
     info: O camaleão mudou de cor não para se esconder, mas para comunicação e regulação da temperatura corporal. Seus olhos podem se mover independentemente um do outro.
+  reptile.cobra:
+    label: cobreiro
+    summary: Répteis com capacete característico que exibe quando ameaçado.
+    info: A cobrinha é um réptil venenoso da família dos elápideos conhecido por sua habilidade de expandir pele atrás da cabeça em uma capuz como aviso. O seu veneno neurotóxico paralisa o sistema nervoso das presas. A cobra imperial também simboliza Egito e Índia nacionalmente.
   reptile.crocodile:
     label: crocodilo
     summary: Réptil antigo que vive perto de rios e pântanos.
     info: O crocodilo do Nilo é um dos maiores répteis do mundo. Vive na África e caça da água. Tem o maior número de presas entre todos os animais vivos.
+  reptile.flying_dragon:
+    label: lagarto voador
+    summary: Pequeno réptil asiático sudestense que desce em planada com suas costelas prolongadas.
+    info: O lagarto voador (Draco volans) é uma pequena répteis da Ásia Sudeste capaz de planar graças à membrana cutânea estendida sobre costelas alongadas. Ele planeja entre árvore e árvore para conquistar territórios ou escapar dos predadores. O macho possui um colar amarelo muito visível.
+  reptile.frilled_lizard:
+    label: ágama-límeco
+    summary: Répteis que abrem dramáticamente seu colar e correm com duas pernas.
+    info: A agama de pescoço é um réptil da Austrália cujo colarinho (dobra cutânea ao redor do pescoço) abre-se quando ameaçado como uma demonstração defensiva. Ela corre sobre suas patas traseiras em postura bípede semelhante à dos pequenos dinossauros. Em repouso, o colar está dobrado.
   reptile.frog:
     label: sapo
     summary: Anfíbio verde e saltador com olhos vermelhos.
@@ -18,19 +73,143 @@ cards:
     label: geko
     summary: Réptil pequeno capaz de escalar superfícies verticais.
     info: O gecko leopardo é um réptil popular em cativeiro. Ele consegue subir por rochedos e paredes graças a milhões de pelos microscópicos nas patas, não cola.
+  reptile.gharial:
+    label: gharial
+    summary: Répteis especializados em pescar que têm bocas muito alongadas.
+    info: O gharial é um réptil da Índia com focinho extremamente comprido e estreito adaptado para caça de peixes.
+  reptile.gila_monster:
+    label: gila monster
+    summary: Répteis grossos e pesados encontrados no sudoeste americano.
+    info: O helodermo de gila é uma das poucas cobras tejonas venenosas do mundo e tem pele com aparência de coral em padrão laranca-preto como aviso. Ele injeta o seu veneno através dos sulcos nos dentes ao invés da ponta vazia que serpentes possuem.
+  reptile.glass_lizard:
+    label: cecília
+    summary: É uma lagarta sem patas mas não é um réptil verdadeiro pois tem sobrancelha movível.
+    info: A cecília comum é uma lagartixa sem pernas que vive em toda Europa e pode ser facilmente confundida com cobras. Ao contrário das cobras, ela possui pestanas móveis e furos nas orelhas. Ela consegue soltar sua cauda como defesa (autoamputação), sendo capaz de regenerar novamente.
+  reptile.hawksbill_turtle:
+    label: tartaruga-cabeçuda
+    summary: Tartaruga marinha com bico estreito de ave.
+    info: A tartaruga-cabeçuda é uma espécie criticamente ameaçada da família das Eretmochelyidae e pertence ao gênero Eretmochelys.
+  reptile.horned_lizard:
+    label: lagarto-cornudo
+    summary: Lagartixa espinhosa com chifres no topo da cabeça encontrada em deserto norte-americano.
+    info: A lagarta cornuda (Phrynosoma) é uma lagartixa plana e espinhosa que vive nos desertos do sudoeste dos EUA e da México. Quando ameaçada, ela consegue expelir sangue de seus olhos por mais um metro como mecanismo defensivo. É pouco móvel; depende muito do camuflagem.
+  reptile.iguana:
+    label: iguana-verde
+    summary: Grande réptil verde da América Tropical com crista espinhosa.
+    info: O Iguana verde é uma lagarta grande e folhívora da América tropical que pode atingir até dois metros de comprimento. Possui um terceiro olho localizado no topo da cabeça chamado ocelo parietal sensível às mudanças luminosas. É socializando com hierarquia dominante demonstrada por empurrões nas cabeças dos outros membros do grupo ou através das cores corporais.
+  reptile.king_snake:
+    label: coral-real
+    summary: Cobra norte-americana sem veneno que consome outros serpentes.
+    info: O coral real é um cobra não venenosa da América capaz de consumir outras cobras peçonhentas e está imune ao seu próprio veneno. Sua coloração em listras pretas e brancas se parece com o coral-verdadeiro tóxico. É importante controlador das populações de roedores, aves e répteis.
+  reptile.komodo_dragon:
+    label: dragão-de-komodo
+    summary: Répteis viventes maiores no planeta proveniente das ilhas Indonésias.
+    info: O dragão de Komodo é o maior réptil vivo do mundo e pode atingir mais de três metros de comprimento com peso acima de setenta quilogramas. Historicamente achava-se que ele matasse suas presas por meio da bactérias em sua saliva; entretanto descobriu-se recentemente que possui glândulas venenosas. Caça cervos, javalis até mesmo búfalos.
+  reptile.leatherback_turtle:
+    label: Tartaruga-Couro
+    summary: É uma das maiores tartarugas marinhas que possui carapaça feita principalmente por couro ao invés da típica estrutura dura.
+    info: A tartaruga-couro é a maior tartaruga marinha do mundo e pode atingir mais de dois metros em comprimento com um peso superior a setecentos quilogramas.
   reptile.lizard:
     label: lagarto
     summary: Réptil de quatro pernas escamoso comum em climas quentes.
     info: A Iguana verde é um lagarto grande da América Central e do Sul. Alimenta-se de plantas, é uma excelente escaladora e consegue regenerar partes quebradas da cauda.
+  reptile.mamba:
+    label: mamba
+    summary: Cobra rápida altamente venenosa da África.
+    info: A Mamba preta é uma das cobras mais rápidas e venenosas do mundo. Ela alcança velocidades superiores a 20 km/h no chão e consegue subir em árvores com habilidade. Seu veneno neurológico pode causar morte dentro de horas se não houver antídoto disponível.
+  reptile.matamata:
+    label: matamata
+    summary: Tartaruga sul-americana exótica cuja aparência se parece muito com detritos vegetais.
+    info: A matamata é uma das tartarugas de água doce mais bizarras da região sudoeste da América do Sul. Sua carapaça e cabeça imitam perfeitamente folhas podres ou ramos caídos, o que constitui um camuflagem excepcional. Ela não captura sua presa com dentes; em vez disso, abre suas grandes mandíbulas, suga água junto com seu alimento e fecha tudo rapidamente.
+  reptile.monitor_lizard:
+    label: jacaré
+    summary: Grande lagarto predador ativo com língua dividida.
+    info: O jacaré é uma grande lagarta do gênero Varanus com língua fendida que serve como órgão olfativo. O jacaré de Komodo é o maior réptil vivo no mundo (com mais de três metros). Os jacarés são inteligentes e cientistas observaram seu uso de ferramentas simples.
+  reptile.mud_turtle:
+    label: tartaruga-de-lama
+    summary: Pequena tartaruga dulcícola terrestre-acuática da Américan
+    info: Tartarugas de lama (Kinosternon) são pequenas tartarugas com cerca de 15 centímetros que vivem na América do Norte e Central. Quando ameaçadas, elas emitem um forte odor através das glândulas olfativas. Elas podem sobreviver à estiagem enterrando-se no barro e entrando em estado de letargia.
+  reptile.mudskipper:
+    label: perióphtalo
+    summary: Peixe capaz de caminhar em terra firme graças às nadadeiras torácicas.
+    info: O Periophtalmus é um tipo de gobio que passa muito tempo fora da água e consegue locomover-se sobre lama utilizando suas nadadeiras pectorais como pernas. Ele respira pela pele úmida e pode subir pelos galhos das árvores do salgueiro-mangue.
+  reptile.newt:
+    label: newte
+    summary: Pequena criatura anfiabiente vivendo tanto água quanto terra
+    info: |-
+      O newtrinho é um réptil anfíbio pequeno com cauda achatada que pode atingir mais de 15 centímetros no centro da Europa
+      Durante seu período reprodutivo os machos exibem costas proeminente e manchas semelhantes às das cobras
+      Na República Tcheca todos os tipos desse animal são protegidos por lei
+      e passa o inverno sob raizes ou em tocas fora d'água
+  reptile.poison_dart_frog:
+    label: poison arrow frog
+    summary: Pequeno sapo colorido altamente venenoso das Américas Tropicais.
+    info: A pralesnička é uma pequena rã da família dos dendrobatídios que vive nas florestas tropicais do América Central e Sul. Suas cores vivas servem como aviso de sua toxidade; alguns são os animais mais tóxicos já encontrados no mundo inteiro.
+  reptile.python:
+    label: pitão
+    summary: Grande cobra sem veneno que mata suas vítimas ao esmagarem.
+    info: Pitons são os maiores serpentes do mundo; o piton anelado pode atingir mais de sete metros de comprimento. Eles matam suas presas por estrangulamento e não pelo veneno; apertam sua cauda em volta do pescoço e corpo da vítima para sufocar. Possuem sensores térmicos que permitem detectar animais com sangue quente mesmo no escuro.
+  reptile.rattlesnake:
+    label: cágado
+    summary: Serpente venenosa com um rabicho em sua extremidade traseira para alertar.
+    info: O cágado é uma víbora peçonhenta da família dos cascavéis com um característico rabicho no final do cauda que serve como aviso quando ameaçada.
   reptile.salamander:
     label: salamandra
     summary: Anfíbio de pele lisa e cauda alongada.
     info: A salamandra listrada é um anfíbio protegido da Europa Central com manchas amarelo-preto. Ela libera substâncias tóxicas pela pele e vive em florestas úmidas.
+  reptile.sea_snake:
+    label: cobra marinha
+    summary: Serpente venenosa com cauda nadadeira e adaptação completa para a vida em ambiente marinho.
+    info: A cobra marinha é uma serpente venenosa da família dos hidrofínidos perfeitamente adaptada à vida no oceano.
+  reptile.skink:
+    label: skink
+    summary: Lagarto com escamas brilhantes e patas curtas.
+    info: Skinks são uma grande família de lagartos com mais de 1.500 espécies e caracterizam-se por escamas lisas cíclicas. Algumas espécies têm pernas atrofiadas ou completamente sem pernas. O skink azul-australiano mostra claramente sua língua azul como um aviso aos predadores.
   reptile.snake:
     label: cobra
     summary: Réptil alongado sem pernas e com corpo elástico.
     info: Cobras são répteis com corpos longos e sem membros. Existem mais de 3.700 espécies; caçam usando o olfato (órgão de Jacobson) e algumas delas são venenosas.
+  reptile.snapping_turtle:
+    label: cágua
+    summary: Grande tartaruga americana doce-agressiva com fortes mandíbulas.
+    info: |-
+      A cágua de jacaré é uma grande tartaruga doce-americana agressiva com um bico forte e em forma de garra.
+      Ela pode pesar mais de 35 quilogramas e viver por mais de quarenta anos;
+      aos poucos ela fica menos hostil na água mas permanece carnívora,
+      capturando peixes ou aves aquáticas além disso comer carcaças.
+  reptile.thorny_devil:
+    label: lagarto Moloch
+    summary: Lagartixa australiana cheia de espinhos consegue canalizar agua através dos pelos.
+    info: O moloco espinhoso é uma pequena lagarta da Austrália coberta por milhares de espinhos afiados que pode absorver água pela pele usando sulcos capilares entre os espinhos para direcionar diretamente à boca e alimenta-se exclusivamente com formigas minúsculas, podendo comer até 2.500 em um único dia.
+  reptile.toad:
+    label: sapo
+    summary: Anfíbio terrestre verrugoso parentado à rã.
+    info: A rã-touro comum é a espécie de sapo mais distribuída na República Tcheca. As verrugas não cantam como os sapos; servem para proteção e são fonte de substâncias tóxicas que expelem. Ela migra anualmente em grandes grupos até reservatórios aquosos para reproduzir-se; no país ela conta com voluntários ajudando-a a atravessar estradas.
   reptile.tortoise:
     label: tartaruga terrestre
     summary: Réptil lento com carapaça arredondada que vive em terra firme.
     info: A tartaruga-gigante é a maior tartaruga terrestre do mundo. Vive nas Ilhas Galápagos e pode viver mais de 150 anos. Sua carapaça faz parte de seu esqueleto.
+  reptile.tree_frog:
+    label: pererequinha
+    summary: Pequeno sapo-arborícola com patinhas aderentes escalando folhas.
+    info: A rã-verde é uma pequena salamandra da família dos Hélidos com ventosas nos dedos que permitem escalar superfícies lisas. Na República Tcheca vive originalmente apenas um tipo chamado perereca-comum e está protegido por lei. Ela muda sua cor entre verde para cinza ou marrom dependendo do calor e úmidade.
+  reptile.tuatara:
+    label: tuatara
+    summary: Fóssil vivo da Nova Zelândia.
+    info: O tuatara é um dos répteis mais antigos do mundo e seu grupo evolutivo já vivia no período em que os dinossauros habitavam o planeta.
+  reptile.uromastyx:
+    label: urócom
+    summary: Lagarto de corpo peludo com longa vida útil originário das regiões áridas.
+    info: O uromástix é uma lagarta do deserto da África setentrional e Oriente Médio com um cauda espinhosa característica que serve como defesa contra predadores.
+  reptile.viper:
+    label: víbor
+    summary: Répteis venenoso da família Vipera com cabeça triangulares.
+    info: A víbora comum é o único réptil peçonheiro que ocorre naturalmente no Brasil e pode ser encontrada também em terras checas como uma espécie migratória ou introduzida localizadamente. É reconhecível pelo padrão ondulado nas costas e pelos dentes afiados de aspecto serrado. O mordido dói bastante e exige atenção médica, mas raramente mata um adulto saudável.
+  reptile.wall_lizard:
+    label: lagartixa-trepadeira
+    summary: Lagarta fina e rápida vivendo nas pedras lisas sob exposição contínua à luz do dia.
+    info: A lagartixa-trepadeira é uma pequena lagarto originária da Europa meridional e norte da África que foi introduzida no Brasil em rochas aquecidas por solos urbanizados ou áreas com paredões expostas ao calor solar direto.
+  reptile.worm_lizard:
+    label: carcóide
+    summary: Réptil terrestre sem patas parecido com uma cobra vivendo debaixo do solo.
+    info: Carniveis são répteis subterrâneos sem pernas da ordem dos amfisenbias que vivem na África e América tropicalizados. Aparência de minhocas grandes com pele em segmentos e olhos reduzidos. Passam toda sua vida sob terra alimentando-se por formigas e cupins movendo-se caracteristicamente como um acordeão.

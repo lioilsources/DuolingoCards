@@ -2,14 +2,69 @@ lang: la
 pivot: false
 title: Insecta et Amphibia
 cards:
+  reptile.agama:
+    label: agama
+    summary: Colorata saxicola lacerta Africae
+    info: Agamidae sunt magnus familia lacertarum ex Africa et Asia cum plus quam trecentis speciibus. Masculi Agamas rubrocapitis habent conspicua capita aurantia atque corpus caeruleum ut dominium ostendant.
+  reptile.alligator:
+    label: alligator
+    summary: Large crocodile-like animal with broad nose found in both America et Sinus.
+    info: American alligator is one of two living species of alligators; the other being the smaller Chinese gator. It differs from crocodiles by its broader rounder muzzle and because when it closes its mouth no teeth can be seen.
+  reptile.anaconda:
+    label: serpes
+    summary: Maximus serpentulus terrestri habitans in sylvis Amazonum.
+    info: Serpens eunicus maximae est serpens gravis et semiaquatilis qui habitat paludibus Amazonum Americae Meridionalis tropicali. Corpora sua longiora sunt inter quattuor sexque pedes vel plures ac ponderant ultra novemdecim libras aperte graviter mulierculas cum vivipara prole.
+  reptile.anole:
+    label: animus
+    summary: Exigua americana lacerta variabiliter colorata; masculus insignia pinnacula habens
+    info: '{"hint":"exigua et velox lacerta Americae mutans colorem","info":"Animus est genus exiguorum lacertarum Americae cum plus quam quadriginta speciebus\nMasculi habent gula panniculum coloratum ut communicarent atque femellas attraheret\nLacerta viridis Animus potest mutantem colore ab herba usque ad ferrugineam secundum temperiem ac affectuum variationem\NSunt celeres et mobiles; possunt scalpare vitrum propter plantulas adherentes"}'
+  reptile.axolotl:
+    label: axlotlus
+    summary: Aquaticus amphibius Ameirca Mediae forma adolecentia semper servans.
+    info: Axlōtulus est aquatilis amblystomae species de America Medica quae paeneutias retinet formas larvae cum branchiīs externīs per totam vitāvitam.
+  reptile.basilisk:
+    label: basilisci
+    summary: Americani lacertus brevi tempore posse currere supra undas.
+    info: Basilisk ornatus ('salangana Iesus Christ') est draco qui cursu per superficiem aquae fit propter digitos scrobiculatos cum vibratillis quibus aer submersio capitur etiamque decumbris vigintis pede transire potest antequam mergatur. Masculus conspicuum cristulum super fronte ac dorsorum habet; arboribus camuffata sunt eius defensiva stratēgia.
+  reptile.boa_constrictor:
+    label: regina boa
+    summary: Magnus serpens Americae meridianae quod strangulatur victimas.
+    info: Regina boa est magnus coluber non venenifer Americae Meridiocionalis qui cibum perstringit circumvolvendo eam et fortius prementibus musculorum adhibitque respirationem. Est populariter animal domesticum exoticum propter naturalem tranquillitatem suam.
+  reptile.box_turtle:
+    label: testudo box
+    summary: Parvus terricola testudo qui complet eclusura intra sua scutella.
+    info: Boxi testudo est America septentrionalis terra tortoise capax claudere totum carapacem movili anteriore lamina. Habitat silvis et pratis solummodo vivens animaliaque potest superare centenarium annum vitam; apud natura saecula quadraginta ad quinquagintam annos attinguntur. Est protegatur inter U.S.A., multaeque statim prohibent collectio ex habitat natural.
+  reptile.caecilian:
+    label: cynopus
+    summary: Anopli amphibi trópica similis lumbrico seu serpénti.
+    info: Cynopus est amfibium anoplus ex ordine gymnophionum, parum exploratum et latenter habitat in siccis terrae tractibus tropicalibus. Similem habet grandem lumbrem aut colubrum pallidam. Oculorum suorum sunt minima atque contracta; navigat per olfactum ac tentacula (sensibilia organa capitis). Quaedam species viviparae nascuntur pulchra neonates, aliae ovos ponunt.
+  reptile.caiman:
+    label: alligator
+    summary: Americana septentrio maior reptil lacustre cum scutulis cutanea pretioso.
+    info: Alligator mississippiensis est alligators maximus Americae Septentrionalis et Carolinarum aquae dulcis principaliter habitatorem.
   reptile.chameleon:
     label: camēleon
     summary: Serpens arboricola cum mutabilibus coloribus et mobilibus oculis.
     info: Camēleon Yemeniticus colores non ad caeli speciem sed ad communicationem et temperaturam regulandam mutant. Oculi eius independenter moventur.
+  reptile.cobra:
+    label: cobra
+    summary: Serpens venenifer cum insigni cucullo; actio defensoria per ostentationem.
+    info: |-
+      Cobra est serpens venenosus ex familia Elapidum notabiliter spretus capacitatem plicare cutem post caput ad formam cuculli ut monitus sit.
+      Venenum eius neurotoxicum paralyticit nervos victimae.
+      Capitis fulgurans symbol nationalis Aegyptii et Indiae est.
   reptile.crocodile:
     label: crocodilus
     summary: Magnus saurus antiquus flumina et paludes inhabitans.
     info: Crocodilus nyloticus est unus ex maximis reptilibus mundo. Habitat in Africa et cernet de aqua. Mandibulae eius sunt fortissimae inter omnia animalia viventia.
+  reptile.flying_dragon:
+    label: '{"label": "dragonus planator"'
+    summary: '{"summary": "Lacertilium Asiaticum Orientale Meridiocase cum pinnulis extensibilbus."}'
+    info: '{"info":"Dragonus planator (Chamaeleon Draco volans), est lacertilia parva Asiae orientalis meridionalis quae potest velari per cutem membranaceam extendentem costas prolongatas\ndurante arbore ad arborum transitus ut terram sibi acquirat aut praesepi fugeret ab hostibus\nmaturus masculinus conspicua gula aurantiaca ornatus est\nonque volare activo alarum motu sed tantum clavando"}'
+  reptile.frilled_lizard:
+    label: ctenophorus ornamentalis
+    summary: Lacerta quæ ingentem collarem patet et cursus dupliciter.
+    info: Ctenophorus ornatus est lacertilia Australiensis cui plicae cutanea colli dilatatur cum periclitatur sicut signum defensivum. Currit binarie super tibi pedes anteriores velut micromini dinosaurium. In quiete collare compexitur.
   reptile.frog:
     label: rana
     summary: Viridis saltans amphiibium cum oculis rubris.
@@ -18,19 +73,153 @@ cards:
     label: gēcōna
     summary: Parvus lacertilia species, qui verticales superficies scalare potest.
     info: Gecon leopardinus est popularis animalia terraria. Scalas et muri tenet per millia microscopica pila pedum non adhesiva.
+  reptile.gharial:
+    label: crocutar
+    summary: Rostra exiguas tenet quae piscinae capere potest.
+    info: Crocodile genus Gavialis originis Indicī cum naribus valde elongatis et angustissimis ad pisciculos captandos adaptatus est. Masculi gharum appellantur tumuli apud rostrum acutius habent qui sonitus procreare possunt ut consors atque cibari loca significent. Hoc animalia Asia totam antea occupaverant sed nunc tantum fluminibus septentrionalium Indiae necnon Nepalensium habitat sunt.
+  reptile.gila_monster:
+    label: gilia
+    summary: Serpens obesus Americae meridionalis cum scuto variato.
+    info: Gila helodermis est una ex raris serpente venenis mundo notatis cuticulae marmorata cum ornamento rubro-nigrum ut signum monitis. Venenum per sulcus dentales non tamen foramina dentalia instillatur velut viperae. Motus lentus et parcimonia energia consumptaque sunt proprietates eiusdem.
+  reptile.glass_lizard:
+    label: blindă
+    summary: Lacertilium sine pedibus non tamen serpus sed mobilem habet palpebrarum motorem.
+    info: Blinda vulgaris est lacertilia sine pedibus quae tota Europa inhabitat et facile cum serpente confunditur. A serpentibus oculorum palpebrae mobiles atque foramina auricularia differunt. Caudam pro defensione autotomy potest amittere caudam qua iterum crescit. In Boemia legi protectus habitat copiose silvis ac agrisque.
+  reptile.hawksbill_turtle:
+    label: caretta caretta
+    summary: Testudo marina cum rostro angusto criticē perrōgrosa.
+    info: |-
+      Caretta caretta est testudinis marina ex genere Eretmochelys periculosissime minacta.
+      Scutum eius fuit fontes alimentorum pro eburno et commercium illicitum proximè exterminavit speciem.
+      Habet dietam exclusiviter mycophagam atque animalia marină in arcoribus corallinīs comedens,
+      quae ad sanitatem archorum contribuit expellendo fungi.
+  reptile.horned_lizard:
+    label: Sauriscus cornutus
+    summary: Planum aculeatum rhinoceroticum americanum cum cornua capitis.
+    info: Rhino sauris (phrynonasum Phrynosomae), quod est plana et spinosa reptilium vivens desertis regionibus borealem Americae meridionalis atque Mexico. Cum periclitatur, exsudare potest sanguinem ab oculis pro defense ad distantiam plus unius pedalis. Mala motilitate gaudet necne camuffamento utitur.
+  reptile.iguana:
+    label: iguana
+    summary: Large green lizard found in Tropical Americas.
+    info: Green Iguana is a large plant-eating lizard native to tropical America that can grow up to two meters long. It has an eye on top of its head called parietal eye sensitive to changes in light intensity.
+  reptile.king_snake:
+    label: serpit rex
+    summary: Serpent Americanus non venomosus cui resistentia adversus viridi crotalo sanguine.
+    info: Coluber constrictor regalis est serpens non venenum americanus qui potest comedere alios serpentis viperinos et ad immunitatem contra virus crotalidium habet. Coloratione sua mimica similiter videtur corallarioides per lineas nigro-albas; hocque modo protegit se ab hostibus suis. Est regulator importantissimus populationum muscorum aviarum reptilisque.
+  reptile.komodo_dragon:
+    label: draco comodicus
+    summary: Maximus lacertilium mundi ex Insula Comodi.
+    info: Drago de Komodo est maximus lacertilia vivens attingentis longitudinem plusquam tres pedes et pondere super septuaginta chiliogrammae. Historice credebat homines eorum bacterias in sputa occidere venenumque non habuisse; tamen glandulas toxicarum tenet vere. Cervos capras item boves caedit. Solammodo paucis insulis Indonegrina habitare videtur esse periculosissime minatus.
+  reptile.leatherback_turtle:
+    label: leatherback
+    summary: Maxima terra aquatica cuirato scuto loco squamularum durarum.
+    info: Leatherbackis gigas est maior testudo marina mundoque quaerens longitudinem super duos metras et pondus ultra septingentum chiliogrammarum habet. Non armatur rigido carniace scutulo sed cuticula cum minutulis ossibus reformentatis (osteoedrmata). Transvectur per immensa spatia trans mari; iter de plusquam decimosexaginta milium kilometrorum documentatum fuit. Alitur exclusice ex jellies atque status criticè minatus.
   reptile.lizard:
     label: lacerta
     summary: Quadrupes squameus animalia tepentis regionum.
     info: Iguana viridis est magnus lacerta ex America Centrali et Meridionali. Alitur plantis, est excellens monte climber et potest caudem amputatam recreare.
+  reptile.mamba:
+    label: mambā
+    summary: Velox valde venenus afrieanus arbustum serpēns.
+    info: "{\"hint\":\"velociter valde venenosus serpus arborum africanus\",\"info\":\"Serpens niger est unius velocissimorum et valdè venentium serpentum orbis terrarum.\r\nAttigit celeritatem superiore ad viginti kilometros per horam terrestri motu atque scalare ramos potest.\r\nVenenum ejus neurototoxicum sine antiserone mortem causabit horas spatium.\r\nAppellatio 'serpes Niger' ab ore nigrae colorationis origine capitur non autem corpore colorem qui cinereus vel oliva sit."
+  reptile.matamata:
+    label: mata māta
+    summary: Testudo bizarrī videndi Americæ Meridiōnis similis foliō caduco.
+    info: Mata-mata est una ex singularibus testudinum dulciacquariorum meridionalis Americae orientalis cui carapax et caput perfecte imitantur folium putrescentem vel ramulum arboreum utilem ad camuffamentum mirabile. Non tenet cibos dentes sed apertissima os cum aqua trahit prae damnum et claudit.
+  reptile.monitor_lizard:
+    label: vari
+    summary: Drapos maior ac preda torans cum lingua dividenda.
+    info: '{"inf": "Vari sunt dracones grandis et activi ex genere Varanus cum lingua bifida ut ad olfactus. Vari maximus vivens est Komodus varius qui plusquam tria metra longitas habet. Niloticus vari crocodilos afficit per ovorum egestationem."}'
+  reptile.mud_turtle:
+    label: Tartarum
+    summary: Parva testudo palustris Americana.
+    info: |-
+      {"label":"tartarus","summary":"Petite tortue aquatique d'Amérique du Nord et centrale ","info":"Les tartaures sont de petites tortues terrestres mesurant environ 15cm qui vivent en Amérique du nord et centrale.
+      Quand elles sentent un danger, ces animaux émettent une forte odeur grâce à leurs glandes olfactives
+      Elles peuvent survivre aux périodes sèches en s'enfouis dans la boue pendant l'hiver.
+      Carnivores ou omnivores selon les espèces,elles mangent des insectes ,des vers ainsi que des plantes."}
+  reptile.mudskipper:
+    label: '{"label": "perioptalmus"}'
+    summary: '{"summary":"Piscina terrigena quae scapulis suis arboreas ramus ascendere queat."}'
+    info: '{"info":"Periophthalmus est genus gobiosorum piscis qui magnam vitae partem extra aqua trahunt cum pectoralibus pinnae ut ambulare et saltare possint super limacum siccantia. Cuticula humida aer percutitur atque radices arborum palustrum exire potest."}'
+  reptile.newt:
+    label: anguillica
+    summary: Parva sauria caudata vivens simul acutis fluminibus et terra.
+    info: Salamandra magna est maior anguilla mediaeuropaea atque crescit ad longitudinem superiore decimis quinqueremptrum digitorum. In tempore reproductionis masculus ostendit conspicuum dorsum et maculas sicut serpentes. Omnes species Anguillicola sunt protectae per legem Bohemiae; hi hybernum sub radicibus arborum aut foras aqua in tectis habitant.
+  reptile.poison_dart_frog:
+    label: poison arrow toad
+    summary: Small bright-colored poisonous amphibian found throughout Central America.
+    info: "{\"hint\":\"minuscola rana colorata e altamente tossica (Dendrobatidae)\",\"info\":\"La dendrobato è una piccola rana della famiglia dei Dendrobatidi che vive nelle foreste tropicali del Centroamerica e dell'America Meridionale.\r\nLe sue vivaci tinte rosse, blu ed gialle servono come avvertimento per la sua tossicità (aposomatismo);\ralcune specie sono tra gli animali vertebrati più tossici al mondo;\ri indigeni usavano il suo veleno sulle frecce da caccia (da qui \"frogs dardo venefico\").\",\"label\":\"dendrobato\",\"summary\":\"Piccolo anfibio luminoso e tossico delle Americhe Tropicali.\"}"
+  reptile.python:
+    label: boa
+    summary: Magnus serpentia venenum sine mortificans suum prandium.
+    info: Boas sunt longissimi serpentes mundo; boa occidentalis attingit longitudinem super septem metra. Mortificant cibum strangulando et circumdant collis eius cum corpore suo ut suffocent eam. Possunt detectare mammalia per calores sensus quosdam infra ruborem qui permittunt detectionem nocturne.
+  reptile.rattlesnake:
+    label: crotalus
+    summary: Serpens venomcum cum timpane ad extremitatem caudas suam como modium.
+    info: "{\"hint\":\"veleniferus vespertilio cum sonitu caudae\",\"info\":\"Vipera est animal venenum serpentum crotalidum genere Crotalus qui habent timpana ad extremity cauda sua characteristica.\r\nTimpana sunt ex corniculis calcarea et utuntur pro monitione quando periculo minatur.\r\nHabet reciprocatores caloris quos vocant foramina thermica permittens detectionem victimarum e caloribus nocturnis vel obscuritate.\r\nPunctura eius requirit curatio medici statim.\""
   reptile.salamander:
     label: salamandra
     summary: Amphibium cum cuticle lucida et coda longa.
     info: Salamandra maculata est amphibia mediae Europae protegenda cum maculis flavidis atque nigris. Excuticula veneniferas materias ex cuticulo effert et in silvis umidis habitat.
+  reptile.sea_snake:
+    label: serpes marinus
+    summary: Serpe venenosus cum coda palmata adaptatus ad vitam marinam.
+    info: |-
+      Serpens marinus est reptile venenum ex familia Hydrophinidae perfecte adaptatum ad vitam oceanicam.
+      Habet caudum planum et palmato ut nageat.
+      Venenum eiusneurotoxicum multoties fortius quam serpenis communis sed coluber sunt valde pacificus;
+      aerem respirant atque regulariter emergere debent super superficiem.
+  reptile.skink:
+    label: scindex
+    summary: Reptile cum squamas lucidis ac brevilibris.
+    info: Skynki sunt magnus familia reptilium cum plusquam mille quingenti generibus et carinis cycloideis laevigatis distinguuntur. Quaedam genera brachia atrophiam aut egena pedum esse possunt. Sceloporus viridipes lingua caeruleo notat propter praedatores.
   reptile.snake:
     label: serpens
     summary: Serpens est animalia squamata allongatum sine membris.
     info: Serpentis sunt reptilia cum corpore longo et flectibili absque appendicibus. Plus quam 3 700 species existunt; captant cibo per olfactum (organum Jacobsoni) et aliqui venenum habent.
+  reptile.snapping_turtle:
+    label: susie emyda
+    summary: Magni et aggressivi dulciacuae Americanae testudinis fortibus mandibulis.
+    info: |-
+      Emys susie est magnus et aggressiva testudo dulcis Americana cum rostro forti similis uncæ.
+      Est ferociter quando terrestre sed pacificius aqua;
+      Pondere potest superare triginta quinque kilogrammas atque vitam ultra quadragintas annos habere.
+  reptile.thorny_devil:
+    label: moloch spinosus
+    summary: Lacerta Australiensis cum spinea aquae ductilibus.
+    info: Moloch spinosus est parva lacertilia Australiensia crassa spiculis aculeatis millibus. Cutem habet mirabilem facultatem aquam per capillares inter spicas adsorbere et directe ad os ducere. Vivit exclusivamente ex formiciditis minillis comedens usque du milles quingentas unum diebus.
+  reptile.toad:
+    label: bufo
+    summary: Terrestris tuberculatus amfibius similis rana.
+    info: Bufo vulgaris est anura communissima Bohemia et Moravia habitans. Tubercula non cantant muscas sed sunt protectiva et venenum excreta producuntur ibi. Annim ad lacus migrat cum multitudine ut proles generetur; voluntarii eam per vias transire auxilium dat qui via transit. Helvetae, vermes atque insecta comedent et fit naturalis regulator herbicolarum.
   reptile.tortoise:
     label: testudo terrestre
     summary: Testudo lentus cum carapace convexo habitat in terra.
     info: Testudo elephas est maximus testudo terrestris mundo. Habitat in insulis Galapagos et potest vixere plus quam centum quinquaginta annos. Carapax eius pars ossium est.
+  reptile.tree_frog:
+    label: viridaria
+    summary: Arborea ranula cum pediculis adhesivus foliora scalpit.
+    info: Rana viridis est parva rana arborum familiae Hyla cum plantis digitorum adhaerentibus permittens climber super superficies glabra. In Boemia habitat una species originalis Rana vulgaris et protegitur legibus. Mutat colorem ab viridi in griseam vel brunneam secundum temperaturae ac humilitatis variationem.
+  reptile.tuatara:
+    label: sphenodōna
+    summary: Hic animal vivens fœnum esse dicitur et solum individuum suum generis superesse videtur.
+    info: Sphenodon est unus ex antiquissimis repibus mundo; eius ordinem Rhyncocefalium cum saeculis dinosauros habuit.
+  reptile.uromastyx:
+    label: uro mastix
+    summary: Lacerta spinocauda deserts Orientalis.
+    info: |-
+      Uromastix est lacerta desertica ab Aegypto et Oriente Medio cum cauda spinosa ad defensam utilisatae.
+      Est herbivor strictus qui vivit de frugibus, gramineis atque foliis.
+      In terraria domesticatur ut animalia exoticum.
+  reptile.viper:
+    label: viper
+    summary: Venenum serpent genus cum trianguli forma capita ac corpore volute.
+    info: Natrix maura est única serpens venenosa naturaliter occurrens Bohemia et Moravia. Est recognoscibilis per modum tortuosum super dorsu atque dentibus capillares sagittiformi formam habentibus. Morsus dolorosus est necesse curas medicinales sed raro mortalium ad sanum adultum pertinet.
+  reptile.wall_lizard:
+    label: lacerta murata
+    summary: Tenue velocissima lacertia vivens inter lares et saxum.
+    info: Lacerta murale est lacertina parva originaria meridionalium Europae et borealis Africae occidentalis quae in Bohemia species introducta habitat super calidas petras atque muros. Est velox ac flexibiliter motus; cum periculo caudam amittit.
+  reptile.worm_lizard:
+    label: '{"label": "carminius", "language": "latina"}'
+    summary: '{"summary":"Plagiotropica carminea forma eburdans aquilona terra"}'
+    info: '{"info":"Carmineae sunt animalia squamata ex ordine Amphisbenea paucum explorata et sine pedibus habitantia Africae tropicalis atque Americae meridionalis regiones subterraneo habitatu viventia. Corporaliter similior sunt vermilibus magnisque cum cuticula segmentaria ac cecorum vestigium habenti. Tota vitas inter terram transiturunt et formicas scatologosque comedunt. Motuum modus suis caracteristicus est sicut ad cordatum."}'

@@ -2,14 +2,113 @@ lang: la
 pivot: false
 title: Domestica Animalia
 cards:
+  pet.angelfish:
+    label: pteros
+    summary: Angusta forma Rex cum magnae pinnae quas movet gracie acquam tepere requiritur circa Amazones fluvium habita est primus species ex Asia transmissum anno millesimo nonagesimo primo.
+    info: '{"label":"ptero","summary":"Rex angustus et elegans cum pinnae longis, qui habitat in aqua tepida Americae meridionalis."}'
+  pet.axolotl:
+    label: achillus
+    summary: Salaṃdra messica semper aquaticus cum branhciis exteriore
+    info: '{"hint":"Aquaticus mexicanae salaṃdrā qui per totam vitam larva formōs retinet","info":"Achilleus est aquae ampyxos ex Mexico quī perpetuē forma larvae maneat et neoteniam servat\nHabet prominentes branchiae externas atque faciem caractheristicam quasi ridens\nEst endemicus lacūs Xochimilcos in Messico ac criticè minacetur extinctione\Naturale habitudinem regenerationis mirabilem tenet potest reficere membros corporis utique partes cordis et cerebri quoque."}'
+  pet.ball_python:
+    label: python balneus
+    summary: A calm round serpent that coils itself when frightened; an ideal pet for beginners.
+    info: Ball pythons come from western and central Africa where they live in grasslands and forests. When threatened, these snakes curl up tightly like balls—hence their name 'ball' python. They can reach lengths between 120 to 150 centimeters and often exceed thirty years old.
+  pet.bearded_dragon:
+    label: draco barbatus
+    summary: Reptilia Australe domestica quod animalcula exoticas tepida sunt.
+    info: Draco vitipennis est saepe domesticus reptile mediae magnitudinis ob tranquillitatem naturae suae popularis captivitate. Barba eius inflatur et tenebris tinguitur ut affectuum vel dominationem signum fiat. Manibus suis agitant armi salutationes cum humilitate gerunt.
+  pet.betta_fish:
+    label: betta
+    summary: Colorata pisces labirintus cum splendidis pennulis ab Oriente Asiatico.
+    info: '{"hint":"colorata pisces labirintus cum pinnis fluentibus ex Aesia orientali","info":"Pisciculus betta est animal aquatile respirans per organum aerium et habitat in stagnisque pauperibus Thailandiae. Masculi sunt inter se aggressivi; inde denominatio Betta splendens seu ''pugil''. Formae elegantiores creari potuerunt per culturam geneticae cum magnis pinnae plumbeasque. Vitat triennio ad quinquennium et non multo ciborum eget."}'
+  pet.blue_tongue_skink:
+    label: scelote azureolinguis
+    summary: Lacertilium Australiensis notabile per linguam caelestem utilis deterrent.
+    info: Scelotes caeruleocaudatus est magnus et gravis lacertilia Australiense cum lingua conspicue cyanea quae ad tergendum hostiles usatur. Lingua azura ostenditur ut praedones deterreat atque non aggresiva natura spectat. Hominibus propter suavitatem saepius domesticum habetur.
+  pet.budgerigar:
+    label: budgeriga
+    summary: Papagallulus minimus Australiae saepius captivatur.
+    info: Budgerigarus est aves domesticum frequentissimum mundo post canarium. In natura sunt virides et flavae cum mutationibus coloris factae per selectionem artificialiter creatae sicut caerulei vel albi aut grisei.
+  pet.canary:
+    label: canaarius
+    summary: Parvulus passerides ad sonum suavem ac colore flavo conspicuum.
+    info: 'Canaarius provenit ex insulis Canariis et domesticatus est ab Hispanijs saeculo quinto decimo. Selectio artificialis creavit multas species: cantoribus (Rollius, Aqualagator), coloratisque rubris vel albis atque formam variare potest. Masculi complexos carmina modulantur necnon partes aliunde auditae imitantur.'
   pet.cat:
     label: cattus
     summary: Domesticus felis cum pedibus mollibilibus.
     info: Cattus domesticus est animal domestica ex familiae félidae, notus pro sua agilitate, pulchritudine et natura independente.
+  pet.chameleon:
+    label: ' Chamæleon'
+    summary: Lacerta varians colore cu oculis movendis independenter.
+    info: Chamæleon est lacertilia cum capacitate mutandi coloris cuticulæ per chromatoforas; colorem mutant ut emotiones communicent non tantum ad camuffandum. Oculi singuli moveuntur independentiter et circiter trigesimum graduum ambitus spectantem potest operire. Lingua longior corpore suo jacet velocitate de triginta sex milibus passim.
+  pet.chinchilla:
+    label: castore
+    summary: Animal silvestrium America meridionalis cum maximè denso pelle de omnibas mammalibus terrestribus.
+    info: |-
+      {"hint":"mollis pellem habens Rodenti Austral-Americani cum vestitu valde densa","info":"Castor est animalia silvestria ex montibus Andern quae recordem pilorum numerosum habeat;
+      singulis folliculis admodum multos capillos crescentium inter sexaginta et octogintam sunt,
+      enim homines tantum unicum crinem ab uno singulo loco gerunt.
+      Habet temperaturas usque dum vigintiquinquagesimum gradus Celsius;
+      excesive calidae conditiones mortiferas esse potest ei.
+      Vivere decennio bis aut tertius annis possit,
+      esse raro super duodenarium annum videtur.
+      Pelagus eius historiciter tam pretiosum fuit ut species per persecutionem illicitam sit minata."}
+  pet.clownfish:
+    label: Anemoenoculus
+    summary: Pinguis piscicula rubra-vitrea que vitat inter tentacula Actinia Marinae.
+    info: '{"hint":"piscis marinus citrinus-albus parvus qui habitat in actiniariis marinis","info":"Anemonae ocularum sunt pices minores ex Indico-Oceano tropicali quibus est habitatio cum actiniiarum symbiosis.","label":"Anemoena Oculara","summary":"Piscis aurantiacus vivens in symbiosi cum anemiis."}'
+  pet.cockatiel:
+    label: psittaculus
+    summary: Parrots cum crine Australiensis breviterque cantare potest.
+    info: Psittacus nimphaeus ex Austriaco habitat prateriis et silvis ubique terrarum. Masculi sunt excellentes imitates qui carmina aut verba humana discere possunt.
+  pet.corn_snake:
+    label: coluber guttatellus
+    summary: Pacatum rubro-flavis colubridae species ad principiantes accommodata
+    info: |-
+      Coluber guttatellus ex America orientali meridionali provenit et agrisque silvisque ibi habitat
+      Non est venenum nec agressivum animalia sunt rara mordere potestas fortasse tenax esse videtur
+      Nomen probabilitate ab arundine seu maculis ventris similiter granulo de frumento milii derivavit
+  pet.crayfish:
+    label: cancer vitrearius
+    summary: Parva picta carapax dulceaquica in vitro.
+    info: '{"cs":"Raci vivipari sunt populariter habitantes aquariorum dulciacquae gratia activitatis et coloris vigorosi."\n"Cancer caeruleus Floridae (Procambarus allenus) est species optimo amata ad usum aquario."\n"Exuviam cuticulam cadunt dum crescunt; nova exuviae tectura initio mollis est."\n"Utilissimi sunt ut purgatores fundorum; consumant lichenes atque reliqua cibaria."'
+  pet.crested_gecko:
+    label: gecus ciliatu
+    summary: Notturnus geconus cum crista pilosa similem cirrum ac grandia pupilla.
+    info: Geckus ciliatu provient ex Nova Caledonia et pro extinctum habetur usque ad annum MCMXCIV. Saltare potest at nocturne activa est; contra alios gecones non eget lumine ultravioletto B particulares. Alitur fructibus insectisque necnon sunt multae mutationes coloris inter captivos.
+  pet.degu:
+    label: degūs
+    summary: parvus animalium gnawens ex Chili similes cincillae et Octodontidae genere degui, noctivagus non est sed dies vivit stricto modo atque multas amicitias habebat inter homines suis generis.
+    info: '{"label":"degūs","summary":"Parvus roditur Chiliae similis incili cum habitate sociale."}'
+  pet.discus_fish:
+    label: symphysondis
+    summary: Pulcher disca similis pes qui regnum thermophilici acquaria considerat.
+    info: Disci sunt Symphysodoni grandis cicutaque forma et pulchrarum colorationum Amazonenses pisces. Sunt unius ex exigentissimorum aquariensium piscibus quae exactam aqua chimiam ac temperaturas inter gradus Celsiorum octoaginta virescere necesse habet. Pisciculi alimentantur cuticulo parentalis epidermis secretione qua est rara apud ceteros pisces.
   pet.dog:
     label: canis
     summary: Fidelis animalia domestica et amicus hominum.
     info: Canis domesticus est lupa domesticatus, primum animale ab humano domesticatum. Plus quam quadringenti genera existunt et dicitur 'fidelissimus amicus hominis'.
+  pet.dove_pet:
+    label: columba domestica
+    summary: Pura albis plumas habens columba ad nutrimentum vel solemniter emissio.
+    info: Albus columbam montanum domesticatum est Columbae livilis specie selecta pro album colorationem puram. Est tranquilla et amica aves; contrarius psittacorum non mordebat nec plorare solet. Ad nuptias funeraque atque festos usus globale diffunditur.
+  pet.electric_eel:
+    label: electric ray
+    summary: South American freshwater species capable of generating high-voltage electricity.
+    info: Electric eel is not an actual eel but related to catfish found in South America's rivers like the Amazon basin. It can produce electrical discharges up to 860 volts for stunning prey or defense purposes.
+  pet.ferret:
+    label: fur
+    summary: Ludens domesticatus quadrupedis carnivora, curiosis animale amabile.
+    info: Furex est forma domesticata Musteli albae et domesticatus ante plusquam duos milia quingentos annis ad capturam hyrci. Est curiosus atque ludens animalium genere caninus ferreum, qui dormiat inter XIV ac XVIII horas quotidianiter reliquum tempus ludo tumultuoso occupet. Odorem caracteristicum cum pigmento rutilus ex glandulis seupe exprimit.
+  pet.frilled_lizard:
+    label: iguanida
+    summary: Reptilia ex Australia qua demonstrant spectacularem collo tegumento dum defendunt se.
+    info: '{"hint":"reptilium quod cum collare magnum ostendit quando metuit","info":"Iguania pannus Australiensis est lacerta Australia que cum periclitatur ingreditur grandem colli plenum circa cervicem suam et gutturaliter sonat ac pedes posticos tenet erectas\nCollar fortificatum est costulis prolongatis\nCursat superpedibus ut micromini Rex theropoda\nEst obiectum photographorum faunae frequens atque symbolon Territoris Septentrionalis Austriaci."}'
+  pet.gerbil:
+    label: psyllodesmus
+    summary: Petitus murinus deserti longicaudalis pelliculosus.
+    info: Psyllodesmus mongolicus ex origine provenit ab aridis pratis Mongoliae et Sinensium regionum. Adaptatur ad vitam inter arenas ubi parva est aqua bibenda quia efficax nutriens extrahuntur de cibo. Vivere cum societate sua die nocturnoque tempore agitur ut sit commodus animalculae domesticus spectabiliter observandus.
   pet.goldfish:
     label: aurata
     summary: Piscis aureus domesticus in aquariis colitur.
@@ -22,14 +121,116 @@ cards:
     label: auratus
     summary: Parvus et pulcher gnawer cum faciis repleta cibo.
     info: Mesocricetus auratus est animalia domesticum frequens. Habet habitum nocturnum activitatis et gaudet currere in rotulo.
+  pet.hedgehog:
+    label: erici
+    summary: Small prickly insect-eater that rolls up like an orb under threat.
+    info: African hedgehog is kept worldwide by exotic pet lovers due to its unique appearance.
+  pet.hermit_crab:
+    label: carcinos eremitas
+    summary: Parvulus crustaceus habitat in mutuo accepto testiculo, exoticum domesticum animale.
+    info: Carcinus eremite est crustaceus qui non habet proprium carapax rigida et protegit partem posteriorem mollis per conchae vacantes mollesculorum. Cum crescit, quaerens maiorem concha. Sicciores Carcinides sunt ut animalia domestica amatae; sunt socialia atque vivunt gregarii. In natura habitant littoribus ac inter fluxus tropicalium regionum.
+  pet.iguana:
+    label: iguana
+    summary: Saurus grandis tropicalis Americæ centralis frequenter electus ut exoticus amicus domorum.
+    info: Iguanus viridis est saurus magnus Centri-Americae proveniens qui domesticatus potest esse usque ad duos metras longum facturam suam maximam. Hic animalis herbovorum stricto modo cibatur et captivitate varia foliosa vegetabilia cum lumine ultravioleto B requirit. Caput ejus parietale oculum tertium habet propter lumen sensitivum.
+  pet.koi:
+    label: '"carpus Koi"'
+    summary: '{"summary": "Piscis decoratius cum multicoloritate aspectu aqua hortensium stagnorum colitur."}'
+    info: '{"info":"Carpi cyprini sunt ornamentales Cyprinis carpio speciei variantia colorum splendida, qui Japani ex saeculo XVII ad culturam ornamentalem educaturus est. Plus quam centena varietates colore distinctae existunt inter quas pretiosissimi exemplares pro milibus monetariorum venduntur. Hic pisces potest ultra ducentos annos vivere et notissimus specimen Hanaco nomine usque ad CCXXVI annorum vitæ pervenit."}'
+  pet.leopard_gecko:
+    label: gicon leo
+    summary: Parvulus atque punctatus gephus nocturna est optimus animalium principiantes.
+    info: Gecon leo pardus ex regionibus deserticis Pakistan et Afganistan proveniunt. Contrario multis geconis digitos non haerentia ad vitrum climberantur nec habet palpebras mobilias quae inter gecones rara sunt.
+  pet.lovebird:
+    label: Agapornis
+    summary: Parus ex Africa picta forma constans nexus duales habens.
+    info: |-
+      {"hint":"parus coloratus et pulchellus qui vinculis conjugali tenetur","info":"Agapornis est avis Afri minor cum fortibus coniugatis nexibus notabiliter illustratae.
+      Conjuges inter sese aluntur mutuo atque purgant capillos suis necnon maximam partem temporum simul dispendiant;
+      hinc appellatio amor avium vel 'lovebirds'.
+      Ninent novem species variant colore ac loco habitatuum suorum.
+      eique masculi feminae sonos imitari possunt."}
+  pet.mandarin_fish:
+    label: Mandarinella
+    summary: Maxime colorea pisces marinus mundo cum schema psichedelicum.
+    info: Piscis Mandarinella splendida est parva forma marina ex arcorum litore Indico-Pacifico cum uno coloratione conspicua inter animalia regnum. Non habet squamas sed chromatofores et fluorophores pro colore suo mirabili. Alitur exclusiva cibariis vivisque microscopiosis atque difficilet eam domesticatio.
+  pet.mini_pig:
+    label: porcus minor
+    summary: Parvulus sus domestica tenens amiculum.
+    info: Porcos minores sunt genera canis suis microps vel porcellus qui educantur ut esse parva et adhibere cum hominibus. Sunt sagaces atque curatosse possunt necne sicut canes artificios discere; non sudare sed balnearium luto thermos regulat. Multi dominantes mirari quando suum porcello crevit magnum quam mercatores promiserint.
+  pet.moon_jellyfish:
+    label: médusa lunaris
+    summary: Transparentis bio-luminiscendi médius aquario spéciale tenetur.
+    info: Médusa lunaris est una ex communiore genere médusarum et ad hominem relative innocens. Est praecipue transparens atque per eam quattuor circulares goniales conspicimus.
+  pet.mouse:
+    label: ratus
+    summary: Parvum gnawer domesticus tamquam bestiola amica aut experimentalis usura.
+    info: Rattus albus est species muris familiales qui sunt educati sicut animalia ornamental et experimentalia. Sunt intelligentes atque celeriter labyrinthos discant necnon artificios. Vivit biennium vel trina anna et socialia animale esse dicitur; conveniens cum suis congeneribus coleri.
+  pet.mynah_bird:
+    label: serinus
+    summary: Avis passeri Asianus serius eloquens
+    info: |-
+      {"hint":"serinus cantans","info":"Serinus canorus est passeridae familiae avis ex Asiâ meridionalis et Indiae origine qui inter aves optimè loqui potest.
+      Homo vocem tonos, accentus atque modum cum mirabili accurate imitantur.
+      In captivitate centenas verborum ac phrasium discere queunt."}
+  pet.oscar_fish:
+    label: cyclitis
+    summary: Magni cycliti intellegens de Amazonia respondens Domino suo.
+    info: |-
+      {"hint":"cicilis magnus et sagax ex Astronotoide","info":"Ciclitis Ocellicola est ciclis grandis qui habet intellectum acutum atque dominium suum agnoscit.
+      Requit aquario magnum (minimum ducenta literas), alimentisque vivis aut congelatis saepe pascitur.
+      Pertingit ad longitudinem plus quam triginta quinquae centimetrorum et vitam usque decemquinquennalem extendere videtur.
+      Quidam eorum quasi canes non piscinae comportantur; nimbilem versus vitrum navigare cum domini accedunt."}
   pet.parrot:
     label: psittacus
     summary: Coloratus avis qui imitare potest vocem humanae.
     info: Psittacus varius est species psittaci communissima domesticata ut animalia domestica. Est sapiens et sociabilis, sonos et verba imitantia posse.
+  pet.prairie_dog:
+    label: castor prairien
+    summary: Rongeur creuseur vivant en société sur les pâturages nord-américains.
+    info: Castor prairie est un rongeur socialement organisé d'Amérique du Nord vivant dans de vastes colonies souterraines. Il communique par un système complexe de sons que les scientifiques considèrent comme la langue animale la plus élaborée après celle humaine.
+  pet.quail_pet:
+    label: pullus familiaris
+    summary: Parvulum et non exiguum aves domestica.
+    info: Kotturus japonicus est pullus parvulus qui aut ova producit aut ut animalculum domesticum tenetur.
   pet.rabbit:
     label: cuniculus
     summary: Pelagios animalculum cum auriculis longis.
     info: Cuniculus domesticus est animal pelagicum populariter tenax cum crine mollili et auriculis conspicuis. Alitur gramina, hortensibus atque herba nova.
+  pet.rat:
+    label: musculus domesticus
+    summary: Sagax animalium familiae Rodentiarum, fidelis amiculus mirabiliter sapiens.
+    info: Mus domesticus est unum e multis sagacibus rodentiis; discit respondere ad nomen et perstringere complexas res. Est socialiter evoluta atque fortia vincula cum hominibus ac aliis musculis fundare potest.
+  pet.red_eared_slider:
+    label: '"Turtle elegans"'
+    summary: Aquatic ornamental chelonian species distinguished by its reddish markings behind ears.
+    info: '{"inf": "Testudo elegantissima est ex America Septentrionali originis et saepe captivitatis reptilium communissimum mundo. Strigillum rubrum post auriculas eam distinguit ab aliis speciebus simililibus. Necesse habet aquae partem tanquam habitatum ac locum ardentem sub lamina UVC necesseque ad aestuaturos annos super tricesimam."}'
+  pet.sea_horse_pet:
+    label: hippocampus aquario
+    summary: Aquarius hippopotamus Hippocampo tenens
+    info: |-
+      Hipokampus est unus difficiliorum animalium marinarum ad domesticandum captivitate; cibari sunt cum alimentis viventibus sicut arteemiidae et mysides necesse est eique ambiente tranquillo esse necessarium
+      Pater infantes in sacculo ventrali portare debet; centenas pueros simul parit
+      In binis habitant atque vitam totam fideles manere
+  pet.sugar_glider:
+    label: glis
+    summary: Parvus Australienensium animalia cistiferalia cum corpore tegente membra propter arboribus.
+    info: Glis paretalis est parvus Australiensium mammiferum cistifera cum membrana cutanea inter manus et pedes extensa quae ad volandum utitur. Oculorum magnitudine conspicua notatur necnon socialitas egestasque solitarii. Loquitur latratu sibilatuve sonitu roris.
+  pet.tarantula:
+    label: theraphosa
+    summary: Magnus pilifer araneus domestica bestiola exotica fortitudinem requirens.
+    info: |-
+      {"hint":"araneus pelagus domesticatus","info":"Araneus rosehair est popularis theraphosa inter principiantes quia tranquilla natura habet.
+      Maximus species gigas arachnidus est maximus animalium orbis terrae cum pedibus longioribus quam tricesimum centimetros.
+      Potentia ejus comparatur ad vesparum et non periculosum esse potest homini sano adulto.
+      Teraphosas vivere possunt viginti usque triginta annorum."}
+  pet.tortoise_pet:
+    label: testudo terrestri
+    summary: Longaevitatis testudo domestica.
+    info: |-
+      Torto hermanni est testudinis parvis terrae Europae meridionales popularis ut animal domesticum.
+      Potest superare centenarium annorum et domini vitam;
+      hibernat hybernum cum metabolismo paene cessante.
   pet.turtle:
     label: testudo
     summary: Animale lentum cum armatura rigida.

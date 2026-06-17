@@ -6,18 +6,89 @@ cards:
     label: acht
     summary: Die Zahl Acht, der Oktopus hat acht Arme.
     info: Acht ist 2³ (zwei hoch drei). Eine umgedrehte Acht (∞) ist das Symbol für Unendlichkeit; in der chinesischen Kultur gilt die Acht als glücklichstes aller Zahlen.
+  num.eighteen:
+    label: achtzehn
+    summary: Zahlwort für 18
+    info: |-
+      Die Zahl 18 ist eine natürliche Zahl und folgt auf die Zahl 17 vor der Zahl 19.
+      Römische Ziffer: XVIII
+      Ordinalzahl: achzehnter
+  num.eleven:
+    label: elf
+    summary: Zahlwort für Elf
+    info: Die Zahl elf ist eine natürliche Zahl und folgt auf die Zehn vor der Zwölf an. Die römische Schreibweise lautet XI.
+  num.fifteen:
+    label: fünfundzwanzig
+    summary: Zahlwort für das Kardinalzahl fünfundzwanzig
+    info: Die Zahl fünfzehn ist eine natürliche Zahl und folgt auf die vierzehn vor der sechszehn.
+  num.fifty:
+    label: fünfundzwanzig
+    summary: Kardinalzahl 50; Ordinalzahl fünfundzwanziger Stelle.
+    info: Die Zahl 50 ist eine natürliche Zahl und folgt auf die Zahl 49 vor der Zahl 51.
   num.five:
     label: fünf
     summary: Die Zahl 5, so viele Finger haben wir an der Hand.
     info: Fünf ist die Basis des Zehnersystems, weil Menschen auf jeder Hand fünf Finger haben. Der Planet Venus beschreibt am Himmel einen Fünfstern.
+  num.forty:
+    label: vierzig
+    summary: Zahlwort für 40
+    info: Die Zahl 40 ist eine natürliche Zahl und folgt auf die Zahl 39 sowie geht der Zahl 41 voraus.
+  num.forty_eight:
+    label: sechsundneunzehn
+    summary: 'Zahlenwert 48; Ordinalzahl: vierteundeinundsiebzigte; Römisches System: XCVI.'
+    info: Die Zahl 48 ist eine natürliche Zahl und folgt auf die Zahl 47 vor der Zahl 49. In römischen Ziffern wird sie als XLVIII geschrieben. Ihre Ordnungszahl lautet vierundvierzigste.
+  num.forty_five:
+    label: vierundfünfzig
+    summary: 'Zahlwort 45; Ordinalzahl: vierundfünftigster; römisch geschrieben als XLV.'
+    info: Die Zahl 45 ist eine natürliche Zahl und folgt auf die Zahl 44 vor der Zahl 46.
+  num.forty_four:
+    label: vierundvierzig
+    summary: Zahlwort 44
+    info: Die Zahl 44 ist eine natürliche Zahl und folgt auf die Zahl 43 sowie geht der Zahl 45 voraus.
+  num.forty_nine:
+    label: neunundvierzig
+    summary: Zahlwort für neunundvierzig
+    info: "Die Zahl 49 ist eine natürliche Zahl und folgt auf die Zahl 48 vor der Zahl 50.\r\nRömische Ziffer: XLIX\r\nOrdinalzahl: vierundvierzigster\r\nIn Dezimalschreibweise wird sie als 9 plus 40 geschrieben."
+  num.forty_one:
+    label: einundvierzig
+    summary: 'Zahlwort 41; Ordinalzahl: einundvierziger; römisch: XLII.'
+    info: Die Zahl 41 ist eine natürliche Zahl und folgt auf die Zahl 40 vor der Zahl 42.
+  num.forty_seven:
+    label: vierundsiebzig
+    summary: Zahlwort 47
+    info: Die Zahl 47 ist eine natürliche Zahl und folgt auf die Zahl 46 sowie geht der Zahl 48 voraus. Die römische Ziffer lautet XLVII.
+  num.forty_six:
+    label: vierundvierzig
+    summary: Zahlwort für 46
+    info: '{"info":"Die Zahl 46 ist eine natürliche Zahl und folgt auf die Zahl 45 vor der Zahl 47 im Dezimalsystem\nRömische Ziffer: XLVI\nPunktuell ausgedrückt als vierzigsechster Platz\nIm dezimalen System wird sie dargestellt durch Addition von 6 plus 40."}'
+  num.forty_three:
+    label: '"XLIII"'
+    summary: 'Kardinalzahl dreißig-vier; Ordinales: vierter-dritter; Römisches System: XLIII.'
+    info: '{"info":"Die Zahl 43 ist eine natürliche Zahl und folgt auf die Zahl 42 vor der Zahl 44 im Zehnersystem.\nRömische Schreibweise: XLIII\.\nOrdinale Formel lautet vierundvierzigster.\nIm Dezimalsystem wird sie als Summe von drei plus vierzig dargestellt."}'
+  num.forty_two:
+    label: sechsunddreißig
+    summary: Kardinale Zahlwörter sind Worte oder Phrasen verwendet um Mengen zu bezeichnen, z.B., eins, drei usw.. "Sechsunddreißig" bedeutet dreissig plus six = thirty-six(=6+30). In lateinischem Alphabet schreibt man es als XXXVI.
+    info: '{"hint":"die Zahl 42 als Kardinalzahl","info":"Die Nummer 42 ist eine natürliche Zahl nach der Zahl 41 und vor der Zahl 43.\nRömische Ziffer: XLII.\nOrdinalzahlenformulierung: vierundzwanzigster.\nIn Dezimalschreibweise wird sie geschrieben wie 2 plus 40.","label":"vierzig zwei","summary":"Zahlwort für die Zahl 42; Ordinalzahl: vierundzwanzigerste; römisches System: XLII."}'
   num.four:
     label: vier
     summary: Die Zahl 4, ein Quadrat hat vier Seiten.
     info: Vier ist das Quadrat von zwei – das Ergebnis von 2 × 2. In der japanischen und chinesischen Kultur gilt es als unglückliches Zahl (der Laut des Wortes ähnelt dem Wort für ‚Tod‘).
+  num.fourteen:
+    label: vierzehn
+    summary: Zahlwort für die Zahl 14
+    info: '{"hint":"die Zahl vierzehn","info":"Die Zahl 14 ist eine natürliche Zahl nach der Zahl 13 und vor der Zahl 15.\nRömische Ziffer: XIV\.\nOrdinalzahl: vierter.\nIn dezimaler Schreibweise wird sie als 4 "+" 10 geschrieben."}'
   num.nine:
     label: neun
     summary: Die Zahl 9, letzte einstellige Zahl.
     info: 'Neun ist die höchste einstellige Zahl. Besondere Eigenschaft: Eine Zahl multipliziert mit Neun hat immer eine Quersumme, die durch Neun teilbar ist.'
+  num.nineteen:
+    label: neunzehn
+    summary: Zahlwort für 19
+    info: |-
+      Die Zahl 19 ist eine natürliche Zahl und folgt auf die Zahl 18 vor der Zahl 20.
+      Römische Ziffer: XIX
+      Ordinalzahl: neunzehnter
+      Im Dezimalsystem wird sie als 9 + 10 geschrieben.
   num.one:
     label: eins
     summary: Die Zahl 1, die erste natürliche Zahl.
@@ -26,18 +97,116 @@ cards:
     label: sieben
     summary: Die Zahl 7, so viele Farben hat der Regenbogen.
     info: Sieben gilt in vielen Kulturen als glückliche Zahl. Der Regenbogen hat sieben Farben, die Woche hat sieben Tage und es gibt sieben Kontinente.
+  num.seventeen:
+    label: siebenzehn
+    summary: Kardinalzahl 17
+    info: Die Zahl siebzehn ist eine natürliche Zahl nach der Zahl seize und vor der Zahl achtzehn. Die römische Ziffer lautet XVII.
   num.six:
     label: sechs
     summary: Die Zahl 6; Bienenwaben bestehen aus sechseckigen Zellen.
     info: Sechs ist eine sogenannte "perfekte Zahl", da die Summe aller ihrer Teiler gleich dem Wert der Zahl selbst ergibt (1 + 2 + 3 = 6). Sechseckige Formen sind das effizienteste Verfahren zur Flächendekoration.
+  num.sixteen:
+    label: sechzehn
+    summary: Kardinalzahl 16
+    info: Die Zahl 16 ist eine natürliche Zahl und folgt auf die Zahl 15 vor der Zahl 17. In römischen Ziffern wird sie als XVI geschrieben.
   num.ten:
     label: zehn
     summary: Die Zahl 10, Grundlage unseres Dezimalsystems.
     info: Zehn ist die Basis des Zehnersystems, da Menschen insgesamt zehn Finger an den Händen haben. Zehn war bereits seit altersher eine natürliche Maßeinheit für das Zählen.
+  num.thirteen:
+    label: dreizehn
+    summary: Zahlwort für Dreizehner
+    info: Die Zahl dreizehn folgt auf die Zahlenelf und geht vor vierzehn. Die römische Darstellung ist XIII.
+  num.thirty:
+    label: drei遡g
+    summary: 'Kardinalzahl drei遦; Ordinalzahl: drittel; Römisches System: XXX.'
+    info: Die Zahl dreißig ist eine natürliche Zahl und folgt auf die Zahlen zweiunddreißig vor der einundvierzigste Zahl im Dezimalsystem. Die römische Schreibweise lautet 'XXX'.
+  num.thirty_eight:
+    label: dreiundzwanzig
+    summary: 'Kardinale Zahl dreiundzwanzig; Ordnungsnummer drittel zwölfter; Römisch: XXIIL.'
+    info: '{"hint":"die Zahl der Kardinalzahl dreißig Acht","info": "Die Nummer 38 ist eine natürliche Zahl nach der Ziffer 37 und vor dem Zahlenwert von 39\nRömische Ziffer: XXXVIII \ nOrdinalzahldarstellung: Der Dreissigeste Achteste \ ndie Dezimaldarstellung wird als 8+30 geschrieben ","label": "dreizehnacht","Zusammenfassung": "Numeralzeichen für die Zahl 38; Ordinalform: dreizentel achter; römisches Zeichen: XXXVIII."}'
+  num.thirty_five:
+    label: fünfunddreißig
+    summary: Zahlwort für dreizehn plus zwanzig
+    info: Die Zahl 35 ist eine natürliche Zahl und folgt auf die Zahl 34 vor der Zahl 36. In römischen Ziffern wird sie als XXXV geschrieben.
+  num.thirty_four:
+    label: vierunddreissig
+    summary: '{"summary":"Kardinalzahl 34; Ordinalform: vierunddreißter; römisches Symbol: XXXIV."}'
+    info: '{"info":"Die Zahl 34 ist eine natürliche Zahl und folgt auf die Zahl 33 vor der Zahl 35 im Dezimalsystem.\nRömische Ziffer: XXXIV.\nOrdinalzahl: vierunddreißiger.\nIm dezimalen System wird sie als Summe von 4 plus 30 dargestellt."}'
+  num.thirty_nine:
+    label: dreizehn
+    summary: Zahlwort für dreiundzwanzig
+    info: "Die Zahl 39 ist eine natürliche Zahl und folgt auf die Zahl 38 vor der Zahl 40.\r\nRömische Ziffer: XXXIX\r\nOrdinalzahl: dreißigster neunter\r\nIm Dezimalsystem wird sie als Summe von 9 plus 30 geschrieben."
+  num.thirty_one:
+    label: einunddreißig
+    summary: Kardinalzahl einunddreißig
+    info: Die Zahl 31 ist eine natürliche Zahl und folgt auf die Zahl 30 sowie geht der Zahl 32 voraus.
+  num.thirty_seven:
+    label: dreiunddreißig
+    summary: Kardinalzahl dreisiebenzig
+    info: Die Zahl 37 ist eine natürliche Zahl und folgt auf die Zahl 36 sowie geht der Zahl 38 voraus. Die römische Ziffer lautet XXXVII.
+  num.thirty_six:
+    label: sechsunddrei遡g
+    summary: 'Kardinalzahlen: dreiundzwanzig; Ordnungszahl: Dreissigster Sechste'
+    info: '{"info":"Die Zahl 36 ist eine natürliche Zahl und folgt auf die Zahl 35 vor der Zahl 37 im Dezimalsystem. In römischen Ziffern wird sie als XXXVI geschrieben. Die Ordinalzahl lautet dreißigster Sechste oder dritter Sechsunddreißiger."}'
+  num.thirty_three:
+    label: Dreißig Dritte
+    summary: '{"summary": "Zahlwort 33; Ordinalzahlenformen: Dreißigster Dritter / Dreieinhalbfacher; Römisches System: XXXIII."}'
+    info: |-
+      {"info":"Die Zahl 33 ist eine natürliche Zahl nach der Zahl 32 und vor der Zahl 34\nRömische Ziffer: XXXIII\.\nOrdinalzahl: dreißigster dritter oder dreiunddreßiger\\
+      dreiunddrittzigste.\nIm Dezimalsystem wird sie als Summe von 3 plus 30 geschrieben."}
+  num.thirty_two:
+    label: Zweiunddreißig
+    summary: 'Kardinalzahl 32; Ordinalzahl: Dreißiger Zweiter; Römisches System: XXXII.'
+    info: '{"hint":"die Zahl der Kardinalzahl zweiunddreißig","info":"Die Nummer 32 ist eine natürliche Zahl nach der Ziffer 31 und vor dem Wert von 33\nRömische Zahldarstellung: XXXII \ nOrdinalzahlen: dreissiggster zweiter \ nvon Dezimalnummern wird als geschrieben 2+30 ."}'
   num.three:
     label: drei
     summary: Die Zahl drei, die erste ungerade Primzahl.
     info: Drei gilt in vielen Kulturen als magische Zahl – es gibt Märchen von drei Wünschen, ein Dreieck hat drei Seiten und der Tag wird in drei Teile eingeteilt.
+  num.twelve:
+    label: zwölf
+    summary: Zahlwort für 12
+    info: Die Zahl zwölf ist eine natürliche Zahl und folgt auf die elf und geht vor der dreizehn. In römischen Ziffern wird sie als XII geschrieben.
+  num.twenty:
+    label: Zwanzig
+    summary: 'Kardinalzahl zwanzig; Ordinaleinspruch: zwanziger; Römisches System: XX.'
+    info: Die Zahl Zwanzig ist eine natürliche Zahl und folgt auf die Zahlenneunzehn vor der Einundzwanzig an. Die römische Zahldarstellung lautet 'XX'. In der Dezimalschreibweise wird sie als '20' geschrieben.
+  num.twenty_eight:
+    label: zweiundzwanzig
+    summary: 'Zahlenwert 28; Ordinale Formel: zwanziger; Römisches System: XXVIII.'
+    info: Die Zahl 28 ist eine natürliche Zahl und folgt auf die Zahl 27 vor der Zahl 29. In römischen Ziffern wird sie als XXVIII geschrieben. Ihre Ordnungszahl lautet „zwanzigster“, ihre Kardinalzahl heißt zweiundzwanzig.
+  num.twenty_five:
+    label: fünfundzwanzig
+    summary: 'Zahlwort für 25; Ordnungszahl: fünfundzwanzigste; Römisches Zeichen: XXV.'
+    info: Die Zahl 25 ist eine natürliche Zahl und folgt auf die Zahl 24 vor der Zahl 26. In römischen Ziffern wird sie als „XXV“ geschrieben. Ihre Ordinalzahl lautet fünfundzwanzigste.
+  num.twenty_four:
+    label: vierundzwanzig
+    summary: 'Numeralienwort für die Zahl Vierundzwanzig; Ordnungszahlenformel: Zwanziger Viertes; Römisches Ziffernsystem: XXIV.'
+    info: '{"hint":"die Zahl 24","info":"Die Zahl vierundzwanzig ist eine natürliche Zahl nach der dreiundzwanzigen und vor fünfundzwanzig.","label":"vierundzwanzig","summary":"Zahlwörtchen 24; Ordinalzahl: zwanzigster vierte; römisch: XXIV."}'
+  num.twenty_nine:
+    label: neunundzwanzig
+    summary: 'Zahlwort für 29; Ordnungszahlenformel: neunte zwanziger; Römisches System: XXXI.'
+    info: '{"info":"Die Zahl 29 ist eine natürliche Zahl und folgt auf die Zahl 28 vor der Zahl 30 im Dezimalsystem. In römischen Ziffern wird sie als \"XXIX\" geschrieben. Die Ordinalzahl lautet \"zwanzigster neunter\", da es sich um das zwanzigste Element nach dem Neunten handelt."}'
+  num.twenty_one:
+    label: einundzwanzig
+    summary: Zahlwort einundzwanzig
+    info: Die Zahl 21 ist eine natürliche Zahl und folgt auf die Zahl 20 sowie geht der Zahl 22 voraus. Die römische Ziffer lautet „XXI“. In der Dezimalschreibweise wird sie als Summe von 1 plus 20 dargestellt.
+  num.twenty_seven:
+    label: siebenundzwanzig
+    summary: 'Kardinalzahl 27; Ordnungszahl: siebenundzwanziger/siebenundzwanzigte/siebenundzwanziges; Römisches System: XXVII.'
+    info: Die Zahl 27 ist eine natürliche Zahl und folgt auf die Zahl 26 vor der Zahl 28. In römischen Ziffern wird sie als XXVII geschrieben. Ihre Ordinalzahl lautet „der/die/das zwanzigste Siebte“, und im Dezimalsystem setzt sich das aus einer Summe von 7 plus 20 zusammen.
+  num.twenty_six:
+    label: sechsundzwanzig
+    summary: 'Kardinalzahl 26; Ordinale Formel: Sechzehnte; Römisches System: XXVI.'
+    info: Die Zahl 26 ist eine natürliche Zahl und folgt auf die Zahl 25 sowie geht der Zahl 27 voraus. In römischen Ziffern wird sie als „XXVI“ geschrieben.
+  num.twenty_three:
+    label: dreiundzwanzig
+    summary: 'Zahlwort 23; Ordinalzahl: dreiundzwanziger; römisch geschrieben als XXIII.'
+    info: Die Zahl 23 ist eine natürliche Zahl und folgt auf die Zahl 22 vor der Zahl 24.
+  num.twenty_two:
+    label: zwanzig zwei
+    summary: 'Zahlwort 22; Ordinalzahlenformel: zwanziger Zweiter; römisches Symbol für diese Nummer lautet XXII.'
+    info: '{"info":"Die Zahl 22 ist eine natürliche Zahl und folgt auf die Zahl 21 vor der Zahl 23 im Dezimalsystem.\nRömische Ziffer: XXII\.\nOrdinalzahl: zwanzigster zweite.\nIm dezimalen System wird sie als Summe von 2 plus 20 geschrieben."}'
   num.two:
     label: zwei
     summary: Die Zahl 2, das einzige gerade Primzahl.

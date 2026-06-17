@@ -1,0 +1,218 @@
+lang: ga
+pivot: false
+title: Frúin
+cards:
+  fruit.ackee:
+    label: ackee
+    summary: Plód trópúil rudaúla gorma le arlíthe buidhe éadail; tábla feithmeach Iamaykis.
+    info: Tábla Ackee agus fish is í an comhrac féinmhithe na hIamayki. Tógfear sé ó phlod atá i mbliain West Africa nótaítear go dtí Caribe trí obranóireacht slua.
+  fruit.apple:
+    label: ísleábhar
+    summary: Ísléabhra cróite dona nó glasa go minic.
+    info: Tábla ísleabairteach atá ann ag baint úisteach ón mbuíochán nó Mhálús doimheasctha dá bhfuil nìollinn C is fibirseanna acu san taobh thall.
+  fruit.apricot:
+    label: Mérú
+    summary: Peann bhuíthe bliantán nóimhreacha agus gruaige.
+    info: Tá moillintheas í Meruírceachta ag dul ó Mhianra Áise don teoranta Prunu Armeniacae. Is féidir é a phoisteacht sa Chzechia go léirithe san Eoraip dá thabharfadh Turca agus Spain an t-am is gaire do dhóthain. Bhogha sé inspéiris beata karotaineacha agus vitamin A.
+  fruit.avocado:
+    label: avoicedo
+    summary: Frút tíre-mhéara crímmeach
+    info: Tábhachtas an Avocado ar Persea Americana atá ag dul ó Mheascia agus Airgeall-Eireann. Is é sin frúith i gcás biotaic ach ní folaithe liathrónta mar thomhaltóir dá bhfuil sé táladh go minic sa cheoilínneachta. Tá fós eacraíocht mionnasfada slántheacha ann seo - nóimhin údhaileaghteachtear leo caolmhuinse
+  fruit.banana:
+    label: bocan
+    summary: Fruc trasatlántico doce y curvo amarelo.
+    info: '{"info":"Tá fritheas agus gaothmhór eileacairtach ón teaghlacht nach féidir i bhfacaill é tá sé go minic mar thomhaltóra d''ímirt nó trí bhuailtear orthu","label":"bocan","summary":"Fruit trópaúil buaicthe láimhseoil"}'
+  fruit.blackberry:
+    label: oistruisc
+    summary: Póna dearg-dhearca den oistriosc.
+    info: Is é an Oistrúisceannas (Rúbhus Frútikósus) póna dearg-dhearcach don phríoide atá ag láimniú ar tharnógán tarnaím. Tá sé seo á croisiadh i mbuíochtaí gréine agus sliotraí dálaightheacha. Is féidir liadhuinn go bhfuil eacair mhór Vitae Ceathair, Viatamin Keaght agus fibhín ann.
+  fruit.blueberry:
+    label: brúntuiscín
+    summary: Tuiscín dubhrón darb í 'superfood' atá crua den choimeád.
+    info: Is éard an brúntuiscín go bhfuil sé deacair dhorcha agus cóir ar thomhaltóireacht orthaghtacha airgeadach i gcruth anthocyánin. Tugann athocyanantanta doimheas don taiscín is féin mar sinsearaithe nótaidhthe agus tá feabhas san fhear ceart maidir lena nascadh slándála. Is ioncaimid nach mór an cur síoraí trína heolas cognuitiúnach agus tríd shláinte cára.
+  fruit.cantaloupe:
+    label: kanatalap
+    summary: Melón beagán grís-buíne cothrom len domhan eile.
+    info: Tábhachtas Cucurbitaceae tá kantalúp agus é iad ceann de thaiscí an t-aistriotha nua-thoscaithe den phróiseart 'cantaloup'. Tá sé mar sin ar fhear láidir ó Asia nó Éire ann amhail go bhfuil siad san áit is féinniúnach dóibh.
+  fruit.cherry:
+    label: traios
+    summary: Peachógán beag crónach rialúil atá páirteacha.
+    info: Is éard is traisín péascónta go hálainne agus ghearradh ó thomhas na prúnas ptací nó 'Prunus cerasifera'. Tá sé fós de dhualgas don téarma tríocha.
+  fruit.coconut:
+    label: cocós
+    summary: Tropical úillmhuire atá tábhachtach san Áise
+    info: Is é an cocóisteach agus Cocus Nuciferas ceann de na húllmhóranna ar fad is féidir bheith acu i gcoinne traeoilte nó slántheilgeachta. Tá sé thar thrascadh mar 'coco' sa Ghaeilige seo freisin.
+  fruit.cranberry:
+    label: Tonnoirghealach
+    summary: Beanncheartín dárbhé láithne béaga; dealbh tíre-thásaide san Aimeirc.
+    info: |-
+      {"hint":"beanncheartín dearg fheadhragach eileacanta (Craobhcuan Vaccinium)","info":"Tonnóirghealach beag (Vaccinium macrocarpon) is é sin beanncheartín dearg acu láithne.
+      Is fé idéal don taiscireacht i dtaostú sasana ag Éamhair (sauce tonóghealacha).
+      Muna leanntar orthaí C. coli ar ghuillteanna an scianmhaca mar thoradh go bhfuil feabhascaiméadaithe ann,
+      is iontach uathairm thonóghealaigh do phréintearthocht TUI (infecsiúnna cealla mhaoin.)","labeall":"tonnéirgealach","suimar": "Beanncheartín dearg láithne beaga;
+      deachtaireacht thírtha-sasan."}
+  fruit.currant:
+    label: ribis
+    summary: Boladh béarach rúnaithe, dubha nó geala.
+    info: Tá bhobúl beag agus gheal eile den chuid is ea ribis nach raibh sé i láthair san fhuinneog nó ar an grua thall marbhóin. Tá vitamin C móra ann sa bholg seo ó thaobh na builleanna go háirithe.
+  fruit.damson:
+    label: Plam Damian
+    summary: Is beanntán tíreachtach ar áit ganntana Éireannacha.
+    info: Tá bhfuil Damascanach (plum damson) is é sin ceann beag dearg-dhearc-tiarna nó dubh. Tá an t-ainm ag cur isteach i gCúige Damascus san Aiseir ó thar fein go dtí na hEorpa. Is féidir fosta í mar shuíomh mór ach tá sé caolaithe don chiuineadh dá chailltear sí sa bhuileog, sliotraí agus líthríocht.
+  fruit.date:
+    label: tábala
+    summary: Plód ó Phénix dáctilifrúa, úsáltar é mar bhrabhsa mór throudhais sa Muinntear Thoirse.
+    info: Táblaí (Phönix dáctilíféra), i ngar agus Phoenix dáctilifrúra san Ghaeilge nua, is ea an phlod atá láidir ghearradh airgneach ar dtús na bliana nóimhthe sa Mhuinntear Talamh Óige don Aiseart.
+  fruit.dragon_fruit:
+    label: tábla an Draicte
+    summary: Plód cácais thrópaigh roís mhór le dáileadh bhán.
+    info: Tábla an draictheacha (pithaheaga nó hylocereus), tá foinse i Mexico agus na Meascneachta Aimeireannacha. Tá scian ghorm gruaigeach acu agus dáileadh ghréine bhuíthiúil go dtí ceimiceanna dubha ar gcónaithe.
+  fruit.durian:
+    label: duaran
+    summary: Plód mhór dhuthchaireach tíorthotal taobh amharaigh leis an téasc ceart.
+    info: Tá moillín duarach is ea durian agus tá sé ar an t-airgeadh mar 'kráth' de phlóid thropicalta. Tá ábhar na fruíte crímheagairt nó beannchorúnta i gcompará idir daoine eile ach ní féadaí fhuinnimh go dtí roinneanna hotelacha sa Theocht Áise don fhiosrói éiginmhinic atá ann san airdeas. Is í teasc na fruíthe créamhteach agus slaoitheach lena dtagraíonn mandalua, bainne sceithche, agus géarchuaine.
+  fruit.feijoa:
+    label: féada
+    summary: Plód beannchorr bán láilliu le hár áirithe.
+    info: Tá feóide agus aránachta éifead is féidir linn i gColumba nó Paragway san Amarás an Dheisceart don taobh thiar den tSuanríocht. Tá sé tábhachtach mar shuímhín sa Nua-Shalaind nuair atá fós ann ach níl sí go minic isteach um Éire.
+  fruit.fig:
+    label: phrís
+    summary: Pleóntais pearachta do Fícus Caricá
+    info: Tá is é an phríosúin atá ag teachtim ó thuas i gcomparáid lena hainmhíntheanta - tá sé thar thrí mhilliún bliana d'aoise san áireamh ar fhigeartha de réir na heoraidhe. Nílíonn sé sin péascinteach féin ach bealach amhlaithe go dtí lámha ceartacha taobh istigh den chabhair seo.
+  fruit.gooseberry:
+    label: an greas
+    summary: Gúimniú beag trasnuilta don chuid mhór den saoghal.
+    info: Tá gúmna bheag agus trastóir is é an angrešt nó Ribes uva crispia go hiontach i ndrochshaoghailte Eorpaithe um mhaoiniúin. Tá sé mar spiorad bánmhara, dearg nó buill óg. Is féidir léi fiosrú Vitamin C.
+  fruit.grape:
+    label: Réim
+    summary: Béalán beag cróna atá ann amach trí chláracha.
+    info: Tugann an reabhlóid Vitis vinifera isteach go ginearálta i bhfómhair éigin - ó ghlas don dubhrún. Is féidir léithiniú ar ndaoine mar is fiar nó agus cuireadh siad san fhín.
+  fruit.grapefruit:
+    label: greap
+    summary: Gréinín tinn-talamhuil is ea an greáp.
+    info: Tá greachóg éadromhach agus gréineacha tá fós ann i ndaoine eile mar Citrus paradisi.
+  fruit.guava:
+    label: Ghua
+    summary: Plód trophach don téama nó do phoinseag.
+    info: Is é Guawa (Pisidiúm gwavaja), atá ó Thropaic Aimeireaga agus tá sé thar Thrópaic Easain is Afrika ar fad. Tá ceithre huimhín nua-aimsir C sa Ghuawu mar shampla go dtí an portcáille. Is féidirimhídheacha na cárta agus na gránna;
+  fruit.jackfruit:
+    label: clábhas
+    summary: Plód thropaca mhór; táirge is mó san oilean.
+    info: Táirgín Chléibheach (Jackfruit / Artocarpus Heterophyllois), is é sin an t-aoscaire is mó atá ag fágadh ar uimhreacha crann; d'fhéadfuid siúd bainte amuigh go dtí trónteach nó trí scaghtán ceapta. Tá sé ó Theocht Áise mar chuma i ndiaidh thíseal don phointéalas sa Bharainneadscoilt, Bhángládscoil agus Thuaisceoil.
+  fruit.kiwi:
+    label: Kiw
+    summary: Bhuilín mhorra breiseachta grísle gorm
+    info: Tá bhreacán is é an kiwea agus tá sé ó Thuaiscealacha nuair atá sé ceart go mbainfear airgead uaidh eile san amhras nó mar 'Yang Tao' nó 'Chinese Gooseberry'. Dheontú New Zealand ar thógail saor árdaoinní den phointe seo agus shín síos orthu de réir ainm an páiste don tír.
+  fruit.lemon:
+    label: Limé
+    summary: Plód gealbhánach ó Asia, tá sé fostaíoch mar fhios go bhfuil e sin tinn nóimhneacha agus éifeacht airgeadais san.
+    info: |-
+      {"label":"limé","summary":"Frúad gheargh agus cásilta den chrannmhálta Citrus limon;
+      guanas don vitamin C agus áróg."}
+  fruit.lime:
+    label: Límídín
+    summary: Buaireadh beag géarbh gealach taobh istigh den phortfocal Citrus aurantifolius, ginearálta i dtacaíocht lena chur san fhios go bhfuair sé an ainm ó shuíomhnaimhe 'lime' sa Bhrainéalis agus é seo mar atógann siad fós don téarma lárnaithe "green" nó "breac." Is féidir léi freisin a bhuailt síos do dhíchearbhaíocht thíoseoilte agus tá feabhas mhór acu d'éadaíocht agus méideanna ceapmhianocha, toisc nach maith liotaibh deas amhlaidh céileacht caillte is cumaicheadh orthu nuair a raibh túisceoirí ag obairsportais íseal teoranta ansin, naturla ach cúpla ucht mára déanta dá gcuid cainte agus dul annsíonna trithe agus córas cáiliúla agus slándálas airgeadas agus cuidiú lán-troime agus scéalaíocht rialtas agus comhdhéan coitianta agus searchtagscairt agus... Cuirfidh mise sin suas faoi shearchtagscirt agus...
+    info: |-
+      {"label":"límídín","summary":"Tineal ghearúil breiseach agus tinn;
+      ingrediún eagríochta trí na tír gréineacha.
+  fruit.longan:
+    label: tonntagóire
+    summary: Plód beo de thróna trophicalacha máthairtear lena húsáid trí lise.
+    info: Tonnagóir Longan atá sé ar fheabhas tightheach agus anois i ngallúntacht na Tionaise seo tá feiceann tú go ginearálta sa tíre thropacal nach bhfuil ann ach nasc don líse. Is éard is 'dracone oculus' san Ghaeilge nó Draconis Oculus mar sin féin.
+  fruit.lychee:
+    label: líthius
+    summary: Plód beannchorra déartha tóirbéalta lítís.
+    info: Tábla an liúntaiteacha i Líchidheas agus tá sé ar scag na hÁise seo mar ghréine thropicalta atá dearg is éadarach go trásnaoilte. Tá fhuinneogán draonaithe uaidh eileacan trasnuilte breisgthe.
+  fruit.mango:
+    label: manóg
+    summary: Plód thrópach is beannchora de shearchuid óran
+    info: Is é an mango Indiach í seo ar mhaith liom 'rí thropic agus tá sé fadhbaithe i bhvitamin A agus vitamin C. Tá súdacht airgeadais ann sa Theocht Thuaidh acu nár féidir léi go dtí 4000 bliain.
+  fruit.medlar:
+    label: mesepail
+    summary: Plód beag máthra céanna lenjabhtán; níos fearr dá réiteálfar.
+    info: Tábla (Mesepile Germanaca), is í an plantasúl atá i ndéanta ó thaobh threascónta agus ceoil Mheスペルス géarmanach don Aigéan Threoighthe. Is é sin fós rud nach mbeadh sé comhartha ach nuair a bhfuil sé 'blitted', mar tá sí amhlaidh go dtí go gcuirfear airgead ar dhochtúireacht orthu.
+  fruit.melon:
+    label: Meloineach
+    summary: Plóid mór ghearradh nó oval agus córas órtha nó glas (cucumis mele).
+    info: Táblaínneacha eile
+  fruit.mulberry:
+    label: muirse
+    summary: Imliteán dhubh ón mbhuscain úll múirsithe.
+    info: Is é an múrsheannacha Morus atá ag tabhairt iomlaithe don múrsheadh; tánaím de chuid Móraíocht mar sin go bhfuil siad ar shuímh dála múrsaideachta sa staire. Tá sé blianta nárthúiltear uathaird mhuire, cruaithneagaire agus dubhaisteach san áit seo, ach is feargfarasacht í an dúnta.
+  fruit.nectarine:
+    label: nectarin
+    summary: Peach smooth-skin without hair
+    info: Tá variété beag de phrosca is ea Nectarina agus tá sí i bhfeidhm mar ghrúpa ar Prunus persica var. nucispersica. Tá sé difríocht shimplí idir an tseachtain go ndearnaodh é sin amach ó thóg na gene don fhiosrún céanna ach ceann eile do dhíchthiúilteas an scabaire. Mar sin féin nach cuma liom, má tá siad lárnacha, bíonn siad fós más mian leo.
+  fruit.orange:
+    label: Portgal
+    summary: Frúaiteacht Culathach Cuideagach Citris Le Córsai Orándha.
+    info: '{"hint":"frúit citrúsach gréineannacha go minic agus córas óráidhe fada ar siad","info":"Tá an portagal ann mar fruíteacht de chuid Citrius atá i dtógaint sa Tiondhal Áise seo tábhachtach ach níl sé amháin tar éis bhuile eorainn nach bhfuilimid ag tabhairt air thar mhórán tSaoill. Is féidir linn gur feart don phortagal go mbeadh Vitamin-C iontaobhtaithe dena fhios agus is íochtaineas do dhóchas nó tríchuair,"label": "portugal", "summary": "Frúaiteacht culathach cuideagach Citris le cúrsaí oranndha."}'
+  fruit.papaya:
+    label: poiseach
+    summary: Plód mór go hOránsuaidhe den tír thrópa.
+    info: Tábhachtann an phoisteach Caricis Papayae ó Thropaca Aimeireaga. Tá enzim ar bith ann atá ag taitneamh maidir lena threascadh prôteanacha. Is é seo fóadúil don vitamin C, beata karotean agus antioideantán.
+  fruit.passion_fruit:
+    label: Mucán
+    summary: Ploid tropicala earrmhór fhiaola agus ceartlaith aromátacha.
+    info: |-
+      {"label":"Mucán","summary":"Plód beag tóraimheach go bhfuil eagairínne gruaige agus ceartlaith ann.','"info':'Is é an Mucán (Passiflora edulis), atá ó Theas Aimeireaca thar thrópaíochta,
+      iomadhú ar son na míseanaitheoirí nach raibh siad cinnte gur féidir iad a bhuailfheadh trí shocruithe Chríst Uilechairthaigh san floiceacht.'"
+  fruit.peach:
+    label: pears
+    summary: A soft golden-brown tree bark used for making paper.
+    info: Tábla an phrúnaisse (prunus persica), atá ó Theachtaire agus is símbil don fhiosdhearcadh i dtuaisceart na hoileán. Tá scian amhreacha fada ar é féin mar ghlacfidhbhfear go minic airgead nó róthair.
+  fruit.pear:
+    label: péirse
+    summary: Pleachtais earráthais len dhuine shláinte.
+    info: Tábhachtar pearsa í péirse agus tá sí thart ar phléidín phearsa coitcheanta nó fhearainneacha. Tá siúicín finnís agus láimheas i gcoitinneas ann agus is fé nascadh go bhfuil céadaí uair an áiteanna éagsuda.
+  fruit.persimmon:
+    label: tómel
+    summary: Ovosc oranžúntas atá comharba raiata; sladhc agus mhuinniúl.
+    info: |-
+      Tómel (Diopyros Kaki), mara ó Chine agus Japan san áireacht go bhfuil sé teacsach i gCeche nár Tomel Sasanach
+      Is é an neartú amhrothaithe is féinmhínigh ar thomailt gan fós nach mbuíochtar orthu,
+      narthaíonn siad tar éis do shláinte acu nó trí mhíchíminte
+  fruit.pineapple:
+    label: ananas
+    summary: Tropicke plody с иголками на голове і жлтой мякотью.
+    info: '"Ananas" má původ ve Střední Aмерice и se dnes chová na celých tropicích světe. Plod obsahující酶 bromelain, což pomáhá při trávění.'
+  fruit.plum:
+    label: súileacán
+    summary: Gualannachta buillíthe; tús donnas don taiscínt.
+    info: Tá gualannachta iascailte agus fliuch is é an súileacán don Éire ann amharc ar na hEorpa Mhearthainneacha. Tá sé mar sin intiúnacht do thaiscín Slavnaigh agus d'fhear ceoil eile atá bunaithe airéir. Bíonn siopóidéal taobhta de shuíleacan sa mharcais nua-thuairseach.
+  fruit.pomegranate:
+    label: gruíseabhal
+    summary: Prathas cruaireaghtach gan cheann láimhe ceart
+    info: Tábla an gruaineagróideacha i gCeanada agus an Mhuir Suanaimheach. Tá sé fós go hás uair níos mó ná seachtúigthe slithín sa phruthadh tharluaithe (aryles), is é sin dearc amhlaidh don ghrian mar athéisiúil aránta nó airgeadbhrónna.
+  fruit.quince:
+    label: ""
+    summary: ""
+    info: Táblaínneacha eile
+  fruit.rambutan:
+    label: rámbútain
+    summary: Plód troicthe ruadh agus gruaigeach atá ceart domhan.
+    info: Táirgím an Rambútan (Neophelim lapapacem) ó Mhalásia agus tá ainm thar éagscoilte den teangacha Mhallach ar 'rambut' is ea ‘focal’. Tá scarmán rua airse i bhfuil fógranna gruaigeacha mar ghealach orthu. Is féidir go dtiocfaidh sé dearg nó buillíoch agus má láithneoidh tú isteach thíos taispeánta roinnt duilleoga clara agus moite.
+  fruit.raspberry:
+    label: Málún
+    summary: Gualannach ghorma ó thuairmhtearthúil.
+    info: Tá gualannach is é an Malín (Rubus Idaeus), atá thostaithe ar fhear láithne agus tá sé ró-bhuartha airgead nó buaireadh. Téann sí isteach sa litríocht mar mhíchím seo freisin.
+  fruit.starfruit:
+    label: Caraibolla
+    summary: Plód thuasógach buille donn dá taobhanna eileartha.
+    info: Tábla an Acairneach agus Éastain Thuaidh-Eorpa ach is féin go bhfuil sé nua sa phríomhearcadóireacht mar 'carambol'. Nuair atá tú i gceisteadh é ar crois léi tá fhoirm héadaigh de threascrúth ann seo freisin nuair nach mór do shuimiúl don téacs nó don dúnaithe. Tá slaoine acu - seans amhluithe - agus tá siúcra orthu cé mhéithreachta. Is iontacha í sin chun vitamin C a bhuailtiadh.
+  fruit.strawberry:
+    label: jihoidh
+    summary: Moilte cinnmhara i dtaobh shuírthe
+    info: Tá moileth is ea Jahóidhe mhuinntearach agus tá sé tharailt do chuid de phortainneanna mar ghrúpa Rósacha. Tá sé bogha ar vitamin C agus antioxantanta;
+  fruit.tamarind:
+    label: tamharhind
+    summary: Plóid mhuiceallach grísín mhórta
+    info: Is é Tamarhindis Indica an t-amharcach agus tá sé ó Thropúca Éireann Achill; ní hamhródaithe ar fud an domhan thuaidhm seo mar shampla. Is féidir liom bainteach den phlóid i bhfad ceart go dtarlaonn orthu sa Phad thai nó sa Worcestershire agus san Chinni Íseal.
+  fruit.tangerine:
+    label: Mandárún
+    summary: Beolchuairteal tharraingthe cuide siopóra nua.
+    info: '"Tábhacht" Mandarinke agus í Citrus Reticulate is é sin - tá fhearálta beag nóimheasúil ó Chineann go léir seo atá sínteach don Nollag i dTeach na hÉireann mar ghrásdhuile féinmhór. Tá sé ar feadh an timpeall sa phríomhchuid cinniúnaithe den chiuinse citrús.'
+  fruit.watermelon:
+    label: Mélúnna
+    summary: Tá mélúnna nua-thaobhtacha agus córas breise den chárca.
+    info: '"Melúinn Vódha" tá motha áitseach ag Afric is é sin an t-amhlaidh ghearrthiosta de láithreacht na heanuain. Is feabhas airgeadta atá ann i ndóchas go bhfuil sé mar shuíomh ar thaitín ó thaobh lán uisce nach féidir léiféadh acu.'

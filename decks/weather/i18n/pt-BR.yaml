@@ -2,14 +2,144 @@ lang: pt-BR
 pivot: false
 title: Clima
 cards:
+  weather.aurora:
+    label: auroras
+    summary: Fenômeno natural causado pelo vento solar que se manifesta em forma de cores brilhantes no céu.
+    info: A Aurora Boreal ou Austral ocorre quando partículas carregadas do sol interagem com a atmosfera terrestre criando faixas e espirais de luzes verdes, roxas e vermelhas no céu noturno. É mais visível nas regiões polares como Noruega, Islândia, Canadá e Antarctica. Os nativos americanos consideravam essas luces os espíritos dançantes dos antepassados.
+  weather.avalanche:
+    label: avalancha
+    summary: Massa de gelo e neve descendo rapidamente pelo lado da serra.
+    info: Avalanche é o movimento rápido de uma massa de neve por um declive montanhoso. As avalanches mais perigosas são do tipo 'poção', que atingem velocidades superiores a 300 km/h e matam em média 150 pessoas na Europa todos os anos.
+  weather.blizzard:
+    label: nevasca
+    summary: Tempestade severa com chuva abundante de neve e vento intenso resultando em praticamente ausência total de visão.
+    info: Uma nevasca é um fenômeno de neve forte que combina intensa queda de neve e ventos fortes. Causam visibilidade quase zero ('blow out') e grandes acumulações de neve. Historicamente, tempestades de neve causaram milhares de mortes; por exemplo, o Blizzard do ano de 1888 nos EUA enterrado Nova Iorque sob até 130 centímetros de neve.
+  weather.breezy:
+    label: brisa
+    summary: Brisa refrescante que traz conforto num dia quente.
+    info: Brisa é um vento moderado com velocidade de 6 a 11 km/h (grau Beaufort 3–4). Causa movimento nas folhas e cabelos soltos ou em objetos leve. Fisiologicamente reduz sensação térmica evaporando suor.
+  weather.clear:
+    label: ensolarado
+    summary: céu totalmente claro sem nenhum tipo de nuvem.
+    info: Clima ensolarado é uma condição meteorológica com menos de 1/8 da cobertura do céu por nuvens. Permite o máximo irradiação solar e os melhores observações astronômicas. À noite sob clima limpo há mais radiação térmica resultando em quedas rápidas nas temperaturas.
   weather.cloudy:
     label: nublado
     summary: Céu coberto com nuvens densas e sem sol direto.
     info: Nuvens são visíveis aglomerados de pequenas gotículas d'água ou cristais de gelo. Mais de 60% do céu da Terra está sempre coberto por nuvens.
+  weather.cold:
+    label: inverno
+    summary: Frio intenso com temperaturas muito baixas.
+    info: O frio extremo ocorre quando o ar ártico invade latitudes temperadas e pode causar hipotermia se sua temperatura corporal cair abaixo de 35°C.
+  weather.dew:
+    label: orvalho
+    summary: Gotinhas de água que se condensaram nos objetos à noite.
+    info: A rosa é formada quando o ar condensa em superfícies frias durante noites calmas e os vapores de água são depositados como gotículas sobre esses locais após esfriarem abaixo do ponto de orvalho. É uma fonte importante para plantas e animais nas regiões secos; por exemplo, pastoreiros da região desértica dos Andes coletam essa umidade pela manhã com redes.
+  weather.drizzle:
+    label: névio
+    summary: Chuva extremamente leve em minúsculas partículas.
+    info: O névo é uma precipitação com gotas muito pequenas de menos de 0,5mm. Não surge dos cúmulos-nimbo convectivos mas da camada baixa e estratificada das nuvens. É típico do clima oceanicamente influenciado como na Grã Bretanha ou no noroeste francês.
+  weather.drought:
+    label: seca
+    summary: Falta prolongada de precipitação que causa falta de água.
+    info: Secura é uma situação climática caracterizada por um déficit prolongado de chuvas e pode resultar em perdas agrícolas, escassez d'água e incêndios florestais.
+  weather.dust_storm:
+    label: tempestade de poeira
+    summary: Um muro de poeira movido por fortes ventos em regiões secas.
+    info: Uma tempestade de poeira ocorre quando um vento forte levanta partículas finas da terra para o ar. Na África Setentrional, esse fenômeno é chamado de Harmatã. O pó saariano viaja regularmente pelo Atlântico e chega até América; pesquisas mostram seu impacto sobre a Floresta Amazônica.
+  weather.flood:
+    label: enchente
+    summary: Transbordamento da água do curso normal para áreas tipicamente secas.
+    info: Uma enchente ocorre com chuvas excessivas, degelo de neve ou falha em diques. Enchantes são os eventos naturais mais custosos no mundo. Na República Tcheca, as enchentes dos anos 1997 e 2002 causaram danos bilionários e várias mortes.
   weather.foggy:
     label: neblina
     summary: Neblina densa no nível do solo reduzindo a visibilidade.
     info: A neblina é um tipo de nuvem formada por gotículas d'água que se encontra ao nível do chão. Ela ocorre em altos níveis de umidade e reduz a visibilidade para menos de 1 quilômetro.
+  weather.freezing:
+    label: gelo
+    summary: Temperatura baixa que congela líquidos.
+    info: O gelo ocorre em temperaturas abaixo de 0°C quando água é transformada em gelo e pode causar acidentes no trânsito por causa do escarcha. Biologicamente ameaça plantas com congelamento severo.
+  weather.frost_flowers:
+    label: flores de gelo
+    summary: Belos cristais de gelo formando-se sobre superfícies frias.
+    info: Flores de gelo são formações cristalinas criadas pelo congelamento da umidade em superfícies extremamente frias no mar ártico. Eles formam padrões intrincados e têm uma beleza visual impressionante que os torna objetos populares para fotografia naturalista.
+  weather.frosty:
+    label: geada
+    summary: Formações de geada superficial que cobrem plantas e o chão.
+    info: Geada ocorre quando a temperatura da superfície cai abaixo do ponto de congelamento e umidade no ar cristaliza-se. Formam padrões bonitos em folhas, vidros e solo. Diferente do gelo comum formado pela condensação da néctar frio.
+  weather.gloomy:
+    label: chuvisco
+    summary: Clima escuro e carregado com uma atmosfera deprimente.
+    info: O clima sombrio é caracterizado por nuvens baixas e escuras, luz apagada e uma atmosfera fria ou com chuva. Associa-se à melancolia e ao outono.
+  weather.hailing:
+    label: granizo
+    summary: Precipitações feitas com partículas congeladas que podem prejudicar culturas agrícolas.
+    info: Granizo é um tipo de precipitação formada por grãos de gelo criados em nuvens tempestuosas. Os granulhos se desenvolvem quando gotículas d'água passam repetidas vezes pelas partes fria e quente da nuvem. Eles podem atingir diâmetros superiores a 10 centímetros causando danos sérios à colheita, veículos e telhados.
+  weather.haze:
+    label: névoa
+    summary: Redução temporária dos níveis normais de oxigênio no sangue.
+    info: Neblina é uma redução da visibilidade causada por partículas finas de poeira ou fumaça na atmosfera e pode ser originária do tráfego rodoviário intenso em grandes cidades como São Paulo.
+  weather.heat_lightning:
+    label: raios térmicos
+    summary: Faísca visível à distancia sem som audível.
+    info: Raio de calor são faiscamentos da tempestade distante cujo trovão não pode ser ouvido por causa da grande distância. O nome é enganoso pois eles não representam um tipo específico causado pelo calor. Apenas raios dentro dos primeiros dezesseis quilômetros podem ser ouvidos como trovões enquanto os mais longes permanecem silenciosos.
+  weather.heat_shimmer:
+    label: '''Miragem'''
+    summary: Distorção visual do ar acima das superfícies muitoquentes gerando uma ilusão.
+    info: O fenômeno de 'falsa poça' é causado pela refração da luz no ar quente ascendente sobre superfícies como o pavimento ou desertos. O ar mais rarefeito faz com que os raios luminosos curvassem e criem ilusões ópticas parecidas com lagos falsos em estradas aquecidas ('miragem'). A fata Morgã também pode ocorrer por inversão térmica.
+  weather.heatwave:
+    label: onda de calor
+    summary: Período prolongado com temperatura excessivamente alta que representa uma ameaça à saúde.
+    info: Uma onda de calor é um período prolongado e intenso acima das temperaturas sazonais típicas. A onda europeia de calor em 2003 resultou na morte prematura de mais de 70 mil pessoas. É especialmente perigosa para idosos, crianças e doentes crônicos.
+  weather.hot:
+    label: calor
+    summary: Calor excessivo que causa desconforto térmico e riscos para saúde.
+    info: O calor extremo é um fenômeno climático com temperaturas significativamente acima da média sazonal e pode causar insolação em combinação com alta humidade, colocando uma ameaça à vida. Na República Tcheca, durante ondas de calor intensas foram ultrapassados os 38°C. O aquecimento global aumenta tanto a frequência quanto a intensidade dessas condições.
+  weather.humid:
+    label: umidade
+    summary: Ar com alto teor de vapor d’agua causando calor úmido
+    info: |-
+      Umidade mede o conteúdo de vapor d'água no ar
+      Uma umidade relativa de 100% significa que o ar está saturado e ao ultrapassar esse limite ocorre condensação da água
+      Alta umidade aumenta sensação térmica porque suor não evapora
+  weather.hurricane:
+    label: furacão
+    summary: Ciclone tropical poderoso com ventos superiores à velocidade de 120km/h.
+    info: Um furacão é um ciclone tropical no Oceano Atlântico e Pacífico Oriental com ventos acima de 120 km/h. Também chamado tyfum (Pacífico Ocidental) ou ciclone (Oceano Índico). A energia do furacão equivale às décadas das armas atômicas por dia.
+  weather.ice_storm:
+    label: tempestade de gelo
+    summary: Chuva congelante recobre tudo com um fino revestimento claro feito apenas pelo próprio tipo particular deste fenômeno meteorológico.
+    info: Uma tempestade de gelo ocorre quando o ar quente acima da camada fria provoca chuva que congela imediatamente ao tocar superfícies mais frias. Como resultado disso, galhos e fios ficam cobertos por uma espessa camada transparente de gelo; isso pode sobrecarregar redes elétricas causando apagões em larga escala.
+  weather.icy:
+    label: gelo
+    summary: Perigoso gelo nas superfícies causando escorregões.
+    info: Gelada ocorre pelo congelamento das gotas da chuva ou derretimento do gelo em superfícies frias.
+  weather.lightning:
+    label: relâmpago
+    summary: Descarga estática entre o céu ou dentro das próprias nuvens.
+    info: Relâmpago é um forte descarrego elétrico que ocorre quando diferenças de carga em uma nuvem atingirem valores críticos. A velocidade do relâmpago corresponde aproximadamente à terça parte da velocidade da luz e cerca de cem centelhas caem na Terra por segundo.
+  weather.misty:
+    label: névoa leve
+    summary: Baixa visibilidade causada por uma fina bruma ou débil névoa.
+    info: Condições nubladas ocorrem quando há condensação de vapor d'água na camada inferior da atmosfera. Diferente do forte névoa densa, ela limita visibilidade mas não abaixo de 1 quilômetro; frequentemente forma-se sobre rios e lagos em noites frias.
+  weather.monsoon:
+    label: monção
+    summary: Inversão estacional dos ventos que traz uma época intensiva de chuva.
+    info: O monção é um fenômeno climático causado pela inversão sazonal dos ventos entre os oceanos e a terra firme. O monção indiano-paquistanês traz da ordem de 70% até 90% das chuvas anuais no período que vai de junho a setembro. Cerca de 700 milhões de pessoas dependem desse evento para suas atividades agrícolas.
+  weather.muggy:
+    label: calor úmido
+    summary: Ar quente e muito úmido causam sensação desconfortável semelhante à sufocamento.
+    info: Calor úmido ocorre quando há uma combinação de alta temperatura e elevada umidade relativa do ar. A grande quantidade de humidade impede que o suor evapore facilmente, dificultando assim a capacidade natural do corpo para se resfriar.
+  weather.overcast:
+    label: Nublado
+    summary: O céu está completamente preenchido por nuvens cinzentas sem visibilidade direta ao Sol.
+    info: |-
+      Cobertura de nuvens ocorre com 7/8 ou 8/8 de coberturas nas nuvens
+      A luz é difusa e não forma sombras.
+      Na depressão sazonal relacionada à falta de sol (DSF), o déficit solar desempenha um papel fundamental na condição clínica do paciente.
+  weather.partly_cloudy:
+    label: meio ensolarado
+    summary: Coberto parcialmente por nuvens; alternância entre sol e sombra.
+    info: Meio ensolarado é uma situação climática com de 3 até 5 oitavos da cobertura do céu em nuvens. É um dos tipos mais prazerosos para atividades ao ar livre e contém cumulos que aparecem principalmente nas partes quentes do dia.
   weather.rainbow:
     label: arco-íris
     summary: Arco colorido no céu após a chuva quando o sol brilha.
@@ -18,6 +148,25 @@ cards:
     label: chuva
     summary: Gotas de água caem como chuva dos nuvens.
     info: A chuva forma-se pela condensação do vapor d'água nas nuvens. É essencial para encher rios, lagos e reservas de água potável; uma chuva média cai com velocidade de 9 m/s.
+  weather.sandstorm:
+    label: tempestade de areia
+    summary: Barreira feita por partículas finas movidas pelo vento nas regiões desérticas.
+    info: Uma tempestade de poeira ocorre quando um vento forte levanta uma quantidade enorme de pó e areia no ar. O habú é o tipo específico dessa tempestade nos sertões do Saara e da Península Árabe; pode enterrar vilas inteiras ou causar problemas pulmonares em seres humanos.
+  weather.shower:
+    label: chuva torrencial
+    summary: Chuva forte e breve proveniente da névoa acumulo-nímbo.
+    info: A chuva torrencial é uma precipitação curta e intensa de nuvens convectivas como cúmulos ou nimbo-cúmus. Ela ocorre rapidamente e dura minutos até horas. É típica do verão quando o aquecimento solar causa convecções que formam os núcleos das tempestades à tarde.
+  weather.sleet:
+    label: chuva gelada
+    summary: Mistura entre chuva e neve
+    info: |-
+      Chuva gelada ocorre quando flocos de névoa passam por uma camada quente do ar e derretendo parcialmente
+      Ela forma um filme fino sobre superfícies com gelo,
+      é perigosa para o trânsito.
+  weather.slush:
+    label: nevada molhada
+    summary: Gelo parcialmente fundido misturado com água na superfície em dias frios.
+    info: Neve derretida forma-se quando a temperatura sobe ligeiramente acima do ponto de congelamento e o gelo começa a derreter. É muito escorregadia e perigosa tanto para pedestres quanto para condutores. Nas estradas causa hidroplanagem e reduz a tração dos pneus.
   weather.snowy:
     label: neve
     summary: Gotas de água no céu congelam e caem como flocos brancos.
@@ -30,6 +179,34 @@ cards:
     label: ensolarado
     summary: Céu claro com sol brilhante, sem nuvens.
     info: O tempo ensolarado ocorre quando não há nuvens bloqueando os raios do Sol. O Sol fornece luz e calor essenciais para a vida na Terra.
+  weather.sunrise:
+    label: amanhecer
+    summary: O amanhecer marca quando o sol surge acima do horizonte para iniciar um novo dia.
+    info: Amanhecer é o momento astronômico em que o disco solar ultrapassa o horizonte. Sua coloração (laranja ou rosa) ocorre devido ao espalhamento da luz por Rayleigh. Nas regiões polares esse fenômeno acontece apenas durante uma temporada específica chamada dia e noite polar.
+  weather.sunset:
+    label: Pôr do Sol
+    summary: É o instante final do dia onde observamos o astro rei sumir atrás das montanhas ou mar.
+    info: O pôr do oceano é um momento diário em que o sol desaparece abaixo da linha de horizonte. A paleta colorida (laranja, vermelha e roxa) ocorre por causa da dispersão da luz solar no ar. Os mais belos pores-do-sol acontecem após erupções vulcanológicas quando partículas suspensas amplificam esses tons.
+  weather.thunderstorm:
+    label: tempestade
+    summary: Fenômeno meteorológico intenso caracterizado pelo uso simultâneo de trovão, chuva forte e vento.
+    info: Tempestades ocorrem em cumulonimbos, nuvens imensas que atingem mais de 10 km de altura no céu. O raio é uma descarga eletrostática causada pela diferença potencial entre partes da tempestade ou com o solo – um relâmpago aquece rapidamente os arredores até cerca de 30 mil graus Celsius num instante muito curto. A trovoa resulta do som produzido quando esse ar quente se expande repentinamente.
+  weather.tornado:
+    label: tornado
+    summary: Coluna giratória arruinadora estendendo-se desde nuvem até terra.
+    info: Um tornado é um tubo de ar que gira rapidamente formado por uma tempestade e toca o solo terrestre. A velocidade do vento pode ultrapassar os quinhentos quilômetros por hora. Ocorrem com mais frequência na 'Trilha dos Tornados' nos Estados Unidos (como Kansas, Oklahoma e Texas). Na República Checa também ocorrem tornados mas são raros; no verão de 2021 atingiu forte intensidade parte da região sul da Moldávia.
+  weather.typhoon:
+    label: typhoon
+    summary: Ciclone tropical no pacífico nordeste com vento acima dos 120km/h.
+    info: Um typhoon é o nome dado para um furacão nas Filipinas, China e Japão região ao redor delas. As Filipinas são atingidas em média por cerca de 20 tempestades anualmente. O Typhoon Nina causou uma enchente na China que resultou mais do que 229 mil mortos.
+  weather.waterspout:
+    label: funil
+    summary: Redemoinho que liga o mar ao céu.
+    info: Um funil de água é um redemoinho formado sobre uma superfície d'água e pode surgir tanto durante tempestades quanto em dias ensolarados com nuvens cumuliformes. Pode sugar pequenos animais ou até mesmo pessoas para dentro do ar quente giratório.
+  weather.whiteout:
+    label: '''Branco total'''
+    summary: Condição meteorológica polar onde a cobertura白雪 impede qualquer contraste visual.
+    info: O fenômeno de 'white out' ocorre quando uma tempestade de neve e sua refletância faz com que o céu e os terrenos fundam-se em um único campo branco contínuo; isso resulta na completa perda da visibilidade e pode causar desorientação grave.
   weather.windy:
     label: ventoso
     summary: Movimento forte de ar que curva árvores e carrega folhas.

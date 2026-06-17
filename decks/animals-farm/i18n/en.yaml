@@ -2,6 +2,30 @@ lang: en
 pivot: false
 title: Livestock Animals
 cards:
+  farm.alpaca:
+    label: llama
+    summary: A smaller relative of the vicuna raised for its soft fleece.
+    info: The llama is a domesticated small Camelidae native to high-altitude regions of the Andes Mountains. Its fiber produces some of the finest natural yarns globally—warm, allergy-friendly, even softer than cashmere—and comes primarily through two breeds known by their distinct textures called huacayas with curly hair versus suris which have silky coats instead.
+  farm.barn_cat:
+    label: barn cat
+    summary: A domestic cat raised at an agricultural site for rodent hunting.
+    info: The barn cat is a housecat living within farming environments where it preys upon mice and rats. It protects stored feed and grain supplies against vermin damage. Unlike indoor cats that receive more human interaction during upbringing processes; these felines often have limited exposure towards people due primarily because their primary role revolves around pest management tasks rather than companionship purposes.
+  farm.beehive:
+    label: beehive
+    summary: Wooden structure serving as an artificial home for managed honey bees.
+    info: A beehive is an artificial habitat used to house colonies of domesticated honey bees (Apis mellifera); it replaces tree hollows where wild bees live. A typical colony consists of between 50,000 and 80,000 individual bees that produce approximately 20–30 kilograms of honey annually. Bees play essential roles as pollinators—about one-third of global food production depends on their activity.
+  farm.boar:
+    label: Boar
+    summary: Wild or domesticated male hog.
+    info: A boar is an uncastrated male of either domestic pigs or wild hogs ( Sus scrofa ). On farms they're bred for reproduction purposes with their semen used to artificially fertilize sows during breeding programs . Wild males have large tusks capable aggressive defense mechanisms while being considered premium game meat within culinary contexts.
+  farm.calf:
+    label: calf
+    summary: Young of a dairy cow under one year old.
+    info: A calf is an offspring of cattle born until weaning or up to about one year of age. A newborn calf quickly stands on its feet due to strong maternal instinct. Calves raised for milk production often get separated early from their mothers. Veal meat comes highly regarded delicacy across many European cuisines.
+  farm.carp:
+    label: carp
+    summary: Large freshwater fish traditionally eaten at Christmas time.
+    info: Common carp is the largest species raised in Central European pond systems like those around Trebon near Prague where it was first domesticated during medieval times when aquaculture began to develop there over eight hundred years ago.
   farm.chicken:
     label: chicken
     summary: A farmed bird that lays eggs.
@@ -10,6 +34,10 @@ cards:
     label: cow
     summary: Large farm animal that produces milk.
     info: The domestic cow is raised for its milk and meat. It is one of the key sources of food worldwide; a milking cow can produce up to 20–30 liters of milk per day.
+  farm.deer:
+    label: farm-reared elk
+    summary: A farmed sika deer or moose raised on farms primarily for game meat.
+    info: In the Czech Republic, elks or deers are bred specifically to produce high-quality wild meat known as 'venison'. Sika deer tend to be smaller than European forest stags but have distinctive palmate antlers that they shed annually before regrowing them again each year; these annual cycles allow farmers time enough between harvests so new growth can occur properly within controlled environments where health standards remain strictly maintained throughout production processes.
   farm.donkey:
     label: donkey
     summary: Eared work animal with reliable gait.
@@ -18,19 +46,159 @@ cards:
     label: duck
     summary: Water bird with a flat beak, raised on farms.
     info: The domestic duck is poultry kept for meat and eggs. It swims well thanks to webbed feet between its toes and makes characteristic quacking sounds.
+  farm.emu:
+    label: farmed emus
+    summary: Farmed emus raised for their oil, meat, and hide primarily in Australia.
+    info: In Australia, emus are bred on farms to produce meat, fat-based oils used in cosmetics, and hides. Emu oil has anti-inflammatory properties and is utilized both traditionally and medically today. The practice of raising emus extends beyond Australia with growing interest also seen across North America and Europe.
+  farm.farm_shrimp:
+    label: farmed shrimp
+    summary: Marine shrimp intensively cultivated in coastal farms.
+    info: The whiteleg shrimp is globally the most widely cultured species of prawn. Farms can be found especially in Southeast Asia and Latin America. Intensive shrimp farming remains controversial due to its impact on mangrove forests. Shrimps rank second among popular seafood worldwide after tuna.
+  farm.foal:
+    label: foal
+    summary: A young horse under one year old that stands on its feet shortly after birth.
+    info: Foals live their first lives during which they get up to walk around just several hours later while starting with milk consumption at once too long legs compared body size but these shorten when growing older Foals tend playful curious nature training begins only between two three years
+  farm.freshwater_crayfish:
+    label: European crayfish
+    summary: Freshwater crustacean bred on farms as an exquisite delicacy.
+    info: The European crayfish was once abundant in Bohemia but nearly disappeared due to disease outbreaks like 'crayfish plague' and water pollution. Today it is raised exclusively at specialized farms because its survival depends entirely upon clean streams with high-quality water conditions. In the nineteenth century there existed significant trade exporting these prized shellfish across borders such as those between modern-day Czech Republic towards France & Germany.
+  farm.garden_snail:
+    label: garden slug
+    summary: Large terrestrial mollusk eaten in French cuisine under its common name 'escargot'.
+    info: The garden slug is Europe's largest land gastropod. Highly valued in French gastronomy where it appears on menus simply called ‘escargots’. During winter months they retreat underground sealing their shells with membranes for hibernation; farming these creatures known technically heliciculture occurs mainly across regions like France & Italy.
   farm.goat:
     label: goat
     summary: Hoofed livestock giving tasty milk.
     info: The domestic goat is raised for its milk, meat, and wool. It is adaptable and can survive on diverse vegetation including arid areas.
+  farm.goat_dairy:
+    label: milking dairy goats
+    summary: Goats raised for their nutritious and easily digestible milk used to make cheeses like Chevrotignole.
+    info: Domesticated over ten thousand years ago, domestic goats remain among widely farmed livestock animals due largely because they produce nutrient-rich milks that is easier digested than cow's especially suitable people lactose intolerance. Their unique flavor profiles allow production famous cheese varieties such as Cheddar-type soft white rind cheeses called 'Chevrés', Greek brined curds known collectively under name 'Fetta' along with semi-hard salted pasteurized fresh pressed whey-based products commonly referred simply by term 'Halloumis'. These hardy adaptable creatures thrive even rocky mountainous terrains where other species struggle survive.
+  farm.goose:
+    label: Domestic Goose
+    summary: Large domestic fowl bird raised for its flesh, feathers, and egg-laying.
+    info: The Domestic Goose originates from wild geese over 3,000 years ago. It was among the first animals to be tamed; hens guarded Rome's Capitoline Hill. They are valued not only for their edible liver (fatty鹅肝), but also for feather quills used traditionally in writing.
+  farm.guinea_fowl:
+    label: Helmeted Guinea Fowl
+    summary: An African bird raised for meat and to guard against snakes.
+    info: The Helmeted Guinea Fowl originates from Africa where it lives wild in savannas. It is valued by farmers because its loud clucking warns them about snakes, predators, and unfamiliar people. The bird has distinctive grey feathers with white spots and an unfeathered head that's red-blue.
+  farm.guinea_pig_farm:
+    label: domestic guinea pig
+    summary: Guinea pigs raised for meat in Latin America or kept as pets.
+    info: The domestic guinea pig originates from the Andes region where it was first tamed over 3,000 years ago to serve as an important protein-rich resource during ancient times under indigenous civilizations like those led by Incas before European contact occurred later on through Spanish conquests which brought them across oceans eventually leading their global distribution today including being popular household pet animals among children especially within Europe along with North American countries while still remaining traditional delicacies consumed regularly throughout parts such as Peruvian cuisine known locally called 'cuy' when prepared properly using specific cooking methods passed down generations.
+  farm.highland_cattle:
+    label: Scottish Highland Cattle
+    summary: Shaggy red-coated highland cows with large horns.
+    info: The Scottish Highland is an old cattle breed raised on rugged uplands across wet habitats in Scotland. Its characteristic shaggy reddish coat protects it against moisture and cold weather conditions effectively while providing insulation during harsh winters when temperatures drop significantly below freezing point due to snowfall accumulation over several weeks.
   farm.horse:
     label: horse
     summary: Strong domesticated animal used for riding and work.
     info: The domestic horse has been essential for transportation, agriculture, and warfare for thousands of years. Today it is also bred for sports and recreation.
+  farm.lamb:
+    label: lamb
+    summary: Young sheep under one year old; also symbolic of springtime innocence.
+    info: A lamb is young wool-bearing sheep up to about twelve months old that begins grazing shortly after birth with natural fleece covering it at all times during early development stages.
+  farm.llama:
+    label: llama
+    summary: A South American camel-like mammal raised for its fleece and used as pack animals.
+    info: The llama is an animal native to South America that was first farmed by indigenous peoples over five thousand years ago. It served primarily as livestock across various regions due to their ability carry up to thirty percent of body weight efficiently on long journeys through challenging terrain like mountainous areas where wheeled vehicles cannot travel easily.
+  farm.mule:
+    label: mule
+    summary: A sterile crossbreed between horses and donkeys with exceptional endurance and strength.
+    info: The hinny is a hybrid offspring of a mare (female horse) and a jackass (male donkey), while its counterpart—the traditional mule—comes from breeding stallions to jennets. It's infertile but highly durable, strong, and resilient. The animal has excellent terrain orientation skills and tends to be more cautious than purebred horses—they panic less easily.
+  farm.mussel:
+    label: mussel
+    summary: Edible marine mussel cultivated on lines in seawater.
+    info: The edible blue mussel is commonly farmed along Europe's Atlantic coastlines using long hanging nets called rafts that float with tides up to three meters deep where they filter feed by straining plankton through their gills while growing rapidly over several months before harvest.
+  farm.ostrich:
+    label: farmer ostrich
+    summary: Ostrich raised on farms for its meat, feathers, and skin.
+    info: The ostrich is the fastest bipedal animal and is bred commercially for meat, hide, and plumes. Ostrich meat resembles beef but has lower fat and cholesterol levels. Its high-quality hides are valued by luxury shoemakers.
+  farm.ox:
+    label: ox
+    summary: Castrated bull historically most important draft animal for agriculture.
+    info: An ox is a castrated male domestic cattle bred primarily for work purposes. For thousands of years it was fundamental to farming across much of the world due its strength and docile nature plowing more land than horses did during early agricultural periods.
+  farm.oyster:
+    label: farmed oyster
+    summary: A sea mussel cultivated using lines and grids in coastal water.
+    info: The Pacific oyster is raised along coastlines by means of nets or enclosures suspended underwater for several years until it matures fully within three to five years duration period . It filters seawater contributing positively towards cleaning marine ecosystems through its natural filtration process which removes impurities effectively over time.
+  farm.peacock:
+    label: peacock
+    summary: Male peafowl bred for ornamentation at country houses.
+    info: The blue peacock originates from India and was domesticated thousands of years ago primarily due to its ornamental value. The male spreads over 150 decorated feathers forming an impressive fan display during courtship rituals towards females. Its call is very loud and piercing.
+  farm.pheasant:
+    label: farmed pheasant
+    summary: Pheasant raised on farms and released for hunting.
+    info: The common pheasant is farmed in the Czech Republic and regularly released into nature for game purposes. It originates from Asia but was brought to Europe by Romans. The male has striking plumage with long tail feathers while females have inconspicuous brown coloring. Pheasant meat is valued wildlife known for its delicate flavor.
   farm.pig:
     label: pig
     summary: Pink farm animal with a cartilaginous snout.
     info: The domestic pig is an intelligent livestock animal raised for meat. It is omnivorous and capable of remembering complex tasks.
+  farm.pigeon_farm:
+    label: common domesticated dove
+    summary: A common domesticated bird bred primarily for its meat (known as squab), but also used by fanciers to race.
+    info: The common domesticated dove is derived directly from rock doves through selective breeding that has produced hundreds of distinct breeds over time. Squab—meat obtained specifically from young birds—is considered an esteemed delicacy across many cultures around the world today.
+  farm.piglet:
+    label: piglet
+    summary: Young of pigs typically pink-skinned and playful.
+    info: Piglets are baby pigs during their first weeks of life. Newborn piglets are very small but grow quickly. Sows usually give birth to an average of ten to twelve piglets per litter.
+  farm.pony:
+    label: pony
+    summary: A small full-blooded horse breed popular for children's riding.
+    info: The pony is a small horse breed that does not exceed the height of 14.2 hands (approximately 147 cm). The smallest type comes from Scotland’s Shetland Islands; these hardy animals thrive under harsh conditions due to their sturdy build.
+  farm.quail:
+    label: Japanese Quail
+    summary: Small bird domestically raised for its eggs and meat.
+    info: The Japanese quail is an intensively bred species kept primarily for egg production and meat. Hens lay almost daily, with their eggs considered delicacies across many cuisines—they begin laying at just six weeks old due to rapid maturation rates.
+  farm.rabbit:
+    label: rabbit
+    summary: A domestic rabbit raised for meat, fur, or as a pet.
+    info: The domestic rabbit was first bred during medieval times from wild European rabbits. It has more than fifty recognized breeds that differ in size, color, and type of coat. A female can give birth to four to twelve kittens per litter multiple times each year.
+  farm.ram:
+    label: ram
+    summary: Adult male domestic sheep with prominent curved horn.
+    info: A ram is an adult male domesticated sheep that has distinctive curled horns which females do not have—or only very small ones if any at all. During mating season—typically autumn—the males compete by butting heads directly against each other using their horns for dominance purposes within social hierarchy among them.
+  farm.rooster:
+    label: rooster
+    summary: Male domestic hen whose crowing announces dawn.
+    info: A rooster is a male domestic fowl identifiable by its colorful feathers, wattle, and saddle plumage on the back. Crowing serves territorial behavior purposes and can occur at any time—not just sunrise—though it's commonly associated with morning calls to signal daylight’s arrival.
+  farm.salmon:
+    label: salmon
+    summary: Large sea fish migrating to rivers to spawn; commonly raised on farms.
+    info: Atlantic salmon is an anadromous species that grows at sea but returns to its native river systems to reproduce. The ability to locate their birthplace involves navigation using Earth's magnetic field combined with olfactory cues. Salmon farming in Norway and Scotland represents one of aquaculture’s largest industries due high demand driven by nutritional benefits like rich sources Omega-3 fatty acids beneficial health.
   farm.sheep:
     label: sheep
     summary: Fuzzy domesticated animal providing wool and milk.
     info: Domestic sheep is kept for its wool, milk, and meat. It lives in flocks and is one of the first animals to have been domesticated in history.
+  farm.sheepdog:
+    label: Shepherd Dog
+    summary: A specially trained dog for managing and protecting flocks.
+    info: The Border Collie is the most popular herding breed kept primarily because it can guide livestock using eye contact and silent commands. It belongs among some of the smartest canine breeds; working abilities must be inherited through breeding but also developed with training starting at puppyhood stages.
+  farm.silkworm:
+    label: silkworm
+    summary: The silkworm produces natural silk.
+    info: Silk moths were domesticated over five thousand years ago by Chinese farmers to produce fine fabric known today simply as 'silk'. The cocoon made up entirely out of single strands measuring more than nine hundred meters long is used commercially worldwide; historically China guarded these secrets closely due its immense value.
+  farm.sow:
+    label: sow
+    summary: Adult female pig, mother of piglets.
+    info: A sow is an adult female domesticated pig that can give birth twice per year with litters averaging between ten to fourteen piglets. Intensive farming practices involving sows have become controversial due to their confinement within small pens typical for industrial agriculture settings; these conditions contrast sharply against natural ones where intelligent pigs would care for offspring over twelve weeks.
+  farm.tilapia:
+    label: tilapia
+    summary: A tropical freshwater fish extensively farmed worldwide.
+    info: Nile tilapia is among the most widespread farmed fishes globally; millions of tons are produced annually. It originates from the Nile River and African lakes but today it's raised on all continents due to its hardiness, rapid growth rate, low feed requirements.
+  farm.trout:
+    label: trout
+    summary: Salmonid fish raised on aquaculture farms but also found wild.
+    info: Rainbow trout originates from North America and was introduced to Europe primarily for farming purposes. Brown trout is an indigenous European species that inhabits clean fast-flowing waters. Both types are highly valued both recreationally among anglers and culinarily across cuisines.
+  farm.turkey:
+    label: turkey
+    summary: Large domestic bird bred primarily for its meat and symbolic of American Thanksgiving.
+    info: The wild turkey originates from Mexico, where it was first domesticated over two thousand years ago by the Aztecs. Males have distinctive wattles on their necks and can fan out tail feathers like an ornamental plume. In America, roasted turkey is traditional during Thanksgiving Day celebrations while globally turkeys rank second only after chickens among farmed poultry species.
+  farm.water_buffalo:
+    label: domestic water buffalo
+    summary: Large Asian bovine basic draft animal on rice fields.
+    info: The domestic water buffalo is an agricultural form bred by humans that serves as fundamental livestock across Asia. For thousands of years it has plowed paddy fields and transported goods. Its milk is richer than cow's milk and used to produce Mozzarella di Bufala cheese.
+  farm.yak:
+    label: Yak
+    summary: Large shaggy animal native to Tibet's highlands that provides milk, meat, wool, and draft power.
+    info: The domestic yak is a breed derived from wild yaks living on the Tibetan Plateau at altitudes between 3 000–5 500 meters. It forms the backbone of the local economy by providing dairy products, beef, warm fine wool for clothing, and strength for transport tasks like plowing fields.

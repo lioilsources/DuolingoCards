@@ -426,6 +426,591 @@
         "vi": "Kiến là loài côn trùng tạo ra các đàn lớn với sự phân chia công việc rõ ràng.",
         "zh-CN": "蚂蚁是一种形成大型群体并有明确分工的昆虫。它们以高度组织化的社会结构而闻名，通常包括工蚁、兵蚁和繁殖蚁等不同角色。"
       }
+    },
+    {
+      "key": "insect.beetle",
+      "image": "insect.beetle.png",
+      "label": {
+        "cs": "brouk"
+      },
+      "summary": {
+        "cs": "Brouci tvoří největší řád hmyzu s více než 400 000 popsanými druhy."
+      },
+      "info": {
+        "cs": "Brouk patří do řádu Coleoptera a tvoří přibližně 40 % všech popsaných druhů hmyzu.\nVyznačuje se tvrdými kryty křídel (elytra), pod nimiž jsou ukryta pravá létací křídla.\nJelení brouk je největší evropský brouk; samec má mohutné parohovité kusadla.\nŽijí téměř ve všech prostředích od tropů po arktické oblasti.\n"
+      }
+    },
+    {
+      "key": "insect.grasshopper",
+      "image": "insect.grasshopper.png",
+      "label": {
+        "cs": "kobylka"
+      },
+      "summary": {
+        "cs": "Skákavý hmyz s dlouhými zadními nohami a chirpingem."
+      },
+      "info": {
+        "cs": "Kobylka je hmyz z řádu Orthoptera se silnými zadními nohami umožňujícími skoky až dvacetinásobku délky těla.\nSamci vydávají charakteristický zvuk (stridulaci) třením stehen o křídla.\nŽivý se rostlinami; ve velkých hejnech může napáchat škody na úrodě.\n"
+      }
+    },
+    {
+      "key": "insect.cricket",
+      "image": "insect.cricket.png",
+      "label": {
+        "cs": "cvrček"
+      },
+      "summary": {
+        "cs": "Noční hmyz proslulý stridulačním cvrlikáním samců."
+      },
+      "info": {
+        "cs": "Cvrček polní je noční hmyz z řádu Orthoptera.\nSamci cvrlikají třením křídel o sebe, čímž lákají samice a vymezují teritorium.\nV Asii jsou cvrčci tradičně chováni jako domácí mazlíčci pro svůj zpěv.\nBývají také symbolem domácí pohody a štěstí v mnoha kulturách.\n"
+      }
+    },
+    {
+      "key": "insect.mosquito",
+      "image": "insect.mosquito.png",
+      "label": {
+        "cs": "komár"
+      },
+      "summary": {
+        "cs": "Dvoukřídlý hmyz; samice saje krev a může přenášet nemoci."
+      },
+      "info": {
+        "cs": "Komár je dvoukřídlý hmyz z čeledi Culicidae.\nSamice sají krev živočichů pro získání bílkovin k vývoji vajíček; samci se živí nektarem.\nKomáři přenášejí nebezpečné nemoci jako malárii, dengue nebo ziku.\nNa světě existuje přes 3 500 druhů komárů.\n"
+      }
+    },
+    {
+      "key": "insect.fly",
+      "image": "insect.fly.png",
+      "label": {
+        "cs": "moucha"
+      },
+      "summary": {
+        "cs": "Běžný dvoukřídlý hmyz schopný přenášet bakterie."
+      },
+      "info": {
+        "cs": "Moucha domácí je nejběžnější dvoukřídlý hmyz v lidských obydlích.\nKompozitní oči jí umožňují vidět téměř 360 stupňů kolem.\nPřenáší bakterie, protože přistává na odpadcích i potravinách.\nMá jen jedno pár funkčních křídel; druhý pár (kyvadélka) slouží k udržování rovnováhy za letu.\n"
+      }
+    },
+    {
+      "key": "insect.moth",
+      "image": "insect.moth.png",
+      "label": {
+        "cs": "můra"
+      },
+      "summary": {
+        "cs": "Noční příbuzný motýla; létá za světlem a má pernatá tykadla."
+      },
+      "info": {
+        "cs": "Můry jsou noční motýli z řádu Lepidoptera, kteří na rozdíl od denních motýlů mají při odpočinku křídla složená do stran.\nMnohé druhy jsou přitahovány umělým světlem.\nHousenkám hedvábníka vděčíme za přírodní hedvábí.\nLunatická můra (luna moth) je jedna z nejkrásnějších můr světa.\n"
+      }
+    },
+    {
+      "key": "insect.caterpillar",
+      "image": "insect.caterpillar.png",
+      "label": {
+        "cs": "housenka"
+      },
+      "summary": {
+        "cs": "Larva motýla nebo můry; žere listy a připravuje se na zakuklení."
+      },
+      "info": {
+        "cs": "Housenka je larva motýla nebo můry a tráví život především žraním listů, aby nashromáždila energii pro proměnu.\nNěkteré housenky mají výrazné barvy varující predátory před jedovatostí.\nPři zakuklení vytvoří kuklu (chrysalidu), v níž proběhne kompletní přeměna (metamorfóza) na dospělce.\n"
+      }
+    },
+    {
+      "key": "insect.praying_mantis",
+      "image": "insect.praying_mantis.png",
+      "label": {
+        "cs": "kudlanka"
+      },
+      "summary": {
+        "cs": "Predátorský hmyz s modlitebním postojem a bleskurychlým útokem."
+      },
+      "info": {
+        "cs": "Kudlanka nábožná je dravý hmyz ze skupiny Mantodea.\nSvůj název dostala díky postoji, kdy drží přední nohy složené jako při modlitbě.\nJe to přeborník v lovu: blesky udeří a uchopí kořist za zlomek vteřiny.\nSamice někdy sežere samce po páření, přestože se to neděje vždy.\n"
+      }
+    },
+    {
+      "key": "insect.stick_insect",
+      "image": "insect.stick_insect.png",
+      "label": {
+        "cs": "strašilka"
+      },
+      "summary": {
+        "cs": "Hmyz dokonale napodobující větev nebo list."
+      },
+      "info": {
+        "cs": "Strašilka je hmyz ze skupiny Phasmatodea a mistr mimikry; její tělo dokonale napodobuje větvičky nebo listy.\nPři ohrožení zůstane zcela bez pohybu.\nNěkteré druhy se rozmnožují partenogeneticky, tedy bez samce.\nJsou oblíbenými exotickými domácími mazlíčky pro svůj nenáročný chov.\n"
+      }
+    },
+    {
+      "key": "insect.firefly",
+      "image": "insect.firefly.png",
+      "label": {
+        "cs": "světluška"
+      },
+      "summary": {
+        "cs": "Brouk produkující bioluminescenční světlo k přilákání partnera."
+      },
+      "info": {
+        "cs": "Světluška je brouk z čeledi Lampyridae schopný produkovat studené světlo (bioluminiscenci) v zadečku.\nSamci i samice světélkují různými vzory, aby se navzájem rozpoznali a přilákali.\nŘídí chemickou reakcí luciferinu s luciferázou.\nSvětlušky jsou indikátorem čistoty životního prostředí.\n"
+      }
+    },
+    {
+      "key": "insect.wasp",
+      "image": "insect.wasp.png",
+      "label": {
+        "cs": "vosa"
+      },
+      "summary": {
+        "cs": "Žluté a černé žahadlové hmyz stavějící papírová hnízda."
+      },
+      "info": {
+        "cs": "Vosa obecná je žahadlový hmyz ze skupiny Vespula s typickým žlutočerným varováním.\nStaví papírová hnízda z přežvýkané dřevní hmoty.\nNa rozdíl od včely může vosa bodnout vícekrát.\nJe užitečná jako přirozený regulátor hmyzích škůdců.\n"
+      }
+    },
+    {
+      "key": "insect.cockroach",
+      "image": "insect.cockroach.png",
+      "label": {
+        "cs": "šváb"
+      },
+      "summary": {
+        "cs": "Rychlý noční všežravý hmyz, velmi odolný a přizpůsobivý."
+      },
+      "info": {
+        "cs": "Šváb je jeden z nejodolnějších hmyzů na světě; přežije záření i podmínky, které by zabily jiné živočichy.\nExistuje přes 4 500 druhů, ale pouze asi 30 žije v blízkosti lidí.\nJe to starý hmyz – švábi existují déle než 300 milionů let, přežili dinosaury.\nJe rychlý; dokáže utíkat rychlostí přes 5 km/h.\n"
+      }
+    },
+    {
+      "key": "insect.spider",
+      "image": "insect.spider.png",
+      "label": {
+        "cs": "pavouk"
+      },
+      "summary": {
+        "cs": "Pavoukovci s osmi nohami, stavějí sítě k lovení hmyzu."
+      },
+      "info": {
+        "cs": "Pavouk je pavoukovci (nikoli hmyz) z řádu Araneae s osmi nohami a dvěma částmi těla.\nMá schopnost produkovat hedvábí, z nějž plete sítě k lovu nebo k obalení kokonů s vajíčky.\nNa světě žije přes 48 000 druhů pavouků.\nVšechny druhy produkují jed, ale naprostá většina je pro člověka neškodná.\n"
+      }
+    },
+    {
+      "key": "insect.scorpion",
+      "image": "insect.scorpion.png",
+      "label": {
+        "cs": "štír"
+      },
+      "summary": {
+        "cs": "Jedovatý pavoukovci s klepety a zahnutým jedovým ocasem."
+      },
+      "info": {
+        "cs": "Štír je pavoukovci (nikoli hmyz) s typickými klepety a zahnutým ocasem zakončeným jedovým žihadlem.\nJe starý živočich; nejstarší fosilní štíři jsou staří přes 430 milionů let.\nVe tmě fluoreskují pod UV světlem.\nZ přibližně 2 500 druhů je pro člověka nebezpečných jen asi 25.\n"
+      }
+    },
+    {
+      "key": "insect.centipede",
+      "image": "insect.centipede.png",
+      "label": {
+        "cs": "stonožka"
+      },
+      "summary": {
+        "cs": "Mnohonožkovec s jedním párem noh na každém článku těla."
+      },
+      "info": {
+        "cs": "Stonožka patří do třídy Chilopoda a má jeden pár noh na každém článku těla (ne 100 noh, jak napovídá název).\nJe to rychlý predátor, který loví hmyz, červy a drobné obratlovce.\nPrvní pár noh je přeměněn v jedové drápy k paralyzování kořisti.\nNěkteré tropické druhy dorůstají délky přes 30 cm.\n"
+      }
+    },
+    {
+      "key": "insect.flea",
+      "image": "insect.flea.png",
+      "label": {
+        "cs": "blecha"
+      },
+      "summary": {
+        "cs": "Drobný skákavý parazit sající krev savců a ptáků."
+      },
+      "info": {
+        "cs": "Blecha je bezkřídlý hmyz z řádu Siphonaptera specializovaný na parazitický způsob života.\nJeho silné zadní nohy umožňují skok přes 150násobek délky těla.\nSaje krev savců a ptáků a může přenášet nemoci; historicky přenášely blechy mor.\nBlešince jsou vynikajícími akrobaty světa hmyzu.\n"
+      }
+    },
+    {
+      "key": "insect.termite",
+      "image": "insect.termite.png",
+      "label": {
+        "cs": "termit"
+      },
+      "summary": {
+        "cs": "Sociální hmyz stavějící obrovské mraveniště z hlíny."
+      },
+      "info": {
+        "cs": "Termit je sociální hmyz ze skupiny Isoptera, vzdáleně příbuzný švábům.\nŽijí v koloniích s králem, královnou, vojáky a dělníky.\nStaví složité mraveniště, v tropech až 9 metrů vysoká, se systémem větrání.\nJako primární rozkladači dřeva hrají klíčovou roli v tropických ekosystémech.\n"
+      }
+    },
+    {
+      "key": "insect.bumblebee",
+      "image": "insect.bumblebee.png",
+      "label": {
+        "cs": "čmelák"
+      },
+      "summary": {
+        "cs": "Velká chlupatá včela s hlubokým bzukotem, důležitý opylovač."
+      },
+      "info": {
+        "cs": "Čmelák je velký chlupatý hmyz z rodu Bombus, příbuzný medonosné včele.\nJe důležitým opylovačem, zvláště v chladnějším klimatu, kde včely méně létají.\nDokáže se zahřívat třesem letových svalů, takže létá i za chladného počasí.\nČmeláci jsou ve srovnání s včelami mírnější a bodají jen při přímém ohrožení.\n"
+      }
+    },
+    {
+      "key": "insect.hornet",
+      "image": "insect.hornet.png",
+      "label": {
+        "cs": "sršeň"
+      },
+      "summary": {
+        "cs": "Největší evropská vosa se silným žihadlem a hlasitým bzukem."
+      },
+      "info": {
+        "cs": "Sršeň obecná je největší evropská sociální vosa dorůstající délky přes 3,5 cm.\nStaví papírová hnízda v dutinách stromů nebo na střechách.\nŽihadlo je delší než u vos a bodnutí je bolestivější, ale sršeň útočí jen při přímém ohrožení.\nJe důležitým predátorem jiného hmyzu.\n"
+      }
+    },
+    {
+      "key": "insect.cicada",
+      "image": "insect.cicada.png",
+      "label": {
+        "cs": "cikáda"
+      },
+      "summary": {
+        "cs": "Hmyz proslulý hlasitým stridulačním zpěvem za horkých dní."
+      },
+      "info": {
+        "cs": "Cikáda je hmyz z nadčeledi Cicadoidea proslulý jedním z nejhlasitějších zvuků ze všech hmyzů.\nSamci produkují zvuk speciálními blankami (tymbaly) v zadečku, aby přilákali samice.\nNěkteré druhy v USA mají sedmnáctileté nebo třináctileté vývojové cykly.\nMlaďata (nymfy) žijí roky pod zemí a živí se kořeny.\n"
+      }
+    },
+    {
+      "key": "insect.locust",
+      "image": "insect.locust.png",
+      "label": {
+        "cs": "kobylka stěhovavá"
+      },
+      "summary": {
+        "cs": "Stěhovavá kobylka tvořící devastující hejno milionů jedinců."
+      },
+      "info": {
+        "cs": "Kobylka stěhovavá (sarančí) je druh kobylky, který za určitých podmínek tvoří obří migrující hejna.\nHejno může čítat miliardy jedinců a zničit celou úrodu na tisících hektarech za den.\nV afrických a asijských zemích jsou saranče historicky jednou z největších zemědělských katastrof.\nV Bibli jsou jednou z deseti egyptských ran.\n"
+      }
+    },
+    {
+      "key": "insect.aphid",
+      "image": "insect.aphid.png",
+      "label": {
+        "cs": "mšice"
+      },
+      "summary": {
+        "cs": "Drobný sající hmyz na lodyhách rostlin; produkuje medovici."
+      },
+      "info": {
+        "cs": "Mšice jsou drobné sající hmyz z nadčeledi Aphidoidea, které se živí šťávou z rostlin.\nProdukují sladkou medovici, o kterou pečují mravenci výměnou za ochranu.\nRozmnožují se extrémně rychle; jedno samici může za rok dát vznik stovkám milionů potomků.\nJsou důležitými škůdci zemědělských plodin.\n"
+      }
+    },
+    {
+      "key": "insect.earwig",
+      "image": "insect.earwig.png",
+      "label": {
+        "cs": "škvor"
+      },
+      "summary": {
+        "cs": "Protáhlý hmyz s kleštěmi na konci zadečku."
+      },
+      "info": {
+        "cs": "Škvor je hmyz z řádu Dermaptera charakteristický kleštěmi (cerci) na konci zadečku, které slouží k obraně i páření.\nNazev pochází z pověry, že leze lidem do uší; to je mýtus.\nSamice škvorů jsou výjimečné v tom, že pečují o vajíčka a mladé larvy, což je u hmyzu vzácné.\nŽijí v trhlinách, pod kameny a v listí.\n"
+      }
+    },
+    {
+      "key": "insect.silverfish",
+      "image": "insect.silverfish.png",
+      "label": {
+        "cs": "rybenka"
+      },
+      "summary": {
+        "cs": "Bezkřídlý rychlý hmyz nalézaný v domácnostech u knih a papíru."
+      },
+      "info": {
+        "cs": "Rybenka je primitivní bezkřídlý hmyz z řádu Zygentoma žijící v domácnostech.\nŽiví se škrobem, papírem, knihařským lepidlem a textilními vlákny.\nJejí jméno pochází ze stříbřitého zbarvení a rybám podobného pohybu.\nJe to jeden z nejstarších hmyzích řádů, žijí bez podstatných změn přes 300 milionů let.\n"
+      }
+    },
+    {
+      "key": "insect.water_strider",
+      "image": "insect.water_strider.png",
+      "label": {
+        "cs": "vodoměrka"
+      },
+      "summary": {
+        "cs": "Hmyz chodící po hladině vody díky povrchovému napětí."
+      },
+      "info": {
+        "cs": "Vodoměrka je hmyz z čeledi Gerridae schopný chodit po hladině díky hydrofobn ím chloupkům na nohách a povrchovému napětí vody.\nLoví utopený hmyz, který detekuje vibracemi hladiny.\nJe rychlý a dokáže klouzat hladinou rychlostí přes 150násobku délky těla za sekundu.\n"
+      }
+    },
+    {
+      "key": "insect.dung_beetle",
+      "image": "insect.dung_beetle.png",
+      "label": {
+        "cs": "vruboun"
+      },
+      "summary": {
+        "cs": "Brouk valící kuličky trusu, posvátný v starém Egyptě."
+      },
+      "info": {
+        "cs": "Vruboun posvátný je brouk z čeledi Scarabaeidae, který tvaruje trus do kuliček a valí je k pohřbení a nakladení vajíček.\nVe starém Egyptě byl symbolem slunce a boha Chepriho.\nJe to jedním z mála živočichů, kteří se orientují pomocí Mléčné dráhy.\nPomáhá recyklovat živiny a provzdušňovat půdu.\n"
+      }
+    },
+    {
+      "key": "insect.stag_beetle",
+      "image": "insect.stag_beetle.png",
+      "label": {
+        "cs": "roháč"
+      },
+      "summary": {
+        "cs": "Největší evropský brouk; samec má parohovitá kusadla."
+      },
+      "info": {
+        "cs": "Roháč obecný je největší evropský brouk dorůstající délky přes 7 cm.\nSamec má obrovská parohovitá kusadla sloužící k soubojům o samice.\nLarva žije až 7 let v tlejícím dřevu dubů a živí se houbami.\nJe kriticky ohrožen mizením starých lesů a mrtvého dřeva.\n"
+      }
+    },
+    {
+      "key": "insect.atlas_moth",
+      "image": "insect.atlas_moth.png",
+      "label": {
+        "cs": "martináč atlasový"
+      },
+      "summary": {
+        "cs": "Jeden z největších můrů světa s křídly zdobenými hadími vzory."
+      },
+      "info": {
+        "cs": "Martináč atlasový je jeden z největších nočních motýlů světa s rozpětím křídel až 30 cm.\nŠpičky jeho křídel jsou zbarveny tak, aby připomínaly hlavy hadů, což odstrašuje predátory.\nDospělci nemají ústa a vůbec se neživí; přežijí jen několik dní jako dospělci.\nPochází z tropických lesů jihovýchodní Asie.\n"
+      }
+    },
+    {
+      "key": "insect.weevil",
+      "image": "insect.weevil.png",
+      "label": {
+        "cs": "nosatec"
+      },
+      "summary": {
+        "cs": "Drobný brouk s charakteristickým protáhlým noscem."
+      },
+      "info": {
+        "cs": "Nosatec je brouk z čeledi Curculionidae, největší čeledi živočichů na světě s přes 60 000 druhy.\nCharakteristický protáhlý nosec (rostrum) slouží k vrtání do semen, plodů a kmenů.\nNěkteré druhy jsou závažnými zemědělskými škůdci, jako bavlníkový nosatec.\nJiné druhy jsou specializovány na jeden druh rostliny.\n"
+      }
+    },
+    {
+      "key": "insect.lacewing",
+      "image": "insect.lacewing.png",
+      "label": {
+        "cs": "zlatoočka"
+      },
+      "summary": {
+        "cs": "Jemný hmyz s průhledně žilkovanými křídly; larvy loví mšice."
+      },
+      "info": {
+        "cs": "Zlatoočka je hmyz z čeledi Chrysopidae s jemnými průhledně žilkovanými křídly a zlatýma očima.\nLarvy jsou dravci a konzumují obrovské množství mšic, čímž jsou přirozenými ochránci rostlin.\nDospělci se živí nektarem a pylem.\nJsou přitahováni světlem a jsou indikátorem zdravého prostředí.\n"
+      }
+    },
+    {
+      "key": "insect.crane_fly",
+      "image": "insect.crane_fly.png",
+      "label": {
+        "cs": "tipulka"
+      },
+      "summary": {
+        "cs": "Velká komárovitá muška s extrémně dlouhýma nohama."
+      },
+      "info": {
+        "cs": "Tipulka je dvoukřídlý hmyz z čeledi Tipulidae vizuálně připomínající obřího komára, ale neštípe a neparazituje.\nJejí extrémně dlouhé nohy se snadno odlamují; to je obranný mechanismus (autotomie).\nDospělci žijí jen několik dní a nepřijímají potravu nebo se živí nektarem.\nLarvy (dratwurm) žijí v půdě a živí se kořeny.\n"
+      }
+    },
+    {
+      "key": "insect.mayfly",
+      "image": "insect.mayfly.png",
+      "label": {
+        "cs": "jepice"
+      },
+      "summary": {
+        "cs": "Hmyz s nejkratším dospělým životem, žijící jen hodiny až dny."
+      },
+      "info": {
+        "cs": "Jepice je hmyz z řádu Ephemeroptera a symbol pomíjivosti; dospělci žijí jen hodiny až dní.\nNemají funkční ústní ústrojí a vůbec se neživí.\nNymfy žijí 1 až 3 roky pod vodou.\nMasové rojení jepic je úchvatné přírodní divadlo; v Maďarsku je jejich hromadné rojení na Dunaji jedinečným fenoménem.\n"
+      }
+    },
+    {
+      "key": "insect.damselfly",
+      "image": "insect.damselfly.png",
+      "label": {
+        "cs": "šídlatka"
+      },
+      "summary": {
+        "cs": "Štíhlý příbuzný vážky; při odpočinku skládá křídla rovnoběžně s tělem."
+      },
+      "info": {
+        "cs": "Šídlatka je hmyz příbuzný vážkám, ale štíhlejší a při odpočinku skládá křídla rovnoběžně s tělem, na rozdíl od vážek.\nJe predátorem a loví drobný hmyz za letu.\nNymfy žijí ve vodě a jsou důležitou součástí vodních ekosystémů.\nJsou indikátorem kvality vodních toků.\n"
+      }
+    },
+    {
+      "key": "insect.robber_fly",
+      "image": "insect.robber_fly.png",
+      "label": {
+        "cs": "střechatka"
+      },
+      "summary": {
+        "cs": "Dravá muška lapající jiný hmyz přímo za letu."
+      },
+      "info": {
+        "cs": "Střechatka je dravý dvoukřídlý hmyz z čeledi Asilidae, který loví jiný hmyz přímo za letu.\nMá silné nohy k uchopení kořisti a bodec k vstříknutí paralyzujícího jedu.\nNěkteré druhy napodobují vzhled čmeláků nebo vos jako ochranu před predátory.\nJe prospěšná jako přirozený regulátor hmyzích populací.\n"
+      }
+    },
+    {
+      "key": "insect.ground_beetle",
+      "image": "insect.ground_beetle.png",
+      "label": {
+        "cs": "střevlík"
+      },
+      "summary": {
+        "cs": "Rychlý predátorský brouk žijící pod kameny a v listí."
+      },
+      "info": {
+        "cs": "Střevlík je brouk z čeledi Carabidae; většina druhů jsou aktivní noční predátoři lovící jiný hmyz, červy a slimáky.\nJsou rychlí a rychle utíkají před nebezpečím.\nNěkteré druhy jako střevlík fialový mají nádherné kovově lesklé zbarvení.\nJsou indikátory zdravé půdy a přirozeného zemědělství.\n"
+      }
+    },
+    {
+      "key": "insect.tiger_beetle",
+      "image": "insect.tiger_beetle.png",
+      "label": {
+        "cs": "polník"
+      },
+      "summary": {
+        "cs": "Kovově zbarvený rychlý brouk se skvělým zrakem."
+      },
+      "info": {
+        "cs": "Polník je brouk z podčeledi Cicindelinae proslulý mimořádnou rychlostí, schopností letu a ostrým zrakem.\nBěhá tak rychle, že musí zastavit a znovu se zorientovat, protože pohyb je příliš rychlý pro jeho vizuální systém.\nMá skvěle zbarvená kovová těla (zelená, modrá, červená) a velké oči.\nLarvy staví svislé tunely v zemi a číhají v otvoru na kořist.\n"
+      }
+    },
+    {
+      "key": "insect.hoverfly",
+      "image": "insect.hoverfly.png",
+      "label": {
+        "cs": "pestřenka"
+      },
+      "summary": {
+        "cs": "Muška napodobující barvy vos a včel, opylovač zahrad."
+      },
+      "info": {
+        "cs": "Pestřenka je dvoukřídlý hmyz z čeledi Syrphidae, který napodobuje zbarvení vos a včel jako ochranu před predátory (batézovská mimikra), ačkoli sama neštípe.\nJe důležitým opylovačem; navštěvuje více druhů rostlin než včely.\nDospělci se živí nektarem a pylem.\nLarvy některých druhů loví mšice, čímž pomáhají v zahradách.\n"
+      }
+    },
+    {
+      "key": "insect.whirligig_beetle",
+      "image": "insect.whirligig_beetle.png",
+      "label": {
+        "cs": "vírník"
+      },
+      "summary": {
+        "cs": "Drobný brouk kroužící v hejnech po hladině vody."
+      },
+      "info": {
+        "cs": "Vírník je vodní brouk z čeledi Gyrinidae, který žije na hladině a kroužení v hejnech mu pomáhá vyhnout se predátorům.\nJeho oči jsou rozděleny na dvě části: jedna vidí nad vodou, druhá pod vodou.\nDetekuje ripply (vlnky) na hladině, které signalizují potravu nebo nebezpečí.\nPřes den kroužení, v noci létá.\n"
+      }
+    },
+    {
+      "key": "insect.louse",
+      "image": "insect.louse.png",
+      "label": {
+        "cs": "veš"
+      },
+      "summary": {
+        "cs": "Drobný bezkřídlý parazit žijící na kůži a vlasech savců."
+      },
+      "info": {
+        "cs": "Veš je bezkřídlý parasitický hmyz z řádu Phthiraptera žijící na kůži a v srsti nebo vlasech hostitelů.\nSaje krev a způsobuje svědění.\nVeš dětská (hlavová veš) je celosvětově rozšířená a postihuje děti bez ohledu na hygienické podmínky.\nHistoricky přenášely vši tyfus a další nemoci.\n"
+      }
+    },
+    {
+      "key": "insect.bedbug",
+      "image": "insect.bedbug.png",
+      "label": {
+        "cs": "štěnice"
+      },
+      "summary": {
+        "cs": "Plochý parazit sající krev v noci; ukrývá se ve spárách nábytku."
+      },
+      "info": {
+        "cs": "Štěnice domácí je plochý oval ní hmyz z čeledi Cimicidae aktivní především v noci.\nBodá a saje krev spícího hostitele.\nUkrývá se ve spárách matrace, nábytku a za tapetami.\nV posledních dekádách se celosvětově šíří díky mezinárodnímu cestování.\n"
+      }
+    },
+    {
+      "key": "insect.antlion",
+      "image": "insect.antlion.png",
+      "label": {
+        "cs": "mravkolev"
+      },
+      "summary": {
+        "cs": "Larva, která kope nálevkové pasti pro mravence v písku."
+      },
+      "info": {
+        "cs": "Mravkolev je larva hmyzu z čeledi Myrmeleontidae, která hloubí kuželovité nálevky v suchém písku.\nKdyž mravenec klouže do pasti, mravkolev ho zachytí kusadly a vstříkne trávicí šťávy.\nDospělci jsou nevýrazní, podobní vážkám, a létají v noci.\nLarvy mohou žít roky pod zemí bez příjmu potravy.\n"
+      }
+    },
+    {
+      "key": "insect.goliath_beetle",
+      "image": "insect.goliath_beetle.png",
+      "label": {
+        "cs": "goliáš"
+      },
+      "summary": {
+        "cs": "Jeden z největších a nejtěžších hmyzů světa z tropické Afriky."
+      },
+      "info": {
+        "cs": "Goliáš obrovský je jeden z největších hmyzů světa; samci váží až 100 gramů a dosahují délky přes 11 cm.\nŽije v tropických deštných lesích rovníkové Afriky.\nDospělci se živí ovocem a stromovou mízou.\nV Africe jsou někdy chovány děti jako hračky a jsou prodávány sběratelům.\n"
+      }
+    },
+    {
+      "key": "insect.bombardier_beetle",
+      "image": "insect.bombardier_beetle.png",
+      "label": {
+        "cs": "střevlík dělostřelecký"
+      },
+      "summary": {
+        "cs": "Brouk vystřelující vroucí toxickou směs jako obranu."
+      },
+      "info": {
+        "cs": "Střevlík dělostřelecký je brouk z podčeledi Brachininae, který se brání jedinečným způsobem: míchá dvě chemické látky v zadečku, čímž vznikne výbušná reakce s teplotou přes 100 °C.\nVysoce toxická pára je vystřelena s hlasitou ránou až 500× za sekundu.\nJe jedním z nejzajímavějších příkladů chemické obrany v přírodě.\n"
+      }
+    },
+    {
+      "key": "insect.diving_beetle",
+      "image": "insect.diving_beetle.png",
+      "label": {
+        "cs": "potápník"
+      },
+      "summary": {
+        "cs": "Predátorský vodní brouk plavající pod hladinou."
+      },
+      "info": {
+        "cs": "Potápník velký je dravý vodní brouk z čeledi Dytiscidae žijící v rybníkách a stojatých vodách.\nHladce plave díky plochým zadním nohám fungujícím jako vesla.\nNadechuje se na hladině a vzduch uchovává pod krovkami.\nLoví hmyz, larvy, malé ryby i pulce; je aktivní jak ve vodě, tak létá v noci.\n"
+      }
+    },
+    {
+      "key": "insect.velvet_ant",
+      "image": "insect.velvet_ant.png",
+      "label": {
+        "cs": "mravčík sametový"
+      },
+      "summary": {
+        "cs": "Oranžovočerná bezkřídlá vosa vypadající jako mravenec."
+      },
+      "info": {
+        "cs": "Mravčík sametový je ve skutečnosti vosa z čeledi Mutillidae; samice jsou bezkřídlé a připomínají mravence.\nMají nápadné červené nebo oranžové chloupky jako varování.\nSamice mají extrémně silné žihadlo přezdívané kravský zabiják (cow killer).\nParazitují na hnízdech čmeláků.\n"
+      }
     }
   ]
 }

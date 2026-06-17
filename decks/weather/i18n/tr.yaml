@@ -2,14 +2,147 @@ lang: tr
 pivot: false
 title: Hava Durumu
 cards:
+  weather.aurora:
+    label: manyetojenik polar ışını
+    summary: Gün batımında manyetosfer içindeki güneş rüzgârı ile oluşan doğanatural ışık gösterisi.
+    info: '{"hint":"Aurora Borealis veya Australis; gece gökyüzündeki renkli ışıklar","info":"Manyetosferde güneş rüzgarı tarafından oluşturulan doğal bir ışıma olayıdır.\nPolar ışığı (Kuzey Yarımküre''de Aurora Boreal ve Güney Yarımküresinde Aurora Australes), yüklü güneş parçacıklarının atmosfere etkileşimi sonucunda oluşur\.\nYeşil, mor ve kırmızı tonlarında perdeleri ve spiral yapıları vardır\.\nEn iyi kutup bölgelerinden görülebilir (Norveç, İzlanda, Canada, Antarctica).\nYerliler bu fenomeni ölükbayırın dans eden ruhlarını temsil ediyordu."}'
+  weather.avalanche:
+    label: avalan
+    summary: Dağa çöken buzlu karın hızlı akışıdır.
+    info: |-
+      Avalansı bir dağ yamacında hızla hareket eden kar kütleleridir.
+      Toz kara olan en tehlikeli türleri saatte 300 kilometreden fazla hıza ulaşabilir ve Alps Dağı eteklerinde yıllık olarak yaklaşık 150 kişiyi öldürebilir.
+  weather.blizzard:
+    label: kar fırtinası
+    summary: Yoğun kar yağışıyla oluşan ve çok düşük görünürlük sağlayan ciddi bir kar fırtınasını ifade eder.
+    info: Bir kar fırtınası yoğun kara yağışı ve güçlü rüzgarları birleştiren etkili hava olayıdır. Neredeyse sıfıra yakın görüş mesafesi ('beyaz çöllendirme') yaratır; bu da yüksek seviye kar örtüsünün oluşmasına yol açar. Tarihsel olarak binlerce insan hayatını kaybetmesine neden olmuştur.
+  weather.breezy:
+    label: hafif yel
+    summary: Sıcacık günlerde serinletici etki sağlayan hoş bir meltemdir.
+    info: Yel bir saniye başına 6 ila 11 metre hızında orta derecede eser ve yaprakları hareket ettirir veya saçlara dokunur. Yeterli nem varsa terin buharlaşmasını sağlayarak sıcak hissiyi azaltır.
+  weather.clear:
+    label: açıkhava
+    summary: Gökyüzüne baktığınızda tek bir buluttan bile iz yoktur.
+    info: Açık hava %100 bulutsuzluk anlamına gelir ve gökyüzünü kaplayan bulut oranı tamamen sıfırdır.
   weather.cloudy:
     label: bulutlu
     summary: Gök bulutlarla kaplı ve doğrudan güneş yok.
     info: Bulutlar su damlaları veya buz kristallerinden oluşan görülebilir kümelere sahiptir. Dünya'nın gökyüzü her zaman yaklaşık yüzde 60'ından fazlası bulutlarla kaplıdır.
+  weather.cold:
+    label: kış
+    summary: Donma noktasından çok daha altındaki sıcaklıklara sahip aşırı soğuk.
+    info: Aşırı soğukluklar (don olayları), kutup havasının orta enlemlere girmesiyle meydana gelir. Dünyanın doğal olarak ölçülmüş en düşük sıcaklığı ise Antarctida'daki Vostok istasyonunda –89,2 °C'ye ulaşmıştır. Cisim soğuğa tepki vererek damarların daralmasına ve titremeye neden olurken hipoterminin başlangıcı vücudun iç ısısının normalden aşağıya düşmesidir.
+  weather.dew:
+    label: sis
+    summary: Soğuk gece boyunca cisimler üzerinde yoğunlaşıp oluşan küçük su damlacıkları.
+    info: Sis, huzur dolayında soğuk gecelerde havadan nesnelere yoğunlaşan su damlalarıdır. Nesnenin yüzey sıcaklığı yoğurtma noktasının altına düştüğünde oluşurlar ve kurak bölgeliler için bitkileri ve hayvanları besleyici bir su kaynağıdır.
+  weather.drizzle:
+    label: yağız
+    summary: Çok az ve çok incelmiş su damlacıklarından oluşan cılız bir yağıştır.
+    info: Yağmur damlaları genellikle 0,5 milimetreden küçük olan bu hafif yağışın oluşumu konveyksiyonel cumulus bulutlarından değil düşük strate-formlu sisli tabakalardan kaynaklanır.
+  weather.drought:
+    label: Kuru
+    summary: Uzun süreli bir şekilde meydana gelen yağmur yoksuluğu sonucu ortaya çıkan su azlığıdır.
+    info: Yakın zamanda yağış eksikliğiyle oluşan kuraklık hasatlarda kayıplara ve yangınlara neden olurken aynı zamanda su kıtlığına da yol açar.
+  weather.dust_storm:
+    label: tozu firtinası
+    summary: Kuru alanlarda güçlü bir rüzgardan dolayı hareket eden duvar şeklindeki toz.
+    info: Tozluk fırtınası güçlü rüzgarlar tarafından kurak bölgelerdeki topraksız ve küçük partiküllerin havaya kaldırılmasıyla oluşur. Sahara Afrikasında bu olaya 'harmatan' denir. Bu bölgeden gelen toplar düzenli olarak Atlas Okyanusunu geçerek Kuzey Amerika’ya ulaşır; araştırmalar bunun Amazon Ormanları üzerinde etkilendiğini göstermiştir.
+  weather.flood:
+    label: sel
+    summary: Seller normalde susuz yerlere akan akıntı içindeki fazla sudur.
+    info: Sıradan kurak toprakları kaplayan suyun taşmasıyla oluşan bir felaket olan seller aşırı yağışlardan, kar erimesinden ya da bar ajarsızlığından kaynaklanabilir.Seller dünyada en pahalıya malolan doğal afetlerdir.Cekoslavanya'da meydana gelen 1997 ve 2002 yıllarındaki sellers yüz milyon dolarlık zarara neden olmuşlardır.Doğal selle önleyici tedbirlerin örneği; sulak alanlar ile ormanların korunmasıdır.
   weather.foggy:
     label: sisli
     summary: Yoğun yer seviyesinde sis görülebilirliği azaltır.
     info: Sis, yeryüzeyine yakın bir hava katmanında su damlacıklarından oluşan bulutlardır. Yoğun nem nedeniyle oluşur ve görüş mesafesini 1 kilometreden daha kısa olacak şekilde azaltabilir.
+  weather.freezing:
+    label: Don
+    summary: Suyun donmasına yol açan sıfır derecenin altındaki sıcaklıklar.
+    info: -42°C'nin altında buzlanma ve bitkiler için tehlikeli olurken trafik kazalarına neden olan don olayı Çekya'da en çok Ocak ayında görülür.
+  weather.frost_flowers:
+    label: buz çiçeği
+    summary: Soğuk yüzeyler üzerinde meydana gelen güzel buz kristallerini oluşturur.
+    info: Buz çiçekleri ekstrem soğuk yüzeylerde nemin donması sonucunda oluşan kristal yapılardır. Arktika denizinde karmaşık buz kristali desenleri oluşur. Görünüş olarak çok etkileyicidir ve doğal fotoğrafçılıkta popüler bir konudurlar.
+  weather.frosty:
+    label: donlu sabah
+    summary: Yüzeye çökelmiş don perdesi; bitkileri ve toprağı örtmüş buzu kristalleridir.
+    info: Don perdesi oluşurken yüzey sıcaklığı donma noktasının altına düşer ve havadaki nem kristalleşir. Yapraklar üzerinde harika desenler oluşturabilir ayrıca camları da örter. Don ile farklıdır çünkü don perdesi atmosfer buzunun süblimasyonudan kaynaklanır ama don ise yoğuşmuş tereddütten meydana gelmiştir.
+  weather.gloomy:
+    label: bulutsuz
+    summary: Depremsi atmosferdeki kararmış kapkaranlık hava.
+    info: Bulutlu hava genellikle düşük ve koyu bulanık gökyüzüyle tanınır; yarattığı sisli aydınlatma ile soğuk ya da yağışlı bir havaya sahiptir. Bu tür bir hava melankolisi çağrıştırabilir veya sonbahara benzetilebilir. Yazısı yokken SBD'ye yol açabilme potansiyeline sahip olan bu durumun adı Sezonluyetsel Etkili Bozuktur.
+  weather.hailing:
+    label: Grizo
+    summary: Buz kristallerinin yağmur şeklinde düşmesine denir.
+    info: Çiğ雹 (grizel), fırtınalı bulutlarda oluşan buz taneciklerinden meydana gelir. Su damlasının soğuk ve sıcak bölümler arasında birden fazla geçmesiyle oluşurlar. Daha önce kayda geçirilen grizuellerin çapları on santimetreyi aşabilir.
+  weather.haze:
+    label: görsel engelleme
+    summary: Tozdaki, dumanlıdaki veya kirli ortamdaki görüş mesafesindeki azalış
+    info: |-
+      Görünüşlü hava kirliliği tozdan, dumandan veya küçük partiküllerden kaynaklanan azalmış havadır
+      Bulutlardan farklıdır; bulutlar su damlalarından oluşurken görünürlük düşmesi katı ya da sıvı aerosollerle meydana gelir
+      Hindistan ve Çin'deki büyük şehirler genellikle sis ile sanayinin karışımına maruz kalırlar
+  weather.heat_lightning:
+    label: ısı şimşekleri
+    summary: Duyulan gürültemeyen uzaktaki fırtına patlamalarıdır.
+    info: Isı şimşekleri uzakta çakan feryatlı gökgürültüsünün duyulmadığı bir fırtınanın yanındaki parılardır. Adları yanıltıcıdır çünkü bu ismi ısı nedeniyle özel tip bir şimşeğe vermemizdir.
+  weather.heat_shimmer:
+    label: Sıcaklık Şeklinde Optiği
+    summary: '''Isı dalgalanması'', ısıtılmış yüzeylerin üstündeki havada meydana gelen optikal eğriliktir.'
+    info: Asfalt veya çöl üzerindeki sıcak havanın daha düşük yoğunluğa sahip olması nedeniyle ışık demetleri kıvrılır ve bu da 'optik aldanma' olarak bilinen bir fenomen yaratır. Bu olay genellikle sıcak karayollarında görünen sanrısal gölge gibi görünürler.
+  weather.heatwave:
+    label: ısı dalgaları
+    summary: Uzun süre devam eden yüksek sıcaklığa maruz kalma durumu.
+    info: Isı dalgalanması aşırı sıcaklık dönemleridir ve normal mevsimsel sıcaklıkları geçer. Avrupa'nın 2003 yılındaki ısı dalgası sonucunda yirmibin altıyüzden fazla ölüme neden olmuştur.
+  weather.hot:
+    label: Sıcak
+    summary: Konforu bozan ve sağlığa zarar verebilecek aşırı ısı.
+    info: Aşırı sıcaklık mevsimsel ortalamadan önemli ölçüde yüksek olan bir iklimsel durumdur ve nemiyle birlikte yaşamı tehlikeye atan ishal gibi ciddi sağlık sorunlarına yol açabilir.
+  weather.humid:
+    label: nemi
+    summary: Su buharıyla doygun hava; sıcaktır ve nefes almayı güçleştirici bir duygudur.
+    info: Nemidin içeriği havadaki nem miktarını ölçer. Göreli nem yüzde yüz olduğunda hava doymuş demektir; bu sınırı aşarsanız su yoğurulmaya başlar. Yüksek nem sıcaklığın hissedilmesini artırır çünkü ter kaynama azalır. Tropikal bölgeler yılda her zaman yüksek nemlidirlerken bizim burada yazlarda en yüksektedir.
+  weather.hurricane:
+    label: Casgaya
+    summary: Saatte en az 120 km/s hızında rüzgarlar taşıyan büyük boyuttaki subtropikal bir meteoroloji durumudır.
+    info: Fırtına, Atlas Okyanusu ve Pasifiğin batısındaki bir alanda hızları saatte 120 kilometreden fazla olan sıcak hava dalgalarıdır. Aynı zamanda feryat fırtınası olarak bilinen bu fenomenler Pasife'nin doğusunda "tayfün", Hint Denizi'nde ise "döngüsel kasırga" adını taşır.
+  weather.ice_storm:
+    label: Donma Yağışlı Fırtına
+    summary: Her şeyin saydam bir buz katmanıyla kaplanmasına neden olan donmuş yağış.
+    info: Buz fırtınası (donan yağmur fırtınası), soğuk bir tabaka üzerindeki sıcak hava nedeniyle suyun buzlamasına yol açar ve bu da anında donmaya sebep olur.
+  weather.icy:
+    label: büz
+    summary: Yüzeyleri kaygan hale getiren zararsız olmayan buz.
+    info: Bir örtü olarak buz neme veya kar erimesinden soğuk yüzeylerde donarak oluşur ve bu durum trafik için en tehlikeli kış koşullarından biridir.
+  weather.lightning:
+    label: yıldırım
+    summary: Güçlü statik elektriğin atmosfer içindeki kısa devrelerdir.
+    info: Yıldırım; gökyüzündeki fırtınalı bulutlardaki yük farkının eleştirel bir değere ulaşmasıyla ortaya çıkan güçlü elektriksel boşalmadır. Yıldırım hızı yaklaşık olarak ışık hızının üçte biridir ve dünyada saniye başına yaklaşık yüz yıldırım düşer.
+  weather.misty:
+    label: bulutsuz
+    summary: İnce sis veya açık sisle düşük görünürlük.
+    info: Bulutlu hava yer düzeyindeki havanın su buharının yoğuşması sonucu oluşur. Yoğun sisden farkı, görüş mesafesinin sınırlı olması ama yine de 1 kilometreden az olmamasıdır. Soğuk gecelerde nehirlere ve göllere yakın vadilerde sıkça meydana gelir.
+  weather.monsoon:
+    label: muson
+    summary: Tropik bölgede yoğun yağmur dönemini başlatan rüzgardaki sezonlu değişme.
+    info: |-
+      Muson iklimsel bir olgudur ve okyanus ile karalar arasındaki rüzgarların sezonluk tersine dömesi nedeniyle oluşur.
+      Hint-Bengal musonu Hazirandan Eylül'e kadar tropikal bölgelere yıllık yağışın yüzde 70 ila 90'ını getirir.
+      Yaklaşık yedi yüz milyon insan tarımsal faaliyetlerinde bu musona bağlıdır.
+      Muskabiliği başarısızlık kuraklığa ve açlığa yol açarken aşırı güçlü muska ise sel felaketleri oluşturabilir.
+  weather.muggy:
+    label: dusuno
+    summary: Uyuşuk sıcaklığın yanı sıra çok yoğurucu hissettiren nemli havadır.
+    info: Sıcaklık ve yüksek nispi bağıl nem birleştiğinde dusunoluğu meydana gelir. Yüksek nem terlemede buharlaşmayı engelleyerek beden soğutma kapasitesini azaltır.
+  weather.overcast:
+    label: bulutlu
+    summary: Gri bulutlar tarafından tamamen kaplı gökyüzü.
+    info: Bulunduğu yerin coğrafyasına bağlı olarak SADS'de güneş eksikliği kilit rol oynar ve bu nedenle aydınlatma tedavisi güneşi taklit eder.
+  weather.partly_cloudy:
+    label: yarımsız
+    summary: Güzel zamanlar yani gökyüzü kısmen sislidir.
+    info: Yarım güneşli hava durumu genellikle bulutluluğun %70 ila %60 arasında olduğu bir havadır ve bu nedenle dış etkinlikler için en uygundur.
   weather.rainbow:
     label: Gökkuşağı
     summary: Yağıştan sonra gökyüzünde güneşli havalarda görünen renkli bir yay.
@@ -18,6 +151,22 @@ cards:
     label: yağmur
     summary: Bulutlardan su damlaları olarak yağmur düşer.
     info: Yağmur, bulutlardaki su buharının yoğuşmasıyla oluşur. Nehirlerin, gölleri ve içme suyu depolarını doldurmak için gereklidir; ortalama bir yağmurun hızı saniyede 9 metredir.
+  weather.sandstorm:
+    label: haboo
+    summary: Güçlü rüzgârlar tarafından sürüklenen toprak duvarı.
+    info: Kum fırtınası oluşurken güçlü rüzgarlar devasa miktarlarda toz ve kumu kaldırır. Haboob Sahara'nın sahel bölgesiyle yakın olan bir başka türdür.
+  weather.shower:
+    label: yağış toplaması
+    summary: Konvansiyonel buluttan kaynaklanır.
+    info: '{"hint":"kısa ama bazen yoğun bir yağmur patlaması","info":"Yağış toplanımı, konveytif bulutlardan gelen kısa süreli ve yoğundur (yığılmamaklı ya da yığınım balkı).\nHızlı başlar dakikalarla saatler arasında geçer.\nYaz mevsimi için tipiktir; güneş enerjisi ile oluşan konveyor hareketi öğlen vaktinde yığınmambilakların oluşmasına neden olabilir.\nPislikten sonra gökyüzünde hale görülebilir.'
+  weather.sleet:
+    label: donmuş yağış
+    summary: Yağmurla karışık dondurucu bir buz türüdür.
+    info: Donoşan yağmur (buzdolu), kar taneciklerinin sıcak hava katmanından geçerek kısmen erimesiyle oluşur.
+  weather.slush:
+    label: erimiş kar
+    summary: Yarı çözünmüş bir buzunla oluşan nemli, kaygan soğuk yüzey tabanı.
+    info: Erime sıcaklığı donma noktasının hemen üzerinde olduğunda kar eriyerek su ile karışır ve buharlaşmaya neden olur.
   weather.snowy:
     label: kar yağışı
     summary: Bulutlardan beyaz kar kristalleri düşer.
@@ -30,6 +179,34 @@ cards:
     label: güneşli
     summary: Güneşin parladığı, bulutların olmadığı açık bir gökyüzü.
     info: Güneşli hava, bulutsuz iken güneş ışınlarının engellenmeden yeryüzüne ulaşmasına bağlıdır. Güneş, yaşam için gerekli olan ısıyı ve ışığı sağlar.
+  weather.sunrise:
+    label: gündoğusu
+    summary: Sabah başlangıcında güneşi ufku aşarken gözlemlediğiniz o andır.
+    info: Gündoğumu, güneş diskinin ufkun üstüne çıkmasıyla oluşan bir astrolojik anıdır. Renkliliği (turuncu veya pembe), ışığın Rayleigh saçılması nedeniyle oluşur. Kutup bölgelerinde belirli mevsimlerde görülür; kutupsal gündüz ile gece dönemleri arasında geçer.
+  weather.sunset:
+    label: güneşin battığı
+    summary: Akabindeki gündüz sonunda güneşin yeraltında kaybolduğu an.
+    info: Güneş batışı günün bir anıdır ve güneş yatay hattın altına giderken meydana gelir. Günlük yaşamda gözlemlenen bu olay sırasında renkli spektrom (turuncu, kırmızı, mor), güneşi çevreleyen havadaki partikül sayesinde oluşur; volkan patlamalarından sonra daha yoğun tozlar nedeni ile en etkileyici bataklar ortaya çıkarılır. Tarihsel olarak da akşam yıldızının simgesiydi.
+  weather.thunderstorm:
+    label: fırtına
+    summary: Şimşeklerle beraber göklere çalan feryatları olan yoğun yağışlı fırtında.
+    info: Fırtına cumulombol buluttan kaynaklanır ve bu büyük bulutlar 10 kilometreden fazla yüksekliğe ulaşabilir. Fırtınalarda görülen şimşek elekrostatiğin bir sonucudur; şimşeği takiben havayı birkaç milisaniye içinde yaklaşık olarak 54.687 Fahrenheit’a kadar ısıtır. Gök gürültüsü ise sıcak hava dalgasının hızlı genişlemesi ile oluşan sesli etkidir.
+  weather.tornado:
+    label: torna
+    summary: Buluttan toprağa kadar uzanan yıkıcı şekilde dönme hareketini gerçekleştiren havadan oluşan kolon.
+    info: Fırtına bulutlarından çıkan ve yeryüzüne dokunmuş hava sütunu şeklinde hızlı dönen bir fırtınadır.Torbalarda saatte 500 kilometreyi aşan hızlar kaydedilmiştir.Amerika Birleşmiş Devletleri'nde en sık görülen yerlerden birisi olan Kansas,Oklahoma,Texas bölgeleridir.Czech Cumhuriyetinde de meydana gelmekte fakat nadirdir.Yaz 2021'de Güney Mora'yı etkileyen güçlü bir tornado olmuştur.
+  weather.typhoon:
+    label: taifu
+    summary: Güneydoğu Pasifik'teki tropikal siklonlarla ilgilenen bir fenomen olan taifu.
+    info: Taifu, Fildişi Sahili'nde, Çin'de, Japonya'da ve çevrede kasırgaya denir. Filippine adaları yılda yaklaşık olarak otuz taifu ile etkilenebilirler. Taifu Nina (1975), Çinde sel yaptırdığı için ölümlere yol açtı.
+  weather.waterspout:
+    label: deniz suyu
+    summary: Fırtına tarafından oluşturulan tehlikeli bir rüzgarlı deniz suyunun yanında daha az ciddi olan güneşli havada görülen deniz süzmesidir.
+    info: Deniz suyu bir bulutla denizi veya gölü bağlayan dönen hava kolonudur.
+  weather.whiteout:
+    label: beyaz çıplaklık
+    summary: Kutup bölgelerindeki yoğun kar yağışı sonucunda ortaya çıkan tüm yönlerin kaybolduğu görüş bozukluğudur.
+    info: Beyaz çöleme durumu, kar fırtınası ile birlikte havanın beyaza dalmış gibi görünmesine yol açar; bu da gökyüzüyle yer arasında herhangi bir ayrım olmayışıyla sonuçlanır.
   weather.windy:
     label: rüzgarlı
     summary: Ağaçları bükerek yaprakları taşıyan güçlü hava hareketi.

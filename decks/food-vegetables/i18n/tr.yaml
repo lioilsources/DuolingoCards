@@ -2,14 +2,70 @@ lang: tr
 pivot: false
 title: Sebze
 cards:
+  veg.artichoke:
+    label: artışko
+    summary: '"Büyük yeşilli yapraklı salatalık türü; yalnızca çiçeğinin sapları yenmektedir"'
+    info: '{"info":"Artıchoke (Cynara cardunculus), aslında büyük bir tüylü bitkinin fideleridir ve yemek için çiçek başlıklarının iç kısmını tüketilir. Tada ekşi tatlar kazandırması nedeniyle Cinzano ve Cynar viski gibi aromatize edilmiş şerbetlerde artichoke özüt içerir. Inulin adlı probiyotik besini açısından bağırsak sağlığına faydalıdır."}'
+  veg.arugula:
+    label: arugula
+    summary: Açık yeşil yapraklı soğanlı meyve; İtalya mutfağındaki popüler bir tarif öğesidir.
+    info: Rocket (Arugula), Eruca vesikularia alt türü olan bir bitkidir ve Akdeniz'den gelmektedir. Glükozinoletler nedeniyle karakteristik acımsı tatına sahiptir.
+  veg.asparagus:
+    label: sarışın
+    summary: İnce ilkbahari saplar; tatlandırıcı mevsimlik taze ürün.
+    info: Sarımsak bitkisi olarak bilinen Asparagus officianalis baharatlı bir mevsimsal salata yaprağıdır ve en değerli ilkbaharı yeşil ürünlerden biridir.
+  veg.bamboo_shoot:
+    label: bamboo fideleri
+    summary: Çıplak bir Asyalı sebzeye sahip olan bambusun genç fidelerini içeren.
+    info: Asya mutfağına temel teşkil eden bambusağacının genç saplarıdır ve yeni çıkmışken toplanır. Taze olarak tüketilmeden önce kaynatılması gerekir çünkü siyanür içerirler.
+  veg.beet:
+    label: Kırmızı Pancar
+    summary: Siyah-kırmızılı renkli yuvarlak köklü sebze; hem rengini verici maddesiyle hem de besleyicisiyle tanınmaktadır.
+    info: Pıhtısında beta karoten ve güçlü doğal kırmızı bir boyar madde olan betalains içerir. Nitratlar içeriği spor performansını artırır ve kan basıncını düşürmektedir. Şeker pancarı başka bir çeşittir ve beyaz şeker kaynağıdır.
+  veg.bok_choy:
+    label: Çay yaprağı
+    summary: Karanlık yeşil yapraklı beyaz saplı Asyalı salatalık.
+    info: Borek çayı/pak choi/bok choy (Brassica rapa subsp. Chinensis), Çin'den gelir ve Asya mutfağına temel bir sebze olarak eklenmiştir.
   veg.broccoli:
     label: brokoli
     summary: Yağlı gövdede yoğun çiçek başı olan yeşil sebze.
     info: Brokoli, lahana familyasından bir yeşil sebzedir. Vitamin C ve K ile antioksidan açısından çok zengindir; İtalya'dan köken alır.
+  veg.cabbage:
+    label: lahta
+    summary: Yapraklı iç yapısıyla sıkışık yapraklara sahip büyük yeşil sebze.
+    info: Tıkağırlık sebzelerinin bir çeşidi olan lahana (Brassica oleracea), bin yıldır Avrupa'da yetiştirilen eski bir bitkidir ve vitamin C ile K içerir ayrıca kanserle mücadelede etkili olabilecek glükozinoletleri de barındırır.
   veg.carrot:
     label: ıspanaklı
     summary: Tatlı bir portakal rengi köklü sebze.
     info: Ispanaklı genellikle turuncu renkte salatalık köküne sahip iki yıllık bitkidir ve lif ile beta-karotene (provitamin A) zengindir.
+  veg.cauliflower:
+    label: lahana çiçeği
+    summary: Çok sayıda çiçekten oluşan beyaz yoğun başlık; Belçika'nın beyaz sebzeye yaptığı yatırım.
+    info: |-
+      Lahana çiçeği (Brassica oleracea var. botritis), brokoli ile ilişkilidir.
+      Siyahlık yaprakların güneşe maruz kalmamasını sağlayarak karoteni oluşturmayı engelleyerek ortaya çıkar.
+      Purpur mavisi, turunsi ve yeşil türleri de mevcuttur.
+      Glutensiz diyetlerde un ve pirinç için popüler bir alternatif olarak kullanılır.
+  veg.celeriac:
+    label: patlatılmış domates
+    summary: Domatesti büyük beyaz kök; çorbaların ana malzemesidir.
+    info: Patlıcanımsı havuç ya da körelmiş soğan olarak bilinen Bulvy Celery (Apium graveolens var. rapaceum), özellikle kökü için yetiştirilen bir celery çeşidir. Yoğun celery aroması ve tadıyla tanınır. Çorbalara, patates sosuna benzer bir tarif olan remoulade'ye veya fırında pişiren yemeği hazırlamada temeldir.
+  veg.celery:
+    label: Portaklı Biber
+    summary: Şekeriği aroma ile karakterizedir.
+    info: Sert yapılı ve aromatik olan portakal rengindeki bu biber bitkisi Akdenize özgüdür. Portağalın tüketimi sırasında vücut tarafından harcanan enerji miktarı bazen kendisinden daha fazla olduğu iddia edilir ancak bilimsel olarak kanıtlanamadı. Fransız mutfağının temeli oluşturan üçlü karışımında yer alır.
+  veg.chard:
+    label: hacke
+    summary: Çok çeşitli renklere sahip bir yeşilliktir.
+    info: Hacke domatesi ile aynı türdeki mangoldsu Beta vulgaris alttürüdür. Yeşil, kırmızı ya da sarı renkte olan bu bitkinin gövdeleri yarım ay şeklinde olur ve yaprakları genellikle büyük boyutlu ve koyudur.
+  veg.chickpeas:
+    label: ciğer notu
+    summary: Yuvarlak bej renkte bir bakla türüdür.
+    info: Ciğer otunu (Cicer arietinum), Orta Doğu ve Hindistan'da popüler bir baklagil bitkidir. Humusun temeli olan ciğernotu pastası ile felfal adı verilen kızartılmış topların yapımında kullanılır. Bitki proteini yönünden zengindir ve vegan ya da vegetarian rejimlerde yaygın olarak tüketilmektedir.
+  veg.chili:
+    label: biber
+    summary: Acısı olan kırmızı ya da yeşil çilek şeklinde bitkidir.
+    info: Biber tütüncüğüdür ve buharlaşma nedeniyle acı verir. Acılılığı kapsizecin adlı bir bileşik sağlar ki buna göre Scovil ölçümü yapılır örneğin jalapeno'da 2 bin ile sekiz bin arasında olurken Carolina Reaper isimli çeşidinde iki milyonun üstünde değer alınır.
   veg.corn:
     label: mısır
     summary: Sarımsı renkte, yumuşak ve suyuğu dolu taneler taşıyan bitki.
@@ -18,18 +74,98 @@ cards:
     label: salatalık
     summary: Soğukkanlı ve suyu bol olan uzun yeşil bir sebze.
     info: Salatalık, tropikal bir sebzeye ait Cucumis sativus türünden gelen, kabuklu meyvelere benzeyen bir bitkidir. Yüzde 95 oranında sudan oluşur; bu nedenle yenildiğinde serinletici etki yapar ve salata ya da atıştırmalık olarak tüketilir.
+  veg.eggplant:
+    label: biber
+    summary: Koyu mor uzamış bir meyve; Moussaca ve Ratatouille'nin temelidir.
+    info: |-
+      Biber bitki grubuğu (Solanum melongena), Hindistan'dan köken alır ve binlerce yıldır yetiştirilmektedir.
+      İtalya’da melanzana olarak biliniyor,
+      Fransa’daki ismi 'aubergine', ABD’de ise ‘eggplant’tur.
+  veg.endive:
+    label: endive
+    summary: Açık yapraklı taze çayır otu ile baharat olarak kullanılır.
+    info: Endive (intibüs veya witloof), karakteristik acı bir tatıyla bilinen mevsimsel yeşil bitkidir. Beyaz renki gölgede yetiştirildiği zaman ortaya çıkar ya da güneşten korunarak elde edilebilir. Tatlılığını arttırmak için buharla pişirmeye tabi tutulur.
+  veg.fennel:
+    label: fennel
+    summary: Sarı renkte sarılmış yaprağı olup tatlı anisel aromasıyla bilinir.
+    info: Anisel tadı olan Foenicolum Vulgaris bitki türüdür ve bu tat anethol maddesinden kaynaklanır. Sarılıp duran yaprakları ile tanınır. Köküne benzer bir baş kısmı vardır.
   veg.garlic:
     label: sarımsak
     summary: Ağır kokulu ve pırtı hissi veren beyaz bir soğan, birçok yemeğe tat katmak için temeldir.
     info: Binlerce yıldır mutfağımda hem baharat olarak hem de ilaç olarak kullanılan sarımsakta antibakteriyal ve anti-inflamatuar etkisi olan allysin içerir.
+  veg.ginger:
+    label: jıntın
+    summary: Yaklaşık beji renkte knöfli formda kokulu bir köktür.
+    info: |-
+      Jinten (Curcuma longa), Güneydoğu Azi'de yetişen bir bitkinin köküdür ve baharat olarak kullanılır.
+      İçerdiği gingeroll adlı maddesi nedeniyle yanıcılık hissi verir ve anti-inflamatuar etkilere sahiptir.
+      Peyzajlarda bulgu salgısını azaltmada faydalı olduğu bilimsel çalışmalardan kanıtlanmıştır.
+  veg.green_beans:
+    label: fasulye kabuğu
+    summary: Uzun yeşil fasulye kabukları; henüz olgunlamadan hasatlanılır.
+    info: '{"info":"Fasulye kabukları\u0784un Phaseolus vulgaris türü yeşil ve uzunca fasülyeleridir\. Genellikle olgunlaşmadan toplanırlar \"fransız fasulyesi\", "string fasulyesi" veya "bobi fasulyesi" olarak da bilinirler\. Vitamin B9 ile birlikte vitamin A ve C içerirler\. Kaynar suya daldırılıp rendenmiş bademiyle servis edilen bu yemek Amerika''lı gelenekselleştirilmiş ikramlardandır."}'
+  veg.kale:
+    label: sarım yemişi
+    summary: Gökyüzü mavisi kıvrık yapraklı mevsimsel salata.
+    info: |-
+      Sarımsaklağı (Brassica oleracea var. sabellica), çok besleyici bir koyu yeşil yapraklı bitkidir.
+      Bunlar vitaminleri ve antioksidantları açısından oldukça faydalıdır,
+      especially vitamins K, A ve C'yi içerir.
+      Yeni nesilde sağlıklı yaşam tarzı ile popülerleşmiştir.
+  veg.kohlrabi:
+    label: rabiata
+    summary: Stağlar üzerinde yuvarlak balta şeklinde olan bu bitki lahanaya benzer.
+    info: |-
+      Rabıata (Brassica oleracea gongylodes), lahana ile ilişkilidir ve bir tür sebzeye sahiptir.
+      Yaprakları gibi kalınlaşmış gövdeleri de yenilebilinirdir;
+      hafif tatlı ve çıtırçıtırdır,
+      soba pişirmek ya da ham olarak tüketmek için uygundur.
+      Adı Almanca kökenlidir:
+      kohl=lahana,rab=rüzgarlık.
+  veg.leek:
+    label: porre
+    summary: Beyaz bir sebzeye benzer olan porre, sosların temeli olur.
+    info: Porre veya soğan otuğu olarak da bilinen Părășeana (Latince Allium ampeloprasum), soyağına ve sarımsağa yakındır. Galler'in ulusal sembolüdür; Galiler bu bitkiyi Saint David's Day'da takınırlar. Alyumin içerir ayrıca vitaminlerini de sağlar.
+  veg.lentils:
+    label: lentil
+    summary: Düz küçük bakla türleri; et alerjisinde proteine alternatif.
+    info: '{"info":"Lentil(Lens Culinaris), en eski baklagillerden biridir ve bin yıldır yetiştirilmektedir."}'
+  veg.lettuce:
+    label: iceberg lahanası
+    summary: Çatlamış yapraklardan oluşan yeşil salağın temel unsuru olan klasik taze sebze.
+    info: Iceberg lahana (Latua satıva), eski Mısır'dan beri yetiştirilmektedir ve su oranı yüzde 95'ten fazladır. Kalorisiz bir sebzedir. Iceberg, romaine, lolla, ketçap başlı ve akasya yapraklı olmak üzere birçok çeşidi vardır.
+  veg.lotus_root:
+    label: lotostaki
+    summary: Kesilmiş lotos tıka ile harika boşluklar; Asyalı delicacies.
+    info: Lotustaki kök (Nelumbo nucifera), saklı bir bitki olan tapınma lotusunun yeraltında gelişmiş kısmıdır. Kesit görünümü simetrik açıklıklarla örülmüş deseni ortaya çıkarır. Asya mutfağı için temeldir yani Çinli, Japonlu ya da Hindistan menşeli olabilirler.
   veg.mushroom:
     label: mantar
     summary: Sarı-kahverengi bir başlıklı mantar türüdür.
     info: Agaricus bisporus olarak bilinen bu yemeklik mantar dünyada en yaygın şekilde yetiştirilen mantardır. Proteinler, B vitaminleri ve mineraller açısından zengindir; birçok yemekte kullanılır.
+  veg.okra:
+    label: '"oka"'
+    summary: Yeşil çizgilere sahip kaygan bir meyve tipi olup Gumbonun ana malzemelerindendir.
+    info: |-
+      {"hint":"Uzun yeşil çizgili tohum kabuğu (Abelmoschus esculentus), bayan parmakları","info":"Okrası (Abelmuscus esculentus) Tropikal Afrika'da köken alır.
+      Amerikan yemeği Gumbo'nun temeli olan bu bitki kaygan dokusuyla soslara kıvamlar verir.
+      Kesitinden bakıldığında krizantem şeklinde görünümden dolayı "yıldızkabuk" olarak da bilinen oka,
+      kaygan yapısı ile besleyici değerlerini taşımaktadır ve lif, vitamin C,K ve Folat açısından oldukça fakirdir."}
   veg.onion:
     label: soğan
     summary: Yemeklerde baharat olarak kullanılan keskin tatlı katmanlı soğan bitkisi.
     info: Soğanlar dünyada en çok yetiştirilen sebzelerden biridir. Yemeklere eklenerek lezzet verilir ve antibakteriyel etkilere sahip olan flavonoidleri içerir.
+  veg.parsley:
+    label: tarça
+    summary: Yaprağı açık yeşil renkte olup hem dekoratif amaçlı kullanılan hemde aroma veren bir ot.
+    info: Tarçın (Petroselinum crispum), aromatik bir bitkidir ve sıklıkla baharat olarak kullanılır ya da yemekleri süslemeye ayrılır. Tarçoğlu taze tarçınlarda portakallardaki vitamin C miktarından daha fazlasına sahiptir. Yapraklı olan düz veya kıvrımlıdır; mutfağa göre tercihin nedeni ise tat açısındandır çünkü bazı pişmanlık anları vardır. Eski Yunanda bu bitki ölüme bağlanmıştır.
+  veg.parsnip:
+    label: patinkök
+    summary: Süt beyaz renkte körlük; Orta Çağ'da Avrupada temel sebzeydi.
+    info: Patinak köreligi bitkiyi buğdayın bir türüdür ve havucun yakınındır.
+  veg.peas:
+    label: nohut
+    summary: Kabuğu içindeki küçük yeşil boncuklar; baharın nazikliği sembolüdür.
+    info: Nohuta (Pisum sativum), tarih boyunca yetiştirilen bir baklagildir. Gregor Mendel kalıtım deneylerinde nohutları araştırmıştır (1856–1863). Morlu nohu ta tamamen kabukla beraber yenirken şekerli nohuttan daha tatlıdır. Bitkisel proteinden, vitaminlerden ve liften oldukça fakirdir.
   veg.pepper:
     label: biber
     summary: Yüzeyi parlak olan, tatlı ya da acı bir tada sahip renkli sebze.
@@ -38,7 +174,67 @@ cards:
     label: patates
     summary: Kahverengi bir kök bitkisi olup dünyada birçok yemeğin temelini oluşturur.
     info: Patates Güney Amerika'nın And Dağı'ndan gelir ve dünyanın en önemli tarımsal ürünlerinden biridir. Karbonhidratlar, C vitamini ve potasyumun kaynaklarıdır.
+  veg.pumpkin:
+    label: Kabak
+    summary: Büyük turuncu yuvarlak mevsimsel sebze; Halloween'in sembolüdür.
+    info: '{"info":"Kabak (Cucurbita maxima ya da pepo), Amerika kökenlidir ve betacaron ile birlikte vitaminler açısından oldukça faydalıdır.Amerikan kabaklısı olarak bilinen bu türdeki gelenek İrlandalı göçebe halk tarafından başlatılmıştır.Kabaktan elde edilen tohumlar ise çinko,magnezyum ve bitkisel proteinden dolayı besin değeri yüksek olup sağlıklı diyet için uygundurlar."}'
+  veg.radish:
+    label: havuçsalatası
+    summary: Beyazımsı küçük kırmızı körel
+    info: |-
+      {"hint":"küçük çıtır kırmızı ya da beyaz körelme sebzesi","info":"Havuçsalatası (Raphanussativus), hızlı büyüyen bir köreldir.
+      Küçük bahçe havuçsalataları genellikle kırmızıdır ve büyük soğuk hava mevsimi türleri ise beyaza dönerler (daykon).\u05f4
+      Antibiyotik özellikleri olan glikozid içeriklidir.
+      Japonya'da daykon havuç salatasi temel mutfağıdır.
+  veg.spinach:
+    label: pırasa
+    summary: Demiri bol olan koyu yeşil yapraklı sebze.
+    info: Pırasa (Spinacia oleracea), orta çağ Perisinden gelir ve vitaminleriyle birlikte demire de zengindir.
+  veg.spring_onion:
+    label: bahar soğanı
+    summary: Beyaz tabanlı ve yeşil saplarla karakterize olan inceltilmis bir soğandır.
+    info: Bahar soğanı (Allium fistulosum veya Allium cepa), henüz olgunlaşmadan toplanır ve daha yumuşak bir yapıya sahiptir. Soğuk hava ile hazırlanan normal soğana göre az acıdır. Asyalı mutfağında gürültü olarak kullanılan bahar soğanları taze ya da pişmiş şekilde hem çorbalarda hem de salatalara eklenmektedir.
+  veg.squash:
+    label: patlıcan
+    summary: Çeşitli şekilli soğuk mevsimi sebzelerinden biridir.
+    info: Kışlık patlıcanlar (Cucurbita), badem tarçınısı türü gibi çeşitleri içerirler.
+  veg.swede:
+    label: turnip
+    summary: Büyük mor-sarı köklü yeşillik ; İngiltere’deki geleneksellikle haggişe eklendiği taze ürün.
+    info: Turnipsi ( Brassica Napus ) lahana ile turpudan melezdirilir bir bitkidir . ABD'de 'rutabaga' olarak biliniyor ; İskoçya'da ise mutlaka eşlik eder hagis adlı yemeğine ekleniyorlar . Pişirdikten sonra tatları tatlıdır ve incitici kokulu olur , aynı zamanda vitamin C ve lif açısından oldukça zengindirler ; Kuzey Avrupada çok tercih edilmektedir.
+  veg.sweet_potato:
+    label: patlıcan
+    summary: Sarı renkte şekerli yumru kök; tropikal bölgelerde yetişmeyen geleneksel olmayan patates türü.
+    info: |-
+      Kamuş otunu (Ipomoea batatas), Güney Amerika'dan köken alan bir bitkidir ve patates ile hiçbir şekilde ilişkilendirilmemiştir;
+      beta karoteniyle, vitaminlerle A ve C'ye ek olarak lif açısından da oldukça fakirdir;
+      kırmızımsı rengini bu betacaroteen vermektedir;
+      hazırlanan yemeğe tat katmakta kullanılır.
+  veg.taro:
+    label: Tarho
+    summary: Mor lekeye sahip büyük niştalı kök sebzesidir.
+    info: |-
+      {"hint":"Büyük mor noktalı nişasta dolgu luğumu (Colocasia esculenta)","info":"Kamutun otu (Colocasia esculenta), bin yıldır yetişen bir sıcak kuşağı bitkidir.
+      Papua ve Avustralya'da temel besindir;
+      Hafif badem aroması vardır; iç kısmıda bulunan mavi renkteki çizgileri görseldir.
+      Ham kamutunu etkin olarak pişirmek gerekir çünkü içinde yanmayı tetikleyici salisilik asit içerir."}
   veg.tomato:
     label: domates
     summary: Yemek olarak salatalık olarak kullanılan kırmızı yuvarlak bir meyve.
     info: Domates botaniksel olarak bir meyvedir (çekirdekli meyve) ancak mutfakta salata bitkisi gibi kullanılır. Güney Amerika'dan gelir ve lütin ve vitamin C içerir.
+  veg.turnip:
+    label: turnip
+    summary: Köşeli beyaz-mavi renkteki bu kökünlü bitkinin tarihinde ortaya çıkan eski Orta Avrupa yemeği.
+    info: Turnipsi ( Brassica rapa ) patatesler Batı Amerika'dan Avrupa'ya gelmeden önce temel bir besindir ve lahana familyasından kökenli bir sebzeye sahiptir.
+  veg.watercress:
+    label: su çiçeği
+    summary: Küçük koyu yeşil bir su bitki türüdür.
+    info: Suçkana (Nasturtium officinale), soğuk kaynaklar ve akarsularda büyür. Tatlılığı sinigrinin şeker benzeri maddesi sayesinde acımsıdır. Vitaminlerle doludur - özellikle C vitamininden dolayı antioksidan özellikleri vardır.
+  veg.yam:
+    label: Yam
+    summary: Tropical ve afrikalı yemekler için kullanılan büyük nişasta içeren bitkidir.
+    info: Jams (diaspora türleri), özellikle Afrika'nın subtropikal bölgelerinde yetişen büyük nişastalı bir kökte meyvedir.
+  veg.zucchini:
+    label: çekirdek
+    summary: Yazlık yeşil kabaktırdır.
+    info: Kabak çekirdeği olarak bilinen Cucurbita pepo türünden kabaklı bir sebze olup genellikle henüz tamamen olgunlaşmadan toplanır ve boyca yaklaşık 7 ile 25 santimetre arasında değişebilir.

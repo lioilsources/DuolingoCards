@@ -2,14 +2,66 @@ lang: es-419
 pivot: false
 title: Verdura
 cards:
+  veg.artichoke:
+    label: articho
+    summary: Hierbas altas verdes comestibles; solo consumimos los botones florales.
+    info: '{"hint":"hierba grande verde similar al alcachofa","info":"El artichoke o alcachafruta es en realidad un brote de una planta con púas grandes y puntiagudas del género Cynara cardunculus .\nSe come el corazón inferior y las bases carnosas de sus hojas exteriores. \nSu aroma da sabores distintivos por lo que marcas como Cinzano y Cynar contienen extracto concentrado de esta hierbaza\. \nEs rico en inulino", "label": "alcachofera"}'
+  veg.arugula:
+    label: roquet
+    summary: Hoja verde oscura con gusto fuerte e intenso utilizado principalmente para hacer ensaladas.
+    info: La roqueta o eruco negro proviene del Mediterráneo y tiene un sabor picante debido al glucósido sinerético que contiene una sustancia llamada gluconasulfita. Es muy usada en la cocina italiana como base de ensaladas y también es común añadirla cruda encima de pizzas después de hornearlas.
+  veg.asparagus:
+    label: espárrago
+    summary: Vástagos tiernos de primavera; verdura delicada estacional.
+    info: El espárrago blanco crece sin luz solar y es más suave que el verde.
+  veg.bamboo_shoot:
+    label: brotes de bambú
+    summary: Brote joven del bambú utilizado como ingrediente básico en cocina asiatca.
+    info: Los brotes de bambú son jóvenes brotes recolectados poco después del crecimiento inicial y forman la base fundamental en las cocinas china, japonesa y tailandesa. Los frescos contienen cianuro por lo que deben ser hervidos antes de consumirse mientras los conservas ya no presentan riesgo.
+  veg.beet:
+    label: remolacha
+    summary: Hortaliza tuberculosa con raíces moradas.
+    info: La remolacha roja contiene betalaina y betacianida que son fuertes colorantes naturales de tonos violetas-rojos. Es rica en nitratos orgánicos los cuales mejoran el rendimiento deportivo e incluso reducen la presión arterial.
+  veg.bok_choy:
+    label: pa-kchoi
+    summary: Hortaliza asiática con tallos blancos y hojas oscuras.
+    info: El pak choi o bok choy es una hortaliza originaria de China y se utiliza comúnmente en la cocina china, japonesa y tailandesa. Es rico en vitaminas C, K, A así como calcio.
   veg.broccoli:
     label: brócoli
     summary: Verdura verde con una cabeza de flores densa en un tallo grueso.
     info: El brócoli es una hortaliza verde perteneciente a la familia de las cruciferas. Es especialmente rica en vitaminas C y K, así como antioxidantes; proviene de Italia.
+  veg.cabbage:
+    label: col
+    summary: Verdura redonda con hojas apretadas que se utiliza para hacer chucrut.
+    info: La coliflor es una hortaliza antigua cultivada en Europa durante miles de años y rique en vitaminas como la A, B-complejo, C y minerales.
   veg.carrot:
     label: zанdía
     summary: Verdura raíz de sabor dulce y color naranja.
     info: La zanahoria común es una planta biénna que se cultiva por su jugoso raíz naranja. Es rica en beta-caroteno (provitamina A) y fibra.
+  veg.cauliflower:
+    label: '"coliflor"'
+    summary: Cabeza blanda formada por flores blancas compactadas.
+    info: '{"info":"El coliflor es un tipo de repollo que pertenece al grupo Brassica y tiene una cabeza blanca densa compuesta por muchos pequeños capullos florales no abiertos."}'
+  veg.celeriac:
+    label: apio rastrero
+    summary: Raíz carnosa del apio utilizada como base para sopas.
+    info: El apio rastrero es una variedad de apio cultivada por su raíz grande y blanca con forma nudosa.
+  veg.celery:
+    label: rábano morado
+    summary: Hortaliza crujiente verde con aroma fuerte.
+    info: El apio picante o rábano morado es originario del Mediterráneo y forma parte de la base clásica en cocina francesa conocida como 'mirepoix', junto con las cebollas y el perejil. Se dice que consumir esta hortaliza requiere más calorías para digerirla que proporcionarla aunque esto no ha sido comprobado científicamente.
+  veg.chard:
+    label: betabell
+    summary: Verdura verde colorida con tallos múltiples.
+    info: El mangoldt o betabel cíclo es una variedad de la remolacha beta vulgaris con tallos verdes, rojos, amarillos u híbridos multicolores que recuerdan un arco iris en miniatura dentro del suelo. Es rico en vitaminas como el complejo B y minerales tales como hierro y magnesio.
+  veg.chickpeas:
+    label: garbanzo
+    summary: Lentejas redondas marrón claro usadas comúnmente.
+    info: El garbanzo es una lenteja popular en Oriente Medio e India y se utiliza como base para el humus (pasta de garbanzos) y los fufú o croquetas hechas con esta harina molida.
+  veg.chili:
+    label: chili
+    summary: Picante pepino rojo o verde usado como base para cocina fuerte.
+    info: El chile picante rojo o verde es una variedad muy ardiente de la especie Capsicum annuum y otras relacionadas. La capsaicina causa el sabor picante del chile y su intensidad se mide en unidades de escala Scoville (ejemplo jalapeño tiene entre 2 500–8 000 puntos). Su función evolutiva consiste principalmente en repeler mamíferos pero no aves que ayudan con la dispersión de las plantas.
   veg.corn:
     label: maíz
     summary: Verdura amarilla con filas de granos jugosos en la espiga.
@@ -18,18 +70,82 @@ cards:
     label: calabacín
     summary: Verdura verde larga con pulpa refrescante y jugosa.
     info: El calabacín es una hortaliza tropical de la familia de las cucurbitáceas. Contiene un 95 % de agua, es refrescante y popular en ensaladas o como snack.
+  veg.eggplant:
+    label: berenjena
+    summary: Vegetal oval con coloración morada oscuro utilizado fundamentalmente para preparar platos mediterraneos.
+    info: El lilek o Solanum melongena proviene de la India y ha sido cultivado durante miles de años. En Italia es conocido como 'melanzana', en Francia como 'aubergine' y en Estados Unidos comúnmente llamada berenjena. Contiene naringenina un potente antioxidante presente principalmente en su piel oscura.
+  veg.endive:
+    label: escarola
+    summary: Hojas blancuzcas con cierto grado de picancia usadas frecuentemente dentro de mezclas verdes.
+    info: La escarola o achicoria es una hortaliza con un gusto amargo característico que pertenece al género de la cicuta silvestre y puede ser cultivada en condiciones oscuras para obtener su color blanco brillante como el 'achicore' francés u holandés llamado witloof. Su sabor agrio proviene principalmente por ácidos intibinosos cuya intensidad disminuye cuando esta planta pasa por procesos culinarios conocidos comúnmente bajo el nombre de blanching.
+  veg.fennel:
+    label: hinojo
+    summary: Planta aromática muy usada tanto por su olor característico como por el uso culinario.
+    info: El hinojo (Anethum graveolens o Foeniculun vulgare), tiene un aroma y sabor dulce de anís debido al compuesto químico anétolo que contiene en sus partes comestibles como la base blanca con forma similar a una cabeza de coliflor llamada 'bulbo', los tallos verdes huecos y las hojas finas parecidas a plumas.
   veg.garlic:
     label: ajo
     summary: Bulbo blanco picante con aroma intenso, base del sabor de muchos platos.
     info: El ajo ha sido utilizado en la cocina durante miles de años como especia y remedio medicinal. Contiene alicina, una sustancia que posee propiedades antibacterianas y antiinflamatorias.
+  veg.ginger:
+    label: jengibre
+    summary: Raíz marrón con textura nudosa usada como especia.
+    info: El jengibre es una raíz de planta originaria del Asia tropical que contiene gingeral, la sustancia responsable por el picor y las propiedades anti-inflamatorias. Los estudios demuestran eficacia en náuseas e indigestión.
+  veg.green_beans:
+    label: Vainas de frijoles
+    summary: Largas y delgadas vainas verde amarillentas que contienen granos no maduros.
+    info: '{"info":"Las vainas de frijoles verdes (\"string beans\")."'
+  veg.kale:
+    label: col cresta
+    summary: Verdura con forma ondulada de tono azulado intenso.
+    info: La col crespa morada es una verdura muy nutritiva de color verde oscuro y textura arrugada.
+  veg.kohlrabi:
+    label: rabanito
+    summary: Hortaliza similar a la col pero con forma redonda.
+    info: |-
+      {"hint":"bulbo azul-verde en tallos; el tallo de la familia del repollo (Brassica oleracea)","info":"Los kalepimienta (Brassica oleracea convarietas gongylodes), también conocidos como coliflor tipo rábano chino, son una hortaliza relacionada con las coles y pertenece al mismo género que los brócolis y flores de col china.
+      Se consumen tanto sus tubérculos gruesos sobre un pedúnculo central como sus hojas verdes perennes.
+      Tienen un gusto dulce-crujiente suave;
+      están disponibles crudos o cocinados según sea necesario para preparar platos diversos."}
+  veg.leek:
+    label: puerco
+    summary: Vegetal dulce parecido a los bulbos usados para sopas.
+    info: El puerco es un vegetal de la familia del ajo y el ají que crece en forma similar al bulbo. Es una planta originaria de Europa oriental con propiedades medicinales similares a las del ajo.
+  veg.lentils:
+    label: guisantes
+    summary: Pequeñas semillas planas usadas principalmente para su alto contenido proteico.
+    info: El guisante de soja (lens esculentus), también conocido como lentilla común, se cultiva desde hace más de diez mil años y actualmente sigue siendo una fuente importante en la alimentación humana.
+  veg.lettuce:
+    label: lechuga
+    summary: Verdura cruda con textura frágil usada comúnmente para ensaldas.
+    info: La lechuga cabeza de ciervo se ha cultivado desde la antigüedad en Egipto y contiene más del 95% agua por lo que es una hortaliza baja en calorías. Existen muchas variedades como Iceberg, Romain, Lollo, Butterhead y Oak Leaf.
+  veg.lotus_root:
+    label: Tallo de loto
+    summary: Corte longitudinal del tallo de una raíz hueca usada comúnmente en cocina asiatique.
+    info: El tallo subterráneo de la planta Nelumbo nucifera revela en su corte transversal un patrón simétrico con agujeros característicos y es fundamental para las cocinas china, japonesa e india por sus vitaminas como el ácido ascórbico o potasio que contiene.
   veg.mushroom:
     label: hongo
     summary: Hongo de color claro-marrón con forma de copa utilizado en cocina.
     info: El champiñón dos esporas es el hongo cultivado más extendido del mundo. Rico en proteínas, vitaminas B y minerales; se usa en una infinidad de platos.
+  veg.okra:
+    label: oca
+    summary: Fruto verde con nervios que tiene una consistencia viscosa; ingrediente base para el guisado llamado 'gumbo'.
+    info: El oca (Abelmoschus manihot), también conocida como quiña de quina en algunas regiones latinoamericanas y por su nombre científico Abelmoschus esculenta, proviene del África tropical.
   veg.onion:
     label: cebolla
     summary: Vegetal picante y en capas para sazonar comidas.
     info: La cebolla común es una de las hortalizas más cultivadas del mundo. Se usa como condimento en todo el planeta; contiene flavonoides con efectos antibacterianos.
+  veg.parsley:
+    label: eneldo
+    summary: Hierba verde brillante utilizada tanto como decoración de comidas como ingrediente aromático.
+    info: El eneldo (Petroselinum crispum) es ampliamente utilizado como especia y adorno para platos. Contiene más vitamina C que las naranjas por peso. Existe una variedad lisa (plana) y otra arrugada; los chefs prefieren la plana debido a su sabor más intenso.
+  veg.parsnip:
+    label: PASTÍNACO
+    summary: Raíz blanca cremosa usada como alimento básico en Europa medieval.
+    info: El pastínaco es una hortaliza de raíz relacionada con la zanahoria y tiene un sabor dulce y nuecesco que se intensifica después del frío.
+  veg.peas:
+    label: Guisante
+    summary: Pequeñas bolitas verdes dentro del capullo simbolizan delicadeza primaveral.
+    info: El guisante es una legumbre cultivada desde la antigüedad y fue estudiado por Gregor Mendel en sus experimentos sobre herencia entre los años de 1856 y 1863. Los guisantes morados también llamados 'guisantes nieve' son comidos enteramente con su vaina, mientras que el tipo dulce tiene un sabor más azucarado.
   veg.pepper:
     label: pimentón
     summary: Verdura colorida brillante con sabor dulce o picante.
@@ -38,7 +154,66 @@ cards:
     label: papa
     summary: Tubérculo subterráneo con almidón que forma la base de muchos platillos en todo el mundo.
     info: La papa proviene de los Andes en Sudamérica y es una de las culturas más importantes del mundo. Es una fuente de carbohidratos, vitamina C y potasio.
+  veg.pumpkin:
+    label: '"calabaza"'
+    summary: '{"summary":"Calabaza grande amarilla redonda usada comúnmente para decoraciones navideñas y recetas típicas de la temporada"}'
+    info: '{"info":"La calabaza proviene de América y es rica en betacaroteno así como vitaminas A y C. La tradición irlandesa del Halloween o jack-o’lantern se originó allá hace mucho tiempo. Las semillas también son una buena fuente natural de zinc, magnesio y proteínas vegetales."}'
+  veg.radish:
+    label: rábano
+    summary: Pequeña verdura crujiente colorada usada comúnmente para apetito y primaveral.
+    info: La rábanos es una hortaliza rastrera de rápido crecimiento. El pequeño rábano del huerto suele ser rojo mientras que el gran rábano de invierno tiende a ser blanco como en el caso del dái kuai o daikón japonés. Contiene glucósidos con propiedades antisépticas y bactericidas.
+  veg.spinach:
+    label: Espinaca
+    summary: Verdura verde oscura rica en hierro.
+    info: El espinaco proviene de la antigua Pérsia medieval y está rico en vitaminas como las K, A, C, ácido fólico e hierro. Desde los años treinta Popeye el marinero lo promocionaba como un alimento saludable para niños.
+  veg.spring_onion:
+    label: cebollita
+    summary: Cebolleta tierna con parte blanca inferior y tallos verdes usadas como aderezo para ensaladas.
+    info: La cebolla de primavera también llamada hierba lila o verdeo es recolectada antes del maduramiento completo y tiene una textura más fina que la tradicional con menor picor en el paladar.
+  veg.squash:
+    label: Calabacín
+    summary: Verdura fundamental para cocina de otoño e invierno.
+    info: |-
+      {"hint":"calabaza de invierno con forma variada","info":"La calabaza de invierno incluye variedades como la buttercup, el pastelito, la deliciosa y la kabocha.
+      Forman una cáscara dura que protege durante meses;
+      pueden almacenarse enteras todo el invierno.
+      Son ricas en vitaminas A, C y complejo B.
+      Tienen un papel importante en las comidas nativas americanas dentro del sistema 'tres hermanas' maíz-frijoles-calabazas.'}
+  veg.swede:
+    label: colraud
+    summary: Raíz anaranjada dulce usada comúnmente en sopas tradicionales escoceses.
+    info: La colrauda o nabo rojo es un cruce entre repollo y remolacha que crece bajo tierra como una raíz redonda de color morado amarillento grande con textura firme pero jugosa cuando está cocida.
+  veg.sweet_potato:
+    label: batat
+    summary: Raíz tuberosa amarilla que es un pariente poco convencional de las patatas originario de los climas cálidos.
+    info: |-
+      La batata dulce proviene de América del Sur y no está relacionada con la papa desde el punto de vista botanicalo;
+      es rica en betacaroteno, vitaminas A y C así como fibra alimentaria;
+      sus colores anaranjados se deben al contenido elevado de betacaroteno;
+  veg.taro:
+    label: taro
+    summary: Hlíz tropical con manchas moradas y rica en almidón.
+    info: '{"hint":"gélido","lang":null,"cards":[{"id":587642346,'
   veg.tomato:
     label: tomate
     summary: Fruto rojo y redondo utilizado como verdura.
     info: El tomate es botánicamente un fruto (baya), pero en la cocina se usa como una verdura. Proviene de América del Sur y contiene licopeno y vitamina C.
+  veg.turnip:
+    label: Nabos
+    summary: Raíz redonda blanca-violeta que se cultivaba tradicionalmente en centroeuropa
+    info: |-
+      La nabo es una hortaliza de raíz similar al rábanos y está relacionada con la col china
+      Fue un ingrediente básico en Europa antes del arribo de las papas desde América Latina
+      Contiene vitaminas como el ácido ascórbico o vitamina C así como calcio y fibra dietética
+  veg.watercress:
+    label: Acelga de Agua
+    summary: Pequeña planta verde oscura con aroma fuerte proveniente de cursos hídricos.
+    info: La acelga de agua o nastúrcio oficial (Nasturtium officinale) crece en arroyos fríos y manantiales. Tiene un sabor picante debido al glucósido isotiocianato llamado sinigrino. Es rica en vitaminas C, K y betacaroteño.
+  veg.yam:
+    label: ñame
+    summary: Raíz amilácea tropical grande muy similar con el batato.
+    info: El yambe o ñame es una raíz almidonada de las regiones tropicales de África, Asia y el Caribe que pertenece a la especie Dioscorea. Se diferencia del batata en que tiene menos jugo, más almidón y no está tan dulce como esta última planta. Puede pesar hasta unos setenta kilogramos.
+  veg.zucchini:
+    label: calabaza italiana
+    summary: Verdura verde tipo verano muy versátil ideal tanto para cocinar como hornear.
+    info: La calabacita o zapallo italiano es una variedad de Cucúrbitas que se cosecha antes de madurar completamente y mide entre 7 y 25 centímetros en longitud. Es originaria del México antiguo pero fue introducida con éxito por Italia al continente europeo donde ha ganado gran aceptación culinaria.

@@ -663,6 +663,552 @@
         "vi": "Tim là một khối cơ rỗng có kích thước bằng nắm đấm, thường đập khoảng 70 lần mỗi phút. Trong suốt cuộc đời, tim sẽ bơm máu đi được quãng đường tương đương ba vòng trái đất.",
         "zh-CN": "心脏是一个大小如拳头的心腔状肌肉，平均每分钟跳动70次。它一生中会把血液泵送到相当于地球绕行三圈的距离。"
       }
+    },
+    {
+      "key": "body.arm",
+      "image": "body.arm.png",
+      "label": {
+        "cs": "paže"
+      },
+      "summary": {
+        "cs": "Horní končetina od ramene po zápěstí."
+      },
+      "info": {
+        "cs": "Paže je horní končetina tvořená třemi segmenty: nadloktím, předloktím a rukou.\nObsahuje přes 30 svalů, kostí a šlach zajišťujících pohyb.\nKosti nadloktí (humerus) a předloktí (radius a ulna) jsou spojeny v loketním kloubu.\nLidská ruka je díky opozici palce jednou z nejdůmyslnějších evolučních adaptací.\n"
+      }
+    },
+    {
+      "key": "body.leg",
+      "image": "body.leg.png",
+      "label": {
+        "cs": "noha"
+      },
+      "summary": {
+        "cs": "Dolní končetina od kyčle po kotník."
+      },
+      "info": {
+        "cs": "Noha (dolní končetina) se skládá ze stehna, lýtka a chodidla.\nJe přizpůsobena k bipedální chůzi a obsahuje nejsilnější svaly těla (čtyřhlavý sval).\nFemur (kost stehenní) je nejdelší a nejsilnější kost v těle.\nAchillova šlacha spojující lýtkový sval s patní kostí je nejsilnější šlacha v těle.\n"
+      }
+    },
+    {
+      "key": "body.knee",
+      "image": "body.knee.png",
+      "label": {
+        "cs": "koleno"
+      },
+      "summary": {
+        "cs": "Největší kloub těla spojující stehno s lýtkem."
+      },
+      "info": {
+        "cs": "Koleno je největší kloub lidského těla a jeden z nejkomplexnějších.\nSestává z čéšky, menisků, zkřížených vazů a postranních vazů.\nJe přizpůsobeno k unášení váhy těla při chůzi a běhu.\nZranění kolenního kloubu jsou jednou z nejčastějších sportovních úrazů.\n"
+      }
+    },
+    {
+      "key": "body.elbow",
+      "image": "body.elbow.png",
+      "label": {
+        "cs": "loket"
+      },
+      "summary": {
+        "cs": "Kloub ohýbající paži; název pochází z luku."
+      },
+      "info": {
+        "cs": "Loket je kloub na vnější straně spoje nadloktí a předloktí.\nUmožňuje ohýbání a natahování paže a rotaci předloktí.\nZajímavostí je, že na lokti není kůže vybavena hmatovými buňkami.\nÚder na nerv (ulnaris) procházející loktem způsobuje typické mravenčení.\n"
+      }
+    },
+    {
+      "key": "body.shoulder",
+      "image": "body.shoulder.png",
+      "label": {
+        "cs": "rameno"
+      },
+      "summary": {
+        "cs": "Kloub spojující paži s trupem s největším rozsahem pohybu."
+      },
+      "info": {
+        "cs": "Ramenní kloub má největší rozsah pohybu ze všech kloubů těla.\nJde o kulový kloub tvořený hlavicí pažní kosti a jamkou lopatky.\nNestabilita ramene ho činí náchylným k vykloubení.\nRotátorová manžeta (svalová skupina) stabilizuje ramenní kloub.\n"
+      }
+    },
+    {
+      "key": "body.neck",
+      "image": "body.neck.png",
+      "label": {
+        "cs": "krk"
+      },
+      "summary": {
+        "cs": "Část těla spojující hlavu s trupem; obsahuje životně důležité cévy."
+      },
+      "info": {
+        "cs": "Krk je oblast mezi lebkou a hrudníkem obsahující sedm krčních obratlů.\nProcházejí jím životně důležité struktury: tepny, jícen, průdušnice a mícha.\nObsahuje řadu svalů umožňujících otáčení a naklánění hlavy.\nŽirafa má stejný počet krčních obratlů jako člověk (7), pouze jsou mnohem delší.\n"
+      }
+    },
+    {
+      "key": "body.chest",
+      "image": "body.chest.png",
+      "label": {
+        "cs": "hrudník"
+      },
+      "summary": {
+        "cs": "Přední část trupu obsahující srdce a plíce."
+      },
+      "info": {
+        "cs": "Hrudník je přední část trupu ohraničená žebry, hrudní kostí a páteří.\nChrání životně důležité orgány: srdce a plíce.\nHrudní koš se skládá z 12 párů žeber, hrudní kosti a hrudní části páteře.\nDýchání pohybem hrudníku zajišťuje bránice a mezižeberní svaly.\n"
+      }
+    },
+    {
+      "key": "body.back",
+      "image": "body.back.png",
+      "label": {
+        "cs": "záda"
+      },
+      "summary": {
+        "cs": "Zadní část trupu; největší svalová skupina těla."
+      },
+      "info": {
+        "cs": "Záda jsou zadní část trupu od šíje po hýžde.\nObsahují páteř (33 obratlů) obklopenou svaly zádovými.\nBolesti zad jsou jednou z nejčastějších příčin pracovní neschopnosti.\nSvaly zad (trapézový, latissimus dorsi) jsou největší svalovou skupinou horní části těla.\n"
+      }
+    },
+    {
+      "key": "body.stomach",
+      "image": "body.stomach.png",
+      "label": {
+        "cs": "břicho"
+      },
+      "summary": {
+        "cs": "Přední část trupu pod hrudníkem; hovorově i název žaludku."
+      },
+      "info": {
+        "cs": "Břicho je přední část trupu mezi hrudníkem a pánví.\nObsahuje trávicí orgány: žaludek, střeva, játra, slinivku a slezinu.\nBřišní svaly (abdominální) stabilizují páteř a chrání orgány.\nŽaludek (gastrum) je svalnatý orgán trávicí systému.\n"
+      }
+    },
+    {
+      "key": "body.hip",
+      "image": "body.hip.png",
+      "label": {
+        "cs": "bok"
+      },
+      "summary": {
+        "cs": "Oblast okolo pánve; největší kloub nesoucí váhu těla."
+      },
+      "info": {
+        "cs": "Bok je oblast okolo kyčelního kloubu (articulus coxae), který spojuje stehenní kost s pánevní.\nJde o kulový kloub unášející váhu těla při chůzi.\nŽeny mají v průměru širší pánev než muži kvůli porodu.\nNáhrada kyčelního kloubu je jedno z nejčastějších ortopedických chirurgických výkonů.\n"
+      }
+    },
+    {
+      "key": "body.finger",
+      "image": "body.finger.png",
+      "label": {
+        "cs": "prst ruky"
+      },
+      "summary": {
+        "cs": "Jeden z pěti prstů na ruce; každý má tři články."
+      },
+      "info": {
+        "cs": "Prst ruky je jeden z pěti prstů; palec má dva články, ostatní tři.\nOcitneme vždy deset prstů: kombinace jejich pohybů umožňuje chůzi nástrojů, hudbu a psaní.\nFingerprinty jsou jedinečné u každého člověka.\nPrsty jsou díky hustotě hmatových receptorů jedním z nejcitlivějších částí těla.\n"
+      }
+    },
+    {
+      "key": "body.thumb",
+      "image": "body.thumb.png",
+      "label": {
+        "cs": "palec"
+      },
+      "summary": {
+        "cs": "Zkrácený mohutný prst na ruce; opoziční pohyb palce je klíčový pro úchop."
+      },
+      "info": {
+        "cs": "Palec je zkrácený první prst ruky schopný opozice (dotýkání se ostatních prstů).\nOpoziční pohyb palce je klíčovou adaptací umožňující lidskou manipulaci s nástroji.\nVyvinula se v průběhu evoluce a je přítomna jen u primátů.\nZnámé gesto palec nahoru (thumbs up) je celosvětovým signálem souhlasu a pozitivity.\n"
+      }
+    },
+    {
+      "key": "body.toe",
+      "image": "body.toe.png",
+      "label": {
+        "cs": "prst nohy"
+      },
+      "summary": {
+        "cs": "Jeden z pěti prstů na noze; palec nohy nese váhu při chůzi."
+      },
+      "info": {
+        "cs": "Prst nohy je jeden z pěti prstů nohy.\nPalec nohy (hallux) je zásadní pro rovnováhu a odraz při chůzi; nese největší část váhy.\nNa rozdíl od primátů nemůže lidský palec nohy vykonávat opozici.\nZdravý stav nehtů nohou je indikátorem celkového zdraví organismu.\n"
+      }
+    },
+    {
+      "key": "body.wrist",
+      "image": "body.wrist.png",
+      "label": {
+        "cs": "zápěstí"
+      },
+      "summary": {
+        "cs": "Kloub spojující ruku s předloktím; klíčový pro jemnou motoriku."
+      },
+      "info": {
+        "cs": "Zápěstí je oblast spojující ruku s předloktím tvořená osmi drobnými kostmi (karpálie).\nUmožňuje pohyb ruky ve čtyřech směrech a rotaci.\nKarpální tunel (úzký kanál v zápěstí) může způsobit syndrom karpálního tunelu při přetížení.\nPulz lze snadno nahmatat na vnitřní straně zápěstí.\n"
+      }
+    },
+    {
+      "key": "body.ankle",
+      "image": "body.ankle.png",
+      "label": {
+        "cs": "kotník"
+      },
+      "summary": {
+        "cs": "Kloub spojující chodidlo s bércem; nejčastěji zraněný kloub."
+      },
+      "info": {
+        "cs": "Kotník je kloub spojující bérec s chodidlem tvořený třemi kostmi.\nUmožňuje pohyb chodidla nahoru a dolů a mírné stranové pohyby.\nVyvrtnutý kotník (distorze) je nejčastějším sportovním zraněním.\nAchillova šlacha přichází k patní kosti v oblasti kotníku.\n"
+      }
+    },
+    {
+      "key": "body.heel",
+      "image": "body.heel.png",
+      "label": {
+        "cs": "pata"
+      },
+      "summary": {
+        "cs": "Zadní část chodidla; nese váhu celého těla při stoji."
+      },
+      "info": {
+        "cs": "Pata (calcaneus) je největší kost chodidla.\nPři stoji nese většinu váhy těla.\nPatní kost je spojena s Achillovou šlachou.\nBolest paty (plantární fasciitida) je jednou z nejčastějších potíží chodidla.\n"
+      }
+    },
+    {
+      "key": "body.palm",
+      "image": "body.palm.png",
+      "label": {
+        "cs": "dlaň"
+      },
+      "summary": {
+        "cs": "Vnitřní plocha ruky; oblast nejhustšich hmatových receptorů."
+      },
+      "info": {
+        "cs": "Dlaň je vnitřní plocha ruky mezi prsty a zápěstím.\nObsahuje velmi hustou sít hmatových receptorů (Meissnerova tělíska).\nNa dlani nejsou vlasové folikuly ani mazové žlázy.\nČarování z dlaně (chiromantie) je staroveká praktika čtení osudu z linek dlaně.\n"
+      }
+    },
+    {
+      "key": "body.forehead",
+      "image": "body.forehead.png",
+      "label": {
+        "cs": "čelo"
+      },
+      "summary": {
+        "cs": "Přední část lebky nad obočím; plocha pro výraz emocí."
+      },
+      "info": {
+        "cs": "Čelo je přední část lebky nad obočím a pod vlasovou linií.\nJe jednou z nejviditelnějších oblastí při výrazu emocí; svraštění čela vyjadřuje znepokojení.\nU mnoha kultur bylo označení na čele symbolické (přísaha, kasta).\nV neurologii je čelní lalok mozku spojen s plánováním a rozhodováním.\n"
+      }
+    },
+    {
+      "key": "body.chin",
+      "image": "body.chin.png",
+      "label": {
+        "cs": "brada"
+      },
+      "summary": {
+        "cs": "Dolní část obličeje pod dolním rtem."
+      },
+      "info": {
+        "cs": "Brada je nejspodnější část obličeje tvořená dolní čelistí.\nU lidí je výrazná brada (prominence menti) jedinečná vlastnost v živočišné říši; jiné primáti ji nemají.\nProč máme bradu, je stále předmětem vědecké debaty.\nV angličtině se výraz chin up používá jako povzbuzení k optimismu.\n"
+      }
+    },
+    {
+      "key": "body.cheek",
+      "image": "body.cheek.png",
+      "label": {
+        "cs": "tvář"
+      },
+      "summary": {
+        "cs": "Tučnatá oblast na bocích obličeje; vyjadřuje rudnutím emoce."
+      },
+      "info": {
+        "cs": "Tvář (líce) je oblast na bocích obličeje obsahující lícní kost a tukové polštářky.\nRudnutí tváří (erytém) je automatická fyziologická reakce na emoce, jako jsou stud nebo vzrušení.\nTváře miminek jsou záměrně drobné a tučné; evoluční adaptace vzbuzující rodičovskou náklonnost.\nNa tvář se přibližuje líbání ve většině kultur světa.\n"
+      }
+    },
+    {
+      "key": "body.tongue",
+      "image": "body.tongue.png",
+      "label": {
+        "cs": "jazyk"
+      },
+      "summary": {
+        "cs": "Svalový orgán v ústech pro chuť, žvýkání a řeč."
+      },
+      "info": {
+        "cs": "Jazyk je svalový orgán pokrytý chuťovými pohárky (přes 10 000).\nUmožňuje chuťové vnímání pěti základních chutí: sladké, slané, kyselé, hořké a umami.\nJe klíčový pro artikulaci řeči a pomáhá při polykání.\nJazyk je nejrychlejší sval v těle; pracuje i při mluvení rychlostí přes 100 km/h.\n"
+      }
+    },
+    {
+      "key": "body.tooth",
+      "image": "body.tooth.png",
+      "label": {
+        "cs": "zub"
+      },
+      "summary": {
+        "cs": "Tvrdá struktura v ústech k žvýkání potravy."
+      },
+      "info": {
+        "cs": "Zub je tvrdá struktura tvořená sklovinou (nejtvrdší tkáň těla), dentinem a dřeňovou dutinou.\nČlověk má ve stálém chrupu 32 zubů.\nSkloviná se po ztrátě neobnoví; prevence je klíčová.\nNejstarší zachované lidské zuby jsou staré přes dva miliony let a pomáhají rekonstruovat evoluci.\n"
+      }
+    },
+    {
+      "key": "body.lip",
+      "image": "body.lip.png",
+      "label": {
+        "cs": "ret"
+      },
+      "summary": {
+        "cs": "Jedna ze dvou masitých okrajů ústního otvoru."
+      },
+      "info": {
+        "cs": "Ret je jedna ze dvou měkkých svalnatých tkání ohraničujících ústa.\nJsou zásobeny mnoha nervovými zakončeními a jsou velmi citlivé.\nBarva rtů je způsobena prokrvením; modravé rty mohou signalizovat nedostatek kyslíku.\nRty jsou klíčové pro mimiku, polibky i výslovnost hlásek p, b, m.\n"
+      }
+    },
+    {
+      "key": "body.eyebrow",
+      "image": "body.eyebrow.png",
+      "label": {
+        "cs": "obočí"
+      },
+      "summary": {
+        "cs": "Pás chlupů nad každým okem; klíčové pro výraz obličeje."
+      },
+      "info": {
+        "cs": "Obočí je pás chlupů nad horním víčkem oka.\nJe klíčové pro neverbální komunikaci; pohybem obočí vyjadřujeme širší škálu emocí.\nFunkčně chrání oko před potem a deštěm.\nVýzkumy ukazují, že lidé obtížněji rozeznávají tváře bez obočí než tváře bez očí.\n"
+      }
+    },
+    {
+      "key": "body.hair",
+      "image": "body.hair.png",
+      "label": {
+        "cs": "vlasy"
+      },
+      "summary": {
+        "cs": "Vlákna rostoucí z vlasové pokožky na hlavě."
+      },
+      "info": {
+        "cs": "Vlasy jsou vlákna z keratinu rostoucí z vlasových folikulů na hlavě.\nČlověk má průměrně 100 000 vlasů na hlavě; každý den jich vypadne 50 až 100.\nRoste přibližně 1,25 cm za měsíc.\nBarva vlasů je dána pigmentem melaninem; šednutí nastává, když folikuly přestanou melanin produkovat.\n"
+      }
+    },
+    {
+      "key": "body.nail",
+      "image": "body.nail.png",
+      "label": {
+        "cs": "nehet"
+      },
+      "summary": {
+        "cs": "Tvrdá keratinová destička na konci prstů rukou a nohou."
+      },
+      "info": {
+        "cs": "Nehet je tvrdá destička z keratinu na konci každého prstu.\nChrání citlivé konečky prstů a zlepšují úchop drobných předmětů.\nNarůstají přibližně 3 mm za měsíc; nehty na rukou rostou rychleji než na nohou.\nStav nehtů odráží zdravotní stav: bílé skvrny, rýhy nebo zbarvení mohou signalizovat nemoc.\n"
+      }
+    },
+    {
+      "key": "body.brain",
+      "image": "body.brain.png",
+      "label": {
+        "cs": "mozek"
+      },
+      "summary": {
+        "cs": "Řídicí centrum těla; nejkomplexnější biologická struktura ve vesmíru."
+      },
+      "info": {
+        "cs": "Lidský mozek váží přibližně 1,4 kg a obsahuje přes 86 miliard neuronů.\nJe rozdělen na dvě hemisféry; levá ovládá pravou stranu těla a vice versa.\nSpoléhá na 20 % energie celého těla přesto, že tvoří jen 2 % hmotnosti.\nMozek je jedinou tkání v těle, která necítí bolest (nemá nociceptory).\n"
+      }
+    },
+    {
+      "key": "body.lung",
+      "image": "body.lung.png",
+      "label": {
+        "cs": "plíce"
+      },
+      "summary": {
+        "cs": "Párový orgán hrudní dutiny přijímající kyslík z vzduchu."
+      },
+      "info": {
+        "cs": "Plíce jsou párový orgán v hrudní dutině tvořený miliony plicních sklípků (alveolů).\nPlocha celkového povrchu alveolů v plicích je přibližně 70 m².\nDospělý člověk dýchá 12 až 20x za minutu a přijme 500 ml vzduchu při každém nádechu.\nPravá plíce je větší než levá, protože srdce zaujímá část místa na levé straně.\n"
+      }
+    },
+    {
+      "key": "body.liver",
+      "image": "body.liver.png",
+      "label": {
+        "cs": "játra"
+      },
+      "summary": {
+        "cs": "Největší vnitřní orgán těla; chemická laboratoř organismu."
+      },
+      "info": {
+        "cs": "Játra jsou největší vnitřní orgán vážící přes 1,5 kg.\nPlní přes 500 funkcí: filtrují krev, produkují žluč, syntetizují bílkoviny a ukládají glykogen.\nJsou jediným orgánem schopným kompletní regenerace ze zbytku tkáně.\nVelké množství alkoholu nebo toxinů může způsobit cirhózu (jizevnaté poškození jater).\n"
+      }
+    },
+    {
+      "key": "body.kidney",
+      "image": "body.kidney.png",
+      "label": {
+        "cs": "ledvina"
+      },
+      "summary": {
+        "cs": "Párový orgán filtrující krev a produkující moč."
+      },
+      "info": {
+        "cs": "Ledviny jsou párový orgán ve tvaru fazole umístěný v zadní části břišní dutiny.\nFiltrují přes 180 litrů krve denně a produkují 1 až 2 litry moče.\nObsahují přes milion filtrační jednotek (nefronů).\nLedviny regulují krevní tlak, rovnováhu elektrolytů a produkci červených krvinek.\n"
+      }
+    },
+    {
+      "key": "body.spine",
+      "image": "body.spine.png",
+      "label": {
+        "cs": "páteř"
+      },
+      "summary": {
+        "cs": "Sloupec 33 obratlů chránící míchu a podporující tělo."
+      },
+      "info": {
+        "cs": "Páteř je sloupec 33 obratlů spojujících lebku s kostrčí.\nChrání míchu a slouží jako hlavní opora těla.\nMezi obratli jsou meziobratlové ploténky fungující jako tlumivče nárazů.\nPřirozené zakřivení páteře (lordóza, kyfóza) je adaptací pro vzpřímenou chůzi.\n"
+      }
+    },
+    {
+      "key": "body.bone",
+      "image": "body.bone.png",
+      "label": {
+        "cs": "kost"
+      },
+      "summary": {
+        "cs": "Tvrdá pojivová tkáň tvořící kostru; živý orgán obsahující dřeň."
+      },
+      "info": {
+        "cs": "Kost je tvrdá tkáň tvořená kostními buňkami a minerálními solemi (vápník, fosfor).\nLidská kostra má 206 kostí v dospělosti; dítě jich má přes 300 (mnoho srostí).\nKostní dřeň produkuje červené krvinky, bílé krvinky a krevní destičky.\nKosti jsou živá tkáň; neustále se přestavují a hojí po zlomeninách.\n"
+      }
+    },
+    {
+      "key": "body.muscle",
+      "image": "body.muscle.png",
+      "label": {
+        "cs": "sval"
+      },
+      "summary": {
+        "cs": "Stažlivá tkáň umožňující pohyb těla."
+      },
+      "info": {
+        "cs": "Sval je tkáň schopná kontrakce, umožňující pohyb těla.\nLidské tělo má přes 600 svalů tvořících 40 % tělesné hmotnosti.\nNejsilnější sval je žvýkací sval (masseter); nejmenší je třmínkový sval ve středním uchu.\nSvaly jsou trojího druhu: kosterní (ovladatelné), hladké (vnitřní orgány) a srdeční.\n"
+      }
+    },
+    {
+      "key": "body.skin",
+      "image": "body.skin.png",
+      "label": {
+        "cs": "kůže"
+      },
+      "summary": {
+        "cs": "Největší orgán těla; ochrana, termoregulace a hmat."
+      },
+      "info": {
+        "cs": "Kůže je největší orgán lidského těla a pokrývá plochu přibližně 2 m².\nPlní funkce: ochrana před infekcí, UV záření, termoregulace, hmat a syntéza vitamínu D.\nObnova buněk vnější vrstvy trvá přibližně 2 až 4 týdny.\nKůže je domovem přes milion bakterií na 1 cm² povrchu.\n"
+      }
+    },
+    {
+      "key": "body.throat",
+      "image": "body.throat.png",
+      "label": {
+        "cs": "hrdlo"
+      },
+      "summary": {
+        "cs": "Dutina spojující ústa s jícnem a průdušnicí."
+      },
+      "info": {
+        "cs": "Hrdlo (hltan) je dutina za nosem a ústy sloužící jako cesta pro vzduch i potravu.\nObsahuje mandle (tonzily) jako součást imunitního systému.\nHltanový reflex (gag reflex) brání vdechnutí cizích těles.\nAngína a záněty hrdla jsou jedny z nejčastějších dětských onemocnění.\n"
+      }
+    },
+    {
+      "key": "body.calf",
+      "image": "body.calf.png",
+      "label": {
+        "cs": "lýtko"
+      },
+      "summary": {
+        "cs": "Zadní část dolní nohy mezi kolenem a kotníkem."
+      },
+      "info": {
+        "cs": "Lýtko je zadní svalová část dolní nohy mezi kolenem a kotníkem.\nHlavní sval lýtka (gastrocnemius) umožňuje stoupání na špičky a odraz při skoku.\nLýtko je klíčové pro venózní návrat krve ze spodních končetin k srdci.\nKřeče lýtka jsou časté u sportovců i těhotných žen.\n"
+      }
+    },
+    {
+      "key": "body.thigh",
+      "image": "body.thigh.png",
+      "label": {
+        "cs": "stehno"
+      },
+      "summary": {
+        "cs": "Část nohy mezi kyčlí a kolenem; největší svalová skupina."
+      },
+      "info": {
+        "cs": "Stehno je část dolní končetiny mezi kyčelním a kolenním kloubem.\nObsahuje nejsilnější svalovou skupinu těla: čtyřhlavý sval stehenní (quadriceps) a hamstringy.\nStehenní kost (femur) je nejdelší a nejsilnější kost v těle.\nZraněné stehenní kosti nebo svaly výrazně omezují pohyblivost.\n"
+      }
+    },
+    {
+      "key": "body.belly_button",
+      "image": "body.belly_button.png",
+      "label": {
+        "cs": "pupík"
+      },
+      "summary": {
+        "cs": "Jizva uprostřed břicha po přestřižení pupečníku."
+      },
+      "info": {
+        "cs": "Pupík (umbilicus) je jizva v místě přichycení pupečníku, přes nějž plod přijímal živiny od matky.\nJeho tvar (vpadlý nebo vypouklý) závisí na způsobu zahojení.\nPupík hostí specifické mikrobiální společenstvo; výzkumy zaznamenaly unikátní bakterie.\nV kulturách celého světa má pupík symbolický i spirituální charakter.\n"
+      }
+    },
+    {
+      "key": "body.temple",
+      "image": "body.temple.png",
+      "label": {
+        "cs": "spánek"
+      },
+      "summary": {
+        "cs": "Měkká oblast na bocích čela nad lícní kostí."
+      },
+      "info": {
+        "cs": "Spánek je oblast na bocích hlavy nad lícní kostí a před uchem.\nJe anatomicky měkčí část lebky (squamózní část spánkové kosti) a zranitelná vůči nárazům.\nSpánkové tepny (temporální) jsou dobře hmatatelné při klepání srdce.\nSvalový sval (temporalis) se přikládá zde a slouží k žvýkání.\n"
+      }
+    },
+    {
+      "key": "body.jaw",
+      "image": "body.jaw.png",
+      "label": {
+        "cs": "čelist"
+      },
+      "summary": {
+        "cs": "Dolní kost obličeje pohybující se při žvýkání a mluvení."
+      },
+      "info": {
+        "cs": "Čelist (mandibula) je jediná pohyblivá kost lebky.\nUmožňuje žvýkání, polykání a mluvení.\nTMJ (temporomandibulární kloub) je jedním z nejkomplexnějších kloubů těla.\nBolesti čelisti mohou být způsobeny skřípáním zubů (bruxismus) nebo zánětem kloubu.\n"
+      }
+    },
+    {
+      "key": "body.eyelash",
+      "image": "body.eyelash.png",
+      "label": {
+        "cs": "řasa"
+      },
+      "summary": {
+        "cs": "Řada zakřivených chlupů na okraji víčka chránící oko."
+      },
+      "info": {
+        "cs": "Řasy jsou krátké zakřivené chlupy rostoucí na okrajích víček.\nChrání oko před prachem, potem a cizorodými předměty.\nDospělý člověk má 100 až 150 řas na horním víčku a 50 až 75 na dolním.\nŘasy se obnoví přibližně za 4 až 8 týdnů.\n"
+      }
+    },
+    {
+      "key": "body.vein",
+      "image": "body.vein.png",
+      "label": {
+        "cs": "žíla"
+      },
+      "summary": {
+        "cs": "Céva vedoucí odkysličenou krev k srdci; viditelná na zápěstí."
+      },
+      "info": {
+        "cs": "Žíla je krevní céva vedoucí krev zpět k srdci.\nNa rozdíl od tepen mají žíly chlopně bránící zpětnému toku krve.\nModravé zbarvení žil na zápěstí je optický efekt; krev v žilách je tmavě červená, nikoli modrá.\nKřečové žíly vznikají selháním chlopní.\n"
+      }
     }
   ]
 }

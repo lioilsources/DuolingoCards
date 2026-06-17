@@ -821,6 +821,526 @@
         "vi": "Thái dương đến từ Nam Mỹ và hiện được trồng ở vùng nhiệt đới trên toàn thế giới. Trái cây này chứa enzyme bromelain giúp hỗ trợ tiêu hóa.",
         "zh-CN": "菠萝原产于南美洲，如今在全球热带地区广泛种植。它含有帮助消化的酶——凤梨酵素（bromelain）。"
       }
+    },
+    {
+      "key": "fruit.lemon",
+      "image": "fruit.lemon.png",
+      "label": {
+        "cs": "citron"
+      },
+      "summary": {
+        "cs": "Kyselý žlutý citrus; zdroj vitamínu C a arómy."
+      },
+      "info": {
+        "cs": "Citron je kyselý citrusový plod pocházející z Asie.\nJe bohatý na vitamín C a kyselinu citronovou.\nPoužívá se v kuchyni, nápojích, kosmetice i čisticích prostředcích.\nÁrovka citroníku (Citrus limon) obsahuje silici s charakteristickým citronovým parfémem.\n"
+      }
+    },
+    {
+      "key": "fruit.lime",
+      "image": "fruit.lime.png",
+      "label": {
+        "cs": "limetka"
+      },
+      "summary": {
+        "cs": "Malý zelený kyselý citrus; klíčová ingredience tropické kuchyně."
+      },
+      "info": {
+        "cs": "Limetka je malý zelený citrus s kyselou šťávou a aromatickou kůrou.\nJe nezbytná v mexické, thajské a vietnamské kuchyni.\nObsahuje méně vitamínu C než citron, ale silnou arómu.\nKonzumace limetky chrání námořníky před kurdějemi (vitamin C).\n"
+      }
+    },
+    {
+      "key": "fruit.kiwi",
+      "image": "fruit.kiwi.png",
+      "label": {
+        "cs": "kiwi"
+      },
+      "summary": {
+        "cs": "Hnědé chlupaté ovoce se zelenou dužinou; bohaté na vitamíny."
+      },
+      "info": {
+        "cs": "Kiwi (Actinidia deliciosa) je původem z Číny, kde se nazývá Yang tao nebo Chinese gooseberry.\nNový Zéland ho komercionalizoval a přejmenoval po národním ptáku kiwi.\nObsahuje dvojnásobek vitamínu C oproti pomeranči.\nDužina je vivid zelená; existují i zlaté (žluté) odrůdy.\n"
+      }
+    },
+    {
+      "key": "fruit.peach",
+      "image": "fruit.peach.png",
+      "label": {
+        "cs": "broskev"
+      },
+      "summary": {
+        "cs": "Sametová žluto-růžová peckovice; symbol léta."
+      },
+      "info": {
+        "cs": "Broskev (Prunus persica) pochází z Číny, kde je symbolem nesmrtelnosti.\nJejí jemná sametová pokožka je charakteristická.\nExistují bílé a žluté odrůdy; nektariny jsou hladká varianta bez chloupků.\nV Číně jsou broskve součástí Nového roku a léčivé mytologie.\n"
+      }
+    },
+    {
+      "key": "fruit.plum",
+      "image": "fruit.plum.png",
+      "label": {
+        "cs": "švestka"
+      },
+      "summary": {
+        "cs": "Fialová peckovice; základ slivovice a povidel."
+      },
+      "info": {
+        "cs": "Švestka (Prunus domestica) je základní ovoce střední Evropy.\nSlivovice (švestkový destilát) je tradiční česká a slovenská pálenka.\nPovidla švestková jsou typickým plodem podzimní sklizně.\nExistují přes 2000 odrůd švestek po celém světě.\n"
+      }
+    },
+    {
+      "key": "fruit.apricot",
+      "image": "fruit.apricot.png",
+      "label": {
+        "cs": "meruňka"
+      },
+      "summary": {
+        "cs": "Malá oranžová peckovice; sladkokyselá a šťavnatá."
+      },
+      "info": {
+        "cs": "Meruňka (Prunus armeniaca) pochází ze střední Asie.\nPěstuje se v Česku i celé Evropě; nejsladší jsou z Turecka a Španělska.\nBohatá na beta-karoten a vitamín A.\nSušené meruňky jsou oblíbenou zdravou svačinou.\n"
+      }
+    },
+    {
+      "key": "fruit.raspberry",
+      "image": "fruit.raspberry.png",
+      "label": {
+        "cs": "malina"
+      },
+      "summary": {
+        "cs": "Červená složená bobule; symbol léta v zahradě."
+      },
+      "info": {
+        "cs": "Malina (Rubus idaeus) je složená bobule tvořená mnoha malými kostičkami (drupelets).\nRoste divoce i pěstěně; sklizeň probíhá v létě i na podzim.\nBohatá na vitamíny C a K, mangán a antioxidanty.\nMalinový džem a malinový ocet jsou tradiční pochutiny.\n"
+      }
+    },
+    {
+      "key": "fruit.blueberry",
+      "image": "fruit.blueberry.png",
+      "label": {
+        "cs": "borůvka"
+      },
+      "summary": {
+        "cs": "Tmavě modrá bobule; superpotravina plná antioxidantů."
+      },
+      "info": {
+        "cs": "Borůvka (Vaccinium myrtillus pro divou, V. corymbosum pro zahradní) je bohatá na antokyany.\nAnthokyany dávají borůvkám jejich tmavě modrou barvu a silné antioxidační vlastnosti.\nVýzkumy ukazují pozitivní vliv na kognitivní funkce a zdraví srdce.\nZahradní borůvky (highbush) jsou větší než divoké lesní.\n"
+      }
+    },
+    {
+      "key": "fruit.blackberry",
+      "image": "fruit.blackberry.png",
+      "label": {
+        "cs": "ostružina"
+      },
+      "summary": {
+        "cs": "Tmavě fialová složená bobule z ostružiníku."
+      },
+      "info": {
+        "cs": "Ostružina (Rubus fruticosus) je tmavě fialová složená bobule rostoucí na trnitém keři.\nDivá ostružina roste na okrajích lesů a v křovinách.\nObsahuje vysoké množství vitamínu C, K a vlákniny.\nOstružinový džem, kompot a ostružinový likér jsou tradiční produkty.\n"
+      }
+    },
+    {
+      "key": "fruit.coconut",
+      "image": "fruit.coconut.png",
+      "label": {
+        "cs": "kokos"
+      },
+      "summary": {
+        "cs": "Velký tropický ořech s tvrdou skořápkou a bílou dužinou."
+      },
+      "info": {
+        "cs": "Kokos (Cocos nucifera) je plod kokosové palmy; botanicky je ořechem, nikoli ořechem, ale kostičkou.\nKokosová voda uvnitř nezralého plodu je přirozenou iontovou nápojí.\nKokosové mléko a olej jsou základem jihovýchodoasijské a indické kuchyně.\nKokosová palma se nazývá stromem tisíce využití (tree of life).\n"
+      }
+    },
+    {
+      "key": "fruit.papaya",
+      "image": "fruit.papaya.png",
+      "label": {
+        "cs": "papája"
+      },
+      "summary": {
+        "cs": "Velký tropický plod se sytě oranžovou dužinou."
+      },
+      "info": {
+        "cs": "Papája (Carica papaya) pochází z tropické Ameriky.\nObsahuje enzym papain podporující trávení bílkovin.\nJe bohatá na vitamín C, beta-karoten a antioxidanty.\nNezralá papája se v jihovýchodoasijské kuchyni používá jako zelenina (som tam salát).\n"
+      }
+    },
+    {
+      "key": "fruit.guava",
+      "image": "fruit.guava.png",
+      "label": {
+        "cs": "guava"
+      },
+      "summary": {
+        "cs": "Tropický plod s intenzivní vůní a bílou nebo růžovou dužinou."
+      },
+      "info": {
+        "cs": "Guava (Psidium guajava) pochází z tropické Ameriky a je rozšířená po celé tropické Asii a Africe.\nObsahuje 4x více vitamínu C než pomeranč.\nKůra i semena jsou jedlá; celý plod je výživný.\nGuavová šťáva a džem jsou populárními produkty v tropických zemích.\n"
+      }
+    },
+    {
+      "key": "fruit.pomegranate",
+      "image": "fruit.pomegranate.png",
+      "label": {
+        "cs": "granátové jablko"
+      },
+      "summary": {
+        "cs": "Červený plod s tisíci sladkými semeny; symbol plodnosti."
+      },
+      "info": {
+        "cs": "Granátové jablko (Punica granatum) pochází ze střední Asie a Středomoří.\nObsahuje přes 600 semen v průhledné červené dužině (arily).\nBohaté na antioxidanty; výzkumy sledují jeho vliv na srdce a záněty.\nSymbolizuje plodnost a hojnost v mnoha kulturách (řecká, judaistická, islámská).\n"
+      }
+    },
+    {
+      "key": "fruit.fig",
+      "image": "fruit.fig.png",
+      "label": {
+        "cs": "fík"
+      },
+      "summary": {
+        "cs": "Hruškovitý plod plátániku fíkovníku; sladký a plný semínek."
+      },
+      "info": {
+        "cs": "Fík (Ficus carica) je jedním z nejstarších pěstovaných plodů; doklady sahají 11 000 let nazpět.\nVe skutečnosti nejde o plod, ale o nádobu naplněnou tisíci drobných kvítků.\nAdamovy a Eviny listy v biblickém příběhu jsou listy fíkovníku.\nSušené fíky jsou výborným zdrojem vápníku, draslíku a vlákniny.\n"
+      }
+    },
+    {
+      "key": "fruit.date",
+      "image": "fruit.date.png",
+      "label": {
+        "cs": "datle"
+      },
+      "summary": {
+        "cs": "Sladký hnědý oválný plod datlovníku; základní potravina Blízkého Východu."
+      },
+      "info": {
+        "cs": "Datle (Phoenix dactylifera) jsou sladké plody datlovníku palmového.\nJsou základní potravinou Blízkého Východu již tisíce let.\nObsahují přes 60 % cukru a jsou výrazným zdrojem energie.\nV islámu se datle tradičně jedí první při ukončení postu Ramadánu (Iftar).\n"
+      }
+    },
+    {
+      "key": "fruit.melon",
+      "image": "fruit.melon.png",
+      "label": {
+        "cs": "meloun"
+      },
+      "summary": {
+        "cs": "Velký sladký plod s oranžovou, zelenou nebo bílou dužinou."
+      },
+      "info": {
+        "cs": "Meloun (Cucumis melo) je tropický až subtropický plod s vysokým obsahem vody.\nPochází z Afriky a Asie; dnes se pěstuje po celém světě.\nObsahuje přes 90 % vody; je výtečně hydratující.\nExistují stovky odrůd: cantaloupe, honeydew, galia, charentais a další.\n"
+      }
+    },
+    {
+      "key": "fruit.cantaloupe",
+      "image": "fruit.cantaloupe.png",
+      "label": {
+        "cs": "kantalup"
+      },
+      "summary": {
+        "cs": "Žluto-hnědý síťkovaný meloun s sytě oranžovou dužinou."
+      },
+      "info": {
+        "cs": "Kantalup (Cucumis melo var. cantalupensis) je oblíbená odrůda melounu původem z Asie.\nNázev pochází od papežského sídla Cantalupo poblíž Říma.\nOranžová dužina je bohatá na beta-karoten a vitamín A.\nJe jedním z nejsladších typů melounu.\n"
+      }
+    },
+    {
+      "key": "fruit.grapefruit",
+      "image": "fruit.grapefruit.png",
+      "label": {
+        "cs": "grep"
+      },
+      "summary": {
+        "cs": "Velký hořko-sladký citrus; dietní superstar."
+      },
+      "info": {
+        "cs": "Grep (Citrus paradisi) je hybrid pomeranče a pomela.\nByl popsán v 18. stol. na Barbadosu.\nRůžový a červený grep obsahují lykopen a beta-karoten.\nGrepová šťáva interaguje s mnoha léky; pacienti musejí informovat lékaře.\n"
+      }
+    },
+    {
+      "key": "fruit.tangerine",
+      "image": "fruit.tangerine.png",
+      "label": {
+        "cs": "mandarinka"
+      },
+      "summary": {
+        "cs": "Malý sladký citrus s volnou slupkou; symbol Vánoc."
+      },
+      "info": {
+        "cs": "Mandarinka (Citrus reticulata) je malý, snadno loupatelný citrus původem z Číny.\nJe symbolem čínského Nového roku a štěstí.\nV Česku je typickým vánočním ovocem.\nObsahuje vitamín C, antioxidanty a flavonoidy.\n"
+      }
+    },
+    {
+      "key": "fruit.passion_fruit",
+      "image": "fruit.passion_fruit.png",
+      "label": {
+        "cs": "mučenka"
+      },
+      "summary": {
+        "cs": "Tropický plod s vrásčitou fialovou slupkou a aromatickým semenovým obsahem."
+      },
+      "info": {
+        "cs": "Mučenka (Passiflora edulis) pochází z tropické Jižní Ameriky.\nJejí název pochází od misionářů, kteří v květu viděli symboly Kristova utrpení.\nDužina je plná semen zabalených v aromatickém gelu.\nJe výborným zdrojem vitamínu C, vlákniny a antioxidantů.\n"
+      }
+    },
+    {
+      "key": "fruit.lychee",
+      "image": "fruit.lychee.png",
+      "label": {
+        "cs": "liči"
+      },
+      "summary": {
+        "cs": "Malý červený tropický plod s průhlednou dužinou; oblíbený v Asii."
+      },
+      "info": {
+        "cs": "Liči (Litchi chinensis) je tropický plod pocházející z Číny.\nJeho drsná červená slupka se sloupne a odhalí průhlednou bílou dužinu.\nMá sladkou, jemně aromatickou chuť.\nV Číně je symbolem štěstí a prosperity.\n"
+      }
+    },
+    {
+      "key": "fruit.dragon_fruit",
+      "image": "fruit.dragon_fruit.png",
+      "label": {
+        "cs": "dračí ovoce"
+      },
+      "summary": {
+        "cs": "Růžový tropický kaktusový plod s bílou skvrnitou dužinou."
+      },
+      "info": {
+        "cs": "Dračí ovoce (pitahaya, Hylocereus) pochází z Mexika a Střední Ameriky.\nJeho vivid růžová slupka a bílá dužina s černými semínky jsou velmi dekorativní.\nMá jemnou chuť; obsahuje antioxidanty a vitamín C.\nVyrábí se z něj džusy, smoothies a dekorativní dezerty.\n"
+      }
+    },
+    {
+      "key": "fruit.starfruit",
+      "image": "fruit.starfruit.png",
+      "label": {
+        "cs": "karambola"
+      },
+      "summary": {
+        "cs": "Žlutý tropický plod tvořící hvězdičky při krájení."
+      },
+      "info": {
+        "cs": "Karambola (Averrhoa carambola) pochází z Jižní a Jihovýchodní Asie.\nPři krájení napříč vytváří dokonalý tvar hvězdičky (proto starfruit).\nMá kyselko-sladkou chuť; je bohatá na vitamín C.\nLidé s onemocněním ledvin by ji neměli konzumovat kvůli oxalusu.\n"
+      }
+    },
+    {
+      "key": "fruit.avocado",
+      "image": "fruit.avocado.png",
+      "label": {
+        "cs": "avokádo"
+      },
+      "summary": {
+        "cs": "Krémová tropická peckovice; základ guacamole."
+      },
+      "info": {
+        "cs": "Avokádo (Persea americana) pochází z Mexika a Střední Ameriky.\nJe botanicky ovocem (peckovicí), ale kulinárně se používá jako zelenina.\nObsahuje zdravé mononenasycené tuky (kyselina olejová) jako olivový olej.\nJe ve světě trendy zdravou potravinou; toast s avokádem je ikonou moderní café kultury.\n"
+      }
+    },
+    {
+      "key": "fruit.persimmon",
+      "image": "fruit.persimmon.png",
+      "label": {
+        "cs": "tomel"
+      },
+      "summary": {
+        "cs": "Oranžové ovoce podobné rajčeti; sladké a svíravé."
+      },
+      "info": {
+        "cs": "Tomel (Diospyros kaki) pochází z Číny a Japonska; v Česku je znám jako tomel japonský.\nNezralý tomel je tříslovitý a svíravý; zralý je sladký jako med.\nJe bohatý na vitamíny A, C a minerály.\nV Japonsku je tradičním podzimním ovocem (kaki).\n"
+      }
+    },
+    {
+      "key": "fruit.mulberry",
+      "image": "fruit.mulberry.png",
+      "label": {
+        "cs": "moruše"
+      },
+      "summary": {
+        "cs": "Tmavě fialová bobule z morušovníku; potrava bource morušového."
+      },
+      "info": {
+        "cs": "Moruše (Morus) je bobule morušovníku; listy morušovníku jsou potravou bource morušového.\nExistují bílá, červená a černá moruše; černá je nejsladší.\nV historii bylo pěstování morušovníku klíčové pro hedvábnictví.\nMoruše jsou bohaté na resveratrol, vitamín C a železo.\n"
+      }
+    },
+    {
+      "key": "fruit.cranberry",
+      "image": "fruit.cranberry.png",
+      "label": {
+        "cs": "brusinka"
+      },
+      "summary": {
+        "cs": "Malá červená kyselá bobule; tradiční americká přísada."
+      },
+      "info": {
+        "cs": "Brusinka (Vaccinium macrocarpon) je malá kyselá červená bobule.\nJe tradiční součástí amerického Díkůvzdání (cranberry sauce).\nObsahuje proanthocyanidiny, které zabraňují přilnutí bakterií E. coli na stěny močových cest.\nVědecky ověřený efekt brusinky na prevenci UTI (urinary tract infections).\n"
+      }
+    },
+    {
+      "key": "fruit.gooseberry",
+      "image": "fruit.gooseberry.png",
+      "label": {
+        "cs": "angrešt"
+      },
+      "summary": {
+        "cs": "Malá kulatá průhledná bobule; oblíbená v zahradách."
+      },
+      "info": {
+        "cs": "Angrešt (Ribes uva-crispa) je drobná ovoce typické pro zahrady střední Evropy.\nExistuje v zelené, červené a žluté odrůdě.\nJe bohatý na vitamín C.\nKřenové víno z angreštu je historicky oblíbený nápoj.\n"
+      }
+    },
+    {
+      "key": "fruit.currant",
+      "image": "fruit.currant.png",
+      "label": {
+        "cs": "rybíz"
+      },
+      "summary": {
+        "cs": "Drobná červená, černá nebo bílá bobule v hrozínku."
+      },
+      "info": {
+        "cs": "Rybíz (Ribes) je drobná bobule rostoucí v klasovitých hroznech.\nČerný rybíz (Ribes nigrum) obsahuje nejvíce vitamínu C ze všech bobulí.\nČerný rybíz je základ příchutě Ribena (britský nápoj) a cassis likéru.\nČervený rybíz se používá do džemů a jako dekorace dezertů.\n"
+      }
+    },
+    {
+      "key": "fruit.quince",
+      "image": "fruit.quince.png",
+      "label": {
+        "cs": "kdoule"
+      },
+      "summary": {
+        "cs": "Tvrdý žlutý plod příbuzný jablku; konzumuje se vždy tepelně upravený."
+      },
+      "info": {
+        "cs": "Kdoule (Cydonia oblonga) je příbuzná jabloně a hrušce; syrová je tvrdá a tříslovitá.\nVždy se zpracovává tepelně: kdoulový džem (membrillo), kdoulové víno, kdoulová pálenka.\nObsahuje velké množství pektinu vhodného pro výrobu džemů.\nNejstarší zaznamenaná marmeláda v Evropě (16. stol.) se vyráběla z kdoulí.\n"
+      }
+    },
+    {
+      "key": "fruit.jackfruit",
+      "image": "fruit.jackfruit.png",
+      "label": {
+        "cs": "chlebovník"
+      },
+      "summary": {
+        "cs": "Obrovský tropický plod; největší plod na stromě na světě."
+      },
+      "info": {
+        "cs": "Chlebovník (Artocarpus heterophyllus) produkuje největší plody rostoucí na stromě; mohou vážit přes 35 kg.\nPochází z tropické Asie; je základní potravinou v Indii, Bangladéši a Thajsku.\nNezralý jackfruit má neutralní texturu a používá se jako vegetariánská náhrada masa.\nZralé žluté kostičky jsou sladké a aromatické.\n"
+      }
+    },
+    {
+      "key": "fruit.durian",
+      "image": "fruit.durian.png",
+      "label": {
+        "cs": "durian"
+      },
+      "summary": {
+        "cs": "Velký trnitý tropický plod se silnou vůní; král tropického ovoce."
+      },
+      "info": {
+        "cs": "Durian (Durio zibethinus) je nazýván králem tropického ovoce.\nJeho silná vůně je pro jedny odpudivá, pro jiné lákavá; v mnoha asijských hotelech je zakázán.\nDužina je krémová a sladká s komplexní chutí (mandorle, vanilka, sýr).\nV jihovýchodní Asii je ceněn jako delikátní luxus.\n"
+      }
+    },
+    {
+      "key": "fruit.rambutan",
+      "image": "fruit.rambutan.png",
+      "label": {
+        "cs": "rambutan"
+      },
+      "summary": {
+        "cs": "Červený chlupatý tropický plod podobný liči."
+      },
+      "info": {
+        "cs": "Rambutan (Nephelium lappaceum) pochází z Malajsie; název pochází z malajského rambut = vlasy.\nJeho červená slupka je pokryta měkkými háčkovitými výrůstky.\nDužina je průhledná a sladká, podobná liči.\nJe bohatý na vitamín C a železo.\n"
+      }
+    },
+    {
+      "key": "fruit.longan",
+      "image": "fruit.longan.png",
+      "label": {
+        "cs": "longan"
+      },
+      "summary": {
+        "cs": "Malý hnědý tropický plod příbuzný liči."
+      },
+      "info": {
+        "cs": "Longan (Dimocarpus longan) je plod tropického stromu pocházejícího z Číny.\nNázev pochází z čínštiny: long yan = dračí oko, pro průhlednou dužinu s černým semenem.\nMá sladkou a aromatickou chuť.\nPovažován v čínské tradiční medicíně za potravinu podporující krev a srdce.\n"
+      }
+    },
+    {
+      "key": "fruit.tamarind",
+      "image": "fruit.tamarind.png",
+      "label": {
+        "cs": "tamarind"
+      },
+      "summary": {
+        "cs": "Hnědý luštěninový plod s kyselou dužinou; základ thajského vaření."
+      },
+      "info": {
+        "cs": "Tamarind (Tamarindus indica) pochází z tropické Afriky; dnes pěstován po celém tropickém světě.\nDužina je silně kyselá a sladká; používá se v Pad Thai, worcestershire omáčce a indickém chutney.\nSlovo pochází z arabštiny: tamr hindi = indické datle.\nJe bohatý na vínan draselný (kyselý), vitamíny B a železo.\n"
+      }
+    },
+    {
+      "key": "fruit.nectarine",
+      "image": "fruit.nectarine.png",
+      "label": {
+        "cs": "nektarinka"
+      },
+      "summary": {
+        "cs": "Hladká broskev bez chloupků; šťavnatá a sladká."
+      },
+      "info": {
+        "cs": "Nektarinka (Prunus persica var. nucipersica) je přírodní mutace broskve s hladkou kůží.\nLiší se od broskve jen genem pro hladkost pokožky.\nMá podobnou chuť, ale pevnější konzistenci.\nJméno pochází od nektaru bohů; název svědčí o její vnímané dokonalosti.\n"
+      }
+    },
+    {
+      "key": "fruit.damson",
+      "image": "fruit.damson.png",
+      "label": {
+        "cs": "damascénská švestka"
+      },
+      "summary": {
+        "cs": "Malá tmavá švestka typická pro anglické venkovské zahrady."
+      },
+      "info": {
+        "cs": "Damascénská švestka (damson) je malá, tmavě modrá-černá odrůda švestky.\nNázev pochází od Damašku (Damascus), odkud plod putoval do Evropy.\nJe silně kyselá syrová, ale výborná v džemech, povidlech a ginu (damson gin).\nV anglické tradici se pěstuje od starověku.\n"
+      }
+    },
+    {
+      "key": "fruit.medlar",
+      "image": "fruit.medlar.png",
+      "label": {
+        "cs": "mišpule"
+      },
+      "summary": {
+        "cs": "Malý hnědý plod příbuzný jabloní; musí dozrát po sklizni."
+      },
+      "info": {
+        "cs": "Mišpule (Mespilus germanica) je prastará zahradní plodina pěstovaná od středověku.\nJe jedlá až po bletování (bletting): preleží po sklizni do změknutí.\nJe bohatá na třísloviny a vitamín C.\nŠakespeare ji zmiňuje v Romeovi a Julii; dnes je spíše kuriozitou zahradníků.\n"
+      }
+    },
+    {
+      "key": "fruit.ackee",
+      "image": "fruit.ackee.png",
+      "label": {
+        "cs": "akee"
+      },
+      "summary": {
+        "cs": "Červený tropický plod s jedlými žlutými arily; národní plod Jamajky."
+      },
+      "info": {
+        "cs": "Akee (Blighia sapida) je národní plod Jamajky; pojmenován po kapitánu Blighovi (1793).\nEdible jsou jen zralé žluté arily; nezralý nebo přezrálý plod je toxický (hypoglycin A).\nAckee and saltfish je národní jídlo Jamajky.\nPochází ze Západní Afriky; do Karibiku byl dopraven obchodem s otroky.\n"
+      }
+    },
+    {
+      "key": "fruit.feijoa",
+      "image": "fruit.feijoa.png",
+      "label": {
+        "cs": "fejoa"
+      },
+      "summary": {
+        "cs": "Malý oválný zelený plod s aromatickou dužinou."
+      },
+      "info": {
+        "cs": "Fejoa (Acca sellowiana, také Feijoa sellowiana) pochází z Jižní Ameriky.\nJejí dužina má intenzivní aromatickou chuť (ananas, guava, mentol).\nJe velmi populární na Novém Zélandu jako podzimní ovoce.\nMálo známá v Evropě, ale oblíbená v zemích jejího původu.\n"
+      }
     }
   ]
 }

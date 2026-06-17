@@ -2,22 +2,213 @@ lang: fr
 pivot: false
 title: Animaux sauvages
 cards:
+  animal.aardvark:
+    label: orycteropode
+    summary: Insectivore nocturne d'Afrique avec un museau porcin qui creuse des galeries.
+    info: Le Orycteropus afer est l'unique espèce vivante de l’ordre des Tubulidontés et ne possède aucun parent étroitement apparenté.
+  animal.armadillo:
+    label: tatoueur
+    summary: Petit animal recouvert d'une armure composée de plaques osseuses.
+    info: |-
+      Le tatou à neuf taches est l'unique mammifère avec une véritable carapace osseuse.
+      Certains de ses congénères roulent en boule lorsqu'ils sont menacés.
+      C'est un excellent excavateur et peut creuser son terrier en moins de deux minutes.
+      Il agit comme hôte naturel des bactéries responsables du mal de Hansen.
+  animal.baboon:
+    label: baboon
+    summary: Grand Primates africanos con nariz característica y vida social.
+    info: Le baboon est un grand猿 vivant dans les savanes et régions rocheuses d'Afrique. Ils forment des groupes sociaux avec une hiérarchie bien définie et communiquent par de nombreux sons ainsi que par leur expression faciale. Les mâles sont beaucoup plus grands que les femelles.
+  animal.bear:
+    label: Ours
+    summary: Grand animal carnivore recouvert d’une épaisse fourrure qui incarne l’énergie naturelle.
+    info: L'ours brun est la plus grande félinoïde terrestre d’Europe et d’Asie pouvant atteindre un poids de jusqu’à 700 kilogrammes. Il est omni-vore et consomme des poissons, des baies, du miel ainsi que petits mammifères. En hiver il entre en période d’hibernation durant laquelle les femelles donnent naissance à leurs petits.
+  animal.beaver:
+    label: castor
+    summary: Grand animal herbivore constructeur de barrages et formateur d’écosystèmes humides.
+    info: Le castor est l'un des plus grands rongeurs du monde après la belette d'Amérique. Il construit des digues en utilisant branches et boue pour créer des étangs et marais qui abritent plusieurs espèces animales. Doté d'une queue plate recouverte d'écaillages ainsi que de grandes incisives orangées et une fourrure imperméable.
+  animal.bison:
+    label: bisont
+    summary: Grand animal herbivore nord-américain avec une crinière touffue.
+    info: Le Bison américain est l'animal terrestre le plus pesant d'Amérique du Nord. Au XIXe siècle, il était presque éteint ; des estimations de trente à soixante millions d'exemplaires en ont laissé moins dun millier. Grâce aux programmes de protection, leur nombre s'est rétabli environ cinq cent mille individus.
+  animal.buffalo:
+    label: buffle saïque
+    summary: Grand bovin africain vivant en groupes sociaux importants, membre de la Grande Cinquième.
+    info: Le bœuf saïque est un des mammifères les plus dangereux d'Afrique et fait partie de ce qu'on appelle la 'Grande Cinquième'. Il vit en troupeaux pouvant compter plusieurs centaines voire milliers d'individus et peut chasser même les lions grâce à une défense commune. Les mâles âgés vivant seuls sont particulièrement imprévisibles et agressifs.
+  animal.camel:
+    label: chameau
+    summary: Mammifère du désert dont les bosses servent de réserves de gras.
+    info: Le chameau à un seul dos (dromadaire) est parfaitement adapté pour vivre dans les déserts ; son dorsal stocke de la graisse et non pas de l'eau comme réserve énergétique. Il peut boire plus de cent litres d’eau en une seule fois et survivre des semaines sans apport liquide.
+  animal.capybara:
+    label: kapibara
+    summary: Le plus gros rongeur du monde, demi aquatique et très calme.
+    info: La kapybarra est plus grand rongeur vivant ; les adultes pesent entre 35 et 66 kilogrammes.
+  animal.cheetah:
+    label: guépard
+    summary: L’animal terrestre le plus rapide pouvant atteindre une vitesse supérieure à 110 km/h.
+    info: Le guépard est l'animal terrestre le plus rapide et peut accélérer de 0 à 100 km/h en trois secondes seulement. Contrairement aux autres grands félins, il ne rugit pas mais glousse au lieu de cela. Son corps élancé ainsi que ses griffes non rétractables sont des adaptations pour la rapidité plutôt qu'une force brute.
+  animal.chimpanzee:
+    label: chimpanzé
+    summary: Grand singe intelligent qui utilise des outils comme la pêche aux fourmis.
+    info: Le chimpanzé commun est notre parent animal le plus proche avec les bonobos et partage environ 98,7% de nos gènes.
+  animal.coyote:
+    label: coyotte
+    summary: Mammifère carnivore nord-américain capable de vivre même en milieu urbain.
+    info: Le coyote est un félin canidé adaptable qui habite toute l'Amérique du Nord. Contrairement au loup, il s'est adapté à la vie près des humains et s'est propagé dans les villes.
+  animal.deer:
+    label: cerf
+    summary: Mammifère gracieux à sabots ; le mâle porte des cornes annuelles.
+    info: Le cerf élaphe est la plus grande espèce de cervidés d'Europe et très répandue dans cette région. Les mâles portent des bois qu'ils perdent chaque année pour en faire pousser de nouveaux ; ces tissus sont considérés comme ceux qui croissent le plus rapidement chez tous les animaux. En automne, ils produisent un rugissement puissant lorsqu’ils s'affrontent entre eux autour du droit aux femelles appelées biches.
   animal.elephant:
     label: éléphant
     summary: Le plus grand mammifère terrestre, doté d'un tronc et de grandes oreilles.
     info: L'éléphant d'Afrique est le plus grand mammifère terrestre du monde. Il utilise son tronc pour respirer, boire, sentir et saisir sa nourriture. Les éléphants vivent en troupeaux dirigés par la femelle la plus âgée et sont connus pour leur bonne mémoire.
+  animal.fennec_fox:
+    label: fennec
+    summary: La plus petite bête canine au monde avec de grands yeux.
+    info: Le fennec est la plus petite des créatures de type canidés adaptée à vie dans le désert du Sahara. Ses grandes oreilles servent à dissiper sa chaleur corporelle et offrent une excellente audition. Son rein très efficace lui permet de survivre sans boire d'eau directement ; il obtient l'humidité nécessaire via son alimentation.
+  animal.fox:
+    label: renard
+    summary: Un petit animal carnassier rusé avec une fourrure rousse et queue touffue.
+    info: Le renard commun est la bête carnivore de type canidé la plus répartie dans le monde et un excellent adaptateur ; il vit en forêt, sur des steppes ainsi qu'en ville. Il est célèbre pour son intelligence qui inspire contes et fables à travers le globe entier. Le renard chasse souris, oiseaux et insectes mais peut aussi ramasser du déchet si nécessaire.
+  animal.gazelle:
+    label: gazzelle
+    summary: Antilope élancée vivante dans les savanes afro-asiatique.
+    info: La Gazelle de Thompson est l'une des gazelles les plus répandues en Afrique. Elle peut atteindre une vitesse supérieure à 80 km/h et effectue des sauts caractéristiques pour signaler la présence aux prédateurs. Vivant par troupeaux immenses, elle constitue un gibier clé du guépard, du lion ainsi que du chien d'hyène.
+  animal.giant_anteater:
+    label: tamanoir géant
+    summary: Grand animal sans dents doté d'un museau allongé et d'une langue黏性.
+    info: Le tamandua à trois doigts est la plus grande espèce de tamandoas et vit en Amérique centrale et sud-américaine. Il n'a pas de dents ; il détruit les fourmilières avec ses griffes puissantes et ramasse des insectes grâce à sa langue collante qui peut mesurer jusqu'à 60 cm. En une journée, il mange plus de 35 000fourmis et térmites.
+  animal.giant_panda:
+    label: Grand Panda
+    summary: Un ours noir-et-blanc originellement chinois dont l'alimentation exclusive est composée par le bambou.
+    info: Le panda géant est originaire du sud-ouest de la Chine et symbole mondial de protection de l'environnement. Plus de 99% de son alimentation consiste en bambous bien qu'anatomiquement il soit carnivore. Il possède un sixième doigt, une ossification secondaire au poignet qui sert comme pouce lorsqu'il saisit les pailles des plants de bambou.
   animal.giraffe:
     label: girafe
     summary: L'animal terrestre le plus grand du monde, doté d'un long cou.
     info: La girafe est l'animal terrestre le plus grand du monde ; les mâles peuvent atteindre une hauteur de plus de cinq mètres. Son long cou lui permet d'atteindre les feuilles d'acacia, qui constituent sa principale source d'alimentation.
+  animal.gorilla:
+    label: gorille
+    summary: Plus gros primate terrestre, une grande espèce de猿来自赤道非洲。
+    info: Le gorille est le plus grand des grands singes ; un mâle adulte peut peser jusqu'à 200 kilogrammes. Les gorilles sont principalement herbivores et mangent feuilles, pousses ainsi que fruits. Ils communiquent par bruits, expressions faciales ou encore en tapant dans leur poitrine.
+  animal.hippopotamus:
+    label: hippopotame
+    summary: Grand mammifère d'Afrique partiellement aquatique avec des mâchoires énormes.
+    info: Le Hippopotame est troisième plus grand animal terrestre après l'éléphant et la girafe. Il passe ses journées dans l'eau pour éviter de surchauffer ; il sort la nuit pour brouter herbe à terre. Sa peau sécrète un liquide rouge qui agit comme une crème solaire naturelle ainsi qu'un antiseptique.
+  animal.hyena:
+    label: hyaène
+    summary: Prédateur rayé vivant dans l'Afrique.
+    info: |-
+      La hyène tachetée est le plus grand membre de la famille des Hyaénidés et contrairement à sa réputation n'est pas principalement un charognard : elle chasse activement pour se procurer plus de 60% de son alimentation.
+      Les femelles dominent les mâles et sont aussi physiquement supérieures en taille.
+      Son rire correspond en réalité au signe d'excitation ou même parfois peur plutôt qu'une expression joyeuse.
+  animal.jaguar:
+    label: jaguar
+    summary: Plus grand felidé américain avec des marquages éclatants.
+    info: Le jaguar est la troisième plus grande félinoïde du monde et l'unique grand félin des deux Amériques. Contrairement au léopard, il possède de petites taches à l'intérieur de ses motifs en forme d'étoile. C'est un excellent nageur et pêcheur qui chasse les poissons ainsi que les caïmans ou encore les capibares.
+  animal.kangaroo:
+    label: kangourou
+    summary: Grand animal australien qui saute sur ses pattes arrière puissantes.
+    info: Le kangourou rouge est le plus grand mammifère de la région et l'animal sauteur le plus haut du monde ; il peut bondir à une distance supérieure à nine mètres. Les femelles portent leurs petits dans un sac ventral pendant environ six mois.
+  animal.koala:
+    label: koi
+    summary: Un métagrad vivant dans l'arbre à eau.
+    info: Le koi est un animal de la famille des métagrads et non pas une ours. Il vit presque exclusivement sur les feuilles d'eucalypste qui sont toxiques pour beaucoup d'animaux ; il possède donc un système digestif spécialisé.
+  animal.leopard:
+    label: lépard
+    summary: Grand félin au pelage tacheté, excellent escaladeur.
+    info: L'animal est la grande félidé la plus répartie et un grimpeur exceptionnel qui emporte sa proie dans les cimes des arbres pour la protéger contre les hyènes et les lions. Son adaptabilité lui permet de surpasser d'autres grands felins; il vit en Afrique ainsi qu'en Asie du Proche-Orient à l'Ouest lointain.
   animal.lion:
     label: lion
     summary: Un grand félin vivant dans les savanes africaines.
     info: Le lion est un grand félin vivant principalement dans les savanes africaines au sud du Sahara. Il vit en groupes appelés prides ; les femelles chassent ensemble, tandis que la crinière du mâle sert à intimider les concurrents. Le lion est souvent surnommé le « roi des animaux ».
+  animal.lynx:
+    label: lynx
+    summary: Un félin de taille moyenne avec une touffe sur les pointes des oreilles.
+    info: Le loup des forêts est la plus grande chatte sauvage d'Europe.
+  animal.mandrill:
+    label: mangabey
+    summary: Plus grand singe du monde avec un visage bleurose.
+    info: Le mandrin est la plus grande singe du monde ancien vivant et aussi le plus coloré des grands singes. Les mâles ont une masque faciale brillamment bleue et rouge qui signale leur statut social. Ils vivent en groupes dans les forêts tropicales de Cameroun, du Gabon et de République congolaise.
+  animal.meerkat:
+    label: meerkat
+    summary: Petite bête carnivore socialement organisée originale du désert kalahari.
+    info: La meerkat est un petit mammifère de la famille des mustélidés vivant en Afrique du Sud. Il vit en groupes avec une structure sociale bien définie ; toujours un membre surveille depuis un point élevé.
+  animal.moose:
+    label: Cerf Élaphe
+    summary: Plus gros mammifère appartenant à la famille des Cervidae avec ses larges cornes.
+    info: Le cerf élaphe est le plus grand des cervidés ; les mâles atteignent une hauteur de près de deux mètres au garrot et portent des bois en forme d'éventail pouvant mesurer jusqu'à 180 centimètres de largeur. Il habite dans les forêts boréales du Nord-Amérique, d'Europe et d’Asie.
+  animal.okapi:
+    label: okapi
+    summary: Parent forestier du girafe à pattes tachetées comme les zebras provenant du Kongo.
+    info: L'okapi fut scientifiquement décrit seulement en 1901 et est l'un des derniers grands mammifères découverts par la science.
+  animal.orangutan:
+    label: orc
+    summary: Grand primate roux vivant sur les arbres à Bornéo et Sumatra.
+    info: L'orque est la seule grande singe vivant en dehors d'Afrique. Son nom provient du malais et signifie homme des forêts. C'est celui qui vit seul parmi tous les grands singes et passe une bonne partie de sa vie dans les cimes des arbres.
+  animal.otter:
+    label: loutre
+    summary: Un animal joueux demi-aquatique vivant près de cours d’eau purs.
+    info: La loutre d'eau est un petit carnivore appartenant à la famille des mustélidés parfaitement adapté pour vivre dans l’eau. Elle possède une fourrure dense et imperméable ainsi que des nageoires qui lui permettent de retenir son souffle pendant plus d’une minute. Les loutres sont indicatrices du bon état écologique ; là où elles habitent, les eaux sont saines.
+  animal.polar_bear:
+    label: Ours Polair
+    summary: Le grand fauve blanc qui vit au Pôle Nord.
+    info: L'ours polaire est la plus grande félinoïde terrestre et le prédateur en tête de chaîne dans l'Afrique arctique. Sa fourrure blanche isole parfaitement la chaleur ; chaque poile creux transparente agit comme un isolant thermique naturel. C'est également un excellent nageur capable d'enchaîner des centaines de kilomètres à travers les eaux glaciales.
+  animal.porcupine:
+    label: porc épineux
+    summary: Grand animal de type rat recouvert d’épingles défensives acérées.
+    info: Le porc-épic est un rongeur protégé par des milliers d'épines creuses tranchantes qui sont en fait des poils transformés. Ces épines ne ressemblant pas à des flèches et lorsqu'elles entrent en contact avec quelque chose elles s'enclenchent facilement dans la chair du prédateur.
+  animal.raccoon:
+    label: rat-gris
+    summary: Animal américain au museau noir et à la queue tachetée.
+    info: Le rat-gris nord-américain provient de l'Amérique du Nord mais il a été introduit en Europe où il est aujourd'hui très répandu.
+  animal.reindeer:
+    label: caribou
+    summary: Mammifère cervidé vivant sur les toundras ; même les femelles ont des cornes.
+    info: Le caribou est la seule espèce de cerf dans laquelle les femelles portent également des bois.
+  animal.rhinoceros:
+    label: rhinocérose
+    summary: Un animal imposant avec un ou deux cornes sur son museau.
+    info: Le rhinocéros blanc est le deuxième plus grand mammifère terrestre après l'éléphant. Son corne n'est pas faite de os mais plutôt de kératine, la même substance que les ongles humains.
+  animal.sloth:
+    label: lémure
+    summary: Un petit primate arboricole qui vit principalement en Amérique du Sud.
+    info: Le lémur est un animal parfaitement adapté à une vie lentueuse dans les cimes des forêts tropicales.
+  animal.snow_leopard:
+    label: léopard des neiges
+    summary: Un grand félin rare vivant en haute altitude aux confins asiatiques.
+    info: Le léopard des neiges vit dans l'environnement montagneux du Haut-Himalaya et de la plaine tibétale ainsi que d'autres chaînes de montagnes centrausiennes entre les altitudes de 3 000 à 5 000 mètres. Il possède une queue extraordinairement longue qui sert au maintien de son équilibre sur les falaises escarpées.
+  animal.tapir:
+    label: Tapiros
+    summary: Grand herbeur à petit museau proche parente du rhino et du cheval.
+    info: Le tapir est un ongulé primitive apparenté aux rhinoceros et chevaux même si ce n'est pas évident. Il vit dans des forêts pluviales tropicales d'Amérique du Sud ainsi qu'en Extrême-Orient asiatique. Son court tronc flexible lui permet de saisir branches et feuilles.
+  animal.tiger:
+    label: Tigre
+    summary: La plus grosse féline avec des motifs orangés en bandes.
+    info: Le tigre du Bengale est la plus grande félinoïde sauvage au monde. Chaque individu possède un motif de rayures unique, semblable à une empreinte digitale humaine. Contrairement aux lions, les tigres sont solitaires et excellents nageurs.
+  animal.warthog:
+    label: phacochères
+    summary: Un grand mammifère carnivore appartenant au groupe des cerfs mais plus petit.
+    info: |-
+      Le Phacochère est un sanglier sauvage d'Afrique proche du porc domestique et vivant librement dans la savane.
+      Les mâles ont des excroissances faciales appelées 'papilles' ainsi que de longues défenses incurvées utilisées pour se protéger lorsqu'ils sont menacés ou en combat territorial avec les autres phacos.
+      Lorsque l’animal court à toute allure après avoir été effrayé par une menace extérieure comme un prédateur terrestre tel qu'un lion ou hyène,
+      ses poils dorsaux forment alors une sorte d'éventail qui lui permettrait peut-être aussi bien de refroidir son corps rapidement.
+  animal.wild_boar:
+    label: sanglier
+    summary: Un cochon sauvage à défenses, origine commune du porc domestiqué.
+    info: Le sanglier est l'espèce originale d'Eurasiatique et ancêtre de toutes les races porcines domestiques. Ce sont des omnivores intelligents et adaptables qui fouillent pour trouver racines, glands mais chassent aussi petits animaux. Les femelles élèvent leurs jeunes en groupes.
+  animal.wildebeest:
+    label: gnus
+    summary: Antilope afritique migreuse participant à une migration continentale majeure.
+    info: Le gnous est connu pour l'une des plus grandes migrations terrestres du monde ; chaque année environ un million d'animaux traversent entre le Sérengeti et la réserve de Maasai Mara.
   animal.wolf:
     label: loup
     summary: Un canidé sauvage, ancêtre du chien domestique.
     info: Le loup commun est le plus grand canidé sauvage et l'ancêtre du chien domestique. Il vit et chasse en meute avec une hiérarchie sociale bien définie et communique par des hurlements, qu'il utilise pour marquer son territoire et appeler la meute.
+  animal.wolverine:
+    label: wolverin
+    summary: Un animal robuste et féroce appartenant à la famille des martins qui habite forêts et toundra boréales.
+    info: Le wolverine est le plus grand membre de la famille des mustélés vivant sur terre ferme. Malgré sa petite taille, il est réputé pour sa force extraordinaire et son aggressivité ; capable d'éloigner un ours du cadavre qu'il dévore. Il vit dans les grands territoires boisés boréliens ainsi que les toundras de l'Amérique du Nord, de l'Europe et de l'Asie.
   animal.zebra:
     label: zèbre
     summary: Un équidé africain reconnaissable à ses rayures noires et blanches.

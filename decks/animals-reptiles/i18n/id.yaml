@@ -2,14 +2,81 @@ lang: id
 pivot: false
 title: Amfibi dan Katak
 cards:
+  reptile.agama:
+    label: agama
+    summary: Kadal batuan berciri-cirikan di Afrika.
+    info: Agama adalah kelompok besar kadal dari Afrika, Asia dan Australia dengan lebih dari 300 spesiesnya yang berbeda-beda warnanya terutama pada jantan-jantannya seperti Agama rubriplicata memiliki kepala orange mencolok serta tubuh birunya sebagai penanda dominasi mereka.
+  reptile.alligator:
+    label: buaya
+    summary: Kera bawang besar dengan cakar tumpul yang tinggal di wilayah A.S.
+    info: |-
+      Buaya Amerika adalah salah dari dua spesies buaya yang masih hidup saat ini; satunya lagi lebih kecil yaitu Buaya Cina.
+      Ia berbeda dengan jenis buaya lainnya karena memiliki moncong bulat dan lebar serta giginya tidak terlihat ketika mulut ditutup.
+      Hewan ini tinggal di rawa, sungai-sungai, danau-danau bagian tenggara AS.
+  reptile.anaconda:
+    label: anaconda
+    summary: Hewan tertua dalam sejarah bumi ini dapat ditemukan pada daerah aliran sungai dan rawa di bagian selatan amerika tenggara serta utara afrika barat daya.
+    info: '{"hint":"ular terberat di dunia yang hidupnya setengah air dan daratan","label":"anaconda","summary":"Ular paling berat di dunia yang tinggal di rawa Amazon","data":{"question": "Apa nama dari salah satu jenis reptil dengan ukuran tubuh sangat besar?", "answer": "Anacondas adalah spesies piton hijau atau Eunectes murinus."},"type":"flashcards"}'
+  reptile.anole:
+    label: anoli
+    summary: Katak berwarna yang berasal dari Amerika.
+    info: Anolis adalah kelompok kecil kadal dari Amerika dengan lebih dari 400 spesies.
+  reptile.axolotl:
+    label: axolot
+    summary: Kadal berinsang eksternal dan tidak pernah melewati tahap dewasa.
+    info: Axolot adalah caecilian air dari Meksiko yang menunjukkan neotonik karena mempertahankan ciri-cirinya sepanjang hidup termasuk insang luaran.
+  reptile.basilisk:
+    label: basilisi
+    summary: Katak Amerika yang sanggup dalam waktu singkat berlarian di atas permukaan air.
+    info: |-
+      {"hint":"kadal yang dapat berjalan di atas air dengan kaki belakangnya (Basilisk)","info":"Basilisikus indah (ular Yesus Kristus) mampu lari di permukaan air karena cincin-cincin pada jarinya mengumpulkan udara di bawah air.
+      Ia bisa melintasi lebih dari dua puluh meter sebelum tenggelam.
+      jantan memiliki sisir mencolok di kepala dan punggung mereka.
+      dalam pepohonan ia menggunakan warnanya untuk menyamar sebagai strategi dasar pertahanannya."}
+  reptile.boa_constrictor:
+    label: boaraj
+    summary: Seekor ular amerikas selatan besar membunuh mangsanya melalui kontraksi tubuh.
+    info: Ular boa raja adalah jenis ular besar yang tidak berbisa dari Amerika Selatan dan digunakan untuk memburu mangsa dengan cara mengelilinginya lalu menekan kuat ototnya setiap kali korban bernapas keluar agar tidak bisa kembali masuk ke paruparu mereka.
+  reptile.box_turtle:
+    label: kura-kura box
+    summary: Tukik mini yang sanggup membenamkan diri sempurna didalam kulit kerahunya.
+    info: '{"hint":"tukik darat yang dapat menutup sepenuhnya di dalam cangkulannya","info":"Kura-kura kotak adalah jenis tukik dari Amerika Utara yang memiliki kemampuan untuk mengunci seluruh badan ke dalam caranya dengan menggunakan tutup depan bergerak.\nIa hidup secara mandiri di hutan dan padang rumput.\nPada kondisi ideal bisa bertahan lebih dari seratus tahun; usia rata-ratar pada habitat alaminya berkisar antara empat puluhan sampai lima belas tahun.\nDi AS ia dilindungi oleh undang-undang serta banyak negara bagian melarang pengambilannya langsung dari lingkungan liar."}'
+  reptile.caecilian:
+    label: cervero
+    summary: Amfibia tanpa kaki tropikal yang menyerupai ulat.
+    info: '{"hint":"amfibi tanpa kaki di daerah tropis yang menyerupai cacing atau ular","info":"Cervero adalah amfibia tidak berkaki dari kelompok Caudata dan hidup tersembunyi serta jarang diteliti dalam habitat tropisnya.\nPada penampilannya mirip dengan belatung besar maupun seekor biawak berwarna putih muda.\nIa memiliki mata kecil yang kurus dan mengandalkan penciuman untuk navigasi melalui antena sensorik pada bagian kepala mereka.\nAda beberapa spesies yang melahirkan secara langsung bayinya sedangkan lainnya bertelor."}'
+  reptile.caiman:
+    label: buayamata
+    summary: Hewan berkaki empat seperti buaya atau alligator.
+    info: '{"hint":"Reptil beruang dari Amerika Selatan yang lebih kecil daripada buaya sebenarnya","info":"Buai mata sipit adalah reptil berukur terluas di Amerika Selatan\ndan ukuran tubuhnya kurang dari dua meter lima sentimeter. Ia hidup di sungai-sungai dan rawa-rawa daerah tropis mulai dari Meksiko hingga Argentina. Populasinya sedikit karena diburu kulitnya."}'
   reptile.chameleon:
     label: Kadal
     summary: Reptil yang dapat mengubah warna kulitnya dan memiliki mata bergerak.
     info: Kadal Arab tidak mengubah warnanya untuk menyamarkan diri, tetapi untuk berkomunikasi dan mengatur suhu tubuhnya. Matanya juga bisa bergerak secara independen satu sama lain.
+  reptile.cobra:
+    label: coboy
+    summary: Hewan melata bersifat memperingati ancaman menggunakan penampilannya.
+    info: |-
+      {"hint":"Ular berbisa yang mengembangkan selimut ketika terancam","info":"Koboi adalah jenis ular dari keluarga Elapidae yang diketahui memiliki kemampuan untuk membuka kulit di bagian belakang kepala menjadi semacam jubah sebagai peringatan.
+      Bacanya (saraf neurotoksinnya) dapat membuat lumpuh sistem saraf mangsa.
+      koboi fasa matahari merupakan simbol nasional Mesir dan India.
+      naja cobracharyngalis mampu menyemprotkan racun hingga lebih dua meter ke depan dengan target utama pada matamu."}
   reptile.crocodile:
     label: buaya
     summary: Reptil purba besar yang hidup di sekitar sungai dan rawa.
     info: Buaya Nile adalah salah satu kadal terbesar di dunia. Ia tinggal di Afrika dan berburu dari air. Gigitannya memiliki kekuatan tertinggi dibandingkan semua hewan yang masih hidup.
+  reptile.flying_dragon:
+    label: ikan naga penerban
+    summary: Buaya mini asia timur laut yang bisa terbang dan menjelma menjadi ikan dalam waktu singkat.
+    info: |-
+      {"hint":"buaya yang mengapung menggunakan membran tulang rusuk membesar","info":"Ikan naga penerbang (Dragon Volantis) adalah reptil kecil dari Asia Tenggara mampu meluncur karena kulitnya menegangkan pada tulang rusuk panjang.
+      Melaju dari satu pohon ke pohon lain untuk mendapatkan wilayah atau kaburnya predator.
+      Pria dewasa memiliki alis berwarna kuning mencolok di tenggorokannya.
+      Tidak bisa aktif dengan sayap mereka sendiri hanya bergantung saja.","label":"ikan naga penerbangan","summary":"Reptil asia timur laut kecil yang dapat melompati air."}
+  reptile.frilled_lizard:
+    label: leher agam
+    summary: Reptil ini menampilkan ekor besar ketika menghadapi bahaya.
+    info: Lemur berkerah adalah reptil Australia yang memiliki kerah kulit di bagian tenggorokan dan membukanya saat merasa ancaman sebagai bentuk pertahan diri.
   reptile.frog:
     label: katak
     summary: Amfibi hijau berduri dengan mata merah yang melompat dan bersuara.
@@ -18,19 +85,169 @@ cards:
     label: gecko
     summary: Kadal kecil yang mampu merayap di permukaan tegak.
     info: Gecko berbulu adalah reptil peliharaan yang populer. Ia dapat memanjat batu dan dinding karena jutaan bulu mikroskopis pada kakinya, bukan dengan perekat.
+  reptile.gharial:
+    label: gawiál
+    summary: Reptil air tawar Asia Tenggara dengan paruh super tipis.
+    info: |-
+      {"hint":"crocodile pemakan ikan dengan hidung sangat panjang dan sempit (Gavialis gangeticus)","info":"Gawial adalah hewan reptil dari India yang memiliki ciri hidupnya sangat panjang dan ramping untuk berburu ikan di sungai-sungai utara India serta Nepal.
+      Pada bagian ujung moncong jantan gawial terdapat tonjong bernama ghara.
+      Spesies ini termasuk dalam daftar spesies langka karena jumlah populasi semakin sedikit setiap tahun."}
+  reptile.gila_monster:
+    label: gila monster
+    summary: Ular besar yang memproduksi racun dan memiliki kulit bergaris serta bercak.
+    info: Gila Monster (Heloderma suspectum) adalah salah satu dari sedikit ular berbisa di dunia.
+  reptile.glass_lizard:
+    label: eumecus
+    summary: Kadal tanpa kaki tetapi tidak termasuk jenis ular karena memiliki kelopak mata.
+    info: |-
+      {"hint":"kadal tanpa kaki yang menyerupai ular","info":"Eumecus longissimus adalah kadal tak berkaki di Eropa dengan kemiripan terhadap ular;
+      mempunyai kelopak mata bergerak dan lubang telinga seperti reptil bukan cacing;
+      dapat melepas ekornya untuk bertahan hidup melalui proses autotomy;ekor akan tumbuh lagi setelah dilepaskan;
+  reptile.hawksbill_turtle:
+    label: penyu cagar
+    summary: Hewan dilindungi jenis penyu laut dengan bentuk mulut kecil dan meruncing.
+    info: |-
+      {"hint":"tukik laut yang terancam punah dengan paruh sempit dan berujung runcing","info":"Penyu cagar adalah penyu laut langka dari spesies Eretmochelys.
+      Dulunya sisirnya digunakan untuk membuat barang perca sehingga perdagangan ilegal mengorbankan populasi mereka secara besar-besar.
+      Mereka hanya memakan jamur serta organisme di sekitar karang.
+      Aktivitas makan ini membantu menjaga ekosistem karang tetap sehat karena menekan pertumbuhan alga.","label":"penyu cagar","summary":"Tukik laut yang sangat rentan dengan paruh panjang."}
+  reptile.horned_lizard:
+    label: iguana bertanduk
+    summary: Hewan reptil berkaki empat beralis tajam pada bagian atas wajahnya.
+    info: Iguana berduri dengan tanduk di kepala ini hidup di gurun-gurun wilayah barat daya Amerika Serikat dan Meksiko serta memiliki tubuh yang datar ditutupi duri-duri kecil menyerupaikan sisir. Saat terancam ia mampu menyemprotkan darah dari matanya hingga lebih satu meter sebagai mekanisme pertahanan dirinya sendiri.
+  reptile.iguana:
+    label: '"legend": "hijau leguan"'
+    summary: Reptil hijau besar dari Amerika Tropis dengan keriting berduri.
+    info: '{"hint":"reptil pakanan herba besar dengan mahkota berduri","info":"Kadal hijau adalah kadal pemangsa rumput dari Amerika Tropis yang bisa mencapai panjang dua meter\nmilikinya mata ketiga di tengkoraknya (mata parietal), sensitif terhadap perubahan cahaya\niya bersosialisasi; dominannya hierarki ditunjukkan melalui penekanan kepala dan warna tubuh\ndia mengancam karena kehilangan lingkungan alami utama mereka; dalam pengasingan ia dipelihara seperti reptil dewasa ganas.'
+  reptile.king_snake:
+    label: uangkray
+    summary: Seekor u larraja dari Amerika Serikat yang tahan akan toksin crotalidae
+    info: '{"hint":"ular tidak berbisa yang memakan jenis lain termasuk kobra","info":"Ular raja adalah seekor ular Amerika tanpa bisa yang dapat mengonsumsi beberapa spesies ular berbisa seperti crotalus dan memiliki kekebalan terhadap racun mereka.\nPewarnaannya menyerupai corak dari coral snake yang juga bersifat berbahaya dengan adanya garis hitam putihnya ini membuat penampilannya sangat mirip sekali.\nIa menjadi pengatur penting dalam jumlah tikus burung serta reptil di lingkungan sekitarnya karena sifat predator alami tersebut.\nKarena temperamen tenang maka banyak orang menyenangi hewan peliharaan eksotik satu ini."}'
+  reptile.komodo_dragon:
+    label: dragondragon
+    summary: Reptilia tertua dunia ini hanya ditemukan pada Pulau Komodo.
+    info: Naga komodo adalah reptil hidup terbesar yang bisa mencapai panjang lebih dari tiga meter dan berat melebihi tujuh puluh kilogramnya. Dulu orang percaya bahwa mereka membunuh mangsa dengan bantuan bakteri dalam air liurnya tetapi ternyata ia memiliki sengatan racuni di tubuhnya sendiri.
+  reptile.leatherback_turtle:
+    label: penyu
+    summary: Penyu laut terbesar menggunakan sisik kulit sebagai pengganti kerak batu.
+    info: Leatherback adalah penyu laut terbesar di dunia yang bisa mencapai panjang lebih dari dua meter dan berat melebihi tujuh ratus kilogramnya tidak memiliki cangkul keras melainkan kulit dengan penguatan tulang kecil disebut osteoderm. Penyusur benua ini melakukan migrasi jarak sangat jauh menyeberangi samudra bahkan pernah dicatat telah bepergian selama puluhan ribuan kilometer hanya makan ubur-ubur menjadikannya spesies langka secara kritis.
   reptile.lizard:
     label: gecko
     summary: Hewan melata berkaki empat bersisik yang umum ditemukan di daerah hangat.
     info: Iguana hijau adalah hewan melata besar dari Amerika Tengah dan Selatan. Makanan mereka berupa tumbuhan, sangat mahir dalam memanjat batu, dan mampu meregenerasi ekornya jika terpotong.
+  reptile.mamba:
+    label: mamba
+    summary: Hati-hati terhadap jenis ular ini
+    info: '{"hint":"Cephalolite afrika yang sangat cepat dan beracun","info":"Ular Mamba hitam adalah salah satu dari reptil paling cepat dan penuh racun di dunia\ndengan kecepatan lebih dari 20km/jam di daratan serta bisa memanjah tanaman\. Neurotoksinnya akan menyebabkan kematian dalam beberapa jam jika tidak ada antitokсин\. Nama ''hitam'' berasal dari warna bagian mulut bukan tubuh karena sebenarnya kulitnya abu-abu atau hijau olive"}'
+  reptile.matamata:
+    label: Kura-kura Matamata
+    summary: seekor kura-kura sungai tropis yang bentuknya tidak biasa karena mengandalkan warna tubuh untuk menyamar sebagai tanaman atau batang kayu mati.
+    info: '{"hint":"kura bermotif daun dari Amerika Selatan yang terlihat aneh dengan kepala berupa dedaunan","info":{"label":"Kura-kura Matamata","summary":"Seekor kura-kura air tawar di bagian selatan Amerika Serban memiliki penampilan sangat unik dan menyerupai sampah daun serta ranting mati.","detail":{}}}'
+  reptile.monitor_lizard:
+    label: biawak
+    summary: Reptil predator aktif dan agresif dengan lidah bercabang.
+    info: Varan adalah jenis biawak besar dari genera Varanus dengan lidah bercabang yang berfungsi sebagai alat penciuman. Komodo dragon merupakan reptil hidup terbesar di dunia panjangnya mencapai lebih dari tiga meter. Para ilmuwan telah mengamati penggunaan peralatan sederhana oleh para spesies ini.
+  reptile.mud_turtle:
+    label: tartaruga Lumpur
+    summary: Sebuah jenis kura-kura air tawar berukuran kecil di wilayah Amerika.
+    info: Tartaruga lumpur atau kinosternon adalah kura-kura kecil dengan panjang sekitar 15 sentimeter yang berasal dari Amerika Utara dan Tengah. Ketika merasa terancam mereka mengeluarkan aroma kuat melalui kelenjar Bau miliknya.
+  reptile.mudskipper:
+    label: ikan perenang daratan
+    summary: Seekor ikan yang berkeliaran di daratan dengan bantuan sirip dadanya.
+    info: Ikan gobidae ini menghabiskan banyak waktu di luar air dan dapat merayap menggunakan sirip pectoralnya yang besar seperti roda. Ia bernapas melalui kulit basah serta bisa memanjat akar tanaman bakau.
+  reptile.newt:
+    label: salamandra
+    summary: Osekat berkembang biakan dalam lingkungan akuatis maupun terrestrial.
+    info: '{"hint":"caecilian kecil dengan ekor gepeng yang hidup di air dan daratan","info":"Salamandar raksasa adalah caecilian terbesar Eropa Tengah mencapai panjang lebih dari 15 sentimeter\ndan selama musim kawin jantan menunjukkan punggung berwarna-warni seperti cincak\. Di Republik Ceko semua spesies caecilian dilindungi oleh undang-undang\. Musim dingin mereka habiskan di bawah akar atau lubang tanpa memasuki perairan."}'
+  reptile.poison_dart_frog:
+    label: beriji
+    summary: Kecil dengan warna cerah dan sangat mematikan serta berasal dari wilayah amerika.
+    info: Beruji hutan adalah kura-kura kecil dari kelompok Dendrobatidae yang hidup di hutan-hutan tropis Amerika Tengah dan Selatan. Warna terangnya seperti merah, biru, kuning berfungsi sebagai peringatan akan sifat racunnya atau disebut aposematisme.
+  reptile.python:
+    label: piton
+    summary: Piton merupakan jenis ular besar tanpa sengatan tetapi menggunakan cara mengepalk.
+    info: |-
+      Ular piton adalah ular terpanjang di dunia dengan panjang hingga lebih dari tujuh meter dan membunuh mangsa melalui pembusukan bukan racunnya;
+      mereka menggulung tubuh mereka sekitar tenggorokan atau badan korban untuk memperketat,
+      demikian juga memiliki reseptor termis yang disebut inframerah sehingga dapat mendeteksi mamalia berdarah hangat bahkan dalam gelap.
+  reptile.rattlesnake:
+    label: ular beludru
+    summary: Hama liar yang membawa racun kuat serta punya suara pemberi isyarat ketika ada gangguan.
+    info: "{\"hint\":\"berbukti dari Crotalus\",\"info\":\"Ular beracun jenis bintil dengan ciri-cirinya yaitu memiliki alat penunjuk di ujung ekor yang disebut chřestítko atau dalam bahasa Indonesia bisa diterjemahkan sebagai 'alas'.\r\nAlas ini terdiri atas bagian-bagian keras dan digunakan untuk memberikan peringatan saat merasa terancam oleh ancaman luar seperti predator manusia maupun hewan lainnya.\r\nIa juga mempunyai reseptor panas sehingga mampu mendeteksi mangsa berkembang biak secara cepat meskipun gelap gulita sekalipun tanpa melihat langsung ke arah mereka karena adanya lubang-lubangan pada tubuhnya sendiri\r\nGigitannya sangat berbahaya bagi siapa saja termasuk dokter harus mengetahuinya agar dapat melakukan pengobatan sesegera mungkin setelah korban mengalaminya\"}"
   reptile.salamander:
     label: mlok
     summary: Amfibi bersisik bercahaya dengan ekor panjang.
     info: Mlok bercak adalah amfibi Eropa Tengah yang dilindungi dan memiliki cakram kuning-hitam di tubuhnya. Ia mengeluarkan zat beracun dari kulitnya dan hidup di hutan basah.
+  reptile.sea_snake:
+    label: bunglon
+    summary: Hewan satu jenis dengan bentuk tubuh menyesuaikan lingkungan laut menggunakan struktur fisik spesifik.
+    info: |-
+      {"hint":"Ular ekor datar beracun yang telah diadaptasi untuk kehidupan laut","info":"Bunglon laut adalah reptil dari kelompok familia Hydrophiidae yang sangat terbiasa hidup di lautan.
+      Ikan ini memiliki sirip berekor pipih sebagai alat renangnya.
+      Poisonya bersifat saraf dan jauh lebih kuat dibanding racun ular biasa;
+      tapi bunglons mempunyai sikap damai secara umum.
+      Sama seperti ikan lain,
+      mereka bernapas udara bebas serta harus naik permukaan air sesekali."}
+  reptile.skink:
+    label: skink
+    summary: Katakaca bersisik mulus dan berkilauan serta berkaki pendek.
+    info: |-
+      Skinka adalah keluarga besar kadal dengan lebih dari 1.500 spesies yang memiliki sisik halus dan berbentuk sikloidal.
+      Beberapa jenisnya mengalami penekanan atau bahkan tidak punya kakinya sama sekali.
+      skink biru Australia menunjukkan lidah biru terang sebagai tanda peringatan bagi pemangsanya.
   reptile.snake:
     label: ular
     summary: Reptil bersisik tanpa kaki dengan tubuh panjang dan lentur.
     info: Ular adalah hewan melata bersisik dengan tubuh memanjang yang tidak memiliki anggota badan. Terdapat lebih dari 3.700 spesies; mereka berburu menggunakan penciuman (organ Jacobson) dan beberapa jenisnya berbisa.
+  reptile.snapping_turtle:
+    label: '"turtle predator"'
+    summary: Penyu laut tropis Asia-Timur Besi
+    info: '{"hint":"tukang kecil yang ganas di air tawar","info":"Turtle kaki hijau adalah penyu besar dan sangat berbahaya dari Amerika Utara dengan paruh melengkung kuatnya.\nDi daratan ia bersifat menyerbu tetapi lebih damai saat dalam air\. Mereka bisa mencapai bobot hingga melebihi 35kg serta usia sampai lebih dari empat puluh tahun\. Penyu ini omnivora karena mereka memakan burung air atau bahkan bangkai."}'
+  reptile.thorny_devil:
+    label: iguna moloh
+    summary: reptil australia bersifat penyerapan air via kapiler pada cacing-cacignya
+    info: |-
+      {"hint":"buaya berduri dari Australia yang mengalirkan embun ke mulutnya (Moloch horridus)","info":"Iguana Moloch adalah reptil Australia kecil dengan ribuan duri tajam di tubuhnya.
+      Ini memiliki kemampuan menyerap air melalui kulit menggunakan alur kapiler antara durinya; air langsung dialirkan menuju mulutnya.
+      Hewan ini hanya makan semut kecil dan bisa memakannya sampai seribu lima ratus ekor dalam satu kali sesi makannya.
+      Pada puncak bertulang poros terletak kepala palsunya sebagai strategi pertahanan diri","label":"iguana molokh","summary":"Reptil Austrilia bercacing dapat menyerap air secara kapilar."}
+  reptile.toad:
+    label: buaya
+    summary: Amfibi darat dengan kulit bersisik mirip kodok.
+    info: |-
+      Bufo bufo adalah katak yang paling umum di Republik Ceko
+      Bintik-bintiknya tidak mengeluarkan suara seperti kelelawar;
+      mereka berfungsi sebagai perlindungan dan sumber racun.
   reptile.tortoise:
     label: kura darat
     summary: Reptil lambat dengan cangkul berbentuk kubah yang tinggal di daratan.
     info: Kura darat galapagos adalah kura darat terbesar di dunia. Hewan ini hidup di Galapágos dan bisa mencapai usia lebih dari 150 tahun. Cangkulnya merupakan bagian dari kerangka tubuhnya.
+  reptile.tree_frog:
+    label: kelawar
+    summary: Kecebong berkembang biakan melalui telur-telor.
+    info: |-
+      {"hint":"kelelawar berwarna-warni dengan kaki lengket untuk memanjat daun","info":"Kecoa hijau adalah kecil dari kelompok Hylidae yang memiliki cakram hisap di ujung jari-jaringnya sehingga dapat merayap pada permukaan licin.
+      Di Ceko hanya hidup satu jenis alamiah yaitu Kecoah umum;
+      itu dilindungi oleh undang-undang.
+      Warnanya bisa bervariasi antara biru dan abu-abu atau cokelat tergantung suhu serta tingkat kelembapan udara.
+      Ia mengeluarkan nyanyian keras sebelum hujan utama dalam waktu siang hari."}
+  reptile.tuatara:
+    label: tuatara
+    summary: Fosil hidup tuatara merupakan anggota tunggal dari ordo Reptilia.
+    info: Tuatara adalah salah satu kadal tertua di dunia yang berasal dari zaman dinosaurus.
+  reptile.uromastyx:
+    label: uro mastix
+    summary: Biawak dengan ciri-cirinya yaitu mempunyai duri di bagian belakang tubuhnya.
+    info: Uromastyx adalah jenis biawak gurun dari utara Afrika dan Timur Tengah yang memiliki ekor berduri untuk pertahanan diri.
+  reptile.viper:
+    label: ubah menjadi format json
+    summary: Menerjemahkan kartu pelajaran ini dalam bahasa Indonesia.
+    info: '{"hint":"ular berbisa dengan kepala segi tiga dan racun hemotoksik","info":{"label":"Ular Beracun","summary":"Hewan reptil yang memiliki tubuh melengkung dan kepalanya bentuknya seperti segita serta mengandung toksin darah dari keluarga Viperidae."},"data":{}}'
+  reptile.wall_lizard:
+    label: kecoa tembak
+    summary: Hewan melata ramping dan gesit hidup di tebing-tebing maupun permukaan bebatuan.
+    info: Kadal tembok adalah reptil kecil yang berasal dari Eropa selatan dan Afrika barat laut serta sering dijumpai pada batu-batuan panas atau dinding-dinding bangunan di Ceko sebagai spesies invader. Katak ini sangat cepat bergerak dengan ekor mudah dilepaskan saat terancam bahaya akibat perubahan iklim global.
+  reptile.worm_lizard:
+    label: cervicitik
+    summary: Hewa melata tanpa kaki mirip cacing yang tinggal dibawah tanah.
+    info: '{"hint":"reptil tanpa kaki yang menyerupai cacing besar","info":"Cervicitik adalah hewan melata tak berkuku dari kelompok Amphisbaenia di Afrika dan Amerika Tropis dengan kulit bersegmen serta mata primitif. Mereka hidup seluruh kehidupannya bawah permukaan tanah sambil memakan semut-semut api atau rayap-rayapan. Geraknya unik seperti alat musik accordion."}'

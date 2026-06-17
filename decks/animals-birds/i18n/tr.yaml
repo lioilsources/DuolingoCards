@@ -2,18 +2,130 @@ lang: tr
 pivot: false
 title: Kuşlar
 cards:
+  animal.albatross:
+    label: albatros
+    summary: Kanat açıklığı en büyük deniz kuşudur.
+    info: Yarı göçmen albatrosun kanat açıklığı 3,5 metreyi geçebilir ve çoğu zaman açık denizde binlerce kilometre uçarak konmaz. Deniz suyu içer ve burundaki salgı beziyle tuz atar. Denizciler arasında bir albatrosun öldürülmesinin pek çok felaket getireceği inancı vardır.
+  animal.budgerigar:
+    label: vevcere
+    summary: Australya'dan gelen küçük renkli bir papagayır, evcil hayvan olarak popülerdir.
+    info: |-
+      Vevcere dalgalı, Avustralya'nın iç kesimlerinden gelir ve büyük sürüler halinde yaşarlar.
+      Kanarya'dan sonra dünyada en yaygın beslenen kuş türüdür.
+      Erkek bireyler insan sesini taklit edebilir ve yüzlerce kelime öğrenebilir.
+      Yabanıl vevcereler yeşil-kahverengi renkte olurken, renkli varyasyonlar ıslah yoluyla elde edilmiştir.
+  animal.canary:
+    label: kana
+    summary: Evde beslenen küçük sarı renkte bir kuş türü.
+    info: Domestik kana, Kanarya Adalarından gelir ve 17. yüzyılda evcilleştirilmiştir. Seçici ıraklama ile sarı rengi elde edildi; yabanıl kana yeşil-kahverengidir. Erkekler karmaşık melodiler söyleyebilir; kana şarkıları küresel bir etkinlik haline geldi. Tarihsel olarak kömür ocaklarında karbonmonoksit algılanmasında kullanılmışlardır.
+  animal.cassowary:
+    label: kasuar
+    summary: New Güney'den gelen keskin tırnaklı tehlikeli uçamayan bir kuş.
+    info: Kasuar, Yeni Gine ve kuzey Avustralya'ya özgü büyük bir uçamayan kuştur. Dıştaki uzun tırnakları ciddi yaralanmalara neden olabilir. Yüksek kemikli başlığı, muhtemelen sık ormanlarda yön bulmak için kullanılır. Ayrıca bu kuş, tropikal ormanlardaki tohumların ana yayıcısıdır.
+  animal.cockatoo:
+    label: kakadu
+    summary: Belirgin sarı bir şapkalı beyaz Avustralya papagayı.
+    info: Sarı şapkalı kakadu, kakadular ailesine mensup en tanınmış kuşlardan biridir. Sarı rengindeki belirgin şapkası heyecanlandığında ya da endişe duyduğunda dikilir. Zeki olup insan sesini taklit edebilir. Tutuklulukta 80 yıl yaşayabilir ve Avustralyada tarım zararlısı olarak kabul edilir.
+  animal.condor:
+    label: kondor
+    summary: Amerika'nın en büyük uçan kuşu ve çıplak başlı bir yırtıcıdır.
+    info: And Kondoru dünyadaki en ağır uçan kuş ve kanat açıklığı en geniş olan kuştur. Bu kartal türü, büyük memeli hayvanların ölü bedenlerini yer ve bu yönüyle ekosistemde önemli bir rol oynar. Kondorlar And Dağları'ndaki dev boyutlardaki sıcak hava akımları üzerinde kanatlarını sallamadan planing yapabilirler. Ayrıca Andlarda yaşayan yerel halklar arasında gökyüzü ve özgürlük ile ilişkilendirilen, mistik bir sembol olarak kabul edilir.
+  animal.crane:
+    label: jeřáb
+    summary: Dans gösterileri ve güçlü çığlıklarıyla tanınan büyük bir göçmen kuşudur.
+    info: Küreğin ismini taşıyan bu kuş her yıl binlerce kilometre yol alarak göç eder. Dans etkinlikleri sırasında çiftler zıplar ve kanatlarını açarlar. Bahar ve sonbaharda Çekya'yı geçerek devasa sürüler halinde hareket eder.
+  animal.crow:
+    label: vrána
+    summary: Problemleri çözebilen krkavcılarda yer alan akıllı siyah bir kuş.
+    info: Vránalar, anlamlı ölçüde zeki olan ve krkavcılardan türeyen kuşlardır. İnsan yüzlerini tanıyabilir, araçları kullanabilir ve karmaşık görevleri çözebilirler. Genellikle çiftler halinde ya da küçük gruplar içinde yaşarlar ve hepsinden yiyen türlerdir. Çek Cumhuriyeti mitolojisine göre bu kuşlara mistik nitelikler atfedilmiştir.
+  animal.cuckoo:
+    label: kuş
+    summary: Yumurtalarını başka kuşların yuvalarına bırakan brood-parasiti bir kuş.
+    info: Geniş kuşun iki notalı çağrısı baharın gelmesinin sembolüdür ve brood-parazitizm ile tanınır çünkü yumurtalarını diğer kuşların yuvalarına bırakarak onlar tarafından yumurtadan çıkma ve beslenme şansı verir. Kukak yaşıtları olan küçük kuşlar kısa sürede yuvadaki diğer yumurtaları ve bebekleri dışarı atar. Erkekler 'kuku' sesiyle öterken dişiler balon gibi gürültülü ton çıkarırlar.
+  animal.dove:
+    label: gökbeyazı
+    summary: Barışın sembolü; yumuşak tüylü saf beyaz bir kuş.
+    info: Gökbeyazı, antik zamanlardan beri uluslararası barış sembolüdür; İncil'de Noe'ye zeytin dalı getirmişti. Hristiyanlıkta Yüce Ruh'u temsil eder. Evcil gökbeyazı aslında evcilleştirilmiş kayalık güvercinidir; beyaz rengi ırklatma sonucu ortaya çıkmıştır. Gökbeyazlarının serbest bırakılması dünyadaki törenlerin ve kutlamaların parçasıdır.
+  animal.duck:
+    label: karga
+    summary: Pirinç kırlangıcu olan su kuşu; erkeği yeşil başlıdır.
+    info: Yabanıl ördek dünyanın en yaygın ördeğidir ve çoğu evcil soya atasıdır. Erkek (ördek) karakteristik olarak parlak yeşil bir başa sahiptir, dişi ise dikkat çekici olmayan kahverengi renktedir. Yüzeyden beslenerek yemek yerler, dalış yapmadıkları için pirinç kırlangıcalarına dahildirler. Çekya'da göllere ve nehirlere ayrılmaz parçadır.
   animal.eagle:
     label: şahin
     summary: Büyük bir yarasaydırcı kuş, sivrice burun ve keskin görüşe sahiptir.
     info: Beyazbaş Şahini, Amerika Birleşik Devletleri'nin ulusal sembolüdür ve Kuzey Amerika'nın en büyük yarasaydırcı kuşları arasındadır. Balık avlamayı tercih eder ve sivrice pençeleriyle doğrudan suda balık yakar. Kanat açıklığı iki metreyi aşar ve doğal yaşam süresi yaklaşık 20 yıldır.
+  animal.emu:
+    label: emu
+    summary: İkinci en büyük kuş türü, Avustralya'da uçamayan bir ratit.
+    info: Emü kahverengi, dünyadaki ikinci en büyük kuş turudur ve sadece Avustralya'ya özgüdür. Uçmak yerine güçlü bir yüzücü ve hızlı koşucudur. Erkekler yumurtaları inceler ve yavrularını bakırken dişiler ayrılır. 1932 yılında Avustralya ordusu, ürünleri tehdit eden emülerin sürüsüne karşı verdiği savaşta kaybetmiştir.
+  animal.falcon:
+    label: şahin
+    summary: Yukarıdan aşağıya doğru uçarken dünyanın en hızlı hayvanı olan şahin (saatte 320 km'den fazla hız)
+    info: Şahin dünyadaki en hızlı hayvandır ve yukarıdan aşağıya doğru uçarken saatte 320 km'yi aşan bir hıza ulaşabilir. Gözlerinin altında karakteristik koyu halkalar vardır ki bu halkalar güneş ışığının yansımasını azaltır. İnsanlar 2000 yıldan uzun zamandır onları avlamak için kullanmıştır; falconculuk UNESCO'nun belgelerine kaydedilmiştir. Çek Cumhuriyeti’nde yüksek binaların ve kayalıkların üzerinde yuvalar.
   animal.flamingo:
     label: flamingo
     summary: Mavi suların üzerinde tek bacak üzerinde duran pembe tüylü yürüyen bir kuş.
     info: Pembe renk, yediğiniz yosun ve planktonlardaki karotenoidlerden kaynaklanır. Yavrular gri renkte doğar ve zamanla pembeleşir. Bükülmüş gagası, başlarını aşağı dönerek besinleri suyun içinde süzerek toplamak için filtre olarak kullanılır.
+  animal.goose:
+    label: hus
+    summary: Yerde yuva yaparak V şeklinde göç eden büyük su kuşu.
+    info: |-
+      Büyük gus, evcil gusaların ilk öncüsüdür.
+      Karakteristik bir V şekli içinde uçuşurlar ve liderlik pozisyonunu sırayla alırlar.
+      Yumurtlama sırasında çok bölgeseldirler ve yavrularını cesurca savunurlar.
+      Tarihte Roma'daki Capitol'in guguklarını korumuşlardır çünkü sesleriyle Galley'e karşı alarm vermişlerdir.
+  animal.hawk:
+    label: şahin
+    summary: Ormanlar ve tarım arazilerinde kuşları ve memelileri avlayan hızlı bir yırtıcı kuş.
+    info: Şahinler, sivrisinek veya buteo gibi türleri içeren yabanıl kuşların bir sınıfıdır. Kısa, yuvarlak kanatlarıyla ve uzun kuyruklu yapısıyla sık bitki örtüsünde avlamayı başarır. Hızlı ve çevik olup uçuşan kuşları ya havaalanında ya da gizlenerek avlayabilir. Dişiler erkeklerden belirgin şekilde büyüktür. Tarihte, av amaçlı olarak şahinler sokollüklük sanatında değerli kuşlardı.
+  animal.heron:
+    label: volavka
+    summary: Suyun kenarında balıkları yakalamak için hareketsiz duran uzun boylu bir su kuşudur.
+    info: Volavka, Orta Avrupa'nın en büyük su kuşlarından biridir. Bir heykel gibi sabit kalır ve balık yaklaşana kadar bekler; sonra çabukca gagasıyla saldırır. Balığı ya da kurbağayı tamamen yiyebilir. Uçarken boyunu 'S' şeklinde kıvrarak erkek ördeklerden ayrılır ki bu kuşlar uçarken boyunu doğrultmuşlardır.
+  animal.hornbill:
+    label: kafalı kuş
+    summary: Kasnak biçimli devasa bir gagası olan ve kıkırdak yapıya sahip tropikal bir kuş.
+    info: Kafalı kuşlar, kemikten oluşan büyük bir gaga ile tanınan Bucerotidae familyasından kuşlardır. Güneydoğu Asya ve Afrika'nın tropikal ormanlarında yaşarlar. Yuva yapımında delikler yerine ağacın içindeki boşlukları tercih ederler; dişi erkeğin yuvasına girip yumurtlama süreci boyunca dışarı çıkmadan kalır. Bu kuşların varlığı, sağlıklı tropikal ormanlara işaret eden bir göstergedir.
   animal.hummingbird:
     label: kolyibiri
     summary: Yerinde sallanmayı ve geri uçmayı başaran dünyanın en küçük kuşu.
     info: Kırmızıboğazlı kolyibiri, Kuzey Amerikanın doğusunda düzenli olarak yuva yapan tek kolyibiri türüdür. Saniyede 53 kez kanat çırparak karakteristik bir uğultu üretir. Nektar ve küçük böceklerle beslenir; kalbi dakikada 1200 kez çarpmaktadır.
+  animal.ibis:
+    label: ibis
+    summary: Uzun bükümlü gagalı bir brodiyor kuşu, eski Mısır'da tapınılan.
+    info: İbis, Threskiornithidae familyasından karakteristik uzun bükülmüş gagaya sahip bir brodiyor kuşudur. İbis kutsalı, Tanrı Thoth’un sembolü olarak eski Mısır’da tapınılan bir türdür. Bu kuşlar genellikle sulak alanlarda ve nehirlere dökülen delta bölgelerinde topluluk halinde yaşarlar. Koyun ibisi, Avrupa'ya bilinçsizce yayılmış olup bugün istilacı bir tür olarak saldırgan şekilde büyümektedir.
+  animal.kingfisher:
+    label: ledňáček
+    summary: Jade rengarenk bir kuş, deren balıkları avlamak için uçurumdan dalar.
+    info: Electrik mavi sırtı ve turuncu gövdesiyle Avrupa'nın en güzel kuşlarından biridir. Su üzerindeki bir dalda oturup balık izler; ardından uçurumdan dalar. Akarsuların temizliğini gösteren bir göstergedir; yaşadığı yerde su sağlıklı olur. Japonya'da benzer bir kuş (hisui), güzelliğin sembolüdür.
+  animal.kookaburra:
+    label: gülümseyen martı
+    summary: Avustralya'dan gelen ve insan kahkahasını andıran gürültülü bir kuş.
+    info: Güzel gülmeyi andıran küküpkuşu olarak da bilinen gülümseyen martı Avustralya'nın büyük bir martısıdır; insanlar tarafından duyulan en belirgin seslerden biridir. Geceleri doğan güneş ve batmakta olan günleri bildiren bu kuşun çağrısı Avustralya bush'unun sembolüdür. Yılanları, kurbağaları, fareleri ve böcekleri avlamaktadır. Aile gruplarında yaşar ve genç bireyler ebeveynlere yavrularlarını yetiştirmede yardımcı olurlar.
+  animal.lorikeet:
+    label: lori
+    summary: Küçük ve parlak renkli bir papagay, nektar ve tozla beslenir.
+    info: Lori, Avustralazi'den gelen en renkli papagayı türüdür. Özel fırça şeklindeki dilini kullanarak tropikal çiçeklerden nektar ve toz toplar. Tropikal ormanların önemli bir tozlaştırıcısıdır. Topluluklar halinde yaşar, gürültülü ve eğlencelidir; evcilleştirildiğinde insanlarla hızlıca bağ kurabilir.
+  animal.lyrebird:
+    label: lyrochvost
+    summary: Avustralyalı bir kuş olan Lyrochvost çevredekileri taklit edebilir.
+    info: Lyrochvost nádherný Avustralya'dan gelen ve motosikletlerdeki sesleri, fotoğraf makinelerinin sesini, otomobil alarm seslerini ya da diğer kuşların çığlıklarını mükemmel şekilde taklit eden bir kuştur. Erkek bireyler dişilere dikkat çekmek için gelişmiş bir kuyruk gösterisi yaparlar. Bu kuş aynı zamanda Avustralyanın Victoria eyaletinin sembolüdür.
+  animal.macaw:
+    label: ara
+    summary: Güney Amerika'nın tropikal bölgelerinden gelen büyük ve parlak renkli bir papagay türü.
+    info: Ara, Güney Amerikanın yağmur ormanlarında yaşayan en dikkat çekici renklere sahip kuşlardan biridir. Dayanıklı ve bükülmüş bir gagası vardır ki bu onun sert ceviz kabuklarını kırmasına olanak tanır. Bu kuşlar ömrünce çiftleşerek yaşarlar. Ormanların yok edilmesi ve yasadışı egzotik hayvan ticareti nedeniyle tehdit altında.
+  animal.magpie:
+    label: straka
+    summary: Siyah-beyaz renkte ve uzun yeşilimsi kıvılcım saçan kuyruklu bir kuş.
+    info: Geniş çenekli bir kuş familyasına ait olan straka, belirgin siyah beyaz rengiyle ve uzun yeşilimsi parlamayan kuyruğuyla bilinir. Parlak nesneleri çalma konusunda kötü niyetli olduğu söylense de araştırmalar bu efsaneyi doğrulamadı. Aynada kendisini tanıyabilen nadir kuşlardan biridir. Çin’de mutluluğun ve şansın sembolüdür.
+  animal.nightingale:
+    label: slavik
+    summary: Yumuşak ve komplike kuş sesleriyle bilinen küçük kahverengi bir kuştur.
+    info: Slavik adlı bu küçük kahverengi kuşun erkeği, en karmaşık ve güzel kuş şarkılarından birini söylemektedir. Öncelikle gece ve gün doğumunda ötmeyi tercih eder; isminin kökeni buradan gelir. Tuğla kuşuna uzaktan yakındır. Dante'den başlayıp Keats'e kadar dünya çapında yazarlar, slaviklerin ötüşünü aşk ve melankolinin sembolü olarak kutlamışlardır.
+  animal.ostrich:
+    label: Emu
+    summary: Dünyanın en büyük kuşu, uçamayan; saatte 70 km'ye kadar hızla koşar.
+    info: İki parmaklı emu dünyadaki en büyük ve en ağır kuştur; erkeklerin boyu 2,7 metre ve kiloları 150 kg'nın üstüne çıkar. Uçamaz ama iki ayaklı hayvanlar arasında dünyanın en hızlısıdır ve saatte 70 km'den fazla bir hıza ulaşabilir. Yumurtaları ise tüm kuşlardan en büyüktür. Ayaklardaki karşıdönüşlü başparmak yoktur; sadece iki parmağı vardır.
   animal.owl:
     label: tavşan
     summary: Gece avlayan, yuvarlak gözleri, sessiz uçuşu ve harika işitme yeteneği olan bir kuş.
@@ -26,11 +138,75 @@ cards:
     label: pav
     summary: Pav erkeği, dikkat çekici ve renkli tüylere sahip veyiş şeklindeki kuyruğu ile tanınır.
     info: Kara pav, Hindistan alt kıtasından köken alır. Erkek pav, dişileri cezbetmek için kuyruğunu veyiş şeklinde açar. Bu kuyruk aslında uzatılmış kılıç şeklindeki tüylerdir. Iridesan renkler pigmentlerden değil, ışığın tüylerdeki mikro yapılar üzerinde kırılmasıyla oluşur.
+  animal.pelican:
+    label: pelikan
+    summary: Balık avlamak için devasa bir çanta şeklindeki gagası olan büyük su kuşu.
+    info: Pelikan, balıkları yakalamak için karakteristik bir çantalı gagaya sahip büyük bir su kuşudur. Gagasındaki çanta hatta 13 litrelik su alabilir ve sonra suyu bastırarak balığı yutarlar. Hava akımından faydalanmak amacıyla aerodinamik formlarda uçarlar. Hristiyan sembolizmasında ise fedakâr sevginin simgesidir.
   animal.penguin:
     label: Penguen
     summary: Güney Yarımküre'den uçamayan harika bir yüzen kuş
     info: Imperator pengueni, 1,1 metreden fazla boyuna ulaşan en büyük penguen türüdür. Antarktika'da yaşar ve orada kış aylarında erkekler yumurtaları ayaklarında tutarak ısıtır. Su altında saatte 30 km'den fazla hız yapabilirler.
+  animal.pheasant:
+    label: pavu
+    summary: Büyük ve renkli bir kuş; erkeği belirgin rengi ve uzun kuyruğu ile bilinir.
+    info: Pavu Avrupa'ya Asya'dan getirilmiştir ancak bugün doğal olarak Avrupa'nın faunası içinde yer alır. Erkek pavu (tavuk), yeşil-kahverengi bedeniyle ve göz çevresindeki karakteristik kırmızı torbiyle dikkat çeker. Çek Cumhuriyeti’nde en yaygın uçlu av hayvanıdır ve avcı geleneğinin temelini oluşturur. Yerde sık bitki örtüsünde yuva yapar.
+  animal.pigeon:
+    label: pigeon
+    summary: Common gray bird of cities and countryside, originally rock pigeon.
+    info: The rock pigeon is the ancestor of all domesticated and feral pigeons found in urban areas. It was the first bird to be domesticated by humans and has been used for thousands of years as a messenger pigeon. Pigeons have an exceptional sense of navigation and can find their way home from hundreds of kilometers away. In cultures around the world, they symbolize peace.
+  animal.puffin:
+    label: papuchalk
+    summary: Renkli bir papagay gibi gagaya sahip küçük deniz kuşu.
+    info: Kuzey Papuchalk, renkli çizgili gagasıyla öne çıkan küçük bir yarasa kuşudur. Balık avlamak için dibe iner ve yüzerken balıkları kovalar; aynı anda onlarca balığı gagasında taşıyabilir. Kayalık sahillerde ve mağaralarda topluluk halinde yuva yapar. İzlanda ve Faroe Adaları'nın kalıcı sembolüdür.
+  animal.quail:
+    label: křepelka
+    summary: Çalıkuşu, küçük bir gizli kuş türüdür.
+    info: Avrupa'daki fasan ailesinin en küçüğü olan çalıkuşu, genellikle sadece sesini duyarak fark edilir çünkü görünmekten kaçınır. Diğer papağanlardan farklı olarak göçer ve kışları Afrika'da geçirir. Yumurta ise çok sevilen bir tatlıdır.
+  animal.raven:
+    label: krkavec
+    summary: Zeki ve koyunu renkli bir kuş türüdür.
+    info: Krkavec, 60 santimetreden uzun boylu en büyük kuşlardan biridir. Yaradılışı itibariyle çok akıllıdır; gelecek planlamayı öğrenme, oyun oynama ve sosyal bağ kurma yeteneğine sahiptir. Kuzey mitolojisinde (Özgür'ün kuşağı Huginn ve Muninn) ve Keltler arasında mistik bir statüye sahip olurdu. Londra Kulesi'nin efsanesel koruyucusu olarak bilinir çünkü imparatorluğun düşeceği söylenirdi eğer krkavcaklar kulenin dışına çıkarsa.
+  animal.roadrunner:
+    label: Yer Kuşağı
+    summary: Birinci sınıf bir koşucu ve çizgi film sembolü olan Kuzey Amerika çölü kuşağı.
+    info: Yer kuşağı (roadrunner), uçmayı yürümeye ve koşturmaya tercih eden küküklere benzeyen bir kuştur. Saniyede 30 km/s hızla koşabilir ve yılanlar, jöleler, böcekler ve küçük memelilerle beslenebilir. Yılan avlamakta oldukça etkindir. Amerikan çizgi filmleri Road Runner ve Coyote'nun ana karakteridir.
+  animal.robin:
+    label: çörbə
+    summary: Kırmızı göğüslerine sahip küçük bir kuş; İngiltere'deki Noel sembolüdür.
+    info: "Çörbe, tipik olarak turuncu-kırmızı göğüs rengine sahip küçük bir kuştur. \nSessizce cesur davranır; kazıklayan bahçıvanları izleyip açığa çıkan solucanları toplar. \nİngiltere'nin milli kuşudur ve geleneksel Noel simgesidir. \nYılı boyunca yaşadığı alanda kalarak hatta kışın bile ötüyor."
+  animal.seagull:
+    label: racek
+    summary: Deniz kenarında insanlardan yiyecek arayan bir sahil kuşudur.
+    info: Racek stříbřitý Avrupa'nın en yaygın deniz kuşlarından biridir. Uyum sağlayabilen ve her şey yiyen bu kuş hem denizin kenarında hem de göllerin ve nehirlerin yanında yaşamaktadır. Zeki olup bazen onları besleyen insanların yerini hatırlayabilir. İnsanların yedikleri yemeğe olan ilgisi birçok deniz turisti tarafından anlatılan pek çok hikâyenin konusunu oluşturur.
+  animal.secretary_bird:
+    label: sekreter kuşu
+    summary: Yılanları bastırarak öldüren uzun bacaklı Afrika avcı kuşu.
+    info: Sekreter kuşu büyük bir Afrikalı avcıdır ve çoğunlukla açık çayır arazilerde yürüyerek hareket eder. Güçlü ayak vuruşlarıyla yılanları ve kemiricileri öldürür; bu darbelerin ağırlığı vücut ağırlığının üç katına eşit olabilir. Uzun kafatasındaki tüyler, bir yazmacının kulak arkasındaki kıllara benzer şekilde görünmesinden dolayı adını alır. Hem Güney Afrika Cumhuriyeti hem de Sudan'ın ulusal sembolüdür.
+  animal.sparrow:
+    label: vurucak
+    summary: Küçük, kahverengi bir yemek kuşu olan ev vurucağıdır.
+    info: Ev vurucuğu dünyanın en yaygın kuşlarından biridir ve insanın sadık bir takipçisidir. İnsan yerleşimlerine yakın yerlerde duvarlar ve çatıların aralarında yuvalanır. Geçtiğimiz onyıllarda şehir nüfusu ciddi şekilde azalmıştır. Çekoslavak halkı için vurucak sıradanlık ve uyum yeteneği sembolüdür.
+  animal.spoonbill:
+    label: kolpík
+    summary: Özellikle kaşık şeklindeki gagasıyla tanınan beyaz bir su kuşudur.
+    info: Beyaz kolpik, İbis'e benzer ancak düz ve kaşıklı gatasıyla diğer türlerden ayrılır. Yemeği ararken gatasını yana yatırarak hareket ettirerek derinliği az olan sularda avlar. Koloniler halinde çayır ve akasya alanlarında yuvalar.
+  animal.stork:
+    label: çıtır
+    summary: Kızıl gagalı büyük beyaz bir kuş; halk arasında çocukları getirdiğine inanılır.
+    info: Çıtır Avrupa'nın çatı ve direklerinde yuva yaparak göç eden bir kuştur. Yaz mevsimi boyunca sıcak Afrika'da geçirir ve her yıl aynı yuvaya geri dönerken bu yuvayı zamanla büyütür. Bahar ve verimin sembolüdür; halk geleneklerine göre çocuklar getiren bir hayattır. Çek Cumhuriyeti, Avrupa'nın en önemli çıtır yuvalama bölgelerinden biridir.
+  animal.swallow:
+    label: kırlangıç
+    summary: Tipik olarak ikiye ayrılmış kuyruklu hızlı bir hava böceğiyiyeni.
+    info: Kırlangıç genellikle Afrika'nın subtropikal bölgesinde kışıyor ve Avrupa'da yuva yapıyor. Uçuşta ustalaşmış olup tamamıyla havada böcek avlıyor ve su yüzeyinden durmadan su içebiliyor. Ahşap evlerde ve çatılarda yuvalıyor; halk arasında kırlangıçların evi şans getirdiği düşünülüyor. İlkbahar, dönüşüm ve memlekete sadakati simgeliyor.
+  animal.swan:
+    label: göknar
+    summary: Büyük, zarif beyaz su kuşu ve güzellik ile romantiğin sembolüdür.
+    info: Göknar Avrupa'nın en büyük uçabilen kuşudur ve kanat açıklığı 2,4 metreyi aşar. Güzellik, aşk ve sadakati temsil eder; eşler birbirine ömrün sonuna kadar sadıktır. Uyarıcı olarak bilinçsizce gagasını kaldırıp tüyüne hava verir. H.C. Andersen'in masalında göknar çirkin ördek çocuğun dönüşümünün sembolüdür.
   animal.toucan:
     label: tukan
     summary: Tropikal bir kuş türüdür ve büyük, renkli bir gagası vardır.
     info: Tukan, Orta ve Güney Amerika'nın yağmur ormanlarında yaşar. Dikkat çeken gagası 20 cm'den uzun olabilir, ancak hafiftir çünkü hava odacıklarından oluşur. Bu gagası vücut sıcaklığını düzenlemek, meyveleri koparmak ve diğer tukanlarla iletişim kurmak için kullanılır.
+  animal.woodpecker:
+    label: dovec
+    summary: Ağaç kabuğuna vurarak böcek bulmak veya yuva kazmak için kullanılan kuş.
+    info: Dovec, sert bir gagası ve destek olarak kullanılan sert bir kuyruğu olan Picidae grubundaki kuşlardır. Dili gaganın üç katı uzunluğunda olabilir ve delinmiş açıklardan larvaları çıkarmak için kullanılır. Ayrıca, toprak üzerine işaretlemeleri ve iletişim kurması için kovma davranışını sergilerler. Avrupa'nın en büyük doveciği ise Dryocopus martius türüdür.

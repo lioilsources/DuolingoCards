@@ -2,14 +2,71 @@ lang: tr
 pivot: false
 title: Böcekler ve Kurbağalar
 cards:
+  reptile.agama:
+    label: ağame
+    summary: Afrika'nın renkli kayalık yılan faresidir.
+    info: Afrika'dan Avustralya'ya kadar uzanan bir bölgelerde yaşayan yaklaşık 300 türe sahip büyük bir yılan faresi familyasıdır. Kırmızı başlı erkeklerin dikkat çekici turuncu kafaları ve mavi bedeni vardır ki bu da onların egemenlik göstermesini sağlar.
+  reptile.alligator:
+    label: alligator
+    summary: Kulaklı burnuna sahip büyük bir kurbağasınımsızdır.
+    info: Amerikan alligatorsı yaşayan iki türden biridir ve diğer küçük Çince alligatorsıdır. Kertenkeleklerinden yassı burun yapısıyla ayrılır ayrıca kapalı dişleriyle fark edilebilir çünkü çene üstünde olan dişler altta bulunanlardan öne çıkmazlar. Güneydoğu ABD'de göllerde yaşamaktadır.
+  reptile.anaconda:
+    label: anacond
+    summary: Amazon çulluklarında yaşamayı seven dünyanın en ağır yılanı
+    info: |-
+      {"hint":"dünyanın en ağır yılanı olan ve yarı sucul bir türdür","info":"Yeşil anaconda dünyanın en ağır yılanıdır;
+      samisleri 90 kilogramdan fazla ağırlık kazanırken uzunluğu ise beş ila altı metre olur.
+      Tropikal Güney Amerika'nın çulluklarında ve nehri boyunda yaşarlar
+      Yarı suda yaşayan bu hayvan balıklara ek olarak kuğulara , kapibalarına ve alligatörlere kadar pek çok canlıyı avlayabilirler.
+      kobrayalardan farklı şekilde doğuran bebeklerini dünyaya getirir.(Viviparity)"}
+  reptile.anole:
+    label: anoli
+    summary: Renk değiştiren küçük bir Avrupa eşekbağıdır.
+    info: Anolislar ABD'den yaklaşık 400 türe sahip küçük yılanlarla karıştırılmaması gereken bir kuşakta yer alan küçük sürüngenlerdir. Erkekleri iletişim kurmak ve dişilerini çekmek için renkli boynuzları vardır. Yeşil Anolis sıcaklık değişimine veya duygusal durumlara göre yeşilden kahverengine değişebilen rengindeki kabuklarını değiştirir.
+  reptile.axolotl:
+    label: aksonott
+    summary: Ömrünün tamamında embriyonel özelliklerini koruyan bir akvaryum hayvanıdır.
+    info: Aksonottal Meksikalı suatığıdır ve nöteni bilinir; yani ömrü boyu embriyonel özellikleri korur ki bu da dışsal solungaçları içerir.
+  reptile.basilisk:
+    label: basilisk
+    summary: Kısaca suyun üstünde koşa bilen Amerikan ejderha.
+    info: İncirburnu Basilisken'i (Yahya Mesih yılanı), dişli parmakları sayesinde su yüzeyinden koşabilmeye olanak tanır; bu yapının altındaki havayı tutar ve böylece yaklaşık olarak 20 metre boyunca yüzebilirler öncesine kadar. Erkekleri başlarında belirgin bir sırt çizgisi vardır. Ağaçta saklanma kamufle etme stratejilerinin temelidir.
+  reptile.boa_constrictor:
+    label: krallı boa
+    summary: Avını vücudunda boğan Büyük Güney Amerikalı yılan.
+    info: Krallı boa bir büyük Güney Amerika yılanıdır ve zehirsizdir. Avını öldürmek için onun etrafına sarılır; her nefesi sırasında kaslarını sıkıştırarak avın soluyamasaydı gibi baskı uygularlar. Huzurlu yapısı sayesinde popüler bir evcil hayvan olarak kabul edilirler.
+  reptile.box_turtle:
+    label: şkatulovala tortuga
+    summary: Tam olarak kabuğu içinde kapanabilen küçük karada yaşar.
+    info: Kutu kaplumbağası hareketli bir ön plaka ile kabukunu tamamen kaplayabilen Kuzey Amerika kökenlidir. Ormanlarla çayır gibi alanları tercih ederler. Tek başına yaşayan bu türün ömrü doğal ortamda 40 ila 50 yıl arasında olur ancak bazen yüz yılı aşabilir.
+  reptile.caecilian:
+    label: çamış
+    summary: Tropikal bölgelerde yaşayan küçük deniz kabukluları.
+    info: Yılan benzeri bir görünüşü vardır ve gözleri küçülerek gelişmiştir.
+  reptile.caiman:
+    label: kayak
+    summary: Gücü bir kaplumbağadan veya alligator'dan küçük olan Güney Amerikanın bir timsali.
+    info: Brillant kayağı Güney Amerikanın en yaygın timsalidir ve gerçek bukapallardan küçüktür; boyu maksimum iki buçuk metre olur. Meksikalı Arjentinalar arasında yer alan sıcaklık kuşağı akarsularında, göllerde ve bataklıklarda yaşarlar. Ciltleri için avlanırlar; bazı bölgelerinde dolayı popülasyonları tehdit altındadır.
   reptile.chameleon:
     label: değişken renkli yılan
     summary: Derisini rengini değiştiren ve hareketli gözleri olan bir yılan.
     info: Yemen cılgın faresi adlı bu sürüngenin derisinin rengini değiştirme nedeni gizlenmek değil iletişim kurmak ve vücut sıcaklığını ayarlamaktır. Gözleri bağımsız olarak hareket etmeyi sağlar.
+  reptile.cobra:
+    label: körebe
+    summary: Özellikle karakteristik bir yaka ile tanınıyor; tehlikeli durumda koruyan zehrinin etkinliği.
+    info: Eğrelti sineği olarak bilinen kobraların elapidler grubuna mensuptur ve tehdit edildikleri zaman başındaki deriyi bir yele gibi açarak uyarı verir. Zehiri sinirden zehirlenen av sistemini felç ettiren toksindir. Kobra simgesel sembolü Mısır'ın ulusal emblemi olmanın yanı sıra Hindistan'daki da yer alırken, Naja nigricollis türü iki metre mesafeye kadar göz hedefine saldı.
   reptile.crocodile:
     label: krokodil
     summary: Nehaliç bir yarımamalı büyük eski sürüngen.
     info: Nil krokodili dünyadaki en büyük sürüngenlerden biridir. Afrika'da yaşar ve suyun içinde avlar. Tüm yaşayan hayvanlardan dişleri en güçlü olanıdır.
+  reptile.flying_dragon:
+    label: uçan drako
+    summary: Güneydoğulu Avrupa kökenli uçmayla ilgili memeli.
+    info: Uçan drako (Draco volans), Güneydoğu Asya'da yaşayan ve uzatılmış kaburga membrânları üzerinde süzülen küçük bir yılan faresidir. Ağaçtan ağaca hareket etmek veya avcılardan kaçmak için bu yeteneği kullanır. Erkek bireyler belirgin sarı boynuzlu yapısına sahiptir.
+  reptile.frilled_lizard:
+    label: Yılan Agaması
+    summary: Tehlikeyi hissettiğinde dramatik şekilde yaka kabartan ve iki ayak üzerinde kaçış gösterisi yaparak uzaktan giden sürüngen.
+    info: Kırık kuyruklu agamalar Avustralya'nın bir türüdür ve boynundaki derisel kıvrım şeklindeki yastığı tehdit durumunda açar; bu davranışla uyarı verirler. Tehdit altında iken dik bacaklı olarak koşurları gibi mini dinozorlar gibilerdir. Yastıklı böcekleri sadece hareket halinde değil, aynı zamanda simgesel anlama sahip olup Avustralyanın Kuzey Bölgesinin semboludur.
   reptile.frog:
     label: kurbağa
     summary: Yeşil renkte, kırmızı gözleri olan sırlı bir memeli.
@@ -18,19 +75,152 @@ cards:
     label: gekon
     summary: Düşey yüzeylerde tırmanabilen küçük bir yılan faresi.
     info: Leopard geckosu popüler bir seraperya türüdür. Ayaklarındaki milyonlarca mikroskobik tüy sayesinde kayalarda ve duvarlarda tutunur; yapıştırıcı değil.
+  reptile.gharial:
+    label: Gharial
+    summary: Balıklar için özel olarak evrimleşmiş oldukça dar bıyığa sahip bir kurbağa.
+    info: Gharial Hindistan'dan gelen bir kurbağalıdır ve balık avlamaya uyum sağlamış çok uzun boylu dar buruna sahiptir.
+  reptile.gila_monster:
+    label: gila heloderması
+    summary: Amerikan güneybatısında yaşayan marmara benzeri derili zehirlilerden gila helodermasıdır.
+    info: Gila heloderması (Heloderma suspectum), dünyada nadiren görülen bir zehirli yılan faresidir. Muz ambalajı gibi gri ve turuncuyu içeren deseni vardır ki bu da onun tehlikeli olduğunu belirtmektedir.
+  reptile.glass_lizard:
+    label: Körlük
+    summary: Bacaklı değilse de kördüğüm gibi görünmektedir.
+    info: Yılan benzeri ama yılan olmayan bu tür Avrupa'daki Orta Asya'ya kadar yayılmıştır ve kolayca bir yılanla karışabilirler. Yılandan farklı olarak hareketli göz kapakları ve kulak delikleri vardır. Savunma mekanizması olarak kuyruğunu bırakabilen bu sürüngenin kuyruk tekrar bünyeye entegre edilir.
+  reptile.hawksbill_turtle:
+    label: green turtle
+    summary: Dar bir gagaya sahip olan tehlikede bulunan deniz kaplamıdır.
+    info: Green Turtle adlı deniz kaplanı Eretmochelys grubuna bağlıdır ve ciddi şekilde tehdit altındadır.
+  reptile.horned_lizard:
+    label: köpük yılanı
+    summary: Yüzdeki benzer boynuzlara sahip Kuzey Amerikalı düzensiz tüylü bir kuşak.
+    info: Köpük yılanı (Phrynosoma), Kuzey Amerikan çölünde yaşayan düz ve tırnaklı bir kurbağadır. Tehdit edildiğinde savunma mekanizması olarak gözlerinden yaklaşık metre uzaklığa kan fışkırtabilir. Hareket kabiliyetleri düşüktür çünkü öncelikle cam gibi görünmeye dayanırlar. Gübreler tarafından tehdit altında olup bu maddeler ana besin kaynakları olan karınca popülasyonlarını yok etmektedir.
+  reptile.iguana:
+    label: Yeşil jilet
+    summary: Tropikal Amerika'dan gelen yeşil renkte ve boyuna uzunluğu iki metre kadar ulaşabilen bu sürüngenin üst kısmında çıkıntılı sırtı vardır.
+    info: '{"hint":"boyuna göre büyük ot yiyici bir ejderayla benzerliği olan kuyruklu kurbağa"}'
+  reptile.king_snake:
+    label: krallığa yakışır
+    summary: Amerika'ya özgü non-jenel bir yılan türünün özellikleri
+    info: Kraliyet yılanı ABD'de bulunan bir non-jenetikli yılan türüdür ve bu yılanlar ölümcül olan kertenkeleye karşı bağışıklık gösterirler; onları beslenmektedir.
+  reptile.komodo_dragon:
+    label: kemodosajın
+    summary: Bakterilerle öldüren bir hayvan olarak düşünülürdü ama aslında zehirlidir.
+    info: Komedo ejderesi yaşayan en büyük yılan türüdür ve boyu üç metreyi aşabilirken kilosı ise yetmiş kilogramsını geçebilir.
+  reptile.leatherback_turtle:
+    label: leopardo kaplumbağı
+    summary: Sert plakette yerine deriden oluşan kabuklu en büyük deniz türüsü.
+    info: Leatherback turtles have tough skin reinforced by small bony plates rather than rigid shells like other species.
   reptile.lizard:
     label: ještěr
     summary: Sıcak bölgelerde yaygın dört ayaklı ve tınlı bir sürüngen.
     info: Yeşil iguanalar Orta ve Güney Amerika'dan gelen büyük yılan benzeri hayvanlardır. Bitkilerle beslenirler, iyi dağcıdırlar ve kopmuş kuyruklarını yeniden oluşturabilirler.
+  reptile.mamba:
+    label: mamba
+    summary: Çok hızlı ve yüksek toksikitesli Afrikalı ağaç yılanıdır.
+    info: '{"hint":"Hızlı ve çok ölümcül Afrika ağacı yılanı (Dendroaspis)","info":"Siyah Mamba dünyadaki en hızlı ve en öldürücü yılanlardan biridir\. Yerde saatte 20 kilometreden fazla hız yapabilir ve ağaçları çıkabilmektedir\.")","label":"mamba","summary":"Çok hızlı ve yüksek toksikitesli Afrikalı ağaç yılanıdır."}'
+  reptile.matamata:
+    label: matamata
+    summary: Yaprak gibi görünen bizart görünüşlü güney amerika kaplumbasası.
+    info: Matamatayı Güneydoğu Kuzeybatı Hindistan'da bulunan tatlı su kaplumbağalarından biridir ve en tuhaftır. Karınkorunun baş kısmı yaprağa benzer şekilde örtülüdür ki bu da mükemmel gizlenme yeteneği sağlar.
+  reptile.monitor_lizard:
+    label: Varkan
+    summary: İki yönlü bir diline sahip aktif avcı bir sürngendir.
+    info: Bir Varkanas cinsi olan bu büyük yılan benzeri hayvanın ikiye ayrılmış dili koklama amacıyla kullanılır. Komodo varkanı dünyadaki en büyük yaşayan sürüngendir ve boyu üç metreden fazla olabilir. Bu türler akıldır; bilimsel gözlemlerde basit araç kullanımına rastlanmıştır.
+  reptile.mud_turtle:
+    label: Çamur Kapası
+    summary: Amerika'da yaşayan küçük tatlısu karada-yarı suda yaşamaya uyum sağlamış bir kabuklu memeli.
+    info: Çamur kapalıları (Kinosternon), Kuzey ve Orta Americadan gelen yaklaşık olarak 15 santimetre uzunluğunda küçük tortu yabanıl kurbağa türleridir. Tehlikeyi hissettilerinde koklayıcı bezleri ile kuvvetli bir koku yayırlar. Kuraklık dönemini topraktaki çamura gömülerek uykuya dalmalarıyla atlarlar. Etçil olmayan bu hayvanların beslenme şekilleri böceklerle sınırlıdır.
+  reptile.mudskipper:
+    label: balçıklı bıyıklı
+    summary: Göğüste bulunan kanatlarla karada yürümeyi başaran ve ağaçlara çıkmayı sağlayan deniz canlısı.
+    info: Baltık peribalık bir deniz hayvanıdır ve balıkların başka türlerinden farklı olarak büyük kısmını suyun dışında geçirir. Balçığa benzer yerleri ayakları gibi hareket ettiren belirgin göğüs fenerleri ile ilerlemektedir. Nemli cildini solunum yolu olarak kullanır; ayrıca bu sayede meşe ağacının köklerine çıkabilir hale gelmektedir.
+  reptile.newt:
+    label: çek
+    summary: Yarı karada yaşayan küçük bir memeli
+    info: |-
+      {"hint":"Küçük yarım sucul bir eklem bacaklısı olan Triturustan türemiş bir hayvan","info":"Avrupa'nın ortasındaki en büyük çölek türüdür; boyu 15 santimetreyi aşabilir.
+      Üreme döneminde erkeklerin belirgin omurgaları vardır ve bu da onları yılanlara benzetmektedir.
+      Çek Cumhuriyetinde tüm çöl kertenkelesi türleri kanunla korunan canlılardır.
+      Soğuk mevsimde ise ağacın köklerinin altına veya suda olmayan mağarlarda geçirilir."}
+  reptile.poison_dart_frog:
+    label: denebratif
+    summary: Tropikal bir deneyebilen küçük ama çok tehlikeli kurbağalar.
+    info: Birçok dendrobata türü Güney ve Orta Kamerikanın yağmur ormanlarında yaşarlar; canlı renkleri toksisite uyarılarıdır.
+  reptile.python:
+    label: Piton
+    summary: Uzunluğu 6 ila 8 metre arasında değişen büyük, ölümcül olmayan, sarma ile öldürücü olan bir yılan.
+    info: |-
+      Büyük yılanlar dünyadaki en uzun yılanlardır; retileli anaç boyutuna ulaşabilirler
+      Avını sıkmakla değil bir toksina bağlı olarak öldürür;
+      avın etrafındaki boynunu ve gövsünü sıkıştırır.
+      Isı algılama alıcıları vardır ki bu da onların avlarını gece de tespit edebilmelerini sağlar.
+      Pitonlar Florida'da istilacıdır çünkü yerel hayvan popülasyonlarına zarar verir.
+  reptile.rattlesnake:
+    label: çıkıştıran
+    summary: Ucu çıtlar ile donanmış zehirleyici bir yılan.
+    info: Çıtırçıt yılanları, sonucunda kıvrım şeklinde bir yapıya sahip olan karakteristik çırtlatıcıyı taşıyan zehirli ejderhalardır. Bu çırtlama yapısı keratin tabakalarından oluşur; tehdit durumlarında avcıdan uzaklaşmak için uyarı işlevini görürler.
   reptile.salamander:
     label: mlok
     summary: Yanardağı olan uzun boylu bir kurbağa türü.
     info: Sarı-kırmızılı lekeleri bulunan mlok, Orta Avrupa'da yaşayan koruma altındaki bir amfibi türüdür. Nemli ormanlarda yaşar ve derisinden zehirleyici maddeler salgılar.
+  reptile.sea_snake:
+    label: deniz yılanı
+    summary: Palet gibi yapıda kılları ile okyanus ortamlarında yaşayabilen zehirlidir.
+    info: Deniz yılanı, denizin tamamıyla yaşamına uyum sağlamış olan bir geyikten türeyen ve Hydrophiidae familyasından venüsli sürüngenlerdir. Yüzme için palet şeklinde düzleştirilmiş kuyruklu yapısını kullanır. Sinir sistemi üzerinde etkili nörotoksin içeren çok güçlü bir zehire sahiptir ancak bu hayvanlar oldukça barışçıldırlar.
+  reptile.skink:
+    label: skink
+    summary: Yumuşak pülpülü ve kısa bacaklı bir sürüngen.
+    info: Skinker, yaklaşık bin beş yüz türe sahip bir yılan türüdür ve dikkat çekici olarak düzgün sikloit şeklinde pullara sahiptirler. Bazı türleri bacakları kısalabilir veya tamamen eksik olur. Avustralya'nın mavi dilli skinki'si avcılara karşı uyarı işareti olarak belirgin şekilde mavimsi renkteki dilini dışarı çıkarır. Tropikal bölgelerden çöllere kadar değişen farklı ekoloji tiplerinde yaşarlar.
   reptile.snake:
     label: Yılan
     summary: Uzun ve esnek bedenli, bacaksız bir sürüngen.
     info: Yılanlar uzun vücutlu, bacaksız sürüngenlerdir. Yaklaşık 3.700 farklı türü vardır; avladıkları zaman koku alma duyusuyla (Jacobson organı) yardımcı olur ve bazıları zehirlidir.
+  reptile.snapping_turtle:
+    label: serpentine kertenkelesi
+    summary: Büyük boyutta olup saldırgan davranış gösteren bu tatlısu kaplanıdır.
+    info: Serpentine kertenkele büyük bir Amerikalı tuzsuz su kaplumbağasıdır ve güçlü çene yapısına sahiptir.
+  reptile.thorny_devil:
+    label: tırtıklı moloh
+    summary: Kılcal borularla suyu emen ABD'deki iğne sahibi bir kurbağa.
+    info: Tırtıklı molokh bir avustralyalı yılan faresidir ve binlerce sert tüy ile önlüdür.
+  reptile.toad:
+    label: Kurbaga
+    summary: Toprağa özgü kabuklu iki yaşamlık memeli.
+    info: |-
+      Yabanmercankuşağı Çek Cumhuriyeti'nde en yaygın kurbağalardır.
+      Çıtır çıdır olmayan bu yarasa benzeri kabuklar koruyucu bir örtü oluştururken aynı zamanda toksik salgıların kaynağı olarak görev yapmaktadır.
+      Her yıl büyük gruplarda çoğalmak için su havuzu alanlarına göç eder;
+      Türkiye'deki bazı bölgelerde yol geçişlerinde hayvanları yardım etmeye çalışan gönüllüler vardır.
   reptile.tortoise:
     label: kara kaplumbağası
     summary: Yerleşik bir yılan türü olup kalın kabuklu ve yavaş hareket eden bir sürüngen.
     info: Fildişi kaplumbağası dünyadaki en büyük karada yaşayan kaplumbagadır. Galapagos Adaları'nda yaşar ve 150 yıl ömürlenebilir. Kabuğu iskeletinin parçasıdır.
+  reptile.tree_frog:
+    label: Yapısal Kurbağa
+    summary: Parmakları üzerindeki yapışkan kemeriyle dallarda hareket eden küçük bir ağacalığı.
+    info: Yeşil yapışkan parmaklı kurbağa, Hylidae grubuna mensuptur ve ayak uçlarında tutunma kemerleri ile düz yüzeylerde tırmanabilirlik sağlar. Çekya'da bir yerli türü olan genel olarak korunan bir kuşağın sahibidir. Sıcaklıktan ve nemden etkilenebilerek yeşilden gri veya kahverengiye dönmeye meyillidir.
+  reptile.tuatara:
+    label: tuatara
+    summary: Yeni Zelanda'dan gelen yaşayan fosil hayvanıdır.
+    info: Tuatara dünyada en eski sürüngenlerden biridir ve dinazorların yaşadığı dönemde bu sınıfın varlığına tanıklık eder.
+  reptile.uromastyx:
+    label: uro mastiks
+    summary: Köroğlu adında uzantısıyla tanınır.
+    info: Afrika'nın Kuzeyi'nden Orta Doğu ve Hindistan'a kadar olan bölgelerde bulunan Uromastyx bir çöl yılanıdır ve savunma amacıyla karakteristik dikenli kuyruğa sahiptir.
+  reptile.viper:
+    label: Yılan
+    summary: Üçgen bir başlı ve kıvrılmış bedenli öldürücü bir ejderhaydı.
+    info: Geniş kafalı yılanlar Çek Cumhuriyeti'nde doğal olarak yaşayan tek ölümcül yıldıza sahiptirler.
+  reptile.wall_lizard:
+    label: Duvara Jesteği
+    summary: İnce yapılı ve çabuk koşabilen bu yılanlar sıklıkla taşlı yerleri tercih etmektedir.
+    info: Zırtıklı bir jesterkadır ve Güney Avrupa ile Kuzeybatı Afrika'dan köken alırlar. Çekya’da sıcak kayalarda ve duvarlara yerleşmişlerdir. Tehlikeler karşısında hızlıca hareket eder ve kıskacını bırakabilir. Son birkaç década içinde iklim değişikliği nedeniyle daha da genişlemiştir.
+  reptile.worm_lizard:
+    label: sindirimli
+    summary: Topraktaki yaşam boyu geçiren bir yılan gibi görünen ama bacakları olmayan topraksal sürüngen.
+    info: |-
+      Sindirici benzerleri, Afrika ve Kuzey'in热带地区的阿米菲萨尼亚目中研究较少的无足穴居爬行动物。
+      Yakın bakıldığında büyük solucanlara benzemişlerdir;
+      bölgesel derilere sahiptirler ve gözleri gerilmiş durumdadır.
+      Hayatlarının tamamını yeraltında geçirerek karıncalarla beslenmektedir.

@@ -2,22 +2,221 @@ lang: de
 pivot: false
 title: Wildtiere
 cards:
+  animal.aardvark:
+    label: Maulwurf
+    summary: Nachtaktiver afrikanischer Insektopher mit Schweineschnauzbart, grabender Bautyp.
+    info: Der Kappmarder ist die einzige noch existierende Art der Ordnung Tubulidentaten und hat keine eng verwandten Arten mehr. Seine nächtliche Lebensweise sowie starke Krallen und ein klebriger Zunge sind Anpassungen an das Jagen von Ameisen und Termiten. Die verlassenen Höhlen dieses Tieres nutzen zahlreiche andere Tiere.
+  animal.armadillo:
+    label: Neunechsennashorn
+    summary: Kleiner Säugetier im Panzer aus knöcherne Schuppen.
+    info: Der Neunechsenpanzer ist der einzige Säuger mit einem echten Knochensteg. Bei Bedrohung rollen sich einige Arten zu einer Kugel zusammen und graben hervorragend schnell – sie können ein Loch innerhalb von weniger als zwei Minuten ausheben.
+  animal.baboon:
+    label: Affe
+    summary: Ein großafrikanischer Primat mit markantem Schnabel und sozialem Leben.
+    info: Babune sind eine Gruppe großer Primaten aus den afrikanischen Savannen und felsigen Gebieten. Sie leben gesellig mit einer klaren Hierarchie innerhalb der Herden sowie durch ein reiches Repertoire an Geräuschen und Gesten miteinander kommunizieren können.
+  animal.bear:
+    label: Bär
+    summary: Ein großer allbeißender Säugetierart aus der Familie der Katzen.
+    info: Der Braunbär ist die größte Landraubkatze Europas und asiens mit einem Gewicht von bis zu 700 Kilogramm. Er ernährt sich als Allesfresser von Fischen, Beeren, Honig sowie Kleinsäugern. Im Winter verbringt er den Winterschlaf; währenddessen gebären Weibchen ihre Jungen.
+  animal.beaver:
+    label: Europäischer Biber
+    summary: Großer Nager baute Hängebrücken und erschaffe Sumpflebensräume.
+    info: Der Europäische Biber ist der zweitgrößte Nagetierart weltweit und baut Dämme aus Zweigen und Schlamm an Flüssen, wobei er Tümpel sowie Feuchtgebiete schafft – Lebensraum für viele Tierarten. Er hat einen flachen hornbedeckten Schwanz, große orangefarbene Schneidezähne und eine wasserdichte Felldeckung.
+  animal.bison:
+    label: Bisons
+    summary: Großes nordamerikanisches Rind mit charakteristischer buschiger Mähne.
+    info: Der Amerikanische Bison ist das schwerste Landtier Nordamericas. Im 19. Jahrhundert war er fast ausgestorben – von geschätzten 30 bis 60 Millionen Tieren blieben weniger als tausend übrig. Dank Schutzprogrammen hat sich die Population wieder erholt und beträgt etwa eine halbe Million Individuen.
+  animal.buffalo:
+    label: afrikischer Buschbüffel
+    summary: Großes Böckergut aus Afrika, das in Stämmen lebt; ein Mitglied des Big-Five.
+    info: Der afrikatische Buschbüffel ist einer der gefährlichsten Säugetiere Afrikas und Teil des sogenannten Big Five. Er lebt in Herden mit hunderten bis tausenden Tieren und kann durch gemeinsame Verteidigung sogar Löwen vertreiben.
+  animal.camel:
+    label: Kamel
+    summary: Wüstensäugetier mit Kämmern zur Speicherung von Fett.
+    info: Der Einhorncamel oder Dromedar ist perfekt an das Leben im Wüstenraum angepasst; sein Rückenkamm speichert Fett und nicht Wasser als Energiequelle. Es kann über 100 Liter Flüssigkeit auf einmal trinken und Wochen ohne Wasseraufnahme überleben.
+  animal.capybara:
+    label: kapibara
+    summary: Größtes Säugetier auf dem Planeten mit einer halb unter Wasser liegenden Lebensweise.
+    info: Die Kapp-Bar ist das größte noch existierende Nagetier der Welt und erwachsene Exemplare wiegen zwischen 35 bis 66 Kilogramm.
+  animal.cheetah:
+    label: Geopard
+    summary: Schnellstes Landtiere mit Höchstgeschwindigkeiten bis über 110 km/h.
+    info: Der Geparde ist das schnellste Landtier und beschleunigt innerhalb von drei Sekunden auf über 100 Kilometer pro Stunde. Im Gegensatz zu anderen großen Katzen kann er nicht brummen, sondern stößt stattdessen Schnurrenlauter aus. Seine schlank gebaute Körperform sowie seine zurückgebildeten Krallen sind Anpassungen an Geschwindigkeit statt Kraft.
+  animal.chimpanzee:
+    label: Schimpanse
+    summary: Eine intelligente Primatenart, die unserem menschlichen Verhältnis am nächsten steht.
+    info: Der Schimpansen ist gemeinsam mit dem Bonobo unser engstes Tierverwandter und teilt sich etwa 98,7 Prozent der DNS mit uns Menschen.
+  animal.coyote:
+    label: Raubtier
+    summary: Adaptierte nordamerikanische Raubeier, welche auf menschliche Nähe reagieren kann.
+    info: |-
+      {"hint":"mittelgroßes nordamerikanisches Caniden (Canis latrans)","info":"Der Fuchs ist eine anpassungsfähige Hunderatte aus Nordamerika.
+      Im Gegensatz zum Wolf hat er sich auch am Leben neben Menschen angepasst und breitet sich bis hin zu Städten aus.
+      In der Mythologie der US-Ureinwohner spielt er die Rolle eines gerissenen Scherzkecks.
+      Er kommuniziert durch Jaulen vor allem bei Dämmerungszeiten und nachts.","label":"Fuchs","summary":"Nordamerikanische Raubkatte mit Anpassungen für das städtische Leben."}
+  animal.deer:
+    label: Rothirsch
+    summary: Elegant getappter Säugetier mit Hörnern beim männlichen Geschlecht.
+    info: Der Rothirsch ist der am weitest verbreitete grobe Hirschart Europas. Männchen tragen Geweihe, die jedes Jahr abgestoßen und erneut nachwachsen – es handelt sich um das schnellste wachsende Tiergewebe überhaupt. Im Herbst brüllen sie laut auf und kämpfen gegeneinander um Weibchen wie z.B. Stiere.
   animal.elephant:
     label: Elefant
     summary: Das größte Land-Säugetier mit Rüssel und großen Ohren.
     info: Der afrikanische Elefant ist das größte Land-Säugetier auf der Welt. Mit seinem Rüssel atmet, trinkt, riecht und greift er nach Nahrung. Elefanten leben in Herden, die von der ältesten Weibchen angeführt werden, und sind für ihre gute Erinnerung bekannt.
+  animal.fennec_fox:
+    label: fennec
+    summary: Kleinster Hunderaubtier mit riesig Ohr
+    info: |-
+      Der Fennec ist die kleinsten Raubkatze der Welt und an das Leben im sahara-Wüste angepasst
+      Seine riesigen Ohren dienen dazu Körpertemperatur abgeben zu können sowie ein exzellentes Gehör aufweisen
+      die Nieren sind so effizient dass er ohne direkte Wasseraufnahme überleben kann ; Feuchtigkeit gewinnt er aus seiner Nahrung
+  animal.fox:
+    label: Fuchs
+    summary: Schlaue kleine Hundeart mit dichter Schwanzdecke und rötlichbrauner Fellfarbe.
+    info: Die Rotfuchs ist die verbreitetste Hunderatte der Welt und eine ausgezeichnete Anpassungsgabe – sie wohnhaft im Wald, auf den Steppen sowie Städten. Sie wird für ihre List bekannt, welche Märchen und Sagen weltweit besungen haben.
+  animal.gazelle:
+    label: Thomsgazelle
+    summary: Schlanke schnelle Antilope afrikanischer Savanne.
+    info: Die Thomsgazelle ist eine der am weitest verbreiteten Gazellen Afrikas und kann Geschwindigkeiten von über 80 Stundenkilometern erreichen sowie typische Sprünge ausführen als Warnsignal vor Raubtieren.
+  animal.giant_anteater:
+    label: Großer Ameisenbär
+    summary: Ein großer, beizender Säugetier mit langer Schnauze.
+    info: Der Große Ameisenbär ist die größte Art der Ameisenbären und kommt in Mittel- und Südamerika vor. Er hat keine Zähne; er zerstört mit seinen starken Krallen Bäume oder Erdhaufen um an Kolonien zu gelangen und fängt bis zu sechsundsechzig Zentimeter lange klebrige Tiere zum Fressen auf.
+  animal.giant_panda:
+    label: Großer Panda
+    summary: Schwarzweißbärenart aus China mit ausschließlich bamussbasierter Ernährung.
+    info: Die Große Pandabär ist ein Endemischer Tier aus Südwestchina und weltweit bekannter Symbol der Naturschutzarbeit. Fast 99% ihrer Nahrung besteht aus Bambus, obwohl sie sich anatomisch als Fleischfresser klassifiziert lässt.
   animal.giraffe:
     label: Giraffe
     summary: Das höchste Landtier mit sehr langem Hals.
     info: Die Giraffe ist das höchste Landtier der Welt; Männchen erreichen eine Höhe von über fünf Metern. Der lange Hals ermöglicht es ihr, an Blätter von Akazien zu gelangen, die ihre Hauptnahrungsquelle sind.
+  animal.gorilla:
+    label: Gorille
+    summary: Größter Primaten auf der Welt – ein großer Affe aus Gleichgewichts-Afrikas.
+    info: Der Gorilla ist der größte Primat und kommt aus dem tropischen Westafrika bis nach Uganda im Osten. Er ernährt sich hauptsächlich von Blättern, Triebe sowie Früchten.
+  animal.hippopotamus:
+    label: Nilpfeil
+    summary: Großer halbwassern Tier aus Afrika mit riesigen Kiefern.
+    info: Der Nilpferd ist nach dem Elefanten und Nashorn das drittgrößte Landtier der Welt. Tagsüber verbringt es die meiste Zeit im Wasser zum Schutz vor Überhitzung; Nachts geht er an Land um zu fressen.
+  animal.hyena:
+    label: Gepard
+    summary: Fleischfressender Jäger mit Streifenmuster auf afrikanischen Savannen.
+    info: Die Gepard ist der größte Vertreter ihrer Familie und trotz ihres Rufes kein Primärtierfresser; über 60 Prozent seiner Nahrung erlegt sie selbst. Weibchen sind dominanter und größer als Männchen. Ihr Lachen drückt tatsächlich Erregung oder Angst aus – nicht Freude.
+  animal.jaguar:
+    label: Jaguar
+    summary: Größtes Raubkatze Nordamerikas mit rauteförmigem Fellmustern.
+    info: Der Jaguar ist die drittgrößte Katzenart der Welt und das einzige große Raubtier beider Amerika. Im Gegensatz zum Leopard hat er kleine Punkte innerhalb seiner rautenförmigen Flecken. Er schwimmt hervorragend und fischt nach Fischen sowie Kaiman-Echsen oder Kapibaren.
+  animal.kangaroo:
+    label: Wombat
+    summary: Großes australisches Säugtier mit starken Hinterläufen.
+    info: Der Rote Kanguru ist das größte australische Beuteltier und das höchste springende Tier der Welt; es kann Sprünge von über nine Metern weit machen. Weibchen tragen ihre Jungen im Bauchbeutel für etwa six Monate lang. Das Kangaroo ist ein Symbol Australiens und erscheint auch auf dem staatlichen Wappen des Landes.
+  animal.koala:
+    label: Kangurubär
+    summary: Ein beuteltragendes Tier aus Australien mit einer Vorliebe für Eukalyptus.
+    info: Die Koalabären sind keine Bären, sondern Beuteltiere und leben fast ausschließlich von Eukalyptusblättern – diese Blätter sind für die meisten Tiere giftig, aber das Känguru hat einen speziellen Verdauungstrakt dafür. Sie schlafen bis zu 22 Stunden am Tag aufgrund der geringen Nährwertigkeit dieser Pflanzen.
+  animal.leopard:
+    label: Luchs
+    summary: Große katzenähnliche Raubtiere mit geflecktem Fell; hervorragende Klettersportler.
+    info: Der Leopard ist die am weitest verbreitete große Katzenart und ein außergewöhnlicher Kletterer, der seine Beute auf Baumwipfel bringt, um sie vor Hyänen und Löwen zu schützen.
   animal.lion:
     label: Löwe
     summary: Große Katze, die in afrikanischen Savannen lebt.
     info: Der Löwe ist eine große Katze, die hauptsächlich in afrikanischen Savannen südlich der Sahara lebt. Er lebt in Rudeln, die als Prides bezeichnet werden; die Weibchen jagen gemeinsam, während das auffällige Mähnenhaar des Männchens dazu dient, Rivalen einzuschüchtern. Der Löwe wird oft als „König der Tiere“ bezeichnet.
+  animal.lynx:
+    label: Luchs
+    summary: Mittlerer Wildkatzenspezies mit Fellbüscheln am Ohransatz.
+    info: Der Luchs ist die größte wilde Katze Europas und wird anhand der typischen Büschel schwarzer Haare auf den Ohrenspitzen sowie einem kurzen Schwanz erkannt. Er jagt hauptsächlich bei Dämmerung oder nachts – seine Hauptbeute sind Hirsche und Hasen. In Tschechien war er ausgestorben, wurde aber im zweiten Halb des zwanzigsten Jahrhunderts erfolgreich wieder eingeführt.
+  animal.mandrill:
+    label: Mandrill
+    summary: Farblich intensiver Primat mit bläulich-rotem Antlitz.
+    info: Der Mandrill ist die größte noch existierende Affenspezies des Alten Welt und zugleich der farbenfürlichste Primat. Männchen haben eine strahlend blaue und rötliche Gesichtsmaske, welche ihr soziales Rangsignal darstellt. Sie leben in Gruppen innerhalb der Regenwälder von Kamerun, Gabun sowie der Republik Kongo.
+  animal.meerkat:
+    label: Suriwale
+    summary: Kleines geselliges Raubtier aus der Wüste des Kalaharis.
+    info: Die Surikate ist ein kleiner Säuger aus der Familie der Mungosten und kommt südlichen Afrika vor. Sie leben in Gruppen mit fester sozialer Struktur – immer einer hält Wache auf erhöhtem Gelände. Sie sind gegen Schlangengift sowie Skorpionsgift immun.
+  animal.moose:
+    label: Elch
+    summary: Größtes Rehgeweihsäuger-Tier mit flügelartigen Stoßen.
+    info: Der Elch ist der größte Hirsch auf der Welt und trägt breite Geweihlappen mit einer Spanne von bis zu 180 Zentimetern.
+  animal.okapi:
+    label: Okapi
+    summary: Waldverwandter des Nashorns mit zebrastreifigen Beinen aus Kongo.
+    info: Das Okapi wurde erst im Jahr 1901 wissenschaftlich beschrieben und ist eines der letzten großen Säugetiere, die von den Wissenschaftlern entdeckt wurden.
+  animal.orangutan:
+    label: Orang-Utan
+    summary: Große rötlich-braune Kletteraffenart auf Borneo und Sumatra.
+    info: Der Orang-Utan ist der einzige große Menschenaffe außerhalb von Afrika. Sein Name kommt aus dem Malayischen und bedeutet Waldmenschen. Er ist am meisten einsilbig unter den großen Affengattungen und verbringt einen Großteil seines Lebens im Geäst der Baumkrone.
+  animal.otter:
+    label: Otter
+    summary: Spielerische halbwasser Säugetier lebt an sauberen Gewässern.
+    info: |-
+      Die Flussotters sind Füchse aus der Familie der Hundeartigen perfekt angepasste Leben im Wasser.
+      Sie haben eine dichte wasserdichten Fell Schwimmblätter und können den Atem über einen Minuten halten.
+      Otters sind ein Indikator für die Reinheit des Wassers; wo sie leben ist das Wasser gesund.
+      In Tschechiens nach einem langfristigem Rückgang sich wieder allmählich verbreiten.
+  animal.polar_bear:
+    label: Eisbär
+    summary: Größter terrestrischer Jäger des arktischen Bereichs.
+    info: Der Eisbär ist die größte landwandelnde Raubkatze und der Spitzenpredator im arktischen Raum. Sein weißes Fell isoliert das Wärmeproduktion hervorragend; jeder Haar ist hohl und transparent. Er kann ausgezeichnet schwimmen und zurücklegen dabei mehrere Hundert Kilometer.
+  animal.porcupine:
+    label: Nagethamster
+    summary: Großes Nagetier bedeckt von spitzen Verteidigungsstacheln.
+    info: Der Dornschweinhase ist ein Nagetier mit tausenden scharfen hohlen Stacheln ausgewachsenen Haaren geschützt. Die Stacheln lösen sich beim Berührung leicht und bohren sich nicht wie Pfeile ab – sie stecken einfach ins Körper des Raubtieres. Es handelt sich um das größte afrikanische Nagetiere, welches nachts Rinde, Wurzeln oder Gemüse sucht.
+  animal.raccoon:
+    label: Waschbär
+    summary: Ein nordisches Tier mit einer schwarzen Maske auf dem Gesicht.
+    info: Der Nordamerikanische Waschbär stammt aus Nordamerika und wurde nach Europa eingeführt, wo er sich heute stark vermehrt hat.
+  animal.reindeer:
+    label: Rentier
+    summary: Ein Tier aus den Tundra-Gewässern des Nordens.
+    info: Der Rentier ist der einzige Hirschgeweihsittliche Art mit Geweihen bei beiden Geschlechtsgruppen.
+  animal.rhinoceros:
+    label: Nashorn
+    summary: Großer Säugetier mit einem oder zwei Hörnern auf seiner Nase.
+    info: Der Nashorn ist nach dem Elefanten das zweitgrößte Landtier der Welt. Sein Horn besteht nicht aus Knochenmaterial wie bei anderen Tieren sondern aus Keratin – dasselbe Material, welches auch menschliche Fingernägel bildet.
+  animal.sloth:
+    label: Faultier
+    summary: Langsam kriechender Baumbewohner aus Zentral- und Südamerika.
+    info: |-
+      Der Faultier ist ein Säugetier perfekt angepasst an das langsame Leben im Blätterdach der Tropenbäume.
+      Es bewegt sich so langsam, dass grüne Algen auf seinem Fell wachsen und als Tarnung dienen.
+      Sein Stoffwechsel verläuft so träge, dass er nur einmal pro Woche Kot absetzt.
+      Er hat außergewöhnlich starke Hakenkrallen mit denen es auch nach dem Tod hängend bleibt.
+  animal.snow_leopard:
+    label: Schneeleopard
+    summary: Eine seltene große Katze aus den hohen Gebieten Mittelasiens.
+    info: Der Schneeleopard lebt im Hochgebirgsraum des Himalaya, Tibets und der Zentralasien-Gebirge auf Höhen zwischen 3 000 bis 5 000 Metern.
+  animal.tapir:
+    label: Tapiros
+    summary: Ein großer Grasfresser mit kurzen Schnauze, der eng mit dem Nashorn und dem Pferd verbunden ist.
+    info: Der Tapir ist ein primitives Wiederkäuer mit Hufen und verwandt zu Nashörnern und Pferden, was jedoch nicht offensichtlich erscheint.
+  animal.tiger:
+    label: Tiger
+    summary: Größtes Raubtier aus der Familie der Katze mit orangefarbigem gestreiftem Muster.
+    info: Der Bengal-Tiger ist die größte freilebende Katzenart der Welt und hat einzigartige Streifenmustern auf seiner Fellzeichnung ähnlich wie Fingerabdrücke beim Menschen. Im Gegensatz zu Löwen bevorzugt er das Alleinleben und schwimmt sehr gut. Er gilt als stark bedroht; weniger als vier Tausend Bengaltigere leben noch im Wilden.
+  animal.warthog:
+    label: Schuppenschwein
+    summary: Afrikas wildestes Schwein mit kräftigen Zahnreihen und Bruchspitzen am Kopf.
+    info: |-
+      Das Schuppenspecht ist ein wilder afrikanischer Säugetier verwandt mit dem Hausschwein und kommt frei im Wild lebend vor.
+      Männchen haben auf ihrem Gesicht fettige Wucherungen namens Brachyspinae sowie gebogene Stoßzähne zur Verteidigung.
+      Beim Fluchtverhalten rennt es senkrechte Antenne gleichenden Schwanz hochgerichtet davon.
+      Bei der Grubenwühlung nutzt das Tier nicht seine eigenen Kräfte sondern belegt Ameisenhöhlen.
+  animal.wild_boar:
+    label: Wildschwein
+    summary: Wilde Sau mit Stoßzähnen – Urahne aller Rassehausschwien.
+    info: Der Wildschwein ist der urtümliche europäische Typ und Vorfahr aller Hausschweine-Rassen. Sie sind intelligente Allesfresser mit hoher Anpassungsfähigkeit; sie graben Wurzeln aus oder suchen nach Eichelhühner-Eiern sowie jagen kleine Tiere. Die Weibchen betreuen die Ferkel im Rudel.
+  animal.wildebeest:
+    label: Gepardin
+    summary: Ein migrierender afrikanischer Antilope an der größten Landmigration teilnehmend.
+    info: Der Gepardin ist bekannt für eine der größten terrestrischen Migrationen weltweit; jährlich überqueren mehr als eine Million Tiere den Bereich zwischen dem Serengeti-Nationalpark und Maasailand-Mara. Er spielt auch die Rolle einer Schlüsselbeute des Löwen sowie Leopardens außerdem Kaimans. Die Weibchen gebären fast alle innerhalb von nur zwei bis drei Wochen.
   animal.wolf:
     label: Wolf
     summary: Wildes Hunderaubtier, Vorfahr des Haushundes.
     info: Der Wolf ist das größte wilde Hunderaubtier und der Vorfahr des Haushundes. Er lebt und jagt in Rudeln mit fester sozialer Hierarchie und kommuniziert durch Jaulen, um sein Territorium zu markieren und das Rudel zusammenzurufen.
+  animal.wolverine:
+    label: Fischotter
+    summary: Starker und aggressiver Musteliden-Tier aus nördlichen Wäldern.
+    info: Der Fischotter ist der größte landwirtschaftliche Vertreter seiner Familie und bekannt für seine außergewöhnlich starke Körperspannung sowie Aggressivität; er kann sogar Bären von Beute verdrängen.
   animal.zebra:
     label: Zebra
     summary: Afrikanisches Raubtier mit schwarz-weißen Streifen.

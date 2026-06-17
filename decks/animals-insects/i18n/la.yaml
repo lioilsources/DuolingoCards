@@ -6,19 +6,225 @@ cards:
     label: formica
     summary: Parva animalia sociale viventia in coloniis.
     info: Formica est parvum insectum sociale quod in coloniis magnis cum divisione laboris habitat.
+  insect.antlion:
+    label: rhophalocera
+    summary: Insectoris larva qua in arena trabes excavatur ad capturam formicarum.
+    info: Rhopalocerum est larvae insectis ex familia Myrmeleontidae quae concreta陷 in siccō arenā facit. Cum formica cadat intra lapidinem, rhopalocerus e dentibus capere et succos digestivos injectare solet. Adulti sunt minus conspicui, similes libellulīs, noctu volant; immatura longa annorum sub terra sine cibo vivunt.
+  insect.aphid:
+    label: mosquito
+    summary: Parum grandia sucentilia animalcula circa caules vegetabilium reperibilibus; mellitem effundunt.
+    info: Mosquitoae sunt parva animalia ex superordine Aphidoidea quae sanguinem vegetalium suggerunt et melatam procreant qua formicae curare solent ut protectionis gratiam reddere. Multiplicantur nimio cito; una femina annuo tempore centenas vel millies natos generatur posset.
+  insect.atlas_moth:
+    label: attacidus
+    summary: Unus ex magnissimis mundi papiliones cuilibus serpentem similes pictura.
+    info: Atlas attacida est unus maximorum nocturnarum papilionum mundo cum alis quae pandant usque ad trigesimum centimetricum spatium. Acuta alas habet colorata ut caput serpens imitentur et praedatores deterrent. Adulti nullas oscula habeunt nec cibari potestatem sunt tantum paucos dies viventes postquam adultes facti sunt.
+  insect.bedbug:
+    label: cimus
+    summary: Flat parasite sucking human blood nocturnally hides inside furniture crevices
+    info: |-
+      Bedbug is flat ovoid insect belonging to family Cimicidae active mainly at night
+      It bites sleeping hosts feeding on their blood
+      Hides within mattress seams furniture gaps behind wallpaper
   insect.bee:
     label: apis
     summary: Facies nigroflava flosculas pollinat et mel efficit.
     info: Apis mellifica est hymenoptera sociale apia domestica vivens et nectar collectans. Hoc animal flores pollet et mellis magnum copiam reddit.
+  insect.beetle:
+    label: coleopterus
+    summary: Maxima pars descriptorum animalculorum ex ore Coleoptero constatur.
+    info: '{"hint":"insecta cum testudine corporis","info":"Coleopterum genus ad ordinem Coleoptera pertinet et proxime quater centena milia specierum descripsit. Hoc genere elytria rigida alarum superiora sunt ut pectoralem tegumentum praebent sub quo verae alas volatilia latitantur. Lucanus cervus maximus Europaeus est inter coleopeteras; masculus cornua grandia habet qui dentes mandibularium repraesentant. In omnibus locis ab equatore usque Arcticos habitare possunt."}'
+  insect.bombardier_beetle:
+    label: blapsus artilleristicus
+    summary: Scarabeo eiaculans mixtionem ferventis et venenosi liquoris pro defensione.
+    info: 'Blapsus artilleristicus est carabus subfamiliae Brachininorum qui defenditur modo unico: duas substantias chimicas per abdomen miscens ut reaction explosiva cum calore superiore ad centum graduum Celsius crearetur.'
+  insect.bumblebee:
+    label: bombix
+    summary: Grandis pilosis api cum rumburante voce profunda atque utilis pro polienatione.
+    info: Bombyx est grandis pilosa insectum generis Bombus et apiam similare. Est pollinifera importantissima, praecipue climatis frigido ubi apis minus volant. Potest calorem per tremores musculorum alariorum creari ut sub tempestate gravis quoque volabit.
   insect.butterfly:
     label: papilio
     summary: Insecta volans cum alis coloratis magnis.
     info: Papilio est insectum cum duobus pugillis squamularum alarum, saepe conspicue coloratum.
+  insect.caterpillar:
+    label: caterpillar
+    summary: The larval form of a butterfly or moth which eats leaves before pupation.
+    info: Caterpillar is the larvae stage of butterflies or moths that spends most its life eating leaves to accumulate energy for transformation. Some caterpillars have bright colors warning predators about their toxicity.
+  insect.centipede:
+    label: centiped
+    summary: Multipes gressu cum uno paus pedis super omni corporis segmento.
+    info: Centipede belongs to class Chilopoda et habet unum paus pedis pro singulo corpore segmenso (non centum pedes ut nomine suggeritur). Est celer predator qui capturat insecta, vermesque ac micropiscina animalia. Prima duo pedes mutantur ad venenum jaculantes pinnae capitis victimae.
+  insect.cicada:
+    label: locusta
+    summary: Insecta cantu vehementi canoro diebus calidis celebratum.
+    info: "{\"hint\":\"cantor sonans\",\"info\":\"Locusta est insecta ex superordine Cicadioidea celebre uno de fortissimis sonoris omnium aperturarum.\r\nMasculi producent sonitus per tympana particularia ad cauda ut femellas attrahant.\r\nQuaedam species locustarum Americae septendecennales vel tridecacennales cyclos evolutiones habent.\r\nPueriles formas sub terra annos multas vivunt et radices arborum comedentes nutriuntur.\"}"
+  insect.cockroach:
+    label: Scutiger
+    summary: Celere nocturno omnivorum insectum multum robustum ac adaptabile.
+    info: |-
+      {"cs":"Vylekaneckus" est unus e fortissimis et durabilibus animalium generum mundo; potest superare radiatio nec non circumstantias quae alia animantia occidunt\u202f
+      Plus quam quadringenties species sunt inventas sed tantum circa triginta cum homines habitent\u202f
+      Est antiquitus genus—scutigera plusquam trescentos milliones annorum exstitit atque saecula dinosauriorum transiit\u202f
+      Celeriter movetur; velocitas eius ultra quinquagintam kilometer per horam attigit.
+  insect.crane_fly:
+    label: Tipula
+    summary: Musca grandis similia moscho giganti cum pedibus nimio longo
+    info: '{"lang":"lat","value":{"label":"Tipula","summary":"Moschis magnifica cum pedibus valde longis et fragilibus","info":"Tipula est insectum diptera ex familia Tiphularium similiter aspectante muscam gigantem sed non mordens nec parasiticum\narbor eorum extrema pedes sunt facilmente fractiles ut defense sua autotomy appellatur\nadulti brevissime vivunt dies paucos sine cibo vel pollinis nutriente\nlarvae seu draco terrae habitantes radices comedi"}}'
+  insect.cricket:
+    label: locusta
+    summary: Insculum nocturnum notabile canto masculor.
+    info: Locusta campestris est insculum nocturnum ex ordine Orthopeterorum. Masculi cantant fricando alae sua ut femellas attrahant et territoria defendant. In Asia locustas domesticare traditionale fuit ad auditu melodicum suum.
+  insect.damselfly:
+    label: libellula
+    summary: Gracile librillum affine quia pinnae corporique paralleliter ponunt.
+    info: Libellula est insectum affinem raphidiontis sed gracilius et apud requiem pinnas cum corpore parallelis tenens, contrarium ad libellicas. Est praedator qui parvulos volatilia cibatur dum fertur per aerem. Nymphae aqua habitant et sunt importante pars aquaticorum systematum.
+  insect.diving_beetle:
+    label: clytus
+    summary: Aquaticus clytus qui natans capiat preda.
+    info: Clytus magnus est insectum predatorium familiae dytisicidarum habitatorem paludes et stagna aquae dulcis. Natet grata tergis planis ut remigia functuris atque aerem sub tegminibus tenens adsorbet superficie lacustri.
   insect.dragonfly:
     label: odonatus
     summary: Insecta cum corpore longo et duabus aliis alarum paribus transluentium.
     info: Odontates sunt insecta predatores cum excellenti visu, qui prope aquas caelantur.
+  insect.dung_beetle:
+    label: scarabei
+    summary: Valens excrementia sphaeras formare, hunc insectum culturam Aegypiorum decoravit.
+    info: Oxysternon sanctum est scarabeidulus qui faeces rotundas efformat et eas ad ovorum depositionem vel locutionem circumfert. In Aegypto antiqua erat solis symbolo atque deitati Chonsu sacrum habebatur.
+  insect.earwig:
+    label: earwig
+    summary: Elongate insects having forceps like appendages called cerci located towards posterior part.
+    info: Earwigs belong to order Dermaptera characterized by cerci on their abdomen used for defense and mating behavior. The name comes from myth that they crawl inside human ears which is false belief among people living near rocks under leaves.
+  insect.firefly:
+    label: luciola
+    summary: Scarabeus emittens lumen bioluminosum ad attractendum consortem.
+    info: Luciola est scarabaeus familiae Lampiridae qui potest emittere lumina frigida per reactionem chimicam inter lucifern et luciferasim ad caudalem partem corporis suum. Masculi et femella utuntur diversis modulis luminariorum pro recognitione mutua ac attractione congenerium suis speciebus propriis.
+  insect.flea:
+    label: pulicem
+    summary: Parasitus microscopica qui sanguinem de animalibus terrestribus ac volucris suctat.
+    info: Pulex est imago ex ordine Siphonepterae sine alis et vitam parasiticam vivens. Fortissima pedum posteriorium species saltus ultra centies longitudinem corporalis effingere potest. Hæmato mammalorum atque aviarum suctat necnon malos transferre valet; historiciter peste pestilentia diffundebatur per pulices.
+  insect.fly:
+    label: musca
+    summary: domesticus duolatus insectum bacterias transmittendi potentiam tenens
+    info: '{"info":"Domestica musca est duo alarum animalculum domesticorum habitaculum communestimum apud homines habentem circa trecentos sexaginta gradus circumspicere per compone ocules capax et bacteriae transferens quia sordibus atque cibis jaculatur. Unam tantum par funktionalium alas habeat dum alterum pairem (pennae pendentes vel balansiers) ad aerumnas volantis equilibriam servandam destinavit."}'
+  insect.goliath_beetle:
+    label: '{"lab":"Goliaths"}'
+    summary: '{"sum":"Unum maximum et grave animalculum ab Aethiopiam tropicali origine."}'
+    info: '{"inf": "Imago Goliathi gigantei sunt unum insectorum maximorum et gravium mundo viventis inter sylvas pluviales Aethiopiae equatorialia; masculi usque ad centenarium grammatum pondere attingunt nec non undecim millimetris longitudinem superant. Alimenta adultae ex fructibus ac succo arborum consistit. In Africa aliquando pueri eosdem culturam ludibria habebant qui collectoribus venditi sunt."}'
+  insect.grasshopper:
+    label: locusta
+    summary: Saltans animalcum cum fortioribus posticris crurebus atque canticulo.
+    info: Locusta est insectum ordiniis Orhtopthera cum forti pedibus posterioribus pro saltu usque ad vigintiam corporis longitudinis multiplicatam. Masculus sonitum characteristicum per rubrum femoris et alarum emittunt. Vivent plantis cibantur; si copiosae sunt aggregationes possunt fructuum damnum causare.
+  insect.ground_beetle:
+    label: cicindela
+    summary: '{"summary": "Celera praeda bruchus sub lapide vel folio habitat."}'
+    info: '{"info":"Cicindela est carabiidea genere insectum; plerique species sunt nocturnae praedorarum activitatis captura aliorum arthropodorum et limacium ac versus."\r"Sunt celeres atque celerrime fugant periculo ante se moventis."\r"Quaedam genera sicut Cicindelides violaceus mirabile metallice splendor colorationem habet."\r"Indicationes sunt bonae terrae sanitas agri aut naturale culturalem."}'
+  insect.hornet:
+    label: polistes
+    summary: Maxima avis Europa cum fortissimo aculeo sonituque gravi.
+    info: Polistes gallicus est maior avis socialis Europae et longior quam Vespa vulgaris ad superiores tres millia passuum. Faciet nidum ex papyro inter foramina arborum vel sub tecto domorum. Aculeus Polistidis elongatius est ac apium; punctura dolores magnum pariat sed non nisi cum periculum directum sitatur. Hoc animal iterum insecta alia praedari potest.
+  insect.hoverfly:
+    label: müthia
+    summary: Musca similis api vel abbore, qui flores culturarum impollet.
+    info: Müthia est insectum diptera ex familia Syrphidarum quae colorationem apium et abborum imitat ut protegatur contra praesiones (Myrmekismus) licet non habeat venenum. Est importantis impollinator; visitat plures species plantarum quam apis mellifica. Adultos nutriuntur necatro atque pollem. Larvae aliquot specierum cibantur aphidis ac propter id sunt utilissimae in hortulis.
+  insect.lacewing:
+    label: cocus auratus
+    summary: Insectum delicticum cum aliis reticulo veinatum transparere; larvae cibariaphidas.
+    info: '{"hint":"Delicates insecta cum grandibus alis reticolatis et transparentibus","info":"Coccus auratus est genus insectorum familiae Chrysopidarum habens delicata alas rete venorum perspicuaque tectas atque oculis aureis. Larvae sunt carnicinae ac multitudinem mirabiliter magnam aphidium devorant quae fit eis ut custodes naturales plantarum. Adulti nectarique pollineque victurunt. Luminis attractores sunt indicatores salutis ambientalis."}'
   insect.ladybug:
     label: coccineus
     summary: Parvus globosus coccineus coleoptera cum punctis nigris.
     info: Coccineus est parvus insectum, qui vivit ex aphidibus et utilis est in horto.
+  insect.locust:
+    label: locusta migratoria
+    summary: Migratorius locus qui devasta turmis millionium exemplarium.
+    info: |-
+      Locusta migratoria est species locustae quae sub certis conditionibus ingentes migrantia turmas formant.
+      Turma potest billiones individuorum conteneri et totam messorem millibus hectariisque diebus perditurum esse.
+      In Africae atque Asiae regiones sunt historiciter inter maiores agrariae catastropharum causas.
+  insect.louse:
+    label: pediculus
+    summary: Parasita piliferarum mammalium cum tegumento
+    info: Pediculus est imago ex ordine phthirapertorium squamigerum animalculorum sine alis qui habitat cutem et pellem vel pila hospitis suisant sanguinem causatque pruritus Pediculi capitis sunt globiter diffusi inter pueros omnino independentes ab statu sanitatis Historicò pediculosim pandemos transmittunt
+  insect.mayfly:
+    label: ephemeris
+    summary: Insecta cuius vita adulta brevis horarum aut die nummo sit.
+    info: '{"inf":"ephemerida sunt insecta brevissime viventia et ad rivulos congregantia; adulti horas vel dies tantum inter pares manere possunt\non caput cum mandibulis habent nec cibo uti volunt\nspecies nymphalis annos tres sub aqua habitare potest\nmassae ephimeridarum spectaculum naturale mirabile est"}'
+  insect.mosquito:
+    label: mosquitus
+    summary: Insecta duoala; femininae sanguinem sorbentes potiusque morborum transmittere possunt.
+    info: |-
+      {"hint":"sanguinem sugens volatilis insectum","info":"Mosquito est imago diptera familiae Culicidarum\r
+      Femella sanguinem animalium ad proteinas et ovorum developmentem aspirare videtur; masculus nectaribus nutritur\r
+      Muscaea morbos perferunt ut malaria vel febris Dengue seu Zika \r
+      Mundi sunt plusquam tres milia quingentos species muscariorum","label":"musca","summary":"Imagines Dipteran; femellae sanguine suant nec non transmittunt morbus"}
+  insect.moth:
+    label: musca
+    summary: Notturnus similis diurno vespertilio est et pennata cilia habebunt.
+    info: Murinae sunt nocturna papilionidea ordiniis Lepidottera quae alia cum die volantibus aliisque different, nam ad requiem alas laterales plicat. Multae species lumine artificio lactentur. Verberculum bombycida nobiscum propter naturalem sericum spintricem debetmur.
+  insect.praying_mantis:
+    label: prayer mantis
+    summary: Insector carnivor qui preces imitantem gestu ostendunt atque rapidissime pugnant.
+    info: Prayra sanctitudo est insculptura ex ordine Mantodea et carnatorem animalia caedit. Nomen suum habet propter positionem anterius pedes ut si precaretur Deo tenens; hoc modo cernitur ad captandum victimas cum velocitate mirabili. Fecunditas inter sexus videtur esse frequenter necesse dum masculus femella devoratur.
+  insect.robber_fly:
+    label: tabellaris
+    summary: Imago dipterous capiens alios versiculos dum fertur
+    info: '{"hint":"vultur volucrum captans insecta volantia","info":"Tabellaria est imago diptera predatorius ex familia Asilidarum qui cernit aliud vermium directe dum fertur per aerem\nmembra fortiora habet ad predam tenendam et acus ut venenum paraliticum injectare possit\nquaedam species aspectum vesparium vel apium similiter gerunt sicut protectio ab hostibus naturalibus suis\nutilem esse dicitur quoniam regula naturalem populationes vermorum"}'
+  insect.scorpion:
+    label: scorpion
+    summary: Araneus venenosus cum rostris et cauda flexuosa.
+    info: |-
+      {"hint":"araneus venenosus cum rostris et cauda flexuosa","info":"Scorpion est artiodactyla non insectum sed arthropoda typicaliter armatus pedibus clavatis ac coda flectente terminata acumine viperino.
+      Est animal antiquissimum;
+      esse fossilifera scorpiones sunt vetustates superiores quattuor centena millia annorum.
+      In tenebris sub lumine ultravioletto phosphorescunt.
+      Ex circa duobus mille quingentos generibus tantum vicesimae unus periculosas homini sunt."}
+  insect.silverfish:
+    label: Isottera
+    summary: Insector velox sine alaribus qui apud libros et chartas reperitur.
+    info: Isoptera est genus primordiale ex ordine Thysanura quae domesticis habitatibus sunt inhernetia. Hæc animalcula amylum et cellulam comedunt nec non fibras textiles ac adhesiva librariae usus esse solent. Nomen e coloratione argenteo atque motu similem piscium ortum habet.
+  insect.spider:
+    label: '"araneus"'
+    summary: Octopus pedes habent; rete texunt ad capituram vermium.
+    info: '{"inf": "Aranae sunt animalia octopedalia non insecta sed arthropoda cum corpore biformi et duabus partibus corporis. Capax fiere retium ex serico ad capturam ciborum vel incudicem ovum. Plus quam quadraginta mille species vivunt mundo per totum."}'
+  insect.stag_beetle:
+    label: corniger
+    summary: Maximus europae carabus masculi cornuta dentibus.
+    info: |-
+      Cervulus vulgaris est maximus Europae carabidum longior quam septem centimetros crescentium
+      Masculi magnos cornua sicut dentes habent ad pugnas pro feminae competendum.
+       Larvae usque ad septennios annorum inter ligno putredine vivunt et fungicolas comedunt.
+  insect.stick_insect:
+    label: stickbug
+    summary: Insect which closely resembles either branch or leaf
+    info: Stick bug is an insect belonging to the order Phasmatoidea that masters mimicry by perfectly imitating twigs or leaves when threatened it remains completely still some species reproduce parthenogenetically without males they have become popular exotic pets due to their low maintenance care requirements
+  insect.termite:
+    label: termēs
+    summary: Insis socialis magnifica tellure factus monticulus.
+    info: Termes est insis socialis ex ordine Isopterorum et remotissime affinis emeritis. Habitat colonias cum rege, reginae, militibus atque operariis. Fabricant complicata formicaedia quae saepius sunt alta pedum novem apud tropicos regiones habentque systema aerationis.
+  insect.tiger_beetle:
+    label: carabidēs
+    summary: Coleopterās metallīce coloratum cum spectaculis clarissimīs.
+    info: Carabus est coleoptera subfamiliae Cicindelinorum notus celeritate mira et visum acutum habente. Tantam celertatem gaudet ut statim ad orientandum consistere cogatur quia motus nimis festinatus est pro systemate opticō suo.
+  insect.velvet_ant:
+    label: mutilla
+    summary: Vespa rufa atque aureofuscans sine aliis formicam similem aspectu mutilli familiæ.
+    info: '{"label":"mutilla","summary":"Formica velox similis vespa alata non habens cum pellice mollissimo et coloribus rubris aut aurantiis ad monendum periculosum","info":{"cs":{}}}'
+  insect.wasp:
+    label: fascia
+    summary: Flava atque nigra fascia quae nidos de carta fabricat.
+    info: Fascia est vespa ex genere Vespuła cum corpore flavo-nigrō et aversā perīculi notâ. Facit nidus de papyro factum digestione lignea. Contràriam apiam apis multis punctis potest ferire.
+  insect.water_strider:
+    label: stratiotes
+    summary: Insetum cum potentia ambulariae supra pellicula acquarum.
+    info: Stratiotes est insectum ex familia Gerridarum capax ambulandi super superficiem aquae grata pilis hidrophobicus et tensio superficiali aquea. Capiet inseta submersa detectans vibrationes de motore percutiente undam.
+  insect.weevil:
+    label: rhyncos
+    summary: Parvulus scarabeus cum characteristico prolongato naso.
+    info: Rhynchos est scarabaeus ex familia Curculioniadis, quae maior animalium familiam mundo repraesentat cum plusquam sexaginta milibus speciebus. Caracteristicum elongatum rhynchon ad perforandum semina et fructus utilisatur.
+  insect.whirligig_beetle:
+    label: gyrinus
+    summary: Parva scarabeus circumducens aggregata super superficies aque.
+    info: |-
+      {"hint":"scarabaeus qui volutatur circulis super superficiem aqua","info":"Scarabeus gyrinus est insectum aquaticum ex familia Gyirynidarum quod habitat supra superficie et circumductionem adgregatam ut evadere praedatores.
+      Oculi eius sunt divisi bis partibus: una pars spectare sub aqua, altera supram.
+      Detectit undulas minutas inter hydatas indicantes cibum aut periculum.
+      Dies cum gyratione movetur; nocturnis horis volantis."

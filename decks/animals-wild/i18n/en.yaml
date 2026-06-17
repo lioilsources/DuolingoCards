@@ -2,6 +2,58 @@ lang: en
 pivot: false
 title: Wild animals
 cards:
+  animal.aardvark:
+    label: mole rat
+    summary: African nocturnal insect-eater resembling pigs that digs tunnels.
+    info: The Cape mole-rat is the only living species within its order, Tubulidentata; it has no close relatives. Its nocturnal lifestyle, strong claws, and sticky tongue help catch ants and termites efficiently. Many other animal species use abandoned burrows created by these animals.
+  animal.armadillo:
+    label: Armadillo
+    summary: Small armored mammal covered completely on all sides except for head and tail.
+    info: The nine-banded armadillo is the only mammal with true bone armor plating its body surface entirely by skin-covered plates made up mostly out of keratin.
+  animal.baboon:
+    label: baboon
+    summary: Large Old World monkey characterized especially among its kind due largely because it has distinctive nose shape plus lives socially organized life styles.
+    info: Baboons belong to Papio species that inhabit grasslands across Africa's savannas and rocky regions. They live together within social groups where they follow strict rank systems using various vocalizations along with facial expressions for communication purposes; males tend towards being much larger than females since baboon societies exhibit sexual dimorphism quite clearly.
+  animal.bear:
+    label: bear
+    summary: Large furry carnivore representing natural strength.
+    info: The Brown Bear is Europe's largest land predator weighing over seven hundred kilograms; it eats fish berries honey small mammals for food during winter months they enter torpor where females give birth to cubs.
+  animal.beaver:
+    label: beaver
+    summary: Large rodent building dams and creating wetland ecosystems.
+    info: The European beaver is the second largest rodent in the world. It constructs dams made of branches and mud to create ponds and wetlands which serve as habitats for many animal species.
+  animal.bison:
+    label: American Bison
+    summary: Large north american cattle-like mammal having long coarse hair on neck.
+    info: The American bison is the heaviest land animal native to North America. In the 19th century it was nearly extinct—down from an estimated thirty to sixty million individuals to fewer than a thousand—but conservation efforts have since restored its numbers back up to about half-a-million.
+  animal.buffalo:
+    label: buffalo
+    summary: Large herd-living Bovid found across sub-Saharan regions.
+    info: African buffalo is considered to be among Africa's most dangerous mammals due to its unpredictable nature when threatened; they live together in large groups called 'herds' which can number up to thousands individuals strong.
+  animal.camel:
+    label: camel
+    summary: Desert mammal whose bumps serve as storage areas.
+    info: The single-humped camel is perfectly adapted to desert life; its hump stores fat for energy reserves rather than water. It can drink over 100 liters at once and survive weeks without fluids.
+  animal.capybara:
+    label: capybara
+    summary: Worlds biggest rodent that live semiaquatically.
+    info: The capybara is the world’s largest living rodent weighing between 35 to 66 kilograms for adults. It lives near rivers, lakes, and swamps across tropical regions of South America. Capybaras are very social animals known for their calm nature which allows them to get along well almost any other animal.
+  animal.cheetah:
+    label: cheetah
+    summary: Fastest land animal reaching speeds exceeding 75 miles per hour.
+    info: The cheetah is the fastest terrestrial mammal capable of accelerating from zero to over 68 mph within three seconds due to its slender body structure optimized for speed rather than strength; unlike other big cats it cannot roar but instead purrs using specialized vocal folds while retractable claws aid traction during high-speed chases requiring brief recovery periods afterward.
+  animal.chimpanzee:
+    label: chimpanzee
+    summary: An intelligent primate that shares most genetic material with humans.
+    info: The common chimpanzee is together with the bonobo our nearest animal relatives and we share about 98.7% of their DNA. Chimpanzees use tools such as sticks to hunt for ants and can learn basic sign language skills. They pass on cultural traditions within groups and live in complex social hierarchies.
+  animal.coyote:
+    label: coyote
+    summary: North American wild dog that lives also among people.
+    info: '{"hint":"medium-sized North American canine (Canis latrans)","info":"Coyote is an adaptable canid predator found throughout all of North America.\rUnlike wolves it has adapted to living near humans even expanding its range into cities. \rIn Native American mythology he plays role of sly trickster figure who often outwits others through his cleverness."}'
+  animal.deer:
+    label: elk
+    summary: Graceful hooved animal whose adult males possess annual shedding antlers.
+    info: European elk is Europe's most widespread large deer species. Males have antlers that they shed every year but regrow annually—these grow faster than any other tissue among animals. During autumn rutting season males make loud calls to attract females called hinds by competing aggressively for them.
   animal.elephant:
     label: elephant
     summary: The largest land animal, with a trunk and big ears.
@@ -9,6 +61,26 @@ cards:
       The African elephant is the largest land animal on Earth. It uses
       its trunk to breathe, drink, smell and grasp food. Elephants live in
       herds led by the oldest female and are known for their good memory.
+  animal.fennec_fox:
+    label: fennec
+    summary: World's smallest canine-like predator featuring huge ears.
+    info: The fennec is adapted to life in the Sahara Desert due to its small size and large ears that help radiate body heat while providing excellent hearing abilities. Its kidneys function so efficiently it can survive without direct water intake—moisture comes solely through food consumption. At night time they hunt insects, rodents, lizards.
+  animal.fox:
+    label: red fox
+    summary: Clever wild dog-like animal known for adaptability.
+    info: The red fox is the most widespread canid predator globally and an excellent adapter to various environments such as forests, steppes, and even cities. It's famous for its cleverness celebrated through fairy tales worldwide.
+  animal.gazelle:
+    label: antelope
+    summary: Slender swift antelope found on African and Eurasian steppes.
+    info: Thomson's Gazelle is among Africa’s most widespread gazelles. It can reach speeds over 80 km/h and performs characteristic jumps to signal predators. They live in massive herds and serve as key prey for cheetahs, lions, and wild dogs.
+  animal.giant_anteater:
+    label: giant anteater
+    summary: Large toothless animal having lengthy nose along with sticky tongue.
+    info: The giant anteater is found throughout Central and South America and it's the largest species among all ant eaters. It has no teeth but uses its strong claws to break open anthills while collecting ants using an adhesive tongue that can reach up to sixty centimeters in length. A single day may see over thirty-five thousand insects consumed by these animals.
+  animal.giant_panda:
+    label: Giant Panda
+    summary: Large black-and-white Chinese bear feeding exclusively on bamboo.
+    info: '{"hint":"Black-and-white bear from China (Ailuropoda melanoleuca)","info":"The giant panda is endemic to southwestern China and an international symbol for nature conservation.\nThe animal''s diet consists almost entirely of bamboo despite being classified as carnivorous by anatomy. \It has six fingers including a modified wrist bone that functions like a thumb when grasping bamboo stems. Only about 1,800 wild pandas exist worldwide."}'
   animal.giraffe:
     label: giraffe
     summary: The tallest land animal, with a very long neck.
@@ -16,6 +88,34 @@ cards:
       The giraffe is the tallest land animal in the world; males can stand
       over five metres tall. Its long neck lets it reach the acacia leaves
       that make up most of its diet.
+  animal.gorilla:
+    label: gorilla
+    summary: Largest primate species found mainly in central African rainforests.
+    info: The gorilla is primarily herbivorous and feeds on leaves, shoots, and fruit. They communicate through sounds, facial expressions, and chest-beating.
+  animal.hippopotamus:
+    label: hippopotamus
+    summary: Large semiaquatic African mammal with massive jaws.
+    info: The hippo is the third largest land animal after elephants and rhinos. During the day it rests underwater to avoid overheating while at night they graze on dry ground. Its skin secretes red liquid that acts like natural sunscreen and antibiotic.
+  animal.hyena:
+    label: Spotted Hyena
+    summary: Striped predator found on african grasslands.
+    info: The spotted hyena is the largest member of the Hyaenidae family and contrary to its reputation it isn't primarily a carrion eater; over 60% of food they hunt themselves. Females dominate males within their social structure while also being physically larger than them.
+  animal.jaguar:
+    label: jaguar
+    summary: Largest feline predator in the Americas featuring rose-like patterns.
+    info: The jaguar is the third largest big cat worldwide and the only large wildcat native to both continents of America. Unlike the leopard, it has small dots inside its rose-shaped markings. It's an excellent swimmer and fisher that hunts for fish, crocodiles, and capybaras.
+  animal.kangaroo:
+    label: red kangaroo
+    summary: Large Australian jumping mammal using strong rear limbs.
+    info: The red kangaroo is Australia's largest marsupial and the highest-jumping animal in the world; it can leap over nine meters far away. Females carry their young ones—called joeys—in abdominal pouch for about six months.
+  animal.koala:
+    label: koala
+    summary: An Australian tree-living marsupial.
+    info: The koala is not a bear but an arboreal marsupial native to Australia. It almost exclusively feeds on toxic leaves of桉树（尤加利）which most animals cannot eat due to their toxicity thanks to its specialized digestive system.
+  animal.leopard:
+    label: leopard
+    summary: A spotted coat-furred wildcat species known also by excellent climbing skills.
+    info: The leopard is the most widespread large feline predator that occasionally climbs to tree canopies where it carries its prey for protection against jackals and lions. Its adaptability surpasses other great cats; they live across Africa, near East Asia, and far Eastern regions.
   animal.lion:
     label: lion
     summary: A big wild cat that lives on the African savanna.
@@ -24,6 +124,82 @@ cards:
       south of the Sahara. Lions live in family groups called prides;
       the females hunt together, while the male's striking mane helps
       intimidate rivals. The lion is often called the "king of beasts".
+  animal.lynx:
+    label: Eurasian Lynx
+    summary: A medium-sized wild cat known for having prominent white-tipped ears along face sides near eye level area called 'ear tufts'.
+    info: '{"hint":"medium-sized wild cat with tufted ears (Lynx lynx)","info":"The Eurasian Lynx is Europe''s largest wildcat species. It can be identified by its distinctive black fur tuffs at ear tips and short tail. The animal primarily hunts during dusk and night hours when it preys mainly on roe deer and hares. In Bohemia/Czechia they were once extinct but successfully reintroduced after mid-twentieth century","label":"lynx","summary":"Medium sized wild feline mammal characterized by long whiskers above eyes."}'
+  animal.mandrill:
+    label: mandrill
+    summary: World's Most Colorful Primate With A Blue And Red Face.
+    info: The mandrill is the largest living Old World monkey and most colorful primate species. Males have brightly colored facial markings that serve to indicate their social status within groups; they live together in troops across rainforests found throughout Cameroon, Gabon, and The Republic Of Congo.
+  animal.meerkat:
+    label: '"meerkat"'
+    summary: '{"summary":"Small desert-dwelling mammal standing upright using its hind legs found specifically inhabiting regions around The Kalahari Desert"}'
+    info: '{"info":"Meerkat is small carnivore belonging to mustelids living in southern Africa.\nThe species lives together within groups that have strict hierarchical structures where an individual always keeps watch on high ground for predators such as snakes which they''re immune against including scorpions'' venom too. \nThey teach each other hunting techniques through observation."}'
+  animal.moose:
+    label: moose
+    summary: Largest cervid mammal characterized by its palm-like antlers.
+    info: The moose is the largest species within the deer family on Earth; males can grow over two meters tall at their shoulder height and carry broad-palmate antlers that span up to 180 centimeters. It inhabits coniferous forests across North America, Europe, and Asia.
+  animal.okapi:
+    label: okapi
+    summary: Forest relative of the giraffe found exclusively within Democratic Republic Of The Congo's rainforests.
+    info: The okapi was scientifically described only in 1895—actually earlier than that—and is considered to be closely related but distinct; it resembles both zebras due its striped hindquarters while being most genetically similar overall towards true giraffes.
+  animal.orangutan:
+    label: orangutan
+    summary: Large reddish-brown arboreal primate found only in forests across islands like Kalimantan/Borneo & Sumatera/Sumatra.
+    info: The orangutan is unique among large apes for living outside Africa; its name comes from Malay language and means 'forest person'. It's considered to be most solitary of all big primates spending much time on tree tops where it lives majority life cycle.
+  animal.otter:
+    label: Otter
+    summary: Playful semiaquatic mammal living near clean streams.
+    info: The European otter is an animal belonging to the weasel family that has perfectly adapted for life underwater. It possesses dense water-repellent fur, webbed feet capable swimming under water up over minute at once.
+  animal.polar_bear:
+    label: polar bear
+    summary: Largest terrestrial carnivore living at high latitudes.
+    info: The polar bear is the largest land predator and top hunter on Earth's northernmost continent.
+  animal.porcupine:
+    label: porcupine
+    summary: Large rodent covered in sharp protective spines.
+    info: The porcupine is protected by thousands of sharp hollow spines that have evolved from hair. The spikes don't shoot like arrows but easily detach upon contact to embed themselves in predators' bodies. It's Africa’s largest rodent and searches for bark, roots, and vegetables at night.
+  animal.raccoon:
+    label: Raccoon
+    summary: American animal wearing black facial markings around eyes & nose area along white fur above them plus striped tail.
+    info: The northern raccoon comes originally from North America but has been introduced to Europe where it now reproduces extensively today. It is famous for its apparent washing behavior before eating food when actually softening sensitivity on their paws through rubbing actions against objects like rocks etc.. They're omnivorous animals that can adapt well living even within densely populated urban areas.
+  animal.reindeer:
+    label: reindeer
+    summary: Arctic deer species where females also grow antlers.
+    info: The reindeer is found across arctic tundra habitats throughout North America, Europe, and Asia and can migrate thousands of kilometers annually to follow seasonal food sources.
+  animal.rhinoceros:
+    label: rhino
+    summary: A large animal having either single or double nasal horn.
+    info: The white rhinoceros is the second largest land mammal after elephants. Its horn consists not out of bone but rather keratin - which also makes up human fingernails.
+  animal.sloth:
+    label: Sloth
+    summary: Slow animal hanging upside-down in trees.
+    info: The sloth is perfectly adapted to slow life among tropical tree canopies; it moves so slowly that green algae grow on its fur for camouflage. Its metabolism is extremely sluggish—its bowels empty only once per week—and has exceptionally strong hooked claws allowing it to hang even after death.
+  animal.snow_leopard:
+    label: snow leopard
+    summary: Rare large feline inhabiting alpine environments within central Asia.
+    info: '{"hint":"elusive large cat found on central asian mountain ranges","info":"The snow leopard lives at high altitudes across himalayas tibetan plateau and other central asia regions between three thousand to five thousand meters above sea level\nThe animal has an exceptionally long tail used for balance when climbing rocks \nWorldwide population estimates range only four thousand up six point five thousands individuals\nIt is among least studied wild cats globally"}'
+  animal.tapir:
+    label: tapir
+    summary: Large browser relative of horse/rhinoceros that uses its snout for grasping vegetation.
+    info: A tapir is an ancient odd-toed ungulate related to rhinoceroses and horses, even though it may not look like them at first glance. It lives in tropical rainforests across Central/South America and Southeast Asia. Its short flexible trunk helps grasp branches and leaves.
+  animal.tiger:
+    label: Tiger
+    summary: Largest feline predator globally featuring distinctive striped coat pattern.
+    info: The Bengal tiger is the largest big cat living freely outdoors today. Each individual has unique stripe patterns similar to human fingerprints used for identification purposes by conservationists tracking their movements across habitats ranging from dense forests through mangrove swamps up onto snowy mountain slopes where they hunt deer species like chital.
+  animal.warthog:
+    label: warthog
+    summary: Wild hog native to sub-Saharan regions characterized prominently large teeth along face.
+    info: '{"hint":"wild pig of Africa with facial tusks (\"Phacochoerus africanus\").","info": "The warthog is an African wild boar related to domestic pigs that lives freely. Males have fleshy growths on their faces called warts and curved tusks used for defense. When fleeing danger it runs upright like antenna holding its tail high up vertically above ground level while digging holes using existing burrows made by other animals such as hares instead relying upon own strength."}'
+  animal.wild_boar:
+    label: wild boar
+    summary: A wild hog with tusk-like teeth which served as progenitor for modern-day farm porkers.
+    info: Wild boar is an original European species that serves as ancestors for all breeds of domestic pigs. They are intelligent omnivores who dig up roots, acorns but also hunt small animals. Sows care for their young within groups.
+  animal.wildebeest:
+    label: wildebeest
+    summary: A migrating African antelope taking part in the world's greatest terrestrial migration.
+    info: The wildebeest is known for participating in one of the largest land migrations on Earth; nearly millions cross between Serengeti and Maasai Mara annually. It serves as key prey to lions, cheetahs, and crocodiles. Females give birth almost all at once within just two to three weeks.
   animal.wolf:
     label: wolf
     summary: A wild member of the dog family and ancestor of the dog.
@@ -32,6 +208,10 @@ cards:
       ancestor of the domestic dog. It lives and hunts in packs with a clear
       social hierarchy and communicates by howling to mark its territory and
       call the pack together.
+  animal.wolverine:
+    label: wolverine
+    summary: Strong aggressive weasellike animal found mainly within northern coniferous woodlands.
+    info: '{"info":"Wolverine is the largest terrestrial member of the weasel family. Despite its small size it''s renowned for extraordinary strength and aggression; capable to drive bears away from their prey. It lives on vast territories across North America’s taiga forest-tundra regions."}'
   animal.zebra:
     label: zebra
     summary: An African wild horse relative with black-and-white stripes.

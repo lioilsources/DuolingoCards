@@ -821,6 +821,526 @@
         "vi": "Con số mười là nền tảng cho hệ thống số thập phân vì con người có tổng cộng mười ngón tay trên hai bàn tay. Số mười đã được dùng làm đơn vị tự nhiên để đếm từ thời cổ xưa.",
         "zh-CN": "十是十进制系统的基本单位，因为人类双手共有十个手指。自古以来，十就成为计数的自然标准。"
       }
+    },
+    {
+      "key": "num.eleven",
+      "image": "num.eleven.png",
+      "label": {
+        "cs": "jedenáct"
+      },
+      "summary": {
+        "cs": "Číslovka 11; řadová: jedenáctý; římsky: XI."
+      },
+      "info": {
+        "cs": "Číslo 11 je přirozené číslo po čísle 10 a před číslem 12.\nŘímská číslice: XI.\nŘadová číslovka: jedenáctý.\nV desítkové soustavě se zapíše jako 1 + 10.\n"
+      }
+    },
+    {
+      "key": "num.twelve",
+      "image": "num.twelve.png",
+      "label": {
+        "cs": "dvanáct"
+      },
+      "summary": {
+        "cs": "Číslovka 12; řadová: dvanáctý; římsky: XII."
+      },
+      "info": {
+        "cs": "Číslo 12 je přirozené číslo po čísle 11 a před číslem 13.\nŘímská číslice: XII.\nŘadová číslovka: dvanáctý.\nV desítkové soustavě se zapíše jako 2 + 10.\n"
+      }
+    },
+    {
+      "key": "num.thirteen",
+      "image": "num.thirteen.png",
+      "label": {
+        "cs": "třináct"
+      },
+      "summary": {
+        "cs": "Číslovka 13; řadová: třináctý; římsky: XIII."
+      },
+      "info": {
+        "cs": "Číslo 13 je přirozené číslo po čísle 12 a před číslem 14.\nŘímská číslice: XIII.\nŘadová číslovka: třináctý.\nV desítkové soustavě se zapíše jako 3 + 10.\n"
+      }
+    },
+    {
+      "key": "num.fourteen",
+      "image": "num.fourteen.png",
+      "label": {
+        "cs": "čtrnáct"
+      },
+      "summary": {
+        "cs": "Číslovka 14; řadová: čtrnáctý; římsky: XIV."
+      },
+      "info": {
+        "cs": "Číslo 14 je přirozené číslo po čísle 13 a před číslem 15.\nŘímská číslice: XIV.\nŘadová číslovka: čtrnáctý.\nV desítkové soustavě se zapíše jako 4 + 10.\n"
+      }
+    },
+    {
+      "key": "num.fifteen",
+      "image": "num.fifteen.png",
+      "label": {
+        "cs": "patnáct"
+      },
+      "summary": {
+        "cs": "Číslovka 15; řadová: patnáctý; římsky: XV."
+      },
+      "info": {
+        "cs": "Číslo 15 je přirozené číslo po čísle 14 a před číslem 16.\nŘímská číslice: XV.\nŘadová číslovka: patnáctý.\nV desítkové soustavě se zapíše jako 5 + 10.\n"
+      }
+    },
+    {
+      "key": "num.sixteen",
+      "image": "num.sixteen.png",
+      "label": {
+        "cs": "šestnáct"
+      },
+      "summary": {
+        "cs": "Číslovka 16; řadová: šestnáctý; římsky: XVI."
+      },
+      "info": {
+        "cs": "Číslo 16 je přirozené číslo po čísle 15 a před číslem 17.\nŘímská číslice: XVI.\nŘadová číslovka: šestnáctý.\nV desítkové soustavě se zapíše jako 6 + 10.\n"
+      }
+    },
+    {
+      "key": "num.seventeen",
+      "image": "num.seventeen.png",
+      "label": {
+        "cs": "sedmnáct"
+      },
+      "summary": {
+        "cs": "Číslovka 17; řadová: sedmnáctý; římsky: XVII."
+      },
+      "info": {
+        "cs": "Číslo 17 je přirozené číslo po čísle 16 a před číslem 18.\nŘímská číslice: XVII.\nŘadová číslovka: sedmnáctý.\nV desítkové soustavě se zapíše jako 7 + 10.\n"
+      }
+    },
+    {
+      "key": "num.eighteen",
+      "image": "num.eighteen.png",
+      "label": {
+        "cs": "osmnáct"
+      },
+      "summary": {
+        "cs": "Číslovka 18; řadová: osmnáctý; římsky: XVIII."
+      },
+      "info": {
+        "cs": "Číslo 18 je přirozené číslo po čísle 17 a před číslem 19.\nŘímská číslice: XVIII.\nŘadová číslovka: osmnáctý.\nV desítkové soustavě se zapíše jako 8 + 10.\n"
+      }
+    },
+    {
+      "key": "num.nineteen",
+      "image": "num.nineteen.png",
+      "label": {
+        "cs": "devatenáct"
+      },
+      "summary": {
+        "cs": "Číslovka 19; řadová: devatenáctý; římsky: XIX."
+      },
+      "info": {
+        "cs": "Číslo 19 je přirozené číslo po čísle 18 a před číslem 20.\nŘímská číslice: XIX.\nŘadová číslovka: devatenáctý.\nV desítkové soustavě se zapíše jako 9 + 10.\n"
+      }
+    },
+    {
+      "key": "num.twenty",
+      "image": "num.twenty.png",
+      "label": {
+        "cs": "dvacet"
+      },
+      "summary": {
+        "cs": "Číslovka 20; řadová: dvacátý; římsky: XX."
+      },
+      "info": {
+        "cs": "Číslo 20 je přirozené číslo po čísle 19 a před číslem 21.\nŘímská číslice: XX.\nŘadová číslovka: dvacátý.\nV desítkové soustavě se zapíše jako 20.\n"
+      }
+    },
+    {
+      "key": "num.twenty_one",
+      "image": "num.twenty_one.png",
+      "label": {
+        "cs": "dvacet jedna"
+      },
+      "summary": {
+        "cs": "Číslovka 21; řadová: dvacátý první; římsky: XXI."
+      },
+      "info": {
+        "cs": "Číslo 21 je přirozené číslo po čísle 20 a před číslem 22.\nŘímská číslice: XXI.\nŘadová číslovka: dvacátý první.\nV desítkové soustavě se zapíše jako 1 + 20.\n"
+      }
+    },
+    {
+      "key": "num.twenty_two",
+      "image": "num.twenty_two.png",
+      "label": {
+        "cs": "dvacet dva"
+      },
+      "summary": {
+        "cs": "Číslovka 22; řadová: dvacátý druhý; římsky: XXII."
+      },
+      "info": {
+        "cs": "Číslo 22 je přirozené číslo po čísle 21 a před číslem 23.\nŘímská číslice: XXII.\nŘadová číslovka: dvacátý druhý.\nV desítkové soustavě se zapíše jako 2 + 20.\n"
+      }
+    },
+    {
+      "key": "num.twenty_three",
+      "image": "num.twenty_three.png",
+      "label": {
+        "cs": "dvacet tři"
+      },
+      "summary": {
+        "cs": "Číslovka 23; řadová: dvacátý třetí; římsky: XXIII."
+      },
+      "info": {
+        "cs": "Číslo 23 je přirozené číslo po čísle 22 a před číslem 24.\nŘímská číslice: XXIII.\nŘadová číslovka: dvacátý třetí.\nV desítkové soustavě se zapíše jako 3 + 20.\n"
+      }
+    },
+    {
+      "key": "num.twenty_four",
+      "image": "num.twenty_four.png",
+      "label": {
+        "cs": "dvacet čtyři"
+      },
+      "summary": {
+        "cs": "Číslovka 24; řadová: dvacátý čtvrtý; římsky: XXIV."
+      },
+      "info": {
+        "cs": "Číslo 24 je přirozené číslo po čísle 23 a před číslem 25.\nŘímská číslice: XXIV.\nŘadová číslovka: dvacátý čtvrtý.\nV desítkové soustavě se zapíše jako 4 + 20.\n"
+      }
+    },
+    {
+      "key": "num.twenty_five",
+      "image": "num.twenty_five.png",
+      "label": {
+        "cs": "dvacet pět"
+      },
+      "summary": {
+        "cs": "Číslovka 25; řadová: dvacátý pátý; římsky: XXV."
+      },
+      "info": {
+        "cs": "Číslo 25 je přirozené číslo po čísle 24 a před číslem 26.\nŘímská číslice: XXV.\nŘadová číslovka: dvacátý pátý.\nV desítkové soustavě se zapíše jako 5 + 20.\n"
+      }
+    },
+    {
+      "key": "num.twenty_six",
+      "image": "num.twenty_six.png",
+      "label": {
+        "cs": "dvacet šest"
+      },
+      "summary": {
+        "cs": "Číslovka 26; řadová: dvacátý šestý; římsky: XXVI."
+      },
+      "info": {
+        "cs": "Číslo 26 je přirozené číslo po čísle 25 a před číslem 27.\nŘímská číslice: XXVI.\nŘadová číslovka: dvacátý šestý.\nV desítkové soustavě se zapíše jako 6 + 20.\n"
+      }
+    },
+    {
+      "key": "num.twenty_seven",
+      "image": "num.twenty_seven.png",
+      "label": {
+        "cs": "dvacet sedm"
+      },
+      "summary": {
+        "cs": "Číslovka 27; řadová: dvacátý sedmý; římsky: XXVII."
+      },
+      "info": {
+        "cs": "Číslo 27 je přirozené číslo po čísle 26 a před číslem 28.\nŘímská číslice: XXVII.\nŘadová číslovka: dvacátý sedmý.\nV desítkové soustavě se zapíše jako 7 + 20.\n"
+      }
+    },
+    {
+      "key": "num.twenty_eight",
+      "image": "num.twenty_eight.png",
+      "label": {
+        "cs": "dvacet osm"
+      },
+      "summary": {
+        "cs": "Číslovka 28; řadová: dvacátý osmý; římsky: XXVIII."
+      },
+      "info": {
+        "cs": "Číslo 28 je přirozené číslo po čísle 27 a před číslem 29.\nŘímská číslice: XXVIII.\nŘadová číslovka: dvacátý osmý.\nV desítkové soustavě se zapíše jako 8 + 20.\n"
+      }
+    },
+    {
+      "key": "num.twenty_nine",
+      "image": "num.twenty_nine.png",
+      "label": {
+        "cs": "dvacet devět"
+      },
+      "summary": {
+        "cs": "Číslovka 29; řadová: dvacátý devátý; římsky: XXIX."
+      },
+      "info": {
+        "cs": "Číslo 29 je přirozené číslo po čísle 28 a před číslem 30.\nŘímská číslice: XXIX.\nŘadová číslovka: dvacátý devátý.\nV desítkové soustavě se zapíše jako 9 + 20.\n"
+      }
+    },
+    {
+      "key": "num.thirty",
+      "image": "num.thirty.png",
+      "label": {
+        "cs": "třicet"
+      },
+      "summary": {
+        "cs": "Číslovka 30; řadová: třicátý; římsky: XXX."
+      },
+      "info": {
+        "cs": "Číslo 30 je přirozené číslo po čísle 29 a před číslem 31.\nŘímská číslice: XXX.\nŘadová číslovka: třicátý.\nV desítkové soustavě se zapíše jako 30.\n"
+      }
+    },
+    {
+      "key": "num.thirty_one",
+      "image": "num.thirty_one.png",
+      "label": {
+        "cs": "třicet jedna"
+      },
+      "summary": {
+        "cs": "Číslovka 31; řadová: třicátý první; římsky: XXXI."
+      },
+      "info": {
+        "cs": "Číslo 31 je přirozené číslo po čísle 30 a před číslem 32.\nŘímská číslice: XXXI.\nŘadová číslovka: třicátý první.\nV desítkové soustavě se zapíše jako 1 + 30.\n"
+      }
+    },
+    {
+      "key": "num.thirty_two",
+      "image": "num.thirty_two.png",
+      "label": {
+        "cs": "třicet dva"
+      },
+      "summary": {
+        "cs": "Číslovka 32; řadová: třicátý druhý; římsky: XXXII."
+      },
+      "info": {
+        "cs": "Číslo 32 je přirozené číslo po čísle 31 a před číslem 33.\nŘímská číslice: XXXII.\nŘadová číslovka: třicátý druhý.\nV desítkové soustavě se zapíše jako 2 + 30.\n"
+      }
+    },
+    {
+      "key": "num.thirty_three",
+      "image": "num.thirty_three.png",
+      "label": {
+        "cs": "třicet tři"
+      },
+      "summary": {
+        "cs": "Číslovka 33; řadová: třicátý třetí; římsky: XXXIII."
+      },
+      "info": {
+        "cs": "Číslo 33 je přirozené číslo po čísle 32 a před číslem 34.\nŘímská číslice: XXXIII.\nŘadová číslovka: třicátý třetí.\nV desítkové soustavě se zapíše jako 3 + 30.\n"
+      }
+    },
+    {
+      "key": "num.thirty_four",
+      "image": "num.thirty_four.png",
+      "label": {
+        "cs": "třicet čtyři"
+      },
+      "summary": {
+        "cs": "Číslovka 34; řadová: třicátý čtvrtý; římsky: XXXIV."
+      },
+      "info": {
+        "cs": "Číslo 34 je přirozené číslo po čísle 33 a před číslem 35.\nŘímská číslice: XXXIV.\nŘadová číslovka: třicátý čtvrtý.\nV desítkové soustavě se zapíše jako 4 + 30.\n"
+      }
+    },
+    {
+      "key": "num.thirty_five",
+      "image": "num.thirty_five.png",
+      "label": {
+        "cs": "třicet pět"
+      },
+      "summary": {
+        "cs": "Číslovka 35; řadová: třicátý pátý; římsky: XXXV."
+      },
+      "info": {
+        "cs": "Číslo 35 je přirozené číslo po čísle 34 a před číslem 36.\nŘímská číslice: XXXV.\nŘadová číslovka: třicátý pátý.\nV desítkové soustavě se zapíše jako 5 + 30.\n"
+      }
+    },
+    {
+      "key": "num.thirty_six",
+      "image": "num.thirty_six.png",
+      "label": {
+        "cs": "třicet šest"
+      },
+      "summary": {
+        "cs": "Číslovka 36; řadová: třicátý šestý; římsky: XXXVI."
+      },
+      "info": {
+        "cs": "Číslo 36 je přirozené číslo po čísle 35 a před číslem 37.\nŘímská číslice: XXXVI.\nŘadová číslovka: třicátý šestý.\nV desítkové soustavě se zapíše jako 6 + 30.\n"
+      }
+    },
+    {
+      "key": "num.thirty_seven",
+      "image": "num.thirty_seven.png",
+      "label": {
+        "cs": "třicet sedm"
+      },
+      "summary": {
+        "cs": "Číslovka 37; řadová: třicátý sedmý; římsky: XXXVII."
+      },
+      "info": {
+        "cs": "Číslo 37 je přirozené číslo po čísle 36 a před číslem 38.\nŘímská číslice: XXXVII.\nŘadová číslovka: třicátý sedmý.\nV desítkové soustavě se zapíše jako 7 + 30.\n"
+      }
+    },
+    {
+      "key": "num.thirty_eight",
+      "image": "num.thirty_eight.png",
+      "label": {
+        "cs": "třicet osm"
+      },
+      "summary": {
+        "cs": "Číslovka 38; řadová: třicátý osmý; římsky: XXXVIII."
+      },
+      "info": {
+        "cs": "Číslo 38 je přirozené číslo po čísle 37 a před číslem 39.\nŘímská číslice: XXXVIII.\nŘadová číslovka: třicátý osmý.\nV desítkové soustavě se zapíše jako 8 + 30.\n"
+      }
+    },
+    {
+      "key": "num.thirty_nine",
+      "image": "num.thirty_nine.png",
+      "label": {
+        "cs": "třicet devět"
+      },
+      "summary": {
+        "cs": "Číslovka 39; řadová: třicátý devátý; římsky: XXXIX."
+      },
+      "info": {
+        "cs": "Číslo 39 je přirozené číslo po čísle 38 a před číslem 40.\nŘímská číslice: XXXIX.\nŘadová číslovka: třicátý devátý.\nV desítkové soustavě se zapíše jako 9 + 30.\n"
+      }
+    },
+    {
+      "key": "num.forty",
+      "image": "num.forty.png",
+      "label": {
+        "cs": "čtyřicet"
+      },
+      "summary": {
+        "cs": "Číslovka 40; řadová: čtyřicátý; římsky: XL."
+      },
+      "info": {
+        "cs": "Číslo 40 je přirozené číslo po čísle 39 a před číslem 41.\nŘímská číslice: XL.\nŘadová číslovka: čtyřicátý.\nV desítkové soustavě se zapíše jako 40.\n"
+      }
+    },
+    {
+      "key": "num.forty_one",
+      "image": "num.forty_one.png",
+      "label": {
+        "cs": "čtyřicet jedna"
+      },
+      "summary": {
+        "cs": "Číslovka 41; řadová: čtyřicátý první; římsky: XLI."
+      },
+      "info": {
+        "cs": "Číslo 41 je přirozené číslo po čísle 40 a před číslem 42.\nŘímská číslice: XLI.\nŘadová číslovka: čtyřicátý první.\nV desítkové soustavě se zapíše jako 1 + 40.\n"
+      }
+    },
+    {
+      "key": "num.forty_two",
+      "image": "num.forty_two.png",
+      "label": {
+        "cs": "čtyřicet dva"
+      },
+      "summary": {
+        "cs": "Číslovka 42; řadová: čtyřicátý druhý; římsky: XLII."
+      },
+      "info": {
+        "cs": "Číslo 42 je přirozené číslo po čísle 41 a před číslem 43.\nŘímská číslice: XLII.\nŘadová číslovka: čtyřicátý druhý.\nV desítkové soustavě se zapíše jako 2 + 40.\n"
+      }
+    },
+    {
+      "key": "num.forty_three",
+      "image": "num.forty_three.png",
+      "label": {
+        "cs": "čtyřicet tři"
+      },
+      "summary": {
+        "cs": "Číslovka 43; řadová: čtyřicátý třetí; římsky: XLIII."
+      },
+      "info": {
+        "cs": "Číslo 43 je přirozené číslo po čísle 42 a před číslem 44.\nŘímská číslice: XLIII.\nŘadová číslovka: čtyřicátý třetí.\nV desítkové soustavě se zapíše jako 3 + 40.\n"
+      }
+    },
+    {
+      "key": "num.forty_four",
+      "image": "num.forty_four.png",
+      "label": {
+        "cs": "čtyřicet čtyři"
+      },
+      "summary": {
+        "cs": "Číslovka 44; řadová: čtyřicátý čtvrtý; římsky: XLIV."
+      },
+      "info": {
+        "cs": "Číslo 44 je přirozené číslo po čísle 43 a před číslem 45.\nŘímská číslice: XLIV.\nŘadová číslovka: čtyřicátý čtvrtý.\nV desítkové soustavě se zapíše jako 4 + 40.\n"
+      }
+    },
+    {
+      "key": "num.forty_five",
+      "image": "num.forty_five.png",
+      "label": {
+        "cs": "čtyřicet pět"
+      },
+      "summary": {
+        "cs": "Číslovka 45; řadová: čtyřicátý pátý; římsky: XLV."
+      },
+      "info": {
+        "cs": "Číslo 45 je přirozené číslo po čísle 44 a před číslem 46.\nŘímská číslice: XLV.\nŘadová číslovka: čtyřicátý pátý.\nV desítkové soustavě se zapíše jako 5 + 40.\n"
+      }
+    },
+    {
+      "key": "num.forty_six",
+      "image": "num.forty_six.png",
+      "label": {
+        "cs": "čtyřicet šest"
+      },
+      "summary": {
+        "cs": "Číslovka 46; řadová: čtyřicátý šestý; římsky: XLVI."
+      },
+      "info": {
+        "cs": "Číslo 46 je přirozené číslo po čísle 45 a před číslem 47.\nŘímská číslice: XLVI.\nŘadová číslovka: čtyřicátý šestý.\nV desítkové soustavě se zapíše jako 6 + 40.\n"
+      }
+    },
+    {
+      "key": "num.forty_seven",
+      "image": "num.forty_seven.png",
+      "label": {
+        "cs": "čtyřicet sedm"
+      },
+      "summary": {
+        "cs": "Číslovka 47; řadová: čtyřicátý sedmý; římsky: XLVII."
+      },
+      "info": {
+        "cs": "Číslo 47 je přirozené číslo po čísle 46 a před číslem 48.\nŘímská číslice: XLVII.\nŘadová číslovka: čtyřicátý sedmý.\nV desítkové soustavě se zapíše jako 7 + 40.\n"
+      }
+    },
+    {
+      "key": "num.forty_eight",
+      "image": "num.forty_eight.png",
+      "label": {
+        "cs": "čtyřicet osm"
+      },
+      "summary": {
+        "cs": "Číslovka 48; řadová: čtyřicátý osmý; římsky: XLVIII."
+      },
+      "info": {
+        "cs": "Číslo 48 je přirozené číslo po čísle 47 a před číslem 49.\nŘímská číslice: XLVIII.\nŘadová číslovka: čtyřicátý osmý.\nV desítkové soustavě se zapíše jako 8 + 40.\n"
+      }
+    },
+    {
+      "key": "num.forty_nine",
+      "image": "num.forty_nine.png",
+      "label": {
+        "cs": "čtyřicet devět"
+      },
+      "summary": {
+        "cs": "Číslovka 49; řadová: čtyřicátý devátý; římsky: XLIX."
+      },
+      "info": {
+        "cs": "Číslo 49 je přirozené číslo po čísle 48 a před číslem 50.\nŘímská číslice: XLIX.\nŘadová číslovka: čtyřicátý devátý.\nV desítkové soustavě se zapíše jako 9 + 40.\n"
+      }
+    },
+    {
+      "key": "num.fifty",
+      "image": "num.fifty.png",
+      "label": {
+        "cs": "padesát"
+      },
+      "summary": {
+        "cs": "Číslovka 50; řadová: padesátý; římsky: L."
+      },
+      "info": {
+        "cs": "Číslo 50 je přirozené číslo po čísle 49 a před číslem 51.\nŘímská číslice: L.\nŘadová číslovka: padesátý.\nV desítkové soustavě se zapíše jako 50.\n"
+      }
     }
   ]
 }

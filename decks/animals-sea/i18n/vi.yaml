@@ -2,6 +2,46 @@ lang: vi
 pivot: false
 title: Động vật biển
 cards:
+  animal.anglerfish:
+    label: '"Cá ánh sáng"'
+    summary: '"Loài cá nước sâu sở hữu gai đầu phát sáng bằng cách sử dụng hiện tượng tự lấp đầy từ môi trường xung quanh"'
+    info: '{"info":"Con cá ánh sáng biển sâu sống ở độ cao hơn 1 nghìn mét dưới đáy đại dương nơi tối tăm. Con cái có một mồi câu phát quang sinh học trên trán để dụ dỗ con mồi và các chú đực lại gần nó. Chú công rất nhỏ bé đến mức phi thường; khi tìm thấy cô mái thì bám vào cơ thể của cô ấy rồi hòa tan thành phần tử với nhau về mặt sinh vật lý thuyết hóa này đó đây. Ánh sáng sinh học được tạo ra bởi vi khuẩn đang tồn tại trong mối liên hệ cộng sinh bên ngoài chiếc móc câu."}'
+  animal.barnacle:
+    label: '"con sao"'
+    summary: '"Loại giáp xác nhỏ thường thấy bám chắc chắn tại khu vực bãi đá hoặc bên ngoài con tàu đang cập cảng"'
+    info: '{"hint":"giáp xác sessile thuộc lớp Cirripedia bám vào đá và tàu thuyền","info":"Rong sét là loài giáp xác sống cố định trong phân loại học gọi là Cirripedia; chúng gắn chặt bằng chất nhầy như xi măng lên các tảng đá, thân tàu cũng như cá voi lớn.\nChúng lọc thức ăn từ phù du sinh vật nhờ những đôi chân nhỏ chui ra khỏi vỏ cứng của mình.\nLarva rong sét có khả năng nổi lềnh trên mặt nước cho đến khi tìm được vị trí thích hợp để cắm bản thân lại thành dạng trưởng thành suốt đời không rời đi nữa.\nTrong ngành hải dương học hiện đại thì đây chính là một nhóm vi khuẩn quan trọng giúp nghiên cứu về sự hình thành cộng đồng đa dạng ở môi trường dưới biển sâu."}'
+  animal.beluga_whale:
+    label: Cá heo
+    summary: Một con hải cẩu có đầu tròn với vẻ ngoài thân thiện.
+    info: Bà la gia (Delphinapterus leucas) là một loài cá voi nhỏ màu trắng sống ở các vùng biển Bắc Cực và cận bắc cực.
+  animal.blue_tang:
+    label: cánh tiên hải mãng cầu
+    summary: Loại cá nước mặn hình cánh chim nổi bật trên nền đá ngầm corail
+    info: |-
+      Cichlidae xanh lam (Paracanthurus hepatus) là một loài cá biển nhỏ có màu sắc tươi sáng với đuôi vàng từ các rặng san hô của Ấn Độ Dương và Thái Bình Dương
+      Phim Tìm Kiếm Marlin đã làm tăng sự quan tâm đến việc nuôi nhốt dù đây là loài khó chăm sóc trong môi trường nhân tạo
+      Nó sở hữu những gai lưỡi ở gốc đuôi dùng để phẫu thuật – nguồn gốc cho tên gọi 'surgeonfish'
+      Chúng ăn sinh vật phù du động và thực
+  animal.carp_river:
+    label: cái rạch
+    summary: Một loại cá to sậm màu da cam hoặc đỏ thường thấy tại nơi có dòng chảy nhẹ hoặc ao xây dựng bởi con người.
+    info: '{"hint":"cá chép trong môi trường sống tự nhiên là sông ngòi (Cyprius cippo)","info":"Cá chép châu Á có nguồn gốc từ Châu Á và đã được du nhập vào Châu Âu kể cả thời Trung cổ\nNó ăn tạp tính ; nó đào bới đáy ao hồ làm nước đục đi \nLà biểu tượng của lễ Giáng sinh Séc , người bán hàng bày cá còn tươi活着 trên các cái máng để bán cho khách \nLoài này thuộc nhóm những loài cá nuôi phổ biến nhất thế giới với hơn một trăm giống khác nhau .","label":"cái rạch","summary":"Một loại cá lớn màu vàng nâu sống ở vùng nước ngọt như con sông hay ao nhân tạo."}'
+  animal.catfish:
+    label: súm
+    summary: Cá sông đáy sống ở vùng nước ngọt.
+    info: Súm to lớn là loài cá nước ngọt có kích thước khổng lồ nhất tại châu Âu với chiều dài lên đến hơn hai mét và cân nặng vượt quá một trăm ki-lô-gam. Những chiếc râu đặc trưng của nó được dùng như cơ quan khứu giác cũng như xúc giác.
+  animal.clam:
+    label: sò khổng lồ
+    summary: Loại hàu to nhất trên Trái Đất thường xuất hiện ở rạn san hô nhiệt đới.
+    info: Sò khổng lồ là loài bạch tuộc có vỏ hai mảnh lớn nhất thế giới với chiều dài lên đến hơn một mét và cân nặng vượt quá 200kg. Nó sống cộng sinh cùng các tảo biển quang hợp zooxanthella bên trong lớp áo của nó.
+  animal.clown_triggerfish:
+    label: Cá trống hề
+    summary: Rất nhiều mảng sáng trên cơ thể cùng miệng đỏ tươi.
+    info: '{"hint":"cá cảnh có họa tiết nổi bật ở rạn san hô","info":{"label":"Cá trống hề","summary":"Loài cá nhiệt đới màu sắc bắt mắt với những chấm trắng và môi cam.\uCá trống hề là loài cá lớn thuộc gia đình Balistidae, được biết đến nhờ vào một trong số các kiểu săc đẹp nhất của cá biển\. Cá sở hữu răng khỏe để nghiền vỏ cứng như đáy san hô hay hàu\. Tên gọi ''trống'' xuất phát từ gai lưng đầu tiên hoạt động giống nắp an toàn khóa chặt lại phần thứ hai\. Trong mùa sinh sản, chúng đôi khi trở nên hung dữ đối với thợ lặn."}}'
+  animal.clownfish:
+    label: cóc mắt
+    summary: Một loại cá màu cam thường thấy ở vùng nước nông ven bờ.
+    info: Cóc mắt sống trong những con sao biển độc hại mà gai của chúng có thể giết chết các loài cá khác; vì lớp nhầy bảo vệ nên nó miễn nhiễm với chất kịch độc này. Cóc và sao biển tạo thành mối quan hệ cộng sinh khi cả hai cùng được hưởng lợi từ lẫn nhau.
   animal.crab:
     label: cua
     summary: Động vật giáp xác mười chân có vỏ cứng và càng, di chuyển sang bên.
@@ -10,26 +50,169 @@ cards:
     label: cá heo
     summary: Động vật có vú biển thông minh sống thành đàn và nhảy lên khỏi mặt nước.
     info: Cá heo là động vật có vú thuộc họ cá heo. Nó nổi tiếng với trí tuệ cao, khả năng định vị bằng sóng âm và hành vi nghịch ngợm – cá heo thích nhảy ra khỏi những con sóng của tàu thuyền và giao tiếp qua các âm thanh như tiếng huýt sáo và tiếng kêu lách cách. Chúng sống trong các nhóm được gọi là bầy đàn và là loài thân thiết gần gũi với voi biển.
+  animal.dugong:
+    label: động vật nhai lại
+    summary: Một loại thú ăn thực vật dưới nước yên tĩnh của vùng Ấn Độ Dương - Thái Bình Dương.
+    info: Là loài động vật có vú sống ở biển thuộc họ cá voi xanh sinh sống tại Ấn Độ Dương và Thái Bình Dương. Duy trì chế độ ăn hoàn toàn bằng cỏ biển.
+  animal.eel:
+    label: con đỉa / rắn
+    summary: Loại sinh vật giống như thằn lằn bò qua giữa tảng đá dưới lòng đại dương sâu xanh.
+    info: Rồng biển là một loài cá lớn sống ở vùng nước mặn thuộc họ Murienide thường rúc mình trong các vết nứt của đá ngầm san hô. Nó có hai cặp hàm răng – ngoài ra còn có những chiếc nằm bên trong cổ họng giúp đưa con mồi vào bụng dễ dàng hơn sau khi nuốt chửng chúng bằng miệng chính thức đầu tiên trước đó đã bắt được rồi kéo lại gần thân người hoặc vật thể khác để tấn công bất ngờ.
+  animal.flying_fish:
+    label: con cá bay
+    summary: Loại cá nhiệt đới trôi nổi trên bề mặt đại dương nhờ vào bộ鳍.
+    info: |-
+      Con cá bay là loài cá nhiệt đới có khả năng nhảy ra khỏi mặt nước và trượt không khí bằng những bơi láng giống cánh mở rộng của nó;
+      các鳍 được căng thẳng hoạt động như đôi cánh giúp con vật này di chuyển tới khoảng cách lên đến hai trăm mét với độ cao tối đa một phẩy hai mét;
+      nó sử dụng kỹ thuật đó để thoát khỏi kẻ săn mồi gồm các loại cá ngừ cơm, cá kiếm và hải cẩu;
+  animal.frogfish:
+    label: "{\r\n\t'label': 'Cóc biển',"
+    summary: '"Tấn công từ phía sau rặng san hô nhờ vào cái giả tạo."'
+    info: '{"hint":"sự tấn công bí mật kỳ quái di chuyển bằng vây","info": "Cóc biển là một loài cá nhỏ sống ở vùng nước mặn thuộc họ Cóc biển có khả năng ngụy trang tuyệt vời\.\nPectoral của nó được biến đổi thành dạng bàn chân để bò trên nền đáy\/cát\.\nTrên dorsal đầu tiên, chúng sở hữu chiếc lưỡi câu linh hoạt dùng để dụ con mồi đến gần\.\nChúng thậm chí còn nuốt những sinh vật to lớn tương đương với kích thước cơ thể mình và quá trình này chỉ mất khoảng 6 phần nghìn giây"}'
+  animal.giant_squid:
+    label: chim tôm khổng lồ
+    summary: Động vật không xương sống cỡ lớn nhất tồn tại chủ yếu bên ngoài tầng mặt Đại Dương.
+    info: Chim tôm khổng lồ Architeuthis là loài động vật không xương sống lớn nhất thế giới với chiều dài lên đến hơn 13 mét và có đôi mắt to nhất trong toàn bộ hệ sinh thái tự nhiên – đường kính trên dưới 25cm để thích nghi tốt cho môi trường tối ở độ sâu đại dương. Chúng thường cư trú tại các vùng nước từ khoảng 300 tới cả nghìn mét và được xem như thức ăn chính của cá mập voi. Cho đến năm 2004 mới lần đầu tiên ghi lại hình ảnh một con chim tôm này đang bò rong đáy biển.
+  animal.hammerhead_shark:
+    label: chiêm ngư búa
+    summary: Cá voi xanh có phần đầu trải dài ra tạo nên kiểu dáng chữ 'T' rất rõ ràng.
+    info: Chiêm ngư búa là một loại cá mập có đầu được mở rộng thành hình dạng đặc biệt gọi là cefalofoil. Đầu phẳng này giúp chúng phát hiện con mồi tốt hơn bằng các cơ quan điện và di chuyển linh hoạt trong nước. Chúng sống ở vùng biển nhiệt đới và săn bắt chủ yếu là cá, nhuyễn thể hai mảnh vỏ như hàu hoặc trai cùng với những sinh vật mềm khác.
+  animal.horseshoe_crab:
+    label: bò cạp đá
+    summary: Loài động vật thuộc ngành giáp xác sống sót qua cả nghìn triệu năm trước đây.
+    info: Bọ ngựa biển (Limulus polyphemus) là một loài chân khớp cổ đại khoảng 450 triệu năm tuổi đã tồn tại không thay đổi đáng kể từ thời nguyên sinh. Nó không phải họ hàng gần của tôm hùm thật mà lại có quan hệ thân thiết hơn với nhện và ve sầu. Máu màu xanh lam trong cơ thể nó chứa chất đặc biệt gọi là coagulin được sử dụng để kiểm tra an toàn thuốc men cùng các loại vaccine.
   animal.jellyfish:
     label: thủy tức
     summary: Động vật biển trong suốt hình chuông có tua độc.
     info: Thủy tức là sinh vật biển thuộc ngành Ruột khoang không có não, tim hay xương – cơ thể gồm tới 95% nước. Nó di chuyển bằng cách co bóp thân hình chuông của mình. Những xúc tu kéo dài chứa tế bào ruột khoang (nematocysts) giúp làm tê liệt con mồi. Một số loài gần như bất tử – chúng có thể quay lại giai đoạn non.
+  animal.lionfish:
+    label: cờ
+    summary: Loài cờ nhiệt đới có hình dạng đặc trưng bởi nhiều gai sắc nhọn.
+    info: Cờ đỏ là loài cá biển độc hại thuộc họ Cá gai có những đường dọc màu trắng và đen nổi bật cùng với các gai chứa nọc độc.
+  animal.lobster:
+    label: cua hoàng đế
+    summary: |-
+      Giáp xác biển to bản mang kẹp vuốt;
+      vừa sinh ra đã hồng hào nhưng phải qua lửa mới nhuộm sắc son
+    info: |-
+      Cua hoàng đế Đại Tây Dương là loài giáp xác biển lớn thuộc họ Nephropidae có thể dài hơn 60cm
+      Nó màu xanh tía khi sống và chuyển sang đỏ chỉ sau khi nấu chín nhờ phản ứng với chất carotenoid trong nước luộc
+      có tuổi thọ lên tới trên dưới năm thập kỷ
+  animal.manatee:
+    label: dugong/manatees
+    summary: Thế giới sinh vật ăn thực phẩm thủy sản được biết tới là 'bò biển'.
+    info: '{"hint":"thú ăn cỏ biển chậm và hiền lành (trichecus), còn gọi là bò biển","info":"Dung tích manatees chỉ sống bằng các loại cỏ biển dưới nước trong môi trường nhiệt đới nông nhàn như cửa sông hoặc kênh đào ở vùng Caribe, Florida hay châu Phi.\nChúng bị nguy hiểm nghiêm trọng do va chạm với tàu thuyền có động cơ - nhiều cá thể mang những vết thương trên da từ cánh quạt của chúng. \nManatees di chuyển rất chậm chạp (~4km/giờ) và thở mỗi khoảng ba đến năm phút một lần."}'
+  animal.manta_ray:
+    label: raimant
+    summary: Loại cá đuối khổng lồ thanh nhã này sống gần bề mặt đại dương.
+    info: Rai Manta đại dương là loài rùa biển lớn nhất với chiều rộng cánh lên đến hơn 7 mét và cân nặng vượt quá 2 tấn. Nó lọc thức ăn như sinh vật phù du bằng các tấm mang khi bơi trong miệng há to ra ngoài nước mặt để kiếm thực phẩm . Không có gai độc nên hoàn toàn vô hại đối con người.
+  animal.mussel:
+    label: '"mỏng"'
+    summary: Loại hà đen sinh sản thành cụm trong khu vực thủy triều.
+    info: '{"hint":"bàc hai mảnh vỏ sẫm màu tập trung trên đá","info":"Mực ăn được là loài hà biển sống ở các vùng triều của Đại Tây Dương và Thái Bình dương.\Nó dính vào những hòn đá bằng dây chằng chắc chắn (byssus).\Hà này lọc nước nên có thể làm chỉ số cho việc ô nhiễm đại dương vì tích tụ độc tố và kim loại nặng.\Là một món ngon nổi tiếng thế giới như Moules-Frites Bỉ."}'
+  animal.narwhal:
+    label: voi biển
+    summary: Cá voi sinh sống tại khu vực Băc Cưc mang một chiếc犄角螺旋状让人联想到独角兽。
+    info: |-
+      Voi biển là loài cá voi nhỏ ở vùng cực Bắc dài khoảng tới năm mét với chiếc ngà xoắn đặc trưng thực chất là răng cửa bên trái phát triển quá mức
+      Chiếc ngà có thể đạt độ dài hơn ba mét và không xuất hiện trên các con cái
+      Chúng sống thành đàn trong đại dương bắc Cực
+  animal.nautilus:
+    label: sò Nautil
+    summary: Loại đầu mấu cổ xưa với vỏ xoắn đã tồn tại từ thời khủng long.
+    info: Vỏ sò Nautilu là loài thân mềm nguyên thủy có vỏ xoắn hình spiral và sống gần như không thay đổi trong suốt hơn 400 triệu năm qua.
   animal.octopus:
     label: mực
     summary: Động vật thân mềm có bốn chi, có thể thay đổi màu sắc và hình dạng cơ thể.
     info: Mực là một loài động vật không xương sống thuộc lớp đầu foot. Nó có ba tim, máu xanh và có khả năng lập tức thay đổi màu sắc cũng như kết cấu da nhờ các chromatophores. Mực rất thông minh – chúng có thể mở những hộp bị khóa và giải quyết mê cung.
+  animal.orca:
+    label: Cá mập trắng
+    summary: Chú ý đến các kỹ thuật săn bắt độc đáo giữa từng nhóm.
+    info: Đó là loài cá heo to nhất trong họ Cá voi sát thủ và một trong những sinh vật thông minh bậc cao của thế giới.
+  animal.oyster:
+    label: '"hàu"'
+    summary: '"Bạch tuộc lọc nước; tạo ra những viên đá quý và là đặc sản yêu thích"'
+    info: '{"info":"Hàu là loài bạch tuộc lọc nước; một con hàu có thể làm sạch đến 200 lít nước mỗi ngày.\NCác giống nhất định sản xuất ngọc khi vật lạ kích thích lớp áo của chúng.\NHàu sống thô được coi như món ăn cao cấp và thường dùng vào các tháng không chứa chữ ''R''.\NSự nuôi trồng trong đại dương thân thiện với môi trường và giúp thanh tẩy nguồn nước biển."}'
+  animal.piranha:
+    label: cá piranha
+    summary: Loại cá săn mồi sống ở vùng nước ngọt Nam Mỹ với hàm răng sắc nhọn.
+    info: Cách đây nhiều năm đã có những tin đồn về sự nguy hiểm của loài cá này nhưng thực tế thì không phải vậy.
+  animal.puffer_fish:
+    label: cá bao tử
+    summary: Cá biết thổi hơi vào cơ thể để tạo ra một viên bi nhọn và là món ăn tráng miệng cũng như nguồn gây ngộ độc.
+    info: '{"fugu": "loài cá có thể phồng lên thành quả bóng gai khi bị đe dọa thuộc họ Cá Balo", "tetrodozin": "một trong những chất độc tự nhiên mạnh nhất"}'
+  animal.salmon:
+    label: cà hồi
+    summary: Loại cá lớn thuộc họ Cá Hồi từ đại dương đến suối/lạch/sông để giao phối.
+    info: Cá hồi là loài cá di cư ngược dòng nước ngọt để sinh sản sau khi trưởng thành ở biển và có thể quay lại các con sông nơi chúng được sinh ra dù phải bơi hàng trăm km. Khi lên đẻ trên mặt đất khô ráo hoặc trong môi trường tự nhiên không phù hợp với nhu cầu sống của nó thì cơ thể sẽ thối rữa nhưng vẫn cung cấp dinh dưỡng cho hệ sinh thái rừng.
+  animal.sea_anemone:
+    label: sa giày
+    summary: Loài động vật biển dạng cây bụi có gai nhọn ở các tua chân dùng bắt mồi.
+    info: '{"hint":"Động vật biển có hình hoa với xúc tu độc hại","info":"Sao sa biển là loài ruồi nước mặn thuộc lớp Cnidaria và về mặt thị giác giống như một bông hoa gắn vào đá dưới lòng đại dương.Chúng sở hữu những tế bào chứa chất kịch độc gọi chung là nematocysts để làm tê liệt con mồi.Sống cộng sinh cùng cá hề, rong hải sản và cua vệ sĩ.Có thể sống hơn trăm năm trời mà không chết vì tuổi già hay còn được xem là bất tử."}'
+  animal.sea_cucumber:
+    label: nhím
+    summary: Động vật hình trụ dưới nước ăn chất thải hữu cơ.
+    info: Các loài nhím biển là động vật có xương sống thuộc lớp Holothuroidea sinh sống ở đáy đại dương và thu gom các mảnh vụn hữu cơ từ trầm tích bằng cách lọc chúng qua hệ tiêu hóa của mình.
+  animal.sea_lion:
+    label: chồn
+    summary: Loài động vật có cánh guốc với khả năng di chuyển dễ dàng nhờ vào những chiếc蹼.
+    info: Chồn biển California là đại diện nổi tiếng nhất của họ Otariidae có tai ngoài và đi lại bằng bốn cái chân lênh đao đó trên mặt đất như vậy.
+  animal.sea_otter:
+    label: chồn hải
+    summary: Thú mỏ vịt biển nổi ngược bụng lại rồi dùng viên gạch nhỏ đánh tan cái vỏ hai mép.
+    info: '{"hint":"thú mỏ vịt biển nổi trên lưng và sử dụng công cụ để mở vỏ bivalvia","info":"Chồn hải là loài thú sống ở vùng nước ven biển Bắc Mỹ có lớp lông dày nhất trong tất cả các động vật có xương sống (trung bình khoảng hơn một triệu sợi tóc/cm vuông).\nNó dùng đá làm công cụ đập phá hàu hoặc trai khi đặt chúng lên ngực của nó. \nKhi ngủ thì nằm ngửa mặt ra ngoài bề mặt nước mà không bị dòng chảy cuốn đi nhờ nắm chặt chân nhau với những con khác xung quanh mình.\"Đã gần tuyệt chủng vì săn bắt lấy da nhưng hiện tại quần thể đang phục hồi sau nhiều chương trình bảo tồn."'
+  animal.sea_slug:
+    label: plakophore / nudibranches
+    summary: Loài bạch tuộc trần truồng nhiều màu sặc sỡ sinh hoạt ở đáy đại dương.
+    info: Plakofor hay nhaожáber là những loài thân mềm biển không có vỏ sống trên các rặng san hô. Chúng sở hữu một trong số màu sắc nổi bật nhất của giới động vật và dùng để cảnh báo độc tính. Một vài loại thậm chí còn hấp thụ tế bào chứa chất kịch từ thức ăn như san hô rồi sử dụng chúng cho việc tự vệ.
   animal.sea_turtle:
     label: Rùa biển
     summary: Một loài rắn biển lớn quay lại bãi biển để đẻ trứng.
     info: Rùa biển xanh là một trong bảy loài rùa biển. Con cái thường trở về bãi biển nơi chúng được sinh ra mỗi hai đến năm năm một lần để đẻ trứng. Cá thể trưởng thành ăn thực vật và chủ yếu sống bằng cỏ biển và tảo; còn con non thì có chế độ ăn tạp.
+  animal.sea_urchin:
+    label: con nhím
+    summary: Loài cá thể dạng cầu trên nền đất mềm hay đá cuội trong môi trường thủy vực nông gần cửa sông hoặc ven bãi triều thấp.
+    info: '{"hint":"con nhím có gai hình bóng bầu dục sống dưới đáy đại dương (Echinoid)","info":"Con nhím biển là một động vật thuộc lớp Ostnokozeca nhóm Echinoids được bao phủ bởi những cái xương sườn di chuyển tự do giữa các răng cưa của nó và sở hữu cơ quan đặc biệt gọi là pedicelariae để làm sạch cũng như săn mồi. Con này ăn tảo xanh, nấm rêu cùng với chất thải sinh học từ thực phẩm đã qua sử dụng","label":"con nhím","summary":"Động vật có vỏ cứng giống quả trứng ở vùng nước sâu."}'
   animal.seahorse:
     label: cá ngựa biển
     summary: Loài cá nhỏ bơi thẳng đứng; con đực mang trứng.
     info: Cá ngựa biển là một loài cá thuộc chi Hippocampus di chuyển trong tư thế thẳng đứng nhờ vây lưng. Điều thú vị là cá đực mới là người mang và nuôi dưỡng phôi thai trong túi chứ không phải cá cái. Chúng dùng đuôi bám vào cỏ biển và chờ mồi đến.
+  animal.seal:
+    label: thỏp
+    summary: Động vật có xương sống săn cá tại đại dương đồng thời nghỉ ngơi bên cạnh những khối đá.
+    info: Chó biển thường được gọi là một loài động vật có vú sống ở vùng ven Đại Tây Dương và Thái Bình Dương; chúng dành thời gian cả dưới nước lẫn trên đá. Chó này không có lỗ tai ngoài mà thay vào đó là cơ thể khí động học giúp nó di chuyển nhanh trong môi trường thủy sinh.
   animal.shark:
     label: cá mập
     summary: Loài cá săn mồi lớn với hàm răng sắc nhọn và cơ thể thuỷ động học.
     info: Cá mập trắng là loài cá săn mồi to nhất thế giới, có chiều dài lên đến hơn sáu mét. Nó có khả năng cảm nhận được các trường điện của con mồi nhờ vào các ống Lorenzini. Dù mang tiếng đáng sợ nhưng những vụ tấn công người lại rất hiếm; cá mập đóng vai trò quan trọng trong hệ sinh thái đại dương.
+  animal.shrimp:
+    label: tôm
+    summary: Loại động vật thân mềm dưới đáy biển được nuôi trồng nhiều ở các vùng gần đất liền.
+    info: '{"hint":"giáp xác nhỏ bơi nhanh","info":"Tôm hùm là loài giáp xác biển hoặc nước ngọt có kích thước nhỏ với mười đôi chân.\nCó hơn hai nghìn loại tôm khác nhau và đây là một trong những hải sản phổ biến nhất trên thế giới hiện tại.\nChúng vừa lọc thức ăn từ môi trường sống của mình lại cũng săn mồi nên đóng vai trò quan trọng cho chuỗi thực phẩm đại dương toàn cầu này nữa đó nhé! \nNhiều giống đặc biệt còn cung cấp nguồn dinh dưỡng thiết yếu đối với cộng đồng ven biển nhiệt đới.'
+  animal.squid:
+    label: Con nhuyễn thể có tám chi
+    summary: A soft-bodied marine animal capable of rapid movement.
+    info: '{"hint":"Ten-armed cephalopod mollusks moving by jet propulsion","info":"Cuttlefish have ten arms (eight limbs plus two specialized tentacles). They move using jet propulsion to expel ink when threatened and can change color rapidly for camouflage purposes."}'
+  animal.starfish:
+    label: sao biển
+    summary: Động vật biển năm cánh có khả năng再生断失的臂膀。
+    info: Sao biển là động vật có xương sống dưới đáy đại dương với năm cánh tay điển hình. Chúng có khả năng tái tạo lại toàn bộ một cánh đã mất hoặc thậm chí xây dựng cơ thể mới từ phần cánh bị cắt rời. Sao biển săn mồi bằng cách mở vỏ trai nhờ các tua bám.
+  animal.stingray:
+    label: Ray
+    summary: Loại cá biển phẳng có gai nhọn ở phần cuối thân ; thường nằm nghỉ dưới lớp cát mềm mại.
+    info: '{"hint":"tia phẳng có gai độc ở đuôi (dòng Dasyatidae)","info":"Rays là loài cá họ鲨 với cơ thể bằng và dẹp thích nghi để sống gần đáy biển.\rĐuôi của nhiều loại được trang bị một chiếc xương đâm kịch độc dùng cho việc phòng thủ lại kẻ thù. \rChúng di chuyển nhờ vào sự rung động liên tục từ những tấm bơi cụt như cánh chim đang bay lượn trên không .\rMột số giống cũng tạo ra điện nên chúng có khả năng gây ngất con mồi thông qua các xung điện mạnh mẽ."}'
+  animal.swordfish:
+    label: kiếm ngư
+    summary: Cá ăn thịt to đầu có cái vây hình mũi tên.
+    info: Mackerel lớn là một loài cá săn mồi sống ở vùng nước mặt của các đại dương nhiệt đới và cận nhiệt đới. Khuôn miệng dài phẳng như lưỡi kiếm được dùng để làm cho con mồi bất tỉnh chứ không phải xuyên qua chúng.
+  animal.tuna:
+    label: '"thịt bò Úc"'
+    summary: '"Cá thịt đỏ sống ngoài khơi thường xuyên bị săn để làm thực phẩm công nghiệp"'
+    info: '{"info":"Thuysal xanh là loại cá thu lớn nhất có thể dài hơn 3 mét và nặng trên dưới 700kg\.\nNó là động vật nội nhiệt nên duy trì được thân nhiệt cao hơn nước biển quanh nó\.\nĐây cũng thuộc về những con cá nhanh nhất đại dương với tốc độ lên đến gần 80km\/g\.\nLoài này đang bị đe doạ nghiêm trọng bởi việc đánh bắt quá mức; một chú cá từng bán ở thị trường Nhật Bản giá hàng trăm nghìn đô la."}'
+  animal.walrus:
+    label: chó biển
+    summary: Động vật có xương sống vùng cực với đôi nanh voi to
+    info: Chó biển là một loài hải cẩu Bắc Cực đặc trưng bởi những chiếc nanh răng sừng khổng lồ dài hơn cả mét. Những cái獠牙 này được dùng để leo lên băng giá, chiến đấu giữa các con đực và thiết lập thứ bậc xã hội trong đàn chó biển sống tập trung thành bầy lớn.
   animal.whale:
     label: whale
     summary: The largest animal on Earth – an air-breathing marine mammal.

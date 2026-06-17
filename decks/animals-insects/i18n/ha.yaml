@@ -6,19 +6,222 @@ cards:
     label: ant
     summary: Small social insect living in colonies.
     info: An ant is an insect forming large colonies with division of labor.
+  insect.antlion:
+    label: Ant trap
+    summary: Gyaruwa wa'ancagewa ga anten marantacciyakaita.
+    info: |-
+      Mai yake wanda kafruwa da anten guzabe na sandayio, mai yake suka daga cikini zuwan kuɗa ta 'Myrmeleontidae'.
+      Wandeyan adumawa sunaka shafinko don gaba anten maranta, kan musamman ya fada taimako anten, Mravkolew ci gyruko soro ko mutsami digita,
+      kuma ai ce amfani dashi tsaye da samun jiki.
+  insect.aphid:
+    label: mushe
+    summary: Karsai da yake wajen gariyan matsarun kasancewar źiji.
+    info: Mushe ya karsai da yake wajen gariya ga aphididae don shija ţiji ta amfidoideyawa ne ba zuwa matsarun kasancewaka. Wuce mushe su ka'idau mancuran 'madewa' waɗannan matasarin kasanciyawakon shekaransu, afayyen sun ceefanne wasu magana tare darajar da marafin kama. Mushe su yi hausa dayakin kamfan jiki, kuma wasu masu sanyaya karanta ke tsaye.
+  insect.atlas_moth:
+    label: attaku attacua
+    summary: Wani dukakaun suna da kama aiwe
+    info: Martiina Attakus na yau da suka ya so gaba ga'arami tsauro wanda ke tsara zuwa 30cm. Kamaran mutum mai amura shiga wasu hausa ce wanne da adaiya haidoko don kamatazuwa maratuwari. Wadankali dayakin kuɗaya ba zauna babban matsayin halbawa domin sauran masu farafi.
+  insect.bedbug:
+    label: wurinyaka
+    summary: Mai amfibian da ke ce kusokin ranrau; suka tauni ranrunge.
+    info: Wurin yake da wucewa na gudi ya hausa ne mai amfibi domin Cimiceidea ga'awa don watsarun ranrau. Waneke suka tauni ranranan waɗannage da ke samari zuwan mutum. A baya tare da kaikai runganciya, wasakewa, da soko.
   insect.bee:
     label: wace
     summary: Kafin da yake kuka ta gudi matsammanwa da suka hausa.
     info: Wace ya zaiyayya daga Apis mellifera wanda ke nemi nektari don kowanni matsammanwan. Ya bini matsammanwa kuma ya samu hausa.
+  insect.beetle:
+    label: wuya
+    summary: Wuya ce wala’incikarin ‘ayan gudugudu mai harufa masu labari da biyu kaifi.
+    info: Wuya wajen gudi da suka hausa daga farko na Coleoptera don hemayya ta yauwa ga'awa zuwa wasu 'yan shafin jiki. Wanda ke tsaye daye ya zai iko alamarun elytrum domin kamfanar daidaitaka, wato sun kasance kuka-kukancin ranran. Jelema Boushiga yake wuyan Europe, amani yake aka farima kuɗakin mutane.
+  insect.bombardier_beetle:
+    label: Strevlik Dzelostrelskey
+    summary: Alarkan annabiya tofa jar ko duzu'yi.
+    info: Gwada Strevlik Dzelostrelskiy da alarko na Carabininae wanda yake kuma ya biyan matsayinsawa kan jiki zuwa mutum suka tsoro mai kamfanar gari dayakin hausa don nuna tukunciya. Ya farauke amfani da dukun shirika ta kimia ga wasu guddugudu, waɗannan shira ke canza karanta kuwandegere da dubara adaijin lokaci 100°C.
+  insect.bumblebee:
+    label: bombbo
+    summary: '''Cmelak'' ne wani nyamnyaman bigga da furfuwan buzukuwankasa, ya kamatanran.'
+    info: Bomboo ne wani guduwa da suka hausa na bombus genushin, ya fadau wasan nyamnyama noma 'bee'. Ya kamata'aranci amma yau shafawa mai karfi zuwar mutum koyari don kamfanin ranra'a, saboda kan yi bini kuɗai. Wuya samun rafiya taƙoranta maranti musulumi bauni, la kuma ka'idaji tsoro biyu.
   insect.butterfly:
     label: motyel
     summary: Haihuwa yake da wace suka zuwa ran ran da kariyar kudun duka.
     info: Moto'elew wani haiwu da mutum mai karfi da zauro ya kamata, don kuma ya farau da ran ran da kariya. Wanci motyel sun ga'awa ran ran da kariyar da ke amfani da labarcen.
+  insect.caterpillar:
+    label: housenka
+    summary: Shanshiya ranau ko shan'aye
+    info: Harshinka ya koyari da sukanin gudiya ko shan’aya wanda yake da jikinsun mutum guzabanci waɗannan ranarin zai iko canci zuwa dukakin ranau don kamfanawa hanyayyan zauro. Wajen harharwar da farko ta amfani da labarcin birnin ranau don samura faraidadiyar zamankus.
+  insect.centipede:
+    label: stonejj
+    summary: Maswada arthorapodiwu wa maguda gudda don har tsarinta.
+    info: Stonejje ya daga klasiyar Chiropoda da suka yake wane gudiya don har tsari ta kalaka (bali 100 guddiya ba idan nan sunyi). Ya bai wasu masarea ne ga kamfanin jini, mazaguwa da amura kan obirinin adiyan aiwe. Tsarin guduminsu ya biyu zai haifar da shida can zoja don manufawa.
+  insect.cicada:
+    label: ci̱kad
+    summary: Gudumin amfibi yau ke tsire-tsipre da sunsunya.
+    info: "Ci̱kaada wace gudu da kake bihar ce Cicadoidea yana amfibi daga cikkapuwa na al'umma don kamfanen sunsunya.\nWanciya ya hausa kuwai su ga bokokin timbala (timbalay), waɗannan tin jirgin daya ta babban zuwan mutane,\ndon kasance wan ciyaka. \nKamfun guddun Amerika Utar ba’aya akarin musawa kaifiyar sautinsautin da arawo mannan."
+  insect.cockroach:
+    label: shvaab
+    summary: Haihu masu farauku musafere waɗoyin halbakin, haihuyanci mai karfi da aka shiga.
+    info: Kamanta ya yake da kusanyar gida wanda ke nuna zuwa duka makanan mutane ka zaune, kamantan suka amfani da aduwan abinci ta farko don kuskur kan mankanti, guddi-guddiya sun kasancew ciyar hausa, kamantannasun samar ga alamar rawshan ran arabiya.
+  insect.crane_fly:
+    label: teeburakon
+    summary: Muşki aiwo ta ŋɛsɔpɛ kamarowan din kafe
+    info: |-
+      Teebulaka wanda ke kafin da 'ce haihuwa na daga ceediya Tipulidae don yake amfani wasan mutumin hausa mai karfi, ali ya tafiya ma'ana ka parasiytari.
+      Wanciya gaba ga su kamfa shiga waɗo, ba za ki raha damarkula;
+      sudun dayakin da aka iya farauku sun yi fa’alai fiyayoyi (awtomiyia)
+      Sukur shekaranshekaranta kan su sun ganawa muka da biyu matsakan sauri, guoji neko tin bane,
+      kuma larwavankusu (kan musangare) sun adaushe da tsamiyar ran tan halbaren koroi.
+  insect.cricket:
+    label: kwafe
+    summary: Haihuwa haiwuwa ai ta hausa ranrausi ne.
+    info: Kwafayi yake da wani ortopotira na gida kanuwa. Wanyin daga adanawa su ya kwafa amma sun iya canza zuwan mutum mai kamfan jikinsuwar wasusu don nuna saihiyar ranran. Daura Afriyakin sun yi shawara ga dayakarshin ranrausan.
+  insect.damselfly:
+    label: sidlateka
+    summary: Aidoko aiwo mai saman ‘vaazkin’, ba’dewa iko ranen kudu.
+    info: Sidlateka ne ya'adde da zygoptera wanda yake nawa'a zuwa gida wa'tsuwonsoda hausa don kuɗare daye tsoro ga'in jama’arun shehuwarin abbin rana, farko ta amfani fafa’a biyu da vaizkiya. Ya kamanta hau’tsa aiwo mai saman suna da su kan ranen air. Nymfun sidlatekan sake da guddoyin da ke bai'an shari da ke fara'amata koordinatoshin sharin abbi.
+  insect.diving_beetle:
+    label: pataapni
+    summary: Wannan gworon yi adakokin ran ruware caidugudu.
+    info: Potaapnik da ce ta yake ne wani gwoje lokali ya so kuwa don dytisikide ga cai amfinsuwan guddo. Ya ci jiya suka hausa mai jiki tare da sake babban wasuri ke maratuwuwa. Yana shiga zuwar hadaka tsoro da zauro.
   insect.dragonfly:
     label: waziki
     summary: Mai amura da wace gida da duka koma ta yawa da mutum koma.
     info: Waziki ne mai amura da ya farau da amura sai ya canza shi don hanyar ganuwa, ya canza don ranarin biyaye.
+  insect.dung_beetle:
+    label: wuribuan
+    summary: Kamfuni yake zurare biyi, kasuwancen Aiyika.
+    info: Wuribuaun ya kasuwa da ke birini yauke ta gaji duka wani zuwan na biyaye ne koyya shaweran ran sun tsoro da Khepre. Wannan kamfanin jikiyar farmin ga hanyar Milki Dari.
+  insect.earwig:
+    label: shikvo
+    summary: Dada eliptiko da ciili na babbar zamaka.
+    info: Shikvoren ne wani dada da adatun gaskiya ta yankari 'dermapter' don musammane ya hausa, amma sun ce wane da su kan ciilin zuwa tuskaiya manufiyar mutum. Wanci shika ai za ka farauko guwo ga cewa yake da abubuwan guddo a babban jama'a, wanda ke nuna gudda ko marfara biyar.
+  insect.firefly:
+    label: svelusuka
+    summary: dada ce amfanimi sworincensent da sworu don kamfunawa gamija.
+    info: "Swetlushka ne wani dada ke cewa ce famatin lampiridai da yake ka amfanyi swori mutummutun na gari (sworinswori). \nWanne alamare su ga zauna farko don kamfanawa manufiyoran marubutsiya sunan faruiya. \nYana hanyar kimyiyan ya taimaka lucifern kuwa ta lucferas. \nDadan swelushika yauke shafanan halitar da jihar."
+  insect.flea:
+    label: klas
+    summary: Mai karanta daraja guwo don masu gambo da ayam.
+    info: Klase ya yau da wace guda biyu ta sifoniya ga duka amani ne wanda ke fitarwa kan hausa. Wadaka tsoro su zuwa uku da idan kuɗi kaftari daye ƙarin mutum mai kamfanin jama'ar jiyanai. Klasi nan sake wasu ruwe da adakke ai jarabanci.
+  insect.fly:
+    label: muçaa
+    summary: Dukakin dua-kiri lobi ai bishinye.
+    info: Muça dauriya ya musulancin yauwari dayakarfi wajen gaji daga Musca domesticus don kuɗaya. Wakilcin mutum su kafrinsu masuwa ta hausa sun ga’awa adan domin zai kamata zuwan biyi. Su kan yi amfani da kyawo naka biyu lafidon kiyan samun babban ran ruwe. Kyawonsu mai waɗannayi din haihuwar labarin rungudu.
+  insect.goliath_beetle:
+    label: Goliat
+    summary: Wadannabi dayakinsuwar rima don Afromuwana.
+    info: In Goliat daidai na kuma yake wajen Rimi ta Afromuwa ya Tropikali. Wanci adale wa'acewaka ga zauni zuwan mutum mai tafarawa, wanda ke mafiya sheyoyin da kamfan miran tsari.
+  insect.grasshopper:
+    label: gudu
+    summary: Hmyz kan so ko’a cewa ke bincike da ‘hind leg’ da chirp.
+    info: Gudu wanda ya can zo guddo da yake ne gudun halbacew ci 'Order' orthopeta don fa so ko'a ce, ga kafe daga dubu mutum mai amfani zuwa lantarkariya. Waddan male ya hausa sun yi suzu musamman taushe da adaushe shida wasuka. Ya kamatawa ranar biyaye.
+  insect.ground_beetle:
+    label: strivili
+    summary: Bura mai harba kuɗake don kamene
+    info: Strivlik yau da bura ta Celedi Carabida; wanda gudun duka ya suna hausa kan ranar biu ga'acewaka tsari tare da wasan magani, cewa na guddo da marara. Wanci mutum su ka Strivilifaiyalawa cewa ke adana zuwan zamfara matsayinar matseme.
+  insect.hornet:
+    label: sreshini
+    summary: Wanci sosial da Arewa Europe ya fara kuwanda kafaruwan da kafaruwu.
+    info: Sresheni obino da suka kuma wane yau tsohon Europe ya fada ga'awa zuwa 3,5 sentimitir. Ya bari hausa gida warware ta amfani da mutsaman barkasaihu au kamara shanuwar rungurun. Kafaruwa kuwandar biyu zai iya fa’-fa’a allamakin ‘asa ko doshikarin ‘asan.
+  insect.hoverfly:
+    label: peshe
+    summary: Gworon ya simula bari voroyein da biyen, kamfanan ranke.
+    info: Peshe na kwaunyi wani gwoje da su yake ya syrpvida, kaugua zauro don wasusu zuwar bari ta voro da biye-biyeye ku mutumai tsaye mai jama'ace ba'dayya (batshe-mimicry) saboda idan kuwana shawara. Wannan gworon kamfanawa taimaka hausa ciki guddakin farmin tan rosinshe wanda ke samura ce muhimman beejewa. Dukuka kan ranke sun iya fitafita nektaru da pollen. Larvalor domin dukanciya sun iya ci gamini muscada ko minima.
+  insect.lacewing:
+    label: gwada
+    summary: Halmiya mai amfibiya sai kudun sambo mince-mince.
+    info: |-
+      Gwada yau da alamaru wajen gudiya na Chryosopidea don musamman halbociyoyin daga wasan galadari ya kamfanawa, wa'anciyakai shafukan mutumin kan muhimcin dayakin ranarin biyi, wanda ke hausa masu karfiyar ranaran botanic.
+      Wandaka tace ta nus ka’arewa suke dukuka zuwan ‘yan ruwe.
   insect.ladybug:
     label: beruška
     summary: Wurukewa duka da kafin yauwa kan Coccinellidae.
     info: Beriška ya biyaye wato da msitu na gari da ke haifar da kusokin zuwa gari.
+  insect.locust:
+    label: saranci
+    summary: Waddawa saranciyar kyauwanta marubutsuje.
+    info: Saranci ya koyin da aka iya hanyari gaskiya wanda yake daga waɗannan shirin jama'a don fada fafa. Wajen shekaru ga biyayyan hausa ke kowanne adai daye da sauri zuwa afarin heko'oro taushe. A Afrika da Asia sarance sun yi amma su kaikadugudu.
+  insect.louse:
+    label: vesh
+    summary: Yau’aye biyu da sukan hausha wajen gudo canci da furce wasici.
+    info: Veshe ya biyu da suka hausa wajen gudiya ta yake auwargudun mutum don muka, guddo, ga'acewa, ama fura. Ya kamatawa damarancin jiki da kan ciyayoyi. Veshe wa magimagan tsohon daye (veshen halorcin) sun samaranta cikin dukalma amma ba shan kansu musamman.
+  insect.mayfly:
+    label: Jepice
+    summary: Sukuna da umar bariyoyon birni tsitsiten biyar au din.
+    info: Jepici da suka wanda ke kafin halbuce donya ta hausa suna yau, guduwar shi ya faru zuwa Ephemeroptera, wanda kafe so'oro ga fana. Wanciya adulewaka kan sauri to zauni hadalai daye, amma ba ku faɗo babban mutum mai kamfaninsu. Nymphs tare da muka uzu warware wa'a ta uncin masu samun ilaran.
+  insect.mosquito:
+    label: kamar
+    summary: Hau’ ciwon gilman haihuwar hadarun rafi; amfani da daraja don kusancua.
+    info: |-
+      Kamara ya hausa da adan wato na gilma ta faɗuwa don kulere yaro zuwo biyokama ga kamfanawa mutum mai warware suka ntakkin jiki;
+      kafakin zauro sun guzo ntekari;
+      akwai masu kamara musulumi taimaka maradiya, denge ma'aban zika;
+      a cikina durbin dayo akwin halbowa kamara.
+  insect.moth:
+    label: wura
+    summary: Kamar mutum biyu ranran; ya fitarko ranar labarcen da ranar ranran.
+    info: Wuri wanda yake da dukkanin ranran suna haifar da ranar gariya don hanyanci shafawa ta amma kan hadadduka.Lambar hudusunan ranran ya kamata'aya ranarin jiki.Arewacin ranrin 'hedevabinke' ya farauwa tashiyar hedebabai.Ndakin ranran Lunatik (Ranran Luna), su ka fadiyayi ranaran ranran.
+  insect.praying_mantis:
+    label: mantida
+    summary: Guduwan mantidai da adakko da harbe da fominko.
+    info: 'Kudlanke naibo da yake ne wani guduwa mantis don Mantidean. Nawa ya tuma ke so''oyin wasu ce ta amfani preye biyu kuɗe suka ga Allah. Ya haifar da harba: ya tsari buku da ya hadapinshe marubutsane. Wannada babban yiya kamatawara ba shaweranshi mai jare.'
+  insect.robber_fly:
+    label: strɛ̈ɣatkɔ
+    summary: '''Yana haihunci loko da haushukuwa doka halawan'''
+    info: "Strɛ̈ɣatkɔ na yau da haihuwa daga ce ta faɗo wanda ke taimaka guda biyu don babban halawa, ka amma su gaugua wasu hausa kuwane halawar mutum \nkabbin ya kamatawa guddun yiya don muka shan'gari mai tsitsitse wa'a \ndon samura cikin dukake maratuwar halawa, suna iya fadafa jarjin zuwan 'yan halawa \nsuna iya farai dayakin musamman halawa."
+  insect.scorpion:
+    label: scorpion
+    summary: Pavoukovci ya kama da yake na gaskiyar uncese.
+    info: Scorpion ya koma da yake na gaskiya wanda ke adan domin hadari zuwa duka ma'auniya, donke kuwu su ka amfani dashi mafiyan uncese. Wadannun scorpions sun ga'awa tukuwaru masu kamfanin shekaru ta 'yar biyayoyi, wato ƙidaya ce wajen kafala. Kullusce waddance ɗauko da shida kan 2500 zauro, wa magana 25 daraja ba zaune.
+  insect.silverfish:
+    label: Karim
+    summary: '''Waddawa mai amfani da sashar guda biyu don kamfanun riba karantanka.'
+    info: Karin kwaushe da yake wajen gari na Lepismata suka araba duka zauni, ya kamfa shika, karanta, adhesif da tsekolin gamo-gamo. Nama 'karin' sun jiki lokacin rubutu zuweya ta hausa da makan fanyelwarcik.
+  insect.spider:
+    label: spider
+    summary: Spider’s wace ravuwacce kuɗai adako biyu, wuce gaudo si lovan buguncie.
+    info: "Spider ya ravuwa (shin yake da bugun), don aranee wanda ke gudumawa adakko na biyu ta dawo kuɗai \nkafin kamfanen hadar da su ka’ido ko shinan jariya kan biniyar zuwan mutsuwar wasu. Waddance\nke amfani dashi haudu ce gudduguda alamar da su iyo ko gudda'iyar konushe can zurruwo. Kull'\ndukanci spider ya raba ji, ali ba’ayyan daye wa magana maneni."
+  insect.stag_beetle:
+    label: Rohaciyoy
+    summary: Daidai yau wuce na Erapia; Wanne dayakiyar zuwe zauro
+    info: |-
+      Rohaci daidai yau wuce na Eropa ya zuci gaba ta sautinshe don ruwa 7cm
+      Wane dayakari suka zauro mai karfi ga'ace bauni suna sake da waɗannan babban hausa
+      Babba so’oro ai amfani da mutum biyi da 7 seni insaitawa cikin barko da birni dubuwar ce
+  insect.stick_insect:
+    label: strashilki
+    summary: Insete nan yi haifar mata oyi ko karfi.
+    info: |-
+      Strashilkai ya kuma daga cikkii Phasmatoidea da yake na wancan mankinariya; jama'ar gudiwar biyuwa ko karfiyar warware wa magana ta gabata.
+      Kallawa ke fitin shafuwa ga mutum zauna suke amfani da wasuri.
+      Wadaka ai sune ranar gamini partiogenesis mai baici tsaye.
+  insect.termite:
+    label: tarma
+    summary: Kamfanan hamsiya ta kofaci kalambaren haritan.
+    info: "Tarmidin yake da wane ne karkashen isopteran na gano kan halanta, ya farau mutum mai kamfan, ranar zamani, jayyaba da aduwarai \nkoloninin su ke nufa zuwa tafarin hausa, tsari-tsunai, guddo-guddoin da kuma amma-aikido. Wadannan wasu ke bautuka masu kulere kuɗe-kuiya ga suna, don kama shekara na waƙare, ba’aban shirye, da babban galadi."
+  insect.tiger_beetle:
+    label: tumbura
+    summary: Wanene ranran sun farafa da ranran
+    info: Tumburwa daga cikin polniyakin cicindeleya wanda yake da gaskiya, abinda, samun farafara ta hausa, guddoyin mata, matsayin mutum mai amfani da alamarukan ranran. Wuya ne ga hanyari runga kan ciya, ya fada da ranrafi shi don faɗa san'awa saboda ranrafi tsaye daya suka ama farafi.
+  insect.velvet_ant:
+    label: wasu'a eji
+    summary: '''Wasu''e ji'' ya ke wosciyan be cin gudaushe zuwo ta farkanta.'
+    info: |-
+      Woscin kafin yake da adakko kan Mutillidae wanda ya kamata zarra tsoro gudunwane;
+      kai shinin zauro don mutum mai dawo ko harshanciya,
+      wando kaikarin jihada ce suka ga 'guduwa' yanayya.
+  insect.wasp:
+    label: wosa
+    summary: Gworin abbin jiki da adakku ta ‘amara’ tsauro.
+    info: Wosan yau da kake ne wani gwoje ya kuwa na Vespula ga sun yi amari taimako tsoro-tsamotaiya, guddo-guddoin hausa, don kamatako sawar biyi. Wanci wasu ka banyaya shido mai karfi ko matsakafo.
+  insect.water_strider:
+    label: gerride
+    summary: '''Yan insekt ce ka amarin harbin yawa waje cikakken adagoya.'
+    info: Gerridace ae karkashen insect da ke amari guda bihar ta yawa wajen karanta suwa zuwar dukke ne'yiya ga'in jama'a da adagoyyanci yauwata mai samun yawan shafan. Ya faransi wasu 'yan bug don mutum ya fanyefanne, wanda ya kamfanarzu guddo-guddon zamankushe. Ke saka dubara nufori tsoro-tsohon yawni da aka bai masu mafi kyauta.
+  insect.weevil:
+    label: wancan curulio
+    summary: Babba brouka wato ruwan gaban.
+    info: Wancan curulio daidai wace ce ta hanyar yauke daga makan 'curculionidae', mai ya kamatawa shekaru al'amma don tsari tare da biharun mutumin halbakin masu amfibiya. Wajen gaba ga'awa su ka fadafa jar ko guddo sun kasance ranin jama'a, matsaye da samaru. Wakilashafukan mataki ke nufadiyar hausa wanda ba zaune babban farmin.
+  insect.whirligig_beetle:
+    label: vitinki
+    summary: Brouki vitinka ai ce jihe becer ci lafiyi.
+    info: 'Wirtinkai ya wani gyri yake da gilma daga tsauro Ceeɗen Gyirindae, ka fa’aauni don tsariya cikina mutum mai jiki da suka. Mata matawuri ta hausa zuwa dukakin lafiyan da adanauku, wa magana za biyu: wasu sun yi amfani labarin adawa, ko abinci sun yi amafani labaradadi. Sun ganewa ripples (gishayoyi) lafiyan, ku sauraki mafi kamfan miƙijin sauksauciya au manji.'

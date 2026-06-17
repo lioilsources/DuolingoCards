@@ -2,14 +2,73 @@ lang: fr
 pivot: false
 title: Les invertébrés et les amphibiens
 cards:
+  reptile.agama:
+    label: agame
+    summary: Reptile coloré vivant en montagne ; les males présentent souvent un plumage flamboyant.
+    info: Les Agamas sont une grande famille de lézards d'Afrique, d'Asie et d'Australie comprenant plus de 300 espèces. Les mâles des especes comme l’Agaïm rougeâtre ont la tête orange vive et un corps bleu pour montrer leur domination sociale.
+  reptile.alligator:
+    label: caiman
+    summary: Grand reptile à museau arrondi originaire des États-Unis.
+    info: L'alligator américain est l'un des deux espèces vivantes de caïmans ; la seconde étant plus petite et chinoise.
+  reptile.anaconda:
+    label: anacond
+    summary: Le serpent le plus lourd vivant dans la forêt amazonienne.
+    info: |-
+      L'anacoconda verte est le serpent le plus lourd du monde ; les femelles peuvent peser plus de 90 kilogrammes et mesurer entre cinq à six mètres.
+      Elle vit dans des marécages et rivières d'Amérique centrale tropicale.
+      C'est un animal demi-aquatique qui chasse poissons, oiseaux, capibares ainsi que caïmans.
+      Contrairement aux serpents ovipsaces elle donne naissance directement ses petits.
+  reptile.anole:
+    label: anoli
+    summary: Petite iguanide am茅ricaine changeant de couleurs ; le male présente une crête distincte.
+    info: Les Anoles sont des lézards de petite taille originaires d'Amérique avec plus de 400 espèces différentes. Les mâles possédent un organe coloré appelé gosier qui leur permettent de communiquer et attirent les femelles. L'anole vert peut changer sa couleur du vert au brun en fonction de la température ou émotionnellement.
+  reptile.axolotl:
+    label: axolotide
+    summary: Salamandre aquatique mexicaine conservant toute sa vie les traits typiques de la forme jeune.
+    info: 'L''axolotle est un蝾螈 aquatique originaire du Mexique qui présente une néoténie : il conserve les caractères juvéniles tout au long de sa vie, notamment ses branchies externes. Il vit exclusivement dans des lacs autour de la ville de México et son habitat est menacé par la pollution. L’animal possède également d’étonnantes capacités régénératrices lui permettant de reconstituer des membres amputés ainsi que certaines parties cardiaques ou vertébrales.'
+  reptile.basilisk:
+    label: basilisk
+    summary: Reptile américain pouvant marcher brièvement sur les surfaces aqueuses.
+    info: Le basilisque orné est capable de courir sur l'eau grâce à ses doigts sillonnés et garnis qui piègent l'air sous la surface aquatique ; il peut ainsi parcourir jusqu'à une dizaine de mètres avant de couler.
+  reptile.boa_constrictor:
+    label: boa royal
+    summary: Grand serpent sud-amérindien étouffant sa proie par compression corporelle.
+    info: Le boa royal est un grand serpent non venimeux du sud-américain qui étrangle sa proie en l'enveloppant de ses muscles et en la serrant plus fort à chaque expiration pour empêcher son inspiration.
+  reptile.box_turtle:
+    label: tortue à couvercle
+    summary: Petite tortise terrestre qui peut s'enfermer entièrement sous son carapace.
+    info: La tortue à couvercle est une petite tortoise terrestre nord-américaine capable de fermer complètement son carapace grâce à un panneau frontal mobile. Elle vit dans des forêts et prairies en tant qu'animal solitaire. Peut vivre plus d'un siècle ; sa durée moyenne de vie atteint entre quarante-cinquante ans en milieu naturel.
+  reptile.caecilian:
+    label: gynmphione
+    summary: Un léger animal ressemblant à une vers ou serpent.
+    info: Le gymnophione est un amphibiens sans pattes de l'ordre des Gymnophiones, peu étudiés et vivant cachés dans les sols tropicaux.
+  reptile.caiman:
+    label: caïman
+    summary: Reptile sud-américain appartenant aux familles des alligatoridés ou cocoylidés.
+    info: Le caïman à lunettes est l'animal de la famille des alligators et coccodyles le plus répandu en Amérique du Sud. Il mesure jusqu'à environ deux mètres cinquante centimètres ; il vit dans les rivières, étangs marécageux et lagunes tropicales s'étendant depuis le Mexique vers l’Argentine.
   reptile.chameleon:
     label: caméléon
     summary: Reptile arboricole changeant de couleur avec des yeux mobiles.
     info: Le caméléon yéménite change de couleur non pas pour se camoufler, mais pour communiquer et réguler sa température corporelle. Ses yeux bougent indépendamment l'un de l'autre.
+  reptile.cobra:
+    label: cobre
+    summary: Serpent venimeux avec capuche caractéristique ; posture défensive typique.
+    info: Le cobre est un serpent venimeux de la famille des Élapiques connu pour sa capacité à déployer une cape sous son cou comme signal d'avertissement lorsqu'il se sent menacé.
   reptile.crocodile:
     label: crocodile
     summary: Grand reptile préhistorique vivant près des rivières et marécages.
     info: Le crocodile du Nil est l'un des plus grands reptiles au monde. Il vit en Afrique et chasse depuis l'eau. Il possède la mâchoire la plus puissante de tous les animaux vivants.
+  reptile.flying_dragon:
+    label: Dragon volant
+    summary: Petite saurienne du Sud-Est asiatique qui plane en utilisant ses côtes prolongées.
+    info: Le Draco volant est un petit lézard du sud-est asiatique capable de planer grâce à une membrane cutanée tendue sur des côtes allongées.
+  reptile.frilled_lizard:
+    label: agame à cravate
+    summary: Reptile qui ouvre dramatiquement son col et fuit sur deux pieds.
+    info: |-
+      L'agame à cravate est un reptile australien dont la cravate cutanée autour du cou s'étale en cas de menace comme une démonstration d'avertissement.
+      Il court sur ses pattes arrière avec des mouvements bimanérés rappelant ceux d'un petit dinosaure.
+      En temps normal, sa cravate reste repliée.
   reptile.frog:
     label: grenouille
     summary: Anoure vert sauteur avec des yeux rouges.
@@ -18,19 +77,139 @@ cards:
     label: gécko
     summary: Petit lézard capable de grimper sur des surfaces verticales.
     info: Le gecko léopard est un reptile populaire en terrarium. Il reste accroché aux rochers et murs grâce à des millions de poils microscopiques sur ses pattes, pas avec de la colle.
+  reptile.gharial:
+    label: gharial
+    summary: Reptile spécialiste du pêche avec une mâchoire extraordinairement fine.
+    info: Le gharial est un reptile de la famille des鳄鱼, originaire d'Inde et caractérisé par son museau très allongé et étroit adapté à la chasse aux poissons.
+  reptile.gila_monster:
+    label: lézard
+    summary: Lézard corpulent et empoisonné d'Amérique centrale avec une peau marmorée.
+    info: Le lézard à écailles de corail du Gila (Heloderma suspectum) est l'un des rares reptiles venimeux au monde.
+  reptile.glass_lizard:
+    label: Agame
+    summary: 'Une salamandre sans jambes mais pas non plus un serpent : ses paupières sont mobiles.'
+    info: L'agama aveugle est une lézarde sans pattes vivant dans toute l’Europe et qui ressemble facilement à un serpent. Contrairement aux serpents, elle possède des paupières mobiles ainsi que des ouvertures auditives visibles. Elle peut détacher sa queue comme mécanisme de défense ; la nouvelle croissance repousse ensuite.
+  reptile.hawksbill_turtle:
+    label: caretta carette
+    summary: Tortue marine critique mente menacée avec un long museau étroit.
+    info: La caretta carette est une tortue de mer critique ment menacée appartenant à la famille des Érémochélidés. Historiquement, son carapace était utilisée comme corne d'ornement ; un commerce illégal l'a presque rendu éteinte. Elle se nourrit exclusivement de champignons et autres organismes marins vivants sur les récifs coralliens.
+  reptile.horned_lizard:
+    label: Lizard à cornes
+    summary: Salamandre platine aux épines vivant en Amérique du Nord avec des appendices corneaux.
+    info: Le Lizard à cornes de Phrynosema est une salamandre plate et épineuse qui vit dans les déserts du sud-ouest des États-Unis et au Mexique. Quand elle se sent menacée, cette espèce peut expulser son sang depuis ses yeux sur plus d'un mètre comme mécanisme défensif. Elle n'est pas très mobile ; elle dépend principalement du camouflage.
+  reptile.iguana:
+    label: Lézard Vert
+    summary: Grand reptile tropical américain au corps verdoyant.
+    info: '{"hint":"lézard herborave de grande taille avec un dos épineux","info": "Le lézard vert est une espèce originale des Amériques tropicales pouvant atteindre deux mètres et demi en longueur. Il possède un troisième œil sensible aux variations lumineuses sur son crâne qui lui permet de détecter les changements dans l''environnement. C''est aussi un animal social où la hiérachie dominante peut être observée par leur comportement comme le fait de taper du museau ou encore grâce à leurs couleurs corporels changeantes."}'
+  reptile.king_snake:
+    label: cobra royal
+    summary: Serpent nord-américain sans venin immunisé face aux poisons de coups-de-poing.
+    info: Le cobra royal est un serpent non venimeux américain capable de consommer des serpents à sonnette et autres reptiles toxiques contre lesquels il possède une immunité naturelle au poison. Son coloration en rayures noires et blanches mime celle du corail mortel pour se protéger. Il joue également un rôle important dans la régulation des populations de souris, oiseaux et lézards.
+  reptile.komodo_dragon:
+    label: dragon de Komodo
+    summary: La plus grosse reptile terrestre au monde provenant d'Indonésie.
+    info: Le dragon de Komodo est la plus grande iguane vivante pouvant atteindre une longueur supérieure à trois mètres et un poids dépassant les soixante-dix kilogrammes. Historiquement on croyait qu'il tuait ses proies grâce aux bactéries présentes dans sa salive ; en réalité il possède des glandes empoisonnées. Il chasse principalement du cerf, porc ou même buffle.
+  reptile.leatherback_turtle:
+    label: leatherback
+    summary: Plus grosse tortue marine avec une coquille souple au lieu de plaques solides.
+    info: La leatherback est la plus grande tortue de mer au monde pouvant atteindre une longueur d'environ deux mètres et un poids dépassant les sept cents kilogrammes. Elle n'a pas carapace rigide osseuse mais plutôt une peau renforcée par des écailles minuscules appelées ostéo-dérmites. Cette espèce migre sur des distances colossales à travers l'océan ; on enregistrait même un voyage record excédant seize milliers de kilomètres. La Leatherback vit exclusivement du plancton médusiforme et fait face aujourd'hui menaces critiques.
   reptile.lizard:
     label: lézard
     summary: Reptile à quatre pattes et écailleux courant dans les régions chaudes.
     info: Le lézard vert est un grand lézard d'Amérique centrale et sud-américaine. Il se nourrit de plantes, est excellent grimpeur et peut régénérer la partie tranchée de sa queue.
+  reptile.mamba:
+    label: cobra
+    summary: Serpent arboricole très rapide et fortement venimeux originaire d'Afrique.
+    info: Le kobra noir est l'un des serpents les plus rapides et venimeux du monde ; il peut atteindre une vitesse de plus de 20 km/h sur terre ainsi qu'une capacité d'escalade dans les arbres. Son poison neurotoxinique provoque la mort en quelques heures sans antidote.
+  reptile.matamata:
+    label: matamata
+    summary: Tortue bizarre ressemblant à un déchet vegetal.
+    info: Le matamata est l'une des tortues d'eau douce les plus bizarres du sud-est de l'Amérique du Sud. Son carapace et sa tête imitent parfaitement une feuille pourrie ou un petit brin, ce qui constitue un camouflage exceptionnel. Elle n'utilise pas ses mâchoires pour attraper la nourriture ; au lieu de cela, elle écarte grand la bouche afin d'avaler avec aspiration eau et proies.
+  reptile.monitor_lizard:
+    label: varan
+    summary: Grand reptile prédateur actif à langage divisée.
+    info: Le varan est un grand lézard du genre Varanus avec une langue fourchue servant d'organe olfactif. Le varan de Komodo est la plus grande espèce vivante au monde (plus de trois mètres). Les varans sont intelligents ; les scientifiques ont observé l'utilisation d’outils simples.
+  reptile.mud_turtle:
+    label: tortue boueuse
+    summary: Petite tortoise aquatique terrestre nord-américaine.
+    info: Les tortues boueuses (du genre Kinosternon), sont de petites tortues d'environ 15 centimètres originaires du Nord et Centre-Amérique. Quand elles ressentent un danger, ces animaux émettent une forte odeur grâce à leurs glandes odorantes. Elles peuvent survivre aux périodes sèches en s'enterrant dans la vase pour faire leur hibernation.
+  reptile.mudskipper:
+    label: Périophtalmus
+    summary: Un poisson capable de respirer en surface et de s'agripper aux racines.
+    info: Le Periophehtmous est un poissons de la famille des gobies qui passe une grande partie de sa vie hors de l'eau. Il marche sur les boues avec ses nageoires pectorales comme des jambes et respire à travers son épiderme humide.
+  reptile.newt:
+    label: salamandre
+    summary: Serpent de mer petit demi-aquatique qui vit aussi bien en eau qu'en milieu humide.
+    info: '{"hint":"petit saurien aquatique avec une queue aplatie","info":{"label":"newte terrestre","summary":"Petite amphibie à longue queue vivant dans l''eau et sur la terre ferme.","content":{}}}'
+  reptile.poison_dart_frog:
+    label: dendrobate
+    summary: Petite grenouille colorée très toxique originale d’Amérique tropical.
+    info: La dendrobate est une petite grenouille de la famille des Dendrobatidés vivant dans les forêts tropicales d'Amérique centrale et sud-américaine. Ses couleurs vives (rouge, bleu, jaune) servent à signaler sa dangerosité toxique (aposématisme). Certains spécimens sont parmi les vertébrés les plus empoisonnants du monde ; certaines tribus indigènes utilisèrent leurs venins pour enduire leur flèches.
+  reptile.python:
+    label: python
+    summary: Grand serpent sans venin qui étouffe sa proie.
+    info: 'Les pythons sont les serpents les plus longs du monde ; un python à taches peut atteindre une longueur de plus de sept mètres. Ils tuent leur proie par étranglement et non avec la bave toxique : ils l''immobilisent en serrant autour du cou et du corps. Leur peau possède des récepteurs thermiques permettant d’identifier leurs cibles chaleureuses même dans l’obscurité.'
+  reptile.rattlesnake:
+    label: crotale
+    summary: Serpent venimeux doté d'une sonnette sur la fin de la queue servant d’avertisseur.
+    info: Le crotale est un serpent venimeux appartenant au groupe des couleuvres et possédant une queue caractéristique terminée par la sonnette de défense. Cette sonnette composée d'écailles cornées émet du bruit lorsqu'elle se sent menacée pour servir comme signal d'avertissement. Il dispose également de récepteurs thermiques permettant de détecter sa proie à sang chaud même dans l’obscurité.
   reptile.salamander:
     label: salamandre
     summary: Amphibien à peau luisante et queue allongée.
     info: La salamandre tachetée est un amphibiens protégés d'Europe centrale avec des taches jaune-noir. Elle sécrète des substances toxiques par la peau et vit dans les forêts humides.
+  reptile.sea_snake:
+    label: serpent marin
+    summary: Serpent venimeux adaptatif au mode de vie maritime avec une longue queue aplatie.
+    info: Le serpent de mer est un reptile venimeux appartenant à la sous-famille des Hydrophinés et parfaitement adapté pour vivre dans l'océan. Il possède une queue plate en forme d'aviron qui lui permet de nager efficacement.
+  reptile.skink:
+    label: scink
+    summary: Lézard aux écales brillantes et au membres courts.
+    info: Les scinks forment une grande famille de lézards comprenant plus de 1 500 espèces et sont caractérisés par leurs écailles luisantes en forme cycloïde. Certains spécimens ont des pattes atrophiées ou n'en possédent pas du tout. Le scink à langue bleue d'Australie sort sa langue très colorée comme signal dissuasif pour ses prédateurs.
   reptile.snake:
     label: serpent
     summary: Reptile allongé sans pattes et couvert d'écailles.
     info: Les serpents sont des reptiles au corps long et souple, dépourvu de membres. Il existe plus de 3 700 espèces ; ils chassent en utilisant leur odorat (organe de Jacobson) et certains sont venimeux.
+  reptile.snapping_turtle:
+    label: tortue luth
+    summary: Une grande espèce agressive de tortise aquatique américaine avec un museau robuste.
+    info: La tortue luth est une grande et agressive tortoise d'eau douce nord-américaine dotée de becs puissants en forme de crochet. Elle peut peser plus de 35 kilogrammes et vivre au-delà des quatre décennies.
+  reptile.thorny_devil:
+    label: molosse corné
+    summary: Lézard australien couvert de pointes qui canalise l’eau via des canaux.
+    info: Le molosse corné est un petit lézard originaire d'Australie recouvert de milliers de piquants acérés. Il possède une capacité remarquable à capter l'eau par la peau grâce aux sillons capillaires situés entre les épines ; cette eau est directement dirigée vers sa bouche.
+  reptile.toad:
+    label: grenouille
+    summary: Anoure terrestre squameux apparentée à une salamandre.
+    info: La grenouille tachypode est la rainette la plus répandue en République Tchèque. Les tubercules de cette espèce ne permettent pas aux mouches de piquer ; ils servent à protéger l'animal et produisent des substances toxiques. Chaque année elle migre par groupes nombreux vers les plans d'eau pour s'accoupler ; au pays il y a même des bénévoles qui viennent aider ces animaux à traverser les routes.
   reptile.tortoise:
     label: tortue terrestre
     summary: Reptile lent avec une carapace bombée vivant sur terre.
     info: La tortue géante des Galápagos est la plus grande tortue terrestre du monde. Elle vit aux Galápagos et peut dépasser les 150 ans. Sa carapace fait partie de son squelette.
+  reptile.tree_frog:
+    label: rainette
+    summary: Grenouille arboricole avec pattes collantes grimpeuse dans les feuillages.
+    info: |-
+      La Rainette verte est une petite grenouille arboricole appartenant à la famille des Hylidés et dotée d'extrémités adhérentes permettant l’escalade sur les surfaces planes.
+      En République tchèque vit un seul spécimen indigène : la rainette commune ; elle fait partie du patrimoine protégé par loi.
+      Elle change sa couleur entre vert clair vers gris ou marron selon la température ambiante ainsi que son humidité corporelle respective.
+      Cette espèce émet également un chant bruyant principalement pendant la nuit avant qu'il pleuve.
+  reptile.tuatara:
+    label: Tuatara
+    summary: Reptile fossile vivant néo-zéléandais, dernier survivant de l'ordre des Rhycocefaliens.
+    info: Le tuatara est l'un des plus anciens lézards du monde ; son ordre vivait à l'époque des dinosaures. Il vit exclusivement sur les îles de la Nouvelle-Zélande. Son développement se fait très lentement et il atteint sa maturité sexuelle entre dix et vingt ans.
+  reptile.uromastyx:
+    label: urumastixe
+    summary: Reptile sauvage à longue queue épineuse originaire d'Afrique et du Proche-Orient.
+    info: L'uromastix est un lézard de désert d'Afrique du Nord et Moyen-Orient avec une queue hérissée caractéristique utilisée pour la défense. Il est strictement herbivore ; il consomme des graines, l’herbe et les feuilles. On élève cette espèce en captivité comme animal domestique exotique.
+  reptile.viper:
+    label: vipère
+    summary: Reptile venimeux de type coua avec une tête triangulaire et un corps recourbé.
+    info: Le vipère commun est la seule serpent venimeux vivant naturellement en République Tchèque.
+  reptile.wall_lizard:
+    label: lézard muraille
+    summary: Petit lézard élancé vivant dans des environnements rocailleux.
+    info: Le lézard muraille est un petit reptile originaire du sud de l'Europe et du nord-ouest de l'Afrique. En République tchèque, il s'est établi comme une espèce invasive sur les rochers chauffés par le soleil ou les murs en pierre. C’est un animal rapide et agile qui abandonne sa queue lorsqu’il sent la menace.
+  reptile.worm_lizard:
+    label: vers-scorpion
+    summary: Reptile sans pattes qui vit souterrainement et rappelle visuellement l'apparence du ver.
+    info: Les vers-serpents sont des lézards peu étudiés de la famille d'Amphisbaénies vivant en Afrique et dans les Amériques tropicales ; ils ressemblent à de grands vers avec une peau segmentée et des yeux réduits. Ils passent toute leur vie sous terre où ils mangent principalement des fourmis et termites. Leur déplacement est caractéristique par un mouvement accordéonné.

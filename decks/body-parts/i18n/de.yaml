@@ -2,18 +2,82 @@ lang: de
 pivot: false
 title: Körperstellen
 cards:
+  body.ankle:
+    label: Knöchel
+    summary: Gelenk zur Verbindung von Wade mit dem Fuße; am meisten beanspruchtes Gelenk.
+    info: Der Knöchel ist ein Gelenk zwischen Wadenbein und Fußsohle aus drei Knochen gebildet. Es ermöglicht die Bewegung der Sohle nach oben und unten sowie geringe seitliche Verschiebungen. Ein verrenkteter Knöchel oder Dorsalflexionsspreizverletzung ist das häufigste Sportunfallgelenksproblem.
+  body.arm:
+    label: Arm
+    summary: Obere Extremität vom Schulter bis zum Handgelenk.
+    info: Der Arm ist die obere Extremität aus drei Abschnitten zusammengestellt – Oberarm, Unterarm und Hand. Er beinhaltet über dreißig Muskeln, Knochen sowie Sehnen für Bewegungsfähigkeit. Die Gelenke des Ellenbogens verbinden den Oberschenkelknochens mit dem Radius und Ulna.
+  body.back:
+    label: Rücken
+    summary: Hinterer Abschnitt des Körpers; größtes Muskelgebiet.
+    info: Der Rücken ist die hintere Teil des Rumpfes von der Halswirbelsäule bis zu den Oberschenkelansätzen und beinhaltet eine Wirbelsäule mit insgesamt 33 Wirteln umgeben von Muskulatur im Bereich des Rückens.
+  body.belly_button:
+    label: Nabel
+    summary: Eine Narbe im Bauch nach dem Abschneiden des Nabelbandes.
+    info: Der Nabel ist eine Narbe an der Stelle des Ansetzens des Nabelbands durch das die Embryonen ihre Ernährung von den Müttern empfingen.
+  body.bone:
+    label: Bein
+    summary: Hartes Bindegewebe bilden den Schädel; lebender Organismus mit Knochengewächs.
+    info: Bones sind harte Gewebetypen bestehend aus Knochenzellen und Mineralien wie Calcium und Phosphor. Der menschliche Skelettkörper besteht im Erwachsenenalter aus insgesamt 206 Knochen – ein Kind hat über 300, da viele sich später verknöchernd zusammenfügen. Das Mark der Knochen bildet rote Blutkörperchen sowie weiße Blutzellen und Thrombozyten.
+  body.brain:
+    label: Gehirn
+    summary: Steuerzentrale des Körpers; komplizierteste biologische Struktur im Universum.
+    info: Das menschliche Gehirn wiegt etwa 1,4 Kilogramm und enthält über 86 Milliarden Neuronen. Es besteht aus zwei Hemisphären – die linke kontrolliert den rechten Körperbereich und umgekehrt. Obwohl es nur ca. 2 Prozent des Körpervolumens einnimmt, verbraucht das Gehirn alleine rund 20 Prozent der Energie im ganzen Körper.
+  body.calf:
+    label: Wade
+    summary: Der hinterer Bereich des Unterschenkels zwischen Knie und Fußknorpel.
+    info: Die Wade ist der hintere muskulöse Teil des Unterschenkels zwischen Knie und Sprunggelenk. Der Hauptmuskel der Wade (Gastronomus) ermöglicht das Stehen auf den Zehenspitzen sowie Absprünge beim Springen. Die Wade spielt eine entscheidende Rolle bei dem Venengeblüt zurücks zum Herzen aus den unteren Extremitäten.
+  body.cheek:
+    label: Wangen
+    summary: Weicher Bereich entlang den seitlichen Teilen des Gesichts; ausdrückend emotionale Empfindlichkeit durch Rotwerden.
+    info: Das Gesicht bezieht sich auf die weichen Bereiche an beiden Seiten des Antlitzes und enthält Wangenknochen sowie Fettgewebepolsterungen. Rötung der Wange oder Erythem ist eine automatische physiologische Reaktion auf Emotionen wie Schamgefühl oder Aufregung. Babys haben absichtlich kleine und runde Wangen als evolutionäre Anpassung zur Ausstrahlung von Zuneigung bei Eltern.
+  body.chest:
+    label: Brust
+    summary: Vorderer Teil des Rumpfes mit Herz und Lung.
+    info: Die Brust ist die vordere Körperteilung zwischen Hals und Bauchgrenze, begrenzt durch Rippen, den Brustbein und der Wirbelsäule. Sie schützen wichtige Organe wie Herz und Lunge. Der Brustkorbschacht besteht aus zwölf Paaren von Rippen sowie dem Brustbeinknochen.
+  body.chin:
+    label: Kinn
+    summary: Untere Teil des Gesichts unter dem Unterlippenrand.
+    info: Der Kiefer ist die unterste Part des Gesichts und wird durch das Unterkieferskelett gebildet. Bei Menschen ist der scharf ausgeprägte Kinneindruck eine einzigartige Eigenschaft innerhalb des Tierreiches – andere Primaten besitzen ihn nicht. Warum wir überhaupt einen Kinnbereich haben, bleibt Gegenstand wissenschaftlicher Diskussion.
   body.ear:
     label: Ohr
     summary: Sinnesorgan für das Hören an der Seite des Kopfes.
     info: Das Ohr fängt Schallwellen ein und überträgt sie als Nervensignale ins Gehirn. Es enthält auch das Gleichgewichtsorgan (Vestibularsystem).
+  body.elbow:
+    label: Ellenburg
+    summary: Gelenk zum Biegen des Armes
+    info: Der Ellenbogen ist ein Gelenk auf der äußeren Seite des Verbindungsstücks zwischen Oberarm und Unterarm. Er ermöglicht das Beugen und Strecken des Arms sowie die Rotation des Unterarms.
   body.eye:
     label: Auge
     summary: Sinnesorgan für das Sehen mit farbigem Augapfel.
     info: Das menschliche Auge kann etwa zehn Millionen Farbnuancen unterscheiden. Die Netzhaut enthält Stäbchen zum Sehen im Halbdunkel und Zapfen zur Farbwahrnehmung.
+  body.eyebrow:
+    label: Braue
+    summary: Streifens von Härchen über jedem Auge; wichtig für die Gesichtsausdrucks.
+    info: Die Brauen sind ein Streifen Haare über dem oberen Augendeckel des Auges und spielen eine zentrale Rolle bei nonverbaler Kommunikation – durch ihre Bewegung drücken wir verschiedene Emotionen aus. Funktionell dienen sie dazu das Auge vor Schweiß oder Regen zu schützen.
+  body.eyelash:
+    label: Wimper
+    summary: Reihe von gekrümmten Härchen entlang des Liderrandes zum Schutz des Auges.
+    info: Wimpern sind kurze gebogene Haare am Rand der Augenlider wachsen. Sie schützen das Auge vor Staub, Schweiß und Fremdkörpern. Ein Erwachsener hat etwa 100 bis 150 Wimpern an den Oberlidern und 50 bis 75 auf dem Unteren.
+  body.finger:
+    label: Handfinger
+    summary: Einer der fünf Finger auf den Händen mit jeweils drei Knöpfchen.
+    info: Ein Finger der Hand ist einer von fünf Fingern an jeder Hand; Daumen haben zwei Gelenke und die anderen drei. Wir besitzen immer insgesamt zehn Finger – Kombinationen ihrer Bewegungen ermöglichen das Benutzen von Werkzeugen, Musik zu machen oder Schreiben. Abdrücke sind bei jedem Menschen einzigartig.
   body.foot:
     label: Fuß
     summary: Die untere Körperteilung der Beine, auf dem wir stehen und gehen.
     info: Der Fuß trägt das Gewicht des gesamten Körpers und ermöglicht das Gehen mit beiden Beinen. Er besteht aus 26 Knochen, 33 Gelenken sowie über 100 Muskeln, Sehnen und Bändern.
+  body.forehead:
+    label: Stirn
+    summary: Frontale Region des Kopfes oberhalb der Braue; Bereich zur Darstellung emotionaler Zustände.
+    info: Die Stirn ist die vordere Partie des Schädels über den Augenbrauen und unter der Haaransatzlinie. Sie gehört zu einer der am meisten sichtbaren Bereiche beim Ausdruck von Emotionen – Falten auf der Stirne zeigen Sorge oder Verwirrung an. In vielen Kulturen war das Markieren der Stirn ein Symbolisches Zeichen wie bei Eiden oder sozialer Stellung.
+  body.hair:
+    label: Haares
+    summary: Faserwachstum vom Kopfhautepithel.
+    info: Haare sind Fasern aus Keratin, die sich von Haarfollikeln im Kopf wachsen lassen. Ein Mensch hat durchschnittlich etwa 100 000 Härchen auf dem Schädel und verliert täglich zwischen fünfzig bis hundert davon. Etwa ein Komma fünfundzwanzig Zentimeter pro Monat wächst das Haar an Länge hinzu.
   body.hand:
     label: Hand
     summary: Teil des Arms mit fünf Fingern.
@@ -26,11 +90,115 @@ cards:
     label: Herz
     summary: Muskel, der das Blut kontinuierlich durch den gesamten Körper pumpt.
     info: Das Herz ist ein hohler Muskel von der Größe einer Faust und schlägt im Durchschnitt 70 Mal pro Minute. Im Laufe seines ganzen Lebens pumpt es Blut auf eine Strecke, die drei Erdumrundungen entspricht.
+  body.heel:
+    label: Hacke
+    summary: Die hintere untere Partie der Ferse.
+    info: Der Hacken ist die größte Knochen des Fußes und trägt beim Stehen das meiste Gewicht des Körpers.
+  body.hip:
+    label: Hüfte
+    summary: Gebiet rund um das Becken; größtes Körpergewicht tragendes Gelenk.
+    info: Die Hüfte ist die Gegend um das Leisten-Gelenk (Articulatio Coxae) herum – es verbindet den Oberschenkel mit dem Becken. Es handelt sich dabei um ein Kugelgelenk und trägt beim Laufen das Gewicht des Körpers ab. Frauen haben im Durchschnitt eine breitere Hüftregion als Männer aufgrund der Geburt.
+  body.jaw:
+    label: Unterkiefer
+    summary: Der untere Gesichtsknochen, der sich beim Kauen und Reden verschiebt.
+    info: Die Kieferknochen (Mandibel) ist der einzige bewegliche Schädelknochen und ermöglicht das Kauen, Schlucken sowie Sprechen. Der TMG-Kopf-Mundwinkel-Gelenke (Kauergelenk), auch als temporomandibulares Gelenk bezeichnet, gehört zu den kompliziertesten Gelenken des menschlichen Körpers.
+  body.kidney:
+    label: Niere
+    summary: Paariges Organ zur Filtration des Blutes mit Produktion von Harn.
+    info: Die Nieren sind zwei bohnenförmige Organe im hinteren Bereich der Bauchhöhle. Sie filtern täglich über 180 Liter Blut und produzieren etwa einen bis zwei Liter Urin pro Tag; sie enthalten mehr als eine Million Filtereinheiten namens Nephrone.
+  body.knee:
+    label: Kniescheibe
+    summary: Größter Körperbereich zwischen Oberschenkelbein und Waden.
+    info: Der Kniegelenk ist der größte und komplizierte Gelenke des menschlichen Körpers mit Menisken, Kreuzbändern und Seitenbindern. Er trägt das Gewicht beim Laufen oder Gehren. Verletzungen an diesem Bereich sind eine häufige Sportverletzung.
+  body.leg:
+    label: Unterschenkel
+    summary: Die untere Extremität von Hüfte bis Fuß.
+    info: Der Unterschenkel besteht aus Oberschenkelbein und Waden sowie Fersenregionen. Er ist an das zweibeinige Gehen angepasst und enthält die kräftigsten Muskeln des Körpers wie den Quadrizepsmuskel im Schienbeinkopf. Der Femur oder auch Oberschenkelhals genannt, ist der längste und stabilste Knochenteil im menschlichen Körper.
+  body.lip:
+    label: Lippe
+    summary: Eine der zwei fleischigen Ränder des mundartigen Öffnung.
+    info: Die Lippe ist eine der beiden weichen muskulösen Gewebe, die den Mund umranden und reich an Nervenknotenpunkten sind sowie sehr empfindlich. Ihre Farbigkeit entsteht durch Blutung – bläuliche Lippen können auf einen Sauerstoffmangel hinweisen. Sie spielen auch bei Gesichtsausdrucksmimik, Küssen oder dem Aussprechen von Laute wie P, B und M eine entscheidende Rolle.
+  body.liver:
+    label: Leber
+    summary: Größtes inneres Körperforgan; die chemische Laboratorium des Körpers.
+    info: Die Leber ist das größte innere Organ mit einem Gewicht von über 1,5 Kilogramm und erfüllt etwa 500 Funktionen wie Blutfilterung, Gallensynthese, Proteinsynthesis sowie Glykogenspeicherung.
+  body.lung:
+    label: Lung
+    summary: Paariges Organ zur Aufnahme von Sauerstoff.
+    info: Die Lunge ist ein Paarorgan im Brusthohlraum und besteht aus Millionen von Lungengewebekügelchen (Alveolen). Die Gesamtoberfläche der Alveolen beträgt ungefähr 70 Quadratmeter. Ein Erwachsener atmet etwa zwölf bis zwanzig Mal pro Minute mit einem Atemzugsaufnahmevolumen von rund 500 Millilitern Luft; die rechte Lungenhälfte ist größer als die linke aufgrund des Platzbedarfes für das Herz.
   body.mouth:
     label: Mund
     summary: Öffnung im Gesicht für Essen, Trinken und Sprechen.
     info: Der Mund beginnt den Verdauungsprozess – die Zähne zerbeißen das Essen, Speichel löst es auf. Er ist auch das wichtigste Instrument der Sprache und Kommunikation.
+  body.muscle:
+    label: Muskel
+    summary: Verkrampfbares Gewebe für körperlichen Fortbewegungsmechanismus.
+    info: Ein Muskel ist ein Gewebe mit der Fähigkeit zur Kontraktion und ermöglicht so die Bewegung des Körpers. Der menschliche Körper hat über 600 Muskeln, welche etwa 40 Prozent des Körpergewichts ausmachen. Der stärkste Muskel im Menschenkörper ist das Kaumuskul um den Unterkiefer; am kleinsten dagegen sind die Mittelohrmuskele wie z.B. der Stapesmusculus.
+  body.nail:
+    label: Finger-/Zahnagel
+    summary: Hartes Kerpitinplättchen auf den Enden von Händen oder Füßen.
+    info: Fingernägel sind harte Plättchen aus Keratin am Ende jedes Fingers und Zehen. Sie schützen die empfindlichen Enden der Finger und verbessern das Greifen kleiner Gegenstände. Nägel wachsen etwa um drei Millimeter pro Monat an – Handfingernägel schneller als Fußnägel.
+  body.neck:
+    label: Hals
+    summary: Teil der Körperforme Verbindung von Kopf zum Rumpf enthalt Leben-wichtigen Gefäß.
+    info: Der Hals ist die Region zwischen Schädel und Brust mit sieben Halswirbeln. Durch ihn verläuft wichtige Strukturen wie Blutgefäße, Speiseröhre, Luftröhre und Rückenmark. Er enthält mehrere Muskeln zur Drehung und Neigung des Kopfes.
   body.nose:
     label: Nase
     summary: Organ für Geruch und Atmung mitten im Gesicht.
     info: Die Nase filtert, erwärmt und befeuchtet die eingeatmete Luft. Sie kann über eine Billion verschiedene Gerüche unterscheiden und ist eng mit dem Gedächtnis und den Emotionen verbunden.
+  body.palm:
+    label: Handfläche
+    summary: Innere Fläche des Arms mit besonders vielen Berührungssensoren.
+    info: Die Handfläche ist die innere Fläche der Hand zwischen den Fingern und dem Handgelenk. Sie enthält eine sehr dichte Anordnung von Tastrezeptoren wie Meisnersche Körperchen. Auf der Handfläche gibt es keine Haarfollikel oder Talgglanden.
+  body.shoulder:
+    label: Schultern
+    summary: Gelenke verbindet Arme mit Rumpf und ermöglichen die meisten Drehbewegungen.
+    info: Der Schultergelenk hat den größten Bewegungsumfang aller Körperelemente und besteht aus der Oberarmkopfkuhle des Schlüsselbeins sowie dem Schädel der Armreihenglieder. Aufgrund seiner Instabilität ist er besonders anfällig für Verrenkungen.
+  body.skin:
+    label: Haut
+    summary: Größtes Körperorgan mit den Aufgaben Schutz, Temperaturkontrolle und Berührung.
+    info: Die Haut ist das größte Organ des menschlichen Körpers und bedeckt eine Fläche von etwa 2 Quadratmetern. Sie erfüllt Funktionen wie Schutz vor Infektionen, ultraviolettem Licht, Thermorregulation sowie Tastsinn und Synthese von Vitamin D. Die Erneuerung der Zellen der äußeren Schicht dauert ungefähr zwei bis vier Wochen.
+  body.spine:
+    label: Wirbelsäule
+    summary: Kette von 33 Wirbeln zum Schutz des Rückenmarks und zur Stabilisierung.
+    info: Die Wirbelsäule ist eine Kette aus 33 Wirschen, die den Schädel mit dem Steißbein verbinden und das Rückenmark schützt sowie als Hauptstütze des Körpers dient. Zwischen den einzelnen Wirbeln befinden sich Bandscheiben, welche wie Stoßdämpfer wirken. Die natürlichen Krümmungen der Wirbelsäule – Lordose und Kyphose – sind Anpassung an aufrechte Gang.
+  body.stomach:
+    label: Bauch
+    summary: Vorderer Bereich unterhalb der Brust im Torso.
+    info: Der Bauch ist der vordere Teil des Rumpfes zwischen Brust und Becken. Er enthält die Verdauungsorgane wie Magen, Darm, Leber, Pankreas und Milz.
+  body.temple:
+    label: Tempel
+    summary: Weicher Bereich neben der Stirnhaut oberhalb des Wangenknochens.
+    info: Die Tempel sind die flachen Bereiche auf beiden Seiten der Stirne über dem Wangenknochen und vor dem Ohr. Anatomisch gesehen handelt es sich um eine weichere Region des Schädels – genauer gesagt den squamösen Teil der temporalen Knochenteile -, was sie anfälliger für Verletzungen macht. Die temporale Arterie ist hier gut tastbar durch das Pulsieren.
+  body.thigh:
+    label: Oberes Beine
+    summary: Teile von unterer Extremität zwischen Hüften und Kniegelenk.
+    info: Der Oberschenkel ist die Körperteils zwischen Hüfte und Knien. Er enthält den größten Muselkomplex des menschlichen Körper – der Vierköpfige Schenkelmuskel oder Quadrizeps sowie die Hamstrings. Der Femur beziehungsweise Oberbeinknoche ist zugleich am längsten wie auch dichtest.
+  body.throat:
+    label: Rachen
+    summary: Eine Höhlenverbindung zwischen dem Mund zum Speiseröhre und Luftröhren.
+    info: Der Hals ist eine Höhlung hinter Nase und Mund, die als Weg für Luft sowie Nahrung dient. Er enthält Mandeln (Tonsillen), welche Teil des Immunsystems sind. Der Rachenreflex verhindert das Einatmen von Fremdkörpern.
+  body.thumb:
+    label: Daumen
+    summary: Kurz und massiver Finger an der Hand; daumbasierte Gegenbewegungen sind essentiell beim Greifen.
+    info: Der Daumen ist ein kurzer und starker Finger der Hand mit Fähigkeit zur Opposition – also zum Berühren der anderen Finger. Die oppositionelle Bewegung des Daumens war eine entscheidende Anpassung für die menschliche Nutzung von Werkzeugen während der Evolution. Sie kommt nur bei Primaten vor.
+  body.toe:
+    label: Fußzeh
+    summary: Einer von insgesamt fünfen Zehen an einem Bein; die Funktion des großen Zehe besteht darin Gewichte während dem Laufen zu tragen.
+    info: Ein Fußzeh ist einer der fünf Zehen am Fuße. Der große Zeh des Fusses (Hallux) spielt eine entscheidende Rolle für das Gleichgewicht und den Abstoß beim Gehprozess sowie er trägt einen beträchtlichen Teil des Körperschwerpunkts.
+  body.tongue:
+    label: Zunge
+    summary: Muskuloskeletaler Organsystem für Geschmackserfassung, Kauen und Sprechen.
+    info: Die Zunge ist ein mit Geschmackspapillen bedeckter Muskelorganismus im Mundraum und trägt über 10 000 davon. Sie ermöglicht das Wahrnehmen der fünf Grundgeschmacksrichtungen – süß, salzig, sauer, bitter sowie Umami. Die Zunge spielt eine entscheidende Rolle bei Sprachartikulation und hilft beim Schlucken.
+  body.tooth:
+    label: Zahnbefestigung
+    summary: Hartes Organ zum Mahlen von Nahrung.
+    info: Ein Zahn ist eine harte Struktur aus Dentin und einer Pulpkammer sowie Enamel (dem härtesten Gewebe des Körpers). Ein Mensch hat im bleibenden Gebiss insgesamt 32 Zähne. Das verlorene oder abgenutzte Schmelzhorn regeneriert sich nicht – Prävention spielt also eine entscheidende Rolle.
+  body.vein:
+    label: Vene
+    summary: Gefäß für venöses Blut auf dem Weg ins Herz; erkennbar an der Armbeuge.
+    info: Eine Vene ist ein Blutgefäß, das Blut zum Herzen zurückführt. Im Gegensatz zu Arterien besitzen Venen Klappen zur Vermeidung einer Rückflussbewegung des Blutes. Die bläuliche Färbung der Venen am Handgelenk ist eine visuelle Täuschung – im Inneren sind die Venen dunkelrot gefüllt mit demselben roten Blutfarbstoff wie bei den arteriellen Gefäßen.
+  body.wrist:
+    label: Gelenke
+    summary: Der Gelenkbereich zwischen Arm und Vorderarm; entscheidender Bestandteil für feinmotorische Fähigkeiten.
+    info: Das Handgelenk ist die Gegend zwischen der Hand und dem Unterarm bestehend aus acht kleinen Kieferknochen (Handwurzelbeine). Es ermöglicht Bewegungen des Arms nach vier Richtungen hin sowie Rotation. Der Carpaltunnel (ein enger Kanal im Handgelenk) kann bei Überbelastung den Carpal-Tunnelsyndrom verursachen.

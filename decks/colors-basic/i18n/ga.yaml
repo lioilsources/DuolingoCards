@@ -1,0 +1,207 @@
+lang: ga
+pivot: false
+title: Cúrsaí Ósclaideachta Básamhacha
+cards:
+  color.amber:
+    label: jaspar
+    summary: Tascéalta is ea Jaspara.
+    info: Is é Jantaróra an taiscéalaíthe ghearrthoiteach ó thuas agus slán go dtí lá amharcúint ar mhíchímseartaithe don phrionsabail nó do dhaoine eile.
+  color.aqua:
+    label: ghealach
+    summary: Greachán geal is ea Aquamarine.
+    info: Is é Aqua an t-aon rud mar ghealach agus tá sé thar a bith i ngrífínneoireacht do shocrú ar mhodharnóntais.
+  color.azure:
+    label: an azúr
+    summary: An t-airge moiteaght len airde
+    info: Turas mhuineach is ea an azúr nó turas thomaiseach agus tá sé d'ainm amhail mar lapis lazuirte é. Tá snaoradóireacht i gceist go bhfuil sé ar chláirshearc na nGall im Thoirseal, An Iosral agus Finnéalach. D’fhágadh lázuirt sa Réimsín seo fós níos dearra ná áthais agus bainte í don tuarascál Madaidhé.
+  color.beige:
+    label: bheidha
+    summary: Beann geal fada; ionas feabhra
+    info: Is é bézhósa íochtánach san áireamh idir bhlannt agus ghealach donúin. Tá sí ar scéal ó thiar na Fraince seo caol airgeadh natartha. Níos mó i ndiaidh sin d'úsáltar an t-inmharc go forleathan sa deisín dáile uimhin mar thrón beagnách is feargthe.
+  color.black:
+    label: dubh
+    summary: An nascart is mó, nach bhfuil áthas airge
+    info: Is é an dubh séimhe sinneadh na gruaige féin teoranta agus tá sinn atá caite i gcóras saoireamhúchán don phríosún nó do thaiscéalaíocht mar shampla.
+  color.blue:
+    label: blua
+    summary: An prímár nascailteoir den ghrian agus ócean.
+    info: Is é an blúth gréine modharna agus tá sé mar sin ar fad i gcomparás lena heilemhóntaithe eile de phrómúnachta nó laimhbheartacha. Is í seo freisin an tsearcas is mó obair atá thar lear agus síneadh sa tír.
+  color.bronze:
+    label: bromzá
+    summary: Briathar don dhuinnse donn-thorncréimthe mar thorncróm.
+    info: Is é bronztachán dá ghearradh ar thaiscín cuinne agus tinne an dath 'bronze'. Tugtar Daraoin na Bronzaigh airgeadta faoi shochfrith amharcanta i dtreo mhór seo ó ca. 3300 go 1200 RC. In ionadais Olympacha déanann méidhbhrónznúint sínteach de dhóthain tríú fhaicheadh.
+  color.brown:
+    label: Earrach
+    summary: Bhairr scianmhara den chuid eile atá ceart domhall
+    info: Is éasca í hearradh ó ghearghúin agus buillte don ghorm ar fadóidh go dtarlaonn sé i bhforbairt na gruaige nó mar phríomhbharraigh sa litriocht. Tugann sé faoi dearcacht do thalamh, nascarta is slándálta;
+  color.burgundy:
+    label: burgoindis
+    summary: Inbhuan ceoil thiarlaíthi ó Bhorgoinne.
+    info: Is é burgondaise an t-inmharcúl don bhrún dearg purporach atá ag cur isteach i gceart ar phortóidheacht na hAlban airgead is beag san áireamh.
+  color.charcoal:
+    label: antreciotova
+    summary: Cólur thar feoil is ea antreaciotova.
+    info: Is é antraicítach (charcoal) cólour dubh ghearr go dtí beo mar charcoál dátaigh. Tá sé tábhachtach i ndeisín intiréis mórdúntais agus féinmhiniceadh don bharraiclóga.
+  color.chartreuse:
+    label: chartreuse
+    summary: Eolas beaga idirmhéara
+    info: Is é Chartreuse an t-eolóntú ceart agus beo idir gormthuaithe agus glas i ngránnscaill. Tá ainm ar lírseoideachta 'Liquéur' ó thimpeallacht fraincsis céimeacha de chláirseadh don phríomhcheannais seo. Is í pé mo lámha d'éagairt go dtí do shochfra húsáiltear eolas na hoibleacra nó mar thréalta sa chóras breise.
+  color.cobalt:
+    label: An Cobhalt
+    summary: Modhar beag-tuathúil bhíoide nua coscanta.
+    info: Is é an Cobhálta Modhar bheo agus moiteach sléibhte atá teidealte i ndomhan na cemisteach 'cobalt' (C). Bhí sé mar roinntú de phigmenteacha mhorra is mó popóilairt sa dhamhsín nóim ós rud é go dtugadh airgeadlán don ealaím ar feadh an tseachtain seo caill. D’úsáltar í san ghearaitheas, sliotan agus imearc.
+  color.copper:
+    label: méid
+    summary: Seirrtheann grúaifeabhóil don thoirim ó maithéis.
+    info: Is éadromhach í an tseirrtheann gruaige agus buartha atá mar thoradh ar mhaitheas na méide (Cu). Bhí sé sa chuid is luath de phointeanna eile i gceist linn Chalcolitiúntais.
+  color.coral:
+    label: Coral
+    summary: Seo thaiscín eileacóir de phink-phearganta don Éireanna.
+    info: Is éarach an tsearcóra íochtánacha idir órngéacht agus gruaige atá ann ar ainm 'coral' i bhfocail go dtógfaidh sé isteach san áit sin sa tírtheascalt nó imirt na hÉireann seo chun cinn bliana 2019 mar ‘Living Coral’ den Panton. Tugtar airgead is tábhacht lena dheimhin.
+  color.cream:
+    label: tánntas
+    summary: Bhfuil tánte crémonta sa phrás céanna lena ndearnaonn daoine moladh.
+    info: Táinte krím éadaite is ea an t-aontacht seo - ísealtheach agus gealtóir ó bhrún na hÉireann nó caolthiméar nua. Tá sé mar thionchar ar thrú sreointe 'smétan' i bhfoclóir Gaeilge.
+  color.crimson:
+    label: carmina
+    summary: Crónmfharbharna dhearua
+    info: Is éard is crúmharnach í an karminacha—crannmaire agus ghearrthiosta nár sciaralta. D'fhoghlaim siad sé ó thinteán carmina ar chearc nóntóir (Dactylopius coccus) i dtreo na healaithreachta. Is ea mar sin taitneamh Harvard University.
+  color.cyan:
+    label: An-Cían
+    summary: Tinteán bhuaine ganmhór-thoisel atá idir ghrian is uisce.
+    info: Is é an-cian nascach sluaithín gormthoisealacha i ndrochuimhreas na hRGB agus tá sé mar seo go dtí C=an-cian sa thaisce CTMK nó CTMYL. Tá súil eolaithe liota ar son ceann de churóirí beaga trínteacha san fhraincseacht.
+  color.fuchsia:
+    label: eagás fuicsio
+    summary: Eagás fhích thall mar shuíochán na fuicsió.
+    info: Is é an t-eagánach ró-fhíorúil atá i bhfeidhm agus tá sé ar ainm de réimse eaglaistéaracha 'fuxsia' (Fuchsia). Tá an plant ar ainm ó Leanhard von Fuchs Nua-Mheannaisis (1501–1566), ceachtasbhuailín Éadraigh. Sa CSS agus sa HTMl is féidir linn uathairmneamh idirmhéideanna don phrós méada (# FF00FF) go dtí seo freisin.
+  color.gold:
+    label: Gerg
+    summary: Buntúscaodar ó thuaidh go dtárta faoin mbéal méad
+    info: Tógann an gheargh gréine amach agus tá sé mar sin uathúil don mhétal is mó thiar na hÉireannaigh - an ghargaóin. Tá sí ar feadh láthair á litríocht i gcónaithe seo chomhrasta nó comhartha mhaith do bhoghlaise, eagracht, sásamh agus slándálas.
+  color.green:
+    label: gord
+    summary: Gairid de réir do dhochtúrtha bliain ón tsean-tiontanas 'grún' nó 'gorm', tá siad uilig san fhorcas.
+    info: Is é an ghormeallach sreanta atá ag cur isteach go cúramhacht i ndrochshaol na tíre seo nár ghearrthas sé ar phríomhbharúin eile mar an bluaideag is amhuilge. Tá sí thar thrascadh grünneacha slite agus láimhsithe.
+  color.grey:
+    label: grúa
+    summary: Gairid idir dubh agus frithchearn;
+    info: Is é gruaige fadóirgeach atá cruthaithe trí thiomantaíocht frithcheart agus dubh. Is eagrúil í sin mar dheidhlithe agus gan mhuinntearadh air. Sa phsychiológama tá sé seo freisin faoi sheasamh don eagrúnacht agus do ghearús nó go dtarlaonn siad san áireamar.
+  color.indigo:
+    label: dath India
+    summary: Dath uaine-falabhra mar is ea deth India.
+    info: 'Is é an dath thallánach ''india'' ceann de na seacht dáith ar bhuileas (ROIBGIAF: róidhín, órán, úrú, glasbheaghtain, buill, india agus fál). Is eadar-dhéanta iad an dara phointe seo sa spèctram airgeadaim.'
+  color.ivory:
+    label: ivorach
+    summary: Crómán críoimthe ar nós slónocra.
+    info: Ivorach is í an téarma do thionscnamh slonnóca nó 'elephant ivory'. Taispeántar é mar bhuíochrím creampheacht agus tá sé réidh den chuma don phríosín.
+  color.khaki:
+    label: khaki
+    summary: Seascán mhórna mná gcofraeannmhaithe
+    info: Is é Khaki an tsearcán gruaige mhuinntearta atá tábhachtach i gcóir na bpriomhthéacs agus ceartas traeoinneacha. Bhunaigh sé ar thionscnamh sa bhriotain go dtí India san 18ú haois seo chugam. Tá 'Khaqi' mar sin de réimhsheabhac Urdhi/Hindi don phrith nó damhairnéar.
+  color.lavender:
+    label: léantuíl
+    summary: Liath-fhearraocht thallmhór nóntas na lónna.
+    info: Is éard is liath-fearr an tsearcadh go hálta agus tá sé ainmtheach i gcoinne láimhe Léanndúil (lavender). Tógann sí isteach seanshín agus clárthacht mar atá ann sa Phríosanta Fhraince seo chugamh. I n-aithrimthéarbhaithe, bíonn scéalta léanntuíle ábalacha freisin ar do réir slóineadha agus ocs.
+  color.lime:
+    label: ''' Lime'''
+    summary: Seo seasámh sluaite iadha-grommán atá déanta trí líontú.
+    info: Táinteann an tseasamh go dtí 'Lime' ar shuíthín eileacairt agus tá sé deisithe ó thomhas na gualainne citruseacha. Is í éascaidhe is mó den ghormhéarachta nó láimhe isteach mar thoradh don chuma dhorcha fós.
+  color.magenta:
+    label: purpure
+    summary: Bearnasc purpure - pink; idir rua agus glas.
+    info: Is é Purpureach (Mhagannteach), í an bhearna beagta idir rua agus glas gan fhorleathanadh slán i bhfeidhm na spèisre seothe. Tá sé ar ainm de phortógrafaí sa chartha airgeadaigh 'Magendy' san Iarachtain nóimhin. Is féidir linn go dtiocfaidh sí amach mar thriú chlár eile den chothrom CTMYCK.
+  color.maroon:
+    label: caastauna
+    summary: Dath dáirbhinn dearg - dearg bhuile
+    info: Is éasca caastaunach (maarúnúin ag an Gaeilge) ceann dearg donn uasal atá dathaithe ar son an t-eascainne (caastan). Tá sé thiarlaite don fhadhb seo sa mórdhocht, san airgead is san úifreabhsuitheoireacht freisin. Mar sin féin nuair ba eolrú faoi 'bordó' tá sé níos buidhe umhalta ach más íonna go dtí 'dearga heapa', bíonn sé isteach amach.
+  color.mauve:
+    label: Màve
+    summary: Purpor-fearrthóir dímneacha
+    info: Is é an t-eolas go bhfuair 'màve' ar son Málua Sylvésbris agus tá sé mar sin de Threceoilshín Éireannach. Bhíodh eolaithe i gceist don chuid is mó sa phríomhteacht seo.
+  color.mint:
+    label: matheolas
+    summary: Buntúsca gorm-bhuí ar láimheanna méadaidhe.
+    info: Táinteann an t-eagánas go dtí 'màthóg' agus tá sé thar thrú sna ceithre bliana de sheachtain na hEorpa nó sa bhróinín mionlámhach mar shampla. Tá eagrán matheolaigh nua agus slat airgead imithe ann.
+  color.navy:
+    label: Blue Navy
+    summary: Dath mhodra tightheach go dtí gaothar.
+    info: Modharc thiar na hÉireann seo is é 'modúr' nó 'blue navy'. Tá sé mar an dath de phortaingín agus beo ar fud an domhan.
+  color.ochre:
+    label: Ochr
+    summary: Taiscéal earchagaire fhearrbhunaigh.
+    info: Is é ochre an t-eachtraocht bhuaine gorm-bhronntú ach mórthoilteartha atá teoranta i bhforas ó thocht na heanairne agus íomhar. Is féin is ceart go nd'úsadar sé mar phigment sa chraobhadóireacht ar chóstaí crannmhara don truaimead airgeadais.
+  color.olive:
+    label: Grás-Olive
+    summary: Tonnadh géarga-donna caoi oliva.
+    info: Is éard is gréascán ghearghas donnach mar atá i láthair ar olivas agus tá sé de réir ainmhínithe ó thionscadh Oleae Europaeae. Is fearannacht tírtha í go minic don fhorbairt nó do champing nuair b’fhéidir léi nár féadfar amhlú gan phointeach den tsiar. Mar sin tagraítear air sa stóirmheas mar 'grás-militear' freisin.
+  color.orange:
+    label: oranżová
+    summary: Tógann síos go bhfuil seanscneagth agus cruthaitheacht san amhlaidh.
+    info: Is é oranžónta an tsearcúlach atá ann nuair is ceartar ón gcread agus ón úlltachtadh. Tugtar 'aranjova' ar sé i nGaeilge agus tá sinn Féin seo mar phríomhcholour eile idir creath agus ullta.
+  color.periwinkle:
+    label: inmhúinteán praiwn
+    summary: Inmhúinteán gruaigeach go minic tarlacha sa sóirtis.
+    info: Is é Periwinkle an t-inmhúinteán atá ag caitheamh ar ainm na fliosa 'brċal mhion' (Vinca minor). Tá sé i ngradaidín idir ghorm hearg is ghrandaill. Is fearr dá bhfuil sé mar shórtas nó dhorchaodhas don phortfhocal.
+  color.pink:
+    label: róza
+    summary: Tint dhiamhairt den chroisín is ea róa.
+    info: Is éasca róz ó thinteán gorma ar an gcramor don phríosan nó mar tonntú de réalt na gruaige agus slándhaoine.
+  color.purple:
+    label: fealbh
+    summary: Fealbh mórbhéara is ea sin tá ar ais ó fhiorrúnag agus ghlaise.
+    info: Is é an fhealbh mórúil atá de réir iad feorainne agus glas nach mb'éadaiseann siar go dtí na huaire seo chugaoth airgeadh nó nascófaracht riarachais.
+  color.red:
+    label: rudhradh
+    summary: An rudracha láimheoil is féinmhian.
+    info: Is é an dearcasúl rudh amhlaidh nua agus fuirse i bhfeidhm na gréine seo ceart go minic mar thriathar caolaitheach ar fhadhbóithín nó sár-chuma.
+  color.rose:
+    label: roisín
+    summary: Tas ceart domhain-tóntha mar lámha stoca.
+    info: Is é roisín an taiscéad ghearrthóir bán-thomaiseach atá teagmaithe lenár scéalta de réimse thomas agus is féinmhianúil go bhfuair sé ainm nua ar phlécthas grásaide don croítheoilte Samuel Becketts.
+  color.salmon:
+    label: lososeach
+    summary: Cearrán pingin Órngeach go dtíhasalós.
+    info: Táinteann Lososeach is é sin cairdeas phingín órngheargha atá forainmhéalta ar thaispeánt hasalóise. Is ea níos feala agus níos ghranda ná corcra. Tá sé molúinteach i mbuíochthe na modh mar altarntacha fhiúnnte don fhiosghear.
+  color.scarlet:
+    label: Scarla
+    summary: Dábharóinteach réad-orainise; níos faide ná carmina.
+    info: Is é scarlathán dá bhróid réad-orainseacha is ainm orthu i dtaispeánt hashealanta 'scarlet'. Is ea nua-thromú airgeadh ó thart ar an gcothroma agus tá sé fliuch deas na heoráinnte níos mó ná carminée. D'fhoghlaimh go dtirimtheacht do dhualgas rudaí creithine sa stair.
+  color.sienna:
+    label: tine siennais
+    summary: Dath earchean crónaithe mar tintearthiún.
+    info: Tintear saoireach Siennas é an t-eacairthiún is ea dath earchean crónaithe nó páiste atá agus cuireadh i ngóinteanna na hEorafoinmhéide don réamhfhonn 'Sien'. Tintearn gormbhuidéalta í an raw sienna nuair nach bhfuil sé craobhdúntar go dtí an red ochtmhar de burne sienna.
+  color.silver:
+    label: silver
+    summary: A glossy gray color similar to that found on metallic silver.
+    info: |-
+      {"label":"sliabhra","summary":"Dath grís géar agus glic ar bith thiarla","info":"Tonn sliabhrach is é sin atá mar dhochtúlacht don chaoimhín dearg seo tá sé i bhfeidhm mar phríomhdhearcadh do mhodernaithe, eileancte, téarmaicinn agus tionscnamh próiseasóireacha.
+      íos mó ná an ceann caite féadfaimidh fios againn go mb'éadaíonn síneoirí slibhra san amhlaidh lena gcuid cearcaí,
+      i rialtais na hÉirinne tá sé comhartha den uair déag."}
+  color.tan:
+    label: píscoinn
+    summary: Dath grúaide uiscint.
+    info: Is é píscoinnach (tan) dath gruaige uisce nó cártae scialannaithe agus tá sé thar feiceadh don phrionsabail i mbuíochas na bpianóraíocht ar an gcúrsa. Tá sé fada go beo ó bhéidhseacha ach níos dubha agus brún gormmhór.
+  color.teal:
+    label: modrazú
+    summary: Tonn is ea an ceann sin.
+    info: Is é modrazúrach an t-eolair seo agus tá sé teidealtheoilte i gceist libh go bhfuil siad de dhomhan na teal eileacraigh (Anas crecka). Tá siad ar fheadógán uisce turcasacha sa spèisirín turcásachta. Is féidirmhealltacht í mar thaiscéalaodóireacht gráfna don óthar do thrón.
+  color.turquoise:
+    label: tirceisce
+    summary: Gromthortúlta go minic tar lár amhlacht
+    info: Is é tirceisceach an t-aonair gorm-thorthúil is féinmheánach atá teidealthe ar son na stóitse tyrcius agus tá sé thar feadh mille traidisiúnacha i ngEiptiua, Pearsia agus Aimeireaca. Is ea í nascartaigh mar mhór-mhara nó slétacan saoire seo chomhrasta nó an grámhar don lá socradaithe.
+  color.vermillion:
+    label: roméilk
+    summary: Earghas thiarctha ócrann-orainneach coibhéide roméalca.
+    info: Is éarntas rúnach roméilceadóir (rúnaillim), is ceart go mb'éadaonn sé mar an tsearcán cinnabair nó HgS. Bhí sé ar feadh na staire ag baint úsáid as e sin féin i gcomharsheacha crua. Tá roth réaltacht airge adaoinnte san áit seo; ní fós tá srianta sintiúsaithe ann.
+  color.violet:
+    label: '''violace'''
+    summary: Taiscéalaodh grianán don téarma ‘violette’ sa Ghaeilge.
+    info: Is é an t-eolas go bhfuil 'violate' agus 'purple' mar sin iad san spèisirtú faisnéiseach ach níl siad céanna - tá violate thar feartóirí eile nuair atá sé blianta ar phriontáil nóimheas.
+  color.white:
+    label: bhán
+    summary: An dáth is féinmhar atá i ndóchas ar phósadh na grada.
+    info: Tá bhfarra íseal de réir gach dath san spèisim breisear ag an am céanna. Is é sin síniú don chláracht is ea fheabhasg nó nua-thoscaireacht;
+  color.yellow:
+    label: géar
+    summary: Tonn beagán láimheach den ghrábhas.
+    info: Is éadromhúil an géar agus tá sé mar sin ar fódóir don phríomhbheolaithe de lús atá sa spéaclum sgrithiúnta. Tugann sí timpeall airgeadh nó na gruaige.

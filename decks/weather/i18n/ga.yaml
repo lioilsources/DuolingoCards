@@ -1,0 +1,208 @@
+lang: ga
+pivot: false
+title: An Timpléidín
+cards:
+  weather.aurora:
+    label: Gealch Polár
+    summary: Is ea sé sin feithimh réasúnach den scocht atá caite do dhochtúl saoire oibre Solara trí amhrán.
+    info: Táirgeann an gealach potharcúil (Auróra Boreálach ar an taobh thiar agus Aurória Australís ar an earch imseartha), nuair nach bpiontáin taitneamhacha solais óna ghearradh i ngabhar seo lena ndea-threascacht freisin. Tugtar spriotaín agus spiralanna de scian ghorm, úrscéalta agus donn ort féin. Is é Norvéinia, Ísuilleart, Canada agus Antraktica is fearbhuill siad.
+  weather.avalanche:
+    label: lávínn
+    summary: Claidhm ghleaca agus gealch umadh ó slúa hórnta.
+    info: Tábla íocairte is ea lávín nó lúnas airgead agus ghealach ar slua hóirne. Is é an tábhairt fhearra de phrásnaoimhse cladaigh nach féidir léithiu go dtí 300km/uath ó shuíochan na grámha. Bíonn ~150 duine mar tharla i measc na Dúiche Albanacha den chuid sin.
+  weather.blizzard:
+    label: tonnu
+    summary: Is tonu fada nó mhíchuma atá caite do dhaoine sa chóras gránna.
+    info: Tonnónta tharla i dtús agus é táillte ar an gcoinnich seo is féidir léi cur isteach go mór san áireamh sinneachta agus córas gránna. Tá sé mar thoradh don phrionsabhas de shuímhínthe na hÉireann maidir len údaráil d'fhiosróthaithe.
+  weather.breezy:
+    label: táinéadóir
+    summary: Gleasc shuíothach atá cearrbhadh don lá sult.
+    info: Táinéadóirín is é an gleasc agus tá siadh i bhfaca de réimhtheoirteach idirmhéarúlacha ó cheathrún nó ceithre mhéadar ar soicind go dtí dhéag nó dhaodh méadar mar sin (Befortscaol 3–4). Dheann sé glacadh liostaí, sligheartha agus rudanna ghrása. Mar physiciúintníos déanfaidh sí fhuilfeoil trí thaitneamh na gruaige.
+  weather.clear:
+    label: clár
+    summary: Oblocóid gan fhear amhára.
+    info: Is é Jasno an staitsead metheoraioideacha nuair is í an oblacóid faoi deireadh na hÉirinn i bhfad agus tá bealach ar bith ann. Tógann sé sin isteach an t-iontais shaolúnta is mó thar thrascnamh slianais agus cabhródh léi go mór don phostarcóp áthraithe. Sa láracht, má tá an oblacóid cléarach, bíonn iontsiad airgeadaigh nua ceart ag déanta caillteanna tréan.
+  weather.cloudy:
+    label: mreach
+    summary: Ghearraitheas mhara ar thrúslóidín gan lár.
+    info: Táirgfidh na mraith agus iad féin crutha de shuíochtaí fhuinneog seo nó sliota caoin. Tá níos mó ná 75% den ghearrthuaisceart thar an domhan mar sinneadh.
+  weather.cold:
+    label: tús
+    summary: Maidhm fhocalta coimpliúl go minic faoi bhuile.
+    info: Táirgín mhór (mar gheall air sléite agus marbhthóin) déantaíonn nuair is féidir don ghaothrach arcadtach isteach i dtuaisceart an domhain. Is é seo nua-thamhlaitheocht thíos (-89,2°C), thar thrascadh Vostock sa hAntárcte. Nuair nach bhfuil tú scéalthe, bíodh sé sin de phrós nó trí shuímhfhada.
+  weather.dew:
+    label: rosc
+    summary: Uiscéalta condenseanta ar fhurstraíocht laide.
+    info: Ros é an téarma do thugtar ar uisce atá condenséanta ó shuíse airgead is féin i dtús láithe agus nuair nach bhfuil feadhain ann san áireamh. Taispeántar go gcuirtear sé amach nuair ba mheithreachas an suaidhm thíos nua phointe (point dew) nó mar sin deiseal. Is foinse tábhachtacha den tuisce don bhlúthín agus daoine eile sa tíre grósa.
+  weather.drizzle:
+    label: Airgheam
+    summary: Déanfear amach de gcapallacha béar
+    info: Tá airgeadín is ea go minic i ngaptaí beaga fós na hóigeann agus nach bhfuil siúd ó thalamh convective ach ó clárthuair an tseasaimh. Is é seo atá ceart don tír mar Oileáin Mór-Britain nó tuaiscirt Fhranca.
+  weather.drought:
+    label: tábhacht
+    summary: Caithfidh tú scéal eolais nach féidir len taibhdheal.
+    info: Tábhacht agus an t-am seo is é sin staitis mhéadúil go bhfuil caillteas ar thrócaireacha ann i láthair. Tugann sé isteach d'fhearadh na healaínne, dáileamh thiaranta agus do ghrásaíochtanna. Bhuaigh tábhacht sa Chhearcin ó shochruidhe 2015 go dti so mar atá deirimhin don chéadaim uilig.
+  weather.dust_storm:
+    label: taibhdín draiodine
+    summary: Seomhrán tairgi orthu fhear ceoil mhor i bhféileanna lárnaithe.
+    info: Táirgín bheag agus grua ghlacadh i ngaoth mhór is ea praithníocht sa chluaidh um béarlaí beaga deargacha nó sliabhónta. Sa frainc Sácara bíodh sé mar 'harimatan'. Tugtar harimatan air an táirgeann ó Séaráis go dtí An Ameireacaigh throudh Mhuinntear Éadrom. D'fhágadar taibhdín draoidine san Easpainge tríú sheicladh d'éascairtiún eolaíoide
+  weather.flood:
+    label: táirgin
+    summary: Is é pé póscaillfidh uisce istigh san ábhar amuinn do dhualgas.
+    info: Táirgín i ngleic agus slóidheanna mhór nó trí thástáil an sneachta nó mar thoradh ar fhillteas grúnna. Is í sé sin an catrastú ó thaithne is mó costanta sa domhan. D'fhág sínteacha táirgeacha '97 agus '02 milliardaithe euro den chostais go dtí seo faoi láthair.
+  weather.foggy:
+    label: míchear
+    summary: Is míchear thírthe tíghneamhar nach féinimid.
+    info: Tábhacht is ea an mhíchear agus é tábhachta ach mór i gcomparáid lena ndeachas go minic ar fad amharc. Tá sé curtha de chnapadhanna uisce thart um nascóireacht airgid.
+  weather.freezing:
+    label: méar
+    summary: Méar údaltach caithfidh gur láthair lán de shuíse.
+    info: Táirgíonn méarú i ngleictheanna thart ar 0°C nuair atá an uisce ag athróint go léimthe. Is féidir liom é sin biologically tábhachtach do thíortha nó is dóchas nach bhfuil sé mar fhear ceoil don trásórtas. Tá méadaithe amhlaidhin sa Chesk titeann litríocht idirmhios seo (-42°C san áireamh) sna blianta '29.
+  weather.frost_flowers:
+    label: '''Fioróint'''
+    summary: Cróstalanta caol dá mholtaí eile thall.
+    info: Bhfaighfeadh sé sin i gceart go bhfuil 'fiorónta' agus cruthaithe de chrostailteanna fadaidínsearacha mar thoradh airgead isean dhorcha orthu thíos.
+  weather.frosty:
+    label: Márscéal
+    summary: Léimhin dhoightheach taobhtaisteach agus cruthanna álainn ar thréithi.
+    info: Baintear Jinóitke nuair is féidir go dtogail an téamparatúra thart ar bhuile agus caillteann sé isteach i mbuíochta fholaithe don sluaugh airgeadach san oireadh. Tugtar patróntacha beaga ós rud é nach bhfuil sliotán ann ach léimhín dearg atá curtha síos trí shubhlímint. Mar sin tá sé difriocht eatarthu idiomar 'ine' nó 'frost', mar gur tús do haine liom ansin.
+  weather.gloomy:
+    label: Mór-bhraic
+    summary: Braic thomhalt déanta ó bhláchair dhorcha.
+    info: Táirgtheacht mhórbhreacach is féinmhéalta trí bhuanadh airgead agus gealach cluiche fós nó gruaige ar an tslonn. Tá sé freisin fealaite lena dhul i mbualadh na heanamhuine agus sa lúnasa. Is é SAD (Disordúl Eile Chonaisse Éireabhtaithe Seasnacha), ceart go dtuithear don ghrábhas atá caillte amharcais istigh den ghriotaín san fhómhair.
+  weather.hailing:
+    label: Krúpa
+    summary: Is é krúaideamh eileac taobhta láimhechuairdta nach bhfuil sé sin amhlaidh.
+    info: Táirgínneacha tábhachtach is ea krupa atá freastala ar bhréagónta sna hoblacaí buartha agus nascadh siad ó thalamh chuig an airgeadbhuilte nó go dtí an fharraige mar thoradh orthu.
+  weather.haze:
+    label: Opairín
+    summary: Caused by particles like dust, soot, or pollutants that reduce atmospheric clarity.
+    info: Is é opairín an fhorbheart sna hearchim na hoilge atá caillte agus foghlaim ar phrithidhbéalta nó airgioslaí íseoltóirí mar ghrúpa. Mar sin féin is eadhar idhmhuighthe i dtreo mhíchuma—tá sé thiar ó mhimhreacha sa lárthromas nach bhfuil siad ceaptha go minice.
+  weather.heat_lightning:
+    label: heat lightning
+    summary: Light flashes distant storms visible but not heard.
+    info: '{"label":"brescín","summary":"Brecscéalta dál agus gan fhearadh ","info":"Is é sin breascín ar threo ghearrthóirthe go dtarlaonn i mbuíochan tábhachtacha nuair nach féidir an fearadh a fhoghlaim ó thaobh an dáile seo mar is mó ná 50 míle den áite céanna. Ní heolrudaíocht eolasach ach ainmneamh mhaith don phríosán taibhdiltear air. Mar thoradh lena lagmhú beag san am, bíodh siadsan caillte trína dhualgas sa scian nó tríd rogha sluaughaithe."}'
+  weather.heat_shimmer:
+    label: Miraghe
+    summary: Seascéalta sa scian de bharr loaidhne slua ag teacht trí ghaoth thaitín.
+    info: Táirgeann Marení ar an tsearcú ó phointeanna fhriththeoranta i gclár agus í ráitear go minic mar 'fhearad' nó 'mirror'. Tá sé sin caused by light bending through warm rising air over asphalt or deserts where warmer air has lower density causing optical illusions like fake puddles on roads.
+  weather.heatwave:
+    label: Fhear
+    summary: Seachráin torthaímte tempuratúire atá caolaithe lánmharghnách.
+    info: Tábla an bhfheara is é sin seachrán nua de thempurátúir airgead mhór agus beagaird na seasún nórmhálta. D'fhágann sé go dtí nach féin i gceist lenár gcuid muinteoirí mar shampla sa Bhreatainn Eorpóideacha den mbliain 2003 nuair a chuirfeadh sí ar feithmeacht dhroimthe a bheadh fós idirmhimhiúnteach amach ó rothar 70,000 daoine.
+  weather.hot:
+    label: Hoth
+    summary: Is féidir léi feadhchu cainte agus risici slándála.
+    info: Tiomanta extréimteacha is é an méid atá i bhfocail agus tá na huairge imreóir go minic nua-thuill ar mhódú sa seasamh seo. Nuair a bhuaineann sé san amhrán beag caithfidh tú scéalta de phríosan nó fás lártha mar gheall airgid dhorcha. I dtuaisceart Éire tharlaigh tiomantanna ó thaibhdín lárthais faoina mbuíochtar don athphóscaint globálach.
+  weather.humid:
+    label: moladh
+    summary: Seo moladh atá fósach go dtí ceart don tsluagh.
+    info: Moladh agus sluaugh i gceim an tseasair ann is é sin méadú ar mholtóidheanna sa tír seo thar na mílte bliain.
+  weather.hurricane:
+    label: Húra
+    summary: Cíclointe tropaic léargas go dtí 120km uair.
+    info: Is é húracaín nascéalta i dTeach Troparcálacht agus beo ar an Ailtantic nó Thiar na Pácífice Liatróideacha le gaoithe fósóidhe ós rud is 120km/uair. Is féidir freisin ceapadh air mar thafún (Pacífic Theas), nó cícloin (Océan Indi). Mar sin tá eagrasaibh mhór lena ndearnafidh seasta de láthar ábhartha.
+  weather.ice_storm:
+    label: téarnta geal
+    summary: Riandha géarfharra íseal atá curtha chuain trí slabhthú thíos tríd stoca.
+    info: Téarnta gealachta (storm agus plód mór de rian láidir nach féintheann sé) tá i ndóchas nuair is é an téacs caol ar mhaidhm na gruaige fada go dtógfar cealla taitheach ó thuras istigh sa chlár nó amhlaidhin mar gur feiceálfaidh tú céimín den chothrán.
+  weather.icy:
+    label: nálado
+    summary: Led déanta ó chuaineas lón ceart go dtorchaíonn e sin.
+    info: Táirgín ísealtar é náladóidh agus tá sé curtha i bhfeabhas den chuaideadh sléibhe nó an tslánú snaillte ar phurtsaí lára. Is féin amhlaidh is iontach fadaithreach sa seachtain do thurasféadaithe. Tá feoil fhiosraithe airge atá dornithe don tuairisc léis.
+  weather.lightning:
+    label: blioc
+    summary: Is féidir léithscéal eilectrostaitc ó sheasamh don tslonn.
+    info: Táirgín íseal é an blioscadh agus tá sé curtha i bhfeidhm nuair atá na gruaifeanna eilectreachta idirlithe ar fheadóg airgeadach sa mheascán dearg seo thar thrúth nóimis.
+  weather.misty:
+    label: mhlaghas
+    summary: Fócas ísle don phriontálaí do shláine béaga nó méaghtóg.
+    info: Táirgimh sé seo nuair is féidir léithín go condúntásaí an pásca nua i gcothromhlathana airgeadais san áireamh thart ar na grunn. Mar sin é difríocht ealaíseach ó mheascadh mhórtaoise, mar nach bhfuil fócas agus ceann caillte amach sa dhuillearthu ach beagnapós de chailti nó kilomadra. Tá sé coiteanta freisin lenár mbuíoch faoi rialtaí uatha nó lárnacha trína hearracht sligheadha.
+  weather.monsoon:
+    label: Mónscún
+    summary: Is é máthscoil thuaidhm-faoi-thimpeall atá curtha síos trí dhíchuid dáithi eile ceapda.
+    info: Tábhacht Monsoon is ea phríthreabhlóid climátach atá arís ó shéasúntais réiteasc an domhan agus an talamha mar thoradh orthu tá fholta mór déanta i gcoirteanna trópaiceacha. Tá sé bliain den mhónscún Indo-Packistanaithe nach niseann siad go dtí seacht mbliana d'fholtairí sa bhliain seo thar thrín amhran don áit sin.
+  weather.muggy:
+    label: díomsa
+    summary: Tiomantaíocht mhaith agus ghrúaideas ó dhús
+    info: Is é dúnsín an cumanadh idir témparat airgead isamh agus úlach slánacha iomlána. Mar sin go bhfuil Úlacht amhlaidhe ar siúl nár féidir do thóthar bhuailte isteach chuig scagaireadh na gruaige seo mar atá sé fós d'fhorbairt mhór don talamh.
+  weather.overcast:
+    label: beo-thuíse
+    summary: Beathaisfeadh cluaisge mar sinne d'fhágfaí siud gan solas láir
+    info: "Táobhas beagairdhe ag tarlú nuachán go dtí an deich-eigtheoch déimhsiún nó na hoch réamhar \nIs é an ghrábhlóid difríte ach nach bhfuil rian ann ar maidin\nIn iarracht SAD géarbh thabhairc ortha, tá sé ceart go mór don grísín bhuailte nár féadfar"
+  weather.partly_cloudy:
+    label: Polojasno
+    summary: Seo ábharchuimhnighthe cladaíte nó claonadh san am céileac.
+    info: Táirgeann polojasno ar choimeannaíocht meascach de láithre agus nuanasnacha, nuair atá an tseandúl parthnasaithe chuamartha. Tá sé seo ceart go minic don ghabháltóireacht fós na healaíochta mar tá cumalóidhean (cumulus) ann nach bhfuil siad cearr dá bheithear i dtús na lae thiar maidin.
+  weather.rainbow:
+    label: táirge
+    summary: Oblóige iscairt do dhíchthear nuair atá géarchuainn agus cól á baint.
+    info: Táirgín iascach ag dul thar spéadhna huaire nach gcabhann an ghrian arúntas go dtí gur féidir léi teacht amach trí phoisteachta sliabhtean don réimse. Tá seacht dath ann - donn, ór, buan, glas, mhuinnteoir, údharbhán agus gealach.
+  weather.rainy:
+    label: dún
+    summary: Bainfear dáileaght is ea an dún.
+    info: Tá dún ar fadóin bheannaíteacha den phuadh i mbreacaí agus tá sé tharpeann don ghabhú de réitthea, lochaíonna agus taisce uisce dhéanta. Tonnas an lárthónn go n-aontaí ceithreach amach ó mhórán na heantra.
+  weather.sandstorm:
+    label: siaradh
+    summary: Seo tharraingt san fhiosfaras atá curtha isteach faoin tionscnuithe mar sin.
+    info: Torthóid síoradh ó shuíomh gruaige agus gaoith mhór i dtuaisceart na bpúsdhearcachta. Is é haboób nascarta ar siaradh sa Shéal údhamh agus ar an deiscearthrói Arabacha. D'fhoghlaim sé go nd'éantear beirtín is fearr fós nó nach bhfuil sult airgeadais acu.
+  weather.shower:
+    label: preithriche
+    summary: Preith richeadh breise ó mbuíochán cúmulónímbeach.
+    info: |-
+      {"label":"preithriche","summary":"Déanann preith richeadh ó mbuíochán cúmulónímbeach breise na heastaire,""info":"Téann preithriche amuigh de bhuiocán convecte (cúmhlus nó cumbilúnibhus).\r
+      Is é sin an t-am go dtosóidh sé agus is féidear nach gcuid iad seo nár thugtar orthu ar feadh míun tíse.\r
+      Caolaitheas e do lucht na hÉistean: caillteas slaine don grian dátaisín méadaíonn convection agus cruthaíonn buiocaí cumbilúnibhuinn d'fhoinfear.\r
+      D'éirífidh prásóg nuair atá preithriche ann."}
+  weather.sleet:
+    label: sló
+    summary: Mích deth agus sneaghtear; gruanacht part-time.
+    info: Táithní slóg nó 'rain that freezes' nuair atá fliúnta gealach ag teacht tríd scian amhlaidheach airgead is féin i dtalamh thiarlaithe go meán. Is é sin an t-aon rud mar ghrábhadh ar shuíbhéalta géar nach bhfuil siad cinniúnacha ceart—agus tá sé seo á baint leo nár mholadh na flúintíní céanna ach parthlagan acmhainne.
+  weather.slush:
+    label: téarntean
+    summary: Sneag riantach amhlaidh lúsaithe atá cluaireach agus eagracha.
+    info: Téarntearm (slush), nó 'rozbředlý sne', déanann sé nuair nach ceart go dtí an témpératur ar feadh na grada céime agus mar sin tá an sneag deacraigh acu. Is é seo molta isluaine don ghrúdín agus do threóirí. Tá sé ann freisin mar thracht trí aquaplaning agus máthramh airgead phnéarc.
+  weather.snowy:
+    label: sneach
+    summary: Padraigín sneachta beaga ó shuíse.
+    info: Táirgín i bhfabhar sluaisteán agus fliúnta de réir go ndéanann dochtaracha uisce san airgead mór íocas don gheamhradh - tábhachtóireachtaí sceitilte. Tá séimicthe ar bith d'fhormeacht thaiscéalaíoch idirmhéid.
+  weather.stormy:
+    label: buirsteach
+    summary: Poicthear draiochtúil leis an tslíghearadh, an ghroimean agus gruaige mhór.
+    info: Táinnteann buirtha i mbuíochta mór na cumhlaínne nimbóideacha. Is é sligheamh an t-electrach agus is féidir liom gur ceol í do thabhairt amach ó shuairc airgead ar phointe.
+  weather.sunny:
+    label: solas
+    summary: Neart siamsara gan ngléimheanna.
+    info: Táirgfeadh an tsiamsa thall nuair nach mbliocóidh ngleamha an gealach ón gründeach súiltear agus tá sé ábalach don ghrún dearg is fós do phortain go léir ar dtús.
+  weather.sunrise:
+    label: táinig
+    summary: An moment nuair nach mór do théastail síos trí an chorón.
+    info: Táinig an lá i gceart agus feiceálann tú an dorcha gruaigeach ar thuras an tslóinne seo caite. Tugtar 'Rayleigh scattering' don phríomhfhocrún á luchtú go dtoradh ó shláinte san am sin.
+  weather.sunset:
+    label: táirgín
+    summary: An moment nuair nach raibh séaróg ar siúl agus caillfidh an gréargráma sa lárán.
+    info: Táirgín an lá is ea an am nuair nach raibh séaróg ar siúl agus caillfidh an gréargrámh sa lárán. An tábhairteacht de ghearrthóinseacha (órtha, dáithríona, úllmhéalta), tá snaoi i bhfeabhas don phostcairt seo mar thoradh airgeadaithe slaine. Is é sin nasc go dtí an méadaimhteachas san áireamh.
+  weather.thunderstorm:
+    label: táirgi
+    summary: Imríocht intinsiv taomhteoideach leis géilichthe, hrom, uisce agus gaol.
+    info: Táirgín i bhfacaíodh cumulónimbheacha, blianta mhór atá faoi dhó roímhmhaireach agus níos gaotha ná an méid is féin. Tá feithchealladh ghleiceann eilectrostaitce ann nuair nach raibh sé láthar do thuras ar fhear ceart trína phointeachtaí dhorcha—agus mar sin tá gealach ó shuime seo go dtí 30,000°C san am céanna lena mbuíochtar. Is é an t-amhrán a chuirtear istigh sa scéal don téarma 'hrom' an suaimhneas atá déanta den airgeadú rádharc.
+  weather.tornado:
+    label: toranna
+    summary: Slabhuair rothaiteacha dhorcha atá feithimte do shuíomh.
+    info: Is é tornado an turascóras agus féin uilig de ghearrthuaisceart thar thrámh na tíre ó bhrúnta nó gránna. Is féidir go dtighneann siad ar fhiosrú amach trí mhil i huaireadh phointe mar sin.
+  weather.typhoon:
+    label: táj fun
+    summary: Cyrlód is trophacailteann mar sin féin nuachtartha do thuarcósanna trí Éireann Thuaidhm-Paitíc
+    info: Is é tájfún an ainm don thurascóin i nghearrthuaisceart na hÁise agus íocair ar fud Philean, Chinne agus Eapón. Tógtafidh séasamhanta de réir uimhir dheth go dtí dá trintú ceathrú taiscín philibineach sa bhliain. D'fhág síbhéal taífuna Nína (mar shampla san amhradh seo caoi?) ina thruaith mór annsa Chinnse atá airgead nó dhaichead mhillean daoine.
+  weather.waterspout:
+    label: Water Spout
+    summary: Slipéar rothadhacha atá curtha idiomhreachta trí tuillt chuimsithe
+    info: Táirgín mór is é an 'water spout' agus tá sé mar ghealach beo ar thalamh uisce nó locha go dtí cloigint. Is féidir léi rudaím den chuid de phisceach nó daoine eile iad a staitheadh agus siúd amach ó thuairmse don talamh.
+  weather.whiteout:
+    label: tama beóa
+    summary: Baintear údarás ó thuras sna heochracha trí bhuíocht.
+    info: Táirgín beo agus an fhearann bheagta de shníth is éascaint na hoireadóin go dtosach i gceart don phointeach cailltear uile conasúlacht.
+  weather.windy:
+    label: gleó
+    summary: Gleó mhór nach féinimidh crann nó ceoil.
+    info: Táirgíonn an gleoúlachta ar feadh na talamh mar thoraidh don ghearrthocht láithneacha dhorcha agus fósanna eile den thalamh atá tábhachtach i dtreo phointe uasail go pointín is réidh.

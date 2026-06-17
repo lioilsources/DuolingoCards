@@ -2,14 +2,66 @@ lang: en
 pivot: false
 title: Vegetables
 cards:
+  veg.artichoke:
+    label: artichoke
+    summary: Large leafy edible flower buds
+    info: Artichoke is actually an unopened bud of large spiny plant called globe artichoke variety 'scolimus'. We eat its heart at bottom part along fleshy bases petals.
+  veg.arugula:
+    label: rocket
+    summary: Spicy dark-green salad herb popular across Italy.
+    info: Rocket (Eruca vesicaria subspecies sativa), also known locally as arugula outside Britain, originates from the Mediterranean region. It has an intensely spicy to slightly bitter taste due to its glucosinate compounds. Rocket is commonly used raw on pizza after baking.
+  veg.asparagus:
+    label: asparagus
+    summary: Tender young stalks harvested early season.
+    info: White asparagus is grown without sunlight and has a more delicate flavor than its green counterpart. Consumption causes characteristic urine odor for about 20–40% people due to compounds like asparagine.
+  veg.bamboo_shoot:
+    label: bamboo shoots
+    summary: Juvenile growths on young bamboos that form part of traditional East & Southeast Asian cuisines.
+    info: Young bamboo shoots harvested shortly after sprouting serve as an essential ingredient for Chinese, Japanese, and Thai cuisine. Fresh bamboo shoots contain cyanides so they must be cooked before consumption while canned ones can safely be eaten.
+  veg.beet:
+    label: red beet
+    summary: Dark-red round-rooted plant grown both for its colorant properties and nutritional value.
+    info: Red beetroot contains betalain, an intense natural red dye. It is rich in nitrates that enhance athletic performance and lower blood pressure. Sugar beets belong to another variety used for white sugar production. Pink urine after consuming red beet can occur but it's harmless.
+  veg.bok_choy:
+    label: brazed pak choi
+    summary: Asian vegetable that grows best during winter months.
+    info: Braised pak choi is rich in vitamins B9, potassium, calcium, iron, magnesium, phosphorus, zinc, copper, manganese; it also contains vitamin E.
   veg.broccoli:
     label: broccoli
     summary: Green vegetable with a dense flower head on a thick stalk.
     info: Broccoli is a green vegetable from the cabbage family. It is exceptionally rich in vitamin C, K, and antioxidants; it originates from Italy.
+  veg.cabbage:
+    label: head cabbage
+    summary: Round green plant used to make fermented foods like sauerkraut.
+    info: Head cabbage (*Brassica oleracea*) is an ancient vegetable cultivated across Europe for thousands of years. It contains vitamins C and K along with glucosinolates that have anti-cancer properties. Fermentation produces sauerkraut, rich in probiotics.
   veg.carrot:
     label: carrot
     summary: Sweet-tasting orange root vegetable.
     info: Carrots are biennial plants cultivated for their juicy orange roots. They are rich in beta-carotene (a precursor to vitamin A) and dietary fiber.
+  veg.cauliflower:
+    label: cauliflower
+    summary: White compact cluster made up by many small florets.
+    info: Cauliflower is related to broccoli. Its white color arises because leaves protect its flowers against sunlight which prevents formation of chlorophyll. There also exist purple, orange and green varieties.
+  veg.celeriac:
+    label: celeriac
+    summary: Large knob-like white root used primarily to make soups.
+    info: Knobbed parsley-root is an edible variety cultivated for its roots rather than stalks like typical leafy varieties such as flat-leaved parsley.
+  veg.celery:
+    label: celer
+    summary: Crunchy aromatic herb-like plant believed by some not to provide net caloric value.
+    info: Celery is native to the Mediterranean region. It has been claimed that consuming celery burns more calories than it provides—this claim lacks scientific evidence. Celery forms part of French cuisine's trio known as 'mirepoix' along with onion and carrot. Its juice serves popularly for detoxification.
+  veg.chard:
+    label: swiss chard
+    summary: Colorful leafy greens featuring vibrantly colored stalks.
+    info: Swiss chard is related to beets but has colorful stems that can range between green, yellow, purple-red, even multicolored like rainbows along its long petioles extending up through broad leaves at their tops.
+  veg.chickpeas:
+    label: chickpeas
+    summary: Round brownish bean-like seed that serves as an ingredient commonly found within recipes such as Hummus & Falafel.
+    info: Chickpeas (Cicer arietinum) is a popular pulse native to South Asia and the Middle East. It forms the base for dishes like hummus (chickpea paste), and falafels (fried balls). Chickpeas are rich in plant-based proteins making them common ingredients used by both veganists and vegetarians alike.
+  veg.chili:
+    label: hot
+    summary: Spicy red or green capsicum used extensively across Asian cuisines.
+    info: The chili is an extremely spicy variety of Capsicum peppers that contains capsaicin responsible for its heat level measured on the Scoville scale—ranging up to over two million units such as found in Carolina Reaper varieties compared against jalapenos at around five thousand eight hundred maximum points respectively.
   veg.corn:
     label: maize
     summary: Tall grass plant with rows of juicy kernels on an ear.
@@ -18,18 +70,80 @@ cards:
     label: cucumber
     summary: Long green vegetable with cool juicy flesh.
     info: The cucumber is a tropical vegetable from the gourd family. It contains 95% water, making it refreshing and popular in salads or as a snack.
+  veg.eggplant:
+    label: eggplant
+    summary: Dark purplish oval-shaped fruit used commonly throughout Mediterranean & Middle Eastern cuisines such as Moussaka dish made primarily using sliced cooked meat topped off with layers consisting mainly outta mashed potatoes mixed together along side grated cheese plus pureed version containing olive oil etc.
+    info: Eggplants originate from India where they have been cultivated for thousands of years. In Italy it is known as 'melanzana', while France calls them 'aubergines' and America refers to these vegetables simply by their common name - eggplant because historically some varieties resembled eggs when immature green ones were harvested early on before turning deep violet color later during ripening process.
+  veg.endive:
+    label: Chervil
+    summary: Light green salad base possessing bitterness.
+    info: Chervil (also known as Belgian witloof when referring to specific varieties like Cichorius intybush or C.endivia), is characterized by its distinctively bitter flavor due to intibinic acids found within it's leaves . The white coloration occurs through cultivation under darkness for some types such as Chicories while others achieve whiteness via exposure away from direct sunlight called Witloofs respectively.
+  veg.fennel:
+    label: anethum
+    summary: White onion-shaped plant resembling parsley but tasting similar to star anise.
+    info: Anethum graveolens has its sweet licorice flavor due to anethole. The root, stems, and feather-like leaves can be eaten raw or cooked. It is used extensively across Mediterranean cuisine for dishes such as pasta sauces like pesto, salads, baked fish.
   veg.garlic:
     label: garlic
     summary: A pungent white bulb with a strong smell, forming the basis of flavor for many dishes.
     info: Garlic has been used in cooking for thousands of years both as seasoning and medicine. It contains allicin, which has antibacterial and anti-inflammatory properties.
+  veg.ginger:
+    label: ginger
+    summary: Spicy knobbly brownish-yellow root.
+    info: Ginger is an underground stem called rhizome that comes originally from tropical Asia. It contains compounds like gingerols responsible for its spicy taste and anti-inflammatory properties.
+  veg.green_beans:
+    label: string beans
+    summary: Long unripe green bean pods.
+    info: Green bean pods (Phaseolus vulgaris) are harvested before they fully mature. They can also be called French beans, string beans, or Bobby beans. These contain vitamins C, K, and folic acid.
+  veg.kale:
+    label: curly kale
+    summary: Dark curly leafy greens used for making salads.
+    info: Curly Kale is highly nutritious dark green vegetables rich in vitamins K, A, C and antioxidants.
+  veg.kohlrabi:
+    label: rabri
+    summary: A green vegetable resembling broccoli but without florets.
+    info: Rabri is related to cabbages such as Brassica oleracea varieties like kale or kohlrabi itself.
+  veg.leek:
+    label: leek
+    summary: Large milder member of Allium family.
+    info: Leek is related to onions and garlic. It's also used by Welsh people on St David’s Day for its national symbolism.
+  veg.lentils:
+    label: lens
+    summary: Flat seed pods used commonly across cuisines worldwide.
+    info: Lentils have been cultivated for over ten thousand years and come in red, green, brown, and black varieties such as beluga lentil. They can be cooked without soaking within twenty to thirty minutes—faster than beans—and serve primarily as an essential plant-based protein source especially prominent in Indian cuisine where they form dishes like dal.
+  veg.lettuce:
+    label: lettuce
+    summary: Crisp leafy vegetable commonly found at the base layer under other ingredients within mixed greens.
+    info: Head lettuce has been cultivated since ancient times in Egypt. It contains over 95% water making it low-calorie greenery used for salads.
+  veg.lotus_root:
+    label: lotus root
+    summary: Cross-section showing beautiful patterned hollow chambers inside edible part commonly found throughout various cuisines around world.
+    info: Lotus root is an underground stem that comes from sacred lily plants such as Nelumbo nucifera species which grow across Asia including China Japan India etc.
   veg.mushroom:
     label: mushroom
     summary: A pale-brown capped mushroom used in cooking.
     info: Agaricus bisporus is the most widely cultivated mushroom in the world. It is rich in protein, B vitamins, and minerals; it is used in countless dishes.
+  veg.okra:
+    label: okra
+    summary: Green ribbed pods used to make stew base
+    info: |-
+      Okras grow originally from tropical Africa
+      They form star shapes when cut crosswise
   veg.onion:
     label: onion
     summary: Pungent layered bulbous vegetable used for flavoring food.
     info: Common kitchen onion is one of the most cultivated vegetables worldwide. It is used to season dishes around the world and contains flavonoids with antibacterial effects.
+  veg.parsley:
+    label: cilantro
+    summary: Bright-green leafy plant that serves both decorative purposes while adding distinct aroma to meals.
+    info: Cilantro is widely used for seasoning food and decoration on dishes. It contains more vitamin C than oranges per weight unit. There exists smooth (flat), also called Italian parsley, and curled variety known commonly just 'curly' type - chefs usually choose former because it has stronger flavor profile.
+  veg.parsnip:
+    label: parsnip
+    summary: Creamy-white taproot used widely throughout medieval Europe.
+    info: Parsnip is related to carrots but has its own distinct flavor profile.
+  veg.peas:
+    label: peas
+    summary: Tiny green balls growing on vine-like plants during springtime representing delicacy.
+    info: Pea is an ancient cultivated pulse species used since antiquity for its small rounded edible seed pods filled with tiny yellow-green beans inside them which can be eaten raw directly off-the-vine when young enough to still have tender shells around each individual bean within those plump little clusters that grow along vines.
   veg.pepper:
     label: bell pepper
     summary: Shiny colorful vegetable with sweet or spicy taste.
@@ -38,7 +152,55 @@ cards:
     label: potato
     summary: Brown starchy base for many dishes worldwide.
     info: The potato originates from the Andes in South America and is one of the world's most important crops. It provides carbohydrates, vitamin C, and potassium.
+  veg.pumpkin:
+    label: pumpkin
+    summary: Large yellow-orange spherical gourd used for Halloween decorations.
+    info: Pumpkin comes originally from America. It is rich in carotene and vitamins A and C.
+  veg.radish:
+    label: radish
+    summary: Small spicy reddish root vegetable used mainly around springtime.
+    info: Radish is a fast-growing root vegetable that comes in small varieties which tend to be red when grown for summer use while larger winter radishes like Daikon have an off-white coloration due primarily but not exclusively because they're harvested later during colder months after having been planted earlier on than their smaller counterparts would typically require before being ready enough such time periods allow them sufficient growth cycles necessary towards achieving full maturity status within those respective seasons.
+  veg.spinach:
+    label: spinach
+    summary: Dark leafy green vegetable that's rich in iron.
+    info: Spinach comes originally from medieval Persia. It is high in vitamins K, A, C, folic acid, and iron.
+  veg.spring_onion:
+    label: spring onion
+    summary: A mild bulbous vegetable used raw for salads.
+    info: Spring onions ((Allium fistulosum)) are harvested before they mature.
+  veg.squash:
+    label: pumpkin
+    summary: A varied-shape winter pumpkin used primarily during autumn cooking.
+    info: Winter pumpkin (Cucurbita) includes varieties such as buttercup, acorn, delicata, and kabocha. It forms a hard shell that protects it for months; whole pumpkins can be stored throughout the entire winter season.
+  veg.swede:
+    label: swede
+    summary: Large purplish yellow tuberous plant used commonly across Northern Europe.
+    info: Swede (turnip rape), also known as Brassica napus, is a cross between cabbage and turnips. In America it's called rutabaga while Scotland considers its indispensable side dish to be partaking alongside traditional fare like Haggis which requires accompanying ingredients for completeness.
+  veg.sweet_potato:
+    label: sweet potato
+    summary: Orange sweet root vegetable unrelated to traditional potatoes.
+    info: Sweet potato (Ipomoea batatas) originates from South America; it is not botanical related to potatoes. It's rich in beta-carotene, vitamins A and C, and fiber.
+  veg.taro:
+    label: arrowroot
+    summary: Large tuberous plant rich in starch found primarily within warmer climates.
+    info: Taro is grown for its edible root that has been cultivated for thousands of years across tropical regions like Asia, Africa, and Oceania. It serves as an essential staple food—especially notable among cultures such as those on Hawaii where it's used to make fermented dishes known locally under names derived from 'poi'. The flesh contains oxalic acid which can cause irritation when raw but becomes safe after cooking.
   veg.tomato:
     label: tomato
     summary: Red round fruit used as a vegetable.
     info: Tomatoes are botanically fruits (berries) but are used as vegetables in cooking. They originate from South America and contain lycopene and vitamin C.
+  veg.turnip:
+    label: waterturnip
+    summary: White-purplish round root vegetable used traditionally across central europe.
+    info: Turnip (Brassica napus sylvestris), also known as water turnips is an edible plant related to radishes that was once widely grown throughout Europe before potatoes were introduced by Western America . It contains vitamin c , calcium fiber which makes it vegetarian alternative meat ; Watercress soup being traditional Central European recipe.
+  veg.watercress:
+    label: watercress
+    summary: Small dark-green hot-tasting aquatic plant.
+    info: Watercress (Nasturtium officinale) grows in cold streams and springs. It has an irritating peppery taste due to glucosinate sinalbin. It is rich in vitamins C, K, and beta-carotene.
+  veg.yam:
+    label: yam
+    summary: Large starch-rich tropical plant grown mainly for food.
+    info: Yam is a large starchy root vegetable found primarily in Africa's tropical regions but also cultivated across Asia and parts of Caribbean islands like Jamaica where it plays an important role culturally due to its historical significance during slavery times when enslaved Africans brought their knowledge about yams which became part African American culture through stories such as 'The People Could Fly'.
+  veg.zucchini:
+    label: courgette
+    summary: Green summer gourd used extensively both raw fresh state directly off plant vines where grown organically without pesticides applied regularly for health benefits purposes
+    info: Courgettes belong to Cucurbitaceae family within species 'Cucurbita pepo' harvested unripe at lengths between seven centimeters up twenty-five long before they turn yellow when matured completely through their life cycle which originates originally out Mexico but became widely cultivated throughout Europe especially after being introduced there via Italian countries first during early stages following initial domestication processes around world history timeline.

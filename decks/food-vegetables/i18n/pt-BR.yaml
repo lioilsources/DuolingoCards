@@ -2,14 +2,74 @@ lang: pt-BR
 pivot: false
 title: Verdura
 cards:
+  veg.artichoke:
+    label: alcachofra
+    summary: Hortaliça verde-espinhenta grande cujo alimento são apenas os rebentos florais.
+    info: A alcachofra comestível é um broto de uma grande planta espinhosa da espécie Cynara cardunculus. Comemos o coração e os bases carnudas das folhas externas. Ela tem gosto amargo característico por isso ela está presente em bebidas como Vermouths Cinzano e Cynar.
+  veg.arugula:
+    label: roquete
+    summary: Salada verde escura com gosto adstringente popular em Itália.
+    info: A roquette é originária do Mediterrâneo e tem um sabor caracteristicamente picante devido ao glucosinolato. É uma base da culinária italiana que costuma ser adicionada crua à pizza após assar no forno.
+  veg.asparagus:
+    label: espargo
+    summary: Broto tenro da primavera; verdura sazonal requintada.
+    info: O espargo branco é cultivado sem exposição ao sol e tem sabor mais delicado do que o verde. A ingestão pode causar um odor característico na urina em até 40% das pessoas devido à substância 'asparginase'. É uma hortaliça tradicionalmente apreciada nas culinárias germânica ('spargel') e francesa.
+  veg.bamboo_shoot:
+    label: vitela de bambu
+    summary: Broto verde e quebradiço usado em culinária asiática.
+    info: Vitelas de bambu são brotos jovens colhidos logo após o surgimento do caule da planta Bambusoideae.
+  veg.beet:
+    label: cenoura vermelha
+    summary: Legume com raiz arredondada marrom-roxa; fonte alimentícia e coloração.
+    info: A cenoura vermelha contém betaínio, um forte corante natural roxo-vermelhado e é rica em nitratos que aumentam desempenho esportivo e reduzem pressão arterial. A cana-de-açúcar é uma variedade diferente usada para produção de açucar branco.
+  veg.bok_choy:
+    label: pac choi
+    summary: Hortaliça asiática verde escura com caules brancos.
+    info: O pak choi ou bok choy é uma planta da espécie Brassica rapa subspecies chinensis originária da China e muito usada nas culinas china, japonesa e tailandesa como base de pratos com folhas verdes. É rico em vitaminas C, K, A além do cálcio essencial para ossos saudáveis.
   veg.broccoli:
     label: brócolis
     summary: Verdura verde com cabeça de flores densa em um caule carnoso.
     info: O brócolis é uma verdura da família das cruciferas. É excepcionalmente rico em vitamina C, K e antioxidantes; originário da Itália.
+  veg.cabbage:
+    label: repollo
+    summary: Verduras com folhas firmes que servem como base para os chucrutes.
+    info: Repolhos são uma verdura antiga cultivada há milhares de anos em toda Europa e contêm vitaminas A, B6, C além do ácido fólico.
   veg.carrot:
     label: cenoura
     summary: Legume de raiz laranja com sabor doce.
     info: A cenoura é uma planta biológica cultivada por sua raiz suculenta e colorida em tons de laranja. É rica em beta-caroteno (pro-vitamina A) e fibras.
+  veg.cauliflower:
+    label: couve-flor
+    summary: Cabeça densa branco feita de muitas flores; uma aposta belga em legumes brancos
+    info: |-
+      Couve-flor (Brassica oleracea var. botrytis) é parente da couve-brócolos
+      A cor branca surge porque as folhas protegem a cabeça contra os raios solares e assim impedem que seja produzido clorofilho
+      Também existem variedades roxas, laranjas e verdes
+      couves-flores são um ingrediente popular na culinária sem glúten como alternativa à farinha ou arroz
+  veg.celeriac:
+    label: raiz de bulbo
+    summary: Raiz grossa em forma de botão branco da planta Apiun graveolens.
+    info: O raiz de apio com bolbo (Apiun graveolens f. tuberosa ou Apium graveolens cv.) é uma variedade cultivada especificamente por sua raiz carnosa e sabor intensivo típico do endro.
+  veg.celery:
+    label: api
+    summary: Hortaliça verde crocante de aroma forte.
+    info: O apio raste em regiões mediterrâneas e é uma das bases da cozinha francesa chamada 'mirepoix', composta por cenouras, alho-porros e cebolas. Acredita-se que consumir api custe mais calorias para digerir do que forneça, embora isso não tenha sido comprovado cientificamente.
+  veg.chard:
+    label: beterrabaceae
+    summary: Hortaliça verde rica em vitaminas K, A e C.
+    info: O mangaldaço é uma variedade de beterraba com folhas verdes e caules coloridos que pode ter hastes roxas ou multicoloridas como um arco-íris.
+  veg.chickpeas:
+    label: grão-de-bico
+    summary: Leguminosa bege redonda que serve como base tanto pro húmmus quanto os bolinhos de grão.
+    info: |-
+      Grão-de-bico (Cicer arietinum) é uma leguminosa popular no Oriente Médio e Índia.
+      É usada para fazer o húmmer (pasta de grãos-de-bico), falcáfelo ou croquetes grelhados feitos com farinha do bicho,
+      e também ricos em proteínas vegetais sendo muito consumida por veganos e vegetarianos;
+      além disso sua água residual chamada aquafaba pode substituir clara de ovos nas receitas.
+  veg.chili:
+    label: pepper
+    summary: Pequenas pimentas vermelhas ou verde-piquentonas usadas como base em culinária picante.
+    info: 'A pimenta chili (Capsicum annuum e espécies relacionadas) é uma variedade muito picante de pimentão. A pungência ocorre por causa da capsaicina, medida pela escala Scoville (exemplo: jalapeno tem entre 2.500–8.000 unidades Scoville [SHU], enquanto que a Carolina Reaper ultrapassa os dois milhões). O papel evolutivo da capsaicina é afastar mamíferos mas não aves – estas ajudam na dispersão das sementes.'
   veg.corn:
     label: milho
     summary: Planta de grãos amarelos com fileiras suculentas em uma espiga.
@@ -18,18 +78,85 @@ cards:
     label: pepino
     summary: Legume verde alongado com carne refrescante e suculenta.
     info: O pepino é uma hortaliça tropical da família das cucurbitáceas. Contém 95% de água, sendo refrescante e muito usado em saladas ou como lanche.
+  veg.eggplant:
+    label: berimbau
+    summary: Verdura roxa alongada usada principalmente para preparar pratos típicos
+    info: |-
+      Berimbau (Solanum melongena) vem da Índia e é cultivado há milhares de anos.
+      Na Itália chama-se melanzana na França berimbaú ou aubergine nos EUA chamam-no de berimbau
+      Contém esculemina um forte antioxidante presente em sua casca escura É ingrediente fundamental das culinárias mediterrânea e do Oriente Médio como no prato Moussaka babaganush e Ratatui
+  veg.endive:
+    label: escarola
+    summary: Horta folhosa clara com sabor adstringente; ingrediente básico em misturas verdes.
+    info: A escarola é uma hortaliça com gosto amargo característico causado por ácidos cíclicos chamados intibinas e pode ser reduzido através do processo de alvejamento ou 'blanching'. A cor branca da raiz ocorre quando cultivada na sombra para o tipo chicória ou sob sol direto no caso específico do witloof belga.
+  veg.fennel:
+    label: funcho
+    summary: Cebola branca com ponteiras filamentosas que possui um aroma suave característico.
+    info: O funcho (Foenicolum vulgaris) tem gosto doce e semelhante ao eneldo devido à presença da aniato. Comem-se o bolbo branco, os caules alongados assim como suas folhas finas em forma de penacho. É ingrediente fundamental na culinária mediterrânea italiana sendo usada no preparo de molhos tipo pesto, saladas ou peixes assados.
   veg.garlic:
     label: alho
     summary: Bulbo branco picante com aroma forte e intenso, base de sabor em muitos pratos.
     info: O alho tem sido usado há milênios na cozinha como tempero e remédio. Contém alicina, uma substância que possui propriedades antibacterianas e anti-inflamatórias.
+  veg.ginger:
+    label: gengibre
+    summary: Raiz marrom com textura nodosa usada como especiaria.
+    info: Gengibre é uma raiz de planta originária da Ásia tropical e contém gingeróis, substâncias responsáveis por seu ardência e propriedades anti-inflamatórias. Pesquisas mostram que o gengibre pode ser eficaz contra náusea e enjôo estomacal.
+  veg.green_beans:
+    label: ervilha-verde
+    summary: Longos vagens verdes do Phaseolus vulgaris que são recolhidos quando ainda não maduros.
+    info: Vagem de feijão verde são colhidas antes da completa amadurecimento e também conhecidos como ervilhas francesas ou vagens com fio. Eles contêm vitaminas C, K e ácido fólico.
+  veg.kale:
+    label: couve-kale
+    summary: Verdura folhosa azul escura; superalimente.
+    info: A couve-kale é uma verdura verde-escura muito nutritiva e pertence à espécie Brassica oleracea var. sabauda. É rica em vitaminas K, A, C e antioxidantes. Na década de 2010 tornou-se um alimento icônico entre vegetarianos e adeptos do movimento saudável.
+  veg.kohlrabi:
+    label: rabanete
+    summary: Hortaliza de raiz carnuda em forma redonda; semelhante à família das brassicas.
+    info: O rabanete (Brassica oleracea gongylodes) é uma hortaliça parente da couve-flor e do repolho. Com-se tanto os tubérculos inchados como suas folhas. Tem um sabor suave adocicado com textura crocante pode ser consumido cru ou cozinhado.
+  veg.leek:
+    label: repolho
+    summary: Vegetal suave grande família das cebolas usado em sopas
+    info: Repolho (Allium ampeloprasum) é parente da cebola e do alho. É um símbolo nacional de Gales os galeses o usam no dia dos santos David. Contém alicona e vitaminas K e C.
+  veg.lentils:
+    label: lentilha
+    summary: Pequenas sementes planas usadas para obter proteínas vegetais.
+    info: A lentilha é uma das ervilhas mais antigas cultivadas há milhares de anos e pode ser encontrada nas variedades vermelha, verde, marrom ou preta como beluga. Ela cozinha rapidamente em cerca de meia hora sem precisar deixar na água por muito tempo.
+  veg.lettuce:
+    label: Alface Cabeçudo
+    summary: Verdura crua usada principalmente para fazer saladas verdes.
+    info: A alface cabeça é cultivado desde os tempos antigos no Egito e contém mais de 95% água sendo uma hortaliça baixa em calorias. Existem muitas variedades como iceberga, rocambole, lola, coração moleiro folhas carvalho.
+  veg.lotus_root:
+    label: caulículo de lótus
+    summary: Corte longitudinal com belos buracos no caulículo da planta; iguaria típica da Ásia.
+    info: O caule subterrâneo do lótus sagrado é o Nelumbo nucifera e revela furos simétricos em seu corte transversal. É um ingrediente fundamental na culinária asiática como china, japonesa e Indiana.
   veg.mushroom:
     label: Cogumelo
     summary: Cogumelo castanho claro com chapéu e caule usado em cozinha.
     info: O cogumelo champignon é o fungo cultivado mais comum no mundo. Rico em proteínas, vitaminas do complexo B e minerais; utilizado em uma infinidade de pratos.
+  veg.okra:
+    label: quiabo
+    summary: Frutos verdes com nervuras longitudinais que possuem um aspecto pegajoso.
+    info: |-
+      O quiabo (Abelmoschus esculetos) origina-se da África tropical
+      É ingrediente fundamental do prato americano 'gumbo'; sua consistência viscosa engrossa molhos e sopas.
+      Ao cortar o fruto transversalmente forma uma estrela em seu interior.
+      Ele é rico em fibras alimentares assim como nas vitaminas A,C,K além de conter ferro.
   veg.onion:
     label: cebola
     summary: Vegetal picante e em camadas usado para temperar pratos.
     info: A cebola comum é uma das hortaliças mais cultivadas do mundo. É usada para dar sabor aos alimentos em todo o globo; contém flavonóides com efeitos antibacterianos.
+  veg.parsley:
+    label: cenoura-doce
+    summary: Planta verde brilhante utilizada tanto para decorar quanto adicionar aroma.
+    info: Cenoura-doce (Petroselinum crispum) é amplamente usada como tempero e decoração em pratos culinários. Ela contém mais vitamina C do que os laranjas por peso. Existem variedades lisas ou curvas sendo que chefs geralmente preferem a versão plana pela sabor forte.
+  veg.parsnip:
+    label: pastação
+    summary: Raiz cremosa de cor clara usada como alimento básico na Europa medieval.
+    info: O pastinácio é uma hortaliça com raiz branca e alongada da espécie Pastinaca sativa.
+  veg.peas:
+    label: feijão-verde
+    summary: Pequenas bolinhas verdes dentro de um casulo.
+    info: Feijão-verde (Pisum sativum) é uma leguminosa cultivada desde os tempos antigos. Gregor Mendel estudou feijões em seus experimentos sobre hereditariedade entre 1856 e 1863.
   veg.pepper:
     label: pimentão
     summary: Legume colorido brilhante com sabor doce ou picante.
@@ -38,7 +165,63 @@ cards:
     label: batata
     summary: Tubérculo subterrâneo amarelado e base de muitas refeições em todo o mundo.
     info: A batata originou-se dos Andes na América do Sul e é uma das culturas mais importantes do mundo. É fonte de carboidratos, vitamina C e potássio.
+  veg.pumpkin:
+    label: abobrinha
+    summary: Grande abóbora laranja redonda usada simbolizando o outono no Halloween.
+    info: |-
+      Abóbora (Cucurbita maxima ou pepo) é originária da América do Norte e Central
+      Ela contém alto teor de betacaroteno assim como vitaminas A e C,
+      a tradição escultórica associada ao Halloween ('lampião' jack-o’), provem da Irlanda;
+      os grãos são uma fonte excelente para o zinco, magnésio e proteínas vegetais.
+  veg.radish:
+    label: nabo
+    summary: Pequena verdura crocante de raiz vermelha ou branca.
+    info: Nabo (Raphanus sativus) é uma hortaliça de raiz que cresce rapidamente. O pequeno nabo do jardim geralmente tem cor vermelha e o grande nabo de inverno costuma ser branco (chamado 'daikon'). Contém glucosinolatos com propriedades antimicrobianas.
+  veg.spinach:
+    label: espinafre
+    summary: Verdura verde-escura rica em ferro.
+    info: Espinafre (Spinacia oleracea) originário da Pérsia medieval é rico em vitaminas K, A e C bem como ácido fólico e ferro. Popeye, um personagem de quadrinhos marítimo famoso desde os anos 30, ajudava crianças com espinafre por ser uma 'supercomida'. Cozinhar espinafre libera oxalato que pode se ligar ao cálcio e ao ferro.
+  veg.spring_onion:
+    label: cebola verde
+    summary: Cebola fina com parte branca e folhas verdes usadas para dar sabor.
+    info: A cebolinha de primavera é colhida antes da completa amadurecimento e possui textura mais delicada do que uma cebola comum. É amplamente utilizada na culinária asiática como tempero em pratos quentes ou frios.
+  veg.squash:
+    label: abóbora
+    summary: Verduras ricas em vitaminas usadas principalmente nos pratos típicos das estações mais frias.
+    info: '{"hint":"abobórios de inverno com formato variado (espécies da família Cucurbitaceae)","info":"Abóbora do inverno inclui variedades como buttercup, abóbora americana e delicata. Elas desenvolvem uma casca dura que protege por meses permitindo armazenamento durante todo o período frio no ano."}'
+  veg.swede:
+    label: nabo bruxela
+    summary: Pequena raiz roxa-amarelada redonda usada como legume; acompanhando escocês tradicional.
+    info: Nabo de Bruxelas (Brassica napus) é um cruzamento entre repolho e nabiça. Nos Estados Unidos chama-se rutábega; no Escócia faz parte essencial do cardápio com o haggis. Tem sabor adocicado e ligeiramente picante quando cozido.
+  veg.sweet_potato:
+    label: batata-doce
+    summary: Raiz amarelo-laranjada docinha proveniente dos subtrópicos que não pertence à família das mandiocas.
+    info: |-
+      A batata-doce (Ipomoea batatas) é originária da América do Sul e não está relacionada com o inhame no aspecto botânico.
+      Ela contém betacaroteno, vitaminas A e C além de fibras alimentares;
+      a cor laranja suave se deve ao teor elevado desse pigmento carotenoide.
+      Por séculos tem sido alimento básico nas culinárias africanas, asiáticas e latinoamericanas.
+  veg.taro:
+    label: Araruja
+    summary: Grande tubérculo rico em carboidratos com veias lilás que serve também como base alimentícia nas culturas tropicais.
+    info: '{"hint":"grande tubérculo amilado com manchas roxas","info":"A mandioca-do-havaí ou araruta é uma planta tropical cultivada há milhares de anos e usada como alimento básico em regiões da Oceania, África e Ásia. É um ingrediente principal do ''poi'', prato tradicional havaiano feito por meio de sua fermentação. Possui gosto ligeiramente nozado, sendo suas marcas violeta na polpa seu símbolo visual mais conhecido. A ingestão crua pode causar irritações pela presença de oxalatos presentes nela - cozinhamento adequado torna-se essencial para consumo seguro."}'
   veg.tomato:
     label: tomate
     summary: Fruto vermelho e redondo usado como vegetal.
     info: O tomate é botanicamente um fruto (baga), mas na cozinha é usado como uma hortaliça. Ele vem da América do Sul e contém licopeno e vitamina C.
+  veg.turnip:
+    label: nabuna
+    summary: Raiz roxa-redonda comestível usada como substituta vegetal para carne.
+    info: Nabuna é uma hortaliça de raiz parente da cenoura e pertence à espécie Brassica napus ou Brassica oleracea var. sylvestris. Foi um alimento básico na Europa antes do advento das batatas provenientes da América Ocidental.
+  veg.watercress:
+    label: rorizinha
+    summary: Pequena planta verde escura com gosto apimentado encontrada nas correntezas.
+    info: A nastúrtio oficial (Watercress ou rorizalha aquática), cresce em riachinhos frios e fontes naturais. Possui um sabor picante devido ao glucosinolato sinigrino presente nela.
+  veg.yam:
+    label: inhame
+    summary: Raiz热带淀粉含量高；常与红薯混淆。
+    info: 'A yambe é uma raiz rica em amido de regiões tropicais da África, Ásia e Caribe. Diferente do batata-doce: o inhame tem textura mais sequinha, com maior teor de amido e menos açúcar. Pode pesar até 70 quilos.'
+  veg.zucchini:
+    label: abóboras italianas
+    summary: Abobrinha verde usada tanto para cozinhar quanto assar.
+    info: A abóbora italiana (Cucurbita pepo) é uma tigela de verão colhida ainda imatura (de 7 a 25 centímetros). Originária do México e tornada famosa na Europa pela Itália, ela contém mais de 90% água sendo baixa em calorias.

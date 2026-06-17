@@ -6,18 +6,111 @@ cards:
     label: sekiz
     summary: Sayı 8, yengeçlerin sekiz koluna sahip olması.
     info: Sekizin rakamı 2³'tür (iki üssü üç). Yatay duran bir sekiz (∞), sonsuzluk sembolüdür; Çin kültüründe sekiz en şanslı sayı olarak bilinir.
+  num.eighteen:
+    label: onsekiz
+    summary: '''On Sekiz''; Sira Numarasi:'' On Sekizinici'', Roman Rakamiyla : ''XVIII'''
+    info: 'Sayi 18 sayısı önceki sayı olan 17''den sonra ve sonraki sayının yani 19''un gelmeden öncesindedir.Roman rakamıyla ''XVIII'' olarak yazılır.Sıra numarasında on sekizinci sıraya denmektedir.Onluk sistemde bu şekilde yazılmaktır: 8+10.'
+  num.eleven:
+    label: onbir
+    summary: '''On bir''; sıralama haliyle ''onbircü'', roma rakamlarıyla ise ''XII'''
+    info: Sayı 11 sayısı önceki sayı olan ondan sonra ve sonraki sayi yirmiden evvel gelir. Sayısal değeri olarak Roma rakamıyla 'XI' ile gösterilir.
+  num.fifteen:
+    label: On beş
+    summary: Sayısal değer on beş
+    info: Sayı 15 sayısı önceki sayı olan 14'ün ardından gelir ve sonraki sayıyla birlikte gelen doğal sayıdır.
+  num.fifty:
+    label: Elli
+    summary: Numaralama sistemindeki 50 sayısı; pozisyona göre Elli inci ; Roma rakamlarıyla L
+    info: |-
+      Sayi elli doğal sayıdır ve sayının önünde kırkdokuz vardır sonra ellibir gelir
+      Roma rakamı olarak 'L' ile gösterilir.
+      Pozisyon sırasındaki numara ise "ellinci"dir.
   num.five:
     label: beş
     summary: Sayı 5, elinizde beş parmak vardır.
     info: Beş rakamı onluk sayma sistemine temel teşkil eder çünkü insanlar her elinde beş parmak sahiptir. Venüs gezegeni gökyüzünde beş köşeli bir yıldız çizmektedir.
+  num.forty:
+    label: Kırk
+    summary: '''Dört haneli kırk''; pozisyona göre ''kırkıncı'', Roma rakamlarıyla ise ''XL''.'
+    info: |-
+      Sayi 40 sayısı önceki sayı olan 39'dan sonra ve sonraki sayının olduğu yerde gelen doğal bir sayıdır.
+      Roma rakamıyla XLI olarak yazılır.
+      Pozisyonel sıralama için 'kırkıncı' kullanılır.
+  num.forty_eight:
+    label: kırkdokuz
+    summary: Kardinal Sayısı 48'dir.
+    info: |-
+      Sayi 48 doğal sayıdır ve sayının önünde 47 sayısı gelirken arkasında ise 49 sayısı yer alır.
+      Romen rakamıyla XLVIII olarak yazılır.
+      Pozisyonel sıralama için 'çeyricatı yirmici' kullanılır.
+  num.forty_five:
+    label: kırkpbeş
+    summary: Numaralı rakam 45'ten sonra gelen sıra sayısı kırkıncı beşinci olarak geçer.
+    info: Sayi 45 doğal sayıdır ve sayının önünde gelen 44'ün ardından gelirken sonraki numara olan 46'dan önce yer alır.
+  num.forty_four:
+    label: kırkdört
+    summary: Kırkdördüncü sıra numarasıdır.
+    info: Sayı 44 doğalsayıdır ve sayılar arasında önceki sayının ardından gelir. Roma rakamıyla 'XLIV' olarak yazılır.
+  num.forty_nine:
+    label: kırkdoksan
+    summary: 'Kırkdoksan numara; sıralı kırkdokuzuncu; Roma rakamlarıyla: XLIX.'
+    info: |-
+      Sayi 49 sayısı önceki sayı olan 48'den sonra ve sonraki sayi olan 50'ye kadar gelir.
+      Roma rakamıyla yazımı 'XLIX'tür.
+      Pozisyonel olarak dördüncü dokuzuncu diyoruz.
+      Onluk sistemde bu şekilde yazılmıştır: 9+40.
+  num.forty_one:
+    label: kırkdokuz
+    summary: '''Kırkdokuz''; sıralı haliyle kırkıncı birinci; romen harfleri ile XLI.'
+    info: Sayi 41 sayısı önceki sayı olan 40'dan sonra ve sonraki sayının olduğu 42 öncesi yer alır. Roma rakamıyla 'XLI' olarak yazılır.
+  num.forty_seven:
+    label: kırkdört
+    summary: '''Dördebir''; pozisyona göre kırkıdokuzuncu; Roma rakamlarıyla: XLIX.'
+    info: |-
+      Sayi 47 sayısı önceki sayı olan 46'dan sonra ve sonraki sayının olduğu 48'e gelmeden önce gelen doğal bir numaralardır.
+      Roma rakamıyla yazımı 'XLVII' şeklindedir.
+      Pozisyonel sıralama ismi ise dördüncü yediinci olarak ifade edilir.
+      On tabanlı sistemde bu sayı ondalık biçiminde 7 ile 40 toplanarak elde edilebilinir.
+  num.forty_six:
+    label: kırkdokuz
+    summary: '''Dört altmış''; sıra: kırkıncı altıncı; romen harfiyle: XLIX.'
+    info: Sayi 46 doğal sayıdır ve sayının önünde 45 sayısı gelirken arkasında ise 47 sayısı yer alır. Roma rakamıyla 'XLVI' olarak yazılır. Sıra numarasıysa yirmili dördüncü şeklindedir.
+  num.forty_three:
+    label: '"Dörtyüz üç"'
+    summary: '''Forty three''; sıra sayısı: Dördüncü Üçüncü; Roma rakamlarıyla: XLIII.'
+    info: |-
+      Sayı 43 doğal sayıdır ve önceki sayının ardından gelirken sonraki sayıdan öncelidir
+      Roma rakamıyla yazımı 'XLIII' şeklindedir.
+      Sırada dördüncü olan bu numara sıfat hâlinde kullanıldığında ise "dörtüncü" olarak ifade edilir.
+  num.forty_two:
+    label: kırkdokuz
+    summary: '''Kırküç'' sayısının sıra numarası kırkıncı ikinci olup Roma rakamlarıyla bu şekilde yazılır.'
+    info: |-
+      Sayı 42'nin doğal sayılar arasında sırasıyla önce geleni 41 ve sonra gelen ise 43'tür
+      Roma rakamı ile gösterimi 'XLII'dir.
+      Pozisyonel ondalık sistemdeki yazılışı olarak da 2+40 şeklinde ifade edilir.
   num.four:
     label: dört
     summary: Sayı 4, dört kenarlı bir karedir.
     info: Dört iki sayının çarpım sonucudur - 2 × 2. Japon ve Çin kültürlerinde bu sayı kötü şans getiren bir sayı olarak kabul edilir (kelimenin sesi 'ölüm' kelimesine benzer).
+  num.fourteen:
+    label: on dort
+    summary: On Dort Sayısı
+    info: |-
+      Sayi 14 sayısı önceki sayı olan 13'ten sonra ve sonraki sayının olduğu yerde gelir.
+      Romen rakamı olarak bu dört onluk sisteminin toplamlarına göre yazılır.
   num.nine:
     label: dokuz
     summary: Sayı 9, son bir basamaklı sayıdır.
     info: 'Dokuz en yüksek tek basamaklı sayıdır. İlginç bir özelliği vardır: dokuzla çarpılan herhangi bir sayının rakamları toplamı daima dokuzun katıdır.'
+  num.nineteen:
+    label: on dokuzu
+    summary: Bulunduğu sıra 19; sırasına göre ondokuzu; romen harfiyle IX.
+    info: |-
+      Sayi 19 sayısı önceki sayı olan 18'den sonra ve sonraki sayının olduğu 20'ye kadar gelir.
+      Romen rakamıyla IX olarak yazılır.
+      Sıra numarası on dokuzuncu olur.
+      Onluk sistemde bu şekilde ifade edilirse dokuza eklenmiştir.
   num.one:
     label: bir
     summary: Sayı 1, ilk doğal sayıdır.
@@ -26,18 +119,165 @@ cards:
     label: yedi
     summary: Sayı 7, gökkuşağı bu kadar renktir.
     info: Yedi sayısı birçok kültürde uğurlu bir sayı olarak kabul edilir. Gökkuşağı yedi renkte, hafta yedi gün ve dünyada yedi kıta vardır.
+  num.seventeen:
+    label: On Yedi
+    summary: '''Siyahı on yedi''; Pozisyona göre sırası ''ondokuzuncu'', Rönesans dilindeyse ''XIX''.'
+    info: |-
+      Sayi 17 sayısı önceki sayı olan 16'dan sonra ve sonraki sayının olduğu 18'e gelmeden önce gelen doğal bir numaralardır.
+      Romen rakamıyla yazımı 'XVII' şeklindedir.
+      Pozisyonel sıralama için kullanılan kelimeli ifadesi ise 'on yedinci'seklidir.
   num.six:
     label: altı
     summary: Sayı 6, arı petekleri altıgen hücrelere sahiptir.
     info: Altı "mükemmel sayıdır" - tüm bölenlerinin toplamına eşittir (1 + 2 + 3 = 6). Altıgen şekiller alan kaplamada en verimli yoldur.
+  num.sixteen:
+    label: '''On Altı'''
+    summary: Altın onluk sistemdeki kardinal değeri 16 dır.
+    info: |-
+      Sayi 16 sayısı önceki sayı olan 15'ten sonra ve sonraki sayının olduğu 17'den evvel gelir.
+      Romen rakamıyla: XVI olarak yazılır.
+      Pozisyonel sıralama numarası ise 'on altılı' olur.
   num.ten:
     label: "on"
     summary: Sayı 10, onluk sayma sisteminin temelidir.
     info: On, ondalık sistemde kullanılan tabandır çünkü insanlar toplamda elinde on parmak sahiptir. On, eski zamanlardan beri saymayı ölçmede doğal bir standarttır.
+  num.thirteen:
+    label: '"onüç"'
+    summary: '"")'
+    info: '{"hint":"sayısal rakam on üç","info":"Sayi 13 sayısı önceki sayı olan 12''den sonra ve sonraki sayi olarak da 14''ün öncesinde yer alır\nRomen Rakamlarıyla ifade edilirse: XIII\nSıra Numarasıyla gösterimi ise ''onüçüncü''.dir\nOnluk sistemde bu şekilde yazılır: 3+10."}'
+  num.thirty:
+    label: otuz
+    summary: Otuz; sıralama olarak 'otuzuncu'; Roma rakamlarıyla 'XXX'.
+    info: |-
+      Sayi 30 sayısı önceki sayı olan 29'dan sonra ve sonraki sayının olduğu yerde gelir.
+      Roma rakamıyla bu şekilde yazılır: XXX
+      Sıra numarası ise otuzuncu olur.
+  num.thirty_eight:
+    label: otuz sekiz
+    summary: Otuz Sekiz
+    info: Sayi 38 doğal sayıdır ve sayma sırasına göre önceki sayısı 37'dir sonraki ise 39 durumundan gelmektedir.
+  num.thirty_five:
+    label: otuzbeş
+    summary: '''Oturmuş Otuz Beşim'' demektir.'
+    info: |-
+      Sayi 35 doğal sayıdır ve sayma sırasına göre önceki sayısı 34'tür sonraki ise 36'dır
+      Roma rakamıyla gösterimi 'XXXV' şeklindedir.
+      Sıra numarasında oturduğu yeri ifade ederken kullanılır bu durumda da "Otuz beşinci" olarak okunabilir.
+  num.thirty_four:
+    label: otuz dört
+    summary: Sayısal değer 34'ten sonra gelen sıralama değeri 'XXXIV' olarak ifade edilmiştir.
+    info: |-
+      Sayı 34 doğal sayıdır ve önceki sayının ardından gelirken sonraki sayıdan öncelidir
+      Roma rakamıyla gösterimi: XXXIV'dür.
+      Pozisyon numarası ise otuzdördüncü şeklindedir.
+  num.thirty_nine:
+    label: otuz dokuz
+    summary: Otuz Dokuz Sayısı
+    info: Sayi 39 sayısı önceki sayı olan 38'den sonra ve sonraki sayının olduğu yerde gelir.
+  num.thirty_one:
+    label: Otuz Bir
+    summary: '''Oturz bir''; sıra numarası oturzuncu birinci; Roma rakamlarıyla XXXI.'
+    info: |-
+      Sayi 31 sayısı önceki sayı olan 30'dan sonra ve sonraki sayının olduğu 32 öncesindedir.
+      Romen rakamı ile yazımı 'XXXI' şeklindedir.
+      Pozisyonel sıralama için kullanılırken 'otuz birinci' olarak ifade edilir.
+  num.thirty_seven:
+    label: Otuz Yedi
+    summary: Numara otuz yedi; pozisyona göre otuzuncu yedinci; Roma rakamlarıyla XXXVII.
+    info: |-
+      Sayi 37 sayısı önceki sayı olan 36'dan sonra ve sonraki sayının olduğu yerde gelir.
+      Romen rakamıyla XXXVII olarak yazılır.
+      Pozisyonel sıralama numarası 'otuz yedinci' dir.
+      Onluk sistemde bu şekilde ifade edilir: 7+30.
+  num.thirty_six:
+    label: otuzaltı
+    summary: 'Sayısal değer 36; sıralama biçimi: Otuzaltılıncı; Rönesans diliyle: XXXVI.'
+    info: |-
+      Sayi 36 sayısı önceki sayı olan sayının ardından gelir ve sonraki sayı ise 37'dir.
+      Romen rakamıyla XXXVI olarak yazılır.
+      Pozisyonel sistemde ondalık sisteme göre altı artı otuz şeklinde ifade edilir.
+  num.thirty_three:
+    label: otuz üç
+    summary: 'Numara 33; sıra: Üçüncü Otuzuncu; Romalılarca: XXXIII.'
+    info: Sayı 33 doğal sayıdır ve önceki sayıyla birlikte sıradaki sayı olan 34'ün hemen öncesindedir. Roma rakamında 'XXXIII', sıra numarası olarak ise 'üçüncü otuzuncu' şeklinde yazılır.
+  num.thirty_two:
+    label: otuz iki
+    summary: Sıra numarası otuz ikinci; roma rakamlarıyla XXXII
+    info: Sayi 32 sayısı önceki sayı olan 31'den sonra ve sonraki sayının olduğu yerde gelir. Roma rakamıyla 'XXXII' olarak yazılır.
   num.three:
     label: üç
     summary: Sayı 3, ilk tek asal sayıdır.
     info: Üç sayısı birçok kültürde sihirli bir sayı olarak kabul edilir – üç dilek hikayeleri vardır, üçgenin üç kenarı ve günün üç parçasına ayrılması gibi.
+  num.twelve:
+    label: On iki
+    summary: '''Siyah on ikinin yazılışı: On iki; pozisyona göre: on ikinci; Romen rakamlarıyla: XII.'
+    info: |-
+      Sayı 12 sayısı önceki sayı olan 11'den sonra ve sonraki sayı olan 13'ten evvel gelir.
+      Romen rakamıyla: XII olarak yazılır.
+      Pozisyonel sıfat hâlinde 'on ikinci' diye ifade edilir.
+  num.twenty:
+    label: yirmi
+    summary: '''Yirmi''; sıra sayma ismiyle ''İkincisi'', Romen rakamlarıyla ise ''XX''.'
+    info: |-
+      Sayi 20 sayısı önceki sayı olan 19'dan sonra ve sonraki sayı olan 21'den evvel gelir.
+      Romen rakamıyla yazımı 'XX' şeklindedir.
+      Pozisyonel sıralama numarası olarak da yirminci anlamına gelen "dwaci" ile ifade edilir.
+  num.twenty_eight:
+    label: Yirmisekiz
+    summary: '''Dvacet osm''; pozisyona göre ikinci onluk sistemin sekizi; Rönesans dönemi Latin harfleriyle yazıldığında ''XXVIII''.'
+    info: |-
+      Sayi 28 sayısı önceki sayı olan 27'den sonra ve sonraki sayının olduğu yerde gelir.
+      Romen rakamı olarak bu sayı 'XXVIII' ile ifade edilir.
+      Pozisyonel sıralama için ise 'ikinci yirmiliğin sekizincisi', yani Türkçe dilinde yaygın bir şekilde kullanılırken genellikle "yaklaşık otuz" gibi anlatım biçimlerine dönüşebilen doğal bir tam sayıdır.
+  num.twenty_five:
+    label: Yirmi Beş
+    summary: '''Dvact pet'' kelimesinin karşılığı olan numara 25''ten önceki sıra beşiği ''dvacatý patý'', Romen haliyle de ''XXV''.'
+    info: |-
+      Sayi 25 doğal sayıdır ve sayının önünde 24 sayısı gelirken arkasında ise 26 sayısı yer alır.
+      Romen rakamıyla gösterimi 'XXV'dür.
+      Pozisyonel sıralama olarak yirmibeşinci anlamına gelen "yirmibesincilik" ifadesine sahiptir.
+  num.twenty_four:
+    label: yirmidört
+    summary: '''Yirmidördüncü''; sıralama numarası yirmibirinci.'
+    info: Sayı 24 doğal sayıdır ve önceki sayıyla birlikte sonra gelenin öncesi olarak gelirken Roma rakamlarıyla 'XXIV' şeklinde yazılır.
+  num.twenty_nine:
+    label: yakım doku
+    summary: '''Yakım dokuzuncu''; Rönesans Latincesinde: XIX.'
+    info: |-
+      Sayi 29 sayısı önceki sayı olan 28'den sonra ve sonraki sayı olan 30’dan evvel gelir.
+      Romen rakamıyla IX olarak yazılır.
+      Pozisyonel sistemde bu sayıyı ifade etmek için 'doksan artı yirmi' kullanılır.
+  num.twenty_one:
+    label: yirmi bir
+    summary: '''Yirmi Bir''; Sira numarasi: Yirmibircinici'
+    info: |-
+      Sayi 21 sayısı önceki sayı olan sayıyla ve sonraki sayı arasında yer alır
+      Roma rakamı ile yazımı 'XXI' şeklindedir.
+      Siralama olarak yirmibirinci sıradır.
+  num.twenty_seven:
+    label: yirmi yedi
+    summary: 'Numara 27; sıra olarak: İkincisi Yedinci; Roma rakamlarıyla: XXVII.'
+    info: |-
+      Sayı 27 doğal sayıdır ve önceki sayının ardından gelir yani sıradaki sayısı ise 28'dır.
+      Roma rakamıyla yazımı 'XXVII' şeklindedir.
+      Sıra numarasında ikinci sırada yer alır.
+      Onlu sistemde bu şekilde ifade edilir: 7+20.
+  num.twenty_six:
+    label: yirmi altı
+    summary: Numara 26'dır.
+    info: Sayi 26 sayısı önceki sayı olan sayıyla ve sonraki sayıdan sonra gelen doğal bir numaralıdır.
+  num.twenty_three:
+    label: yirmi üç
+    summary: Sayısal olarak 23'e karşılık gelmektedir.
+    info: Sayı 23 doğal sayıdır ve önceki sayının ardından gelir yani 22'den sonra gelen ve bir sonraki olan 24'te yer alır.
+  num.twenty_two:
+    label: yirmi iki
+    summary: 'Numara 22; sıra numarasi: ikinci yirmi; Roma rakamlarıyla: XXII.'
+    info: |-
+      Sayı 22 doğal sayıdır ve sayma sırasına göre önceki sayısı 21'dir sonraki ise 23'tür.
+      Roma rakamıyla gösterimi: XXII
+      Sıra numarası olarak okunuşu 'ikinci yirmi' şeklindedir.
+      Onlu sistemde bu şekilde yazılır: 2+20.
   num.two:
     label: iki
     summary: Sayı 2, tek çift asal sayıdır.

@@ -2,18 +2,122 @@ lang: fr
 pivot: false
 title: Oiseaux
 cards:
+  animal.albatross:
+    label: albatros
+    summary: Oiseau marin avec l'envergure la plus grande de tous les oiseaux.
+    info: L'albatros migrateur possède l'envergure d'ailes la plus large parmi toutes les espèces d'oiseaux, dépassant même 3,5 mètres. Il passe la plupart de sa vie en mer ouverte et est capable de voler des milliers de kilomètres sans atterrir. Il boit de l'eau salée et élimine le sel via ses glandes nasales.
+  animal.budgerigar:
+    label: perroquet à collier
+    summary: Petit perroquet coloré d'Australie, animal de compagnie populaire.
+    info: Le perroquet à collier ondulé provient des régions intérieures d'Australie, où il vit en grands groupes. C'est l'oiseau domestique le plus répandu au monde après le canari. Les mâles sont capables d'imiter la voix humaine et d'apprendre plusieurs centaines de mots. Les perroquets sauvages ont une teinte verte et jaune ; les variations de couleur résultent du croisement sélectif.
+  animal.canary:
+    label: canari
+    summary: Petit oiseau jaune qui chante populaire comme animal de compagnie.
+    info: Le canari domestique provient des îles Canaries et a été apprivoisé au XVIIe siècle. Sa couleur jaune est due à l'élevage ; le canari sauvage est vert-marron. Les mâles chantent des mélodies complexes ; les concours de chant du canari sont un phénomène mondial. Historiquement, les canaris ont été utilisés dans les mines pour détecter le monoxyde de carbone.
+  animal.cassowary:
+    label: casseur
+    summary: Oiseau néo-guinéen non volant dangereux avec des griffes acérées.
+    info: Le cassuar est un grand oiseau non volant provenant de la Nouvelle-Guinée et du nord de l'Australie. Il est considéré comme le plus dangereux oiseau au monde ; ses longues griffes sur le doigt interne sont capables d'infliger des blessures graves. Le casque osseux élevé semble probablement aider à la navigation dans la forêt dense. C'est également une espèce clé pour la dispersion des graines dans la forêt tropicale.
+  animal.cockatoo:
+    label: kakadu
+    summary: Perruche blanche crestée d'Australie avec une crête jaune distinctive.
+    info: Le cacatoès à tête jaune est l'un des perroquets les plus connus de la famille des cacatoéidés. Sa crête jaune distinctive s'élève lorsqu'il est excité ou en alerte. Il est intelligent et capable d'imiter la voix humaine. Il peut vivre jusqu'à 80 ans en captivité et est considéré comme un nuisible agricole en Australie.
+  animal.condor:
+    label: condor
+    summary: Le plus grand oiseau volant des Amériques avec une tête nue.
+    info: L'aigle condor est le plus gros oiseau volant du monde en termes de poids et d'envergure. C'est un rapace qui se nourrit de charognes de grands mammifères et joue un rôle important dans l'écosystème. Il plane sur les courants thermiques géants au-dessus des Andes sans battre des ailes.
+  animal.crane:
+    label: grue
+    summary: Grand oiseau migrateur connu pour ses danses et son cri puissant.
+    info: La grue cendrée est un grand oiseau migrateur qui parcourt chaque année des milliers de kilomètres. Elle est célèbre pour ses rites chorégraphiques où les couples sautent et écartent leurs ailes. Elles volent en grands groupes au-dessus de la Tchéquie à l'automne et au printemps. La grue a donné son nom à une machine utilisée en construction.
+  animal.crow:
+    label: corbeau
+    summary: Oiseau noir intelligent de la famille des corvidés capable de résoudre des problèmes.
+    info: Le corbeau est un oiseau de la famille des corvidés connu pour son intelligence exceptionnelle. Il peut reconnaître les visages humains, utiliser des outils et accomplir des tâches complexes. Ils vivent en couples ou en petits groupes et sont omnivores.
+  animal.cuckoo:
+    label: coucou
+    summary: Parasite des nids qui dépose ses œufs dans les nids d'autres oiseaux.
+    info: Le coucou est connu pour son parasitisme nidicole ; il pond ses œufs dans les nids d'autres espèces, où l'oiseau nourricier les éclore et élève le petit. Le jeune coucou chasse bientôt les autres œufs ou petits du nid. Son cri en deux syllabes « cou-cou » symbolise l’arrivée du printemps. Les mâles chantent, tandis que les femelles émettent un bruit de bulle.
+  animal.dove:
+    label: pigeon
+    summary: Symbole de paix ; pigeon blanc au plumage doux.
+    info: Le pigeon blanc est un symbole international de la paix depuis l'Antiquité ; dans la Bible, il apporta une branche d'olivier à Noé. Dans le christianisme, il représente l'Esprit Saint. Le pigeon domestique n'est en réalité qu'un pigeon ramier sauvage apprivoisé ; sa couleur blanche fut obtenue par sélection artificielle. La libération de pigeons blancs fait partie des cérémonies et festivités organisées partout dans le monde.
+  animal.duck:
+    label: canard
+    summary: Oiseau aquatique à bec plat ; le mâle (canard) a une tête verte.
+    info: Le canard sauvage est l'espèce de canard la plus répandue au monde et l'ancêtre de la plupart des races domestiques. Le mâle (canard) a une tête vert métallisé caractéristique, tandis que la femelle est discrète avec un plumage marron. Ce sont des canards qui nagent près de la surface pour trouver leur nourriture sans plonger.
   animal.eagle:
     label: aigle
     summary: Grand oiseau de proie avec un bec courbé et une vision perçante.
     info: La buse impériale est le symbole national des États-Unis et l'un des plus grands prédateurs d'Amérique du Nord. Elle chasse principalement des poissons qu'elle attrape directement dans l'eau avec ses griffes acérées. Elle peut avoir une envergure d'ailes d'environ deux mètres et vit environ 20 ans dans la nature.
+  animal.emu:
+    label: émou
+    summary: Deuxième plus grand oiseau du monde, oiseau volant pas de l'Australie.
+    info: L'émou est le deuxième plus gros oiseau au monde et il est endémique en Australie. Il ne peut pas voler mais c'est un bon nageur et coureur rapide. Le mâle s'occupe des œufs et des petits pendant que la femelle s'en va.
+  animal.falcon:
+    label: faucon
+    summary: L'animal le plus rapide du monde en plongée (plus de 320 km/h).
+    info: Le faucon pèlerin est l'animal terrestre le plus rapide ; il atteint une vitesse supérieure à 320 km/h lorsqu'il plane en descente. Il possède des taches sombres caractéristiques sous les yeux qui réduisent la lumière reflétée par le soleil. L'homme chasse avec lui depuis plus de 2 000 ans ; la fauconnerie figure sur la liste du patrimoine mondial de l’UNESCO. En République tchèque, il niche sur les bâtiments et rochers élevés.
   animal.flamingo:
     label: flamant
     summary: Oiseau rose se tenant sur une patte dans des eaux peu profondes.
     info: Le flamant rose tire sa couleur caractéristique des caroténoïdes contenus dans les algues et les crustacés dont il se nourrit. Les oisillons naissent grisâtres et ne prennent leur teinte rose qu'avec le temps. Son bec courbé sert de filtre – le flamant filtre sa nourriture de l'eau en plongeant la tête en bas.
+  animal.goose:
+    label: oie
+    summary: Grand oiseau aquatique migrateur qui niche au sol.
+    info: L'oie domestique est l'ancêtre sauvage des oies domestiques. Elle migre en formation caractéristique en V où les oiseaux alternent la position de tête. Elles sont très territoriales pendant la période de reproduction et protègent vaillamment leurs petits. Historiquement, les oies ont gardé le Capitole à Rome, où leur cri alertait les habitants contre une attaque gauloise.
+  animal.hawk:
+    label: faucon
+    summary: Predateur rapide chassant des oiseaux et petits mammifères dans les forêts et prairies.
+    info: Le faucon est un rapace de taille moyenne appartenant à la famille des Accipitridés, capable de chasser efficacement au sein de végétation dense grâce à ses courtes ailes arrondies et sa longue queue. Il est très agile et rapide ; il capture principalement des oiseaux en vol ou depuis une position cachée. Les femelles sont généralement beaucoup plus grandes que les mâles. Le faucon était considéré comme un oiseau de chasse précieux lors du voltige.
+  animal.heron:
+    label: heron
+    summary: Grand oiseau pêcheur qui reste immobile près de l'eau pour attraper des poissons.
+    info: Le héron cendré est le plus grand oiseau pêcheur d'Europe centrale. Il reste complètement immobile comme une statue et attend que le poisson arrive à portée avant d'enfoncer rapidement son bec. Il peut avaler entièrement les petits poissons ainsi que les grenouilles.
+  animal.hornbill:
+    label: corneil
+    summary: Oiseau tropical avec un bec énorme et cornu.
+    info: Le corneil est un oiseau de la famille des Bucerotidés caractérisé par son long bec recourbé doté d'une excroissance osseuse appelée « casque ». Il vit dans les forêts tropicales d'Afrique et d'Asie. Contrairement à beaucoup d'autres oiseaux, il niche non pas en terrier mais dans une cavité d’arbre ; la femelle reste enfermée à l’intérieur pendant toute la période de reproduction.
   animal.hummingbird:
     label: colibri
     summary: Le plus petit oiseau du monde capable de se maintenir en suspension et de voler à reculons.
     info: Le colibri à gorge rubis est le seul colibri nidifiant régulièrement à l’est de l’Amérique du Nord. Il bat des ailes jusqu’à 53 fois par seconde, ce qui produit un bourdonnement caractéristique. Il se nourrit de nectar et de petits insectes ; son cœur peut battre jusqu’à 1 200 fois par minute.
+  animal.ibis:
+    label: ibis
+    summary: Oiseau échevelé avec un bec courbé en arc, sacré dans l'Égypte antique.
+    info: L’ibis est un oiseau échevelé de la famille des Threskiornithidae caractérisé par son long bec recourbé. L’ibis sacré était vénéré dans l’ancienne Égypte comme incarnation du dieu Thot. Il vit en colonies dans les zones humides et deltas fluviaux.
+  animal.kingfisher:
+    label: martin-pêcheur
+    summary: Oiseau aux couleurs chatoyantes plongeant pour attraper des poissons près des ruisseaux.
+    info: 'Le martin-pêcheur est l''un des oiseaux les plus beaux d''Europe avec un dos bleu électrique et une poitrine orange. Il reste perché sur une branche au-dessus de l''eau en observant les poissons avant de plonger tête première. Cet oiseau est un indicateur de la qualité de l''eau : là où il vit, celle-ci est saine.'
+  animal.kookaburra:
+    label: héron rieur
+    summary: Un héron australien connu pour son cri bruyant qui ressemble à un rire humain.
+    info: Le héron rieur (ou kookaburra) est un grand héron australien célèbre pour son cri fort rappelant le rire d’un homme ou d’une femme. Il symbolise l’auvergne bush et ses cris sont traditionnellement associés au lever et au coucher du soleil. Il chasse des lézards, serpents, petits mammifères et insectes.
+  animal.lorikeet:
+    label: lori
+    summary: Petit perroquet coloré qui se nourrit de nectar et de pollen.
+    info: Le lori arc-en-ciel est un petit perroquet provenant d'Australasie avec la plus belle palette de couleurs parmi tous les perroquets. Grâce à sa langue spécialisée en forme de brosse, il collecte le nectar et le pollen des fleurs tropicales. Il joue un rôle important dans la pollinisation des forêts tropicales. Il vit en groupe, est bruyant et joueur ; en captivité, il établit rapidement une relation avec les humains.
+  animal.lyrebird:
+    label: lyrebird
+    summary: Oiseau australien qui imite avec une précision parfaite les sons environnants.
+    info: 'Le Lyrebird superbe est un oiseau australien connu pour sa capacité à imiter presque tout son de l''environnement : scies circulaires, bruits d''appareil photo, sirènes de voitures ou cris d''autres oiseaux. Les mâles attirent les femelles en montrant leur queue élaborée et en reproduisant des imitations parfaites. Cet animal est le symbole de l''État australien de Victoria.'
+  animal.macaw:
+    label: ara
+    summary: Papillon néo-tropical brillamment coloré avec un bec puissant.
+    info: L'ara est un perroquet des forêts tropicales d'Amérique connu pour sa couleur la plus spectaculaire de tous les oiseaux. Il possède un long et courbé bec solide capable d'éclater des noyaux d'amandes très durs. Ils vivent en couples monogames qui restent ensemble toute leur vie. Ces animaux sont menacés par l'abattage illégal des forêts ainsi que par le commerce clandestin des animaux exotiques.
+  animal.magpie:
+    label: corbeau
+    summary: Oiseau noir et blanc avec une queue verte irisée.
+    info: Le corbeau est un oiseau de la famille des corvidés au plumage noir et blanc distinctif ainsi qu'à la longue queue vert métallisé. Il a la réputation de voler des objets brillants, mais les recherches ne confirment pas cette légende. C'est l'un des rares oiseaux à reconnaitre son reflet dans un miroir.
+  animal.nightingale:
+    label: rossignol
+    summary: Petit oiseau marron qui chante l'un des plus beaux chants d'oiseaux.
+    info: Le rougegorge est un petit oiseau brun dont le mâle chante l'une des mélodies les plus complexes et belles de la faune aviaire. Il chante principalement la nuit et à l’aube, d’où lui vient son nom. C’est un lointain parent du faucon crécerelle. Des poètes du monde entier, depuis Dante jusqu’à Keats, célèbrent le chant du rossignol comme symbole de romance et de mélancolie.
+  animal.ostrich:
+    label: struthion
+    summary: Le plus grand oiseau du monde, non volant ; court à une vitesse de jusqu'à 70 km/h.
+    info: L'émú est l'oiseau le plus grand et le plus lourd au monde ; les mâles atteignent une hauteur de jusqu'à 2,7 mètres et un poids supérieur à 150 kg. Il ne peut pas voler, mais c'est le mammifère terrestre le plus rapide, capable d’atteindre des vitesses supérieures à 70 km/h. Ses œufs sont les plus grands œufs parmi tous les oiseaux. L'un des doigts opposés sur la patte manque ; il n'a que deux doigts.
   animal.owl:
     label: chouette
     summary: Oiseau de proie nocturne à yeux ronds, vol silencieux et ouïe exceptionnelle.
@@ -26,11 +130,87 @@ cards:
     label: paon
     summary: Mâle paon avec une queue en éventail iridescente pleine de couleurs.
     info: Le paon à couronne provient du sous-continent indien. Le mâle (paon) étale sa queue – en réalité, il s'agit de plumes couvertes allongées – en éventail lors de la courtisance des femelles. Les couleurs iridescentes ne proviennent pas de pigments, mais de la réfraction de la lumière sur les microstructures des plumes.
+  animal.pelican:
+    label: pélican
+    summary: Grand oiseau aquatique avec un bec en sac pour pêcher.
+    info: Le pélican est un grand oiseau aquatique doté d'un long bec caractéristique qui agit comme une filet à poissons. Son sac peut contenir jusqu'à 13 litres d'eau qu'il éjecte ensuite pour avaler les poissons restants. Ils volent en formations aérodynamiques et utilisent des courants ascendants créés par leurs mouvements. Dans la symbolique chrétienne, le pélican représente l'amour sacrifié.
   animal.penguin:
     label: pingouin
     summary: Oiseau non volant de l'hémisphère sud, excellent nageur.
     info: Le pingouin empereur est le plus grand de tous les pingouins; il mesure plus de 1,1 mètre de haut. Il vit en Antarctique et pond ses œufs dans les froids extrêmes – les mâles les tiennent chauds sur leurs pieds pendant toute la saison d'hiver antarctique. Sous l'eau, il peut atteindre une vitesse de plus de 30 km/h.
+  animal.pheasant:
+    label: pavo
+    summary: Grand oiseau coloré ; le mâle a un plumage remarquable et une queue longue.
+    info: |-
+      Le pavo commun a été apporté en Europe depuis l'Asie, mais il est aujourd'hui une composante naturelle de la faune européenne.
+      Le mâle (coq) possède un plumage très voyant, avec un corps vert-bronze et un sac rouge caractéristique autour de l'œil.
+      C'est l'oiseau gibier le plus répandu en Tchéquie et constitue la base de la tradition cynégétique.
+      Il niche au sol dans des endroits bien fourrés.
+  animal.pigeon:
+    label: pigeon
+    summary: Oiseau gris courant des villes et campagnes, originaire du pigeon colombin.
+    info: Le pigeon colombin est l'ancêtre de tous les pigeons domestiques et sauvages dans les villes. C'était le premier oiseau domesticable ; il servait aux humains comme pigeon voyageur depuis des milliers d’années. Il possède un sens extraordinairement précis de la navigation et peut retrouver son chemin à partir de centaines de kilomètres de distance. Dans toutes les cultures du monde, il symbolise la paix.
+  animal.puffin:
+    label: puffin
+    summary: Petit oiseau marin avec un bec coloré en forme de perruche.
+    info: Le puffin à manteau est un petit oiseau ressemblant au manchot, doté d'un bec multicolore strié. Il chasse en plongeant et en poursuivant les poissons sous l'eau ; il peut transporter une dizaine de poissons à la fois dans son bec. Il niche en colonies sur des falaises rocheuses ou dans des terriers. Cet oiseau est une icône emblématique de l'Islande et des îles Féroë.
+  animal.quail:
+    label: perdrix
+    summary: Petite bécasse terrestre cachée qui niche au sol dans l'herbe.
+    info: |-
+      La perdrix est la plus petite représentante de la famille des phasianidés en Europe.
+      Elle se tient cachée ; on l’entend facilement chanter (piti-piti) avant de la voir.
+      Contrairement aux autres faisans, elle migre et passe l'hiver en Afrique.
+      Ses œufs sont une délicatesse appréciée.
+  animal.raven:
+    label: corbeau
+    summary: Grand oiseau noir intelligent avec un cri caractéristique.
+    info: Le corbeau est l'oiseau le plus grand de la famille des corvidés, mesurant plus de 60 cm de longueur. Il possède une intelligence extraordinaire et sait planifier pour l'avenir, jouer ainsi que créer des liens sociaux. Dans les mythologies des Nordiques (les corbeaux d’Odin, Huginn et Muninn) comme chez les Celtes, il avait un statut mystique.
+  animal.roadrunner:
+    label: coucou terrestre
+    summary: Coureur rapide des déserts d'Amérique du Nord ; symbole de séries animées.
+    info: Le coucou terrestre (roadrunner) est un oiseau de la famille des cuculidés qui préfère marcher et courir plutôt que voler. Il peut atteindre une vitesse supérieure à 30 km/h et se nourrit de serpents, lézards, insectes ainsi que de petits mammifères. Il est capable de capturer et tuer un serpent à sonnettes. Il est célèbre en tant qu'héros des dessins animés américains Road Runner et Coyote.
+  animal.robin:
+    label: rouge-gorge
+    summary: Petit oiseau à poitrine rouge, symbole de Noël en Grande-Bretagne.
+    info: Le rouge-gorge est un petit oiseau chanteur avec une poitrine typiquement orange-rouge. Il est discrètement courageux ; il suit les jardiniers qui creusent et ramasse les vers exposés. C'est l'oiseau national de la Grande-Bretagne et un symbole traditionnel des fêtes de Noël. Il reste sur son territoire toute l'année et chante même en hiver.
+  animal.seagull:
+    label: goeland
+    summary: Oiseau de rivage qui recherche activement sa nourriture près des humains et en mer.
+    info: Le goeland argentin est l'un des oiseaux marins les plus répandus d'Europe. Il est adaptable et omnivore ; il vit non seulement sur les côtes marines, mais aussi à l'intérieur des terres près des lacs et des rivières. Intelligent, il se souvient parfois des endroits où on lui donne à manger. Son intérêt vorace pour la nourriture humaine inspire nombre d'anecdotes chez les touristes côtiers.
+  animal.secretary_bird:
+    label: oiseau secrétaire
+    summary: Rapace africain à longues jambes qui tue les serpents en marchant.
+    info: |-
+      L'oiseau secrétaire est un grand rapace africain qui parcourt principalement la savane ouverte à pied.
+      Il tue des serpents et des rongeurs grâce à de forts coups de ses pattes dont le poids représente trois fois celui de son corps.
+      Son nom provient des plumes longues sur sa tête ressemblant aux moustaches d'un écrivain derrière l'oreille.
+      C'est un symbole national de la République sud-africaine et du Soudan.
+  animal.sparrow:
+    label: moineau
+    summary: Petit oiseau brun qui vit près des habitations humaines.
+    info: Le moineau domestique est l'un des oiseaux les plus répandus au monde et un compagnon fidèle de l'homme. Il fréquente les environs des habitations humaines où il niche dans les interstices des murs et toits. Au cours des dernières décennies, sa population en ville a fortement baissé.
+  animal.spoonbill:
+    label: colymbid
+    summary: Oiseau blanc caractéristique avec un bec en cuillère.
+    info: Le colymbid à bec courbe est apparenté au ibis, mais on peut facilement le distinguer grâce à son bec plat et en forme de petite cuillère. Il remue latéralement ce dernier dans l'eau peu profonde pour trouver sa nourriture. Il niche en colonies dans les roseaux et les friches marécageuses.
+  animal.stork:
+    label: cigogne
+    summary: Grand oiseau blanc avec bec rouge ; apporte les enfants selon la tradition.
+    info: La cigogne blanche est un oiseau migrateur qui niche sur les toits et les poteaux à travers toute l'Europe. Elle passe l'hiver dans l'Afrique tropicale et revient chaque année au même nid qu'elle agrandit progressivement. C'est un symbole du printemps et de la fécondité ; selon la tradition populaire, elle apporte des bébés. La Tchéquie est l'un des pays européens les plus importants pour la reproduction des cigognes.
+  animal.swallow:
+    label: haleine
+    summary: Oiseau aquilong avec queue fourchue et chasseur d'insectes en vol.
+    info: L'haleine commune est un oiseau migrateur passant l'hiver dans la sous-Sahara et nichant en Europe. C'est un maître du vol ; il capture des insectes exclusivement en vol et peut boire à la surface de l'eau sans atterrir. Il niche dans les granges et sous les toits ; dans la tradition populaire, sa présence porte chance au foyer. Elle symbolise le printemps, le retour et la fidélité.
+  animal.swan:
+    label: cygne
+    summary: Grand oiseau aquatique blanc élégant, symbole de beauté et de romance.
+    info: Le cygne est le plus grand oiseau volant d'Europe avec une envergure dépassant 2,4 mètres. Il symbolise la beauté, l'amour et la fidélité ; les couples restent fidèles toute leur vie. Instinctivement, il relève son bec et gonfle ses plumes comme un avertissement aux agresseurs.
   animal.toucan:
     label: toucan
     summary: Oiseau tropical avec un bec gigantesque et coloré.
     info: Le toucan géant vit dans les forêts tropicales d'Amérique centrale et sud-américaine. Son bec remarquable mesure plus de 20 cm de long, mais est très léger – il est constitué de chambres d'air. Il sert à réguler la température corporelle, à croquer des fruits et à agir comme un signal visuel pour les autres toucans.
+  animal.woodpecker:
+    label: pic
+    summary: Oiseau qui tape sur la coque des arbres pour trouver des insectes ou creuser une cavité.
+    info: Le pic est un oiseau de la famille des Picidés adapté au bec rigide et à la queue solide servant de support. Sa langue peut être jusqu'à trois fois plus longue que son bec et sert à retirer les larves des trous percés. Il communique par frappement et marque son territoire. Le grand pic noir (Dryocopus martius) est le plus gros pic d'Europe.

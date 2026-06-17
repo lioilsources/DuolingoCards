@@ -2,14 +2,107 @@ lang: es-419
 pivot: false
 title: Animales domésticos
 cards:
+  pet.angelfish:
+    label: Escalope
+    summary: Bonito pez tropical con cuerpo redondo y amplias alas laterales.
+    info: '{"hint":"pez de acuario tropical en forma de disco alto (Symphysodon spp)","info":"El pez escala es una de las especies más populares para el acuarismo debido a su elegante cuerpo triangular y sus largas aletas que fluyen al nadar.\nProviene del Amazonas y requiere agua cálida entre los 24°C y 28°C.\nEs carnívoro y puede comer pequeños peces.\nEn Japón fue introducido por primera vez como un tipo exótico en la década de 1950","label":"escama","summary":"Pequeño pez tropical con cuerpo plano y anchos bordes."}'
+  pet.axolotl:
+    label: axolotl
+    summary: Anfibio acuático nativo de México con branquias permanentes.
+    info: El axólotl es un anfibio acuático originario de México que conserva su forma larvaria durante toda la vida (un fenómeno llamado neotonía). Tiene branquias externas prominentes y una expresión característica parecida a estar sonriendo.
+  pet.ball_python:
+    label: cobra royal
+    summary: Serpiente tranquila que se enrolla formando un bollo cuando siente miedo; ideal para principiantes.
+    info: La cobra real proviene de África occidental y central donde habita en sabanas y bosques. Cuando está amenazada forma una bola compacta con su cuerpo enrollado (por eso también serpiente pelota). Alcanza entre 120 y 150 centímetros de longitud y vive más allá de los treinta años.
+  pet.bearded_dragon:
+    label: dragones barbudos
+    summary: Una lagartija originaria de Australia popular como mascota por sus necesidades térmicas moderadas.
+    info: El dragón barbudo es uno de los reptiles más comunes en cautividad debido a su naturaleza tranquila y fácil manejo para el cuidador humano.
+  pet.betta_fish:
+    label: betta
+    summary: Pez ladrón colorido con aletas largas de Sureste Asiatico.
+    info: "{\"hint\":\"pez ladrón colorido con aletas largas de sureste asiático\",\"info\":\"El betta es una especie que vive en los arrozales poco profundos del Tailandia y respira aire mediante un órgano especial llamado laberinto.\nLos machos son muy territoriales entre sí;\nde ahí su nombre común \"siamese fighting fish\" \ny por cría se han desarrollado formas espectaculares con grandes aletas fluyentes.\nPueden vivir hasta cinco años aproximadamente."
+  pet.blue_tongue_skink:
+    label: escínquido
+    summary: Reptil autraliano cuya llamativa lengua azul sirve principalmente como estrategia defensiva.
+    info: El escinco de lengua azul es un gran reptil australiano con una característica lengua completamente azul que muestra como advertencia para los depredadores ya que el color actúa disuasorio y lo hace pasar por más peligroso o venenoso del que en realidad no es.
+  pet.budgerigar:
+    label: agaporni
+    summary: Pajaro en jaula mas comun y pequeno loro Australiano.
+    info: El agapornis ondulado es el pájaro de compañía más extendido del mundo después del canario.
+  pet.canary:
+    label: Canario
+    summary: Pájaro pequeño canto desarrollado especialmente gracias a la vocalización única combinando una apariencia naranja intensa.
+    info: '{"hint":"pequeño pájaro cantor criado por su voz y color amarillo brillante (Serinus canaria)","info":"El canario proviene de las islas Canarias e fue domesticado en el siglo XV por los conquistadores españoles.\nPor medio del cruce aparecieron muchos tipos distintos: cantores como Roller o Waterslager, colores tales como rojos o blancos y formas específicas.\nLos machos entonan melodías complejas; pueden aprender trozos de otras canciones.\nhistóricamente servían para detectar monóxido de carbono dentro de minas subterráneas","label":"canario","summary":"Pequeño ave cantora seleccionada genéticamente debido al sonido que produce junto con un intenso tonalidad dorada."}'
   pet.cat:
     label: gato
     summary: Mascota doméstica independiente con patas suaves.
     info: El gato doméstico es un felino de la familia de los félidos que se cría como mascota. Es conocido por ser ágil, limpio y tener un carácter independiente.
+  pet.chameleon:
+    label: Camaleón
+    summary: Réplic capaz de cambiar el color de la piel e ira con los ojos en movimiento independiente.
+    info: '{"hint":"reptil cambiador de color con ojos que se mueven independientemente","info":{"label":"camaleón","summary":"Reptil capaz de cambiar su piel y tiene dos ojos moviéndose por separado.","data":{}}}'
+  pet.chinchilla:
+    label: chincila
+    summary: Roedor sudamericano con la capa pilosa más densa de todos los mamíferos terrestres.
+    info: '{"info":"La chincila es un roedor de los Andes con pelaje extremadamente denso; cada foliculo produce entre 60 y 80 pelos (solo uno en humanos). Prefiere temperaturas hasta 25°C ya que el sobrecalentamiento puede ser mortal para ella. Puede vivir unos quince años o incluso más allá del veinte."}'
+  pet.clownfish:
+    label: payaso
+    summary: Pequeno pez naranjado que vive en simbiosis con anemonas.
+    info: '{"hint":"pequeño pez marino de color naranja y blanco que vive en actinias mediterráneas (subfamilia Amphiprioninae)","info":"El pescado payaso amarillento es un pequeño animal acuático tropical del océano Índico-Pacifico que vive en simbiosis con las anémonas."}'
+  pet.cockatiel:
+    label: ninfa
+    summary: Pequeña periquera crestada originaria de Australia conocida por sus habilidades para cantar.
+    info: La ninfa proviene de Australia y habita en praderas y bosques. Los machos son excelentes imitadores que pueden aprender canciones, melodías e incluso palabras humanas. Es un ave social muy capaz de establecer vínculos con su dueño cuando está cautiva.
+  pet.corn_snake:
+    label: serpiente
+    summary: Serpiente amigable color naranja-rojo adecuada para principiantes.
+    info: La serpiente de maíz proviene del sureste de Estados Unidos y vive en campos y bosques. Es no venenosa e indiferente al atacar con dientes afilados que rara vez muerden por su resistencia.
+  pet.crayfish:
+    label: cangrejo de acuario
+    summary: Pequeño cangrejo colorido que vive en aguas continentales dentro de los acuarios.
+    info: '{"hint":"racas de agua dulce mantenidos en acuarios (Cambiaellus o Procambarus)","info":"Los cangrejos para acuario son habitantes populares del acuarismo continental debido al comportamiento activo y colores vivos.\nEl camaroncillo azul de Florida (Procambarus allenii) es la especie más popular como animal de un acuario.\nSe les cae el caparazón durante su crecimiento mediante ecdisis; el nuevo caparazón inicialmente está blando.\nSon útiles porque limpian el fondo consumiendo algas y restos alimenticios."}'
+  pet.crested_gecko:
+    label: Gecko de Nueva Caledonia
+    summary: Lagarto nocturno que tiene un característico penacho sobre los ojos.
+    info: '{"hint":"lagarto nocturno con crestas similares a cejas","info":"El Gecko de New Caledonia es originario y fue considerado extinto hasta el año 1994\.\nPuede saltar e está activo durante la noche\.\A diferencia de otros géneros no requiere iluminación especial UBV\.Se alimenta principalmente frutas y insectos además en cautividad hay una gran variedad de colores por mutaciones genéticas").'
+  pet.degu:
+    label: '"degradó"'
+    summary: Pequeño mamífero herbívoro sudamericano cuyo comportamiento social recuerda al de las Ardillas.
+    info: |-
+      {"info":"El degrado es un pequeño roedor originario de Chile que está emparentado con el cobayo y la ardilla común.
+      Es estrictamente diurno (activo durante el día) y muy sociable;
+      enferma si vive solo en cautividad.
+      Tiene tendencia al desarrollo del diabetes tipo II por lo tanto no debe comer frutas dulces cuando esté encerrado,
+      es considerado como organismo modelo para investigar enfermedades neurodegredativas tales como el Alzhaimer."}
+  pet.discus_fish:
+    label: escalar disco
+    summary: Un impresionante pez en forma de disco considerado el rey del acuario热带.
+    info: Los Diskus son una gran especie de pez originaria del Amazonas con forma circular y colores hermosos.
   pet.dog:
     label: perro
     summary: Mascota fiel de la casa, amigo del ser humano.
     info: El perro es un lobo domesticado y el animal más antiguo que ha sido domesticado por los humanos. Existen más de 400 razas y se conoce como el «mejor amigo del hombre».
+  pet.dove_pet:
+    label: paloma común
+    summary: Paloma blancuzla mantenida como mascota o para liberaciones ceremoniales.
+    info: La paloma blanca es un tipo de paloma roca domesticada y criada por su color blanco completamente limpio.
+  pet.electric_eel:
+    label: pulpo eléctrico
+    summary: Pez sudamericano que genera descargas eléctricas hasta de 860 volts.
+    info: El pulpo eléctrico no es un verdadero anguillo sino pariente de los bagres sudamericanos del río amazonas.
+  pet.ferret:
+    label: hurón
+    summary: Animal mamífero semiamenizado originario de la familia Mustélidos.
+    info: El hurón es una forma domesticada del tejón blanco que fue domesticado hace más de dos mil quinientos años para cazar liebres. Es curioso y juguetón; típicamente duerme entre 14 y 18 horas al día y el resto del tiempo se dedica principalmente a jugar con entusiasmo.
+  pet.frilled_lizard:
+    label: agamón collarudo
+    summary: Una lagarta australiana que muestra dramáticamente su piel colgando en el cuello para defenderse.
+    info: El agamón collarudo es una lagartija de Australia que cuando se siente amenazada abre un gran pliegue alrededor del cuello reforzado por costillas extendidas y emite un sonido silbante mientras camina sobre sus patas traseras como si fuera un pequeño dinosaurio tiranosauro rex.
+  pet.gerbil:
+    label: jorobi
+    summary: Pequeño roedor desértico con una cola peluda larga.
+    info: El jorobi mongol proviene de las estepas secas de Mongolia y China. Está adaptado para vivir en el desierto; bebe muy poco porque procesa eficientemente la humedad proveniente del alimento que consume.
   pet.goldfish:
     label: pez dorado
     summary: Pequeño pez de color naranja amarillento criado en acuarios.
@@ -22,14 +115,98 @@ cards:
     label: hamster
     summary: Pequeño y adorable roedor con las mejillas hinchadas.
     info: El hamster dorado es un popular animal de compañía. Almacena comida en sus mejillas, está activo principalmente por la noche y disfruta corriendo en su rueda.
+  pet.hedgehog:
+    label: erizo
+    summary: Pequeño mamífero carnívoro que se enrolla como bola cuando está amenazado.
+    info: El erizo de Guinea es un animal doméstico exótico popular criado en todo el mundo.
+  pet.hermit_crab:
+    label: cangrejo ermitaño
+    summary: Pequeño crustáceo viviendo dentro de una concha prestada, popular animalito exótico.
+    info: El cangrejo ermitaño es un crustáceo que no tiene su propio caparazón duro y protege sus partes blandas con caracoles vacíos de moluscos. Cuando crecen buscan una concha más grande. Los secos son tratados como mascotas en la región tropical porque son sociales e incluso habitan juntos.
+  pet.iguana:
+    label: '"label": "iguana",'
+    summary: Gran reptil verde originario de América tropical muy popular entre las personas interesadas por animales exóticos.
+    info: '{"info":"El Iguana iguana es una lagartija herbívora grande de Centroamérica que se cría como mascota doméstica y puede crecer hasta alcanzar dos metros de longitud\. Es estrictamente vegetariana y en cautividad requiere variedades vegetales junto con iluminación ultravioleta tipo B\(UVB"). Tiene un tercer ojo sensible al luz ubicado encima del cuero cabelludo \"ojo parietal\'
+  pet.koi:
+    label: karashi
+    summary: Variación decorativa del cyprínida común cultivada específicamente por su intensa paleta cromática utilizándose principalmente dentro de lagunas artificiales domésticas.
+    info: '{"hint":"variante ornamental del pez gordo común criado por sus colores vivos (Ciprinus cipo)","info":"El karashi es una variedad decorativa de la especie Cyprinus carpio que ha sido seleccionada en Japón desde el siglo XVII\nExiste más de un centenar de variantes con respecto al color y los individuos más valiosos pueden alcanzar precios superiores a las decenas o incluso cientos de miles de coronas checas\nPuede llegar a sobrevivir fácilmente doscientos años siendo Hanaco el ejemplar conocido como el más longevivo llegando hasta los veintidos mil días\nEn la cultura japonesa simboliza valor , perseverancia y felicidad","label":"capo koyi","summary":"pez dorado ornamentales con llamativos tonos mantenido en estanques para uso recreativo."}'
+  pet.leopard_gecko:
+    label: Geckón Leopardo
+    summary: Pequeño réptil nocturno con manchas muy adecuado para principiantes.
+    info: El geco leopardo proviene de las regiones desérticas de Pakistán y Afganistán. Al contrario que la mayoría de los gékones no tiene ventosas en sus dedos por lo tanto no puede escalar vidrio. Tiene párpados móviles algo poco común entre los gékones.
+  pet.lovebird:
+    label: agapón
+    summary: Pequeño lorito con fuerte vinculo emocional hacia su compañero.
+    info: El agapornis es un pequeño loro de África conocido por sus fuertes vínculos románticos entre parejas. Las aves en pareja comparten actividades como alimentarse mutuamente y limpiarse el plumaje mientras pasan la mayor parte del tiempo juntas; esto da origen al nombre 'lovebirds'. Existen nueve especies que varían principalmente según su coloración y distribución geográfica.
+  pet.mandarin_fish:
+    label: pequeño
+    summary: La especie tiene una apariencia psicodélica.
+    info: El mandarinero espléndido es un pequeño pez marino de los arrecifes del Índico y Pacífico con uno de los colores más llamativos en el reino animal.
+  pet.mini_pig:
+    label: cerdito minituario
+    summary: Pequeño cerdo domestico mantenido como mascota.
+    info: Los cerditos miniatura o de taza son razas pequeñas criadas del cerdo domestico que pueden ser entrenados como perros y evitan el sol porque no tienen glándulas sudorales; muchos dueños descubren sorprendidos cuando sus animales crecen más grandes de lo anunciado por los comerciantes.
+  pet.moon_jellyfish:
+    label: '"meduja lunar"'
+    summary: Una medusa transparente con capacidad lumínica que se cría en acuarios especiales.
+    info: '{"info":"La medusa lunar es uno de los tipos más comunes y resulta bastante segura para las personas."}'
+  pet.mouse:
+    label: ratón
+    summary: Pequeño mamífero herbívoro criado principalmente para uso científico o como mascota.
+    info: El ratón blanco es una variedad doméstica del ratón común que ha sido criada tanto como animal experimental y decorativo. Es un animal muy listo capaz de aprender rápidamente laberintos e imitar trucos sencillos. Vive entre dos y tres años y prefiere vivir en grupos por ser social.
+  pet.mynah_bird:
+    label: '"mina"'
+    summary: Pajaro hablador asiatico que tiene excepcional capacidad imitar voces.
+    info: '{"hint":"pájaro de la familia del estornino originario de Asia","info":"El mina es un pájaro perteneciente a la familia de los córvidos famoso por tener una de las mejores habilidades para hablar entre todos los aves\nImita tonalidads, acento y entonación con notable precisión\nEsoriginario de sureste Asiático e India\nEn cautividad puede aprender cientos de palabras y expresiones"}'
+  pet.oscar_fish:
+    label: oscars
+    summary: Grande ciclide inteligente del río amazónico que reconoce a su dueño.
+    info: '{"hint":"gran ciclide intelijente de Sudamérica (Astronotus ocellatus)","info":"El oscars es un gran cicliode sudamericano famoso por su inteligencia y capacidad para reconocer al dueño\u{a}. Requiere una pecera grande (mínimo 200 litros) con alimentación regular en comida viva u horneada\. Alcanza más de 35 centímetros de longitud y vive hasta quince años\. A veces actúa como si fuera perro antes que pez; nada hacia el vidrio cuando el propietario está cerca","label":"oscars","summary":"Gran ciclide inteligente del río amazonas que responde ante el dueño."}'
   pet.parrot:
     label: loro
     summary: Pájaro colorido capaz de imitar la voz humana.
     info: El loro común es el tipo más extendido de loro criado como mascota. Es inteligente, sociable y puede imitar sonidos e incluso palabras.
+  pet.prairie_dog:
+    label: psoun de pradera
+    summary: Roedor social excavador de túneles en las llanuras americanas.
+    info: El psoun de pradera es un roedor social originario del norte de América que vive en colonias subterráneas extensas y comunica mediante una compleja gama sonora considerada por los científicos como el lenguaje animal más desarrollado después del humano.
+  pet.quail_pet:
+    label: codorniz mascota
+    summary: Un pequeñito animal no exigente comúnmente mantenido dentro del hogar.
+    info: La codorniz japonesa es un pequeño pájaro criado ya sea para sus huevos o como mascota doméstica. Solo pesa unos cien gramos y se considera la ave de corral más pequeña en cría. Los machos emiten sonidos característicos tipo 'pío', mientras que las hembras graznan suavemente.
   pet.rabbit:
     label: conejo
     summary: Animal peludo con orejas largas.
     info: El conejo doméstico es un animal de compañía popular con pelaje suave y orejas largas características. Se alimenta principalmente con heno, vegetales y hierba fresca.
+  pet.rat:
+    label: rata común
+    summary: Habilidad mental notable en una mascota cariñosa.
+    info: La rata domesticada es uno de los mamíferos más inteligentes y puede aprender su nombre e incluso realizar complejos trabajos mentales. Es socialmente desarrollada formando fuertes vínculos con humanos u otras ratas. Vive entre dos y tres años siendo en Asia un símbolo del ingenio y la prosperidad según el calendario chinés.
+  pet.red_eared_slider:
+    label: Tortuga Hermosa
+    summary: Popular tortuga acuarística dulceacuícola con marcas rojas alrededor de las orejas.
+    info: La tortuga hermosa es originaria de América del Norte y es el reptil más común en cautividad en todo el mundo. Su característico parche rojo detrás de la oreja la distingue fácilmente entre otras especies similares.
+  pet.sea_horse_pet:
+    label: caballo del mar
+    summary: Caballo del mar en acuario salino, animal exótico que llama mucho.
+    info: El caballito de mar es uno de los animales marinos más difíciles de criar en cautiverio; requiere alimento vivo como artemias y misionas además de un ambiente tranquilo. El macho lleva las crías en una bolsa abdominal durante el embarazo e impide cientos de bebés simultáneamente. Viven por pares y son fieles para toda la vida.
+  pet.sugar_glider:
+    label: volador
+    summary: Pequeño mamífero australiano que planea por los árboles usando una piel especial.
+    info: El volador de cola corta es un pequeño canguroaustraliano capaz de planear gracias al membrano que se extiende entre sus patas delanteras y traseras. Tiene grandes ojos adaptados para la noche e interactúa mucho con otros individuos en su hábitat natural.
+  pet.tarantula:
+    label: arana teraposa
+    summary: Araña velluda muy grande mascota exótica para valientes
+    info: |-
+      El avispero rosado es una araña tarija popular entre principiantes debido a su naturaleza tranquila
+      La especie más grande de esta familia, el avispón gigante, es la mayor araña del mundo con patas que pueden medir hasta treinta centimetros
+      del largo
+      Su veneno se compara al de las abejas y no representa peligro para un adulto saludable
+  pet.tortoise_pet:
+    label: tortuga terrestre
+    summary: Tortuga terrestre muy duradera que vive toda la vida.
+    info: La tortuga hermán es una pequeña tortuga mediterránea popular como mascota doméstica y puede vivir más de cien años superando la vida útil del dueño actual. En invierno entra en estado dehibernación donde casi detiene sus procesos metabólicos.
   pet.turtle:
     label: tortuga
     summary: Animal lento con caparazón duro.

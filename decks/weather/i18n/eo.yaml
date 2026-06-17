@@ -1,0 +1,211 @@
+lang: eo
+pivot: false
+title: Temperaturo kaj vetero
+cards:
+  weather.aurora:
+    label: polaraj lumoj
+    summary: Naturofenomeno kaŭzita per solara vento en magneta spaco.
+    info: La polaraj lumoj (Auroro Boreala en la nordo, Auroro Australa en la sudo) okazas dum sunlumigantaj partikloj reagas kun la atmostero. Ĝi formegas verdan, purpuran kaj ruĝan flankon de lume kaj spiraladojn. Pleje videbla proksime al ekstreme poledaj regionoj (Norvegio, Islando, Kанада, Аntarkto). Indijanoj rigardad ilin kiel danĉantan spiriton el antauuloj.
+  weather.avalanche:
+    label: avalano
+    summary: Maso da neĝo kaj glaco falanta for de altaĵo.
+    info: Avalano estas rapida movado de neĝo kaj glacio sur montara flanko. La plej danĝeraj avalanoj el pulvorigita neĝo atingas rapidon pli grandan ol 300 km/h; en la Alpojn ĉirkaŭ cent kvindek homoj mortadas pro tio jare. En perdanĝera terrain oni bezonas havi akceptitan signalilo por detekto post avalanche.
+  weather.blizzard:
+    label: snowblitzo
+    summary: Forviuriganta neĝtempsto kun dense pluvado de neĝo kaj preskam nulovidebla distanco.
+    info: Snowblitzo estas forta neĝa fenomeno kun densan falmon de neĝo kaj fortika vento kiun rezultas en preskaŭ nula videbleco kaj altaj akumuladoj da neĝo. Historie tiu specoj de tempstoro establis milerojn mortintoj pro malvarmo.
+  weather.breezy:
+    label: venteteco
+    summary: Agabla kaj refreŝiga tagetermo.
+    info: Venteto estas malvarma vento kun rapidemo inter 6 kaj 11 m/s (Befort gradoj 3–4). Ĝi movigas foliojn, harojn kaj facilan materialon. Fiziologie reduktas la sencon de varmece per transpirado.
+  weather.clear:
+    label: klarumo
+    summary: Tute pura Ĉieleanĝelo sen unu sola nuvolo.
+    info: Klareco estas metereologia stato kun noktura ĉielo plenumita per malpli ol 1/8 de norvojkuro. Tio ebligas pleje fortan sunradion kaj pleja bonaj stelobservadoj. En klara nokto varmradiado foriras la teron rapide kaj temperaturo falas rapideme.
+  weather.cloudy:
+    label: nubele
+    summary: Ĉielen plenigita denove kun denseco da nuvoj sen rekta sunlumo.
+    info: Nuboj estas videblaj grumadoj el malgrandaj akvodropletas aŭ glacristaloj. Plie ol 60% de la tera ĉielo jam estis tute paska per nubaĵaro.
+  weather.cold:
+    label: Vintro
+    summary: Temperaturpontojn multe sub nula grado.
+    info: Ekstremo frigido okazas dum artika aero eniras temperatitaj latitudoj. La plej malvarma mezurebla terklimato estas je −89,2 °C ĉe la stacio Voronĵ al Antarctio. Organismo respondecas per kontrakto de sangovaso kaj tremado pro varmoformigo.
+  weather.dew:
+    label: roso
+    summary: Akva kaplo kondezita per varmeckadro.
+    info: Roseto estas akvokondensemo el la aero sur malvarmaj surfacoj dum senzorgaj noktoj. Ĝi formiĝas kiam unu tempempe establiĝis sub la punkto de rosemsformado. Roso gravas por plantoj kaj bestaro en aridoj regionoj; ekzemple pasterboj uzantas reton por kolekti matenan roson.
+  weather.drizzle:
+    label: mrello
+    summary: Tre milda akvomalo per mikropluveto.
+    info: Mrello estas pluvo kun tre malgrandaj ĝis plurgrandezoj de 0,5 milimetroj diametraĵo en la pleŭstro. Ne formiĝas el konvektecaj nimboformacioj sed ekde subenaj strato-formaciigoj. Estas karakterizita por marbordklimo (Britio, nordokcidentfrancujo). Krom sia delika naturo povas kaŭzi signifan saturigon.
+  weather.drought:
+    label: sucheco
+    summary: Longtempa malabundo da precipitaĵoj kaŭzanta akvonemkon.
+    info: Sucho estas meteologia stato kun longdaura manko de pluveto kiu kondukas al perdojn en agrokulturo, akvomanko kaj incendioj. EnĈehu estis la plej severaj sekecoj inter 2015–2020 dum jarcentoj; globala varmiĝado eksterordinare pigrigas tiun fenomenon.
+  weather.dust_storm:
+    label: dustebla buŝto
+    summary: Muro da pulvis movita per fortventego en sekaj regionoj.
+    info: Kiam forta vento levigas finpartiklojn el la suda tereno en la aeron, formiĝas polvebla buroka burono. En Afriko sub Sahara ĝin nombras 'harmatan'. La saharaj polvoj regule transpasas Atlanikon kaj atingas Aмерikan kontinenton; esploro montras ilian efikon sur Amazonio. Polveblaj buĉoj dum Dust Bowl dekadre kaŭzigis ekkologiaĵon je centrameriko.
+  weather.flood:
+    label: inundo
+    summary: Transfluado di akva el rivera lito al normalmente seka tereno
+    info: |-
+      Inundo okazas pro pluviado je tro, taŭgo de varma nivelo aŭ rompo di ŝildo kontraŭ akvo
+      Enundo estas la plej kostema naturseneco en mondo,
+      en Tchekiejo inundoj dum jaroj 1997 e 2002 kaŭzis milionarajn danojn e centero da mortinto
+  weather.foggy:
+    label: nebulo
+    summary: Densa tera nebluo malfacorgantasvideblecon.
+    info: Nebulo estas nuboj ĉe la surfaco de Tero formita el malgrandaj akvodripoj. Aperas dum alta humideco kaj reduktas videblecon sub unu kilometron.
+  weather.freezing:
+    label: glactemo
+    summary: Temperaturaroj sub punkto de glaciezigo rezultantaj al konverto de likva akvo.
+    info: Glaceto okazas jeke temperaturojn sub nulo grado Celsius-a, dum akvo transformiĝas en glacon. Biologie glaceto danĝerigas plantojn, kaj glaceco kaŭzas trafikon da transporta accidento. La plejmalfortaj frostoj en laĈeĥio kutime estas januare (la historie malvarmeco plenumis minus kelkcent gradon en Litvinovice 1929). Neveblas rigida formo de akvo; ties kreacio inter norloboj dependas pri temperatura stato kaj kondensaĵ-centriko.
+  weather.frost_flowers:
+    label: glacfloro
+    summary: Belaj glacokristaloj faritaj je varma humidaj surfacoj.
+    info: Ice Flowers estas kristalaj formoj kiuj ekzistas pro la glatisado de humideco sur tre malvarmaj surfacoj. Ili formas detalecajn kaj belajn ĉevalkrustumon en artika maro kaj aliaj lokoj kun similaj kondiĉoj.
+  weather.frosty:
+    label: brila matene
+    summary: Surfaça gelato; Kristaloj de akvonasko revolvas plantojn kaj grundon.
+    info: Gelato formiĝas dum la surfaco malvarmiĝis pli ol punkto de glacio kaj aerumido kristaliĝis en ĝian eksteran parton. Ĝi formas belajn desegnaĵojn sur foliojn, vitrolimojn kaj terpavimentojn. Gelato diferenciĝas el brilo da varmo - gelato estas sublimita vapora akvonasko sed brilado establiĝanta per kondensiĝinta ruĝega ŭelo.
+  weather.gloomy:
+    label: malhelvetera
+    summary: Tema afektanta vetero kun sentimento.
+    info: Malhela veteraro estas karakterizita per malaltaj nigraj norvoj kaj atmofero plena da varmeco aŭ regno. Ĝi asociigatas kun melankolio kaj aŭtonomo. SAVD signifas Sezonan Afektiĝon pro manko pri sunlumo dum la vintro.
+  weather.hailing:
+    label: halogado
+    summary: Precipito el glaciĉerpeloj kiuj ebligas daŭrigi agrodañojn.
+    info: Halogado estas precipitaĵo formata per glaciajn ĉerbelojn en nubeganoj. La ĝemato okazuas dum akvakaploj ripetegas inter varmecaj kaj malvarmaj partoj de la nubo. Ili povas atingi diametro pli granda ol 10 centimetroj kaj kaŭzi gravan damaĝon al agraro, veturiloj kaj tegmentoj.
+  weather.haze:
+    label: smoko
+    summary: Malhelpata videbleco kaŭzita pere de poluo.
+    info: 'Smoke estas malpligrandigita atmosfera klareco kauzita per pulvero, fumo aŭ finpartikuloj en la aero. Ĝi diferenciĝas de nuboformado: nuboj havas akvakaplojn dum partikulatmaterialo enhavas solidan aeron. Aziaj megalopolpozoj establiĝis kontraŭ smogo (mixaĵo el partikula materialo). UPM povus efektiigi spiradorganismo.'
+  weather.heat_lightning:
+    label: kalmanlumo
+    summary: Lumigo sen trompeto.
+    info: Kalkanaj lampadoj estas lumoj de malproksima pluvo, kies trompeto ne povoras esti aŭditita pro granda distanco. La nomo troprasemeblas ke temas pri varma tipo da fulmo sed tiel ĝusta ekzistas nenia. Ni aŭdas nur fulmon el maksimume dudekkilometra distanco dum klara nokto en somero.
+  weather.heat_shimmer:
+    label: mirago
+    summary: Luma distordigo per temperaturosuperfacio.
+    info: Miragro estas fenomeno kiam varmegradigita aero super ĉevalumado diskrucas lumon pro ŝanĝiĝanta denseco de la aero. La pli malvarma aero subtenas refrakton kiun oni videblas kiel fikcia akvo sur strato.
+  weather.heatwave:
+    label: vandra
+    summary: Longdauro da troprema varmetemo; sanrisko.
+    info: Varma vetero estas longdaura periodo de ekstremaj varmeclimoj superantaj la normalan sezonon. La eŭropa varmo-vetero en 2003 kaŭzis pli ol 70 mil mortojn kiel sekvo el trovarmega ambianto. Ĝi pleje danĝerigas maljunulojn, infanojn kaj malsanon personojn.
+  weather.hot:
+    label: varmo
+    summary: Varmapleza eksterordinara varmetemo kreanta nekomforton kaj sanriskoj.
+    info: Ekstrema varme estas meteologia fenomeno kun temperaturoj klare super la sezonaj meznombroj. En kombineco kun humoreto povas kaŭzi sunstrikon minacantan vivon.
+  weather.humid:
+    label: humidilo
+    summary: Aero saturita kun akvo-vaporoj donanta varman senpneuman efikon.
+    info: Humidilo mezuras la enhavon de akvovaporo en aero. Relativa humidilo ĉe 100% signifas ke la aero estas saturita kaj super tio liĝo formiĝos per kondezmo. Alta humido pligrandigas sentemon pri varmeco pro malhelpado al svedego elŝprui.
+  weather.hurricane:
+    label: Hurganon
+    summary: Potenca tropica ciclono kun veturoj superanta 120 km/h.
+    info: Huragano estas troppika cirkono en la Atlaniko kaj orienta Pacifico kun ventoj pli rapidaj ol 120km/h. Ankaŭ nomata taifujo (okcidenta Pacifico) aŭ cirekono (India Okeanu). La energio de unu tago eldonaĵo per huragono egalas al centato atomo bombo.
+  weather.ice_storm:
+    label: glacistinteco
+    summary: Akvo je malfiksata formo kun transparenta surfaco estas disdonita fare de ĝia propreca karakteriza eco.
+    info: Glacinta pluvo okazigas noktojn per klare videbla glacieco sur branĉoj, filerozoj kaj stratoj pro ĉi tio ke varma aero super malvarmega tavolo kaŭzas akvon kiun la frapado de tiuj kondiĉo konvertas al krakemitaĵo dum unua momento; ekstreme gravaj efektoj inkluzivas senenergion en elektro-retejo pro peza pundo el glaceto.
+  weather.icy:
+    label: glatio
+    summary: Danĝera glacieco super surfacojn kaŭzas slidadon.
+    info: Glacio formiĝas per frostado da pluvo aŭ malgrandaj ŝtonoj fondantaj sur varmaj surfacoj dum la vintro. Ĝi estas unu el plej danĝeraj kondiĉoj por trafiko en tiun temporegionon.
+  weather.lightning:
+    label: relindo
+    summary: Statika disĉarge inter nubo kaj tero aŭ inter pluraj nubo.
+    info: Relinge estas forta eletraĵo kiun kaŭzas diferenco de ŝargo en malpaca norlo kun atingado de krizia valoro. La rapidemo de relingo egalas al proksimume unua triono el la lumrapidemo sur Tero; ĉirkaŭ cent relingoj frapas teron dum unu sekundo. Franklin havis kreitan la unuan sciencajn protektecon kontraŭ relingoj ekde jaro mil sepcent kvindek du.
+  weather.misty:
+    label: malvarmo
+    summary: Vidpunkto limite pro maldika nubeco.
+    info: Malvarma vetero okazigatas per la konденso de akva vaporo en subaeraj tavoloj da aero kiam temperaturo malpliiĝis dum nokto super riveroj, ejoj por pescado kaj долины. Ĝia diferenco al densega nubo estas ke vizibileco restadas pli ol unu kilometro.
+  weather.monsoon:
+    label: monsuno
+    summary: Sazona variiro de veturo direkte al periodo kun intensiva precipitato.
+    info: Monsuno estas klimaligita fenomeno kaŭzita per sezonaj ŝanĝoj en ventumovado inter maro kaj kontinento. La Indo-pakista Monsono donas ekde junio ĝis septembro la plej grandparton el jara pluvo al tiu regiono. Plurmilione da homoj dependeblas pri agronomia produktivo sur masondon. Malfunkciigo de monsuno povas konduki al sekseco kaj faminto dum tro forta monsuno rezultigas inundaciojn.
+  weather.muggy:
+    label: kvaseco
+    summary: Neplacenta senzorgo en hota kaj malseka atmosfero.
+    info: Kvaseco estas kiam alta varmego kunigas al granda relativeca humideco de la aero por formi neagraban kondicion. La korpo ne povas malvarmiĝi bone ĉar tro multe da vaporo restadas sur via skinmo post sudorado.
+  weather.overcast:
+    label: plena nuvo
+    summary: Ĉielo tute plenumita per grizaj norgoj kaj mankas rekta sunradio.
+    info: 'Plene nubita ĉielo okazas kun 7/8 aŭ 8/8 de nubaĵaro kaj la lumo estas disdonita sen formado de ombroj. Manko da sunlumo ludas gravan rolon en psikologia distordo nomit "Depresio pro malabundo de luno" (ang.: SAD). Lumterapioj imitas nativan sunon.'
+  weather.partly_cloudy:
+    label: partalubele
+    summary: Ĉieleanpado establis per sunlumo kaj nuboŝatateco.
+    info: Partalubele nubigita ĉielo estas meteologia stato kun nuvopezo inter 3/8 kaj 5/8 de la ĝeso. Tio inkluzivas akumu-nunbojn kiuj formiĝas en pli varmega parto de tago.
+  weather.rainbow:
+    label: dualo
+    summary: Koloreca arko je firmamento post pliuvo dum sola lumigo.
+    info: Dua formiĝas per refrakto kaj reflektado de la sundomo en pluvgutoj. Ĝi enhavas sep kolorojn - ruĝan, naranĉon, flavecon, verdan, bluan, indigon kaj violan.
+  weather.rainy:
+    label: pluveto
+    summary: El nuboĵoj faladas plankvankaplokoj kiel plovado.
+    info: Pluvo formiĝas per la kondezno de akva vaporo en nuboj. Ĝi estas necesa por rigardi riverojn, lakegojn kaj trinkadon da akvo; mezuma plumado okazigas kun rapido de 9 metroj sekunde.
+  weather.sandstorm:
+    label: Sabloburono
+    summary: Muraro el sablo kaj polvero movata per fortaj venatoj.
+    info: Sablovo burono okazas dum forta vento levigas grandan kvanton da sablo kaj pulveron en la atmosfero. Habubo estas tipo de sablovburono trovita ĉefe en Sahuelo kaj Arabio; tiuj eble povos entombigi lernejojn kaj kaŭzi problemojn kun spirado.
+  weather.shower:
+    label: pluvokapo
+    summary: Mallongdaura intensiva akvoelstarado el plurunima nubaro.
+    info: 'Pluvoaŭro estas mallonga sed intensiva pluva precipitaĵo el konvektema nubo (plurumoformaj aŭ plurunimoformaj). Ĝi ekaperas rapidamente kaj forpasiras en kelkaj minutejserojĝis horoj. Tio karakterizigas someron: sunluma varmigo kaŭzas konvexion kaj formadon de plurunimoformaj tardo-posttagmeze.'
+  weather.sleet:
+    label: glacanta pluvo
+    summary: Miksitaĵo inter akvo kaj nivo kun partale malfonditaj kristaloj.
+    info: Sleet formiĝas dum varma tavolo da aero fariĝigas parton el la nivoflakoj kaj ili iom fondiĝadas antaŭ ol faladi al Tera. Ĝi formas finan glacon sur surfacoj kiuj estas tre dange rajtadaj per veturiloj.
+  weather.slush:
+    label: ŝmelata neĝo
+    summary: Parte ŝmolinta neĝo miksiĝis al akvon; glitema kaj malebla hivera surfaco.
+    info: Slushiĝanta varmo de la temperaturo super punkto nula faras ke laĵo komenci ŝmeli, formante mezamasecon el akvo kaj malpleneco da ĉefe en terenoj. Tio estas tre glita surfecko por pezintoj kaj veturiloj, kaŭzas hidrolanadon je vojoj kaj reduktadas gripemon per pneumatojn. Ofte uzatas salado kun salego aŭ sablo por pliboni pri tenzo.
+  weather.snowy:
+    label: neĝado
+    summary: El nubo faldukas blankaj neĝfolkeco.
+    info: Neĝo formiĝas dum la akvokapoj en nuboj frimas al glaciaj kristaloj - neĝflokoj. Ĉiu neĝa floketo havas unikan simetrikan figuron.
+  weather.stormy:
+    label: burko
+    summary: Gravaj atmosferaj fenomenoj inkluzive pluvaĵo el multe da akvonubejo.
+    info: Pluvoformiĝo okazigita en altaj konvektivaj nuboj kun granda kvanto da akvo vaporiĝanta rapidan ŝancon por formado de ĉevalpluvetojn kaj varmece dilatigitaj ajroprocesoj.
+  weather.sunny:
+    label: soji
+    summary: Malplena ĉielo kun brilanta suno sen nuvoj.
+    info: Sojlig vetero okazigasĝis ke nubaro ne barieru la sojn rayadon. La suno donacas lumon kaj varmon necesan por vivo sur Tero.
+  weather.sunrise:
+    label: mateno
+    summary: Matena kapado estas momento kiam Suno eliras sub horizonto.
+    info: La matenkapado estas la momento en kiu la Sunsfero transpasas superhorizonte pro kaŭzo de tera rotacio. Ĝiaj diversaj koloroj rezultigatas per Ralegh-disperso; tiel oni havas oranĝan au ruĝpurpan videblon. En polarregionoj ekzistas unika sezono por tio - plenumite tago kun nesombra lumeco dum kelka tempoparto.
+  weather.sunset:
+    label: mallevado
+    summary: Tagokazo dum kiam la suno nevideblas pro ke ĝi transpasigis sian orientan flanklinion.
+    info: La malleviĝo de la suno estas taga momento dum kiu la suno malsupreniras sub la horizonton. La variaĵoj en nuancojn (oranzulo, ruĝeco, violo) rezultas el dispremo de lumradioj per ĉielatmosfero; plejeleganta ekzemplo troviĝos post vulkanerupoj kiuj plenumis la aeron kun partikloj por fortiigi tiun efikon. Ekde antike tempo tio establis simbolo pri fino, retpaco kaj romanco.
+  weather.thunderstorm:
+    label: pluvtempsto
+    summary: Atmosfereca fenomeno kun lampetojn, tondo, akvofaldaĵoj kaj vento.
+    info: |-
+      Pluvoformiĝas en Kumulo-Nimbok, grandegrandaj nuboj atingantaj altecon pli ol 10km
+      Kapila ŝarĝo estas statika elektra malordigo inter du punktoj dum ĉirkaŭ unu centimeseko;
+      la varmo produktita per la lampo povas aldoni temperaturon supren al proksimume trioble tiel alta kiel suna surfaco,
+      kio kaŭzas sonan ondaron el dilatado de tia tre hejtata ajro.
+  weather.tornado:
+    label: tornado
+    summary: Necesa spirado el nuboj al surter.
+    info: Tornado estas rapide turniĝanta kolono da aero formita de buĉo kiu tuŝas la teron. La ventrapido eble superos 500 km/h. Plej oftas en 'Tornado Alley' Usono (Kansasio, Oklahomo, Teksaŭno). EnĈeĥio ekzistas tornadoj sed tio malofte okazas – fortempan tornado atakis Sudmoravian regionon dum somerperiodo 2021.
+  weather.typhoon:
+    label: taifu
+    summary: Supertempan tropika cirkulado havas forteman venton trans Cent-Nord-Pacifikaj maroj.
+    info: Taifu estas nomo por uragano en Filippinujo, En Chinoj kaj Japanio. La filippina insulrepubliko ricevas averaĝe dudek taifojn jare. Taifu Nini de la jaro mil-novcent-seddek kvin kaŭzis pluvdelugojn kun super du cent Dudekv naǔ mortintoj.
+  weather.waterspout:
+    label: Akvotrompeto
+    summary: Turnanta vaporkolono ligante maron aŭ lakecon kun norgo.
+    info: Akua trompeto estas turnanta kolono de akvoplenhava aero super korpo da akvo. Pera tornado-forma akua trompeto formiĝas el malbon-tempa buĉto; pli malforta bontempa akua trompeto naskiĝas en altkumo-nuboj. Ĝi povas sugi fiŝojn aŭ aliajn vivantajn estontojn kaj transmeti ilin sur la teron.
+  weather.whiteout:
+    label: blanka varmecon
+    summary: Blanka varmetumo estas fenomeno karakterizita pere de perditeco de lumkontraŭstaro kaŭzita je grandega kvanto da falanta akvokristalo.
+    info: Bianca malvarmo okazas dum temporo de blanka meteoro kun reflektado el la akvoĝelo kiun ĝin unuiigis al tiel forta ke ebleco distingadi inter tero kaj firmamento perdiĝos en sola blanĉeco; temas pri tre danĝera situacio por homoj vivantaj proksime al ekstremaj klimatej aridaj montaroj.
+  weather.windy:
+    label: venteganta
+    summary: Forta fluado de aero tondantega arbojn kaj portante foliojn.
+    info: Ventego formiĝas pro malsamtemperita hejto de la tero kiu kaŭzas movadon da aero el regionoj kun alta premo al tiuj per malalta premo.

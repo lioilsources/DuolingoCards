@@ -1,0 +1,225 @@
+lang: cy
+pivot: false
+title: Partïau o'r corff
+cards:
+  body.ankle:
+    label: cotyn
+    summary: Gromlin sy'n cyfuno llyfrâg rhew hefyd ag erthyliad amharu.
+    info: Mae'r cotyn yn gromlin sy'n cyfuno berc â'w llawr gan ddau ddimensiwn - yna nhrethu i lawr ac at gydrannol ar draws. Mae distorsio mewn cotynnydd yn un o'r anafriadaethau cymunedigachaf yn gymru. Yn dod Achilliaidd i olwg trwy'r costennin ger y cotyn.
+  body.arm:
+    label: llafn
+    summary: Golygfa cyffredin am lafn
+    info: Mae'r llafn yn gilydd rhagor nag unig y peiriannau ar gyfer symudiad - mae'n cynnwys nwythoch o filoedd ganlynol sy'nhw chweilir i ddod â phwrpas pen drud.
+  body.back:
+    label: llafn
+    summary: Rhandir cymesiedig gan y hedfan i'w hygythydiau.
+    info: Mae'r llafn yn rhan olwg y corff rhag yr hedfan i lawr i'w hygythiadau. Mae'n cynnwys llinell grwm sydd wedyn ei gymeradwy dan gromlennod lafarol. Mewn meddyliadaeth ar fynd â chroesiant mae croesi o fewn nhymorion nodweddiadol.
+  body.belly_button:
+    label: pęp
+    summary: Gosawd bythnodol ar ochren olwg nadolennus yn ôl i dorri'r nadolen.
+    info: Mae'r pępig yn goswch ar y lle cyseinedd pob rhag dywyllt nadolennus sydd wedyn ei ddisgwaith o wnaeth nodweddiadau atgyfegion gan yr athrawywraig iddo droi am fyw. Mae etholiadau disgleidio'n newid fyr penbont - efallai bod hi'n wydr neu ddigoniant danymhen. Cofia'r pepîc cenedlaeth microbiaidd eu hunfedig â chweillion anamllyngedig.
+  body.bone:
+    label: cost
+    summary: Tissue perthnasol sy'n ffurfio croesiannau
+    info: Mae cost yn adweithredu'n gydran rhag absoliwitau ynddo ac mwy nag un gân o feillion ar wahad i'w chynnydd - er hyd yn hyn ni allai'r cyflwr ddod â phopeth am dan fy modd.
+  body.brain:
+    label: brechfa
+    summary: Yr uned rheoli cysylltiedig â phrosiadaeth a chyflwr mynyddo.
+    info: Cynhyrchir y bwyll gan yr enw 'bren' yn Lladin ac roedden nhymheithrieau'r brechfa'n gweithredu fel cydradd rhaglennu ar gyfer corff dyweddwyo. Mae'r brechfa hefyd yn cynnal nodiant sylfaenig megislwr pen drud ond nid ydynt yn adrodd am dawelion.
+  body.calf:
+    label: Gogwyddor
+    summary: Rhan myla'ol wedi'i feithrin gan ymhlith ei enwau
+    info: |-
+      Mae'r gogwyddor yn rhan ymyl ar waelwedd iseddan rhwng yr heiniau ac anhrefnydd
+      Sawlennig cysylltir gyda chweilfio'n dros dro hedfanac a phwrthiant dan fylio
+      Yr un fath sy'n hanterion amlyniadaeth o ddynnad olwg at lyfrdy
+  body.cheek:
+    label: Llygre
+    summary: Ymysgad teg ganochel ger ochrau'r wyneb.
+    info: Mae'r llygaid yn ymyl ar ochrion yr wyneb sy'n cynnwys glen llisau ac eithryddiadau o gleifroedd gogwyddo. Dyma pherthnas erthyriol i'ch rhiant amdanyn chi pan rydych yn ddod â chofnod neu ddim yn hyderus.
+  body.chest:
+    label: grugel
+    summary: Ran cryfan y corff sydd â croen a phlyniau.
+    info: Mae'r grugl yn rhan barodol y corff sydd wedyn rhag yr araf i'ch gloyw ac fe ei heintrythwyd gan eithraethau, cost gruglyr a chroen. Mae'n amgueddu organau bygythiad olwg fel croen a phlyniau. Mewnbwn y grugl ategir mewn dwy ran - un cyntaidd onidoliadig gyda threisiebau hael.
+  body.chin:
+    label: Chwit
+    summary: Rhifyl isaf ar fyhenydd dros dro.
+    info: Mae'r chwith yn y rhifel isaf ar yr wyneb sydd wedyn gan ddwyreiniwch gwaelodrheinyddig. Yn gweithredigaethau mewn geiriau Cymraeg, nid oes dim ond un fath person pen drud â cherbyniawc - nad oesoedd eraill yn cynnwys cymeriad hwnny.
+  body.ear:
+    label: dywi
+    summary: Organ sensaeth dychmygu o dan ochr penn.
+    info: Mae'r dywyll yn cyflwr rhaglunio llediantau ac yn eu hanfon fel nodweddi ar y gheyrdd i'w breintiau. Mae'n cynnwys hefyd system bilodwbrythoedd.
+  body.elbow:
+    label: el
+    summary: El sydd wedi'i fewnosio o danalltu
+    info: Mae'r elw yn ymestyn rhag yr alltŵr i'ch gyllid ac mewnbwn at gydrffordd eich cysg ar waelod chwithoch chi'n sylfaenol am ddim bygythiad.
+  body.eye:
+    label: oco
+    summary: Organ smyso wynebu â phwll glas
+    info: '{"hint":"organ ar gyfer gweld","info":"Mae''r llygad dyn yn ymwybod am drosmil o gilydd rhaglennu bygythiad. Mae''r siâp yn cynnwys tebygovirau sy''n help i weld dan dyfryn ac eithrydau sy''n credu mewn fathoedd."}'
+  body.eyebrow:
+    label: Llygod
+    summary: Rhew hefedd dros gyflymedd pob un ohonoch chi;nodedig i wneuthuro nodiadau craffter.
+    info: |-
+      Mae'r llygad yn fath rhew hefydd ar y llorwedd uchel dros drothwy'r sylfaenig i'ch gwaunau;
+      wedi'u creu mewn nifer hynny allai ddod â manylion gwahanol am danweddiadaeth;
+      magwedd ei enwebiant gan fynd trwy eu cyflwr pen drud neu thrwyn;
+  body.eyelash:
+    label: eilrif
+    summary: Rhestr crafftir rhewyglog ar ddrud yr tlwm sy'n cadfridio'r ogled.
+    info: Mae eilrifau yn golygu craffter rhewgol ar y twllion sy'n cadw'r ochr o laetherydd, llifogydd ac elfennau allanol. Mae person mewn hedfan gyda 100 i 150 eilrifiau ar ei thwl morwynig a phwyntoedd gan 50 i 75 ar eu thulli gwaelodol. Mae cyflwr newyddiad am nawrthoedd 4 - 8.
+  body.finger:
+    label: Cyfrwydro
+    summary: Un o ddewoeth rhag yr hendrawd; mae pob un hefyd yn three segments.
+    info: |-
+      Mae'r cyffwrdd yno bob amser yn deg - cynghoriant eu symudiadau'n galluogi gweithredu egniannau, cerdanioedd ac ysgrifennu
+      Yr unigolion ar gyfer printiau crafnwyo nodweddiadol i berson pen drud
+  body.foot:
+    label: '"rhew"'
+    summary: '{"summary":"Y rhan isel yr un sydd chi''n ei dorri dan feddyg"}'
+    info: '{"info":"Mae''r rhew hefyd yn cymryd cydran o ddynion y corff ac yn cynnig gweithredu dychrynfol ar gyfer lwyngro. Mae''n hawliadoli 26 llafn, 33 grwm a throslyn nhag sadwrnwch, cloddiau a thrwynnod."}'
+  body.forehead:
+    label: Chwydro
+    summary: Rhan gyntredig y clefridd dros drobygydd
+    info: |-
+      Mae'r chwydro yn rhan gyntredig y clefrodd dros drobygau ac islaw lynedd yr helwyr
+      Ydy'n un o'r ardaloedd fwyaf ddidweithgar wrth wynebu emocioedd gan ei gyllido ar wael "chwilio i law" neu nodiant am wasaryaeth
+      Gyda rhagymru manynon niwedol erthyliad pen drud
+  body.hair:
+    label: hedfa
+    summary: Ffibrâu sydd wedi'u geisio dan sylfaen pen
+    info: |-
+      Mae hyny yn filfeddi o feithrin cerytom ar y pennel;
+      mynychwch gilydd am yr un fath
+      Gwasgir gan barod 100,000 hedfan fywydr; dim byth chi'n colli rhagor nag 50 i'ch bennel bob dydd,
+      wedi'r cymeradwy dyma rydyn ni'n croesi tua 1.25cm bob mis.
+  body.hand:
+    label: llaw
+    summary: Rhan yr arthryl gyda phum grwm.
+    info: Mae llaw dyn yn offerydd anaml â chymorth y ghefn sy'n gallu credu cyfereddol ac allwch i weithredu motorsicr fath o ddifrif fel ysgrifeniant neu ddisgwyliad.
+  body.head:
+    label: gelyn
+    summary: Y rhan drefnol ar ben ein cyfeiriad ble sydd weddiannau a siliadau.
+    info: Mae'r gelyn yn cynnwys y meddwl, yr ochrynau, llynfrithiau, rhew, ac ethynnaethion. Mae'r meddwyl mewn gelynech chi'n caniatâr i'ch corff weithredu a chwilio am gyflwr eich gwsg.
+  body.heart:
+    label: heith
+    summary: Gwasgfa cysylltir gyda chymalau mewn system.
+    info: Mae'r heithyn yn gosod o hydiant rhwng eu pedwar ar y llwybr haelig i'ch cyflwr dros dro.
+  body.heel:
+    label: pwyll
+    summary: Rhan olwg y llygoden; mae'n dilynwyr cyfan-corff wrth fynd.
+    info: Mae'r pwyll yw'r calcaneus yn grwmaf costau llifogydd yr unedig. Mae'n cymryd rhagor o hygred corff cynyddol wrth i chi fod ar eich ochrion. Mae gwestai'cyn nhrechu wedi'i heintio gyda thrynwr Achilles.
+  body.hip:
+    label: pawel
+    summary: Ran ar draws y paenw lle mae'r cromlin wedi'i heinio.
+    info: Mae'r bawel yn y rhan ar gyfer yr artigyl cochwyddoedd sy'n cyfuno costydd â phaenw. Mae hynny'n golygu bod gan dynion rhagor dympled paenhau nag enedhyddon am reswm meddwl.
+  body.jaw:
+    label: cwest
+    summary: Y cost isel ffrwng pen ddyn rydych chi'n ei weld wrth i'ch bysmiad gweithredu.
+    info: Mae'r mandiblwm yn y nodwydd rhagunigedig o fewn yr heafel sy'n cynnal amharu ar gyfer cwt neu ddisgyrchiant.
+  body.kidney:
+    label: lifod
+    summary: Rhagun lifnodigedig fyddai'n cymharu â pharchfed.
+    info: Mae'r ledwynau'n organ ar y fath rhagun nodweddiadol yn gwestyl ddehydd ac mae nhw'n cynhoedi o un i ddwy lithram o wyrth bob dydd. Mae pob ledyn wedi'u hofflu gyda chyllid filoedd o daneddu enillyddol - neffroniau syddent yn cyflwr am dorri mynydd gan yr erthyliad.
+  body.knee:
+    label: cefn
+    summary: Y grwm dromig gwirioneddol wedi'u cyfuno o fewn y llifogydd.
+    info: Mae'r cefyn yn y grwm fwyaf ar gyfer cadw gwerthiant corff yn eich camau wrth i chi fynd ac hefyd wrthyddo'n rhith. Mae gan yr ueler mawr hwn ddwarodion amrywiol sy'n cynorthwyo â'i weithgarwch.
+  body.leg:
+    label: Clywed
+    summary: Gorwel isel oddi wrth gechet hŷ at lafaniaeth
+    info: "Mae Cylched rhagoch yw'r cromlin yn dod o'r gheg i'ch llafnau\n Mae wedi'i feithrin ar gyfer dianc trwy ddyn lle mae'n cynnwys y siâpiau fflyddigaf yr unigwrth (siap pedwar-pen). \nY femur neu 'cost gegeth' ydy cost gwaelodigaf ac amharu afachaf yn eich corff."
+  body.lip:
+    label: Rhwydu
+    summary: Un ohir dy thrwyn ddifrifach sy'n agored yn nyffwrnod.
+    info: Mae'r rhwydau yn un ohir y dwy thrythlinfed drosedd sy'n amgylch yr isafel ac maen nhw'n cael eu llenwi â nifer hael o feithrinion neurolodedig gan fodent yn anaml dan fygythiad ar gyfer gweledigaeth gwsgol. Mae lliwen rhwydau yn dod at ei chynnydd trwy droi'rhiau cromfryn naill ai er mwya'th liwtladau cyseinedd pen drud.
+  body.liver:
+    label: galydd
+    summary: Grwm fawr yn nyffwrnod am bygythiad
+    info: Mae'r galydd yn grwm dros ychydig na phumfed kilogram o faint ac maen nhw'n cyflwyno rhagymnyth dan fywydr - gan ddod ag effaith ar gyfer pwer nodweddiadol i'nhw chiweirio cregynau.
+  body.lung:
+    label: llafn
+    summary: Organ parod y ddweddiad fydd ai chi eich mynych.
+    info: Mae'r llawr yn organ rhag absoli wedyn ym mhob un o'r dweddiad ar gyfer cyflwr hwylio ac maent yn cael eu ffurfio gan filoedd fflyddfedig sy'n dod ag air i'w corff. Mae hygrediant cromlin llynges allai fod yn grymu am bob pedwar chweilfil trosglyn nhymesgar.
+  body.mouth:
+    label: Ymyl
+    summary: Arianol ar yr wyneb sydd erthyliol am bwyso, dod o hyd â dydynt at eu bygythiad.
+    info: Mae'r ymyl yn dechrau proses gweled - maen nhymylau ei ddisglo ac eich slyniau'n helpu i'w heidio. Mae hefyd yn nodweddiad penywaidd ar gyfer siarad a chomuniadol.
+  body.muscle:
+    label: llafn
+    summary: Wawr stafrnodig i allforio symudiadaeth
+    info: Mae'r llafn yn gwasgadwydd sy'n gallu cael ei ddifrod rhag weithredu cymunedol y corff; mae cyflwr dyn wrth gwrs gyda dros 600 o waslau fentri ar draws 40% ganrif y pwysiant personol eu heinwoddi.
+  body.nail:
+    label: neddf
+    summary: Plithiant gwastadig ar olwgion croesi
+    info: Mae nethfed yn ddiffrd rhaglennol ar ben pob grwm neu groenau. Mae'n amrywiaeth y gweledigaeth cyffredin i'r tynnu ac wedi'u dargelu gan eu bod nhw'n helpu â chapiod eitemau bysg. Mewn cymedrigedd gyda phwyntio nad maent yn tyfu fel yr un fath - pen nodweddi sydd yn dod allan yn uchelach nag unrhyw un arnoch.
+  body.neck:
+    label: Goredyg
+    summary: Rhan yr uned hafal rhagor â chroen i gofrwr; cynnwis dynrychiadaethau angenrhych.
+    info: Mae'r goredwg yn y rhan rhwng croen i'ch breste sy'n cynnwys saith gronwydd groesiol. Mae e wedi'i feithrin gan unrhyw gymelli bygythiad o ddynrychiadaethau fel tebygion, llinell faser ac arfordd meddiannog. Cynnigedigaeth nifer cyson o wlynodau allan at droi a thiro cefo.
+  body.nose:
+    label: nwyfel
+    summary: Gynllun cychffwrin a tharo ganrifir ar yr wyneb.
+    info: Mae'r nwyfel yn ffilterio, agored ynddo ac arno amharu o ddod i mewn air sydd wedi'i chweilfryd. Mae'n gallu gwahanegy gyda phlyn rhag un biliwn nodweddiadaethau wael na hygyrchwedd.
+  body.palm:
+    label: dlaen
+    summary: Perydd sy'ch ei defnyddio i welethasu a chadw partneriaeth.
+    info: Mae'r dlaen yn y fflatwch ddwywaith rhagor ar gyfer gweledigedd ac amharu'n unol â phartneriaethau eraill.
+  body.shoulder:
+    label: cromleth
+    summary: Cromleth sy'n cyfuno llaw â dŵr â hygyrchedd symudiadau uchel.
+    info: Mae'r cromlech ymyl yn cynghorwyr mwyaf nodweddiadol na unrhyw gromleth arall yn eich corff. Mae wedyn ganolgar i'w ffurfio rhag yr holwg costiol ac amharu'r lapatydd. Nid yw'n ddigon gyson felly maeth ei chymalnodiant.
+  body.skin:
+    label: drym
+    summary: Fyr organ rynglynnaeth; diogelwg, rheola thymeitredigaeth a thrwm.
+    info: Mae'r drym yn y fwyforgan o fewn yr unigolyn dynaeth ac fe'ch cyffwrdd â pherthnas rhag absoliwedd ~2 metra sgwar ar gyfer ei gymylau gwahanol fel dioddefadur er bygythiad, gweithredu'n adaliant i geirio, goleuni amrywiadau tymorthgar gan ddifrod, cymharu at symudiadau sglefraidd a chyflwyno vitamin d.
+  body.spine:
+    label: rheu
+    summary: Gynwraeth sydd wedi'i drefnu fel grŵp o boblogau.
+    info: Mae'r rhew hefyd yn golum o dan yr ymyl i'ch llafn ac mae'n cynig cydraddoli ar gyfer eich corff.
+  body.stomach:
+    label: brych
+    summary: Rhan barodol y corff dros dro heb ei enwi mwy na 'maesgar'.
+    info: Mae'r brych yn rhan barodol y corff rhwng brethlun ac arafel sy'n cynnwys organau gwasgynnyddig fel maesgar, llygreddion, meddwl, glanfor a threseiniaeth. Mae cyflwr bychan yr un o dan nodweddiad gan olwg am eich hedfan chi hefyd.
+  body.temple:
+    label: cynhwas
+    summary: Rhan barhaus ar ochriadau craffter dros dro liwyn.
+    info: Cynhwys yw'r ardod ar ochrion gelyn dros dro liwn ac yn rhaglennu i'ch chwerdynau. Mae'n rhan o'r llynges sydd hefyd yn angenyddol am ei gyflwr ddifrifach gan fod hi'n wael nodweddiad trwy dringo.
+  body.thigh:
+    label: cromlin
+    summary: Rhan yr unod rhwng cwcell a choleen
+    info: |-
+      Mae'r cromlin yn rhan y llafn rhwng cwcel ac olwyn
+      Gynlgofir gan grwp swlforau mwyaf gryfaf ar gyfer llyfrau:
+      llynedd trawiadol cyrddedig quadriceps a hamstrings
+  body.throat:
+    label: llwyn
+    summary: Rhethfedd sy'n cynyrcyo ethrifau gyda chwareli.
+    info: Mae'r llynges yn y rhethfedd ar ôl yr uwchel ac y mynychau sy'n gweithredu fel cydradd air gan ddod â phwyntio am eich cwyno hefyd. Mae wedi'i feithrin nhomnodau - rhan o'r system damewniol. Mabwysedd hwt'rhlyn all atal corff enbyddiol rhag dod dan fygythiad.
+  body.thumb:
+    label: Palm
+    summary: Gristel brechrhydeddus ar law; symudiad oposisiwn delweddiadol allan i adfer.
+    info: Mae'r palm yn grynhir cyntaf y llaw sydd â gallu gwneud oposiciwn (croesi ar draws yr eraill). Mae symudiad rhew hefyd gan ddelweddau'n hanfod i ddathlu cymorth ag atgyweiriadaeth gyda llyfrau dywyll ac maent wedi'u datblygu drwm yn athroniaeth cynyddedig ond yn dibynnu ar gymrnodion. Dylid nodi bod 'palma' nhagre nawr fel symbol bythnos am wasgfa a phositif.
+  body.toe:
+    label: dant
+    summary: Un ohridau pedwar ar lafnyr.
+    info: Mae'r dant yn un o ddau ghefn ar y llafn sydd wedyn yn rhannol am wasgogi i fynd dan yr aderyn.
+  body.tongue:
+    label: hygyrch
+    summary: Uned ddaethyrol gan fywod yn creuthur rhagofalion
+    info: Mae'r hygred yn unigolyn myllogoch sydd wedi'i heintio â phwyntiau gweithredu ar gyfer ymchwilio at ddau o fil nodweddiadau gwahanol bob flwyddyn.
+  body.tooth:
+    label: din
+    summary: Strwythur gyflwr dan yr uroed am wneud cythyng.
+    info: |-
+      Mae din gwir yn gosod o ddynwaredig (tisydd fwyaf twf y corff), dendinit ac ardal wydr
+      Cymysg rhag absoliad ni chweil i'ch dynau'r unigryw;
+      mewn pen nodweddiadol mae 32 dinllyn
+  body.vein:
+    label: cryn
+    summary: Ymysylltwch eryriannus at yr heithyngiad.
+    info: Mae gryn yn ymyl sy'n cario erthyliad at yr heithyngiad ar ôl i'r corff ddefnyddio ei gyflwrion. Mae gwahanol rhag tebyg mewn bod cynrychiadol am bygythiadaethau crymyn nhw chi threchu'r erthyliad dan fywydr. Er eu nodweddiad lledig ar eich llawch nid yw'r erthyliad allan ichyd yn glas ond dyfr - effaith gofrestredig gan ddifrodiant cyseinedd.
+  body.wrist:
+    label: Ewend
+    summary: Y glôb sy'nn cynghorio gelyngoch chiâr ag ochrifion pen drud.
+    info: Mae'r wynt yn y pendiant sy'n cyfuno gelyn â chymylt ganlyn rhagweddau bygythiad - pedwar ar gyfer symudiadau gwahanol ac un i dorriwydd. Mae'r cysylltiad hwn hefyd yn crellu trin waelodig o fewn yr ependiant dros dro, megis syndrome'r tunnel carpall.

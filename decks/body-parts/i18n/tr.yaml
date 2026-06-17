@@ -2,18 +2,88 @@ lang: tr
 pivot: false
 title: Vücut Bölümleri
 cards:
+  body.ankle:
+    label: ayak bileği
+    summary: Ayak ile bacak arasındaki bağlantıyı sağlayan en çok sakatlanabilen eklemdir.
+    info: Eğek kemikleriyle oluşan bir eklemle ayak bileği bacağa bağlanır ve bu ekleme diz yarısı denir. Ayakkabıyı yukarı aşağı hareket ettirmeyi sağlar ayrıca hafif yan yönlü hareketlerde etkin rol oynar.
+  body.arm:
+    label: braz
+    summary: Omuzdan bileğe kadar olan üst ekle.
+    info: Brazo omuzdan elin içine kadar uzanan üst ekstremiteti ifade eder ve üç bölümden oluşur; dirsekten sonra gelen kısım olan alt kol ile önkol ve elle birlikte meydana gelir.
+  body.back:
+    label: göğüs
+    summary: Kasların en büyük grubunu oluşturan vücutta torak kısım.
+    info: Göbekler boyunundan kalçalara kadar olan gövsün arka kısmıdır ve kaslar tarafından çevrelenmiş bir omurga ile oluşur. Bel ağrıları işe gitmeme durumlarının en yaygın sebeplerinden biridir.
+  body.belly_button:
+    label: navel
+    summary: '''Karaciyer'' olarak da bilinebilen navel doğumu takiben bebek ile anne arasındaki bağlantıyı sağlayan omfaloarterinin kestiği noktadaki deride oluşan kalıcı bir izdir.'
+    info: Navel (omfalos), bilinen ismiyle 'karın ortasındaki iz', embriyonun anneden besin alması için bağlandığı karaciğeri taşıyan organ olan umblikal sinir hattının kesildiği yerdeki yara iyileşmesidir ve bu yüzden herkesinde farklı şekillerdedir ya çukurludur veya dışarıya doğru çıkıntılıdır.
+  body.bone:
+    label: isnekemikleri
+    summary: Isne oluşturan bağışıklık sistemi organıdır
+    info: |-
+      Osteoblastlar ve mineral tuzlardan oluşan birleşik dokudur
+      Yetişkin insan iskeletinde 206 kemik bulunurken çocukta yaklaşık olarak daha fazla vardır çünkü birçok kemik büyümeye bağlı olarak kaynaşır
+      İçiliği ise kan hücrelerini üretir
+  body.brain:
+    label: beyin
+    summary: Vücut kontrol merkezi; evrendeki en karmaşık yapı.
+    info: İnsansal beyni yaklaşık olarak 1,4 kilogramdır ve sekiz buçuk milyar nöron içerir. İki yarım küreye ayrılır; sol taraf vücudun sağ tarafından sorumludur ve tam tersi geçerlidir. Vücudu sadece yüzde iki oluşturmasına rağmen toplam enerjinin yüzde elliğini kullanır.
+  body.calf:
+    label: bacak üstü
+    summary: Diz ile ayak bileği arasında olan alt bacakın arkası.
+    info: Göbek kası adlı ana bacak kası diz ile ayak bileği arasındaki alt bacağın arkalısının bir parçasıdır ve topuğu kaldırma ve zıplarken itme yeteneğini sağlar.
+  body.cheek:
+    label: yüz
+    summary: Duyguları ifade etmek için kırmızılaştığı yandan gelen sert doku.
+    info: Yüz kasları, yüz üzerindeki kemikleri ve yağ dokusunu içerirken duygusal tepkilere yanıt olarak kızarıyor olabilirler.
+  body.chest:
+    label: gövs
+    summary: Kalbin ve akciğerlerin yer aldığı vücudun öne dönük bölümüdür.
+    info: Göğüs kafesi iskeletinin kabuk kısmı olan ve omurga ile sternum tarafından sınırlanan gövdenin ön kısmıdır. Kalp ve akciğer gibi hayati organları korur. Göğüste on iki çift kürek kemikleriyle birlikte sternumu ve torakal vertebra grubunu içerir.
+  body.chin:
+    label: beyaz
+    summary: Alt dudak altında yer alan gözlemeye uygun olan yüz bölgesidir.
+    info: Çene altı, yüzün en aşağı kısmını oluşturur ve genellikle çenedir. İnsanlarda belirgin bir bıyık varlığı hayvanlar aleminde benzersizdir çünkü diğer maymun soyuna mensup canlıların bu özelliği yoktur. Neden bizim böyle bir şey olduğumuzu bilimsel tartışmalara konusu halini koruyor.
   body.ear:
     label: kulak
     summary: Başın yan tarafındaki işitme duyu organıdır.
     info: Kulak ses dalgalarını alır ve bunları sinirsel sinyallere çevirerek beynin işitmeye özel bölümlerine gönderir. Ayrıca dengeyi sağlayan iç kulak sistemi de içerir.
+  body.elbow:
+    label: dirsek
+    summary: Dirsek kolü eğen eklemdir isim okşu kelimesinden gelmektedir
+    info: El bileği dış kısmındaki eklem olan dirsek üst kol ve 전臂 arasındaki bağlantıyı sağlar. Kolun bükülmesine, uzamasına ve 전臂in döndürülmesini mümkün kılar İlginç bir detay ise dirsekte dokunsal hücreler bulunmamaktadır Dirşeğe vurmak ulnar sinirinin yolunu keserek tipik karınca hissi yaratmaktadır
   body.eye:
     label: göz
     summary: Renkli iris ile görüyü sağlayan duygu organı.
     info: İnsan gözü yaklaşık 10 milyon renk tonunu ayırt edebilir. Retina, sisli hava görüşü için çubukları ve renkli görüş için kamerayı içerir.
+  body.eyebrow:
+    label: Kas
+    summary: Her gözün üzerine uzanan tüylü bant şeklinde yapıdır.
+    info: Kaşlar gözün üst kapağının üzerindeki tırnaklardan oluşan bir şerittir ve non-verbal iletişim için çok önemlidir çünkü duyguları ifade etmek amacıyla hareket ettirebiliriz. Fonksiyonel olarak bu saçların amacı yağmur ya da terden dolayı gözlere su girmemesini sağlamaktadır.
+  body.eyelash:
+    label: bıyık
+    summary: Kıvrılmış bilye şeklindeki kalıcı tüylerdir.
+    info: Beyaz etrafındaki kıllar gözleri tozdan ve yabancı cisimlerden korur. Yetişkin bir insanın üst kaşında yaklaşık olarak yüz ila iki buçuk kıl vardır; altta ise yirmi beş ila yetmiş dört tanesinden oluşmaktadır.
+  body.finger:
+    label: el parmağı
+    summary: Her elle beş el vardır.
+    info: El parmakları beş eldeki birer yapıdır ve her birinde üç boğum bulunur.
   body.foot:
     label: ayak (diz)
     summary: Üzerine ayak basarak yürüdüğümüz bacak alt kısmı.
     info: Ayak diz, vücudun tüm ağırlığını taşır ve iki bacaklı yürüyüşü sağlar. 26 kemikten, 33 eklem ve 100'den fazla kas, tendon ve bağdan oluşur.
+  body.forehead:
+    label: alın
+    summary: Kaşların üzerinde bulunan kemik yapısıdır.
+    info: Alın kalça üstü ve saç hattı altındaki başın ön kısmıdır. Duygular ifade edilirken en belirgin bölgelerden biridir; alın kıvrılması endişeyi gösterir. Birçok kültürde alında sembolik işaretlerin bulunması anlamlıdır (yemin veya toplumsal sınıf). Sinirolobide beynindeki frontal lob karar verme ile ilgilidir.
+  body.hair:
+    label: saçlar
+    summary: Baş derisindeki lifler
+    info: |-
+      Saçlar kıranın altında yer alan saçı kökte büyüyen keratin lifleridir
+      Ortalama olarak bir insan başı üzerinde yaklaşık 100 bin saç teli vardır ve günde ortalama 50 ila 100 tel dökülür
+      Aylık olarak yaklaşık 1,25 santimetre uzunluğunda büyür
   body.hand:
     label: el
     summary: Beş parmakla biten kol kısmı.
@@ -26,11 +96,115 @@ cards:
     label: kalp
     summary: Kanı vücudun tamamında sürekli pompalayan kas.
     info: Kalp, elin avuç büyüklüğünde bir boşluklu kas yapısına sahiptir ve dakikada yaklaşık olarak 70 kez çarpmaktadır. Hayat boyu kanı Dünya'nın üç turuna eşdeğer mesafede pompolar.
+  body.heel:
+    label: pat
+    summary: Ayak dibinin arkasıdır.
+    info: Aykabın arka alt kısmı olan pata kemikleri ayak tabanının en büyük kemiğidir ve dururken vücudun çoğunu taşır.
+  body.hip:
+    label: kalça
+    summary: Pantiliğin çevresindeki alan; bedenin yükünü taşıyan en büyük eklem.
+    info: Kalça eklemini içeren bu bölge bacak kemeri ile kalçayı birleştiriyor ve yürüme sırasında vücudun kilosunu taşıyan küresel bir eklem oluşturuyor.
+  body.jaw:
+    label: çene
+    summary: Ağızda alt dişleri tutan yüzün altında bulunan hareket etmeye elverişli bir yapıdır.
+    info: Çene (alt çenedir), kafatasının tek hareket edebilen kemidir ve yemeklerini emniyetle sindirmenize olanak tanırken konuşmanızı da sağlar. TMK'dan bahsediyoruz ya da temporomandibular eklem olarak bilinen bu eklemler vücudun en karmaşık eklemleri arasında yer alırlar.
+  body.kidney:
+    label: beyin
+    summary: Kandaki zararlıları süzen ve idrar oluşturan ikişerli iç salgı bezi.
+    info: Böbrekler, karın boşluğunun arka kısmında yer alan fasulye şeklindeki çift organlardır. Günlük olarak yaklaşık 180 litre kanı süzerler ve 1 ila 2 litre idrar üretirler. Her bir böbrekte milyondan fazla süzme üniteye sahiptir; bu üniteler nefron adını alır.
+  body.knee:
+    label: diz
+    summary: Kalça ile baldırı bağlayan vücutta en büyük mevcut.
+    info: Bacak ortasındaki bu eklemlerden biridir ve vücudun en karmaşık eklemidir.
+  body.leg:
+    label: bacak
+    summary: Kalçadan bilekeye kadar olan alt eklemler.
+    info: Bacak alt ekstremitenin kalça ile ayak arasındaki kısmıdır ve iki bacağın üzerinde yürüme için uyum sağlamıştır; vücudun en güçlü kaslarını içerir ki bunlar dört başlı femoristır. Femur iskelet sisteminde yer alan bedendeki en uzun ve en dayanıklı kemiktir.
+  body.lip:
+    label: dudağı
+    summary: Ağza girişin etli kenarıdır.
+    info: Dudaklar ağzı çevreleyen iki adet yumuşak kas dokusundan biridir ve birçok sinir ucuna sahiptirler bu yüzden oldukça hassastırlar.
+  body.liver:
+    label: karaciğer
+    summary: Vücudun en büyük iç органдыr; organizmanın kimyasal laboratuvarıdır.
+    info: 'Karaciğer en büyük iç орган ve yaklaşık olarak 1,5 kilogramı tartarlar. Yaklaşık 500 fonksiyon yerine getirirler: kan filtreleme, safra üretimi, protein sentezi ve glikojen depolama gibi görevleri vardır. Yalnızca karaciğer dokusundan tamamen yeniden üretilmesi mümkün olan tek organdır. Aşırı alkol veya toksi̇nlere maruz kalma sili̱ndirmeli hasarı yani siroz oluşumuna neden olabilir.'
+  body.lung:
+    label: Akkıyer
+    summary: Göğüste havadan oksijeni emmek için kullanılan iki parçalı içorgan.
+    info: Akciğerler göğüs boşluğunda yer alan ve yüzey alanı yaklaşık olarak 70 metrekare olan binlerce akine ile oluşan çift organlardır. Yetişkin bir insan dakikada oniki ila yirmilik aralıkta nefes alır; her nefeste beş yüz santimetreden hava çeker. Sağ akciğer solundakinden daha büyüktür çünkü kalp solda bulunan kısmını kaplar.
   body.mouth:
     label: ağız
     summary: Yemek yeme, içme ve konuşma için yüzdeki açılım.
     info: Ağız sindirim sürecini başlatır – dişler besini parçalar, tükürük bu işlemi çözer. Aynı zamanda dil ve iletişim için temel araçtır.
+  body.muscle:
+    label: kas
+    summary: Vücudu hareket ettirmek için gerilebilen doku.
+    info: Bir kas lifi dar bir dokudur; bu doku vücut hareketini sağlar. İnsan vücudunda yaklaşık olarak 600 kasa sahiptir ki bunların çoğu bedenin yüzde 40'ını oluştururlar.
+  body.nail:
+    label: tırnağı
+    summary: Parmakların sonundaki sert keratin kaplama.
+    info: Tırnaklar her parmak ucunda bulunan sert kerecinin bir tabakasıdır ve hassas uçları korurken küçük nesneleri tutmada yardımcı olurlar.
+  body.neck:
+    label: boyun
+    summary: Baş ile bedeni bağlayan bölgeyi oluşturur; hayati önem taşıyan damarlara ev sahipliği yapmaktadır.
+    info: Boyunun boyuna ve göğüse kadar uzanan kısmıdır ve yedi boynuz omur içerir. Hayati öneme sahip yapılar buradan geçer ki bunlar damarlar, yutak, hava borusu ve medulla'dır. Ayrıca başı dönme ve eğmeye olanak tanıyan bir kas grubunu da barındırır.
   body.nose:
     label: burun
     summary: Yüzün ortasında bulunan koku ve nefes almanın organdır.
     info: Burun, içilen havayı süzer, ısıtır ve nemlendirir. Bir trilyondan fazla farklı kokuyu ayırt edebilir ve hafıza ile duygularla yakından ilişkilidir.
+  body.palm:
+    label: el makası
+    summary: Parmaklar ile bileği arasındaki bölge
+    info: Elmacı parmaklar ile bileğin arasında elde iç yüzeyidir ve çok yoğun bir dokunma alıcısı ağını içerir (Meyer hücreleri). El macında kıllar veya ter bezlerinin yoktur.
+  body.shoulder:
+    label: omuz
+    summary: En fazla hareket kapasitesine sahip olan el ile躯体 arasındaki bağlayan eklemdir.
+    info: Omuz eklemi vücudun tüm eklemleri arasında en geniş hareket aralığına sahiptir ve kol ile gövdenin birleştiği yerdedir. Bu küresel birleştirmeli kemik yapısıdır; omzun çıkık kısmı humerus başı ile scapula yarım kabuk hali oluştururken oluşmaktadır. Omuzun kararsızlığı onu çıkığa meylettiren özelliğidir.
+  body.skin:
+    label: dermis
+    summary: Vücudu saran yapıdır.
+    info: Deri insan vücudunun en büyük organsıdır ve yaklaşık olarak 2 metrekarelik alanı kaplar. Vücudun enfeksiyonlara karşı korumak, ultraviyole radyasyona direnç göstermek, vücut sıcaklığını düzenlemek, dokunuş hissini almak ve vitamin D sentezlemeyi sağlamaktır. Yüzey tabakanın hücrelerinin yenilenmesi yaklaşık iki ila dört hafta sürerken her santimetrenin karesinde bir milyondan fazla mikrobun yaşadığı bilinen yerdir.
+  body.spine:
+    label: omurga
+    summary: Omgrua ,iskeletoni destekleyen ve miyi koruyan 33 omurgadan oluşmaktadır.
+    info: Omurga kafayı pelve ile birleştiren ve iskeletin ana destek hattı olan 33 omurcuktan oluşan kolondır.Omurilik koruyup vücut desteğini sağlar. Omurlar arasında darbe emici etkisi bulunan intervertebral diskler yer alır.Doğal eğrilikleri ise dik yürüyüş için uyumludur.
+  body.stomach:
+    label: karın
+    summary: Göğüs altında bulunan躯体前部；通俗地也指胃。
+    info: 'Karın göğüs kafesinin altındaki vücut kısmıdır ve karında sindirim organları yer alır: mide, bağırsaklar, karaciğer, pankreas ve dalak gibi yapılar bulunur.'
+  body.temple:
+    label: Tempora
+    summary: Çeneye yakın olan başın yanal kısmında bulunan yumuşak bölgedir.
+    info: Temporal bölge kulak önündeki ve yan tarafındaki çene kemeri üzerindeki alandır. Anatomik olarak daha yumuşaktır çünkü bu alan squamosal temporal iskelet parçasıdır; darbelere karşı hassastır. Temporal damarlar kalbin atımına eşlik ederken hissedilebilir şekilde çarpıntı yapabilirler.
+  body.thigh:
+    label: bacak üst kısmı
+    summary: Kalçadan başlayıp diz ile biten bölge; vücudunda bulunan en büyük kas gruplarını barındırmaktadır.
+    info: Büyük diz kemiği kalça ve dizi eklemleri arasında yer alır. Vücudun en güçlü kas grubunu içerir ki bu da bacak hareketlerini desteklemeye yardımcı olurlar.
+  body.throat:
+    label: boğaz
+    summary: Ağızdan gıda borusuna bağlayan boşluk.
+    info: Boğaz burun ve ağza bağlı olan yolu temsil eder; hem havayı hem de besini taşıyan ortak bir yol sağlar. İmmün sistem için önemli olan tonsiller boğazı korurken yabancı cisimlerin nefese karışmasını engelleyen gag refleksi ile işlev görür.
+  body.thumb:
+    label: başparmak
+    summary: Kısa ve güçlü elleki başlık; başlığın karşı duruş hali hayati öneme sahiptir.
+    info: Baş parmak elin kısalıp kalın olan ilk ve karşı konum alabilen parmaktır. Baş parmağın karşı koyma hareketi insanlar için araçla manevra yapmayı mümkün kılan temel bir adapasyondur. Bu özellik evrimsel süreçte gelişmiş olup yalnızca maymunlarda bulunmuştur.
+  body.toe:
+    label: ayak parması
+    summary: Ayağın üzerindeki beş parmdan bir tanesini ifade eder.
+    info: Ayak parmağı ayaktaki beş parmaktan biridir. Ayak başparmakları yürüme sırasında denge ve itiş için çok önemlidirler çünkü vücut ağırlığının büyük kısmını taşırlar. İnsanların ayak başparmakları maymunlardan farklı olarak karşı konum alamazlar.
+  body.tongue:
+    label: dil
+    summary: Tat alma, çiğneme ve konuşma işlevleri yerine getiren ağzın içindeki kas yapıdır.
+    info: 'Dil diliyor ve konuşmaya yardımcı olmak için dil tutamacı ile kaplı bir kas dokusundandır (yaklaşık 10 bin). Dil beş temel tat algılama yeteneğine sahiptir: tatlı, tuzlusu, ekşi, acılı ve umami. Konuşma netliğini sağlar ve yemek emme işlemini destekler.'
+  body.tooth:
+    label: diş
+    summary: Yemekleri sindirmeye yardım etmek amacıyla ağza yerleştirilmiş sert yapılardan meydana gelmiştir.
+    info: Diş, en sert dokusu olan florid ile diyeşim ve pulp odasından oluşan bir yapıdır. İnsanlar kalıcı çenede genellikle otuz iki dişe sahiptirler. Florid kaybedildiğinde yeniden oluşmaz bu yüzden korunma ön plana çıkar. En eski insan dişi fosillerinin yaşı yaklaşık olarak iki milyon yıldır ki bunlara da evrim sürecini anlamak için yardımcı olurlar.
+  body.vein:
+    label: atardamar
+    summary: Oksijensizleşmiş kanı göze alarak kalbin yanına taşıyan bir damartır.
+    info: Atardamarlar kalbe kanı geri döndüren damarlardır ve atardamarlara göre ters akışı engellemek için kapılara sahiptirler.
+  body.wrist:
+    label: El Bileği
+    summary: Bilek eklemi el ile ön kol arasında bağlantı kurar.
+    info: Eldivenin bileği el ile önlleğe bağlayan sekiz küçük kemikten oluşan bölgedir. Eldiveli dört yönde hareket ettirmeyi sağlar ayrıca dönme olanağı verir. El bileğini daraltan bir kanal olan karparnal tünel aşırı kullanım sonucu carpenter's tunnel sendromuna neden olabilir.

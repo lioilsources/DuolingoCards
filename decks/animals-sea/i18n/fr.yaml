@@ -2,6 +2,46 @@ lang: fr
 pivot: false
 title: Animaux marins
 cards:
+  animal.anglerfish:
+    label: Diable marin
+    summary: Poisson abyssal doté d'une appâtnoire bioluminiscente au bout.
+    info: Le diable de mer vit dans les profondeurs des océans sombres à plus de mille mètres en dessous du niveau de la surface. La femelle possède une canette lumineuse sur son front pour attirer sa proie et les mâles. Le mâle est extraordinairement petit ; après avoir trouvé une femelle, il s'accroche à elle et fusionne avec celle-ci d'un point de vue biologique.
+  animal.barnacle:
+    label: Échineuse
+    summary: Petit crustacé vivant attaché aux pierres ou structures métalliques.
+    info: Les échinurides sont des crustacés sessiles de la sous-classe des Ciripèdes ; ils s'attachent à l'aide d'un ciment sur les rochers, bateaux et même grandes baleines par un dépôt calcique. Ils filtrent du plancton en utilisant leurs pattes qui sortent de leur coquille conoïde. Leurs larves nagent librement avant qu’elles ne trouvent une surface pour y rester fixées toute leur vie.
+  animal.beluga_whale:
+    label: Béluge
+    summary: Petite baleine blanche du Pôle Nord avec un museau rond.
+    info: Le béluga est une petite baleine blanche des mers polaires et sous-polaire. Son front arrondi sert à l'écholocation. C'est la seule baleine capable de bouger son cou latéralement.
+  animal.blue_tang:
+    label: canique bleue
+    summary: Poisson tropical brillamment bleuté ; star du film La recherche de Némor.
+    info: Le Kaniche bleu (Paracantheirus hepatus) est une petite poissons marins au coloris clairement azuré et à la queue jaune des récifs coralliens de l'Indo-Océanie. Le film La Recherche d’Emaoue (2016) a augmenté l'intérêt pour son élevage bien qu'il soit exigeant en captivité. Il possède un couteau sur sa base caudale qui donne son nom anglais 'surgeon'.
+  animal.carp_river:
+    label: carpe commune
+    summary: Grande poisson dulçaquicole dorée-brunâtre habituelle des cours d’eau et étangs.
+    info: |-
+      Le kaprichin est originaire de l'Asie et fut importé en Europe dès la période médiévale.
+      Il se nourrit de tout ; il remue le fond des rivières ce qui peut rendre l'eau trouble.
+      C'est un symbole traditionnel du Noël tchèque : les marchands le vendent vivant dans leurs bassines sur les places publiques.
+      Il s’agit également de poissons élevés parmi les plus nombreux au monde avec plus de cent races différentes.
+  animal.catfish:
+    label: silure
+    summary: Grand poisson d'eau douce avec des moustaches qui se cache au fond des rivières.
+    info: Le silure commun est le plus grand poisson d'eau douce en Europe ; il peut atteindre une longueur de plus de deux mètres et un poids supérieur à cent kilogrammes. Ses caractéristiques moustaches servent comme organes olfactifs et tactiles.
+  animal.clam:
+    label: palourde géante
+    summary: La plus grande moule au monde habitant les récifs coralliens tropicals.
+    info: Le palourde géante (Tridacna gigas) est la plus grande moule du monde pouvant atteindre une longueur d'un mètre et un poids supérieur à 200 kilogrammes. Elle vit en symbiose avec des algues photosynthétiques zooxanthelles situées dans sa coquille. Cette espèce peut vivre plus de cent ans.
+  animal.clown_triggerfish:
+    label: Triggerfish Clown
+    summary: Un poisson tropical très coloré aux tâches blanchâtres et au museau orangé.
+    info: "{\"hint\":\"poisson corallien à motifs audacieux (Balistoides conspicillum)\",\"info\":\"Le triggerfish clown est un grand poissons tropical de la famille des Balistidés qui possède l'une des colorations les plus spectaculaires parmi les poissons marins\\. Il dispose de solides dents pour broyer du corail dur et des moules\\.\r\nSon nom provient de son premier épine dorsale fonctionnant comme une sécurité \\(déclencheur\\) bloquant la seconde\r\nIl peut être agressif envers les plongeurs pendant sa période reproductive\",\"label\":\"triggerfish clown\",\"summary\":\"Poisson tropical fortement pigmenté avec taches blanches et bouche orange.\"}"
+  animal.clownfish:
+    label: Poisson clown
+    summary: Un petit poisson orange vivant en symbiose avec des méduses venimeux.
+    info: Le poisson-clown à œil de chat vit dans les actiniaries marins dont les tentacules empoisonneraient d'autres poissons ; il est immunisé grâce à une couche mucique protectrice. En symbiose avec l'actiniaire, il la nettoie et repousse ses prédateurs tandis que celle-ci lui offre sa protection. Tous les poissons-clowns naissent mâles mais un individu dominante peut changer en femelle.
   animal.crab:
     label: crabe
     summary: Crustacé décapode avec carapace et pinces, qui se déplace latéralement.
@@ -10,26 +50,168 @@ cards:
     label: dauphin
     summary: Mammifère marin intelligent vivant en groupes et sautillant hors de l'eau.
     info: Le dauphin est un mammifère marin appartenant à la famille des cétacés. Il est connu pour son intelligence élevée, sa capacité d'écholocalisation et son comportement joueur – les dauphins aiment bondir par-dessus les vagues des bateaux et communiquer grâce à des sifflements et cliquetis. Ils vivent en groupes appelés bancs et sont proches parents des baleines.
+  animal.dugong:
+    label: dugong
+    summary: Un calme herbivore marin proche du dauphin présent en Océanie.
+    info: Le dugong est un mammifère marin apparenté au manchot vivant dans l'Océan indien et Pacifique. Il ne mange que des herbes marines. On considère qu'il pourrait être la source d'inspiration pour les sirènes ; certains navigateurs ont mal interprété sa présence comme celle de créatures mythiques.
+  animal.eel:
+    label: anguille / murène
+    summary: Poisson serpentueux vivant au sein des failles des falaises recouvertes par l'eau.
+    info: Un murène est un grand poisson marin de la famille des Muraenidés qui se cache dans les fissures du récif corallien. Il possède deux rangées de mâchoires ; en plus des mâchoires buccales, il dispose aussi de mâchoires internes (pharyngiens), utilisées pour attirer sa proie vers son gosier.
+  animal.flying_fish:
+    label: poisson-volant
+    summary: Poisson tropical capable de survoler la surface océanique grâce à ses larges nageoires.
+    info: Le poisson-volant (Famille Exocoetidae) est une espèce de poissons capables de sauter hors de l'eau et de planer dans les airs en utilisant leurs grandes nageoires pectorales qui agissent comme des ailes ; ces créatures peuvent voler jusqu'à 200 mètres à plus d'un mètre au-dessus du niveau de la mer pour échapper aux prédateurs tels que thons, espadons ou dauphins.
+  animal.frogfish:
+    label: antennaires
+    summary: Camouflage parfait dans les récifs coralliens, attire ses proies avec son fil.
+    info: Le antennaire est un petit poissons marins de la famille des Antennariidae dotés d'une camouflure exceptionnelle. Il possède des nageoires pelagiennes ressemblant à des pieds grâce auxquelles il marche sur le fond marin et une petite appâton mobile attachée au bout de sa première nageoire dorsale pour attirer ses proies.
+  animal.giant_squid:
+    label: pieuvre gigante
+    summary: Le plus grand animal sans vertèbre qui vit en profondeur océanique.
+    info: |-
+      Les pieuvres géantes (Architeuthis dux) sont les plus grands invertébrés du monde pouvant atteindre une longueur de plus de 13 mètres.
+      Elles possèdent des yeux colossaux dans l'animal kingdom avec un diamètre dépassant 25 centimètres et adaptés à la pénombre abyssale.
+      Ils vivent entre -300 et -1 000 mètres sous terre et constituent principalement leur nourriture pour les squales.
+  animal.hammerhead_shark:
+    label: requin-marteau
+    summary: Requin dont la particularité réside dans sa large tête plate formant un 'T'.
+    info: Le requin marteau est un genre de requins caractérisés par une tête élargie en forme d'un F ou d'une hache appelée cefaloflore. Cette structure permet aux ampullae de Lorenzini situées sur la surface latérale du crâne et des nageoires pédonculaires antérieures d'être mieux exposées pour détecter les électromagnétismes produits par leurs proies ; elle facilite également leur mobilité dans l'eau.
+  animal.horseshoe_crab:
+    label: Hors-D'Eau
+    summary: Ancien animal articulaire survivant indistinctement pendant près de quatre cent cinquante millions années.
+    info: Le hors-d'eau (Limulus polyphème) est une espèce de crustacé vivant depuis environ 450 millions d'années sans subir des changements majeurs à travers l'époque primaire. Il n'est pas apparenté aux crabes vrais ; il partage plus de liens avec les Araignés et autres acariens. Son sang bleuté contient une substance unique appelée coagulan utilisée pour tester la sécurité médicale dans les traitements pharmaceutiques ainsi que contre certaines vaccinations.
   animal.jellyfish:
     label: méduse
     summary: Animal marin transparent en forme de cloche avec des bras venimeux.
     info: Une méduse est un animal marin du phylum Cnidaria sans cerveau, cœur ni os – son corps est composé à 95 % d'eau. Elle se déplace grâce aux pulsations de son corps en forme de cloche. Ses bras contiennent des cellules urticantes (nématocystes) qui paralysent sa proie. Certaines espèces sont presque immortelles – elles peuvent revenir à leur stade juvénile.
+  animal.lionfish:
+    label: Poissen corne
+    summary: Un poisson tropical venimeux doté d’épis évoquant le feu.
+    info: Le poisson-corne rouge est un poissons marins venimeux de la famille des Scorpaenidae avec d'épais rayures rouges et blanches ainsi que des épines empoisonnées. Son poison provoque une douleur intense ; les situations mettant en danger la vie sont rares. Il constitue une espèce envahissante dans l'océan Indien et la mer Méditerranée où il réduit considérablement ses concurrentes locales.
+  animal.lobster:
+    label: homard
+    summary: Grand crustacé marin avec pinces ; cuit en rouge mais vit dans les tons vert-noir.
+    info: Le homard est un grand crustacé marin de la famille des Cambrésidées pouvant atteindre une longueur supérieure à 60 centimètres.
+  animal.manatee:
+    label: Dugong/manaté
+    summary: Herbivore marin lent appelé 'vache de mer'.
+    info: Le dugong ou manaté est un grand mammifère marin qui vit exclusivement de l'herbe maritime. Il habite les eaux peu profondes des zones tropicales comme celles du golfe mexicain, la baie caraïbe et celle africaine ainsi que dans certaines embouchures fluviales en Floride. Cet animal lentement menacé par ses collisions avec les bateaux à moteur présente souvent sur sa peau des cicatrises causées par leurs hélices.
+  animal.manta_ray:
+    label: raie mantas
+    summary: Une immense et élégante raie qui filtre du plancton près de la surface marine.
+    info: Le raie-mante océanique est la plus grande espèce de raies avec une envergure d'ailes dépassant les sept mètres et un poids supérieur à deux tonnes.
+  animal.mussel:
+    label: mytile
+    summary: Mulet noir formant des amas sur les roches lors des flux et reflux.
+    info: '{"hint":"biscaye à coquille noire s''agglomérant sur les rochers","info":"La mytiliculture est un mulet vivant dans des zones de marée d''Atlantique et du Pacifique.\nIl s''accroche aux pierres avec des filaments solides appelés bisso. \nElle purifie l''eau en filtrage et agit comme indicateur de pollution océanique ; elle accumule aussi bien les toxines que les métaux lourds.\nC''est une nourriture précieuse : la spécialité belge ''crevettes frites'' est mondialement connue."}'
+  animal.narwhal:
+    label: Baleine à fanons
+    summary: Une grande créature marine vivant près des glaces.
+    info: 'Le narwhal est une petite baleine de l''océan Arctique qui peut mesurer jusqu''à cinq mètres et possède un appendice dentaire unique : son défens en forme d''helix, provenant du développement anormal des incisives gauches chez les mâles. Ce défens peut atteindre plus de trois mètres ; il n''est pas présent chez les femelles. Le Narwal vit principalement dans la banquise polaire nordique.'
+  animal.nautilus:
+    label: Nautile
+    summary: Célèbre mollusque avec une coquille en forme de spirale qui existe sans changement majeur depuis l'époque du dinosaures.
+    info: Le nautile est un céphalopode ancien vivant dans une coquille enroulée spiralée et presque inchangé depuis environ 400 millions d'années. Sa coquille comporte plusieurs chambres ; il régule sa flottabilité grâce à des gaz emprisonnés entre ces compartiments.
   animal.octopus:
     label: poulpe
     summary: Mollusque à huit bras capable de changer de couleur et de forme corporelle.
     info: 'Le poulpe est un animal invertébré appartenant à la classe des céphalopodes. Il possède trois cœurs, du sang bleu et peut instantanément modifier sa couleur ainsi que la texture de sa peau grâce aux chromatophores. C''est un animal très intelligent : il arrive à ouvrir des récipients fermés et résoudre des labyrinthes.'
+  animal.orca:
+    label: baleine
+    summary: Prédator océanique noir-blanc, le plus grand dauphin.
+    info: La baleine à bosse est la plus grande représentante de la famille des cétacés et l'un des animaux les plus intelligents du monde.
+  animal.oyster:
+    label: huître
+    summary: Bivalves filtreurs qui vivent sur les récifs et rochers.
+    info: Les huîtres filtrent l'eau ; une huitre peut enlever jusqu'à 200 litres d’eau par jour. Certaines espèces produisent des perles lorsque leur coquille est irritée par un objet étranger.
+  animal.piranha:
+    label: piron
+    summary: Poison carnivore sud-américain aux petits crocs pointus.
+    info: Le piranha à ventre rouge est un poisson prédateur des eaux douces de l'Amazonie doté de petites dents triangulaires tranchantes. Sa réputation de redoutable prédacteur est exagérée ; il attaque rarement les baigneurs en bonne santé. Il chasse par bancs et possède une odorat puissant capable de détecter du sang sur de longues distances.
+  animal.puffer_fish:
+    label: poisson-fugue
+    summary: Poisson qui s'enfle pour former une balle épointée ; le poison-fuge est aussi considéré comme délicat.
+    info: Le Fugu est une série de poissons appartenant à la famille des Tetraodontidés capables d'inflater leur corps avec l'eau ou l'air en boule épineuse. Il contient du tétrodotoxine, un des toxines naturelsles plus puissants ; les tissus hépatiques et les glandes génitales sont mortels.
+  animal.salmon:
+    label: saumon
+    summary: Grand poisson salmonidé qui monte du fleuve vers l'eau douce.
+    info: Le saumon est un poissons anadrope ; il grandit en mer mais retourne dans ses rivières natales après des centaines de kilomètres pour s'accoupler. Quand ils remontent la rivière, leurs couleurs passent d'argentées à rouge très marquée.
+  animal.sea_anemone:
+    label: anémonede mer
+    summary: Animal marin en forme de fleur avec des bras venimeux qui vit sur les récifs coralliens.
+    info: L'anémone de mer est un cnidaire ressemblant visuellement à une fleur fixée aux rochers. Ses bras possèdent des cellules urticantes appelées nématocytes pour paralysier sa proie.
+  animal.sea_cucumber:
+    label: oursin
+    summary: Animal marin ressemblant à une saucisse recueillant des restes organiques du sol.
+    info: Les oursins de mer sont des échinodermes marins appartenant à la classe des Holoturioïdes vivants sur les fonds océaniques. Ils filtrent le sédiment et se nourrissent d'organismes en décomposition ou de matière organique morte. Lorsqu'ils sont menacés, ils expulsent leurs intestins ou un liquide aqueux qui peuvent toutefois être régénérés.
+  animal.sea_lion:
+    label: otarie
+    summary: Mammifère marin doté d’oreillettes extérieures capables de marcher avec leurs palmes.
+    info: Le larsen californien est représentant emblématique des otaries à oreilles externes (famille Otariidae). Contrairement aux phoques véritables, il possède une touffe d'oreillons et peut marcher sur ses quatre nageoires. Exceptionnellement intelligent, les individus apprennent dans la vie de zoo ou cirque divers tours complexes.
+  animal.sea_otter:
+    label: Lutre de Mer
+    summary: Une Lutrte Marine qui flote sur son dos et casse les coquilles grâce aux cailloux.
+    info: La loutre de mer est un mammifère marin vivant en Amérique du Nord avec la fourrure la plus dense parmi tous les mammals (800 000 poils au centimètre carré). Elle utilise des pierres comme outil pour casser les huîtres et les oursins qu'elle place sur sa poitrine. Pour dormir elle flotte à surface ; elles restent groupées tenues ensemble par leurs pattes arrière afin que le courant ne les emporte pas.
+  animal.sea_slug:
+    label: gastéroporteur/nuditique
+    summary: Un escargot marin coloré dénué de coquille qui vit dans un environnement rocheux recouvert de corail.
+    info: Les nuditiques sont des molles marins sans coquille vivant sur les récifs coralliens. Ils possèdent parmi les couleurs les plus remarquables du règne animal ; elles servent d'avertissement de leur toxicité. Certains espèces s'approprient des cellules toxiques provenant de leurs aliments (comme certains cnidaires), et les utilisent pour se défendre.
   animal.sea_turtle:
     label: tortue verte
     summary: Un grand reptile marin qui retourne sur les plages pour pondre.
     info: La tortue verte est l'un des sept types de tortues marines. Les femelles reviennent toutes les deux à cinq ans sur la plage où elles sont nées pour y déposer leurs œufs. Les individus adultes sont herbivores et se nourrissent principalement d'herbes marines et d'algues ; en revanche, les petits sont omnivores.
+  animal.sea_urchin:
+    label: oursin
+    summary: Échinoderme sphérique couvert de spires vivant sur les fonds rocheux marins.
+    info: Un oursin est un échinoderme marin de la sous-classe des Échinides recouvert d'épines mobiles. Entre ces épines sont situés des organes spéciaux appelés pédoncules qui servent à nettoyer et capturer sa proie. Il s'alimente principalement d'algues, de champignons et de débris organiques.
   animal.seahorse:
     label: poisson-gourami
     summary: Petite poisson nageant en position verticale ; le mâle porte les petits.
     info: Le poisson-gourami est un poisson du genre Hippocampus qui se déplace dans une position verticale à l'aide de sa nageoire dorsale. Une particularité est que ce sont les males et non les femelles qui portent les petits dans une poche. Il utilise sa queue pour s'accrocher aux algues marines tout en attendant la proie.
+  animal.seal:
+    label: phoque
+    summary: Animal aquatique passant ses journées entre mer profonde et rivages.
+    info: |-
+      Le phoque commun est un animal marin de la famille des Phocaïdes dont l'aspect corporel est très fuselé et qui ne possède pas d’appendices auditifs externes.
+      Il vit long les côtes de l'Océan Atlantique ainsi que celles du Pacifique; il passe autant son temps dans l'eau qu'en surface sur les rochers.
+      Ce poisson-pilote peut plonger à plus de 500 mètres sous-marins pendant une demi-heure environ sans remonter respirer en surface.
   animal.shark:
     label: requin
     summary: Grande poisson prédateur avec des dents acérées et un corps hydrodynamique.
     info: Le requin blanc est le plus grand poisson prédateur du monde et peut atteindre une longueur de plus de six mètres. Il possède la capacité de détecter les champs électriques de ses proies grâce aux ampoules de Lorenzini. Malgré sa réputation, les attaques contre l'homme sont très rares ; les requins jouent un rôle clé en tant que prédateurs dans l'écosystème océanique.
+  animal.shrimp:
+    label: crevette
+    summary: Petite créature marinée, importante pour l'haliculture mondiale.
+    info: Les crevettes sont de petits crustacés marins ou dulçaquicoles avec 10 paires de pattes. Il existe plus de 2 000 espèces ; elles constituent la deuxième ressource halieutique marine la plus populaire au monde. Elles agissent à la fois comme filtreurs et prédateurs, jouant un rôle clé dans les chaînes alimentaires océaniques.
+  animal.squid:
+    label: calmair
+    summary: Céphalope décapiode qui progresse par propulsion dans l’eau.
+    info: Les calmars sont des céphalopodes à dix bras (huit pattes plus deux tentacules de capture). Ils se déplacent en expulsant l'eau et peuvent changer de couleur grâce aux cromatophores. Les géants calmars (Architeuthis), pouvant mesurer plus de treize mètres, constituent les invertébrés les grands du monde.
+  animal.starfish:
+    label: Étoile de Mer
+    summary: Un animal marin pentaradié capable de régénération complète après la perte d’un bras.
+    info: Les étoiles de mer sont des échinodermes marins à cinq bras caractéristiques qui peuvent régénérer un membre perdu ou même former tout leur corps depuis une partie coupée d'un seul bras.
+  animal.stingray:
+    label: stingraie
+    summary: Poisson marine aplati doté d'épine(s) caudaire(s); repose souvent sur les zones sablonneuses.
+    info: |-
+      Le stingray est apparenté au requin avec un corps plat adapté à la vie sur fond marin.
+      La queue de plusieurs espèces comporte une pointe venimeuse utilisée pour sa défense.
+      Il nage en remuant ses ailerons comme des battements d'ailes.
+      Certaines espèces sont électrogeniques et peuvent paralyser leurs proies grâce aux décharges.
+  animal.swordfish:
+    label: thazard
+    summary: Grand poisson prédateur pélagique doté d'un long museau tranchant.
+    info: Le grand thazard est une grande espèce pélagique trouvée dans les océans tropical et sub-tropical. Son bec plat en forme de lame permet d'assommer sa proie (poissons et céphalopodes) plutôt que la transpercer. C'est l'une des poissons les plus rapides ; il peut atteindre jusqu'à 160km/h.
+  animal.tuna:
+    label: thon
+    summary: Poisson pélagique rapide pêché en quantité massive pour l'industrie alimentaire.
+    info: Le thon bleu est la plus grande espèce de thon pouvant atteindre une longueur supérieure à trois mètres et un poids supérieur à sept cents kilogrammes. Il est endothérme (à sang chaud), ce qui lui permet de maintenir sa température corporelle au-dessus celle des eaux environnantes. C'est l'une des poissons les rapides dans son océan ; il peut dépasser soixante-dix kilomètres par heure.
+  animal.walrus:
+    label: mors
+    summary: Grand animal marin arctique avec d'imposantes défenses.
+    info: Le mors est un grand pinépinde de l'Arctique caractérisé par des défenses en os dentaire pouvant dépasser le mètre de longueur.
   animal.whale:
     label: baleine bleue
     summary: Le plus grand animal sur Terre – un cétacé respirant l'air.

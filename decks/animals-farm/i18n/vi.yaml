@@ -2,6 +2,34 @@ lang: vi
 pivot: false
 title: Động vật chăn nuôi
 cards:
+  farm.alpaca:
+    label: thú cừ Alpaca
+    summary: Loài thú có túi nhỏ hơn llama được nuôi để lấy sợi len mịn.
+    info: Thú cừ Alpaca là loài họ nhà Llama sống ở dãy núi cao Anđê đã bị thuần hóa từ lâu đời. Len của nó thuộc một trong những loại nguyên liệu tự nhiên mềm mại nhất thế giới – nhẹ nhàng và dị ứng thấp mà còn tinh tế vượt cả cashmere truyền thống. Có hai giống chính gồm huayca với bộ lông xoăn bồng bềnh cùng suri mang vẻ đẹp óng ánh như kén.
+  farm.barn_cat:
+    label: mèo chuồng trại
+    summary: Mèo nhà được nuôi trên nông trường để săn bắt gặm nhấm.
+    info: Mèo chuồng là loài mèo sống trong môi trường canh tác nông nghiệp và có nhiệm vụ tiêu diệt các loại động vật như chuột hay cáo nhỏ. Nó giúp bảo vệ nguồn thức ăn cho gia cầm cũng như ngũ cốc trước sự xâm hại của chúng. Mèo này thường ít thân thiện với con người hơn so với những chú mèo cảnh.
+  farm.beehive:
+    label: hộp ong
+    summary: Cấu trúc bằng gỗ dùng làm nơi ở nhân tạo cho ong mật.
+    info: Hộp ong là môi trường sống thay thế các hang hốc cây mà tổ ong hoang dã thường sinh hoạt trong tự nhiên. Một đàn ong điển hình có khoảng từ năm mươi nghìn đến tám chục nghìn con và mỗi mùa chúng sản xuất ra hai mươi tới ba mươi ki-lô-gam mật ong. Ong cũng đóng vai trò quan trọng như những loài thụ phấn chính – một phần ba thực phẩm toàn cầu phụ thuộc vào sự giúp đỡ của việc thụ phấn do ong mang lại.
+  farm.boar:
+    label: con đực lợn
+    summary: Con đực của loài heo nhà hoặc heo rừng.
+    info: Cái con đực là cá thể chưa được cắt bì thuộc về giống lợn nuôi hay lơn hoang dã (loài Sus Scrofa). Trên trại nông nghiệp người ta giữ lại các con này để nhân giống và sử dụng tinh trùng cho thụ thai bằng phương pháp tiêm vào tử cung một cách thủ công. Con cái trong môi trường tự nhiên có răng nanh to lớn mạnh mẽ cùng khả năng phản ứng tấn công dữ tợn khi bị kích thích quá mức.
+  farm.calf:
+    label: con bê
+    summary: Con của con trâu/bò dưới một tuổi.
+    info: |-
+      Bê là giai đoạn non yếu trong chu kỳ phát triển của loài súc vật từ khi sinh ra cho đến lúc cai sữa hoặc chưa đầy năm tháng đầu đời.
+      Sau vài phút chào đời, chú bé sẽ cố gắng đứng dậy nhờ bản năng mạnh mẽ nơi người mẹ.
+      Những em nhỏ được nuôi dưỡng để sản xuất sữa thường sớm bị tách khỏi cha/mẹ mình.
+      Thịt heo sữa – gọi tắt thành veal - rất phổ biến và quý giá ở nhiều nền văn hóa Âu châu.
+  farm.carp:
+    label: cá bơn
+    summary: Loài cá nước ngọt lớn; món ăn Giáng sinh truyền thống tại Cộng hòa Séc.
+    info: Cá bơn thường là loài cá to nhất được nuôi trong các ao ở vùng sông ngòi của người dân địa phương và gắn liền với lễ hội Noel nơi đây từ lâu đời đã có mặt trên bàn thờ tổ tiên vào ngày Tết Dương lịch hàng năm.
   farm.chicken:
     label: gà
     summary: Chim gia cầm đẻ trứng.
@@ -10,6 +38,10 @@ cards:
     label: bò
     summary: Động vật nông nghiệp lớn cho sữa.
     info: Bò nhà được nuôi để lấy sữa và thịt. Đây là một trong những nguồn thực phẩm quan trọng trên toàn thế giới; bò cái có thể sản xuất từ 20 đến 30 lít sữa mỗi ngày.
+  farm.deer:
+    label: hươu nuôi
+    summary: Hươu hoặc nai được nuôi trong trang trại để lấy thịt và sừng.
+    info: Ở Cộng hòa Séc, daan hay gọi là nai thường bị săn bắt từ các nông trường rừng nhằm cung cấp nguồn thực phẩm thay thế cho bò牛肉. Hươu có kích thước nhỏ hơn so với những con khác cùng loài nhưng lại nổi bật nhờ vào đôi犄角 đặc trưng của chúng; mỗi năm một lần họ sẽ rụng đi rồi mọc trở lại như cũ mà không cần phải chăm sóc gì thêm nữa.
   farm.donkey:
     label: con lừa
     summary: Động vật làm việc chăm chỉ với bước đi chắc chắn.
@@ -18,19 +50,172 @@ cards:
     label: con vịt
     summary: Chim nước có mỏ bẹp được nuôi trên trang trại.
     info: Con vịt nhà là loài gia cầm được nuôi để lấy thịt và trứng. Nó biết bơi tốt nhờ những màng giữa các ngón chân và phát ra âm thanh đặc trưng 'quạc quạc'.
+  farm.emu:
+    label: cà cu
+    summary: Cà cu được nuôi để lấy dầu mỡ, thịt và da ở Úc.
+    info: Ở Australia người ta thường nuôi cà cu trên các nông trường nhằm mục đích thu hoạch thịt, chất béo có thể chiết xuất thành loại dầu dùng trong mỹ phẩm cùng với lớp da đặc biệt của chúng. Dầu từ mô mỡ gà cu mang lại hiệu quả chống viêm nên đã trở thành một phần quan trọng cả y học cổ truyền lẫn hiện đại; ngành công nghiệp này cũng đang lan rộng sang Mỹ Lợi và châu Âu nhờ nhu cầu tăng cao.
+  farm.farm_shrimp:
+    label: Tôm hùm nuôi
+    summary: Loài tôm biển được nuôi tập trung trong các ao ven bờ.
+    info: Giống Litopenaeus vannamei là loài tôm có số lượng đàn lớn nhất thế giới hiện nay. Các nông trường chủ yếu nằm ở Đông Nam Á và châu Mỹ Latinh. Việc nuôi trồng với quy mô cao gây tranh cãi vì ảnh hưởng đến rừng ngập mặn.
+  farm.foal:
+    label: con ngựa con
+    summary: Con non của loài ngựa dưới một tuổi; đứng dậy sau vài giờ sinh.
+    info: Người ta gọi 'ngựa con' là giai đoạn nhỏ từ khi mới đẻ đến hết năm đầu đời. Trong vòng vài tiếng đồng hồ sau khi chào đời, chúng đã có thể tự bò lên và bú sữa mẹ. Chúng sở hữu đôi chân dài bất thường so với cơ thể mình—đặc điểm này sẽ rút ngắn dần lúc trưởng thành hơn.
+  farm.freshwater_crayfish:
+    label: cua nước ngọt
+    summary: Một loài giáp xác được nuôi trong ao để làm món ăn cao cấp.
+    info: Cua sông từng rất phổ biến ở Séc nhưng gần như tuyệt diệt vì dịch cua và ô nhiễm môi trường thủy sinh. Ngày nay chúng chủ yếu được nhân giống tại các trang trại chuyên dụng. Cua là chỉ số đánh giá chất lượng nguồn nước sạch – sống sót tốt nhất nơi dòng chảy không bị ô nhiễm. Vào thế kỷ XIX xuất khẩu cua từ Cộng hòa Tiệp sang Pháp và Đức trở thành ngành kinh tế lớn.
+  farm.garden_snail:
+    label: snail garden
+    summary: Một loài nhím đất lớn được nuôi làm thực phẩm trong nhà hàng Pháp dưới tên gọi escargot.
+    info: Snai vườn là loại trai cạn to nhất tại châu Âu và có giá trị cao như một món ăn đặc sản của nước Pháp với cái tên escargot. Vào mùa đông nó sẽ tìm nơi che chắn an toàn để ngủ đông bằng cách đậy miệng vỏ lại thành lớp da dày (gọi là hibernaculum). Việc nhân giống chúng đã phổ biến ở nhiều quốc gia bao gồm cả Ý.
   farm.goat:
     label: dê
     summary: Động vật nông nghiệp có sừng cho sữa ngon.
     info: Dê nhà được nuôi để lấy sữa, thịt và len. Chúng thích nghi tốt và có thể sống sót trong nhiều loại thảm thực vật khác nhau, kể cả các khu vực khô hạn.
+  farm.goat_dairy:
+    label: con dê sữa
+    summary: Con cừu được nuôi để lấy sữa dùng làm phô mai và yaourt.
+    info: Dê nhà đã bị thuần hóa hơn mười nghìn năm trước và là một trong những loài vật nuôi nông nghiệp phổ biến nhất. Sữa dê giàu dinh dưỡng và dễ tiêu hoá hơn so với sữa bò; phù hợp cho người không dung nạp lactose. Từ sữa này có thể sản xuất các loại phô-mai nổi tiếng như Chevre, Phốt hay Halumie. Dê rất cứng cáp và thích nghi tốt ngay cả trên địa hình đá núi hiểm trở.
+  farm.goose:
+    label: gà o家里
+    summary: Một loài chim gia cầm lớn được nuôi để lấy thịt, trứng và lông vũ.
+    info: Gà o nhà có nguồn gốc từ các đàn gà hoang dã cách đây hơn ba nghìn năm. Đây là một trong những động vật đầu tiên bị thuần hóa; ở Rome cổ đại, chúng canh giữ Đền Capitol. Gà o quý giá vì lòng trắng trứng ngỗng, thịt xẻ hoặc gan foie-gras cũng như bộ lông của nó.
+  farm.guinea_fowl:
+    label: guinea fowl
+    summary: Chim châu âu được nuôi để lấy thịt và làm cảnh báo rắn.
+    info: Guinea fowl có nguồn gốc từ Châu Phi nơi chúng sống hoang dã trong các thảo nguyên. Trong nông nghiệp người ta đánh giá cao khả năng tự nhiên của nó như một vệ sĩ nhờ tiếng gào to giúp phát hiện sự xuất hiện của những con rắn hay kẻ săn mồi cũng như khách lạ không mời mà đến.
+  farm.guinea_pig_farm:
+    label: thỏ guinea được nuôi
+    summary: Thỏ guinea được nuôi để lấy thịt ở Nam Mỹ hoặc làm thú cưng.
+    info: Loài thỏ guinea nhà có nguồn gốc từ vùng núi Anđê nơi người Ai Cập đã thuần hóa chúng hơn 3 nghìn năm trước như một nguồn thực phẩm chính. Đến nay đây vẫn là món ăn truyền thống tại các nước như Peru, Ecuador và Colombia gọi với tên 'cuy'. Tại châu Âu và Bắc Mĩ nó lại trở thành loài vật đáng yêu thường được trẻ em chọn nuôi.
+  farm.highland_cattle:
+    label: bò高地Scotland
+    summary: Loài bò có lông đỏ dài và sừng to của Scotland.
+    info: Giống bò高地Scotland là một giống cổ xưa được nuôi trong điều kiện khắc nghiệt ở vùng cao nguyên nước Anh. Lớp lông màu đồng lâu năm giúp bảo vệ chúng khỏi độ ẩm và lạnh giá. Giống này khỏe mạnh hơn nhiều so với các dòng khác ít bị bệnh tật tấn công. Thịt bê từ loài này ngon lành đậm đà hương vị rất hấp dẫn thay thế cho thịt trâu thông thường.
   farm.horse:
     label: ngựa
     summary: Động vật nông nghiệp khỏe mạnh được sử dụng để cưỡi và lao động.
     info: Ngựa đã là loài vật không thể thiếu trong giao thông vận tải, nông nghiệp và chiến tranh suốt hàng nghìn năm. Ngày nay ngựa cũng được nuôi dưỡng cho mục đích thể thao và giải trí.
+  farm.lamb:
+    label: con cừu non
+    summary: Con vật nhỏ của loài cừu trong năm đầu đời; biểu tượng cho mùa xuân và sự vô tội.
+    info: Cừu con là động vật còn rất trẻ dưới một tuổi. Nó sinh ra với lớp lông mềm mại và bắt đầu ăn cỏ ngay những ngày đầu tiên sau khi chào đời. Trong Kitô giáo, nó được xem như hình ảnh mang tính biểu trưng về lòng thuần hậu cũng như Chúa Giêsu hóa thân thành Con Cừu Thiên Đàng.
+  farm.llama:
+    label: l Lama
+    summary: Động vật có túi ở Nam Mỹ được nuôi để lấy len và làm phương tiện vận chuyển.
+    info: Chúng là loài động vật đã bị thuần hóa từ hơn năm nghìn năm trước bởi người Incas tại khu vực núi Anđê. L Lama từng đóng vai trò chính trong việc chuyên chở hàng hoá cho các đế chế này vì chúng có thể mang tới ba mươi phần trăm trọng lượng cơ thể mình mà không gặp khó khăn gì lớn.
+  farm.mule:
+    label: mule
+    summary: Là lai giữa ngựa và lừa có sức bền phi thường cùng sự mạnh mẽ.
+    info: Con meze là con lai của một con ngựa cái và một con lừa đực; ngược lại gọi là mút-linh khi lai giống từ phía khác. Nó không thể sinh sản nhưng rất kiên cường, khỏe mạnh và chịu đựng tốt hơn nhiều so với các loài gia畜 thông thường.
+  farm.mussel:
+    label: mực
+    summary: Một loại nghêu biển có thể ăn được và nuôi trên dây trong vùng nước ven biển.
+    info: |-
+      Nghêu là loài nhuyễn thể hai mảnh vỏ phổ biến thường được nhân giống ở các nông trường dọc theo đường bờ Tây Âu.
+      Loại này được thả nổi hoặc treo dưới lưới nhờ vào thủy triều để lọc nước; đây cũng là nguồn thực phẩm thân thiện với môi trường vì lượng khí thải carbon thấp.
+      Là thành phần quen thuộc của nhiều món truyền thống như Moules-Frites kiểu Bỉ.
+  farm.ostrich:
+    label: đà điểu nuôi
+    summary: Đà điểu được nuôi để lấy thịt, lông và da.
+    info: Đà điểu là loài động vật hai chân nhanh nhất thế giới; chúng thường được nhân giống trên các nông trường vì giá trị của thịt, da và những chiếc翎 công truyền thống từ nó có thể dùng làm phụ kiện như mũ hoặc quạt.
+  farm.ox:
+    label: con vật đực bị triệt sản
+    summary: Con bò cái đã được cắt bỏ cơ quan sinh dục là loài động vật kéo nông nghiệp có vai trò lịch sử quan trọng nhất.
+    info: Một con voi trưởng thành là một cá thể nam giới của giống gia súc Bos Taurus sau khi bị cao phẫu thuật để phục vụ công việc lao động nặng nhọc trong ngành chăn nuôi và trồng cây lương thực từ hàng ngàn năm trước đây cho đến nay vẫn còn phổ biến ở nhiều nơi trên thế giới hiện đại.
+  farm.oyster:
+    label: móng sò nuôi
+    summary: Một loại bạch tuộc hai mảnh vỏ được nuôi trên dây hoặc lưới ở vùng nước ven biển.
+    info: Sò lông chim thường được nhân giống và thả nổi trong các khu vực gần bờ bằng cách sử dụng những hàng cáp hay khung sắt nhỏ để chúng phát triển tự nhiên dưới mặt nước; sau khoảng từ ba đến năm năm thì có thể thu hoạch. Loài này giúp lọc sạch nguồn nước nhờ khả năng hấp thụ chất hữu cơ hòa tan nên góp phần cải thiện hệ sinh thái thủy sản nói riêng cũng như môi trường sống tổng quát của nó nữa đấy! Ngoài ra món ăn chế biến từ loài hải sản quý giá này rất đa dạng – người ta có thể thưởng thức trực tiếp khi còn tươi rói mà không cần nấu nướng phức tạp gì cả.
+  farm.peacock:
+    label: con chim paon
+    summary: Chim trống paon được nuôi trong các dinh thự và vườn để làm cảnh.
+    info: Con chim paon xanh có nguồn gốc từ Ấn Độ đã bị thuần hóa cách đây hàng nghìn năm như một loài chim lấy đẹp mắt. Chim đực trải ra hơn 150 lông đuôi đầy màu sắc thành hình quạt tuyệt vời nhằm hấp dẫn chim cái của nó. Tiếng gào gọi rất to và thấu âm xa. Tại Ấn Độ, con chim này là quốc cầm biểu tượng cho vẻ đẹp.
+  farm.pheasant:
+    label: bažant farmový
+    summary: Loài ba žan được nuôi trên trang trại và thả ra để săn bắn.
+    info: Ở Cộng hòa Séc, người ta thường nuôi nhốt và định kỳ phóng sinh loại chim này vào tự nhiên nhằm phục vụ cho hoạt động đi打猎. Loài này có nguồn gốc từ châu Á nhưng đã bị đưa sang châu Âu bởi Đế chế La Mã cổ đại. Con đực sở hữu màu sắc nổi bật cùng đuôi dài còn con cái thì mang vẻ ngoài tông nâu lặng lẽ hơn nhiều.
   farm.pig:
     label: lợn
     summary: Động vật nông nghiệp màu hồng có mõm sụn.
     info: Lợn nhà là một loài động vật nuôi thông minh được nuôi để lấy thịt. Nó ăn tạp và có khả năng ghi nhớ các nhiệm vụ phức tạp.
+  farm.pigeon_farm:
+    label: chim bồ câu nhà
+    summary: Chim bồ câu được nuôi để lấy thịt chim con hoặc thi chạy.
+    info: Bồ câu nhà là loài đã thuần hóa từ bồ câu đá bằng cách lai tạo và hiện có hàng trăm giống khác nhau. Thịt chim non gọi là squab thường rất đắt tiền trong nhiều nền văn hoá. Chim đua thì được chọn lọc vì tốc độ bay nhanh đến hơn 150km/giờ. Nuôi chim ở Cộng hòa Séc mang truyền thống lâu đời.
+  farm.piglet:
+    label: con lợn con
+    summary: Là trẻ sơ sinh của heo nhà thường có màu hồng và hiếu động.
+    info: |-
+      Con lợn con là giai đoạn nhỏ tuổi trong vài tuần đầu đời của loài heo nuôi.
+      Các chú lơn mới đẻ rất bé nhưng phát triển khá nhanh chóng.
+      Chú heo cái trung bình sẽ sinh ra từ khoảng mười đến hai mươi em lợn một lần;
+      nghiên cứu cho thấy rằng trí thông minh ở các giống vật này không kém gì chó.
+  farm.pony:
+    label: con ngựa lùn
+    summary: Giống ngựa thuần chủng nhỏ bé được yêu thích cho việc cưỡi của trẻ em.
+    info: Con ngựa lùn là giống ngựa nhỏ không vượt quá chiều cao 56 inch (tương đương khoảng 147cm). Con ngựa lùn Shetlands có nguồn gốc từ các hòn đảo Skotland và là con ngựa thuộc loại thấp nhất trong số những loài này. Chúng khỏe mạnh với khả năng chịu đựng tốt trước điều kiện khắc nghiệt.
+  farm.quail:
+    label: quy lô Nhật Bản
+    summary: Loài chim nhỏ được nuôi nông nghiệp để lấy trứng và thịt.
+    info: Quy lô Nhật Bản là loài quy đã thuần hóa thường xuyên được nuôi thả tự do vì giá trị dinh dưỡng của trứng cũng như nguồn cung cấp protein từ thịt nó mang lại cho con người. Con cái có thể đẻ mỗi ngày một quả trứng – điều này khiến chúng trở thành món ăn đặc sản trong nhiều nền văn hoá nấu nướng khác nhau trên thế giới hiện đại mà ta biết đến hôm nay.
+  farm.rabbit:
+    label: thỏ
+    summary: Thú nuôi trong nhà để lấy thịt, lông hoặc làm thú cảnh.
+    info: |-
+      Loài thỏ domesticus được thuần hóa từ thế kỷ trung cổ bằng cách lai tạo với loài thỏ hoang châu Âu.
+      Nó có hơn năm mươi giống đã được công nhận khác nhau về kích thước, màu sắc và loại bộ lông của chúng.
+      Con cái sinh ra con non số lượng dao động khoảng bốn đến mười hai chú mỗi lần đẻ và thường sẽ sản xuất nhiều đàn cho một mùa.
+  farm.ram:
+    label: con đực trưởng thành của loài cừu
+    summary: Con đực lớn tuổi có những chiếc sừng xoắn to và khỏe.
+    info: |-
+      Cái bê là con đực trưởng thành trong chăn nuôi gia đình ở Việt Nam,
+      với đặc điểm nổi bật nhất chính là cặp sừng quấn trôn ốc mạnh mẽ mà cái mái không sở hữu hoặc chỉ nhỏ bé thôi.
+      Theo mùa giao phối vào cuối thu đầu đông thì các cá thể này thường tranh giành bằng cách va chạm trực diện với nhau để xác định quyền lãnh đạo đàn.
+  farm.rooster:
+    label: con gà trống
+    summary: Chim trống nhà có tiếng gáy chào bình minh.
+    info: Con chim trống là con đực của loài gia cầm và được nhận biết bởi bộ lông sặc sỡ cùng mào đầu và đuôi dài. Tiếng gáy không chỉ diễn ra vào lúc rạng sáng mà bất kỳ thời điểm nào trong ngày. Trong văn hóa Séc nó tượng trưng cho sự cảnh giác cao độ còn ở bảng xếp hạng cung hoàng đạo phương Đông thì đây lại một biểu tượng quen thuộc nằm giữa hàng loạt sinh vật khác nhau như chuột hay khỉ vậy đó.
+  farm.salmon:
+    label: cần sa
+    summary: Loài cá biển lớn di cư về sông để sinh sản và được nuôi phổ biến trong các trang trại.
+    info: Cần sa là loài cá ngược dòng nước ngọt từ đại dương trở lại con sông nơi nó sinh ra để đẻ trứng. Khả năng tìm đường của cần sa dựa trên cảm nhận trường địa nam bắc cùng khứu giác sắc nhọn. Nuôi trồng nhân tạo cần sa ở Na Uy và Scotland hiện đang phát triển mạnh mẽ thành ngành thủy canh quy mô hàng đầu.
   farm.sheep:
     label: cừu
     summary: Động vật nuôi lông cho len và sữa.
     info: Cừu được nuôi để lấy len, sữa và thịt. Chúng sống thành đàn và là một trong những loài động vật đầu tiên bị thuần hóa trong lịch sử.
+  farm.sheepdog:
+    label: chó canh giữ đàn cừu
+    summary: Chú chó được huấn luyện đặc biệt để điều khiển và bảo vệ đàn cừu.
+    info: Corgi là giống chó dẫn đầu trong việc quản lý đàn bằng ánh mắt và các lệnh im lặng trên nông trường. Đây cũng là một trong những loài chó thông minh nhất thế giới hiện nay; khả năng làm việc của chúng có thể di truyền nhưng cần phải phát triển qua quá trình đào tạo từ khi còn nhỏ cho đến trưởng thành.
+  farm.silkworm:
+    label: giò di dâu
+    summary: Giò của sâu đục lụa sản xuất ra lụa tự nhiên.
+    info: Sâu giòn lá dâu là loài nhộng được nuôi ở Trung Quốc hơn năm nghìn năm trước để lấy kén làm nguyên liệu cho ngành công nghiệp may mặc bằng chất xơ thiên nhiên từ một sợ dài tới trên chín trăm mét mà nó quấn mình trong khi hóa thân thành con ong. Loại vật này có giá trị đến mức bí mật về việc tạo nên loại hàng hoá đặc biệt ấy đã bị giữ gìn kỹ càng suốt nhiều thế kỷ tại đây.
+  farm.sow:
+    label: con cái
+    summary: Con đực trưởng thành của lợn nhà và là mẹ các con non.
+    info: Lợn nái là một cá thể cái đã lớn lên từ loài heo địa phương hoặc nuôi trong gia đình. Lợn này có khả năng sinh sản hai lần mỗi năm với số lượng仔猪平均在十到十四头之间。现代农业中，由于圈养环境狭小的问题，在集约化养殖母猪的做法存在争议；同时这些动物非常聪明，并且在其自然环境中会照顾幼崽长达十二至十六周的时间。
+  farm.tilapia:
+    label: cơm đen
+    summary: Loài cá nước ngọt nhiệt đới được nuôi trồng đại trà trên toàn thế giới.
+    info: Cơm đen là một trong những loài cá nuôi phổ biến nhất của hành tinh; hàng triệu tấn cơm đen được sản xuất mỗi năm. Loài này có nguồn gốc từ sông Nile và các hồ ở châu Phi nhưng hiện nay đã được nhân giống tại tất cả lục địa. Cá dễ chăm sóc, sinh trưởng nhanh chóng và không đòi hỏi nhiều thức ăn.
+  farm.trout:
+    label: cá hồi
+    summary: Loài cá salmonoid được nuôi trong các nông trường và môi trường nước tự nhiên.
+    info: Cá hồi hoa tiêu có nguồn gốc từ Bắc Mỹ và đã bị giới thiệu vào châu Âu như một loài thủy sản để nuôi trồng.Cá hồi thường xuyên là giống bản địa của châu Âu sống ở những vùng nước sạch chảy nhanh.Hai loại này đều rất quý giá đối với thể thao câu cá cũng như mặt hàng thực phẩm.Nuôi cá hồi tại Cộng hòa Séc là ngành nghề truyền thống đặc biệt phổ biến ở khu vực miền núi.
+  farm.turkey:
+    label: gà tây
+    summary: Loài gia cầm lớn được nuôi để lấy thịt và là biểu tượng của lễ Tạ ơn ở Mỹ.
+    info: Gà tây nhà có nguồn gốc từ Mexico nơi người Aztec đã thuần hóa nó hơn 2 nghìn năm trước. Con đực đặc trưng với mào đầu cổ điển và khả năng xòe đuôi thành hình quạt. Tại Hoa Kỳ đây là món ăn truyền thống trong Lễ Tạ ơn còn trên toàn thế giới thì gà tây đứng thứ hai về mức độ phổ biến sau vịt.
+  farm.water_buffalo:
+    label: trâu nước
+    summary: Loài bò lớn được thuần hóa làm vật kéo ở các ruộng lúa tại châu Á.
+    info: Trâu là loài động vật nuôi phổ biến trong nông nghiệp của người dân châu Á và đã hỗ trợ canh tác từ hàng ngàn năm trước bằng cách cày đồng hoặc vận chuyển trọng tải nặng trên lưng chúng. Sữa trâu có độ ngậy cao hơn sữa bò thường dùng để sản xuất phô mai Mozzarella đặc biệt gọi là mozzarella di buffalo. Tại Ấn Độ, đây còn là một sinh linh thiêng liêng đối với đạo Hindu.
+  farm.yak:
+    label: ják
+    summary: Loài bò rừng lông dài sinh sống trên cao nguyên Tây Tạng ở độ cao từ 3 000 đến 5 500 mét cung cấp sữa và thịt.
+    info: Yak là giống vật nuôi được thuần hóa của loài yak hoang dã đang sống tại vùng đồng bằng phía Bắc Trung Quốc với chiều cao khoảng hơn ba nghìn tới năm ngàn sáu trăm mét so mặt nước biển . Nó đóng vai trò nền móng cho ngành nông nghiệp địa phương vì sản xuất ra nguồn dinh dưỡng như sữa ,thịt cũng như năng lượng kéo.

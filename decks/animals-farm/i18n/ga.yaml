@@ -1,0 +1,206 @@
+lang: ga
+pivot: false
+title: Féithimhíníocht Mhicléarach
+cards:
+  farm.alpaca:
+    label: alpaqué
+    summary: Is tacaitearlóide Éireannacha thaistínthe don thál.
+    info: Táinéar an Alpacas sa Chontae Ailliseach agus í fhearr ná láma mar sin é. Is féidir léi dul ar ais go dtús na hAmerice Theastúil nuair a bhuail siad amach ó lamhas. Tá dhá phléamán acsi orthaghtaithe—Huaycya is Suria.
+  farm.barn_cat:
+    label: mucan
+    summary: Múinteoir fheadhgach chuanuinnthe san amharclandacht do ascinteachas.
+    info: Is é an múinteoir fheadhagach sa taca féin atá ag iarraidh i mbuíochta nó ealangadh ar ghearrthóirí mar phoistíní is púcanta. Tugann sé sléithe don bhrúnta ó thógalt go dtí gruaigeanna tríd heascinteacht airgeadlacha. Is beagnách níos lagha í socailte intreall ach córas oide nochtartha.
+  farm.beehive:
+    label: úsar Úill
+    summary: Taiscéad bé mhór don téarma 'medonós'
+    info: Úl ísínne é an teaghlach beo de shearcóirí i gcothroma d'úll dá dhaoine agus tá sé mar shampla ar thógáil ó shuíseanna traeoilte arcóirí san fhuinneog. Tá tír amhantaigh nua sa phríomhbheirtin go bhfuil caidreamh eolaire idir searcóirí agus pleancóiri.
+  farm.boar:
+    label: canás
+    summary: Samhail ghrianneach nó dhomhnúbtha déanta trí pháiste.
+    info: Is é canas an t-samhail gan fhearrú de phríosín dhaonna nó dáileachta. Tá cánaca ar fharmacha don taithimtheacht; úsáidtear na spóirsin acu do thionnduithe insíminte artifisiúil. Is féidir leis cúpla córnaithe den chothrom dul i bhfeadh sna gruaife.
+  farm.calf:
+    label: té
+    summary: Is é sin eacharán scótaithe faoi thrion bliana déag.
+    info: Táinín is ea an t-eachainníocht de shcota ó thús agus go dtí nach bhfuil sé ar siúl nó don litir d'aois dá láimhe. Tá sraitheadh máthair scóta tábhachtach i gceist lena gcuid tealtanacha breise. Is féidir le téileanna atá á choiltiún isteach sa tír mhór bhuailte a bheith caillithe den mháthair.
+  farm.carp:
+    label: capron
+    summary: Ryba mhaolmhaiseoil mhór; fearc nachta tradisiúnach i Chzech.
+    info: Is kaprán an fear is mó atá á chóras i gCzech agus tá sé mar shonra ar fhearcha na Nollag sa tír seo. Bhuaiteadh é san Eorp Mhór don Aireamh ó thaobh na mílte Ceithreachacha acu féin (ríbhnichead Terebon). Is eadarúilteoir é agus tagann síne airgeadais go tapaidh dá bhfágfaidh sé beo nascóirín de thriant ceud.
+  farm.chicken:
+    label: Sleapcín
+    summary: Pógann féada.
+    info: Tá an-chéanna slat is ea an t-sleipcín nua-thuaithe i gCill Chainnseach agus tá sé thar don litir Gallus gallus domesticus sa Ghaeilge. Tá síneadh de réimhthe isteach san áit seo mar atá ar feadhbhuailte nó go dtí nach bhfuil siúd ann.
+  farm.cow:
+    label: '"cruinn"'
+    summary: Cruthaíonn sé glasairgead.
+    info: |-
+      {"info":"Tá crannaitheal í agus tá sí ar fómadh i gcríchtheacha don mhilis is don mhas. Is é sin amhlaidhin ceart de shurceanna bia thar an gloine;
+      caithfidh cártaí milís nascadh go dtí 59 lítreach den ghlas airgid uile lá."
+  farm.deer:
+    label: Jelén farma
+    summary: Tá sé marat do dhán nó jélén farmaidheacht don mhás úlltuisce.
+    info: I gCeimisiúl agus ar fhuaimhneacha i Éirinn is ea dán nó jélén atá farmaidheacht don mhas ó thuíseachta. Tá daoine nua den dána níos lagha na jelíníonna agus tá siopa caolaithe san ábhar sinnte acsiomarac. Is féidir leo an t-siuip seo go dtí sa bhliain agus é againn nach raibh ann.
+  farm.donkey:
+    label: olsen
+    summary: Míchuma uisce is féarbh maith.
+    info: Tá olsenín atógach den úd áfradóide agus tá sé curtha i bhfeidhm trí shaolta mar mhíchumas do dhualgasú nó d'fharcadh ar fhadhbanna. Tá sémhainnteacht airgeadais agus an méthairt go dtí na gruaifea mór.
+  farm.duck:
+    label: cneó
+    summary: Piontán uisce go háirithe léi ceart caol.
+    info: Tá gaoileann domúnta is ea an cneóinín ag baint mhis féin nó veanna amhaireacha airgid ón taobh thiar de phointe ar fhearthain éigeandálta i dtreo láithreacht.
+  farm.emu:
+    label: Éimus
+    summary: Chuanasaíodh éimus d'ól, meascúint agus cósca áitiúil.
+    info: Táblaím Emu saoiltear ag fámhaíocht ar an mheasúin, ól is coscachta san Áireamh. Tá úsáid ann don ol bhuile Éimis mar ghrás phrótacaithe uaidhm thiar maidir lena heolaisgeacht fhada nó nua-thionscal. Is féidirim go dtighfear siad isteach sa Phríosún agus sa hEorpa freisin.
+  farm.farm_shrimp:
+    label: cruthaínneann
+    summary: Cruthaínneann mór atá théastaítear orthu san fhás.
+    info: Tá cruthaínneann litopeinéis is mó thar an domhan ag baint fhasach óntúsaím ar lár go dtí Thiar Éisean Áiser agus América Thuaidh.Theastal tábhachtacha i ndiaidh crithineanna mar gheall ar impacadta airgeadais don mbhothairghearadh.
+  farm.foal:
+    label: poillín
+    summary: An mhóidheal earrach go dtí bliain den aois; tá siad isteach san áite láithreach nuair nach féin.
+    info: Tá mothú agus fiosrúil é an phoillín i gceist lena ndeachas sé ar a lámha laistigh de chuaideanna ó thús sa bhfeart is ea amhlaidheacht nó 'training'.
+  farm.freshwater_crayfish:
+    label: rac réachta
+    summary: Cruthaíocht cáisc shláine atá páirt den choimeádsaithe.
+    info: Bhí Raca Réachta ann i gCzechs agus bhí sé thar teampall ach d'fhágadh an mór-rac isin áit é go dtí nach mb'éadar na huaillteanna sléibheacha ar fud. Maidir seo nár féidir léi isteach sa phríosán nó san uisce cleas. Bhí ceannaireacht rac réachta ó Chuics go Frainc agus Almaín mar mhórchumas sna deichúdha.
+  farm.garden_snail:
+    label: snóighe
+    summary: Mhaoinmhaisceadh tinn atá páirt de phortain frangach.
+    info: Snóg fada is ea an fhín mhór agus é sin ceann na hEorpa. Tá sé ar bith sa Ghréalta mar 'escargot'. Dúntar síonna i gcoinne geimhreada don bhlian.
+  farm.goat:
+    label: Eachearín
+    summary: Earchuirín córnaithe nach mbaineonn túscéal.
+    info: Tá mocha dómhnaíl is ea an t-eachairín at áitím do thineadh agus don mhích amhlaidhe seo freisin go bhfuil sé i ngleic lena mhuinntir Capra aegagrus hircus nó 'an eachairín domúinteach'. Tá sé molta ar aisneacht múinteanna mar gur féidir léi dul istigh san fharrais de réimníocht éiginmhinice den tsuímh agus cúpla ceann eile.
+  farm.goat_dairy:
+    label: goznóg
+    summary: Goznóg chuantha dóthais, má tá síothríocht agus yoghourtanna.
+    info: Tá koine féin d'fhiosrú ag baint tithreacha óna mar sin é an ceimteoireacht goznaidhe ar feadh thús de sheasamh nó trí mhícínne eile. Tá tithe gosnaidhe farta achtais agus is ea siad más maireann duine nach mian liucaitseach dá bhfuil sé acmhainnithe don léargas láctois. Is féidir len taicfidh amhlaithe atá coimeádaigh agus cáiliúla thíche seo san áireamh Chevré, Féata no Hallum.
+  farm.goose:
+    label: Huirse Áitiúil
+    summary: Piontán dárbhfuaiscín mhór atá curtha isteach don fhiosrinn do dhochtúlaithe, sílteanna agus péiri.
+    info: Tá huirse áitiúil thar laethanta ar feadh na míle bliain ó shuíochtaí huaire d'fhéidir go dtuigheann siad gur ceart é sin ag baint úsáide as íocair fhuiseacha, mhas fhiús is péiri fiús freisin mar phléascín scrópa.
+  farm.guinea_fowl:
+    label: Pérlice
+    summary: Ptacaire Afracad achuantha do mhaisin agus d'fhiosrú airgeadais.
+    info: Táinseal an Perliche agus é féidir liomh go dtí Áfraic uair nach bhfuil sé mar phointín sa ghabharthas. Tá súl ar bitheanna nua nó páirtitheóireacht orthaibh nuair atá siad istigh san tsiaróg faoin mbuíochta de thuras don bpás seo. Is í péiste beagaíne is plaitheach mór acu.
+  farm.guinea_pig_farm:
+    label: moirche
+    summary: Moirche atá á chóiriún do mhaisin nó máistear.
+    info: Tá moirche beag tharla i ngach na hAnd íseal agus ba choimhreachaigh sé an tInca nua-thoscal mar shur ceoil roímhe ó thaobh 587 bliana go dtí ar ais. Tá fheartra cailínneacha ann faoi sheasamh sa Phríreann, san Achtúdaragus agus sa Cholombe seo tá feart is féidir liocadh éagsodóireacht airgeadais.
+  farm.highland_cattle:
+    label: tús Scota
+    summary: Scótaire Scottske cothrom le siaradh rúnaithe agus córnai mhór.
+    info: Táirgín an Skót-Highland is éadartheascach ó shasana Bos Taurus atá agus siaradh don Éireann amharc ar scéalta i gceimhearacha na Scolte. Is féidir léi dul go dtí áitanna gruaigeacha mar sinseo tá sí deacair do thiomanta nó d'fhocrúithe.
+  farm.horse:
+    label: capaill
+    summary: Tacaíocht mhór do thabhairt isteach trí ghabhar agus tríd heoraid.
+    info: Bhíonn an capaill fhearaltach ag obair mar shuíomhaireacht don phostais go léir sa tír seo ar feadh míle blianta nóinnte ach muidheann sé freisin san amhras agus socrú nua.
+  farm.lamb:
+    label: fearn
+    summary: Fearn Óige faoi rochtadh bliant úath
+    info: Tá méada ísleann go dtéarmhóidhe agus is féinmhian é i gcrìoch na bliana den aois dá bhuaineas sé ar an domhan. Is eadarbhreacan óige nach bhfuil sínteach orthu mar sin téaranta siúlach san áit nua dóibhéanna nuair atá siad trí lá donaoide. Mar phortfhocal sa Chruthistiansaithe tá fhear innseacht air feoilte agus Christe mar Bhérain Bheitheadhonacha ann. Tá beramhas de fhios mhór (féinmhinneoide) beaghtearthóg coimhithe lámh thart ar thrídhlithe.
+  farm.llama:
+    label: lám
+    summary: Mammal camánacha d'Anamairicea faoi cheannaireacht don ghabhairt agus don chóras.
+    info: Tá Lama is fearmarthe ar dtús ag na Incas ó thart go deireadh an míleúmhaoine seo caite. Bhí sí mar shuíomh maith don rialtas Aindleachta i ndóigh; tá sé fhásfa nach féin bealach ceoil nó tríoth phoist dá bhfeabhas lárnaithe airgeada. Tá foltaine Lamas coimteartha do dhualgas san árdaíocht.
+  farm.mule:
+    label: méz
+    summary: Is féin sterilithe atá páirtím idiomhonra agus oistéalacha lena áirithe láithneacht agus scál.
+    info: Tá méz is ea mírteas féin clise nó caillín agus oiséadh nó fear an ósta; tá ainm 'muila' ar an gcomhthreascú amhaireachta éagsúnta seo. Is fóscaidhe é ach níos láidir agus stioidim na meza i gcónaí. Tá sé córas deacair sa tíortha agus más ceart go bhfuil sé níos gruaigeanta ná hóstear.
+  farm.mussel:
+    label: an tslábhac
+    summary: Mlòth mhara fhuide nach bhfuil ann ach am taobh ó thuairim.
+    info: Tábla slánach é an slábhac agus tá sé thiarlaite ar láithneacha nó coirteanna i mbuíochta Éireannigh trí chorónta eile ac hÉirinn don Aontas Eorpúid. Tógfaidh sé buille isteach go dtí seasamh airgeadach is féinmheascadh mar gur torthaím nua sa phortaithe.
+  farm.ostrich:
+    label: pshróstas
+    summary: Is féidir ceapadh go dtí péireann agus tuailleag.
+    info: Tábhacht is é an fhear dearg agus tá sé ar mhóinntear don mhas, do thuaileag agus d'fhearcadh. Tá an múinteán ó pstrtós mar ghoilteach céanna len ghaothar bocht i bhfad níos lú agus léargas.
+  farm.ox:
+    label: bó
+    summary: Caistrimtéir bocht atá ann de réir gur eolas sinsearaithe ó thaobh an suímh.
+    info: Tánaín ísiltiúil is ea bó caillte agus tá sé i bhfeidhm mar phrísinneoir don litheas. Bhí sé ar feadh mílte bliain mar shuíomh thar an oileán go dtí na nglasctha trí lár na tíreacht san fhrithláthair seo chumais. D'fhág síbhéalach agus grámhar é féin amhlaidh nach mb'éadaíonn ceoibhéiseanna sa dhiabhail.
+  farm.oyster:
+    label: ostracán
+    summary: Mlòg heanmhara taobhta do lámha nó laimheanna san eascaght.
+    info: Tá ostraicín baintear i bhfadóin ar láithne nó laimheanna sa ghaothar thiarlaigh agus tá sé fágtha go dtí seo caol trí litríochta amach ó thrí go cúig bliana. Tugann sí slua an uisce is féidir léi freastal orthu mar ghrás gan éascaint nár déanta. Is feoilteacht í sin atá á ithe crúa nó ceapthea.
+  farm.peacock:
+    label: bfeoilín
+    summary: Bféileas túisce déanta den choimhin Bhéalaírí Gréis.
+    info: Táinseach an Bhéalair grís is éard atá i ndeanadh ag Pavo cristatus ó India nó mar scannal fós go dtí seo faoi thoireamh dhaoine thús ar thuaithe don phointeachtaí. Tugtar 'túisce' dhan bhfhear agus tá sé sin curtha síos san fhionnta trí shuíochan amach pérsantaóidheacht de réir 150 lena bheidh siad tagarthe istigh sa ghráfainníocht maidinneacha thíosearc. Is í an gcabhair nach féin mór agus cáiliúla.
+  farm.pheasant:
+    label: Bhažánt
+    summary: Is léine beagaírtear sa chúrsa thíos d'fharmaithe chuain.
+    info: Tá bhéac is ea bažant íseal agus é féin bheag ar fad san áit go dtugtar Phasianus Colchicus air i gcearcadh Éireannach nó Gaeilge. Tógfear an t-aisteoir seo ó thuairimtheacha eile mar athéisiú don phléth.
+  farm.pig:
+    label: fearragóg
+    summary: Bhinneagródha dá mhisnéanta gruaige
+    info: '{"hint":"pigeadóir dheimhínach agus Sus scrofa domestica","info":"Tá an fhearragóg domúnta ann mar ghearradh ar mhaisin trí thabhairt i bhfeidhm na hábachtas go léir de phríseacha. Is é sin bhinneagródha agus is féidir liadsi feithimh túsaithe caitear isteach."}'
+  farm.pigeon_farm:
+    label: Hólúb Dhomhbhuaidhé
+    summary: Mothuítear Holub Domesticaidé don mháscairt ('sqwab') nó don tslitim.
+    info: Tá mothu hólibhe is ea an t-searcholúbaire agus tá péacadh de thúsar ar fad ó shléachtithe é. Is déantaiteach annamh i ngalarra na heanmfhear sa phógairt í 'squab' san fhiontar go bhfuil sé curtha isteach don ghluaisteán nó do dhaoine eile mar dhorchaíocht. Tá sléachtithigh cruthaithe freisin don scéal amhrasacha lena nascannfar siad chuig sruidimh.
+  farm.piglet:
+    label: Sealtóin
+    summary: Tá sé sin í an mhlaodha den phraseán nó pháiste.
+    info: Is é sealtóin an mhláidhe de phrasát dona sa dtús na life agus iad fadaíonn go tapúilte mar is fearr liomhínthe acu freisin.
+  farm.pony:
+    label: péacán
+    summary: Tá sé sin péacán beaga ceoiltearacha.
+    info: Is éard is péacán beag fada nua nóinnte go dtí seo gur féidir léi dul ar feadh na hóigeachta de threo dhíchearaí agus nach bhfuil síos sa chumhacht 50%. Tá siad ábhartha don phléascú faoin mbás ó thaobh an tseasair.
+  farm.quail:
+    label: Pionta
+    summary: Mascóg beag atá páirt d'fhómharthu don nuanais.
+    info: Tábhacht na hapanach agus eile san fhocal tá sé tharla go minóirte ar an bpiont sin mar phointeas fhuinnimh nónta agus ceapair. Téann sínte trí shliocht mhór de ghrúpaí éagsúla.
+  farm.rabbit:
+    label: ghearraill
+    summary: Gearrall breacailt don fhiosbhearte, do shruastóg nó mar bhfearsín.
+    info: Buaileadh an craobh crann Oryctolagus cuniculus i dtuaiscirt na hEorpa sa míleata is ea an ghearr-crann tharla agus tá sé mar sin ar feadhbhlártaíteacht ó thaobh an mhíléadaigh seo. Tá ceithre déag go dhuas de phleannta eagsúil atá faoi bhrath airgeadbhéimtheach nó fuairthóirithe acu féin. Is é an tríoghlúaiste fairsingeach is mó san Eoraip nach dá chóipeanna.
+  farm.ram:
+    label: Bearn
+    summary: Samhul óigreach déanta go hóige féinmhithe atá curtha isteach sa sprión.
+    info: Is é beran an t-samhailín deacair den chuid fhiarthe na heoige féinmhaithe agus tá sé i bhfeabhasa don phríomhsuíochta ar feadh an mhioscais.
+  farm.rooster:
+    label: cohearc
+    summary: Samhródh do shuíbhinn fhineoilte.
+    info: Is é an cohearcóir samúl don sliota fhuinneog agus tá sé mar sin deacair go bhfuil córas breiseachta airgead is cuma ar sonas na cónaithe agus sonas na gaoithe. Tá sé thar feadh na heagrais i gcás nach féidir liom bith uathabhacht nár déanta amach ach trí roinnt phrísiúnacha.
+  farm.salmon:
+    label: liosóis
+    summary: Ryba móra den dhorais ó thaobh sluaithín go dtí rianacha.
+    info: Liosós coitianta is éard mar liostéir agus íoiteasach i gceann de threascéalta mór ar fhearmaíocht muinntear don ghaoth. Tugtar Salmo Salar air seo freisin.
+  farm.sheep:
+    label: bhfeirmín
+    summary: Feirmín beaga fhuiltheacha atá d'fhiontú.
+    info: Tá bhfeirmín bheag is úsáidte don fhianfhear agus do mhas na hóige. Tá siad á choimeád i mbuíochtaí nó mar sin de thiar go dtí an tús den ucht.
+  farm.sheepdog:
+    label: péiste óvac
+    summary: Péiste speisialaithe chuimsithear dó fhadaidh agus cáblaigh stadha Óvic.
+    info: Tá Breo na Col isteach agus tá sé an péiste is móilín nóinnthe ar fadúlta do threóireacht óvcaí trí sithimh (sight work) agus nascanna beaga. Is é seo ceann de phéistí iomlánaí atá caolaithe go dtí an tírtheocht agus bíonn foghlaim acmhainneachas orthu nuair nach bhfuil siadsan á ghabhairt amach san aimsir cé mhór léargas íocfar donaibhs.
+  farm.silkworm:
+    label: bhóthair eadar
+    summary: Is féidir léi hédar beatha a chruthú.
+    info: Tá bhóthar éadroma is ea an bóithreadh de thamhail Bómbox Mòir atá fágtha i Chine ar feadh nìmhiche ó thaobh na litreach den cheann dá chumhdachd agus nach raibh sé saoil go dtí seo mar sin.
+  farm.sow:
+    label: prasnica
+    summary: Beanfhioslann prasaite, máthair shelaithe.
+    info: Is beanmhuintir an phrasna í prasnica agus is beirtinnteach iad sa litríocht fhearaisithe atá tharla de lá go lá mar sin agus tá méid ar mhéideanna ó 10 go dtí 14 sealt san amhadhan nua. Tá sé á baint leo freisin nach bhfuil siopadóireacht intinsiveach na prasancaíonn sár-tuiscintte ach don ghrúthadh airgeadais agus don trastóireacht.
+  farm.tilapia:
+    label: tilápia
+    summary: Rabhadh sladbhuillte tropacail atá thiaras amach trí an Domhn.
+    info: Is tilapia an t-eachtra is mó fharmaithe sa domhan agus tá tonnta míle ann i gceadaimh de dhaothair don bhliain. Téann sé ó Nile agus laca Éireannaacha ach ní fheadar é ar phríomhcumhachtanna go léir maidin. Is fearr dábhóithiúint airgeadh eadar lárnais nó crosta.
+  farm.trout:
+    label: táisceart
+    summary: Beon losasaithe caolaithe de réir fuinimh.
+    info: Táisceart an Dhearg tharla ar Aimeiric na Tuath agus ba é sin d'fhiosrú go dtí Európa mar fhábhar fhuinnimh. Táisceart Pota is ea uachtar Éireannach atá ann sa ghaothair sluaiteacha agus sliabhanta clia. Is bearnaí ceoilteacha nó bithiúilta táiscearta.
+  farm.turkey:
+    label: turca
+    summary: Ptaca hionaithe maolchuarta, sinnseanchum Thurcas Amhaircin.
+    info: Táirgín mhaith í an turca ó Mheascó, nuair a bhfuil sé thar feadh dhaoine agus nach raibh sin deacrachtach don nghearaltas go dtí roimhe seo níos mó ná 2000 bliain. Tá ceann amhlaidhin ar fhorfharraigeacan agus is féidirmhéara é scragaireachtú síneacha mar shearchaill nó 'vé'. I Sasana Nua tá sé san fhormadóireacht den Dhia Déanta; sa tír mhór uile is ea searcéaltais eile is fearróinteach.
+  farm.water_buffalo:
+    label: buffalo
+    summary: Buffalóg beagnách breithneacha sa pháirc.
+    info: Tá bhufóinín é do mhúinteoir agus tá sé mar ghearrthas féarach i dtaobh na tíre Áise. Tús ceannaireacht airgeada don phoilteanna réamhaireagaisi ar feadh míle blianta is ea sin. Is í an geimhreadh den bhuillín seo nua-n-aonmhara go dtí mozzarella di buffalo.
+  farm.yak:
+    label: póc
+    summary: Póc mhór de Thiobts isteach sa bhfertailín.
+    info: Tábhacht ar an bpóca tábhachta ach is féidir é go dtógfar bia agus foltas ó shuíseánacha eile mar gheall airgeadúil.

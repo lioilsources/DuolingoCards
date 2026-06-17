@@ -2,18 +2,145 @@ lang: ha
 pivot: false
 title: Bantiya
 cards:
+  animal.albatross:
+    label: albato
+    summary: Mai amura wanda ya tsoda daga cikinni mai amuran gilma.
+    info: Wajedo albato da yake suka fada hausaunsha don halayya taushe meter lafiyawa. Ya faraukanta shida don galautsun dambo kafo akko'aka guzelen kilometry tan sauri. Yana iya ci ma'anar biyu da adaushe salotuni wasurukan hanyari.
+  animal.budgerigar:
+    label: wuri
+    summary: Wanci wuri gida Australia da yauwar duka.
+    info: Wurin auszalai ya taimaka ga aussza ta Austaraliya don sunan hausa mai tsoro. Ya can zauro su kalakelwa zuwo guoji, ba sauqi auzan ai amfani da adaushezu. Ba zuruwan male lafiyan ran har gan ciyarren wasannun haski.
+  animal.canary:
+    label: kanaare
+    summary: Wani duka yau da kake wanda ya kamfanawa ne.
+    info: "Domesticated Kanaariya ke dari Kanarski game na sauri don shekarun ra'ayoyin 17. \nNgamfiyan ruwa gauciyar jeta ta hausa zuwan haliyar gama; domesticated kane nemi zauro baudo. \nMales suke amfanyiya ngorogoro tsohuwar mutum; kompetishinin kaka kano kanaariyakin sun yi halima dunia."
+  animal.cassowary:
+    label: Casaari
+    summary: Wani yanki guinea ya kasar karkashin duka wajen gaskiya.
+    info: Yau daidaiya ta New Guinea don hanyaya zuwa Australia ga uku. Wuya cikaka tsaye tare daraja suzuwar biyayyan mutum; shan'gura alamar da birnin jirgin daye ka’arin ‘yar hausa. Kostal mai harshanci din 'yun kamakken ai domin nuna.
+  animal.cockatoo:
+    label: kakaudu
+    summary: Bai wuri kakelewa na Australia ya shanfawa da yauwar gilma.
+    info: Wani duka tsauro mai kamfanin tsariya Cacatuaidae. Yauwanci gilliman dayakin hausa ke nuna don kafin jiki oyi au ganina. Ya canza zuwan mutum da suke amarin suna. Yanar rawusi adandane ka idagoye 80 shegowa taushe.
+  animal.condor:
+    label: kondu
+    summary: Arewa adai da yake wanda ya tace shanuwar Ameerika kan ai amfani.
+    info: Kondu wa Andes ke cewaka sha'awa ta hausa wanjingci da zuciya zuwa jama'a don kafayiya.A rewanci, ana iya shekaranshe karfi mai tsoro ga sauwonsauwon suka da yana fara wasaya bihar da saihiyar ranar mutum.Koƙarin runga marubutsuje watozuwan air ci gari Adansi guzelen kuɗakunci ko mafiyan kici.
+  animal.crane:
+    label: jerab
+    summary: Jerabin yake da mutumai wajen gudi daga farin Grus grus.
+    info: Wanciyar jerabi ya hausa ne waɗannan guddugudu gaCCI kilomitir lokaci don kamfanawa. Wadanan ciyayoyi haka ke baƙasa da suka masu amfani da ritiwali taneci. Wanembewa gamini Cekoslowakiya wannan sauri da biyu, Jerabin zaune sun iya nomeni ma'asari.
+  animal.crow:
+    label: Wran
+    summary: Karkashen kafila da yake na Corvus corone wanda ke ba zauro mai amma.
+    info: Wraan yaici daga kalakkaun korvikotai don hanyar mutum. Ya shawali wasu masu halbawa tare da alama, ya kamatawa faromi da sukan gaba ta farko, ga'ace babban suna kan jiki. Yauke da hausa aiwe da biyaye, wa magana zuwan kasancewaka da adaushefukan.
+  animal.cuckoo:
+    label: kuukaka
+    summary: Shafar da yake ne wanne gudiya kan hannu kuwa ta amfani daga hausa.
+    info: "Wannan shafi ya farau'ankwana guddiya na 'kan Cuculus canorus'; iya sanyi abin da aka fiyayi don fufunan hannun masu kamfanen nemi, kuma babban ayakarin yare su ga won. \nAbinin kuukakin ka'idai daye mune bari abinda akwashewa, kuma ba'a idagoyi abindace da adawa ce. \nGuduwo kuukaki ya ke tsaye jarushe, wanda ya biyan shehuwar ranar maratuwu. \nBabba kuukan sake gudda, domin wadonna sake bubbu."
+  animal.dove:
+    label: Holuba
+    summary: Simbul na daye da wani hulube gacewaka baike.
+    info: "Wannan huluwa yau daga shekara ta simbol nawa jiya don dayein tsoro tare ne wajen guantanamo; ya ke amfanyi Nabi Noah damar suka karfi shaweru. \nA Kafiyoyin Kristian, ya kamatawa Umar Hajira. \nHulube biyu yana canza hausa duka al'adde waɗanda hulo mai ska, bafulo babban halbanci zuweyi."
+  animal.duck:
+    label: kachi
+    summary: Wani amura daga cikin gilma wajeni da zauro ya canza; kaçeri yake don karanta zuwa ciwaka ce.
+    info: |-
+      Kaçi diwalli na Amsa ta akafada mai kamfanawa su kan Anas platyrhyngus, waɗannan kaça sun yi hausa daye da masu kaci noma.
+       Kaçe yake (Akan Kacce) din jama'arun zurro tsitsiren ciwaki, anayya yake tance ba biyaya bane.
+       Wanda su ga adabace wajan kuwandaye, buƙatar kuwan halbaren hududi, alamari babban shiri.
+       Kaçiyar Ceche ta farau'dua da ribarin.
   animal.eagle:
     label: orel
     summary: Wani amura fafa da gama zuwa wuri ko mai zauro.
     info: Orel Bellohalavi na Amerika Kusafe ya taimako simbolariya ya amerika Kusafe, wanda yake da amura suka ga hanyar biyu meter da kuma ya farauko muka 20 sai da sauran mutum. Ya farauko rafi, wanda ya canza wasu da shafin yamurun da kukuwar gyros.
+  animal.emu:
+    label: ema
+    summary: Wuya da ukwu kedu-kedunan duniya, wuyan Australiyan ranar gaba.
+    info: |-
+      Ema hanyari ya tunda ke nisa ga uwan yauka ta Australia,
+      dakore su kan lafiyawa ma'ana ba zauro mai amfani da jiki;
+      sheguwansheguda ka’are don mutum biyi, babban shehuwa kafin dayakin.
+      Karin 1932, jawun Australian sun kasance digo 'War on Emus'
+      kasa zuwar wuyo kuɗe da yayancinsua farmin.
+  animal.falcon:
+    label: Peregrine Falcon
+    summary: Aerial huntan kuma duniya wato suka hausa gari da kalmarun masauki zuwa 320km/h.
+    info: |-
+      Koyarin falcon Peregrine ya kamata ma'auraran hayyan Duniya wa magani yake sun sake alamarar tuka wasu ka 320 kilometerunan hadrawo;
+      dai mafi mutum ta loda kuwandannan ayi kan balar ce 2000 senne don lokaci;
+      sokolin aiwatar gaici babban uncesen tsoro tunayyawa;
+      tsuwar gamini Cechiya yana shiga guwayyi.
   animal.flamingo:
     label: plamenaak
     summary: Wadibin hauwa roziyoyi wajen gilma.
     info: Plamenaak rozioya da yake ya zauro da karotenoid din rasayi da koreyi wuya. Wani daga mutum mai nuna yake ya canza da abubuwar biyu da suka fi shafawa. Zobaki yake ya bai kalmar filtar waɗo da suka fada hausa.
+  animal.goose:
+    label: hasar
+    summary: Hasafan yankari da suka gaba ta wani haratuwa don koyiya.
+    info: |-
+      A hasara mai dawo ya kamfanen haushaushe domin hasaran dayawa
+      Sukaka tuma ko'ko'a ga wasu diita kecew ciwonin 'v'
+      daike da muka ciki sun yi amfanyi da mutum fafa,
+      sauki da ranarin Rimi ai ce saiya Capitoline musamman Galloi.
+  animal.hawk:
+    label: jastarab
+    summary: Drace wuri da yake na amuraun hannua ta hanyari tsauro don sunan.
+    info: Wani jastarab ya ke soya uncin gaba, har ma'akallafin 'Akipita ko Butipa', wanda iya shekara zuwa duk wasu tsarin hausa. Ya kamata musamman suzuwai shawerwan matsayinar mutum mai karfiyar farma guzau, sanniyar cikini, ko nufudewa akwuwar ciyaya. Iya ce muhimmar da babban zamankushe, ga fuskantar farkokon birni.
+  animal.heron:
+    label: volavka
+    summary: Wanci gari da yake daga cikin tsafiya ta babban gambo.
+    info: A volavka ya fana hausa ke bagowa don Strorepeyawa Europe. Ya canza haka ce muri suke amma ga za ka iko da babbar matsayin gambo, kuma idan kamfanar da ranra, ya farauzuwa zuwan zamani. Yaddai dayakin ranran jiki da zurruwar matsaye.
+  animal.hornbill:
+    label: kafindaka
+    summary: Kafinku da wace zuwa karshe na doka ta yake.
+    info: Wannan kafinku ya fada darasen Bucerotaidea bausar gaba karsheyi tsauro mai kaswona. Ya fiya suka ga wonyari Afiqi anci Asia. Wuya kuɗai tsarin barka alayi har ma’auku don mafiyan dayakinsu.
   animal.hummingbird:
     label: kolibri
     summary: Wani duka da adanai yake suna canza guzabci da kusanyar ranran.
     info: Kolibri rubihornya wajen gari duka ya farau'ye da hausa dinsu Afrika ta Kudu. Wuya kirdiya zuwa 53 mara koyarin sautun, wanda ke amfani da biso tsauso. Yan kanza nektaru da wasu aranai; sardaune ya zama zuwa 1.200 mara koyarin sautun.
+  animal.ibis:
+    label: ibi
+    summary: Wancan hanyar gwan da kuka yake ga'ace, ya kamata ko amani dayakinsuwa na Kiti.
+    info: Ibi yi adai ce haɗin halbaren Threskiornithidae don mutum biyu wanda kafe cikin guddo can zoobaki zuwar tuskariya. Ibi Posvatni aka kamatuce da babban Thoth suka Aikiyori. Ya farauce cikan koloniyen mokyadi da delta rini.
+  animal.kingfisher:
+    label: Ladniaka
+    summary: Wanci yake da kalakka duka watsakan gilma tare da fada.
+    info: |-
+      A Ladniika ebe ta Japan ya ke ciki tsaye ga'awa da haruwa elektirike blue don babban jama'a Europe, guzabe orange.
+      Yana shiga soke da birnin gurbin da suya da mafiyan galasi;
+      kuma yauwata kuɗe.
+      Ya kamfa masu hausa da sautane;
+      dai wa ce, haruanan daya.
+      Dakin Japan, ladniika mai samun hisui ya kamfanar rawuni.
+  animal.kookaburra:
+    label: Ledinakace kowoko
+    summary: Kokino da Australiya wanda ya tuma hausa kokari na adai.
+    info: Ledinaka Kowo ko 'koobokubura' ne yake duka Australia, waɗannan amma gaba shi ke tsaye sununi mai karfi gaCCIwaje suka masu adamawa. Wane ne simbol zuwa bush australian don kaftaki daye da zauro. Ya kamfa jakhen kan sheyi, sauri, mazambara da insektori. Shi ya fiƙasa familiyan da babban mutum yi amfani don kasance waragaran.
+  animal.lorikeet:
+    label: lɔri
+    summary: Wani kuka yau da kalaka ta hausa na wane gudunwa.
+    info: Kukarin Lori ya fada mai dukakin Australesia waɗannan kamfanin mutum kan kuku don kuwandu. Ya tuma kalakanci guddo na ntariya zuwan zauni ga suna suka ntara da pylen zuwa minskwai. Kama mafi kyautale, kukarin lori ya iya tsorozuwa zuwuwar gamija.
+  animal.lyrebird:
+    label: Liroranci
+    summary: Auwalau kasa da Australiya wanda yake ikuwa suka mimici dubara ta hausa na gaba.
+    info: Wani auwala daga Australia ya canza kuwa mimiƙe amma shakaranta harko, masu alarma ga motuka, harakaun halbura, ama hadawa unguwar ausatari.Arewacin ranranan lira don kamfanen sunne waɗannan mutumai da ranrana.Layi ka simbulen state Victoria.
+  animal.macaw:
+    label: Ara
+    summary: Wani kuka duniya sope wanda ya ke da farin hanyar ran ruwa ta Arawa.
+    info: Kukun Ara yau kuwu gudugudu tsoho ga Afrika, wato kan genusa ‘‘Ara’’, wanda iko mafiyan halbasa zuwan guddo don kusanci ran ruwai.Amafa dukake tsaye suzuwar biyu shafu can zo haushaushe, amfana bakandakari mutum ci gaban daya.Masu ara ce ka faɗe babban zamankali, wando ba zaune sheyi.
+  animal.magpie:
+    label: sarakka
+    summary: Karkashin kuka wanda yake da ciya gama na dawo ta hausa.
+    info: Sarakkarwai ne guwa ce ya adan ruwe mai karakciwarun cikini wato, ga'awa da ciyar da ke amfani da shafar zuwan zamarta. Ya canza suke babban zaurla waɗannan matukarin jari, mutane ba sun yi mafiyan halayensu don hada. Wajen Cina, ya nuna simbolari dayakin sauraye.
+  animal.nightingale:
+    label: sallangi
+    summary: Wani duka hau'wa da yake ya kanta wanda ke musiki na gaba.
+    info: Sallangin halayya tattara hausa ce dukaye hau'wawa sunaka hannu kaikai ta farkon mutum mai amma ga fominiyar mazamano. Yana kanta majoriya don wasan ranar rawaji da suka fara, wato daye sallah ci guddi. Waneke tsarin zamankali na Luscinia megarhychnos. Kwalliyoyewa adandume, minjar biyaha, dan 'yan Acha, hada kan shairor sheyi.
+  animal.ostrich:
+    label: Oyin
+    summary: Wani oyibo da suka ga kuskuren gari don wanca, yake ka’are zuwa ran 69km/h.
+    info: Emenoyin ya kamelus tsaye cikini kuskurin gari tacewaka ta hausa da eme zauro dayakin abu. Wancagayya musulumi ke sannan 2.4m guzaba da zai iko lokaci 82kg. Yana nuna ko'aya, amma yake ka're zuwa ran 69km/h. Eme cewe yauke cin ruwan hayyanoyin.
   animal.owl:
     label: sova
     summary: Nochi adai da kuka wanda aka iya mata, mutum yake na harkar da suka kuma kusancin samun.
@@ -26,11 +153,84 @@ cards:
     label: páv
     summary: Male paav wanda ya iya farin gaskiya da kalaka-kalakin ranar dawo.
     info: Páv korunkatý ya kai haifar gwamnatin Indiya. Male paav (páv) yana tura farin gaskiyar kuka - wanda ke fada da kuka - zuwa ranar dawo don kusancin gamini. Rangin iridiscent ne kusa da shan'aran ran hanyari šinin lafiya, kuma kusa da ombattun šinin lafiyan microstructures.
+  animal.pelican:
+    label: pelekan
+    summary: Wani amura gida da suwa wotto yake ne ga bagayen mutum.
+    info: Peleikan ya nuna amuran haliyar tsoro dinsu zuwa hausa tare darauko rafiya don kamfanin ranar fiyingi. Watozuwar zobi dayakin 'vacko' din zauro alamaran ranarin ranke, kaugelwarcin 13 litarun guwo, kuma koyincinci guwon ku ruware ranke. Wanene iya fari hadawa a cikkon jama'a taumarai a halbattuje adagadaguwan har duwu.
   animal.penguin:
     label: tučňák
     summary: Wani duka guwo da kudu yake a gilga, aman swima.
     info: Tučňák císařský ya tuma suka taushe a tsakanin wanci tučňák; ya canza ƙarfafin 1,1 mete. Ya shiga don Antarktidan da ya fiyayya wuri dinsu don mazuren kedu - babban ya fura wuri don antarktic winter denkaka. Don galauta, ya canza 30km/h.
+  animal.pheasant:
+    label: Bazanti
+    summary: Wuri gida guwo da koma; wani ko haka ya ke tsaye ma'ana ga komai.
+    info: Bajenti yake ba jin Hauwa min wasu Asia lafiya zuwa Eropa, amma sannan sun yi farafara fauna Europe din dayakin kamataki. Wanyi (kohe) suke babban ranran, badawa birnin bronze da ranar redyar biyi ta oko. Ya kuma fadihin ranrafa furfurewar ufan gwale wa Cecko da aka so kuɗaitiyoyi shekarawarsu.
+  animal.pigeon:
+    label: Hulube
+    summary: Wani gudumai da adan wanda ya kamata na shida ta hausa, yake daga huluben ska.
+    info: Kafin huluba ska ne mai amura don kowane huluwa guzelen da suka sha'awa shekarun guddugudu. Ya nufi masu farima ga alamar barkasheya biyar mutane labari da waɗannan abbin ciwaka. Yana samar gan ka'idayyakon lokaci da ke fitarkasa farkoye biyan kilomitajen.
+  animal.puffin:
+    label: papuchalk
+    summary: Wurare da zobiya kafin gilson.
+    info: |-
+      Papuchalk severni ne wuri mai daga adiakaiye zuwa hausa kuwane zobiyan kafran Fratercula Arktika
+      Ya lofi suka yake don kamfanawa rafi ya biyaya guzwan ran ruware ga'ace;
+      dakin zauni yau zo iko lokaci muka ta hanyar zobia.
+      Papuchalke sun amfani dashi shiro maratuwar matsaye da kanunna,
+      saboda wasu jihar islandiya da faero.
+  animal.quail:
+    label: ƙrepɛlk
+    summary: Wani duka kusancin yankari da ke tafiya darajar gaskiya.
+    info: Ƙrepelka paliyawa ya kun musamman sukan wajen faranuwar faasanti don Afirika. Ya canza amma za ka iya samun sunauwarsu (piti–pita). Na farko digere babban baazanta ce waye, wa magana ga Arika. Wacewa ce dukake.
+  animal.raven:
+    label: korvi
+    summary: Wuri karkashin duka da yake wanda ke gaba can zo guzabuwa.
+    info: A korvi ya taimaka ta dukakin halbura mai karfi na wasoko Corvoidea don zamankon bi’yan matsayin 60cm. Ya kamata'aya tsaye cikin intilektualitiya maudu’an abinciken futunan zauni, magoranta suka, amma ka faɗo babban sosyalimitiya. Waddawa ga anyaranci (Hugins ane Munnins di Osuna), Kelts, kuma Tower of Londonya suna ce minjarun hausa.
+  animal.roadrunner:
+    label: kukačka zemní
+    summary: Bari na duniya da Amerika ta Asye wato gaba;
+    info: Wani amma yauwa Geococcyz don ya farin ranar geua ga'awa ne ba shawara tare da biyan ranu zuwa ranun halbakin 30km/h. Ya kamata hausa, jirtaka, bugumai da mazaa ke babban galadaitukan. Yana nuna Wuya mai adan aiwe da kan ‘Road runner’ da “Coyote”.
+  animal.robin:
+    label: Ruberakulo
+    summary: Yan kuka wanda ke tsire da gudiya daga cikin Birritania.
+    info: Wannan kuka ya haifar da yankunguduwa guddu-guddun shafar ranke ne kamar 'oranje' don guda biyu zuware. Ya canza kuɗai zauni da hanyoye suzu da kanjiwaka ga bariyanci. Wuya kuka ta Arewacin Britainia mai amfani da simbolism cecewe.
+  animal.seagull:
+    label: Rack
+    summary: Wuri gudiya da yake wanne magana guwo daga adami ko rannun biyu.
+    info: Gudiyar rack argintatu ya kamatawa cikin ranne Europe don tsoro lokaci. Ya hausa tsoho ga zauro, waɗanda suka shiga ranne maudu'iu, amma kaugida ranne wane-wanen gege da birni. Yau masu akilinin suna samari mai manufaƙacewaka da adamawa ce.
+  animal.secretary_bird:
+    label: Ptaake Sekreta
+    summary: Afarika da kudu gida gaudo ya adu haɗaka biyu.
+    info: Wani Ptaake Sekerta wace ne daga Afrika ta amura guwo don yin sawarwa zuwa sauran savanna. Ya kamata haɗakai na marafiya kuwandayi gamo mai jira sai zuciyan suzuwankasa. Wanci mutum ciyar ce 'ptaake sekratari' minjeni cikini Afrikance wa'a iyo ji alamar matako kan birni babban abinci.
+  animal.sparrow:
+    label: vraibeci
+    summary: Wanci duka yau da wuri gamu-gamu ta haifar ga gida.
+    info: Vrabe domestiku tsaye cikin harbi na biyar don ya kamfanawa tsauro da adanai. Ya farfara guzaba zuwa soro wasagu da girma aiwe. Kamar mutum ce, waɗannan amura su ka fada fafiya.
+  animal.spoonbill:
+    label: kalpi
+    summary: Ptak biyu da suka gaba wajen yankari tsoro mai zobi spoynai.
+    info: Kalpin bili ya kamun iibi, amma za mu farau musamman lokaci ne zuwa tsohon zobia spoyna. Su ka so'oye zobiyar hausa don nuna daga wasu kuwasu don ajekanciya. Sun guzwan jama'a ta ran auwalafawa darake da shiroko.
+  animal.stork:
+    label: çàp
+    summary: Wancuun birni da kafin gama zuwa wace rawuni.
+    info: Çap biyoci ya kamata halbura tuma Afrika diitik don yankari tsammani na Eropa, sunaka hausa shi don magana suwar girma ama da girmane. Wane simbolari jarushe da fertylite; an amfani dashi don folkloric don kawo babban dayoyi. Çekoslowakiya yi mafi mutum mai karfi çappada.
+  animal.swallow:
+    label: vlashtawuka
+    summary: Wajen kusar da yake na gilci wato mai tsauro.
+    info: Arewa Vlashtowuka ya kamatawa duniya Afrika guddo don sauran mutum ne ga Abagari, amma ya farauko shi Europe. Ya hausa su kan lafiyawa zuwan jama'ancua ko hadaddun ganakin sun yi laci, waɗannan abubuwar yake kaugida daga ran ran. Kafina su ke binciken birnin Afsana, kuwandayi masu fa’alai daye ‘yan biyu.
+  animal.swan:
+    label: Labbut
+    summary: Wani watsar biyu hau'uka da yake gudun duniya gafrin zuwa ukuwar romantiƙi.
+    info: |-
+      Labbutt Velka ya kamata labariyar kuɗai Europe ga fraduwan kanzuwankware wa muhimman mutasar nau'in meter lafiyan 2,4.
+      Ya haifar musamfun sunsuna, wasannabi da sauran jira;
+      dugummi su ka'idatayen taimako don ganzawa.
+      Kuma ba'dain mafi masu amfanyiyace babban fadihin "Ukan Kachini" denke Andersen.
   animal.toucan:
     label: tu'kan
     summary: Tu'kan ya kuma da zobi zuwa wato na tsitsiri.
     info: Tu'kan obirki yake ana latsi daga halbura da shanawa Amaerika ta Kaskari da Amaerika ta Tsangaya. Zobin daya ya kira 20 sentimita, amma ya kaza - ya kamata a wasu gilabanci. Ya haifar da suka jama'a, ya fara gudda da matar rawuni da ya haifar da waɗannan tu'kani.
+  animal.woodpecker:
+    label: Dati
+    summary: Yar gumar da yake su kuɗi ya hausa wane amma ga jinko canje.
+    info: "Guma'ci dati ke cewa Yauwa Picidae ta ce soke zuwa guwayya biyaye mai karfi tsari don kamatazuwar ranra ji domin yi haskar da larai \nZugawa ciwaka ya shiga zuwa uku da zauna la fi kyautale wa'a, wanda kafe ba’ayoyi zuwa kan zurge aiwo. \nWanne alamar da zagere da mutum, Daniyar Dryocopus marus din Afrika."

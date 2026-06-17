@@ -2,42 +2,209 @@ lang: tr
 pivot: false
 title: Meyve
 cards:
+  fruit.ackee:
+    label: akkeli
+    summary: Kızıl renkte tropikal bir meyve ile besleyici değer taşıyan sarı arillerden oluşur.
+    info: Akki (Blighia sapida), Jamaika'nın ulusal meyvesidir ve adını Kaptan Bligh'ten alır (1793). Yalnızca olgunlaşmış sarı aril bölümleri yenebilirdir çünkü henüz olgunlamamış veya aşırı derecede çürümüş olanlar toksik maddeler içerir (hipoglisin A). Akkeli tuzlu balık birlikte Jamaikanın milli yemeğidir.
   fruit.apple:
     label: elma
     summary: Yuvarlak kırmızı ya da yeşil tatlı ve ekşi meyve.
     info: Elma, evcil elma ağacından (Malus domestica) gelen bir meyvedir. Dünyanın en çok yetiştirilen ürünlerinden biridir. C vitamini ve lif içerir; 7.500'den fazla çeşidi vardır.
+  fruit.apricot:
+    label: armeniaka
+    summary: Tada ekşi-sade ama suyu bol olup turunc renkli meyve.
+    info: '{"hint":"turunc rengli küçük bir kayısı türü","info":"Kayısının anası olan Prunus armeniaca Orta Asya''dan gelir.\nÇek Cumhuriyeti''nde ve Avrupa''nın diğer bölgelerinde yetiştirilmesine rağmen en tatlıları Türkiye ve İspanyola''dandır. \nBeta karotene ve vitamin A açısından oldukça fakirdir.\nKurutulmuş kayısi topları sağlıklı bir atıştırmalık olarak tercih edilmektedir."}'
+  fruit.avocado:
+    label: avoğado
+    summary: Çörek otu tadında tropikal bir meyve; guacamoledaki temeldir.
+    info: Avoğado (Persea americana), Meksiko'da ve Orta Amerika'da köken alır. Bitki bilimine göre bir meyvedir ama mutfağında salata gibi kullanılır. Sağlıklı tekli doymamış yağları içerir (örneğin zeytinyağı). Dünya geneli olarak sağlıklı beslenme trendinin parçasıdır; avoğadowla yapılan tostlar çağdaş kafeterya kültürünün simgesi halini almaktadırlar.
   fruit.banana:
     label: muz
     summary: Sadece tatlı etli sarı bir tropikal meyve.
     info: Muz, bananaceae familyasından gelen bir bitkinin meyvesidir. Potasyum ve doğal şekerler açısından zengindir; bu da hızlı enerji sağlar.
+  fruit.blackberry:
+    label: çilek
+    summary: Gürgünde yetişen siyah-mor renkte küçük tohumlu meyvedir.
+    info: Çilek (Rubsus fruticosus), gürbüz fidanlı bir bitkinde yetişir ve karabiber renginde meyve verir. Çevrelerimizde doğal olarak çalılar arasında ya da ormanların kenarlarında büyümektedir. Yüksek dozda lif ile A,C,K vitaminleri içerir.
+  fruit.blueberry:
+    label: blueberry
+    summary: Koyu mavimsi renkte küçük bir meyve; antioksidanlardan dolayısıyla süper yiyecek olarak bilinmektedir.
+    info: Çilek (Yabanıl olan Vaccinium myrtillus ve bahçede yetişen V. corymbosum), antioksijanlar bakımından çok zengindir. Antosiyaninler çiğe benzer şekilde bu meyvelerin koyu mavi rengini vererek güçlü bir抗氧化特性 sağlar. Araştırmalar bilişsel fonksiyonlara ve kalp sağlığına olumlu etki göstermiştir.
+  fruit.cantaloupe:
+    label: şekerpınavi
+    summary: Siyah-mor renkte kabuklu, yoğun turuncu iç kısmı bulunan bir karpuz çeşididir.
+    info: Şekerpınarı kavunu (Cucumus melo var.canteloupensis), Orta Doğu'da köklü bir meyve türüdür ve ismini Roma yakınlarındaki Piskopos Evi olan Şarköprüsünden alır.
   fruit.cherry:
     label: çilek
     summary: Çiftler halinde büyüyen küçük yuvarlak kırmızı meyve.
     info: Çilek, yazın popüler bir meyvesidir ve antioksidanlar ile melatonin içerir; tatlı ve ekşi (visne benzeri) türleri vardır.
+  fruit.coconut:
+    label: Coconut
+    summary: Beyaz etine sahip kalın kabuğuyla tanınan büyük bir tropikal meyvedir.
+    info: '{"info":"Tropikal bir meyve olan Cocus Nucifera\''nın kabuğunu soyduktan sonra içinden çıkan lifli maddelerle su ve yağı elde edilir.Cocun Nutifera bitki biliminde ceviz olarak sınıflandırılır ama aslında bu adla anılan şey çerezdir.Kabuk içinde bulunan doğal iyonik içme suyunun yanında,Cocun Nutiferasuyu ile hazırlanan yoğurt benzeri besleyici ürünler de vardır.Süngeri gibi emicilik özelliği taşıyan liflerden yapılan materyaller ise özellikle Asya ülkelerinin geleneksel mutfağını oluşturan malzemelere katkı sağlar."}'
+  fruit.cranberry:
+    label: Cranberri
+    summary: Amerika mutfağının önemli parçasıdır.
+    info: Kırmızı renkte küçük ve ekşi bir meyvedir. Amerikan Güzelliği Bayramında geleneksel olarak kullanılan cranberry sosunun ana maddesini oluşturur. Proantosianidipler içererek böbreklere zarar verebilecek baktelerin tutunmasını engeller.
+  fruit.currant:
+    label: çilek
+    summary: Buhar şeklinde büyüyen kırmızı ya da siyah mevre.
+    info: Çilek renkteki küçük meyvelerdir ve buhar gibi demetlerde büyür. Siyah çileğin içinde diğer tüm meyrelere göre en fazla vitamin C vardır. Siyah çilek İngiliz içeceği Ribena'nın temel aromasıdır ayrıca Cassis viskininde kullanılır.
+  fruit.damson:
+    label: damsus
+    summary: İngiliz kırsal bahçelerinde tipik görülen siyah renkte dammus.
+    info: Damsus üzümü (dammun) küçük ve deri mavi-siyah bir erik türüdür. Adı Suriye'nin başşehri olan Halep'ten gelir; bu meyve Avrupa'ya buradan ulaşmıştır. Ham olarak çok ekşidir ama reçellerde harika olur.
+  fruit.date:
+    label: date
+    summary: Tatlı koyun renginde elips şeklinde bir meyve olan date palm'in meyveleridir.
+    info: '{"hint":"tadağın meyvesidir","info":"Date Palm"}'
+  fruit.dragon_fruit:
+    label: drak meyvesi
+    summary: Beyazesmerdi kıvamlı tropikal bir kaktüs meyvesidir.
+    info: Drak meyvesi (pıtagaye), Meksiko ve Orta Amerika'dan gelir. Yoğun pembe kabuğu ile siyah tohumlu beyaz etli yapısıyla çok estetiktir. Tatlı bir tadına sahiptir; antioksidantlar ve vitamin C içerir.
+  fruit.durian:
+    label: mangustana
+    summary: '''Tropical meyve kralı''; güçlü kokulu büyük tüylü bir tropikal meyvedir.'
+    info: Mangostane (Durio zibetinus), 'tropikal meyvelerin kralı' olarak biliniyor. Güçlü kokusu bazıları için itici iken diğerleri için cazip olabilir ve birçok Asya otelinde yasaktır. Et kısmı kremsi renkte tatlıdır ve karmaşık bir tadına sahiptir – badem gibi aromalarla bira zamanlarda peynire benzer notalara ulaşan tada sahip olduğu da söylenebilir.
+  fruit.feijoa:
+    label: fejoa
+    summary: Oval şekilli küçük yeşil bir meyve olan fejoa'nın iç kısmı çok yoğun aroma içerir.
+    info: '{"info":"Fejoa\"ın aromatik etli meyvesi oval yeşil bir görünümü vardır ve bu özellik ananas gibi kokar. Güney Amerika kökenlidir ancak Avrupada bilinemese de Yeni Zelanda''daki sonbaharda popülerdir."}'
+  fruit.fig:
+    label: Şeftali
+    summary: Elma şeklinde fig ağacı tarafından verilen tatlı içecekli ürün.
+    info: Fig (Latince Ficus carica), en eski kültürlenmiş meyvelerden biridir ve bu konuda kanıtlara binlerce yıl geriye gidiyoruz.
+  fruit.gooseberry:
+    label: ağ rest
+    summary: Büyük yuvarlak saydam bir çilek türüdür.
+    info: Ağrest ( Ribes uva - crispa ) Avrupa'nın ortasındaki bahçelerde tipik bir meyvedir.
   fruit.grape:
     label: üzüm
     summary: Sarmaşıklar üzerinde kümeler halinde büyüyen küçük yuvarlak meyve.
     info: Üzümler yeşilden koyu mor tonlarına kadar çeşitli renklerde olur. Üzümler taze olarak yenir, incir gibi kurutulabilir veya şaraba çevrilebilir.
+  fruit.grapefruit:
+    label: grayfrut
+    summary: Bitter tatlı limonlu büyük meyve
+    info: Grayfrederik (Citrus paradisi), portakal ve vişne arasında bir hibrittir. Yediğincilikte巴巴多se'da tanımlanmıştır. Eflatun renkteki gripler lüpezen içerirken kırmızılar ise beta karoteni içermektedir.
+  fruit.guava:
+    label: meyve
+    summary: Yoğun kokulu beyaz veya pembe etli tropikal bir sebze.
+    info: Ananas kabuğu vejetatif bir meyvedir.
+  fruit.jackfruit:
+    label: jackfruit
+    summary: Dünyanın en büyük yaprağı olan bir bitkidir.
+    info: Jackfruit (Artocarpus heterophyllos), en büyük ağacın meyvesini verir ve bu meyveler 35 kilogramdan fazla olabilirler. Tropikal Hindistan'dan köken alır ve Endonezya'ya kadar yayılmıştır.
+  fruit.kiwi:
+    label: kiwi
+    summary: Yeşim rengine sahip kahverengi kıllı meyvesi; vitaminlerle doludur.
+    info: '{"hint":"mavi yeşil etli küçük kahverengi tüylü meyve","info":"Kivi (actinia deliciosa), Çinde yang taoyla ya da çince höngözgülü olarak bilinen bir ülkedir. Yeni Zelanda ticarileştirmiş ve ulusal kuşa göre adlandırmıştır. Portakala oranla çift miktarda vitamin içerir. Et kısmı canlı emsalsidir; altın renkli (sarısı) varyeteler vardır.'
+  fruit.lemon:
+    label: limon
+    summary: Ekşi sarı sitruk; vitamin C kaynağıdır.
+    info: |-
+      {"info":"Limon Hindistan'dan gelen ekşi bir sitrik meyvedir.
+      Vitamin C ve sirke aside açısından oldukça fakirdir.
+      Mutfakta, içeceklerde, makyajda ve temizlik ürünlerinde kullanılır.
+      Sitriksitranın aroması (sitrus limon), karakteristik lime kokulu lif içerir."}
+  fruit.lime:
+    label: limont
+    summary: Büyük değil ama önemli olan yeşil ekşimeli meyve; Tropikal tarımın ana bileşenidir.
+    info: '{"info":"Limoncuk bir tür küçük yeşil aromatik turunçgillerdir ve ekşi suya sahiptir\. Meksikalı\THAİ\Vietnam mutfağı gibi sıcak iklimli ülkelerin yemeklerinde vazgeçilmezdir\. Limon kadar fazla vitamin C içermediğine rağmen güçlü kokusu vardır\. Denizci hastalığına karşı koruma sağlar çünkü içindeki vitamin C sayesindedir."}'
+  fruit.longan:
+    label: langon
+    summary: Liç ile ilişkilendirilen küçük gri renkteki tropik bir meyve.
+    info: Langon (Dimocarpus longgan), Çin'den köken alan bir tropikal ağacın meyvesidir. Adı 'lang' yani ejderha ve 'yan' yani göz kelimesinden gelmektedir çünkü siyah çekirdekli şeffaf etine sahiptir.
+  fruit.lychee:
+    label: lychee
+    summary: Küçük kırmızı tropik bir meyve olan lychee'nin içinde şeffaf doku bulunmaktadır.
+    info: Lychee (Sin Lichius), Çin'den gelen bir meyvedir ve tropikal bölgelerde yetişmektedir. Kırmızımsı kabuğu vardır ki bu kabuk soyulduğunda içteki beyaz renkte saydam et kısmını gösterir.
   fruit.mango:
     label: mango
     summary: Sarı-turuncu renkli suyu boluğuna tropical bir meyve.
     info: Mango, "tropical meyvelerin kralı" olarak bilinen Mangifera indica türüdür. Vitamin A ve C bakımından zengindir ve Güney Asya'dan gelmektedir. Burada 4000 yıldır yetiştirilmektedir.
+  fruit.medlar:
+    label: midye
+    summary: Jabuklara benzer küçük koyu renkte midye meyve.
+    info: Midye meyvesi (Mespilous Germanica), orta çağlardan beri yetiştirilen bir bahçe bitkidir. Midye meyveleri yenebilirden önce 'blottage' adı verilen süreçten geçirilmelidir ki bu da hasat sonrası yumuşayana kadar beklemek anlamına gelmektedir.
+  fruit.melon:
+    label: melon
+    summary: Oranji, yeşili ya da beyaz iç kısmı olan tatlı bir meyvedir.
+    info: '{"hint":"turuncu ya da yeşil etli büyük yuvarlak veya elips şeklinde meyve","info":"Karpuzun türleri arasında kantaloğlu ve honi dew yer alır."}'
+  fruit.mulberry:
+    label: mulbert
+    summary: '''Beyzbol'' oyununda kullanılan topun adıdır.'
+    info: |-
+      Mulberi ağacı (Morus), yaprağı bal arısının besini olan bir bitkidir;
+      morfolojik olarak beyaz, kırmızı ve siyah olmak üzere üç çeşidi vardır,
+      siyah türü en tatlıdır.
+  fruit.nectarine:
+    label: necktari
+    summary: Tüyü olmayan yumuşacık elmaların adıdır; suyu bol ve tatlıdır.
+    info: Necktarına (Prunus persica var. nucipersica), yumuşak kabuklu bir elma türü doğal olarak meydana gelen bir varyasyondur. Elmadan tek farkı cildinin daha düz olmasıdır. Tada benzerlik gösterir ama yapısı daha dayanıklıdır. Adını tanrıların içtiği nektardan alır ve isminden belli olduğu gibi mükemmel görünümlüdür.
   fruit.orange:
     label: portakal
     summary: Yayvan bir sitrus meyvesi ile aromatik turuncu kabuk.
     info: Portakal, Güneydoğu Asya'dan köken alan ve bugün dünyada yaygın olarak yetiştirilen bir sitrus meyvesidir. Vitamin C açısından zengindir ve sıkça suyu içilir.
+  fruit.papaya:
+    label: Label
+    summary: '"Tropikal bir elma türü olan mango, kırmızımsı turuncu renkte etli bir kabukla tanınır"'
+    info: '{"info":"Mango (mangifera indica), Güney Asya kökenlidir ve mevsimsel olarak tatlı bir içeriğe sahip olur."}'
+  fruit.passion_fruit:
+    label: passionfruit
+    summary: Fasulye benzeri tohumları aromatik jel içinde bulunan, mor çizgili kabuklu bir mektupta bitirilen tütün ürünleri.
+    info: Mısır çiçeği (Passiflora edulis), Tropikal Güney Amerika'dan köken alır ve adını misyonerlerin çiçek üzerindeki İsa'nın azabı sembollerini fark etmesinden almıştır.
+  fruit.peach:
+    label: şeften
+    summary: Yarı opal pembe-sarmaşıklı elma benzeri yapraklı bitki
+    info: Şeftali (Prunus persika), Çin'den köken alan ve ölümsüzlüğün semboludur. Yumuşak tüylü cildi karakteristik bir özelliğidir. Beyazlarla sarı türleri vardır; narince adlı tüylerden arındırılmış düzgün varyasyonları da mevcuttur.
   fruit.pear:
     label: erik
     summary: Slizirten şekilli, tatlı ve yumuşak bir meyve.
     info: Erik, elma ağacına yakın bir akraba olan erik ağacı tarafından verilen bir meyvedir. İnce, suyu bol etli yapısıyla bilinir ve lif içeriği yüksektir; yüzlerce çeşidi vardır.
+  fruit.persimmon:
+    label: tommek
+    summary: Tatlandırılmış domates benzeri turuncu bir meyve.
+    info: Kakı (Diospyros kaki), Çin ve Japonya'dan köken alır; Türkiye’de genellikle 'Japon kakısı' olarak bilinir. Olgunlaşmadığı zaman acıdır ama tatlıdır. Vitaminler açısından oldukça faydalıdır.
   fruit.pineapple:
     label: ananas
     summary: Sivri bir kafası ve sarı eti olan tropikal meyve.
     info: Ananas Güney Amerika'dan köken alır ve şimdi dünyadaki tüm tropikal kuşaklarda yetiştirilir. İçerdiği bromelain enzimi sindirimde yardımcı olur.
+  fruit.plum:
+    label: şeften
+    summary: Mor renkte küçük yumurta şeklinde taşlı meyve
+    info: '{"info":"Şeftali (prune), Avrupa''nın ortasında temel bir meyvedir\. Slavutec rakısı ve şeftalili reçineler bu türden elde edilmektedir\.(şeftalık damıtımı) gelenekseldir\(Avusturya-Almanya''dan gelmektedir")."}'
+  fruit.pomegranate:
+    label: erik
+    summary: Kırımızı renkte olup içinde tatlı birçok tohum bulunan bir meyve.
+    info: Erişte mevzisi ve Akdenizi'nden gelen Granat elması (Punica granatum), saydam kırmızı etli kabuğunda binlercesiyle tohum içerir.
+  fruit.quince:
+    label: şeftali
+    summary: Elmadan türemiş sadece pişmiş şekilde tüketilmesine uygun sarı renkte aromatik meyve.
+    info: 'Şeftali (Pseudocydonia sinensis) elma ve armut ile yakından ilişkilidir; ham halde serttir ve ekşi bir tadı vardır. Her zaman termal olarak işlenmiştir: şeftalye reçeli (membriyo), şeftale sirkesi veya viski gibi içkinler hazırlanır. Reçeller için uygundur çünkü yüksek miktarlı pektini içerir. Avrupada en eski kaydedilen reçelin yapımında şeftalle kullanılmıştır.'
+  fruit.rambutan:
+    label: rambutan
+    summary: Liciye benzeyen kırmızı tül yapılı bir meyvedir.
+    info: Ramütananın (Nephelium lappaceum), Malesya'da köken aldığı bilinmektedir ve ismini Malezye dilindeki 'rambut' yani saç kelimesinden almıştır.Renkli kabuğu yumuşak tüylü çıkıntılardan oluşur.Su içeriği saydamlıktır, tat olarak liken benzerdir.Vitamin C ve demirden oldukça faydalıdır.
+  fruit.raspberry:
+    label: Çilek
+    summary: '"Yaz bahçıvanlığı sembolüdür"'
+    info: '{"info":"Karaçöpsefası (rubusidaeus), birçok küçük meşe benzeri parçasından oluşan birer yapraktır.\nPaspaslı ve yetiştirilmiş olarak yetişir; hasat yazın sonbahar olurdu yapılır.\nC vitamininden dolayı bol olan bu bitki aynı zamanda kalay içeriğinde de yüksek seviye sunmaktadır.\nKarabiber rekoru da dahil olmak üzere geleneksel tatlar arasında yer alırlar."}'
+  fruit.starfruit:
+    label: cariyan
+    summary: '''Slicing creates stars''-ı oluşturan sarı tropikal bir meyvedir.'
+    info: Cariyana ya da yıldız mevsimi olarak bilinen Averrhoa carambola Güney ve Doğu Asya kökenlidir. Dilimlendiğinde mükemmel bir yıldızk şeklinde görünür bu yüzden 'YILDIZ MEVSİMİ' adını almıştır.
   fruit.strawberry:
     label: çilek
     summary: Yüzeyinde tohumlar bulunan kırmızı kalpli meyve.
     info: Çilek, gül familyasından bir sebze türüdür. C vitamini ve antioksidanlardan zengindir; yazın hasat edilir ve tatlı kokulu olur.
+  fruit.tamarind:
+    label: tamrin
+    summary: Kahverengi bir kabuğu ile tatlı ve ekşi içerikli olup,Thay mutfağına temeldir.
+    info: '{"hint":"kahverengi kabuklu ve ekşi içeriğe sahip meyve (Tamarhindu indica)","info":"Tamerhindevi (Tamirhindu indica) Tropikal Afrika''dan köken alır; günümüzde tüm dünyada yetiştirilir.Tatlı ve ekşidir; Tha pad thai''sında, Worcestersire sosunda Hindistan''ın çorbası gibi yemeklerde kullanılır.Sözcük Arapça dilinden gelmiştir: Tamur hindiy= Hint elması demektir.Fosforik aside,B vitaminleri ve Demirden fakirlştir."}'
+  fruit.tangerine:
+    label: pırasız mandalina
+    summary: Kolay soyulan tatlı portakallıdır.
+    info: Püreminfleşi (Citrus reticulata), kolay soyulan ve Çin'den gelen küçük bir portakaldır. Yeni Yıl'ın sembolüdür. Türkiye’de Noel sezonu meyvesi olarak biliniyor.
   fruit.watermelon:
     label: su armutu
     summary: Yeşil çizgili büyük bir meyve ve kırmızı eti ile tanınır.

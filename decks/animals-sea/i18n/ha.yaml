@@ -2,6 +2,50 @@ lang: ha
 pivot: false
 title: Matsayi da suwa daga adamiyoye
 cards:
+  animal.anglerfish:
+    label: morƙar da yauka
+    summary: Rybi hadaddun gwaji da illicium.
+    info: |-
+      Morƙar da yauka daga Lophius ya jini wajen gari adai' aiwuka guzwa mai abu kaikarin mutum 1000 mitta.
+      Wuya ce amfani da illicium gaugua lafiya zuwa kamfanawa don lakaici tsaye da wuyan kuɗo,
+      wuya ke cewa tana zauro don hanyaya;
+      karon babban hausa ta fada wa'a suke da wuya yi biologi.
+  animal.barnacle:
+    label: rak svetelnoz
+    summary: Korishi minci waddance skauna da lope.
+    info: Rake swatano wanda yau da karkashin cirripeida; ya kamatawa ciment watane shilasha don skaun hannua, barka gari da whale. Ya zaici ne ba tankware suka wasuwa zuwa plankton ku faɗawa duk kaifiya tare da 'foot' sun ga won. Larvae sun hausa duwanciya, mutum hanyar jiki da kekwaike wa ce rak suka ji amfani.
+  animal.beluga_whale:
+    label: bélugw
+    summary: Wajen beluga ne wani daraja duka da adai na sauté ya artikuwan zuware haduwar hududu.
+    info: Bélugwa ne wani daraja duka da adai na sauté ya artik ayakokin gilma, Delphinapterus leucas. Bulbos head yake (melone), kafe so'oye lokacin eholocation. Ya kamfanar kyautale suka ga hanyari dayakin soro, wanda ke fitur don fahimanta shafawa.
+  animal.blue_tang:
+    label: Kanic Modry
+    summary: Ribi birinin hausa indopacific; star ran film Haliyar Nemoy.
+    info: Kanic Modriyau Paracanthurus Hepatua ne ya ribi yake da wajen hanyar Indopasifik lokacin koralio don ruwa gida zuwan mutum biyu. Film 'Haliyar Dorayya' ce ka idari masu shawerwarin kuwandannun duniya, amma kananciya suzuwai. Ya canza wasu zauro mai karfi da kalmaro.
+  animal.carp_river:
+    label: karpa rini
+    summary: Riba gidankwatta ga wasaguwar ran auwu da suke da runguduwan ran
+    info: Carpus wanda kaikai da Aisia na samun mutum ta hausa da Europe ya fada faɗuwa. Wannan karpar yana iya tafiya shi don nuna hanyar gaskiya, wa'andakari kallo. Yauka simbolari Natalia na Czecy, amma marafin tsarin mataki yake sun yi kan kyadi.
+  animal.catfish:
+    label: sumec
+    summary: Rybaren zamaniya sai matsaye, kamfanjin ci cin gida zauro.
+    info: Wuya Sumec da kusanyi na Eropa ya sautin yamuran wuyan daga aduwa, kuwandarawa biyayun mutane zuwa 2 mitsaa ta ushaya tana ga 100kg. Kusan gaskiya al’arko (matsaye baarbela), waɗannan matsaye sun ce organen haskarai tsarin jiki. Wuya ke cikankudu suka hausa farau’din zarema da zurge, wajene noka lokoko.
+  animal.clam:
+    label: tridakni
+    summary: Kamaruwa yaushe da aka loko ce ji baya ta sauri.
+    info: Tridakni giga ya kamaruwa yau da alama suka ga'acewaka wajan biyi zuware mutum mai wasuwar hausa daga adanaiya meter lafiyar hadi ke kilogramme 200 don nisa. Ya shigiyar zamankari fotoniteneti (Zooksanshella), zaurobi plasti. Yana iko lokaci abin ki ci wonne 100 tasi. Kafin jiki waɗannan kamaraun suna amfani fafa.
+  animal.clown_triggerfish:
+    label: gilaun
+    summary: Rana tropical la gauni biyu da sauri da abubuwar ranau.
+    info: Klaunkan gilfan da suwa wajen yankari na hausa ce soinai ya canza mai kamfa zuwan jama'ar baustu don mutum dan tafiya, wanda ke cikina famewa Balistidae, sunaka tsitsiren galautelwada na samuran ranau. Ya faraushe fafiyoyi kan zurroku da zauro aiwe don kuɗare labarin babban ranau da golewu. Sun ciyar gan taushe 'triggerfish', minjen akko'o sai amfani da adakken zamanyo mara iyo shafinkace.
+  animal.clownfish:
+    label: klaso
+    summary: Riba kan oranjin yake da saraukuwan kuwa ga nisan.
+    info: |-
+      An klaso wanda yake da sauran masu gaskiya na adaiyoyi tsauro mai amfifiriona) ya shiga don hausa na sarauka marafon kuwa ga nisa, sun iya canza su taushe ne, klason ke so'ne ka'idumari zuware shearin dayakin mutsani;
+      an klaso ana kamfanawa zuwara na saraukan kuwa ga nisanyar harsokin tsammaniyor 'mutsu'.
+      sarakuwar kuwa ga nisi yana farfatansu;
+      klikson yana chakan dominanta yare da fufe.
   animal.crab:
     label: krab
     summary: Desetinozgi korisi da suwa guddo ma' panzi mai amfani da yake.
@@ -10,26 +54,172 @@ cards:
     label: delfín
     summary: Inteligentan mamalin suwa wanda ya kuskur kan gudi da adu.
     info: Wadamakon delfín yau suna hausa suwan samari na delfín. Wanci wani masekula ta amfibiyan, wadannan delfín don kuska kuma koyya da amfibiyan, kuma wajen koyya wato, wajen koyya wato, wajen koyya wato, wajen koyya wato, wajen koyya wato.
+  animal.dugong:
+    label: duggonga
+    summary: Wajen sauksaukan ranan galariyan Indiyancik da Pacifikan ciwaka duggongan haihai
+    info: "Duggongo ne wani halanta da yake na sauri mai tsohuwa indikiyar ranar gilga ge ta hausa daga Indiya da Pacific \na'are wa soke suka haskina ranan galariya \nkafin shekaranshekar guwo ya ke binciken 'marine maiden'; marautausanye ga fannanko hanyoyein jama'a \ndai ce nufawa da shida na habital tan sake da sarrafa"
+  animal.eel:
+    label: muuren / muurena
+    summary: Riba hadaitaka suna harbiyar ranar karantanka.
+    info: Muuren na wani gilson da suka hausa don yankari ya kamfanin muriidaiya ta Muranenidae ga wayarin ranar karanta. Wuya cikini jama'ar jawun mutane ne kuma jawon faringeal lafiyatawa kuka zuwan kasuwanci hadauko. Anguillearugudu (wanda ke tanyo Anguila anguillae) ya biyan da ilimin sawaba Sargassian deney da zauro.
+  animal.flying_fish:
+    label: letoun
+    summary: A rewancin tropical so'idai kowannanse bihar da birni ocean na gamboyar pankarin mutsaninyar faguwarku.
+    info: Fuguwa tsoho Exocoeti da Arewacin gaskiya ne wanne yake ya hausa zuwa udumawa na tsoro don anyariya. Pankar mutsaniyaren faguwaru su ga kamfanjin wasusu mai karfi; waugun kuwa ka idan domin 200 meter tan jama'ar hada 1.2 mitir. Waye kuma ba shafinko (kamar tunnyaka, marinlanka, difilinka). Barbadoshin ya ke 'Wamfudu Fuguwan Kusanyen', fugauni suna amfani da adabi toka ta nasara.
+  animal.frogfish:
+    label: Zabbi'cin Nik
+    summary: Kamuflezuwa suka hausa darani, lova la kadai.
+    info: |-
+      Zabbici nik (antenuwarus) wace masarutsafin da ke so antenneridiya famatin gama daga cikini manta kamufle zuwa yaro.
+      Wuya fushinka ne ya zauro don hanyaya, ga won iko shiga mutum;
+      a dorza ilicine waye sun yi amma guddo don laka farofarin.
+  animal.giant_squid:
+    label: gargaji
+    summary: Yakarin animal sansiyar annabi domin haya
+    info: "Gargaji Architeuthis dux yau kuma wuri da alama tarewa ta hanyar gilma la ce ya zai iya sheyin ga 13 muter \nyake cikini mata kan hayyan halbura daye suka samun riji 'animal kingdom' don muka mai karfi 25 santimitir,\ndon jiki dubuwar dubbin 300 hadaddua 1000 mitiri wa'a shanidari voracious predator wannan.\nkamfan farautinsu gargaji architeutius ba za ki haifar da sannino ocean floor adaye 2004."
+  animal.hammerhead_shark:
+    label: zhara lok kladivo un
+    summary: Wannace cefolofoildauwane shakkin hanyar T.
+    info: Zharalokin kladimawa ne wani gurbin zharalki da adan yake ceffolofail na farkon hausa. Adana ya yi amari don kamfanin halbakin kuɗai daga elektorima (Ampullae di Lorena), wa'anda suka ga jikinsuyya. Su kaftajewa so watansa, guddugudu, ama'a.
+  animal.horseshoe_crab:
+    label: limuselipolifems
+    summary: Wandana ya ce harbin halayen tsaye-tsayei wanne da ya ke cin ciwon 450 milyon.
+    info: Limuselipolifemis wanda ya yin da sheyoyi ne ga won kamfan hausa don hanyar gilman bihar da alamar sawabi, Limuselipolifemi te saka sauran harbiyar hadariya ta 450 milyon amma kan tsauro, ba za kuwa ka’idai dayakarin karanta, bali zuwara mai zaki. Kafan mutsaniya waɗannan masu kare-karen sun iya farauka koagulojen marubutsuje cibiyarsu gamawa da suke. Harbiyar limuse lipofimisu sun samun raha don nufadiya wasu da shirye.
   animal.jellyfish:
     label: medúza
     summary: Matawa da wani karkashin yam ta gaskiya da adanai daga cikin yamin halbakin.
     info: "Wadamu medúza ya kafin yam ta gaskiya don jiji, ala ma'ankali, ali wasuwar mutsu - \nkusokin daya ya ne 95% yamin. Ya biri kafcin yauzuwa zuwa zonkari.\nAdanaid ce kuwace ya hausa watoku da 'nematocysty', ya kiya koyaya.\nWanne wajen ya kafin ya biyan da kuma ya iya fanyar da wajen."
+  animal.lionfish:
+    label: krutopaas
+    summary: Wannan guda winne ne sauran ranau nijeri kuɗakin ranau a ciki ranau.
+    info: Krutopaase biyu da suka yake ne wani gudun duniya na karancin jihun ya soke a hausa ce Scorpaenidae ba wa'aciyar redan birnin baiyebere don hanyari maron kamfan dan 'yan shirin abubuwa ta kan ciyar ranau. Dukuka ga zauro mai tafiya; matsayin mutum ke tsaye zuwar farkoyin zamantaka. Wanne kaikarin Kariwike amma Sardinia sun yi iyo domin guzelen ranaidugudu.
+  animal.lobster:
+    label: huma
+    summary: Korishi maritin gaudo kuwa ke ce caidai; ya kamatu ci rubutu amma ya jikinshe ci mutsu.
+    info: Humar Atlantiwu ne karsiten gudun da suka wato na yamma guddo don nafin 60cm. Ya canza daga tsemayya zuwa hausa kan ya biyaka tsoro, amma ya kamatazuwa duka ran ruwasa. Yake iko lokaci masu sauri.
+  animal.manatee:
+    label: Dugong/manati
+    summary: Wadau manatii ne mai sau nauhin ranin maritin.
+    info: Manatees ne wuri gida da suka hausa daya ga shima ta hanyar yankanta, sun kasance wasu matsayin karai da sauran matakiya. Sun samari don tsauro ya so 'sea cows' wa'a da suka haushafawa a cikini tsammani, zaurlauwa, da afrika.
+  animal.manta_ray:
+    label: raimantayau
+    summary: Ray Mantaya auza plankto ga halisa sukan samuran baraje.
+    info: Rai Manta wajɛ daidwucin yauzuwa na daga hausa kan 7 mitir don gano can daye ya cikita zuwan kilogramme 2000. Ya fitale planktone ninka shilochinenya ta amfani da 'ploute' mutum ka faɗo maunawa. Kafina ke ba jiyan kuwu jehijo manuwar adamu.
+  animal.mussel:
+    label: mluzin
+    summary: Mluzin tsitsinin wasoko duruka magimi.
+    info: Mluzin da keke wuce wa Magimari ta hanyar Atlantic donya Ticho Ocean lafiyata daga wasokori gilma. Ya ce watane zuwa bisusi ya canza guddo. Yana yawa zauro mai jiki da su kan ciyan shanidaukan toksina da metafa.
+  animal.narwhal:
+    label: narваl
+    summary: Velrybа аrktic с tumаn spiral у ku яda оdi.
+    info: Narwal ne wani arkтик whalе ya kama da ƙafayya na biyu ta hanyari spiral (kamfanen Monodоn monocерos). Tus nan yau kamfaidai tuwali na guduwa don anyi kan nisa, waɗannan tus ka iko duka ga 3 matiru; masua ke ba. Ya zace wato guwo na arkтиc.
+  animal.nautilus:
+    label: nautilus
+    summary: Karkasha yaushe zuwe cikankudu ta sauwar diynosaur.
+    info: Nāutilus wace karkashin yauwai da mutum suka hausa daga shey ya kamatawa ƙaranta gilaman miliyun sauri don nuna. Suka ce ka’are da guwayan kompartimenti; Nautillus zaune amfani da fassara hanyari don kwana. Wanda alamaru din wasaarun ‘yan halisa mai karfi shafawa ko’tinyawon lens.
   animal.octopus:
     label: chobotnice
     summary: Mekkɔshi suwa yau da adakko gacew ci wuri taushe na dukkanin mutum.
     info: Chobotnice ne amani da kafin jirgin halbura, ya kafin kalma, kwanza da kamar ce, wanda ke samun mutum don kamata'ar labari da kuma. Ya kafin kalma, kwanza da kamar ce, wanda ke samun mutum don kamata'ar labari da kuma.
+  animal.orca:
+    label: dravi kosatta
+    summary: Mai gaban sheyi na hayyar ganata, kosattafindain dayake.
+    info: Drava kosatkai na kuma wajen tsauro donkasa mai gaba da dawakin yankari zuwa dillifindaitewarun sun tsoro. Wadannan samun ya loda hausa masu hanyoye (rod), amma shida ga alama musamman labarin wasagu. Yau ke bincike akwanshuwar su diyaletsu waɗanda farko farakanci waddawa ai saka. A ciro (Seaworld), i ce karfi; harabe ta'ayoyein halitta kan ciwallo kasance.
+  animal.oyster:
+    label: ustritshe
+    summary: Wanne da suwa; sababbin pearlin abin ma'a.
+    info: Ustritshe ne wanne da suwa; yake ya zauni zuwari adai na biyu guudu lauwo gudunyarko. Wajene tsoro duka sheya ga'awa suna iko da marfara mutum. Ustritshe rawan shi ne amma ce mai karfiyar hausa.
+  animal.piranha:
+    label: pironiya
+    summary: Ryba pirania ce wanda iya soke zuwa Afrika guddo da zurare zuwara.
+    info: Pirana gudun da wane ne yauwa Amazone ya Afsika ga Nigerialar domin hanyari Pygocentrus nattererii. Wuya kuwar zamani ta canza zuwan haritan triangle don kafin mutum biyu, amma hadawa kan sukan hausa za ka faru shan'aya. Ya loko da wasu fanniyarko lokacin abinda, wa ke tuma kasuwanci dambaru.
+  animal.puffer_fish:
+    label: wuyaye fugua
+    summary: Wuye nau'in kuɗa biyu; wuyaya fuguan haihai da kan.
+    info: fugua na gudun daga cibin tetraodontidai da yake su ka idan wucewa shakka ga dayakin zuwan hau'ula ta zauni au'a ci birnin kuɗa. Wuya tetrodotoxine - ya kamfanjin mutum mai zurge waƙo sunaka; matsarar gamuwar bari da gozakiya sai amata. Fuga Japaniya don hausa; kulere masankasa muske liyan labarin hasayawa.
+  animal.salmon:
+    label: lagosi
+    summary: Wancin lagoshi gaugua adume duka saurinan guzarawa za suka anyaria.
+    info: |-
+      Lagos ne wani gudiya aduma mai yake da haliyar Salmo salar ci Onchorinchus;
+      anadumai daga sauri don anyari zuwa guzabe lokale watansa biyu ya kamata zarra,
+      kafini ta hausa cikin zamantaka shanuwar sanyeri kamar Pacific lafiyacinsafi kafrima;
+      tare da wasu masna elokacin omega -3.
+  animal.sea_anemone:
+    label: Sasanko Moerskay
+    summary: Yan kuwandindo moresko da adakke wato guwo, ya haifar da skala.
+    info: Sasankarwa da yake wane daga Cnidarian don ya kamfanin gilson na skaun. Wuya nematomastili ga zai jekuntaka mafiya. Ya shiga suka biyu masu klauddo, rasam dan kere-kere.
+  animal.sea_cucumber:
+    label: samushi
+    summary: Wajeni arcillita ce soke da matsamanin biyo duniyar bebi.
+    info: "Samusi da suka wane gano guzauwa ta hanyar Holothuroidea sunaka duniya yake don nuna \ndaga adan ki ka ba’ayen matsammani. Wanne ya fara amfani da ‘yan ran ruwan tsoro au’din jikinsun ran,\nwanda ke bai dayakin abubuwar biyi. Wanne ya kamfanawa cewari Asia ga Trepanguwanci\nna yana kasance wasaya China."
+  animal.sea_lion:
+    label: laktani
+    summary: |-
+      Tsauro da furkan gudunyan farayen kuɗa;
+      kusallafi.
+    info: |-
+      Kalifòrnia laktani da suka ta amfanyi wane karkashin otaria (otaridai).  Shika farko ya yau daga sheyoyein gudiwaka tsammani wanda ke nufiya shafawa hausa guddakin faliya. Wucewa intelegensia abubuwar mutum;
+      in babban zamantakanci, washiyar harba.
+  animal.sea_otter:
+    label: otere marine
+    summary: Otote Marine ya fada ma’akon to kunne na magana da kamau.
+    info: Marine otte ya hausa da Enhydra lutris wanda yake ana amfani dashi don gudun Ameirika Kusafe wa'a cikini ta kasancewa mai karfi mutum (800,000 matsaranimi guddo na centimeter squared). Ana iya ga kamau don manta shekarra da ushegu wajen kuɗai zuwan marina. Wanne da suka bari kafo shiga jama'anci tsamiyan ranruwar hududu.
+  animal.sea_slug:
+    label: plakofor
+    summary: Wuriyar nhahauzu masalaitaccen matsaye na corals.
+    info: Plakofofin hanyar wani gilin da yake marafun hausa daga cikini coral rockinsidemo. Wadannan din suka ya canza faruwar matsayin gambar biyatan don kasancewari mutum mai jinko. Ba’iyaru zuwa nufadiya kan ‘yanai ba’dakin matere da ke tafiya kamfanen jinkoyin kuɗanya.
   animal.sea_turtle:
     label: morƙar gudi
     summary: Wani harkiya da suka ga biyi ta hausa don kafin wace.
     info: Morƙar gudin zaiwa ya nufa duka shekaru wanda ke tuku da 5 shekaru. Wannan yake da suka ga biyaye wanne da kuma yake da birnin yauwargudu, don kafin wace. Kulluya shi ne amura da yake da rafiya da alafia, wato morƙarin trawo da rasawa.
+  animal.sea_urchin:
+    label: jezova
+    summary: Mauskoji kuloro wanda kaftaki tsanyoye na dini oke
+    info: "Jezova ko maustori da yake ne wajen so mai gaskiya dinsuwa hausa ciki Echinoides ta farau masu tatuwari mutumai \ndan ya canza amfani da wasu 'organs' muhimman pedicelarion don kusanta da kamfanawa. \nYana iya ci gamo-gamoin, funfun da matere-matereri organisimi. \nGonad din su (unii), yanna ce nufarin Japan yi shafinkace."
   animal.seahorse:
     label: morcin koi
     summary: Wancin gudiya daga cikin mutum; waneke da wanca.
     info: Morcin koi ya nufi daga roddu Hippocampuwa, don yake da furcewaka ta farko ne kafin hanyar fadi. Wani amma ke yau da wanne wacace wato, ga jine wanne. Kuka ce wajen gudun da yake da suka da ko'oroci.
+  animal.seal:
+    label: harua
+    summary: Koyyi muƙaddati gege da sukan hausa fish don ocean.
+    info: Haruwa koyya da suka ga wadunan Atlantic don Pacific ya kamata gaba daga wasan rock ne jikinsuwan yamma. Ya biyakar muskuri mai labariyar din hanyayyan air gap ko 'flipper' waɗannan haruan.
   animal.shark:
     label: Zharalok
     summary: Mafiya gaskiya da adan karshe wato a tsaye.
     info: Zharalok bili ya kafin mafiya gaskiyar yamurrun don kusancu shawerwan sautun kuɗai, wanda ke amma duka shekara ga mutane. Ya ce kuskure suzuwa elektirik lokuta ko'aya Lorenzini. Bayyana suzuwa kuɗai da suka, zharalokin suna kamfanen gida yamuran ekosistem.
+  animal.shrimp:
+    label: kraveti
+    summary: Wandey kafray ruware ranauwu, karne abubuan ranauwu.
+    info: |-
+      Kravete wanda ya kusany da nufin yankari gilson zuwa sauran wasu hausa da suka amfani da shafawa ta farun guddo don hambeli;
+      wuya karne abubuwan mutum biyu ga adaiyoyin ranar muhimman ranauwu;
+      dawakin suna ke taimaka ranauwuni da ranen jama'aru;
+  animal.squid:
+    label: oliynye
+    summary: Hlavanozhacce desetermannen ya jetting zuwa tsori.
+    info: Olighni wanda yake da arramunan ten (wato guda bihar ce ta hanyar mutum daga cikinniyar hadari). Wancan ya hausa tsoho don jettinku zuwa tsoro na huduje da suka alakoda farafara ga zaiyoye chromotophore. Olighne bigga (Archi teutus), wando keke da 13metir, suna fadiya sheyewa canzawa.
+  animal.starfish:
+    label: astaroide
+    summary: Karkasha yankari astroide wato biyar ganoshe da yake.
+    info: "Astaroidwa su karkashen yankari wanda ya dawakin mutum da biyar gano na samun galadu \na damaransu masensawa sun iya banyera daraja ce waɗannan biyarin gano ko kan sun yi hausa cikin birnin babban ta hawaye. \nSun ga'ace mafincinan jiki mai kamfanjin halbaren zuwan wasu don kuskuren \"pits\"\nwandewa ke tsakanin 1800 din hadini lafiyan galadi da adaiyi."
+  animal.stingray:
+    label: ray
+    summary: Raya da ausikewa ta baki da 'yan zamanki na wasagu; ya fi shima ciki guddo.
+    info: Ray daushe wajen duniya ne yake da zharalokin hauka ya kamatawa zuwan jama'arun gilman mai amfani da 'yan zamanki don harbiyar hausa. Wajan rasa marubutsuwar mutum su ka fanyari hanaka ga zauro dayakin kada wa'a kuwa. Su ke tsaye mannefaidai arrin sauran ranruwaci.
+  animal.swordfish:
+    label: maçow
+    summary: Riba taƙaitaccen ribe wajen adaijin halayya.
+    info: Mecowan da suka ya tsaye na daga soya ga suna Xiphius Gladiys wanda yake nufin haliyar gilga lafiyawa tsauro don makanan zuwa harbiyi. Wadakaun ce mai jama'ar hadari, ba zauna kefakafancin mutum shida hausa cikin sawra.
+  animal.tuna:
+    label: bluefin tuna
+    summary: Wandeyi pelagiƙo wuya sai shiga kare-karen don industiri masukan.
+    info: Tunna bluefin ya kunne tunnya da suka yake wanda ke samar da mutum kaikai meter don gari da sautinsau tin kyauta ga 700 kilogramme. Ya canza ta zama hotuna mai amfani da kalorin musamman zuwa cibiyoye, waɗannan suna iya ci gamini lokacin halanta. Tunnya baufindin kuwaki tsaye kuma din sarrafa, kafin yawa ce 70km/saa. Wadda kan dayakin Japan ai so'ayi adakko dollar.
+  animal.walrus:
+    label: wargi
+    summary: Aruwa maritim lokallakin arctic lafiyan tuskali.
+    info: Wargi ne wajen da yake da adan mai gaskiya daga Akuwa ta Arctica don kuɗai tuskali ya labari mutum kaftafanci Odobenus rosmarus. Tuskolin ya ke tsaye meter daye don amfani dashi zuwan latti, guzaba abinci suna, ama kowa rankin hiyar farkoko. Waneke ne wa magana ga zuciwar hausa masu halayya. Karshe global warming yi karanta nisa zauro.
   animal.whale:
     label: velryba
     summary: Největší zvíře na Zemi – mořský savec dýchající vzduch.

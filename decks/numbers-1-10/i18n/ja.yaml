@@ -6,18 +6,91 @@ cards:
     label: 八
     summary: 数字の8、タコは腕が8本ある。
     info: 8（八）は2³（二乗三）です。逆さにした8（∞）は無限を表す記号であり；中国では、8という数字は最も幸運とされています。
+  num.eighteen:
+    label: '"osmnáct"'
+    summary: ' "číslovka 18; Şadová: osmnaŭtý; Średem: XVIII."'
+    info: "{\"hint\":\"基数詞の18、十八\",\"info\":\"数字18は自然数で、17に次ぎ19より前です。\r\nローマ数字：XVIII\r\n序数：第十八（じゅうだい）\r\n十進法では「8＋10」と表されます。"
+  num.eleven:
+    label: 十一
+    summary: 基数詞：十一；序數詞：第十一；羅馬字：XI
+    info: 数字の11は、自然数で10に次ぎ12より前です。ローマ数字ではXIと表されます。
+  num.fifteen:
+    label: 十五
+    summary: 基数詞：十五；序數詞：第十五位；羅馬字表示為「XV」
+    info: 数字の15は、自然数で14に次ぎ16より前です。ローマ数字ではXVと表記されます。
+  num.fifty:
+    label: 五十
+    summary: 基数詞：五十；序數詞：第五回目（五十番目の）；ローマ字表示：L
+    info: |-
+      数字の50は、自然数で49に次ぎ51より前です。
+      ローマ数字ではLと表されます。
+      五十進法ではなく十進法においても通常「50」と書かれます。
   num.five:
     label: 五
     summary: 数字の5、人間は手にこの数だけ指を持っている。
     info: 五は十進法の基盤であり、これは人が片方に5本の指を持つためである。また金星が空を描く軌道は五芒星（五つの角を持つ星）のような形をしている。
+  num.forty:
+    label: 四十
+    summary: 基数詞：四拾；序數詞：第四十位
+    info: 数字の40は、自然数で39に次ぎ41より前です。ローマ数字ではXLと表記されます。
+  num.forty_eight:
+    label: 四十と八
+    summary: 数詞48；順序：第四十八；ラテン語式：XLVIII。
+    info: '{"hint":"基数詞の数値48、四十八","info":"数字48は自然数で、47に次ぎ49より前です。\nローマ数字：XLVIII\n序数：第48位（四十と八番目）\n十進法では「8＋40」と表記されます。","label":"四十と八","summary":"数詞48；順序：第四十八；ラテン語式：XLVIII。'
+  num.forty_five:
+    label: 四十五
+    summary: 基数詞：45；序數詞：第45位；羅馬字表示為：XLV
+    info: 数字の45は、自然数で44に次ぎ46より前です。ローマ数字ではXLVと表されます。
+  num.forty_four:
+    label: 四十四
+    summary: 基数詞：四十；序數詞：第四位
+    info: |-
+      数字の44は、自然数で43に次ぎ45より前です。ローマ数字ではXLIVと表記されます。
+      desítkové（十進法）においては、「4＋40」として書かれます。
+  num.forty_nine:
+    label: 四十玖
+    summary: 基数詞49；序数：四十玖番目；ローマ字：XLIX
+    info: "{\"hint\":\"基数詞の49、四十九\",\"info\":\"数値49は自然数で、48に次ぎ50より前です。\r\nローマ数字：XLIX\r\n序数：九十四番目（じゅうよんばんめ）\r\n十進法では『9＋40』と表記されます。\",\"label\":\"四十玖\",\"summary\":\"基数詞49；序数：四十玖番目；ローマ字：XLIX\"}"
+  num.forty_one:
+    label: 四十人
+    summary: 基数詞：四十一；序數詞：第四十一；羅馬字：XLI
+    info: |-
+      数字の41は、自然数で40に次ぎ42より前です。ローマ数字ではXLIと表されます。
+      desítkové（十進法）においては「1＋40」として記録します。
+  num.forty_seven:
+    label: 四十七
+    summary: 基数詞：四十・七；序數詞：第四十·第七位；羅馬字表示為：XLVII
+    info: 数字の47は、自然数で46に次ぎ48より前です。ローマ数字ではXLVIIと表記されます。
+  num.forty_six:
+    label: 四十六
+    summary: 基数詞：四十・六；序數詞：第四十·第六位
+    info: 数字の46は、自然数で45に次ぎ47より前です。ローマ数字ではXLVIと表されます。
+  num.forty_three:
+    label: 四十三
+    summary: 基数詞：43；序數詞：第43位；羅馬字：XLIII
+    info: 数字の43は、自然数で42に次ぎ44より前です。ローマ数字ではXLIIIと表記されます。
+  num.forty_two:
+    label: 四十人二
+    summary: 基数詞：四十二；序數詞：第四十一；羅馬字：XLⅡ
+    info: |-
+      数字の42は、自然数で41に次ぎ43より前です。ローマ数字ではXLIIと表されます。
+      desítkové（十進法）においては「2＋40」として書かれます。
   num.four:
     label: 四
     summary: 数字の4、正方形は4つの辺を持っています。
     info: 4は2を二乗した数で、2×2の結果です。日本や中国では不吉な数字とされ（「死」という言葉に発音が似ているため）、文化上特別な意味があります。
+  num.fourteen:
+    label: fourteen
+    summary: 基数：fourteen；序数：第十四；ローマ字：XIV．
+    info: '{"hint":"数詞の14、基数四teen","info":"数字14は自然数で、13の次に来て15より前です。\rローマ数字：XIV\.\r序数：十四番目。\r十進法では4＋10と表記されます。","label":"fourteen","summary":"基数：fourteen；序数：第十四；ローマ字：XIV."}'
   num.nine:
     label: 九
     summary: 数字の9、最後の一桁の数。
     info: 九は最大の一桁の数です。興味深い性質として、九で掛け算した数の各位の和（数字和）は常に九で割り切れます。
+  num.nineteen:
+    label: девятьнадцать
+    summary: 数字19；顺位表現： девятнадцатый；罗马字表示:XIX
+    info: "{\"hint\":\"基数詞の19、序数第十九\",\"info\":\"数字19は自然数で、18に次ぎ20より前です。\r\nローマ数字：XIX\r\n順番を表す語形態（序数）では「 девятнадцатый」\r\n十進法においては、「9＋10」として記録されます。"
   num.one:
     label: 一
     summary: 数の1、最初の自然数。
@@ -26,18 +99,155 @@ cards:
     label: 七
     summary: 数字7、虹には七色あります。
     info: 7という数は多くの文化で幸運の数字とされています。虹は七つの色を持ち、週も七日間続き、七大陸が存在しています。
+  num.seventeen:
+    label: 十七
+    summary: 基数：17；序数：第十七；ローマ字：XVII
+    info: 数字の17は、自然数で16に次ぎ18より前です。ローマ数字ではXVIIと表記されます。
   num.six:
     label: 六
     summary: 数字の6、ミツバチの巣枠は六角形のセルを持っている。
     info: 6という数値は「完全数」として知られている。すべての約数（1＋2＋3＝6）を足すと自分自身に等しいからである。六角形（ヘキサゴナル）な形状は、平面を敷き詰める最も効率的な方法として知られている。
+  num.sixteen:
+    label: sixteen
+    summary: The numerical value for 'shesntact'; ordinal form is sixteenth
+    info: "{\"hint\":\"数詞の16、基数十六\",\"info\":\"番号16は自然な数字で、番号15の後に来て番号17より前です。\rローマ数字：XVI\r順序を表す語形態（序數）：第十六\r十進法では6＋10として書かれます。\"}"
   num.ten:
     label: 十
     summary: 数字の10、私たちの十進法数体系の基準。
     info: 十は指を含む人間が合計で手に持つ本数であり、十進法の基礎となっています。古くから十は自然な測定単位として使われてきました。
+  num.thirteen:
+    label: 十三
+    summary: 基数詞「13」；序数詞「三十一番目等」；ローマ数字「XIII」
+    info: "{\"hint\":\"数詞の13、基数詞十三\",\"info\":\"数字13は自然数で、12に次ぎ14より前です。\r\nローマ数字：XIII\r\n序数詞（第何番）：thirteenth（第三十位など）。\r\n十進法では3＋10と表されます。\",\"label\":\"thirteen\",\"summary\":\"基数詞13；序数詞third thirtieth etc．；ローマ字XIII\"}"
+  num.thirty:
+    label: 三十
+    summary: 基数詞30；序数詞：三十番目；ローマ字：XXX
+    info: |-
+      {"hint":"基数詞の30、三十","info":"数30は自然数で、29に次ぎ31より前です。
+      ローマ数字：XXX
+      序数詞（第何番）：三十分の一ではありません。第三十位を表します。
+      十進法では「3」と書きます。
+  num.thirty_eight:
+    label: 三十八
+    summary: 基数詞：三十路八；序數詞：第卅八字；羅馬字：XXXVIII
+    info: 数字の38は、自然数で37に次ぎ39より前です。ローマ数字ではXXXVIIIと表記されます。
+  num.thirty_five:
+    label: 三十路五
+    summary: |-
+      基数：35；
+      順序：第35位；
+      ローマ字：XXXV。
+    info: |-
+      数字の35は、自然数で34に次ぎ36より前です。
+      ローマ数字ではXXXVと表されます。
+      序数詞では「三十五番目」を意味します。
+  num.thirty_four:
+    label: 三十四
+    summary: 基数語34；順序語：第三十四；ローマ字：XXXIV
+    info: |-
+      {"hint":"基数詞の34、三十四","info":"数値34は自然数で、33に次ぎ35より前です。
+      ローマ数字：XXXIV
+      序数：第34位（三十番目第四）
+      十進法では「4＋30」と表記されます。"}
+  num.thirty_nine:
+    label: 三十と九
+    summary: 基数：39；順序：第三十九；ローマ字：XXXIX
+    info: |-
+      {"hint":"基数詞の39、三十九","info":"数値39は自然数で、38に次ぎ40より前です。
+      ローマ数字：XXXIX
+      序数：第39位（三十と九番目）
+      十進法では「9＋30」と表記されます。"}
+  num.thirty_one:
+    label: 三十壆
+    summary: 基数31；序數：三十第一；羅馬字：XXXI
+    info: "{\"hint\":\"基数詞の31、三十一\",\"info\":\"数値31は自然数で、30に次ぎ32より前です。\r\nローマ数字：XXXI\r\n序数：三十一位目（thirty-first）\r\n十進法では「1＋30」と表記されます。\",\"label\":\"三十壱\",\"summary\":\"基数31；序数：三十第一位；ローマ字：XXXI\"}"
+  num.thirty_seven:
+    label: 三十と七
+    summary: 数字37；順序：第三十三位；ローマ字：XXXVII
+    info: "{\"hint\":\"基数詞の数値、三十七\",\"info\":\"数字37は自然数で、36に次ぎ38より前です。\r\nローマ数字：XXXVII\r\n序数：thirty-seventh（三十と七番目）\r\n十進法では「7＋30」と表記されます。\",\"label\":\"三十と七\",\"summary\":\"数字37；順序：第三十と第七位；ローマ字：XXXVII\"}"
+  num.thirty_six:
+    label: 三十第六
+    summary: 数字36；順序表現：三十第一；ローマ字表示：XXXVI
+    info: |-
+      {"hint":"基数詞の数値、三十六","info":"数字36は自然数で、35に次いで37より前です。
+      ローマ数字：XXXVI
+      序数：三十番目と六番目の間（第三十第）
+      十進法では「6＋30」と表されます。"}
+  num.thirty_three:
+    label: 三十と三
+    summary: 基数詞33；序数：三十と目；ローメー：XXXIII。
+    info: '{"hint":"基数詞の33、三十三","info":"数字33は自然数で、32に次ぎ34より前です。\rローマ数字：XXXIII。\r序数：三十と目（さんじゅうどもく）。\r十進法では3＋30として表されます。","label":"三十と三（さんじゅうとに）","summary":"基数詞33；序数：三十と目；ローモー：XXXIII。'
+  num.thirty_two:
+    label: thirty two
+    summary: 数字32；順序：third second；ローマ字：XXXII
+    info: |-
+      {"hint":"基数詞の32、三十二","info":"数字32は自然数で、31に次ぎ33より前です。
+      ローマ数字：XXXII
+      序数：三十番目と二つ目の間（第三十第二）
+      十進法では『2＋30』として表されます。","label":"thirty two","summary":"数字32；順序：third second；ローマ字：XXXII"}
   num.three:
     label: 三
     summary: 数字の3、最初の奇数の素数。
     info: 3は多くの文化で神秘的な数と見なされています。例えば、3つの願いを叶えるという童話や三角形が3辺を持つことなどです。また、一日も朝・昼・夜の3つの部分に分けられています。
+  num.twelve:
+    label: 十二
+    summary: 基数：十二；序数：第十二位；ローマ字：XII
+    info: 数字の12は、自然数で11に次ぎ13より前です。ローマ数字ではXIIと表記されます。
+  num.twenty:
+    label: 二十
+    summary: 基数詞：20；序數詞：第廿（じゅうじ）；羅馬字：XX
+    info: 数字の20は、自然数で19に次ぎ21より前です。ローマ数字ではXXと表記されます。
+  num.twenty_eight:
+    label: twenty eight
+    summary: 基数詞：twelve；序數詞：twelfth
+    info: 数字の28は、自然数で27に次ぎ29より前です。ローマ数字ではXXVIIIと表記されます。
+  num.twenty_five:
+    label: twenty five
+    summary: 基数詞：twelve；序數詞：twelfth
+    info: 数字の25は、自然数で24に次ぎ26より前です。ローマ数字ではXXVと表されます。
+  num.twenty_four:
+    label: twenty four
+    summary: 数詞24；順序：第二十四；ラテン語式：XXIV
+    info: |-
+      {"hint":"数詞の24、基数二十","info":"数字24は自然数で、23の次に来て25より前です。
+      ローマ数字：XXIV
+      序数：第24位（二十一番目）
+      十進法では4＋20と表記されます。"}
+  num.twenty_nine:
+    label: twenty nine
+    summary: 基数：twelve ninth；序数：second ninth
+    info: 数字の29は、自然数で28に次ぎ30より前です。ローマ数字ではXXIXと表記されます。
+  num.twenty_one:
+    label: twenty-one
+    summary: 基数詞21；順序語：第21位；ローマ数字：XXI
+    info: |-
+      {"hint":"基数詞の21、二十一名前","info":"数値21は自然な数字で、20番目と22番目の間にある。
+      ローマ字：XXI
+      順序語：二十一番目。十進法では「1＋20」と表記される。
+  num.twenty_seven:
+    label: dvaicet sem
+    summary: '数値表現「二十七」を示す語 ; 順位表現 : 「第二十七」 ; ローマ数字 : XXVII .'
+    info: '{"hint":"数詞の27、基数はtwenty-seven","info":"数字27は自然な数で、26の次に来て28より前です。\rローマ数字：XXVII\r順序番号：二十と七番目\r十進法では7＋20として書かれます。","label":"dvacet sedm","summary":"数詞27；順序番号：二十と七番目；ローマ字表記：XXVII."}'
+  num.twenty_six:
+    label: twenty six
+    summary: 'The numerical value is ''twentysix''; ordinal form is twelfth sixthth; Roman numerals: XXVI.'
+    info: |-
+      {"hint":"基数詞の数値である、数字26","info":"番号26は自然な数で、25より後ろにあり、また27よりも前にある。
+      ローマ数字：XXVI
+      順序を表す語形態（序数）では「二十と六」
+      十進法においては、「6＋20」として記録される。"}
+  num.twenty_three:
+    label: twelve
+    summary: The ordinal form is 'third'; Roman numerals for twelve.
+    info: "{\"hint\":\"数詞の23、基数二十\",\"info\":\"番号23は自然な数字で、番号22の後と番号24の前です。\rローマ数字：XXIII\r順序語：twenty-third（英）\r十進法では3＋20として書かれます。\"}"
+  num.twenty_two:
+    label: twenty two
+    summary: 数字22；順序番号：第二十一；ローマ字：XXI
+    info: |-
+      {"hint":"基数詞の22、二十","info":"数字22は自然数で、21に次ぎ23より前です。
+      ローマ数字：XXII
+      順序番号：二十二番目（第ニ拾弐）
+      十進法では『2＋20』と表されます。
   num.two:
     label: 二
     summary: 数字の2、唯一の偶数の素数。

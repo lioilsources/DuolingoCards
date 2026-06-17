@@ -2,42 +2,219 @@ lang: fr
 pivot: false
 title: Fruits
 cards:
+  fruit.ackee:
+    label: ackée
+    summary: Fruit rouge avec des ariles jaunes comestibles et empoisonnant lorsqu'il est vert.
+    info: L'Ackée ou 'blight' est un arbuste originaire d’Afrique de l'Ouest ; il fut introduit en Caraïbe via la traite des esclaves au XIXᵉ siècle.
   fruit.apple:
     label: pomme
     summary: Fruit rond rouge ou vert au goût sucré-acidulé.
     info: La pomme est le fruit du pommier domestique, l'une des cultures les plus cultivées dans le monde. Elle contient de la vitamine C et de la fibre ; il existe plus de 7 500 variétés.
+  fruit.apricot:
+    label: abricot
+    summary: Petit fruits oranges ; sucré-acide et juteux.
+    info: "{\"hint\":\"petite baie orangée en pierre (Prunus armeniaca)\",\"info\":\"L'abricot (Prunus armeniaca) provient d’Asie centrale.\r\nIl est cultivé à la fois dans tout l’espace européen et particulièrement bien connu pour sa douceur originale de Turquie ou Espagne.\r\nRiche en bêta-carotène ainsi qu'en Vitamine A,\r\ndans une version séché il devient un collation populaire.\"}"
+  fruit.avocado:
+    label: avocado
+    summary: Fruit crémeux vert ; base du guacamole.
+    info: L'avocat (Persea americana) provient du Mexique et de l'Amérique centrale. Botaniquement c'est un fruit (pépinier), mais culinairesment il est utilisé comme légume. Il contient des matières grasses monoinsaturées bénéfiques pour la santé (acide oléïque), similaires à celles présentent dans l’huile d’olive.
   fruit.banana:
     label: banane
     summary: Fruit tropical jaune à chair sucrée.
     info: La banane est un fruit d'une plante tropicale de la famille des musacées. Elle est riche en potassium et en sucres naturels qui apportent une énergie rapide.
+  fruit.blackberry:
+    label: framboise
+    summary: Baie rougeâtre noir tirant sur le violet issue de l'arbuste Rubus.
+    info: La myrtille noire ou framboise sauvage est une baie composée de couleur pourpre foncé qui pousse sur un buisson épineux. Elle se trouve souvent aux bords des forêts et dans la sous-bois. La framboise contient beaucoup de vitamine C, E ainsi que du potassium.
+  fruit.blueberry:
+    label: bleuet
+    summary: Baies noires foncées ; alimentation santé pleine d'antioxydants.
+    info: La baie de bleuet sauvage est riche en anthocyanes qui lui donnent une couleur profondément bleue et des propriétés fortement antioxidantes. Des études montrent un effet positif sur la fonction cognitive ainsi que l'état cardiovasculaire généralisé.
+  fruit.cantaloupe:
+    label: cantalope
+    summary: Pastèque jaune-marronnâtre avec réseau tachetant la peau et chair orangée vif.
+    info: Le kantaloup (Cucumus melo var. canatalupensis), originaire d'Asie, est une variété populaire de pastèque à chair orange riche en bêta-carotène et en vitamine A. Son nom provient du siège papal de Canatalupe près de Rome.
   fruit.cherry:
     label: cerise
     summary: Petit fruit rouge rond qui pousse en paire (genre Prunus).
     info: La cerise est le fruit de l'arbuste prunifère, un fruit d'été populaire. Elle contient des antioxydants et de la mélatonine ; il existe des variétés sucrées ainsi que des variétés acides (comme les groseilles).
+  fruit.coconut:
+    label: coco
+    summary: Grand noyau tropical avec coquille fibreuse.
+    info: Le coco (Cocus nucifera) est un fruit de la cocotier ; d'un point de vue botanical il s'agit plutôt d'une drupe qu'un noix ou une graine réelle. L'eau contenue dans les fruits non mûrs constitue naturellement une boisson riche en ions. Le lait et l’huile de coco sont des bases importantes pour la cuisine sud-est asiatique ainsi que celle de l'Inde.
+  fruit.cranberry:
+    label: cannebere
+    summary: Petite baie rouge acide ; ingrédient américain classique.
+    info: La canneberge (Vaccinium macrocarpon) est une petite baie rouge acide. Elle fait traditionnellement partie de la cuisine américaine pour Thanksgiving sous forme de compote à base de cannebergues. Les anthocyaniques qu'elle contient empêchent l'adhésion des bactéries Escherichia Coli aux parois du système urinaire et son effet sur la prévention des infections urolithiques (ITU) est scientifiquement prouvé.
+  fruit.currant:
+    label: јoseill۫
+    summary: јroseille ۪une,߲ bleue ۮi blanche dans un bouquet.
+    info: |-
+      Le groseille est une petite baie qui pousse en grappes ressemblant à des épis.
+      The groseille noire (њibes۩ nigrum) contient la plus grande quantité de vitamine C parmi toutes les baies.
+      The groseille noire constitue l'arôme principal du sirop britannique Ribena et du liqueur Cassiss.
+      The groseille rouge s'utilise pour faire des confitures ou décorer des desserts.
+  fruit.damson:
+    label: prune
+    summary: Petit fruit noir cultivé traditionnellement au Royaume-Uni.
+    info: La prunelle de Damas est une petite prune bleue foncée à noire originaire du Moyen-Orient et qui fut introduite en Europe depuis la ville arabe de Damas. Elle est très acide lorsqu'elle est crue mais idéale pour les confitures, compotes ou même dans l'élaboration des gins aromatisés aux damsons.
+  fruit.date:
+    label: dates
+    summary: Fruit brun ovale doux provenant de la palme à dattes ; alimentation essentielle au Proche-Orient.
+    info: Les dates sont des fruits sucrés de l'arbre à dattes Phoenix dactylifera. Elles constituent une nourriture fondamentale du Proche-Orient depuis plusieurs millénaires et contiennent plus de 60% de sucres en tant que sources énergétiques importantes.
+  fruit.dragon_fruit:
+    label: fruit dragon
+    summary: Fruit exotique ressemblant à celui d'un cactus avec sa pulpe blanchâtre.
+    info: Le Fruit dragon (pitaia ou hylocère), originaire du Mexique et d'Amérique centrale, possède une peau rose vif ainsi qu'une chair blanche parsemée de taches noires très décoratives. Il offre un goût délicat ; il contient des antioxydants et la vitamine C.
+  fruit.durian:
+    label: durien
+    summary: Grand fruit exotique au fort parfum ; reconnu sous le nom du «roi» des fruits tropicaux.
+    info: Le durien est considéré comme le roi des fruits tropicaux et possède une forte odeur qui peut être répulsive pour certains ou attirante pour d'autres ; il est interdit dans de nombreux hôtels asiatiques en raison de cette même caractéristique olfactive marquée.
+  fruit.feijoa:
+    label: feioya
+    summary: Petit fruit vert oval avec une chair aromatique.
+    info: La feiyoua ou "feijoia" provient d'Amérique centrale et méridionale. Elle est très populaire en Nouvelle-Zélande comme fruits de l’automne.
+  fruit.fig:
+    label: figue
+    summary: Un petit fruit ressemblant à la poire du ficus commun Ficus Carica qui contient beaucoup d'amandes.
+    info: Le figue est l'un des fruits les plus anciennement cultivés ; il y a même des preuves datant de 11 000 ans en arrière. En réalité, ce n'est pas un vrai fruit mais plutôt une gousse remplie par milliers de petits fleurs.
+  fruit.gooseberry:
+    label: gooseberry
+    summary: Petit fruit rond transparent ; populaire dans les jardins en Europe du centre.
+    info: '{"hint":"petite baie transparente verte ou rougeâtre","info":{"label":"gooseberry","summary":les "Goosberries" sont de petites fruits ronds et transparents populaires dans les jardins d''Europe centrale."}}'
   fruit.grape:
     label: grappe
     summary: Petite baie ronde qui pousse en grappes sur une liane.
     info: La vigne à raisin produit des grappes de couleurs variées allant du vert au violet foncé. Les grappes peuvent être mangées fraîches, séchées pour faire des abricots secs ou pressées pour obtenir du vin.
+  fruit.grapefruit:
+    label: grapefruit
+    summary: Grand agrume amer ; superaliment.
+    info: Le grapefruit (Citrus paradisi) est un hybride de l'orange et du citronnier. Il fut décrit au XVIIIᵉ siècle à la Barabade.
+  fruit.guava:
+    label: goiave
+    summary: Fruit tropical avec une forte odeur et un écorché blanc ou rose.
+    info: La goiave ( Psidium guayava ) provient de l'Amérique tropicale et est répandue dans toute l’Asie et l'Afrique tropicales. Elle contient quatre fois plus de la vitamine C qu’un orange. Sa peau ainsi que ses graines sont comestibles ; tout entier ce fruits est nutritif.
+  fruit.jackfruit:
+    label: jackfruit
+    summary: Fruit exotique géant ; c’est le plus gros fruit porté par un arbre.
+    info: |-
+      Le chlebovnier (Artocarpus heterophylle) produit les plus grands fruits qui pousse sur un arbre ; ils peuvent peser jusqu'à plus de 35 kilogrammes.
+      Originaire d'Asie du Sud-Est et des régions tropicales asiatiques en général, il est une denrée alimentaire fondamentale dans l’Inde ainsi que au Bangladesh ou encore en Thaïlande.
+      Lorsqu’il est immature, la chair du chlebovier présente une texture neutre utilisable comme substitut à viande pour régime vegan.
+  fruit.kiwi:
+    label: Kaki
+    summary: Fruit brun velouté avec une chair verte ; riche en vitamines.
+    info: Le kiwi est originaire de Chine où il s'appelle aussi Yaogan ou fraise-chinoise. La Nouvelle-Zélande l'a commercialisé et lui a donné son nom actuel en référence à la volaille locale appelée 'kivi'. Il contient deux fois plus de vitamine C qu'une orange.
+  fruit.lemon:
+    label: Citrone
+    summary: Agrume jaune acidulé riche en vitamines.
+    info: Le citron est un agrume acide originaire d'Asie. Il contient une grande quantité de vitamine C et d'acide citrique ; il entre dans la cuisine, les boissons ainsi que dans des produits cosmétiques ou nettoyants.
+  fruit.lime:
+    label: lime
+    summary: Petite baie verte acide ; ingrédient clé en cuisine exotique.
+    info: '{"hint":"petit agrume vert acide","info":"La lime est un petit agrume jaune ou verdâtre à la pulpe acidulée et une écorce aromatique.\rElle joue un rôle essentiel dans les cuisines thaïlandaise, vietnamienne ainsi que méditerranéenne pour ses saveurs fraîches et piquantes.\rBien qu''elle contient moins de vitamine C par rapport au citron, elle possède néanmoins des propriétés antiscorbutiques importantes."}'
+  fruit.longan:
+    label: longane
+    summary: Petit fruit brun热带 originaire des régions chaudes et apparenté au litchi.
+    info: 'Le longane (Dimocarpus longan) est un fruit d''un arbre tropical originaire de Chine. Son nom provient du chinois : ''dragon eye'' ou œil de dragon à cause de sa pulpe transparente entourant une graine noire.'
+  fruit.lychee:
+    label: liche
+    summary: Petit fruit exotique chinois avec une pulpe claire.
+    info: '{"hint":"petit fruits rouges à peau rugueuse et chair transparente de Chine","info":"Le liche ou litchee est un petit fruit rouge au goût sucré et légèrement aromatique originaire de la Chine. Sa fine couverture blanche transparaît sous sa pellicule écarlate. En Chine il symbolise la prospérité."}'
   fruit.mango:
     label: mango
     summary: Fruit tropical à chair juteuse orange-jaune.
     info: Le mango indien est surnommé « roi des fruits tropicaux ». Il est riche en vitamine A et C et provient d'Asie du Sud, où il est cultivé depuis plus de 4 000 ans.
+  fruit.medlar:
+    label: mispel
+    summary: Petite baie brune apparentée à l’orange ; doit murir avant consommation.
+    info: La mispel ou loquat est une ancienne culture de jardin cultivée depuis la Renaissance médiévale. Elle n'est comestible qu'après un processus appelé 'blanchiment', où les fruits sont stockés jusqu'à ce qu'ils ramollissent après récolte. La mi-spelle contient des polyphénols et du vitamin C.
+  fruit.melon:
+    label: pastèque
+    summary: Fruit rond ou ovale juteux à chair orangée.
+    info: La pastèque (Cucurbita citrullus), bien que parfois confondue avec Cucumis melo dans cette traduction directe en français de l'anglicisme 'melon', est un légume-racine potable originaire d'Afrique subsaharienne qui contient plus de 95% d'eau et moins sucré qu'un vrai melon.
+  fruit.mulberry:
+    label: mûre
+    summary: Baies violettes foncées issues d'un arbrisseau Morus utilisée comme alimentation pour vers à soie.
+    info: La mûre est une baie sombre provenant de l'arbrisseau à mûres ; les feuilles sont la nourriture du ver à soie.
+  fruit.nectarine:
+    label: nectarine
+    summary: Pêche glabre et sucrée avec une texture ferme.
+    info: LaNECTARINE (prune du Japon sans pellicule - Prunus persica var. nucipersica) est une mutation naturelle de la prune à peau lisse.
   fruit.orange:
     label: orange
     summary: Fruit citron rond avec une écorce orangée parfumée.
     info: L'orange est un fruit tropical originaire de l’Asie du Sud-Est et cultivé aujourd’hui dans le monde entier. Elle est riche en vitamine C et très appréciée pour son jus.
+  fruit.papaya:
+    label: pommier
+    summary: Fruit exotique au goût sucré originaire d’Asie centrale.
+    info: '{"hint":"fruit tropical orangé large","info":"La papaye (Carica papaya) provient d''Amérique tropicale\rL''enzyme papaïne qu''elle contient facilite la digestion des protéines\. Elle est riche en vitamine C, bêta-carotène et antioxydants\. La papaye non mûre s''utilise comme légume dans la cuisine sud-est asiatique (salade som thay par exemple)","label":"pomme de pin","résumé": "Grand fruit tropical à chair couleur orange vive."}'
+  fruit.passion_fruit:
+    label: passionaria
+    summary: Fruit tropical à peau violacée ridée et contenant une chair aromatisée.
+    info: La passionaria (Passiflora edulis) provient de l'Amérique du Sud tropicale. Son nom vient des missionnaires qui voyaient dans sa fleur les symboles de la Passion du Christ. La pulpe est pleine de graines enveloppées d'un gélatine aromatique.
+  fruit.peach:
+    label: pêche
+    summary: Fruit rose-jade soyeux ; symbole de l’été.
+    info: |-
+      La pêche (Prunus persica) provient de Chine où elle est un symbole d'immortalité.
+      Sa douce écorce veloutée en fait sa caractéristique distinctive.
+      Il existe des cultivars blancs et jaunes ; les abricots sont une version lisse sans duvet.
+      En Chine, la pêche participe aux célébrations du Nouvel An ainsi qu'à certaine mythologies médicinales.
   fruit.pear:
     label: poire
     summary: Fruit en forme de larme au goût sucré et délicat.
     info: La poire est un fruit de la pyrée commune, étroitement apparentée à la pommier. Elle possède une chair fine et juteuse ainsi qu'une haute teneur en fibres ; il existe des centaines de variétés.
+  fruit.persimmon:
+    label: persimon
+    summary: 'Fruit orange semblable au piment ou à la tomate : doux avec un léger arrière-goût acide.'
+    info: |-
+      Le persimon (Diospyros kaki) provient de Chine et du Japon ; en République Tchèque il est connu comme le prunier japonais.
+      Lorsqu'il n'est pas mûr, le persimon ressemble à une prune sèche et agriole ; lorsqu'il est mur, cependant, son goût sucré rappelle celui d'une gelée miellée.
+      Il contient des quantités élevées de vitamines A, C ainsi que divers minéraux.
   fruit.pineapple:
     label: ananas
     summary: Fruit tropical avec une couronne épineuse et de la pulpe jaune.
     info: L'ananas provient d'Amérique du Sud et est maintenant cultivé dans les régions tropicales du monde entier. Il contient l'enzyme bromélaine qui aide à la digestion.
+  fruit.plum:
+    label: prune
+    summary: Petit fruit pierre ovale violet ; utilisé pour faire du brandy et des gelées.
+    info: La prune (Prunus domestica) est un des fruits de base en Europe centrale. La slivowitz (distillat à la prune) est une eau-de-vie traditionnelle tchèque et slovaque. Les confitures aux prunes sont caractéristiques d'une récolte automnale. Il existe plus de 2000 variétés différentes dans le monde.
+  fruit.pomegranate:
+    label: grenade
+    summary: Fruit rouge avec plusieurs milliers de petites graines sucrées ; symbole de fertilité.
+    info: Le grenade (Punica granatum) provient d'Asie centrale et de la Méditerranée. Il contient plus de six cents graines dans une pulpe rouge transparente appelée arille. Riche en antioxydants ; des recherches examinent son effet sur les maladies cardiaques et l'inflammation.
+  fruit.quince:
+    label: quince
+    summary: Fruit jaune dur parent du prunier qui ne s'utilise jamais cru.
+    info: 'La quince (Pseudocydonia sinensis ou Cydonia oblonga selon les classifications botaniques actuelles) est apparentée à la pomme et à la poire ; crue elle est ferme et insipide. Elle doit toujours être cuite : confiture de quinces appelée membrillo en Espagne, vin de quincelle, eau-de-vie distillée des fruits fermentés. La pectine abondante dans cette baie permet une gelification naturelle idéale pour faire des compotes.'
+  fruit.rambutan:
+    label: Ramboitan
+    summary: Fruit exotique roux velu rappelant la longane.
+    info: Le Ramboutan (Nephelium lappaceum), originaire de Malaisie ; son nom provient du mot malais 'rambut' qui signifie cheveux. Sa peau rouge est recouverte d'épines douces et crocheuses. La chair transparente et sucrée ressemble à celle des longanes.
+  fruit.raspberry:
+    label: framboise
+    summary: Baie rouge composite ; symbole de l'été au jardin.
+    info: "{\"hint\":\"petite baie rouge composée de petits fruits appelés druons\",\"info\":\"La framboise est une baie composée faite de nombreux minuscules fruits individuels appelés druons ou \"drupellet\" dans la langue botanique.\r\nElle croît à la fois sauvage et cultivé ; les récoltes ont lieu en été comme en automne.\r\nRiches en vitamines C et K ainsi qu'en magnésium et antioxydants.\r\nLe sirop aux fraises des bois et du vinaigre aromatisé sont deux recettes typiques.\"}"
+  fruit.starfruit:
+    label: carambolier
+    summary: Fruit jaune des régions tropicales formant des motifs en étoiles lorsqu'il est tranché.
+    info: La carambole ou Averrhoa bilimbi provient d'Asie du Sud et de l'est asiatique. Lorsqu'elle est coupée transversalement, elle forme une étoile parfaite - ce qui explique son nom anglais 'Star Fruit'. Elle possède un goût acide-doux ; riche en vitamine C.
   fruit.strawberry:
     label: fraise
     summary: Baie rouge juteuse en forme de cœur.
     info: La fraise est un fruit populaire de la famille des rosacées. Riche en vitamine C et en antioxydants ; elle est récoltée en été et a une saveur douce et parfumée.
+  fruit.tamarind:
+    label: tamarin
+    summary: Fruit brun ressemblant à une gousse avec sa chair acidulante utilisée particulièrement pour cuisiner thaïlandaise.
+    info: 'Le tamarinier (Tamarindus indica) est originaire de l''Afrique tropicale ; il y en a aujourd''hui partout dans les régions tropicales. Sa pulpe acide et sucrée entre notamment dans la composition des recettes comme le pad thai ou encore certaines sauces Worcestershire ainsi que certains condiments à base de mangue verte typiques de l''Inde. Le mot provient de l’arabe : « tamr al-hindi » signifie littéralement ''datte indienne''. Il contient beaucoup d’acides organiques dont principalement l’acétate de potassium mais aussi diverses vitamines groupe B et fer.'
+  fruit.tangerine:
+    label: Pomel
+    summary: Un fruit acidule au gout doux, representant Noel dans certain pays d'europe centrale.
+    info: |-
+      {"hint":"petit citron sucré à peau facilement détachable","info":"La mandarine est un petit agrume originaire de Chine dont la chair se pellete facilement et qui contient des antioxydants ainsi que du vitamin C.
+      Elle représente l'année nouvelle chinoise comme aussi la chance,
+      et elle constitue une traditionnelle décoration festive en République tchèque pendant les fêtes de Noël.","label":"pomelo","résumé":"Petite pomme acide avec écorce molle ; symbole de Noël."}
   fruit.watermelon:
     label: pastèque
     summary: Fruit vert rayé avec une chair rouge juteuse.

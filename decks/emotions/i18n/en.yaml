@@ -2,22 +2,177 @@ lang: en
 pivot: false
 title: Emotions
 cards:
+  emotion.amazed:
+    label: aw
+    summary: Strong positive feeling when experiencing extraordinary things.
+    info: Awe is an intense emotion triggered by encountering something vast or overwhelming. It reduces feelings of personal importance while increasing connection to surroundings.
+  emotion.amused:
+    label: amusement
+    summary: A light pleasant sensation brought on through entertainment.
+    info: Amusement is mild positive emotion triggered by something funny or interesting. It differs from laughter—laughter results from amusement but not all amusements cause laughing—it's socially shared feeling things seem funnier when we share them with others.
   emotion.angry:
     label: angry
     summary: Feeling strong anger or irritation, being upset.
     info: Anger is an emotion triggered by perceived injustice or threat. It increases heart rate and prepares the body for a 'fight or flight' response.
+  emotion.annoyed:
+    label: irritation
+    summary: A feeling of slight annoyance due to repeated disturbing stimulus.
+    info: Irritation is mild negative emotion triggered by recurring disruptive stimuli. It often precedes more intense anger. It can be caused by lack of sleep, hunger, or overload.
+  emotion.anxious:
+    label: anxiety
+    summary: Unpleasant feeling nervousness about uncertain future.
+    info: Anxiety is an emotion anticipating threat; mild anxiety can be adaptive by improving performance. It manifests physically through symptoms such as racing heartbeats, sweating, shallow breathing, tense muscles. Anxiety disorders affect over three hundred million people worldwide making them most common mental illnesses.
+  emotion.bored:
+    label: boredom
+    summary: Feeling disengaged and empty due to absence of engaging activities.
+    info: Boredom is a negative emotional state caused by lack of stimuli or meaningful activity. It can lead people to seek new experiences or creative thinking. From an evolutionary perspective it encourages seeking opportunities.
   emotion.calm:
     label: calm
     summary: Feeling inner peace and comfort, being at ease.
     info: Calmness is a state of mental and physical balance. It slows down heart rate, deepens breathing, and allows for clear thinking and good decision-making.
+  emotion.cheerful:
+    label: happiness
+    summary: A pleasant state marked by cheerful moods.
+    info: Happiness is characterized by lively enthusiasm and good mood. It relates to an extroverted personality type and high levels of positive affect.
+  emotion.confident:
+    label: confidence
+    summary: Belief in your own ability to succeed.
+    info: Confidence is an emotional state characterized by trust in your own skills and judgment. Upright body language such as standing tall, making direct eye contact, speaking calmly, all reflect confidence.
+  emotion.confused:
+    label: confusion
+    summary: A feeling of uncertainty where you do not grasp information.
+    info: Confusion arises when we lack context or knowledge needed to comprehend a situation. It is an inherent part of learning; cognitive discomfort motivates us to seek answers. On someone's face it may appear through tilting their head and furrowing eyebrows.
+  emotion.content:
+    label: contentment
+    summary: Calm peace found through acceptance rather than excitement.
+    info: Contentment is defined by calm positive emotional state without any desire for change. It differs slightly from happiness—contentment remains quiet while happiness tends to be more lively. In Buddhism, it's considered an essential virtue called santosa on path towards enlightenment.
+  emotion.curious:
+    label: curiosity
+    summary: Desire for gaining knowledge
+    info: Curiosity is an motivational state that initiates seeking new information and experiences. It's linked to dopamine reward system making curiosity literally pleasant experience.
+  emotion.delighted:
+    label: exuberant joy
+    summary: Strong delight caused by something pleasing.
+    info: Exuberant joy is an intense positive emotion triggered by pleasant events or surprises. It's more powerful than basic happiness and expressed dynamically through jumping, shouting, laughing. Its evolutionary function strengthens behaviors leading to desirable outcomes.
+  emotion.determined:
+    label: determination
+    summary: Strong intention to achieve goals despite obstacles.
+    info: Determination is an emotional motivational state characterized by concentrated intent and perseverance. It manifests through clenched jaws, tense body posture, and intense gaze. Research shows that determination predicts success better than intelligence.
+  emotion.disappointed:
+    label: disappointment
+    summary: An unpleasant feeling caused by unmet expectations.
+    info: Disappointment arises when an outcome does not match our expectation or desire. It is stronger after high emotional investment or effort. Research shows that expectations play a key role—lowering them leads to less disappointment.
+  emotion.disgusted:
+    label: disgust
+    summary: Strong feeling of aversion when encountering unpleasant stimuli.
+    info: Disgust is an emotion that protects us against harmful things such as toxic food and diseases. Its evolutionary function was to deter consumption of spoiled foods.
+  emotion.embarrassed:
+    label: shame
+    summary: An unpleasant feeling caused during an awkward moment.
+    info: Shame is a social emotion that arises when we believe we have violated societal norms. It manifests through blushing, averting gaze, and slumped posture. Shame serves a social function by signaling to others our awareness of these standards and willingness to adhere them.
   emotion.excited:
     label: enthusiastic
     summary: Feeling strong excitement and joyful expectation.
     info: Enthusiasm is an intense positive emotion associated with anticipating a pleasant event. It boosts energy, quickens the heart rate, and supports creative thinking.
+  emotion.frustrated:
+    label: frustration
+    summary: Feeling irritated due to unmet objectives.
+    info: Frustration is an emotion that arises when our goals are blocked by obstacles. It can lead to constructive action such as finding alternatives or destructive behavior like aggression.
+  emotion.grateful:
+    label: gratitude
+    summary: A warm feeling recognizing something valuable you have received.
+    info: Gratitude is a positive emotion that arises when we become aware of good things in our lives. Research in positive psychology shows regular expression of gratitude increases satisfaction by activating reward centers similar to physical pleasure.
+  emotion.guilty:
+    label: guilt
+    summary: A painful feeling experienced upon violating personal ethical standards.
+    info: Guilt is an emotion that arises when we commit what we consider to be bad behavior. It differs from shame; guilt focuses on specific actions while shame concerns oneself entirely. Guilt has social functions such as motivating apologies and corrections, thus reinforcing moral conduct.
   emotion.happy:
     label: happy
     summary: Feeling joy or pleasure, being in good spirits.
     info: Happiness is a pleasant emotion associated with the release of dopamine and serotonin. It manifests through smiling, lively gestures, and an open body posture.
+  emotion.hopeful:
+    label: hope
+    summary: An optimisitic feeling that the future will be good.
+    info: Hope is an emotion combining desire for a better future and belief that it can be achieved. It plays a key role in resilience during difficult situations.
+  emotion.hopeless:
+    label: hopelessness
+    summary: Feeling convinced future holds only bad outcomes.
+    info: Hopelessness is characterized by believing that there's nothing to look forward to because things won't improve.
+  emotion.inspired:
+    label: creativity
+    summary: Creative inspiration motivating to take action.
+    info: Inspiration is an emotional state characterized by sudden motivation and creative excitement. It often comes through experiencing an epiphany or encountering exceptional work or person.
+  emotion.irritated:
+    label: heightened irritability
+    summary: A condition marked by exaggerated responses to small triggers at the threshold between irritation and real anger.
+    info: Irritability is an emotional state characterized by heightened sensitivity to minor stimuli that provoke stronger negative reactions than usual. It can indicate exhaustion, lack of sleep, accumulated stress, hormonal changes during puberty, pregnancy, or menopause. Distinguishing it from actual anger helps regulate emotions effectively.
+  emotion.jealous:
+    label: jealousy
+    summary: A negative emotion resulting from comparing oneself to others.
+    info: Jealousy arises when we perceive that another person has something which we desire ourselves. It differs from rivalry; jealousy concerns others' benefits while rivalry involves threats to our own relationships. Jealousy can motivate better performance or cause resentment.
+  emotion.joyful:
+    label: joy
+    summary: An overwhelming feeling of joy and positivity.
+    info: Joy is an intensely positive emotion overflowing with happiness. It's associated with intrinsic motivation and the state of 'flow' described by Csikszentmihalyi.
+  emotion.lonely:
+    label: loneliness
+    summary: Painful sensation missing contact others.
+    info: |-
+      Loneliness is subjective feeling of isolation independent of actual number people around you;
+      it strongly predicts health problems including chronic loneliness shortening life span;
+      brain reacts to social pain similarly it does physical pain;
+  emotion.loving:
+    label: love
+    summary: Deep feeling for another person.
+    info: Love is complex emotion combining fondness, care, trust, intimacy. Neurochemicaly it's associated to oxytocine dopamine serotonine.
+  emotion.melancholy:
+    label: melancholia
+    summary: A quiet form of grief that includes elements of reflection and beauty.
+    info: Melancholy is an introspective emotion combining sorrow, contemplation, and some sweetness. It comes from Greek for black bile ('mela' means 'black', while 'chole' refers to 'bile'); ancient physicians attributed it to excess black bile.
+  emotion.miserable:
+    label: torment
+    summary: Extreme discomfort and anguish; worst stage of sadness.
+    info: Torment is an intense negative emotional state characterized by deep distress and suffering. It can be caused by physical pain, emotional injury, or loss.
+  emotion.nervous:
+    label: anxiety
+    summary: A light feeling anxious about something coming up.
+    info: Anxiety is typically associated with anticipating important events—a mild state that can enhance performance when moderate but disrupt it if too intense. Physically, anxiety manifests through increased activity in the sympathetic nervous system such as heart palpitations and sweating. Reframing techniques like viewing nerves not just negatively—such as reinterpreting them positively—as excitement have proven effective strategies.
+  emotion.nostalgic:
+    label: longing
+    summary: A wistful yearning filled with both joy and sadness.
+    info: The feeling is sweetly bittersweet—recalling memories brings pleasure but also pain at their absence. The term comes from Greek 'nostos' for returning home and 'algos', which means sorrow.
+  emotion.optimistic:
+    label: optimism
+    summary: A tendency toward anticipating favorable results while perceiving life's positives.
+    info: Optimism is a cognitive-affective style characterized by expectations for positive outcomes. Martin Selgiman identified it as an essential factor contributing to resilience within his field of Positive Psychology. Optimists tend to live longer lives marked by better health and greater success.
+  emotion.overwhelmed:
+    label: overload
+    summary: Feeling overwhelmed by having too much on your plate all at once.
+    info: Overload occurs when demands exceed our capacity to cope. It manifests through cognitive failure (inability to think clearly), emotional outbursts, or freezing up. A certain level of overload is manageable but chronic overload leads to burnout.
+  emotion.peaceful:
+    label: calm
+    summary: A deep sense of inner peace.
+    info: Calmness is defined by emotional well-being without stress or disturbances. It can be achieved through meditation practices such as mindfulness and Zen meditation that activate the parasympathetic nervous system—reducing heart rate and blood pressure.
+  emotion.pessimistic:
+    label: pessimism
+    summary: Tendency for anticipating bad consequences while focusing on negatives.
+    info: |-
+      Pessimism is characterized by expecting negative outcomes emotionally-cognitive style
+      Moderate pessimism can be adaptive because realistic risk assessment helps avoid danger.
+      Chronic pessimism has been linked to higher depression risks and worse health results.
+      Cognitive behavioral therapy assists changing these patterns.
+  emotion.playful:
+    label: playfulness
+    summary: Lively mood and desire for entertainment and games.
+    info: Playfulness is an emotional state characterized by joy through play, humour, and experimentation. In adults it's a positive predictor of creativity and good mental well-being.
+  emotion.proud:
+    label: pride
+    summary: A positive sense of satisfaction about personal achievement or group.
+    info: Pride is an emotion associated with feeling successful or belonging to something valuable. An upright posture, lifted head, and expanded chest are universal expressions of pride. It can be healthy (encouraging development) or unhealthy (leading to arrogance). In Hindu philosophy, it views pride (ahamkāra) as an obstacle for spiritual growth.
+  emotion.relieved:
+    label: relief
+    summary: A pleasant feeling of release following reduced pressure or threat.
+    info: Relief is an emotion experienced when stress, worry, or pain subside. It manifests through deep breathing, relaxation of muscle tension, and feelings of lightness. Evolutionarily important because it signals that danger has passed allowing for rest.
   emotion.sad:
     label: sad
     summary: Feeling grief or dissatisfaction, being depressed.
@@ -26,6 +181,18 @@ cards:
     label: frightened
     summary: Feeling fear or terror due to danger or threat.
     info: Fear is a basic defensive emotion that triggers adrenaline release, quickens the heart rate, and prepares the body for flight or protection.
+  emotion.serious:
+    label: seriousness
+    summary: A calm demeanor without humor; focusing on serious matters.
+    info: Seriousness is an emotional attitude characterized by concentration and absence of levity. It's important in situations requiring focus and careful thinking.
+  emotion.shocked:
+    label: shock
+    summary: Sudden daze caused by unforeseen news or events.
+    info: Shock is an intense emotion triggered by unexpected, surprising, or shocking information. It manifests through immediate freezing up, open mouth, dilated pupils, serving to halt activity so that new input can be processed.
+  emotion.shy:
+    label: shyness
+    summary: Anxiety-induced reluctance during interpersonal encounters especially among unfamiliar individuals.
+    info: Shyness is characterized by feelings of anxiety and hesitation when interacting with others outside familiar settings. It's often associated but not synonymous to an inward personality type known for preferring solitude over company interactions at large gatherings like parties where many people gather together under similar circumstances.
   emotion.surprised:
     label: surprised
     summary: Feeling sudden amazement at an unexpected event.
@@ -34,3 +201,11 @@ cards:
     label: tired
     summary: Feeling physical or mental exhaustion, needing rest.
     info: Fatigue is a signal from your body that it needs rest. It manifests as drowsiness, slowed reactions, and reduced ability to concentrate.
+  emotion.upset:
+    label: distress
+    summary: Unpleasant emotional distress caused by a negative event.
+    info: Distress is an overall negative emotional state combining sadness, anger, and anxiety. It occurs as a reaction to unpleasant events, disappointment, or conflict.
+  emotion.worried:
+    label: worry
+    summary: Repetitive negative thinking patterns regarding future uncertainties
+    info: Worry is an emotional cognitive state focused on anticipating potential threats. Mild worry can be adaptive by motivating preparation for challenges ahead while chronic worrying leads to anxiety disorders that interfere daily functioning Mindful awareness techniques help break cycles

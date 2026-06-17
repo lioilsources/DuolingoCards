@@ -2,6 +2,46 @@ lang: la
 pivot: false
 title: Animalia marina
 cards:
+  animal.anglerfish:
+    label: diabolus marinus
+    summary: Profundissimus piscis cum appendiculo luminoisso.
+    info: '{"hint":"piscis profundus cum appendicula luminosa","info":"Piscis abyssalis Lophius habitat ad ima maria super mille pedum profundo. Femella habet capite tentaculum luminoosum pro captura ciborum et masculorrum. Masculus est mirabiliter parvulus qui postquam femellam invenerit adsorbens eique conflat biological. Bioluminiscentia ex bacteriosis viventibus symboioticae in appendiculo."}'
+  animal.barnacle:
+    label: cirippede
+    summary: Parva forma animalium coripedi circum lacertos et corpore navale.
+    info: Lumbricini sunt cirripepi crurifera sessilia quae ad lapides et naves marinas adherunt utilis cimento excreto; alimentantur per filtrationem planctonis utendo pedibus extrorsus protrahitis ab operculo emersis. Larvae eorum natantes sunt sed postea fixentur atque metamorphosim agentes adultas effigiant, quarum vita tota est sessiliter agendam.
+  animal.beluga_whale:
+    label: bélua
+    summary: Velryba bleda, která má kulatou hlavu.
+    info: Bélua (delphinopterus albus), známá také jako 'meloun', žije ve stěnovém ledovém oceáně severu i podmínkách mírních oblastí kolem Arktidy. Je to nejslavnější druh mezi belugami díky svému specifického tvaru melonu na čele používajícím pro echolocation. Mimo jeho unikálnost spočívá jejich komunikační systém s různorodými hlasitymi signály.
+  animal.blue_tang:
+    label: surgeonfish
+    summary: Caeruleo pigmentata pisces de litore coralinis; stella pelliculi Quaerendo Nemō.
+    info: Surgeonfish albus (Paracanthurus hepatus) est parva pisces marina cum coloratione caerulea et coda flava ex litoreis coralline Indico-Pacifici. Pelliculus 'Dory quaerere' annuo anno MDCVI interesse creavit ad domesticum culturam licet sit difficile capta esse. Habent lamellas scalpellinas apud radices codas ab quibus species nomini sunt.
+  animal.carp_river:
+    label: Carpus flavescens
+    summary: Large golden-brown freshwater organism inhabiting rivers
+    info: |-
+      {"hint":"carp common in their native fluvial environment","info":"The Common Carp is originally an Asian species introduced to Europe during medieval times.
+      It's omnivorous; it digs up sediments which can cloud water bodies.
+      The fish symbolizes Christmas traditions across Central Europe where vendors sell live specimens directly out of tubs at markets for festive occasions like Yule celebrations
+      This makes them among most farmed aquatic organisms globally today due partly because there exists over hundred distinct varieties bred specifically through selective breeding techniques"}
+  animal.catfish:
+    label: amphibolus
+    summary: Magni pinnas lacustres cum vibrissis latitant.
+    info: Amphibolus magnus est pisces dulcis Europae maximus genere Siluri; longitudo superat duo pedes et pondus centum chiliogrammorum attingit.
+  animal.clam:
+    label: clam maximus
+    summary: Maximus clamor mundi habitat in arcorum tropicalium.
+    info: Clam maximus (Tridacidna gigas) est maior clamor orbis terrarum qui crescit ad longitudinem plus quam unius pedalis et pondere superat ducentos kilogrammas. Habitat cum zooxantella alga photosynthetico inter pliculas cuticulae suae. Potest vivre ultra centenarii annorum.
+  animal.clown_triggerfish:
+    label: clounus balista
+    summary: Tropicalis et pulcher pinnatus cum maculis albis atque labris aurantiis.
+    info: Clown triggerfish is a large tropical ray-finned fish belonging to family Balistidae that has some of the most striking coloration among marine fishes; it possesses strong teeth for crushing hard corals and shells.
+  animal.clownfish:
+    label: amphirions
+    summary: Orange-colored reef-dwelling teleost exhibiting commensalist relationship involving cnidarian polyps providing shelter against natural enemies.
+    info: Anemonfish lives within marine anemones whose venomous tentacles would kill other fish but do not harm it due to its protective mucosal layer. In mutualism, they clean their host's body while deterring predators through warning coloration patterns that mimic each individual’s unique markings on both sides simultaneously during mating displays when males compete for dominance over females who can change sex depending upon social hierarchy status.
   animal.crab:
     label: brachyura
     summary: Decapodus armatus carapax et pinnae laterales movens.
@@ -10,26 +50,162 @@ cards:
     label: delphinus
     summary: Intelligens marinus mammalis vivens in cohortibus et saltans ex aqua.
     info: Delphinus est maregens animalium lactiferorum familiae delphinoidea. Cognoscitur propter altam intelligentiam, capacitate loki sonori et ludico comportamento – delphini gaudeant saltare de undis naves et communicare per cantus et clangores. Vivunt in coetibus quae sunt congregarum et sunt propinquos cognatos balenarum.
+  animal.dugong:
+    label: dugō
+    summary: Herbosum tranquillum mari vivens simile manati in Oceani Indie atque Pacifice inventum.
+    info: '{"label":"dugō","summary":"Tranquillus herbovorus marinus ex Oceano India et Pacifico cum manatē similis."}'
+  animal.eel:
+    label: anguillas
+    summary: Piscis serpentiformis movens inter fissuras rupe corralina.
+    info: Morua est magnus piscis marinus ex familia Muranidæ qui sibi latet inter fissuras rupe corallina. Duo mandibularum paria habet; praeter os externa introrsus faringea sunt ad captivam prehendendum et per gula trahentem.
+  animal.flying_fish:
+    label: fugus
+    summary: Piscis tropicalis quod super superficiem mari planitat utilis pinnas thoracicis.
+    info: Fugo (exocoetiadae), znati etiam ut 'piscis volans', sunt species piscium tropicalium qui potest ex aqua saltare atque per aerem planere. Pinnae thoracicae dilatas fungerunt sicut alae; istud genus usque ad ducentos pedes vel spatios altitudinem circiter duo cubitus attollit. Hoc modo evadunt praedatores como thunnus, maiores, delphines.
+  animal.frogfish:
+    label: rana
+    summary: Habitans arduis litoralibus corallinorum, raptim cibos captare.
+    info: Rana anguilijuga est parva pisces marina ex familia Anguillarum cum arte camuffandi mirabili et ambulat super pinna pedibus ut si esset pes. Est armatura illiceo motrice ad caprim mobilem incitandum.
+  animal.giant_squid:
+    label: teudon gigas
+    summary: Teudōnis gigantis est maximum animalium marinum profundiorum ab imparibus.
+    info: Colossus teutoni gigantesque sunt animalia invertebrata marina quae longitudo superat pedem XIII etiam. Oculorum eorum magnitudinem maximam inter omnia animalia naturaliter habent cum diametro ultra XXV centimetros ut ad tenebras abyssos accommodare possint.
+  animal.hammerhead_shark:
+    label: carcharhinus
+    summary: Piscis dentatus cum capite distinctim dilatatoplane forma simili litterae 'T'.
+    info: Carcharhinus cestrifer est species squamata cum capite dilatato et planis formae similisque ad literas 'T'. Caput latum melius permittit detectionem praedae per organa electrica ampullariaque Lorenzoi necnon facilitare motuum varietatem. Habitat oceanos tropicalia atque comedebunt pisces, calamari, ac teuthidas.
+  animal.horseshoe_crab:
+    label: limacis
+    summary: Animalium genus antiquissimum cum articulationes et exuviae duras qui non mutavit multa per saecula plurima.
+    info: '{"lang": "lat", "json": {"label":"limax","summary":"Veter animalia artiunctum quattuor centena millia annorum sine mutationibus maioribus."}}'
   animal.jellyfish:
     label: medusa
     summary: Transparentis marinus animalis campanulatum cum tentaculis venenatis.
     info: Medusa est animalia marinum ex phylumo Cnidaria sine cerebro, corde vel ossibus—corpus eius constat ex proxime 95% aqua. Movetur per pulsationem corporis campaniformis. Tentacula contineant cnidocytes, cellulas puncturantes quae captivam paralyzant. Quaedam species sunt fere immortales et reverti ad stadium juvencile posse.
+  animal.lionfish:
+    label: scorpion
+    summary: Venenum tropicalis scorpio cum spinis conspicuis ac coloratione fata.
+    info: Scorpius ruber est piscis marinus venenosus familiae Scorpaenidarum cum notabilibus rubeofatis fasciis et spinis venomatos is. Venenum eius causatur dolorem intensum sed ad periculum vitale rarissime pervenit . Est species invasive Caribeoque atque Mediterraneo , ubi indigenas pisces devoret ; extra habitat originalem naturales praesumatres non habet.
+  animal.lobster:
+    label: lobster
+    summary: Large sea creature with pincers that turns red only after cooking but lives blue-green.
+    info: '{"hint":"Homerus","info":{"cs":{"text":[{"type":"paragraph","content":[["\", "\"]], "languageCode":"cs-CZ"}]},"translationData":{"targetLanguageCodes":["pt-BR"],"translations":[[["Atlântico", "Lobster"],["com garras brilhantes vermelhas quando cozinhado;", "."]]]}}'
+  animal.manatee:
+    label: Sirenian
+    summary: Placid oceanic grazer known colloquially as 'sea cow'.
+    info: Dugon (sirea marina), znám jako kapustňák nebo mořské dobyšče, je veliký plavoucí savčí druh, který konzumuje pouze mele travy roste po pobřežním trosku oceánem. Nachází se hlavně u malých hladiny tepla slanosti, přístupu řeka i kanalizační systém spojující Karibsko, Florida a africko oblast. Je silně náchylné ke střetu lodím motorem – mnoho exemplárů má rány na kože vyvolány otáčení lodi.
+  animal.manta_ray:
+    label: rex manticola
+    summary: Magnifica pinnata planctonophaga ad superficiem maris.
+    info: Rex Manticola est maximus mantarum generum cum alis plus quam septem metricas et pondere super duos milia kilogrammorum. Plankton per lamellas branchiales filtra natando ore aperto. Non habet aculeum venenum nec nocit homini. Ad intelligentes pisces computatur atque probabiliter speculum suam imaginem agnoscit.
+  animal.mussel:
+    label: musculus edulis
+    summary: Dark-colored shellfish that clusters together tightly onto rock formations during high tide periods.
+    info: Edulis mussel is an edible clam living along coasts of both Atlantic Ocean and Pacific Ocean tidal zones. It attaches itself firmly to rocky surfaces using strong threads called byssal filaments. This species filters water for food particles while also acting like bioindicator showing pollution levels since it accumulates toxins including heavy metals within its body.
+  animal.narwhal:
+    label: phoca
+    summary: Articum cetem habentem spiram similem ad hornum unicorno.
+    info: Phocina est parva balena artica cum cornu spiraformi quod procul videtur unicornis fabulae esse similare.
+  animal.nautilus:
+    label: nāutilus
+    summary: Cephalopus antiquitus intra conchas spiraliter contortas exsistens post tempora dinosauros.
+    info: Nautillus est cephalepoda primordiale cum concha spira revoluta et habitatra prope immutata per plus minus quadringentos milliones annorum. Concha dividitur inter camerulas quae ad regolamentum levitas aeris sunt utilis. Diversimode ab aliis cefalopodus habet simplices oculos sine lentibus ut pinholes.
   animal.octopus:
     label: octopus
     summary: Cephalopoda molle cum octo tentaculis et capacitatem coloris mutandi.
     info: Octopus animalia invertebrata sunt ex classe Cephalopoda. Tria corda habet, sanguinem caeruleum et potest instantaneò cutem suam colorem ac texturam per chromatophora mutantem. Est valde sagax – capsulas clausas aperire potest et labrynthos resolvere.
+  animal.orca:
+    label: orca
+    summary: Melanochromum praeator maris oceanici princeps inter ceteles.
+    info: Orca melnia est maximus ex delphinidibus et unus intelligentissimorum animalium mundi.
+  animal.oyster:
+    label: óstrica
+    summary: Aquae filtret molluscum genens margaritas atque desideratum esculentum.
+    info: Óstrica est mollusca quae aquam filtra; una óstrica potest usque ad ducentos literas aque purgare diei. Quaedam species margaritas producunt cum corpus alienum tegumento irritat. Óstricas crudas sunt delicata pretiosa et tradidionaliter comeditur mensibus litteris 'R' signatis.
+  animal.piranha:
+    label: piranha
+    summary: Americae meridianae piscis carnivorus lacustre cum densibus acutilibris.
+    info: Pirana rubripes est pisces carnivorus lacustris ex Americâ Meridiana cum dentibus acutis triangularibus. Nihilominus famam ferat de praedatore mortali peracto esse superflua et raro aggressurum hominem sanum natantem. Catturat gregariè atque fortis odoratum ab immensitate distantiam sanguinis detecturus.
+  animal.puffer_fish:
+    label: piscis puffera
+    summary: Fish puffatur ut globulus spinosa et est sapor delicatus necnon venenum.
+    info: Puffer fish sunt species ex familia Tetraodontidarum quae potest corporem suum aeris vel aqua ad globulum spinosum tumefacere.
+  animal.salmon:
+    label: salar
+    summary: Magnus pisces salmonidae marinus ascendentium per fluviulos.
+    info: Salar est piscis adfluvialis qui mare habitare et post centenas kilimetros navigandi ut genitus flumine reddat pro reproductionem revertitur. Cum ascendere incipiat, color mutatur ex argenteo in rubrum conspicuum.
+  animal.sea_anemone:
+    label: 'anemone marinā '
+    summary: Animalium marinarūm actinia cum cirrō venenōsa , quod habitat litoraliter corallifera.
+    info: '{"hint":"animalia marina flore similia cum cirris urticantibus","info":"Anemonae sunt cnidariī similis florō ad saxa fixus.'
+  animal.sea_cucumber:
+    label: holothuria
+    summary: Cylindricum animale marinum qui residua ab imo colligit.
+    info: Holothuria sunt marina echinodea classe Holothuroidea ad littorale oceanicum pertinentia filtrantque sedimentum et alimentari reliquiis organicis. Periculo minatae intestinia aut liquor aquosus excretores eiecit quae vero renovatur. In Asia pretiosa cibaria dicuntur 'trepan' atque antiquitus Cucini Sinicae componentes.
+  animal.sea_lion:
+    label: phoca
+    summary: Aureis externe instructi otaria palmae ut ambulant.
+    info: Phoca califoriana est familia Otaridarum maximus cognitus exemplaris. A differunt phocae vere otarias auriculas externas habere et pedes palmatos ambulare potest. Extraordinarie docta sunt animalia quibus ludens industriam complexa artificium discantur.
+  animal.sea_otter:
+    label: lutra marina
+    summary: Marinus luta dorsale positus et litoreas coquillae lapide frangit.
+    info: Lutra marina est animalia aquatica Americanae Septentrionalis cum pellice densissimo inter mammalia (octingenti milles capilli per centimetrum quadratum). Utitur lapidibus ut instrumenta ad concha rumpendas et echinoidea super thoracem posita fractura. Durat dormiens supra superficiem ac manus tenetur reciprocus pedes natantes ut non abfluit.
+  animal.sea_slug:
+    label: placophorus
+    summary: Coloratus nudaconcheus molle marinus super saxo corallos.
+    info: Placophorae vel nudibranchia sunt molles marini sine concha qui habitat saxifraga corallinae. Eorum colorationem conspicuum adhibent ut signum toxicitatis et aliquot species cellulas venenatas ex cibo sibi assumunt pro defensione sua.
   animal.sea_turtle:
     label: chelys marina
     summary: Magnus animalis marinus qui revertitur ad litus pro ovorum ponendis.
     info: Chelys marina viridis est una septem specierum chelydum marinorum. Femella quinquenniter vel bienniter revertitur ad arenam ubi ipse natus est ut ibidem ova ponat. Individua matura herbivora sunt et mariscam ac aligeros comedunt; neonati omnivori sunt.
+  animal.sea_urchin:
+    label: echinus
+    summary: Spiny spherical sea creature found at rocky seabeds.
+    info: Sea urchins are marine spiny animals covered by movable spines belonging to the group Echinoida. They have specialized organs called pedicellariae between their spines for cleaning and capturing prey. Sea urchins feed mainly on algae, fungi, and organic debris.
   animal.seahorse:
     label: hippocampus
     summary: Parva pisces verticale natarens; masculus pueros portat.
     info: Hippocampus est genus piscium marinarum, quae verticaliter natat utendo pinna dorsali. Curiositas est quod masculus non femina pueros in sacculo tenet. Cauda ad herbas marinam adherit et pro preda expectat.
+  animal.seal:
+    label: pinniped
+    summary: Marina bestia repensans super saxa et captura pisces inter fluctus oceanicos.
+    info: Pinnipus communis est animal marinus ex familia Phocidarum cum corpore aerodynamico et sine auriculis externis. Habitat prope litoras Atlantici atque Pacifici ac tempora consumat tamquam sub aqua ita etiam super saxorum superficie. Capax descendere ad profunditas ultra quingentos pedes metricos necnon manere infra undas plus quam triginta minuta.
   animal.shark:
     label: selachis
     summary: Magnus piscis praedator cum dentibus acutis et corpore hidrodinamico.
     info: Selachis albus est maximus praeda marinus mundoque longior sex metris esse potest. Habet potentiam sensuum ad detectandum campos electricos per ampullas Lorenzinianas. Licet fama eius sit terribilis, attacui hominis sunt rari; selaciae sunt praediales clavis oceanici ecosystematis.
+  animal.shrimp:
+    label: peneide
+    summary: Parvus marinus arthopodus, mundialis populaer marini fructus.
+    info: |-
+      Peneides sunt parva marina vel dulcia aqua arthropoda cum decem pedum binis.
+      Plus quam duo milia species existunt et secunda popularissima marinis productibus mundo sunt consideratae.
+      Peneides filtrares atque praedones sunt necnon nexus clavis oceanici ciborum catenae.
+      multas specierum vitam communitates tropicalium littoralium sustinent.
+  animal.squid:
+    label: tentacula
+    summary: Decem-brachiata cephalaquid animalia movens per ejjectionem aquae.
+    info: '{"hint":"decembrachius cefalopoda molles qui per aquam jaculatur","info":"Tentacula sunt decem bracchia animalia marina cum tentoriis et duabus manibus captivis ut veniant ad aliam vim motus. Eorum color mutat potest ex chromatofores quae habent. Gigantescae tentaculae Architeuthe gigantea longiores quam trecentos pedes esse possunt atque hoc est maximum animale sine ossiculis mundo. Hoc vestigium reliquit super cuticle squamae quando eum proelio sub mari profundo contenderit."}'
+  animal.starfish:
+    label: stella
+    summary: Marinus animalis cum manibus qui potest regenerate manus amiseras.
+    info: Stellatae sunt marina echnidnota quae saepissime pentaradia sunt.
+  animal.stingray:
+    label: raius
+    summary: Planctua marina cum spini cauda et habitante arenoso fundo.
+    info: Rajus est prole chirodactylorum cum corpore disco planum ad vitam super strato adaptatum. Cauda multis speciebus armatur spinis venenis ut defensio sit. Motus per undulationes pinnae thoracalis similiter alarum motui fit.
+  animal.swordfish:
+    label: swordfish
+    summary: Large predatory open-ocean fish characterized by its distinctive blade-shaped nose.
+    info: Swordfish is a large predatory oceanic species found mainly in tropical to temperate seas around the world. Its elongated sword-like snout serves primarily for stunning prey such as smaller fishes rather than piercing them through directly.
+  animal.tuna:
+    label: thynnum
+    summary: Celer pelagon piscis multis captibus industrialis victualium causa.
+    info: Tunna thynnus est maximus species tunnarum qui crescit ad longitudinem super triplicem et pondere plus quam septingentos kilogrammas attingit. Est eutectonicus vel sanguine calido ut corporale suae temperaturam altius habeat quam circumstantia aqua marina. Ad velocissimas pisces oceanorum pertinet cum celeritate excedente septiginta kilometra per horam. Critice minacetur ab excessiva piscaria industriae alimentari qua unus specimen Japoniae mercato millibustrophelones venditur.
+  animal.walrus:
+    label: pachypus
+    summary: Magnus marinae bestia Arctica cum dentibus elephantini.
+    info: Pachypus est magnus marinus animalis Arctici cum dentibus elephantinis ingentibus et barbis protractis qui super unum pedem extenduntur.
   animal.whale:
     label: balaena
     summary: Maxima terra animalia – cetus marinus aerem respirans.

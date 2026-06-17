@@ -2,6 +2,22 @@ lang: es-419
 pivot: false
 title: Colores básicos
 cards:
+  color.amber:
+    label: ámbara
+    summary: Color cálido similar al oro-naranja obtenido desde el mineral llamado ámbar.
+    info: El ámbar es un mineral con una tonalidad cálida entre dorada y naranja que se formó hace millones de años al solidificarse la resina vegetal fósil. En tiempos antiguos era valorado tanto por su uso decorativo como simbólico en rituales o creencias religiosas; hoy día también tiene aplicaciones prácticas tales como el color amarillo utilizado para las luces intermedias del tráfico indicando precaución.
+  color.aqua:
+    label: agua
+    summary: Color verde-agua claro similar al agua pura.
+    info: Es un color azul-verde brillante que evoca aguas tropicales y piscinas frescas. En diseño gráfico es usada como una tonalidad contrastiva en interfaces modernos.
+  color.azure:
+    label: cielito
+    summary: Un intenso celeste como el cielo estival.
+    info: El azul cielo es una tonalidad brillante y pura de color similar al del verano en el firmamento; su nombre proviene del mineral lapislázuli o lazaurtita que fue más valioso que el oro durante el Renacimiento e incluso usado para vestir las túnas moradas de la Virgen María.
+  color.beige:
+    label: beige
+    summary: Un amarillo tierra claro o castaño apagado.
+    info: Beige es un tono claro y cálido entre el blanco y la marrón dorada. Proviene de una palabra francesa antigua que describía las olas naturales en los tejidos textiles. Se usa ampliamente como color base suave e interesante para decoración interior.
   color.black:
     label: negra
     summary: El color negro es el más oscuro y representa la ausencia de luz.
@@ -10,18 +26,125 @@ cards:
     label: azul
     summary: Color primario frío del cielo y el océano.
     info: El azul es un color primario frío de la luz. Es el color más popular en el mundo y simboliza calma, confianza y profundidad.
+  color.bronze:
+    label: broncínea
+    summary: Color metálico similar al bronce.
+    info: El color broncíneo es un tono metálico entre el café oscuro y dorado que recuerda la aleación de cobre con estaño. La Edad del Bronce (aproximadamente desde -3300 hasta -1200), toma su nombre precisamente por este material. En los Juegos Olímpicos representa al tercer lugar mediante una medalla de bronce; además las estatuas hechas en ese tipo de metal son comunes especialmente dentro de espacios públicos.
   color.brown:
     label: marrón
     summary: Color tierra secundario de la madera y el suelo.
     info: El color marrón es una tonalidad terrosa que se obtiene al mezclar rojo, amarillo y negro. Representa la tierra, la naturaleza y la estabilidad; es muy utilizado en temas relacionados con lo natural y los paisajes otoñales.
+  color.burgundy:
+    label: burdeos
+    summary: Color profundo como el vino tinto borgonés.
+    info: El color burguindés es un tono oscuro de rojo con reflejos morados-negros que recibe su nombre del región vitivícola Borgoña en Francia. Evoca el sabor y la elegancia asociada al vino tinto, lujo e riqueza. En moda suele ser uno de los colores más populares para otoño.
+  color.charcoal:
+    label: antrácito
+    summary: Color gris extremadamente oscuro similar al carbón.
+    info: El antracita es un gris muy oscuro casi negro que se parece al carbón vegetal. Es popular en el diseño de interiores contemporáneo como una alternativa más sutil del color negro. En la moda actúa como tono neutral ideal para vestimentas elegantes y sobrias.
+  color.chartreuse:
+    label: amarillaverdoso
+    summary: Color vivaz situado entre los colores amarillo y verde.
+    info: El color amarillo-verde es un tono vivo ubicado exactamente entre el amarillo y el verde en el espectro de colores. Su nombre proviene del licor herbal Chartreuse producido por la abadía homónima francesa.
+  color.cobalt:
+    label: azúl
+    summary: Intensa gama media oscura similar al pigmento rojo.
+    info: Azul de óxido es un intenso y vibrante color azul nombrado en honor al elemento químico cobalto (Co). Fue uno de los tonos más populares para pinturas del siglo XIX como pigmento azulado. Se usa comúnmente en cerámica, vidrio artístico e ilustraciones creativas.
+  color.copper:
+    label: color cobre
+    summary: Color rojo-tostado brillante similar al cobre.
+    info: El color cobre es un tono rojizo-marrón con brillo metálico que recuerda al elemento químico del mismo nombre (cobre). El hombre trabajó el cobre desde la Edad de los Metales Blandos o Calcolítico; techumbres viejas hechas en este material se vuelven verdes por efecto de una capa protectora llamada patina verde. Asimismo, cabellos teñidos de esta pigmentación también son conocidas como pelajes rubios.
+  color.coral:
+    label: rosada
+    summary: Color rosavio-naranja vivo similar al coral.
+    info: Rosada es un color cálido y vibrante entre el anaranjado y el rosa que toma su nombre de los corales marinos. Es muy popular en la moda veraniega y diseño interior. Pantone lo declaró como Color del Año 2019 bajo el nombre de Rosadura Viva.
+  color.cream:
+    label: cremada
+    summary: Color cremado es una combinación entre el blanco puro con toques suaves de amariilo.
+    info: El color crema es un tono muy claro de amarillo blanco similar al de la nata recién hecha o fresca. Su nombre proviene precisamente del color que tiene esta última cuando está bien batida y sin añadiduras artificiales.
+  color.crimson:
+    label: crimson/carmesi
+    summary: Un tono intenso de rojo más oscuro que escarlata.
+    info: Crimson es un rojo profundo y vibrante nombrado en honor al carminio, el pigmento colorante rojizo tradicionalmente producido del cochinilla (dactylopius coccis). Es también el color de la Universidad Harvard (The Harvard Crimson), y en heráldica recibe el nombre de 'gules'.
+  color.cyan:
+    label: cian
+    summary: Color brillante entre celeste e índigo que forma parte del proceso estándar de impresión.
+    info: El cian es un color vibrante de tono azul-verde claro y en el modelo RGB tiene los valores rojo=0%, verde=100% y azúl=100%. Es uno de las cuatro tintas básicas usadas para imprimir con la tecnología CYMK.
+  color.fuchsia:
+    label: fucsia
+    summary: Color brillante entre morado-rojo típicamente asociado con flores de fucsias.
+    info: El color fucsia es un tono vibrante de púrpura y rosa nombrado en honor a la planta fresa de agua o fucsia (del género Fuchsia). La planta fue bautizada así por el botánico alemán Leonard Fuchs (1501–1566). En CSS e HTML 'fucsia' también se usa como sinónimo para magenta (# FF00FF), una variación similar del mismo rango cromático.
+  color.gold:
+    label: '"oro"'
+    summary: Un intenso amarillo brillante como el valioso metal de oro.
+    info: '{"gold": "El color dorado representa el precioso metal del oro y simboliza riqueza, prestigio, éxito y nobleza."}'
   color.green:
     label: verde
     summary: Color de la hierba y las hojas, color secundario mezclando azul y amarillo.
     info: El verde es un color secundario que se forma al combinar el azul con el amarillo. Simboliza la naturaleza, frescura y vitalidad; además, nuestro ojo lo percibe más claramente de todos los colores.
+  color.grey:
+    label: gris
+    summary: Color entre el azul cielo y el beige claro.
+    info: |-
+      El gris es un color acromático creado al mezclar blanco y negro
+      Se considera que no tiene colores primarios ni secundarios,
+      y en psicología simboliza la imparcialidad o equilibrio.
+  color.indigo:
+    label: Índico
+    summary: Color oscuro entre azulado e ínfimo similar al índice.
+    info: El color índico es un tono profundo de azul púrpura que toma su nombre del pigmento natural índigo obtenido principalmente de la planta Indigofera. Durante miles de años el índigo fue uno de los tintores más valiosos y sigue siendo una referencia en colores como parte del arco iris clásico ROYGBIV.
+  color.ivory:
+    label: Ivorio
+    summary: Blanco cálido similar al colmilo de elefante.
+    info: El color ivory es un blanco cremoso con tonos suaves de amarillo o beige que imita el aspecto del colmilo de elefante. Su nombre proviene directamente de la palabra 'ivoire', usada en francés para referirse al marfil obtenido desde los dientes y huesos de animales como los paquidermes.
+  color.khaki:
+    label: caqui
+    summary: Tono opaco entre amarillento-marronado oscuro usado como color militar.
+    info: El color caqui es una tonalidad apagada de amarillo marrón claro que fue popularizada por el ejército inglés en la India durante el siglo XIX. El nombre proviene del urdu y hindi 'khak', lo cual significa polvo u arcilla. Es actualmente el color base para uniformes militares e indumentaria outdoor.
+  color.lavender:
+    label: lila
+    summary: Un muy claro violeta como las flores de lavanda.
+    info: El color lavanda es un tono suave y clara de morado nombrado por la hierba Lavendel (lavando). Evoca tranquilidad, pureza e imágenes del Provenzal en Francia. En el aroma terapia los olores de lavanda se relacionan con relajación y sueño.
+  color.lime:
+    label: verde limón
+    summary: Color vivo entre amarillento y verdoso similar al color natural de las frutas verdes.
+    info: Lime es un color brillante y saturado de tono amarillo-verdoso que toma su nombre del cítrico limón verde. Es más llamativo que el verde hoja porque contiene una mayor proporción de tonos amarillos. Se usa con frecuencia en diseño gráfico como color destacado o para acciones clave debido a sus altas cualidades visuales.
+  color.magenta:
+    label: fucsia
+    summary: Color brillante similar al rosa-violeta ubicado entre el rojo y el morado.
+    info: El color púrpura o fucsia es un tono intenso entre el rojo y la violeta que no tiene una longitud de onda específica en el espectro visible porque se crea cuando nuestro cerebro mezcla mentalmente los colores rojo y azul.
+  color.maroon:
+    label: castaña
+    summary: Color anaranjado-rojo profundo.
+    info: Castaña es un color rojizo-marrón oscuro nombrado por el castañero en español y popular tanto para la moda como para los trajes deportivos o las prendas militares.
+  color.mauve:
+    label: morado
+    summary: Color apagado entre violetas y rosa.
+    info: El color morado o 'lila' es un tono suave y apagado de púrpura con matices rosados. Su nombre proviene del latín para referirse al arbusto llamado malvasilvestre ('Malva silvestris'). Fue la primera pigmentación sintética creada en laboratorio por antraceno derivada obtenida accidentalmente por el químico inglés Willian Perkins en 1856.
+  color.mint:
+    label: mente
+    summary: Un muy suave color verde similar al sabor de las hojas de menta.
+    info: El color mentolado es un tono fresco y claro de verde nombrado en honor al hierbasanta menta (menthe). Evoca pureza, frescura y sensación refrescante. Es popular como color dentro del diseño interior contemporáneo así también con la estética vintage o estilo años cincuenta.
+  color.navy:
+    label: azul marino
+    summary: Un color azul extremadamente oscuro similar al océano durante la noche.
+    info: Azul marino es una tonalidad muy oscura de azúl que tomó su nombre del uniforme tradicional usado por la Armada Real Británica en el siglo XVIII.
+  color.ochre:
+    label: ocre
+    summary: Color tierra amarilla-café obtenida del mineral ocreso.
+    info: Ocre es un tono tierra amarillo-castaño nombrado por el pigmento óxido de hierro hidratado. Es uno de los primeros pigmentos utilizados en la historia y fue empleado por las personas prehistóricas para pinturas rupestres. Se encuentra naturalmente como piedra ocresa enterrada.
+  color.olive:
+    label: verde olivo
+    summary: Color matizado entre amarillento y verdoso como las olivas.
+    info: El color verde oliva es un tono apagado de amarillo-verde nombrado en honor al aceituno (olea europeae). Es una clásica combinación para uniformes militares y actividades al aire libre por su capacidad camaleónica con el entorno natural.
   color.orange:
     label: naranja
     summary: Color secundario cálido formado por rojo y amarillo.
     info: El naranja es un color secundario que se crea al mezclar el rojo y el amarillo. Simboliza entusiasmo y creatividad; recibe su nombre del fruto de la naranja.
+  color.periwinkle:
+    label: '"color periwinkle"'
+    summary: '"Tono pastel similar al cielo estival mezclado ligeramente con tintura morado."'
+    info: '{"hint":"un azulado violeta como la flor campanilla","info":"El Periwinkle es un tono claro entre el azul y el fucsia que toma su nombre del colorido florecimiento de una planta llamada Vinca menor o Campanillas pequeñas en español común\nSe encuentra dentro del rango cálido entre los colores celeste y lavanda\nPertenece al grupo popular tanto para vestimentas femeninas modernas así también decoraciones interiores románticas por sus cualidades delicadas\nEn código hexadecimal se expresa aproximadamente con \"#ccccff\"").'
   color.pink:
     label: rosa
     summary: Un tono claro de rojo, color suave y adorable.
@@ -34,6 +157,46 @@ cards:
     label: roja
     summary: Caliente color primario del sangre y fuego.
     info: Roja es una de las tres colores básicas de la luz. Evoca energía, pasión y peligro; en muchas culturas simboliza suerte y fuerza.
+  color.rose:
+    label: roja
+    summary: Un delicado toque entre el naranja y el amarillo como la piel dorada.
+    info: Rose es un tono suave de rojo rosado nombrado en honor al color del pétalo de rosa. Se diferencia del fucsia o 'rosa' claro por ser más oscuro y con una nota cálida de carmesí.
+  color.salmon:
+    label: color salmón
+    summary: Tono claro entre fucsia-anaranjado similar al muslo rojo del pez.
+    info: La color salmón es un tono suave de rosa anaranjado nombrado por el color del músculo del salmón; tiene una apariencia más cálida y clara que la coral. Se usa ampliamente en moda como opción sutil al rosado tradicional.
+  color.scarlet:
+    label: carmesí
+    summary: Color rojanaranja intenso; más claro que el granate.
+    info: El color carmesí es un tono rojo brillante con una ligera nota naranja que se llama así por la sustancia teñidora del escarlata. Es más claro y tiene más toques de amarillo anaranjado en comparación al granate. Históricamente representaba tejidos rojos considerados lujo.
+  color.sienna:
+    label: tierra de sicilia
+    summary: Color natural con base mineral que representa una combinación entre anaranjado y café.
+    info: La tierra de sicilia es un color terrosamente rojizo-naranja nombrado en honor al pueblo italiano Sicilia. La raw sienna tiene tonos amarillos-marrones y la burned sienna está más hacia el naranjo-rojizo por estar cocida o quemada. Es popular como pintura cálida para cuadros renacentistas e imita colores naturales del suelo.
+  color.silver:
+    label: Plateada
+    summary: Gris claro brillante parecido al metal plata.
+    info: '{"hint":"un gris brillante como el metal plata","info":"El color plateado es un tono metálico que representa al precioso metal la plata\nSimboliza modernidad, elegancia y tecnología industrial\nEn heráldica corresponde con una de las piezas básicas del escudo junto con oro y azur\nUn automóvil pintado en este acabado es uno de los colores más populares para coches en muchos países","label":"plateado","summary":"Color grisáceo brillante similar al metal plata"}'
+  color.tan:
+    label: castaña
+    summary: Color castaño claro como una tez morena.
+    info: Tan es un color castaño claro que recuerda al suelo o la piel bronceada. El nombre proviene del proceso de curtido con tanino para tratar pieles y cueros.
+  color.teal:
+    label: azul verdoso
+    summary: Un color entre azul y verde que recuerda al mar.
+    info: Teal es un color azulado-verdoso nombrado por el pato común (Anas platyrhynchos), cuyas alas tienen este tono. Es una de las partes altas del espectro turquesa y popular en diseño gráfico como contraste con colores anaranjados.
+  color.turquoise:
+    label: Turqueza
+    summary: Un intenso verde-agua como las aguas tropicales.
+    info: El color turquesa es un tono vibrante de azul-verde nombrado en honor al semiprecioso piedra turmalina o zafiro similar llamada 'turquoise'. Las gemas turquoise eran valoradas ya desde el antiguo Egipto, la Pérsia y América del Norte por su belleza única e histórica importancia cultural.
+  color.vermillion:
+    label: rojo carmesí
+    summary: Color intenso entre anaranjado y rojo similar al cinabrio.
+    info: El rojo carmesí es un color vivo de tono naranja-rojo que toma su nombre del mineral cianita o cinabrio (HgS). Fue uno de los colores más usados en la historia como pigmento rojo. El cinabrio natural contiene mercurio y por lo tanto puede ser tóxico; hoy día ya no se usa el original sino una versión sintética.
+  color.violet:
+    label: violeta
+    summary: Color entre el azul y el rojo al final del espectro visible.
+    info: El violeta es un color en el extremo del espectro visible con una longitud de onda aproximada entre los 380 y 420 nanómetros. Su nombre proviene de la flor llamada viuda o violacoide (del género Viola). En términos cromáticos, difiere del púrpura porque está más cerca del azul que este último.
   color.white:
     label: blanca
     summary: El color más claro, reflejo de toda la luz.

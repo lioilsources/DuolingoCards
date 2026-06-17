@@ -2,22 +2,186 @@ lang: la
 pivot: false
 title: Emotio
 cards:
+  emotion.amazed:
+    label: '"astunit"'
+    summary: '{"summ":"Fortis positiva miraculum experientia dum aliqua singulariter res accidit."}'
+    info: '{"inf": "Astitutio est potentia affectus qui exspectatur cum aliquod magnificum vel mirabile occurrit. Astatutio diminuit sensum propriae insignis et incrementat sententiam connexionem circum."}'
+  emotion.amused:
+    label: gaudium
+    summary: Facilis voluptas vel sollertia.
+    info: Gaudium est affectus positiva moderata causatus aliquo faceti aut mirabili rebus. Differt ab risu; rix est effectum gaudi et non omne gaudebit ridendo. Est communis inter homines emotio; res nobiscum plerique facetae sunt cum aliis communicamus eas.
   emotion.angry:
     label: indignatus
     summary: Sentire fortem indignationem vel iram, esse exasperatum.
     info: Indignatio est affectus ut reactio ad perceptam iniustitiam aut minacem. Aumentat frequention cordis et parat corpus ad reactionem 'pugna vel fugi'.
+  emotion.annoyed:
+    label: ira facile
+    summary: Pars furoris minima propter irritantia reiterata.
+    info: Ira facilis est affectus minor qui excitatur ab irratione repetita et saepius antecedit furiam magnum. Potest causari ex insomnio vel fame aut excessu laborum.
+  emotion.anxious:
+    label: anxia
+    summary: Incommoda sensim turbiditate ac timoris incerti futuro.
+    info: |-
+      {"hint":"sentire turbinis anxietas","info":"Anxietas est affectus praecipiens periculum futurum; modica anxietas adhibetur et efficacia melioratur.
+       Corporaliter manifestatur sic: pulsatio cordis accelerata, sudoratus cutis, respiratione brevis vel celeriore ritu respirare, musculorum tensionem.
+       Anxiitas patologica communissima mentale morbus esse dicitur atque plus quam trescentos milliones hominibus affert.
+       Therapia cognoscens comportamentalem (TCC), quae optimam curandam ansiitates considerari potest."}
+  emotion.bored:
+    label: otium
+    summary: Sensuum carior atque vacuitas sine incitantibus.
+    info: Otium est affectus emotionalis qui ex defectu stimulorum vel activitate non significativa originem capiat. Potest ad quaerendum nova experientia aut cogitatione creativa moveri et evolutionari ratione occasiones quaerebat. Investigationes ostendunt otiositas chronicam depressionem incrementare.
   emotion.calm:
     label: tranquillus
     summary: Sentire pacem interiorem et commodum, esse tranquillo.
     info: Tranquillicitas est status aequilibri mentis et corporis. Mitigit pulsus cardiacum, profundat respirationem et permittit cogitationem claram et bonam decisionem.
+  emotion.cheerful:
+    label: gaudium
+    summary: Status placidus hilaritate ac optimismo.
+    info: La gaudium est status emotionalis positiva cum vive animadversione et bona dispositione. Est contagiosus atque praesentia hominis gaudentis meliorat circumstantiam aliarum personarum.
+  emotion.confident:
+    label: confidentia
+    summary: '{"summ":"Fides propriae virtutibus et pretio."}'
+    info: '{"inf": "Confidentia est status emotionalis fiduciae in proprias facultates et iudicium\nPostura erecta, contactus ocular directus atque vox tranquilla sunt manifestationes confidentiæ\nCuddum Amy (oratio TED anno MCMXII) posuit gesturas potentiales ut modus incrementandi confidentiam\nPotes crescere per successiones parvas gradibus ac feedback affirmativo"}'
+  emotion.confused:
+    label: confusio
+    summary: Sentire dubitationem quando aliqua situtatio vel informatio non intelleguntur.
+    info: Confusio occurrit cum nobis deficit contextu aut scientia ad rem intelligendam capessere. Est naturaliter pars discendi et cognoscens dissidium responsum quaerendum excitat. In facie ostenditur inclinando capita atque rugiendo fronte.
+  emotion.content:
+    label: contentio
+    summary: Tranquillitas atque silentia contentiones abs te desiderando.
+    info: Contentio est status emotionalis tranquillus et positivus sine necessitate mutationis. Differt ab felicitate; contentio tranquilla est, dum felicitas vivida sit. Buddhismus ponit contentionem vel satisfactiorem ut virtutem cardinem ad illuminationem pergentium.
+  emotion.curious:
+    label: curiositas
+    summary: Desiderium noui cognitionisque.
+    info: Curiositas est status motivationis qui initiat quaerendum nova informationes et experientias. Est connecta cum systemate retributionum dopamineae; curiositas vere gaudium praebet. Importans ad progressus scientificos atque development personale.
+  emotion.delighted:
+    label: exulter
+    summary: Potens gaudium de evento grato aut miraculo.
+    info: '{"infotext":"La gaudium exultans est potentia affectus positiva qui excitatur ab eventibus gratissimis vel mirabilibus\neius fortior esse potest quam gaudium simplex et motuum vehementiorum signa praebere sicut saltare clamare riretur\nfundamentale functionem evolutionariam habet ut incrementum sit aditus quem bonos exitus sequuntur\netiam socialiter contagiosa videtur laetus cum aliquo partiri plusquam duplicat effectum","titletext":"gaudium exultans"}'
+  emotion.determined:
+    label: resolutio
+    summary: Intentio fortis ad attigendum scopum quamdiu impedimenta sunt.
+    info: 'Resolutio est status emotionalis motivationalis cum intentione concentrata et perseverantia. Apparet per masticam clausuram, corpus tensum atque aspectu intenso. Cognatum est conceptui ''grit'' secundus Angelae Duckworth: combinatio passionis ac perseverationis.'
+  emotion.disappointed:
+    label: dolor
+    summary: Incommoda sensatio quando rerum veritas nostras expectationes non implebit.
+    info: Dolorem causat cum res expectata non eveniat aut desiderium non satisfaciet. Intensius fit dum affectus vel labor altior sit. Investigationes monstrant expectationem esse clavem; minores expectationes dolorem minus efficunt.
+  emotion.disgusted:
+    label: '"nausea"'
+    summary: '{"summ" : "Fort sens aversionis cum aliqua res immissibilis occurrit."}'
+    info: '{"inf": "Nausea est affectus fundamentalis qui protegit nos ab rebus nocivis vel perniciosis ut cibos venenatos aut malas sanitates. Function evolutiva eius consistit in repellendo alimentorum corruptorum consumptionem et ostenditur ad exemplo rugosis nasibus lingua protrusa atque expressione conspicua. Potest quoque excitari ex actibus immorali ac turpiter maleficis agendi genere seu moraliter repugnantia comportamento."}'
+  emotion.embarrassed:
+    label: verjenus
+    summary: Incommoda sensatio pudoris aut culpae apud aliquos homines.
+    info: Verjenus est emotio socialis qui nascitur cum credimus nos leges sociales violasse; manifestatur rubore faciei et aspectu dejecto vel capite ad latus versus deviato. Habet functionem sociale ut signale aliis nostram scientiam circa regulas ac voluntatem eas tenere.
   emotion.excited:
     label: gaudens
     summary: Sentire fortis gaudium et exspectationem iucundam.
     info: Gaudium est intensa affectus positiva cum expectatio eventus gratissimi. Augeat vim, acceleret cor et creativum cogitationem fovet.
+  emotion.frustrated:
+    label: ira
+    summary: Sentire iratum quando impedimentum exit quemdam scopum attingendi.
+    info: '{"inf": "Ira est affectus qui exigitur cum nostri finis impediuntur aut obstaculis. Potest ad actionem constructivam vel destructivam perducere; exempli gratia quaerendo alterna remotione obstatium seu aggressione. Theoria frustrationis fuit theorica influens saeculi XX decennii anni 1920. Corporalia significationes sunt manus compressae, rubor faciei et tension musculorum."}'
+  emotion.grateful:
+    label: gratum
+    summary: '{"summ":"Calidum sensu recognitione bonorum habitorum vel acceptorium."}'
+    info: '{"inf": "Gratia est affectus positiva qui exstat cum bonitas vitæ nostrae consciatur. Investigatio scientifica de gratiis demonstravit quod exprimere regulare gratias incrementa satisfactiones et activat regiones cerebri similes voluptati corporali. Scriptura quotidiana rerum propter quas gratus sum efficacissima methodus ad meliorandam dispositionem."}'
+  emotion.guilty:
+    label: vinōta
+    summary: Dolor ā factâ quae nostras leges moralēs violavit.
+    info: |-
+      Vinota est affectus qui post actum quem pro malam rem existimamus ortus fit.
+      Differt ab pudore; vinotās singularem cōgitatum spectat et non tota personam tamquam studebat.
+      Functio socialis habet ut ad veniam petendam atque reparandam motoret ac mores confirmât;
+      vīna autem immoderata vel contūra depressĭonem ducere potest.
   emotion.happy:
     label: felix
     summary: Gaudium aut voluptatem sentire vel esse in bono dispositione.
     info: Felix est affectus placens cum liberatio dopamine et serotonini associatur. Apparet risu, gestibus vivis et corpore aperto.
+  emotion.hopeful:
+    label: spēs
+    summary: Sentire optime de futuro.
+    info: Spes est affectus qui constringitur ex desiderio melioris futuri et fide eius consecutione posse. Est factor principal resistentiae mentalis difficilibus circumstantibus. Investigationes monstraverunt patientes cum magno spe celerius convalescere.
+  emotion.hopeless:
+    label: desperation
+    summary: Sentire nihil bonorum futurum esse.
+    info: Desperatio est status emotionalis negativus qui per persuasionem indicat impossibilitatem meliorationis conditionum. Est elementum clavis depressionis et factor risici suicidaliter activi. Model Aaronis Beck cognoscens therapiam designavit desperationem ut persuasio centralis.
+  emotion.inspired:
+    label: inspiration
+    summary: Excitamentum creativi quod movet ad actionem inventricem.
+    info: '{"inf": "Inspīratio est status affectīvis qui praestat exhortatione ad actum creativam cum excitatio et motiva subitanea. Hoc saepius connectitur cum phantasia vel experientia mirabili aut persona notabilis. Neuroscienter activatur cortex frontalis anterior atque nucleus retributionis. Potest collocari per medium amoenum, quaesitionem regulariter intentam ac aperturam pro nova experimenti."}'
+  emotion.irritated:
+    label: irritabilitas fortius
+    summary: Status maioris sensitivitatis propter minima stimula proximus furius
+    info: Ira facilior est status emotionalis cum maior reactio ad parva stimuli apparens sit etiam minus gratae reactiones excitet potest esse signum exhaustionis aut insomnia vel aggregatum stressum mulieres adolescentales praegnantem seu climacterium habentes iram facilitorem ex causis hormonalibus experiri possunt differentia inter veri furoris atque irritabilitatis moderati regulationem mentalem promove
+  emotion.jealous:
+    label: invidia
+    summary: Emotio negativa propter comparationem inter homines.
+    info: Invidia est affectus qui exstat cum sentimus alterum aliquid habere quod nosmet voluerimur. Differt ab ira et geliditate; invidentia spectatur ad alienas utilitates, dum cupiditas vellet ut id nostrum sit. Potest motorem esse melioris operationis aut ressentimenti causam fieri.
+  emotion.joyful:
+    label: '{"labe": "gaudium"}'
+    summary: '{"summery": "Emotio positiva intensissima repleta felicite."}'
+    info: '{"inf":"La gaudium est emotio positiva intensa et plena felicitatis. Est connectum cum motivatione interna atque statu fluxus secundum Csikszentmihaeliam. Function evolutiva eius fortis vincula socialia ac motorem ad comportamentum utiliter agendum confirmat."}'
+  emotion.lonely:
+    label: solitudo
+    summary: Dolor quod contactus cum aliis desinit.
+    info: Solitudinem sentimus subiective et non dependet ab actuale numero homines circumstantium nostrorum. Solus sensus est fortis praedictor pro problemibus sanitatis corporalis; solitudo chronicum vitam brevietat. Cerebrum dolores sociales eodem modo respondet ut ad dolore corporeae.
+  emotion.loving:
+    label: amor
+    summary: Profundus sensus affinitatis vel passionis versus alium.
+    info: 'Amor est complexa passio quae concludit inclinationem affectumque ad alteram personam cum fiducia et intimitate. Neurochemicaliter connectitur cum oxycytocinae dopamine ac serotonine. Helen Fishere trias systemata distinguit: libidinosam cupidine amoremque romanticum atque firmius nexum.'
+  emotion.melancholy:
+    label: melancolia
+    summary: Tristes modicus cum meditatione ac pulchritudinis.
+    info: Melancolia est affectus meditative triste qui mixt dolorem et contemplationem cum aliqua dulcedine. Derivatur ab Graeco verbo significante bilium nigrum 'mela' et 'chole'; antiqui medicorum attribuebant eam excessui bili nigri. Differt a depressione per elementum aesthetica quod frequentiter celebrat artem, musicam atque litteras.
+  emotion.miserable:
+    label: tormentor
+    summary: Summus dolor cum odio; summus gradus lugentiae.
+    info: '{"inf": "Tormentum est status emotionalis intensus et malus qui profunda aversione ac dolore characterizatur\u00c7\u00a9 Potest esse causatum dolore corporali aut laesione affectiva vel amissione\u00c6 \u0085 Tormentum chronicum depressio signum potest esse\u00c4 \u00b4 Supportatio socialis atque auxilium professionale ad tormentorum graviorum solutionem sunt necessaria"}'
+  emotion.nervous:
+    label: timor
+    summary: Parva anxietas antequam aliqua res accidat; sensim alarum volucrum in intestinis.
+    info: '{"label":"timor","summary":"Timoris parum ante aliquam rem futuram; papilionis ventris sensus."}'
+  emotion.nostalgic:
+    label: dolorem dulum
+    summary: Doloris suaviter acerbum de antiquitate.
+    info: In dolorem dulcem est affectus quem sentimus cum rememineramus praeterita quae sunt etiam amara propter tempora iam transita.
+  emotion.optimistic:
+    label: optimum
+    summary: Expectatio boni fructus futuri.
+    info: Optimus est stilus cognoscens-affectuosus caracteristicum expectationis bonorum eventuum. Martinus Seligmann (psychologia positiva) optimismo designavit factorem clavis resistentiae. Optimisti longius vivunt et sunt sanitiores atque prosperior.
+  emotion.overwhelmed:
+    label: overloading
+    summary: A feeling that there is simply too much on us all at once.
+    info: Overload occurs when demands exceed our capacity to cope. It manifests through cognitive failure (inability to think clearly), emotional outbursts, or freezing up.
+  emotion.peaceful:
+    label: Tranquilitas
+    summary: Sentio profundum interius pace et commodo.
+    info: |-
+      {"hint":"sentire tranquillum et liberum ab perturbatione","info":{"label":"tranquillitas","summary":"Profundus sensus internae pacis ac commoditates","infobox":"> Tranquillex est status emotionalis positiva absens stress atque turbationes\r
+      > Est finem meditationum practicarum praecipue mindfulnesse & Zen meditatione\r
+      > Activat systemam nerveum parasym patheticum: minuit frequenciam cardiacam & sanguinis tensionem\r
+      > In eco-psycologia habitatura naturale unum ex efficacissimis modis adhuc tranquilitatem consequendi"}}
+  emotion.pessimistic:
+    label: pessimum
+    summary: '{"summ":"Inclinatio expectandi male atque attendere pejora."}'
+    info: '{"inf": "Pessimismo est habitudo cognitionis et affectiva praesumendi res malas eventuras\nmatur pessimismus potest esse utilis ad pericula evitanda cum rationabiliter peneat quid sit periculosum\npersistenti pessimismo sunt coniecta maior risicum depressionis ac deteriorior status sanitatis\ncura cognoscens comportamentalem mutare modos cogitationis pessimisticos"}'
+  emotion.playful:
+    label: lusor
+    summary: Animata anima desiderans delectationes ac ludes.
+    info: 'Lusoria est status emotionalis qui gaudium ludens et humorum cum experimentationem praestat. Apud adultos positiva creativitates atque boni sanitatis mentalis predictio videtur esse. Function evolutiva: habilitates exerceantur intra contextum secures. Stuart Brown Institutum National Pro Ludere demonstravit ludo ad sanam operationem omnibus aetate necessarium.'
+  emotion.proud:
+    label: superbia
+    summary: Sentimentum positivo de satisfactio ab suis triumphis seu communitate
+    info: |-
+      {"hint":"sentire satisfactione ex successibus suis vel expansionem thoracis","info":"Superbia est affectus cum sensu victoriae aut affinitatis ad aliquid pretiosum\r
+      Sto erecta capite elevato et expansi pectoris sunt significationes universalium superbie \r
+      Potest esse salubre(motiva progressio)vel insalubris(arrogantia).\r
+      In doctrina Hinduismi Superbia( Ahamkarā )obstacula spirituales progressionis."}
+  emotion.relieved:
+    label: solatio
+    summary: Grata sententia liberationis post desistere pressionem seu minas.
+    info: Solacium est affectus qui experitur post remotionem stressis aut timoris vel doloris. Manifestatur expiratione profunda et relaxatione musculorum cum sensu levitate. Evolutionari importante notificat quod periculum discesserit atque quietam esse possimus.
   emotion.sad:
     label: tristis
     summary: Sentire dolorem vel insatisfactum esse, depressus esse.
@@ -26,6 +190,26 @@ cards:
     label: timidus
     summary: Sentiremetum vel formorem de periculo aut minacem.
     info: Timor est affectus defensivus fundamentalis. Inducit liberatio adrenaline, accelerat cor et parat corpus ad fugam vel protectionem.
+  emotion.serious:
+    label: gravitas
+    summary: compositio tranquilla sine humore
+    info: |-
+      {"lang":"lat","value":{"label":"gravitas","summary":"Comportamentus serius et sine ioco; intentio ad res graviora.","info":"Gravitas est affectiva actitus cum intentione ac deficiente levitate.
+      Est importantis in situationibus quae requirunt attentionem atque considerationem diligenter.
+      Potes diversimode culturaliter percipi; ubi aliquot culturae gravitatem honorantur aliae eam cum indigentia coniungunt.
+      Aequilibrium inter gravitatem et ludicrum clavis elasticitatis psycologicum esse videtur."}}
+  emotion.shocked:
+    label: stupor
+    summary: Subitus omniscendus ab aliquo nova res.
+    info: |-
+      {"hint":"sentire subitum miram fretus","info":"Stupor est intensa passio ex aliqua non expectata vel admirabili re excitatur et causatur.
+      Apparet cum súbito motuum suspensione ore aperto pupillisque dilatis.
+      Praevalebat adhibere evolutionem functionem ut cesseret activitas ac novas informationes processerent.
+      Passiones emotionales stuporem aut traumatismos longi tempore potest habere consequens mentalem."
+  emotion.shy:
+    label: timiditas
+    summary: Anxios inhibitio inter actiones sociales, prae omni cum aliene personam.
+    info: Timor est emotio socialis manifestans anxietatem et inhibicionem praesentia alienorum hominum. Cum persona introversa coniunctus esse videtur sed non id ipsum sunt. Modicus timor naturaliter occurrit; gravis species eius (phobia socialis) operatione vitium imponit.
   emotion.surprised:
     label: miratus
     summary: Sentire subitum miramentum super eventu inexpectato.
@@ -34,3 +218,11 @@ cards:
     label: fatigatus
     summary: Sentire fatigationem corporalem vel mentalem et requirere requiem.
     info: Fatiga est signum corporis quod requirit requiem. Apparet dormientia, tarditate reactionum et diminuta facultate concentendi.
+  emotion.upset:
+    label: turba
+    summary: Status affectuum malevolentium propter incidentes adversos.
+    info: Turba est status emotionalis generaliter malus qui mixt tristitem iracundiamque et anxietatem. Est responsio ad eventum molestum vel frustrantem aut conflictum. Physiological turbinat axim stressorum HPA per incrementum corticosteronis.
+  emotion.worried:
+    label: sollicitudo
+    summary: Iterata cogitation cum effectibus malorum futurorum.
+    info: Sollicitudo est status emotionalis cognoscens qui se concentret super anticipationem minarum possibilium. Sollicitudinis modica sunt adaptionia et motiva pro paratione futura. Tamen sollicitudo chronica vel morbus anxietatis potest quotidiana operationes perturbare.

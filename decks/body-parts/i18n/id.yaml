@@ -2,18 +2,85 @@ lang: id
 pivot: false
 title: Bagian Tubuh
 cards:
+  body.ankle:
+    label: pergelangan
+    summary: Sendi penghubung antara telapak kaki dan bagian bawah tungkai.
+    info: Pergelangan kaki adalah sendi yang menghubungkan betis dengan telapak kaki dan terdiri dari tiga tulang. Sendi ini memungkinkan gerakan naik-turun serta sedikit pergerakan ke samping pada telapak kaki.
+  body.arm:
+    label: lengan
+    summary: Anggota badan di antara bahu hingga ke pangkal tangan.
+    info: Lengan adalah anggota tubuh atas yang terdiri dari tiga bagian yaitu lengan atas, pergelangan kaki dan telapak tangan serta jari-jarinya sendiri.
+  body.back:
+    label: pundak
+    summary: Bagian belakang badan.
+    info: Punggung adalah bagian belakang tubuh dari tenggorokan ke paha bawah yang mengandungi tulang belakang dengan sekitar 33 ruas vertebra dan otot pinggang di sekelilingnya. Nyeri pada daerah ini merupakan salah satu penyebab utama ketidakmampuan bekerja karena cedera atau kondisi medis lainnya.
+  body.belly_button:
+    label: sutia
+    summary: Bekas luka di tengah perut setelah pemotongan tali pusat.
+    info: Sutia merupakan bekas ikatan dari tali pusat yang menjadi jalur nutrisi janin selama dalam rahim ibunya.
+  body.bone:
+    label: tulang
+    summary: Jenis jaringan ikat padat penyusun kerangka tubuh.
+    info: Tulang adalah jenis jaringan keras yang terdiri dari sel-sel tulang dan garam mineral seperti kalsium serta fosfor. Kerangka manusia memiliki total 206 batang tulang pada masa dewasa—bayi lahir dengan lebih dari 300 tulang karena banyak di antaranya akan bersatu saat bertumbuh. Sumsum tulang berfungsi menghasilkan darah merah, putih maupun trombosit.
+  body.brain:
+    label: otak
+    summary: Pusat kendali tubuh yang merupakan struktur biologi tertinggi di alam semesta.
+    info: |-
+      Otakar manusia memiliki berat sekitar 1,4 kilogram dan mengandung lebih dari 86 milliar sel saraf atau neuritma.
+      Ia terbagi menjadi dua belahan otak yaitu kanan kiri;
+      bagian kirinya memimpin fungsi tubuh bagian kanan begitu pula sebaliknya.
+  body.calf:
+    label: betis
+    summary: Bagian belakang tungkai di bawah lutut.
+    info: Betis adalah otot bagian belakang dari tungkai bawah antara lutut dan pergelangan kaki yang berfungsi untuk menopangkan tubuh saat melompat atau mengambil langkah panjang serta membantu aliran darah vena ke jantung.
+  body.cheek:
+    label: pipi
+    summary: Wilayah tebal dengan sedikit lemak di kedua sisinya muka.
+    info: Wajah adalah bagian di sisi wajah yang mengandung tulang pipi dan pad berlemak. Merona pada pipi atau erythem merupakan respons alami terhadap perasaan seperti malu ataupun gembira.
+  body.chest:
+    label: rongga toraks
+    summary: Bagian depan dari badan manusia dengan adanya hatinya beserta paru.
+    info: Rongga thoraks adalah bagian depan tubuh yang dibatasi oleh tulang rusuk, sternum dan sumsum belakangnya sendiri. Rongganya melindungi organ penting seperti jantung serta paru-parunya juga.
+  body.chin:
+    label: mentum
+    summary: Bagian bawah dari wajah di belakang bibir bawah.
+    info: Mentum adalah bagian paling bawah wajah yang dibentuk oleh rahang bawah manusia dan merupakan ciri unik dalam dunia hewan karena tidak dimiliki spesies primate lainnya. Fungsi pastinya masih menjadi topik perdebatan ilmiawan.
   body.ear:
     label: telinga
     summary: Organ indra pendengaran di sisi kepala.
     info: Telinga menangkap gelombang suara dan mengirimkannya sebagai sinyal saraf ke otak. Telinga juga memiliki sistem keseimbangan (sistem vestibular).
+  body.elbow:
+    label: sendi
+    summary: Sendi melengkokkan lengkap tubuh.
+    info: Siku adalah sendi di bagian sisi eksternal dari hubungan antara tulang pengumpil dan hasta yang memungkinkan fleksi serta estensi tangan beserta perputaran pada area hasta. Fakta menariknya yaitu kulit di daerah sikut tidak memiliki sel sentuhan tertentu.
   body.eye:
     label: mata
     summary: Organ indra untuk penglihatan dengan iris berwarna.
     info: Mata manusia dapat membedakan sekitar 10 juta nuansa warna. Retina mata mengandung batang (untuk melihat dalam keadaan redup) dan kerucut (untuk penglihatan berwarna).
+  body.eyebrow:
+    label: alis
+    summary: Deret rambut pada setiap sisi wajah; penting dalam mengekpresikan mimik.
+    info: Alis adalah deret rambut di atas kelopak mata bagian luar yang berfungi untuk melindungi mata dari keringat dan hujan serta membantu ekspresikan emosi secara nonverbal.
+  body.eyelash:
+    label: bulu
+    summary: Deretan helai-helai lentur membentuk garis lengkap disepanjang pinggir kelopak mata guna menjaga keamanannya.
+    info: Bulu mata adalah rambut pendek melengkung yang tumbuh di tepi kelopak mata dan berfungsi untuk menghalau debu, keringat serta benda-benda asing dari permukaan bola mata. Manusia dewasa memiliki antara seratus hingga lima belas bulu pada bagian atas alis matanya masing-masing sementara jumlahnya lebih sedikit yaitu hanya separonya saja dibawah.
+  body.finger:
+    label: telapak
+    summary: Satu dari lima telapan pada kaki.
+    info: Jari adalah salah satu dari lima jemari di setiap tangan manusia yang terdiri atas tulang-tulang kecil disebut ruas atau phalanges—ibu jari memiliki dua ruas dan empat lainnya masing-masing mempunyai tiga.
   body.foot:
     label: kaki (telapak kaki)
     summary: Bagian bawah kaki yang digunakan untuk berdiri dan berjalan.
     info: Telapak kaki menopang seluruh berat tubuh dan memungkinkan jalan dengan dua kaki. Ia memiliki 26 tulang, 33 sendi, serta lebih dari 100 otot, tendon, dan ligamen.
+  body.forehead:
+    label: '"dahi"'
+    summary: '"Bagian depan tengkorak di atas alis mata; tempat untuk ekspresi emosional"'
+    info: '{"hint":"bagian wajah di atas alis","info":"Dahi adalah bagian depan tengkorak yang berada di atas alis dan di bawah garis rambutnya. Ini merupakan salah satu area terlihat saat mengekspresikan emosi; kerutan dahi menggambarkan kekhawatiran atau ketidaknyamanan. Di banyak budaya, tanda pada dahinya memiliki makna simbolik seperti dalam upacara perjanjian maupun status sosial tertentu. Dalam bidang saraf otak lobus frontalis dikaitkan dengan proses merencana serta pengambilan keputusan."}'
+  body.hair:
+    label: rambut
+    summary: Serpihan atau filamen organik berpigmentasi pada permukaan tubuh.
+    info: Rambut adalah serabut protein yang tumbuh dari pori-pori di kepala manusia dan terdiri utama atas lapisan kulit mati serta pigmen melamin.
   body.hand:
     label: tangan
     summary: Bagian lengan yang berujung dengan lima jari.
@@ -26,11 +93,118 @@ cards:
     label: jantung
     summary: Otot yang memompa darah secara terus-menerus ke seluruh tubuh.
     info: Jantung adalah otot berongga sebesar ukuran kepal tangan yang berdetak rata-rata 70 kali per menit. Sepanjang hidupnya, jantung akan memompa darah sejauh tiga putaran Bumi.
+  body.heel:
+    label: betis
+    summary: Bagian belakang bawah dari telapak kaki yang membantu mendukung tubuh.
+    info: Tulang betis adalah tulang terbesar di kaki dan menopang sebagian besar berat badan saat kita berdiri atau melangkah.
+  body.hip:
+    label: paha
+    summary: Daerah di dekat panggul; salah satu dari beberapa bagian penting dalam anatomi manusia.
+    info: Paha adalah daerah di sekitar sendi pinggul yang menghubungkan tulang femur dengan panggul dan berfungsi sebagai persendian bola untuk menahan beban tubuh saat jalan kaki.
+  body.jaw:
+    label: rahang
+    summary: Tulang wajah bagian bawah yang digunakan untuk mengunyah dan berbicara.
+    info: Menggerai atau rahang adalah satu-satunya tulang tengkorak yang dapat bergerak dan memungkinkan mengunyah, menelan serta berbicara.
+  body.kidney:
+    label: ginjal
+    summary: Pasangan organ yang bertugas untuk menyaring darah dan memproduksi air seni.
+    info: |-
+      Ginjal adalah organ berbentuk seperti kedelai yang terletak di bagian belakang rongga perut dan merupakan salah satu dari dua ginjal tersebut.
+      Mereka menyaring lebih dari 180 liter darah setiap hari serta menghasilkan antara 1 hingga 2 liter urin.
+      Organ ini juga memiliki sekitar juta unit penyaringan bernama nefron.
+  body.knee:
+    label: lutut
+    summary: Sendi utama pada bagian tengah tungkai menghubungkan panggul dengan betis.
+    info: Paha adalah sendi terbesar di tubuh manusia dan salah satu yang paling kompleks. Terdiri dari tulang femur, ligamen silang dalam lutut seperti anterior cruciate ligament atau ACL serta posterior cruciate ligaments/PCL.
+  body.leg:
+    label: kaki
+    summary: Anggota badan bawah mulai dari pinggul hingga pergelangan.
+    info: Kaki terdiri dari paha, betis dan telapak kaki serta disesuaikan untuk berjalan dengan dua kaki; mengandung otot yang sangat kuat seperti quadriceps femoris.
+  body.lip:
+    label: bibir
+    summary: Salah satu dari dua tepi berdaging di sekitar celah mulut.
+    info: Bibir adalah salah satu dari dua jaringan daging yang membentuk batas mulutnya. Mereka memiliki banyak ujung saraf dan sangat sensitif. Warna bibir disebabkan oleh perdarahan; warna biru pada bibir dapat menunjukkan kekurangan oksigen.
+  body.liver:
+    label: hati
+    summary: Organ dalam tubuh paling besar; laboratorium kimia bagi makhluk hidup.
+    info: Hati adalah organ internal terbesar dengan berat lebih dari 1,5 kilogram dan menjalankan sekitar 500 fungsi seperti menyaring darah, memproduksi empedu, mensintesis protein serta menimbun glikogen. Hanya hati yang memiliki kemampuan untuk beregenerasi secara lengkap hanya dari sisa-sisanya saja. Konsumsi banyak minuman keras atau toksin dapat mengakibatkan sirosis yaitu kerusakan parut pada liver.
+  body.lung:
+    label: paru
+    summary: Organ berpola pasangan pada rongga torak untuk menyaring oksigen.
+    info: Paru-paru adalah organ berpasangan di rongga thoraks yang tersusun dari jutaan gelembung paru (aveoli). Luas total permukaan aveoli dalam paru-paru sekitar 70 meter persegi. Manusia dewasa bernapas antara 12 hingga 20 kali per menit dan menghirup kurang lebih 500 milliliter udara setiap napasnya.
   body.mouth:
     label: mulut
     summary: Lubang di wajah yang digunakan untuk makan, minum dan berbicara.
     info: Mulut memulai proses pencernaan—gigi mengunyah makanan, air liur mencerna bahan makanan tersebut. Mulut juga merupakan alat utama dalam berbicara dan berkomunikasi.
+  body.muscle:
+    label: otot
+    summary: Jaringan elastis bertugas menghasilkan pergerakan aktifitas fisik.
+    info: Otot adalah jaringan yang mampu berkontraksi dan memungkinkan gerakan tubuh manusia. Tubuh manusia memiliki lebih dari 600 otot yang membentuk sekitar 40% massa tubuhnya; otot masseter di rahang merupakan otot terkuat sedangkan otot martialis kecil pada telinga tengah menjadi yang termudin. Terdapat tiga jenis utama yaitu rangkaian volunter seperti biasanya dikendalikan secara sadar oleh kita sendiri meliputi organ dalam serta miokardium spesifik untuk fungsi detak.
+  body.nail:
+    label: kuku
+    summary: Plakat keras berbahan dasar kerten ditemukan di puncak-puncak jarum-jaringan tubuh manusia.
+    info: Kuku adalah plat keras dari protein yang disebut kertin di ujung setiap jari tangan dan kaki. Mereka melindungi bagian akhir sensitif pada tiap-tiapo jemari serta membantu menggenggam benda kecil lebih baik lagi.
+  body.neck:
+    label: leher
+    summary: Bagian tubuh yang menyambungkan kepal dengan badan lainnya yaitu paha hingga kaki.
+    info: Leher adalah area antara tengkorak dan bagian tubuh yang mengandung tujuh tulang belakang serviks. Di dalamnya terdapat struktur penting seperti arteri utama, kerongkongan esofagus, cabang bronkus paru-paru serta sumsum tulang belakang. Leher juga memiliki sejumlah otot untuk memutar atau menengokkan kepala.
   body.nose:
     label: hidung
     summary: Organ penciuman dan pernapasan di tengah wajah.
     info: Hidung menyaring, menghangatkan, dan mengembunkan udara yang dihirup. Mampu membedakan lebih dari satu miliar aroma berbeda dan erat kaitannya dengan ingatan serta emosi.
+  body.palm:
+    label: telapak
+    summary: Permukaan bagian bawah tangan dengan jumlah reseptor sensorik terpadat.
+    info: Telapak adalah permukaan dalam telapak antara jari dan pergelangan tangan yang mengandung kumpulan reseptor sentuh sangat padat seperti tubulus Meisner.
+  body.shoulder:
+    label: bahu
+    summary: Persendiannya menghubungkan lengan dengan badan.
+    info: Bahu terdiri dari kepala tulang belikat dan cekungan pada bahunya sendiri serta memiliki rentang gerak yang lebih luas daripada persendian tubuh lainnya karena bentuk bola berongga di dalamnya.
+  body.skin:
+    label: kulit
+    summary: Organ terbesar tubuh yaitu kulit bertugas sebagai pelindung diri, pengendali panas & penyebab rasa.
+    info: kulit adalah organ terbesar tubuh manusia yang menutup area sekitar 2 meter persegi dan berfungsi untuk melindungi dari infeksi serta radiasi ultraviolet, mengatur suhu badan, menyentuh benda-benda secara fisik dengan indra peraba, sintesis vitamin D di dalamnya sendiri selama proses metabolisme alami kulit itu juga menciptakan lingkungan bagi jutaan bakteri hidup pada setiap sentimeter kuadrat permukaannya.
+  body.spine:
+    label: rahim
+    summary: Sebuah struktur dari 33 tulang belikat yang menjaga keamanan saraf spinal serta memberikan dukungan pada badan.
+    info: Rahang belakang adalah rangkaian dari 33 tulang belikat yang menghubungkan tengkorak dengan sakrumnya. Rahim melindungi sumsum dan berfungsi sebagai penyangga utama tubuh manusia. Di antara setiap ruas terdapat cakram intervertebralis yang bertugas menyerap benturan.
+  body.stomach:
+    label: perut
+    summary: Bagian depan badan di bawah dadah atau secara umum disebut sebagai perut.
+    info: Perut adalah bagian depan tubuh antara dada dan panggul yang berisi organ pencernaan seperti lambung, usus, hati, pankreas, serta limpa.
+  body.temple:
+    label: wilayah temporal
+    summary: Daerah empuk di dua sisu wajah antara alis mata dengan rahang.
+    info: Wilayah temporal adalah bagian datar di kedua sisi dahi yang berada di atas tulang pipi dan depan telinga. Anatominya merupakan daerah lebih lunak dari tengkorak (bagian skamosus pada tulang temporal), sehingga rentan terhadap benturan keras.
+  body.thigh:
+    label: paha
+    summary: Bagian kaki antara pangkal paha hingga ujung betis dengan jumlah otot besar.
+    info: Paha adalah bagian dari anggota tubuh bawah yang terletak antara sendi pinggul dan lutut. Ini mengandung kelompok otot tertinggi di seluruh badan yaitu quadricep femoris empat kepala serta hamstringsnya juga termasuk ke dalam itu.
+  body.throat:
+    label: tenggoro
+    summary: Ruang penghubung antara mulut dengan kerongkongan serta trakea.
+    info: Tenggorokan adalah rongga di belakang hidung dan mulut yang berfungsi sebagai jalur udara maupun makanan.Organnya juga mengandung amandel sebagai bagian dari sistem kekebalan tubuh.Refleks tenggoroka melindungi agar benda-benda asing tidak terhirup.
+  body.thumb:
+    label: jempol
+    summary: Ibu jari pada tangan merupakan bagian tubuh berupa tulisan singkat.
+    info: Jari kelingking adalah ibu jari tangan yang tebal dan pendek serta memiliki kemampuan oposisi untuk menyentuh atau mengarah ke posisi lain dari jari-jarinya sendiri. Gerakan ini sangat penting dalam penggunaan alat oleh manusia karena memungkinkannya menangkap benda dengan presisidan kontrol tinggi.
+  body.toe:
+    label: jarak
+    summary: Salah satu dari lima digit di bagian bawah tubuh.
+    info: Jari kaki adalah salah satu dari lima jari pada kaki manusia yang berperan penting dalam menjaga keseimbangan dan daya dorong saat berdiri atau melangkah.
+  body.tongue:
+    label: lidar
+    summary: Teknik pengindraan jauh berbasis cahaya.
+    info: Lidar adalah alat yang menggunakan sinar laser untuk mengukur jarak dan menciptakan gambar digital dari lingkungan sekitarnya.
+  body.tooth:
+    label: gigi
+    summary: Struktur keras dalam mulut untuk mengunyah.
+    info: Gigi adalah struktur keras yang terdiri dari email gigi (tissue paling keras di tubuh manusia), dentin dan rongga pulpa. Manusia memiliki total 32 buah gigi pada gigitan permanennya. Email tidak bisa beregenerasi setelah hilangnya jaringannya karena itu mencegah kerusakan sangat penting.
+  body.vein:
+    label: vena
+    summary: Saluran memimpin darah rendah oksigen menuju jantung; tampak di area pergelangan tangan.
+    info: '{"hint":"sebuah pembuluh darah yang membawa darah menuju jantung","info":"Vena adalah pembuluh darah yang mengalirkan darah kembali ke hati\nPada perbedaan dengan arteri, venus memiliki katup untuk mencegah aliran balik darah\NWarna biru pada tangan diakibat oleh efek visual semata; warnanya sebenarnya merah gelap bukannya biru\NKaki varises terjadi karena kerusakan atau ketidakmampuan dari fungsi katup tersebut.","label":"vaskularisasi","summary":"Pembuluh pengangkat darah tanpa kadar oksigen tinggi menuju jantung; dapat dilihat di bagian lengan."}'
+  body.wrist:
+    label: pergelangan
+    summary: Sendi penghubung antara tangan dan lengankaki penting untuk kemampuan gerak halus.
+    info: Pergelangan tangan adalah area yang menghubungkan tangan dengan bagian bawah lengan dan terdiri dari delapan tulang kecil (tarsal). Ini memudahkan pergerakan tangan dalam empat arah serta putaran. Terowongan carpal di gelang tangan bisa menyebabkan sindrom terowong karpi jika ada beban berlebih.

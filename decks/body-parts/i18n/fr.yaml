@@ -2,18 +2,86 @@ lang: fr
 pivot: false
 title: Parties du corps
 cards:
+  body.ankle:
+    label: cheville
+    summary: L’articulation reliant le pied à la jambe ; articulation le plus souvent blessée.
+    info: Le cheville est l'articulation entre la jambe et le pied formée par trois os. Elle permet de bouger le pied vers le haut et en bas ainsi que des mouvements latéraux limités.
+  body.arm:
+    label: bras
+    summary: Membre inférieur du haut jusqu'au poignet.
+    info: 'Le bras est la membre supérieur composé de trois segments : l''avant-bras, le coude et la main. Il contient plus de trente muscles, os et tendons assurant les mouvements.'
+  body.back:
+    label: dos
+    summary: Partie postérieure du corps ; groupe musculaire dorsal principal.
+    info: Le dos est la partie arrière du torse depuis le cou jusqu'aux fesses et contient une colonne vertébrale de 33 vertèbres entourée par des muscles dorsaux. Les douleurs au dos sont l'une des causes les plus fréquentes d'inaptitude professionnelle.
+  body.belly_button:
+    label: ombligo
+    summary: Cicatrice au milieu de l'estomac après qu'on eut coupé le cordon.
+    info: L'ombilius est une cicatrice située à l'emplacement où était attaché le cordon ombilical par lequel le fœtus recevait des nutriments de la part de sa mère. Sa forme (creuse ou bombée) dépend du mode d'hémorragie et de guérison post-partum.
+  body.bone:
+    label: os
+    summary: Tissu conjonctif rigide formant le squelette ; organe vivant contenant une moelle.
+    info: Os est un tissu dur composé de cellules osseuses et de sels minéraux comme le calcium et le phosphore. Le squelette humain compte 206 os chez l'adulte ; les enfants en ont plus de 300 dont beaucoup fusionneront avec la croissance. La moelle osseuse produit des globules rouges, blancs ainsi que des plaquettes.
+  body.brain:
+    label: cerveau
+    summary: Centre principal qui commande l'organisme ; structure biologique la plus complexe dans tout l'univers.
+    info: Le cerveau humain pèse environ 1,4 kilogramme et contient plus de 86 milliards de neurones. Il est divisé en deux hémicéréalités ; la gauche contrôle le côté droit du corps et inversement. Le cerveau consomme 20 % des calories totales corporelles bien qu'il représente seulement 2 % du poids total.
+  body.calf:
+    label: mollet
+    summary: Partie arrière inférieure de la jambe entre le genou et la cheville.
+    info: La molle est la partie musculaire postérieure de la jambe située entre le genou et la cheville. Le muscle principal du mollet (triceps sural) permet d'enflammer les pointes des pieds ainsi que le décollage lors des sauts.
+  body.cheek:
+    label: joue
+    summary: Zone charnue située aux côtés du visage ; exprime par un rougissement.
+    info: La joue est une zone charnue sur les côtés du visage qui contient l'os malaire et des bourrelets graisseux. Les rougeurs de la joue sont une réaction physiologique automatique à certaines émotions comme honte ou excitation.
+  body.chest:
+    label: cage thoracique
+    summary: Partie avant du corps contenant le coeur et les poumons.
+    info: 'La cage thoracique est la partie antérieure du torse délimitée par les côtes, l''os sternum et la colonne vertébrale. Elle protège des organes vitaux : cœur et poumons.'
+  body.chin:
+    label: menton
+    summary: Partie basse du visage sous la bouche.
+    info: Le menton est la partie inférieure du visage formée par l'os mandibulaire. Chez les humains, un menton saillant ('proeminence mentalis') est une caractéristique unique dans le règne animal ; d'autres primates n'en possèdent pas. La raison pour laquelle nous avons des mentons reste sujet à débat scientifique.
   body.ear:
     label: oreille
     summary: Organe sensoriel de l'audition sur le côté de la tête.
     info: L'oreille capte les ondes sonores et les transmet sous forme de signaux nerveux au cerveau. Elle contient également un système d'équilibre (système vestibulaire).
+  body.elbow:
+    label: coude
+    summary: Articulation pliant le bras ; son nom provient de celui-là.
+    info: Le coude est un articulation située à la partie externe de la jonction entre l'humérus et les os du bras inférieur. Il permet au membre d'être fléchi ou tendu ainsi que la rotation des avant-bras.
   body.eye:
     label: œil
     summary: Organe sensoriel pour la vision avec une pupille colorée.
     info: L'œil humain peut distinguer environ dix millions de nuances de couleur. La rétine contient des bâtonnets (pour la vision dans l’obscurité) et des cônes (pour la vision en couleurs).
+  body.eyebrow:
+    label: sourcils
+    summary: Rangée de cheveux sur chaque côté d’un œil ; essentielle pour l’expression faciale.
+    info: Les sourcils sont une rangée de poils au-dessus du paupière supérieure des yeux. Ils jouent un rôle clé dans la communication non verbale ; nous exprimons ainsi plus largement nos émotions par leurs mouvements fonctionnels qui protègent l'œil contre les sueurs et pluies. Des recherches montrent que reconnaitre les visages sans sourcil est difficile pour les gens comparés à ceux sans œil.
+  body.eyelash:
+    label: cil
+    summary: Série de petits cheveux recourbés située en bordure du sourcil protecteur.
+    info: Les cilles sont des poils courts et courbés qui poussent sur les bords des paupières. Ils protègent l'œil contre la saleté, la sueur et les corps étrangers. Un adulte possède entre 100 à 150 cils au niveau de la paupière supérieure et environ 50 à 75 pour celle inférieure.
+  body.finger:
+    label: doigt
+    summary: L’un des cinq doigtes sur une main.
+    info: Un doigt de la main est l'un des cinq doigts ; le pouce comporte deux phalanges alors que les autres en ont trois.
   body.foot:
     label: pied
     summary: Partie inférieure de la jambe sur laquelle nous marchons et nous tenons debout.
     info: Le pied supporte tout le poids du corps et permet la marche bipède. Il comporte 26 os, 33 articulations ainsi que plus d'une centaine de muscles, tendons et ligaments.
+  body.forehead:
+    label: front
+    summary: Partie avant du crâne située au-dessus des sourcils.
+    info: Le front est la partie antérieure du crâne au-dessus des sourcils et sous la ligne capillaire. C'est une des zones les plus visibles pour exprimer les émotions ; froncer les sourcils traduit souvent de l'inquiétude ou d'autres sentiments négatifs.
+  body.hair:
+    label: cheveux
+    summary: Filaments poussant depuis l'épiderme capillaire sur la tête.
+    info: |-
+      Les cheveux sont des filaments de kéraline qui poussent à partir du cuir chevelu sur la tête.
+      Une personne possède en moyenne environ 100 000 poils头发 sur la tête ; entre 50 et 100 d'entre eux tombent chaque jour.
+      Ils croissent approximativement 1,25 centimètres par mois.
+      La couleur des cheveux dépend du pigment mélanine : les cheveux gris apparaissent lorsque les follicules cessaient de produire cette substance.
   body.hand:
     label: main
     summary: Partie du bras se terminant par cinq doigts.
@@ -26,11 +94,115 @@ cards:
     label: cœur
     summary: Muscle pompant continuellement du sang à travers tout le corps.
     info: Le cœur est un muscle creux de la taille d'un poing qui bat en moyenne 70 fois par minute. Au cours de toute une vie, il pompe le sang sur une distance correspondant à trois fois autour de la Terre.
+  body.heel:
+    label: Talon
+    summary: Partie arrière inférieure du pied ; soutient tout le corps en position verticale.
+    info: Le talon est l'os le plus grand du pied et supporte la majeure partie du poids corporel lors de la station debout. L'os calcaneen se connecte au tendon d'Achille.
+  body.hip:
+    label: hanche
+    summary: Région située sur les côtés du bassin ; plus grande articulation portante.
+    info: La hanche est la région autour de l'articulation du genou fémoral qui relie l’os iliaque au bassin et à la cuisse. Il s'agit d'une articulation sphérique supportant tout le poids corporel lors des mouvements comme marcher ou courir.
+  body.jaw:
+    label: maxillaire
+    summary: Os inferieur facial capable de mouvement lors des actions comme mastiquer ou parler.
+    info: La mâchoire inférieure est l'unique os mobile du crâne et permet de mastiquer, d'avaler ainsi que la parole. L’articulation temporo-mandibulaire (ATM), qui relie cette dernière au reste du corps, figure parmi les articulations corporelles les plus complexes.
+  body.kidney:
+    label: rein
+    summary: Organe apparié qui filtre le sang et produit l'urine.
+    info: Les reins sont des organes en forme de haricot situés dans la partie postérieure du bassin abdominal et ils filtrent plus de 180 litres sanguins par jour pour produire entre un à deux litre d'urine. Ils contiennent plusieurs millions d’unités filtrationnaires appelées néphrons.
+  body.knee:
+    label: genou
+    summary: L’articulation principale reliant cuisse à mollet.
+    info: Le genou est la plus grande articulation du corps humain et l'une des plus complexes. Il se compose de la rotule, des ménisques, ligaments croisés latéraux ainsi que les ligaments collatéraux. Cet organe supporte efficacement notre poids lors d'activités comme marcher ou courir.
+  body.leg:
+    label: jambe
+    summary: Membre inférieur allant depuis la hanche jusqu'au genou.
+    info: La jambe inférieure comprend la cuisse, la cheville et le pied ; elle est adaptée à une marche sur deux jambes avec les muscles les plus puissants du corps comme le quadriceps fémoral. Le fémur ou os de la cuisse est non seulement le plus long mais aussi celui qui supporte le poids corporel principal.
+  body.lip:
+    label: lips
+    summary: Chacun des deux rebords carnés entourant l’entrée buccale.
+    info: 'Les lèvres sont chacune des deux tissus musculaires charnues bordant la bouche ; elles contiennent de nombreuses terminaisons nerveuses et sont très sensibles. Leur couleur est due à leur vascularisation : une teinte bleutée peut indiquer un manque d''oxygène dans les cellules du corps.'
+  body.liver:
+    label: foie
+    summary: Le plus grand organe interne ; atelier chimique naturel.
+    info: 'Les foies sont les plus grands organes internes pesant plus de 1,5 kilogramme et remplissent environ cinq cents fonctions : ils filtrent le sang, produisent la bile, synthétisent des protéines et stockent du glycogène. C''est l''unique organe capable d''une régénération complète à partir des restants de ses cellules. Une grande quantité d''alcool ou de toxine peut provoquer une insuffisance hépatique.'
+  body.lung:
+    label: poumon
+    summary: Organe pair qui permet l'échange gazeux.
+    info: Les poumons sont un organe en paire dans la cavité thoracique composés de millions de sacs pulmonaires appelés alvéoles. La surface totale des parois alvéolairement est environ égale à celle du terrain de tennis - environs 80m².
   body.mouth:
     label: bouches
     summary: Ouverture du visage utilisée pour manger, boire et parler.
     info: 'Les bouches démarrent le processus digestif : les dents broient la nourriture, les salives l''émiettent. Elles sont également un outil principal de parole et de communication.'
+  body.muscle:
+    label: muscle
+    summary: Tissu striable permettant la mobilité.
+    info: Un muscle est un type de tissu capable de se contracter pour permettre les mouvements du corps. Le corps humain compte plus de 600 muscles qui représentent environ 40% du poids corporel ; le masseteur est le muscle le plus puissant et celui des tympans dans l'oreille moyenne est le plus petit.
+  body.nail:
+    label: Ongle
+    summary: Plaque durcie faite de kératine au bout des doigts.
+    info: L'ongle est une plaque dure composée de kératine située à l’extrémité des doigts et des orteils. Il protège les extrémités sensibles du doigt tout en améliorant la prise sur petits objets. Ils poussent environ trois millimètres par mois ; ceux des mains croissent plus vite que ceux des pieds.
+  body.neck:
+    label: cou
+    summary: Partie du corps reliant la tête au torse ; elle contient des vaisseaux vitaux.
+    info: 'Le cou est la région située entre l''os occipital et le thorax qui contient sept vertèbres cervicales. Il abrite des structures vitales : artères, œsophage, trachée et moelle épinière. Le cou comporte également plusieurs muscles permettant de tourner ou incliner la tête.'
   body.nose:
     label: nez
     summary: Organe du flair et de la respiration au centre du visage.
     info: Le nez filtre, réchauffe et humidifie l'air inhalé. Il distingue plus d'un billion d'odeurs différentes et est étroitement lié à la mémoire et aux émotions.
+  body.palm:
+    label: paume
+    summary: Surface intérieure des mains ; zone avec une densité maximale en terminaisons nerveuses.
+    info: La paume est la partie interne de la main située entre les doigts et le poignet. Elle contient un réseau très dense de récepteurs tactiles appelés corpuscules de Meissner. Aucuns follicules pileux ni glandes sébacées n'y sont présents.
+  body.shoulder:
+    label: Épaule
+    summary: Articulation entre bras et corps avec la plus grande liberté d'action.
+    info: L'articulation de la épaule est formée par la tête de l’humérus et une cavité dans les omoplates ; c'est celle qui offre à elle seule le plus grand amplitude du mouvement corporel. Son instabilité rend cette articulation particulièrement vulnérable au luxation. Le manteau rotateur - un groupe musculaire spécifique – joue un rôle clé en assurant sa stabilité.
+  body.skin:
+    label: peau
+    summary: L’organle corporel le plus vaste ; protège, gère la température et permet la sensation.
+    info: 'La peau est l''organe le plus grand du corps humain et recouvre une surface d''environ deux mètres carrés. Elle remplit plusieurs fonctions : protection contre les infections, rayonnement ultraviolet, régulation thermique, sensibilité tactile ainsi que la synthèse de la vitamine D. La renouvelance des cellules dans sa couche externe prend environ entre deux à quatre semaines.'
+  body.spine:
+    label: colonne vertébrale
+    summary: Un ensemble de 33 vertèbres protectrices pour la moelle épinière et supportant le corps.
+    info: La colonne vertébrale est composée de 33 vertèbres reliant la base du crâne au coccyx. Elle protège la moelle épinière et agit comme soutien principal du corps. Entre les vertèbres se trouvent des disques intervertébraux qui amortissent les impacts.
+  body.stomach:
+    label: ventre
+    summary: Partie avant du corps sous la cage thoracique ; familièrement aussi nomme un estomac.
+    info: 'Le ventre est la partie antérieure du torse située entre la poitrine et les organes pelviens. Il contient des organes digestifs : l''estomac, intestins, foie, pancréas ainsi que rate. Les muscles abdominaux assurent une stabilité de colonne vertébrale et protègent les viscères.'
+  body.temple:
+    label: région temporale
+    summary: Zone douce sur chaque côté du visage juste en dessous du front.
+    info: La région temporale est une zone plate située sur les côtés du front au-dessus de la joue et devant l'oreille. Anatomiquement plus molle que d'autres parties du crâne (partie squameuse de l’os temporal), elle reste vulnérable aux chocs. Les artères temporales sont facilement palpables lors des battements cardiaques.
+  body.thigh:
+    label: cuisse
+    summary: Partie des jambes située entre la cheville et le genou ; le plus grand ensemble musculaire.
+    info: 'La cuisse est la partie de l''extrémité inférieure entre les articulations du genou et de la hanche. Elle contient le groupe musculaire le plus puissant du corps : le quadriceps fémoral à quatre chefs ainsi que les ischio-jambiers. L’os fémorale ou os de la jambe est l’ossature la plus longue et solide dans tout le corps.'
+  body.throat:
+    label: gorge
+    summary: Cavité reliant la bouche à l'estomac par l'oésophage.
+    info: La gorge est une cavité située derrière les narines et la bouche qui agit comme un conduit pour l'air ainsi que pour la nourriture. Elle contient des amygdales en tant qu’élément du système immunitaire. Le réflexe de déglutition empêche l'inhalation accidentelle d'étrangers.
+  body.thumb:
+    label: Pouce
+    summary: Un gros doigt court sur la main ; ses capacités opposables sont essentielles pour saisir.
+    info: L'index est un doigt court et épais de la main capable d'une opposition (se toucher les autres doigts). Le mouvement opposable du pouce est une adaptation clé permettant à l'être humain de manier des outils. Il s'est développé au cours de son évolution chez les primates.
+  body.toe:
+    label: doigt du pied
+    summary: Un des cinq doigts situés au bout du pied ; le pouce joue un rôle clé dans la charge portée pendant que vous marchez.
+    info: Le doigt du pied est l'un des cinq doigts présents sur chaque pied. Le pouce de la jambe (hallus), en particulier important pour maintenir l'équilibre et permettre les appuis lors d'une marche ; il supporte une grande partie du poids corporel.
+  body.tongue:
+    label: langue
+    summary: Organe musculaire utilisé pour goûter, mastiquer et parler.
+    info: 'La langue est un organe musculaire recouvert de bourgeons gustatifs (plus de 10 000). Elle permet la perception des cinq saveurs fondamentales : douceur, salinité, acidité, amertume et umami. La langue joue également un rôle clé dans l''articulation du langage oral ainsi que lors de la déglutition.'
+  body.tooth:
+    label: dent
+    summary: Structure rigide située à l'intérieur de la bouche pour manger.
+    info: Les dents sont des structures solides composées de l'emaille (tissu corporel le plus dur), du dentine et de la cavité pulpaire. Un adulte possède en permanence trente-deux dents dans sa bouche. L'émail est irrécuperable une fois perdu ; c'est pourquoi la prévention joue un rôle clé.
+  body.vein:
+    label: Veine
+    summary: Vaisseau transportant du sang désoxygéné jusqu'au cœur.
+    info: Une veine est un vaisseau qui ramène du sang vers le cœur. Contrairement aux artères, les veines possèdent des valves empêchant la recirculation indésirable de sang dans l'autre sens. La teinte bleutée visible sur le poignet n'est qu'un effet visuel ; en réalité, le sang présent dans ces vaisseaux apparaît d'une couleur rouge foncé et non pas bleue.
+  body.wrist:
+    label: poignet
+    summary: L’articulation qui relie la main au bras ; essentielle pour les gestes fins.
+    info: Le poignet est la région reliant la main au bras formée de huit petits os appelés carpes. Il permet à la main d'effectuer des mouvements dans quatre directions et une rotation.

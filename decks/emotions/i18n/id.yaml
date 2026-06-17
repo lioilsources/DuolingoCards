@@ -2,22 +2,180 @@ lang: id
 pivot: false
 title: Emosi
 cards:
+  emotion.amazed:
+    label: heran
+    summary: Perasaan positif kuat akibat bertemu hal luar biasa.
+    info: Kagum adalah perasaan intens yang muncul ketika menghadapi sesuatu besar atau menakjubkan. Rasa kagum dapat meredakan rasa penting diri sendiri dan meningkatkan hubungan dengan lingkungan di sekitar kita.
+  emotion.amused:
+    label: terkekeh
+    summary: Rasanyalah sensasi nyaman dan sedikit mengundang senyum.
+    info: |-
+      Tertawa kecil adalah perasaan positif ringan yang ditimbulkan oleh sesuatu lucu atau menarik;
+      itu berbeda dari tindakan tertawa sendiri—tawanya muncul akibat rasa terhibur ini tapi tidak semua hiburannya menyebabkan tawa;
+      tersebut merupakan emosi sosial bersama; hal-hal tampak lebih lucu ketika kita membaginya dengan orang lain;
   emotion.angry:
     label: marah
     summary: Merasa sangat kesal atau marah, dalam keadaan geram.
     info: Marah adalah emosi yang muncul sebagai respons terhadap ketidakadilan atau ancaman yang dirasakan. Emosi ini meningkatkan detak jantung dan mempersiapkan tubuh untuk bereaksi dengan cara 'bertarung atau lari'.
+  emotion.annoyed:
+    label: iritasi
+    summary: Rasa marah ringan akibat gangguan terus-menerus.
+    info: Iritasi adalah reaksi emosi ringan yang disebabkan oleh stimulus mengganggu berulang kali dan sering menjadi awal dari amarah lebih intensifnya kemarahan. Ia bisa dipicu karena kurang tidur, lapar atau kelelahan mental.
+  emotion.anxious:
+    label: kekhawatiran
+    summary: Perasaan tidak nyaman karena gelisah atau takut akan masa depan yang tidak pasti.
+    info: Cemas adalah perasaan yang mengantisipasi ancaman; kecemasan ringan bersifat adaptif dan meningkatkan kinerja.
+  emotion.bored:
+    label: bosan
+    summary: Perasaan tidak tertarik dengan hal apapun tanpa adanya sesuatu untuk terlibat.
+    info: Rasa bosan adalah kondisi emosional yang disebabkan oleh kurangnya stimulasi atau aktivitas bermakna dan dapat mendorong pencarian pengalaman baru maupun berfikir secara kreatif.
   emotion.calm:
     label: tenang
     summary: Merasa damai dan nyaman secara internal, berada dalam keadaan tenang.
     info: Tenang adalah kondisi keseimbangan psikologis dan fisik. Ini memperlambat detak jantung, mengedepankan pernapasan yang lebih dalam, serta membantu berpikir jernih dan membuat keputusan yang baik.
+  emotion.cheerful:
+    label: kebahagiaan
+    summary: Kondisi menyenangkan dari perasaan ceria dan optimis.
+    info: Keberanian adalah kondisi emosional positif yang ditandai dengan semangat hidup dan suasana hati baik. Terkait erat dengan kepribadian ekstrovert serta tingkat afeksi positif yang tinggi.
+  emotion.confident:
+    label: keyakinan
+    summary: Kepercayaan pada kemampuan dan nilai pribadi.
+    info: Keyakinan diri adalah kondisi emosional yang melibatkan kepercayaan terhadap kemampuan dan pertimbangan sendiri. Postur tegak, kontak mata langsung serta suara tenang merupakan ekspresinya. Amy Cuddy dalam TED Talk tahun 2012 mempopulerkan pose berkuasa sebagai cara meningkatkan keyakinan.
+  emotion.confused:
+    label: kebingungan
+    summary: Perasaan tidak yakin dan kurang mengerti tentang sesuatu.
+    info: Kehilangan rasa bingung terjadi ketika kita kekurang konteks atau pengetahuan untuk memahami suatu kondisi tertentu. Ini adalah bagian alamiah dari proses belajar karena konflik antara dua ide yang berbeda dapat merangsang pencarian jawaban lebih lanjut.
+  emotion.content:
+    label: ketenangan
+    summary: Perasaan jernih dan tidak tergoda oleh hal-hal baru.
+    info: Rasa nyaman dan damai adalah keadaan emosional positif yang tenang tanpa adanya dorongan untuk berubah. Berbeda dengan bahagia; ketenangan ini lebih diam dibandingkan perasaan hidup atau aktif. Dalam Buddhisme, rasa puas disebut santosa sebagai salah satu sifat penting dalam mencapai pencerahan.
+  emotion.curious:
+    label: rasa ingin tahu
+    summary: Keinginan untuk mengetahui atau belajar sesuatu.
+    info: Rasa ingin tahu adalah kondisi motivasional yang memulai pencarian informasi dan pengalaman baru. Ia terkait dengan sistem hadiah dopamine sehingga rasa penasaran benar-benak memberikan kepuasan emosional.
+  emotion.delighted:
+    label: rasa senang
+    summary: Emosi positif dari peristiwa menyenangkan.
+    info: Rasa senang yang sangat kuat adalah emosi positif intens yang diakibatkan oleh kejadian menyenangkan atau pengalaman mengejutkan.
+  emotion.determined:
+    label: tekad
+    summary: Niat kuat untuk mencapai suatu target meskipun ada rintangan.
+    info: Tekad adalah keadaan emosional motivasional yang ditandai dengan fokus pada tujuan dan ketangguhan. Terlihat dari rahang terkatup rapat, tubuh tegap, serta tatapan intensifnya. Erat kaitannya juga konsep grit menurut Angela Duckworth yaitu gabungan antara semangat tinggi dan kemampuan bertahan lama.
+  emotion.disappointed:
+    label: kekecewaan
+    summary: Perasaan negatif saat nyata tak memenuhi harapan.
+    info: Kekecewaan muncul ketika hasil tidak sesuai dengan harapan atau keinginan kita. Emosi ini lebih kuat jika ada investasi emosional maupun usaha yang tinggi di dalamnya. Penelitian telah membuktikan bahwa ekspektasi sangat penting—semakin rendah ekspektasinya maka semakin sedikit rasa kecewanya.
+  emotion.disgusted:
+    label: jijik
+    summary: Perasaaan kuat ketidaknyaman terhadap stimulus tidak nyamannya.
+    info: Jijik adalah perasaan dasar yang melindungi kita dari hal-hal berbahaya seperti makanan racun atau penyakitnya sendiri. Fungsi evolusi dari rasa ini yaitu menghindari penggunaan bahan pangan rusak dan menunjukkan ekspresi wajah khas dengan hidung menyipritkan lidah serta bentuk lain karakteristik tersebut.
+  emotion.embarrassed:
+    label: rasa malu
+    summary: Perasaan tidak nyaman akibat penyesalan atas pelanggaran norma sosial.
+    info: Rasa malu adalah emosi sosial yang muncul ketika kita percaya bahwa telah melanggar norma-norma sosial. Rasa ini terwujud dalam bentuk merahnya pipi atau wajah seseorang karena rona semburat di bawah kulit mereka dan mengalihkan pandangan serta posisi tubuh tertunduk rendah. Ini memiliki fungsi sosial yaitu menunjukkan kepada orang lain kesadarannya akan adanya aturan tersebut beserta kemauan untuk mematuhi.
   emotion.excited:
     label: bersemangat
     summary: Merasakan antusiasme yang kuat dan harapan bahagia.
     info: Antusias adalah emosi positif intens yang terkait dengan ekspektasi suatu peristiwa menyenangkan. Emosi ini meningkatkan energi, mempercepat detak jantung, serta mendukung berpikir kreatif.
+  emotion.frustrated:
+    label: kecemasan
+    summary: Perasaan tidak nyaman karena ada halangan dalam pencapaian suatu target.
+    info: Kecemasan ini muncul ketika tujuan kita terhalang oleh pengganjal tertentu dan dapat menyebabkan tindakan yang produktif seperti mencari solusi atau reaksi negatif berupa agresi. Teori frustasi-agresi adalah salah satu teori psikologi penting pada tahun-tahun awal abad kedua puluh.
+  emotion.grateful:
+    label: ketekunan
+    summary: Perasaan hangat dari penghargaan atas sesuatu baik yang dimiliki atau diterima.
+    info: '{"hint":"rasa bersyukur dan menghargai","info":"Ketekunan adalah perasaan positif yang muncul ketika kita menyadari kebaikan dalam hidup kami.\nPelatihan di bidang psikologi positif menunjukkan bahwa ekspresi rasa syukur secara teratur meningkatkan tingkat pemenuhan diri.\nHal ini memicu pusat hadiah di otak mirip seperti kesenangan fisik.\nMenulis jurnal harian tentang hal-hal untuk disyukuri merupakan salah satu teknik paling efektif untuk peningkatan suasana hati."}'
+  emotion.guilty:
+    label: penyesalan
+    summary: Perasaan tidak nyaman akibat melanggar prinsip moral sendiri.
+    info: Rasa bersalah adalah perasaan yang timbul setelah melakukan tindakan dianggap buruk atau salah. Berbeda dengan rasa malu; penyesalan fokus pada perilaku tertentu sementara rasa malu menyangkut keseluruhan diri individu tersebut.
   emotion.happy:
     label: bahagia
     summary: Merasa gembira atau senang, berada dalam suasana hati yang baik.
     info: Bahagia adalah emosi menyenangkan yang terkait dengan pelepasan dopamina dan serotonin. Emosi ini muncul melalui senyuman, gerak tubuh aktif, serta sikap terbuka.
+  emotion.hopeful:
+    label: harapan
+    summary: Perasaan optimis bahwa masa depan akan indah.
+    info: Harapan adalah perasaan yang menggabungkan keinginan akan masa depan lebih baik dan keyakinan bahwa hal itu dapat dicapai.
+  emotion.hopeless:
+    label: putus harapan
+    summary: Perasaan masa depan tak akan membawa hal baik.
+    info: Putus harapan adalah kondisi emosional yang ditandai keyakinan bahwa keadaan tidak bisa membaik lebih lanjut.
+  emotion.inspired:
+    label: inspirasi
+    summary: Antusiasmenya menciptakan semacam dorongan untuk melakukan sesuatu.
+    info: Inspirasi adalah keadaan emosional yang ditandai dengan adanya dorongan dan antusiasme berkarya secara tiba-tiba. Biasanya terjadi bersama-sama atau sebagai respons atas pengalaman mengagumkan seperti menikmati sebuah karya luar biasa maupun bertemu orang hebat; dari sudut pandang neurosainsnya ini memicu korteks prefrotnal serta pusat hadiah di otak manusia.
+  emotion.irritated:
+    label: emosi marah
+    summary: Reaktivitas tinggi pada stimulus ringan.
+    info: Kecemasan emosional adalah kondisi di mana seseorang menjadi sangat sensitif dan bereaksi secara negative terhadap hal-hal kecil sekalipun. Kondisi ini bisa mengindikasikan kelelahan berkepanjangan, kurang tidur atau penumpukan tekanan psikologis.
+  emotion.jealous:
+    label: irihad
+    summary: perasaan tidak nyaman karena melihat orang lain lebih baik daripada saya
+    info: |-
+      {"hint":"merasa iri terhadap keuntungan orang lain (warna hijau adalah warna dari rasa iri)","info":"Iri hati muncul ketika kita merasakan bahwa orang lain memiliki sesuatu yang ingin dimiliki oleh diri sendiri.
+      Berbeda dengan kesewotan atau gelisah dalam hubungan; irihati berhubung dengan kelebihan milik orang lain sedangkan kesewoten berkaitan ancaman pada relasi yang sudah ada.
+      Emosi ini bisa memacu peningkatan prestasi maupun menyebabkan dendam dan permusuhan.
+      Pada budaya-budaya di seluruh dunia, warna hijau menjadi simbol dari perasaan irihatinya","label":"iráhati","summary":"Perasaan negatif akibat dibandingkan dengan orang-orang disekitar."}
+  emotion.joyful:
+    label: rasa bahagia
+    summary: Emosi positif dengan rasa senang besar serta energi melimpah.
+    info: Rasa bahagia adalah emosi positif intens yang dipenuhi kebahagian berlebihan dan antusiasme tinggi terhadap hidup atau situasi tertentu.
+  emotion.lonely:
+    label: kesedihan
+    summary: Perasaan sedih karena kurangnya kebersamaan
+    info: Kesepian adalah perasaan isolasi yang bersifat subjektif dan tidak bergantung pada jumlah orang di sekitar kita. Rasa kesepian merupakan indikator kuat masalah kesehatan; rasa kesepian kronis dapat memperpendek usia manusia otak bereaksi terhadap sakit sosial dengan cara sama seperti merasakan nyeri fisik.
+  emotion.loving:
+    label: love
+    summary: Perasaan mendalam tentang ketertarikan atau pengikutan pada orang lain.
+    info: Cinta adalah perasaan kompleks yang menggabungkan kecenderungan hati, kasih sayang, rasa percaya dan kedekatan intimasi. Dari segi neurokimia cinta terhubung dengan ocytosine, dopamine serta seratonin.
+  emotion.melancholy:
+    label: kelabuhan
+    summary: Kesedihan tenang bersama elemen pemikiran mendalam dan keindahan.
+    info: Kelabuan adalah perasaan sedih yang reflektif dan menggambarkan keadaan batin dengan kesedihan campur lamunan serta rasa manis tertentu. Kata ini berasal dari kata Yunani untuk getah hitam ('melon khol'), di mana para dokter zaman dulu menyebarkannya karena berpikir bahwa itu disebabkan oleh peningkatan cairan tersebut dalam tubuh.
+  emotion.miserable:
+    label: kesengsaraan
+    summary: Nevola dan menderita secara ekstrim; tingkat tertinggi sedih.
+    info: '{"hint":"merasakan ketidakbahagiaan ekstrem","info":"Penderitaan adalah kondisi emosional negatif yang intensif ditandai dengan rasa tidak nyaman dan penderitaan mendalam.\nPenderitaa bisa disebabkan oleh sakit fisik, cedera emosi atau kehilangan.\nKronisitas dari kesakitan ini merupakan gejala depresi.\nDukungan sosial serta pertolongan profesional sangat penting dalam mengatasi bentuk-bentuk berlebihnya dukacita."}'
+  emotion.nervous:
+    label: rasa gelis
+    summary: Cemaskan ringan menjelang acara tertentu perut bergemetar
+    info: Rasa gelis adalah kondisi cemas ringan yang biasanya terjadi karena mengantisipasi suatu kejadian penting secara psikologi dan fungsionalnya menyebabkan peningkatan kerja sistem saraf simpatetik seperti detak jantung meningkat atau berkeringat Rasa gelis sedikit bisa membantu kinerja tetapi jika berlebihan akan merusak Teknik menilai ulang rasa gelis sebagai semangat antusiasme merupakan cara efektif
+  emotion.nostalgic:
+    label: rindu
+    summary: Perasaan haru terhadap kenangan indah di masa lampau.
+    info: Rindu akan masa lalu adalah perasaan penuh rasa manis dan pedih sekaligus menyenangkan namun juga sedikit sakit. Kata ini berasal dari bahasa Yunani 'nostos' yang berarti kembali ke rumah serta 'algos', artinya nyeri atau kesakitan.
+  emotion.optimistic:
+    label: otimisme
+    summary: Kebiasaan untuk berharap pada hal-hal baik di masa depan.
+    info: Otimisme adalah gaya kognisi dan emosional yang ditandai dengan harapan terhadap hasil positif. Martin Seligman dari psikologi positif mengidentifikasi otimisme sebagai komponen penting dalam ketahanan mental. Orang-orang optimis hidup lebih panjang, sehat secara fisik maupun mental serta cenderung mencapai kesuksesan.
+  emotion.overwhelmed:
+    label: overload
+    summary: Perasaan bahwa beban tugas menjadi sangat banyak dalam waktu bersamaan.
+    info: Overload terjadi ketika permintaan melebihi kapasitas penanganan kita dan dapat menyebabkan kegagalan berpikir yang jelas atau respons emosional seperti ledakan amarah maupun penguncian diri secara mental.
+  emotion.peaceful:
+    label: tenang
+    summary: Perasaan dalam ketenangan batiniah dan nyaman.
+    info: Tenang adalah kondisi emosional positif yang bebas dari tekanan dan gangguan. Ini menjadi tujuan praktik meditasi seperti kesadaran terhadap diri sendiri serta meditasi Zen. Tenang juga memicu sistem saraf parasimpatetis dengan menurunkan detak jantung dan tekanan darah.
+  emotion.pessimistic:
+    label: pessimisme
+    summary: Kecondongan dalam menantikan hasil buruk dan fokus pada hal-hal negatif.
+    info: '{"hint":"mengantisipasi yang paling buruk; awan gelap di atas kepala","info":"Pesimisme adalah gaya kognisi dan emosi karakteristik dengan mengharapkan hasil negatif.\nPesimisme ringan bisa bersifat adaptif; penilaian risiko secara realistis membantu untuk menghindari bahaya.\nRasa pesimis kronis dikaitkan dengan tingkat depresi lebih besar serta kondisi kesehatan yang memburuk.\nTerapi perilaku-kognitif dapat membantu merubah pola pikir pesimis."}'
+  emotion.playful:
+    label: '"bermain"'
+    summary: Mood aktif dan hasrat akan tawa-tawa maupun olahan.
+    info: '{"hint":"merasa ceria dan ingin bersenang-suka","info":"Bermain adalah keadaan emosional yang ditandai dengan kesenangan bermain permainan, sarkasme serta bereksperimen\nDewasa memiliki hubungan positif antara main-main sebagai indikator awal dari kemampuan berkarya secara baik beserta kondisi mentalnya juga sehat\nPemahaman evolusi terkait hal ini yaitu pengembangan skill dalam situasi aman\nMenurut Stuart Brown (Institut Nasional untuk Bermain), aktivitas rekreatif seperti itu penting bagi proses kerja tubuh agar tetap sehat di setiap usianya."'
+  emotion.proud:
+    label: bangga
+    summary: Perasaan positif puas atas pencapaian sendiri
+    info: |-
+      Rasa percaya diri terhubung dengan perasaan sukses atau keanggotaan pada sesuatu yang bernilai tinggi
+      Postur tegak lurus dan dadanya mengembang adalah ekspresi universal dari rasa bangga ini
+      Ini bisa sehat (mendorong perkembangan), maupun tidak sehat seperti kesombongan
+  emotion.relieved:
+    label: lega
+    summary: Perasaan nyaman saat beban pikiran menghilang.
+    info: Rasa lega adalah perasaan yang muncul setelah tekanan atau kecemasan berlalu dan tubuh kembali rileks.
   emotion.sad:
     label: sedih
     summary: Merasakan duka atau ketidakpuasan, berada dalam depresi.
@@ -26,6 +184,21 @@ cards:
     label: terkejut
     summary: Merasa takut atau ketakutan karena ancaman atau bahaya.
     info: Ketakutan adalah emosi pertahanan dasar. Ia memicu pelepasan adrenalin, mempercepat detak jantung, dan menyiapkan tubuh untuk melarikan diri atau berlindung.
+  emotion.serious:
+    label: serius
+    summary: Perasaan tenang tanpa candaan; berkonsentrasi pada hal-hal penting.
+    info: |-
+      Serius adalah sikap emosional yang ditandai dengan fokus dan tidak ada ringkihan atau ejekan kecil
+      Ia penting dalam situasi-situasi membutuhkan perhatian penuh serta berpikir hati-hati
+      dalam beberapa budaya serius dianggap sebagai nilai terpuji sedangkan pada lainnya dikaitkan dengan ketidakaksesibilitas
+  emotion.shocked:
+    label: kejutan
+    summary: Reaksi mendadak akibat keterkejutan dari suatu berita atau peristiwa.
+    info: Kejutan adalah emosi intens yang disebabkan oleh informasi atau keadaan tak terduga dan mengejutkan. Ini ditandai dengan reaksi fisik seperti mengerasnya tubuh secara tiba-tiba, mulut ternganga, serta pupil mata melebar untuk memproses situasi baru ini.
+  emotion.shy:
+    label: rasa malu
+    summary: Merupakan penarikan diri atau ketegangan dalam interaksi sosial terhadap individu baru.
+    info: Rasa malu adalah emosi sosial yang ditandai dengan kecemasan dan rasa tertutup saat berada di dekat orang lain. Ia sering dikaitkan dengan kepribadian introvert tetapi bukanlah hal yang sama. Rasa malu ringan merupakan kondisi normal; bentuk parahnya disebut fobia sosial dapat mengganggu kemampuan untuk hidup secara efektif.
   emotion.surprised:
     label: terkejut
     summary: Merasa kaget atas kejadian yang tidak terduga.
@@ -34,3 +207,14 @@ cards:
     label: lelah
     summary: Merasa kelelahan fisik atau mental dan membutuhkan istirahat.
     info: Kelelahan adalah sinyal tubuh bahwa ia perlu beristirahat. Gejalanya meliputi kantuk, perlambatan respon, serta penurunan kemampuan berkonsentrasi.
+  emotion.upset:
+    label: kegelisangan
+    summary: Perasaan gelisah akibat suatu hal buruk.
+    info: |-
+      Kecemasan adalah kondisi emosional negatif yang menggabungkan kesedihan, kemarahan dan kecemasan secara umum
+      Ini merupakan respons terhadap peristiwa tidak menyenangkan atau penyesalan serta pertengkarannya sendiri,
+      karena itu merangsang sumbu stres fungsinya yaitu meningkatnya kadar hormon kortisol.
+  emotion.worried:
+    label: kekhawatiran
+    summary: Pemikiran negatif secara repetitif tentang permasalahan yang akan datang.
+    info: Kecemasan adalah kondisi emosional dan kognitif yang berfokus pada antisipasi ancaman potensial. Kecemasan ringan bersifat adaptif karena mendorong persiapan diri terhadap kemungkinan masalah di masa depan.

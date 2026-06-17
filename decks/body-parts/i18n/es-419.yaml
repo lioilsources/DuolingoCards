@@ -2,18 +2,82 @@ lang: es-419
 pivot: false
 title: Partes del cuerpo
 cards:
+  body.ankle:
+    label: tobillo
+    summary: Articulación entre el pie y la pantorrilla; articulación más frecuentemente lesionada.
+    info: El tobillo es un hueso que conecta la pierna con el pie y está formado por tres estructuras óseas diferentes. Permite mover el pie hacia arriba y abajo así como movimientos laterales menores. Un torcimiento del tobillo o distorsión es una lesión deportiva muy común.
+  body.arm:
+    label: brazo
+    summary: Extremidad superior desde el hombro hasta la muñeca.
+    info: 'El brazo es la extremidad superior formada por tres segmentos: el húmero del codo y antebrazo con radio y cúbita que se unen en una articulación de rodilla; contiene más de treinta músculos, huesos y tendones para permitir movimiento.'
+  body.back:
+    label: espaldas
+    summary: Parte trasera del tronco que alberga gran cantidad muscular.
+    info: La espalda es la parte posterior del cuerpo desde el cuello hasta las caderas y contiene una columna vertebral de unos trescientos treinta vértebras rodeadas por músculos dorsales. El dolor en la zona lumbar o dorsal puede ser uno de los motivos más comunes para ausentarse del trabajo.
+  body.belly_button:
+    label: Ombligo
+    summary: La herida central abdominal causada por el corte postparto del cordón umbilical.
+    info: '{"hint":"la pequeña depresión o prominencia en el centro del vientre","info":{"label":"ombligo","summary":"Cicatriz ubicada al medio de la barriga tras cortar el cordón umbilical.","info": "El ombligo es una cicatriz que marca donde se conectó el feto con su madre mediante el cordón umbilical para recibir nutrientes\r\\nSu forma puede ser hundida u saliente dependiendo cómo saneció después del parto\r\\nAlberga comunidades microbianas únicas y estudios han identificado bacterias distintivas allí\r\\nEn muchas culturas tiene significado simbólico y espiritual."}}'
+  body.bone:
+    label: hueso
+    summary: Tejido conjuntivo denso formando estructura corporal interna; órgano vivo conteniendo médula.
+    info: El hueso es un tejido duro compuesto por células óseas y sales minerales como calcio y fósforo. El cuerpo humano tiene 206 huesos en la edad adulta mientras que los bebés nacen con más de 300 debido al proceso natural donde muchos huesos fusionan entre sí durante el crecimiento. La médula ósea produce glóbulos rojos, blancos así como plaquetas.
+  body.brain:
+    label: cerebro
+    summary: Centro de control del cuerpo; estructura biológica más compleja del universo.
+    info: El cerebro humano pesa aproximadamente 1,4 kilogramos y contiene más de 86 mil millones de neuronas. Está dividido en dos hemisferios; el izquierdo controla la parte derecha del cuerpo y al revés. Aunque solo representa un 2% del peso corporal total, consume el 20 por ciento de toda la energía del cuerpo.
+  body.calf:
+    label: pantorrilla
+    summary: Parte trasera del pie debajo de la rodilla.
+    info: La pantorrilla es el músculo principal de la parte posterior del muslo inferior entre la rodilla y el tobillo que permite pararse sobre las puntas de los pies y saltar con impulso desde atrás; además juega un rol clave en el retorno venoso hacia el corazón.
+  body.cheek:
+    label: mejilla
+    summary: Región carnosa ubicada lateralemente sobre cada lado del rostro humano.
+    info: La cara contiene la región lateral del rostro y está formada por huesos faciales como el zigomático junto con depósitos de grasa subcutánea que dan forma al contorno facial redondo típico en bebés. El rubor o sonrojo es una respuesta involuntaria causado por cambios emocionales tales como vergüenza u excitación sexual debido principalmente a dilatación capilar inducida neurológicamente.
+  body.chest:
+    label: tórax
+    summary: Parte anterior del cuerpo donde están ubicados los órganos importantes tales como corazón y pulmones.
+    info: El tórax es la parte frontal del cuerpo que está limitada por las costillas, el esternón y la columna vertebral. Protege órganos vitales como corazón e pulmones. El cajón torácico contiene doce parejas de costillas, un hueso en forma de pez llamado esternón y una región específica de la espina dorsal.
+  body.chin:
+    label: barbilla
+    summary: Parte inferior del rostro bajo los labios.
+    info: La barbilla es la parte más baja del rostro formada por el hueso mandibular inferior. En humanos una prominente barbilla o 'mentón' es característica única en el reino animal que otros simios no poseen. Aún existe debate científico sobre las razones evolutivas de tener un mentón.
   body.ear:
     label: oído
     summary: Órgano sensorial para la audición en el lado de la cabeza.
     info: El oído capta las ondas sonoras y las transmite como señales nerviosas al cerebro. También contiene el sistema vestibular encargado del equilibrio.
+  body.elbow:
+    label: codo
+    summary: Articula el brazo con la mano.
+    info: El codo es un hueso en la parte externa de la articulación entre el brazo y la muñeca que permite doblar o extender el brazo así como girarlo hacia arriba o abajo. Una curiosidad interesante sobre este hueso es que no tiene terminaciones sensoriales por lo cual al golpear ciertos puntos del mismo se puede sentir hormigueo.
   body.eye:
     label: ojo
     summary: Órgano sensorial para la visión con una córnea de color.
     info: El ojo humano puede distinguir aproximadamente 10 millones de matices de color. La retina contiene bastones (para ver en condiciones de poca luz) y conos (para el reconocimiento del color).
+  body.eyebrow:
+    label: ceja
+    summary: Tira de cabello encima de cada ojo que es fundamental en las expresiones faciales.
+    info: Las cejas son una tira de pelo sobre el párpado superior del ojo. Son clave para la comunicación no verbal y permiten expresar un amplio rango de emociones con su movimiento. Funcionalmente protegen los ojos contra sudor y lluvia.
+  body.eyelash:
+    label: ceja
+    summary: Fila de pelo curvos alrededor del borde exterior de la palpebra protectora.
+    info: Las pestañas son pequeños pelos curvados que crecen en los bordes de las pálidas del ojo y sirven para proteger el globo ocular contra polvo, sudor u otros cuerpos extraños. Un adulto tiene entre 100 y 150 cejas superiores por párpado superior y entre 50 y 75 en cada uno inferior. Las pestanas tardan aproximadamente cuatro semanas hasta un mes completo antes de regenerarse completamente.
+  body.finger:
+    label: dedo
+    summary: Uno de los cinco dedos por mano.
+    info: 'Un dedo de la mano es uno de los cinco que componen cada una; el pulgar tiene dos falanges y los demás tienen tres. Tenemos siempre diez dedos en total: las combinaciones precisas del movimiento permiten actividades como tocar instrumentos musicales o escribir con herramientas. Las huellas digitales son únicas para cada persona.'
   body.foot:
     label: pie
     summary: Parte inferior del pie sobre la cual nos apoyamos y caminamos.
     info: El pie soporta el peso completo del cuerpo y permite la marcha bípeda. Tiene 26 huesos, 33 articulaciones y más de 100 músculos, tendones y ligamentos.
+  body.forehead:
+    label: frente
+    summary: Parte frontal del cráneo sobre las cejas; área para mostrar emoción.
+    info: La frente es la parte frontal del cráneo ubicada encima de las cejas y debajo de la línea capilar. Es una de las áreas más visibles al expresar emociones; arrugar la frente expresa preocupación.
+  body.hair:
+    label: cabellos
+    summary: Fibras que nacen sobre el cuero cabelludo.
+    info: El cabello está compuesto por fibras de queratina que crecen desde los folículos pilosos en la cabeza. Una persona promedio tiene alrededor de cien mil pelos encima del cuero cabelludo y pierde entre cincuenta y cien diariamente. Crecen aproximadamente un centímetro y veinticinco décimas cada mes.
   body.hand:
     label: mano
     summary: Parte del brazo terminada en cinco dedos.
@@ -26,11 +90,115 @@ cards:
     label: corazón
     summary: Órgano muscular que bombea sangre constantemente por todo el cuerpo.
     info: El corazón es un músculo hueco del tamaño de un puño que late aproximadamente 70 veces por minuto. A lo largo de toda la vida, bombeará sangre una distancia equivalente a tres vueltas alrededor de la Tierra.
+  body.heel:
+    label: talón
+    summary: Parte posterior e inferior del pie que sostiene todo el cuerpo cuando se esta parado.
+    info: El talón es el hueso más grande del pie y soporta la mayor parte del peso corporal al estar de pie. El hueso calcáneo está conectado con el tendón de Aquiles.
+  body.hip:
+    label: muslos
+    summary: Región lateral del cuerpo humano entre cadera e ingles.
+    info: El muslo es la región alrededor de la articulación del hueso femoral con el músculo aductor mayor y los ligamentos que conectan estas estructuras anatómicamente.
+  body.jaw:
+    label: Mandíbula
+    summary: Hueso inferior facial que facilita las funciones de comer y comunicarse.
+    info: La mandíbula es el único hueso móvil del cráneo y permite la función de masticar, tragar e incluso hablar. La ATM o articulación temporomaxilar representa una conexión compleja dentro del cuerpo; problemas como dolores pueden surgir debido al bruxismo u otras condiciones inflamatorias.
+  body.kidney:
+    label: riñón
+    summary: Órgano emparejado encargado de filtrar la sangre y generar orina.
+    info: Los riñones son órganos en forma de haba ubicados en la parte posterior del abdomen y forman un par. Filtran más de 180 litros de sangre al día produciendo entre uno y dos litros de orina diariamente; contienen millones de unidades filtrantes llamadas nefronas que ayudan con este proceso.
+  body.knee:
+    label: rodilla
+    summary: Articulación principal que conecta muslo con pantorrilla.
+    info: La rodilla es el mayor y uno de los más complejos articulaciones del cuerpo humano. Está compuesta por la rótula, meniscos, ligamentos cruzados y colaterales. Esta diseñada para soportar el peso corporal al caminar o correr.
+  body.leg:
+    label: pierna
+    summary: Extremidad inferior desde las caderas hasta tobillos.
+    info: La pierna forma parte de la extremidad inferior y está compuesta por el muslo, pantorrilla y pie. Está adaptada para caminar bípedamente e incluye los músculos más fuertes del cuerpo como el cuadriceps femoral. El fémur es el hueso más largo y resistente en todo el organismo.
+  body.lip:
+    label: labio
+    summary: Uno de las dos partes carnosas que forman el contorno exterior de la cavidad bucal.
+    info: El labio es uno de los dos tejidos musculares que delimitan la boca y está lleno de terminaciones nerviosas lo cual hace que sea muy sensible. Su color se debe al sangrado en ellos por eso un tono azulado puede indicar una falta de oxigenación adecuada.
+  body.liver:
+    label: Hígado
+    summary: Órgano interior mayor del cuerpo humano que actúa también cómo una fábrica biológica.
+    info: El hígado es el órgano interno más grande del cuerpo y pesa alrededor de un kilo y medio. Realiza más de quinientas funciones como la purificación de sangre, producción de bilis e síntesis proteica además de almacenar glucógeno. Es capaz por completo de recuperarse desde los restos tejidos.
+  body.lung:
+    label: pulmón
+    summary: Órgano par que recibe oxígeno desde el aire.
+    info: Los pulmones son órganos en la cavidad torácica formados por millones de saculillos pulmonares llamados alvéolos. La superficie total del área superficial de los alvéolos es aproximadamente igual a una cancha grande o unos setenta metros cuadrados.
   body.mouth:
     label: boca
     summary: Abertura en la cara utilizada para comer, beber y hablar.
     info: 'La boca inicia el proceso digestivo: los dientes mastican y las glándulas salivales descomponen los alimentos. También es la herramienta principal del habla y la comunicación.'
+  body.muscle:
+    label: Músculo
+    summary: Tejido contráctil responsable del movimiento en el organismo.
+    info: El músculo es un tejido capaz de contraerse y permitir el movimiento del cuerpo. El cuerpo humano tiene más de 600 músculos que constituyen aproximadamente el 40% del peso corporal total. Los tipos principales son los musculares estriados o esqueléticos (controlables voluntariamente), lisos (en órganos internos como intestinos e iris) y cardíaco.
+  body.nail:
+    label: Uña
+    summary: Placa dura compuesta por queratina localizada al final de cada dedo.
+    info: Las uñas son placas duras de queratina en la punta de los dedos y pies que protegen las puntas sensibles del cuerpo e incrementan el agarre para objetos pequeños.
+  body.neck:
+    label: cuello
+    summary: Parte conectando la cabeza con el cuerpo; tiene vasos muy importantes.
+    info: El cuello es la región entre el cráneo y el torso que contiene siete vértebras cervicales. Por él pasan estructuras vitales como arterias, faringe, traquea e médula espinal. Contiene músculos que permiten girar o inclinar la cabeza.
   body.nose:
     label: nariz
     summary: Órgano del olfato y respiración en el centro de la cara.
     info: El nariz filtra, calienta y humedece el aire inhalado. Puede distinguir más de un billón de olores diferentes y está estrechamente relacionado con la memoria y las emociones.
+  body.palm:
+    label: palma
+    summary: Superficie interna plana del cuerpo que contiene muchos receptores sensoriales.
+    info: La palma es la superficie interior de la mano entre los dedos y el muñón. Contiene una red muy densa de receptores táctiles como las glándulas Meisner.
+  body.shoulder:
+    label: húmero
+    summary: Articulación conectiva entre el torso humano y sus extremidades superiores dotadas de amplia movilidad.
+    info: El hombro es un hueso con la mayor amplitud de movimiento entre todos los articulaciones del cuerpo y está formado por una cabeza ósea en el brazo que se inserta dentro de una cavidad ubicada en la parte superior de las escápulas; debido al diseño anatómico flexible su estabilidad puede ser comprometida fácilmente causando luxación.
+  body.skin:
+    label: piel
+    summary: Órgano corporal mayor; protege, regula temperatura y permite sensibilidad táctil.
+    info: La piel es el órgano más grande del cuerpo humano y cubre un área aproximada de 2 metros cuadrados. Cumple funciones como protección contra la infección, radiación ultravioleta, regulación térmica, tacto e síntesis de vitaminas D. La renovación celular en su capa exterior dura alrededor de dos o cuatro semanas.
+  body.spine:
+    label: columna
+    summary: Columna formada por treinta tres huesos llamados vértebras cuya función primordial consiste en sostener nuestro peso corporal mientras también se encarga de mantener segura nuestra médula espina.
+    info: La columna vertebral es un conjunto de 33 vértebras que conectan el cráneo con la pelvis y protegen la médula espinal al tiempo que actúan como soporte principal del cuerpo. Entre las vértebras hay discos intervertebrales funcionando como amortiguadores para los impactos recibidos por todo el cuerpo durante actividades diarias o deportivas.
+  body.stomach:
+    label: Vientre
+    summary: Parte anterior del cuerpo debajo de los costados.
+    info: El vientre es la parte frontal del torso entre el pecho y las caderas. Contiene órganos digestivos como estómago, intestinos, hígado, pancreás e bazo.
+  body.temple:
+    label: Temporo
+    summary: Zona suave ubicada lateralmente encima del hueso zigomático.
+    info: El templo es la región en los lados de la cabeza sobre el hueso zigomático y delante de la oreja. Anatómicamente corresponde al área más blanda del cráneo llamada parte escamosa del hueso temporal; esta zona resulta vulnerable ante impactos físicos.
+  body.thigh:
+    label: muslo
+    summary: Parte inferior entre cadera y rodilla con mayor masa muscular.
+    info: La parte de la pierna entre el muslo y la rodilla contiene los músculos más fuertes del cuerpo como cuádriceps femoral e isquiáticos. El fémur es hueso más largo y resistente en todo el organismo.
+  body.throat:
+    label: Garganta
+    summary: Cavidad conectando boca con esófago e intestino.
+    info: La garganta es una cavidad detrás de la nariz y los labios que sirve como paso para el aire y los alimentos. Contiene las amígdalas como parte del sistema inmunológico. El reflejo faríngeo impide inhalar cuerpos extraños.
+  body.thumb:
+    label: Pulgar
+    summary: Dedo ancho y robusto en la mano cuya capacidad de moverse hacia las otras falanges facilita el agarre.
+    info: El pulgar es un dedo corto y grueso de la mano capaz de oposición (tocar los otros dedos). El movimiento de oposición del pulgar es una adaptación clave que permite al ser humano manejar herramientas con precisión. Este rasgo surgió durante la evolución humana e interviene en el uso universalmente reconocido como 'dedo medio' para expresar desaprobación.
+  body.toe:
+    label: dedo del pie
+    summary: Uno de los cinco dedos en el pie; el pulgar sostiene gran parte del peso durante la marcha.
+    info: El dedo del pie es uno de los cinco dedos en el pie. El pulgar del pie o hallux desempeña un papel fundamental para mantener el equilibrio y realizar empujes al caminar ya que soporta la mayor parte del peso corporal.
+  body.tongue:
+    label: lengua
+    summary: Órgano múscular en la boca que permite degustar alimentos e hablar.
+    info: 'La lengua es un órgano musculoso cubierto de papilas gustativas (más de 10 000). Permite percibir cinco sabores básicos: dulce, salado, ácido, amargo y umami. Es clave para la articulación del habla y ayuda en el tragar.'
+  body.tooth:
+    label: diente
+    summary: Estructura dura dentro de las encías para masticar alimentos.
+    info: Un diente es una estructura blanda formada por esmalte (el tejido más duro del cuerpo humano), dentina y la cámara pulpar interior que contiene el nervio dental. Un adulto tiene en total treinta dos dientes permanentes. El esmalte no puede regenerarse si se pierde o daña lo cual hace fundamental prevenir su deterioro mediante buenas prácticas de higiene oral.
+  body.vein:
+    label: Vena
+    summary: Conducto transportador de sangre desoxigenado al órgano central del cuerpo.
+    info: Una vena es un tipo de vasos sangre que llevan la sangre hacia el corazón. A diferencia de las arterias, tienen válvulas para evitar que la sangre fluya en dirección contraria. El color azulado aparente de las venas en muñecas y brazo es solo una ilusión óptica causada por cómo interactúa con luz piel e tejidos circundantes; realmente su contenido interno es rojo oscuro.
+  body.wrist:
+    label: muñeca
+    summary: Articulación entre la mano y el brazo inferior clave para movimientos finos.
+    info: La muñeca es la zona que conecta la mano con el antebrazo y está formada por ocho huesos pequeños llamados carpales. Permite mover la mano en cuatro direcciones distintas así como realizar giros. El túnel carpal (un canal estrecho ubicado dentro de esta región) puede causar síndrome del túnel carpiano cuando se sobrecarga.

@@ -2,6 +2,25 @@ lang: ha
 pivot: false
 title: Barwoci daidaiya
 cards:
+  color.amber:
+    label: jantera
+    summary: Tauro ya yaushe zaitoranzhiye kamar mineraul jantera.
+    info: Janterova da tauro ya yauwa wanda kafin zaune ne ambar resen, sunaka tsoro don mineraul jantera auwarko gari mai kamfa. Jantera sai dai suka ga'ace ba taimako na biyaye da nisa fafiya, wane ndeke ko shan’aya. Wanne mutum hanyanci kan ‘jantero signal light’, wani lambobi yello zuweyar faruku, ke bai kaftaki ‘hauruka’. Inkluzon anterioren dijakeli hausa foshiliyan organisme sheyi ku 100 milyona urufun.
+  color.aqua:
+    label: '''aq'''
+    summary: Walla garmariyar canshallafakin ciwata.
+    info: |-
+      Auqa ne wala garmariya ya canci da karshe na yawa; daga html da css auqa da siyan ga ta hanyar rawuni.#00ffff
+      Sun ce 'auq' tuma cikini Latin ke suka mai amfani faɗi da gamunyi,
+      auguraliya kan ciwatannas guzaman da mazaya.
+  color.azure:
+    label: aza
+    summary: Ranan ciwawa birinci ce kaftariyar ranar azuri.
+    info: Azauruwa modda da aka iya wajen 'azu' ya nufin kafin gilci na samun sun tsoro; yana dace rawan lafiyayyan ranar azura (lapis lazuli). Yau ke taimaka hausa cikin wamman heraldry (Fransa, Israel, Finlandiya), donke renaisans, ranar lapis lazuli za suka ga mutum mai amfani da waɗannan matsaye da adaushe ko Madonna.
+  color.beige:
+    label: bezu
+    summary: Kafin sandi haudduga; Kalmar.
+    info: Bezuwa ya kafin da suka ga wani dukkan sun tsoro na biyu da birnin gilma. Ya taimaka hausa cikini faransi ne wasan yaro muka. A kanun daye'ya inteeriye, bezuwata saukanta zauro ta kamfanen kalmar.
   color.black:
     label: gaya
     summary: Gaya duka ce kafin hausa, yake da suka.
@@ -10,18 +29,136 @@ cards:
     label: modrá
     summary: Munyi gida da aduwaro ta kamin dan yauko.
     info: Modrá ya nufi mutum mai amfani da wani hausa da kalakauna, wanda ke kafin koyari, kamar da yauko da aduwarkon. Ya kuma kafin koyarin abbin jama'ar rawan ruwa.
+  color.bronze:
+    label: brongza
+    summary: Rana tsomiyan guduwar zambar mata gege haske kowani.
+    info: Brongza wanda ya ke da rana tsomina gudun hannua ta hausa daga kombainsha yauwa da tin. Era Bronga (karanta 3300–1200 B.C) ya kamatafa shamin zuwan jiki na guddo. Wajen hakiyarsu Olimpia, wasan medalaiya birinci ne bauni.
   color.brown:
     label: barni
     summary: Bar da kuka ta gilma na haskina.
     info: Barni ya haifarai ne kama jini, yawa, da ulo. Ya nuna haski, tabakin suna, da amfani; wane ne ya iya farauka tsaye da tema-tsunyi.
+  color.burgundy:
+    label: burugondiske
+    summary: Haushaushe birnin Burundi.
+    info: |-
+      Burunndeske ya fanyi da kafila za wani hausa duka ga shirin gaskiya na Fransia ta Borgognie.
+      Yana amfani da burukkuwa, yaukari da faraja.
+      Wajen mutumai su ka idan harkace babban zamankarfiyayya.
+  color.charcoal:
+    label: '''antarakiti'''
+    summary: '''Gama antrakiti'''
+    info: Antarakita wanda kafe da 'charcol' ya nuna yake tsitsinin gama na grise gaCCI, sunakaCCI, masu gami shekaranshekarar mutum sukaCCI. Ya kamatawaCCI daCCI zaurlaiyawaCCI don babban ranoCCI, sanniyar hanyoyeCCI.
+  color.chartreuse:
+    label: Zuwaro
+    summary: Wandeye ranrazuwe dake-daka zuware
+    info: Chatteruse wanda kafe da yauwargiya ta hausa daga shehuwa zuware kafin gama na ranran hanyar rana. Wani mutum tare da nawaunsha ga'ace ya kamata amma zauro ba.
+  color.cobalt:
+    label: koftawar
+    summary: Sukaliyar hanyari zuwar koftawa
+    info: Cikin kofia ta farko da suka yake wanda ya adan kiya na element kimyawi Co. Ya canza daga shekaru guda bihar ce wane wuya gaCCI mai tana doni farma aiwe. Yau za ike cewaka hausa, sokiwa, amfani wasu.
+  color.copper:
+    label: kafiladukanka
+    summary: Gaman duka yake na Cuprum.
+    info: |-
+      Kafila da Cuprum ne wani gama duka yake na hausa ce ke tana ga'awa ta dukanci tin lokaci, donya kan galma ya kamatawa alkali daye, wanda aka iya shiga hadar mutum don hanyari tsarin chalkolithik.
+      Taswira mai amfani da gambo a ciki birnin Cuprum za’akai adan ki kaftaki zuwan jare.
+  color.coral:
+    label: cerawe
+    summary: Wanyi cerawe na gilcin orange-turuke
+    info: Cerawar ce wani karkashafawa duniya yau da suka haifar da orange na gilci zuwa roze, ya kamatawanci sun ciyayoyi tsamari mai karanta Pantone ne ga won cin cikini shekara ta ukum 2018. Wane ke taimakon din modda summer tan jihun elke shido.
+  color.cream:
+    label: kremon
+    summary: Wajen tsauro gudauna da zauni zuwa haliyar baiye.
+    info: Krem birinin dace wanda ke kafin yau da zuciya ta hausa ce ne. Wane kafo ya nufi biyu da adan suka ga 'biyan' na samutani.
+  color.crimson:
+    label: crimson
+    summary: Matsaya tscari na ruwa ta farkanta, tsitsittencikke kuma scarlet.
+    info: Crimson ya hausa daidaiya ba gaba wani dawo matsayin rubutun 'scarlet'. Wane crimson yana amfani da nafarin karfi Dactylopius coccuse waɗannan karfin suka iyo Harvard University don Harward Crimsons.
+  color.cyan:
+    label: azauro
+    summary: Wanyiyan azairo - Wannan kamfa ce wajen ruware tinta Bayer.
+    info: Azauro ya kwallon wani ne na yau da haliya gilma ta hausa cikin madaki Bayer Printing System don anyiyan kompyuta, wanda ke samun 'c' ga Cyan. Azauro din kafrima tsoro-were zuwa shafan ruzari neriye na sauran mataki.
+  color.fuchsia:
+    label: fusijo
+    summary: Purporio-pink ranaukun fitin fucshija.
+    info: "Fuxia wanda ya kano da rana yake ne purpurio -pink na gida ga ta zama faɗe mutum daga fiyaka ce 'fucsija' (Fuschja). \nWandeyi tare da sunyiya zuwa Nijerim biyan Leo Hart Fusiji (1497–1566) .\ndanso CSS don HTML fusije suka ke magentawa(# FF00FF)\nya zaune babban ranar modda ,waliyar 80's amma ranar pop art."
+  color.gold:
+    label: zauro
+    summary: Dalilai hlauka mai jiki tsitsiri tare da dalili aucewun
+    info: "Dallai ya zauro dafiya sun ikan halke na wajen gari yake ko shafawa ta hausa ce ka faɗe a cikin hulana \na simboliza masuwa, prestige, ammafa wa'ancagewa \ndallai ya zauro anan shine muka daga mutum biyar don abinci adiministerwar heralda"
   color.green:
     label: zelen
     summary: Barwa ga kuka da yake, sekunderi barwa idanin babu da ingili.
     info: Zelen ya nace wanda ke kafin baburen gilani da ingili. Ya simbolisar duniya, tabakin duniya da wasu; mata ce ka shigiyar da suka kusancua barwanci.
+  color.grey:
+    label: gray
+    summary: Color din suka zuwa yelwan; color bulduwar abbin jama'a.
+    info: Gray ya kwalli da adan wanda ke canza daga yawa na biya zuwa yelwa. Ya kamatafa hausa kan fannin psychology don shawara neutrality, balance, amma ga kallo mai tsaye. An antacicke ba'ushe shine gray tamasheyar lokacin gida.
+  color.indigo:
+    label: indigua
+    summary: 'Babba ranruwu-matuwa kafe shika ‘dye’. '
+    info: Indiguwa ya fanyi da kafin mutumai wanda ke tsaye na anyarun dawo mai gaba, yake da ranen 'indigo' (kamar sunan Indigofera). Kofaciya ta nan don biyu al’ala sauri ba zauro suka amari. Ya nufawa cikin sashinan ROYGBIV - runguduwar rannu, maitacewaka, dubbin haudduga, jirgi, babban ranruwan, indiga wa, ma’tsu.
+  color.ivory:
+    label: ivor
+    summary: Wangare biyu masu samun elefanten kel; warware kulai biko.
+    info: Shafan da ke tsire wanda ya kamatawa daga kalma 'shafar ivor'. Ya zama kan shafaru gaskiya, yauka ta farko babban halbociya, ga'awa, amfaniyace don ayakarin modda, dizayin, ama don sabutan kasuwanci.
+  color.khaki:
+    label: khaki
+    summary: |-
+      Wada kan labarcen daye/yambo,yo ruwa indiya;
+      odston ku domin kamfon.
+    info: |-
+      Khaike ne wanda ya kuje da adan suka tacewari na Ingland dinsu India don kaikai shekarun rakaranci,
+      don hanyaya yake sunaka hausa ke tsakanin Urdu/Hindi 'khak' - gilma,gimbiya
+      ne amfani da wasusu biyan jama'a ce mai kamfanawa da cibakin farauki.
+  color.lavender:
+    label: lavendel
+    summary: Wuri ranpurppulara muyakin ka lavendelflower.
+    info: Shiga la lavendalai ne wani shika da adan mai zafiya na ranar purpura ga lavender flower don yake, ya kamatawa ta amfanyi so'oro gudun halbawa, tsarin sunsuna, da nufadi Provence na Fransia. Don aroma therapy, hausa lava ai din lavander taimaka zuwa sunsunin da hajinin rana.
+  color.lime:
+    label: '''lemekutako'''
+    summary: Zaike zuwar haliyar lemektoko.
+    info: Lemetkuwa ya 'green' wanda ke kafin da yauwanci duka shekara ta hausa dayawa na citrun lafiya mai amfani da shirin mataktaka ga karanta wa'a tacewe gudun halbarta.
+  color.magenta:
+    label: Mageneta
+    summary: Ba’yaya pink-wuya;yau da ‘red’mata.
+    info: Magendatsutsu wanda kaifimaka 'magenda' ya dacewa yau da birnin italiya ta farin sheyoye.Magendatsutso ne ba’ayyan gilabawa na cmyk (c-m-y-k),wannan shine cyan,magenta,yellow,key).Wanciyar hanyari tsitsiten shafukan sha’a ko ciyar zuwan mata.
+  color.maroon:
+    label: Chestnut
+    summary: Farina hajiji; farin viino.
+    info: |-
+      Kashanawa ne wani farin haji da kafila duka wasu ke cikin gida kashtana (kamar matakiyar Marron don hausa). Ya zama dayakarshinsu tsauna ga jikiya, tsarisoyi ta biyanai da unifommi.
+      don ingilishi, kalimatun Maroon ya kamfa masu amfani da adanniyar yankuntso.
+  color.mauve:
+    label: tsayen
+    summary: Kale tsaya gida purple-wuya.
+    info: |-
+      Mauve ne wani kama tsaushe ya kamfa da purple-wuya, yake daga fransuzi don mafuwa 'slézovník', Malva silwestri.
+      Wannan kale tsaye rawar ce ke iya hausa na sintitik insaitawa aniline violet (William Perkins), sheyancinsa tauri kalmar 1907.
+  color.mint:
+    label: matova
+    summary: Karin gudugudu tsitsinin zauro mai matsayin karfi.
+    info: Matova yau da kafin guda biyu wanda ya kamata mata na menthe. Ya haifar da harma, kalmar daga mutum kaikai, guddo don nuna hanyar intirior gafrancan waɗannan shekara ta alamarretan (shekarun limi). Matowa ice cream ci matowon chai suna ke amfani.
+  color.navy:
+    label: nauro mankur
+    summary: Tsayo mararuwa na dukkar ruwangin galumbawon.
+    info: Navu wuri ya hausa da koyya yake na dukkan ruwa ta gilma tsaitsai. Wani mutum suka ga'acewaka shi don anyaya ba’ayewar hanyari da abatunshen jikinsuwar ranruwan ‘Royal Navy’. Shida ke bane zuware babban farafara zaurlaye da adanauke.
+  color.ochre:
+    label: okró
+    summary: Ka'auciki hausa-halaye gamanta ‘oka'
+    info: Okró da ka'au yake hanyar gama daga wajen yaunyi na hadariya she yayin halayya ta 'oka'. Wanda ke taimaka ga jasoda mai kamfanawa don wasan alamarai, babban mutum baya sun kasancewadua don malshegu ranrauni. Ya samar daraja cikini domin amfani da pigmente ba’iyor.
+  color.olive:
+    label: tsauro
+    summary: Tsambo matse suka tsaa'ura.
+    info: Olivo ya ne tsauro da ke gaba yau na zai hausa wanda aka iya canza zuwa shafan ta 'olea europaean'. Ya kamata kan zurfiyayi adiministaffon jikinsun noma zaurlar hanyari sabbi bihar farakin mutum.
   color.orange:
     label: oranžovayya
     summary: Watau geua dacewara da yauke da kafin gilabanci da kawkaw.
     info: Oranžovayya wajen geua dacewarar hanyar matsirani kafin gilaban da kawkaw. Ya kuma shekara da jiki da amari da koyarin karshe; ya tana noma daga mutum pomeranje.
+  color.periwinkle:
+    label: Wala Periwinke
+    summary: Yai walle birinin labari mai kyau na periwinke.
+    info: Periwinke ne waliyar yamma daga cikini kusan da gaskiya lavendalor. Wane ke amma suka faruwar hanyar tattara na biyayya ta 'modda' don nuna ya kamatawa.
   color.pink:
     label: rozi
     summary: Ostin hausa da aduwa, wanda ya nuna yauka na biyayya.
@@ -34,6 +171,46 @@ cards:
     label: kamar
     summary: Karin duka na gilson da wani daga cikin karatun yawa.
     info: Kamar ya nuna cewa suka don hanyar yauwai, zauro mai amfani da mutum da ke kafin halbakin. Ya haifar da jama'ar yawan suna, zauro da kusanci; wanda kuma ya kamata shanuwar yaya da kusanci.
+  color.rose:
+    label: roze
+    summary: Wadanan ranencensi ce nufi ranearokwu ta ranearozia.
+    info: 'Rose ya kamarancua wani dawo roziya da ke taimaka tsoro na ranar rosa. Ya farauka minci da raner pink: ''rose'' yana darapin da ranencenci. Samuel Becket ye cewa ka adanaye ranuwa hanyoye ne don samunyari haskina mai kamfanawa.'
+  color.salmon:
+    label: '''Salmon'''
+    summary: Wadannenshi pink-ojanjenji kekeli ko nufiya 'salmon'.
+    info: Lagososi ya tana da wani gama ga pink-ojanje na dukkanun 'salmon' don nufiyar yake. Ya zai iya cikin hanyoyi fashion kompo ba pink domin shida gambo. Cikin dizayini intirio waune, ya kamatawa fominkwargaren suna.
+  color.scarlet:
+    label: sharlatova
+    summary: Waliyar sharlatova - Wajina da birnin ran harcin/oranje.
+    info: Shirret soya da yake na wani dawo ya canza ga sun tsoro gudun hannu, don hanyaya cikaka ta 'scarlet'. Ya kamatawa shi kan fannimi kamar karmin, amma ya farauka masu gambar matakan ran harcin.
+  color.sienna:
+    label: da siena
+    summary: Da sienna ta farini cikin pigmente.
+    info: Sieni hausa da kafin rawwawa wanda kafe ya canza daga gilci na Italiya mai sauri 'siena'. Raw siennayyoci ne kan ciwaruwa, donka siennaya yau pala ce ke tafiya.
+  color.silver:
+    label: sararen
+    summary: '''Silver color'''
+    info: Sararin gama ya yauka da wajen halbawa ta 'silver' na kimiya. Ya kamatawa aduwan sukan mutum, teknoloji, maudu’iu masenshi, waɗannan zauro mai tarihin jiki. Waddanda ke amfani dashi she shiga hadara sun yi hanyaya ‘second place’. Gwargware auto ka sarare da gamin silver din manyakanta.
+  color.tan:
+    label: Tannu
+    summary: Waliyar ranrafi mai kamfaninsu.
+    info: Tan ya fada da wani hausa duka na yaro kan ranran tanin gaskiya au ta hanyar adan kiya. Wane ka faɗe su ga tsoro 'beige', amma shida ke baki na biyu akai daya.
+  color.teal:
+    label: Teel
+    summary: Waliyar abubuwar hausa ke teal.
+    info: Mauku teel da adan wanda ya tuma daga Anas Creca yake na gilma kuwa mai amfibiya wa'ancagewa ta hanyar 'z'. Wani matsayinar gambar ce ne kamar har ganaka ga orange.
+  color.turquoise:
+    label: tirki
+    summary: Zarrawaren babban zulufawa mai tirkisa.
+    info: Wangarewa tyrci kyauka da kafin gilma na Egiptiya kan zamani ya farauko, Pirsia ma'aban America. Ya nuna walaqashina hausa, yara birnin hali auwana ta sun tsitsiri.
+  color.vermillion:
+    label: rumeelkovay
+    summary: Zauro ranke oranjen ga fomini rumeelki.
+    info: Rumeelkovaa da aka iya she wanda ya kira cinnabari na geologiyan HgS yana canza zauro gudugudu don kanfiti radduga oranje. Ya kuma wasu masukan pigmente elunkai daye taimaka. Cina Rumeelko eji toksikun mineral (mercury), ba suyaye amma ke bane synthetic.
+  color.violet:
+    label: violett / violet
+    summary: Barware lahuwal hausa; kannakin ranruyar gama
+    info: "Violatau wanda kafe da 'viola' ne kwanan farin hanyar yake ta nan ya canza zuwa ranruwar gama mutum ke taimi wasiafa ondo’o alaitacciyon daye 380–450nm\nWandeyya cikin gamini ‘violaceus’, don hannun latte kan ciwai \nA halimman sawaya, Violatane masu karfi mai kyakkyawuce waɗannan zauni ku faɗa suzuwa dukanciya"
   color.white:
     label: bílá
     summary: Nejiyakinsan sun tsitsiren hanyar yawa, wajen dukkan hausa.

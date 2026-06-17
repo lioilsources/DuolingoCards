@@ -2,18 +2,130 @@ lang: de
 pivot: false
 title: Vögel
 cards:
+  animal.albatross:
+    label: Albatross
+    summary: Meeresvogel mit dem größten Flügelspannung aller Vögel.
+    info: Der Wanderfalke hat den größten Flügelspannung von allen Vögeln, der über drei Meter beträgt. Er verbringt den Großteil seines Lebens auf offenen Meeren und kann Tausende Kilometer ohne Landung fliegen. Der Vogel trinkt Meerwasser und sondert Salz durch Nasendrüsen ab. In maritimen Traditionen gilt ein getöteter Albatross als Omen für Unglück.
+  animal.budgerigar:
+    label: Wandelhühner
+    summary: Kleiner farbiger Papagei aus Australien, beliebtes Haustier.
+    info: Das Wandelhuhn kommt aus dem Inland von Australien, wo es sich in großen Schwärmen aufhält. Es ist der am weitesten verbreitete gezüchtete Vogel weltweit nach dem Goldfink. Männchen können menschliche Stimmen imitieren und sich mehrere hundert Wörter aneignen. Wilde Wandelhühner sind grün-gelb gefärbt; farbige Mutationen entstanden durch Zucht.
+  animal.canary:
+    label: Kanarienvogel
+    summary: Ein kleiner gelber Singvogel beliebt als Haustier.
+    info: Der Haussperling stammt von den Kanaren und wurde im 17. Jahrhundert domestiziert. Durch Züchtung entstand die gelbe Farbe; der wilde Sperling ist grünbraun gefärbt. Männchen singen komplexe Melodien; Wettbewerbe im Sperlingsgesang sind ein weltweites Phänomen. Historisch wurden Sperlinge in Minen als Detektoren für Kohlenmonoxid eingesetzt.
+  animal.cassowary:
+    label: Kasuar
+    summary: Gefährlicher flugunfähiger Vogel von Neuguinea mit scharfen Krallen.
+    info: Der Kasuar ist ein großer flugunfähiger Vogel aus Neuguinea und Nordaustralien. Er gilt als der gefährlichste Vogel der Welt; die langen Klauen an dem innersten Zeh können ernsthafte Verletzungen verursachen. Der hohe knochige Helm dient wahrscheinlich dazu, sich im dichten Wald zu orientieren. Der Kasuar spielt eine Schlüsselrolle bei der Samenverbreitung des Regenwaldes.
+  animal.cockatoo:
+    label: Kakadu
+    summary: Auffälliger weißer australischer Papagei mit markanter gelber Federkrone.
+    info: Der Gelkkopf-Kakadu ist einer der bekanntesten Papageien aus der Familie der Kakadus. Sein charakteristisches gelbes Gefieder auf dem Kopf richtet sich bei Aufregung oder Alarmierung auf. Er ist intelligent und kann menschliche Stimmen nachahmen. In Gefangenschaft leben sie bis zu 80 Jahre und in Australien gelten sie als Schädlinge im Getreideanbau.
+  animal.condor:
+    label: Kondor
+    summary: Größter fliegende Vogel Amerikas mit nacktem Kopf.
+    info: Der Kondor ist der größte fliegende Vogel der Welt an Gewicht und Flügelspannung. Er ist ein Geier, der sich von Kadavern großer Säugetiere ernährt und eine wichtige Rolle im Ökosystem spielt. Er segelt auf riesigen thermischen Strömungen über den Anden ohne die Flügel zu bewegen.
+  animal.crane:
+    label: Storch
+    summary: Ein großer Zugvogel bekannt für Tänze und lauten Gesang.
+    info: |-
+      Der Storch ist ein großer Vogel, der jedes Jahr tausende Kilometer zurücklegt.
+      Er wird durch seine Tanzrituale berühmt, bei denen Paare springen und ihre Flügel ausbreiten.
+      Im Herbst und Frühling zieht er in riesigen Schwärmen über die Tschechische Republik.
+      Dem Baugerät wurde nach dem Vogel benannt.
+  animal.crow:
+    label: Rabe
+    summary: Schwarzer intelligenter Vogel aus der Familie der Krähenartigen mit Problemlösungsfähigkeit.
+    info: Die Rabe ist ein Vögel aus der Familie der Krähenartigen und bekannt für seine außergewöhnliche Intelligenz. Er kann menschliche Gesichter erkennen, Werkzeuge benutzen und komplexe Aufgaben lösen. Raben leben in Paaren oder kleinen Gruppen und sind Allesfresser.
+  animal.cuckoo:
+    label: Kuckuck
+    summary: Brütenparasit, der seine Eier in fremde Nester legt.
+    info: Der Kuckuck ist bekannt für seinen Brütenparasitismus und legt seine Eier in die Nester anderer Vögel, wo sie vom Pflegeelternpaar ausbrütet und gefüttert werden. Das Küken des Kukucks verdrängt bald darauf andere Eier oder Jungtiere im Nest. Sein zweistimmiges Rufgeräusch „ku-kú“ symbolisiert den Beginn des Frühlings. Die Männchen rufen typisch, während das Weibchen ein blubberndes Geräusch von sich gibt.
+  animal.dove:
+    label: Taube
+    summary: Symbol des Friedens; rein weißer Vogel mit feinem Gefieder.
+    info: Die weiße Taube ist seit der Antike ein internationales Symbol für den Frieden; sie brachte Noah im Alten Testament eine Olive zurück. Im Christentum steht sie außerdem für den Heiligen Geist. Der Haustaub ist eigentlich ein domestizierter Felsentauber; die Weiße entstand durch Züchtung. Das Freisetzen von Weißtauben ist weltweit Teil von Zeremonien und Feiern.
+  animal.duck:
+    label: Ente
+    summary: Wasserfink mit flachem Schnabel; der Männchen hat grüne Köpfe.
+    info: |-
+      Die Wildente ist die verbreitetste Entengattung weltweit und Vorfahr der meisten Haushühner.
+      Der Hahn hat typischerweise glänzendes Grün auf dem Kopf, während das Weibchen unauffällig braun gefärbt ist.
+      Sie sind Streifenten, die an der Wasseroberfläche fressen statt zu tauchen.
+      In Böhmen ist die Ente ein unverzichtbarer Bestandteil von Teichen und Flüssen.
   animal.eagle:
     label: Adler
     summary: Großer Raubvogel mit gebogenem Schnabel und scharfem Augenlicht.
     info: Der Weiße Haubadler ist das Nationalsymbol der USA und einer der größten Raubvögel Nordamerikas. Er jagt hauptsächlich Fische, die er mit seinen scharfen Krallen direkt aus dem Wasser fischt. Er erreicht ein Flügelspannweite von über zwei Metern und erreicht in der Natur ein Alter von etwa 20 Jahren.
+  animal.emu:
+    label: Emu
+    summary: Zweitgrößter Vogel der Welt, flugunfähiger australischer Strahlent.
+    info: Das Emu ist der zweitgrößte Vogel der Erde und ein Endemit Australiens. Es kann nicht fliegen, ist jedoch ein guter Schwimmer und schneller Läufer. Der Männchen brütet die Eier aus und kümmert sich um das Junges, während die Weibchen weggehen.
+  animal.falcon:
+    label: Falk
+    summary: Das schnellste Tier der Welt im Sturzflug (über 320 km/h).
+    info: Der Wanderfalke ist das schnellste Lebewesen auf der Erde und erreicht beim Sturzflug Geschwindigkeiten von über 320 km/h. Charakteristisch sind die dunklen Augenringe unter den Augen, welche Reflexionen des Sonnenlichts reduzieren. Der Mensch jagte bereits seit mehr als 2000 Jahren mit ihm; diese Jagdform, genannt Falknerei, ist ins UNESCO-Weltkulturerbe eingetragen. In Tschechien brütet er auf hohen Gebäuden und Felsen.
   animal.flamingo:
     label: Flamingo
     summary: Rosa Wadenbird, der auf einem Bein in flachem Wasser steht.
     info: Der Rosa Flamingo erhält seine charakteristische Farbe aus Karotinoiden, die in Algen und Krebsen enthalten sind, von denen er sich ernährt. Jungtiere werden grauweiß geboren und färben sich erst im Laufe der Zeit. Der gebogene Schnabel dient als Filter – der Flamingo filtert seine Nahrung aus dem Wasser, indem er den Kopf nach unten hält.
+  animal.goose:
+    label: Gans
+    summary: Großer Wasservogel, der sich im Keil fortbewegt und auf dem Boden brütet.
+    info: Die Wilde Gans ist die wilde Vorläuferin der Haushühner. Sie wandert in einem typischen keilförmigen Formation, bei der die Vögel abwechselnd führend fliegen. Sie sind sehr territorial beim Brüten und verteidigen mutig ihre Jungen. In der Geschichte bewachten sie den Kapitols in Rom, wo ihr Gebrülle Alarm auslöste, als die Gallier angreiften.
+  animal.hawk:
+    label: Habicht
+    summary: Schneller Raubfalken, der Vögel und Säugetiere in Wäldern und Feldern jagt.
+    info: Der Habicht ist eine Gattung von Raptorvögeln aus der Familie der Accipitridae, die aufgrund ihrer kurzen, abgerundeten Flügel und ihres langen Schwanzes Fänge im dichten Vegetationsbereich ermöglichen können. Er ist sehr schnell und geschickt; er jagt Vögel während des Fluges oder vom Verstecken aus. Weibchen sind typischerweise deutlich größer als Männchen. Im Falkenwesen war der Habicht ein wertvolles Jagdtier.
+  animal.heron:
+    label: Graureiher
+    summary: Hoher Wassertaucher, der reglos auf Fische wartet.
+    info: Der Graureiher ist die größte Schwimmertaube Mitteleuropas. Er steht wie eine Statue reglos und wartet darauf, dass ein Fisch in Reichweite kommt, dann schlägt er mit dem Schnabel blitzschnell zu. Er kann Fische und Frösche ganzen verschlucken. Beim Fliegen hält er seinen Hals gebogen in Form eines S, was ihn von Reiher unterscheidet, die den Hals gestreckt fliegen.
+  animal.hornbill:
+    label: Kasuar
+    summary: Tropischer Vogel mit riesigem Schnabel und hornartigem Wulst.
+    info: Der Kasuar ist ein Vogel aus der Familie der Buceroten, gekennzeichnet durch einen riesigen Schnabel mit einem knöchernen Verbreiterungswulst (Casque). Er lebt in den tropischen Wäldern Afrikas und Asiens. Anstatt in Höhlen zu brüten, nutzt er Baumhöhlen; die Weibchen lassen sich vom Männchen einsperren und verbringen die ganze Brutzeit im Inneren des Baumes. Seine Anwesenheit ist ein Indikator für einen gesunden tropischen Wald.
   animal.hummingbird:
     label: Kolibri
     summary: Kleinstes Vögelchen der Welt, das in der Lage ist, sich in der Luft zu halten und rückwärts zu fliegen.
     info: Der Rotschwanzkolibri ist die einzige Kolibri-Art, die regelmäßig in der östlichen Hälfte Nordamerikas brütet. Seine Flügel schlagen bis zu 53 Mal pro Sekunde, was das typische Summen erzeugt. Er ernährt sich von Nektar und kleinen Insekten; sein Herz schlägt bis zu 1200 Mal pro Minute.
+  animal.ibis:
+    label: Ibis
+    summary: Ein Watsch Vogel mit gebogenem Schnabel, der im alten Ägypten heilig war.
+    info: Der Ibis ist ein Wassertier aus der Familie Threskiornithidae mit einem typischen langen gekrümmten Schnabel. Der heilige Ibis wurde im antiken Ägypten als Inkarnation des Gottes Thoth verehrt und lebt heute in Kolonien an Feuchtgebieten und Flussdelta. Der Braune Ibis wurde unbeabsichtigterweise nach Europa eingeführt und breitet sich dort aggressiv als invasive Art aus.
+  animal.kingfisher:
+    label: Blaue Elster
+    summary: Ein farbenfroher Vogel, der an Bächen Fische jagt.
+    info: Die Blaue Elster ist eines der schönsten Vögel Europas mit einem elektrisch blauen Rücken und orangefarbenem Brustgefieder. Sie sitzt auf Ästen über dem Wasser und beobachtet Fische, bevor sie kopfüber ins Wasser taucht. Sie dient als Indikator für die Reinheit von Gewässern – wo sie lebt, ist das Wasser gesund.
+  animal.kookaburra:
+    label: Lachender Kingfisher
+    summary: Ein australischer Ritterfischvogel mit lautem Lachen, das dem menschlichen Gelächter ähnelt.
+    info: Der lachende Kingfisher ist ein großer australischer Ritterfischvogel, der für sein lautes Rufverhalten bekannt ist, das an menschliches Lachen erinnert. Er gilt als Symbol des australischen Buschs und sein Ruf wird traditionell mit Sonnenaufgang und -untergang verbunden. Er jagt Echsen, Schlangen, Nagetiere und Insekten.
+  animal.lorikeet:
+    label: Lori
+    summary: Kleiner farbenfroher Papagei, der Nektar und Pollen frisst.
+    info: Der bunte Lori ist ein kleiner Papagei aus Australien mit den lebhaftesten Farben aller Papageien. Mit seiner speziell angepassten borstenartigen Zunge sammelt er Nektar und Pollen von tropischen Blüten. Er spielt eine wichtige Rolle als Bestäuber in tropischen Wäldern. Der Lori lebt in Schwärmen, ist laut und verspielt und verbindet sich schnell mit Menschen im Captivität.
+  animal.lyrebird:
+    label: Lyrhahn
+    summary: Australischer Vogel, der Umgebungsgeräusche mit perfekter Genauigkeit nachahmt.
+    info: Der Lyrhuhn ist ein australischer Vogel, bekannt für seine Fähigkeit, fast jedes Geräusch aus der Umgebung zu imitieren – wie Motorsägen, Fotokameras, Autotaler oder das Rufen anderer Vögel. Männchen ziehen Weibchen an, indem sie ihren kunstvollen lyrischen Schwanz und präzise Imitationen zeigen. Er ist auch das Wappentier des australischen Bundesstaates Victoria.
+  animal.macaw:
+    label: Ara
+    summary: Großer neotropischer Papagei mit farbenfrohem Gefieder und starkem Schnabel.
+    info: Der Ara ist ein großer Papagei der tropischen Wälder Südamerikas, der das auffälligste Gefieder aller Vögel hat. Er besitzt einen kräftigen gebogenen Schnabel, der dazu geeignet ist, harte Nusskerne zu knacken. Sie leben als Paare, die ihr ganzes Leben lang zusammenbleiben. Ihre Population wird durch Rodung von Wäldern und illegalen Handel mit Exoten Tieren bedroht.
+  animal.magpie:
+    label: Straße
+    summary: Schwarzer und weißer Vogel mit langen regenbogenfarben glänzenden Schwanz.
+    info: Die Straße ist ein Vögel aus der Familie der Krähen mit einem markanten schwarzweißen Gefieder und einem langen grünlich glänzendem Schwanz. Sie hat den Ruf einer Diebin für glitzernde Gegenstände, aber Forschungen bestätigen diese Legende nicht. Sie gehört zu den wenigen vogelförmigen Tieren, die ihren Spiegelbild im Spiegel erkennen können.
+  animal.nightingale:
+    label: Sperling
+    summary: Kleiner brauner Vogel, der einen der schönsten Vögelgesänge singt.
+    info: Der Sperling ist ein kleiner brauner Vogel, dessen Männchen einen der kompliziertesten und schönsten Vogelsangarten singt. Er singt hauptsächlich nachts und bei Sonnenaufgang, was auch die Herkunft seines Namens erklärt. Der Sperling ist mit dem Rotkehlchen verwandt. Dichter aus aller Welt von Dante bis Keats haben den Gesang des Sperlings als Symbol für Romantik und Melancholie gefeiert.
+  animal.ostrich:
+    label: Strauß
+    summary: Größter Vogel der Welt, flugunfähig; rennt mit bis zu 70 km/h.
+    info: Der Zweizäher ist der größte und schwerste Vogel der Erde; Männchen erreichen eine Höhe von bis zu 2,7 Metern und ein Gewicht über 150 kg. Er kann nicht fliegen, aber er ist das schnellste zweibeinige Tier auf dem Land, mit Geschwindigkeiten über 70 km/h. Seine Eier sind die größten aller Vögel. Der Gegenstand des Fußes fehlt; er hat nur zwei Zehen.
   animal.owl:
     label: Eule
     summary: Nachtpredatorischer Vogel mit runden Augen, leisem Flug und ausgezeichnetem Gehör.
@@ -26,11 +138,75 @@ cards:
     label: Papagei
     summary: Männlicher Pfau mit einem wunderschönen, färbigen Fächer im Schwanz.
     info: Der Indische Pfau stammt aus dem indischen Subkontinent. Der Männchen (Pfau) breitet sein Schwanzgefieder – in Wirklichkeit verlängerte Deckfedern – zu einem Fächer aus, um Weibchen anzulocken. Die iridisierenden Farben entstehen nicht durch Pigmente, sondern durch das Brechungsverhalten des Lichts an mikroskopischen Strukturen der Federn.
+  animal.pelican:
+    label: Pelikan
+    summary: Großer Wasservogel mit riesigem Beutelschnabel zum Fischen.
+    info: Der Pelikan ist ein großer Wasservogel mit einem charakteristischen beutelförmigen Schnabel, der als Netz für Fische dient. In den Beutel passen bis zu 13 Liter Wasser, das er anschließend herausdrückt und die Fische schluckt. Sie fliegen in aerodynamisch effizienten Formationen und nutzen Luftwellen gegenseitiger Aufwinde. Im christlichen Symbolismus steht der Pelikan für opferwillige Liebe.
   animal.penguin:
     label: Pinguin
     summary: Nicht flugfähiger Vogel aus der Südhalbkugel, ausgezeichneter Schwimmer.
     info: Der Kaiserpinguin ist die größte Pinguinart; er erreicht eine Höhe von über 1,1 Metern. Er lebt in der Antarktis und legt Eier in den größten Kälte – die Männchen erwärmen die Eier mit den Füßen die ganze antarktische Winter hindurch. Unter Wasser erreicht er Geschwindigkeiten von über 30 km/h.
+  animal.pheasant:
+    label: Pfauen
+    summary: Farbenreicher Hahn mit langem Schwanz und markanten Federn.
+    info: Der Rebhuhn wurde aus Asien nach Europa eingeführt, ist heute aber ein natürlicher Bestandteil der europäischen Tierwelt. Der Männchen (Rebhuhnhahn) hat auffällige Färbung – grün-braunes Gefieder und einen typisch roten Augensack um das Auge herum. Es ist die verbreitetste Vogelart im Jagdwesen Tschechiens und Grundlage der traditionellen Jagen.
+  animal.pigeon:
+    label: Taube
+    summary: Graue Stadttaube mit glänzendem Hals, abgeleitet von der Felsentaube.
+    info: Die Felsentaube ist die Vorfahrin aller häuslichen und verwilderten Tauben in Städten. Sie war das erste domestizierte Vogelgeschöpf; seit tausenden Jahren dient sie dem Menschen als Bote. Sie besitzt eine außergewöhnliche Orientierungsgabe und kann sich aus hundert Kilometern Entfernung den Weg nach Hause finden. In Kulturen auf der ganzen Welt symbolisiert sie Frieden.
+  animal.puffin:
+    label: Eisenteiler
+    summary: Kleiner Seevogel mit farbenfrohem Papagei-artigen Schnabel.
+    info: Der Nordische Eisenteiler ist ein kleiner pelagischer Vogel mit bunt gefärbtem Schnabel. Er jagt indem er sich unter Wasser taucht und Fische schwimmend verfolgt; er kann mehrere Fische auf einmal im Schnabel tragen. Er brütet in Kolonien an felsigen Klippen und in Höhlen. Er ist eine dauerhafte Ikone Islands und der Färöer.
+  animal.quail:
+    label: Wachtel
+    summary: Ein kleiner, scheues Feldgeflügel, das auf dem Boden in der Wiese brütet.
+    info: Die Feldwachtel ist die kleinste Vertreterin der Phasianidenfamilie in Europa. Sie ist sehr scheu und man hört sie („Pitta-Pitta“) leichter als dass man sie sieht. Im Gegensatz zu anderen Hühnerarten ist sie Zugvogel und überwintert in Afrika. Ihre Eier sind eine beliebte Delikatesse.
+  animal.raven:
+    label: Krähe
+    summary: Großer kluger schwarzer Vogel mit typischem Krächzen.
+    info: Die Haube ist der größte Vertreter der Corviden-Familie und über 60 cm lang. Sie ist außergewöhnlich intelligent, kann für die Zukunft planen, spielen und soziale Bindungen eingehen. In den Mythologien der Nordischen (Odins Rabe Huginn und Muninn) wie auch der Kelten hatte sie einen mystischen Status. Der Tower von London wird durch eine Legende beschützt, wonach das Reich zusammenbrechen würde, wenn die Rabenvögel die Turmwache verließen.
+  animal.roadrunner:
+    label: Erdbekker
+    summary: Schneller Läufer der Wüsten Nordamerikas; Symbol von Zeichentrickserien.
+    info: Der Große Erdbekker (Roadrunner) ist ein Vögel aus der Familie der Bekkervögel, der lieber geht oder rennt als fliegt. Er erreicht Geschwindigkeiten über 30 km/h und ernährt sich von Schlangen, Echsen, Insekten sowie kleinen Säugern. Er kann sogar eine Schlange fangen und töten. Der Roadrunner wurde durch die US-amerikanischen Zeichentrickfilme „Road Runner“ und „Coyote“ berühmt.
+  animal.robin:
+    label: Rotkehlchen
+    summary: Kleiner Vogel mit roter Brust, Weihnachtssymbol im Vereinigten Königreich.
+    info: Das Rotkehlchen ist ein kleiner Singvogel mit typisch orangefarben-rotem Brustfleck. Es ist unauffällig mutig und folgt grabenden Gartenvögeln, um entdeckte Regenwürmer zu sammeln. Es ist der nationale Vogel des Vereinigten Königreichs und traditionelles Weihnachtszeichen.
+  animal.seagull:
+    label: Möve
+    summary: Küstenvogel, der nach Nahrung an menschlichen Orten und am Meer sucht.
+    info: Die Silbermöwe ist einer der weit verbreitetsten Meeresvögel Europas. Sie ist anpassungsfähig und Allesfresserin; sie lebt nicht nur im Küstenbereich des Meeres, sondern auch im Binnenland an Seen und Flüssen. Sie ist intelligent und erinnert sich manchmal an Orte, an denen Menschen sie füttern. Ihr aggressiver Hunger nach Menschennahrung ist Quelle vieler Geschichten von Touristen am Meer.
+  animal.secretary_bird:
+    label: Geier-Schreiber
+    summary: Langebeiniger afrikanischer Raubvogel, der Schlangen durch Stampfen töten kann.
+    info: Der Geierschreiber ist ein großer afrikanischer Räuber, der sich vor allem auf dem offenen Buschland bewegt. Er tötet Schlangen und Nagetiere mit starken Trittschlägen seiner Beine, die dreimal so schwer wie sein Körpergewicht sind. Seinen Namen erhielt er von den langen Federn an seinem Kopf, die an das Kinnborsten eines Sekretärs erinnern. Er ist Staatssymbol des Südafrikanischen Bundesstaates sowie Sudans.
+  animal.sparrow:
+    label: Spötter
+    summary: Kleiner brauner Singvogel, der sich in unmittelbarer Nähe menschlicher Siedlungen aufhält.
+    info: Der Haussperling ist einer der am weitesten verbreiteten Vögel weltweit und ein treuer Begleiter des Menschen. Er bleibt in der Nähe von menschlichen Wohnorten, wo er in Mauerrissen und Dächern nistet. In den letzten Jahrzehnten hat seine Population in Städten deutlich abgenommen.
+  animal.spoonbill:
+    label: Spaten
+    summary: Weißer Watschelvogel mit typischem Löffel-schnabel.
+    info: Der Weiße Spaten ist verwandt mit dem Storch, lässt sich aber leicht an seinem flachen, löffelförmigen Schnabel unterscheiden. Beim Nahrungssuche bewegt er den Schnabel von einer Seite zur anderen im flachen Wasser. Er brütet in Kolonien in Schilf- und Rohrkreisen.
+  animal.stork:
+    label: Storch
+    summary: Großer weißer Vogel mit rotem Schnabel; soll Kinder bringen.
+    info: Der Weiße Storch ist ein Zugvogel, der auf Dächern und Pfählen überall in Europa brütet. Er verbringt den Winter im tropischen Afrika und kehrt jedes Jahr zum gleichen Nest zurück, das er Jahr für Jahr größer macht. Der Storch gilt als Symbol des Frühlings und der Fruchtbarkeit; nach Volksüberlieferung bringt er die Kinder. Tschechien ist eines der wichtigsten Länder Europas für das Brüten von Störchen.
+  animal.swallow:
+    label: Schwalbe
+    summary: Schneller flugaktiver Insektenfresser mit typisch gefiedertem Schwanz.
+    info: Die Schwalbe ist ein Zugvogel, der den Winter im südlichen Afrika verbringt und sich in Europa ansiedelt. Sie jagt ausschließlich auf dem Flug nach Insekten und kann sogar Wasser von der Oberfläche trinken, ohne zu landen. Die Tiere brüten unter Dächern oder in Ställen; in der Volksüberlieferung gilt die Anwesenheit einer Schwalbe als Omen für Glück im Haushalt. Sie symbolisiert Frühling, Rückkehr und Treue zum Zuhause.
+  animal.swan:
+    label: Schwan
+    summary: Großer eleganter weißer Wasservogel, Symbol für Schönheit und Romantik.
+    info: Der Schwan ist der größte fliegende Vogel Europas mit einer Flügelspanne von über 2,4 Metern. Er verkörpert Schönheit, Liebe und Treue; Paare bleiben ihr ganzes Leben lang treu zueinander. Instinktiv hebt er seinen Schnabel an und bläht sein Gefieder auf, um Angreifer abzuwehren.
   animal.toucan:
     label: Tukan
     summary: Tropischer Vogel mit einem riesigen farbenfrohen Schnabel.
     info: Der Große Tukan lebt in den Regenwäldern Mittel- und Südamerikas. Sein auffälliger Schnabel ist über 20 cm lang, aber sehr leicht – er besteht aus Hohlräumen. Er dient zur Regulation der Körpertemperatur, zum Zerkleinern von Früchten und als visuelles Signal für andere Tukane.
+  animal.woodpecker:
+    label: Hackbussard
+    summary: Ein Vogel, der gegen die Rinde von Bäumen hämmert, um Insekten zu finden oder Höhlen auszuholzen.
+    info: Der Hackbussard ist ein Vögel aus der Familie der Picidae und angepasst an das Hämmern mit einem festen Schnabel sowie dem stabilen Schwanz als Stütze. Seine Zunge kann bis zu dreimal länger sein als der Schnabel und dient dazu, Larven aus gebohrten Löchern herauszuziehen. Er kommuniziert durch Klopfen und markiert damit sein Territorium.

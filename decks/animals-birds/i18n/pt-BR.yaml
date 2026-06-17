@@ -2,18 +2,122 @@ lang: pt-BR
 pivot: false
 title: Aves
 cards:
+  animal.albatross:
+    label: albatroz
+    summary: Ave marinho com maior envergadura de asas entre todas as aves.
+    info: O albatroz migrador tem a maior envergadura de asas entre todos os pássaros, ultrapassando 3,5 metros. Passa a maioria da vida no oceano aberto e é capaz de voar milhares de quilômetros sem pousar. Bebe água do mar e excreta sal por glândulas nasais. Na tradição marinheira, um albatroz morto simboliza uma promessa de desgraça.
+  animal.budgerigar:
+    label: periquito
+    summary: Pequeno e colorido periquito da Austrália, animal de estimação muito popular.
+    info: O periquito é originário do interior da Austrália, onde vive em grandes bandos. É o pássaro mais comum no mundo após os canários. Os machos são capazes de imitar a voz humana e aprender centenas de palavras. Periquitos selvagens têm cores verde-amareladas; variações coloridas surgiram por meio de seleção artificial.
+  animal.canary:
+    label: canário
+    summary: Pequeno pássaro amarelo cantor popular como animal de estimação.
+    info: O canário-doméstico vem das Ilhas Canárias e foi domesticado no século XVII. A cor amarela surgiu através da seleção artificial; o canário selvagem é verde-marron. Os machos cantam melodias complexas; competições de canto de canários são um fenômeno global. Historicamente, os canários eram usados nas minas para detectar monóxido de carbono.
+  animal.cassowary:
+    label: cassuar
+    summary: Pernambucano perigoso da Nova Guiné com garras afiadas.
+    info: O cassuar é uma ave grande e não voadora originária de Nova Guiné e norte da Austrália. É considerado o pássaro mais perigoso do mundo; suas longas garras no dedo interno são capazes de causar ferimentos graves. O capacete ósseo alto provavelmente serve como orientação em florestas densas. Ele também desempenha um papel fundamental na dispersão de sementes nas florestas tropicais.
+  animal.cockatoo:
+    label: kakadu
+    summary: Papagaio branco crestado da Austrália com uma crina amarela marcante.
+    info: O cacatu amarelo é um dos papagaios mais conhecidos da família Cacatuídeos. Sua crina amarela proeminente ergue-se quando ele está animado ou assustado. É inteligente e capaz de imitar a voz humana. Pode viver até 80 anos em cativeiro e na Austrália é considerado prejudicial às colheitas.
+  animal.condor:
+    label: condor
+    summary: Aves voadores mais pesados da América com cabeça careca.
+    info: O condor andino é o pássaro voador mais pesado e de maior envergadura do mundo. É uma ave carniceira que se alimenta de carniça de grandes mamíferos e desempenha um papel importante no ecossistema. Ele planeja sobre gigantescos correntes térmicos acima dos Andes sem bater suas asas. Para os povos indígenas das montanhas Andinas, o condor é um símbolo sagrado do céu e liberdade.
+  animal.crane:
+    label: corvo
+    summary: Ave migratória grande e elegante conhecida por cerimônias de dança.
+    info: O corvo é uma ave migratória que voa milhares de quilômetros anualmente. É famoso por seus rituais de cortejo em que os casais saltitam e abrem suas asas. Eles viajam em grandes bandos pelo território da República Tcheca no outono e na primavera.
+  animal.crow:
+    label: corvo
+    summary: Pássaro negro da família dos corvídeos conhecido por sua capacidade de resolver problemas.
+    info: O corvo é um pássaro da família dos corvídeos famoso por seu excepcional nível de inteligência. Ele consegue reconhecer rostos humanos, usar ferramentas e completar tarefas complexas. Vive em pares ou pequenos grupos e é onívoro. Na mitologia checa, os corvos são frequentemente atribuídos propriedades místicas.
+  animal.cuckoo:
+    label: coruja
+    summary: Parasita que esconde ovos em ninhos de outras aves.
+    info: A coruja é conhecida por seu parasitismo reprodutivo; ela deposita seus ovos nos ninhos de outras espécies, onde os pais adotivos incubam e alimentam o filhote. O filhotinho da coruja rapidamente empurra outros ovos ou crias para fora do ninho. Seu chamado característico 'ku-ku' simboliza a chegada da primavera. Os machos cantam esse som, enquanto as fêmeas emitem um tom chiante.
+  animal.dove:
+    label: pomba
+    summary: Símbolo de paz; pomba totalmente branca com penas suaves.
+    info: A pomba é um símbolo internacional de paz desde a antiguidade; na Bíblia, trouxe uma ramo de oliveira para Noé. No cristianismo, representa o Espírito Santo. A pomba doméstica é, na verdade, uma pomba-torca domesticada; sua coloração branco-puro surgiu por meio da seleção genética. O lançamento de pombas brancas faz parte de cerimônias e celebrações em todo o mundo.
+  animal.duck:
+    label: pato
+    summary: Ave aquático com bico plano; o macho (patinho) tem cabeça verde.
+    info: O pato selvagem é a espécie de pato mais amplamente distribuída no mundo e ancestral da maioria das raças domésticas. O macho (patinho) possui uma cabeça caracteristicamente brilhante e verde, enquanto a fêmea é discreta e marrom. São patos que alimentam-se raspando na superfície d'água, não mergulhando. Na República Tcheca, os patos são parte integrante dos lagos e cursos fluviais.
   animal.eagle:
     label: águia
     summary: Aguia de grande porte com bico curvado e visão aguçada.
     info: A águia calva é o símbolo nacional dos Estados Unidos e uma das maiores fêmeas predadoras da América do Norte. Ela caça principalmente peixes, que pega diretamente da água com suas garras afiadas. Tem um envergadura de asas de mais de dois metros e vive na natureza por cerca de 20 anos.
+  animal.emu:
+    label: ema
+    summary: Segundo maior pássaro do mundo, ave não voadora da Austrália.
+    info: O ema é o segundo pássaro mais grande do mundo e nativo exclusivo da Austrália. Ele não pode voar, mas é um bom nadador e corredor rápido. O macho cuida dos ovos e das crias enquanto a fêmea se afasta. Em 1932, o exército australiano perdeu uma chamada Guerra contra os emas devido aos bandos que ameaçavam as colheitas.
+  animal.falcon:
+    label: falcão
+    summary: O animal mais rápido do mundo em mergulho (mais de 320 km/h).
+    info: O falcão-peregrino é o animal mais rápido da Terra; em seu vôo de mergulho atinge velocidades superiores a 320 km/h. Possui olhos com cílios escuros característicos que reduzem a reflexão da luz solar. O homem caça com ele há mais de 2.000 anos; esta prática está registrada no patrimônio cultural pela UNESCO. Na República Tcheca, eles nidificam em prédios altos e rochedos.
   animal.flamingo:
     label: flamingo
     summary: Ave rosa que se alimenta em águas rasas, ficando em uma perna.
     info: O flamingo rosa recebe sua cor característica de carotenoides presentes nas algas e crustáceos que consome. Os filhotes nascem cinzentos e adquirem a cor rosa com o tempo. O bico curvado serve como filtro – o flamingo filtra o alimento da água mantendo a cabeça para baixo.
+  animal.goose:
+    label: gansa
+    summary: Ave aquático grande que migra em formato de 'V'; nidifica no solo.
+    info: O pato-bravo é o ancestral selvagem das gansos domésticas. Elas migram em um característico formato de 'V', onde os pássaros alternam a posição de liderança. São muito territoriais durante o período de reprodução e defendem corajosamente seus filhotes. Historicamente, as gansos guardavam o Capitólio em Roma, onde seu grasno ajudava a alertar contra invasores galos.
+  animal.hawk:
+    label: falcão
+    summary: Predador rápido que caça aves e mamíferos em florestas e campos.
+    info: O falcão é um gênero de predadores da família dos falcões capazes de caçar em vegetação densa graças às suas asas curtas e arredondadas e à sua longa cauda. É muito rápido e ágil; caça aves no voo ou do esconderijo. As fêmeas são significativamente maiores que os machos. Na arte da falcoaria, o falcão era uma ave de caça valorizada.
+  animal.heron:
+    label: volavka
+    summary: Ave alto que fica imóvel à espera de peixes perto d'água.
+    info: O garça-parda é o maior pássaro aquático da Europa Central. Fica completamente parado como uma estátua e aguarda até que um peixe chegue ao alcance para atacar rapidamente com seu bico. Consegue engolir peixes e sapões inteiros. Voam com o pescoço dobrado em forma de 'S', diferenciando-se das aves garças, que voam com o pescoço estendido.
+  animal.hornbill:
+    label: bico-de-cerco
+    summary: Ave tropical com bico enorme e crescimento córneo.
+    info: O bico-de-cerco é uma ave da família Bucerotidae caracterizada por um bico grande com um apêndice ósseo chamado cerco. Vive nas florestas tropicais da África e da Ásia. Não faz ninhos em tocas no chão, mas em cavidades de árvores; a fêmea permite que o macho feche-a dentro da cavidade durante todo o período de reprodução. Sua presença indica uma floresta tropical saudável.
   animal.hummingbird:
     label: beija-flor
     summary: Ave mais pequena do mundo capaz de pairar no ar e voar para trás.
     info: O beija-flor rubi-garganta é a única espécie de beija-flor que nidifica regularmente no leste da América do Norte. Ele bate as asas até 53 vezes por segundo, produzindo um zumbido característico. Alimenta-se de néctar e pequenos insetos; seu coração pode bater até 1.200 vezes por minuto.
+  animal.ibis:
+    label: ibis
+    summary: Ave de bico curvo e longo sagrado no antigo Egito.
+    info: O ibis é um pássaro aquático da família Threskiornithidae com o característico bico comprido e curvado. O ibis sagrado era reverenciado no antigo Egito como encarnação do deus Tefão. Vive em colônias nos pântanos e deltas fluviais.
+  animal.kingfisher:
+    label: ledňáček
+    summary: Pássaro colorido que mergulha para pegar peixes em riachos.
+    info: O ledňáček é um dos pássaros mais bonitos da Europa com costas azuis elétricas e peito laranja. Ele senta-se num galho acima d'água observando os peixes antes de mergulhar diretamente no local onde estão. É também indicador da qualidade das águas correntes pois vive apenas onde elas são saudáveis. Na Japão existe uma ave semelhante chamada hisui, símbolo da beleza.
+  animal.kookaburra:
+    label: corvo-riso
+    summary: Corvo-australiano com risada característica semelhante à humana.
+    info: O corvo-riso é um pássaro grande da Austrália conhecido por seu canto alto que imita o riso humano. É símbolo do bush australiano e tradicionalmente anuncia o amanhecer e o pôr do sol. Caça lagartos, cobras, roedores e insetos.
+  animal.lorikeet:
+    label: lori
+    summary: Pequeno papagaio colorido que se alimenta de néctar e pólen.
+    info: O lori é um pequeno papagaio da Austrália com uma das cores mais vibrantes entre os pássaros. Com sua língua especializada em cerdas, coleta néctar e pólen de flores tropicais, desempenhando um papel importante na polinização desses ecossistemas. Vive em bandos, sendo barulhento e brincalhão; em cativeiro, rapidamente estabelece contato com humanos.
+  animal.lyrebird:
+    label: lyrochvost
+    summary: Pássaro australiano que imita com perfeição sons do ambiente.
+    info: O Lyrochvost é um pássaro australiano famoso por sua capacidade de imitar quase qualquer som ao seu redor, como serras elétricas, câmeras fotográficas, alarmes de carro ou chamadas de outros pássaros. Os machos atraiem fêmeas mostrando suas caudas em forma de lira e fazendo imitações perfeitas. É o símbolo do estado da Austrália, Victoria.
+  animal.macaw:
+    label: ara
+    summary: Papagaio neotropical grande com penas fortemente coloridas e bico forte.
+    info: O ara é um papagaio das florestas tropicais da América com uma coloração extremamente chamativa entre todas as aves. Ele possui um bico forte e curvado capaz de quebrar caroços duros de frutas. Vivem em pares que se mantêm unidos por toda a vida.
+  animal.magpie:
+    label: corvo
+    summary: Ave preto e branco com cauda verde prateada.
+    info: O corvo-comum é uma ave da família dos corvídeos com coloração nítida de preto e branco e uma cauda longa e verde-esverdeada. Tem fama de ladrão de objetos brilhantes, mas pesquisas não confirmam essa lenda. É um dos poucos aves que consegue reconhecer sua imagem no espelho. Na China, ele é símbolo de felicidade e alegria.
+  animal.nightingale:
+    label: rossomano
+    summary: Pequeno pássaro marrom que canta um dos mais belos cantos de aves.
+    info: O rossomano comum é um pequeno passarinho marrom cujo macho canta uma das músicas mais complexas e lindas entre as aves. Ele costuma cantar principalmente à noite e ao amanhecer, da onde vem seu nome. É parente distante do tordo. Poetas de todo o mundo, desde Dante até Keats, celebram o canto do rossomano como símbolo de romance e melancolia.
+  animal.ostrich:
+    label: ema
+    summary: Ave mais pesado do mundo que não voa e corre até 70 km/h.
+    info: O ema é o pássaro mais alto e mais pesado do mundo; os machos podem atingir uma altura de até 2,7 metros e um peso superior a 150 kg. Ele não consegue voar, mas é o animal bípede terrestre mais rápido do planeta, alcançando velocidades acima de 70 km/h. Seus ovos são os maiores entre todos os pássaros. O dedo oposto ao polegar da perna está ausente; ele possui apenas dois dedos.
   animal.owl:
     label: coruja
     summary: Ave de rapina noturna com olhos arredondados, voo silencioso e audição excelente.
@@ -26,11 +130,75 @@ cards:
     label: pavão
     summary: Macho de pavão com uma cauda vistosa em forma de leque cheia de olhos coloridos.
     info: O pavão comum é originário do subcontinente indiano. O macho (pavão) abre sua cauda – que na verdade são penas alongadas – em forma de leque durante o cortejo às fêmeas. As cores iridescentes não são causadas por pigmentos, mas pela refração da luz em microestruturas das penas.
+  animal.pelican:
+    label: pelicano
+    summary: Ave aquática grande com bico bolsa gigante para pesca.
+    info: O pelicano é uma ave aquática de grande porte que possui um bico característico em forma de bolsa utilizado como rede para capturar peixes. A bolsa pode conter até 13 litros d'água, que são expulsos e os peixes engolidos posteriormente. Eles voam em formações aerodinâmicas aproveitando ondas do ar geradas por correntes ascendentes. Na simbologia cristã, o pelicano representa o amor altruísta.
   animal.penguin:
     label: pinguim
     summary: Ave não voadora do hemisfério sul, excelente nadador.
     info: O pinguim-imperial é o maior de todos os pinguis; atinge uma altura de mais de 1,1 metro. Vive na Antártida e põe ovos no inverno mais frio – os machos aquecem os ovos com os pés durante todo o inverno antártico. Sob a água, atinge velocidades superiores a 30 km/h.
+  animal.pheasant:
+    label: papagaio
+    summary: Ave de caça colorida e grande; o macho tem cores chamativas e uma cauda longa.
+    info: O papagaio comum foi trazido para a Europa da Ásia, mas hoje é parte natural da fauna europeia. O macho (galinho) possui coloração notável, corpo verde-acinzentado e um saco vermelho característico ao redor dos olhos. É a ave de caça mais comum na República Tcheca e forma a base da tradição caçadora local. Faz ninho no chão em vegetações densas.
+  animal.pigeon:
+    label: pomba
+    summary: Pássaro cinza comum das cidades e do campo, originariamente uma pomba rochosa.
+    info: A pomba-rocha é ancestral de todas as pombas domesticadas ou que se tornaram selvagens nas cidades. Foi o primeiro pássaro domesticado; serviu como mensageiro humano por milhares de anos. Possui um excepcional senso de navegação e consegue encontrar seu caminho para casa mesmo partindo de centenas de quilômetros de distância. Nas culturas ao redor do mundo, ela simboliza a paz.
+  animal.puffin:
+    label: papuchalk
+    summary: Pequena ave marinha com bico colorido de papagaio.
+    info: O Papuchalk é uma pequena ave semelhante ao pingüim com um bico colorido e listrado. Ele caça mergulhando e nadando para perseguir peixes; consegue carregar mais de dez peixes de cada vez no seu bico. Nidifica em colônias nas rochas íngremes e tocas.
+  animal.quail:
+    label: perdiz
+    summary: Pequeno passarinho campestre que faz ninho no chão em gramados.
+    info: A perdiz é o menor representante da família dos faisões na Europa. É um animal tímido; ouvimos seu canto ('piti-pitu') com mais facilidade do que conseguimos avistá-la. Diferentemente de outros faisões, ela migra e passa o inverno na África. Os ovos dela são considerados uma iguaria apreciada.
+  animal.raven:
+    label: corvo
+    summary: Grande e esperto pássaro preto com um canto característico de garganta.
+    info: O corvo é o maior pássaro da família dos corvídeos, medindo mais de 60 cm de comprimento. É extremamente inteligente, capaz de planejar para o futuro, brincar e formar relações sociais. Na mitologia dos nortenhos (os corvos Odino, Huginn e Muninn) e dos Celtas, tinha um estatus místico.
+  animal.roadrunner:
+    label: corredor da estrada
+    summary: Veloz corredor das desertos da América do Norte; símbolo de desenhos animados.
+    info: O corredor da estrada é uma ave da família dos cuculos que prefere caminhar e correr em vez de voar. Ele atinge velocidades superiores a 30 km/h e alimenta-se de cobras, lagartixas, insetos e pequenos mamíferos. É capaz de capturar e matar um cobra-cipó. Tornou-se famoso como protagonista nos desenhos animados Road Runner e o Cachorro Louco.
+  animal.robin:
+    label: verdinha
+    summary: Pequeno pássaro com peito vermelho e símbolo de Natal na Grã-Bretanha.
+    info: A verdinha é um pequeno passarinho cantor com típico peito laranja-vermelho. É discretamente corajosa; segue jardineiros que cavam no chão para recolher minhocas expostas. É o pássaro nacional da Grã-Bretanha e também um tradicional símbolo do Natal. Ela permanece em seu território durante todo o ano e canta até mesmo no inverno.
+  animal.seagull:
+    label: gaivota
+    summary: Ave marinha que procura comida tanto em áreas costeiras quanto perto de pessoas.
+    info: A gaivota argêntea é uma das aves marinhas mais comuns da Europa. É adaptável e onívora; vive não apenas nas praias do mar, mas também no interior próximo a lagos e rios. Ela é inteligente e às vezes consegue lembrar locais onde recebe alimento dos humanos. Seu interesse ativo por comida humana inspira muitas histórias entre os turistas junto ao litoral.
+  animal.secretary_bird:
+    label: corvo-secretário
+    summary: Ave predadora da África com pernas longas que mata cobras dando patadas.
+    info: O corvo-secretário é uma ave de rapina grande e africana que se locomove principalmente caminhando pela savana aberta. Mata cobras e roedores usando fortes pisadelas das pernas, cuja massa triplica seu peso corporal. O nome vem das penas compridas na cabeça que lembram os bigodes de um secretário. É símbolo nacional da República da África do Sul e do Sudão.
+  animal.sparrow:
+    label: passarinho
+    summary: Pequeno passarinho marrom que vive perto assentamentos humanos.
+    info: O pardal é um dos pássaros mais comuns do mundo e companheiro fiel do ser humano. Ele costuma habitar em proximidade de áreas urbanas, fazendo ninhos nas frestas das paredes e telhados. Nas últimas décadas, sua população urbana teve uma redução significativa. Para os checos, o pardal simboliza simplicidade e adaptabilidade.
+  animal.spoonbill:
+    label: corrienteiro
+    summary: Ave branca com bico característico em forma de colher.
+    info: O corrienteiro é parente do ibis, mas pode ser facilmente distinguido pelo bico plano e em forma de colher. Enquanto procura por alimento, move o bico lateralmente na água rasa. Ninhando em colonias dentro de áreas com canas e salgueiros. Na Boêmia, o corrienteiro é uma ave rara, porém visita regularmente a região da Morávia Meridional.
+  animal.stork:
+    label: cágado
+    summary: Ave branca grande com bico vermelho; traz supostamente crianças.
+    info: O cágado branco é uma ave migratória que faz ninhos em telhados e postes por toda a Europa. Passa o inverno na África tropical e retorna anualmente ao mesmo ninho, aumentando-o ano após ano. É um símbolo da primavera e fertilidade; segundo a tradição popular, ele traz bebês. A República Tcheca é um dos países mais importantes da Europa para nidificação de cágados.
+  animal.swallow:
+    label: andorinha
+    summary: Répido insetívoro aéreo com cauda bifurcada típica.
+    info: A andorinha-comum é uma ave migratória que passa o inverno na África subsariana e nidifica na Europa. É mestre no voo; caça insetos exclusivamente enquanto voa e consegue beber água da superfície sem pousar. Nidifica em celeiros e sob telhados; na tradição popular, sua presença simboliza sorte para a casa. Representa a primavera, retorno e fidelidade ao lar.
+  animal.swan:
+    label: cisne
+    summary: Grande ave aquática branca e elegante, símbolo de beleza e romance.
+    info: O cisne comum é a maior ave voadora da Europa, com um envergadura das asas superior a 2,4 metros. É um símbolo de beleza, amor e fidelidade, já que os casais são fiéis por toda a vida. Instintivamente levanta o bico e infla suas penas como aviso aos invasores. Na história infantil de H.C. Andersen, o cisne simboliza a transformação do patinho feio.
   animal.toucan:
     label: tucano
     summary: Ave tropical com bico grande e colorido.
     info: O tucano gigante vive nas florestas tropicais da América Central e do Sul. Seu bico chamativo tem mais de 20 cm de comprimento, mas é muito leve, pois é formado por câmaras de ar. Serve para regular a temperatura corporal, quebrar frutas e como sinal visual para outros tucanos.
+  animal.woodpecker:
+    label: picua
+    summary: Ave que bate em árvores para encontrar insetos ou escavar cavidades.
+    info: O picua é uma ave da família dos Picidae adaptada ao golpear madeira com o bico rijo e usa sua cauda firme como suporte. Seu língua pode ser até três vezes maior que seu bico e serve para retirar larvas de buracos perfurados. Ela também comunica-se e marca territórios por meio desse comportamento de batidas. O picua-cinzento (Dryocopus martius) é a maior espécie dessa ave na Europa.

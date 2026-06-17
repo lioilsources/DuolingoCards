@@ -2,6 +2,22 @@ lang: pt-BR
 pivot: false
 title: Cores básicas
 cards:
+  color.amber:
+    label: amarela
+    summary: Cor amarelada com nuances entre ouro e laranja.
+    info: Ambar é uma cor quente laranja-dourada nomeada após o mineral âmbar (resina fossilizada). O âmbar era valorizado nas civilizações antigas como material decorativo e espiritual.
+  color.aqua:
+    label: azul
+    summary: Cor clara de água limpa.
+    info: Azul é uma cor verde-clara azulado; em HTML e CSS, azul e cian são sinônimos (#00FFFF). O nome vem do latim 'aquae', que significa água. Evoca mares tropicais, piscinas e frescor.
+  color.azure:
+    label: azulado
+    summary: Cor clara similar ao céu no verão
+    info: A azul-celeste é uma cor brilhante e pura como o céu de verão; seu nome vem do mineral lázuri ou lápis-lazzúli. É usada na bandeira da França, Israel e Finlândia entre outros países. O mármore era mais caro que ouro durante Renascença sendo usado para roupas celestes em retratos da Virgem Maria.
+  color.beige:
+    label: bege
+    summary: Marrom claro arenoso; tonalidade neutra quente.
+    info: Bege é uma cor clara e quente entre o branco e marrom dourado. Originada de um antigo termo francês para onda natural. É amplamente usada no design de interiores como base neutra quente.
   color.black:
     label: preta
     summary: A cor mais escura, ausência de luz.
@@ -10,18 +26,129 @@ cards:
     label: azul
     summary: Cor primária fria do céu e do oceano.
     info: O azul é uma cor primária fria da luz. É a cor mais popular no mundo e simboliza calma, confiança e profundidade.
+  color.bronze:
+    label: bronze
+    summary: Cor metálica escura como um tipo específico de ligas.
+    info: A cor bronze é uma tonalidade metálica marrom-esverdeada que remete à liga de cobre e estanho chamada Bronze.
   color.brown:
     label: marrom
     summary: Cor terrosa secundária da madeira e do solo.
     info: O marrom é uma cor secundária formada pela mistura de vermelho, amarelo e preto. Simboliza terra, natureza e estabilidade; é muito usada em temas naturais e outonais.
+  color.burgundy:
+    label: burguês
+    summary: Uma coloração intensamente roxa-verde como o vinho tinto produzido em Borgonha.
+    info: A cor burgundy é uma tonalidade escura de vermelho-vinho com nuances púrpura e vinho tinto da região vitivinícola Borgonha na França.
+  color.charcoal:
+    label: antraquite
+    summary: Cor cinza escura semelhante ao carvão.
+    info: A cor antraquita é um cinza muito escuro quase preto e se parece com carvão vegetal. É popular no interiorismo contemporâneo como uma opção para substituir cores pretas mais fortes. Na moda também serve bem em roupagens elegantes por ser considerada discreta.
+  color.chartreuse:
+    label: amarelada
+    summary: Cor viva localizada na transição do dourado ao esmeralda.
+    info: O amarelo-esverdeado é uma cor vibrante exatamente entre o amarelo e o verde no espectro luminoso.
+  color.cobalt:
+    label: azul-ciano
+    summary: Vibrante tom média-escura como o pigmento cian.
+    info: Azul cian é uma cor vibrante e saturada de azul nomeada em homenagem ao elemento químico cádmio (Cd). Azul cian foi um dos pigmentsos mais populares do século XIX para pintura. É usada na cerâmica, vidro e arte pictórica.
+  color.copper:
+    label: tom de cobre
+    summary: Cor vermelha acastanhada semelhante à da liga metálica cobre.
+    info: O tom é uma cor metálica avermelhada que remete ao cobre um dos primeiros metais trabalhados pelo homem na era do cobre ou calcolítico.
+  color.coral:
+    label: cor-de-coral
+    summary: Viva tonalidade rosado-laranjada semelhante ao coral.
+    info: Cor de coral é uma cor quente e vibrante entre laranja e rosa com o nome dos recifes marinhos. É muito popular na moda estival e no desenho interiorístico. A Pantone declarou-a como Cor do Ano em 2019 sob o título 'Living Coral'. Combina bem com turquesa, branca e dourada.
+  color.cream:
+    label: Cremosa
+    summary: Cor branca-amarelada clara semelhante ao requeijão
+    info: A cor creme é um tom muito claro de amarelo-acastanhado e branco. O nome vem da cor do chantilly fresco em português brasileiro 'creme'. No design de interiores ela serve como uma opção mais quente que o branco puro.
+  color.crimson:
+    label: crimson/carmsímio
+    summary: Uma tonalidade intensamente avermelhada mais escura que escarlata.
+    info: Crimson é uma cor vermelha profunda e vibrante nomeada após o carmesim, um pigmento colorido em tinta. Tradicionalmente era produzida do cochonilho Dactylopius coccui. É também a cor da Universidade de Harvard ('The Harvard Crimson') e na heráldica denomina-se 'gules'.
+  color.cyan:
+    label: cian
+    summary: Cor primária no modelo CYMK usada na impressão.
+    info: Azulada ou ciano também pode ser chamada de azurro em português do Brasil e representa uma cor vibrante entre o verde claro ao tom mais intenso da água tropical rasa sob um céu limpo durante dias ensolarados.
+  color.fuchsia:
+    label: rose-fúcsia
+    summary: Uma coloração intensamente róseapúrpura semelhante à flor da fúcisa.
+    info: O rosa-fúcsia é uma cor viva de tom púrpura-rósea nomeada após a planta fucsia (Fuchsia). A planta foi batizada em homenagem ao botânico alemão Leonhard Fuchs (1501–1566). Em CSS e HTML, o termo 'rosafux' pode ser usado como sinônimo para magenta (# FF00FF)
+  color.gold:
+    label: ouro
+    summary: Uma profunda amarelo brilhante como o precioso metal de ouro.
+    info: Dourada é uma cor que remete ao precioso metal ouro e simboliza riqueza, prestigio, sucesso e majestade.
   color.green:
     label: verde
     summary: Cor da grama e das folhas, cor secundária misturando azul e amarelo.
     info: O verde é uma cor secundária formada pela mistura de azul e amarelo. Símbolo da natureza, frescor e vitalidade; o olho humano percebe essa cor com mais sensibilidade do que qualquer outra.
+  color.grey:
+    label: cinza
+    summary: Cor intermediária entre negro e branco
+    info: |-
+      Cinza é uma cor acromática criada misturando branco e preto
+      É considerada um tom de cor neutro que não chama atenção especial
+      Na psicologia simboliza o equilíbrio entre opostos ou ausência total de emoção
+  color.indigo:
+    label: Índego
+    summary: Cor escura entre azul e violino como o extrato cromático índeco.
+    info: A cor índegua é uma tonalidade profunda de azul-roxo nomeada após o pigmento natural Índico extraído da planta Indigofera. Por milhares de anos, o íncio foi um dos tingidores mais valiosos e ainda hoje faz parte das sete cores do arco-íris (vermelho-laranja-amarelo-verde-cian-indúgo-violino). Na percepção atual, ela se aproxima muito do tom escuro de azul.
+  color.ivory:
+    label: ivar
+    summary: Cor branco creme como o dente do elefante; mais quente que um tom puro.
+    info: Ivorina é uma cor branca cremosa e ligeiramente amarelada. O nome vem dos dentes de elefante ('ivor'). É usada em moda, design e para descrever pele.
+  color.khaki:
+    label: tom acinzentado
+    summary: Cor esmaecida entre bege claro e castanho
+    info: |-
+      O tom é uma cor amarelada marrom-clara apagada que foi popularizada pela infantaria inglesa na Índia no século XIX
+      A palavra vem do sânscrito ou Urdu 'khāki', significando terra ou lama,
+      e tornou-se a base da roupa militar e roupas de caminhadas ao ar livre.
+      Calças khaki são peças clássicas desde os anos 80.
+  color.lavender:
+    label: lilás
+    summary: Uma tonalidade muito clara de violeta como flores de lavanda.
+    info: O tom lilás é uma cor tênue e suave de roxo inspirada na flor da lavanda (lavandela). Ela evoca sensações de tranquilidade, pureza e paisagens provençais francesas. Na aromatoterapia, os cheiros associados à lavanda estão ligados ao alívio do stress e boa noite dormida.
+  color.lime:
+    label: laranja-limão
+    summary: Cor vivaz entre amarela-e-verde típica da fruta.
+    info: Lime é uma cor vibrante e saturada de amarelo-verdadeiro nomeada após o cítrico laranja Lima-lima. É mais brilhante do que verde folha; contém um tom maior de amarelado. Muito usada no designer gráfico como destaque ou cor para chamar atenção.
+  color.magenta:
+    label: magentas
+    summary: Cor vívida roxa-rósea; está situada entre os tons do vermelho ao violeta.
+    info: Magentas é uma cor vibrante entre o vermelho e azul que não tem comprimento de onda correspondente no espectro visível.
+  color.maroon:
+    label: Castanho
+    summary: Cor vermelhocafe-escurra profunda.
+    info: Marrom é uma cor castanha escura nomeada após o fruto do caju ou nozes em geral ('castanhos'). É popular nas roupas de moda e nos trajes desportivos e fardamentos militares.
+  color.mauve:
+    label: rosado
+    summary: Cor tímida entre púrpura-roxa com tons rosados
+    info: O roxo (magenta) é uma cor suave e apagada de rosa-violeta. O nome vem do francês 'mauve', que significa malveira ou lavanda silvestre ('Malva sylvestris'). Foi o primeiro pigmento sintético produzido artificialmente - anilina violeta por William Perkin em 1856.
+  color.mint:
+    label: matte
+    summary: Uma tonalidade muito suave de verde como folhas da planta matte.
+    info: Matte é uma cor verde clara e fresca nomeada em homenagem à planta hortelã-pimenta (mentha). Evoca pureza, frescor e sensação refrescante.
+  color.navy:
+    label: azul-marinho
+    summary: Uma tonalidade extremamente escura que imita o tom do oceano à noite.
+    info: Azul marinho é uma cor muito escura de azul. O nome vem das roupas do exército naval da Grã-Bretânia desde os anos 1700 e faz parte dos tons básicos mais populares na moda formal.
+  color.ochre:
+    label: ocre
+    summary: Cor terrosa laranha-marrom como pigmento natural.
+    info: Ocre é uma cor terra amarelada marrom-acastanhada nomeada após um pigmento natural chamado óxido de ferro hidratado.
+  color.olive:
+    label: Verde-Olive
+    summary: Uma coloração escura entre marrom-amarelo-verde.
+    info: A cor verde-oliva é uma tonalidade amarelada-esverdeada tênue nomeada após o óleo de oliva extraído da Olea europeia. É tradicionalmente usada como camuflagem militar e em acampamentos por sua capacidade de se misturar ao ambiente natural.
   color.orange:
     label: laranja
     summary: Cor quente e secundária formada por vermelho e amarelo.
     info: Laranja é uma cor secundária criada ao misturar vermelho e amarelo. Simboliza entusiasmo e criatividade; recebeu o nome da fruta laranja.
+  color.periwinkle:
+    label: azul periwick
+    summary: Azul claro com tons violetas como os da flor do vinca.
+    info: A cor Periwick é uma tonalidade clara entre azuis e lilases nomeada após o flor do Vinca menor (brinco). É popular na moda e decoração por ser delicada e romântica.
   color.pink:
     label: rosa
     summary: Tom de vermelho claro e cor delicada.
@@ -34,6 +161,49 @@ cards:
     label: vermelho
     summary: Primária quente da cor do sangue e fogo.
     info: Vermelho é uma das três cores primárias da luz. Ela evoca energia, paixão e perigo; em muitas culturas simboliza felicidade e força.
+  color.rose:
+    label: rose
+    summary: Tonalidade delicadamente avermelhada como um pétala de rosa
+    info: |-
+      Rose é uma cor suave de rosa-vermelho nomeada após o botão da flor rosas
+      Diferente do tom mais claro e menos vermelha 'rosado' ou 'cor-de-rosa'
+      O autor Samuel Becket disse que não há nenhuma coloração natural para os sentimentos tão simbólica quanto esta tonalidade
+  color.salmon:
+    label: salmon
+    summary: Cor clara entre laranja-pêssego parecida com a carne de um peixe-salmão.
+    info: Losal é uma cor suave de rosa-laranja nomeada após o tom da carne do salmão. É mais quente e clara que coral. Muito usada na moda como uma opção delicada para rosas.
+  color.scarlet:
+    label: scarlata
+    summary: Cor claramente nacarada-laranja; mais clara do que carmesim.
+    info: Scarlata é uma cor creme com um leve tom alaranjado nomeada após a substância colorante escarlata. É mais clara e tem mais tons de laranja do que carmim. Historicamente representava tecidos vermelhos luxuosos.
+  color.sienna:
+    label: terra de Seia
+    summary: Cor quente e terrosa comum na arte do Renascimento.
+    info: A terra de Sião é uma cor terrosa marrom-acastanhada nomeada em homenagem à cidade italiana Siena. A raw sienna tem um tom amarelado-marrom enquanto que o burnt sienna ou 'queimada' apresenta tons mais vermelhos e acinzentados. É amplamente usada como base para pinturas renascentistas por sua riqueza cálida e natural.
+  color.silver:
+    label: prateada
+    summary: Cor cinza brilhante como o metal da prata.
+    info: Prata é uma cor metálica que remete ao precioso metal prata.
+  color.tan:
+    label: bronziado
+    summary: Cor castanho claro como pele bronzeada.
+    info: Tan é uma cor marrom-clara que evoca terra ou pele bronzeada. O nome vem do processo de curtimento da couro com tanino para endurecê-lo e protegê-lo contra o tempo.
+  color.teal:
+    label: azulado
+    summary: Cor azulada com um leve traço verde que imita a cor do mar.
+    info: Azulado-esverdeado é uma cor nomeada após o pato-mourisco comum (Anas platyrhynchos), cujas asas são desse tom; está na parte superior do espectro de turquesa e também popular em design gráfico como contraste para cores laranja.
+  color.turquoise:
+    label: turquesa
+    summary: Azul-verdosa vívida como água tropical.
+    info: A cor turquesa é uma tonalidade vibrante de azul-esverdeado nomeada após o semi-pedra preciosa turmalina. Pedras turquesa eram valorizadas no antigo Egito, na Pérsia e nas Américas.
+  color.vermillion:
+    label: Verde-cinábrio
+    summary: Cor verde intensa inspirada no minério cinábrio.
+    info: Vermelho-vitória-louro é uma cor cerva-orangue vibrante nomeada após o mineral vitriolo vermelho (cinabrio ou sulfeto de mercúrio). Foi um dos pigmentsos mais usados na história como tom carmesim intenso e brilhante. O cinábrio chinês era tóxico; hoje em dia ele foi substituído por versões sintéticas.
+  color.violet:
+    label: violet
+    summary: Cor azul-violeta que está localizada ao fim do espectro visível.
+    info: A cor violet é encontrada no final do espectro visível com comprimento de onda aproximado entre 380 e 420 nm.
   color.white:
     label: branca
     summary: A cor mais clara, reflexo de toda luz.

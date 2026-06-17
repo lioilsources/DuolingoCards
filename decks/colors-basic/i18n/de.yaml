@@ -2,6 +2,22 @@ lang: de
 pivot: false
 title: Basisfarben
 cards:
+  color.amber:
+    label: bernstein
+    summary: Eine warme Goldorangen-Farbe wie das Mineral Bernstein.
+    info: Bernsteinfarben ist eine wärmende goldorange Farbe benannt nach dem Mineral Bernstein (versteinerter Harz). In der Urgeschichte wurde Bernstein als decorativer und spiritueller Stoff geschätzt.
+  color.aqua:
+    label: aquamarine
+    summary: Eine klare hellblaugegrüne Wassermalfarbe.
+    info: 'Aquamarin ist eine helle blaugrüne Farbe; im HTML und CSS sind Aqua und Cyan Synonyme (#00FFFF). Der Name stammt aus dem Lateinischen: „aqua“ bedeutet Wasser. Die Farbe evokiert Tropenmeere, Swimmingpools und Frische.'
+  color.azure:
+    label: azzurn
+    summary: Heller himmelblaues Blauton des Sommers
+    info: Azzurnblau ist eine helle und scharfe Himmelstöne wie der Sommerhimmel selbst. Es stammt von dem Mineral Lapis Lazulite ab und war im Mittelalter teurer als Gold – es wurde für die blauen Roben Mariens verwendet. Azzurnblau erscheint auf den Wappen mehrerer Länder (Frankreich, Israel oder Finnland). Zudem nutzt das Unternehmen Microsoft diese Farbe für seine Cloud Plattform.
+  color.beige:
+    label: Beigefarben
+    summary: Eine helle sandfarbene Brauntönung; ein warmer Neutrale
+    info: Beige ist eine helle, wärmere Farbe zwischen Weiß und goldbraun. Sie stammt aus dem Altfranzösischen für natürliche Wogeformen. Beige wird häufig im Innenarchitekturdesign als warmer Neutralton verwendet.
   color.black:
     label: schwarz
     summary: Die dunkelste Farbe, Abwesenheit von Licht.
@@ -10,18 +26,125 @@ cards:
     label: blau
     summary: Kühle Primärfarbe des Himmels und Ozeans.
     info: Blau ist eine kühle Primärfarbe des Lichts. Sie ist die beliebteste Farbe der Welt und steht für Ruhe, Vertrauen und Tiefe.
+  color.bronze:
+    label: bronze
+    summary: Eine dunkle golden-braune metallese Farbe wie das Metallobjekt aus Bronze.
+    info: Braunrot ist eine dunkel goldbraune metallische Farbe, die an Kupfer und Zinnlegierungen erinnert. Der Name der Bronzezeit stammt von diesem Metall; sie dauerte ungefähr vom Jahr 3300 bis zum Jahr 1200 vor Christus. In den Olympischen Spielen steht Bronce für Platz drei – man erhält dann eine bronzenen Medaille.
   color.brown:
     label: braun
     summary: Erdsfarbene Sekundärfarbe von Holz und Boden.
     info: Braun ist eine erdsfarbene Sekundärfarbe entstanden aus der Mischung von Rot, Gelb und Schwarz. Sie symbolisiert Erde, Natur und Stabilität und wird oft im Kontext natürlicher oder herbstlicher Themen verwendet.
+  color.burgundy:
+    label: bordeaux
+    summary: Dunkles Weißweinfarbiges Rote wie ein burgunderscher Rotwein.
+    info: Bordeauxrot ist eine dunkelrote bis tief purpurfarbene Farbe benannt nach der Weinregion Bourgogne/Burgund im Süden Frankreichs. Sie vermittelt Eindrücke von Rotweinen und Luxus sowie Reichtum. In Modekreisen gilt sie als einer der beliebtesten Herbsttöne.
+  color.charcoal:
+    label: anthrazit
+    summary: Sehr dunkles Grau ähnlich einer Kohlefärbung.
+    info: Anthrazit ist eine sehr dunkle graue Farbe fast schwarz wie Holzkohle.
+  color.chartreuse:
+    label: gelbbraun
+    summary: Lebhafte Mischung aus Gelb und Grün.
+    info: Chartreuse ist eine helle gelb-grüne Farbe genau zwischen Gelb und Grün im Spektrum. Der Name stammt von dem grünkohligen Likör aus der gleichnamigen französischen Abtei. Es handelt sich um eine der am besten sichtbaren Farben für das menschliche Auge; Pilotenjacken oder Sportmarkierungen werden oft mit dieser Farbe gestaltet.
+  color.cobalt:
+    label: cobalt
+    summary: Lebhafte mittel-dunkles Bläue wie ein Kobltpigment.
+    info: Coboltblau ist eine lebendige und sattgrüne Blautöne benannt nach dem chemischen Element Kobalt (Co). Cobaltblau war eines der beliebtesten blauen Pigmente im Malerei des 19. Jahrhunderts. Es wird verwendet bei Keramik, Glas und bildender Kunst.
+  color.copper:
+    label: kupfern
+    summary: Rötlchbräunliche metallese Farbe wie das Metall kupfer.
+    info: 'Kupferfarbig ist eine rötlichbraune Farbe mit metallischen Reflexionen und erinnert an das Metall Kupfer (lat.: Cuprum).'
+  color.coral:
+    label: rosafarben
+    summary: Lebendige rosa bis orangefarbene Farbe wie ein Meeressediment.
+    info: Rosa ist eine wärmende und fröhliche Farbe zwischen Orange und Rosa benannt nach Meereskoralen. Sie war sehr beliebt im Sommermodebereich sowie bei der Innenraumgestaltung. Pantone ernannte sie zur Trendfarbe des Jahres 2019 unter dem Namen 'Living Coral'.
+  color.cream:
+    label: cremefarbene
+    summary: Eine cremige Gelbfärbung wie bei frisch geschlagener Sahne.
+    info: Cremefarben ist ein sehr heller gelblicher Weißton mit einem Namen abgeleitet von der Farbe frischer Sahne oder Creme im Deutschen. In der Einrichtung wird diese warme Alternative zur reinen Weiße oft eingesetzt und liegt auf dem Spektrum zwischen weiß und elfenbeingelb.
+  color.crimson:
+    label: crimson
+    summary: Eine tiefere Form des Scharlachroten.
+    info: Crimson ist eine tiefe und sattes Rote Farbe benannt nach dem Karminrot-Pigment. Traditionell wurde dieses Pigment aus der Kermeszwanze (Dactylopius coccus) hergestellt. Es ist die offizielle Farbe von Harvard University.
+  color.cyan:
+    label: zyan
+    summary: Frühe Form einer blauen grünschimmernden Farbe.
+    info: Zyan ist eine frische blaugrüne Farbe mit den Werten im RGB-Farbraum von Rot=0%, Grün=100% und Blau=100%. Sie gehört zu den vier Grundfarben des Druckverfahrens Cyan-Magenta-Gelb-Schwartz (CMYK). In der Natur kommt sie als die Färbung flacher Tropenmeere an klaren Tagtagen vor.
+  color.fuchsia:
+    label: fuxiablau / -rot
+    summary: Lebhafte violette bis rötlich-lilane Farbe wie die Blütenfarben von Fuschien.
+    info: |-
+      Fuxia ist eine lebendige lila-rötliche Farbe benannt nach der Pflanze Fuchsia.
+      Die Pflanze wurde zu Ehren des deutschen Botankers Leonard Fuchs (1501–1566) genannt.
+      In CSS und HTML wird „fuchsia“ als Synonym für Magenta verwendet (#FF00FF).
+  color.gold:
+    label: gold
+    summary: Ein tiefes strahlend Gelbes wie das Edelmetall.
+    info: Gelb ist die Farbe des Edelmetalls Gold und vermittelt Reichtum sowie Prestige. In der Heraldik wird sie als einer von zwei Metallen direkt im Wappen verwendet.
   color.green:
     label: grün
     summary: Die Farbe von Gras und Blättern, eine Sekundärfarbe aus Blau und Gelb.
     info: Grün ist eine Sekundärfarbe, die entsteht durch das Mischen von Blau und Gelb. Sie symbolisiert Natur, Frische und Vitalität; das menschliche Auge nimmt sie empfindlichster aller Farben wahr.
+  color.grey:
+    label: grau
+    summary: Farbe zwischen schwarz und weiß ; die farbe des wolkenhimmels
+    info: "Grau ist eine achromatische Farbe entstanden durch das Mischen von Weiß und Schwarz\nEs wird als unauffällig betrachtet \nIn der Psychologie steht Grau für Neutralität , Ausgewogenheit und manchmal auch für Eintönigkeit"
+  color.indigo:
+    label: Indischblau
+    summary: Eine dunkle blaurote Farbton wie die des Indigo-Dyes.
+    info: Die Farbe Indischblau ist eine tiefe Blautönung benannt nach dem Färberstoff Indigo aus der Pflanze Indigosenfgewächs. Für tausende von Jahren war das Indigo-Farbstoffe eines der wertvollsten Pigmente überhaupt und wird heute als dunkelblaue Töne wahrgenommen.
+  color.ivory:
+    label: ive
+    summary: Cremeweiß mit einem warmen Unterton ähnlich dem eines Elephantenkiefers.
+    info: Ive ist eine zartgelbe cremefarbene Weiße. Der Name stammt von den Elfenbeingruben der Elefanten (englisch 'ivy'). Sie wird im Modebereich genauso verwendet wie bei Design oder zur Beschreibung von Hautfarben.
+  color.khaki:
+    label: kaki
+    summary: Gedämpftes Hellbraungegelb; Militäreinsatzton.
+    info: Kaki ist eine gedämpfte hellbraun-gelbe Farbe, die im 19. Jahrhundert von der britischen Armee in Indien populär gemacht wurde. Der Begriff kommt aus dem Urdu oder Hindi und bedeutet Staub oder Schlamm. Kaki dient als Grundfarbe für militärische Uniformen sowie Outdoor-Kleidung.
+  color.lavender:
+    label: lavendellila
+    summary: Eine sehr helle lila Farbe wie Lavendelpüppchen.
+    info: ' Lavendel ist eine zarte helllila Farbe benannt nach der Pflanze Lavandin (Lavandula). Sie vermittelt Ruhe, Reinheit und die provenzalischen Landschaften Frankreichs. In der Aromatherapie werden lavendelfarbene Düfte mit Entspannung und Schlaf verbunden.'
+  color.lime:
+    label: Grünklee
+    summary: Leuchtendes grün-gelbes Fruchtfarbton von einer Lime.
+    info: Limegrün ist eine helle und sättige gelb-grüne Farbe benannt nach der Zitrone Limette. Sie ist intensiver als Blattgrün und enthält mehr Gelbtönung. Es wird häufig im Grafikdesign verwendet – sowohl zur Akzentsetzung als auch für Call-to-Action-Farben.
+  color.magenta:
+    label: rosafarbige Violett
+    summary: Leuchtendes rosaviolettes Rosa-Farbschema; liegt zwischen Rot und Blau.
+    info: Magentarot ist eine helle rosa-violette Farbe zwischen Rot und Blau ohne entsprechende Wellenlänge im sichtbaren Spektrum. Der Name stammt von der Schlacht bei Magenta (1859) in Italien. Sie gehört zu den Grundfarben des Druckverfahrens CMYK (Zyan-Rosa-Gelblack). Man findet sie nicht am Regenbogen; entsteht vielmehr durch die Kombination aus rot und blau.
+  color.maroon:
+    label: kastanienrot
+    summary: Dunkelrote braune Farbe mit tiefrotem Wein-Ton.
+    info: Kastanienbraun ist eine dunkle rötlich-braune Farbe benannt nach der Kastanie ('Marron' auf Spanisch). Es handelt sich um eine beliebte Farbe im Modebereich sowie für Sporttrikots und Uniformen.
+  color.mauve:
+    label: violett
+    summary: Gedämpfter purpurfarbener Rosa-Ton mit Staubig-Licht-Violettnuance.
+    info: Violett (Mauve) ist eine sanfte gedämpftes Purpurrosafarbe. Der Name stammt aus dem Französischen und bezieht sich auf die Pflanzenart Malva sylvesteris oder Slézoweißlinge. Es war das erste synthetisch hergestellte Farbstoffpigment – Anilinfuchsin von Wilhelm Perkins im Jahr 1856.
+  color.mint:
+    label: pastell
+    summary: Sehr helles Grün wie die Blätter von Petersilie.
+    info: Pastell ist eine frische helle grüne Farbe benannt nach der Pflanze Minze (lateinisch Mentha). Sie vermittelt Reinheit und Frische sowie Kühle Wirkung.
+  color.navy:
+    label: marineblau
+    summary: Sehr dunkles Blau wie die Nachtsee.
+    info: Marineblau ist eine sehr dunkle Blautonart und bekam ihren Namen von den Uniformen der englischen Marine im 18. Jahrhundert.
+  color.ochre:
+    label: ocker
+    summary: Erdige gelbbraune Farbe wie das natürliche Pigment Ocher.
+    info: Ocker ist eine erdig gelbbraune Farbe benannt nach dem Pigment Ockergelb Eisenhydroxit. Es handelt sich um eines der ältesten Pigmente und wurde von den Urmenschen für Höhlenmalereien genutzt. In der Natur kommt es als Okerstein im Erdreich vor.
+  color.olive:
+    label: oliven
+    summary: Dunkelgelbes Grün wie bei Oliven.
+    info: Oliven ist eine gedämpfte gelb-grüne Farbe benannt nach der Olive (Olea europaea). Sie ist klassische Militär- und Campingfarbe aufgrund ihrer Tarnung im natürlichen Umfeld.
   color.orange:
     label: orange
     summary: Eine warme Sekundärfarbe aus Rot und Gelb.
     info: Orange ist eine Sekundärfarbe, die durch das Mischen von Rot und Gelb entsteht. Sie symbolisiert Begeisterung und Kreativität; der Name stammt vom Fruchtname des Orangensafts.
+  color.periwinkle:
+    label: Himmelblaue
+    summary: Eine hell-bläuliche Farbton wie die Blüte von Periwinkel.
+    info: Lila ist eine helle bläuliche Farbe benannt nach der Blume Vinca Minor und liegt zwischen Hellblau und Lavendel. Sie wird oft im Modebereich verwendet.
   color.pink:
     label: rosa
     summary: Ein heller Ton von Rot, zart und niedlich.
@@ -34,6 +157,46 @@ cards:
     label: rot
     summary: Warme Primärfarbe von Blut und Feuer.
     info: Rot ist eine der drei Grundfarben des Lichts. Sie vermittelt Energie, Leidenschaft und Gefahr; in vielen Kulturen steht sie für Glück und Stärke.
+  color.rose:
+    label: Rosarot
+    summary: Zartes Rosa-Rote wie die Blütenblätter einer Rose.
+    info: Rose ist eine zarte rotrosafarbene Farbe benannt nach der Blume Rose. Sie unterscheidet sich von Hellrosa/Pink darin, dass sie dunkler und roter als Pink erscheint.
+  color.salmon:
+    label: salmon
+    summary: Eine helle rosafarbene bis orangefarbenen Tönung wie das Fleisch von Lachs.
+    info: Salmon ist eine zarte rosa-gelbe Farbe benannt nach der Färbung des Lachsfleisches und wird oft als sanfte Alternative zu Rosa verwendet.
+  color.scarlet:
+    label: zinnoberrot
+    summary: Helle Rotorange-Färbung mit leichtem Orangenton.
+    info: Zinnoberrot ist eine helle rot-orange Farbe benannt nach dem Färbstoff Zinnharz. Sie ist etwas heller und orangefarbener als Kardinalrot. In der Geschichte stand sie für Luxusschmuck aus rotem Stoff.
+  color.sienna:
+    label: sienesischer ocker
+    summary: Ein rotschwarzer Erdpigmenttyp namens 'Ockergelb' aus dem mittleren Westitalien.
+    info: Sienner Ocker ist eine erdig rötlichbraune Farbe benannt nach der Stadt Florenz im Italienischen Staat Siene. Roher Sienne Oker hat einen gelbbraunen Ton und gebratener oder verfeuerter Sienne Ocher wird rotbrauner. Es war besonders bei Renaissance-Malerei beliebt als warme Erdfarbe.
+  color.silver:
+    label: silbrig
+    summary: Glänzendes Grau wie das Edelmetall Silber.
+    info: Silber ist eine metallische Farbe, die den wertvollen Metallstoff Silber vermittelt und Modernität, Eleganz sowie Technologie darstellt. In der Heraldik gilt es als zweiter Metalldarsteller für das Zweitrangige, während bei Olympischen Spielen ein silbern gefärbtes Auto oft am häufigsten verkauft wird.
+  color.tan:
+    label: braun
+    summary: Eine hellbraune Farbe wie gebräunte Haut.
+    info: Tan ist eine helle braune Farbe, die an Erde oder gebräunte Haut erinnert und von der Behandlung des Leders mit Tanninen abgeleitet wurde. Sie ähnelt Beige, ist jedoch leicht dunkler und gelbbrauner.
+  color.teal:
+    label: blaugrün
+    summary: Eine bläue mit grünem Schimmer wie das Meer.
+    info: Teel ist eine Farbe benannt nach dem Stockente-Anas-Crecca-Vogel, dessen Flügel diesen Ton haben. Es handelt sich um die oberste Stufe im Türkis-Farbspektrum und wird gern als Kontrastfarbe zum Orange verwendet.
+  color.turquoise:
+    label: türkisch
+    summary: Lebhafte Blaugrün wie das Meer.
+    info: Türkis ist eine lebendige bläuliche Grünfarbe benannt nach dem Halbedelstein Türkisen. Die Steine wurden im antiken Ägypten, Persien und Amerika geschätzt. Es handelt sich um die Farbe des Tropischen Meeres oder klaren Himmels an sonnigen Tagen.
+  color.vermillion:
+    label: zinnobero
+    summary: Lebhafte Rotorange wie das aus Zinnobergemisch.
+    info: Zinnoberrot ist eine lebendige rot-orangene Farbe benannt nach dem Mineral Zinnober oder Cinnabär (HgS). Es war eines der am häufigsten verwendeten roten Pigmente im Laufe der Geschichte.
+  color.violet:
+    label: violett
+    summary: Eine blaue-lächerliche Farbe im Bereich des violetten Endes des Lichtspekters.
+    info: 'Lila ist die Farbe am Ende des sichtbaren Spektrums mit einer Wellenlänge von etwa 380–420 Nanometern und stammt vom Namen der Blume Veilchenblüte (lat.: Viola). Im Farbsinn unterscheidet sich Lila von Purpurfarben – es liegt näher an Blau als Rot, während Purpur zwischen Rot und Blau verläuft.'
   color.white:
     label: weiß
     summary: Die hellste Farbe, reflektiert alles Licht.

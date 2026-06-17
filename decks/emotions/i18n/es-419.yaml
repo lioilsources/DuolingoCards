@@ -2,22 +2,181 @@ lang: es-419
 pivot: false
 title: Emociones básicas
 cards:
+  emotion.amazed:
+    label: admiración
+    summary: Fuerte e impactante experiencia positiva ante algo extraordinario.
+    info: La admiración es una intensa emoción provocada al encontrarse con algo enorme o impresionante; reduce la sensación de importancia personal y aumenta el sentimiento de conexión con lo que nos rodea.
+  emotion.amused:
+    label: Diversión
+    summary: Sentimiento leve y positivo provocado por algo divertido o interesante que puede llevar al riso pero no siempre lo provoca directamente.
+    info: '{"hint":"sentimiento de estar ligeramente entretenido o picado por algo gracioso","info":{"label": "diversión", "summary": "Sensación ligera y placentera causada por la diversión o el entretención."},"content": {}}'
   emotion.angry:
     label: enojado
     summary: Sentir fuerte descontento o enojo, estar enfadado.
     info: El enojo es una emoción que surge como respuesta ante una percepción de injusticia o amenaza. Aumenta la frecuencia cardíaca y prepara el cuerpo para responder con "lucha o huida".
+  emotion.annoyed:
+    label: irritación
+    summary: Sensación ligera e incómoda generada cuando algo interfiere repetidamente.
+    info: La irritabilidad es una leve emoción negativa causada por un estímulo molesto que persiste o se repite con frecuencia y puede dar lugar posteriormente al enojo más fuerte. Puede ser provocado por falta de sueño, hambre u sobreexigencia personal.
+  emotion.anxious:
+    label: ansiedad
+    summary: Sentimiento desagradable caracterizado por sentirse intranquilo e incierto sobre lo futuro.
+    info: |-
+      {"hint":"sentimiento ansioso preocupado","info":"La angustia es una emoción que antecede un peligro potencial y puede mejorar el rendimiento si está presente en niveles moderados.
+      Puede manifestarse físicamente con síntomas como palpitaciones cardíacas, sudoración excesiva o respiración corta así como tensión muscular generalizada.
+      El trastorno anxioso afecta más del trescientos millones personas alrededor mundo convirtiéndose la enfermedad mental más común actualmente.
+      Terapia cognoscitivo-conductual ha demostrado ser tratamiento más eficaz contra diversos tipos de trastornos anímicos."}
+  emotion.bored:
+    label: aburrimiento
+    summary: Sentir desinterés y vacío sin nada que estimule.
+    info: La aburrimiento es un estado emocional negativo causado por la falta de estímulos o actividades significativas. Puede llevar al búsqueda de nuevas experiencias o pensamiento creativo. Desde una perspectiva evolutiva motiva el buscar oportunidades.
   emotion.calm:
     label: tranquilo
     summary: Sentir paz interior y bienestar, estar tranquilo.
     info: La tranquilidad es un estado de equilibrio psicológico y físico. Disminuye el ritmo cardíaco, profundiza la respiración y permite pensar con claridad y tomar buenas decisiones.
+  emotion.cheerful:
+    label: alegría
+    summary: Estado placentero lleno de ánimo festivo y optimismo.
+    info: La alegría es un estado positivo caracterizado por una energía vital y buen humor que está relacionado con la personalidad extrovertida y altos niveles de afecto positivo.
+  emotion.confident:
+    label: autoseguro
+    summary: Creencia firme acerca de tu capacidad personal.
+    info: La confianza en uno mismo es un estado de fe y seguridad internas sobre tus propias habilidades e intelecto. Una postura erguida, contacto visual directo y una voz tranquila son expresiones visibles del autoconfiado. Amy Cuddy presentó las poses poderosas como método para incrementar la autoseguridad durante su charla TED Talks.
+  emotion.confused:
+    label: confusión
+    summary: Sentimiento de incertidumbre al no entender bien algo.
+    info: La confusión ocurre cuando nos falta el contexto o los conocimientos para comprender una situación. Es parte natural del aprendizaje y la discrepancia cognitiva motiva en busca de respuestas.
+  emotion.content:
+    label: Satisfacción
+    summary: Calmo sentimiento satisfecho sin deseo por más
+    info: |-
+      La satisfacción es un estado positivo y tranquilo sin necesidad de cambio
+      Se diferencia del placer porque la satisfacción es calmada mientras que el placer está animado
+      El budismo considera la satisfacción como una virtud clave en el camino hacia iluminación
+  emotion.curious:
+    label: curiosidad
+    summary: Deseo por nuevo conocimiento e entendimiento.
+    info: La curiosidad es un estado motivacional que impulsa la búsqueda de nuevas información y experiencias. Está relacionada con el sistema de recompensa del cerebro basado en la dopamina; literalmente proporciona placer. Es importante para los avances científicos y el desarrollo personal.
+  emotion.delighted:
+    label: alegría entusiasmante
+    summary: Fuerte placer emocional ante un evento grato.
+    info: La alegría entusiasta es una intensa emoción positiva causada por eventos o sorpresas placenteros. Es más fuerte que la alegría básica y se manifiesta de forma dinámica como saltar, gritar o reírse con fuerza.
+  emotion.determined:
+    label: empuño
+    summary: Intención fuerte para lograr metas sin importar los obstáculos.
+    info: El empujo es un estado motivacional caracterizado por una concentración en el objetivo y la perseverancia. Se manifiesta con mandíbula apretada, cuerpo tenso e intensa mirada. Está estrechamente relacionado al concepto de 'grit' o entereza (según Angela Duckworth), que combina pasión y persistencia.
+  emotion.disappointed:
+    label: desilusión
+    summary: Sentimiento incómodo causado por la diferencia entre lo esperado y lo obtenido.
+    info: El desengaño surge cuando el resultado no coincide con las expectativas o deseos. Es más intenso tras una alta inversión de emoción u esfuerzo. Los estudios muestran que nuestras propias expectaciones son clave para evitarlo.
+  emotion.disgusted:
+    label: repulsa
+    summary: Sentimiento fuerte de rechazo ante un estímulo desagradable.
+    info: El repugnar es una emoción básica que protege contra cosas dañinas como comida tóxica o enfermedades. Su función evolutiva consiste en alejarnos de consumir alimentos腐败ados. Se manifiesta con el arrugar del puente nasal y la lengua extendida junto al expresión característica.
+  emotion.embarrassed:
+    label: sonrojo
+    summary: Sentir vergüenza en situación pública.
+    info: El sonrojo es una emoción social que surge cuando creemos haber violado las normas sociales; suele manifestarse con rubor facial, desviación de la mirada y postura encogida. Tiene función social al mostrar nuestro conocimiento sobre dichas normas e intención para seguirlas.
   emotion.excited:
     label: entusiasmado
     summary: Sentir un fuerte entusiasmo y una alegra expectativa.
     info: El entusiasmo es una intensa emoción positiva asociada con la anticipación de un evento agradable. Aumenta la energía, acelera el corazón y fomenta el pensamiento creativo.
+  emotion.frustrated:
+    label: Frustación
+    summary: Sentimiento molesto causado al encontrar impedimentos para alcanzar un objetivo.
+    info: La frustación es una emoción que surge cuando nuestros objetivos son bloqueados por obstáculos. Puede llevar tanto a acciones constructivas como buscar soluciones alternativas o destructivas tales como la agresión.
+  emotion.grateful:
+    label: gratitud
+    summary: Un cálido sentimiento de aprecio por lo bueno que tenemos o recibimos.
+    info: La gratitud es una emocion positiva que surge cuando reconocemos el bien en nuestras vidas.
+  emotion.guilty:
+    label: culpa
+    summary: Sentimiento doloroso tras violar tus propios principios morales.
+    info: La culpa es una emoción que surge después de cometer un acto considerado malo. Se diferencia del vergüenza porque la culpa se enfoca en el comportamiento específico y no tanto en toda la persona como tal; tiene también funciones sociales al animar para pedir disculpas e intentar corregirla situación, fortaleciendo así conductas éticas. Sin embargo, si esta sentimiento llegara ser excesiva o constante podría llevar incluso hacia estados depresivos.
   emotion.happy:
     label: feliz
     summary: Sentir alegría o placer, estar de buen humor.
     info: La felicidad es una emoción placentera asociada con la liberación de dopamina y serotonina. Se manifiesta mediante una sonrisa, gestos vivaces y una postura corporal abierta.
+  emotion.hopeful:
+    label: esperanza
+    summary: Sentimiento optimista sobre el hecho de que el futuro será bueno.
+    info: La esperanza es una emoción que combina el deseo de un futuro mejor y la creencia en su logro posible.
+  emotion.hopeless:
+    label: desespero
+    summary: Sentimiento de que el futuro no traerá nada bueno.
+    info: La desesperación es un estado emocional negativo caracterizado por la convicción de que una situación no puede mejorar. Es un rasgo clave en depresiones y factor del riesgo para intentos自杀。El modelo cognoscitivo de Aaron Beck ha señalado la esperanza perdida como creencia central. La perspectiva positiva y el reestructuramiento cognositivo son estrategias efectivas.
+  emotion.inspired:
+    label: inspiración
+    summary: Entusiasmo que motiva acciones creativas.
+    info: La inspiración es un estado emocional caracterizado por una repentina motivación y entusiasmo creativo. Generalmente está asociada con una revelación personal u observar obras excepcionales de arte o personas notables. Desde el punto neurocientífico activa la corteza pré-frontal del cerebro así como las áreas relacionadas al sistema recompensa.
+  emotion.irritated:
+    label: irritación intensa
+    summary: Estado caracterizado por mayor susceptibilidad ante situaciones triviales que se acerca al límite del enfado.
+    info: La irritabilidad es un estado de alta sensibilidad en el cual incluso estímulos pequeños generan una fuerte respuesta negativa. Puede indicar fatiga acumulada, falta de sueño o estrés prolongado. Las mujeres durante la adolescencia, embarazo y cambio climático pueden experimentar irritablez causada por cambios hormonales.
+  emotion.jealous:
+    label: celo
+    summary: Sentimiento negativo causado por ver cómo otras personas tienen cosas buenas que uno no posee.
+    info: '{"hint":"sentimiento de envidia por las ventajas que tiene otra persona (el verde es el color del sentimiento)","info":"La codicia surge cuando percibimos que otro posee algo deseado por nosotros\nSe diferencia de la gelosía; mientras la primera implica deseo hacia lo ajeno y la segunda refiere al temor ante una amenaza afectiva\nPuede impulsar un mejor rendimiento o generar rencor\nEn culturas世界各地, el color verde simboliza este estado","label":"codicia","summary":"Emoción negativa derivada comparando con otros."}'
+  emotion.joyful:
+    label: Alegría
+    summary: Emoción intensamente feliz que trae sensaciones cálidas y entusiastas.
+    info: La alegría es una emoción positiva intensa llena de felicidad y entusiasmo. Está relacionada con la auto-motivación interna y el estado de flujo según Csikszentmihayi. Su función evolutiva incluye fortalecer los vínculos sociales e impulsar comportamientos beneficiosos para uno mismo o otros.
+  emotion.lonely:
+    label: soledad
+    summary: Sentir tristeza por falta de compañía.
+    info: La soledad es un sentimiento subjetivo de aislamiento que no depende del número real de personas alrededor. Es un fuerte predictor de problemas médicos y la soledad crónica acorta la vida. El cerebro responde igual ante el dolor social que ante una lesión física.
+  emotion.loving:
+    label: Amor
+    summary: Profondo sentimiento de ternura y conexión con una segunda persona.
+    info: '{"hint":"sentimiento de profundo afecto; ojos corazones","info":{"label":"amor","summary":"Sentimiento profundo de cariño y apego hacia otra persona.","definition":{}}}'
+  emotion.melancholy:
+    label: tristeza melancólica
+    summary: Tristeza tranquila combinada con meditación profunda sobre temas personales.
+    info: '{"hint":"sentir una tristeza melancólica","info":"La melancolía es un sentimiento pensativo que combina tristeza y reflexión con cierta dulzura.\nViene del término griego para la bilis negra (''mela choles''); los médicos antiguos lo asociaban al exceso de esta sustancia en el cuerpo humano.\NA diferencia de depresiones más severas o patológicas contiene también elementos estéticamente bellos; arte, música e incluso escrituras suelen celebrarla como algo hermoso dentro mismo de lo doloroso."}'
+  emotion.miserable:
+    label: sufrimiento
+    summary: Malestar extremo e intenso; el peor grado del sentimiento.
+    info: El sufrimiento es un estado emocional intensamente negativo caracterizado por una profunda malestar y dolor. Puede ser causado por dolores físicos, heridas emocionales o pérdida. El sufrimiento crónico puede indicar depresión.
+  emotion.nervous:
+    label: ansiedad
+    summary: Una ligera sensación antes de algo que puede causar tensión.
+    info: La ansiedad es un estado leve de preocupación típicamente asociado con la expectativa de algún evento importante. Fisiológicamente se manifiesta por medio del aumento en la actividad del sistema nervioso simpático como palpitaciones y sudor frío.
+  emotion.nostalgic:
+    label: melancolía
+    summary: Sentimiento melancólico por la añoranza al pasado.
+    info: La nostalgia es una emoción llena de dulzura amarga; recordar el pasado puede ser placentero pero también doloroso. La palabra proviene del griego 'nostos' que significa regresar a casa y 'algos', que quiere decir dolor.
+  emotion.optimistic:
+    label: optimismo
+    summary: Tendencia a esperar buenos resultados y ver aspectos positivos.
+    info: El optimismo es un estilo cognoscitivo y emocional caracterizado por el esperar resultados positivos. Martin Seligman (psicología positiva) ha identificado al optimismo como factor clave de resiliencia. Los optimistas viven más tiempo, son más saludables y tienen mayor éxito.
+  emotion.overwhelmed:
+    label: sobreabrumado
+    summary: Sentimiento en que hay demasiadas cosas al mismo tiempo.
+    info: El sobreabrumamiento ocurre cuando los requisitos superan nuestros recursos para manejarlos. Se manifiesta con un fallo cognoscitivo (incapacidad de pensar claramente), una explosión emocional o el bloqueo total del individuo.
+  emotion.peaceful:
+    label: clido
+    summary: Sentimiento profundo e interno que trae paz mental.
+    info: El clido es un estado positivo de ausencia de estrés y perturbaciones. Es el objetivo principal en prácticas como la atención plena o las técnicas budistas; activa al sistema parasimpático reduciendo así los niveles del pulso cardíaco junto con su presión arterial.
+  emotion.pessimistic:
+    label: Pensamiento Pesimista
+    summary: Tendencia anticipar malas cosas enfocarse en aspecto negativo.
+    info: '{"hint":"esperando lo peor; una nube oscura sobre la cabeza","info":"El pesimismo es un estilo cognoscitivo y emocional caracterizado por esperar resultados negativos.\nPesar que el pesimismo leve puede ser adaptable ya que evaluar los riesgos con objetividad ayuda evitar peligrosos.\nUn estado crónico del pesimo está relacionado con mayor riesgo depresión y consecuencias sanitarias más graves.\nLa terapia conductual-cognitiva ayuda cambiar patrones pensamientos pesimistas."}'
+  emotion.playful:
+    label: alegría
+    summary: Estado de ánimo animador deseoso de divertirse.
+    info: La alegría es un estado emocional caracterizado por la satisfacción en actividades lúdicas y creativas que involucran diversión e imaginación. En adultos está asociado con mayor creatividad y bienestar psicológico positivo.
+  emotion.proud:
+    label: orgullo
+    summary: Sentimiento positivo derivado del logro propio o colectivo
+    info: |-
+      La orgullo es una emoción asociada con el sentimiento de éxito o pertenencia algo valioso
+      Una postura erguida, cabeza levantada y pecho inflado son expresiones universales del orgullo
+      El orgullo puede ser saludable motivando al desarrollo personal o insalubre como arrogancia
+      En la concepción hindú el orgullo se llama 'ahaṃkāra' y representa un obstáculo para el crecimiento espiritual
+  emotion.relieved:
+    label: alivio
+    summary: Sensación placentera de liberación tras haber terminado una situación tensa.
+    info: El alivio es una emoción experimentada después de que el estrés, la preocupación o el dolor hayan disminuido. Se manifiesta con un suspiro profundo, relajamiento muscular y sensación de ligereza.
   emotion.sad:
     label: triste
     summary: Sentir luto o insatisfacción, estar deprimido.
@@ -26,6 +185,18 @@ cards:
     label: asustado
     summary: Sentir miedo o terror ante un peligro o amenaza.
     info: El miedo es una emoción defensiva básica. Dispara la liberación de adrenalina, acelera el corazón y prepara al cuerpo para huir o defenderse.
+  emotion.serious:
+    label: seriedad
+    summary: Estado tranquilo sin sentido del humor; enfocado en cuestiones importantes.
+    info: La seriedad es una actitud emocional caracterizada por la concentración y ausencia de ligereza o bromas. Es importante en situaciones que requieren atención plena y reflexión cuidadosa.
+  emotion.shocked:
+    label: shock
+    summary: Parálisis repentina ante noticias o acontecimientos no esperados.
+    info: El shock es una intensa emoción causada por información u ocurrencias imprevistas y sorprendentes que dejan sin aliento. Se manifiesta con un paralizamiento repentino, la boca abierta y las pupilas dilatas. Su función evolutiva consiste en detener cualquier actividad para procesar esta nueva e insospechada situación.
+  emotion.shy:
+    label: timidez
+    summary: Ansiosa inhibición durante interacciones sociales especialmente cuando están involucradas personas nuevas.
+    info: La timidez es una emoción social que implica ansiedad y reserva en presencia de otras personas desconocidas o incluso conocidas. Se relaciona con la personalidad extrovertida pero no son lo mismo. Una cierta dosis de timidez puede ser normal mientras que formas más severas como el trastorno por miedo social pueden interferir significativamente con las actividades cotidianas.
   emotion.surprised:
     label: sorprendido
     summary: Sentir un repentino asombro ante un acontecimiento inesperado.
@@ -34,3 +205,11 @@ cards:
     label: cansado
     summary: Sentir fatiga física o mental y necesitar descanso.
     info: La cansancio es una señal del cuerpo que indica la necesidad de descansar. Se manifiesta con somnolencia, lentitud en las reacciones y reducción de la capacidad para concentrarse.
+  emotion.upset:
+    label: malestar
+    summary: Malestar emocional causado por algún evento negativo.
+    info: El malestar es un estado general de emoción negativa que combina tristeza, enojo y ansiedad. Es una respuesta ante eventos desagradables, decepciones o conflictos. Fisiológicamente activa el eje del estrés (HPO), aumentando los niveles de cortisol.
+  emotion.worried:
+    label: preocupación
+    summary: Pensamiento repetido sobre futuros problemas potenciales.
+    info: La preocupación es un estado cognoscitivo y emocional centrado en la anticipación de posibles amenazas.

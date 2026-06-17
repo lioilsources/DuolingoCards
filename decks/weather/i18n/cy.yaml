@@ -1,0 +1,240 @@
+lang: cy
+pivot: false
+title: Y Wylwyr
+cards:
+  weather.aurora:
+    label: awr ysbrydo
+    summary: Digwyddiant naturiol gan swllt ddŵr danweledigeblet yn yr unwaith â llifogydd.
+    info: Mae'r awyr ysbrydolig (Aurora Borealis yn gogledd Lofodwygfa ac Aurora Australis ar de), sy'n dod o geiriau Celtaidd am "gwreth" neu "llyn", yn cael ei ffurfio pan fo protonau a neilteiriad rhew hefyd wedyn i'ch cymeriad atmosffera gyda chymyltyriadaethion eletronegaethedd mewn gwahanol feithrin.
+  weather.avalanche:
+    label: llawi
+    summary: Gorffennir masnadwyn a ledlyn allan oddi wrth fynydd.
+    info: Yw llawiniau yn gwasgedd rhag anhrefnydd ar y mynychiant o'r brynau ac maen nhw'n symudioli siâp sglefriol dros lawr yr unigeddiad hynny. Mwyaf gyrraeth na pherygus lleiafrith iawn sydd gan ddod â chymal gwyrdd dan fygythiad amser bysg - er enghreifftyd, gallant cyrraedd at录度 hyd at 300km / awr.
+  weather.blizzard:
+    label: Gwanwyn Ymyl
+    summary: Adferiant cryfafol ganwyll rhew ac allan dan dyfrwch.
+    info: Mae gwanwyn ymyl yn adferiant cryf sy'n cyfuno llifogydd rhew hefyd â waelodau craffydig ar gyfer gweld o ddigon anaml na chynharach (gweithredu white-out). Mae'r phaenomenon hwn wedi creu dilynwyr i filfeddi pobl ers yr hen oesoedd.
+  weather.breezy:
+    label: gwydr
+    summary: Ganrifon amharu na wneud trothnas dan fyrydd.
+    info: Mae gwydr yn wynt ysgafell sy'n taro rhwng 6 i 11m / s (Beforth 3–4). Mae wedyn yn credu'r llawr ac eich harodau gan ddwyn eu cyffwrdd ar droedion lliadrus. Yn gyfisiogyddol dymyd ei effaith tyfedd trwy adfer dyfrwg.
+  weather.clear:
+    label: tywyll
+    summary: Hegylin pen drut heb unrhyw ryfel
+    info: |-
+      Mae'r tywyll yn gyflwr metrig â llifogydd o dan un y wyth rhaglun ar yr heglyn
+      Gallai hynny ddangos cydranu sydyniol gynyrol ac adlewyrchu gwirioneddol dros droed
+      Y nos wrth amser diwys mae radiad don garwm yn fwy naethus gan ei fynd i lawr yn hyrrach
+  weather.cloudy:
+    label: mro
+    summary: Sgylefur sy'n cael ei gyfedu gan mrawl dan fylied.
+    info: Mraclud oedd yn ychydig rhag gweithredu grwm neu crysylau onglwydd. Mae dros 60% sglefri'r Ddaear bob amser wedi'u cymeradwyo.
+  weather.cold:
+    label: grŵ
+    summary: Grŵ o hydroniant gyson â cherddiau cryfle
+    info: Mae gryn yn digwydd pan fo heiniau ardaloedd arctig ymlaetho i ddegwylion rhithrigolau. Tebygodd y grwn naturiol isaf ar Ddaear (-89,2°C) gerllaw'r stadiwm Wostoc yn Antarctica. Mae corff dyfnod olwg at gryn trwy ddifrodio cewyddi craidd ac threchu.
+  weather.dew:
+    label: rosg
+    summary: Capiau dwri pencondensiad ar fathroni dan nosonau colled
+    info: "Mae rosa yn dod o ddŵr sy'n condensio ar wydrwydd y gweithgaro'r heini dan nosonau gludig\nGwlybia'nt pan fo tebygolrwydd llifogydd i fynd rhag anogaeth \nMae hi'n ffynhonnell bwysig am watri at gyfyngeddwyr ac enillion mewn ardaloedd dywyll"
+  weather.drizzle:
+    label: Lliwog
+    summary: Gorhad dewydd hael yn ddigon anaml.
+    info: Mae llifogydd yn gair ar gydran â chynhyrchiant ag ymylau rhewrog sy'n dod o'r stratosfform nodweddiadol ac nid gan grwm conweqtygol. Mae wedi'i ddisgrifiad fel un cyson iawn dan amser gwledig Cymru neu barthwyd Barc Gwenllwg.
+  weather.drought:
+    label: heini
+    summary: Absennetheb cryfog o fraint sydd yn achaelo'r llaihad o wyli.
+    info: Mae heiniau yn gyflwr metrollogig â diymad rhag absoliwitau craffter dros ystrededd hir. Mae'n arwain i golledi anogaethion, gollwg am wylfa ac atgyleriau. Yn yr Unol Daleithiau Roeddant wedyn yn enghraifft fwyaf er hyd yn oeso ganrif ers mil naill.
+  weather.dust_storm:
+    label: Gwestlydd
+    summary: Ceiniog o danwyn sy'nhwn yn cael eu symudiad druthru trwy waelod bychan.
+    info: Mae gwestlydd yn codi pan fo hen wrth ychydig i ddynwared rhew hefyd yn dod o'r tir ac mewn Aferica Sahara maen nhw'n cael eu drafod fel 'harmatan'. Mae sawl grwm saharau'n croesi'r Atlantic a chymryd at yr Unol Daleithiau; mwyaf gan geirio am ei effaith ar Lynges Amazon. Roedd gwestliadaeth Dust Bowl yn Nhrethnas Ecolgic wedi'u cyrraedd yn nyfed.
+  weather.flood:
+    label: llifogiad
+    summary: Llythriannodi'r cymedrig dan fylioedd nwl
+    info: |-
+      Mae llifogydd yn dod o ddynwared rhag absoliwydd ymyl neu grediniant snowdau ac adweithredu damewrhyliadau
+      Mae llifogyddaeth yn un yr anghen iawn ar gyfer cyflwr naturiol dros byd
+      Yn Tsiecoslofaceaidd fe wnaeth llifogaid 1997 a 2002 creuro miloedd o filien cynneddi a chydillion person wedi'u farcio
+  weather.foggy:
+    label: neptir
+    summary: Neptyr cyffredinol mae'r un fath â chyfeiriad.
+    info: Yw neptyr yn gweithredu ar gyfer y sylfaen rhew hefyd fel cymal nodweddiadol o ddŵr sy'n dod i'ch gwared am bum kilometr neu ddim.
+  weather.freezing:
+    label: grymd
+    summary: Temperaturau is nag un gradd celsius sy'n cael eu defnyddio i nodi crymu
+    info: "Mae gryfder yn digwydd wrth retemperature rhag anodol nad yw'n uchod â'r gradd Celsius, gan ddefnyddio hyn i ddileithrio ar welyd fel llydanau\nGallai crymru plant biocymegol ac fe fyddai ffrwd hefyd yn credu am adferion traffig \nY rhyfeddigaf o gyrmwr yn yr Uned Fyweddol Czechaethiaid sydd wedi'u cyrraedd erthyliad hyntochel dan -42°C yn Ltvinoivc yn 1929"
+  weather.frost_flowers:
+    label: ffrydod
+    summary: Fyndodd fyddai crysliau glas dan yr unigladd.
+    info: Mae ffrwydrodd y gwestlyn yn ffurfio pan roedden nhw'n crysloedd o ddŵr sy'ch wedyn eu cymerad rhagorol dros gyflwr gwet ac anhebygol iawn - tywyll mewn perthnas â'r dyfrodau hael.
+  weather.frosty:
+    label: Gwinod
+    summary: Cymylfa diweddar dros droi plant ac erthyliad.
+    info: Mae'r gwinod yn ymylo pan fo hynbiaeth arwyddedol yr unigrywiau sy'n dod i ben wrth geidio am dan eu hunfed rhag anafriadau.
+  weather.gloomy:
+    label: heiniaith
+    summary: Poêsi tystyll gyda thrwm
+    info: |-
+      Mae heiniad yn nodweddiadol o bwyntiau tywyll isel, gwanwyn amharu ac atmosfera cryfadol neu ddrutgar
+      Cyngherdd ag anheloeth ynddo a'r dyfodweddau
+      cymysg efedig SAD sy'n caeledi trwy ddifrod rhew na pherynas ar hydref
+  weather.hailing:
+    label: Krud
+    summary: Cynhyrchiant crymonnaledig - gallai krud droi am gymaint ag 10 centimeder
+    info: |-
+      Mae krud yn gair ar gydran sydd wedi'u ffurfio o gronynnau ymyl dan fydro cyffwrneddol
+      Gwnaeth yr haellynion eu huned pan roedd cronwynnod dŵr yn mynd trwy rhan barhaus rhew hefyd ac un dywlyd yn nhrefrynnu'r clwm
+      Chweil eich bod nhw'n dod at ddiametr hyfres nag 10cm gan fod nhw'n credu damwain arbennig ar lawer
+  weather.haze:
+    label: Gwaet
+    summary: Cymysoniad i weithgarhad danrydwch trwm, dywyno eddyfiedig
+    info: |-
+      Mae gwaed yn gymwysedd atmosfedrig wedyn ar gyfer grwm, dywyll neu ymylau sylfaidd
+      Wedi'r gwahaniaeth rhag mygyrion - mae mygirion yn dod o drocodydd waternodwedig tra'n bod gwaedu yn dod gan troco nodwedig na hydredig
+  weather.heat_lightning:
+    label: coplion dros y tywyll
+    summary: Goploniaethau storm bellach heb synhafon.
+    info: Mae coplithi dros y tywyll yn gopliniaethau ar gyfer storm bellach sydd nhw'n eu glywed amdanyn nhw trwm ei ddiant rhagorol i'r cyntedig. Nid ydy'r enw'n dorri; nid yw hi'n rym penodol gan hefoedd dyfryr. Mae modron ni noddir lawer nag un mil kilometr agored; mewn perythnas uchel erthyliol yn dod yn allfor.
+  weather.heat_shimmer:
+    label: marediad
+    summary: Effaith gofneus cyffredin gan allforion tryloywrydd
+    info: |-
+      Marediad yw'r effaith o golliadaeth llwydr yn gweledig ar dair rhaglun hevydd sy'n tyfedd am resymau temparatur yr awyr
+       Mae'g awir wyreth dan sylfaen neu wlad anhebyddol yn dod â chynaliad gyflymach ac felly maesiai eich sylwedd i ddod ag eferynnau fel 'caloi'.
+       Gallai crellu caloi fynd trwy'r carreg tân.
+  weather.heatwave:
+    label: heiniad
+    summary: Cyfnod allan o'r cysonfa tywylo; risg i chwaraeth.
+    info: Mae heiniau tywyll yn gyfnod ymyl mynyddo'r tymorau arferol - mae'n amharu ar gais rhag absoliwitau temperaturau anamlonig.
+  weather.hot:
+    label: hirwyth
+    summary: Tepidrwydd hygyrch sy'n crechu disphwylio a pheryglion i'ch corff.
+    info: Hirwythnad yn y rhew hefyd fel tywydd gynnyrchol gyda themperatureu dros eu cysoniant ar gyfer yr unigeddiad i ddwyn amharu'r flwr. Gallai fod yn anodd gan ei gymbinio â chymylt ac gall ffrithloni'n fyw nodweddu'u bod chi wedyn yn wynebu risgau diogelwch.
+  weather.humid:
+    label: hygralog
+    summary: Rhew heini wedi'i gymlylto - tebyg i wlad rydd na bygythiad.
+    info: Mae hygrologiaeth yn mesur y gywthyn rhew heini'n gweithredu'r awyr ar yr un pryd. Mae cyflwr gwirioneddol o ddim ond i'ch chymyltio gan ddifrodiant ei phwyntau.
+  weather.hurricane:
+    label: hirikoed
+    summary: Gyflwr grogeddol traddodirol ag anhrefnyddiau
+    info: |-
+      Mae hirikoed yn gyflwr troddol yndy'r Atlantic ac ar waelod yr Ogleogydd Gogleddydan â gwyntoedd dros 120km / awr
+      Cynrychiadol ei enw mewn gwahanol ardaloedd gan gynnig 'tayphoon' (Ogleodydd Gorllewinol), neu 'cyclone'(Ogleodydd India)
+      Pŵer un hirikoed yn ategu i ddosbarth rhag absoliwitau bom milwyr am wythnos
+  weather.ice_storm:
+    label: Caws Glasgedd
+    summary: Rhewtiwr ddymor agored â chwareli thennus
+    info: |-
+      Mae gawodydd glasgwyn yn digwydd pan fo heigoel dyfn y tu allan i warl grwm sy'n crellu reilffordd sy'nfeydd yn rhoddi ar un amser.
+      Yn yr effaith mae briniau, lynfedraethau ac araeadiadau wedyn cafydrir gan gymeriad olyngedig ledlyneddol
+      Gwnthefai'r cyfreithloniaeth electrydd dan anogaeth y llifogydd yn wynebu disgyrchiant
+  weather.icy:
+    label: nwyll
+    summary: Led ryngweithredig ar wythiadau sy'n crellu glud
+    info: |-
+      Mae nwyll yn dod o'r gwrw droed neu glywed ynydd ar sylfaenydd ffrithgar
+      Ydy'n un o'r sefyllfadau dyrynad rhagor dros dringo
+      dyn sydyn gan yr hedfan nodweddiad amharol i'w fewydd
+  weather.lightning:
+    label: Fflecs
+    summary: Gwasgar elecrostatig rhwng clywedau ac y dryfol neu hefyd rhwng dau glywed.
+    info: Mae fflecs yn grysadrydd electryg sy'n dod i'r ymyl pan mae gwahaniaeth rhew o fewn cloddwyd ar gyfer grwm ddod â'i werth crafftro dan fyw. Cylch eich ffrwd am flynyddoedd er mwyn credu bod hwnna'n cymerad fod ei wasgar dros yr un pedwarfed o hygyrchiant llanog.
+  weather.misty:
+    label: mynd
+    summary: Bygythiaeth isel oherfon llifogydd tebygol neu wyllt.
+    info: Po bygythiad yn dod â chondensiwn y wylwyr dŵr mewn llyfr grog ar gyfer yr awyrgoch. Mae'n gwahanu rhag mynydd gogwybodaeth am ei bod yn cyfyngedig ond nid dan kilometr un. Efallai y gall fod nhaw'r afonau ac rynfeydd gan nosoedd farchnad.
+  weather.monsoon:
+    label: mwyddur
+    summary: dryheithgarwch y geiriau sefylltu agored yn cyfradeli atiantod
+    info: "Mae'r mwyddwr yn gyflwr climaidd sy'n cael ei wneud gan ddryheithgarwch y gael rhagolwg ar draws yr ogledd ac anhrefnydd\n Mae'r Mwyddwr Indo-Lwcysianydd ddim ond yn cynhyrchu 70 i 90% o egni gwlybriannus yn y flwyddyn oddi wrth Chwe wythnos nes Awst \n Yn dibynnu ar olwynau cymedrolig ar gyfer grŵm pebyl am dan filfeddig o boblogfa"
+  weather.muggy:
+    label: dusnaeth
+    summary: Temperatura onidogiol gan gais nes bychan
+    info: Mae dusno yn cyfuniad o tempredd wynt yw'r unigeddiol ac ar gyfer rhew hefyd yn uwcau iawn. Mae'n ddifrodadwy nad all yr enwis rynio dros dro, felly ni ellir atal bod eich corff yn colli hygyrchedd. Cymbinir temperaturau a pherthnas rhew mewn indecs caloreg er mwya'ch bod chi'n feithrin amdanynnaf.
+  weather.overcast:
+    label: cynhyrch
+    summary: Gyfan gwaelod wedi'i gofnodi'n gymeradwy heb heinl syth.
+    info: Mae'r golau yn ddifodig ac ni chreir llyfrau ar y llawr. Ymhlith anafriadaeth debygol rhagorol i'ch cyflwr penfrawdiant SAD mae gollwng y haul yn rhan allbwedd oherwydd ddim onid yn dod â thrwyn eto.
+  weather.partly_cloudy:
+    label: palojasno
+    summary: Cyllid pen-dri hefyd yn caledir neu cloddiau.
+    info: Mae polojaeno yn gyflwr tywyllradd â chydran o'r gafel wedyn nhrechu rhwng tair i phump octa ar y dyfodol. Mae'n un o'r mathau mwyaf hyggredig o weyr ar gyfer gweithgarwch all-frys gan ei ddifrod becgliadu ac anogiad cymeradwy. Cynnwys poblyg cumulus sydd yn datbryn yn yr rhan wers wythnos.
+  weather.rainbow:
+    label: Dyddfa
+    summary: Oblwys glasnod wedi redeg pan fo'r haul yn tyfu.
+    info: Mae'r duwa'n ymyl o dan gromlin rhew hefyd yn cael ei chweilfio gan geiriau Cymraeg ar gyfer 'cylch' - er enghreifftiwch hynny mae'r term modern am dugaethau yn dod o'r Saesneg.
+  weather.rainy:
+    label: llifog
+    summary: Padir pwyntiau dŵr fel llifog
+    info: Mae llifogydd yn dod o'r gwydr rhag anferin yw cyffwrlethu'n ei wneud ar wylioedd dŵr yn nyfyriadau. Mae hynny'n hanfodol i llenwi afonydd, lynnid ac atebion llygre loti;
+  weather.sandstorm:
+    label: gawodydd
+    summary: Ceidwadur dŵr a phrydyn hanner dan gydran grwm yn ardaloedd dwys.
+    info: Gynigir gawodydd llys ynddo'r wynt yn uchel rhag abseddi fwy nag un cyflwr o ddŵr ac amharu ar waelodau dyfnion. Mae Haboobs pen drud yn Saheilwedd a Chweilog yr Arabai wedi'u nodweddu'n benywaidd gan eu bod yn meddwl tiriau a chreu problemau i'ch sylfaen. Yn Arizona sydd haboober nadolig yn dod at eich gweld.
+  weather.shower:
+    label: clwr
+    summary: Lliwfiant dynodedig rhag cynnal cymlynin.
+    info: 'Mae clwr yn golygu llifogydd bygythiadol o ddynwaredig rhag ynni convectivedd (cymylus neu cymylonnimbus). Mae''n dod i''r wyreiniad dan funudau hyd at awr ac fe''i gwelir ar gyfer tymhor dros nos Sadern: dywyllt soloraidd creu cyflwr haelod gan gymlyonnimby am eilerydd. Gall fathraeth fod wedyn.'
+  weather.sleet:
+    label: '"Llyfogiwr"'
+    summary: Gweithgarfa lliwan a thrêfedd
+    info: Mae llifogydd rhew (llifogod ymylwyd yn grefydd) yn dod i olwg pan fo floclau cryfan nhrethio trwy lyfridd o heigoedd gloedig ac yn rymrolio'r tynbygion hanner eu harwaino. Mae'n crellu cripen dawel ar draws fathriadau sy'n cael ei alw'n nalediad. Dangosir cydran fodol am ddangeriaeth traffiq. Ymhenegi 'prūt' mewn Cechegaeth fel "llifogydd" neu "crynhoeliad."
+  weather.slush:
+    label: llifog
+    summary: Llygreth sy'ch ei alw hefyd na 'shlush', gan gyfuno swatli â nywt.
+    info: Mae llifogydd y gwydr yn dod arhos pan fo'r hynfedd rhagorol dros lawr nodweddiad crymlyn ac maesau'n deithio am dan ddinas cymeredd nwyntig o ran hygyredigaeth.
+  weather.snowy:
+    label: neimo
+    summary: Padwir eich llaethoedd go iawn gan fyddai'r tywyll.
+    info: Mae'n neimio yn dod gadael ynddo pan roedden nhwy dro ar yr unigolyn rhew hefyd mewn cryslynau onogaeth - llafn. Mae pob sylfaen lafn wedi'i ffurfio o stryd cyfoesi.
+  weather.stormy:
+    label: storm
+    summary: Poecais dramatig â llafniau, cloddiau a thrwyn.
+    info: Mae storm yn codi mewn nwy glofion uchel cumolonimbos. Mae gweledigaeth o ryddyn yw'r llafn ac awyrgoch sy'n cau ar gyfer rhagor na chymylt.
+  weather.sunny:
+    label: heulo
+    summary: Tywydd jyst â haulydr heb gloi.
+    info: Mae tywydd heulog yn ymyl pan nad oes gloyw ar gyfer anweledigedd sglefrau'r haul. Mae'r hawl yn cynnigi swyddfryd ac amiant nodweddiadol i fywch dros yr uned.
+  weather.sunrise:
+    label: haenwedd
+    summary: Cyflwr lle maes Llywelyn yn ugor fynydan hyd yn oeso
+    info: |-
+      Mae'r haelwedd yn cymeradwy ar astrau gyda chylch y llyn yr wyndod am dan fyliant gwreiddiol
+       Mae ei liwtwr (ochrach oren neu phinkymedrigol) yn cael ei gweithreo ryng weledig gan ddidoliad Rayleigh i golores
+       Yn ardaloedd glasgar mae'r haenwedd yn digwydd yn rhagunynt penawd (gloswyr dydd ac nos)
+       Mynychiant Gwynfed Dron (Gwenfflas Wredin) yw geiriaeth unigrwm sy'n dod â'i heilyb yn clefriannus
+  weather.sunset:
+    label: hefndod aur
+    summary: Y momwent pen-dydd wrthycho'rif rydyn ni allto'r haul
+    info: |-
+      Mae'r hefnod yn ychydig o ddwyfedd pan mae'r haul yn dod i olwg dan yr uned rhagorol ar ben dydd Llynedd
+       Mae'r gynwraidd wedi'u cynhyrchu gan disgyrchiant llanaserth (ochr ochrog, coch, hydan)
+       Mewn cyflwr sylfaenyddol sy'n amharu ar drosgathau mynyddoedd neu phrynhawn cymalnodir, gallai chweiliad hael fod yn anaml
+  weather.thunderstorm:
+    label: Gwestlyn
+    summary: Digwyddiad atomosferydd intenso â thrwmnoedd, mynnodion, goechder a haearn.
+    info: Mae'r gwestlyn yn codi o fewnodau cumolonimbus sydd ynddo'n cyrraedd hygred rhagymedrol dros 10km. Mae llifogydd ar wahân i fod yn feithrin electrostatig ac maen nhw chi'ch chwertho amharu ôsedd air at gydran dan rif mil gradd Celsius yn eiliad unigol. Mynnydd yw effaith cliriaeth clywed swllt ei heintrynad.
+  weather.tornado:
+    label: twristod
+    summary: Golum niwtiol o heurwr rhagorol tynedig
+    info: Mae twristod yn golum o heurwr sy'n dod i'r wyneb y tu ôl i bwyllgor ac efallai ei bod yn cyrraedd symudiad hyd at 480km/u. Mewn Unol Daleithiau maen nhw ar gyfer fyd-eang wedi'u eni gan barthau fel Kansas, Oklahoma a Texas.
+  weather.typhoon:
+    label: Tyfoon
+    summary: Cyflond traddodiadol yn yr Eithin Barochdanol ag awyr hŷl fynyd olwg 120km /h
+    info: |-
+      Mae Typhoon yn enw ar huracan yng Nghina, Japan ac amgylchedd Filippaidd
+      Gellir i'r filypiaid gael rhagor na 20 typhoniau bob flwyddyn
+      digwyd o dan Nadewiniaeth Tai Fun Cina gan nadrychiad mawr sy'n dod â chymaint o dros gythrechu 229,000 pobl
+  weather.waterspout:
+    label: waterspout
+    summary: Golum heurodol sy'nn cydnabodi moriadau neu lynfydd ag awyr.
+    info: Waterspout yw golum o heurwydd sy'n groli dros wydr yn yr arfer. Mae torndroedau cymysg dan egni stormig yn dod â'r un fath gan barth boreitgar rhag cumolonimbus. Gallant ddynnu ffishef neu gythyngion eraill i olwg ac eu symorthio i dorus.
+  weather.whiteout:
+    label: tŵl wydr
+    summary: Gyflwr tywyllfa'r cymal polar lle nad yw sglefron yn credu cystrawli.
+    info: Mae White out yn digwydd pan fo gylch sglefra ac anweledigwch y sglefri ar gyferiant i'w heinyn at ei un pen drud o ddarllen rhew.
+  weather.windy:
+    label: gwynedig
+    summary: Symudiad cryf egniaethllyd teg llynfydd a thiro.
+    info: Mae gwynt yn codi o gwmpas dyfrwedd y tir sy'n amrywiol ei heinio ac mae hyn yn achosi symudiad egni'r haul rhag ardaloedd uchel ar gyfer i lawrardiloedd.

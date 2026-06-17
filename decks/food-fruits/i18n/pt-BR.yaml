@@ -2,42 +2,223 @@ lang: pt-BR
 pivot: false
 title: Frutas
 cards:
+  fruit.ackee:
+    label: ackee
+    summary: Fruto热带 vermelho com arilos amarelos comestíveis; fruta nacional da Jamaica.
+    info: O Ackee é uma fruta vermelha com pequenos grãos amarelos chamados 'arilos', que são comestíveis apenas quando maduros e podem ser tóxicos se imaturos ou muito maduros devido ao hipoglucina A.
   fruit.apple:
     label: maçã
     summary: Fruto vermelho ou verde com sabor doce e ligeiramente azedo.
     info: A maçã é o fruto da macieira, uma das culturas mais cultivadas no mundo. Contém vitamina C e fibras; existem mais de 7.500 variedades.
+  fruit.apricot:
+    label: abóboras-doces
+    summary: Pequeno tipo específico de prunes secos muito populares no verão por seu aroma característico.
+    info: '{"hint":"pequena fruta de caroço laranja (pruneira comum)","info":"A abóbora-doce ou pêssego-seco é uma pequena fruta cítrica do gênero Prunus que originariamente vem da Ásia Central e atualmente também cultivada em toda Europa incluindo o Brasil especialmente nas regiões centrais e sul-catarinas."}'
+  fruit.avocado:
+    label: abacaxi
+    summary: Fruta creme com carne verde típica dos trópicos usada para fazer guacamol
+    info: A abacateira (Persea americana) é originária do México e da América Central. Botanicamente falando, o fruto é uma drupa de polpa verde cremosa mas culinariamente ele costuma ser usado como vegetal em receitas salgadas ou sucos verdes detox por conter gorduras monoinsaturadas saudáveis ricas principalmente na ácido ômega-9 similar ao óleo extravirgem.
   fruit.banana:
     label: banana
     summary: Fruta tropical amarela com polpa doce.
     info: A banana é o fruto de uma planta tropical da família das musaceae. É rica em potássio e açúcares naturais, que fornecem energia rápida.
+  fruit.blackberry:
+    label: Amora
+    summary: Baga composta preto-violetada do arbusto Amorineiro.
+    info: A amora-preta é uma baga escura e moranga que cresce em arbustos com espinhos no gênero Rubus fruticosus. Crescem naturalmente nas bordas de florestas ou matagais densos. Ela contém altas quantidades das vitaminas A, B6 além da fibra alimentar.
+  fruit.blueberry:
+    label: mirtila
+    summary: Fruta roxa escura com alto teúdo nutricional.
+    info: A mirtila é rica em antioxidantes e pode ser encontrada tanto no estado selvagem como cultivada nos jardins. Os antocianinas são responsáveis pela cor azul-escura das frutas e por suas propriedades fortes de combate ao estresse oxidativo. Pesquisas mostram que elas têm um impacto positivo sobre funções cognitivas e saúde cardíaca.
+  fruit.cantaloupe:
+    label: cantalupa
+    summary: Melão amarelo-marron com casca em forma de rede que tem polpa laranja-viva.
+    info: O kantalope é uma variedade popular de abóbora originária da Ásia e pertence à espécie Cucurbita pepo subesp. canteloupesis do gênero Cucurbitaceae.
   fruit.cherry:
     label: ameixa
     summary: Pequena fruta vermelha arredondada que cresce em pares.
     info: A ameixa é um fruto da cereja-parda, popular fruta de verão. Contém antioxidantes e melatonina; há variedades doces e ácidas (como as cerejas).
+  fruit.coconut:
+    label: coco
+    summary: Grande fruto tropical com carapaça dura.
+    info: A coco-da-baia é uma fruta da palmeira de coco e do ponto de vista botânico ela não é um noz verdadeiro mas sim uma drupa com casca fibrosa. A água contida em cocos verdes serve como bebida natural rica em sais minerais. Leite e óleo extraído são usados amplamente na culinária asiática.
+  fruit.cranberry:
+    label: mirtilo
+    summary: Pequeno fruto ácido vermelho; ingrediente típico norte-americano.
+    info: A mirtila americana é uma pequena baga vermelha e azeda. É parte tradicional da refeição do Dia de Ação de Graças nos Estados Unidos como molho à base de cranberries. Contém procianídinos que impedem o adesamento das bactérias Escherichia Coli às paredes dos órgãos urinários.
+  fruit.currant:
+    label: ribes
+    summary: Pequenas beras vermelha, preto ou branca em cacho.
+    info: |-
+      O ribes é uma pequena baga que cresce em cachos semelhantes à espiga.
+      A grosela-preta (Ribes nigrum) contém mais Vitamina C entre todas as frutas vermelhas
+      Ela também serve como base para o sabor da bebida britânica 'Ribena' e no licor Cassis.
+  fruit.damson:
+    label: damskena
+    summary: Pequeno tipo escuro de amoras típico das hortas rurais inglesas.
+    info: A damasceña é uma pequena e escura variedade de ameixeira com sabor azedo quando crua mas ideal para compotas, marmelada ou gim especial como o 'gim da damasco'. Originária de Damasco na Síria, essa fruta chegou à Europa há muito tempo atrás sendo cultivada desde os tempos antigos especialmente no campo inglês.
+  fruit.date:
+    label: dátile
+    summary: Fruto oval marrom-doce proveniente das árvores Phoenix Dactilifera.
+    info: |-
+      Dátiles são frutas doces da palmeira-dulceiro (Phoenix dactylifera).
+      São uma fonte alimentar fundamental do Oriente Médio há milhares de anos.
+      Contêm mais de 60% de açúcar e fornecem energia significativa.
+  fruit.dragon_fruit:
+    label: fruto-do-dragão
+    summary: Planta frutal tipo cactacea nativa das regiões tropicais.
+    info: Fruta do dragão (pitaia ou hilocéreus), originária da Mesoamerica e do México é muito decorativa com sua casca rosa-vibrante e polpa branca pontilhada por pequenos pontos pretos que são suas sementes. Possui um gosto suave além disso contém antioxidantes e Vitamina-C sendo usada para fazer sumos naturais, shakes e sobremesas decorativas.
+  fruit.durian:
+    label: durião
+    summary: Fruta热带 grande e espinhosa com cheiro intenso.
+    info: O duriano é considerado rei das frutas tropicais e tem um aroma forte que pode ser desagradável para uns ou atrativo para outros; por isso ele está banido em muitos hotéis da Ásia. Sua polpa cremosa apresenta gosto doce com sabores complexos de amêndoa, baunilha e queijo.
+  fruit.feijoa:
+    label: acerola
+    summary: Fruto pequeno oval verde com carne aromática.
+    info: A feijoia ou acerola-do-chile é originária da América do Sul e possui uma polpa com aroma forte que mistura sabores de abacaxi, goiaba e hortelã. É muito popular no outono em Nova Zelândia como fruta típica dessa estação.
+  fruit.fig:
+    label: figo
+    summary: Fruto em forma de pera com sabor adocicado proveniente do Fícus Carico.
+    info: O figo é uma das frutas cultivadas mais antigas do mundo e há evidências de seu cultivo datando-se à cerca de 11 mil anos atrás. Na verdade não se trata exatamente da própria 'fruta', mas sim de um receptáculo repleto por centenas ou até milhares de florezinhas minúsculas.
+  fruit.gooseberry:
+    label: currants
+    summary: Small round berries used for jams.
+    info: '{"hint":"bagas pequenas transparentes verdes ou vermelhas","info":{"label":"currants","definition": "Currant is small fruit that grows on shrubs."}}'
   fruit.grape:
     label: uva
     summary: Pequena fruta redonda que cresce em cachos.
     info: A videira uvas produz cachos de várias cores - da verde à violeta escura. As uvas são comidas frescas, secas para fazer passas ou prensadas para produzir vinho.
+  fruit.grapefruit:
+    label: grapefruit
+    summary: Fruta cítrica doce-amarga grande.
+    info: O grapefruit é um hibrido de laranja e toranja que foi descrito no século XVIII em Barbadósia.
+  fruit.guava:
+    label: goiaba
+    summary: Fruta tropical de aroma forte e polpa branca ou rosada.
+    info: |-
+      A goiaba é originária da América tropical e está espalhada por toda Ásia e Africa também热带。
+      Ela contém quatro vezes mais Vitamina C do que uma laranja.
+      Sua casca e suas sementes são comestíveis;
+      todo o fruto é nutritivo.
+  fruit.jackfruit:
+    label: abacateiro
+    summary: Fruta热带巨大e pontuda; o maior fruto crescendo numa árvore no mundo.
+    info: O chumbo de pão (Artocarpus heterophyllus) é responsável por frutos que crescem nas árvores e podem pesar mais de 35 quilos. Originário da Ásia Tropical, ele faz parte das dietas básicas em Índia, Bangladesh e Tailândia. O abacateiro verde tem uma consistência neutra e serve como substituto vegetariano para carne.
+  fruit.kiwi:
+    label: Kiwis
+    summary: Fruta marrom peluda com polpa verde brilhante
+    info: |-
+      O Kiwi é originário da China e lá também chamado de yang Tao ou morango chinês
+      Nova Zelândia comercializou-o e renomeou após seu pássaro nacional conhecido como kiwis
+      Contém duas vezes mais Vitamina c do que uma laranja
+  fruit.lemon:
+    label: Cítrico
+    summary: Fruto amarelo do gênero Citrus usado como fonte natural de aroma.
+    info: O cítrico é uma fruta ácida originária da Ásia e pertencente à família dos citrinos. É rico em vitamina C e ácido cítrico sendo amplamente utilizado cozinha, bebidas, cosméticos e produtos de higiene doméstica.
+  fruit.lime:
+    label: laranja da terra
+    summary: Pequena fruta cítrica azeda de cor verde usada em pratos típicos das regiões tropicais.
+    info: A laranja-da-terra é um pequeno cítrico verde com suco ácido e casca aromática. É essencial na culinária mexicana, tailandesa e vietnamita.
+  fruit.longan:
+    label: longan
+    summary: Pequena fruta tropical castanha parente do lichia.
+    info: Lonhan (Dimocarpus longan) é uma fruta de árvore热带 proveniente da China com carne transparente e um caroço preto no meio que se parece com o olho de dragão em chinês tradicional 'lon gan'. Tem gosto doce aromático e na medicina chinesa tradicional é considerado alimento benéfico para sangue e coração.
+  fruit.lychee:
+    label: licígia
+    summary: Pequena fruta vermelha com polpa transparente e textura áspera.
+    info: Licígia (Litchi chinensis) é uma fruta tropical originária da China.
   fruit.mango:
     label: manga
     summary: Fruta tropical com polpa suculenta amarelo-laranja.
     info: A manga é conhecida como "rei das frutas tropicais". É rica em vitaminas A e C e originária da Ásia do Sul, onde é cultivada há 4 mil anos.
+  fruit.medlar:
+    label: quimperna
+    summary: Fruto castanho pequeno semelhante às maças; precisa madurar após ser colhido.
+    info: A mișpuľa é uma fruta antiga cultivada desde o período medieval e pertence à família das rosaceas como maçãs ou peras. Ela só fica comestível após um processo chamado 'blight', em que amadurece naturalmente depois da colheita até ficar mole. É rica em polifenóis e Vitamina C.
+  fruit.melon:
+    label: melon
+    summary: Fruta grande doce com polpa laranja, verde ou branca.
+    info: Melancia é um fruto tropical ou subropical com alto teor de água e origina-se da África e Ásia; hoje cultivada em todo mundo. Contém mais de 90% de água sendo excelente para hidratação.
+  fruit.mulberry:
+    label: Amorinha
+    summary: Fruto escuro e longo proveniente das plantas de ameixeiras.
+    info: A amoreira é uma fruta da árvore de amorneiro (espécies Morus); suas folhas são alimento do verme-da-seda.
+  fruit.nectarine:
+    label: nectarin
+    summary: Pêssego doce e suave que não tem pelagem exterior.
+    info: A Nectarina é uma variedade de pessegueiro com casca lisa e suculenta carne sem pelos na superfície externa da fruta.
   fruit.orange:
     label: laranja
     summary: Fruta cítrica redonda com casca perfumada laranja.
     info: A laranja é uma fruta cítrica originária da Ásia do Sudeste e hoje cultivada em todo o mundo. É rica em vitamina C e muito popular como suco.
+  fruit.papaya:
+    label: manga
+    summary: Frutas tropicais com polpa nítida cor-de-laranja.
+    info: '{"hint":"fruta tropical laranja grande","info":"A manga-pão ou fruto da passa é originária das Américas tropicais e contém o enzima papaína que ajuda no processo digestivo de proteínas. É rica em Vitamina C, betacaroteno e antioxidantes. A manga verde também pode ser usada como vegetal nas culinárias do sudeste asiático."}'
+  fruit.passion_fruit:
+    label: graviola
+    summary: Fruto热带 com casca roxa enrugada contendo uma polpa aromática cheia de sementes.
+    info: A graviola ou maracujá é originária da América do Sul tropical e seu nome foi dado pelos missionários que viram no formato das pétalas os símbolos de sofrimento cristão na flor.
+  fruit.peach:
+    label: pêssego
+    summary: Fruta carnosa rosada-amarelada do verão.
+    info: A pessegueiro (Prunus persica) originário da China é um símbolo de imortalidade e possui uma casca macia com textura cetim característica. Existem variedades brancas e amarelas; os abricotes são versões lisos sem pelos na superfície.
   fruit.pear:
     label: pêra
     summary: Fruto em forma de lágrima com sabor doce e suave.
     info: A pêra é um fruto da persea comum, próxima parente da maçã. Possui uma polpa macia e suculenta com alto teor de fibras; há centenas de variedades.
+  fruit.persimmon:
+    label: kiwi
+    summary: Fruto verde com sabor adstringente quando não maduro.
+    info: O kiwi (Actinidia deliciosa), também conhecido como fruta do dragão ou pera chinesa, é originário da China e popularmente cultivado em Nova Zelândia por razões comerciais. É rico em vitaminas B6, K, E além de minerais essenciais.
   fruit.pineapple:
     label: abacaxi
     summary: Fruta tropical com coroa espinhosa e polpa amarela.
     info: O abacaxi é originário da América do Sul e hoje é cultivado na faixa tropical de todo o mundo. Contém a enzima bromelaína, que ajuda no processo digestivo.
+  fruit.plum:
+    label: ameixa-preta
+    summary: Fruto roxo; base dos licores e geleias.
+    info: A ameixa-preta é uma fruta pequena e ovada da espécie Prunus domestica que tem um papel fundamental na Europa Central como ingrediente básico de pratos típicos do outono. A zechara ou aguardente de ameixas preto é tradicionalmente produzida em Checoslováquia para fabricar licor caseiro. Além disso, os compotas feitas com esta fruta são populares no final das colheitas anuais por lá.
+  fruit.pomegranate:
+    label: romã
+    summary: Fruto vermelho com milhares de sementes doces; símbolo de fertilidade.
+    info: A romã (Punica granatum) é originária da Ásia Central e do Mediterrâneo. Contém mais de 600 sementes em polpa vermelha transparente chamada arilos. É rica em antioxidantes; pesquisas investigam seu impacto sobre o coração e inflamações.
+  fruit.quince:
+    label: pera
+    summary: Planta de fruto amarelo rijoso relacionado à maça que sempre deve ser cozido antes do consumo.
+    info: A pera (Pirus intermedia syn Cydonia oblonga ou Pirus communis subsp. intermedius) é parente da maçã e pêra; crua ela é rija e ácida.
+  fruit.rambutan:
+    label: rambutano
+    summary: Fruta热带 vermelha peluda similar à lichia.
+    info: O rambutano origina-se da Malsia e seu nome vem do termo em malaio 'rambut', que significa cabelos ou fios. Sua casca vermelha é revestida com pequenos pelos macios de aparência arroxeada. A polpa transparente tem sabor adocicado semelhante ao licor.
+  fruit.raspberry:
+    label: moranga
+    summary: Baga roxa comestível que cresce nos jardins durante o verão.
+    info: A moranga-vermelho (Rubus idaeus) é uma baga composta formada por muitas pequenas unidades chamadas drupletos. Cresce tanto de forma selvagem quanto cultivado e sua colheita ocorre no verão e outono. É rica em vitaminas C e K, manganês e antioxidantes.
+  fruit.starfruit:
+    label: carambola
+    summary: Fruto amarelo que forma estrelinhas ao ser fatiado.
+    info: CARAMBOLA ou FRUTA ESTRELA é originária da Ásia Meridional e Sudeste Asiático. Ao cortar transversamente cria um formato perfeito de estrelas (daí o nome fruta estrela). Tem gosto adocicado-cítrico; rica em Vitamina C.
   fruit.strawberry:
     label: morango
     summary: Bagas vermelhas e suculentas em forma de coração.
     info: O morango é uma fruta popular da família das rosaceae. Rico em vitamina C e antioxidantes; colhido no verão e tem um aroma doce.
+  fruit.tamarind:
+    label: tamarindeiro
+    summary: Fruta marron com pulpe acido; ingrediente basico culinaria tailandes.
+    info: |-
+      {"hint":"fruto marrom com polpa azeda","info":"O tamarindo é originário da África tropical e hoje cultivado em todo o mundo热带地区。
+      A carne do fruto tem um gosto fortemente ácido-doce e é usada no prato tailandês pad thai, molhos Worcestershire e condimentos indianos chamados de chutneys.
+      A palavra vem do árabe 'tamr hind', que significa "datil indiano".
+      É rico em vinagre natural, vitaminas B e ferro."}
+  fruit.tangerine:
+    label: mandarin
+    summary: Frutinha suculenta ácida com pele fina; representa Natal na região tcheques.
+    info: |-
+      {"hint":"laranja doce de casca mole pequena (Citrus reticulata)","info":"Tangerina ou mandarim chinês é uma fruta cítrica originária da China e que se caracteriza por ser fácilmente descascada.
+      É um símbolo tradicional no Ano Novo Chinês representando felicidade.
+      Na República Tcheca torna-se comum como fruto natalino típico.
+      Possui vitaminas C antioxidantes bem como compostos chamados flavonóides."}
   fruit.watermelon:
     label: Melão de água
     summary: Fruto grande e estriado com polpa vermelha suculenta.

@@ -2,22 +2,226 @@ lang: vi
 pivot: false
 title: Động vật hoang dã
 cards:
+  animal.aardvark:
+    label: chồn đất
+    summary: Động vật ăn côn trùng thuộc vùng Nam África có chiếc mũi hình dạng tương tự heo, chuyên đắp các đường rãnh nhỏ xuống phía dưới mặt đất.
+    info: '{"hint":"con thú ăn côn trùng ban đêm ở châu Phi có mõm giống heo (Orycteropus afer)","info":"Chồn đất Cape là loài duy nhất còn sống sót trong bộ răng nanh và không có họ hàng gần nào cả\.\nTheo lối sinh hoạt về đêm, móng vuốt mạnh mẽ cùng với đầu lưỡi dính chính là những đặc điểm thích nghi để săn kiến và mối\.\Những hang động bị bỏ hoang của nó được hơn chục loại khác sử dụng làm nơi trú ngụ\.Tên gọi tiếng Afrikaans nghĩa đen là con lợn dưới lòng đất","label":"chồn đất","summary":"Thú ăn sâu bọ vào buổi tối tại Châu phi sở hữu cái mũi như heo đào hầm."}'
+  animal.armadillo:
+    label: chồn nhím
+    summary: Một động vật nhỏ được che phủ bởi lớp vỏ ngoài làm từ các phiến xương.
+    info: Chồn nhím chín dải là loài có xương sống duy nhất với bộ giáp xương thật sự. Một số loài cuộn mình lại thành hình tròn khi bị đe dọa và chúng rất giỏi đào đất đến mức có thể khoét hang trong vòng chưa đầy hai phút. Đây cũng chính là vật chủ tự nhiên của vi khuẩn gây bệnh phong.
+  animal.baboon:
+    label: khỉ đuôi dài
+    summary: Linh trưởng châu Phi với chiếc mũi đặc trưng và lối sống xã hội.
+    info: Khỉ đuôi dài là loài linh trưởng lớn sinh sống ở các vùng thảo nguyên và khu vực đá núi của châu Phi. Chúng sống thành bầy đàn có thứ bậc rõ ràng và giao tiếp bằng nhiều âm thanh cùng nét mặt phong phú. Con đực to hơn con cái rất nhiều.
+  animal.bear:
+    label: gấu
+    summary: Một con gấu to khỏe thuộc họ Gấu.
+    info: Gấu nâu là loài thú lớn nhất trên cạn ở châu Âu và Á Châu với trọng lượng lên tới 700kg. Nó ăn tạp cả cá, quả mọng, mật ong cũng như các động vật có xương sống nhỏ hơn nữa.
+  animal.beaver:
+    label: cóc
+    summary: Loài động vật có răng cửa to và xây đập tạo ra hệ sinh thái vùng ngập nước.
+    info: Cóc châu Âu là loài gặm nhấm lớn thứ hai thế giới.
+  animal.bison:
+    label: trâu
+    summary: Loại trâu lớn ở vùng phía tây Hoa Kỳ với đặc điểm nổi bật của lông thô.
+    info: Trâu rừng Mỹ là loài động vật có vú nặng nhất tại Bắc Mĩ trên cạn. Vào thế kỷ XIX gần như bị tuyệt diệt khi số lượng từ khoảng ba đến sáu triệu con còn lại dưới một nghìn cá thể sau các chương trình bảo vệ được thực hiện để phục hồi quần thể lên xấp xỉ năm trăm ngàn con.
+  animal.buffalo:
+    label: người hùng châu phi
+    summary: Một loại trâu rừng châu Phi sinh sản với số lượng đông đúc; thành viên của Năm Anh Em Lớp.
+    info: Người hùng châu Phi là một trong những loài thú có vú nguy hiểm nhất ở Châu Phi và thuộc nhóm được gọi là 'Năm anh em lớn'. Nó sống thành bầy đàn lên đến hàng trăm hoặc thậm chí nghìn cá thể và khả năng chống lại cả sư tử nhờ vào sự phòng thủ tập thể.
+  animal.camel:
+    label: lạc đà
+    summary: Động vật có vú sinh sống ở hoang mạc và các khối thịt trên lưng được dùng để tích trữ mỡ.
+    info: Lạc đà một lưng (dromedary) hoàn toàn thích nghi với cuộc sống sa mạc; gù của nó lưu trữ chất béo chứ không phải nước như nguồn năng lượng dự phòng.
+  animal.capybara:
+    label: capybara
+    summary: Thú gặm nhấm lớn nhất thế giới, bán thủy sinh và vô cùng ôn hòa.
+    info: "{\"hint\":\"thú gặm nhấm lớn nhất thế giới, bán thuỷ sinh (Hydrochoerus hydrochaeris)\",\"info\":\"Capybara là loài thú gặm nhấm sống còn to nhất trên Trái Đất hiện tại với trọng lượng của cá thể trưởng thành dao động từ khoảng 35 đến 66kg.\r\nChúng thường được tìm thấy ở các khu vực nhiệt đới Nam Mỹ gần sông ngòi và hồ nước hoặc vùng đất thấp có nhiều ao tù lầy úng.\r\nLoài này rất hiền lành dễ thương lại cực kỳ thân thiện nên hầu như không gây ra xung đột nào khi chia sẻ môi trường cùng những con vật khác,\r\ncòn trở thành biểu tượng mạng xã hội cho sự bình yên thư thái giản dị nữa.\"}"
+  animal.cheetah:
+    label: hổ mang
+    summary: Động vật đất liền nhanh nhất thế giới, có khả năng vượt qua ngưỡng 110km/g.
+    info: Hổ mang là động vật trên cạn chạy nhanh nhất và có thể tăng tốc từ số không lên tới 100km/g trong ba giây. Khác với các loài mèo lớn khác thì hổ mang không biết gầm mà chỉ kêu chít như chim cu. Cơ thể thon thả cùng móng vuốt ngắn giúp nó di chuyển linh hoạt hơn để đạt được vận tốc cao chứ không phải sức mạnh.
+  animal.chimpanzee:
+    label: vượn chỉ
+    summary: Động vật linh trưởng trí tuệ cao độ, mối liên kết tiến hoá khăng khít với nhân loại.
+    info: '{"hint":"Khỉ đột thông minh (Pan troglodytes), họ hàng gần gũi nhất với con người","info":"Vượn chỉ là sinh vật sống sót có quan hệ thân thích nhất của chúng ta và chia sẻ khoảng 98,7% ADN cùng nhau.\nChúng sử dụng công cụ như cành cây để săn kiến cánh màng và học được các kỹ năng cơ bản trong ngôn ngữ ký hiệu.\nHọ truyền lại phong tục văn hóa giữa những nhóm nhỏ và sống ở môi trường xã hội phức tạp đầy thứ bậc."}'
+  animal.coyote:
+    label: cáo đỏ
+    summary: Loài thú giống chó từ vùng Bắc Mỹ thích hợp để sống ngay trong đô thị.
+    info: |-
+      {"hint":"con chó rừng Bắc Mỹ trung bình (Canis latrans)","info":"Cáo đỏ là loài thú thuộc họ chồn có khả năng thích nghi cao sinh sống khắp châu Mĩ phía bắc.
+      Khác với sói, cáo đỏ đã thích ứng được cả cuộc sống gần con người và lan rộng ra các thành phố.
+      Trong thần thoại của thổ dân da cam ở mỹ nó đóng vai trò một kẻ khôn lỏi hay bày kế.
+      Chúng giao tiếp bằng tiếng kêu đặc trưng nhất vào lúc hoàng hôn và ban đêm."}
+  animal.deer:
+    label: deer
+    summary: Thú quý hiếm phân bố rộng rãi tại khu vực Châu Á - Thái Bình Dương
+    info: '{"hint":"mammalia móng guốc đẹp mắt (loài Cervus elaphus), con đực có sừng","info":"Hươu xạ là loài hươu lớn phổ biến nhất ở châu Âu\. Con trống mang đôi sừng được thay thế hàng năm và tái sinh rất nhanh chóng\—đây cũng chính là mô phát triển nhanh nhất trong giới động vật\. Vào mùa thu hoạch họ sẽ gầm rú to tiếng để tranh giành cái với các cuộc đấu đá nhau giữa những cá thể nam tính\. Tại Cộng hòa Séc thì đây còn đóng vai trò biểu tượng quốc gia cho ngành săn bắn nữa đó!","label":"deer","summary":"Một loại thú hoang dã tuyệt vời thuộc nhóm chân chia ra làm nhiều ngón tách biệt rõ ràng; cụ thể hơn khi nói đến giống này ta nên nhớ rằng chỉ riêng chú bé mới sở hữu cặp犄角 mà mỗi lần lại phải mất cả một chu kỳ dài để phục hồi hoàn toàn."}'
   animal.elephant:
     label: voi
     summary: Động vật có vú trên cạn lớn nhất, có vòi và tai to.
     info: Voi châu Phi là động vật có vú trên cạn lớn nhất trên Trái Đất. Nó dùng vòi để thở, uống nước, ngửi và nhặt thức ăn. Voi sống theo bầy đàn do con cái lớn tuổi nhất dẫn đầu và nổi tiếng với trí nhớ tốt.
+  animal.fennec_fox:
+    label: phenneque
+    summary: Con vật giống chó nhỏ nhất hành tinh sở hữu những cái tai cực kỳ to rộng.
+    info: |-
+      {"hint":"con cáo sa mạc nhỏ bé với đôi tai khổng lồ (Vulpes zerda)","info":"Phenneque là loài thú thuộc họ chồn có thân hình nhỏ nhất thế giới thích nghi để sống trong hoang mạc Sahara\. Tai to giúp nó tỏa nhiệt cơ thể và nghe tốt hơn\.
+      Bộ thận của chúng rất hiệu quả đến mức có khả năng tồn tại mà không cần uống nước trực tiếp; độ ẩm được lấy từ thức ăn\.
+      Theo đêm, phenneque săn côn trùng, gặm nhấm và bò sát","label":"phenneque","summary":"Loài thú chó nhỏ nhất trên Trái Đất với cặp tai lớn."}
+  animal.fox:
+    label: chim cáo
+    summary: Loại động vật gặm nhấm nhanh nhẹn màu hung sở hữu chiếc尾巴 dài
+    info: |-
+      {"hint":"con chó nhỏ thông minh với đuôi lông xù","info":"Cáo đỏ là loài thú thuộc họ chồn phổ biến nhất trên thế giới và có khả năng thích nghi tuyệt vời, sống trong rừng, thảo nguyên cũng như thành phố\.\r
+      Nó nổi tiếng về sự khôn ngoan được ca ngợi qua các câu chuyện cổ tích và truyện cười khắp nơi trên toàn cầu\.\r
+      Thú này săn chuột, chim cùng côn trùng; khi cần thiết còn nhặt rác để kiếm ăn\.\r
+      Con cái sinh ra từ bốn đến sáu con non."}
+  animal.gazelle:
+    label: hươu
+    summary: Loại linh dương nhỏ nhanh nhẹn sinh sống tại thảo nguyên của châu Á và châu Phi.
+    info: Thomson's Gazelle là một trong những loài hươu sa mạc phổ biến nhất ở châu Phi. Nó có thể đạt tốc độ hơn 80km/g và thực hiện các cú nhảy đặc trưng để cảnh báo kẻ săn mồi. Loài này sống thành đàn lớn và thường bị sư tử, Panthera leo hay chó鬣狗 săn bắt.
+  animal.giant_anteater:
+    label: đười chuột lớn
+    summary: Súc vật khổng lồ không răng với cái mũi dài đặc biệt
+    info: "Đười chuột lớn là loài đười chuột to nhất và sống ở Trung Mỹ cùng Nam Mỹ\n Nó không có răng mà dùng móng vuốt mạnh mẽ để phá tổ kiến và lưỡi dính dài tới 60cm thu gom mồi \n Mỗi ngày nó ăn hơn ba chục nghìn con mối và côn trùng khác"
+  animal.giant_panda:
+    label: gấu trúc
+    summary: Loại động vật giống hổ mang màu sắc đối lập sống ở vùng núi phía Tây Nam nước ta mà nguồn dinh dưỡng duy nhất đến từ các loại thực phẩm như củ cải.
+    info: |-
+      {"hint":"gấu đen trắng từ Trung Quốc","info":"Gấu trúc khổng lồ là loài đặc hữu của tây nam Trung Quốc và biểu tượng toàn cầu cho việc bảo vệ thiên nhiên môi trường sinh thái.
+      Hơn chín mươi chín phần trăm khẩu phần ăn gồm có tre nứa mặc dù về mặt giải phẫu học thì đây lại thuộc nhóm thú săn thịt.
+      Chúng sở hữu ngón cái thứ sáu - xương cổ tay phát triển thành dạng gai nhọn giúp chúng bám chắc vào thân cây tre khi hái lá để làm thức ăn,
+      số lượng cá thể hoang dã hiện chỉ còn khoảng một ngàn eight hundred con trên thế giới."}
   animal.giraffe:
     label: tê giác
     summary: Động vật trên cạn cao nhất với cổ rất dài.
     info: Tê giác là động vật trên cạn cao nhất thế giới; con đực có thể cao hơn năm mét. Cổ dài giúp nó có thể với tới lá acacia, nguồn thức ăn chính của nó.
+  animal.gorilla:
+    label: vượn
+    summary: Linh trùng to nhất thế giới
+    info: Vượn là loài linh trưởng lớn nhất trên Trái Đất và đến từ châu Phi nhiệt đới. Vật nuôi của người trống có thể nặng tới 45 kilogram.
+  animal.hippopotamus:
+    label: hà mã
+    summary: Loài động vật bán thuỷ to lớn ở châu Phi có cái miệng khổng lồ.
+    info: Con hà mã sống bán thủy là loài thú trên cạn lớn thứ ba sau voi và tê giác. Ban ngày nó nghỉ ngơi dưới nước để tránh bị quá nóng; ban đêm thì lên bờ kiếm ăn. Da của chúng tiết ra chất lỏng đỏ đóng vai trò như kem chống nắng tự nhiên và kháng sinh.
+  animal.hyena:
+    label: cóc
+    summary: Súc vật săn mồi và ăn thịt ở châu Phi.
+    info: |-
+      Cóc đốm là thành viên lớn nhất trong họ Cóc và bất chấp tiếng xấu của nó thì không phải chủ yếu ăn xác chết; hơn 60% thức ăn mà chúng kiếm được bằng cách săn mồi tự mình bắt lấy
+      Con cái to lớn hơn con trai đồng thời có tính chiếm ưu thế cao hơn so với các cá thể khác giới,
+      Their laugh is actually sound excitement hoặc sợ hãi chứ không phản ánh niềm hạnh phúc.
+  animal.jaguar:
+    label: sư tử
+    summary: Loại sư tử có hình hoa thị trên da.
+    info: Sư tử đực là loài lớn thứ ba trong họ Mèo và duy nhất ở cả hai châu Mỹ.
+  animal.kangaroo:
+    label: thú có túi
+    summary: Loại động vật có túi to sống tại châu Đại Dương với khả năng di chuyển đặc biệt nhờ đôi chân sau mạnh mẽ.
+    info: Thú có túi đỏ là loài thú có túi lớn nhất ở Úc và cao nhảy bậc nhất thế giới; nó thậm chí còn có thể nhảy xa hơn chín mét. Con cái mang con non trong một chiếc ví bụng khoảng sáu tháng trước khi sinh nở hoàn toàn tự nhiên trên mặt đất bằng cách đẻ trứng. Thú có túi cũng được xem như biểu tượng quốc gia của nước này.
+  animal.koala:
+    label: thú mao
+    summary: Loại thú có túi sống trên thân cây sồi Úc.
+    info: Kangaroo rat không phải là gấu mà thực ra thuộc nhóm thú có túi. Nó ăn gần như hoàn toàn lá cây xô thơm – thứ độc hại với hầu hết các loài động vật khác nhưng kangaroo rat lại sở hữu hệ tiêu hóa đặc biệt để xử lý được chúng. Loài này ngủ tới tận 22 tiếng mỗi ngày vì giá trị dinh dưỡng của những chiếc lá đó rất thấp.
+  animal.leopard:
+    label: hổ Beng
+    summary: Loại thú thuộc họ Mèo to bản được đặc trưng bởi lớp da sọc nâu đen.
+    info: Hổ beng là loài mèo lớn phân bố rộng nhất và có khả năng thích nghi vượt trội so với các loại hổ khác; nó sống ở châu Phi cũng như vùng Trung Đông và Viễn Đông. Hổ thường mang con mồi lên cao cây để tránh sự tấn công của chồn đốm hay sư tử.
   animal.lion:
     label: sư tử
     summary: Một loài mèo săn mồi lớn sống ở các thảo nguyên châu Phi.
     info: Sư tử là loài mèo săn mồi lớn sống chủ yếu ở các thảo nguyên châu Phi phía nam sa mạc Sahara. Nó sống theo đàn gọi là pride; các con cái săn mồi cùng nhau, trong khi chiếc鬣 của con đực dùng để đe dọa đối thủ. Sư tử thường được gọi là "vua của các loài thú".
+  animal.lynx:
+    label: cáo săm
+    summary: Một loại báo thuộc họ nhà mèo sống rải rác khắp khu vực Bắc bán cầu.
+    info: '{"hint":"con mèo rừng cỡ trung bình có lông xù ở đầu tai (Lynx lynx)","info":"Cáo săm là loài mèo rừng lớn nhất tại châu Âu.\nChúng được nhận diện qua những chùm lông đen đặc trưng trên đỉnh tai và đuôi ngắn\.\nHọ thường đi kiếm ăn vào lúc hoàng hôn hoặc ban đêm; con vật chủ yếu mà chúng săn bắt chính là hươu sao và thỏ\.\nỞ Cộng hòa Séc đã bị tuyệt chủng trong một thời gian dài nhưng đến nửa sau thế kỷ XX thì người ta tái định canh thành công","label":"cáo săm","summary":"Con mèo rừng kích thước vừa với các chùm lông nhỏ ở đầu tai."}'
+  animal.mandrill:
+    label: vượn mandrill
+    summary: Linh trưởng nhiều mầu sắc bậc nhất thế giới mang khuôn mặt xanh -đỏ.
+    info: |-
+      Vượn mandrill là loài khỉ lớn nhất và màu sắc rực rỡ nhất trong các linh trưởng của Cũ Thế Giới
+      Chúng có mặt với những gam màu xanh lam chói lấp cùng đỏ tươi thể hiện địa vị xã hội,
+      và sống thành bầy đàn ở rừng mưa nhiệt đới Cameroon, Gabon cũng như Cộng hòa Congo.
+  animal.meerkat:
+    label: suri-kát
+    summary: Một động vật gặm nhấm nhỏ từ sa mạc Kalahai.
+    info: Suri-kát là loài thú có túi nhỏ thuộc họ Mongoose sống ở châu Phi phía nam. Nó sinh sống thành đàn với cấu trúc xã hội rõ ràng và luôn có một cá thể đứng canh trên cao để quan sát môi trường xung quanh.
+  animal.moose:
+    label: elk
+    summary: Loại động vật ăn cỏ to bản nhất với đôi tai hình lá.
+    info: |-
+      Elk là loài hươu cao nhất thế giới thuộc họ Hươu Nai; con đực có thể đạt chiều cao hơn hai mét và mang những cái nhánh dài tới khoảng 180cm giống như chiếc xẻng lớn rộng mở ra phía sau.
+      Chúng sống trong rừng ôn hòa của Bắc Mỹ, châu Âu và Ái Nhĩ Lan
+      Nó bơi rất giỏi dưới nước sâu để tìm kiếm thực phẩm từ các loại cây thủy sinh.
+  animal.okapi:
+    label: okapi
+    summary: Con vật rừng có chân kẻ sọc tương tự zebras đến từ khu vực sông Congo.
+    info: Loài Okapi mới được khoa học mô tả vào năm 1901 và là một trong những loài thú lớn cuối cùng mà nhân loại phát hiện ra nhờ nghiên cứu kỹ lưỡng hơn về thiên nhiên hoang dã. Dù trông giống như sự lai tạo giữa hươu cao cổ với ngựa vằn thì thực tế đây lại chính xác nhất là họ hàng gần gũi sống chung hệ thống gen ADN của nó so bất kỳ ai khác ngoài bản thân con Hưu Cao Cổ.
+  animal.orangutan:
+    label: oran-gút
+    summary: Một con khỉ to màu đỏ sẫm sống chủ yếu tại những khu vực rậm rạp như Bornéo và Sumatera.
+    info: Đây là loài linh trưởng lớn duy nhất sống ngoài châu Phi và tên của nó bắt nguồn từ tiếng Mã Lai có nghĩa là người rừng. Oran-gut-an rất kín đáo trong sinh hoạt so với các loại khỉ khác; chúng dành phần lớn thời gian ở trên tán cây.
+  animal.otter:
+    label: chồn
+    summary: Động vật bán thủy sinh hoạt động ở các dòng suối sạch.
+    info: Chồn nước sông là loài thú thuộc họ Mèo hoang dã hoàn toàn thích nghi với cuộc sống dưới nước. Nó có lớp lông dày chống thấm nước và móng vuốt bơi được cùng khả năng nhịn thở lên đến một phút.
+  animal.polar_bear:
+    label: gấu cực
+    summary: Kẻ săn mồi trên mặt đất to lớn sống tại vùng địa cực.
+    info: Cực kỳ béo là loài thú đất liền lớn nhất và kẻ săn mồi hàng đầu ở Bắc Cực của nó. Lông trắng tinh khiết hoàn toàn cách nhiệt cho cơ thể này có mỗi sợi lông rỗng ruột trong suốt. Nó rất giỏi凫泳 và có khả năng bơi qua nhiều trăm kilômét.
+  animal.porcupine:
+    label: chồn lông gai
+    summary: Một loại thú nhấm lớn có lớp vỏ ngoài đầy các đinh ba.
+    info: Chồn lông gai là một loài thú nhấm được bảo vệ bởi hàng ngàn chiếc gai sắc và rỗng, những sợi này thực chất là biến thể của tóc. Những cái gai không bay ra như mũi tên khi chạm vào mà dễ dàng bong khỏi cơ thể nó để cắm sâu vào kẻ săn mồi.
+  animal.raccoon:
+    label: '"gà"'
+    summary: Động vật bản địa của Nam Cực với bộ lông trắng tinh khiết.
+    info: '{"hint":"gà rừng ban đêm có mặt nạ từ Bắc Mỹ","info":"Gà lông xám sống ở châu Á và Trung Quốc nhưng đã được du nhập vào châu Âu nơi mà chúng hiện đang sinh sản mạnh mẽ trong môi trường đô thị hóa cao."}'
+  animal.reindeer:
+    label: caribou
+    summary: Loài thú nhai lại sinh sống tại những khu vực băng giá
+    info: Caribou sống ở các vùng đồng bằng Bắc cực của châu Mỹ phía bắc, châu Âu và Ái-châu, có khả năng di cư hàng nghìn kilômét. Người Sàm đã truyền thống nuôi caribou như một loài vật gia đình.
+  animal.rhinoceros:
+    label: 犀
+    summary: 鼻上有一或两个角的强大哺乳动物
+    info: "V犀牛是仅次于大象的第二大陆地哺乳动物。它的角不是骨头，而是由与人类指甲相同的角质构成。\r\n由于人们错误认为其角具有药用价值而受到盗猎严重威胁。\r\n在野外有两类生活在非洲和三类生活于亚洲。"
+  animal.sloth:
+    label: con lười
+    summary: Động vật có túi chân đi ngược lên trời treo mình ở các cành cây.
+    info: Con lười là loài thú hoàn toàn thích nghi với cuộc sống chậm rãi trong tán cây nhiệt đới. Nó di chuyển quá chậm đến mức rong biển xanh phát triển trên lớp lông của nó để làm giả dạng môi trường tự nhiên. Chuyển hóa năng lượng rất chậm nên dạ dày chỉ được thải ra một lần mỗi tuần.
+  animal.snow_leopard:
+    label: Snow Leopard
+    summary: Loài mèo săng to lớn quý hiểm sinh hoạt tại nơi địa hình núi cao thuộc miền giữa Châu á.
+    info: '{"hint":"mèo to lớn bí ẩn ở dãy núi Trung Á","info":"Hổ tuyết sống trong môi trường vùng cao nguyên của Dãy Him Lạp và Tây Tạng cũng như các khu vực đồi núi trung tâm châu Á từ độ cao khoảng 3 nghìn đến năm nghìn mét.\nChúng có đuôi rất dài để giữ thăng bằng trên những khối đá sần sùi.\nTheo đánh giá hiện nay chỉ còn lại số lượng hổ này là vào khoảng bốn ngàn cho tới sáu nghìn lăm con mà thôi.\nĐây được xem là một loài báo hiếm nhất thế giới chưa được nghiên cứu kỹ càng."}'
+  animal.tapir:
+    label: taphir
+    summary: Động vật ăn cỏ lớn có trán ngắn, liên quan đến hươu cao cổ và ngựa.
+    info: Taphir là loài động vật nhai lại nguyên thủy có quan hệ họ hàng với voi và ngựa mặc dù điều này không dễ nhận ra.
+  animal.tiger:
+    label: báo
+    summary: Loài thú thuộc họ Mèo to bản nhất thế giới mang mẫu mã màu cam xen lẫn các nét đen.
+    info: Báo Bengal là loài hổ lớn nhất sống hoang dã hiện nay và có mô hình đường kẻ độc đáo trên cơ thể của mỗi cá nhân giống như dấu vân tay ở người. Khác với sư tử thì báo này thường thích sống đơn lẻ hơn đồng thời cũng rất giỏi凫泳. Loại động vật quý hiếm này đang bị đe doạ nghiêm trọng bởi số lượng còn tồn tại trong tự nhiên dưới mức bốn nghìn con.
+  animal.warthog:
+    label: lợn mũi hếch
+    summary: loai lon rung co rang nanh va muc tren mat o Afrika
+    info: '{"hint":"con lợn hoang dã châu Phi có răng nanh trên mặt và móng guốc","info":"Lợn mũi hếch là loài động vật ăn cỏ sống tự do ở Châu Phi liên quan đến heo nhà.\nCon đực có những khối mô phát triển to ra từ khuôn mặt gọi là ''mũi'' cùng với các chiếc獠牙 cong dùng để phòng thủ.\nKhi chạy trốn nó giơ đuôi thẳng đứng lên như một cái antenna điện thoại di động.\nNó không đào hang bằng sức lực của chính mình mà chiếm dụng tổ chồn,"label":"lợn mũi hếch","summary":"Loại lợn rừng khổng lồ sinh sản tại châu phi có獠牙 lớn và phần thịt nhô cao phía trước."}'
+  animal.wild_boar:
+    label: lợn hoang
+    summary: Loài lợn đực có獠牙，tiền thân chung cho mọi giống lợn gia đình.
+    info: '{"hint":"Con lợn rừng châu Á có răng nanh (Sus scrofa), tổ tiên của con lợn nhà","info":"Lợn hoang là giống bản địa Châu Âu và tiền thân cho tất cả các dòng nòi heo nuôi hiện tại.\nChúng thông minh với khả năng thích nghi cao; ăn tạp gồm rễ cây, quả dẻ gai nhưng cũng săn bắt động vật nhỏ để làm thức ăn chính. \nCái mẹ sẽ chăm sóc đàn仔猪 trong nhóm.\nỞ Cộng hòa Séc thì đây là loại thú dữ được đánh bắn phổ biến nhất."}'
+  animal.wildebeest:
+    label: Hưu Nú
+    summary: Antilocapra Châu phi tham gia vào mùa sinh sản tập trung cao độ.
+    info: Loài hươu nún châu Phi nổi tiếng với một trong những cuộc di cư trên bộ lớn nhất thế giới; hơn triệu con mỗi năm qua lại giữa khu vực Serengeti và Maasai Mara.
   animal.wolf:
     label: sói
     summary: Một loài động vật săn mồi thuộc họ chó, tổ tiên của chó nhà.
     info: Sói hoang là loài săn mồi thuộc họ chó lớn nhất và là tổ tiên của chó nhà. Nó sống và săn mồi theo đàn với cấu trúc xã hội rõ ràng và giao tiếp bằng tiếng hú để đánh dấu lãnh thổ và tập hợp đàn.
+  animal.wolverine:
+    label: raccoon
+    summary: Động vật săn mổ to khỏe và hung ác từ rừng ôn đới hoặc đồng bằng.
+    info: '{"hint":"gặm nhấm dữ dằn của rừng ôn đới và đồng cỏ bắc bán cầu","info":"Raccoon là loài động vật lớn nhất trong họ Mèo hoang sống trên mặt đất.\NDù có kích thước nhỏ nhưng raccoon nổi tiếng về sức mạnh phi thường cùng tính hung hăng; chúng thậm chí còn đủ can đảm để xua đuổi sư tử khỏi con mồi chết\. Raccoon sinh hoạt ở những khu vực rộng lớn thuộc các vùng rừng lá kim cũng như thảo nguyên lạnh giá tại Bắc Mỹ, châu Âu và Á Châu."}'
   animal.zebra:
     label: ngựa vằn
     summary: Một loài lông vằn châu Phi có vằn đen trắng.

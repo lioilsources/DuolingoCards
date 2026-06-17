@@ -2,18 +2,89 @@ lang: vi
 pivot: false
 title: Các phần của cơ thể
 cards:
+  body.ankle:
+    label: khớp gối
+    summary: Khớp kết hợp bàn chân vào đùi; dễ bị tổn thương hơn cả.
+    info: Mắt cá chân là khớp nối giữa xương bắp chuối với lòng bàn chân được tạo thành từ ba chiếc xương khác nhau và cho phép chuyển động của bàn chân lên xuống cũng như các cử động nhẹ sang hai bên. Chấn thương mắt cá thường gặp nhất trong thể thao chính là xoắn cổ chân hay còn gọi là giãn dây chằng ở đây.
+  body.arm:
+    label: cánh tay
+    summary: Đoạn từ vai đến mu bàn tay.
+    info: 'Chiếc cánh tay là chi trên gồm ba đoạn chính sau đây: cẳng vai, cổ tay và bàn tay. Nó chứa hơn 30 cơ bắp cùng xương khớp giúp điều khiển chuyển động của nó. Xương ở phần cẳng vai gọi tên khác là humerus còn hai xương tạo nên cấu trúc cho khuỷu tay được đặt tên lần lượt là radius và ulna.'
+  body.back:
+    label: lòng
+    summary: Phần sau của thân mình; nhóm cơ lớn nhất trên toàn bộ cơ thể.
+    info: Lưng là phần sau của thân từ cổ đến mông và chứa cột sống gồm có ba mươi ba đốt xương được bao quanh bởi các cơ lưng. Đau lưng là một trong những nguyên nhân phổ biến nhất gây mất khả năng làm việc.
+  body.belly_button:
+    label: rốn
+    summary: Sẹo giữa bụng sau khi cắt dây rốn.
+    info: |-
+      Lông mào là sẹo ở vị trí gắn của rốn脐带， qua đó thai nhi nhận được chất dinh dưỡng từ người mẹ。
+      Hình dạng lỗ này（trũng xuống hoặc nhô lên）phụ thuộc vào cách lành thương。
+      Rốn chứa một cộng đồng vi sinh vật đặc trưng； các nghiên cứu đã ghi lại những loại khuẩn độc đáo。
+      Ở nhiều nền văn hóa trên thế giới,rốn mang tính biểu tượng và tâm linh.
+  body.bone:
+    label: xương
+    summary: Mô liên kết rắn chắc cấu trúc nên khung xương toàn thân.
+    info: Xương là mô cứng được tạo thành từ các tế bào xương và muối khoáng như canxi cùng phốt-pho. Khung xương người trưởng thành có tổng cộng 206 chiếc trong khi trẻ sơ sinh lại sở hữu hơn 300 cái do nhiều đoạn sau này sẽ mọc liền nhau dần qua quá trình phát triển thể chất tự nhiên của cơ thể con người.
+  body.brain:
+    label: não bộ
+    summary: Trung tâm kiểm soát hoạt động trong cơ thể con người
+    info: |-
+      Não người nặng khoảng 1,4kg và chứa hơn 86 tỷ nơron thần kinh
+      Nó được chia thành hai bán cầu não trái phải điều khiển bên cơ thể tương ứng với nó
+      Dù chỉ chiếm 2% trọng lượng toàn thân nhưng lại tiêu thụ tới 20 phần trăm năng lượng của cả cơ thể
+  body.calf:
+    label: bắp chuột
+    summary: Phần cuối đùi trước mắt cá.
+    info: Cẳng chân là phần cơ ở phía sau của cẳng chân dưới đầu gối và mắt cá bàn chân. Cơ chính của bắp chuỗi (gastrocnemius) cho phép đứng lên bằng mũi giày hoặc nhảy bật cao khỏi mặt đất. Căng thẳng vùng này đóng vai trò quan trọng trong việc đưa máu tĩnh mạch từ chi dưới trở lại tim.
+  body.cheek:
+    label: không gian
+    summary: Vùng mô mềm nằm dọc theo mỗi phía của gương mặt.
+    info: Khuôn mặt là vùng trên hai bên khuôn mặt chứa xương hàm và các túi mỡ. Hồng hào ở má thường xảy ra khi có cảm xúc như xấu hổ hoặc phấn khẩn. Khuôn mặt của trẻ sơ sinh được thiết kế nhỏ nhắn mập mờ để kích thích tình mẫu tử.
+  body.chest:
+    label: lồng ngực
+    summary: Phần trên cùng của thân người chứa tim và lá lách.
+    info: Lồng ngực là phần trước của thân mình được bao quanh bởi xương sườn, xương ức và cột sống lưng. Nó bảo vệ các cơ quan sinh mạng như tim và phổi.
+  body.chin:
+    label: cằm
+    summary: Phần thấp nhất trên gương mặt bên dưới môi dưới.
+    info: Cằm là phần dưới cùng của khuôn mặt được tạo thành bởi xương hàm dưới. Cằm rõ ràng ở người (sự nổi bật của cằm) là một đặc điểm độc đáo trong giới động vật; các loài linh trưởng khác không có điều này. Lý do vì sao chúng ta lại có cằm vẫn còn đang gây tranh luận khoa học.
   body.ear:
     label: tai
     summary: Cơ quan cảm giác nghe ở bên đầu.
     info: Tai thu nhận sóng âm thanh và chuyển chúng thành tín hiệu thần kinh gửi đến não bộ. Nó cũng chứa cơ chế cân bằng (hệ thống tiền đình).
+  body.elbow:
+    label: cùi tay
+    summary: Khớp gập khuỷu tay có tên bắt nguồn từ hình dạng giống cây cầu.
+    info: Cùi tay là khớp ở bên ngoài nối giữa cánh tay và cổ tay. Nó cho phép uốn cong và duỗi thẳng cẳng tay cũng như xoay cổ tay.
   body.eye:
     label: mắt
     summary: Cơ quan cảm giác để nhìn thấy với màng bồ đào có màu.
     info: Mắt người có thể phân biệt khoảng mười triệu sắc độ màu khác nhau. Màng lưới của mắt chứa các tế bào que (dùng để nhìn trong bóng tối) và các tế bào nón (dùng cho thị lực màu).
+  body.eyebrow:
+    label: mày
+    summary: Dải tóc ở phía trên mỗi con ngươi; đóng góp lớn vào biểu đạt khuôn mặt.
+    info: Mày là dải lông mọc trên mí mắt và có vai trò quan trọng trong giao tiếp phi ngôn ngữ vì cử chỉ của nó thể hiện nhiều cảm xúc khác nhau hơn cả. Ngoài ra còn giúp bảo vệ đôi mắt khỏi sự xâm nhập từ nước mưa hoặc mồ hôi.
+  body.eyelash:
+    label: mí
+    summary: Hàng loạt gai uốn cong nằm tại viền của眼皮 để bảo vệ đôi mắt.
+    info: Míi là những sợi lông ngắn cong mọc ở mép mi và bảo vệ mắt khỏi bụi bẩn, nước dãi và các vật thể lạ. Người trưởng thành có từ 100 đến 150 mí trên mỗi hàng mi trên và khoảng 50–75 mí dưới cho từng hàng mi dưới. Mí được tái tạo lại trong vòng khoảng 4–8 tuần.
+  body.finger:
+    label: ngón tay
+    summary: Một phần của mười đầu ngón được sử dụng để cầm nắm công cụ và tạo âm nhạc.
+    info: Ngón tay là một trong năm ngón trên bàn tay; mỗi ngón có ba đốt xương ngoại trừ cái thì chỉ hai.
   body.foot:
     label: chân (bàn chân)
     summary: Phần dưới của chân mà chúng ta đứng và đi lại.
     info: Bàn chân chịu trọng lượng toàn bộ cơ thể và cho phép đi bằng hai chân. Nó có 26 xương, 33 khớp và hơn 100 cơ, gân và dây chằng.
+  body.forehead:
+    label: trán
+    summary: Phần đầu mặt ở phía trên đuôi mắt; nơi bày tỏ cảm xúc.
+    info: Trán là phần trước của hộp sọ nằm trên đường chân mày và dưới nếp tóc mai. Đây là một trong những khu vực dễ nhìn thấy nhất khi biểu lộ cảm xúc; nhăn trán thể hiện sự lo lắng hoặc bận tâm.
+  body.hair:
+    label: tóc
+    summary: Sợi sinh ra từ da dầu phía trên đầu.
+    info: Tóc là các sợi protein keratin phát triển từ nang tóc trên đầu người. Trung bình một con người có khoảng 100 nghìn sợi tóc ở đầu và mỗi ngày rụng đi từ năm chục đến cả trăm sợi. Tốc độ tăng trưởng của từng缕头发大约每月增长一厘米半。发色由黑色素决定；当毛囊停止产生色素时，就会出现白发生现象。
   body.hand:
     label: tay
     summary: Phần tay trên kết thúc bằng năm ngón tay.
@@ -26,11 +97,115 @@ cards:
     label: tim mạch
     summary: Cơ quan bơm máu liên tục khắp cơ thể.
     info: Tim là một khối cơ rỗng có kích thước bằng nắm đấm, thường đập khoảng 70 lần mỗi phút. Trong suốt cuộc đời, tim sẽ bơm máu đi được quãng đường tương đương ba vòng trái đất.
+  body.heel:
+    label: gót
+    summary: Phần sau dưới cùng của bàn chân; mang toàn bộ cân nặng cơ thể trong tư thế đứng.
+    info: Chân giò (xương gót chân) là xương lớn nhất của bàn chân và khi đứng nó chịu phần lớn trọng lượng cơ thể.
+  body.hip:
+    label: cổ hông
+    summary: Vùng ở bên cạnh bộ phận cùng cụt và cũng chính là vị trí lớn nhất của cơ thể mang cân nặng.
+    info: Cổ hông là vùng xung quanh khớp háng (articularis coxae) nối xương đùi với khung chậu. Đây là một loại khớp cầu chịu trọng lượng cơ thể khi đi lại. Phụ nữ thường có phần mông rộng hơn nam giới do sinh sản.
+  body.jaw:
+    label: hàm
+    summary: Xương mặt phía dưới giúp cử động khi ăn uống hoặc giao tiếp.
+    info: Hàm dưới là xương duy nhất có thể di chuyển trong hộp sọ và cho phép nhai nuốt cũng như nói chuyện. Khớp thái dương-hàm TMJ được xem là một trong những khớp phức tạp nhất của cơ thể.
+  body.kidney:
+    label: thận
+    summary: Cơ quan đôi lọc máu tạo ra nước tiểu.
+    info: Thận là một cơ quan hình đậu nằm ở phần sau của khoang bụng và có chức năng lọc máu cũng như sản xuất nước tiểu mỗi ngày lên đến từ 1–2 lít nhờ hàng triệu đơn vị thận gọi là nefron.
+  body.knee:
+    label: gối
+    summary: Khớp nối giữa chân trên và dưới.
+    info: Gối là khớp lớn nhất và phức tạp thứ hai trong cơ thể người sau vai. Nó gồm xương bánh chè, dây chằng liên nguyệt mạc, các đĩa lót hình bán nguyệt gọi là trục gối trước - sau cùng với một số mô khác như dây chằng bên.
+  body.leg:
+    label: chân
+    summary: Chi tiết từ hông đến mắt cá.
+    info: Chân dưới bao gồm đùi, cẳng chân và bàn chân. Nó được thích nghi cho đi lại bằng hai chân và chứa các cơ lớn nhất của cơ thể như tứ đầu đùi.
+  body.lip:
+    label: môi
+    summary: Là một trong hai viền thịt ở lỗ miệng.
+    info: Môi là một trong hai mô cơ mềm mại tạo thành mép miệng và được cung cấp nhiều đầu dây thần kinh nên rất nhạy cảm. Màu môi phụ thuộc vào mức độ lưu thông máu; nếu môi có màu xanh lam thì thường cho thấy thiếu oxy. Mô cũng đóng vai trò quan trọng đối với nét mặt biểu cảm, nụ hôn hoặc phát âm các chữ cái như P, B hay M.
+  body.liver:
+    label: gan
+    summary: Cơ quan trong bụng giúp làm sạch máu.
+    info: Gan là cơ quan nội tạng lớn nhất cân nặng hơn 1,5kg và thực hiện khoảng trên dưới 500 chức năng như lọc máu, sản xuất mật, tổng hợp protein và lưu trữ glycogen. Đây cũng chính là bộ phận duy nhất có khả năng tái tạo hoàn toàn từ mô còn lại sau tổn thương do rượu mạnh hay chất độc gây ra bệnh xơ gan.
+  body.lung:
+    label: phổi
+    summary: Cơ quan đôi nhận oxy từ không khí.
+    info: Phổi là cơ quan nằm trong khoang ngực gồm hàng triệu túi phế nang tạo thành một diện tích bề mặt khoảng 70 mét vuông tổng cộng của các lỗ khí này ở cả hai lá phổi người trưởng thành hít vào trung bình từ năm trăm đến bảy trăm lần mỗi phút và với lượng không khí hấp thụ được khi thở ra hoặc vào thì bên phải lớn hơn trái vì tim chiếm phần nào đó vị trí ấy.
   body.mouth:
     label: miệng
     summary: Khe hở trên mặt dùng để ăn uống và nói chuyện.
     info: Miệng bắt đầu quá trình tiêu hóa – răng nhai thức ăn, nước bọt phân hủy chúng. Miệng cũng là công cụ chính trong giao tiếp bằng lời nói.
+  body.muscle:
+    label: cơ
+    summary: Mô giãn nở giúp di chuyển.
+    info: Cơ là mô có khả năng co cơ để tạo ra chuyển động cho cơ thể. Cơ thể người chứa hơn 600 cái cơ chiếm khoảng 40% khối lượng toàn thân; trong đó bắp thái dương dùng khi nhai mạnh nhất và dây chằng nhỏ ở tai giữa yếu nhất. Có ba loại chính của cơ gồm xương tự chủ được điều khiển bởi ý chí con người, nội tạng không chịu sự kiểm soát trực tiếp từ não bộ cũng như tim.
+  body.nail:
+    label: móng
+    summary: Tấm vảy keratin dày đặc tại cuối các ngón tay và chân.
+    info: Móng là một tấm sừng cứng làm từ chất keratin ở đầu mỗi ngón tay hoặc chân. Chúng bảo vệ các đầu ngón nhạy cảm và giúp cầm nắm vật nhỏ tốt hơn. Móng tăng trưởng khoảng 3mm/tháng; móng trên bàn tay phát triển nhanh hơn so với những cái dưới bàn chân.
+  body.neck:
+    label: cổ
+    summary: Phần thân nối liền từ đầu xuống phần bụng lưng trên; mang những mô máu thiết yếu.
+    info: Cổ là vùng nằm giữa hộp sọ và ngực chứa bảy đốt sống cổ. Qua đó có các cấu trúc quan trọng cho sự sống như động mạch chủ, thực quản, khí phế quản và tuỷ sống. Cổ còn có nhiều nhóm cơ giúp xoay đầu hoặc cúi gập.
   body.nose:
     label: mũi
     summary: Cơ quan khứu giác và hô hấp ở giữa khuôn mặt.
     info: Mũi lọc, làm nóng và giữ ẩm cho không khí hít vào. Nó có thể phân biệt hơn một tỷ mùi hương khác nhau và liên kết chặt chẽ với trí nhớ cũng như cảm xúc.
+  body.palm:
+    label: bàn tay
+    summary: Mặt trong của bàn tay; khu vực tập trung nhiều thụ cảm thính nhất.
+    info: Bàn tay là bề mặt phẳng bên trong của bàn tay giữa các ngón và cổ tay. Nó chứa một mạng lưới dày đặc các thụ thể xúc giác (cơ quan Meißer). Bề mặt này không có nang lông hay tuyến nhờn.
+  body.shoulder:
+    label: khớp vai
+    summary: Đây là khớp nối giữa chi trên với thân người mang lại khả năng vận động rộng rãi.
+    info: Khớp vai có phạm vi chuyển động lớn nhất trong cơ thể và là khớp cầu được tạo thành bởi đầu xương cánh tay cùng hõm của xương bả vai. Khớp này không ổn định nên dễ bị rời ra ngoài; nhóm cơ xoay giữ cho nó vững chắc.
+  body.skin:
+    label: da
+    summary: Cơ quan lớn nhất trong cơ thể; Bảo vệ, điều chỉnh thân nhiệt và cảm nhận.
+    info: Da là cơ quan lớn nhất của cơ thể người và bao phủ diện tích khoảng 2 mét vuông. Nó thực hiện các chức năng như bảo vệ khỏi nhiễm trùng, bức xạ tử ngoại, điều hòa nhiệt độ, xúc giác và tổng hợp vitamin D.
+  body.spine:
+    label: xương sống
+    summary: Một dãy các đoạn xương hình thành nên khung đỡ cho toàn bộ thân người.
+    info: Xương sống là một chuỗi gồm khoảng 33 đốt xương nối hộp sọ với hông và cột mỏng bảo vệ tuỷ sống đồng thời làm trụ chính của cơ thể.
+  body.stomach:
+    label: 腹部
+    summary: Phần trên cùng dưới ngực ở thân người.
+    info: '{"hint":"Khu bụng","info":"Là phần trước của thân mình giữa ngực và xương chậu. Chứa các cơ quan tiêu hóa như dạ dày, ruột, gan, tụy và lách. Cơ vùng bụng giúp ổn định cột sống lưng đồng thời bảo vệ nội tạng."}'
+  body.temple:
+    label: thái dương
+    summary: Vùng da mềm hai bên đầu giữa mắt và tai.
+    info: Khu vực thái dương là phần phẳng trên hai bên trán ở phía trước tai và nằm ngay dưới xương hàm mặt. Đây về bản chất giải phẫu học mềm hơn các vùng khác của hộp sọ (phần xốp của xương thái dương), dễ bị tổn thương khi va đập mạnh. Các mạch máu thái dương có thể cảm nhận rõ ràng qua nhịp tim.
+  body.thigh:
+    label: đùi
+    summary: Phần chân từ mào chậu đến trên mắt cá
+    info: "Đùi là phần chi dưới giữa khớp háng và đầu gối\nNó chứa nhóm cơ lớn nhất của cơ thể gồm bốn đầu đùi trước (cơ quadriceps femoris), các dây chằng hông-gối sau còn gọi là hamstrings \nXương đùi dài hơn bất kỳ xương nào khác trong thân người"
+  body.throat:
+    label: cổ họng
+    summary: Khe nối giữa miệng với thực quản.
+    info: Cổ họng là khoang nằm sau mũi và miệng đóng vai trò như con đường cho không khí cũng như thức ăn đi qua. Nó chứa amidan làm một phần của hệ thống miễn dịch để chống lại các tác nhân gây bệnh xâm nhập từ bên ngoài vào cơ thể người.
+  body.thumb:
+    label: ngón cái
+    summary: Một ngón tay dày đặc trên bàn tay giúp nắm bắt.
+    info: Ngón cái là ngón tay ngắn và to đầu tiên của bàn tay có khả năng đối lập với các ngón khác để tiếp xúc được chúng. Chuyển động đối lập này rất quan trọng cho việc thao tác bằng công cụ ở con người.
+  body.toe:
+    label: ngón chân
+    summary: Một trong số năm ngón chân ở bàn chân; ngón cái giúp phân bổ sức nặng khi di chuyển.
+    info: Ngón chân là một trong năm ngón trên bàn chân. Ngón cái của bàn chân có vai trò quan trọng đối với sự cân bằng và lực đẩy khi đi lại; nó chịu phần lớn khối lượng cơ thể.
+  body.tongue:
+    label: ngôn
+    summary: Cơ quan có chức năng giúp ngửi mùi, nhai đồ vật cùng với khả năng giao tiếp bằng lời.
+    info: Ngôn ngữ là cơ quan bắp thịt được phủ bởi các nang vị giác hơn 10 nghìn cái cho phép cảm nhận năm hương vị chính gồm ngọt, muối, axit, đắng và Umami đồng thời đóng vai trò thiết yếu trong việc phát âm tiếng nói cũng như nuốt thức ăn.
+  body.tooth:
+    label: ráng
+    summary: Cấu trúc trắng giòn bên trong miệng dùng để nhai thức ăn.
+    info: Răng là cấu trúc cứng được tạo thành từ men răng (mô chắc nhất của cơ thể), ngà và buồng tủy. Con người có tổng cộng 32 chiếc răng trong hàm trưởng thành.
+  body.vein:
+    label: mạch
+    summary: Dẫn lưu chất dinh dưỡng qua hệ thống tĩnh mạch đến tận cùng cơ thể.
+    info: Mạch máu dẫn máu trở lại tim có van ngăn cản dòng chảy ngược của máu về phía xa hơn so với nguồn gốc ban đầu.
+  body.wrist:
+    label: cổ tay
+    summary: Khớp kết nối giữa bàn tay và cẳng tay; rất cần thiết đối với kỹ năng vận động thô.
+    info: Cổ tay là vùng nối bàn tay với cánh tay dưới được tạo thành bởi tám xương nhỏ (xương cổ tay). Nó cho phép chuyển động của bàn tay ở bốn hướng và xoắn quanh trục. Kênh gian mu tì (một kênh hẹp trong khu vực cổ tay) có thể gây ra hội chứng đường hầm cổ tay khi bị quá tải.

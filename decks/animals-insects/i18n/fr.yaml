@@ -6,19 +6,275 @@ cards:
     label: fourmi
     summary: Insecte social vivant en colonies.
     info: La fourmi est un insecte qui forme de grandes colonies avec une division du travail.
+  insect.antlion:
+    label: fourmilion
+    summary: Une larve qui creuse des pièges coniques dans le sable pour capturer les fourmis.
+    info: Le fourmilion est une larve d'insecte de la famille des Myrmeleontidae qui taille des trous en forme de trappe à surface du sol sec ou sablonneux. Quand un insecte tombe dedans et glisse vers le centre, il se fait saisir par ses mandibules et injecter des enzymes digestives avant que sa chair soit digérée directement sur place.
+  insect.aphid:
+    label: puceron
+    summary: Petit insecte suceur sur les tiges des plantes ; produit de la miellat.
+    info: 'Les pucerons sont de petits insectes suciphages appartenant à la super-famille des Aphidoïdea qui s''alimentent du sucre provenant des plantes. Ils sécrètent un sirop sucré appelé miellat que certaines fourmis protègent en échange cette ressource. Les pucerons se reproduisent très rapidement : une seule femelle peut donner naissance dans l''année à plusieurs millions de descendants.'
+  insect.atlas_moth:
+    label: papillon Atlas
+    summary: Un des plus grands papillons du monde avec un motif de serpent sur ses ailes.
+    info: |-
+      Le papillonAtlas est l'un des plus gros lépidoptères nocturnes au monde et peut avoir une envergure allant jusqu'à 30 centimètres.
+      Les extrémités de ses ailes sont colorées pour ressembler aux têtes de serpents afin de dissuader les prédateurs.
+      Les adultes n'ont pas de bouche et ne consomment absolument rien ; ils vivent seulement quelques jours après leur mue vers la forme adulte.
+      Ils proviennent des forêts tropicales d’Asie du Sud-Est.
+  insect.bedbug:
+    label: puceron
+    summary: Parasite plat en forme ovale qui suce le sang la nuit ; il s'cache dans les fentes des meubles.
+    info: |-
+      Le puce domestique est un insecte aplati et ovoïde appartenant à la famille des Cimicidés, principalement actif pendant la nuit.
+      Il mord pour sucer le sang du hôte endormi.
+      Elle reste cachée dans les fissures des matelas, des meubles ou derrière les tapisseries.
+      Pendant ces dernières décennies, elle s'est propagée mondialement grâce au tourisme international.
   insect.bee:
     label: abeille
     summary: Insecte jaune et noir qui pollinise les fleurs et produit du miel.
     info: L'abeille mellifère est un insecte social vivant dans des ruches et collectant du nectar.
+  insect.beetle:
+    label: chenille
+    summary: Les chenilles forment l'ordre d'insectes le plus riche en espèces avec plus de 400 000 espèces décrites.
+    info: La chenille appartient à l’ordre des Coléoptères et représente environ 40 % de tous les insectes connus. Elle est caractérisée par ses élytres rigides qui recouvrent les véritables ailes volantes situées sous eux. Le scarabée rhinoceros est la plus grande chenille européenne ; chez lui, le mâle possède des mandibules cornés imposants. Les coléoptères vivent dans presque toutes sortes d’environnement allant depuis les régions tropicales jusqu’à celles polaires.
+  insect.bombardier_beetle:
+    label: coléoptère canonnier
+    summary: Coléoptère qui expulse un mélange bouillant et toxique comme défense.
+    info: 'Le coléoptère canonnier est une espèce de carabe appartenant à la sous-famille des Brachininae ; il utilise une méthode unique pour sa protection : en mélanguant deux substances chimiques dans son abdomen, ce qui produit réaction explosive dont la température dépasse les 100 °C. La vapeur hautement toxique ainsi générée peut être tirée avec fracas jusqu''à 500 fois par seconde.'
+  insect.bumblebee:
+    label: bourdon
+    summary: Gros bourdon pelucheux avec un vol profond et riche en pollinisation.
+    info: |-
+      Le bourdon est une abeille poilue du genre Bombus apparentée à la guêpe mellifère.
+      Il joue un rôle important de butineur, surtout dans les climats plus froids où les autres insectes sont moins actifs.
+      Grâce au tremblement des muscles pectoraux pour produire sa propre chaleur corporelle, il peut voler même par temps frais ou nuageux.
+      Comparés aux abeilles domestiques, ils ont tendance être beaucoup plus calmes et ne piquent que lorsqu'ils ressentent directement une menace.
   insect.butterfly:
     label: papillon
     summary: Insecte volant avec de grandes ailes colorées.
     info: Le papillon est un insecte possédant deux paires d’ailes écailleuses, souvent brillamment colorées.
+  insect.caterpillar:
+    label: chenille
+    summary: Chenille de papillon ou de pyrale ; elle mange des feuilles et s'apprête à faire sa mue.
+    info: Une chenille est la larve d'un papillon ou d'une pyrale qui passe l’essentiel de son temps à mâcher les feuillages afin d'emmagasiner suffisamment d'énergie pour subir une métamorphose complète. Certaines ont même des couleurs voyantes destinées à dissuader leurs prédateurs en leur signalant qu'elle sont toxiques. Lorsqu’elle entre dans un stade ultérieur appelé « nymphe » (ou chrysалиde selon les espèces), cette transformation radicale vers l’étape adulte commence.
+  insect.centipede:
+    label: vers à cent pattes
+    summary: Vers annélidé avec un seul couple de jambes sur chaque segments.
+    info: Le vers à cent pattes appartient à la classe des Chiliopodes et possède une paire de pattes unique pour chacun de ses segments corporels (pas exactement 100 comme son nom l'indique). C'est un prédateur rapide qui chasse les insectes, les vers ainsi que d'autres petits invertébrés. La première paire de pattes est transformée en pinces empoisonnées utilisées pour paralyser sa proie. Certains spécimens tropicaux peuvent atteindre plus de trente-centimètres.
+  insect.cicada:
+    label: ' cigale'
+    summary: Insecte connu pour son chant bruyant par temps chaud.
+    info: |-
+      La cicadelle est un insecte de la super-famille des Cicadioïdes célèbre comme l'un des sons les plus forts produits par tous les insectes.
+      Les mâles produisent ce bruit à l'aide d'organs spéciaux appelés timbales situés dans leur abdomen afin d'appâter les femelles.
+      Certaines espèces aux États-Unis ont des cycles développementaux qui s'étalent sur treize ou dix-sept ans.
+  insect.cockroach:
+    label: blatte
+    summary: Insecte rapide et carnivore de nuit très résistant.
+    info: La blatte est l'un des insectes les plus robustes au monde ; elle survit à la radiation ainsi qu'à des conditions qui tueraient d'autres animaux. Il existe plus de 4 500 espèces mais seulement environ trente vivent près des humains.
+  insect.crane_fly:
+    label: taon
+    summary: Grosse mouche ressemblant à un moustique avec des pattes extraordinairement longues.
+    info: Le taon est une libellule diptère de la famille des Tipulidae qui rappelle visuellement un gros moustique mais il ne pique pas et ne vit pas comme parasite. Ses pattes très allongées peuvent facilement être arrachées ; c'est là son mécanisme défensif appelé autotomy. Les adultes vivent seulement quelques jours sans prendre alimentation ou en consommant du nectar éventuellement. Leurs larves (ver laineux), quant à elles, habituent dans les sols où ils mangent principalement les racines.
+  insect.cricket:
+    label: grillon
+    summary: Insecte nocturne connu pour les chants des mâles.
+    info: Le grillon est un insecte de l'ordre des orthopères qui vit la nuit. Les males chantent en frottant leurs ailes entre elles afin d’attirer les femelles et délimiter leur territoire. En Asie, on élève traditionnellement ces animaux comme petits compagnons domestiques à cause de leur musique ; ils symbolisent également la domesticité heureuse dans plusieurs cultures.
+  insect.damselfly:
+    label: libellule zygoneure
+    summary: Parent mince de la libellule qui plie ses ailes parallèlement au corps lorsqu'elle repose.
+    info: La zyneure est un insecte apparenté aux libellules mais plus élancée et replie les ailes en position horizontale sur son corps pendant qu’elle se reposerait, contrairement à celles-ci. C’est un prédateur chassant des petits insectes volants dans l’air. Les nymphes vivent sous l’eau où elles jouent également un rôle important pour les écosystèmes aquatiques.
+  insect.diving_beetle:
+    label: plongeur
+    summary: Bruit aquatique prédateur quinage sous la surface.
+    info: Le grand plongeur est un coléoptère carnivore de la famille des Dytisquidés vivant dans les étangs et eaux stagnantes. Il glisse en raison de ses pattes arrière plates fonctionnant comme des rames à ramer. Il respire à la surface puis retient son air entre ses élytres.
   insect.dragonfly:
     label: libellule
     summary: Insecte à long corps et deux paires d'ailes transparentes.
     info: La libellule est un insecte prédateur au vue exceptionnelle qui chasse près des plans d'eau.
+  insect.dung_beetle:
+    label: scarabe
+    summary: Vers qui roule des boulettes de fumier et sacré en Égypte antique.
+    info: Le scarabe est un insecte appartenant à la famille des Scarabées, connu pour former les déjections animales en petites billes qu'il roule vers son trou où il enterrera ses œufs. En ancienne Égypte, c'était un symbole du soleil ainsi que d'Kheprê, dieu associé au lever du Soleil. C'est l'un des rares êtres vivants capable de s’orienter grâce à la Voie lactée.
+  insect.earwig:
+    label: mante
+    summary: Insecte allongé avec des pinces à l'extrémité de la queue.
+    info: |-
+      La mantale est un insecte du groupe Desmantodes caractérisée par ses appendices terminaux en forme de ciseau appelés cercies qui servent aussi bien pour se défendre que lors de la reproduction.
+      Son nom provient d'une idée erronée selon laquelle elle irait dans les oreilles humaines ; ce n'est qu'un mythe.
+      Les femelles sont exceptionnelles car elles prennent soin des œufs et des jeunes nympheuses, une pratique rare chez les insectes.
+      Elle vit principalement sous les pierres ou entre les feuillages.
+  insect.firefly:
+    label: luciole
+    summary: Coléoptère qui produit de la lumière par bioluminescence pour attirer un partenaire.
+    info: |-
+      La luciole est une espèce d’insecte appartenant à la famille des Lampridés capable de générer du feu follet dans son abdomen grâce au phénomène appelé bioluminescence.
+      Les mâles et les femelles émettent différentes séquences lumineuses afin de communiquer entre eux et faciliter leur reconnaissance mutuelle.
+      Ce processus repose sur une réaction chimique impliquant l'enzyme luciférase agissant avec le substrat lucifrins
+      De plus, ces insectes servent souvent comme indicateurs écologiques de qualité environnementale.
+  insect.flea:
+    label: puce
+    summary: Petite puce parasite qui suce le sang des mammifères et oiseaux.
+    info: La puce est un insecte sans ailes du groupe des Siphonnates spécialisé dans une vie de type parasite. Grâce à ses pattes arrière puissantes, elle peut bondir plus d'une centaine de fois la longueur de son corps. Elle se nourrit principalement en pompant le sang chez les animaux terrestres comme les humains ou encore certains oiseaux ; certaines espèces peuvent transmettre des maladies – historiquement notamment l'ancienne peste bubonique.
+  insect.fly:
+    label: mouche
+    summary: Insecte à deux ailes capable de transporter des bactéries.
+    info: La mouche est l'insecte à deux ailes le plus courant dans les habitations humaines. Ses yeux composés lui permettent presque une vision panoramique sur environ 360° autour d'elle. Elle transporte des bactéries car elle se pose aussi bien sur les détritus que sur la nourriture.
+  insect.goliath_beetle:
+    label: colosse
+    summary: Un des insectes les plus grands et lourds du monde originaires de la forêt équatoriale africaine.
+    info: Le colosse est un des insectes les plus imposants au monde ; les mâles peuvent peser jusqu'à 100 grammes et mesurer plus de 11 centimètres de longueur. Il vit dans les forêts pluviales tropicales de l'Afrique équatériale. Les adultes s'alimentent principalement de fruits et de sève arborescente. En Afrique, ils sont parfois élevés comme jouets pour enfants avant d'être vendus aux collectionneurs.
+  insect.grasshopper:
+    label: sauteur
+    summary: Insecte sautillant avec des pattes arrière allongées et un chant caractéristique.
+    info: |-
+      Le sauteur est une bestiole de l'ordre des orthopères dotée de robustes pattes postérieures permettant d'émettre des bonds pouvant atteindre jusqu'à vingt fois la taille du corps.
+      Les mâles produisent un son distinctif en frottant leurs cuisses contre les ailes.
+      Ils sont herbivores ; lorsqu'ils forment de grands groupes, ils peuvent causer des dégâts aux cultures.
+  insect.ground_beetle:
+    label: carabe
+    summary: Broyeur prédateur rapide vivant sous des pierres et dans la mousse.
+    info: |-
+      Le carabe est un coléoptère de la famille des Carabidés ; la plupart des espèces sont actives nocturnes et chassent d'autres insectes ainsi que vers ou escargots.
+      Ils courent très vite pour fuir tout danger imminent.
+      Certaines espèces comme le carabe violet ont une coloration métallique brillante remarquable.
+      Ce sont aussi des indicateurs précieux sur l'état sain du sol et l'agriculture naturelle.
+  insect.hornet:
+    label: guêpe
+    summary: La plus grande guêpe européenne dotée d'un puissant dard et produisant un bourdonnement sonore.
+    info: Le frelon commun est la plus grosse guêpe sociale en Europe pouvant atteindre une longueur de plus de 3,5 cm. Il construit des nids en carton dans les cavités d'arbres ou sur les toits. Son dard est plus long que celui de l’abeille et sa piqûre cause davantage de douleur ; cependant il attaque uniquement lorsqu'il perçoit directement une menace. C'est aussi un prédateur important pour d'autres insectes.
+  insect.hoverfly:
+    label: syrphe
+    summary: Moustique imitant les couleurs des guêpes et abeilles, butineur de jardins.
+    info: |-
+      Le syrphe est un insecte à deux ailes appartenant à la famille des Syrhophagides qui imite l'apparence colorée des guêpes et abeilles comme protection contre ses prédateurs (mélanisme batésien) bien qu'il ne possède pas lui-même une piqûre mortelle.
+      Il joue un rôle important dans la pollinisation ; il visite plus d'espèces vegetales que les abeilles.
+      Les adultes s'alimentent du nectar et du pollen.
+      Des larves de certaines espèces chassent les cochenillons, ce qui rend ces insectes utiles en jardin.
+  insect.lacewing:
+    label: coccinelle
+    summary: Insecte délicat avec des ailes grandes et nervurées transparentes ; les nymphes chassent les pucerons.
+    info: |-
+      La coccinellette est un insecte de la famille des Coccinellidés ayant d'amples ailes transparents à nerfs visibles ainsi que des yeux dorés.
+      Les larves sont carnivores et consomment une grande quantité de pucerons ce qui en fait naturellement leurs protecteurs végétales.
+      Les adultes se nourrissent du nectar et du pollen.
+      Ils attirent la lumière et servent comme indicateurs environnementaux.
   insect.ladybug:
     label: coccinelle
     summary: Petit scarabée rouge et rond avec des taches noires.
     info: La coccinelle est un petit insecte qui se nourrit de pucerons et est utile dans le jardin.
+  insect.locust:
+    label: sauterelle migratrice
+    summary: Sauterelle formant un essaim destructeur composé de millions d'individus.
+    info: |-
+      La sauterelle migratoire est une espèce qui forme parfois énormes nuées en migration massale sous certaines conditions climatiques ou environnementales spécifiques.
+      Un tel rassemblement peut compter plusieurs milliards d'insectes et détruire entièrement la récolte sur des centaines voire des milliers d’hectares dans l’espace d’une journée.
+      En Afrique comme en Asie, les invasions de ces insectes sont depuis longtemps considérés comme étant parmi les plus grandes catastrophes agricoles mondiales,
+      et elles figurent même au nombre des Dix Plaies d'Égypte décrites dans la Bible.
+  insect.louse:
+    label: puce
+    summary: Petite puce sans ailes vivant sur la peau et les poils des mammifères.
+    info: |-
+      Les puces sont de petits invertébrés parasites appartenant à l'ordre des Phthiraptera qui habitent dans ou sous la couche cutanée ainsi que dans les chevelures animales.
+      Elles se nourrissent principalement du sang de leurs hôtes ce qui provoque souvent une irritation cutanée.
+      La puce pubis est un exemple bien connue mondialement touchant particulièrement fréquemment enfants indépendamment de leur niveau sanitaire,
+      historiquement certaines espèces ont également été responsables pour propager maladies comme fièvre tifoïde.
+  insect.mayfly:
+    label: ephémère
+    summary: 'Insecte dont la vie adulte est extrêmement courte : quelques heures à jours.'
+    info: Les éphémères appartiennent à l'ordre des Ephéméroptères et sont un symbole de transience ; les adultes vivent seulement pendant plusieurs heures ou jusqu'à une journée sans jamais manger car ils n’ont pas d’appareil buccal fonctionnel. Les nymphes passent entre uno y tres años bajo el agua antes de éclore.
+  insect.mosquito:
+    label: moustique
+    summary: Insecte à deux paires de pattes ; les femelles sucent du sang et peuvent transmettre des maladies.
+    info: |-
+      Le moustique est un insecte volant appartenant à la famille des Culicidés.
+      Les femelles boivent le sang pour obtenir des protéines nécessaires au développement des œufs tandis que les mâles s'alimentent principalement avec le nectar.
+      Certains types de moustiques sont connus comme porteurs de maladies graves telles qu'il malaria, la fièvre dengue ou Zika.
+      Il existe plus de 3 500 espèces différentes dans le monde.
+  insect.moth:
+    label: papillon de nuit
+    summary: Parent nocturne des papillons ; vole vers la lumière et possède des antennes pennées.
+    info: |-
+      Les papillons de nuit sont des lépidoptères actifs pendant la nuit qui contrairement aux jours ont les ailes repliées latéralement au repos.
+      De nombreuses espèces sont attirées par la lumière artificielle.
+      Nous devons notre soie naturelle à leurs chenilles filandières comme celle du Bombyx mori.
+      The Luna Moth est un exemple célèbre d’un des plus beaux papillons de nuit.
+  insect.praying_mantis:
+    label: mantise
+    summary: Insecte prédateur avec une posture priante et des attaques fulgurantes.
+    info: 'La mantisse religieuse est un insecte carnivore de l''ordre des Mantoïdes qui tient ses pattes avant comme en position de prière. Elle tire son nom précisément du fait qu''elle maintient les pattes croisées semblables à celles lorsqu''on prie. C''est championne dans la chasse : elle frappe instantanément pour capturer sa proie au quart de tour.'
+  insect.robber_fly:
+    label: moucheron
+    summary: Libellule prédatrice capturant d'autres insectes en vol.
+    info: Le moucherons est un diptère carnivore de la famille des Asilidés qui chasse directement dans l'air les autres insectes. Il possède des pattes robustes pour saisir sa proie et une trompe permettant d'injecter un venin paralysant. Certaines espèces imitent apparemment l'apparence des abeilles ou guêpes comme protection contre leurs propres prédateurs.
+  insect.scorpion:
+    label: scorpion
+    summary: Arachné venimeux avec des pinces et une queue courbée.
+    info: |-
+      Les scorpions sont des araignées (et non pas des insectes), dotés de paires caractéristiques appelées 'pinces' ainsi qu'une longue queue recourbée terminant par un dard urticant contenant du poison.
+      C'est l'un des animaux les plus anciens ; certaines fossiles datent已经超过 430 millions d’années.
+      Ils brillent dans l'obscurité sous la lumière ultraviolette.
+      Parmi environ 2 500 espèces connues, seules quelques vingt-cinq peuvent être dangereuses pour l'être humain.
+  insect.silverfish:
+    label: poisson-limace
+    summary: Insecte sans ailes rapide trouvé dans les maisons près des livres et du papier.
+    info: Le poisson-limace est un insecte primitive à l'ordre Zygentomata vivant principalement en intérieur. Il s'alimente de amidon, de paperasse, d'un collage utilisé pour les reliures ainsi que de fibres textiles. Son nom provient de sa couleur argentée ressemblante au métal précieux et son mouvement rappelle celui des petits poissons.
+  insect.spider:
+    label: araignée
+    summary: Des Araignées à eight pattes qui construisent des toiles pour capturer les insectes.
+    info: Les araignées appartiennent aux arachnides et non aux insectes ; elles font partie de l'ordre des Aranéens avec leurs huit jambes et leur corps divisé en deux parties principales. Elles sont capables de sécréter une soie qu’elles utilisent pour créer des filets destinés à la chasse ou pour envelopper des œufs dans un cocon protecteur. Plus de 48 000 espèces d’araignées existent sur Terre.
+  insect.stag_beetle:
+    label: Cerambix
+    summary: Le plus grand coléoptère européen ; mâles avec des maxillaires en forme de cornes.
+    info: Le Cerambix commun est le plus gros insecte du type scarabée dans l'Union européenne pouvant atteindre une longueur supérieure à 7 centimètres. Les males possèdent des appendices ressemblant à des bois utilisés pour combattre lorsqu'ils disputent la possession des femelles. La larve vit jusqu'à sept ans sur ou dans un tronc mort et consomme principalement des champignons.
+  insect.stick_insect:
+    label: phasmide
+    summary: Insecte qui imite parfaitement une branche ou une feuille.
+    info: Le phasmide est un insecte de l'ordre des Phasmatodes et maître du camouflage ; son corps reproduit avec précision les branches ou les feuilles. En cas de danger, il reste complètement immobile. Certains spécimens se reproduisent par apomixie, c'est-à-dire sans mâle.
+  insect.termite:
+    label: fourmi termit
+    summary: Insecte social construisant de grands tertres en terre.
+    info: |-
+      Le terme est un insecte social appartenant à l'ordre des Isopères et distantly apparenté aux éphéméroptères.
+      Ils vivent en colonies organisées avec roi, reine, soldats ouvriers.
+      Elles construisent des monticules complexes pouvant atteindre jusqu'à neuf mètres dans les régions tropicales dotés d'un système de ventilation naturel,
+      et jouent un rôle clé comme décomposeurs du bois au sein des écosystèmes tropicaux.
+  insect.tiger_beetle:
+    label: carabon
+    summary: Un coléoptère métallique rapide avec une vision exceptionnelle.
+    info: |-
+      Le carabon est un scarabe de la sous-famille des Carabiens connus pour leur rapidité extraordinaire, leurs capacités volantes et leur excellente vue.
+      Il court si vite qu'il doit parfois s'arrêter afin de retrouver son orientation, car ses mouvements sont trop rapides pour que son système visuel puisse les suivre en temps réel.
+      Ils possèdent des corps brillants aux couleurs chatoyantes comme l'émeraude, l'azur ou encore le rouge ainsi que d'impressionnants yeux grands.
+  insect.velvet_ant:
+    label: fourmi velue
+    summary: Vespe orange et noire sans ailes ressemblant à une fourmi.
+    info: |-
+      La « fourmi velue » est en réalité un frelon de la famille des Eumenidés ; les femelles sont ailées ou non selon les espèces mais imitant souvent les fourmis dans leur apparence générale.
+      Elles portent d'évidents poils rouges ou orangés comme signal d'avertissement visuel.
+      Les individus féminins possédèrent particulièrement longues piqûres parfois surnommée tueur bovin pour sa puissance,
+      et elles parasitaient spécifiquement les colonies de guêpes.
+  insect.wasp:
+    label: guêpe
+    summary: Insecte piquant jaune et noir qui construit des nids en carton.
+    info: |-
+      La guêpe est un hyménoptère de la genre Vespa avec une coloration noire et jaune caractéristique servant à l'avertissement visuel.
+      Elle fabrique ses nids en utilisant du bois mâché pour former un matériau ressemblant au carton.
+      Contrairement aux abeilles, elle peut piquer plusieurs fois car son organe ne se détache pas après chaque utilisation.
+      C'est également utile comme régulateur naturel dans les populations nuisibles d'insectes.
+  insect.water_strider:
+    label: pélécorète
+    summary: Insecte capable de marcher sur la surface de l'eau grâce à la tension superficielle.
+    info: Le pèlecorète est un insecte appartenant à la famille des Gerromptères qui peut se déplacer en glissant sur les surfaces planes comme celles du sol ou de l’eau grace aux soies hydrophobiques situées sous ses pattes et aussi par sa morphologie allongée lui permettant une bonne stabilité. Il capture principalement son alimentation composée généralement d'autres petits invertébrés aquatiques qu'il détecte via leurs vibrations dans l'air.
+  insect.weevil:
+    label: longicorn
+    summary: Petit coléoptère avec un appendice allongé caractéristique.
+    info: |-
+      Le longicorn est une espèce de scarabée appartenant à la famille des Cucujidés ou plus précisément aux Cerambycidés dans certains contextes linguistiques français; cependant ici il fait référence au groupe taxonomiquement proche des Colletérismatrices comme les curculiones qui forment l'une des familles d'insectes les mieux représentées sur Terre comptabilisant environ 58 000 espèces décrites actuellement.
+      Son museau prolongé appelé "rostres" lui permet notamment de percer fruits secs et écorces pour y déposer ses œufs.
+      Certaines variétés sont reconnues mondialement pour leur impact négatif en agriculture telle que Cosma truxii affectant particulièrement sévèrement certaines cultures tropicales.
+  insect.whirligig_beetle:
+    label: gyrine
+    summary: Petit coléoptère qui tourbillonne en groupe à la surface de l'eau.
+    info: 'Le gyrine est un insecte aquatique appartenant à la famille des Gyrinidae et vit sur la couche supérieure de l’eau ; son comportement circulaire lui permet d’éviter les prédateurs. Ses yeux sont divisés : une partie voit au-dessus du niveau de l’eau tandis que l’autre observe sous l’eau. Il détecte les rides ou petites vaguelettes causées par sa proie possible ainsi qu’en cas de danger.'

@@ -1,0 +1,229 @@
+lang: cy
+pivot: false
+title: Gwallfeydd Gwaith Tŷ
+cards:
+  farm.alpaca:
+    label: alpig
+    summary: Gwenlyn dybygydd Llama'edd fyddai'n dod dan sylw am ei lanw.
+    info: Mae Alpag yn olygfa bysgynt ar gyfer y gwanwyn fach sydd wedi cael ei ddefnyddio mewn yr Anderau ucha am eu llanw naturiol rhag absoliwn nhaw. Mae'r lanwy'n un ohir pen drithedig gan ddynrychiad cymharol - maen hynny hefyd yn hydo elwedigaeth ac yn glas nag unrhyw wahan olwg fel cashmiriaidd.
+  farm.barn_cat:
+    label: coeden ffrwydro
+    summary: Gat ddaithedig wedi'i feithrin fel llunyddwr hirnodol.
+    info: Mae coeden ffrwydro yn gath domestig sy'n fyw ym mhenviant graich lle nad oes hi'n luniadu rhew hefyd i ddynrychioli'r cwbl penbontau ac aderyniadaeth ar gyfer grŵpiau.
+  farm.beehive:
+    label: gadeirydd
+    summary: Ganrif sy'n cael ei sefyll am ddau filfedig ac mewn cydraddfa.
+    info: Mae'r gadeirydd yn tywyll ddaeth yw fodd gwahanol o fynd i'ch bont ar gyfer disgyrchiant neu symudiad rhagor.
+  farm.boar:
+    label: can
+    summary: Sameci rhesyg o ran barstiau
+    info: |-
+      Mae can yn samen dywyll y gwestydd rhewg na'r dyrchafel ar gyfer cau plant;
+      wedi'u defnyddio i ddifrod nes bygythiad anghynaliol.
+      Pryd ei wneud gan ffrwd rywodig sy'n cynnal amharu cyffredin.
+  farm.calf:
+    label: teled
+    summary: Plant craigaed hŷr un flwyddyn.
+    info: Teledydd yw plant crogod o disgyrchiant i'ch adfer neu hyd at flynydd yn ôl. Teleddydd sy'n nodweddiad am ddifrod rhag gwaith milfedig dilynwir ar gyflym ers eu eni; cyffredinol maen nhw wedi'u heffeithio gan ei thadeilwriaeth.
+  farm.carp:
+    label: caprin
+    summary: Fachslat milwr cryfafol; bwyll nos Calan tradodirol yn Nhiecmor.
+    info: Mae Caprinus yn y fwyf hefyd sydd wedi cael ei garcharu mewn rhynodydd Cymreig ac fe'i cysylltwch â'r Nos Galan yn Nghwmidiau. Roedd arnoch dros Gymru yn yr Hen Oesoedd - gan ddifrodion Třebon yn enweddiadol. Mae'n all-eosydd a phrofi i fygu gyflym am gymaint ag un deg kilogram.
+  farm.chicken:
+    label: '"cymyn"'
+    summary: '{"summary":"Pten nhedfan sy''n dod o''r Gallus gallus domestiCUS."}'
+    info: '{"info":"Mae''r cymyn domestig yn y fath rhew hefyd ar gyfer ei fe - gan fod dros 40 blynedd wedi bod yn gweithredu fel un o ddauddiau''r diwydiannwyr hedfan."}'
+  farm.cow:
+    label: Bythgar
+    summary: Bovydd rhewiniau hwyrededdus
+    info: '{"hint":"bovydd rhewin/rhebydd mawganigol fach (bos Taurys) sy''n cael eu cario ar gafodd","info":"Mae''r bythgar yn ei cheri am dan yw ennyd ac erthyliad. Un o gyfrifau pwysig ddaethnogydd ganrif olwg;y ddynithgar wneud hyd at 45 litra ethylio bob dydd."}'
+  farm.deer:
+    label: tance
+    summary: Tance neu dancydd sy'ch bod chi'n ei chofredu ar farthoriau gan Gyngres Gymraeg.
+    info: Mae dancydd yn rhagwedd i geledau ac mewnolach ym Mharch Cymru ar gyfer gwastraffio'r ffrwydro. Mae tanciaid yn fyrrach na celegion glasgwyn a'u pharogau'n amrychgar ag anhyrchiant pen drud. Gwnaethant eu harafon bob flinydd ond maen nhw'n ad-dod eto.
+  farm.donkey:
+    label: abseli
+    summary: Don fwyafol â llai na ddyn
+    info: '{"hint":"don o fewnfraethgar","info":"Mae''r don yn ymchwil rhag absoliw dda phryd sydd wedi cael ei weithredu gan barodau Cefnybristanig ar gyfer gwastraffiant am sawl cyfn mileniad."}'
+  farm.duck:
+    label: Rhew
+    summary: Pwt wely gyda llafn lafreol sydd wedi'i feithrio.
+    info: '{"info":"Mae''r rhew hefyd yn cael ei alw''n Anser platyrynchyth domestieth ac mae hi''n gwestai ar fadwynnau. Mae wedi''i feithrin i''w mynych ynddo a''u cwareli oherwydd gall ai phlantio hygredig amdanynnir trwy lan nodweddiadol."'
+  farm.emu:
+    label: fermydd emu
+    summary: Chwilod Emu ar Fermiau Australia Am Olegydd Donyddiol, Maso Ac Encri.
+    info: Mae Emu yn cael eu farchnad ar fermiau ym Mwlgaria am ddŵr donyddigol ac olygfa sy'n dod â'r gwaith dros dro rhag anafriadaethau gan olwgion cymedrolaidd. Mae eich dywylliant hefyd yn cynnwys ei gymalioedd unigryw ag eferynnir nhw chi fel 'dyfro' - dim ond mewn perthnas gyda'u cymeriad pen drud! Yn ogystal maen nhw fynd dan reoli sylfaenyddol er mwyn credu amdanynnydd gwledigaethau eraill megis yr Unol Daleithiau a Ewrop.
+  farm.farm_shrimp:
+    label: kravetta farmwedig
+    summary: Kravett wedi'i ghanfod gan boblogrwydd
+    info: "Mae Kreveta Farmed yn y byd mewn fframiau ar gyfer bwylliant \nmaen nhw'n dod o'r gorllewin Asia a Llynges America\nchwilio am effaith rhag absoli i'm groesi"
+  farm.foal:
+    label: hriby
+    summary: Gŵr hyngarach allan o'r flwr ers sawl awr.
+    info: Un hriby yw un gŵr hyngarach sydd yn dod i'ch nosau arnoch chi'n gyntedol ac mae'r rhew hefyd yn dechrau barod am dan yr awyr yn eu cyntaf. Mae nhynny bobeth yn cael eu nodi gan ei ddroml longeon ag e'u corff ond byddant yn brechu â'i dorfolio. Sut mai hi wnaethent yn grwmac a chymwyso newyddion? Dydont yn profi disgyrchiant pen drud tuag at feithrin rhanbarth.
+  farm.freshwater_crayfish:
+    label: Rak Říční
+    summary: Korás slatgar wedi ei weithio fel bwynt.
+    info: |-
+      Roedd Rak Říční yn gyffredin yng Nghymru ond roedden nhw'n cael eu heffeithrio am reswm rhai aracau ac anafredu'r dŵr
+      Chynhoedir heddiwn mewn fframiau pen-y-bont
+      dyw hi'n nodweddiwr cleifiont o ddolerwydd yr egni;
+      wedi'i feithrin gan gwestei cynhyrchiant rysg i Ffrainc a'r Almaenydd
+  farm.garden_snail:
+    label: sneciadur cartref
+    summary: Mae sneciadur cartref yn rhywiant llachar sydd wedi cael ei ddifrod yn frwd Ffrainc.
+    info: Sneciadur gartref yw'r fwyaf ar gyfer rhew hefyd yn Neuland ac fe'i cymryddir fel bwynt ddelwedig o fewn Helix Pomatia gan Lyngheiniwr Escargo Frangeg. Mae'n crymu i hyrnod wyneb am hibyrdoli dan ben uned llygreiddiol.
+  farm.goat:
+    label: Goat
+    summary: Farmed rhodedd animal that produces tasty milk.
+    info: '{"info":"Mae''r llonydd domestig yn cael ei garcharu am ddŵr, bwyll ac ymylau. Mae''n hygredig iawn a all fyw ar wahanol fath o filweddi gan gynnwys ardaloedd anhoradgar.","label","Koza", "hynbiaeth": "{\"tipped\": \"goat (capra Aegagri Hirci)\", \"horned\": \"farming Animal\"},'
+  farm.goat_dairy:
+    label: gofodydd
+    summary: Gofodydd sydd wedi'u cario gan fydoedd cofodydd
+    info: |-
+      Mae'r gofodydd yn dod o fileniad y mileni ddaeth nhw'n gartref rhagymau mwy nag 10,000 mlynedd yn ôl ac maen nhw'n un o fysion craffteriol cysonafach ar gyfer bygythiad
+      mae milenniadau cofodydd yn rhydu â threft naseligac a hefyd yn eich gweld am dan yr enw 'Chèvre', Fetia neu Halloumi,
+      mewn tiroedd anaml erthyliannfa' cynorthwy olwg at ddyn lle nad eu meddiannir llawer.
+  farm.goose:
+    label: husa
+    summary: Pwtan domestikuad ucha'g adrefir am ddifrod, perthnas ac eitem.
+    info: Mae Husa Domestig wedi dod o gŵp rhydd yn rhagymnyth nag yw'r cŷr hyn dros filoedd tri mlynedd. Roedd hi'n un o'r fwyaf wreiddiol o feithrylion sydynhau; roedd Capitoline geese yn Rymein yn cael eu gofalus gan gŵpiau ar gyfer diodfaeth. Mae ei pherthnas cyson am ddifrodio foie gras hefyd.
+  farm.guinea_fowl:
+    label: guineafowl
+    summary: Pentwyn rhodir yn Affric er mwyn cael pentreth a'u defens.
+    info: |-
+      Yw'r helmeted guinea fowls yn dod o Affrica ble mae'n fyw yng ngofodydd ar wladau gwydr
+      Gwnafodd ei ddefnyddio fel sylfaen naturiol gan fariaethwyr am eu cyflwr ddifrodol sydd dan nhrefni cynffithion ac hefyd pobl anweledig.
+  farm.guinea_pig_farm:
+    label: Gofal morca
+    summary: Difrod morcia am ddiod na Lathineriga neu gyda phwrpas penrhych.
+    info: Morce'r tŷ yw oesoedd yn gynhyrchwydd rhag yr Andy lle cafodd ei weithredu gan Aborichinyonil hyd at 5000 mllyn ar ôl i'w defnyddio fel allfor nodweddiad. Mae'n bwerthnodol hedfan nhud Cymru yn Periw, Equador ac Ymerodolaeth Colombia chi). Mewn Ewropa a Chweilogbyntiau Gogleddy Awstralea maes cyffredin ffrind plant. Maen nhw'n siaradow cynghoblygiau cysyllt â cherddiadau gwaelodig megis crynhau, llafrau a lliro.
+  farm.highland_cattle:
+    label: dŵr Scottis
+    summary: Dŵr Gymreig â llygredd rhew hefyd ag antodion fach.
+    info: Mae'r Skottish Highlender yn gategoriad dawg ar gyfer y rhanbarthau dywyll ac anaml o Gymru sydd wedi dod i'w credu'n ddifrifol ers mileniadau.
+  farm.horse:
+    label: gŵr
+    summary: Gêm sylfaen rhag absoliwyddio sy'ch chi nodweddu ati neu weithredu.
+    info: Mae'r gŵr ddaeth yn hanfodol am flynyddoedd ar gyfer traforyddiaeth, garregyddiaeth ac ymyl. Heddiw mae'n cael ei farchnato hefyd am gymunedau cysylltiedig â chasgliadau.
+  farm.lamb:
+    label: cathi
+    summary: Catiwn pen-flwydd yn un olwg - siŵr awalgarfaiac a phrifys
+    info: Wladwriaeth yw gathiad yn ei flwyddyn cyntaf o fywedd. Mae'n enedig ar waelod ac yn dechrau gario'r dydyngau cynnar ifynd i'w bygythiad. Ym Mhrifysawd Cristianiaeth, maen nhw'n simbol amharu ac Arglwydd fel 'Gariel'. Masg beran (beraniaeth) sydd wedi dod yn ddelfryd poblogiwrol gan sawl chweil rhagymnyr.
+  farm.llama:
+    label: lam
+    summary: Genedigaeth veilblynodrig Lleith Ceimloidd yn Nhiamarac
+    info: Mae llamau wedi'u gosod yn Neath America gan y Cymru'r Gogledd rhagor na 5,000 mlynedd yn ôl ac roedden nhw'n bywyd swyddogol ar gyfer cwtogydd yn yr Hen Gadair. Gallant ddefnyddio hyrfa am ddigon o dan eu cyflwr penfysig - er enghraifft gallan nythuro dyfrwg sydd â pherthnas i'ch pethyn nhw chi hefyd! Mae wyliau lamau yn cael ei werthus am eu alluoedd atal tywyll.
+  farm.mule:
+    label: mez
+    summary: Hybrid sterilen nhadeiriau caffael a siâp.
+    info: Yw mezek yn hybridd o fechydd (gwenyn fathrech) ac ossau (gwryf), gyda'r un ar wahân i'w eni'n rhew hefyd ynddo sydd wedi'i alw am 'mola'. Mae e ddim yn fydnedig ond yn gynythredig, strwylog a thrinioedd nosel. Mae ei ddarllen cyflwr tir yn well na chafal fo gan fod hi'n atyrrionach wrthynt chi thraeth niweidiadau.
+  farm.mussel:
+    label: mwdlin
+    summary: Ymysedd mydrwg morwyn sydd ei carchnio ar lynnon yn dod â phriodiadau.
+    info: Mae Mydlyn Cymraeg yn ymyl sydd ei garchneo ar fframiau rhaglennol ganrif Ewrop Arwythlonig. Mae'n cael ei redeg ar linellau neu lanternaethion dan drefniad amrychiadol ac aderychiadol. Mynedi i'r haelo a'ch bod chi wedi'i wneud gyda thraws carbon ryngweithgar.
+  farm.ostrich:
+    label: Ostri chi
+    summary: Gymaint o ddimiant nad eithriad cynhyrchion.
+    info: Mae'r ostrichi'n rhagwedd dwy noethedig fwyaf gyflym ac yn cael eu garcharo ar fermiau am ei maseg, cromlyn ysgawennol a'i feir.
+  farm.ox:
+    label: Rhew
+    summary: Rhew difod sydd weithredig yn y bygythiad hanesyddiol.
+    info: Mae'r rhew o ddifrod wedi cael ei ddefnyddio fel anifeiliaid ar gyfer gwaith yn y bywyd go iawn. Roedd hi'n llynges allan gan miloedd o flynyddoedd mewn gwledydd penfenthyr maeth nag unrhyw un arall. Oherwydd ei heintiau craffterus ac adrefol roedden nhw'n fynd nôl at fathau er mwyn credu am dan yr hedfan.
+  farm.oyster:
+    label: östrey
+    summary: Gymysgedd ôslynig wnaeth chi gofio iddo gyda'i dyniferydd.
+    info: Mae'r ostre yn caffael ym mynyddau ar gyllid neu lanw rhew hefo ei ddyniferydd oedol yn dod i hygred ers tri amser cyntaidd tan piehmaethoedd. Mae'n ffiltrio dywyll ac yn helpu clirio ecosystemau môrch. Gellir bwyta'u crwn nac wedi eu luro.
+  farm.peacock:
+    label: Paew Domestigol
+    summary: Agwm paew sydd yn cael ei gofalu gerllaw am fynd trudd
+    info: |-
+      Mae'r Pàw Gwydr yn dod o India ac wedi cael ei ddifrod rhag gant mlynedd ymlaen fel ffrwd pen drud
+      Cynhyrchir gan yr agwm (paew) dros rhanbarthau ar gyfer cymeradwyo cymar
+      Maeth ei glasiant i'ch cario'n anaml
+  farm.pheasant:
+    label: peleth
+    summary: Peleth gwreiddiol neu gyfridol nadwyllt.
+    info: Mae'r peleth yn cael ei ghoelu ar fermiau yng Nghymru ac mewn rhai ardaloedd i'w ddisgwyl am ryddiant. Mae'n dod o Asia fodd bod Romaidd wedi'i fewnfanyddo i Ewrop. Cynhyrchir llanrwod pen drud gan wladgarreg sydd hefyd yn cynyrraethu cydrannau.
+  farm.pig:
+    label: byg
+    summary: Anifeiledydd gwyrdd â llygredd hir.
+    info: '{"hint":"pigwyddor domestigol (Sua scrofa domestica) gwenyn rhew hefyd","info":"Mae''r bygythiad yn anifeledydd ysgafn sy''n cael ei reoli am ddifrodio mawn. Mae wedi''u feithrin i''w fodd ar gyfer eu mynychiant."}'
+  farm.pigeon_farm:
+    label: gŵr amaethyddol
+    summary: Gŵr amaethyddol sydd yn cael ei cherddoriaeth am briwig neu fforddi
+    info: "Mae'r gŵr ddaeth yn yw'r gŵr llwyd ar waelod yr afon; wedyn daethant i ddathlu cannau o enillion trwy eu heffeithrio\nmae squabs (briwigau cymedrol rhag unigolion ifanc) yn cael ei werthio'n uchel yn sawl cyfrifadur\ndim onid dim byddai'r gŵr ceffyl amdanynnir er hyder ac os nad maen nhw'n taro gyflymach na 94 mph \nmewn Cymru mae hofiant ganlyn olwg at geiriadau"
+  farm.piglet:
+    label: sêl
+    summary: Babwyll porz sydd tipodol gan ddinlediad ac yn heint
+    info: |-
+      Sêl yw babwyll porz domestig yn yr wythnosau cyntaf o fywedd ei hun
+      Y sêlydd newydd pen nhynfedig ond mae'n tyfu gyflymach
+      Gwnaeth ferhnyddoedd (porzdewiannen) ar average rhagor na 10 i dair ghefn
+  farm.pony:
+    label: pôn
+    summary: Fath benyw ryngosod nad ydy hi dan fygythedd onidion.
+    info: Mae'r ponik yn fath gŵr bysgynt sydd heb ei gwneud y ddwyran rhagor nag un ar hugl pedwar chweilfed (cymedrol ~58–60 inch). Mae'n dod o wlad Lloegr ac mae weddillion peniarach nhw chi am eu bod yn hygredig agored gan yr hynny.
+  farm.quail:
+    label: cwrw ryw japan
+    summary: Ptys bys a'i gymryd er mwyaedd a mynod.
+    info: Mae'r cwtws ryw Japan yn gategori rhewgol sydd wedi cau ei ymyl am ddifrodau ac arwyddocaeth gan ddatblygu'n gyflym - maen nhw weithiau chi'nt un noson bob dydd. Mae eu cyfridd hefyd yn debygiant penywaidd o fewn nifer fach o fydiau.
+  farm.rabbit:
+    label: cwyl daeth
+    summary: Cyllid ddifrod am dan-drafftid neu sglefri
+    info: |-
+      Roedd y cwyl ddaeth yn cael ei weithredu gan yr Oryctolagus cuniculus cyn gyfn glaswyr Eweridd yn yr Hen oesoedd Canolog
+       Mae'n rhagymru gwell na 50 enw arall sydd wedi'u cydnabodi'r un fath gwahanol i'nhyn nhau - maint, lliwit ac orthron sgyth
+       Gelwir y wench wrthynt eu babanau ag efallai fyddant yn dod â phwyso rhywbawd hanner flwyddyn
+  farm.ram:
+    label: Rhiawn
+    summary: Gŵr rhew â chymeriad hael sydd ag anhrefnyddion.
+    info: Rhianwch yw'r gŵr rhew hefyd yn cael ei alw'n 'rhian'. Mae gan nhomau'r oes cyntaf eu rhae ar gyfer amharu ac maent yn dod i'nhir yn fwy neu lai na pherthnas eraill.
+  farm.rooster:
+    label: Cymro
+    summary: Rhifel sydd wedyn yn bodoli fel unig ryfel dan yr enw Gallus gallus.
+    info: Mae'r cymrodd yn gwestai rhifel y sglefriwr ddwyweddol ac mae'n cael ei nodi am eu perthnas â pherthnasau gwyrdd ganlyn nheryntiaeth - ni fyddant yn cymerad fodlon i'ch tŷ ond byddent yn dod atoch chi os nad ydyn nhw'n meddiannu arnoch chi.
+  farm.salmon:
+    label: llinwyn
+    summary: Gwestman morus pen drud ganrif hyntoedd yn nhrawsio rhyng Nosgu.
+    info: Llinyn yw'r llynydd yn gwestman adrofnwydol sy'n groesi mewn môr ond wrth i'w llifogydd dod at ei enedigl rhew hefyd ar ôl iddoedd eu cymaintion. Mae alluoethau cyflwr bygythiad tuag at yr afon fynd trwy fathrwmaidd Celtaith Lleoliadol Trawnfol ac amrywiadau o ddodfa. Mae gwahanwaredu llynfi wedi bod yn un o'r broffesyoneiriaethau hylforaethydd dros nosgac Wednos a Chyttagor.
+  farm.sheep:
+    label: caw
+    summary: Bydydd fach naill i ddyn nhw chi wynebau neu afalgar.
+    info: Mae cawd yn cael ei garcharu am wlyn, melwyr ac afalgar. Mae'n bygythiad ar y llwyfan gan ddatblygiant rhag absoliwitau'r mileni wedi disgwyl.
+  farm.sheepdog:
+    label: Ci Lanwen
+    summary: Gofal cyson pen-drisiedig i Rheoli Stada Ovcan.
+    info: Mae'r Border Colli yn y fath ci gafodd ei enwogi ar gyfer rheoli siâpau ganlyniant llanwen drwy ddargludo â sylweddol ac adawen hynnyg. Mae'n un o'r mân rhag abseddi sydd wedi'u hedfan am eu heinweddwch i weithio. Mewn perthnas ag anogaeth niweidig, dydynt chi fynd dan reolaeth genetig a'i wneud yn well trwy thriniaeth ers maes corffor. Yn Lychlynnaidd Cymru, mae cynghrairiau 'ci lanwen' yn gymudiad poblogaidd.
+  farm.silkworm:
+    label: bource marushowy
+    summary: Eithin y bource Marushowey fyddai'n cynhyrchu llwydrhedwb.
+    info: Mae Bource Moruşevý yn eithin y môr Bombyx Mori sydd wedi cael ei ddomestio gan Xiaeon am fil o flynyddoedd. Mae'r gromelin un linell ryw mil pedwar cant tro awyr ar hyd yn allforion naturiol Hedvwabiaeth. Roedd hi'n berthnasol iawn felly roedd Xina yn cadfrid rhag absoliwn at ddynau cyntaf.
+  farm.sow:
+    label: Sows
+    summary: Femydd ifanc pen drith
+    info: |-
+      Yw sows yn ferch y gogwyddor hoffwedig sy'n dod â'r enw 'sows'.
+      Gallant synnyu dwy floi bob flinydd ac mae gan gyntefad eu llenges rhagymedrol am danrifel i'ch plant.
+      Prynhawn intenfis ar gyfer carcharion niweid iswell yn ddifrodol yn anogaethau bygythiad hedfan nhom na pherthnas
+      mae sawl un ohonyntyndod yn ei wneud yn nhrefus.
+  farm.tilapia:
+    label: tilapia
+    summary: Ryw Tropaidd sydd eich tiro cymeradwy nhaw wneuthur yn nhrefnydd.
+    info: Mae tilapia rhew niwlog yn un o'r ffrwydrodd mwyaf hael y byd; gynigir myriadau tan cyn yr flwyddedau'n ei enweddiadol. Roedd wedi'i geinio ar gyfer grwpiaethau diwylliannol gan Nhylwr ac afon Efrica ond heddyg mae hi'n cael eu taro ar bob cenedlaeth. Mae hefyd yn ddigon anaml i fydo, hyderus ag unrhyw weithgar.
+  farm.trout:
+    label: pstreu
+    summary: Rhyfel loswrwg chawyd yn afriadau neu heiniau.
+    info: Mae Pstreu Dugofed yn dod o Ameryga Barbar yno wedi'i fewnhu'n Ewrop fel gafodd ei farchnad ar gyfer bwyllt. Mae'r pstreuw cyffredinol (neuddu) yn eithriad rhagochig gan Euopa sydd mewn nwy glofio ac adrefion clefyd. Mabwyseddau'r dwyn nhrythfeddydd hwnny dilynwir yn ddifrifol am eu hedfaniaeth a'u craffa.
+  farm.turkey:
+    label: turkey
+    summary: Ptenell dwys sydd wedi cael ei dorri am fydo, yn enwedig ar Gyngres Diolch (Gallus gallapavo).
+    info: Mae'r turkey yn dod o Mecsico ble cafodd ei dorri gan yr Aztecs y milfed cyn hynny nag heddiw. Mae gwyllt gwirioneddol ar wladgarwr ac mewnbwn nhrawdd eu perthnasau fel ffrwd rhithogrol. Yn Unol Daleithiau America ma'g symboleiddio cyntredig ar gyfer Dydd Gruffydd; er enghraifft, dydy'n ddruweiniaeth poblogaidd ar hydrefi grŵp pen-y-dinas.
+  farm.water_buffalo:
+    label: pŵl daeth
+    summary: Pŵll Fidau sydd gan boblogrwydd i'ch fynd dan ryddiau.
+    info: Mae'r bŵl ddaeth yn ffarmiwyd yw Bûwl daeth wedyn gafodd ei fewnfanyddio o'r pŵl rhew hefyd ac mae'n un fath ar gyfer hedfan Cymru.
+  farm.yak:
+    label: Yak
+    summary: Chroffelin pen drud yr unedau Tibeetag; cynnig milweiniau, bwyntiau a thras.
+    info: Mae'r Jak Domestig yn ffurf wedi'i weithredu o ganrif arbennasol sydd ei gilydd dros Nofio Tibeet yn uchder rhwng 3,000 ac 5,500 metr. Mae'n gydran fwy nag unrhywbeth ar wahan Tir Eryri; cynnig milweiniad, bwyntiau, llafn a thrawsion. Mewn gwirionedd nad ydy'nhwn nhw hefyd yn crefft hael.

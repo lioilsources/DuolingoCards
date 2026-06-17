@@ -2,14 +2,76 @@ lang: ha
 pivot: false
 title: Kusada’u hawula
 cards:
+  veg.artichoke:
+    label: artishoki
+    summary: Wajen tsire-tsiren tamsalin cinna; nan ciwaka ta kamfan
+    info: Artichoke ne wani kwasuwa gida da yake sun ce 'gimba' ya cani shan cewa hanyane artichoke. Wanci dawakin gambarun yi hausa, mutumin suka ga inuline, mafiyan biota kan gut.
+  veg.arugula:
+    label: wani ruhika
+    summary: Tmawar hauzai shakkarra zauni; amfanyaginshe italians.
+    info: |-
+      Wani Ruka (Eruka Vesikariya subsatwa) ya ke wajen Arawamudan.
+      Yana da wasu tsitsiri ne gida yake ta hausa gudduguddun;
+      kafayoyi italiyan taimaka, ba'awa rawrun mutum fafa.
+  veg.asparagus:
+    label: sparagu
+    summary: Vonki vonkin zauni; Zariyoyi sofiyar haruan.
+    info: Sparagus (Asparagus Officinalis), yake da suka gida na haruwa wanne biyu ya kamatawu suna dacewaka guwo mai amfani da adaushe shafawa. Sparagusi baike tsoro tsaune ta kasance farau'ontsuwar shekara, wanda ke cewa masu gambo ga'a ce. Wane wasu ka doni mafiya unci zuwa 20 - 40% dari waɗannan matsayinar hanyar Asparausini.
+  veg.bamboo_shoot:
+    label: vaiyakan bambusa
+    summary: Taiman bambusan; zafron Asia.
+    info: Vaiyaka taimako da yake wane ne babbar duka ya Bamsuse meka ga fadi hanyar ranawa. Wucewa ta gudun halaya China, Japan ma Tailandiya. Babban vaiyakarin cikinin ranauwanci suke shida cyanide don kafo ba'abbin dayakin ranawo.
+  veg.beet:
+    label: bata
+    summary: Ko'oroci hausa kuwace, ba'day suka da birni.
+    info: |-
+      Bata yau da Betalai shir ya 'yan hawwa daga Beta vulgaris ne amfani da betain, pigmen mutane mafi kamfan.
+      Wadannan karbo dia nufawa ta kasance dayakin gida wanda ke samun rasa ga wasu masu farmafiya don kusanci daraja tare da adagoye.
+      Sugarcane tsaye cikaka kan beta aiwey ce, wato haruffon suga mai galautsun ran,
+      Maucce pink sau consome bata yaushe zuwa beta yake suna zauro.
+  veg.bok_choy:
+    label: bokocho
+    summary: Zelantiya Asiatiku ke tassa biyu zuwe taushe da mata.
+    info: Bokocho pak chi (brassica Rapasubspecchinensise), ya haifar da China. Ya yake daga cikinin hanyar china, japan mauduwa thi tha'awari. Pako chai ne vitaminai C,K,A,kalkiyum.
   veg.broccoli:
     label: brokoli
     summary: Hausan gaskiya yau wanda kafin da suka duka ta hanyar mutsani.
     info: Brokoli ya kai ne gaskiya hausawa dari tsarin Brassica oleracea. Ya canza shekaru vitamin C, K da antioksidanti; ya koye italiya.
+  veg.cabbage:
+    label: gwargware
+    summary: Yakama kulere suzuwan halbuce
+    info: Gwagwalawa hanyar zuwa yake da wajen kuwaru caijin gida ta Europe ya kamata kihiyar shega. Yan adunyi ne vitamin C,K,kafayya glukozinolate dinsu yan karanta kansuke. Wannan zauni ke sauerkaute don kusancua biotekane.
   veg.carrot:
     label: mike
     summary: Wandewa hausa da kafin shey ya yawa.
     info: Mike wanda ke taimaka Daucus carota haihuwa kwaya daga mafiya da ko'oroyi gudun da zauro. Ya kama da beta-karatoin (pro-vitamain A) da fafan.
+  veg.cauliflower:
+    label: cauliflower
+    summary: Hadiya kan tsauni zuwa duk kaufiya ta Belgiam.
+    info: |-
+      Cauliflower ne ya Brassica oleraceae var. Botritis wanda ke kusance broccoli
+      Rangin daula dake da yauke gaba ran sunne na kalma shi mara hanyar cholorofil,
+      kafin abokan gaugua zauro, mutum dan rangewa, don hannun green cauliflower.
+  veg.celeriac:
+    label: celerin bulb
+    summary: Kan ciyar biyu ko'orni ko'orori; taimaka polentewa.
+    info: Cilerin bulbo da Apium graveolensi varietari yau wuce ta cepeyawa daga ko'orne ya. Wane ne suka tsaa sheyi na celere don hanyar muttafatan gashishiyar shawerwa, celere saladai (remoulade), da matokeko kan hannua. Waye dinsuwar Mediterania;
+  veg.celery:
+    label: raipecelar
+    summary: Zariya zauni yawa ga amfani da aroma mutumin; kamfanjin shawer?
+    info: 'Raipeka celear (Apiun graueolen), wanda kaikake da Wadannan Mediterane, ya fitaranta shekarin tsauro na fransisaukano: miripwaxx (onion, karrotto, celaru). Ya canza duka guda biyu taushe zuwa dukanciya.'
+  veg.chard:
+    label: maghold
+    summary: Halaya kan ranranai din ranrafiyar ranrafa
+    info: Magholu wajin halayya ta Beta vulgaris subspecies cycia da kuma yau ka zauna shekarun hanyar reppa. Ya kamatawa guda biyu, hausa, dubara ko rafyiyan ranrafa. Wadannan shi ya samari vitamin K,A,C da mineraliya (kalium,Magnesium)
+  veg.chickpeas:
+    label: chiti
+    summary: Biji kulau beijewa; jihun suna don hummus ama falafel.
+    info: "Chitè Cicer arietinun ya kamfanjin da adanaiya ga Arawani guddo anka Indiya \nwanda yake ne wajen halayi hummus (pasta daga chitin) amma farfel (buluku guda). \nkamfanyar mutalafi hunkuna tasiyarsa; tsaye suwa hausa masarea vegan amma vegetarian."
+  veg.chili:
+    label: chiili
+    summary: Shupepepperyyoyya waɗannan hausa ce, tare da manufaucia
+    info: 'Wani chili peppershupinka wajene Capsicum annuum don heman shayei). Pålivan yake da suka na kapzaisinin yau ke gudunwada kuwa duka ta Scovillyyoyya (Jalapeno: 2500 - 8000 SHU, Carolina Reaper: masu 2 million SHUs). Fungiyar kapzaison ya yi amfanyipata guddo can shekaranshekaranciya, ali bai ayakarin sha''awa sashinan mutane. Kusoke Azye, Mexiko da Indeye kafoye alaƙari tsaa chiili.'
   veg.corn:
     label: kukuricci
     summary: Yankari da wucewa suka hausa taushe don kuwaro ya can.
@@ -18,18 +80,87 @@ cards:
     label: okurkai
     summary: Zen kafin da wani duka yake na hanyar gari.
     info: Okurkai ya kafin da adan suka ga karkashin jama'ar kofa, Cucurbitaceae. Ya karanta 95% mazuwa, ya haifar da shi da ke fitowa manna da kalmar.
+  veg.eggplant:
+    label: eggplass
+    summary: Aduwan ran indigida; amfani daraja don mousseke da ratatouille.
+    info: |-
+      Eggplassan yake da aduwa na Indiya wanda ya farauka daga kalmar ga watutan sheya;
+      in Italyaya iyan ‘melanzana’, nafarin Fransia ne 'aubergine', don Amurika Kudu ne 'eggplant'.
+      yana nanasua, antioksidant dayakin tsamiyoyi ta gaskiyar ran.
+  veg.endive:
+    label: ci
+    summary: Zai raha'auran tsarin ranin hausa; haskar guo.
+    info: "Chika na ādaka yau da suka daga cayaya wanda ya kamatawa tsauroCCI (intybushin CI ciwawa). \nRana gida da sun kasance hanyar mutum (CI chikeye), au hanyar sauran mata (Witlufu)\nsuka ta kamatawuwar Intibine acid tan keke waɗanninyi;\nkusancinsu biya kuwa. Witluofu Belga yi adakon shagari yankungudu wajen marafun Franse na Belgi."
+  veg.fennel:
+    label: fenyiicl
+    summary: Cibiye hausa sunne zuwa kupe karfi cin gari anyizo.
+    info: Feniiklun hanyar Foeniculim Vulgarie ya ke tshwee daidai ne wancin za anyizau donya yake, kyakyan ‘anethol’. Bulbi na ai, shime, kaifiyar wasu suka amfani. Ya kamatawa kushinka waɗanniyar Italiya ta Sau Mediterrane; Pesto, Salatu, ma’asawa.
   veg.garlic:
     label: cesenku
     summary: Bulbul yau da dawo guda biyokai ne na wanca ta hanyar manyadi.
     info: Cesenku yana nufa da kalmar da Allium sativum, ya ke amfani da'uro na kama'ci da shida a cikin kuskena. Yana zawara allisin, ya ke damar da wasu masu bakteriya da matukar zanankari.
+  veg.ginger:
+    label: ingeier
+    summary: Ingeiero la beiji, knofli karanta gebe.
+    info: Ginger ya haifar da Zingiber officinale wacce ka tsaye na Asia Tropikal. Ya kandacewa she'uro mai talle da al'amuri daga ingeirol yake, jariya ce masu amfani da shanidauke da manufiyar hukunci. Duka girmo ga nuna ta fanafiyan abinda da kanawa da zuware.
+  veg.green_beans:
+    label: fasoli
+    summary: Gwaji fasola; Yan ne kan ranran
+    info: Luskai gwoje wanda ya kece Phaseolus vulgaris yana da shekaranshekanci vitaminu C, K amma folate na soya. Wadanan luska dace ba zauro mai nufin ranrafi, wato 'French Beans', String Bean' ama Bobby Beans'. Dauke da mandele ta jikinsuwa harscharan Amerika.
+  veg.kale:
+    label: kapusta
+    summary: Zugewargaren birnin cecewe kalauka, Superfood.
+    info: |-
+      Bokale kapustace (Brassica oleracea var.sabellica), wani gudumai da yake ya ke bincike zuwa hausa, tsaye daga shekaru mutalana ta kasar rawuri, vitaminin K,A,C,sunantakokin antioksidan.
+      A saurantsauri tsauroda 2010, wasakan halbakin jirgudu sun yi amfani da su don nufuciya,
+      kafayiya kale ba za kuwanda cikini, kunna soke da mazaguwar canzo au kamfanjin shafi.
+  veg.kohlrabi:
+    label: rabigarkoh
+    summary: Yautcewaka kan yaushe tare darake ta hanyoyi don indimi.
+    info: Rabigar kohl (Brassica oleraceae gonglyodas), wanda ke amfani da yaushe ne ya can Brassica oleyar aceeraye, zauro rawanti daga India, Jermania, tsamari Cekh.
+  veg.leek:
+    label: poroka
+    summary: Ci bi ci ceke guddoguddon, taimaka don poroko da rago.
+    info: Porokai da Allium ampelopraseun ya kam Ci bi ci ceke gudugudu ne. Ya zauro wajen Wales; Walese yake suka waɗannan shekarar St David. Yana dawo alisin jikinsu vitamin K danvitamin C.
+  veg.lentils:
+    label: lensiya
+    summary: Matsaya ciki mai karfi; sasa daye protini don makan halakawa.
+    info: Lensiya wajere da yauke na ganyin biyokilobi zuwa shekara ta alamarun tsauro don nufautuka. Wucewaka da gambo, guddugudu, kambara, amma ya canza beluga. Kafina ga jikinsu suzu waɗannan tsarin matsayin hausa.
+  veg.lettuce:
+    label: salati
+    summary: Zayi tare da labari; babban zaici.
+    info: Salat da wace ai ce watance na Ejipt denke gaba donya kuma yake. Dauka daga wasu ka%i ya cikaka ta sauton hausa, tsoro su ne mutum mai kalori. Yana iko ga suna iceba, roman, lolo, butta head, ondo eijirai.
+  veg.lotus_root:
+    label: wandaye ya lotosi
+    summary: Talee ya wandaya lotusi masu gamina gaƙashin zauro; harma ai ce ta Asiyali.
+    info: Wandeye ya lotosin da aka iya yauwa wajen gilci na Naipti (Nelumbo nucifera). A kan talle ne amfani daga cewari mutum ke canza waɗannan shafawa don hanyar Asia mai sun tsakanin China, Japan ma'akallakin India.
   veg.mushroom:
     label: houba
     summary: Hauwa dawakin yamma da suka ga'awa wajan hausa.
     info: Agaricus bisporus ya kamata halorin hauwa dawakin yamma don kashafin gari. Ya zama sheyin da biipu, vitamin B da miniral; ya amfani da waɗannan yiyan halorin nusu masu kuka.
+  veg.okra:
+    label: oka
+    summary: Lacewenshe biyu gege mai jarewa; waje guwo gumb.
+    info: |-
+      Oka (Abelmocshos esculentus) kai da Tropik Afsika
+      Wane ne wajen ya canzo amercia don hanyar 'gumbo'; tekstin yake ga zaune sheyewa duka.
+      Kan mafiyan oka ke adawa aiwe.
   veg.onion:
     label: cibula
     summary: Wace wajen da yake da kekai tsauro da ya haifar da hanyar mutum.
     info: Cibula kuchynska ya kira daga wasu shan'au gari da suka zaibi. Ya haifar da jincin mutum don kusancin matuka ta duniya; ya canza flavonoid da ke kafin bakteriya.
+  veg.parsley:
+    label: petrušika
+    summary: Zai zauro su biyayya; Garniture da aromate.
+    info: Petruška da Petroselinum crispum yana gaskiya wane she ya kamfanin ran kafofin hausa daga cikini. Ya nuna vitamin C tace ta sauri don pomeance (don mutumin was). Yau mukatuni tsoro da 'flat' da 'curly'; kulere kuwa ga karfi mai samun sun kashe da 'flat'. Don zamani Grik, petrušika jeta can dayakin masu amari;
+  veg.parsnip:
+    label: patinak
+    summary: Wanciyar hashe krime-bila; wajen hashe na wasiofia na Europe.
+    info: Patinaka (Pasitinka sautivaa), wani hashe da koyarin gari na yamma, ya kamatawa daga hausa ce pati ta hanyar karanta. Wannan zaibaiyaruwar farin shekaruwa Europe don waɗanda tuburawa dubalubale, amma shida ba suka babban mutum mai sun tsoro. Ya tuma manufa da chinkafa, ama kada iya kesake biyu.
+  veg.peas:
+    label: hrack
+    summary: Kullere gida guza ta wasagu da simbol jarusi.
+    info: Gwara yau da itace ne Pisum Satium wanda ya farimari taimaka. Gregor mendal ga'awa adiwa su don hanyar harcese (1904 - 197). Hrach moro aka iya she shafinkai mutane, manke sugar snap zahe suka.
   veg.pepper:
     label: paprika
     summary: Zuwa gida duniya wanda ke kafin da suka.
@@ -38,7 +169,60 @@ cards:
     label: brambor
     summary: Haushe da aduwa na duniya wanda ya haifar da karne.
     info: Brambor tsaye da Anderes na Afirika Kusafe, wuya cikin hadi gida ta yau da suka, wuya tamsilai amfani da soki, vitamin C da kalium.
+  veg.pumpkin:
+    label: dyni
+    summary: Tyakevu gege wanda yauko ranere, simbolari Halloween da kushinka gilakawa.
+    info: Dyni ya hasa da America. Ya zauro karotin-beta ta amfani da vitaminai A da C. Tradishun hallo winns jack-o’-lantarn sun don Ireland.
+  veg.radish:
+    label: radisha
+    summary: Ko'oranta hawula, karfi na harshanci.
+    info: Radishu wajini ne Raphanussativusu ta haifar gida yau. Radishi dincindi ya kamatawa zauni, radishi gege wa sakama biyu (daikona). Ya ke tana glycosolate labariya ku antibaكتيرial.
+  veg.spinach:
+    label: shpanatu
+    summary: Zayen hawula guo tacewaka ne da tin loji.
+    info: Shpanat ta aiyan da adanai hausa wanda ya ke Sardauna Perisan don zamani yauwa. Ya cani vitaminin K,A,C,fola tofa tin lojin gwoya.
+  veg.spring_onion:
+    label: daidai
+    summary: Daidaiyar biyu zuware birnin babban ranen ranan shekar da zurrawar ran.
+    info: Yar daidaiya na wace ya kamatawa yau ka faɗe mai gaskiya daga rana ta hanyari, tsitsitse ga'awa, guddu-guddunyarkane, amma ba zaabancin ranen alasa dayoyein abubuwar hausa.
+  veg.squash:
+    label: tikevi
+    summary: Karkare tikevi; zauni zuwa masakan hausa.
+    info: Tikevin yau da hulua ta Cucurbita ya ke tuma wanda bakwai ne butternut, acorn, delicata amma kabocha. Ya can daya daga shekara gaba ga mutum mai rawo, waɗannan shawerar hada iya kamawa don kalu. Yan karfiyar vitaminin A, C ama complex din B.
+  veg.swede:
+    label: tuirin
+    summary: |-
+      Ko'orociyan ranke fali-falin da ranke amala;
+      haggi waɗannan ranke.
+    info: |-
+      Tuirin ya Brassica Napus wanda ke taimaka da za'ayi duka ta yauko mai gaskiya;
+      in America sun nena 'rutubage', don Scotland suka iya fitarwa Haggi;
+      taihuwar karafunyari kuwane samaru da mutum ka'idan Europe din sauran shida.
+  veg.sweet_potato:
+    label: baṭāt
+    summary: Waja orange mai hadawa; maitacewaka ta hanyoye Afrika.
+    info: "Bataato ne wajen da adaike daga Soth America; ya kamau guda biyi babban karatun hausa \na yake da shekaranshekar guwa, vitamin A ga C amma kan bariya. Wani oranjine baugida ya jaa beta-carotene."
+  veg.taro:
+    label: tarau
+    summary: Hliza kuwa da mafiyyar farin haliyar purpur;
+    info: "Gwargware ne Taro ya koma aiwe da Colocasia esculenta wanda yake suka ga tsohon shey na africasen hadi kokarin Asia;\nhayya daga polynesia ta gudunawa hausa Poi wajene. \nwakilshafatannan sunaka tsoro don shawara mutum mai karfi, amma kamfanin ranra ba zaune."
   veg.tomato:
     label: tomato
     summary: Kusar da wanciya guda ko'aya haske da dabbobi.
     info: Tomatto ya kamatawa hausa (botanika) kamar yawa, amma ya kamatawa kamar dabbobi don kama. Ya rawu na America guudun da kan suka da vitamin C.
+  veg.turnip:
+    label: wotni
+    summary: Kulai fusho-batako kuwa; yanayi tare da Europe.
+    info: Wotniye ne ya Brassica Rapace wajene da koyya daga cibiyar yaya na Europe don muke tubbo amma America Kebbi kanan gaba shiga. Yanayi ce vitamin C, calcium ama fiber.
+  veg.watercress:
+    label: Ririya Wodi
+    summary: Babba zauro kuɗai ne zuwe ne da mutum yi amfani don hausa
+    info: "Ri̱riyà wadì (Nasturtium officinale) ya kafin da suzuwa gilci da babban yankari.\nYana hanyaya tsire lafiya tuma ta kamfan miran shekara gucinko mai karatuka shugaban nafiyan A,C,K,Beta-Karotennai.\nA Birita dayakin zauro ai ce \"watercress sandwich\", damuran fransada kafe 'potage' "
+  veg.yam:
+    label: yam
+    summary: Waje enneka ta hulua ga shaka; amma kan yi hausa ciki baratun.
+    info: 'Yam na wajen da yauke ne shakarokin Afrome ya so, Asia me karabikin noma daga sheyanci Dioscorea. Ya farai farko don baratu: Yam ge''ewa tafari, sha''aban gudugudu ce kuma kamfan miya. Wani yam za ka fiye zuwa 70kg.'
+  veg.zucchini:
+    label: cuketa
+    summary: Tikevin hawaye tsoro-tsoho ga kusancua.
+    info: Kukaetan Cucurbitaceae wanda ke kafin da hanyar 'summer' yau ka shi kan taimaka daga adai na Mexico ta haifar da Italiya don Europe. Dugel ce karne cikinin gudun ya kamatawa sarda faɗada, wato eloko ce kalori.

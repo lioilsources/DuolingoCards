@@ -2,22 +2,221 @@ lang: es-419
 pivot: false
 title: Animales salvajes
 cards:
+  animal.aardvark:
+    label: otorongo
+    summary: Roedor africano nocturno con hocico como un cerdo que excava túneles.
+    info: '{"hint":"roedor nocturno de África con hocico similar al cerdo","info":"El otorongo es el único miembro viviente del orden Tubulidentales y no tiene parientes cercanos.\nSu estilo de vida nocturno, garras fuertes y lengua pegajosa son adaptacones para cazar hormigas y térmites.\nSus madrigueras abandonadas las utilizan docenas más especies animales.\nEn afrikaans significa ''cerdito''"}'
+  animal.armadillo:
+    label: armadillo
+    summary: Pequeño mamífero cubierto por escamas córneas.
+    info: El armadillo de nueve bandas es el único mamífero con un caparazón óseo verdadero. Algunas especies pueden enrollarse en una bola cuando están amenazadas y son excelentes excavadores que pueden cavar madrigueras en menos de dos minutos; también actúan como huéspedes naturales del bacilo causante la viruela.
+  animal.baboon:
+    label: papion
+    summary: Primates sudamericanos reconocibles por sus narices prominentes y comportamiento social.
+    info: El papión es un grupo de grandes primates que habitan las sabanas y áreas rocosas africanas. Viven en manadas con una estructura jerárquica bien definida e intercambian comunicación mediante sonidos variados y expresiones faciales complejas. Los machos suelen ser significativamente más corpulentos que las hembras.
+  animal.bear:
+    label: oso
+    summary: Un gran animal carnívoro con pelaje espeso que simboliza fuerza natural.
+    info: El oso negro es la mayor fiera terrestre de Europa y Asia, alcanzando un peso máximo de hasta 700 kilogramos. Es onívoro y come peces, bayas, miel e incluso pequeños mamíferos. En invierno entra en letargo durante el cual las hembras dan a luz sus crías.
+  animal.beaver:
+    label: castor
+    summary: Roedor grande constructor de presas e impulsador de los sistemas húmedos.
+    info: '{"hint":"roedor grande que construye diques","info":"El castor europeo es el segundo roedor más grande del mundo.\nConstruye represas con ramas y lodo para crear lagunas y humedales donde habitan muchas especies animales.\nTiene una cola plana escamosa, grandes incisivos naranjas y un pelaje impermeable.\nLos castores fueron exterminados en la República Checa pero regresaron hace varias décadas.","label":"castor","summary":"Roedor grande constructor de presas e impulsador de los sistemas húmedos."}'
+  animal.bison:
+    label: bisonte
+    summary: Grande bóvido norteamericana con característica melena peluda.
+    info: El bisonte americano es el animal terrestre más pesado de América del Norte. En el siglo XIX casi fue extinguido y pasó de unos estimados entre treinta y sesenta millones ejemplares hasta menos de un millar. Gracias a programas protectores sus números volvieron aproximadamente al medio millón.
+  animal.buffalo:
+    label: buffalao
+    summary: Bovido africano grande viviente en grupos sociales; miembro clave dentro de La Gran Quinteta.
+    info: El búfalo africano es uno de los mamíferos más peligrosos del continente y forma parte de lo que se conoce como la Gran Quinteta. Vive en manadas compuestas por cientos o miles de individuos e incluso puede ahuyentar leopardos mediante una defensa colectiva.
+  animal.camel:
+    label: camelo
+    summary: Mamífero desértico con uno o dos abombamientos que sirven como depósito de energía.
+    info: El camello de un solo lomo o dromedario está perfectamente adaptado para vivir en el desierto; su bulto almacena grasa y no agua como reserva energética. Puede beber más de cien litros de agua de una sola vez e incluso sobrevivir semanas sin líquidos.
+  animal.capybara:
+    label: Capibara
+    summary: Roedor acuático mayor del planeta conocido por su tranquilidad extrema.
+    info: '{"hint":"roedor más grande del mundo y semiacuático","info":{"label":"capibara","summary":"El roedor terrestre más grande que vive en América tropical cerca de ríos o lagunas es el capibará, un animal muy tranquilo con una vida social activa."}}'
+  animal.cheetah:
+    label: guepardo
+    summary: Animal terrestre más rápido alcanzando velocidades superiores a las 110 km/h.
+    info: El guepardo es el animal terrestre más rápido y puede acelerar de cero a 100 kilómetros por hora en tres segundos. A diferencia del resto de los grandes felinos no puede rugir sino que emite un sonido sibilante llamado 'vr', además tiene un cuerpo muy estilizado con uñas retráctiles para la velocidad y no necesariamente fuerza física. Después de una carrera corta debe descansar hasta enfriarse.
+  animal.chimpanzee:
+    label: chimpancé
+    summary: Primate inteligente considerado el parentesco biológico humano más próximo
+    info: |-
+      El chimpancé común es junto con el bónobo nuestro pariente animal más cercano y compartimos aproximadamente un 98,7% de ADN
+      Los chimpancés usan herramientas como ramitas para cazar hormigas cortadoras e incluso pueden aprender los fundamentos del lenguaje de señas
+      Tienen costumbres culturales que transmiten dentro de sus grupos sociales y viven en complejas jerarquías
+  animal.coyote:
+    label: Coyote
+    summary: Animal carnívoro similar al perro originario de Norteamérica con capacidad para convivir junto al hombre.
+    info: '{"info":"El coyote es un mamífero canino adaptable que habita toda América del Norte\. A diferencia de los lobos, ha logrado adaptarse al vivir cerca de las personas y también en ciudades\.","label":"coyote","summary":"Mamífero cánido americano capaz de sobrevivir incluso dentro de áreas urbanas."}'
+  animal.deer:
+    label: Ciervo
+    summary: Mammifero grácil con patas largas; el macho posee cornamenta anual.
+    info: El ciervo es la especie más extendida de grandes cérvidos en Europa. Los machos tienen cuernas que cada año caen y crecen nuevamente, siendo este tejido uno de los que mayor velocidad de regeneración tiene entre animales. En temporada de apareamiento emiten un fuerte bramido e intervienen combates por las hembras.
   animal.elephant:
     label: elefante
     summary: El mamífero terrestre más grande, con un tronco y grandes orejas.
     info: El elefante africano es el mamífero terrestre más grande del mundo. Usa su tronco para respirar, beber, oler y agarrar comida. Los elefantes viven en manadas lideradas por la hembra más vieja y son conocidos por su buena memoria.
+  animal.fennec_fox:
+    label: feneco
+    summary: Más pequeño cánido terrestre mundial con orejas gigantes.
+    info: |-
+      {"hint":"pequeño lobo de desierto con orejas enormes (Galería cero)","info":"El fenec es la más pequeña carnada canina del mundo adaptado para vivir en el Sahara.
+      Sus grandes ojos sirven para liberar calor corporal y tener un excelente sentido auditivo.
+      Tiene riñones tan efectivos que puede sobrevivir sin tomar agua directamente obteniendo humedad desde su comida.
+      En las noches cazan insectos, roedores y reptiles","label":"feneco","summary":"La más pequena carnaza canina del mundo con orejas muy grandes."}
+  animal.fox:
+    label: Zorro
+    summary: Feroza pequeña criatura similar perro con pelo rojo y una cola densa.
+    info: '{"hint":"perro pequeño astuto con cola peluda","info":"El zorro común es la fiera canina más extendida del mundo y un adaptador excelente que vive en bosques, estepas e incluso ciudades.\nEs famoso por su ingenio cantado en cuentos de hadas y leyendas alrededor del globo terráqueo.\nCaza ratones, aves y insectos; cuando está necesitando también recoge basura.\nLas hembras dan vida entre cuatro hasta seis cachorros."}'
+  animal.gazelle:
+    label: gacela
+    summary: Antílope rápido y esbelto que habita la selva热带。
+    info: |-
+      {"hint":"antílope esbelta y rápida de las sabanas africanas e indias (Gazella)","info":"La gacela Thompson vive en grandes manadas por todo el África;
+      es capaz de alcanzar velocidades superiores a los 80 kilómetros por hora; hace saltos característicos para alertar sobre depredadores;
+      y se convierte en presa clave del jaguar, el león y el perro hieno","label":"gacela","summary":"Antílope rápido y esbelto que habita la selva tropical."}
+  animal.giant_anteater:
+    label: Perezoso Gigante
+    summary: Gran animal sin dientes con hocico largo y lengua adhesiva.
+    info: '{"hint":"gran mamífero sin dientes con hocico largo","info":"El perezoso gigante es la especie más grande de los perezosos y vive en América Central y del Sur\. No tiene dientes\; rompe las colmenas con garras fuertes e ingiere hormiguitas usando una lengua pegajosa que puede medir hasta 60 centímetros\. En un día come más de 35\\u{b},000 hormigueros y térmites\. Las hembras llevan al cría encima de su espalda\.'
+  animal.giant_panda:
+    label: gigant panda
+    summary: animal grande omnívoro que consume solo graminae
+    info: '{"hint":"oso negro y blanco de China","info":{"label": "Oso panda gigante", "summary": "Un gran mamífero carnívoro que come exclusivamente bambú", "content": {"type": "text", "value": ["El oso panda es un animal emblemático originario del suroeste de China y símbolo mundial para la conservación ambiental.", "Su dieta está compuesta por más del noventa y nueve por ciento con hojas verdes de arroz silvestre aunque anatómicamente sea considerado como herbívora." , "Tiene seis dedos en cada pata incluyendo una extensión huesosa llamada sesamoide usada principalmente al agarrar tallos larguísimos." , "Solo existen aproximadamente mil ochocientos ejemplares salvajes viviendo actualmente"]}}}'
   animal.giraffe:
     label: jirafa
     summary: El animal terrestre más alto con un cuello muy largo.
     info: La jirafa es el animal terrestre más alto del mundo; los machos pueden alcanzar una altura de más de cinco metros. Su cuello largo le permite alcanzar las hojas de acacia, que son su principal fuente de alimento.
+  animal.gorilla:
+    label: gorila
+    summary: Es el más grande entre todos nuestros parientes cercanos dentro del grupo animal conocido colectivamente bajo un término general.
+    info: El gorila es el mayor primo de los primates y puede pesar hasta 200 kilogramos cuando alcanza la madurez sexual como macho adulto llamado 'silverback'. Son principalmente herbívoras e ingieren hojas, brotes tiernos y frutas. Se comunican mediante sonidos, expresiones faciales y golpes en su pecho.
+  animal.hippopotamus:
+    label: hipopótamo
+    summary: Un gran mamírfero semiacuático africano con mandíbulas enormes.
+    info: El hipopótamo es el tercer mamífero terrestre más grande después de la elefante y del rinoceronte.
+  animal.hyena:
+    label: '"hiena"'
+    summary: Predador y carnívoro depredador de las sabanas africanas.
+    info: '{"info":"La hiena manchada es el miembro más grande de la familia Hienidae y, contrariamente al mito popular, no se alimenta principalmente con carroña; más del 60% de su comida caza ella misma.\nLas hembras son dominantes y mayores que los machos.\nSu risotero en realidad expresa emoción o miedo, pero nunca alegría."}'
+  animal.jaguar:
+    label: León Americano
+    summary: Felino más grande de América con manchas tipo rosa.
+    info: '{"hint":"gato más grande de las Américas con manchas en forma de rosa (Panthroera onca)","info":"El jaguar es el tercer felino doméstico mayor del mundo y la única gran gata salvaje tanto en América como en Europa\nA diferencia del puma tiene puntos pequeños dentro de sus marcas florales\nEs un buen nadador y pesquero que caza peces, cocodrilos e incluso capibaras\nEn la cultura mayense y azteca era considerado una figura sagrada simbolizando fuerza real","label":"león americano","summary":"Gatuno más grande de América con manchitas rosadas."}'
+  animal.kangaroo:
+    label: Canguro
+    summary: Un gran哺乳动物 que salta sobre sus fuertes patas traseras.
+    info: El canguro rojo es el mayor mamífero de Australia y el animal saltador más alto del mundo; puede saltar una distancia superior a nueve metros. Las hembras llevan crías en un bolsillo abdominal durante aproximadamente seis meses. El canguro también representa uno de los símbolos nacionales de Australia e incluso aparece en su escudo nacional.
+  animal.koala:
+    label: Canguro
+    summary: Félido Australiano que vive sobre árboles de Eucalipto.
+    info: El canguro no es un oso sino una félida. Se alimenta casi exclusivamente de hojas de eucalipto que son venenosas para la mayoría de los animales y el canguro tiene un sistema digestivo especializado en esto. Puede dormir hasta veintidós horas al día debido a que las hojas tienen poco valor nutricional.
+  animal.leopard:
+    label: león
+    summary: Felino con pelaje moteado muy hábil trepar
+    info: El leopardo es el felino grande más extendido y un escalador excepcional que lleva su presa hasta las copas de los árboles para protegerla frente a hienas e leopardos. Su capacidad adaptativa lo hace sobresalir sobre otras grandes gacelas; vive en África así como también en Oriente Medio y Extremo Orientaleste.
   animal.lion:
     label: león
     summary: Un gran felino que vive en las sabanas africanas.
     info: El león es un gran felino que vive principalmente en las sabanas africanas al sur del Sahara. Vive en manadas llamadas prides; las hembras cazan juntas, mientras que el pelaje conspicuo del macho sirve para asustar a sus competidores. El león es a menudo llamado el "rey de los animales".
+  animal.lynx:
+    label: Linche
+    summary: Un felino salvaje medianeño con plumón en las puntas de las orejas.
+    info: '{"hint":"gato salvaje de tamaño mediano con orejas peludas","info":"El lince es el mayor gato silvestre europeo.\nSe reconoce por sus mechones característicos de pelo negro en las puntas de las orejas y su cola corta.\nCaza principalmente al anochecer y durante la noche; su presa principal son los ciervos y liebres.\nEn Chequia fue extinguido localmente pero se reintrodujo exitosamente hacia finales del siglo XX.","label":"lince","summary":"Gato selvático medio grande con pelos encrespados en punta de oído."}'
+  animal.mandrill:
+    label: mandrillo
+    summary: Primates con cara multicolor.
+    info: El mandrill es el mayor y más colorido de los simios del Viejo Mundo vivos actualmente. Los machos tienen una máscara facial brillantemente azulada y roja que indica su posición social dentro del grupo. Viven en manadas en las selvas tropicales ecuatoriales de Camerún,Gabón,y la República del Congo.
+  animal.meerkat:
+    label: suricata
+    summary: Pequeño animal terrestre social originario del desierto de Kalahari.
+    info: |-
+      {"hint":"pequeño mustélido social de la región del desierto de Kalahari","info":"La suricata es un pequeño mamífero perteneciente al grupo de las musarañas que vive en el sureste africano y forma grupos con una estructura jerárquica fija donde uno siempre vigila desde lo alto;
+      esta especie tiene inmunidad contra venenos como los de serpientes o escorpiones;
+      algunas técnicas para cazar son aprendidas entre ellas mismas por medio de observación."}
+  animal.moose:
+    label: eldado
+    summary: Mamífero cérvido mayor con grandes cornamentas.
+    info: El eldado es el ciervo más grande del mundo; los machos alcanzan una altura de más de dos metros en la grupa y llevan cuernas amplias con un desarrollo que puede llegar hasta 180 centímetros. Vive en bosques taigales de América del Norte, Europa y Asia.
+  animal.okapi:
+    label: okapi
+    summary: Pariente silvestre de las jirafas con patas rayadas como un tigre del Congo.
+    info: El okapi fue descrito científicamente recién en el año 1901 y es uno de los grandes mamíferos que la ciencia ha identificado más tarde. Aunque visualmente parece una mezcla entre jirafa y cebra, su pariente vivo más cercano es precisamente la jirafa.
+  animal.orangutan:
+    label: orangután
+    summary: Gran mono pelirrojo que habita en los árboles de Bornéo y Sumatra.
+    info: El orangután es el único gran simio que vive fuera de África y su nombre proviene del idioma malayo e significa 'hombre boscoso'. Es considerado el más solitario entre los grandes simios y pasa la mayor parte de su vida en las copas de árboles.
+  animal.otter:
+    label: nutría
+    summary: Animal semiacuático juguetón que vive cerca cursos limpios
+    info: |-
+      La nutria río es un pequeño mamífero adaptado perfectamente para vivir en el agua y pertenece a la familia mustélidae
+      Tiene una densa capa peluda impermeable al agua así como membranas interdigitales que facilitan nadar además puede contener su respiración por más tiempo del minuto
+      Las nutrias son indicadores ecológicos importantes ya que donde habitan indica que el cuerpo hídrico está sano
+  animal.polar_bear:
+    label: oso polar
+    summary: Depredador acuático mayor viviendo en regiones polares.
+    info: El oso polar es la fiera terrestre más grande y el depredador principal de la Antárctida. Su pelaje blanco lo aisla perfectamente del frío; cada pelo hueco permite que se filtre luz visible en todas direcciones. Es un excelente nadador capaz de recorrer cientos de kilómetros.
+  animal.porcupine:
+    label: puerco espín
+    summary: Roedor grande cubierto con cerdas punzantes para defensa.
+    info: El puercoespín es un roedor protegido por miles de aguijas afiladas y huecas que son en realidad pelos modificados.
+  animal.raccoon:
+    label: ocelote
+    summary: Félido sudamericano similar al puma.
+    info: |-
+      {"hint":"marsupial carnívoro de América del Sur","info":"El ocelote es originario de la selva amazónica y vive en una gran variedad de hábitats dentro de su rango natural que incluye Brasil, Perú e incluso México al norte.
+      Se alimenta principalmente de pequeños mamíferos pero también come aves, reptiles u otros animales según estén disponibles.
+      Su pelaje moteado lo ayuda con el camuflaje mientras caza durante las horas más calurosas del día cuando sus presas son menos activas."}
+  animal.reindeer:
+    label: reno
+    summary: Mamífero cérvido del Ártico con cornamenta femenina.
+    info: El reno polar es el único miembro de los ciervos que tiene cuernos tanto en hembras como machos. Vive en las regiones árticas y puede migrar miles de kilómetros por año.
+  animal.rhinoceros:
+    label: rinoceronte
+    summary: Mamífero con uno o dos cuernos en la nariz.
+    info: El rinoceronte blanco es el segundo mamífero terrestre más grande después de la elefante africana. Su cuerno no está hecho de huesos sino del mismo material que las uñas humanas llamado queratina.
+  animal.sloth:
+    label: lemú
+    summary: animal arbolado lento que vive suspendido boca abajo en la vegetación tropical densa
+    info: '{"hint":"mamífero arborícola de movimiento lento del centro y sur de América","info":"El perezoso es un mamífero perfectamente adaptado para una vida muy lenta en las copas de los árboles tropicales.\nSe mueve tan lentamente que crecen algas verdes sobre su pelaje como camuflaje natural.\NSu metabolismo también funciona extremadamente despacio; evacua sus intestinos solo una vez por semana.\NTiene garras curvas e increíblemente fuertes con las cuales puede colgarse incluso después de muerto.","label":"lémur","summary":"Animal trepador lento que cuelga cabeza abajo entre ramas."}'
+  animal.snow_leopard:
+    label: lobo de nieve
+    summary: Un felino raro que habita las cordilleras elevadas de Asia central.
+    info: El lobo de nieve vive en el entorno montañoso del Himalaya, Tíbet y cadenas montañosas centrales asiáticas entre altitudes de tres mil hasta cinco mil metros sobre el nivel del mar.
+  animal.tapir:
+    label: tapi
+    summary: Herbívoro grande que tiene el hocico corto.
+    info: El tapir es un ungulado impar primitivo relacionado con los rinocerontes y caballería aunque no se parece mucho en apariencia.
+  animal.tiger:
+    label: Tigre
+    summary: Es la félida más grande con una apariencia naranja estriada.
+    info: El tigre es el felino más grande que vive en estado salvaje y cada individuo tiene un patrón único de rayas similares al huella digital humana. A diferencia del león, el tigre prefiere vivir solo y también es excelente nadador.
+  animal.warthog:
+    label: jabalí cornirostro
+    summary: Cerdo salvaje africano con grandes colmillos y crestas faciales
+    info: '{"hint":"cerdo salvaje de África con colmillos faciales","info":"El jabalí cornirostro es un suidio silvestre originario de África y pariente del cerdo domestico\nLos machos tienen crecimientos carnosos en la cara llamados cornamentas o bigotes largos que se curvan hacia adelante y sirven para defenderse\nAl huir levanta el rabo verticalmente como una antenna\nNo cava sus madrigueras por si mismo sino que ocupa las cuevas ya excavadas por los topos"}'
+  animal.wild_boar:
+    label: jabali
+    summary: Cerdo salvaje con colmillo, antecesor de todos los tipos de ganadería porcina.
+    info: El jabali es el tipo original de cerdo europeo y antepasado de todas las razas porcinas domésticas. Son omnívoros inteligentes y adaptables que cavan raíces, bellotas e incluso cazan pequeños animales. Las hembras cuidan los cochinillos en grupos.
+  animal.wildebeest:
+    label: gnú
+    summary: Antílope africano que migra como parte de la mayor migración continental.
+    info: El gnú es conocido por una de las mayores migraciones terrestres del mundo; más de un millón de animales cruzan anualmente entre el Serengueti y la Reserva Maasái Mara. Es presa clave para los leopardos, leones e incluso cocodrilos. Las hembras dan a luz casi todas al mismo tiempo en solo dos o tres semanas.
   animal.wolf:
     label: lobo
     summary: Un canino salvaje, antepasado del perro doméstico.
     info: El lobo común es el canino salvaje más grande y el antepasado del perro doméstico. Vive y caza en manadas con una jerarquía social fija y se comunica mediante aullidos, con los que marca su territorio y reúne a la manada.
+  animal.wolverine:
+    label: pizote
+    summary: Animal fuerte e iracundo perteneciente a la familia de mustélidos encontrado comúnmente en regiones árticas.
+    info: El pizote es el miembro más grande de la familia Mustélida en tierra firme. A pesar de sus dimensiones pequeñas, se conoce por una fuerza y agresividad excepcional que incluso puede ahuyentar un oso del alimento. Vive en amplios territorios bosquesos y esteparios dentro de los climas frídos de América del Norte, Europa y Asia.
   animal.zebra:
     label: cebra
     summary: Un perissodáctilo africano con rayas negras y blancas.

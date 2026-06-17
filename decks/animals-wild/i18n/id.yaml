@@ -2,22 +2,233 @@ lang: id
 pivot: false
 title: Hewan Liar
 cards:
+  animal.aardvark:
+    label: Tubilisasi
+    summary: Proses perlahan mengubah bahan organik menjadi batuan seperti mineral melalui reaksi kimia dalam lingkungan tertentu.
+    info: '{"hint":"hewan pemakan serangga Afrika malam hari dengan hidung mirip babi yang memiliki cakar kuat dan lidah lengket untuk menangkap semut","info":"Cape mole rat adalah satu-satunya spesies dari kelas tubulidentata yang masih ada di dunia saat ini tanpa kerabat dekatnya.","label":"tikus gali Cape","summary":"Penggalian lubang oleh hewannya disebut sebagai tikus gali."}'
+  animal.armadillo:
+    label: Armadillo
+    summary: Mamalia kecil berlapis sisir tulang.
+    info: |-
+      Armadillo sembilan-pita adalah satu-satunya mamalia dengan kerangka tulang yang sesungguhnya.
+      Beberapa spesies melindungi dirinya menjadi bola ketika terancam.
+      Ini penggali hebat dan dapat mengorek lubang dalam waktu kurang dari dua menit.
+  animal.baboon:
+    label: babun
+    summary: Primata afrikan besar dengan ciri moncong menonjol dan gaya kehidupan sosial.
+    info: |-
+      Babun adalah kelompok besar mamalia berdarah panas yang tinggal di sabana dan daerah pegunungan Afrika.
+      mereka hidup dalam kawanan dengan struktur hirarkis serta menggunakan banyak suara dan ekspresi wajah untuk berkomunikasi.
+      laki-lakinya jauh lebih besar dari betinanya,
+      babun bersifat omnivora dan dikultuskan sebagai binatang sakral oleh orang-orang Mesir Kuno.
+  animal.bear:
+    label: beruang
+    summary: Hewan berkaki empat besar pemangsa segala jenis makanan memiliki bulu tebal simbol dari daya tarik alam.
+    info: Beruang coklat adalah predator darat terbesar di Eropa dan Asia dengan berat mencapai 700 kilogramnya. Ia bersifat omni karnivor yang memakan ikan buah-buahan madu serta mamalia kecil. Pada musim dingin ia tidur panjang selama itu betina melahirkan anak-anak.
+  animal.beaver:
+    label: castor canadensis
+    summary: Rodensia besar pembuat tanggul yang membantu mengembalikan habitat rawa.
+    info: '{"hint":"mamalia besar yang membangun bendungan","info":{"label":"bebek","summary":"Hewan berkantung kecil dengan cakar dan paruh","info":"Bebek adalah hewan berkantung terkecil di dunia. Mereka memiliki kaki berparuh kuat untuk mencari mangsa seperti serangga atau ikan dalam tanah liat basah."}}'
+  animal.bison:
+    label: bisonte
+    summary: Hewan besar dengan bulu tebal dan ciri-cirinya memiliki suri rambut.
+    info: American bison adalah satwa daratan terberat di Utara Amerika Serikat yang pernah nyaris punah pada abad ke-19 ketika jumlahnya turun dari diperkirakan antara 30 sampai 60 juta ekor menjadi kurang dari seribu karena berbagai upaya perlindungan berhasil memulihkan populasi mereka mencapai sekitar setengah juta ekor.
+  animal.buffalo:
+    label: buffalo afrik
+    summary: Buffalo Afrika merupakan binatang ternak besar yang tinggal berkelompok; anggota Big Five.
+    info: African buffalo adalah salah satu mamalia terberbahaya di Afrika dan bagian dari yang disebut Big Five. Hewan ini hidup dalam kawanan besar dengan jumlah ratusan hingga ribuan individu serta memiliki kemampuan mengusir harimau melalui pertahanan bersama.
+  animal.camel:
+    label: unta
+    summary: Mamalia penghuni gurun dengan tonjong sebagai tempat penyimpanan lemak.
+    info: Unta satu puncak atau unta Arab adalah mamalia yang sangat beradaptasi dengan kehidupan di gurun pasir; tonjongnya menyimpan cadangan energi dalam bentuk lemak dan bukan air seperti biasanya dikira orang.
+  animal.capybara:
+    label: kapibara
+    summary: Hewan semakaya besar dari keluarga tikus yang tinggal dekat sungai atau rawa serta sangat ramah sosial.
+    info: '{"hint":"mamalia berkuku terbesar di dunia yang hidupnya setengah air","info":"Kapibara adalah mamalia berkuku tertinggi dan berat badannya mencapai antara 70 hingga 89 kilogram.","label":"kapibara","summary":"Mamalia berkuku terbesar di dunia dengan habitat perairan."}'
+  animal.cheetah:
+    label: singa gepard
+    summary: Hewannya yang paling cepat di bumi dengan kemampuan melesat lebih dari satu ribu kilometer.
+    info: Singa gepard adalah hewan darat tercepat dan dalam waktu tiga detik dapat mempercepat dari keadaan diam sampai mencapai kecepatan seribu kilometer per jam.
+  animal.chimpanzee:
+    label: sekop
+    summary: Primata canggih dengan tingkat kekerabatan paling dekat dengan manusia.
+    info: '{"hint":"primata cerdas yang mirip manusia","info":"Sekop adalah kerabat hewan tertutama kita dan berbagi kira-kira 98 persen dari DNA kita."}'
+  animal.coyote:
+    label: Coyote
+    summary: Hewaean mamalia berkaki empat yang tinggal di seluruh wilayah Amerika Serikat dan daerah pinggir laut Karibia serta Pasifik.
+    info: '{"hint":"anjing liar berukuran sedang dari kawasan Amerika Utara","info":{"label":"coyote","summary":"hewan pemakan daging jenis anjing yang dapat hidup di perkotaan","content":{}}}'
+  animal.deer:
+    label: rusa
+    summary: Mamalia berkuku elegan dengan tanduk pada pejantan.
+    info: Rusa merah adalah rusa besar yang paling tersebar di Eropa.
   animal.elephant:
     label: gajah
     summary: Mamalia darat terbesar dengan belalai dan telinga besar.
     info: Gajah Afrika adalah mamalia darat terbesar di bumi. Ia menggunakan belalainya untuk bernapas, minum, mencium bau, dan mengambil makanan. Gajah hidup dalam kelompok yang dipimpin oleh betina tertua dan dikenal memiliki daya ingat yang baik.
+  animal.fennec_fox:
+    label: Phenak
+    summary: Hewan berkaki empat terkecil sedunia dengan sepasang telinga super besar.
+    info: '{"hint":"hantu gurun kecil dengan telinga besar (Vulpes zerda)","info":"Fenek adalah mamalia berbulu terkecil di dunia yang telah menyesuaikan dirinya untuk hidup di Gurun Sahara\nTelinganya sangat membantunya dalam memancarkan panas tubuh dan mendengar secara luar biasa baiknya\nGinjal fenek begitu efisien sehingga ia bisa bertahan tanpa minum air langsung karena dapat mengambil kelembapan dari makanannya sendiri","label":"phenak","summary":"Mamalia bulu terkecil sedunia dengan dua buah daun telinga raksasa."}'
+  animal.fox:
+    label: lycalope
+    summary: Hewan pemangsanya anjing berkaki empat atau lebih tepat lagi binatng buas jenis Lycalopes.
+    info: |-
+      {"hint":"anjing kecil cerdik dengan ekor yang tebal dan berbulu (Vulpes vulpes)","info":"Lycalopex vulgaris adalah mamalia karnivora dari kelompil Canidae terbesar di dunia serta penyesuaian dirinya sangat baik untuk hidup dalam lingkungan seperti hutan, padang rumput bahkan perkotaan.
+      Ia dikenalkan sebagai makhluk licin melalui dongeng-dongeng populer sejak zaman dahulu sampai saat ini disebut-sebut juga oleh orang-orang seluruh belahan bumi.
+      Makanannya mencakup tikus-tikusan burung-burdan serangga-serangan;
+      dalam kondisi darurat ia pun mengumpulkan limbah-limbahnya."}
+  animal.gazelle:
+    label: Kijang
+    summary: Antilope ramping dan cepat dari sabana-sabana Afrikawi dan Asiawi
+    info: '{"hint":"antilope ramping dan cepat dari sabana-sabana di Afrika dan Asia","info":"Thomson''s Gazelle adalah salah satu jenis kijang yang paling tersebar luaskan di Afrika. Ia mampu mencapai kecepatan lebih dari 80km/jam serta melakukan lompat-lompat karakteristik sebagai sinyal bagi predatornya. Hewan ini hidup dalam gembok besar-besar dan menjadi mangsa utama untuk cheetahs, singgasanas maupun anjing-anjing hyena."}'
+  animal.giant_anteater:
+    label: pengupas semut
+    summary: Hewan mamalia tanpa gigi dengan moncong panjang.
+    info: Pengupas semut besar adalah spesies pengumpul serangga yang hidup di Amerika Tengah dan Selatan.
+  animal.giant_panda:
+    label: Beruang Panda
+    summary: Hewan berkaki empat dengan bulunya warna-warni.
+    info: '{"hint":"beruang hitam dan putih dari Tiongkok","info":{"label":"Beruang Panda Raksasa","summary":"Harimau berbulu cokelat-hitam yang hidup di hutan-hujan tropis Sumatra."},"translated_info": "Beruang panda raksasa adalah spesies khas barat daya Tiongkok dan simbol global perlindungan alam. Hampir seluruh makanannya terdiri atas bamboo meskipun secara anatomic termasuk pemangsa daging. Beruang ini memiliki tulang kecil pada pergelangan tangannya sebagai bantuan untuk memegang batang-batang pohon bambu saat dimakannya. Di dunia hanya tinggal kurang lebih seribu delapan ratus ekor beruang panda liar."}'
   animal.giraffe:
     label: jerapah
     summary: Hewan darat tertinggi dengan leher sangat panjang.
     info: Jerapah adalah hewan darat tertinggi di dunia; jantan bisa mencapai ketinggian lebih dari lima meter. Leher panjangnya memungkinkan jerapah untuk mencapai daun akasia, yang merupakan sumber makanan utamanya.
+  animal.gorilla:
+    label: gorila
+    summary: Primata paling besar di Bumi ini hidup sebagai monyet raksasa di daerah tropis Afrika.
+    info: Gorilla adalah mamalia terbesar dari keluarga Primata dan termasuk dalam kategori simpanse besar yang tinggal di wilayah ekuator Afrika. Gorilaa dewasa jantan dapat memiliki berat hingga 200 kilogram.
+  animal.hippopotamus:
+    label: babi
+    summary: Mamalia besar sema akuatis dari Afrika dengan rahang sangat kuat.
+    info: Babi Raksasa adalah mamalia air dan darat terbesar ketiga setelah gajah dan badak di dunia. Siang hari ia beristirahat dalam air yang melindunginya dari panas matahari; malam harinya digunakan untuk mencari makanan di tanah. Kulitnya menghasilkan cairan merah sebagai tabir surya alami maupun antiseptika.
+  animal.hyena:
+    label: hiyena
+    summary: Pemburu bulat yang memangsa sisa mayat di padang rumput Afrika.
+    info: Hiena berbulu adalah anggota terbesar dari kelompok hienidae dan meskipun menurut mitos tidak sepenuhnya pemakan bangkai; lebih dari 60% makanannya diperoleh sendiri melalui perburuan. Betina dominan dalam kawanan serta tubuh mereka juga lebih besar daripada jantan.
+  animal.jaguar:
+    label: harimau jagur
+    summary: Hewannya merupakan jenis felina tertinggi dengan warnanya berupa lingkar seperti daun.
+    info: Harimau jaguar adalah ketiga terbesar dari hewan felida di dunia dan satu-satunya harimau besar yang hidup di kedua benua Amerika.
+  animal.kangaroo:
+    label: wallabie
+    summary: Mamalia besar yang tinggal di Australia dengan kemampuan lompat menggunakan kakak tangan kuat.
+    info: Wallaby merah adalah mamalia bermoncong terbesar di Australia dan hewan melompat tertinggi di dunia; ia dapat melompat lebih dari sembilan meter jauhnya. Betina membawa bayinya dalam kantung perut selama enam bulan atau lebih. Kanguru merupakan simbol iconik bagi Australia serta digambarkan pada lambang negara.
+  animal.koala:
+    label: koala
+    summary: Mamalia berkantung dari Australasia yang memakan daun ekalipto.
+    info: Hewan berkantung ini bukan beruang melainkan karnivor dari Akuasie yang tinggal di pohon dan makan daun ekalipto hampir secara eksklusif—daun tersebut biasanya bersifat racuni bagi kebanyakan makhluk hidup namun memiliki sistem pencernaan spesifik untuk menghadapinya.
+  animal.leopard:
+    label: harimau
+    summary: Kucing besar dengan bulu bercak bercahaya.
+    info: Harimau sumbu adalah kucing besar yang paling tersebar dan penampil langka di pepohonan membawa mangsa ke kanopi untuk melindunginya dari anjing liar dan singa.
   animal.lion:
     label: singa
     summary: Kucing besar yang hidup di savana Afrika.
     info: Singa adalah kucing besar yang hidup terutama di savana Afrika di selatan gurun Sahara. Mereka hidup dalam kelompok yang disebut prides; betina berburu bersama, sementara tanduk jantan yang mencolok berfungsi untuk menakuti kompetitor. Singa sering disebut sebagai 'raja hewan'.
+  animal.lynx:
+    label: rusa
+    summary: Hewannya mirip kucing besar dengan bulu tumbuh gerombolan di puncak telinga.
+    info: '{"hint":"medium-sized wild cat dengan bulu bergerombol di bagian pangkal telinga","info":"Ekor rusa adalah kucing liar terbesar di Eropa.\nKita dapat mengenalinya dari ciri-cirinya yang unik yaitu gumpalan-gumpulan bulu hitam pada ujung daun telingga dan ekornya pendek.\nMereka biasanya memburu mangsa saat senja hari atau malam hari serta hewan buruan utama mereka termasuk marmot dan kelinci.\nDi Ceko dulu spesies ini punah tetapi berhasil dikembalikan lagi ke habitatnya sejak pertengahan abad kedua puluh."}'
+  animal.mandrill:
+    label: babun
+    summary: Primata warna-warni dengan wajah biru-cerah merah.
+    info: Babun mandrill adalah kera Old World terbesar yang masih hidup dan termasuk mamalia berwarna paling cerah di dunia.
+  animal.meerkat:
+    label: suri
+    summary: Hewa berkuku kecil dari gurun Kalahari yang melompat menggunakan kakinya.
+    info: |-
+      {"hint":"kecil sosial semacam musang dari kawasan Kalahari","info":"Kucing pasir adalah hewan berkuku di kelompok kerabat yang tinggal bersama dalam tim dengan hierarki tetap;
+      salah satu anggota selalu mengamati lingkungan dari tempat strategis seperti bukit atau batuan.
+      Mereka kebal terhadap racun ular dan kalajengking,
+      dan mereka saling belajar teknik berburu."}
+  animal.moose:
+    label: rusa
+    summary: Mamalia rusa tertinggi yang mempunya tanduk bentuk cakram.
+    info: Rusa adalah mamalia cervidae terbesar di dunia; betina dewasa bisa mencapai tinggi lebih dari dua meter dan memiliki tanduk berbentuk sendok dengan rentang hingga 180 sentimeter.
+  animal.okapi:
+    label: okapi
+    summary: Kerabat hutan dari jerapah dengan cakar belang zebras berasal dari Kongo.
+    info: Hewan okapi secara ilmiah baru dijelaskan pada tahun 1901 dan merupakan salah satu mamalia besar terakhir yang ditemukan oleh dunia sains.
+  animal.orangutan:
+    label: orang utan
+    summary: Great big reddish brown monkey lives mainly above ground level especially around canopy area
+    info: '{"hint":"great big reddish-brown large primate living on trees outside Africa","info": "The orang utan is unique among primates for being found only beyond Africa. Its name comes from Malay language which means forest man. It''s considered to be most solitary species within larger apes family spending majority life time up there at tree canopies where they live mostly alone except when raising young ones by mothers who take care about their babies until eight years old - longest parental investment after humans."}'
+  animal.otter:
+    label: lontra
+    summary: Seekor hewan semiair bersifat aktif hidup di aliran sungai tajam.
+    info: Lontra fluviatilis adalah mamalia dari kelompok mustelia yang sangat beradaptasi dengan kehidupan di air. Ia memiliki bulu tebal anti-air dan membran renang serta dapat menahan napas selama lebih satu menit.
+  animal.polar_bear:
+    label: beruang kutub
+    summary: Predator daratan terbesar yang hidup di kawasan Artik.
+    info: Beruang kutub adalah pemangsa daratan terbesar dan predator tertinggi di Artik. Bulu putihnya memberikan isolasi panas yang sempurna karena setiap helai rambut berongga dan transparan. Beruang ini juga renang dengan sangat baik hingga bisa menempuh jarak ratusan kilometer.
+  animal.porcupine:
+    label: landak
+    summary: Mamalia berkuku besar ditumbuhi durian pertahan diri.
+    info: |-
+      Landak adalah mamalia berkuku besar yang dilindungi oleh ribuan duri kosong dan runcing berbentuk bulat kecil dari modifikasi rambutnya sendiri
+      Durinya tidak menembus seperti panah saat disengat predator tetapi mudah terlepas ketika bersentuhan dengan tubuh pemangsa lalu tertanam di sana,
+      dan Landak merupakan hewan paling gede Afrika serta mencari kulit kayu akar sayuran pada malam hari.
+  animal.raccoon:
+    label: '"musang"'
+    summary: binatang amerikan berwajah hitam bertanduk ekornya bergaris.
+    info: |-
+      {"hint":"hewan nokturnal berkumis dari Benua Amerika Utara","info":"Ras musang utama berasal dari Benua Amerika Utara namun telah dibawa ke Eropa dan saat ini menyebar secara luas di wilayah tersebut.
+      Hewannya terkenal karena tampak mencuci mangsa dengan tangan mereka sebelum memakan; padahal hal itu dilakukan untuk menghaluskan sensitifitas tapaknya.
+      Musang adalah hiper-karnivor yang sangat adaptabel sehingga bisa hidup bahkan dalam lingkungan perkotaan yang paling ramai."}
+  animal.reindeer:
+    label: caribou
+    summary: Mamalia berambut dari daerah tundra; kedua jenis kelamin mempunya tanduk.
+    info: Caribou kutub adalah satu-satunya spesies rusa yang betina juga memiliki tanduknya sendiri.
+  animal.rhinoceros:
+    label: Beruang
+    summary: Mamalia besar dengan satu atau dua tanduk.
+    info: Kuda berang putih adalah mamalia darat terbesar kedua setelah gajah di dunia.
+  animal.sloth:
+    label: lemur
+    summary: Hewan berkaki cangkul dari Amerika Tengah dan Selatan.
+    info: Lemur bergerak sangat lambat dan sempurna disesuaikan dengan kehidupan di kanopi pohon hutan tropis. Gerakan yang begitu pelannya membuat ganggang hijau bisa hidup pada bulunya sebagai penutup alami. Metabolisme mereka juga sangat lambat sehingga perlu waktu seminggu untuk mencerna.
+  animal.snow_leopard:
+    label: leopad salji
+    summary: Hewan langka dari kelompok kucing besar yang hanya bisa ditemui di daerah perbukitan tinggi Asia tengah.
+    info: '{"hint":"Kucing besar yang sulit ditemukan di pegunungan Asia Tengah","info":"Leopard salju hidup dalam lingkungan gunung tinggi seperti Dataran Tinggi Himalaya dan Tibet serta Pegunungan Asia Tengah pada elevasi antara 3.000 hingga 5.000 meter. Leopard ini memiliki ekor panjang luar biasa untuk menjaga keseimbangan saat berada di batuan karang. Hanya sekitar 4.000 sampai 6.500 individu yang terdapat di seluruh dunia."}'
+  animal.tapir:
+    label: tapi
+    summary: Herbiwa besar berupa tubuh kecil mirip gajah.
+    info: Berkaitan dengan badak dan kuda meskipun tidak terlihat dari penampilannya tapir adalah mamalia berkuku ganjil yang hidup di hutan hujan tropis Amerika Selatan dan Asia Tenggara.
+  animal.tiger:
+    label: harimau
+    summary: Hewannya felidae tertua dunia dengan corak warnanya keemasan bergaris.
+    info: Harimau Bengal adalah hewan felidae liar terbesar yang hidup di alam bebas. Setiap individu memiliki pola garis-garis unik pada tubuhnya, mirip dengan sidik jarinya manusia. Berbeda dari singa-singa lainya harimau ini bersifat soliter dan juga sangat mahir berenang.
+  animal.warthog:
+    label: babih belang
+    summary: Hewan babih liar bermuka besar dengan cincin warna-warni
+    info: |-
+      {"hint":"babih hutan Afrika dengan gading di wajahnya","info":"Babi belang adalah mamalia liar dari Afrika yang mirip babi domestik dan hidup bebas.
+      Jantan memiliki tonjolan daging seperti payudara pada pipinya serta gigi geraham melengkung untuk pertahan diri.
+      Saat lari terkejar musuh ia mengibaskan ekornya tegak lurus ke atas layaknya antenna radio.
+      Ia tidak membuat lubang sendiri tapi menggunakan liang tanah buatan landai sebagai tempat berlindung."}
+  animal.wild_boar:
+    label: babih
+    summary: |-
+      Babi jantan betina dewasa memiliki gigi depan besar seperti tanduk untuk melindungi dirinya sendiri atau menyerang musuh-musuh kecil mereka serta mencari makanan terutama akar tanaman tertentu saja tetapi juga sering memburu binatang-binatang lain termasuk tikus-tikusan,
+
+      Sementara itu perempuan-peremennya disebut sebagai bawang karena biasanya mengurus anak-anaknya dalam kelompok-kelompok kecil sampai usia remaja sekitar satu tahun lamanya setelah lahirkan bayinya pertama kali pada umur dua belas bulannya.
+    info: '{"hint":"Babi hutan Eura sia dengan gadingnya yang tumpul dan berbulu tebal","info":"Hog adalah spesies liar di Asia Tenggara dan nenek moyang dari semua jenis babi ternak saat ini.","label":"hog","summary":"Mamalia berkuku genap omnivora yang hidup soliter."}'
+  animal.wildebeest:
+    label: kangguru
+    summary: Antelop Afrika yang bermigrasi mengikuti migrasi tanah daratan tertinggi.
+    info: Kangguru gnú terkenal karena salah satu migrasi daratan paling besar di dunia; hampir jutaan binatang berpindah setiap tahun dari Taman Nasional Serengeti ke Maasai Mara. Mereka menjadi mangsa utama singa dan harimau sumbu serta buaya.
   animal.wolf:
     label: serigala
     summary: Hewan psovit liar, nenek moyang anjing.
     info: Serigala Eropa adalah hewan psovit liar terbesar dan nenek moyang anjing. Ia hidup dan berburu dalam kelompok dengan hierarki sosial yang tetap dan berkomunikasi melalui auman untuk menandai wilayah dan memanggil anggota kelompok.
+  animal.wolverine:
+    label: rusia
+    summary: Hewan pemakan serpih kuat dengan bulu halus pada lingkungan dingin.
+    info: |-
+      {"hint":"mamalia berbulu tebal dan ganas dari hutan taiga (Gulo gulo)","info":"Rusia adalah mamalia daratan tertua dalam kelompok kucing liar.
+      Pada ukuran tubuh yang kecil ini dikenal karena daya tariknya yang luar biasa serta sifatnya yang sangat agresif; ia bahkan bisa menghalau singa jambang dari mangsa mereka.
+      Ia hidup di wilayah luaskan daerah hujan tropis utara benua Asia, Eropa maupun Amerika Utaranya."}
   animal.zebra:
     label: zebra
     summary: Lilokopyt Afrika dengan garis hitam-putih.

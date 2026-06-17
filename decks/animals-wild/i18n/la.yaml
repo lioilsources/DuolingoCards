@@ -2,22 +2,212 @@ lang: la
 pivot: false
 title: Fauna Selvatica
 cards:
+  animal.aardvark:
+    label: Tuberculus
+    summary: Notabiliter Africae inscitifera cum naso porcino fodit fossae.
+    info: Africanus tuberculatus est unica species ordinis Tubulidentatum et nullas proximas affines habet. Nox nocturna vivendi modo, fortes ungues atque lingua viscosa sunt adaptationes ad formicarum ac terebrorum capturam.
+  animal.armadillo:
+    label: dasypodus
+    summary: Parvulus quadrupedale cuirassatum scutulis osseis.
+    info: |-
+      Dasypodis novemcingulis est unicum animalia terrestre cum armatura ossa veritabiliter composito.
+      Quaedam species ad periculum globulorem efficiuntur.
+      Est excavator mirabilis et fossae parietes minus duabus minutis creare potest.
+  animal.baboon:
+    label: baboon
+    summary: Africanus primates maior cum nares distinctus atque vitam communale agit.
+    info: '{"hint":"primas terrestrium magnus africanus ex genere Papio","info":{"label":"baboonis","summary":"Primatus africanus grandior cum naso conspicuo et vita sociali","content":"Baboons sunt genera simiarum magnum habitantium praecipue silvas ac saxosas regiones Africae meridionalium. Vivunt gregariiter secundum societatem gerentem gradationes statusque masculorum inter feminas maiorem habitudinem corporalem. Communicant per sonos variatos gestisque expressivos; alimenta diversificatam cibaria omnivora accipiunt."}}'
+  animal.bear:
+    label: ursus
+    summary: Magnus animalis carnivo-carnivora cum densa pilosis cuticulo; naturale potentia.
+    info: '{"hint":"magnus animalis carnivorus et omnivorans cum pelagio crasso","info":"Oso brun est maximus fera terrestri Europae atque Asiae quae pondere usque ad septingentas libras perveniat\u00f4. Est omniva sed gulas suas ex piscibus, fructiculis silvestribus, melle ac parvis quadrupedis sustinet. In hiems dormit profundè uterique matres partuntur dum durat somnum hybernum. In colloquium Bohemicum significatur fortuna et commoditas."}'
+  animal.beaver:
+    label: castore
+    summary: Large rodens building dikes to create wetland ecosystems.
+    info: Eurasian beaver is the second largest rodent in the world.
+  animal.bison:
+    label: buffalo
+    summary: Grand ruminant nord-américain avec une crinière épaisse.
+    info: 'American buffalo est animal terrestre le plus lourd d''Amérique du Nord ; au XIXe siècle il était presque éteint : des estimations de trente à soixante millions individus seulement moins dun millier restaient. Grâce aux programmes dobservation les nombres ont été restaurés environ cinq cent mille spécimens.'
+  animal.buffalo:
+    label: syncher
+    summary: Africanus bos qui grege vivit atque inter Magnas Quinas est.
+    info: '{"label":"syncerum","summary":"Bovis africanus Synceri generis parte quae greges magnos habet et ad periculosissimos mammiferi Africae pertinet."}'
+  animal.camel:
+    label: camelus
+    summary: Deserti animalia cum dorsibus pro reseruatone grasse.
+    info: ' Camelus dromedarius est perfecte adaptatus ad vitam deserti; dorsum eius grassatur adipis ut reservoir energiae non aquae. Potest simul potare plus quam centena litera aque et vivere hebdomadas sine intake liquidorum.'
+  animal.capybara:
+    label: capivara
+    summary: Maximus mundi gnauwer genus semiaquaicum summe tranquilum.
+    info: Capivara est maximus extantibus gnawere animalia genii adultique pondus inter trenta quinquaginta sex et sescentos triginta libras variat. Habitat regiones tropicali America meridiocallis prope fluminia lacus paludesque. Est nimium socialis atque tranquilla naturam habet ut cum omnibus aliis animanti bene conveniat.
+  animal.cheetah:
+    label: gazella
+    summary: Celerrima terra vivens species gazellae supercentenario gradua.
+    info: Leopardus est celerrimus terrestrium animantium et tres secundis ab inertia ad centum kilometra per horam accelerat. Contrarius ceteris grandibus felinis non rugire potest sed istud loco stridere debet. Corpora eius gracile atque unguia immobile sunt adaptationem velocitas tantum nec fortuna. Post brevem cursuum festinantium requiescere debebit ut refrigescat.
+  animal.chimpanzee:
+    label: simius
+    summary: Animal intelligens similimum homini
+    info: |-
+      Simia paniscus communis est cum bonobo proximus animalium cognatus et circa 98,7% ADN nostri commune habet
+      Homo utilis sunt instrumenta ut ramuli ad caprendendum formicas ignavas atque signum linguam discere potest
+      Consuetudines culturales inter grupulos transferunt necnon complexae socialitates gerant
+  animal.coyote:
+    label: coyote
+    summary: Medium sized north american doglike animal that has successfully colonized cities across its native habitat through behavioral flexibility allowing it thrive alongside people rather than compete against them directly.
+    info: '{"label":"coyote","summary":"North American canid adapted to urban life","info":{"cs": "Coyotes live throughout most of North America except for Alaska and northern Canada; they have also expanded their range eastward due to human activity like deforestation which creates more open habitats suitable for them. Unlike wolves who hunt large prey such as deer by pack hunting methods involving complex coordination among multiple individuals working together strategically over long distances often using terrain features cleverly during chases - coyotes typically target smaller animals including rodents rabbits birds etc., sometimes scavenging when necessary but rarely attacking humans unless provoked."}}'
+  animal.deer:
+    label: elaphus
+    summary: Elegans ungulatum genos; masculus cornua annuatim decidere solet.
+    info: "Elaphus silvestris est maximus cervus Europae plerumque diffundens.\tMasculi cornua portant quæ annualiter decidunt et iterum crescunt—haec sunt celerrime crescentia animalium tissuum.\tIn autumnis clangorem potentes emittit atque pro feminae certat,\tin Republica Cechica symbolon venationis nationalis est."
   animal.elephant:
     label: elephas
     summary: Maximus terrestrium animalium cum proboscide et grandibus auriculis.
     info: Elephus africanus est maximus terrestrius animalia super terram. Proboscidem ad respirandum, bibendum, olfactumque et cibum prehendendum utitur. Elephanti in greges aggregantur qui ab octogenaria femina ducentur atque memoriae bonae sunt noti.
+  animal.fennec_fox:
+    label: fennex
+    summary: Minimus felinus carnivorae mundi cum enormis auricularum.
+    info: Fennexus est minimus animalia canina mundo cum grandibus auriculis adaptata ad vitam in deserto Sahara. Auriculos magnos utilis pro emissione caloris corporalis et auditu optimo. Renes sunt tam efficaces ut possit vivere sine aqua directe capiebunda; humidum ex cibo accipiens.
+  animal.fox:
+    label: lupa
+    summary: Astutum animal domesticae speciei cum crinito coda ac rubro pellice.
+    info: '{"hint":"astuta parva canis cum cauda densa et pilosa","info":"Lupus vulgaris est felinus domesticus qui habitat silvis, pratis atque urbibus, adaptabiliter vivens omnium locorum conditionibus congruenter."}'
+  animal.gazelle:
+    label: thompsonii gazell
+    summary: Levis velox africanæ sylvestris pratarum anti-lopa.
+    info: Thomsonii gazzelle est una ex maximis afro-gazelarum generibus distributae. Potest velocitatem superare octoginta kilometer per horam et saltus characterísticos efficit ut praedatoribus nuntietur. In ingentia grege habitat atque leopardorum, lionum ac cynocephalorum cibos principales sunt.
+  animal.giant_anteater:
+    label: Pilocerus magnus
+    summary: Magnus animalium mamiferum sine dentibus cum naso allongato et lingua viscosa.
+    info: Pilocerum magnus est maximae speciei pilocerotis et habitat America media atque Australis Americo. Non habet dentes; formicaria rumpit fortes unguas et formicas colligit usque ad sexaginta centimetros lingua viscosa. Die comedit plusquam triginta quinques milia formigarum ac termittarum.
+  animal.giant_panda:
+    label: Ursus Ailuropter
+    summary: Ursum bipunctatum de Silvarum Occidentalis qui unice per frondes Bambo comedit.
+    info: '{"hint":"ursa nigromaculata ex Sinarum silvis","info":{"label": "Ursus Ailuroptera", "summary": "Bipunctatus urso Sinensis exclusiva alimentari Bambuso."},"infotext": "Magnam Pandam originem ab occidente Sinarum habere et typicum symbolum conservationis naturae esse dicuntur. Praeterquam quod carnivor est anatomiciter, prope totum ciborum suorum regimen Bambo sylvestri consistit; idcirco adprehendendi caudiculae bambo cum digitulo supernumerario ossium carpi utitur. Nummus circiter mille octingentas specimen ferocia sunt."}'
   animal.giraffe:
     label: giraffa
     summary: Altissimum animal terrestre cum collo valde longo.
     info: Giraffa est altissima animalia terrestris mundo; masculi ad altitudinem plusquam quinque metrorum pervenire possunt. Collum longum folia acaciae attingere permittit, quae sunt eius principalis ciborum fontes.
+  animal.gorilla:
+    label: orangus
+    summary: Maximus Primatus telluris orbisque terrarum
+    info: Orangus est maximus animalium Primatiordis genere et magnae simiae ex Aegupto Equatorialis sunt. Masculus adultus ad usque ducentos chiliogrammos pondus habet potens esse.
+  animal.hippopotamus:
+    label: rhippoptamos
+    summary: Magnus semiaquatilis Africae Rhippopotami cum mandibulis ingentibus.
+    info: Rhippotamuses amphibios est tertius maximus animal terrestre post elephantem et rhinocerotem. Dies nocturnis dormit aqua quae eundem ab aestu defendat atque noxibus diebus pascatur super terras solidas. Cuticula rubrum liquor effert qui ut sunt crème ac antibioticum fungitur.
+  animal.hyena:
+    label: hyaena
+    summary: Macularis praedator ac carnicola Africae silvestrium.
+    info: Hyaena maculata est maximus familiae Hyaenidae et contra famam non primum cadaverescens; plusquam sexaginta percentum cibi se ipsum captat.
+  animal.jaguar:
+    label: iagar
+    summary: Maximus felinus America cum maculis rotatis.
+    info: Iaguaris est tertius maximus felinus mundo et unica magna fera Americae borealis atque meridionalis. Differt ab leo pardali punctulis parvis intra maculas rotatiles habente. Est bonus nata tor ac piscator qui pisces captare potest tamquam crocodilos item capibaras.
+  animal.kangaroo:
+    label: wallabia
+    summary: Magnum Australianum Marsupiale saltans per fortiores pedales.
+    info: Wallaby rufus est maximus animalium Marsupialis Australis et altissimum saltitantem animalem mundo; potest salire ultra novem metra distantiam.
+  animal.koala:
+    label: Phascolarctos cinnamom
+    summary: Mammale Phascolarctos cinnameum habitat arboreis Eucalypti.
+    info: Koala non est ursidae sed unum mammalium metatheria. Nutritur fere exclusiva foliosis de Eucalipto quae sunt venenosa ad plera animalia et habet systema digestivi speciale. Dormit usque ad vigintiduo horas diei ob valorem nutritius parvum foliorum.
+  animal.leopard:
+    label: leo
+    summary: Felis maior cum pellice maculato.
+    info: Leo leo est felis maximus et rarus climbat arbores ad carnem suam protegendum ab hienis atque leonis. Adaptabilitas superat ceteros felines magni generis viventes Africae, Oriente proximo ac distante.
   animal.lion:
     label: leo
     summary: Magnus felis vivens in sylvis Africanis.
     info: Leo est magnus fēlis qui habitat praecipue in silvis et pratis Aethiopias infra desertum Saharicum. Vivunt gregibus quae prides appellantur; feminae venantur simul, dum barba conspicua masculi ad terrendos hostes serviat. Leo saepe dicitur rex animalium.
+  animal.lynx:
+    label: felix
+    summary: Medium feline cum pinnulis pileorum ad acmes aure.
+    info: Felis pardina est maior felinus Europae et medium magnitudo cum pellice rufus-cinerascens. Distinguitur per pilos nigros apicem auriumque atque coda brevis. Capiat principaliter crepusculum nocteque tempore cervidos et capras venandi.
+  animal.mandrill:
+    label: Mandrius
+    summary: Coloratissimus Primatis mundo cum facie azurea-rubeola
+    info: "Mandrius est maximus simius vivens et coloratissimus Primati velutis \narum masculi habent faciem caeruleam ac rubram conspicue signantem statum socialem\nhabitatur gregariis silvis equatorialibus Camerunenses, Gaboneses atque Republicae Congolensi"
+  animal.meerkat:
+    label: suriocatta
+    summary: Animalium genus parvulum communale ab arido deserto Kalaharion.
+    info: Suriocattus est animalia parva ex familia mustelidarum quae habitat Aegypto meridionali et vivunt cum structura sociale fixa inter eosdem qui semper unus custodiat de locis elevatis.
+  animal.moose:
+    label: elaphus
+    summary: Maximus mammalis cervidum cum cornibus amplificatis.
+    info: El elaphus est maximus cervidae familiae animalium et masculi altitudinem superant duos metra ad rumpum cum cornibus latissimis quae panduntur usque centimetris decem octo. Habitat silvis taigicis America Septentrionalis Europae Asiae. Est bonus natans submersibilisque caput suum mergens propter plantas aquatis.
+  animal.okapi:
+    label: equus okapis
+    summary: Silvestris cognatus camelopardalis cum zebratis pedibus ex Congou.
+    info: Equus okapis ab anno saeclorum decimo nono primo centenario scientificè descriptum est et inter ultima magnifica animalia quae scientia inventavit numeratur. Licet aspectui sit mixtura camelopardalis cum equino striato, proximus parentis viventis camelopardali esse dicitur.
+  animal.orangutan:
+    label: pongo
+    summary: Magni rubro-capilli simii arborescentes de insulis Bornéo ac Sumbaia.
+    info: Homo pongo est unica species hominoidea foris Africa habitans. Nomen eius ex lingua Malae originatur et significat 'hominem silvestrem'. Inter primatas magnas solitarius maximus reputatus est atque multum vitæ inter ramorum coronas transigit.
+  animal.otter:
+    label: castore
+    summary: Jocundus semiaqua genus quid animales habitat per pura ac fluens fontes.
+    info: Castor fluvialis est animalis familiae mustelinorum perfecte adaptatum ad vitam aquae vivendi habitum habentem. Habet densas et impermeabiles pellem pilosque cum membranulis natanti bus utique potest aerem plus quam unius minute tenere. Castores sunt indicatores boni status aquaticus sanitatis circumstantiae.
+  animal.polar_bear:
+    label: polaris leo
+    summary: Maxima ferocina arcotica.
+    info: Polaris leo est maior fera terrestri et predator supremus in Arcida. Pelagus eius candidum calorem perfecte isolatur; singuli capilli sunt cavati atque transparentes. Excellebat natando potest peragrare centenas kilomentros. Affectatio globali calorifero diminuit locos glaciebus ubi cacciat et totam populationem minitat.
+  animal.porcupine:
+    label: porcos erici
+    summary: Magnus roditius armatus acuminate spina.
+    info: Porcus erici est animalia herbivorum familiae Rodentiaria cum spinis acutissimis et cavi spina mutatis pro defensio contra praedatores. Spines non sagittas effunduntur sed facile excidunt atque hostes vulnerant si tactus fit. Porcus erici maximus Africae Rodento est nocturnum folium corticis radices aut vegetabilia quaerit.
+  animal.raccoon:
+    label: ursus
+    summary: Animal americanum cum facie nigra simulans laviendō.
+    info: Ursus cinereoauratus est animal omnivorum et nimis adaptabile quod originariam ab Americâ Septentrionali ad Europam ductum nunc ibidem multa crescit. Notatur ut cibos manibus lavens antequam comedat sed vere digitorum sensibilitatem mitigare cupit.
+  animal.reindeer:
+    label: reindier
+    summary: Arctico regionum cervidem genus cum cornibus utrisque sexibus.
+    info: Reindeer is adapted to live in arctic environments such as taigas across North America, Europe, and Asia, capable of migrating thousands of kilometers per year due to seasonal changes affecting food availability.
+  animal.rhinoceros:
+    label: rhinocerotis
+    summary: Magnus mammalis cum uno vel duobus hornis nascentium.
+    info: |-
+      Rhinoceros albus est secundus maximus animal terrestre post elephantem.
+      Cornua eius non sunt ex ossibus sed ex chitino, eadem materia ut unguia hominis.
+      Rhynocoeri gravi periculo propter falsam opinionem de medicina cornuum subiecti sunt.
+      Duo species vivunt in Africa et tres in Asia.
+  animal.sloth:
+    label: lenochodus
+    summary: Animal tardissimum ligneum suspenditur capite inferius inter ramos.
+    info: Lenochodus est animal terrestre arboricolens perfecte adaptatum ad vitam lentam inter ramis tropicalium frondarum lignorum. Movetur tam tarde ut alga viridis creantur super pellem propter camuffamentum et metabolismus eius sit ita piger quidem digerat semel hebdomadique.
+  animal.snow_leopard:
+    label: leopardo niveo
+    summary: Magnus felis ex specie Panthera tectonica qui habitare videtur apud Alpes centrales Asiae.
+    info: '{"inf": "Leopardus niviger habitat montibus altis regionum centralium Asiæ inter elevatas altitudines de trīs milliēs ad quinquaginta milias pedes. Caudā longissimō utitur ad æquilibrium servandum super rupibus et saxorum difficultate ambulandam. Numerus ejus est parvus; circa quadragesimum aut sexagenarium milliarium tantùm existunt mundo per totūm."}'
+  animal.tapir:
+    label: tapiro
+    summary: Herbívora cum brevi rostro similes rhinocefali atque equi.
+    info: Tapiros est animalia silvestria similium rhinocerotum et equorum sed non eadem familiae sunt.
+  animal.tiger:
+    label: tiger
+    summary: Maxima bestia felinus cum pelle rufescente transversim lineata.
+    info: Tigres sunt ferae maximae felinae libere viventes; singuli ex eis habent unicum modum striarum tamquam digitus manus humana. Contrario leo non societatem amant sed solitudinem et natanti peritis sunt.
+  animal.warthog:
+    label: sus papiros
+    summary: Sus Africanus cum dentis grandia atque papillas super facies habens.
+    info: '{"hint":"africanum ver sacrum cum incisoribus facialis","info":{"label": "ver sus scrofae","summary": "Ver Africanum cum dentes ingentes et papillae super faciem."}}'
+  animal.wild_boar:
+    label: suis ferus
+    summary: Porculus silvester cum incisoribus longioribus qui omnia genera suarum domesticatarum genuit
+    info: '{"hint":"Suis Scrofa","info":{"label":"sus ferus","summary":"porcus feralis cum incisoribus et anteriore dentium dispositione; progenitor omnium porcorum domestica","definition":"> Sus scrofa est species silvestris Eurasiae, originaria forma praecursoria omnium generantium pecoris suis domesticorum\n> Sunt animalia intelligentissima atque admodum versilia quae radices excavant ac glandulas comedunt vel parva animalcula venandi\n> Feminae seu susciones prole sua curare solent inter coetulos\n> In Bohemia sunt saepius cacciatores"}}'
+  animal.wildebeest:
+    label: gazzela
+    summary: Antilope afri mittere dum grandissima terra transitio.
+    info: Gazella grantii est nota inter maximas migrationes terrestres mundo; annuatim plerumque millionis animalium transigit inter Sereni et Marianam Maasiensiam. Est praeda principaliter leopardorum, lionarum atque cocodrilarum.
   animal.wolf:
     label: lupus
     summary: Selva canina, progenitor domesticæ canis.
     info: Lupus est maior fera caninis silvestris et progenitor domesticæ canis. Vivit et venat in packis cum fixa sociali hierarchia et communicat ululatu pro signando territorium et congregando packem.
+  animal.wolverine:
+    label: gulo
+    summary: Forte atque ferox animale famiae Mustela abitat nemora ac deserta glacialia.
+    info: '{"label":"gulo","summary":"Fortis et ferociter vivens animalis familiae Musteloidea arborum frigidae regiones."}'
   animal.zebra:
     label: equus zebra
     summary: Afrikanum equinum cum fasciis nigris et albis.

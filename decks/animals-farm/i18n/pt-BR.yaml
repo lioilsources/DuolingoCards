@@ -2,6 +2,30 @@ lang: pt-BR
 pivot: false
 title: Animais de fazenda
 cards:
+  farm.alpaca:
+    label: alpaca
+    summary: Pequeño pariente della cria para la suave lana.
+    info: '{"hint":"pequido camileiro sul-americano criado por sua fina lã (Vicugna pacos)","info":"A alpacas é um parente menor da llama domesticada nas montanhas altas dos Anes\nSua fibra é uma das mais delicadas fibras naturais no mundo; ela é quente e hipoaler-gênica e ainda mais suave que o cashmere\nHá duas raças distintas: huacayas(cabeludo) y suris(seda-like).\nO cultivo de alpacas está rapidamente crescendo também em Europa","label":"alpaca","summary":"Parente pequeno da llama criado pela sua deliciosa lã."}'
+  farm.barn_cat:
+    label: gato de curral
+    summary: Um tipo específico de animal domestico mantido no rancho como predador contra os animais roedor.
+    info: Gatos de curral são gatinhos que viviam em ambientes agrários e caçam ratos para proteger o armazenamento do alimento dos roedores. Eles geralmente estão menos sociabilizados com humanos comparados aos outros tipos de gato domesticado.
+  farm.beehive:
+    label: colméia
+    summary: Estrutura feita com madeira usada como moradia para Abelhas.
+    info: Uma colmeia é o habitat artificial de uma colonia da abelha Apis Mellifera que substitui os buracos em árvore onde vivem outras espécies selvagens.
+  farm.boar:
+    label: cançoi
+    summary: Macho reprodutivo do suino.
+    info: Um macho não castrado de porco ou javali domesticados é chamado de canceiro em fazendas para reprodução e fertilização artificial com seu esperma. O javalis selvagens têm presas grandes são capazes de defesa violenta contra ameaças.
+  farm.calf:
+    label: bezerro
+    summary: Filhotinho de vaca com menos que um anos.
+    info: Um bezerro é o filhote de gado desde seu nascimento até sua desmama ou por um período máximo de um ano.Novos bezerros conseguem ficar em pé rapidamente após nascer e os reflexos da mãe são fortes.Bezerros criados para produção láctea normalmente são separados cedo das mães.Carnes provenientes dessas fêmeas jovens chamadas veal são consideradas iguarias apreciadas pelas culinárias europeias.
+  farm.carp:
+    label: carp
+    summary: Grande peixe dulcícola; prato tradicional do natal tcheque.
+    info: O carpio comum é o maior peixe cultivado nos lagos da Tchéquia e está indissociavelmente ligado às festividades de Natal no país. Foi domesticado na Europa Central durante a Idade Média especialmente nas regiões checas como os lagos de Trebon. É um carnívoro onívoro que cresce rapidamente podendo atingir mais de 30kg.
   farm.chicken:
     label: galinha
     summary: Ave doméstica que põe ovos.
@@ -10,6 +34,10 @@ cards:
     label: vaca
     summary: Animal de fazenda que fornece leite.
     info: A vaca é mantida para produção de leite e carne. É um dos principais alimentos no mundo todo; uma vaca leiteira pode produzir diariamente entre 20 e 30 litros de leite.
+  farm.deer:
+    label: cervo doméstico
+    summary: Cervos ou dacinus domesticados no campo tcheque destinam-se principalmente ao abate como fonte alimentar.
+    info: Em terras e fazendas na República Tcheca são criados cervos ou dainhas para carne de caça. Os dacis são mais pequenos que os cervos comuns e têm cornamenta caracteristicamente ramificada; eles perdem suas cornas anualmente e crescem novamente. A carcaça dos animais da fazenda é uma opção saudável em comparação à carne bovina.
   farm.donkey:
     label: ásino
     summary: Animal de carga confiável com passo firme.
@@ -18,19 +46,180 @@ cards:
     label: pato
     summary: Ave aquática com bico plano criado em fazendas.
     info: O pato doméstico é uma ave de granja criada para carne e ovos. Ele nada bem graças às membranas entre os dedos e emite um som característico de quack.
+  farm.emu:
+    label: criação de emús
+    summary: Criações industriais de Emú no contexto Australiano visam principalmente obtenção comercializada através do uso específico direcionado à produção alimentícia ,cosmética ou textil.
+    info: A Emu é criada nas fazendas da Austrália para carne e óleo de gordura usados como ingredientes cosméticos além também da pele que pode ser aproveitada industrialmente.O óleo obtido dessa espécie possui propriedades anti-inflamatórias sendo utilizado tanto pela medicina tradicional quanto atual.A criação dessas aves está crescendo inclusive nos Estados Unidos e Europa.Além disso,a curiosidade natural das Emus permite que elas aproximem-se facilmente dos humanos.
+  farm.farm_shrimp:
+    label: camarão da fazenda
+    summary: Camarão marinho criado com alta densidade populacional nos viveiros costeiros
+    info: |-
+      A camarão branco do Pacífico é o tipo de camaron mais cultivado no mundo atualmente
+      As fazendas estão localizadas principalmente em Ásia Sudeste e América Latina
+      O cultivo intensivo desse camarão gera controvérsias pela influência sobre os recifes de mangle
+  farm.foal:
+    label: potro
+    summary: Filhotinho de cavalo por menos da idade anual; está sobre suas patas já dentro das primeiras horas.
+    info: Um potro é um filhote de cavalo até seu primeiro ano de vida. Nos primeiros horas após nascer ele consegue ficar em pé e começa logo depois a mamar. Eles possuem pernas longas comparadas ao corpo que encurtam com sua amadurecimento.
+  farm.freshwater_crayfish:
+    label: carangueijo-do-río
+    summary: Crustácio dulcícola cultivado como iguaria.
+    info: O caranguejo de rio era comum na Boêmia, mas foi quase extinto pela praga dos caranguejos e pelo polimento da água. Hoje é criado em fazendas especiais. É um indicador da pureza d'água pois só vive nas águas limpas. No século XIX o transporte desses caranguejos para França e Alemanha tornou-se uma grande atividade comercial.
+  farm.garden_snail:
+    label: caracoila de jardin
+    summary: Molusco terreste grande consumido pela cozinha Francesa sob forma dos famosos escargots.
+    info: O caracolí de jardim é o maior molusco terrestre da Europa e uma delicada francesa conhecida como escargots que são servidos na culinária local com esse nome específico. Durante os meses mais frios do ano ele entra em hibernação fechando seu casulo por completo com um filme protetor chamado 'hibernacula'. A criação dessas criaturas viventes acontece principalmente nos países europeus tais quais França ou Italia.
   farm.goat:
     label: cabra
     summary: Animal de fazenda com cornos que produz leite saboroso.
     info: A cabra doméstica é criada para produção de leite, carne e lã. É adaptável e consegue sobreviver em diferentes tipos de vegetação, incluindo áreas secas.
+  farm.goat_dairy:
+    label: cabra leiteira
+    summary: Cabras criadas especificamente por seu valor nutricional elevado presente nos produtos lácteos produzidos delas.
+    info: A cabra domesticada foi domesticada há mais de 10 mil anos e é um dos animais agrícolas mais comuns no mundo inteiro.O leite da cabra contém nutrientes em abundância que são fáceis para o corpo humano digerir comparado ao leite vaca; ideal especialmente pessoas sensíveis à lactose.Sabões famosos como Chevre, Fetta ou Hallumie são feitos usando esse tipo especializado de produto animal.
+  farm.goose:
+    label: Ganso Doméstico
+    summary: Grande ave da criação destinada à produção carnuda leve, penagem fina e plumagens isolantes.
+    info: A gansa comum foi domesticada há mais de 3 mil anos e é uma das primeiras espécies animais domesticadas conhecidas; em Roma antigamente eram usadas para guardar o Capitólio. É valorizada por sua carne magra, ovos ricos em proteínas assim como seu fígado gorduroso utilizado na culinária francesa chamado foie-gras.
+  farm.guinea_fowl:
+    label: pavão-de-cabeça-vermelha
+    summary: Pássaro africano criado por sua carne e também como vigilante contra serpentes.
+    info: '{"hint":"galinha d''angola com capacete mantida em fazendas para controle de pragas (Numida meleagris)","info":"O pavão-de-cabeça-vermelha é originário da África onde vive selvagem nas savanas\. Nas propriedades rurais ele é valorizado como um vigia natural\; seu canto alto avisa sobre cobras, predadores e pessoas desconhecidas\. Tem penas cinzentas pontilhadas brancamente características e cabeça vermelho-acinzentada sem plumagens\. A carne dele tem sabor similar à caça ave","label":"pavão-de-cabeça-vermelha","summary":"Pássaro africano criado por sua carne e também como vigilante contra serpentes."}'
+  farm.guinea_pig_farm:
+    label: roedor da família Cavy
+    summary: Roedores criados em toda a América Latina ou mantidos como animais de estimação.
+    info: O caviú é originário dos Anos e foi domesticado pelos incas há mais de 3 mil anos como fonte de carne. Atualmente ainda é uma refeição tradicional no Perú, Equador e Colômbia chamada 'cuy'. Na Europa e na América do Norte ele se tornou um animalzinho popular para crianças.
+  farm.highland_cattle:
+    label: gado escocês highland
+    summary: Gado escocês com pelagem marrom avermelhada e cornos robustos.
+    info: O gado escocês de高地 é uma raça antiga criada nas condições difíceis das terras altas da Escócia.
   farm.horse:
     label: cavalo
     summary: Animal de estimação forte usado para montaria e trabalho.
     info: O cavalo doméstico (Equus ferus caballus) é um grande animal utilizado na agricultura e no esporte. Por milhares de anos foi essencial para transporte, agricultura e combate. Atualmente também é criado para fins esportivos e recreativos.
+  farm.lamb:
+    label: cordeiro
+    summary: Ovelhada jovem menor que dois anos usada para representar primavera e inocência.
+    info: Um cordeiro é uma ovelhinha com até um ano de idade. Nascem cobertos por lã e começam logo no início da vida alimentando-se pastoreio na terra firme ou em campos abertos. Na religião cristã ele simboliza pureza absoluta assim como Jesus Cristo personificado pelo Cordeirinho Divino.
+  farm.llama:
+    label: llama
+    summary: Mamífero camilimorfo sul-americano criado pela lã e usado também no transporte.
+    info: A llama é um animal semicarnívoro da América do Sul que foi doméstico pelos incas há mais de cinco mil anos atrás e servia como principal meio para transporte na região dos Anes por ser capaz carregar até trinta por cento do seu peso corporal total.
+  farm.mule:
+    label: burro
+    summary: Hibrido infertil entre cavalos domésticos e equinos com excepcional vigor físico.
+    info: O burro é um híbrido de uma jumenta e um cavalo selvagem; o cruzamento inverso chama-se muaça.O animal estértil tem grande resistência física, força muscular elevada e adaptação ao ambiente natural.Ele possui boa percepção do espaço geográfico em que está inserido.
+  farm.mussel:
+    label: stra
+    summary: Molusco marinho comestível criado sobre linhas nas águas costeiras.
+    info: Ostras de água doce são moluscos cultivados em cordas ou redes ao longo da costa europeia no Atlântico. Filtra a água e é um alimento sustentável com baixa pegada carbônica.
+  farm.ostrich:
+    label: avestruz de criação
+    summary: Avestriz criada por sua carne, penas e couro.
+    info: O avestruz é o animal bico-pod mais rápido e ele também pode ser criado em fazendas para carne, couro e penas.
+  farm.ox:
+    label: Touro
+    summary: Macho bovino castrado historicamente considerado como o principal animal agrícola.
+    info: Um touro é um macho castrado da raça bovina domesticada para trabalhar. Por milhares de anos foi o principal animal de tração na agricultura em grande parte do mundo. Devido à sua força e natureza dócil, arou mais terra que cavalos no início da agricultura.
+  farm.oyster:
+    label: ostra de cultivo
+    summary: Molusco bivalvo criado por meio da utilização de cordéis ou grades nas regiões litorâneas.
+    info: A ostra é cultivada em águas costais com cordéis ou gaiolas e amadurece entre três e cinco anos. Ela filtra água ajudando no limpeza dos ecossistemas marinhos.
+  farm.peacock:
+    label: paio-doméstico
+    summary: Macho-paio mantido nas propriedades rurais por sua beleza.
+    info: O pavão azul é originário da Índia e foi domesticado há milhares de anos como ave ornamental. O macho abre mais de 150 penas decoradas em um impressionante ventilabre para atrair fêmeas. Seu canto é muito alto e estridente.
+  farm.pheasant:
+    label: faisão doméstico
+    summary: Fazéu criado nas propriedades rurais e liberado ao meio natural para fins esportivos.
+    info: O faisão comum é criado em fazendas e regularmente solto no ambiente para caça nos países da Europa Central como o Brasil também adota essa prática de manejo cinegético. Ele tem origem asiática sendo introduzido na Europa pelos romanos há muito tempo atrás.
   farm.pig:
     label: porco
     summary: Animal de estimação rosa com focinho carnudo.
     info: O porco doméstico é um animal inteligente criado para carne. É onívoro e capaz de lembrar tarefas complexas.
+  farm.pigeon_farm:
+    label: pombo-doméstico
+    summary: Pomba criada para carne (filhote chamado squab), ou competição em voos.
+    info: O pombo-doméstico é um pombo-rocha domesticado cujas centenas de raças foram desenvolvidas por meio da seleção artificial.
+  farm.piglet:
+    label: filhotes
+    summary: Jovens animais que normalmente têm uma coloração rosada
+    info: |-
+      Um filhote de porco é o jovem da fêmea suína nos primeiros meses após seu nascimento
+      Filhotinhos recém-nascidos são pequenos mas crescem rapidamente;
+      as matrizes geralmente dão à luz entre dez e doze bebês numa única criação;
+  farm.pony:
+    label: pône
+    summary: Raça equina popular para montaria infantil.
+    info: O pony é um pequeno cavalo de raça que não ultrapassa os 14,2 palmos na cernelha.
+  farm.quail:
+    label: perereca japonesa
+    summary: Pequena ave criada comercialmente por seus ovos e carne.
+    info: A perereca japonesa é uma espécie de codorninha doméstica criada intensivamente para ovos e carne. As fêmeas botam um ovo quase todos os dias; esses ovos são considerados iguaria em muitas culinárias. Ela amadurece rapidamente começando a postar já aos seis semanas.
+  farm.rabbit:
+    label: coelho
+    summary: Coelha criada para carne ou como animal de estimação.
+    info: A coelho domesticado foi domesticado na Idade Média do coelho europeu selvagem e possui mais de 50 raças reconhecidas que variam em tamanho, cor e tipo de pelagem. Fêmeas podem ter entre quatro e dez filhos com várias ninhadas ao ano.
+  farm.ram:
+    label: bode
+    summary: Bode é uma ave com longos pelos na cabeça.
+    info: Um bode é um macho adulto de ovelha domesticada e tem chifres espirais proeminentes que fêmeas não possuem ou têm apenas pequenos.
+  farm.rooster:
+    label: galo
+    summary: Macho da ave Domestica Gallus ; Canto noturno ou matutino anunciando raios do Sol .
+    info: '{"hint":"galinha adulta macho com um pescoço colorido e cauda (Gallus gallus domesticus)","info":"O galo é o sexo masculino da galinhas domésticas e pode ser reconhecida pelo seu pente multicolorido e penas na calda\ne cantar do galo faz parte de comportamento territorial que acontece não só ao amanhecer mas em qualquer momento durante o dia\. No Brasil, o galo simboliza alerta no folclórico sentido cultural; ele também está entre os animais nos signos astrológicos chineses\. Os antigos Gregos oferecem sacrifícios aos seus Deuses como símbolo das primeiras luzes do sol","label":"galo","summary":"Sexo masculino dos frangos; canta para anunciar o nascente."}'
+  farm.salmon:
+    label: salmão
+    summary: Grande peixe marinho que migra até os rios para reproduzir-se; amplamente cultivado nas fazendas.
+    info: O salmão comum é um peixe anadrômico que cresce no mar e retorna aos rios natais para desovação. A capacidade de encontrar seu rio natal depende da navegação pelo campo magnético terrestre e por olfato. O cultivo intensivo de salmones em Noruega e Escócia faz parte dos maiores setores da aquicultura.
   farm.sheep:
     label: ovelha
     summary: Animal lanoso que produz lã e leite.
     info: A ovelha é criada para sua lã, leite e carne. Vive em rebanhos e é um dos primeiros animais domesticados na história.
+  farm.sheepdog:
+    label: cachorro pastor
+    summary: Cão especialmente treinado desde filhote para orientação visual e controle sem barulho em manadas.
+    info: O Border Colli é uma raça de cão usada para guiar e controlar rebanhos com olhar atento e ordens silenciosas no campo. É considerado um dos cachorros mais inteligentes do mundo canino.
+  farm.silkworm:
+    label: gusano-da-seda
+    summary: Larvas dos besouros sericicultores produzem sedas naturais.
+    info: |-
+      O gusano-da-seda é uma larva da mariposa Bombyx mori domesticada na China há mais de cinco mil anos atrás.
+      Seu casulo contém um fio com comprimento superior a novecentos metros e serve como fonte do seda natural
+      Tão valioso era esse material que por séculos os segredos relacionados à sua produção eram rigorosamente guardadas pela China,
+      e até mesmo o nome Rota da Seta foi inspirado pelo comercio desse produto.
+  farm.sow:
+    label: porca
+    summary: Fêmea adulta da raça suína.
+    info: Uma porca é uma fêmea adulta de um javali domesticado que pode parir duas vezes ao ano e tem ninhos com cerca de dez a quatorze filhotos. A cria intensiva desses animais em gaiolas pequenas no agronegócio atual desperta controvérsias sobre condições inadequadas para sua manutenção. Porcas são criaturas muito espertas; na natureza elas cuidam dos seus bebês durante entre 12 até 16 semanas.
+  farm.tilapia:
+    label: tilapia
+    summary: Peixe tropical dulcícola amplamente cultivado ao redor do globo.
+    info: A tilápia-do-nilo é uma das peixes de cultivo mais difundidas do mundo; milhões de toneladas são produzidas anualmente. Originária do rio Nilo e lagos africanos, hoje ela é criada em todos os continentes. É resistente, cresce rapidamente e não exige muito alimento.
+  farm.trout:
+    label: trout
+    summary: Peixes salmoides cultivados simultaneamente sob regime controlado ou selvagem
+    info: |-
+      Arco-rainha é originário da América do Norte e foi introduzido na Europa como peixe de cultivo em fazendas aquáticas.
+      Truta comum vive nas águas limpas correntes europeias desde sua origem natural no continente.
+      Ambas são apreciadas tanto por esportistas quanto pela culinária gourmet.
+      A criação dessas espécies tem sido uma atividade tradicional tcheca especialmente nos ambientes montanhosos.
+  farm.turkey:
+    label: peru
+    summary: Ave grande criada para consumo carnoso especialmente durante festividades americanas.
+    info: |-
+      O peru é originário da Mesoamérica e foi domesticado pelos astecas há mais de dois mil anos atrás.
+      Os machos têm uma característica penugem no pescoço que pode ser levantada em forma de abanico ou cauda estendida como um pavão.
+      Nos Estados Unidos o peru está associado ao Dia de Ação de Graças sendo tradicionalmente servido nesta ocasião;
+      globalmente ele também se torna popular por seu carne magra.
+  farm.water_buffalo:
+    label: buffalino
+    summary: Grande bóvido asiático utilizado como principal rebanho nos cultivos de arroz.
+    info: O búfalo-doméstico é uma espécie de animal criado em águas rasas e um dos principais animais agrários da Ásia. Por milhares de anos ele arava campos de arroz e transporta cargas pesadas nas terras férteis do continente. O seu leite tem mais gordura que o vacum e serve para fabricar mussarela especial.
+  farm.yak:
+    label: Yak
+    summary: Grande animal lanoso originário das terras elevadas tibetasanas usado principalmente como fonte alimentar tanto em termos protéicos quanto energéticos.
+    info: |-
+      {"hint":"bovídeo de grande porte e pelagem abundante da planície do Tibet","info":"O yak é uma espécie domesticada que vive no alto platô tibetano entre altitudes variando dos 3 mil aos cinco mil metros.
+      É fundamental para economia local fornecendo carne,melhoramento animal,voltas ao redor e lã muito fina e quente.
+      Um híbrido chamado dzomo resultou cruzamentos com gados europeus gerando maior produção láctea comparativamente à raça pura."}

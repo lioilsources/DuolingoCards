@@ -2,18 +2,82 @@ lang: en
 pivot: false
 title: Parts of the Body
 cards:
+  body.ankle:
+    label: ankle
+    summary: Joint linking the heel bone to the shinbone.
+    info: The ankle is formed by three bones connecting the lower leg to the sole of the foot. It allows movement upwards and downwards along with slight side-to-side motion. Ankle sprains are among the most common sports injuries.
+  body.arm:
+    label: arm
+    summary: Upper body appendage extending all way down towards wrists.
+    info: 'The arm is an upper extremity composed of three segments: forearm above elbow joint area called ''nadloctí'', lower part known as wrist (''předloktí''), followed by hands themselves; it contains over thirty muscles along their respective bones which facilitate movement through tendons connecting them together at joints like elbows where humerus connects radius & ulna.'
+  body.back:
+    label: back
+    summary: Posterior portion of body's core structure.
+    info: The back is located at the posterior part of the trunk extending from the neck to the hips. It contains the spine made up of thirty-three vertebrae surrounded by muscles such as those found on the backside itself.
+  body.belly_button:
+    label: bellybutton
+    summary: Scar on your stomach after cutting off the umbilical chord.
+    info: The belly button is an scar at the site where the umbilical cord was attached to provide nutrients for the fetus during pregnancy.
+  body.bone:
+    label: bone
+    summary: Hard connective tissue making up the skeletal system.
+    info: Bone is made up of bone cells and mineral salts such as calcium and phosphorus. The adult human body has 206 bones while children have over 300 that fuse together later on. Bone marrow produces red blood cells, white blood cells, and platelets.
+  body.brain:
+    label: brain
+    summary: Control center for bodily functions; most complex biological structure known.
+    info: The human brain weighs approximately 1.4 kilograms and contains over 86 billion neurons. It is divided into two hemispheres—the left hemisphere controls movement on the right side of the body and vice versa—while it consumes about 20% of the entire body's energy despite making up only around 2% of its mass.
+  body.calf:
+    label: Calf
+    summary: Posterior section of the lower leg located beneath the knee.
+    info: The calf is the posterior muscular portion of the lower leg between the knee and ankle. The main muscle of the calf (gastrocnemius) allows standing on tiptoes and jumping propulsion. Calf muscles play an essential role in returning blood to the heart through veins.
+  body.cheek:
+    label: cheek
+    summary: Fatty region flanking both sides near mouth corners showing emotions via blushed coloration.
+    info: The cheek is an area located at each side of the face containing facial bones such as the malar bone along with fatty pads that give it its plump appearance. Blushing cheeks indicate emotional responses like shyness or excitement due to physiological reactions involving blood flow changes under skin layers where capillaries dilate automatically without conscious control over them by brain signals sent through autonomic nervous system pathways which regulate involuntary bodily functions including heart rate adjustments during stress situations when people experience strong feelings about something happening around themselves.
+  body.chest:
+    label: chest
+    summary: Anterior part of the trunk containing vital organs such as心脏和肺.
+    info: The chest is bounded by ribs, sternum, and spine on its anterior part of trunk body section area region location position orientation direction alignment shape form structure composition arrangement organization system network pattern layout design plan scheme model framework skeleton architecture blueprint template format style appearance look feel vibe essence core heart soul spirit mind brain thought idea concept notion belief opinion view perspective angle approach method technique strategy tactic policy rule regulation law statute ordinance decree commandment instruction guideline manual guidebook handbook user's manual operating instructions directions guidelines rules regulations laws statutes ordinances decrees commands instructions directives guidance manuals handbooks guides books texts documents records files data information knowledge wisdom understanding insight awareness perception cognition recognition identification detection sensing feeling emotion mood state condition status situation scenario context environment setting backdrop background foreground middle ground near field far distance horizon skyline landscape scenery vista outlook prospect expectation anticipation hope optimism pessimism fear anxiety worry concern care attention focus concentration effort energy strength power force might influence impact effect consequence result outcome product yield return profit gain benefit advantage edge superiority dominance leadership authority control management administration governance oversight supervision monitoring evaluation assessment judgment decision choice selection option alternative possibility probability likelihood chance opportunity window opening door passage gateway portal entrance exit way path route trail track trace line lineage descent ancestry heritage legacy inheritance succession continuation sequence series chain link connection relation relationship association correlation dependency reliance dependence trust confidence faith belief conviction persuasion argument debate discussion conversation dialogue exchange interaction communication contact correspondence linkage tie bond union alliance partnership cooperation collaboration coordination synchronization harmony consonance accord agreement concord unity solidarity togetherness collectivism community society group team unit cell element particle atom molecule compound substance material matter stuff thing item article piece segment portion share fraction slice sliver fragment shard splinter chip屑片碎片碎块小部分
+  body.chin:
+    label: chin
+    summary: Lower portion of your facial structure beneath where you have lips.
+    info: The jaw is formed by the mandible at its bottommost position on our faces.
   body.ear:
     label: ear
     summary: Sense organ for hearing on the side of the head.
     info: The ear captures sound waves and transmits them as nerve signals to the brain. It also contains the balance system (vestibular system).
+  body.elbow:
+    label: elbow
+    summary: Joint that bends your arm named after bow
+    info: The elbow is located on the outer side between forearm bones and allows bending and straightening arms along with rotating forearms. Interestingly enough skin at elbows lacks touch receptors called Meissner's corpuscles which detect light pressure but not pain temperature etc.
   body.eye:
     label: eye
     summary: Sense organ for vision with a colored iris.
     info: The human eye can distinguish approximately ten million color shades. The retina contains rods (for low-light vision) and cones (for color vision).
+  body.eyebrow:
+    label: eyebrow
+    summary: Strip of hairs over face's upper part near nose bridge.
+    info: Eyebrows consist of strips of hairs located on top eyelids around eyes. They play an important role for non-verbal communication by expressing wide range emotions through eyebrow movements.
+  body.eyelash:
+    label: eyelash
+    summary: A series of curly hairs along an eyelid's margin protecting your eye.
+    info: Eyelashes are short curled hair that grow on edges of eye lids. They protect eyes against dust, sweat and foreign objects. An adult human has between hundred to fifteen lashes at upper lid and fifty up seventy-five lower ones.
+  body.finger:
+    label: finger
+    summary: One out three joints.
+    info: A finger is one of the fingers that allows us to manipulate tools, play music, write through their movements combinations. Fingerprints differ for each person due to density receptors touch.
   body.foot:
     label: foot
     summary: The part of the foot on which we stand and walk.
     info: The sole supports the weight of the entire body and enables walking upright on two legs. It has 26 bones, 33 joints, and over 100 muscles, tendons, and ligaments.
+  body.forehead:
+    label: forehead
+    summary: Front section of the skull over the brow area used for displaying emotional expressions.
+    info: The forehead is the front portion of the skull located between the hairline and eyebrow line. It's among the most visible areas when expressing emotions—frowning indicates concern. In many cultures, markings on the forehead have symbolic meanings such as vows or caste identity. Neurology links it to brain functions related to planning and decision-making.
+  body.hair:
+    label: hair
+    summary: Fibers emerging via pores present within skin layer specifically designed for supporting them known collectively referred simply just 'hairs'
+    info: Hair is made up of fibers composed mainly of protein called keratin that grow out through hair follicles located primarily at our heads. On average an individual has about hundred thousand hairs covering their scalp where approximately fifty to hundreds strands fall off daily while new growth occurs roughly by twelve point five centimeters per month due largely because each strand grows continuously until it sheds eventually after several years depending upon various factors like genetics etcetera.
   body.hand:
     label: hand
     summary: Part of the arm ending in five fingers.
@@ -26,11 +90,115 @@ cards:
     label: heart
     summary: Muscle pumping blood continuously throughout the entire body.
     info: The heart is a hollow muscle about the size of a fist that beats an average of 70 times per minute. Over its lifetime, it pumps blood over distances equivalent to three Earth circumferences.
+  body.heel:
+    label: heel
+    summary: Back portion of the sole that supports body weight when standing.
+    info: The heel bone is connected to Achilles tendon.
+  body.hip:
+    label: hip
+    summary: Area surrounding the pelvis
+    info: The hip is an area around the hip joint connecting femur to pelvic bone. It's ball-and-socket type weight-bearing joints used for walking support.
+  body.jaw:
+    label: jaw
+    summary: Lower facial bone involved in movement during eating and speech.
+    info: The mandible is the only movable bone in the skull; it allows chewing, swallowing, and speaking. The TMJ (temporomandibular joint), which connects to the mandible, is among the most complex joints in the body. Jaw pain can be caused by tooth grinding (bruxism) or inflammation within the joint.
+  body.kidney:
+    label: kidney
+    summary: Paired organ filtering blood and producing urine.
+    info: Kidneys are paired kidney-bean shaped organs located at the back part of abdominal cavity. They filter over 180 liters of blood daily to create about 1–2 liters of urine; they contain more than million filtration units called nephrons. Kidneys regulate blood pressure, electrolyte balance, and production of red blood cells.
+  body.knee:
+    label: knee
+    summary: Largest body joint connecting thigh to lower leg.
+    info: The knee is composed of bones such as femur, patella, fibula; it contains two crescent-shaped cartilage pads called menisci that act like shock absorbers between these three bones.
+  body.leg:
+    label: leg
+    summary: Lower extremity extending all along right below hips down towards ankles.
+    info: The leg consists of three parts—the thigh, calf, and sole—and is adapted for walking on two legs using powerful muscles like those found within quadriceps femoris muscle groupings; specifically notable here would be that it houses some very strong tendons such as Achilles tendon which connects gastrocnemius musculature directly onto calcaneus bone.
+  body.lip:
+    label: lips
+    summary: Either of the pair forming part of facial expression at each corner around an opening for speech.
+    info: Lips consist of soft muscular tissue that frames the oral cavity on either side. They contain numerous nerve endings making them highly sensitive to touch and temperature changes.
+  body.liver:
+    label: liver
+    summary: Largest inner bodily organ that acts like an organic chemistry lab.
+    info: The liver is the largest internal body organ weighing over 1.5 kilograms. It performs more than 500 functions including cleaning the blood, producing bile, synthesizing proteins, storing glycogen, and it's unique because only part of its tissue can regenerate completely after damage.
+  body.lung:
+    label: lung
+    summary: Paired organ inside ribcage responsible for exchanging gases between atmosphere & bloodstream via microscopic structures known collectively.
+    info: Lungs consist millions of tiny air sacs called alveoli located within thoracic cavity that facilitate gas exchange by absorbing oxygen while expelling carbon dioxide during respiration process.
   body.mouth:
     label: mouth
     summary: Opening in the face used for eating, drinking, and speaking.
     info: The mouth initiates the digestive process – teeth chew food while saliva breaks it down. It is also the primary tool for speech and communication.
+  body.muscle:
+    label: muscle
+    summary: Contractible muscle enables bodily motion.
+    info: Muscle is contractile tissue enabling body movements; human bodies have over six hundred muscles making up forty percent of total weight—the strongest being masseters while smallest ones lie within middle ears.
+  body.nail:
+    label: fingernail
+    summary: Hard protein plates situated atop fingers.
+    info: A fingernail is a tough plate made of keratin located on top of every fingertip. It protects sensitive fingertips and improves grip when handling small objects. They grow approximately 3 millimeters per month; hand nails tend to be faster growing than those found upon feet.
+  body.neck:
+    label: neck
+    summary: Body region linking the head to trunk housing essential vessels.
+    info: The neck is an area between the skull and torso containing seven cervical vertebrae that house vital structures such as arteries, esophagus, windpipe, and spinal cord. It contains several muscles enabling rotation and tilting of the head. A giraffe has the same number of cervical vertebrae as humans do—seven—but they're much longer.
   body.nose:
     label: nose
     summary: Organ for smelling and breathing located on the center of the face.
     info: The nose filters, warms, and humidifies inhaled air. It can distinguish over one billion different scents and is closely linked to memory and emotions.
+  body.palm:
+    label: palm
+    summary: Interior part where most tactile sensors exist.
+    info: The palm is the internal area between fingers and wrist on your hand's interior side that contains dense networks made up entirely out sensory receptors called Meissners corpuscles which detect touch sensations very efficiently without any hair follicles present nor sebaceous glands being found there either.
+  body.shoulder:
+    label: shoulder
+    summary: Joint connecting upper limb to trunk that has greatest possible mobility.
+    info: The shoulder is formed by three bones—the humerus, scapula, and clavicle—and allows for greater range of motion than any other part of your skeleton.
+  body.skin:
+    label: skin
+    summary: Body’s greatest defense system providing thermal balance while also serving sensory perception needs.
+    info: Skin is the human body's biggest organ that covers an area approximately two square meters large. It performs functions such as protection against infection and ultraviolet radiation, temperature regulation through sweating and blood flow control mechanisms like shivering when cold to maintain internal temperatures within safe limits for bodily processes including metabolism which can be affected by extreme heat exposure leading potentially towards conditions similar those observed during fevers where high fever might cause dehydration due lack sufficient water intake after excessive perspiration resulting loss electrolytes essential life sustaining activities.
+  body.spine:
+    label: spine
+    summary: A stack of 33 bones protecting nerves while supporting upright posture.
+    info: The spine is made up of 33 vertebrae connecting the skull to the pelvis. It protects the spinal cord and serves as the body's main support structure. Intervertebral discs between each pair of vertebra act like shock absorbers.
+  body.stomach:
+    label: stomach
+    summary: Front part of torso below ribcage.
+    info: The stomach is located between the chest cavity and pelvis on the front side of your body trunk.
+  body.temple:
+    label: temple
+    summary: Soft region along both sides near top front portion under ears
+    info: The temple is an area located at each side of the head just below the ear lobe and behind the eye socket bone called颧骨。It's part of the skull that forms where it meets more easily than other parts making them vulnerable to injury when hit hard enough like during accidents involving blunt force trauma such as falls onto concrete surfaces.
+  body.thigh:
+    label: thigh
+    summary: Part of the leg below the pelvis up to just above the knees.
+    info: The thigh is a part of the lower limb located between the hip joint and the knee joint. It contains the strongest muscle group in the body—the quadricep femoris muscles and hamstrings—responsible for powerful movements like walking and running.
+  body.throat:
+    label: throat
+    summary: Passage linking oral cavity with alimentary canal.
+    info: The throat is an area behind the nose and mouth that serves both airway function and food transport through its passageways like pharynx leading down towards esophageal region where it connects directly above laryngeal structures.
+  body.thumb:
+    label: thumb
+    summary: Shortened strong fingertip used primarily through its unique opposing motion.
+    info: The thumb is a shortened finger on the human hand capable of opposition—the ability to touch other fingers—which allows for grasping objects between it and another part of the palm/hand. This opposable movement evolved over time specifically among primates and was crucially important during early tool use by humans.
+  body.toe:
+    label: toe
+    summary: One of the five toes per foot that bear part of your total bodily mass when you walk.
+    info: A toe is one of the five fingers on the human foot. The big toe plays an essential role for balance and push-off during walking by bearing most of body weight.
+  body.tongue:
+    label: Tongue
+    summary: Muscular organ involved tasting chewing language
+    info: The tongue is covered by taste buds over ten thousand that allow perception five basic tastes sweet salty sour bitter and umami It plays an essential role articulating speech helping swallowing The fastest muscle body works even when talking speeds exceeding hundred kilometers per hour
+  body.tooth:
+    label: tooth
+    summary: Hard structure used to chew food.
+    info: A tooth is composed of enamel (the hardest tissue in the body), dentine, and pulp chamber. Humans have thirty-two permanent teeth. Enamel does not regenerate after loss—prevention plays an essential role.
+  body.vein:
+    label: vein
+    summary: Blood vessels carrying oxygen-poor blood towards your heart.
+    info: '{"hint":"A vein is a type of blood vessel","info":"Veins carry deoxygenated blood back to the heart through their network within our body."}'
+  body.wrist:
+    label: wrist
+    summary: Joint linking the hand to the forearm essential for fine motor skills.
+    info: The wrist is an area connecting the hand to the forearm formed by eight small bones called carpals. It allows movement of the hand in four directions and rotation.

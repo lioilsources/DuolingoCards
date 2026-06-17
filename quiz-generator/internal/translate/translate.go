@@ -1,6 +1,6 @@
 // Package translate generates i18n YAML files for a deck using an LLM.
 // It reads the pivot i18n file (cs) and translates one card at a time to
-// stay well within token limits and Cloudflare's 100 s gateway timeout.
+// stay well within token limits.
 package translate
 
 import (
@@ -10,6 +10,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/duolingocards/quiz-generator/internal/content"
 	"github.com/duolingocards/quiz-generator/internal/langs"
@@ -23,7 +24,19 @@ Translate accurately and naturally. Rules:
 - summary: one clear sentence, same factual meaning as the source
 - info: 2-3 sentences, same facts as the source, fluid prose
 Do NOT add or remove facts. Do NOT transliterate — translate.
-Return ONLY a valid JSON object: {"label":"...","summary":"...","info":"..."}`
+Return ONLY a valid JSON object with string values: {"label":"...","summary":"...","info":"..."}`
+
+// cardSchema is the JSON Schema used for guided decoding of card translations.
+var cardSchema = map[string]any{
+	"type": "object",
+	"properties": map[string]any{
+		"label":   map[string]any{"type": "string"},
+		"summary": map[string]any{"type": "string"},
+		"info":    map[string]any{"type": "string"},
+	},
+	"required":             []string{"label", "summary", "info"},
+	"additionalProperties": false,
+}
 
 // Translate generates a target-language i18n file for the given deck.
 // Each card is translated in a separate LLM call to stay within token limits.
@@ -50,6 +63,12 @@ func Translate(ctx context.Context, client *llm.Client, d *content.Deck, targetL
 		existing.Cards = map[string]content.CardI18n{}
 	}
 
+	existing.Lang = targetLang.Code
+
+	if err := os.MkdirAll(filepath.Dir(outPath), 0755); err != nil {
+		return "", fmt.Errorf("mkdir: %w", err)
+	}
+
 	// Translate deck title if missing.
 	if existing.Title == "" || force {
 		title, err := translateTitle(ctx, client, pivot.Title, targetLang)
@@ -57,9 +76,13 @@ func Translate(ctx context.Context, client *llm.Client, d *content.Deck, targetL
 			return "", fmt.Errorf("title for %s: %w", targetLang.Code, err)
 		}
 		existing.Title = title
+		if err := writeI18n(outPath, existing); err != nil {
+			return "", err
+		}
 	}
 
-	// Translate each card individually.
+	// Translate each card individually, persisting after each one so a restart
+	// can resume from where it left off.
 	for _, c := range d.Meta.Cards {
 		if !force {
 			if ci, ok := existing.Cards[c.Key]; ok && ci.Label != "" && ci.Summary != "" && ci.Info != "" {
@@ -72,25 +95,40 @@ func Translate(ctx context.Context, client *llm.Client, d *content.Deck, targetL
 			return "", fmt.Errorf("card %s for %s: %w", c.Key, targetLang.Code, err)
 		}
 		existing.Cards[c.Key] = ci
+		if err := writeI18n(outPath, existing); err != nil {
+			return "", err
+		}
 	}
 
-	existing.Lang = targetLang.Code
-
-	// Write YAML.
-	if err := os.MkdirAll(filepath.Dir(outPath), 0755); err != nil {
-		return "", fmt.Errorf("mkdir: %w", err)
-	}
-	f, err := os.Create(outPath)
-	if err != nil {
-		return "", fmt.Errorf("create %s: %w", outPath, err)
-	}
-	defer f.Close()
-	enc := yaml.NewEncoder(f)
-	enc.SetIndent(2)
-	if err := enc.Encode(existing); err != nil {
-		return "", fmt.Errorf("write YAML: %w", err)
-	}
 	return outPath, nil
+}
+
+// sanitizeLine collapses all whitespace (tabs, newlines, runs of spaces) into
+// single spaces. Used for label and summary which must be single-line.
+func sanitizeLine(s string) string {
+	return strings.Join(strings.Fields(s), " ")
+}
+
+// sanitizeBlock removes tabs and carriage returns but preserves intentional
+// newlines. Used for info which may span multiple sentences.
+func sanitizeBlock(s string) string {
+	s = strings.ReplaceAll(s, "\t", " ")
+	s = strings.ReplaceAll(s, "\r", "")
+	return strings.TrimSpace(s)
+}
+
+func writeI18n(path string, f content.I18nFile) error {
+	out, err := os.Create(path)
+	if err != nil {
+		return fmt.Errorf("create %s: %w", path, err)
+	}
+	defer out.Close()
+	enc := yaml.NewEncoder(out)
+	enc.SetIndent(2)
+	if err := enc.Encode(f); err != nil {
+		return fmt.Errorf("write YAML: %w", err)
+	}
+	return nil
 }
 
 func translateTitle(ctx context.Context, client *llm.Client, csTitle string, t langs.Target) (string, error) {
@@ -115,28 +153,31 @@ func translateCard(ctx context.Context, client *llm.Client, hint string, pc cont
 		"Translate this flashcard from Czech into %s (%s).\n\nSource:\n%s",
 		t.Name, t.Code, inputJSON,
 	)
-	raw, err := client.Complete(ctx, systemPrompt, user)
-	if err != nil {
-		return content.CardI18n{}, err
-	}
 
-	raw = strings.TrimSpace(raw)
-	// Strip optional markdown code fence (```json ... ``` or ``` ... ```).
-	if strings.HasPrefix(raw, "```") {
-		raw = strings.TrimPrefix(raw, "```json")
-		raw = strings.TrimPrefix(raw, "```")
-		raw = strings.TrimSuffix(raw, "```")
-		raw = strings.TrimSpace(raw)
-	}
-	if start := strings.Index(raw, "{"); start >= 0 {
-		if end := strings.LastIndex(raw, "}"); end > start {
-			raw = raw[start : end+1]
+	const maxAttempts = 3
+	var lastErr error
+	for attempt := 0; attempt < maxAttempts; attempt++ {
+		if attempt > 0 {
+			select {
+			case <-ctx.Done():
+				return content.CardI18n{}, ctx.Err()
+			case <-time.After(time.Duration(attempt*2) * time.Second):
+			}
 		}
+		raw, err := client.CompleteJSON(ctx, systemPrompt, user, "card_translation", cardSchema)
+		if err != nil {
+			lastErr = err
+			continue
+		}
+		var ci content.CardI18n
+		if err := json.Unmarshal([]byte(raw), &ci); err != nil {
+			lastErr = fmt.Errorf("parse JSON: %w\nraw: %s", err, raw)
+			continue
+		}
+		ci.Label = sanitizeLine(ci.Label)
+		ci.Summary = sanitizeLine(ci.Summary)
+		ci.Info = sanitizeBlock(ci.Info)
+		return ci, nil
 	}
-
-	var ci content.CardI18n
-	if err := json.Unmarshal([]byte(raw), &ci); err != nil {
-		return content.CardI18n{}, fmt.Errorf("parse JSON: %w\nraw: %s", err, raw)
-	}
-	return ci, nil
+	return content.CardI18n{}, lastErr
 }

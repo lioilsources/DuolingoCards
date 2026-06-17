@@ -2,22 +2,186 @@ lang: vi
 pivot: false
 title: Cảm xúc
 cards:
+  emotion.amazed:
+    label: kinh ngạc
+    summary: Cảm giác mạnh mẽ tích cực bất ngờ xuất hiện trước một thứ phi thường.
+    info: Kinh ngạc là cảm xúc mãnh mẽ được kích hoạt khi đối mặt với điều gì đó to lớn hoặc gây sốc đến mức khó tin. Cảm giác này làm giảm sự tự trọng cá nhân và tăng cường kết nối với môi trường xung quanh.
+  emotion.amused:
+    label: cảm thấy thích thú
+    summary: Một trạng thái dễ chịu và thư giãn khi được giải trí.
+    info: Cảm giác hào hứng nhẹ nhàng là một cảm xúc tích cực do điều gì đó hài hước hoặc thú vị gây ra. Nó khác với cười; tiếng cười có thể xuất phát từ sự phấn khích nhưng không phải mọi lần phấn khích đều dẫn đến việc bạn bật cười to lên.
   emotion.angry:
     label: giận dữ
     summary: Cảm thấy bất bình hoặc giận dữ mạnh mẽ, tức giận.
     info: Giận dữ là cảm xúc phản ứng lại sự bất công được nhận thức hoặc mối đe dọa. Nó làm tăng nhịp tim và chuẩn bị cơ thể cho hành động 'chiến đấu hay bỏ chạy'.
+  emotion.annoyed:
+    label: cảm thấy bất an
+    summary: Bất an là trạng thái dễ cáu gắt vì bị tác nhân làm rối loạn liên tục
+    info: Cảm giác khó chịu nhẹ nhàng do kích thích gây phiền toái lặp đi lặp lại tạo ra một cảm xúc tiêu cực nhỏ bé này thường là dấu hiệu trước của sự tức giận mạnh mẽ hơn sau đó có thể xuất phát từ thiếu ngủ đói hoặc quá tải việc nhận diện các yếu tố khởi động chính xác sẽ giúp kiểm soát tốt hơn
+  emotion.anxious:
+    label: lo âu
+    summary: Cảm giác bồn chốc bất an do sợ hãi về tương lai không chắc chắn.
+    info: Lo âu là cảm xúc dự báo nguy hiểm; lo lắng nhẹ có tính thích nghi và cải thiện hiệu suất làm việc.
+  emotion.bored:
+    label: nhàm chán
+    summary: Cảm giác không hứng thú và trống vắng khi không còn điều gì để tham gia.
+    info: |-
+      Nhàm chán là trạng thái cảm xúc tiêu cực do thiếu kích thích hoặc hoạt động có ý nghĩa
+       Nó có thể dẫn đến việc tìm kiếm trải nghiệm mới hoặc tư duy sáng tạo,
+       Từ góc độ tiến hóa nó thúc đẩy con người đi tìm cơ hội mới.
+       Nghiên cứu cho thấy rằng nhàm chán mãn tính làm tăng nguy cơ trầm cảm.
   emotion.calm:
     label: thanh thản
     summary: Cảm thấy bình an và dễ chịu bên trong, ở trạng thái yên tĩnh.
     info: Thanh thảnh là trạng thái cân bằng tinh thần và thể chất. Nó làm chậm nhịp tim, tăng cường hơi thở sâu và giúp tư duy rõ ràng cũng như ra quyết định tốt.
+  emotion.cheerful:
+    label: sự hân hoan
+    summary: Trạng thái dễ chịu với tinh thần lạc quan.
+    info: Sự hân hoan là trạng thái cảm xúc tích cực đặc trưng bởi sự nhiệt tình và tâm trạng tốt. Nó liên quan đến tính cách hướng ngoại cùng mức cao của cảm giác tích cực. Trạng thái này có thể lây lan sang người xung quanh khi một ai đó mang lại niềm hạnh phúc cho môi trường sống.
+  emotion.confident:
+    label: tự-tin
+    summary: Niềm tin về giá trị cũng như kỹ năng cá nhân
+    info: |-
+      Tự tin là trạng thái cảm xúc thể hiện niềm tin vào khả năng và phán đoán của bản thân mình
+      Thái độ thẳng lưng, giao tiếp bằng ánh mắt trực diện cùng giọng nói bình tĩnh đều phản chiếu sự tự tin
+      Năm 2012 Amy Cuddy đã phổ biến các tư thế quyền lực như một cách để tăng cường lòng tự tin
+  emotion.confused:
+    label: bối rối
+    summary: Cảm giác không chắc chắn về điều gì đó mà mình chưa thể nắm bắt được.
+    info: Sự bối rối xảy ra khi chúng ta thiếu ngữ cảnh hoặc kiến thức để hiểu tình huống. Đây là một phần tự nhiên của quá trình học tập và sự bất đồng nhận thức thúc đẩy việc tìm kiếm câu trả lời.
+  emotion.content:
+    label: thỏa mãn
+    summary: Trạng thái tâm lý im lìm của người biết đủ.
+    info: Sự thỏa mãn là trạng thái cảm xúc tích cực yên bình mà không có nhu cầu thay đổi gì thêm. Nó khác với niềm hạnh phúc vì sự thỏa mãn mang tính tĩnh lặng còn hạnh phúc lại sôi động hơn nhiều. Phật giáo xem việc hài lòng và an trú trong hiện tại như một đức tin quan trọng trên con đường hướng tới giác ngộ.
+  emotion.curious:
+    label: sự hiếu kỳ
+    summary: Khao khát khám phá cái gì đó mới.
+    info: Sự hiếu kỳ là trạng thái động lực thúc đẩy việc tìm kiếm thông tin và trải nghiệm mới. Nó liên quan đến hệ thống dopamine thưởng phần nào khiến sự ham muốn này mang lại niềm thích thú thực thụ cho người có nó.
+  emotion.delighted:
+    label: niềm hào hứng
+    summary: Một loại niềm vui dữ dội từ một trải nghiệm tốt đẹp.
+    info: Niềm hào hứng là cảm xúc tích cực mạnh mẽ được gây ra bởi những sự kiện hoặc bất ngờ thú vị. Nó mãnh liệt hơn niềm hạnh phúc cơ bản và thể hiện rõ ràng qua các hành động năng động như nhảy múa, reo gọi hay cười lớn.
+  emotion.determined:
+    label: quyết tâm
+    summary: Một ý chí mạnh mẽ hướng đến đạt được một mục đích bất chấp những trở ngại.
+    info: Sự quyết tâm là trạng thái cảm xúc có động lực đặc trưng bởi sự tập trung vào mục tiêu và tính kiên trì cao độ. Nó thường biểu lộ qua việc siết chặt hàm răng, cơ thể căng thẳng và ánh mắt đầy nhiệt huyết.
+  emotion.disappointed:
+    label: thất vọng
+    summary: Cảm giác khó chịu xuất hiện khi thực tế chưa đạt tới những gì chúng ta đã dự kiến.
+    info: Sự thất vọng xảy ra khi kết quả không đáp ứng được kỳ vọng hoặc mong đợi của bạn. Nó càng mạnh mẽ hơn nếu có sự đầu tư cảm xúc hay công sức cao vào vấn đề đó. Nghiên cứu cho thấy rằng các kỳ vọng đóng vai trò quan trọng trong việc hình thành cảm giác này—kỳ vọng thấp sẽ dẫn đến mức độ thất vọng ít hơn.
+  emotion.disgusted:
+    label: ghê tởm
+    summary: Cảm giác phản ứng mạnh mẽ khi tiếp xúc với kích thích gây khó chịu.
+    info: Sự ghê tởm là cảm xúc cơ bản bảo vệ chúng ta khỏi những thứ có hại như thức ăn độc hoặc bệnh tật. Chức năng tiến hóa của nó giúp tránh xa việc tiêu thụ thực phẩm bị hỏng và thể hiện qua biểu hiện nhăn mũi, lưỡi thè ra cùng nét mặt đặc trưng.
+  emotion.embarrassed:
+    label: cảm thấy xấu hổ
+    summary: Bức bối do mắc lỗi trong tình huống giao tiếp.
+    info: Cảm giác xấu hổ là một cảm xúc xã hội xuất hiện khi chúng ta tin rằng mình đã vi phạm các chuẩn mực xã hội. Nó thường biểu lộ qua việc đỏ mặt, tránh ánh nhìn và tư thế cúi đầu xuống dưới. Cảm giác này có chức năng xã hội vì nó cho người khác biết về nhận thức của cá nhân đối với những quy tắc chung cũng như sự sẵn sàng tuân thủ.
   emotion.excited:
     label: hào hứng
     summary: Cảm thấy hào hứng và mong chờ vui vẻ.
     info: Hào hứng là cảm xúc tích cực mạnh mẽ liên quan đến việc mong đợi một sự kiện dễ chịu. Nó làm tăng năng lượng, tim đập nhanh hơn và thúc đẩy tư duy sáng tạo.
+  emotion.frustrated:
+    label: bức tắc
+    summary: Bị kích thích và khó chịu do không đạt được điều mình mong muốn.
+    info: Cảm xúc bực tức thường xuất hiện khi các mục tiêu của chúng ta bị chướng ngại vật ngăn trở. Cảm giác này có thể dẫn đến hành động mang tính xây dựng như tìm kiếm giải pháp thay thế hoặc phá hủy như gây xung đột với người khác.
+  emotion.grateful:
+    label: biết ơn
+    summary: Cảm giác hân hoan và trân trọng vì có được hoặc nhận lại cái gì đó tốt.
+    info: Lòng biết ơn là cảm xúc tích cực xuất hiện khi chúng ta nhận ra những điều tốt đẹp trong cuộc sống của mình.
+  emotion.guilty:
+    label: hối tiếc
+    summary: Cảm giác đau đớn do đã phạm điều gì đó đi ngược lại nguyên tắc luân lý của bản thân.
+    info: Nỗi hối tiếc là cảm xúc xuất hiện sau khi thực hiện một hành động mà chúng ta cho rằng sai trái. Nó khác với sự xấu hổ vì nó tập trung vào hành vi cụ thể chứ không phải toàn bộ con người bạn; đồng thời có chức năng xã hội giúp thúc đẩy lời xin lỗi và sửa chữa hậu quả cũng như củng cố các chuẩn đạo đức cá nhân.
   emotion.happy:
     label: hạnh phúc
     summary: Cảm thấy niềm vui hoặc sự thỏa mãn, ở trong tâm trạng tốt.
     info: Hạnh phúc là cảm xúc dễ chịu liên quan đến việc giải phóng dopamine và serotonin. Nó thể hiện qua nụ cười, cử chỉ sống động và tư thế thân thiện.
+  emotion.hopeful:
+    label: hy vọng
+    summary: Cảm giác lạc quan về việc tương lai sẽ tươi sáng.
+    info: Hy vọng là cảm xúc kết hợp mong muốn một tương lai tốt đẹp hơn và niềm tin rằng điều đó có thể đạt được.
+  emotion.hopeless:
+    label: bất vọng
+    summary: Cảm giác tương lai sẽ chẳng mang lại điều gì tích cực.
+    info: Bất vọng là trạng thái cảm xúc tiêu cực được đặc trưng bởi niềm tin rằng tình huống không thể cải thiện hơn nữa. Đây là yếu tố chính của trầm cảm và cũng liên quan đến nguy cơ tự tử cao. Mô hình trị liệu nhận thức của Aaron Beck đã xác định sự bất vọng như một niềm tin cốt lõi.
+  emotion.inspired:
+    label: cảm hứng
+    summary: Cơn phấn khích sáng tạo thúc đẩy hành vi nghệ thuật.
+    info: |-
+      Sự cảm hứng là trạng thái tình cảm đặc trưng bởi sự động lực đột ngột và kích thích sáng tạo
+      Nó thường đi kèm với một khám phá bất ngờ hoặc tiếp xúc với tác phẩm hay con người phi thường,
+      cùng hoạt hóa vỏ não trán trước và vùng thưởng trong thần kinh học.
+  emotion.irritated:
+    label: bức xúc
+    summary: Trạng thái nhạy cảm và nổi nóng với điều kiện đơn giản.
+    info: Sự bực tức nhẹ là trạng thái cảm xúc có phản ứng cao hơn bình thường khi ngay cả những kích thích nhỏ cũng gây ra các phản ứng tiêu cực mạnh mẽ hơn thông thường. Nó có thể cho thấy sự kiệt sức, thiếu ngủ hoặc căng thẳng tích tụ lại. Phụ nữ trong giai đoạn dậy thì, mang thai hay mãn kinh đôi lúc trải qua tình trạng dễ cáu gắt do thay đổi nội tiết tố.
+  emotion.jealous:
+    label: ghen vị
+    summary: Cảm giác tiêu cực phát sinh từ việc so sánh bản thân với những người xung quanh.
+    info: Ghen tuông là cảm xúc xuất hiện khi chúng ta nhận ra người khác có điều gì đó mà mình mong muốn. Nó khác với gian dối ở chỗ ghenvị liên quan đến lợi thế của người khác còn ganh đua thì thường do mối quan hệ cá nhân bị đe dọa; nó có thể thúc đẩy hiệu suất tốt hơn hoặc gây nên sự bất mãn.
+  emotion.joyful:
+    label: vui vẻ
+    summary: Cảm giác hưng phấn mạnh mẽ về niềm hạnh phúc.
+    info: Vui vẻ là cảm xúc tích cực mãnh liệt tràn đầy hạnh phúc và sự phấn khích. Nó liên quan đến động lực nội tại cũng như trạng thái tập trung vào công việc có ý nghĩa ('flow state') do Csikszentmihalyi đề xuất. Chức năng tiến hóa của nó bao gồm củng cố các mối quan hệ xã hội cùng với thúc đẩy hành vi mang lại lợi ích cho cộng đồng.
+  emotion.lonely:
+    label: cô độc
+    summary: Nỗi đau do thiếu liên kết xã hội với những người khác.
+    info: Cảm giác cô đơn là cảm xúc chủ quan về sự tách biệt không phụ thuộc vào số lượng người xung quanh thực tế như thế nào. Cảm giác này có thể dự đoán chính xác các vấn đề sức khỏe và nếu kéo dài sẽ làm rút ngắn tuổi thọ của con người.
+  emotion.loving:
+    label: tình yêu
+    summary: Cảm giác thâm thiết và gắn bó mạnh mẽ với người khác.
+    info: Tình yêu là một cảm xúc phức tạp kết hợp sự mến mộ, quan tâm, tin tưởng và thân mật. Về mặt sinh hóa thần kinh, nó liên quan đến chất oxitosine, dopamine và serotonine. Helen Fisher phân biệt ba hệ thống chính trong tình yêu gồm ham muốn giới tính, lòng ái tình lãng mạn và mối ràng buộc sâu sắc hơn.
+  emotion.melancholy:
+    label: buồn bã
+    summary: Nỗi buồn lặng lẽ có yếu tố tự vấn bản thân và vẻ đẹp.
+    info: Buồn bã là cảm xúc suy tư kết hợp nỗi buồn, sự chiêm nghiệm và một chút ngọt ngào. Từ này bắt nguồn từ tiếng Hy Lạp cho mật ong đen (mela choli), các bác sĩ thời cổ đại gắn nó với việc dư thừa dịch mật màu xám tối tăm.
+  emotion.miserable:
+    label: khổ đau
+    summary: Cảm giác buồn phiền dữ dội nhất.
+    info: Nỗi khổ đau là trạng thái cảm xúc tiêu cực mạnh mẽ được đặc trưng bởi sự không vui sâu sắc và nỗi thống khổ tinh thần hoặc thể chất. Nó có thể xuất phát từ những cơn đau cơ thể, tổn thương về mặt tình cảm hay mất mát lớn lao.
+  emotion.nervous:
+    label: lo âu
+    summary: Cảm giác bất ổn trước khi xảy ra điều gì đó; bướm bay trong bụng.
+    info: Lo âu là trạng thái lo lắng nhẹ thường liên quan đến việc chờ đợi một sự kiện trọng đại. Về sinh lý học, nó biểu hiện qua hoạt động tăng lên của hệ thần kinh giao cảm như tim đập mạnh và ra mồ hôi. Một chút căng thẳng có thể cải thiện hiệu suất làm việc nhưng nếu quá mức sẽ gây cản trở.
+  emotion.nostalgic:
+    label: nhớ tiếc
+    summary: Một trạng thái tâm lý vừa buồn rầu vì nuối tiếc những điều đã qua
+    info: "Nhớ tiếc là cảm xúc đầy ngọt đắng; nhớ lại quá khứ mang đến niềm thích thú nhưng đồng thời cũng đau lòng\nTừ này bắt nguồn từ tiếng Hy Lạp 'nostos' có nghĩa trở về nhà và 'algos' tức nỗi khổ \nCác nghiên cứu cho thấy rằng sự hoài niệm tăng cường kết nối xã hội và tạo ra ý thức rõ ràng"
+  emotion.optimistic:
+    label: lạc quan
+    summary: Xu hướng mong đợi các kết quả tốt đẹp và nhìn thấy mặt tích cực.
+    info: Tư duy lạc quan là một phong cách nhận thức và cảm xúc đặc trưng bởi việc kỳ vọng vào những kết quả tích cực. Martin Seligman trong lĩnh vực tâm lý học dương tính đã xác định tư tưởng lạc quan như yếu tố then chốt của khả năng phục hồi sau khó khăn. Những người có thái độ lạc quan sống lâu hơn, khỏe mạnh hơn và thành công nhiều hơn.
+  emotion.overwhelmed:
+    label: quá tải
+    summary: Cảm giác như đang phải đối diện với nhiều thứ cùng lúc.
+    info: Tình trạng quá tải xảy ra khi các yêu cầu vượt qua khả năng xử lý của chúng ta và có thể biểu hiện dưới dạng suy giảm nhận thức hoặc bùng phát cảm xúc hay bị đóng băng về mặt tinh thần.
+  emotion.peaceful:
+    label: calm
+    summary: Trải nghiệm sâu sắc về bình an bên trong.
+    info: Calm là trạng thái cảm xúc tích cực khi không có căng thẳng và sự xao nhãng. Đây cũng chính là mục tiêu của các phương pháp thiền định như chánh niệm hay thiền đạo Zen. Trạng thái này kích hoạt hệ thần kinh phó giao cảm bằng cách làm giảm nhịp tim và huyết áp.
+  emotion.pessimistic:
+    label: bi quan chủ nghĩa
+    summary: Xu hướng kỳ vọng vào các kết quả xấu và tập trung vào khía cạnh tích cực.
+    info: |-
+      Chủ nghĩa bi quan là một kiểu phong cách nhận thức-cảm xúc đặc trưng bởi việc mong đợi các kết quả tiêu cực
+      Bi quan nhẹ có thể mang tính thích nghi vì đánh giá thực tế về nguy cơ giúp tránh được mối đe dọa
+      Tâm lý bi quan mãn tính liên hệ với mức độ cao hơn của bệnh trầm cảm và những hậu quả sức khỏe kém
+  emotion.playful:
+    label: sự háo hứng
+    summary: Tâm trạng sôi nổi cùng khao khát tham gia vào các hoạt động giải trí.
+    info: Sự háo hứng là trạng thái cảm xúc đặc trưng bởi niềm vui trong việc chơi đùa, hài hước và thử nghiệm mới mẻ. Đối với người trưởng thành, nó được xem như một yếu tố dự đoán tích cực cho sự sáng tạo cũng như tinh thần khỏe mạnh.
+  emotion.proud:
+    label: kiêu hãnh
+    summary: Cảm giác hài lòng với các thành tích cá nhân hay nhóm.
+    info: Niềm kiêu hãnh là cảm xúc liên quan đến sự thành công hoặc thuộc về một điều gì đó có giá trị. Tư thế đứng thẳng người, đầu ngẩng cao và ngực phình ra đều là những biểu hiện phổ biến của niềm tự hào này.
+  emotion.relieved:
+    label: giải toả
+    summary: Cảm giác dễ chịu do giảm áp lực hay rủi ro
+    info: |-
+      Giải tỏa là cảm xúc được trải nghiệm sau khi căng thẳng, lo lắng hoặc đau đớn đã qua đi
+      Nó biểu lộ bằng tiếng thở dài sâu, sự thư giãn cơ bắp và cảm giác nhẹ nhõm trong người
+      Đây cũng là một trạng thái quan trọng về mặt tiến hóa vì nó báo hiệu mối nguy hiểm không còn nữa nên có thể nghỉ ngơi
   emotion.sad:
     label: buồn
     summary: Cảm thấy đau buồn hoặc không hài lòng, bị trầm cảm.
@@ -26,6 +190,21 @@ cards:
     label: sợ hãi
     summary: Cảm thấy sợ hoặc kinh hoàng trước nguy hiểm hay mối đe dọa.
     info: Sự sợ hãi là một cảm xúc phòng vệ cơ bản. Nó kích hoạt việc giải phóng adrenaline, làm tim đập nhanh và chuẩn bị cho cơ thể để chạy trốn hoặc tự bảo vệ.
+  emotion.serious:
+    label: tính nghiêm túc
+    summary: Thái độ tĩnh lặng không kèm yếu tố hài hước; hướng vào những điều quan trọng.
+    info: |-
+      Tính nghiêm túc là thái độ cảm xúc đặc trưng bởi sự tập trung và thiếu tính hài hước
+      Nó rất quan trọng trong các tình huống đòi hỏi chú ý cao và suy nghĩ cẩn thận
+      Cảm giác này có thể được nhìn nhận khác nhau tùy văn hóa; ở một số nền văn hoá thì nó mang giá trị tôn kính còn nơi khác lại liên hệ với việc khó tiếp cận
+  emotion.shocked:
+    label: sốc
+    summary: Cảm giác bàng hoàng do nhận phải thông tin hay biến cố không mong đợi.
+    info: Sốc là cảm xúc mạnh mẽ được gây ra bởi thông tin hoặc sự kiện bất ngờ và đáng ngạc nhiên. Biểu hiện bằng việc cơ thể như bị đóng băng đột ngột, miệng há to, đồng tử giãn rộng. Chức năng tiến hóa của nó giúp dừng lại mọi hoạt động để xử lý một điều gì đó ngoài dự đoán.
+  emotion.shy:
+    label: ngại ngùng
+    summary: Cảm giác hồi hộp hoặc e dè trong các tình huống giao tiếp đặc biệt là cùng những con người mới quen.
+    info: Sự ngại ngùng là một cảm xúc xã hội biểu lộ qua sự lo lắng và rụt rè khi ở trước mặt người lạ. Nó thường được liên kết với tính cách hướng nội nhưng không hoàn toàn giống nhau. Một chút ngại ngùng là bình thường; tuy nhiên dạng nghiêm trọng hơn gọi là ám ảnh sợ xã hội có thể làm rối loạn khả năng sinh hoạt.
   emotion.surprised:
     label: ngạc nhiên
     summary: Cảm giác kinh ngạc trước một sự kiện bất ngờ.
@@ -34,3 +213,14 @@ cards:
     label: mệt mỏi
     summary: Cảm thấy mệt về thể chất hoặc tinh thần, cần nghỉ ngơi.
     info: Mệt mỏi là tín hiệu cơ thể cho biết nó cần được nghỉ ngơi. Triệu chứng bao gồm buồn ngủ, phản ứng chậm lại và khả năng tập trung kém hơn.
+  emotion.upset:
+    label: lo âu
+    summary: Trạng thái rối loạn cảm xúc không thoải mái do một sự kiện xấu gây ra
+    info: |-
+      Lo âu là trạng thái cảm xúc tiêu cực tổng quát kết hợp sự buồn bã, tức giận và lo lắng
+      Đó là phản ứng với các biến cố khó chịu, thất vọng hoặc xung đột
+      Về sinh lý học nó kích hoạt trục căng thẳng HPA bằng cách làm tăng cortisol
+  emotion.worried:
+    label: lo lắng
+    summary: Suy nghĩ tiêu cực lặp lại về những vấn đề có thể xảy ra trong tương lai.
+    info: Lo âu là trạng thái cảm xúc nhận thức tập trung vào việc dự đoán các mối đe dọa tiềm năng.

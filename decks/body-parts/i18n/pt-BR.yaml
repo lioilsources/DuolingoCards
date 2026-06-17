@@ -2,18 +2,82 @@ lang: pt-BR
 pivot: false
 title: Partes do corpo
 cards:
+  body.ankle:
+    label: tornozelo
+    summary: Articulação conectando o pé à tíbia; articulação mais frequentemente lesionada.
+    info: O tornozelo é um osso que forma o joelho entre o pé e a perna composto por três ossos diferentes. Permite movimentos para cima/baixo do calcanhar bem como pequenos deslocamentos laterais da sola dos pés. Um torcimento no tornozelo ou distorção é uma lesão esportiva comum.
+  body.arm:
+    label: braço
+    summary: Parte superior do corpo humano composta pelo antebraço.
+    info: O braço é formado por três partes distintas que se estendem do ombro até os dedos da mão e são compostas de mais ou menos trinta músculos diferentes com ossos ligados entre si para permitir movimentos complexos.
+  body.back:
+    label: costas
+    summary: Parte inferior da região torácica; maior grupo muscular superior.
+    info: As costas são a parte posterior do corpo desde o pescoço até os quadris e contêm uma coluna vertebral de aproximadamente 33 vértebras envolvida por músculos das pernas superiores à cintura pélvica. As dor nas costas é um dos motivos mais comuns para incapacidade laboral.
+  body.belly_button:
+    label: ombelico
+    summary: Cicatriz central abdominal formada pelo fechamento do sítio donde foi cortado o cordão umbical.
+    info: O umbigo é uma cicatriz no local onde o cordão umbical estava fixado e por meio do qual o feto recebia nutrientes da mãe. Sua forma pode ser côncava ou convexa dependendo de como se curou após seu corte. O umbigo abriga um microambiente bacteriano específico com espécies únicas identificadas em estudos científicos.
+  body.bone:
+    label: ossos
+    summary: Tecido conjuntivo denso que forma o esqueleto; órgão vivo contendo medula.
+    info: O osso é uma tecido rígido composto por células ósseas e sais minerais como cálcio e fósforo. O esqueleto humano tem 206 ossos na idade adulta; um bebê possui mais de 300 (muitos fundem-se com o tempo). A medula óssea produz glóbulos vermelhos, brancos e plaquetas.
+  body.brain:
+    label: cérebro
+    summary: Centro de controle do corpo; estrutura biológica mais complexa no universo.
+    info: O cérebro humano pesa cerca de 1,4 quilo e contém mais de 86 bilhões de neurônios. É dividido em duas metades cerebrais; a esquerda controla o lado direito do corpo e vice-versa. Apenas apesar de representar apenas 2% da massa corporal total ele consome aproximadamente 20% das calorias totais consumidas pelo corpo.
+  body.calf:
+    label: panturrilha
+    summary: Parte traseira das coxas localizadas acima do calcanhar até onde começa o quadril
+    info: A panturrilha é o músculo posterior da parte inferior da perna entre joelho e tornozelo. O principal músculo dessa região permite ficar em ponta dos pés ou saltos ao se levantar do chão com os dedos de pé apoiados apenas neles; também facilitam movimentos como correr rápido por ter força suficiente para impulsionamento contínuo durante corridas longas.
+  body.cheek:
+    label: Bochechas
+    summary: Área carnosa dos dois lados da cara que expressa sentimentos por meio de vermelhidão.
+    info: A bochecha é uma área carnuda localizada nos lados do rosto e contém osso zigomático e almofadas de gordura. O rubor facial pode ocorrer como resposta automática à emoção ou excitação emocional.
+  body.chest:
+    label: tórax
+    summary: Parte frontal do corpo contendo coração e pulmões.
+    info: O tórax é delimitado por costelas, esterno e coluna vertebral. Protege órgãos vitais como coração e pulmões. A caixa torácica compõe-se de doze pares de costelas, um osso esternal e uma parte da vértebra torácica.
+  body.chin:
+    label: queixo
+    summary: Parte baixa da cara abaixo dos lábios inferiores.
+    info: Queixo é a parte inferior do rosto formada pela mandibula. Em humanos, uma queixa proeminente (proeminência mentalis) é característica única no reino animal e outros primatas não possuem isso. Porque temos um queixo ainda está em debate científico.
   body.ear:
     label: ouvido
     summary: Órgão sensorial para audição no lado da cabeça.
     info: O ouvido capta ondas sonoras e as transmite como sinais nervosos para o cérebro. Também contém o aparelho vestibular responsável pelo equilíbrio.
+  body.elbow:
+    label: cotovelo
+    summary: Articulação principal no meio do braço.
+    info: O cotovelo é um dos principais articulações do braço e está localizado entre o antebraço e os ossos da perna superior. Permite que você flexione seu braço para cima ou para baixo bem como gire sua mão em diferentes direções.
   body.eye:
     label: olho
     summary: Órgão sensorial para visão com íris colorida.
     info: O olho humano consegue distinguir aproximadamente 10 milhões de nuances de cor. A retina contém bastonetes (para visão em baixa luminosidade) e cones (para visão em cores).
+  body.eyebrow:
+    label: sobrancelha
+    summary: Faixa de cabelos sobre cada olho; importante na linguagem facial.
+    info: Sobrancelhas são um conjunto de pelos localizados acima das pestanas superiores dos olhos. São essenciais para comunicação não verbal e permitem expressar uma ampla gama de emoções através do movimento delas. Funcionalmente protegem os olhos contra suor e chuva.
+  body.eyelash:
+    label: cilio
+    summary: Série de fios encaracolados ao longo da linha dos ciliares para proteger o globo ocular.
+    info: Cilios são pelos curtos e arredondados que crescem nas bordas das pálpebras. Eles protegem os olhos contra poeira, sujeira e corpos estranhos. Um adulto tem entre 100 e 150 cilios em cada sobrancelha superior e de 50 a 75 nos inferiores.
+  body.finger:
+    label: dedo
+    summary: Cada pessoa tem dez dedos nas suas mãos.
+    info: Um dedo da mão é um dos cinco dedos que compõem uma das mãos humanas e geralmente possui três falanges em sua estrutura anatômica com exceção do polegar humano cuja anatomia apresenta apenas duas articulações.
   body.foot:
     label: pé
     summary: Parte inferior do pé sobre a qual nos apoiamos e caminhamos.
     info: O pé suporta o peso inteiro do corpo e permite a locomoção bípede. Ele possui 26 ossos, 33 articulações e mais de 100 músculos, tendões e ligamentos.
+  body.forehead:
+    label: testa
+    summary: Parte frontal do crânio que fica sobre os olhos
+    info: A testa é parte da calota craniana localizada acima das sobrancelhas e abaixo do contorno dos cabelos. É uma região muito visível para expressar emoções como preocupação ou confusão por meio de rugas no rosto. Em várias culturas ao longo da história, marcas simbólicas eram feitas nessa área representando compromissos sociais importantes.
+  body.hair:
+    label: cabelos
+    summary: Fibras crescendo desde o couro cabeludo.
+    info: Cabelos são fios de queratina que crescem dos folículos capilares da cabeça. Uma pessoa tem em média cem mil cabelos na cabeça e perde entre cinquenta e cento por dia. Cresce aproximadamente um vírgula dois cinco centímetros por mês.
   body.hand:
     label: mão
     summary: Parte do braço terminada com cinco dedos.
@@ -26,11 +90,115 @@ cards:
     label: coração
     summary: O músculo que bombeia sangue continuamente por todo o corpo.
     info: O coração é um músculo oco do tamanho de uma mão fechada e bate em média 70 vezes por minuto. Ao longo da vida inteira, ele bombeará sangue numa distância equivalente a três voltas ao redor da Terra.
+  body.heel:
+    label: calcanhar
+    summary: Parte inferior traseira do pé que sustenta quase todo peso corpóreo durante um estado ereto.
+    info: O calcâneo é o osso mais volumoso do pé e suporta grande parte da carga corporal quando uma pessoa está em posição vertical. Ele também se conecta ao tendão de Aquiles.
+  body.hip:
+    label: coxa
+    summary: Área em volta das ancas; maior artéria sustentadora do corpo humano.
+    info: A coxa é uma área ao redor da articulação do quadril que conecta osso femur com bacia. É um tipo de junção esférica responsável pelo suporte corporal durante caminhadas e movimentos diários.
+  body.jaw:
+    label: Mandíbula
+    summary: Osso inferior facial responsável pelo movimento durante a mastigação.
+    info: A mandíbula é o osso móvel da cabeça que permite mastigar e falar. O ATM (artem temporomandibular), um dos mais complexos do corpo humano, pode causar dor na região caso haja inflamação ou bruxismo.
+  body.kidney:
+    label: rim
+    summary: Órgão par que filtra o sangue produzindo urina.
+    info: Os rins são órgãos em forma de feijão localizados na parte posterior da cavidade abdominal e trabalham aos pares para cumprir suas funções vitais no corpo humano.
+  body.knee:
+    label: joelho
+    summary: A maior junção entre coxa e perna.
+    info: O joelho é o maior e um dos mais complexos articulações do corpo humano. É composto pela tíbia, méniscos, ligamentos cruzados e colaterais. Está adaptado para suportar o peso corporal durante caminhada e corrida.
+  body.leg:
+    label: perna
+    summary: Membro inferior da virilha até o tornozelo.
+    info: O membro inferior é composto por coxa, pernas e pés.
+  body.lip:
+    label: lábio
+    summary: Uma das bordas carnosas da entrada bucal.
+    info: O lábio é uma das duas estruturas carnudas que delimitam os lábios e são compostas por tecido muscular mole bem vascularizado com muitos terminais nervosos sensíveis. A cor dos lábios se deve à circulação sangüínea; quando azulados podem indicar falta de oxigênio no corpo. Os lábios desempenham um papel fundamental na expressão facial, beijos e pronúncia clara das consoantes P, B e M.
+  body.liver:
+    label: fígado
+    summary: Maior órgão interno do corpo humano que atua principalmente na produção da bilis.
+    info: O fígado é o maior órgão interno do corpo e pesa mais de 1,5 quilogramas. Ele realiza cerca de 500 funções diferentes como filtar sangue, produzir bile, sintetizar proteínas e armazenar glicogênio. É também um dos únicos órgãos capazes se reconstruir completamente mesmo após danos significativos à sua estrutura original.
+  body.lung:
+    label: pulmão
+    summary: Órgão parado na cavidade torácica para absorção de oxigênio no ar.
+    info: Os pulmões são órgãos emparelhados localizados dentro da cavidade torácica e composto por milhões de saculhos pulmonares chamados alvéolos. A área total do superfície dos alvéolos nos pulmões é aproximadamente igual à uma quadra esportiva com cerca de 84 metros quadrados ou mais que um quarto médio. Um adulto respira entre dezessete até trinta vezes por minuto吸入约五百毫升空气每次呼吸。右肺比左肺大，因为心脏占据了左侧的一部分空间。
   body.mouth:
     label: boca
     summary: Abertura no rosto usada para comer, beber e falar.
     info: A boca é o início do processo digestivo – os dentes mastigam, enquanto a saliva ajuda na decomposição dos alimentos. É também uma ferramenta principal para comunicação por meio da fala.
+  body.muscle:
+    label: musculo
+    summary: Tecido contrátil responsável pelo movimento.
+    info: Músculo é um tecido capaz de contração que permite o movimento do corpo. O corpo humano possui mais de 600 músculos formando cerca de 40% da massa corporal. Os tipos são esqueléticos (voluntários), lisos e cardíacos.
+  body.nail:
+    label: ungui
+    summary: Placas duras feitas por queratina localizados nos finais das mãos ou pés.
+    info: Unguis é uma placa dura de queratina nas extremidades dos dedos e polegares que protege os terminais sensíveis desses órgãos e melhora a capacidade para segurar objetos pequenos.
+  body.neck:
+    label: pescoço
+    summary: Parte do corpo conectando a cabeça ao tronco; contém vasos sangüíneos essenciais.
+    info: O pescoço é uma região entre o crânio e o torso que contém sete vértebras cervicais. Nele passam estruturas vitais como artérias, esôfago, traquéia e medula espinal. Ele também possui músculos responsáveis por permitirem rotação e inclinações da cabeça.
   body.nose:
     label: nariz
     summary: Órgão do olfato e respiração localizado no centro do rosto.
     info: O nariz filtra, aquece e umidifica o ar inspirado. Consegue distinguir mais de um bilhão de cheiros diferentes e está estreitamente ligado à memória e aos sentimentos.
+  body.palm:
+    label: palmeira
+    summary: Superfície interior da mão com maior concentração de terminações nervosas.
+    info: A palma é a superfícies interna da mão entre os dedos e o pulso. Contém uma rede densa de receptores táteis (células de Meissner). Na palmam não há foliculos capilares nem glândulas sebácias.
+  body.shoulder:
+    label: ombro
+    summary: Articulação entre braço e torso com maior amplitude de movimentos.
+    info: Ombro é formado pela cabeça da úmero e uma cavidade na escápula; permite um movimento mais amplo do que qualquer outro osso no corpo humano.
+  body.skin:
+    label: pele
+    summary: Maior órgão do corpo; protege, regulada temperaturas corpóreas.
+    info: A pele é o maior órgão do corpo humano e cobre uma área de aproximadamente 2 metros quadrados. Ela desempenha funções como proteção contra infecções, radiação ultravioleta, regulação da temperatura corporal, sensação tátil e síntese de vitaminas D.
+  body.spine:
+    label: coluna
+    summary: Coluna formada por trinta três vértebras que protege a médula espinal.
+    info: A coluna vertebral é composta por uma sequência de 33 vértebras que conectam o crânio ao osso coccix e serve como suporte principal do corpo humano protegendo assim também da medula espinhal localizada em seu interior.
+  body.stomach:
+    label: abdômem
+    summary: Parte frontal do torso abaixo das costelas.
+    info: O abdômen é uma parte da frente do corpo entre o tórax e os quadris que contém órgãos digestivos como estômago, intestinos, fígado, pancreas e baço.
+  body.temple:
+    label: Área Temporal
+    summary: Região macia nas laterais da testa sobre o osso zigomático.
+    info: A área temporal é uma região localizada nos lados da cabeça acima do osso zigomático e à frente das orelhas. Anatomicamente falando, trata-se de parte mais frágil do crânio chamada porção esquamosa dos ossos temporais que pode ser vulnerável em casos de impacto forte. As artérias temporais são facilmente palpáveis durante batimentos cardíacos fortes.
+  body.thigh:
+    label: coxa
+    summary: Parte do corpo que contém os músculos mais fortes.
+    info: A coxa é parte da perna entre os quadris e joelhos.
+  body.throat:
+    label: Garganta
+    summary: Cavidade conectando os lábios ao esôfago e traquéia.
+    info: A garganta é uma cavidade atrás do nariz e da boca que serve como caminho para ar e alimento. Contém amigdalas como parte do sistema imunológico. O refluxo gástrico protege contra aspirar corpos estranhos.
+  body.thumb:
+    label: polegar
+    summary: Dedo espesso e curto da mão cujo movimento oppositivo possibilita preensões complexas.
+    info: Polegar é um dedo curto e grosso da mão capaz de oposição (tocar os outros dedos). O movimento oppositivo do polegar é uma adaptação crucial que permite aos humanos manusearem ferramentas com precisão. Essa característica surgiu ao longo da evolução humana e está presente apenas nos primatas.
+  body.toe:
+    label: dedo de pé
+    summary: Um dos cinco dedos nos pés; o polegar carrega mais carga quando se anda.
+    info: O dedo do pé é um dos cinco dedos da perna. O polegar do pé (hálux), em particular, desempenha papel fundamental para o equilíbrio e impulso durante a caminhada ao suportar uma parte significativa do peso corporal.
+  body.tongue:
+    label: língua
+    summary: Órgão músculo nas bochechas responsável pelo paladar, mastigação e linguagem.
+    info: 'A língua é um órgão musculoso coberto por cápsulas gustativas (mais de 10 mil). Permite o reconhecimento das cinco sensações básicas do gosto: doce, salgado, azedo, amargo e umami. É fundamental para articulação da fala e ajuda na deglutição.'
+  body.tooth:
+    label: dente
+    summary: Estrutura rija na boca usada para mastigar alimentos.
+    info: Dente é uma estrutura rígida composta por esmalte (o tecido mais duro do corpo humano), dentina e câmara pulpar. O ser humano tem um total de trinta e dois dentes no conjunto permanente da arcada dental. Uma vez perdidos ou danificados os dentes não podem regenerar-se naturalmente tornando assim fundamental o cuidado preventivo com eles.
+  body.vein:
+    label: Veia
+    summary: Vaso conduzindo sangue desoxigenado até o coração; visíveis nos pulsos.
+    info: Uma veia é um tipo de vaso sangüíneo que transporta sangue em direção ao coração. Diferentemente das artérias, as veias possuem válvulas para impedir o refluxo do sangue. A coloração azulada visível nas veias no pulso não passa de uma ilusão ótica; o sangue dentro delas tem cor vermelha escura e não realmente azul.
+  body.wrist:
+    label: Punho
+    summary: Articulação entre mãos e braços essencial para motricidade fina.
+    info: O pulso é formado por oito ossos pequenos que conectam a mão ao antebraço e permite movimento da mão em quatro direções diferentes além de rotação. O túnel carpiano localizado no interior do punho pode causar síndrome do túnel carpiano quando sobrecarregado.

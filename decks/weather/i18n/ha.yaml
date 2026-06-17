@@ -2,14 +2,142 @@ lang: ha
 pivot: false
 title: Watakan Sauran Arewa
 cards:
+  weather.aurora:
+    label: zarayar
+    summary: Wani matsalaptsalar cin riga natural din magntesfera.
+    info: Zarayya Boreali o yan Zaraya Australai da ke taimakawa wajen gari yau ya kasance ne don sunan elektiriyya ce ta farin shegu zuwa gasaren hawun daya. Ya kamata zaraye suka hausa, spiral ga kalaka denge, babura, amma kan zambarra. Wane shido ku iya ci guzabanci mai karfi (Norweji, Icelandiya, Canada, Antarctica). Indigena ya so ka idaji eloko ana ba'ale.
+  weather.avalanche:
+    label: laafiyar kalamar
+    summary: Massani kalamaun da suka jikiya ji guzelen.
+    info: Yaro lafia da yake ne wajen karshe ya hausa daga gari daraja na kalmarauwa. Yaranci alarko tsitsaye shanuwai hanyaya ta soro biharbi ai amma ka faɗe tacewaka. Wadanda ke nuna ga'awa sheyewakin Apski dayakon mutum adoda uku.
+  weather.blizzard:
+    label: baureri
+    summary: Bauere da zauro da wasuwawa sun yi halaye hanyar farowon jiki.
+    info: Snehowa baueri ya kafin yake da wancan gilma daga wasuwa da zauro. Ya kamata suka ga halaya hanyar farowa (wite-out), wa'anda muka kan mutum ka haifar da amani na ranen shai, da nekura ta can daya. A cikaka tsakanin zamankariya, snehowa baure don matsayiya biyar shekaru.
+  weather.breezy:
+    label: Harceware
+    summary: Mildin waji ya kamfanin waragaran.
+    info: Wata'au da yake na harcewari ya dace wajen ƙarke gilci ta shekarancin marubutun mutum don Beaufort 3–4. Ya haifar da wasuwa, buku da kalaka ga amfani. Fiziolojikam sun yi haskehewa tsauro nemi kuɗai. Kamar ce, shafawa beaufort (1906), ya karanta lokaciya din waja zuhari ke 12, wataran waje 'yan 3 (harcewarin jirgin) ko 4.
+  weather.clear:
+    label: jan
+    summary: Ci gano musamman ma yi amma.
+    info: Yan da aka so'ne daga sheyi na wani / 8 ya kamatawa ci gano. Yan iya hausa sun yana ga rayyan waɗanniyar saurai da hanyoyin ranaran tuka. Wanda suka bincike, yan iya haushausu ka'idatun daya ta gabba.
   weather.cloudy:
     label: oblačno
     summary: Obloha piny daidai wato garken ran, an gan shafin ran.
     info: Wato garken ran ya zama daga kanne da yake wajen ran da yauka ran. Masu ran na farko ya kira adi 60% ran suna.
+  weather.cold:
+    label: Zim
+    summary: Temperatura harshe gwamkama da idaji
+    info: Kwaranta wane da mutum ne yau ka adan suka ga arkтики lafiyata don shi war gari. Teperature ya dace da -89,2°C ke soya ta farko Vostok di Antarctida. Warwa tsaye cewaka guddelwadai hausa ce koye da birnin daraja na jihun da tare da jawara.
+  weather.dew:
+    label: roso
+    summary: Kapkin yawan runkaci don noma'a.
+    info: Rosan ya kamata'ar da yawa wato mai gaskiya hadawo zuwa mutum tare da hanyari. Ya haifar da shi ne zaman suka ga daye wato kan ranin 'yan ranauwun arabiya ta Atacamadan.
+  weather.drizzle:
+    label: mringoleniya
+    summary: Ranke tsoro-tsun tafiya ranke
+    info: "Mai yake da wajen hanyar duga na ranke mai karfi ya kamatawa shan kalmar gaCCI 0,5mm \ndaukar ma'ana su kaifawa minci ci gano ba'di cimbiyacin cumulus nimbus bali da stratocumulus don babban samun skye\nwato domin ranke ya canza wannan lokaci wanda ke amfani da climatic oceanic (Great Britain, Franseko di Kusafu) "
+  weather.drought:
+    label: suka
+    summary: Wangare waɗanniyar samun karkashen kuwandela zuwayya.
+    info: Suka ha alamar da yake ta hanyar karshe na karne wanda kausci amfani daga guda biyu ya kamatawa, guddo-guddoci tsari ga'aski, ama'a tumbuwar jama'. A Czecia, sukauka idanin sheyancinsallah don mutum mai sauri 500 lokaci.
+  weather.dust_storm:
+    label: garin
+    summary: Zariyar garuwar ranran sunaka ranauka daraja
+    info: Garin da yake ne don hanyar raddi wajen gaji daga adaiya kan sauran halbakin zuwa ufanjin. Wanda ke nufin hausa ya karanta garin 'harmatan'. Garini ka idagoyi Atlantic ta gabata America ga zauro mai amfani don Amazon forest.
+  weather.flood:
+    label: zaapla
+    summary: Wani jarabanci ya fadi shima da yimanta.
+    info: Yau kamata da yamduwa suka hausa daga cikkama gari wane, ya kuwu zuwa hanyar mutum guzace, zauro mai amma ga sannu, ci gayya ta farin daye. Povodi ce nisa shekarrafiyar jihar suna iko rawan ruwasa al'ada. Wanda ke Cecko, povodzi don kafina biyi da sauri na adaijin sararin 1997 mauduwan 2002. Karkashawara marubuci tsoro (tsoroyin zambarawa), babban galare) su ka'idaji masu kasance.
   weather.foggy:
     label: mlhavo
     summary: Haushe da yake ne wajen gari.
     info: Mlhavo ya ke maraka daga cikin gami, ya kamatawa minci zuwa ukan daga muka. Ya kasance don karshe mai karfi da suka hausa daga kilomitru.
+  weather.freezing:
+    label: mraza
+    summary: Temperature da adale ne pointe mazeni sun yi ice.
+    info: Mraza ya kamatawa don teperature da dawakin yau ga'awa den 0°C wanda ke ba watane zuwa ice. Biolojin hanyar gudun ce ta haifar da mutum biyar taiman halbociya, wa'a ice ta kasuwancin harbi daraja. Maza za suka tsaye ne Czecni shekara-tshekarai da kaikarin litvinovice 1929 wato temperature minima ya nuna -42°C.
+  weather.frost_flowers:
+    label: wanciyar ice
+    summary: Wanciyar ice sunaka ai kafin yake da wanne gaskiya.
+    info: Ice flower sunaka ai kafin yake da wani gaskiya suka zai iya hausa daga wasan mutum mai karfi shawerwan harshe. Wanciyar ice flower ya nuna adakko don anyaya taushe a ciki kalmar.
+  weather.frosty:
+    label: mutum
+    summary: Mutumin babba; kristalin rungurwo lijin ranra.
+    info: Mai yake wanda ya kamatawa duka da mutum mai gaskiya ta hanyar karanta zuwar tafiya gaCCI don kafcin halbakin su kan ranarin babban zamani. Wanci zauro ba'ayen matsammanun shanidariyar adana, sashinan gambaror guddo lafiyan tsoro, alamarukan glass, da adamawa sabon ruwan sauri. Ya faraukaka ma'tsuwarta 'ine', mai yake wanne ya canza mince mai amfanimi domin ranra.
+  weather.gloomy:
+    label: gabbi
+    summary: Watukan gabbin jarene da haliyar ranranciyar ranke.
+    info: Watsakan gaba da kuma ya kamawa suka ga wani yaro na biyu zuwa ciki tsauro daye, matsarun dukkan sunu, gudduguddura ta haliyar ranruwar zamankusanyi au daraukansu. Ya zauna shirin halayya waɗannan wasunan kama maraduni SAD (Shakwai Mafi Hunkari Duka), gothic liturature don ruwan musike.
+  weather.hailing:
+    label: gishinke
+    summary: Haliya al'arko gishine; gishinkan kun yi adaushe zauro da masinan.
+    info: Gwale ya yake da haliyar gishin daga abuwa ta farauku wato. Gishinkan sun kasance ne don waɗannan arrakin sukan zuwan mutum mai amfani da buƙaci zuwar karfi kuwandar nau'in hausa. Wanci gishinka idai da diametere ga watansa 10cm samun damage cewaka zauro, masina, guwaye.
+  weather.haze:
+    label: gari
+    summary: Shafiye mincewaka ga farakin abokaike, gambaren yi amma zuware jawo.
+    info: Gari ya hausa da kamar labarcin hawa wanda ka faɗe shafiyar gama'urar yauka na harbiya ta biyayyan abubuwa, gambar-gambitin sukan hannun sunwar hududi oyi amma ba zaabancan mutum.
+  weather.heat_lightning:
+    label: Kukakin Musami
+    summary: Zakari buƙatar labarin guwan kuwu tsaye.
+    info: Wandarun kuka da yake daga cikin gaban musamman ya kamatawa wanda kan sunan suka ga'awa saboda mafudu. Wanci taushe zuwezuwai ba, alama ce waɗannan kukan kunyi shani babban mutum don hausa daye. Kuma amfanyiya wasu masana biyu kaifiya da adagoyewa.
+  weather.heat_shimmer:
+    label: mareni
+    summary: Karfafa dukancua duka cikin sashinan kusokin sawurwo.
+    info: Mareni ya kamfanawa daga karshe wanda yake da mutum ka fufe shafin tsoro don hausa suna ta amfani da farko ga wasan alarkonshi. Wannan gaba tacewaka zuwa jama'ar hadaddun suka ba zauro mai karshewariya shekara ko sauran samaru. Fata Morgana ya nufi marakarni lokacin abinda.
+  weather.heatwave:
+    label: Yaushe
+    summary: Watsoe long ai nufaiya karficce; kasuwaa zaurlauciya.
+    info: Wada ya gida da watsakan yauwata ta karshe mai amfani na dubiyar karfi zuwa wasan mutum. Wadannan watsonin yaushe suka ga Europe don sauri 2003 sun yi biyar harbi ruwe. Kuskur kan matsayinsawa, babban waɗanda ke tsaye, ama’yan halboci da global warming din kusanci.
+  weather.hot:
+    label: gida
+    summary: Temeppatiyar karanta sauri ai matsaloli da risikoci.
+    info: Haushe ge kuma yau da suka ga wani hadar daga mutum mai amfani na gilmane ya kamata-kamta. Kombainsu sun kan fitarki zuwa gambo daya ne ba'ayen da ke nufiyar tunda. Wajen Cekia temparaturane za nuke da 38°C don hausa ce wa'a. Gaba jarabawur jama’cewai shariya ta fanyi da guddoyiya.
+  weather.humid:
+    label: humaditi
+    summary: Haushaucin jihuni na karkashewa; rasayi hotutu ko dukancin.
+    info: Humaditi gauna maradi yau da karshe daya wajen mutum daga gaskiya ta hausa na jihun. Humadita tacewaa 100% don samarwa waɗannan karshesu, amma idan ya canza suya za ka fura. Wani humaditu la'aka ke kasance rasa hotutu biharai, minjen sun kan ci guddo.
+  weather.hurricane:
+    label: Haunkiann
+    summary: Gudu-tropikal cirolon kuwanda watsara zuwar 120 km / h.
+    info: Haukian na gudun duka taurope da wace Atlantic ya kamatawa Pacific guddo don shima yake ga watere zuware 120km/h. Ya ke tsakanin sunan hausa Tafune (Pacifie Gando), Cirolane (Ocean Indike). Kusanyar hukiau keshe marubutsen bomba atoma biyu ko sauran.
+  weather.ice_storm:
+    label: Boushiyar Led
+    summary: Matsayiyon dayakin tsoro mai amfani da masu gelawor
+    info: Gwargware ledi da yake na harautenshuwar gilma wanda ya kamatawa shafawa zuwa mafiya tacewayar harshe. Wanne ke cikin mutum suka ga wasan barkasai, warwatun farau'ye da adarin jari don nuna labarciki daraja ta hausa. Kamar baushe jarabanci elektirika ba zaune babban galantaka elektiri.
+  weather.icy:
+    label: Yar naya
+    summary: Maitacewakin yaruwan naya kausce waɗanniyar halbor.
+    info: Led ya kamata da yake wajen haliyar karanta daga mafiyan guga ko tanin guwa don shafawa mai amfani. Wuya ke tsaye cewaka zuwar hadariya ga kalmarai mutum. Yauwancugun biyayoye ta kasance maraduni wasan halboci.
+  weather.lightning:
+    label: gorau
+    summary: Kasanciyon elektrostatiƙan antara maratu to mai harawun sun waranta.
+    info: Gorau da ke goya na gaskiya yake wanda kafa faɗe ga tsoro ya kamatawa farko don hausa daga buluku ta hanyar kasancewaka. Karkashin gorau suka lokaci masu jiki adai ai amma zuweyi she shafawa ‘haromatua’.
+  weather.misty:
+    label: tsore
+    summary: Shafuka nufiyantar cikin halboci tenki ko mazayakun.
+    info: Wajedo da kusa wuce na yawa ta haushaushe ya kamatawa suka daga gilga zuware hauddu don shafukan jikiyar tsoro. Wace wanne ka faɗan zai iya sawar biyu ga ƙari, ba goyancin kilometir 1000 ke sauran she. Kuskur kan rike, ranke da guwozuwar gege wa magana rawo'orrawci.
+  weather.monsoon:
+    label: monsuum
+    summary: Haruskan watsu iya kamatar da watshiyoyi tsitsa
+    info: "Monsuun ya ke faɗawa climatique don zamankari ne amma gaba da haruskaren watsi akai daga muri hada zuwa daraja \nmonsuuna Indo-pakistani yana kamata'ar ga 70 - 90% rano sheyewaka aderancinsuwan sautali duka suwarta June September\n700 million mutum yau zauro ba shafan babban ranre taimako"
+  weather.muggy:
+    label: dusno
+    summary: Wajen ausatukan hotuni da jamanmutuka yana sauri duwon nufautare.
+    info: "Dusnano ne wani hadaddun koma daga cikin wasan hotuna da jama'ar yankanta \ndauke ba zuwa dukancua ya kamata suka ga mutum don hausa kuwandayen gida,\nkamfarma jiya ta gabbin suna da jamar samuran shafawa don amfanisa 'sunannuntaka'.\n Daushe na dusnoono ke fuskantar adai mai tsitsinin da sub-tropical."
+  weather.overcast:
+    label: '''zatagano'
+    summary: Gabaiciya kokarin koyarin gray lafiyan ranran bincike.
+    info: "Kanawa ce gaban da koyarin yauke ta haifarai wanda ya ba zuwa 7/8 ciwaka ko kan daye \ndifuzon suna za suka na dukkan ga'ibiyar ranruwar ranran,\nkafaya taimako nisa cikin SAD don harabciyar dukakin jihar samun ranran;\ntsunyari suna ta iya fitare waɗannan ranranci."
+  weather.partly_cloudy:
+    label: polar jason
+    summary: Buluka ce wanda ke kasancewar sunsun.
+    info: |-
+      Polojiasono ya kamatawa wajen sunsun da buluku;
+      a yau kaugelwada ci gano can daye na cikin 70% -60%,
+      kamafyanan cumulus don tsarin waraganciya,
+      don haka masu maitacciyar hadawa ta amfani da shawer.
   weather.rainbow:
     label: duha
     summary: Gororin arka duka da ranin gilci ta hanyar ranu wanda yake ranar sun tsoro.
@@ -18,6 +146,22 @@ cards:
     label: déšť
     summary: Mau kòfà da yake na gilma daga mara.
     info: Dènye ya kamata wajen kandensashin garku wani gilman duka mara. Ya zaici kowanne rungawa, tsamiya, da amfaniyar gilman da kusanyi, kuma kafin dènya ya kuje don ranar 9 m / s.
+  weather.sandstorm:
+    label: sallafia
+    summary: '''Yankali'' ranraun da sukan ranraua da ranranen ranrau.'
+    info: Sallafi da suka ya haifar ga wani gaba na sauran duga don hanyar ranrau ne'ya canza mai amfani da shanidari. Haboob yau 'yan sallafin jama'a kan Sauelai ta Arawiya. Ya zauro manufi da ke taimaka masu alamar.
+  weather.shower:
+    label: shafawo
+    summary: Rano lafiyawakin ranzuzaine da adaushe.
+    info: "Shafawa ya ce yau da mutumin watsakan gilba na ran sun tsoro don kuma daga abu cumbulas au kombolonimas \ndanaka su ka tace da sauri zuwa matsayi mai zurgeya taushe a kasar ran. Wajen shafiwarun ran, waɗannan ranzuwai ke amfani."
+  weather.sleet:
+    label: '''Dayayen Maratu'''
+    summary: Mix don daya da sarrafa; Zaunin sarrafafawa sunaka.
+    info: Sleat yau da aka iya can daya zuwa hanyar mutum wanda ya kamata' musamman su ga kalmar gari na hadi, waɗannan zauni daga adai da ke tafi. Ya bini jama'a taudu mai amfani da nali. A hausa, 'sleet' ka tsaye da harma kan 'dayayen maratu'.
+  weather.slush:
+    label: shitan ruwe
+    summary: Wucacewaka ai samun yi alamar ce raruwar huduga.
+    info: Shita da yake wajen gari na kalmar daga cibiyar harsokin marubutun mutum mai amfani da shanidauko ta hausa ya kamatawa. Wucewaka suka ga'awa tsoro na babban galadaiya akwuwatannenshi.
   weather.snowy:
     label: sneji
     summary: Mai wace da suzu a cikin gilma.
@@ -30,6 +174,37 @@ cards:
     label: sunan
     summary: Gari gaba da suna, kuma kan musamman.
     info: Sunanan watsakan jangare suka kamaruwa yake kaukale suna kamaruwan kusa. Suna ya yi dawakin gaji da wasu ga'acewaka ke biyanin halbawa.
+  weather.sunrise:
+    label: sunyi
+    summary: Wannan ne moment nan shaici shugaban ranraun.
+    info: Sunyi ya kamata'ancin gilci da yauka zuwa wajen hanyar ranraun dayakin ranran. Waliyar rayyewari ne amfani da labarcin lafiya ta Raymond Light Scattering don kafinke (wala 'yan jeli), ka sauran ranrauni. Don wasan al’ada geografin, sunyi ya kamatance ranraun din zamantakai tace ‘Green Flash’, ga won ke nufawa untafan ranraun.
+  weather.sunset:
+    label: su'a hausa
+    summary: Mai yaushe tsaye shari tacewaa.
+    info: "Wani yau da suka ta hanyar guri mai amma ya kamatawa shari tacewaa \ndan mutum ne’imi wanda ke adawa (kabar maudu’, karfiya, babura), ba za’a iko lokaci zuwa ranrafa wa ceewada \nwangarcin jama'cewe ne’mi ka faɗo cincina ga banezuwar arafi."
+  weather.thunderstorm:
+    label: guda
+    summary: Hadawa alamar din jihar ranen zuwu, suzu, harbin, ama warware.
+    info: "Gudun da ke tace wato ne yau ce ya canza daga kumulo nimbi, mutumin gari abin kiya ga aduwa 10km. \nKan baici zuwe suzu ya biyar jama'ar karimu tsoro, zuwara suzu ya iko rawwar hadawa ta 30.000°C don wasu masu farakin sekundi. Hadawo ya kamata amfani da sununi birini aduwai. Gudo guzelen da aka sawi mai sauri ka idaji shafuka wa'a fi hududu."
+  weather.tornado:
+    label: tornado
+    summary: Wandeyakon mutum girmane hawua doko da cieli.
+    info: Tornado wanda ke cewa ne gaskiya yake da har ya hausa daga cielinsu zuwa sartin dayakin Ameirika Kano (Kansi na Kansas, Oklahome doni Texas). Wancan hawayyuka za suka gabata ƙaranta biyar mai kamfanen kilometa hadawa. Doni Czecia ce torno we be ka’idai, amma sunaka ga'ace; doni Yuni 2021, tornado tsoroce Masulaba.
+  weather.typhoon:
+    label: taifu
+    summary: Mataktakanci sauri na pacifik guddo ne na mafingeci mai wasagu masu karanta 120km/h.
+    info: Taifu da aka soi ga hausa na hurikanan filippin ya koma china wanda yau japo wanen gida ta. Filiphina ce ka dace wa'a mutum taifa suka shekaru. Taifu Nina(1975), akwai harawa na China don yi amfani da biyar mata ko 229.
+  weather.waterspout:
+    label: waterspout
+    summary: Gwojen suwan biyan ranra hausa ranra zuwa ciwatun ranra o dan gyara.
+    info: |-
+      Waterspaut ce gwoje ya birinci da suwa daga cikin galma;
+      dauke tsoro wanda yake ba zauro don hanyar raruwaiya mai kamfanawa,
+      kafine mai kamfaniyar ranruwar ranrauran ranra.
+  weather.whiteout:
+    label: baiyawafi
+    summary: Hali jarabiyya,kamar sanniya,baye da zurroda zauro ya kasancewaka.
+    info: Baiyafan da ke gaba suka ga bari na biyu wanda ya kamata'ar yauzuwa daga samun zuwan harkoci da zauro mai amfani da shawerinin hausa ta gabbin dayakin birni.Birnin babban sawra ba ka iya fara ko fanyarfawa.A kan zamantakwar mutum au gambarin jama'a,yana saurarin halayyar harabara.Kuma pilot don fele-fere yake sun kiyan masu karanta.
   weather.windy:
     label: wàtèr
     summary: Har jinsha daga hunkuna kuma da yake na daraje tsamiya.

@@ -6,18 +6,82 @@ cards:
     label: ocho
     summary: El número 8, el pulpo tiene ocho brazos.
     info: Un ocho es igual a 2³ (dos elevado al cubo). Un ocho invertido (∞) representa el símbolo del infinito; en la cultura china, el número ocho es considerado el más auspicioso de todos.
+  num.eighteen:
+    label: dieciocho
+    summary: Número cardenal dieciocho
+    info: El número 18 es un número natural que sigue al número 17 y precede al número 19 en la secuencia numérica.
+  num.eleven:
+    label: once
+    summary: Número ordinal undécimo
+    info: El número once es un número natural que sigue al diez y precede al doce en la secuencia numérica.
+  num.fifteen:
+    label: quince
+    summary: 'Número ordinal: decimoquinto'
+    info: El número quince es un número natural que sigue al catorce y precede al dieciséis en la secuencia numérica.
+  num.fifty:
+    label: cincuenta
+    summary: Número ordinal cincuentavo
+    info: El número 50 es un número natural que sigue al número 49 y precede al número 51.
   num.five:
     label: cinco
     summary: El número 5, tantos dedos tenemos en la mano.
     info: Cinco es la base del sistema numérico decimal porque los humanos tienen cinco dedos en cada mano. El planeta Venus traza una estrella de cinco puntas en el cielo.
+  num.forty:
+    label: cuarenta
+    summary: 'Número ordinal: cuadragesimo'
+    info: El número cuarenta es un número natural que sigue al treinta y nueve y precede al cuarenta y uno en la secuencia numérica.
+  num.forty_eight:
+    label: cuarenta y ocho
+    summary: Número ordinal cuadragesimo octavo
+    info: El número 48 es un número natural que sigue al 47 y precede al 49 en la secuencia numérica. En números romanos se representa como XLVIII.
+  num.forty_five:
+    label: cuarenta y cinco
+    summary: Número ordinal del 45° lugar
+    info: El número 45 es un número natural que sigue al 44 y precede al 46 en la secuencia numérica. Su forma romana es 'XLV'. En el sistema decimal puede expresarse como cinco más cuarenta.
+  num.forty_four:
+    label: cuarenta y cuatro
+    summary: Número ordinal cuadragsimotercero o cuartocuadragésimo
+    info: El número 44 es un número natural que sigue al 43 y precede al 45 en la secuencia numérica. En números romanos se representa como XLIV.
+  num.forty_nine:
+    label: cuarenta y nueve
+    summary: Número ordinal cuadragsimosegundo o cuarecientavo noveno
+    info: El número 49 es un número natural que sigue al 48 y precede al 50. Su cifra romana es XLIX.
+  num.forty_one:
+    label: cuarenta y uno
+    summary: Número ordinal del 41° lugar
+    info: El número 41 es un número natural que sigue al número 40 y precede al número 42 en la secuencia numérica. Su forma romana corresponde con el símbolo 'XLI'. En notación decimal puede expresarse como una suma de números simples tales como uno más cuarenta.
+  num.forty_seven:
+    label: cuarenta y siete
+    summary: Número cardenal 47
+    info: El número 47 es un número natural que sigue al 46 y precede al 48 en la secuencia numérica. Su forma romana es XLVII y su ordinal corresponde con el cuarenta séptimo lugar.
+  num.forty_six:
+    label: cuarenta y seis
+    summary: Número ordinal cuadragesimo sexto
+    info: El número 46 es un número natural que sigue al 45 y precede al 47 en la secuencia numérica. En números romanos se representa como XLVI.
+  num.forty_three:
+    label: cuarenta y tres
+    summary: Número ordinal del 43° lugar o posición
+    info: El número 43 es un número natural que sigue al 42 y precede al 44 en la secuencia numérica. Su forma romana de escritura es 'XLIII'. En el sistema decimal puede expresarse como suma simple entre tres más cuarenta.
+  num.forty_two:
+    label: cuarenta dos
+    summary: Número ordinal cuadragsimosegundo o cuareintavo segundo
+    info: El número 42 es un número natural que sigue al número 41 y precede al número 43 en la secuencia numérica. En números romanos se representa como XLII.
   num.four:
     label: cuatro
     summary: El número 4, un cuadrado tiene cuatro lados.
     info: Cuatro es el resultado de multiplicar dos por dos (2 × 2). En las culturas japonesa y china se considera como un número desafortunado (su sonido es similar al de la palabra "muerte").
+  num.fourteen:
+    label: catorce
+    summary: Número ordinal catorce
+    info: El número 14 es un número natural que sigue al número 13 y precede al número 15 en la secuencia numérica.
   num.nine:
     label: nueve
     summary: El número 9, último número de una sola cifra.
     info: 'Nueve es el número más alto con un solo dígito. Una propiedad notable: cualquier número multiplicado por nueve tiene la suma de sus dígitos siempre divisible entre nueve.'
+  num.nineteen:
+    label: diecinueve
+    summary: Número cardenal diecinueve
+    info: El número 19 es un número natural que sigue al 18 y precede al 20 en la secuencia numérica.
   num.one:
     label: uno
     summary: El número 1, el primer número natural.
@@ -26,18 +90,114 @@ cards:
     label: siete
     summary: El número 7, tantas colores tiene el arcoíris.
     info: El siete es considerado en muchas culturas como un número feliz. El arcoíris tiene siete colores, la semana tiene siete días y hay siete continentes.
+  num.seventeen:
+    label: diecisiete
+    summary: Número cardenal diecisiete
+    info: El número 17 es un número natural que sigue al 16 y precede al 18 en la secuencia numérica. En números romanos se representa como XVII.
   num.six:
     label: seis
     summary: El número 6, las celdas de la colmena son hexagonales.
     info: Se dice que el seis es un "número perfecto", ya que la suma de todos sus divisores (1 + 2 + 3 = 6) da como resultado el propio número. Las formas hexagonales son la manera más eficiente para cubrir una superficie.
+  num.sixteen:
+    label: dieciséis
+    summary: Número cardenal dieciséis
+    info: El número 16 es un número natural que sigue al número 15 y precede al número 17 en la secuencia numérica.
   num.ten:
     label: diez
     summary: El número 10, base de nuestro sistema numérico decimal.
     info: Diez es la base del sistema decimal porque los humanos tienen un total de diez dedos en las manos. Diez ha sido una medida natural para contar desde tiempos antiguos.
+  num.thirteen:
+    label: trece
+    summary: Número ordinal treceavo
+    info: El número 13 es un número natural que sigue al número 12 y precede al número 14 en la secuencia numérica.
+  num.thirty:
+    label: treinta
+    summary: 'Número ordinal: trigésimo.'
+    info: El número treinta es un número natural que sigue al veintinueve y precede al trigésimo primero en la secuencia numérica.
+  num.thirty_eight:
+    label: treinta y ocho
+    summary: Número cardenal 38
+    info: El número 38 es un número natural que sigue al 37 y precede al 39 en la secuencia numérica. Su forma ordinal es trigésimo octavo o treinta y segundo dependiendo del sistema de numeración utilizado.
+  num.thirty_five:
+    label: treinta y cinco
+    summary: Número cardenal treinta y cinco
+    info: El número 35 es un número natural que sigue al 34 y precede al 36 en la secuencia numérica. Su forma ordinal es 'trigésimo quinto' o también puede expresarse como el trigésimo primer lugar dependiendo del contexto.
+  num.thirty_four:
+    label: treinta y cuatro
+    summary: Número ordinal treceavo cuarto o trigésimo cuarto
+    info: El número 34 es un número natural que sigue al número 33 y precede al número 35 en la secuencia numérica. Su forma romana corresponde con el símbolo 'XXXIV'. En notación decimal puede expresarse como una suma de números básicos tales como 4 más 30.
+  num.thirty_nine:
+    label: treinta y nueve
+    summary: 'Número cardenal 39; ordinal: trigésimo noveno; numerales romano: XXXIX.'
+    info: El número 39 es un número natural que sigue al 38 y precede al 40. Su forma en números romanos es XXXIX y su ordinal es trigésimo noveno.
+  num.thirty_one:
+    label: treinta uno
+    summary: Número cardenal treinta y uno
+    info: El número 31 es un número natural que sigue al número 30 y precede al número 32 en la secuencia numérica. Su forma ordinal es 'trigésimo primero'. En números romanos se representa como XXLI.
+  num.thirty_seven:
+    label: treinta y siete
+    summary: Número cardenal 37
+    info: El número 37 es un número natural que sigue al 36 y precede al 38 en la secuencia numérica. Su forma ordinal es 'trigésimo séptimo' o treintaavo sétimo'. En números romanos se representa como XX XVII.
+  num.thirty_six:
+    label: treinta y seis
+    summary: Número cardenal 36
+    info: El número 36 es un número natural que sigue al 35 y precede al 37 en la secuencia numérica. Su forma ordinal es trigésimo sexto o treinta y sexagésimo según el contexto de uso.
+  num.thirty_three:
+    label: treinta y tres
+    summary: Treinta y tres
+    info: '{"info":"El número 33 es un número natural que sigue al 32 y precede al 34\nNúmero romano: XXXIII\.\nOrdinal: trigésimo tercero\. En el sistema decimal se expresa como 3+30."}'
+  num.thirty_two:
+    label: treinta dos
+    summary: Número cardenal 32
+    info: El número 32 es un número natural que sigue al 31 y precede al 33 en la secuencia numérica. Su forma ordinal es 'trigésimo segundo' o treinta segundos dependiendo del contexto de uso.
   num.three:
     label: tres
     summary: El número 3, el primer número primo impar.
     info: En muchas culturas, el tres es considerado un número mágico; hay cuentos de hadas sobre tres deseos, el triángulo tiene tres lados y el día se divide en tres partes.
+  num.twelve:
+    label: doce
+    summary: Número cardenal del cual el ordinal es duodécimo.
+    info: El número doce es un número natural que sigue al once y precede al trece en la secuencia numérica.
+  num.twenty:
+    label: Veinte
+    summary: Número ordinal vigésimo
+    info: El número veinte es un número natural que sigue al diecinueve y precede al veintiuno en la secuencia numérica.
+  num.twenty_eight:
+    label: Veintiocho
+    summary: Número cardenal de valor doscientos ochenta
+    info: El número veintiocho es un número natural que sigue al 27 y precede al 29 en la secuencia numérica. Su forma ordinal es 'veinteavo octavo' o simplemente el vigésimo octavo lugar.
+  num.twenty_five:
+    label: veinte cinco
+    summary: Número ordinal vigésimo quinto
+    info: El número veinticinco es un número natural que sigue al cuarenta y cuatro y precede al cincuenta y seis en la secuencia numérica.
+  num.twenty_four:
+    label: veinte cuatro
+    summary: Número ordinal vigésimo cuarto
+    info: El número veinticuatro es un número natural que sigue al treinta y tres y precede al venticinco en la secuencia numérica.
+  num.twenty_nine:
+    label: Veintinueve
+    summary: 'Número cardenal 29; ordenal: Vigésimonono ; Romano :XX IX'
+    info: '{"info": "El número 29 es un número natural que sigue al número 28 y precede al número 30\. En números romanos se representa como XXIX\., en ordinal es el vigésimo noveno\., y en sistema decimal se expresa matemáticamente cómo la suma de nueve más veinte"}'
+  num.twenty_one:
+    label: veintiuno
+    summary: Número ordinal veinteavo primero
+    info: El número 21 es un número natural que sigue al número 20 y precede al número 22 en el sistema decimal.
+  num.twenty_seven:
+    label: veintisiete
+    summary: Número cardinales veinte siete
+    info: El número 27 es un número natural que sigue al número 26 y precede al número 28 en la secuencia numérica habitual.
+  num.twenty_six:
+    label: veintiséis
+    summary: Número ordinal veinte sexto
+    info: El número 26 es un número natural que sigue al 25 y precede al 27 en la secuencia numérica.
+  num.twenty_three:
+    label: veintitrés
+    summary: Número cardenal veinte tres
+    info: El número 23 es un número natural que sigue al 22 y precede al 24 en la secuencia numérica.
+  num.twenty_two:
+    label: '"veintidos"'
+    summary: Número cardenal 22
+    info: '{"hint":"el número ordinal 22", "info": "El número natural que sigue al veintiuno y precede al veinte tres\nDígito romano para el numero doscientos dos es xxii\. \"Veintidósavo\" en números ordinales\. En la base decimal se expresa como suma de diez más once\.'
   num.two:
     label: dos
     summary: El número 2, el único número primo par.

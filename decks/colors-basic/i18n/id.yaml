@@ -2,6 +2,22 @@ lang: id
 pivot: false
 title: Warna Dasar
 cards:
+  color.amber:
+    label: amber
+    summary: Warna hangat emas-kuning seperti minera lamber.
+    info: Amber adalah warna hangat keemasan-oranye yang dinamakan berdasarkan mineral amber atau getah pohon purba yang telah menjadi batuan. Amber di zaman kuno sangat diminati sebagai bahan hias dan spiritual.
+  color.aqua:
+    label: aquamarine
+    summary: Warna biruhijau cerah seperti air tajam.
+    info: Aquamarine adalah warna biru-hijau terang yang mirip dengan air bersih dan sering digunakan dalam desain sebagai warna perbanding untuk antarmuka moderen.
+  color.azure:
+    label: biru langit
+    summary: Warna biru cerah mirip dengan langit pada siang hari.
+    info: Biru langit atau biru azure adalah warna terang dan hidup seperti langit musim panas yang dinamai dari mineral lapis lazuri. Warna ini muncul dalam lambang banyak negara termasuk Prancis, Israel, Finlandia serta digunakan oleh perusahaan teknologi untuk merek layanan awan mereka.
+  color.beige:
+    label: cokelat kemerahatan
+    summary: Warna pasir terang; warna netral hangat.
+    info: Cokelat kemerahatan adalah warna hangat antara putih dan cokelat emas yang sering digunakan dalam desain interior sebagai dasar netral hangat.
   color.black:
     label: hitam
     summary: Warna tergelap dan ketiadaan cahaya.
@@ -10,18 +26,132 @@ cards:
     label: biru
     summary: Warna primer dingin langit dan lautan.
     info: Biru adalah warna primer dingin cahaya. Ini merupakan warna paling populer di dunia dan melambangkan ketenangan, kepercayaan, serta kedalaman.
+  color.bronze:
+    label: perunggu
+    summary: Perak hitam seperti logam kuning.
+    info: Warna perunggu adalah warna keemasan gelap yang menggambarkan campuran tembaga dan timah. Zaman Perundian atau zaman baton berlangsung sekitar tahun 3300 hingga 1200 SM dinamakan dari logam ini juga; dalam Olimpiade modern hal tersebut melambangkan posisi ketiga dengan mendapatkan medali perunggu.
   color.brown:
     label: cokelat
     summary: Warna tanah yang merupakan warna sekunder dari kayu dan tanah.
     info: Cokelat adalah warna sekunder yang terbentuk dengan mencampur merah, kuning, dan hitam. Warna ini melambangkan bumi, alam, dan kestabilan serta sering digunakan dalam tema alami atau musim gugur.
+  color.burgundy:
+    label: merah burgundy
+    summary: Warna merah gelap seperti anggur kemerdekaan dari daerah Burgundy.
+    info: Merah burgundy adalah warna merah gelap dengan nuansa ungu yang dinamai dari wilayah angguran Bourgogne di Prancis. Warna ini mengingatkan pada anggur putih dan kemewahan serta kekayaan. Di dunia mode menjadi salah satu pilihan favorit untuk musim gugur.
+  color.charcoal:
+    label: abu-abu anthrazit
+    summary: Warna abu-abu sangat gelap mirip dengan batubara.
+    info: Abu-abu antrasit adalah warna abu-abu gelap hampir hitam seperti arang kayu.
+  color.chartreuse:
+    label: chartreuse
+    summary: Barang hidup antara kuning dan hijau.
+    info: Warna Chartreuse adalah warna hidup yang terletak tepat di antara kuning dan hijau dalam spektrum cahaya. Nama ini berasal dari minuman keras berbasis herba bernama Chartreuse yang dibuat oleh biarawan Prancis dengan nama sama. Ini merupakan salah satu warna paling mudah dilihat mata manusia; karena itu seragam pilot dan tanda olahraga kerap menggunakan warna ini untuk visibilitas maksimal.
+  color.cobalt:
+    label: biru kadmi
+    summary: Warna merona cerah hingga sedikit tua seperti pigmentum cadmium.
+    info: Biru kadmium adalah biru hidup dan pekat yang dinamai dari unsur kimia cadmium (Cd). Biru ini menjadi salah satu pigmen warna ungu paling populer pada abad ke-18 untuk lukisan. Pigmentum digunakan dalam kerajinan gerabah, gelas serta seni rupa.
+  color.copper:
+    label: tembus
+    summary: Merupakan warna logam seperti warna logam tembum.
+    info: Warna tembaga adalah warna cahaya logam merah kecoklatan yang mengingatkan pada logam tembaganya sendiri atau Cuprum dalam bahasa Latinnya. Tembang merupakan salah satu dari beberapa jenis logam pertama yang diproses manusia sejak zaman perunggu awal yaitu Chalkolithikum. Atap lama berwarna temba bisa memudar menjadi hijau karena oksidasinya; sedangkan warna hijau tembam biasanya disebut turquoise.
+  color.coral:
+    label: merah jambon
+    summary: Warna hidup seperti kombinasi koral dengan nuansa orange-pink.
+    info: Merah jambon adalah warna hangat dan ceria antara merah jingga dan ungu yang dinamai berdasarkan terumbu karang lautnya. Sangat populer dalam mode musim panas serta desain interior rumah tangga.
+  color.cream:
+    label: warna krem
+    summary: Sebuah campuran antara coklat dan abu-abu.
+    info: Warna krim adalah warna kuning terang yang sangat ringan dengan sedikit nuansa putih seperti pada susu segar atau tepung sagu. Nama ini berasal dari warnanya mirip dengan krim mentega segar.
+  color.crimson:
+    label: merah karim
+    summary: Warna merah gelap dengan nuansa cerah.
+    info: Merah karmin adalah warna merah yang dalam dan hidup dinamakan berdasarkan pigmen pewarna merah bernama carmine. Karmina secara tradisional dibuat dari kutik Daktipius Coccis. Ini merupakan warna universitas Harvard.
+  color.cyan:
+    label: sian
+    summary: Warna hijau-biru hidup digunakan sebagai bagian utama proses cetak.
+    info: 'Sian atau azur adalah warna hijau kebiruan yang cerah dengan nilai dalam sistem RGB yaitu merah : 0%, biru dan hijau pada tingkat maksimumnya di angka 255%. Ini merupakan salah satu dari empat warna dasar pencetakan CMYK dimana C berarti sian/cyan.'
+  color.fuchsia:
+    label: merah-jambong
+    summary: Warna merah ungu terang mirip bunga fuchsie.
+    info: |-
+      Merah jambon adalah warna merah ungu yang ceria dinamai berdasarkan tanaman foxglove atau fucsia.
+      Tanaman ini diberi nama oleh seorang ilmuwan tumbuhan Jerman bernama Leonhardt Rauwolf dari Freiburg pada abad ke-XVI hingga XVII.
+      Pada kode pemrogram web seperti CSS dan HTML istilah 'merah jambong' digunakan sebagai sinonim untuk magenta dengan nilai heksadesimal # FF00FF.
+  color.gold:
+    label: emas
+    summary: Warna kuning terang seperti logam berharga
+    info: '{"gold": "warna yang menggambarkan logam mulia emas\ndan sering dikaitkan dengan kekayaan dan kemuliaan\nmendapat penggunaan langsung dalam lambang sebagai salah satu dari dua warna utama"}'
   color.green:
     label: hijau
     summary: Warna rumput dan daun, warna sekunder dari biru dan kuning.
     info: Hijau adalah warna sekunder yang terbentuk dengan mencampurkan biru dan kuning. Warna ini melambangkan alam, kehidupan, dan kesegaran; mata paling sensitif terhadap warna hijau dibanding semua warna lainnya.
+  color.grey:
+    label: abu-abu
+    summary: Warna antara hitam dan putih seperti awan maupun beton.
+    info: |-
+      {"hint":"warna abu-abu yang berada di antara hitam dan putih","info":"Abu-abu adalah warna akromatik dibuat dengan mencampurkan biru murni dan hitam.
+      Dianggap sebagai netral tanpa menarik perhatian.
+      Pada psikologi melambangkan ketidakberpihakan atau keseimbangan serta kadang-kadang kebosanan visual.
+      Dalam bentuk gelap disebut anthrazit sedangkan dalam versi terang mendekati warna putih."}
+  color.indigo:
+    label: warna indikol
+    summary: Pewarnaan cair dengan nuansa biru tua seperti larutan indigu.
+    info: Warna biru ungu gelap yang disebut sebagai warna indikol adalah nama dari pigmen alami bernama indigosida berasal dari tanaman Indigofera. Selama ribuan tahun, indiko merupakan salah satu pewarna paling berharga di dunia tekstil dan seni rupa.
+  color.ivory:
+    label: ivor
+    summary: Warna seperti gading gajah; lebih hangat daripada putih bersih.
+    info: Ivori adalah warna putih yang halus dengan sedikit kekuningan atau nuansa beige hangat. Nama ini berasal dari gading gajah karena menyerupai tekstur dan warnanya.
+  color.khaki:
+    label: warna khas militer
+    summary: Warna merica kuning muda dengan nuansa tanah.
+    info: |-
+      Kahki adalah warna redup coklat keemasan yang dipopulerkan oleh tentara Inggris di India pada abad kesembilan belas
+      Istilah ini berasal dari bahasa Urdu/Hindi 'kahka' berarti debu atau lumpur,
+      dan menjadi dasar untuk pakaian militer dan busana outdoor.
+  color.lavender:
+    label: lavender
+    summary: Wama ungu ringan seperti bunga lavender.
+    info: Warna lavendel adalah warna ungu muda yang sangat halus dinamai dari tanaman herba Lavandula. Warna ini menggambarkan ketenangan dan kebersihan serta pemandangan Provence di Prancis. Dalam terapi aroma, wangi-wangian lavender dikaitkan dengan relaksasi dan tidur.
+  color.lime:
+    label: warna lime
+    summary: Warna kuninghijau hidup seperti pada kulit luar buah lemon
+    info: Lime adalah warna kuning-hijau cerah dan kaya yang dinamai berdasarkan buah sitrus lemon-lime ini lebih mencolok daripada hijau daun karena mengandung nada kekuningan yang tinggi sering digunakan dalam desain grafis sebagai warna penekanan atau untuk memanggil tindakan pakaian pelindung keselamatan biasanya bewarna lime agar terlihat dari jarak dekat
+  color.magenta:
+    label: merah muda
+    summary: Warna pink-violet hidup; berada antara merah dan ungu.
+    info: Merah jambon adalah warna cerah antara merah dan biru tanpa panjang gelombang yang sesuai di dalam spectrum cakupan mata manusia.
+  color.maroon:
+    label: Castano
+    summary: Warna hijau-coklat dengan nada ungu.
+    info: Castaño (cokelat tua merah kehijauan) adalah warna coklat gelap yang dinamai dari kacang castane atau 'castaña' dalam bahasa Spanyol ini sangat populer di dunia mode dan seragam olahraga serta militer.
+  color.mauve:
+    label: Ungu
+    summary: Warna ungu pudar dengan nuansa kemerahan.
+    info: '{"info":"Magenta (ungu muda) adalah warna merah-mor yang halus dan pudar. Nama ini berasal dari bahasa Prancis (''mave'' berarti tanaman malve atau Malva silvestris). Ini merupakan pigmen sintesis pertama dalam sejarah kimia tekstil modern."}'
+  color.mint:
+    label: hijau muda
+    summary: Warna hijau sangat ringan seperti daun mint.
+    info: Hijau muda adalah warna segar dan terang yang dinamai dari tumbuhan menthol atau minyak wangi matai (menthe). Warna ini menggambarkan kebersihan, kesegaran serta sensasi dinginnya udara sejuk di musim panas.
+  color.navy:
+    label: biru laut
+    summary: Warna biru sangat gelap seperti lautan di malam hari.
+    info: Biru laut adalah warna biru yang sangat gelap. Nama ini berasal dari seragam Angkatan Laut Kerajaan Inggris pada abad ke-18.
+  color.ochre:
+    label: merang
+    summary: Merupakan warna emas-coklat dari mineral bumi bernama oker.
+    info: Okr adalah pigmen bumi cokelat keemasan yang ditemukan secara alamiah di tanah sebagai batuan berwarna merang dan digunakan oleh manusia purba dalam lukisan guci.
+  color.olive:
+    label: warna oren
+    summary: Hijau kuning pudar seperti buah ara.
+    info: Warna hijau kecoklatan ini memiliki nuansa yang redup dan dinamakan berdasarkan warnanya pada pohon zaitun (olea europeae). Ini adalah warna militer atau kemah karena fungsinya untuk menyamar di lingkungan alami. Di dunia mode menjadi ciri dari gaya tentera.
   color.orange:
     label: oranye
     summary: Warna sekunder hangat yang terbentuk dari merah dan kuning.
     info: Orange adalah warna sekunder yang dihasilkan dengan mencampur merah dan kuning. Warna ini melambangkan semangat dan kreativitas; dinamai berdasarkan buah jeruk.
+  color.periwinkle:
+    label: biru lavendel
+    summary: Sebuah hue cantik menggabungkan elemen dasar dari dua spektrum utama yaitu biru & merah.
+    info: '{"hint":"warna biru terang ungu seperti bunga Catharanthus","info":"Lavender adalah warna biru keunguan yang dinamakan dari tanaman Catharanthus roseus atau biasanya disebut sebagai lavender dalam bahasa Indonesia.\nWarna ini berada di antara biru dan violet dengan nuansa kalem serta romantis sehingga sering digunakan pada mode maupun desain interior untuk menciptakan suasana tenang namun elegan.\nPenggunaannya juga dikenal luas meliputi cat rumah hingga produk tekstil karena sifatnya yang netral tetapi menyenangkan mata."}'
   color.pink:
     label: merah muda
     summary: Ongol warna merah yang lembut dan menggemaskan.
@@ -34,6 +164,50 @@ cards:
     label: merah
     summary: Primernya warna hangat darah dan api.
     info: Merah adalah salah satu dari tiga warna primer cahaya. Warna ini menggambarkan energi, gairah, dan bahaya; di banyak budaya merah melambangkan keberuntungan dan kekuatan.
+  color.rose:
+    label: mawark
+    summary: Warna merah-mawarkan seperti kelopak bunga.
+    info: Rose adalah warna merah muda yang halus dengan nama dari bunga mawar. Berbeda dari kemerahan biasanya disebut 'merah', rose lebih gelap dan memiliki nuansa ungu-lembayung.
+  color.salmon:
+    label: warna losios
+    summary: Merupakan warna orange-pink seperti daging ikan salmon.
+    info: Warna losios adalah warna merah muda keoranye yang halus dan dinamai berdasarkan daging ikan salmon. Warna ini lebih hangat dan terang dibandingkan dengan corak karang. Warnanya sering digunakan dalam mode sebagai pengganti soft dari warna merah muda.
+  color.scarlet:
+    label: merahmuda
+    summary: Warna kuning-kuning kecokelatan; tidak seceri marun.
+    info: |-
+      {"hint":"warna merah terang dengan sedikit warna oranye","info":"Merah muda adalah warna cokelat-oranye yang cerah dinamai berdasarkan zat pewarna karmin.
+      Ini agak lebih terang dan memiliki nuansa oranye dibandingkan marun.
+      Pada masa lampau mengacu pada bahan tekstil ungu mahal.
+      Huruf Merah Pemalu di The Scarlet Letter oleh Nathaniel Hawthorne menjadi simbol penghinaan."
+  color.sienna:
+    label: sien
+    summary: Pigmentasi bumi dengan warna coklat merah dari daerah Sienna.
+    info: Sien napmerah adalah pigmen tanah coklat merah yang dinamai kota Italia Sienna. Raw sienne berwarna kuning-cokelat dan terbakar sienne lebih gelap menjadi coklat marun karena dipanggang di udara panas.
+  color.silver:
+    label: Perunggu
+    summary: abu-abu bersinar mirip logam perak.
+    info: '{"hint":"warna abu-abu berkilau seperti logam perak","info":"Warna perunggu adalah warna logam yang menggambarkan bahan mulia yaitu perak\nSimbol dari kemodernan dan keanggunan serta teknologi desain industri\nPada lambang negara merupakan kedua kalinya sebagai logam ; pada Olimpiade melambangkan posisi runner-up\nkendaraan dengan cat perak menjadi paling populer di banyak wilayah dunia","label":"perunggu","summary":"Abu-abu bersinar menyerupai logam perak."}'
+  color.tan:
+    label: terimakasih
+    summary: Warna cokelat terang mirip kulit berjemur.
+    info: Cokelat terang seperti tanah atau kulit yang dijemur adalah warna paling dekat dengan beige tetapi sedikit lebih gelap dan cenderung kecoklatan kuning.
+  color.teal:
+    label: biruhijau
+    summary: Warna laut dengan nuansa hijau.
+    info: Biru-hijau adalah warna yang dinamai berdasarkan sayap angsa Eropa (crested grebe Anas crecca). Ini merupakan bagian dari spectrum biru muda dan populer dalam desain sebagai penyeimbang untuk warna orange di palet modern.
+  color.turquoise:
+    label: turquoise
+    summary: Biru hijau hidup seperti air tropikal
+    info: Warna turquoise adalah warna biru-hijau cerah yang dinamai berdasarkan batuan semipermata turquoise ini telah dihargai tinggi dalam zaman kuno Mesir Kuno dan Asia Tenggara serta Amerika Serikat Ini juga merupakan warna air laut tropis es lautan atau langit pada hari bersih Dalam desain digunakan untuk keindahan tampilan segar murni dan moderen
+  color.vermillion:
+    label: merakium
+    summary: Warna merah-oranye hidup mirip dengan pigmen merakium.
+    info: Merakia merah atau vermelion adalah warna merah-oranye cerah yang dinamai dari mineral merakium cina (HgS). Ini merupakan salah satu pigmen merah paling banyak digunakan dalam sejarah seni dan dekorasi tradisional seperti lukisan Tionghoa berwarna lacquer khas Cina, kuil Jepang serta ikon Ortodoks Timur.
+  color.violet:
+    label: ungu
+    summary: Warna yang berada di bagian paling pendek dari cahaya tampak.
+    info: Ungu adalah warna di ujung akhir dari cahaya tampak dengan panjang gelombang kira-kira antara 380 hingga 450 nanometer dan terletak dalam rentangan biru ke ungu pada spektrum elektromagnetik.
   color.white:
     label: putih
     summary: Warna terang paling terang, memantulkan seluruh cahaya.

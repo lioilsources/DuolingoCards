@@ -2,14 +2,123 @@ lang: de
 pivot: false
 title: Haustiere
 cards:
+  pet.angelfish:
+    label: Skala
+    summary: Eine elegante flach gewölbte tropischer Fish mit verlangerten Schuppen.
+    info: |-
+      Der Amazonas-Skala ist eine der beliebtesten Aquariumfische wegen seines eleganter Dreiecksform und langen schwebenden Flossen.
+      Er stammt aus dem Einzugsgebiet des Amurka und benötigt warmes Wasser im Temperaturbereich von etwa 24 bis 28 Grad Celsius.
+      Es handelt sich um einen Raubtierfisher, der kleine Fischen fressen kann.
+      Im Japan war die beeindruckende Skalafisch das erste Tropfen-Fischarte, welches eingeführt wurde, bereits seit 1909.
+  pet.axolotl:
+    label: Axolotl
+    summary: Aquatisches Salamandermännchen mit ständigen Außengillern.
+    info: Der Axolotl ist ein aquatischer Molch aus Mexico City, der seine Larvenform sein gesamtes Leben lang beibehält und dadurch äußere Kiemen trägt. Er hat eine markante lächelnde Mimik sowie bemerkenswerte Regenerationseigenschaften – er kann Gliedmaßen oder sogar Teile des Herzens und Gehirns wiederherstellen.
+  pet.ball_python:
+    label: Königspinne
+    summary: Ruhiger rundlicher Schlangentyp mit charakteristischem Verhalten zum Einrollen; ideal für Anfänger.
+    info: Die Königspython kommt aus West und Zentralafrika, wo sie sich auf Savannen und Wäldern bewegt. Bei Bedrohung rollt sie sich eng zusammen zu einer Kugel ein – daher auch der Name Ballpython. Sie erreicht eine Länge von bis zu etwa einem Meter fünfzig und kann über dreißig Jahre alt werden.
+  pet.bearded_dragon:
+    label: Geißboden
+    summary: Eine aus Australien stammende Eidechse, die ein wärmefreundlicher Exoten-Haustier ist.
+    info: Der Mittelgeißboden ist einer der beliebtesten Halte-Reptiliere wegen seiner ruhigen Natur. Seine Borsten werden aufgeblasen und dunkler als Ausdruck von Emotion oder Dominanz. Er kommuniziert mit dem Armwedeln-Gestus zur Unterwerfung.
+  pet.betta_fish:
+    label: Kampffisch
+    summary: Farbenreiche Labyrinthfische aus Südostasien.
+    info: Der Kampffisch ist eine Labyrinthfische mit einem speziellen Organ zum Atmen von Luft und lebt auf den flachen Reisfeldern im Norden Tailands. Männchen sind aggressiv gegeneinander – daher der Name Siamesischer Kämpfer. Durch Züchtung entstanden prächtige Formen mit riesigen wallenden Flossen.
+  pet.blue_tongue_skink:
+    label: Blaues Echtechsen
+    summary: Ein australisches Reptil mit markant blauer Zunge zur Abschreckung.
+    info: Der Blaue Skink ist ein großer Australischer Schuppenotter mit einem typisch blauen Zungenfarbton. Er zeigt die Zunge als Warnung vor Raubtieren an – diese Farbe dient abschreckend. Es handelt sich um einen nicht aggressiven, fülligen und langsamen Tierartgenossen der oft Haustier wird.
+  pet.budgerigar:
+    label: Wellensittich
+    summary: Am häufigsten gehaltener Kleintier-Vogel weltweit – ein kleiner australischer Papagei.
+    info: |-
+      Der Wellensittich ist der am weitest verbreitetsten gehalten Vogel auf der Welt nach dem Kanarienvogel.
+      Wildlebende Wellensittiche sind grün-gelbfarben gefärbt; farbige Mutationen wie blau, weiß oder grau entstanden durch Züchtung.
+      Männchen können menschliche Stimmen imitenieren und sich Hunderte von Wörtern aneignen.
+      Sie leben etwa fünf bis zehn Jahre lang und gelten als soziales Tier.
+  pet.canary:
+    label: Goldhamster
+    summary: Ein kleiner gesangvoller Vogel mit markanter Stimme und hellem Gelbtönigem Gefieder.
+    info: Der Goldhamster stammt von den Kapverdischen Inseln und wurde im 15. Jahrhundert durch spanische Eroberer gezähmt. Durch Züchtung entstanden viele Arten wie singende Sorten (Rollen-, Wasser-Sänger), farbige Varianten (rotfarbig oder weiß) sowie Formtypen. Männliche Hamsters können komplexe Melodien erlernen und sich Teile anderer Lieder aneignen.
   pet.cat:
     label: Katze
     summary: Unabhängiges Haustier mit weichen Pfoten.
     info: Die Hauskatze ist ein Raubtier aus der Familie der Katzenartigen, das als Haustier gehalten wird. Sie ist bekannt für ihre Beweglichkeit, Sauberkeit und unabhängigen Charakter.
+  pet.chameleon:
+    label: Camouflage
+    summary: Eidechsenspezies, welche ihre Farbgebung variieren kann.
+    info: |-
+      Ein Chamäleon ist eine Echse mit der Fähigkeit, die Hautfarbe durch Chromatophore zu verändern; es ändert seine Farben hauptsächlich zur Emotionskommunikation und nicht vor allem als Tarnung.
+      Sein jedes Auge kann unabhängig bewegt werden und fast einen Halbkreis abdecken.
+      Der Zunge des Tieres ist länger als sein Körper selbst und schnell genug um bei einer Geschwindigkeit von bis zu 26 Kilometern pro Stunde auszuschnappen.
+      Es wohnhaft ausschließlich auf Bäumen und besitzt krallenartige Beine zum Festhalten an Ästen.
+  pet.chinchilla:
+    label: Chinchilla
+    summary: Südamerikanisches Säugetier mit dem dichtesten Fell aller terrestrischen Tiere.
+    info: |-
+      {"hint":"weichfelliger südamerikanischer Nagetier mit extrem dichter Felldecke (Chinchilla lanigera)","info":"Die Chincilla ist ein aus den Anden stammender Nager mit der dichtesten Pelzbeschaffenheit aller Landtiere;
+      von einem einzigen Haarfollikel wachsen bis zu 80 Härchen heraus (beim Menschen nur eins). Sie bevorzugt Temperaturen unter 25 °C und kann an Überhitzung sterben.
+      Sie erreichen im Durchschnitt das Alter von etwa 15 Jahren,
+      höchstens jedoch selten über 20 Jahre hinaus. Historisch gesehen war ihr Fell so begehrenswert gewesen,dass die Art durch Schmuggel bedroht wurde."}
+  pet.clownfish:
+    label: Augenklappfisch
+    summary: Ein orangefarbener Fisch, der eine enge Beziehung zu Seeanemonen hat.
+    info: Der Augenklappfisch ist ein kleiner Meeresfisch aus dem indopazifischen Tropengürtel und lebt im Symbiosesystem mit Seesterneichen. Das Seesterneichen schützt ihn durch seine giftigen Tentakeln vor Fressfeinden, während er es von Parasiten befreit. Nach der Filmverfilmung 'Finding Dora' wurde dieser Fisch zur Ikone des Meerwasser-Aquaristik-Freizeitsports.
+  pet.cockatiel:
+    label: Nymphensittich
+    summary: Kleiner australischer Papagei mit Federbusche, beliebte Gesangspuppe.
+    info: Der Nymphensittich stammt aus Australien und lebt dort auf Ebenen sowie in Wäldern. Männchen sind hervorragende Imitatoren – sie lernen Lieder, Melodien und menschliche Sätze nach. Er ist sozial veranlagt und baut sich leicht mit dem Halter eine Beziehung an.
+  pet.corn_snake:
+    label: Maisunke
+    summary: Friedliche roto-gelbe Schlange für Einsteiger.
+    info: Die Maisunke kommt aus dem Südosten der Vereinigten Staaten und lebt auf Feldern sowie im Wald. Sie ist nicht giftig und friedfertig – beißt selten an und ist robust. Ihren Namen erhielt sie vermutlich von den Maissfelder oder vom geflecktem Bauchmuster, das Körner ahmt nach.
+  pet.crayfish:
+    label: Krebsschwanz
+    summary: Ein kleiner farbiges Süßwasserfruchtfliege aus dem Aquarium.
+    info: Aquarienkrebs sind beliebte Bewohner von Süßwasseraquarien aufgrund ihres aktiven Verhaltens und der bunten Farbe. Der blaue Florida-Krebs (Procambarus alleni) ist die am häufigsten bevorzugte Art für Aquarien. Beim Wachsen verlieren sie ihre Hülle durch Ecdysis; die neue Schale ist zunächst weich. Sie dienen als Bodentierer im Aquarium, da sie Algenreste sowie übriges Futter fressen.
+  pet.crested_gecko:
+    label: Gecko mit dichtet Fell
+    summary: Nachtpflege-Gecko mit markanter Federkrone auf der Stirne und großen Augen.
+    info: Der Geck mit dem dichten Fell stammt aus Neukaledonia und galt als ausgestorben bis zum Jahr 1994. Er kann springen und ist nachts aktive. Im Gegensatz zu anderen Gecko-Arten benötigt er kein spezielles UV-B-Licht. Seine Nahrung besteht aus Früchten und Insekten; im Zoohandel gibt es eine breite Palette an Farbmutationen.
+  pet.degu:
+    label: Dege
+    summary: Ein kleiner chilenischer Nager ähnlich wie eine Chincilla mit sozialem Verhalten.
+    info: |-
+      {"hint":"Kleiner sozialer Nagetier aus Chile ähnlicher zur Chinchila (Chilihase)","info":"Der Degu ist ein kleines südamerikanisches Säugetier verwandt mit dem Meerschweinchen und der Zwerghasenart Octodon degus.
+      Er ist streng tagaktiv und sehr gesellig;
+      es verträgt keine Isolation gut.
+      Es neigt zu Diabetes mellitus Typ II im Tierpark darf daher kein Zuckerfrucht fressen.
+      Als Modellorganismus für die Forschung an Alzheimers Krankheit hat er Pionierzustände erreicht","label":"Degg","summary":"Südkoreanischer Haselmausähnlichkeit durch Soziabilität charakterisiert."}
+  pet.discus_fish:
+    label: Skalar
+    summary: Prunkvolles rundes Tier gesehen als König des Tropenaquarium.
+    info: Der Diskusfisch ist eine große runde Fische aus dem Amazonas mit atemberaubenden Farben und gilt als einer der anspruchsvollsten Aquarienbewohner – er benötigt präzise Wasserchemie sowie Temperaturen zwischen 28 bis 32 Grad Celsius. Jungtiere ernähren sich von Absonderungen ihrer Eltern durch die Haut, was bei Fischen selten zu finden ist.
   pet.dog:
     label: Hund
     summary: Treuer Haustierfreund und Begleiter des Menschen.
     info: Der Hund ist ein domestiziertes Tier, das älteste von dem Menschen gezähmte Lebewesen. Es gibt über 400 Rassen, und er wird als der 'beste Freund des Menschen' bekannt.
+  pet.dove_pet:
+    label: Haustaube
+    summary: Rein weiße Tiere werden entweder als sanfte Gefährten aufgezogen oder für symbolische Freilassungen genutzt.
+    info: Die Weiße Taube ist eine gezüchtete Felsentaubenart mit rein weißer Farbung und wird als Haustier gehalten oder bei Zeremonien freigelassen.
+  pet.electric_eel:
+    label: Elektraal
+    summary: Eine Südamerikafische, die elektrische Entladungen von bis zu 860 V produziert.
+    info: Der Elektrofisch ist kein richtiger Aal, sondern ein Verwandter der Karpfenartigen aus dem südamerikanischen Amazonasgebiet. Er kann bis zu 860 Volt starke Stromschläge erzeugen, um seine Beute betäuben oder sich verteidigen.
+  pet.ferret:
+    label: Frettchen
+    summary: Ein fröhlicher domestiziertes Mustelfürsorge-Tiere, das neugierige und herzliches Haustier.
+    info: Die Frettchen sind eine domestizierte Form des Weißen Tchörers und wurden vor mehr als 2 500 Jahren zur Jagd auf Hasen gezüchtet. Sie sind neugierig und spielen gern – sie schlafen normalerweise etwa 14 bis 18 Stunden am Tag und verbringen den Rest der Zeit mit wilden Spielen. Der Geruch von Zitrone oder Mandarine ist ein markantes Merkmal durch die Drüsenöle.
+  pet.frilled_lizard:
+    label: Kragenfruchtgecko
+    summary: Eine australische Schlange mit einem dramatischen Kragenauswurf als Verteidigungsmechanismus.
+    info: Der Kragenfruchtgecko ist eine australische Eidechse, die bei Bedrohung einen großen Halsausschnitt öffnet und ein scharrendes Geräusch von sich gibt; sie steht auf ihren hinteren Beinen wie ein Mini-T-Rex. Der Ausschnitthals wird durch verlängerte Rippen verstärkt.
+  pet.gerbil:
+    label: Wüstenmaus
+    summary: Kleiner wüstennaher Nagetier mit langem haarigem Schwanz.
+    info: Die Wüstenmaus kommt aus der trockenen Steppe von Mongolia und China her. Sie ist an das Leben im heißen Klima angepasst – sie trinkt sehr wenig Wasser, da es die Flüssigkeit optimal aus dem Futter aufnimmt.
   pet.goldfish:
     label: Goldfisch
     summary: Orangerot gefärbter Fisch, der im Aquarium gehalten wird.
@@ -22,14 +131,98 @@ cards:
     label: Hamster
     summary: Ein niedliches kleines Nagetier mit fettigen Wangen.
     info: Der Goldhamster ist ein beliebter Haustierfreund. Er versteckt Nahrung im Gesicht und ist vor allem nachts aktiv sowie gern auf dem Laufrad unterwegs.
+  pet.hedgehog:
+    label: afrikanischer Igel
+    summary: Kleiner borstiger Insektenfresser, der sich beim Angriff in eine Kugel verwandelt.
+    info: Der afrikanische Zwergigel ist ein beliebter Exotenhaustier, der weltweit gehalten wird. Er hat auf dem Rücken etwa 5 000 bis 7 000 hohlkuppelige Borsten aus Keratin und rollt sich bei Bedrohung zu einer unübersehbaren Kugel zusammen.
+  pet.hermit_crab:
+    label: Landkrebs
+    summary: Ein kleiner Krebstier, der eine geborgte Muschel trägt – ein exotisches Haustier.
+    info: Der Landkrebs ist ein Krebstier ohne eigenen festen Panzer und schützt seinen weichen Körper mit einer ausgeliehenen Schneckenmuschel. Wenn er wächst, sucht der Kriechtier nach größeren Muscheln. Trockene Hermit-Creeps werden als Haustiere gehalten; sie sind sozial veranlagt und leben in Gruppen. In freier Wildbahn bewohnen diese Tiere Strände sowie den Flutbereich im Tropengürtel.
+  pet.iguana:
+    label: Lagune
+    summary: Große grün gefärbte Schuppenreptil aus der Tropischen Zone Lateinamerika beliebt als Exotenhaustier.
+    info: Der grüne Leguan ist eine große südamerikanische Echse mit einer Länge von bis zu zwei Metern. Er ernährt sich ausschließlich pflanzlich und benötigt im Captivity abwechselnde Gemüsesorten sowie ein Lichtspektum reich an UBV-Lichtstrahlen für seine Gesundheit.
+  pet.koi:
+    label: Kapfer Koi
+    summary: Farbfroher Schmuckkarper gehalten im Gartenteich.
+    info: '{"hint":"dekorative Varietät des gemeinsamen Karpfens gezüchtet für helle Farben (Cypri nus carpi o)","info":"Der Koi-Karpfen ist eine dekorative Zuchtform der Gemeinen Karpe aus Japan seit dem 17 Jahrhundert\nEs gibt über 100 verschiedene Färbungen; die wertvollsten Exemplare werden zu Preisen von mehreren Tausend Euro verkauft\. \nSie können ein Alter bis über 200 Jahre erreichen; das älteste bekannte Individuum namens Hanako lebte sogar 226 Jahre\. \nIm japanischen Kulturkreis steht er für Mut, Ausdauer und Glück."'
+  pet.leopard_gecko:
+    label: Leopardengecko
+    summary: Kleine fleckenbehaftete Nachttier-Geco, idealer Anfangsreptilien.
+    info: Der Leopardengekko stammt aus den Wüstenregionen von Pakistan und Afghanistan. Im Gegensatz zu der Mehrheit aller Geko-Arten besitz er keine Saugnapfchen an seinen Fingern – daher kann er nicht auf Glas klettern. Er hat bewegliche Lider was bei Geckos ungewöhnlich ist.
+  pet.lovebird:
+    label: Lovebird
+    summary: Kleiner farbenfroher Vogel aus Afrika bekannt für starke Partnerschaft.
+    info: Ein Agapornis ist ein kleiner afrikanischer Papagei mit starken Paarbindungen. Die Partner füttern und putzen sich gegenseitig sowie verbringen viel Zeit miteinander – daher der Name Lovebirds oder Liebespapiere. Es gibt insgesamt neun Arten dieser Vögel unterschiedlicher Farbe.
+  pet.mandarin_fish:
+    label: Pracht-Mandarin
+    summary: Die farbenprächtigste Meeresspezies weltweit mit einer psychodelischen Musterung.
+    info: Der Prächtige Mandarinfisch ist eine kleine Meeresfische aus den Korallenriffen des Indischen und Pazifik-Ozeans mit einem der am meisten aufsehenerregenden Färbungen im Tierreich.
+  pet.mini_pig:
+    label: Mini-Schwein
+    summary: Kleine domestizierte Schweinhaltung als Haustier.
+    info: Teecups oder Mikropigmente sind gezüchtete kleine Rassen der Hausschweineart. Sie sind intelligent und sauber sowie fähig zu Tricks wie Hunde; sie meiden die Sonne – da ihnen Schweißdrüsen fehlen – rollen sich im Schlamm zur Temperaturregelung ab.
+  pet.moon_jellyfish:
+    label: Mond-Meerwasserschild
+    summary: Durchscheinende Bioluftschaukel-Schildpflanze aus besonderem Aquarium.
+    info: Die Aurelia aurita ist eine der häufigsten Meeresschildpflanzen und für den Menschen vergleichweise ungefährlich. Sie ist fast durchsichtig mit vier kreisrunden Geschlechtsorganen sichtbar hindurch. Der Aufbau von Aquarien war bis vor Kurzem sehr schwierig; heute gibt es dafür spezielle runde Tanks namens Kreiseel. Die Lebensdauer beträgt etwa zwölf bis achtzehn Monate.
+  pet.mouse:
+    label: weißer Maushund
+    summary: Kleine domestizierte Nagetiere gehaltenen als Haustiere oder Labortiere.
+    info: Die weiße Hausschwanzmaus ist eine gezähmte Form der Hausmaus und wird sowohl als Labor- wie auch Dekorationshaustier gezüchtet. Sie sind intelligent und können schnell Labyrinthe meistern sowie Tricks erlernen.
+  pet.mynah_bird:
+    label: Myner
+    summary: Sprecherischer Asienvogel mit außergewöhnlicher Fähigkeit Stimmen nachzuahmen.
+    info: Der Bergmyner ist ein Vögel aus der Familie der Starlings bekannt für eine seiner besten Sprechfähigkeiten unter allen Vogelarten.
+  pet.oscar_fish:
+    label: Oscar
+    summary: Große intelligente Cichlime aus dem Amazonasbecken die auf ihren Besitzer reagiert.
+    info: |-
+      {"hint":"großer intelligenter Cichlide aus Süd Amerika","info":"Der Oscar ist eine große südamerikanische Cichlime mit hohem Intelligenzpegel und der Fähigkeit den Besitzer zu erkennen.
+      Er benötigt ein großes Aquarium von mindestens 200 Litern Volumen sowie regelmäßige Nahrungsergänzung durch Lebendfutter oder gefrorene Speisen.
+      Die maximale Länge beträgt über 35 Zentimeter bei einer Lebenserwartung bis zu fünfzehn Jahren.
+      Manchmal verhält er sich mehr wie ein Hund als wie ein Fisch; er schwimmt zum Glas heran sobald sein Halter näher kommt."}
   pet.parrot:
     label: Papagei
     summary: Farbenreicher Vogel, der menschliche Laute nachahmen kann.
     info: Der Wellensittich ist die verbreitetste Papageienart als Haustier. Er ist intelligent, gesellig und kann Geräusche sowie Wörter nachahmen.
+  pet.prairie_dog:
+    label: Prärieratte
+    summary: Soziales Grabennagetier nordamerikanischer Steppen.
+    info: Der Prärielöffel ist ein sozialer Nagetier aus Nordamerika, der sich im Untergrund angesiedelt hat und dort riesige Kolonien baut.
+  pet.quail_pet:
+    label: Japanischer Hühnerhund
+    summary: Ein niedlicher, unaufwendiger Kleintierzuchtvogel.
+    info: Die Japanische Käppern ist ein kleiner Vogel, der entweder für seine Eier oder als Haustier gehalten wird. Sie wiegt nur etwa 100 Gramm und gilt damit als die kleinste domestizierte Geflügelart. Die Männchen machen das Geräusch 'pi-pi-pat', während Weibchen stille Rufe von sich geben.
   pet.rabbit:
     label: Hase
     summary: Felliges Haustier mit langen Ohren.
     info: Der Hausmeerschweinchen ist ein beliebtes Haustier mit weichem Fell und typischen langen Ohren. Es ernährt sich von Heu, Gemüse und frischem Gras.
+  pet.rat:
+    label: Hausratte
+    summary: Eine kluge, domesticierbare Nagerart – ein erstaunlich cleverer treuer Gefährte.
+    info: Die Hausratte ist eine der intelligenteren Nagetiere und lernt sogar auf ihren Namen zu reagieren sowie komplexe Aufgaben auszuführen. Sie sind sozial entwickelt und bilden starke Bindungen sowohl mit Menschen als auch anderen Ratten. Ihre Lebensdauer beträgt etwa zwei bis drei Jahre.
+  pet.red_eared_slider:
+    label: Echtes Kaulquappe
+    summary: Beliebte Süßwasserschwimmkäfer mit rötlich geflecktem Ohrenbereich.
+    info: Die Echte Schildkröte ist von Nordamerika und die am weitest verbreitete Amphibie im Gefangenschaft auf der Welt. Der charakteristische roter Streifen hinter dem Ohr unterscheidet sie von ähnlichen Arten.
+  pet.sea_horse_pet:
+    label: Meeräschen
+    summary: Das Meeräschen wird in spezialisierten Salzwasseraquarien gehalten.
+    info: Der Meeresköcherling ist eines der schwierigsten marinen Tiere zu halten im Käfiggehalt; er benötigt Lebendfutter wie Artemie und Mysiden sowie ein ruhiges Umfeld.
+  pet.sugar_glider:
+    label: Fluhund
+    summary: Kleiner australischer Beutelplazentat mit Fellflügeln zum Gleiten.
+    info: Der Flughund ist ein kleiner australischer Beuteltier, der durch eine Hautfalte zwischen Vorder- und Hinterbeinen fliegen kann.
+  pet.tarantula:
+    label: Wolfspinne
+    summary: Große haarige Spinne als Exoten-Tierfreund.
+    info: Der Pinktoed-Wolfspinnen-Arachnid ist eine beliebte Art für Anfänger aufgrund seiner ruhigen Natur.
+  pet.tortoise_pet:
+    label: Landkrebs
+    summary: Langlebige Landkrebstiere sind ideale Begleiter für das ganze Leben.
+    info: Die Hermannschildkröte ist eine kleine südosteuropäische Schildkrötenspezies beliebt als Haustier mit langer Lebenserwartung von über 100 Jahren und kann den Halter übertreffen. Sie verbringt die Winter im Dornröschenschlaaf, wobei ihr Stoffwechsel fast zum Stillstand kommt.
   pet.turtle:
     label: Schildkröte
     summary: Langsames Tier mit einem harten Panzer.

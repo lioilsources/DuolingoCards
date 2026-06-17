@@ -2,18 +2,130 @@ lang: es-419
 pivot: false
 title: Aves
 cards:
+  animal.albatross:
+    label: albatros
+    summary: Ave marino con el mayor envergadura de alas de todos los pájaros.
+    info: El albatros migratorio tiene la mayor extensión de alas de todas las aves, que puede superar los 3,5 metros. Pasa gran parte de su vida en alta mar y es capaz de volar miles de kilómetros sin posarse. Bebe agua salada y expulsa la sal mediante glándulas nasales. En la tradición marinera, matar un albatros se considera augurio de desgracia.
+  animal.budgerigar:
+    label: aguja
+    summary: Pequeño y colorido periquito de Australia, mascota muy popular.
+    info: El aguila ondulado proviene del interior de Australia, donde vive en grandes bandadas. Es el pájaro de compañía más extendido del mundo después del canario. Los machos pueden imitar la voz humana e incluso aprender cientos de palabras. Las aguilas salvajes son verdes y amarillas; sus colores llamativos surgieron mediante selección genética.
+  animal.canary:
+    label: canario
+    summary: Pequeño pájaro amarillo cantor popular como mascota.
+    info: El canario doméstico proviene de las islas Canarias y fue domesticado en el siglo XVII. Su color amarillo se logró mediante selección genética; los canarios salvajes son verdes-marrones. Los machos cantan melodías complejas; las competencias de canto de canarios son un fenómeno mundial.
+  animal.cassowary:
+    label: cassowary
+    summary: Peligroso ave no voladora de Nueva Guinea con garras afiladas.
+    info: El cassowary es un gran pájaro que no puede volar originario de Nueva Guinea y el norte de Australia. Se considera al cassowary como la ave más peligrosa del mundo; sus largos cuernos en el dedo interno son capaces de causar heridas graves. La alta cresta ósea probablemente sirve para navegar por bosques densos. Es una especie clave para dispersar semillas en las selvas tropicales.
+  animal.cockatoo:
+    label: cacatú
+    summary: Perico blanco de Australia con cresta amarilla llamativa.
+    info: El cacatúa amarillo es uno de los pericos más conocidos del grupo de las cacatuas. Su distintiva cresta amarilla se levanta cuando está emocionado o alerta. Es inteligente y puede imitar la voz humana. Puede vivir hasta 80 años en cautividad y en Australia es considerado una plaga para los cultivos.
+  animal.condor:
+    label: cóndor
+    summary: El ave voladora más grande de América con cabeza desnuda.
+    info: El cóndor es el pájaro volador más pesado del mundo y tiene un gran envergadura alar. Es un buitre que se alimenta de carroña de grandes mamíferos y desempeña una función importante en el ecosistema. Vuela sin mover las alas aprovechando los fuertes corrientes térmicas sobre los Andes.
+  animal.crane:
+    label: grulla
+    summary: Ave migratorio grande conocido por sus rituales de baile y su fuerte canto.
+    info: La grulla gris es un ave migratoria que recorre miles de kilómetros cada año. Se la conoce por sus ceremonias de danza en las que las parejas saltan y extienden sus alas. Vienen en grandes bandadas sobre la República Checa en otoño y primavera. La palabra 'grúa' proviene del nombre de esta ave.
+  animal.crow:
+    label: vrána
+    summary: Pájaro negro inteligente de la familia Corvidae capaz de resolver problemas.
+    info: La urrac es un ave de la familia de los córvidos conocida por su excepcional inteligencia. Puede reconocer rostros humanos, usar herramientas y completar tareas complejas. Viven en parejas o pequeños grupos y son omnívoros.
+  animal.cuckoo:
+    label: cuco
+    summary: Parásito reproductivo que oculta sus huevos en nidos de otras aves.
+    info: El cuco común es conocido por su parasitismo reproductivo; deposita sus huevos en los nidos de otras especies, donde son incubados y alimentados por los padres adoptivos. El polluelo de cuco expulsará pronto otros huevos y crías del nido para asegurar su supervivencia. Su llamado característico 'ku-kú' simboliza la llegada de la primavera. Los machos cantan, mientras las hembras emiten un tono burbujeante.
+  animal.dove:
+    label: paloma
+    summary: Símbolo de paz; paloma completamente blanca con plumaje suave.
+    info: La paloma blanca es un símbolo internacional de paz desde la antigüedad; en la Biblia trajo una rama de olivo a Noé. En el cristianismo representa al Espíritu Santo. El pavo real doméstico es en realidad un pavo real rocoso domesticado; su color blanco se logró mediante cría selectiva. La liberación de palomas blancas forma parte de rituales y celebraciones en todo el mundo.
+  animal.duck:
+    label: pato
+    summary: Ave acuático con pico ancho; el macho tiene cabeza verde.
+    info: El pato salvaje es la especie de pato más extendida del mundo y antecesor de la mayoría de las razas domésticas. El macho (zambullidor) tiene una cabeza característicamente brillante y verde, mientras que la hembra es marrón discreta. Son patos que alimentan en la superficie, no sumergiéndose. En la República Checa son parte inseparable de los estanques y ríos.
   animal.eagle:
     label: águila
     summary: Pájaro rapaz grande con pico curvado y vista aguda.
     info: La águila calva es el símbolo nacional de los Estados Unidos y una de las aves rapaces más grandes de América del Norte. Caza principalmente peces, que atrapa directamente del agua con sus garras afiladas. Alcanza un envergadura de más de dos metros y vive en la naturaleza aproximadamente 20 años.
+  animal.emu:
+    label: ema
+    summary: El segundo ave más grande del mundo, un ratítido no volador de Australia.
+    info: El emú es el segundo pájaro más grande del mundo y está endémico en Australia. No puede volar, pero es buen nadador y rápido corredor. El macho se queda con los huevos y cuida a las crías mientras la hembra abandona. En 1932, el ejército australiano perdió una guerra contra bandas de aves que amenazaban la cosecha.
+  animal.falcon:
+    label: halcón
+    summary: El animal más rápido del mundo en picado (más de 320 km/h)
+    info: El halcón peregrino es el animal más rápido sobre la Tierra; alcanza velocidades superiores a los 320 km/h durante su vuelo en picada. Tiene manchas oscuras características debajo de sus ojos que ayudan a reducir reflejos de luz solar. El ser humano lo ha utilizado para cazar desde hace más de 2 000 años; esta práctica está reconocida por la Unesco como patrimonio cultural. En la República Checa anida en edificios altos y rocas.
   animal.flamingo:
     label: flamenco
     summary: Ave rosado que se alimenta en aguas poco profundas.
     info: 'El flamenco obtiene su color característico de los carotenoides presentes en las algas y crustáceos que consume. Los polluelos nacen de color grisáceo y adquieren su coloración con el tiempo. Su pico curvado actúa como filtro: el flamenco filtra su alimento del agua inclinando la cabeza hacia abajo.'
+  animal.goose:
+    label: gansa
+    summary: Ave acuático grande que migra en forma de V; nida en tierra.
+    info: La gansa común es el antepasado salvaje de las gansas domesticadas. Migran en una formación característica con forma de V, donde los pájaros alternan la posición líder. Son muy territoriales durante la cría y defienden valientemente a sus polluelos. En la historia, las gansas vigilaban el Capitolio en Roma, donde su graznido alertó al ejército contra los galos.
+  animal.hawk:
+    label: halcón
+    summary: Predador rápido que caza aves y mamíferos en bosques y campos.
+    info: El halcón es un género de rapaces de la familia Accipitridae capaz de cazar en densa vegetación gracias a sus alas cortas y redondeadas así como su largo pico. Es muy rápido y ágil; caza aves durante el vuelo o desde una posición oculta. Las hembras son notablemente más grandes que los machos. En la hawkería era considerado un ave de cetrería valorada.
+  animal.heron:
+    label: buitre
+    summary: Ave alto que permanece quieto en el agua para cazar peces.
+    info: El buitre es el mayor ave acuático de Europa central. Se queda completamente inmóvil como una estatua y espera hasta que un pez llegue dentro de su alcance, entonces ataca con rapidez usando su pico. Es capaz de tragar peces y ranas enteros. Vuela doblando su cuello en forma de S, lo cual lo diferencia de las garzas, que vuelan con el cuello extendido.
+  animal.hornbill:
+    label: bucero
+    summary: Pájaro tropical con pico enorme y cresta córnea.
+    info: |-
+      El bucerote es un pájaro de la familia Bucerotidae característico por su gran pico con una estructura ósea llamada casco.
+      Vive en los bosques tropicales de África y Asia.
+      No anida en madrigueras, sino que lo hace en huecos de árboles; la hembra permite al macho encerrarla dentro del hueco durante todo el período de incubación.
+      Su presencia indica que el bosque tropical está saludable.
   animal.hummingbird:
     label: colibrí
     summary: El pájaro más pequeño del mundo capaz de mantenerse suspendido en el aire y volar hacia atrás.
     info: El colibrí de pecho rojo es la única especie de colibrí que nidifica regularmente en la parte oriental de América del Norte. Alza sus alas hasta 53 veces por segundo, lo que produce un zumbido característico. Se alimenta de néctar y pequeños insectos; su corazón late hasta 1200 veces por minuto.
+  animal.ibis:
+    label: ibis
+    summary: Ave acuático con pico curvo y sagrado en el antiguo Egipto.
+    info: El ibis es un ave acuática de la familia Threskiornithidae que tiene un característico pico largo y curvado. El ibis sagrado era adorado en el antiguo Egipto como representación del dios Tefón. Vive en colonias en humedales y deltas fluviales. El ibis cafés fue introducido accidentalmente en Europa y hoy día se expande de manera agresiva como una especie invasora.
+  animal.kingfisher:
+    label: martin pescador
+    summary: Pequeño pájaro de colores brillantes que caza peces en ríos y arroyos.
+    info: El martin pescador es uno de los pájaros más hermosos de Europa con un lomo eléctricamente azul y un pecho naranja. Se posa sobre una rama encima del agua observando el movimiento de los peces antes de sumergirse para capturarlos. Es indicador de la pureza del agua; donde vive, ésta es saludable. En Japón hay otro martín pescador similar (hisui), símbolo de belleza.
+  animal.kookaburra:
+    label: ledňácaque que ríe
+    summary: Un martillo australiano con un canto fuerte similar al risa humana.
+    info: |-
+      El ledňácaque que ríe es un gran pájaro de Australia conocido por su llamado sonoro que recuerda el risa humano.
+      Es símbolo del bush australiano y tradicionalmente anuncia la salida y puesta del sol con sus gritos.
+      Caza lagartijas, serpientes, roedores e insectos.
+      Vive en grupos familiares donde los miembros más jóvenes ayudan a criar a las crías.
+  animal.lorikeet:
+    label: lori
+    summary: Pequeño loro colorido que se alimenta de néctar y polen.
+    info: El lori es un pequeño pájaro parlante originario de Australia con el plumaje más llamativo de todos los loros. Tiene una lengua especializada en forma de brocha para recolectar néctar y polen de flores tropicales. Es importante polinizador de bosques tropicales.
+  animal.lyrebird:
+    label: Liróptero
+    summary: Pájaro australiano que imita con precisión cualquier sonido de su entorno.
+    info: 'El liróptero es un pájaro australiano famoso por su capacidad para imitar casi cualquier sonido del ambiente: sierras eléctricas, cámaras fotográficas, alarma de automóvil o llamados de otros pájaros. Los machos atraen hembras mostrando su cola en forma de lira y realizando perfectas imitaciones. Es el símbolo del estado australiano de Victoria.'
+  animal.macaw:
+    label: ara
+    summary: Papagayo neotropical de gran tamaño con plumaje brillante y un pico fuerte.
+    info: El ara es un papagayo de los bosques tropicales americanos que tiene el colorido más llamativo de todos los pájaros. Tiene un pico fuerte y curvo capaz de romper nueces duras. Viven en parejas que se quedan juntas por toda la vida. Están amenazados por la tala de bosques e intercambios ilegales de animales exóticos.
+  animal.magpie:
+    label: cuervo
+    summary: Pájaro negro y blanco con cola verde iridiscente larga.
+    info: El cuervo común es un pájaro de la familia de los córvidos con una clara coloración negra y blanca y una cola larga que brilla en tonos verdes. Tiene fama de ladrón de objetos brillantes, pero investigaciones no confirman esta leyenda. Es uno de los pocos pájaros carnívoros capaces de reconocer su reflejo en el espejo.
+  animal.nightingale:
+    label: ruiseñor
+    summary: Pequeño pájaro marrón que canta uno de los cantos más hermosos de las aves.
+    info: El ruiseñor común es un pequeño pájaro marrón cuyo macho canta uno de los cantos más complejos y hermosos entre las aves. Canta principalmente por la noche y al amanecer, de donde proviene su nombre. Es pariente lejano del tordo. Poetas de todo el mundo desde Dante hasta Keats han celebrado el canto del ruiseñor como símbolo de romanticismo y melancolía.
+  animal.ostrich:
+    label: guanaco
+    summary: Ave más grande del mundo, no volador; corre a velocidades de hasta 70 km/h.
+    info: El guanaco es el ave más grande y pesada del mundo; los machos alcanzan una altura de hasta 2,7 metros y un peso superior a los 150 kg. No puede volar, pero es el animal bípedo más rápido del mundo, llegando a velocidades superiores a los 70 km/h. Sus huevos son los más grandes entre todos las aves. Le falta el dedo pulgar en la pata; solo tiene dos dedos.
   animal.owl:
     label: búho
     summary: Ave rapaz nocturno con ojos redondos, vuelo silencioso y audición excelente.
@@ -26,11 +138,79 @@ cards:
     label: pavo
     summary: El macho pavo con un hermoso cola en forma de abanico llena de colores.
     info: El pavo real proviene del subcontinente indio. El macho (pavo) abre su cola, que en realidad son plumas extendidas, en forma de abanico durante la corte a las hembras. Los colores iridiscenntes no se deben a pigmentos, sino a la refracción de la luz en microestructuras de las plumas.
+  animal.pelican:
+    label: buitre
+    summary: Ave acuático grande con pico enorme en forma de bolsa para pescar.
+    info: El buitre es un ave acuática con un característico pico bolsa que sirve como red para atrapar peces. Puede contener hasta 13 litros de agua en su bolsa, la expulsa y traga los peces. Vuela en formaciones aerodinámicas aprovechando las olas del aire creadas por corrientes ascendentes. En la simbología cristiana el buitre representa el amor desinteresado.
   animal.penguin:
     label: pingüino
     summary: Ave no volador del hemisferio sur, excelente nadador.
     info: 'El pingüino imperial es el más grande de todos los pingüinos; alcanza una altura de más de 1,1 metros. Vive en la Antártida y pone huevos en los fríos más extremos: los machos mantienen el huevo caliente sobre sus patas durante toda la temporada invernal antártica. Bajo el agua alcanza velocidades superiores a los 30 km/h.'
+  animal.pheasant:
+    label: pavo
+    summary: Ave de gran tamaño y colorido; el macho tiene un plumaje llamativo y una cola larga.
+    info: El pavo común fue introducido en Europa desde Asia, pero hoy es parte natural de la fauna europea. El macho (gallo) tiene un colorido destacado, cuerpo verde-bronce y un característico saco rojo alrededor del ojo. Es la ave cazable más extendida en la República Checa y forma la base de su tradición cinegética. Anida en el suelo dentro de vegetación densa.
+  animal.pigeon:
+    label: pigeon
+    summary: Común ave gris de ciudades y áreas rurales, originaria del paloma torcaz.
+    info: El palomo torcaz es el antepasado de todos los palomas domésticos y salvajes en las ciudades. Fue el primer pájaro domesticado; sirvió como mensajero durante miles de años. Tiene un sentido de navegación excepcional y puede encontrar su camino desde distancias de cientos de kilómetros.
+  animal.puffin:
+    label: pingüino de aletas
+    summary: Pequeño ave marina con pico colorido y similar al de un loro.
+    info: El pingüino de aleta es un pequeño pájaro parecido a los pingüinos que tiene picos multicolores. Caza sumergiéndose en el agua para perseguir peces nadando; puede transportar más de una docena de ellos a la vez en su pico. Anida en colonias sobre acantilados rocosos o en madrigueras.
+  animal.quail:
+    label: codorniz
+    summary: Pequeño y discreto ave de campo que nida en el suelo entre la hierba.
+    info: La codorniz es el representante más pequeño de la familia de las galliformes en Europa. Es difícil de ver ya que se mantiene oculta, aunque podemos escucharla fácilmente por su canto característico 'piti-piti'. A diferencia de otras palomas, migra y pasa el invierno en África. Sus huevos son considerados una exquisitez.
+  animal.raven:
+    label: cuervo
+    summary: Pájaro negro grande e inteligente con un graznido característico.
+    info: El cuervo es el pájaro más grande de la familia Corvidae y tiene una longitud superior a los 60 cm. Es extremadamente inteligente; puede planear para el futuro, jugar y formar relaciones sociales. En las mitologías nórdicas (los cuervos Odín, Huginn y Muninn) y celtas tenía un estatus místico.
+  animal.roadrunner:
+    label: cucaracha terrestre
+    summary: Veloz corredor de las desertos de América del Norte; símbolo de caricaturas animadas.
+    info: La cucaracha terrestre es un ave de la familia de los cucarachas que prefiere caminar y correr en lugar de volar. Puede alcanzar velocidades superiores a 30 km/h y se alimenta de serpientes, lagartijas, insectos e incluso pequeños mamíferos. Es capaz de cazar y matar una serpiente cascabel. Es famosa por aparecer como protagonista en las series animadas estadounidenses 'Road Runner' y el Coyote.
+  animal.robin:
+    label: tordo
+    summary: Pequeño pájaro con pecho rojo y símbolo navideño en Gran Bretaña.
+    info: El tordo común es un pequeño pájaro cantor con el característico pecho anaranjado-rojizo. Es audaz pero discreto; sigue a trabajadores del jardín que cavan para recoger lombrices expuestas. Es el ave nacional de Gran Bretaña y también un símbolo tradicional de Navidad. Permanece todo el año en su territorio e incluso canta durante el invierno.
+  animal.seagull:
+    label: gaviota
+    summary: Ave costero que busca comida tanto cerca de las personas como en el mar.
+    info: La gaviota argéntea es uno de los pájaros marinos más extendidos en Europa. Es adaptable y omnívora; vive no solo en la costa del mar, sino también en regiones interiores junto a lagos y ríos. Es inteligente e incluso puede recordar lugares donde ha sido alimentada por humanos. Su interés agresivo por la comida humana es fuente de muchas anécdotas para turistas en la playa.
+  animal.secretary_bird:
+    label: pájaro secretario
+    summary: Rapazón africano de patas largas que mata serpientes al pisotearlas.
+    info: El pájaro secretario es un gran depredador africano que camina principalmente por las sabanas abiertas. Mata serpientes y roedores con fuertes pisadas cuyo peso triplica su masa corporal. Su nombre proviene de las plumas largas en la cabeza que recuerdan los bigotes del escribiente. Es símbolo nacional de Sudáfrica y del Sudan.
+  animal.sparrow:
+    label: paloma
+    summary: Pequeño pájaro cantor marrón que vive cerca de asentamientos humanos.
+    info: La paloma es uno de los pájaros más extendidos del mundo y un fiel compañero del ser humano. Se encuentra en la proximidad de viviendas urbanas donde anida en grietas de paredes y techos. En las últimas décadas su población ha disminuido considerablemente en ciudades.
+  animal.spoonbill:
+    label: kolpík
+    summary: Ave blanco con hocico característico en forma de cuchara.
+    info: El kolpík es pariente del ibis, pero se distingue fácilmente por su pico plano y redondeado como una cucharita. Al buscar alimento mueve el pico lateralmente dentro del agua poco profunda. Anida en colonias entre juncos y zarzas.
+  animal.stork:
+    label: cisne
+    summary: Ave blanco grande con pico rojo que supuestamente trae bebés.
+    info: El cisne común es un ave migratoria que anida en techos y postes en toda Europa. Pasa el invierno en África tropical y regresa cada año al mismo nido, aumentándolo poco a poco. Es símbolo de primavera y fertilidad; según la tradición popular, trae niños. La República Checa es uno de los países más importantes de Europa para la nidificación del cisne.
+  animal.swallow:
+    label: murciélago común
+    summary: Insectívoro rápido en vuelo con cola claramente bifurcada.
+    info: El murciélago común es un ave migratoria que pasa el invierno en África subsahariana y anida en Europa. Es un maestro del vuelo; caza exclusivamente insectos mientras está volando y puede beber agua de la superficie sin necesidad de posarse. Anida en graneros y bajo techos; en la tradición popular su presencia simboliza buena fortuna para una casa. Representa la llegada de la primavera, el regreso y la fidelidad al hogar.
+  animal.swan:
+    label: cisne
+    summary: Gran ave acuática blanca elegante, símbolo de belleza y romanticismo.
+    info: |-
+      El cisne es el mayor ave voladora de Europa con un envergadura alar superior a los 2,4 metros.
+      Simboliza la belleza, el amor y la fidelidad; las parejas son fieles durante toda su vida.
+      Inconscientemente levanta el pico e infla sus plumas como advertencia para los atacantes.
+      En el cuento de H.C. Andersen, el cisne representa la transformación del patito feo.
   animal.toucan:
     label: tucán
     summary: Pájaro tropical con un pico grande y multicolor.
     info: El tucán gigante vive en las selvas tropicales de América Central y del Sur. Su llamativo pico mide más de 20 cm de largo, pero es muy ligero, ya que está formado por cámaras de aire. Sirve para regular la temperatura corporal, cortar frutas y como señal visual para otros tucanes.
+  animal.woodpecker:
+    label: picaflores
+    summary: Pájaro que golpea la corteza de los árboles para encontrar insectos o tallar una cavidad.
+    info: El picaflores es un pájaro de la familia Picidae adaptado al picoteo en madera gracias a su pico duro y cola rígida que sirve como soporte. Su lengua puede ser hasta tres veces más larga que el pico y se usa para extraer larvas de los agujeros taladrados. El picoteo también lo utiliza para comunicarse y marcar territorio. El carpintero europeo (Dryocopus martius) es el picaflores más grande de Europa.

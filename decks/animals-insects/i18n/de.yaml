@@ -6,19 +6,221 @@ cards:
     label: Ameise
     summary: Kleiner sozialer Insekt, der in Kolonien lebt.
     info: Die Ameise ist ein Insekt, das große Kolonien mit Arbeitsteilung bildet.
+  insect.antlion:
+    label: Ameisenräuberlarve
+    summary: Eine Larve, die im Sand nach Ameisen grabt und Fallen anlegt.
+    info: Die Ameisenläufer-Larven sind Insekten aus der Familie der Myrmeleontiden; sie garen kegelförmige Fallgruben am Boden von trockenem Sand herum. Wenn eine Ameise ins Loch rutscht, fängt das Tier mit seinen Kiefern zu beißen an und spritzt Verdauungsenzyme ein. Die erwachsenen Tiere sehen unscheinbar aus – ähnlich wie Libellenflügel – fliegen jedoch nur nachts.
+  insect.aphid:
+    label: Blattläuse
+    summary: Kleine pflanzensaftsaugende Insekten an Pflanzenstielen; sie erzeugen Honigtauh.
+    info: Blattläuse sind kleine Säuger aus der Überfamilie der Blattoideae und ernähren sich von dem Saft ihrer Wirtspflanze. Sie produzieren den süßen Stoff Honigtau, nach dem Ameisen suchen – im Austausch für Schutz sorgen die Tiere dafür. Ihre Vermehrung ist extrem schnell fortgeschritten; eine einzige Weibchen kann innerhalb eines Jahres zu Hundertmillionen Nachkommen führen.
+  insect.atlas_moth:
+    label: Atlasseidspinner
+    summary: Einer der größten Schmetterlinge weltweit mit schlangengestaltigen Muster auf den Flügeln.
+    info: |-
+      Der Atlasseidspinner ist einer der größten Nachtfalter der Welt und hat ein Flügelspannung von bis zu 30 Zentimetern.
+      Die Enden seiner Flügel sind so gefärbt oder geformt, dass sie die Köpfe von Schlängen nachahmen – dies soll Raubtiere abschrecken.
+      Erwachsene Individuen haben keine Mundöffnungen mehr und nehmen daher überhaupt nichts Nahrhaftes zu sich;
+      sie überleben nur einige Tage im erwachsenen Stadium. Sie stammen aus den Regenwäldern Südostasiens.
+  insect.bedbug:
+    label: Floh
+    summary: Flachblütiger Nachtparasit versteckt sich im Möbelwerk.
+    info: Der Stubenfluh ist ein flacher ovales Insekt aus der Familie Cimiciden und wird vor allem nachts aktiv. Er stecht Menschen ins Blut während des Schlafs. Verbergt sich unter Matratzenfugen, an Möbelfugen oder hinter Tapeten.
   insect.bee:
     label: Bienen
     summary: Gelb-schwarzer Insekt, der Blüten bestäubt und Honig herstellt.
     info: Die Honigbiene ist ein sozialer Insekt, der in Bienenstöcken lebt und Nektar sammelt.
+  insect.beetle:
+    label: Käfer
+    summary: Die Käfers sind der artenreichste Insektenordnung mit über einer halben Million beschriebenen Arten.
+    info: Der Käferraup gehört zur Ordnung Coleopteren und umfasst etwa 40 Prozent aller bekannten Tierarten dieser Gruppe. Er ist durch die harte Schutzdecke seiner Flügel – Elytrum genannt – charakterisiert, unter denen sich seine echte Flugflügel befinden. Der Hirschkäfer ist Europas größter Vertreter dieses Ordens; Männchen besitzen beeindruckende hornartige Oberkiefer. Sie kommen fast weltweit vor von den Tropen bis hin zu arktischen Regionen.
+  insect.bombardier_beetle:
+    label: Artilleristen-Käfer
+    summary: Käfer feuert kochende toxische Mischung als Verteidigung ab.
+    info: 'Der Artilleristen-Käfer ist ein Käfers aus der Unterfamilie der Brachinininen und verteidigt sich auf eine außergewöhnliche Weise: Er mischt zwei Chemikalien im After aneinander, wodurch eine explosionsartige Reaktion entsteht mit Temperaturen über 100 °C.'
+  insect.bumblebee:
+    label: Bienenhund
+    summary: Große flauschige Biene mit lautem Brummen und wichtiger Bestäuber.
+    info: |-
+      Ein Bienenhund ist eine große haarige Insektenspezies aus der Gattung Bombus im Verwandtschaftsverband zur Honigbiene.
+      Er spielt als Pollenträger besonders bei kühlere Klimazonen eine entscheidende Rolle, da die Honimbeeren dort weniger aktiv sind.
+      Der Bienenhund erwärmt sich durch das Zittern seiner Flugmuskel so dass er selbst an kalten Tagen noch fliegen kann.
+      Im Vergleich zu den Ameisenstichen verursacht ein Stich des Bienenhunds nur geringe Schmerzen und kommt lediglich vor wenn es direkt bedrängt wird.
   insect.butterfly:
     label: Schmetterling
     summary: Fliegender Käfer mit großen farbigen Flügeln.
     info: Ein Schmetterling ist ein Insekt mit zwei Paaren gefiederter Flügel, die oft auffallend bunt sind.
+  insect.caterpillar:
+    label: Raupe
+    summary: Die Larve einer Schmetterlingsart oder eines Nachtfalters; fresset Blätter und bereitet sich auf die Puppenphase vor.
+    info: Eine Raupe ist eine Raupenform von Tagfaltern oder Nachtaugen und verbringt den Großteil ihres Lebens mit dem Fressen von Laubblättern, um Energie für ihre Verpuppung zu sammeln. Manche Rauben haben starke Farben als Warnsignal gegen Giftigkeit an potenzielle Feinde gerichtet. Bei der Verpuppung bildet sie einen Kokon aus Chitin, innerhalb dessen sie durch Metamorphose zur erwachsenen Form wandelt.
+  insect.centipede:
+    label: Regenwurm
+    summary: Gliederfüßer mit einem Beinpaar pro Körpersegment.
+    info: Ein Regenwurm gehört zur Klasse der Glattnahtschneider und hat ein Paar Füße auf jedem Körperring (keine Hundert wie es sein Name vermuten lässt). Es handelt sich um einen schnellen Jäger von Insekten, Würmer sowie kleinen Wirbeltieren an. Der erste Fuß ist zu Giftklauen modifiziert für die Lähmung seiner Opfer.
+  insect.cicada:
+    label: Zikada
+    summary: Insekt berühmt für lauten Gesang an heißen Tagen.
+    info: Die Zikaden sind Insekten aus der Unterordnung Cyc adoide und bekannt dafür, zu den lautesten Geräuschen unter allen Käfern gehören. Männchen erzeugen mit speziellen Membranen im Hinterleib ein Brummen oder Singen, um Weibchen anzuziehen. Einige Arten in Nordamerika haben siebzehnjährige beziehungsweise dreizehnjährige Entwicklungszyklen.
+  insect.cockroach:
+    label: Käfer
+    summary: Schneller nächtlicher Allesfresser-Käfer mit hoher Robustheit und Anpassungsfähigkeit.
+    info: Der Käferschwärmer ist einer der widerstandfähigsten Insekten auf der Welt; er übersteht Strahlungen sowie Bedingungen, die andere Tiere töten würden. Es gibt mehr als 4 500 Arten davon, doch nur etwa dreißig leben im Umfeld des Menschen. Dieses Tier hat eine lange Geschichte – Schaben haben bereits vor Dinosauriern seit über drei Millionen Jahren Bestand.
+  insect.crane_fly:
+    label: Tippula
+    summary: Große moskitoförmige Fliegengattung mit extrem langen Beinen.
+    info: Die Tippula ist ein zweiflügeliger Käfer aus der Familie Tipuliden und optisch einem riesigen Moskito ähnlich, sticht jedoch nicht zu und betreibt keine Parasitenlebenweise. Ihre äußerst langen Beine lassen sich leicht abbrechen – dies dient als Schutzmechanismus namens Autotomy. Die erwachsenen Exemplare leben nur einige Tage ohne Nahrungsaufnahme oder ernähren sich von Blütennektar. Larven bezeichnen sie auch als Drathalmern wohnen im Boden und fressen Wurzelgewächse.
+  insect.cricket:
+    label: Heuschrecke
+    summary: Nachteuleninsekt bekannt für das Gesangsumschlag des Männchen.
+    info: Die Feldheuschrecke ist ein nachtblühendes Insekt aus der Ordnung der Heuschreckerartigen. Die männlichen Tiere erzeugen durch Reiben ihrer Flügel einen charakteristischen Laut zur Anziehung von Weibchen und zum Markieren ihres Terrains. In Asien werden Heuschrecken traditionell als Haustier gehalten wegen ihrem Singverhalten; sie gelten außerdem häufiger Symbol für häusliche Zufriedenheit sowie Glück.
+  insect.damselfly:
+    label: Libelle
+    summary: Schmaler Verwandter der Libellenfamilie mit gefalteten Flügeln parallel zum Körper beim Ruhen.
+    info: Die Schlanklibelle ist eine Art aus der Familie der Libellenvögel und hat im Vergleich zu den typischen Libellen einen schlanken Bau sowie die Gewohnheit ihre Flügel bei Rastphasen entlang des Körpers zusammengefaltet anzuordnen.
+  insect.diving_beetle:
+    label: Taucher
+    summary: Raubtierartiger Wasserwanze schwimmend unter der Wasseroberfläche.
+    info: Der Große Taucher ist eine räuberische Wanzenart aus der Familie Dyttiskiden und lebt vor allem im Stillwasser wie Teiche oder Seen. Er kann glatt durch das Wasser gleiten dank seiner flachen Hinterbeine, die als Ruder dienen. Der Taucher atmet an der Oberfläche ein Luftpolster ein, welches er darunter speichert um es später zu nutzen.
   insect.dragonfly:
     label: Libelle
     summary: Insekt mit langem Körper und zwei Paaren durchsichtiger Flügel.
     info: Eine Libelle ist ein Raubtier-Insekt mit ausgezeichnetem Sehsinn, das vor allem an Wasserflächen jagt.
+  insect.dung_beetle:
+    label: Heiliger Käfer
+    summary: Kugeln aus Tiermist rollender Bockkäfer mit heiligem Status im alten Ägypten.
+    info: Der Heilige Käferschmeißer ist ein Schmetterling der Familie Scarabaeidae und formt Kot zu Kugeln, die er zum Vergraben von Eiern herumrollt. Im Alten Ägypten war es das Symbol für die Sonne sowie den Gott Chonsu oder auch Khopri genannt. Er gehört zu einer kleinen Anzahl an Tieren, welche sich mithilfe des Milchtuches orientiert.
+  insect.earwig:
+    label: Käfer
+    summary: Elongierter Käfer mit Zangen am Schwanzende.
+    info: Ein Käfers ist ein Insekt aus der Ordnung Dermaptera und wird durch die typischen Scheren an seinem Hinterleib gekennzeichnet – diese dienen sowohl zur Verteidigung als auch zum Paaren. Sein Name stammt von einem Aberglauben über das Eindringen ins Ohr des Menschen, was jedoch falsch ist. Besonders bei den Weibern dieser Art kommt es vor, dass sie ihre Eier sowie Jungtiere betreuen – eine Seltenheit unter Insekten.
+  insect.firefly:
+    label: Feuerkäfer
+    summary: Käfer, der durch Biolumineszenz Licht erzeugt, um Partner anzulocken.
+    info: |-
+      Der Feuerkäfer ist ein Käfer aus der Familie der Lampyriden und kann kaltes Licht im Afterbereich mittels einer biochemischen Reaktion von Luciferin mit Luciferase erzeugen.
+      Männchen wie Weibchen senden unterschiedliche Lichteinstrahlungsmuster ab, damit sie sich gegenseitig erkennen können und anziehen.
+      Sie dienen als Indikator für die Reinheit des Lebensraums.
+  insect.flea:
+    label: Floh
+    summary: Kleine springende Blutsauger an Säugetieren und Vögeln.
+    info: Flöhe sind fühllose Insekten aus der Ordnung Sifonautoptra mit einem ausschließlich parasitären Lebensstil. Ihre stark entwickelten Hinterbeine ermöglichen Sprünge von über das 150-fache ihrer Körperlänge. Sie trinken das Blut von Tieren sowie Vogelfamilien und können Krankheiten verbreiten – Historisch gesehen haben sie beispielsweise die Pest weiter gegeben.
+  insect.fly:
+    label: Fliegengewöhnlich
+    summary: Gängiger Zweiflügler mit der Fähigkeit Bakterien zu übertragen.
+    info: Die Stubenvogel ist die häufigste zweikreisige Insektensorte im menschlichen Umfeld. Ihre zusammengesetzten Augen ermöglichen ihr fast einen Rundumblick von 360 Grad. Sie trägt Krankheitserreger weiter, da sie auf Abfällen und Lebensmitteln landet.
+  insect.goliath_beetle:
+    label: Riesengötterwürger
+    summary: Einer der größten und schwersten Insekte aus den Tropen Afrikas.
+    info: Der Riesengotterwürmer ist eines der massigsten Tierchen auf dem Planeten – Männchen können bis zu 100 Gramm wiegen und über eine Länge von elf Zentimetern erreichen. Sie leben im Regenwald gleich des Äquators Afrika’s. Erwachsene ernähren sich von Früchten sowie Pflanzensaft. In einigen Teilen Afrikas werden sie manchmal als Spielzeug für Kinder gehalten oder an Sammler verkauft.
+  insect.grasshopper:
+    label: Heuschrecke
+    summary: Sprunghafter Insekt mit langen Hinterbeinen und Zirpen.
+    info: |-
+      Die Heuschrecke ist ein Käfer aus der Ordnung der Schmetterlingsflügler mit stark entwickelten Hinterschenkel zum Sprung bis zu zwanzigfacher Körperlänge.
+      Männchen erzeugen einen typischen Laut durch Reiben ihrer Beine an den Flügeln.
+      Sie ernähren sich von Pflanzen; große Schwärme können Ernte-Schaden verursachen.
+  insect.ground_beetle:
+    label: Steinkäfer
+    summary: Schneller Raubborkenkäfer, der unter Steinen und Laub lebt.
+    info: Der Steinkäfer ist ein Käfer aus der Familie der Borkenkafeer; die meisten Arten sind aktive nächtliche Räuber von Insekten, Regelmücken sowie Schnecken oder Würmern. Sie bewegen sich schnell fort und flüchten rasch vor Gefahrenquellen. Einige Arten wie das Violette Erdhuhn haben beeindruckend metallisch glänzendes Färben.
+  insect.hornet:
+    label: Braunbiene
+    summary: Die größte europäische Biene mit starkem Stachel und lautem Summen.
+    info: Der Große Wespenvogel ist die größte soziale Bienenart Europas; er erreicht eine Länge von über 3,5 Zentimetern. Er baut Papierwaben im Inneren von Baumbeständen oder auf Dächern an. Seine Nadel ist länger als bei der gewöhnlichen Wespe, das Stechen schmerzt daher mehr – dennoch greift sie nur dann an, wenn es direkt bedrängt wird. Sie spielt zudem eine wichtige Rolle als Prädator anderer Insekten.
+  insect.hoverfly:
+    label: ', '
+    summary: Fliegengattung mit der Färbung von Bienen und Wespen, Blütenbestauber im Garten.
+    info: Die Schwebfliege ist eine Zweiflügler aus der Familie der Syrphen, die durch ihre Farben wie Ameisen oder Honigbien nachahmt um sich vor Raubtieren zu schützen (Batesche Mimose) – obwohl sie selbst nicht stechen kann.
+  insect.lacewing:
+    label: Goldauge
+    summary: Schwach geflügeltes Insekt mit durchsichtigen Netzadern und goldfarbenen Augen.
+    info: Die Goldaugen gehören zur Familie der Chrysopiden und haben feine, durchsichtig aderierte Flügel sowie goldene Augen. Die Larven sind Raubtiere und fressen große Mengen Blattläuse – sie dienen somit als natürliche Pflanzenschutzpatrouille. Erwachsene ernähren sich von Nektar und Pollen.
   insect.ladybug:
     label: Marienkäfer
     summary: Kleiner runder roter Käfer mit schwarzen Flecken.
     info: Der Marienkäfer ist ein kleiner Käfer, der Blattläuse frisst und im Garten nützlich ist.
+  insect.locust:
+    label: Wanderheuschrecke
+    summary: Die Wanderheuschrecke bildet zerstörerische Schwärme aus Millionen Individuen.
+    info: Der Heuschreckenfluch der Bibel ist die Wanderheuschrecke – ein Insektor, der unter bestimmten Bedingungen riesige wandernde Schädlingsmassen bilden kann. Ein solches Volk besteht manchmal aus Milliarden Tieren und kann innerhalb eines einzigen Tages eine Ernte auf tausenden Hektar vernichten. Historisch gesehen sind Heuschreckschwärme zu Afrika wie Asien immer wieder für einige der größten agraren Katastrophen verantwortlich gewesen.
+  insect.louse:
+    label: Läuse
+    summary: Kleiner fühlloser Parasit auf der Haut und Haaren von Säugetieren.
+    info: Flöhe sind flügellose Schädlinge aus der Ordnung Lückenflieger, die sich an der Haut oder im Fell ihres Wirts niederlassen. Sie saugen Blut ab und verursachen Juckreiz. Kopflohf ist weltweit verbreitet und betrifft Kinder unabhängig davon, wie gut ihre Hygienebedingungen sein mögen.
+  insect.mayfly:
+    label: Mayflie
+    summary: Insekt mit dem kürzesten Erwachsenenleben – nur Stunden bis Tage.
+    info: Die Mayfly gehört zur Ordnung der Eintagsfliegen und ist ein Symbol für Vergänglichkeit; die erwachsenen Tiere leben nur einige Stunden oder Tage. Sie besitzen kein funktionierendes Mundwerkzeug und ernähren sich überhaupt nicht. Die Nymphalform lebt unter Wasser etwa einen bis drei Jahre lang. Massenhaftes Auftreten von Mayflies bildet eine beeindruckende Naturschauspiel; ihr kolossales Schwärmen auf der Donau im ungarischen Raum stellt ein einmaliges Phänomen dar.
+  insect.mosquito:
+    label: Mücke
+    summary: Zweiflügeliger Insektor der Familie Culicidae mit blutsaugenden Weibchen.
+    info: Die Mücken sind zweiflügliche Tiere aus der Gattung Culicidae. Die weiblichen Exemplare trinken Blut von Lebewesen zur Eizucht und ernähren sich außerdem vom Nektar pflanzlicher Quellen. Sie können gefährliche Krankheiten wie Malaria oder Dengue übertragen.
+  insect.moth:
+    label: Eule
+    summary: Nachts aktiver Schmetterling mit Federbeinen und Lichtattraktion.
+    info: Eulen sind Nachtfalter aus der Ordnung der Schmetterlinge (Lepidopteren), die sich von Tagesfaltern durch ihre zur Ruhe an den Seiten angelegten Flügel unterscheiden. Viele Arten werden vom künstlichen Licht angelockt. Die Raupen des Seidenwesps liefern das natürliche Seidegeweb. Der Mondschwalbenflug ist eine der schönsten Eulenspecies weltweit.
+  insect.praying_mantis:
+    label: Gottesbeißer
+    summary: Raubinsekt mit betenden Vorderläufen und blitzschnellem Angriff.
+    info: Der Gottesbeißer ist ein Raubtier aus der Gruppe der Mantisartigen Insekten. Er hat seinen Namen aufgrund seiner Haltung erhalten – er trägt seine Vordertiere wie zum Gebet gefaltet. Seine Jagdgeschwindigkeit ist beeindruckend; es greift die Beute innerhalb eines Wimpernsblinks an. Manche Weibchen fressen das Männchen nach dem Paarungsakt ab, obwohl dies nicht immer geschieht.
+  insect.robber_fly:
+    label: Steppenfliege
+    summary: Raubmücke fängt anderen Käfer direkt im Flug.
+    info: Die Steppenfliege ist eine raubende Zweiflüglerart aus der Familie der Schlupffliegen und jagd auf andere Insekten genau während des Fluges ein. Sie hat starke Beine zum Festhalten ihrer Opfer sowie einen Stachel zur Einführung von lähmarendem Gift. Einige Arten ahmen die Aussehen von Wespen oder Bienen nach als Schutz vor Raubern.
+  insect.scorpion:
+    label: Skorpion
+    summary: Giftiger Spinnentier mit Kiefern und gebogenem giftigem Schwanz.
+    info: |-
+      Ein Skorpion ist ein Gliederfußtier aus der Klasse der Spinngänger (kein Insekt), das charakteristische Scherenklauen sowie einen gekrümmten Stachelschwanz besitzte.
+      Es handelt sich um sehr alte Tiere – die ältesten Fossilien von Skorpione sind über 430 Millionen Jahre alt.
+      Unter ultraviolettem Licht zeigen sie im Dunkeln Fluoreszenzeffekte.
+      Von etwa 2 500 Arten gelten nur ungefähr 25 als für den Menschen gefährlich.
+  insect.silverfish:
+    label: Fischflöhe
+    summary: Krebsartiger Flügellosgeruch um Bücher und Papier im Haushalt.
+    info: Die Fischfloh ist ein primitives flugunfähiges Insekt aus der Ordnung des Zygopteren, das sich vorwiegend an Stärke, Papierklebstoffen sowie Textilfasern nährt.
+  insect.spider:
+    label: Spinnentier
+    summary: Achtbeinige Spinnen bauen Netze zum Fangen von Insekten.
+    info: Ein Spinntier ist ein Gliederfüßer aus der Ordnung der Echten Spinner mit acht Beinen und zwei Körperschichten. Es kann Seide herstellen, um damit Fangnetze zu weben oder Kokons für seine Eier anzufertigen. Auf der Welt gibt es über 48 000 verschiedene Spinnten-Arten.
+  insect.stag_beetle:
+    label: Hirschhornkäfer
+    summary: Größter Käferschädling Europas mit stachelförmer Mandibeln beim Männchen.
+    info: Der Hirschkopfkäfer ist der größte europäische Borkenkäfer und kann eine Länge von über sieben Zentimetern erreichen. Das männliche Tier hat riesige hornförmige Kaubrüste zum Kampfen um Weibchen. Die Raupe benötigt bis zu sieben Jahre im verrottenden Eichendickicht zur Nahrungsaufnahme an Pilzen.
+  insect.stick_insect:
+    label: Stinktier
+    summary: Insekt mit perfektem Ähnlichkeitsvermögen zu Zweigen oder Blättern.
+    info: Das Stinktier ist ein Insekt aus der Gruppe der Phasmiden und Meister des Tarnens durch Imitation; sein Körper ahmt Aststücke oder Blätter nach. Bei Bedrohung bleibt es völlig reglos stehen. Einige Arten vermehren sich parthenogenetisch – also ohne Männchen. Sie sind beliebte Exoten als Haustiere aufgrund ihrer geringen Pflegeanforderungen.
+  insect.termite:
+    label: Ameise
+    summary: Sozialer Käferbau aus riesigen Erdhügeln.
+    info: |-
+      Ein Aal ist ein soziales Insekt der Gruppe Isoptere und entfernt verwandt mit Heuschrecken.
+      Sie leben in Kolonien bestehend aus König, Königin, Soldaten und Arbeitern,
+      die komplizierte Nester bauen – bis zu neun Meter hoch im Tropengürtel -, die über eine Lüftungssystem verfügen.
+      Als Primärverwitterungsorganismus von Holz spielen sie eine Schlüsselrolle innerhalb tropischer Ökosysteme.
+  insect.tiger_beetle:
+    label: Carabiden
+    summary: Metallisch gefärbter schneller Käfer mit hervorragendem Sehsinn.
+    info: Der Carabin ist ein Käferraubtier aus der Unterfamilie Cycindylenae und bekannt für seine außergewöhnliche Geschwindigkeit sowie die Fähigkeiten zum Flug und das spitzen Augenschein. Er rennt so schnell, dass er anhalten muss, um sich neu zu orientieren – sein visuelles System kann dem Tempo nicht folgen. Die Tiere haben metallisch glänzend farbige Körper wie grün oder rotblau und große Augen; ihre Larven graben vertikale Gänge im Boden und lauern durch den Eingang nach Beute.
+  insect.velvet_ant:
+    label: Fellmutille
+    summary: Eine orangefarbene flügellose Biene aus der Familie der Mutiliden.
+    info: Die Fellmuttille ist tatsächlich eine Wespe aus der Gattung der Mutilliden und die Weibchen sind flugunfähig sowie äußerlich an Ameisen erinnernd. Sie haben rote oder orange Felle als Warnsignal. Die weiblichen Tiere besitzen ein extrem starkes Stachelorgan mit dem Spitznamen 'Kuhmörder'. Sie parasitisieren auf den Nestern von Hornissen.
+  insect.wasp:
+    label: Wespe
+    summary: Gelb-schwarzer Stechinsekt mit Papierwaben.
+    info: Die gemeine Wespe ist ein Stachelhymenopteren aus der Gattung Vespa und hat das charakteristische gelbschwarz gestreifte Warnfarben-Schema. Sie baut Wabennester aus kauergem Holzmehlenpapier an Bäumen oder Mauern. Im Gegensatz zur Biene kann die Wespe mehrfach stechen. Zudem spielt sie eine nützliche Rolle als natürlicher Regulator für Schädlinge unter den Insekten.
+  insect.water_strider:
+    label: Wasserläufer
+    summary: Insekt, das durch die Oberflächenspannung über Wasser laufen kann.
+    info: Der Wasserläufer ist ein Käfer aus der Familie der Gerriden und fähig zu gehen auf Wasseroberfläche dank wasserableiten Haaren an den Beinen sowie der Flüssigkeitsoberflächentension des Wassers. Er jagt ertrunkene Insekten, welche er mithilfe von Vibrationen im Wasser entdeckt. Der Wasserläufer bewegt sich schnell fort und gleitet mit einer Geschwindigkeit von mehr als dem 150-fachen seiner Körpergröße pro Sekunde.
+  insect.weevil:
+    label: Rüsselkäfer
+    summary: Kleiner Käfers mit einem typischen verlängerten Rüsseln.
+    info: Ein Rüsselkäfer ist ein Bock aus der Familie Curculionidae – die größte Tierfamilie weltweit mit über 60 000 Arten. Der markante gestreckte Schnabel dient dazu, Samen, Früchte und Stämme zu bohren. Einige Arten sind bedeutende landwirtschaftliche Schädlinge wie beispielsweise der Baumwanzenbock.
+  insect.whirligig_beetle:
+    label: Wasserläufer
+    summary: Kleine Käferschwärme auf der Wasseroberfläche.
+    info: Der Wasserläufer ist ein kleiner Wassertier aus der Familie Gyridae und bewegt sich meistens an der Oberflächenschicht des Gewässers herum; sein Schwarmverhalten hilft ihm Raubtieren zu entgehen. Seine Augen sind so getrennt angeordnet, dass eine Hälfte über dem Wasser sieht und die andere unterhalb davon. Er kann Wellentürmen oder Rippeln auf der Fläche erkennen – diese zeigen Nahrungsmittelquellen sowie Gefahren an.

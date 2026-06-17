@@ -2,6 +2,50 @@ lang: es-419
 pivot: false
 title: Animales marinos
 cards:
+  animal.anglerfish:
+    label: diablo de mar
+    summary: Pez profundo con cebo bioluminiscente
+    info: '{"info":"El diablo de mar vive en las profundidades oscuras del océano por encima de los mil metros.","info": "La hembra tiene un anzuelo luminoso llamado ilicio sobre la cabeza para atrapar presas y machos.","info": "Los machos son extraordinariamente pequeños;"]'
+  animal.barnacle:
+    label: camarón luminoso
+    summary: Pequeño crustácido fijo sobre superficies marinas como piedras o casco naval.
+    info: Los isópodos son crustáculos sedentarios de la subclase Ciripedia que se adhieren con un excreto cimentador en rocas, barcos y ballenas. Se alimentan mediante el filtro del plancton usando patas expuestas desde su caparazón. Sus lárvas nadadoras eventualmente se establecen para convertirse permanentemente en adultos adheridos.
+  animal.beluga_whale:
+    label: ballena beluga
+    summary: Pequeña ballena polar con cabeza abombada.
+    info: La beluga es una pequeña ballena blanca que habita en los océanos árticos y subtropicales del mundo. Su característico melón redondo sirve para la ecolocalización. Es el único cetáceo capaz de mover su cuello lateralmente.
+  animal.blue_tang:
+    label: caniche cirujano
+    summary: Pez tropical brillantemente teñido de índigo; protagonista animado.
+    info: El kanic azul es un pequeño pez marino de coloración claramente azul con una cola amarilla que habita en los arrecifes coralinos del Índico y Pacífico orientales. El film Buscando a Nemo aumentó el interés por su cría aunque resulta exigente como mascota acuarística. Tiene agallas afiladas alrededor de la base de la cola cuyo nombre inglés 'surgeon' proviene precisamente.
+  animal.carp_river:
+    label: pejerrey río
+    summary: Gran pesca dulce amarillo-castaño que vive principalmente en cursos fluviales o estanques.
+    info: |-
+      El pez gordo común es originario de Asia y fue introducido en Europa ya durante la Edad Media.
+      Es un omnívoro que revuelve el fondo del agua e incluso puede ensuciarla con su actividad.
+      Simboliza las Navidades checas; los comerciantes lo venden vivos desde cubas en mercados navideños.
+      Se trata una de las especies acuáticas más cultivadas mundialmente, contando actualmente con más de cien variedades reconocidas.
+  animal.catfish:
+    label: siluro
+    summary: Pez carnívoro nocturno que habita en riberas profundas.
+    info: El siluro común es el pez de agua dulce más grande en Europa y puede alcanzar una longitud superior a los 2 metros con un peso mayor al centenar de kilogramos. Sus bigotes característicos sirven como órganos olfativos y táctiles para detectar presas cerca del fondo donde vive principalmente durante la noche.
+  animal.clam:
+    label: Abánico Grande
+    summary: La especie más grande entre las almejas bivalvas encontrada comúnmente en arrecifes tropicales.
+    info: "{\"hint\":\"molusco bivalvo con dos caparaces articulados (Bivalvia)\",\"info\":\"El abanico grande o almeja giba es el mayor molusco del mundo alcanza una longitud de más de un metro y pesa hasta unos 200 kilogramos\\u00c2\x8E Vive en simbiosis con algas foto-sintéticas llamadas zooantelletas dentro su tejido corporal\\. Puede vivir por encima de cien años\\. La leyenda que dice que atrapa buzos no tiene fundamento porque cierra sus valvas demasiado lento\",\"label\":\"abanico grande\",\"summary\":\"Es la especie mas grande de los moluscobivales vive en arrecifes coralinos tropicales.\"}"
+  animal.clown_triggerfish:
+    label: pequeño pez volador
+    summary: Pequeno pez volador común en regiones cálidas del océano Pacífico e Índico.
+    info: |-
+      {"hint":"peces de arrecife con patrones llamativos (Balistoides conspicillum)","info":"El pez globo payaso es un gran pescado tropical perteneciente a la familia Balistidae que tiene uno de los colores más espectaculares entre las especies marinas.
+      Tiene fuertes dientes para triturar corales y moluscos duras.
+      Su nombre proviene del primer espina dorsal que actúa como seguro o gatillo bloqueando el segundo.
+      Puede ser agresivo hacia buzos durante su temporada reproductiva","label":"pez globo payaso","summary":"Pez tropical colorido con manchas blancas y labios naranjas."}
+  animal.clownfish:
+    label: pez payaso
+    summary: Pequeño y colorido pez amarillo naranja con blanco viviendo simbióticamente dentro del cuerpo de la anémona.
+    info: El pez payaso vive en las medusas de mar que tienen tentáculos venenosos capaces de matar otras especies de peces; el pez payaso es inmune gracias a una mucosa protectora.
   animal.crab:
     label: cangrejo
     summary: Crustáceo decápodo con caparazón y pinzas que se mueve de lado.
@@ -10,26 +54,166 @@ cards:
     label: delfín
     summary: Animal marino inteligente que vive en grupos y salta del agua.
     info: El delfín es un mamífero marino de la familia de los delfines. Es conocido por su alta inteligencia, capacidad para el ecolocalización y comportamiento juguetón; los delfines disfrutan saltando sobre las olas de los barcos y comunicándose mediante silbidos y clics. Viven en grupos llamados cardúmenes y son parientes cercanos de las ballenas.
+  animal.dugong:
+    label: dugongo
+    summary: Herbívoro silencioso relacionado al manatí encontrado en el Océano Índico.
+    info: El delfinario es un mamífero marino emparentado con el manatí que vive en los océanos Índico y Pacífico. Se alimenta exclusivamente de hierbas marineras. Es considerado una posible fuente de inspiración para las sirenas; navegantes lo confundieron erróneamente como criaturas místicas del mar.
+  animal.eel:
+    label: anguila/muerena
+    summary: Pez similar a una serpe que vive entre fisuras de los arrecifes.
+    info: Una muerena es un gran pez marino de la familia Muraenidae que se oculta en las grietas del arrecife coralino. Tiene dos filas de mandíbulas; además de sus mandíbulas bucales tiene otras internas llamadas faríngeas para ayudarle a meter su presa al cuello. No ataca activamente y normalmente solo mordisquea cuando lo provocan.
+  animal.flying_fish:
+    label: volador
+    summary: Pez tropical capaz de planear sobre la superficie usando las grandes aletas.
+    info: El volador es una especie de pez tropical que puede saltar del agua y deslizarse por el aire con sus amplias aletas pectorales funcionando como alas para evitar depredadores tales como atunes, caballas y delfines.
+  animal.frogfish:
+    label: Falsa Pulpa
+    summary: Cazador oculto detrás de rocas coralinas usando señuelos.
+    info: |-
+      {"hint":"depredador emboscado extraño que camina sobre aletas","info":"El falso pulpo de antenas largas es un pequeño pez marino perteneciente a la familia Antennariidae y tiene una habilidad excepcional para hacerse invisible mediante el uso del entorno natural como disfraz.
+      Sus aletas pectorales están formadas en forma similar al pie humano con los cuales arrastra su cuerpo por encima del fondo oceánico.
+      Tiene también una estructura llamada ilicio situada cerca de sus primeros radios dorsales usados principalmente para capturar presas moviéndose lentamente hacia adelante imitando movimiento realista.
+      Puede comer caza casi tan grande como él mismo;
+      esto puede tomar hasta seis segundos."}
+  animal.giant_squid:
+    label: Pulpo Gigante
+    summary: El animal sin columna vertebral más grande que vive en aguas profundas.
+    info: Los pulpos gigantes (Architeuthis dux) son los invertebrados más grandes del mundo y pueden alcanzar una longitud de más de 13 metros. Tienen las garras con el mayor tamaño en la fauna marina adaptadas para cazar presas profundas.
+  animal.hammerhead_shark:
+    label: tiburon maza
+    summary: Un pez similar al tiburón que tiene una cara anchurosa distintiva formada como si fuera la letra "T".
+    info: El zorro martillo es un tipo de tiburón con una cabeza ancha y plana en forma de 'T'. Esta característica permite detectar mejor la presa mediante órganos eléctricos llamados ampollas de Lorentzi y facilita el movimiento preciso bajo el agua.
+  animal.horseshoe_crab:
+    label: almejas
+    summary: Un antiguo moluscado con caparazón duro y patas articuladas.
+    info: El almeja de mar o xilófago es una criatura que ha sobrevivido sin cambios significativos durante aproximadamente 450 millones de años desde la era primaria del planeta Tierra.
   animal.jellyfish:
     label: medusa
     summary: Animal marino transparente en forma de campana con tentáculos venenosos.
     info: Una medusa es un animal marino del filo Cnidaria sin cerebro, corazón ni huesos; su cuerpo está compuesto por un 95% de agua. Se mueve mediante pulsaciones de su cuerpo en forma de campana. Sus tentáculos contienen células urticantes (nematocistos) que paralizan sus presas. Algunas especies son casi inmortales y pueden regresar a una etapa juvenil.
+  animal.lionfish:
+    label: pez luna
+    summary: Pequeño animal acuático tropical con colores vivaces y estructuras defensivas naturales.
+    info: El pez luna rojo es una especie de peces marinos venenosos perteneciente a la familia Scorpaenidae y se caracteriza por sus llamativos rayas blancas sobre fondo rojizo así como también poseer aguijones tóxicos que pueden causar dolor intensivo aunque rara vez resultan en condiciones peligrosas para el ser humano.
+  animal.lobster:
+    label: camarón
+    summary: Cangrejo marino grande con pinzas; cocina como si estuviera hecho de carburo porque vive verdes oscuros.
+    info: El camarón Atlántico es un gran cangrejo marino de la familia Nephropidae que puede crecer más allá del metro y medio en longitud. Tiene una coloración verde azulada oscura cuando está crudo pero adquiere su característico tono rojizo al cocinarse por reacción química con el calor.
+  animal.manatee:
+    label: Dugongo/manati
+    summary: Herbívoro lento llamado vaca de mar.
+    info: El dugongo o manatí es un gran mamífero marino que come exclusivamente hierbas marineras.
+  animal.manta_ray:
+    label: raya
+    summary: Pequeña raya elegante que filtra plancton cerca del nivel superficial.
+    info: La mantarraya es el mayor tipo de pez globo con un envergamiento que supera los 7 metros y una masa superior a las 2 000 kilogramos. Filtra plancton usando placas branquiales mientras nada abriendo la boca. No tiene aguijón venenoso ni representa peligro para humanos.
+  animal.mussel:
+    label: Almeja
+    summary: Molusca oscuro adherido por filamentos sobre piedras expuestas.
+    info: La almeja europea es un molusco que vive en las zonas de marea del Atlántico y el Pacífico. Se adhiere firmemente a rocas con hilos llamados bisas. Filtra agua y actúa como indicador ambiental acumulando contaminantes e incluso metales pesados.
+  animal.narwhal:
+    label: narval
+    summary: Ballena ártica con cuerno helicoidal similar al de la criatura mitológica unicornio.
+    info: El narvál es una pequeña ballena ártica que puede alcanzar los cinco metros de longitud y tiene un colmillo en forma de hélice característico, el cual corresponde al incisivo izquierdo crecido del animal. El diente puede llegar a medir más de tres metros y las hembras no lo tienen desarrollado. Vive en grupos dentro del océano Ártico.
+  animal.nautilus:
+    label: naútilo
+    summary: Antiguo cefalópodo dentro de una carcasa enrollada, sobrevive desde la era de los dinosaurios.
+    info: '{"info":"El Nautilus es un molusco cefalópodo con una caparrosa caracolada que ha vivido casi sin cambios por más de 400 millones de años\. La cáscara está dividida en compartimentos y el náutico regula su flotabilidad mediante la entrada controlada del gas\.","label":"naútilo","summary":"Cephalópodo antiguo dentro de una carcasa enrollada, superviviendo desde los tiempos de los dinosaurios."}'
   animal.octopus:
     label: pulpo
     summary: Molusco con ocho tentáculos capaz de cambiar color y forma del cuerpo.
     info: El pulpo es un animal invertebrado perteneciente a la clase de los cefalópodos. Tiene tres corazones, sangre azulada y puede cambiar instantáneamente el color y la textura de su piel mediante células llamadas cromatóforos. Es muy inteligente; puede abrir recipientes cerrados y resolver laberintos.
+  animal.orca:
+    label: ballena
+    summary: Predador marino negro-blanco también conocido como orca.
+    info: La ballena gris es el mayor representante de la familia de los cetáceos y uno de los animales más inteligentes del mundo.
+  animal.oyster:
+    label: almeja
+    summary: molusco acuífero; fuente natural de perlas y popular comida exótica
+    info: Las almejas son moluscos que filtran el agua; una sola almeja puede filtrar hasta 200 litros de agua diariamente. Algunas especies producen perlitas cuando un objeto extraño irrita su capullo. Las almejas crudas son consideradas como delicadeza gourmet y tradicionalmente se consumían en meses con la letra 'R'. Su cultivo es ecológicamente responsable ya que ayuda a limpiar las aguas marinas.
+  animal.piranha:
+    label: presa
+    summary: pequeño mamifero insectívoro de cuerpo cilindrico y cola prensile adaptado para vivir entre las ramas altas de selvas tropicales americanas
+    info: '{"hint":"peces carnívoras de agua dulce de Sudamérica (Pygocentrus nattereri)","info":"La piraña roja es un pez depredador de aguas continentales del río Orinoco con afilados colmillos triangulares y una reputación exagerada como animal peligroso para los humanos sanos que nadan en el río. A pesar de su nombre común, ataca muy pocas veces al hombre si no hay heridas visibles o sangre cerca. Caza por bandadas detectando la presencia mediante olfato desde distancias considerables","label":"presa","summary":"pez carnivoro sudamericano de agua dulce con grandes colmollos"}'
+  animal.puffer_fish:
+    label: pez puffer
+    summary: Pez que se hinchó en forma de pelota puntiaguda.
+    info: '{"fugu" es un tipo de pez perteneciente a la familia Tetraontidae que puede hinchar su cuerpo con agua o aire para formar una bola punteada cuando está amenazado.'
+  animal.salmon:
+    label: salmón
+    summary: Gran pescado salmonido que migra del océano hacia arroyos y lagunas dulces.
+    info: El salmón es un pez anadrómico que crece en el mar pero regresa cientos de kilómetros por sus ríos natales para reproducirse. Cuando sube al riachuelo donde va a desovanear cambia su color desde plateado hasta notablemente carmesí.
+  animal.sea_anemone:
+    label: medusa","summary":"Medusas son animales marinos gelatinosos pertenecientes al filo Ctenóforos o Meduzas."}}
+    summary: Anémona es un tipo específico dentro del grupo más amplio conocido como medusas; ambas tienen estructuras similares pero diferentes funciones biológicas específicas según su clasificación taxonómica exacta.
+    info: '{"hint":"animal marino similar a una flor con tentáculos urticantes","info":{"label":"anémona de mar","summary":"Animal acuático cnidario que se parece visualmente al pétalo fijado en rocas y tiene células venenosas para la caza.'
+  animal.sea_cucumber:
+    label: pepino de mar
+    summary: Animalito cilindrico recolectando desechos orgánicos desde el suelo.
+    info: Los pepinos de mar son equinodermos pertenecientes a la clase Holoturiodea que habitan en el fondo del océano. Filtrarán sedimentos y consumirán restos orgánicos. Al sentirse amenazados expulsan sus intestinos u otros líquidos acuosos los cuales pueden regenerarse.
+  animal.sea_lion:
+    label: lobo
+    summary: Animal con forma de perro capaz de moverse por tierra usando sus extremidades modificadas.
+    info: El lobo de mar californiano es el representante más conocido del grupo Otaria (uropelágidos). A diferencia de los auténticos pingüinos no tiene orejas visibles y puede caminar sobre sus cuatro patas acanaladas o palmas anchas que actúan como pies. Es notablemente inteligente e incluso en la industria recreativa aprenden trucos complejos.
+  animal.sea_otter:
+    label: nutria
+    summary: Nutrias americanas usan piedra para abrir caracoles mientras duermen juntas.
+    info: '{"hint":"otorgato marino que flota sobre su espalda usando herramientas","info":"La nutria de río es un mamífero acuático originario del nordeste de América con el pelaje más denso entre todos los mamíferos (hasta ocho millones de pelos por centímetro cuadrado).\nUsa piedras como instrumentos para romper almejas y moluscos colocados en la parte superior de sus cuerpos. \nDuermen flotando boca arriba sujetándose las patas una contra otra para no ser arrastradas por corrientes fuertes hacia aguas profundas donde podrían ahogarse accidentalmente si cayeran dormidas bajo superficie líquida."}'
+  animal.sea_slug:
+    label: gasterópodo desnudo
+    summary: Caracolito colorido e informe sin caparazón viviendo cerca de los arrecifes.
+    info: Los nuditelios son moluscos marinos sin concha que habitan en arrecifes de coral. Tienen algunas de las más llamativas colores del reino animal y sirven como advertencia sobre su toxicidad. Algunas especies absorben células tóxicas desde sus alimentos (como corales) para usarlas en defensa propia.
   animal.sea_turtle:
     label: tortuga marina
     summary: Un gran reptil marino que regresa a la playa para poner huevos.
     info: La tortuga verde es uno de los siete tipos de tortugas marinas. Las hembras vuelven cada dos a cinco años a la misma playa donde nacieron para depositar sus huevos. Los adultos son herbívoros y comen algas y hierbas marinas; en cambio, las crías son omnívoras.
+  animal.sea_urchin:
+    label: erizo
+    summary: Equidneo redondo e informe recubierto por numerosas espinas viviendo sobre fondos pétreos.
+    info: Un erizo es un equidnio marino cubierto de espinas móviles perteneciente al grupo Echinoida que vive en el fondo rocoso oceánico. Entre sus espinas tiene órganos especiales llamados pedicelarios para limpiar y cazar presas pequeñas. Se alimentan principalmente con algas, setas y restos orgánicos.
   animal.seahorse:
     label: caballito de mar
     summary: Pequeña pez que nada en posición vertical; el macho lleva los crías.
     info: El caballito de mar es un pez del género Hippocampus que se mueve en posición vertical usando su aleta dorsal. Una curiosidad es que son los machos quienes llevan las crías en una bolsa, no las hembras. Se aferra con la cola a hierbas marinas y espera a que sus presas pasen.
+  animal.seal:
+    label: foca
+    summary: Mamífero acuático que descansa en piedras e investiga peces dentro del océano.
+    info: |-
+      El foca común es un mamífero marino de la familia Focaéidos con cuerpo hidrodinámico y sin orejas visibles.
+      Vive en las costas del océano Atlántico y Pacífico pasando tiempo tanto bajo el agua como sobre rocas.
+      Puede sumergirse más allá de los cien metros y permanecer debajo por media hora.
   animal.shark:
     label: Tiburón
     summary: Gran pez depredador con dientes afilados y cuerpo hidrodinámico.
     info: El tiburón blanco es el mayor depredador acuático del mundo y puede alcanzar una longitud de más de seis metros. Posee la capacidad de percibir campos eléctricos de sus presas mediante las ampolletas de Lorenzini. A pesar de su reputación, los ataques a humanos son muy raros; los tiburones desempeñan un papel clave como depredadores en el ecosistema marino.
+  animal.shrimp:
+    label: camarón
+    summary: Pequeño animal marino popular mundialmente.
+    info: Los camarones son pequeños crustáculos marinos con diez pares de patas que habitan en aguas dulces y saladas. Existen más de dos mil especies diferentes; los camarones se encuentran entre las fuentes acuícolas más consumidas del mundo después del atún. Actúan como depredadores naturales dentro de la cadena alimenticia ocenica.
+  animal.squid:
+    label: Calamarcas
+    summary: Decápodos acuáticos capaces de propulsarse por medio de chorros de líquido.
+    info: '{"hint":"molusco cefalópodo de diez brazos que impulsa el agua para moverse","info":{"label":"calamar","summary":"Cephalópode decápodo que se mueve expulsando agua y puede cambiar su color gracias a los cromatóforos.","detail": "Los calamares son moluscos con 10 tentáculos (8 patas más dos tentáculos especializados en la captura). Se desplazan mediante un movimiento impulsivo del agua y pueden alterar sus colores usando cromatóforos. Los gigantescos calamares (como Architeuthis), miden más allá de trece metros e incluso supera al tamaño de otros animales sin columna vertebral. Dejan marcas visibles sobre las pieles de ballenas azules contra quienes luchan en profundidades oceanográficas."}}'
+  animal.starfish:
+    label: estrella de mar
+    summary: Animal acuático capaz de recuperarse después del corte.
+    info: Las estrellas de mar son equinodermos con típicamente cinco brazos que habitan en el fondo oceánico y pueden regenerar completamente un brazo perdido u hasta formar todo su cuerpo desde una extremidad cortada.
+  animal.stingray:
+    label: rajón
+    summary: Pez marino plano con agujones en la cola; reposa encima del fondo arenoso.
+    info: '{"hint":"raya plana con aguijón venenoso en la cola","info":"El rajón es un parentesco del tiburón cuyo cuerpo plano y discoide está adaptado para vivir sobre el fondo marino.\nLa cola de muchas especies tiene una espina venenosa que sirve como defensa contra depredadores o amenazas externos.\nSe mueve mediante movimientos similares al batido de alas usando sus grandes aletas ventrales.\nAlgunas variedades son electrogenéticas capaces de paralizar su presa utilizando descargas eléctricas."}'
+  animal.swordfish:
+    label: espada
+    summary: Pez carnívoro muy rápido con el cuerpo alargado.
+    info: El espada grande es un pez pelágico de los océanos cálidos y templados que utiliza su largo hocico en forma de lanza para aturdir sus presas como peces pequeños y calamares, no necesariamente para atravesarlas directamente con él. Es uno de los animales más veloces del mar alcanzando una velocidad superior a los 160 kilómetros por hora.
+  animal.tuna:
+    label: '"Atún"'
+    summary: '"Pez pelágica rápido cazada masivamente para uso industrial alimentario."'
+    info: '{"info":"El atún azul es el mayor tipo de atún que puede alcanzar una longitud superior a los tres metros y un peso superor a setecientos kilogramos\.\nEs endotermaico (de sangre caliente), manteniendo su temperatura corporal más alta que la del agua circundante\.\nPertenece a las especies de peces marinos con mayores velocidades, llegando incluso a sobrepasar los sesenta y cinco kilómetros por hora\.\nEstá críticamente amenazado debido al excesivo pesca comercial\\(aun ejemplar individual ha sido vendido en mercados japonesas por cien mil dólares aproximadamente").'
+  animal.walrus:
+    label: mors
+    summary: Grande mamífero artico con cuernos larguísimos.
+    info: El mors es un pinípedo ártico característico por tener colmos de marfil que pueden superar el metro de longitud y unos bigotes muy desarrollados. Sus dientes los utiliza para salir del agua helada al ascender sobre la capa de nieve, también en combates entre machos donde establecen jerarquías sociales dentro sus colonias numerosas.
   animal.whale:
     label: ballena azul
     summary: El mayor animal del mundo es un mamífero marino que respira aire.

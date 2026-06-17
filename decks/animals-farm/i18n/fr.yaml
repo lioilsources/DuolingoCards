@@ -2,6 +2,30 @@ lang: fr
 pivot: false
 title: Animaux d'élevage
 cards:
+  farm.alpaca:
+    label: lama
+    summary: Petit parent de la vicompte élevé pour sa belle fourrure.
+    info: 'L''alpaga est un petit cousin des llamas apprivoisé dans les hautes montagnes des Andes. Sa toison est considérée comme une des fibres naturelles les plus fines au monde ; elle est chaude, anti-allergique et encore plus douce que le cachemire. Il existe deux races : huacayo (bourru) et suri (soyeux). L''élevage d''ânes s''étend rapidement vers l’Europe.'
+  farm.barn_cat:
+    label: chat de ferme
+    summary: Chat domestique élevé sur une exploitation agricole pour la lutte contre les rongeurs.
+    info: Un chat de ferme est un animal domestic qui vit dans l'environnement agricole et se nourrit principalement en traquant des souris et autres petits mammifères herbivores. Il protège ainsi non seulement ses propres ressources alimentaires mais aussi celles du fermier comme le fourrage ou encore le blé. Contrairement aux chats d'appartement, ces félins sont généralement moins sociabilisés avec leurs propriétaires.
+  farm.beehive:
+    label: ruche à abeilles
+    summary: Construction en bois servant d'habitat artificiel pour les colonies de guêpes butineuses.
+    info: Un rucher est un habitat artificiel utilisé par une colonie d’abeille domestique ; il remplace les cavités naturelles dans les arbres où vivent des essaims sauvages.
+  farm.boar:
+    label: cochon
+    summary: Mâle non castré de porc domestic ou sanglier.
+    info: Un cochon est un mâle non stérilisé d'un porc élevé en ferme ou du sanglier sauvage. Les cochs sont élevés sur les fermes pour la reproduction ; leur sperme sert à l'insemmination artificielle. Le sanglier masculin possède des défenses imposantes et peut être très agressif lorsqu'il attaque. Dans la cuisine, la viande de singlier est considérée comme une gibier précieux.
+  farm.calf:
+    label: veau
+    summary: Jeune veau d'une année maximum.
+    info: Un veau est un jeune bovin né jusqu'à l'âge de la weaning ou à peu près un an. Le petit animal parvient rapidement à marcher ; chez les femelles, l’instinct maternel est très fort. Les petits élevés pour produire du lait sont séparés précocement des génisses. La viande de veaux jeunes (veal en anglais) constitue une délicatesse appréciée dans plusieurs cuisines européennes.
+  farm.carp:
+    label: carpe
+    summary: Grande poisson d'eau douce ; plat traditionnelle de Noël en République tchèque.
+    info: La carpe commune est la plus grande espèce de poissons élevée dans les étangs tchécoslovaques et reste intrinsèquement liée aux fêtes de fin d'année du pays. Elle fut domesticisée au Moyen Âge principalement sur l’actuelle Tchéquie notamment à Trebon où se trouvent certains des grands bassins aquatiques artificiels. C’est un omnivore qui croît rapidement pouvant atteindre une masse supérieure à trente kilogrammes.
   farm.chicken:
     label: poule
     summary: Poule domestique qui pont des œufs.
@@ -10,6 +34,10 @@ cards:
     label: vache
     summary: Grand animal domestique qui produit du lait.
     info: La vache est élevée pour son lait et sa viande. Elle est l'un des sources alimentaires clés à travers le monde ; une vachère peut produire quotidiennement entre 20 et 30 litres de lait.
+  farm.deer:
+    label: bichette de ferme
+    summary: Biche ou cerf élevés en fermes pour la viande et les cornes.
+    info: 'En République tchèque, on élève des bichettes dans des domaines spécialisés ainsi que sur des exploitations agricoles dédiées à leur production carnée spécifique appelée «viande sauvage». Les jeunes sont plus petits que leurs homologues forestiers avec une particularité morphologique : elles présentent un développement caractéristique d''appendices osseux au niveau du front qui ressemblent aux bois des cervidés mâles mais chez certaines femelles aussi ; ces appendages se renouvellent annuellement après avoir été perdus temporairement chaque année calendrier civile. La consommation alimentaire issue directement depuis ces animaux domestiqués offre alors une alternative saine face traditionnellement dominante actuelle basée principalement autour de produits bovin.'
   farm.donkey:
     label: âne
     summary: Un âne robuste et fiable avec une démarche assurée.
@@ -18,19 +46,209 @@ cards:
     label: canard
     summary: Oiseau aquatique à bec plat élevé en agriculture.
     info: Le canard domestique est un volail élevé pour sa viande et ses œufs. Il nage bien grâce aux palmes entre ses doigts et émet un cri caractéristique.
+  farm.emu:
+    label: émù domestique
+    summary: Émù élevés pour leur huile, viande et cuir en Australie.
+    info: Les émus sont élevés sur des fermes en Australie pour la production de viande, d'huile corporelle utilisée dans les cosmétiques ainsi que du cuir. L’huile extraite est connue pour ses propriétés anti-inflammatoires et elle entre à la fois dans l’utilisation médicale traditionnelle et moderne. La ferme d’ému s’étend également aux États-Unis et en Europe. Les émis sont curieux comme animaux sauvages qui n'hésitent pas à approcher les humains.
+  farm.farm_shrimp:
+    label: crevette de ferme
+    summary: Crevette marine élevée en intensif dans des bassins côtiers.
+    info: |-
+      La crevette blanche du Pacifique est la variété de crevettes la plus cultivée au monde.
+      Les fermes sont principalement situées en Asie du Sud-Est et en Amérique latine.
+      L'élevage intensive de crevettes suscite controverse à cause de son impact sur les forêts de manguiers.
+      Elles constituent après le thon l'animal marin consommé par excellence.
+  farm.foal:
+    label: poulain
+    summary: Poulain est un jeune cheval âgé de moins d'un an ; il peut tenir debout dès les premières heures après sa naissance.
+    info: Un poulain désigne l'animal nouveau-né jusqu'à la fin du premier année de vie. Dès quelques heures seulement suivant sa venue au monde, ce petit animal parvient à se lever sur ses pattes et commence alors à téter son mère pour prendre des forces. Ses membres sont particulièrement longs comparés aux proportions générales de son corps mais cette caractéristique diminue progressivement avec maturation physique normale.
+  farm.freshwater_crayfish:
+    label: écrevisse de rivière
+    summary: Crustacé d'eau douce élevé en agriculture comme mets délicat.
+    info: L'écrevisse de rivière était très répandue dans les rivières des pays slaves mais elle fut presque éteinte par une maladie et la pollution hydrique. Aujourd'hui on l'élève sur des fermes spécialisées. Elle est un indicateur écologique important car ne vit que dans les eaux claires non polluées.
+  farm.garden_snail:
+    label: escargot de jardin
+    summary: Grand mollusque terrestre consommé en cuisine française sous le nom d'escargot.
+    info: L’Escargot du Jardin est le plus grand limace terrestre d’Europe et constitue une délicatesse culinaire appréciée dans la gastronomie française appelée « escargots ». Pendant l'hiver, il s'enfonce pour hiberner à l'intérieur de sa coquille qu'il ferme avec un opercule membraneux (appelé aussi hibernal). Son élevage agricole spécifique (hélicoiculture), pratiqué principalement en France mais également en Italie et autres pays européens.
   farm.goat:
     label: chèvre
     summary: Animal domestique à cornes fournissant du lait savoureux.
     info: La chèvre est élevée pour son lait, sa viande et sa laine. Elle est adaptable et capable de survivre sur une diversité de végétation, y compris dans des zones arides.
+  farm.goat_dairy:
+    label: chèvrefemelle à lait
+    summary: Chèvre élevée pour son lait utilisé dans les yaourts et fromages.
+    info: La chèvre domestique est domesticquée depuis plus de 10 000 ans et c'est un des animaux d'élevage les plus répandus. Le lait de chèvre contient beaucoup de nutriments et est facilement digestible par rapport au lait de vache ; il convient aux personnes intolérantes à lactose. À partir du lait de chèvre sont produits fameux fromages tels que Fromage blanc, Féta ou Halloumi.
+  farm.goose:
+    label: Oie domestique
+    summary: Grand oiseau de basse-cour élevé pour sa viande, son foie et ses plumes.
+    info: |-
+      L'oie domestique descend des oies sauvages il y a plus de 3 000 ans.
+      Elle fut l'un des premiers animaux apprivoisés ; à Rome, les oies gardaient la Capitole.
+      On valorise particulièrement leur gosier (pour faire du magret), leurs carcasses charcutières ainsi que leurs foies gras.
+      Les plumes d’oisillon furent traditionnellement utilisées comme outils d'écriture (plume en fer).
+  farm.guinea_fowl:
+    label: pintade
+    summary: Oiseau africain élevé pour sa viande et comme gardien contre les serpents.
+    info: |-
+      La pintade à tête rouge provient d'Afrique où elle vit en liberté dans des prairies arides appelées sabanes.
+      Sur les fermes, c'est une sentinelle naturelle ; son cri strident attire l'attention sur les serpentins, prédateurs ou personnes étrangères.
+      Elle possède un plumage gris tacheté de blanc ainsi qu'une tête non plumeuse rose-violette caractéristique.
+      Sa chair est gustativement similaire aux gibiers volants.
+  farm.guinea_pig_farm:
+    label: cobaye
+    summary: Le cobaya est élevé pour sa viande en Amérique du Sud ou tenu comme animal de compagnie.
+    info: |-
+      Originaire des Andes, il y fut domesticisé par les Incas plus de 3 000 ans avant d'être utilisé comme source alimentaire principale.
+      Il reste aujourd'hui une nourriture traditionnelle au Pérou, en Équateur et en Colombie sous l'appellation « cuy »
+      En Europe et dans la partie nord-américaine, on préfère souvent ce petit rongeur comme animaux familiers
+      Ce dernier communique à travers un ensemble complexe de sons comprenant notamment des couinements, des gémissements ainsi que des sifflements.
+  farm.highland_cattle:
+    label: bœuf écossais des Highlands
+    summary: Vache à poils roux et cornes imposantes originaire d'Écosse.
+    info: |-
+      Le bœuf écossaiss des Highlands est un ancien élevage de bovins adapté aux conditions difficiles du haut Écosse.
+      Sa toison rousse dense protège contre l’humidité et la fraîcheur.
+      Il résiste bien au froid et présente moins de problèmes sanitaires que les autres races.
+      Son viande tendre offre une saveur aromatique unique ; c’est souvent choisi comme alternative classique pour sa qualité.
   farm.horse:
     label: cheval
     summary: Puissant animal de ferme utilisé pour la monte et le travail.
     info: Le cheval domestique (Equus ferus caballus) est un grand animal d'élevage et de selle qui a été indispensable pendant des milliers d'années pour le transport, l'agriculture et la guerre. Aujourd'hui, il est également élevé pour le sport et la détente.
+  farm.lamb:
+    label: agneau
+    summary: Un agneau est un jeune mouton âgé de moins d'un an et il représente la jeunesse ainsi que l'innocence.
+    info: L’agnel naît avec une toison fine appelée « laine du berger » ou « toison douce », qu’il perd rapidement après sa première tonte à quelques mois près des pattes arrière pour faciliter les soins sanitaires comme ceux liés aux vers intestinaux.
+  farm.llama:
+    label: lame
+    summary: Mammifère camélidé sud-américain élevé pour sa laine et comme animal de charge.
+    info: La lame est un camélidé d'Amérique du Sud apprivoisé par les Incas il y a plus de 5 000 ans. C'était principalement la bête de somme des royaumes andins ; elle peut porter jusqu'à 30% de son poids corporel. La toison composée de fibres fines des lames est appréciée pour ses propriétés thermiques. Lorsqu'elle se sent menacée ou contrariée, la lime réputée crache.
+  farm.mule:
+    label: mulet
+    summary: Hybride stérile entre un cheval et une ânesse avec de l'endurance exceptionnelle et la force.
+    info: Un mulet est un croisé d'une jument (cheval femelle) et d'un baudet (âne mâle). L'autre type de crossbreed porte le nom de « mule ». Il est stérile mais très endurant, fort et résistant ; il possède également une bonne orientation dans les terrains accidentés ainsi qu’une prudence supérieure à celle du pur-sang.
+  farm.mussel:
+    label: moule
+    summary: Moule de mer comestible élevée sur des cordes dans l'eau salée.
+    info: La moule bleue est une huître largement cultivée en fermes le long du littoral Atlantique européen. Elle pousse sur des câbles ou des flotteurs selon les marées et filtre naturellement la nourriture à partir de l’eau environnante.
+  farm.ostrich:
+    label: autruche de ferme
+    summary: Autruche élevée pour sa viande, ses plumes et son cuir.
+    info: L'autruche est l'animal terrestre bipède le plus rapide et elle est élevée sur les fermes pour la production de viande rouge comparable au bœuf mais avec moins de matières grasses et de cholestérol ; son cuir précieux est utilisé dans des articles en cuir haut-de-gamme tandis que ses plumes sont traditionnellement utilisées comme décoration.
+  farm.ox:
+    label: bœuf
+    summary: Taureau castré qui fut l'animal de trait principal en agriculture.
+    info: |-
+      Un bœuf est un mâle castré du bovin domesticat utilisé pour les travaux agricoles.
+      Pendant des milliers d’années, il était la base animale motrice essentielle dans l’agriculture à travers une grande partie du monde.
+      Grâce à sa force et son tempérament docile, il labourait plus efficacement que cheval au début de l’histoire agricole.
+      Dans l’agriculture moderne, on utilise maintenant plutôt des tracteurs mais les pays en développement continuent encore à employer cette espèce.
+  farm.oyster:
+    label: huître de ferme
+    summary: Mollusque bouchard cultivé sur des cordes ou en enclos dans les eaux côtières.
+    info: |-
+      L'huître est élevée dans l'eau salée à proximité du littoral par suspension sur des câbles ou rangées ; elle met entre trois et cinq ans pour atteindre sa taille adulte.
+      Elle filtre la mer et contribue ainsi au nettoyage naturel des écosystèmes marins.
+      elle peut être consommée crue ou cuite comme délicatessen particulière.
+      l’ostréiculture produit également des huîtres perlifères qui donnent lieu aux fameuses perles.
+  farm.peacock:
+    label: paon domestic
+    summary: Mâle de paon élevé dans les parcs et jardins pour son aspect décoratif.
+    info: |-
+      Le paon bleu est originaire d'Inde où il fut apprivoisé depuis des milliers d’années en tant qu’oiseau ornamental.
+      Le mâle déploie plus de 150 plumes colorés formant un magnifique éventail afin d’attirer les femelles.
+      Son cri est très puissant et strident.
+      En Inde, c’est l’animal national symbolique de la beauté.
+  farm.pheasant:
+    label: pigeon de ferme
+    summary: Pintain élevé en agriculture et relâché pour la chasse.
+    info: |-
+      Le pintadin commun est élevé dans des exploitations agricoles en République tchèque et régulièrement lâché à nouveau dans la nature avec comme but la pratique cynégétique.
+      Il provient d'Asie ; les Romains ont introduit cette espèce en Europe.
+      L’adulte mâle présente une coloration remarquable ainsi qu’une longue queue alors que la femelle arbore un plumage brun discret.
+      La viande du pintadeau est considérée comme gibier précieux grâce au goût délicat qui lui confère sa popularité.
   farm.pig:
     label: porc
     summary: Animal de ferme rose avec un groin cartilagineux.
     info: Le porc domestique est un animal intelligent élevé pour sa viande. Il est omnivore et capable de se souvenir de tâches complexes.
+  farm.pigeon_farm:
+    label: pigeon domestique
+    summary: Pigeon élevé pour sa viande (surgret ou squabs) et les compétitions de vol.
+    info: |-
+      Le pigeonnier est un type du pigeon des rochers apprivoisé ; par la sélection artificielle ont été créées plusieurs centaines de races différentes.
+      Les surgrets (viandes d'oiseaux jeunes), sont considérés comme une délicatesse dans beaucoup de cultures.
+      Des oiseaux élevés spécifiquement pour leur rapidité peuvent atteindre plus de 150km/h lors des courses en endurance.
+      Pendant longtemps maintenant, cette activité reste très présente t elle possède une forte tradition historique.
+  farm.piglet:
+    label: porc
+    summary: Jeune porc domestique, généralement rose et joueur.
+    info: |-
+      Les petits cochons sont les jeunes du sanglier domestiqué pendant leurs premières semaines de vie.
+      Ils naissent très petits mais grandissent rapidement.
+      Une femelle (truie) donne naissance en moyenne à entre dix et douze petits par portée.
+  farm.pony:
+    label: poney
+    summary: Petit cheval pur-sang populaire pour l'équitation des enfants.
+    info: Le poney est un petit animal de selle qui mesure au maximum la hauteur de 14,2 mains (soit environ 147 centimètres). Le shétlanais ou poney du Shetland est celui dont les dimensions sont les plus réduites et il provient des îles Shetland en Écosse. Ces animaux résistants peuvent supporter facilement les conditions climatiques difficiles.
+  farm.quail:
+    label: caille japonesa
+    summary: Pet oiseau élevé en agriculture pour ses œufs et sa viande.
+    info: La caille japonaise est une espèce de petit volatil élevée intensivement à des fins d'œuf et de boucherie. Les femelles pondent presque quotidiennement ; leurs œufs sont considérés comme un délice dans plusieurs cuisines du monde entier. Elle atteint rapidement la maturation sexuelle dès l’âge de six semaines où elle commence déjà à ponter.
+  farm.rabbit:
+    label: lapin
+    summary: Lapereau domestic exploité pour sa viande, son pelage ou comme animal de compagnie.
+    info: Le lapin domestique fut apprivoisé au Moyen Âge à partir du lapin européen sauvage. Il compte plus d'une cinquantaine de races reconnues qui diffèrent par leur taille, couleur et type de fourrage. La femelle peut donner naissance entre quatre et douze petits avec plusieurs portées annuelles.
+  farm.ram:
+    label: bélier
+    summary: Un mâle adulte de brebis avec des cornes enroulées imposantes.
+    info: Le bélier est un animal masculin chez la chèvre domestique ou l'agneau. Il possède des cornes largement tordues qui forment une structure spectaculaire; les femelles n'en ont pas ou seulement très petites. Pendant leur saison reproductive automnale appelée «behema», ils entrent souvent dans des combats directs pour montrer et défendre leurs territoires ainsi que leur statut social.
+  farm.rooster:
+    label: coq
+    summary: Mâle adulte de la poule domestique ; il annonce l’aube par ses cocotements.
+    info: Le coq est un mâle de volaille et se reconnaît à son plumage coloré ainsi qu’à sa crête et queue décoratives. Le chant du coq sert au comportement territorial et peut avoir lieu non seulement avant l'aurore mais aussi en tout temps. En Tchéquie, le coq incarne la vigilance ; dans les signes astrologiques chinois, c’est une des douze créatures sacrées. Les anciens Grecs lui offraient même comme sacrifice pour représenter le renouveau matinal.
+  farm.salmon:
+    label: saumon
+    summary: Grande poisson de mer migrant vers les rivières pour la reproduction ; élevé en masse dans des fermes.
+    info: 'Le saumon commun est un poisson anadrore : il grandit en mer mais retourne à ses rivages natales pour y reproduire son espèce. La capacité d''identifier une rivière originelle repose sur l’orientation par rapport au champ magnétique terrestre et leur odorat développé. L’élevage intensif du saumon en Norvège et aux Écosses fait partie intégrante de l’aquaculture mondiale. Le saumon contient beaucoup d’omégas-3 bénéfiques pour la santé.'
   farm.sheep:
     label: mouton
     summary: Animal à laine et au pelage épais.
     info: Le mouton est élevé pour sa laine, son lait et sa viande. Il vit en troupeaux et est l'un des premiers animaux domestiqués de l'histoire.
+  farm.sheepdog:
+    label: chien de berger
+    summary: Chien spécialement entraîné pour diriger et protéger un troupeau.
+    info: Le Border Colley est le chien de bergers le plus populaire, élevé pour guider son troupeau par la vue ('œil') ainsi que des ordres discrets. Il fait partie des races canines les plus intelligentes. Ses capacités à travailler sont héritées mais doivent être développées dès l'âge du jeune chiot via une formation adéquate. Les compétitions en saut de chiens bergers (
+  farm.silkworm:
+    label: ver à soie
+    summary: Chenille du ver à soie produisant de la soie naturelle.
+    info: Le ver à soie est une chenille d'un papillon appelé Bombyx mori qui fut domesticisé en Chine il y a plus de 5 000 ans. Son cocon contient un fil unique pouvant dépasser les 900 mètres et constitue ainsi une source de soie naturelle. Il était si précieux que pendant des siècles, la Chine protégait jalousement ses secrets liés à sa culture. Le nom « Route de la Soie » provient justement du commerce mené avec ce matériau.
+  farm.sow:
+    label: truie
+    summary: Femelle adulte de porc domestique et mère des petits.
+    info: Une truie est une femelle adultée du cochon domesticable qui peut se reproduire deux fois par an avec un porté moyen compris entre 10 à 14 agneaux. L'élevage intensif en cage étroite reste controversé dans l'agriculture moderne pour les conditions restrictives imposées aux truies. Elles sont intelligentes naturellement attentionnantes pendant environ douze à seize semaines.
+  farm.tilapia:
+    label: tilapia
+    summary: Poisson dulçaquiste tropical largement élevé à travers le monde.
+    info: |-
+      La tilapia du Nilo est l'une des espèces de poissons élevées les plus répandues au monde ; plusieurs millions de tonnes sont produites chaque année.
+      Originaire du fleuveNil et des lacs africains, elle est aujourd'hui élevée sur tous les continents.
+      Elle s'agit d'un animal robuste qui croît rapidement avec peu exigeances alimentaires.
+  farm.trout:
+    label: truite
+    summary: Une salmonidé élevée en fermes aquatiques et dans des eaux libres.
+    info: |-
+      La truite arc-en-ciel provient d'Amérique du Nord et fut introduite en Europe comme espèce de ferme piscicole.
+       La truite commune est une espèce européenne originale vivant dans les cours d'eau clairs et rapides.
+       Les deux sont appréciées à la fois pour leur intérêt ludique que culinaire.
+       L'élevage de truites reste un secteur traditionnel tenu particulièrement présentement dans les régions montagneuses.
+  farm.turkey:
+    label: dindon
+    summary: Grand oiseau de ferme élevé pour sa viande et symbole du jour des Actions de Grâce américain.
+    info: Le dinde domestique provient du Mexique où il fut apprivoisé par les Aztèques plus de deux mille ans avant notre ère. Le mâle possède un cou rouge caractéristique qu'il peut gonfler ainsi que la capacité à étaler ses plumes caudales en forme de éventail. Aux États-Unis c'est une nourriture traditionnelle lors du Jour des Rémunérations ; mondialement ce sont les deuxième volailles élevées dans le monde entier.
+  farm.water_buffalo:
+    label: bufflon d'Asie
+    summary: Grand bovid asiatique utilisé comme animal de trait pour les rizières.
+    info: Le buffon d’Asie est une forme apprivoisée du sanglier aquatique et l’un des animaux agricoles fondamentaux en Asie. Il cultive depuis des milliers d’années les terres marécageuses et transporte la cargaison. Son lait plus gras que celui des vaches sert à produire un type particulier de mozarella appelée « mozzarella di buffalo ». En Inde, il représente également un symbole sacré dans l’hindouisme.
+  farm.yak:
+    label: jakt
+    summary: Grand animal à poils longs de la plaine élevée himalayenne ; fournit du lait, de la viande et une force tractrice.
+    info: 'Le yak est l''animal domesticable qui vit sur les plateaux transhimaïques entre environ 3 000 et 5 500 mètres d’altitude en Tibet. Il constitue un pilier économique pour cette région : il produit du lait, des protéines animales ainsi que sa toison douce et chaude très utile dans ces climats froids. Le dzomo résulte lui-même d’un croisement naturel ou artificiel entre le bœuf local et ce type particulier de ruminant.'

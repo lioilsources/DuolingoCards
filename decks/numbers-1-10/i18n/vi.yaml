@@ -6,18 +6,86 @@ cards:
     label: tám
     summary: Số 8, bạch tuộc có tám cánh tay.
     info: Tám là số thứ tự 2³ (hai mũ ba). Hình tám quay ngược lại (∞) là biểu tượng của vô cùng; trong văn hóa Trung Quốc, tám được coi là con số may mắn nhất.
+  num.eighteen:
+    label: mười tám
+    summary: Con số thứ hạng 18
+    info: Số 18 là số tự nhiên đứng sau số 17 và trước số 19 trong dãy các con số nguyên dương. Trong hệ thập phân nó được biểu diễn dưới dạng tổng của hai thành phần cơ bản như tám cộng mười.
+  num.eleven:
+    label: mười mốt
+    summary: Con số 11
+    info: Số 11 là số tự nhiên đứng sau số 10 và trước số 12 trong dãy các con số nguyên dương. Số La Mã biểu diễn cho nó là 'XI'. Khi được sử dụng như một thứ hạng thì gọi là 'thứ mười nhất', còn khi viết dưới dạng thập phân sẽ có cấu trúc gồm tổng của đơn vị cộng với chục.
+  num.fifteen:
+    label: mười năm
+    summary: '''Mười Năm'' hay còn biết tới qua cách ghi lại thông thường của mình thành hai kí tự đơn giản nhất mà ta vẫn dùng hàng ngày'
+    info: Số 15 là số tự nhiên đứng sau số 14 và trước số 16 trong dãy các con số nguyên dương tăng dần từ nhỏ đến lớn. Khi viết dưới dạng chữ thì được biểu diễn bằng ký hiệu La Mã 'XV'. Ngoài ra còn có thể gọi nó như một thứ hạng khi nói về vị trí nào đó - ví dụ nếu ai đang ở vị trí này sẽ được xem là người hoặc vật nằm tại điểm thứ mười lăm.
+  num.fifty:
+    label: Năm Mươi
+    summary: Chữ số thứ hạng của 'fifty' - Nămдесятый
+    info: Số năm mươi là số tự nhiên đứng sau bốn chín và trước sáu mốt trong dãy các con số nguyên dương.
   num.five:
     label: năm
     summary: Số năm, số ngón tay trên một bàn tay.
     info: Con số năm là cơ sở của hệ thập phân vì con người có năm ngón tay ở mỗi bàn tay. Hành tinh Kim Tinh vẽ nên ngôi sao năm cánh trên bầu trời.
+  num.forty:
+    label: bốn mươi
+    summary: Chữ số thứ tư chục
+    info: Số 40 là số tự nhiên đứng sau số 39 và trước số 41 trong dãy các con số nguyên dương. Dưới dạng chữ thường được viết thành bốn mươi.
+  num.forty_eight:
+    label: bốn mươi tám
+    summary: Chữ số 48
+    info: Số 48 là số tự nhiên đứng sau số 47 và trước số 49 trong dãy các con số nguyên dương.
+  num.forty_five:
+    label: bốn mươi lăm
+    summary: Con số thứ tư mươi năm
+    info: Số 45 là số tự nhiên đứng sau số 44 và trước số 46 trong dãy các con số nguyên dương.
+  num.forty_four:
+    label: bốn mươi bốn
+    summary: Con số thứ tư mươi bốn
+    info: Số 44 là số tự nhiên tiếp sau số 43 và trước số 45 trong dãy các con số nguyên dương.
+  num.forty_nine:
+    label: bốn mươi chín
+    summary: Con số thứ hạng của nó khi đếm lên lần lượt từng đơn vị một bắt đầu bằng 'một' cho tới tận cùng điểm cuối nào đó tùy thuộc vào ngữ cảnh cụ thể nhưng thường dừng lại ở mức mười hay hơn nữa.
+    info: Số 49 là số tự nhiên đứng sau số 48 và trước số 50 trong dãy các con số nguyên dương chẵn/lẻ liên tiếp tăng dần từ nhỏ đến lớn không có khoảng trống giữa chúng.
+  num.forty_one:
+    label: bốn mươi một
+    summary: Con số thứ tư十一
+    info: Số 41 là số tự nhiên tiếp sau số 40 và trước số 42 trong dãy các con số nguyên dương.
+  num.forty_seven:
+    label: bốn mươi bảy
+    summary: Con số thứ tư mươi bẩy
+    info: Số 47 là số tự nhiên đứng sau số 46 và trước số 48 trong dãy các con số nguyên dương.
+  num.forty_six:
+    label: bốn mươi sáu
+    summary: Con số thứ tư mươi sáu
+    info: Số 46 là số tự nhiên đứng sau số 45 và trước số 47 trong dãy các con số nguyên dương.
+  num.forty_three:
+    label: bốn mươi ba
+    summary: Con số thứ tư mươi ba
+    info: Số 43 là số tự nhiên đứng sau số 42 và trước số 44 trong dãy các con số nguyên dương.
+  num.forty_two:
+    label: bốn mươi hai
+    summary: Con số 42; khi dùng làm chỉ vị trí gọi là bốn mươi hai; viết bằng chữ Latinh là XLII.
+    info: |-
+      Số 42 là số tự nhiên đứng sau số 41 và trước số 43 trong chuỗi các con số nguyên dương.
+      Dạng chữ La Mã của nó là XLII.
+      Khi được sử dụng như một thứ hạng thì đọc thành 'thứ tư mươi hai'.
+      Theo hệ thập phân ta có thể biểu diễn dưới dạng tổng đơn giản nhất là 2 cộng với 40.
   num.four:
     label: bốn
     summary: Số 4, hình vuông có bốn cạnh.
     info: Bốn là bình phương của hai – kết quả của phép nhân 2 × 2. Trong văn hóa Nhật Bản và Trung Quốc, số này được coi là không may mắn (âm thanh của từ 'bốn' tương tự với từ 'chết').
+  num.fourteen:
+    label: mười bốn
+    summary: Con số thứ mười tư
+    info: Số 14 là số tự nhiên đứng sau số 13 và trước số 15 trong dãy các con số nguyên dương. Số La Mã biểu diễn cho nó là XIV.
   num.nine:
     label: chín
     summary: Số 9, số có một chữ số cuối cùng.
     info: 'Chín là con số cao nhất trong các số có một chữ số. Một đặc điểm đáng chú ý: bất kỳ số nào nhân với chín thì tổng các chữ số của kết quả luôn chia hết cho chín.'
+  num.nineteen:
+    label: mười chín
+    summary: 'Con số 19; thứ tự: thứ mười chín; kiểu Latinh cổ đại: XIV.'
+    info: Số 19 là số tự nhiên đứng sau số 18 và trước số 20 trong dãy các con số nguyên dương. Số La Mã biểu diễn cho nó là 'XIV'. Khi được sử dụng để chỉ thứ hạng thì gọi là 'thứ mười chín', còn khi viết dưới dạng chữ thường sẽ có giá trị bằng tổng của hai thành phần cấu tạo nên nó đó chính là 9 cộng với 10.
   num.one:
     label: một
     summary: Số 1, số tự nhiên đầu tiên.
@@ -26,18 +94,114 @@ cards:
     label: bảy
     summary: Con số 7, cầu vồng có bảy màu.
     info: Số bảy được coi là con số may mắn trong nhiều nền văn hóa. Cầu vồng có bảy màu, tuần lễ gồm bảy ngày và thế giới chia thành bảy châu lục.
+  num.seventeen:
+    label: mười bảy
+    summary: Con số thứ mười bẩy
+    info: Số 17 là số tự nhiên tiếp nối sau số 16 và trước số 18 trong dãy các con số nguyên dương. Trong hệ thập phân nó được biểu diễn dưới dạng tổng của hai thành phần cơ bản - đơn vị cộng với chục.
   num.six:
     label: sáu
     summary: Số 6, tổ ong có các ô lục giác.
     info: Số sáu là 'số hoàn hảo' - tổng tất cả các ước số của nó bằng chính nó (1 + 2 + 3 = 6). Các hình dạng lục giác (hình sáu cạnh) là cách hiệu quả nhất để lát kín một mặt phẳng.
+  num.sixteen:
+    label: mười sáu
+    summary: Con số thứ mười sáu
+    info: Số 16 là số tự nhiên tiếp sau số 15 và trước số 17 trong dãy các con số nguyên dương.
   num.ten:
     label: mười
     summary: Số 10, cơ số của hệ thập phân mà chúng ta sử dụng.
     info: Con số mười là nền tảng cho hệ thống số thập phân vì con người có tổng cộng mười ngón tay trên hai bàn tay. Số mười đã được dùng làm đơn vị tự nhiên để đếm từ thời cổ xưa.
+  num.thirteen:
+    label: '"thirteen"'
+    summary: The ordinal form is 'thirteenth'; Roman numerals for it would be written as 'XIII'.
+    info: '{"info":"Số 13 là số tự nhiên đứng sau số 12 và trước số 14 trong dãy các con số nguyên dương."}'
+  num.thirty:
+    label: ba mươi
+    summary: Con số ba mươi
+    info: Số 30 là số tự nhiên đứng sau số 29 và trước số 31 trong dãy các con số nguyên dương tăng dần từ nhỏ đến lớn nhất có thể đếm được bằng hệ thập phân thông thường hiện nay.
+  num.thirty_eight:
+    label: ba mươi tám
+    summary: Con số thứ ba mươi sáu
+    info: Số 38 là số tự nhiên đứng sau số 37 và trước số 39 trong dãy các con số nguyên dương liên tiếp từ nhỏ đến lớn nhất có thể đếm được bằng cách cộng thêm đơn vị cho mỗi bước chuyển đổi giữa hai giá trị liền kề nhau.
+  num.thirty_five:
+    label: ba mươi lăm
+    summary: Con số thứ ba mươi năm
+    info: Số 35 là số tự nhiên đứng sau số 34 và trước số 36 trong dãy các con số nguyên dương tăng dần từ nhỏ đến lớn.
+  num.thirty_four:
+    label: ba mươi tư
+    summary: Con số thứ ba mươi bốn
+    info: Số 34 là số tự nhiên đứng sau số 33 và trước số 35 trong dãy các con số nguyên dương tăng dần.
+  num.thirty_nine:
+    label: ba mươi chín
+    summary: Con số thứ ba mươi chín
+    info: Số 39 là số tự nhiên đứng sau số 38 và trước số 40 trong dãy các con số nguyên dương.
+  num.thirty_one:
+    label: ba mươi mốt
+    summary: Con số thứ ba mươi một
+    info: Số 31 là số tự nhiên đứng sau số 30 và trước số 32 trong dãy các con số nguyên dương tăng dần.
+  num.thirty_seven:
+    label: ba mươi bẩy
+    summary: 'Con số đếm bằng chữ 37; Thứ hạng: Ba Mười Bảy; Dạng Latinh: XXXVII.'
+    info: Số 37 là số tự nhiên đứng sau số 36 và trước số 38 trong dãy các con số nguyên dương. Số La Mã biểu diễn cho nó là XXXVII còn cách đọc thứ hạng của nó sẽ được gọi là 'thứ ba mươi bảy'. Trong hệ thập phân thì giá trị này có thể viết dưới dạng tổng như 7 cộng với 30.
+  num.thirty_six:
+    label: ba mươi sáu
+    summary: Con số thứ ba mươi sáu
+    info: '{"info":"Số 36 là số tự nhiên đứng sau số 35 và trước số 37 trong dãy các con số nguyên dương."}'
+  num.thirty_three:
+    label: ba mươi ba
+    summary: Con số thứ tư của chuỗi hàng chục đầu tiên
+    info: Số 33 là số tự nhiên đứng sau số 32 và trước số 34 trong dãy các con số nguyên dương tăng dần từ nhỏ đến lớn.
+  num.thirty_two:
+    label: ba mươi hai
+    summary: 'Con số 32; thứ hạng: thứ ba mươi hai; chữ Latinh cổ đại dùng để ký hiệu cho giá trị này là XXXII.'
+    info: Số 32 là số tự nhiên đứng sau số 31 và trước số 33 trong hệ thống đếm thập phân. Số La Mã tương ứng của nó là XXXII còn dạng thứ tự gọi là 'thứ ba mươi hai'. Trong cách viết thông thường dưới hệ cơ sở mười thì đây được biểu diễn như tổng đơn giản giữa các con số thành phần.
   num.three:
     label: ba
     summary: Số 3, số nguyên tố lẻ đầu tiên.
     info: Con số ba được coi là con số ma thuật trong nhiều nền văn hóa - có những câu chuyện cổ tích về ba điều ước, tam giác có ba cạnh và ngày được chia thành ba phần.
+  num.twelve:
+    label: mười hai
+    summary: Chữ số 12
+    info: Số 12 là số tự nhiên đứng sau số 11 và trước số 13 trong hệ thống đếm thập phân. Số La Mã biểu diễn cho con số này là 'XII'. Ngoài ra còn có dạng thứ hạng gọi là "thứ mười hai".
+  num.twenty:
+    label: hai mươi
+    summary: Con số 20
+    info: Số 20 là số tự nhiên đứng sau số 19 và trước số 21 trong hệ thống đếm thập phân. Dưới dạng chữ số La Mã nó được viết thành 'XX', còn dưới dạng thứ tự thì gọi là 'thứ hai mươi'.
+  num.twenty_eight:
+    label: hai mươi tám
+    summary: Con số đếm 28; vị trí gọi tên như vậy là 'đệ nhị thập tam'; ký hiệu Latinh dùng để ghi lại chính xác về mặt toán học đối với dạng viết tắt ngắn gọn nhất khi cần chỉ định cụ thể đến từng đơn vị riêng biệt nhưng vẫn đảm bảo tính thống nhất cao.
+    info: Số 28 là số tự nhiên đứng sau số 27 và trước số 29 trong dãy các con số nguyên dương chẵn có hai chữ số. Số La Mã biểu diễn cho nó là XXVIII còn cách đọc thứ hạng của nó sẽ được phát âm thành 'thứ hai mươi tám'. Trong hệ thập phân thì giá trị này bằng tổng giữa sáu lần bốn cộng thêm ba.
+  num.twenty_five:
+    label: hai mươi lăm
+    summary: 'Con số 25; Thứ hạng: Hai Mươi Lăm; Ký hiệu bằng chữ Latinh cổ đại: XXV.'
+    info: Số 25 là số tự nhiên đứng sau số 24 và trước số 26 trong dãy các con số nguyên dương. Số La Mã tương ứng của nó là XXV còn cách đọc thứ tự sẽ được phát âm thành 'thứ hai mươi lăm'. Trong hệ thập phân thì giá trị này có thể biểu diễn dưới dạng tổng giữa năm đơn vị với đôi chục.
+  num.twenty_four:
+    label: hai mươi tư
+    summary: 'Con số đếm 24; dạng danh từ: thứ hai mươi bốn; ký hiệu Latinh: XXIV.'
+    info: '{"hint":"con số thứ tự của con số nguyên tố là hai mươi tư","info": "Số 24 là một số tự nhiên đứng sau số 23 và trước số 25 trong dãy các chữ số thập phân. Số La Mã tương ứng với nó là XXIV. Dạng danh từ chỉ vị trí gọi là ''thứ nhì mươi bốn''. Trong hệ thống tính toán bằng cơ sở mười thì cách viết này có thể được hiểu như tổng cộng thêm vào giá trị ban đầu."}'
+  num.twenty_nine:
+    label: hai mươi chín
+    summary: Con số đứng đầu chuỗi các cặp đôi liên tiếp bắt nguồn từ đơn vị cơ bản nhất
+    info: '{"hint":"con số thứ tự của con số hai mươi chín","info":"Số nguyên dương sau số 28 và trước số 30 là một trong những cách biểu diễn cho số này. Dạng chữ thường được viết như ''XXIX''. Khi cần chỉ ra vị trí thì sẽ dùng từ "thứ hai mươi chín" còn khi nói đến giá trị tuyệt đối ta có thể hiểu rằng đây chính bằng tổng giữa năm mươi cộng thêm mười."'
+  num.twenty_one:
+    label: hai mươi mốt
+    summary: Con số đếm 21; dạng thứ bậc đọc thành "thứ hai mươi nhất", viết bằng chữ cái Latinh cổ đại là 'XXI'
+    info: Số 21 là số tự nhiên đứng sau số 20 và trước số 22 trong dãy các con số nguyên dương. Số La Mã biểu diễn cho nó là 'XXI'. Khi được sử dụng như một thứ hạng thì gọi là "thứ hai mươi nhất".
+  num.twenty_seven:
+    label: hai mươi bảy
+    summary: Con số thứ hai mươi bảy
+    info: Số 27 là số tự nhiên đứng sau số 26 và trước số 28 trong dãy các con số nguyên dương.
+  num.twenty_six:
+    label: XXVI
+    summary: '{"summary": "Chữ số La Mã cho số hai mươi sáu là XXVI"}'
+    info: '{"info":"Số 26 là số tự nhiên đứng sau số 25 và trước số 27 trong dãy các con số nguyên dương."}'
+  num.twenty_three:
+    label: hai mươi ba
+    summary: Con số thứ hai mươi ba
+    info: Số 23 là số tự nhiên đứng sau số 22 và trước số 24 trong dãy các con số nguyên dương.
+  num.twenty_two:
+    label: hai mươi hai
+    summary: Con số thứ tự 22
+    info: Số 22 là số tự nhiên đứng sau số 21 và trước số 23 trong chuỗi các con số nguyên dương. Số này được viết bằng chữ số La Mã như XXII hoặc đọc thành 'thứ hai mươi hai'. Trong hệ thập phân nó có thể biểu diễn dưới dạng tổng của 2 cộng với 20.
   num.two:
     label: hai
     summary: Số 2, số nguyên tố chẵn duy nhất.

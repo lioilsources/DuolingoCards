@@ -2,6 +2,44 @@ lang: tr
 pivot: false
 title: Deniz Hayvanları
 cards:
+  animal.anglerfish:
+    label: deniz şeytanı
+    summary: Derine giden su ortamına sahip fosforlu bir tuzakla donatılmıştır.
+    info: '{"hint":"derin denizde yaşayan ve fosforesan bir tuzağı olan balık","info":"Deniz şeytanı (Lophius), okyanusun en az bin metre derinine kadar uzanan gölgeli bölgelerinde yaşar\. Dişilerinin baş kısmında avları çekerken aynı zamanda erkeklere de ilham vermek için fosforlu olarak aydınlatılmış küçük bir tüp vardır\.(illicium)") Erkekler oldukça küçüktür; dişi buldukları zaman onların üzerine yapışır ve bu şekilde hayati fonksiyonlarını kaybederler\(biyolojik füzyon"). Fosforyum ışıltısı ise avlanma organının içinde simbioz halinde yaşayan mikroplardandır"}'
+  animal.barnacle:
+    label: ışık taşırak
+    summary: Kürek şeklindeki bacaklarını kullanarak fitre beslenen küçük bir su arıtılmamışlığı.
+    info: |-
+      Işık taşıyanlar, sement ile salınım yoluyla kayalara ve gemilere tutunan Cirripedia alt sınıfına bağlı sessiz kabuklu deniz hayvanlarıdır;
+      larvaları yüzen olup yerleşip sabit bir yaşam sürmeye dönüşürler.
+  animal.beluga_whale:
+    label: belğa
+    summary: Küçük gri ya da siyah renkteki bu hayvanın başı yuvarlaştırılmıştır.
+    info: Beliğua (Delphinapterus leucas), kutup ve yarı-kutupsal denizlerde yaşayan küçük bir beyaz balina türüdür.
+  animal.blue_tang:
+    label: kanik mavi
+    summary: '''Nemo''nun Araması'' filminin baş karakteridir.'
+    info: Güvercin mavisi deniz balığı olan kanik mavi (Paracantheus hippopotamus), İndokuzelindeki koral kayalarında yaşar ve sarı bir yanağı vardır. 'Dora'yı Bul' adlı filmi ile ilgilenenler arttı ancak evde beslemek için oldukça isteksiziştir.
+  animal.carp_river:
+    label: nehir kaprı
+    summary: Nezih sular olan akarsularda yaşayan büyük sarışmavi renkte tatlısu balığıdır.
+    info: Hint kapri Hindistan'dan Avrupa'ya Orta Çağda getirilmiştir. Etçildir ama her şeyi yer çünkü tabana kazıyan bir hayvan türüdür bu yüzden suyu bulandırabilirler. Çevremizdeki Noel bayramlarında satılan canlı balıklardan dolayı çok tanınmıştır. Dünyada en yaygın yetiştirilen balıklardan olup ondan yüzden fazla ırkı vardır.
+  animal.catfish:
+    label: sumak
+    summary: Yırtıcı davranış sergileyen bu tür, akarsuların dibinde gizlenir.
+    info: '{"info":"Büyük Sumak Avrupa''nın en büyük tatlı su balığıdır ve iki metre uzunluğunda olabilirken kilogramdan fazla bir ağırlığa ulaşır."}'
+  animal.clam:
+    label: giganta kapağı
+    summary: Tropikal karides kayalarında yaşamasıyla bilinen dünyanın en büyük kapaklı su canlısıdır.
+    info: Giant clam (Tridacna gigas), dünyadaki en büyük deniz kabuklu hayvanlardan biri olup boyu metrelerce ve kilosu ise iki yüzdene fazla olabilir. Kabuğu içinde yaşayan zooxantella adlı fotootsentez yapan algleri barındırarak simbiotik ilişki kurarlar. Hayatları yüzden fazladır.
+  animal.clown_triggerfish:
+    label: klaunder killer
+    summary: Beyaz lekelere sahip, turuncu dudakları olan belirgin renkteki sıcak sulu balık.
+    info: Klaunkiller balonu büyük bir deniz türüdür ve bu adı ilk yarışma dişinin ikinci yarışmayı engelleyen kilitleme sistemi gibi işlev gördüğüne verilmiştir.
+  animal.clownfish:
+    label: ocaklı denizanası
+    summary: Sembiosis halindeki toksumlu denizanasında yaşayarak turuncu renkte bir türüdür.
+    info: Ocaklı denizanası içinde yaşayan kloun balığı toksik dokunaçlar tarafından diğer balıklar öldürülürken bağışık olur çünkü koruyucu bir berrak tabaka vardır. Symbiyotik olarak denizañasını temizler ve avcıları uzaktan tutar; denize nasası ona refah sağlar. Tüm ocaklı denizanası erkek ile doğarken baskın olan dişilik hale getirebilir.
   animal.crab:
     label: böcek
     summary: On ayaklı, kabuklu ve çengelli bir deniz hayvanıdır.
@@ -10,26 +48,170 @@ cards:
     label: defne
     summary: Denizde yuvarlanan akıllı bir deniz memeli hayvandır.
     info: Defne, defnovitler familyasından gelen bir deniz memelisi türüdür. Yükseltici zekâsıyla, eko-lokasyon yeteneğiyle ve oyunlara meraklı tutumuyla tanınır; defnelere gemilerden suya sıçramayı severken, fısıltılarla ve sesle iletişim kurar. Genellikle 'heyna' adı verilen gruplar halinde yaşarlar ve balinalarla yakın akrabadırlar.
+  animal.dugong:
+    label: denizdeki bitkiler
+    summary: Hint Denizi'deki yumuşak su yemişçisi
+    info: Kıyasılabilir bir deniz memeli olan Dugongo benzerdir ve Hint Okyanusu'nda yaşarlar.
+  animal.eel:
+    label: Yılanbalık/Moran
+    summary: Kayağa benzer şekilde hareket eder.
+    info: Morua denizlerden bir geyik balığıdır ve Muranidae familyasına bağlıdır. Koral kayalıklarındaki çatlaklarda saklanır. Dışta dişli iki tane altçene ile besini yutarken içte faringeal iskeletleri vardır ki bu da onların avlarını boğazlarına itmesine yardımcı olmaktadır.
+  animal.flying_fish:
+    label: flyingfish
+    summary: Gösterilen balıklardan Exocoetiadeler adlı grup, kanat şeklindeki ön yüzerken suyun üstünde uzayabilen tropical balıktır.
+    info: Flyingfish (Exocoetidae), sıcak denizlerde yaşayan vejetatif balık türüdür. Genişleştirdiği göğüs yüzgeçleriyle havada süzebilir; bu şekilde yarım ila bir metre yüksekliğe çıkabilir ya da yaklaşık olarak 200 metre boyunca uçarak avcılarından kaçışır.
+  animal.frogfish:
+    label: balık
+    summary: Balıkların çoğu yumurtadan çıkarlar.
+    info: Kamufle kabuğu ile örtülü bir deniz balığıdır ve yemek için avı çalar.
+  animal.giant_squid:
+    label: dev devetimsi
+    summary: Okyanusların derinliklerinde yaşamakta olan dünyanın en büyük çene-sirasız canlısı.
+    info: Devletli yengeçlerin en büyüğü olan Architeuthis dux denizin derinliklerinde yaşayan dünyadaki en büyük çenesiraylıdır ve uzunluğu 13 metre kadar olabilir. Hayvanlar alebindeki en büyük gözleri vardır; bu gözlere ortalamadan sonra 25 santimetre boyutu ile uyum sağlayarak okyanus tabanının karanlığını algılamalarını sağlamıştır. Genellikle 300 ila bin metre arasında yer alan su katmanlarında yaşarlar ve başlıca besini balinalardır.
+  animal.hammerhead_shark:
+    label: kaşıklı köpekbalığı
+    summary: T harfine benzeyen karakteristik bir şekilde genleşmiş düz bir başa sahip köpekbalığı.
+    info: Kafalı yılanbalığı olarak bilinen bu balık soyunun baş kısmı oldukça genişlemiştir ki buna cefalofoil denir. Genişleme ampul Lorenzinii adlı elektrosensör organlarla besin kaynaklarını daha iyi algılama imkanını sağlayarak hareket kabiliyetinin artmasına yardımcı olur. Bu hayvanlar sıcak kuşak okyanuslarında yaşarlar ve özellikle küçük balıkları, istatları ve kalamarları avlamaktadırlar.
+  animal.horseshoe_crab:
+    label: Deniz Kefesi
+    summary: Yaklaşık 450 milyondur önemli değişim olmasa da yaşamlarına devam edebilen eski bir çenevurdudurlar.
+    info: Kıkırdaklı deniz kabuklusu ( Limulus polyphemus ) yaklaşık olarak ilk çağlardan beri büyük değişiklikler olmadan hayatta kalabilen ve 450 milyon yıldır yaşamını sürdüren bir canlıdır.
   animal.jellyfish:
     label: medüza
     summary: Saydam bir deniz hayvanı; zonkluydu biçiminde ve zehirli uzunlukları vardır.
     info: Medüza, sinirden başka organı olmayan, yaklaşık yüzde 95’i su olan bir deniz organizmasıdır. Zonkluydu şeklindeki bedeni ile kasılmalar yoluyla hareket eder. Uzantılarında bulunan nematokist hücreleri avlarını felç eder. Bazı türler hemen hemen ölümsüzdür çünkü erginlikten yeniden gençliğe dönebilir.
+  animal.lionfish:
+    label: ' Krutopasek'
+    summary: ' Dramatik boyutta dikerlerine sahip olan bu sıcak sular balığının üzerinde çubuk şeklinde deseni mevcuttur.'
+    info: ' Kırmızı krutopasek bir deniz balığıdır ve Scorpaenidae familyasına mensuptur. Belirgin kırmızı-beyaz çizgilerle örtülüdür ayrıca toksik dikenleri vardır. Zehiri ciddi ağrıya neden olabilir ancak hayat tehdit edici durumlara nadiren sebebiyet verir.'
+  animal.lobster:
+    label: karide
+    summary: Büyük boyutlarda olan bu deniz kabuğu türü klâvlarıyla tanınır.
+    info: Atlantis karidesi deniz kabuklu bir hayvan olup uzunluğu 60 santimetreyi aşabilir ve Nephropidae familyasına dahildir. Ham hali koyu lacivert yeşil renktedir ama pişirmesiyle kırmızıya döner. Hayat süresi elli yılı geçebilmektedir.
+  animal.manatee:
+    label: deniz boynuzu/manate
+    summary: Denize sahip olan bir ot yiyicisi olarak bilinen manate
+    info: Manatlar denizin dibinde yaşayan büyük memeli hayvanlardır ve tamamıyla tuzlu otlarla beslenirler.
+  animal.manta_ray:
+    label: mantaray
+    summary: Yükseklikten gelen planktonları süzerek beslenen bu devasa graciöz balık.
+    info: Deniz mantarı denizin yüzeyinde yılan balığı olarak bilinen en büyük hayvanlardan biridir ve kanat açıklıkları 7 metreden fazla olabilirken kilosu ise bin ikiyüzü geçebilir.
+  animal.mussel:
+    label: slaka
+    summary: Gelip giden dalgaların olduğu kayalık alanlarda yığılan siyah kabuklu ikili kapaklı hayvan.
+    info: Yemek slakası Atlas Okyanusu ve Pasifik'in gelgit bölgelerinde yaşayan bir midyedir. Kayalara sert iplere benzer yapılarla tutunur. Su filtrelerini deniz kirliği göstergesi olarak kullanır çünkü toksinleri ve ağır metalleri biriktirebilir. Değeri yüksek besindendir; Belçikalı fritlenmiş midye dünya çapında ünlüdür.
+  animal.narwhal:
+    label: nördling
+    summary: Kutupta yaşayan unicorn benzeri spiral diştir.
+    info: Unicornfish denizinin bir çeşidi olan nördlingler küçük kutupsal balinalardır (en fazla beş metre uzunluğunda). Spiral şeklindeki dişi aslında sol kesici olarak bilinen aşırı gelişmiş dişe sahiptir. Bu dişim üç metreyi geçebilir ama bu özellik yalnızca erkek bireylere özgüdür.
+  animal.nautilus:
+    label: nautilus
+    summary: Eski zamanlardan beri hayatta kalabilmiş olan Nautilus'un kaplaması çok katmanlıdır.
+    info: '{"hint":"antik bir başlıngıç kabuklu denizanasıyla dolu sarmal kameralı kabuk","info":"Nautilüs yaklaşık olarak milyon yıldır neredeyse değişmeden yaşamaya devam eden spiral şeklinde kıvrılmış kabuğu ile ilkel bir başlıngenendir\nKabuk bölümlere ayrılmıştır ve gazla doldurulan bu bölmelerle balansını ayarlar\nDiğer başlıngerlerden farklı olarak lens olmayan basit gözleri vardır (delikli kamera)\nAvlanmasından dolayı uluslararası anlaşmalar tarafından korunmaktadır","label":"nautilus","summary":"Dinozaur çağında yaşayan eski bir başlıngecin sargılı kabuktaki hali"}'
   animal.octopus:
     label: kalamar
     summary: Sekiz tentakulu olan ve renk ile vücut şeklini değiştirebilen yumuşakçalar sınıfına ait bir hayvan.
     info: Kalamarlar omurgasız hayvanlardır ve başlıngıçlılara (cephalopoda) aittirler. Üç kalbe sahiptirler, kanları mavidir ve anında cilt rengini ve dokusunu değiştirme yeteneğine sahip olup bu işlem pigment hücreleri sayesinde gerçekleşir. Ayrıca oldukça akıllıdır; kapalı kutuları açabilecek ve labirentleri çözebilecek seviye de göstermektedir.
+  animal.orca:
+    label: orka
+    summary: Denizlerin siyah-beyaz renkteki tepe avcılarıdır.
+    info: Orkalar füleğen balinaların en büyüğüdür ve dünyanın en akıllı hayvanlarından biridir.
+  animal.oyster:
+    label: üzümle
+    summary: Suyu süzmeyi sağlayan bu kabuklu canlılar aynı zamanda incilerin üretiminde de rol alır.
+    info: Üzümlüler suyu süzen deniz kabuklu hayvanlardır ve bir üzümleci günde yaklaşık olarak iki yüz litrelik miktarı süzerler.
+  animal.piranha:
+    label: piron
+    summary: Tatlı sularda yaşayan keskin dişli Güney Amerika avcı balığıdır.
+    info: Amazon'dan gelen pirana çatallı dişleriyle bilinen bir tatlı su yılan balığıdır. Ölü ya da hasar görmüş canlıları tercih ederler ama sağlıklı insanlar için ciddi tehdil oluşturmazlar.
+  animal.puffer_fish:
+    label: balon balığı
+    summary: Yuvarlanabilen ve acemi olan balıkların örneğinden oluşan balon balığı hem tatlılık hem de öldürücülük içeriyor.
+    info: Balon balığı, tetradontidler familyasından bir dizi yuvarlak ve sert tüylü balık olup tehdit altında kalındığında su veya hava ile şişebilen gövdesine sahiptir.
+  animal.salmon:
+    label: somon
+    summary: Denizden nehirlere gelerek üreyen büyük somonlu bir balyoz.
+    info: Somon bir anydrömik balık olup denizde yetişir ancak yüzlerce kilometer sonra doğduğu nehirlere geri döner ve üremeye devam eder.
+  animal.sea_anemone:
+    label: deniz anemones
+    summary: Zehirli uzuvlarıyla dikkati çekebilen, karideslerin yaşadığı mercan sahillerde yaşayan deniz organizmasıdır.
+    info: Deniz anemonları, Cnidaria sınıfına mensup bir deniz hayvanıdır ve genellikle kayalara tutunmuş çiçeklere benzer görünümlüdürler.
+  animal.sea_cucumber:
+    label: sümüş
+    summary: Denizin dibinden organik artıkları toplayan silindir şeklindeki bir deniz canlısıdır.
+    info: Leylekciler deniz yıldızı sınıfına giren ve okyanusal tabanda yaşayan suda süzülen maddelerle besleyen hayvanlardır.
+  animal.sea_lion:
+    label: lachtan
+    summary: Plötvenler üzerinde yürüyebilen kulaklı memeli bir deniz hayvanıdır.
+    info: Kalifornia lachtanı Otariidae familyasının en tanınmış üyesidir.
+  animal.sea_otter:
+    label: deniz yarası
+    summary: Deniz yarası sırt üstünde yüzer ve kamalya kabuklarını çatlatmak için taşlar kullanır.
+    info: '{"hint":"deniz yarası olarak bilinen ve arka bacakları üzerinde yüzen bir deniz memeli hayvanıdır","info":"Deniz yarası Kuzey Amerika''dan gelen en yoğun tüylü memelidir (her santimetre kare başına yaklaşık sekiz yüz bin tüyle).\nKamelyalar gibi taşlar kullanarak midye ve mercimekle斗争i açar.\nYüzme pozisyonunda uyurken diğer deniz yarası ile el ele tutuşurlar ki bu da akıntıların taşımasını engeller.\nCiltlerinden dolayı neredeyse yok edildiler ama koruma projelerine saygılı populasyonlarının yeniden canlanmasında yardımcı oldular."}'
+  animal.sea_slug:
+    label: plakyofor
+    summary: Çeşitli formlarda bulunan, corallardaki kabuksuz, çok rengârengenimselenmiş deniz yengeçlerine benzer canlıdır.
+    info: Plakoforesler ya da nudibranşiyalar denizli kabuklu olmayan ve sadece coral kayalıklarında yaşayan deniz memelileridir. Hayvanlar aleminde en dikkati çeken renklere sahiptirler çünkü bununla toksik oldukları konusunda uyarı vermektedirler. Bazı türleri besininden (poliplerden), zararsız hale getirdiği bir hücreyi alır ve kendini savunmak için kullanırlar.
   animal.sea_turtle:
     label: deniz kaplumbağı
     summary: Yumurtlamak için sahilere geri dönen büyük bir deniz sürüngüsü.
     info: Deniz kaplumbağası yeşil, yedi deniz kaplumbağa türünden biridir. Dişiler her iki ila beş yılda bir kendilerinin doğduğu sahile dönerek yumurta bırakırlar. Yetişkinler otçul ve deniz otları ile yosunlardan beslenirken, yavruları hepsinden yer.
+  animal.sea_urchin:
+    label: deniz yıldızkası
+    summary: Sahilden uzaktaki karaların dibinde yaşayan kulaklı deniz hayvanıdır.
+    info: Deniz yıldızı gibi bir deniz organizmasıdır ve hareketli sert kıllarla kaplı durur. Kırları arasında temizlik için özel pediseller adında yapılar vardır. Yosunları, mantarlardan kalıntılarını toplamak suretiyle beslenirler.
   animal.seahorse:
     label: deniz atı
     summary: Dikey pozisyonda yüzen küçük bir balık türüdür; erkek birey yavruları taşır.
     info: Deniz atı, sırt yüzeyi vücut pozisyonunda hareket eden Hippocampus cinsinden bir deniz hayvanıdır. İlginç olan şey, yavruları taşıyanın dişi değil erkektir. Deniz fenerlerinin etrafında dolaşıp avlarını beklemektedir.
+  animal.seal:
+    label: kutruphoça
+    summary: Denizin içinde balık avlayan ve kayaların üzerinde dinlenen kutruphoçadır.
+    info: Kutruphoca genel olarak Aerodinamik bir bedene sahip olan kulakları olmayan Phocoidea familyası memeli deniz hayvanıdır.
   animal.shark:
     label: sülük
     summary: Sivri dişli ve hidrodinamik vücutlu büyük bir avcı balık.
     info: Beyaz sülük dünyadaki en büyük avcı balıktır ve altı metreden fazla uzunluğa ulaşabilir. Yemeklerinin elektrik alanlarını Lorenzetti amfibi adı verilen duyu organlarıyla algılayabilmektedir. İnsanlar üzerinde saldırıları çok nadirdir; sülükler okyanus ekosisteminde ana avcılar olarak önemli rol oynar.
+  animal.shrimp:
+    label: karide
+    summary: Denizde yaşayabilen küçük kabuklu canlılar olup dünya genelinde en çok tüketilen su ürünleri ikincilidir.
+    info: |-
+      Karideslerin on çift bacakları vardır ve deniz ya da tatlı sularda yaşayan küçük kabuklu hayvanlardır.
+      Yaklaşık bin türü bulunmaktadır;
+      hem filtreleyici hem de avcıdırlar,
+      denizin besin zincirinde önemli bir halkayı oluştururlar.
+  animal.squid:
+    label: kalamar
+    summary: Su içinden jet ile ileri giden desen armalı bir yengeç türü.
+    info: Kalamarlar ten-armlı deniz hayvanlarıdır ve avlamak için iki özel uzuv kullanırlar. Su içinde jet hareket ederler ve renk değiştirebilirler çünkü pigment hücreleri vardır. Dünyanın en büyük omurgasız canlısı olan dev kalamarların boyu on üç metre kadar olabilir.
+  animal.starfish:
+    label: Yıldızkol
+    summary: Kol kaybının yerini tekrar doldurabilme yetisine sahip olan beş kolu bulunan okyanus canlısıdır.
+    info: |-
+      Yıldızılar tipik olarak beş kollu denizli derisi tabakalıdır.
+      Kaybedilen kolun tamamını yeniden oluşturabilir ya da kesilmiş bir kole yeni beden yaratabilirler.
+      Papatyalar gibi yumuşacıkları açarak beslenir ve bu işlemde yapışkan bacakları kullanırlar.
+      Ters suyu bölgelerden başlayıp enine kadar uzanan bin sekiz yüzten fazla çeşidi vardır.
+  animal.stingray:
+    label: Ray
+    summary: Yumuşak tabanda dinlenen, yılan benzeri kırbacın üzerindeki zehirli dişe sahip düz sucul memeli
+    info: |-
+      Rays balina körelinin yakınıdır ve denizin dibine uyum sağlayacak şekilde düz bir levhalı bedene sahiptir.
+      Bazı türlerin kuyruklarında savunma amaçlı zehirli dikenleri vardır.
+      Göğüs yüzeri hareket ettirmesiyle kanatlama gibi ilerleme yapar.
+      Elektrojenik olan bazı türler avlarını elektrik çarpması ile etkisiz hale getirebilir.
+  animal.swordfish:
+    label: makre
+    summary: Uzun bıçak gibi görünüşlü, hızlı hareket edebilen derin denizde yaşayan yırtıcı balık.
+    info: Makre vejetli büyük bir deniz balığıdır ve sıcak su bölgelerinde yaşarlar. Uzun düz bıçağa benzeyen burunu ile avlarını etkisiz hale getirip yakalarlar ama delmemektedirler. Bu türden olan makrelar saatte yüz kilometreden fazla hız yapabilmekteyken hem sporcu hem de yemeği olarak değerlidir.
+  animal.tuna:
+    label: Tuna
+    summary: Gıda sanayii için çok sayıda yakalanılan hızlı pelagoğik balık.
+    info: Bluefin tunyası en büyük tuna türüdür ve boyca üç metreyi aşar, kiloya ise yedi yüz kilogramı geçer. Endotermlidir ya da sıcakkanlıdır ve çevresel su sıcaklığını geçen bir bedensel ısıyı korur. Okyanustaki en hızlı balıklardan biridir; saatte yetmiş kilometreden fazla hız ulaşabilir. Aşırı avlama nedeniyle ciddiyetinde etkilenebilme riskindedir; Japonya'daki pazarlardan bazı örnekler bin dolara satılmıştır.
+  animal.walrus:
+    label: polar ayısı
+    summary: Uzun bacakları olan bir kutupsal su mameli.
+    info: Polar ayılar büyük kutupsal deniz memelileridir ve dişleri boyunca metrelerce uzanan devasa sülün tükeleri ile tanınır.
   animal.whale:
     label: mavi balina
     summary: Yeryüzündeki en büyük hayvan – havayla nefes alan deniz memeli.

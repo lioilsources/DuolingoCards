@@ -2,14 +2,66 @@ lang: en
 pivot: false
 title: Parasites and Amphibians
 cards:
+  reptile.agama:
+    label: lizard
+    summary: Colorful rocky lizard native mainly throughout parts such as sub-Saharan regions where males display distinctive coloration patterns.
+    info: Agaamas form a large family of lizards found across Africa, Asia, and Australia comprising over 300 species. Male red-headed agamids have striking orange heads and blue bodies to signal their status among others within groups like these colorful reptiles do when they're trying out different ways for showing off during mating season.
+  reptile.alligator:
+    label: alligator
+    summary: Large crocodile-like animal with broad flat nose found both U S A Asia
+    info: The American alligator is one of two living species of alligators—the other being the smaller Chinese gator—it differs from crocodiles by its broader rounder muzzle that does not show teeth when closed mouthed it lives swamps rivers lakes southeastern United States important top predator protector wetland ecosystems.
+  reptile.anaconda:
+    label: anaconda
+    summary: Worlds' heaviest snake living in Amazonian wetlands.
+    info: The Green Anaconda is the world’s heaviest snake species—females can weigh over 90 kilograms and measure between five to six meters long. It lives in swamps and rivers across tropical South America. Being semiaquatic, it hunts fish, birds, capybaras, and caimans.
+  reptile.anole:
+    label: anole
+    summary: Small North/South American chameleon-like lizard capable of changing its skin tone.
+    info: Anoles are small American lizards comprising over 400 species. Males have colorful throat flaps called dewlaps used for communication and attracting females. The green anole can change color between green and brown depending on temperature and emotions.
+  reptile.axolotl:
+    label: Neotenic Mexican water dog
+    summary: A Mexican water-dwelling newt retains all larval characteristics for entire lifespan.
+    info: '{"info":"The axolotl is an amphibian native to lakes around Mexico City that exhibits neoteny by retaining its juvenile traits throughout life including external gills.\nThe species faces critical endangerment due to pollution but possesses remarkable regeneration abilities allowing it to regenerate limbs parts heart tissue spinal cord segments among other features.\tIt has become popular exotic pet because unique appearance."}'
+  reptile.basilisk:
+    label: basilisk
+    summary: American lizard capable temporarily moving along surfaces where there's only thin layer covering ground.
+    info: The ornate basilisk is able to sprint across still surface waters thanks to grooved toes equipped with fringes which trap air beneath them underwater; it may cover up to twenty meters before submerging itself again after running out of oxygen supply for such activity.
+  reptile.boa_constrictor:
+    label: royal python
+    summary: Large South American snake killing prey through body constriction.
+    info: The royal python is a large nonvenomous South American snake that kills its prey by coiling around it and squeezing harder during each breath to prevent inhalation. It's popular among exotic pets due to its calm temperament. The species can grow up to two to four meters long and live over thirty years.
+  reptile.box_turtle:
+    label: box turtle
+    summary: Small terrestrial turtle able to close entirely within its shell.
+    info: The box turtle is a North American land tortoise capable of fully closing within its carapace using movable front plates. It lives alone in forests and meadows across various habitats. These turtles can live over 100 years but typically reach ages between 40 to 50 years in their natural environment.
+  reptile.caecilian:
+    label: amphisbaena
+    summary: Legless reptile similar to snakes but without limbs.
+    info: An amphisbaena is an eel-like legless lizard belonging to the order Amphisbaenia that lives underground.
+  reptile.caiman:
+    label: caiman
+    summary: A small New World reptile related closely but not identically either directly nor indirectly by bloodline connection towards both modern day living descendants such like Crocodylus niloticus commonly known today under name Nile Riverine Caimans etc.
+    info: The spectacled caiman is the most widespread crocodilian species in South America. It grows up to about two-and-a-half meters long—smaller than typical alligators—and inhabits tropical rivers, lakes, swamps across regions ranging from Mexico down through Argentina.
   reptile.chameleon:
     label: chameleon
     summary: Color-changing reptile with mobile eyes.
     info: The Yemen chameleon changes color not for camouflage but for communication and temperature regulation. Its eyes move independently.
+  reptile.cobra:
+    label: cobra
+    summary: Venomous snake spreading its characteristic hood during defensive displays.
+    info: Cobras belong to the family Elapidae known for their ability to expand skin behind the head like an umbrella-like warning display called 'hood'. Their venom is neurotoxins which paralyze prey's nervous system.
   reptile.crocodile:
     label: crocodile
     summary: Ancient large reptile living near rivers and swamps.
     info: The Nile crocodile is one of the largest reptiles in the world. It lives in Africa and hunts from water. It has the most powerful bite force among all living animals.
+  reptile.flying_dragon:
+    label: flying dragon
+    summary: Small Southeast Asia lizard which can glide via its long ribs.
+    info: '{"info":"Flying dragon lizard (Draco volans), is small Southeast Asian reptile capable of soaring thanks to skin membrane stretched on elongated ribs.\nThe animal soars between trees for territory acquisition purposes or escaping predators. \Male individuals have distinct yellow neck flap visible during flight displays. \The creature does not fly by active wing flapping but only slides down."}'
+  reptile.frilled_lizard:
+    label: Frilled Agama
+    summary: A lizard displaying strikingly expanded flaps while running upright.
+    info: The Frilled Lizard is an Australian reptile whose frills open around its throat like skin folds during threats to serve as warning displays. It runs on two legs similarly to small dinosaurs despite being relatively tiny itself.
   reptile.frog:
     label: frog
     summary: Green jumping amphibian with red eyes.
@@ -18,19 +70,135 @@ cards:
     label: gecko
     summary: Small lizard capable of climbing vertical surfaces.
     info: The leopard gecko is a popular pet reptile. It climbs rocks and walls using millions of microscopic hairs on its feet, not glue.
+  reptile.gharial:
+    label: gharial
+    summary: Crocodile-like reptile specialized to hunt small aquatic animals using uniquely shaped mouth.
+    info: The gharial is an Indian relative of alligators characterized by its extremely elongated and slender jaws adapted for catching fish. Males have a bulbous growth on their nose called 'ghar'. It's critically endangered today and only lives along rivers in northern India and Nepal.
+  reptile.gila_monster:
+    label: gila monster
+    summary: Venomous stocky reptile native to Southwestern United States.
+    info: The Heloderm gila is venomous lizard species found only in North America that has an unusual skin pattern resembling coral to warn predators away. It delivers its toxin through grooves on their teeth rather than hollow fangs like snakes do.
+  reptile.glass_lizard:
+    label: common legless lizard
+    summary: A limb-lacking scaled animal resembling snakes yet distinct because it has mobile lids covering each eye.
+    info: The common legless lizard is an amphibious reptile found throughout Europe which easily resembles snakes due to its elongated body without legs but differs by having movable eyelids instead of being fused shut over their eyes along with ear openings present unlike true serpents do not possess these features at all.
+  reptile.hawksbill_turtle:
+    label: leatherback
+    summary: Critically Endangered Sea Turtle With Narrow Beaked Jaw.
+    info: The leatherback is critically endangered marine turtles belonging to genus Eretmochelys. Historically its shell was used for tortoiseshell products leading illegal trade nearly wiping out their population today they feed exclusively on jellyfishes found within coral reefs helping maintain healthy reef ecosystems through removal harmful algae.
+  reptile.horned_lizard:
+    label: Horned Lizard
+    summary: Flat thorny desert lizard native to North America that sprays blood when alarmed.
+    info: The Horned Lizard (Phrynosoma) is a flat-spined lizard living in deserts across southwestern United States and Mexico. When threatened, it can squirt blood up to over a meter away through its eyes for defense purposes.
+  reptile.iguana:
+    label: green iguana
+    summary: Large green tropical American lizard species having spiked crests.
+    info: '{"info":"Green Iguanas are large plant-eating lizards native to tropical America that can grow up to two meters long.\nThe green iguana has an extra eye on top of its head called the parietal eye which is sensitive to changes in light levels. \nThey live together socially where dominant hierarchy shows through pushing heads and body coloration differences .\nTheir main threat comes mainly due loss natural habitat ; when kept captive they behave aggressively like adults."}'
+  reptile.king_snake:
+    label: king cobra
+    summary: American non-venomous snake immune to viper's toxin hunting for others.
+    info: The king cobra is an American non-poisonous serpent capable of consuming venomous serpents such as pit-vipers to which it has immunity against their poison.
+  reptile.komodo_dragon:
+    label: Komodo Dragon
+    summary: Largest extant species of gecko native solely island Komodo located inside country called Indonesia.
+    info: The Komodo dragon is the world’s biggest living monitor lizard that can grow over three meters long and weigh more than seventy kilograms. Historically it was believed to kill prey using bacteria present on its saliva but actually has venom glands instead . It hunts deer , pigs even water buffalo live exclusively within several Indonesian islands where they're critically endangered.
+  reptile.leatherback_turtle:
+    label: leatherback
+    summary: Largest oceanic tortoise having an epidermal shield rather than rigid plates.
+    info: The leatherback is the largest marine turtle reaching lengths over two meters and weights exceeding seven hundred kilograms. It does not have a bony carapace but skin reinforced by small bones called osteodermis. They migrate vast distances across oceans including recorded journeys surpassing sixteen thousand kilometers. Leatherbacks exclusively feed on jellyfish and they're critically endangered.
   reptile.lizard:
     label: lizard
     summary: Four-legged scaly reptile common in warm regions.
     info: The Green Iguana is a large lizard found in Central and South America. It feeds on plants, is an excellent climber, and can regenerate lost parts of its tail.
+  reptile.mamba:
+    label: black mamba
+    summary: Fast extremely toxic African forest serpent.
+    info: '{"cs": "Black Mamba is one of the fastest and most poisonous snakes on Earth.\nThe black mamba can climb trees but prefers to move at speeds over 20 kilometers per hour along flat ground. \nIts potent neuro-toxin causes death within hours without antivenom treatment.\nThe name ''black'' refers not its body coloration which tends towards greyish olive tones rather than any part being actually colored black; it comes specifically because their mouths have dark interiors."}'
+  reptile.matamata:
+    label: matamata
+    summary: Strange-shaped South American river turtle imitating decomposing vegetation.
+    info: '{"hint":"Bizarre-looking South American turtle resembling decaying leaves","label":"matamata","summary":"Unusual freshwater turtle mimicking dead plant matter found in Southeastern South America","content":{"title": "Matamata Turtle", "description": ["The matamata is among the most bizarre looking turtles native to southeastern South America. Its shell pattern resembles rotting foliage perfectly camouflaging it within its environment. It doesn''t bite prey but instead opens enormous jaws wide enough that water rushes inside carrying food along before snapping shut again."], "image_url": null}}'
+  reptile.monitor_lizard:
+    label: monitor
+    summary: Large aggressive predator reptile having split-tongue.
+    info: A monitor is a large lizard belonging to the Varanus genus that has a forked tongue used for sensing smells through chemoreception. The Komodo dragon represents the largest living species within lizards today—reaching lengths over three meters long—and demonstrates intelligence by using simple tools according to scientific observations.
+  reptile.mud_turtle:
+    label: muddy turtle
+    summary: Small American fresh water land-and-water turtle.
+    info: Mud turtles (Kinosternon) are small freshwater turtles about 6 inches long found throughout Central and South America. When threatened they emit strong odors through their scent glands to deter predators. They can survive droughts by burrowing underground mud layers during periods known as estivation.
+  reptile.mudskipper:
+    label: mudskippers
+    summary: A type of gobie capable walking overland by means of large fin-like limbs.
+    info: The mudskipper is an amphibious fish belonging to the family Gobies which spends much time out of water moving around using its prominent pectoral fins like legs.
+  reptile.newt:
+    label: newt
+    summary: Small tailed amphibian living both underwater and land.
+    info: The Great Crested Newt is the largest newt species found in Central Europe that can grow over 15 cm long. During breeding season, males display prominent crests on their backs resembling snakes' patterns. In the Czech Republic all types of newts enjoy legal protection under law; they spend winter months beneath tree roots or burrows away from water.
+  reptile.poison_dart_frog:
+    label: golden poison frog
+    summary: Small vividly colored venomous frog native to Tropical Americas.
+    info: The golden poison frog is a small amphibian belonging to the family Dendrobatidae found in tropical forests across Central and South America. Its bright colors—such as red, blue, yellow—are warning signals for its toxicity—a phenomenon known as aposematism. Some species rank among Earth's most poisonous vertebrates; indigenous tribes historically used their toxins on arrow tips.
+  reptile.python:
+    label: python
+    summary: Large non-poisonous snake killing its prey through constriction.
+    info: Pythons are among the longest snakes on Earth—the reticulated python can grow over seven meters long—they kill their prey by constriction rather than venom—coiling around its neck and body to suffocate it—and they have heat receptors that allow them to detect warm-blooded animals even at night.
+  reptile.rattlesnake:
+    label: rattlesnake
+    summary: Venomous serpent having vibrating device attached near tip used for alerting purposes.
+    info: The rattlesnake is venomous snake belonging to vipers that has characteristic rattle at its end of body's tail part made up by hardened segments which serve warning purpose when threatened also it possesses heat receptors allowing detection prey even during darkness.
   reptile.salamander:
     label: newt
     summary: Shiny-skinned amphibian with a long tail.
     info: The Spotted newt is an endangered Central European amphibian featuring yellow-and-black spots. It secretes toxic substances through its skin and lives in moist forests.
+  reptile.sea_snake:
+    label: '"Sea Snake"'
+    summary: Venomous serpent specialized for living at sea possessing unique paddleshaped appendage.
+    info: '{"cs": "\"Mořský had\" is venomous reptile belonging to family \"Hydrophiidae\", perfectly adapted for oceanic lifestyle. It has flat paddle-like tail used swimming through water efficiently. Its venom contains powerful neuro毒素 that''s much stronger than typical cobra poison but these snakes remain very peaceful creatures overall."}'
+  reptile.skink:
+    label: skink
+    summary: Lizard covered in glossy flat scales that has small stubby feet.
+    info: Skinks belong to a large family of lizards comprising over 1,500 species characterized by smooth cycloidal scales. Some species have reduced limbs while others lack them entirely. The blue-tongued Australian skink displays its vividly colored tongue when threatened.
   reptile.snake:
     label: snake
     summary: Legless scaled reptile with a long flexible body.
     info: Snakes are reptiles with an elongated body without limbs. There are over 3,700 species; they hunt using their sense of smell (Jacobson's organ), and some are venomous.
+  reptile.snapping_turtle:
+    label: snapping turtle
+    summary: Large aggressive North American freshwater turtle with strong jaws.
+    info: The common snapping turtle is large and aggressive North American fresh water species known for its powerful hooked beak. It's more territorial on land but calmer underwater where it hunts fish and aquatic birds while also scavenging dead animals.
+  reptile.thorny_devil:
+    label: Thorny Moloch
+    summary: Australian reptile absorbs water through capillaries between spine-like structures.
+    info: The thorny moloch is covered by thousands of sharp spines on its body.
+  reptile.toad:
+    label: toad
+    summary: Terrestrially living bumpy-skinned relative similar closely related yet distinct enough genetically speaking compared frogs.
+    info: The Common Toad is the most widespread toad species in the Czech Republic. Warts on its back serve for protection against mosquitoes by secreting toxins rather than biting them off directly like some other animals might suggest through their appearance alone though they don't actually bite insects at all but instead use these secretions defensively when threatened which helps deter predators effectively while also being an important part nature's pest control system helping regulate garden pests such as snails worms beetles etc.
   reptile.tortoise:
     label: land tortoise
     summary: Slow-moving reptile with a domed shell living on land.
     info: The Galápagos tortoise is the world's largest land tortoise. It lives on the Galápagos Islands and can live over 150 years. Its shell is part of its skeleton.
+  reptile.tree_frog:
+    label: tree frog
+    summary: Tree-dwelling amphibian using finger suckers.
+    info: '{"hint":"colorful tree frog with sticky foot pads","info":"The Green Tree Frog is a small member of the family Hyla that has suction cups on its toes for climbing smooth surfaces. In Bohemia there lives an original common green tree frog which is protected by law. It changes color to grey or brown depending upon temperature and humidity levels. The frogs emit loud croaking songs especially at night before rain."}'
+  reptile.tuatara:
+    label: Living Fossil
+    summary: New Zealand living fossil that represents all members within rhynchosaurs.
+    info: The tuatara is considered to be among the oldest lizards on Earth because it has remained largely unchanged since prehistoric times when dinosaurs roamed. It lives exclusively on islands off the coast of New Zealand where they grow extremely slowly—reaching sexual maturity at around ten years old—and some individuals can live over一百年。Young tuataras have three eyes including an additional functional eye.
+  reptile.uromastyx:
+    label: uromastyx
+    summary: A spined tailed agamid native to arid regions across Northern Africa.
+    info: The uromastyx is an African desert iguanid found throughout northern Africa, the Near East, and India that has spines on its tail used for defense against predators.
+  reptile.viper:
+    label: viper
+    summary: Venomous viperid serpent having triangle-shaped skull
+    info: The common viper is the only poisonous snake occurring naturally in the Czech Republic.
+  reptile.wall_lizard:
+    label: wall gecko
+    summary: Slender swift wall-dwelling lizard
+    info: "Wall gecko is small reptile originating southern Europe and northwestern Africa\nIt occurs introduced species at warmed stones and stone-walls \nIs quick and agile it drops its tail when threatened"
+  reptile.worm_lizard:
+    label: amphisbeane
+    summary: Legless subterranean lizard that resembles an earthworm.
+    info: Amphibians called amphisbaenids resemble giant worms due to their segmented skin but lack legs entirely except for tiny remnants near where limbs would normally develop on other lizards.

@@ -1,0 +1,209 @@
+lang: ga
+pivot: false
+title: Insectíonna
+cards:
+  insect.ant:
+    label: Mhraván
+    summary: Ghealchainteoir socailte atá á bithiú sa chóiriún.
+    info: '{"info":"Tá ghealach é an mraván agus tá sé i mbun na gcóirín marbhachta.'
+  insect.antlion:
+    label: Mhraveolaith
+    summary: Tiglear measc taisc dánta d'fhiosghearaidhe
+    info: Is é an Mraveolaith lára ímhích ó chloinn Mhrimeileontaideacha atá ag dul i mbuíochta ar mharaireanna trí na léineadh choimiciúla san ghealach gruaigeach. Nuair a thagann maraín isteach sa phasóg, cuirfidh sé fós don ghrian agus baintear síbhreascóid digite achamhantaigh airgeadbhuí.
+  insect.aphid:
+    label: mhshuí
+    summary: Is eadarán nó tuisceadh uisce ó phlanctón.
+    info: Táimhsiúlacha is ea an mhshuíocht agus táimid i ndiaidhe don chuid seo de thaiscín nua-Aphiodea nach féin siud mar ghrupas atá fágtha ar bhuillteanna pleancóireachta agus á itheadh leo. Tugann sé cruth síoda isteach san fhiosrún go bhfuil méadaicse ann nuair ba léir do shualagóirí é sin.
+  insect.atlas_moth:
+    label: Martinet Atlas
+    summary: Ceann de na mbuíthe is mó saoranta do shceithearnaipe atá lámhdhéantais.
+    info: Tá mhóthair dona é Martinat Atlasach is ea ceann de na bpianaithe soirseacha is mó ar an domhan len ghrúdha trí scagaire agus 30cm. Titeanna iad uile gruaife airgeadh mar tharlaonn go ndéanfaidh siad fós ó thaoidhgheartha nó láithne. Ní bheidh beartas orthu ach amhlaidh dá bhfuil sé sin.
+  insect.bedbug:
+    label: gaotha
+    summary: Éadaín eadaithe agus craonacha san oiche taobh thall ó breaca.
+    info: Tá gaothán éadaithe agus crannachta den chláracht Cimicidae tá sé iascaireach san oiche mar sin. Téann sí trí an tseasamh caolúil na mbreacan nó nach mbeo ar fhear ceoilte. D'fhágfar siad lá thar lear ó thaobh phostóin um thraslódadh maidir lena gcuid staid.
+  insect.bee:
+    label: Bínéadóir
+    summary: Cárta eolais don Gaeilge maidire faoin binéalair nó 'bees' mar sin é seo is cárta de chuid na nGael orthu féin len bhunfhocal ‘bin’ agus ‘néada’. Tá siadsan sna gruaigthe sa tír gan amhras ach nach maith liom cáitheadh léi cé mhaidir í.
+    info: '{"hint":"insecte fhuimeach agus caointeach atá faisceoil i mbuíochean (apis meliffira)","info":"Tá an bínéadóir buíochán socialeana tábhachtacha taobh thiar den tsearcadh ar néatar","label":"bínéadóir","summary":"Insecte gormthuaithe go dtuithear ó shúileanna agus bíonn sé á feabhasú."}'
+  insect.beetle:
+    label: brúca
+    summary: Is ea an cothromhallasa údaraithe is mó sa tíre - más túisceadh amach óbhram nóimhe déag.
+    info: Táinig an brúca i gcothromhóllas na Cailteoirtéra agus tá siad faoi pharson ~40% den mhórshuímh de thaoisheanacha atá scríofa don trácht seo. Tá siud airdeach is ceart go bhfuil ealra crua orthu (ealta) fósanna nach léiteann sé mar sin féin. Is é an taobhgearr caillínneach an brúaisteoir Eorpach is mó; tugtar 'cusaid' ort freisin.
+  insect.bombardier_beetle:
+    label: strevelic dorseteach
+    summary: brioc airgeadchuile nach mianfaíonn eadh
+    info: |-
+      Tábhacht Stóránta íomhábhtú é strevlik doirseoilteacha atá agus caitheamh uathruthúnach; mixfid sé dhá chualann ceimice i gcomhar na bpionta ar dtús go bhfuil an réaction iontachable tábla nua thar 100°C
+      Is féidir liod is mó ná 500x sa hacainn lena mbuíochtar amanta nómais.
+  insect.bumblebee:
+    label: bealtairín
+    summary: Bhéile fhocalta agus fuiltéalta atá ceapthrom do mhór-tiontala.
+    info: Tbhéar caoi agus fhuilteach ón ghrúpa Bumbus é an bhealtairín, is féidir liomh go bhfuil sé mar thosaíochtóir tábhachtach nua-chláirseoil nuair nach mblianta na bpónaí ar feadh láithe neartacha nó sligthe. Is féidir léibh freisin glacadh timpeall orthu trí dhíchumas san am céanna.
+  insect.butterfly:
+    label: mothóg
+    summary: Féithimhinéar atá léiteadh lena dhuiulleanna móra.
+    info: '{"hint":"féithimhínéir luchtúil agus córas lárnach is ea an Lepidóiptéra","info":"Tá mothóg acu dá phairt de chraiceanna scálteacha, go minic i ndathanna eile,"label":"mothóg","summary":" Féithimhinéar atá léiteadh lena dhuilltheanna mór"}'
+  insect.caterpillar:
+    label: húsine
+    summary: Tá húsine annsa thugtar airsean chuadair nó múara; is ea siad atá tagaithe lena gcuid léimtheacha agus nach ceart domhin.
+    info: Is é húisínke an láirgheán de chuíthín nó múra agus tá sionta ar bhuile isteach i gcomhras lámha fós go bhfuil sé á phásadh don fhocail seo mar sin féin.
+  insect.centipede:
+    label: taineag
+    summary: Ceapthearbhaonóg hearcis faoi láthair córas dhíchuidiún.
+    info: Táinigín stóna seasta i gclasa Chilopoda agus tá péire amhára de shuíléanna orthu go dtíochtann siad uair an chláir seo thall san áit is féidir liom fiosrú nach bhfuil acu ceithre céim síos mar atá sa hitheas den ainm. Tá sé sin grada airgeadh don phrédaóir nóchtarach freisin nuair a bhuailfidh sé sluaughaireacha, caorluinn agus créad mionobhrátaithe.
+  insect.cicada:
+    label: cícuda
+    summary: Insearcúlta céanna go minic mar bhliantar nach féin tá scál mhór orthu.
+    info: Is é cícadaín insearcúlta ó thamhlacht Cicoideóige atá agus ceann de na fásca is mó iomlána ar an ghrádán. Tugtar bliantair siaracha isteach sa chuid seo d'fhása mhaith airge dá scéal amhantaigh don fhiosmhainneadh.
+  insect.cockroach:
+    label: tábhacht
+    summary: Fhoscaireocht soirseach atá molta ar aisfhearadh.
+    info: Tábhacht is é an fhiosbheith fada nár féidir léi bhuailtiú go dtí nach bhfuil sé thar thrí mhillión bliain denaois agus nach ndearna sé sin trí dhinosauirseacha. Tá bealach amhantaigh ann don tábhacht - más túisceann sé do shuíochán nó d'fhócas eile.
+  insect.crane_fly:
+    label: típula
+    summary: Muishcín mhor chumhairt i gcónaí len lámha fada.
+    info: Típula is é dochtúir d'fhocalta ón ghlóin típuilidé agus tá sé mar mhór-chómhar nóch go bhfuil sé gan comhras acmhainneach nó parásít.
+  insect.cricket:
+    label: cruthiún
+    summary: Hearltóir nachtnial atá céitear dó d'athruithe srídúlta.
+    info: Tá ghearaltóireacht éad-fhearcach ó na Grúsa Gryllidae tá sriota ar an bpianfocal orthoptéra agus is féinmhór don fhómharaithe dá bhfuil siad i ngrúpa 'Orthopétair'. Tugann fáltaí beo airgeadacha trí threascadh gruaife acu lena gcuid deargaire thíosean nó scagartas áitithe. I dtuaisceart Éise, bhuailtear go minic crithineanna mar mhaidhbhíní do lámhfhios ealaínteach agus tugtar síbhse saoil agus slándála san amhlár.
+  insect.damselfly:
+    label: sídlacht
+    summary: Tá sídh latantach domhnallaire acisiartha nóimhin.
+    info: Is é an sídlachtach gnéas den chuid de ghrúpa Zygoptéra agus tá sé níos fheargra do dhánagairteacha ach is íbhéalta go minic i gcónaí lena heochradóirínneanna crannmhór ar feadh an truaime dá bhféadfar siad caitheadh mar thomhaltóirí don phóscaire seo.
+  insect.diving_beetle:
+    label: tonnóg
+    summary: Briathra maointhea taobh amuinn.
+    info: Tonnóg Mór is éard mar potánóir maoirseach den chláracht Dytsicidha atá ann sa phoistín agus san eascaghteacht. Pléadann sé gan fhear fiaranta ar an gcoinne dearg seo freisin go bhfuil siúd comhartha don fhiosrú. Tiontaí síos chuig an sluaugh thart airgeadais nó láithreanna beaga trí shuíochan istigh laimhe.
+  insect.dragonfly:
+    label: '"cáscaire"'
+    summary: '{"summary": "Cásaidear faoi lámhghearóidín nó láthair féin.",}'
+    info: '{"info":"Is é sin cáscraimheas dona ar bithre agus cóirneacha caol is fada iad lena gcónaithe trí thuras na habhair seo."}'
+  insect.dung_beetle:
+    label: An Vrúbain
+    summary: Is é sin an brócán atá ag tabhairt faoi lámhas trísceoilta.
+    info: Táinig an vrúbaoin íseal ón chéad Scarabaeidae agus tá sé curtha i láthair mar ghearradh de thrús nó scagaire trí fhuilíní eile acu go cúramach ar feadh na heoraidh don phógóireacht agus d'fhoghlaim uimhirí beaga. Bhí síodar san Egipt cnuashteacha sa Sluaugh seo mar thaiscéalaí don gründún agus dóchas nach raibh siad féidearthacha.
+  insect.earwig:
+    label: scuabhairtín
+    summary: Ghearán protalach agus córas cloisteoiríthiuil sa dhích
+    info: Tá ghearúlta eile é an scuabhairtín ón grópa dermapteras agus tá sé mar is féin don phointe fada ar thuaisceart nó chun cearrachadh nach bhfuil ann san fhactar seo go léir. Tá cleastairteanna ortha (cerci), nascaraíocht agus cáblaímheacht airgeanta acu.
+  insect.firefly:
+    label: sveitluka
+    summary: Tógfar luchtímhin ón gruthán den cheallachtaire lampyrídae.
+    info: Is é an svētluka ceann de chlárachtóir na n-aisteanna nach féidir léithiuimhín agus lucaifearáis len nhochtú sluaht sa ghruthán. Tugtar 'lampyrídae' ar an gcailfhearc seo. Nascfaidh siad go dtarlaonn sé sin trí thomhas phoirtúnacha don chothromadh idirlinn.
+  insect.flea:
+    label: tábhachtán
+    summary: Éadóntas cainteoir sábhuithe agus piontaine.
+    info: Tábhachtán is éadóntach ó thuras an Siphonaptera atá focailte ar mhodh pharaszít ag bheith i láthair airéim. Tacaíonn lámha istigh acu len ghrúdadh níos mó ná 150 dornín de léigeadh siac féin. Is eaibísintean teaghnaitheacha caillte nó páircithe go dtorann séadbhuilínne don chuid is fosta;
+  insect.fly:
+    label: motha
+    summary: Dhua-craothín cothromaithe atá déanta den choimeáds
+    info: Tá mocha thall is féin an dua-chraoithín nua-thaidhgeachtais agus tá súil go léir acu fós mar sin gur féidir leo feiceadh trí ~360 grád um cúige orthu. Téann siad ar bactéraim don bhfactórtar nach muidheann sé cén áite d'fhágfaíodh siad isteach san am céanna nuair a chuirtear siad airgid nó comhras.
+  insect.goliath_beetle:
+    label: gólias
+    summary: Ceartarach mór atá ann sa tuaisceart don tslonn.
+    info: Is é Góliás an ceartarach is mó ar fad na tíre agus tá sé i bhfeidhm san Áfraic thiarúilteachtacha. Tá siamsaímheanna acu go dtí 100 grámh faoi láthair agus tagann lártha orthu ó thaobh amharcanta den cheirtín seo.
+  insect.grasshopper:
+    label: cóbac
+    summary: Hymynta órduithe Orthopéra atá tagtha dearg is cólta.
+    info: Is é cáca orthóiptéarach í an cábaca agus tá siad á lámha ceartacha mar thoradh ar gaothairín lárnaithe nach féin léigear don chrois nó do thalamh. Tugann macmharaí isteach sa stridulaíocht trí dhoras fhuilge i dtreo cheana go cúramúint dá bhféadaíonn sé sin dhúbailt amach truagh san aimsir.
+  insect.ground_beetle:
+    label: strevelín
+    summary: Briatharbhillte beag dhaolach taobh istigh de stocaí.
+    info: Is é an Strevlí agus séimthearbhallta den chloinn Charabideach; tá na maoin seo i bhfad is mó acu active ar maidin ag lorg eileacan, ceochnaí agus sluaiteacha mar thomhaltóirí. Tá siad sárshláine agus scapallódh orthu nuair atá gealach ort. Is féidir léithríocht shuímhthe uathúil freisin len dócha go mb'éimidheacht nó farraige.
+  insect.hornet:
+    label: Sruathán mór
+    summary: Is féidir léi dul go dtí seo caolta nádúrtha san áireamh.
+    info: Tá bhfuil is mó agus tá dhualgas airgeadach ann i gCeanada agus Éireann é Srúthán Mór nó Vespa Crabro. Tá sé níos fhearga nár fuillíníocht ar bith agus bíonn an t-aisteoir dearg bliain amharcanta orthu nuair atá siad sna gruaigtheacha.
+  insect.hoverfly:
+    label: pesstreank
+    summary: Is músc déanta de réimse fos agus bealacan tíortha.
+    info: Tá muisceán is éad-dheargach ón ghlúine Syrphidae agus tá sé i gcás nach bhfuil fós nó béalacanna ach go ndéanann siad iontais orthu mar phréamóirí (bataireasc). Tá an pestreanka molaitheoir shuímh ar thomhaltas na hoifte, más féidearthachtacha í sin nuair atá sí sa ghrianín.
+  insect.lacewing:
+    label: glaochóg
+    summary: Hymnchuídhre déagairteach len géarchraoibh thíortha
+    info: Tábhachtúrín is é an ghlaothóca den chloinn Chrysopidae agus tá siad áirithe go bhfuil fósanna geal orthu mar sinsearcán nó lárnacha. Tá na lárna draoidimtheachta agus iad féin nach n-aithníonn séasamh mhór de shuíochta ar thrimheada don bhuileadh freisin dá chaillfidh siad céimeanna tríochtaithe. Is ea an néctear agus an pollín atá saoranta acu.
+  insect.ladybug:
+    label: Beursac
+    summary: Tomaillteóg donn cróna ar bhonn Creideamh Méascailtí (Coccinellidae).
+    info: '{"hint":"briatharbhúil ghearrthóirín rúnachta agus nádhradh na Coccinellidae","info":"Is é an berusha ceann de thomhaltasacha is fadaidhg i lártha mar nach scéipfidh sé siopan méascéalta.","label":"beurshaca","summary":"Tomhalltás ógán dá chorp creithinn nóimhinneag airgeadh."}'
+  insect.locust:
+    label: cobyla stéeaghta
+    summary: Tonnanna míle cinn de shluaithe cobyla stéeagt atá á ráitear.
+    info: Is é an Kobyla Stéagtha seachas ar thugtar 'steehovava' don saoradóir grása nach raibh ag siúl go minic i ndiaidhe chuig cúrsaí marbhthu sluaithínneacha móra déanta de ghlóna. Is féidir liom suim trí billeadh d'aonrudaí a chur fágtha nó cuideann ollmhór airgeada ó thuaiscintean taobh istigh dá lá amhaidh.
+  insect.louse:
+    label: véis
+    summary: Is ea seo héadaí beaga pharásait achta i mbuíochán gualta ná sliabh mhaicini.
+    info: Tá is éadaí beag pharaisítach ó thuras Phthiraptera atá ag tarlá i ngualta nó sluaithin ar mhaoineadh an hostróra. Is féidir léi glúint fhearainn agus cur isteach go dtús. Tá Pédilulipus humanus capitis (an véis páistí / céad-fhéile) tábhachtach san domhan mar ghearrfaidh sé do pháisteanna gan sonruidhe sin de choincheapas.
+  insect.mayfly:
+    label: ephimer
+    summary: Tá an t-eaphimeir is ginearálta de chuid an eaphimirtheoilte cóisde, nuair atá siad faoi mbliana.
+    info: Is é an Ephemeroptera ceannaire ar shuíle agus tá sé mar shamhail don phuimidheacht; ní thagóidh siadh amach ach uair nó lá. Ní féin nach bhfuil acsiortha orthi agus ní fágear sí i gcónaí. Tógfidh siud niamhcínneacha blianta go dtí tría thísear sa uaithne.
+  insect.mosquito:
+    label: '"binne"'
+    summary: Éadaíllteoir slainte; is féidir liom dul síos thart.
+    info: '{"hint":"bínéadóir slaineach fliúnta","info":"Tá an bhinneadh éadaílta i ngrúpa na gCeilcideacha agus tá dhroimdhreach arnaici. Tugann an gruaifeoil dearg ó shaothar breac go dtí beirt tríd íocaíocht don phrótún lena gcuid earchuillí. Is féidir léibh freastal orthu mar sinmheascanna nó máirseachtaithe. Bíonn pleanctasanta sinn tri thrí chaisg dá bhféadfaimis teacht isteach."}'
+  insect.moth:
+    label: moth
+    summary: Cruitheoir diutha taobh thiar den chuid dá bhfuil moillinteach san fhloinn.
+    info: Táinntear an t-eolas go dtéann siad i ndiafra agus nach féin arís mar gheall donaithínneacha lá-thaitseach. Tonnófar cuid de shláinteanna chuig húdhlac is fearrtha. Is éard atá sé seo nár scéal eile faoin mbuíochas nóimhthe sa tsluaughadh.
+  insect.praying_mantis:
+    label: An mantis
+    summary: Insecteard predatóideacha atá ísle lena dhánna agus socraidhe slithrí.
+    info: Is é an mantis nómantach insearcacht den chatagóir Mantodea agus tá sé i gcoinne de threascadh na gruaige mar sin go bhfuil sí 'ín duine' ar fad. Tá siad ábalta dul isteach san am ceart chun caillimh a fhágaint gan scéal eile trí shocraíocht thíos isle. Is féidir freisin go mbeannfear an fearsean óntúsa nach téann dá réiteamh.
+  insect.robber_fly:
+    label: sreithín
+    summary: Muishéal druidhe láitníoch taistealaithe.
+    info: Tá mothú agus stóránta iadailteach den chloinn Asilidae is ea an sreithínneadh éigin teagmhách eile ar feoil. Tacaíonn sé lena ghearran mórta déanta molta do thógaint airgeadaimh agus lámha dearg d'fhágairt gealach na coirpthe. Is féidir go nd'éantear siar mar phóscaire nó véirseacha don fhiosruth.
+  insect.scorpion:
+    label: tainsear
+    summary: Péist mhothraithe nóchtaithe cois céileacan agus ocassóint.
+    info: Táinseir is í péist móránúla (cinneadh nach bhfuil sé páirt de pháscaireacht), agus tá cleithithe acu agus córas ocsa breise atá thart go dtí an fhuinneog. Is é sin dianaisín láidre ó thaobh na geimheara—tá foilscealaíocht tainseirseacha nua den chéad sheasamh déag sa mhillión blianta. Nuair a bheidh siad i mbuíochta, bíonn siad fé ghlaslús san áit nuair ba léightheann orthu slaine umvítéal.
+  insect.silverfish:
+    label: róban
+    summary: Insecteán fada sgríoideach atá ann sa tíre fé ghaoth.
+    info: Táinseoil is é an róbhanach beo gan croisiúint ó thuras na n-ealta agus tá sé ar feadh lárnacha agus grinnithe mar gheall don phróiseas léime dá chroisín go crua nó trí shuíomh i dtuaisceart na bpianóid íocaíochta.
+  insect.spider:
+    label: spideán
+    summary: Spideánaí ceithre láimhsceoil atá ag bualadh sligheartha.
+    info: Téacs é pápaóga ísealacha agus sílteanna iad an rúin Pavoea (ní héacraíthe). Tá siamsar amharcanta acu don chuid is mó lena gheabhtear go bhfuil séadscaéalta saor ós rud eile nach féidir léi teacht isteach san áireamh seo.
+  insect.stag_beetle:
+    label: cearc
+    summary: An ceann déanta sa tír sin atá lárnaithe isteach san áireamh.
+    info: Tá roinntín is ea an ceann fhearr ag Éirinn go dtí seo nártaidh sé ar thalamh de dhócmhar nó trí mhéadar. Tá na cearcaíonnaí i bhfad don chualachadh do ghrúpaí eile den fhine céanna.
+  insect.stick_insect:
+    label: straiséal
+    summary: Tá straiséal ann is ea himiar don cuimín nó grán.
+    info: |-
+      Is é Straiséalca himearacha den chatagóir Pasmátuaidhe agus tá sé mar sin an fhearadair deireannach ar chúlúin nó gruaifeanna;
+      tar eadhastacht airgeada ó shuíomh nuálta i ndiaidh go bhfuil sé thart,
+      sula na n-grábhadóirí nach féinimidh orthu.
+  insect.termite:
+    label: tarmain
+    summary: Himidh socálta déanta sróna móra.
+    info: Tearmaineacha is ea na himidh socailte ó shuímh Isóipterach atá i láthair agus tá siad mar ghearrtheoir den chlárthaigh nóinnteachta. Tógadh cluichínneacha don phríomhfhoireann, an ríochtaine, folaíochtais agus tionscnamha de réir cáilimh acu. Bainteadh amach sluaisteanna cruthaithe ar bhuileac go bhfuil sé tréimsithe chuig airgeadbán trína heolas eolais san áit cé mhór nach féadfuidh síbhreathú.
+  insect.tiger_beetle:
+    label: polník
+    summary: Gúna gruaigeach tábhachtach atá ag teacht trí chuile
+    info: Tá gúna é polník ós rud cicindelinneacha atá ag glacadh ar fhearadh iad féin mar sinsearcán nó léachtas agus córas hiontais tharraingeach ortha. Tá siad fhágtha go tapaidheach so fiuch an méid nach bhfuil sé de dhualgas d'ortha caintear istigh den scian seo; caillfidh siad amhrás san áit céanna nuair ba cheart dóibh dul chun ceiste. Is beagóirín lárnaithe is ea larva acsiomharthóireann síos tríd an talamh.
+  insect.velvet_ant:
+    label: vose mhraoveacha
+    summary: Vos ealaítheora bhfuil í slínteasanta is ea searc.
+    info: Tá vosa úinimhéalta i gceann de thighearna Mutillidae agus tá sí beo mar mhraveachán gan fhearadh atá gruaifeasta don phortfhocal 'velvet ant'. Tá siad ábhartha go maith lena dhlús cróite nó órthuige nach féidir ceapadh ar bhuileacanna thíre.
+  insect.wasp:
+    label: Waspa
+    summary: Bhioscíne beaga ghearbh-dubhta déanta as phapar.
+    info: Tá bhioscín gheargha agus dubh den chatagóir Vespula is é an 'waspa' coitcheálta nóinseach atá á búnú ó dhramhair dá churadh i láthair trí fhuilginn deasbharra. Mar sin fé mar thaiscéalaí nascartaigh ar shuímh san am céanna.
+  insect.water_strider:
+    label: pictinnín
+    summary: Is pictinnín piontófar sa tsluaagh trí mhaitréamhas caol.
+    info: Tá ghearrach is éard ar an bpictinnín agus tá sé ábalta ceapadh airgead phoisteach iomán do thabhairt síos go dtí an sluaugh sna grúpa Gerridae nó 'water striders'. Tá siad de dhóthain mar sin nach bhfuil fós ann orthaibh agus máithreachas uisce freisin taobh amuigh den choimicín thísiar don cheannacht.
+  insect.weevil:
+    label: rón
+    summary: Moineog eadaránach lena dhualgas lárnaithe.
+    info: Tá moineóg éadromhach is ea an rón nó 'curculio' atá i dtaighimheal Crocodiliónaidhiú, tábhacht is mó de thaoiseolaí ar maidhm nár fós go bhfuairtear air amuinn 60,000 speiceas agus nach raibh siadsan san áireamh freisin.
+  insect.whirligig_beetle:
+    label: vírník
+    summary: Briathra beag taicfidheann siad airgeadais orthu.
+    info: Tá gúruín é vírníce agus tá sé i dtaobh thall ar an sluaughadh mar atá sínteacht domhan go dtí nach bhfuil fhear fiarach againn ach is féidir liom mo scéal a chur isteach sa phríosad seo.

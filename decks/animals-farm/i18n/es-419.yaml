@@ -2,6 +2,30 @@ lang: es-419
 pivot: false
 title: Animales de granja
 cards:
+  farm.alpaca:
+    label: alpaca
+    summary: Parentesco más pequeño de la llama criado por su fina fibra.
+    info: 'La alpaca es un camélido sudamericano menor que se cría en las montañas altas del Antilllo para obtener una fibra natural muy delicada y cálida con propiedades anti-alérgicas superiores incluso al cachemir. Existen dos razas principales: el tipo peludo llamado Huarayca o Huacaya y el sedoso denominado Suris o Suri. La crianza de estas animales está creciendo rápidamente también fuera de América.'
+  farm.barn_cat:
+    label: gato de granja
+    summary: Gato domesticado en una finca para cazar roedores.
+    info: Un gato de granja es un animal doméstico que vive en entornos agrarios y se encarga de capturar ratones y ardillas. Ayuda a proteger las reservas de alimento y cereales contra los daños causados por estos animales. A diferencia del gato común como mascota, el gato de la granja suele estar menos acostumbrado con personas.
+  farm.beehive:
+    label: colmena de abejas melíferas
+    summary: Estructura hecha con madera que sirve como hogar artificial para colonias de la abeja europea.
+    info: Una colmena es un refugio fabricado por el hombre donde se alojan las colonias apícola y reemplaza los huecos en árboles habitados normalmente por avispas salvajes o abejas silvestres. Una sola colonia típicamente contiene entre cincuenta mil hasta ochenta mil insectos. Cada año una colonia puede generar alrededor de veinte kilogramos aproximadamente treinta kilogramos anuales de miel.
+  farm.boar:
+    label: cerdo macho
+    summary: Cerdo domesticado o salvaje no castrado.
+    info: Un cerdo es un animal hembra de puerco que puede ser criada en granjas para reproducción y cuya carne también se utiliza como alimento. En la agricultura moderna las hembras son utilizadas principalmente por su esperma recolectado artificialmente mediante técnicas especializadas con fines reproductivos controlados. El jabalí silvestre tiene colmillos grandes y una actitud defensiva muy activa.
+  farm.calf:
+    label: ternero
+    summary: Cachorro de vaca hasta un año de edad.
+    info: Un ternero es el animal joven que pertenece al ganado bovino desde su nacimiento hasta la destete o por lo menos durante los primeros años de vida. Al momento de nacer, el becerro suele levantarse rápidamente y el impulso maternal en las madres es muy fuerte. Los animales criados para producción láctea son separados tempranamente de sus progenitoras.
+  farm.carp:
+    label: carp
+    summary: Pez de agua dulce grande que se cría en estanques y es un plato tradicional navideño en la República Checa.
+    info: El carpio común es el pez más grande criado en los estanques checos y está intrínsecamente ligado con las Navidades checas. Fue domesticado durante la Edad Media especialmente en Bohemia (estanques trebonenses). Es omnívoro y crece rápidamente alcanzando pesos superiores a los 30 kilogramos. Los lagares trebonianos son uno de los sistemas acuícolas más grandes de Europa.
   farm.chicken:
     label: gallina
     summary: Ave doméstico que pone huevos.
@@ -10,6 +34,10 @@ cards:
     label: vaca
     summary: Animal agrícola grande que produce leche.
     info: La vaca doméstica se cría para la producción de leche y carne. Es uno de los principales recursos alimenticios en todo el mundo; una vaca lechera puede dar entre 20 y 30 litros de leche al día.
+  farm.deer:
+    label: venado de granja
+    summary: Venados o ciervos criados en granjas para carne y producción de cuernos.
+    info: En la República Checa se crían ciervolopes como el Venadón Europeo u otros tipos similares principalmente por su carne magra llamada 'carne salvaje'. Los venadones son más pequeños que los ciervoles y tienen cornamentas distintivas con ramificaciones horizontales características; estas caen cada año y crecen nuevamente al siguiente ciclo natural.
   farm.donkey:
     label: burro
     summary: Animal trabajador de orejas con caminata confiable.
@@ -18,19 +46,182 @@ cards:
     label: pato
     summary: Ave acuático con pico ancho criado en granjas.
     info: El pato doméstico es una aviaría criada para su carne y huevos. Puede nadar bien gracias a las membranas entre sus dedos y emite un sonido característico.
+  farm.emu:
+    label: emaus domésticos
+    summary: Emaus criados para aceite, carne y cuero en Australia.
+    info: En Australia los emaus son cría domesticada con fines comerciales de su carne, el aceite obtenido del graso que tiene propiedades antiinflamatorias usadas tanto por la medicina tradicional como actual; también aprovechan sus pieles. La crianza comercializada está expandiéndose hacia Estados Unidos e Europa. Los emau son animales curiosos que no tienen miedo al acercarse a las personas.
+  farm.farm_shrimp:
+    label: camarón de cultivo
+    summary: Camarones marinos criados intensivamente en estanques costeros.
+    info: |-
+      El camarón blanco del Pacífico es la especie más cultivada mundialmente.
+      Las granjas están principalmente ubicadas en el sudeste asiático y América Latina.
+      La cría intensiva de camarones genera controversia debido al impacto sobre los bosques de mangle.
+      Los camarones son segundo entre las frutas del mar más populares después del atún.
+  farm.foal:
+    label: potro
+    summary: Cría de caballo menor de un año; ya está en pie dentro de las primeras horas.
+    info: Un potrillo es una cría de caballo durante el primer año de vida. Se pone sobre sus patas y comienza a mamar la leche apenas unas pocas horas después del parto. Tiene piernas notablemente largas comparadas con su cuerpo; estas disminuyen al madurar. Los potros son juguetones e interesados por todo lo nuevo; su adiestramiento empieza cuando tienen entre dos y tres años.
+  farm.freshwater_crayfish:
+    label: langosta de río
+    summary: Crustáceo dulce acuático criado como alimento exquisito.
+    info: La langosta de río era común en la República Checa pero fue casi exterminada por una plaga y el contaminación hídrica. Hoy día se cría en granjas especializadas. Es un indicador ecológico importante ya que solo vive en corrientes limpias. En el siglo XIX existió un negocio muy grande con las importaciones desde los países checos hacia Francia y Alemania.
+  farm.garden_snail:
+    label: caracol de jardín
+    summary: Caracoles terrestres grandes comestibles en la cocina francesa como escarabajo.
+    info: El caracol de jardín es el mayor molusco terrestre europeo y una delicadeza gourmet conocida con el nombre común 'escargo' o simplemente escargaots servidos típicamente cocinados al vapor con mariscos especias y hierbas frescas sobre pan tostado; durante invierno hibernan bajo tierra cubiertas por membranas protectoras llamadas himenóforos.
   farm.goat:
     label: cabra
     summary: Animal de granja con cuernos que da delicioso leche.
     info: La cabra doméstica se cría para la producción de leche, carne y lana. Es adaptable y puede sobrevivir en una variedad de vegetación, incluidas áreas secas.
+  farm.goat_dairy:
+    label: cabra lecherera
+    summary: Cabra criada para la producción de leche con fines lácteos como quesos y yogures.
+    info: La cabra domesticada ha sido domesticada hace más de diez mil años y es uno de los animales agrarios más extendidos. La leche de cabra está rica en nutrientes e incluso resulta más fácilmente digestible que el leche vacuna, siendo adecuada para personas sensibles o alergias lactosas. Con su leche se fabrican famosos queso tales como Chevrotain, Fetu griega u Hoummous.
+  farm.goose:
+    label: gansa común
+    summary: Ave de corral grande criado para carne, hígados y plumas.
+    info: La ganso común proviene del pato salvaje hace más de tres mil años. Fue uno de los primeros animales domesticados; en Roma las gallinas custodiaban el Capitolio. Se valora por sus mollejas aviarías, la carne magra como alimento e incluso por su foie gras o fígado graso. Las plumas de ganso eran una herramienta tradicional para escribir.
+  farm.guinea_fowl:
+    label: guineo
+    summary: Pájaro africano criado por su carne y como vigilante contra serpientes.
+    info: |-
+      El guineo proviene de África donde vive salvaje en las sabanas.
+      En granjas es valorado porque actúa naturalmente como guardia avisando con sus fuertes graznidos sobre la presencia de víboras o personas desconocidas.
+      Tiene plumajes grises moteados blancos característicos así como una cabeza rojo-violeta sin pluma.
+  farm.guinea_pig_farm:
+    label: cobaya de granja
+    summary: La cobaya es criada para carne en América Latina o como mascota.
+    info: |-
+      El roedor domesticado proviene del área de los Andes donde fue domesticado hace más de tres mil años por la civilización Inkas con fines alimenticios.
+      Hasta el día de hoy sigue siendo un alimento tradicional en Perú, Ecuador y Colombia conocido localmente como 'cuy'.
+      En Europa y Norteamérica se ha convertido popularmente en una mascota infantil común.
+      Comunica mediante sonidos complejos que incluyen chillidos, llantos e incluso silbatos.
+  farm.highland_cattle:
+    label: ganado escocés de los Highlands
+    summary: Ganado vacuno con melena castaña y cuernos grandes.
+    info: El ganado escocés del alto país es un antiguo tipo criado en ambientes difíciles típicos de las colinas escocesas. Su característica pelaje largo color avellana lo protege contra la humedad y el frío. Es resistente y menos propenso a enfermedades que otras razas.
   farm.horse:
     label: caballo
     summary: Fuerte animal de granja utilizado para montar y trabajar.
     info: El caballo ha sido esencial durante miles de años para el transporte, la agricultura y la guerra. Hoy en día también se cría para deportes y recreación.
+  farm.lamb:
+    label: corderito
+    summary: Cachorro de oveja hasta un año de edad; símbolo de primavera e inocencia.
+    info: Un corderito es una joven oveja con menos de un año de vida. Nace cubierta por la lana y comienza a pastar en los primeros días de su existencia. En el cristianismo representa simbólicamente tanto la pureza como al Cordero divino que llevaba las culpas humanas.
+  farm.llama:
+    label: llama
+    summary: Mamífero camélido sudamericano criado para su lana y como animal de carga.
+    info: La llama es un camélido doméstico originario del sur de América que fue domesticada por los incas hace más de cinco mil años. Fue el principal animal portador en las civilizaciones andinas e incluso puede cargar hasta el 30% de su peso corporal. Su pelaje lanoso se valora especialmente debido a sus propiedades térmicas. Además, la llamas son conocidas porque escupen cuando están amenazadas o insatisfechas.
+  farm.mule:
+    label: mestizo
+    summary: Hibrido estéril entre un caballo y una burra con notable resistencia y fuerza.
+    info: Un mestizo es el cruce de una yegua (hembra del caballo) y un macho burro; su contraparte femenina recibe el nombre de mula. Es estéril pero muy resiliente, fuerte e intranquilizado por menos cosas que los caballos. Tiene buena percepción espacial en entornos naturales complejos.
+  farm.mussel:
+    label: almeja
+    summary: Almeja marina comestible criada en cuerdas con agua de mar.
+    info: La almeja es un molusco comúnmente cultivado en granjas沿 el litoral europeo del Atlántico. Se cultiva sobre sogas o redes que flotan bajo la influencia de las corrientes y los cambios mareales. Filtra el agua y representa una opción alimenticia ecológica con baja huella carbónica.
+  farm.ostrich:
+    label: avestruz de granja
+    summary: Avestruz criado para carne, plumas y cuero.
+    info: |-
+      El avestruz es el animal bípedo más rápido del mundo e incluso en la actualidad sigue siendo domesticado por su carne, piel y plumaje.
+      La carne de avestruz tiene un color rojo similar al ternasco pero con menos grasa y colesterol.
+      Su piel es muy valorada dentro de los sectores textiles considerados lujo.
+  farm.ox:
+    label: buey
+    summary: Toro castrado que históricamente fue el principal animal de trabajo en la agricultura.
+    info: Un buey es un macho adulto del ganado vacuno domesticado y utilizado para trabajar. Durante miles de años ha sido uno de los animales tractoras fundamentales en la mayoría de las regiones agrarias alrededor del mundo debido principalmente a su fuerza física combinada con una naturaleza mansa lo cual permitió arar más tierra comparativamente con caballos durante etapas tempranas desarrolladas por humanidad dentro actividades rurales.
+  farm.oyster:
+    label: ostra de cultivo
+    summary: molusco bivalvo criado en cuerdas o jaulas en aguas costeras.
+    info: |-
+      La ostreicultura implica criar ostrinas con redes colgantes u otros sistemas flotantes cerca de la costa durante tres a cinco años hasta su madurez completa;
+      esta práctica ayuda purificar el agua al filtrarla continuamente y mejorar así los ecosistemas marinos;
+      las ostrines son consideradas un manjar gourmet que puede comerse crudas como tapas frías o cocidas mediante métodos tradicionales.
+  farm.peacock:
+    label: peaguo domesticado
+    summary: El macho de esta especie es criado en fincas y jardines por su valor ornamental.
+    info: La paloma turca azul proviene originariamente de la India donde fue domesticada hace miles de años como ave ornamentales El macho abre más de cien plumas decorativas formando un impresionante abanico para atravesar hembras Su llamado es muy fuerte e intenso En la India el peaguo es considerado una ave nacional símbolo de belleza
+  farm.pheasant:
+    label: pavo de granja
+    summary: Pavos criados en fincas y liberados para cazar.
+    info: El pavón común se cría en la República Checa en granjas e instituciones rurales y es regularmente soltado al aire libre con fines cinegéticos.
   farm.pig:
     label: cerdo
     summary: Animal de granja rosado con hocico cartilaginoso.
     info: El cerdo doméstico es un animal inteligente criado para su carne. Es omnívoro y puede recordar tareas complejas.
+  farm.pigeon_farm:
+    label: paloma domesticada
+    summary: Paloma criada para carne (pavés) o competencias de vuelo.
+    info: La paloma común es una especie que ha sido domesticada y por cría se han desarrollado cientos de razas diferentes. El pavés (carne joven de palomas recién nacidas) es considerado un manjar en muchas culturas alrededor del mundo. Las palomas velocistas son seleccionadas genética e intensivamente entrenadas con el fin de alcanzar altos niveles de velocidad; algunas individuos pueden volar más rápido de los 150 kilómetros por hora.
+  farm.piglet:
+    label: cochinillo
+    summary: Cerdo recién nacido típicamente rosado y juguetón.
+    info: |-
+      Un cochinillo es el joven de un cerdo domestico en las primeras semanas después del parto.
+      Los nuevos cochinillos son muy pequeños pero crecen rápidamente;
+      hembras como la puerca dan vida normalmente entre diez y doce crías por camada.
+  farm.pony:
+    label: poney
+    summary: Pequeño caballo de sangre completa popular para montar niños.
+    info: El poney es un pequeño tipo de caballo que no sobrepasa la altura de 14,2 manos en el cuello alto (aproximadamente 147 centímetros). El shetlands pony es el más chico y proviene del archipiélago escocés de las islas Shetland; son animales fuertes resistentes al clima adverso. Se usan con frecuencia como equinos infantiles por su tamaño manejable así como también dentro minas subterráneas.
+  farm.quail:
+    label: codorniz japonesa
+    summary: Pequeño ave criado en granjas para huevos y carne.
+    info: La codorniz japonesa es una especie doméstica de codornices cría intensivamente por sus huevos y su carne. Las hembras ponen casi un huevo al día; estos son considerados delicatessen en muchas cocinas. Madura rápidamente e incluso comienza a poner desde las seis semanas.
+  farm.rabbit:
+    label: conejo
+    summary: Conejo domesticado para carne, piel o como mascota.
+    info: El conejo común fue domesticado en la Edad Media del conejo europeo salvaje y tiene más de 50 razas reconocidas que varían según tamaño, color y tipo de pelaje. Las hembras pueden dar a luz entre cuatro y doce crías e tener varios partos al año. El conejo es el tercer animal de compañía más popular después de los perros y gatos.
+  farm.ram:
+    label: buey
+    summary: Adulto macho de oveja con cuernos espirales prominentes.
+    info: Un buey es un animal adulto del sexo masculino perteneciente al rebaño domestico y destaca por tener grandes cornamentas en forma helicoidal que las hembras no poseen ni tienen solo pequeñas versiones; durante el periodo estacional conocido como monta los ejemplares competirán entre ellos enfrentándose cara contra cara usando sus astas para demostrar superioridad física dentro del grupo social.
+  farm.rooster:
+    label: gallo
+    summary: Macho de la gallina domestica que anuncia el amanecer con su canto.
+    info: El gallo es un macho adulto del ave Gallus gallus domesticus y se reconoce por sus colores llamativos en las plumas, así como por tener una cresta colorida y cola larga. Su cacarear forma parte de comportamientos territoriales e ocurre no solo al despuntar el día sino también durante cualquier momento. En Chequia simboliza la vigilancia activa mientras que dentro del calendario lunar chinoy representa uno entre doce animales claves.
+  farm.salmon:
+    label: salmón
+    summary: Gran pez marino que migra hacia ríos para reproducirse y es criado en granjas.
+    info: El salmón común es un pez anadrómico; crece en el océano pero regresa a sus riós natales para desovearse. La capacidad de encontrar su río natal está guiada por el campo magnético terrestre y por el sentido del olfato. El cultivo intensivo de salmones en Noruega e Inglaterra forma parte importante de la acuicultura mundial. El salmón contiene altas cantidades de ácidos grasos Omega-3 beneficiosos para la salud.
   farm.sheep:
     label: oveja
     summary: Animal lanudo de granja que proporciona lana y leche.
     info: La oveja doméstica se cría para obtener lana, leche y carne. Vive en rebaños y es uno de los primeros animales domesticados en la historia.
+  farm.sheepdog:
+    label: perro pastor
+    summary: Perro entrenado especialmente para guiar y proteger rebaños de ovejas.
+    info: El Border Colli es la raza más popular entre los perros pastores; son criados específicamente para manejar el ganado con miradas directas e instrucciones silenciosas. Se consideran una de las razas caninas más inteligentes del mundo. Sus habilidades laborales pueden heredarse pero deben desarrollarse desde cachorro mediante un adecuado adiestramiento.
+  farm.silkworm:
+    label: gusano de seda
+    summary: Larva del gusanito de la seda cultivada para producir seda natural.
+    info: |-
+      El gusano de seda es una larva domesticada en China hace más de cinco mil años y pertenece al insecto Bombyx mori.
+      Su capullo está hecho por un solo hilo que puede medir varios centenares o incluso miles de metros,
+      y ha sido tan valioso durante siglos que el secreto detrás de su producción fue cuidadosamente protegido por los chinos.
+  farm.sow:
+    label: cerda
+    summary: Hembra adulta de cerdo domestico que es madre de los cochinillos.
+    info: Una hembra adulta del cerdo domesticado puede tener crías dos veces al año y el promedio por parto oscila entre diez y catorce cachorros. El manejo intensivo en jaulas pequeñas ha generado controversia dentro de la agricultura actual debido principalmente a las condiciones limitadas donde se mantienen estas hembras durante su periodo reproductivo.
+  farm.tilapia:
+    label: tilapia
+    summary: Pez de agua dulce tropical criado en masa alrededor del mundo.
+    info: La tilapia es una de las especies acuícolas más extendidas mundialmente y millones de toneladas son producidas anualmente. Originalmente proviene del Nilo y lagos africanos pero hoy día ya está siendo cultivada en todos los continentes. Se caracteriza por su resistencia, rápido crecimiento e insensibilidad hacia la alimentación.
+  farm.trout:
+    label: trucha
+    summary: Pez de agua dulce criado en granjas y aguas libres.
+    info: La trucha arco iris proviene del norte de América y fue introducido como pez para cultivo en Europa. La trucha común es una especie europea originaria que vive en cursos limpios con fuerte corriente natural. Ambas son apreciadas tanto por su pesca deportiva como culinariamente. En la República Checa el cultivo intensivo de truchas tiene tradición histórica especialmente en zonas montañosas.
+  farm.turkey:
+    label: pavo
+    summary: Gran ave de granja criada para carne y símbolo del día festivo estadounidense de Acción de Gracias.
+    info: El pavo silvestre proviene de México donde fue domesticado por los aztecas hace más de dos mil años. El macho tiene un mechón característico en la cabeza e incluso puede abrir su plumaje caudal como si fuera una cola abanicada. En Estados Unidos es plato tradicional el Día de Acción de Gracias; mundialmente ocupa segundo lugar entre las aves domésticas más extendidas.
+  farm.water_buffalo:
+    label: buvo de agua
+    summary: Grande bóvido del sudeste asiático utilizado como animal tractor en los arrozales.
+    info: El búfalo es una especie silvestre que fue domesticada y convertida en el principal ganado agrario de la región. Durante miles de años ha trabajado araigando campos de arroz e incluso transportando cargas pesadas por tierra o sobre embarcaciones pequeñas. Su leche tiene un contenido graso más alto que la vaca común; esta propiedad hace posible fabricar queso especializado con ella.
+  farm.yak:
+    label: ják
+    summary: Gran bóvido lanudo de la meseta del Tíbet que proporciona leche, carne e húmedad.
+    info: El yak es una especie domesticada originaria de las altas regiones elevadas en el Tibet entre los niveles de altura aproximados desde 3 mil hasta cinco mil quinientos metros sobre nivel marino. Es fundamental para la economía local porque provee tanto leche como carnes además también sirve para arrastrar cargamentos pesados.

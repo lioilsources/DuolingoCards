@@ -2,6 +2,42 @@ lang: id
 pivot: false
 title: Hewan Laut
 cards:
+  animal.anglerfish:
+    label: setan lautan
+    summary: Seekor ikan yang tinggal di kedalaman air tawar atau payau
+    info: '{"hint":"ikan laut dalam dengan umpan bercahaya sendiri","info":"Ikan setan lautan (Lophius) hidup di dasar laut gelap lebih dari seribu meter\nsamaknya memiliki cahaya alami pada bagian depan untuk menangkap mangsa dan jantan\njantannya sangat kecil sehingga ketika bertemu betina akan melekat padanya hingga menyatu secara biologi\ncahayanyaberhasil menggabungkan simbiosis antara ikan tersebut dan bakterinya"}'
+  animal.barnacle:
+    label: krusibel
+    summary: Krustase kecil hidup menempel di bebatuan dan badan kapal.
+    info: Rumput laut adalah krustase sessil dari subkelas Cirripedia yang melekat pada batuan dan kapal menggunakan sekresi semacam semen.
+  animal.beluga_whale:
+    label: lumba beluga
+    summary: Lumba-lumba putih dari kutub utara dengan kepala bundar.
+    info: Beluga adalah seekor lumba-lumbu putih kecil yang hidup di laut Arktik dan Subarctik dengan dahi berisi jaringan lunak ungu untuk membantu ekolokusinya.
+  animal.blue_tang:
+    label: ikan surgeri
+    summary: Ikan warna biru cerah dengan cakar scalpel untuk melindungi dirinya.
+    info: Tuna biru kecil atau kanik biru adalah ikan laut yang berwarna biru terang dan memiliki ekor kuning dari perairan karstifikasi Indopasifik. Film 'Hunting for Nemo' meningkatkan minat akan pemeliharaannya meskipun ia membutuhkan kondisi khusus di akuarium. Ikan ini juga disebut sebagai tuna bedah karena adanya duri tajam seperti pisau skalp pada ujung siripnya.
+  animal.carp_river:
+    label: ikan karpa
+    summary: Seekor besar ikan tawaran cokelat emas tinggal di sungai-sungai dan tambaks.
+    info: '{"hint":"karper umum di lingkungan alaminya sungai","info":"Ikan karpa biasa berasal dari Asia dan dibawa ke Eropa sejak abad pertengahan\nmakanannya beragama segala; menggali dasar perairan yang bisa membuat air keruh\nadalah simbol Natal Ceko tradisionil; penjual ikan menjualnya hidup dalam bak-bak\ntersebut adalah salah satu jenis ikan terpopuler dunia dengan lebih dari seratus ras"}'
+  animal.catfish:
+    label: ikan sungai
+    summary: Seekor ikan air tawar dengan janggut di wajahnya.
+    info: Ikan sungai besar ini memiliki panjang lebih dari dua meter dan berat melebihi seratus kilogram serta mempunyai jangkar yang digunakan sebagai alat penciuman maupun peraba.
+  animal.clam:
+    label: tridaenca raksasa
+    summary: terbesar dari semua tridaknya dunia hidup di terumbu karang tropis
+    info: '{"hint":"moluska berbis dengan dua cangkang yang dihubungkan oleh engsel","info":{"label":"tridaenca raksasa","summary":"terbesar dari semua tridaknya dunia hidup di terumbu karang tropis","content":{}}'
+  animal.clown_triggerfish:
+    label: klown trigger
+    summary: Rybi tropicalis bergaris putih dan bibir jingga.
+    info: "{\"hint\":\"ikan terumbu berpolaan mencolok (Balistoides conspicillum)\",\"info\":\"Ikan klown triggerfish adalah ikan laut besar dari kelompok Balistidae dengan warna yang sangat menonjol di antara jenis ikan air tawar dan payau lainnya.\r\nDia memiliki gigi kuat untuk menghancurkan karang keras maupun siput.\r\nNama 'trigger' atau pemicu muncul karena tulisan pertama pada sirip dorsal bertindak sebagai pengaman bagi tulisan kedua.\r\nDalam musim berkembang biak ia bisa bersikap ganas kepada penyelam.\"}"
+  animal.clownfish:
+    label: badut
+    summary: Seekor burung pipit warna jeruk yang tinggal bersama terpedo laut.
+    info: Ikan badut mata sipit hidup di dalam terpedo laut yang beracun—ekor mereka bisa membahayakan ikan lain karena racunnya sendiri; namun, badut ini memiliki lapisan lendir pelindung sehingga kebal dari efek tersebut. Dalam hubungan simbiosis mutualistik dengan terpedo itu, ia membersihkan parasit dan mengusir predator potensial untuk melindungi tuannya.
   animal.crab:
     label: keong
     summary: Hewan berkaki sepuluh dengan cangkul dan sisik keras yang bergerak ke samping.
@@ -10,26 +46,171 @@ cards:
     label: lumba-lumba
     summary: Hewan mamalia laut cerdas yang hidup berkelompok dan melompat dari air.
     info: Lumba-lumba adalah mamalia laut dari keluarga lumbahamia. Dikenal karena tingkat kecerdasannya yang tinggi, kemampuan ecolokasi, serta perilaku aktifnya—lumba-lumba suka melompat dari gelombang kapal dan berkomunikasi menggunakan bunyi desis dan klikan. Mereka hidup dalam kelompok yang disebut rombongan dan merupakan kerabat dekat paus.
+  animal.dugong:
+    label: dugong
+    summary: Hewan pemangsa tumbuhan ini tinggal di wilayah samudera selatan.
+    info: Lumba-lumba laut adalah mamalia air yang berkaitan dengan lumba dan hidup di Samudra Hindia serta Pasifik Selatan. Mereka hanya makan rumput laut. Dikatakan bahwa mereka menjadi salah satu insiprasi dari legenda duyung karena para pelaut mengira itu makhluk mitos.
+  animal.eel:
+    label: lepuh
+    summary: Ikan seperti biawak merambat melalui retakan tebing karang.
+    info: Morin adalah ikan laut besar dari kelompok muraenida yang bersembunyi di celah terumbu karangnya sendiri.
+  animal.flying_fish:
+    label: flyingfish
+    summary: Ikan ini bisa berenang di permukaan lautan sambil memperluas sirip dadanya sebagai alat bantu dalam pergerakan.
+    info: Flyingfish atau Letoun adalah jenis ikan yang dapat melompat keluar dari air dan terbang di udara dengan menggunakan sirip dada seperti sayapnya untuk menghindari predator laut besar seperti hiu martil, pari raja, serta paus-paus kecil.
+  animal.frogfish:
+    label: ikan antennaris
+    summary: Penampilannya mirip batuan karstifikasi pada terumbu karang karena warna kulitnya bisa disamarkan.
+    info: |-
+      {"hint":"pemburu aneh yang mengintai dan berjalan dengan siripnya","info":"Ikan antennaris atau anglerfish adalah ikan kecil dari famili Angleriidae yang sangat mahir dalam menyamar di laut.
+      Sirip dada mereka membentuk seperti telapak kaki untuk merayap di dasar perairan.
+      Pada bagian depan ekornya terdapat umum panjang (illikium) sebagai alat menangkap mangsa.
+      iKAN ini mampu memakan mangsanya hingga ukuran tubuh sama besar hanya butuh waktu enam millisecond saja."}
+  animal.giant_squid:
+    label: Uburan raksasa
+    summary: Invertebrata tertua dan paling besar di samudra dalam dengan ukuran hingga melebihi tiga belas meter.
+    info: '{"hint":"cacing laut besar yang mencapai panjang lebih dari 13 meter","info":{"label":"Cacing Laut Raksasa","summary":"Hewan tidak bertulang belakang terbesar di dunia hidup dalam lautan dalam."}}'
+  animal.hammerhead_shark:
+    label: hiu palung
+    summary: Hiu dengan ciri bentuk kepala unik menyerupai huruf T.
+    info: Hammerhead shark adalah jenis hiu dengan kepala yang tidak biasa berbentuk datar dan memanjang ke depan seperti huruf 'T'. Kepalanya membantu dalam mendeteksi mangsa melalui organ listrik ampullae dari Lorentzi serta memberikan kemudahan gerak di air. Mereka hidup di lautan hangat dan mencari makan ikan, cumi-cumi, dan udang.
+  animal.horseshoe_crab:
+    label: limulus
+    summary: Anggotanya luar biasa ini sudah ada di bumi sampai usia mencapai empat ratus lima puluh juta tahun lamanya.
+    info: Horseshoe crab atau Limulus polyphemus adalah anggota hewan bertubuh bersegmen yang telah hidup selama kurang lebih 450 juta tahun tanpa mengalami perubahan signifikan dari zaman purba. Ia bukan kerabat dekat kepiting sungguhan melainkan lebih mirip dengan labah-laba dan kalungnya memiliki darah biru yang memuat zat koagulan istimewa digunakan untuk mengetes keamanan obat-obatan serta vaksinasi.
   animal.jellyfish:
     label: medusa
     summary: Hewan laut transparan berbentuk lonceng dengan kaki lendir beracun.
     info: Medusa adalah hewan laut dari filum Cnidaria yang tidak memiliki otak, jantung, atau tulang—tubuhnya terdiri dari 95% air. Ia bergerak melalui kontraksi tubuh berbentuk loncengnya. Kaki lendirnya mengandung sel berduri (nematokista) yang mematangkan mangsa. Beberapa spesies hampir abadi—mereka dapat kembali ke tahap juvenile.
+  animal.lionfish:
+    label: laguna
+    summary: Ikan laguna memiliki warna belang-belang biru kehitaman atau cokelat gelap.
+    info: Laguna merah adalah ikan laut beracun dari kelompok Scorpaenidae dengan garis-garis hitam dan putih serta duri yang mengandung racun.
+  animal.lobster:
+    label: kepit
+    summary: Hewani laut besar dengan jari-jari kecil; memasak mengubah warnanya menjadi merah tapi ia tinggal sebagai hijau-birunya.
+    info: '{"hint":"crustasea laut besar dengan kaki berjari-jari kecil dan cangkul yang merah terang saat dimasak","info": "Kepiting Atlanti adalah hewan karung air laut dari kelompok Nephroridae yang bisa mencapai panjang lebih dari 60 sentimeter\nIa memiliki warna biru-hijau gelap di bawah kulitnya tetapi menjadi merah hanya setelah diproses dalam oven\/rebus\nDapat hidup selama lebih dari lima puluh tahun\nMerupakan permen lautan langka; perdagangan kepiting ini merupakan bisnis bernilai trilyunan rupiah"}'
+  animal.manatee:
+    label: duungan/cowfish
+    summary: Hewan pemangsa tanaman air tenang dengan kecepatan rendah dinamai 'sapi laut'.
+    info: '{"hint":"mamalia laut yang lambat dan memakan tumbuhan di lautan","info":"Manatees adalah mamalia besar yang hidup secara eksklusif dari rumput-rumput laut.","label":"Duyung/manati","summary":"Herbivora laut pelan disebut sapi laut."}'
+  animal.manta_ray:
+    label: raimantara
+    summary: Hewan raimantar mengecil plankton pada permukaan lautan
+    info: Rai mantar adalah jenis ikan pari terbesar dengan rentang sirip lebih dari tujuh meter dan berat melebihi dua ribu kilogramnya menyaring plankton menggunakan sisik insang saat berenang dengan mulut yang terbuka tanpa memiliki duri beracun sehingga sepenuhnya tidak membahayakan manusia termasuk ke dalam kelompok ikan paling cerdas kemungkinan besar dapat mengenal bayangan dirinya sendiri di depan cermin
+  animal.mussel:
+    label: slávka
+    summary: Mluz dengan kulit gelap yang hidup menempel di permukaan batuan wilayah pesisir Atlantik hingga Samudra Hindia.
+    info: '{"hint":"kerang berdinding gelap yang berkumpul di batuan","info":{"label":"slávka","summary":"Kerang cokelat yang menggerombol pada bebatuan daerah pasang surut laut Atlantik dan Pasifik.","detail":{}}}'
+  animal.narwhal:
+    label: narwal
+    summary: Paus Arktika dengan tanduk melengkung seperti legenda unicorn.
+    info: Narwal adalah paus kecil di daerah Arktik dengan ciri khas gading berbentuk spiral yang merupakan gigi depan bagian atas kirinya membesar secara abnormal.
+  animal.nautilus:
+    label: nautilaus
+    summary: Hewan laut kuno dalam bentuk kerucut melengkung bertahan hidup sampai zaman dinosaurus.
+    info: Nautolus adalah molusk bersayap purba dengan cangkok berbentuk spiral yang hampir tidak mengalami perubahan selama lebih dari empat ratus juta tahun.
   animal.octopus:
     label: gurita
     summary: Hewan bertubuh lunak dengan delapan tentakel yang dapat mengubah warna dan bentuk tubuhnya.
     info: Gurita adalah hewan tak berkaki dari kelas moluska berkepala. Ia memiliki tiga jantung, darah biru, serta kemampuan untuk segera mengubah warna dan tekstur kulit menggunakan kromatofora. Gurita sangat cerdas—ia bisa membuka wadah tertutup dan menyelesaikan labirin.
+  animal.orca:
+    label: orca
+    summary: Pemangsanya laut biru-hitam merupakan spesies tertinggi dari semua jenis ikan paus.
+    info: '{"info":"Orca adalah anggota terbesar dari kelompok lumba-lumba dan salah satu hewan paling cerdas di dunia.\nMereka berburu dalam tim yang bekerja sama secara terkoodinasikan dengan teknik pemburuan khas untuk setiap grupnya sendiri-sendiri.\nSetiap populasi memiliki cara komunikasinya masing-masing melalui sinyal suara atau dialektor mereka sendiri.\nPada penangkaran seperti Sea World banyak sekali masalah kesehatan pada Orca tersebut karena lingkungan hidupnya tidak alami."}'
+  animal.oyster:
+    label: lamun
+    summary: Kerongkorongan penyaring air; penghasil mutiara dan hidangan favorit.
+    info: |-
+      {"hint":"moluska berbi beralih di terumbu karang dan batuan","info":"Lamun adalah kerongkorongan yang menyaring air laut dengan cara menyerap partikel-partikel kecil seperti plankton dari aliran air melalui insangnya;
+      mereka bisa memfilter hingga dua ratus liter setiap hari.
+      Beberapa spesies menghasilkan mutiara ketika ada objek asing masuk ke dalam mantel lendir mereka,
+      sedangkan lamun mentah sangat diminati sebagai hidangan istimewa karena rasanya yang gurih serta tekstur kenyalnya.
+  animal.piranha:
+    label: pemburu
+    summary: iklan predator air tawar amerika selatan dengan gigitan tajam
+    info: |-
+      {"hint":"ikan pemangsa air tawar dari Amerika Selatan","info":"Ikan piranha merah adalah ikan predator yang hidup di sungai Amazone dengan giginya berbentuk segitiga dan sangat runcing.
+      Penggambarannya sebagai pembunuh mengerikan agak dilebih-lebihkan karena hampir tidak pernah menyerang manusia yang sedang mandi atau berkumpul dalam keadaaan normal.
+      Mereka memburu mangsanya secara kelompok besar;
+      mereka memiliki penciuman kuat untuk mendeteksi darah jarak jauh.
+      Merupakan bagian penting dari sistem ekologi aliran sungai Amazone."}
+  animal.puffer_fish:
+    label: ikan puffer
+    summary: Ikan ini bisa membengkok ke bentuk bulat berduri dan juga merupakan hidangan istimewa serta sumber racun.
+    info: '{"fugu": "sekelompok ikan dari keluarga tetradontida yang dapat mengembung tubuhnya dengan air atau udara menjadi bola berduri."}'
+  animal.salmon:
+    label: salamon
+    summary: Ikan besar jenis Salmonidae yang bermigrasi dari laut menuju sungai untuk bereproduksi.
+    info: Salmón adalah ikan yang berkembang biak secara anadromis; ia hidup di laut tetapi berenang ratusan kilometer ke sungai tempat lahirnya untuk bertelor.Ketika mendekati waktu bertelur atau 'pemencaran', warnanya berubah dari perak menjadi merah terang.Setelah pemancarnya, hampir semua salmon mati dan tubuh mereka membusuk sehingga nutrisinya masuk ke dalam sistem ekologi alamiah hutan.
+  animal.sea_anemone:
+    label: Anemon Laut
+    summary: Organisme laut mirip bunga dengan duri tajam untuk melindungi dirinya dari predator.
+    info: '{"hint":"hewan laut berbentuk bunga dengan lengan yang mengandung racun","info":"Sponge hias adalah cnidarian seperti tanaman air terikat pada batuan karang di dasar lautan.","label":"anemon laut","summary":"Hewa laut menyerupai bungan dengan cilia beracun dan hidup bersimbiosis."}'
+  animal.sea_cucumber:
+    label: teripang
+    summary: Hewa silinder renyah pengumpul sampah organik di dasar lautan
+    info: Teripang adalah hewan laut bertubuh berduri dari kelas Holothuroidea yang hidup di dasar samudra mereka menyaring sedimen dan memakan sisa-siaan bahan organik saat terancam ancaman mereka mengeluarkan usus atau cairan encer tetapi akan beregenerasi
+  animal.sea_lion:
+    label: paus laut California
+    summary: Paus-paus daun-telinga yang sanggup menempuh langkah-langkah pada sisiran.
+    info: '{"hint":"pale yang berdaun telinga dan bisa jalan di siripnya","info":"California sea lion adalah anggota paling terkenal dari paus-paus daun-telinga (otaride).\nPada perbedaan dengan lumba-lumbu sungguhan ia memiliki cuping telinga eksternal serta dapat melangkah menggunakan empat buah sisirannya. \niI secara tidak biasanya cerdas sehingga dalam industri rekreasi mereka diajar untuk melakukan gerakan sulap kompleks. \ndi alam liar mencari ikan, cum-cum dan kerang."}'
+  animal.sea_otter:
+    label: beruang laut
+    summary: Beruang laut dapat mengambang di badannya serta merobek cangkul dengan bantuan bebatuan.
+    info: '{"hint":"seal yang mengapung di atas punggungnya menggunakan alat","info":"Laut berbulu adalah mamalia laut dari Amerika Utara dengan bulu terpadat dibandingkan semua mamalia lainnya (delapan ratus ribu helai per sentimeter persegi).\nMereka memakai batu sebagai alat untuk membuka tiram dan kerang saat mereka bersandar pada dadanya.\nIa tidur dalam posisi melayang-layang di permukaan air; mencengkeram satu sama lain agar tidak terseret arus.\nHampir punah karena perdagangan kulitnya; populasi telah pulih melalui upaya perlindungan."'
+  animal.sea_slug:
+    label: plakofera
+    summary: Hewani laut tak berkapsul dengan tubuh indah pada dasar terumbu.
+    info: Plakofiara atau nudibranquia adalah moluska laut tanpa cangkul yang hidup di terumbu karang. Mereka memiliki warna-warna mencolok salah satu dari hewan paling menonjol dalam dunia fauna dan berfungsi sebagai peringatan akan kebisaannya sendiri.
   animal.sea_turtle:
     label: kura laut
     summary: Reptil laut besar yang kembali ke pantai untuk bertelur.
     info: Kura laut hijau adalah salah satu dari tujuh spesies kura laut. Betina berkembang biak setiap dua hingga lima tahun dengan kembali ke pantai tempat ia lahir untuk menetaskan telurnya. Individu dewasa bersifat herbivora dan makanan mereka terdiri atas rumput laut serta ganggang; sementara itu, anak-anaknya bersifat omnivora.
+  animal.sea_urchin:
+    label: linggi
+    summary: Hewan laut pipih bertubuh bintil-bintil menyerupai bintang.
+    info: '{"hint":"bola berduri bentuk bulat yang hidup di dasar laut","info": "Lingga adalah biota air tawar dari kelompok Asteroidea dengan tubuh bersisik dan cangkeram pada ujungnya untuk menggenggam makanan seperti ganggang atau plankton."}'
   animal.seahorse:
     label: ikan kuda laut
     summary: Ikan kecil yang berenang dalam posisi tegak; jantan membawa anak-anaknya.
     info: Ikan kuda laut adalah ikan dari genus Hippocampus yang bergerak dalam posisi vertikal menggunakan sirip dorsal mereka. Hal menarik tentang ikan ini adalah bahwa betina bukanlah induk yang mengandung telur, melainkan jantannya. Ikan ini memegang rumput laut dengan ekornya dan menunggu mangsa melewati.
+  animal.seal:
+    label: seals
+    summary: Seals adalah hewan mamalia laut yang istirahat di atas bebatuan serta menangkap ikan di samudra.
+    info: '{"hint":"hewan mamalia laut dengan sirip yang bersandar di batu-batuan","info":{"label":"seals","summary":"Mamalia laut berjemur dan memburu ikan di lautan","content":{}}}'
   animal.shark:
     label: hiu
     summary: Ikan predator besar dengan gigi tajam dan tubuh hidrodinamis.
     info: Hiu putih adalah ikan predator terbesar di dunia yang bisa mencapai panjang lebih dari enam meter. Ia memiliki kemampuan mendeteksi medan listrik mangsa melalui ampula Lorenzini. Meskipun berbahaya menurut reputasinya, serangan pada manusia sangat langka; hiu merupakan pemangsa utama dalam ekosistem lautan.
+  animal.shrimp:
+    label: udang
+    summary: Hewan karung laut mini popular global.
+    info: '{"hint":"kecil udang cepat berenang","info":"Udang adalah kecil laut atau air tawar kerak dengan sepasang kaki 10.","ada lebih dari 2000 spesies; mereka kedua paling populer hasil lautan di dunia." "mereka filter dan predator; merupakan link penting rantai makanan samudera." "banyak jenisnya menjadi sumber nutrisi yang sangat penting dalam komunitas pantai daerah tropis.'
+  animal.squid:
+    label: sepia
+    summary: Hewankaki seribu yang bisa memancarkan semburan air.
+    info: '{"hint":"moluska sepia berang tentakel yang meluncur di air","info":"Sepia adalah moluska lapis dengan delapan tangan dan dua tentakel pencari mangsa serta dapat mengubah warna kulitnya menggunakan cromatofora untuk menyesuaikan dirinya dengan lingkungan atau menyamarkan bentuk tubuhnya dari predator. Sepia raksasa memiliki panjang lebih dari limabelas meter sehingga menjadi hewan tidak bertulang belakang terbesar didunia."}'
+  animal.starfish:
+    label: bintang laut
+    summary: hewan laut bertubuh beralur dan memiliki kemampuan untuk meregenrerasikan bagian tubuhnya.
+    info: '{"hint":"lima lengan hewan berduri di dasar laut","info":"Bintang laut adalah anggota kerajaan Laut dengan lima atau lebih lengannya yang bisa beregenerasi jika hilang karena cedera atau pemotongan sendiri."}'
+  animal.stingray:
+    label: rajungan
+    summary: ikan laut rata dengan duri pada bagian belakang; tinggal di lantai pasir
+    info: '{"hint":"ikan datar dengan duri beracun di ekor","info":"Rajungan adalah kerabat hiu yang memiliki tubuh pipih menyerupai cakram untuk hidupnya dekat dasar laut.\nEkor banyak spesies dilengkapi dengan duri racuni sebagai pertahan diri.\nIa bergerak melalui gerakan sirip dadanya seperti sayap terbang.\nBeberapa jenis dapat menghasilkan listrik dan membius mangsa menggunakan lonjangan arus."}'
+  animal.swordfish:
+    label: swordfish
+    summary: Ikan pemakan daging dengan paruh panjang mirip pedang.
+    info: Swordfish besar adalah jenis predator laut yang hidup di perairan hangat dan sub-tropical dari samudra dunia. Paruhnya datar seperti pedang digunakan untuk menumbuk mangsa terutama berupa ikan kecil atau cumi-cumi bukan menusukkan mereka melalui tubuh korban.
+  animal.tuna:
+    label: Tuna
+    summary: Pelagik ikan lautan cepat di tangkap banyak oleh industry pengolah makanan.
+    info: '{"hint":"ikan laut permukaan cepat dengan tubuh yang aerodinamis","info":{"label":"Tuna","summary":"Ikan pelagik berkecepatan tinggi ditangkap dalam jumlah besar untuk industri perikanan pangan.","detail":{}}}'
+  animal.walrus:
+    label: paus
+    summary: Hewan air bersuhu dingin di kutub utara memiliki gigi taring seperti gajah.
+    info: Paus adalah mamalia laut Arktika yang besar dengan ciri khas gading berbentuk persegi panjang mencapai lebih dari satu meter. Gading ini digunakan untuk keluar dari es, bertarung antara laki-laki dan menegakkan dominasi sosialnya.
   animal.whale:
     label: paus biru
     summary: Hewan terbesar di bumi - mamalia laut yang bernapas udara.

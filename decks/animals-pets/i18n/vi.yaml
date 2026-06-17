@@ -2,14 +2,115 @@ lang: vi
 pivot: false
 title: Động vật nuôi trong nhà
 cards:
+  pet.angelfish:
+    label: skalar
+    summary: Là con cá nhiệt đới dáng tròn phẳng to bản cùng đôi fin rộng rãi.
+    info: '{"hint":"cá cảnh nhiệt đới hình dĩa cao lớn trong bể cá","info":"Skalar Amadon là một trong những loài cá thủy sinh được yêu thích nhất nhờ vào vẻ ngoài sang trọng với thân tam giác và đuôi dài bay lượn như đang nhảy ballet.\rLoài này đến từ lưu vực sông Amazon và cần nước có độ nóng vừa phải khoảng giữa mức 24 - 28°C để phát triển tốt.\rNó cũng thuộc dạng săn mồi nên sẽ ăn các loại cá nhỏ hơn nếu gặp cơ hội.\rỞ Nhật Bản thì Skalar đã trở thành loài đầu tiên của nhóm cá nhiệt đới nhập khẩu năm 1909."}'
+  pet.axolotl:
+    label: Axiolt
+    summary: Loài cóc Mexico sống hoàn toàn dưới nước với đôi mang bên.
+    info: '{"hint":"cá cóc Mexico sinh sống dưới nước giữ lại mang nhầy suốt đời","info":"Cóc axolotl là loài cá cóc thủy sinh đến từ México mà duy trì hình dạng phôi thai trong cả cuộc đời của nó (hiện tượng neotenism). Nó sở hữu những lá mang bên ngoài rõ rệt và vẻ mặt đặc trưng như đang cười. Đây là một loài bản địa hồ Xochimilco ở miền nam thành phố Mexico City hiện nay bị đe dọa nghiêm trọng do mất môi trường tự nhiên. Axolotls còn nổi tiếng với khả năng tái tạo đáng ngạc nhiên - chúng có thể phục hồi chi chân cũng như các phần cơ quan nội tạng phức tạp hơn nữa."}'
+  pet.ball_python:
+    label: rắn bóng hoàng gia
+    summary: Một loài rắn hiền lành uốn lượn tạo nên những vòng tròn hoàn hảo – lý tưởng cho người mới bắt đầu nuôi thú bò sát.
+    info: Rắn bóng hoàng gia đến từ Tây và Trung Phi, nơi sinh sống trong các vùng thảo nguyên xavan và rừng cây. Khi bị đe dọa nó cuộn mình lại thành một quả cầu chắc chắn (bởi vậy còn gọi là rắn hình cầu). Nó có thể dài tới khoảng 120–150cm và tuổi thọ lên trên cả ba mươi năm.
+  pet.bearded_dragon:
+    label: rắn có răng
+    summary: Con tắc kia từ Úc rất phổ biến làm thú cưng ngoại lai thích nhiệt.
+    info: Rồng có râu trung bình là một trong những loài bò sát phổ biến nhất được nuôi nhốt nhờ tính cách hiền lành của nó. Những cái lông trên cổ chúng phình ra và chuyển sang màu tối hơn như biểu hiện cảm xúc hoặc sự thống trị. Chúng giao tiếp bằng cử chỉ giơ tay lên xuống để thể hiện thái độ phục tùng.
+  pet.betta_fish:
+    label: cá Betta
+    summary: Là một loại cá cảnh đẹp mắt thuộc họ Labyrinthidae ở vùng đồng bằng sông Mê Kông.
+    info: '{"hint":"con cá heo nhiều màu sắc với đuôi dài từ Đông Nam Á","info":"Cá betta là loài có mang dạng mê cung và thở bằng cơ quan đặc biệt sống trong các ruộng lúa nông của Thái Lan.","label":"betta","summary":"Loại cá chấm đầy màu sắc với những chiếc bơi láng rộng đến từ khu vực châu Á."}'
+  pet.blue_tongue_skink:
+    label: thằn lằn đuôi dài
+    summary: Loài rắn nước ở châu Phi với cơ thể khỏe mạnh thích sống trong môi trường ngập úp.
+    info: Một loài thằn lằn lớn của Úc có đặc điểm nhận dạng là chiếc lưỡi màu xanh nổi bật. Nó phun ra cái lưỡi như một hành động cảnh báo kẻ săn mồi vì màu sắc này mang tính đe dọa cao. Đây cũng là con vật không hung hăng, béo và di chuyển chậm được nhiều người nuôi làm thú cưng.
+  pet.budgerigar:
+    label: bồ câu
+    summary: Loại bồ câu nhỏ dễ thương thường làm thú cưng
+    info: |-
+      Vịt lông xám là loài chim nuôi phổ biến nhất thế giới sau vàng anh vũ
+      Chim hoang dã có màu xanh lá và cam; các đột biến về màu sắc như xanh lam, trắng hoặc xám được tạo ra qua lai giống
+      Con trống có thể bắt chước giọng người nói và học thuộc hàng trăm từ khác nhau
+  pet.canary:
+    label: kanarek
+    summary: Một chú chim nhỏ với khả năng cất lời tuyệt vời cùng lớp phủ da ánh nắng mặt trời.
+    info: '{"hint":"Con chim nhỏ có tiếng hót và màu vàng sặc sỡ được nuôi dưỡng vì giọng hát hay và sắc tố tươi sáng của nó (Serinus canaria)","info":"Chim kanar đến từ quần đảo Canary đã bị thuần hóa bởi người chinh phục Tây Ban Nha vào thế kỷ thứ mười lăm\. Qua việc lai tạo nhiều loại khác nhau như những con biết cao trào\( Roller\, Waterslager \), các giống về màu sắc\$ đỏ\, trắng $và hình dạng cũng ra đời\. Chim đực phát âm điệu phức tạp; chúng học cách bắt chước một phần bài xướng độc đáo\. Trong lịch sử loài này từng đóng vai trò là cảm biến khí CO trong lòng nhà máy khai thác than đá."}'
   pet.cat:
     label: con mèo
     summary: Một thú nuôi độc lập trong nhà có những bàn chân mềm mại.
     info: Con mèo là loài động vật thuộc họ Mèo được nuôi làm thú cưng. Nó nổi tiếng với sự nhanh nhẹn, sạch sẽ và tính cách tự chủ.
+  pet.chameleon:
+    label: thạch sủng
+    summary: Cá thể sinh vật biển đổi màu kết hợp hai quả thị giác linh hoạt.
+    info: |-
+      {"hint":"con thằn lằn đổi màu với đôi mắt di chuyển độc lập (Chamaeleo)","info":"Thạch sùng là loài bò sát có khả năng biến đổi sắc tố da bằng các tế bào gọi là chromatóphores để truyền đạt cảm xúc chứ không phải chủ yếu dùng làm lớp che giấu;
+      với mỗi con ngươi đều hoạt động riêng biệt và quan sát góc nhìn gần như trọn vòng 360 độ;
+      lưỡi dài hơn thân mình phóng ra nhanh chóng ở tốc độ lên đến 26km/giờ;
+      nó sống hoàn toàn trên cây cối nhờ vào những chân cái nhỏ xinh giúp ôm lấy nhánh lá","label":"thạch sùng","summary":"Loại cá thể biết đổi màu cùng cặp nhãn cầu tự do."}
+  pet.chinchilla:
+    label: chuột chích
+    summary: Loài gặm nhấm ở châu Nam Cực có loại da thú thô kín đáo hơn bất kỳ sinh vật nào trên mặt đất.
+    info: '{"hint":"con gặm nhấm có lông mềm của Nam Mỹ với lớp áo dày đặc biệt (Chinchilla lanigera)","info":"Con chuột chích là loài động vật ăn cỏ đến từ dãy núi Anđê và sở hữu bộ lông siêu dày – mỗi nang tóc phát triển ra tới 60–80 sợi lông chỉ trong khi con người thì một nang mới cho duy nhất một sợi."}'
+  pet.clownfish:
+    label: cá cóc
+    summary: Loại cá màu nâu đỏ sống cùng nhau với hải quỳ.
+    info: |-
+      {"hint":"con cá biển cam-trắng nhỏ sống trong hải quỳ (Amphiprioninae)","info":"Cóc mắt là loài cá biển nhiệt đới từ vùng Ấn Độ Dương - Thái Bình Dương sinh sống cộng sinh với các con sao biển dưới nước muối.
+      Hải quỳ bảo vệ nó bằng những xúc tu độc hại của mình và ngược lại cóc giúp làm sạch chúng cũng như xua đuổi kẻ săn mồi.
+      Nhờ bộ phim Tìm Kiếm Niềm Vui năm 2003 mà trở thành biểu tượng cho việc nuôi thủy sinh ở nhà tắm biển.
+      Tất cả các loại cóc đều được sinh ra giống cái trước khi chuyển đổi giới tính sang nữ nếu cần thiết."}
+  pet.cockatiel:
+    label: Chim nimfa
+    summary: Một loại bồ câu đuôi dài nhỏ xinh đến từ châu Á.
+    info: Loài chim Nimfa có nguồn gốc từ Úc và thường sống ở đồng cỏ cũng như rừng cây bụi thấp. Chim trống rất giỏi bắt chước âm thanh – chúng học được cả bài hát con người lẫn lời nói của họ nữa.
+  pet.corn_snake:
+    label: Con Rắn Chuối
+    summary: Loại cá heo thân thiện mang sắc tím-cam thích hợp dành riêng cho trẻ em.
+    info: '{"hint":"con rắn chuối đỏ cam hiền lành và phổ biến cho người mới bắt đầu","info":"Rắn chuối Mỹ sinh sống ở vùng đông nam Hoa Kỳ trong các cánh đồng cỏ và rừng lá rộng.\nNó không có nọc độc mà rất ôn hòa; hiếm khi nó đớp lại con mồi hay bị tổn thương.\nTên gọi của loài này được đặt dựa trên những ruộng ngô hoặc mô hình chấm bi màu bụng gợi nhớ đến hạt ngô đã trồng lâu đời.\nChiều dài tối đa đạt hơn một mét với tuổi thọ lên tới hai thập kỷ nếu nuôi nhốt."}'
+  pet.crayfish:
+    label: cua aqua
+    summary: Loại nhỏ với nhiều màu sống ở dưới lòng hồ chứa nước ngọt.
+    info: '{"info":"Raci trong bể cá được nuôi phổ biến vì hành vi năng động và màu sắc sặc sỡ của chúng.\nCon cua xanh Florida (Procambarus alleni) là loài thích hợp nhất cho việc nuôi trong bể nước ngọt.\nChúng lột xác khi lớn lên; lớp vỏ mới ban đầu còn mềm mại.\nCác con này có ích như những người làm sạch đáy hồ bởi sự tiêu thụ tảo cùng các thức ăn thừa."}'
+  pet.crested_gecko:
+    label: Gecko mắt mèo
+    summary: Loài gecko ban ngày với những cái răng nhỏ như睫毛 và đôi mắt lớn nổi bật.
+    info: '{"hint":" Gecko ban đêm có các gai giống lông mi (Correlophus ciliatus)","info": "Gekko mắt mèo đến từ New Caledonia và được coi là đã tuyệt chủng cho tới năm 1994\. Nó biết nhảy và hoạt động vào buổi tối\.(.*?)","label": "Gecko mắt mèo","summary": "Một loài gecko ban đêm với chiếc rặng tóc trên đầu rõ nét và đôi mắt to."}'
+  pet.degu:
+    label: đè-gù
+    summary: Một con vật giống sóc ở vùng núi Andes thuộc Nam Mỹ.
+    info: Đè-gù là một loài gặm nhấm nhỏ đến từ Chili có quan hệ họ hàng với chuột lang và khỉ đuôi dài. Nó chỉ hoạt động vào ban ngày và rất hiền lành cần sống cùng đồng loại để không bị cô lập. Loài này dễ mắc bệnh tiểu đường nên khi nuôi trong môi trường kín phải tránh cho ăn trái cây ngọt.
+  pet.discus_fish:
+    label: đĩa vàng
+    summary: Loại cá hoành tráng mang dáng vẻ như cái đĩa thường xuyên xuất hiện trên đỉnh bảng xếp hạng cá bể thủy sinh.
+    info: Đĩa vàng hay còn gọi là Symphysodon là một loài cá nhiệt đới có hình dạng tròn và màu sắc sặc sỡ sinh sống tại Amazon. Đây được coi là một trong những loại cá cảnh khó nuôi nhất vì đòi hỏi hóa chất nước chính xác cùng với nhiệt độ từ 28 đến 32°C. Cá con ăn phân tử da của cha mẹ – đây là hiện tượng hiếm gặp ở các loài khác.
   pet.dog:
     label: chó
     summary: Mascot trung thành trong nhà, người bạn của con người.
     info: Chó là loài sói được thuần hóa, động vật nuôi lâu đời nhất của con người. Có hơn 400 giống chó và nó còn được gọi là 'người bạn tốt nhất của con người'.
+  pet.dove_pet:
+    label: Chim hoà bình
+    summary: Loại chim trống mái trắng xóa thường nuôi làm thú cưng hoặc thả trong các dịp lễ hội.
+    info: Holub trắng là loài chim bồ câu đá được thuần hóa và lai tạo để có màu sắc hoàn toàn trắng tinh khiết.
+  pet.electric_eel:
+    label: cá đuối điện
+    summary: Một loài cá ở Nam Mỹ sinh sản bằng cách phóng điện với mức áp lực cao tới 860 volts.
+    info: Các cơ quan điện trong phần lớn thân của nó được tạo thành từ mô cơ chuyển đổi và có thể phát ra các xung điện lên đến 860 V để làm choáng mồi hoặc tự vệ.
+  pet.ferret:
+    label: chồn ai cập
+    summary: Động vật gặm nhấm thuộc họ Mèo hoang dã, dễ thương.
+    info: Chồn Ai Cập là dạng thuần hóa của chồn trắng đã được con người nuôi hơn hai nghìn năm trước để săn thỏ. Nó hiếu kỳ và ham chơi; thường ngủ từ bốn đến sáu tiếng mỗi ngày còn lại dành cho việc vui đùa náo nhiệt. Chó có mùi đặc trưng do tuyến tiết ra.
+  pet.frilled_lizard:
+    label: thằn lằn King cóc
+    summary: Loại thằn lằn úc với khả năng giãn nở lớp mô mềm xung quanh cổ để tự vệ.
+    info: '{"hint":"con thằn lằn phồng cổ khi bị đe dọa","info":"Thằn lằn King cóc là loài bò sát ở Úc mà khi cảm thấy nguy hiểm sẽ mở rộng phần da quanh cổ to lớn ra như một hình thức phòng thủ đồng thời phát âm thanh rít và đứng bằng hai chân sau. Phần da này được củng cố bởi các xương sườn kéo dài. Nó chạy trên đôi chân sau giống hệt con Tyrannosaurus rex tí hon. Loài vật này rất phổ biến trong ảnh chụp thiên nhiên hoang dã và cũng trở thành biểu tượng cho vùng lãnh thổ phía Bắc của nước Úc."'
+  pet.gerbil:
+    label: chồn sa
+    summary: Một loài gặm nhấm nhỏ của môi trường cằn cỗi
+    info: |-
+      Chồn sa mông Cổ đến từ các vùng thảo nguyên khô ở Mông Cổ và Trung Quốc
+      Nó thích nghi với cuộc sống trong hoang mạc bằng cách uống rất ít nước vì có khả năng xử lý tốt nguồn nước lấy được qua thức ăn
   pet.goldfish:
     label: cá vàng
     summary: Loài cá màu cam kim loại được nuôi trong bể cá.
@@ -22,14 +123,98 @@ cards:
     label: chuột lang
     summary: Một loài thú nhút dễ thương có má phồng.
     info: Chuột lang là một vật nuôi phổ biến trong nhà. Chúng hay giấu thức ăn vào má và hoạt động chủ yếu về đêm, thích chạy trên bánh xe.
+  pet.hedgehog:
+    label: chồn lông nhọn
+    summary: Động vật ăn sâu bọ bé con với những chiếc vây cứng, tự vệ bằng cách cuốn thân vào hình cầu.
+    info: Chồn lông nhọn châu Phi là loài thú nhỏ được nuôi làm cảnh phổ biến trên toàn thế giới như một vật cưng đặc biệt. Nó có từ 5 đến 7 nghìn gai rỗng bằng chất keratin ở lưng và khi bị đe dọa sẽ cuộn mình lại thành quả bóng chắc chắn không thể xâm nhập.
+  pet.hermit_crab:
+    label: cua rừng
+    summary: Một sinh vật nhỏ sống trong vỏ sò thuê lại làm thú nuôi ngoại lai.
+    info: Cua rừng là loài giáp xác không có lớp vỏ cứng của riêng mình và dùng những chiếc mai trống để bảo vệ phần thân mềm phía sau nó. Khi lớn lên, chúng tìm kiếm một cái mai to hơn cho phù hợp với kích thước mới.
+  pet.iguana:
+    label: Lékuans
+    summary: Thú chơi chim nước ngoài phổ biến tại các vùng đất nóng bỏng của Châu Á - Đại dương Thái Bình Dương như Việt nam hay Indonesia.
+    info: '{"hint":"con rắn có vảy ăn cỏ lớn từ Trung Mỹ được nuôi làm thú cảnh (Iguana iguana)","info":"Con cá sấu xanh là loài thằn lén Nam Mĩ trưởng thành lên đến hai mét\.\nNó chỉ ăn thực vật và trong môi trường nhốt cần nhiều loại rau củ cùng ánh sáng UVB để phát triển tốt\.\nChúng còn sở hữu một con mắt thứ ba ở đỉnh đầu gọi là ''mắt trán'' rất nhạy cảm với ánh sáng\.\nCác chú lékuans này sống hơn đôi chục năm nếu chăm sóc chu đáo nhưng đòi hỏi điều kiện sinh thái cao khi bị giam cầm","label":"lékuans","summary":"Loại thằn lén màu xanh lá cây to tướng thuộc khu vực nhiệt đới châu mỹ thường xuyên xuất hiện dưới dạng động vật hoang dã quý hiếm."}'
+  pet.koi:
+    label: cái tên tiếng Việt của 'capr koi'
+    summary: Loài cá nước ngọt dùng làm vật trang trí trong ao vườn.
+    info: '{"hint":"biệt loại cá trắm thường được nuôi để có màu sắc sặc sỡ (Cypri nus cario)","info":"cá Koi là giống cá trắm cảnh đẹp mắt đã được lai tạo tại Nhật Bản từ thế kỷ thứ mười bảy.Có hơn một trăm biến thể về màu sắc khác nhau; những con đắt giá nhất bán ra với hàng nghìn đô-la.Japanese culture represents courage, perseverance và good luck."}'
+  pet.leopard_gecko:
+    label: Leopard Gecko
+    summary: Loài thằn lằn nhỏ màu nâu sọc đêm phổ biến cho người mới bắt đầu.
+    info: Geck Leopard đến từ các khu vực sa mạc của Pakistan và Afghanistan. Khác với hầu hết loài geck khác, nó không có múi chân để bám vào kính hoặc tường trơn tuột. Nó còn sở hữu mi mắt di động - một đặc điểm hiếm gặp ở geck.
+  pet.lovebird:
+    label: agapornis
+    summary: Một loài chim màu sắc bắt mắt tạo ra các ràng buộc tình cảm bền chặt.
+    info: Agapornis là một loại bồ câu nhỏ ở châu Phi nổi tiếng với những mối liên kết cặp đôi rất mạnh mẽ.
+  pet.mandarin_fish:
+    label: thúy tiên
+    summary: Loài cá biển nhiều màu sắc bậc nhất thế giới có họa tiết siêu thực.
+    info: Còn được gọi là Synchiropus splendens, đây là một loài cá biển nhỏ sống ở rạn san hô của Ấn Độ Dương và Thái Bình Dương với màu sắc nổi bật nhất trong giới động vật.
+  pet.mini_pig:
+    label: con lợn con
+    summary: Con vật nuôi dễ thương thuộc họ gia súc.
+    info: Cún lợn nhỏ (cốc trà hoặc cún siêu nhỏ) là những giống heo nhà được lai tạo có kích thước bé tí tẹo. Chúng thông minh và sạch sẽ đến mức học hỏi các kỹ năng như chó vậy đó! Cún không ra mồ hôi nên tránh ánh nắng mặt trời mà lại cuộn mình trong bùn để điều hòa nhiệt độ cơ thể.
+  pet.moon_jellyfish:
+    label: moon jelly
+    summary: Transparent glowing jellyfish raised using unique tank systems.
+    info: '{"hint":"small bioluminescent jellyfish kept in specialized tanks","info":"The moon jelly is almost transparent and has four circular reproductive organs visible through it. Keeping them was once very difficult until specially designed round tanks called kreisels were developed for their care."}'
+  pet.mouse:
+    label: chuột nhảy
+    summary: Một loài gặm nhấm nhỏ đã bị lai tạo để trở thành vật nuôi hoặc động vật dùng cho nghiên cứu.
+    info: Chuột nhảy trắng là dạng được thuần hóa của chuột nhà, nuôi trong phòng thí nghiệm và làm thú cưng trang trí. Nó thông minh và học nhanh các mê cung cũng như kỹ thuật đơn giản. Tuổi thọ khoảng từ hai đến ba năm.
+  pet.mynah_bird:
+    label: mina
+    summary: Loài sẻ châu Á biết nói có kỹ năng mô phỏng giọng đặc biệt.
+    info: Chim Mina núi là loài chim thuộc họ Sẻ nổi tiếng với một trong những khả năng nói tốt nhất của tất cả các loại chim. Nó có thể bắt chước âm điệu và ngữ điệu giọng người rất chính xác. Loài này đến từ Đông Nam Á và Ấn Độ.
+  pet.oscar_fish:
+    label: oscar
+    summary: Loại cá lóc khổng lồ ở Amazone phản ứng nhanh chóng trước sự hiện diện của chủ sở hữu.
+    info: '{"hint":"cá cảnh thông minh lớn từ Nam Mỹ (Astronotus ocellatus)","info":"Cá Oskar là loài cá lóc to bản đến từ châu Mĩ Latin nổi tiếng với trí tuệ và khả năng nhận ra chủ nhân của mình.\nChúng cần bể nước rộng rãi (ít nhất 200 lít), được cho ăn thường xuyên bằng thức ăn tươi hoặc đông lạnh để phát triển khỏe mạnh.\nKích thước trưởng thành có thể lên tới hơn 35cm cùng tuổi thọ kéo dài khoảng 15 năm.\nĐôi khi chúng cư xử như chó nhiều hơn là một con cá bởi vì sẽ biết bay về phía kính thủy sinh mỗi lần người nuôi lại gần."'
   pet.parrot:
     label: đà điểu
     summary: Chim có thể bắt chước giọng người.
     info: Đà điểu lông xám là loài đà điểu được nuôi phổ biến nhất làm thú cưng. Nó thông minh, hiền lành và có khả năng mô phỏng âm thanh cũng như từ ngữ.
+  pet.prairie_dog:
+    label: chuột Prérie
+    summary: Loài chuột đào hang sinh sống tại thảo nguyên Bắc Mỹ.
+    info: Chuột đồng Prärie là loài gặm nhấm xã hội sống ở Bắc Mỹ trong các khu định cư dưới lòng đất rộng lớn. Chúng sử dụng hệ thống âm thanh phức tạp được coi là ngôn ngữ động vật phong phú thứ hai sau con người và có tiếng kêu sủa đặc trưng để cảnh báo kẻ săn mồi.
+  pet.quail_pet:
+    label: quail
+    summary: Quail is an affectionate little animal suitable for indoor keeping.
+    info: Křepelku mazlíčka lze najít ve dvou hlavních typech - button quails či japonština křepelky. Tyto malé zvírata jsou ideálně přizpůsobena životu uvnitř domácího prostoru díky svém nízkému požadavku na péče.
   pet.rabbit:
     label: thỏ
     summary: Con vật nuôi lông mềm với đôi tai dài đặc trưng.
     info: Thỏ nhà là loài thú cưng phổ biến có bộ lông mềm mại và đôi tai dài đặc trưng. Chúng ăn cỏ khô, rau xanh và cỏ tươi.
+  pet.rat:
+    label: Krysa Domácí
+    summary: Động vật gặm nhấm đã bị lai giống để trở thành bạn đồng hành thân thiết đáng yêu bất ngờ.
+    info: |-
+      {"hint":"chuột nhắt được thuần hóa nuôi làm thú cưng thông minh và hiền lành","info":"Chim chuột nhà là một trong những động vật gặm nhấm có trí tuệ cao nhất; chúng học cách phản ứng với tên gọi của mình và thực hiện các nhiệm vụ phức tạp.\r
+      Nó phát triển xã hội mạnh mẽ tạo ra mối liên kết sâu sắc không chỉ đối với con người mà còn giữa chim chuột cùng loài nữa. \r
+      Tuổi thọ trung bình khoảng từ hai đến ba năm tuổi; ở châu Á nó tượng trưng cho sự khôn ngoan cũng như giàu sang may mắn qua hệ thống hoàng đạo Trung Quốc truyền lại\.\r
+      Hơn thế nữa nhờ vào khả năng ngửi tốt nên chúng hỗ trợ tìm kiếm bom chưa kích hoạt tại khu vực Châu Phi."}
+  pet.red_eared_slider:
+    label: rùa tai đỏ
+    summary: Loại rùa hồ nổi tiếng mang đường viền đỏ bên ngoài tai.
+    info: '{"hint":"Rùa tai đỏ là loài rùa cảnh phổ biến có những chấm màu đỏ ở vành tai","info":"Con rùa tai đỏ sinh sống ban đầu tại Bắc Mỹ và hiện đang là loại bò sát được nuôi nhốt nhiều nhất trên thế giới.\nDấu hiệu đặc trưng của nó chính là dải lông đỏ phía sau tai giúp phân biệt với các giống tương tự khác.\nNó cần cả khu vực nước để hoạt động lẫn không gian khô ráo dưới bóng đèn tia cực tím nhằm phơi nắng.\nTuổi thọ trung bình vượt quá ba thập kỷ; rất nhiều cá thể bị thả ra môi trường hoang dã trở thành loài xâm hại gây ảnh hưởng đến hệ sinh thái địa phương."}'
+  pet.sea_horse_pet:
+    label: cá ngựa ở thủy cung
+    summary: Cá ngựa được giữ tại các ao nước mặn chuyên dụng – Hippopotamus
+    info: Cá ngựa biển là một trong những loài sinh vật biển khó nuôi nhất khi bị nhốt vào môi trường nhân tạo; chúng cần thức ăn sống như Artemia và Misida cũng như không gian yên tĩnh để phát triển bình thường.
+  pet.sugar_glider:
+    label: koala bay
+    summary: Loài thú có túi nhỏ sống tại khu vực rừng nhiệt đới.
+    info: Koala bay nhảy là loài thú có túi nhỏ ở Úc được tạo điều kiện để di chuyển bằng cách sử dụng màng da căng giữa chân trước và sau của nó giúp chúng biết bay qua các cây cối.
+  pet.tarantula:
+    label: chim cánh cụt
+    summary: Một giống nhện bao phủ đầy lớp vảy mềm mại dành riêng cho những ai can đảm.
+    info: '{"hint":"con nhện lông dài được nuôi làm thú cưng ngoại lai","info":"Con chim cánh cụt hồng là loài nhện khổng tôm phổ biến cho người mới bắt đầu vì tính cách hiền lành của nó.\nLoài lớn nhất trong họ này - con chim cánh cụp khổng khanh - có chân lên đến hơn 30cm và đây là loại nhện to nhất thế giới. \nNọc độc tương đương với ong mật nên không nguy hiểm đối với một người trưởng thành khỏe mạnh.\nNhững chú nhện Tarantula sống từ hai thập kỷ tới ba thập kỷ."}'
+  pet.tortoise_pet:
+    label: rùa trên mặt nước
+    summary: Loài rùa khô sống thọ dùng để chơi suốt đời.
+    info: '{"hint":"Con rùa đất nhỏ được nuôi làm thú cưng sống lâu dài thuộc chi Testudo","info":"Rùa Hermann là loài rùa châu Âu Nam bộ bé xinh phổ biến trong việc nuôi dưỡng như vật nuôi.\nNó có thể sống hơn một thế kỷ và thường tồn tại sau chủ nhân của nó.\NVào mùa đông chúng ngủ Đông khi mà quá trình chuyển hóa gần như ngừng lại hoàn toàn.\NTại Cộng hòa Séc thì việc giữ những giống nhất định bị nghiêm cấm nếu không có giấy phép phù hợp."}'
   pet.turtle:
     label: rùa
     summary: Động vật chậm chạp có mai cứng.

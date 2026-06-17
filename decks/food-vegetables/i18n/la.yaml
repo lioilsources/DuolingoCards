@@ -2,14 +2,69 @@ lang: la
 pivot: false
 title: Hortus Vegetabilis
 cards:
+  veg.artichoke:
+    label: articho
+    summary: Herba viridis cum spiculis foliorum comestibilium.
+    info: Carduus artichocis est actuales calyxes plantae spinosae magni generis Cardariaceorum familiae Asteraceaearum ordines Compositales classisque Magnoliopsidae regni Plantae.
+  veg.arugula:
+    label: arugula
+    summary: Frigida herba acuta nigro-viridis ad usum comitatus Italice.
+    info: Arugula (erucas sylvestris), originem ex regione Mediterranea est folium viride acre cum gustu piccantissimo propter glucosinoletes suam vim habentis. In coquina Italia utilis species erat et vulgariter super paninis postquam cocus sunt impositus fit.
+  veg.asparagus:
+    label: Asparagus
+    summary: Tenera prata spargescens; delicatum ver sacrum.
+    info: Asparagus (Asparagus officinalis) est una de primaverarum leguminum pretiosissimarum fructus. Albus Asparagus sine sole colitur et tenerior quam viridis esse dicitur. Post consumtionem urinis odor particulariter emittunt circa 20–40% hominum propter substantiam appelatam 'aspargin'. Est comune apud cibos Germaniae (Spergillus vel Spargel appellatur ibidem) atque Galliarum.
+  veg.bamboo_shoot:
+    label: frutescentia
+    summary: Tenera Bambusi nova herba.
+    info: Venenata et tenera Bambusi subfamiliae frutex sunt ex herbis novi virides Asiaticorum coquinariae utilis.
+  veg.beet:
+    label: beta
+    summary: Herba radicosa rubeola rotunda cum luteo nigrescente colore.
+    info: Rubra beta vulgari contains betacyanine, un potentissimum rubrum coloratum naturale. Est saturata nitratis qui incrementant performance atletica et decrementant tensionem sanguinis. Beta saccharifera est alius cultivar; fontes suendi album sunt ex ea.
+  veg.bok_choy:
+    label: bacopae
+    summary: Hortense foliosa cum caulis albus et folia nigra.
+    info: Bacopa oceánica ( Brassica napus varietas sinuata ) ex Asia oriunda est et multum usitatur inter cibos Sinensibus, Japonicis atque Thailan dis . Habet multis vitamin is , ut scilicet Vitaminae C, K ac A item calcinem.
   veg.broccoli:
     label: caulis broccoli
     summary: Virides herba cum capite flore densa super pedicellum crassi.
     info: Caulis broccoli est viride legume ex familia Brassicaceae. Est particulariter dives in vitaminis C et K atque antioxidants; originatur ab Italia.
+  veg.cabbage:
+    label: caulis florentinus
+    summary: Vegetabile rotundum foliosis rigidis
+    info: |-
+      Cauliflower (brassica oleraceae est vegetabilium genus antiquum quod milia annorum Europæ colitur
+      vitaminae c et k continentur cum glucosinalibus qui sunt ad cancerem resistentes,
+      aliquando fermentatur ut lactofermentatum sit caulis vel sauercauli appellatus
   veg.carrot:
     label: carota
     summary: Ornata dulcis radicis hortensia.
     info: Carota vulgaris est biennis culta pro sapor dulci et succos radice ornato. Est abundans in beta-carotenum (provitaminum A) et fibras.
+  veg.cauliflower:
+    label: cauliflorus
+    summary: '{"summ": "Caput densum ex multis florescentibus floribus cauliferne brassicacae"}'
+    info: '{"inf": "Cauliflower (brassica olearcea var.botritis), quae cum broccoli cognata est, albus fit propter folia protectiva ab sole et inhibens formatione clorophylli. Aliae species violaceas, nitefacientes aut virides habentur."}'
+  veg.celeriac:
+    label: petroselinum
+    summary: Radix alba celerae grandi nodosa.
+    info: Petroselinum tuberosum est varietas apii culta pro radice latere spissis et album tumefactum. Odorem ac sapore apiacea conspicua utilisatur ad fundare consommes, insalatas cum remolaada vel cocta alimentorum spectacula.
+  veg.celery:
+    label: petroselinum
+    summary: Cruncus virides herba cum fortis odore aromatico
+    info: Petroselinum crispum (Apium graveolens), znám jako petrusel, původně vycházit z oblasti středozemního moře. Někdy řekli jeho jedlání spalující energii během procesu stravení vyšší než samotné obsahuje - ověření této teze bylo bez úspěchu. Je klíčový soustavnou částí sloupku tvořené třemi kořenných plodin ve frantijsko gastronomie nazvaném 'miripax', který skládají si z cibuletnice, karotky i petrushka.
+  veg.chard:
+    label: chardu
+    summary: Herba foliosa multicolore cum ramulis variegatis.
+    info: Chardus (Betavulgaris subspecies Ciclus), qui rubra silique cognatus est, variat coloribus viridi, rubeo, flaveo vel arcu caeli similiter tinctis pedicellorum. Est dives vitaminis K et A atque minerali kalium cum magnesio.
+  veg.chickpeas:
+    label: cyseres
+    summary: Legumen rotundum coloratis flavido-tectorius; materia prima ad hummum ac baladium.
+    info: Cyseres arachidis est popularis leguminosae regione Oriens Medii et Indiae. Est basis purée cyserarum vel hummi et baladii seu globulos fritas ex farine cysertera factus. Cyseres sunt copiosissime albumini plantaris genere atque utilis in dieta vegetariana aut veganistica.
+  veg.chili:
+    label: capsicon
+    summary: Acidus rubrum aut viride capsicum; fundamenta saporem piccantem.
+    info: Chili capsicium est species Capsicumi annum et affinium quae multe saporis acrimonia habet. Acriditas capsaicina nomine fit atque per scalam Scovillium mensuratur exemplo Jalapeno qui inter duas milia ad octo millias unitates Scalae Habanero continetur necnon Carolina Reaper cum ducentas milliones plus unitatibus. Evolutio capsaicini bestiarum ab herbis discedere cogitat sed non avium ut semen propagent. Cina, Mexico India culinarie sine chili nesciant.
   veg.corn:
     label: mais
     summary: Planta cum granis dulcibus in spiculis.
@@ -18,18 +73,81 @@ cards:
     label: cucumber
     summary: Long green vegetable with cool juicy flesh.
     info: The cucumber is a tropical vegetable belonging to the gourd family. It contains 95% water, making it refreshing and popular in salads or as a snack.
+  veg.eggplant:
+    label: Aegiplantum
+    summary: Fuscus violaceus ovoides fructu sanguinis
+    info: '{"hint":"purple longus vegetabilium species","info":"Eggplants originate from India where they have been cultivated for thousands of years\nThe plant is known by different names such as ''melanzane'' in Italy,''aubergines''in France,and simply"eggplants"in America \They contain anthocyanins,a powerful antioxidants found mainly within their dark skin\This versatile fruit forms an essential part both Mediterranean cuisine like Moussaka,Ratatouilles etc."}'
+  veg.endive:
+    label: chicon
+    summary: Hortens leguminosus pallida cum acido gusto
+    info: '{"inf": "Chiconis alba vel rubra est foliosa hortea cum amaro gustu ex familia Chicoriaceae\r\\nAlbēdo fit cultū cōpiā lumen aut umbram habente ut witloof seu radicchio\r\\nAciditas ob acidum Intybicum diminuitur per Blanchimentum\r\\nWitloofus Belga est delicata primaverae herba quae Gallia et Belgium placent"}'
+  veg.fennel:
+    label: foeniculus
+    summary: Cebula candida cum odoribus dulci ac pinnulis pluma.
+    info: '{"inf": "Anethum cum odore foeniculi et folis plumosis est Foeniculus vulgaris. Bulbus albus comestibilis utilisatur in coquina mediterranea Italisca ut ingredientia pro pesto vel piscem ardentem. Semina eius sunt aromata digestionaria usura Asiae atque Italiae."}'
   veg.garlic:
     label: allium
     summary: Picantem bulbum album cum odore intenso, fundamentum saporem multarum ciborum.
     info: Allium sativum usus est in culina pro milia annos tamquam aromatum et medicamentum. Continet allixin, quod habet proprietates antibacteriales et anti-inflammatorias.
+  veg.ginger:
+    label: cuminum
+    summary: Radix nodosa pallida utilisata ut aromate.
+    info: Cuminum (zingiber officinale) est radix plantae ex Asia tropicali originis. Continet gingiferolum quidem substantiam responsabilem acrimoniae et anti-inflammatoriarum proprietatum; investigationes demonstrant efficacietatem ad nausea et vomitus. The cumino, cervisia cumina atque paninis cuminatis sunt producta popularia.
+  veg.green_beans:
+    label: phaseolum
+    summary: Longa phaseola lupina tenera et viridis.
+    info: Lupini Phaseoli vulgari longi et tenues cum cortice viridi colliguntur antequam maturent. Etiam appellantur 'French Beans', aut 'String Beans' vel 'Bobby Beans'. Continent vitaminas C atque K ac foliculos.
+  veg.kale:
+    label: cale
+    summary: Folium coccineum undulatum; alimento optimus.
+    info: Cale scabra (Brassica oleracea var. sabellica) est folium viride tenui et nutriens cum colore caeruleo-nigrum. Est abundans vitaminis K, A atque C nec non antioxidantibus. In saeculo XXI facta est iconica alimentorum salutariorum inter vegetarianos ac culturam sanitatis.
+  veg.kohlrabi:
+    label: Cauliflower
+    summary: A vegetable related to cabbages that has rounded bulbs growing above its stems.
+    info: '{"label":"cauliflower","summary":"Vegetabilis cum tumore globoso super pediculis; cognatus cruciferae broccoli et cauloris."}'
+  veg.leek:
+    label: porrum
+    summary: Vegetabilis dulcis ex familiae alliorum.
+    info: Porrum (Allium ampeloprasum) est Allii generis species cum bulbus et folio tenero. Habet Alicinium ac vitaminas C atque K.
+  veg.lentils:
+    label: legūmen
+    summary: Leguminose pulvisculae cum tectonico proteino fonte.
+    info: |-
+      {"label":"lens","summary":"Pulverulentae lentīs semina;","info":"Lentīs sunt unum vetera fāgōrum generum quod iam mille annos colitur.
+      Pellentesque varius coloribus rubro, viridi et nigrō.
+      Sine imbibendo decoquuntur breviter quamphabeant phaseli."}
+  veg.lettuce:
+    label: cicherita
+    summary: Fractus foliatus herba utilis ad verduentas.
+    info: Cicerbita cruenta est cultus ab antiquo Aegypthio tempore et continet plus quam novemdecim quinque centum aquam; hortensium species paucis caloris unitatibus fit. Multae sunt specierunt eiusdem generis velut iceberga cichoriolum, ramosum lactuchon, lollum foliosum, butyraceum capitem aut cornua silvestris frondositas.
+  veg.lotus_root:
+    label: rhixa nelubri
+    summary: Transsectio rhixae lotosi cum formosis foraminebus ad usum culinarium Asiam.
+    info: Rhiza Nelumbi sacrosae subterranea est tuber cum foraminibus regulariter dispositis transversum sectionem revelantia. Usitatur inter cibos Asiaticorum gentium ut Sinensium et Japonicorum propter texturem crocante atque nutrimina commeata vitaminas C ac K.
   veg.mushroom:
     label: fungus
     summary: Pallidus-fuscus fungo-capillatus utilis in culinaria.
     info: Agaricus bisporus est omnium cultorum fungi saeculi communissimus. Est rutilus proteinis, vitaminis B et mineralibus; ad infinitatem ciborum usus fit.
+  veg.okra:
+    label: abdominalis
+    summary: Frutex longa viridis cum nervatura distinctiva seu 'lady finger'; elementum essentialis comitis.
+    info: Okrum (Abelmoschus esculentus), originarius ex Africa tropicali est fructus utilis qui ad usos culinarium destinatur. Utilizatur frequentiter pro preparatione cibi americanum 'gumbo', ubi texture viscosa contribuit densitati sauceariorum et liquidorum condimentorum. Transversale sectio plantae stellatas figuras efficit.
   veg.onion:
     label: cepa
     summary: Picantem bulbus stratificatus pro condimentum alimentorum.
     info: Cepa culinaris est una ex hortensibus cultis saepe iam orbis terrarum. Ad gustum alimentorum per totum mundum adhibetur et flavonoidea bactericida continent.
+  veg.parsley:
+    label: petroselim
+    summary: Herba viridis clara ut decoratio seu condimentum.
+    info: Petroseli num est multa utilis sicut aromatum et ad ornandum cibos. Continet plus vitaminis C quam pomaria cum pondere comparato. Est varietas planus vel crispa; coques magis electunt speciem plenam ob saporem fortius.
+  veg.parsnip:
+    label: parsnipus
+    summary: Alba radix cum sapore dulci et noxia.
+    info: Parsnipus est radicis vegetabilium albus et longum similis carotae ex specie Pastinacae sativae.
+  veg.peas:
+    label: fasculus
+    summary: Minuta globosa semina viridia intra stipitem.
+    info: Fasculus Pisum est leguminosae specie cultivata ab antiquitate et utilis pro experimenta Gregoris Mendelliana de hereditate inter annos MDLVI-MDCIII. Fasculi morosi comedi totus cum stipite sunt dulcioresque variantes sicut 'fasciculus suavis' sunt notabiles.
   veg.pepper:
     label: capsica
     summary: Luceat colorata hortensia cum sapore dulci aut acris.
@@ -38,7 +156,59 @@ cards:
     label: batata
     summary: Tuber subterraneum ex Solanaceis, cibus principalis multorum gentium.
     info: Batata Americae Australis Anderum origo est et inter fructus culturales maximas importantes mundi numeratur. Est fontem saccharidorum, vitaminis C ac kalii.
+  veg.pumpkin:
+    label: cucurbite
+    summary: Maximus rotundus citrinus cucurbitus qui est autumnalis culinariae symbolum.
+    info: Kabocha (Cucurbita maxima vel aut pepo) ex America originatur et β-carotenum atque vitaminis A ac C abundare fertit. Semina eius sunt bonum zinci magnesii et plantae proteini fontem.
+  veg.radish:
+    label: rada
+    summary: Parva ignava rubra radice cum gustu piccantis.
+    info: Radix rapae est rapidē crescens radicosa hortea legumīna. Parva et rubra aestiva radix usque ad album hiemālem formam mutatur ut 'daikōn'. Habet glucosinolate quibus sunt proprietates antisepticae.
+  veg.spinach:
+    label: spīnața
+    summary: Ferri plena tenebris viride herba.
+    info: Spīnața (spinācia olērea), quae ex antiquō Perſia oriatur, ferri et vitaminis plurimus est. Habet multum vitaminorum K, A, C atque folicium cum ferro. Popeye ab annō tricesimo ſcilicet propagavit hanc cibariam ut pueri nutrentur optime.
+  veg.spring_onion:
+    label: bulbus primaveralis
+    summary: Cebula tenerior cum basi candida atque caulibus verdis usitatur interdum.
+    info: Bullace prostrata est cum radice alba et caulis viridi utilis Asiae culinaria ad ornatum vel condimentis ac liquidisque utiles esse. Utiliter cruda aut cocta.
+  veg.squash:
+    label: cucurbita
+    summary: Forma variabilis hibernali utilis; fundamentale legume autumnalium cibi.
+    info: |-
+      {"hint":"variatus forma hibernalis cucurbiteae","info":"Hibernalis cucurbitaceus (cucurbita genere), includit varietates veluti butter nuttam et deliciatam atque kabochan.
+      Crustam duram creare potest mensibus protectivum; totum hiemem conservari licet.
+      In vitaminas A,C,B complexos abundat.
+      Significativa apud gentes tres sorores systemate frumento-fabae-cucurbitaque."}
+  veg.swede:
+    label: rutuba
+    summary: Radix rubroflavida magnifica; coniunctio Haegis Scottici.
+    info: "{\"hint\":\"radix purpurea-flava rotunda grande (Brassica napus)\",\"info\":\"Rutaba (Brassica napus), quae est hybridum cauli et rapae,\r\nAmerica Rutabagana nuncupatur; apud Scotos cum Haggi cohaeret firmius.\r\nDulcis atque subtiliter aromatica sapor post coccionem.\r\nEst satur Vitamine C ac fibrae; popularior bore Europae.\"}"
+  veg.sweet_potato:
+    label: betaua
+    summary: Tuber dulce aurantiacum ab arbore tropicali.
+    info: Bataua (Ipomoea batatta) ex America meridionalis origo habet et non est arundo cum patatis botanicaliter conexus.
+  veg.taro:
+    label: cassave
+    summary: Magnae farineae radices cum rubris maculīs sunt alimēnta fundamentalia.
+    info: Cassava (colocasium edulisum est tuber tropicalis cultus mille annorum decem. Est alimentum fundamentale pro Polyneam et Aethiopiam atque Asiain; Pōnum Hawaiensia ex colocasio feruentur.
   veg.tomato:
     label: tomatum
     summary: Rubrum rotundum fructus ut vegetabilis usus.
     info: Toma tum botanicē est fructus (bubula) sed culinariter sicut hortensia utilisatur. Originat ab America Meridiana et carotenum Lycopenum cumque vitam C continet.
+  veg.turnip:
+    label: raphanum
+    summary: Tuber album-violaceum rotundum; antiquus alimentum mediae Europe.
+    info: Raphanus sylvestris est tuber radicis cauli cum carnibus albis et violaceis quae similis sunt rutabage. Fuit cibum fundamentale Europae ante adventus patatis ex America Occidentali.
+  veg.watercress:
+    label: pepergrass aquatic
+    summary: Parva herba viridi tenui cum gustu acerbo ex currentibus lacunis.
+    info: Peppergrass aquatica (Nasturtium officinale) crescit in frigidis rivulis et fontibus. Gustus eius picris est propter glucosinolaetum sinalgrine quae continetur. Est abundans vitaminis C, K atque betacarotino.
+  veg.yam:
+    label: taros
+    summary: Est radix e planta diosecorearum generis maior quaedam.
+    info: Taro (dioscorum genere), est radicis genus ex Africae et Asiae regionibus tropicalibus originem capiens quae utilis alimentorum fonti sunt propter amylum abundantiam habent. Tuber taroi aridius atque amylosum esse dicitur quam colocasia comparatum cum minus dulcis sit. Unus talium tuberi usque ad septuaginta chiliara ponderare potest.
+  veg.zucchini:
+    label: kabocha
+    summary: Tyca viridi aestiva utilis ad varias culinaricas artes.
+    info: Kabocha (Cucurbita pepo), quae est cucumis elongatus et viridis aestivus, colligitur nondum maturus inter septem ac vigintiquinque centimetros longitudo habens. Originat ab America Meridionali sed apud Italiam Aeternam poposcere coepit ut cibus novus. Habet superiore tantundem aquarum partium nonaginta decimum ex toto pondere corporali suorum fructuum.

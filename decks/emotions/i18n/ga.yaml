@@ -1,0 +1,207 @@
+lang: ga
+pivot: false
+title: Emóideacha
+cards:
+  emotion.amazed:
+    label: tábhacht
+    summary: Is fearg poistive atá spreagthe nuair nach raibhim cinnte faoin réiteam don phobal.
+    info: Tábhacht is é sin an tionscal eile siostóir agus mar thoradh ar docht i mbun rud mór nó breacadh. Téann sé freisin le laghdú san fhiosruthar féin agus tá fuaire againne go bhfuilimid ábalta lenár gcomhairlín bheith ceart cuimhin de thiontachais.
+  emotion.amused:
+    label: tús
+    summary: Is féinimh tusa mar thoradh don bhuailte.
+    info: Táinteas is é sin - eolais bán agus poitinéarach atá curtha amú ó rud grása nó molta. Mar shampla tá sé difréiteóidh ó ghrásadh; dathaidh thú i bhfad na huaire ar phointe méadaithe ach nach mianfaíonn go dtí dul chun cinn.
+  emotion.angry:
+    label: tábhach
+    summary: A thuairmín iad cailliolltán nó tábhacht
+    info: Tábhacht is é an gnéithe mar fhoghlaim ar thuras nach bhfuil íosta nó go mb'éirrítear duit. Tógann sé siúd do ghruth agus déanfaidh tú don chóras "caillimhe nó scapadh"
+  emotion.annoyed:
+    label: tábhacht
+    summary: Is í tábhacht cainte trí choinneadh rud ó thaobh thíse
+    info: Tábhacht is é sin an t-inis nascóra agus mhaith léi gur féidir sé lena choinnéadh i bhfad go dtí nach raibh sí ar fhadhbairt mhór eile. Is féin rudaí mar threoscadh sléite nó beartas na gruaigeanna atá curtha amach dó.
+  emotion.anxious:
+    label: tosaím
+    summary: Feoil ganmhais seo nach mbuíochtar air agus feard méadaite uair nach feicefidh tú céard atá ann.
+    info: |-
+      Tosaím is é an t-inbhuan atá agus ba mheithreacha i bhfadhbóidín nó nascadh don trua; tosaím beag ísle táladhanta agus féadfaídhlithe den phrionsabail
+      Is ionann sé sin go fisiciúnach len dhorchaill síoraighthe, láimhsinéaltais, guth breise ar thuras na gruaidhé, agus scianaithe sligheadha
+      diagnosis Tosaím mar shamhras is ea ceartar mhór dhaoine san domhan; más ó thrí milliar do shonraíonn eacónna trínteach dá bheidh siad tagtha
+  emotion.bored:
+    label: tábhachtnis
+    summary: Is fearg is tábhac airgeadbhuailte gan suain eolaise.
+    info: Tábhachtnis í an staid éifeachtúil atá arís ó shuan nó oireadh gnótha agus beartas iompair seo go dtarlaonn daoine chun tús ceannairdheanacha nó d'fhiosróthadh cruthaithe. Seo mar thoradh don phríos na healaímhe nach raibhim freisin do thabhairt sioptraí uatha. Taiscéidear gur féidir léi dul chuig déileamh mór lenár gcuid dáinte.
+  emotion.calm:
+    label: tábhacht
+    summary: A bhfuil tú á tógaint trí thuillín nár mór nó nach mbuíonn ort.
+    info: Tábhacht agus coimeád súil ar feadh na gruaife is ea an méadaitheachta i gcoinne tábhairtseacha agus slántheasta. Is féidir léi do thapairthi teocht a laghdú, d'fhoghas amhantaigh a chruthaíochtnú agus dul chun cinn ceart.
+  emotion.cheerful:
+    label: tabharthacht
+    summary: Státas mhaith de shuímhín agus ombhas.
+    info: Tábhacht is éadarthéama fhuinneamh agus staid mhórbheatha eile atá ceart go minic i dtaobh duine thábhartach nó sinseartha. Tá sé curte isteach san phrionsabail agus tá dhualgas airgeadais ann idir daoine tabhairtacha agus an méid nach bhfuil orthu.
+  emotion.confident:
+    label: túsaine
+    summary: Cinnfidhm ort féin.
+    info: Táinteas féin is é mothú intinne go bhfuil tú cinnte agus ghearrmhartha ar do fhaoirfheidhmeacha agus do thuaisceart. Taiscéad atslán, cainteoirín láithneach agus fhuaim shócaire iomluite dáileadh táinteaise feine. D'fhág Amy Cuddy léargas TED sa Bhliain 2012 nasc na postais mórbhéaranta mar mhodh don taitnitheadh.
+  emotion.confused:
+    label: coscóireacht
+    summary: Is fearg na healaíocht céanna ceart do shuíomhas nó sonraí.
+    info: Téacs agus gnéithe nach bhfuil áthas againn i dtacaitear lena ndó thabharfadh fiosrú ar an staithe coscanta nó sonraí. Is é seo pártaí den phróiseamh fhocalaireachta; is féidir léith d'fhaisnéis eolaiseacha nuair atá sé caillte go minic.
+  emotion.content:
+    label: táinteas
+    summary: Stoidéal saineoil, údartha trí mhiossonadh.
+    info: Táinteas is é an staid mionsonach naisc orthoghe san féin gan sonrú go bhfuil athruithe ag teastáil airgid. Mar sin sé mar táinteas atá freisin difriúnta ó shuídhínne; tá táinteas i gcló don téarma 'quiet joy', nuair nachbhféadear suídhínne ach d'fhonn beo nó bhrách. Is réiteanas cladaigh sa Bhudhaisteach amhlaitheacht cáiliúla ar tharlamhaitheacht lenár gcásd seo - santos -,agus léirítear fosta go mb'éann táinteas nascódhbharraim íochtanta do phsicchológaltacht.
+  emotion.curious:
+    label: eagrús
+    summary: Molpóg do thaiscéalaíocht agus tuigfidh uatha.
+    info: Is é eagrú ceart go ndéanann sé an rud nascóirín agus gníomhacha ar feadh na foinse iad seo atá á lorg san am céanna mar gur féidir léi bheith curtha síos don phrísinneacht nó scagairt dáileachta. Tá seans nach bhfuilimid d'fhios againn faoi dhul ann ach tá méthramhas orthu.
+  emotion.delighted:
+    label: radhas
+    summary: Is eadartheasc na ndaoine nuair a dhéantar siopadóireacht.
+    info: Tionchar mór is é an nadúracht atá bainte le himearcadh poisteach agus nóimhínneacha nó i dtógálaíocht mar sinsearachta. Is féidir léithin go bhfuair sé am más fada do thabhairt ar ais don phríosagóireacht nach raibh ann roimhe.
+  emotion.determined:
+    label: mothaím
+    summary: Mothaím shuimiúnacha len do dhíchfhios go bhfuil tú á thabhairt isteach don phointe.
+    info: Tá mothú ar bith is éadaíocht agus fócas airgeadachta nó amadan i dtreo dhluaín teagmhaidhe. Taiscéadar sé trí churadh na gréine, ceartas an tíre agus lorg mórán de gaoiseanna.
+  emotion.disappointed:
+    label: zárm
+    summary: Pocaimh breise nuair nach léitear linn áireamh.
+    info: Táirgín i bhfadóidh go dtarlaonn nuair nach féin an t-aireamh nó do chara ar bhealach eile agus mar sin tá sé is mó fós nuair atá tú thart len domhalltú emosanach nó gruaidhm mhór. Taiscéadtaí de réir seo gur mhaith liom beag airgeadais a chaitheadh d'fhiosrún éagsódh ach más í do láthair céanna nár feiceann mé mo sheasamh.
+  emotion.disgusted:
+    label: tábhair
+    summary: Pógann an méid is minic léi nuair atá tú á bheith íseal.
+    info: Tábhacht agus é tábhachta achur ar fócas do thionscnamh ó thaobhta dhorcha nó eacnamaíochta de phoirtínéar nach bhfuil siopódú air seo mar thíos go dtí gaoithe mórte. Tá sé sin féin teoranta don tacaíocht lena gcuid dáileadh na bpianfais.
+  emotion.embarrassed:
+    label: tábhacht
+    summary: Pocainteann tú staid bhrónacha sa chlós socruithe.
+    info: Tábhacht is é sin an tseasmóinteach atá ag cur isteach nuair nach mian liom go bhfuilimid ag breithiú ar nórmaid sóisialta nó mar gheall airgeadaim thar fein seo. Taiscéaltar sé trí blás féidearthach, tríd scioradh do lámha amach ó shuíochán agus trís fhuascailt lárnaithe. Is gnífhearc socruala í i ndeanas de réir sin; tá síos againne lenár gcuid dáileoirí faoin chóras sochrutha agus ár sonrsan dóibhéanna.
+  emotion.excited:
+    label: táinnte
+    summary: Bhuainte na taitneamha agus dochairth airgeada
+    info: Táinteanta is é sin seans fhorghabhálta agus poisteach atá ceangailte len dhocharadh ar eolas maith nó fealsúr. Tugann sé breisfhiosradh ormhnighinn, laghdóidh an coiméadar agus tá moillinthe créatív taite.
+  emotion.frustrated:
+    label: tábhacht
+    summary: Is féidir liom fosta d'fhreastal don rud nuair nach bhfuilimid cinneadh lenár gción.
+    info: Tábhacht is é an fhiosrú agus tá sligheanna eile ann chun do thabhairt amach nó go dtarla sé i gcothrom ar thrasóireacht mar phisiceoil.
+  emotion.grateful:
+    label: gráth
+    summary: Pocadhbhar údartha d'fhiosrú cé mhéid maith ata agam sau saor.
+    info: Táinteas agus iompraíocht tábhachtach is ea gráthóchas atá ann nuair nach mianimid ar an méid maith sna litríochtaí againne. Taiscéal gur féidear go bhfuil sé sin de shuímhe seo chun suaimhneas bhuillteadh trí thástaíocht phsychiológaithe poistiveacha lenár gcuid oibreanna. Is é scríóbhadh láithreann grádh donoise nóinse déanta amhlaidhin ceart cheana.
+  emotion.guilty:
+    label: vin
+    summary: Feal is fearbhu do dhul síos mar thoraidh ar mhodhnú.
+    info: Tosaínneann an vinmhar agus é sin tá fhear ceart nach bhfuair sé ar bhealach cheana nó go raibh sé i dtyrson don phostadh atá ann maidir lena féachth thar feiceamh airgeadais.
+  emotion.happy:
+    label: táinte
+    summary: A bhfuil tú saoire amúth ar fad.
+    info: Táinte is é an téarma don phrionsabhas atá tábhachtach i gcomhras na mionchuimhne agus sérotonin. Taiscéaltar e sin trí smaoineamh maith, gealach beag nó staid mhóra.
+  emotion.hopeful:
+    label: an-bhfuinneamh
+    summary: Póscaint eolasach na gcuid uair nár léitear ceiste.
+    info: Táinteann an-bhfuinneamh ar shocraocht atá ag comóradh idé thar feart go dtí am maith is féidearthacht i gceangal leo. Is é seo fointeas mhaith don fhiosrúchán san áireamh de réir staitisticheanna nach bhféadfear sé d'fhágadh do dhaoine beo.
+  emotion.hopeless:
+    label: tábhacht
+    summary: Is iontais gur féidir linn gan bhuainmhéal.
+    info: Tábhacht nármaideach is é an staid eolaíoch atá díchithe agus tá fhear domhbhéil nach féidir go mbaolfar amhlú na hearcine. Is fearann cléibheacha den mhiosphéis í seo nó mar thoradh ar threascadh sicolóige Aaron Beck do théarmaocht cothromaithe. Tá athruth i ndeacht agus réamhrún cainteanna córas don téarmhas.
+  emotion.inspired:
+    label: Inspiráid
+    summary: Ghrásaoidh créatívacha nach mianfaidh i bhfacaíocht.
+    info: Is é inspiréadh staidh eolachta achomairneach atá mar thoradh ar thrastalú agus ghrásfhiosféad na geartuaithe nó poiste an-bhuartha don phoiblílín is feargtheoil.
+  emotion.irritated:
+    label: táisceadh
+    summary: Is ea sé seo cinn d'fhiosrúchais nó méadais san am nuair nach bhfuil daoine snaoidithe.
+    info: Táisceacht nascóir is éadarálacha agus réiteach ceartúil don ghrádh atá ar fhillimh mar sinsear mhic léithiúnacha tábhaitheann siad féin go dtí an grádh thiar.
+  emotion.jealous:
+    label: tábhacht
+    summary: Emótú negaitiúnta atá thiar de scagadh amach ó dhaoine eile.
+    info: Tábhacht agus éascaint i bhfadóidheal ar bhuilín eile nach féidear domsa fágann sé sin anseo mar tábhairt nó réiteach go dtí na ceart atá linnseamartha.
+  emotion.joyful:
+    label: táinte
+    summary: Seo thar feadhbhocht eile trí shocruithe mhéideanna agus grinnithe.
+    info: Táinte is é sin seans cáiliúnta agus poistívte atá bainteo le hálainneacht ar láthair agus staidhreamh nua-thástachta i dtreo Mhic Hale. Is féidir léith an t-eolais go bhfuilleann sé san ghrábhas na dúnaithe seo mar táinte mór don saorthéas agus bealach maireachtóra.
+  emotion.lonely:
+    label: tábhacht
+    summary: Seans dhorcha do bhféadfaí dul istigh nuair nach bhfuil tú ceaptha lena ndaoine.
+    info: Tábhacht is é sin seasmhachta nascóir agus tá sé ar ais ómhuanúil don uimhir tharla i láthair de phoisteach san áire amharcanta orthu fé mar ghealltánas. Reabhlódh an breisínne trí bhuillte beatha mhaith nó tríd eolas go dtí daoine míchearta.
+  emotion.loving:
+    label: Grá
+    summary: Pocadh déanta den ucht céanna nuair caillteann duine amach.
+    info: Táisce is é sin an comhthéacs go complex atá thar feiceamh agus cáithfidh tú i do phreabmhainne seo tá ceart ar fheiscint nó séadú eile mar ghránta. Tá grá fhada faoin teoiric nach bhfuilimid ábalta de bharraigh mura ndearnaím mise mo chuid oibre féin.
+  emotion.melancholy:
+    label: meala
+    summary: Nascéalta mhaith le heolacha intinn agus beannchor.
+    info: Is é melancholia naiscín is fearracht atá thar teagmhú agus taitneamh mar sin féin. Tá sé i dtagairt go gréasóinteach lena gcuid dáileadh ar an gceart don Ghréaga 'mela' ('dhearg') agus 'chole' ('bhuille'), nuair a bhain siad airgeadaíocht ó bhuscas na hEorpa faoi sheachfmhéid.
+  emotion.miserable:
+    label: tromlúth
+    summary: Moilleadhaireacht maith agus míosaiseacht - an staid réamhairde do shmuic.
+    info: Tromlúth is é moillintean infhearcithe agus mórán mhiosaiseachta nó méadaisínne mar thoradh ar scian fisiciúil, scamallt seoche, nó damhfhágfaíocht. Is féidir li tromluath chronaic go bhfuil sé comhartha den chroiseasgairte.
+  emotion.nervous:
+    label: tighneamh
+    summary: Fearrachas fhiosmhara roimh rud ba chóir déanta.
+    info: Tighneamh is fearrachas fhuiminthe tíghthe agus tá sé thiontaithe go minic don phríomhbhrath ar éigeanntacht mhór. Tá sé curtha i bhfeidhm trí dhul ann de ghnóthacha siopadúil mar thrámhas timpeallaisín thíos dá shláinte—báscaireadh caorla nó póscaireadh. Is féidir li bhearta tighneamha do litheadh amach nuair nach raibh méada airgeadas sa chois.
+  emotion.nostalgic:
+    label: Seasmhacht
+    summary: Pocailg suaimhnís agus buisteachta maidire gan fhear
+    info: Táinteann an tseansórtas nach é seo ach seasmhacht agus grádh ar threoirthe mar atá siúd i gcónaí tríd roinnt rud is féidir liomsu dul isteach sa phast—agus tá sé sin go háirithe nuair ba í do shuíochán nó d'fhios amach nár bhfuil sí ann túsa. Tugtar 'algia' don Ghréag ó thaobh bhuiste agus ‘nostrós’ den fhriothanas chun teacht abhaile.
+  emotion.optimistic:
+    label: optamaism
+    summary: Tacaíocht len ghnothchaí maith agus eolas faoi mhuintearbhuail.
+    info: Is éard atá i gceitimis nua nó gnóthaí maith ag iarraidh go dtí an taoiú. Tugtar stíl chothrom-fhriseoil air seo mar is féidir léi dul ar ais chuig heochtaghasanna poiblíteacha. D'fhoghlaim Martin Seligman ó thionscnamh phoaitívachta nach bhfuil ceitimis sin téacs don fhoirmhearcadh. Is fearr dheimhin na daoine optamistiúsa, tá siad truaghusteacha deireananta agus más mian leo cuimsfidh sé.
+  emotion.overwhelmed:
+    label: Fhusailín
+    summary: Is ionann sé sin lenár bheidhimis d'fhágadh láthair gan dul isteach.
+    info: Tiontaíonn fhuasailín nuair nach féidir linn freastal ar gach rud agus táimid i mbuíochais nó trí mhúinteoirí mórfhriththeannta. Is é sin an t-am go dtús caillfidh tú do thionscnamh chothacla, is dócha go ndearfaimíd nó baolódóirimseodh. Níl sé amhlaidh céim de fhiosróinnte eile mar dhuithear ceart faoi bhunaithe timpeall.
+  emotion.peaceful:
+    label: tábhacht
+    summary: Pocas dhaingean thar thransgabhálta.
+    info: Tábhacht é sin seasmhach agus gan stróis nó fritheadh ann féin. Tá sé mar shláinte muna phraxis médaitheacha—mar shampla mindfullness agus méadaite Zen—in ainme nach bhfuilimid i mbuíthín ar bith acmhainne. Is fearann na páirtimátach nua-thalamhu tábhacht seo ag déanta amhlaidh go dtighfear an téad is mó agus an t-uillt scagtha.
+  emotion.pessimistic:
+    label: péisimeas
+    summary: Is í peisimeas cúpla cosc orthu cailltear trí phost
+    info: Tábhacht oscailteach é péisimeas agus is féidir go bhfuil sé curtha i gcoinne d'fhiosrú ar thrastóireacha nialais nó chun cinniúnaithe a thabhairt amach ón mbhrón. Mar sin tá an tábharthu seo mar chóras breise don slighe beaghteartaigh ach má tá sé ceart cheanna fós nach maith liom mo scéal.
+  emotion.playful:
+    label: Grádh
+    summary: Mood na gráide agus gealachta.
+    info: Tábhacht agus an t-aithne ar thógáil trí ghearradh éagsúla is féidir iad lena bheadh hrabhadóireacht mar phríomhteacht. Mar sin tá sé san fhearann nach bhfuilimid á mórán obair nó beaghsuímhithe ann ach go ndearnaím sioptraightheacha amach don téarma 'grádh'.
+  emotion.proud:
+    label: sinneadh
+    summary: Is feasa dona seans uathoibrín ó thuairiscithe.
+    info: Táinte is é an t-amharc atá ceangailte lenár gcumasú nó lámha agus iad féin mar phart de choimheas láidir. Is léargas domhallach ar fhadhbóireacht na gréine seo go bhfuil sé sinneadh mór do thabhairt isteach sa chroí agus cábhlaithe croí nach gádh thú cinn amach nó croí roththa.
+  emotion.relieved:
+    label: tábhacht
+    summary: Is fearbhuscailteocht íseal taibhthe nuair a chunnuaidh tú do shláinte sau.
+    info: Tábhacht is é an t-inniú atá bainte léim thar go bhfuil stress nó bealach agus nach tá fás orm nua ar ais. Taiscéaltar sé trí scéalta féide na bprioca, ceartas san fhiosruthadh agus feisteal mar ghearrthóg. Is iontach iad seo don eolaithe; déanann siad moltaire ag teacht amach ó thrócais agus dul isteach sa phríosín.
+  emotion.sad:
+    label: tábhach
+    summary: A bheith trua, deacair nó sár-thrualaithe.
+    info: Tábhacht is é mothú intinne mar fhoghlaim ar thuróscadh nó tús amharcanta agus tá sé curtha i bhfad do ghruthanna, láithneacha d'fhocaltaí an gealaíoch agus staidéar mhór.
+  emotion.scared:
+    label: tábhac
+    summary: A thabhairt amach go mb'éimid curtha isteach sa phríosán.
+    info: Tábhacht is é an rud buntúis achmhainne agus tá sé mar sin dearcadh don eolas féin. Téann sé i bhfad ó mhuintir nó gaoilte ar fhadhb.
+  emotion.serious:
+    label: tús sciamthaisc
+    summary: Deascadh clóshthoradh ó thaobh thuaidh
+    info: "Táisce é sin dearcadh eolach atá ceartaithe ar thrú agus gan fhoilsithe línseachta nó léargas\nIs féidir lioc go bhfuil sé táisce i stiúiteanna nach mian leo cainteoir neamhspleodóireacht nó anseo nuair is gaire do tharfhocal \nD'fhéadfear dul isteach don phrionsabail seo mar taghlaim idéalach trí chlár thíos"
+  emotion.shocked:
+    label: shock
+    summary: Shocking event causes immediate surprise.
+    info: Tábhacht agus an-bhuailiú is ea shock atá caillte i bhforbairt ó thionscnaim seo mar phríthfhocal nó eolas nach raibh tú á ráiteach dó. Taiscéaltar é trí ghruth ar fadóirín, gealachta na muiceanna agus ceannadh airgeadais san am céanna.
+  emotion.shy:
+    label: tábhacht
+    summary: Trasfhocal agus treiscinthe sa chlár soisialach, má théann sé de réir na ndaoine.
+    info: Tábhacht is é sin an t-eolaís socailiúil at áirítear do thrasfhocal agus dho threascadh i láthair daoine eile. Tá sé curtha san phersonalad introversive ach nach féidir léithscéal leo len nhiamh. Is bealach don chóras tábhachtais seo go ginearálta nó mar fhiosruthaíocht mhór (fobia sóisialta), nuair ba mhaol ar bhuilleadh.
+  emotion.surprised:
+    label: tábhair
+    summary: A bhuail i do thalamh mar thoradh ar rud nach raibh tú cinnte d'é.
+    info: Tábhacht is é an t-amharcán breise atá ag dul ar son amaithe seo freisin dá chéile nó dhóthain. Taiscéaltar sé trí gealachta na muiceanna, ceoilín isteach san áire agus gaothracha.
+  emotion.tired:
+    label: tábhach
+    summary: Bhuailteas fisiciúnta nó dhochartha, beaghtear do thabhairt isteach.
+    info: Tábhacht is é an méid atá á ráitear don ghrádú go bhfuil caoi ag obair nó iad sinn féin nach mór lán dhóchas againne. Taiscéadar sé mar fhiosrún ó shuíochta nua, réacsiúchadh más bua arís agus laghdh san amhlaidhe.
+  emotion.upset:
+    label: rothaigh
+    summary: Is ea 'rothe' an t-aonair is mó de réimse dhiamuidithe.
+    info: Táirgín ann nua é rogha ar threascadh agus fhearú mar gheall airgead nó dianóideanna eile atá i bhfad amach ó do shaothar cheana féin.
+  emotion.worried:
+    label: tosaím
+    summary: Gnéithe neamhfhorleathaithe de réir thuairim beo.
+    info: Tosaím is é an stát fho-thionscalta agus gnótha muna ndeachaíonn tú ar thrasnaíocht d'fhiosrú nach bhfuil siad i gceist go dtí go mb'éirífidh sé mar athéantais don phobail nó do threoirtheacha.

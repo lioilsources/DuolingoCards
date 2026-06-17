@@ -2,6 +2,30 @@ lang: id
 pivot: false
 title: Hewan Ternak
 cards:
+  farm.alpaca:
+    label: alpaka
+    summary: Hewan kerabat llama yang lebih kecil dan dibesarkan untuk wolnya.
+    info: Alpaca adalah hewan berkaki empat dari kelompok unta liar di Amerika Selatan dengan bulu halus sangat terkenal karena kualitasnya tinggi—hangat, anti-alergenik serta bahkan lebih lembut daripada bahan kasimir. Terdapat dua jenis utama yaitu huacayas berbulu bergelombang atau suriyas memiliki tekstur seperti sutra.
+  farm.barn_cat:
+    label: Kucing gudang
+    summary: Seekor kucing domestik yang dipelihara di pertanian sebagai pemburu hama pengerat.
+    info: Kucing gudang adalah seekor kucing rumahan hidup dalam lingkungan agraris tempat ia berburu tikus dan kelelawar untuk mengendalikan populasi mereka serta melindungi persediaan bahan bakaran ternak maupun biji-bijian dari kerontangan oleh binatang pengeret ini. Kucing jenis ini biasanya kurang terbiasa bersosialisasi dengan manusia dibandingkan kucing peliharaan pada umumnya.
+  farm.beehive:
+    label: kotak sarang lebah
+    summary: Konstruksi kayu yang berfungsi sebagai tempat tinggal buatan bagi lebah madu.
+    info: Kotak sarang adalah rumah buatan untuk koloni lebah Apis melliferum dan menggantikan lubang pohon di mana lebah liar hidup. Satu koloni biasanya terdiri dari sekitar 50 hingga 80 ribu ekor lebah. Setiap tahunnya setiap koloni dapat memproduksi antara 20 sampai 30 kilogram madu.
+  farm.boar:
+    label: babi jantan
+    summary: Jantan babi liar atau ternak.
+    info: Babi jantan adalah individu betina yang tidak dikasiro dari spesies babi rumahan maupun hutan (sus scrofa). Di peternakan mereka dipelihara untuk reproduksi dan sperma digunakan dalam inseminasi buatan. Babi jantan liar memiliki gading besar serta bersifat sangat defensif secara aggresif.
+  farm.calf:
+    label: anak sapi
+    summary: Anakan kerbau atau sapi hingga usia satu tahun.
+    info: Sapi anak adalah bayi ternak dari kelahirannya sampai dipisahkan dari induhnya atau berusia setahun. Bayi sapinya biasanya bisa bangkit dengan cepat karena naluri ibunya yang kuat. Anak-anak sapi yang dibesarkan untuk produksi susu sering kali diperpisah lebih awal dari sang ibu. Daging anakan sapi disebut veal dan dianggap sebagai hidangan istimewa dalam banyak jenis kuliner Eropa.
+  farm.carp:
+    label: karper
+    summary: Ikan air tawar besar yang merupakan hidangan Natal tradisional di Ceko.
+    info: Karper biasa adalah ikan terbesar yang dipelihara dalam kolam cekoslowakia dan tak pernah dilepaskan dari liburan Natal di negara tersebut. Ia didomestifikasi pada abad pertengahan khususnya di Bohemia dengan sistem tambakan Trebon sebagai contoh utama. Karper omnivora ini berkembang biak cepat serta bisa mencapai berat lebih dari 30 kilogram.
   farm.chicken:
     label: ayam
     summary: Burung ternak penghasil telur.
@@ -10,6 +34,10 @@ cards:
     label: sapi
     summary: Hewan ternak besar yang menghasilkan susu.
     info: Sapi domestik dibesarkan untuk daging dan susunya. Salah satu sumber makanan utama di seluruh dunia; sapi perah dapat menghasilkan hingga 20–30 liter susu setiap hari.
+  farm.deer:
+    label: rusa ternak
+    summary: Rusa atau rusa merah yang dipelihara di peternakan untuk daging liar.
+    info: Di Ceko, daanek ataupun rusa dipelihara dalam kebun binatang serta pertanian guna menghasilkan makanan dari satwa liar ini.Daanek lebih kecil daripada eland biasa dengan tanduk unik bergerigi.Rantai tanduknya berganti setiap tahun secara alami.Masakan hasil pembiakaannya menjadi pilihan sehat sebagai pengganti daging sapi.
   farm.donkey:
     label: keledai
     summary: Hewan kerja telinga dengan langkah yang dapat diandalkan.
@@ -18,19 +46,202 @@ cards:
     label: itik
     summary: Burung air dengan paruh datar yang dipelihara di peternakan.
     info: Itik rumahan adalah unggas yang dipelihara untuk daging dan telur. Ia dapat berenang dengan baik karena memiliki selaput antara jari-jarinya dan mengeluarkan suara karakteristik seperti 'kwak'.
+  farm.emu:
+    label: ternak burung cenderawas
+    summary: Burung cenderawasa yang dipelihara untuk minyak, daging dan kulit di Australia.
+    info: Di Australia, orang mempelihara burung cendrawas meja ternaknya karena nilai ekonominya berupa daging, minyak dari gembelnya—yang digunakan dalam kecantikan—and juga kulitnya sendiri. Minyak ini memiliki sifat anti-inflamasi sehingga banyak dimanfaatkannya baik pada pengobatan tradisional maupun moderen saat ini; usaha peternakan jenis unggas langka tersebut semakin berkembang pesat hingga mencapai Amerika Serikat serta Eropa.
+  farm.farm_shrimp:
+    label: udang tambak
+    summary: Udang laut yang dibudidayakan secara intensif di kolam pesisir.
+    info: Lebih dari setengah udang dunia berasal dari budidaya jenis Litopenaeus vannamei ini karena pertumbuhan cepat dan adaptabilitasnya tinggi terhadap lingkungan berbeda-beda seperti air payau maupun air tawar.
+  farm.foal:
+    label: anak kuda
+    summary: Anakan kuda di bawah usia satu tahun yang dapat berdiri dalam beberapa jam setelah lahir.
+    info: Anak kuda adalah bayi hingga umur satu tahun pertamanya. Dalam waktu hanya beberapa jam sesudah dilahirkan mereka sudah bisa bangkit dan mulai menyusu air susu ibunya sendiri.
+  farm.freshwater_crayfish:
+    label: udang sungai
+    summary: Korupung air tawar yang dipelihara sebagai makanan enak.
+    info: |-
+      Udang sungai dulu sangat umum di Ceko tetapi hampir punah karena wabah penyakit dan pencemaran air.
+      Sekarang dia dibudi daya dalam peternakan khusus.
+      Dia adalah penunjuk kebersihan air—hanya hidup di aliran air bersih.
+      Pada abad kesembilan belas ekspor udang dari Ceko menuju Prancis dan Jerman merupakan bisnis besar.
+  farm.garden_snail:
+    label: snail garden
+    summary: Cacing tanah besar yang dimakan di kuliner Prancis sebagai escargot.
+    info: Snail gardener adalah cacing daratan terbesar di Eropa dan merupakan hidangan penyetan berharga dalam masakannya disebut escargot. Ia menghabiskan musim dingin dengan menyembunyikan dirinya serta menutup kerangnya menggunakan membran hibernasi bernama 'hibernacula'. Budidayanya dikenal sebagai heliciculture dilakukan di negara-negara seperti Perancis, Italia, maupun lainnya.
   farm.goat:
     label: kambing
     summary: Hewan ternak berjumbai yang menghasilkan susu enak.
     info: Kambing domestik dipelihara untuk diambil susunya, dagingnya, dan bulunya. Hewan ini sangat adaptif dan mampu bertahan hidup dengan berbagai jenis tumbuhan termasuk daerah kering.
+  farm.goat_dairy:
+    label: kambing perah
+    summary: Hewan ternak yang dipelihara untuk menghasilkan susu digunakan dalam pembuatan keju dan yogurt.
+    info: |-
+      Domba jantan telah dijinakan lebih dari sepuluh ribu tahun silam dan merupakan salah satu binatang peternakan terluas tersebar.
+      Susu dombai tinggi nutrisi serta mudah dicerna dibanding suku sapi; cocok bagi orang dengan ketidakcukupan lactose intolerance
+      Keju seperti Keferre atau Fetta juga dapat dibuat menggunakan bahan dasar ini.
+  farm.goose:
+    label: orang mandarin
+    summary: Burung unggas besar yang dipelihara untuk dagingnya, bulu sayap dan bulunya.
+    info: Orang Mandarinkaya berasal dari bebek liar lebih dari tiga ribu tahun lalu. Ini adalah salah satu hewan ternak pertama; di Roma kuno mereka menjaga Kapiol.Capitole. Mereka sangat dicari karena hati beku, daging panggang tetapi juga foie gras. Bulu bebek digunakan sebagai alat tulis tradisional.
+  farm.guinea_fowl:
+    label: burung puyuh
+    summary: Burung dari Afrika yang dipelihara untuk daging dan sebagai pengusir ular.
+    info: |-
+      Puyuh berdasi berasal dari Afrika tempat ia hidup liar di sabana.
+      Pada peternakan dia sangat bernilai karena mampu mengamati lingkungan sekitarnya dengan suaranya yang keras sehingga dapat memperingatkan kehadiran buaya atau manusia asing.
+      Ia memiliki bulu abu-abu bertotol putih serta kepala merah-biru tanpa bulu.
+      Dagingnya mirip rasa burung berkicau.
+  farm.guinea_pig_farm:
+    label: tupai guinea
+    summary: Tupai guinea dipelihara untuk diambil dagingnya atau sebagai hewan peliharanan.
+    info: |-
+      Keluarga tupai guinea berasal dari Pegunungan Andes yang telah dikembangbiakkan oleh suku Inkas lebih dari tiga ribu tahun lalu sebagai sumber protein ternak.
+      Hingga sekarang masih menjadi bagian penting dalam kuliner tradisionil negara-negara seperti Perú dan Kolombia dengan nama 'cuy'.
+      Pada wilayah Eropa serta Utara Benua Amerika ia juga sangat diminati karena sering digunakan anak-anak sebagai temannya.
+  farm.highland_cattle:
+    label: sapi Skotland Tinggi
+    summary: Sapi berambut cokelat panjang dengan tanduk besar dari Skotlandia.
+    info: Highland Skotlandia adalah ras sapi tua yang dibesarkan di lingkungan keras pegunungan Skotlandia. Rambutnya yang panjang dan bercorak merah memberinya perlindungan terhadap kelembapan serta dingin. Ia lebih kuat dan kurang rentan pada penyakit jika dibandingkan jenis lain.
   farm.horse:
     label: kuda
     summary: Hewan ternak kuat yang digunakan untuk berkuda dan bekerja.
     info: Kuda domestik (Equus ferus caballus) selama berabad-abad menjadi penting dalam transportasi, pertanian, dan perang. Kini hewan ini juga dikembangbiakkan untuk olahraga dan rekreasi.
+  farm.lamb:
+    label: anak domba
+    summary: Anakan domba yang berusia kurang dari satu tahun dan menjadi simbol musim semi serta ketidakbersalah.
+    info: Anak domba adalah anakan hewan ternak dengan usia di bawah setahun. Ia lahir dalam kelompok kecil atau secara tunggal dan mulai memperoleh susu ibunya beberapa hari pertama hidupnya. Dalam agama Kristen anak domba melambangkan kesucian jiwa manusia maupun Yesus sebagai Sang Kambing Suci.
+  farm.llama:
+    label: lama
+    summary: Mamalia dari kelompok unta di Amerika Selatan yang dipelihara untuk wol dan sebagai binatang bawaan.
+    info: Alpaka adalah mamalia berbulu halus dari kawasan pegunungan Andes yang telah dibudidayakan oleh suku Inkas lebih dari lima ribu tahun silam. Hewan ini menjadi pengguna utama dalam kekaisaran Andes karena mampu membawa beban seberat sampai dengan sepertiga bobot tubuhnya sendiri. Bulunya sangat bernilai tinggi akibat sifat isolasi termal alaminya.
+  farm.mule:
+    label: mule
+    summary: Hibrid sterilen antara keledai dan onta dengan ketangguhan serta daya tahan luar biasa.
+    info: Sebuah melek adalah hibrid hasil persilangan antara seekor betina kuda atau jantan unggas yang disebut 'klisen' dan onta ('donky'), sedangkan perkawinan berlawanan dinamakan 'mul'. Ia tidak subur tetapi sangat tangguh, kuat, dan penuh stamina. Mele memiliki kemampuan navigasi di medan alami yang baik dan lebih hati-hati dibandingkan kuda secara umum.
+  farm.mussel:
+    label: kerang
+    summary: Kerang laut yang dapat dimakan dibudidayakan di lautan dengan tali.
+    info: Lautan kerang adalah spesies moluska dua cangkul yang banyak dipelihara dalam tambak-tambak di pesisir Atlantik Eropa. Ia dibudidayakan pada talinya atau raknya dan hidup berdasarkan pasang surut air laut. Kerang ini menyaring air sehingga menjadi produk ramah lingkungan dengan karbon rendah.
+  farm.ostrich:
+    label: burung unta ternak
+    summary: Burung unta yang dipelihara untuk dagingnya, bulunya dan kulitnya.
+    info: |-
+      Unta adalah dua kakinya tercepat di dunia dan dibudidayakan pada peternakan karena daging, bulu serta kulitnya.
+      Daging burung unta berwarna merah seperti sapi tetapi dengan kadar lemak dan kolesterol lebih rendah.
+      kulit dari unta sangat dicari dalam industri peralatan mewah.
+  farm.ox:
+    label: banteng
+    summary: Sapi jantan yang dikastrasi menjadi hewan tarikan pertanian terpenting secara historis.
+    info: Seekor sapi adalah binatang ternak betina atau jantan dewasa yang telah dikastras untuk digunakan dalam pekerjaan berat di bidang agraria dan perkebunan. Selama ribuan tahun ia merupakan sumber tenaga utamanya bagi petani dari seluruh dunia karena kekuatan serta kesabarannya melewati tanah pada masa awal pengembangan sistem pertanian tradisionil.
+  farm.oyster:
+    label: kerang budidaya
+    summary: Cacing laut yang dibudidayakan di lautan pesisir menggunakan tali atau kandang.
+    info: |-
+      Kerang dipelihara dalam air teritorial pantai dengan cara menggantungnya pada talinya atau memasukkannya ke dalam keranjang jaring;
+      dewasa setelah usia antara 3 hingga 5 tahun.
+      Ia menyaring dan membantu membersihan lingkungan maritim dari polusi,
+      sedangkan jenis berlian seperti kerang mutiara adalah sumber alami permata.
+  farm.peacock:
+    label: merak merah
+    summary: Burung jantan yang dipelihara di kebun dan ladang untuk dekorasi.
+    info: Merak adalah burung endemik India dengan ekor berwarna mengkilap dari spesies Pavo crisatus. Jantannya membuka lebih dari serATUS buluh indah menjadi payung megah saat menarik betina. Suarnya sangat keras dan nyaring.
+  farm.pheasant:
+    label: bebek peternak
+    summary: Bebek yang dipelihara di pertanian dan dilepaskan untuk berburu.
+    info: Beberapa bebek betina dibudidayakan secara intensif karena dagingnya yang enak digunakan dalam hidangan mewah.
   farm.pig:
     label: babi
     summary: Hewan ternak berwarna merah muda dengan hidung rawan.
     info: Babi domestik adalah hewan ternak cerdas yang dipelihara untuk dagingnya. Babi omnivora dan dapat mengingat tugas-tugas kompleks.
+  farm.pigeon_farm:
+    label: merpati piara
+    summary: Merpati yang dipelihara untuk dagingnya (sprootje merpati) atau balapan terbang.
+    info: Merpati rumah adalah bentuk merpati batu yang telah dijinakkan melalui seleksi alami dan pemuliaan menghasilkan berbagai jenis dengan ciri unggul tertentu seperti kecepatannya dalam menempuh jarak panjang secara cepat hingga mencapai lebih dari seratus lima puluh kilometer per jam.
+  farm.piglet:
+    label: anak babi
+    summary: Anakan dari hewan babi yang biasanya berwarna merah muda dan aktif.
+    info: |-
+      Babi anakan adalah bayi babi domestik dalam minggu-minggu pertama kehidupannya.
+      Bayi-bayinya sangat kecil saat lahir tetapi berkembang dengan cepat.
+      Betina beterbangan menghasilkan sekitar sepuluh sampai dua belas anak per kelahiran.
+  farm.pony:
+    label: ponik
+    summary: Kuda berkaki pendek yang populer untuk dikendarai anak-anak.
+    info: Poni adalah jenis kecil dari hewan kudan dengan tinggi maksimal sekitar 14,2 hasta di bagian bahu atau kurang lebih setara 147 sentimeter. Poni Selandia merupakan varietas terkecil dan berasal dari pulau-pulau Skotlandia bernama Shetlands. Mereka memiliki tubuh kuat serta tahan pada kondisi buruk.
+  farm.quail:
+    label: burung puyuh Jepang
+    summary: Burung kecil yang dibudidayakan untuk telur dan daging.
+    info: |-
+      Puyuh Jepang adalah jenis burung puyuh piaraan yang dipeliharan secara intensif karena telurya maupun dagingnya.
+      Pembawa betina bertelur hampir setiap hari; telor-telor ini dihargai tinggi dalam banyak kuliner.
+      Mereka mencapai masa dewasa dengan cepat—telah mulai bertelur pada usia enam minggu saja.
+      Di Jepang mereka juga dikembangkan sebagai burung berkicau, dimana budaya pemeliharannya sudah menjadi bagian dari warisan lama.
+  farm.rabbit:
+    label: kelinci
+    summary: Kelinci rumahan dipelihara untuk dagingnya, bulunya atau sebagai hewan peliharaan.
+    info: |-
+      Kerbau kelinci telah dijinakkan pada abad pertengahan dari spesies liar Oryctolagus europaeus.
+      Ia memiliki lebih dari lima puluh ras yang tercatat dengan perbedaan ukuran tubuh dan warnanya serta jenis rambut.
+      Pembibing betina dapat melahirkan antara empat sampai dua belas anak dalam satu kali keguguran setiap tahunnya.
+      Di Eropa, kerbau ini merupakan binatang piara ketiga favorit sesudah anjing dan kucing.
+  farm.ram:
+    label: domba betina
+    summary: Hewan yang merupakan induk dari spesies Ovis orientalis dengan ciri khas tidak memiliki atau hanya sedikit memilikinya.
+    info: Betina adalah hewan dewasa dari jenis kelamin perempuan dalam populasi ini dan biasanya lebih kecil ukurannya dibandingkan individu lainnya di habitat alami mereka seperti pegunungan tinggi Asia Tengah.
+  farm.rooster:
+    label: jantan ayam
+    summary: Jantan ayam domestik yang mengumandangkan fajar dengan berkokok.
+    info: Ayam jantan adalah laki-lakinya unggas rumah tangga dan bisa diidentifikasi dari bulunya yang warna-warni serta adanya karang hidungnya. Berkokok merupakan bentuk perilaku territorial dan tidak hanya dilakukan saat matahari mulai naik tetapi juga sewaktu-waktunya.
+  farm.salmon:
+    label: salmon
+    summary: Ikan laut besar yang berenang ke sungai untuk bertelur dan secara luas dipelihara di tambak.
+    info: Salmón adalah ikan anadroma—ia berkembang biak di lautan tetapi kembali ke aliran air tempat ia dilahirkan saat mencapainya dewasa seksual melalui migrasi intensifnya menuju daerah reproduksi spesifik dalam jumlah banyak setiap tahun.
   farm.sheep:
     label: domba
     summary: Hewan ternak berbulu yang menghasilkan wol dan susu.
     info: Domba rumah dijinakkan untuk wol, daging, dan susunya. Mereka hidup dalam kawanan dan merupakan salah satu hewan pertama yang dikembangbiakkan manusia.
+  farm.sheepdog:
+    label: anjing penggembala
+    summary: Anjing yang dilatih secara khusus untuk mengatur dan melindungi gembok.
+    info: Koli Perbatasan adalah anjing penggembala terpopular; mereka dijinakkan karena kemampuan memimpin rombongan dengan pandangan mata serta perintah-perintah pelan. Mereka termasuk salah satu ras anjing pintar tertajam. Kemampuan kerja harus diturunkan dari induknya lalu dikembangkan lebih lanjut selama latihan sedari masih anak-anak. Lompatan uji coba penggembala populer merupakan olahraga menantang dalam komunitas Inggris.
+  farm.silkworm:
+    label: ulat sutra
+    summary: Ulat yang menghasilkan serat alami dari kumpulan benangnya.
+    info: Ultras sutera adalah ulat kupu-kupu Bombyx mori yang telah dibudidayakan di Tiongkok lebih dari 5.000 tahun lalu untuk produksi sutra. Kepalanya membentuk gundung berisi satu helai benang panjang hingga melebihi 900 meter sebagai sumber sutra alamiah ini.
+  farm.sow:
+    label: babi betina dewasa
+    summary: Babi betina yang sudah dewasa dan menjadi ibu dari anak babi.
+    info: Seekor indukan babi adalah seekor hewan betina berusia dewasa dalam spesies babi domestikasi. Ia bisa melahirkan dua kali setahun dengan rata-rata jumlah anakan sekitar sepuluh sampai empat belas ekor bayi babi. Dalam pertanian moderen terjadi perdebatan mengenai pemeliharaannya secara intensif karena kondisi kandangnya yang sempit.
+  farm.tilapia:
+    label: nil tilapia
+    summary: Ikan air tawar tropis yang secara luas dipelihara di seluruh dunia.
+    info: Nil tilapia adalah salah satu ikan ternak paling umum di dunia dengan produksi jutaan ton per tahunnya. Ia berasal dari Sungai Nil dan Danau-danau Afrika tetapi saat ini dibudidayakan hampir di semua benua karena sifat kuat, pertumbuhan cepat serta tidak memerlukan makanan mahal untuk berkembang biak.
+  farm.trout:
+    label: semanggi
+    summary: Ikan salmonida yang dipelihara di tambak dan air bebas.
+    info: |-
+      Semangginya adalah spesies dari Utara Amerika Serikat dan telah diperkenalkan ke Eropa sebagai jenis budaya perikanan.
+      Salmon sungai merupakan species alamiah Eropa hidup dalam lingkungan air bersih dengan arus kuat.
+      Kedua jenis ini sangat diminati untuk olahraga memancing maupun kuliner.
+      Budidaya semanggi memiliki tradisi lama di Ceko terutama pada daerah pegunungan.
+  farm.turkey:
+    label: turki
+    summary: Burung besar yang dipelihara untuk diambil dagingnya dan menjadi simbol perayaan Hari Rakyat Amerika.
+    info: |-
+      Turkey berasal dari Meksiko tempat suku Aztek mempeliharanya lebih dari dua ribu tahun silam.
+      Pada jantan terdapat tonjong karakteristik serta kemampuan membuka bulunya seperti payung.
+      Di AS turkey adalah makanan tradisionil pada hari rakyat atau Thankgiving Day;
+      dunia menyebutnya sebagai unggas peliharan kedua paling umum setelah ayam.
+  farm.water_buffalo:
+    label: kerbau rumah
+    summary: Kerbau besar dari Asia yang menjadi hewan tarikan utama untuk sawah padi.
+    info: Kerbaunya adalah bentuk terdomestifikasi kerbau air dan merupakan ternak penting bagi pertanian Asia. Selama berabad-abad ia membajak ladang-ladang beras serta mengangkat beban-bebean. Susunya lebih gemuk dibanding susu sapi biasa digunakan dalam pembuatan keju Mozzarella di Bufala.
+  farm.yak:
+    label: jak
+    summary: Hewan berkuku genap besar dengan bulu panjang dari dataran tinggi Tibet yang memberikan susu, daging dan tenaga tarik.
+    info: |-
+      Yak adalah bentuk terdomestifikasi hewan yak liar hidup di Dataran Tinggi Tibe pada elevasi antara 3.000 sampai 5.500 meter.
+      Ia menjadi dasar bagi ekonomi lokal Tibetan karena menyediakan produk seperti susu, daging, wol serta daya kerja sebagai ternak pengangkat beban atau penari;
+      wolnya sangat halus dan hangat untuk digunakan dalam tekstil.

@@ -2,6 +2,42 @@ lang: en
 pivot: false
 title: Marine Animals
 cards:
+  animal.anglerfish:
+    label: sea devil
+    summary: Deep-water ray-finned fish that uses its glowing front appendage for luring.
+    info: The sea devil lives at ocean depths exceeding 1,000 meters where it is dark most of the time. The female has an illuminated fishing rod-like structure on her head to attract prey and males alike. Males grow exceptionally small—after finding females they attach themselves permanently through biological fusion.
+  animal.barnacle:
+    label: goose barnacle
+    summary: A small filter feeding crustacean permanently attached on rocky shores.
+    info: Barnacles are sessile crustaceans belonging to the subclass Cirripedia who attach themselves using cements secretions onto surfaces such as stones, ship hulls even whales' bodies.
+  animal.beluga_whale:
+    label: white whale
+    summary: A small toothed cetacean known for distinctive vocalizations.
+    info: The beluga is found primarily in the cold waters around Canada's northern coast but also occurs throughout most coastal regions within its range across North America.
+  animal.blue_tang:
+    label: Blue tang
+    summary: '''Surgeon'' refers specifically here not just any surgical tool but rather those razor-sharp blades positioned near these colorful creatures’ tails.'
+    info: The Blue Tang (Zebrasoma veliferum) is a small marine fish found on coral reefs across the Indian Ocean to tropical Pacific waters that has bright blue coloring along its body paired with yellow tail fins which became popular after being featured prominently within 'Finding Nemo'. This species uses sharp scalpel-like spines located at their caudal peduncle for defense purposes hence why they're commonly referred too Surgeon Fishes.
+  animal.carp_river:
+    label: river carp
+    summary: A large golden-brown freshwater fish living in rivers.
+    info: The common carp is originally native to Asia but was introduced to Europe during medieval times. It's an omnivore that digs up sediment at lake beds which can cloud water quality.
+  animal.catfish:
+    label: Wels Catfish
+    summary: Large freshwater fish found hiding on rivers beds equipped with sensory whiskers
+    info: The wels catfish is Europe's largest freshwater fish reaching lengths over two meters long weighing more than hundred kilograms it has distinctive whiskers called barbel which serve both olfactory functions tactile senses living at riverbeds lakes being nocturnal predator considered valuable game species for anglers
+  animal.clam:
+    label: giant clam
+    summary: The largest clam species found on tropical coral reefs worldwide.
+    info: '{"hint":"hinge-shelled bivalve mollusc","info":{"cs":{}}'
+  animal.clown_triggerfish:
+    label: triggerfish
+    summary: Colorful tropical fish that has white spots on its body.
+    info: '{"cs":"Spouštŏ ovka klau nje ve lk á tro p i ck ý ra ba zo ůe di e Ba lis ti da es so j ed ni m ze no jo ka za l ej cích zb ar vi ňmez i mor ski ch ry bi .\nMa si lo é zu by ke dro ce nj tu rd yh ko rá lu am lj žo u. \nNa zev spo us tŏo vk ap ocha zá do ad ho re brt né go os tn u,k te ro vy fu ngu ju jak epoj is tk a(sp ou st ),za blo ku ji ci dru hy.\nMo že buag res ivn íkpo ta pe čím voobd obr ehni zd ění"}'
+  animal.clownfish:
+    label: clownfish
+    summary: An orange-colored reef-dwelling marine species that forms commensalist relationships through chemical defenses against cnidarian polyps.
+    info: The clownfish lives inside sea anemones whose venomous tentacles would kill other fish but do not harm it due to its protective mucous layer. In their mutualistic relationship, they clean the anemone and deter predators while receiving protection themselves.
   animal.crab:
     label: crab
     summary: Ten-legged crustacean with a carapace and claws that moves sideways.
@@ -10,26 +46,158 @@ cards:
     label: dolphin
     summary: Intelligent marine mammal living in groups and jumping out of water.
     info: A dolphin is a marine mammal belonging to the family Delphinidae. It is known for its high intelligence, ability to use echolocation, and playful behavior—dolphins enjoy jumping over waves of boats and communicate using whistles and clicks. They live in social groups called pods and are close relatives of whales.
+  animal.dugong:
+    label: dugong
+    summary: A quiet marine herbivore living near coastal areas around Australia.
+    info: '{"info":"The Dugong is an oceanic mammal closely related to sea cows that inhabits both the Indian and Pacific Oceans.\nThe species exclusively feeds on seaweed. \nIt has been considered likely inspiration for mermaids due to sailors mistakenly identifying it as such creatures.\nThis animal faces serious threats including habitat loss caused primarily through human activities like boat collisions."}'
+  animal.eel:
+    label: murène/eel
+    summary: Snake like fish moving through crevice found at reef
+    info: '{"hint":"eel","info":"Eel is large marine fish belonging to family Anguilidae that hides itself within cracks on coral reefs\nThe eels have two pairs of jaws - an oral jaw pair plus pharyngeal ones inside their throats used when pulling prey down towards its throat area\nThey don''t attack actively but bites usually occur only after being provoked by something else first\nEuropean Eel species migrate all way across Atlantic Ocean until they reach Sargasso Sea where it reproduces before dying afterwards."}'
+  animal.flying_fish:
+    label: flyingfish
+    summary: A flying fish is able to jump over ocean surface while flapping its wide spreaded dorsal & anal fins which act similar way how birds use actual bird's feathers during flight.
+    info: Flying Fishes (Exocoetidae) glide through air by extending their large finlike wings after launching themselves out of tropical waters to escape predators like tuna, marlins, dolphins etc., they can fly up to about two hundred meters high at an altitude reaching twelve meter height.
+  animal.frogfish:
+    label: frogfish
+    summary: Camouflaged hunter among coral reefs using bait.
+    info: The frogfish is an ocean-dwelling fish belonging to the family Antennariidae known for its masterful camouflage abilities. It has modified fin rays resembling feet which it uses to walk along the seabed. On top of their head they have movable lure called illicium used attract prey.
+  animal.giant_squid:
+    label: giant squid
+    summary: The world's greatest known marine invertebrate.
+    info: Giant squids (Architeuthis dux) are the largest invertebrates on Earth, growing over thirteen meters long. They have the biggest eyes in the animal kingdom—over twenty-five centimeters across—which help them see in ocean depths' darkness. Giant squid live at depths between three hundred to one thousand meters and serve mainly as food for sperm whales. A living giant squid was first photographed underwater only after two-thousand-four.
+  animal.hammerhead_shark:
+    label: hammerhead
+    summary: Shark that has distinctively wide flattened hammer-like head.
+    info: Hammerhead shark is a species of shark characterized by its uniquely broad flat head shaped like an inverted 'T' called cefalofoil. The widened shape allows for better detection of prey using electroreceptive organs known as ampullae of Lorenzinis and improved maneuverability underwater.
+  animal.horseshoe_crab:
+    label: Horseshoe Crab
+    summary: An archaic joint-legged creature existing unchanged over half billion year period.
+    info: The horseshoe crab (Limulus polyphemus), is an ancient marine arachnid that has survived for about 450 million years without significant changes since prehistoric times. It's not closely related to true crabs but rather more similar to spiders. Its blue blood contains unique substances like coagulin used extensively by pharmaceutical companies when testing drugs' safety standards.
   animal.jellyfish:
     label: jellyfish
     summary: Transparent marine animal shaped like a bell with venomous tentacles.
     info: A jellyfish is a brainless, heartless, boneless marine creature composed of about 95% water. It moves by pulsating its bell-like body, while its tentacles contain stinging cells called nematocysts that paralyze prey. Some species are nearly immortal—they can revert to their juvenile stage.
+  animal.lionfish:
+    label: lionfish
+    summary: Venomous tropical sea creature featuring bold striped patterns across their bodies while also possessing sharp barbed fin structures.
+    info: The red lionfish is an venomous marine fish belonging to the family Scorpaenidae that has striking white-red stripes on its body along with poisonous dorsal fins. Its sting causes intense pain but rarely leads to life-threatening situations due primarily because it's not lethal unless complications arise later after treatment attempts fail completely without proper medical attention being given immediately afterwards.
+  animal.lobster:
+    label: lobster
+    summary: Large sea crab with pincers turning red upon boiling.
+    info: Atlantic lobster is a large sea crab belonging to the family Nephropidae that can grow over 60 centimeters long. It appears dark blue-green while raw but turns reddish only during cooking due to carotenoids becoming visible under heat exposure.
+  animal.manatee:
+    label: Dugong / Manatee
+    summary: Slow-moving aquatic vegetarian known commonly by name 'sea horse' but actually refers specifically here either Dungongs which have fluked tails like whales do not confuse them though they're both types under Sirenia order.
+    info: The dugong/manatee is a large ocean mammal that feeds exclusively on seaweed. It lives along shallow tropical bays, river mouths, and canals throughout the Caribbean Sea, Florida coastlines, Africa's western coasts among others places where there’s warm water rich enough for its food sources to thrive.
+  animal.manta_ray:
+    label: manta ray
+    summary: Graceful giant filters plankton at sea level
+    info: The oceanic manta is the largest species of rays with wing spans over seven meters long weighing more than two thousand kilograms filtering zooplankton using gill rakers while swimming mouth open it has no venomous spine being completely harmless to humans considered among most intelligent fish likely recognizing its reflection on mirror
+  animal.mussel:
+    label: edible mussel
+    summary: Dark shellfish clustered along intertidal zones.
+    info: The edible mussel is an Atlantic Ocean and Pacific coastal mollusk that attaches itself to rocky surfaces using strong threads called byssal fibers. It filters water for food but also accumulates toxins like heavy metals due to pollution—making it both nutritious yet potentially hazardous if not properly cleaned before consumption.
+  animal.narwhal:
+    label: '"narwal"'
+    summary: An Arctic whale known for its spiral-like tooth resembling mythical unicorn's horn.
+    info: '{"hint":"Arctic whale with a long spiral tusk (\"Monodon monoceros\")","info":"The Narwhal is an Arctic cetacean species that can grow up to five meters in length. It has distinctive elongated left incisors which form helical-shaped tusks reaching over three meters for males while females lack them entirely. They live together within groups across northern oceanic regions where they were once believed by medieval people who thought their unique horns had magical healing properties like unicorns'' horn."}'
+  animal.nautilus:
+    label: nautilus
+    summary: An ancient marine creature living inside a coiled shelled habitat since pre-dinosaur times.
+    info: The Nautilus is an ancient mollusk that has survived almost unchanged for over 400 million years due to its spiral-shaped shell divided into chambers used by it to regulate buoyancy through gas-filled compartments. Unlike other cephalopods, it possesses simple eyes without lenses resembling pinhole cameras.
   animal.octopus:
     label: octopus
     summary: Soft-bodied animal with eight arms capable of changing color and body shape.
     info: An octopus is an invertebrate belonging to the class Cephalopoda. It has three hearts, blue blood, and can instantly change its skin color and texture using chromatophores. It's highly intelligent—able to open sealed containers and solve mazes.
+  animal.orca:
+    label: orca
+    summary: Black-and-white ocean top predator, biggest relative to dolphins.
+    info: The orca is the largest member of the dolphin family and among the most intelligent animals on Earth. It hunts cooperatively within groups known as pods—each pod has unique hunting techniques—and communicates using distinct dialects that vary between different populations.
+  animal.oyster:
+    label: oyster
+    summary: Water-filtering mollusk that produces pearls and serves as a sought-after culinary delight.
+    info: Oysters filter water—each can clean up to two hundred liters daily. Some species produce pearls when an irritant touches their mantle tissue. Raw oysters are considered delicacies traditionally eaten during months containing the letter 'R'. Their farming is environmentally friendly and helps purify seawater.
+  animal.piranha:
+    label: Red-Bellied Piranha
+    summary: South American predator freshwater fish known for its pointed fangs.
+    info: The Red-bellied Piranha is a carnivorous freshwater fish native to the Amazon region that has sharp triangular teeth. Its reputation for being deadly predators is exaggerated—it rarely attacks healthy swimmers. They hunt in schools using their keen sense of smell which can detect blood over long distances.
+  animal.puffer_fish:
+    label: puffer fish
+    summary: A type of fish known for puffing up like a spiky orb.
+    info: The puffer fish is capable of expanding its body by water or air into an armored sphere for defense against threats.
+  animal.salmon:
+    label: salmon
+    summary: Large salmonid rising out of ocean waters towards freshwater streams.
+    info: Atlantic salmon is an anadromous species that grows up at sea but returns to its native rivers hundreds of kilometers away for spawning when it's time to reproduce. When they return upstream during their migration phase known as 'parr', these large silver-colored fish change color dramatically turning bright red before laying eggs along riverbeds where most Pacific varieties die after reproducing - decomposing bodies provide nutrients back into forest ecosystems through natural cycles.
+  animal.sea_anemone:
+    label: sea anemone
+    summary: Flower-shaped sea creature resembling coral reefs.
+    info: Anemone is an anthozoan cnidarian that resembles flowers attached to rocks underwater. Its tendrils contain venomous cells called nematocytes used for immobilizing prey. It lives in mutualistic relationships with clownfish, algae, and cleaner shrimp.
+  animal.sea_cucumber:
+    label: sea cucumber
+    summary: Cylindrical aquatic creature collecting organic matter along seabeds.
+    info: Sea cucumbers are marine echinoderms belonging to the class Holothuroidea living on ocean floors. They filter sediments for organic debris and expel their intestines or release watery fluids when threatened; these regenerate over time.
+  animal.sea_lion:
+    label: sea lion
+    summary: Eared pinniped capable of walking on its flippers.
+    info: The California sea lion is the most well-known member of eared seals (Otariidae). Unlike true seals it has external earflaps and walks using four flippers. It's exceptionally intelligent—often trained to perform complex tricks for entertainment industry purposes.
+  animal.sea_otter:
+    label: sea otter
+    summary: Sea otters float upside down and use stones to crack shells.
+    info: The sea otter is an ocean-dwelling mammal native to North America which has by far the densest fur among mammals—about eight hundred thousand hairs per square centimeter—it uses rocks like tools for cracking open clams and mussels held against their chest while floating belly-up at rest—the population was nearly wiped out due to hunting but conservation efforts have helped it recover.
+  animal.sea_slug:
+    label: gastro-pod
+    summary: Colorful sea snail lacking both its typical mantle cavity.
+    info: Gastropods without shells that live on coral reefs have some of the most striking colors found among animals—serving to warn off predators due to their toxicity. Some species absorb toxic cells through feeding on corals like sponges and use them for self-defense purposes.
   animal.sea_turtle:
     label: sea turtle
     summary: A large marine reptile that returns to beaches to lay eggs.
     info: The Green sea turtle is one of seven species of sea turtles. Females return every two to five years to the beach where they hatched to lay their eggs. Adults are herbivores feeding on seaweed and sea grasses; juveniles are omnivores.
+  animal.sea_urchin:
+    label: sea urchin
+    summary: A round sea creature full of spikes found at rocky bottoms.
+    info: Sea urchins are marine spiny animals belonging to the group Echinoida covered by movable spines. They have specialized organs called pedicellariae between their spines for cleaning and capturing prey. Sea urchins feed primarily on algae, fungi, and organic debris.
   animal.seahorse:
     label: seahorse
     summary: Small fish that swims vertically; males carry the young.
     info: A seahorse is a small fish belonging to the genus Hippocampus that moves while swimming upright using its dorsal fin. An interesting fact is that it's the male who carries the offspring in a pouch rather than the female. It holds on to seaweed with its tail and waits for prey to pass by.
+  animal.seal:
+    label: seal
+    summary: Aquatic mammal found near coastal areas who hunts underwater using its sleek physique.
+    info: The common seal is an aquatic mammal belonging to the family Phocidae; it has no external earflaps but instead possesses streamlined body features for swimming efficiently through water environments such as oceans where they hunt fish while resting along rocky shores during periods when not actively hunting.
   animal.shark:
     label: shark
     summary: Large predatory fish with sharp teeth and a streamlined body.
     info: The great white shark is the largest predatory fish in the world and can grow over six meters long. It has the ability to detect electric fields of prey using Lorenzini's ampullae. Despite its reputation, attacks on humans are very rare; sharks are key predators in oceanic ecosystems.
+  animal.shrimp:
+    label: shrimp
+    summary: Small ocean-dwelling shrimp-like creatures classified under various penaeid groups.
+    info: Shrimps are small marine or freshwater crustaceans that have ten pairs of legs. There is over two thousand species known to exist today making them second most popular seafood worldwide after fish which they resemble closely enough for classification purposes within Penaeidae family specifically but also other related families more generally speaking.
+  animal.squid:
+    label: squid
+    summary: Ten-arm octopus-like creature moving forward forcefully expelling ink.
+    info: Squids have ten arms—eight for crawling plus two specialized tentacles used to catch prey. They move by jet propulsion using their mantle cavity and can change color rapidly via pigment cells called chromatophores found on their skin surface.
+  animal.starfish:
+    label: starfish
+    summary: A sea creature capable of regeneration after losing its arms.
+    info: Starfish are marine animals typically having five arms that can regenerate entire lost limbs or even form new bodies from an amputated arm.
+  animal.stingray:
+    label: ray
+    summary: Flat marine fish with barbs at its end; rests over sandy bottoms.
+    info: '{"hint":"flat ray with venomous spine on tail (Dasyatidae)","info":"Rays resemble sharks but have flat disc-shaped bodies adapted for life near the ocean floor.\nThe tails of many species feature spines used to defend themselves against predators.\\They move by undulating their wing-like fins like flapping wings.\\Some rays can generate electricity that stuns prey."}'
+  animal.swordfish:
+    label: swordfish
+    summary: Large predatory pelagic fish that has an elongated blade-shaped snout.
+    info: Swordfish is large predatory pelagic fish found in tropical and sub-tropical oceans around the world. Its flattened sword-like beak serves to stun prey such as smaller fishes rather than piercing them directly through impact alone.
+  animal.tuna:
+    label: bluefin tuna
+    summary: Fast-moving oceanic predator caught commercially for food production.
+    info: Bluefin tuna is the largest species of tuna growing up to over three meters long and weighing more than seven hundred kilograms. It's an ectothermic animal that maintains its internal temperature higher than surrounding water temperatures by using metabolic heat generated through muscle contractions during swimming activity.
+  animal.walrus:
+    label: walrus
+    summary: Large Arctic sea-mammal resembling elephantine features.
+    info: The walrus is an Arctic piniped characterised by enormous ivory canines that grow over half a meter long. These teeth serve for climbing onto ice floes, fighting among males to establish hierarchy, and social interactions within large colonies.
   animal.whale:
     label: whale
     summary: The largest animal on Earth – a marine mammal that breathes air.

@@ -2,14 +2,69 @@ lang: ha
 pivot: false
 title: Plasi da amura-ama
 cards:
+  reptile.agama:
+    label: agama
+    summary: Wurinshe guddo Africane
+    info: Agami ne ce koma da wuri daga Afrika na Australia ya so ‘cele’ gaskiya zuwa 300 yau. Sami Agamai cewa red-haded don hanyar matsayin jariya da mafiyan ji dominan.
+  reptile.alligator:
+    label: alligor
+    summary: Wajen America tan halbakin suna da chinawa ce alliger.
+    info: Amerikan alligitoran daye da wani kafo na yankari gaikai don hanyar Alligator; kan china ke tsaye ya amfani da nomen.Alligin hausa cewa adan tafarewa suka zuwa gilman hadaddun galadiya ta Amerika guddo.A rewane babban hayyaka, zauro mai karfiyar biyi.
+  reptile.anaconda:
+    label: anacond
+    summary: Anacond green ya duniya da yake na gida wajen shi ta hausha.
+    info: Green anaconda ya duniya da yake na gida wajen shi ta hausa cewa kaifi mai wasuwa ga 90kg guoji na uzini da biyu meter don nisa. Ya fi Amason da sauran suka tsoho na Tropikal Afirika Kirdaudi. Wuya fish, bird, capybara, caimane da lofi kuɗai.
+  reptile.anole:
+    label: Anole
+    summary: Wannan afrafi Afrika ke badiciken farini; Male suna taimaka gargaji.
+    info: Aholisa ne wani gano da koma ga Anola ta Afsika ya kamatawa cire zuwa biyu yau kaifin mutum mai amfibiya don wasan shafawa. Wajen jari, masu male wa magana hada 'gargaji' bauchi (adwolap) don fanyar nauyi da zauro. Zelenski anoles ke baghar cezuwe zuwa ciwaro mankefidun haritan da emosi.
+  reptile.axolotl:
+    label: aksiilotel
+    summary: Amimal na Mexico wanne ka faɗa larvaƙiyar riwayoyi masu daraja.
+    info: Axiilutu wane aminal na yauwa duniya da adan mai hausa ta Mexico don hanyar mutalafi ya kamata kiyan jarewai, tsari, da nisa. Ya fana kan halbawa da suka farin shirin guzaman Jihun wa Maggi dii Maghribiya da ke bagayoye, wanda ke fitawo canzo. Ajiyi ya samara ga jarabciyar biyuwar zamani, wasu da har din kalma, matsaye, da sarrafi.
+  reptile.basilisk:
+    label: basiliisiku
+    summary: Amerikan layyerki yasa kamafe da suwar suwai.
+    info: '''Wangare'' Basiilisku wanda ke kafinke da gaskiya ga adan mutum ne yake (Layyana Kristian), ya kamfa shiga hadarwa suwai don kafrakariya hausa alaka zuwa farun sun tsoro, wani nisa zauro mai amfanimi muka ta farkon babban galauta, akakin abbin da aka soke ''kamufiaji''.'
+  reptile.boa_constrictor:
+    label: bokonson
+    summary: Hadawa yiya Afirka Kudu da ke kofaci ko'a.
+    info: Bana hau'ku da koyaya yake na Amerika ta hausa wajen ya kamatawa gaba, adan domin ya banyeye shida waɗannan wasu gaƙasa don mutum. Ya biyan su kan waye amma ba zauro da zai ruware jin.
+  reptile.box_turtle:
+    label: shikafo
+    summary: Amara sukan zamani da yake iko dinsuwasuwar ran.
+    info: Shikatula za jama'ar gudi da yake ne wanne amari na Amina Kudu musamman ya fana daga wasuwa zuwa sashin ran ruwan biyu. Ya farauka tsauro don mutum mai ganakin abinciya ta hanyaya, guddi-guddiya ga suna. Yaka iko nafarin 100 ushiyar sauri, lafiyawon hausa ke 40 hadawa 50 ushia.
+  reptile.caecilian:
+    label: cervarowe
+    summary: Wan'amphibiyan bezo noho ya resumen ciervo odino.
+    info: Cervarowec da hanye wani amphiwiban tare ya duniya Gymnophionia ta yake, tsaye cewaka ga'awa don nuna wasuwa gida soke da hausa daya. Yau za ka iko lokaci zuwe zaiyaya au guddo au harba. Wuya ce mai matuka, wa ce kafintace suna, wane ke fadi da tankeli (organs den sensus di head). Wasu mutum shawara kuwa babban gamunyi, wasu teburce.
+  reptile.caiman:
+    label: caiman
+    summary: Hausawar kujimanta jiho ameriki mai kamfaninsu kuwu ceciyoyi au kalugel.
+    info: |-
+      Braylan Kojma daga South America ya ce wane hauwa da suka hausa na soya ta amurka guddo gudunwada Caiman
+      Wuya kuwandukar tsauro don yake da ga'awa zuwa 2.5 muter,
+      saka suna faraiyiwar sauri, tsamiyar jari da basarin mata gege da Mexico hadewakin Argentina.
   reptile.chameleon:
     label: tsamayel
     summary: Tsamiyar da koma yake ya badawa farin rana, wanda kuma iya canza mata.
     info: Tsamayel Jemeniya ya badawa farin ranensu daga sheyi da aka banyar hausa amsa, kuma ya ba zuwa wayar gudun da suka. Matawanci daya ya canza don hanyar mutum.
+  reptile.cobra:
+    label: cobba
+    summary: Wani gɔrolɛ halbatini da kapa ce hausa.
+    info: Cobba ne wani gɔrɔlɛ jin halbanti da kece elapidai yake ne ya zacewawa zuwa hauka don kamfanen. Jina so'oro (neurotossine), ya shiga taimaka sistema sarrafa waɗannan marubu. Cobban Naja ne simboloi nasaraun Ejipt antei Indiya.
   reptile.crocodile:
     label: krokodýl
     summary: Wurukewa daga cikin gege da karshe na rive da swamps.
     info: Krokodýl nilský ya nuna wajen gida ta hausa da suka yake da karshe. Ya fi zuwa Afrika da ya hadawa daga karshe. Su kuwa guddo ya hau'u da manyan halbowa.
+  reptile.flying_dragon:
+    label: darakon volanti
+    summary: '''Yare wa so''a noma Asia ta yake ranran don haushauciya.'
+    info: Dracon Volantis wani hau'uka la gaba da Asia ta yin iya fada ga wasu 'yan riwci ya kamatawa don hausa daye, kasar mai amfanyi su kuma tacewayyensu. Wannan hau’ukan shiga zuwan riyacinsu don manufawa ‘yar biyuwar ranran o dan ruwe. Yankuna ce weyaka suna faro da labari mutum.
+  reptile.frilled_lizard:
+    label: limcowa
+    summary: Sheteni limcowan da ka ce amfani da limbocci da suke ranrafi.
+    info: Límce agamau wace guda duniya Australia da koyin ko’aya na tsaushe ya canza biyi kuwa mutum mai hanyar yake ne ba ‘yan mafudu. Ya fara ga bari noma taurodai babban ranran, wasu da ke fitarkua kan dinosaury. Limaye tsarin shega.
   reptile.frog:
     label: zâb
     summary: Gwada zamfibiya gaskiya ce so'ne da mata guddo.
@@ -18,19 +73,145 @@ cards:
     label: gekon
     summary: Wurukar gadin da yake ne kafin dawo.
     info: Geke geleon din suka ya ke tare da wajen hanyar hausa, wanda ya fara haskar zuwa kalmar da jama'ar matsayi kan sheyi da adanaiya. Wuya ga kusan matsayi da kusancew ci wadunan shi, kuma mara adanaiyan.
+  reptile.gharial:
+    label: gawiwal
+    summary: krockodiilo fish-specialista masu bakiyar jawo
+    info: Gawial ya krockodiilof da Indiya wanda yake amma su gharin mutum daga matoke ta hanyar riniya ga'acinen hausa, wajen samun ribbin. Wane babban shi ke sauki dubba don kammalewa. Ya farauki zuwari 'ghara', duk wasan indimi, don kamfanawa. Yana ba jikinsuwar ranriyoye nasa na Aisia.
+  reptile.gila_monster:
+    label: Gilal helodermo
+    summary: Waja gaskiar ranran Amerika na sahara da kama ce wuyewuye.
+    info: Gilal Helodarmo(Heloderma suspectum), wajin gaskiya da yake ne amurkanci America na saharan dayakin abubuwa don tsari daga cibiyar ranran. Wuya ya ke tura zuwar karfi mutane da adakko lokutuka ta hausa, ga'awa su kan ciyayya maratuwai. Yauzu za ki hanyaya ba’ini mai jiji guzaman duba ‘yan zurugudu, bali kuji durra biyu kaftafarin harbi.
+  reptile.glass_lizard:
+    label: slepýš
+    summary: Wajen gudugudu ce, alhamdu lau mai harba
+    info: Slepyshi yau wajen gudi da koyya na Afirika ta Europe don hanyar mutum, ya kamatawa daga hadi. Ya fara shafin muka tsitsaye da tasha maratuwenshi. Yana amfani da lokutun guddo ne'yi hausa ba'a ranawa (Autotomy), wa'tsu rungancua.
+  reptile.hawksbill_turtle:
+    label: caretta
+    summary: Suzuwa yake na duniya wanda ke adi gaban zuwara.
+    info: Caretta caretta da suzuwa yake na duniya wanda ke adi gaba hausa ya biu zuwari birni (Eretmochelys). Kafin mutum ta gabban zauro don anyaya jeli kuwaro; barde babbar hadawa ga kanun dayakin abubuwan yau ka'idai. Aji hanyayi mafi amfani da hubbi da wasan hayyan guddugudu.
+  reptile.horned_lizard:
+    label: Yakke Rohato
+    summary: A jakken aiwuwa flat di sebegwada so Ameirika Kuduan kalman da rohuwatun mat
+    info: Rohato ya Phrynosoma ne yake da wace ga adaiya tarewa gaskiya gudduguddun Amerika Kuduwan Kalma daga cikin muka waɗan hanyar amari, kuwandayen hausa don shafawa. Tukuna kan su ka'aukanta biyu zuwar mata ta farko mai kamfaninsu maratu mutum ke nufa. Wajene suna fara canza wasu masu jinkaya.
+  reptile.iguana:
+    label: green leguan
+    summary: Wanjekanciya green leguan ne kuma shiga ranrafi Ai Ameariki.
+    info: Green leguan ne wani sheyi da kafin Amaerika ya so'oro mai zuwa meteri dubawa. Wuya mauni tsaye ta gidi don yankari waɗannan ranran mutum, guzauzuwan jama'a, da zauro baƙasa. Ya kamata su kan zurge ai amfani da 'tsayei parietal,' wanda ke samun raijin hausa.
+  reptile.king_snake:
+    label: koraliya
+    summary: Amerikanci koraliya non-jeduwatsutsuya canza gudda.
+    info: Koraliya ya kafin guduwa da yake na Ameirika an ba wajen kan sharhi mutumin guddun naka, kasance mai shan'aya koraliyan sheyi, don hanyar adakko ta canza.Arewa tare da biyu-biyuka ga farini tsitsiri zuwan birnin ranarin abubuwar rana.Yau ke amfani da wasu hausa masu fura, matsayawa da plasid.
+  reptile.komodo_dragon:
+    label: daskiyar Komo
+    summary: Daidaitencin jeztirke da aka iya sawaya ta Komoda di Indonesien.
+    info: Komo daskiyar daidai ya tare wace yau ka idan daye meter lafiya ga saka ai gaba 70kg. Wanda wa cikita suwa shida ba bihar ce masu amfani da bateriya don kamfanawa, hausa faɗo ke tsaye mafiyan shekara. Ya ci gamini, babura, guddus da abokko. Yanayin Koma din Indinesie da zauro.
+  reptile.leatherback_turtle:
+    label: leatherback
+    summary: Moiseggu musamman ma'yan tsaya bincike ko'a
+    info: Leatherback yau daidai tana duniya wanda ya zaune zuwa duba meter don mutum mai wasu ga 700 kilogramme. Ya kamata gaskiya tsaye ba, amma adakari kuɗe a yayin masu kaswona (osteoody). Yake fadiyayi hausa daraja ta faran labare ocean; sun iya canza hadar ci 16 thousand kilometers. Yan karfi suzu wa maguzanci.
   reptile.lizard:
     label: ještěr
     summary: Četyrino hau'ya da yaki daga cikin wajen gida.
     info: Zelena iguna ne amari yauni na Central da South America. Ya soke ranar mutalafi, ya fada ga karshe da farin jama'a, da yake iya badayi kankara guddo.
+  reptile.mamba:
+    label: mambba
+    summary: Wanciyar afrikanka garkiya da jihatannenshi.
+    info: Kambara gida Dandiro ya kuma yake da wajen Afrika na dawawa kan jikinsuwa. Wace suka ga kamfuriya zuware hausa ta farkanta 20km zauni da ke ameliyar hanyar barkasai tsari-tsamiri. Jihunisa mutum biyuwar haske da adanaukan sarrafa ba'ayyan antiserum lafiyawon sautinin ran ka'idagoro.
+  reptile.matamata:
+    label: matabatu
+    summary: Jiho amerika matamatuni bizarna ka’idau lapa.
+    info: Matabatu wane na guwo da yake ya nufi daga Jiumarayya ta Kuduwa Aisa, amma shida kan muka ga hausa. Muka yake don kamaflo mai tare da labari gudun halke, waɗannan zauro suka sun yi iko lokacin mutumai dayakin babban galadi. Wanda ke farin shekara, an sauri tsaye zuwa biyi kuwani birni, ba akwarrazu masu dubbi.
+  reptile.monitor_lizard:
+    label: voran
+    summary: Ya’aya gegeji lokaci da ‘yar ciya ta haushu.
+    info: Voranin ya'ayi da wuya daga gano mai Varanus don hanyar yake, zuwa 'yan ciya ta hausa tuma biyi. Komodo voranidai suke wa'a ran mannan halbula kan jagiya (yauzuwanci meter lau). Voranim sun adawa cikini; wasiwari ke amfani da samun hadaddugudu.
+  reptile.mud_turtle:
+    label: kinosteren
+    summary: Aminan watere kinsteren
+    info: |-
+      Wuraren Kinosteron ne wuri daga Amina na Kanada da Watawaun kowacewaka taushe tunda ce caidari 15 santimitir.
+      Dukake yau ke can dayi zuware ya kamfanin gaskiya don hausa ga'awa,
+      duka suka sun iya gabban zauni bauna da babba.
+  reptile.mudskipper:
+    label: Şipilhen Baletinos
+    summary: Ribayoyi raba cikini daraja da kamfanen barkashiyon
+    info: A Šiplhaven Blatanozany ne ya riba ce nafarin Gobiontide don hauka wanda yake da sauri mai jama'arun su kan domin hausa. Ya biyan lati butsuwa kuɗai da wasan bato ga mutum baƙasa ta amfani fafa pade-padenya da ke tafiya zuwan barkasor barke. Yana shifawa zuwa haskar da mankorwar magoro.
+  reptile.newt:
+    label: çoli
+    summary: Amfibian minci mai jiji dinsuyi da cewa.
+    info: Çolik Veliki ya kuma da wani çoliƙo yauwa ta Afsuwan Europe don nufin guduwar sauri na biyu guzaman 15cm. Don waɗannan daga samun suna, bariya tancew ciyar da adakko kan sarika haadi. Wanda ke Cek Republic la fi amfibiyan mincewo so ka’arin qonni. Duka zauni suka ga ranruwa maratuwa ce wayar huduje.
+  reptile.poison_dart_frog:
+    label: poison dart frog
+    summary: Tiny bright-colored poisonous frog dari tropical America.
+    info: |-
+      Wuya Pralesniczki ya kuma daraja na gano yake da wane dandume tsa 'dendrobata' donya热带美洲的森林里。
+      Munyi kan sawar sakewaka (tsitsiri, babura, amani), sun cevari warnin dayakin zauni (aposmatizam)
+      Kowanne mutum sukan kamfan faraukin nisa gauna.
+  reptile.python:
+    label: python
+    summary: Wani python ya faraja jawunu kaugida.
+    info: |-
+      Pyton da suwa wace yau ya hausa daga cikini zuwan mutum don hawayar jama'anci, saboda sun adan kiya kan gaba dayakin jawunyi;
+      kayakanta pythons ta tatta makafin 6 meter,
+      sunan kamfan musammane jawonni biyar karfi tsoro lokoko mai amfibiyan jawuni;
+      wanda ke ba zauro ga jawo, sun samari jawoni birnin lokoko;
+  reptile.rattlesnake:
+    label: čuriye
+    summary: Haya’inka ŋame da adane na farakun zurrawar mutum.
+    info: Čuriyewar hawayyar daga cikin gurbin zamiya wanda ya canza yake da adanai ne, waɗannan adana suke zuwa ro'yi ta farkon mutum don kamfanen jama'. Wuya so'oye shafawa geua ta hausa ga'in lafiyawar haskina guddelwada.
   reptile.salamander:
     label: mlok
     summary: Amphibiu da kuma dama da gaskiya.
     info: Mlok ya nufi yau da wuri tsitsiri na kusada da wasan jari da adai da kusa, wanda ke samun 'Urodela'. Mlok skvrnitý ne amfibiu da ke nufi na Eropa Kafin da kuskurin hausa, wanda ke tana da wasan skvrna abubuwar kusi da adai. Ya haske shida da mutum da kasa na kasa da kasa na kasa.
+  reptile.sea_snake:
+    label: gorci
+    summary: '''Marine'' gorcin wadanci zauro.'
+    info: Gorcin yau wanda aka so da suka na 'marine' ya ke taimaka daga ce ta gudun-Hydrophiinae, waɗannan jama'a suna amfani da adawa kan nami don anyari. Ocasinsu samar da padel don faɗara. Anyarsu ya kamatawa zuwar gyrosyntabuk karanta ku biyu wato ko kaikai.
+  reptile.skink:
+    label: skink
+    summary: Yakarin kallafiyar ranrafi da sauwar matsaya.
+    info: Skinka wajen karkashewu da yau daga cikinin ƙwallon mutum zuwa gilga'insu don ya kamfanawa tsauro mai hausa ta 'Scincidae'. Wadaka suka amfani da shupa lafiya da adanai fiyafiyar ranran. Ba’i dayakin suna kan guzwan zamankusannun sauwar matsayinar rawo auwargudunan.
   reptile.snake:
     label: Had
     summary: Wurukewa kuma da yaro mafiya ta wace.
     info: Hada suna duka shey ya hausa, gudun daya na tasiyar 3.700. Wajen kuskuren hadi, wanda ke amfani da Jakobson organ don kuske da kuskeni, wanda ke kuskure ne koye.
+  reptile.snapping_turtle:
+    label: komai kushe
+    summary: Amari komai kushe wanne da adana tsoro-tsunyauko na Amurika.
+    info: Komai kushe wane ne amari da adan mai tsauro na Amerika ta hanyar gaskiya suka ga Chelydra serpentina. Wajen mutum ya kamatawa daga cikin yanki, bihar ce waja hausa aiwo. Ya zama wasu kaifiya da 35kg da zauna wasu kaifiyar uku.
+  reptile.thorny_devil:
+    label: moluch
+    summary: Jehterkin moluch ya bincike watane Australia.
+    info: Haus Molok ta Australiya wanda ya dace da gama na biyaka guzabbin yankari ne ba shan kuwa. Ya zai iko capillary tracks nafarin biyar da suke kuma ya yi amfani den da muka. Wajen harbi, ya farau mutum kan ant wasu kaikarawa kada rawo.
+  reptile.toad:
+    label: ropa
+    summary: Oboijalele ambianta mai sarauta biyu da adama.
+    info: Buwa gudda da yake na Ropa ya haifar da amura ta Czec Republic. Bradavicke waune gudun tsiri; wane hadawa zuweya da jikinsu da ke fitar da matsayi tofisin. Ya farauka shaweran su ga won sun kasance gamini don kafala shega; di Czeku, watani karanta ya iya tuma buwai don samari road.
   reptile.tortoise:
     label: sukotumai
     summary: Wani dawo da yake ya canza wato da kasa guddo.
     info: Sukotuma Galapagos ya fadi gaba duka sukotuma naye. Ya fi Galapagoshin da ke taimaka uku da biyayen 150. Kasa yake ya samar da sautun muskuli.
+  reptile.tree_frog:
+    label: rosonic
+    summary: Žabiye arboral don tokasin zuwa yankarin kuka.
+    info: Rosiŋci kwa ŋɛyaka da wuri daga cikin gurbin Hylidai tofiau su kan ciwawa zuwa yankari tace ta hausa mai jiki tsoro ya shafinko. Cikin Kesiya ba'ayen rosiŋcin dayakarfi ka faɗan rosiŋcin dayaya; wa'a iko za ki cin ruwe. Ya kamatazu barau zuwa hijir ga biyu wajen temparatur ma dambariya.
+  reptile.tuatara:
+    label: Tuatara
+    summary: Kofaci hausa da ranin nauzilan, wanne ne kaikafancan ranin rhyncocefal.
+    info: Wuya Tuatara ya kamar duka ta yankari da suka ga Nauziland; wane haskina zuwa dinosour don hanyar ranarin raiyawa. Ya canza wasu masu gilson dayakin ranin nauzinlan. Yake sunaka zauro mai kasancewako shi ne da ke soke da biyi kan sauriya, kuma tuwatun koyiya ya sake da al'ada.
+  reptile.uromastyx:
+    label: uro mastix
+    summary: Wajetaruwa afrikanka ne ga komon din sojauwonsoro kuwandace.
+    info: A Uromastiks wanda kafe da Afrome na nufin Kano, Indiya ma'akallakin sojuwa wa'a gwoza ta hausa daga cikini zuwan yanki tare da 'ocasaiya ambakan zaurlaye ya kamfanen amfani. Wanne jeta ce babban mutane ne ga farmin hanyar adawa, samun haske, maratuwar gamo ama warware. Da ke can daya, masu faɗaya shekara aiyanayi suyancin mai baƙasa.
+  reptile.viper:
+    label: zaraje
+    summary: Shaya zamijo kan trianguler da kalmar.
+    info: Zamija yau da suwa wajen Czechiya ya kafina zuwar gaskiya hausa cikini. Ya canza bihar mai jama'ar mutum donkasa ta amfibiya, ba’ayi ne zauro, ama bai kamfanawa matsaye.
+  reptile.wall_lizard:
+    label: jestekar
+    summary: jesterka zeni da yaushe da aka fara a wasokori da kalma
+    info: "Jestekar gari da yauzu wanda kafe ya nafin Afsika ta kanan dayakin Eropa don hanyancu zuwa muka ga Europe tacewaka da Afrika tin sauran magane \nwaddawa su kuɗe a Czecoslovakia ba zaune babban shiro mai amfani da mutum fafa fiyayya \nkuma sun yi hausa cikin jama'ar labarin adaijin abinci da ke binciken \ndabin shekarun biyu sun kasance manufiyoran a ranin kusokin ran."
+  reptile.worm_lizard:
+    label: cerwovitece
+    summary: Wanne ammafiya bebiyi ba zaune babban halbaren haskar da biyar.
+    info: Cerwovitcin ya so ma'auka da yake ne wani ammafiya ga cikin Amphisbaenian na Afrika ta hanyar waɗannan wasuwa daga Ameerika. Wanci ce ke ca su sun gudda ko guduwar biyu zuwan mutum mai tafiyan hausa, don nisa tsaye, wanda ke can daye, ama jiki, waneke, kuma kan ciyayyen shafawa. Su ka’are bari da muka kuwu kamar magana ‘akorda’,

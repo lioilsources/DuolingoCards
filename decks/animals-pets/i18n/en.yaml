@@ -2,14 +2,104 @@ lang: en
 pivot: false
 title: Pets
 cards:
+  pet.angelfish:
+    label: angelfish
+    summary: Graceful flat-bodied tropical fish known for their elongated finnage.
+    info: The Amazonian angelfish is one of the most popular freshwater aquarium species due to its graceful triangular shape and long flowing fins. It originates from the Amazon basin region where it requires warm water between 75°F - 82°F / 24°C – 28°C). This carnivorous predator can eat smaller fish varieties.
+  pet.axolotl:
+    label: '"Neotenic Salamander"'
+    summary: '"Aquatically adapted newt species native exclusively towards Mexico region maintaining permanent presence underwater environment while keeping functional adult stage characteristics such visible breathing organs called ''gills''"'
+    info: '{"info":"The axolotl is an aquatic Mexican amphibian known for retaining its juvenile features including external gills through adulthood due to neoteny. It has distinctive feathery gill structures on each side of its head and displays characteristic smiling facial expression patterns across different individuals within populations found near Lake Xochimilco where it''s critically endangered by habitat loss despite having remarkable regeneration abilities allowing full limb replacement plus partial recovery capabilities involving heart tissue repair alongside brain structure restoration."}'
+  pet.ball_python:
+    label: Royal Python
+    summary: A calm round serpent that coils itself when frightened; an ideal pet for beginners.
+    info: The Royal Python originates from West and Central Africa where it inhabits grasslands and forests. When threatened, it curls up tightly like a ball—hence its name 'ball python'. It can grow to lengths between 120–150 centimeters and live over thirty years.
+  pet.bearded_dragon:
+    label: bearded dragon
+    summary: Australian lizard commonly kept by exotic animal enthusiasts.
+    info: The bearded dragon is popular among reptile pets due to its calm nature. It puffs up and darkens when expressing emotions or asserting dominance.
+  pet.betta_fish:
+    label: betta
+    summary: Colorful Asian tropical freshwater aquarium pet known for elaborate finnage.
+    info: The betta is an ornamental gill-breathing labyrinth fish living in shallow rice fields across Thailand using its specialized organ to breathe air. Males display aggression towards each other—hence their name Siamese fighting fish—and selective breeding has produced extravagant forms featuring massive trailing fins that flow gracefully through water like silk ribbons dancing under current.
+  pet.blue_tongue_skink:
+    label: Blue Tongue Skink
+    summary: Australian reptile displaying strikingly vibrant blue-colored tongue used primarily during defensive situations.
+    info: The Blue-tongued Skink is large Australian lizard known for its distinctive bright blue tongue that it displays when threatened by predators—the color serves as an intimidation tactic against potential threats. It's non-aggressive, plump-bodied creature moving slowly which makes them popular pets due their calm nature.
+  pet.budgerigar:
+    label: budgie
+    summary: World's most popular cage-bird species - small Australian parrot.
+    info: The budgie is the second-most common caged bird worldwide after canaries. Wild budgies have green-yellow coloring while colorful mutations such as blue, white, and gray were developed through selective breeding. Males can mimic human speech and learn hundreds of words.
+  pet.canary:
+    label: goldfinch
+    summary: Small songbird selectively bred for vocal abilities and vivid golden coloration.
+    info: The goldfinch originates from the Canary Islands and was domesticated in the 15th century by Spanish conquerors. Breeding has produced many types including singers like Roller and Waterslager varieties, colorful ones such as reds and whites, and shape-specific breeds. Males sing complex melodies and learn fragments of other songs.
   pet.cat:
     label: cat
     summary: Independent house pet with soft paws.
     info: The domestic cat is a member of the Felidae family kept as a pet. It is known for its agility, cleanliness, and independent nature.
+  pet.chameleon:
+    label: chameleon
+    summary: Color-changer lizard whose each eyeball moves on individual axis.
+    info: A chameleon is an animal capable of changing its skin color using specialized cells called chromophores to communicate emotions rather than primarily for camouflage purposes. Each eye can move separately covering almost 360 degrees allowing it excellent vision without turning their head towards objects they're observing which helps them spot prey more easily while remaining hidden themselves by blending better within foliage where most species live exclusively among trees having prehensile feet designed specifically so that these reptiles may grasp branches securely.
+  pet.chinchilla:
+    label: guinea pig
+    summary: South American mammal possessing most densely packed pelage among all terrestrial mammals.
+    info: |-
+      {"hint":"furry South American rodent with extremely thick fur (Chinchilla lanigera)","info":"The guinea pig is an animal that lives on the slopes of the Andean mountains known for its record-thick haircoat;
+      hair grows out at rates between sixty to eighty hairs per follicle compared only just over ten human hairs growing through each follicle."}
+  pet.clownfish:
+    label: clownfish
+    summary: Orange-colored freshwater aquarium pet living together harmoniously within protective enclosures made up entirely out natural materials.
+    info: The clownfish is a small tropical reef-dwelling saltwater species found throughout much of Indonesia's coral reefs where it forms mutualistic relationships primarily but not exclusively with certain types of stinging tentacles called 'sea anemone'. The host protects its guest by providing shelter while being fed upon via specialized feeding structures known collectively here simply under their common name - Sea Anemonae.
+  pet.cockatiel:
+    label: Cockatoo
+    summary: Small Australian cockatiel known for its ability at vocal imitation.
+    info: The Cockatoo comes originally from Australia where it lives on steppes and forests. Males can mimic songs very well—they learn melodies even human speech patterns easily through repetition over time periods lasting weeks to months depending upon individual bird characteristics such things like age maturity level etcetera.
+  pet.corn_snake:
+    label: cornsnake
+    summary: A calm red-orange colored constrictor suitable for beginners.
+    info: The cornsnake comes from southeastern United States where it lives on farmland and forests. It is nonvenomous and docile rarely bites being resilient to stress.
+  pet.crayfish:
+    label: Crab
+    summary: A small colorful freshwater crab found in an aquarium setting.
+    info: '{"hint":"aquarium crustaceans","content":{"label":"Aquatic Crustacean for Aquarium","definition":{}}}'
+  pet.crested_gecko:
+    label: Crested Gecko
+    summary: A nocturnal lizard featuring an eye-lash like crest on its head.
+    info: The Crested Gecko originates from New Caledonia and was considered extinct until 1994. It is capable of jumping and active at night. Unlike other geckos, it does not require specialized UVB lighting.
+  pet.degu:
+    label: degus
+    summary: Small Chilean rodents resembling rats known scientifically under genus name 'octodus' which includes several species found exclusively throughout various regions across southern parts including Patagonia.
+    info: The degen is small South American relative of guinea pigs that resembles an inch-long rat-like animal called Octodon degus native only within Chile's borders today where it lives strictly during daylight hours due its nocturnal nature making them very active at night but also highly gregarious creatures who suffer greatly when isolated alone without companionship for long periods.
+  pet.discus_fish:
+    label: discus
+    summary: Showy flat-bodied fish regarded as kings of tropical aquaria.
+    info: Discuses (Symphysodon), large round Amazonian fish known for their vibrant colors, is among the most demanding freshwater aquarium species due to its specific water chemistry requirements—temperatures must be maintained between 28°C and 32°C. Young fry feed on mucus secreted by parents—a rare phenomenon even within aquatic life—and selective breeding has produced hundreds of color variations.
   pet.dog:
     label: dog
     summary: Loyal household pet, friend to humans.
     info: The domestic dog is a tamed wolf and humanity's oldest domesticated animal. There are over 400 breeds recognized, and it is known as 'man’s best friend.'
+  pet.dove_pet:
+    label: domestic pigeon
+    summary: A purely white bird raised either domestically or ceremonially.
+    info: The white pigeon is a domesticated rock dove bred specifically to have pure white plumage. It's calm and friendly—unlike parrots it doesn't bite or cry—and has been widely adopted globally at weddings, funerals, celebrations due its symbolic association peace since biblical times.
+  pet.electric_eel:
+    label: electric eel
+    summary: South American freshwater ray-finned fish capable of generating high-voltage electricity.
+    info: Electric eel is not actually an eel but related to catfish found in South America's rivers like the Amazon River basin. It can generate electrical discharges up to 860 volts for stunning prey or defense purposes.
+  pet.ferret:
+    label: ferret
+    summary: Playful domestic carnivore resembling wild Mustelas like martens.
+    info: The ferret is a domestic form of the European polecat that was first bred over two thousand five hundred years ago for hunting rabbits. It's curious and playful by nature—typically sleeping between fourteen to eighteen hours daily—and spends its remaining time playing energetically. The animal has an unmistakable musky scent coming from anal glands.
+  pet.frilled_lizard:
+    label: Frilled Lizard
+    summary: Australian reptile displaying strikingly expanded frilly skin folds during defense.
+    info: '{"hint":"lizard that displays a large neck frill when threatened (Chlamydosaurus kingii)","info":"The Frilled Lizard is an Australian lizard which flares out its wide collar around the throat to intimidate predators by hissing loudly while standing on their hind legs. The frills have extended ribs for support. It runs bipedally like a miniature Tyrannosaurus rex; it''s popular among nature photographers and serves as symbol of Australia’s Northern Territory."}'
+  pet.gerbil:
+    label: gerbil
+    summary: Small desert-dwelling rodent known for long furry tail.
+    info: The Mongolian gerbil originates from dry steppes of Mongolia and China. It is adapted to life in deserts by drinking very little water due to its efficient processing of moisture from food.
   pet.goldfish:
     label: goldfish
     summary: An orange-gold fish kept in an aquarium.
@@ -22,14 +112,94 @@ cards:
     label: golden hamster
     summary: A small cute rodent with cheek pouches.
     info: The golden hamster is a popular household pet. It stores food in its cheeks, is active mainly at night, and enjoys running on a wheel.
+  pet.hedgehog:
+    label: African Hedgehog
+    summary: Small prickly insect-eater that rolls itself up like a ball to protect against threats.
+    info: The African hedgehog is an exotic pet popular worldwide for its unique appearance and behavior.
+  pet.hermit_crab:
+    label: hermit crab
+    summary: Small exotic pet living inside an adopted shell.
+    info: Hermit crabs do not have their own hard shells to protect themselves so they use empty snail shells instead. When growing up, hermit crabs look for bigger shells because it is important when outgrowing them becomes necessary due growth stages reached during life cycle progression within natural habitats found along tropical beaches where these crustaceans live together forming social groups.
+  pet.iguana:
+    label: iguana
+    summary: A large green reptile native mainly throughout tropical regions across continents often favored among exotic pets.
+    info: Green Iguanas can grow up to two meters long and originate primarily from South America. They require diverse vegetation for their diet along with proper lighting such as UVA exposure while being strictly vegetarian animals when raised domestically by humans.
+  pet.koi:
+    label: Kap r KoI
+    summary: A decorative fish known fo its vivid co lors kept In garden ponds.
+    info: '{"hint":"decorative variant of common carp raised for vibrant colors (Cypri nus c arpi o)","inf o": "The Koi Carp is an ornamental breed of com mon ca rp developed i Japan since th e l8th century .\nThere are over loo color va riant s ; t he most valua ble specim ens can sell f or thousands of crowns \nThe longest-lived individual , Han ako lived up to zoo years old."}'
+  pet.leopard_gecko:
+    label: Leopard Gecko
+    summary: Small spotted night-active lizard suitable for beginners.
+    info: The Leopard Gecko originates from desert regions of Pakistan and Afghanistan. Unlike most geckos, it does not have suction pads on its fingers so cannot climb glass surfaces easily like other species can though they're still quite agile otherwise-wise too! They also possess movable eyelids which is unusual among their kind since many types don't even blink at all really speaking here either way now moving onto next point about tail storage abilities
+  pet.lovebird:
+    label: Lovebird
+    summary: A colorful bird forming lifelong mating partnerships.
+    info: An agapornis is a small African parakeet known for its strong pair bonding behavior. Pairs feed each other, preen together, and spend most of their time在一起，hence the name 'lovebird'. There are nine species differing by coloration and distribution.
+  pet.mandarin_fish:
+    label: mandarin
+    summary: World's most vibrant sea creature featuring psychedelic patterns.
+    info: The mandarinfish is an extremely colorful marine coral reef inhabitant found throughout the Indian Ocean to Pacific regions that has no scales but instead displays its vivid colors through specialized cells containing pigments called chromatophores along fluorescent compounds. It feeds exclusively on tiny live prey making it very difficult for captivity.
+  pet.mini_pig:
+    label: micro hog
+    summary: A miniature pet-sized version used primarily by people who want companionship.
+    info: Miniature pigs (such as teacup or micro pigs) are bred small breeds of domesticated hogs that can be intelligent, clean animals capable of learning tricks like dogs do; they avoid sunlight because their lack sweat glands forces them to roll around in mud for temperature regulation.
+  pet.moon_jellyfish:
+    label: moon jelly
+    summary: Translucent bio-luminescing jellyfish raised in specially designed aquaria.
+    info: The moon jelly is almost transparent through which we can see its four circular gonads. It was previously very difficult to keep it alive in an aquarium but today there are specialized round tanks called kreisels available for that purpose.
+  pet.mouse:
+    label: white lab rat
+    summary: Intelligent rodent selectively bred for use either alone when required due its adaptability across various experimental conditions.
+    info: The white laboratory rat is an intelligent species that can quickly learn to navigate through complex environments like maze structures using spatial memory techniques developed over generations by selective breeding programs focused on both scientific research applications and aesthetic traits for companion animal purposes.
+  pet.mynah_bird:
+    label: hill myna
+    summary: A talking Asian songbird renowned for its exceptional ability to mimic voices.
+    info: The hill myna is an Asian songbird known for having some of the best speaking abilities among all birds. It can imitate human voice tones, accents, and inflections remarkably precisely. Native to Southeast Asia and India.
+  pet.oscar_fish:
+    label: Oscar
+    summary: Big clever Cichlasoma originating from Amazon basin reacting upon seeing someone.
+    info: '{"hint":"Large smart cichlid native to South America (Astronotus ocellatus)","info":"The Oscar fish is an large South American cichlid known for its intelligence and ability to recognize their owner.\nIt requires a spacious aquarium at least 67 gallons big), regular feeding on live food or frozen feed. \nThe species can grow up over than 4 inches long and lives about more then five years . Sometimes behaves like dog rather than being just simple creature ; swims towards glass when approached by human."}'
   pet.parrot:
     label: parrot
     summary: Colorful bird capable of mimicking human speech.
     info: The budgerigar is the most widespread species of parrot kept as a pet. It is intelligent, social, and can imitate sounds and even words.
+  pet.prairie_dog:
+    label: prairie dog
+    summary: Social burrow-dwelling mammal found throughout various regions within Northern Hemisphere's temperate zones where there exists suitable habitat conditions such as open fields without too much vegetation cover.
+    info: '{"hint":"burrowing social rodent from North American grasslands (Cynomys)","info":"The prairie dog is a social rodent living underground colonies across large areas in North America.\nThe animal communicates using an advanced system of sounds that scientists consider to be among most complex non-human languages after human language itself; these vocalizations have been described by researchers studying them closely over many years now - they''re really quite fascinating! \nPrairie dogs got their name because when threatened predators approach near enough for danger purposes like coyotes do then they bark loudly warning others nearby about potential threats through barking calls which sound similar but not exactly alike depending on what kind predator it actually was approaching towards them at any given moment during daylight hours."}'
+  pet.quail_pet:
+    label: pet quail
+    summary: A low-maintenance little bird suitable to be kept indoors.
+    info: The button quail is a tiny bird raised either for its eggs or as an indoor companion animal. It weighs only about 100 grams making it the smallest domesticated poultry species.
   pet.rabbit:
     label: rabbit
     summary: Furry pet with long ears.
     info: The domestic rabbit is a popular household pet with soft fur and distinctive long ears. It feeds on hay, vegetables, and fresh grass.
+  pet.rat:
+    label: '"rat"'
+    summary: '{"summary":"An unexpectedly clever rodent companion that has been selectively bred over time"}'
+    info: '{"info":"The domestic rat is one of the most intelligent rodents; it can learn to respond to its name and perform complex tasks.\nThe species forms strong bonds both with humans and other rats due to their social development.\nThey live for two to three years; they symbolize wit and prosperity across Asia according to Chinese astrology.\nTheir keen sense of smell helps detect landmines throughout Africa."}'
+  pet.red_eared_slider:
+    label: Red-eared Turtle
+    summary: A popular freshwater aquarium turtle known by its characteristic red stripes near their ears.
+    info: The Red-eared Slider is native to North America and is considered the most widespread reptile kept in captivity worldwide. Its distinctive red stripe behind each eye helps distinguish it from similar species. It requires both an aquatic area for swimming and dry space under ultraviolet lighting where they can bask.
+  pet.sea_horse_pet:
+    label: Seahorses In Aquarium
+    summary: A fascinating creature found within specialized saltwater tanks.
+    info: The seahorse is considered to be among the most difficult aquatic animals for breeding captivity due to its need for live food such as artemia and mysids along with an undisturbed environment. The male carries young ones inside his abdominal pouch giving birth hundreds at once while living together they form lifelong pair bonds making them faithful partners throughout their lives.
+  pet.sugar_glider:
+    label: sugar glider
+    summary: A small social flying mammal native to Australia that uses skin flaps under its limbs to glide.
+    info: The sugar glider is a small Australian marsupial capable of gliding thanks to a membrane stretched between its front legs and back feet along their body length. It has large eyes adapted for night vision and lives very socially—loneliness can affect it negatively. Sugar gliders communicate through barking sounds, hissing noises, and purring.
+  pet.tarantula:
+    label: tarantula
+    summary: Large furry exotic pet suitable only for brave individuals.
+    info: The pinktoe tarantula is popular among beginners due to its calm nature. The largest species, Goliath birdeater, holds the title for being the world's biggest spider by leg span exceeding 30 centimeters. Its venom can be compared to that of wasp stings but poses little danger even if it bites healthy adults.
+  pet.tortoise_pet:
+    label: land tortoise
+    summary: Long-living land tortoise—a lifelong pet.
+    info: The Hermann's turtle is a small southern European terrestrial turtle popular as a pet companion that can live over 100 years—often outliving its owner—it also undergoes winter hibernation during which it nearly stops metabolizing.
   pet.turtle:
     label: turtle
     summary: Slow animal with a hard shell.

@@ -2,22 +2,182 @@ lang: tr
 pivot: false
 title: Duygular
 cards:
+  emotion.amazed:
+    label: ' Şaşkınlık '
+    summary: '''Bir olayla veya duruşla ilgili olumsuzluklar'''
+    info: |-
+      Etimoloji olarak 'şaşkınlık' anlamına gelen korkunç bir şey ya da devasa bir şeyle karşılaşınca oluşan yoğun duygudur
+      Kendi önemsizliğini azaltır ve çevre ile bağlanma hissi artar
+      Araştırmalar şaşırtıcı şeylerin strese karşı etkin olduğunu göstermiştir
+  emotion.amused:
+    label: neşe
+    summary: Eğlenecek ya da rahatlamak gibi hafif memnuniyet hissi.
+    info: |-
+      Neşelenmek, bir şeyin eğlenceli veya ilginç olmasından kaynaklanan hafif ve olumlu duygudur.
+      Gülümsemekten farklıdır çünkü gülüşmenin sonucu neşe değildir ama her zaman neşe gülmeye yol açmayabilir.
+      sosyal olarak paylaşılan bu duygu bize diğer insanların ilettiği mesajları daha komik bulmakta yardımcı olmaktadır.
   emotion.angry:
     label: öfke
     summary: Kuvvetli bir kızgınlık ya da öfkeyi hissetmek, sinirlenmek.
     info: Öfke, algılanan adaletsizlik veya tehditlere karşı duygusal bir reaksiyondur. Kalp atış hızını artırır ve bedeni 'mücadele et ya da kaç' cevabına hazırlar.
+  emotion.annoyed:
+    label: sinirlilik
+    summary: Tekrarlayan bir uyarıcıya bağlı olarak ortaya çıkan az miktarda öfkelenme duygusu.
+    info: Sinirli olma hissi tekrar eden rahatsız etkilerden kaynaklanır ve genellikle daha yoğun öfkeye dönüşebilir. Uygun dinlenmemek, açlık veya yorgunluk gibi faktörler bu duruma neden olabilir.
+  emotion.anxious:
+    label: Endişe
+    summary: Belirsizlikle ilgili sinirli korku veya hareketlenme hissetmek.
+    info: Anksiyete gelecekten kaynaklanan olumsuz bir duygu ve endişe hissi olarak tanımlanır; hafif düzeyde anksiyeteyse performansı artırıcı etkisi vardır.
+  emotion.bored:
+    label: bos zaman
+    summary: Uyarılara tepki vermeksizin ilgisizlik hissi.
+    info: Boş zaman duygusu uyaranların veya anlamlı bir aktivitenin yokluğundan kaynaklanır ve olumsuz duygu durumu olarak tanımlanabilir. Yeni deneyimler aramaya ya da yaratıcı düşünmeye yol açabilir; ayrıca fırsatları bulmada motive edici etki gösterir. Araştırmalar ise kronik boş zamanda depresyon riskinin arttığını ortaya koymaktadır.
   emotion.calm:
     label: sakin
     summary: İçsel barış ve rahatlık hissi; sakin olmak.
     info: Sakın, zihinsel ve fiziksel denge durumudur. Kalbin atımını yavaşlatır, nefes almayı derinleştirir ve net düşünmeyi ve iyi karar vermeyi sağlar.
+  emotion.cheerful:
+    label: mutluluğun
+    summary: Olumsucunluğu içeren keyifli hali
+    info: Nezamankı bir duygusal durumdur ve neşeli bir tutumu ile olumluykenliği karakterize eder.Radostnost dış yönlü kişilikle ilişkilidir ve yüksek miktarda olumlu etkiyle bağlantılıdır.Bulaştırıcıdır çünkü mutluluk içinde olan kişilerin varlığı çevresindekileri daha iyi hissettirebilir.Araştırmalar göstermiştir ki mutlu insanlar güçlü bağışıklık sistemine sahiptir.
+  emotion.confident:
+    label: özgüven
+    summary: Kendini güvensiz hissetmekten kaçınmak için küçük adımlarla ilerlemek önemlidir.
+    info: Özgüven duygusal olarak kendine olan güvenin bir durumudur. Dik oturma ya da konuşma gibi hareketlerle ifade edilir.
+  emotion.confused:
+    label: karışıklık
+    summary: Bir şeyden emin olmakta veya anlamakta zorlanma duygusu.
+    info: Karmaşık bir durumu ya da bilgiyi anlayamadığımızda karışıklık hissi oluşur ve öğrenmenin doğal parçasıdır.
+  emotion.content:
+    label: memnu
+    summary: Daha fazlasını istemeyerek yarattığı sakinliğiyle tanınır.
+    info: Memnuniyet, değişime ihtiyaç duymayan sakin ve olumsuz bir duygu durumu olarak tanımlanır. Memnunluk mutluluktan farklıdır çünkü memnuncülük sessizken mutluluğa göre daha hareketli hale gelir. Budizm'in aydınlanma yolunda santos olan bu değer temel etik ilke sayılır.
+  emotion.curious:
+    label: meraklı
+    summary: Yeni öğrenmeye veya anlayışa duyulan heves.
+    info: İnatçılık yeni bilgileri ve deneyimleri aramaya başlayan motivasyonel bir durumdur. Ödüllendirme sistemi olan dopamin ile ilişkilidir; gerçekten keyif vermektedir.
+  emotion.delighted:
+    label: neşelenmiş mutluluğa
+    summary: Hoş bir şeyin yaşanmasıyla oluşan yoğun bir愉悦.
+    info: 'Neşeli mutluluk hoş olaylardan veya sürprizlerden kaynaklanır ve bu güçlü olumlu duyguya yol açar. Temel memnutluktan daha fazla enerjisini gösterir: atlamak, bağırma ya da gülümsemelerle ifade eder. Evrimsel olarak istenen sonuçları pekiştirici bir davranıştır.'
+  emotion.determined:
+    label: azım
+    summary: Engellere rağmen belirlenmiş amaçları gerçekleştirmeyi amaçlayan azime sahip olmaktan bahsediyoruz.
+    info: Azim bir motivasyonel duygusal durumdur ve kararlılıkla ilgili olarak karakteristik özelliklerini taşır; bu da engelleri aşmak için güçlü niyet ile ilişkilidir. Azım Angela Duckworth'un 'grit' kavramıyla yakından bağlantılıdır ki burada tutkuyla sabırlı olma karışık hale gelmektedir.
+  emotion.disappointed:
+    label: hayalkırıklığı
+    summary: Gerçeklik beklentinizi karşılamadığında oluşan kötü bir his.
+    info: Hayal kırıklığına duygu ya da çaba açısından yüksek yatırım yapıldığında daha güçlü olur. Araştırmalar beklentilerin temel olduğunu gösteriyor ve düşük beklenti az hayal kırıklığı demektir.
+  emotion.disgusted:
+    label: iskençe
+    summary: Olumsuz uyaranla karşılaşma durumuyla oluşan güçlü itici his.
+    info: İskence temelde zararlı şeylerden koruyan bir duygudur (toksik besinler ve hastalıklardır). Evrimleşmiş işlevi bozuğ yemeği tüketmekten kaçınmak için çalışmaktadır. Burun kıvrılması, dil dili dışarı çıkarma gibi belirgin ifadelere yol açabilir.
+  emotion.embarrassed:
+    label: utanka
+    summary: Sosyal bir durumdaki utanma hissi.
+    info: Utangaçlık sosyal bir duygusaldır ve topluluk kurallarını ihlal ettiğimizi düşünerek ortaya çıkar. Bu durumu kızarıklıkla yüz ifadesi değişimiyle ya da gözlerin başka yöne çevrilmesi ile belli ederken bedeni çökmüş hale gelir. Sosyal işlevleri vardır çünkü diğer insanlar için bizim de bu standartları bilgiye sahip olduğumuzu göstermektedir.
   emotion.excited:
     label: heyecanlı
     summary: Güçlü bir heyecan ve memnunluk dolu beklenti hissi.
     info: Heyecan, olumlu bir duygu olan keyifli bir etkinliğin beklenmesiyle ilişkili yoğun bir duygudur. Enerjiyi artırır, kalp atışını hızlandırır ve yaratıcı düşünmeyi destekler.
+  emotion.frustrated:
+    label: frustasyon
+    summary: Hedeфинe ulaşmakta zorlanıldığında hissedilen sinirli durum.
+    info: Frustasyon, hedeflerimiz engeller yüzünden bozulduğunda ortaya çıkan bir duygudadır. Konştrüktif eylem yani alternatif arama ya da agresyon gibi yıkıcı davranışlara yol açabilir. Frustum-teorisi adı verilen bu psikolojik kuram yüzyılın otuz yılında etkin olmuştur.
+  emotion.grateful:
+    label: minnet
+    summary: Bizim sahip olduğumuza veya aldığımıza karşı değer vermenin sıcak hissi.
+    info: Minnet duygusu bizim hayatımızda olan iyilikleri fark ettiğinde ortaya çıkan olumludur bir duygu olarak tanımlanır. Pozitif bilimin araştırmalarına göre düzenli minnettari ifade edebilmek mutluluğu artırabilir ve fiziki keyfin olduğu gibi beynin ödüllendirilmesi merkezlerini aktive eder.
+  emotion.guilty:
+    label: guilt
+    summary: Pain felt upon violating personal ethical standards.
+    info: Guilt is an emotion that arises when we commit what we consider to be bad actions. It differs from shame; guilt focuses on specific behavior while shame concerns oneself entirely. Guilt has social functions such as motivating apologies and corrections thus strengthening moral conduct.
   emotion.happy:
     label: mutlu
     summary: Nezehirli bir duygudur; iyi hissedebilmekle ilişkilidir.
     info: Mutluluk dopamin ve seratonin salgılanmasıyla bağlantılı olumlu bir duygudur. Gülümseme, canlı el gönüllü hareketleri ve açık bedensel duruşlar ile kendini gösterir.
+  emotion.hopeful:
+    label: Umutsuzluk
+    summary: Geleceğe dair optimistik his.
+    info: |-
+      Umut bir duygudur ve daha iyi bir gelecek için arzuyu ile onun ulaşılabilir olduğuna olan imanı içerir.
+      Zor durumlarda dirençli olmanın ana unsurlarından birisidir.
+      Araştırmalar umut düzeyleri yüksek hastalardaki iyiyşmenin hızlı olduğunu göstermiştir.
+  emotion.hopeless:
+    label: Umutsuzluk
+    summary: Yaklaşan geleceğe dair hiçbir iyi şey beklenmediği hissi
+    info: Umut yokluğu olumsuz duygusal bir durumdur ve bu durumun temel özelliği mevcut durumu iyileştiremeyeceği düşüncesiyle karakterize edilir. Umutsızlık depresyon için belirgin bir özelliktir ayrıca intihar riskini artıran etkenlerden biri olarak kabul edilmektedir Aaron Becks’in bilişsel tedavi yaklaşımı umutsuzluğun merkezi fikri olduğunu ortaya koymuştur Görüş değiştirme ve bilgi yeniden yapılandırma ise oldukça verimli müdahale yöntemleri haline gelmiştir
+  emotion.inspired:
+    label: ilham
+    summary: Yaratıcı eylemlere yönelten yaratıcılığı artıran duygusal durum.
+    info: İnceleme ya da muazzam bir eser veya kişiyle karşılaşmayla ilişkilidir. Sinir bilim açısından öncelikli korteks ve ödül merkezini aktive eder.
+  emotion.irritated:
+    label: sinirlilik
+    summary: Küçük uyarılara karşı yüksek duyarlılık halidir.
+    info: Sinir bozukluğu emosyonel olarak artan bir tepki durumudur ve küçük uyaranlar bile daha güçlü olumsuz tepkilere neden olabilir.
+  emotion.jealous:
+    label: nefret
+    summary: Başka kimseyle kıyaslandığında doğabilecek olumsuz duygudur.
+    info: Nezamankarlıktan kaynaklanır; karşılaştırılarak ortaya çıkar ve başkasının sahip olduğu bir şeyi istemeyi içerir.
+  emotion.joyful:
+    label: sevince
+    summary: Yoğun sevincin hissiyle dolar; coşkulu.
+    info: Sevinç yoğun bir olumlu duygudur ve mutlulukla dolup taşar. İçsel motive ile ilişkilidir ayrıca Csikszentmiha'lı'nın akış durumuyla bağlantılıdır. Evrimsel işlev olarak sosyal bağları güçlendirip faydalı davranışlar için teşvik eder.
+  emotion.lonely:
+    label: yalnızlık
+    summary: Diğer kişilerle iletişim eksiliğinden dolayı üzüntülü olma duygusu.
+    info: Yalnızlık çevredeki insan sayısından bağımsız olarak bireysel bir izole hissidir. Uygun tedavi olmadan sağlıksı sorunların güçlü bir öngörücüsüdür; kronik yalnızlık yaşam süresini kısaltır. Beyin sosyal acıyı fiziki ağrı gibi tepkilendiriyor.
+  emotion.loving:
+    label: aşk
+    summary: Başkasına karşı güçlü bir ilgi hissi.
+    info: Aşkı kompleks bir duygudur ki yakınlık, bakım, güven ve samimiği içerir. Nörokimyasal olarak oksitosine bağlıdır ayrıca dopamina ve serotonina da bağlanır. Helen Fisherman cinsel arzuyu, romatik aşkı ve derini tutunmayı ayırt eder.Aşık her kültürde bulunan evrensel bir duygu olmasına rağmen ifade şekillerinde farklılık göstermektedir.
+  emotion.melancholy:
+    label: melencolia
+    summary: Düşünce ile güzellik öğelerini barındıran sessiz üzüntüler.
+    info: |-
+      Melenholi mavi ruahsu birleştiren düşünmek ve belirli tatlılık duygularını içeren düşünceli bir duygu durumudur.
+      Eski doktorlar bu hissi siyah safra artışıyla ilişkilendirirdiler çünkü kelime Yunanca 'mela' yani koyun anlamına gelirken 'chole', safra demektir.
+      melankoliyi depresyonla karıştırmayın - sanat eserleri ya da şiirler genellikle melancolideki etkinliği övdüğü için burada daha çok estetik unsurlar vardır.
+  emotion.miserable:
+    label: muazzam
+    summary: Derin nefret ve ağrı hissi; üzüntünün en kötü hali.
+    info: Muazzamlık yoğun bir olumsuz duygusal durumdur ve derin nefret ile acıya karakteristik olarak tanımlanır.
+  emotion.nervous:
+    label: sinirdirmek
+    summary: Bazı etkinliklerden önce hissedilen hafif endişe.
+    info: Sinirdirme genellikle önemli bir olayın öncüsü olarak görülen hafif kaygı durumuna denmektedir ve fiziyolojik açıdan sempatik sinir sisteminin artan aktive edilmesine bağlıdır ki bunun belirtisi kalbin hızlı atması ya da terlemektir. Hafif düzeydeki sinirdirim performansı artırırken aşırı olanlar ise bozucu olabilir.
+  emotion.nostalgic:
+    label: eskizim
+    summary: Geçmişe özlem hissi.
+    info: Eskizm bir eylemdir tatlı-bitterlikle dolu duygusudur; geçmişe dair anılar memurluk verici ama aynı zamanda acılıdır.Esinti kelimesi Yunanca 'nostos' (evine dönüş), ve 'algos'(ağrı)'dan gelir.Araştırmalar eskizmin sosyal bağları arttırdığını gösteriyor.
+  emotion.optimistic:
+    label: iyinamcılık
+    summary: Olumsuzluklardan kaçınmak yerine iyi şeyleri bekleyen bir tutumdur.
+    info: İyinamcilik olumlu sonuçlar beklemeyle karakterize edilen bilişsel-duygusal bir tarzdır. Martin Seligman (iyi psikoloji), iyinamlılığı dirençli olmanın temel unsuru olarak belirlemişti. İynamlı insanlar daha uzun yaşar ve sağlıklıdırlar.
+  emotion.overwhelmed:
+    label: yorgunluk
+    summary: Bir anda çok fazla şeyle başa çıkmak isteyen hissetme.
+    info: Yanlış yönetilen beklentilerin kaynaklarımızı aşması durumunda yorgunluk oluşur ve bilişsel bir çöküşe veya duygusal patlamalara yol açar.
+  emotion.peaceful:
+    label: huzursuzluksızlık
+    summary: Duygusal olarak rahatlamış hissetmek.
+    info: Calmness is defined by being stress-free without any disturbances; it's considered an important goal for meditation practices such as mindful awareness and Zen-style sitting still to achieve inner peace through focused attention on breath regulation techniques that activate your body’s natural relaxation response system which lowers heart rate variability levels while also reducing blood pressure readings over time when practiced consistently.
+  emotion.pessimistic:
+    label: pesimmiz
+    summary: Bağlamda olumsuzluklarla ilgilenmekten kaçınmak için riskleri değerlendirmeye yardımcı olan gerçekçi değerlendirme yararı sağlayabilir.
+    info: Pesimmizm bir kelimeyle ifade edilebilen ve kötü sonuçları beklemeyi içeren duygusal-bilişsel bir tarzdır.
+  emotion.playful:
+    label: oyunculuk
+    summary: Canlı hissedilip eğlenmek isteme durumu.
+    info: Oyun ruhu bir duygusal durumdur ve oyunun keyfiyle, eğlenebilirliği ile tanınır; bu da deneyimlerle ilgili olumlu düşünme tarzıdır. Yetişkinlikte yaratıcılık için güçlü bir öngörücüdür ayrıca iyi psikolojik sağlıkla ilişkilidir. Evrimci fonksiyon olarak ise becerilerin güvenli ortamlarda gelişmesini sağlar.
+  emotion.proud:
+    label: gökgürültüsü
+    summary: Başarıdan dolayı duyulan olumlu memnuniyet.
+    info: Gururluluk başarı hissi veya değerli bir şeye üyelikle ilişkilendirilen duygudur. Dikkat çekici duruşlar ve başı yukarı kaldırma gibi hareketler gururu ifade eden evrenselleşmiş davranışlardır.
+  emotion.relieved:
+    label: nefeste rahatlama
+    summary: Tansiyon veya tehdidin geçmesinden sonra hoş bir his.
+    info: Nefes almanın kolaylaşması ve kasların gevşemesini içerir.
   emotion.sad:
     label: üzgün
     summary: Üzüntü ya da memnakiyetsizlik hissi; depresif durumda olmak.
@@ -26,6 +186,18 @@ cards:
     label: korkmuş
     summary: Tehlikeden veya tehditten korkma hissi.
     info: Korku temel bir savunma duygusudur. Adrenaliği serbest bırakmaya başlar, kalp atışını hızlandırır ve vücuttan kaçmak ya da korunmak için hazırlık yapar.
+  emotion.serious:
+    label: ciddi
+    summary: Komik olmayan sessiz davranış; ciddi meselelere yoğunlaşma.
+    info: Ciddiyet odaklanma ve hafiflikten uzak durmakla karakterize edilen duygusal bir tutumdur.
+  emotion.shocked:
+    label: şok
+    summary: Beklenmedik bir haber ya da olayla aniden şaşırtılma hissi.
+    info: Şok beklenmedik veya şoke edici bir bilgiye maruz kalma sonucunda ortaya çıkan yoğun bir duygudur. Aniden donmak, ağzı açık ve göz bebeklerinin genişlemesiyle karakterizedir. Evrimci fonksiyon olarak bu durum etkinliği durdurarak yeni gelen bilgileri işleyebilmeyi sağlar.
+  emotion.shy:
+    label: utangaçlıktır
+    summary: Sosyal durumlarda özellikle de bilinemeyen kişiler karşısında duyulan heyecanlanma hissi.
+    info: Utangaçlık sosyal bir duygudur ve yabancı insanlarla olan etkileşimde sinirlilik ile çekingenlikle karakterize olunmaktadır. Utanka içe dönük kişiliğe bağlıdır ancak ikisi aynı şey değildir. Hafif utangacılık normaldir ama şiddetli formu yani toplumsal panik bozukluğu işlevsel engel oluşturabilir.
   emotion.surprised:
     label: şaşkın
     summary: Beklenmedik bir durum karşısında aniden hayrete dalmak.
@@ -34,3 +206,15 @@ cards:
     label: yorgun
     summary: Fiziksel ya da zihinsel yorgunluk hissi, dinlenmeye ihtiyaç duyulması.
     info: Yorgunluk bedenden dinleneceğine dair bir sinyaldir. Uykuya eğilim, tepki süresinin uzaması ve dikkat kapasitesinde azalma ile kendini gösterir.
+  emotion.upset:
+    label: oğruluk
+    summary: Olumsız bir hadise nedeniyle meydana gelen kötü hissettirici duygu bozukluğu.
+    info: Oğruluk, üzüntüyü, öfkeler ve kaygıyı birleştiren genel olumsuz duygusal durumdur. Olumlu olaylar ya da çatışmalar gibi isteksizin oluşan etkinliklere karşı tepki olarak ortaya çıkar. Fiziolojik açıdan strese yol açan eksenleri aktive ederek kortizolu artırır.
+  emotion.worried:
+    label: endise
+    summary: Olası gelecekteki sorunlardaki yinelemli negatif düşünceler.
+    info: |-
+      Endişe bilişsel duygusal bir durumdur ve olası tehditleri önceden görmenin odaklıdır.
+      Hafif endişeler uyum sağlar ve hazırlık yapmaya motive eder.
+      Pisleyici endişelere sahip olan kişilerde günlük işlevler bozulabilir çünkü bu tür davranışlara anksiyete hastalığı denir.
+      Farkındalık kazanma becerisi ile endişeli döngüye son vermek etkili teknolojilerdir.
