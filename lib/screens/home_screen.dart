@@ -24,6 +24,7 @@ typedef _LangTile = ({
   String l2,
   String style,
   DeckEntitlement entitlement,
+  PriorityStats? stats,
 });
 
 class _HomeScreenState extends State<HomeScreen> {
@@ -74,12 +75,15 @@ class _HomeScreenState extends State<HomeScreen> {
       final owned = _entitlements.ownedEntitlements;
       final langTiles = await Future.wait(owned.map((e) async {
         final deck = await _langDeckService.load(e.deckSlug);
+        await _priorityService.loadPriorities(e.deckSlug, deck.cards);
+        stats[e.deckSlug] = _priorityService.getStats(deck.cards);
         return (
           deck: deck,
           l1: e.sourceLang,
           l2: e.targetLang,
           style: e.style,
           entitlement: e,
+          stats: stats[e.deckSlug],
         );
       }));
 
@@ -400,6 +404,10 @@ class _LangDeckTile extends StatelessWidget {
                         fontSize: 14,
                       ),
                     ),
+                    if (tile.stats != null) ...[
+                      const SizedBox(height: 8),
+                      _KnowledgeProgressBar(stats: tile.stats!),
+                    ],
                   ],
                 ),
               ),

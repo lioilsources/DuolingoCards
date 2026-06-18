@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/language_deck.dart';
+import '../services/priority_service.dart';
 import '../widgets/card_stack.dart';
 import '../widgets/language_card_widget.dart';
 
@@ -23,27 +24,76 @@ class LanguageDeckStudyScreen extends StatefulWidget {
 }
 
 class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
-  int _index = 0;
-  bool _showFront = true; // persists across card navigation
+  final PriorityService _priorityService = PriorityService();
+  final List<LanguageCard> _history = [];
+  int _historyIndex = 0;
+  bool _showFront = true;
 
   List<LanguageCard> get _cards => widget.deck.cards;
 
+  @override
+  void initState() {
+    super.initState();
+    _loadPriorities();
+  }
+
+  Future<void> _loadPriorities() async {
+    await _priorityService.loadPriorities(widget.deck.slug, _cards);
+    if (mounted && _cards.isNotEmpty) {
+      final first = _priorityService.selectNextCard(_cards);
+      setState(() {
+        _history.add(first);
+        _historyIndex = 0;
+      });
+    }
+  }
+
+  void _ensureNextCardReady() {
+    if (_historyIndex >= _history.length - 1) {
+      final next = _priorityService.selectNextCard(_cards);
+      setState(() => _history.add(next));
+    }
+  }
+
+  void _goNext() {
+    if (_cards.isEmpty) return;
+    if (_historyIndex < _history.length - 1) {
+      setState(() => _historyIndex++);
+    } else {
+      final next = _priorityService.selectNextCard(_cards);
+      setState(() {
+        _history.add(next);
+        _historyIndex = _history.length - 1;
+      });
+    }
+  }
+
+  void _goPrev() {
+    if (_historyIndex > 0) setState(() => _historyIndex--);
+  }
+
+  void _markUnknown() {
+    _history[_historyIndex].increasePriority();
+    _priorityService.savePriorities(widget.deck.slug, _cards);
+    _goNext();
+  }
+
+  void _markKnown() {
+    _history[_historyIndex].decreasePriority();
+    _priorityService.savePriorities(widget.deck.slug, _cards);
+    _goNext();
+  }
+
   void _onSwipe(SwipeDirection direction) {
     switch (direction) {
-      case SwipeDirection.up:
       case SwipeDirection.left:
-        if (_index < _cards.length - 1) {
-          setState(() => _index++);
-          // _showFront intentionally preserved
-        }
-        break;
-      case SwipeDirection.down:
+        _markUnknown();
       case SwipeDirection.right:
-        if (_index > 0) {
-          setState(() => _index--);
-          // _showFront intentionally preserved
-        }
-        break;
+        _markKnown();
+      case SwipeDirection.up:
+        _goNext();
+      case SwipeDirection.down:
+        _goPrev();
     }
   }
 
@@ -51,10 +101,10 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
 
   @override
   Widget build(BuildContext context) {
-    if (_cards.isEmpty) {
+    if (_history.isEmpty) {
       return Scaffold(
         appBar: AppBar(title: Text(widget.deck.title(widget.l1))),
-        body: const Center(child: Text('Žádné karty')),
+        body: const Center(child: CircularProgressIndicator()),
       );
     }
 
@@ -83,11 +133,9 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
         child: Padding(
           padding: const EdgeInsets.all(20),
           child: CardStack<LanguageCard>(
-            // Key excludes _showFront so CardStack survives flips;
-            // index change recreates stack → new card starts on current face.
-            key: ValueKey('$_index-${widget.style}'),
-            cards: _cards,
-            currentIndex: _index,
+            key: ValueKey(widget.style),
+            cards: _history,
+            currentIndex: _historyIndex,
             showFront: _showFront,
             cardBuilder: (card, showFront) => LanguageCardWidget(
               key: ValueKey(card.key),
@@ -99,10 +147,33 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
               showFront: showFront,
               onTap: _onDoubleTap,
             ),
+            badgeBuilder: (card) => _PriorityBadge(priority: card.priority),
             onSwipe: _onSwipe,
             onDoubleTap: _onDoubleTap,
+            onPeekNext: _ensureNextCardReady,
           ),
         ),
+      ),
+    );
+  }
+}
+
+class _PriorityBadge extends StatelessWidget {
+  final int priority;
+  const _PriorityBadge({required this.priority});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      decoration: BoxDecoration(
+        color: Colors.black.withValues(alpha: 0.6),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Text(
+        '$priority/10',
+        style: const TextStyle(
+            color: Colors.white, fontSize: 14, fontWeight: FontWeight.bold),
       ),
     );
   }

@@ -1,3 +1,5 @@
+import 'prioritizable_card.dart';
+
 /// No-backend "language deck" model — the v2 learning-card format produced by
 /// the content pipeline (`content build` → deck.json).
 ///
@@ -56,20 +58,43 @@ class LanguageDeck {
 }
 
 /// One concept with per-language `label`, `summary` and `info`.
-class LanguageCard {
+class LanguageCard implements PrioritizableCard {
   final String key;
   final String image;
   final Map<String, String> label;
   final Map<String, String> summary;
   final Map<String, String> info;
 
-  const LanguageCard({
+  @override
+  String get priorityId => key;
+
+  @override
+  int priority;
+
+  @override
+  DateTime? lastSeen;
+
+  LanguageCard({
     required this.key,
     required this.image,
     required this.label,
     required this.summary,
     required this.info,
+    this.priority = 5,
+    this.lastSeen,
   });
+
+  @override
+  void increasePriority() {
+    if (priority < 10) priority++;
+    lastSeen = DateTime.now();
+  }
+
+  @override
+  void decreasePriority() {
+    if (priority > 1) priority--;
+    lastSeen = DateTime.now();
+  }
 
   /// Word shown on the foreign side (the language being learned).
   String? foreignLabel(String l2) => _pick(label, l2);

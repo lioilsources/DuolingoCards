@@ -1,18 +1,19 @@
 import 'dart:convert';
 import 'dart:math';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../models/flashcard.dart';
+import '../models/prioritizable_card.dart';
 
 class PriorityService {
   static const String _priorityKey = 'card_priorities';
   final Random _random = Random();
 
-  Future<void> savePriorities(String deckId, List<Flashcard> cards) async {
+  Future<void> savePriorities<T extends PrioritizableCard>(
+      String deckId, List<T> cards) async {
     final prefs = await SharedPreferences.getInstance();
     final Map<String, dynamic> data = {};
 
     for (final card in cards) {
-      data[card.id] = {
+      data[card.priorityId] = {
         'priority': card.priority,
         'lastSeen': card.lastSeen?.toIso8601String(),
       };
@@ -21,7 +22,8 @@ class PriorityService {
     await prefs.setString('${_priorityKey}_$deckId', json.encode(data));
   }
 
-  Future<void> loadPriorities(String deckId, List<Flashcard> cards) async {
+  Future<void> loadPriorities<T extends PrioritizableCard>(
+      String deckId, List<T> cards) async {
     final prefs = await SharedPreferences.getInstance();
     final jsonString = prefs.getString('${_priorityKey}_$deckId');
 
@@ -31,8 +33,8 @@ class PriorityService {
         json.decode(jsonString) as Map<String, dynamic>;
 
     for (final card in cards) {
-      if (data.containsKey(card.id)) {
-        final cardData = data[card.id] as Map<String, dynamic>;
+      if (data.containsKey(card.priorityId)) {
+        final cardData = data[card.priorityId] as Map<String, dynamic>;
         card.priority = cardData['priority'] as int? ?? 5;
         if (cardData['lastSeen'] != null) {
           card.lastSeen = DateTime.parse(cardData['lastSeen'] as String);
@@ -41,9 +43,7 @@ class PriorityService {
     }
   }
 
-  Flashcard selectNextCard(List<Flashcard> cards) {
-    // Vážený random výběr podle priority
-    // Vyšší priorita = vyšší šance na výběr
+  T selectNextCard<T extends PrioritizableCard>(List<T> cards) {
     final totalWeight = cards.fold<int>(0, (sum, card) => sum + card.priority);
     var randomValue = _random.nextInt(totalWeight);
 
@@ -54,13 +54,12 @@ class PriorityService {
       }
     }
 
-    // Fallback - vrátit první kartu
     return cards.first;
   }
 
-  /// Returns knowledge stats: (known, learning, unknown) counts
+  /// Returns knowledge stats: (known, learning, unknown) counts.
   /// Known: priority 1-2, Learning: 3-7, Unknown: 8-10
-  PriorityStats getStats(List<Flashcard> cards) {
+  PriorityStats getStats<T extends PrioritizableCard>(List<T> cards) {
     int known = 0;
     int learning = 0;
     int unknown = 0;

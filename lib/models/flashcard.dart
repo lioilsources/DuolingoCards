@@ -1,3 +1,5 @@
+import 'prioritizable_card.dart';
+
 enum CardType { basic, quiz }
 
 class QuizField {
@@ -116,8 +118,10 @@ class CardMedia {
   }
 }
 
-class Flashcard {
+class Flashcard implements PrioritizableCard {
   final String id;
+  @override
+  String get priorityId => id;
   final CardType type;
   final String frontText;
   final String backText;
@@ -131,7 +135,9 @@ class Flashcard {
   final String? backAudio;
   final String? imageUrl;
 
+  @override
   int priority;
+  @override
   DateTime? lastSeen;
 
   Flashcard({
@@ -202,11 +208,13 @@ class Flashcard {
     };
   }
 
+  @override
   void increasePriority() {
     if (priority < 10) priority++;
     lastSeen = DateTime.now();
   }
 
+  @override
   void decreasePriority() {
     if (priority > 1) priority--;
     lastSeen = DateTime.now();
