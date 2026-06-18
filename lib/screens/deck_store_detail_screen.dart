@@ -1,11 +1,18 @@
+import 'dart:io';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:path_provider/path_provider.dart';
 
+import '../config/cdn_config.dart';
 import '../models/language_deck.dart';
+import '../services/deck_download_service.dart';
 import '../services/entitlement_service.dart';
+import '../services/language_deck_service.dart';
 import '../utils/locale_direction.dart';
 import '../widgets/credit_pack_sheet.dart';
 import '../widgets/pronounce_button.dart';
+import 'language_deck_study_screen.dart';
 
 /// Detail page for a deck in the store.
 ///
@@ -29,8 +36,12 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
   late String _l1;
   late String _l2;
   late String _style;
-  int _previewIndex = 0; // 0–2
+  int _previewIndex = 0;
   bool _unlocking = false;
+  bool _isDownloading = false;
+  double _downloadProgress = 0.0;
+  bool _isAvailableLocally = false;
+  String? _docsPath;
 
   String get _deviceLang =>
       SchedulerBinding.instance.platformDispatcher.locale.languageCode;
@@ -46,6 +57,19 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     _style = widget.deck.defaultStyle.isNotEmpty
         ? widget.deck.defaultStyle
         : (widget.deck.styles.isNotEmpty ? widget.deck.styles.first : '');
+    _checkAvailability();
+  }
+
+  Future<void> _checkAvailability() async {
+    final available =
+        await LanguageDeckService.instance.isAvailableLocally(widget.deck.slug);
+    final docsDir = await getApplicationDocumentsDirectory();
+    if (mounted) {
+      setState(() {
+        _isAvailableLocally = available;
+        _docsPath = docsDir.path;
+      });
+    }
   }
 
   LanguageDeck get _deck => widget.deck;
@@ -55,9 +79,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
 
   int get _cost => _ent.creditCostForTier(_deck.tier);
 
-  // Preview cards: at most 3.
-  List<LanguageCard> get _previewCards =>
-      _deck.cards.take(3).toList();
+  List<LanguageCard> get _previewCards => _deck.cards.take(3).toList();
 
   Future<void> _unlock() async {
     setState(() => _unlocking = true);
@@ -77,11 +99,51 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
           ),
         ),
       );
+    } else if (!_isAvailableLocally) {
+      _startDownload();
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Přidáno na domovskou obrazovku')),
       );
     }
+  }
+
+  Future<void> _startDownload() async {
+    setState(() {
+      _isDownloading = true;
+      _downloadProgress = 0.0;
+    });
+    final success = await DeckDownloadService.instance.downloadDeck(
+      _deck.slug,
+      _style,
+      onProgress: (p) {
+        if (mounted) setState(() => _downloadProgress = p);
+      },
+    );
+    if (!mounted) return;
+    LanguageDeckService.instance.invalidateCache(_deck.slug);
+    setState(() {
+      _isDownloading = false;
+      _isAvailableLocally = success;
+    });
+    if (!success) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Stahování selhalo. Zkus to znovu.')),
+      );
+    }
+  }
+
+  Future<void> _openStudyScreen() async {
+    final deck = await LanguageDeckService.instance.load(_deck.slug);
+    if (!mounted) return;
+    Navigator.of(context).push(MaterialPageRoute(
+      builder: (_) => LanguageDeckStudyScreen(
+        deck: deck,
+        l1: _l1,
+        l2: _l2,
+        style: _style,
+      ),
+    ));
   }
 
   @override
@@ -98,7 +160,6 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
             child: ListView(
               padding: const EdgeInsets.fromLTRB(16, 12, 16, 8),
               children: [
-                // Language pair picker
                 _LangPairPicker(
                   languages: langs,
                   l1: _l1,
@@ -110,7 +171,6 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                   }),
                 ),
 
-                // Style chips (only when multiple styles available)
                 if (_deck.styles.length > 1) ...[
                   const SizedBox(height: 10),
                   Wrap(
@@ -127,9 +187,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
 
                 const SizedBox(height: 16),
 
-                // Card preview
                 if (card != null) ...[
-                  // Navigation: prev / counter / next (only first 3 cards)
                   if (cards.length > 1)
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -161,13 +219,13 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                     l2: _l2,
                     slug: _deck.slug,
                     style: _style,
+                    docsPath: _docsPath,
                   ),
                 ],
               ],
             ),
           ),
 
-          // Bottom action bar
           const Divider(height: 1),
           ListenableBuilder(
             listenable: _ent,
@@ -206,20 +264,25 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                             ),
                           ),
                         TextButton(
-                          onPressed: () =>
-                              showCreditPackSheet(context, _ent),
+                          onPressed: () => showCreditPackSheet(context, _ent),
                           child: const Text('+ Koupit kredity'),
                         ),
                       ],
                     ),
                     const SizedBox(height: 8),
-                    _ActionButton(
-                      tier: _deck.tier,
-                      isActivated: _isActivated,
-                      cost: _cost,
-                      unlocking: _unlocking,
-                      onUnlock: _unlock,
-                    ),
+                    if (_isDownloading)
+                      _DownloadProgress(progress: _downloadProgress)
+                    else
+                      _ActionButton(
+                        tier: _deck.tier,
+                        isActivated: _isActivated,
+                        isAvailableLocally: _isAvailableLocally,
+                        cost: _cost,
+                        unlocking: _unlocking,
+                        onUnlock: _unlock,
+                        onDownload: _startDownload,
+                        onOpen: _openStudyScreen,
+                      ),
                   ],
                 ),
               );
@@ -239,6 +302,7 @@ class _CardPreview extends StatelessWidget {
   final String l2;
   final String slug;
   final String style;
+  final String? docsPath;
 
   const _CardPreview({
     required this.card,
@@ -246,6 +310,7 @@ class _CardPreview extends StatelessWidget {
     required this.l2,
     required this.slug,
     required this.style,
+    this.docsPath,
   });
 
   @override
@@ -263,20 +328,14 @@ class _CardPreview extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            // Image
             ClipRRect(
               borderRadius: BorderRadius.circular(8),
               child: card.image.isNotEmpty
-                  ? Image.asset(
-                      'decks/$slug/images/$style/${card.image}',
-                      fit: BoxFit.contain,
-                      errorBuilder: (ctx, err, st) => _placeholder(),
-                    )
+                  ? _buildImage(card.image)
                   : _placeholder(),
             ),
             const SizedBox(height: 16),
 
-            // Foreign side
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -299,7 +358,6 @@ class _CardPreview extends StatelessWidget {
 
             const Divider(height: 28),
 
-            // Native side
             DirectionalText(
               nativeLabel,
               lang: l1,
@@ -313,6 +371,31 @@ class _CardPreview extends StatelessWidget {
             ],
           ],
         ),
+      ),
+    );
+  }
+
+  /// Load image from docsDir → bundled asset → CDN.
+  Widget _buildImage(String image) {
+    if (docsPath != null) {
+      final file =
+          File('$docsPath/decks/$slug/images/$style/$image');
+      if (file.existsSync()) {
+        return Image.file(file,
+            height: 180,
+            fit: BoxFit.contain,
+            errorBuilder: (_, __, ___) => _placeholder());
+      }
+    }
+    return Image.asset(
+      'decks/$slug/images/$style/$image',
+      height: 180,
+      fit: BoxFit.contain,
+      errorBuilder: (_, __, ___) => CachedNetworkImage(
+        imageUrl: '$kCdnBaseUrl/decks/$slug/images/$style/$image',
+        height: 180,
+        fit: BoxFit.contain,
+        errorWidget: (_, __, ___) => _placeholder(),
       ),
     );
   }
@@ -380,7 +463,8 @@ class _LangPairPicker extends StatelessWidget {
   }
 
   Widget _dropdown(String value, ValueChanged<String> onChanged) {
-    final safeValue = languages.contains(value) ? value : languages.firstOrNull ?? value;
+    final safeValue =
+        languages.contains(value) ? value : languages.firstOrNull ?? value;
     return DropdownButton<String>(
       value: safeValue,
       onChanged: (v) {
@@ -398,28 +482,62 @@ class _LangPairPicker extends StatelessWidget {
 
 // ── Action button ─────────────────────────────────────────────────────────────
 
+class _DownloadProgress extends StatelessWidget {
+  final double progress;
+  const _DownloadProgress({required this.progress});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        LinearProgressIndicator(value: progress),
+        const SizedBox(height: 6),
+        Text(
+          'Stahuji... ${(progress * 100).round()}%',
+          style: Theme.of(context).textTheme.bodySmall,
+          textAlign: TextAlign.center,
+        ),
+      ],
+    );
+  }
+}
+
 class _ActionButton extends StatelessWidget {
   final int tier;
   final bool isActivated;
+  final bool isAvailableLocally;
   final int cost;
   final bool unlocking;
   final VoidCallback onUnlock;
+  final VoidCallback onDownload;
+  final VoidCallback onOpen;
 
   const _ActionButton({
     required this.tier,
     required this.isActivated,
+    required this.isAvailableLocally,
     required this.cost,
     required this.unlocking,
     required this.onUnlock,
+    required this.onDownload,
+    required this.onOpen,
   });
 
   @override
   Widget build(BuildContext context) {
-    if (isActivated) {
+    if (isActivated && isAvailableLocally) {
       return FilledButton.icon(
-        onPressed: null,
-        icon: const Icon(Icons.check_rounded),
-        label: const Text('Aktivní'),
+        onPressed: onOpen,
+        icon: const Icon(Icons.play_arrow_rounded),
+        label: const Text('Studovat'),
+      );
+    }
+    if (isActivated && !isAvailableLocally) {
+      return FilledButton.icon(
+        onPressed: onDownload,
+        icon: const Icon(Icons.download_rounded),
+        label: const Text('Stáhnout'),
       );
     }
     if (tier == 0) {

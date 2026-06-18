@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:path_provider/path_provider.dart';
 import '../models/language_deck.dart';
 import '../services/priority_service.dart';
 import '../widgets/card_stack.dart';
@@ -28,6 +29,7 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
   final List<LanguageCard> _history = [];
   int _historyIndex = 0;
   bool _showFront = true;
+  String? _docsPath;
 
   List<LanguageCard> get _cards => widget.deck.cards;
 
@@ -38,10 +40,12 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
   }
 
   Future<void> _loadPriorities() async {
+    final docsDir = await getApplicationDocumentsDirectory();
     await _priorityService.loadPriorities(widget.deck.slug, _cards);
     if (mounted && _cards.isNotEmpty) {
       final first = _priorityService.selectNextCard(_cards);
       setState(() {
+        _docsPath = docsDir.path;
         _history.add(first);
         _historyIndex = 0;
       });
@@ -146,6 +150,7 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
               style: widget.style,
               showFront: showFront,
               onTap: _onDoubleTap,
+              docsDir: _docsPath,
             ),
             badgeBuilder: (card) => _PriorityBadge(priority: card.priority),
             onSwipe: _onSwipe,

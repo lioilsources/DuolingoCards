@@ -1,5 +1,8 @@
+import 'dart:io';
 import 'dart:math';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import '../config/cdn_config.dart';
 import '../models/language_deck.dart';
 import '../utils/locale_direction.dart';
 import 'pronounce_button.dart';
@@ -12,6 +15,10 @@ class LanguageCardWidget extends StatefulWidget {
   final String style;
   final bool showFront;
   final VoidCallback? onTap;
+  /// Path to the app documents directory. When provided, images are loaded
+  /// from `docsDir/decks/slug/images/style/` if the file exists; otherwise
+  /// the bundled asset is used with a CDN fallback.
+  final String? docsDir;
 
   const LanguageCardWidget({
     super.key,
@@ -22,6 +29,7 @@ class LanguageCardWidget extends StatefulWidget {
     required this.style,
     required this.showFront,
     this.onTap,
+    this.docsDir,
   });
 
   @override
@@ -65,6 +73,40 @@ class _LanguageCardWidgetState extends State<LanguageCardWidget>
     _controller.dispose();
     super.dispose();
   }
+
+  /// Returns the card image from the best available source:
+  /// 1. Local file in docsDir (downloaded deck)
+  /// 2. Bundled asset (tier-0 or legacy deck)
+  /// 3. CDN via CachedNetworkImage (fallback for CDN-only decks)
+  Widget _buildCardImage() {
+    final image = widget.card.image;
+    if (image.isEmpty) return const SizedBox.shrink();
+
+    final docsDir = widget.docsDir;
+    if (docsDir != null) {
+      final file = File(
+          '$docsDir/decks/${widget.slug}/images/${widget.style}/$image');
+      if (file.existsSync()) {
+        return Image.file(file,
+            fit: BoxFit.contain,
+            errorBuilder: (_, _, _) => _imagePlaceholder());
+      }
+    }
+
+    return Image.asset(
+      'decks/${widget.slug}/images/${widget.style}/$image',
+      fit: BoxFit.contain,
+      errorBuilder: (_, _, _) => CachedNetworkImage(
+        imageUrl:
+            '$kCdnBaseUrl/decks/${widget.slug}/images/${widget.style}/$image',
+        fit: BoxFit.contain,
+        errorWidget: (_, _, _) => _imagePlaceholder(),
+      ),
+    );
+  }
+
+  Widget _imagePlaceholder() =>
+      Icon(Icons.image_outlined, size: 80, color: Colors.grey.shade300);
 
   void _doFlip() {
     if (_controller.isAnimating) return;
@@ -120,15 +162,7 @@ class _LanguageCardWidgetState extends State<LanguageCardWidget>
               flex: 3,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(12),
-                child: Image.asset(
-                  'decks/${widget.slug}/images/${widget.style}/${widget.card.image}',
-                  fit: BoxFit.contain,
-                  errorBuilder: (ctx, err, st) => Icon(
-                    Icons.image_outlined,
-                    size: 80,
-                    color: Colors.grey.shade300,
-                  ),
-                ),
+                child: _buildCardImage(),
               ),
             ),
           const SizedBox(height: 12),
@@ -186,15 +220,7 @@ class _LanguageCardWidgetState extends State<LanguageCardWidget>
               flex: 2,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(12),
-                child: Image.asset(
-                  'decks/${widget.slug}/images/${widget.style}/${widget.card.image}',
-                  fit: BoxFit.contain,
-                  errorBuilder: (ctx, err, st) => Icon(
-                    Icons.image_outlined,
-                    size: 80,
-                    color: Colors.grey.shade300,
-                  ),
-                ),
+                child: _buildCardImage(),
               ),
             ),
           const SizedBox(height: 12),
