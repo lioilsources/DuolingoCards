@@ -16,11 +16,15 @@ class LanguageDeckScreen extends StatefulWidget {
   final String nativeLang;
   final String foreignLang;
 
+  /// Image style to use; falls back to [LanguageDeck.defaultStyle].
+  final String? initialStyle;
+
   const LanguageDeckScreen({
     super.key,
     required this.deck,
     this.nativeLang = 'cs',
     this.foreignLang = 'en',
+    this.initialStyle,
   });
 
   @override
@@ -30,6 +34,7 @@ class LanguageDeckScreen extends StatefulWidget {
 class _LanguageDeckScreenState extends State<LanguageDeckScreen> {
   late String _l1;
   late String _l2;
+  late String _style;
   int _index = 0;
 
   @override
@@ -42,6 +47,7 @@ class _LanguageDeckScreenState extends State<LanguageDeckScreen> {
     _l2 = langs.contains(widget.foreignLang)
         ? widget.foreignLang
         : (langs.length > 1 ? langs[1] : _l1);
+    _style = widget.initialStyle ?? widget.deck.defaultStyle;
   }
 
   @override
@@ -72,7 +78,7 @@ class _LanguageDeckScreenState extends State<LanguageDeckScreen> {
                     l1: _l1,
                     l2: _l2,
                     slug: deck.slug,
-                    style: deck.defaultStyle,
+                    style: _style,
                   ),
           ),
           if (cards.length > 1)

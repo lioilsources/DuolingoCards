@@ -3,18 +3,18 @@ import 'dart:io' show Platform;
 /// Local, bundled product catalog (`assets/catalog.json`).
 ///
 /// Contains:
-/// - [free] deck slugs (tier 0 — no purchase needed)
 /// - [creditPacks] consumable IAP products that add credits to the balance
-/// - [deckPricing] tier → credit cost mapping
+/// - [deckPricing] tier → credit cost mapping (tier 0 = free, tier 1+ = paid)
 /// - [products] legacy non-consumable products (kept for restore compatibility)
+///
+/// Whether a deck is free is determined solely by its tier: a deck is free
+/// when [creditsForTier](deck.tier) == 0.
 class StoreCatalog {
-  final List<String> free;
   final List<CreditPack> creditPacks;
   final List<DeckPricingTier> deckPricing;
   final List<StoreProduct> products;
 
   const StoreCatalog({
-    required this.free,
     required this.creditPacks,
     required this.deckPricing,
     required this.products,
@@ -22,9 +22,6 @@ class StoreCatalog {
 
   factory StoreCatalog.fromJson(Map<String, dynamic> json) {
     return StoreCatalog(
-      free: (json['free'] as List<dynamic>? ?? const [])
-          .map((e) => e as String)
-          .toList(),
       creditPacks: (json['creditPacks'] as List<dynamic>? ?? const [])
           .map((e) => CreditPack.fromJson(e as Map<String, dynamic>))
           .toList(),
@@ -36,8 +33,6 @@ class StoreCatalog {
           .toList(),
     );
   }
-
-  bool isFree(String deckSlug) => free.contains(deckSlug);
 
   /// Credit cost for a given [tier] (defaults to 1 if tier not in deckPricing).
   int creditsForTier(int tier) {

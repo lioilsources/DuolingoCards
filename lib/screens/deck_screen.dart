@@ -4,6 +4,7 @@ import '../models/flashcard.dart';
 import '../services/deck_service.dart';
 import '../services/priority_service.dart';
 import '../widgets/card_stack.dart';
+import '../widgets/card_widget_factory.dart';
 
 class DeckScreen extends StatefulWidget {
   final Deck? deck;
@@ -23,7 +24,6 @@ class _DeckScreenState extends State<DeckScreen> {
   bool _showFront = true;
   bool _isLoading = true;
 
-  // Historie viděných kartiček
   final List<Flashcard> _history = [];
   int _historyIndex = 0;
 
@@ -57,11 +57,9 @@ class _DeckScreenState extends State<DeckScreen> {
 
     switch (direction) {
       case SwipeDirection.up:
-        // Další karta (navigace vpřed)
         _moveToNextCard();
         break;
       case SwipeDirection.down:
-        // Zpět v historii
         if (_historyIndex > 0) {
           _historyIndex--;
           setState(() {
@@ -70,13 +68,11 @@ class _DeckScreenState extends State<DeckScreen> {
         }
         break;
       case SwipeDirection.left:
-        // Neznám - zvýšit prioritu
         _currentCard!.increasePriority();
         _priorityService.savePriorities(_deck!.id, _deck!.cards);
         _moveToNextCard();
         break;
       case SwipeDirection.right:
-        // Znám - snížit prioritu
         _currentCard!.decreasePriority();
         _priorityService.savePriorities(_deck!.id, _deck!.cards);
         _moveToNextCard();
@@ -86,13 +82,11 @@ class _DeckScreenState extends State<DeckScreen> {
 
   void _moveToNextCard() {
     if (_historyIndex < _history.length - 1) {
-      // Jsme v historii - jít vpřed
       _historyIndex++;
       setState(() {
         _currentCard = _history[_historyIndex];
       });
     } else {
-      // Jsme na konci - vybrat novou kartičku
       final nextCard = _priorityService.selectNextCard(_deck!.cards);
       _history.add(nextCard);
       _historyIndex = _history.length - 1;
@@ -102,11 +96,9 @@ class _DeckScreenState extends State<DeckScreen> {
     }
   }
 
-  /// Ensure next card is ready in history (for film strip preview)
   void _ensureNextCardReady() {
     if (_deck == null) return;
     if (_historyIndex >= _history.length - 1) {
-      // Add next card to history for preview
       final nextCard = _priorityService.selectNextCard(_deck!.cards);
       setState(() {
         _history.add(nextCard);
@@ -137,7 +129,6 @@ class _DeckScreenState extends State<DeckScreen> {
         elevation: 0,
         foregroundColor: Colors.black87,
         actions: [
-          // Hide language toggle for quiz decks (visual front)
           if (_deck != null && !_deck!.isQuizDeck)
             IconButton(
               icon: Icon(_showFront ? Icons.translate : Icons.abc),
@@ -150,17 +141,45 @@ class _DeckScreenState extends State<DeckScreen> {
         child: Padding(
           padding: const EdgeInsets.all(20),
           child: _history.isNotEmpty
-              ? CardStack(
+              ? CardStack<Flashcard>(
                   key: ValueKey(_showFront.toString()),
                   cards: _history,
                   currentIndex: _historyIndex,
                   showFront: _showFront,
+                  cardBuilder: (card, showFront) => CardWidgetFactory.build(
+                    card: card,
+                    showFront: showFront,
+                    onTap: _onDoubleTap,
+                  ),
+                  badgeBuilder: (card) =>
+                      _PriorityBadge(priority: card.priority),
                   onSwipe: _onSwipe,
                   onDoubleTap: _onDoubleTap,
                   onPeekNext: _ensureNextCardReady,
                 )
               : const Center(child: Text('Žádné karty')),
         ),
+      ),
+    );
+  }
+}
+
+class _PriorityBadge extends StatelessWidget {
+  final int priority;
+  const _PriorityBadge({required this.priority});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      decoration: BoxDecoration(
+        color: Colors.black.withValues(alpha: 0.6),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Text(
+        '$priority/10',
+        style: const TextStyle(
+            color: Colors.white, fontSize: 14, fontWeight: FontWeight.bold),
       ),
     );
   }

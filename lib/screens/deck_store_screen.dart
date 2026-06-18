@@ -181,7 +181,7 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
           );
           return _DeckTile(
             deck: deck,
-            isFree: _entitlements.catalog?.isFree(deck.slug) ?? false,
+            isFree: _entitlements.creditCostForTier(deck.tier) == 0,
             cost: _entitlements.creditCostForTier(deck.tier),
             onTap: () => _openDetail(deck),
           );

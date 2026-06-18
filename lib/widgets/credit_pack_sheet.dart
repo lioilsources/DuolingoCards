@@ -105,8 +105,8 @@ class _PackTile extends StatelessWidget {
         title: Text('${pack.credits} kreditů'),
         subtitle: pack.bonus != null ? Text(pack.bonus!) : null,
         trailing: FilledButton(
-          onPressed: price != null ? onBuy : null,
-          child: Text(price ?? '...'),
+          onPressed: onBuy,
+          child: Text(price ?? 'Koupit'),
         ),
       ),
     );

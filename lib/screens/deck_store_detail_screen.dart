@@ -6,7 +6,6 @@ import '../services/entitlement_service.dart';
 import '../utils/locale_direction.dart';
 import '../widgets/credit_pack_sheet.dart';
 import '../widgets/pronounce_button.dart';
-import 'language_deck_screen.dart';
 
 /// Detail page for a deck in the store.
 ///
@@ -52,8 +51,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
   LanguageDeck get _deck => widget.deck;
   EntitlementService get _ent => widget.entitlements;
 
-  bool get _entitled =>
-      _ent.isEntitled(_deck.slug, _l1, _l2, _style, tier: _deck.tier);
+  bool get _isActivated => _ent.isActivated(_deck.slug, _l1, _l2, _style);
 
   int get _cost => _ent.creditCostForTier(_deck.tier);
 
@@ -80,20 +78,10 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
         ),
       );
     } else {
-      _openDeck();
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Přidáno na domovskou obrazovku')),
+      );
     }
-  }
-
-  void _openDeck() {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => LanguageDeckScreen(
-          deck: _deck,
-          nativeLang: _l1,
-          foreignLang: _l2,
-        ),
-      ),
-    );
   }
 
   @override
@@ -141,14 +129,6 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
 
                 // Card preview
                 if (card != null) ...[
-                  _CardPreview(
-                    card: card,
-                    l1: _l1,
-                    l2: _l2,
-                    slug: _deck.slug,
-                    style: _style,
-                  ),
-                  const SizedBox(height: 12),
                   // Navigation: prev / counter / next (only first 3 cards)
                   if (cards.length > 1)
                     Row(
@@ -174,6 +154,14 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                         ),
                       ],
                     ),
+                  const SizedBox(height: 8),
+                  _CardPreview(
+                    card: card,
+                    l1: _l1,
+                    l2: _l2,
+                    slug: _deck.slug,
+                    style: _style,
+                  ),
                 ],
               ],
             ),
@@ -184,6 +172,9 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
           ListenableBuilder(
             listenable: _ent,
             builder: (context, _) {
+              final activatedCount = _ent.ownedEntitlements
+                  .where((e) => e.deckSlug == _deck.slug)
+                  .length;
               return Padding(
                 padding: const EdgeInsets.fromLTRB(16, 10, 16, 16),
                 child: Column(
@@ -196,6 +187,24 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                         const SizedBox(width: 6),
                         Text('${_ent.creditBalance} kreditů'),
                         const Spacer(),
+                        if (activatedCount > 0)
+                          Container(
+                            margin: const EdgeInsets.only(right: 8),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 8, vertical: 3),
+                            decoration: BoxDecoration(
+                              color: Colors.green.shade100,
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: Text(
+                              '$activatedCount aktivní',
+                              style: TextStyle(
+                                fontSize: 12,
+                                color: Colors.green.shade700,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                          ),
                         TextButton(
                           onPressed: () =>
                               showCreditPackSheet(context, _ent),
@@ -206,7 +215,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                     const SizedBox(height: 8),
                     _ActionButton(
                       tier: _deck.tier,
-                      entitled: _entitled,
+                      isActivated: _isActivated,
                       cost: _cost,
                       unlocking: _unlocking,
                       onUnlock: _unlock,
@@ -261,7 +270,7 @@ class _CardPreview extends StatelessWidget {
                   ? Image.asset(
                       'decks/$slug/images/$style/${card.image}',
                       fit: BoxFit.contain,
-                      errorBuilder: (_, __, ___) => _placeholder(),
+                      errorBuilder: (ctx, err, st) => _placeholder(),
                     )
                   : _placeholder(),
             ),
@@ -391,14 +400,14 @@ class _LangPairPicker extends StatelessWidget {
 
 class _ActionButton extends StatelessWidget {
   final int tier;
-  final bool entitled;
+  final bool isActivated;
   final int cost;
   final bool unlocking;
   final VoidCallback onUnlock;
 
   const _ActionButton({
     required this.tier,
-    required this.entitled,
+    required this.isActivated,
     required this.cost,
     required this.unlocking,
     required this.onUnlock,
@@ -406,21 +415,24 @@ class _ActionButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (entitled || tier == 0) {
-      return Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Icon(Icons.check_circle,
-              color: Theme.of(context).colorScheme.primary, size: 20),
-          const SizedBox(width: 6),
-          Text(
-            tier == 0 ? 'Zdarma' : 'Odemčeno',
-            style: TextStyle(
-              color: Theme.of(context).colorScheme.primary,
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-        ],
+    if (isActivated) {
+      return FilledButton.icon(
+        onPressed: null,
+        icon: const Icon(Icons.check_rounded),
+        label: const Text('Aktivní'),
+      );
+    }
+    if (tier == 0) {
+      return FilledButton.icon(
+        onPressed: unlocking ? null : onUnlock,
+        icon: unlocking
+            ? const SizedBox(
+                width: 18,
+                height: 18,
+                child: CircularProgressIndicator(strokeWidth: 2),
+              )
+            : const Icon(Icons.add_rounded),
+        label: const Text('Přidat zdarma'),
       );
     }
     return FilledButton.tonal(

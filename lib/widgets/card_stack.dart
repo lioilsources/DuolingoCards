@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import '../models/flashcard.dart';
-import 'card_widget_factory.dart';
 
 enum SwipeDirection { up, down, left, right }
 
-class CardStack extends StatefulWidget {
-  final List<Flashcard> cards;
+class CardStack<T> extends StatefulWidget {
+  final List<T> cards;
   final int currentIndex;
   final bool showFront;
+  final Widget Function(T card, bool showFront) cardBuilder;
+  final Widget Function(T card)? badgeBuilder;
   final Function(SwipeDirection) onSwipe;
   final VoidCallback onDoubleTap;
   final VoidCallback? onPeekNext;
@@ -17,16 +17,18 @@ class CardStack extends StatefulWidget {
     required this.cards,
     required this.currentIndex,
     required this.showFront,
+    required this.cardBuilder,
+    this.badgeBuilder,
     required this.onSwipe,
     required this.onDoubleTap,
     this.onPeekNext,
   });
 
   @override
-  State<CardStack> createState() => _CardStackState();
+  State<CardStack<T>> createState() => _CardStackState<T>();
 }
 
-class _CardStackState extends State<CardStack>
+class _CardStackState<T> extends State<CardStack<T>>
     with SingleTickerProviderStateMixin {
   late AnimationController _animationController;
 
@@ -82,7 +84,6 @@ class _CardStackState extends State<CardStack>
   }
 
   void _onPanUpdate(DragUpdateDetails details) {
-    // Determine drag direction on first significant movement
     if (_isVerticalDrag == null) {
       final dx = details.delta.dx.abs();
       final dy = details.delta.dy.abs();
@@ -92,17 +93,13 @@ class _CardStackState extends State<CardStack>
     }
 
     if (_isVerticalDrag == true) {
-      // Vertical scroll - move film strip
       setState(() {
         _verticalOffset += details.delta.dy;
       });
-
-      // Peek next card when dragging up
       if (_verticalOffset < -50 && widget.onPeekNext != null) {
         widget.onPeekNext!();
       }
     } else if (_isVerticalDrag == false) {
-      // Horizontal swipe - rotate current card
       setState(() {
         _horizontalOffset += details.delta.dx;
         _rotation = _horizontalOffset / 500;
@@ -116,16 +113,13 @@ class _CardStackState extends State<CardStack>
     final velocityThreshold = 500.0;
 
     if (_isVerticalDrag == true) {
-      // Vertical: snap to next/previous card or bounce back
       if (_verticalOffset < -cardHeight * 0.25 || velocity.dy < -velocityThreshold) {
-        // Swipe up - next card
         if (widget.currentIndex < widget.cards.length - 1 || widget.onPeekNext != null) {
           _animateVerticalSnap(SwipeDirection.up);
         } else {
           _animateVerticalBack();
         }
       } else if (_verticalOffset > cardHeight * 0.25 || velocity.dy > velocityThreshold) {
-        // Swipe down - previous card
         if (widget.currentIndex > 0) {
           _animateVerticalSnap(SwipeDirection.down);
         } else {
@@ -135,7 +129,6 @@ class _CardStackState extends State<CardStack>
         _animateVerticalBack();
       }
     } else if (_isVerticalDrag == false) {
-      // Horizontal: know/don't know
       final screenWidth = MediaQuery.of(context).size.width;
       final threshold = screenWidth * 0.25;
 
@@ -252,7 +245,6 @@ class _CardStackState extends State<CardStack>
           onPanEnd: _onPanEnd,
           child: Stack(
             children: [
-              // Card stack (main content)
               ClipRect(
                 child: SizedBox(
                   width: double.infinity,
@@ -260,7 +252,6 @@ class _CardStackState extends State<CardStack>
                   child: Stack(
                     clipBehavior: Clip.none,
                     children: [
-                      // Previous card (above current)
                       if (widget.currentIndex > 0)
                         Positioned(
                           top: _verticalOffset - cardHeight - _cardGap,
@@ -269,12 +260,9 @@ class _CardStackState extends State<CardStack>
                           height: cardHeight,
                           child: _buildCard(
                             widget.cards[widget.currentIndex - 1],
-                            isCurrent: false,
                             cardHeight: cardHeight,
                           ),
                         ),
-
-                      // Current card (with horizontal swipe)
                       Positioned(
                         top: _verticalOffset,
                         left: 0,
@@ -282,8 +270,6 @@ class _CardStackState extends State<CardStack>
                         height: cardHeight,
                         child: _buildCurrentCard(cardHeight),
                       ),
-
-                      // Next card (below current)
                       if (widget.currentIndex < widget.cards.length - 1)
                         Positioned(
                           top: _verticalOffset + cardHeight + _cardGap,
@@ -292,7 +278,6 @@ class _CardStackState extends State<CardStack>
                           height: cardHeight,
                           child: _buildCard(
                             widget.cards[widget.currentIndex + 1],
-                            isCurrent: false,
                             cardHeight: cardHeight,
                           ),
                         ),
@@ -300,7 +285,6 @@ class _CardStackState extends State<CardStack>
                   ),
                 ),
               ),
-              // Film strip perforations overlay
               _buildFilmStripOverlay(cardHeight),
             ],
           ),
@@ -359,151 +343,101 @@ class _CardStackState extends State<CardStack>
     );
   }
 
-  Widget _buildCard(Flashcard card, {required bool isCurrent, required double cardHeight}) {
+  Widget _buildCard(T card, {required double cardHeight}) {
     return Opacity(
       opacity: 0.7,
-      child: CardWidgetFactory.build(
-        card: card,
-        showFront: widget.showFront,
-        onTap: null,
-      ),
+      child: widget.cardBuilder(card, widget.showFront),
     );
   }
 
-  Widget _buildCardWithIndicators({required Flashcard card, required double cardHeight}) {
+  Widget _buildCardWithIndicators({required T card, required double cardHeight}) {
     final horizontalOpacity = (_horizontalOffset.abs() / 100).clamp(0.0, 1.0);
     final verticalOpacity = (_verticalOffset.abs() / 100).clamp(0.0, 1.0);
 
     return Stack(
       clipBehavior: Clip.none,
       children: [
-        CardWidgetFactory.build(
-          card: card,
-          showFront: widget.showFront,
-          onTap: widget.onDoubleTap,
-        ),
+        widget.cardBuilder(card, widget.showFront),
 
-        // Priority badge - top left corner
-        Positioned(
-          top: 12,
-          left: 12,
-          child: Container(
-            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-            decoration: BoxDecoration(
-              color: Colors.black.withValues(alpha: 0.6),
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: Text(
-              '${card.priority}/10',
-              style: const TextStyle(
-                color: Colors.white,
-                fontSize: 14,
-                fontWeight: FontWeight.bold,
+        if (widget.badgeBuilder != null)
+          Positioned(
+            top: 12,
+            left: 12,
+            child: widget.badgeBuilder!(card),
+          ),
+
+        if (_verticalOffset < -30)
+          Positioned(
+            top: 20,
+            left: 0,
+            right: 0,
+            child: Center(
+              child: Opacity(
+                opacity: verticalOpacity,
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                  decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: const Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.arrow_upward, color: Colors.white, size: 24),
+                      SizedBox(width: 8),
+                      Text('NEXT', style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold)),
+                    ],
+                  ),
+                ),
               ),
             ),
           ),
-        ),
 
-          // Indicator "Next" (swipe up)
-          if (_verticalOffset < -30)
-            Positioned(
-              top: 20,
-              left: 0,
-              right: 0,
-              child: Center(
-                child: Opacity(
-                  opacity: verticalOpacity,
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: const Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Icon(Icons.arrow_upward, color: Colors.white, size: 24),
-                        SizedBox(width: 8),
-                        Text(
-                          'NEXT',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 24,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ],
-                    ),
+        if (_verticalOffset > 30)
+          Positioned(
+            bottom: 20,
+            left: 0,
+            right: 0,
+            child: Center(
+              child: Opacity(
+                opacity: verticalOpacity,
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                  decoration: BoxDecoration(
+                    color: Colors.grey.shade600,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: const Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.arrow_downward, color: Colors.white, size: 24),
+                      SizedBox(width: 8),
+                      Text('BACK', style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold)),
+                    ],
                   ),
                 ),
               ),
             ),
+          ),
 
-          // Indicator "Back" (swipe down)
-          if (_verticalOffset > 30)
-            Positioned(
-              bottom: 20,
-              left: 0,
-              right: 0,
-              child: Center(
-                child: Opacity(
-                  opacity: verticalOpacity,
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                    decoration: BoxDecoration(
-                      color: Colors.grey.shade600,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: const Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Icon(Icons.arrow_downward, color: Colors.white, size: 24),
-                        SizedBox(width: 8),
-                        Text(
-                          'BACK',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 24,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ],
-                    ),
+        if (_horizontalOffset > 30)
+          Positioned.fill(
+            child: Center(
+              child: Opacity(
+                opacity: horizontalOpacity,
+                child: Container(
+                  padding: const EdgeInsets.all(24),
+                  decoration: BoxDecoration(
+                    color: Colors.pink.shade100,
+                    shape: BoxShape.circle,
+                    boxShadow: [BoxShadow(color: Colors.pink.withValues(alpha: 0.3), blurRadius: 10, spreadRadius: 2)],
                   ),
+                  child: const Icon(Icons.favorite, color: Colors.pink, size: 60),
                 ),
               ),
             ),
+          ),
 
-          // Indicator "Know" (swipe right) - heart centered
-          if (_horizontalOffset > 30)
-            Positioned.fill(
-              child: Center(
-                child: Opacity(
-                  opacity: horizontalOpacity,
-                  child: Container(
-                    padding: const EdgeInsets.all(24),
-                    decoration: BoxDecoration(
-                      color: Colors.pink.shade100,
-                      shape: BoxShape.circle,
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.pink.withValues(alpha: 0.3),
-                          blurRadius: 10,
-                          spreadRadius: 2,
-                        ),
-                      ],
-                    ),
-                    child: const Icon(
-                      Icons.favorite,
-                      color: Colors.pink,
-                      size: 60,
-                    ),
-                  ),
-                ),
-              ),
-            ),
-
-        // Indicator "Don't know" (swipe left) - seedling centered
         if (_horizontalOffset < -30)
           Positioned.fill(
             child: Center(
@@ -514,19 +448,9 @@ class _CardStackState extends State<CardStack>
                   decoration: BoxDecoration(
                     color: Colors.green.shade100,
                     shape: BoxShape.circle,
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.green.withValues(alpha: 0.3),
-                        blurRadius: 10,
-                        spreadRadius: 2,
-                      ),
-                    ],
+                    boxShadow: [BoxShadow(color: Colors.green.withValues(alpha: 0.3), blurRadius: 10, spreadRadius: 2)],
                   ),
-                  child: const Icon(
-                    Icons.eco,
-                    color: Colors.green,
-                    size: 60,
-                  ),
+                  child: const Icon(Icons.eco, color: Colors.green, size: 60),
                 ),
               ),
             ),
@@ -535,4 +459,3 @@ class _CardStackState extends State<CardStack>
     );
   }
 }
-

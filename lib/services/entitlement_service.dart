@@ -51,11 +51,23 @@ class EntitlementService extends ChangeNotifier {
 
   /// Whether (slug, l1, l2, style) may be opened. Pass [tier] from
   /// [LanguageDeck.tier] so tier-0 decks are always accessible.
+  /// Whether this exact (slug, l1, l2, style) combination has been activated
+  /// (saved to the home screen). Unlike [isEntitled], does NOT return true
+  /// automatically for tier-0 decks — the user must explicitly activate.
+  bool isActivated(String slug, String l1, String l2, String style) {
+    final key = DeckEntitlement(
+      deckSlug: slug,
+      sourceLang: l1,
+      targetLang: l2,
+      style: style,
+    ).storageKey;
+    return _ownedKeys.contains(key);
+  }
+
   bool isEntitled(String slug, String l1, String l2, String style,
       {int tier = 1}) {
     final cat = _catalog;
     if (cat == null) return false;
-    if (cat.isFree(slug)) return true;
     if (cat.creditsForTier(tier) == 0) return true;
     final key = DeckEntitlement(
       deckSlug: slug,
@@ -80,16 +92,17 @@ class EntitlementService extends ChangeNotifier {
     String style, {
     int tier = 1,
   }) async {
-    final cost = creditCostForTier(tier);
-    if (_creditBalance < cost) return 'Nedostatek kreditů';
-    _creditBalance -= cost;
-    await _prefs?.setInt(_creditBalanceKey, _creditBalance);
     final ent = DeckEntitlement(
       deckSlug: slug,
       sourceLang: l1,
       targetLang: l2,
       style: style,
     );
+    if (_ownedKeys.contains(ent.storageKey)) return null;
+    final cost = creditCostForTier(tier);
+    if (_creditBalance < cost) return 'Nedostatek kreditů';
+    _creditBalance -= cost;
+    await _prefs?.setInt(_creditBalanceKey, _creditBalance);
     _ownedKeys.add(ent.storageKey);
     await _prefs?.setStringList(_deckEntitlementsKey, _ownedKeys.toList());
     notifyListeners();
@@ -147,7 +160,6 @@ class EntitlementService extends ChangeNotifier {
   bool isUnlocked(String deckSlug) {
     final cat = _catalog;
     if (cat == null) return false;
-    if (cat.isFree(deckSlug)) return true;
     final product = cat.productForDeck(deckSlug);
     return product != null && _ownedCodes.contains(product.code);
   }
