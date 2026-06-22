@@ -173,6 +173,9 @@ class EntitlementService extends ChangeNotifier {
   /// Ask the store to replay owned non-consumable products (legacy restore).
   Future<void> restore() => _iap.restorePurchases();
 
+  /// Call after a deck download completes so HomeScreen refreshes.
+  void notifyDeckReady() => notifyListeners();
+
   /// Debug-only: add [n] credits without a real purchase.
   Future<void> debugAddCredits(int n) async {
     _creditBalance += n;

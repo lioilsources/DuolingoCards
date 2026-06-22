@@ -1,8 +1,6 @@
 import 'dart:io';
 import 'dart:math';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import '../config/cdn_config.dart';
 import '../models/language_deck.dart';
 import '../utils/locale_direction.dart';
 import 'pronounce_button.dart';
@@ -96,12 +94,7 @@ class _LanguageCardWidgetState extends State<LanguageCardWidget>
     return Image.asset(
       'decks/${widget.slug}/images/${widget.style}/$image',
       fit: BoxFit.contain,
-      errorBuilder: (_, _, _) => CachedNetworkImage(
-        imageUrl:
-            '$kCdnBaseUrl/decks/${widget.slug}/images/${widget.style}/$image',
-        fit: BoxFit.contain,
-        errorWidget: (_, _, _) => _imagePlaceholder(),
-      ),
+      errorBuilder: (_, _, _) => _imagePlaceholder(),
     );
   }
 

@@ -126,7 +126,9 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
       _isDownloading = false;
       _isAvailableLocally = success;
     });
-    if (!success) {
+    if (success) {
+      widget.entitlements.notifyDeckReady();
+    } else {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Stahování selhalo. Zkus to znovu.')),
       );

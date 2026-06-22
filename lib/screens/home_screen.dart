@@ -60,6 +60,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
       final rawTiles = await Future.wait(owned.map((e) async {
         try {
+          // Only show decks that are fully available locally (bundled or downloaded).
+          if (!await _langDeckService.isAvailableLocally(e.deckSlug)) return null;
           final deck = await _langDeckService.load(e.deckSlug);
           await _priorityService.loadPriorities(e.deckSlug, deck.cards);
           stats[e.deckSlug] = _priorityService.getStats(deck.cards);
