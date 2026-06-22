@@ -83,34 +83,12 @@ flutter:
     - assets/data/
     # No-backend content (v2): bundled product catalog + language decks
     - assets/catalog.json
-    - assets/decks/
-    # Deck images (sourced from decks/ authoring tree)
-    - decks/animals-birds/images/flux-real/
-    - decks/animals-birds/images/pony-cartoon/
-    - decks/animals-farm/images/flux-real/
-    - decks/animals-farm/images/pony-cartoon/
-    - decks/animals-pets/images/flux-real/
-    - decks/animals-pets/images/pony-cartoon/
-    - decks/animals-reptiles/images/flux-real/
-    - decks/animals-reptiles/images/pony-cartoon/
-    - decks/animals-sea/images/flux-real/
-    - decks/animals-sea/images/pony-cartoon/
-    - decks/animals-wild/images/flux-real/
-    - decks/animals-wild/images/pony-cartoon/
-    - decks/body-parts/images/flux-real/
-    - decks/body-parts/images/pony-cartoon/
+    # Tier-0 (free, fully bundled): colors-basic
+    - assets/decks/colors-basic.json
     - decks/colors-basic/images/flux-real/
     - decks/colors-basic/images/pony-cartoon/
-    - decks/emotions/images/flux-real/
-    - decks/emotions/images/pony-cartoon/
-    - decks/food-fruits/images/flux-real/
-    - decks/food-fruits/images/pony-cartoon/
-    - decks/food-vegetables/images/flux-real/
-    - decks/food-vegetables/images/pony-cartoon/
-    - decks/numbers-1-10/images/flux-real/
-    - decks/numbers-1-10/images/pony-cartoon/
-    - decks/weather/images/flux-real/
-    - decks/weather/images/pony-cartoon/
+    # Tier-1 (CDN-downloadable): animals-insects — only JSON bundled, images via CDN
+    - assets/decks/animals-insects.json
     - assets/media/japanese-basics/
     - assets/media/japanese-50-animals/
     - assets/media/english-50-animals/
