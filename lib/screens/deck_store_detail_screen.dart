@@ -1,10 +1,8 @@
 import 'dart:io';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:path_provider/path_provider.dart';
 
-import '../config/cdn_config.dart';
 import '../models/language_deck.dart';
 import '../services/deck_download_service.dart';
 import '../services/entitlement_service.dart';
@@ -377,27 +375,26 @@ class _CardPreview extends StatelessWidget {
     );
   }
 
-  /// Load image from docsDir → bundled asset → CDN.
+  /// Load image: local docsDir (downloaded) → bundled asset (tier-0 or preview) → placeholder.
   Widget _buildImage(String image) {
     if (docsPath != null) {
-      final file =
-          File('$docsPath/decks/$slug/images/$style/$image');
+      final file = File('$docsPath/decks/$slug/images/$style/$image');
       if (file.existsSync()) {
         return Image.file(file,
             height: 180,
             fit: BoxFit.contain,
-            errorBuilder: (_, __, ___) => _placeholder());
+            errorBuilder: (_, e, st) => _placeholder());
       }
     }
     return Image.asset(
-      'decks/$slug/images/$style/$image',
+      'assets/previews/$slug/$style/$image',
       height: 180,
       fit: BoxFit.contain,
-      errorBuilder: (_, __, ___) => CachedNetworkImage(
-        imageUrl: '$kCdnBaseUrl/decks/$slug/images/$style/$image',
+      errorBuilder: (_, e, st) => Image.asset(
+        'decks/$slug/images/$style/$image',
         height: 180,
         fit: BoxFit.contain,
-        errorWidget: (_, __, ___) => _placeholder(),
+        errorBuilder: (_, e, st) => _placeholder(),
       ),
     );
   }

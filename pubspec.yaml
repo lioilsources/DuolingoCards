@@ -86,8 +86,9 @@ flutter:
     - assets/decks/colors-basic.json
     - decks/colors-basic/images/flux-real/
     - decks/colors-basic/images/pony-cartoon/
-    # Tier-1 (CDN-downloadable): animals-insects — only JSON bundled, images via CDN
+    # Tier-1 (CDN-downloadable): animals-insects — JSON + preview images bundled, full images via CDN
     - assets/decks/animals-insects.json
+    - assets/previews/animals-insects/flux-real/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
