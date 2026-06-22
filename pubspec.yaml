@@ -80,7 +80,6 @@ flutter:
 
   # Assets
   assets:
-    - assets/data/
     # No-backend content (v2): bundled product catalog + language decks
     - assets/catalog.json
     # Tier-0 (free, fully bundled): colors-basic
@@ -89,13 +88,6 @@ flutter:
     - decks/colors-basic/images/pony-cartoon/
     # Tier-1 (CDN-downloadable): animals-insects — only JSON bundled, images via CDN
     - assets/decks/animals-insects.json
-    - assets/media/japanese-basics/
-    - assets/media/japanese-50-animals/
-    - assets/media/english-50-animals/
-    - assets/media/world-capitals-50/flags/
-    - assets/media/dog-breeds-50/images/
-    - assets/media/cat-breeds-50/images/
-    - assets/media/pokemon-gen1-3/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
