@@ -173,6 +173,13 @@ class EntitlementService extends ChangeNotifier {
   /// Ask the store to replay owned non-consumable products (legacy restore).
   Future<void> restore() => _iap.restorePurchases();
 
+  /// Debug-only: add [n] credits without a real purchase.
+  Future<void> debugAddCredits(int n) async {
+    _creditBalance += n;
+    await _prefs?.setInt(_creditBalanceKey, _creditBalance);
+    notifyListeners();
+  }
+
   // ── Initialization ────────────────────────────────────────────────────────
 
   /// Load catalog, restore cached state, wire IAP. Safe to call multiple times.

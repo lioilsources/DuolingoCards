@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../models/language_deck.dart';
@@ -97,6 +98,17 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
       appBar: AppBar(
         title: const Text('Deck Store'),
         actions: [
+          if (kDebugMode)
+            ListenableBuilder(
+              listenable: _entitlements,
+              builder: (context, _) => TextButton.icon(
+                onPressed: () => _entitlements.debugAddCredits(5),
+                icon: const Icon(Icons.science_outlined, size: 16),
+                label: Text('+5 kr (${_entitlements.creditBalance})'),
+                style: TextButton.styleFrom(
+                    foregroundColor: Colors.orange.shade700),
+              ),
+            ),
           IconButton(
             icon: const Icon(Icons.restore),
             tooltip: 'Restore Purchases',

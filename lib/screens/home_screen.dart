@@ -43,7 +43,18 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
+    _entitlements.addListener(_onEntitlementsChanged);
     _loadDecks();
+  }
+
+  @override
+  void dispose() {
+    _entitlements.removeListener(_onEntitlementsChanged);
+    super.dispose();
+  }
+
+  void _onEntitlementsChanged() {
+    if (!_isLoading) _loadDecks();
   }
 
   Future<void> _loadDecks() async {
@@ -73,19 +84,25 @@ class _HomeScreenState extends State<HomeScreen> {
 
       // Load activated v2 language decks
       final owned = _entitlements.ownedEntitlements;
-      final langTiles = await Future.wait(owned.map((e) async {
-        final deck = await _langDeckService.load(e.deckSlug);
-        await _priorityService.loadPriorities(e.deckSlug, deck.cards);
-        stats[e.deckSlug] = _priorityService.getStats(deck.cards);
-        return (
-          deck: deck,
-          l1: e.sourceLang,
-          l2: e.targetLang,
-          style: e.style,
-          entitlement: e,
-          stats: stats[e.deckSlug],
-        );
+      final rawTiles = await Future.wait(owned.map((e) async {
+        try {
+          final deck = await _langDeckService.load(e.deckSlug);
+          await _priorityService.loadPriorities(e.deckSlug, deck.cards);
+          stats[e.deckSlug] = _priorityService.getStats(deck.cards);
+          return (
+            deck: deck,
+            l1: e.sourceLang,
+            l2: e.targetLang,
+            style: e.style,
+            entitlement: e,
+            stats: stats[e.deckSlug],
+          ) as _LangTile?;
+        } catch (_) {
+          return null;
+        }
       }));
+      final langTiles =
+          rawTiles.whereType<_LangTile>().toList();
 
       setState(() {
         _bundledDecks = bundledDecks;
