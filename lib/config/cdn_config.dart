@@ -1,1 +1,1 @@
-const String kCdnBaseUrl = 'https://ol1n.github.io/duolingo-cards-content';
+const String kCdnBaseUrl = 'https://lioilsources.github.io/DuolingoCards';
