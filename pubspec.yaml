@@ -82,13 +82,39 @@ flutter:
   assets:
     # No-backend content (v2): bundled product catalog + language decks
     - assets/catalog.json
-    # Tier-0 (free, fully bundled): colors-basic
+    # Tier-0 (free, fully bundled): colors-basic pilot — full images + preview
     - assets/decks/colors-basic.json
+    - assets/previews/colors-basic/flux-real/
     - decks/colors-basic/images/flux-real/
     - decks/colors-basic/images/pony-cartoon/
-    # Tier-1 (CDN-downloadable): animals-insects — JSON + preview images bundled, full images via CDN
+    # Tier-0 free decks — JSON + 3-card preview bundled, full images via CDN
+    - assets/decks/animals-wild.json
+    - assets/previews/animals-wild/flux-real/
+    - assets/decks/body-parts.json
+    - assets/previews/body-parts/flux-real/
+    - assets/decks/emotions.json
+    - assets/previews/emotions/flux-real/
+    - assets/decks/food-fruits.json
+    - assets/previews/food-fruits/flux-real/
+    - assets/decks/food-vegetables.json
+    - assets/previews/food-vegetables/flux-real/
+    - assets/decks/numbers-1-10.json
+    - assets/previews/numbers-1-10/flux-real/
+    - assets/decks/weather.json
+    - assets/previews/weather/flux-real/
+    # Tier-1 paid decks — JSON + 3-card preview bundled, full images via CDN
+    - assets/decks/animals-birds.json
+    - assets/previews/animals-birds/flux-real/
+    - assets/decks/animals-farm.json
+    - assets/previews/animals-farm/flux-real/
     - assets/decks/animals-insects.json
     - assets/previews/animals-insects/flux-real/
+    - assets/decks/animals-pets.json
+    - assets/previews/animals-pets/flux-real/
+    - assets/decks/animals-reptiles.json
+    - assets/previews/animals-reptiles/flux-real/
+    - assets/decks/animals-sea.json
+    - assets/previews/animals-sea/flux-real/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
