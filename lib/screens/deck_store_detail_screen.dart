@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:path_provider/path_provider.dart';
 
 import '../models/language_deck.dart';
@@ -59,12 +60,24 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
   }
 
   Future<void> _checkAvailability() async {
-    final available =
-        await LanguageDeckService.instance.isAvailableLocally(widget.deck.slug);
     final docsDir = await getApplicationDocumentsDirectory();
+    final slug = _deck.slug;
+
+    // Images are "available locally" if they are in docsDir (CDN-downloaded) OR
+    // fully bundled as assets (e.g. colors-basic). Probe the bundle for the latter.
+    bool imagesReady =
+        await DeckDownloadService.instance.isImagesDownloaded(slug, _style);
+    if (!imagesReady && _deck.cards.isNotEmpty) {
+      try {
+        await rootBundle.load(
+            'decks/$slug/images/$_style/${_deck.cards.first.image}');
+        imagesReady = true;
+      } catch (_) {}
+    }
+
     if (mounted) {
       setState(() {
-        _isAvailableLocally = available;
+        _isAvailableLocally = imagesReady;
         _docsPath = docsDir.path;
       });
     }

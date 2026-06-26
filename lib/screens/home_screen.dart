@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import '../models/language_deck.dart';
 import '../models/deck_entitlement.dart';
+import '../services/deck_download_service.dart';
 import '../services/entitlement_service.dart';
 import '../services/language_deck_service.dart';
 import '../services/priority_service.dart';
@@ -49,6 +51,21 @@ class _HomeScreenState extends State<HomeScreen> {
     if (!_isLoading) _loadDecks();
   }
 
+  /// True when deck images are in docsDir (downloaded) or fully bundled in assets.
+  Future<bool> _imagesReady(LanguageDeck deck, String style) async {
+    if (await DeckDownloadService.instance.isImagesDownloaded(deck.slug, style)) {
+      return true;
+    }
+    if (deck.cards.isEmpty) return false;
+    try {
+      await rootBundle.load(
+          'decks/${deck.slug}/images/$style/${deck.cards.first.image}');
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
   Future<void> _loadDecks() async {
     setState(() => _isLoading = true);
 
@@ -60,9 +77,10 @@ class _HomeScreenState extends State<HomeScreen> {
 
       final rawTiles = await Future.wait(owned.map((e) async {
         try {
-          // Only show decks that are fully available locally (bundled or downloaded).
           if (!await _langDeckService.isAvailableLocally(e.deckSlug)) return null;
           final deck = await _langDeckService.load(e.deckSlug);
+          // download-before-show: only show when images are accessible.
+          if (!await _imagesReady(deck, e.style)) return null;
           await _priorityService.loadPriorities(e.deckSlug, deck.cards);
           stats[e.deckSlug] = _priorityService.getStats(deck.cards);
           return (

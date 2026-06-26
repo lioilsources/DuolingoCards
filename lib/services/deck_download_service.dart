@@ -57,6 +57,13 @@ class DeckDownloadService {
     return File('$docsPath/decks/$slug/deck.json').existsSync();
   }
 
+  /// True when images for [slug]/[style] have been downloaded to the documents directory.
+  Future<bool> isImagesDownloaded(String slug, String style) async {
+    final docsPath = (await getApplicationDocumentsDirectory()).path;
+    final dir = Directory('$docsPath/decks/$slug/images/$style');
+    return dir.existsSync() && dir.listSync().isNotEmpty;
+  }
+
   Future<List<int>?> _get(String url) async {
     try {
       final response = await http.get(Uri.parse(url));
