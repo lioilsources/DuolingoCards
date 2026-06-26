@@ -87,7 +87,10 @@ jobs:
 
       - name: Inject profile name into project
         run: |
-          sed -i '' "s/CI_PROFILE_NAME/$PROFILE_NAME/g" ./ios/Runner.xcodeproj/project.pbxproj
+          sed -i '' \
+            -e "s/\"CI_PROFILE_NAME\"/\"$PROFILE_NAME\"/g" \
+            -e "s/CI_PROFILE_NAME/\"$PROFILE_NAME\"/g" \
+            ./ios/Runner.xcodeproj/project.pbxproj
           grep PROVISIONING_PROFILE_SPECIFIER ./ios/Runner.xcodeproj/project.pbxproj
 
       - name: Archive with manual signing
