@@ -68,18 +68,21 @@ jobs:
           DECODED=$(security cms -D -i "$PP_PATH")
           UUID=$(echo "$DECODED" | plutil -extract UUID raw -)
           PROFILE_NAME=$(echo "$DECODED" | plutil -extract Name raw -)
+          TEAM_ID=$(echo "$DECODED" | plutil -extract TeamIdentifier.0 raw -)
           BUNDLE_ID=$(echo "$DECODED" | plutil -extract Entitlements.application-identifier raw - | sed 's/^[^.]*\.//')
           EXPIRY=$(echo "$DECODED" | plutil -extract ExpirationDate raw -)
           PROFILE_TYPE=$(echo "$DECODED" | plutil -extract ProvisionsAllDevices raw - 2>/dev/null && echo "Enterprise" || (echo "$DECODED" | plutil -extract Entitlements.get-task-allow raw - 2>/dev/null | grep -q true && echo "Development" || echo "Distribution/AppStore"))
           echo "=== Provisioning profile info ==="
           echo "Profile name:      $PROFILE_NAME"
           echo "Profile UUID:      $UUID"
+          echo "Profile team ID:   $TEAM_ID"
           echo "Profile bundle ID: $BUNDLE_ID"
           echo "Profile expires:   $EXPIRY"
           echo "Profile type:      $PROFILE_TYPE"
           cp "$PP_PATH" ~/Library/MobileDevice/Provisioning\ Profiles/"$UUID".mobileprovision
           echo "PROFILE_NAME=$PROFILE_NAME" >> $GITHUB_ENV
           echo "PROFILE_UUID=$UUID" >> $GITHUB_ENV
+          echo "PROFILE_TEAM_ID=$TEAM_ID" >> $GITHUB_ENV
 
       - name: Inject profile UUID into project
         run: |
@@ -94,8 +97,6 @@ jobs:
         run: flutter build ios --release --no-codesign
 
       - name: Archive with manual signing
-        env:
-          TEAM_ID: ${{ secrets.IOS_TEAM_ID }}
         working-directory: .
         run: |
           xcodebuild archive \
@@ -103,13 +104,12 @@ jobs:
             -scheme Runner \
             -configuration Release \
             -archivePath $RUNNER_TEMP/Runner.xcarchive \
-            DEVELOPMENT_TEAM=$TEAM_ID
+            DEVELOPMENT_TEAM=$PROFILE_TEAM_ID \
+            CODE_SIGN_IDENTITY="Apple Distribution"
 
       - name: Export IPA
-        env:
-          TEAM_ID: ${{ secrets.IOS_TEAM_ID }}
         run: |
-          /usr/libexec/PlistBuddy -c "Set :teamID $TEAM_ID" ./ios/ExportOptions.plist
+          /usr/libexec/PlistBuddy -c "Set :teamID $PROFILE_TEAM_ID" ./ios/ExportOptions.plist
           /usr/libexec/PlistBuddy -c "Set :provisioningProfiles:com.ol1n.duolingoCards $PROFILE_NAME" ./ios/ExportOptions.plist
           xcodebuild -exportArchive \
             -archivePath $RUNNER_TEMP/Runner.xcarchive \
