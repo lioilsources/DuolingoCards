@@ -24,15 +24,12 @@ jobs:
           cache: true
 
       - name: Install dependencies
-        working-directory: .
         run: flutter pub get
 
       - name: Analyze
-        working-directory: .
         run: flutter analyze --no-fatal-infos
 
       - name: Test
-        working-directory: .
         run: flutter test
 
   build-android-debug:
@@ -58,11 +55,9 @@ jobs:
           cache: true
 
       - name: Install dependencies
-        working-directory: .
         run: flutter pub get
 
       - name: Build APK (debug)
-        working-directory: .
         run: flutter build apk --debug
 
       - name: Upload APK artifact
@@ -89,11 +84,9 @@ jobs:
           cache: true
 
       - name: Install dependencies
-        working-directory: .
         run: flutter pub get
 
       - name: Build iOS (no signing)
-        working-directory: .
         run: flutter build ios --debug --no-codesign
 
       - name: Upload app artifact
