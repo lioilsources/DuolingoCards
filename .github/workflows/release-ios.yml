@@ -120,14 +120,20 @@ jobs:
           API_KEY_ID: ${{ secrets.APP_STORE_CONNECT_API_KEY_ID }}
           API_ISSUER_ID: ${{ secrets.APPSTORE_ISSUER_ID }}
           API_KEY_BASE64: ${{ secrets.APP_STORE_CONNECT_API_KEY_BASE64 }}
+          BW_API_KEY_ID: ${{ secrets.APPSTORE_API_KEY_ID }}
+          BW_ISSUER_ID: ${{ secrets.APPSTORE_ISSUER_ID }}
+          BW_PRIVATE_KEY: ${{ secrets.APPSTORE_API_PRIVATE_KEY }}
         run: |
           mkdir -p ~/.appstoreconnect/private_keys
-          echo -n "$API_KEY_BASE64" | base64 --decode > ~/.appstoreconnect/private_keys/AuthKey_${API_KEY_ID}.p8
+          CLEAN_KEY_ID="$(printf '%s' "$API_KEY_ID" | tr -d '[:space:]')"
+          CLEAN_ISSUER="$(printf '%s' "$API_ISSUER_ID" | tr -d '[:space:]')"
+          echo "Key ID length: ${#CLEAN_KEY_ID}, Issuer ID length: ${#CLEAN_ISSUER}"
+          echo -n "$API_KEY_BASE64" | base64 --decode > ~/.appstoreconnect/private_keys/AuthKey_${CLEAN_KEY_ID}.p8
           xcrun altool --upload-app \
             --type ios \
             --file "$(ls $RUNNER_TEMP/ipa/*.ipa)" \
-            --apiKey "$API_KEY_ID" \
-            --apiIssuer "$API_ISSUER_ID"
+            --apiKey "$CLEAN_KEY_ID" \
+            --apiIssuer "$CLEAN_ISSUER"
 
       - name: Upload IPA to GitHub Release
         if: startsWith(github.ref, 'refs/tags/')
