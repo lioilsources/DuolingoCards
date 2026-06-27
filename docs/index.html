@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lexify — Learn Vocabulary in 20 Languages</title>
+  <meta name="description" content="Lexify is a flashcard app for learning vocabulary across 20 languages. 14 decks, spaced repetition, works offline.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --c-bg: #0f0f14;
+      --c-surface: #18181f;
+      --c-card: #1e1e28;
+      --c-border: #2a2a38;
+      --c-accent: #7c6aff;
+      --c-accent2: #ff6a6a;
+      --c-text: #e8e8f0;
+      --c-muted: #8888a8;
+      --radius: 16px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--c-bg);
+      color: var(--c-text);
+      line-height: 1.6;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 40px;
+      background: rgba(15,15,20,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--c-border);
+    }
+    .logo { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.5px; color: var(--c-text); text-decoration: none; }
+    .logo span { color: var(--c-accent); }
+    nav a.nav-link { color: var(--c-muted); text-decoration: none; font-size: 0.9rem; transition: color .2s; }
+    nav a.nav-link:hover { color: var(--c-text); }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center;
+      padding: 120px 24px 80px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(124,106,255,0.18) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(124,106,255,0.15);
+      border: 1px solid rgba(124,106,255,0.3);
+      color: var(--c-accent);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 100px;
+      margin-bottom: 28px;
+    }
+    h1 {
+      font-size: clamp(3rem, 8vw, 5.5rem);
+      font-weight: 800;
+      letter-spacing: -2px;
+      line-height: 1.05;
+      margin-bottom: 24px;
+    }
+    h1 .accent { color: var(--c-accent); }
+    .hero-sub {
+      font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+      color: var(--c-muted);
+      max-width: 520px;
+      margin-bottom: 44px;
+    }
+    .cta-row { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 10px;
+      padding: 14px 26px;
+      border-radius: 12px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform .15s, box-shadow .15s;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.4); }
+    .btn-primary { background: var(--c-accent); color: #fff; }
+    .btn-secondary { background: var(--c-card); color: var(--c-text); border: 1px solid var(--c-border); }
+    .btn svg { width: 20px; height: 20px; fill: currentColor; flex-shrink: 0; }
+
+    .hero-stats {
+      margin-top: 72px;
+      display: flex; gap: 48px; flex-wrap: wrap; justify-content: center;
+    }
+    .stat { text-align: center; }
+    .stat-num { font-size: 2rem; font-weight: 800; color: var(--c-text); }
+    .stat-label { font-size: 0.82rem; color: var(--c-muted); margin-top: 4px; }
+
+    /* SECTION */
+    section { padding: 96px 24px; max-width: 1100px; margin: 0 auto; }
+    .section-tag { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--c-accent); margin-bottom: 12px; }
+    h2 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; letter-spacing: -1px; margin-bottom: 16px; }
+    .section-sub { color: var(--c-muted); max-width: 480px; margin-bottom: 56px; }
+
+    /* FEATURES */
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+    .feature-card {
+      background: var(--c-card);
+      border: 1px solid var(--c-border);
+      border-radius: var(--radius);
+      padding: 28px;
+      transition: border-color .2s;
+    }
+    .feature-card:hover { border-color: var(--c-accent); }
+    .feature-icon { font-size: 2rem; margin-bottom: 16px; }
+    .feature-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; }
+    .feature-card p { font-size: 0.9rem; color: var(--c-muted); line-height: 1.6; }
+
+    /* DECKS */
+    .decks-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+    .deck-chip {
+      background: var(--c-card);
+      border: 1px solid var(--c-border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      font-size: 0.88rem;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .deck-chip .di { font-size: 1.3rem; }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--c-border);
+      padding: 40px 24px;
+      text-align: center;
+      color: var(--c-muted);
+      font-size: 0.85rem;
+    }
+    footer a { color: var(--c-muted); text-decoration: none; transition: color .2s; }
+    footer a:hover { color: var(--c-text); }
+    .footer-links { display: flex; gap: 24px; justify-content: center; margin-bottom: 16px; flex-wrap: wrap; }
+
+    @media (max-width: 600px) {
+      nav { padding: 14px 20px; }
+      .hero-stats { gap: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="/DuolingoCards/">Lexi<span>fy</span></a>
+  <a class="nav-link" href="/DuolingoCards/privacy.html">Privacy</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" style="max-width:none; padding-top:120px; padding-bottom:80px;">
+  <div class="badge">Now available on iOS &amp; Android</div>
+  <h1>Learn vocabulary<br>in <span class="accent">20 languages</span></h1>
+  <p class="hero-sub">Lexify uses swipeable flashcards and spaced repetition to help you build vocabulary fast — no account, no internet required.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="#" id="ios-link">
+      <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      App Store
+    </a>
+    <a class="btn btn-secondary" href="#" id="android-link">
+      <svg viewBox="0 0 24 24"><path d="M17.523 15.341l1.505-2.607a.5.5 0 0 0-.863-.498l-1.524 2.638A9.239 9.239 0 0 0 12 14c-1.33 0-2.59.284-3.726.789L6.749 12.15a.5.5 0 0 0-.863.498l1.505 2.607A9.257 9.257 0 0 0 3 22h18a9.257 9.257 0 0 0-3.477-6.659zM9 19.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm6 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM8.384 9.028l-1.8-3.118a.5.5 0 0 1 .866-.5l1.822 3.155A9.296 9.296 0 0 1 12 8c.96 0 1.88.152 2.744.431L16.55 5.41a.5.5 0 1 1 .866.5l-1.8 3.118A9.235 9.235 0 0 1 18.5 13H5.5a9.235 9.235 0 0 1 2.884-3.972z"/></svg>
+      Google Play
+    </a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">20</div><div class="stat-label">Languages</div></div>
+    <div class="stat"><div class="stat-num">14</div><div class="stat-label">Vocabulary decks</div></div>
+    <div class="stat"><div class="stat-num">500+</div><div class="stat-label">Flashcards</div></div>
+    <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Offline</div></div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section>
+  <p class="section-tag">Features</p>
+  <h2>Everything you need to learn</h2>
+  <p class="section-sub">Built for daily practice. Simple, focused, and offline-first.</p>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">🗂️</div>
+      <h3>Swipeable flashcards</h3>
+      <p>Swipe to mark cards as known or unknown. A smooth, distraction-free experience for focused study.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🧠</div>
+      <h3>Spaced repetition</h3>
+      <p>Cards you find hard appear more often. The algorithm adapts to your progress automatically.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔊</div>
+      <h3>Native pronunciation</h3>
+      <p>Tap any card to hear correct pronunciation using your device's built-in text-to-speech voices.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">✈️</div>
+      <h3>Works offline</h3>
+      <p>No internet connection required. Download a deck once and study anywhere — on a plane, underground, anywhere.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🌐</div>
+      <h3>20 languages</h3>
+      <p>English, Spanish, French, German, Italian, Portuguese, Czech, Japanese, Chinese, Arabic and more.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔒</div>
+      <h3>No account needed</h3>
+      <p>No sign-up, no tracking, no ads. Just open the app and start learning.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DECKS -->
+<section style="border-top: 1px solid var(--c-border);">
+  <p class="section-tag">Content</p>
+  <h2>14 vocabulary decks</h2>
+  <p class="section-sub">Themed decks covering everyday vocabulary, with beautiful AI-generated illustrations.</p>
+  <div class="decks-grid">
+    <div class="deck-chip"><span class="di">🐦</span> Birds</div>
+    <div class="deck-chip"><span class="di">🐄</span> Farm animals</div>
+    <div class="deck-chip"><span class="di">🐛</span> Insects</div>
+    <div class="deck-chip"><span class="di">🐕</span> Pets</div>
+    <div class="deck-chip"><span class="di">🐊</span> Reptiles</div>
+    <div class="deck-chip"><span class="di">🐬</span> Sea animals</div>
+    <div class="deck-chip"><span class="di">🦁</span> Wild animals</div>
+    <div class="deck-chip"><span class="di">💪</span> Body parts</div>
+    <div class="deck-chip"><span class="di">🎨</span> Colors</div>
+    <div class="deck-chip"><span class="di">😊</span> Emotions</div>
+    <div class="deck-chip"><span class="di">🍎</span> Fruits</div>
+    <div class="deck-chip"><span class="di">🥕</span> Vegetables</div>
+    <div class="deck-chip"><span class="di">🔢</span> Numbers 1–10</div>
+    <div class="deck-chip"><span class="di">⛅</span> Weather</div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="/DuolingoCards/privacy.html">Privacy Policy</a>
+    <a href="#" id="ios-link-footer">App Store</a>
+    <a href="#" id="android-link-footer">Google Play</a>
+  </div>
+  <p>© 2026 Lexify. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
