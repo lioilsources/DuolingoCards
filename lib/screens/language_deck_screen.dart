@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../models/language_deck.dart';
+import '../utils/language_names.dart';
 import '../utils/locale_direction.dart';
 import '../widgets/pronounce_button.dart';
 
@@ -198,31 +199,6 @@ class _CardView extends StatelessWidget {
       );
 }
 
-const _kLangNames = {
-  'cs': '🇨🇿 Czech',
-  'en': '🇬🇧 English',
-  'zh-CN': '🇨🇳 Chinese',
-  'hi': '🇮🇳 Hindi',
-  'es-419': '🇲🇽 Spanish',
-  'ar': '🇸🇦 Arabic',
-  'fr': '🇫🇷 French',
-  'bn': '🇧🇩 Bengali',
-  'pt-BR': '🇧🇷 Portuguese',
-  'ru': '🇷🇺 Russian',
-  'id': '🇮🇩 Indonesian',
-  'ur': '🇵🇰 Urdu',
-  'de': '🇩🇪 German',
-  'ja': '🇯🇵 Japanese',
-  'mr': '🇮🇳 Marathi',
-  'te': '🇮🇳 Telugu',
-  'tr': '🇹🇷 Turkish',
-  'ta': '🇱🇰 Tamil',
-  'vi': '🇻🇳 Vietnamese',
-  'ko': '🇰🇷 Korean',
-  'ha': '🇳🇬 Hausa',
-  'la': '🏛️ Latin',
-  'sa': '🕉️ Sanskrit',
-};
 
 class _LangPairPicker extends StatelessWidget {
   final List<String> languages;
@@ -259,7 +235,7 @@ class _LangPairPicker extends StatelessWidget {
         if (v != null) onChanged(v);
       },
       items: languages
-          .map((l) => DropdownMenuItem(value: l, child: Text(_kLangNames[l] ?? l)))
+          .map((l) => DropdownMenuItem(value: l, child: Text(kLangNames[l] ?? l)))
           .toList(),
     );
   }

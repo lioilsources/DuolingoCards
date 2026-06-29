@@ -26,6 +26,7 @@ class TtsService {
   /// BCP-47 → engine locale. `flutter_tts` expects concrete locales, so map the
   /// plan's regional codes to what engines actually ship.
   static const Map<String, List<String>> _localeCandidates = {
+    // Original mappings
     'es-419': ['es-MX', 'es-US', 'es-ES'],
     'pt-BR': ['pt-BR', 'pt-PT'],
     'zh-CN': ['zh-CN', 'zh'],
@@ -38,6 +39,46 @@ class TtsService {
     'mr': ['mr-IN', 'mr'],
     'hi': ['hi-IN', 'hi'],
     'ha': ['ha-NG', 'ha'],
+    // Middle East & South Caucasus
+    'el': ['el-GR', 'el'],
+    'he': ['he-IL', 'he'],
+    'fa': ['fa-IR', 'fa'],
+    'yi': ['yi'],
+    'az': ['az-AZ', 'az'],
+    'hy': ['hy-AM', 'hy'],
+    'ka': ['ka-GE', 'ka'],
+    // East Europe & Balkans
+    'pl': ['pl-PL', 'pl'],
+    'sk': ['sk-SK', 'sk'],
+    'hu': ['hu-HU', 'hu'],
+    'ro': ['ro-RO', 'ro'],
+    'bg': ['bg-BG', 'bg'],
+    'uk': ['uk-UA', 'uk'],
+    'be': ['be-BY', 'be'],
+    'sr': ['sr-RS', 'sr-Cyrl-RS', 'sr'],
+    'hr': ['hr-HR', 'hr'],
+    'sl': ['sl-SI', 'sl'],
+    'bs': ['bs-BA', 'bs'],
+    'mk': ['mk-MK', 'mk'],
+    'sq': ['sq-AL', 'sq-XK', 'sq'],
+    // West & North Europe
+    'nl': ['nl-NL', 'nl'],
+    'nl-BE': ['nl-BE', 'nl-NL', 'nl'],
+    'da': ['da-DK', 'da'],
+    'nb': ['nb-NO', 'no-NO', 'nb', 'no'],
+    'sv': ['sv-SE', 'sv'],
+    'fi': ['fi-FI', 'fi'],
+    'is': ['is-IS', 'is'],
+    'mt': ['mt-MT', 'mt'],
+    // Baltic
+    'lt': ['lt-LT', 'lt'],
+    'lv': ['lv-LV', 'lv'],
+    'et': ['et-EE', 'et'],
+    // Celtic
+    'ga': ['ga-IE', 'ga'],
+    'cy': ['cy-GB', 'cy'],
+    // Classical / constructed — most engines won't have these; fallback is fine
+    'eo': ['eo'],
   };
 
   /// First engine locale that is actually available for [lang], or null.

@@ -8,6 +8,7 @@ import '../models/language_deck.dart';
 import '../services/deck_download_service.dart';
 import '../services/entitlement_service.dart';
 import '../services/language_deck_service.dart';
+import '../utils/language_names.dart';
 import '../utils/locale_direction.dart';
 import '../widgets/credit_pack_sheet.dart';
 import '../widgets/pronounce_button.dart';
@@ -423,31 +424,6 @@ class _CardPreview extends StatelessWidget {
 
 // ── Language pair picker ──────────────────────────────────────────────────────
 
-const _kLangNames = {
-  'cs': '🇨🇿 Czech',
-  'en': '🇬🇧 English',
-  'zh-CN': '🇨🇳 Chinese',
-  'hi': '🇮🇳 Hindi',
-  'es-419': '🇲🇽 Spanish',
-  'ar': '🇸🇦 Arabic',
-  'fr': '🇫🇷 French',
-  'bn': '🇧🇩 Bengali',
-  'pt-BR': '🇧🇷 Portuguese',
-  'ru': '🇷🇺 Russian',
-  'id': '🇮🇩 Indonesian',
-  'ur': '🇵🇰 Urdu',
-  'de': '🇩🇪 German',
-  'ja': '🇯🇵 Japanese',
-  'mr': '🇮🇳 Marathi',
-  'te': '🇮🇳 Telugu',
-  'tr': '🇹🇷 Turkish',
-  'ta': '🇱🇰 Tamil',
-  'vi': '🇻🇳 Vietnamese',
-  'ko': '🇰🇷 Korean',
-  'ha': '🇳🇬 Hausa',
-  'la': '🏛️ Latin',
-  'sa': '🕉️ Sanskrit',
-};
 
 class _LangPairPicker extends StatelessWidget {
   final List<String> languages;
@@ -485,7 +461,7 @@ class _LangPairPicker extends StatelessWidget {
       items: languages
           .map((l) => DropdownMenuItem(
                 value: l,
-                child: Text(_kLangNames[l] ?? l),
+                child: Text(kLangNames[l] ?? l),
               ))
           .toList(),
     );

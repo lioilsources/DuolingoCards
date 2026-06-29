@@ -14,8 +14,9 @@ type Target struct {
 	RTL  bool   // right-to-left script
 }
 
-// Targets is the canonical top-20 language list from the plan.
+// Targets is the canonical language list for the content pipeline.
 var Targets = []Target{
+	// Original top-20
 	{Code: "en", Name: "English"},
 	{Code: "zh-CN", Name: "Chinese (Simplified)"},
 	{Code: "hi", Name: "Hindi"},
@@ -36,14 +37,48 @@ var Targets = []Target{
 	{Code: "vi", Name: "Vietnamese"},
 	{Code: "ko", Name: "Korean"},
 	{Code: "ha", Name: "Hausa"},
+	// Classical / constructed
 	{Code: "la", Name: "Latin"},
-{Code: "eo", Name: "Esperanto"},
+	{Code: "sa", Name: "Sanskrit"},
+	{Code: "eo", Name: "Esperanto"},
+	// Middle East & South Caucasus
 	{Code: "el", Name: "Greek"},
 	{Code: "he", Name: "Hebrew", RTL: true},
 	{Code: "fa", Name: "Persian", RTL: true},
+	{Code: "yi", Name: "Yiddish", RTL: true},
+	{Code: "az", Name: "Azerbaijani"},
+	{Code: "hy", Name: "Armenian"},
+	{Code: "ka", Name: "Georgian"},
+	// East Europe & Balkans
+	{Code: "pl", Name: "Polish"},
+	{Code: "sk", Name: "Slovak"},
+	{Code: "hu", Name: "Hungarian"},
+	{Code: "ro", Name: "Romanian"},
+	{Code: "bg", Name: "Bulgarian"},
+	{Code: "uk", Name: "Ukrainian"},
+	{Code: "be", Name: "Belarusian"},
+	{Code: "sr", Name: "Serbian"},
+	{Code: "hr", Name: "Croatian"},
+	{Code: "sl", Name: "Slovenian"},
+	{Code: "bs", Name: "Bosnian"},
+	{Code: "mk", Name: "Macedonian"},
+	{Code: "sq", Name: "Albanian"},
+	// West & North Europe
+	{Code: "nl", Name: "Dutch"},
+	{Code: "nl-BE", Name: "Flemish"},
+	{Code: "da", Name: "Danish"},
+	{Code: "nb", Name: "Norwegian (Bokmål)"},
+	{Code: "sv", Name: "Swedish"},
+	{Code: "fi", Name: "Finnish"},
+	{Code: "is", Name: "Icelandic"},
+	{Code: "mt", Name: "Maltese"},
+	// Baltic
+	{Code: "lt", Name: "Lithuanian"},
+	{Code: "lv", Name: "Latvian"},
+	{Code: "et", Name: "Estonian"},
+	// Celtic
 	{Code: "ga", Name: "Irish"},
 	{Code: "cy", Name: "Welsh"},
-	{Code: "yi", Name: "Yiddish", RTL: true},
 }
 
 // Codes returns just the locale codes, in canonical order.
