@@ -33,6 +33,19 @@ type Style struct {
 	Backend        Backend // prompt dialect
 	PositiveSuffix string  // appended to the positive prompt (look & feel)
 	ExtraNegative  string  // appended to the negative prompt (Pony only)
+
+	// Img2Img marks a restyle preset: instead of text-to-image, the card's base
+	// image (generated in BaseStyle) is repainted through the Pony SDXL model via
+	// ComfyUI img2img (LoadImage → VAEEncode → KSampler at Denoise<1), so the base
+	// composition is preserved while the medium changes. Inspired by Kiran's
+	// flux2pony restyle pass.
+	Img2Img bool
+	// BaseStyle is the style whose images/<BaseStyle>/ outputs feed the img2img
+	// pass (e.g. "flux-real"). Only meaningful when Img2Img is true.
+	BaseStyle string
+	// Denoise is the KSampler denoise (0..1) for the img2img pass. Lower keeps more
+	// of the base structure; higher repaints more freely. Only used when Img2Img.
+	Denoise float64
 }
 
 // Prompt is the expanded result for one (brief, style) pair.
@@ -57,12 +70,43 @@ var (
 		Backend:        BackendPony,
 		PositiveSuffix: "(semi-realistic:1.2), (detailed cartoon:1.1), highly detailed, intricate details, soft realistic shading, volumetric lighting, natural colors, natural pose, wildlife photography style, detailed environment, solo",
 	}
+
+	// StylePonyWatercolor and StylePonyOil are img2img restyle presets: they take
+	// each card's flux-real base image and repaint it through Pony SDXL in a paint
+	// medium (see Style.Img2Img). The painterly tags lead the positive prompt and
+	// the extra negatives push back on the photoreal/flat look of the base.
+	StylePonyWatercolor = Style{
+		Name:    "pony-watercolor",
+		Backend: BackendPony,
+		PositiveSuffix: "watercolor painting, traditional watercolor illustration, soft wet-on-wet washes, " +
+			"luminous translucent pigments, soft feathered edges, visible cold-press paper grain, " +
+			"hand-painted brushwork, gentle color bleeds, painterly, delicate",
+		ExtraNegative: "hard edges, sharp crisp outlines, 3d render, photo, photorealistic, " +
+			"digital vector, flat solid fill, harsh lines, plastic shading",
+		Img2Img:   true,
+		BaseStyle: "flux-real",
+		Denoise:   0.55,
+	}
+	StylePonyOil = Style{
+		Name:    "pony-oil",
+		Backend: BackendPony,
+		PositiveSuffix: "oil painting, traditional oil on canvas, thick impasto brushstrokes, " +
+			"visible palette knife texture, rich saturated pigments, glossy layered paint, " +
+			"chiaroscuro lighting, painterly, classical fine art, textured canvas weave",
+		ExtraNegative: "thin washes, watercolor, flat solid fill, digital vector, 3d render, photo, " +
+			"photorealistic, smooth gradient, plastic shading, clean lineart",
+		Img2Img:   true,
+		BaseStyle: "flux-real",
+		Denoise:   0.58,
+	}
 )
 
 // DefaultStyles maps style name → Style for the built-ins.
 var DefaultStyles = map[string]Style{
-	StyleFluxReal.Name:    StyleFluxReal,
-	StylePonyCartoon.Name: StylePonyCartoon,
+	StyleFluxReal.Name:       StyleFluxReal,
+	StylePonyCartoon.Name:    StylePonyCartoon,
+	StylePonyWatercolor.Name: StylePonyWatercolor,
+	StylePonyOil.Name:        StylePonyOil,
 }
 
 // ponyQualityTags is the conventional Pony quality preamble.

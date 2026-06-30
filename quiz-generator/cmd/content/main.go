@@ -83,6 +83,10 @@ func imageFilenamePrefix(deckSlug, cardKey, style string) string {
 		styleAlias = "flux"
 	case "pony-cartoon":
 		styleAlias = "pony"
+	case "pony-watercolor":
+		styleAlias = "watercolor"
+	case "pony-oil":
+		styleAlias = "oil"
 	}
 	return fmt.Sprintf("cards-%s-%s-%s", deckSlug, keyPart, styleAlias)
 }
@@ -336,6 +340,7 @@ func runImages(args []string) error {
 	validatorModel := fs.String("validator-model", "qwen-vl", "tuning: vision-language model that scores images")
 	builderModel := fs.String("builder-model", "nemotron", "tuning: instruct model that rewrites prompts")
 	tuneLogJSON := fs.Bool("tune-log-json", false, "tuning: also write a machine-readable JSON transcript per card")
+	ponyCheckpoint := fs.String("pony-checkpoint", "ponyDiffusionV6XL_v6StartWithThisOne.safetensors", "Pony SDXL checkpoint for img2img restyle styles (pony-watercolor, pony-oil)")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -347,6 +352,11 @@ func runImages(args []string) error {
 
 	ponyClient := comfyuiimage.NewClient(*comfyURL, "", "")
 	fluxClient := comfyuiimage.NewClient(*comfyURL, "", "", comfyuiimage.WithFluxDev())
+	// restyleClient runs the Pony SDXL img2img workflow (flux base → paint medium).
+	restyleClient := comfyuiimage.NewClient(*comfyURL, "", "",
+		comfyuiimage.WithWorkflow(comfyuiimage.PonyImg2ImgWorkflow()),
+		comfyuiimage.WithNodeRoles(comfyuiimage.Img2ImgNodeRoles()),
+		comfyuiimage.WithCheckpoint(*ponyCheckpoint))
 
 	var validator *imagetune.Validator
 	var builder *imagetune.Builder
@@ -364,6 +374,10 @@ func runImages(args []string) error {
 		positive string
 		negative string
 		seed     int64 // from a tuned sidecar override; 0 = random
+		// img2img restyle (e.g. pony-watercolor / pony-oil): repaint basePath.
+		img2img  bool
+		basePath string  // base image to restyle (images/<baseStyle>/<image>)
+		denoise  float64 // KSampler denoise for the restyle pass
 	}
 
 	var jobs []job
@@ -377,6 +391,10 @@ func runImages(args []string) error {
 		}
 		if style == "" {
 			return fmt.Errorf("deck %q has no default_style; pass -style", d.Meta.Slug)
+		}
+		st := prompt.DefaultStyles[style] // zero value if unknown; ExpandByName below reports it
+		if st.Img2Img && *tune {
+			return fmt.Errorf("style %q is an img2img restyle; -tune is not supported for it", style)
 		}
 		outDir := filepath.Join(d.Dir, "images", style)
 		if err := os.MkdirAll(outDir, 0755); err != nil {
@@ -404,6 +422,17 @@ func runImages(args []string) error {
 				return fmt.Errorf("expand prompt for %s/%s: %w", d.Meta.Slug, c.Key, err)
 			}
 			j := job{deck: d, card: c, style: style, backend: p.Backend, outPath: outPath, positive: p.Positive, negative: p.Negative}
+			if st.Img2Img {
+				// Restyle needs the base-style image to already exist.
+				basePath := filepath.Join(d.Dir, "images", st.BaseStyle, c.Image)
+				if info, err := os.Stat(basePath); err != nil || info.Size() == 0 {
+					fmt.Printf("  SKIP %s/%s (no %s base image at %s — generate it first)\n", d.Meta.Slug, c.Key, st.BaseStyle, basePath)
+					continue
+				}
+				j.img2img = true
+				j.basePath = basePath
+				j.denoise = st.Denoise
+			}
 			if entry, ok := tuned[c.Key]; ok {
 				j.positive = entry.Positive
 				j.negative = entry.Negative
@@ -435,6 +464,46 @@ func runImages(args []string) error {
 			defer wg.Done()
 			for j := range work {
 				label := fmt.Sprintf("%s/%s", j.deck.Meta.Slug, j.card.Key)
+
+				// img2img restyle pass (pony-watercolor / pony-oil): repaint the
+				// base image through Pony SDXL instead of text-to-image.
+				if j.img2img {
+					baseBytes, rerr := os.ReadFile(j.basePath)
+					if rerr != nil {
+						mu.Lock()
+						failed++
+						fmt.Printf("  FAIL %s: read base: %v\n", label, rerr)
+						mu.Unlock()
+						continue
+					}
+					keyPart := j.card.Key
+					if i := strings.LastIndex(keyPart, "."); i >= 0 {
+						keyPart = keyPart[i+1:]
+					}
+					out, gerr := restyleClient.GenerateImg2Img(context.Background(), comfyuiimage.Img2ImgRequest{
+						BaseImage:      baseBytes,
+						BaseFilename:   fmt.Sprintf("restyle-%s-%s.png", j.deck.Meta.Slug, keyPart),
+						Prompt:         j.positive,
+						NegativePrompt: j.negative,
+						FilenamePrefix: imageFilenamePrefix(j.deck.Meta.Slug, j.card.Key, j.style),
+						Denoise:        j.denoise,
+						Seed:           j.seed,
+					})
+					mu.Lock()
+					if gerr != nil {
+						failed++
+						fmt.Printf("  FAIL %s: %v\n", label, gerr)
+					} else if werr := os.WriteFile(j.outPath, out, 0644); werr != nil {
+						failed++
+						fmt.Printf("  FAIL %s: write: %v\n", label, werr)
+					} else {
+						generated++
+						fmt.Printf("  OK   %s → %s (img2img, denoise %.2f)\n", label, j.outPath, j.denoise)
+					}
+					mu.Unlock()
+					continue
+				}
+
 				imgClient := ponyClient
 				if j.backend == prompt.BackendFlux {
 					imgClient = fluxClient

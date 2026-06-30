@@ -61,6 +61,29 @@ images-force: $(CONTENT)
 	  $(if $(STYLE),-style $(STYLE)) \
 	  -url $(SPARK_IMG) -workers 2 -force
 
+# ── restyle: flux base → Pony watercolor / oil (img2img) ──────────────────────
+# Repaints each card's flux-real image through Pony SDXL in a paint medium,
+# preserving the composition (ComfyUI img2img: LoadImage → VAEEncode → KSampler).
+# Inspired by Kiran's flux2pony pass. The flux-real base images must exist first:
+#   make images DECK=animals-sea STYLE=flux-real
+# Then, writing to images/pony-watercolor/ and images/pony-oil/:
+#   make watercolor DECK=animals-sea
+#   make oil        DECK=animals-sea
+# Pass FORCE=1 to overwrite existing output. The Pony checkpoint defaults inside
+# the tool; override with PONY_CKPT=<name>.
+
+.PHONY: watercolor
+watercolor: $(CONTENT)
+	$(CONTENT) images -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
+	  -style pony-watercolor -url $(SPARK_IMG) -workers 2 \
+	  $(if $(PONY_CKPT),-pony-checkpoint $(PONY_CKPT)) $(if $(FORCE),-force)
+
+.PHONY: oil
+oil: $(CONTENT)
+	$(CONTENT) images -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
+	  -style pony-oil -url $(SPARK_IMG) -workers 2 \
+	  $(if $(PONY_CKPT),-pony-checkpoint $(PONY_CKPT)) $(if $(FORCE),-force)
+
 # ── tune (iterative image tuning) ──────────────────────────────────────────────
 # Generate → validate (VL model) → refine prompt (instruct model) → loop, per card.
 # Saves the final image, the winning prompt (decks/<slug>/tuned/<style>.yaml) and a

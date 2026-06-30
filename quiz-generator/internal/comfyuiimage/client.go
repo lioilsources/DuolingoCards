@@ -13,6 +13,7 @@
 package comfyuiimage
 
 import (
+	"bytes"
 	"context"
 	"crypto/rand"
 	"encoding/base64"
@@ -20,6 +21,7 @@ import (
 	"fmt"
 	"io"
 	"math/big"
+	"mime/multipart"
 	"net/http"
 	"net/url"
 	"os"
@@ -46,6 +48,9 @@ var defaultWorkflow []byte
 //go:embed workflows/flux_dev.json
 var fluxDevWorkflow []byte
 
+//go:embed workflows/pony_img2img.json
+var ponyImg2ImgWorkflow []byte
+
 // FluxDevNodeRoles are the node IDs for the flux_dev.json workflow.
 var FluxDevNodeRoles = NodeRoles{
 	PositivePrompt: "4",
@@ -63,14 +68,38 @@ func WithFluxDev() ClientOption {
 	}
 }
 
+// PonyImg2ImgWorkflow returns the embedded Pony SDXL img2img workflow graph
+// (LoadImage → VAEEncode → KSampler at sub-1 denoise). Pair it with
+// Img2ImgNodeRoles to repaint an existing base image in a new medium.
+func PonyImg2ImgWorkflow() []byte { return ponyImg2ImgWorkflow }
+
+// img2ImgNodeRoles matches pony_img2img.json (CheckpointLoaderSimple + LoadImage
+// + VAEEncode). There is no Latent role: the sampler's latent comes from the
+// VAEEncode node, so width/height/batch are not injected.
+var img2ImgNodeRoles = NodeRoles{
+	PositivePrompt: "6",
+	NegativePrompt: "7",
+	Sampler:        "3",
+	SaveImage:      "9",
+	CheckpointNode: "4",
+	CheckpointKey:  "ckpt_name",
+	LoadImageNode:  "10",
+}
+
+// Img2ImgNodeRoles returns the NodeRoles for the embedded pony_img2img.json workflow.
+func Img2ImgNodeRoles() NodeRoles { return img2ImgNodeRoles }
+
 // NodeRoles maps logical roles to node IDs in the workflow graph.
 // Defaults match the embedded flux_card.json workflow.
 type NodeRoles struct {
 	PositivePrompt string
 	NegativePrompt string
-	Latent         string
-	Sampler        string
+	Latent         string // text2img only: Empty*LatentImage node (width/height/batch)
+	Sampler        string // KSampler node carrying the seed (and denoise for img2img)
 	SaveImage      string
+	CheckpointNode string // loader node to override when WithCheckpoint is used (empty = none)
+	CheckpointKey  string // input key on that node (e.g. "ckpt_name" or "unet_name")
+	LoadImageNode  string // img2img only: LoadImage node whose inputs.image = uploaded file
 }
 
 var defaultNodeRoles = NodeRoles{
@@ -93,6 +122,7 @@ type Client struct {
 	jobTimeout   time.Duration
 	workflowJSON []byte
 	roles        NodeRoles
+	checkpoint   string // optional: overrides the checkpoint loader node named in roles
 }
 
 // ClientOption configures the Client.
@@ -131,6 +161,13 @@ func WithWorkflow(graph []byte) ClientOption {
 // WithNodeRoles overrides the node-ID mapping used for injection.
 func WithNodeRoles(r NodeRoles) ClientOption {
 	return func(c *Client) { c.roles = r }
+}
+
+// WithCheckpoint overrides the model name in the loader node identified by
+// NodeRoles.CheckpointNode / NodeRoles.CheckpointKey (e.g. the Pony SDXL
+// checkpoint for the img2img workflow). No-op if those roles are unset.
+func WithCheckpoint(name string) ClientOption {
+	return func(c *Client) { c.checkpoint = name }
 }
 
 // NewClient creates a client for a ComfyUI server. cfClientID and cfSecret are
@@ -235,6 +272,11 @@ func (c *Client) buildWorkflow(prompt, negative string, w, h, batch int, seed in
 			return nil, err
 		}
 	}
+	if c.checkpoint != "" && c.roles.CheckpointNode != "" {
+		if err := setNodeInput(graph, c.roles.CheckpointNode, c.roles.CheckpointKey, c.checkpoint); err != nil {
+			return nil, err
+		}
+	}
 	return graph, nil
 }
 
@@ -249,6 +291,163 @@ func setNodeInput(graph map[string]any, nodeID, key string, val any) error {
 	}
 	inputs[key] = val
 	return nil
+}
+
+// uploadResponse is the JSON returned by ComfyUI's /upload/image endpoint.
+type uploadResponse struct {
+	Name      string `json:"name"`
+	Subfolder string `json:"subfolder"`
+	Type      string `json:"type"`
+}
+
+// UploadImage uploads raw image bytes to ComfyUI's input store via
+// POST /upload/image (multipart/form-data). It returns the reference to place in
+// a LoadImage node's inputs.image ("name", or "subfolder/name" when nested).
+// Files with the same name are overwritten.
+func (c *Client) UploadImage(ctx context.Context, filename string, data []byte) (string, error) {
+	var body bytes.Buffer
+	w := multipart.NewWriter(&body)
+	part, err := w.CreateFormFile("image", filename)
+	if err != nil {
+		return "", fmt.Errorf("create form file: %w", err)
+	}
+	if _, err := part.Write(data); err != nil {
+		return "", fmt.Errorf("write image part: %w", err)
+	}
+	_ = w.WriteField("type", "input")
+	_ = w.WriteField("overwrite", "true")
+	if err := w.Close(); err != nil {
+		return "", fmt.Errorf("close multipart writer: %w", err)
+	}
+
+	req, err := http.NewRequestWithContext(ctx, http.MethodPost, c.baseURL+"/upload/image", &body)
+	if err != nil {
+		return "", err
+	}
+	// CF Access headers (if any), but let the multipart writer own Content-Type.
+	if c.cfClientID != "" {
+		req.Header.Set("CF-Access-Client-Id", c.cfClientID)
+	}
+	if c.cfSecret != "" {
+		req.Header.Set("CF-Access-Client-Secret", c.cfSecret)
+	}
+	req.Header.Set("Content-Type", w.FormDataContentType())
+
+	resp, err := c.httpClient.Do(req)
+	if err != nil {
+		return "", fmt.Errorf("HTTP request: %w", err)
+	}
+	defer resp.Body.Close()
+	respBody, _ := io.ReadAll(resp.Body)
+	if resp.StatusCode != http.StatusOK {
+		return "", &imagegen.APIError{StatusCode: resp.StatusCode, Message: string(respBody)}
+	}
+
+	var ur uploadResponse
+	if err := json.Unmarshal(respBody, &ur); err != nil {
+		return "", fmt.Errorf("decode upload response: %w", err)
+	}
+	if ur.Name == "" {
+		return "", fmt.Errorf("upload returned empty name (body: %s)", string(respBody))
+	}
+	if ur.Subfolder != "" {
+		return ur.Subfolder + "/" + ur.Name, nil
+	}
+	return ur.Name, nil
+}
+
+// Img2ImgRequest is a single-image restyle request for GenerateImg2Img.
+type Img2ImgRequest struct {
+	BaseImage      []byte  // raw bytes of the base image to repaint
+	BaseFilename   string  // name to register on the server (0 → random)
+	Prompt         string  // positive prompt (style + subject)
+	NegativePrompt string  // negative prompt
+	FilenamePrefix string  // SaveImage filename_prefix
+	Denoise        float64 // KSampler denoise (0..1); <=0 keeps the workflow default
+	Seed           int64   // sampler seed; 0 = random
+}
+
+// GenerateImg2Img uploads the base image, runs the img2img workflow and returns
+// the single repainted image as raw bytes. The client must be configured with an
+// img2img workflow + roles: WithWorkflow(PonyImg2ImgWorkflow()),
+// WithNodeRoles(Img2ImgNodeRoles()).
+func (c *Client) GenerateImg2Img(ctx context.Context, req Img2ImgRequest) ([]byte, error) {
+	if c.roles.LoadImageNode == "" {
+		return nil, fmt.Errorf("img2img requires a workflow with a LoadImageNode role (use WithWorkflow/WithNodeRoles)")
+	}
+	name := req.BaseFilename
+	if name == "" {
+		name = fmt.Sprintf("restyle_%s.png", randHex(8))
+	}
+	uploaded, err := c.UploadImage(ctx, name, req.BaseImage)
+	if err != nil {
+		return nil, fmt.Errorf("upload base image: %w", err)
+	}
+
+	graph, err := c.buildImg2ImgWorkflow(uploaded, req)
+	if err != nil {
+		return nil, err
+	}
+
+	promptID, err := c.submitWithRetry(ctx, graph)
+	if err != nil {
+		return nil, err
+	}
+	images, err := c.pollUntilDone(ctx, promptID)
+	if err != nil {
+		return nil, err
+	}
+
+	b64, err := c.downloadImage(ctx, images[0])
+	if err != nil {
+		return nil, fmt.Errorf("download image: %w", err)
+	}
+	return base64.StdEncoding.DecodeString(b64)
+}
+
+// buildImg2ImgWorkflow injects the uploaded image reference, prompts, denoise,
+// seed, filename prefix and optional checkpoint into a fresh copy of the img2img
+// graph. Unlike buildWorkflow it sets no width/height/batch — the sampler latent
+// comes from the VAEEncode node fed by LoadImage.
+func (c *Client) buildImg2ImgWorkflow(imageRef string, req Img2ImgRequest) (map[string]any, error) {
+	var graph map[string]any
+	if err := json.Unmarshal(c.workflowJSON, &graph); err != nil {
+		return nil, fmt.Errorf("parse workflow: %w", err)
+	}
+	if err := setNodeInput(graph, c.roles.LoadImageNode, "image", imageRef); err != nil {
+		return nil, err
+	}
+	if err := setNodeInput(graph, c.roles.PositivePrompt, "text", req.Prompt); err != nil {
+		return nil, err
+	}
+	if req.NegativePrompt != "" && c.roles.NegativePrompt != "" {
+		if err := setNodeInput(graph, c.roles.NegativePrompt, "text", req.NegativePrompt); err != nil {
+			return nil, err
+		}
+	}
+	if req.FilenamePrefix != "" && c.roles.SaveImage != "" {
+		if err := setNodeInput(graph, c.roles.SaveImage, "filename_prefix", req.FilenamePrefix); err != nil {
+			return nil, err
+		}
+	}
+	if req.Denoise > 0 {
+		if err := setNodeInput(graph, c.roles.Sampler, "denoise", req.Denoise); err != nil {
+			return nil, err
+		}
+	}
+	seed := req.Seed
+	if seed == 0 {
+		seed = randSeed()
+	}
+	if err := setNodeInput(graph, c.roles.Sampler, "seed", seed); err != nil {
+		return nil, err
+	}
+	if c.checkpoint != "" && c.roles.CheckpointNode != "" {
+		if err := setNodeInput(graph, c.roles.CheckpointNode, c.roles.CheckpointKey, c.checkpoint); err != nil {
+			return nil, err
+		}
+	}
+	return graph, nil
 }
 
 func (c *Client) submitWithRetry(ctx context.Context, graph map[string]any) (string, error) {
