@@ -28,6 +28,8 @@ class LocaleDirection {
     'lt', 'lv', 'et',
     // Celtic
     'ga', 'cy',
+    // World-coverage gap-fillers
+    'it', 'am', 'ne', 'uz', 'tk', 'mn', 'th', 'my', 'km', 'lo', 'ms',
   ];
 
   /// True when [lang] (BCP-47, region tolerated) is right-to-left.

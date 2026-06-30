@@ -75,4 +75,17 @@ const kLangNames = <String, String>{
   // Celtic
   'ga': '🇮🇪 Irish',
   'cy': '🏴󠁧󠁢󠁷󠁬󠁳󠁿 Welsh',
+
+  // World-coverage gap-fillers (large countries to complete the map)
+  'it': '🇮🇹 Italian',
+  'am': '🇪🇹 Amharic',
+  'ne': '🇳🇵 Nepali',
+  'uz': '🇺🇿 Uzbek',
+  'tk': '🇹🇲 Turkmen',
+  'mn': '🇲🇳 Mongolian',
+  'th': '🇹🇭 Thai',
+  'my': '🇲🇲 Burmese',
+  'km': '🇰🇭 Khmer',
+  'lo': '🇱🇦 Lao',
+  'ms': '🇲🇾 Malay',
 };

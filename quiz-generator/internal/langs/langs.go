@@ -79,6 +79,22 @@ var Targets = []Target{
 	// Celtic
 	{Code: "ga", Name: "Irish"},
 	{Code: "cy", Name: "Welsh"},
+	// Southern Europe
+	{Code: "it", Name: "Italian"},
+	// Horn of Africa
+	{Code: "am", Name: "Amharic"},
+	// South Asia
+	{Code: "ne", Name: "Nepali"},
+	// Central & Inner Asia
+	{Code: "uz", Name: "Uzbek"},
+	{Code: "tk", Name: "Turkmen"},
+	{Code: "mn", Name: "Mongolian"},
+	// Southeast Asia
+	{Code: "th", Name: "Thai"},
+	{Code: "my", Name: "Burmese"},
+	{Code: "km", Name: "Khmer"},
+	{Code: "lo", Name: "Lao"},
+	{Code: "ms", Name: "Malay"},
 }
 
 // Codes returns just the locale codes, in canonical order.

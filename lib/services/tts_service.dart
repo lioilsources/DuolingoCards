@@ -79,6 +79,18 @@ class TtsService {
     'cy': ['cy-GB', 'cy'],
     // Classical / constructed — most engines won't have these; fallback is fine
     'eo': ['eo'],
+    // World-coverage gap-fillers
+    'it': ['it-IT', 'it'],
+    'am': ['am-ET', 'am'],
+    'ne': ['ne-NP', 'ne'],
+    'uz': ['uz-UZ', 'uz'],
+    'tk': ['tk-TM', 'tk'],
+    'mn': ['mn-MN', 'mn'],
+    'th': ['th-TH', 'th'],
+    'my': ['my-MM', 'my'],
+    'km': ['km-KH', 'km'],
+    'lo': ['lo-LA', 'lo'],
+    'ms': ['ms-MY', 'ms'],
   };
 
   /// First engine locale that is actually available for [lang], or null.
