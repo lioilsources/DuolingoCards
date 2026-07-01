@@ -2,203 +2,379 @@ lang: pl
 pivot: false
 title: Owady
 cards:
-  insect.ant:
-    label: ""
-    summary: ""
-    info: ""
-  insect.antlion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.aphid:
-    label: ""
-    summary: ""
-    info: ""
-  insect.atlas_moth:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bedbug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bee:
-    label: ""
-    summary: ""
-    info: ""
-  insect.beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bombardier_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bumblebee:
-    label: ""
-    summary: ""
-    info: ""
   insect.butterfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.caterpillar:
-    label: ""
-    summary: ""
-    info: ""
-  insect.centipede:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cicada:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cockroach:
-    label: ""
-    summary: ""
-    info: ""
-  insect.crane_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cricket:
-    label: ""
-    summary: ""
-    info: ""
-  insect.damselfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.diving_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dragonfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dung_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.earwig:
-    label: ""
-    summary: ""
-    info: ""
-  insect.firefly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.flea:
-    label: ""
-    summary: ""
-    info: ""
-  insect.fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.goliath_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.grasshopper:
-    label: ""
-    summary: ""
-    info: ""
-  insect.ground_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hornet:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hoverfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.lacewing:
-    label: ""
-    summary: ""
-    info: ""
+    label: motyl
+    summary: Latający owad o dużych, barwnych skrzydłach.
+    info: Motyl to owad mający dwie pary pokrytych łuskami skrzydeł, często o żywych barwach.
+  insect.bee:
+    label: pszczoła
+    summary: Żółto-czarny owad, który zapyla kwiaty i wytwarza miód.
+    info: Pszczoła miodna to owad społeczny, który żyje w ulach i zbiera nektar.
   insect.ladybug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.locust:
-    label: ""
-    summary: ""
-    info: ""
-  insect.louse:
-    label: ""
-    summary: ""
-    info: ""
-  insect.mayfly:
-    label: ""
-    summary: ""
-    info: ""
+    label: biedronka
+    summary: Mały, okrągły, czerwony chrząszcz w czarne kropki.
+    info: Biedronka to mały chrząszcz, który żywi się mszycami i jest pożyteczny w ogrodzie.
+  insect.dragonfly:
+    label: ważka
+    summary: Owad o długim ciele i dwóch parach przezroczystych skrzydeł.
+    info: Ważka to drapieżnik o znakomitym wzroku, który poluje przy powierzchni wody.
+  insect.ant:
+    label: mrówka
+    summary: Mały owad społeczny, który żyje w koloniach.
+    info: Mrówka to owad tworzący duże kolonie z podziałem obowiązków.
+  insect.beetle:
+    label: chrząszcz
+    summary: Chrząszcze tworzą największy rząd owadów, liczący ponad 400 000 opisanych gatunków.
+    info: |
+      Chrząszcz należy do rzędu Coleoptera i stanowi około 40% wszystkich opisanych gatunków owadów.
+      Charakteryzuje się twardymi pokrywami skrzydłowymi (elytrami), pod którymi ukryte są właściwe skrzydła.
+      Jelonek rogacz jest największym chrząszczem Europy; samiec ma potężne żuwaczki przypominające poroże.
+      Chrząszcze żyją niemal we wszystkich środowiskach, od tropików po tereny arktyczne.
+  insect.grasshopper:
+    label: konik polny
+    summary: Skaczący owad o długich tylnych nogach i cykaniu.
+    info: |
+      Konik polny to owad z rzędu prostoskrzydłych o silnych tylnych nogach, które pozwalają na skoki do dwudziestu razy dłuższe niż ciało.
+      Samce wydają charakterystyczny dźwięk (stridulację), pocierając nogami o skrzydła.
+      Żywi się roślinami i w wielkich rojach może niszczyć uprawy.
+  insect.cricket:
+    label: świerszcz
+    summary: Nocny owad, słynący z cykania samców.
+    info: |
+      Świerszcz polny to nocny owad z rzędu prostoskrzydłych.
+      Samce grają, pocierając skrzydłami o siebie, aby wabić samice i wyznaczać terytorium.
+      W Azji świerszcze od dawna trzymano jako zwierzęta domowe dla ich śpiewu.
+      W wielu kulturach są też symbolem domowego szczęścia i pomyślności.
   insect.mosquito:
-    label: ""
-    summary: ""
-    info: ""
+    label: komar
+    summary: Owad z dwiema parami skrzydeł; samica ssie krew i może przenosić choroby.
+    info: |
+      Komar to owad dwuskrzydły z rodziny komarowatych.
+      Samice ssą krew zwierząt, aby zdobyć białko potrzebne do rozwoju jaj; samce żywią się nektarem.
+      Komary przenoszą groźne choroby, takie jak malaria, denga i zika.
+      Na świecie występuje ponad 3 500 gatunków komarów.
+  insect.fly:
+    label: mucha
+    summary: Bardzo pospolity owad dwuskrzydły, który może przenosić bakterie.
+    info: |
+      Mucha domowa to najpospolitszy owad dwuskrzydły w ludzkich domach.
+      Jej oczy złożone pozwalają jej widzieć niemal 360 stopni dookoła.
+      Przenosi bakterie, ponieważ ląduje zarówno na odpadach, jak i na jedzeniu.
+      Ma tylko jedną parę czynnych skrzydeł; druga para (przezmianki) pomaga utrzymać równowagę w locie.
   insect.moth:
-    label: ""
-    summary: ""
-    info: ""
+    label: ćma
+    summary: Nocna krewna motyla; leci do światła i ma pierzaste czułki.
+    info: |
+      Ćmy to nocne motyle, które w przeciwieństwie do motyli dziennych składają skrzydła wzdłuż boków w spoczynku.
+      Wiele gatunków przyciąga sztuczne światło.
+      Naturalny jedwab zawdzięczamy gąsienicom jedwabnika.
+      Pawica księżycówka (luna) to jedna z najpiękniejszych ciem świata.
+  insect.caterpillar:
+    label: gąsienica
+    summary: Larwa motyla lub ćmy; zjada liście i przygotowuje się do przepoczwarzenia.
+    info: |
+      Gąsienica to larwalne stadium motyla lub ćmy i spędza życie głównie na zjadaniu liści, aby zgromadzić energię na przemianę.
+      Niektóre gąsienice mają jaskrawe barwy, które ostrzegają drapieżniki, że są trujące.
+      Podczas przepoczwarzenia tworzy poczwarkę (kokon), w której dokonuje się pełna przemiana (metamorfoza) w postać dorosłą.
   insect.praying_mantis:
-    label: ""
-    summary: ""
-    info: ""
-  insect.robber_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.scorpion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.silverfish:
-    label: ""
-    summary: ""
-    info: ""
-  insect.spider:
-    label: ""
-    summary: ""
-    info: ""
-  insect.stag_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: modliszka
+    summary: Owad drapieżny o modlitewnej postawie i błyskawicznym ataku.
+    info: |
+      Modliszka to owad drapieżny z gromady Mantodea.
+      Swoją nazwę zawdzięcza postawie, w której trzyma przednie nogi złożone jak do modlitwy.
+      Jest mistrzynią polowania; uderza i chwyta zdobycz w ułamku sekundy.
+      Samica czasami zjada samca po kopulacji, choć nie zdarza się to zawsze.
   insect.stick_insect:
-    label: ""
-    summary: ""
-    info: ""
-  insect.termite:
-    label: ""
-    summary: ""
-    info: ""
-  insect.tiger_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.velvet_ant:
-    label: ""
-    summary: ""
-    info: ""
+    label: patyczak
+    summary: Owad, który doskonale naśladuje gałązkę lub liść.
+    info: |
+      Patyczak należy do gromady Phasmatodea i jest mistrzem kamuflażu; jego ciało doskonale naśladuje gałązki lub liście.
+      W obliczu zagrożenia pozostaje całkowicie nieruchomy.
+      Niektóre gatunki rozmnażają się przez partenogenezę, czyli bez samca.
+      Są popularnymi egzotycznymi zwierzętami domowymi ze względu na łatwą hodowlę.
+  insect.firefly:
+    label: świetlik
+    summary: Chrząszcz świecący bioluminescencyjnym światłem, aby zwabić partnera.
+    info: |
+      Świetlik to chrząszcz z rodziny Lampyridae, który potrafi wytwarzać zimne światło (bioluminescencję) w odwłoku.
+      Samce i samice świecą różnymi wzorami, aby się rozpoznawać i wabić.
+      Światłem steruje reakcja chemiczna lucyferyny z lucyferazą.
+      Świetliki są wskaźnikiem czystego środowiska.
   insect.wasp:
-    label: ""
-    summary: ""
-    info: ""
+    label: osa
+    summary: Żółto-czarny owad z żądłem, który buduje papierowe gniazda.
+    info: |
+      Osa pospolita to owad z żądłem z gromady Vespula o typowych żółto-czarnych barwach ostrzegawczych.
+      Buduje papierowe gniazda z przeżutej masy drzewnej.
+      W przeciwieństwie do pszczoły osa może żądlić wielokrotnie.
+      Jest pożyteczna jako naturalny regulator owadów szkodliwych.
+  insect.cockroach:
+    label: karaluch
+    summary: Szybki, nocny, wszystkożerny owad; bardzo wytrzymały i zdolny do przystosowania.
+    info: |
+      Karaluch to jeden z najbardziej wytrzymałych owadów świata; przeżywa promieniowanie i warunki, które zabiłyby inne zwierzęta.
+      Istnieje ponad 4 500 gatunków, ale tylko około 30 żyje w pobliżu człowieka.
+      To pradawny owad; karaluchy istnieją od ponad 300 milionów lat i przetrwały dinozaury.
+      Jest szybki i potrafi biec z prędkością ponad 5 km/h.
+  insect.spider:
+    label: pająk
+    summary: Ośmionogi pajęczak, który tka sieci, aby łapać owady.
+    info: |
+      Pająk to pajęczak (nie owad) z rzędu Araneae, mający osiem nóg i dwuczłonowe ciało.
+      Potrafi wytwarzać jedwab, którym tka sieci do polowania lub owija kokony z jajami.
+      Na świecie żyje ponad 48 000 gatunków pająków.
+      Wszystkie gatunki wytwarzają jad, lecz zdecydowana większość jest nieszkodliwa dla człowieka.
+  insect.scorpion:
+    label: skorpion
+    summary: Jadowity pajęczak z szczypcami i zakrzywionym, jadowitym ogonem.
+    info: |
+      Skorpion to pajęczak (nie owad) o typowych szczypcach i zakrzywionym ogonie zakończonym jadowitym kolcem.
+      To pradawne zwierzę; najstarsze skamieniałe skorpiony mają ponad 430 milionów lat.
+      W ciemności fluoryzują w świetle ultrafioletowym.
+      Spośród około 2 500 gatunków tylko około 25 jest groźnych dla człowieka.
+  insect.centipede:
+    label: wij
+    summary: Wij o jednej parze nóg na każdym segmencie ciała.
+    info: |
+      Wij należy do gromady Chilopoda i ma jedną parę nóg na każdym segmencie ciała (nie sto nóg, jak sugeruje angielska nazwa).
+      To szybki drapieżnik, który łapie owady, dżdżownice i małe kręgowce.
+      Pierwsza para nóg jest przekształcona w jadowite szczękonóża, które paraliżują zdobycz.
+      Niektóre gatunki tropikalne osiągają ponad 30 cm długości.
+  insect.flea:
+    label: pchła
+    summary: Maleńki, skaczący pasożyt, który ssie krew ssaków i ptaków.
+    info: |
+      Pchła to bezskrzydły owad z rzędu Siphonaptera, wyspecjalizowany w pasożytniczym trybie życia.
+      Jej silne tylne nogi umożliwiają skoki na ponad 150 razy dłuższe niż ciało.
+      Ssie krew ssaków i ptaków oraz może przenosić choroby; w przeszłości pchły roznosiły dżumę.
+      Pchły są akrobatami świata owadów.
+  insect.termite:
+    label: termit
+    summary: Owad społeczny, który buduje ogromne kopce z ziemi.
+    info: |
+      Termit to owad społeczny z gromady Isoptera, daleko spokrewniony z karaluchami.
+      Żyją w koloniach z królem, królową, żołnierzami i robotnicami.
+      Budują złożone termitiery, w tropikach sięgające 9 metrów wysokości, z własnym systemem wentylacji.
+      Jako ważni rozkładacze drewna odgrywają kluczową rolę w tropikalnych ekosystemach.
+  insect.bumblebee:
+    label: trzmiel
+    summary: Duża, owłosiona pszczoła o głębokim brzęczeniu; ważny zapylacz.
+    info: |
+      Trzmiel to duży, owłosiony owad z rodzaju Bombus, spokrewniony z pszczołą miodną.
+      Jest ważnym zapylaczem, zwłaszcza w chłodniejszych klimatach, gdzie pszczoły latają rzadziej.
+      Potrafi się rozgrzać, wprawiając w drżenie mięśnie lotne, dzięki czemu lata nawet w chłodzie.
+      Trzmiele są łagodniejsze od os i żądlą tylko przy bezpośrednim zagrożeniu.
+  insect.hornet:
+    label: szerszeń
+    summary: Największa osa Europy o silnym żądle i głośnym brzęczeniu.
+    info: |
+      Szerszeń to największa osa społeczna Europy i osiąga ponad 3,5 cm długości.
+      Buduje papierowe gniazda w dziuplach drzew lub pod dachami.
+      Jego żądło jest dłuższe niż u os, a ukłucie boleśniejsze, ale szerszeń atakuje tylko przy bezpośrednim zagrożeniu.
+      Jest ważnym wrogiem drapieżnym innych owadów.
+  insect.cicada:
+    label: cykada
+    summary: Owad słynący z głośnego cykania w upalne dni.
+    info: |
+      Cykada to owad z nadrodziny Cicadoidea, słynący z jednego z najgłośniejszych dźwięków wśród owadów.
+      Samce wydają dźwięk za pomocą specjalnych błon (tymbałów) w odwłoku, aby wabić samice.
+      Niektóre gatunki w USA mają cykle rozwojowe trwające siedemnaście lub trzynaście lat.
+      Larwy żyją latami pod ziemią i żywią się korzeniami.
+  insect.locust:
+    label: szarańcza
+    summary: Wędrowna szarańcza, która tworzy niszczycielskie roje liczące miliony.
+    info: |
+      Szarańcza wędrowna to gatunek prostoskrzydłego, który w pewnych warunkach tworzy ogromne wędrowne roje.
+      Rój może liczyć miliardy osobników i w jeden dzień zniszczyć uprawy na tysiącach hektarów.
+      W krajach Afryki i Azji szarańcza jest historycznie jedną z największych klęsk rolniczych.
+      W Biblii jest jedną z dziesięciu plag egipskich.
+  insect.aphid:
+    label: mszyca
+    summary: Maleńki, ssący owad na łodygach roślin; wytwarza spadź.
+    info: |
+      Mszyce to małe, ssące owady z nadrodziny Aphidoidea, które żywią się sokiem roślinnym.
+      Wytwarzają słodką spadź, w zamian za którą mrówki się nimi opiekują i chronią je.
+      Rozmnażają się niezwykle szybko; jedna samica może w ciągu roku dać początek setkom milionów potomków.
+      Są ważnymi szkodnikami upraw rolnych.
+  insect.earwig:
+    label: skorek
+    summary: Wydłużony owad z kleszczami na końcu odwłoka.
+    info: |
+      Skorek to owad z rzędu Dermaptera, charakteryzujący się kleszczami (cerci) na końcu odwłoka, które służą do obrony i kopulacji.
+      Angielska nazwa pochodzi od przesądu, że wpełza ludziom do uszu; to mit.
+      Samice skorka są wyjątkowe, ponieważ opiekują się jajami i młodymi larwami, co jest rzadkie wśród owadów.
+      Żyją w szczelinach, pod kamieniami i w ściółce.
+  insect.silverfish:
+    label: rybik cukrowy
+    summary: Bezskrzydły, szybki owad spotykany w domach przy książkach i papierze.
+    info: |
+      Rybik cukrowy to prymitywny, bezskrzydły owad z rzędu Zygentoma, żyjący w domach.
+      Żywi się skrobią, papierem, klejem introligatorskim i włóknami tkanin.
+      Nazwa pochodzi od jego srebrzystej barwy i rybiego ruchu.
+      Należy do jednego z najstarszych rzędów owadów i żyje niemal niezmieniony od ponad 300 milionów lat.
   insect.water_strider:
-    label: ""
-    summary: ""
-    info: ""
+    label: nartnik
+    summary: Owad, który chodzi po powierzchni wody dzięki napięciu powierzchniowemu.
+    info: |
+      Nartnik to owad z rodziny Gerridae, który potrafi chodzić po wodzie dzięki hydrofobowym włoskom na nogach i napięciu powierzchniowemu wody.
+      Poluje na owady, które wpadły do wody, a które rozpoznaje po drganiach powierzchni.
+      Jest szybki i potrafi ślizgać się po wodzie z prędkością ponad 150 razy dłuższą niż jego ciało na sekundę.
+  insect.dung_beetle:
+    label: żuk gnojowy
+    summary: Chrząszcz, który toczy kulki z odchodów, święty w starożytnym Egipcie.
+    info: |
+      Święty skarabeusz to chrząszcz z rodziny Scarabaeidae, który formuje odchody w kulki i toczy je, aby zakopać je i złożyć w nich jaja.
+      W starożytnym Egipcie był symbolem słońca i boga Chepri.
+      To jedno z niewielu zwierząt, które orientują się według Drogi Mlecznej.
+      Pomaga w obiegu składników odżywczych i napowietrzaniu gleby.
+  insect.stag_beetle:
+    label: jelonek rogacz
+    summary: Największy chrząszcz Europy; samiec ma żuwaczki przypominające poroże.
+    info: |
+      Jelonek rogacz to największy chrząszcz Europy i osiąga ponad 7 cm długości.
+      Samiec ma ogromne żuwaczki przypominające poroże, używane w walkach o samice.
+      Larwa żyje do 7 lat w próchniejącym drewnie dębów i żywi się grzybami.
+      Jest poważnie zagrożony przez zanikanie starych lasów i martwego drewna.
+  insect.atlas_moth:
+    label: pawica atlas
+    summary: Jedna z największych ciem świata, o skrzydłach zdobionych wzorem węża.
+    info: |
+      Pawica atlas to jedna z największych ciem świata, o rozpiętości skrzydeł sięgającej 30 cm.
+      Końce jej skrzydeł są ubarwione tak, że przypominają głowy węży, co odstrasza drapieżniki.
+      Dorosłe osobniki nie mają aparatu gębowego i wcale nie jedzą; żyją zaledwie kilka dni.
+      Pochodzi z tropikalnych lasów Azji Południowo-Wschodniej.
   insect.weevil:
-    label: ""
-    summary: ""
-    info: ""
+    label: ryjkowiec
+    summary: Mały chrząszcz z charakterystycznym wydłużonym ryjkiem.
+    info: |
+      Ryjkowiec to chrząszcz z rodziny Curculionidae, największej rodziny zwierząt na świecie, liczącej ponad 60 000 gatunków.
+      Jego charakterystyczny wydłużony ryjek (rostrum) służy do wiercenia w nasionach, owocach i pniach.
+      Niektóre gatunki są poważnymi szkodnikami upraw, jak ryjkowiec bawełniany.
+      Inne gatunki są wyspecjalizowane w jednym gatunku rośliny.
+  insect.lacewing:
+    label: złotook
+    summary: Delikatny owad o przezroczyście użyłkowanych skrzydłach; larwy polują na mszyce.
+    info: |
+      Złotook to owad z rodziny Chrysopidae o delikatnych, przezroczyście użyłkowanych skrzydłach i złocistych oczach.
+      Larwy są drapieżnikami i pożerają ogromne ilości mszyc, dzięki czemu są naturalnymi obrońcami roślin.
+      Dorosłe osobniki żywią się nektarem i pyłkiem.
+      Przyciąga je światło i są wskaźnikiem zdrowego środowiska.
+  insect.crane_fly:
+    label: koziułka
+    summary: Duża, komarowata mucha o niezwykle długich nogach.
+    info: |
+      Koziułka to owad dwuskrzydły z rodziny Tipulidae, wyglądem przypominający olbrzymiego komara, ale nie kłuje i nie pasożytuje.
+      Jej niezwykle długie nogi łatwo się odłamują; to mechanizm obronny (autotomia).
+      Dorosłe osobniki żyją zaledwie kilka dni i nie jedzą albo żywią się nektarem.
+      Larwy żyją w glebie i żywią się korzeniami.
+  insect.mayfly:
+    label: jętka
+    summary: Owad o najkrótszym dorosłym życiu, trwającym zaledwie godziny do dni.
+    info: |
+      Jętka to owad z rzędu Ephemeroptera i symbol przemijania; dorosłe osobniki żyją zaledwie godziny do dni.
+      Nie mają czynnego aparatu gębowego i wcale nie jedzą.
+      Larwy żyją od 1 do 3 lat pod wodą.
+      Masowe rojenie się jętek to fascynujące widowisko przyrody; na Dunaju na Węgrzech jest to wyjątkowe zjawisko.
+  insect.damselfly:
+    label: ważka równoskrzydła
+    summary: Smukła krewna ważki; w spoczynku składa skrzydła wzdłuż ciała.
+    info: |
+      Ważka równoskrzydła to owad spokrewniony z ważkami, ale smuklejszy, i w spoczynku składa skrzydła równolegle do ciała, w przeciwieństwie do dużych ważek.
+      Jest drapieżnikiem i poluje na małe owady w locie.
+      Larwy żyją w wodzie i stanowią ważną część ekosystemów wodnych.
+      Są wskaźnikiem jakości cieków wodnych.
+  insect.robber_fly:
+    label: łowik
+    summary: Drapieżna mucha, która chwyta inne owady w pełnym locie.
+    info: |
+      Łowik to drapieżny owad dwuskrzydły z rodziny Asilidae, który chwyta inne owady wprost w locie.
+      Ma silne nogi do chwytania zdobyczy i kłujący ryjek do wstrzykiwania paraliżującego jadu.
+      Niektóre gatunki naśladują wygląd trzmieli lub os jako ochronę przed drapieżnikami.
+      Jest pożyteczny jako naturalny regulator populacji owadów.
+  insect.ground_beetle:
+    label: biegacz
+    summary: Szybki chrząszcz drapieżny, żyjący pod kamieniami i w ściółce.
+    info: |
+      Biegacz to chrząszcz z rodziny Carabidae; większość gatunków to aktywne nocne drapieżniki, które łapią inne owady, dżdżownice i ślimaki.
+      Są szybkie i szybko uciekają przed niebezpieczeństwem.
+      Niektóre gatunki, jak biegacz fioletowy, mają piękny metaliczny połysk.
+      Są wskaźnikami zdrowej gleby i naturalnego rolnictwa.
+  insect.tiger_beetle:
+    label: trzyszcz
+    summary: Szybki, metalicznie ubarwiony chrząszcz o znakomitym wzroku.
+    info: |
+      Trzyszcz to chrząszcz z podrodziny Cicindelinae, słynący z niezwykłej szybkości, zdolności lotu i ostrego wzroku.
+      Biegnie tak szybko, że musi się zatrzymywać i orientować na nowo, ponieważ ruch jest zbyt szybki dla jego układu wzrokowego.
+      Ma pięknie ubarwione metaliczne ciała (zielone, niebieskie, czerwone) i duże oczy.
+      Larwy kopią pionowe tunele w ziemi i czyhają na zdobycz przy wejściu.
+  insect.hoverfly:
+    label: bzyg
+    summary: Mucha naśladująca barwy os i pszczół; zapylacz ogrodów.
+    info: |
+      Bzyg to owad dwuskrzydły z rodziny Syrphidae, który naśladuje barwy os i pszczół jako ochronę przed drapieżnikami (mimikra Batesa), choć nie żądli.
+      Jest ważnym zapylaczem; odwiedza więcej gatunków roślin niż pszczoły.
+      Dorosłe osobniki żywią się nektarem i pyłkiem.
+      Larwy niektórych gatunków polują na mszyce i tym samym pomagają w ogrodzie.
   insect.whirligig_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: krętak
+    summary: Mały chrząszcz, który wiruje w rojach po powierzchni wody.
+    info: |
+      Krętak to chrząszcz wodny z rodziny Gyrinidae, który żyje na powierzchni, a wirowanie w rojach pomaga mu unikać drapieżników.
+      Jego oczy są podzielone na dwie części; jedna widzi nad wodą, druga pod nią.
+      Wykrywa zmarszczki na powierzchni sygnalizujące pokarm lub niebezpieczeństwo.
+      W dzień wiruje, w nocy lata.
+  insect.louse:
+    label: wesz
+    summary: Maleńki, bezskrzydły pasożyt żyjący na skórze i we włosach ssaków.
+    info: |
+      Wesz to bezskrzydły, pasożytniczy owad z rzędu Phthiraptera, żyjący na skórze żywiciela oraz w jego sierści lub włosach.
+      Ssie krew i wywołuje swędzenie.
+      Wesz głowowa występuje na całym świecie i dotyka dzieci niezależnie od warunków higienicznych.
+      W przeszłości wszy przenosiły tyfus i inne choroby.
+  insect.bedbug:
+    label: pluskwa domowa
+    summary: Płaski pasożyt, który nocą ssie krew; ukrywa się w szczelinach mebli.
+    info: |
+      Pluskwa domowa to płaski, owalny owad z rodziny Cimicidae, aktywny głównie nocą.
+      Gryzie i ssie krew śpiącego żywiciela.
+      Ukrywa się w szczelinach materaca, w meblach i za tapetą.
+      W ostatnich dziesięcioleciach rozprzestrzeniła się po całym świecie dzięki podróżom międzynarodowym.
+  insect.antlion:
+    label: mrówkolew
+    summary: Larwa, która kopie lejkowate pułapki na mrówki w piasku.
+    info: |
+      Mrówkolew to larwa owada z rodziny Myrmeleontidae, która kopie stożkowate lejki w suchym piasku.
+      Gdy mrówka zsuwa się do pułapki, mrówkolew chwyta ją żuwaczkami i wstrzykuje soki trawienne.
+      Dorosłe osobniki są niepozorne, przypominają ważki i latają nocą.
+      Larwy potrafią żyć latami pod ziemią bez jedzenia.
+  insect.goliath_beetle:
+    label: goliat
+    summary: Jeden z największych i najcięższych owadów świata, z tropikalnej Afryki.
+    info: |
+      Goliat to jeden z największych owadów świata; samce ważą do 100 gramów i osiągają ponad 11 cm długości.
+      Żyje w tropikalnych lasach deszczowych równikowej Afryki.
+      Dorosłe osobniki żywią się owocami i sokiem drzew.
+      W Afryce dzieci trzymają je czasem jako zabawki, a bywają sprzedawane kolekcjonerom.
+  insect.bombardier_beetle:
+    label: strzel bombardier
+    summary: Chrząszcz, który w obronie wystrzeliwuje wrzącą, trującą mieszaninę.
+    info: |
+      Strzel bombardier to chrząszcz z podrodziny Brachininae, który broni się w wyjątkowy sposób; miesza w odwłoku dwie substancje chemiczne, co daje wybuchową reakcję o temperaturze ponad 100 stopni.
+      Bardzo żrący opar zostaje wystrzelony z głośnym trzaskiem do 500 razy na sekundę.
+      To jeden z najbardziej fascynujących przykładów obrony chemicznej w przyrodzie.
+  insect.diving_beetle:
+    label: pływak
+    summary: Drapieżny chrząszcz wodny, który pływa pod powierzchnią.
+    info: |
+      Pływak żółtobrzeżek to drapieżny chrząszcz wodny z rodziny Dytiscidae, żyjący w stawach i wodach stojących.
+      Pływa zwinnie dzięki płaskim tylnym nogom działającym jak wiosła.
+      Oddycha przy powierzchni i gromadzi powietrze pod pokrywami skrzydłowymi.
+      Poluje na owady, larwy, małe ryby i kijanki.
+  insect.velvet_ant:
+    label: mrówka aksamitna
+    summary: Bezskrzydła, pomarańczowo-czarna osa, która przypomina mrówkę.
+    info: |
+      Mrówka aksamitna to w istocie osa z rodziny Mutillidae; samice są bezskrzydłe i przypominają mrówki.
+      Mają rzucające się w oczy czerwone lub pomarańczowe włoski jako ostrzeżenie.
+      Samice mają niezwykle silne żądło, o przydomku zabójca krów.
+      Pasożytują w gniazdach trzmieli.

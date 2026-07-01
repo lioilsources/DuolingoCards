@@ -2,216 +2,363 @@ lang: es-419
 pivot: false
 title: Frutas
 cards:
-  fruit.ackee:
-    label: aceite
-    summary: Fruta roja tropical con arilos amarillos comestibles considerados como la fruta emblemática de JAMAICA.
-    info: El ackee es el fruto nacional de Jamaica y se nombró en honor al capitán Bligh en 1793. Solo los arilos amarillos maduros son comestibles ya que contienen una sustancia tóxica llamada hipoglucina A si no están completamente maduros o están demasiado viejos para comerse. El platillo tradicional 'ackee con salmón' también forma parte del patrimonio culinario jamaiquino.
   fruit.apple:
     label: manzana
-    summary: Fruto rojo o verde con sabor dulce-agrio.
-    info: La manzana es el fruto del árbol de manzano, una de las cultivos más cultivados en el mundo. Contiene vitamina C y fibra; existen más de 7 500 variedades.
-  fruit.apricot:
-    label: ciruela
-    summary: Fruto pequeño amarillo anaranjado; jugoso y un poco agrio.
-    info: "{\"hint\":\"pequeña fruta de hueso naranja (pruna dulce)\",\"info\":\"La pruna dulce o melocotón chino proviene del Asia central y crece en la República Checa así como por toda Europa;\r\nlos más suculentos vienen de Turquía e Italia\r\nson ricos en betacaroteño y Vitamina B,\r\nlas ciruelas secas son una popular snack saludable\",\"label\":\"ciruela\",\"summary\":\"Pequeña frutilla con piel dorada; jugosa y ligeramente ácida.\"}"
-  fruit.avocado:
-    label: aguacate
-    summary: Fruto cremoso verde del trópico usado principalmente para hacer guacamole.
-    info: El aguacate o Persea americana proviene de México y Centroamérica. Botánicamente es una fruta pero culinariamente suele usarse como un vegetal en recetas saladas. Contiene grasas monoinsaturadas saludables tales como el ácido oleico similares al aceite de oliva.
+    summary: Una fruta redonda roja o verde de sabor dulce y ácido.
+    info: La manzana es el fruto del manzano, uno de los cultivos más extendidos del mundo. Contiene vitamina C y fibra; existen más de 7.500 variedades.
   fruit.banana:
-    label: plátano
-    summary: Fruto tropical amarillo con pulpa dulce.
-    info: El plátano es el fruto de una planta tropical perteneciente a la familia de las musaceas. Es rico en potasio y azúcares naturales que proporcionan energía rápida.
-  fruit.blackberry:
-    label: Zarzaparrilla
-    summary: Bayanegra purpurea compuesta obtenida por medio de plantas de zarzaparrillas.
-    info: '{"hint":"fruto morado-negro oscuro de Rubus fruticosus","info":"La zarzamora o rubus fruticosus es una baya oscura purpúrea compuesta que crece en arbustos con púas\nLas zarzas silvestres se encuentran al borde del bosque y entre maleza\nContienen altas cantidades de vitaminas C,K,y fibra dietética \nEl jarabe,marmolete licor hechos de zarzaparrilla son productos tradicionales ","label":"zarazaparrella","summary":"Baya negruzca purpurada compuesta proveniente de la planta de zarzaparrilla."}'
-  fruit.blueberry:
-    label: arandanos
-    summary: Frutilla oscura con alto contenido de抗氧化剂.
-    info: La arándano es una fruta rica en antioxidantes y especialmente antrocianinas que dan color azul oscuro al fruto e incrementan sus propiedades antiinflamatorias. Estudios sugieren beneficios para la función cognoscitiva y el corazón.
-  fruit.cantaloupe:
-    label: cantalúp
-    summary: Melón amarillo-marrón con malla rojiza y jugosa carne anaranjada.
-    info: El kantalúp es una variedad popular de sandía originaria de Asia y cuyo nombre proviene del palacio papal en Cantalupo cerca Roma. Su pulpa naranja está rica en betacaroteno y la Vitamina A.
-  fruit.cherry:
-    label: cereza
-    summary: Pequeña fruta roja y redonda que crece en parejas.
-    info: La cereza es el fruto del duraznero común, un popular fruto de verano. Contiene antioxidantes y melatonina; hay variedades dulces y ácidas (como las ciruelas).
-  fruit.coconut:
-    label: coco
-    summary: Fruto grande tropical que tiene piel dura externamente y carne blanca internamente
-    info: '{"info":"El coco es el fruto de la palmera cocos y desde un punto de vista botánico no es una nuez sino más bien una drupa con cáscara fibrosa exterior blanda interior blanco suculento La bebida natural dentro del fruto verde contiene electrolitos El agua y aceite de coco son ingredientes básicos en las cocinas sureste asiática e india La planta también recibe el nombre árbol mil usos"}'
-  fruit.cranberry:
-    label: arandano
-    summary: Pequeña baya rojiza con sabor agrio usada comúnmente durante las celebraciones navideñas norteamericanas.
-    info: La arándano rojo es una pequeña fruta ácida de color roja que se cultiva principalmente en América del Norte y forma parte tradicionalmente como salsa para el Thanksgiving estadounidense. Contiene procianidinas capaces de prevenir la adhesión bacteriana causante por Escherichia Coli al sistema urinario.
-  fruit.currant:
-    label: arándanos
-    summary: Pequeñas bayas negras, rojas u blancas en racimos.
-    info: El arándano negro contiene más vitamina C que cualquier otra baya y es la base del sabor 'Ribena' (bebida británica), así como también del licor Cassis. El arándano rojo se utiliza para hacer mermeladas o decorar postres.
-  fruit.damson:
-    label: Ciruela damasquino
-    summary: Variedad pequeñas y negras comunes en los cultivos caseros británicos.
-    info: '{"hint":"pequeña variedad de ciruela azul oscura-negra","info":{"label":"ciruelo damasco","summary":"Pequeño tipo oscuro típico en jardines ruranos ingleses.","info": "La ciruela Damaskena es una pequeña y muy ácida fruta con coloración entre morada-oscura que originalmente proviene del área alrededor de la ciudad siria de Damasco desde donde fue introducida Europa. Aunque no suele comerse cruda por su acidez marcada tiene múltiples usos culinarios especialmente para preparar mermeladas confituras y licores como el ''gin'' especializado llamado ''ginebra de ciruela''. En Inglaterra esta especie ha sido cultivada durante siglos."}}'
-  fruit.date:
-    label: Dátiles
-    summary: Fruta dulce color café con forma óvalada proveniente del árbol de los dátiles.
-    info: '{"hint":"fruto dulce marrón y ovalado del palto de dátilos","info":"Los dátilos son frutos muy azucarados que vienen directamente del árbol Phoenix Dactilifera.\nHan sido una parte fundamental en la dieta tradicional del Medio Oriente desde hace miles de años.\nContienen más del sesenta por ciento de carbohidratos simples y ofrecen mucha energía al cuerpo humano.\nEn el Islam es costumbre comerlos primero cuando terminas tu ayuno durante Ramadan."}'
-  fruit.dragon_fruit:
-    label: Fruta Dragón
-    summary: Planta carnívora que crece principalmente en regiones desérticas
-    info: |-
-      {"hint":"fruto rosado del desierto con carne blanca y manchas blancas","info":"El frutillo dragón proviene originariamente de México y Centro América\u00c
-      Su piel vistosa rosa brillante combinada con la pulpa blanquecina llena de pequeños granos negros lo hace muy decorativo para presentaciones culinarias\u00c
-      Posee un sabor suave y contiene antioxidantes naturales así como vitaminas especialmente el Vitamina C\u00c
-      Se utiliza comúnmente en jugos exprimidos recientes batidos saludables y postres artísticos elaborados"}
-  fruit.durian:
-    label: durián
-    summary: Fruto grande espigado热带ico con intensa fragancia llamada 'rey de la fruta tropical'.
-    info: El duriano es conocido como el rey de las frutas tropicales por su aroma intenso que puede ser repulsivo para unos y atrayente para otros; en muchos hoteles asiáticos está prohibido debido al fuerte olor. Su pulpa cremosa tiene un dulzón sabor complejo con notas similares a almendra, vainilla e incluso queso.
-  fruit.feijoa:
-    label: feijoas
-    summary: Pequeño fruto ovalado colorido cuya carne huele bien.
-    info: '{"hint":"fruto verde aromático en forma de huevo","info":"La feija es originaria del sur de América y tiene una pulpa con un aroma muy fuerte que recuerda al ananás, la maracuyá y el menthol. Es especialmente popular como fruta típica para comienzos de primavera en Nueva Zelanda; sin embargo no se encuentra tan comúnmente consumida por Europa aunque sí lo sigue siendo ampliamente dentro sus países natales."}'
-  fruit.fig:
-    label: '"figo"'
-    summary: Fruto similar a una ciruela producido por el árbol Ficus Carica
-    info: '{"info":"El higo es una fruta en forma de pera con un interior dulce y lleno de pequeños granos que son flores diminutas dentro del receptáculo floral modificado llamado sílice. Los datos arqueológicos muestran evidencia de cultivo durante más de once mil años atrás. Las hojas mencionadas como las usadas por Adán y Eva para cubrirse según la Biblia pertenecen al ficus religioso también conocido comúnmente hoy día simplemente como árbol de higos."}'
-  fruit.gooseberry:
-    label: currant
-    summary: Small round fruit used for jams and wines.
-    info: '{"hint":"pequeña baya transparente verde o roja","info":{"label":"currants","summary":"Pequena bayuela circular transparente popular en jardines europeos","details":{}}}'
-  fruit.grape:
-    label: uva
-    summary: Pequeña fruta redonda que crece en racimos.
-    info: La vid produce uvas de varios colores, desde el verde hasta el morado oscuro. Las uvas se comen frescas, se secan para hacer pasas o se exprimen para elaborar vino.
-  fruit.grapefruit:
-    label: grapefruit
-    summary: Fruta citrica dulce-amarga muy nutritiva.
-    info: '{"hint":"fruto cítrico grande amargo-dulce","info":"El grapefruit es un hibrido de naranja y toronjas\nFue descrito en el siglo XVIII por primera vez en Barbadós\. \nLos tipos rosado o rojo contienen licopeno y betacaroteno\. \nLa jugo del grapefruit interactúa con muchos medicamentos; los pacientes deben advertirle al médico."}'
-  fruit.guava:
-    label: guayaba
-    summary: Fruto con aroma fuerte e interior blanco o rosado.
-    info: La guayaba es originaria de América tropical y se ha extendido por toda Asia y África también. Contiene cuatro veces más vitamina C que una naranja.
-  fruit.jackfruit:
-    label: jackfruit
-    summary: Frutro grande con el sabor suave
-    info: |-
-      {"hint":"fruta verde espinosa y enorme de clima cálido","info":"El chelvo o artokarpo produce los frutos más grandes que crecen en árbol del mundo;
-      pueden pesar hasta treinta kilogramos.
-      Proviene principalmente de Asia Tropical,
-      es un alimento básico para la gente de India Bangladesh y Tailandia
-      La carne cruda tiene una consistencia neutra y puede usarse como sustituto vegetariano
-      del pollo
-      Las porciones amarillas son dulces y aromáticas cuando están maduras."}
-  fruit.kiwi:
-    label: Kiwis
-    summary: Frutos pequeños cubiertos por pelos finos cuya pulpa interior tiene colores verdes intensos
-    info: '{"hint":"fruto pequeño de color marrón con pelusa y carne verde brillante (Actinidia deliciosa)","info":"El Kiwi (Actinidia deliciosa) es originario de China donde recibe el nombre de Yang Tao u higo chino\r\\nNueva Zelanda lo comercializó e hizo un cambio en su denominación al apodarlo como el ave nacional llamada kiwi\. \r\\nContiene doble cantidad de Vitamina C que una toronja\.'
-  fruit.lemon:
-    label: '"limón"'
-    summary: Fruta cítrica con alto contenido nutricional especialmente ricos en Vitaminas.
-    info: '{"info":"El cítrico es un fruto ácido de color amarillo que proviene de Asia y pertenece al género Citrus limón. Es rico en vitaminas como la Vitamina-C así como también contiene una sustancia química llamada Ácido-citrico utilizado comúnmente para cocinar o preparación de bebidas refrescantess. Además del uso culinario este tipo particular posee aplicaciones dentro del ámbito cosmético gracias principalmente por su aroma característico fresco-limónico."}'
-  fruit.lime:
-    label: '"Lima"'
-    summary: Pequeño fruto cívrico amargo utilizado como ingredient principal en cocinas tropicales.
-    info: '{"info":"La lima es un pequeño cítrico verde con jugo ácido y una cáscara aromática.\nEs fundamental en la cocina tailandesa, vietnamita y mejicana.\nContiene menos vitamina C que el limón pero tiene aroma intenso.\nConsumir limes protege contra las enfermedades de escorbuto por su contenido de vitaminas."}'
-  fruit.longan:
-    label: lóngano
-    summary: Pequeño fruto marrón热带 relacionado con la lichi.
-    info: El lóngano es el fruto de un árbol tropical originario de China. Su nombre proviene del chino y significa 'ojo dragón', debido al aspecto transparente con una semilla negra en su interior.
-  fruit.lychee:
-    label: lichi
-    summary: Pequeño fruto rojo delicioso popular en Asia.
-    info: '{"hint":"pequeña fruta roja de piel áspera y carne transparente","info":"El lichi es un fruto tropical originario de China con una cáscara rojiza rugosa que al pelarse revela su pulpa blanca trasparente. Tiene un sabor dulce e intensamente aromático."}'
-  fruit.mango:
-    label: mango
-    summary: Fruta tropical con pulpa jugosa de color naranja amarillento.
-    info: El mango es conocido como el "rey de las frutas tropicales" y está rico en vitaminas A y C. Proviene del sureste asiático, donde se cultiva desde hace más de 4 000 años.
-  fruit.medlar:
-    label: medlar
-    summary: Fruto marrón pequeño relacionado con las manzanas cuyo sabor requiere tiempo para madurar.
-    info: El medlar es una fruta de jardín antigua cultivada desde la Edad Media y tiene un sabor dulce que se desarrolla después del madurado postcosecha llamado 'blight'. Es rico en polifenoles y vitamina C.
-  fruit.melon:
-    label: Calabacin
-    summary: Plato tropical y subtrópico dulce del tamaño grande con la carne amarilla, verde ó blanca.
-    info: '{"hint":"fruta redonda u ovular grande con pulpa naranja o verde","info":{"label":"calabacín","summary":"Fruto dulce de gran tamaño con carne anaranjada, verde o blanca."},"translated":true}'
-  fruit.mulberry:
-    label: morena
-    summary: Fruto oscuro con sabor característico que se obtiene del arbusto de moreno.
-    info: La mora es una fruta oscura del árbol de la morera (género Morus); las hojas son alimento para el gusanillo sedoso o hilo blanco. Existen variedades blancas, rojas y negras, siendo esta última más dulce. En historia, cultivar los arboles de madera fue clave en la industria textil.
-  fruit.nectarine:
-    label: nectarine
-    summary: Brosqueva dulce y jugosa con piel lisa.
-    info: LaNECTARINA es una variedad natural de la Pruna con piel lisa y sin pelos. Se diferencia solo por el gen que determina su textura tersa en comparación con las ciruelas tradicionales.
+    label: banana
+    summary: Una fruta tropical amarilla de pulpa dulce.
+    info: La banana es el fruto de una planta tropical de la familia de las musáceas. Es rica en potasio y azúcares naturales que dan energía rápida.
   fruit.orange:
     label: naranja
-    summary: Fruto cítrico redondo con una fragante piel naranjada.
-    info: La naranja es un fruto cítrico originario de Asia del Sureste y hoy cultivado en todo el mundo. Es rica en vitamina C y muy popular como jugo.
-  fruit.papaya:
-    label: piña
-    summary: Fruta tropical amarillenta muy jugosa.
-    info: '{"hint":"fruta cálida naranjada grande","info":"La piña de maracuyá o fruto del sol proviene principalmente de América Tropical y contiene un enzima llamado papaína que ayuda con la digestión proteica; es rica también en Vitamina C, betacaroteno y antioxidantes. La frutilla verde no madura se utiliza como vegetal en cocinas asiáticas sureñas tales como el som tam salad."}'
-  fruit.passion_fruit:
-    label: granadilla
-    summary: Fruta tropical con cáscara púrpura arrugada y contenido芳香的semillado.
-    info: '{"hint":"fruto de una liana tropical con piel arrugada y morada","info":"La granadilla o maracuyá es originaria del sur americano热带地区。\nSu nombre proviene de los misioneros que en su flor veían símbolos del tormento de Cristo.\nSus semillas están envueltas por un geles aromático.\nEs excelente fuente de Vitamina C, fibra dietética e antioxidantes。"]'
-  fruit.peach:
-    label: durazno
-    summary: Fruta blanda con textura tersa en tonos rosados-amarrillos que simboliza el verano.
-    info: La durazno (pruna dulce) proviene de China donde es símbolo de la inmortalidad. Su suave piel terciopelada es característica y existen variedades blancas y amarillas; lasnectarinas son una versión lisa sin pelo.
-  fruit.pear:
-    label: pera
-    summary: Fruta en forma de lágrima con sabor dulce y suave.
-    info: La pera es el fruto del árbol de la pera común, estrechamente relacionado con las manzanas. Tiene una pulpa jugosa y tierna, así como un alto contenido de fibra; existen cientos de variedades.
-  fruit.persimmon:
-    label: Tomate
-    summary: Fruta naranja parecida a los tomates
-    info: |-
-      El Tomate de diosna (Diospyros kaki) proviene de China y Japón; en la República Checa se conoce como tomate japonés
-      No maduro es ácido e irritante para el estómago mientras que cuando está maduro tiene un sabor dulce similar al miel.
-  fruit.pineapple:
-    label: piña
-    summary: Fruta tropical con corona espinosa y pulpa amarilla.
-    info: La piña proviene de América del Sur y ahora se cultiva en la zona tropical de todo el mundo. Contiene una enzima llamada bromelina que ayuda al proceso digestivo.
-  fruit.plum:
-    label: Ciruela
-    summary: Fruto violeta; ingrediente básico para hacer licor y confitura.
-    info: '{"hint":"pequeña fruta de hueso morada en forma elipsoidal (Prunus domestica)","info":"La ciruela común (Prunus domestica) es una base fundamental del cultivo europeo central\nEl aguardiente tradicional checo y eslovaco se elabora con la destilación de las ciruelas\nLas mermeladas típicas hechas con cirueles son parte importante de los productos recolectados durante el otoño\nExiste más de dos mil variedades diferentes alrededor del mundo","label":"ciruela","summary":"Fruto violeta; ingrediente básico para hacer licor y confitura."}'
-  fruit.pomegranate:
-    label: granate
-    summary: Fruit red with thousands sweet seeds; fertility symbol.
-    info: '{"hint":"fruto rojo de múltiples semillas con corona","info":"La granada es originaria del Asia central y el Mediterráneo\ny contiene más de seiscientas arilos en una pulpa transparente colorida\. Es rica en antioxidantes;y las investigaciones exploran su efecto sobre el corazón e inflamación\. En muchas culturas representa fertilidad y abundancia \(griega,judaica,musulmana\)","label":"grana","summary":"Fruta roja con miles de dulces semillas; símbolo de fecundidad."}'
-  fruit.quince:
-    label: quince
-    summary: Frutado ácido similar a una naranja pero más pequeño cuya piel tiene coloración dorada brillante.
-    info: El membrillo o quinceso es un fruto amargo y aromático que pertenece al género Cydonia del mismo grupo de la manzanilla como el peral y el ciruelo. Tiende ser duro cuando está crudo por lo cual siempre debe prepararse cocido para su consumo en forma de compota llamada comúnmente 'membri' , vinagre dulce hecho con esta fruta u otras bebidas fermentadas derivados directamente desde los jugos obtenidos tras procesarlos térmicamente.
-  fruit.rambutan:
-    label: RamButAn
-    summary: Fruto tropical con apariencia peluda en color rojo.
-    info: El rambután proviene de Malaysia y su nombre deriva del término malayo 'rambut', que significa cabello o pelo. Su cáscara roja está cubierta por pequeños púas blandos. La pulpa es transparente, dulce e similar al lyche.
-  fruit.raspberry:
-    label: Maraña
-    summary: Fruta roja con múltiples componentes separados pero unidos físicamente.
-    info: '{"hint":"fruto rojo pequeño compuesto por pequeñas bolas llamadas drupas","info":{"label":"fresa silvestre","summary":"","data":[{"question":"¿Qué es una fresa silvestre?","answer":"La frambuesa o zarzaparrilla común (nombre científico Rubus idaeus), también conocida como "mora", se caracteriza porque está formada de muchas unidades individuales que son en realidad diminutas bayas dentro del mismo fruto."},{"question":"Dónde crece y cuándo se cosecha la mora?")}, {"question":"Cuál es el valor nutricional más destacado de las morenas?")}]}}'
-  fruit.starfruit:
-    label: carambola
-    summary: Frutilla amarillo-tropical que al ser picado crea formas tipo estrella.
-    info: La carambola o fruto de la estrella es originaria del sureste asiático y Austronesia. Al cortarla transversalmente forma una figura en forma de estrellas por lo que se conoce como 'fruta estrellada'. Tiene un sabor dulce-agrio y está rica en vitaminas.
+    summary: Un cítrico redondo de cáscara anaranjada y aromática.
+    info: La naranja es un cítrico originario del sudeste asiático, hoy cultivado en todo el mundo. Es rica en vitamina C y muy apreciada en jugo.
   fruit.strawberry:
     label: fresa
-    summary: Baya roja jugosa con forma de corazón.
-    info: La fresa es un fruto popular perteneciente a la familia de las rosáceas. Es rica en vitamina C y antioxidantes; se cosecha en verano y tiene un aroma dulce.
-  fruit.tamarind:
-    label: tamarindo
-    summary: Fruta similar al guisante color café oscuro con una pulpa muy acedosa.
-    info: '{"hint":"fruto marrón con pulpa agria","info":"El tamarindo proviene de África tropical y hoy en día es cultivado por todo el mundo tropical.\nPulpa ácida dulce que se usa comúnmente para comida tailandesa como pad thai o salsa Worcestershire e inglesa."'
-  fruit.tangerine:
-    label: '"label": "MANDARINA"'
-    summary: '{"summary":"Cítrico dulce con piel suelta simbólico en Navidades."}'
-    info: '{"info":"La mandarina es un cítrico pequeño y fácil de pelar originario de China\nEs símbolo del Año Nuevo chino y la felicidad\nEn Chequia se considera una fruta típica navideña\nContiene vitaminas C antioxidantes y fitones"}'
+    summary: Una baya roja, jugosa y con forma de corazón.
+    info: La fresa es una fruta muy apreciada de la familia de las rosáceas. Es rica en vitamina C y antioxidantes, y se cosecha en verano.
+  fruit.grape:
+    label: uva
+    summary: Una baya pequeña y redonda que crece en racimos.
+    info: La vid produce uvas de distintos colores, del verde al morado oscuro. Las uvas se comen frescas, se secan como pasas o se prensan para hacer vino.
   fruit.watermelon:
     label: sandía
-    summary: Fruta grande de piel verde rayada con pulpa roja jugosa.
-    info: La sandía proviene de África y es una fruta popular en verano. Está compuesta por un 92% de agua y contiene licopeno, que le da su color rojo.
+    summary: Una fruta grande con rayas verdes y pulpa roja y jugosa.
+    info: La sandía viene de África y es una apreciada fruta de verano. Está compuesta en un 92 % por agua y contiene licopeno, que le da el color rojo.
+  fruit.mango:
+    label: mango
+    summary: Una fruta tropical de pulpa jugosa entre amarilla y anaranjada.
+    info: Al mango se le llama el rey de las frutas tropicales. Rico en vitamina A y C, viene del sur de Asia, donde se cultiva desde hace 4.000 años.
+  fruit.cherry:
+    label: cereza
+    summary: Una pequeña drupa roja y redonda que crece en pares.
+    info: La cereza es el fruto del cerezo dulce, una apreciada fruta de verano. Contiene antioxidantes y melatonina; existen variedades dulces y ácidas.
+  fruit.pear:
+    label: pera
+    summary: Una fruta con forma de gota de sabor dulce y suave.
+    info: La pera es el fruto del peral, pariente cercano de la manzana. Tiene pulpa blanda y jugosa y un alto contenido de fibra; existen cientos de variedades.
+  fruit.pineapple:
+    label: piña
+    summary: Una fruta tropical con una corona espinosa y pulpa dorada.
+    info: La piña viene de Sudamérica y hoy se cultiva en los trópicos de todo el mundo. Contiene la enzima bromelina, que ayuda a la digestión.
+  fruit.lemon:
+    label: limón
+    summary: Un cítrico amarillo y ácido; fuente de vitamina C y aroma.
+    info: |
+      El limón es un cítrico ácido originario de Asia.
+      Es rico en vitamina C y ácido cítrico.
+      Se usa en la cocina, en las bebidas, en la cosmética y en los productos de limpieza.
+      La cáscara del limón contiene un aceite esencial de característico aroma a limón.
+  fruit.lime:
+    label: lima
+    summary: Un pequeño cítrico verde y ácido; ingrediente clave de la cocina tropical.
+    info: |
+      La lima es un pequeño cítrico verde de jugo ácido y cáscara aromática.
+      Es imprescindible en la cocina mexicana, tailandesa y vietnamita.
+      Contiene menos vitamina C que el limón, pero un aroma más intenso.
+      Comer lima protegía a los marineros del escorbuto gracias a la vitamina C.
+  fruit.kiwi:
+    label: kiwi
+    summary: Una fruta marrón y peluda de pulpa verde; rica en vitaminas.
+    info: |
+      El kiwi viene de China, donde se le llama grosella espinosa china.
+      Nueva Zelanda lo comercializó y lo rebautizó con el nombre de su ave nacional, el kiwi.
+      Contiene el doble de vitamina C que una naranja.
+      La pulpa es de un verde brillante; también existen variedades doradas (amarillas).
+  fruit.peach:
+    label: durazno
+    summary: Una drupa aterciopelada entre amarilla y rosada; símbolo del verano.
+    info: |
+      El durazno viene de China, donde es símbolo de inmortalidad.
+      Su piel suave y aterciopelada es característica.
+      Existen variedades blancas y amarillas; la nectarina es la variante lisa, sin vello.
+      En China los duraznos forman parte del Año Nuevo y de la mitología curativa.
+  fruit.plum:
+    label: ciruela
+    summary: Una drupa morada; base del aguardiente y del dulce de ciruela.
+    info: |
+      La ciruela es una fruta fundamental de Europa central.
+      El slivovitz (aguardiente de ciruela) es un destilado tradicional checo y eslovaco.
+      El dulce de ciruela es un producto típico de la cosecha de otoño.
+      En el mundo existen más de 2.000 variedades de ciruela.
+  fruit.apricot:
+    label: damasco
+    summary: Una pequeña drupa anaranjada; dulce, ácida y jugosa.
+    info: |
+      El damasco viene de Asia central.
+      Se cultiva en toda Europa; los más dulces vienen de Turquía y España.
+      Es rico en betacaroteno y vitamina A.
+      Los damascos secos son un apreciado bocadillo saludable.
+  fruit.raspberry:
+    label: frambuesa
+    summary: Una baya compuesta roja; símbolo del jardín de verano.
+    info: |
+      La frambuesa es una baya compuesta por muchas pequeñas drupas.
+      Crece silvestre y cultivada; la cosecha cae en verano y otoño.
+      Es rica en vitaminas C y K, manganeso y antioxidantes.
+      La mermelada y el vinagre de frambuesa son golosinas tradicionales.
+  fruit.blueberry:
+    label: arándano
+    summary: Una baya azul oscuro; un superalimento lleno de antioxidantes.
+    info: |
+      El arándano es rico en antocianinas, pigmentos de fuertes propiedades antioxidantes.
+      Las antocianinas le dan el color azul oscuro.
+      Los estudios indican un efecto positivo en las funciones cognitivas y en la salud del corazón.
+      Los arándanos cultivados son más grandes que los silvestres.
+  fruit.blackberry:
+    label: mora
+    summary: Una baya compuesta morada oscura de la zarza.
+    info: |
+      La mora es una baya compuesta morada oscura que crece en un arbusto espinoso.
+      La mora silvestre crece en los bordes de los bosques y en la maleza.
+      Contiene mucha vitamina C, vitamina K y fibra.
+      La mermelada, la compota y el licor de mora son productos tradicionales.
+  fruit.coconut:
+    label: coco
+    summary: Una gran nuez tropical de cáscara dura y pulpa blanca.
+    info: |
+      El coco es el fruto de la palmera de coco; botánicamente es una drupa, no una nuez.
+      El agua de coco del fruto verde es una bebida isotónica natural.
+      La leche y el aceite de coco son la base de la cocina del sudeste asiático y de la India.
+      A la palmera de coco se le llama el árbol de los mil usos.
+  fruit.papaya:
+    label: papaya
+    summary: Una gran fruta tropical de pulpa anaranjada intensa.
+    info: |
+      La papaya viene de la América tropical.
+      Contiene la enzima papaína, que favorece la digestión de las proteínas.
+      Es rica en vitamina C, betacaroteno y antioxidantes.
+      La papaya verde se usa como verdura en la cocina del sudeste asiático (en la ensalada som tam).
+  fruit.guava:
+    label: guayaba
+    summary: Una fruta tropical de aroma intenso y pulpa blanca o rosada.
+    info: |
+      La guayaba viene de la América tropical y se ha extendido por la Asia y la África tropicales.
+      Contiene cuatro veces más vitamina C que una naranja.
+      La cáscara y las semillas son comestibles; toda la fruta es nutritiva.
+      El jugo y la mermelada de guayaba son productos populares en los países tropicales.
+  fruit.pomegranate:
+    label: granada
+    summary: Una fruta roja de mil semillas dulces; símbolo de fertilidad.
+    info: |
+      La granada viene de Asia central y del Mediterráneo.
+      Contiene más de 600 semillas envueltas en una pulpa roja translúcida (arilos).
+      Es rica en antioxidantes; los estudios investigan su efecto sobre el corazón y las inflamaciones.
+      Simboliza fertilidad y abundancia en muchas culturas.
+  fruit.fig:
+    label: higo
+    summary: Una fruta con forma de pera de la higuera; dulce y llena de semillas.
+    info: |
+      El higo es una de las frutas cultivadas más antiguas; sus rastros se remontan a 11.000 años.
+      En realidad no es una fruta, sino una envoltura llena de miles de pequeñas flores.
+      Las hojas de higuera de Adán y Eva en el relato bíblico son hojas de la higuera.
+      Los higos secos son una excelente fuente de calcio, potasio y fibra.
+  fruit.date:
+    label: dátil
+    summary: Un dulce fruto ovalado y marrón de la palmera datilera; alimento básico de Oriente Medio.
+    info: |
+      Los dátiles son los dulces frutos de la palmera datilera.
+      Desde hace miles de años son un alimento básico de Oriente Medio.
+      Contienen más del 60 % de azúcar y son una marcada fuente de energía.
+      En el islam los dátiles se comen tradicionalmente primero al romper el ayuno del Ramadán (iftar).
+  fruit.melon:
+    label: melón
+    summary: Una fruta grande y dulce de pulpa anaranjada, verde o blanca.
+    info: |
+      El melón es una fruta tropical o subtropical de alto contenido de agua.
+      Viene de África y Asia; hoy se cultiva en todo el mundo.
+      Está compuesto en más del 90 % por agua y es muy refrescante.
+      Existen cientos de variedades, entre ellas el cantalupo, el melón de invierno y el galia.
+  fruit.cantaloupe:
+    label: melón cantalupo
+    summary: Un melón reticulado de pulpa anaranjada intensa.
+    info: |
+      El melón cantalupo es una apreciada variedad de melón originaria de Asia.
+      El nombre viene de la residencia papal de Cantalupo, cerca de Roma.
+      La pulpa anaranjada es rica en betacaroteno y vitamina A.
+      Es una de las variedades de melón más dulces.
+  fruit.grapefruit:
+    label: toronja
+    summary: Un gran cítrico agridulce; una estrella de las dietas.
+    info: |
+      La toronja es un cruce entre naranja y pomelo.
+      Fue descrita en Barbados en el siglo XVIII.
+      La toronja rosada y roja contiene licopeno y betacaroteno.
+      El jugo de toronja interactúa con muchos medicamentos; los pacientes deben informar a su médico.
+  fruit.tangerine:
+    label: mandarina
+    summary: Un pequeño cítrico dulce de cáscara suelta; símbolo de la Navidad.
+    info: |
+      La mandarina es un pequeño cítrico fácil de pelar, originario de China.
+      Es símbolo del Año Nuevo chino y de la buena suerte.
+      En muchos países es una típica fruta navideña.
+      Contiene vitamina C, antioxidantes y flavonoides.
+  fruit.passion_fruit:
+    label: maracuyá
+    summary: Una fruta tropical de cáscara arrugada y pulpa aromática llena de semillas.
+    info: |
+      El maracuyá viene de la Sudamérica tropical.
+      Su nombre proviene de los misioneros que vieron en la flor los símbolos de la pasión de Cristo.
+      La pulpa está llena de semillas envueltas en un gel aromático.
+      Es una excelente fuente de vitamina C, fibra y antioxidantes.
+  fruit.lychee:
+    label: lichi
+    summary: Una pequeña fruta tropical roja de pulpa translúcida; apreciada en Asia.
+    info: |
+      El lichi es una fruta tropical originaria de China.
+      Su áspera cáscara roja se pela con facilidad y revela una pulpa blanca translúcida.
+      Tiene un sabor dulce y finamente aromático.
+      En China es símbolo de buena suerte y prosperidad.
+  fruit.dragon_fruit:
+    label: pitahaya
+    summary: Una fruta tropical rosada de cactus con pulpa blanca moteada.
+    info: |
+      La pitahaya (fruta del dragón) viene de México y Centroamérica.
+      Su cáscara rosa intenso y su pulpa blanca con semillas negras son muy decorativas.
+      Tiene un sabor suave y contiene antioxidantes y vitamina C.
+      Con ella se hacen jugos, batidos y postres decorativos.
+  fruit.starfruit:
+    label: carambola
+    summary: Una fruta tropical amarilla que forma estrellas al cortarse.
+    info: |
+      La carambola viene del sur y el sudeste de Asia.
+      Cortada de través forma una estrella perfecta, de ahí el nombre inglés starfruit.
+      Tiene un sabor dulce y ácido y es rica en vitamina C.
+      Las personas con enfermedad renal no deben comerla por los oxalatos.
+  fruit.avocado:
+    label: aguacate
+    summary: Una cremosa drupa tropical; base del guacamole.
+    info: |
+      El aguacate viene de México y Centroamérica.
+      Botánicamente es una fruta (una drupa), pero en la cocina se usa como verdura.
+      Contiene grasas monoinsaturadas saludables (ácido oleico), como el aceite de oliva.
+      Es un alimento saludable de moda en todo el mundo; la tostada de aguacate es un ícono de la moderna cultura de los cafés.
+  fruit.persimmon:
+    label: caqui
+    summary: Una fruta anaranjada parecida al tomate; dulce y astringente.
+    info: |
+      El caqui viene de China y Japón; también se le llama kaki.
+      El caqui verde es rico en taninos y astringente; maduro es dulce como la miel.
+      Es rico en vitamina A y C y en minerales.
+      En Japón es una tradicional fruta de otoño.
+  fruit.mulberry:
+    label: mora de árbol
+    summary: Una baya morada oscura de la morera; alimento del gusano de seda.
+    info: |
+      La mora de árbol es el fruto de la morera; las hojas de la morera son el alimento del gusano de seda.
+      Existen moras blancas, rojas y negras; la negra es la más dulce.
+      En la historia, el cultivo de la morera fue crucial para la producción de seda.
+      Las moras de árbol son ricas en resveratrol, vitamina C y hierro.
+  fruit.cranberry:
+    label: arándano rojo
+    summary: Una pequeña baya roja y ácida; tradicional ingrediente estadounidense.
+    info: |
+      El arándano rojo es una pequeña baya roja y ácida.
+      Es una parte tradicional del Día de Acción de Gracias estadounidense (salsa de arándanos rojos).
+      Contiene proantocianidinas, que impiden que las bacterias Escherichia coli se adhieran a las paredes de las vías urinarias.
+      El efecto del arándano rojo en la prevención de las infecciones urinarias está científicamente comprobado.
+  fruit.gooseberry:
+    label: grosella espinosa
+    summary: Una pequeña baya redonda y translúcida; favorita de los jardines.
+    info: |
+      La grosella espinosa es una pequeña fruta típica de los jardines de Europa central.
+      Existe en variedades verdes, rojas y amarillas.
+      Es rica en vitamina C.
+      El vino de grosella espinosa es una bebida apreciada históricamente.
+  fruit.currant:
+    label: grosella
+    summary: Una pequeña baya roja, negra o blanca en racimo.
+    info: |
+      La grosella es una pequeña baya que crece en racimos.
+      La grosella negra contiene más vitamina C que cualquier otra baya.
+      La grosella negra es la base del sabor del licor de cassis y de la bebida británica Ribena.
+      La grosella roja se usa en mermeladas y como decoración de postres.
+  fruit.quince:
+    label: membrillo
+    summary: Una fruta amarilla y dura emparentada con la manzana; siempre se come cocida.
+    info: |
+      El membrillo está emparentado con la manzana y la pera; crudo es duro y astringente.
+      Siempre se procesa con calor en dulce de membrillo, vino o aguardiente de membrillo.
+      Contiene mucha pectina, apta para hacer mermeladas.
+      La mermelada más antigua documentada en Europa (siglo XVI) se hacía de membrillo.
+  fruit.jackfruit:
+    label: yaca
+    summary: Una enorme fruta tropical; la fruta más grande del mundo que crece en un árbol.
+    info: |
+      La yaca produce las frutas más grandes que crecen en un árbol; pueden pesar más de 35 kg.
+      Viene de la Asia tropical y es un alimento básico en India, Bangladés y Tailandia.
+      La yaca verde tiene una textura neutra y se usa como sustituto vegetariano de la carne.
+      Los trozos amarillos maduros son dulces y aromáticos.
+  fruit.durian:
+    label: durián
+    summary: Una gran fruta tropical espinosa de olor fuerte; el rey de las frutas tropicales.
+    info: |
+      Al durián se le llama el rey de las frutas tropicales.
+      Su fuerte olor es repugnante para algunos y tentador para otros; en muchos hoteles asiáticos está prohibido.
+      La pulpa es cremosa y dulce, con un sabor complejo a almendra, vainilla y queso.
+      En el sudeste asiático se lo aprecia como un lujo refinado.
+  fruit.rambutan:
+    label: rambután
+    summary: Una fruta tropical roja y peluda, parecida al lichi.
+    info: |
+      El rambután viene de Malasia; el nombre proviene del malayo rambut, que significa cabello.
+      Su cáscara roja está cubierta de suaves prolongaciones en forma de gancho.
+      La pulpa es translúcida y dulce, como la del lichi.
+      Es rico en vitamina C y hierro.
+  fruit.longan:
+    label: longan
+    summary: Una pequeña fruta tropical marrón, emparentada con el lichi.
+    info: |
+      El longan es el fruto de un árbol tropical originario de China.
+      El nombre proviene del chino long yan, que significa ojo de dragón, por la pulpa translúcida con una semilla negra.
+      Tiene un sabor dulce y aromático.
+      En la medicina tradicional china se considera un alimento que fortalece la sangre y el corazón.
+  fruit.tamarind:
+    label: tamarindo
+    summary: Una vaina marrón de pulpa ácida; base de la cocina tailandesa.
+    info: |
+      El tamarindo viene del África tropical; hoy se cultiva en todos los trópicos.
+      La pulpa es muy ácida y dulce; se usa en el pad thai, en la salsa Worcestershire y en el chutney indio.
+      La palabra viene del árabe tamr hindi, que significa dátil indio.
+      Es rico en ácido tartárico, vitaminas del grupo B y hierro.
+  fruit.nectarine:
+    label: nectarina
+    summary: Un durazno liso y sin vello; jugoso y dulce.
+    info: |
+      La nectarina es una mutación natural del durazno con piel lisa.
+      Se distingue del durazno solo por el gen de la lisura de la piel.
+      Tiene un sabor parecido, pero una estructura más firme.
+      El nombre proviene del néctar de los dioses y da fe de su supuesta perfección.
+  fruit.damson:
+    label: ciruela damascena
+    summary: Una pequeña ciruela oscura, típica de los jardines rurales ingleses.
+    info: |
+      La ciruela damascena es una pequeña variedad de ciruela de color azul-negro oscuro.
+      El nombre damson viene de Damasco, de donde la fruta llegó a Europa.
+      Cruda es muy ácida, pero excelente en mermeladas, compotas y ginebra (damson gin).
+      En la tradición inglesa se cultiva desde la antigüedad.
+  fruit.medlar:
+    label: níspero
+    summary: Una pequeña fruta marrón emparentada con la manzana; debe madurar tras la cosecha.
+    info: |
+      El níspero común es una antiquísima planta de jardín cultivada desde la Edad Media.
+      Solo es comestible tras ablandarse (blandeo), es decir, tras madurar después de la cosecha.
+      Es rico en taninos y vitamina C.
+      Shakespeare lo menciona en Romeo y Julieta; hoy es más bien una curiosidad para jardineros.
+  fruit.ackee:
+    label: akí
+    summary: Una fruta tropical roja de arilos amarillos comestibles; fruta nacional de Jamaica.
+    info: |
+      El akí es la fruta nacional de Jamaica; recibió su nombre del capitán Bligh (1793).
+      Solo los arilos amarillos maduros son comestibles; la fruta verde o demasiado madura es tóxica (hipoglicina A).
+      El ackee and saltfish es el plato nacional de Jamaica.
+      Viene de África occidental y fue llevada al Caribe a través de la trata de esclavos.
+  fruit.feijoa:
+    label: feijoa
+    summary: Una pequeña fruta ovalada y verde de pulpa aromática.
+    info: |
+      La feijoa viene de Sudamérica.
+      Su pulpa tiene un intenso sabor aromático a piña, guayaba y menta.
+      Es muy popular en Nueva Zelanda como fruta de otoño.
+      Es poco conocida en Europa, pero apreciada en los países de origen.

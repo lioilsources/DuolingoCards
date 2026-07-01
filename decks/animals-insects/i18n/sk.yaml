@@ -2,203 +2,379 @@ lang: sk
 pivot: false
 title: Hmyz
 cards:
-  insect.ant:
-    label: ""
-    summary: ""
-    info: ""
-  insect.antlion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.aphid:
-    label: ""
-    summary: ""
-    info: ""
-  insect.atlas_moth:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bedbug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bee:
-    label: ""
-    summary: ""
-    info: ""
-  insect.beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bombardier_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bumblebee:
-    label: ""
-    summary: ""
-    info: ""
   insect.butterfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.caterpillar:
-    label: ""
-    summary: ""
-    info: ""
-  insect.centipede:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cicada:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cockroach:
-    label: ""
-    summary: ""
-    info: ""
-  insect.crane_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cricket:
-    label: ""
-    summary: ""
-    info: ""
-  insect.damselfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.diving_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dragonfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dung_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.earwig:
-    label: ""
-    summary: ""
-    info: ""
-  insect.firefly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.flea:
-    label: ""
-    summary: ""
-    info: ""
-  insect.fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.goliath_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.grasshopper:
-    label: ""
-    summary: ""
-    info: ""
-  insect.ground_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hornet:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hoverfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.lacewing:
-    label: ""
-    summary: ""
-    info: ""
+    label: motýľ
+    summary: Lietajúci hmyz s veľkými farebnými krídlami.
+    info: Motýľ je hmyz s dvoma pármi krídel pokrytých šupinkami, často s nápadnými farbami.
+  insect.bee:
+    label: včela
+    summary: Žlto-čierny hmyz, ktorý opeľuje kvety a vyrába med.
+    info: Včela medonosná je spoločenský hmyz, ktorý žije v úľoch a zbiera nektár.
   insect.ladybug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.locust:
-    label: ""
-    summary: ""
-    info: ""
-  insect.louse:
-    label: ""
-    summary: ""
-    info: ""
-  insect.mayfly:
-    label: ""
-    summary: ""
-    info: ""
+    label: lienka
+    summary: Malý okrúhly červený chrobák s čiernymi bodkami.
+    info: Lienka je malý chrobák, ktorý sa živí voškami a je užitočný v záhrade.
+  insect.dragonfly:
+    label: vážka
+    summary: Hmyz s dlhým telom a dvoma pármi priehľadných krídel.
+    info: Vážka je dravec s vynikajúcim zrakom, ktorý loví pri vodnej hladine.
+  insect.ant:
+    label: mravec
+    summary: Malý spoločenský hmyz, ktorý žije v kolóniách.
+    info: Mravec je hmyz, ktorý tvorí veľké kolónie s deľbou práce.
+  insect.beetle:
+    label: chrobák
+    summary: Chrobáky tvoria najväčší rad hmyzu, s viac ako 400 000 opísanými druhmi.
+    info: |
+      Chrobák patrí do radu Coleoptera a tvorí približne 40 % všetkých opísaných druhov hmyzu.
+      Vyznačuje sa tvrdými krovkami (elytrami), pod ktorými sú ukryté skutočné letové krídla.
+      Roháč obyčajný je najväčší chrobák Európy; samec má mohutné hryzadlá pripomínajúce parohy.
+      Chrobáky žijú takmer vo všetkých prostrediach, od trópov po arktické oblasti.
+  insect.grasshopper:
+    label: koník poľný
+    summary: Skákajúci hmyz s dlhými zadnými nohami a cvrlikaním.
+    info: |
+      Koník poľný je hmyz z radu rovnokrídlovcov so silnými zadnými nohami, ktoré umožňujú skoky až do dvadsaťnásobku dĺžky tela.
+      Samce vydávajú charakteristický zvuk (striduláciu) trením nôh o krídla.
+      Živí sa rastlinami a vo veľkých kŕdľoch môže poškodzovať úrodu.
+  insect.cricket:
+    label: svrček
+    summary: Nočný hmyz, preslávený cvrlikaním samcov.
+    info: |
+      Svrček poľný je nočný hmyz z radu rovnokrídlovcov.
+      Samce cvrlikajú trením krídel o seba, aby lákali samice a vyznačovali si teritórium.
+      V Ázii sa svrčky odpradávna chovali ako domáce zvieratá pre ich spev.
+      V mnohých kultúrach sú aj symbolom domácej pohody a šťastia.
   insect.mosquito:
-    label: ""
-    summary: ""
-    info: ""
+    label: komár
+    summary: Dvojkrídlový hmyz; samica cicia krv a môže prenášať choroby.
+    info: |
+      Komár je dvojkrídlový hmyz z čeľade komárovité.
+      Samice cicajú krv zvierat, aby získali bielkovinu na vývoj vajíčok; samce sa živia nektárom.
+      Komáre prenášajú nebezpečné choroby, ako malária, horúčka dengue a zika.
+      Na svete existuje viac ako 3 500 druhov komárov.
+  insect.fly:
+    label: mucha
+    summary: Veľmi bežný dvojkrídlový hmyz, ktorý môže prenášať baktérie.
+    info: |
+      Mucha domáca je najbežnejší dvojkrídlový hmyz v ľudských príbytkoch.
+      Jej zložené oči jej umožňujú vidieť takmer 360 stupňov okolo seba.
+      Prenáša baktérie, pretože pristáva na odpade aj na jedle.
+      Má len jeden pár funkčných krídel; druhý pár (kyvadielka) pomáha udržiavať rovnováhu pri lete.
   insect.moth:
-    label: ""
-    summary: ""
-    info: ""
+    label: nočný motýľ
+    summary: Nočný príbuzný motýľa; letí za svetlom a má perovité tykadlá.
+    info: |
+      Nočné motýle sú nočné motýle, ktoré na rozdiel od denných motýľov skladajú krídla pozdĺž bokov v pokoji.
+      Mnohé druhy priťahuje umelé svetlo.
+      Prírodný hodváb získavame z húseníc priadky morušovej.
+      Okáň mesačný (luna) je jedným z najkrajších nočných motýľov sveta.
+  insect.caterpillar:
+    label: húsenica
+    summary: Larva motýľa alebo nočného motýľa; žerie listy a pripravuje sa na zakuklenie.
+    info: |
+      Húsenica je larválne štádium motýľa alebo nočného motýľa a život trávi najmä žraním listov, aby nahromadila energiu na premenu.
+      Niektoré húsenice majú výrazné farby, ktoré varujú dravce, že sú jedovaté.
+      Pri zakuklení vytvorí kuklu (kokón), v ktorej sa uskutočňuje úplná premena (metamorfóza) na dospelca.
   insect.praying_mantis:
-    label: ""
-    summary: ""
-    info: ""
-  insect.robber_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.scorpion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.silverfish:
-    label: ""
-    summary: ""
-    info: ""
-  insect.spider:
-    label: ""
-    summary: ""
-    info: ""
-  insect.stag_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: modlivka
+    summary: Dravý hmyz s modliacim postojom a bleskovým útokom.
+    info: |
+      Modlivka je dravý hmyz zo skupiny Mantodea.
+      Svoje meno získala podľa postoja, v ktorom drží predné nohy zložené ako pri modlitbe.
+      Je majsterkou lovu; udrie a chytí korisť v zlomku sekundy.
+      Samica občas zožerie samca po párení, hoci to nie je pravidlom.
   insect.stick_insect:
-    label: ""
-    summary: ""
-    info: ""
-  insect.termite:
-    label: ""
-    summary: ""
-    info: ""
-  insect.tiger_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.velvet_ant:
-    label: ""
-    summary: ""
-    info: ""
+    label: strašilka
+    summary: Hmyz, ktorý dokonale napodobňuje vetvičku alebo list.
+    info: |
+      Strašilka patrí do skupiny Phasmatodea a je majstrom kamufláže; jej telo dokonale napodobňuje vetvičky alebo listy.
+      Pri nebezpečenstve zostáva úplne nehybná.
+      Niektoré druhy sa rozmnožujú partenogenézou, teda bez samca.
+      Sú obľúbenými exotickými domácimi zvieratami pre nenáročný chov.
+  insect.firefly:
+    label: svetluška
+    summary: Chrobák, ktorý svieti bioluminiscenčným svetlom, aby prilákal partnera.
+    info: |
+      Svetluška je chrobák z čeľade Lampyridae, ktorý dokáže v zadočku vytvárať studené svetlo (bioluminiscenciu).
+      Samce a samice svietia rôznymi vzormi, aby sa rozpoznávali a lákali.
+      Svetlo riadi chemická reakcia luciferínu s luciferázou.
+      Svetlušky sú ukazovateľom čistého prostredia.
   insect.wasp:
-    label: ""
-    summary: ""
-    info: ""
+    label: osa
+    summary: Žlto-čierny bodavý hmyz, ktorý stavia papierové hniezda.
+    info: |
+      Osa obyčajná je bodavý hmyz zo skupiny Vespula s typickými žlto-čiernymi výstražnými farbami.
+      Stavia papierové hniezda z požutej drevnej hmoty.
+      Na rozdiel od včely dokáže osa bodnúť viackrát.
+      Je užitočná ako prirodzený regulátor škodlivého hmyzu.
+  insect.cockroach:
+    label: šváb
+    summary: Rýchly, nočný, všežravý hmyz; veľmi odolný a prispôsobivý.
+    info: |
+      Šváb je jedným z najodolnejších druhov hmyzu na svete; prežije žiarenie a podmienky, ktoré by iné zvieratá zabili.
+      Existuje viac ako 4 500 druhov, ale len asi 30 žije v blízkosti človeka.
+      Je to prastarý hmyz; šváby existujú viac ako 300 miliónov rokov a prežili dinosaury.
+      Je rýchly a dokáže bežať rýchlosťou vyše 5 km/h.
+  insect.spider:
+    label: pavúk
+    summary: Osemnohý pavúkovec, ktorý tká siete na chytanie hmyzu.
+    info: |
+      Pavúk je pavúkovec (nie hmyz) z radu Araneae s ôsmimi nohami a dvojdielnym telom.
+      Dokáže vytvárať hodváb, ktorým tká siete na lov alebo obaľuje kokóny s vajíčkami.
+      Na svete žije viac ako 48 000 druhov pavúkov.
+      Všetky druhy produkujú jed, no prevažná väčšina je pre človeka neškodná.
+  insect.scorpion:
+    label: škorpión
+    summary: Jedovatý pavúkovec s klepetami a zahnutým jedovatým chvostom.
+    info: |
+      Škorpión je pavúkovec (nie hmyz) s typickými klepetami a zahnutým chvostom zakončeným jedovatým bodcom.
+      Je to prastaré zviera; najstaršie skamenené škorpióny sú viac ako 430 miliónov rokov staré.
+      V tme fluoreskujú pod ultrafialovým svetlom.
+      Z približne 2 500 druhov je len asi 25 nebezpečných pre človeka.
+  insect.centipede:
+    label: stonožka
+    summary: Stonožka s jedným párom nôh na každom článku tela.
+    info: |
+      Stonožka patrí do triedy Chilopoda a má jeden pár nôh na každom článku tela (nie sto nôh, ako naznačuje anglický názov).
+      Je to rýchly dravec, ktorý loví hmyz, dážďovky a malé stavovce.
+      Prvý pár nôh je premenený na jedové pazúriky, ktoré ochromujú korisť.
+      Niektoré tropické druhy dosahujú dĺžku viac ako 30 cm.
+  insect.flea:
+    label: blcha
+    summary: Maličký skákajúci parazit, ktorý cicia krv cicavcov a vtákov.
+    info: |
+      Blcha je bezkrídly hmyz z radu Siphonaptera, špecializovaný na parazitický spôsob života.
+      Jej silné zadné nohy umožňujú skoky viac ako 150-krát dlhšie než jej telo.
+      Cicia krv cicavcov a vtákov a môže prenášať choroby; v minulosti blchy roznášali mor.
+      Blchy sú akrobatmi sveta hmyzu.
+  insect.termite:
+    label: termit
+    summary: Spoločenský hmyz, ktorý stavia obrovské kopy z hliny.
+    info: |
+      Termit je spoločenský hmyz zo skupiny Isoptera, vzdialene príbuzný švábom.
+      Žijú v kolóniách s kráľom, kráľovnou, vojakmi a robotníkmi.
+      Stavajú zložité termitiská, v trópoch vysoké až 9 metrov, s vlastným ventilačným systémom.
+      Ako dôležití rozkladači dreva zohrávajú kľúčovú úlohu v tropických ekosystémoch.
+  insect.bumblebee:
+    label: čmeľ
+    summary: Veľká chlpatá včela s hlbokým bzučaním; dôležitý opeľovač.
+    info: |
+      Čmeľ je veľký chlpatý hmyz z rodu Bombus, príbuzný včele medonosnej.
+      Je dôležitým opeľovačom, najmä v chladnejších podnebiach, kde včely lietajú menej.
+      Dokáže sa zohriať rozochvením letových svalov, takže lieta aj v chlade.
+      Čmele sú miernejšie ako osy a bodajú len pri priamom ohrození.
+  insect.hornet:
+    label: sršeň
+    summary: Najväčšia osa Európy so silným žihadlom a hlasným bzučaním.
+    info: |
+      Sršeň je najväčšia spoločenská osa Európy a dosahuje dĺžku viac ako 3,5 cm.
+      Stavia papierové hniezda v dutinách stromov alebo pod strechami.
+      Jeho žihadlo je dlhšie ako u os a bodnutie je bolestivejšie, ale sršeň útočí len pri priamom ohrození.
+      Je dôležitým dravým nepriateľom iného hmyzu.
+  insect.cicada:
+    label: cikáda
+    summary: Hmyz preslávený hlasným cvrlikaním v horúcich dňoch.
+    info: |
+      Cikáda je hmyz z nadčeľade Cicadoidea, preslávený jedným z najhlasnejších zvukov spomedzi všetkého hmyzu.
+      Samce vydávajú zvuk pomocou zvláštnych blán (tymbalov) v zadočku, aby lákali samice.
+      Niektoré druhy v USA majú vývojové cykly trvajúce sedemnásť alebo trinásť rokov.
+      Larvy žijú roky pod zemou a živia sa koreňmi.
+  insect.locust:
+    label: sarančo
+    summary: Sťahovavá kobylka, ktorá tvorí ničivé kŕdle čítajúce milióny.
+    info: |
+      Sarančo sťahovavé je druh rovnokrídlovca, ktorý za istých podmienok tvorí obrovské sťahovavé kŕdle.
+      Kŕdeľ môže čítať miliardy jedincov a za jediný deň zničiť úrodu na tisícoch hektárov.
+      V afrických a ázijských krajinách je saranča historicky jednou z najväčších poľnohospodárskych pohrôm.
+      V Biblii je jednou z desiatich egyptských rán.
+  insect.aphid:
+    label: voška
+    summary: Maličký cicavý hmyz na stonkách rastlín; vytvára medovicu.
+    info: |
+      Vošky sú malé cicavé druhy hmyzu z nadčeľade Aphidoidea, ktoré sa živia rastlinnou šťavou.
+      Vytvárajú sladkú medovicu, za ktorú sa o ne mravce starajú výmenou za ochranu.
+      Rozmnožujú sa mimoriadne rýchlo; jediná samica môže za rok dať vznik stovkám miliónov potomkov.
+      Sú dôležitými škodcami poľnohospodárskych plodín.
+  insect.earwig:
+    label: ucholak
+    summary: Podlhovastý hmyz s kliešťami na konci zadočku.
+    info: |
+      Ucholak je hmyz z radu Dermaptera, charakteristický kliešťami (cerci) na konci zadočku, ktoré slúžia na obranu a párenie.
+      Anglický názov pochádza z povery, že vlezie ľuďom do uší; je to mýtus.
+      Samice ucholaka sú výnimočné, pretože sa starajú o vajíčka a mladé larvy, čo je medzi hmyzom zriedkavé.
+      Žijú v štrbinách, pod kameňmi a v opadanke.
+  insect.silverfish:
+    label: rybenka
+    summary: Bezkrídly rýchly hmyz, ktorý sa vyskytuje v domoch pri knihách a papieri.
+    info: |
+      Rybenka domová je primitívny bezkrídly hmyz z radu Zygentoma, žijúci v príbytkoch.
+      Živí sa škrobom, papierom, knihárskym lepidlom a textilnými vláknami.
+      Názov pochádza z jej striebristej farby a rybieho pohybu.
+      Patrí k jednému z najstarších radov hmyzu a žije takmer nezmenená viac ako 300 miliónov rokov.
   insect.water_strider:
-    label: ""
-    summary: ""
-    info: ""
+    label: korčuliarka
+    summary: Hmyz, ktorý chodí po vodnej hladine vďaka povrchovému napätiu.
+    info: |
+      Korčuliarka je hmyz z čeľade Gerridae, ktorý dokáže chodiť po vode vďaka vodoodpudivým chĺpkom na nohách a povrchovému napätiu vody.
+      Loví hmyz, ktorý spadol do vody a ktorý rozpoznáva podľa vibrácií hladiny.
+      Je rýchla a dokáže sa kĺzať po vode rýchlosťou viac ako 150-násobku dĺžky svojho tela za sekundu.
+  insect.dung_beetle:
+    label: lajniak
+    summary: Chrobák, ktorý gúľa guľôčky z trusu, posvätný v starovekom Egypte.
+    info: |
+      Posvätný skarabeus je chrobák z čeľade Scarabaeidae, ktorý formuje trus do guľôčok a gúľa ich, aby ich zahrabal a nakládol do nich vajíčka.
+      V starovekom Egypte bol symbolom slnka a boha Chepriho.
+      Je jedným z mála zvierat, ktoré sa orientujú podľa Mliečnej dráhy.
+      Pomáha recyklovať živiny a prevzdušňovať pôdu.
+  insect.stag_beetle:
+    label: roháč
+    summary: Najväčší chrobák Európy; samec má hryzadlá pripomínajúce parohy.
+    info: |
+      Roháč obyčajný je najväčší chrobák Európy a dosahuje dĺžku viac ako 7 cm.
+      Samec má obrovské hryzadlá pripomínajúce parohy, používané v súbojoch o samice.
+      Larva žije až 7 rokov v trúchnivejúcom dubovom dreve a živí sa hubami.
+      Je vážne ohrozený zánikom starých lesov a mŕtveho dreva.
+  insect.atlas_moth:
+    label: okáň atlasový
+    summary: Jeden z najväčších nočných motýľov sveta, s krídlami zdobenými hadím vzorom.
+    info: |
+      Okáň atlasový je jeden z najväčších nočných motýľov sveta, s rozpätím krídel až 30 cm.
+      Špičky jeho krídel sú sfarbené tak, že pripomínajú hlavy hadov, čo odplašuje dravce.
+      Dospelé jedince nemajú ústne ústroje a vôbec neprijímajú potravu; žijú len niekoľko dní.
+      Pochádza z tropických lesov juhovýchodnej Ázie.
   insect.weevil:
-    label: ""
-    summary: ""
-    info: ""
+    label: nosáčik
+    summary: Malý chrobák s charakteristickým predĺženým rypákom.
+    info: |
+      Nosáčik je chrobák z čeľade Curculionidae, najväčšej čeľade živočíchov na svete s viac ako 60 000 druhmi.
+      Jeho charakteristický predĺžený rypák (rostrum) slúži na vŕtanie do semien, plodov a kmeňov.
+      Niektoré druhy sú vážnymi škodcami poľnohospodárstva, ako nosáčik bavlníkový.
+      Iné druhy sú špecializované na jediný druh rastliny.
+  insect.lacewing:
+    label: zlatoočka
+    summary: Jemný hmyz s priehľadne žilkovanými krídlami; larvy lovia vošky.
+    info: |
+      Zlatoočka je hmyz z čeľade Chrysopidae s jemnými, priehľadne žilkovanými krídlami a zlatistými očami.
+      Larvy sú dravce a hltajú obrovské množstvá vošiek, čím sa stávajú prirodzenými ochrancami rastlín.
+      Dospelé jedince sa živia nektárom a peľom.
+      Priťahuje ich svetlo a sú ukazovateľom zdravého prostredia.
+  insect.crane_fly:
+    label: tiplica
+    summary: Veľká komárovitá mucha s mimoriadne dlhými nohami.
+    info: |
+      Tiplica je dvojkrídlový hmyz z čeľade Tipulidae, vzhľadom podobný obriemu komárovi, ale nebodá a neparazituje.
+      Jej mimoriadne dlhé nohy sa ľahko odlomia; je to obranný mechanizmus (autotómia).
+      Dospelé jedince žijú len niekoľko dní a buď nejedia, alebo sa živia nektárom.
+      Larvy žijú v pôde a živia sa koreňmi.
+  insect.mayfly:
+    label: podenka
+    summary: Hmyz s najkratším dospelým životom, ktorý trvá len hodiny až dni.
+    info: |
+      Podenka je hmyz z radu Ephemeroptera a symbol pominuteľnosti; dospelé jedince žijú len hodiny až dni.
+      Nemajú funkčné ústne ústroje a vôbec neprijímajú potravu.
+      Larvy žijú 1 až 3 roky pod vodou.
+      Masové rojenie podeniek je fascinujúce prírodné divadlo; na Dunaji v Maďarsku je to jedinečný úkaz.
+  insect.damselfly:
+    label: šidielko
+    summary: Štíhly príbuzný vážky; v pokoji skladá krídla pozdĺž tela.
+    info: |
+      Šidielko je hmyz príbuzný vážkam, ale štíhlejší, a v pokoji skladá krídla rovnobežne s telom, na rozdiel od veľkých vážok.
+      Je dravec a loví malý hmyz za letu.
+      Larvy žijú vo vode a tvoria dôležitú súčasť vodných ekosystémov.
+      Sú ukazovateľom kvality vodných tokov.
+  insect.robber_fly:
+    label: muchárka
+    summary: Dravá mucha, ktorá chytá iný hmyz v plnom lete.
+    info: |
+      Muchárka je dravý dvojkrídlový hmyz z čeľade Asilidae, ktorý chytá iný hmyz priamo za letu.
+      Má silné nohy na uchopenie koristi a bodavý sosák na vstreknutie ochromujúceho jedu.
+      Niektoré druhy napodobňujú vzhľad čmeľov alebo os ako ochranu pred dravcami.
+      Je užitočná ako prirodzený regulátor populácií hmyzu.
+  insect.ground_beetle:
+    label: bystruška
+    summary: Rýchly dravý chrobák, ktorý žije pod kameňmi a v opadanke.
+    info: |
+      Bystruška je chrobák z čeľade Carabidae; väčšina druhov sú aktívne nočné dravce, ktoré lovia iný hmyz, dážďovky a slimáky.
+      Sú rýchle a rýchlo utekajú pred nebezpečenstvom.
+      Niektoré druhy, ako bystruška fialová, majú krásny kovový lesk.
+      Sú ukazovateľmi zdravej pôdy a prirodzeného poľnohospodárstva.
+  insect.tiger_beetle:
+    label: svižník
+    summary: Rýchly kovovo sfarbený chrobák s vynikajúcim zrakom.
+    info: |
+      Svižník je chrobák z podčeľade Cicindelinae, preslávený neobyčajnou rýchlosťou, schopnosťou letu a ostrým zrakom.
+      Beží tak rýchlo, že sa musí zastaviť a znovu zorientovať, pretože pohyb je pre jeho zrakový systém príliš rýchly.
+      Má krásne sfarbené kovové telá (zelené, modré, červené) a veľké oči.
+      Larvy kopú zvislé tunely v zemi a číhajú na korisť pri otvore.
+  insect.hoverfly:
+    label: pestrica
+    summary: Mucha napodobňujúca farby os a včiel; opeľovač záhrad.
+    info: |
+      Pestrica je dvojkrídlový hmyz z čeľade Syrphidae, ktorý napodobňuje farby os a včiel ako ochranu pred dravcami (Batesova mimikry), hoci nebodá.
+      Je dôležitým opeľovačom; navštevuje viac druhov rastlín ako včely.
+      Dospelé jedince sa živia nektárom a peľom.
+      Larvy niektorých druhov lovia vošky a tým pomáhajú v záhrade.
   insect.whirligig_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: vírivec
+    summary: Malý chrobák, ktorý víri v kŕdľoch po vodnej hladine.
+    info: |
+      Vírivec je vodný chrobák z čeľade Gyrinidae, ktorý žije na hladine, a vírenie v kŕdľoch mu pomáha vyhýbať sa dravcom.
+      Jeho oči sú rozdelené na dve časti; jedna vidí nad vodou, druhá pod ňou.
+      Vníma vlnky na hladine, ktoré signalizujú potravu alebo nebezpečenstvo.
+      Cez deň víri, v noci lieta.
+  insect.louse:
+    label: voš
+    summary: Maličký bezkrídly parazit žijúci na koži a vo vlasoch cicavcov.
+    info: |
+      Voš je bezkrídly parazitický hmyz z radu Phthiraptera, žijúci na koži hostiteľa a v jeho srsti alebo vlasoch.
+      Cicia krv a spôsobuje svrbenie.
+      Voš detská sa vyskytuje na celom svete a postihuje deti bez ohľadu na hygienické podmienky.
+      V minulosti vši prenášali týfus a iné choroby.
+  insect.bedbug:
+    label: ploštica posteľná
+    summary: Plochý parazit, ktorý v noci cicia krv; ukrýva sa v štrbinách nábytku.
+    info: |
+      Ploštica posteľná je plochý oválny hmyz z čeľade Cimicidae, aktívny najmä v noci.
+      Hryzie a cicia krv spiaceho hostiteľa.
+      Ukrýva sa v štrbinách matraca, v nábytku a za tapetami.
+      V posledných desaťročiach sa rozšírila po celom svete vďaka medzinárodnému cestovaniu.
+  insect.antlion:
+    label: mravcolev
+    summary: Larva, ktorá kope lievikovité pasce na mravce v piesku.
+    info: |
+      Mravcolev je larva hmyzu z čeľade Myrmeleontidae, ktorá kope kužeľovité lieviky v suchom piesku.
+      Keď sa mravec zošmykne do pasce, mravcolev ho chytí hryzadlami a vstrekne tráviace šťavy.
+      Dospelé jedince sú nenápadné, podobajú sa vážkam a lietajú v noci.
+      Larvy dokážu žiť roky pod zemou bez jedla.
+  insect.goliath_beetle:
+    label: goliát
+    summary: Jeden z najväčších a najťažších druhov hmyzu na svete, z tropickej Afriky.
+    info: |
+      Goliát je jeden z najväčších druhov hmyzu na svete; samce vážia až 100 gramov a dosahujú dĺžku viac ako 11 cm.
+      Žije v tropických dažďových pralesoch rovníkovej Afriky.
+      Dospelé jedince sa živia ovocím a miazgou stromov.
+      V Afrike ich deti občas chovajú ako hračky a predávajú sa zberateľom.
+  insect.bombardier_beetle:
+    label: prskavec
+    summary: Chrobák, ktorý na obranu vystrekuje vriacu jedovatú zmes.
+    info: |
+      Prskavec je chrobák z podčeľade Brachininae, ktorý sa bráni jedinečným spôsobom; v zadočku mieša dve chemické látky, čo vyvolá výbušnú reakciu s teplotou viac ako 100 stupňov.
+      Veľmi žieravá para sa vystreľuje s hlasným prasknutím až 500-krát za sekundu.
+      Je to jeden z najfascinujúcejších príkladov chemickej obrany v prírode.
+  insect.diving_beetle:
+    label: potápnik
+    summary: Dravý vodný chrobák, ktorý pláva pod hladinou.
+    info: |
+      Potápnik obrúbený je dravý vodný chrobák z čeľade Dytiscidae, žijúci v rybníkoch a stojatých vodách.
+      Pláva mrštne vďaka plochým zadným nohám, ktoré fungujú ako veslá.
+      Dýcha pri hladine a zásobuje sa vzduchom pod krovkami.
+      Loví hmyz, larvy, malé ryby a žubrienky.
+  insect.velvet_ant:
+    label: zamatový mravec
+    summary: Bezkrídla oranžovo-čierna osa, ktorá pripomína mravca.
+    info: |
+      Zamatový mravec je v skutočnosti osa z čeľade Mutillidae; samice sú bezkrídle a pripomínajú mravce.
+      Majú nápadné červené alebo oranžové chĺpky ako varovanie.
+      Samice majú mimoriadne silné žihadlo s prezývkou zabijak kráv.
+      Parazitujú v hniezdach čmeľov.

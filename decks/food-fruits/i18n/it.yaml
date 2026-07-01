@@ -1,0 +1,364 @@
+lang: it
+pivot: false
+title: Frutta
+cards:
+  fruit.apple:
+    label: mela
+    summary: Un frutto tondo rosso o verde dal sapore dolce-acidulo.
+    info: La mela è il frutto del melo, una delle colture più diffuse al mondo. Contiene vitamina C e fibre; ne esistono più di 7.500 varietà.
+  fruit.banana:
+    label: banana
+    summary: Un frutto tropicale giallo dalla polpa dolce.
+    info: La banana è il frutto di una pianta tropicale della famiglia delle Musaceae. È ricca di potassio e zuccheri naturali che danno energia rapida.
+  fruit.orange:
+    label: arancia
+    summary: Un agrume tondo dalla buccia arancione profumata.
+    info: L'arancia è un agrume originario del Sud-est asiatico, oggi coltivato in tutto il mondo. È ricca di vitamina C e amata come succo.
+  fruit.strawberry:
+    label: fragola
+    summary: Una bacca rossa, succosa, a forma di cuore.
+    info: La fragola è un frutto amato della famiglia delle rosacee. È ricca di vitamina C e antiossidanti e si raccoglie in estate.
+  fruit.grape:
+    label: uva
+    summary: Una piccola bacca tonda che cresce in grappoli.
+    info: La vite produce uva di vari colori, dal verde al viola scuro. L'uva si mangia fresca, si essicca in uvetta o si spreme per fare il vino.
+  fruit.watermelon:
+    label: anguria
+    summary: Un grande frutto striato di verde con polpa rossa e succosa.
+    info: L'anguria viene dall'Africa ed è un amato frutto estivo. È composta per il 92% di acqua e contiene licopene, che le dà il colore rosso.
+  fruit.mango:
+    label: mango
+    summary: Un frutto tropicale dalla polpa succosa giallo-arancio.
+    info: Il mango è chiamato il re dei frutti tropicali. Ricco di vitamina A e C, viene dall'Asia meridionale, dove è coltivato da 4.000 anni.
+  fruit.cherry:
+    label: ciliegia
+    summary: Una piccola drupa rossa e tonda che cresce a coppie.
+    info: La ciliegia è il frutto del ciliegio dolce, un amato frutto estivo. Contiene antiossidanti e melatonina; esistono varietà dolci e aspre.
+  fruit.pear:
+    label: pera
+    summary: Un frutto a forma di goccia dal sapore dolce e delicato.
+    info: La pera è il frutto del pero, stretto parente della mela. Ha polpa morbida e succosa e un alto contenuto di fibre; ne esistono centinaia di varietà.
+  fruit.pineapple:
+    label: ananas
+    summary: Un frutto tropicale con una corona spinosa e polpa giallo-oro.
+    info: L'ananas viene dal Sud America e oggi si coltiva nei tropici di tutto il mondo. Contiene l'enzima bromelina, che aiuta la digestione.
+  fruit.lemon:
+    label: limone
+    summary: Un agrume giallo e aspro; una fonte di vitamina C e aroma.
+    info: |
+      Il limone è un agrume aspro originario dell'Asia.
+      È ricco di vitamina C e acido citrico.
+      Si usa in cucina, nelle bevande, nella cosmesi e nei detergenti.
+      La buccia del limone contiene un olio essenziale dal caratteristico profumo di limone.
+  fruit.lime:
+    label: lime
+    summary: Un piccolo agrume verde e aspro; ingrediente chiave della cucina tropicale.
+    info: |
+      Il lime è un piccolo agrume verde dal succo aspro e dalla buccia aromatica.
+      È indispensabile nella cucina messicana, thailandese e vietnamita.
+      Contiene meno vitamina C del limone, ma un aroma più intenso.
+      Mangiare lime proteggeva i marinai dallo scorbuto grazie alla vitamina C.
+  fruit.kiwi:
+    label: kiwi
+    summary: Un frutto marrone e peloso dalla polpa verde; ricco di vitamine.
+    info: |
+      Il kiwi viene dalla Cina, dove è chiamato uva spina cinese.
+      La Nuova Zelanda lo commercializzò e lo ribattezzò con il nome del suo uccello nazionale, il kiwi.
+      Contiene il doppio della vitamina C di un'arancia.
+      La polpa è verde brillante; esistono anche varietà dorate (gialle).
+  fruit.peach:
+    label: pesca
+    summary: Una drupa vellutata giallo-rosata; simbolo dell'estate.
+    info: |
+      La pesca viene dalla Cina, dove è simbolo di immortalità.
+      La sua morbida buccia vellutata è caratteristica.
+      Esistono varietà bianche e gialle; la nettarina è la variante liscia, senza peluria.
+      In Cina le pesche fanno parte del Capodanno e della mitologia curativa.
+  fruit.plum:
+    label: prugna
+    summary: Una drupa viola; base della grappa di prugne e della marmellata di prugne.
+    info: |
+      La prugna è un frutto fondamentale dell'Europa centrale.
+      La slivovica (grappa di prugne) è un distillato tradizionale ceco e slovacco.
+      La marmellata di prugne è un tipico prodotto del raccolto autunnale.
+      Nel mondo esistono più di 2.000 varietà di prugne.
+  fruit.apricot:
+    label: albicocca
+    summary: Una piccola drupa arancione; dolce-acidula e succosa.
+    info: |
+      L'albicocca viene dall'Asia centrale.
+      Si coltiva in tutta Europa; le più dolci vengono dalla Turchia e dalla Spagna.
+      È ricca di betacarotene e vitamina A.
+      Le albicocche secche sono uno spuntino sano molto amato.
+  fruit.raspberry:
+    label: lampone
+    summary: Una bacca composta rossa; simbolo del giardino estivo.
+    info: |
+      Il lampone è una bacca composta da molte piccole drupe.
+      Cresce spontaneo e coltivato; la raccolta cade in estate e in autunno.
+      È ricco di vitamina C e K, manganese e antiossidanti.
+      La marmellata e l'aceto di lampone sono leccornie tradizionali.
+  fruit.blueberry:
+    label: mirtillo
+    summary: Una bacca blu scuro; un superalimento ricco di antiossidanti.
+    info: |
+      Il mirtillo è ricco di antociani, pigmenti dalle forti proprietà antiossidanti.
+      Gli antociani gli danno il colore blu scuro.
+      Gli studi indicano un effetto positivo sulle funzioni cognitive e sulla salute del cuore.
+      I mirtilli coltivati sono più grandi dei mirtilli selvatici.
+  fruit.blackberry:
+    label: mora
+    summary: Una bacca composta viola scuro del rovo.
+    info: |
+      La mora è una bacca composta viola scuro che cresce su un cespuglio spinoso.
+      La mora selvatica cresce ai margini dei boschi e nei cespugli.
+      Contiene molta vitamina C, vitamina K e fibre.
+      Confettura, composta e liquore di more sono prodotti tradizionali.
+  fruit.coconut:
+    label: cocco
+    summary: Una grande noce tropicale dal guscio duro e dalla polpa bianca.
+    info: |
+      Il cocco è il frutto della palma da cocco; botanicamente è una drupa, non una noce.
+      L'acqua di cocco del frutto acerbo è una bevanda isotonica naturale.
+      Il latte e l'olio di cocco sono la base della cucina del Sud-est asiatico e dell'India.
+      La palma da cocco è chiamata l'albero dai mille usi.
+  fruit.papaya:
+    label: papaya
+    summary: Un grande frutto tropicale dalla polpa arancione intenso.
+    info: |
+      La papaya viene dall'America tropicale.
+      Contiene l'enzima papaina, che favorisce la digestione delle proteine.
+      È ricca di vitamina C, betacarotene e antiossidanti.
+      La papaya acerba si usa come verdura nella cucina del Sud-est asiatico (nell'insalata som tam).
+  fruit.guava:
+    label: guava
+    summary: Un frutto tropicale dal profumo intenso e dalla polpa bianca o rosa.
+    info: |
+      La guava viene dall'America tropicale e si è diffusa nell'Asia e nell'Africa tropicali.
+      Contiene quattro volte più vitamina C di un'arancia.
+      La buccia e i semi sono commestibili; l'intero frutto è nutriente.
+      Il succo e la confettura di guava sono prodotti popolari nei paesi tropicali.
+  fruit.pomegranate:
+    label: melograno
+    summary: Un frutto rosso dai mille semi dolci; simbolo di fertilità.
+    info: |
+      Il melograno viene dall'Asia centrale e dal Mediterraneo.
+      Contiene più di 600 semi avvolti da una polpa rossa trasparente (arilli).
+      È ricco di antiossidanti; gli studi ne indagano l'effetto sul cuore e sulle infiammazioni.
+      Simboleggia fertilità e abbondanza in molte culture.
+  fruit.fig:
+    label: fico
+    summary: Un frutto a forma di pera dell'albero di fico; dolce e pieno di semi.
+    info: |
+      Il fico è uno dei frutti coltivati più antichi; le sue tracce risalgono a 11.000 anni fa.
+      In realtà non è un frutto, ma un involucro pieno di migliaia di piccoli fiori.
+      Le foglie di fico di Adamo ed Eva nel racconto biblico sono foglie dell'albero di fico.
+      I fichi secchi sono un'ottima fonte di calcio, potassio e fibre.
+  fruit.date:
+    label: dattero
+    summary: Un dolce frutto ovale marrone della palma da dattero; alimento base del Medio Oriente.
+    info: |
+      I datteri sono i dolci frutti della palma da dattero.
+      Sono da migliaia di anni un alimento base del Medio Oriente.
+      Contengono più del 60% di zucchero e sono una spiccata fonte di energia.
+      Nell'islam i datteri si mangiano tradizionalmente per primi rompendo il digiuno del Ramadan (iftar).
+  fruit.melon:
+    label: melone
+    summary: Un grande frutto dolce dalla polpa arancione, verde o bianca.
+    info: |
+      Il melone è un frutto tropicale o subtropicale ad alto contenuto d'acqua.
+      Viene dall'Africa e dall'Asia; oggi si coltiva in tutto il mondo.
+      È composto per più del 90% di acqua ed è molto dissetante.
+      Ne esistono centinaia di varietà, tra cui cantalupo, melone d'inverno e galia.
+  fruit.cantaloupe:
+    label: melone cantalupo
+    summary: Un melone retato dalla polpa arancione intenso.
+    info: |
+      Il melone cantalupo è un'amata varietà di melone originaria dell'Asia.
+      Il nome viene dalla residenza papale di Cantalupo vicino a Roma.
+      La polpa arancione è ricca di betacarotene e vitamina A.
+      È una delle varietà di melone più dolci.
+  fruit.grapefruit:
+    label: pompelmo
+    summary: Un grande agrume dolce-amaro; una star delle diete.
+    info: |
+      Il pompelmo è un incrocio tra arancia e pomelo.
+      Fu descritto alle Barbados nel XVIII secolo.
+      Il pompelmo rosa e rosso contiene licopene e betacarotene.
+      Il succo di pompelmo interagisce con molti farmaci; i pazienti dovrebbero informare il proprio medico.
+  fruit.tangerine:
+    label: mandarino
+    summary: Un piccolo agrume dolce dalla buccia staccabile; simbolo del Natale.
+    info: |
+      Il mandarino è un piccolo agrume facile da sbucciare, originario della Cina.
+      È simbolo del Capodanno cinese e della fortuna.
+      In molti paesi è un tipico frutto natalizio.
+      Contiene vitamina C, antiossidanti e flavonoidi.
+  fruit.passion_fruit:
+    label: frutto della passione
+    summary: Un frutto tropicale dalla buccia grinzosa e dalla polpa aromatica ricca di semi.
+    info: |
+      Il frutto della passione viene dal Sud America tropicale.
+      Il suo nome deriva dai missionari che videro nel fiore i simboli della passione di Cristo.
+      La polpa è piena di semi avvolti da un gel aromatico.
+      È un'ottima fonte di vitamina C, fibre e antiossidanti.
+  fruit.lychee:
+    label: litchi
+    summary: Un piccolo frutto tropicale rosso dalla polpa trasparente; amato in Asia.
+    info: |
+      Il litchi è un frutto tropicale originario della Cina.
+      La sua ruvida buccia rossa si sbuccia facilmente e rivela una polpa bianca trasparente.
+      Ha un sapore dolce e finemente aromatico.
+      In Cina è simbolo di fortuna e prosperità.
+  fruit.dragon_fruit:
+    label: frutto del drago
+    summary: Un frutto tropicale rosa di cactus dalla polpa bianca puntinata.
+    info: |
+      Il frutto del drago (pitaya) viene dal Messico e dall'America centrale.
+      La sua buccia rosa acceso e la polpa bianca con semi neri sono molto decorative.
+      Ha un sapore delicato e contiene antiossidanti e vitamina C.
+      Se ne fanno succhi, frullati e dessert decorativi.
+  fruit.starfruit:
+    label: carambola
+    summary: Un frutto tropicale giallo che forma stelle quando viene tagliato.
+    info: |
+      La carambola viene dall'Asia meridionale e sud-orientale.
+      Tagliata di traverso forma una perfetta stella, da cui il nome inglese starfruit.
+      Ha un sapore dolce-acidulo ed è ricca di vitamina C.
+      Le persone con malattie renali non devono mangiarla a causa degli ossalati.
+  fruit.avocado:
+    label: avocado
+    summary: Una cremosa drupa tropicale; base del guacamole.
+    info: |
+      L'avocado viene dal Messico e dall'America centrale.
+      Botanicamente è un frutto (una drupa), ma in cucina si usa come verdura.
+      Contiene grassi monoinsaturi sani (acido oleico), come l'olio d'oliva.
+      È un alimento sano di tendenza in tutto il mondo; il toast all'avocado è un'icona della moderna cultura dei caffè.
+  fruit.persimmon:
+    label: cachi
+    summary: Un frutto arancione simile al pomodoro; dolce e allappante.
+    info: |
+      Il cachi viene dalla Cina e dal Giappone; è chiamato anche kaki.
+      Il cachi acerbo è ricco di tannini e allappante; maturo è dolce come il miele.
+      È ricco di vitamina A e C e di minerali.
+      In Giappone è un tradizionale frutto autunnale.
+  fruit.mulberry:
+    label: gelso
+    summary: Una bacca viola scuro dell'albero di gelso; nutrimento del baco da seta.
+    info: |
+      Il gelso è la bacca dell'albero di gelso; le foglie del gelso sono il nutrimento del baco da seta.
+      Esistono gelsi bianchi, rossi e neri; il nero è il più dolce.
+      Nella storia la coltivazione del gelso fu cruciale per la produzione della seta.
+      I gelsi sono ricchi di resveratrolo, vitamina C e ferro.
+  fruit.cranberry:
+    label: mirtillo rosso
+    summary: Una piccola bacca rossa e aspra; tradizionale ingrediente americano.
+    info: |
+      Il mirtillo rosso è una piccola bacca rossa e aspra.
+      È una parte tradizionale del Ringraziamento americano (salsa di mirtilli rossi).
+      Contiene proantocianidine, che impediscono ai batteri Escherichia coli di aderire alle pareti delle vie urinarie.
+      L'effetto del mirtillo rosso nel prevenire le infezioni urinarie è scientificamente comprovato.
+  fruit.gooseberry:
+    label: uva spina
+    summary: Una piccola bacca tonda e trasparente; una preferita dei giardini.
+    info: |
+      L'uva spina è un piccolo frutto tipico dei giardini dell'Europa centrale.
+      Esiste in varietà verdi, rosse e gialle.
+      È ricca di vitamina C.
+      Il vino di uva spina è una bevanda amata storicamente.
+  fruit.currant:
+    label: ribes
+    summary: Una piccola bacca rossa, nera o bianca in grappolo.
+    info: |
+      Il ribes è una piccola bacca che cresce in grappoli.
+      Il ribes nero contiene più vitamina C di tutte le altre bacche.
+      Il ribes nero è la base del sapore del liquore di cassis e della bevanda britannica Ribena.
+      Il ribes rosso si usa nelle confetture e come decorazione dei dessert.
+  fruit.quince:
+    label: mela cotogna
+    summary: Un frutto giallo e duro imparentato con la mela; si mangia sempre cotto.
+    info: |
+      La mela cotogna è imparentata con la mela e la pera; cruda è dura e allappante.
+      Si lavora sempre con la cottura in gelatina di cotogna (membrillo), vino o grappa di cotogna.
+      Contiene molta pectina, adatta a preparare confetture.
+      La più antica marmellata documentata in Europa (XVI secolo) era fatta di mele cotogne.
+  fruit.jackfruit:
+    label: giaca
+    summary: Un enorme frutto tropicale; il più grande frutto al mondo che cresce su un albero.
+    info: |
+      La giaca produce i frutti più grandi che crescono su un albero; possono pesare più di 35 kg.
+      Viene dall'Asia tropicale ed è un alimento base in India, Bangladesh e Thailandia.
+      La giaca acerba ha una consistenza neutra e si usa come alternativa vegetariana alla carne.
+      I pezzi gialli maturi sono dolci e aromatici.
+  fruit.durian:
+    label: durian
+    summary: Un grande frutto tropicale spinoso dall'odore forte; il re dei frutti tropicali.
+    info: |
+      Il durian è chiamato il re dei frutti tropicali.
+      Il suo odore forte è ripugnante per alcuni e allettante per altri; in molti hotel asiatici è vietato.
+      La polpa è cremosa e dolce con un sapore complesso di mandorla, vaniglia e formaggio.
+      Nel Sud-est asiatico è apprezzato come un lusso raffinato.
+  fruit.rambutan:
+    label: rambutan
+    summary: Un frutto tropicale rosso e peloso, simile al litchi.
+    info: |
+      Il rambutan viene dalla Malaysia; il nome deriva dal malese rambut, che significa capello.
+      La sua buccia rossa è ricoperta di morbide escrescenze uncinate.
+      La polpa è trasparente e dolce, come quella del litchi.
+      È ricco di vitamina C e ferro.
+  fruit.longan:
+    label: longan
+    summary: Un piccolo frutto tropicale marrone, imparentato con il litchi.
+    info: |
+      Il longan è il frutto di un albero tropicale originario della Cina.
+      Il nome deriva dal cinese long yan, che significa occhio di drago, per la polpa trasparente con un seme nero.
+      Ha un sapore dolce e aromatico.
+      Nella medicina tradizionale cinese è considerato un alimento che rafforza il sangue e il cuore.
+  fruit.tamarind:
+    label: tamarindo
+    summary: Un baccello marrone dalla polpa aspra; base della cucina thailandese.
+    info: |
+      Il tamarindo viene dall'Africa tropicale; oggi si coltiva in tutti i tropici.
+      La polpa è fortemente aspra e dolce; si usa nel pad thai, nella salsa Worcestershire e nel chutney indiano.
+      La parola viene dall'arabo tamr hindi, che significa dattero indiano.
+      È ricco di acido tartarico, vitamine del gruppo B e ferro.
+  fruit.nectarine:
+    label: nettarina
+    summary: Una pesca liscia senza peluria; succosa e dolce.
+    info: |
+      La nettarina è una mutazione naturale della pesca dalla buccia liscia.
+      Si distingue dalla pesca solo per il gene della lisceria della buccia.
+      Ha un sapore simile, ma una struttura più soda.
+      Il nome deriva dal nettare degli dèi e testimonia la sua presunta perfezione.
+  fruit.damson:
+    label: susina damaschina
+    summary: Una piccola prugna scura, tipica dei giardini di campagna inglesi.
+    info: |
+      La susina damaschina è una piccola varietà di prugna blu-nero scuro.
+      Il nome damson viene da Damasco, da cui il frutto arrivò in Europa.
+      Cruda è molto aspra, ma ottima in confetture, composte e gin (damson gin).
+      Nella tradizione inglese è coltivata fin dall'antichità.
+  fruit.medlar:
+    label: nespola
+    summary: Un piccolo frutto marrone imparentato con la mela; deve maturare dopo la raccolta.
+    info: |
+      La nespola comune è un'antichissima pianta da giardino coltivata fin dal Medioevo.
+      È commestibile solo dopo essersi ammorbidita (ammezzimento), cioè dopo la maturazione successiva alla raccolta.
+      È ricca di tannini e vitamina C.
+      Shakespeare la cita in Romeo e Giulietta; oggi è piuttosto una curiosità per giardinieri.
+  fruit.ackee:
+    label: ackee
+    summary: Un frutto tropicale rosso dagli arilli gialli commestibili; frutto nazionale della Giamaica.
+    info: |
+      L'ackee è il frutto nazionale della Giamaica; prende il nome dal capitano Bligh (1793).
+      Solo gli arilli gialli maturi sono commestibili; il frutto acerbo o troppo maturo è tossico (ipoglicina A).
+      L'ackee and saltfish è il piatto nazionale della Giamaica.
+      Viene dall'Africa occidentale e fu portato ai Caraibi attraverso la tratta degli schiavi.
+  fruit.feijoa:
+    label: feijoa
+    summary: Un piccolo frutto ovale verde dalla polpa aromatica.
+    info: |
+      La feijoa viene dal Sud America.
+      La sua polpa ha un intenso sapore aromatico di ananas, guava e menta.
+      È molto popolare in Nuova Zelanda come frutto autunnale.
+      È poco conosciuta in Europa, ma amata nei paesi d'origine.
