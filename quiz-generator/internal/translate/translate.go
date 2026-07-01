@@ -58,6 +58,7 @@ func Translate(ctx context.Context, client *llm.Client, d *content.Deck, targetL
 		return "", fmt.Errorf("deck %q has no pivot language", d.Meta.Slug)
 	}
 	pivot := d.I18n[pivotLang]
+	pivotName := langs.Name(pivotLang)
 
 	if existing.Cards == nil {
 		existing.Cards = map[string]content.CardI18n{}
@@ -71,7 +72,7 @@ func Translate(ctx context.Context, client *llm.Client, d *content.Deck, targetL
 
 	// Translate deck title if missing.
 	if existing.Title == "" || force {
-		title, err := translateTitle(ctx, client, pivot.Title, targetLang)
+		title, err := translateTitle(ctx, client, pivot.Title, pivotName, targetLang)
 		if err != nil {
 			return "", fmt.Errorf("title for %s: %w", targetLang.Code, err)
 		}
@@ -90,7 +91,7 @@ func Translate(ctx context.Context, client *llm.Client, d *content.Deck, targetL
 			}
 		}
 		pc := pivot.Cards[c.Key]
-		ci, err := translateCard(ctx, client, c.Hint, pc, targetLang)
+		ci, err := translateCard(ctx, client, c.Hint, pc, pivotName, targetLang)
 		if err != nil {
 			return "", fmt.Errorf("card %s for %s: %w", c.Key, targetLang.Code, err)
 		}
@@ -131,8 +132,8 @@ func writeI18n(path string, f content.I18nFile) error {
 	return nil
 }
 
-func translateTitle(ctx context.Context, client *llm.Client, csTitle string, t langs.Target) (string, error) {
-	user := fmt.Sprintf("Translate this flashcard deck title from Czech into %s (%s). Return only the translated title, nothing else.\n\nTitle: %s", t.Name, t.Code, csTitle)
+func translateTitle(ctx context.Context, client *llm.Client, srcTitle, srcLang string, t langs.Target) (string, error) {
+	user := fmt.Sprintf("Translate this flashcard deck title from %s into %s (%s). Return only the translated title, nothing else.\n\nTitle: %s", srcLang, t.Name, t.Code, srcTitle)
 	result, err := client.Complete(ctx, "You are a professional translator. Translate accurately and naturally.", user)
 	if err != nil {
 		return "", err
@@ -140,7 +141,7 @@ func translateTitle(ctx context.Context, client *llm.Client, csTitle string, t l
 	return strings.TrimSpace(result), nil
 }
 
-func translateCard(ctx context.Context, client *llm.Client, hint string, pc content.CardI18n, t langs.Target) (content.CardI18n, error) {
+func translateCard(ctx context.Context, client *llm.Client, hint string, pc content.CardI18n, srcLang string, t langs.Target) (content.CardI18n, error) {
 	input := map[string]string{
 		"hint":    hint,
 		"label":   pc.Label,
@@ -150,8 +151,8 @@ func translateCard(ctx context.Context, client *llm.Client, hint string, pc cont
 	inputJSON, _ := json.Marshal(input)
 
 	user := fmt.Sprintf(
-		"Translate this flashcard from Czech into %s (%s).\n\nSource:\n%s",
-		t.Name, t.Code, inputJSON,
+		"Translate this flashcard from %s into %s (%s).\n\nSource:\n%s",
+		srcLang, t.Name, t.Code, inputJSON,
 	)
 
 	const maxAttempts = 3

@@ -1,204 +1,364 @@
 lang: sk
 pivot: false
-title: ""
+title: Ovocie
 cards:
-  fruit.ackee:
-    label: ""
-    summary: ""
-    info: ""
   fruit.apple:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.apricot:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.avocado:
-    label: ""
-    summary: ""
-    info: ""
+    label: jablko
+    summary: Okrúhle červené alebo zelené ovocie so sladkokyslou chuťou.
+    info: Jablko je plod jablone domácej, jednej z najpestovanejších plodín na svete. Obsahuje vitamín C a vlákninu; existuje vyše 7500 odrôd.
   fruit.banana:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.blackberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.blueberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cantaloupe:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cherry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.coconut:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cranberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.currant:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.damson:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.date:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.dragon_fruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.durian:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.feijoa:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.fig:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.gooseberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.grape:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.grapefruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.guava:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.jackfruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.kiwi:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lemon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lime:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.longan:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lychee:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.mango:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.medlar:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.melon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.mulberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.nectarine:
-    label: ""
-    summary: ""
-    info: ""
+    label: banán
+    summary: Žltý tropický plod so sladkou dužinou.
+    info: Banán je plod tropickej rastliny z čeľade banánovníkovitých. Je bohatý na draslík a prírodné cukry, ktoré dodávajú rýchlu energiu.
   fruit.orange:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.papaya:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.passion_fruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.peach:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pear:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.persimmon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pineapple:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.plum:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pomegranate:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.quince:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.rambutan:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.raspberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.starfruit:
-    label: ""
-    summary: ""
-    info: ""
+    label: pomaranč
+    summary: Okrúhly citrusový plod s voňavou oranžovou šupkou.
+    info: Pomaranč je citrusový plod pôvodom z juhovýchodnej Ázie, dnes pestovaný po celom svete. Je bohatý na vitamín C a obľúbený ako džús.
   fruit.strawberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.tamarind:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.tangerine:
-    label: ""
-    summary: ""
-    info: ""
+    label: jahoda
+    summary: Červená šťavnatá bobuľa v tvare srdca.
+    info: Jahoda záhradná je obľúbené ovocie z čeľade ružovitých. Bohatá na vitamín C a antioxidanty; zbiera sa v lete a sladko vonia.
+  fruit.grape:
+    label: hrozno
+    summary: Malá okrúhla bobuľa rastúca v strapcoch.
+    info: Vinič produkuje hrozno v rôznych farbách – od zelenej po tmavofialovú. Hrozno sa je čerstvé, suší na hrozienka alebo lisuje na víno.
   fruit.watermelon:
-    label: ""
-    summary: ""
-    info: ""
+    label: vodový melón
+    summary: Veľký zeleno-pruhovaný plod s červenou šťavnatou dužinou.
+    info: Vodový melón pochádza z Afriky a je obľúbeným letným ovocím. Tvorí ho z 92 % voda a obsahuje lykopén, ktorý mu dáva červenú farbu.
+  fruit.mango:
+    label: mango
+    summary: Tropický plod so žltooranžovou šťavnatou dužinou.
+    info: Mango indické sa nazýva kráľom tropického ovocia. Je bohaté na vitamíny A a C a pochádza z južnej Ázie, kde sa pestuje už 4000 rokov.
+  fruit.cherry:
+    label: čerešňa
+    summary: Malá okrúhla červená kôstkovica rastúca v pároch.
+    info: Čerešňa je plod čerešne vtáčej, obľúbené letné ovocie. Obsahuje antioxidanty a melatonín; existujú sladké aj kyslé (višňové) odrody.
+  fruit.pear:
+    label: hruška
+    summary: Ovocie v tvare slzy so sladkou jemnou chuťou.
+    info: Hruška je plod hrušky obyčajnej, blízko príbuznej jabloni. Má jemnú, šťavnatú dužinu a vysoký obsah vlákniny; existujú stovky odrôd.
+  fruit.pineapple:
+    label: ananás
+    summary: Tropický plod s tŕnistou korunkou a zlatistou dužinou.
+    info: Ananás pochádza z Južnej Ameriky a dnes sa pestuje v tropickom pásme celého sveta. Obsahuje enzým bromelaín, ktorý pomáha tráveniu.
+  fruit.lemon:
+    label: citrón
+    summary: Kyslý žltý citrus; zdroj vitamínu C a arómy.
+    info: |
+      Citrón je kyslý citrusový plod pochádzajúci z Ázie.
+      Je bohatý na vitamín C a kyselinu citrónovú.
+      Používa sa v kuchyni, nápojoch, kozmetike aj čistiacich prostriedkoch.
+      Šupka citrónovníka (Citrus limon) obsahuje silicu s charakteristickou citrónovou vôňou.
+  fruit.lime:
+    label: limetka
+    summary: Malý zelený kyslý citrus; kľúčová ingrediencia tropickej kuchyne.
+    info: |
+      Limetka je malý zelený citrus s kyslou šťavou a aromatickou kôrou.
+      Je nevyhnutná v mexickej, thajskej a vietnamskej kuchyni.
+      Obsahuje menej vitamínu C ako citrón, ale silnejšiu arómu.
+      Konzumácia limetiek chránila námorníkov pred skorbutom (vitamín C).
+  fruit.kiwi:
+    label: kivi
+    summary: Hnedé chlpaté ovocie so zelenou dužinou; bohaté na vitamíny.
+    info: |
+      Kivi (Actinidia deliciosa) pochádza z Číny, kde sa nazýva čínsky egreš.
+      Nový Zéland ho skomercializoval a premenoval podľa národného vtáka kivi.
+      Obsahuje dvojnásobok vitamínu C oproti pomaranču.
+      Dužina je sýtozelená; existujú aj zlaté (žlté) odrody.
+  fruit.peach:
+    label: broskyňa
+    summary: Zamatová žlto-ružová kôstkovica; symbol leta.
+    info: |
+      Broskyňa (Prunus persica) pochádza z Číny, kde je symbolom nesmrteľnosti.
+      Jej jemná zamatová pokožka je charakteristická.
+      Existujú biele a žlté odrody; nektarinky sú hladká odroda bez chĺpkov.
+      V Číne sú broskyne súčasťou Nového roka a liečivej mytológie.
+  fruit.plum:
+    label: slivka
+    summary: Fialová kôstkovica; základ slivovice a lekváru.
+    info: |
+      Slivka (Prunus domestica) je základné ovocie strednej Európy.
+      Slivovica (slivkový destilát) je tradičná česká a slovenská pálenka.
+      Slivkový lekvár je typickým plodom jesennej úrody.
+      Na svete existuje vyše 2000 odrôd sliviek.
+  fruit.apricot:
+    label: marhuľa
+    summary: Malá oranžová kôstkovica; sladkokyslá a šťavnatá.
+    info: |
+      Marhuľa (Prunus armeniaca) pochádza zo strednej Ázie.
+      Pestuje sa v celej Európe; najsladšie sú z Turecka a Španielska.
+      Je bohatá na betakarotén a vitamín A.
+      Sušené marhule sú obľúbenou zdravou desiatou.
+  fruit.raspberry:
+    label: malina
+    summary: Červená zložená bobuľa; symbol letnej záhrady.
+    info: |
+      Malina (Rubus idaeus) je zložená bobuľa tvorená mnohými malými kôstkovicami.
+      Rastie divo aj pestovaná; zber prebieha v lete a na jeseň.
+      Je bohatá na vitamíny C a K, mangán a antioxidanty.
+      Malinový džem a malinový ocot sú tradičné pochúťky.
+  fruit.blueberry:
+    label: čučoriedka
+    summary: Tmavomodrá bobuľa; superpotravina plná antioxidantov.
+    info: |
+      Čučoriedka (Vaccinium myrtillus divá, V. corymbosum záhradná) je bohatá na antokyány.
+      Antokyány jej dávajú tmavomodrú farbu a silné antioxidačné vlastnosti.
+      Výskumy naznačujú pozitívny vplyv na kognitívne funkcie a zdravie srdca.
+      Záhradné čučoriedky sú väčšie ako divé lesné.
+  fruit.blackberry:
+    label: černica
+    summary: Tmavofialová zložená bobuľa z ostružiny.
+    info: |
+      Černica (Rubus fruticosus) je tmavofialová zložená bobuľa rastúca na tŕnistom kríku.
+      Divá černica rastie na okrajoch lesov a v krovinách.
+      Obsahuje veľa vitamínu C, K a vlákniny.
+      Černicový džem, kompót a likér sú tradičné produkty.
+  fruit.coconut:
+    label: kokos
+    summary: Veľký tropický orech s tvrdou škrupinou a bielou dužinou.
+    info: |
+      Kokos (Cocos nucifera) je plod kokosovej palmy; botanicky je kôstkovicou, nie orechom.
+      Kokosová voda vnútri nezrelého plodu je prírodným izotonickým nápojom.
+      Kokosové mlieko a olej sú základom juhovýchodoázijskej a indickej kuchyne.
+      Kokosová palma sa nazýva stromom tisícich využití.
+  fruit.papaya:
+    label: papája
+    summary: Veľký tropický plod so sýto oranžovou dužinou.
+    info: |
+      Papája (Carica papaya) pochádza z tropickej Ameriky.
+      Obsahuje enzým papaín podporujúci trávenie bielkovín.
+      Je bohatá na vitamín C, betakarotén a antioxidanty.
+      Nezrelá papája sa v juhovýchodoázijskej kuchyni používa ako zelenina (šalát som tam).
+  fruit.guava:
+    label: guava
+    summary: Tropický plod s intenzívnou vôňou a bielou alebo ružovou dužinou.
+    info: |
+      Guava (Psidium guajava) pochádza z tropickej Ameriky a rozšírila sa po tropickej Ázii a Afrike.
+      Obsahuje štyrikrát viac vitamínu C ako pomaranč.
+      Šupka aj semená sú jedlé; celý plod je výživný.
+      Guavový džús a džem sú obľúbené produkty v tropických krajinách.
+  fruit.pomegranate:
+    label: granátové jablko
+    summary: Červený plod s tisíckou sladkých semien; symbol plodnosti.
+    info: |
+      Granátové jablko (Punica granatum) pochádza zo strednej Ázie a Stredomoria.
+      Obsahuje vyše 600 semien obklopených priehľadnou červenou dužinou (arilmi).
+      Je bohaté na antioxidanty; výskumy sledujú jeho vplyv na srdce a zápaly.
+      Symbolizuje plodnosť a hojnosť v mnohých kultúrach (grécka, židovská, islamská).
+  fruit.fig:
+    label: figa
+    summary: Hruškovitý plod figovníka; sladký a plný semienok.
+    info: |
+      Figa (Ficus carica) je jedným z najstarších pestovaných plodov; doklady siahajú 11 000 rokov dozadu.
+      V skutočnosti nejde o plod, ale o nádobu naplnenú tisíckami drobných kvietkov.
+      Adamove a Evine listy v biblickom príbehu sú listy figovníka.
+      Sušené figy sú výborným zdrojom vápnika, draslíka a vlákniny.
+  fruit.date:
+    label: datľa
+    summary: Sladký hnedý oválny plod datľovníka; základná potravina Blízkeho východu.
+    info: |
+      Datle (Phoenix dactylifera) sú sladké plody datľovníka palmového.
+      Sú základnou potravinou Blízkeho východu už tisíce rokov.
+      Obsahujú vyše 60 % cukru a sú výrazným zdrojom energie.
+      V islame sa datle tradične jedia ako prvé pri ukončení pôstu ramadánu (iftar).
+  fruit.melon:
+    label: melón
+    summary: Veľký sladký plod s oranžovou, zelenou alebo bielou dužinou.
+    info: |
+      Melón (Cucumis melo) je tropický až subtropický plod s vysokým obsahom vody.
+      Pochádza z Afriky a Ázie; dnes sa pestuje po celom svete.
+      Obsahuje vyše 90 % vody; výborne hydratuje.
+      Existujú stovky odrôd vrátane cantaloupe, honeydew, galia a charentais.
+  fruit.cantaloupe:
+    label: kantalup
+    summary: Žlto-hnedý sieťovaný melón so sýto oranžovou dužinou.
+    info: |
+      Kantalup (Cucumis melo var. cantalupensis) je obľúbená odroda melónu pôvodom z Ázie.
+      Názov pochádza od pápežského sídla Cantalupo pri Ríme.
+      Oranžová dužina je bohatá na betakarotén a vitamín A.
+      Je jedným z najsladších typov melónu.
+  fruit.grapefruit:
+    label: grapefruit
+    summary: Veľký horko-sladký citrus; diétna superstar.
+    info: |
+      Grapefruit (Citrus paradisi) je hybrid pomaranča a pomela.
+      Bol opísaný v 18. storočí na Barbadose.
+      Ružový a červený grapefruit obsahujú lykopén a betakarotén.
+      Grapefruitový džús interaguje s mnohými liekmi; pacienti musia informovať lekára.
+  fruit.tangerine:
+    label: mandarínka
+    summary: Malý sladký citrus s voľnou šupkou; symbol Vianoc.
+    info: |
+      Mandarínka (Citrus reticulata) je malý, ľahko olúpateľný citrus pôvodom z Číny.
+      Je symbolom čínskeho Nového roka a šťastia.
+      Na Slovensku je typickým vianočným ovocím.
+      Obsahuje vitamín C, antioxidanty a flavonoidy.
+  fruit.passion_fruit:
+    label: mučenka
+    summary: Tropický plod so zvráskavenou fialovou šupkou a aromatickým semenným obsahom.
+    info: |
+      Mučenka (Passiflora edulis) pochádza z tropickej Južnej Ameriky.
+      Jej názov pochádza od misionárov, ktorí v kvete videli symboly Kristovho utrpenia.
+      Dužina je plná semien zabalených v aromatickom géli.
+      Je výborným zdrojom vitamínu C, vlákniny a antioxidantov.
+  fruit.lychee:
+    label: liči
+    summary: Malý červený tropický plod s priehľadnou dužinou; obľúbený v Ázii.
+    info: |
+      Liči (Litchi chinensis) je tropický plod pochádzajúci z Číny.
+      Jeho drsná červená šupka sa olúpe a odhalí priehľadnú bielu dužinu.
+      Má sladkú, jemne aromatickú chuť.
+      V Číne je symbolom šťastia a prosperity.
+  fruit.dragon_fruit:
+    label: dračie ovocie
+    summary: Ružový tropický kaktusový plod s bielou škvrnitou dužinou.
+    info: |
+      Dračie ovocie (pitahaya, Hylocereus) pochádza z Mexika a Strednej Ameriky.
+      Jeho sýto ružová šupka a biela dužina s čiernymi semienkami sú veľmi dekoratívne.
+      Má jemnú chuť; obsahuje antioxidanty a vitamín C.
+      Vyrábajú sa z neho džúsy, smoothie a dekoratívne dezerty.
+  fruit.starfruit:
+    label: karambola
+    summary: Žltý tropický plod tvoriaci hviezdičky pri krájaní.
+    info: |
+      Karambola (Averrhoa carambola) pochádza z južnej a juhovýchodnej Ázie.
+      Pri krájaní naprieč vytvára dokonalý tvar hviezdičky (preto starfruit).
+      Má kyslo-sladkú chuť; je bohatá na vitamín C.
+      Ľudia s ochorením obličiek by ju nemali konzumovať pre oxaláty.
+  fruit.avocado:
+    label: avokádo
+    summary: Krémová tropická kôstkovica; základ guacamole.
+    info: |
+      Avokádo (Persea americana) pochádza z Mexika a Strednej Ameriky.
+      Botanicky je ovocím (kôstkovicou), ale kulinársky sa používa ako zelenina.
+      Obsahuje zdravé mononenasýtené tuky (kyselina olejová) ako olivový olej.
+      Je vo svete trendy zdravou potravinou; toast s avokádom je ikonou modernej kaviarenskej kultúry.
+  fruit.persimmon:
+    label: kaki
+    summary: Oranžové ovocie podobné paradajke; sladké a trpké.
+    info: |
+      Kaki (Diospyros kaki) pochádza z Číny a Japonska; nazýva sa aj ebenovník japonský.
+      Nezrelé kaki je trieslovité a trpké; zrelé je sladké ako med.
+      Je bohaté na vitamíny A, C a minerály.
+      V Japonsku je tradičným jesenným ovocím (kaki).
+  fruit.mulberry:
+    label: moruša
+    summary: Tmavofialová bobuľa z moruše; potrava priadky morušovej.
+    info: |
+      Moruša (Morus) je bobuľa moruše; listy moruše sú potravou priadky morušovej.
+      Existujú biele, červené a čierne moruše; čierna je najsladšia.
+      V histórii bolo pestovanie moruše kľúčové pre hodvábnictvo.
+      Moruše sú bohaté na resveratrol, vitamín C a železo.
+  fruit.cranberry:
+    label: brusnica
+    summary: Malá červená kyslá bobuľa; tradičná americká prísada.
+    info: |
+      Brusnica (Vaccinium macrocarpon) je malá kyslá červená bobuľa.
+      Je tradičnou súčasťou americkej Vďakyvzdania (brusnicová omáčka).
+      Obsahuje proantokyanidíny, ktoré zabraňujú priľnutiu baktérií E. coli na steny močových ciest.
+      Vedecky overený je vplyv brusnice na prevenciu infekcií močových ciest.
+  fruit.gooseberry:
+    label: egreš
+    summary: Malá okrúhla priehľadná bobuľa; obľúbená v záhradách.
+    info: |
+      Egreš (Ribes uva-crispa) je drobné ovocie typické pre záhrady strednej Európy.
+      Existuje v zelenej, červenej a žltej odrode.
+      Je bohatý na vitamín C.
+      Egrešové víno je historicky obľúbený nápoj.
+  fruit.currant:
+    label: ríbezľa
+    summary: Drobná červená, čierna alebo biela bobuľa v strapci.
+    info: |
+      Ríbezľa (Ribes) je drobná bobuľa rastúca v klasovitých strapcoch.
+      Čierna ríbezľa (Ribes nigrum) obsahuje najviac vitamínu C zo všetkých bobúľ.
+      Čierna ríbezľa je základom príchute Ribena (britský nápoj) a likéru cassis.
+      Červená ríbezľa sa používa do džemov a ako dekorácia dezertov.
+  fruit.quince:
+    label: dula
+    summary: Tvrdý žltý plod príbuzný jablku; konzumuje sa vždy tepelne upravený.
+    info: |
+      Dula (Cydonia oblonga) je príbuzná jabloni a hruške; surová je tvrdá a trieslovitá.
+      Vždy sa spracúva tepelne; dulový džem (membrillo), dulové víno a dulová pálenka.
+      Obsahuje veľa pektínu vhodného na výrobu džemov.
+      Najstarší zaznamenaný lekvár v Európe (16. storočie) sa vyrábal z dúl.
+  fruit.jackfruit:
+    label: chlebovník
+    summary: Obrovský tropický plod; najväčší plod rastúci na strome na svete.
+    info: |
+      Chlebovník (Artocarpus heterophyllus) produkuje najväčšie plody rastúce na strome; môžu vážiť vyše 35 kg.
+      Pochádza z tropickej Ázie; je základnou potravinou v Indii, Bangladéši a Thajsku.
+      Nezrelý chlebovník má neutrálnu textúru a používa sa ako vegetariánska náhrada mäsa.
+      Zrelé žlté kôstky sú sladké a aromatické.
+  fruit.durian:
+    label: durian
+    summary: Veľký tŕnistý tropický plod so silnou vôňou; kráľ tropického ovocia.
+    info: |
+      Durian (Durio zibethinus) sa nazýva kráľom tropického ovocia.
+      Jeho silná vôňa je pre jedných odpudivá, pre iných lákavá; v mnohých ázijských hoteloch je zakázaný.
+      Dužina je krémová a sladká s komplexnou chuťou (mandle, vanilka, syr).
+      V juhovýchodnej Ázii je cenený ako vyberaný luxus.
+  fruit.rambutan:
+    label: rambutan
+    summary: Červený chlpatý tropický plod podobný liči.
+    info: |
+      Rambutan (Nephelium lappaceum) pochádza z Malajzie; názov pochádza z malajského rambut = vlasy.
+      Jeho červená šupka je pokrytá mäkkými háčikovitými výrastkami.
+      Dužina je priehľadná a sladká, podobná liči.
+      Je bohatý na vitamín C a železo.
+  fruit.longan:
+    label: longan
+    summary: Malý hnedý tropický plod príbuzný liči.
+    info: |
+      Longan (Dimocarpus longan) je plod tropického stromu pochádzajúceho z Číny.
+      Názov pochádza z čínskeho long yan = dračie oko, pre priehľadnú dužinu s čiernym semenom.
+      Má sladkú a aromatickú chuť.
+      V tradičnej čínskej medicíne sa považuje za potravinu podporujúcu krv a srdce.
+  fruit.tamarind:
+    label: tamarind
+    summary: Hnedý strukový plod s kyslou dužinou; základ thajského varenia.
+    info: |
+      Tamarind (Tamarindus indica) pochádza z tropickej Afriky; dnes sa pestuje po celom tropickom svete.
+      Dužina je silne kyslá a sladká; používa sa v Pad Thai, worcesterskej omáčke a indickom chutney.
+      Slovo pochádza z arabčiny tamr hindi = indické datle.
+      Je bohatý na kyselinu vínnu, vitamíny skupiny B a železo.
+  fruit.nectarine:
+    label: nektarinka
+    summary: Hladká broskyňa bez chĺpkov; šťavnatá a sladká.
+    info: |
+      Nektarinka (Prunus persica var. nucipersica) je prírodná mutácia broskyne s hladkou pokožkou.
+      Líši sa od broskyne len génom pre hladkosť pokožky.
+      Má podobnú chuť, ale pevnejšiu konzistenciu.
+      Meno pochádza od nektáru bohov; svedčí o jej vnímanej dokonalosti.
+  fruit.damson:
+    label: damascénska slivka
+    summary: Malá tmavá slivka typická pre anglické vidiecke záhrady.
+    info: |
+      Damascénska slivka (damson) je malá, tmavomodro-čierna odroda slivky.
+      Názov pochádza od Damasku, odkiaľ plod putoval do Európy.
+      Surová je veľmi kyslá, ale výborná v džemoch, lekvároch a gine (damson gin).
+      V anglickej tradícii sa pestuje od staroveku.
+  fruit.medlar:
+    label: mišpuľa
+    summary: Malý hnedý plod príbuzný jabloni; musí dozrieť po zbere.
+    info: |
+      Mišpuľa (Mespilus germanica) je prastará záhradná plodina pestovaná od stredoveku.
+      Je jedlá až po zmäknutí (bletovaní), teda odležaní po zbere.
+      Je bohatá na trieslovinu a vitamín C.
+      Shakespeare ju spomína v Rómeovi a Júlii; dnes je skôr kuriozitou záhradkárov.
+  fruit.ackee:
+    label: akee
+    summary: Červený tropický plod s jedlými žltými arilmi; národný plod Jamajky.
+    info: |
+      Akee (Blighia sapida) je národný plod Jamajky; pomenovaný po kapitánovi Blighovi (1793).
+      Jedlé sú len zrelé žlté arily; nezrelý alebo prezretý plod je toxický (hypoglycín A).
+      Ackee and saltfish je národné jedlo Jamajky.
+      Pochádza zo západnej Afriky; do Karibiku bol dopravený obchodom s otrokmi.
+  fruit.feijoa:
+    label: fejoa
+    summary: Malý oválny zelený plod s aromatickou dužinou.
+    info: |
+      Fejoa (Acca sellowiana, tiež Feijoa sellowiana) pochádza z Južnej Ameriky.
+      Jej dužina má intenzívnu aromatickú chuť (ananás, guava, mäta).
+      Je veľmi populárna na Novom Zélande ako jesenné ovocie.
+      Málo známa v Európe, ale obľúbená v krajinách jej pôvodu.

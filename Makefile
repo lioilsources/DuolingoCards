@@ -70,19 +70,20 @@ images-force: $(CONTENT)
 #   make watercolor DECK=animals-sea
 #   make oil        DECK=animals-sea
 # Pass FORCE=1 to overwrite existing output. The Pony checkpoint defaults inside
-# the tool; override with PONY_CKPT=<name>.
+# the tool; override with PONY_CKPT=<name>. Tune the style-vs-subject balance with
+# DENOISE=<0..1> (higher = freer repaint, more style; lower = closer to the base).
 
 .PHONY: watercolor
 watercolor: $(CONTENT)
 	$(CONTENT) images -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
 	  -style pony-watercolor -url $(SPARK_IMG) -workers 2 \
-	  $(if $(PONY_CKPT),-pony-checkpoint $(PONY_CKPT)) $(if $(FORCE),-force)
+	  $(if $(PONY_CKPT),-pony-checkpoint $(PONY_CKPT)) $(if $(DENOISE),-denoise $(DENOISE)) $(if $(FORCE),-force)
 
 .PHONY: oil
 oil: $(CONTENT)
 	$(CONTENT) images -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
 	  -style pony-oil -url $(SPARK_IMG) -workers 2 \
-	  $(if $(PONY_CKPT),-pony-checkpoint $(PONY_CKPT)) $(if $(FORCE),-force)
+	  $(if $(PONY_CKPT),-pony-checkpoint $(PONY_CKPT)) $(if $(DENOISE),-denoise $(DENOISE)) $(if $(FORCE),-force)
 
 # ── tune (iterative image tuning) ──────────────────────────────────────────────
 # Generate → validate (VL model) → refine prompt (instruct model) → loop, per card.

@@ -341,6 +341,7 @@ func runImages(args []string) error {
 	builderModel := fs.String("builder-model", "nemotron", "tuning: instruct model that rewrites prompts")
 	tuneLogJSON := fs.Bool("tune-log-json", false, "tuning: also write a machine-readable JSON transcript per card")
 	ponyCheckpoint := fs.String("pony-checkpoint", "ponyDiffusionV6XL_v6StartWithThisOne.safetensors", "Pony SDXL checkpoint for img2img restyle styles (pony-watercolor, pony-oil)")
+	denoiseOverride := fs.Float64("denoise", 0, "img2img restyle: override the style's KSampler denoise (0..1; 0 = style default). Higher repaints more freely; lower keeps more of the base.")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -432,6 +433,9 @@ func runImages(args []string) error {
 				j.img2img = true
 				j.basePath = basePath
 				j.denoise = st.Denoise
+				if *denoiseOverride > 0 {
+					j.denoise = *denoiseOverride
+				}
 			}
 			if entry, ok := tuned[c.Key]; ok {
 				j.positive = entry.Positive
@@ -610,7 +614,7 @@ func runTranslate(args []string) error {
 	deckSlug := fs.String("deck", "", "only translate this deck slug (default: all)")
 	langCode := fs.String("lang", "", "only translate this language code (default: all missing)")
 	llmURL := fs.String("url", "http://spark-99bb:8080", "LLM base URL (OpenAI-compatible)")
-	llmModel := fs.String("model", "llm-translate", "model name")
+	llmModel := fs.String("model", "translate", "model name")
 	workers := fs.Int("workers", 8, "parallel translation workers (one per language)")
 	force := fs.Bool("force", false, "re-translate even if i18n file already exists")
 	if err := fs.Parse(args); err != nil {

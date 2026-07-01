@@ -73,31 +73,36 @@ var (
 
 	// StylePonyWatercolor and StylePonyOil are img2img restyle presets: they take
 	// each card's flux-real base image and repaint it through Pony SDXL in a paint
-	// medium (see Style.Img2Img). The painterly tags lead the positive prompt and
-	// the extra negatives push back on the photoreal/flat look of the base.
+	// medium (see Style.Img2Img). Goal: keep the subject/composition of the base
+	// but push the medium hard. The medium tags are attention-weighted (SDXL
+	// (tag:1.4) syntax) so the limited repaint commits to the style, the extra
+	// negatives push away from the photoreal/flat look of the flux base, and
+	// denoise stays moderate so the subject is preserved (raising denoise would
+	// also drift the subject). Tune the balance live with -denoise / DENOISE=.
 	StylePonyWatercolor = Style{
 		Name:    "pony-watercolor",
 		Backend: BackendPony,
-		PositiveSuffix: "watercolor painting, traditional watercolor illustration, soft wet-on-wet washes, " +
-			"luminous translucent pigments, soft feathered edges, visible cold-press paper grain, " +
-			"hand-painted brushwork, gentle color bleeds, painterly, delicate",
-		ExtraNegative: "hard edges, sharp crisp outlines, 3d render, photo, photorealistic, " +
-			"digital vector, flat solid fill, harsh lines, plastic shading",
+		PositiveSuffix: "(watercolor painting:1.4), (traditional watercolor illustration:1.3), " +
+			"(soft wet-on-wet washes:1.2), luminous translucent pigments, soft feathered edges, " +
+			"visible cold-press paper grain, hand-painted brushwork, gentle color bleeds, (painterly:1.2)",
+		ExtraNegative: "hard edges, sharp crisp outlines, 3d render, (photorealistic:1.3), (photograph:1.2), " +
+			"sharp focus, hdr, realistic texture, digital vector, flat solid fill, smooth digital gradient, " +
+			"harsh lines, plastic shading",
 		Img2Img:   true,
 		BaseStyle: "flux-real",
-		Denoise:   0.55,
+		Denoise:   0.62,
 	}
 	StylePonyOil = Style{
 		Name:    "pony-oil",
 		Backend: BackendPony,
-		PositiveSuffix: "oil painting, traditional oil on canvas, thick impasto brushstrokes, " +
-			"visible palette knife texture, rich saturated pigments, glossy layered paint, " +
-			"chiaroscuro lighting, painterly, classical fine art, textured canvas weave",
-		ExtraNegative: "thin washes, watercolor, flat solid fill, digital vector, 3d render, photo, " +
-			"photorealistic, smooth gradient, plastic shading, clean lineart",
+		PositiveSuffix: "(oil painting:1.4), (thick impasto brushstrokes:1.3), (visible palette knife texture:1.2), " +
+			"rich saturated pigments, glossy layered paint, chiaroscuro lighting, (painterly:1.2), " +
+			"classical fine art, textured canvas weave",
+		ExtraNegative: "thin washes, watercolor, flat solid fill, digital vector, 3d render, (photorealistic:1.3), " +
+			"(photograph:1.2), sharp focus, hdr, realistic texture, smooth digital gradient, plastic shading, clean lineart",
 		Img2Img:   true,
 		BaseStyle: "flux-real",
-		Denoise:   0.58,
+		Denoise:   0.65,
 	}
 )
 

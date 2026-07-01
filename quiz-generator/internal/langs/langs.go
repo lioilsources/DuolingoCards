@@ -16,8 +16,7 @@ type Target struct {
 
 // Targets is the canonical language list for the content pipeline.
 var Targets = []Target{
-	// Original top-20
-	{Code: "en", Name: "English"},
+	// Original top-20 (en is the pivot — see Pivot below — so it is not a target)
 	{Code: "zh-CN", Name: "Chinese (Simplified)"},
 	{Code: "hi", Name: "Hindi"},
 	{Code: "es-419", Name: "Spanish (Latin America)"},
@@ -50,6 +49,7 @@ var Targets = []Target{
 	{Code: "hy", Name: "Armenian"},
 	{Code: "ka", Name: "Georgian"},
 	// East Europe & Balkans
+	{Code: "cs", Name: "Czech"}, // former pivot, now a translation target
 	{Code: "pl", Name: "Polish"},
 	{Code: "sk", Name: "Slovak"},
 	{Code: "hu", Name: "Hungarian"},
@@ -126,9 +126,29 @@ func IsTarget(code string) bool {
 }
 
 // Pivot is the language in which content is authored and fact-checked before
-// translation. It is intentionally excluded from Targets so lint does not
-// require it as a translation target.
-const Pivot = "cs"
+// translation, and the source from which every target is translated. English is
+// the pivot because en→X translation is far better resourced in models than
+// cs→X, which reduces wrong-word / transliterate-the-source errors. It is
+// intentionally excluded from Targets so lint does not require it as a target.
+const Pivot = "en"
+
+// displayNames gives the English display name for codes not in Targets (the
+// pivot). Targets carry their own Name.
+var displayNames = map[string]string{"en": "English"}
+
+// Name returns the English display name for a language code (target or pivot),
+// falling back to the code itself.
+func Name(code string) string {
+	for _, t := range Targets {
+		if t.Code == code {
+			return t.Name
+		}
+	}
+	if n, ok := displayNames[code]; ok {
+		return n
+	}
+	return code
+}
 
 // IsPivot reports whether code is the pivot (authoring) language.
 func IsPivot(code string) bool { return code == Pivot }

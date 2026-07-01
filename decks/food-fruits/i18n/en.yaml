@@ -1,210 +1,364 @@
 lang: en
-pivot: false
+pivot: true
 title: Fruit
 cards:
-  fruit.ackee:
-    label: ackee
-    summary: Red tropical fruit that contains edible yellowish orange seed pods known locally on islands like St Vincent where it's considered part traditional cuisine.
-    info: The Ackee tree produces red fruits containing edible golden-orange seeds called 'arillae' when fully ripe but unripe or overripe ackees can be toxic due to their high levels of hypoglycemic toxins such as Hypoicin-A which causes vomiting if consumed without proper preparation.
   fruit.apple:
     label: apple
-    summary: Round red or green fruit with sweetly acidic taste.
-    info: An apple is the fruit of the domestic apple tree, one of the most cultivated crops worldwide. It contains vitamin C and fiber; there are over 7,500 varieties.
-  fruit.apricot:
-    label: apricot
-    summary: Small yellow-orange drupe that's sour-sweet tasting.
-    info: Apricot (Armenian plum tree Prunus armeniaca) originates from Central Asia. It is grown both in the Czech Republic and throughout Europe; sweetest ones come from Turkey and Spain. Apricots contain high levels of vitamin C.
-  fruit.avocado:
-    label: avocado
-    summary: Creamy-texured tropical 'fruit'; base ingredient in Mexican cuisine.
-    info: The avocado is native to Mexico and Central America. Botanically it's classified as a fruit but used like vegetables for cooking purposes due its creamy texture when ripe.
+    summary: A round red or green fruit with a sweet-tart taste.
+    info: The apple is the fruit of the domestic apple tree, one of the most widely cultivated crops in the world. It contains vitamin C and fiber; there are over 7,500 varieties.
   fruit.banana:
     label: banana
-    summary: Yellow tropical fruit with sweet pulp.
-    info: A banana is a fruit of a tropical plant from the banana family. It is rich in potassium and natural sugars that provide quick energy.
-  fruit.blackberry:
-    label: blackberry
-    summary: Dark purplish compound fruit made up many small drupes.
-    info: Blackberry is composed by dark purplish berries growing on thorny shrubs like Rubus Fructicosis. Wild blackberries grow along forest edges and bushes; they contain high amounts of vitamin C, fiber and potassium.
-  fruit.blueberry:
-    label: blueberry
-    summary: Dark-blue fruit rich in antioxidants.
-    info: Blueberries contain anthocyanins that give them their deep blue coloration and strong antioxidative properties. Research suggests they have positive effects on cognitive functions and heart health.
-  fruit.cantaloupe:
-    label: calabash
-    summary: A hard-shelled fruit used primarily to roast and eat its large white seeds.
-    info: The Cucurbita pepo subsp. ovifera is an orange-flesh gourd cultivated for its edible seeds.
-  fruit.cherry:
-    label: cherry
-    summary: Small round red stone fruit growing in pairs.
-    info: Cherries are fruits of the bird cherry tree, a popular summer fruit. They contain antioxidants and melatonin; there are sweet and sour (plum-like) varieties.
-  fruit.coconut:
-    label: coconut
-    summary: Large tropical seed used for its water, milk, oil, and flesh inside a hard shell covered by fiber-rich husk.
-    info: '{"hint":"nutritious fruit","language": "cs"}'
-  fruit.cranberry:
-    label: cranebery
-    summary: Small acidic red fruit often served at American thanksgiving dinners
-    info: Cranberries (Vaccinium macrocarpon) are small sour red berries commonly used during Thanksgiving meals across America for cranberry sauces among other dishes like pie fillings where they provide both flavoring & texture contrast due to their high pectin levels which help thicken them without needing added sugar.
-  fruit.currant:
-    label: redcurrant
-    summary: Small cluster-growing red, black or white berries.
-    info: |-
-      Redcurrant is small berry growing on bunch-like clusters
-      Black currants contain more vitamin C than any other fruit,
-      making them an essential ingredient for drinks like British lemonade 'Ribena' and crème de Cassis liqueur.
-  fruit.damson:
-    label: Damson
-    summary: Small dark cherry typical found on traditional British country gardens.
-    info: The damask cherry is small deep-blue to black fruit that originates its name after Damascus where it was brought over Europe. It's very sour when raw but excellent for jams, marmalades and gins such as Damson Gin.
-  fruit.date:
-    label: dates
-    summary: Sweet dark oval-shaped fruit used widely across中东地区.
-    info: Dates (Phoenix dactylifera) are sweet fruits produced by the date palm tree. They have been an essential food staple on the Middle East for thousands of years due to their high sugar content—over 60% which makes them significant energy sources within diets there.
-  fruit.dragon_fruit:
-    label: dragonfruit
-    summary: Pink tropical cactus fruit with white dotted pulp.
-    info: Dragonfruit (pitayoa, Hylocereus) comes from Mexico and Central America. Its vibrant pink skin and white pulp speckled with black seeds make it very decorative. It has mild taste; contains antioxidants and vitamin C.
-  fruit.durian:
-    label: DURIAN
-    summary: Large thorny tropical fruit having an intense aroma considered by some unappealing yet enticing.
-    info: The durian is known as 'the king' among tropical fruits due to its strong odor that can be both repulsive for some people but attractive others - it's even banned within many Asian hotels because guests find their smell unpleasant while other travelers consider them appealing.
-  fruit.feijoa:
-    label: feijoa
-    summary: Small oval-shaped green tropical fruit known for its fragrant pulp.
-    info: The feijoa is native to South America but has become very popular on New Zealand for its intense aroma reminiscent of pineapple, guava, and mint.
-  fruit.fig:
-    label: fig
-    summary: Pear-like fruit full of seeds inside.
-    info: Fig is considered to be one of humanity's oldest cultivated fruits—evidence dates back over eleven thousand years ago. In fact it isn't really a single fruit but an urn filled by thousands tiny flowers. The leaves covering Adam’s and Eve’s bodies according to biblical story were fig tree leaves.
-  fruit.gooseberry:
-    label: gooseberry
-    summary: Small round transparent berry popular among gardeners.
-    info: Gooseberry is small fruit typical for gardens across Europe. It comes in varieties that produce berries ranging between yellow to deep crimson coloration depending on species type.
+    summary: A yellow tropical fruit with sweet flesh.
+    info: The banana is the fruit of a tropical plant in the banana family. It is rich in potassium and natural sugars that provide quick energy.
+  fruit.orange:
+    label: orange
+    summary: A round citrus fruit with a fragrant orange peel.
+    info: The orange is a citrus fruit originally from Southeast Asia, now grown around the world. It is rich in vitamin C and popular as juice.
+  fruit.strawberry:
+    label: strawberry
+    summary: A red, juicy, heart-shaped berry.
+    info: The garden strawberry is a popular fruit of the rose family. Rich in vitamin C and antioxidants; it is harvested in summer and sweetly fragrant.
   fruit.grape:
     label: grape
-    summary: Small round berry growing in grape-like clusters.
-    info: The common grapevine produces grapes in various colors ranging from green to dark purple. Grapes can be eaten fresh, dried into raisins, or pressed for wine.
-  fruit.grapefruit:
-    label: grapefruit
-    summary: Large sweet-bitter citrus used for its juice.
-    info: |-
-      Grapplefruit is a cross between an orange and grapefruit;
-      it was described on Barbadus island during eighteenth century;
-      pink grapples contain lycopene which has antioxidant properties.
-  fruit.guava:
-    label: Guava
-    summary: A fragrant tropical fruit that grows on trees bearing either red/pinkish colored fruits having yellow pulp inside.
-    info: The Guava tree is native to tropical America but has spread across all parts of Asia where it thrives best under hot humid conditions similar those found along coasts near equator regions like India's western ghats etc., It contains four times more vitamin c than oranges which makes them very healthy for human consumption especially during winters when colds start becoming common again after summer season ends.
-  fruit.jackfruit:
-    label: jackfruit
-    summary: Huge tree-borne tropical fruit.
-    info: Jackfruit produces some of the largest fruits growing on trees—some can weigh over 35 kilograms—and is native to South Asia where it serves both culinary purposes for people who follow vegetarian diets due its meat-like texture when unripe while ripe yellow pieces taste sweetly fragrant.
-  fruit.kiwi:
-    label: kiwifruit
-    summary: Brown fuzzy fruit having bright green pulp rich vitamins.
-    info: Kiwifruit is native to China where it was known by names such as 'Yang Tao' before being commercialized under its current name on New Zealand's market after their national bird - Kiwis! This small tropical fruit contains twice more vitamin c than oranges do.
-  fruit.lemon:
-    label: lemon
-    summary: Acidic sour yellow citrus
-    info: Lemon is an acidic citrus fruit originating from Asia. It contains vitamin C and lemon acid used for cooking, drinks, cosmetics, cleaning agents.
-  fruit.lime:
-    label: lime
-    summary: Small green acid citrus used primarily by tropical cuisines.
-    info: '{"info":"Lime is a small green acidic citrus fruit that has juicy flesh and an aromatic peel. It''s essential to Mexican, Thai, and Vietnamese cuisine. While it contains less vitamin C than lemon, its strong aroma makes up for much more flavor."}'
-  fruit.longan:
-    label: Rambutan
-    summary: A sweet red hairy fruit native to Southeast Asia.
-    info: '{"hint":"Small round tropical fruit similar to rambutan","info":"The Longan is small brown tropical fruit that resembles Rambutan but has different taste characteristics."}'
-  fruit.lychee:
-    label: lychee
-    summary: Small red tropical fruit resembling grapes but larger.
-    info: Lychee is a small reddish-brown tropical fruit native to China that has an edible white jelly-like interior which contains many seeds.
+    summary: A small round berry growing in clusters.
+    info: The grapevine produces grapes in colors ranging from green to deep purple. Grapes are eaten fresh, dried into raisins, or pressed into wine.
+  fruit.watermelon:
+    label: watermelon
+    summary: A large green-striped fruit with red juicy flesh.
+    info: The watermelon originates from Africa and is a favorite summer fruit. It is 92% water and contains lycopene, which gives it its red color.
   fruit.mango:
     label: mango
     summary: A tropical fruit with juicy yellow-orange flesh.
-    info: The mango is known as the "king of tropical fruits." It is rich in vitamins A and C and originates from South Asia, where it has been cultivated for 4,000 years.
-  fruit.medlar:
-    label: quince
-    summary: Small reddish-brown relative of apples that ripens off-the-tree.
-    info: Quince is an ancient garden plant cultivated since medieval times. It becomes edible only after 'blighting'—left to soften post-harvest—and it's rich in polyphenols and vitamin C.
-  fruit.melon:
-    label: watermelon
-    summary: Large sweet fruit with yellow/orange, white or light green pulp.
-    info: Watermelon is a tropical to sub-tropical fruit high in water content that originates from Africa and Asia but today it's cultivated worldwide. It contains over 90% water making it excellent for hydration.
-  fruit.mulberry:
-    label: mulberry
-    summary: Dark purple fruit from Mulbery plant used to feed silk worms.
-    info: Mulberries come from Morus trees; their leaves serve as food for silkworms.
-  fruit.nectarine:
-    label: nectarine
-    summary: Smooth-textured fruit without fuzz on surface.
-    info: The Nectarine is a natural mutation of smooth-skinned peaches that differs only by its gene for skin texture compared to regular peaches. It has similar taste but firmer consistency than ordinary peaches.
-  fruit.orange:
-    label: orange
-    summary: Round citrus fruit with an aromatic orange peel.
-    info: The orange is a citrus fruit originating from Southeast Asia but now cultivated worldwide. It is rich in vitamin C and popular for making juice.
-  fruit.papaya:
-    label: pawpaw
-    summary: Large bright-orange tropical fruit.
-    info: The pawpaw tree is native to Central America but now grown throughout many parts of Asia for its fruits which contain enzymes that help digest proteins; it's rich in vitamin A & antioxidants too.
-  fruit.passion_fruit:
-    label: passionfruit
-    summary: A tropical fruit with a wrinkly purplish peel containing an aromatic seed pulp.
-    info: The Passion Fruit (Passiflora edulis) originates from tropical South America. Its name comes from missionaries who saw symbols of Christ's suffering in its flower.
-  fruit.peach:
-    label: peach
-    summary: Velvet peach-like summer fruit.
-    info: Peach (Persian plum - Prunus persica), originating from China where it is considered to be an emblem for immortality has characteristic soft velvet skin that distinguishes its identity among other fruits like plums which have rougher exteriors but similar interiors when cut open revealing juicy flesh inside.
+    info: The Indian mango is called the king of tropical fruits. It is rich in vitamins A and C and comes from South Asia, where it has been grown for 4,000 years.
+  fruit.cherry:
+    label: cherry
+    summary: A small round red stone fruit growing in pairs.
+    info: The cherry is the fruit of the wild cherry tree, a favorite summer fruit. It contains antioxidants and melatonin; there are both sweet and sour (morello) varieties.
   fruit.pear:
     label: pear
-    summary: Tear-drop shaped fruit with a sweet mild flavor.
-    info: A pear is the fruit of the common pear tree, closely related to apples. It has tender, juicy flesh and high fiber content; there are hundreds of varieties.
-  fruit.persimmon:
-    label: persimmon
-    summary: Orange tomato-shaped fruit similar to tomatoes but sweeter.
-    info: Persimmon (Diospyros kaki) originates from China and Japan; it is known in the Czech Republic as Japanese persimmon. Unripe persimmons have an acidic taste that can be puckering while ripe ones become sweet like honey due to their high sugar concentration when fully matured.
+    summary: A teardrop-shaped fruit with a sweet, mild flavor.
+    info: The pear is the fruit of the common pear tree, closely related to the apple. It has soft, juicy flesh and high fiber content; there are hundreds of varieties.
   fruit.pineapple:
     label: pineapple
     summary: A tropical fruit with a spiky crown and golden flesh.
-    info: Pineapples originate from South America and are now cultivated in tropical regions around the world. They contain an enzyme called bromelain that aids digestion.
+    info: The pineapple originates from South America and is now grown across the world's tropics. It contains the enzyme bromelain, which aids digestion.
+  fruit.lemon:
+    label: lemon
+    summary: A sour yellow citrus; a source of vitamin C and aroma.
+    info: |
+      The lemon is a sour citrus fruit originating from Asia.
+      It is rich in vitamin C and citric acid.
+      It is used in cooking, drinks, cosmetics, and cleaning products.
+      The peel of the lemon tree (Citrus limon) contains an essential oil with a characteristic lemon scent.
+  fruit.lime:
+    label: lime
+    summary: A small green sour citrus; a key ingredient of tropical cooking.
+    info: |
+      The lime is a small green citrus with sour juice and aromatic zest.
+      It is essential in Mexican, Thai, and Vietnamese cuisine.
+      It contains less vitamin C than the lemon but a stronger aroma.
+      Eating limes protected sailors from scurvy (vitamin C).
+  fruit.kiwi:
+    label: kiwi
+    summary: A brown fuzzy fruit with green flesh; rich in vitamins.
+    info: |
+      The kiwi (Actinidia deliciosa) originates from China, where it is called the Chinese gooseberry.
+      New Zealand commercialized it and renamed it after its national kiwi bird.
+      It contains twice as much vitamin C as an orange.
+      The flesh is vivid green; golden (yellow) varieties also exist.
+  fruit.peach:
+    label: peach
+    summary: A velvety yellow-pink stone fruit; a symbol of summer.
+    info: |
+      The peach (Prunus persica) comes from China, where it is a symbol of immortality.
+      Its soft velvety skin is distinctive.
+      There are white and yellow varieties; nectarines are the smooth, fuzz-free variety.
+      In China, peaches are part of the New Year and healing mythology.
   fruit.plum:
-    label: plums
-    summary: Purple small round fruits that can be made to prune distillate
-    info: Plum is basic European fruit used for making plum brandy which has been traditional drink both in Czech Republic and Slovakia since medieval times.
+    label: plum
+    summary: A purple stone fruit; the base of slivovitz and plum jam.
+    info: |
+      The plum (Prunus domestica) is a staple fruit of Central Europe.
+      Slivovitz (plum brandy) is a traditional Czech and Slovak spirit.
+      Plum jam is a typical product of the autumn harvest.
+      There are over 2,000 varieties of plum worldwide.
+  fruit.apricot:
+    label: apricot
+    summary: A small orange stone fruit; sweet-tart and juicy.
+    info: |
+      The apricot (Prunus armeniaca) originates from Central Asia.
+      It is grown across Europe; the sweetest come from Turkey and Spain.
+      It is rich in beta-carotene and vitamin A.
+      Dried apricots are a popular healthy snack.
+  fruit.raspberry:
+    label: raspberry
+    summary: A red aggregate berry; a symbol of the summer garden.
+    info: |
+      The raspberry (Rubus idaeus) is an aggregate berry made of many small drupelets.
+      It grows both wild and cultivated; harvest is in summer and autumn.
+      It is rich in vitamins C and K, manganese, and antioxidants.
+      Raspberry jam and raspberry vinegar are traditional treats.
+  fruit.blueberry:
+    label: blueberry
+    summary: A dark blue berry; a superfood full of antioxidants.
+    info: |
+      The blueberry (Vaccinium myrtillus wild, V. corymbosum cultivated) is rich in anthocyanins.
+      Anthocyanins give it its dark blue color and strong antioxidant properties.
+      Research suggests benefits for cognitive function and heart health.
+      Cultivated highbush blueberries are larger than wild forest ones.
+  fruit.blackberry:
+    label: blackberry
+    summary: A dark purple aggregate berry from the bramble.
+    info: |
+      The blackberry (Rubus fruticosus) is a dark purple aggregate berry growing on a thorny bush.
+      Wild blackberry grows at forest edges and in thickets.
+      It contains plenty of vitamin C, K, and fiber.
+      Blackberry jam, compote, and liqueur are traditional products.
+  fruit.coconut:
+    label: coconut
+    summary: A large tropical nut with a hard shell and white flesh.
+    info: |
+      The coconut (Cocos nucifera) is the fruit of the coconut palm; botanically it is a drupe, not a nut.
+      The coconut water inside the unripe fruit is a natural isotonic drink.
+      Coconut milk and oil are the base of Southeast Asian and Indian cuisine.
+      The coconut palm is called the tree of a thousand uses.
+  fruit.papaya:
+    label: papaya
+    summary: A large tropical fruit with deep orange flesh.
+    info: |
+      The papaya (Carica papaya) originates from tropical America.
+      It contains the enzyme papain, which aids protein digestion.
+      It is rich in vitamin C, beta-carotene, and antioxidants.
+      Unripe papaya is used as a vegetable in Southeast Asian cuisine (som tam salad).
+  fruit.guava:
+    label: guava
+    summary: A tropical fruit with an intense aroma and white or pink flesh.
+    info: |
+      The guava (Psidium guajava) originates from tropical America and has spread across tropical Asia and Africa.
+      It contains four times more vitamin C than an orange.
+      The skin and seeds are edible; the whole fruit is nutritious.
+      Guava juice and jam are popular products in tropical countries.
   fruit.pomegranate:
     label: pomegranate
-    summary: Red fruit containing thousands of sweet edible seeds.
-    info: The pomegranate tree originates from Central Asia and the Mediterranean region. It contains over six hundred seeds embedded within its translucent red flesh called arils. Rich in antioxidants, research is exploring their potential effects on heart health and inflammation.
+    summary: A red fruit with a thousand sweet seeds; a symbol of fertility.
+    info: |
+      The pomegranate (Punica granatum) originates from Central Asia and the Mediterranean.
+      It contains over 600 seeds surrounded by translucent red flesh (arils).
+      It is rich in antioxidants; research examines its effects on the heart and inflammation.
+      It symbolizes fertility and abundance in many cultures (Greek, Jewish, Islamic).
+  fruit.fig:
+    label: fig
+    summary: A pear-shaped fruit of the fig tree; sweet and full of seeds.
+    info: |
+      The fig (Ficus carica) is one of the oldest cultivated fruits; evidence goes back 11,000 years.
+      It is not actually a fruit but a vessel filled with thousands of tiny flowers.
+      The fig leaves of Adam and Eve in the biblical story are the leaves of the fig tree.
+      Dried figs are an excellent source of calcium, potassium, and fiber.
+  fruit.date:
+    label: date
+    summary: A sweet brown oval fruit of the date palm; a staple of the Middle East.
+    info: |
+      Dates (Phoenix dactylifera) are the sweet fruit of the date palm.
+      They have been a staple food of the Middle East for thousands of years.
+      They contain over 60% sugar and are a great source of energy.
+      In Islam, dates are traditionally eaten first when breaking the Ramadan fast (Iftar).
+  fruit.melon:
+    label: melon
+    summary: A large sweet fruit with orange, green, or white flesh.
+    info: |
+      The melon (Cucumis melo) is a tropical to subtropical fruit with high water content.
+      It originates from Africa and Asia; today it is grown worldwide.
+      It is over 90% water and highly hydrating.
+      There are hundreds of varieties, including cantaloupe, honeydew, galia, and charentais.
+  fruit.cantaloupe:
+    label: cantaloupe
+    summary: A yellow-brown netted melon with deep orange flesh.
+    info: |
+      The cantaloupe (Cucumis melo var. cantalupensis) is a popular melon variety originating from Asia.
+      Its name comes from the papal residence of Cantalupo near Rome.
+      The orange flesh is rich in beta-carotene and vitamin A.
+      It is one of the sweetest types of melon.
+  fruit.grapefruit:
+    label: grapefruit
+    summary: A large bitter-sweet citrus; a diet superstar.
+    info: |
+      The grapefruit (Citrus paradisi) is a hybrid of the orange and the pomelo.
+      It was described in the 18th century in Barbados.
+      Pink and red grapefruit contain lycopene and beta-carotene.
+      Grapefruit juice interacts with many medications; patients should inform their doctor.
+  fruit.tangerine:
+    label: tangerine
+    summary: A small sweet citrus with a loose peel; a symbol of Christmas.
+    info: |
+      The tangerine (Citrus reticulata) is a small, easy-to-peel citrus originating from China.
+      It is a symbol of the Chinese New Year and good luck.
+      In many countries it is a typical Christmas fruit.
+      It contains vitamin C, antioxidants, and flavonoids.
+  fruit.passion_fruit:
+    label: passion fruit
+    summary: A tropical fruit with a wrinkled purple skin and aromatic seedy pulp.
+    info: |
+      The passion fruit (Passiflora edulis) originates from tropical South America.
+      Its name comes from missionaries who saw symbols of Christ's passion in the flower.
+      The pulp is full of seeds wrapped in an aromatic gel.
+      It is an excellent source of vitamin C, fiber, and antioxidants.
+  fruit.lychee:
+    label: lychee
+    summary: A small red tropical fruit with translucent flesh; popular in Asia.
+    info: |
+      The lychee (Litchi chinensis) is a tropical fruit originating from China.
+      Its rough red skin peels off to reveal translucent white flesh.
+      It has a sweet, delicately aromatic taste.
+      In China it is a symbol of luck and prosperity.
+  fruit.dragon_fruit:
+    label: dragon fruit
+    summary: A pink tropical cactus fruit with white speckled flesh.
+    info: |
+      The dragon fruit (pitaya, Hylocereus) originates from Mexico and Central America.
+      Its vivid pink skin and white flesh with black seeds are very decorative.
+      It has a mild taste; it contains antioxidants and vitamin C.
+      It is used in juices, smoothies, and decorative desserts.
+  fruit.starfruit:
+    label: starfruit
+    summary: A yellow tropical fruit that forms stars when sliced.
+    info: |
+      The starfruit (Averrhoa carambola) originates from South and Southeast Asia.
+      Sliced crosswise it forms a perfect star shape (hence starfruit).
+      It has a sweet-sour taste; it is rich in vitamin C.
+      People with kidney disease should not eat it because of oxalates.
+  fruit.avocado:
+    label: avocado
+    summary: A creamy tropical drupe; the base of guacamole.
+    info: |
+      The avocado (Persea americana) originates from Mexico and Central America.
+      It is botanically a fruit (a drupe) but is used culinarily as a vegetable.
+      It contains healthy monounsaturated fats (oleic acid) like olive oil.
+      It is a trendy health food worldwide; avocado toast is an icon of modern café culture.
+  fruit.persimmon:
+    label: persimmon
+    summary: An orange tomato-like fruit; sweet and astringent.
+    info: |
+      The persimmon (Diospyros kaki) comes from China and Japan; it is also known as kaki.
+      Unripe persimmon is tannic and astringent; ripe fruit is sweet as honey.
+      It is rich in vitamins A and C and minerals.
+      In Japan it is a traditional autumn fruit (kaki).
+  fruit.mulberry:
+    label: mulberry
+    summary: A dark purple berry from the mulberry tree; food of the silkworm.
+    info: |
+      The mulberry (Morus) is the berry of the mulberry tree; mulberry leaves are the food of the silkworm.
+      There are white, red, and black mulberries; the black one is the sweetest.
+      Historically, cultivating the mulberry was key to silk production.
+      Mulberries are rich in resveratrol, vitamin C, and iron.
+  fruit.cranberry:
+    label: cranberry
+    summary: A small red sour berry; a traditional American ingredient.
+    info: |
+      The cranberry (Vaccinium macrocarpon) is a small sour red berry.
+      It is a traditional part of the American Thanksgiving (cranberry sauce).
+      It contains proanthocyanidins, which prevent E. coli bacteria from adhering to the walls of the urinary tract.
+      The effect of cranberry on preventing UTIs (urinary tract infections) is scientifically supported.
+  fruit.gooseberry:
+    label: gooseberry
+    summary: A small round translucent berry; a garden favorite.
+    info: |
+      The gooseberry (Ribes uva-crispa) is a small fruit typical of Central European gardens.
+      It comes in green, red, and yellow varieties.
+      It is rich in vitamin C.
+      Gooseberry wine is a historically popular drink.
+  fruit.currant:
+    label: currant
+    summary: A tiny red, black, or white berry in a cluster.
+    info: |
+      The currant (Ribes) is a tiny berry growing in strig-like clusters.
+      The blackcurrant (Ribes nigrum) has the most vitamin C of all berries.
+      Blackcurrant is the base of the flavor of Ribena (a British drink) and cassis liqueur.
+      Redcurrant is used in jams and as a dessert decoration.
   fruit.quince:
     label: quince
-    summary: Hard yellow fruit similar to an apple that's consumed after being cooked.
-    info: Quince is related to apple trees and pears; raw quinces can be tough and mealy due to their high levels of cellulose called 'trel'. It must always undergo heat treatment before consumption such as making membrillo jam made by boiling down fresh fruits until they become thick paste.
+    summary: A hard yellow fruit related to the apple; always eaten cooked.
+    info: |
+      The quince (Cydonia oblonga) is related to the apple and pear; raw it is hard and astringent.
+      It is always processed with heat; quince jam (membrillo), quince wine, and quince brandy.
+      It contains a lot of pectin, suitable for making jams.
+      The oldest recorded marmalade in Europe (16th century) was made from quinces.
+  fruit.jackfruit:
+    label: jackfruit
+    summary: A huge tropical fruit; the largest tree-borne fruit in the world.
+    info: |
+      The jackfruit (Artocarpus heterophyllus) produces the largest fruit growing on a tree; they can weigh over 35 kg.
+      It comes from tropical Asia; it is a staple food in India, Bangladesh, and Thailand.
+      Unripe jackfruit has a neutral texture and is used as a vegetarian meat substitute.
+      Ripe yellow pods are sweet and aromatic.
+  fruit.durian:
+    label: durian
+    summary: A large spiky tropical fruit with a strong smell; the king of tropical fruits.
+    info: |
+      The durian (Durio zibethinus) is called the king of tropical fruits.
+      Its strong smell is repulsive to some and enticing to others; it is banned in many Asian hotels.
+      The flesh is creamy and sweet with a complex flavor (almonds, vanilla, cheese).
+      In Southeast Asia it is prized as an exquisite luxury.
   fruit.rambutan:
-    label: RamButAn
-    summary: Red fuzzy tropical fruit similar to lychee.
-    info: The red skin is covered by soft hook-like growths resembling hair. The flesh inside is translucent and sweet like lychee.
-  fruit.raspberry:
-    label: strawberry
-    summary: Red fruit formed externally through insect-pollinated flower development.
-    info: Strawberry (Fragaria × ananassa) is composed of many small seeds on its surface called achene fruits that develop after pollination by insects like bees which transfer pollen between flowers during their search for nectar.
-  fruit.starfruit:
-    label: carambola
-    summary: Yellow tropical fruits that form small stars when cut.
-    info: Carambolas originate from South and Southeast Asia. When sliced crosswise they create perfect little stars which is why it's also called Star Fruit. It has an acidic sweet taste and contains high levels of vitamin C but people suffering kidney disease should avoid consuming them due to their Oxalic acid.
-  fruit.strawberry:
-    label: strawberry
-    summary: Red juicy heart-shaped fruit.
-    info: The garden strawberry is a popular fruit from the rose family. It's rich in vitamin C and antioxidants; it is harvested in summer and has a sweet fragrance.
+    label: rambutan
+    summary: A red hairy tropical fruit similar to the lychee.
+    info: |
+      The rambutan (Nephelium lappaceum) originates from Malaysia; its name comes from the Malay rambut = hair.
+      Its red skin is covered with soft, hooked spines.
+      The flesh is translucent and sweet, similar to the lychee.
+      It is rich in vitamin C and iron.
+  fruit.longan:
+    label: longan
+    summary: A small brown tropical fruit related to the lychee.
+    info: |
+      The longan (Dimocarpus longan) is the fruit of a tropical tree originating from China.
+      Its name comes from the Chinese long yan = dragon eye, for the translucent flesh with a black seed.
+      It has a sweet and aromatic taste.
+      In traditional Chinese medicine it is considered a food that supports the blood and heart.
   fruit.tamarind:
     label: tamarind
-    summary: Brown legume-like fruit containing acidic pulp that forms basis for many Southeast Asian recipes.
-    info: The tamarind tree is native to tropical Africa but now cultivated throughout the tropics worldwide. Its flesh has an intensely sour yet sweet flavor used commonly in dishes like pad thai, Worcestershire sauce, Indian chutneys.
-  fruit.tangerine:
-    label: citronella
-    summary: Small tasty citrus without tight skin
-    info: Tangerine (Citrus reticulata) is a small, easily peeled citrus fruit native to China. It represents Chinese New Year celebrations and good fortune. In the Czech Republic it's typical Christmas fruit.
-  fruit.watermelon:
-    label: watermelon
-    summary: Large green-streaked fruit with juicy red pulp.
-    info: Watermelon originates from Africa and is a popular summer fruit. It consists of about 92% water and contains lycopene, which gives it its red color.
+    summary: A brown pod fruit with sour pulp; a base of Thai cooking.
+    info: |
+      The tamarind (Tamarindus indica) originates from tropical Africa; today it is grown throughout the tropics.
+      The pulp is strongly sour and sweet; it is used in Pad Thai, Worcestershire sauce, and Indian chutney.
+      The word comes from the Arabic tamr hindi = Indian date.
+      It is rich in tartaric acid, B vitamins, and iron.
+  fruit.nectarine:
+    label: nectarine
+    summary: A smooth fuzz-free peach; juicy and sweet.
+    info: |
+      The nectarine (Prunus persica var. nucipersica) is a natural mutation of the peach with smooth skin.
+      It differs from the peach only by the gene for skin smoothness.
+      It has a similar taste but a firmer texture.
+      Its name comes from the nectar of the gods, reflecting its perceived perfection.
+  fruit.damson:
+    label: damson
+    summary: A small dark plum typical of English country gardens.
+    info: |
+      The damson is a small, dark blue-black variety of plum.
+      Its name comes from Damascus, from where the fruit traveled to Europe.
+      It is very sour raw but excellent in jams, preserves, and gin (damson gin).
+      In the English tradition it has been grown since antiquity.
+  fruit.medlar:
+    label: medlar
+    summary: A small brown fruit related to the apple; must ripen after harvest.
+    info: |
+      The medlar (Mespilus germanica) is an ancient garden plant cultivated since medieval times.
+      It is edible only after bletting, that is, softening after harvest.
+      It is rich in tannins and vitamin C.
+      Shakespeare mentions it in Romeo and Juliet; today it is more of a gardener's curiosity.
+  fruit.ackee:
+    label: ackee
+    summary: A red tropical fruit with edible yellow arils; the national fruit of Jamaica.
+    info: |
+      The ackee (Blighia sapida) is the national fruit of Jamaica; it is named after Captain Bligh (1793).
+      Only the ripe yellow arils are edible; unripe or overripe fruit is toxic (hypoglycin A).
+      Ackee and saltfish is the national dish of Jamaica.
+      It comes from West Africa; it was brought to the Caribbean by the slave trade.
+  fruit.feijoa:
+    label: feijoa
+    summary: A small oval green fruit with aromatic flesh.
+    info: |
+      The feijoa (Acca sellowiana, also Feijoa sellowiana) originates from South America.
+      Its flesh has an intense aromatic flavor (pineapple, guava, mint).
+      It is very popular in New Zealand as an autumn fruit.
+      It is little known in Europe but beloved in its countries of origin.

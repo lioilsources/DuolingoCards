@@ -1,0 +1,380 @@
+lang: it
+pivot: false
+title: Insetti
+cards:
+  insect.butterfly:
+    label: farfalla
+    summary: Insetto volante con grandi ali colorate.
+    info: La farfalla è un insetto con due paia di ali ricoperte di squame, spesso dai colori vivaci.
+  insect.bee:
+    label: ape
+    summary: Insetto giallo e nero che impollina i fiori e produce miele.
+    info: L'ape mellifera è un insetto sociale che vive negli alveari e raccoglie il nettare.
+  insect.ladybug:
+    label: coccinella
+    summary: Piccolo coleottero rotondo e rosso con puntini neri.
+    info: La coccinella è un piccolo coleottero che si nutre di afidi ed è utile in giardino.
+  insect.dragonfly:
+    label: libellula
+    summary: Insetto dal corpo allungato e due paia di ali trasparenti.
+    info: La libellula è un insetto predatore dalla vista eccellente che caccia presso gli specchi d'acqua.
+  insect.ant:
+    label: formica
+    summary: Piccolo insetto sociale che vive in colonie.
+    info: La formica è un insetto che forma grandi colonie con divisione del lavoro.
+  insect.beetle:
+    label: coleottero
+    summary: I coleotteri formano il più grande ordine di insetti, con oltre 400.000 specie descritte.
+    info: |
+      Il coleottero appartiene all'ordine dei Coleoptera e costituisce circa il 40% di tutte le specie di insetti descritte.
+      È caratterizzato da dure custodie alari (elitre) sotto le quali sono nascoste le vere ali da volo.
+      Il cervo volante è il più grande coleottero europeo; il maschio ha mandibole imponenti simili a corna.
+      Vivono in quasi tutti gli ambienti, dai tropici alle regioni artiche.
+  insect.grasshopper:
+    label: cavalletta
+    summary: Insetto saltatore con lunghe zampe posteriori e canto stridulante.
+    info: |
+      La cavalletta è un insetto dell'ordine degli Ortotteri con potenti zampe posteriori che permettono salti fino a venti volte la lunghezza del corpo.
+      I maschi producono un suono caratteristico (stridulazione) sfregando le zampe contro le ali.
+      Si nutre di piante e in grandi sciami può danneggiare i raccolti.
+  insect.cricket:
+    label: grillo
+    summary: Insetto notturno celebre per il frinire stridulante dei maschi.
+    info: |
+      Il grillo campestre è un insetto notturno dell'ordine degli Ortotteri.
+      I maschi friniscono sfregando le ali tra loro, per attirare le femmine e delimitare il territorio.
+      In Asia i grilli sono tradizionalmente allevati come animali domestici per il loro canto.
+      In molte culture sono anche simbolo di serenità domestica e fortuna.
+  insect.mosquito:
+    label: zanzara
+    summary: Insetto a due ali; la femmina succhia il sangue e può trasmettere malattie.
+    info: |
+      La zanzara è un insetto a due ali della famiglia dei Culicidi.
+      Le femmine succhiano il sangue degli animali per ottenere le proteine necessarie a sviluppare le uova; i maschi si nutrono di nettare.
+      Le zanzare trasmettono malattie pericolose come malaria, dengue e zika.
+      Nel mondo esistono oltre 3.500 specie di zanzare.
+  insect.fly:
+    label: mosca
+    summary: Comune insetto a due ali capace di trasportare batteri.
+    info: |
+      La mosca domestica è l'insetto a due ali più comune nelle abitazioni umane.
+      Gli occhi composti le permettono di vedere quasi 360 gradi attorno a sé.
+      Trasporta batteri perché si posa sia sui rifiuti sia sul cibo.
+      Ha un solo paio di ali funzionali; il secondo paio (bilancieri) serve a mantenere l'equilibrio in volo.
+  insect.moth:
+    label: falena
+    summary: Parente notturna della farfalla; vola verso la luce e ha antenne piumate.
+    info: |
+      Le falene sono lepidotteri notturni che, a differenza delle farfalle diurne, a riposo tengono le ali ripiegate ai lati.
+      Molte specie sono attratte dalla luce artificiale.
+      Ai bruchi del baco da seta dobbiamo la seta naturale.
+      La falena luna è una delle più belle falene del mondo.
+  insect.caterpillar:
+    label: bruco
+    summary: Larva di farfalla o falena; mangia foglie e si prepara a impuparsi.
+    info: |
+      Il bruco è la larva di una farfalla o di una falena e passa la vita soprattutto mangiando foglie per accumulare energia per la trasformazione.
+      Alcuni bruchi hanno colori vistosi che avvertono i predatori della loro tossicità.
+      Impupandosi forma una crisalide, in cui avviene la completa trasformazione (metamorfosi) in adulto.
+  insect.praying_mantis:
+    label: mantide religiosa
+    summary: Insetto predatore dalla posa in preghiera e dall'attacco fulmineo.
+    info: |
+      La mantide religiosa è un insetto predatore del gruppo dei Mantodei.
+      Deve il suo nome alla posa con cui tiene le zampe anteriori ripiegate come in preghiera.
+      È maestra nella caccia; colpisce e afferra la preda in una frazione di secondo.
+      La femmina a volte divora il maschio dopo l'accoppiamento, anche se non accade sempre.
+  insect.stick_insect:
+    label: insetto stecco
+    summary: Insetto che imita alla perfezione un ramoscello o una foglia.
+    info: |
+      L'insetto stecco appartiene al gruppo dei Fasmidi ed è maestro di mimetismo; il suo corpo imita alla perfezione rametti o foglie.
+      In caso di pericolo resta completamente immobile.
+      Alcune specie si riproducono per partenogenesi, cioè senza il maschio.
+      Sono diffusi animali esotici da compagnia per il loro allevamento facile.
+  insect.firefly:
+    label: lucciola
+    summary: Coleottero che produce luce bioluminescente per attirare il partner.
+    info: |
+      La lucciola è un coleottero della famiglia dei Lampiridi capace di produrre luce fredda (bioluminescenza) nell'addome.
+      Maschi e femmine emettono lampi secondo schemi diversi per riconoscersi e attrarsi.
+      Il fenomeno è governato dalla reazione chimica della luciferina con la luciferasi.
+      Le lucciole sono un indicatore della purezza dell'ambiente.
+  insect.wasp:
+    label: vespa
+    summary: Insetto pungitore giallo e nero che costruisce nidi di carta.
+    info: |
+      La vespa comune è un insetto pungitore del gruppo Vespula con la tipica livrea di avvertimento gialla e nera.
+      Costruisce nidi di carta da fibra di legno masticata.
+      A differenza dell'ape, la vespa può pungere più volte.
+      È utile come regolatore naturale degli insetti dannosi.
+  insect.cockroach:
+    label: scarafaggio
+    summary: Insetto onnivoro notturno e veloce, molto resistente e adattabile.
+    info: |
+      Lo scarafaggio è uno degli insetti più resistenti al mondo; sopravvive alle radiazioni e a condizioni che ucciderebbero altri animali.
+      Esistono oltre 4.500 specie, ma solo una trentina vive vicino all'uomo.
+      È un insetto antico; gli scarafaggi esistono da oltre 300 milioni di anni e sono sopravvissuti ai dinosauri.
+      È veloce e può correre a oltre 5 km/h.
+  insect.spider:
+    label: ragno
+    summary: Aracnide con otto zampe che tesse ragnatele per catturare insetti.
+    info: |
+      Il ragno è un aracnide (non un insetto) dell'ordine degli Araneae, con otto zampe e il corpo diviso in due parti.
+      Sa produrre seta con cui tesse ragnatele per cacciare o per avvolgere i bozzoli con le uova.
+      Nel mondo vivono oltre 48.000 specie di ragni.
+      Tutte le specie producono veleno, ma la stragrande maggioranza è innocua per l'uomo.
+  insect.scorpion:
+    label: scorpione
+    summary: Aracnide velenoso con chele e una coda ricurva avvelenata.
+    info: |
+      Lo scorpione è un aracnide (non un insetto) con le tipiche chele e una coda ricurva che termina con un pungiglione velenoso.
+      È un animale antico; i più antichi scorpioni fossili hanno oltre 430 milioni di anni.
+      Al buio diventano fluorescenti sotto la luce ultravioletta.
+      Delle circa 2.500 specie solo una venticinquina è pericolosa per l'uomo.
+  insect.centipede:
+    label: centopiedi
+    summary: Miriapode con un paio di zampe per ogni segmento del corpo.
+    info: |
+      Il centopiedi appartiene alla classe dei Chilopodi e ha un paio di zampe per ogni segmento del corpo (non cento zampe, come suggerisce il nome).
+      È un predatore veloce che caccia insetti, vermi e piccoli vertebrati.
+      Il primo paio di zampe è trasformato in artigli velenosi per paralizzare la preda.
+      Alcune specie tropicali superano i 30 cm di lunghezza.
+  insect.flea:
+    label: pulce
+    summary: Minuscolo parassita saltatore che succhia il sangue di mammiferi e uccelli.
+    info: |
+      La pulce è un insetto senza ali dell'ordine dei Sifonatteri, specializzato in una vita parassitaria.
+      Le sue forti zampe posteriori le permettono salti oltre 150 volte la lunghezza del corpo.
+      Succhia il sangue di mammiferi e uccelli e può trasmettere malattie; storicamente le pulci diffusero la peste.
+      Le pulci sono acrobate straordinarie del mondo degli insetti.
+  insect.termite:
+    label: termite
+    summary: Insetto sociale che costruisce enormi termitai di terra.
+    info: |
+      La termite è un insetto sociale del gruppo degli Isotteri, lontanamente imparentato con gli scarafaggi.
+      Vivono in colonie con un re, una regina, soldati e operaie.
+      Costruiscono complessi termitai, nei tropici alti fino a 9 metri, dotati di un sistema di ventilazione.
+      Come principali decompositori del legno, hanno un ruolo chiave negli ecosistemi tropicali.
+  insect.bumblebee:
+    label: bombo
+    summary: Grande ape pelosa dal ronzio profondo, importante impollinatore.
+    info: |
+      Il bombo è un grande insetto peloso del genere Bombus, parente dell'ape mellifera.
+      È un importante impollinatore, soprattutto nei climi più freddi, dove le api volano meno.
+      Riesce a scaldarsi facendo vibrare i muscoli del volo, così vola anche col freddo.
+      I bombi sono più miti delle api e pungono solo se direttamente minacciati.
+  insect.hornet:
+    label: calabrone
+    summary: La più grande vespa europea, con potente pungiglione e ronzio sonoro.
+    info: |
+      Il calabrone è la più grande vespa sociale europea e supera i 3,5 cm di lunghezza.
+      Costruisce nidi di carta nelle cavità degli alberi o sotto i tetti.
+      Il pungiglione è più lungo di quello delle vespe e la puntura è più dolorosa, ma il calabrone attacca solo se minacciato direttamente.
+      È un importante predatore di altri insetti.
+  insect.cicada:
+    label: cicala
+    summary: Insetto celebre per il canto stridulante e fragoroso nei giorni caldi.
+    info: |
+      La cicala è un insetto della superfamiglia dei Cicadoidei, celebre per uno dei suoni più forti di tutti gli insetti.
+      I maschi producono il suono con membrane speciali (timballi) nell'addome per attirare le femmine.
+      Alcune specie negli Stati Uniti hanno cicli di sviluppo di diciassette o tredici anni.
+      Le ninfe vivono per anni sottoterra nutrendosi di radici.
+  insect.locust:
+    label: locusta migratrice
+    summary: Cavalletta migratrice che forma sciami devastanti di milioni di individui.
+    info: |
+      La locusta migratrice è una specie di cavalletta che, in certe condizioni, forma giganteschi sciami migranti.
+      Uno sciame può contare miliardi di individui e distruggere interi raccolti su migliaia di ettari in un giorno.
+      Nei paesi africani e asiatici le locuste sono storicamente una delle peggiori catastrofi agricole.
+      Nella Bibbia sono una delle dieci piaghe d'Egitto.
+  insect.aphid:
+    label: afide
+    summary: Minuscolo insetto succhiatore sugli steli delle piante; produce melata.
+    info: |
+      Gli afidi sono piccoli insetti succhiatori della superfamiglia degli Afidoidei, che si nutrono della linfa delle piante.
+      Producono una dolce melata di cui le formiche si prendono cura in cambio di protezione.
+      Si riproducono molto rapidamente; una sola femmina può dare origine a centinaia di milioni di discendenti in un anno.
+      Sono importanti parassiti delle colture agricole.
+  insect.earwig:
+    label: forbicina
+    summary: Insetto allungato con pinze all'estremità dell'addome.
+    info: |
+      La forbicina è un insetto dell'ordine dei Dermatteri, caratterizzato dalle pinze (cerci) all'estremità dell'addome, usate per difesa e accoppiamento.
+      Il nome popolare deriva dalla credenza che entri nelle orecchie delle persone; è un mito.
+      Le femmine di forbicina sono eccezionali perché si prendono cura delle uova e delle giovani larve, cosa rara tra gli insetti.
+      Vivono nelle fessure, sotto le pietre e tra le foglie.
+  insect.silverfish:
+    label: pesciolino d'argento
+    summary: Insetto senza ali e veloce, presente in casa tra libri e carta.
+    info: |
+      Il pesciolino d'argento è un primitivo insetto senza ali dell'ordine degli Zigentomi che vive nelle abitazioni.
+      Si nutre di amido, carta, colla da rilegatura e fibre tessili.
+      Il nome deriva dalla colorazione argentea e dal movimento simile a quello di un pesce.
+      È uno dei più antichi ordini di insetti, vive quasi immutato da oltre 300 milioni di anni.
+  insect.water_strider:
+    label: gerride
+    summary: Insetto che cammina sulla superficie dell'acqua grazie alla tensione superficiale.
+    info: |
+      Il gerride è un insetto della famiglia dei Gerridi, capace di camminare sull'acqua grazie ai peli idrofobi sulle zampe e alla tensione superficiale dell'acqua.
+      Caccia gli insetti caduti in acqua, che individua dalle vibrazioni della superficie.
+      È rapido e scivola sull'acqua a una velocità oltre 150 volte la lunghezza del corpo al secondo.
+  insect.dung_beetle:
+    label: scarabeo stercorario
+    summary: Coleottero che rotola palline di sterco, sacro nell'antico Egitto.
+    info: |
+      Lo scarabeo stercorario sacro è un coleottero della famiglia degli Scarabeidi, che modella lo sterco in palline e le rotola per seppellirle e deporvi le uova.
+      Nell'antico Egitto era simbolo del sole e del dio Khepri.
+      È uno dei pochi animali che si orientano grazie alla Via Lattea.
+      Aiuta a riciclare i nutrienti e ad arieggiare il terreno.
+  insect.stag_beetle:
+    label: cervo volante
+    summary: Il più grande coleottero europeo; il maschio ha mandibole a forma di corna.
+    info: |
+      Il cervo volante è il più grande coleottero europeo e supera i 7 cm di lunghezza.
+      Il maschio ha enormi mandibole simili a corna, usate per i duelli per le femmine.
+      La larva vive fino a 7 anni nel legno marcescente delle querce e si nutre di funghi.
+      È gravemente minacciato dalla scomparsa dei boschi antichi e del legno morto.
+  insect.atlas_moth:
+    label: falena atlante
+    summary: Una delle più grandi falene del mondo, con ali ornate da motivi simili a serpenti.
+    info: |
+      La falena atlante è una delle più grandi falene del mondo, con un'apertura alare fino a 30 cm.
+      Le punte delle ali sono colorate in modo da ricordare teste di serpente, per spaventare i predatori.
+      Gli adulti non hanno bocca e non si nutrono affatto; sopravvivono solo pochi giorni da adulti.
+      Proviene dalle foreste tropicali del Sud-est asiatico.
+  insect.weevil:
+    label: punteruolo
+    summary: Piccolo coleottero con un caratteristico muso allungato.
+    info: |
+      Il punteruolo è un coleottero della famiglia dei Curculionidi, la più grande famiglia di animali al mondo con oltre 60.000 specie.
+      Il caratteristico muso allungato (rostro) serve a forare semi, frutti e tronchi.
+      Alcune specie sono gravi parassiti agricoli, come il punteruolo del cotone.
+      Altre specie sono specializzate su una sola specie di pianta.
+  insect.lacewing:
+    label: crisopa
+    summary: Insetto delicato con ali dalle venature trasparenti; le larve cacciano afidi.
+    info: |
+      La crisopa è un insetto della famiglia dei Crisopidi, con delicate ali dalle venature trasparenti e occhi dorati.
+      Le larve sono predatrici e divorano enormi quantità di afidi, diventando protettrici naturali delle piante.
+      Gli adulti si nutrono di nettare e polline.
+      Sono attratte dalla luce e sono un indicatore di un ambiente sano.
+  insect.crane_fly:
+    label: tipula
+    summary: Grande dittero simile a una zanzara con zampe estremamente lunghe.
+    info: |
+      La tipula è un insetto a due ali della famiglia dei Tipulidi, visivamente simile a una zanzara gigante, ma non punge né parassita.
+      Le sue zampe estremamente lunghe si staccano facilmente; è un meccanismo di difesa (autotomia).
+      Gli adulti vivono solo pochi giorni e non si nutrono o si nutrono di nettare.
+      Le larve vivono nel terreno e si nutrono di radici.
+  insect.mayfly:
+    label: effimera
+    summary: Insetto dalla vita adulta più breve, che vive solo ore o giorni.
+    info: |
+      L'effimera è un insetto dell'ordine degli Efemerotteri e simbolo della caducità; gli adulti vivono solo ore o giorni.
+      Non hanno un apparato boccale funzionante e non si nutrono affatto.
+      Le ninfe vivono da 1 a 3 anni sott'acqua.
+      Lo sciamare di massa delle effimere è uno spettacolo naturale affascinante; in Ungheria il loro sciamare sul Danubio è un fenomeno unico.
+  insect.damselfly:
+    label: damigella
+    summary: Snella parente della libellula; a riposo chiude le ali parallele al corpo.
+    info: |
+      La damigella è un insetto imparentato con le libellule, ma più snella, e a riposo chiude le ali parallele al corpo, a differenza delle libellule.
+      È predatrice e caccia piccoli insetti in volo.
+      Le ninfe vivono nell'acqua e sono una parte importante degli ecosistemi acquatici.
+      Sono un indicatore della qualità dei corsi d'acqua.
+  insect.robber_fly:
+    label: asilide
+    summary: Mosca predatrice che cattura altri insetti direttamente in volo.
+    info: |
+      L'asilide è un insetto predatore a due ali della famiglia degli Asilidi, che caccia altri insetti direttamente in volo.
+      Ha zampe robuste per afferrare la preda e un pungiglione per iniettare un veleno paralizzante.
+      Alcune specie imitano l'aspetto di bombi o vespe come protezione dai predatori.
+      È utile come regolatore naturale delle popolazioni di insetti.
+  insect.ground_beetle:
+    label: carabide
+    summary: Coleottero predatore veloce che vive sotto le pietre e tra le foglie.
+    info: |
+      Il carabide è un coleottero della famiglia dei Carabidi; la maggior parte delle specie sono predatori notturni attivi che cacciano altri insetti, vermi e lumache.
+      Sono veloci e fuggono rapidamente dal pericolo.
+      Alcune specie, come il carabide violaceo, hanno una splendida colorazione metallica.
+      Sono indicatori di un suolo sano e di un'agricoltura naturale.
+  insect.tiger_beetle:
+    label: cicindela
+    summary: Coleottero veloce dai colori metallici e dalla vista eccellente.
+    info: |
+      La cicindela è un coleottero della sottofamiglia delle Cicindeline, celebre per la straordinaria velocità, la capacità di volo e la vista acuta.
+      Corre così veloce che deve fermarsi e riorientarsi, perché il movimento è troppo rapido per il suo sistema visivo.
+      Ha un corpo metallico dai colori splendidi (verde, blu, rosso) e grandi occhi.
+      Le larve scavano gallerie verticali nel terreno e attendono la preda in agguato nell'apertura.
+  insect.hoverfly:
+    label: sirfide
+    summary: Mosca che imita i colori di vespe e api, impollinatrice dei giardini.
+    info: |
+      Il sirfide è un insetto a due ali della famiglia dei Sirfidi, che imita la colorazione di vespe e api come protezione dai predatori (mimetismo batesiano), pur non pungendo.
+      È un importante impollinatore; visita più specie di piante delle api.
+      Gli adulti si nutrono di nettare e polline.
+      Le larve di alcune specie cacciano gli afidi, aiutando così nei giardini.
+  insect.whirligig_beetle:
+    label: girino d'acqua
+    summary: Piccolo coleottero che ruota in sciami sulla superficie dell'acqua.
+    info: |
+      Il girino d'acqua è un coleottero acquatico della famiglia dei Girinidi, che vive sulla superficie e il roteare in sciami lo aiuta a sfuggire ai predatori.
+      I suoi occhi sono divisi in due parti; una vede sopra l'acqua, l'altra sotto.
+      Percepisce le increspature sulla superficie, che segnalano cibo o pericolo.
+      Di giorno rotea, di notte vola.
+  insect.louse:
+    label: pidocchio
+    summary: Minuscolo parassita senza ali che vive sulla pelle e tra i capelli dei mammiferi.
+    info: |
+      Il pidocchio è un insetto parassita senza ali dell'ordine degli Ftirotteri, che vive sulla pelle e nel pelo o nei capelli degli ospiti.
+      Succhia il sangue e provoca prurito.
+      Il pidocchio del capo è diffuso in tutto il mondo e colpisce i bambini a prescindere dalle condizioni igieniche.
+      Storicamente i pidocchi hanno trasmesso il tifo e altre malattie.
+  insect.bedbug:
+    label: cimice dei letti
+    summary: Parassita piatto che succhia il sangue di notte; si nasconde nelle fessure dei mobili.
+    info: |
+      La cimice dei letti è un insetto piatto e ovale della famiglia dei Cimicidi, attiva soprattutto di notte.
+      Punge e succhia il sangue dell'ospite addormentato.
+      Si nasconde nelle fessure del materasso, dei mobili e dietro la carta da parati.
+      Negli ultimi decenni si diffonde in tutto il mondo grazie ai viaggi internazionali.
+  insect.antlion:
+    label: formicaleone
+    summary: Larva che scava trappole a imbuto per le formiche nella sabbia.
+    info: |
+      Il formicaleone è la larva di un insetto della famiglia dei Mirmeleontidi, che scava imbuti conici nella sabbia asciutta.
+      Quando una formica scivola nella trappola, il formicaleone la afferra con le mandibole e le inietta succhi digestivi.
+      Gli adulti sono poco appariscenti, simili a libellule, e volano di notte.
+      Le larve possono vivere anni sottoterra senza nutrirsi.
+  insect.goliath_beetle:
+    label: scarabeo golia
+    summary: Uno dei più grandi e pesanti insetti del mondo, dell'Africa tropicale.
+    info: |
+      Lo scarabeo golia è uno dei più grandi insetti del mondo; i maschi pesano fino a 100 grammi e raggiungono oltre 11 cm di lunghezza.
+      Vive nelle foreste pluviali tropicali dell'Africa equatoriale.
+      Gli adulti si nutrono di frutta e linfa degli alberi.
+      In Africa a volte i bambini li tengono come giocattoli e vengono venduti ai collezionisti.
+  insect.bombardier_beetle:
+    label: coleottero bombardiere
+    summary: Coleottero che spara una miscela tossica bollente come difesa.
+    info: |
+      Il coleottero bombardiere è un coleottero della sottofamiglia delle Brachinine, che si difende in modo unico; mescola due sostanze chimiche nell'addome, generando una reazione esplosiva a oltre 100 gradi.
+      Il vapore altamente tossico viene sparato con uno scoppio sonoro fino a 500 volte al secondo.
+      È uno degli esempi più affascinanti di difesa chimica in natura.
+  insect.diving_beetle:
+    label: ditisco
+    summary: Coleottero acquatico predatore che nuota sotto la superficie.
+    info: |
+      Il ditisco è un coleottero acquatico predatore della famiglia dei Ditiscidi, che vive negli stagni e nelle acque ferme.
+      Nuota agilmente grazie alle zampe posteriori piatte che funzionano come remi.
+      Respira in superficie e conserva l'aria sotto le elitre.
+      Caccia insetti, larve, piccoli pesci e girini; è attivo sia in acqua sia in volo di notte.
+  insect.velvet_ant:
+    label: formica di velluto
+    summary: Vespa senza ali arancione e nera che sembra una formica.
+    info: |
+      La formica di velluto è in realtà una vespa della famiglia dei Mutillidi; le femmine sono senza ali e ricordano le formiche.
+      Hanno appariscenti peli rossi o arancioni come avvertimento.
+      Le femmine hanno un pungiglione estremamente potente, soprannominato cow killer (uccisore di mucche).
+      Parassitano i nidi dei bombi.

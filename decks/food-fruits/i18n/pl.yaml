@@ -1,204 +1,364 @@
 lang: pl
 pivot: false
-title: ""
+title: Owoce
 cards:
-  fruit.ackee:
-    label: ""
-    summary: ""
-    info: ""
   fruit.apple:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.apricot:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.avocado:
-    label: ""
-    summary: ""
-    info: ""
+    label: jabłko
+    summary: Okrągły czerwony lub zielony owoc o słodko-kwaśnym smaku.
+    info: Jabłko to owoc jabłoni domowej, jednej z najczęściej uprawianych roślin na świecie. Zawiera witaminę C i błonnik; istnieje ponad 7500 odmian.
   fruit.banana:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.blackberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.blueberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cantaloupe:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cherry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.coconut:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cranberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.currant:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.damson:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.date:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.dragon_fruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.durian:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.feijoa:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.fig:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.gooseberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.grape:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.grapefruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.guava:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.jackfruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.kiwi:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lemon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lime:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.longan:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lychee:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.mango:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.medlar:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.melon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.mulberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.nectarine:
-    label: ""
-    summary: ""
-    info: ""
+    label: banan
+    summary: Żółty tropikalny owoc o słodkim miąższu.
+    info: Banan to owoc tropikalnej rośliny z rodziny bananowatych. Jest bogaty w potas i naturalne cukry, które dają szybką energię.
   fruit.orange:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.papaya:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.passion_fruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.peach:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pear:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.persimmon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pineapple:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.plum:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pomegranate:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.quince:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.rambutan:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.raspberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.starfruit:
-    label: ""
-    summary: ""
-    info: ""
+    label: pomarańcza
+    summary: Okrągły owoc cytrusowy o pachnącej pomarańczowej skórce.
+    info: Pomarańcza to owoc cytrusowy pochodzący z Azji Południowo-Wschodniej, dziś uprawiany na całym świecie. Jest bogata w witaminę C i popularna jako sok.
   fruit.strawberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.tamarind:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.tangerine:
-    label: ""
-    summary: ""
-    info: ""
+    label: truskawka
+    summary: Czerwona soczysta jagoda w kształcie serca.
+    info: Truskawka to popularny owoc z rodziny różowatych. Bogata w witaminę C i przeciwutleniacze; zbierana latem i słodko pachnąca.
+  fruit.grape:
+    label: winogrono
+    summary: Mała okrągła jagoda rosnąca w gronach.
+    info: Winorośl daje winogrona w różnych barwach – od zielonej po ciemnofioletową. Winogrona je się na świeżo, suszy na rodzynki lub tłoczy na wino.
   fruit.watermelon:
-    label: ""
-    summary: ""
-    info: ""
+    label: arbuz
+    summary: Duży zielono-pasiasty owoc o czerwonym soczystym miąższu.
+    info: Arbuz pochodzi z Afryki i jest ulubionym letnim owocem. Składa się w 92% z wody i zawiera likopen, który nadaje mu czerwoną barwę.
+  fruit.mango:
+    label: mango
+    summary: Tropikalny owoc o żółto-pomarańczowym soczystym miąższu.
+    info: Mango indyjskie jest nazywane królem owoców tropikalnych. Jest bogate w witaminy A i C, pochodzi z Azji Południowej, gdzie uprawia się je od 4000 lat.
+  fruit.cherry:
+    label: czereśnia
+    summary: Mały okrągły czerwony pestkowiec rosnący w parach.
+    info: Czereśnia to owoc czereśni ptasiej, ulubiony letni owoc. Zawiera przeciwutleniacze i melatoninę; istnieją odmiany słodkie i kwaśne (wiśniowe).
+  fruit.pear:
+    label: gruszka
+    summary: Owoc w kształcie łzy o słodkim, delikatnym smaku.
+    info: Gruszka to owoc gruszy pospolitej, blisko spokrewnionej z jabłonią. Ma delikatny, soczysty miąższ i wysoką zawartość błonnika; istnieją setki odmian.
+  fruit.pineapple:
+    label: ananas
+    summary: Tropikalny owoc z kolczastą koroną i złocistym miąższem.
+    info: Ananas pochodzi z Ameryki Południowej, a dziś uprawiany jest w strefie tropikalnej całego świata. Zawiera enzym bromelainę, która wspomaga trawienie.
+  fruit.lemon:
+    label: cytryna
+    summary: Kwaśny żółty cytrus; źródło witaminy C i aromatu.
+    info: |
+      Cytryna to kwaśny owoc cytrusowy pochodzący z Azji.
+      Jest bogata w witaminę C i kwas cytrynowy.
+      Używa się jej w kuchni, napojach, kosmetyce i środkach czyszczących.
+      Skórka cytryny (Citrus limon) zawiera olejek o charakterystycznym cytrynowym zapachu.
+  fruit.lime:
+    label: limonka
+    summary: Mały zielony kwaśny cytrus; kluczowy składnik kuchni tropikalnej.
+    info: |
+      Limonka to mały zielony cytrus o kwaśnym soku i aromatycznej skórce.
+      Jest niezbędna w kuchni meksykańskiej, tajskiej i wietnamskiej.
+      Zawiera mniej witaminy C niż cytryna, ale ma silniejszy aromat.
+      Spożywanie limonek chroniło marynarzy przed szkorbutem (witamina C).
+  fruit.kiwi:
+    label: kiwi
+    summary: Brązowy owłosiony owoc o zielonym miąższu; bogaty w witaminy.
+    info: |
+      Kiwi (Actinidia deliciosa) pochodzi z Chin, gdzie nazywane jest chińskim agrestem.
+      Nowa Zelandia je skomercjalizowała i nazwała od narodowego ptaka kiwi.
+      Zawiera dwa razy więcej witaminy C niż pomarańcza.
+      Miąższ jest intensywnie zielony; istnieją też odmiany złote (żółte).
+  fruit.peach:
+    label: brzoskwinia
+    summary: Aksamitny żółto-różowy pestkowiec; symbol lata.
+    info: |
+      Brzoskwinia (Prunus persica) pochodzi z Chin, gdzie jest symbolem nieśmiertelności.
+      Jej delikatna aksamitna skórka jest charakterystyczna.
+      Istnieją odmiany białe i żółte; nektarynki to gładka odmiana bez meszku.
+      W Chinach brzoskwinie są częścią Nowego Roku i mitologii leczniczej.
+  fruit.plum:
+    label: śliwka
+    summary: Fioletowy pestkowiec; podstawa śliwowicy i powideł.
+    info: |
+      Śliwka (Prunus domestica) to podstawowy owoc Europy Środkowej.
+      Śliwowica (destylat śliwkowy) to tradycyjna czeska i słowacka gorzałka.
+      Powidła śliwkowe są typowym owocem jesiennych zbiorów.
+      Na świecie istnieje ponad 2000 odmian śliwek.
+  fruit.apricot:
+    label: morela
+    summary: Mały pomarańczowy pestkowiec; słodko-kwaśny i soczysty.
+    info: |
+      Morela (Prunus armeniaca) pochodzi z Azji Środkowej.
+      Uprawia się ją w Polsce i całej Europie; najsłodsze pochodzą z Turcji i Hiszpanii.
+      Bogata w beta-karoten i witaminę A.
+      Suszone morele są popularną zdrową przekąską.
+  fruit.raspberry:
+    label: malina
+    summary: Czerwona jagoda złożona; symbol letniego ogrodu.
+    info: |
+      Malina (Rubus idaeus) to jagoda złożona z wielu małych pestkowców.
+      Rośnie dziko i w uprawie; zbiory odbywają się latem i jesienią.
+      Bogata w witaminy C i K, mangan oraz przeciwutleniacze.
+      Dżem malinowy i ocet malinowy to tradycyjne przysmaki.
+  fruit.blueberry:
+    label: borówka amerykańska
+    summary: Ciemnoniebieska jagoda; superżywność pełna przeciwutleniaczy.
+    info: |
+      Borówka (Vaccinium myrtillus dzika, V. corymbosum uprawna) jest bogata w antocyjany.
+      Antocyjany nadają jej ciemnoniebieską barwę i silne właściwości przeciwutleniające.
+      Badania wskazują na pozytywny wpływ na funkcje poznawcze i zdrowie serca.
+      Borówki uprawne są większe niż dzikie leśne.
+  fruit.blackberry:
+    label: jeżyna
+    summary: Ciemnofioletowa jagoda złożona z krzewu jeżyny.
+    info: |
+      Jeżyna (Rubus fruticosus) to ciemnofioletowa jagoda złożona, rosnąca na kolczastym krzewie.
+      Dzika jeżyna rośnie na skrajach lasów i w zaroślach.
+      Zawiera dużo witaminy C, K i błonnika.
+      Dżem, kompot i likier jeżynowy to tradycyjne produkty.
+  fruit.coconut:
+    label: kokos
+    summary: Duży tropikalny orzech o twardej skorupie i białym miąższu.
+    info: |
+      Kokos (Cocos nucifera) to owoc palmy kokosowej; botanicznie jest pestkowcem, a nie orzechem.
+      Woda kokosowa wewnątrz niedojrzałego owocu to naturalny napój izotoniczny.
+      Mleko i olej kokosowy są podstawą kuchni Azji Południowo-Wschodniej i indyjskiej.
+      Palmę kokosową nazywa się drzewem tysiąca zastosowań.
+  fruit.papaya:
+    label: papaja
+    summary: Duży tropikalny owoc o intensywnie pomarańczowym miąższu.
+    info: |
+      Papaja (Carica papaya) pochodzi z tropikalnej Ameryki.
+      Zawiera enzym papainę wspomagającą trawienie białek.
+      Jest bogata w witaminę C, beta-karoten i przeciwutleniacze.
+      Niedojrzała papaja używana jest w kuchni Azji Południowo-Wschodniej jako warzywo (sałatka som tam).
+  fruit.guava:
+    label: gujawa
+    summary: Tropikalny owoc o intensywnym zapachu i białym lub różowym miąższu.
+    info: |
+      Gujawa (Psidium guajava) pochodzi z tropikalnej Ameryki i rozprzestrzeniła się w tropikalnej Azji i Afryce.
+      Zawiera cztery razy więcej witaminy C niż pomarańcza.
+      Skórka i nasiona są jadalne; cały owoc jest odżywczy.
+      Sok i dżem z gujawy to popularne produkty w krajach tropikalnych.
+  fruit.pomegranate:
+    label: granat
+    summary: Czerwony owoc z tysiącem słodkich nasion; symbol płodności.
+    info: |
+      Granat (Punica granatum) pochodzi z Azji Środkowej i basenu Morza Śródziemnego.
+      Zawiera ponad 600 nasion otoczonych przezroczystym czerwonym miąższem.
+      Bogaty w przeciwutleniacze; badania śledzą jego wpływ na serce i stany zapalne.
+      Symbolizuje płodność i obfitość w wielu kulturach (greckiej, judaistycznej, islamskiej).
+  fruit.fig:
+    label: figa
+    summary: Gruszkowaty owoc figowca; słodki i pełen nasion.
+    info: |
+      Figa (Ficus carica) to jeden z najstarszych uprawianych owoców; ślady sięgają 11 000 lat wstecz.
+      W rzeczywistości nie jest owocem, lecz naczyniem wypełnionym tysiącami drobnych kwiatów.
+      Listki Adama i Ewy w opowieści biblijnej to liście figowca.
+      Suszone figi są doskonałym źródłem wapnia, potasu i błonnika.
+  fruit.date:
+    label: daktyl
+    summary: Słodki brązowy owalny owoc palmy daktylowej; podstawa kuchni Bliskiego Wschodu.
+    info: |
+      Daktyle (Phoenix dactylifera) to słodkie owoce palmy daktylowej.
+      Są podstawowym pożywieniem Bliskiego Wschodu od tysięcy lat.
+      Zawierają ponad 60% cukru i są znakomitym źródłem energii.
+      W islamie daktyle tradycyjnie je się jako pierwsze przy przerywaniu postu ramadanowego (iftar).
+  fruit.melon:
+    label: melon
+    summary: Duży słodki owoc o pomarańczowym, zielonym lub białym miąższu.
+    info: |
+      Melon (Cucumis melo) to owoc tropikalny i subtropikalny o wysokiej zawartości wody.
+      Pochodzi z Afryki i Azji; dziś uprawiany jest na całym świecie.
+      Zawiera ponad 90% wody; doskonale nawadnia.
+      Istnieją setki odmian, m.in. cantaloupe, honeydew, galia i charentais.
+  fruit.cantaloupe:
+    label: kantalupa
+    summary: Żółto-brązowy siatkowany melon o intensywnie pomarańczowym miąższu.
+    info: |
+      Kantalupa (Cucumis melo var. cantalupensis) to popularna odmiana melona pochodząca z Azji.
+      Nazwa pochodzi od papieskiej rezydencji Cantalupo koło Rzymu.
+      Pomarańczowy miąższ jest bogaty w beta-karoten i witaminę A.
+      To jeden z najsłodszych typów melona.
+  fruit.grapefruit:
+    label: grejpfrut
+    summary: Duży gorzko-słodki cytrus; dietetyczna gwiazda.
+    info: |
+      Grejpfrut (Citrus paradisi) to hybryda pomarańczy i pomelo.
+      Został opisany w XVIII wieku na Barbadosie.
+      Różowy i czerwony grejpfrut zawierają likopen i beta-karoten.
+      Sok grejpfrutowy wchodzi w interakcje z wieloma lekami; pacjenci powinni poinformować lekarza.
+  fruit.tangerine:
+    label: mandarynka
+    summary: Mały słodki cytrus z luźną skórką; symbol świąt.
+    info: |
+      Mandarynka (Citrus reticulata) to mały, łatwy do obierania cytrus pochodzący z Chin.
+      Jest symbolem chińskiego Nowego Roku i szczęścia.
+      W Polsce jest typowym owocem świątecznym.
+      Zawiera witaminę C, przeciwutleniacze i flawonoidy.
+  fruit.passion_fruit:
+    label: marakuja
+    summary: Tropikalny owoc o pomarszczonej fioletowej skórce i aromatycznym wnętrzu pełnym nasion.
+    info: |
+      Marakuja (Passiflora edulis) pochodzi z tropikalnej Ameryki Południowej.
+      Jej nazwa pochodzi od misjonarzy, którzy w kwiecie widzieli symbole męki Chrystusa.
+      Miąższ jest pełen nasion otoczonych aromatycznym żelem.
+      To doskonałe źródło witaminy C, błonnika i przeciwutleniaczy.
+  fruit.lychee:
+    label: liczi
+    summary: Mały czerwony tropikalny owoc o przezroczystym miąższu; popularny w Azji.
+    info: |
+      Liczi (Litchi chinensis) to owoc tropikalny pochodzący z Chin.
+      Jego szorstką czerwoną skórkę obiera się, odsłaniając przezroczysty biały miąższ.
+      Ma słodki, delikatnie aromatyczny smak.
+      W Chinach jest symbolem szczęścia i pomyślności.
+  fruit.dragon_fruit:
+    label: smoczy owoc
+    summary: Różowy tropikalny owoc kaktusa o białym, nakrapianym miąższu.
+    info: |
+      Smoczy owoc (pitaja, Hylocereus) pochodzi z Meksyku i Ameryki Środkowej.
+      Jego intensywnie różowa skórka i biały miąższ z czarnymi nasionami są bardzo dekoracyjne.
+      Ma delikatny smak; zawiera przeciwutleniacze i witaminę C.
+      Robi się z niego soki, smoothie i dekoracyjne desery.
+  fruit.starfruit:
+    label: karambola
+    summary: Żółty tropikalny owoc tworzący gwiazdki przy krojeniu.
+    info: |
+      Karambola (Averrhoa carambola) pochodzi z południowej i południowo-wschodniej Azji.
+      Krojona w poprzek tworzy idealny kształt gwiazdki (stąd starfruit).
+      Ma kwaśno-słodki smak; jest bogata w witaminę C.
+      Osoby z chorobami nerek nie powinny jej spożywać ze względu na szczawiany.
+  fruit.avocado:
+    label: awokado
+    summary: Kremowy tropikalny pestkowiec; podstawa guacamole.
+    info: |
+      Awokado (Persea americana) pochodzi z Meksyku i Ameryki Środkowej.
+      Botanicznie jest owocem (pestkowcem), ale kulinarnie używa się go jak warzywa.
+      Zawiera zdrowe tłuszcze jednonienasycone (kwas oleinowy) jak oliwa z oliwek.
+      Jest modnym zdrowym pokarmem na świecie; tost z awokado to ikona nowoczesnej kultury kawiarnianej.
+  fruit.persimmon:
+    label: kaki
+    summary: Pomarańczowy owoc podobny do pomidora; słodki i cierpki.
+    info: |
+      Kaki (Diospyros kaki) pochodzi z Chin i Japonii; nazywane jest też hurmą.
+      Niedojrzałe kaki jest garbnikowe i cierpkie; dojrzałe jest słodkie jak miód.
+      Jest bogate w witaminy A, C i minerały.
+      W Japonii jest tradycyjnym jesiennym owocem (kaki).
+  fruit.mulberry:
+    label: morwa
+    summary: Ciemnofioletowa jagoda morwy; pokarm jedwabnika.
+    info: |
+      Morwa (Morus) to jagoda drzewa morwowego; liście morwy są pokarmem jedwabnika.
+      Istnieją morwy białe, czerwone i czarne; czarna jest najsłodsza.
+      W historii uprawa morwy była kluczowa dla jedwabnictwa.
+      Morwy są bogate w resweratrol, witaminę C i żelazo.
+  fruit.cranberry:
+    label: żurawina
+    summary: Mała czerwona kwaśna jagoda; tradycyjny amerykański dodatek.
+    info: |
+      Żurawina (Vaccinium macrocarpon) to mała kwaśna czerwona jagoda.
+      Jest tradycyjnym elementem amerykańskiego Święta Dziękczynienia (sos żurawinowy).
+      Zawiera proantocyjanidyny, które zapobiegają przyleganiu bakterii E. coli do ścian dróg moczowych.
+      Naukowo potwierdzony jest wpływ żurawiny na zapobieganie zakażeniom dróg moczowych.
+  fruit.gooseberry:
+    label: agrest
+    summary: Mała okrągła przezroczysta jagoda; ulubieniec ogrodów.
+    info: |
+      Agrest (Ribes uva-crispa) to drobny owoc typowy dla ogrodów Europy Środkowej.
+      Występuje w odmianach zielonych, czerwonych i żółtych.
+      Jest bogaty w witaminę C.
+      Wino z agrestu jest historycznie popularnym napojem.
+  fruit.currant:
+    label: porzeczka
+    summary: Drobna czerwona, czarna lub biała jagoda w gronku.
+    info: |
+      Porzeczka (Ribes) to drobna jagoda rosnąca w kłosowatych gronach.
+      Czarna porzeczka (Ribes nigrum) zawiera najwięcej witaminy C ze wszystkich jagód.
+      Czarna porzeczka to podstawa smaku Ribena (brytyjski napój) i likieru cassis.
+      Czerwona porzeczka używana jest do dżemów i jako dekoracja deserów.
+  fruit.quince:
+    label: pigwa
+    summary: Twardy żółty owoc spokrewniony z jabłkiem; spożywany zawsze po obróbce cieplnej.
+    info: |
+      Pigwa (Cydonia oblonga) jest spokrewniona z jabłonią i gruszą; surowa jest twarda i cierpka.
+      Zawsze przetwarza się ją termicznie; dżem z pigwy (membrillo), wino i nalewka z pigwy.
+      Zawiera dużo pektyny, odpowiedniej do wyrobu dżemów.
+      Najstarsza zapisana w Europie marmolada (XVI w.) robiona była z pigwy.
+  fruit.jackfruit:
+    label: dżakfrut
+    summary: Ogromny tropikalny owoc; największy owoc rosnący na drzewie na świecie.
+    info: |
+      Dżakfrut (Artocarpus heterophyllus) daje największe owoce rosnące na drzewie; mogą ważyć ponad 35 kg.
+      Pochodzi z tropikalnej Azji; jest podstawowym pożywieniem w Indiach, Bangladeszu i Tajlandii.
+      Niedojrzały dżakfrut ma neutralną teksturę i używany jest jako wegetariański zamiennik mięsa.
+      Dojrzałe żółte pestki są słodkie i aromatyczne.
+  fruit.durian:
+    label: durian
+    summary: Duży kolczasty tropikalny owoc o silnym zapachu; król owoców tropikalnych.
+    info: |
+      Durian (Durio zibethinus) nazywany jest królem owoców tropikalnych.
+      Jego silny zapach dla jednych jest odpychający, dla innych kuszący; w wielu azjatyckich hotelach jest zakazany.
+      Miąższ jest kremowy i słodki o złożonym smaku (migdały, wanilia, ser).
+      W Azji Południowo-Wschodniej ceniony jest jako wykwintny luksus.
+  fruit.rambutan:
+    label: rambutan
+    summary: Czerwony owłosiony tropikalny owoc podobny do liczi.
+    info: |
+      Rambutan (Nephelium lappaceum) pochodzi z Malezji; nazwa pochodzi od malajskiego rambut = włosy.
+      Jego czerwona skórka pokryta jest miękkimi, haczykowatymi wypustkami.
+      Miąższ jest przezroczysty i słodki, podobny do liczi.
+      Jest bogaty w witaminę C i żelazo.
+  fruit.longan:
+    label: longan
+    summary: Mały brązowy tropikalny owoc spokrewniony z liczi.
+    info: |
+      Longan (Dimocarpus longan) to owoc tropikalnego drzewa pochodzącego z Chin.
+      Nazwa pochodzi z chińskiego long yan = smocze oko, od przezroczystego miąższu z czarnym nasieniem.
+      Ma słodki i aromatyczny smak.
+      W tradycyjnej medycynie chińskiej uważany jest za pokarm wspierający krew i serce.
+  fruit.tamarind:
+    label: tamarynd
+    summary: Brązowy strąkowy owoc o kwaśnym miąższu; podstawa kuchni tajskiej.
+    info: |
+      Tamarynd (Tamarindus indica) pochodzi z tropikalnej Afryki; dziś uprawiany w całej strefie tropikalnej.
+      Miąższ jest silnie kwaśny i słodki; używa się go w Pad Thai, sosie worcestershire i indyjskim chutney.
+      Słowo pochodzi z arabskiego tamr hindi = indyjskie daktyle.
+      Jest bogaty w kwas winowy, witaminy z grupy B i żelazo.
+  fruit.nectarine:
+    label: nektarynka
+    summary: Gładka brzoskwinia bez meszku; soczysta i słodka.
+    info: |
+      Nektarynka (Prunus persica var. nucipersica) to naturalna mutacja brzoskwini o gładkiej skórce.
+      Różni się od brzoskwini tylko genem gładkości skórki.
+      Ma podobny smak, ale twardszą konsystencję.
+      Nazwa pochodzi od nektaru bogów; świadczy o postrzeganej doskonałości.
+  fruit.damson:
+    label: śliwka damasceńska
+    summary: Mała ciemna śliwka typowa dla angielskich wiejskich ogrodów.
+    info: |
+      Śliwka damasceńska (damson) to mała, ciemnoniebiesko-czarna odmiana śliwki.
+      Nazwa pochodzi od Damaszku, skąd owoc trafił do Europy.
+      Surowa jest bardzo kwaśna, ale znakomita w dżemach, powidłach i ginie (damson gin).
+      W tradycji angielskiej uprawiana jest od starożytności.
+  fruit.medlar:
+    label: nieszpułka
+    summary: Mały brązowy owoc spokrewniony z jabłonią; musi dojrzeć po zbiorze.
+    info: |
+      Nieszpułka (Mespilus germanica) to prastara roślina ogrodowa uprawiana od średniowiecza.
+      Jest jadalna dopiero po zmięknięciu (bletting), czyli odleżeniu po zbiorze.
+      Jest bogata w garbniki i witaminę C.
+      Szekspir wspomina o niej w Romeo i Julii; dziś jest raczej ciekawostką ogrodników.
+  fruit.ackee:
+    label: akee
+    summary: Czerwony tropikalny owoc z jadalnymi żółtymi arylusami; narodowy owoc Jamajki.
+    info: |
+      Akee (Blighia sapida) to narodowy owoc Jamajki; nazwany na cześć kapitana Bligha (1793).
+      Jadalne są tylko dojrzałe żółte arylusy; niedojrzały lub przejrzały owoc jest toksyczny (hipoglicyna A).
+      Ackee and saltfish to narodowe danie Jamajki.
+      Pochodzi z Afryki Zachodniej; do Karaibów trafił wraz z handlem niewolnikami.
+  fruit.feijoa:
+    label: fejoa
+    summary: Mały owalny zielony owoc o aromatycznym miąższu.
+    info: |
+      Fejoa (Acca sellowiana, także Feijoa sellowiana) pochodzi z Ameryki Południowej.
+      Jej miąższ ma intensywny aromatyczny smak (ananas, gujawa, mięta).
+      Jest bardzo popularna w Nowej Zelandii jako jesienny owoc.
+      Mało znana w Europie, ale lubiana w krajach jej pochodzenia.
