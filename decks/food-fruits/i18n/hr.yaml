@@ -1,204 +1,364 @@
 lang: hr
 pivot: false
-title: ""
+title: Voće
 cards:
-  fruit.ackee:
-    label: ""
-    summary: ""
-    info: ""
   fruit.apple:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.apricot:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.avocado:
-    label: ""
-    summary: ""
-    info: ""
+    label: jabuka
+    summary: Okrugao crven ili zelen plod slatko-kiselkasta okusa.
+    info: Jabuka je plod jabuke, jedne od najuzgajanijih kultura na svijetu. Sadrži vitamin C i vlakna; postoji više od 7.500 sorti.
   fruit.banana:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.blackberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.blueberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cantaloupe:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cherry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.coconut:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cranberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.currant:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.damson:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.date:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.dragon_fruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.durian:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.feijoa:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.fig:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.gooseberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.grape:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.grapefruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.guava:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.jackfruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.kiwi:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lemon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lime:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.longan:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lychee:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.mango:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.medlar:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.melon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.mulberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.nectarine:
-    label: ""
-    summary: ""
-    info: ""
+    label: banana
+    summary: Žut tropski plod sa slatkom pulpom.
+    info: Banana je plod tropske biljke iz porodice banana. Bogata je kalijem i prirodnim šećerima koji daju brzu energiju.
   fruit.orange:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.papaya:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.passion_fruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.peach:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pear:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.persimmon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pineapple:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.plum:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pomegranate:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.quince:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.rambutan:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.raspberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.starfruit:
-    label: ""
-    summary: ""
-    info: ""
+    label: naranča
+    summary: Okrugao agrum s mirisnom narančastom korom.
+    info: Naranča je agrum podrijetlom iz jugoistočne Azije, danas se uzgaja diljem svijeta. Bogata je vitaminom C i omiljena kao sok.
   fruit.strawberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.tamarind:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.tangerine:
-    label: ""
-    summary: ""
-    info: ""
+    label: jagoda
+    summary: Crvena, sočna bobica u obliku srca.
+    info: Jagoda je omiljen plod iz porodice ruža. Bogata je vitaminom C i antioksidansima, a bere se ljeti.
+  fruit.grape:
+    label: grožđe
+    summary: Malena okrugla bobica koja raste u grozdovima.
+    info: Vinova loza daje grožđe raznih boja, od zelene do tamnoljubičaste. Grožđe se jede svježe, suši u grožđice ili preša za vino.
   fruit.watermelon:
-    label: ""
-    summary: ""
-    info: ""
+    label: lubenica
+    summary: Velik plod sa zelenim prugama i crvenom sočnom pulpom.
+    info: Lubenica potječe iz Afrike i omiljen je ljetni plod. Sastoji se od 92% vode i sadrži likopen, koji joj daje crvenu boju.
+  fruit.mango:
+    label: mango
+    summary: Tropski plod sa sočnom žuto-narančastom pulpom.
+    info: Mango se naziva kraljem tropskog voća. Bogat vitaminima A i C, potječe iz južne Azije, gdje se uzgaja već 4.000 godina.
+  fruit.cherry:
+    label: trešnja
+    summary: Malen okrugao crven košticavi plod koji raste u parovima.
+    info: Trešnja je plod slatke trešnje, omiljen ljetni plod. Sadrži antioksidanse i melatonin; postoje slatke i kisele sorte.
+  fruit.pear:
+    label: kruška
+    summary: Plod u obliku kapi slatka i blaga okusa.
+    info: Kruška je plod kruške, bliske srodnice jabuke. Ima meku, sočnu pulpu i visok udio vlakana; postoje stotine sorti.
+  fruit.pineapple:
+    label: ananas
+    summary: Tropski plod s bodljikavom krunom i zlatnožutom pulpom.
+    info: Ananas potječe iz Južne Amerike, a danas se uzgaja u tropima diljem svijeta. Sadrži enzim bromelain, koji pomaže probavi.
+  fruit.lemon:
+    label: limun
+    summary: Žut i kiseo agrum; izvor vitamina C i arome.
+    info: |
+      Limun je kiseo agrum podrijetlom iz Azije.
+      Bogat je vitaminom C i limunskom kiselinom.
+      Koristi se u kuhinji, u napitcima, u kozmetici i u sredstvima za čišćenje.
+      Kora limuna sadrži eterično ulje s karakterističnim mirisom limuna.
+  fruit.lime:
+    label: limeta
+    summary: Malen zelen i kiseo agrum; ključni sastojak tropske kuhinje.
+    info: |
+      Limeta je malen zeleni agrum kisela soka i aromatične kore.
+      Nezaobilazna je u meksičkoj, tajlandskoj i vijetnamskoj kuhinji.
+      Sadrži manje vitamina C od limuna, ali jaču aromu.
+      Jedenje limete štitilo je mornare od skorbuta zahvaljujući vitaminu C.
+  fruit.kiwi:
+    label: kivi
+    summary: Smeđ dlakav plod sa zelenom pulpom; bogat vitaminima.
+    info: |
+      Kivi potječe iz Kine, gdje se naziva kineskim ogrozdom.
+      Novi Zeland ga je komercijalizirao i preimenovao po svojoj nacionalnoj ptici, kiviju.
+      Sadrži dvostruko više vitamina C od naranče.
+      Pulpa je jarko zelena; postoje i zlatne (žute) sorte.
+  fruit.peach:
+    label: breskva
+    summary: Baršunast žuto-ružičast košticavi plod; simbol ljeta.
+    info: |
+      Breskva potječe iz Kine, gdje je simbol besmrtnosti.
+      Njezina meka baršunasta kora je karakteristična.
+      Postoje bijele i žute sorte; nektarina je glatka inačica bez dlačica.
+      U Kini breskve čine dio Nove godine i ljekovite mitologije.
+  fruit.plum:
+    label: šljiva
+    summary: Ljubičast košticavi plod; osnova rakije i pekmeza od šljiva.
+    info: |
+      Šljiva je temeljni plod srednje Europe.
+      Šljivovica (rakija od šljiva) tradicionalno je češko i slovačko žestoko piće.
+      Pekmez od šljiva tipičan je proizvod jesenske berbe.
+      U svijetu postoji više od 2.000 sorti šljiva.
+  fruit.apricot:
+    label: marelica
+    summary: Malen narančast košticavi plod; slatko-kiseo i sočan.
+    info: |
+      Marelica potječe iz srednje Azije.
+      Uzgaja se diljem Europe; najslađe dolaze iz Turske i Španjolske.
+      Bogata je betakarotenom i vitaminom A.
+      Suhe marelice omiljen su zdrav međuobrok.
+  fruit.raspberry:
+    label: malina
+    summary: Crvena skupna bobica; simbol ljetnog vrta.
+    info: |
+      Malina je skupna bobica sastavljena od mnogo malenih koštunica.
+      Raste divlje i uzgojeno; berba pada ljeti i u jesen.
+      Bogata je vitaminima C i K, manganom i antioksidansima.
+      Pekmez i ocat od maline tradicionalne su poslastice.
+  fruit.blueberry:
+    label: borovnica
+    summary: Tamnoplava bobica; superhrana puna antioksidansa.
+    info: |
+      Borovnica je bogata antocijanima, pigmentima jakih antioksidativnih svojstava.
+      Antocijani joj daju tamnoplavu boju.
+      Istraživanja upućuju na povoljan učinak na kognitivne funkcije i zdravlje srca.
+      Uzgojene borovnice veće su od divljih.
+  fruit.blackberry:
+    label: kupina
+    summary: Tamnoljubičasta skupna bobica s trnovita grma.
+    info: |
+      Kupina je tamnoljubičasta skupna bobica koja raste na trnovitu grmu.
+      Divlja kupina raste na rubovima šuma i u grmlju.
+      Sadrži mnogo vitamina C, vitamina K i vlakana.
+      Pekmez, kompot i liker od kupine tradicionalni su proizvodi.
+  fruit.coconut:
+    label: kokos
+    summary: Velik tropski orah s tvrdom ljuskom i bijelom pulpom.
+    info: |
+      Kokos je plod kokosove palme; botanički je koštunica, a ne orah.
+      Kokosova voda iz nezrela ploda prirodni je izotonični napitak.
+      Kokosovo mlijeko i ulje temelj su kuhinje jugoistočne Azije i Indije.
+      Kokosovu palmu nazivaju stablom tisuću namjena.
+  fruit.papaya:
+    label: papaja
+    summary: Velik tropski plod s duboko narančastom pulpom.
+    info: |
+      Papaja potječe iz tropske Amerike.
+      Sadrži enzim papain, koji potpomaže probavu bjelančevina.
+      Bogata je vitaminom C, betakarotenom i antioksidansima.
+      Nezrela papaja koristi se kao povrće u kuhinji jugoistočne Azije (u salati som tam).
+  fruit.guava:
+    label: guava
+    summary: Tropski plod snažna mirisa i bijele ili ružičaste pulpe.
+    info: |
+      Guava potječe iz tropske Amerike i proširila se tropskom Azijom i Afrikom.
+      Sadrži četiri puta više vitamina C od naranče.
+      Kora i sjemenke su jestive; cijeli je plod hranjiv.
+      Sok i pekmez od guave popularni su proizvodi u tropskim zemljama.
+  fruit.pomegranate:
+    label: mogranj
+    summary: Crven plod s tisuću slatkih sjemenki; simbol plodnosti.
+    info: |
+      Mogranj potječe iz srednje Azije i Sredozemlja.
+      Sadrži više od 600 sjemenki obavijenih prozirnom crvenom pulpom (arilima).
+      Bogat je antioksidansima; istraživanja ispituju njegov učinak na srce i upale.
+      Simbolizira plodnost i obilje u mnogim kulturama.
+  fruit.fig:
+    label: smokva
+    summary: Kruškolik plod smokve; sladak i pun sjemenki.
+    info: |
+      Smokva je jedan od najstarijih uzgajanih plodova; njezini tragovi sežu 11.000 godina unatrag.
+      Zapravo nije plod, nego ovojnica ispunjena tisućama malenih cvjetova.
+      Smokvini listovi Adama i Eve u biblijskoj priči listovi su smokve.
+      Suhe smokve izvrstan su izvor kalcija, kalija i vlakana.
+  fruit.date:
+    label: datulja
+    summary: Sladak smeđ ovalan plod datuljine palme; osnovna namirnica Bliskog istoka.
+    info: |
+      Datulje su slatki plodovi datuljine palme.
+      Već su tisućama godina osnovna namirnica Bliskog istoka.
+      Sadrže više od 60% šećera i izražen su izvor energije.
+      U islamu se datulje tradicionalno jedu prve pri prekidu ramazanskog posta (iftar).
+  fruit.melon:
+    label: dinja
+    summary: Velik sladak plod s narančastom, zelenom ili bijelom pulpom.
+    info: |
+      Dinja je tropski do suptropski plod s visokim udjelom vode.
+      Potječe iz Afrike i Azije; danas se uzgaja diljem svijeta.
+      Sastoji se od više od 90% vode i vrlo je osvježavajuća.
+      Postoje stotine sorti, među njima kantalupa, medna dinja i galia.
+  fruit.cantaloupe:
+    label: dinja kantalupa
+    summary: Mrežasta dinja s duboko narančastom pulpom.
+    info: |
+      Dinja kantalupa omiljena je sorta dinje podrijetlom iz Azije.
+      Ime dolazi od papinske rezidencije Cantalupo blizu Rima.
+      Narančasta pulpa bogata je betakarotenom i vitaminom A.
+      Jedna je od najslađih sorti dinje.
+  fruit.grapefruit:
+    label: grejp
+    summary: Velik gorko-sladak agrum; zvijezda dijeta.
+    info: |
+      Grejp je križanac naranče i pomela.
+      Opisan je na Barbadosu u 18. stoljeću.
+      Ružičasti i crveni grejp sadrže likopen i betakaroten.
+      Sok od grejpa stupa u interakciju s mnogim lijekovima; pacijenti bi trebali obavijestiti liječnika.
+  fruit.tangerine:
+    label: mandarina
+    summary: Malen sladak agrum s korom koja se lako guli; simbol Božića.
+    info: |
+      Mandarina je malen agrum koji se lako guli, podrijetlom iz Kine.
+      Simbol je kineske Nove godine i sreće.
+      U mnogim je zemljama tipičan božićni plod.
+      Sadrži vitamin C, antioksidanse i flavonoide.
+  fruit.passion_fruit:
+    label: marakuja
+    summary: Tropski plod naborane kore i aromatične pulpe pune sjemenki.
+    info: |
+      Marakuja potječe iz tropske Južne Amerike.
+      Ime joj dolazi od misionara koji su u cvijetu vidjeli simbole Kristove muke.
+      Pulpa je puna sjemenki obavijenih aromatičnim gelom.
+      Izvrstan je izvor vitamina C, vlakana i antioksidansa.
+  fruit.lychee:
+    label: liči
+    summary: Malen crven tropski plod prozirne pulpe; omiljen u Aziji.
+    info: |
+      Liči je tropski plod podrijetlom iz Kine.
+      Njegova hrapava crvena kora lako se guli i otkriva prozirnu bijelu pulpu.
+      Ima sladak i fino aromatičan okus.
+      U Kini je simbol sreće i blagostanja.
+  fruit.dragon_fruit:
+    label: zmajevo voće
+    summary: Ružičast tropski plod kaktusa s bijelom pjegavom pulpom.
+    info: |
+      Zmajevo voće (pitaja) potječe iz Meksika i Srednje Amerike.
+      Njegova jarko ružičasta kora i bijela pulpa s crnim sjemenkama vrlo su dekorativne.
+      Ima blag okus i sadrži antioksidanse i vitamin C.
+      Od njega se rade sokovi, smoothieji i dekorativni deserti.
+  fruit.starfruit:
+    label: karambola
+    summary: Žut tropski plod koji pri rezanju tvori zvijezde.
+    info: |
+      Karambola potječe iz južne i jugoistočne Azije.
+      Prerezana poprečno tvori savršenu zvijezdu, po čemu je i dobila engleski naziv starfruit.
+      Ima slatko-kiselkast okus i bogata je vitaminom C.
+      Osobe s bubrežnim bolestima ne smiju je jesti zbog oksalata.
+  fruit.avocado:
+    label: avokado
+    summary: Kremasta tropska koštunica; osnova gvakamola.
+    info: |
+      Avokado potječe iz Meksika i Srednje Amerike.
+      Botanički je plod (koštunica), ali se u kuhinji koristi kao povrće.
+      Sadrži zdrave jednostruko nezasićene masti (oleinsku kiselinu), poput maslinova ulja.
+      Trendovska je zdrava hrana diljem svijeta; tost s avokadom ikona je moderne kavanske kulture.
+  fruit.persimmon:
+    label: kaki
+    summary: Narančast plod nalik rajčici; sladak i trpak.
+    info: |
+      Kaki potječe iz Kine i Japana; naziva se i japanskom jabukom.
+      Nezreli kaki bogat je taninima i trpak; zreo je sladak poput meda.
+      Bogat je vitaminima A i C te mineralima.
+      U Japanu je tradicionalan jesenski plod.
+  fruit.mulberry:
+    label: murva
+    summary: Tamnoljubičasta bobica murve; hrana dudova svilca.
+    info: |
+      Murva je plod murve; listovi murve hrana su dudova svilca.
+      Postoje bijele, crvene i crne murve; crna je najslađa.
+      U povijesti je uzgoj murve bio ključan za proizvodnju svile.
+      Murve su bogate resveratrolom, vitaminom C i željezom.
+  fruit.cranberry:
+    label: brusnica
+    summary: Malena crvena kisela bobica; tradicionalni američki sastojak.
+    info: |
+      Brusnica je malena kisela crvena bobica.
+      Tradicionalni je dio američkog Dana zahvalnosti (umak od brusnica).
+      Sadrži proantocijanidine, koji sprječavaju bakterije Escherichia coli da se prihvate za stijenke mokraćnih puteva.
+      Učinak brusnice u prevenciji infekcija mokraćnih puteva znanstveno je potvrđen.
+  fruit.gooseberry:
+    label: ogrozd
+    summary: Malena okrugla prozirna bobica; ljubimica vrtova.
+    info: |
+      Ogrozd je malen plod tipičan za vrtove srednje Europe.
+      Postoji u zelenim, crvenim i žutim sortama.
+      Bogat je vitaminom C.
+      Vino od ogrozda povijesno je omiljeno piće.
+  fruit.currant:
+    label: ribiz
+    summary: Malena crvena, crna ili bijela bobica u grozdu.
+    info: |
+      Ribiz je malena bobica koja raste u grozdovima.
+      Crni ribiz sadrži najviše vitamina C od svih bobica.
+      Crni ribiz temelj je okusa likera cassis i britanskog napitka Ribena.
+      Crveni ribiz koristi se u pekmezima i kao ukras deserata.
+  fruit.quince:
+    label: dunja
+    summary: Tvrd žut plod srodan jabuci; jede se uvijek kuhan.
+    info: |
+      Dunja je srodna jabuci i kruški; sirova je tvrda i trpka.
+      Uvijek se obrađuje toplinom u žele od dunje (membrillo), vino ili rakiju od dunje.
+      Sadrži mnogo pektina, prikladnog za izradu pekmeza.
+      Najstarija u Europi zabilježena marmelada (16. stoljeće) rađena je od dunja.
+  fruit.jackfruit:
+    label: jackfruit
+    summary: Golem tropski plod; najveći plod na svijetu koji raste na stablu.
+    info: |
+      Jackfruit daje najveće plodove koji rastu na stablu; mogu težiti više od 35 kg.
+      Potječe iz tropske Azije i osnovna je namirnica u Indiji, Bangladešu i Tajlandu.
+      Nezreli jackfruit ima neutralnu teksturu i koristi se kao vegetarijanska zamjena za meso.
+      Zreli žuti komadi slatki su i aromatični.
+  fruit.durian:
+    label: durian
+    summary: Velik bodljikav tropski plod snažna mirisa; kralj tropskog voća.
+    info: |
+      Durian se naziva kraljem tropskog voća.
+      Njegov snažan miris odbojan je jednima, a primamljiv drugima; u mnogim je azijskim hotelima zabranjen.
+      Pulpa je kremasta i slatka, složena okusa badema, vanilije i sira.
+      U jugoistočnoj Aziji cijeni se kao profinjena raskoš.
+  fruit.rambutan:
+    label: rambutan
+    summary: Crven dlakav tropski plod, sličan ličiju.
+    info: |
+      Rambutan potječe iz Malezije; ime dolazi od malajske riječi rambut, što znači kosa.
+      Njegova crvena kora prekrivena je mekim kukastim izraslinama.
+      Pulpa je prozirna i slatka, poput one ličija.
+      Bogat je vitaminom C i željezom.
+  fruit.longan:
+    label: longan
+    summary: Malen smeđ tropski plod, srodan ličiju.
+    info: |
+      Longan je plod tropskog stabla podrijetlom iz Kine.
+      Ime dolazi od kineske riječi long yan, što znači zmajevo oko, zbog prozirne pulpe s crnom sjemenkom.
+      Ima sladak i aromatičan okus.
+      U tradicionalnoj kineskoj medicini smatra se hranom koja jača krv i srce.
+  fruit.tamarind:
+    label: tamarind
+    summary: Smeđa mahuna kisele pulpe; osnova tajlandske kuhinje.
+    info: |
+      Tamarind potječe iz tropske Afrike; danas se uzgaja u cijelim tropima.
+      Pulpa je izrazito kisela i slatka; koristi se u pad thaiju, u Worcester umaku i u indijskom chutneyju.
+      Riječ dolazi iz arapskog tamr hindi, što znači indijska datulja.
+      Bogat je vinskom kiselinom, vitaminima skupine B i željezom.
+  fruit.nectarine:
+    label: nektarina
+    summary: Glatka breskva bez dlačica; sočna i slatka.
+    info: |
+      Nektarina je prirodna mutacija breskve s glatkom korom.
+      Od breskve se razlikuje samo genom za glatkoću kore.
+      Ima sličan okus, ali čvršću strukturu.
+      Ime dolazi od nektara bogova i svjedoči o njezinoj navodnoj savršenosti.
+  fruit.damson:
+    label: damascenska šljiva
+    summary: Malena tamna šljiva, tipična za engleske seoske vrtove.
+    info: |
+      Damascenska šljiva malena je sorta šljive tamne plavo-crne boje.
+      Naziv damson dolazi od Damaska, odakle je plod stigao u Europu.
+      Sirova je vrlo kisela, ali izvrsna u pekmezima, kompotima i ginu (damson gin).
+      U engleskoj se tradiciji uzgaja od davnina.
+  fruit.medlar:
+    label: mušmula
+    summary: Malen smeđ plod srodan jabuci; mora dozrijevati nakon berbe.
+    info: |
+      Mušmula je drevna vrtna biljka koja se uzgaja od srednjeg vijeka.
+      Jestiva je tek nakon što omekša (gnjilenje), dakle nakon dozrijevanja poslije berbe.
+      Bogata je taninima i vitaminom C.
+      Shakespeare je spominje u Romeu i Juliji; danas je više zanimljivost za vrtlare.
+  fruit.ackee:
+    label: aki
+    summary: Crven tropski plod s jestivim žutim arilima; nacionalni plod Jamajke.
+    info: |
+      Aki je nacionalni plod Jamajke; ime je dobio po kapetanu Blighu (1793.).
+      Jestivi su samo zreli žuti arili; nezreo ili prezreo plod je otrovan (hipoglicin A).
+      Ackee and saltfish nacionalno je jelo Jamajke.
+      Potječe iz zapadne Afrike i dovezen je na Karibe trgovinom robljem.
+  fruit.feijoa:
+    label: feijoa
+    summary: Malen ovalan zelen plod aromatične pulpe.
+    info: |
+      Feijoa potječe iz Južne Amerike.
+      Njezina pulpa ima intenzivan aromatičan okus ananasa, guave i metvice.
+      Vrlo je popularna na Novom Zelandu kao jesenski plod.
+      Malo je poznata u Europi, ali omiljena u zemljama podrijetla.

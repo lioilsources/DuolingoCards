@@ -1,204 +1,380 @@
 lang: hr
 pivot: false
-title: Insecti
+title: Kukci
 cards:
-  insect.ant:
-    label: ""
-    summary: ""
-    info: ""
-  insect.antlion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.aphid:
-    label: ""
-    summary: ""
-    info: ""
-  insect.atlas_moth:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bedbug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bee:
-    label: ""
-    summary: ""
-    info: ""
-  insect.beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bombardier_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bumblebee:
-    label: ""
-    summary: ""
-    info: ""
   insect.butterfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.caterpillar:
-    label: ""
-    summary: ""
-    info: ""
-  insect.centipede:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cicada:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cockroach:
-    label: ""
-    summary: ""
-    info: ""
-  insect.crane_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cricket:
-    label: ""
-    summary: ""
-    info: ""
-  insect.damselfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.diving_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dragonfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dung_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.earwig:
-    label: ""
-    summary: ""
-    info: ""
-  insect.firefly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.flea:
-    label: ""
-    summary: ""
-    info: ""
-  insect.fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.goliath_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.grasshopper:
-    label: ""
-    summary: ""
-    info: ""
-  insect.ground_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hornet:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hoverfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.lacewing:
-    label: ""
-    summary: ""
-    info: ""
+    label: leptir
+    summary: Leteći kukac s velikim šarenim krilima.
+    info: Leptir je kukac s dva para krila prekrivenih ljuskicama, često upadljivih boja.
+  insect.bee:
+    label: pčela
+    summary: Žuto-crni kukac koji oprašuje cvijeće i proizvodi med.
+    info: Medonosna pčela društveni je kukac koji živi u košnicama i skuplja nektar.
   insect.ladybug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.locust:
-    label: ""
-    summary: ""
-    info: ""
-  insect.louse:
-    label: ""
-    summary: ""
-    info: ""
-  insect.mayfly:
-    label: ""
-    summary: ""
-    info: ""
+    label: bubamara
+    summary: Malen okrugao crven kukac s crnim točkama.
+    info: Bubamara je mali kornjaš koji se hrani lisnim ušima i koristan je u vrtu.
+  insect.dragonfly:
+    label: vretence
+    summary: Kukac s dugim tijelom i dva para prozirnih krila.
+    info: Vretence je grabežljivac izvrsnog vida koji lovi uz vodenu površinu.
+  insect.ant:
+    label: mrav
+    summary: Malen društveni kukac koji živi u kolonijama.
+    info: Mrav je kukac koji tvori velike kolonije s podjelom rada.
+  insect.beetle:
+    label: kornjaš
+    summary: Kornjaši čine najveći red kukaca, s više od 400.000 opisanih vrsta.
+    info: |
+      Kornjaš pripada redu Coleoptera i čini oko 40% svih opisanih vrsta kukaca.
+      Prepoznaje se po tvrdim pokrilcima (elitrama) koja skrivaju prava letna krila.
+      Jelenak je najveći kornjaš u Europi; mužjak ima snažne ralje nalik rogovlju.
+      Kornjaši žive u gotovo svim staništima, od tropa do arktičkih krajeva.
+  insect.grasshopper:
+    label: skakavac
+    summary: Skakutav kukac s dugim stražnjim nogama i cvrčećim zvukom.
+    info: |
+      Skakavac je kukac iz reda Orthoptera sa snažnim stražnjim nogama koje omogućuju skokove do dvadeset puta dulje od tijela.
+      Mužjaci proizvode karakterističan zvuk (stridulaciju) trljajući noge o krila.
+      Hrani se biljem i u velikim rojevima može uništiti usjeve.
+  insect.cricket:
+    label: cvrčak
+    summary: Noćni kukac, poznat po cvrčanju mužjaka.
+    info: |
+      Poljski cvrčak noćni je kukac iz reda Orthoptera.
+      Mužjaci cvrče trljajući krila jedno o drugo kako bi privukli ženke i označili teritorij.
+      U Aziji se cvrčci odavno drže kao kućni ljubimci zbog njihova pjeva.
+      U mnogim su kulturama i simbol domaće ugode i sreće.
   insect.mosquito:
-    label: ""
-    summary: ""
-    info: ""
+    label: komarac
+    summary: Dvokrilni kukac; ženka siše krv i može prenositi bolesti.
+    info: |
+      Komarac je dvokrilni kukac iz porodice Culicidae.
+      Ženke sišu krv životinja kako bi dobile bjelančevine za razvoj jajašaca; mužjaci se hrane nektarom.
+      Komarci prenose opasne bolesti poput malarije, denga groznice i zike.
+      U svijetu postoji više od 3.500 vrsta komaraca.
+  insect.fly:
+    label: muha
+    summary: Vrlo raširen dvokrilni kukac koji može prenositi bakterije.
+    info: |
+      Kućna muha najrašireniji je dvokrilni kukac u ljudskim domovima.
+      Složene oči omogućuju joj da vidi gotovo 360 stupnjeva oko sebe.
+      Prenosi bakterije jer slijeće i na otpad i na hranu.
+      Ima samo jedan par funkcionalnih krila; drugi par (haltere) pomaže održati ravnotežu u letu.
   insect.moth:
-    label: ""
-    summary: ""
-    info: ""
+    label: noćni leptir
+    summary: Noćni srodnik leptira; leti prema svjetlu i ima pernata ticala.
+    info: |
+      Noćni leptiri noćni su leptiri koji, za razliku od danjih, u mirovanju drže krila sklopljena uz bok.
+      Mnoge vrste privlači umjetno svjetlo.
+      Prirodnu svilu dugujemo gusjenicama dudova svilca.
+      Leptir mjesečar (luna) jedan je od najljepših noćnih leptira na svijetu.
+  insect.caterpillar:
+    label: gusjenica
+    summary: Ličinka leptira; jede lišće i priprema se za preobrazbu.
+    info: |
+      Gusjenica je ličinački stadij leptira i život provodi uglavnom jedući lišće kako bi pohranila energiju za preobrazbu.
+      Neke gusjenice imaju upadljive boje koje upozoravaju grabežljivce da su otrovne.
+      Pri kukuljenju stvara kukuljicu (čahuru), u kojoj se odvija potpuna preobrazba (metamorfoza) u odraslu jedinku.
   insect.praying_mantis:
-    label: ""
-    summary: ""
-    info: ""
-  insect.robber_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.scorpion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.silverfish:
-    label: ""
-    summary: ""
-    info: ""
-  insect.spider:
-    label: ""
-    summary: ""
-    info: ""
-  insect.stag_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: bogomoljka
+    summary: Grabežljivi kukac s molitvenim držanjem i munjevitim napadom.
+    info: |
+      Bogomoljka je grabežljivi kukac iz skupine Mantodea.
+      Ime duguje držanju u kojem prednje noge drži sklopljene kao u molitvi.
+      Majstor je lova; udara i hvata plijen u djeliću sekunde.
+      Ženka katkad pojede mužjaka nakon parenja, iako se to ne događa uvijek.
   insect.stick_insect:
-    label: ""
-    summary: ""
-    info: ""
-  insect.termite:
-    label: ""
-    summary: ""
-    info: ""
-  insect.tiger_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.velvet_ant:
-    label: ""
-    summary: ""
-    info: ""
+    label: štapićar
+    summary: Kukac koji savršeno oponaša grančicu ili list.
+    info: |
+      Štapićar pripada skupini Phasmatodea i majstor je maskiranja; tijelo mu savršeno oponaša grančice ili lišće.
+      Pred opasnošću ostaje potpuno nepomičan.
+      Neke se vrste razmnožavaju partenogenezom, dakle bez mužjaka.
+      Popularni su egzotični kućni ljubimci zbog jednostavne njege.
+  insect.firefly:
+    label: krijesnica
+    summary: Kornjaš koji svijetli bioluminescentnim svjetlom kako bi privukao partnera.
+    info: |
+      Krijesnica je kornjaš iz porodice Lampyridae koji u zatku može stvarati hladno svjetlo (bioluminescenciju).
+      Mužjaci i ženke svijetle različitim uzorcima kako bi se prepoznali i privukli.
+      Svjetlom upravlja kemijska reakcija luciferina s luciferazom.
+      Krijesnice su pokazatelj čistog okoliša.
   insect.wasp:
-    label: ""
-    summary: ""
-    info: ""
+    label: osa
+    summary: Žuto-crni kukac sa žalcem koji gradi papirnata gnijezda.
+    info: |
+      Obična osa kukac je sa žalcem iz skupine Vespula s tipičnim žuto-crnim bojama upozorenja.
+      Gradi papirnata gnijezda od sažvakane drvene mase.
+      Za razliku od pčele, osa može ubosti više puta.
+      Korisna je kao prirodni regulator štetnih kukaca.
+  insect.cockroach:
+    label: žohar
+    summary: Brz, noćni, svejed kukac; vrlo otporan i prilagodljiv.
+    info: |
+      Žohar je jedan od najotpornijih kukaca na svijetu; preživljava zračenje i uvjete koji bi ubili druge životinje.
+      Postoji više od 4.500 vrsta, ali samo tridesetak živi u blizini čovjeka.
+      Drevni je kukac; žohari postoje više od 300 milijuna godina i preživjeli su dinosaure.
+      Brz je i može trčati brže od 5 km/h.
+  insect.spider:
+    label: pauk
+    summary: Osmonožni paučnjak koji plete mreže za hvatanje kukaca.
+    info: |
+      Pauk je paučnjak (nije kukac) iz reda Araneae s osam nogu i tijelom u dva dijela.
+      Može proizvoditi svilu kojom plete mreže za lov ili omata čahure s jajašcima.
+      U svijetu živi više od 48.000 vrsta pauka.
+      Sve vrste proizvode otrov, ali velika je većina bezopasna za čovjeka.
+  insect.scorpion:
+    label: škorpion
+    summary: Otrovni paučnjak s kliještima i zavijenim otrovnim repom.
+    info: |
+      Škorpion je paučnjak (nije kukac) s tipičnim kliještima i zavijenim repom koji završava otrovnim žalcem.
+      Drevna je životinja; najstariji fosilni škorpioni stari su više od 430 milijuna godina.
+      U mraku fluoresciraju pod ultraljubičastim svjetlom.
+      Od otprilike 2.500 vrsta samo je dvadesetak opasno za čovjeka.
+  insect.centipede:
+    label: stonoga
+    summary: Stonoga s jednim parom nogu na svakom tjelesnom kolutu.
+    info: |
+      Stonoga pripada razredu Chilopoda i ima jedan par nogu na svakom tjelesnom kolutu (ne stotinu nogu, kako sugerira engleski naziv).
+      Brz je grabežljivac koji lovi kukce, gujavice i male kralježnjake.
+      Prvi par nogu preobražen je u otrovne kandže koje paraliziraju plijen.
+      Neke tropske vrste narastu dulje od 30 cm.
+  insect.flea:
+    label: buha
+    summary: Sićušan skakutav nametnik koji siše krv sisavaca i ptica.
+    info: |
+      Buha je beskrilni kukac iz reda Siphonaptera, specijaliziran za nametnički način života.
+      Snažne stražnje noge omogućuju skokove više od 150 puta dulje od tijela.
+      Siše krv sisavaca i ptica i može prenositi bolesti; povijesno su buhe širile kugu.
+      Buhe su akrobati svijeta kukaca.
+  insect.termite:
+    label: termit
+    summary: Društveni kukac koji gradi goleme humke od zemlje.
+    info: |
+      Termit je društveni kukac iz skupine Isoptera, u dalekom srodstvu sa žoharima.
+      Žive u kolonijama s kraljem, kraljicom, vojnicima i radnicima.
+      Grade složene termitnjake, u tropima visoke i do 9 metara, s vlastitim sustavom prozračivanja.
+      Kao važni razgrađivači drva, imaju ključnu ulogu u tropskim ekosustavima.
+  insect.bumblebee:
+    label: bumbar
+    summary: Velika dlakava pčela s dubokim zujanjem; važan oprašivač.
+    info: |
+      Bumbar je velik dlakav kukac iz roda Bombus, srodan medonosnoj pčeli.
+      Važan je oprašivač, osobito u hladnijim podnebljima gdje pčele manje lete.
+      Može se zagrijati podrhtavanjem letnih mišića, pa leti čak i po hladnoći.
+      Bumbari su blaži od osa i ubadaju samo pri izravnoj prijetnji.
+  insect.hornet:
+    label: stršljen
+    summary: Najveća osa u Europi, sa snažnim žalcem i glasnim zujanjem.
+    info: |
+      Stršljen je najveća društvena osa u Europi i naraste dulje od 3,5 cm.
+      Gradi papirnata gnijezda u dupljama stabala ili pod krovovima.
+      Žalac mu je dulji nego u osa, a ubod bolniji, no stršljen napada samo pri izravnoj prijetnji.
+      Važan je grabežljivi neprijatelj drugih kukaca.
+  insect.cicada:
+    label: cikada
+    summary: Kukac poznat po glasnom cvrčanju u vrućim danima.
+    info: |
+      Cikada je kukac iz nadporodice Cicadoidea, poznat po jednom od najglasnijih zvukova među svim kukcima.
+      Mužjaci proizvode zvuk pomoću posebnih membrana (timbala) u zatku kako bi privukli ženke.
+      Neke vrste u SAD-u imaju razvojne cikluse od sedamnaest ili trinaest godina.
+      Ličinke godinama žive pod zemljom i hrane se korijenjem.
+  insect.locust:
+    label: seobni skakavac
+    summary: Seleći skakavac koji tvori razorne rojeve od milijuna.
+    info: |
+      Seobni skakavac vrsta je skakavca koji u određenim uvjetima tvori goleme seleće rojeve.
+      Roj može brojiti milijarde jedinki i u jednom danu uništiti usjeve na tisućama hektara.
+      U afričkim i azijskim zemljama skakavci su povijesno jedna od najvećih poljoprivrednih nepogoda.
+      U Bibliji su jedna od deset egipatskih pošasti.
+  insect.aphid:
+    label: lisna uš
+    summary: Sićušan kukac koji siše sok na stabljikama biljaka; proizvodi mednu rosu.
+    info: |
+      Lisne uši sitni su kukci koji sišu, iz nadporodice Aphidoidea, i hrane se biljnim sokom.
+      Proizvode slatku mednu rosu, za koju ih mravi njeguju u zamjenu za zaštitu.
+      Razmnožavaju se iznimno brzo; jedna ženka može tijekom godine dati stotine milijuna potomaka.
+      Važni su štetnici poljoprivrednih usjeva.
+  insect.earwig:
+    label: uholaža
+    summary: Izdužen kukac s kliještima na kraju zatka.
+    info: |
+      Uholaža je kukac iz reda Dermaptera, prepoznatljiv po kliještima (cerci) na kraju zatka, koja služe za obranu i parenje.
+      Ime u nekim jezicima potječe od praznovjerja da zalazi ljudima u uši; to je mit.
+      Ženke uholaže neobične su jer se brinu za jajašca i mlade ličinke, što je rijetkost među kukcima.
+      Žive u pukotinama, pod kamenjem i u listincu.
+  insect.silverfish:
+    label: srebrna ribica
+    summary: Beskrilan brz kukac koji se nalazi u kućama uz knjige i papir.
+    info: |
+      Srebrna ribica primitivan je beskrilni kukac iz reda Zygentoma koji živi u domovima.
+      Hrani se škrobom, papirom, knjigoveškim ljepilom i tekstilnim vlaknima.
+      Ime dolazi od njezine srebrnaste boje i ribolikog kretanja.
+      Pripada jednom od najstarijih redova kukaca i živi gotovo nepromijenjena više od 300 milijuna godina.
   insect.water_strider:
-    label: ""
-    summary: ""
-    info: ""
+    label: vodomjerka
+    summary: Kukac koji hoda po površini vode zahvaljujući površinskoj napetosti.
+    info: |
+      Vodomjerka je kukac iz porodice Gerridae koji može hodati po vodi zahvaljujući vodoodbojnim dlačicama na nogama i površinskoj napetosti vode.
+      Lovi kukce koji su pali u vodu, a koje prepoznaje po titranju površine.
+      Brza je i može kliziti po vodi više od 150 puta dulje od svoga tijela u sekundi.
+  insect.dung_beetle:
+    label: balegar
+    summary: Kornjaš koji valja kuglice izmeta, svet u starom Egiptu.
+    info: |
+      Sveti skarabej kornjaš je iz porodice Scarabaeidae koji oblikuje izmet u kuglice i valja ih kako bi ih zakopao i u njih položio jajašca.
+      U starom Egiptu bio je simbol sunca i boga Kheprija.
+      Jedna je od rijetkih životinja koje se orijentiraju prema Mliječnoj stazi.
+      Pomaže u kruženju hranjivih tvari i prozračivanju tla.
+  insect.stag_beetle:
+    label: jelenak
+    summary: Najveći kornjaš u Europi; mužjak ima ralje nalik rogovlju.
+    info: |
+      Jelenak je najveći kornjaš u Europi i naraste dulje od 7 cm.
+      Mužjak ima goleme ralje nalik rogovlju, koje se koriste u borbama za ženke.
+      Ličinka živi do 7 godina u trulom hrastovu drvu i hrani se gljivama.
+      Ozbiljno je ugrožen nestankom starih šuma i mrtvog drva.
+  insect.atlas_moth:
+    label: atlaski leptir
+    summary: Jedan od najvećih noćnih leptira na svijetu, s krilima ukrašenima uzorkom zmije.
+    info: |
+      Atlaski leptir jedan je od najvećih noćnih leptira na svijetu, s rasponom krila do 30 cm.
+      Vrhovi krila obojeni su tako da nalikuju zmijskim glavama, što odbija grabežljivce.
+      Odrasle jedinke nemaju usta i uopće ne jedu; žive samo nekoliko dana.
+      Potječe iz tropskih šuma jugoistočne Azije.
   insect.weevil:
-    label: ""
-    summary: ""
-    info: ""
+    label: pipa
+    summary: Malen kornjaš s prepoznatljivim izduženim rilom.
+    info: |
+      Pipa je kornjaš iz porodice Curculionidae, najveće porodice životinja na svijetu, s više od 60.000 vrsta.
+      Prepoznatljivo izduženo rilo (rostrum) služi za bušenje sjemenki, plodova i debala.
+      Neke su vrste ozbiljni poljoprivredni štetnici, poput pipe pamuka.
+      Druge su vrste specijalizirane za jednu jedinu biljnu vrstu.
+  insect.lacewing:
+    label: zlatooka
+    summary: Nježan kukac s prozirno žilnatim krilima; ličinke love lisne uši.
+    info: |
+      Zlatooka je kukac iz porodice Chrysopidae s nježnim, prozirno žilnatim krilima i zlatnim očima.
+      Ličinke su grabežljivci i proždiru goleme količine lisnih uši, čime postaju prirodni zaštitnici biljaka.
+      Odrasle se jedinke hrane nektarom i peludi.
+      Privlači ih svjetlo i pokazatelj su zdravog okoliša.
+  insect.crane_fly:
+    label: tipulja
+    summary: Velika muha nalik komarcu s iznimno dugim nogama.
+    info: |
+      Tipulja je dvokrilni kukac iz porodice Tipulidae, izgledom nalik divovskom komarcu, ali ne ubada i ne nametuje.
+      Iznimno duge noge lako otpadaju; to je obrambeni mehanizam (autotomija).
+      Odrasle jedinke žive samo nekoliko dana i ili ne jedu ili se hrane nektarom.
+      Ličinke žive u tlu i hrane se korijenjem.
+  insect.mayfly:
+    label: vodencvijet
+    summary: Kukac s najkraćim odraslim životom, koji traje tek satima do danima.
+    info: |
+      Vodencvijet je kukac iz reda Ephemeroptera i simbol prolaznosti; odrasle jedinke žive tek satima do danima.
+      Nemaju funkcionalne usne dijelove i uopće ne jedu.
+      Ličinke žive od 1 do 3 godine pod vodom.
+      Masovno rojenje vodencvjetova zadivljujući je prizor prirode; na Dunavu u Mađarskoj to je jedinstvena pojava.
+  insect.damselfly:
+    label: djevičica
+    summary: Vitka srodnica vretenca; u mirovanju sklapa krila uz tijelo.
+    info: |
+      Djevičica je kukac srodan vretencima, ali vitkiji, i u mirovanju sklapa krila usporedno s tijelom, za razliku od velikih vretenaca.
+      Grabežljivac je i lovi male kukce u letu.
+      Ličinke žive u vodi i čine važan dio vodenih ekosustava.
+      Pokazatelj su kakvoće vodotokova.
+  insect.robber_fly:
+    label: muha razbojnica
+    summary: Grabežljiva muha koja hvata druge kukce u punom letu.
+    info: |
+      Muha razbojnica grabežljivi je dvokrilni kukac iz porodice Asilidae koji hvata druge kukce izravno u letu.
+      Ima snažne noge za hvatanje plijena i probodni rilac za ubrizgavanje paralizirajućeg otrova.
+      Neke vrste oponašaju izgled bumbara ili osa kao zaštitu od grabežljivaca.
+      Korisna je kao prirodni regulator populacija kukaca.
+  insect.ground_beetle:
+    label: trčak
+    summary: Brz grabežljivi kornjaš koji živi pod kamenjem i u listincu.
+    info: |
+      Trčak je kornjaš iz porodice Carabidae; većina vrsta aktivni su noćni grabežljivci koji love druge kukce, gujavice i puževe.
+      Brzi su i brzo bježe od opasnosti.
+      Neke vrste, poput ljubičastog trčka, imaju prekrasan metalni sjaj.
+      Pokazatelji su zdravog tla i prirodne poljoprivrede.
+  insect.tiger_beetle:
+    label: pješčar
+    summary: Brz kornjaš metalne boje s izvrsnim vidom.
+    info: |
+      Pješčar je kornjaš iz potporodice Cicindelinae, poznat po neobičnoj brzini, sposobnosti leta i oštru vidu.
+      Trči tako brzo da se mora zaustaviti i iznova orijentirati, jer je kretanje prebrzo za njegov vidni sustav.
+      Ima prekrasno obojena metalna tijela (zelena, plava, crvena) i velike oči.
+      Ličinke kopaju okomite tunele u tlu i vrebaju plijen na ulazu.
+  insect.hoverfly:
+    label: osolika muha
+    summary: Muha koja oponaša boje osa i pčela; oprašivač vrtova.
+    info: |
+      Osolika muha dvokrilni je kukac iz porodice Syrphidae koji oponaša boje osa i pčela kao zaštitu od grabežljivaca (Batesova mimikrija), iako ne ubada.
+      Važan je oprašivač; posjećuje više biljnih vrsta od pčela.
+      Odrasle se jedinke hrane nektarom i peludi.
+      Ličinke nekih vrsta love lisne uši i time pomažu u vrtu.
   insect.whirligig_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: vrtuljak
+    summary: Malen kornjaš koji se u rojevima vrti po površini vode.
+    info: |
+      Vrtuljak je vodeni kornjaš iz porodice Gyrinidae koji živi na površini, a vrtnja u rojevima pomaže mu izbjeći grabežljivce.
+      Oči su mu podijeljene na dva dijela; jedan vidi iznad vode, drugi ispod nje.
+      Osjeća mreškanje na površini koje signalizira hranu ili opasnost.
+      Danju se vrti, noću leti.
+  insect.louse:
+    label: uš
+    summary: Sićušan beskrilan nametnik koji živi na koži i u dlaci sisavaca.
+    info: |
+      Uš je beskrilni nametnički kukac iz reda Phthiraptera koji živi na koži domaćina te u njegovoj dlaci ili kosi.
+      Siše krv i izaziva svrbež.
+      Glavena uš postoji u cijelom svijetu i pogađa djecu bez obzira na higijenske uvjete.
+      Povijesno su uši prenosile pjegavac i druge bolesti.
+  insect.bedbug:
+    label: stjenica
+    summary: Plosnat nametnik koji noću siše krv; skriva se u pukotinama namještaja.
+    info: |
+      Stjenica je plosnat ovalni kukac iz porodice Cimicidae, aktivan uglavnom noću.
+      Grize i siše krv usnulog domaćina.
+      Skriva se u pukotinama madraca, u namještaju i iza tapeta.
+      Posljednjih se desetljeća proširila cijelim svijetom zahvaljujući međunarodnim putovanjima.
+  insect.antlion:
+    label: mravlji lav
+    summary: Ličinka koja kopa ljevkaste zamke za mrave u pijesku.
+    info: |
+      Mravlji lav ličinka je kukca iz porodice Myrmeleontidae koja kopa stožaste ljevke u suhom pijesku.
+      Kad mrav sklizne u zamku, mravlji lav ga zgrabi raljama i ubrizga probavne sokove.
+      Odrasle su jedinke neugledne, nalik vretencima, i lete noću.
+      Ličinke mogu godinama živjeti pod zemljom bez hrane.
+  insect.goliath_beetle:
+    label: golijatski kornjaš
+    summary: Jedan od najvećih i najtežih kukaca na svijetu, iz tropske Afrike.
+    info: |
+      Golijatski kornjaš jedan je od najvećih kukaca na svijetu; mužjaci teže do 100 grama i narastu dulje od 11 cm.
+      Živi u tropskim prašumama ekvatorijalne Afrike.
+      Odrasle se jedinke hrane voćem i biljnim sokom.
+      U Africi ih djeca katkad drže kao igračke, a prodaju se i sakupljačima.
+  insect.bombardier_beetle:
+    label: bombardirski kornjaš
+    summary: Kornjaš koji u obrani ispaljuje vrelu otrovnu smjesu.
+    info: |
+      Bombardirski kornjaš kornjaš je iz potporodice Brachininae koji se brani na jedinstven način; u zatku miješa dvije kemijske tvari, što izaziva eksplozivnu reakciju na više od 100 stupnjeva.
+      Vrlo nagrizajuća para ispaljuje se uz glasan prasak i do 500 puta u sekundi.
+      Jedan je od najzadivljujućih primjera kemijske obrane u prirodi.
+  insect.diving_beetle:
+    label: gnjurac
+    summary: Grabežljivi vodeni kornjaš koji pliva ispod površine.
+    info: |
+      Žutorubi gnjurac grabežljivi je vodeni kornjaš iz porodice Dytiscidae koji živi u barama i stajaćim vodama.
+      Spretno pliva zahvaljujući plosnatim stražnjim nogama koje djeluju kao vesla.
+      Diše na površini i sprema zrak pod pokrilcima.
+      Lovi kukce, ličinke, male ribe i punoglavce.
+  insect.velvet_ant:
+    label: baršunasti mrav
+    summary: Beskrilna narančasto-crna osa koja nalikuje mravu.
+    info: |
+      Baršunasti mrav zapravo je osa iz porodice Mutillidae; ženke su beskrilne i nalikuju mravima.
+      Imaju upadljive crvene ili narančaste dlačice kao upozorenje.
+      Ženke imaju iznimno snažan žalac, nadimka ubojica krava.
+      Nametnici su u gnijezdima bumbara.

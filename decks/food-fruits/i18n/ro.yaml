@@ -1,204 +1,364 @@
 lang: ro
 pivot: false
-title: ""
+title: Fructe
 cards:
-  fruit.ackee:
-    label: ""
-    summary: ""
-    info: ""
   fruit.apple:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.apricot:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.avocado:
-    label: ""
-    summary: ""
-    info: ""
+    label: măr
+    summary: Un fruct rotund, roșu sau verde, cu gust dulce-acrișor.
+    info: Mărul este fructul mărului, una dintre cele mai cultivate plante din lume. Conține vitamina C și fibre; există peste 7.500 de soiuri.
   fruit.banana:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.blackberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.blueberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cantaloupe:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cherry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.coconut:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cranberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.currant:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.damson:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.date:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.dragon_fruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.durian:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.feijoa:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.fig:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.gooseberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.grape:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.grapefruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.guava:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.jackfruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.kiwi:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lemon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lime:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.longan:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lychee:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.mango:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.medlar:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.melon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.mulberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.nectarine:
-    label: ""
-    summary: ""
-    info: ""
+    label: banană
+    summary: Un fruct tropical galben cu pulpă dulce.
+    info: Banana este fructul unei plante tropicale din familia bananierului. Este bogată în potasiu și zaharuri naturale care dau energie rapidă.
   fruit.orange:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.papaya:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.passion_fruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.peach:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pear:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.persimmon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pineapple:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.plum:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pomegranate:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.quince:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.rambutan:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.raspberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.starfruit:
-    label: ""
-    summary: ""
-    info: ""
+    label: portocală
+    summary: Un citric rotund cu coajă portocalie și parfumată.
+    info: Portocala este un citric originar din Asia de Sud-Est, azi cultivat în toată lumea. Este bogată în vitamina C și îndrăgită ca suc.
   fruit.strawberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.tamarind:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.tangerine:
-    label: ""
-    summary: ""
-    info: ""
+    label: căpșună
+    summary: O bacă roșie, zemoasă, în formă de inimă.
+    info: Căpșuna este un fruct îndrăgit din familia rozaceelor. Este bogată în vitamina C și antioxidanți și se culege vara.
+  fruit.grape:
+    label: strugure
+    summary: O bacă mică și rotundă care crește în ciorchini.
+    info: Vița-de-vie dă struguri de diferite culori, de la verde la mov închis. Strugurii se mănâncă proaspeți, se usucă pentru stafide sau se presează pentru vin.
   fruit.watermelon:
-    label: ""
-    summary: ""
-    info: ""
+    label: pepene verde
+    summary: Un fruct mare cu dungi verzi și pulpă roșie și zemoasă.
+    info: Pepenele verde provine din Africa și este un îndrăgit fruct de vară. Este alcătuit în proporție de 92% din apă și conține licopen, care îi dă culoarea roșie.
+  fruit.mango:
+    label: mango
+    summary: Un fruct tropical cu pulpă zemoasă, galben-portocalie.
+    info: Mango este numit regele fructelor tropicale. Bogat în vitaminele A și C, provine din sudul Asiei, unde este cultivat de 4.000 de ani.
+  fruit.cherry:
+    label: cireașă
+    summary: O drupă mică, roșie și rotundă, care crește în perechi.
+    info: Cireașa este fructul cireșului dulce, un îndrăgit fruct de vară. Conține antioxidanți și melatonină; există soiuri dulci și acrișoare.
+  fruit.pear:
+    label: pară
+    summary: Un fruct în formă de picătură, cu gust dulce și delicat.
+    info: Para este fructul părului, rudă apropiată a mărului. Are pulpă moale și zemoasă și un conținut ridicat de fibre; există sute de soiuri.
+  fruit.pineapple:
+    label: ananas
+    summary: Un fruct tropical cu o coroană țepoasă și pulpă auriu-gălbuie.
+    info: Ananasul provine din America de Sud și azi se cultivă în tropicele din toată lumea. Conține enzima bromelină, care ajută digestia.
+  fruit.lemon:
+    label: lămâie
+    summary: Un citric galben și acru; o sursă de vitamina C și aromă.
+    info: |
+      Lămâia este un citric acru originar din Asia.
+      Este bogată în vitamina C și acid citric.
+      Se folosește în bucătărie, în băuturi, în cosmetică și în produsele de curățenie.
+      Coaja lămâiului conține un ulei esențial cu un parfum caracteristic de lămâie.
+  fruit.lime:
+    label: lime
+    summary: Un citric mic, verde și acru; ingredient-cheie al bucătăriei tropicale.
+    info: |
+      Lime este un citric mic și verde, cu suc acru și coajă aromată.
+      Este nelipsit din bucătăria mexicană, thailandeză și vietnameză.
+      Conține mai puțină vitamina C decât lămâia, dar o aromă mai puternică.
+      Consumul de lime îi apăra pe marinari de scorbut datorită vitaminei C.
+  fruit.kiwi:
+    label: kiwi
+    summary: Un fruct maro și pufos, cu pulpă verde; bogat în vitamine.
+    info: |
+      Kiwi provine din China, unde este numit agrișă chinezească.
+      Noua Zeelandă l-a comercializat și l-a rebotezat cu numele păsării sale naționale, kiwi.
+      Conține de două ori mai multă vitamina C decât o portocală.
+      Pulpa este de un verde strălucitor; există și soiuri aurii (galbene).
+  fruit.peach:
+    label: piersică
+    summary: O drupă catifelată, galben-rozalie; simbol al verii.
+    info: |
+      Piersica provine din China, unde este simbol al nemuririi.
+      Coaja ei moale și catifelată este caracteristică.
+      Există soiuri albe și galbene; nectarina este varianta netedă, fără puf.
+      În China, piersicile fac parte din Anul Nou și din mitologia vindecătoare.
+  fruit.plum:
+    label: prună
+    summary: O drupă mov; baza țuicii și a magiunului de prune.
+    info: |
+      Pruna este un fruct de bază al Europei Centrale.
+      Slivovița (rachiul de prune) este o băutură tradițională cehă și slovacă.
+      Magiunul de prune este un produs tipic al recoltei de toamnă.
+      În lume există peste 2.000 de soiuri de prune.
+  fruit.apricot:
+    label: caisă
+    summary: O drupă mică și portocalie; dulce-acrișoară și zemoasă.
+    info: |
+      Caisa provine din Asia Centrală.
+      Se cultivă în toată Europa; cele mai dulci vin din Turcia și Spania.
+      Este bogată în betacaroten și vitamina A.
+      Caisele uscate sunt o gustare sănătoasă îndrăgită.
+  fruit.raspberry:
+    label: zmeură
+    summary: O bacă compusă roșie; simbol al grădinii de vară.
+    info: |
+      Zmeura este o bacă compusă din multe drupe mici.
+      Crește sălbatică și cultivată; recolta cade vara și toamna.
+      Este bogată în vitaminele C și K, mangan și antioxidanți.
+      Dulceața și oțetul de zmeură sunt delicatese tradiționale.
+  fruit.blueberry:
+    label: afină
+    summary: O bacă albastru închis; un superaliment plin de antioxidanți.
+    info: |
+      Afina este bogată în antociani, pigmenți cu puternice proprietăți antioxidante.
+      Antocianii îi dau culoarea albastru închis.
+      Studiile indică un efect pozitiv asupra funcțiilor cognitive și a sănătății inimii.
+      Afinele cultivate sunt mai mari decât cele sălbatice.
+  fruit.blackberry:
+    label: mură
+    summary: O bacă compusă mov închis, de pe rug.
+    info: |
+      Mura este o bacă compusă mov închis care crește pe un tufiș cu spini.
+      Mura sălbatică crește la marginea pădurilor și în tufișuri.
+      Conține multă vitamina C, vitamina K și fibre.
+      Dulceața, compotul și lichiorul de mure sunt produse tradiționale.
+  fruit.coconut:
+    label: nucă de cocos
+    summary: O nucă tropicală mare, cu coajă tare și pulpă albă.
+    info: |
+      Nuca de cocos este fructul cocotierului; din punct de vedere botanic este o drupă, nu o nucă.
+      Apa de cocos din fructul necopt este o băutură izotonică naturală.
+      Laptele și uleiul de cocos sunt baza bucătăriei din Asia de Sud-Est și din India.
+      Cocotierul este numit arborele celor o mie de întrebuințări.
+  fruit.papaya:
+    label: papaya
+    summary: Un fruct tropical mare, cu pulpă portocalie intensă.
+    info: |
+      Papaya provine din America tropicală.
+      Conține enzima papaină, care favorizează digestia proteinelor.
+      Este bogată în vitamina C, betacaroten și antioxidanți.
+      Papaya necoaptă se folosește ca legumă în bucătăria din Asia de Sud-Est (în salata som tam).
+  fruit.guava:
+    label: guava
+    summary: Un fruct tropical cu parfum intens și pulpă albă sau roz.
+    info: |
+      Guava provine din America tropicală și s-a răspândit în Asia și Africa tropicale.
+      Conține de patru ori mai multă vitamina C decât o portocală.
+      Coaja și semințele sunt comestibile; întregul fruct este hrănitor.
+      Sucul și dulceața de guava sunt produse populare în țările tropicale.
+  fruit.pomegranate:
+    label: rodie
+    summary: Un fruct roșu cu mii de semințe dulci; simbol al fertilității.
+    info: |
+      Rodia provine din Asia Centrală și din zona Mediteranei.
+      Conține peste 600 de semințe învelite într-o pulpă roșie translucidă (arili).
+      Este bogată în antioxidanți; studiile îi cercetează efectul asupra inimii și inflamațiilor.
+      Simbolizează fertilitatea și abundența în multe culturi.
+  fruit.fig:
+    label: smochină
+    summary: Un fruct în formă de pară al smochinului; dulce și plin de semințe.
+    info: |
+      Smochina este unul dintre cele mai vechi fructe cultivate; urmele sale merg cu 11.000 de ani în urmă.
+      De fapt nu este un fruct, ci un înveliș plin cu mii de flori mici.
+      Frunzele de smochin ale lui Adam și Eva din relatarea biblică sunt frunze de smochin.
+      Smochinele uscate sunt o sursă excelentă de calciu, potasiu și fibre.
+  fruit.date:
+    label: curmală
+    summary: Un fruct dulce, oval și maro, al curmalului; aliment de bază în Orientul Mijlociu.
+    info: |
+      Curmalele sunt fructele dulci ale curmalului.
+      De mii de ani sunt un aliment de bază în Orientul Mijlociu.
+      Conțin peste 60% zahăr și sunt o sursă marcantă de energie.
+      În islam, curmalele se mănâncă tradițional primele la ruperea postului Ramadanului (iftar).
+  fruit.melon:
+    label: pepene galben
+    summary: Un fruct mare și dulce, cu pulpă portocalie, verde sau albă.
+    info: |
+      Pepenele galben este un fruct tropical sau subtropical, cu un conținut ridicat de apă.
+      Provine din Africa și Asia; azi se cultivă în toată lumea.
+      Este alcătuit în proporție de peste 90% din apă și este foarte răcoritor.
+      Există sute de soiuri, printre care cantalup, pepene de iarnă și galia.
+  fruit.cantaloupe:
+    label: pepene cantalup
+    summary: Un pepene cu coajă reticulată și pulpă portocalie intensă.
+    info: |
+      Pepenele cantalup este un soi îndrăgit de pepene originar din Asia.
+      Numele vine de la reședința papală Cantalupo, de lângă Roma.
+      Pulpa portocalie este bogată în betacaroten și vitamina A.
+      Este unul dintre cele mai dulci soiuri de pepene.
+  fruit.grapefruit:
+    label: grepfrut
+    summary: Un citric mare, dulce-amărui; o vedetă a dietelor.
+    info: |
+      Grepfrutul este o încrucișare între portocală și pomelo.
+      A fost descris în Barbados în secolul al XVIII-lea.
+      Grepfrutul roz și roșu conține licopen și betacaroten.
+      Sucul de grepfrut interacționează cu multe medicamente; pacienții ar trebui să își informeze medicul.
+  fruit.tangerine:
+    label: mandarină
+    summary: Un citric mic și dulce, cu coajă care se desprinde ușor; simbol al Crăciunului.
+    info: |
+      Mandarina este un citric mic, ușor de curățat, originar din China.
+      Este simbol al Anului Nou chinezesc și al norocului.
+      În multe țări este un fruct tipic de Crăciun.
+      Conține vitamina C, antioxidanți și flavonoide.
+  fruit.passion_fruit:
+    label: fructul pasiunii
+    summary: Un fruct tropical cu coajă zbârcită și pulpă aromată, plină de semințe.
+    info: |
+      Fructul pasiunii provine din America de Sud tropicală.
+      Numele său vine de la misionarii care vedeau în floare simbolurile patimilor lui Hristos.
+      Pulpa este plină de semințe învelite într-un gel aromat.
+      Este o sursă excelentă de vitamina C, fibre și antioxidanți.
+  fruit.lychee:
+    label: lici
+    summary: Un fruct tropical mic și roșu, cu pulpă translucidă; îndrăgit în Asia.
+    info: |
+      Liciul este un fruct tropical originar din China.
+      Coaja lui aspră și roșie se curăță ușor și dezvăluie o pulpă albă și translucidă.
+      Are un gust dulce și fin aromat.
+      În China este simbol al norocului și al prosperității.
+  fruit.dragon_fruit:
+    label: fructul dragonului
+    summary: Un fruct tropical roz de cactus, cu pulpă albă cu puncte.
+    info: |
+      Fructul dragonului (pitaya) provine din Mexic și America Centrală.
+      Coaja lui roz aprins și pulpa albă cu semințe negre sunt foarte decorative.
+      Are un gust delicat și conține antioxidanți și vitamina C.
+      Din el se fac sucuri, smoothie-uri și deserturi decorative.
+  fruit.starfruit:
+    label: carambola
+    summary: Un fruct tropical galben care formează stele când este tăiat.
+    info: |
+      Carambola provine din sudul și sud-estul Asiei.
+      Tăiată de-a curmezișul, formează o stea perfectă, de unde și numele englezesc starfruit.
+      Are un gust dulce-acrișor și este bogată în vitamina C.
+      Persoanele cu boli de rinichi nu trebuie să o mănânce din cauza oxalaților.
+  fruit.avocado:
+    label: avocado
+    summary: O drupă tropicală cremoasă; baza pentru guacamole.
+    info: |
+      Avocado provine din Mexic și America Centrală.
+      Din punct de vedere botanic este un fruct (o drupă), dar în bucătărie se folosește ca legumă.
+      Conține grăsimi mononesaturate sănătoase (acid oleic), la fel ca uleiul de măsline.
+      Este un aliment sănătos la modă în toată lumea; pâinea prăjită cu avocado este o emblemă a culturii moderne a cafenelelor.
+  fruit.persimmon:
+    label: kaki
+    summary: Un fruct portocaliu asemănător roșiei; dulce și astringent.
+    info: |
+      Kaki provine din China și Japonia; este numit și curmal japonez.
+      Kaki necopt este bogat în taninuri și astringent; copt este dulce ca mierea.
+      Este bogat în vitaminele A și C și în minerale.
+      În Japonia este un fruct tradițional de toamnă.
+  fruit.mulberry:
+    label: dudă
+    summary: O bacă mov închis a dudului; hrana viermelui de mătase.
+    info: |
+      Duda este fructul dudului; frunzele dudului sunt hrana viermelui de mătase.
+      Există dude albe, roșii și negre; cea neagră este cea mai dulce.
+      În istorie, cultivarea dudului a fost crucială pentru producția de mătase.
+      Dudele sunt bogate în resveratrol, vitamina C și fier.
+  fruit.cranberry:
+    label: merișor
+    summary: O bacă mică, roșie și acră; ingredient tradițional american.
+    info: |
+      Merișorul este o bacă mică, acră și roșie.
+      Este o parte tradițională a Zilei Recunoștinței americane (sos de merișoare).
+      Conține proantocianidine, care împiedică bacteriile Escherichia coli să adere la pereții căilor urinare.
+      Efectul merișorului în prevenirea infecțiilor urinare este dovedit științific.
+  fruit.gooseberry:
+    label: agrișă
+    summary: O bacă mică, rotundă și translucidă; o favorită a grădinilor.
+    info: |
+      Agrișa este un fruct mic, tipic pentru grădinile din Europa Centrală.
+      Există în soiuri verzi, roșii și galbene.
+      Este bogată în vitamina C.
+      Vinul de agrișe este o băutură îndrăgită de-a lungul istoriei.
+  fruit.currant:
+    label: coacăză
+    summary: O bacă mică, roșie, neagră sau albă, în ciorchine.
+    info: |
+      Coacăza este o bacă mică ce crește în ciorchini.
+      Coacăza neagră conține cea mai multă vitamina C dintre toate bacele.
+      Coacăza neagră este baza gustului lichiorului de cassis și al băuturii britanice Ribena.
+      Coacăza roșie se folosește în dulcețuri și ca decor al deserturilor.
+  fruit.quince:
+    label: gutuie
+    summary: Un fruct galben și tare, înrudit cu mărul; se mănâncă întotdeauna gătit.
+    info: |
+      Gutuia este înrudită cu mărul și para; crudă este tare și astringentă.
+      Se prelucrează întotdeauna prin fierbere, în peltea de gutui (membrillo), vin sau rachiu de gutui.
+      Conține multă pectină, potrivită pentru dulcețuri.
+      Cea mai veche marmeladă documentată în Europa (secolul al XVI-lea) era făcută din gutui.
+  fruit.jackfruit:
+    label: jackfruit
+    summary: Un fruct tropical uriaș; cel mai mare fruct din lume care crește într-un copac.
+    info: |
+      Jackfruitul dă cele mai mari fructe care cresc într-un copac; pot cântări peste 35 kg.
+      Provine din Asia tropicală și este un aliment de bază în India, Bangladesh și Thailanda.
+      Jackfruitul necopt are o textură neutră și se folosește ca înlocuitor vegetarian al cărnii.
+      Bucățile galbene coapte sunt dulci și aromate.
+  fruit.durian:
+    label: durian
+    summary: Un fruct tropical mare și țepos, cu miros puternic; regele fructelor tropicale.
+    info: |
+      Durianul este numit regele fructelor tropicale.
+      Mirosul lui puternic este respingător pentru unii și ademenitor pentru alții; în multe hoteluri asiatice este interzis.
+      Pulpa este cremoasă și dulce, cu un gust complex de migdale, vanilie și brânză.
+      În Asia de Sud-Est este apreciat ca un lux rafinat.
+  fruit.rambutan:
+    label: rambutan
+    summary: Un fruct tropical roșu și păros, asemănător liciului.
+    info: |
+      Rambutanul provine din Malaysia; numele vine din malaeză, rambut, care înseamnă păr.
+      Coaja lui roșie este acoperită cu excrescențe moi, în formă de cârlig.
+      Pulpa este translucidă și dulce, ca cea a liciului.
+      Este bogat în vitamina C și fier.
+  fruit.longan:
+    label: longan
+    summary: Un fruct tropical mic și maro, înrudit cu liciul.
+    info: |
+      Longanul este fructul unui copac tropical originar din China.
+      Numele vine din chineză, long yan, care înseamnă ochi de dragon, datorită pulpei translucide cu o sămânță neagră.
+      Are un gust dulce și aromat.
+      În medicina tradițională chineză este considerat un aliment care întărește sângele și inima.
+  fruit.tamarind:
+    label: tamarind
+    summary: O păstaie maro cu pulpă acră; bază a bucătăriei thailandeze.
+    info: |
+      Tamarindul provine din Africa tropicală; azi se cultivă în toate tropicele.
+      Pulpa este puternic acră și dulce; se folosește în pad thai, în sosul Worcestershire și în chutney-ul indian.
+      Cuvântul vine din arabă, tamr hindi, care înseamnă curmală indiană.
+      Este bogat în acid tartric, vitamine din grupul B și fier.
+  fruit.nectarine:
+    label: nectarină
+    summary: O piersică netedă, fără puf; zemoasă și dulce.
+    info: |
+      Nectarina este o mutație naturală a piersicii, cu coajă netedă.
+      Se deosebește de piersică doar prin gena netezimii cojii.
+      Are un gust asemănător, dar o structură mai fermă.
+      Numele vine de la nectarul zeilor și dă mărturie despre presupusa ei perfecțiune.
+  fruit.damson:
+    label: prună damaschină
+    summary: O prună mică și închisă la culoare, tipică grădinilor rurale englezești.
+    info: |
+      Pruna damaschină este un soi mic de prună, de un albastru-negru închis.
+      Numele damson vine de la Damasc, de unde fructul a ajuns în Europa.
+      Crudă este foarte acră, dar excelentă în dulcețuri, compoturi și gin (damson gin).
+      În tradiția engleză este cultivată din antichitate.
+  fruit.medlar:
+    label: moșmoană
+    summary: Un fruct mic și maro, înrudit cu mărul; trebuie să se coacă după recoltare.
+    info: |
+      Moșmonul este o plantă de grădină străveche, cultivată din Evul Mediu.
+      Este comestibil abia după ce se înmoaie (postmaturare), adică după coacerea de după recoltare.
+      Este bogat în taninuri și vitamina C.
+      Shakespeare îl menționează în Romeo și Julieta; azi este mai degrabă o curiozitate pentru grădinari.
+  fruit.ackee:
+    label: akee
+    summary: Un fruct tropical roșu cu arili galbeni comestibili; fructul național al Jamaicăi.
+    info: |
+      Akeea este fructul național al Jamaicăi; poartă numele căpitanului Bligh (1793).
+      Doar arilii galbeni copți sunt comestibili; fructul necopt sau prea copt este toxic (hipoglicină A).
+      Ackee and saltfish este felul de mâncare național al Jamaicăi.
+      Provine din Africa de Vest și a fost adus în Caraibe prin comerțul cu sclavi.
+  fruit.feijoa:
+    label: feijoa
+    summary: Un fruct mic, oval și verde, cu pulpă aromată.
+    info: |
+      Feijoa provine din America de Sud.
+      Pulpa ei are un gust intens aromat de ananas, guava și mentă.
+      Este foarte populară în Noua Zeelandă ca fruct de toamnă.
+      Este puțin cunoscută în Europa, dar îndrăgită în țările de origine.

@@ -1,204 +1,380 @@
 lang: sl
 pivot: false
-title: Povztrikarji
+title: Žuželke
 cards:
-  insect.ant:
-    label: ""
-    summary: ""
-    info: ""
-  insect.antlion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.aphid:
-    label: ""
-    summary: ""
-    info: ""
-  insect.atlas_moth:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bedbug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bee:
-    label: ""
-    summary: ""
-    info: ""
-  insect.beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bombardier_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bumblebee:
-    label: ""
-    summary: ""
-    info: ""
   insect.butterfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.caterpillar:
-    label: ""
-    summary: ""
-    info: ""
-  insect.centipede:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cicada:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cockroach:
-    label: ""
-    summary: ""
-    info: ""
-  insect.crane_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cricket:
-    label: ""
-    summary: ""
-    info: ""
-  insect.damselfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.diving_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dragonfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dung_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.earwig:
-    label: ""
-    summary: ""
-    info: ""
-  insect.firefly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.flea:
-    label: ""
-    summary: ""
-    info: ""
-  insect.fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.goliath_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.grasshopper:
-    label: ""
-    summary: ""
-    info: ""
-  insect.ground_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hornet:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hoverfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.lacewing:
-    label: ""
-    summary: ""
-    info: ""
+    label: metulj
+    summary: Leteča žuželka z velikimi pisanimi krili.
+    info: Metulj je žuželka z dvema paroma kril, prekritih z luskami, pogosto živih barv.
+  insect.bee:
+    label: čebela
+    summary: Rumeno-črna žuželka, ki opraši cvetje in dela med.
+    info: Medonosna čebela je družabna žuželka, ki živi v panjih in nabira nektar.
   insect.ladybug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.locust:
-    label: ""
-    summary: ""
-    info: ""
-  insect.louse:
-    label: ""
-    summary: ""
-    info: ""
-  insect.mayfly:
-    label: ""
-    summary: ""
-    info: ""
+    label: pikapolonica
+    summary: Majhen okrogel rdeč hrošč s črnimi pikami.
+    info: Pikapolonica je majhen hrošč, ki se hrani z listnimi ušmi in je koristen na vrtu.
+  insect.dragonfly:
+    label: kačji pastir
+    summary: Žuželka z dolgim telesom in dvema paroma prozornih kril.
+    info: Kačji pastir je plenilec z odličnim vidom, ki lovi ob vodni gladini.
+  insect.ant:
+    label: mravlja
+    summary: Majhna družabna žuželka, ki živi v kolonijah.
+    info: Mravlja je žuželka, ki tvori velike kolonije z delitvijo dela.
+  insect.beetle:
+    label: hrošč
+    summary: Hrošči tvorijo največji red žuželk, z več kot 400.000 opisanimi vrstami.
+    info: |
+      Hrošč spada v red Coleoptera in predstavlja približno 40% vseh opisanih vrst žuželk.
+      Prepoznaven je po trdih pokrovkah (elitrah), ki skrivajo prava letalna krila.
+      Rogač je največji hrošč v Evropi; samec ima močne čeljusti, podobne rogovju.
+      Hrošči živijo v skoraj vseh okoljih, od tropov do arktičnih krajev.
+  insect.grasshopper:
+    label: kobilica
+    summary: Skakljajoča žuželka z dolgimi zadnjimi nogami in cvrčečim zvokom.
+    info: |
+      Kobilica je žuželka iz reda Orthoptera z močnimi zadnjimi nogami, ki omogočajo skoke do dvajsetkrat daljše od telesa.
+      Samci oddajajo značilen zvok (stridulacijo) z drgnjenjem nog ob krila.
+      Hrani se z rastlinami in lahko v velikih rojih uniči pridelke.
+  insect.cricket:
+    label: murn
+    summary: Nočna žuželka, znana po cvrčanju samcev.
+    info: |
+      Poljski murn je nočna žuželka iz reda Orthoptera.
+      Samci cvrčijo z drgnjenjem kril drug ob drugega, da privabijo samice in označijo ozemlje.
+      V Aziji so murne že od nekdaj imeli za hišne ljubljenčke zaradi njihovega petja.
+      V mnogih kulturah so tudi simbol domače prijetnosti in sreče.
   insect.mosquito:
-    label: ""
-    summary: ""
-    info: ""
+    label: komar
+    summary: Dvokrila žuželka; samica sesa kri in lahko prenaša bolezni.
+    info: |
+      Komar je dvokrila žuželka iz družine Culicidae.
+      Samice sesajo kri živali, da pridobijo beljakovine za razvoj jajčec; samci se hranijo z nektarjem.
+      Komarji prenašajo nevarne bolezni, kot so malarija, denga in zika.
+      Na svetu obstaja več kot 3.500 vrst komarjev.
+  insect.fly:
+    label: muha
+    summary: Zelo razširjena dvokrila žuželka, ki lahko prenaša bakterije.
+    info: |
+      Hišna muha je najbolj razširjena dvokrila žuželka v človeških bivališčih.
+      Sestavljene oči ji omogočajo, da vidi skoraj 360 stopinj okoli sebe.
+      Prenaša bakterije, ker pristaja tako na odpadkih kot na hrani.
+      Ima samo en par delujočih kril; drugi par (utripalke) pomaga ohranjati ravnotežje med letom.
   insect.moth:
-    label: ""
-    summary: ""
-    info: ""
+    label: nočni metulj
+    summary: Nočni sorodnik metulja; leti proti svetlobi in ima pernate tipalke.
+    info: |
+      Nočni metulji so nočni metulji, ki za razliko od dnevnih v mirovanju držijo krila zložena ob bokih.
+      Mnoge vrste privlači umetna svetloba.
+      Naravno svilo dolgujemo gosenicam sviloprejke.
+      Metulj lunj (luna) je eden najlepših nočnih metuljev na svetu.
+  insect.caterpillar:
+    label: gosenica
+    summary: Ličinka metulja; je liste in se pripravlja na zabubljenje.
+    info: |
+      Gosenica je ličinkasta stopnja metulja in svoje življenje preživlja predvsem z jedjo listov, da nabere energijo za preobrazbo.
+      Nekatere gosenice imajo žive barve, ki plenilce opozarjajo, da so strupene.
+      Ob zabubljenju ustvari bubo (kokon), v kateri poteka popolna preobrazba (metamorfoza) v odraslo žival.
   insect.praying_mantis:
-    label: ""
-    summary: ""
-    info: ""
-  insect.robber_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.scorpion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.silverfish:
-    label: ""
-    summary: ""
-    info: ""
-  insect.spider:
-    label: ""
-    summary: ""
-    info: ""
-  insect.stag_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: bogomolka
+    summary: Plenilska žuželka z molitveno držo in bliskovitim napadom.
+    info: |
+      Bogomolka je plenilska žuželka iz skupine Mantodea.
+      Ime dolguje drži, v kateri drži sprednje noge sklenjene kot pri molitvi.
+      Je mojstrica lova; udari in ujame plen v delčku sekunde.
+      Samica včasih po parjenju poje samca, čeprav se to ne zgodi vedno.
   insect.stick_insect:
-    label: ""
-    summary: ""
-    info: ""
-  insect.termite:
-    label: ""
-    summary: ""
-    info: ""
-  insect.tiger_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.velvet_ant:
-    label: ""
-    summary: ""
-    info: ""
+    label: paličnjak
+    summary: Žuželka, ki popolnoma posnema vejico ali list.
+    info: |
+      Paličnjak spada v skupino Phasmatodea in je mojster prikrivanja; njegovo telo popolnoma posnema vejice ali liste.
+      Ob nevarnosti ostane popolnoma negiben.
+      Nekatere vrste se razmnožujejo s partenogenezo, torej brez samca.
+      So priljubljeni eksotični hišni ljubljenčki zaradi preproste oskrbe.
+  insect.firefly:
+    label: kresnica
+    summary: Hrošč, ki sveti z bioluminiscenčno svetlobo, da privabi partnerja.
+    info: |
+      Kresnica je hrošč iz družine Lampyridae, ki lahko v zadku ustvarja hladno svetlobo (bioluminiscenco).
+      Samci in samice svetijo v različnih vzorcih, da se prepoznajo in privabijo.
+      Svetlobo uravnava kemična reakcija luciferina z luciferazo.
+      Kresnice so pokazatelj čistega okolja.
   insect.wasp:
-    label: ""
-    summary: ""
-    info: ""
+    label: osa
+    summary: Rumeno-črna žuželka z želom, ki gradi papirnata gnezda.
+    info: |
+      Navadna osa je žuželka z želom iz skupine Vespula z značilnimi rumeno-črnimi svarilnimi barvami.
+      Gradi papirnata gnezda iz prežvečene lesne mase.
+      Za razliko od čebele osa lahko piči večkrat.
+      Koristna je kot naravni regulator škodljivih žuželk.
+  insect.cockroach:
+    label: ščurek
+    summary: Hitra, nočna, vsejeda žuželka; zelo odporna in prilagodljiva.
+    info: |
+      Ščurek je ena najodpornejših žuželk na svetu; preživi sevanje in razmere, ki bi ubile druge živali.
+      Obstaja več kot 4.500 vrst, a le okoli 30 jih živi v bližini človeka.
+      Je pradavna žuželka; ščurki obstajajo več kot 300 milijonov let in so preživeli dinozavre.
+      Hiter je in lahko teče več kot 5 km/h.
+  insect.spider:
+    label: pajek
+    summary: Osemnožna pajkovec, ki plete mreže za lovljenje žuželk.
+    info: |
+      Pajek je pajkovec (ne žuželka) iz reda Araneae z osmimi nogami in telesom iz dveh delov.
+      Lahko proizvaja svilo, s katero plete mreže za lov ali ovija kokone z jajčeci.
+      Na svetu živi več kot 48.000 vrst pajkov.
+      Vse vrste proizvajajo strup, a velika večina je za človeka neškodljiva.
+  insect.scorpion:
+    label: škorpijon
+    summary: Strupen pajkovec s kleščami in ukrivljenim strupenim repom.
+    info: |
+      Škorpijon je pajkovec (ne žuželka) z značilnimi kleščami in ukrivljenim repom, ki se konča s strupenim želom.
+      Je pradavna žival; najstarejši fosilni škorpijoni so stari več kot 430 milijonov let.
+      V temi fluorescirajo pod ultravijolično svetlobo.
+      Od približno 2.500 vrst je le okoli 25 nevarnih za človeka.
+  insect.centipede:
+    label: striga
+    summary: Strige z enim parom nog na vsakem telesnem členu.
+    info: |
+      Striga spada v razred Chilopoda in ima en par nog na vsakem telesnem členu (ne sto nog, kot namiguje angleško ime).
+      Je hiter plenilec, ki lovi žuželke, deževnike in male vretenčarje.
+      Prvi par nog je preoblikovan v strupene kremplje, ki ohromijo plen.
+      Nekatere tropske vrste zrastejo daljše od 30 cm.
+  insect.flea:
+    label: bolha
+    summary: Drobcen skakljajoč zajedavec, ki sesa kri sesalcev in ptic.
+    info: |
+      Bolha je brezkrila žuželka iz reda Siphonaptera, specializirana za zajedavski način življenja.
+      Močne zadnje noge omogočajo skoke več kot 150-krat daljše od telesa.
+      Sesa kri sesalcev in ptic ter lahko prenaša bolezni; zgodovinsko so bolhe širile kugo.
+      Bolhe so akrobati sveta žuželk.
+  insect.termite:
+    label: termit
+    summary: Družabna žuželka, ki gradi ogromne kupe iz zemlje.
+    info: |
+      Termit je družabna žuželka iz skupine Isoptera, v daljnem sorodstvu s ščurki.
+      Živijo v kolonijah s kraljem, kraljico, vojaki in delavci.
+      Gradijo zapletena termitnice, v tropih visoka tudi do 9 metrov, z lastnim prezračevalnim sistemom.
+      Kot pomembni razgrajevalci lesa imajo ključno vlogo v tropskih ekosistemih.
+  insect.bumblebee:
+    label: čmrlj
+    summary: Velika kosmata čebela z globokim brenčanjem; pomemben opraševalec.
+    info: |
+      Čmrlj je velika kosmata žuželka iz rodu Bombus, sorodna medonosni čebeli.
+      Je pomemben opraševalec, zlasti v hladnejših podnebjih, kjer čebele letajo manj.
+      Ogreje se lahko z drhtenjem letalnih mišic, tako da leti tudi v mrazu.
+      Čmrlji so bolj krotki od os in pičijo le ob neposredni grožnji.
+  insect.hornet:
+    label: sršen
+    summary: Največja osa v Evropi z močnim želom in glasnim brenčanjem.
+    info: |
+      Sršen je največja družabna osa v Evropi in zraste več kot 3,5 cm.
+      Gradi papirnata gnezda v drevesnih duplih ali pod strehami.
+      Njegovo želo je daljše kot pri osah, pik pa bolj boleč, a sršen napade le ob neposredni grožnji.
+      Je pomemben plenilski sovražnik drugih žuželk.
+  insect.cicada:
+    label: škržat
+    summary: Žuželka, znana po glasnem cvrčanju v vročih dneh.
+    info: |
+      Škržat je žuželka iz naddružine Cicadoidea, znana po enem najglasnejših zvokov med vsemi žuželkami.
+      Samci oddajajo zvok s pomočjo posebnih membran (timbalov) v zadku, da privabijo samice.
+      Nekatere vrste v ZDA imajo razvojne cikle sedemnajstih ali trinajstih let.
+      Ličinke leta živijo pod zemljo in se hranijo s koreninami.
+  insect.locust:
+    label: selitvena kobilica
+    summary: Selitvena kobilica, ki tvori uničujoče roje milijonov.
+    info: |
+      Selitvena kobilica je vrsta kobilice, ki v določenih razmerah tvori ogromne selitvene roje.
+      Roj lahko šteje milijarde osebkov in v enem dnevu uniči pridelke na tisočih hektarov.
+      V afriških in azijskih državah so kobilice zgodovinsko ena največjih kmetijskih nesreč.
+      V Bibliji so ena od desetih egiptovskih nadlog.
+  insect.aphid:
+    label: listna uš
+    summary: Drobcena sesajoča žuželka na steblih rastlin; proizvaja mano.
+    info: |
+      Listne uši so majhne sesajoče žuželke iz naddružine Aphidoidea, ki se hranijo z rastlinskim sokom.
+      Proizvajajo sladko mano, za katero jih mravlje negujejo v zameno za zaščito.
+      Razmnožujejo se izjemno hitro; ena sama samica lahko v enem letu da začetek stotinam milijonov potomcev.
+      So pomembni škodljivci kmetijskih pridelkov.
+  insect.earwig:
+    label: strigalica
+    summary: Podolgovata žuželka s kleščami na koncu zadka.
+    info: |
+      Strigalica je žuželka iz reda Dermaptera, prepoznavna po kleščah (cerci) na koncu zadka, ki služijo za obrambo in parjenje.
+      Ime v nekaterih jezikih izhaja iz vraže, da zaide ljudem v ušesa; to je mit.
+      Samice strigalice so nenavadne, ker skrbijo za jajčeca in mlade ličinke, kar je med žuželkami redkost.
+      Živijo v razpokah, pod kamni in v steljici.
+  insect.silverfish:
+    label: srebrna ribica
+    summary: Brezkrila hitra žuželka, ki jo najdemo v hišah ob knjigah in papirju.
+    info: |
+      Srebrna ribica je primitivna brezkrila žuželka iz reda Zygentoma, ki živi v bivališčih.
+      Hrani se s škrobom, papirjem, knjigoveškim lepilom in tekstilnimi vlakni.
+      Ime izhaja iz njene srebrnkaste barve in ribjega gibanja.
+      Spada v enega najstarejših redov žuželk in živi skoraj nespremenjena več kot 300 milijonov let.
   insect.water_strider:
-    label: ""
-    summary: ""
-    info: ""
+    label: drsalec
+    summary: Žuželka, ki hodi po vodni gladini zaradi površinske napetosti.
+    info: |
+      Drsalec je žuželka iz družine Gerridae, ki lahko hodi po vodi zaradi vodoodbojnih dlačic na nogah in površinske napetosti vode.
+      Lovi žuželke, ki so padle v vodo in jih prepozna po tresljajih gladine.
+      Hiter je in lahko drsi po vodi z več kot 150-kratnikom svoje telesne dolžine na sekundo.
+  insect.dung_beetle:
+    label: govnač
+    summary: Hrošč, ki kotali kroglice iztrebkov, svet v starem Egiptu.
+    info: |
+      Sveti skarabej je hrošč iz družine Scarabaeidae, ki oblikuje iztrebke v kroglice in jih kotali, da jih zakoplje in vanje odloži jajčeca.
+      V starem Egiptu je bil simbol sonca in boga Keprija.
+      Je ena redkih živali, ki se orientirajo po Rimski cesti.
+      Pomaga pri kroženju hranil in prezračevanju tal.
+  insect.stag_beetle:
+    label: rogač
+    summary: Največji hrošč v Evropi; samec ima čeljusti, podobne rogovju.
+    info: |
+      Rogač je največji hrošč v Evropi in zraste več kot 7 cm.
+      Samec ima ogromne čeljusti, podobne rogovju, ki jih uporablja v bojih za samice.
+      Ličinka živi do 7 let v trhlem hrastovem lesu in se hrani z glivami.
+      Resno ga ogroža izginjanje starih gozdov in mrtvega lesa.
+  insect.atlas_moth:
+    label: atlasov metulj
+    summary: Eden največjih nočnih metuljev na svetu, s krili, okrašenimi z vzorcem kače.
+    info: |
+      Atlasov metulj je eden največjih nočnih metuljev na svetu, z razponom kril do 30 cm.
+      Konice kril so obarvane tako, da so podobne kačjim glavam, kar odganja plenilce.
+      Odrasli osebki nimajo ust in sploh ne jedo; živijo le nekaj dni.
+      Izvira iz tropskih gozdov jugovzhodne Azije.
   insect.weevil:
-    label: ""
-    summary: ""
-    info: ""
+    label: rilčkar
+    summary: Majhen hrošč z značilnim podaljšanim rilčkom.
+    info: |
+      Rilčkar je hrošč iz družine Curculionidae, največje družine živali na svetu, z več kot 60.000 vrstami.
+      Značilni podaljšani rilček (rostrum) služi za vrtanje v semena, plodove in debla.
+      Nekatere vrste so resni kmetijski škodljivci, kot je bombažni rilčkar.
+      Druge vrste so specializirane za eno samo rastlinsko vrsto.
+  insect.lacewing:
+    label: tenčičarica
+    summary: Nežna žuželka s prosojno žilnatimi krili; ličinke lovijo listne uši.
+    info: |
+      Tenčičarica je žuželka iz družine Chrysopidae z nežnimi, prosojno žilnatimi krili in zlatimi očmi.
+      Ličinke so plenilci in požrejo ogromne količine listnih uši, s čimer postanejo naravni varuhi rastlin.
+      Odrasli osebki se hranijo z nektarjem in cvetnim prahom.
+      Privlači jih svetloba in so pokazatelj zdravega okolja.
+  insect.crane_fly:
+    label: tipulja
+    summary: Velika muha, podobna komarju, z izjemno dolgimi nogami.
+    info: |
+      Tipulja je dvokrila žuželka iz družine Tipulidae, po videzu podobna orjaškemu komarju, a ne piči in ne zajeda.
+      Njene izjemno dolge noge se zlahka odlomijo; to je obrambni mehanizem (avtotomija).
+      Odrasli osebki živijo le nekaj dni in bodisi ne jedo bodisi se hranijo z nektarjem.
+      Ličinke živijo v tleh in se hranijo s koreninami.
+  insect.mayfly:
+    label: enodnevnica
+    summary: Žuželka z najkrajšim odraslim življenjem, ki traja le ure do dni.
+    info: |
+      Enodnevnica je žuželka iz reda Ephemeroptera in simbol minljivosti; odrasli osebki živijo le ure do dni.
+      Nimajo delujočih ustnih delov in sploh ne jedo.
+      Ličinke živijo od 1 do 3 leta pod vodo.
+      Množično rojenje enodnevnic je osupljiv naravni prizor; na Donavi na Madžarskem je to edinstven pojav.
+  insect.damselfly:
+    label: škratec
+    summary: Vitka sorodnica kačjega pastirja; v mirovanju zloži krila ob telo.
+    info: |
+      Škratec je žuželka, sorodna kačjim pastirjem, a vitkejša, in v mirovanju zloži krila vzporedno s telesom, za razliko od velikih kačjih pastirjev.
+      Je plenilec in lovi male žuželke v letu.
+      Ličinke živijo v vodi in tvorijo pomemben del vodnih ekosistemov.
+      So pokazatelj kakovosti vodotokov.
+  insect.robber_fly:
+    label: roparska muha
+    summary: Plenilska muha, ki lovi druge žuželke v polnem letu.
+    info: |
+      Roparska muha je plenilska dvokrila žuželka iz družine Asilidae, ki lovi druge žuželke naravnost v letu.
+      Ima močne noge za grabljenje plena in pikajoč rilec za vbrizganje ohromljajočega strupa.
+      Nekatere vrste posnemajo videz čmrljev ali os kot zaščito pred plenilci.
+      Koristna je kot naravni regulator populacij žuželk.
+  insect.ground_beetle:
+    label: krešič
+    summary: Hiter plenilski hrošč, ki živi pod kamni in v steljici.
+    info: |
+      Krešič je hrošč iz družine Carabidae; večina vrst so dejavni nočni plenilci, ki lovijo druge žuželke, deževnike in polže.
+      Hitri so in hitro bežijo pred nevarnostjo.
+      Nekatere vrste, kot je vijolični krešič, imajo čudovit kovinski lesk.
+      So pokazatelji zdravih tal in naravnega kmetijstva.
+  insect.tiger_beetle:
+    label: peščenec
+    summary: Hiter kovinsko obarvan hrošč z odličnim vidom.
+    info: |
+      Peščenec je hrošč iz poddružine Cicindelinae, znan po nenavadni hitrosti, sposobnosti letenja in ostrem vidu.
+      Teče tako hitro, da se mora ustaviti in znova orientirati, ker je gibanje prehitro za njegov vidni sistem.
+      Ima čudovito obarvana kovinska telesa (zelena, modra, rdeča) in velike oči.
+      Ličinke kopljejo navpične rove v tla in prežijo na plen ob vhodu.
+  insect.hoverfly:
+    label: trepetavka
+    summary: Muha, ki posnema barve os in čebel; opraševalka vrtov.
+    info: |
+      Trepetavka je dvokrila žuželka iz družine Syrphidae, ki posnema barve os in čebel kot zaščito pred plenilci (Batesovo mimikrijo), čeprav ne piči.
+      Je pomembna opraševalka; obiskuje več rastlinskih vrst kot čebele.
+      Odrasli osebki se hranijo z nektarjem in cvetnim prahom.
+      Ličinke nekaterih vrst lovijo listne uši in tako pomagajo na vrtu.
   insect.whirligig_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: vrtinčar
+    summary: Majhen hrošč, ki se v rojih vrti po vodni gladini.
+    info: |
+      Vrtinčar je vodni hrošč iz družine Gyrinidae, ki živi na gladini, vrtenje v rojih pa mu pomaga izogniti se plenilcem.
+      Njegove oči so razdeljene na dva dela; en vidi nad vodo, drugi pod njo.
+      Zaznava valovanje na gladini, ki signalizira hrano ali nevarnost.
+      Podnevi se vrti, ponoči leti.
+  insect.louse:
+    label: uš
+    summary: Drobcen brezkril zajedavec, ki živi na koži in v dlaki sesalcev.
+    info: |
+      Uš je brezkrila zajedavska žuželka iz reda Phthiraptera, ki živi na koži gostitelja ter v njegovi dlaki ali laseh.
+      Sesa kri in povzroča srbenje.
+      Naglavna uš obstaja po vsem svetu in prizadene otroke ne glede na higienske razmere.
+      Zgodovinsko so uši prenašale pegavico in druge bolezni.
+  insect.bedbug:
+    label: stenica
+    summary: Ploščat zajedavec, ki ponoči sesa kri; skriva se v razpokah pohištva.
+    info: |
+      Stenica je ploščata ovalna žuželka iz družine Cimicidae, dejavna predvsem ponoči.
+      Grize in sesa kri spečega gostitelja.
+      Skriva se v razpokah vzmetnice, v pohištvu in za tapetami.
+      V zadnjih desetletjih se je razširila po vsem svetu zaradi mednarodnih potovanj.
+  insect.antlion:
+    label: mravljinčji lev
+    summary: Ličinka, ki koplje lijakaste pasti za mravlje v pesku.
+    info: |
+      Mravljinčji lev je ličinka žuželke iz družine Myrmeleontidae, ki koplje stožčaste lijake v suhem pesku.
+      Ko mravlja zdrsne v past, jo mravljinčji lev zgrabi s čeljustmi in vbrizga prebavne sokove.
+      Odrasli osebki so nevpadljivi, podobni kačjim pastirjem, in letijo ponoči.
+      Ličinke lahko leta živijo pod zemljo brez hrane.
+  insect.goliath_beetle:
+    label: goljatov hrošč
+    summary: Ena največjih in najtežjih žuželk na svetu, iz tropske Afrike.
+    info: |
+      Goljatov hrošč je ena največjih žuželk na svetu; samci tehtajo do 100 gramov in zrastejo več kot 11 cm.
+      Živi v tropskih deževnih gozdovih ekvatorialne Afrike.
+      Odrasli osebki se hranijo s sadjem in drevesnim sokom.
+      V Afriki jih otroci včasih imajo za igrače, prodajajo pa se tudi zbirateljem.
+  insect.bombardier_beetle:
+    label: bombardirski hrošč
+    summary: Hrošč, ki v obrambi izstreli vrelo strupeno mešanico.
+    info: |
+      Bombardirski hrošč je hrošč iz poddružine Brachininae, ki se brani na edinstven način; v zadku meša dve kemični snovi, kar povzroči eksplozivno reakcijo pri več kot 100 stopinjah.
+      Zelo jedka para se izstreli z glasnim pokom do 500-krat na sekundo.
+      Je eden najbolj osupljivih primerov kemične obrambe v naravi.
+  insect.diving_beetle:
+    label: kozak
+    summary: Plenilski vodni hrošč, ki plava pod gladino.
+    info: |
+      Obrobljeni kozak je plenilski vodni hrošč iz družine Dytiscidae, ki živi v mlakah in stoječih vodah.
+      Spretno plava zaradi ploščatih zadnjih nog, ki delujejo kot vesla.
+      Diha na gladini in shranjuje zrak pod pokrovkami.
+      Lovi žuželke, ličinke, majhne ribe in paglavce.
+  insect.velvet_ant:
+    label: žametna mravlja
+    summary: Brezkrila oranžno-črna osa, ki je podobna mravlji.
+    info: |
+      Žametna mravlja je pravzaprav osa iz družine Mutillidae; samice so brezkrile in podobne mravljam.
+      Imajo vpadljive rdeče ali oranžne dlačice kot svarilo.
+      Samice imajo izjemno močno želo z vzdevkom ubijalka krav.
+      Zajedajo v gnezdih čmrljev.

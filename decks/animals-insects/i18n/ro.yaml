@@ -2,203 +2,379 @@ lang: ro
 pivot: false
 title: Insecte
 cards:
-  insect.ant:
-    label: ""
-    summary: ""
-    info: ""
-  insect.antlion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.aphid:
-    label: ""
-    summary: ""
-    info: ""
-  insect.atlas_moth:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bedbug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bee:
-    label: ""
-    summary: ""
-    info: ""
-  insect.beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bombardier_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bumblebee:
-    label: ""
-    summary: ""
-    info: ""
   insect.butterfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.caterpillar:
-    label: ""
-    summary: ""
-    info: ""
-  insect.centipede:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cicada:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cockroach:
-    label: ""
-    summary: ""
-    info: ""
-  insect.crane_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cricket:
-    label: ""
-    summary: ""
-    info: ""
-  insect.damselfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.diving_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dragonfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dung_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.earwig:
-    label: ""
-    summary: ""
-    info: ""
-  insect.firefly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.flea:
-    label: ""
-    summary: ""
-    info: ""
-  insect.fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.goliath_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.grasshopper:
-    label: ""
-    summary: ""
-    info: ""
-  insect.ground_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hornet:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hoverfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.lacewing:
-    label: ""
-    summary: ""
-    info: ""
+    label: fluture
+    summary: O insectă zburătoare cu aripi mari și colorate.
+    info: Fluturele este o insectă cu două perechi de aripi acoperite cu solzi, adesea viu colorate.
+  insect.bee:
+    label: albină
+    summary: O insectă galben-negru care polenizează florile și produce miere.
+    info: Albina de miere este o insectă socială care trăiește în stupi și adună nectar.
   insect.ladybug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.locust:
-    label: ""
-    summary: ""
-    info: ""
-  insect.louse:
-    label: ""
-    summary: ""
-    info: ""
-  insect.mayfly:
-    label: ""
-    summary: ""
-    info: ""
+    label: buburuză
+    summary: Un gândac mic, rotund și roșu cu puncte negre.
+    info: Buburuza este un gândac mic care se hrănește cu afide și este folositor în grădină.
+  insect.dragonfly:
+    label: libelulă
+    summary: O insectă cu corp lung și două perechi de aripi transparente.
+    info: Libelula este o răpitoare cu văz excelent care vânează la suprafața apei.
+  insect.ant:
+    label: furnică
+    summary: O insectă socială mică ce trăiește în colonii.
+    info: Furnica este o insectă care formează colonii mari cu diviziune a muncii.
+  insect.beetle:
+    label: gândac
+    summary: Gândacii formează cel mai mare ordin de insecte, cu peste 400.000 de specii descrise.
+    info: |
+      Gândacul aparține ordinului Coleoptera și reprezintă aproximativ 40% din toate speciile de insecte descrise.
+      Se recunoaște după elitrele tari (aripile-scut) care ascund aripile de zbor adevărate.
+      Rădașca este cel mai mare gândac din Europa; masculul are mandibule puternice ce amintesc de coarne.
+      Gândacii trăiesc în aproape toate mediile, de la tropice la ținuturile arctice.
+  insect.grasshopper:
+    label: lăcustă
+    summary: O insectă săltăreață cu picioare posterioare lungi și un sunet țârâitor.
+    info: |
+      Lăcusta este o insectă din ordinul Orthoptera cu picioare posterioare puternice ce permit sărituri de până la douăzeci de ori lungimea corpului.
+      Masculii scot un sunet caracteristic (stridulație) frecând picioarele de aripi.
+      Se hrănește cu plante și, în roiuri mari, poate distruge culturile.
+  insect.cricket:
+    label: greier
+    summary: O insectă nocturnă, faimoasă pentru țârâitul masculilor.
+    info: |
+      Greierul de câmp este o insectă nocturnă din ordinul Orthoptera.
+      Masculii cântă frecând aripile una de alta pentru a atrage femelele și a-și marca teritoriul.
+      În Asia, greierii au fost ținuți din vechime ca animale de companie pentru cântecul lor.
+      În multe culturi sunt și un simbol al tihnei și norocului în casă.
   insect.mosquito:
-    label: ""
-    summary: ""
-    info: ""
+    label: țânțar
+    summary: O insectă cu două aripi; femela suge sânge și poate transmite boli.
+    info: |
+      Țânțarul este o insectă cu două aripi din familia Culicidae.
+      Femelele sug sângele animalelor pentru a obține proteina necesară dezvoltării ouălor; masculii se hrănesc cu nectar.
+      Țânțarii transmit boli periculoase precum malaria, febra dengue și zika.
+      În lume există peste 3.500 de specii de țânțari.
+  insect.fly:
+    label: muscă
+    summary: O insectă foarte răspândită cu două aripi, care poate transmite bacterii.
+    info: |
+      Musca de casă este cea mai răspândită insectă cu două aripi din locuințele oamenilor.
+      Ochii ei compuși îi permit să vadă aproape 360 de grade în jur.
+      Transmite bacterii pentru că se așază atât pe deșeuri, cât și pe mâncare.
+      Are o singură pereche de aripi funcționale; a doua pereche (balansiere) ajută la menținerea echilibrului în zbor.
   insect.moth:
-    label: ""
-    summary: ""
-    info: ""
+    label: fluture de noapte
+    summary: Ruda nocturnă a fluturelui; zboară spre lumină și are antene pieptănate.
+    info: |
+      Fluturii de noapte sunt lepidoptere nocturne care, spre deosebire de fluturii de zi, își țin aripile pliate pe lângă corp în repaus.
+      Multe specii sunt atrase de lumina artificială.
+      Mătasea naturală o datorăm larvelor viermelui de mătase.
+      Fluturele-lună (luna) este unul dintre cei mai frumoși fluturi de noapte din lume.
+  insect.caterpillar:
+    label: omidă
+    summary: Larva unui fluture de zi sau de noapte; mănâncă frunze și se pregătește de împupare.
+    info: |
+      Omida este stadiul larvar al unui fluture de zi sau de noapte și își petrece viața mai ales mâncând frunze, pentru a strânge energie pentru transformare.
+      Unele omizi au culori vii care avertizează prădătorii că sunt otrăvitoare.
+      La împupare formează o pupă (cocon), în care are loc transformarea completă (metamorfoza) în adult.
   insect.praying_mantis:
-    label: ""
-    summary: ""
-    info: ""
-  insect.robber_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.scorpion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.silverfish:
-    label: ""
-    summary: ""
-    info: ""
-  insect.spider:
-    label: ""
-    summary: ""
-    info: ""
-  insect.stag_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: călugăriță
+    summary: O insectă răpitoare cu o poziție de rugăciune și un atac fulgerător.
+    info: |
+      Călugărița este o insectă răpitoare din grupul Mantodea.
+      Își datorează numele poziției în care își ține picioarele din față împreunate ca la rugăciune.
+      Este o vânătoare desăvârșită; lovește și își prinde prada într-o fracțiune de secundă.
+      Femela mănâncă uneori masculul după împerechere, deși nu se întâmplă întotdeauna.
   insect.stick_insect:
-    label: ""
-    summary: ""
-    info: ""
-  insect.termite:
-    label: ""
-    summary: ""
-    info: ""
-  insect.tiger_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.velvet_ant:
-    label: ""
-    summary: ""
-    info: ""
+    label: insecta-băț
+    summary: O insectă care imită perfect o crenguță sau o frunză.
+    info: |
+      Insecta-băț aparține grupului Phasmatodea și este un maestru al camuflajului; corpul ei imită perfect crenguțe sau frunze.
+      În fața pericolului rămâne complet nemișcată.
+      Unele specii se înmulțesc prin partenogeneză, adică fără mascul.
+      Sunt animale de companie exotice populare datorită îngrijirii ușoare.
+  insect.firefly:
+    label: licurici
+    summary: Un gândac care luminează cu lumină bioluminescentă pentru a atrage un partener.
+    info: |
+      Licuriciul este un gândac din familia Lampyridae care poate produce lumină rece (bioluminescență) în abdomen.
+      Masculii și femelele luminează în modele diferite pentru a se recunoaște și a se atrage.
+      Lumina este controlată de reacția chimică dintre luciferină și luciferază.
+      Licuricii sunt un indicator al unui mediu curat.
   insect.wasp:
-    label: ""
-    summary: ""
-    info: ""
+    label: viespe
+    summary: O insectă galben-negru cu ac, care construiește cuiburi de hârtie.
+    info: |
+      Viespea comună este o insectă cu ac din grupul Vespula, cu tipicele culori de avertizare galben-negre.
+      Construiește cuiburi de hârtie din pastă de lemn mestecată.
+      Spre deosebire de albină, viespea poate înțepa de mai multe ori.
+      Este folositoare ca regulator natural al insectelor dăunătoare.
+  insect.cockroach:
+    label: gândac de bucătărie
+    summary: O insectă rapidă, nocturnă, omnivoră; foarte rezistentă și adaptabilă.
+    info: |
+      Gândacul de bucătărie este una dintre cele mai rezistente insecte din lume; supraviețuiește radiațiilor și condițiilor care ar ucide alte animale.
+      Există peste 4.500 de specii, dar doar vreo 30 trăiesc în apropierea omului.
+      Este o insectă străveche; gândacii de bucătărie există de peste 300 de milioane de ani și au supraviețuit dinozaurilor.
+      Este rapid și poate alerga cu peste 5 km/h.
+  insect.spider:
+    label: păianjen
+    summary: Un arahnid cu opt picioare care țese pânze pentru a prinde insecte.
+    info: |
+      Păianjenul este un arahnid (nu o insectă) din ordinul Araneae, cu opt picioare și un corp din două părți.
+      Poate produce mătase cu care țese pânze pentru vânătoare sau înfășoară coconii cu ouă.
+      În lume trăiesc peste 48.000 de specii de păianjeni.
+      Toate speciile produc venin, dar marea majoritate sunt inofensive pentru om.
+  insect.scorpion:
+    label: scorpion
+    summary: Un arahnid veninos cu clești și o coadă curbată, veninoasă.
+    info: |
+      Scorpionul este un arahnid (nu o insectă) cu clești tipici și o coadă curbată terminată cu un ac veninos.
+      Este un animal străvechi; cei mai vechi scorpioni fosili au peste 430 de milioane de ani.
+      În întuneric devin fluorescenți sub lumina ultravioletă.
+      Din cele aproximativ 2.500 de specii, doar vreo 25 sunt periculoase pentru om.
+  insect.centipede:
+    label: scolopendră
+    summary: Un miriapod cu o singură pereche de picioare pe fiecare segment al corpului.
+    info: |
+      Scolopendra aparține clasei Chilopoda și are o singură pereche de picioare pe fiecare segment al corpului (nu o sută de picioare, cum sugerează numele englezesc).
+      Este o răpitoare rapidă care prinde insecte, râme și vertebrate mici.
+      Prima pereche de picioare este transformată în gheare cu venin care paralizează prada.
+      Unele specii tropicale depășesc 30 cm lungime.
+  insect.flea:
+    label: purice
+    summary: Un parazit minuscul și săltăreț care suge sângele mamiferelor și păsărilor.
+    info: |
+      Puricele este o insectă fără aripi din ordinul Siphonaptera, specializată într-un mod de viață parazitar.
+      Picioarele posterioare puternice permit sărituri de peste 150 de ori lungimea corpului.
+      Suge sângele mamiferelor și păsărilor și poate transmite boli; în trecut, puricii au răspândit ciuma.
+      Puricii sunt acrobații lumii insectelor.
+  insect.termite:
+    label: termită
+    summary: O insectă socială care construiește movile uriașe din pământ.
+    info: |
+      Termita este o insectă socială din grupul Isoptera, înrudită de departe cu gândacii de bucătărie.
+      Trăiesc în colonii cu un rege, o regină, soldați și lucrătoare.
+      Construiesc termitiere complexe, în tropice înalte până la 9 metri, cu propriul sistem de ventilație.
+      Ca descompunători importanți ai lemnului, joacă un rol-cheie în ecosistemele tropicale.
+  insect.bumblebee:
+    label: bondar
+    summary: O albină mare și păroasă cu un bâzâit adânc; un polenizator important.
+    info: |
+      Bondarul este o insectă mare și păroasă din genul Bombus, înrudită cu albina de miere.
+      Este un polenizator important, mai ales în climatele mai reci, unde albinele zboară mai puțin.
+      Se poate încălzi făcând să vibreze mușchii de zbor, astfel că zboară chiar și pe frig.
+      Bondarii sunt mai blânzi decât viespile și înțeapă doar la amenințare directă.
+  insect.hornet:
+    label: gărgăun
+    summary: Cea mai mare viespe din Europa, cu ac puternic și bâzâit sonor.
+    info: |
+      Gărgăunul este cea mai mare viespe socială din Europa și depășește 3,5 cm lungime.
+      Construiește cuiburi de hârtie în scorburi sau sub acoperișuri.
+      Acul lui este mai lung decât al viespilor, iar înțepătura este mai dureroasă, dar gărgăunul atacă doar la amenințare directă.
+      Este un dușman prădător important al altor insecte.
+  insect.cicada:
+    label: cicadă
+    summary: O insectă faimoasă pentru țârâitul puternic în zilele fierbinți.
+    info: |
+      Cicada este o insectă din suprafamilia Cicadoidea, faimoasă pentru unul dintre cele mai puternice sunete dintre toate insectele.
+      Masculii produc sunetul cu ajutorul unor membrane speciale (timbaluri) din abdomen, pentru a atrage femelele.
+      Unele specii din SUA au cicluri de dezvoltare de șaptesprezece sau treisprezece ani.
+      Nimfele trăiesc ani la rând sub pământ și se hrănesc cu rădăcini.
+  insect.locust:
+    label: lăcustă migratoare
+    summary: O lăcustă migratoare care formează roiuri devastatoare de milioane.
+    info: |
+      Lăcusta migratoare este o specie de ortopter care, în anumite condiții, formează roiuri migratoare uriașe.
+      Un roi poate număra miliarde de indivizi și poate distruge într-o singură zi culturi pe mii de hectare.
+      În țările din Africa și Asia, lăcustele sunt, din punct de vedere istoric, una dintre cele mai mari catastrofe agricole.
+      În Biblie, ele sunt una dintre cele zece plăgi ale Egiptului.
+  insect.aphid:
+    label: afidă
+    summary: O insectă minusculă, sugătoare, de pe tulpinile plantelor; produce rouă de miere.
+    info: |
+      Afidele sunt insecte mici, sugătoare, din suprafamilia Aphidoidea, care se hrănesc cu seva plantelor.
+      Produc o rouă de miere dulce, pentru care furnicile le îngrijesc în schimbul protecției.
+      Se înmulțesc extrem de repede; o singură femelă poate da naștere, într-un an, la sute de milioane de urmași.
+      Sunt dăunători importanți ai culturilor agricole.
+  insect.earwig:
+    label: urechelniță
+    summary: O insectă alungită cu clești la capătul abdomenului.
+    info: |
+      Urechelnița este o insectă din ordinul Dermaptera, caracterizată prin cleștii (cerci) de la capătul abdomenului, care servesc la apărare și împerechere.
+      Numele vine din superstiția că intră în urechile oamenilor; este un mit.
+      Femelele de urechelniță sunt neobișnuite pentru că îngrijesc ouăle și larvele tinere, ceea ce este rar printre insecte.
+      Trăiesc în crăpături, sub pietre și în litieră.
+  insect.silverfish:
+    label: peștișor de argint
+    summary: O insectă rapidă, fără aripi, întâlnită în case, la cărți și hârtie.
+    info: |
+      Peștișorul de argint este o insectă primitivă, fără aripi, din ordinul Zygentoma, care trăiește în locuințe.
+      Se hrănește cu amidon, hârtie, clei de legătorie și fibre textile.
+      Numele vine de la culoarea lui argintie și mișcarea de pește.
+      Aparține unuia dintre cele mai vechi ordine de insecte și trăiește aproape neschimbat de peste 300 de milioane de ani.
   insect.water_strider:
-    label: ""
-    summary: ""
-    info: ""
+    label: gerid
+    summary: O insectă care umblă pe suprafața apei datorită tensiunii superficiale.
+    info: |
+      Geridul este o insectă din familia Gerridae care poate umbla pe apă datorită perilor hidrofobi de pe picioare și tensiunii superficiale a apei.
+      Vânează insectele căzute în apă, pe care le recunoaște după vibrațiile suprafeței.
+      Este rapid și poate aluneca pe apă cu peste 150 de ori lungimea corpului pe secundă.
+  insect.dung_beetle:
+    label: gândac de bălegar
+    summary: Un gândac care rostogolește bile de bălegar, sacru în Egiptul antic.
+    info: |
+      Scarabeul sacru este un gândac din familia Scarabaeidae care modelează bălegarul în bile și le rostogolește pentru a le îngropa și a depune ouă în ele.
+      În Egiptul antic era un simbol al soarelui și al zeului Khepri.
+      Este unul dintre puținele animale care se orientează după Calea Lactee.
+      Ajută la reciclarea substanțelor nutritive și la aerarea solului.
+  insect.stag_beetle:
+    label: rădașcă
+    summary: Cel mai mare gândac din Europa; masculul are mandibule ca niște coarne.
+    info: |
+      Rădașca este cel mai mare gândac din Europa și depășește 7 cm lungime.
+      Masculul are mandibule uriașe, asemănătoare coarnelor, folosite în luptele pentru femele.
+      Larva trăiește până la 7 ani în lemnul putred de stejar și se hrănește cu ciuperci.
+      Este grav amenințată de dispariția pădurilor bătrâne și a lemnului mort.
+  insect.atlas_moth:
+    label: fluturele atlas
+    summary: Unul dintre cei mai mari fluturi de noapte din lume, cu aripi împodobite cu model de șarpe.
+    info: |
+      Fluturele atlas este unul dintre cei mai mari fluturi de noapte din lume, cu o anvergură a aripilor de până la 30 cm.
+      Vârfurile aripilor sunt colorate astfel încât să semene cu capete de șarpe, ceea ce sperie prădătorii.
+      Adulții nu au gură și nu se hrănesc deloc; trăiesc doar câteva zile.
+      Provine din pădurile tropicale din Asia de Sud-Est.
   insect.weevil:
-    label: ""
-    summary: ""
-    info: ""
+    label: gărgăriță
+    summary: Un gândac mic cu un rât alungit caracteristic.
+    info: |
+      Gărgărița este un gândac din familia Curculionidae, cea mai mare familie de animale din lume, cu peste 60.000 de specii.
+      Rătul alungit caracteristic (rostrum) servește la găurirea semințelor, fructelor și tulpinilor.
+      Unele specii sunt dăunători agricoli gravi, precum gărgărița bumbacului.
+      Alte specii sunt specializate pe o singură specie de plantă.
+  insect.lacewing:
+    label: crisopă
+    summary: O insectă gingașă cu aripi cu nervuri transparente; larvele vânează afide.
+    info: |
+      Crisopa este o insectă din familia Chrysopidae, cu aripi gingașe, cu nervuri transparente, și ochi aurii.
+      Larvele sunt răpitoare și devorează cantități uriașe de afide, devenind protectori naturali ai plantelor.
+      Adulții se hrănesc cu nectar și polen.
+      Sunt atrase de lumină și sunt un indicator al unui mediu sănătos.
+  insect.crane_fly:
+    label: tipulă
+    summary: O muscă mare, asemănătoare țânțarului, cu picioare extrem de lungi.
+    info: |
+      Tipula este o insectă cu două aripi din familia Tipulidae, care seamănă cu un țânțar uriaș, dar nu înțeapă și nu parazitează.
+      Picioarele ei extrem de lungi se rup ușor; este un mecanism de apărare (autotomie).
+      Adulții trăiesc doar câteva zile și fie nu mănâncă, fie se hrănesc cu nectar.
+      Larvele trăiesc în sol și se hrănesc cu rădăcini.
+  insect.mayfly:
+    label: rusalie
+    summary: O insectă cu cea mai scurtă viață de adult, care trăiește doar ore până la zile.
+    info: |
+      Rusalia este o insectă din ordinul Ephemeroptera și un simbol al efemerității; adulții trăiesc doar ore până la zile.
+      Nu au piese bucale funcționale și nu se hrănesc deloc.
+      Nimfele trăiesc între 1 și 3 ani sub apă.
+      Roirea în masă a rusaliilor este un spectacol fascinant al naturii; pe Dunăre, în Ungaria, este un fenomen unic.
+  insect.damselfly:
+    label: libelulă mică
+    summary: O rudă zveltă a libelulei; în repaus își pliază aripile pe lângă corp.
+    info: |
+      Libelula mică este o insectă înrudită cu libelulele, dar mai zveltă, și în repaus își pliază aripile paralel cu corpul, spre deosebire de libelulele mari.
+      Este o răpitoare și vânează insecte mici în zbor.
+      Nimfele trăiesc în apă și formează o parte importantă a ecosistemelor acvatice.
+      Sunt un indicator al calității cursurilor de apă.
+  insect.robber_fly:
+    label: muscă răpitoare
+    summary: O muscă prădătoare care prinde alte insecte în plin zbor.
+    info: |
+      Musca răpitoare este o insectă cu două aripi, prădătoare, din familia Asilidae, care prinde alte insecte direct în zbor.
+      Are picioare puternice pentru a apuca prada și un rât înțepător pentru a injecta un venin paralizant.
+      Unele specii imită înfățișarea bondarilor sau viespilor ca protecție împotriva prădătorilor.
+      Este folositoare ca regulator natural al populațiilor de insecte.
+  insect.ground_beetle:
+    label: carab
+    summary: Un gândac răpitor rapid, care trăiește sub pietre și în litieră.
+    info: |
+      Carabul este un gândac din familia Carabidae; majoritatea speciilor sunt răpitoare nocturne active care prind alte insecte, râme și melci.
+      Sunt rapizi și fug repede din calea pericolului.
+      Unele specii, precum carabul violet, au un luciu metalic frumos.
+      Sunt indicatori ai unui sol sănătos și ai agriculturii naturale.
+  insect.tiger_beetle:
+    label: cicindelă
+    summary: Un gândac rapid, de culoare metalică, cu văz excelent.
+    info: |
+      Cicindela este un gândac din subfamilia Cicindelinae, faimos pentru viteza sa neobișnuită, capacitatea de zbor și văzul ascuțit.
+      Aleargă atât de repede încât trebuie să se oprească și să se reorienteze, fiindcă mișcarea este prea rapidă pentru sistemul său vizual.
+      Are corpuri metalice frumos colorate (verzi, albastre, roșii) și ochi mari.
+      Larvele sapă tuneluri verticale în pământ și pândesc prada la intrare.
+  insect.hoverfly:
+    label: muscă plutitoare
+    summary: O muscă ce imită culorile viespilor și albinelor; un polenizator al grădinilor.
+    info: |
+      Musca plutitoare este o insectă cu două aripi din familia Syrphidae, care imită culorile viespilor și albinelor ca protecție împotriva prădătorilor (mimetism batesian), deși nu înțeapă.
+      Este un polenizator important; vizitează mai multe specii de plante decât albinele.
+      Adulții se hrănesc cu nectar și polen.
+      Larvele unor specii vânează afide și astfel ajută în grădină.
   insect.whirligig_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: gândac-învârtitor
+    summary: Un gândac mic care se învârte în roiuri pe suprafața apei.
+    info: |
+      Gândacul-învârtitor este un gândac de apă din familia Gyrinidae care trăiește la suprafață, iar învârtirea în roiuri îl ajută să evite prădătorii.
+      Ochii lui sunt împărțiți în două părți; una vede deasupra apei, cealaltă dedesubt.
+      Detectează undele de la suprafață care semnalează hrană sau pericol.
+      Ziua se învârte, noaptea zboară.
+  insect.louse:
+    label: păduche
+    summary: Un parazit minuscul, fără aripi, care trăiește pe pielea și în părul mamiferelor.
+    info: |
+      Păduchele este o insectă parazită, fără aripi, din ordinul Phthiraptera, care trăiește pe pielea gazdei și în blana sau părul ei.
+      Suge sânge și provoacă mâncărime.
+      Păduchele de cap există în toată lumea și afectează copiii indiferent de condițiile de igienă.
+      În trecut, păduchii transmiteau tifosul și alte boli.
+  insect.bedbug:
+    label: ploșniță
+    summary: Un parazit turtit care suge sânge noaptea; se ascunde în crăpăturile mobilei.
+    info: |
+      Ploșnița de pat este o insectă turtită și ovală din familia Cimicidae, activă mai ales noaptea.
+      Mușcă și suge sângele gazdei adormite.
+      Se ascunde în crăpăturile saltelei, în mobilă și în spatele tapetului.
+      În ultimele decenii s-a răspândit în toată lumea datorită călătoriilor internaționale.
+  insect.antlion:
+    label: furnicar-leu
+    summary: O larvă care sapă capcane în formă de pâlnie pentru furnici în nisip.
+    info: |
+      Furnicarul-leu este larva unei insecte din familia Myrmeleontidae, care sapă pâlnii conice în nisipul uscat.
+      Când o furnică alunecă în capcană, furnicarul-leu o prinde cu mandibulele și îi injectează sucuri digestive.
+      Adulții sunt neînsemnați, seamănă cu libelulele și zboară noaptea.
+      Larvele pot trăi ani la rând sub pământ fără să mănânce.
+  insect.goliath_beetle:
+    label: gândacul Goliat
+    summary: Una dintre cele mai mari și mai grele insecte din lume, din Africa tropicală.
+    info: |
+      Gândacul Goliat este una dintre cele mai mari insecte din lume; masculii cântăresc până la 100 de grame și depășesc 11 cm lungime.
+      Trăiește în pădurile tropicale ale Africii ecuatoriale.
+      Adulții se hrănesc cu fructe și cu seva copacilor.
+      În Africa, copiii îi țin uneori ca jucării, iar unii sunt vânduți colecționarilor.
+  insect.bombardier_beetle:
+    label: gândacul bombardier
+    summary: Un gândac care, pentru apărare, aruncă un amestec otrăvitor fierbinte.
+    info: |
+      Gândacul bombardier este un gândac din subfamilia Brachininae care se apără într-un mod unic; amestecă în abdomen două substanțe chimice, ceea ce produce o reacție explozivă de peste 100 de grade.
+      Vaporii foarte corozivi sunt aruncați cu o pocnitură puternică de până la 500 de ori pe secundă.
+      Este unul dintre cele mai fascinante exemple de apărare chimică din natură.
+  insect.diving_beetle:
+    label: ditisc
+    summary: Un gândac de apă răpitor care înoată sub suprafață.
+    info: |
+      Ditiscul mărginit este un gândac de apă răpitor din familia Dytiscidae, care trăiește în iazuri și în ape stătătoare.
+      Înoată sprinten datorită picioarelor posterioare turtite care funcționează ca niște vâsle.
+      Respiră la suprafață și își face rezerve de aer sub elitre.
+      Vânează insecte, larve, pești mici și mormoloci.
+  insect.velvet_ant:
+    label: furnică de catifea
+    summary: O viespe fără aripi, portocaliu-negru, care seamănă cu o furnică.
+    info: |
+      Furnica de catifea este de fapt o viespe din familia Mutillidae; femelele sunt fără aripi și seamănă cu furnicile.
+      Au peri roșii sau portocalii izbitori, ca avertisment.
+      Femelele au un ac extrem de puternic, poreclit ucigașul de vaci.
+      Parazitează în cuiburile bondarilor.
