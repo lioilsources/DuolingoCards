@@ -1,204 +1,364 @@
 lang: nl
 pivot: false
-title: ""
+title: Fruit
 cards:
-  fruit.ackee:
-    label: ""
-    summary: ""
-    info: ""
   fruit.apple:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.apricot:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.avocado:
-    label: ""
-    summary: ""
-    info: ""
+    label: appel
+    summary: Een ronde rode of groene vrucht met een zoetzure smaak.
+    info: De appel is de vrucht van de appelboom, een van de meest geteelde gewassen ter wereld. Hij bevat vitamine C en vezels; er bestaan meer dan 7.500 rassen.
   fruit.banana:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.blackberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.blueberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cantaloupe:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cherry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.coconut:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.cranberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.currant:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.damson:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.date:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.dragon_fruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.durian:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.feijoa:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.fig:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.gooseberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.grape:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.grapefruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.guava:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.jackfruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.kiwi:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lemon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lime:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.longan:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.lychee:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.mango:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.medlar:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.melon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.mulberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.nectarine:
-    label: ""
-    summary: ""
-    info: ""
+    label: banaan
+    summary: Een gele tropische vrucht met zoet vruchtvlees.
+    info: De banaan is de vrucht van een tropische plant uit de bananenfamilie. Hij is rijk aan kalium en natuurlijke suikers die snelle energie geven.
   fruit.orange:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.papaya:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.passion_fruit:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.peach:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pear:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.persimmon:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pineapple:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.plum:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.pomegranate:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.quince:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.rambutan:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.raspberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.starfruit:
-    label: ""
-    summary: ""
-    info: ""
+    label: sinaasappel
+    summary: Een ronde citrusvrucht met een geurige oranje schil.
+    info: De sinaasappel is een citrusvrucht afkomstig uit Zuidoost-Azië, tegenwoordig wereldwijd geteeld. Hij is rijk aan vitamine C en geliefd als sap.
   fruit.strawberry:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.tamarind:
-    label: ""
-    summary: ""
-    info: ""
-  fruit.tangerine:
-    label: ""
-    summary: ""
-    info: ""
+    label: aardbei
+    summary: Een rode, sappige, hartvormige bes.
+    info: De tuinaardbei is een geliefde vrucht uit de rozenfamilie. Ze is rijk aan vitamine C en antioxidanten en wordt in de zomer geoogst.
+  fruit.grape:
+    label: druif
+    summary: Een kleine ronde bes die in trossen groeit.
+    info: De wijnstok brengt druiven voort in verschillende kleuren, van groen tot donkerpaars. Druiven worden vers gegeten, tot rozijnen gedroogd of tot wijn geperst.
   fruit.watermelon:
-    label: ""
-    summary: ""
-    info: ""
+    label: watermeloen
+    summary: Een grote groengestreepte vrucht met rood sappig vruchtvlees.
+    info: De watermeloen komt uit Afrika en is een geliefde zomervrucht. Hij bestaat voor 92% uit water en bevat lycopeen, dat hem zijn rode kleur geeft.
+  fruit.mango:
+    label: mango
+    summary: Een tropische vrucht met sappig geeloranje vruchtvlees.
+    info: De mango wordt de koning van de tropische vruchten genoemd. Rijk aan vitamine A en C, komt hij uit Zuid-Azië, waar hij al 4.000 jaar wordt geteeld.
+  fruit.cherry:
+    label: kers
+    summary: Een kleine ronde rode steenvrucht die in paren groeit.
+    info: De kers is de vrucht van de zoete kers, een geliefde zomervrucht. Ze bevat antioxidanten en melatonine; er bestaan zoete en zure rassen.
+  fruit.pear:
+    label: peer
+    summary: Een druppelvormige vrucht met een zoete, milde smaak.
+    info: De peer is de vrucht van de perenboom, een naaste verwant van de appel. Ze heeft zacht, sappig vruchtvlees en een hoog vezelgehalte; er bestaan honderden rassen.
+  fruit.pineapple:
+    label: ananas
+    summary: Een tropische vrucht met een stekelige kroon en goudgeel vruchtvlees.
+    info: De ananas komt uit Zuid-Amerika en wordt nu in de tropen van de hele wereld geteeld. Hij bevat het enzym bromelaïne, dat de spijsvertering helpt.
+  fruit.lemon:
+    label: citroen
+    summary: Een zure gele citrusvrucht; een bron van vitamine C en aroma.
+    info: |
+      De citroen is een zure citrusvrucht afkomstig uit Azië.
+      Ze is rijk aan vitamine C en citroenzuur.
+      Ze wordt gebruikt in de keuken, in dranken, in cosmetica en in schoonmaakmiddelen.
+      De schil van de citroenboom bevat een etherische olie met een kenmerkende citroengeur.
+  fruit.lime:
+    label: limoen
+    summary: Een kleine groene zure citrusvrucht; een sleutelingrediënt van de tropische keuken.
+    info: |
+      De limoen is een kleine groene citrusvrucht met zuur sap en een aromatische schil.
+      Ze is onmisbaar in de Mexicaanse, Thaise en Vietnamese keuken.
+      Ze bevat minder vitamine C dan de citroen, maar een sterker aroma.
+      Het eten van limoenen beschermde zeelieden tegen scheurbuik dankzij de vitamine C.
+  fruit.kiwi:
+    label: kiwi
+    summary: Een bruine harige vrucht met groen vruchtvlees; rijk aan vitaminen.
+    info: |
+      De kiwi komt uit China, waar hij Chinese kruisbes wordt genoemd.
+      Nieuw-Zeeland commercialiseerde hem en hernoemde hem naar zijn nationale vogel, de kiwi.
+      Hij bevat twee keer zoveel vitamine C als een sinaasappel.
+      Het vruchtvlees is felgroen; er bestaan ook gouden (gele) rassen.
+  fruit.peach:
+    label: perzik
+    summary: Een fluwelige geelroze steenvrucht; een symbool van de zomer.
+    info: |
+      De perzik komt uit China, waar hij een symbool van onsterfelijkheid is.
+      Zijn zachte fluwelige huid is kenmerkend.
+      Er bestaan witte en gele rassen; de nectarine is de gladde, dons-loze variant.
+      In China maken perziken deel uit van het Nieuwjaar en van de geneeskrachtige mythologie.
+  fruit.plum:
+    label: pruim
+    summary: Een paarse steenvrucht; de basis van pruimenbrandewijn en pruimenmoes.
+    info: |
+      De pruim is een basisvrucht van Midden-Europa.
+      Slivovitz (pruimenbrandewijn) is een traditionele Tsjechische en Slowaakse sterkedrank.
+      Pruimenmoes is een typisch product van de herfstoogst.
+      Wereldwijd bestaan er meer dan 2.000 pruimenrassen.
+  fruit.apricot:
+    label: abrikoos
+    summary: Een kleine oranje steenvrucht; zoetzuur en sappig.
+    info: |
+      De abrikoos komt uit Centraal-Azië.
+      Ze wordt in heel Europa geteeld; de zoetste komen uit Turkije en Spanje.
+      Ze is rijk aan bètacaroteen en vitamine A.
+      Gedroogde abrikozen zijn een geliefd gezond tussendoortje.
+  fruit.raspberry:
+    label: framboos
+    summary: Een rode samengestelde bes; een symbool van de zomertuin.
+    info: |
+      De framboos is een samengestelde bes uit vele kleine steenvruchtjes.
+      Ze groeit wild en gekweekt; de oogst valt in de zomer en de herfst.
+      Ze is rijk aan vitamine C en K, mangaan en antioxidanten.
+      Frambozenjam en frambozenazijn zijn traditionele lekkernijen.
+  fruit.blueberry:
+    label: bosbes
+    summary: Een donkerblauwe bes; een superfood vol antioxidanten.
+    info: |
+      De bosbes is rijk aan anthocyanen, kleurstoffen met sterke antioxidatieve eigenschappen.
+      Anthocyanen geven haar de donkerblauwe kleur.
+      Studies wijzen op een positief effect op de cognitieve functies en de gezondheid van het hart.
+      Gekweekte bosbessen zijn groter dan wilde bosbessen.
+  fruit.blackberry:
+    label: braam
+    summary: Een donkerpaarse samengestelde bes van de braamstruik.
+    info: |
+      De braam is een donkerpaarse samengestelde bes die aan een doornige struik groeit.
+      De wilde braam groeit aan bosranden en in struikgewas.
+      Ze bevat veel vitamine C, vitamine K en vezels.
+      Braamjam, compote en likeur zijn traditionele producten.
+  fruit.coconut:
+    label: kokosnoot
+    summary: Een grote tropische noot met een harde schaal en wit vruchtvlees.
+    info: |
+      De kokosnoot is de vrucht van de kokospalm; botanisch is het een steenvrucht, geen noot.
+      Het kokoswater in de onrijpe vrucht is een natuurlijke isotone drank.
+      Kokosmelk en kokosolie vormen de basis van de Zuidoost-Aziatische en Indiase keuken.
+      De kokospalm wordt de boom van duizend toepassingen genoemd.
+  fruit.papaya:
+    label: papaja
+    summary: Een grote tropische vrucht met diep oranje vruchtvlees.
+    info: |
+      De papaja komt uit tropisch Amerika.
+      Ze bevat het enzym papaïne, dat de vertering van eiwitten bevordert.
+      Ze is rijk aan vitamine C, bètacaroteen en antioxidanten.
+      Onrijpe papaja wordt in de Zuidoost-Aziatische keuken als groente gebruikt (som tam-salade).
+  fruit.guava:
+    label: guave
+    summary: Een tropische vrucht met een intense geur en wit of roze vruchtvlees.
+    info: |
+      De guave komt uit tropisch Amerika en heeft zich over tropisch Azië en Afrika verspreid.
+      Ze bevat vier keer meer vitamine C dan een sinaasappel.
+      De schil en de zaden zijn eetbaar; de hele vrucht is voedzaam.
+      Guavesap en guavejam zijn populaire producten in tropische landen.
+  fruit.pomegranate:
+    label: granaatappel
+    summary: Een rode vrucht met duizend zoete zaden; een symbool van vruchtbaarheid.
+    info: |
+      De granaatappel komt uit Centraal-Azië en het Middellandse Zeegebied.
+      Hij bevat meer dan 600 zaden omgeven door doorschijnend rood vruchtvlees (arillen).
+      Hij is rijk aan antioxidanten; studies onderzoeken zijn effect op hart en ontstekingen.
+      Hij symboliseert vruchtbaarheid en overvloed in veel culturen.
+  fruit.fig:
+    label: vijg
+    summary: Een peervormige vrucht van de vijgenboom; zoet en vol zaden.
+    info: |
+      De vijg is een van de oudste geteelde vruchten; de sporen gaan 11.000 jaar terug.
+      Het is eigenlijk geen vrucht, maar een omhulsel gevuld met duizenden kleine bloempjes.
+      De vijgenbladeren van Adam en Eva in het bijbelse verhaal zijn bladeren van de vijgenboom.
+      Gedroogde vijgen zijn een uitstekende bron van calcium, kalium en vezels.
+  fruit.date:
+    label: dadel
+    summary: Een zoete bruine ovale vrucht van de dadelpalm; een basisvoedsel van het Midden-Oosten.
+    info: |
+      Dadels zijn de zoete vruchten van de dadelpalm.
+      Ze zijn al duizenden jaren een basisvoedsel van het Midden-Oosten.
+      Ze bevatten meer dan 60% suiker en zijn een uitgesproken energiebron.
+      In de islam worden dadels traditioneel als eerste gegeten bij het verbreken van het ramadanvasten (iftar).
+  fruit.melon:
+    label: meloen
+    summary: Een grote zoete vrucht met oranje, groen of wit vruchtvlees.
+    info: |
+      De meloen is een tropische tot subtropische vrucht met een hoog watergehalte.
+      Ze komt uit Afrika en Azië; tegenwoordig wordt ze wereldwijd geteeld.
+      Ze bestaat voor meer dan 90% uit water en is zeer dorstlessend.
+      Er bestaan honderden rassen, waaronder cantaloupe, honingmeloen en galia.
+  fruit.cantaloupe:
+    label: cantaloupemeloen
+    summary: Een genette meloen met diep oranje vruchtvlees.
+    info: |
+      De cantaloupemeloen is een geliefd meloenras afkomstig uit Azië.
+      De naam komt van de pauselijke residentie Cantalupo bij Rome.
+      Het oranje vruchtvlees is rijk aan bètacaroteen en vitamine A.
+      Het is een van de zoetste meloensoorten.
+  fruit.grapefruit:
+    label: grapefruit
+    summary: Een grote bitterzoete citrusvrucht; een dieet-superster.
+    info: |
+      De grapefruit is een kruising van sinaasappel en pomelo.
+      Hij werd in de 18e eeuw op Barbados beschreven.
+      Roze en rode grapefruit bevatten lycopeen en bètacaroteen.
+      Grapefruitsap heeft interacties met veel medicijnen; patiënten moeten hun arts informeren.
+  fruit.tangerine:
+    label: mandarijn
+    summary: Een kleine zoete citrusvrucht met een losse schil; een symbool van Kerstmis.
+    info: |
+      De mandarijn is een kleine, gemakkelijk te pellen citrusvrucht afkomstig uit China.
+      Ze is een symbool van het Chinese Nieuwjaar en van geluk.
+      In veel landen is ze een typische kerstvrucht.
+      Ze bevat vitamine C, antioxidanten en flavonoïden.
+  fruit.passion_fruit:
+    label: passievrucht
+    summary: Een tropische vrucht met een gerimpelde schil en aromatisch, zaadrijk vruchtvlees.
+    info: |
+      De passievrucht komt uit tropisch Zuid-Amerika.
+      Haar naam komt van missionarissen die in de bloem de symbolen van het lijden van Christus zagen.
+      Het vruchtvlees zit vol zaden omhuld door een aromatische gel.
+      Ze is een uitstekende bron van vitamine C, vezels en antioxidanten.
+  fruit.lychee:
+    label: lychee
+    summary: Een kleine rode tropische vrucht met doorschijnend vruchtvlees; geliefd in Azië.
+    info: |
+      De lychee is een tropische vrucht afkomstig uit China.
+      Haar ruwe rode schil laat zich pellen en onthult doorschijnend wit vruchtvlees.
+      Ze heeft een zoete, fijn aromatische smaak.
+      In China is ze een symbool van geluk en voorspoed.
+  fruit.dragon_fruit:
+    label: drakenfruit
+    summary: Een roze tropische cactusvrucht met wit gespikkeld vruchtvlees.
+    info: |
+      Het drakenfruit (pitaya) komt uit Mexico en Midden-Amerika.
+      Zijn felroze schil en witte vruchtvlees met zwarte zaden zijn zeer decoratief.
+      Het heeft een milde smaak en bevat antioxidanten en vitamine C.
+      Ervan worden sappen, smoothies en decoratieve desserts gemaakt.
+  fruit.starfruit:
+    label: stervrucht
+    summary: Een gele tropische vrucht die sterren vormt bij het snijden.
+    info: |
+      De stervrucht komt uit Zuid- en Zuidoost-Azië.
+      Overdwars gesneden vormt ze een perfecte stervorm, vandaar de naam.
+      Ze heeft een zoetzure smaak en is rijk aan vitamine C.
+      Mensen met een nierziekte mogen haar niet eten vanwege de oxalaten.
+  fruit.avocado:
+    label: avocado
+    summary: Een romige tropische steenvrucht; de basis van guacamole.
+    info: |
+      De avocado komt uit Mexico en Midden-Amerika.
+      Botanisch is het een vrucht (een steenvrucht), maar culinair wordt hij als groente gebruikt.
+      Hij bevat gezonde enkelvoudig onverzadigde vetten (oliezuur), net als olijfolie.
+      Hij is wereldwijd een trendy gezond voedsel; avocadotoast is een icoon van de moderne cafécultuur.
+  fruit.persimmon:
+    label: kaki
+    summary: Een oranje tomaatachtige vrucht; zoet en wrang.
+    info: |
+      De kaki komt uit China en Japan; hij wordt ook persimoen genoemd.
+      Onrijpe kaki is looizuurrijk en wrang; rijp is hij zoet als honing.
+      Hij is rijk aan vitamine A en C en aan mineralen.
+      In Japan is het een traditionele herfstvrucht.
+  fruit.mulberry:
+    label: moerbei
+    summary: Een donkerpaarse bes van de moerbeiboom; het voedsel van de zijderups.
+    info: |
+      De moerbei is de bes van de moerbeiboom; de bladeren van de moerbeiboom zijn het voedsel van de zijderups.
+      Er bestaan witte, rode en zwarte moerbeien; de zwarte is de zoetste.
+      In de geschiedenis was de teelt van de moerbeiboom cruciaal voor de zijdeproductie.
+      Moerbeien zijn rijk aan resveratrol, vitamine C en ijzer.
+  fruit.cranberry:
+    label: veenbes
+    summary: Een kleine rode zure bes; een traditioneel Amerikaans ingrediënt.
+    info: |
+      De veenbes is een kleine zure rode bes.
+      Ze is een traditioneel onderdeel van het Amerikaanse Thanksgiving (cranberrysaus).
+      Ze bevat proanthocyanidinen, die verhinderen dat E. coli-bacteriën zich aan de wanden van de urinewegen hechten.
+      Het effect van de veenbes op het voorkomen van urineweginfecties is wetenschappelijk onderbouwd.
+  fruit.gooseberry:
+    label: kruisbes
+    summary: Een kleine ronde doorschijnende bes; een tuinfavoriet.
+    info: |
+      De kruisbes is een kleine vrucht typisch voor tuinen van Midden-Europa.
+      Ze bestaat in groene, rode en gele rassen.
+      Ze is rijk aan vitamine C.
+      Kruisbessenwijn is een historisch geliefde drank.
+  fruit.currant:
+    label: aalbes
+    summary: Een kleine rode, zwarte of witte bes in een tros.
+    info: |
+      De aalbes is een kleine bes die in trosvormige aren groeit.
+      De zwarte bes bevat de meeste vitamine C van alle bessen.
+      De zwarte bes is de basis van de smaak van cassislikeur en van de Britse drank Ribena.
+      De rode aalbes wordt gebruikt in jam en als decoratie van desserts.
+  fruit.quince:
+    label: kweepeer
+    summary: Een harde gele vrucht verwant aan de appel; wordt altijd gekookt gegeten.
+    info: |
+      De kweepeer is verwant aan de appel en de peer; rauw is ze hard en wrang.
+      Ze wordt altijd verhit verwerkt tot kweeperengelei (membrillo), kweeperenwijn of kweeperenbrandewijn.
+      Ze bevat veel pectine, geschikt voor het maken van jam.
+      De oudste in Europa gedocumenteerde marmelade (16e eeuw) werd van kweeperen gemaakt.
+  fruit.jackfruit:
+    label: jackfruit
+    summary: Een enorme tropische vrucht; de grootste aan een boom groeiende vrucht ter wereld.
+    info: |
+      De jackfruit brengt de grootste aan een boom groeiende vruchten voort; ze kunnen meer dan 35 kg wegen.
+      Hij komt uit tropisch Azië en is een basisvoedsel in India, Bangladesh en Thailand.
+      Onrijpe jackfruit heeft een neutrale textuur en wordt als vegetarische vleesvervanger gebruikt.
+      De rijpe gele stukken zijn zoet en aromatisch.
+  fruit.durian:
+    label: doerian
+    summary: Een grote stekelige tropische vrucht met een sterke geur; de koning van de tropische vruchten.
+    info: |
+      De doerian wordt de koning van de tropische vruchten genoemd.
+      Zijn sterke geur is voor sommigen afstotend, voor anderen verleidelijk; in veel Aziatische hotels is hij verboden.
+      Het vruchtvlees is romig en zoet met een complexe smaak van amandel, vanille en kaas.
+      In Zuidoost-Azië wordt hij gewaardeerd als een verfijnde luxe.
+  fruit.rambutan:
+    label: ramboetan
+    summary: Een rode harige tropische vrucht, vergelijkbaar met de lychee.
+    info: |
+      De ramboetan komt uit Maleisië; de naam komt van het Maleise rambut, wat haar betekent.
+      Zijn rode schil is bedekt met zachte, haakvormige uitsteeksels.
+      Het vruchtvlees is doorschijnend en zoet, vergelijkbaar met de lychee.
+      Hij is rijk aan vitamine C en ijzer.
+  fruit.longan:
+    label: longan
+    summary: Een kleine bruine tropische vrucht, verwant aan de lychee.
+    info: |
+      De longan is de vrucht van een tropische boom afkomstig uit China.
+      De naam komt van het Chinese long yan, wat drakenoog betekent, vanwege het doorschijnende vruchtvlees met een zwarte pit.
+      Hij heeft een zoete en aromatische smaak.
+      In de traditionele Chinese geneeskunde geldt hij als een voedsel dat bloed en hart ondersteunt.
+  fruit.tamarind:
+    label: tamarinde
+    summary: Een bruine peulvrucht met zuur vruchtvlees; een basis van de Thaise keuken.
+    info: |
+      De tamarinde komt uit tropisch Afrika; tegenwoordig wordt ze in de hele tropen geteeld.
+      Het vruchtvlees is sterk zuur en zoet; het wordt gebruikt in pad thai, worcestershiresaus en Indiase chutney.
+      Het woord komt uit het Arabisch tamr hindi, wat Indiase dadel betekent.
+      Ze is rijk aan wijnsteenzuur, B-vitamines en ijzer.
+  fruit.nectarine:
+    label: nectarine
+    summary: Een gladde donsloze perzik; sappig en zoet.
+    info: |
+      De nectarine is een natuurlijke mutatie van de perzik met een gladde huid.
+      Ze verschilt van de perzik alleen door het gen voor de gladheid van de huid.
+      Ze heeft een vergelijkbare smaak, maar een stevigere structuur.
+      De naam komt van de nectar van de goden en getuigt van haar veronderstelde volmaaktheid.
+  fruit.damson:
+    label: kwets
+    summary: Een kleine donkere pruim, typisch voor Engelse plattelandstuinen.
+    info: |
+      De kwets is een klein, donkerblauwzwart pruimenras.
+      De naam komt van Damascus, vanwaar de vrucht naar Europa reisde.
+      Rauw is ze erg zuur, maar uitstekend in jam, moes en gin (damson gin).
+      In de Engelse traditie wordt ze sinds de oudheid geteeld.
+  fruit.medlar:
+    label: mispel
+    summary: Een kleine bruine vrucht verwant aan de appel; moet na de oogst narijpen.
+    info: |
+      De mispel is een aloude tuinplant die sinds de middeleeuwen wordt geteeld.
+      Ze is pas eetbaar na het weekworden (bletten), dus na het narijpen na de oogst.
+      Ze is rijk aan looistoffen en vitamine C.
+      Shakespeare noemt haar in Romeo en Julia; tegenwoordig is ze eerder een curiosum voor tuiniers.
+  fruit.ackee:
+    label: akee
+    summary: Een rode tropische vrucht met eetbare gele arillen; de nationale vrucht van Jamaica.
+    info: |
+      De akee is de nationale vrucht van Jamaica; hij is genoemd naar kapitein Bligh (1793).
+      Alleen de rijpe gele arillen zijn eetbaar; onrijpe of overrijpe vrucht is giftig (hypoglycine A).
+      Ackee and saltfish is het nationale gerecht van Jamaica.
+      Hij komt uit West-Afrika en werd door de slavenhandel naar de Caraïben gebracht.
+  fruit.feijoa:
+    label: feijoa
+    summary: Een kleine ovale groene vrucht met aromatisch vruchtvlees.
+    info: |
+      De feijoa komt uit Zuid-Amerika.
+      Haar vruchtvlees heeft een intense aromatische smaak van ananas, guave en munt.
+      Ze is in Nieuw-Zeeland zeer populair als herfstvrucht.
+      Ze is weinig bekend in Europa, maar geliefd in de landen van herkomst.

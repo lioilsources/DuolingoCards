@@ -2,203 +2,379 @@ lang: sv
 pivot: false
 title: Insekter
 cards:
-  insect.ant:
-    label: ""
-    summary: ""
-    info: ""
-  insect.antlion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.aphid:
-    label: ""
-    summary: ""
-    info: ""
-  insect.atlas_moth:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bedbug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bee:
-    label: ""
-    summary: ""
-    info: ""
-  insect.beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bombardier_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bumblebee:
-    label: ""
-    summary: ""
-    info: ""
   insect.butterfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.caterpillar:
-    label: ""
-    summary: ""
-    info: ""
-  insect.centipede:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cicada:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cockroach:
-    label: ""
-    summary: ""
-    info: ""
-  insect.crane_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cricket:
-    label: ""
-    summary: ""
-    info: ""
-  insect.damselfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.diving_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dragonfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dung_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.earwig:
-    label: ""
-    summary: ""
-    info: ""
-  insect.firefly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.flea:
-    label: ""
-    summary: ""
-    info: ""
-  insect.fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.goliath_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.grasshopper:
-    label: ""
-    summary: ""
-    info: ""
-  insect.ground_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hornet:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hoverfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.lacewing:
-    label: ""
-    summary: ""
-    info: ""
+    label: fjäril
+    summary: En flygande insekt med stora färgglada vingar.
+    info: Fjärilen är en insekt med två par fjällbeklädda vingar, ofta med iögonfallande färger.
+  insect.bee:
+    label: bi
+    summary: En gul-svart insekt som pollinerar blommor och gör honung.
+    info: Honungsbiet är en social insekt som lever i bikupor och samlar nektar.
   insect.ladybug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.locust:
-    label: ""
-    summary: ""
-    info: ""
-  insect.louse:
-    label: ""
-    summary: ""
-    info: ""
-  insect.mayfly:
-    label: ""
-    summary: ""
-    info: ""
+    label: nyckelpiga
+    summary: En liten rund röd skalbagge med svarta prickar.
+    info: Nyckelpigan är en liten skalbagge som äter bladlöss och är nyttig i trädgården.
+  insect.dragonfly:
+    label: trollslända
+    summary: En insekt med lång kropp och två par genomskinliga vingar.
+    info: Trollsländan är ett rovdjur med utmärkt syn som jagar vid vattenytor.
+  insect.ant:
+    label: myra
+    summary: En liten social insekt som lever i kolonier.
+    info: Myran är en insekt som bildar stora kolonier med arbetsfördelning.
+  insect.beetle:
+    label: skalbagge
+    summary: Skalbaggar utgör insekternas största ordning, med över 400 000 beskrivna arter.
+    info: |
+      Skalbaggen tillhör ordningen Coleoptera och utgör omkring 40 % av alla beskrivna insektsarter.
+      Den kännetecknas av hårda täckvingar (elytra) som döljer de riktiga flygvingarna.
+      Ekoxen är Europas största skalbagge; hanen har kraftiga käkar som liknar horn.
+      Skalbaggar lever i nästan alla miljöer, från tropikerna till arktiska trakter.
+  insect.grasshopper:
+    label: gräshoppa
+    summary: En hoppande insekt med långa bakben och ett sirpande läte.
+    info: |
+      Gräshoppan är en insekt av ordningen Orthoptera med kraftiga bakben som möjliggör hopp på upp till tjugo gånger kroppslängden.
+      Hanarna åstadkommer ett karakteristiskt läte (stridulation) genom att gnida benen mot vingarna.
+      Den äter växter och kan i stora svärmar skada grödor.
+  insect.cricket:
+    label: syrsa
+    summary: En nattaktiv insekt, berömd för hanarnas sirpande.
+    info: |
+      Fältsyrsan är en nattaktiv insekt av ordningen Orthoptera.
+      Hanarna spelar genom att gnida vingarna mot varandra för att locka honor och markera sitt revir.
+      I Asien har syrsor länge hållits som husdjur för sin sångs skull.
+      I många kulturer är de också en symbol för hemtrevnad och lycka.
   insect.mosquito:
-    label: ""
-    summary: ""
-    info: ""
+    label: mygga
+    summary: En tvåvingad insekt; honan suger blod och kan sprida sjukdomar.
+    info: |
+      Myggan är en tvåvingad insekt av familjen Culicidae.
+      Honorna suger blod från djur för att få protein till äggens utveckling; hanarna livnär sig på nektar.
+      Myggor sprider farliga sjukdomar som malaria, denguefeber och zika.
+      Det finns mer än 3 500 myggarter i världen.
+  insect.fly:
+    label: fluga
+    summary: En mycket vanlig tvåvingad insekt som kan sprida bakterier.
+    info: |
+      Husflugan är den vanligaste tvåvingade insekten i människors bostäder.
+      Dess sammansatta ögon låter den se nästan 360 grader runt omkring sig.
+      Den sprider bakterier eftersom den landar både på avfall och på mat.
+      Den har bara ett par funktionella vingar; det andra paret (svängkolvar) hjälper till att hålla balansen under flykten.
   insect.moth:
-    label: ""
-    summary: ""
-    info: ""
+    label: nattfjäril
+    summary: Fjärilens nattaktiva släkting; flyger mot ljuset och har fjäderlika antenner.
+    info: |
+      Nattfjärilar är nattaktiva fjärilar som, till skillnad från dagfjärilar, håller vingarna vikta längs sidorna i vila.
+      Många arter dras till konstgjort ljus.
+      Det naturliga silket får vi från silkesfjärilens larver.
+      Månfjärilen (luna) är en av världens vackraste nattfjärilar.
+  insect.caterpillar:
+    label: larv
+    summary: En fjärils eller nattfjärils larv; äter blad och förbereder sig för förpuppning.
+    info: |
+      Larven är en fjärils eller nattfjärils larvstadium och tillbringar sitt liv främst med att äta blad för att lagra energi inför förvandlingen.
+      Vissa larver har starka färger som varnar rovdjur för att de är giftiga.
+      Vid förpuppningen bildar den en puppa (kokong), där hela förvandlingen (metamorfosen) till vuxen sker.
   insect.praying_mantis:
-    label: ""
-    summary: ""
-    info: ""
-  insect.robber_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.scorpion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.silverfish:
-    label: ""
-    summary: ""
-    info: ""
-  insect.spider:
-    label: ""
-    summary: ""
-    info: ""
-  insect.stag_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: bönsyrsa
+    summary: En rovinsekt med bedjande hållning och blixtsnabbt anfall.
+    info: |
+      Bönsyrsan är en rovinsekt av gruppen Mantodea.
+      Den har fått sitt namn av ställningen där den håller frambenen vikta som i bön.
+      Den är en mästerjägare; den slår till och griper sitt byte på bråkdelen av en sekund.
+      Honan äter ibland upp hanen efter parningen, även om det inte alltid sker.
   insect.stick_insect:
-    label: ""
-    summary: ""
-    info: ""
-  insect.termite:
-    label: ""
-    summary: ""
-    info: ""
-  insect.tiger_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.velvet_ant:
-    label: ""
-    summary: ""
-    info: ""
+    label: vandrande pinne
+    summary: En insekt som perfekt efterliknar en kvist eller ett blad.
+    info: |
+      Vandrande pinnen tillhör gruppen Phasmatodea och är en mästare på kamouflage; kroppen efterliknar kvistar eller blad till fulländning.
+      Vid fara förblir den helt orörlig.
+      Vissa arter förökar sig genom partenogenes, alltså utan hane.
+      De är populära exotiska husdjur tack vare sin enkla skötsel.
+  insect.firefly:
+    label: lysmask
+    summary: En skalbagge som lyser med bioluminescent ljus för att locka en partner.
+    info: |
+      Lysmasken är en skalbagge av familjen Lampyridae som kan alstra kallt ljus (bioluminescens) i bakkroppen.
+      Hanar och honor lyser i olika mönster för att känna igen och locka varandra.
+      Ljuset styrs av den kemiska reaktionen mellan luciferin och luciferas.
+      Lysmaskar är en indikator på en ren miljö.
   insect.wasp:
-    label: ""
-    summary: ""
-    info: ""
+    label: geting
+    summary: En gul-svart stickande insekt som bygger pappersbon.
+    info: |
+      Den vanliga getingen är en stickande insekt av gruppen Vespula med de typiska gul-svarta varningsfärgerna.
+      Den bygger pappersbon av tuggad trämassa.
+      Till skillnad från biet kan getingen sticka flera gånger.
+      Den är nyttig som naturlig reglerare av skadeinsekter.
+  insect.cockroach:
+    label: kackerlacka
+    summary: En snabb, nattaktiv, allätande insekt; mycket tålig och anpassningsbar.
+    info: |
+      Kackerlackan är en av världens tåligaste insekter; den överlever strålning och förhållanden som skulle döda andra djur.
+      Det finns mer än 4 500 arter, men bara ett trettiotal lever nära människan.
+      Det är en gammal insekt; kackerlackor har funnits i mer än 300 miljoner år och överlevde dinosaurierna.
+      Den är snabb och kan springa mer än 5 km/h.
+  insect.spider:
+    label: spindel
+    summary: Ett åttabent spindeldjur som väver nät för att fånga insekter.
+    info: |
+      Spindeln är ett spindeldjur (ingen insekt) av ordningen Araneae med åtta ben och en tvådelad kropp.
+      Den kan producera silke som den väver nät med för att jaga eller för att svepa in äggkokonger.
+      I världen lever mer än 48 000 spindelarter.
+      Alla arter producerar gift, men de allra flesta är ofarliga för människan.
+  insect.scorpion:
+    label: skorpion
+    summary: Ett giftigt spindeldjur med klor och en böjd giftig svans.
+    info: |
+      Skorpionen är ett spindeldjur (ingen insekt) med typiska klor och en böjd svans som slutar i en giftig gadd.
+      Det är ett gammalt djur; de äldsta fossila skorpionerna är mer än 430 miljoner år gamla.
+      I mörker fluorescerar de under ultraviolett ljus.
+      Av de omkring 2 500 arterna är bara ett tjugotal farliga för människan.
+  insect.centipede:
+    label: tusenfoting
+    summary: En mångfoting med ett benpar per kroppssegment.
+    info: |
+      Tusenfotingen hör till klassen enkelfotingar (Chilopoda) och har ett benpar per kroppssegment (inte hundra ben, som namnet antyder på engelska).
+      Den är en snabb rovjägare som fångar insekter, maskar och små ryggradsdjur.
+      Det första benparet är ombildat till giftklor som förlamar bytet.
+      Vissa tropiska arter blir längre än 30 cm.
+  insect.flea:
+    label: loppa
+    summary: En pytteliten hoppande parasit som suger blod från däggdjur och fåglar.
+    info: |
+      Loppan är en vinglös insekt av ordningen Siphonaptera, specialiserad på ett parasitiskt levnadssätt.
+      Dess kraftiga bakben möjliggör hopp på mer än 150 gånger kroppslängden.
+      Den suger blod från däggdjur och fåglar och kan sprida sjukdomar; historiskt spred loppor pesten.
+      Loppor är insektsvärldens akrobater.
+  insect.termite:
+    label: termit
+    summary: En social insekt som bygger enorma högar av jord.
+    info: |
+      Termiten är en social insekt av gruppen Isoptera, avlägset släkt med kackerlackor.
+      De lever i kolonier med en kung, en drottning, soldater och arbetare.
+      De bygger komplexa termitstackar, i tropikerna upp till 9 meter höga, med eget ventilationssystem.
+      Som viktiga nedbrytare av trä spelar de en nyckelroll i tropiska ekosystem.
+  insect.bumblebee:
+    label: humla
+    summary: Ett stort hårigt bi med djupt brummande; en viktig pollinatör.
+    info: |
+      Humlan är en stor hårig insekt av släktet Bombus, släkt med honungsbiet.
+      Den är en viktig pollinatör, särskilt i kallare klimat där bin flyger mindre.
+      Den kan värma upp sig genom att låta flygmusklerna vibrera, så att den flyger även i kyla.
+      Humlor är fredligare än getingar och sticker bara vid direkt hot.
+  insect.hornet:
+    label: bålgeting
+    summary: Europas största geting med kraftig gadd och högt brummande.
+    info: |
+      Bålgetingen är Europas största sociala geting och blir mer än 3,5 cm lång.
+      Den bygger pappersbon i trädhålor eller under tak.
+      Dess gadd är längre än andra getingars och sticket är smärtsammare, men bålgetingen anfaller bara vid direkt hot.
+      Den är en viktig rovfiende till andra insekter.
+  insect.cicada:
+    label: cikada
+    summary: En insekt berömd för sitt högljudda sirpande på heta dagar.
+    info: |
+      Cikadan är en insekt av överfamiljen Cicadoidea, berömd för ett av de starkaste lätena bland alla insekter.
+      Hanarna åstadkommer ljudet med särskilda membran (tymbaler) i bakkroppen för att locka honor.
+      Vissa arter i USA har utvecklingscykler på sjutton eller tretton år.
+      Nymferna lever i åratal under jorden och livnär sig på rötter.
+  insect.locust:
+    label: vandringsgräshoppa
+    summary: En vandrande gräshoppa som bildar förödande svärmar på miljoner.
+    info: |
+      Vandringsgräshoppan är en gräshoppsart som under vissa förhållanden bildar enorma vandrande svärmar.
+      En svärm kan räkna miljarder individer och på en enda dag förstöra skördar på tusentals hektar.
+      I afrikanska och asiatiska länder är gräshoppor historiskt en av de största jordbrukskatastroferna.
+      I Bibeln är de en av de tio plågorna i Egypten.
+  insect.aphid:
+    label: bladlus
+    summary: En pytteliten sugande insekt på växtstjälkar; producerar honungsdagg.
+    info: |
+      Bladlöss är små sugande insekter av överfamiljen Aphidoidea som livnär sig på växtsaft.
+      De producerar söt honungsdagg som myror vårdar dem för i utbyte mot skydd.
+      De förökar sig extremt snabbt; en enda hona kan under ett år ge upphov till hundratals miljoner avkommor.
+      De är viktiga skadegörare på jordbruksgrödor.
+  insect.earwig:
+    label: tvestjärt
+    summary: En avlång insekt med tänger i bakkroppens ände.
+    info: |
+      Tvestjärten är en insekt av ordningen Dermaptera, kännetecknad av tänger (cerci) i bakkroppens ände, som används för försvar och parning.
+      Namnet kommer från vidskepelsen att den kryper in i människors öron; det är en myt.
+      Tvestjärtshonor är ovanliga eftersom de vårdar äggen och de unga larverna, vilket är sällsynt bland insekter.
+      De lever i springor, under stenar och i förnaskiktet.
+  insect.silverfish:
+    label: silverfisk
+    summary: En vinglös snabb insekt som finns i hus vid böcker och papper.
+    info: |
+      Silverfisken är en primitiv vinglös insekt av ordningen Zygentoma som lever i bostäder.
+      Den livnär sig på stärkelse, papper, bokbindarlim och textilfibrer.
+      Namnet kommer av dess silverfärg och fiskliknande rörelse.
+      Den tillhör en av de äldsta insektsordningarna och har levt i mer än 300 miljoner år nästan oförändrad.
   insect.water_strider:
-    label: ""
-    summary: ""
-    info: ""
+    label: skräddare
+    summary: En insekt som går på vattenytan tack vare ytspänningen.
+    info: |
+      Skräddaren är en insekt av familjen Gerridae som kan gå på vatten tack vare de vattenavvisande håren på benen och vattnets ytspänning.
+      Den jagar insekter som fallit i vattnet, vilka den känner igen på ytans vibrationer.
+      Den är snabb och kan glida över vattnet med mer än 150 gånger sin kroppslängd per sekund.
+  insect.dung_beetle:
+    label: dyngbagge
+    summary: En skalbagge som rullar kulor av dynga, helig i det gamla Egypten.
+    info: |
+      Den heliga skarabén är en skalbagge av familjen Scarabaeidae som formar dynga till kulor och rullar dem för att gräva ner dem och lägga ägg i dem.
+      I det gamla Egypten var den en symbol för solen och guden Chepri.
+      Den är ett av få djur som orienterar sig efter Vintergatan.
+      Den hjälper till att återvinna näringsämnen och lufta jorden.
+  insect.stag_beetle:
+    label: ekoxe
+    summary: Europas största skalbagge; hanen har käkar som liknar horn.
+    info: |
+      Ekoxen är Europas största skalbagge och blir mer än 7 cm lång.
+      Hanen har enorma hornliknande käkar som används i strider om honorna.
+      Larven lever upp till 7 år i murken ekved och livnär sig på svampar.
+      Den är starkt hotad av att gamla skogar och död ved försvinner.
+  insect.atlas_moth:
+    label: atlasfjäril
+    summary: En av världens största nattfjärilar, med vingar prydda av ormmönster.
+    info: |
+      Atlasfjärilen är en av världens största nattfjärilar, med ett vingspann på upp till 30 cm.
+      Vingspetsarna är färgade så att de liknar ormhuvuden, vilket skrämmer bort rovdjur.
+      De vuxna saknar mun och äter inte alls; de lever bara några dagar.
+      Den kommer från de tropiska skogarna i Sydostasien.
   insect.weevil:
-    label: ""
-    summary: ""
-    info: ""
+    label: vivel
+    summary: En liten skalbagge med en karakteristisk förlängd snabel.
+    info: |
+      Viveln är en skalbagge av familjen Curculionidae, världens största djurfamilj med mer än 60 000 arter.
+      Dess karakteristiska förlängda snabel (rostrum) används för att borra i frön, frukter och stammar.
+      Vissa arter är allvarliga jordbruksskadegörare, som bomullsviveln.
+      Andra arter är specialiserade på en enda växtart.
+  insect.lacewing:
+    label: florslända
+    summary: En fin insekt med genomskinligt ådrade vingar; larverna jagar bladlöss.
+    info: |
+      Florsländan är en insekt av familjen Chrysopidae med fina, genomskinligt ådrade vingar och gyllene ögon.
+      Larverna är rovdjur och slukar enorma mängder bladlöss, vilket gör dem till naturliga växtskyddare.
+      De vuxna livnär sig på nektar och pollen.
+      De dras till ljus och är en indikator på en frisk miljö.
+  insect.crane_fly:
+    label: harkrank
+    summary: En stor myggliknande fluga med extremt långa ben.
+    info: |
+      Harkranken är en tvåvingad insekt av familjen Tipulidae, till utseendet lik en jättemygga, men den sticks inte och parasiterar inte.
+      Dess extremt långa ben lossnar lätt; det är en försvarsmekanism (autotomi).
+      De vuxna lever bara några dagar och äter inte eller livnär sig på nektar.
+      Larverna lever i jorden och livnär sig på rötter.
+  insect.mayfly:
+    label: dagslända
+    summary: En insekt med det kortaste vuxenlivet, som lever bara timmar till dagar.
+    info: |
+      Dagsländan är en insekt av ordningen Ephemeroptera och en symbol för förgänglighet; de vuxna lever bara timmar till dagar.
+      De saknar funktionella mundelar och äter inte alls.
+      Nymferna lever 1 till 3 år under vatten.
+      Massvärmning av dagsländor är ett fascinerande naturskådespel; på Donau i Ungern är det ett unikt fenomen.
+  insect.damselfly:
+    label: flickslända
+    summary: En slank släkting till trollsländan; i vila viker den vingarna längs kroppen.
+    info: |
+      Flicksländan är en insekt släkt med trollsländor, men slankare, och i vila viker den vingarna parallellt med kroppen, till skillnad från de stora trollsländorna.
+      Den är ett rovdjur och jagar små insekter i flykten.
+      Nymferna lever i vatten och utgör en viktig del av vattenekosystemen.
+      De är en indikator på vattendragens kvalitet.
+  insect.robber_fly:
+    label: rovfluga
+    summary: En rovlysten fluga som fångar andra insekter i full flykt.
+    info: |
+      Rovflugan är en rovlysten tvåvingad insekt av familjen Asilidae som fångar andra insekter direkt i flykten.
+      Den har kraftiga ben för att gripa bytet och en stickande snabel för att spruta in ett förlamande gift.
+      Vissa arter efterliknar humlors eller getingars utseende som skydd mot rovdjur.
+      Den är nyttig som naturlig reglerare av insektspopulationer.
+  insect.ground_beetle:
+    label: jordlöpare
+    summary: En snabb rovskalbagge som lever under stenar och i förnaskiktet.
+    info: |
+      Jordlöparen är en skalbagge av familjen Carabidae; de flesta arter är aktiva nattaktiva rovdjur som fångar andra insekter, maskar och sniglar.
+      De är snabba och flyr snabbt undan fara.
+      Vissa arter, som den violetta jordlöparen, har en vacker metallglans.
+      De är indikatorer på en frisk jord och ett naturligt jordbruk.
+  insect.tiger_beetle:
+    label: sandjägare
+    summary: En snabb metallfärgad skalbagge med utmärkt syn.
+    info: |
+      Sandjägaren är en skalbagge av underfamiljen Cicindelinae, berömd för sin utomordentliga snabbhet, flygförmåga och skarpa syn.
+      Den springer så snabbt att den måste stanna och orientera sig på nytt, eftersom rörelsen är för snabb för dess synsystem.
+      Den har vackert färgade metalliska kroppar (gröna, blå, röda) och stora ögon.
+      Larverna gräver lodräta tunnlar i marken och lurar på byte vid öppningen.
+  insect.hoverfly:
+    label: blomfluga
+    summary: En fluga som efterliknar getingars och bins färger; en pollinatör i trädgårdarna.
+    info: |
+      Blomflugan är en tvåvingad insekt av familjen Syrphidae som efterliknar getingars och bins färger som skydd mot rovdjur (batesiansk mimikry), trots att den inte sticks.
+      Den är en viktig pollinatör; den besöker fler växtarter än bin.
+      De vuxna livnär sig på nektar och pollen.
+      Vissa arters larver jagar bladlöss och hjälper därmed till i trädgården.
   insect.whirligig_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: virvelbagge
+    summary: En liten skalbagge som virvlar i svärmar på vattenytan.
+    info: |
+      Virvelbaggen är en vattenskalbagge av familjen Gyrinidae som lever på ytan, och att virvla i svärmar hjälper den att undvika rovdjur.
+      Dess ögon är delade i två delar; den ena ser ovanför vattnet, den andra under.
+      Den känner av krusningar på ytan som signalerar mat eller fara.
+      På dagen virvlar den, på natten flyger den.
+  insect.louse:
+    label: lus
+    summary: En pytteliten vinglös parasit som lever på däggdjurs hud och i deras hår.
+    info: |
+      Lusen är en vinglös parasitisk insekt av ordningen Phthiraptera som lever på värdens hud och i pälsen eller håret.
+      Den suger blod och orsakar klåda.
+      Huvudlusen finns över hela världen och drabbar barn oavsett hygieniska förhållanden.
+      Historiskt spred löss tyfus och andra sjukdomar.
+  insect.bedbug:
+    label: vägglus
+    summary: En platt parasit som suger blod på natten; gömmer sig i springor i möbler.
+    info: |
+      Vägglusen är en platt oval insekt av familjen Cimicidae, främst aktiv på natten.
+      Den biter och suger blod från den sovande värden.
+      Den gömmer sig i madrassens springor, i möbler och bakom tapeter.
+      De senaste decennierna har den spridit sig över hela världen tack vare internationellt resande.
+  insect.antlion:
+    label: myrlejon
+    summary: En larv som gräver trattformiga fällor för myror i sanden.
+    info: |
+      Myrlejonet är larven till en insekt av familjen Myrmeleontidae som gräver konformiga trattar i torr sand.
+      När en myra glider ner i fällan griper myrlejonet den med käkarna och sprutar in matsmältningsvätskor.
+      De vuxna är oansenliga, liknar trollsländor och flyger på natten.
+      Larverna kan leva i åratal under jorden utan att äta.
+  insect.goliath_beetle:
+    label: goliatbagge
+    summary: En av världens största och tyngsta insekter, från tropiska Afrika.
+    info: |
+      Goliatbaggen är en av världens största insekter; hanarna väger upp till 100 gram och blir mer än 11 cm långa.
+      Den lever i de tropiska regnskogarna i ekvatoriala Afrika.
+      De vuxna livnär sig på frukt och trädsav.
+      I Afrika håller barn dem ibland som leksaker och de säljs till samlare.
+  insect.bombardier_beetle:
+    label: bombarderbagge
+    summary: En skalbagge som till försvar sprutar ut en kokhet giftig blandning.
+    info: |
+      Bombarderbaggen är en skalbagge av underfamiljen Brachininae som försvarar sig på ett unikt sätt; den blandar två kemiska ämnen i bakkroppen, vilket ger en explosiv reaktion på mer än 100 grader.
+      Den mycket frätande ångan sprutas ut med en hög knall upp till 500 gånger per sekund.
+      Det är ett av naturens mest fascinerande exempel på kemiskt försvar.
+  insect.diving_beetle:
+    label: dykarbagge
+    summary: En rovlysten vattenskalbagge som simmar under ytan.
+    info: |
+      Den gulbrämade dykaren är en rovlysten vattenskalbagge av familjen Dytiscidae som lever i dammar och stillastående vatten.
+      Den simmar smidigt tack vare sina platta bakben som fungerar som åror.
+      Den andas vid ytan och lagrar luft under täckvingarna.
+      Den jagar insekter, larver, små fiskar och grodyngel.
+  insect.velvet_ant:
+    label: sammetsmyra
+    summary: En vinglös orange-svart geting som liknar en myra.
+    info: |
+      Sammetsmyran är egentligen en geting av familjen Mutillidae; honorna är vinglösa och liknar myror.
+      De har iögonfallande röda eller orange hår som varning.
+      Honorna har en extremt kraftig gadd, med öknamnet kodödaren.
+      De parasiterar på humlors bon.

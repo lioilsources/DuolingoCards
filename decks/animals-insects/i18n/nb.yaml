@@ -2,203 +2,379 @@ lang: nb
 pivot: false
 title: Insekter
 cards:
-  insect.ant:
-    label: ""
-    summary: ""
-    info: ""
-  insect.antlion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.aphid:
-    label: ""
-    summary: ""
-    info: ""
-  insect.atlas_moth:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bedbug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bee:
-    label: ""
-    summary: ""
-    info: ""
-  insect.beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bombardier_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bumblebee:
-    label: ""
-    summary: ""
-    info: ""
   insect.butterfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.caterpillar:
-    label: ""
-    summary: ""
-    info: ""
-  insect.centipede:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cicada:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cockroach:
-    label: ""
-    summary: ""
-    info: ""
-  insect.crane_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cricket:
-    label: ""
-    summary: ""
-    info: ""
-  insect.damselfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.diving_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dragonfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dung_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.earwig:
-    label: ""
-    summary: ""
-    info: ""
-  insect.firefly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.flea:
-    label: ""
-    summary: ""
-    info: ""
-  insect.fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.goliath_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.grasshopper:
-    label: ""
-    summary: ""
-    info: ""
-  insect.ground_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hornet:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hoverfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.lacewing:
-    label: ""
-    summary: ""
-    info: ""
+    label: sommerfugl
+    summary: Et flygende insekt med store fargerike vinger.
+    info: Sommerfuglen er et insekt med to par skjellkledde vinger, ofte med iøynefallende farger.
+  insect.bee:
+    label: bie
+    summary: Et gul-svart insekt som pollinerer blomster og lager honning.
+    info: Honningbien er et sosialt insekt som lever i bikuber og samler nektar.
   insect.ladybug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.locust:
-    label: ""
-    summary: ""
-    info: ""
-  insect.louse:
-    label: ""
-    summary: ""
-    info: ""
-  insect.mayfly:
-    label: ""
-    summary: ""
-    info: ""
+    label: marihøne
+    summary: En liten rund rød bille med svarte prikker.
+    info: Marihønen er en liten bille som spiser bladlus og er nyttig i hagen.
+  insect.dragonfly:
+    label: øyenstikker
+    summary: Et insekt med lang kropp og to par gjennomsiktige vinger.
+    info: Øyenstikkeren er et rovdyr med utmerket syn som jakter ved vannoverflater.
+  insect.ant:
+    label: maur
+    summary: Et lite sosialt insekt som lever i kolonier.
+    info: Mauren er et insekt som danner store kolonier med arbeidsdeling.
+  insect.beetle:
+    label: bille
+    summary: Biller utgjør insektenes største orden, med over 400 000 beskrevne arter.
+    info: |
+      Billen hører til ordenen Coleoptera og utgjør omkring 40 % av alle beskrevne insektarter.
+      Den kjennetegnes av harde dekkvinger (elytra) som skjuler de virkelige flygevingene.
+      Eikehjorten er Europas største bille; hannen har kraftige kjever som ligner gevir.
+      Biller lever i nesten alle miljøer, fra tropene til arktiske strøk.
+  insect.grasshopper:
+    label: gresshoppe
+    summary: Et hoppende insekt med lange bakbein og en syngende lyd.
+    info: |
+      Gresshoppen er et insekt av ordenen Orthoptera med kraftige bakbein som gjør sprang på opptil tjue ganger kroppslengden mulig.
+      Hannene lager en karakteristisk lyd (stridulasjon) ved å gni beina mot vingene.
+      Den lever av planter og kan i store svermer skade avlinger.
+  insect.cricket:
+    label: siriss
+    summary: Et nattaktivt insekt, berømt for hannenes syngen.
+    info: |
+      Marksirissen er et nattaktivt insekt av ordenen Orthoptera.
+      Hannene synger ved å gni vingene mot hverandre for å lokke hunner og markere reviret sitt.
+      I Asia har sirisser lenge blitt holdt som kjæledyr for sangens skyld.
+      I mange kulturer er de også et symbol på hjemlig hygge og lykke.
   insect.mosquito:
-    label: ""
-    summary: ""
-    info: ""
+    label: mygg
+    summary: Et tovinget insekt; hunnen suger blod og kan spre sykdommer.
+    info: |
+      Myggen er et tovinget insekt av familien Culicidae.
+      Hunnene suger blod fra dyr for å få protein til utviklingen av eggene; hannene lever av nektar.
+      Mygg sprer farlige sykdommer som malaria, denguefeber og zika.
+      Det finnes mer enn 3 500 myggarter i verden.
+  insect.fly:
+    label: flue
+    summary: Et svært vanlig tovinget insekt som kan spre bakterier.
+    info: |
+      Husfluen er det vanligste tovingede insektet i menneskers boliger.
+      Fasettøynene lar den se nesten 360 grader rundt seg.
+      Den sprer bakterier fordi den lander både på avfall og på mat.
+      Den har bare ett par funksjonelle vinger; det andre paret (svingkøller) hjelper til med å holde balansen under flukten.
   insect.moth:
-    label: ""
-    summary: ""
-    info: ""
+    label: nattsvermer
+    summary: Sommerfuglens nattaktive slektning; flyr mot lyset og har fjærformede følehorn.
+    info: |
+      Nattsvermere er nattaktive sommerfugler som, i motsetning til dagsommerfugler, holder vingene foldet langs sidene i hvile.
+      Mange arter tiltrekkes av kunstig lys.
+      Den naturlige silken får vi fra silkesommerfuglens larver.
+      Månesvermeren (luna) er en av verdens vakreste nattsvermere.
+  insect.caterpillar:
+    label: larve
+    summary: En sommerfugls eller nattsvermers larve; spiser blader og forbereder seg på forpupping.
+    info: |
+      Larven er en sommerfugls eller nattsvermers larvestadium og bruker livet sitt hovedsakelig på å spise blader for å lagre energi til forvandlingen.
+      Noen larver har sterke farger som advarer rovdyr om at de er giftige.
+      Ved forpuppingen danner den en puppe (kokong), der hele forvandlingen (metamorfosen) til voksen skjer.
   insect.praying_mantis:
-    label: ""
-    summary: ""
-    info: ""
-  insect.robber_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.scorpion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.silverfish:
-    label: ""
-    summary: ""
-    info: ""
-  insect.spider:
-    label: ""
-    summary: ""
-    info: ""
-  insect.stag_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: kneler
+    summary: Et rovinsekt med bedende holdning og lynraskt angrep.
+    info: |
+      Kneleren er et rovinsekt av gruppen Mantodea.
+      Den har fått navnet sitt av stillingen der den holder forbeina foldet som i bønn.
+      Den er en mesterjeger; den slår til og griper byttet sitt på en brøkdel av et sekund.
+      Hunnen eter av og til hannen etter parringen, selv om det ikke alltid skjer.
   insect.stick_insect:
-    label: ""
-    summary: ""
-    info: ""
-  insect.termite:
-    label: ""
-    summary: ""
-    info: ""
-  insect.tiger_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.velvet_ant:
-    label: ""
-    summary: ""
-    info: ""
+    label: vandrende pinne
+    summary: Et insekt som etterligner en kvist eller et blad til perfeksjon.
+    info: |
+      Vandrende pinne hører til gruppen Phasmatodea og er en mester i kamuflasje; kroppen etterligner kvister eller blader til perfeksjon.
+      Ved fare forblir den fullstendig ubevegelig.
+      Noen arter formerer seg ved partenogenese, altså uten hann.
+      De er populære eksotiske kjæledyr på grunn av det enkle stellet.
+  insect.firefly:
+    label: ildflue
+    summary: En bille som lyser med bioluminescent lys for å lokke en partner.
+    info: |
+      Ildfluen er en bille av familien Lampyridae som kan lage kaldt lys (bioluminescens) i bakkroppen.
+      Hanner og hunner lyser i ulike mønstre for å gjenkjenne og tiltrekke hverandre.
+      Lyset styres av den kjemiske reaksjonen mellom luciferin og luciferase.
+      Ildfluer er en indikator på et rent miljø.
   insect.wasp:
-    label: ""
-    summary: ""
-    info: ""
+    label: veps
+    summary: Et gul-svart stikkende insekt som bygger papirbol.
+    info: |
+      Den vanlige vepsen er et stikkende insekt av gruppen Vespula med de typiske gul-svarte varselfargene.
+      Den bygger papirbol av tygd tremasse.
+      I motsetning til bien kan vepsen stikke flere ganger.
+      Den er nyttig som naturlig regulator av skadeinsekter.
+  insect.cockroach:
+    label: kakerlakk
+    summary: Et raskt, nattaktivt, altetende insekt; svært hardført og tilpasningsdyktig.
+    info: |
+      Kakerlakken er et av verdens mest hardføre insekter; den overlever stråling og forhold som ville drept andre dyr.
+      Det finnes mer enn 4 500 arter, men bare omkring 30 lever nær mennesket.
+      Det er et gammelt insekt; kakerlakker har eksistert i mer enn 300 millioner år og overlevde dinosaurene.
+      Den er rask og kan løpe mer enn 5 km/t.
+  insect.spider:
+    label: edderkopp
+    summary: Et åttebeint edderkoppdyr som vever spinn for å fange insekter.
+    info: |
+      Edderkoppen er et edderkoppdyr (ikke et insekt) av ordenen Araneae med åtte bein og en todelt kropp.
+      Den kan produsere silke som den vever spinn med for å jakte eller for å pakke inn eggkokonger.
+      I verden lever mer enn 48 000 edderkopparter.
+      Alle arter produserer gift, men de aller fleste er ufarlige for mennesket.
+  insect.scorpion:
+    label: skorpion
+    summary: Et giftig edderkoppdyr med klør og en krum giftig hale.
+    info: |
+      Skorpionen er et edderkoppdyr (ikke et insekt) med typiske klør og en krum hale som ender i en giftig brodd.
+      Det er et gammelt dyr; de eldste fossile skorpionene er mer enn 430 millioner år gamle.
+      I mørke fluoriserer de under ultrafiolett lys.
+      Av de omkring 2 500 artene er bare omkring 25 farlige for mennesket.
+  insect.centipede:
+    label: skolopender
+    summary: Et mangefotet dyr med ett par bein per kroppssegment.
+    info: |
+      Skolopenderen hører til klassen Chilopoda og har ett par bein per kroppssegment (ikke hundre bein, slik navnet antyder på engelsk).
+      Den er en rask rovjeger som fanger insekter, ormer og små virveldyr.
+      Det første beinparet er omdannet til giftklør som lammer byttet.
+      Noen tropiske arter blir lengre enn 30 cm.
+  insect.flea:
+    label: loppe
+    summary: En bitteliten hoppende parasitt som suger blod fra pattedyr og fugler.
+    info: |
+      Loppen er et vingeløst insekt av ordenen Siphonaptera, spesialisert på en parasittisk levemåte.
+      De kraftige bakbeina gjør sprang på mer enn 150 ganger kroppslengden mulig.
+      Den suger blod fra pattedyr og fugler og kan spre sykdommer; historisk spredte lopper pesten.
+      Lopper er insektverdenens akrobater.
+  insect.termite:
+    label: termitt
+    summary: Et sosialt insekt som bygger enorme hauger av jord.
+    info: |
+      Termitten er et sosialt insekt av gruppen Isoptera, fjernt beslektet med kakerlakker.
+      De lever i kolonier med en konge, en dronning, soldater og arbeidere.
+      De bygger komplekse termittbol, i tropene opptil 9 meter høye, med eget ventilasjonssystem.
+      Som viktige nedbrytere av tre spiller de en nøkkelrolle i tropiske økosystemer.
+  insect.bumblebee:
+    label: humle
+    summary: En stor lodden bie med dyp brumming; en viktig pollinator.
+    info: |
+      Humlen er et stort loddent insekt av slekten Bombus, beslektet med honningbien.
+      Den er en viktig pollinator, særlig i kaldere klima der bier flyr mindre.
+      Den kan varme seg opp ved å la flygemusklene vibrere, slik at den flyr selv i kulde.
+      Humler er fredeligere enn veps og stikker bare ved direkte trussel.
+  insect.hornet:
+    label: geithams
+    summary: Europas største veps med kraftig brodd og høy brumming.
+    info: |
+      Geithamsen er Europas største sosiale veps og blir mer enn 3,5 cm lang.
+      Den bygger papirbol i trehull eller under tak.
+      Brodden er lengre enn hos andre veps, og stikket er mer smertefullt, men geithamsen angriper bare ved direkte trussel.
+      Den er en viktig rovfiende av andre insekter.
+  insect.cicada:
+    label: sikade
+    summary: Et insekt berømt for sin høye syngen på varme dager.
+    info: |
+      Sikaden er et insekt av overfamilien Cicadoidea, berømt for en av de høyeste lydene blant alle insekter.
+      Hannene lager lyden med spesielle membraner (tymbaler) i bakkroppen for å lokke hunner.
+      Noen arter i USA har utviklingssykluser på sytten eller tretten år.
+      Nymfene lever i årevis under jorden og lever av røtter.
+  insect.locust:
+    label: vandregresshoppe
+    summary: En vandrende gresshoppe som danner ødeleggende svermer på millioner.
+    info: |
+      Vandregresshoppen er en gresshoppeart som under visse forhold danner enorme vandrende svermer.
+      En sverm kan telle milliarder av individer og på en eneste dag ødelegge avlinger på tusenvis av hektar.
+      I afrikanske og asiatiske land er gresshopper historisk en av de største jordbrukskatastrofene.
+      I Bibelen er de en av de ti plagene i Egypt.
+  insect.aphid:
+    label: bladlus
+    summary: Et bitte lite sugende insekt på plantestengler; produserer honningdugg.
+    info: |
+      Bladlus er små sugende insekter av overfamilien Aphidoidea som lever av plantesaft.
+      De produserer søt honningdugg som maur steller dem for i bytte mot beskyttelse.
+      De formerer seg ekstremt raskt; en eneste hunn kan i løpet av et år gi opphav til hundrevis av millioner avkom.
+      De er viktige skadedyr på jordbruksavlinger.
+  insect.earwig:
+    label: saksedyr
+    summary: Et avlangt insekt med tenger i enden av bakkroppen.
+    info: |
+      Saksedyret er et insekt av ordenen Dermaptera, kjennetegnet av tenger (cerci) i enden av bakkroppen, som brukes til forsvar og parring.
+      Navnet på engelsk kommer fra overtroen om at den kryper inn i ørene på mennesker; det er en myte.
+      Saksedyr-hunner er uvanlige fordi de steller eggene og de unge larvene, noe som er sjeldent blant insekter.
+      De lever i sprekker, under steiner og i strølaget.
+  insect.silverfish:
+    label: sølvkre
+    summary: Et vingeløst raskt insekt som finnes i hus ved bøker og papir.
+    info: |
+      Sølvkren er et primitivt vingeløst insekt av ordenen Zygentoma som lever i boliger.
+      Den lever av stivelse, papir, bokbinderlim og tekstilfibre.
+      Navnet kommer av dens sølvfarge og fiskeaktige bevegelse.
+      Den hører til en av de eldste insektordenene og har levd i mer enn 300 millioner år nesten uendret.
   insect.water_strider:
-    label: ""
-    summary: ""
-    info: ""
+    label: vannløper
+    summary: Et insekt som går på vannoverflaten takket være overflatespenningen.
+    info: |
+      Vannløperen er et insekt av familien Gerridae som kan gå på vann takket være de vannavstøtende hårene på beina og vannets overflatespenning.
+      Den jakter på insekter som har falt i vannet, og som den gjenkjenner på vibrasjonene i overflaten.
+      Den er rask og kan gli over vannet med mer enn 150 ganger sin kroppslengde i sekundet.
+  insect.dung_beetle:
+    label: møkkbille
+    summary: En bille som ruller kuler av møkk, hellig i det gamle Egypt.
+    info: |
+      Den hellige skarabéen er en bille av familien Scarabaeidae som former møkk til kuler og ruller dem for å grave dem ned og legge egg i dem.
+      I det gamle Egypt var den et symbol på solen og guden Khepri.
+      Den er et av få dyr som orienterer seg etter Melkeveien.
+      Den hjelper til med å resirkulere næringsstoffer og lufte jorden.
+  insect.stag_beetle:
+    label: eikehjort
+    summary: Europas største bille; hannen har kjever som ligner gevir.
+    info: |
+      Eikehjorten er Europas største bille og blir mer enn 7 cm lang.
+      Hannen har enorme gevirlignende kjever som brukes i kamper om hunnene.
+      Larven lever opptil 7 år i morkent eiketre og lever av sopp.
+      Den er sterkt truet av at gamle skoger og dødt trevirke forsvinner.
+  insect.atlas_moth:
+    label: atlasspinner
+    summary: En av verdens største nattsvermere, med vinger prydet av slangemønstre.
+    info: |
+      Atlasspinneren er en av verdens største nattsvermere, med et vingespenn på opptil 30 cm.
+      Vingespissene er farget slik at de ligner slangehoder, noe som skremmer bort rovdyr.
+      De voksne mangler munn og spiser ikke i det hele tatt; de lever bare noen få dager.
+      Den kommer fra de tropiske skogene i Sørøst-Asia.
   insect.weevil:
-    label: ""
-    summary: ""
-    info: ""
+    label: snutebille
+    summary: En liten bille med en karakteristisk forlenget snute.
+    info: |
+      Snutebillen er en bille av familien Curculionidae, verdens største dyrefamilie med mer enn 60 000 arter.
+      Den karakteristiske forlengede snuten (rostrum) brukes til å bore i frø, frukt og stammer.
+      Noen arter er alvorlige jordbruksskadedyr, som bomullssnutebillen.
+      Andre arter er spesialisert på en eneste planteart.
+  insect.lacewing:
+    label: gulløye
+    summary: Et fint insekt med gjennomsiktig årete vinger; larvene jakter på bladlus.
+    info: |
+      Gulløyet er et insekt av familien Chrysopidae med fine, gjennomsiktig årete vinger og gylne øyne.
+      Larvene er rovdyr og fortærer enorme mengder bladlus, noe som gjør dem til naturlige plantebeskyttere.
+      De voksne lever av nektar og pollen.
+      De tiltrekkes av lys og er en indikator på et sunt miljø.
+  insect.crane_fly:
+    label: stankelbein
+    summary: En stor myggaktig flue med ekstremt lange bein.
+    info: |
+      Stankelbeinet er et tovinget insekt av familien Tipulidae, av utseende som en kjempemygg, men den stikker ikke og parasitterer ikke.
+      De ekstremt lange beina brekker lett av; det er en forsvarsmekanisme (autotomi).
+      De voksne lever bare noen få dager og spiser ikke eller lever av nektar.
+      Larvene lever i jorden og lever av røtter.
+  insect.mayfly:
+    label: døgnflue
+    summary: Et insekt med det korteste voksenlivet, som lever bare timer til dager.
+    info: |
+      Døgnfluen er et insekt av ordenen Ephemeroptera og et symbol på forgjengelighet; de voksne lever bare timer til dager.
+      De mangler funksjonelle munndeler og spiser ikke i det hele tatt.
+      Nymfene lever 1 til 3 år under vann.
+      Massesverming av døgnfluer er et fascinerende naturskue; på Donau i Ungarn er det et unikt fenomen.
+  insect.damselfly:
+    label: vannymfe
+    summary: En slank slektning av øyenstikkeren; i hvile folder den vingene langs kroppen.
+    info: |
+      Vannymfen er et insekt beslektet med øyenstikkere, men slankere, og i hvile folder den vingene parallelt med kroppen, i motsetning til de store øyenstikkerne.
+      Den er et rovdyr og jakter på små insekter i flukten.
+      Nymfene lever i vann og utgjør en viktig del av vannøkosystemene.
+      De er en indikator på kvaliteten i vassdragene.
+  insect.robber_fly:
+    label: rovflue
+    summary: En rovgrisk flue som fanger andre insekter i full flukt.
+    info: |
+      Rovfluen er et rovgrisk tovinget insekt av familien Asilidae som fanger andre insekter direkte i flukten.
+      Den har kraftige bein til å gripe byttet og en stikkende snabel til å sprøyte inn en lammende gift.
+      Noen arter etterligner humlers eller vepsers utseende som beskyttelse mot rovdyr.
+      Den er nyttig som naturlig regulator av insektbestander.
+  insect.ground_beetle:
+    label: løpebille
+    summary: En rask rovbille som lever under steiner og i strølaget.
+    info: |
+      Løpebillen er en bille av familien Carabidae; de fleste artene er aktive nattlige rovdyr som fanger andre insekter, ormer og snegler.
+      De er raske og flykter raskt fra fare.
+      Noen arter, som den fiolette løpebillen, har en vakker metallglans.
+      De er indikatorer på en sunn jord og et naturlig jordbruk.
+  insect.tiger_beetle:
+    label: sandspringer
+    summary: En rask metallfarget bille med utmerket syn.
+    info: |
+      Sandspringeren er en bille av underfamilien Cicindelinae, berømt for sin uvanlige hurtighet, flygeevne og skarpe syn.
+      Den løper så raskt at den må stanse og orientere seg på nytt, fordi bevegelsen er for rask for synssystemet.
+      Den har vakkert fargede metalliske kropper (grønne, blå, røde) og store øyne.
+      Larvene graver loddrette tunneler i jorden og lurer på bytte ved åpningen.
+  insect.hoverfly:
+    label: blomsterflue
+    summary: En flue som etterligner vepsers og biers farger; en pollinator i hagene.
+    info: |
+      Blomsterfluen er et tovinget insekt av familien Syrphidae som etterligner vepsers og biers farger som beskyttelse mot rovdyr (batesiansk mimikry), selv om den ikke stikker.
+      Den er en viktig pollinator; den besøker flere plantearter enn bier.
+      De voksne lever av nektar og pollen.
+      Larvene til noen arter jakter på bladlus og hjelper dermed til i hagen.
   insect.whirligig_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: virvler
+    summary: En liten bille som virvler i svermer på vannoverflaten.
+    info: |
+      Virvleren er en vannbille av familien Gyrinidae som lever på overflaten, og å virvle i svermer hjelper den med å unngå rovdyr.
+      Øynene er delt i to deler; den ene ser over vannet, den andre under.
+      Den merker krusninger på overflaten som signaliserer mat eller fare.
+      Om dagen virvler den, om natten flyr den.
+  insect.louse:
+    label: lus
+    summary: En bitteliten vingeløs parasitt som lever på pattedyrs hud og i håret deres.
+    info: |
+      Lusen er et vingeløst parasittisk insekt av ordenen Phthiraptera som lever på vertens hud og i pelsen eller håret.
+      Den suger blod og forårsaker kløe.
+      Hodelusen finnes over hele verden og rammer barn uansett de hygieniske forholdene.
+      Historisk spredte lus tyfus og andre sykdommer.
+  insect.bedbug:
+    label: veggedyr
+    summary: En flat parasitt som suger blod om natten; gjemmer seg i sprekker i møbler.
+    info: |
+      Veggedyret er et flatt ovalt insekt av familien Cimicidae, hovedsakelig aktivt om natten.
+      Det biter og suger blod fra den sovende verten.
+      Det gjemmer seg i sprekkene i madrassen, i møbler og bak tapet.
+      De siste tiårene har det spredt seg over hele verden takket være internasjonal reisevirksomhet.
+  insect.antlion:
+    label: maurløve
+    summary: En larve som graver traktformede feller til maur i sanden.
+    info: |
+      Maurløven er larven til et insekt av familien Myrmeleontidae som graver kjegleformede trakter i tørr sand.
+      Når en maur glir ned i fellen, griper maurløven den med kjevene og sprøyter inn fordøyelsessaft.
+      De voksne er uanselige, ligner øyenstikkere og flyr om natten.
+      Larvene kan leve i årevis under jorden uten å spise.
+  insect.goliath_beetle:
+    label: goliatbille
+    summary: Et av verdens største og tyngste insekter, fra det tropiske Afrika.
+    info: |
+      Goliatbillen er et av verdens største insekter; hannene veier opptil 100 gram og blir mer enn 11 cm lange.
+      Den lever i de tropiske regnskogene i det ekvatoriale Afrika.
+      De voksne lever av frukt og tresaft.
+      I Afrika holder barn dem av og til som leketøy, og de selges til samlere.
+  insect.bombardier_beetle:
+    label: bombarderbille
+    summary: En bille som til forsvar sprøyter ut en kokende varm giftig blanding.
+    info: |
+      Bombarderbillen er en bille av underfamilien Brachininae som forsvarer seg på en unik måte; den blander to kjemiske stoffer i bakkroppen, noe som gir en eksplosiv reaksjon på mer enn 100 grader.
+      Den svært etsende dampen sprøytes ut med et høyt smell opptil 500 ganger i sekundet.
+      Det er et av naturens mest fascinerende eksempler på kjemisk forsvar.
+  insect.diving_beetle:
+    label: vannkalv
+    summary: En rovgrisk vannbille som svømmer under overflaten.
+    info: |
+      Den gulrandede vannkalven er en rovgrisk vannbille av familien Dytiscidae som lever i dammer og stillestående vann.
+      Den svømmer smidig takket være de flate bakbeina som fungerer som årer.
+      Den puster ved overflaten og lagrer luft under dekkvingene.
+      Den jakter på insekter, larver, små fisk og rumpetroll.
+  insect.velvet_ant:
+    label: fløyelsmaur
+    summary: En vingeløs oransje-svart veps som ligner en maur.
+    info: |
+      Fløyelsmauren er faktisk en veps av familien Mutillidae; hunnene er vingeløse og ligner maur.
+      De har iøynefallende røde eller oransje hår som advarsel.
+      Hunnene har en ekstremt kraftig brodd med tilnavnet kudreper.
+      De parasitterer på humlers bol.

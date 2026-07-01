@@ -2,203 +2,379 @@ lang: nl
 pivot: false
 title: Insecten
 cards:
-  insect.ant:
-    label: ""
-    summary: ""
-    info: ""
-  insect.antlion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.aphid:
-    label: ""
-    summary: ""
-    info: ""
-  insect.atlas_moth:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bedbug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bee:
-    label: ""
-    summary: ""
-    info: ""
-  insect.beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bombardier_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.bumblebee:
-    label: ""
-    summary: ""
-    info: ""
   insect.butterfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.caterpillar:
-    label: ""
-    summary: ""
-    info: ""
-  insect.centipede:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cicada:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cockroach:
-    label: ""
-    summary: ""
-    info: ""
-  insect.crane_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.cricket:
-    label: ""
-    summary: ""
-    info: ""
-  insect.damselfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.diving_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dragonfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.dung_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.earwig:
-    label: ""
-    summary: ""
-    info: ""
-  insect.firefly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.flea:
-    label: ""
-    summary: ""
-    info: ""
-  insect.fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.goliath_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.grasshopper:
-    label: ""
-    summary: ""
-    info: ""
-  insect.ground_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hornet:
-    label: ""
-    summary: ""
-    info: ""
-  insect.hoverfly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.lacewing:
-    label: ""
-    summary: ""
-    info: ""
+    label: vlinder
+    summary: Een vliegend insect met grote kleurrijke vleugels.
+    info: De vlinder is een insect met twee paar geschubde vleugels, vaak opvallend gekleurd.
+  insect.bee:
+    label: bij
+    summary: Een geel-zwart insect dat bloemen bestuift en honing maakt.
+    info: De honingbij is een sociaal insect dat in bijenkorven leeft en nectar verzamelt.
   insect.ladybug:
-    label: ""
-    summary: ""
-    info: ""
-  insect.locust:
-    label: ""
-    summary: ""
-    info: ""
-  insect.louse:
-    label: ""
-    summary: ""
-    info: ""
-  insect.mayfly:
-    label: ""
-    summary: ""
-    info: ""
+    label: lieveheersbeestje
+    summary: Een klein rond rood kevertje met zwarte stippen.
+    info: Het lieveheersbeestje is een klein kevertje dat zich voedt met bladluizen en nuttig is in de tuin.
+  insect.dragonfly:
+    label: libel
+    summary: Een insect met een lang lichaam en twee paar doorzichtige vleugels.
+    info: De libel is een roofinsect met uitstekend zicht dat bij wateroppervlakken jaagt.
+  insect.ant:
+    label: mier
+    summary: Een klein sociaal insect dat in kolonies leeft.
+    info: De mier is een insect dat grote kolonies vormt met een verdeling van taken.
+  insect.beetle:
+    label: kever
+    summary: Kevers vormen de grootste orde van insecten, met meer dan 400.000 beschreven soorten.
+    info: |
+      De kever behoort tot de orde Coleoptera en vormt ongeveer 40% van alle beschreven insectensoorten.
+      Hij wordt gekenmerkt door harde dekschilden (elytra) waaronder de echte vliegvleugels verborgen zijn.
+      Het vliegend hert is de grootste kever van Europa; het mannetje heeft machtige geweivormige kaken.
+      Kevers leven in bijna alle milieus, van de tropen tot arctische streken.
+  insect.grasshopper:
+    label: sprinkhaan
+    summary: Een springend insect met lange achterpoten en een sjirpend geluid.
+    info: |
+      De sprinkhaan is een insect uit de orde Orthoptera met krachtige achterpoten die sprongen tot twintig keer de lichaamslengte mogelijk maken.
+      De mannetjes maken een kenmerkend geluid (stridulatie) door hun poten tegen hun vleugels te wrijven.
+      Hij voedt zich met planten en kan in grote zwermen gewassen beschadigen.
+  insect.cricket:
+    label: krekel
+    summary: Een nachtelijk insect, beroemd om het sjirpen van de mannetjes.
+    info: |
+      De veldkrekel is een nachtelijk insect uit de orde Orthoptera.
+      De mannetjes sjirpen door hun vleugels tegen elkaar te wrijven om vrouwtjes te lokken en hun territorium af te bakenen.
+      In Azië worden krekels van oudsher als huisdier gehouden om hun gezang.
+      In veel culturen zijn ze ook een symbool van huiselijk welzijn en geluk.
   insect.mosquito:
-    label: ""
-    summary: ""
-    info: ""
+    label: mug
+    summary: Een tweevleugelig insect; het vrouwtje zuigt bloed en kan ziekten overdragen.
+    info: |
+      De mug is een tweevleugelig insect uit de familie Culicidae.
+      De vrouwtjes zuigen het bloed van dieren om eiwit te krijgen voor de ontwikkeling van hun eieren; de mannetjes voeden zich met nectar.
+      Muggen dragen gevaarlijke ziekten over zoals malaria, knokkelkoorts en zika.
+      Wereldwijd bestaan er meer dan 3.500 muggensoorten.
+  insect.fly:
+    label: vlieg
+    summary: Een veelvoorkomend tweevleugelig insect dat bacteriën kan overbrengen.
+    info: |
+      De huisvlieg is het meest voorkomende tweevleugelige insect in menselijke woningen.
+      Haar samengestelde ogen laten haar bijna 360 graden om zich heen zien.
+      Ze draagt bacteriën over omdat ze zowel op afval als op voedsel landt.
+      Ze heeft maar één paar functionele vleugels; het tweede paar (halters) helpt tijdens de vlucht het evenwicht te bewaren.
   insect.moth:
-    label: ""
-    summary: ""
-    info: ""
+    label: nachtvlinder
+    summary: Nachtelijke verwant van de vlinder; vliegt naar het licht en heeft geveerde antennes.
+    info: |
+      Nachtvlinders zijn nachtelijke lepidoptera die, anders dan dagvlinders, hun vleugels in rust langs hun zijden gevouwen houden.
+      Veel soorten worden aangetrokken door kunstlicht.
+      De natuurlijke zijde danken we aan de rupsen van de zijderups.
+      De maanvlinder is een van de mooiste nachtvlinders ter wereld.
+  insect.caterpillar:
+    label: rups
+    summary: De larve van een vlinder of nachtvlinder; eet bladeren en bereidt zich voor op de verpopping.
+    info: |
+      De rups is de larve van een vlinder of nachtvlinder en brengt haar leven vooral door met het eten van bladeren om energie op te slaan voor de gedaanteverwisseling.
+      Sommige rupsen hebben felle kleuren die roofdieren waarschuwen voor hun giftigheid.
+      Bij het verpoppen vormt ze een pop (cocon), waarin de volledige metamorfose tot volwassene plaatsvindt.
   insect.praying_mantis:
-    label: ""
-    summary: ""
-    info: ""
-  insect.robber_fly:
-    label: ""
-    summary: ""
-    info: ""
-  insect.scorpion:
-    label: ""
-    summary: ""
-    info: ""
-  insect.silverfish:
-    label: ""
-    summary: ""
-    info: ""
-  insect.spider:
-    label: ""
-    summary: ""
-    info: ""
-  insect.stag_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: bidsprinkhaan
+    summary: Een roofinsect met een biddende houding en een bliksemsnelle aanval.
+    info: |
+      De bidsprinkhaan is een roofinsect uit de groep Mantodea.
+      Hij dankt zijn naam aan de houding waarin hij zijn voorpoten gevouwen houdt als in gebed.
+      Hij is een meesterjager; hij slaat toe en grijpt zijn prooi in een fractie van een seconde.
+      Het vrouwtje eet soms het mannetje op na de paring, al gebeurt dat niet altijd.
   insect.stick_insect:
-    label: ""
-    summary: ""
-    info: ""
-  insect.termite:
-    label: ""
-    summary: ""
-    info: ""
-  insect.tiger_beetle:
-    label: ""
-    summary: ""
-    info: ""
-  insect.velvet_ant:
-    label: ""
-    summary: ""
-    info: ""
+    label: wandelende tak
+    summary: Een insect dat een takje of blad perfect nabootst.
+    info: |
+      De wandelende tak behoort tot de groep Phasmatodea en is een meester in camouflage; zijn lichaam bootst takjes of bladeren perfect na.
+      Bij gevaar blijft hij volkomen roerloos.
+      Sommige soorten planten zich voort via parthenogenese, dus zonder mannetje.
+      Ze zijn populaire exotische huisdieren vanwege hun eenvoudige verzorging.
+  insect.firefly:
+    label: vuurvliegje
+    summary: Een kever die bioluminescent licht produceert om een partner te lokken.
+    info: |
+      Het vuurvliegje is een kever uit de familie Lampyridae die koud licht (bioluminescentie) in het achterlijf kan produceren.
+      Mannetjes en vrouwtjes lichten op in verschillende patronen om elkaar te herkennen en aan te trekken.
+      Het licht wordt aangestuurd door de chemische reactie van luciferine met luciferase.
+      Vuurvliegjes zijn een indicator van een schoon milieu.
   insect.wasp:
-    label: ""
-    summary: ""
-    info: ""
+    label: wesp
+    summary: Een geel-zwart stekend insect dat papieren nesten bouwt.
+    info: |
+      De gewone wesp is een stekend insect uit de groep Vespula met de typische geel-zwarte waarschuwingskleuren.
+      Ze bouwt papieren nesten van gekauwde houtpulp.
+      Anders dan de bij kan de wesp meermaals steken.
+      Ze is nuttig als natuurlijke regelaar van schadelijke insecten.
+  insect.cockroach:
+    label: kakkerlak
+    summary: Een snel, nachtelijk, allesetend insect; zeer taai en aanpasbaar.
+    info: |
+      De kakkerlak is een van de taaiste insecten ter wereld; hij overleeft straling en omstandigheden die andere dieren zouden doden.
+      Er bestaan meer dan 4.500 soorten, maar slechts zo'n 30 leven in de buurt van mensen.
+      Het is een oud insect; kakkerlakken bestaan al meer dan 300 miljoen jaar en overleefden de dinosauriërs.
+      Hij is snel en kan meer dan 5 km/u lopen.
+  insect.spider:
+    label: spin
+    summary: Een achtpotig spinachtige die webben weeft om insecten te vangen.
+    info: |
+      De spin is een spinachtige (geen insect) uit de orde Araneae met acht poten en een tweedelig lichaam.
+      Ze kan zijde produceren waarmee ze webben weeft om te jagen of om eicocons te omhullen.
+      Wereldwijd leven meer dan 48.000 spinnensoorten.
+      Alle soorten produceren gif, maar de overgrote meerderheid is onschadelijk voor de mens.
+  insect.scorpion:
+    label: schorpioen
+    summary: Een giftige spinachtige met scharen en een gekromde giftige staart.
+    info: |
+      De schorpioen is een spinachtige (geen insect) met typische scharen en een gekromde staart die eindigt in een giftige angel.
+      Het is een oud dier; de oudste fossiele schorpioenen zijn meer dan 430 miljoen jaar oud.
+      In het donker fluoresceren ze onder ultraviolet licht.
+      Van de ongeveer 2.500 soorten zijn er slechts zo'n 25 gevaarlijk voor de mens.
+  insect.centipede:
+    label: duizendpoot
+    summary: Een duizendpotige met één paar poten per lichaamssegment.
+    info: |
+      De duizendpoot behoort tot de klasse Chilopoda en heeft één paar poten per lichaamssegment (geen honderd poten, zoals de naam doet vermoeden).
+      Het is een snelle roofjager die insecten, wormen en kleine gewervelden vangt.
+      Het eerste paar poten is omgevormd tot gifklauwen om de prooi te verlammen.
+      Sommige tropische soorten worden langer dan 30 cm.
+  insect.flea:
+    label: vlo
+    summary: Een piepkleine springende parasiet die het bloed van zoogdieren en vogels zuigt.
+    info: |
+      De vlo is een vleugelloos insect uit de orde Siphonaptera, gespecialiseerd in een parasitaire leefwijze.
+      Zijn sterke achterpoten maken sprongen van meer dan 150 keer de lichaamslengte mogelijk.
+      Hij zuigt het bloed van zoogdieren en vogels en kan ziekten overdragen; historisch verspreidden vlooien de pest.
+      Vlooien zijn de acrobaten van de insectenwereld.
+  insect.termite:
+    label: termiet
+    summary: Een sociaal insect dat enorme heuvels van aarde bouwt.
+    info: |
+      De termiet is een sociaal insect uit de groep Isoptera, in de verte verwant aan kakkerlakken.
+      Ze leven in kolonies met een koning, een koningin, soldaten en werksters.
+      Ze bouwen complexe termietenheuvels, in de tropen tot 9 meter hoog, met een eigen ventilatiesysteem.
+      Als belangrijke afbrekers van hout spelen ze een sleutelrol in tropische ecosystemen.
+  insect.bumblebee:
+    label: hommel
+    summary: Een grote harige bij met een diepe brom; een belangrijke bestuiver.
+    info: |
+      De hommel is een groot harig insect uit het geslacht Bombus, verwant aan de honingbij.
+      Ze is een belangrijke bestuiver, vooral in koudere klimaten waar bijen minder vliegen.
+      Ze kan zich opwarmen door haar vliegspieren te laten trillen, zodat ze zelfs bij koud weer vliegt.
+      Hommels zijn zachtaardiger dan wespen en steken alleen bij directe dreiging.
+  insect.hornet:
+    label: hoornaar
+    summary: De grootste wesp van Europa met een krachtige angel en een luide brom.
+    info: |
+      De hoornaar is de grootste sociale wesp van Europa en wordt meer dan 3,5 cm lang.
+      Hij bouwt papieren nesten in boomholtes of onder daken.
+      Zijn angel is langer dan die van wespen en de steek is pijnlijker, maar de hoornaar valt alleen aan bij directe dreiging.
+      Hij is een belangrijke roofvijand van andere insecten.
+  insect.cicada:
+    label: cicade
+    summary: Een insect beroemd om zijn luide sjirpende gezang op hete dagen.
+    info: |
+      De cicade is een insect uit de superfamilie Cicadoidea, beroemd om een van de luidste geluiden van alle insecten.
+      De mannetjes maken het geluid met speciale membranen (tymbalen) in het achterlijf om vrouwtjes te lokken.
+      Sommige soorten in de VS hebben ontwikkelingscycli van zeventien of dertien jaar.
+      De nimfen leven jarenlang onder de grond en voeden zich met wortels.
+  insect.locust:
+    label: treksprinkhaan
+    summary: Een trekkende sprinkhaan die verwoestende zwermen van miljoenen vormt.
+    info: |
+      De treksprinkhaan is een sprinkhaansoort die onder bepaalde omstandigheden reusachtige trekkende zwermen vormt.
+      Een zwerm kan miljarden individuen tellen en op één dag oogsten op duizenden hectaren vernietigen.
+      In Afrikaanse en Aziatische landen zijn sprinkhanen historisch een van de grootste landbouwrampen.
+      In de Bijbel zijn ze een van de tien plagen van Egypte.
+  insect.aphid:
+    label: bladluis
+    summary: Een piepklein zuigend insect op plantenstengels; produceert honingdauw.
+    info: |
+      Bladluizen zijn kleine zuigende insecten uit de superfamilie Aphidoidea die zich voeden met plantensap.
+      Ze produceren zoete honingdauw waar mieren voor zorgen in ruil voor bescherming.
+      Ze planten zich extreem snel voort; één vrouwtje kan in een jaar honderden miljoenen nakomelingen voortbrengen.
+      Ze zijn belangrijke plagen van landbouwgewassen.
+  insect.earwig:
+    label: oorworm
+    summary: Een langwerpig insect met tangen aan het uiteinde van het achterlijf.
+    info: |
+      De oorworm is een insect uit de orde Dermaptera, gekenmerkt door tangen (cerci) aan het uiteinde van het achterlijf, die dienen voor verdediging en paring.
+      De naam komt van het bijgeloof dat hij in de oren van mensen kruipt; dat is een mythe.
+      Vrouwtjes van de oorworm zijn uitzonderlijk omdat ze voor de eieren en jonge larven zorgen, wat zeldzaam is bij insecten.
+      Ze leven in spleten, onder stenen en in de strooisellaag.
+  insect.silverfish:
+    label: zilvervisje
+    summary: Een vleugelloos snel insect dat in huizen bij boeken en papier te vinden is.
+    info: |
+      Het zilvervisje is een primitief vleugelloos insect uit de orde Zygentoma dat in woningen leeft.
+      Het voedt zich met zetmeel, papier, boekbinderslijm en textielvezels.
+      De naam komt van zijn zilverachtige kleur en visachtige beweging.
+      Het is een van de oudste insectenorden en leeft al meer dan 300 miljoen jaar vrijwel onveranderd.
   insect.water_strider:
-    label: ""
-    summary: ""
-    info: ""
+    label: schaatsenrijder
+    summary: Een insect dat over het wateroppervlak loopt dankzij de oppervlaktespanning.
+    info: |
+      De schaatsenrijder is een insect uit de familie Gerridae dat over water kan lopen dankzij de waterafstotende haartjes op zijn poten en de oppervlaktespanning van het water.
+      Hij jaagt op in het water gevallen insecten, die hij herkent aan de trillingen van het oppervlak.
+      Hij is snel en kan met meer dan 150 keer zijn lichaamslengte per seconde over het water glijden.
+  insect.dung_beetle:
+    label: mestkever
+    summary: Een kever die balletjes mest rolt, heilig in het oude Egypte.
+    info: |
+      De heilige scarabee is een kever uit de familie Scarabaeidae die mest tot balletjes vormt en ze rolt om ze te begraven en er eieren in te leggen.
+      In het oude Egypte was hij een symbool van de zon en van de god Chepri.
+      Hij is een van de weinige dieren die zich oriënteren op de Melkweg.
+      Hij helpt voedingsstoffen te recyclen en de bodem te beluchten.
+  insect.stag_beetle:
+    label: vliegend hert
+    summary: De grootste kever van Europa; het mannetje heeft geweivormige kaken.
+    info: |
+      Het vliegend hert is de grootste kever van Europa en wordt meer dan 7 cm lang.
+      Het mannetje heeft enorme geweivormige kaken, gebruikt in gevechten om de vrouwtjes.
+      De larve leeft tot 7 jaar in het vermolmde hout van eiken en voedt zich met schimmels.
+      Hij is ernstig bedreigd door het verdwijnen van oude bossen en dood hout.
+  insect.atlas_moth:
+    label: atlasvlinder
+    summary: Een van de grootste nachtvlinders ter wereld, met vleugels versierd met slangenpatronen.
+    info: |
+      De atlasvlinder is een van de grootste nachtvlinders ter wereld, met een spanwijdte tot 30 cm.
+      De punten van zijn vleugels zijn zo gekleurd dat ze op slangenkoppen lijken, wat roofdieren afschrikt.
+      De volwassenen hebben geen mond en eten helemaal niet; ze leven slechts enkele dagen.
+      Hij komt uit de tropische bossen van Zuidoost-Azië.
   insect.weevil:
-    label: ""
-    summary: ""
-    info: ""
+    label: snuitkever
+    summary: Een kleine kever met een kenmerkende verlengde snuit.
+    info: |
+      De snuitkever is een kever uit de familie Curculionidae, de grootste dierenfamilie ter wereld met meer dan 60.000 soorten.
+      Zijn kenmerkende verlengde snuit (rostrum) dient om in zaden, vruchten en stammen te boren.
+      Sommige soorten zijn ernstige landbouwplagen, zoals de katoensnuitkever.
+      Andere soorten zijn gespecialiseerd op één enkele plantensoort.
+  insect.lacewing:
+    label: gaasvlieg
+    summary: Een fijn insect met doorzichtig geaderde vleugels; de larven jagen op bladluizen.
+    info: |
+      De gaasvlieg is een insect uit de familie Chrysopidae met fijne, doorzichtig geaderde vleugels en gouden ogen.
+      De larven zijn roofdieren en verorberen enorme hoeveelheden bladluizen, waardoor ze natuurlijke beschermers van planten worden.
+      De volwassenen voeden zich met nectar en stuifmeel.
+      Ze worden aangetrokken door licht en zijn een indicator van een gezond milieu.
+  insect.crane_fly:
+    label: langpootmug
+    summary: Een grote muggachtige vlieg met extreem lange poten.
+    info: |
+      De langpootmug is een tweevleugelig insect uit de familie Tipulidae, uiterlijk lijkend op een reuzenmug, maar hij steekt niet en parasiteert niet.
+      Zijn extreem lange poten breken gemakkelijk af; dat is een verdedigingsmechanisme (autotomie).
+      De volwassenen leven slechts enkele dagen en eten niet of voeden zich met nectar.
+      De larven leven in de bodem en voeden zich met wortels.
+  insect.mayfly:
+    label: eendagsvlieg
+    summary: Een insect met het kortste volwassen leven, dat slechts uren tot dagen leeft.
+    info: |
+      De eendagsvlieg is een insect uit de orde Ephemeroptera en een symbool van vergankelijkheid; de volwassenen leven slechts uren tot dagen.
+      Ze hebben geen functionele monddelen en eten helemaal niet.
+      De nimfen leven 1 tot 3 jaar onder water.
+      Het massaal zwermen van eendagsvliegen is een boeiend natuurschouwspel; op de Donau in Hongarije is het een uniek fenomeen.
+  insect.damselfly:
+    label: waterjuffer
+    summary: Een slanke verwant van de libel; in rust vouwt ze de vleugels langs het lichaam.
+    info: |
+      De waterjuffer is een insect verwant aan libellen, maar slanker, en in rust vouwt ze de vleugels evenwijdig aan het lichaam, anders dan de grote libellen.
+      Ze is een roofdier en jaagt in de vlucht op kleine insecten.
+      De nimfen leven in het water en vormen een belangrijk deel van waterecosystemen.
+      Ze zijn een indicator van de kwaliteit van waterlopen.
+  insect.robber_fly:
+    label: roofvlieg
+    summary: Een roofzuchtige vlieg die andere insecten in volle vlucht vangt.
+    info: |
+      De roofvlieg is een roofzuchtig tweevleugelig insect uit de familie Asilidae dat andere insecten rechtstreeks in de vlucht vangt.
+      Ze heeft sterke poten om de prooi te grijpen en een steeksnuit om een verlammend gif in te spuiten.
+      Sommige soorten bootsen het uiterlijk van hommels of wespen na als bescherming tegen roofdieren.
+      Ze is nuttig als natuurlijke regelaar van insectenpopulaties.
+  insect.ground_beetle:
+    label: loopkever
+    summary: Een snelle roofkever die onder stenen en in de strooisellaag leeft.
+    info: |
+      De loopkever is een kever uit de familie Carabidae; de meeste soorten zijn actieve nachtelijke roofdieren die andere insecten, wormen en slakken vangen.
+      Ze zijn snel en vluchten snel voor gevaar.
+      Sommige soorten, zoals de violette loopkever, hebben een prachtige metaalglans.
+      Ze zijn indicatoren van een gezonde bodem en van natuurlijke landbouw.
+  insect.tiger_beetle:
+    label: zandloopkever
+    summary: Een snelle metaalkleurige kever met uitstekend zicht.
+    info: |
+      De zandloopkever is een kever uit de onderfamilie Cicindelinae, beroemd om zijn buitengewone snelheid, vliegvermogen en scherpe zicht.
+      Hij loopt zo snel dat hij moet stoppen en zich opnieuw oriënteren, omdat de beweging te snel is voor zijn zichtsysteem.
+      Hij heeft prachtig gekleurde metalen lichamen (groen, blauw, rood) en grote ogen.
+      De larven graven verticale tunnels in de grond en loeren bij de opening op prooi.
+  insect.hoverfly:
+    label: zweefvlieg
+    summary: Een vlieg die de kleuren van wespen en bijen nabootst; een bestuiver van de tuinen.
+    info: |
+      De zweefvlieg is een tweevleugelig insect uit de familie Syrphidae dat de kleuren van wespen en bijen nabootst als bescherming tegen roofdieren (batesiaanse mimicry), hoewel ze niet steekt.
+      Ze is een belangrijke bestuiver; ze bezoekt meer plantensoorten dan bijen.
+      De volwassenen voeden zich met nectar en stuifmeel.
+      De larven van sommige soorten jagen op bladluizen en helpen zo in de tuin.
   insect.whirligig_beetle:
-    label: ""
-    summary: ""
-    info: ""
+    label: schrijvertje
+    summary: Een klein kevertje dat in zwermen over het wateroppervlak draait.
+    info: |
+      Het schrijvertje is een waterkever uit de familie Gyrinidae die op het oppervlak leeft, en het draaien in zwermen helpt hem roofdieren te ontwijken.
+      Zijn ogen zijn in twee delen verdeeld; het ene deel ziet boven water, het andere eronder.
+      Hij detecteert rimpelingen op het oppervlak die voedsel of gevaar signaleren.
+      Overdag draait hij, 's nachts vliegt hij.
+  insect.louse:
+    label: luis
+    summary: Een piepkleine vleugelloze parasiet die op de huid en in het haar van zoogdieren leeft.
+    info: |
+      De luis is een vleugelloos parasitair insect uit de orde Phthiraptera dat op de huid en in de vacht of het haar van gastheren leeft.
+      Ze zuigt bloed en veroorzaakt jeuk.
+      De hoofdluis komt wereldwijd voor en treft kinderen ongeacht de hygiënische omstandigheden.
+      Historisch brachten luizen tyfus en andere ziekten over.
+  insect.bedbug:
+    label: bedwants
+    summary: Een platte parasiet die 's nachts bloed zuigt; verstopt zich in spleten van meubels.
+    info: |
+      De bedwants is een plat ovaal insect uit de familie Cimicidae, vooral 's nachts actief.
+      Ze bijt en zuigt het bloed van de slapende gastheer.
+      Ze verstopt zich in de spleten van de matras, in meubels en achter behang.
+      De laatste decennia heeft ze zich wereldwijd verspreid dankzij internationaal reizen.
+  insect.antlion:
+    label: mierenleeuw
+    summary: Een larve die trechtervormige vallen voor mieren in het zand graaft.
+    info: |
+      De mierenleeuw is de larve van een insect uit de familie Myrmeleontidae die kegelvormige trechters in droog zand graaft.
+      Wanneer een mier in de val glijdt, grijpt de mierenleeuw hem met zijn kaken en spuit verteringssappen in.
+      De volwassenen zijn onopvallend, lijken op libellen en vliegen 's nachts.
+      De larven kunnen jarenlang onder de grond leven zonder te eten.
+  insect.goliath_beetle:
+    label: goliathkever
+    summary: Een van de grootste en zwaarste insecten ter wereld, uit tropisch Afrika.
+    info: |
+      De goliathkever is een van de grootste insecten ter wereld; de mannetjes wegen tot 100 gram en worden meer dan 11 cm lang.
+      Hij leeft in de tropische regenwouden van equatoriaal Afrika.
+      De volwassenen voeden zich met fruit en boomsap.
+      In Afrika houden kinderen ze soms als speelgoed en worden ze aan verzamelaars verkocht.
+  insect.bombardier_beetle:
+    label: bombardeerkever
+    summary: Een kever die als verdediging een kokend heet giftig mengsel afschiet.
+    info: |
+      De bombardeerkever is een kever uit de onderfamilie Brachininae die zich op unieke wijze verdedigt; hij mengt twee chemische stoffen in zijn achterlijf, waardoor een explosieve reactie van meer dan 100 graden ontstaat.
+      De zeer bijtende damp wordt met een luide knal tot 500 keer per seconde afgeschoten.
+      Het is een van de fascinerendste voorbeelden van chemische verdediging in de natuur.
+  insect.diving_beetle:
+    label: geelgerande watertor
+    summary: Een roofzuchtige waterkever die onder het oppervlak zwemt.
+    info: |
+      De geelgerande watertor is een roofzuchtige waterkever uit de familie Dytiscidae die in vijvers en stilstaand water leeft.
+      Hij zwemt soepel dankzij zijn platte achterpoten die als riemen werken.
+      Hij ademt aan het oppervlak en bewaart lucht onder zijn dekschilden.
+      Hij jaagt op insecten, larven, kleine vissen en kikkervisjes.
+  insect.velvet_ant:
+    label: mierwesp
+    summary: Een vleugelloze oranje-zwarte wesp die op een mier lijkt.
+    info: |
+      De mierwesp is eigenlijk een wesp uit de familie Mutillidae; de vrouwtjes zijn vleugelloos en lijken op mieren.
+      Ze hebben opvallende rode of oranje haren als waarschuwing.
+      De vrouwtjes hebben een extreem krachtige angel, bijgenaamd de koeiendoder.
+      Ze parasiteren op de nesten van hommels.
