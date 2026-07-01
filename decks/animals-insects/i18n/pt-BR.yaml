@@ -2,216 +2,379 @@ lang: pt-BR
 pivot: false
 title: Insetos
 cards:
-  insect.ant:
-    label: formiga
-    summary: Inseto social pequeno que vive em colônias.
-    info: A formiga é um inseto que forma grandes colônias com divisão de trabalho.
-  insect.antlion:
-    label: mirimelo
-    summary: É uma larva que cova embuscadas nas quais atrai formigas.
-    info: O mirimelon é uma lagarta de inseto da família Myrmeleontidae que escava armadilhas cônicas no solo seco para capturar formigas. Quando um formigueiro desliza na emboscada, o mirimelon agarra-o com suas mandíbulas e injeta sucos digestivos em seu corpo. Os adultos são discretos, semelhantes às libélulas, voando à noite; já os estágios imaturos podem permanecer sob terra por anos sem alimentação.
-  insect.aphid:
-    label: formiga
-    summary: Inseto pequeno sugar líquidos em caules vegetais e também pode causar danos às culturas agrícolas.
-    info: As formigas são insetos sugadores de sálvia da superfamília Aphidoidea que se alimentam do suco das plantas.
-  insect.atlas_moth:
-    label: Atlas swallowtail
-    summary: Um dos maiores morcegos voadores do mundo cujas asas apresentam padrões que imitam serpentes.
-    info: |-
-      O Atlas swallowtail é um dos maiores marimbongos do mundo com uma envergadura de até 30 centímetros.
-      As pontas das suas asas são coloridas para lembrar cabeças de cobras e servem como defesa contra os predadores.
-      Os adultos não possuem bocas ou qualquer tipo de alimentação, vivendo apenas alguns dias após amadurecerem.
-  insect.bedbug:
-    label: barata
-    summary: Parasita plano que suga sangue durante a noite; esconde-se em rachaduras nos móveis.
-    info: A barata é um inseto plano e ovado da família dos Cimitídeos que está ativo principalmente à noite. Ela morde e suga o sangue do hospedeiro enquanto dorme. Esconde-se nas frestas das camas, móveis e atrás de papel de parede.
-  insect.bee:
-    label: abelha
-    summary: Inseto amarelo e preto que poliniza flores e produz mel.
-    info: A abelha-mel é um inseto social que vive em colmeias e coleta néctar das plantas.
-  insect.beetle:
-    label: besouro
-    summary: Os besouros formam uma grande ordem de insetos contando mais de quatrocentos mil tipos já catalogados.
-    info: Besourinhos pertencem à ordem dos coleópterios e representam cerca de 40% das espécies descritas de inseto no mundo todo. Eles são caracterizados por suas alas duras chamadas elytras que cobrem outras alas menores usadas para voar debaixo delas. O besouro cervino é o maior besouro da Europa com machos possuindo grandes mandíbulas cornudas.
-  insect.bombardier_beetle:
-    label: besoura canhoneiro
-    summary: Besouro que atira vapor tóxico fervente como forma defensiva.
-    info: 'O strelitzia artilharia é uma espécie de besouro da subfamília dos Carábidos que se defende por meio de um método único: ele mistura duas substâncias químicas no seu abdômen gerando assim uma reação explosiva com temperatura acima de 100°C.'
-  insect.bumblebee:
-    label: bombinha
-    summary: Grande besouro com vibração profunda que poliniza plantas.
-    info: Bomba é uma abelha peluda e grande do gênero Bombus, parente da abelha mel.
   insect.butterfly:
     label: borboleta
-    summary: Inseto voador com grandes asas coloridas.
-    info: A borboleta é um inseto com duas pares de asas escamas, frequentemente vividamente coloridas.
-  insect.caterpillar:
-    label: lagarta
-    summary: É um estágio da fase jovem das mariposas e borboletas em desenvolvimento.
-    info: A lagarta é uma larva de mariposa ou borboleta e passa sua vida principalmente comendo folhas para acumular energia necessária para o metamorfose completo no adulto. Algumas lagartas possuem cores chamativas que alertam os predadores sobre seu veneno.
-  insect.centipede:
-    label: centopeia
-    summary: Artrópode com muitas pernas da classe Quiloportada apresenta uma única dupla de membros por segmento.
-    info: Centopeia pertence à classe dos quilópodes e possui um único par de pernas em cada segmento corporal (e não cem pernas como o nome sugere). É um predador rápido que caça insetos, minhocas e pequenos vertebrados. O primeiro par de pernas é modificado para formar garras venenosas usadas para imobilizar suas presas.
-  insect.cicada:
-    label: cigarrinha
-    summary: Inseto conhecido por seu canto ruidoso nos dias quentes.
-    info: A cigarrinha é um inseto da superordem Cycada que produz uma dos sons mais altos entre todos os insetos.
-  insect.cockroach:
-    label: perceveijo
-    summary: Inseto carniceiro noturno rápido, extremamente resistente.
-    info: |-
-      {"hint":"inseto rápido e noturno que se alimenta de tudo","info":"O percevejo é um dos insetos mais resistentes do mundo; ele sobrevive à radiação e condições que matariam outros animais.
-      Mais de 4.500 espécies são conhecidas, mas apenas cerca de trinta vivem perto das pessoas.
-      É uma criatura antiga - os percevejos já existiam há mais de trêscentos milhões de anos antes da era dos dinossauros.
-      Ele também corre muito rapidamente por ser capaz de correr com velocidade superior aos cinco quilômetros por hora."}
-  insect.crane_fly:
-    label: Típula
-    summary: Grande libélula similar à mosca-gigante com patas muito alongadas.
-    info: A tipúlia é um inseto dióptrero da família dos Típulos que visualmente parece uma mosca gigante e não picota nem parasita. Suas pernas extremamente longas são fáceis de soltar como mecanismo defensivo chamado autotomya. Os adultos vivem apenas alguns dias sem comer ou alimentando-se com néctar.
-  insect.cricket:
-    label: grilinho
-    summary: Inseto noturno conhecido pelo canto estridente produzido pelos machos.
-    info: O grilo campestre pertence à ordem dos Ortópteros e é um inseto noturno que emite som através do atrito das suas asas para atrair fêmeas e marcar território. Na Ásia os gilos são tradicionalmente criados como animais de estimação por causa da sua música característica.
-  insect.damselfly:
-    label: libelula
-    summary: Inseto semelhante à libécula porém mais magro cujas asas são dobradas durante o repouso.
-    info: Libelinha é um inseto parente das libélulas, mas mais esbelto e repousa com suas asas paralelas ao corpo, diferentemente da libécula que mantêm abertas em ângulo reto no descanso.
-  insect.diving_beetle:
-    label: Besoura-potápni
-    summary: É uma espécie de besouro aquático predador.
-    info: O Potápni Velho é um besouro predador aquático da família Dytiscidae que vive em lagos e águas paradas.
+    summary: Um inseto voador de grandes asas coloridas.
+    info: A borboleta é um inseto com dois pares de asas escamosas, muitas vezes de cores vivas.
+  insect.bee:
+    label: abelha
+    summary: Um inseto amarelo e preto que poliniza flores e produz mel.
+    info: A abelha melífera é um inseto social que vive em colmeias e coleta néctar.
+  insect.ladybug:
+    label: joaninha
+    summary: Um pequeno besouro redondo e vermelho com pontos pretos.
+    info: A joaninha é um besouro minúsculo que se alimenta de pulgões e é útil no jardim.
   insect.dragonfly:
-    label: libelinha
-    summary: Inseto com corpo longo e duas pares de asas transparentes.
-    info: A libelinha é um inseto predador com visão excelente que caça em áreas próximas à água.
-  insect.dung_beetle:
-    label: escarabeo
-    summary: Besourro que forma bolinhas com excrementos animais; considerado sagrado no Antigo Egito.
-    info: O escarabeu sagrado é um besouro da família dos Escarábidos que modela fezes em bolinhas e rola-as para enterramento de ovos. No antigo Egito era símbolo do sol e o deus Khepre. É uma das poucas criaturas capazes de navegar usando como referência a Via Láctea.
-  insect.earwig:
-    label: escorpião-de-pedra
-    summary: Inseto alongado com pinças nas extremidades.
-    info: O escorpião-de-pedra é um inseto da ordem dos Dermapteros caracterizado por pinças em forma de cauda no final das patas posteriores que servem tanto para defesa quanto durante acupamento. O nome vem de uma crença popular falsa segundo a qual eles se enfiariam nos ouvidos humanos. As fêmeas são incomuns porque cuidam dos ovos e das lagartas recém-nascidas – algo raro entre os insetos.
-  insect.firefly:
-    label: Vagabunda
-    summary: Inseto que utiliza luminisgência para chamar seu par.
-    info: |-
-      A vaga-lume é uma vespa da família dos lampirinos capaz de emitir luz fria por meio do processo conhecido como bioluminescência em sua parte posterior.
-      Tanto machos quanto fêmeas piscam com padrões diferentes para reconhecimento mútuo e atrair parceiros.
-      O fenômeno ocorre graças à reação química entre o lúcido e enzima lusiferasa.
-  insect.flea:
-    label: bicho
-    summary: Pequeno animal pulguento que se alimente da sangue de animais terrestres.
-    info: Pulgas são insetos sem asas do ordem dos sifonautéreos especializados em um modo de vida parasita. Suas pernas traseiras fortes permitem saltar mais de cem vezes o comprimento corporal delas e elas sugam sangue tanto de mamíferos quanto aves podendo transmitir doenças como foi historicamente comum durante pestilências.
-  insect.fly:
-    label: mosca
-    summary: Inseto capaz de transportar bactérias.
-    info: A mosca-das-féculas é uma das espécies de insetos mais comuns em ambientes humanos e pertence à ordem dos dipterinos por ter apenas um par funcional de asas para voar enquanto outro serve como equilibrador durante os movimentos no ar.
-  insect.goliath_beetle:
-    label: grilo-gigante
-    summary: Um dos maiores grilos do planeta encontrado nas florestas equatoriais da África.
-    info: O Goliát é um dos maiores insetos do mundo e pode pesar até 100 gramas com mais de 11 centímetros de comprimento.
+    label: libélula
+    summary: Um inseto de corpo alongado e dois pares de asas transparentes.
+    info: A libélula é um inseto predador de visão excelente que caça perto de corpos d'água.
+  insect.ant:
+    label: formiga
+    summary: Um pequeno inseto social que vive em colônias.
+    info: A formiga é um inseto que forma grandes colônias com divisão de trabalho.
+  insect.beetle:
+    label: besouro
+    summary: Os besouros formam a maior ordem de insetos, com mais de 400.000 espécies descritas.
+    info: |
+      O besouro pertence à ordem Coleoptera e representa cerca de 40% de todas as espécies de insetos descritas.
+      Ele se caracteriza por duros estojos alares (élitros) sob os quais se escondem as verdadeiras asas de voo.
+      O besouro-veado é o maior besouro da Europa; o macho tem mandíbulas enormes semelhantes a chifres.
+      Vivem em quase todos os ambientes, dos trópicos às regiões árticas.
   insect.grasshopper:
     label: gafanhoto
-    summary: Inseto salta-dor com pernas traseiras alongadas e cantoria.
-    info: A gafanhoto é um inseto do ordem dos Ortópteros com pernas traseiras fortes que permitem saltar até vinte vezes seu comprimento corporal.Os machos emitem sons característicos por meio de atrito entre suas patas e asa.Alimentam-se vegetais; quando ocorrem em grandes bandos podem causar danos à colheita.
-  insect.ground_beetle:
-    label: carabeu
-    summary: Besouro predador rápido vivendo sob pedras e folhas.
-    info: O carabeu é um besouro da família dos Carábidos; grande parte das espécies são predadores noturnos ativos que caçam outros insetos, minhocas e lesmas. Eles são rápidos e fogem rapidamente diante de perigo. Algumas espécies como o carabeu roxo possuem coloração metálica brilhante.
-  insect.hornet:
-    label: vespe maior
-    summary: É a maior abelha européia dotada de um forte ferrão.
-    info: A vespe maior é a maior abelha social europeia e pode atingir mais de 3,5 centímetros de comprimento. Ela constrói ninhos feitos com papel em cavidades das árvores ou telhados. Sua ferrão é maior do que o da abelhas, causando uma picada dolorida; no entanto, ela só ataca quando há ameaça direta.
-  insect.hoverfly:
-    label: syrfide
-    summary: Mosca semelhante às vespas ou abelhas em coragem.
-    info: A syrfide é um inseto dipterano da família dos syrhfidés que imita cores de abelhas e vespas como proteção contra os predadores (mimetismo batezoico), embora não possua ferrão por si só.
-  insect.lacewing:
-    label: libelinha-dourada
-    summary: Inseto fino com asas finamente veicas transparentes cujas larvas caçam os ácaros.
-    info: A libelinha dourada é um inseto da família dos chrysopeídeos com delicadasasas trasparentes e nervuras em rede bem visíveis e olhos dourados. As lagartas são predadoras que consomem grandes quantidades de pulgões, sendo assim protetoras naturais das plantas. Os adultos alimentam-se do néctar e pólen.
-  insect.ladybug:
-    label: caranguejo
-    summary: Pequeno besouro vermelho arredondado com pontos pretos.
-    info: O caranguejo é um pequeno inseto que se alimenta de pulgões e é útil no jardim.
-  insect.locust:
-    label: gafanhoto migrador
-    summary: O gafanhoto migrador pode formar bandos gigantes com bilhões de indivíduos capazes de arrasar cultivos em áreas vastissimas rapidamente.
-    info: A gafanhoto migrador é uma espécie de grilo que forma imensos enxames sob certas condições climáticas específicas.
-  insect.louse:
-    label: piolho
-    summary: Pequeno animal parasita vivendo em animais mamíferos.
-    info: Piolho é um inseto sem asas do ordem Phthiraptera que vive sobre pele e pelos ou cabelos dos hospedeiros. Ele suga sangue causando coceira. O piolhinho de cabeça está espalhado mundialmente afetando crianças independentemente das condições sanitárias.
-  insect.mayfly:
-    label: ephêmeros
-    summary: Insetos com o ciclo adulto mais curto possível – eles só sobrevivem por algumas horas até alguns dias.
-    info: A ephêmera é um inseto da ordem Ephemeroptera que simboliza efemeridade; os adultos vivem apenas horas ou dias. Não possuem aparelho bucal funcional nem alimentam-se de tudo. As ninfas passam entre 1 e 3 anos debaixo d'água.
+    summary: Um inseto saltador de longas pernas traseiras e canto estridente.
+    info: |
+      O gafanhoto é um inseto da ordem Orthoptera com poderosas pernas traseiras que permitem saltos de até vinte vezes o comprimento do corpo.
+      Os machos produzem um som característico (estridulação) esfregando as pernas contra as asas.
+      Alimenta-se de plantas e, em grandes enxames, pode danificar as lavouras.
+  insect.cricket:
+    label: grilo
+    summary: Um inseto noturno famoso pela estridulação dos machos.
+    info: |
+      O grilo-do-campo é um inseto noturno da ordem Orthoptera.
+      Os machos cricrilam esfregando as asas uma na outra para atrair as fêmeas e demarcar território.
+      Na Ásia, os grilos são tradicionalmente criados como animais de estimação por seu canto.
+      Em muitas culturas também são símbolo de bem-estar doméstico e de sorte.
   insect.mosquito:
     label: mosquito
-    summary: Inseto bicúpido que pica e transmite doenças.
-    info: Mosquito é um inseto voador pertencente à família dos culícidos com duas asas que suga o sangue de animais para obter proteínas necessárias ao desenvolvimento das suas ovos e pode transmitir doenças perigosas como malaria, febre amarela ou chikungunya.
+    summary: Um inseto de duas asas; a fêmea suga sangue e pode transmitir doenças.
+    info: |
+      O mosquito é um inseto de duas asas da família Culicidae.
+      As fêmeas sugam o sangue de animais para obter proteína para o desenvolvimento dos ovos; os machos se alimentam de néctar.
+      Os mosquitos transmitem doenças perigosas como malária, dengue e zika.
+      Existem mais de 3.500 espécies de mosquito no mundo.
+  insect.fly:
+    label: mosca
+    summary: Um inseto comum de duas asas capaz de transportar bactérias.
+    info: |
+      A mosca doméstica é o inseto de duas asas mais comum nas habitações humanas.
+      Seus olhos compostos permitem enxergar quase 360 graus ao redor.
+      Ela transporta bactérias porque pousa tanto no lixo quanto na comida.
+      Tem apenas um par de asas funcionais; o segundo par (halteres) ajuda a manter o equilíbrio em voo.
   insect.moth:
     label: mariposa
-    summary: Parente nocturno de uma borboleta; voa com luz e tem antenas plumosas.
-    info: As mariposas noturnas são borboletas da ordem dos lépidópteros que diferentemente das diurnas têm suas asas dobradas para os lados quando em repouso.
+    summary: Parente noturno da borboleta; voa em direção à luz e tem antenas plumosas.
+    info: |
+      As mariposas são lepidópteros noturnos que, ao contrário das borboletas diurnas, mantêm as asas dobradas para os lados em repouso.
+      Muitas espécies são atraídas pela luz artificial.
+      Devemos a seda natural às lagartas do bicho-da-seda.
+      A mariposa-lua é uma das mariposas mais belas do mundo.
+  insect.caterpillar:
+    label: lagarta
+    summary: A larva de uma borboleta ou mariposa; come folhas e se prepara para a metamorfose.
+    info: |
+      A lagarta é a larva de uma borboleta ou mariposa e passa a vida principalmente comendo folhas para acumular energia para sua transformação.
+      Algumas lagartas têm cores vivas que alertam os predadores sobre sua toxicidade.
+      Ao empupar, forma uma crisálida, na qual ocorre a transformação completa (metamorfose) em adulto.
   insect.praying_mantis:
-    label: mantideira
-    summary: Inseto carnívoro conhecido por seu posture parecido com o de oração e ataques rápidos.
-    info: A mantida religiosa é um inseto predador da ordem Mantódea. Seu nome vem do fato de que ela segura suas patas dianteiras como em uma posição de preces ou orações. É especialista na caça rápida e precisa; ataca com velocidade impressionante para capturar sua presa rapidamente.
-  insect.robber_fly:
-    label: assélido
-    summary: Mosca carniceira que captura outro tipo de inseto durante o voô.
-    info: A strelitzia é uma mosca carniceira pertencente à família dos asselídios que caça outros insetos diretamente em vôo. Possui pernas fortes para segurar suas presas e um ferrão capaz de injetar veneno paralisante. Algumas espécies imitam visualmente abelhas ou vespas como forma de proteção contra seus próprios predadores.
-  insect.scorpion:
-    label: escorpiao
-    summary: Inseto venenoso com pinças e cauda encurvada.
-    info: Escorpiões são quelicerados com pinças típicas e cauda curvada terminando em uma agulha venenosa.
-  insect.silverfish:
-    label: lacraia
-    summary: Inseto rápido sem asas encontrado dentro de casas próximo a livros ou papel.
-    info: A lacraia é um inseto primitivo sem asas da ordem Zygentoma que vive em ambientes residenciais. Ela alimenta-se de amido, papel, cola para encadernação e fibras têxteis. Seu nome vem do seu tom acinzentado branco metálico e o movimento parecido com o das peixes.
-  insect.spider:
-    label: aranha
-    summary: Aranhas têm oito patas; elas tecem teias para capturar insetos.
-    info: O aranha é um aracnídeo com oito pernas e dois segmentos do corpo pertencente à ordem dos Arâneidae que não são insetos verdadeiros. Ela tem capacidade de fabricar seda para teiar redes usadas na caça ou em casulos contendo ovos. Existem mais de 48 mil espécies diferentes.
-  insect.stag_beetle:
-    label: Besourão
-    summary: Maior besouro europeu; o macho tem quelíceras semelhantes aos cornos.
-    info: O Lucanidae comum é uma espécie de besouro que pode atingir mais de 7 centímetros de comprimento e está presente na Europa. O macho possui quelíceras grandes em forma de chifres usadas para lutar por fêmeas durante os acasalamentos. A larva vive até sete anos no tronco caído ou madeira podre das árvores como carvalhos alimentando-se principalmente de fungos.
+    label: louva-a-deus
+    summary: Um inseto predador de postura de oração e ataque relâmpago.
+    info: |
+      O louva-a-deus é um inseto predador do grupo Mantodea.
+      Recebeu o nome pela postura em que mantém as pernas dianteiras dobradas como em oração.
+      É um caçador mestre; golpeia e agarra a presa numa fração de segundo.
+      A fêmea às vezes devora o macho após o acasalamento, embora nem sempre isso aconteça.
   insect.stick_insect:
-    label: strashilka
-    summary: Inseto que imita com precisão uma haste vegetal.
-    info: A strašilka é um inseto da ordem Phasmatoidea e mestre em imitação; seu corpo replica perfeitamente ramos ou folhas. Quando ameaçada ela fica completamente paralisada. Algumas espécies reproduzem-se por partenogênese, sem machos.
-  insect.termite:
-    label: Termite
-    summary: Inseto social que constrói grandes colinas de terra.
-    info: Os termites são insetos sociais da ordem dos isópterios e estão distantes relacionados às abelhas.
-  insect.tiger_beetle:
-    label: carabóide
-    summary: Besourinho metálico com olhos muito nítidos.
-    info: O carabóide é um besouro da subfamília Cicindelidae conhecido por sua velocidade excepcional e visão aguçada para caça em movimento rápido no solo.
-  insect.velvet_ant:
-    label: mutelilide
-    summary: Vespa sem asa com aparência similar à das formigas.
-    info: |-
-      O mutelilide é tecnicamente uma vespa da família dos Mutillidae cujas fêmeas são asinacradas e lembram formigas muito de perto
-      Elas possuem pelagem vermelha ou laranja proeminente como aviso,
-      as quais têm um ferrão extremamente forte apelidado por assassino bovino.
+    label: bicho-pau
+    summary: Um inseto que imita perfeitamente um galho ou uma folha.
+    info: |
+      O bicho-pau pertence ao grupo Phasmatodea e é um mestre da camuflagem; seu corpo imita perfeitamente galhos ou folhas.
+      Diante do perigo, permanece completamente imóvel.
+      Algumas espécies se reproduzem por partenogênese, ou seja, sem macho.
+      São populares animais exóticos de estimação por sua criação fácil.
+  insect.firefly:
+    label: vaga-lume
+    summary: Um besouro que produz luz bioluminescente para atrair um parceiro.
+    info: |
+      O vaga-lume é um besouro da família Lampyridae capaz de produzir luz fria (bioluminescência) no abdômen.
+      Machos e fêmeas brilham em padrões diferentes para se reconhecer e atrair.
+      É governado pela reação química da luciferina com a luciferase.
+      Os vaga-lumes são um indicador de um ambiente limpo.
   insect.wasp:
     label: vespa
-    summary: Insetos peçonhetes pretas-e-amarelados que constroem ninho em forma de papel.
-    info: A vespa comum é um inseto peçonhento da espécie Vespyla conhecido por seu padrão amarelo e preto de aviso característico que constrói ninhos feitos à partir do papel produzidos pela mastigação da madeira. Ao contrário das abelhas, ela pode picar várias vezes ao longo da vida.
+    summary: Um inseto amarelo e preto com ferrão que constrói ninhos de papel.
+    info: |
+      A vespa comum é um inseto com ferrão do grupo Vespula com a típica coloração de alerta amarela e preta.
+      Ela constrói ninhos de papel a partir de polpa de madeira mastigada.
+      Ao contrário da abelha, a vespa pode picar várias vezes.
+      É útil como regulador natural de insetos-praga.
+  insect.cockroach:
+    label: barata
+    summary: Um inseto onívoro, noturno e veloz; muito resistente e adaptável.
+    info: |
+      A barata é um dos insetos mais resistentes do mundo; sobrevive à radiação e a condições que matariam outros animais.
+      Existem mais de 4.500 espécies, mas apenas cerca de 30 vivem perto dos humanos.
+      É um inseto antigo; as baratas existem há mais de 300 milhões de anos e sobreviveram aos dinossauros.
+      É veloz e pode correr a mais de 5 km/h.
+  insect.spider:
+    label: aranha
+    summary: Um aracnídeo de oito patas que tece teias para capturar insetos.
+    info: |
+      A aranha é um aracnídeo (não um inseto) da ordem Araneae com oito patas e o corpo dividido em duas partes.
+      Sabe produzir seda, com a qual tece teias para caçar ou para envolver os casulos de ovos.
+      No mundo vivem mais de 48.000 espécies de aranha.
+      Todas as espécies produzem veneno, mas a grande maioria é inofensiva para o ser humano.
+  insect.scorpion:
+    label: escorpião
+    summary: Um aracnídeo venenoso com pinças e uma cauda curva venenosa.
+    info: |
+      O escorpião é um aracnídeo (não um inseto) com pinças típicas e uma cauda curva que termina num ferrão venenoso.
+      É um animal antigo; os escorpiões fósseis mais antigos têm mais de 430 milhões de anos.
+      No escuro, ficam fluorescentes sob luz ultravioleta.
+      De cerca de 2.500 espécies, apenas cerca de 25 são perigosas para o ser humano.
+  insect.centipede:
+    label: centopeia
+    summary: Um miriápode com um par de patas em cada segmento do corpo.
+    info: |
+      A centopeia pertence à classe Chilopoda e tem um par de patas em cada segmento do corpo (não 100 patas, como sugere o nome).
+      É um predador veloz que caça insetos, minhocas e pequenos vertebrados.
+      O primeiro par de patas é transformado em garras venenosas para paralisar a presa.
+      Algumas espécies tropicais passam de 30 cm de comprimento.
+  insect.flea:
+    label: pulga
+    summary: Um minúsculo parasita saltador que suga o sangue de mamíferos e aves.
+    info: |
+      A pulga é um inseto sem asas da ordem Siphonaptera, especializado num modo de vida parasitário.
+      Suas fortes pernas traseiras permitem saltos de mais de 150 vezes o comprimento do corpo.
+      Suga o sangue de mamíferos e aves e pode transmitir doenças; historicamente as pulgas espalharam a peste.
+      As pulgas são acrobatas notáveis do mundo dos insetos.
+  insect.termite:
+    label: cupim
+    summary: Um inseto social que constrói enormes montículos de terra.
+    info: |
+      O cupim é um inseto social do grupo Isoptera, distantemente aparentado às baratas.
+      Vivem em colônias com um rei, uma rainha, soldados e operárias.
+      Constroem cupinzeiros complexos, nos trópicos com até 9 metros de altura, com um sistema de ventilação.
+      Como principais decompositores da madeira, têm papel fundamental nos ecossistemas tropicais.
+  insect.bumblebee:
+    label: mamangava
+    summary: Uma grande abelha peluda de zumbido grave; um polinizador importante.
+    info: |
+      A mamangava é um grande inseto peludo do gênero Bombus, aparentado à abelha melífera.
+      É um polinizador importante, sobretudo em climas mais frios, onde as abelhas voam menos.
+      Consegue se aquecer vibrando os músculos de voo, por isso voa mesmo com frio.
+      As mamangavas são mais mansas que as abelhas e só picam quando diretamente ameaçadas.
+  insect.hornet:
+    label: vespão
+    summary: A maior vespa da Europa, com ferrão potente e zumbido alto.
+    info: |
+      O vespão é a maior vespa social da Europa e passa de 3,5 cm de comprimento.
+      Constrói ninhos de papel em ocos de árvores ou sob telhados.
+      Seu ferrão é mais longo que o das vespas e a picada é mais dolorosa, mas o vespão só ataca quando diretamente ameaçado.
+      É um importante predador de outros insetos.
+  insect.cicada:
+    label: cigarra
+    summary: Um inseto famoso pelo canto estridente e potente nos dias quentes.
+    info: |
+      A cigarra é um inseto da superfamília Cicadoidea, famoso por um dos sons mais altos de todos os insetos.
+      Os machos produzem o som com membranas especiais (timbais) no abdômen para atrair as fêmeas.
+      Algumas espécies nos EUA têm ciclos de desenvolvimento de dezessete ou treze anos.
+      As ninfas vivem anos debaixo da terra, alimentando-se de raízes.
+  insect.locust:
+    label: gafanhoto-migratório
+    summary: Um gafanhoto migratório que forma enxames devastadores de milhões.
+    info: |
+      O gafanhoto-migratório é uma espécie de gafanhoto que, em certas condições, forma gigantescos enxames migratórios.
+      Um enxame pode conter bilhões de indivíduos e destruir lavouras inteiras em milhares de hectares num dia.
+      Em países da África e da Ásia, os gafanhotos são historicamente uma das maiores catástrofes agrícolas.
+      Na Bíblia, são uma das dez pragas do Egito.
+  insect.aphid:
+    label: pulgão
+    summary: Um minúsculo inseto sugador nos caules das plantas; produz melada.
+    info: |
+      Os pulgões são pequenos insetos sugadores da superfamília Aphidoidea que se alimentam da seiva das plantas.
+      Produzem uma melada doce que as formigas cuidam em troca de proteção.
+      Reproduzem-se extremamente rápido; uma única fêmea pode gerar centenas de milhões de descendentes num ano.
+      São importantes pragas das lavouras.
+  insect.earwig:
+    label: tesourinha
+    summary: Um inseto alongado com pinças na ponta do abdômen.
+    info: |
+      A tesourinha é um inseto da ordem Dermaptera, caracterizado pelas pinças (cercos) na ponta do abdômen, usadas para defesa e acasalamento.
+      O nome vem da superstição de que ela entra nos ouvidos das pessoas; isso é um mito.
+      As fêmeas da tesourinha são excepcionais por cuidarem dos ovos e das larvas jovens, algo raro entre os insetos.
+      Vivem em fendas, sob pedras e na serapilheira.
+  insect.silverfish:
+    label: traça
+    summary: Um inseto sem asas e veloz, encontrado nas casas perto de livros e papel.
+    info: |
+      A traça é um inseto primitivo sem asas da ordem Zygentoma que vive nas residências.
+      Alimenta-se de amido, papel, cola de encadernação e fibras têxteis.
+      O nome vem de sua cor prateada e de seu movimento semelhante ao de um peixe.
+      É uma das ordens de insetos mais antigas, vivendo quase inalterada há mais de 300 milhões de anos.
   insect.water_strider:
-    label: corredor-a-guia
-    summary: Inseto que anda pela superfície da água usando sua tensão.
-    info: A corredora-d'água é um inseto da família Gerridae capaz de caminhar sobre a superfície graças aos pelos hidrofóbicos nas pernas e à tensão superficial da água. Caça outros insectos afogados detectando vibrações causadas por eles na superfície do líquido.
+    label: alfaiate
+    summary: Um inseto que anda sobre a superfície da água graças à tensão superficial.
+    info: |
+      O alfaiate é um inseto da família Gerridae capaz de andar sobre a água graças aos pelos hidrofóbicos das patas e à tensão superficial da água.
+      Caça insetos que caíram na água, que detecta pelas vibrações da superfície.
+      É veloz e consegue deslizar sobre a água a mais de 150 vezes o comprimento do corpo por segundo.
+  insect.dung_beetle:
+    label: besouro-rola-bosta
+    summary: Um besouro que rola bolas de esterco, sagrado no Antigo Egito.
+    info: |
+      O escaravelho sagrado é um besouro da família Scarabaeidae que molda o esterco em bolas e as rola para enterrá-las e depositar ovos.
+      No Antigo Egito era símbolo do sol e do deus Khepri.
+      É um dos poucos animais que se orientam pela Via Láctea.
+      Ajuda a reciclar nutrientes e a arejar o solo.
+  insect.stag_beetle:
+    label: besouro-veado
+    summary: O maior besouro da Europa; o macho tem mandíbulas em forma de chifres.
+    info: |
+      O besouro-veado é o maior besouro da Europa e passa de 7 cm de comprimento.
+      O macho tem enormes mandíbulas em forma de chifres, usadas em duelos pelas fêmeas.
+      A larva vive até 7 anos na madeira apodrecida de carvalhos e se alimenta de fungos.
+      Está criticamente ameaçado pelo desaparecimento das florestas antigas e da madeira morta.
+  insect.atlas_moth:
+    label: mariposa-atlas
+    summary: Uma das maiores mariposas do mundo, com asas ornamentadas com padrões de cobra.
+    info: |
+      A mariposa-atlas é uma das maiores mariposas do mundo, com envergadura de até 30 cm.
+      As pontas de suas asas são coloridas para lembrar cabeças de cobra, o que assusta os predadores.
+      Os adultos não têm boca e não se alimentam; sobrevivem apenas poucos dias.
+      Vem das florestas tropicais do Sudeste Asiático.
   insect.weevil:
-    label: besourinho
-    summary: Pequeno besouro que possui um nariz característico prolongado.
-    info: O besouro é uma família de insetos pertencente à maior família animal do mundo com mais de 60 mil espécies. Seu nariz alongado serve para perfurar frutos e troncos. Algumas espécies são pragas agrícolas importantes como o besouro da algodoeira.
+    label: gorgulho
+    summary: Um pequeno besouro com um focinho alongado característico.
+    info: |
+      O gorgulho é um besouro da família Curculionidae, a maior família de animais do mundo, com mais de 60.000 espécies.
+      Seu focinho alongado característico (rostro) serve para perfurar sementes, frutos e troncos.
+      Algumas espécies são graves pragas agrícolas, como o gorgulho do algodão.
+      Outras espécies são especializadas numa única espécie de planta.
+  insect.lacewing:
+    label: crisopídeo
+    summary: Um inseto delicado de asas de nervuras transparentes; as larvas caçam pulgões.
+    info: |
+      O crisopídeo é um inseto da família Chrysopidae com asas delicadas de nervuras transparentes e olhos dourados.
+      As larvas são predadoras e consomem enormes quantidades de pulgões, tornando-se protetoras naturais das plantas.
+      Os adultos se alimentam de néctar e pólen.
+      São atraídos pela luz e são um indicador de um ambiente saudável.
+  insect.crane_fly:
+    label: pernilongão
+    summary: Uma grande mosca semelhante a um mosquito com patas extremamente longas.
+    info: |
+      O pernilongão é um inseto de duas asas da família Tipulidae, visualmente semelhante a um mosquito gigante, mas não pica nem parasita.
+      Suas patas extremamente longas se soltam com facilidade; é um mecanismo de defesa (autotomia).
+      Os adultos vivem apenas poucos dias e não se alimentam ou se alimentam de néctar.
+      As larvas vivem no solo e se alimentam de raízes.
+  insect.mayfly:
+    label: efêmera
+    summary: Um inseto com a vida adulta mais curta, vivendo apenas horas ou dias.
+    info: |
+      A efêmera é um inseto da ordem Ephemeroptera e símbolo da transitoriedade; os adultos vivem apenas horas ou dias.
+      Não têm peças bucais funcionais e não se alimentam.
+      As ninfas vivem de 1 a 3 anos debaixo d'água.
+      A revoada em massa das efêmeras é um espetáculo natural fascinante; na Hungria, sua revoada em massa no Danúbio é um fenômeno único.
+  insect.damselfly:
+    label: libelinha
+    summary: Uma esbelta parente da libélula; em repouso dobra as asas ao longo do corpo.
+    info: |
+      A libelinha é um inseto aparentado às libélulas, mas mais esbelto, e em repouso dobra as asas paralelas ao corpo, ao contrário das libélulas maiores.
+      É um predador e caça pequenos insetos em voo.
+      As ninfas vivem na água e são parte importante dos ecossistemas aquáticos.
+      São um indicador da qualidade dos cursos d'água.
+  insect.robber_fly:
+    label: asilídeo
+    summary: Uma mosca predadora que captura outros insetos em pleno voo.
+    info: |
+      O asilídeo é um inseto predador de duas asas da família Asilidae que caça outros insetos diretamente em voo.
+      Tem patas fortes para agarrar a presa e uma probóscide para injetar um veneno paralisante.
+      Algumas espécies imitam a aparência de mamangavas ou vespas como proteção contra predadores.
+      É benéfico como regulador natural das populações de insetos.
+  insect.ground_beetle:
+    label: carabídeo
+    summary: Um besouro predador veloz que vive sob pedras e na serapilheira.
+    info: |
+      O carabídeo é um besouro da família Carabidae; a maioria das espécies são predadores noturnos ativos que caçam outros insetos, minhocas e lesmas.
+      São velozes e fogem rapidamente do perigo.
+      Algumas espécies, como o carabídeo violeta, têm um belo brilho metálico.
+      São indicadores de solo saudável e de agricultura natural.
+  insect.tiger_beetle:
+    label: besouro-tigre
+    summary: Um besouro veloz de cor metálica e visão excelente.
+    info: |
+      O besouro-tigre é um besouro da subfamília Cicindelinae, famoso por sua velocidade extraordinária, capacidade de voo e visão aguçada.
+      Corre tão rápido que precisa parar e se reorientar, porque o movimento é veloz demais para seu sistema visual.
+      Tem corpos metálicos de cores esplêndidas (verde, azul, vermelho) e olhos grandes.
+      As larvas cavam túneis verticais no solo e espreitam a presa na abertura.
+  insect.hoverfly:
+    label: sirfídeo
+    summary: Uma mosca que imita as cores de vespas e abelhas, polinizadora dos jardins.
+    info: |
+      O sirfídeo é um inseto de duas asas da família Syrphidae que imita a coloração de vespas e abelhas como proteção contra predadores (mimetismo batesiano), embora não pique.
+      É um polinizador importante; visita mais espécies de plantas que as abelhas.
+      Os adultos se alimentam de néctar e pólen.
+      As larvas de algumas espécies caçam pulgões, ajudando assim nos jardins.
   insect.whirligig_beetle:
-    label: vírvulo
-    summary: Pequeno inseto que forma grupos girando pela camada superficial das águas.
-    info: O vírvulo é um besouro aquático da família Gyrinidae que vive sobre a superfície d'água e seu movimento em círculos ajuda-o a evitar predadores. Seus olhos são divididos em duas partes distintas; uma visão acima do nível de água e outra abaixo dela para monitorar os arredores com mais eficiência. Ele detecta pequenas ripples ou ondas causadas por comida próxima ou perigos no ambiente.
+    label: besouro-giratório
+    summary: Um pequeno besouro que gira em enxames na superfície da água.
+    info: |
+      O besouro-giratório é um besouro aquático da família Gyrinidae que vive na superfície, e girar em enxames o ajuda a evitar predadores.
+      Seus olhos são divididos em duas partes; uma enxerga acima da água, a outra abaixo.
+      Detecta ondulações na superfície que sinalizam comida ou perigo.
+      De dia gira, de noite voa.
+  insect.louse:
+    label: piolho
+    summary: Um minúsculo parasita sem asas que vive na pele e no pelo de mamíferos.
+    info: |
+      O piolho é um inseto parasita sem asas da ordem Phthiraptera que vive na pele e na pelagem ou nos cabelos dos hospedeiros.
+      Suga sangue e provoca coceira.
+      O piolho de cabeça é comum no mundo todo e afeta crianças independentemente das condições de higiene.
+      Historicamente, os piolhos transmitiram o tifo e outras doenças.
+  insect.bedbug:
+    label: percevejo
+    summary: Um parasita achatado que suga sangue à noite; esconde-se nas fendas dos móveis.
+    info: |
+      O percevejo de cama é um inseto achatado e oval da família Cimicidae, ativo sobretudo à noite.
+      Pica e suga o sangue do hospedeiro adormecido.
+      Esconde-se nas fendas do colchão, dos móveis e atrás do papel de parede.
+      Nas últimas décadas, espalhou-se pelo mundo graças às viagens internacionais.
+  insect.antlion:
+    label: formiga-leão
+    summary: Uma larva que cava armadilhas em funil para formigas na areia.
+    info: |
+      A formiga-leão é a larva de um inseto da família Myrmeleontidae que cava funis cônicos na areia seca.
+      Quando uma formiga escorrega na armadilha, a formiga-leão a agarra com as mandíbulas e injeta sucos digestivos.
+      Os adultos são discretos, parecidos com libélulas, e voam à noite.
+      As larvas podem viver anos debaixo da terra sem se alimentar.
+  insect.goliath_beetle:
+    label: besouro-golias
+    summary: Um dos maiores e mais pesados insetos do mundo, da África tropical.
+    info: |
+      O besouro-golias é um dos maiores insetos do mundo; os machos pesam até 100 gramas e alcançam mais de 11 cm de comprimento.
+      Vive nas florestas tropicais úmidas da África equatorial.
+      Os adultos se alimentam de frutas e seiva de árvores.
+      Na África, as crianças às vezes os mantêm como brinquedos e eles são vendidos a colecionadores.
+  insect.bombardier_beetle:
+    label: besouro-bombardeiro
+    summary: Um besouro que dispara uma mistura tóxica fervente como defesa.
+    info: |
+      O besouro-bombardeiro é um besouro da subfamília Brachininae que se defende de forma única; mistura dois produtos químicos no abdômen, gerando uma reação explosiva a mais de 100 graus.
+      O vapor altamente tóxico é disparado com um estrondo alto até 500 vezes por segundo.
+      É um dos exemplos mais fascinantes de defesa química na natureza.
+  insect.diving_beetle:
+    label: besouro-mergulhador
+    summary: Um besouro aquático predador que nada sob a superfície.
+    info: |
+      O besouro-mergulhador é um besouro aquático predador da família Dytiscidae que vive em lagoas e águas paradas.
+      Nada com facilidade graças às patas traseiras achatadas que funcionam como remos.
+      Respira na superfície e armazena ar sob os élitros.
+      Caça insetos, larvas, pequenos peixes e girinos; é ativo tanto na água quanto voando à noite.
+  insect.velvet_ant:
+    label: formiga-de-veludo
+    summary: Uma vespa sem asas laranja e preta que parece uma formiga.
+    info: |
+      A formiga-de-veludo é na verdade uma vespa da família Mutillidae; as fêmeas são sem asas e lembram formigas.
+      Têm pelos vermelhos ou laranja vistosos como advertência.
+      As fêmeas têm um ferrão extremamente potente, apelidado de mata-vacas.
+      Parasitam os ninhos de mamangavas.

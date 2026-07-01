@@ -157,6 +157,22 @@ func ExpandByName(b content.VisualBrief, styleName string) (Prompt, error) {
 	return Expand(b, s), nil
 }
 
+// settingPrepositions are words a setting phrase may already start with, so
+// expandFlux does not produce a double preposition like "in on a flower".
+var settingPrepositions = map[string]bool{
+	"on": true, "in": true, "at": true, "near": true, "under": true, "by": true,
+	"over": true, "above": true, "below": true, "inside": true, "atop": true,
+	"amid": true, "among": true, "against": true, "beside": true,
+}
+
+func startsWithPreposition(s string) bool {
+	first := s
+	if i := strings.IndexByte(s, ' '); i >= 0 {
+		first = s[:i]
+	}
+	return settingPrepositions[strings.ToLower(first)]
+}
+
 func expandFlux(b content.VisualBrief, s Style) Prompt {
 	// Natural sentence: "A friendly, sitting lion in savanna grass."
 	var sb strings.Builder
@@ -167,8 +183,16 @@ func expandFlux(b content.VisualBrief, s Style) Prompt {
 	}
 	sb.WriteString(b.Subject)
 	if len(b.Setting) > 0 {
-		sb.WriteString(" in ")
-		sb.WriteString(strings.Join(b.Setting, ", "))
+		setting := strings.Join(b.Setting, ", ")
+		// Some settings already begin with a preposition (e.g. "on a flower");
+		// only prepend "in" for bare noun-phrase settings ("savanna grass") so we
+		// never emit a double preposition like "in on a flower".
+		if startsWithPreposition(setting) {
+			sb.WriteString(", ")
+		} else {
+			sb.WriteString(" in ")
+		}
+		sb.WriteString(setting)
 	}
 	sb.WriteString(".")
 	// Distilled FLUX ignores negatives → fold "avoid" into the positive prompt.

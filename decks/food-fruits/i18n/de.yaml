@@ -2,210 +2,363 @@ lang: de
 pivot: false
 title: Obst
 cards:
-  fruit.ackee:
-    label: ackee
-    summary: Rote Tropischen Beere mit essbaren goldenen Samenkammern; Nationalpflanze von Jamaika.
-    info: Der Ackeebaum (Bligha sapida), benannt nach dem Kapitän Bligh im Jahr 1793, ist die Nationalfrucht Jamaikas. Nur reife gelbe Arile sind genießbar – unreife oder überreife Früchte enthalten den giftigen Stoff Hypoglezin A und können toxische Wirkungen haben. 'Ackee mit Salt Fish' gilt als Nationalspeise auf Jamaika.
   fruit.apple:
     label: Apfel
-    summary: Rundes rotes oder grünes Obst mit süß-saurem Geschmack.
-    info: Ein Apfel ist die Frucht der Stachelbeerbaumart Malus domestica und eine der am häufigsten angebauten Pflanzen weltweit. Er enthält Vitamin C und Ballaststoffe sowie über 7 500 verschiedene Sorten.
-  fruit.apricot:
-    label: Aprikose
-    summary: Kleine orangefarbene Steinfrucht mit einer sahnig-süßen bis leicht säuerlichen Note.
-    info: Die Aprikose (Prunus armenioca) kommt aus Zentralasien und wird sowohl in der Tschechoslowakei als auch überall in Europa angebaut – die süßesten kommen aus Türkei und Spanien. Sie ist reich an Beta-Carotin sowie Vitamin A. Getrocknete Aprikosen sind eine beliebte gesunde Snack-Variante.
-  fruit.avocado:
-    label: Avo
-    summary: Cremiges grünflebiges Obst von der Pekoe-Pflanze.
-    info: Das Avocado ist eine cremige grünfleischige Tropenfrucht aus der Gattung Persea Americana und stammt ursprünglich aus Mittelamerika sowie Mexico. Botanisch gesehen handelt es sich um ein Früchtchen einer Laubpflanze namens Pekeo, kulinarisch wird sie jedoch als Gemüse verwendet. Sie enthält gesunde einfach ungesättigte Fette wie Olivenöl – vor allem Oleinsäure.
+    summary: Eine runde rote oder grüne Frucht mit süß-säuerlichem Geschmack.
+    info: Der Apfel ist die Frucht des Kulturapfelbaums, einer der meistangebauten Nutzpflanzen der Welt. Er enthält Vitamin C und Ballaststoffe; es gibt über 7.500 Sorten.
   fruit.banana:
     label: Banane
-    summary: Gelber tropischer Frucht mit süßem Saft.
-    info: Eine Banane ist die Frucht einer tropischen Pflanze aus der Familie der Bananengewächse. Sie enthält viel Kalium und natürliche Zucker, die schnelle Energie liefern.
-  fruit.blackberry:
-    label: Brombeere
-    summary: Dunkellilafarbene zusammengesetzte Frucht vom Brombeerbusch.
-    info: Die Brombeere ist eine dunkel lila zusammengesetzte Beere aus dem Dornstrauch Rubus fruticosus. Sie wächst an Waldrändern und Buschgebieten. Die Brombeere enthält viel Vitamin C, K sowie Ballaststoffe.
-  fruit.blueberry:
-    label: Heidelbeere
-    summary: Dunkle blaue Beere – eine Superfood mit reicher Antioxidantien.
-    info: Heidelbeeren enthalten Anthocyane, die für ihre dunkelblaue Farbe und starke antioxidative Eigenschaften verantwortlich sind. Studien zeigen einen positiven Einfluss auf kognitive Funktionen sowie Herzgesundheit an. Kultivierte Heidelbeeren (Hochstaudenart), auch Hightbush genannt, sind größer als wilde Waldheidelbeeren.
-  fruit.cantaloupe:
-    label: kantholupa
-    summary: Ein gelbbrauner gestreifter Wassermelonentyp mit intensiv orangefarbener Fruchtfleische.
-    info: Der Kantalup (Cucumis melo var. kanteluzepensisch), auch als Cucurbitaceae bezeichnet, ist eine beliebte Melonenart aus asiatischer Herkunft.
-  fruit.cherry:
-    label: Kirsche
-    summary: Kleine runde rote Steinfrucht, die paarweise wächst.
-    info: Die Kirsche ist das Fruchtfleisch der Pflaume, einer beliebten Sommerfrucht. Sie enthält Antioxidantien und Melatonin; es gibt süße sowie saure Sorten.
-  fruit.coconut:
-    label: Nuss
-    summary: Tropical Nut mit harter Schale
-    info: '{"hint":"großes Tropennuss mit faseriger Hülle","info":"Die Kokusnuß ist die Frucht der Palme Cocus Nucifer und eine Steinfrucht im biologischen Sinne. Der Saft einer unreifen Kokuskern ist ein natürlicher Ionenspender für den Körper. Die Milch aus dem Kern wird oft als Grundlage von Gerichten genutzt."}'
-  fruit.cranberry:
-    label: Preiselbeere
-    summary: Kleine säuerliche rötliche Frucht aus Nordamerika
-    info: Die Preiselbeere ist eine kleine saure rote Beere und traditionelle Zutat zur US-Amerikanischen Thanksgiving-Mahlzeit als Preiselbeerensauce. Sie enthält Proantokianidine, die Bakterien wie Escherichia Coli daran hindern an den Wänden der Harnwege zu haften.
-  fruit.currant:
-    label: Johannisbeere
-    summary: Kleine rötliche, schwarze oder weiße Früchte im Traube.
-    info: Schwarze Johannisbeeren enthalten mehr Vitamin C als alle anderen Beerenarten und sind die Grundlage für den Geschmack von Ribena (eine britische Getränkemarkt) sowie Cassis-Likörerzeugung. Rote Johannisbeere wird zur Herstellung von Marmelade verwendet oder als Dekoration auf Desserts.
-  fruit.damson:
-    label: Damaszener-Pflaume
-    summary: Kleine dunkle Pflaumenart verbreitet in traditionellen britischen Gärten.
-    info: '{"info":"Die Damaszener Pflaume ist eine kleine dunkelpurpur bis schwarze Traube mit starker Säure im Rohzustand und eignet sich hervorragend für Gelee, Marmelade oder Gin wie den damazenen Gin. Der Name geht auf die Stadt Damaskus zurück aus dem diese Frucht nach Europa kam. In der englischen Tradition wird sie seit Antike angebaut."}'
-  fruit.date:
-    label: Date
-    summary: Süßes braunes ovaler Baumtraube aus dem Mittelmeerbereich.
-    info: Datteln sind süße Früchte der Datterpalme und enthalten über 60 Prozent Zucker sowie viel Energie. Sie werden seit tausenden von Jahren als Grundnahrungsmittel im Nahen Osten verwendet.
-  fruit.dragon_fruit:
-    label: drachtenapfel
-    summary: Ein pinkfarbener Tropenkakteen-Fruchttyp mit weisser Fleckfleisch.
-    info: Drachenfrucht (Pitajwa oder Hylocereus), stammt aus Mexico und Mittelamerika mit einer intensiv rosa Schale sowie weißer Fruchtfleischmasse gesprenkelt von schwarzen Samen. Sie ist optisch sehr ansprechend und hat einen feinen Geschmack reich an Antioxidantien wie Vitamin-C.
-  fruit.durian:
-    label: Duriang
-    summary: Große stachelige exotische Frucht mit intensivem Duft; König unter den Tropenfrüchten.
-    info: Der Durian (Durio zibethinus) wird als der König des Tropenobstes bezeichnet. Seine starke Geruch ist für manche abstoßend und für andere verführerisch – er ist an vielen Hotels im Asia-Raum nicht gestattet. Die Fruchtmasse hat eine cremige Konsistenz mit süßen Aromen von Mandeln, Vanille oder Käse.
-  fruit.feijoa:
-    label: Feijoase
-    summary: Kleine oval geformte grüne Frucht mit einer starken Aromaduft.
-    info: Die Feijoase (Acacia feiose oder Acca Sellowianna), stammt aus Südamerika und hat eine intensiv aromatische Frucht mit Geschmack von Ananas, Guave und Menthol. Sie ist besonders auf Neuseeland als Herbstobst sehr beliebt.
-  fruit.fig:
-    label: Feige
-    summary: Eine hirseähnliche Form, süße Innenfläche, reich an Calcium, Kalium und Ballaststoff.
-    info: Die Feige ist eine der ältesten kultivierten Früchte mit Beweisen aus über elftausend Jahren zurückreichenden Zeiten. Tatsächlich handelt es sich nicht um einen klassischen Sammelbecher von tausenden winzigen Blumen gefüllten Beeren, sondern um die Blätter des Fächerfeigbaums erscheinen im biblischen Bericht als Adams und Evas Blattwerk.
-  fruit.gooseberry:
-    label: Johannisbeere
-    summary: Eine runde durchsichtige kleinen Beere beliebt auf dem Garten.
-    info: Johannisbeeren sind kleine Früchte und ein charakteristisches Obst für Gärten im mittel-europäischen Raum. Sie kommen grün oder rot vor sowie es gibt auch gelb gefarbte Sorte von Johannisbeerfrucht. Die Beere ist reich an Vitamin-C.
-  fruit.grape:
-    label: Traube
-    summary: Kleine, runde Beere, die in traubenförmigen Trauben wächst.
-    info: Die Weinrebe trägt Trauben in verschiedenen Farben – von grün bis dunkelviolett. Trauben werden frisch gegessen, getrocknet zu Rosinen oder gepresst zu Wein.
-  fruit.grapefruit:
-    label: granate apfel
-    summary: Großes sauer-süßer Zitrusfruchttyp; Ernährungsleistungsträger.
-    info: Granate Apfelsine ist ein Hybrid aus Pampelmus und Mandarine. Sie wurde im 18. Jahrhundert auf den Barbadischen Inseln beschrieben. Rosa bis rote Granatsinen enthalten Lycopin sowie Beta-Carotin. Grapefruit-Saft kann mit vielen Medikamenten wechselwirken – Patienten sollten ihren Arzt darüber informieren.
-  fruit.guava:
-    label: Ananas
-    summary: Eine exotische Frucht mit intensiver Duftnote und weißer oder rosafarbener Schale.
-    info: Die Guave stammt aus der Tropischen Amerika und ist heute weit verbreitet im gesamten Südostasien sowie Afrika. Sie enthält viermal mehr Vitamin C als eine Orange.
-  fruit.jackfruit:
-    label: Jackfruchtb Baum
-    summary: Die riesige tropische Frucht des Artocarps-Baums.
-    info: Brotfruchtbaum (Artocarpus heterophyllus) bildet die größten Früchte an Bäumen auf der Welt – sie können über 35 Kilogramm wiegen und kommen aus Südostasien her. Sie ist eine Grundnahrungsmittelquelle für Länder wie Indien, Bangladesh oder Thailand. Unreife Jackfruits haben einen neutraleren Geschmack mit einer Textur ähnlich dem Fleisch und werden oft als pflanzliche Ersatzprodukte verwendet.
-  fruit.kiwi:
-    label: Kiwifruit
-    summary: Braunes haartiges Obst mit grünem Saftgewebe – reich an Vitamin.
-    info: Die Kiwischale ist braun und haarig mit einer frischen grünen Fruchtfleischfarbe im Inneren; es gibt auch goldene Sorten. Sie stammen aus China unter dem Namen 'Yang Tao' oder Chinesische Holundertraube. Neuseeland hat sie kommerziell genutzt und nach ihrem Nationaltier namens Kiwibird benannt.
-  fruit.lemon:
-    label: Zitrone
-    summary: Saures gelbes Obst mit hohem Vitamingehalt.
-    info: Die Zitrone ist eine saure Citrusfrucht aus asiatischen Regionen und reich an Vitamin C sowie Zitronensäure. Sie wird häufig in der Küche verwendet, aber auch bei Getränken oder Kosmetika genutzt – manche Reinigungsprodukte enthalten sie ebenfalls.
-  fruit.lime:
-    label: Zitronensaft
-    summary: Ein kleines grün-saures Fruchtgewächs im Citrussystem.
-    info: Eine Zitrone ist ein kleiner grüner Citrus mit saftiger Säure und aromatischer Schale. Sie spielt eine entscheidende Rolle bei der Zubereitung von Speisen aus mexikanischer, thailändischer oder vietnamesicher Küche. Obwohl sie weniger Vitamin C als die gewöhnliche Limette enthält, hat sie dennoch einen starken Aroma-Eindruck.
-  fruit.longan:
-    label: Longan
-    summary: Kleiner brauner Tropenfruchtschwesterart zu Litschi.
-    info: Der Longan ist ein Frucht des aus China stammenden Tropenbaums Dimocarpus longan. Der Name kommt von der chinesischen Bezeichnung 'lang yian', was übersetzt so viel wie Drachenauge bedeutet – aufgrund seiner durchsichtigen Schale mit einem schwarzen Samenkorn darunter. Er hat einen süßen und aromatischen Geschmack.
-  fruit.lychee:
-    label: lychee
-    summary: Kleine rote Tropicfruit mit transparenter Masse; beliebt in Asien.
-    info: Lychee ist eine kleine rote Tropifruit aus China mit einer rauen Schale und durchsichtiger weißer Fruchtfleisch darunter. Sie hat einen süßen Geschmack und leicht aromatischen Duft. In China symbolisiert sie Glück und Wohlstand.
-  fruit.mango:
-    label: Mango
-    summary: Tropisches Obst mit gelb-oranger saftiger Fruchtfleisch.
-    info: Die Mango ist der sogenannte „König des tropischen Obsts“. Sie enthält viel Vitamin A und C und stammt aus Südostasien, wo sie bereits seit 4 000 Jahren angebaut wird.
-  fruit.medlar:
-    label: Quittengewächs
-    summary: Kleine braune Apfelähnlichkeit; muss nach der Ernte reifen.
-    info: Der Quittenbaum ist eine alte Gartenvarietät mit der Bezeichnung Mespilus germanica und wird seit dem Mittelalter angebaut. Der Geschmack verbessert sich durch das sogenannte Blettieren – den Prozess des Reifens nach Erntung bis die Frucht weich geworden ist. Sie enthält viel Pektin sowie Vitamin C.
-  fruit.melon:
-    label: melon
-    summary: Große Süsse Früchte mit orangefarbenen, grünfarbig oder weißer Schale.
-    info: Der Melon ist ein warmer bis subtroplischer Frucht mit hohem Wasseranteil und entstand aus der Gattung Cucurbitaceae innerhalb der Familie von Kürbissen oder Gurken im süßlichen Geschmacksspektrum. Er kommt ursprünglich aus Afrika sowie Asien herübergebracht worden sein, wo er heute weltweit angepflanzt wird.
-  fruit.mulberry:
-    label: maulbeere
-    summary: Dunkelviolette Früchte des Mulbergs; Futterquelle für Seidenspinner.
-    info: Die Maulbeere ist die Beerenfrucht der Maulbeerbäume aus den Gattung Morus; ihre Blätter sind Nahrung für Seidenraupen und somit von großer Bedeutung im Serengewerbe.
-  fruit.nectarine:
-    label: nectarine
-    summary: Glattes Fruchtfleisch ohne Haare auf der Hülse; saftig und süß.
-    info: Die Nectarine ist eine natürliche Mutation der Pfirsichpflanzenart mit glatter Haut und unterscheidet sich von den normalerweise haarigen Sorten nur durch das Gen für die Glätte ihrer Schale.
+    summary: Eine gelbe tropische Frucht mit süßem Fruchtfleisch.
+    info: Die Banane ist die Frucht einer tropischen Pflanze aus der Familie der Bananengewächse. Sie ist reich an Kalium und natürlichem Zucker, der schnelle Energie liefert.
   fruit.orange:
     label: Orange
-    summary: Runde Zitrusfrucht mit einer duftenden orangefarbenen Schale.
-    info: Die Orange ist eine aus Südostasien stammende Zitrusfrucht, die heute weltweit angebaut wird. Sie enthält viel Vitamin C und wird gern als Saft konsumiert.
-  fruit.papaya:
-    label: Ananas
-    summary: Tropical Obst aus der Familie der Bromeliengewächse.
-    info: '{"hint":"große orangefarbene Tropenfrucht","info":{"label":"Mango","summary":"","content":"Die Mango ist eine große Frucht mit einer reifen Schale und süßem Saft."}}'
-  fruit.passion_fruit:
-    label: Marakujapflanzen
-    summary: Eine Pflanze mit violetter Schale und aromatischen Samenkernen.
-    info: Die Maracuja stammt aus der Tropischen Südamerika und trägt ihren Namen von Missionaren, die im Blütenstand Symbole Christi Leiden erkannten.
-  fruit.peach:
-    label: Pfersik
-    summary: Weicher flausig-gelber bis rosa Steinobsttyp mit samtartiger Schale.
-    info: |-
-      Die Pfirsichblüte (Prunus persica), die aus China stammt und dort das Symbol der Unsterblichkeit ist,
-      wird durch ihre samtige Haut gekennzeichnet;
-      es gibt weiße wie gelbe Sorten sowie Nektarine als haarlose Variante ohne Flaum.
-      Pfirsiche sind ein Teil des Neuen Jahres und heiliger Mythen im chinischen Kulturkreis.
-  fruit.pear:
-    label: Birne
-    summary: Tränenförmiges Obst mit süß-milder Geschmack.
-    info: Die Birne ist die Frucht der Stachelbirne, einer eng verwandten Verwandtschaft zur Apfel. Sie hat eine zarte, saftige Konsistenz und einen hohen Fasergehalt; es gibt Hunderte von Sorten.
-  fruit.persimmon:
-    label: Kaki
-    summary: Ein orangenes Aprikosenähnelndes Obst von honigsüßer bis bitterer Note.
-    info: |-
-      Der Tomatenapfel (Diospyros kaki), auch Kaki genannt, stammt aus China und Japan; er ist in der Tschechoslowakei als japanischer Tomatenapfel bekannt.
-      Unreifer Tomatenapfel hat einen bitteren Geschmack mit einer trockenen Schale;
-      zur Reifezeit wird die Frucht süß wie Honig.
-  fruit.pineapple:
-    label: Ananas
-    summary: Tropische Frucht mit stacheliger Krone und gelber Fruchtfleisch.
-    info: Der Ananas stammt aus Südamerika und wird heute im gesamten Tropengürtel der Welt angebaut. Er enthält den Enzym Bromelain, das bei der Verdauung hilft.
-  fruit.plum:
-    label: Pflaume
-    summary: Lila Steinobstfrucht mit großer Bedeutung bei der Produktion von Spirituosen.
-    info: Die Pflaume ist ein grundlegendes Obst der Mitteleuropäischen Region und wird traditionell für die Herstellung von Slivowitz verwendet – einen alkoholischen Schnaps aus Pflaumenbrandbasis. Im Herbst werden herkömmliche Früchte wie beispielsweise Marmelade auf Basis von Pflaumensirup geerntet.
-  fruit.pomegranate:
-    label: Granahte
-    summary: Rote Beere mit tausenden süßen Kernen als Symbol für Fülle.
-    info: Die Granate (Punica granatum) kommt aus Zentralasien und dem Mittelmeerraum. Sie enthält über sechs-hundert Samen im durchsichtigen roten Fruchtfleisch der Arillen. Reiche Quelle an Antioxidantien – Forscher untersuchen ihren Einfluss auf das Herz sowie Entzündungen.
-  fruit.quince:
-    label: Quitte
-    summary: Hartes gelbes Obst aus der Familie von Äpfeln und Birnen; es muss immer gekocht werden.
-    info: Quittenfrucht ist verwandt mit der Birne und Apfel; roh gegessen hat sie eine feste Konsistenz ohne Geschmack oder Aroma. Sie wird immer thermisch verarbeitet – beispielsweise als Quittengelee (Membrillo), Quittenwein sowie Quitterbrand hergestellt. Die Früchte enthalten viel Pektin für die Geleeherstellung.
-  fruit.rambutan:
-    label: Rammbutan
-    summary: Ein rot behaarter Tropfenfrucht ähnelt der Lychee.
-    info: Der Rambutan stammt aus Malaysia und sein Name kommt vom Malayischen 'rambut', was Haare bedeutet. Seine rote Schale ist mit weichen haarartigen Wachstümen bedeckt. Die Fruchtfleischfarbe ist transparent und süß wie Litschi.
-  fruit.raspberry:
-    label: Heidelbeere
-    summary: Eine rote zusammengesetzte Beere – ein Sommersymbol auf dem Feld.
-    info: Die Heidelbeere besteht aus vielen kleinen Steinfrüchten und ist reich an Vitamin C, K, Mangan sowie Antioxidantien. Sie wächst sowohl wild als auch kultiviert und wird im Sommer wie Herbst geerntet.
-  fruit.starfruit:
-    label: Sternfrucht
-    summary: Eine gelbe Tropenpflanze mit einem charakteristischen Sterndefekt beim Schneiden.
-    info: Die Karambolakirsche oder Sternfrucht stammt aus Südostasien und weist bei Querschnitt ein sternförmiges Muster auf – daher auch der Name 'Sternfrucht'. Sie hat eine säuerlich-frische Geschmackskomponente und ist reich an Vitamin C.
+    summary: Eine runde Zitrusfrucht mit duftender orangefarbener Schale.
+    info: Die Orange ist eine Zitrusfrucht, die ursprünglich aus Südostasien stammt und heute weltweit angebaut wird. Sie ist reich an Vitamin C und als Saft beliebt.
   fruit.strawberry:
     label: Erdbeere
-    summary: Rote saftige Beere in Herzform.
-    info: Die Erdbeere ist ein beliebtes Obst aus der Rosengewächs-Familie. Sie enthält viel Vitamin C und Antioxidantien; sie wird im Sommer geerntet und hat einen süßlichen Duft.
-  fruit.tamarind:
-    label: Zimbel
-    summary: Braune Hülsenfrucht mit säurigem Saft – Grundlage für thailändische Küche.
-    info: Mandelbaum (Tamarindus indica) stammt aus der Tropenafrika und wird heute weltweit im Tropengürtel angebaut. Die Frucht ist stark sauer bis süß-sauer und findet Verwendung beispielsweise bei Gerichten wie dem Thailändischen Nudelpfanne-Pad-Thai oder Worcestershiresauce sowie indischem Chutney. Der Name kommt vom Arabisch-Tamil-Wort 'tamr hindī', was so viel bedeutet wie „Indisches Datel“. Mandelmuskat enthält reichlich Zitronensäure, Vitamin-B-Komplexe und Eisen.
-  fruit.tangerine:
-    label: Zitrusfrucht
-    summary: Kleine, süße Zitrone mit loser Haut – Symbol der Weihnachten.
-    info: Die Mandarine ist ein kleiner Citronenpflanzen-Art aus China mit lockerer Schale und süßem Geschmack. Sie steht für Glück sowie das chinesische Neujahr. In Tschechien gilt sie als traditionelles Weihnachtsobst.
+    summary: Eine rote, saftige, herzförmige Beere.
+    info: Die Gartenerdbeere ist eine beliebte Frucht aus der Familie der Rosengewächse. Reich an Vitamin C und Antioxidantien, wird sie im Sommer geerntet und duftet süß.
+  fruit.grape:
+    label: Weintraube
+    summary: Eine kleine runde Beere, die in Trauben wächst.
+    info: Der Weinstock bringt Trauben in verschiedenen Farben hervor, von Grün bis Dunkelviolett. Trauben werden frisch gegessen, zu Rosinen getrocknet oder zu Wein gepresst.
   fruit.watermelon:
-    label: Wassermelon
-    summary: Großes grün-gestreifter Frucht mit roter saftiger Fruchtfleisch.
-    info: Die Wassermelone stammt aus Afrika und ist ein beliebtes Sommerobst. Sie besteht zu 92 % aus Wasser und enthält Lycopin, das für ihre rote Farbe verantwortlich ist.
+    label: Wassermelone
+    summary: Eine große grün gestreifte Frucht mit rotem, saftigem Fruchtfleisch.
+    info: Die Wassermelone stammt aus Afrika und ist eine beliebte Sommerfrucht. Sie besteht zu 92 % aus Wasser und enthält Lycopin, das ihr die rote Farbe gibt.
+  fruit.mango:
+    label: Mango
+    summary: Eine tropische Frucht mit saftigem gelb-orangem Fruchtfleisch.
+    info: Die Mango wird als König der tropischen Früchte bezeichnet. Reich an Vitamin A und C, stammt sie aus Südasien, wo sie seit 4.000 Jahren angebaut wird.
+  fruit.cherry:
+    label: Kirsche
+    summary: Eine kleine runde rote Steinfrucht, die paarweise wächst.
+    info: Die Kirsche ist die Frucht des Vogelkirschbaums, eine beliebte Sommerfrucht. Sie enthält Antioxidantien und Melatonin; es gibt süße und saure (Sauerkirschen) Sorten.
+  fruit.pear:
+    label: Birne
+    summary: Eine tropfenförmige Frucht mit süßem, mildem Geschmack.
+    info: Die Birne ist die Frucht des Kulturbirnbaums, ein naher Verwandter des Apfels. Sie hat weiches, saftiges Fruchtfleisch und einen hohen Ballaststoffgehalt; es gibt Hunderte von Sorten.
+  fruit.pineapple:
+    label: Ananas
+    summary: Eine tropische Frucht mit stacheliger Krone und goldenem Fruchtfleisch.
+    info: Die Ananas stammt aus Südamerika und wird heute in den Tropen der ganzen Welt angebaut. Sie enthält das Enzym Bromelain, das die Verdauung unterstützt.
+  fruit.lemon:
+    label: Zitrone
+    summary: Eine saure gelbe Zitrusfrucht; Quelle von Vitamin C und Aroma.
+    info: |
+      Die Zitrone ist eine saure Zitrusfrucht, die aus Asien stammt.
+      Sie ist reich an Vitamin C und Zitronensäure.
+      Sie wird in der Küche, in Getränken, in der Kosmetik und in Reinigungsmitteln verwendet.
+      Die Schale des Zitronenbaums (Citrus limon) enthält ein ätherisches Öl mit charakteristischem Zitronenduft.
+  fruit.lime:
+    label: Limette
+    summary: Eine kleine grüne saure Zitrusfrucht; Schlüsselzutat der tropischen Küche.
+    info: |
+      Die Limette ist eine kleine grüne Zitrusfrucht mit saurem Saft und aromatischer Schale.
+      Sie ist unverzichtbar in der mexikanischen, thailändischen und vietnamesischen Küche.
+      Sie enthält weniger Vitamin C als die Zitrone, aber ein stärkeres Aroma.
+      Der Verzehr von Limetten schützte Seefahrer vor Skorbut (Vitamin C).
+  fruit.kiwi:
+    label: Kiwi
+    summary: Eine braune, behaarte Frucht mit grünem Fruchtfleisch; reich an Vitaminen.
+    info: |
+      Die Kiwi (Actinidia deliciosa) stammt aus China, wo sie chinesische Stachelbeere genannt wird.
+      Neuseeland vermarktete sie und benannte sie nach seinem Nationalvogel, dem Kiwi.
+      Sie enthält doppelt so viel Vitamin C wie eine Orange.
+      Das Fruchtfleisch ist leuchtend grün; es gibt auch goldene (gelbe) Sorten.
+  fruit.peach:
+    label: Pfirsich
+    summary: Eine samtige gelb-rosa Steinfrucht; ein Symbol des Sommers.
+    info: |
+      Der Pfirsich (Prunus persica) stammt aus China, wo er ein Symbol der Unsterblichkeit ist.
+      Seine weiche, samtige Haut ist charakteristisch.
+      Es gibt weiße und gelbe Sorten; die Nektarine ist die glatte, flaumlose Variante.
+      In China sind Pfirsiche Teil des Neujahrs und der Heilmythologie.
+  fruit.plum:
+    label: Pflaume
+    summary: Eine violette Steinfrucht; Grundlage von Sliwowitz und Pflaumenmus.
+    info: |
+      Die Pflaume (Prunus domestica) ist eine Grundfrucht Mitteleuropas.
+      Sliwowitz (Pflaumenbrand) ist ein traditioneller tschechischer und slowakischer Schnaps.
+      Pflaumenmus ist ein typisches Erzeugnis der Herbsternte.
+      Weltweit gibt es über 2.000 Pflaumensorten.
+  fruit.apricot:
+    label: Aprikose
+    summary: Eine kleine orange Steinfrucht; süß-säuerlich und saftig.
+    info: |
+      Die Aprikose (Prunus armeniaca) stammt aus Zentralasien.
+      Sie wird in ganz Europa angebaut; die süßesten kommen aus der Türkei und Spanien.
+      Sie ist reich an Beta-Carotin und Vitamin A.
+      Getrocknete Aprikosen sind ein beliebter gesunder Snack.
+  fruit.raspberry:
+    label: Himbeere
+    summary: Eine rote Sammelfrucht; Symbol des Sommergartens.
+    info: |
+      Die Himbeere (Rubus idaeus) ist eine Sammelfrucht aus vielen kleinen Steinfrüchtchen.
+      Sie wächst wild und kultiviert; die Ernte erfolgt im Sommer und Herbst.
+      Reich an Vitamin C und K, Mangan und Antioxidantien.
+      Himbeermarmelade und Himbeeressig sind traditionelle Leckereien.
+  fruit.blueberry:
+    label: Heidelbeere
+    summary: Eine dunkelblaue Beere; ein Superfood voller Antioxidantien.
+    info: |
+      Die Heidelbeere (Vaccinium myrtillus wild, V. corymbosum kultiviert) ist reich an Anthocyanen.
+      Anthocyane geben ihr die dunkelblaue Farbe und starke antioxidative Eigenschaften.
+      Studien deuten auf positive Wirkungen auf die kognitiven Funktionen und die Herzgesundheit hin.
+      Kulturheidelbeeren sind größer als wilde Waldheidelbeeren.
+  fruit.blackberry:
+    label: Brombeere
+    summary: Eine dunkelviolette Sammelfrucht vom Brombeerstrauch.
+    info: |
+      Die Brombeere (Rubus fruticosus) ist eine dunkelviolette Sammelfrucht, die an einem dornigen Strauch wächst.
+      Die wilde Brombeere wächst an Waldrändern und in Gebüschen.
+      Sie enthält viel Vitamin C, K und Ballaststoffe.
+      Brombeermarmelade, Kompott und Likör sind traditionelle Erzeugnisse.
+  fruit.coconut:
+    label: Kokosnuss
+    summary: Eine große tropische Nuss mit harter Schale und weißem Fruchtfleisch.
+    info: |
+      Die Kokosnuss (Cocos nucifera) ist die Frucht der Kokospalme; botanisch ist sie eine Steinfrucht, keine Nuss.
+      Das Kokoswasser im Inneren der unreifen Frucht ist ein natürliches isotonisches Getränk.
+      Kokosmilch und -öl sind die Grundlage der südostasiatischen und indischen Küche.
+      Die Kokospalme wird der Baum der tausend Verwendungen genannt.
+  fruit.papaya:
+    label: Papaya
+    summary: Eine große tropische Frucht mit intensiv orangem Fruchtfleisch.
+    info: |
+      Die Papaya (Carica papaya) stammt aus dem tropischen Amerika.
+      Sie enthält das Enzym Papain, das die Verdauung von Eiweiß fördert.
+      Sie ist reich an Vitamin C, Beta-Carotin und Antioxidantien.
+      Unreife Papaya wird in der südostasiatischen Küche als Gemüse verwendet (Som-Tam-Salat).
+  fruit.guava:
+    label: Guave
+    summary: Eine tropische Frucht mit intensivem Duft und weißem oder rosa Fruchtfleisch.
+    info: |
+      Die Guave (Psidium guajava) stammt aus dem tropischen Amerika und hat sich über das tropische Asien und Afrika verbreitet.
+      Sie enthält viermal mehr Vitamin C als eine Orange.
+      Schale und Kerne sind essbar; die ganze Frucht ist nahrhaft.
+      Guavensaft und -marmelade sind beliebte Erzeugnisse in tropischen Ländern.
+  fruit.pomegranate:
+    label: Granatapfel
+    summary: Eine rote Frucht mit tausend süßen Kernen; Symbol der Fruchtbarkeit.
+    info: |
+      Der Granatapfel (Punica granatum) stammt aus Zentralasien und dem Mittelmeerraum.
+      Er enthält über 600 Kerne, die von durchscheinendem rotem Fruchtfleisch (Arillen) umgeben sind.
+      Reich an Antioxidantien; Studien untersuchen seine Wirkung auf Herz und Entzündungen.
+      Er symbolisiert Fruchtbarkeit und Fülle in vielen Kulturen (griechisch, jüdisch, islamisch).
+  fruit.fig:
+    label: Feige
+    summary: Eine birnenförmige Frucht des Feigenbaums; süß und voller Kerne.
+    info: |
+      Die Feige (Ficus carica) ist eine der ältesten Kulturfrüchte; Belege reichen 11.000 Jahre zurück.
+      Sie ist eigentlich keine Frucht, sondern ein Gefäß, das mit Tausenden winziger Blüten gefüllt ist.
+      Die Feigenblätter von Adam und Eva in der biblischen Erzählung sind Blätter des Feigenbaums.
+      Getrocknete Feigen sind eine hervorragende Quelle für Kalzium, Kalium und Ballaststoffe.
+  fruit.date:
+    label: Dattel
+    summary: Eine süße braune ovale Frucht der Dattelpalme; Grundnahrungsmittel des Nahen Ostens.
+    info: |
+      Datteln (Phoenix dactylifera) sind die süßen Früchte der Dattelpalme.
+      Sie sind seit Jahrtausenden ein Grundnahrungsmittel des Nahen Ostens.
+      Sie enthalten über 60 % Zucker und sind eine bedeutende Energiequelle.
+      Im Islam isst man Datteln traditionell zuerst beim Brechen des Ramadan-Fastens (Iftar).
+  fruit.melon:
+    label: Melone
+    summary: Eine große süße Frucht mit orangem, grünem oder weißem Fruchtfleisch.
+    info: |
+      Die Melone (Cucumis melo) ist eine tropische bis subtropische Frucht mit hohem Wassergehalt.
+      Sie stammt aus Afrika und Asien; heute wird sie weltweit angebaut.
+      Sie besteht zu über 90 % aus Wasser und ist sehr durstlöschend.
+      Es gibt Hunderte von Sorten, darunter Cantaloupe, Honigmelone, Galia und Charentais.
+  fruit.cantaloupe:
+    label: Cantaloupe-Melone
+    summary: Eine gelb-braune genetzte Melone mit intensiv orangem Fruchtfleisch.
+    info: |
+      Die Cantaloupe-Melone (Cucumis melo var. cantalupensis) ist eine beliebte Melonensorte, die aus Asien stammt.
+      Ihr Name stammt vom päpstlichen Landsitz Cantalupo bei Rom.
+      Das orange Fruchtfleisch ist reich an Beta-Carotin und Vitamin A.
+      Sie ist eine der süßesten Melonenarten.
+  fruit.grapefruit:
+    label: Grapefruit
+    summary: Eine große bitter-süße Zitrusfrucht; ein Diät-Star.
+    info: |
+      Die Grapefruit (Citrus paradisi) ist eine Kreuzung aus Orange und Pomelo.
+      Sie wurde im 18. Jahrhundert auf Barbados beschrieben.
+      Rosa und rote Grapefruit enthalten Lycopin und Beta-Carotin.
+      Grapefruitsaft wechselwirkt mit vielen Medikamenten; Patienten sollten ihren Arzt informieren.
+  fruit.tangerine:
+    label: Mandarine
+    summary: Eine kleine süße Zitrusfrucht mit lockerer Schale; Symbol von Weihnachten.
+    info: |
+      Die Mandarine (Citrus reticulata) ist eine kleine, leicht zu schälende Zitrusfrucht, die aus China stammt.
+      Sie ist ein Symbol des chinesischen Neujahrs und des Glücks.
+      In vielen Ländern ist sie eine typische Weihnachtsfrucht.
+      Sie enthält Vitamin C, Antioxidantien und Flavonoide.
+  fruit.passion_fruit:
+    label: Passionsfrucht
+    summary: Eine tropische Frucht mit runzliger violetter Schale und aromatischem, kernigem Fruchtfleisch.
+    info: |
+      Die Passionsfrucht (Passiflora edulis) stammt aus dem tropischen Südamerika.
+      Ihr Name stammt von Missionaren, die in ihrer Blüte die Symbole der Passion Christi sahen.
+      Das Fruchtfleisch ist voller Kerne, die in einem aromatischen Gel eingehüllt sind.
+      Sie ist eine hervorragende Quelle für Vitamin C, Ballaststoffe und Antioxidantien.
+  fruit.lychee:
+    label: Litschi
+    summary: Eine kleine rote tropische Frucht mit durchscheinendem Fruchtfleisch; in Asien beliebt.
+    info: |
+      Die Litschi (Litchi chinensis) ist eine tropische Frucht, die aus China stammt.
+      Ihre raue rote Schale lässt sich abschälen und gibt durchscheinendes weißes Fruchtfleisch frei.
+      Sie hat einen süßen, zart aromatischen Geschmack.
+      In China ist sie ein Symbol für Glück und Wohlstand.
+  fruit.dragon_fruit:
+    label: Drachenfrucht
+    summary: Eine rosa tropische Kaktusfrucht mit weißem, gesprenkeltem Fruchtfleisch.
+    info: |
+      Die Drachenfrucht (Pitahaya, Hylocereus) stammt aus Mexiko und Mittelamerika.
+      Ihre leuchtend rosa Schale und ihr weißes Fruchtfleisch mit schwarzen Kernen sind sehr dekorativ.
+      Sie hat einen milden Geschmack; sie enthält Antioxidantien und Vitamin C.
+      Aus ihr werden Säfte, Smoothies und dekorative Desserts hergestellt.
+  fruit.starfruit:
+    label: Sternfrucht
+    summary: Eine gelbe tropische Frucht, die beim Schneiden Sterne bildet.
+    info: |
+      Die Sternfrucht (Averrhoa carambola) stammt aus Süd- und Südostasien.
+      Quer geschnitten bildet sie eine perfekte Sternform (daher starfruit).
+      Sie hat einen süß-sauren Geschmack; sie ist reich an Vitamin C.
+      Menschen mit Nierenerkrankungen sollten sie wegen der Oxalate nicht essen.
+  fruit.avocado:
+    label: Avocado
+    summary: Eine cremige tropische Steinfrucht; Grundlage von Guacamole.
+    info: |
+      Die Avocado (Persea americana) stammt aus Mexiko und Mittelamerika.
+      Botanisch ist sie eine Frucht (eine Steinfrucht), wird aber kulinarisch wie Gemüse verwendet.
+      Sie enthält gesunde einfach ungesättigte Fette (Ölsäure) wie Olivenöl.
+      Sie ist weltweit ein angesagtes Gesundheitsnahrungsmittel; Avocado-Toast ist eine Ikone der modernen Café-Kultur.
+  fruit.persimmon:
+    label: Kaki
+    summary: Eine orange tomatenähnliche Frucht; süß und adstringierend.
+    info: |
+      Die Kaki (Diospyros kaki) stammt aus China und Japan; sie wird auch Persimone genannt.
+      Unreife Kaki ist gerbstoffreich und adstringierend; reif ist sie süß wie Honig.
+      Sie ist reich an Vitamin A und C und Mineralstoffen.
+      In Japan ist sie eine traditionelle Herbstfrucht (Kaki).
+  fruit.mulberry:
+    label: Maulbeere
+    summary: Eine dunkelviolette Beere vom Maulbeerbaum; Nahrung der Seidenraupe.
+    info: |
+      Die Maulbeere (Morus) ist die Beere des Maulbeerbaums; die Blätter des Maulbeerbaums sind die Nahrung der Seidenraupe.
+      Es gibt weiße, rote und schwarze Maulbeeren; die schwarze ist die süßeste.
+      In der Geschichte war der Anbau des Maulbeerbaums entscheidend für die Seidenherstellung.
+      Maulbeeren sind reich an Resveratrol, Vitamin C und Eisen.
+  fruit.cranberry:
+    label: Cranberry
+    summary: Eine kleine rote saure Beere; traditionelle amerikanische Zutat.
+    info: |
+      Die Cranberry (Vaccinium macrocarpon) ist eine kleine saure rote Beere.
+      Sie ist ein traditioneller Bestandteil des amerikanischen Thanksgiving (Cranberrysoße).
+      Sie enthält Proanthocyanidine, die verhindern, dass sich E.-coli-Bakterien an die Wände der Harnwege anheften.
+      Die Wirkung der Cranberry auf die Vorbeugung von Harnwegsinfekten ist wissenschaftlich belegt.
+  fruit.gooseberry:
+    label: Stachelbeere
+    summary: Eine kleine runde durchscheinende Beere; ein Gartenliebling.
+    info: |
+      Die Stachelbeere (Ribes uva-crispa) ist eine kleine Frucht, typisch für Gärten Mitteleuropas.
+      Es gibt sie in grünen, roten und gelben Sorten.
+      Sie ist reich an Vitamin C.
+      Stachelbeerwein ist ein historisch beliebtes Getränk.
+  fruit.currant:
+    label: Johannisbeere
+    summary: Eine kleine rote, schwarze oder weiße Beere in Trauben.
+    info: |
+      Die Johannisbeere (Ribes) ist eine kleine Beere, die in traubigen Rispen wächst.
+      Die Schwarze Johannisbeere (Ribes nigrum) enthält das meiste Vitamin C aller Beeren.
+      Die Schwarze Johannisbeere ist die Grundlage des Aromas von Ribena (britisches Getränk) und Cassis-Likör.
+      Die Rote Johannisbeere wird für Marmeladen und als Dessertdekoration verwendet.
+  fruit.quince:
+    label: Quitte
+    summary: Eine harte gelbe Frucht, verwandt mit dem Apfel; wird immer gekocht verzehrt.
+    info: |
+      Die Quitte (Cydonia oblonga) ist mit dem Apfel und der Birne verwandt; roh ist sie hart und gerbstoffreich.
+      Sie wird immer mit Hitze verarbeitet; Quittenmarmelade (Membrillo), Quittenwein und Quittenbrand.
+      Sie enthält viel Pektin, das sich für die Herstellung von Marmeladen eignet.
+      Die älteste in Europa belegte Marmelade (16. Jahrhundert) wurde aus Quitten hergestellt.
+  fruit.jackfruit:
+    label: Jackfrucht
+    summary: Eine riesige tropische Frucht; die größte am Baum wachsende Frucht der Welt.
+    info: |
+      Die Jackfrucht (Artocarpus heterophyllus) bringt die größten am Baum wachsenden Früchte hervor; sie können über 35 kg wiegen.
+      Sie stammt aus dem tropischen Asien; sie ist ein Grundnahrungsmittel in Indien, Bangladesch und Thailand.
+      Unreife Jackfrucht hat eine neutrale Textur und wird als vegetarischer Fleischersatz verwendet.
+      Reife gelbe Fruchtstücke sind süß und aromatisch.
+  fruit.durian:
+    label: Durian
+    summary: Eine große stachelige tropische Frucht mit strengem Geruch; der König der tropischen Früchte.
+    info: |
+      Der Durian (Durio zibethinus) wird der König der tropischen Früchte genannt.
+      Sein strenger Geruch ist für die einen abstoßend, für die anderen verlockend; in vielen asiatischen Hotels ist er verboten.
+      Das Fruchtfleisch ist cremig und süß mit komplexem Geschmack (Mandel, Vanille, Käse).
+      In Südostasien wird er als erlesener Luxus geschätzt.
+  fruit.rambutan:
+    label: Rambutan
+    summary: Eine rote behaarte tropische Frucht, ähnlich der Litschi.
+    info: |
+      Der Rambutan (Nephelium lappaceum) stammt aus Malaysia; sein Name kommt vom malaiischen rambut = Haar.
+      Seine rote Schale ist mit weichen, hakigen Auswüchsen bedeckt.
+      Das Fruchtfleisch ist durchscheinend und süß, ähnlich der Litschi.
+      Er ist reich an Vitamin C und Eisen.
+  fruit.longan:
+    label: Longan
+    summary: Eine kleine braune tropische Frucht, verwandt mit der Litschi.
+    info: |
+      Der Longan (Dimocarpus longan) ist die Frucht eines tropischen Baumes, der aus China stammt.
+      Sein Name kommt vom chinesischen long yan = Drachenauge, wegen des durchscheinenden Fruchtfleischs mit schwarzem Kern.
+      Er hat einen süßen und aromatischen Geschmack.
+      In der traditionellen chinesischen Medizin gilt er als Nahrung, die Blut und Herz stärkt.
+  fruit.tamarind:
+    label: Tamarinde
+    summary: Eine braune hülsenförmige Frucht mit saurem Fruchtfleisch; Grundlage der thailändischen Küche.
+    info: |
+      Die Tamarinde (Tamarindus indica) stammt aus dem tropischen Afrika; heute wird sie in den gesamten Tropen angebaut.
+      Das Fruchtfleisch ist stark sauer und süß; es wird in Pad Thai, Worcestershiresauce und indischem Chutney verwendet.
+      Das Wort kommt aus dem Arabischen tamr hindi = indische Dattel.
+      Sie ist reich an Weinsäure, B-Vitaminen und Eisen.
+  fruit.nectarine:
+    label: Nektarine
+    summary: Ein glatter, flaumloser Pfirsich; saftig und süß.
+    info: |
+      Die Nektarine (Prunus persica var. nucipersica) ist eine natürliche Mutation des Pfirsichs mit glatter Haut.
+      Sie unterscheidet sich vom Pfirsich nur durch das Gen für die Hautglätte.
+      Sie hat einen ähnlichen Geschmack, aber eine festere Konsistenz.
+      Ihr Name kommt vom Nektar der Götter; er zeugt von ihrer wahrgenommenen Vollkommenheit.
+  fruit.damson:
+    label: Damaszener Pflaume
+    summary: Eine kleine dunkle Pflaume, typisch für englische Landgärten.
+    info: |
+      Die Damaszener Pflaume (Damson) ist eine kleine, dunkelblau-schwarze Pflaumensorte.
+      Ihr Name stammt von Damaskus, von wo die Frucht nach Europa gelangte.
+      Roh ist sie sehr sauer, aber vorzüglich in Marmeladen, Musen und Gin (Damson Gin).
+      In der englischen Tradition wird sie seit der Antike angebaut.
+  fruit.medlar:
+    label: Mispel
+    summary: Eine kleine braune Frucht, verwandt mit dem Apfel; muss nach der Ernte nachreifen.
+    info: |
+      Die Mispel (Mespilus germanica) ist eine uralte Gartenpflanze, die seit dem Mittelalter angebaut wird.
+      Sie ist erst nach dem Teigigwerden essbar, das heißt, wenn sie nach der Ernte weich geworden ist.
+      Sie ist reich an Gerbstoffen und Vitamin C.
+      Shakespeare erwähnt sie in Romeo und Julia; heute ist sie eher eine Kuriosität der Gärtner.
+  fruit.ackee:
+    label: Akee
+    summary: Eine rote tropische Frucht mit essbaren gelben Arillen; die Nationalfrucht Jamaikas.
+    info: |
+      Der Akee (Blighia sapida) ist die Nationalfrucht Jamaikas; er ist nach Kapitän Bligh (1793) benannt.
+      Nur die reifen gelben Arillen sind essbar; unreife oder überreife Frucht ist giftig (Hypoglycin A).
+      Ackee and Saltfish ist das Nationalgericht Jamaikas.
+      Er stammt aus Westafrika; er wurde durch den Sklavenhandel in die Karibik gebracht.
+  fruit.feijoa:
+    label: Feijoa
+    summary: Eine kleine ovale grüne Frucht mit aromatischem Fruchtfleisch.
+    info: |
+      Die Feijoa (Acca sellowiana, auch Feijoa sellowiana) stammt aus Südamerika.
+      Ihr Fruchtfleisch hat einen intensiven aromatischen Geschmack (Ananas, Guave, Minze).
+      Sie ist in Neuseeland als Herbstfrucht sehr beliebt.
+      In Europa wenig bekannt, aber in ihren Herkunftsländern beliebt.
