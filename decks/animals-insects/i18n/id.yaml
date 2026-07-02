@@ -2,250 +2,379 @@ lang: id
 pivot: false
 title: Serangga
 cards:
+  insect.butterfly:
+    label: kupu-kupu
+    summary: Serangga terbang dengan sayap besar berwarna-warni.
+    info: Kupu-kupu adalah serangga dengan dua pasang sayap bersisik, sering kali berwarna mencolok.
+  insect.bee:
+    label: lebah
+    summary: Serangga kuning-hitam yang menyerbuki bunga dan menghasilkan madu.
+    info: Lebah madu adalah serangga sosial yang hidup di sarang dan mengumpulkan nektar.
+  insect.ladybug:
+    label: kepik
+    summary: Kumbang kecil bulat berwarna merah dengan bintik hitam.
+    info: Kepik adalah kumbang kecil yang memakan kutu daun dan bermanfaat di kebun.
+  insect.dragonfly:
+    label: capung
+    summary: Serangga bertubuh panjang dengan dua pasang sayap transparan.
+    info: Capung adalah pemangsa berpenglihatan tajam yang berburu di dekat permukaan air.
   insect.ant:
     label: semut
     summary: Serangga sosial kecil yang hidup dalam koloni.
-    info: Semut adalah serangga yang membentuk koloni besar dengan pembagian kerja. Mereka hidup secara bersamaan dan bekerja sama untuk kelangsungan hidup koloni.
-  insect.antlion:
-    label: antlion
-    summary: Larva yang membongkar perangkat penangkap semut di atas permukaan pasir.
-    info: |-
-      {"hint":"larva serangga yang menggali perangkap lubang untuk menangkap semut","info":"Antlion adalah larva serangga dari keluarga Myrmeleontidae yang membuat jebakan berbentuk kerucut di pasir kering.
-      Saat seekor semut tergelincir ke dalamnya antlion akan mencengkeram dengan rahim dan menyuntikkan cairan pencernaan.
-      Individu dewasa tidak begitu nyata bentuknya mirip seperti libellula tetapi mereka aktif pada malam hari.
-      larvae dapat hidup bertahun-tahun tanpa memperbaiki dirinya sendiri."}
-  insect.aphid:
-    label: afide
-    summary: Insek usil nan memakan getah tumbuh-tumbuhan pado batang-batangan tanamannya.
-    info: '{"hint":"serangga penghisap nektar kecil yang hidup di batang tanaman","info":{"label":"aphis","summary":"Serangga penghisap cairan tumbuhan pada batas daun dan cabang-cabangnya; menghasilkan madu."},"detail":{}}'
-  insect.atlas_moth:
-    label: kepiting atlas
-    summary: Salah satu kupu-kupu hutan terbesar dengan pola warna seperti kepalan ular.
-    info: |-
-      {"hint":"satu dari kupu-kupu malam terbesar di dunia","info":"Kepiting Atlas adalah salah satu kupu-kupu hutan yang paling besar dengan rentang sayap mencapai 30 sentimeter.
-      Ujung sayarnya berwarna sedemikan rupa sehingga menyerupai kepala ular untuk mengusir predatornya.
-      Individu dewasa tidak memiliki mulut dan sama sekali tidak memakan apa pun serta hanya bertahan hidup beberapa hari sebagai individu dewasa.
-      Mereka berasal dari hutan-hutan tropis Asia Tenggara."}
-  insect.bedbug:
-    label: nyamuk
-    summary: Parasit darah mengisap pada waktu tidur
-    info: Nyamuk kecoa datar adalah serangga pipih berbentuk lonjong dari kelompok Cimicidae yang aktif terutama di malam hari.
-  insect.bee:
-    label: lebah
-    summary: Serangga hitam-kuning yang mengadakan penyerbukan bunga dan membuat madu.
-    info: Lebah madu adalah serangganya sosial yang tinggal di sarangnya dan mengumpulkan nektar dari tanaman untuk dibuat menjadi madu.
+    info: Semut adalah serangga yang membentuk koloni besar dengan pembagian tugas.
   insect.beetle:
     label: kumbang
-    summary: Ordo ini merupakan kelompok serangga terbesar dengan jumlah individu melebihi empat ratus ribuan.
-    info: Kumbang termasuk dalam ordo Coleoptera dan membentuk kurang lebih 40% dari semua spesies serangga yang telah diidentifikasi. Mereka memiliki sayap keras berlapis elytron dengan sayap terbang sesungguhnya tertutup di bagian bawahnya. Kumbang jantan rusa adalah jenis kumbang paling besar di Eropa; betinanya tidak mempunya tanduk.
-  insect.bombardier_beetle:
-    label: kecoa strevlik
-    summary: Sejenis kecoa mengeluarkan uap beracun sebagai bentuk perlindungan.
-    info: Kecoa strevlik artileri adalah kecoa dari tribus Brachininae yang memiliki cara pertahan diri unik dengan mencampur dua senyawa kimia di bagian belakang tubuhnya sehingga terjadi reaksi eksotermis melepaskan panas lebih tinggi dari suhu air mendidih.
-  insect.bumblebee:
-    label: bumblebee
-    summary: Lebih besar dan lebih bulum daripada lebah biasa; membantu menyebarluaskan bunga.
-    info: '{"hint":"tawar","konteks":{"judul":null,"isi":["Bombyx adalah serangga berambut tebal dari suku Bombycidae yang mirip dengan lebah madu.", "Ini merupakan penyerbu penting terutama di iklim dingin tempat lebah tidak banyak beterbangan.", "Ia bisa menghangatkannya sendiri melalui getaran otot sayapnya sehingga dapat terbang meskipun cuaca dingin."]},'
-  insect.butterfly:
-    label: lepidoptera
-    summary: Serangga terbang dengan sayap berwarna besar.
-    info: Lepidoptera adalah serangga yang memiliki dua pasang sayap bersisik, sering kali berwarna mencolok.
-  insect.caterpillar:
-    label: ulat
-    summary: Larva kupu-kupu atau ngengik; makannya daun-daunan sambil siap-siap jadi imago.
-    info: |-
-      Ulat adalah larva kupu-kupu atau ngengik dan menghabiskan kebanyakan hidupnya dengan memakai daun untuk menyimpan energi menuju metamorphosis lengkap.
-      Beberapa ulat memiliki warna mencolok yang berfungsi sebagai peringatan bagi pemangsa bahwa mereka bersifat racunius.
-      Saat menetas dari telur menjadi pupa, ia membentuk kubah chrysallis di mana terjadi transformasi total tubuh hingga dewasa.
-  insect.centipede:
-    label: cingcer
-    summary: Hewan bertubuh berselip dengan sepasang kaki pada masing-masing selip.
-    info: '{"hint":"arthropoda berkaki banyak dengan satu pasang kaki pada setiap segmen tubuh","info":"Cacing berbuku termasuk ke dalam kelas Chilopoda dan memiliki sepasang kaki di tiap bagian badannya (tidak sampai seratus seperti yang disarankan namanya).\nIni adalah predator cepat yang memburu serangga, cacing tanah serta vertebrata miniatur lainnya.\nPasangan pertama kakinya dimanfaatkan sebagai belalang racun untuk melumpuhkan mangsa.\nBeberapa spesies dari daerah tropis bisa mencapai panjang lebih dari 30 sentimeter."}'
-  insect.cicada:
-    label: Belalang
-    summary: Seranggaa pengganggu yang dikenal karena bunyi bernyanyinya di siang hari yang hangat.
-    info: '{"hint":"serangga penyeray kuat yang berisik; jantan menghasilkan lagu berdengung keras","info":{"label":"belalang","summary":"Serangga terkenal dengan suara nyanyian berdecap pada hari-hari panas.","detail":{}}}'
-  insect.cockroach:
-    label: kecoa
-    summary: Serangga nokturnal karnivor atau omnifagus yang sangat tangguh serta mudah menyesuaikan dirinya.
-    info: |-
-      {"hint":"hewan serangga pemakan bangkai malam hari yang cepat","info":"Kecoa adalah salah satu serangga paling tahan banting di dunia; ia bisa bertahan hidup dari radiasi dan kondisi-kondisi ekstrem yang akan membunuh makhluk lainnya.
-      Lebih dari 4.500 spesies kecoa ditemukan secara alami tetapi hanya sekitar 30 jenis saja yang tinggal dekat manusia.
-      Ini juga merupakan serangga purba—kecoa telah ada selama lebih dari 300 juta tahun lalu bahkan mampu melewati zaman dinosauri.
-      Mereka sangat lincah karena dapat bergerak dengan kelajuan mencapai lima kilometer per jam."}
-  insect.crane_fly:
-    label: cicada
-    summary: Serangga mirip nyamuk beserta ciri-cirinya.
-    info: '{"hint":"nyamuk raksasa dengan kaki panjang","info":{"label":"cicada","summary":"Kecoa besar yang menyerupai nyamuk dan memiliki sayap transparan serta tubuh bersegmen tiga bagian utama."},"data":[{"question":"Apa itu cicadas?","answer":"Cicadas adalah serangga dari kelompok Orthoptera atau belalang berkaki kuat seperti kecoa tetapi tidak bisa terbang karena hanya punya dua pasang sayap di depan saja."},{"question":"Bagaimana siklus hidupnya?","answer":"Mereka melewati fase larva selama beberapa tahun sampai akhirnya menjadi dewasa setelah mengelami metamorfosis lengkap yaitu telur - nimfa/nimfoid - imago/imaga."}],"meta":{}}'
-  insect.cricket:
-    label: belalang
-    summary: Serangga nokturnal dengan karakteristik nyanyian laki-lakinya.
-    info: Belalang medan adalah serangga malam dari ordo Orthoptera yang dikenal karena suaranya saat berkicau di malam hari.
-  insect.damselfly:
-    label: capung kecil
-    summary: |-
-      Hewan mirip capung tapi bentuknya jauh lebih ramping,
-      melipat sayapnya rapat-rapat selama masa istirahat.
-    info: |-
-      {"hint":"kerabat ramping dari capung yang beristirahat dengan sayap terlipat","info":"Capung kecil adalah serangga kerabat capung tetapi lebih langsing dan saat istirahat melipat sayapnya sejajar tubuh mereka, tidak seperti capung pada umumnya.","label":"capung kecil","summary":"Kerabat langsing capung;
-      saat istirahat menggulungkan sayap secara paralel."}
-  insect.diving_beetle:
-    label: kecoa
-    summary: Serangga predator yang berkembang biak dalam air.
-    info: |-
-      {"hint":"laron predator yang berenang di danau","info":"Kecoa air besar adalah serangga pemakan buah dari keluarga Dytiscidae hidup di kolam renang alami atau genangan air tenang.
-      Ia dapat mengapung dengan mudah karena kakinya belakangnya datar seperti dayung.
-      Dia bernapas melalui permukaan air dan menyimpan udara dibawah tubuhnya untuk pernapasan saat tenggelam.
-      Mereka memburu nyamuk kecil serta muda burung laut lainnya baik siang maupun malam hari."}
-  insect.dragonfly:
-    label: libelula
-    summary: Serangga dengan tubuh panjang dan dua pasang sayap transparan.
-    info: Libelula adalah serangga pemangsa dengan penglihatan yang sangat baik, berburu di dekat permukaan air.
-  insect.dung_beetle:
-    label: Vru
-    summary: Seekor kupu penggulung bulatan tinja; suci pada zaman Mesir purba.
-    info: |-
-      Kumbang Vruba adalah kupu dari kelompok Scarabaeidae yang membentuk feses menjadi bola dan menggelindingkan ke dalam tanah untuk menyetel telur mereka di sana
-      Di Mesir Kuno ia merupakan simbol matahari serta dewa Khafre.
-      Ia salah satu hewan langka yang berorientasi dengan Bima Sakti,
-      dan juga mempercepat daur ulang nutrisi serta menyediakan udara bagi tanah.
-  insect.earwig:
-    label: kecoa
-    summary: Serangga panjang dengan klitriks di ujung belakang.
-    info: '{"hint":"serangga memanjang dengan cakar di bagian ekor","info":"Kecoa berbulu adalah serangga dari ordo Dermaptera yang memiliki klitrik pada akhir tubuhnya untuk pertahanan dan perkawinan\rNama berasal dari mitos bahwa mereka merayap ke dalam telinga manusia; ini merupakan kesalahpahaman\. Betina kecoa unik karena mengasihani telur-telurnya sendiri serta awal tahapan metamorfosisnya, sesuatu yang langkah bagi para serangga\\"}'
-  insect.firefly:
-    label: kepiting
-    summary: Belukang memancarkan sinar biru sebagai daya tarik pasangan.
-    info: |-
-      {"info":"Kepinding adalah belukang dari kelompok lampiridae yang mampu menghasilkan cahaya dingin melalui proses biofluoresensi di bagian perutnya.
-      Jantan dan betina menyalakan cahaya dengan pola berbeda untuk saling pengenal dan tarikan satu sama lain.
-      Pola ini dikendalikan oleh reaksi kimia antara lusifern dengan enzim liseras.
-      Kehadiran keping juga menjadi penunjuk tingkat keragaman lingkungan."}
-  insect.flea:
-    label: lice
-    summary: Serangga kecil penggigit dengan gaya hidup parasitis pada mamalia dan unggas.
-    info: |-
-      Lice adalah serangga tanpa sayap dari urutan Siphonaptera yang hidup secara parasitis.
-      Kaki belakangnya yang kuat memungkinkan melompat lebih dari 150 kali panjang tubuh mereka.
-      Mereka menghisap darah mamalia dan burung serta dapat menularkan penyakit;
-      historis lice pernah menyebabkan wabah pes.
-  insect.fly:
-    label: lalat
-    summary: Serangga dua-sayap biasa yang dapat menyebar bakteri.
-    info: Lalat rumah adalah serangga dua sayap yang paling umum ditemukan di lingkungan manusia. Matanya komposit memungkinkannya melihat hampir seluruh area sekelilingnya dalam radius kurang lebih 360 derajat. Lalat ini membawa dan menyebarkan bakterinya karena suka mendarat pada limbah maupun bahan makanan.
-  insect.goliath_beetle:
-    label: kumbang
-    summary: Salah satu kumbang paling besar serta beratnya tertinggi berasal dari daerah hutan hujan tropis Afrika.
-    info: Kumbang Goliat raksasa adalah salah satu serangga terbesar di dunia dengan jantan yang bisa mencapai berat sampai 100 gram dan panjang lebih dari 11 sentimeter.
+    summary: Kumbang membentuk ordo serangga terbesar, dengan lebih dari 400.000 spesies yang telah dideskripsikan.
+    info: |
+      Kumbang termasuk dalam ordo Coleoptera dan mencakup sekitar 40% dari semua spesies serangga yang telah dideskripsikan.
+      Kumbang dikenali dari sayap penutup yang keras (elitra) yang menyembunyikan sayap terbang yang sebenarnya.
+      Kumbang rusa adalah kumbang terbesar di Eropa; jantannya memiliki rahang kuat menyerupai tanduk.
+      Kumbang hidup di hampir semua lingkungan, dari daerah tropis hingga wilayah arktik.
   insect.grasshopper:
-    label: Belalang
-    summary: Hewan serupa belalang yang bisa meloncat sangat tinggi karena kakinya yang besar serta mengeluarkan bunyi dengungan dari gesekkan sayapnya.
-    info: '{"hint":"serangga melompat dengan kaki belakang yang panjang","info":{"label":"belalang","summary":"Serangga pemberi suara berdengung dan berkaki kuat untuk lompatan jauh","detail":{}}}'
-  insect.ground_beetle:
-    label: strevlik
-    summary: Ulat pencakar aktif malam hari yang memakan serangga lainnya seperti cacing tanah serta siput.
-    info: '{"hint":"cacing predator yang cepat berjalan dari keluarga Carabidae ditemukan di balik batu","info":{"label":"strevlik","summary":"Kecoa pemangsa liar yang tinggal di bawah bebatuan dan daun."}}'
-  insect.hornet:
-    label: syrphen
-    summary: Lebah besar dengan sengat kuat yang menghasilkan suara mendesis keras.
-    info: Lebah sosial terbesar di Eropa ini bisa mencapai panjang lebih dari 3,5 sentimeter dan membangun sarang berbentuk kertas dalam lubang pohon atau atap bangunan.
-  insect.hoverfly:
-    label: pesťenka
-    summary: Serupa dengan lebah atau tawon dalam penampilan eksterior.
-    info: Bombyliidae adalah serangga berdada dua dari familia Syrphidae yang meniru warna tawon dan lebah sebagai perlindungan terhadap predatornya (bromelia mimicry) meskipun tidak memiliki sengat sendiri.
-  insect.lacewing:
-    label: kupu-kupa emas
-    summary: Serangga cantik dengan sayap transparan bertekstur seperti anyaman.
-    info: '{"hint":"serangga halus dengan sayap transparan berbentuk anyaman besar","info":"Kupu-kupa emas adalah serangga dari kelompok kupu-kupa yang memiliki sayap tipis dan bening serta mata keemasannya. Larvanya bersifat predator dan memakan banyak kutu daun sehingga menjadi pengendali alami bagi tanaman-tanaman tersebut. Dewasa mengonsumsi madu dan debu bunga."}'
-  insect.ladybug:
-    label: kelelawar
-    summary: Kecil bulat merah dengan titik hitam.
-    info: Kelelawar adalah kumbang kecil yang memakan kutu dan berguna di taman.
-  insect.locust:
-    label: Belalang Migratorius
-    summary: Spesies belalang ini terkenal karena kemampunya menciptakan kawanan raksasa dengan jumlah hingga trilyunan ekor setiap tahunnya.
-    info: '{"hint":"belalang yang berkembang biak secara bergerombol membentuk gumpalan besar dan merusak","info":{"label":"Belalang Migran","summary":"Belalang migrasi adalah jenis belalank yang di bawah kondisi tertentu dapat menghasilkan rombongan masif yang bisa menyerap jutaan individu dalam satu hari saja untuk memporamakan seluruh hasil panen pada ribuan hektar lahan pertanian."}}'
-  insect.louse:
-    label: Lintah
-    summary: Hama kecil tidak bersayar yang tinggal pada tubuh mamalia.
-    info: Lintah rambut adalah serangga tanpa sayap dari ordo Phthirakteria yang hidup di kulit dan buluh atau helai rambut tuan rumahnya.
-  insect.mayfly:
-    label: ephemeron
-    summary: Insekta yang memiliki masa hidup sebagai individu dewasa paling pendek—hanya bertahan selama beberapa jam atau hari saja.
-    info: '{"hint":"serangga singkat yang berkumpul di dekat sungai","info":{"label":"ephemeron","summary":"Serangga dengan kehidupan dewasa terpendek hidup hanya beberapa jam sampai hari."},"data":{}}'
+    label: belalang
+    summary: Serangga peloncat dengan kaki belakang panjang dan suara berderik.
+    info: |
+      Belalang adalah serangga ordo Orthoptera dengan kaki belakang kuat yang memungkinkan lompatan hingga dua puluh kali panjang tubuhnya.
+      Jantan menghasilkan suara khas (stridulasi) dengan menggesekkan kaki ke sayapnya.
+      Belalang memakan tumbuhan dan dalam kawanan besar dapat merusak tanaman.
+  insect.cricket:
+    label: jangkrik
+    summary: Serangga nokturnal, terkenal dengan suara berderik jantannya.
+    info: |
+      Jangkrik ladang adalah serangga nokturnal dari ordo Orthoptera.
+      Jantan berderik dengan menggesekkan sayapnya untuk memikat betina dan menandai wilayahnya.
+      Di Asia, jangkrik sejak dahulu dipelihara sebagai hewan peliharaan karena nyanyiannya.
+      Dalam banyak budaya, jangkrik juga menjadi lambang kenyamanan rumah dan keberuntungan.
   insect.mosquito:
     label: nyamuk
-    summary: Serangga berkaki panjang dengan sayap kecil; apabila betina bisa membawa serta menyeberangkan beberapa macam penyakit tertentu kepada manusia melalui gigitannya.
-    info: |-
-      {"hint":"serangga penyerap darah yang terbang","info":"Nyamuk adalah serangga berdada dua dari keluarga Culicidae.
-      Betina nyamuk mengisap darah makhluk hidup untuk mendapatkan protein dalam pengembangan telur mereka; jantan memakan madu bunga.
-      Beberapa jenis nyamuk menyebarkan penyakit seperti malaria dan demam chikungunya atau Zika virus.
-      Di seluruh dunia ada lebih dari tiga ribu lima ratus spesies nyamuk.","label":"nyamuk","summary":"Serangga berkaki panjang dengan sayap kecil;
-      apabila betina dapat menyebar penyakit."}
+    summary: Serangga bersayap dua; betinanya mengisap darah dan dapat menularkan penyakit.
+    info: |
+      Nyamuk adalah serangga bersayap dua dari famili Culicidae.
+      Betina mengisap darah hewan untuk mendapatkan protein bagi perkembangan telurnya; jantan memakan nektar.
+      Nyamuk menularkan penyakit berbahaya seperti malaria, demam berdarah, dan zika.
+      Di dunia terdapat lebih dari 3.500 spesies nyamuk.
+  insect.fly:
+    label: lalat
+    summary: Serangga bersayap dua yang sangat umum dan dapat menularkan bakteri.
+    info: |
+      Lalat rumah adalah serangga bersayap dua yang paling umum di hunian manusia.
+      Mata majemuknya memungkinkannya melihat hampir 360 derajat di sekelilingnya.
+      Lalat menularkan bakteri karena hinggap baik di sampah maupun di makanan.
+      Lalat hanya memiliki satu pasang sayap fungsional; pasangan kedua (halter) membantu menjaga keseimbangan saat terbang.
   insect.moth:
-    label: '"kupuk"'
-    summary: '{"summary":"Rekan malam kupu-kupu; terbang menuju lampu dan memiliki antena bersisik"}'
-    info: '{"info":"Kupang adalah kupuk malam dari urutan Lepidoptera yang berbeda dengan kupu-kupu siang karena saat istirahat mereka melipat sayapnya ke samping.\nBeberapa spesies tertarik pada cahaya buatan manusia.\nPupa ulat sutra menghasilkan bahan alami yaitu sutra.\nCecropia atau kupuk bulan merupakan salah satu jenis kupuk paling indah di dunia."}'
+    label: ngengat
+    summary: Kerabat nokturnal kupu-kupu; terbang ke arah cahaya dan memiliki antena berbulu.
+    info: |
+      Ngengat adalah lepidoptera nokturnal yang, berbeda dengan kupu-kupu siang, melipat sayapnya di sisi tubuh saat beristirahat.
+      Banyak spesies tertarik pada cahaya buatan.
+      Sutra alami kita peroleh dari ulat ngengat sutra.
+      Ngengat bulan (luna) adalah salah satu ngengat terindah di dunia.
+  insect.caterpillar:
+    label: ulat
+    summary: Larva kupu-kupu; memakan daun dan bersiap menjadi kepompong.
+    info: |
+      Ulat adalah tahap larva kupu-kupu dan menghabiskan hidupnya terutama dengan memakan daun untuk menyimpan energi bagi metamorfosis.
+      Beberapa ulat memiliki warna mencolok yang memperingatkan pemangsa bahwa mereka beracun.
+      Saat menjadi kepompong, ulat membentuk pupa (kokon), tempat metamorfosis lengkap menjadi dewasa berlangsung.
   insect.praying_mantis:
-    label: belalang
-    summary: Serangga predator dengan posisi tangan diibaratkan sedang bersujud atau melafalkan dzikir.
-    info: Belalang ibadah adalah serangga pemangsanya dari kelompok mantodea yang mendapat namanya karena sikapnya dengan kedua kakinya depan disilangkan seperti dalam doa. Ia ahli berburu dan dapat menyerang serta menggenggam mangsa hanya dalam waktu pecahan detik.
-  insect.robber_fly:
-    label: leprosia
-    summary: serangga perampas memakan serangganya sendiri dengan cara mengambil mangsatnya selama penerbangan mereka.
-    info: '{"hint":"lalat pemangsa yang menangkap serangga di udara","info":"Leprosia adalah lalat dua sayap dari kelompok Asilidae yang berburu serangga lain langsung saat terbangnya masih aktif.","label":"leprosia","summary":"Serangga perampas memakan serangga lain secara langsung."}'
-  insect.scorpion:
-    label: skorpi
-    summary: Arthropod berbisa dengan capit dan ekor lengkung menusuk.
-    info: '{"hint":"scorpion beracis dan ekor menyengat melengkung","info":"Scorpions adalah artropoda yang memiliki ciri khas sisir belakang serta ekor bercabang dengan duri racun di ujungnya.","label":"škrábky","summary":"Hewan bertubruh segmen dengan sirip pectoral."}'
-  insect.silverfish:
-    label: kutu buku
-    summary: Serangga tanpa sayap yang terlihat aktif diketemui dekat tempat penyimpanan dokumen atau barang-barangan bertulisan.
-    info: '{"hint":"serangga tanpa sayap yang cepat bergerak (Lepisma saccharina), ditemukan di dalam rumah","info":"Kutu buku adalah serangga purba tak bersayap dari kelas Zygentoma hidup di lingkungan perumahan. Mereka memakan pati, kertas, lem buku dan benang tekstilnya sendiri. Namanya berasal dari warna keperakannya serta gerakkannya mirip ikan. Ini salah satu jenis tertua dari kelompok serangganya dengan bentuk fisik tidak banyak mengalami perubahan selama lebih kurang tiga ratus juta tahun lamanya."}'
-  insect.spider:
-    label: labah-labah
-    summary: Arthropoda dengan delapan kaki ini menciptakan jala-jalanya sendiri.
-    info: '{"hint":"arakhno delapan kaki yang memproduksi jaring","info":{"label":"labah-labah","summary":"Labah-labah memiliki delapan kaki dan membuat sarang untuk menangkap serangga atau melindungi telur mereka dalam kapsul berbulu. Lebih dari 48 ribu spesies labah-labah hidup di dunia; semua menghasilkan racun tetapi sebagian besar tidak membahayakan manusia."}}'
-  insect.stag_beetle:
-    label: kecoak tanduk
-    summary: Seekor belatung besar dengan rahang seperti tanduk.
-    info: Kecoa rusa adalah kecoa Eropa terbesar yang bisa mencapai panjang lebih dari 7 sentimeter. Jantan memiliki rahang besar berbentuk tanduk untuk bertanding memperebutkan betina. Larvenya hidup selama tujuh tahun di kayu oak busuk dan mengonsumsi jamur.
+    label: belalang sembah
+    summary: Serangga pemangsa dengan sikap berdoa dan serangan secepat kilat.
+    info: |
+      Belalang sembah adalah serangga pemangsa dari kelompok Mantodea.
+      Namanya berasal dari sikapnya yang melipat kaki depan seperti sedang berdoa.
+      Ia pemburu ulung; menyerang dan menangkap mangsanya dalam sepersekian detik.
+      Betina kadang memakan jantan setelah kawin, meski tidak selalu terjadi.
   insect.stick_insect:
-    label: strawilka
-    summary: Serangga imitator batang dan dedaunan secara sempurna.
-    info: '{"hint":"insekta tersembunyi yang menyerupai ranting atau daun","info":{"label":"ulat semut","summary":"Insektusah mengimitasi cabang atau daun dengan sempurna.","detail":{}}}'
+    label: serangga tongkat
+    summary: Serangga yang meniru ranting atau daun dengan sempurna.
+    info: |
+      Serangga tongkat termasuk kelompok Phasmatodea dan merupakan ahli penyamaran; tubuhnya meniru ranting atau daun dengan sempurna.
+      Saat terancam bahaya, ia tetap benar-benar diam.
+      Beberapa spesies berkembang biak melalui partenogenesis, yaitu tanpa jantan.
+      Serangga ini populer sebagai hewan peliharaan eksotis karena mudah dirawat.
+  insect.firefly:
+    label: kunang-kunang
+    summary: Kumbang yang bersinar dengan cahaya bioluminesensi untuk memikat pasangan.
+    info: |
+      Kunang-kunang adalah kumbang dari famili Lampyridae yang dapat menghasilkan cahaya dingin (bioluminesensi) di perutnya.
+      Jantan dan betina bersinar dengan pola berbeda untuk saling mengenali dan memikat.
+      Cahayanya dikendalikan oleh reaksi kimia luciferin dengan luciferase.
+      Kunang-kunang adalah petunjuk lingkungan yang bersih.
+  insect.wasp:
+    label: tawon
+    summary: Serangga penyengat kuning-hitam yang membangun sarang dari kertas.
+    info: |
+      Tawon biasa adalah serangga penyengat dari kelompok Vespula dengan warna peringatan kuning-hitam yang khas.
+      Tawon membangun sarang kertas dari bubur kayu yang dikunyah.
+      Berbeda dengan lebah, tawon dapat menyengat berkali-kali.
+      Tawon bermanfaat sebagai pengendali alami serangga hama.
+  insect.cockroach:
+    label: kecoa
+    summary: Serangga cepat, nokturnal, pemakan segala; sangat tangguh dan mudah beradaptasi.
+    info: |
+      Kecoa adalah salah satu serangga paling tangguh di dunia; ia bertahan terhadap radiasi dan kondisi yang akan membunuh hewan lain.
+      Ada lebih dari 4.500 spesies, tetapi hanya sekitar 30 yang hidup dekat manusia.
+      Kecoa adalah serangga purba; kecoa telah ada lebih dari 300 juta tahun dan selamat dari dinosaurus.
+      Kecoa cepat dan dapat berlari lebih dari 5 km/jam.
+  insect.spider:
+    label: laba-laba
+    summary: Arakhnida berkaki delapan yang menganyam jaring untuk menangkap serangga.
+    info: |
+      Laba-laba adalah arakhnida (bukan serangga) dari ordo Araneae dengan delapan kaki dan tubuh yang terbagi dua bagian.
+      Laba-laba dapat menghasilkan sutra yang dianyamnya menjadi jaring untuk berburu atau membungkus kokon telur.
+      Di dunia hidup lebih dari 48.000 spesies laba-laba.
+      Semua spesies menghasilkan bisa, tetapi sebagian besar tidak berbahaya bagi manusia.
+  insect.scorpion:
+    label: kalajengking
+    summary: Arakhnida berbisa dengan capit dan ekor melengkung berbisa.
+    info: |
+      Kalajengking adalah arakhnida (bukan serangga) dengan capit khas dan ekor melengkung yang berakhir dengan sengat berbisa.
+      Kalajengking adalah hewan purba; fosil kalajengking tertua berusia lebih dari 430 juta tahun.
+      Dalam gelap, kalajengking berpendar di bawah cahaya ultraviolet.
+      Dari sekitar 2.500 spesies, hanya sekitar 25 yang berbahaya bagi manusia.
+  insect.centipede:
+    label: kelabang
+    summary: Hewan berkaki banyak dengan satu pasang kaki di tiap ruas tubuh.
+    info: |
+      Kelabang termasuk kelas Chilopoda dan memiliki satu pasang kaki di tiap ruas tubuh (bukan seratus kaki, seperti yang tersirat dari nama Inggrisnya).
+      Kelabang adalah pemangsa cepat yang menangkap serangga, cacing, dan vertebrata kecil.
+      Pasangan kaki pertama telah berubah menjadi cakar berbisa yang melumpuhkan mangsa.
+      Beberapa spesies tropis tumbuh lebih panjang dari 30 cm.
+  insect.flea:
+    label: pinjal
+    summary: Parasit peloncat mungil yang mengisap darah mamalia dan burung.
+    info: |
+      Pinjal adalah serangga tak bersayap dari ordo Siphonaptera, yang terspesialisasi untuk hidup parasit.
+      Kaki belakangnya yang kuat memungkinkan lompatan lebih dari 150 kali panjang tubuhnya.
+      Pinjal mengisap darah mamalia dan burung serta dapat menularkan penyakit; secara historis pinjal menyebarkan wabah pes.
+      Pinjal adalah akrobat dunia serangga.
   insect.termite:
     label: rayap
-    summary: Hewan serupa belalang dengan struktur tubuh kecil dan ramping serta sayap transparan atau bercak hitam pada bagian depannya.
-    info: '{"hint":"serangga pemakan kayu sosial yang membangun gundukan besar","info":{"label":"rayap","summary":"Serangga sosial pembuat sarang tanah raksasa di daerah beriklim hangat."},"data":{}}'
-  insect.tiger_beetle:
-    label: carabida
-    summary: belukang logam bernilai tinggi karena matanya yang hebat
-    info: '{"hint":"kecebakan bercahaya cepat predator","info":"Carabida adalah belukang dari subfamili Carabinae yang terkenal dengan kecepatannya luar biasa dan kemampuan untuk melompat serta penglihatan akutnya.","label":"carabida","summary":"Belukang logam warnanya indah dengan mata sangat baik."}'
-  insect.velvet_ant:
-    label: vespa bulu sutra
-    summary: Vespa coklat-oranye tanpa sayap yang terlihat seperti semut.
-    info: Tawon berbulu velvet dari kelompok Mutillidae ini tidak memiliki sayap dan menyerupai semut.
-  insect.wasp:
-    label: lebah
-    summary: Serangga penusuk warna cokelat-hitam membawa membuat sarang karton.
-    info: Lebah biasa adalah serangga penusuk dari kelompok Vespa dengan peringatan hitam dan kuning khasnya yang membangun sarang berbentuk karton terbuat dari kayu yang dikunyah ulang.
+    summary: Serangga sosial yang membangun gundukan raksasa dari tanah.
+    info: |
+      Rayap adalah serangga sosial dari kelompok Isoptera, kerabat jauh kecoa.
+      Rayap hidup dalam koloni dengan raja, ratu, prajurit, dan pekerja.
+      Rayap membangun gundukan rayap yang rumit, di daerah tropis setinggi hingga 9 meter, dengan sistem ventilasi sendiri.
+      Sebagai pengurai kayu yang penting, rayap memainkan peran kunci dalam ekosistem tropis.
+  insect.bumblebee:
+    label: lebah bumblebee
+    summary: Lebah besar berbulu dengan dengungan dalam; penyerbuk yang penting.
+    info: |
+      Lebah bumblebee adalah serangga besar berbulu dari genus Bombus, kerabat lebah madu.
+      Ia penyerbuk penting, terutama di iklim yang lebih dingin tempat lebah lebih jarang terbang.
+      Ia dapat menghangatkan diri dengan menggetarkan otot terbangnya sehingga tetap terbang bahkan dalam cuaca dingin.
+      Lebah bumblebee lebih jinak daripada tawon dan hanya menyengat jika terancam langsung.
+  insect.hornet:
+    label: tabuhan
+    summary: Tawon terbesar di Eropa dengan sengat kuat dan dengungan keras.
+    info: |
+      Tabuhan adalah tawon sosial terbesar di Eropa dan tumbuh lebih dari 3,5 cm.
+      Tabuhan membangun sarang kertas di lubang pohon atau di bawah atap.
+      Sengatnya lebih panjang daripada tawon dan tusukannya lebih menyakitkan, tetapi tabuhan hanya menyerang jika terancam langsung.
+      Ia musuh pemangsa penting bagi serangga lain.
+  insect.cicada:
+    label: tonggeret
+    summary: Serangga terkenal karena deriknya yang nyaring pada hari-hari panas.
+    info: |
+      Tonggeret adalah serangga dari superfamili Cicadoidea, terkenal dengan salah satu suara ternyaring di antara semua serangga.
+      Jantan menghasilkan suara dengan membran khusus (timbal) di perutnya untuk memikat betina.
+      Beberapa spesies di AS memiliki siklus perkembangan tujuh belas atau tiga belas tahun.
+      Nimfanya hidup bertahun-tahun di bawah tanah dan memakan akar.
+  insect.locust:
+    label: belalang kembara
+    summary: Belalang pengembara yang membentuk kawanan penghancur berjumlah jutaan.
+    info: |
+      Belalang kembara adalah spesies belalang yang dalam kondisi tertentu membentuk kawanan pengembara yang sangat besar.
+      Satu kawanan dapat berjumlah miliaran individu dan dalam sehari menghancurkan tanaman di ribuan hektar.
+      Di negara-negara Afrika dan Asia, belalang secara historis merupakan salah satu bencana pertanian terbesar.
+      Dalam Alkitab, belalang adalah salah satu dari sepuluh tulah Mesir.
+  insect.aphid:
+    label: kutu daun
+    summary: Serangga pengisap mungil pada batang tumbuhan; menghasilkan embun madu.
+    info: |
+      Kutu daun adalah serangga pengisap kecil dari superfamili Aphidoidea yang memakan getah tumbuhan.
+      Kutu daun menghasilkan embun madu manis, yang karenanya semut merawatnya sebagai imbalan atas perlindungan.
+      Kutu daun berkembang biak sangat cepat; satu betina dapat menghasilkan ratusan juta keturunan dalam setahun.
+      Kutu daun adalah hama penting bagi tanaman pertanian.
+  insect.earwig:
+    label: cocopet
+    summary: Serangga memanjang dengan penjepit di ujung perut.
+    info: |
+      Cocopet adalah serangga dari ordo Dermaptera, dikenali dari penjepit (serkus) di ujung perut, yang berguna untuk pertahanan dan kawin.
+      Namanya dalam beberapa bahasa berasal dari takhayul bahwa ia masuk ke telinga manusia; ini hanya mitos.
+      Cocopet betina tidak biasa karena merawat telur dan larva muda, hal yang langka di antara serangga.
+      Cocopet hidup di celah-celah, di bawah batu, dan di serasah daun.
+  insect.silverfish:
+    label: gegat
+    summary: Serangga tak bersayap yang gesit, ditemukan di rumah dekat buku dan kertas.
+    info: |
+      Gegat adalah serangga tak bersayap primitif dari ordo Zygentoma yang hidup di hunian.
+      Gegat memakan pati, kertas, lem penjilid, dan serat tekstil.
+      Namanya berasal dari warnanya yang keperakan dan gerakannya yang menyerupai ikan.
+      Gegat termasuk salah satu ordo serangga tertua dan hidup nyaris tak berubah selama lebih dari 300 juta tahun.
   insect.water_strider:
-    label: semut_air
-    summary: Serangggaa yang bisa jalan-jalan di atas air karena ada tegangan permukaannnya.
-    info: |-
-      {"hint":"serangga yang berjalan di permukaan air menggunakan tegangan permukaan","info":"Semut air adalah seranggaa dari kelompok Gerridae mampu melangkah pada permukaan karena bulu hidrofoba pada kaki dan tegangan permukaan airnya.
-      Mereka memburu serangga terbenam dengan mendeteksinya melalui getaran permukaannya.
-      Ia cepat dan dapat menggeser dirinya sepanjang permukaan dengan kecepatan lebih dari 15 kali panjang tubuh perdetik."}
+    label: anggang-anggang
+    summary: Serangga yang berjalan di permukaan air berkat tegangan permukaan.
+    info: |
+      Anggang-anggang adalah serangga dari famili Gerridae yang dapat berjalan di air berkat bulu penolak air di kakinya dan tegangan permukaan air.
+      Anggang-anggang memburu serangga yang jatuh ke air, yang dikenalinya dari getaran permukaan.
+      Ia gesit dan dapat meluncur di air lebih dari 150 kali panjang tubuhnya per detik.
+  insect.dung_beetle:
+    label: kumbang kotoran
+    summary: Kumbang yang menggulung bola kotoran, disucikan di Mesir Kuno.
+    info: |
+      Skarab suci adalah kumbang dari famili Scarabaeidae yang membentuk kotoran menjadi bola dan menggulungnya untuk dikubur serta bertelur di dalamnya.
+      Di Mesir Kuno, kumbang ini adalah lambang matahari dan dewa Khepri.
+      Ia salah satu dari sedikit hewan yang menavigasi dengan Bima Sakti.
+      Kumbang ini membantu mendaur ulang unsur hara dan mengudarakan tanah.
+  insect.stag_beetle:
+    label: kumbang rusa
+    summary: Kumbang terbesar di Eropa; jantannya memiliki rahang menyerupai tanduk.
+    info: |
+      Kumbang rusa adalah kumbang terbesar di Eropa dan tumbuh lebih dari 7 cm.
+      Jantannya memiliki rahang raksasa menyerupai tanduk, yang digunakan dalam pertarungan memperebutkan betina.
+      Larvanya hidup hingga 7 tahun di kayu ek yang lapuk dan memakan jamur.
+      Kumbang ini terancam serius oleh hilangnya hutan tua dan kayu mati.
+  insect.atlas_moth:
+    label: ngengat atlas
+    summary: Salah satu ngengat terbesar di dunia, dengan sayap berhias pola ular.
+    info: |
+      Ngengat atlas adalah salah satu ngengat terbesar di dunia, dengan rentang sayap hingga 30 cm.
+      Ujung sayapnya berwarna sedemikian rupa sehingga menyerupai kepala ular, yang menakuti pemangsa.
+      Yang dewasa tidak memiliki mulut dan sama sekali tidak makan; mereka hanya hidup beberapa hari.
+      Ngengat ini berasal dari hutan tropis Asia Tenggara.
   insect.weevil:
-    label: bekicot hidung
-    summary: Serangga kecil bekicot dengan ciri-cirinya memiliki moncong memanjang.
-    info: Bekicot hidung adalah belatung dari keluarga Curculionidae yang merupakan salah satu famili hewan terbesar di dunia dengan lebih dari 60 ribu spesiesnya. Ciri utamanya berupa moncong panjang atau rostrum digunakan untuk menggerogoti biji-bijian dan buah serta batang tanaman.
+    label: kumbang moncong
+    summary: Kumbang kecil dengan moncong panjang yang khas.
+    info: |
+      Kumbang moncong adalah kumbang dari famili Curculionidae, famili hewan terbesar di dunia dengan lebih dari 60.000 spesies.
+      Moncong panjangnya yang khas (rostrum) berguna untuk mengebor biji, buah, dan batang.
+      Beberapa spesies adalah hama pertanian serius, seperti kumbang moncong kapas.
+      Spesies lain terspesialisasi pada satu jenis tumbuhan saja.
+  insect.lacewing:
+    label: serangga sayap renda
+    summary: Serangga halus dengan sayap berurat transparan; larvanya memburu kutu daun.
+    info: |
+      Serangga sayap renda adalah serangga dari famili Chrysopidae dengan sayap halus berurat transparan dan mata keemasan.
+      Larvanya adalah pemangsa dan melahap kutu daun dalam jumlah besar, sehingga menjadi pelindung alami tumbuhan.
+      Yang dewasa memakan nektar dan serbuk sari.
+      Serangga ini tertarik pada cahaya dan merupakan petunjuk lingkungan yang sehat.
+  insect.crane_fly:
+    label: lalat bangau
+    summary: Lalat besar mirip nyamuk dengan kaki yang sangat panjang.
+    info: |
+      Lalat bangau adalah serangga bersayap dua dari famili Tipulidae, tampak seperti nyamuk raksasa, tetapi tidak menggigit dan tidak menjadi parasit.
+      Kakinya yang sangat panjang mudah patah; ini adalah mekanisme pertahanan (autotomi).
+      Yang dewasa hanya hidup beberapa hari dan tidak makan atau memakan nektar.
+      Larvanya hidup di tanah dan memakan akar.
+  insect.mayfly:
+    label: lalat sehari
+    summary: Serangga dengan masa hidup dewasa terpendek, hanya beberapa jam hingga hari.
+    info: |
+      Lalat sehari adalah serangga dari ordo Ephemeroptera dan lambang kefanaan; yang dewasa hanya hidup beberapa jam hingga hari.
+      Ia tidak memiliki mulut yang berfungsi dan sama sekali tidak makan.
+      Nimfanya hidup 1 hingga 3 tahun di bawah air.
+      Kemunculan lalat sehari secara massal adalah tontonan alam yang memukau; di Sungai Donau, Hungaria, ini adalah fenomena unik.
+  insect.damselfly:
+    label: capung jarum
+    summary: Kerabat capung yang ramping; saat istirahat melipat sayap sejajar tubuh.
+    info: |
+      Capung jarum adalah serangga kerabat capung, tetapi lebih ramping, dan saat istirahat melipat sayapnya sejajar dengan tubuh, berbeda dengan capung besar.
+      Ia pemangsa dan memburu serangga kecil sambil terbang.
+      Nimfanya hidup di air dan merupakan bagian penting ekosistem air.
+      Capung jarum adalah petunjuk kualitas aliran air.
+  insect.robber_fly:
+    label: lalat perampok
+    summary: Lalat pemangsa yang menangkap serangga lain saat terbang.
+    info: |
+      Lalat perampok adalah serangga bersayap dua pemangsa dari famili Asilidae yang menangkap serangga lain langsung saat terbang.
+      Ia memiliki kaki kuat untuk mencengkeram mangsa dan belalai penusuk untuk menyuntikkan bisa yang melumpuhkan.
+      Beberapa spesies meniru penampilan lebah bumblebee atau tawon sebagai perlindungan dari pemangsa.
+      Ia bermanfaat sebagai pengendali alami populasi serangga.
+  insect.ground_beetle:
+    label: kumbang tanah
+    summary: Kumbang pemangsa cepat yang hidup di bawah batu dan di serasah daun.
+    info: |
+      Kumbang tanah adalah kumbang dari famili Carabidae; sebagian besar spesies adalah pemangsa nokturnal aktif yang menangkap serangga lain, cacing, dan siput.
+      Kumbang ini cepat dan cepat pula kabur dari bahaya.
+      Beberapa spesies, seperti kumbang tanah ungu, memiliki kilau logam yang indah.
+      Kumbang ini adalah petunjuk tanah yang sehat dan pertanian alami.
+  insect.tiger_beetle:
+    label: kumbang harimau
+    summary: Kumbang cepat berwarna logam dengan penglihatan tajam.
+    info: |
+      Kumbang harimau adalah kumbang dari subfamili Cicindelinae, terkenal dengan kecepatannya yang luar biasa, kemampuan terbang, dan penglihatan tajam.
+      Ia berlari begitu cepat sehingga harus berhenti dan menyesuaikan arah lagi, karena geraknya terlalu cepat bagi sistem penglihatannya.
+      Ia memiliki tubuh logam berwarna indah (hijau, biru, merah) dan mata besar.
+      Larvanya menggali terowongan tegak di tanah dan mengintai mangsa di mulut lubang.
+  insect.hoverfly:
+    label: lalat bunga
+    summary: Lalat yang meniru warna tawon dan lebah; penyerbuk kebun.
+    info: |
+      Lalat bunga adalah serangga bersayap dua dari famili Syrphidae yang meniru warna tawon dan lebah sebagai perlindungan dari pemangsa (mimikri Bates), meski tidak menyengat.
+      Ia penyerbuk penting; mengunjungi lebih banyak jenis tumbuhan daripada lebah.
+      Yang dewasa memakan nektar dan serbuk sari.
+      Larva beberapa spesies memburu kutu daun sehingga membantu di kebun.
   insect.whirligig_beetle:
-    label: vírník
-    summary: Serangga kecil yang berkumpul dengan cara bergerak secara spiral diatas genangan air.
-    info: |-
-      {"hint":"laron yang berputar di permukaan air","info":"Kumbang vírník adalah serangga akuatik dari kelompok famili Gyrinidae hidup pada bagian atas permukaan dan membentuk lingkaran untuk menghindari predatornya.
-      Matanya terbagi menjadi dua sisi yaitu satu melihat ke arah udara sedangkan satunya lagi memandangi dalam air.
-      Ia mendeteksi gelombang atau riak di permukaannya sebagai tanda makanan maupun bahaya.
-      pada siang hari ia membuat putaran tetapi malam harinya dia bisa juga terbang."}
+    label: kumbang pusaran
+    summary: Kumbang kecil yang berputar dalam kawanan di permukaan air.
+    info: |
+      Kumbang pusaran adalah kumbang air dari famili Gyrinidae yang hidup di permukaan, dan berputar dalam kawanan membantunya menghindari pemangsa.
+      Matanya terbagi dua bagian; satu melihat di atas air, satu lagi di bawahnya.
+      Ia mendeteksi riak di permukaan yang menandakan makanan atau bahaya.
+      Pada siang hari ia berputar, pada malam hari ia terbang.
+  insect.louse:
+    label: kutu
+    summary: Parasit tak bersayap mungil yang hidup di kulit dan bulu mamalia.
+    info: |
+      Kutu adalah serangga parasit tak bersayap dari ordo Phthiraptera yang hidup di kulit inang serta di bulu atau rambutnya.
+      Kutu mengisap darah dan menyebabkan gatal.
+      Kutu kepala terdapat di seluruh dunia dan menyerang anak-anak tanpa memandang kondisi kebersihan.
+      Secara historis, kutu menularkan tifus dan penyakit lain.
+  insect.bedbug:
+    label: kutu busuk
+    summary: Parasit pipih yang mengisap darah pada malam hari; bersembunyi di celah perabot.
+    info: |
+      Kutu busuk adalah serangga pipih lonjong dari famili Cimicidae, terutama aktif pada malam hari.
+      Kutu busuk menggigit dan mengisap darah inang yang sedang tidur.
+      Kutu busuk bersembunyi di celah kasur, di perabot, dan di balik wallpaper.
+      Dalam beberapa dekade terakhir, kutu busuk menyebar ke seluruh dunia berkat perjalanan internasional.
+  insect.antlion:
+    label: undur-undur
+    summary: Larva yang menggali perangkap berbentuk corong untuk semut di pasir.
+    info: |
+      Undur-undur adalah larva serangga dari famili Myrmeleontidae yang menggali corong berbentuk kerucut di pasir kering.
+      Ketika semut tergelincir ke dalam perangkap, undur-undur menangkapnya dengan rahang dan menyuntikkan cairan pencernaan.
+      Yang dewasa tidak mencolok, menyerupai capung, dan terbang pada malam hari.
+      Larvanya dapat hidup bertahun-tahun di bawah tanah tanpa makan.
+  insect.goliath_beetle:
+    label: kumbang goliath
+    summary: Salah satu serangga terbesar dan terberat di dunia, dari Afrika tropis.
+    info: |
+      Kumbang goliath adalah salah satu serangga terbesar di dunia; jantannya berbobot hingga 100 gram dan tumbuh lebih dari 11 cm.
+      Kumbang ini hidup di hutan hujan tropis Afrika khatulistiwa.
+      Yang dewasa memakan buah dan getah pohon.
+      Di Afrika, anak-anak kadang memeliharanya sebagai mainan, dan sebagian dijual kepada kolektor.
+  insect.bombardier_beetle:
+    label: kumbang pengebom
+    summary: Kumbang yang untuk pertahanan menyemburkan campuran beracun mendidih.
+    info: |
+      Kumbang pengebom adalah kumbang dari subfamili Brachininae yang membela diri dengan cara unik; ia mencampur dua zat kimia di perutnya, yang menimbulkan reaksi ledakan di atas 100 derajat.
+      Uap yang sangat menggerus disemburkan dengan letusan keras hingga 500 kali per detik.
+      Kumbang ini salah satu contoh pertahanan kimiawi paling memukau di alam.
+  insect.diving_beetle:
+    label: kumbang penyelam
+    summary: Kumbang air pemangsa yang berenang di bawah permukaan.
+    info: |
+      Kumbang penyelam bertepi kuning adalah kumbang air pemangsa dari famili Dytiscidae yang hidup di kolam dan air yang tenang.
+      Kumbang ini berenang lincah berkat kaki belakangnya yang pipih dan berfungsi seperti dayung.
+      Ia bernapas di permukaan dan menyimpan udara di bawah sayap penutupnya.
+      Ia memburu serangga, larva, ikan kecil, dan berudu.
+  insect.velvet_ant:
+    label: semut beludru
+    summary: Tawon tak bersayap berwarna oranye-hitam yang menyerupai semut.
+    info: |
+      Semut beludru sebenarnya adalah tawon dari famili Mutillidae; betinanya tak bersayap dan menyerupai semut.
+      Betinanya memiliki bulu merah atau oranye mencolok sebagai peringatan.
+      Betinanya memiliki sengat yang sangat kuat, berjuluk pembunuh sapi.
+      Semut beludru menjadi parasit di sarang lebah bumblebee.
