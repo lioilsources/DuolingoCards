@@ -256,11 +256,12 @@ func runBuild(args []string) error {
 			}
 			return fmt.Errorf("deck %q has lint errors; not building", d.Meta.Slug)
 		}
-		path, err := d.Build().SaveJSON(*outDir)
+		rd := d.Build()
+		path, err := rd.SaveJSON(*outDir)
 		if err != nil {
 			return err
 		}
-		fmt.Printf("built %s → %s (%d cards, %d languages)\n", d.Meta.Slug, path, len(d.Meta.Cards), len(d.Langs))
+		fmt.Printf("built %s → %s (%d cards, %d supported languages)\n", d.Meta.Slug, path, len(d.Meta.Cards), len(rd.Titles))
 		built++
 	}
 	fmt.Printf("\nbuilt %d deck(s) into %s\n", built, *outDir)

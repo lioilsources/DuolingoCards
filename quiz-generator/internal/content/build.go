@@ -6,12 +6,18 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+
+	"github.com/duolingocards/quiz-generator/internal/langs"
 )
 
 // Build merges a loaded deck (deck.yaml + i18n/*.yaml) into the runtime
-// deck.json structure. Missing translations are simply omitted from the
-// per-field maps — run Lint first to guarantee completeness.
+// deck.json structure. Only supported languages (the pivot plus Gold-flagged
+// targets — see langs.SupportedSet) are emitted; long-tail translations remain
+// in the source tree but are not shipped. Missing translations for supported
+// languages are simply omitted from the per-field maps — run Lint first to
+// guarantee completeness.
 func (d *Deck) Build() *RuntimeDeck {
+	supported := langs.SupportedSet()
 	out := &RuntimeDeck{
 		Deck:         d.Meta.Slug,
 		Version:      d.Meta.Version,
@@ -26,6 +32,9 @@ func (d *Deck) Build() *RuntimeDeck {
 	}
 
 	for _, lang := range d.Langs {
+		if !supported[lang] {
+			continue
+		}
 		if f := d.I18n[lang]; f != nil && f.Title != "" {
 			out.Titles[lang] = f.Title
 		}
@@ -40,6 +49,9 @@ func (d *Deck) Build() *RuntimeDeck {
 			Info:    map[string]string{},
 		}
 		for _, lang := range d.Langs {
+			if !supported[lang] {
+				continue
+			}
 			f := d.I18n[lang]
 			if f == nil {
 				continue

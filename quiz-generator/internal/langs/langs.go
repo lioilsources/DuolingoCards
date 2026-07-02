@@ -12,63 +12,68 @@ type Target struct {
 	Code string // BCP-47 locale code used as the i18n file name and JSON key
 	Name string // English display name (for tooling output)
 	RTL  bool   // right-to-left script
+	Gold bool   // gold-quality (hand-authored/verified); shipped as a supported language
 }
 
 // Targets is the canonical language list for the content pipeline.
+// Gold: true marks a language whose translations are hand-authored/verified for
+// the real decks and therefore shipped as a supported language (see build gating
+// in internal/content). Languages without Gold remain valid translation targets
+// (tracked, lintable, translatable) but are not shipped until promoted.
 var Targets = []Target{
 	// Original top-20 (en is the pivot — see Pivot below — so it is not a target)
-	{Code: "zh-CN", Name: "Chinese (Simplified)"},
-	{Code: "hi", Name: "Hindi"},
-	{Code: "es-419", Name: "Spanish (Latin America)"},
-	{Code: "ar", Name: "Arabic", RTL: true},
-	{Code: "fr", Name: "French"},
+	{Code: "zh-CN", Name: "Chinese (Simplified)", Gold: true},
+	{Code: "hi", Name: "Hindi", Gold: true},
+	{Code: "es-419", Name: "Spanish (Latin America)", Gold: true},
+	{Code: "ar", Name: "Arabic", RTL: true, Gold: true},
+	{Code: "fr", Name: "French", Gold: true},
 	{Code: "bn", Name: "Bengali"},
-	{Code: "pt-BR", Name: "Portuguese (Brazil)"},
-	{Code: "ru", Name: "Russian"},
-	{Code: "id", Name: "Indonesian"},
+	{Code: "pt-BR", Name: "Portuguese (Brazil)", Gold: true},
+	{Code: "ru", Name: "Russian", Gold: true},
+	{Code: "id", Name: "Indonesian", Gold: true},
 	{Code: "ur", Name: "Urdu", RTL: true},
-	{Code: "de", Name: "German"},
-	{Code: "ja", Name: "Japanese"},
+	{Code: "de", Name: "German", Gold: true},
+	{Code: "ja", Name: "Japanese", Gold: true},
 	{Code: "mr", Name: "Marathi"},
 	{Code: "te", Name: "Telugu"},
-	{Code: "tr", Name: "Turkish"},
+	{Code: "tr", Name: "Turkish", Gold: true},
 	{Code: "ta", Name: "Tamil"},
-	{Code: "vi", Name: "Vietnamese"},
-	{Code: "ko", Name: "Korean"},
+	{Code: "vi", Name: "Vietnamese", Gold: true},
+	{Code: "ko", Name: "Korean", Gold: true},
 	{Code: "ha", Name: "Hausa"},
 	// Classical / constructed
 	{Code: "la", Name: "Latin"},
 	{Code: "sa", Name: "Sanskrit"},
 	{Code: "eo", Name: "Esperanto"},
 	// Middle East & South Caucasus
-	{Code: "el", Name: "Greek"},
-	{Code: "he", Name: "Hebrew", RTL: true},
+	{Code: "el", Name: "Greek", Gold: true},
+	{Code: "he", Name: "Hebrew", RTL: true, Gold: true},
 	{Code: "fa", Name: "Persian", RTL: true},
 	{Code: "yi", Name: "Yiddish", RTL: true},
 	{Code: "az", Name: "Azerbaijani"},
 	{Code: "hy", Name: "Armenian"},
 	{Code: "ka", Name: "Georgian"},
 	// East Europe & Balkans
-	{Code: "cs", Name: "Czech"}, // former pivot, now a translation target
-	{Code: "pl", Name: "Polish"},
-	{Code: "sk", Name: "Slovak"},
+	{Code: "cs", Name: "Czech", Gold: true}, // former pivot, now a translation target
+	{Code: "pl", Name: "Polish", Gold: true},
+	{Code: "sk", Name: "Slovak", Gold: true},
 	{Code: "hu", Name: "Hungarian"},
-	{Code: "ro", Name: "Romanian"},
-	{Code: "bg", Name: "Bulgarian"},
-	{Code: "uk", Name: "Ukrainian"},
+	{Code: "ro", Name: "Romanian", Gold: true},
+	{Code: "bg", Name: "Bulgarian", Gold: true},
+	{Code: "uk", Name: "Ukrainian", Gold: true},
 	{Code: "be", Name: "Belarusian"},
-	{Code: "sr", Name: "Serbian"},
-	{Code: "hr", Name: "Croatian"},
-	{Code: "sl", Name: "Slovenian"},
+	{Code: "sr", Name: "Serbian", Gold: true},
+	{Code: "hr", Name: "Croatian", Gold: true},
+	{Code: "sl", Name: "Slovenian", Gold: true},
 	{Code: "bs", Name: "Bosnian"},
 	{Code: "mk", Name: "Macedonian"},
 	{Code: "sq", Name: "Albanian"},
 	// West & North Europe
-	{Code: "nl", Name: "Dutch"},
+	{Code: "nl", Name: "Dutch", Gold: true},
 	{Code: "nl-BE", Name: "Flemish"},
-	{Code: "da", Name: "Danish"},
-	{Code: "nb", Name: "Norwegian (Bokmål)"},
-	{Code: "sv", Name: "Swedish"},
+	{Code: "da", Name: "Danish", Gold: true},
+	{Code: "nb", Name: "Norwegian (Bokmål)", Gold: true},
+	{Code: "sv", Name: "Swedish", Gold: true},
 	{Code: "fi", Name: "Finnish"},
 	{Code: "is", Name: "Icelandic"},
 	{Code: "mt", Name: "Maltese"},
@@ -80,7 +85,7 @@ var Targets = []Target{
 	{Code: "ga", Name: "Irish"},
 	{Code: "cy", Name: "Welsh"},
 	// Southern Europe
-	{Code: "it", Name: "Italian"},
+	{Code: "it", Name: "Italian", Gold: true},
 	// Horn of Africa
 	{Code: "am", Name: "Amharic"},
 	// South Asia
@@ -120,6 +125,34 @@ func IsTarget(code string) bool {
 	for _, t := range Targets {
 		if t.Code == code {
 			return true
+		}
+	}
+	return false
+}
+
+// SupportedSet returns the set of language codes shipped to the app as
+// "supported": the pivot plus every Gold-flagged target. Long-tail (non-gold)
+// targets stay in Targets — tracked and translatable — but are excluded here so
+// the build does not ship or surface them until they are promoted to Gold.
+func SupportedSet() map[string]bool {
+	out := map[string]bool{Pivot: true}
+	for _, t := range Targets {
+		if t.Gold {
+			out[t.Code] = true
+		}
+	}
+	return out
+}
+
+// IsSupported reports whether a language code is shipped as a supported
+// language (the pivot or a Gold-flagged target).
+func IsSupported(code string) bool {
+	if code == Pivot {
+		return true
+	}
+	for _, t := range Targets {
+		if t.Code == code {
+			return t.Gold
 		}
 	}
 	return false
