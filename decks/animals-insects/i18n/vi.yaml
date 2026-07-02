@@ -2,224 +2,379 @@ lang: vi
 pivot: false
 title: Côn trùng
 cards:
-  insect.ant:
-    label: kiến
-    summary: Loài côn trùng nhỏ sống thành đàn.
-    info: Kiến là loài côn trùng tạo ra các đàn lớn với sự phân chia công việc rõ ràng.
-  insect.antlion:
-    label: nhộng
-    summary: Các loại trứng đẻ ra những ổ bẫy nhỏ nhằm dụ dỗ kiến đến.
-    info: |-
-      {"hint":"con nhộng côn trùng đào bẫy hình chóp để bắt kiến (Myrmeleontidae)","info":"Con nhái kiến là con non của loài sâu cánh cứng thuộc họ Myrmeleontidae và chúng khoan các cái bẫy có dạng chóp trong đất sỏi khô ráo.
-       Khi một chú kiến bị tuột vào chiếc bẫy đó thì nó sẽ được giữ lại bằng hàm răng sắc nhọn đồng thời chất dịch tiêu hóa cũng được tiêm truyền ngay lập tức sau khi tiếp xúc với nạn nhân.
-       Những cá thể trưởng thành không gây hại cho người vì trông giống như ong nhưng bay về đêm.
-       Con non này sống dưới lòng đất hàng năm trời mà vẫn tồn tại dù chưa từng ăn uống gì."}
-  insect.aphid:
-    label: bọ phấn
-    summary: Các loài này thường được tìm thấy ở các phần mềm như cuống lá hay quả non.
-    info: '{"hint":"con bọ chét nhỏ hút nhựa cây","info":"Bọ phấn là loại côn trùng nhỏ thuộc họ Aphididae sống trên thân thực vật và gây hại bằng cách rút nước từ lá hoặc hoa của chúng để sinh sản nhanh chóng trong một năm."}'
-  insect.atlas_moth:
-    label: bướm martinat atlantis
-    summary: Một trong các loại côn trùng bay ban đêm to nhất với họa tiết hình mặt trăn trên đôi cánh.
-    info: '{"hint":"một trong những con bướm đêm lớn nhất thế giới","info":"Con bướm Martinat Atlas là một trong số ít loài sâu đo có cánh rộng tới 30cm ở Trái Đất.\nCánh của nó được nhuộm màu để trông giống đầu rắn hổ mang nhằm xua đuổi kẻ săn mồi.\nTheo tuổi trưởng thành thì không còn miệng và hoàn toàn không ăn gì nữa mà chỉ sống vài ngày sau khi trở nên trưởng thành.\nChúng sinh ra từ rừng nhiệt đới Đông Nam Á."}'
-  insect.bedbug:
-    label: bétou
-    summary: Kẻ ký sinh phẳng hút máu về đêm；躲藏在家具缝隙中
-    info: Con bétou nhà là loại sâu nhỏ có hình bầu dục và thuộc họ Cimicidae hoạt động chủ yếu vào ban đêm. Nó chích hút máu của vật chủ đang ngủ say. Chúng thường rúc mình trong các vết nứt ở đệm床垫、furniture缝隙和墙纸后面。近年来，由于国际旅行的增加而全球传播。
-  insect.bee:
-    label: včela
-    summary: Sâu ong có sọc vàng đen, thụ phấn cho hoa và sản xuất mật ong.
-    info: Ong mật là loài côn trùng xã hội sống trong tổ và thu gom dịch hoa. Chúng đóng vai trò quan trọng trong việc thụ phấn thực vật đồng thời tạo ra mật ong.
-  insect.beetle:
-    label: sâu
-    summary: Sâu tạo thành đơn vị phân loại sinh học lớn hơn bất kỳ nhóm nào khác về mặt độ phong phú với trên 400 nghìn chủng đã biết.
-    info: '{"hint":"Sâu có vỏ cứng thuộc bộ Bọ cánh cứng - nhóm đa dạng nhất","info":"Các loài sâu nằm trong Bộ Bọ cánh cứng và chiếm khoảng 40% số lượng các loại côn trùng đã được mô tả.\nChúng đặc trưng bởi những tấm giáp bảo vệ đôi翅 thật bên dưới.\nCon Sâu voi là con vật lớn nhất châu Âu của dòng này với cái miệng dài cong như một cặp sừng ở đực.\nHầu hết môi trường từ vùng nhiệt đới đến cực Bắc đều tìm thấy sự hiện diện của chúng."}'
-  insect.bombardier_beetle:
-    label: đom đóm phóng hơi nóng
-    summary: Đom đóm này sử dụng hỗn hợp thuốc gây sốc để phòng thủ.
-    info: Con đom đóm Strevlik delostrelsky thuộc họ Carabidea và là loài có cách tự vệ độc đáo bằng hóa chất trong bụng nó khi trộn hai loại hợp chất khác nhau tạo ra phản ứng nổ với nhiệt độ vượt quá mức 100°C. Hơi khí cực kỳ độc hại được phun mạnh mẽ cùng âm thanh lớn lên đến hơn năm trăm lần mỗi giây.
-  insect.bumblebee:
-    label: ong bắp cày
-    summary: Loại ong lớn đầy lông nhung phát âm thanh rền mạnh mẽ dùng cho quá trình truyền polen.
-    info: Ong bắp cày là loài ong to và có nhiều lông thuộc chi Bombus, họ hàng với ong mật thông thường. Đây là một sinh vật thụ phấn quan trọng đặc biệt ở những nơi khí hậu lạnh hơn vì khi thời tiết xấu thì ong mật ít bay ra ngoài để kiếm hoa nở. Ong này còn biết cách làm nóng cơ thể bằng việc co giãn các mút cánh nên vẫn hoạt động được ngay cả trong điều kiện trời rét.
   insect.butterfly:
     label: bướm
-    summary: Sâu bọ bay có cánh lớn màu sắc rực rỡ.
-    info: Bướm là một loại sâu bọ với hai cặp cánh phủ vảy, thường có màu sắc nổi bật.
-  insect.caterpillar:
-    label: giò
-    summary: Dạng nhộng của bướm hay sâu đo; chuyên ăn lá cây chuẩn bị cho việc hóa kén.
-    info: Giò là dạng nhộng của bướm hoặc sâu đo và dành phần lớn thời gian ăn lá để tích lũy năng lượng cho quá trình biến đổi cơ thể sau này. Một số giò có màu sắc nổi bật nhằm cảnh báo kẻ săn mồi về độc tính của chúng.
-  insect.centipede:
-    label: con stonozka
-    summary: Động vật thân mềm gồm hàng loạt khớp nối kèm số lượng lớn chi tiết dạng chân
-    info: |-
-      {"hint":"arachnid có nhiều chân thuộc lớp Chilipoda với một cặp chân trên mỗi đốt","info":"Con millepede là loài động vật không xương sống thuộc lớp Chilipoda và mang một đôi chân ở từng đoạn cơ thể nó mà không phải đến trăm cái như tên gọi gợi ý.
-      Là sinh vật săn mồi hoạt bát ăn các loại côn trùng nhỏ, giun đất cùng những con nhện bé xinh khác.
-      Pari đầu tiên của chúng được biến đổi thành vuốt độc để làm cho nạn nhân bị liệt hoàn toàn trước khi nuốt chửng vào bụng.
-      một vài giống nhiệt đới thậm chí còn phát triển dài tới hơn ba phần mười mét."}
-  insect.cicada:
-    label: bọ ngựa
-    summary: Sâu bọ được biết đến vì hát cao giọng vào ngày nắng nóng.
-    info: '{"hint":"Insect côn trùng kêu to; đực tạo ra âm thanh rít lớn","info":"Bọ ngựa là một loài sâu bọ thuộc siêu họ Cicadoidea nổi tiếng với những âm thanh phát ra rất mạnh mẽ trong số các loại côn trùng khác.\r\nCon cái và con trống đều có khả năng sản xuất âm nhạc đặc biệt bằng cách rung màng bụng để thu hút bạn tình của chúng. \r\NMột vài giống ở Mỹ có chu kỳ sinh trưởng kéo dài tới mười bảy hoặc ba năm. \r\NCác cá thể non sống dưới lòng đất nhiều năm trước khi chui lên mặt đất kiếm ăn từ cây trồng xung quanh."}'
-  insect.cockroach:
-    label: bọ chét
-    summary: Loại côn trùng ăn tạp về đêm cực mạnh mẽ và thích nghi cao.
-    info: '{"hint":"con côn trùng gặm nhấm ban đêm nhanh nhẹn","info":"Bọ chét là một trong những loài sâu bọ bền vững nhất trên Trái đất; chúng có thể sống sót dưới tia bức xạ và điều kiện mà sẽ giết chết các sinh vật khác.\nCó hơn 4 nghìn loại nhưng chỉ khoảng ba mươi loài sống gần con người.\nĐây cũng là loài kiến cổ xưa - Bọ chét đã tồn tại được hàng trăm triệu năm trước đây thậm chí còn vượt qua thời kỳ khủng long tuyệt diệt.\nChúng rất linh hoạt với tốc độ chạy lên đến quá mức 5km/giờ."}'
-  insect.crane_fly:
-    label: moth
-    summary: Con ong nhỏ trông giống một chú bướm với những chiếc chân rất dài.
-    info: |-
-      {"hint":"muỗi khổng lồ có chân dài","info":"Moth là côn trùng cánh màng thuộc họ Tipulidae về mặt thị giác giống như con nhện khổng lồ nhưng không đốt và cũng không ký sinh.와
-      Chân cực kỳ dài của nó dễ dàng tách ra khi cần thiết; đây được xem là cơ chế tự vệ gọi là autotomy.와
-      Người lớn chỉ sống trong vài ngày mà không ăn hoặc nếu có thì sẽ uống mật hoa.와
-      Trứng non (còn gọi là sâu đất) phát triển dưới lòng đất bằng cách tiêu thụ rễ cây."}
-  insect.cricket:
-    label: Châu Chấu
-    summary: Loại sâu bọ hoạt động về đêm nổi bật với bản năng giao tiếp qua tiếng 'xào' do cá thể đực tạo nên.
-    info: Con châu chấu đồng là côn trùng ban đêm thuộc bộ Tricoptera. Con đực phát ra âm thanh bằng cách xát cánh vào nhau để thu hút con cái và bảo vệ lãnh thổ của mình. Tại Châu Á, các loài châu chấu thường được nuôi trong nhà như thú chơi vì tiếng hát đặc trưng; chúng cũng tượng trưng cho sự êm ái gia đình và hạnh phúc tại nhiều nền văn hóa.
-  insect.damselfly:
-    label: bọ ngựa
-    summary: Loại thân thuộc của ong bắp chuối mảnh mai này sẽ gập đôi cánh lại chạy dài trên người.
-    info: Bọ ngựa là loài côn trùng có họ hàng với ong bắp chuối nhưng nhỏ hơn và khi nghỉ ngơi thì xếp cánh song song với cơ thể, khác biệt so với các loại ong bắp chuối.
-  insect.diving_beetle:
-    label: bọ nước
-    summary: Côn trùng săn mồi biết bay và bơi thành thạo.
-    info: Bọ nước to là loài côn trùng săn mồi sống ở các ao hồ và vùng nước đứng thuộc họ Bọ nước (Dytiscidae). Nó có thể di chuyển linh hoạt dưới mặt nước nhờ đôi chân sau phẳng như mái chèo để bơi lội trơn tuột.
+    summary: Một loài côn trùng biết bay với đôi cánh lớn nhiều màu sắc.
+    info: Bướm là côn trùng có hai đôi cánh phủ vảy, thường có màu sắc rực rỡ.
+  insect.bee:
+    label: ong
+    summary: Một loài côn trùng vàng-đen thụ phấn cho hoa và làm mật.
+    info: Ong mật là côn trùng sống thành xã hội, sống trong tổ và thu thập mật hoa.
+  insect.ladybug:
+    label: bọ rùa
+    summary: Một con bọ nhỏ tròn màu đỏ với những chấm đen.
+    info: Bọ rùa là loài bọ nhỏ ăn rệp và có ích trong vườn.
   insect.dragonfly:
-    label: vážka
-    summary: Sâu bọ có thân dài và hai cặp cánh trong suốt.
-    info: Vážka là loài côn trùng săn mồi với thị lực tuyệt vời, thường săn mồi gần các vùng nước.
-  insect.dung_beetle:
-    label: bướu
-    summary: Châu chấu làm các quả cầu từ chất thải động vật.
-    info: Vruboun posvátný là một loại châu chấu thuộc họ Bọ hung, có khả năng tạo hình phân thành những viên bi và lăn chúng lại để đẻ trứng bên trong. Trong thời kỳ Ai Cập cổ đại, nó được coi như biểu tượng của mặt trời và vị thần Kheopsri.
-  insect.earwig:
-    label: bọ chét
-    summary: Con bọ kéo dài với cặp chân hám ở phía hậu môn.
-    info: '{"hint":"con bọ kéo dài có càng gắp ở đuôi","info":"Bọ chét là côn trùng thuộc bộ Dermaptera đặc trưng bởi những cái kẹp nhỏ gọi là cerci ở cuối phần bụng dùng để tự vệ và sinh sản.\nTheo truyền thuyết sai lầm phổ biến cho rằng chúng sẽ leo vào tai người - đây chỉ là một điều hoang tưởng mà không đúng sự thật. \nCái của loài này rất độc đáo vì chăm sóc trứng cũng như các con non sau khi nở ra khỏi vỏ nhộng – hành vi hiếm gặp trong thế giới sâu bọ. \nChúng sống chủ yếu dưới đá hoặc lá cây rụng trên mặt đất.'
+    label: chuồn chuồn
+    summary: Một loài côn trùng thân dài với hai đôi cánh trong suốt.
+    info: Chuồn chuồn là loài săn mồi có thị lực tuyệt vời, săn mồi gần mặt nước.
+  insect.ant:
+    label: kiến
+    summary: Một loài côn trùng xã hội nhỏ sống thành đàn.
+    info: Kiến là loài côn trùng tạo thành những đàn lớn với sự phân công lao động.
+  insect.beetle:
+    label: bọ cánh cứng
+    summary: Bọ cánh cứng tạo thành bộ côn trùng lớn nhất, với hơn 400.000 loài đã được mô tả.
+    info: |
+      Bọ cánh cứng thuộc bộ Coleoptera và chiếm khoảng 40% tổng số loài côn trùng đã được mô tả.
+      Chúng được nhận ra nhờ đôi cánh cứng che phủ (cánh cứng) giấu đôi cánh bay thật sự bên dưới.
+      Bọ sừng hươu là loài bọ cánh cứng lớn nhất châu Âu; con đực có hàm khỏe giống như gạc.
+      Bọ cánh cứng sống ở hầu hết mọi môi trường, từ vùng nhiệt đới đến vùng Bắc Cực.
+  insect.grasshopper:
+    label: châu chấu
+    summary: Một loài côn trùng biết nhảy với đôi chân sau dài và tiếng kêu rả rích.
+    info: |
+      Châu chấu là côn trùng thuộc bộ Cánh thẳng với đôi chân sau khỏe cho phép nhảy xa gấp hai mươi lần chiều dài cơ thể.
+      Con đực tạo ra âm thanh đặc trưng (tiếng ma sát) bằng cách cọ chân vào cánh.
+      Châu chấu ăn cây cỏ và khi tập trung thành đàn lớn có thể phá hoại mùa màng.
+  insect.cricket:
+    label: dế
+    summary: Một loài côn trùng sống về đêm, nổi tiếng với tiếng gáy của con đực.
+    info: |
+      Dế mèn là côn trùng sống về đêm thuộc bộ Cánh thẳng.
+      Con đực gáy bằng cách cọ hai cánh vào nhau để thu hút con cái và đánh dấu lãnh thổ.
+      Ở châu Á, dế từ lâu đã được nuôi làm thú cưng vì tiếng gáy của chúng.
+      Trong nhiều nền văn hóa, dế còn là biểu tượng của sự ấm cúng trong nhà và may mắn.
+  insect.mosquito:
+    label: muỗi
+    summary: Một loài côn trùng hai cánh; con cái hút máu và có thể truyền bệnh.
+    info: |
+      Muỗi là côn trùng hai cánh thuộc họ Culicidae.
+      Con cái hút máu động vật để lấy protein cần cho sự phát triển của trứng; con đực ăn mật hoa.
+      Muỗi truyền các bệnh nguy hiểm như sốt rét, sốt xuất huyết và zika.
+      Trên thế giới có hơn 3.500 loài muỗi.
+  insect.fly:
+    label: ruồi
+    summary: Một loài côn trùng hai cánh rất phổ biến, có thể lây lan vi khuẩn.
+    info: |
+      Ruồi nhà là loài côn trùng hai cánh phổ biến nhất trong nhà ở của con người.
+      Đôi mắt kép cho phép nó nhìn gần 360 độ quanh mình.
+      Ruồi lây lan vi khuẩn vì nó đậu cả trên rác lẫn trên thức ăn.
+      Ruồi chỉ có một đôi cánh hoạt động; đôi cánh thứ hai (chùy thăng bằng) giúp giữ thăng bằng khi bay.
+  insect.moth:
+    label: bướm đêm
+    summary: Họ hàng sống về đêm của bướm; bay về phía ánh sáng và có râu hình lông vũ.
+    info: |
+      Bướm đêm là các loài cánh vảy sống về đêm; khác với bướm ngày, khi đậu nghỉ chúng xếp cánh dọc theo hai bên thân.
+      Nhiều loài bị ánh sáng nhân tạo thu hút.
+      Tơ tự nhiên có được nhờ ấu trùng của bướm tằm.
+      Bướm mặt trăng (luna) là một trong những loài bướm đêm đẹp nhất thế giới.
+  insect.caterpillar:
+    label: sâu bướm
+    summary: Ấu trùng của bướm; ăn lá và chuẩn bị hóa nhộng.
+    info: |
+      Sâu bướm là giai đoạn ấu trùng của bướm và dành phần lớn cuộc đời để ăn lá nhằm tích trữ năng lượng cho quá trình biến đổi.
+      Một số sâu bướm có màu sắc rực rỡ để cảnh báo kẻ săn mồi rằng chúng có độc.
+      Khi hóa nhộng, nó tạo thành một cái kén (nhộng), nơi diễn ra quá trình biến thái hoàn toàn thành con trưởng thành.
+  insect.praying_mantis:
+    label: bọ ngựa
+    summary: Một loài côn trùng săn mồi với tư thế cầu nguyện và cú tấn công nhanh như chớp.
+    info: |
+      Bọ ngựa là côn trùng săn mồi thuộc nhóm Mantodea.
+      Nó có tên như vậy nhờ tư thế gập đôi chân trước lại như đang cầu nguyện.
+      Nó là bậc thầy săn mồi; ra đòn và tóm lấy con mồi trong tích tắc.
+      Con cái đôi khi ăn con đực sau khi giao phối, dù điều này không phải lúc nào cũng xảy ra.
+  insect.stick_insect:
+    label: bọ que
+    summary: Một loài côn trùng bắt chước cành cây hoặc chiếc lá một cách hoàn hảo.
+    info: |
+      Bọ que thuộc nhóm Phasmatodea và là bậc thầy ngụy trang; cơ thể nó bắt chước cành cây hoặc lá một cách hoàn hảo.
+      Khi gặp nguy hiểm, nó đứng yên hoàn toàn.
+      Một số loài sinh sản bằng trinh sản, tức là không cần con đực.
+      Chúng là thú cưng ngoại lai phổ biến nhờ dễ chăm sóc.
   insect.firefly:
     label: đom đóm
-    summary: Mối sinh sản ánh sáng sinh vật nhằm mục đích hấp dẫn đối tác giao phối.
-    info: Con đom đóm là một loại mối thuộc họ Lampyridae có khả năng tạo ra ánh sáng lạnh từ phần bụng của chúng nhờ phản ứng hóa học giữa chất luciferin và enzyme luciferase. Cả con cái lẫn con trống đều phát tín hiệu bằng các mẫu ánh sáng khác nhau để nhận diện và thu hút bạn tình. Đom đóm cũng được coi như chỉ số đánh giá mức độ sạch sẽ môi trường sống.
-  insect.flea:
-    label: kiến ba khoang
-    summary: Loài nhỏ bé săm sỡi máu của thú và chim.
-    info: Kiến ba khoang là loại côn trùng không cánh thuộc bộ Kiến Ba Khoang chuyên sống bám ký sinh trên cơ thể động vật có xương sống và chim. Chúng sử dụng chân sau mạnh mẽ để nhảy xa hơn gấp nhiều lần chiều dài thân mình.
-  insect.fly:
-    label: '"con muỗi"'
-    summary: Cái tên gọi chỉ một loại động vật thuộc nhóm arthropods với đặc điểm nổi bật về khả năng truyền lan vi khuẩn gây bệnh.
-    info: '{"hint":"muỗi nhà thường gặp nhất trong sinh hoạt con người","info":"Muỗi là loài côn trùng hai cánh phổ biến sống quanh khu vực dân cư của chúng ta.\nTheo dõi môi trường xung quanh nhờ vào đôi mắt phức hợp giúp nó có thể nhìn thấy gần như toàn bộ không gian bao phủ phía trước và sau lưng mình khi di chuyển nhanh chóng qua các vật chướng ngại khác nhau mà vẫn giữ được sự cân bằng ổn định cho thân hình nhỏ bé này."'
-  insect.goliath_beetle:
-    label: bọ Goliát
-    summary: Một trong số ít bò sát to và khỏe mạnh nhất trên Trái Đất đến từ vùng Châu phi Nhiệt đai.
-    info: Bọ Goliát khổng lồ là một trong những loài côn trùng lớn nhất thế giới với con đực có thể nặng tới 100 gam và dài hơn 11cm. Chúng sống ở các khu rừng mưa nhiệt đới châu Phi xích đạo. Người trưởng thành ăn trái cây và nhựa cây.
-  insect.grasshopper:
-    label: bọ chét
-    summary: Côn trùng nhảy có chân sau dài.
-    info: "{\"hint\":\"con côn trùng nhảy có chân sau dài\",\"info\":\"Bọ chét là loại sâu bọ thuộc bộ Orthoptera với đôi chân sau khỏe mạnh giúp chúng bay xa tới hai mươi lần chiều dài cơ thể của mình.\r\nCon đực phát ra âm thanh đặc trưng bằng cách xát cánh vào phần háng.\r\nChúng ăn thực vật và khi sống thành đàn lớn thì gây thiệt hại cho mùa vụ.\"}"
-  insect.ground_beetle:
-    label: bọ hung
-    summary: Loại sâu ăn thịt sống dưới đá hoặc lá cây.
-    info: Bọ hung là loài châu chấu thuộc họ Carabidae; phần lớn các loài này hoạt động vào ban đêm và săn bắt côn trùng khác cùng với giun đất và sên. Chúng di chuyển rất nhanh để trốn khỏi mối nguy hiểm có thể xảy ra xung quanh.
-  insect.hornet:
-    label: ong bò
-    summary: Loại ong to nhất ở Châu Âu sở hữu chiếc kim chích mạnh mẽ cùng tiếng vo ve đặc trưng.
-    info: Ong bò châu Âu là loài ong xã lớn nhất tại Châu Âu với chiều dài hơn 3,5cm và có thể xây tổ giấy trong các lỗ cây hoặc trên mái nhà.
-  insect.hoverfly:
-    label: bướm ong
-    summary: Loài muỗi giả lập hình dạng của bumblebees và bees.
-    info: Bướm ong là côn trùng cánh bằng thuộc họ Syrphidae và có màu sắc giống với ong hoặc châu chấu để bảo vệ mình khỏi kẻ thù săn mồi dù không thể đốt được chúng.
-  insect.lacewing:
-    label: bọ mắt vàng
-    summary: Loài sâu chích hút cây trồng nhưng lại được xem là "người bảo vệ tự nhiên của thực vật", vì chúng tiêu diệt rất nhiều rệp hại bằng cách ăn thịt các con này khi còn ở giai đoạn trứng hoặc nhộng.
-    info: |-
-      {"hint":"con bướm nhỏ có cánh trong suốt với mạng gân như lưới (Chrysopidae)","info":"Bọ mắt vàng là côn trùng thuộc họ Chrysopidae có đôi翅透明且有网状脉络，以及金色的眼睛。幼虫是捕食者，并消耗大量的蚜虫，因此它们被认为是植物的天然保护者。
-      成年个体以花蜜和花粉为生。
-      它们会被光线吸引并被视为健康环境的一个指标","label":"bọ mắt vàng","summary":"Côn trùng mong manh với những chiếc wing trong suốt và có đường vén dạng lưới；ấu trùng săn muỗi."}
-  insect.ladybug:
-    label: bọ hung
-    summary: Con bọ nhỏ tròn màu đỏ có chấm đen.
-    info: Bọ hung là một loại bọ nhỏ ăn rệp và rất hữu ích trong vườn.
-  insect.locust:
-    label: grasshopper di chuyển
-    summary: Châu chấu di cư gây ra thiệt hại với số lượng khủng.
-    info: "{\"hint\":\"các châu chấu di cư tạo thành đàn phá hoại quy mô lớn\",\"info\":\"Grasshopper di chuyển là loài côn trùng có thể hình thành các đàn khổng lồ khi điều kiện phù hợp.\r\nMỗi đàn có thể bao gồm hàng tỷ cá thể và tàn phá toàn bộ mùa vụ trên diện tích nghìn hecta chỉ trong một ngày.\r\nỞ nhiều quốc gia tại Châu Phi và Áo đã từng ghi nhận đây như những thảm họa nông nghiệp nghiêm trọng nhất lịch sử.\r\nTrong Kinh Thánh chúng được liệt vào mười tai ách giáng xuống Ai Cập.\"}"
-  insect.louse:
-    label: v虱
-    summary: Loại ký sinh nhỏ sống ở da và tóc động vật có xương sống.
-    info: V虱 là loài côn trùng không cánh thuộc bộ Phthiraptera sống trên da và lông hoặc tóc của vật chủ. Nó hút máu gây ngứa cho con người.
-  insect.mayfly:
-    label: bọ nước
-    summary: Côn trùng có tuổi thọ ngắn nhất khi đã trưởng thành, thường chỉ kéo dài từ vài tiếng đồng hồ tới một vài ngày.
-    info: Bọ nước là côn trùng thuộc bộ Trướng翅 và biểu tượng cho sự phù du; cá thể trưởng thành chỉ sống vài giờ đến vài ngày.
-  insect.mosquito:
-    label: bọ ngựa
-    summary: Côn trùng hai cánh; cá thể cái hút máu và có khả năng lan truyền bệnh.
-    info: '{"hint":"con bọ chét hút máu bay","info":"Bọ ngựa là côn trùng cánh đôi thuộc họ Culicidae. Con cái uống máu động vật để lấy protein cho việc phát triển trứng còn con đực ăn mật hoa. Bọ ngựa có thể lây truyền các bệnh nghiêm trọng như sốt rét, dịch tay chân miệng hay Zika virus. Trên thế giới hiện tồn tại hơn 3 nghìn loài bọ ngựa.","label":"bọ ngựa","summary":"côn trùng hai cánh; cá thể cái hút máu và có khả năng lan truyền bệnh."}'
-  insect.moth:
-    label: sâu đo
-    summary: Đồng minh tối màu của bướm, bay hướng tới nguồn sáng và sở hữu xúc tu dạng phiến bụi.
-    info: '{"hint":"con bướm đêm có liên quan đến bướm ngày thuộc bộ Trĩ","info":"Các loài sâu đo là những con bướm đêm của lớp翅膜目, khác với các loại bướm ban ngày vì khi nghỉ ngơi chúng gập cánh sang hai bên.\nNhiều giống bị thu hút bởi ánh sáng nhân tạo.\nTheo truyền thuyết dân gian thì sợi tơ tự nhiên được sinh ra từ trứng và nhộng côn trùng này.\nBướm Luna là một trong số đẹp nhất trên thế giới.","label":"sâu đo","summary":"Người hàng xóm về đêm của bướm bay vào ánh sáng và mang vây cảm giác như lá phổi."}'
-  insect.praying_mantis:
-    label: cầu nguyện
-    summary: Loài nhện săn mồi có dáng vẻ giống người cầu khấn cùng kỹ thuật bắt mồi siêu nhanh.
-    info: Bọ cua cầu nguyện là loại sâu có cánh thuộc nhóm Mantodea và được đặt tên vì tư thế đứng với chân trước gập lại như đang cầu nguyện. Nó nổi tiếng về khả năng săn mồi chính xác đến mức chỉ mất một phần nghìn giây để tấn công con mồi bằng tốc độ ánh sáng.
-  insect.robber_fly:
-    label: bọ rùa
-    summary: Loại ruồi ăn thịt bắt những sinh vật nhỏ trong lúc chúng còn lơ lửng giữa trời.
-    info: Bọ rùa là loài côn trùng hai cánh săn mồi thuộc họ Stenopelmatoidea bắt các loại sâu bọ khác ngay khi chúng đang bay trên không trung và có chân khỏe để nắm chắc con mồi cũng như một cái đầu nhọn dùng để tiêm thuốc tê liệt vào nạn nhân của nó.
-  insect.scorpion:
-    label: kết cò
-    summary: Độc tố của một loại động vật thuộc lớp Nhện chân dài có gai vuốt.
-    info: |-
-      Kết cò là loài nhện chân dài có những chi trước đặc trưng và đuôi cong với đầu kim tiêm độc.
-      Loài này đã tồn tại từ rất lâu đời; hóa thạch kết cò cổ nhất được tìm thấy cách đây hơn 430 triệu năm.
-      Dưới ánh sáng tím họ phát ra ánh huỳnh quang trong bóng tối.
-  insect.silverfish:
-    label: con cá
-    summary: Côn trùng không cánh tìm thấy ở nơi đặt sách hoặc văn kiện.
-    info: '{"hint":"côn trùng không cánh di chuyển nhanh sống trong nhà","info":"Con cá nhỏ là loài côn trùng nguyên thủy thuộc bộ Zygentoma sinh sống tại các hộ gia đình. Nó ăn tinh bột, giấy và keo dán sách cũng như sợi vải. Tên gọi của nó bắt nguồn từ màu bạc lấp lánh cùng cách cử động giống con cá. Đây được xem là một trong những thứ bậc cổ xưa nhất về loại sâu bọ tồn tại mà gần suốt hơn ba trăm triệu năm qua chưa có sự thay đổi đáng kể nào."}'
+    summary: Một loài bọ phát ra ánh sáng phát quang sinh học để thu hút bạn tình.
+    info: |
+      Đom đóm là loài bọ thuộc họ Lampyridae có thể tạo ra ánh sáng lạnh (phát quang sinh học) ở bụng.
+      Con đực và con cái phát sáng theo các kiểu khác nhau để nhận ra và thu hút nhau.
+      Ánh sáng được điều khiển bởi phản ứng hóa học giữa luciferin và luciferase.
+      Đom đóm là dấu hiệu của môi trường trong lành.
+  insect.wasp:
+    label: ong vò vẽ
+    summary: Một loài côn trùng đốt màu vàng-đen xây tổ bằng giấy.
+    info: |
+      Ong vò vẽ thông thường là côn trùng đốt thuộc nhóm Vespula với màu cảnh báo vàng-đen đặc trưng.
+      Nó xây tổ bằng giấy từ bột gỗ đã nhai.
+      Khác với ong mật, ong vò vẽ có thể đốt nhiều lần.
+      Nó có ích như một loài điều hòa tự nhiên của côn trùng gây hại.
+  insect.cockroach:
+    label: gián
+    summary: Một loài côn trùng nhanh nhẹn, sống về đêm, ăn tạp; rất bền bỉ và dễ thích nghi.
+    info: |
+      Gián là một trong những loài côn trùng bền bỉ nhất thế giới; nó sống sót qua bức xạ và những điều kiện có thể giết chết các loài khác.
+      Có hơn 4.500 loài, nhưng chỉ khoảng 30 loài sống gần con người.
+      Gián là loài côn trùng cổ xưa; gián đã tồn tại hơn 300 triệu năm và sống sót qua thời khủng long.
+      Gián nhanh nhẹn và có thể chạy hơn 5 km/h.
   insect.spider:
     label: nhện
-    summary: Nhện có ba mắt lớn phía sau đầu dùng để quan sát môi trường xung quanh.
-    info: '{"hint":"arachni có bốn chân và hai phần cơ thể","info": "Các nhện thuộc lớp Araneidae là động vật không xương sống với năm cặp chi trên đầu ngực và một đôi xúc tu ở mặt trước của chúng để bắt mồi hoặc giao tiếp."}'
-  insect.stag_beetle:
-    label: bọ hung
-    summary: Loại côn trùng khổng lồ của EU; cá thể nam giới sở hữu cặp颚 hình nhánh như sừng
-    info: |-
-      Bọ hung châu Âu là loài sâu đục gỗ lớn nhất ở Châu Âu với chiều dài lên đến hơn 7cm
-      Con trống có hàm răng cong to bản dùng để tranh giành con cái trong mùa sinh sản
-      Sâu non sống và phát triển tới tận 7 năm trên thân cây sồi mục nát bằng cách ăn các loại nấm
-  insect.stick_insect:
-    label: bọ ngựa
-    summary: Côn trùng bắt chước hình dáng chi tiết của thân cây hay lá.
-    info: Bọ ngựa là một loài côn trùng thuộc nhóm Phasmatodea và có khả năng giả dạng tuyệt vời; cơ thể của chúng mô phỏng hoàn hảo các nhánh cây hoặc lá cây.
+    summary: Một loài nhện tám chân giăng lưới để bắt côn trùng.
+    info: |
+      Nhện là loài hình nhện (không phải côn trùng) thuộc bộ Araneae với tám chân và cơ thể chia làm hai phần.
+      Nó có thể tạo ra tơ để giăng lưới săn mồi hoặc bọc kén trứng.
+      Trên thế giới có hơn 48.000 loài nhện.
+      Mọi loài đều tạo ra nọc độc, nhưng phần lớn vô hại đối với con người.
+  insect.scorpion:
+    label: bọ cạp
+    summary: Một loài hình nhện có nọc độc với càng và chiếc đuôi cong chứa độc.
+    info: |
+      Bọ cạp là loài hình nhện (không phải côn trùng) với đôi càng đặc trưng và chiếc đuôi cong kết thúc bằng ngòi độc.
+      Đây là loài vật cổ xưa; những hóa thạch bọ cạp lâu đời nhất có tuổi hơn 430 triệu năm.
+      Trong bóng tối, chúng phát huỳnh quang dưới tia cực tím.
+      Trong khoảng 2.500 loài, chỉ khoảng 25 loài nguy hiểm với con người.
+  insect.centipede:
+    label: rết
+    summary: Một loài nhiều chân với một đôi chân trên mỗi đốt cơ thể.
+    info: |
+      Rết thuộc lớp Chilopoda và có một đôi chân trên mỗi đốt cơ thể (không phải một trăm chân như tên tiếng Anh gợi ý).
+      Nó là loài săn mồi nhanh nhẹn, bắt côn trùng, giun và động vật có xương sống nhỏ.
+      Đôi chân đầu tiên đã biến thành móng độc để làm tê liệt con mồi.
+      Một số loài nhiệt đới dài hơn 30 cm.
+  insect.flea:
+    label: bọ chét
+    summary: Một loài ký sinh biết nhảy nhỏ xíu hút máu động vật có vú và chim.
+    info: |
+      Bọ chét là côn trùng không cánh thuộc bộ Siphonaptera, chuyên sống ký sinh.
+      Đôi chân sau khỏe cho phép nó nhảy xa hơn 150 lần chiều dài cơ thể.
+      Nó hút máu động vật có vú và chim, và có thể truyền bệnh; trong lịch sử, bọ chét đã phát tán bệnh dịch hạch.
+      Bọ chét là những nghệ sĩ nhào lộn của thế giới côn trùng.
   insect.termite:
-    label: kiến termites
-    summary: Côn trùng ăn gỗ tạo ra núi đất khổng lồ.
-    info: Kiến ba khe là côn trùng xã hội thuộc nhóm Isoptera và có quan hệ họ hàng xa với bọ cánh cứng. Chúng sống trong các tổ lớn gồm hoàng đế, hậu, lính canh và thợ xây dựng những kiến trúc phức tạp cao tới chín mét ở vùng nhiệt đới cùng một hệ thống thông gió.
-  insect.tiger_beetle:
-    label: châu chấu
-    summary: Loại côn trùng nhỏ bé nhưng hoạt bát.
-    info: '{"hint":"bọ hung săn mồi lấp lánh nhanh nhẹn","info":"Đây là một loài châu chấu thuộc họ Buprestidae nổi tiếng với tốc độ di chuyển và khả năng bay tuyệt vời cùng thị lực sắc nét của nó.\nNó chạy rất nhanh đến mức phải dừng lại để định hướng vì hệ thống thị giác không thể xử lý được sự vận động quá mạnh mẽ này.\nChúng có cơ thể kim loại màu xanh lá cây hoặc đỏ tươi sáng bóng như gương."}'
-  insect.velvet_ant:
-    label: Ong nhện đỏ
-    summary: Con ong màu cam đen với thân hình nhỏ nhắn mà không có đôi cánh.
-    info: Kẻ săn ong nhung là thực chất một con ong thuộc họ Mutillidae có lông mềm mịn như nhung và không cánh trông giống kiến.
-  insect.wasp:
-    label: ong
-    summary: Sâu có thân vàng và đen xây dựng các tổ bằng giấy.
-    info: Ong bắp cày chung là loại sâu có khả năng đốt thuộc nhóm Vespuła với đặc điểm nhận dạng màu vàng và đen cảnh báo điển hình. Chúng làm tổ giấy từ gỗ nhai lại. Khác với ong mật, chúng có thể dùng kim螯 nhiều lần.
+    label: mối
+    summary: Một loài côn trùng xã hội xây những gò khổng lồ bằng đất.
+    info: |
+      Mối là côn trùng xã hội thuộc nhóm Isoptera, họ hàng xa của gián.
+      Chúng sống thành đàn với vua, hoàng hậu, lính và thợ.
+      Chúng xây những tổ mối phức tạp, ở vùng nhiệt đới cao tới 9 mét, với hệ thống thông gió riêng.
+      Là những loài phân hủy gỗ quan trọng, chúng đóng vai trò then chốt trong các hệ sinh thái nhiệt đới.
+  insect.bumblebee:
+    label: ong nghệ
+    summary: Một loài ong lớn nhiều lông với tiếng vo ve trầm; là loài thụ phấn quan trọng.
+    info: |
+      Ong nghệ là côn trùng lớn nhiều lông thuộc chi Bombus, họ hàng của ong mật.
+      Nó là loài thụ phấn quan trọng, đặc biệt ở những vùng khí hậu lạnh hơn nơi ong bay ít hơn.
+      Nó có thể tự sưởi ấm bằng cách làm rung cơ bay, nhờ đó bay được ngay cả trong giá lạnh.
+      Ong nghệ hiền hơn ong vò vẽ và chỉ đốt khi bị đe dọa trực tiếp.
+  insect.hornet:
+    label: ong bắp cày
+    summary: Loài ong vò vẽ lớn nhất châu Âu với ngòi khỏe và tiếng vo ve lớn.
+    info: |
+      Ong bắp cày là loài ong vò vẽ xã hội lớn nhất châu Âu và dài hơn 3,5 cm.
+      Nó xây tổ bằng giấy trong hốc cây hoặc dưới mái nhà.
+      Ngòi của nó dài hơn ngòi ong vò vẽ và vết đốt đau hơn, nhưng ong bắp cày chỉ tấn công khi bị đe dọa trực tiếp.
+      Nó là kẻ thù săn mồi quan trọng của các côn trùng khác.
+  insect.cicada:
+    label: ve sầu
+    summary: Một loài côn trùng nổi tiếng với tiếng kêu inh ỏi vào những ngày nóng.
+    info: |
+      Ve sầu là côn trùng thuộc liên họ Cicadoidea, nổi tiếng với một trong những âm thanh lớn nhất trong tất cả côn trùng.
+      Con đực tạo âm thanh bằng những màng đặc biệt (màng rung) ở bụng để thu hút con cái.
+      Một số loài ở Mỹ có chu kỳ phát triển mười bảy hoặc mười ba năm.
+      Ấu trùng sống nhiều năm dưới đất và ăn rễ cây.
+  insect.locust:
+    label: châu chấu di cư
+    summary: Loài châu chấu di cư tạo thành những đàn tàn phá lên tới hàng triệu con.
+    info: |
+      Châu chấu di cư là một loài châu chấu, trong những điều kiện nhất định tạo thành các đàn di cư khổng lồ.
+      Một đàn có thể lên tới hàng tỷ con và trong một ngày phá hủy mùa màng trên hàng nghìn héc-ta.
+      Ở các nước châu Phi và châu Á, châu chấu trong lịch sử là một trong những thảm họa nông nghiệp lớn nhất.
+      Trong Kinh Thánh, chúng là một trong mười tai họa của Ai Cập.
+  insect.aphid:
+    label: rệp vừng
+    summary: Một loài côn trùng chích hút nhỏ xíu trên thân cây; tạo ra dịch mật.
+    info: |
+      Rệp vừng là những côn trùng chích hút nhỏ thuộc liên họ Aphidoidea, ăn nhựa cây.
+      Chúng tạo ra dịch mật ngọt, nhờ đó kiến chăm sóc chúng để đổi lấy sự bảo vệ.
+      Chúng sinh sản cực nhanh; một con cái có thể tạo ra hàng trăm triệu con cháu trong một năm.
+      Chúng là loài gây hại quan trọng cho cây trồng nông nghiệp.
+  insect.earwig:
+    label: bọ đuôi kìm
+    summary: Một loài côn trùng thân dài với cặp kìm ở cuối bụng.
+    info: |
+      Bọ đuôi kìm là côn trùng thuộc bộ Dermaptera, được nhận ra nhờ cặp kìm (đuôi kìm) ở cuối bụng, dùng để phòng vệ và giao phối.
+      Tên của nó trong một số ngôn ngữ bắt nguồn từ mê tín rằng nó chui vào tai người; đó chỉ là chuyện hoang đường.
+      Bọ đuôi kìm cái khác thường vì chúng chăm sóc trứng và ấu trùng non, điều hiếm gặp ở côn trùng.
+      Chúng sống trong khe nứt, dưới đá và trong lớp lá mục.
+  insect.silverfish:
+    label: con nhậy
+    summary: Một loài côn trùng không cánh nhanh nhẹn, thấy trong nhà gần sách và giấy.
+    info: |
+      Con nhậy là côn trùng không cánh nguyên thủy thuộc bộ Zygentoma, sống trong nhà ở.
+      Nó ăn tinh bột, giấy, keo đóng sách và sợi vải.
+      Tên của nó bắt nguồn từ màu bạc và cách di chuyển giống cá.
+      Nó thuộc một trong những bộ côn trùng cổ nhất và sống gần như không đổi hơn 300 triệu năm.
   insect.water_strider:
-    label: bọ nước
-    summary: Côn trùng di chuyển được trên mặt nước do tác dụng của sức căng mặt ngoài.
-    info: Bọ nước là loại côn trùng thuộc họ Gerridae có thể đi lại trên mặt nước nhờ những lông chống thấm ở chân và lực căng bề mặt của nước.
-  insect.weevil:
+    label: con gọng vó
+    summary: Một loài côn trùng đi trên mặt nước nhờ sức căng bề mặt.
+    info: |
+      Con gọng vó là côn trùng thuộc họ Gerridae có thể đi trên nước nhờ những sợi lông kỵ nước ở chân và sức căng bề mặt của nước.
+      Nó săn những côn trùng rơi xuống nước, nhận ra chúng qua rung động trên mặt nước.
+      Nó nhanh nhẹn và có thể lướt trên nước hơn 150 lần chiều dài cơ thể mỗi giây.
+  insect.dung_beetle:
     label: bọ hung
-    summary: Một con bướu nhỏ có đặc trưng về chiếc mũi kéo dài.
-    info: Bọ hung là một loại châu chấu thuộc họ Curculionidae – dòng loài động vật lớn nhất thế giới với hơn 60 nghìn loài khác nhau trên toàn cầu. Đặc điểm nổi bật của chúng chính là cái mỏ dài uốn lượn được dùng để khoan vào hạt cây cối và thân gỗ.
+    summary: Một loài bọ lăn những viên phân, được tôn kính ở Ai Cập cổ đại.
+    info: |
+      Bọ hung thiêng là loài bọ thuộc họ Scarabaeidae, nặn phân thành viên và lăn chúng đi để chôn và đẻ trứng vào trong.
+      Ở Ai Cập cổ đại, nó là biểu tượng của mặt trời và thần Khepri.
+      Nó là một trong số ít loài vật định hướng theo Ngân Hà.
+      Nó giúp tái chế chất dinh dưỡng và làm thoáng khí cho đất.
+  insect.stag_beetle:
+    label: bọ sừng hươu
+    summary: Loài bọ cánh cứng lớn nhất châu Âu; con đực có hàm giống như gạc.
+    info: |
+      Bọ sừng hươu là loài bọ cánh cứng lớn nhất châu Âu và dài hơn 7 cm.
+      Con đực có đôi hàm khổng lồ giống gạc, dùng trong các cuộc chiến giành con cái.
+      Ấu trùng sống tới 7 năm trong gỗ sồi mục và ăn nấm.
+      Nó bị đe dọa nghiêm trọng do sự biến mất của những khu rừng già và gỗ chết.
+  insect.atlas_moth:
+    label: bướm atlas
+    summary: Một trong những loài bướm đêm lớn nhất thế giới, cánh trang trí hoa văn hình rắn.
+    info: |
+      Bướm atlas là một trong những loài bướm đêm lớn nhất thế giới, với sải cánh tới 30 cm.
+      Đầu mút cánh của nó có màu sắc giống như đầu rắn, khiến kẻ săn mồi sợ hãi.
+      Con trưởng thành không có miệng và hoàn toàn không ăn; chúng chỉ sống vài ngày.
+      Nó đến từ những khu rừng nhiệt đới Đông Nam Á.
+  insect.weevil:
+    label: mọt vòi
+    summary: Một loài bọ nhỏ với chiếc vòi kéo dài đặc trưng.
+    info: |
+      Mọt vòi là loài bọ thuộc họ Curculionidae, họ động vật lớn nhất thế giới với hơn 60.000 loài.
+      Chiếc vòi kéo dài đặc trưng (rostrum) dùng để khoan vào hạt, quả và thân cây.
+      Một số loài là loài gây hại nông nghiệp nghiêm trọng, như mọt vòi bông.
+      Các loài khác chuyên biệt trên một loài cây duy nhất.
+  insect.lacewing:
+    label: bọ cánh gân
+    summary: Một loài côn trùng mảnh mai với đôi cánh gân trong suốt; ấu trùng săn rệp.
+    info: |
+      Bọ cánh gân là côn trùng thuộc họ Chrysopidae với đôi cánh mảnh, gân trong suốt và đôi mắt vàng óng.
+      Ấu trùng là loài săn mồi và ngốn một lượng rệp khổng lồ, nhờ đó trở thành người bảo vệ tự nhiên của cây cối.
+      Con trưởng thành ăn mật hoa và phấn hoa.
+      Chúng bị ánh sáng thu hút và là dấu hiệu của môi trường lành mạnh.
+  insect.crane_fly:
+    label: ruồi hạc
+    summary: Một loài ruồi lớn giống muỗi với đôi chân cực dài.
+    info: |
+      Ruồi hạc là côn trùng hai cánh thuộc họ Tipulidae, trông giống một con muỗi khổng lồ, nhưng nó không chích và không ký sinh.
+      Đôi chân cực dài của nó dễ gãy rời; đó là một cơ chế phòng vệ (tự cắt bỏ).
+      Con trưởng thành chỉ sống vài ngày và hoặc không ăn hoặc ăn mật hoa.
+      Ấu trùng sống trong đất và ăn rễ cây.
+  insect.mayfly:
+    label: phù du
+    summary: Loài côn trùng có đời sống trưởng thành ngắn nhất, chỉ vài giờ đến vài ngày.
+    info: |
+      Phù du là côn trùng thuộc bộ Ephemeroptera và là biểu tượng của sự phù du; con trưởng thành chỉ sống vài giờ đến vài ngày.
+      Chúng không có miệng hoạt động và hoàn toàn không ăn.
+      Ấu trùng sống từ 1 đến 3 năm dưới nước.
+      Cảnh phù du bay thành đàn hàng loạt là một cảnh tượng thiên nhiên mê hoặc; trên sông Danube ở Hungary, đó là một hiện tượng độc đáo.
+  insect.damselfly:
+    label: chuồn chuồn kim
+    summary: Họ hàng mảnh mai của chuồn chuồn; khi đậu nghỉ xếp cánh dọc theo thân.
+    info: |
+      Chuồn chuồn kim là côn trùng họ hàng với chuồn chuồn, nhưng mảnh mai hơn, và khi đậu nghỉ nó xếp cánh song song với thân, khác với chuồn chuồn lớn.
+      Nó là loài săn mồi và bắt côn trùng nhỏ khi đang bay.
+      Ấu trùng sống dưới nước và là một phần quan trọng của hệ sinh thái nước.
+      Chúng là dấu hiệu của chất lượng dòng nước.
+  insect.robber_fly:
+    label: ruồi cướp
+    summary: Một loài ruồi săn mồi tóm bắt các côn trùng khác khi đang bay.
+    info: |
+      Ruồi cướp là côn trùng hai cánh săn mồi thuộc họ Asilidae, tóm bắt các côn trùng khác ngay khi đang bay.
+      Nó có đôi chân khỏe để tóm con mồi và chiếc vòi chích để tiêm nọc gây tê liệt.
+      Một số loài bắt chước hình dáng ong nghệ hoặc ong vò vẽ để tự bảo vệ khỏi kẻ săn mồi.
+      Nó có ích như một loài điều hòa tự nhiên các quần thể côn trùng.
+  insect.ground_beetle:
+    label: bọ chân chạy
+    summary: Một loài bọ săn mồi nhanh nhẹn sống dưới đá và trong lớp lá mục.
+    info: |
+      Bọ chân chạy là loài bọ thuộc họ Carabidae; phần lớn các loài là loài săn mồi ban đêm hoạt động, bắt các côn trùng khác, giun và ốc sên.
+      Chúng nhanh nhẹn và chạy trốn nhanh khỏi nguy hiểm.
+      Một số loài, như bọ chân chạy tím, có ánh kim loại tuyệt đẹp.
+      Chúng là dấu hiệu của đất lành mạnh và nền nông nghiệp tự nhiên.
+  insect.tiger_beetle:
+    label: bọ hổ
+    summary: Một loài bọ nhanh nhẹn màu ánh kim với thị lực tuyệt vời.
+    info: |
+      Bọ hổ là loài bọ thuộc phân họ Cicindelinae, nổi tiếng với tốc độ phi thường, khả năng bay và thị lực sắc bén.
+      Nó chạy nhanh đến mức phải dừng lại và định hướng lại, vì chuyển động quá nhanh đối với hệ thị giác của nó.
+      Nó có thân màu ánh kim đẹp mắt (xanh lá, xanh dương, đỏ) và đôi mắt to.
+      Ấu trùng đào những đường hầm thẳng đứng trong đất và rình con mồi ở miệng hang.
+  insect.hoverfly:
+    label: ruồi hoa
+    summary: Một loài ruồi bắt chước màu sắc của ong vò vẽ và ong mật; loài thụ phấn của khu vườn.
+    info: |
+      Ruồi hoa là côn trùng hai cánh thuộc họ Syrphidae, bắt chước màu sắc của ong vò vẽ và ong mật để tự bảo vệ khỏi kẻ săn mồi (bắt chước kiểu Bates), dù nó không đốt.
+      Nó là loài thụ phấn quan trọng; nó ghé thăm nhiều loài cây hơn ong.
+      Con trưởng thành ăn mật hoa và phấn hoa.
+      Ấu trùng của một số loài săn rệp và nhờ đó giúp ích trong vườn.
   insect.whirligig_beetle:
-    label: viễn nich
-    summary: Loài côn trùng nhỏ bay quanh nhau ở bề mặt nước.
-    info: 'Viễn Ních là một loại châu chấu nước thuộc họ Gyrinidae sống trên mặt nước và di chuyển thành đàn để tránh kẻ thù. Mắt của nó được phân tách làm hai phần: một nhìn lên phía trên mặt nước còn lại hướng xuống dưới lòng hồ. Nó có thể phát hiện các gợn sóng nhỏ cho biết sự xuất hiện thức ăn hoặc mối nguy hiểm.'
+    label: bọ xoáy nước
+    summary: Một loài bọ nhỏ xoáy tròn thành đàn trên mặt nước.
+    info: |
+      Bọ xoáy nước là loài bọ nước thuộc họ Gyrinidae sống trên mặt nước, và việc xoáy tròn thành đàn giúp nó tránh kẻ săn mồi.
+      Mắt của nó chia làm hai phần; một phần nhìn trên mặt nước, một phần nhìn dưới nước.
+      Nó cảm nhận những gợn sóng trên mặt nước báo hiệu thức ăn hoặc nguy hiểm.
+      Ban ngày nó xoáy tròn, ban đêm nó bay.
+  insect.louse:
+    label: chấy
+    summary: Một loài ký sinh không cánh nhỏ xíu sống trên da và lông của động vật có vú.
+    info: |
+      Chấy là côn trùng ký sinh không cánh thuộc bộ Phthiraptera, sống trên da vật chủ và trong lông hoặc tóc của nó.
+      Nó hút máu và gây ngứa.
+      Chấy đầu có mặt khắp thế giới và ảnh hưởng đến trẻ em bất kể điều kiện vệ sinh.
+      Trong lịch sử, chấy đã truyền bệnh sốt phát ban và các bệnh khác.
+  insect.bedbug:
+    label: rệp giường
+    summary: Một loài ký sinh dẹt hút máu vào ban đêm; ẩn trong khe nứt của đồ nội thất.
+    info: |
+      Rệp giường là côn trùng dẹt hình bầu dục thuộc họ Cimicidae, chủ yếu hoạt động về đêm.
+      Nó cắn và hút máu vật chủ đang ngủ.
+      Nó ẩn trong khe nứt của đệm, trong đồ nội thất và sau giấy dán tường.
+      Vài thập kỷ gần đây, nó lan ra khắp thế giới nhờ du lịch quốc tế.
+  insect.antlion:
+    label: kiến sư tử
+    summary: Một ấu trùng đào những cái bẫy hình phễu để bắt kiến trong cát.
+    info: |
+      Kiến sư tử là ấu trùng của một loài côn trùng thuộc họ Myrmeleontidae, đào những cái phễu hình nón trong cát khô.
+      Khi một con kiến trượt vào bẫy, kiến sư tử tóm lấy nó bằng hàm và tiêm dịch tiêu hóa.
+      Con trưởng thành không nổi bật, trông giống chuồn chuồn và bay về đêm.
+      Ấu trùng có thể sống nhiều năm dưới đất mà không ăn.
+  insect.goliath_beetle:
+    label: bọ goliath
+    summary: Một trong những loài côn trùng lớn và nặng nhất thế giới, từ châu Phi nhiệt đới.
+    info: |
+      Bọ goliath là một trong những loài côn trùng lớn nhất thế giới; con đực nặng tới 100 gram và dài hơn 11 cm.
+      Nó sống trong những khu rừng mưa nhiệt đới của châu Phi xích đạo.
+      Con trưởng thành ăn quả và nhựa cây.
+      Ở châu Phi, trẻ em đôi khi giữ chúng làm đồ chơi, và một số được bán cho nhà sưu tập.
+  insect.bombardier_beetle:
+    label: bọ pháo thủ
+    summary: Một loài bọ, để tự vệ, phun ra một hỗn hợp độc sôi nóng.
+    info: |
+      Bọ pháo thủ là loài bọ thuộc phân họ Brachininae tự vệ theo một cách độc đáo; nó trộn hai chất hóa học trong bụng, gây ra một phản ứng nổ ở nhiệt độ hơn 100 độ.
+      Luồng hơi ăn mòn mạnh được phun ra với tiếng nổ lớn tới 500 lần mỗi giây.
+      Nó là một trong những ví dụ hấp dẫn nhất về phòng vệ hóa học trong tự nhiên.
+  insect.diving_beetle:
+    label: niềng niễng
+    summary: Một loài bọ nước săn mồi bơi dưới mặt nước.
+    info: |
+      Niềng niễng viền vàng là loài bọ nước săn mồi thuộc họ Dytiscidae, sống trong ao và vùng nước tù đọng.
+      Nó bơi khéo léo nhờ đôi chân sau dẹt hoạt động như mái chèo.
+      Nó thở ở mặt nước và trữ không khí dưới cánh cứng.
+      Nó săn côn trùng, ấu trùng, cá nhỏ và nòng nọc.
+  insect.velvet_ant:
+    label: kiến nhung
+    summary: Một loài ong vò vẽ không cánh màu cam-đen trông giống kiến.
+    info: |
+      Kiến nhung thật ra là một loài ong vò vẽ thuộc họ Mutillidae; con cái không cánh và trông giống kiến.
+      Chúng có những sợi lông đỏ hoặc cam nổi bật để cảnh báo.
+      Con cái có ngòi cực khỏe, biệt danh là kẻ giết bò.
+      Chúng ký sinh trong tổ của ong nghệ.

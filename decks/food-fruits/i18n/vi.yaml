@@ -2,242 +2,363 @@ lang: vi
 pivot: false
 title: Trái cây
 cards:
-  fruit.ackee:
-    label: ackee
-    summary: Một loại trái cây nhiệt đới đỏ với phần thịt bên trong màu vàng gọi là 'aril'; đây cũng chính là đặc sản quốc gia của đảo Jamaika.
-    info: Cây Ackee có tên khoa học là Blighia sapida và được đặt tên sau năm 1793 để tưởng nhớ thuyền trưởng William Bligh. Chỉ những hạt màu vàng đã chín mới ăn được vì các quả chưa đủ độ hoặc quá già chứa độc tố hypoglycin A gây nguy hiểm cho sức khỏe con người.
   fruit.apple:
-    label: quả táo
-    summary: Quả tròn màu đỏ hoặc xanh có vị ngọt chua.
-    info: Táo là quả của cây táo tây, một trong những loại trái cây được trồng nhiều nhất trên thế giới. Nó chứa vitamin C và chất xơ; hiện đã có hơn 7.500 giống khác nhau.
-  fruit.apricot:
-    label: xoài
-    summary: Một loài quả hạch màu cam nhỏ với vị ngọt chua tự nhiên.
-    info: Xoài lông chim (Prunus armeniaca) có nguồn gốc từ châu Á Trung Bộ và được trồng ở Cộng hòa Séc cũng như khắp Châu Âu; những loại ngon nhất đến từ Thổ Nhĩ Kỳ và Tây Ban Nha. Quả này giàu beta-carotene và vitamin A.
-  fruit.avocado:
-    label: chuối dầu
-    summary: Quả nhiệt đới màu xanh kem; nguyên liệu cơ bản của món guacamole.
-    info: |-
-      Chuối dầu (Persea americana) có nguồn gốc từ Mexico và Trung Mỹ.
-      Về mặt thực vật học thì đây là một loại quả mọng nhưng trong nấu ăn thường được sử dụng như rau củ.
-      Nó chứa chất béo không no lành mạnh (axit ô-li-cô) tương tự như dầu oli-vi.
+    label: táo
+    summary: Một loại quả tròn màu đỏ hoặc xanh với vị chua ngọt.
+    info: Táo là quả của cây táo, một trong những loại cây trồng phổ biến nhất thế giới. Táo chứa vitamin C và chất xơ; có hơn 7.500 giống.
   fruit.banana:
     label: chuối
-    summary: Trái nhiệt đới màu vàng có thịt ngọt.
-    info: Chuối là trái cây của một loài thực vật nhiệt đới thuộc họ chuối. Nó giàu kali và đường tự nhiên, cung cấp năng lượng nhanh chóng.
-  fruit.blackberry:
-    label: quả mâm tím
-    summary: Quả hợp tử đỏ thẫm từ bụi cây rubus.
-    info: Mâm tím đen là loại quả màu tía đậm được thu hoạch từ bụi cây có gai của loài Rubus fruticosus. Quả này thường phát triển ở rìa rừng và trong các khu vực nhiều cỏ dại. Nó chứa hàm lượng vitamin C cao cùng với vitamin K và chất xơ.
-  fruit.blueberry:
-    label: blueberry
-    summary: Quả màu xanh đậm chứa nhiều chất dinh dưỡng.
-    info: Việt quất hoang dã là một loại quả mọng giàu anthocyanin có tác dụng chống oxy hóa mạnh mẽ và được nghiên cứu cho thấy hỗ trợ chức năng nhận thức cũng như sức khỏe tim mạch.
-  fruit.cantaloupe:
-    label: chanh leo
-    summary: Một loại dưa lưới vàng nâu đặc trưng thịt cam tươi sáng.
-    info: Chanh leo (còn gọi là Cucumis melo var. cantalupensis), có nguồn gốc từ châu Á và được đặt tên dựa trên địa danh gần Rome - Cantalupo của giáo hoàng thời xưa. Thịt bên trong màu cam đậm chứa nhiều vitamin A cùng với tiền chất carotene.
-  fruit.cherry:
-    label: třešeň
-    summary: Quả mọng đỏ tròn nhỏ mọc thành cặp.
-    info: Třešeň là quả của cây cherry, một loại trái cây mùa hè phổ biến. Quả chứa chất chống oxy hóa và melatonin; có các giống ngọt cũng như chua.
-  fruit.coconut:
-    label: dừa
-    summary: Hạt nhiệt đới lớn với vỏ ngoài bằng chất liệu xơ và ruột trắng.
-    info: "{\"hint\":\"Quả hạch nhiệt đới to có lớp vỏ xơ cứng\",\"info\":\"Dừa nước là quả của cây dừa cao su - về mặt thực vật học thì đây không phải hạt mà lại là một loại múi bọc thịt mềm bên trong. Nước椰子汁在未成熟果实中是一种天然的离子饮料。椰奶和椰油是东南亚及印度料理的基础原料。\r\n\r\n椰树被称为“生命之树”（Tree Of Life），用途多达千种以上，包括食用、工业制造与日常用品等各方面应用价值极高。\"}"
-  fruit.cranberry:
-    label: việt quất
-    summary: Một loài trái cây họ mâm xôi với hương vị axit mạnh mẽ.
-    info: Việt quất đỏ là một loại mọng nhỏ có vị chua và màu hồng đến cam đậm đặc trưng của nó. Nó thường được sử dụng như món sốt truyền thống trong lễ Tạ ơn ở Mỹ gọi là nước sốt việt quất. Loại quả này chứa các hợp chất procianidin giúp ngăn ngừa sự bám dính của khuẩn Escherichia Coli lên thành niệu đạo.
-  fruit.currant:
-    label: cây câu
-    summary: Quả mọng nhỏ màu trắng, đỏ hay đen.
-    info: Câu đố đỏ là một loại quả mọng nhỏ phát triển thành chùm giống lúa mạch. Mâm xôi đen chứa nhiều vitamin C nhất trong tất cả các loài cây có múi và được sử dụng làm hương vị cơ bản của nước uống Ribena Anh Quốc cùng với rượu mùi Cassis. Quả câu màu hồng thường dùng để nấu chè hoặc trang trí món ngọt.
-  fruit.damson:
-    label: đamát-xen
-    summary: Loại quả lê đỏ chín phổ biến trong các khu vườn gia đình nước ngoài.
-    info: |-
-      {"hint":"loại mâm xôi nhỏ màu tím đen","info":"Mâm Xô Damasco là một giống quả lê đỏ chín có kích thước nhỏ và vỏ sẫm màu từ ánh sáng lam đến gần như tối hoàn toàn.
-      Tên gọi bắt nguồn từ thành phố Damascus ở Syria nơi mà loại trái cây này đã được đưa vào châu Âu thông qua thương mại cổ đại.
-      Khi ăn sống nó thường rất axit nhưng lại ngon tuyệt vời khi làm sốt hoặc rượu mạnh đặc biệt là Gin với tên gọi 'Gin Mâm Xô'.
-      Ở Anh quốc người ta trồng loài cây này trong vườn nhà riêng kể cả thời kỳ La Mã còn tồn tại."}
-  fruit.date:
-    label: nho
-    summary: Quả oval màu vàng nhạt có vị ngọt đặc trưng đến từ loài Phoenix dactylifera.
-    info: Nho (Phoenix dactylifera) là loại quả ngọt của cây nho khô thuộc họ Dừa. Đây đã trở thành thực phẩm cơ bản ở Trung Đông từ hàng nghìn năm trước và chứa hơn 60% đường làm nguồn năng lượng phong phú.
-  fruit.dragon_fruit:
-    label: trái cây tắc
-    summary: Khoai lang Nhật Bản là một loại củ giống khoai tây nhưng mềm hơn.
-    info: |-
-      {"hint":"Quả xương rồng nhiệt đới màu hồng có thịt trắng chấm bi (Hylocereus)","info":"Trái cây tắc lưỡi (pitayaya, Hylocereus) đến từ Mexico và Trung Mỹ.\nTheo đó vỏ ngoài nổi bật với tông đỏ cam cùng ruột trắng điểm những hạt đen rất bắt mắt.\nNó mang hương vị thanh nhã;
-      gồm chất chống oxy hóa và vitamin C.\nNgười ta ép nước uống hoặc làm sinh tố cũng như các món tráng miệng độc đáo."}
-  fruit.durian:
-    label: dừa dại
-    summary: Loài trái cây nhiệt đới to lớn đầy gai góc mùi mạnh mẽ này còn được mệnh danh là "trái cây hoàng gia".
-    info: Dứa dại (Durio zibethinus) được gọi là 'quả hoàng kim' của nhiệt đới. Mùi hương đặc trưng có thể gây khó chịu với một số người nhưng lại hấp dẫn đối với những người khác đến mức bị cấm trong nhiều khách sạn châu Á. Thịt quả màu kem ngọt ngào và mang vị phức hợp như hạnh nhân, vanilla hoặc phô mai.
-  fruit.feijoa:
-    label: fejoa
-    summary: Quả nhỏ màu xanh dạng trứng với thịt quả hương dịu.
-    info: "{\"hint\":\"trái cây xanh hình bầu dục có mùi thơm đặc trưng (Acca sellowiana)\",\"info\":\"Phương pháp dịch sang tiếng Việt:\r\n\r\nTrước tiên xác định các thông tin chính trong nội dung cần chuyển đổi và giữ nguyên ý nghĩa gốc khi thực hiện quá trình này để đảm bảo tính nhất quán cao giữa hai ngôn ngữ khác nhau về mặt cấu trúc cũng như cách diễn đạt cụ thể cho từng chi tiết được nêu ra ở đây."
-  fruit.fig:
-    label: xoài
-    summary: Quả có hình dạng như hauhx đào của loài xoài Ficus carica; ngọt và nhiều hạt.
-    info: Xoài (Ficus carica) là một trong những loại quả được trồng lâu đời nhất trên thế giới với bằng chứng kéo dài đến cách đây hơn 11 nghìn năm. Thực tế thì không phải đó là trái cây mà chính xác hơn nó là túi chứa hàng ngàn hoa nhỏ bên trong.
-  fruit.gooseberry:
-    label: an quả
-    summary: Một dạng quả mềm màu hồng hay trắng với vị ngọt.
-    info: Cây an quả chua là một loại trái cây nhỏ phổ biến trong vườn ở châu Âu trung tâm và có ba giống chính gồm xanh lá mít đỏ hoặc vàng nhạt.
-  fruit.grape:
-    label: nhoài
-    summary: Quả mọng nhỏ tròn mọc thành chùm.
-    info: Cây nho cho ra các chùm quả có màu sắc khác nhau - từ xanh đến tím đậm. Quả nho được ăn tươi, sấy khô làm nho khô hoặc ép lấy nước để sản xuất rượu.
-  fruit.grapefruit:
-    label: cam
-    summary: Một loài trái cây họ Cam quýt to lớn mang vị chua ngọt đặc trưng.
-    info: Cam lùm hồng và đỏ chứa nhiều chất chống oxy hóa như licopene và β-caroteno. Nước ép cam lùm có thể tương tác với một số loại thuốc nên bệnh nhân cần thông báo cho bác sĩ.
-  fruit.guava:
-    label: xoài
-    summary: Một loại hoa quả nhiệt đới mang hương thơm đặc trưng , bên trong là lớp ruột màu trắng hoặc hồng
-    info: "Xoài rừng (danh pháp khoa học Psidium guayjava) có nguồn gốc từ châu Mỹ nhiệt đới và hiện nó đã phổ biến ở nhiều nơi tại châu Á và châu Phi cũng thuộc vùng khí hậu này\nNó chứa lượng vitamin C gấp bốn lần so với cam quýt \nVỏ quả cùng hạt xoài đều ăn được ; toàn bộ phần thịt của trái cây giàu dinh dưỡng "
-  fruit.jackfruit:
-    label: breadnut
-    summary: Loại trái cây khổng lồ của vùng khí hậu nhiệt đới.
-    info: Breadnut (Artocarpus heterophyllus) tạo ra những quả lớn nhất trên cây trong tự nhiên và có thể nặng hơn cả 35kg. Loài này xuất xứ từ châu Á nhiệt đới là nguồn thực phẩm chính ở Ấn Độ, Bangladesh và Thái Lan.
-  fruit.kiwi:
-    label: Kiwifruit
-    summary: Trái cây màu nâu nhạt nhiều xơ bên ngoài thịt trái tươi sáng màu xanh lá.
-    info: |-
-      Quả lê猕猴桃 (Actinidia deliciossa) có nguồn gốc từ Trung Quốc nơi nó được gọi là Dương đào hoặc quả việt quất châu Á.
-      New Zealand thương mại hóa và đổi tên thành 'quả Kiwi' lấy cảm hứng từ loài chim quốc gia của họ.
-      Nó chứa gấp đôi vitamin C so với cam.
-  fruit.lemon:
-    label: chanh
-    summary: Trái cam quít màu vàng chua; nguồn cung cấp vitamin C và hương liệu.
-    info: |-
-      {"hint":"trái cây họ cam quýt vàng chua","info":"Chanh là một loại trái cây có vị chua đến từ châu Á thuộc nhóm họ cam quất.
-      Nó chứa nhiều vitamin C và axit xitric.
-      Được sử dụng trong nấu ăn, đồ uống, mỹ phẩm cũng như các sản phẩm tẩy rửa.
-      Tinh dầu của chanh (Citrus limon) mang lại hương thơm đặc trưng với mùi hắc nhẹ nhàng."
-  fruit.lime:
-    label: quýt
-    summary: |-
-      Trái cây họ Citrus nhỏ và axit với vỏ thơm芳香的皮。它是墨西哥、泰国和越南菜的重要组成部分。
-      它含有的维生素C比柠檬少，但香气浓郁。
-      食用青柠可以保护水手免受坏血病（富含维他命C）的影响。
-    info: '{"label":"quýt","summary":"Quả họ cam quít nhỏ màu xanh có vị chua; thành phần thiết yếu trong các món ăn nhiệt đới.'
-  fruit.longan:
-    label: lông quan
-    summary: Quả nhuyễn màu nâu thuộc họ cây liên hệ đến mâm xôi.
-    info: Lồng can (tên khoa học là Dimocarpus longgan), một loại quả nhiệt đới có nguồn gốc từ Trung Quốc và thường được gọi với tên tiếng Việt là lựu đỏ hay trái nhãn núi cao hơn nữa vì hình dạng giống như mắt rắn nhỏ xinh nhưng lại mang hương vị ngọt ngào đặc trưng.
-  fruit.lychee:
-    label: xiêm
-    summary: Loại quả nhỏ hình cầu với vỏ nhám và ruột mọng nước.
-    info: Xiêm chua (Litchi chinensis) là một loại trái cây nhiệt đới có nguồn gốc từ Trung Quốc. Vỏ ngoài thô ráp màu đỏ của nó bong ra để lộ phần thịt trắng trong suốt bên trong.
-  fruit.mango:
-    label: xoài
-    summary: Loại trái cây nhiệt đới có thịt vàng cam giòn và nước.
-    info: Xoài Ấn Độ được gọi là "nữ hoàng của các loại trái cây nhiệt đới". Loài này giàu vitamin A và C, xuất xứ từ Nam Á, nơi mà xoài đã được trồng hơn 4.000 năm.
-  fruit.medlar:
-    label: quả mišpule
-    summary: Loại trái nhỏ màu nâu thuộc họ nhót cần phải đợi cho thật chín mới dùng.
-    info: Quả mišpule (Mespilous germanicus) là một loại cây ăn quả cổ xưa đã được trồng từ thời trung cổ đến nay. Nó có thể ăn sau khi trải qua quá trình 'blitting' - tức để chín mềm dần trong vài tuần sau thu hoạch và rất giàu chất xơ cũng như vitamin C.
-  fruit.melon:
-    label: melon
-    summary: Trái ngọt to màu da cam, xanh lục hoặc trắng.
-    info: '{"hint":"trái cây tròn hoặc bầu dục lớn với thịt cam hay xanh lá mít","info":"Dưa hấu (cucumber melon) là một loại trái nhiệt đới đến cận nhiệt đới có hàm lượng nước cao.\nNó xuất phát từ châu Phi và Á Châu; hiện nay được trồng khắp nơi trên thế giới.\nChứa hơn 90% nước nên rất tốt để bổ sung độ ẩm cho cơ thể.\NCó hàng trăm giống khác nhau như cantaloup, honey dew, galiya, charentaise,..."}'
-  fruit.mulberry:
-    label: dâu
-    summary: Quả màu tím đậm từ cây dâu; nguồn thực phẩm chính cho sâu tăm.
-    info: Dâu tằm là quả mọng của cây dâu thuộc chi Morus; lá dâu được dùng làm thức ăn cho sâu tơ.
-  fruit.nectarine:
-    label: neckarin
-    summary: Quả đào không gai mềm mại ngọt ngào
-    info: '{"hint":"loại đào có quả mịn da","info":"Neckarin là một đột biến tự nhiên của loại táo lê với lớp vỏ nhẵn bóng.\nChúng chỉ khác biệt về đặc điểm di truyền liên quan đến độ trơn láng trên bề mặt trái cây so với các giống đào thông thường. \nVề hương vị thì tương đương nhưng Neckarin lại sở hữu kết cấu chắc hơn nhiều lần vì vậy mà dễ bảo quản và vận chuyển tốt nhất trong số tất cả những loài thuộc họ Prunus này.\"}'
+    summary: Một loại quả nhiệt đới màu vàng với phần thịt ngọt.
+    info: Chuối là quả của một loại cây nhiệt đới thuộc họ chuối. Chuối giàu kali và đường tự nhiên giúp cung cấp năng lượng nhanh.
   fruit.orange:
     label: cam
-    summary: Trái cây họ cam quýt tròn với vỏ ngoài màu cam thơm.
-    info: Cam là một loại trái cây thuộc họ cam quýt có nguồn gốc từ Đông Nam Á và hiện nay được trồng rộng rãi trên toàn thế giới. Cam chứa nhiều vitamin C và thường được dùng để ép nước.
-  fruit.papaya:
-    label: xoài
-    summary: Loại trái cây nhiệt đới với phần ruột đậm đặc màu cam tươi sáng.
-    info: '{"hint":"Quả nhiệt đới màu cam to","info":"Xoài (Carica papaya) có nguồn gốc từ châu Mỹ nhiệt đới\.\nChứa enzyme papain hỗ trợ tiêu hóa protein\.\nGiàu vitamin C, carotene và chất chống oxy hoá\.\nPomelo chưa chín được dùng như rau trong bếp ăn Đông Nam Á (xào salad)","label":"xoài","summary":"Loại quả nhiệt đới với thịt dày màu da cam sặc sỡ."}'
-  fruit.passion_fruit:
-    label: hồng lô hội
-    summary: Quả nhiệt đới có vỏ tím nhăn và nội dung hương vị đặc biệt
-    info: |-
-      Mâm xôi muối (Hồng lô hội Passiflorae) đến từ khu vực nhiệt đới Nam Mỹ
-      Tên gọi của nó bắt nguồn từ các nhà truyền giáo nhìn thấy hình ảnh biểu tượng sự đau khổ của Chúa Giêsu trong hoa
-      của cây chứa đầy hạt được bao quanh bởi chất keo thơm ngào ngạt
-  fruit.peach:
-    label: xoài lông
-    summary: Quả xoài lông đỏ cam - hồng nhẹ với lớp áo len
-    info: |-
-      Xoài lông ((Prunus persica)) có nguồn gốc từ Trung Quốc và là biểu tượng của sự bất tử ở đây
-      Lớp vỏ mềm mịn như nhung đặc trưng cho loại quả này
-      Có các giống màu trắng hoặc vàng; đào không gai thì trơn láng hơn
-  fruit.pear:
-    label: hồ đào
-    summary: Quả hình giọt nước có vị ngọt dịu.
-    info: Hồ đào là quả của cây hồ đào thường, loài thân quen gần gũi với lê. Quả có thịt mềm, nhiều nước và giàu chất xơ; hiện nay tồn tại hàng trăm giống khác nhau.
-  fruit.persimmon:
-    label: tôm el
-    summary: Quả màu cam giống cà chua; vị ngọt.
-    info: |-
-      Tômel (Diospyros kaki) có nguồn gốc từ Trung Quốc và Nhật Bản; ở Cộng hòa Séc được gọi là tômel của Nhật Bản
-      Cây chưa chín thì nhão và khó chịu khi ăn vào miệng còn cây đã trưởng thành lại ngọt như mật ong.
-  fruit.pineapple:
-    label: thái dương
-    summary: Trái nhiệt đới có mũ gai và thịt vàng.
-    info: Thái dương đến từ Nam Mỹ và hiện được trồng ở vùng nhiệt đới trên toàn thế giới. Trái cây này chứa enzyme bromelain giúp hỗ trợ tiêu hóa.
-  fruit.plum:
-    label: quả mâm xôi
-    summary: Quả màu tím đậm dùng để nấu rượu mạnh hoặc mứt.
-    info: Nho khô (prunus domestica) là loại trái cây cơ bản của châu Âu Trung tâm. Rượu mạnh Slivowitz được làm từ nho khô phổ biến ở Cộng hòa Séc và Slovakia. Mứt quả hồng cũng thường xuất hiện vào mùa thu hoạch cuối năm.
-  fruit.pomegranate:
-    label: quả lựu
-    summary: Một loại quả màu đỏ với hàng ngàn hạt ngọt ngào; biểu tượng của sự sinh sản.
-    info: |-
-      Quả lựu (Punica granatum) có nguồn gốc từ châu Á và Địa Trung Hải
-      Nó chứa hơn 600 hạt trong thịt đỏ suốt nhìn thấy được gọi là aril
-      can抗氧化剂丰富；研究表明其对心脏和炎症的影响。
-      它在许多文化中象征着丰饶与多产（希腊、犹太教及伊斯兰）。
-  fruit.quince:
-    label: khế
-    summary: Loại quả màu vàng cứng liên hệ đến apple; luôn phải ăn sau quá trình xử lý nhiệt.
-    info: '{"\"hint\": \"quả vàng cứng có mùi thơm đặc trưng (Cydonia oblonga)\", "info": "Quả khế chua (Cydonia oblonga) là loài họ nhà cam quýt và lê; khi chưa nấu thì rất giòn rau xanh. Luôn được chế biến bằng nhiệt độ cao như làm jam quả khế membrolo, rượu từ khế hoặc brandy từ khế. Nó chứa một lượng lớn chất pectin phù hợp để sản xuất các loại kẹp trái cây. Mứt đầu tiên ghi nhận ở châu Âu vào thế kỷ XVI cũng được làm từ quả khế này."}'
-  fruit.rambutan:
-    label: chôm chôm
-    summary: Một loại trái cây nhiệt đới màu đỏ nhung với thịt giòn và vị ngọt tương tự lychee.
-    info: Chôm chôm (Nephelium lappaceum) có nguồn gốc từ Malaysia; tên gọi bắt nguồn từ tiếng Mã Lai 'rambut' nghĩa là tóc. Vỏ ngoài đỏ của nó được bao phủ bởi những gai mềm nhỏ giống móc. Thịt bên trong nhìn thấy rõ qua vỏ và ngọt ngào như quả lychee.
-  fruit.raspberry:
-    label: mâm xôi
-    summary: Một trái hồng lớn màu đỏ biểu tượng cho sự sống động của khu vườn.
-    info: |-
-      {"hint":"quả mọng đỏ nhỏ được tạo thành từ nhiều hạt mềm","info":"Dâu tây hoang dã là một loại quả ghép gồm rất nhiều hạt mềm nhỏ.
-      Nó có thể phát triển tự nhiên hoặc trồng trong vườn;
-      quái thu hoạch vào mùa hè và đầu thu.
-      Quả giàu vitamin C và K cũng như chất chống oxy hóa."}
-  fruit.starfruit:
-    label: dừa gai
-    summary: Quả màu vàng của cây nhiệt đới tạo thành các đường nét như sao khi thái.
-    info: Cây dứa gai sao hay còn gọi là quả lê vàng nhiệt đới có nguồn gốc từ Nam Á và Đông Nam Á. Khi cắt ngang qua sẽ tạo ra hình dạng ngôi sao hoàn hảo – do đó mà nó được đặt tên là 'quả sao'. Quả này mang vị chua ngọt đặc trưng và giàu vitamin C.
+    summary: Một loại quả có múi tròn với vỏ màu cam thơm.
+    info: Cam là quả có múi có nguồn gốc từ Đông Nam Á, nay được trồng khắp thế giới. Cam giàu vitamin C và được ưa chuộng ở dạng nước ép.
   fruit.strawberry:
-    label: cây mâm xôi
-    summary: Câu hỏi liên quan đến quả có hình dạng tim đỏ.
-    info: Mâm xôi là một loại trái cây phổ biến thuộc họ hoa hồng. Giàu vitamin C và chất chống oxy hóa; được thu hoạch vào mùa hè và có mùi thơm ngọt ngào.
-  fruit.tamarind:
-    label: bế-tông
-    summary: Quả đậu dạng vỏ cứng màu nâu với ruột chua; thành phần cơ bản của nấu ăn Thái Lan.
-    info: '{"hint":"quả bế tông có thịt trái chua","info":"Bế-tông (Tên khoa học là Tamarindus indica) xuất xứ từ châu Phi nhiệt đới và hiện nay được trồng rộng rãi ở các vùng khí hậu nóng khắp thế giới. Thịt quả này rất axit nhưng cũng ngọt nhẹ nhàng – thường dùng trong món ăn Thái như pad thai hay nước sốt Worcestershire cùng mứt Ấn Độ. Từ ''bế-tông'' bắt nguồn từ tiếng Arab cổ đại - "tamr hind" nghĩa đen là ‘mít Indonêsia’. Quả chứa nhiều acid malic tạo vị chua đặc trưng cộng thêm vitamin nhóm B & sắt."}'
-  fruit.tangerine:
-    label: '"mandarin"'
-    summary: '"Quả Cam Tắc nhỏ với lớp vỏ mềm mỏng"'
-    info: |-
-      {"info":"Tangerine (Camellia sinensis var. assamica) là một loại cam nhỏ có vỏ dễ bóc và vị ngọt đến từ Trung Quốc.
-      Nó tượng trưng cho Năm Mới của người Hoa và sự may mắn.
-      Ở Cộng hòa Séc nó thường được dùng làm trái cây Giáng sinh.
-      Chứa vitamin C cùng các chất chống oxy hóa và flavonoit."}
+    label: dâu tây
+    summary: Một loại quả mọng màu đỏ, mọng nước, hình trái tim.
+    info: Dâu tây là loại quả được ưa chuộng thuộc họ hoa hồng. Dâu tây giàu vitamin C và chất chống oxy hóa, được thu hoạch vào mùa hè.
+  fruit.grape:
+    label: nho
+    summary: Một loại quả mọng nhỏ, tròn, mọc thành chùm.
+    info: Cây nho cho quả nho với nhiều màu sắc khác nhau, từ xanh đến tím sẫm. Nho được ăn tươi, phơi khô thành nho khô hoặc ép để làm rượu vang.
   fruit.watermelon:
     label: dưa hấu
-    summary: Một loại trái lớn có vân xanh và thịt đỏ giòn tan.
-    info: Dưa hấu xuất xứ từ châu Phi và là một loại quả mùa hè được yêu thích. Thành phần của nó gồm tới 92% nước và chứa lycopene - chất tạo màu đỏ cho dưa.
+    summary: Một loại quả lớn có sọc xanh với phần thịt đỏ, mọng nước.
+    info: Dưa hấu có nguồn gốc từ châu Phi và là loại quả mùa hè được ưa chuộng. Dưa hấu gồm 92% là nước và chứa lycopene, tạo nên màu đỏ của nó.
+  fruit.mango:
+    label: xoài
+    summary: Một loại quả nhiệt đới với phần thịt màu vàng cam, mọng nước.
+    info: Xoài được gọi là vua của các loại quả nhiệt đới. Giàu vitamin A và C, xoài có nguồn gốc từ Nam Á, nơi nó được trồng suốt 4.000 năm.
+  fruit.cherry:
+    label: anh đào
+    summary: Một loại quả hạch nhỏ, tròn, màu đỏ, mọc thành đôi.
+    info: Anh đào là quả của cây anh đào ngọt, một loại quả mùa hè được ưa chuộng. Anh đào chứa chất chống oxy hóa và melatonin; có giống ngọt và giống chua.
+  fruit.pear:
+    label: lê
+    summary: Một loại quả hình giọt nước với vị ngọt dịu.
+    info: Lê là quả của cây lê, họ hàng gần của táo. Lê có phần thịt mềm, mọng nước và hàm lượng chất xơ cao; có hàng trăm giống.
+  fruit.pineapple:
+    label: dứa
+    summary: Một loại quả nhiệt đới với mào gai và phần thịt màu vàng óng.
+    info: Dứa có nguồn gốc từ Nam Mỹ và nay được trồng ở vùng nhiệt đới khắp thế giới. Dứa chứa enzyme bromelain, giúp tiêu hóa.
+  fruit.lemon:
+    label: chanh vàng
+    summary: Một loại quả có múi màu vàng và chua; nguồn vitamin C và hương thơm.
+    info: |
+      Chanh vàng là quả có múi vị chua có nguồn gốc từ châu Á.
+      Chanh vàng giàu vitamin C và axit citric.
+      Chanh vàng được dùng trong nấu ăn, trong đồ uống, trong mỹ phẩm và trong sản phẩm tẩy rửa.
+      Vỏ chanh vàng chứa tinh dầu với hương chanh đặc trưng.
+  fruit.lime:
+    label: chanh xanh
+    summary: Một loại quả có múi nhỏ, màu xanh và chua; nguyên liệu chính của ẩm thực nhiệt đới.
+    info: |
+      Chanh xanh là quả có múi nhỏ màu xanh với nước cốt chua và vỏ thơm.
+      Chanh xanh không thể thiếu trong ẩm thực Mexico, Thái Lan và Việt Nam.
+      Chanh xanh chứa ít vitamin C hơn chanh vàng, nhưng hương thơm mạnh hơn.
+      Ăn chanh xanh giúp thủy thủ tránh bệnh hoại huyết nhờ vitamin C.
+  fruit.kiwi:
+    label: kiwi
+    summary: Một loại quả màu nâu có lông với phần thịt xanh; giàu vitamin.
+    info: |
+      Kiwi có nguồn gốc từ Trung Quốc, nơi nó được gọi là lý gai Trung Hoa.
+      New Zealand đã thương mại hóa và đổi tên nó theo loài chim quốc gia của mình, chim kiwi.
+      Kiwi chứa lượng vitamin C gấp đôi một quả cam.
+      Phần thịt màu xanh tươi; cũng có giống vàng (ánh kim).
+  fruit.peach:
+    label: đào
+    summary: Một loại quả hạch màu vàng hồng, mượt như nhung; biểu tượng mùa hè.
+    info: |
+      Đào có nguồn gốc từ Trung Quốc, nơi nó là biểu tượng của sự bất tử.
+      Lớp vỏ mềm mượt như nhung của nó là đặc trưng.
+      Có giống trắng và giống vàng; xuân đào là giống trơn, không lông.
+      Ở Trung Quốc, đào là một phần của Tết và của thần thoại chữa lành.
+  fruit.plum:
+    label: mận
+    summary: Một loại quả hạch màu tím; nền tảng của rượu mận và mứt mận.
+    info: |
+      Mận là loại quả nền tảng của Trung Âu.
+      Slivovitz (rượu mận) là một loại rượu mạnh truyền thống của Séc và Slovakia.
+      Mứt mận là sản phẩm tiêu biểu của vụ thu hoạch mùa thu.
+      Trên thế giới có hơn 2.000 giống mận.
+  fruit.apricot:
+    label: mơ
+    summary: Một loại quả hạch nhỏ màu cam; chua ngọt và mọng nước.
+    info: |
+      Mơ có nguồn gốc từ Trung Á.
+      Mơ được trồng khắp châu Âu; ngọt nhất là loại đến từ Thổ Nhĩ Kỳ và Tây Ban Nha.
+      Mơ giàu beta-caroten và vitamin A.
+      Mơ khô là món ăn vặt lành mạnh được ưa chuộng.
+  fruit.raspberry:
+    label: mâm xôi
+    summary: Một loại quả mọng kép màu đỏ; biểu tượng của khu vườn mùa hè.
+    info: |
+      Mâm xôi là quả mọng kép gồm nhiều quả hạch nhỏ.
+      Mâm xôi mọc hoang và được trồng; vụ thu hoạch vào mùa hè và mùa thu.
+      Mâm xôi giàu vitamin C và K, mangan và chất chống oxy hóa.
+      Mứt và giấm mâm xôi là những món ngon truyền thống.
+  fruit.blueberry:
+    label: việt quất
+    summary: Một loại quả mọng màu xanh sẫm; siêu thực phẩm giàu chất chống oxy hóa.
+    info: |
+      Việt quất giàu anthocyanin, các sắc tố có đặc tính chống oxy hóa mạnh.
+      Anthocyanin tạo nên màu xanh sẫm của nó.
+      Các nghiên cứu cho thấy tác động tích cực lên chức năng nhận thức và sức khỏe tim mạch.
+      Việt quất trồng lớn hơn việt quất hoang dã.
+  fruit.blackberry:
+    label: mâm xôi đen
+    summary: Một loại quả mọng kép màu tím sẫm mọc trên bụi gai.
+    info: |
+      Mâm xôi đen là quả mọng kép màu tím sẫm mọc trên một bụi cây có gai.
+      Mâm xôi đen hoang dại mọc ở bìa rừng và trong các bụi rậm.
+      Mâm xôi đen chứa nhiều vitamin C, vitamin K và chất xơ.
+      Mứt, mứt hầm và rượu mùi mâm xôi đen là những sản phẩm truyền thống.
+  fruit.coconut:
+    label: dừa
+    summary: Một loại quả nhiệt đới lớn với vỏ cứng và phần cơm trắng.
+    info: |
+      Dừa là quả của cây dừa; về mặt thực vật học nó là quả hạch, không phải hạt.
+      Nước dừa trong quả non là một loại đồ uống đẳng trương tự nhiên.
+      Nước cốt dừa và dầu dừa là nền tảng của ẩm thực Đông Nam Á và Ấn Độ.
+      Cây dừa được gọi là cây của ngàn công dụng.
+  fruit.papaya:
+    label: đu đủ
+    summary: Một loại quả nhiệt đới lớn với phần thịt màu cam đậm.
+    info: |
+      Đu đủ có nguồn gốc từ vùng nhiệt đới châu Mỹ.
+      Đu đủ chứa enzyme papain, giúp tiêu hóa protein.
+      Đu đủ giàu vitamin C, beta-caroten và chất chống oxy hóa.
+      Đu đủ xanh được dùng làm rau trong ẩm thực Đông Nam Á (trong món nộm som tam).
+  fruit.guava:
+    label: ổi
+    summary: Một loại quả nhiệt đới thơm nồng với phần thịt trắng hoặc hồng.
+    info: |
+      Ổi có nguồn gốc từ vùng nhiệt đới châu Mỹ và đã lan sang châu Á và châu Phi nhiệt đới.
+      Ổi chứa lượng vitamin C nhiều gấp bốn lần một quả cam.
+      Vỏ và hạt đều ăn được; cả quả đều bổ dưỡng.
+      Nước ép và mứt ổi là những sản phẩm phổ biến ở các nước nhiệt đới.
+  fruit.pomegranate:
+    label: lựu
+    summary: Một loại quả màu đỏ với ngàn hạt ngọt; biểu tượng của sự sinh sôi.
+    info: |
+      Lựu có nguồn gốc từ Trung Á và Địa Trung Hải.
+      Lựu chứa hơn 600 hạt được bao bọc bởi phần thịt đỏ trong suốt (áo hạt).
+      Lựu giàu chất chống oxy hóa; các nghiên cứu tìm hiểu tác động của nó lên tim và viêm.
+      Lựu tượng trưng cho sự sinh sôi và sung túc trong nhiều nền văn hóa.
+  fruit.fig:
+    label: sung ngọt
+    summary: Một loại quả hình quả lê của cây sung; ngọt và đầy hạt.
+    info: |
+      Sung ngọt là một trong những loại quả được trồng lâu đời nhất; dấu vết của nó có từ 11.000 năm trước.
+      Thật ra nó không phải là quả, mà là một cái bao chứa hàng ngàn bông hoa nhỏ.
+      Lá sung của Adam và Eva trong câu chuyện Kinh Thánh là lá của cây sung.
+      Sung ngọt khô là nguồn canxi, kali và chất xơ tuyệt vời.
+  fruit.date:
+    label: chà là
+    summary: Một loại quả bầu dục màu nâu ngọt của cây chà là; thực phẩm chính của Trung Đông.
+    info: |
+      Chà là là quả ngọt của cây chà là.
+      Suốt hàng ngàn năm, chà là là thực phẩm chính của Trung Đông.
+      Chà là chứa hơn 60% đường và là nguồn năng lượng nổi bật.
+      Trong đạo Hồi, chà là theo truyền thống được ăn đầu tiên khi xả chay tháng Ramadan (iftar).
+  fruit.melon:
+    label: dưa lê
+    summary: Một loại quả lớn, ngọt với phần thịt màu cam, xanh hoặc trắng.
+    info: |
+      Dưa lê là loại quả nhiệt đới đến cận nhiệt đới với hàm lượng nước cao.
+      Nó có nguồn gốc từ châu Phi và châu Á; nay được trồng khắp thế giới.
+      Nó gồm hơn 90% là nước và rất giải khát.
+      Có hàng trăm giống, trong đó có dưa lưới, dưa mật và galia.
+  fruit.cantaloupe:
+    label: dưa lưới
+    summary: Một loại dưa vỏ lưới với phần thịt màu cam đậm.
+    info: |
+      Dưa lưới là giống dưa được ưa chuộng, có nguồn gốc từ châu Á.
+      Tên gọi bắt nguồn từ dinh thự của Giáo hoàng ở Cantalupo gần Roma.
+      Phần thịt màu cam giàu beta-caroten và vitamin A.
+      Nó là một trong những giống dưa ngọt nhất.
+  fruit.grapefruit:
+    label: bưởi chùm
+    summary: Một loại quả có múi lớn, ngọt-đắng; ngôi sao của các chế độ ăn kiêng.
+    info: |
+      Bưởi chùm là giống lai giữa cam và bưởi.
+      Bưởi chùm được mô tả ở Barbados vào thế kỷ 18.
+      Bưởi chùm hồng và đỏ chứa lycopene và beta-caroten.
+      Nước ép bưởi chùm tương tác với nhiều loại thuốc; bệnh nhân nên báo cho bác sĩ.
+  fruit.tangerine:
+    label: quýt
+    summary: Một loại quả có múi nhỏ, ngọt với vỏ dễ bóc; biểu tượng của Giáng Sinh.
+    info: |
+      Quýt là quả có múi nhỏ, dễ bóc vỏ, có nguồn gốc từ Trung Quốc.
+      Nó là biểu tượng của Tết Nguyên Đán và may mắn.
+      Ở nhiều nước, quýt là loại quả tiêu biểu của Giáng Sinh.
+      Quýt chứa vitamin C, chất chống oxy hóa và flavonoid.
+  fruit.passion_fruit:
+    label: chanh dây
+    summary: Một loại quả nhiệt đới với vỏ nhăn và phần thịt thơm đầy hạt.
+    info: |
+      Chanh dây có nguồn gốc từ vùng nhiệt đới Nam Mỹ.
+      Tên của nó bắt nguồn từ các nhà truyền giáo, những người nhìn thấy biểu tượng cuộc thương khó của Chúa Kitô trên bông hoa.
+      Phần thịt đầy hạt được bao bọc bởi một lớp gel thơm.
+      Chanh dây là nguồn vitamin C, chất xơ và chất chống oxy hóa tuyệt vời.
+  fruit.lychee:
+    label: vải
+    summary: Một loại quả nhiệt đới nhỏ, màu đỏ với phần thịt trong suốt; được ưa chuộng ở châu Á.
+    info: |
+      Vải là loại quả nhiệt đới có nguồn gốc từ Trung Quốc.
+      Lớp vỏ đỏ sần sùi của nó dễ bóc và để lộ phần thịt trắng trong suốt.
+      Vải có vị ngọt và hương thơm tinh tế.
+      Ở Trung Quốc, vải là biểu tượng của may mắn và thịnh vượng.
+  fruit.dragon_fruit:
+    label: thanh long
+    summary: Một loại quả xương rồng nhiệt đới màu hồng với phần thịt trắng lấm tấm.
+    info: |
+      Thanh long (pitaya) có nguồn gốc từ Mexico và Trung Mỹ.
+      Lớp vỏ hồng rực và phần thịt trắng với hạt đen của nó rất bắt mắt.
+      Nó có vị dịu và chứa chất chống oxy hóa cùng vitamin C.
+      Từ thanh long người ta làm nước ép, sinh tố và món tráng miệng trang trí.
+  fruit.starfruit:
+    label: khế
+    summary: Một loại quả nhiệt đới màu vàng tạo hình ngôi sao khi cắt ra.
+    info: |
+      Khế có nguồn gốc từ Nam Á và Đông Nam Á.
+      Cắt ngang, khế tạo thành một ngôi sao hoàn hảo; từ đó có tên tiếng Anh là starfruit.
+      Khế có vị chua ngọt và giàu vitamin C.
+      Người mắc bệnh thận không nên ăn khế vì hàm lượng oxalat.
+  fruit.avocado:
+    label: bơ
+    summary: Một loại quả hạch nhiệt đới béo ngậy; nền tảng của món guacamole.
+    info: |
+      Bơ có nguồn gốc từ Mexico và Trung Mỹ.
+      Về mặt thực vật học nó là quả (quả hạch), nhưng trong ẩm thực được dùng như một loại rau.
+      Bơ chứa chất béo không bão hòa đơn lành mạnh (axit oleic), giống như dầu ô liu.
+      Bơ là món ăn lành mạnh thịnh hành khắp thế giới; bánh mì nướng phết bơ là biểu tượng của văn hóa quán cà phê hiện đại.
+  fruit.persimmon:
+    label: hồng
+    summary: Một loại quả màu cam giống quả cà chua; ngọt và chát.
+    info: |
+      Hồng có nguồn gốc từ Trung Quốc và Nhật Bản; còn được gọi là hồng kaki.
+      Hồng chưa chín giàu tanin và chát; khi chín nó ngọt như mật.
+      Hồng giàu vitamin A và C cùng khoáng chất.
+      Ở Nhật Bản, hồng là loại quả mùa thu truyền thống.
+  fruit.mulberry:
+    label: dâu tằm
+    summary: Một loại quả mọng màu tím sẫm của cây dâu tằm; thức ăn của tằm.
+    info: |
+      Dâu tằm là quả của cây dâu tằm; lá cây dâu tằm là thức ăn của tằm.
+      Có dâu tằm trắng, đỏ và đen; loại đen ngọt nhất.
+      Trong lịch sử, việc trồng dâu tằm có vai trò then chốt đối với sản xuất tơ lụa.
+      Dâu tằm giàu resveratrol, vitamin C và sắt.
+  fruit.cranberry:
+    label: nam việt quất
+    summary: Một loại quả mọng nhỏ, màu đỏ và chua; nguyên liệu truyền thống của Mỹ.
+    info: |
+      Nam việt quất là một loại quả mọng nhỏ, chua, màu đỏ.
+      Nó là một phần truyền thống của Lễ Tạ ơn của Mỹ (sốt nam việt quất).
+      Nó chứa proanthocyanidin, ngăn vi khuẩn Escherichia coli bám vào thành đường tiết niệu.
+      Tác dụng của nam việt quất trong việc phòng ngừa nhiễm trùng đường tiết niệu đã được khoa học chứng minh.
+  fruit.gooseberry:
+    label: lý gai
+    summary: Một loại quả mọng nhỏ, tròn và trong mờ; loại quả yêu thích của khu vườn.
+    info: |
+      Lý gai là loại quả nhỏ đặc trưng của các khu vườn Trung Âu.
+      Có các giống màu xanh, đỏ và vàng.
+      Lý gai giàu vitamin C.
+      Rượu lý gai là một loại đồ uống được ưa chuộng trong lịch sử.
+  fruit.currant:
+    label: lý chua
+    summary: Một loại quả mọng nhỏ màu đỏ, đen hoặc trắng mọc thành chùm.
+    info: |
+      Lý chua là loại quả mọng nhỏ mọc thành chùm.
+      Lý chua đen chứa nhiều vitamin C nhất trong tất cả các loại quả mọng.
+      Lý chua đen là nền tảng hương vị của rượu mùi cassis và đồ uống Ribena của Anh.
+      Lý chua đỏ được dùng trong mứt và để trang trí món tráng miệng.
+  fruit.quince:
+    label: mộc qua
+    summary: Một loại quả cứng màu vàng, họ hàng với táo; luôn được ăn sau khi nấu chín.
+    info: |
+      Mộc qua họ hàng với táo và lê; khi còn sống nó cứng và chát.
+      Mộc qua luôn được chế biến bằng nhiệt thành thạch mộc qua (membrillo), rượu vang hoặc rượu mộc qua.
+      Mộc qua chứa nhiều pectin, thích hợp để làm mứt.
+      Loại mứt lâu đời nhất được ghi nhận ở châu Âu (thế kỷ 16) được làm từ mộc qua.
+  fruit.jackfruit:
+    label: mít
+    summary: Một loại quả nhiệt đới khổng lồ; loại quả lớn nhất thế giới mọc trên cây.
+    info: |
+      Mít cho những quả lớn nhất mọc trên cây; chúng có thể nặng hơn 35 kg.
+      Mít có nguồn gốc từ vùng nhiệt đới châu Á và là thực phẩm chính ở Ấn Độ, Bangladesh và Thái Lan.
+      Mít non có kết cấu trung tính và được dùng làm món thay thịt cho người ăn chay.
+      Những múi vàng chín có vị ngọt và thơm.
+  fruit.durian:
+    label: sầu riêng
+    summary: Một loại quả nhiệt đới lớn, có gai với mùi nồng; vua của các loại quả nhiệt đới.
+    info: |
+      Sầu riêng được gọi là vua của các loại quả nhiệt đới.
+      Mùi nồng của nó khiến một số người khó chịu và hấp dẫn với người khác; ở nhiều khách sạn châu Á, sầu riêng bị cấm.
+      Phần thịt béo ngậy và ngọt, với hương vị phức hợp của hạnh nhân, vani và phô mai.
+      Ở Đông Nam Á, sầu riêng được coi trọng như một thứ xa xỉ tinh tế.
+  fruit.rambutan:
+    label: chôm chôm
+    summary: Một loại quả nhiệt đới màu đỏ, có lông, giống quả vải.
+    info: |
+      Chôm chôm có nguồn gốc từ Malaysia; tên gọi bắt nguồn từ tiếng Mã Lai rambut, nghĩa là tóc.
+      Lớp vỏ đỏ của nó được phủ những gai mềm hình móc.
+      Phần thịt trong suốt và ngọt, giống như quả vải.
+      Chôm chôm giàu vitamin C và sắt.
+  fruit.longan:
+    label: nhãn
+    summary: Một loại quả nhiệt đới nhỏ màu nâu, họ hàng với quả vải.
+    info: |
+      Nhãn là quả của một loại cây nhiệt đới có nguồn gốc từ Trung Quốc.
+      Tên gọi bắt nguồn từ tiếng Hán long yan, nghĩa là mắt rồng, vì phần thịt trong suốt với một hạt đen.
+      Nhãn có vị ngọt và thơm.
+      Trong y học cổ truyền Trung Hoa, nhãn được coi là thực phẩm bồi bổ máu và tim.
+  fruit.tamarind:
+    label: me
+    summary: Một quả đậu màu nâu với phần thịt chua; nền tảng của ẩm thực Thái Lan.
+    info: |
+      Me có nguồn gốc từ vùng nhiệt đới châu Phi; nay được trồng khắp các vùng nhiệt đới.
+      Phần thịt rất chua và ngọt; được dùng trong món pad thai, trong sốt Worcestershire và trong tương ớt Ấn Độ.
+      Từ này bắt nguồn từ tiếng Ả Rập tamr hindi, nghĩa là chà là Ấn Độ.
+      Me giàu axit tartaric, các vitamin nhóm B và sắt.
+  fruit.nectarine:
+    label: xuân đào
+    summary: Một loại đào trơn không lông; mọng nước và ngọt.
+    info: |
+      Xuân đào là một đột biến tự nhiên của quả đào với lớp vỏ trơn.
+      Nó chỉ khác quả đào ở gen quyết định độ trơn của vỏ.
+      Nó có vị tương tự, nhưng kết cấu chắc hơn.
+      Tên gọi bắt nguồn từ mật hoa của các vị thần và chứng tỏ sự hoàn hảo được cho là của nó.
+  fruit.damson:
+    label: mận damson
+    summary: Một loại mận nhỏ, sẫm màu, đặc trưng của những khu vườn thôn quê nước Anh.
+    info: |
+      Mận damson là một giống mận nhỏ có màu xanh-đen sẫm.
+      Tên gọi damson bắt nguồn từ Damascus, nơi loại quả này đến châu Âu.
+      Khi còn sống nó rất chua, nhưng tuyệt vời trong mứt, mứt hầm và rượu gin (damson gin).
+      Trong truyền thống nước Anh, mận damson đã được trồng từ thời cổ đại.
+  fruit.medlar:
+    label: medlar
+    summary: Một loại quả nhỏ màu nâu, họ hàng với táo; phải chín sau khi thu hoạch.
+    info: |
+      Medlar là một loại cây vườn cổ xưa được trồng từ thời Trung Cổ.
+      Medlar chỉ ăn được sau khi mềm đi (ủ chín), tức là sau khi chín tiếp theo sau thu hoạch.
+      Medlar giàu tanin và vitamin C.
+      Shakespeare nhắc đến nó trong Romeo và Juliet; ngày nay nó chủ yếu là một điều lạ đối với người làm vườn.
+  fruit.ackee:
+    label: aki
+    summary: Một loại quả nhiệt đới màu đỏ với áo hạt vàng ăn được; quả quốc gia của Jamaica.
+    info: |
+      Aki là quả quốc gia của Jamaica; nó được đặt tên theo Thuyền trưởng Bligh (1793).
+      Chỉ áo hạt vàng chín mới ăn được; quả xanh hoặc quá chín thì độc (hypoglycin A).
+      Ackee and saltfish là món ăn quốc gia của Jamaica.
+      Aki có nguồn gốc từ Tây Phi và được đưa đến vùng Caribe qua nạn buôn nô lệ.
+  fruit.feijoa:
+    label: feijoa
+    summary: Một loại quả nhỏ, bầu dục, màu xanh với phần thịt thơm.
+    info: |
+      Feijoa có nguồn gốc từ Nam Mỹ.
+      Phần thịt của nó có hương vị thơm nồng của dứa, ổi và bạc hà.
+      Feijoa rất được ưa chuộng ở New Zealand như một loại quả mùa thu.
+      Feijoa ít được biết đến ở châu Âu, nhưng được ưa chuộng ở các nước xuất xứ.
