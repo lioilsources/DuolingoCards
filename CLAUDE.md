@@ -49,6 +49,12 @@ make translate                               # LLM-translate all missing languag
 make translate DECK=animals-sea              # only one deck
 make images DECK=animals-sea STYLE=flux-real # generate images via ComfyUI
 make images DECK=animals-sea STYLE=pony-cartoon
+make watercolor DECK=animals-sea             # img2img restyle of the flux-real base (Pony)
+make oil        DECK=animals-sea
+make anime      DECK=animals-insects         # ControlNet restyle of the flux-real base (Illustrious)
+make storybook  DECK=animals-insects
+make flat       DECK=animals-insects
+make ukiyoe     DECK=animals-insects
 make tune   DECK=animals-sea STYLE=flux-real # iterative generate → VL-validate → refine loop
 make new-deck DECK=animals-sea STYLE=flux-real  # translate + images (flux-real) + build in one shot
 make prompts DECK=animals-sea STYLE=flux-real   # print expanded prompts (no generation)
@@ -81,7 +87,28 @@ decks/<slug>/
 translated to the other 19 target languages (see `internal/langs`). `build`
 folds all languages into per-field maps in `deck.json`; `lint` enforces card
 spine, translation coverage, no orphan keys, and schema. Visual briefs are
-expanded into FLUX and Pony prompts via `internal/prompt` (dual prompting).
+expanded into FLUX, Pony and Illustrious prompts via `internal/prompt` (dual
+prompting).
+
+#### Image styles
+
+Only `flux-real` and `pony-cartoon` generate from text. Everything else is a
+**restyle** of the `flux-real` base image, because the style models know far more
+art styles than they know real-world objects — Illustrious cannot draw an ant,
+FLUX can. So FLUX supplies the subject and the style model supplies the look:
+
+| style | pass | workflow |
+|---|---|---|
+| `flux-real`, `pony-cartoon` | text2img | `flux_dev.json`, `flux_card.json` |
+| `pony-watercolor`, `pony-oil` | img2img | `pony_img2img.json` |
+| `illustrious-anime`, `-storybook`, `-flat`, `-ukiyoe` | img2img + ControlNet | `illustrious_cn_img2img.json` |
+
+The Illustrious pass additionally runs the base image through Canny into
+`ControlNetApplyAdvanced`, which pins the subject's silhouette independently of
+the latent. That structure lock is what lets denoise run at 0.75–0.85, where the
+style actually takes — plain img2img dissolves the subject above ~0.65. Tune the
+balance with `DENOISE=` and `CONTROL_STRENGTH=`; pick models with `ILLU_CKPT=`
+and `CONTROLNET=`.
 
 ## Architecture Overview
 

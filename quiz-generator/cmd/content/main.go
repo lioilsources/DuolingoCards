@@ -3,10 +3,12 @@
 //
 //	content lint    [-decks DIR] [-strict] [-images]   validate decks (DB-constraint replacement)
 //	content build   [-decks DIR] [-out DIR] [-strict]  merge deck.yaml + i18n/*.yaml → deck.json
-//	content prompts [-decks DIR] [-style NAME]          expand visual briefs → FLUX/Pony prompts
+//	content prompts [-decks DIR] [-style NAME]          expand visual briefs → FLUX/Pony/Illustrious prompts
 //	content images  [-decks DIR] [-deck SLUG] [-style NAME] [-url URL] [-workers N] [-force]
 //	                [-tune [-max-iters N] [-score-threshold F] [-llm-url URL]
 //	                       [-validator-model M] [-builder-model M] [-tune-log-json]]
+//	                [-pony-checkpoint NAME] [-illustrious-checkpoint NAME] [-controlnet NAME]
+//	                [-denoise F] [-control-strength F]
 //
 // All commands run entirely offline on local files in Git, except `images`
 // which calls a ComfyUI server (and, with -tune, an OpenAI-compatible LLM server
@@ -87,6 +89,14 @@ func imageFilenamePrefix(deckSlug, cardKey, style string) string {
 		styleAlias = "watercolor"
 	case "pony-oil":
 		styleAlias = "oil"
+	case "illustrious-anime":
+		styleAlias = "anime"
+	case "illustrious-storybook":
+		styleAlias = "storybook"
+	case "illustrious-flat":
+		styleAlias = "flat"
+	case "illustrious-ukiyoe":
+		styleAlias = "ukiyoe"
 	}
 	return fmt.Sprintf("cards-%s-%s-%s", deckSlug, keyPart, styleAlias)
 }
@@ -171,6 +181,13 @@ Commands:
 Common flags:
   -decks DIR   Root folder containing deck-per-folder subfolders (default "decks").
   -strict      Treat missing target-language translations as errors.
+
+Restyle styles (images):
+  pony-watercolor, pony-oil          img2img repaint of the flux-real base through Pony SDXL.
+  illustrious-anime, -storybook,     img2img repaint through Illustrious with a ControlNet
+  -flat, -ukiyoe                     structure lock, so a high denoise keeps the base anatomy.
+  Tune with -denoise / -control-strength; pick models with
+  -pony-checkpoint / -illustrious-checkpoint / -controlnet.
 `)
 }
 
@@ -342,7 +359,10 @@ func runImages(args []string) error {
 	builderModel := fs.String("builder-model", "nemotron", "tuning: instruct model that rewrites prompts")
 	tuneLogJSON := fs.Bool("tune-log-json", false, "tuning: also write a machine-readable JSON transcript per card")
 	ponyCheckpoint := fs.String("pony-checkpoint", "ponyDiffusionV6XL_v6StartWithThisOne.safetensors", "Pony SDXL checkpoint for img2img restyle styles (pony-watercolor, pony-oil)")
+	illustriousCheckpoint := fs.String("illustrious-checkpoint", "Illustrious-XL-v1.0.safetensors", "Illustrious checkpoint for ControlNet restyle styles (illustrious-*)")
+	controlNetModel := fs.String("controlnet", "controlnet-union-sdxl-1.0.safetensors", "SDXL ControlNet model used by the illustrious-* restyle styles")
 	denoiseOverride := fs.Float64("denoise", 0, "img2img restyle: override the style's KSampler denoise (0..1; 0 = style default). Higher repaints more freely; lower keeps more of the base.")
+	controlStrengthOverride := fs.Float64("control-strength", 0, "ControlNet restyle: override the style's ControlNet strength (0 = style default). Higher keeps the base anatomy more strictly.")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -354,11 +374,20 @@ func runImages(args []string) error {
 
 	ponyClient := comfyuiimage.NewClient(*comfyURL, "", "")
 	fluxClient := comfyuiimage.NewClient(*comfyURL, "", "", comfyuiimage.WithFluxDev())
-	// restyleClient runs the Pony SDXL img2img workflow (flux base → paint medium).
-	restyleClient := comfyuiimage.NewClient(*comfyURL, "", "",
-		comfyuiimage.WithWorkflow(comfyuiimage.PonyImg2ImgWorkflow()),
-		comfyuiimage.WithNodeRoles(comfyuiimage.Img2ImgNodeRoles()),
-		comfyuiimage.WithCheckpoint(*ponyCheckpoint))
+	// restyleClients run the img2img restyle passes over a flux base image, one per
+	// style backend: Pony repaints in a paint medium, Illustrious repaints in an art
+	// style with a ControlNet holding the subject's shape.
+	restyleClients := map[prompt.Backend]*comfyuiimage.Client{
+		prompt.BackendPony: comfyuiimage.NewClient(*comfyURL, "", "",
+			comfyuiimage.WithWorkflow(comfyuiimage.PonyImg2ImgWorkflow()),
+			comfyuiimage.WithNodeRoles(comfyuiimage.Img2ImgNodeRoles()),
+			comfyuiimage.WithCheckpoint(*ponyCheckpoint)),
+		prompt.BackendIllustrious: comfyuiimage.NewClient(*comfyURL, "", "",
+			comfyuiimage.WithWorkflow(comfyuiimage.IllustriousControlNetWorkflow()),
+			comfyuiimage.WithNodeRoles(comfyuiimage.IllustriousControlNetNodeRoles()),
+			comfyuiimage.WithCheckpoint(*illustriousCheckpoint),
+			comfyuiimage.WithControlNet(*controlNetModel)),
+	}
 
 	var validator *imagetune.Validator
 	var builder *imagetune.Builder
@@ -376,10 +405,13 @@ func runImages(args []string) error {
 		positive string
 		negative string
 		seed     int64 // from a tuned sidecar override; 0 = random
-		// img2img restyle (e.g. pony-watercolor / pony-oil): repaint basePath.
+		// img2img restyle (e.g. pony-watercolor / illustrious-anime): repaint basePath.
 		img2img  bool
 		basePath string  // base image to restyle (images/<baseStyle>/<image>)
 		denoise  float64 // KSampler denoise for the restyle pass
+		// ControlNet structure lock (illustrious-* styles); 0 = graph default.
+		controlStrength float64
+		controlEnd      float64
 	}
 
 	var jobs []job
@@ -437,6 +469,13 @@ func runImages(args []string) error {
 				if *denoiseOverride > 0 {
 					j.denoise = *denoiseOverride
 				}
+				if st.ControlNet {
+					j.controlStrength = st.ControlStrength
+					j.controlEnd = st.ControlEnd
+					if *controlStrengthOverride > 0 {
+						j.controlStrength = *controlStrengthOverride
+					}
+				}
 			}
 			if entry, ok := tuned[c.Key]; ok {
 				j.positive = entry.Positive
@@ -470,9 +509,17 @@ func runImages(args []string) error {
 			for j := range work {
 				label := fmt.Sprintf("%s/%s", j.deck.Meta.Slug, j.card.Key)
 
-				// img2img restyle pass (pony-watercolor / pony-oil): repaint the
-				// base image through Pony SDXL instead of text-to-image.
+				// img2img restyle pass (pony-* / illustrious-*): repaint the base
+				// image through an SDXL model instead of text-to-image.
 				if j.img2img {
+					restyleClient, ok := restyleClients[j.backend]
+					if !ok {
+						mu.Lock()
+						failed++
+						fmt.Printf("  FAIL %s: no restyle client for backend %q\n", label, j.backend)
+						mu.Unlock()
+						continue
+					}
 					baseBytes, rerr := os.ReadFile(j.basePath)
 					if rerr != nil {
 						mu.Lock()
@@ -486,13 +533,15 @@ func runImages(args []string) error {
 						keyPart = keyPart[i+1:]
 					}
 					out, gerr := restyleClient.GenerateImg2Img(context.Background(), comfyuiimage.Img2ImgRequest{
-						BaseImage:      baseBytes,
-						BaseFilename:   fmt.Sprintf("restyle-%s-%s.png", j.deck.Meta.Slug, keyPart),
-						Prompt:         j.positive,
-						NegativePrompt: j.negative,
-						FilenamePrefix: imageFilenamePrefix(j.deck.Meta.Slug, j.card.Key, j.style),
-						Denoise:        j.denoise,
-						Seed:           j.seed,
+						BaseImage:       baseBytes,
+						BaseFilename:    fmt.Sprintf("restyle-%s-%s.png", j.deck.Meta.Slug, keyPart),
+						Prompt:          j.positive,
+						NegativePrompt:  j.negative,
+						FilenamePrefix:  imageFilenamePrefix(j.deck.Meta.Slug, j.card.Key, j.style),
+						Denoise:         j.denoise,
+						Seed:            j.seed,
+						ControlStrength: j.controlStrength,
+						ControlEnd:      j.controlEnd,
 					})
 					mu.Lock()
 					if gerr != nil {
@@ -503,7 +552,11 @@ func runImages(args []string) error {
 						fmt.Printf("  FAIL %s: write: %v\n", label, werr)
 					} else {
 						generated++
-						fmt.Printf("  OK   %s → %s (img2img, denoise %.2f)\n", label, j.outPath, j.denoise)
+						if j.controlStrength > 0 {
+							fmt.Printf("  OK   %s → %s (img2img, denoise %.2f, controlnet %.2f)\n", label, j.outPath, j.denoise, j.controlStrength)
+						} else {
+							fmt.Printf("  OK   %s → %s (img2img, denoise %.2f)\n", label, j.outPath, j.denoise)
+						}
 					}
 					mu.Unlock()
 					continue
