@@ -76,8 +76,8 @@ class CardStyle {
     ),
     CardStyle(
       id: 'illustrious-ink',
-      label: 'Tušová malba',
-      description: 'Sumi-e, černá tuš a prázdný papír',
+      label: 'Štětec a tuš',
+      description: 'Tahy štětcem, prázdný papír, barevný akcent',
       icon: Icons.water_outlined,
     ),
     CardStyle(

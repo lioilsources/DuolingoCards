@@ -119,6 +119,18 @@ out looking like graded versions of the base. The medium and artist presets
 and run denoise 0.88-0.92: structure is locked while the composition forms, then
 the model is free to lay down its own brushwork.
 
+**`avoid` is not a negative prompt for FLUX.** Distilled FLUX ignores negatives,
+so `expandFlux` folds `avoid` into the positive sentence ("Clean composition
+without text, blood."). Diffusion does not do negation, so naming an unwanted
+*composition* there tends to summon it — `numbers-1-10` asked to avoid "hearts
+in a ring" and got a ring. Keep `avoid` to things that are simply absent or
+present (text, watermarks, other subjects), never to arrangements.
+
+**Exact object counts are not achievable.** FLUX cannot count reliably above
+about four, and no phrasing fixes it; explicit grids were tried on
+`numbers-1-10` and ignored. A card whose meaning depends on a count needs the
+`-tune` loop (generate → vision-validate → retry), not a better brief.
+
 **Deck-level `brief_attrs` never reach a restyle.** They are scaffolding for the
 text-to-image base ("macro photography", "(photorealistic texture:1.1)", "soft
 studio lighting"), and carrying them into a repaint fights the style outright —

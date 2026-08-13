@@ -1,4 +1,13 @@
-# numbers-1-10 — numerals 1 through 10 illustrated with objects.
+# numbers-1-10 — numerals illustrated with objects. Despite the slug the deck
+# runs 1..50; the titles say so.
+#
+# The numeral is the teaching signal and renders correctly on every card. The
+# accompanying object count does NOT: FLUX cannot count reliably above ~4, and
+# no prompt phrasing fixes it — explicit grids ("a row of four above a row of
+# three") were tried and ignored. Cards 5, 6, 7, 8 and 10 show the wrong number
+# of objects; 1-4 and 9 happen to be right. Fixing this needs a generate →
+# count → retry loop (content images -tune with a vision validator), not better
+# wording.
 slug: numbers-1-10
 version: 1
 tier: 0
@@ -49,37 +58,37 @@ cards:
     hint: the numeral 5, cardinal number five
     image: num.five.png
     brief:
-      subject: five dots arranged like dice on a plain background
-      attrs: [five round dots, large numeral 5, bold, cute cartoon style]
+      subject: a 3x2 grid of round dots with the last cell empty, like the five face of a die
+      attrs: [five round dots, dice five pattern, large numeral 5, bold, cute cartoon style]
       setting: [white background, centered, clean]
-      avoid: [text labels, four or six dots]
+      avoid: [text labels, other objects]
 
   - key: num.six
     hint: the numeral 6, cardinal number six
     image: num.six.png
     brief:
-      subject: six balloons on a plain background
-      attrs: [six colourful round balloons, large numeral 6, bold, cute cartoon style]
+      subject: a 3x2 grid of six colourful balloons, three above three
+      attrs: [six round balloons, two rows of three, large numeral 6, bold, cute cartoon style]
       setting: [white background, centered, clean]
-      avoid: [text labels, five or seven balloons]
+      avoid: [text labels, other objects]
 
   - key: num.seven
     hint: the numeral 7, cardinal number seven
     image: num.seven.png
     brief:
-      subject: seven hearts on a plain background
-      attrs: [seven red hearts, large numeral 7, bold, cute cartoon style]
+      subject: seven red hearts, a row of four above a row of three
+      attrs: [seven hearts, four over three, large numeral 7, bold, cute cartoon style]
       setting: [white background, centered, clean]
-      avoid: [text labels, six or eight hearts]
+      avoid: [text labels, other objects]
 
   - key: num.eight
     hint: the numeral 8, cardinal number eight
     image: num.eight.png
     brief:
-      subject: eight flowers on a plain background
-      attrs: [eight simple cartoon flowers, large numeral 8, bold, cute cartoon style]
+      subject: a 4x2 grid of eight simple flowers, four above four
+      attrs: [eight flowers, two rows of four, large numeral 8, bold, cute cartoon style]
       setting: [white background, centered, clean]
-      avoid: [text labels, seven or nine flowers]
+      avoid: [text labels, other objects]
 
   - key: num.nine
     hint: the numeral 9, cardinal number nine
@@ -94,10 +103,10 @@ cards:
     hint: the numeral 10, cardinal number ten
     image: num.ten.png
     brief:
-      subject: ten stars in two rows on a plain background
-      attrs: [ten yellow stars, two rows of five, large numeral 10, bold, cute cartoon style]
+      subject: a 5x2 grid of ten yellow stars, five above five
+      attrs: [ten stars, two rows of five, large numeral 10, bold, cute cartoon style]
       setting: [white background, centered, clean]
-      avoid: [text labels, nine or eleven stars]
+      avoid: [text labels, other objects]
 
   - key: num.eleven
     hint: the numeral 11, cardinal number eleven

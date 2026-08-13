@@ -203,16 +203,24 @@ var (
 	// high enough (0.86-0.92) for the medium to actually assert itself. The
 	// silhouette still comes from the base; the paint no longer does.
 
+	// Not sumi-e, despite the name: this preset cannot go monochrome, because the
+	// card's own brief names the subject's colours ("orange and black patterned
+	// wings", "red apple") and no negative outweighs an explicit positive. Raising
+	// denoise to 0.97 was tried and made it worse — the latent is nearly pure noise
+	// there, the colour still arrived from the prompt, and "rice paper" started
+	// being drawn as literal bowls of rice. So the preset is what it reliably is:
+	// brush-and-ink graphics that keep the subject's colour, sliding into near
+	// monochrome on its own whenever the subject has a limited palette.
 	StyleIllustriousInk = Style{
 		Name:    "illustrious-ink",
 		Backend: BackendIllustrious,
-		PositiveSuffix: "(sumi-e ink wash painting:1.5), (black ink on rice paper:1.3), " +
-			"(monochrome:1.2), expressive loose brushstrokes, wet ink bleeding into fibres, " +
-			"dry brush texture, large areas of empty paper, minimal restrained composition, " +
+		PositiveSuffix: "(ink brush painting:1.5), (sumi-e brushwork:1.3), " +
+			"(black ink outlines:1.2), expressive loose brushstrokes, wet ink bleeding into fibres, " +
+			"dry brush texture, large areas of empty washi paper, minimal restrained composition, " +
 			"single accent of vermilion seal",
 		ExtraNegative: "(photorealistic:1.4), (photograph:1.3), 3d render, hdr, realistic texture, " +
-			"(colorful:1.2), saturated colors, digital vector, flat solid fill, smooth gradient, " +
-			"busy background, hard mechanical outlines",
+			"digital vector, flat solid fill, smooth gradient, " +
+			"busy background, hard mechanical outlines, (rice:1.2), bowl of rice, food",
 		Img2Img:         true,
 		BaseStyle:       "flux-real",
 		Denoise:         0.90,
