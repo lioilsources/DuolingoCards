@@ -5,6 +5,16 @@
     "pony-cartoon",
     "flux-real"
   ],
+  "styleAvailability": {
+    "flux-real": {
+      "bundled": true,
+      "cdn": false
+    },
+    "pony-cartoon": {
+      "bundled": false,
+      "cdn": false
+    }
+  },
   "defaultStyle": "flux-real",
   "titles": {
     "ar": "العواطف",
@@ -28,7 +38,7 @@
   "cards": [
     {
       "key": "emotion.happy",
-      "image": "emotion.happy.png",
+      "image": "emotion.happy.webp",
       "label": {
         "ar": "سعيد",
         "cs": "šťastný",
@@ -89,7 +99,7 @@
     },
     {
       "key": "emotion.sad",
-      "image": "emotion.sad.png",
+      "image": "emotion.sad.webp",
       "label": {
         "ar": "حزين",
         "cs": "smutný",
@@ -150,7 +160,7 @@
     },
     {
       "key": "emotion.angry",
-      "image": "emotion.angry.png",
+      "image": "emotion.angry.webp",
       "label": {
         "ar": "غاضب",
         "cs": "naštvaný",
@@ -211,7 +221,7 @@
     },
     {
       "key": "emotion.surprised",
-      "image": "emotion.surprised.png",
+      "image": "emotion.surprised.webp",
       "label": {
         "ar": "مُذهَل",
         "cs": "překvapený",
@@ -272,7 +282,7 @@
     },
     {
       "key": "emotion.scared",
-      "image": "emotion.scared.png",
+      "image": "emotion.scared.webp",
       "label": {
         "ar": "مُرْعَب",
         "cs": "vystrašený",
@@ -333,7 +343,7 @@
     },
     {
       "key": "emotion.tired",
-      "image": "emotion.tired.png",
+      "image": "emotion.tired.webp",
       "label": {
         "ar": "متعب",
         "cs": "unavený",
@@ -394,7 +404,7 @@
     },
     {
       "key": "emotion.excited",
-      "image": "emotion.excited.png",
+      "image": "emotion.excited.webp",
       "label": {
         "ar": "متحمس",
         "cs": "nadšený",
@@ -455,7 +465,7 @@
     },
     {
       "key": "emotion.calm",
-      "image": "emotion.calm.png",
+      "image": "emotion.calm.webp",
       "label": {
         "ar": "هادئ",
         "cs": "klidný",
@@ -516,7 +526,7 @@
     },
     {
       "key": "emotion.bored",
-      "image": "emotion.bored.png",
+      "image": "emotion.bored.webp",
       "label": {
         "ar": "الملل",
         "cs": "nuda",
@@ -577,7 +587,7 @@
     },
     {
       "key": "emotion.confused",
-      "image": "emotion.confused.png",
+      "image": "emotion.confused.webp",
       "label": {
         "ar": "الحيرة",
         "cs": "zmatenost",
@@ -638,7 +648,7 @@
     },
     {
       "key": "emotion.disgusted",
-      "image": "emotion.disgusted.png",
+      "image": "emotion.disgusted.webp",
       "label": {
         "ar": "إحباط",
         "cs": "znechucení",
@@ -699,7 +709,7 @@
     },
     {
       "key": "emotion.embarrassed",
-      "image": "emotion.embarrassed.png",
+      "image": "emotion.embarrassed.webp",
       "label": {
         "ar": "الحَرْج",
         "cs": "zahanbení",
@@ -760,7 +770,7 @@
     },
     {
       "key": "emotion.proud",
-      "image": "emotion.proud.png",
+      "image": "emotion.proud.webp",
       "label": {
         "ar": "اعتزاز",
         "cs": "hrdost",
@@ -821,7 +831,7 @@
     },
     {
       "key": "emotion.jealous",
-      "image": "emotion.jealous.png",
+      "image": "emotion.jealous.webp",
       "label": {
         "ar": "الغيْرة",
         "cs": "závist",
@@ -882,7 +892,7 @@
     },
     {
       "key": "emotion.lonely",
-      "image": "emotion.lonely.png",
+      "image": "emotion.lonely.webp",
       "label": {
         "ar": " الوحدة",
         "cs": "osamělost",
@@ -943,7 +953,7 @@
     },
     {
       "key": "emotion.grateful",
-      "image": "emotion.grateful.png",
+      "image": "emotion.grateful.webp",
       "label": {
         "ar": "الإحساس بالإمتين",
         "cs": "vděčnost",
@@ -1004,7 +1014,7 @@
     },
     {
       "key": "emotion.hopeful",
-      "image": "emotion.hopeful.png",
+      "image": "emotion.hopeful.webp",
       "label": {
         "ar": "التطلُّع للخير",
         "cs": "naděje",
@@ -1065,7 +1075,7 @@
     },
     {
       "key": "emotion.worried",
-      "image": "emotion.worried.png",
+      "image": "emotion.worried.webp",
       "label": {
         "ar": "\"/starost\"",
         "cs": "starost",
@@ -1126,7 +1136,7 @@
     },
     {
       "key": "emotion.frustrated",
-      "image": "emotion.frustrated.png",
+      "image": "emotion.frustrated.webp",
       "label": {
         "ar": "إحباط",
         "cs": "frustrace",
@@ -1187,7 +1197,7 @@
     },
     {
       "key": "emotion.relieved",
-      "image": "emotion.relieved.png",
+      "image": "emotion.relieved.webp",
       "label": {
         "ar": "استرخاء / راحة",
         "cs": "úleva",
@@ -1248,7 +1258,7 @@
     },
     {
       "key": "emotion.amused",
-      "image": "emotion.amused.png",
+      "image": "emotion.amused.webp",
       "label": {
         "ar": "ضحك",
         "cs": "pobavení",
@@ -1309,7 +1319,7 @@
     },
     {
       "key": "emotion.nostalgic",
-      "image": "emotion.nostalgic.png",
+      "image": "emotion.nostalgic.webp",
       "label": {
         "ar": "الحنين",
         "cs": "nostalgie",
@@ -1370,7 +1380,7 @@
     },
     {
       "key": "emotion.curious",
-      "image": "emotion.curious.png",
+      "image": "emotion.curious.webp",
       "label": {
         "ar": "فضول",
         "cs": "zvědavost",
@@ -1431,7 +1441,7 @@
     },
     {
       "key": "emotion.confident",
-      "image": "emotion.confident.png",
+      "image": "emotion.confident.webp",
       "label": {
         "ar": "الثقة بنفسك",
         "cs": "sebevědomí",
@@ -1492,7 +1502,7 @@
     },
     {
       "key": "emotion.anxious",
-      "image": "emotion.anxious.png",
+      "image": "emotion.anxious.webp",
       "label": {
         "ar": "anxiety",
         "cs": "úzkost",
@@ -1553,7 +1563,7 @@
     },
     {
       "key": "emotion.cheerful",
-      "image": "emotion.cheerful.png",
+      "image": "emotion.cheerful.webp",
       "label": {
         "ar": "فرحة",
         "cs": "radostnost",
@@ -1614,7 +1624,7 @@
     },
     {
       "key": "emotion.melancholy",
-      "image": "emotion.melancholy.png",
+      "image": "emotion.melancholy.webp",
       "label": {
         "ar": "ميلانكولي",
         "cs": "melancholie",
@@ -1675,7 +1685,7 @@
     },
     {
       "key": "emotion.disappointed",
-      "image": "emotion.disappointed.png",
+      "image": "emotion.disappointed.webp",
       "label": {
         "ar": "إحباط",
         "cs": "zklamání",
@@ -1736,7 +1746,7 @@
     },
     {
       "key": "emotion.content",
-      "image": "emotion.content.png",
+      "image": "emotion.content.webp",
       "label": {
         "ar": "الرضى",
         "cs": "spokojenost",
@@ -1797,7 +1807,7 @@
     },
     {
       "key": "emotion.nervous",
-      "image": "emotion.nervous.png",
+      "image": "emotion.nervous.webp",
       "label": {
         "ar": "التعبير عن التوت",
         "cs": "nervozita",
@@ -1858,7 +1868,7 @@
     },
     {
       "key": "emotion.loving",
-      "image": "emotion.loving.png",
+      "image": "emotion.loving.webp",
       "label": {
         "ar": "Love",
         "cs": "láska",
@@ -1919,7 +1929,7 @@
     },
     {
       "key": "emotion.shocked",
-      "image": "emotion.shocked.png",
+      "image": "emotion.shocked.webp",
       "label": {
         "ar": "صدمة",
         "cs": "šok",
@@ -1980,7 +1990,7 @@
     },
     {
       "key": "emotion.determined",
-      "image": "emotion.determined.png",
+      "image": "emotion.determined.webp",
       "label": {
         "ar": "تصميم",
         "cs": "odhodlání",
@@ -2041,7 +2051,7 @@
     },
     {
       "key": "emotion.shy",
-      "image": "emotion.shy.png",
+      "image": "emotion.shy.webp",
       "label": {
         "ar": "الخجول",
         "cs": "stydlivost",
@@ -2102,7 +2112,7 @@
     },
     {
       "key": "emotion.guilty",
-      "image": "emotion.guilty.png",
+      "image": "emotion.guilty.webp",
       "label": {
         "ar": "ذَنْب",
         "cs": "vina",
@@ -2163,7 +2173,7 @@
     },
     {
       "key": "emotion.overwhelmed",
-      "image": "emotion.overwhelmed.png",
+      "image": "emotion.overwhelmed.webp",
       "label": {
         "ar": "الإرهاق",
         "cs": "zahlcení",
@@ -2224,7 +2234,7 @@
     },
     {
       "key": "emotion.peaceful",
-      "image": "emotion.peaceful.png",
+      "image": "emotion.peaceful.webp",
       "label": {
         "ar": "هدوء",
         "cs": "klid",
@@ -2285,7 +2295,7 @@
     },
     {
       "key": "emotion.playful",
-      "image": "emotion.playful.png",
+      "image": "emotion.playful.webp",
       "label": {
         "ar": "اللّعب",
         "cs": "hravost",
@@ -2346,7 +2356,7 @@
     },
     {
       "key": "emotion.serious",
-      "image": "emotion.serious.png",
+      "image": "emotion.serious.webp",
       "label": {
         "ar": "جدية",
         "cs": "vážnost",
@@ -2407,7 +2417,7 @@
     },
     {
       "key": "emotion.upset",
-      "image": "emotion.upset.png",
+      "image": "emotion.upset.webp",
       "label": {
         "ar": "إحباط",
         "cs": "rozrušení",
@@ -2468,7 +2478,7 @@
     },
     {
       "key": "emotion.amazed",
-      "image": "emotion.amazed.png",
+      "image": "emotion.amazed.webp",
       "label": {
         "ar": "إعجاب",
         "cs": "úžas",
@@ -2529,7 +2539,7 @@
     },
     {
       "key": "emotion.annoyed",
-      "image": "emotion.annoyed.png",
+      "image": "emotion.annoyed.webp",
       "label": {
         "ar": "إحباط",
         "cs": "podrážděnost",
@@ -2590,7 +2600,7 @@
     },
     {
       "key": "emotion.delighted",
-      "image": "emotion.delighted.png",
+      "image": "emotion.delighted.webp",
       "label": {
         "ar": "فرحة شديدة",
         "cs": "nadšená radost",
@@ -2651,7 +2661,7 @@
     },
     {
       "key": "emotion.hopeless",
-      "image": "emotion.hopeless.png",
+      "image": "emotion.hopeless.webp",
       "label": {
         "ar": "الياس",
         "cs": "beznaděj",
@@ -2712,7 +2722,7 @@
     },
     {
       "key": "emotion.inspired",
-      "image": "emotion.inspired.png",
+      "image": "emotion.inspired.webp",
       "label": {
         "ar": "إلهام",
         "cs": "inspirace",
@@ -2773,7 +2783,7 @@
     },
     {
       "key": "emotion.irritated",
-      "image": "emotion.irritated.png",
+      "image": "emotion.irritated.webp",
       "label": {
         "ar": "اضطراب عصبي",
         "cs": "podrážděnost silnější",
@@ -2834,7 +2844,7 @@
     },
     {
       "key": "emotion.joyful",
-      "image": "emotion.joyful.png",
+      "image": "emotion.joyful.webp",
       "label": {
         "ar": "فرحة",
         "cs": "radost",
@@ -2895,7 +2905,7 @@
     },
     {
       "key": "emotion.miserable",
-      "image": "emotion.miserable.png",
+      "image": "emotion.miserable.webp",
       "label": {
         "ar": "عَذْبٌ مُوجِّعٍ",
         "cs": "trápení",
@@ -2956,7 +2966,7 @@
     },
     {
       "key": "emotion.optimistic",
-      "image": "emotion.optimistic.png",
+      "image": "emotion.optimistic.webp",
       "label": {
         "ar": "تفاؤلي",
         "cs": "optimismus",
@@ -3017,7 +3027,7 @@
     },
     {
       "key": "emotion.pessimistic",
-      "image": "emotion.pessimistic.png",
+      "image": "emotion.pessimistic.webp",
       "label": {
         "ar": "Pessimism",
         "cs": "pesimismus",

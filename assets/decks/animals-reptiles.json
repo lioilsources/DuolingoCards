@@ -6,6 +6,16 @@
     "pony-cartoon",
     "flux-real"
   ],
+  "styleAvailability": {
+    "flux-real": {
+      "bundled": true,
+      "cdn": false
+    },
+    "pony-cartoon": {
+      "bundled": false,
+      "cdn": false
+    }
+  },
   "defaultStyle": "flux-real",
   "titles": {
     "ar": "اللافقاريات والحيوانات Amphibians",
@@ -29,7 +39,7 @@
   "cards": [
     {
       "key": "reptile.snake",
-      "image": "reptile.snake.png",
+      "image": "reptile.snake.webp",
       "label": {
         "ar": "ثعبان",
         "cs": "had",
@@ -90,7 +100,7 @@
     },
     {
       "key": "reptile.lizard",
-      "image": "reptile.lizard.png",
+      "image": "reptile.lizard.webp",
       "label": {
         "ar": "الثعبان",
         "cs": "ještěr",
@@ -151,7 +161,7 @@
     },
     {
       "key": "reptile.crocodile",
-      "image": "reptile.crocodile.png",
+      "image": "reptile.crocodile.webp",
       "label": {
         "ar": "كروكوديل",
         "cs": "krokodýl",
@@ -212,7 +222,7 @@
     },
     {
       "key": "reptile.gecko",
-      "image": "reptile.gecko.png",
+      "image": "reptile.gecko.webp",
       "label": {
         "ar": "جيكو",
         "cs": "gekon",
@@ -273,7 +283,7 @@
     },
     {
       "key": "reptile.chameleon",
-      "image": "reptile.chameleon.png",
+      "image": "reptile.chameleon.webp",
       "label": {
         "ar": "خنفساء الألوان",
         "cs": "chameleon",
@@ -334,7 +344,7 @@
     },
     {
       "key": "reptile.tortoise",
-      "image": "reptile.tortoise.png",
+      "image": "reptile.tortoise.webp",
       "label": {
         "ar": "السمكة البرية",
         "cs": "suchozemská želva",
@@ -395,7 +405,7 @@
     },
     {
       "key": "reptile.frog",
-      "image": "reptile.frog.png",
+      "image": "reptile.frog.webp",
       "label": {
         "ar": "ضفدع",
         "cs": "žába",
@@ -456,7 +466,7 @@
     },
     {
       "key": "reptile.salamander",
-      "image": "reptile.salamander.png",
+      "image": "reptile.salamander.webp",
       "label": {
         "ar": "مُلوك",
         "cs": "mlok",
@@ -517,7 +527,7 @@
     },
     {
       "key": "reptile.alligator",
-      "image": "reptile.alligator.png",
+      "image": "reptile.alligator.webp",
       "label": {
         "ar": "إلليلجاطور",
         "cs": "aligátor",
@@ -578,7 +588,7 @@
     },
     {
       "key": "reptile.python",
-      "image": "reptile.python.png",
+      "image": "reptile.python.webp",
       "label": {
         "ar": "كرطة",
         "cs": "krajta",
@@ -639,7 +649,7 @@
     },
     {
       "key": "reptile.cobra",
-      "image": "reptile.cobra.png",
+      "image": "reptile.cobra.webp",
       "label": {
         "ar": "كобра",
         "cs": "kobra",
@@ -700,7 +710,7 @@
     },
     {
       "key": "reptile.boa_constrictor",
-      "image": "reptile.boa_constrictor.png",
+      "image": "reptile.boa_constrictor.webp",
       "label": {
         "ar": "ثعلب البواء",
         "cs": "hroznýš královský",
@@ -761,7 +771,7 @@
     },
     {
       "key": "reptile.monitor_lizard",
-      "image": "reptile.monitor_lizard.png",
+      "image": "reptile.monitor_lizard.webp",
       "label": {
         "ar": "واران",
         "cs": "varan",
@@ -822,7 +832,7 @@
     },
     {
       "key": "reptile.iguana",
-      "image": "reptile.iguana.png",
+      "image": "reptile.iguana.webp",
       "label": {
         "ar": "{\"label\": \"إكوانا خضراء\"}",
         "cs": "leguán zelený",
@@ -883,7 +893,7 @@
     },
     {
       "key": "reptile.tuatara",
-      "image": "reptile.tuatara.png",
+      "image": "reptile.tuatara.webp",
       "label": {
         "ar": "توتايرا",
         "cs": "tuatara",
@@ -944,7 +954,7 @@
     },
     {
       "key": "reptile.skink",
-      "image": "reptile.skink.png",
+      "image": "reptile.skink.webp",
       "label": {
         "ar": "سكوينك",
         "cs": "skink",
@@ -1005,7 +1015,7 @@
     },
     {
       "key": "reptile.anole",
-      "image": "reptile.anole.png",
+      "image": "reptile.anole.webp",
       "label": {
         "ar": "أناولي",
         "cs": "anolis",
@@ -1066,7 +1076,7 @@
     },
     {
       "key": "reptile.komodo_dragon",
-      "image": "reptile.komodo_dragon.png",
+      "image": "reptile.komodo_dragon.webp",
       "label": {
         "ar": "تَنِينٌ كُمُودَا",
         "cs": "komodský drak",
@@ -1127,7 +1137,7 @@
     },
     {
       "key": "reptile.caiman",
-      "image": "reptile.caiman.png",
+      "image": "reptile.caiman.webp",
       "label": {
         "ar": "كايمن",
         "cs": "kajman",
@@ -1188,7 +1198,7 @@
     },
     {
       "key": "reptile.gharial",
-      "image": "reptile.gharial.png",
+      "image": "reptile.gharial.webp",
       "label": {
         "ar": "غوافيال",
         "cs": "gaviál",
@@ -1249,7 +1259,7 @@
     },
     {
       "key": "reptile.horned_lizard",
-      "image": "reptile.horned_lizard.png",
+      "image": "reptile.horned_lizard.webp",
       "label": {
         "ar": "Thorny Devil",
         "cs": "ještěrka rohatá",
@@ -1310,7 +1320,7 @@
     },
     {
       "key": "reptile.gila_monster",
-      "image": "reptile.gila_monster.png",
+      "image": "reptile.gila_monster.webp",
       "label": {
         "ar": "حيدورم",
         "cs": "heloderm",
@@ -1371,7 +1381,7 @@
     },
     {
       "key": "reptile.rattlesnake",
-      "image": "reptile.rattlesnake.png",
+      "image": "reptile.rattlesnake.webp",
       "label": {
         "ar": "خراصة",
         "cs": "chřestýš",
@@ -1432,7 +1442,7 @@
     },
     {
       "key": "reptile.viper",
-      "image": "reptile.viper.png",
+      "image": "reptile.viper.webp",
       "label": {
         "ar": "أفعى",
         "cs": "zmije",
@@ -1493,7 +1503,7 @@
     },
     {
       "key": "reptile.tree_frog",
-      "image": "reptile.tree_frog.png",
+      "image": "reptile.tree_frog.webp",
       "label": {
         "ar": "ضفدع شجرية",
         "cs": "rosnička",
@@ -1554,7 +1564,7 @@
     },
     {
       "key": "reptile.poison_dart_frog",
-      "image": "reptile.poison_dart_frog.png",
+      "image": "reptile.poison_dart_frog.webp",
       "label": {
         "ar": "ضفدعة البراسلينيكا",
         "cs": "pralesnička",
@@ -1615,7 +1625,7 @@
     },
     {
       "key": "reptile.axolotl",
-      "image": "reptile.axolotl.png",
+      "image": "reptile.axolotl.webp",
       "label": {
         "ar": "أكسولاتيل",
         "cs": "axolotl",
@@ -1676,7 +1686,7 @@
     },
     {
       "key": "reptile.newt",
-      "image": "reptile.newt.png",
+      "image": "reptile.newt.webp",
       "label": {
         "ar": "خنزير",
         "cs": "čolek",
@@ -1737,7 +1747,7 @@
     },
     {
       "key": "reptile.toad",
-      "image": "reptile.toad.png",
+      "image": "reptile.toad.webp",
       "label": {
         "ar": "الحصان",
         "cs": "ropucha",
@@ -1798,7 +1808,7 @@
     },
     {
       "key": "reptile.sea_snake",
-      "image": "reptile.sea_snake.png",
+      "image": "reptile.sea_snake.webp",
       "label": {
         "ar": "ثعبان البحر",
         "cs": "mořský had",
@@ -1859,7 +1869,7 @@
     },
     {
       "key": "reptile.king_snake",
-      "image": "reptile.king_snake.png",
+      "image": "reptile.king_snake.webp",
       "label": {
         "ar": "ثعلب إمبراطوري",
         "cs": "had královsky",
@@ -1920,7 +1930,7 @@
     },
     {
       "key": "reptile.mamba",
-      "image": "reptile.mamba.png",
+      "image": "reptile.mamba.webp",
       "label": {
         "ar": " мамба",
         "cs": "mamba",
@@ -1981,7 +1991,7 @@
     },
     {
       "key": "reptile.anaconda",
-      "image": "reptile.anaconda.png",
+      "image": "reptile.anaconda.webp",
       "label": {
         "ar": "أنكواد",
         "cs": "anakonda",
@@ -2042,7 +2052,7 @@
     },
     {
       "key": "reptile.glass_lizard",
-      "image": "reptile.glass_lizard.png",
+      "image": "reptile.glass_lizard.webp",
       "label": {
         "ar": "سلعيش",
         "cs": "slepýš",
@@ -2103,7 +2113,7 @@
     },
     {
       "key": "reptile.frilled_lizard",
-      "image": "reptile.frilled_lizard.png",
+      "image": "reptile.frilled_lizard.webp",
       "label": {
         "ar": "أغاما ليمكويا",
         "cs": "agama límcová",
@@ -2164,7 +2174,7 @@
     },
     {
       "key": "reptile.basilisk",
-      "image": "reptile.basilisk.png",
+      "image": "reptile.basilisk.webp",
       "label": {
         "ar": "الباسيليسيس",
         "cs": "bazilišek",
@@ -2225,7 +2235,7 @@
     },
     {
       "key": "reptile.uromastyx",
-      "image": "reptile.uromastyx.png",
+      "image": "reptile.uromastyx.webp",
       "label": {
         "ar": "يوروماستيك",
         "cs": "uromastyx",
@@ -2286,7 +2296,7 @@
     },
     {
       "key": "reptile.agama",
-      "image": "reptile.agama.png",
+      "image": "reptile.agama.webp",
       "label": {
         "ar": "أغامة",
         "cs": "agama",
@@ -2347,7 +2357,7 @@
     },
     {
       "key": "reptile.mud_turtle",
-      "image": "reptile.mud_turtle.png",
+      "image": "reptile.mud_turtle.webp",
       "label": {
         "ar": "الوزغ الأصفر",
         "cs": "blátivá želva",
@@ -2408,7 +2418,7 @@
     },
     {
       "key": "reptile.box_turtle",
-      "image": "reptile.box_turtle.png",
+      "image": "reptile.box_turtle.webp",
       "label": {
         "ar": "السمكة المربوطة",
         "cs": "škatulová želva",
@@ -2469,7 +2479,7 @@
     },
     {
       "key": "reptile.snapping_turtle",
-      "image": "reptile.snapping_turtle.png",
+      "image": "reptile.snapping_turtle.webp",
       "label": {
         "ar": "السلحفاة المفترسة",
         "cs": "kousavá želva",
@@ -2530,7 +2540,7 @@
     },
     {
       "key": "reptile.matamata",
-      "image": "reptile.matamata.png",
+      "image": "reptile.matamata.webp",
       "label": {
         "ar": "\"матамата\"",
         "cs": "matamata",
@@ -2591,7 +2601,7 @@
     },
     {
       "key": "reptile.worm_lizard",
-      "image": "reptile.worm_lizard.png",
+      "image": "reptile.worm_lizard.webp",
       "label": {
         "ar": "ديدا",
         "cs": "červovitec",
@@ -2652,7 +2662,7 @@
     },
     {
       "key": "reptile.mudskipper",
-      "image": "reptile.mudskipper.png",
+      "image": "reptile.mudskipper.webp",
       "label": {
         "ar": "سمكة المشي في الطين",
         "cs": "šplhavec blátonosný",
@@ -2713,7 +2723,7 @@
     },
     {
       "key": "reptile.leatherback_turtle",
-      "image": "reptile.leatherback_turtle.png",
+      "image": "reptile.leatherback_turtle.webp",
       "label": {
         "ar": "كوشيتا",
         "cs": "kožatka",
@@ -2774,7 +2784,7 @@
     },
     {
       "key": "reptile.hawksbill_turtle",
-      "image": "reptile.hawksbill_turtle.png",
+      "image": "reptile.hawksbill_turtle.webp",
       "label": {
         "ar": "كارياتكا",
         "cs": "karetka pravá",
@@ -2835,7 +2845,7 @@
     },
     {
       "key": "reptile.caecilian",
-      "image": "reptile.caecilian.png",
+      "image": "reptile.caecilian.webp",
       "label": {
         "ar": "قرميزة",
         "cs": "červorovec",
@@ -2896,7 +2906,7 @@
     },
     {
       "key": "reptile.flying_dragon",
-      "image": "reptile.flying_dragon.png",
+      "image": "reptile.flying_dragon.webp",
       "label": {
         "ar": "晰蜴 طائرة",
         "cs": "drak létající",
@@ -2957,7 +2967,7 @@
     },
     {
       "key": "reptile.thorny_devil",
-      "image": "reptile.thorny_devil.png",
+      "image": "reptile.thorny_devil.webp",
       "label": {
         "ar": "\"الثعلب ذو الأسنان\"",
         "cs": "moloch trnitý",
@@ -3018,7 +3028,7 @@
     },
     {
       "key": "reptile.wall_lizard",
-      "image": "reptile.wall_lizard.png",
+      "image": "reptile.wall_lizard.webp",
       "label": {
         "ar": "جرذان الجدار",
         "cs": "ještěrka zední",

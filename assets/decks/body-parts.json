@@ -5,6 +5,16 @@
     "pony-cartoon",
     "flux-real"
   ],
+  "styleAvailability": {
+    "flux-real": {
+      "bundled": true,
+      "cdn": false
+    },
+    "pony-cartoon": {
+      "bundled": false,
+      "cdn": false
+    }
+  },
   "defaultStyle": "flux-real",
   "titles": {
     "ar": "أجزاء الجسد",
@@ -28,7 +38,7 @@
   "cards": [
     {
       "key": "body.head",
-      "image": "body.head.png",
+      "image": "body.head.webp",
       "label": {
         "ar": "الرأس",
         "cs": "hlava",
@@ -89,7 +99,7 @@
     },
     {
       "key": "body.hand",
-      "image": "body.hand.png",
+      "image": "body.hand.webp",
       "label": {
         "ar": "اليد",
         "cs": "ruka",
@@ -150,7 +160,7 @@
     },
     {
       "key": "body.foot",
-      "image": "body.foot.png",
+      "image": "body.foot.webp",
       "label": {
         "ar": "القدم",
         "cs": "noha (chodidlo)",
@@ -211,7 +221,7 @@
     },
     {
       "key": "body.eye",
-      "image": "body.eye.png",
+      "image": "body.eye.webp",
       "label": {
         "ar": "العين",
         "cs": "oko",
@@ -272,7 +282,7 @@
     },
     {
       "key": "body.ear",
-      "image": "body.ear.png",
+      "image": "body.ear.webp",
       "label": {
         "ar": "الأذن",
         "cs": "ucho",
@@ -333,7 +343,7 @@
     },
     {
       "key": "body.nose",
-      "image": "body.nose.png",
+      "image": "body.nose.webp",
       "label": {
         "ar": "الأنف",
         "cs": "nos",
@@ -394,7 +404,7 @@
     },
     {
       "key": "body.mouth",
-      "image": "body.mouth.png",
+      "image": "body.mouth.webp",
       "label": {
         "ar": "الفم",
         "cs": "ústa",
@@ -455,7 +465,7 @@
     },
     {
       "key": "body.heart",
-      "image": "body.heart.png",
+      "image": "body.heart.webp",
       "label": {
         "ar": "القلب",
         "cs": "srdce",
@@ -516,7 +526,7 @@
     },
     {
       "key": "body.arm",
-      "image": "body.arm.png",
+      "image": "body.arm.webp",
       "label": {
         "ar": "الذراع",
         "cs": "paže",
@@ -577,7 +587,7 @@
     },
     {
       "key": "body.leg",
-      "image": "body.leg.png",
+      "image": "body.leg.webp",
       "label": {
         "ar": "ساق",
         "cs": "noha",
@@ -638,7 +648,7 @@
     },
     {
       "key": "body.knee",
-      "image": "body.knee.png",
+      "image": "body.knee.webp",
       "label": {
         "ar": "الركبة",
         "cs": "koleno",
@@ -699,7 +709,7 @@
     },
     {
       "key": "body.elbow",
-      "image": "body.elbow.png",
+      "image": "body.elbow.webp",
       "label": {
         "ar": "elbow",
         "cs": "loket",
@@ -760,7 +770,7 @@
     },
     {
       "key": "body.shoulder",
-      "image": "body.shoulder.png",
+      "image": "body.shoulder.webp",
       "label": {
         "ar": "الكتف",
         "cs": "rameno",
@@ -821,7 +831,7 @@
     },
     {
       "key": "body.neck",
-      "image": "body.neck.png",
+      "image": "body.neck.webp",
       "label": {
         "ar": "عنق",
         "cs": "krk",
@@ -882,7 +892,7 @@
     },
     {
       "key": "body.chest",
-      "image": "body.chest.png",
+      "image": "body.chest.webp",
       "label": {
         "ar": "الصَدْر",
         "cs": "hrudník",
@@ -943,7 +953,7 @@
     },
     {
       "key": "body.back",
-      "image": "body.back.png",
+      "image": "body.back.webp",
       "label": {
         "ar": "الظهر",
         "cs": "záda",
@@ -1004,7 +1014,7 @@
     },
     {
       "key": "body.stomach",
-      "image": "body.stomach.png",
+      "image": "body.stomach.webp",
       "label": {
         "ar": "\"البطن\"",
         "cs": "břicho",
@@ -1065,7 +1075,7 @@
     },
     {
       "key": "body.hip",
-      "image": "body.hip.png",
+      "image": "body.hip.webp",
       "label": {
         "ar": "الفخذي",
         "cs": "bok",
@@ -1126,7 +1136,7 @@
     },
     {
       "key": "body.finger",
-      "image": "body.finger.png",
+      "image": "body.finger.webp",
       "label": {
         "ar": "\"الإصباع\"",
         "cs": "prst ruky",
@@ -1187,7 +1197,7 @@
     },
     {
       "key": "body.thumb",
-      "image": "body.thumb.png",
+      "image": "body.thumb.webp",
       "label": {
         "ar": "السباحة",
         "cs": "palec",
@@ -1248,7 +1258,7 @@
     },
     {
       "key": "body.toe",
-      "image": "body.toe.png",
+      "image": "body.toe.webp",
       "label": {
         "ar": "إصبع قدم",
         "cs": "prst nohy",
@@ -1309,7 +1319,7 @@
     },
     {
       "key": "body.wrist",
-      "image": "body.wrist.png",
+      "image": "body.wrist.webp",
       "label": {
         "ar": "الكاحل",
         "cs": "zápěstí",
@@ -1370,7 +1380,7 @@
     },
     {
       "key": "body.ankle",
-      "image": "body.ankle.png",
+      "image": "body.ankle.webp",
       "label": {
         "ar": "مفصلكعب",
         "cs": "kotník",
@@ -1431,7 +1441,7 @@
     },
     {
       "key": "body.heel",
-      "image": "body.heel.png",
+      "image": "body.heel.webp",
       "label": {
         "ar": "\"كعوب الأقدام\"",
         "cs": "pata",
@@ -1492,7 +1502,7 @@
     },
     {
       "key": "body.palm",
-      "image": "body.palm.png",
+      "image": "body.palm.webp",
       "label": {
         "ar": "دَلْوِي",
         "cs": "dlaň",
@@ -1553,7 +1563,7 @@
     },
     {
       "key": "body.forehead",
-      "image": "body.forehead.png",
+      "image": "body.forehead.webp",
       "label": {
         "ar": "الجبهة",
         "cs": "čelo",
@@ -1614,7 +1624,7 @@
     },
     {
       "key": "body.chin",
-      "image": "body.chin.png",
+      "image": "body.chin.webp",
       "label": {
         "ar": "الحاجز",
         "cs": "brada",
@@ -1675,7 +1685,7 @@
     },
     {
       "key": "body.cheek",
-      "image": "body.cheek.png",
+      "image": "body.cheek.webp",
       "label": {
         "ar": "خَدّ",
         "cs": "tvář",
@@ -1736,7 +1746,7 @@
     },
     {
       "key": "body.tongue",
-      "image": "body.tongue.png",
+      "image": "body.tongue.webp",
       "label": {
         "ar": "اللغة",
         "cs": "jazyk",
@@ -1797,7 +1807,7 @@
     },
     {
       "key": "body.tooth",
-      "image": "body.tooth.png",
+      "image": "body.tooth.webp",
       "label": {
         "ar": "سن",
         "cs": "zub",
@@ -1858,7 +1868,7 @@
     },
     {
       "key": "body.lip",
-      "image": "body.lip.png",
+      "image": "body.lip.webp",
       "label": {
         "ar": "شَفةٌ واحدةُ فقط",
         "cs": "ret",
@@ -1919,7 +1929,7 @@
     },
     {
       "key": "body.eyebrow",
-      "image": "body.eyebrow.png",
+      "image": "body.eyebrow.webp",
       "label": {
         "ar": "الحاجب",
         "cs": "obočí",
@@ -1980,7 +1990,7 @@
     },
     {
       "key": "body.hair",
-      "image": "body.hair.png",
+      "image": "body.hair.webp",
       "label": {
         "ar": " الشعر ",
         "cs": "vlasy",
@@ -2041,7 +2051,7 @@
     },
     {
       "key": "body.nail",
-      "image": "body.nail.png",
+      "image": "body.nail.webp",
       "label": {
         "ar": "نَخْر",
         "cs": "nehet",
@@ -2102,7 +2112,7 @@
     },
     {
       "key": "body.brain",
-      "image": "body.brain.png",
+      "image": "body.brain.webp",
       "label": {
         "ar": "المخ",
         "cs": "mozek",
@@ -2163,7 +2173,7 @@
     },
     {
       "key": "body.lung",
-      "image": "body.lung.png",
+      "image": "body.lung.webp",
       "label": {
         "ar": "الرئة",
         "cs": "plíce",
@@ -2223,7 +2233,7 @@
     },
     {
       "key": "body.liver",
-      "image": "body.liver.png",
+      "image": "body.liver.webp",
       "label": {
         "ar": " الكبد",
         "cs": "játra",
@@ -2284,7 +2294,7 @@
     },
     {
       "key": "body.kidney",
-      "image": "body.kidney.png",
+      "image": "body.kidney.webp",
       "label": {
         "ar": "الكلى",
         "cs": "ledvina",
@@ -2345,7 +2355,7 @@
     },
     {
       "key": "body.spine",
-      "image": "body.spine.png",
+      "image": "body.spine.webp",
       "label": {
         "ar": "العمود الفقري",
         "cs": "páteř",
@@ -2406,7 +2416,7 @@
     },
     {
       "key": "body.bone",
-      "image": "body.bone.png",
+      "image": "body.bone.webp",
       "label": {
         "ar": "عظم",
         "cs": "kost",
@@ -2467,7 +2477,7 @@
     },
     {
       "key": "body.muscle",
-      "image": "body.muscle.png",
+      "image": "body.muscle.webp",
       "label": {
         "ar": "عَضْلُة",
         "cs": "sval",
@@ -2528,7 +2538,7 @@
     },
     {
       "key": "body.skin",
-      "image": "body.skin.png",
+      "image": "body.skin.webp",
       "label": {
         "ar": "الجلد",
         "cs": "kůže",
@@ -2589,7 +2599,7 @@
     },
     {
       "key": "body.throat",
-      "image": "body.throat.png",
+      "image": "body.throat.webp",
       "label": {
         "ar": "الحنجر",
         "cs": "hrdlo",
@@ -2650,7 +2660,7 @@
     },
     {
       "key": "body.calf",
-      "image": "body.calf.png",
+      "image": "body.calf.webp",
       "label": {
         "ar": "لَبْطِق",
         "cs": "lýtko",
@@ -2711,7 +2721,7 @@
     },
     {
       "key": "body.thigh",
-      "image": "body.thigh.png",
+      "image": "body.thigh.webp",
       "label": {
         "ar": "فخد",
         "cs": "stehno",
@@ -2772,7 +2782,7 @@
     },
     {
       "key": "body.belly_button",
-      "image": "body.belly_button.png",
+      "image": "body.belly_button.webp",
       "label": {
         "ar": "البطنة",
         "cs": "pupík",
@@ -2833,7 +2843,7 @@
     },
     {
       "key": "body.temple",
-      "image": "body.temple.png",
+      "image": "body.temple.webp",
       "label": {
         "ar": "ساخطة",
         "cs": "spánek",
@@ -2894,7 +2904,7 @@
     },
     {
       "key": "body.jaw",
-      "image": "body.jaw.png",
+      "image": "body.jaw.webp",
       "label": {
         "ar": "الفك",
         "cs": "čelist",
@@ -2955,7 +2965,7 @@
     },
     {
       "key": "body.eyelash",
-      "image": "body.eyelash.png",
+      "image": "body.eyelash.webp",
       "label": {
         "ar": "رَمْلُوش",
         "cs": "řasa",
@@ -3016,7 +3026,7 @@
     },
     {
       "key": "body.vein",
-      "image": "body.vein.png",
+      "image": "body.vein.webp",
       "label": {
         "ar": "الشعير",
         "cs": "žíla",

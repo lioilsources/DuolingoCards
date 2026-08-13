@@ -6,6 +6,16 @@
     "pony-cartoon",
     "flux-real"
   ],
+  "styleAvailability": {
+    "flux-real": {
+      "bundled": true,
+      "cdn": false
+    },
+    "pony-cartoon": {
+      "bundled": false,
+      "cdn": false
+    }
+  },
   "defaultStyle": "flux-real",
   "titles": {
     "ar": "الحيوانات الأليفة",
@@ -29,7 +39,7 @@
   "cards": [
     {
       "key": "pet.dog",
-      "image": "pet.dog.png",
+      "image": "pet.dog.webp",
       "label": {
         "ar": "الكلب",
         "cs": "pes",
@@ -90,7 +100,7 @@
     },
     {
       "key": "pet.cat",
-      "image": "pet.cat.png",
+      "image": "pet.cat.webp",
       "label": {
         "ar": "القطة",
         "cs": "kočka",
@@ -151,7 +161,7 @@
     },
     {
       "key": "pet.rabbit",
-      "image": "pet.rabbit.png",
+      "image": "pet.rabbit.webp",
       "label": {
         "ar": "أرنب",
         "cs": "králík",
@@ -212,7 +222,7 @@
     },
     {
       "key": "pet.hamster",
-      "image": "pet.hamster.png",
+      "image": "pet.hamster.webp",
       "label": {
         "ar": "فأر ذهبي",
         "cs": "křeček",
@@ -273,7 +283,7 @@
     },
     {
       "key": "pet.goldfish",
-      "image": "pet.goldfish.png",
+      "image": "pet.goldfish.webp",
       "label": {
         "ar": "سمكة ذهبية",
         "cs": "zlatá rybka",
@@ -334,7 +344,7 @@
     },
     {
       "key": "pet.parrot",
-      "image": "pet.parrot.png",
+      "image": "pet.parrot.webp",
       "label": {
         "ar": "صقري",
         "cs": "papoušek",
@@ -395,7 +405,7 @@
     },
     {
       "key": "pet.turtle",
-      "image": "pet.turtle.png",
+      "image": "pet.turtle.webp",
       "label": {
         "ar": " черเตب ",
         "cs": "želva",
@@ -456,7 +466,7 @@
     },
     {
       "key": "pet.guinea_pig",
-      "image": "pet.guinea_pig.png",
+      "image": "pet.guinea_pig.webp",
       "label": {
         "ar": "خنزير غابة",
         "cs": "morče",
@@ -517,7 +527,7 @@
     },
     {
       "key": "pet.mouse",
-      "image": "pet.mouse.png",
+      "image": "pet.mouse.webp",
       "label": {
         "ar": "فَارٌ أبْيَض",
         "cs": "myš bílá",
@@ -578,7 +588,7 @@
     },
     {
       "key": "pet.rat",
-      "image": "pet.rat.png",
+      "image": "pet.rat.webp",
       "label": {
         "ar": "جرذاً منزلًا",
         "cs": "krysa domácí",
@@ -639,7 +649,7 @@
     },
     {
       "key": "pet.ferret",
-      "image": "pet.ferret.png",
+      "image": "pet.ferret.webp",
       "label": {
         "ar": "الفريسكا",
         "cs": "fretka",
@@ -700,7 +710,7 @@
     },
     {
       "key": "pet.gerbil",
-      "image": "pet.gerbil.png",
+      "image": "pet.gerbil.webp",
       "label": {
         "ar": "الصقر",
         "cs": "pískomil",
@@ -761,7 +771,7 @@
     },
     {
       "key": "pet.chinchilla",
-      "image": "pet.chinchilla.png",
+      "image": "pet.chinchilla.webp",
       "label": {
         "ar": "{ \"label\": \"قنصل\" }",
         "cs": "činčila",
@@ -822,7 +832,7 @@
     },
     {
       "key": "pet.hedgehog",
-      "image": "pet.hedgehog.png",
+      "image": "pet.hedgehog.webp",
       "label": {
         "ar": "جراديف أفريقي",
         "cs": "ježek africký",
@@ -883,7 +893,7 @@
     },
     {
       "key": "pet.sugar_glider",
-      "image": "pet.sugar_glider.png",
+      "image": "pet.sugar_glider.webp",
       "label": {
         "ar": "كوالو طائر",
         "cs": "vačice létavá",
@@ -944,7 +954,7 @@
     },
     {
       "key": "pet.bearded_dragon",
-      "image": "pet.bearded_dragon.png",
+      "image": "pet.bearded_dragon.webp",
       "label": {
         "ar": "التنين ذو الفك",
         "cs": "vousatý drak",
@@ -1005,7 +1015,7 @@
     },
     {
       "key": "pet.leopard_gecko",
-      "image": "pet.leopard_gecko.png",
+      "image": "pet.leopard_gecko.webp",
       "label": {
         "ar": "جيكو فهدي",
         "cs": "gekon leopardí",
@@ -1066,7 +1076,7 @@
     },
     {
       "key": "pet.corn_snake",
-      "image": "pet.corn_snake.png",
+      "image": "pet.corn_snake.webp",
       "label": {
         "ar": "الboa الحلو",
         "cs": "užovka kukuřičná",
@@ -1127,7 +1137,7 @@
     },
     {
       "key": "pet.axolotl",
-      "image": "pet.axolotl.png",
+      "image": "pet.axolotl.webp",
       "label": {
         "ar": "أكسولاتل",
         "cs": "axolotl",
@@ -1188,7 +1198,7 @@
     },
     {
       "key": "pet.cockatiel",
-      "image": "pet.cockatiel.png",
+      "image": "pet.cockatiel.webp",
       "label": {
         "ar": "نيمفيك",
         "cs": "nimfa",
@@ -1249,7 +1259,7 @@
     },
     {
       "key": "pet.lovebird",
-      "image": "pet.lovebird.png",
+      "image": "pet.lovebird.webp",
       "label": {
         "ar": "إيغوبرونيسي",
         "cs": "agapornis",
@@ -1310,7 +1320,7 @@
     },
     {
       "key": "pet.budgerigar",
-      "image": "pet.budgerigar.png",
+      "image": "pet.budgerigar.webp",
       "label": {
         "ar": "أَنْدولِكَا",
         "cs": "andulka",
@@ -1371,7 +1381,7 @@
     },
     {
       "key": "pet.canary",
-      "image": "pet.canary.png",
+      "image": "pet.canary.webp",
       "label": {
         "ar": "الكاناري",
         "cs": "kanárek",
@@ -1432,7 +1442,7 @@
     },
     {
       "key": "pet.betta_fish",
-      "image": "pet.betta_fish.png",
+      "image": "pet.betta_fish.webp",
       "label": {
         "ar": "\"betta\"",
         "cs": "betta",
@@ -1493,7 +1503,7 @@
     },
     {
       "key": "pet.clownfish",
-      "image": "pet.clownfish.png",
+      "image": "pet.clownfish.webp",
       "label": {
         "ar": "الكلوون العيني",
         "cs": "klaun očkatý",
@@ -1554,7 +1564,7 @@
     },
     {
       "key": "pet.crayfish",
-      "image": "pet.crayfish.png",
+      "image": "pet.crayfish.webp",
       "label": {
         "ar": "\"رَكْسٌ إكواريوم\"",
         "cs": "rak akvarijní",
@@ -1615,7 +1625,7 @@
     },
     {
       "key": "pet.tarantula",
-      "image": "pet.tarantula.png",
+      "image": "pet.tarantula.webp",
       "label": {
         "ar": "Ptakoyps",
         "cs": "ptakopysk",
@@ -1676,7 +1686,7 @@
     },
     {
       "key": "pet.hermit_crab",
-      "image": "pet.hermit_crab.png",
+      "image": "pet.hermit_crab.webp",
       "label": {
         "ar": "راك بري",
         "cs": "rak poustevník",
@@ -1737,7 +1747,7 @@
     },
     {
       "key": "pet.iguana",
-      "image": "pet.iguana.png",
+      "image": "pet.iguana.webp",
       "label": {
         "ar": "إيقوانا",
         "cs": "leguán",
@@ -1798,7 +1808,7 @@
     },
     {
       "key": "pet.chameleon",
-      "image": "pet.chameleon.png",
+      "image": "pet.chameleon.webp",
       "label": {
         "ar": "ضفان",
         "cs": "chameleon",
@@ -1859,7 +1869,7 @@
     },
     {
       "key": "pet.degu",
-      "image": "pet.degu.png",
+      "image": "pet.degu.webp",
       "label": {
         "ar": "ديغو",
         "cs": "degu",
@@ -1920,7 +1930,7 @@
     },
     {
       "key": "pet.prairie_dog",
-      "image": "pet.prairie_dog.png",
+      "image": "pet.prairie_dog.webp",
       "label": {
         "ar": "صاعوق بري",
         "cs": "psoun prériový",
@@ -1981,7 +1991,7 @@
     },
     {
       "key": "pet.mini_pig",
-      "image": "pet.mini_pig.png",
+      "image": "pet.mini_pig.webp",
       "label": {
         "ar": "خنزير صغير",
         "cs": "miniaturní prase",
@@ -2042,7 +2052,7 @@
     },
     {
       "key": "pet.koi",
-      "image": "pet.koi.png",
+      "image": "pet.koi.webp",
       "label": {
         "ar": "كارب كوي",
         "cs": "kapr koi",
@@ -2103,7 +2113,7 @@
     },
     {
       "key": "pet.angelfish",
-      "image": "pet.angelfish.png",
+      "image": "pet.angelfish.webp",
       "label": {
         "ar": "سكوالية",
         "cs": "skalar",
@@ -2164,7 +2174,7 @@
     },
     {
       "key": "pet.oscar_fish",
-      "image": "pet.oscar_fish.png",
+      "image": "pet.oscar_fish.webp",
       "label": {
         "ar": "\"الأسكار\"",
         "cs": "oskar",
@@ -2225,7 +2235,7 @@
     },
     {
       "key": "pet.dove_pet",
-      "image": "pet.dove_pet.png",
+      "image": "pet.dove_pet.webp",
       "label": {
         "ar": "حمام أبيض",
         "cs": "holubice domácí",
@@ -2286,7 +2296,7 @@
     },
     {
       "key": "pet.quail_pet",
-      "image": "pet.quail_pet.png",
+      "image": "pet.quail_pet.webp",
       "label": {
         "ar": "طائر الكركي الأليف",
         "cs": "křepelka mazlíček",
@@ -2347,7 +2357,7 @@
     },
     {
       "key": "pet.mynah_bird",
-      "image": "pet.mynah_bird.png",
+      "image": "pet.mynah_bird.webp",
       "label": {
         "ar": "\"مُرَّغا\"",
         "cs": "myna",
@@ -2408,7 +2418,7 @@
     },
     {
       "key": "pet.tortoise_pet",
-      "image": "pet.tortoise_pet.png",
+      "image": "pet.tortoise_pet.webp",
       "label": {
         "ar": "السلحفاة البرية",
         "cs": "suchozemská želva",
@@ -2469,7 +2479,7 @@
     },
     {
       "key": "pet.ball_python",
-      "image": "pet.ball_python.png",
+      "image": "pet.ball_python.webp",
       "label": {
         "ar": "كوبرا ملكية",
         "cs": "krajta královská",
@@ -2530,7 +2540,7 @@
     },
     {
       "key": "pet.blue_tongue_skink",
-      "image": "pet.blue_tongue_skink.png",
+      "image": "pet.blue_tongue_skink.webp",
       "label": {
         "ar": "سكينق ذو اللسان الأزرق",
         "cs": "skink modrý jazyk",
@@ -2591,7 +2601,7 @@
     },
     {
       "key": "pet.crested_gecko",
-      "image": "pet.crested_gecko.png",
+      "image": "pet.crested_gecko.webp",
       "label": {
         "ar": "جيكون شوكولاتوي",
         "cs": "gekon chocholatý",
@@ -2652,7 +2662,7 @@
     },
     {
       "key": "pet.frilled_lizard",
-      "image": "pet.frilled_lizard.png",
+      "image": "pet.frilled_lizard.webp",
       "label": {
         "ar": "أغامة ذات الرقبة المفتوحة",
         "cs": "agama límcová",
@@ -2713,7 +2723,7 @@
     },
     {
       "key": "pet.red_eared_slider",
-      "image": "pet.red_eared_slider.png",
+      "image": "pet.red_eared_slider.webp",
       "label": {
         "ar": "السمكة النجمية",
         "cs": "želva nádherná",
@@ -2774,7 +2784,7 @@
     },
     {
       "key": "pet.electric_eel",
-      "image": "pet.electric_eel.png",
+      "image": "pet.electric_eel.webp",
       "label": {
         "ar": "Electric Eel",
         "cs": "úhoř elektrický",
@@ -2835,7 +2845,7 @@
     },
     {
       "key": "pet.discus_fish",
-      "image": "pet.discus_fish.png",
+      "image": "pet.discus_fish.webp",
       "label": {
         "ar": "سكاليار ديستوس",
         "cs": "skalár diskus",
@@ -2896,7 +2906,7 @@
     },
     {
       "key": "pet.moon_jellyfish",
-      "image": "pet.moon_jellyfish.png",
+      "image": "pet.moon_jellyfish.webp",
       "label": {
         "ar": "جيلية قمرية",
         "cs": "medúza měsíční",
@@ -2957,7 +2967,7 @@
     },
     {
       "key": "pet.sea_horse_pet",
-      "image": "pet.sea_horse_pet.png",
+      "image": "pet.sea_horse_pet.webp",
       "label": {
         "ar": " حصان البحر داخل الأكواريوم",
         "cs": "mořský koník v akváriu",
@@ -3018,7 +3028,7 @@
     },
     {
       "key": "pet.mandarin_fish",
-      "image": "pet.mandarin_fish.png",
+      "image": "pet.mandarin_fish.webp",
       "label": {
         "ar": "مُنْدارِينَّ",
         "cs": "mandarínka",

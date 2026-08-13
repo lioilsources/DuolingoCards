@@ -5,6 +5,16 @@
     "pony-cartoon",
     "flux-real"
   ],
+  "styleAvailability": {
+    "flux-real": {
+      "bundled": true,
+      "cdn": false
+    },
+    "pony-cartoon": {
+      "bundled": false,
+      "cdn": false
+    }
+  },
   "defaultStyle": "flux-real",
   "titles": {
     "ar": "الأرقام من ١ إلى ١٠",
@@ -28,7 +38,7 @@
   "cards": [
     {
       "key": "num.one",
-      "image": "num.one.png",
+      "image": "num.one.webp",
       "label": {
         "ar": "واحد",
         "cs": "jedna",
@@ -89,7 +99,7 @@
     },
     {
       "key": "num.two",
-      "image": "num.two.png",
+      "image": "num.two.webp",
       "label": {
         "ar": "اثنان",
         "cs": "dva",
@@ -150,7 +160,7 @@
     },
     {
       "key": "num.three",
-      "image": "num.three.png",
+      "image": "num.three.webp",
       "label": {
         "ar": "ثلاثة",
         "cs": "tři",
@@ -211,7 +221,7 @@
     },
     {
       "key": "num.four",
-      "image": "num.four.png",
+      "image": "num.four.webp",
       "label": {
         "ar": "أربعة",
         "cs": "čtyři",
@@ -272,7 +282,7 @@
     },
     {
       "key": "num.five",
-      "image": "num.five.png",
+      "image": "num.five.webp",
       "label": {
         "ar": "خمسة",
         "cs": "pět",
@@ -333,7 +343,7 @@
     },
     {
       "key": "num.six",
-      "image": "num.six.png",
+      "image": "num.six.webp",
       "label": {
         "ar": "ستة",
         "cs": "šest",
@@ -394,7 +404,7 @@
     },
     {
       "key": "num.seven",
-      "image": "num.seven.png",
+      "image": "num.seven.webp",
       "label": {
         "ar": "سبع",
         "cs": "sedm",
@@ -455,7 +465,7 @@
     },
     {
       "key": "num.eight",
-      "image": "num.eight.png",
+      "image": "num.eight.webp",
       "label": {
         "ar": "ثمانية",
         "cs": "osm",
@@ -516,7 +526,7 @@
     },
     {
       "key": "num.nine",
-      "image": "num.nine.png",
+      "image": "num.nine.webp",
       "label": {
         "ar": "تسعة",
         "cs": "devět",
@@ -577,7 +587,7 @@
     },
     {
       "key": "num.ten",
-      "image": "num.ten.png",
+      "image": "num.ten.webp",
       "label": {
         "ar": "عشرة",
         "cs": "deset",
@@ -638,7 +648,7 @@
     },
     {
       "key": "num.eleven",
-      "image": "num.eleven.png",
+      "image": "num.eleven.webp",
       "label": {
         "ar": "\"التاسعة\"",
         "cs": "jedenáct",
@@ -699,7 +709,7 @@
     },
     {
       "key": "num.twelve",
-      "image": "num.twelve.png",
+      "image": "num.twelve.webp",
       "label": {
         "ar": "\"twelve\"",
         "cs": "dvanáct",
@@ -760,7 +770,7 @@
     },
     {
       "key": "num.thirteen",
-      "image": "num.thirteen.png",
+      "image": "num.thirteen.webp",
       "label": {
         "ar": "ترينات",
         "cs": "třináct",
@@ -821,7 +831,7 @@
     },
     {
       "key": "num.fourteen",
-      "image": "num.fourteen.png",
+      "image": "num.fourteen.webp",
       "label": {
         "ar": "{\"label\": \"أربعة عشر\"}",
         "cs": "čtrnáct",
@@ -880,7 +890,7 @@
     },
     {
       "key": "num.fifteen",
-      "image": "num.fifteen.png",
+      "image": "num.fifteen.webp",
       "label": {
         "ar": "\"التاسع عشر\"",
         "cs": "patnáct",
@@ -941,7 +951,7 @@
     },
     {
       "key": "num.sixteen",
-      "image": "num.sixteen.png",
+      "image": "num.sixteen.webp",
       "label": {
         "ar": "ستة عشر",
         "cs": "šestnáct",
@@ -1002,7 +1012,7 @@
     },
     {
       "key": "num.seventeen",
-      "image": "num.seventeen.png",
+      "image": "num.seventeen.webp",
       "label": {
         "ar": "\"سبعة عشر\"",
         "cs": "sedmnáct",
@@ -1063,7 +1073,7 @@
     },
     {
       "key": "num.eighteen",
-      "image": "num.eighteen.png",
+      "image": "num.eighteen.webp",
       "label": {
         "ar": "ثمانية عشر",
         "cs": "osmnáct",
@@ -1124,7 +1134,7 @@
     },
     {
       "key": "num.nineteen",
-      "image": "num.nineteen.png",
+      "image": "num.nineteen.webp",
       "label": {
         "ar": "تسعَة وعشرون",
         "cs": "devatenáct",
@@ -1185,7 +1195,7 @@
     },
     {
       "key": "num.twenty",
-      "image": "num.twenty.png",
+      "image": "num.twenty.webp",
       "label": {
         "ar": "\"عشرين\"",
         "cs": "dvacet",
@@ -1246,7 +1256,7 @@
     },
     {
       "key": "num.twenty_one",
-      "image": "num.twenty_one.png",
+      "image": "num.twenty_one.webp",
       "label": {
         "ar": "\"واحد وعشرون\"",
         "cs": "dvacet jedna",
@@ -1307,7 +1317,7 @@
     },
     {
       "key": "num.twenty_two",
-      "image": "num.twenty_two.png",
+      "image": "num.twenty_two.webp",
       "label": {
         "ar": "twenty-one",
         "cs": "dvacet dva",
@@ -1368,7 +1378,7 @@
     },
     {
       "key": "num.twenty_three",
-      "image": "num.twenty_three.png",
+      "image": "num.twenty_three.webp",
       "label": {
         "ar": "ثلاثة عشريين",
         "cs": "dvacet tři",
@@ -1429,7 +1439,7 @@
     },
     {
       "key": "num.twenty_four",
-      "image": "num.twenty_four.png",
+      "image": "num.twenty_four.webp",
       "label": {
         "ar": "اثنان وأربعون",
         "cs": "dvacet čtyři",
@@ -1490,7 +1500,7 @@
     },
     {
       "key": "num.twenty_five",
-      "image": "num.twenty_five.png",
+      "image": "num.twenty_five.webp",
       "label": {
         "ar": "\"twenty five\"",
         "cs": "dvacet pět",
@@ -1551,7 +1561,7 @@
     },
     {
       "key": "num.twenty_six",
-      "image": "num.twenty_six.png",
+      "image": "num.twenty_six.webp",
       "label": {
         "ar": "ثمانية وعشرين",
         "cs": "dvacet šest",
@@ -1612,7 +1622,7 @@
     },
     {
       "key": "num.twenty_seven",
-      "image": "num.twenty_seven.png",
+      "image": "num.twenty_seven.webp",
       "label": {
         "ar": "twenty seven",
         "cs": "dvacet sedm",
@@ -1673,7 +1683,7 @@
     },
     {
       "key": "num.twenty_eight",
-      "image": "num.twenty_eight.png",
+      "image": "num.twenty_eight.webp",
       "label": {
         "ar": "twenty eight",
         "cs": "dvacet osm",
@@ -1734,7 +1744,7 @@
     },
     {
       "key": "num.twenty_nine",
-      "image": "num.twenty_nine.png",
+      "image": "num.twenty_nine.webp",
       "label": {
         "ar": "عشرين وتسعة",
         "cs": "dvacet devět",
@@ -1795,7 +1805,7 @@
     },
     {
       "key": "num.thirty",
-      "image": "num.thirty.png",
+      "image": "num.thirty.webp",
       "label": {
         "ar": "\"تريست\"",
         "cs": "třicet",
@@ -1854,7 +1864,7 @@
     },
     {
       "key": "num.thirty_one",
-      "image": "num.thirty_one.png",
+      "image": "num.thirty_one.webp",
       "label": {
         "ar": "{\"label\": \"ثلاثة وعشرين\"}",
         "cs": "třicet jedna",
@@ -1915,7 +1925,7 @@
     },
     {
       "key": "num.thirty_two",
-      "image": "num.thirty_two.png",
+      "image": "num.thirty_two.webp",
       "label": {
         "ar": "ثلاثة وعشرين",
         "cs": "třicet dva",
@@ -1976,7 +1986,7 @@
     },
     {
       "key": "num.thirty_three",
-      "image": "num.thirty_three.png",
+      "image": "num.thirty_three.webp",
       "label": {
         "ar": "\"تسع عشرة\"",
         "cs": "třicet tři",
@@ -2037,7 +2047,7 @@
     },
     {
       "key": "num.thirty_four",
-      "image": "num.thirty_four.png",
+      "image": "num.thirty_four.webp",
       "label": {
         "ar": "أربعاء",
         "cs": "třicet čtyři",
@@ -2098,7 +2108,7 @@
     },
     {
       "key": "num.thirty_five",
-      "image": "num.thirty_five.png",
+      "image": "num.thirty_five.webp",
       "label": {
         "ar": "{ \"label\": \"ثلاثة وثلاثون\" }",
         "cs": "třicet pět",
@@ -2159,7 +2169,7 @@
     },
     {
       "key": "num.thirty_six",
-      "image": "num.thirty_six.png",
+      "image": "num.thirty_six.webp",
       "label": {
         "ar": "تسعية",
         "cs": "třicet šest",
@@ -2220,7 +2230,7 @@
     },
     {
       "key": "num.thirty_seven",
-      "image": "num.thirty_seven.png",
+      "image": "num.thirty_seven.webp",
       "label": {
         "ar": "ثلاثة وعشرين",
         "cs": "třicet sedm",
@@ -2281,7 +2291,7 @@
     },
     {
       "key": "num.thirty_eight",
-      "image": "num.thirty_eight.png",
+      "image": "num.thirty_eight.webp",
       "label": {
         "ar": "ثمانية وثلاثون",
         "cs": "třicet osm",
@@ -2340,7 +2350,7 @@
     },
     {
       "key": "num.thirty_nine",
-      "image": "num.thirty_nine.png",
+      "image": "num.thirty_nine.webp",
       "label": {
         "ar": "تسع وثلاثون",
         "cs": "třicet devět",
@@ -2399,7 +2409,7 @@
     },
     {
       "key": "num.forty",
-      "image": "num.forty.png",
+      "image": "num.forty.webp",
       "label": {
         "ar": "XL",
         "cs": "čtyřicet",
@@ -2458,7 +2468,7 @@
     },
     {
       "key": "num.forty_one",
-      "image": "num.forty_one.png",
+      "image": "num.forty_one.webp",
       "label": {
         "ar": "أربعة وعشرون واحد",
         "cs": "čtyřicet jedna",
@@ -2517,7 +2527,7 @@
     },
     {
       "key": "num.forty_two",
-      "image": "num.forty_two.png",
+      "image": "num.forty_two.webp",
       "label": {
         "ar": "XLII",
         "cs": "čtyřicet dva",
@@ -2578,7 +2588,7 @@
     },
     {
       "key": "num.forty_three",
-      "image": "num.forty_three.png",
+      "image": "num.forty_three.webp",
       "label": {
         "ar": "{ \"label\": \"{\\u016f}\\{\\u0159}{\\u017e}{\\u010d}{\\u011b}{\\u016f}\" }",
         "cs": "čtyřicet tři",
@@ -2637,7 +2647,7 @@
     },
     {
       "key": "num.forty_four",
-      "image": "num.forty_four.png",
+      "image": "num.forty_four.webp",
       "label": {
         "ar": "XLIII",
         "cs": "čtyřicet čtyři",
@@ -2696,7 +2706,7 @@
     },
     {
       "key": "num.forty_five",
-      "image": "num.forty_five.png",
+      "image": "num.forty_five.webp",
       "label": {
         "ar": "{\"label\": \"أربعة وعشرون\",",
         "cs": "čtyřicet pět",
@@ -2757,7 +2767,7 @@
     },
     {
       "key": "num.forty_six",
-      "image": "num.forty_six.png",
+      "image": "num.forty_six.webp",
       "label": {
         "ar": "أربعة وأربعون",
         "cs": "čtyřicet šest",
@@ -2818,7 +2828,7 @@
     },
     {
       "key": "num.forty_seven",
-      "image": "num.forty_seven.png",
+      "image": "num.forty_seven.webp",
       "label": {
         "ar": "{\"label\": \"أربعة وארבעين\"}",
         "cs": "čtyřicet sedm",
@@ -2877,7 +2887,7 @@
     },
     {
       "key": "num.forty_eight",
-      "image": "num.forty_eight.png",
+      "image": "num.forty_eight.webp",
       "label": {
         "ar": "\"XLVIII\"",
         "cs": "čtyřicet osm",
@@ -2938,7 +2948,7 @@
     },
     {
       "key": "num.forty_nine",
-      "image": "num.forty_nine.png",
+      "image": "num.forty_nine.webp",
       "label": {
         "ar": "\"XLIX\"",
         "cs": "čtyřicet devět",
@@ -2997,7 +3007,7 @@
     },
     {
       "key": "num.fifty",
-      "image": "num.fifty.png",
+      "image": "num.fifty.webp",
       "label": {
         "ar": "\"خمسمة عشر\"",
         "cs": "padesát",

@@ -5,6 +5,16 @@
     "pony-cartoon",
     "flux-real"
   ],
+  "styleAvailability": {
+    "flux-real": {
+      "bundled": true,
+      "cdn": false
+    },
+    "pony-cartoon": {
+      "bundled": false,
+      "cdn": false
+    }
+  },
   "defaultStyle": "flux-real",
   "titles": {
     "ar": "الطقس",
@@ -28,7 +38,7 @@
   "cards": [
     {
       "key": "weather.sunny",
-      "image": "weather.sunny.png",
+      "image": "weather.sunny.webp",
       "label": {
         "ar": "مشمس",
         "cs": "slunečno",
@@ -89,7 +99,7 @@
     },
     {
       "key": "weather.rainy",
-      "image": "weather.rainy.png",
+      "image": "weather.rainy.webp",
       "label": {
         "ar": "مطر",
         "cs": "deštivo",
@@ -150,7 +160,7 @@
     },
     {
       "key": "weather.snowy",
-      "image": "weather.snowy.png",
+      "image": "weather.snowy.webp",
       "label": {
         "ar": "تساقط الثلج",
         "cs": "sněžení",
@@ -211,7 +221,7 @@
     },
     {
       "key": "weather.cloudy",
-      "image": "weather.cloudy.png",
+      "image": "weather.cloudy.webp",
       "label": {
         "ar": "غائم",
         "cs": "oblačno",
@@ -272,7 +282,7 @@
     },
     {
       "key": "weather.windy",
-      "image": "weather.windy.png",
+      "image": "weather.windy.webp",
       "label": {
         "ar": "رعدية",
         "cs": "větrno",
@@ -333,7 +343,7 @@
     },
     {
       "key": "weather.foggy",
-      "image": "weather.foggy.png",
+      "image": "weather.foggy.webp",
       "label": {
         "ar": "ضباب كثيف",
         "cs": "mlhavo",
@@ -394,7 +404,7 @@
     },
     {
       "key": "weather.stormy",
-      "image": "weather.stormy.png",
+      "image": "weather.stormy.webp",
       "label": {
         "ar": "عاصفة",
         "cs": "bouřka",
@@ -455,7 +465,7 @@
     },
     {
       "key": "weather.rainbow",
-      "image": "weather.rainbow.png",
+      "image": "weather.rainbow.webp",
       "label": {
         "ar": "قوس قزح",
         "cs": "duha",
@@ -516,7 +526,7 @@
     },
     {
       "key": "weather.hailing",
-      "image": "weather.hailing.png",
+      "image": "weather.hailing.webp",
       "label": {
         "ar": "تساقط حبيبات الجليد",
         "cs": "krupobití",
@@ -577,7 +587,7 @@
     },
     {
       "key": "weather.thunderstorm",
-      "image": "weather.thunderstorm.png",
+      "image": "weather.thunderstorm.webp",
       "label": {
         "ar": "عاصفة",
         "cs": "bouřka",
@@ -638,7 +648,7 @@
     },
     {
       "key": "weather.lightning",
-      "image": "weather.lightning.png",
+      "image": "weather.lightning.webp",
       "label": {
         "ar": "برق",
         "cs": "blesk",
@@ -699,7 +709,7 @@
     },
     {
       "key": "weather.frosty",
-      "image": "weather.frosty.png",
+      "image": "weather.frosty.webp",
       "label": {
         "ar": "صباح بارد",
         "cs": "mrazivé ráno",
@@ -760,7 +770,7 @@
     },
     {
       "key": "weather.icy",
-      "image": "weather.icy.png",
+      "image": "weather.icy.webp",
       "label": {
         "ar": "الجلاد",
         "cs": "náledí",
@@ -821,7 +831,7 @@
     },
     {
       "key": "weather.humid",
-      "image": "weather.humid.png",
+      "image": "weather.humid.webp",
       "label": {
         "ar": "رطوبة",
         "cs": "vlhkost",
@@ -882,7 +892,7 @@
     },
     {
       "key": "weather.hot",
-      "image": "weather.hot.png",
+      "image": "weather.hot.webp",
       "label": {
         "ar": "炎热",
         "cs": "horko",
@@ -943,7 +953,7 @@
     },
     {
       "key": "weather.cold",
-      "image": "weather.cold.png",
+      "image": "weather.cold.webp",
       "label": {
         "ar": "شتاء",
         "cs": "zima",
@@ -1004,7 +1014,7 @@
     },
     {
       "key": "weather.tornado",
-      "image": "weather.tornado.png",
+      "image": "weather.tornado.webp",
       "label": {
         "ar": "تورنادو",
         "cs": "tornádo",
@@ -1065,7 +1075,7 @@
     },
     {
       "key": "weather.hurricane",
-      "image": "weather.hurricane.png",
+      "image": "weather.hurricane.webp",
       "label": {
         "ar": "إعصار",
         "cs": "hurikán",
@@ -1124,7 +1134,7 @@
     },
     {
       "key": "weather.blizzard",
-      "image": "weather.blizzard.png",
+      "image": "weather.blizzard.webp",
       "label": {
         "ar": "عاصفة ثلجية",
         "cs": "sněhová bouře",
@@ -1185,7 +1195,7 @@
     },
     {
       "key": "weather.heatwave",
-      "image": "weather.heatwave.png",
+      "image": "weather.heatwave.webp",
       "label": {
         "ar": "جفاف",
         "cs": "vedra",
@@ -1246,7 +1256,7 @@
     },
     {
       "key": "weather.drought",
-      "image": "weather.drought.png",
+      "image": "weather.drought.webp",
       "label": {
         "ar": "جفاف",
         "cs": "sucho",
@@ -1307,7 +1317,7 @@
     },
     {
       "key": "weather.flood",
-      "image": "weather.flood.png",
+      "image": "weather.flood.webp",
       "label": {
         "ar": "فيضان",
         "cs": "záplava",
@@ -1368,7 +1378,7 @@
     },
     {
       "key": "weather.sandstorm",
-      "image": "weather.sandstorm.png",
+      "image": "weather.sandstorm.webp",
       "label": {
         "ar": "عاصفة رملية",
         "cs": "písečná bouře",
@@ -1429,7 +1439,7 @@
     },
     {
       "key": "weather.partly_cloudy",
-      "image": "weather.partly_cloudy.png",
+      "image": "weather.partly_cloudy.webp",
       "label": {
         "ar": "الجو شبه مشمس",
         "cs": "polojasno",
@@ -1490,7 +1500,7 @@
     },
     {
       "key": "weather.overcast",
-      "image": "weather.overcast.png",
+      "image": "weather.overcast.webp",
       "label": {
         "ar": "\"مغطي\"",
         "cs": "zataženo",
@@ -1551,7 +1561,7 @@
     },
     {
       "key": "weather.sleet",
-      "image": "weather.sleet.png",
+      "image": "weather.sleet.webp",
       "label": {
         "ar": "مطر متجمّد",
         "cs": "mrznoucí déšť",
@@ -1612,7 +1622,7 @@
     },
     {
       "key": "weather.drizzle",
-      "image": "weather.drizzle.png",
+      "image": "weather.drizzle.webp",
       "label": {
         "ar": "مرهوين",
         "cs": "mrholení",
@@ -1673,7 +1683,7 @@
     },
     {
       "key": "weather.shower",
-      "image": "weather.shower.png",
+      "image": "weather.shower.webp",
       "label": {
         "ar": "رعدية",
         "cs": "přeháňka",
@@ -1734,7 +1744,7 @@
     },
     {
       "key": "weather.sunrise",
-      "image": "weather.sunrise.png",
+      "image": "weather.sunrise.webp",
       "label": {
         "ar": "السطوت",
         "cs": "svítání",
@@ -1795,7 +1805,7 @@
     },
     {
       "key": "weather.sunset",
-      "image": "weather.sunset.png",
+      "image": "weather.sunset.webp",
       "label": {
         "ar": "غروب الشمس",
         "cs": "západ slunce",
@@ -1856,7 +1866,7 @@
     },
     {
       "key": "weather.aurora",
-      "image": "weather.aurora.png",
+      "image": "weather.aurora.webp",
       "label": {
         "ar": "الشفق القطبي",
         "cs": "polární záře",
@@ -1917,7 +1927,7 @@
     },
     {
       "key": "weather.misty",
-      "image": "weather.misty.png",
+      "image": "weather.misty.webp",
       "label": {
         "ar": "ضباب",
         "cs": "mlhavo",
@@ -1978,7 +1988,7 @@
     },
     {
       "key": "weather.freezing",
-      "image": "weather.freezing.png",
+      "image": "weather.freezing.webp",
       "label": {
         "ar": "صَقِيع",
         "cs": "mráz",
@@ -2039,7 +2049,7 @@
     },
     {
       "key": "weather.muggy",
-      "image": "weather.muggy.png",
+      "image": "weather.muggy.webp",
       "label": {
         "ar": "دفء",
         "cs": "dusno",
@@ -2100,7 +2110,7 @@
     },
     {
       "key": "weather.breezy",
-      "image": "weather.breezy.png",
+      "image": "weather.breezy.webp",
       "label": {
         "ar": "ريح خفيف",
         "cs": "větřík",
@@ -2161,7 +2171,7 @@
     },
     {
       "key": "weather.gloomy",
-      "image": "weather.gloomy.png",
+      "image": "weather.gloomy.webp",
       "label": {
         "ar": "غيم",
         "cs": "chmurno",
@@ -2222,7 +2232,7 @@
     },
     {
       "key": "weather.clear",
-      "image": "weather.clear.png",
+      "image": "weather.clear.webp",
       "label": {
         "ar": "جَسْنٌ",
         "cs": "jasno",
@@ -2283,7 +2293,7 @@
     },
     {
       "key": "weather.dew",
-      "image": "weather.dew.png",
+      "image": "weather.dew.webp",
       "label": {
         "ar": "رُسَّة",
         "cs": "rosa",
@@ -2344,7 +2354,7 @@
     },
     {
       "key": "weather.avalanche",
-      "image": "weather.avalanche.png",
+      "image": "weather.avalanche.webp",
       "label": {
         "ar": "الانزلاقات الثلجية",
         "cs": "lavina",
@@ -2405,7 +2415,7 @@
     },
     {
       "key": "weather.typhoon",
-      "image": "weather.typhoon.png",
+      "image": "weather.typhoon.webp",
       "label": {
         "ar": "тай фун",
         "cs": "tajfun",
@@ -2466,7 +2476,7 @@
     },
     {
       "key": "weather.monsoon",
-      "image": "weather.monsoon.png",
+      "image": "weather.monsoon.webp",
       "label": {
         "ar": "موَّزْن",
         "cs": "monzun",
@@ -2527,7 +2537,7 @@
     },
     {
       "key": "weather.dust_storm",
-      "image": "weather.dust_storm.png",
+      "image": "weather.dust_storm.webp",
       "label": {
         "ar": "عاصفة غبار",
         "cs": "prašná bouře",
@@ -2588,7 +2598,7 @@
     },
     {
       "key": "weather.haze",
-      "image": "weather.haze.png",
+      "image": "weather.haze.webp",
       "label": {
         "ar": "ضباب دخاني",
         "cs": "opar",
@@ -2649,7 +2659,7 @@
     },
     {
       "key": "weather.frost_flowers",
-      "image": "weather.frost_flowers.png",
+      "image": "weather.frost_flowers.webp",
       "label": {
         "ar": "الزهور الجليديَّة",
         "cs": "ledové květiny",
@@ -2710,7 +2720,7 @@
     },
     {
       "key": "weather.ice_storm",
-      "image": "weather.ice_storm.png",
+      "image": "weather.ice_storm.webp",
       "label": {
         "ar": "عواصف جليدية",
         "cs": "ledová bouře",
@@ -2771,7 +2781,7 @@
     },
     {
       "key": "weather.heat_lightning",
-      "image": "weather.heat_lightning.png",
+      "image": "weather.heat_lightning.webp",
       "label": {
         "ar": "اشواش حرارية",
         "cs": "tepelné blesky",
@@ -2832,7 +2842,7 @@
     },
     {
       "key": "weather.waterspout",
-      "image": "weather.waterspout.png",
+      "image": "weather.waterspout.webp",
       "label": {
         "ar": "دورة بحرية",
         "cs": "vodní smrš",
@@ -2893,7 +2903,7 @@
     },
     {
       "key": "weather.whiteout",
-      "image": "weather.whiteout.png",
+      "image": "weather.whiteout.webp",
       "label": {
         "ar": "الظلام الأبيض",
         "cs": "bílá tma",
@@ -2954,7 +2964,7 @@
     },
     {
       "key": "weather.heat_shimmer",
-      "image": "weather.heat_shimmer.png",
+      "image": "weather.heat_shimmer.webp",
       "label": {
         "ar": "ماريني",
         "cs": "marení",
@@ -3015,7 +3025,7 @@
     },
     {
       "key": "weather.slush",
-      "image": "weather.slush.png",
+      "image": "weather.slush.webp",
       "label": {
         "ar": "ثلج مذاب",
         "cs": "rozbředlý sníh",

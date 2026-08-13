@@ -2,9 +2,34 @@
   "deck": "food-fruits",
   "version": 1,
   "styles": [
-    "pony-cartoon",
-    "flux-real"
+    "flux-real",
+    "illustrious-flat",
+    "illustrious-ink",
+    "illustrious-pastel",
+    "illustrious-watercolor"
   ],
+  "styleAvailability": {
+    "flux-real": {
+      "bundled": true,
+      "cdn": true
+    },
+    "illustrious-flat": {
+      "bundled": true,
+      "cdn": true
+    },
+    "illustrious-ink": {
+      "bundled": true,
+      "cdn": true
+    },
+    "illustrious-pastel": {
+      "bundled": true,
+      "cdn": true
+    },
+    "illustrious-watercolor": {
+      "bundled": true,
+      "cdn": true
+    }
+  },
   "defaultStyle": "flux-real",
   "titles": {
     "ar": "الفاكهة",
@@ -41,7 +66,7 @@
   "cards": [
     {
       "key": "fruit.apple",
-      "image": "fruit.apple.png",
+      "image": "fruit.apple.webp",
       "label": {
         "ar": "تفاحة",
         "bg": "ябълка",
@@ -141,7 +166,7 @@
     },
     {
       "key": "fruit.banana",
-      "image": "fruit.banana.png",
+      "image": "fruit.banana.webp",
       "label": {
         "ar": "موز",
         "bg": "банан",
@@ -241,7 +266,7 @@
     },
     {
       "key": "fruit.orange",
-      "image": "fruit.orange.png",
+      "image": "fruit.orange.webp",
       "label": {
         "ar": "البرتقال",
         "bg": "портокал",
@@ -341,7 +366,7 @@
     },
     {
       "key": "fruit.strawberry",
-      "image": "fruit.strawberry.png",
+      "image": "fruit.strawberry.webp",
       "label": {
         "ar": "الفراولة",
         "bg": "ягода",
@@ -441,7 +466,7 @@
     },
     {
       "key": "fruit.grape",
-      "image": "fruit.grape.png",
+      "image": "fruit.grape.webp",
       "label": {
         "ar": "العنب",
         "bg": "грозде",
@@ -541,7 +566,7 @@
     },
     {
       "key": "fruit.watermelon",
-      "image": "fruit.watermelon.png",
+      "image": "fruit.watermelon.webp",
       "label": {
         "ar": "البطيخ",
         "bg": "диня",
@@ -641,7 +666,7 @@
     },
     {
       "key": "fruit.mango",
-      "image": "fruit.mango.png",
+      "image": "fruit.mango.webp",
       "label": {
         "ar": "المانجو",
         "bg": "манго",
@@ -741,7 +766,7 @@
     },
     {
       "key": "fruit.cherry",
-      "image": "fruit.cherry.png",
+      "image": "fruit.cherry.webp",
       "label": {
         "ar": "الكرز",
         "bg": "череша",
@@ -841,7 +866,7 @@
     },
     {
       "key": "fruit.pear",
-      "image": "fruit.pear.png",
+      "image": "fruit.pear.webp",
       "label": {
         "ar": "الكمثرى",
         "bg": "круша",
@@ -941,7 +966,7 @@
     },
     {
       "key": "fruit.pineapple",
-      "image": "fruit.pineapple.png",
+      "image": "fruit.pineapple.webp",
       "label": {
         "ar": "الأناناس",
         "bg": "ананас",
@@ -1041,7 +1066,7 @@
     },
     {
       "key": "fruit.lemon",
-      "image": "fruit.lemon.png",
+      "image": "fruit.lemon.webp",
       "label": {
         "ar": "الليمون",
         "bg": "лимон",
@@ -1141,7 +1166,7 @@
     },
     {
       "key": "fruit.lime",
-      "image": "fruit.lime.png",
+      "image": "fruit.lime.webp",
       "label": {
         "ar": "الليمون الأخضر",
         "bg": "лайм",
@@ -1241,7 +1266,7 @@
     },
     {
       "key": "fruit.kiwi",
-      "image": "fruit.kiwi.png",
+      "image": "fruit.kiwi.webp",
       "label": {
         "ar": "الكيوي",
         "bg": "киви",
@@ -1341,7 +1366,7 @@
     },
     {
       "key": "fruit.peach",
-      "image": "fruit.peach.png",
+      "image": "fruit.peach.webp",
       "label": {
         "ar": "الخوخ",
         "bg": "праскова",
@@ -1441,7 +1466,7 @@
     },
     {
       "key": "fruit.plum",
-      "image": "fruit.plum.png",
+      "image": "fruit.plum.webp",
       "label": {
         "ar": "البرقوق",
         "bg": "слива",
@@ -1541,7 +1566,7 @@
     },
     {
       "key": "fruit.apricot",
-      "image": "fruit.apricot.png",
+      "image": "fruit.apricot.webp",
       "label": {
         "ar": "المشمش",
         "bg": "кайсия",
@@ -1641,7 +1666,7 @@
     },
     {
       "key": "fruit.raspberry",
-      "image": "fruit.raspberry.png",
+      "image": "fruit.raspberry.webp",
       "label": {
         "ar": "توت العُلّيق الأحمر",
         "bg": "малина",
@@ -1741,7 +1766,7 @@
     },
     {
       "key": "fruit.blueberry",
-      "image": "fruit.blueberry.png",
+      "image": "fruit.blueberry.webp",
       "label": {
         "ar": "التوت الأزرق",
         "bg": "боровинка",
@@ -1841,7 +1866,7 @@
     },
     {
       "key": "fruit.blackberry",
-      "image": "fruit.blackberry.png",
+      "image": "fruit.blackberry.webp",
       "label": {
         "ar": "العُلّيق",
         "bg": "къпина",
@@ -1941,7 +1966,7 @@
     },
     {
       "key": "fruit.coconut",
-      "image": "fruit.coconut.png",
+      "image": "fruit.coconut.webp",
       "label": {
         "ar": "جوز الهند",
         "bg": "кокос",
@@ -2041,7 +2066,7 @@
     },
     {
       "key": "fruit.papaya",
-      "image": "fruit.papaya.png",
+      "image": "fruit.papaya.webp",
       "label": {
         "ar": "البابايا",
         "bg": "папая",
@@ -2141,7 +2166,7 @@
     },
     {
       "key": "fruit.guava",
-      "image": "fruit.guava.png",
+      "image": "fruit.guava.webp",
       "label": {
         "ar": "الجوافة",
         "bg": "гуава",
@@ -2241,7 +2266,7 @@
     },
     {
       "key": "fruit.pomegranate",
-      "image": "fruit.pomegranate.png",
+      "image": "fruit.pomegranate.webp",
       "label": {
         "ar": "الرُّمّان",
         "bg": "нар",
@@ -2341,7 +2366,7 @@
     },
     {
       "key": "fruit.fig",
-      "image": "fruit.fig.png",
+      "image": "fruit.fig.webp",
       "label": {
         "ar": "التين",
         "bg": "смокиня",
@@ -2441,7 +2466,7 @@
     },
     {
       "key": "fruit.date",
-      "image": "fruit.date.png",
+      "image": "fruit.date.webp",
       "label": {
         "ar": "التمر",
         "bg": "фурма",
@@ -2541,7 +2566,7 @@
     },
     {
       "key": "fruit.melon",
-      "image": "fruit.melon.png",
+      "image": "fruit.melon.webp",
       "label": {
         "ar": "الشمّام",
         "bg": "пъпеш",
@@ -2641,7 +2666,7 @@
     },
     {
       "key": "fruit.cantaloupe",
-      "image": "fruit.cantaloupe.png",
+      "image": "fruit.cantaloupe.webp",
       "label": {
         "ar": "الكنتالوب",
         "bg": "пъпеш канталупа",
@@ -2741,7 +2766,7 @@
     },
     {
       "key": "fruit.grapefruit",
-      "image": "fruit.grapefruit.png",
+      "image": "fruit.grapefruit.webp",
       "label": {
         "ar": "الجريب فروت",
         "bg": "грейпфрут",
@@ -2841,7 +2866,7 @@
     },
     {
       "key": "fruit.tangerine",
-      "image": "fruit.tangerine.png",
+      "image": "fruit.tangerine.webp",
       "label": {
         "ar": "اليوسُفي",
         "bg": "мандарина",
@@ -2941,7 +2966,7 @@
     },
     {
       "key": "fruit.passion_fruit",
-      "image": "fruit.passion_fruit.png",
+      "image": "fruit.passion_fruit.webp",
       "label": {
         "ar": "فاكهة العاطفة",
         "bg": "маракуя",
@@ -3041,7 +3066,7 @@
     },
     {
       "key": "fruit.lychee",
-      "image": "fruit.lychee.png",
+      "image": "fruit.lychee.webp",
       "label": {
         "ar": "الليتشي",
         "bg": "личи",
@@ -3141,7 +3166,7 @@
     },
     {
       "key": "fruit.dragon_fruit",
-      "image": "fruit.dragon_fruit.png",
+      "image": "fruit.dragon_fruit.webp",
       "label": {
         "ar": "فاكهة التنين",
         "bg": "драконов плод",
@@ -3241,7 +3266,7 @@
     },
     {
       "key": "fruit.starfruit",
-      "image": "fruit.starfruit.png",
+      "image": "fruit.starfruit.webp",
       "label": {
         "ar": "فاكهة النجمة",
         "bg": "карамбола",
@@ -3341,7 +3366,7 @@
     },
     {
       "key": "fruit.avocado",
-      "image": "fruit.avocado.png",
+      "image": "fruit.avocado.webp",
       "label": {
         "ar": "أفوكادو",
         "bg": "авокадо",
@@ -3441,7 +3466,7 @@
     },
     {
       "key": "fruit.persimmon",
-      "image": "fruit.persimmon.png",
+      "image": "fruit.persimmon.webp",
       "label": {
         "ar": "الكاكا",
         "bg": "райска ябълка",
@@ -3541,7 +3566,7 @@
     },
     {
       "key": "fruit.mulberry",
-      "image": "fruit.mulberry.png",
+      "image": "fruit.mulberry.webp",
       "label": {
         "ar": "التوت",
         "bg": "черница",
@@ -3641,7 +3666,7 @@
     },
     {
       "key": "fruit.cranberry",
-      "image": "fruit.cranberry.png",
+      "image": "fruit.cranberry.webp",
       "label": {
         "ar": "التوت البرّي",
         "bg": "червена боровинка",
@@ -3741,7 +3766,7 @@
     },
     {
       "key": "fruit.gooseberry",
-      "image": "fruit.gooseberry.png",
+      "image": "fruit.gooseberry.webp",
       "label": {
         "ar": "عنب الثعلب",
         "bg": "цариградско грозде",
@@ -3841,7 +3866,7 @@
     },
     {
       "key": "fruit.currant",
-      "image": "fruit.currant.png",
+      "image": "fruit.currant.webp",
       "label": {
         "ar": "الكشمش",
         "bg": "френско грозде",
@@ -3941,7 +3966,7 @@
     },
     {
       "key": "fruit.quince",
-      "image": "fruit.quince.png",
+      "image": "fruit.quince.webp",
       "label": {
         "ar": "السفرجل",
         "bg": "дюля",
@@ -4041,7 +4066,7 @@
     },
     {
       "key": "fruit.jackfruit",
-      "image": "fruit.jackfruit.png",
+      "image": "fruit.jackfruit.webp",
       "label": {
         "ar": "ثمرة الجاك",
         "bg": "джекфрут",
@@ -4141,7 +4166,7 @@
     },
     {
       "key": "fruit.durian",
-      "image": "fruit.durian.png",
+      "image": "fruit.durian.webp",
       "label": {
         "ar": "الدوريان",
         "bg": "дуриан",
@@ -4241,7 +4266,7 @@
     },
     {
       "key": "fruit.rambutan",
-      "image": "fruit.rambutan.png",
+      "image": "fruit.rambutan.webp",
       "label": {
         "ar": "الرامبوتان",
         "bg": "рамбутан",
@@ -4341,7 +4366,7 @@
     },
     {
       "key": "fruit.longan",
-      "image": "fruit.longan.png",
+      "image": "fruit.longan.webp",
       "label": {
         "ar": "اللونجان",
         "bg": "лонган",
@@ -4441,7 +4466,7 @@
     },
     {
       "key": "fruit.tamarind",
-      "image": "fruit.tamarind.png",
+      "image": "fruit.tamarind.webp",
       "label": {
         "ar": "التمر الهنديّ",
         "bg": "тамаринд",
@@ -4541,7 +4566,7 @@
     },
     {
       "key": "fruit.nectarine",
-      "image": "fruit.nectarine.png",
+      "image": "fruit.nectarine.webp",
       "label": {
         "ar": "النكتارين",
         "bg": "нектарина",
@@ -4641,7 +4666,7 @@
     },
     {
       "key": "fruit.damson",
-      "image": "fruit.damson.png",
+      "image": "fruit.damson.webp",
       "label": {
         "ar": "البرقوق الدمشقيّ",
         "bg": "дамаскинска слива",
@@ -4741,7 +4766,7 @@
     },
     {
       "key": "fruit.medlar",
-      "image": "fruit.medlar.png",
+      "image": "fruit.medlar.webp",
       "label": {
         "ar": "المِشْمِلة",
         "bg": "мушмула",
@@ -4841,7 +4866,7 @@
     },
     {
       "key": "fruit.ackee",
-      "image": "fruit.ackee.png",
+      "image": "fruit.ackee.webp",
       "label": {
         "ar": "الأكي",
         "bg": "аки",
@@ -4941,7 +4966,7 @@
     },
     {
       "key": "fruit.feijoa",
-      "image": "fruit.feijoa.png",
+      "image": "fruit.feijoa.webp",
       "label": {
         "ar": "الفيجوا",
         "bg": "фейхоа",

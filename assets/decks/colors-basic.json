@@ -5,6 +5,16 @@
     "pony-cartoon",
     "flux-real"
   ],
+  "styleAvailability": {
+    "flux-real": {
+      "bundled": true,
+      "cdn": false
+    },
+    "pony-cartoon": {
+      "bundled": true,
+      "cdn": false
+    }
+  },
   "defaultStyle": "flux-real",
   "titles": {
     "ar": "الألوان الأساسية",
@@ -28,7 +38,7 @@
   "cards": [
     {
       "key": "color.red",
-      "image": "color.red.png",
+      "image": "color.red.webp",
       "label": {
         "ar": "الحمراء",
         "cs": "červená",
@@ -89,7 +99,7 @@
     },
     {
       "key": "color.blue",
-      "image": "color.blue.png",
+      "image": "color.blue.webp",
       "label": {
         "ar": "زرقاء",
         "cs": "modrá",
@@ -150,7 +160,7 @@
     },
     {
       "key": "color.green",
-      "image": "color.green.png",
+      "image": "color.green.webp",
       "label": {
         "ar": "الأخضر",
         "cs": "zelená",
@@ -211,7 +221,7 @@
     },
     {
       "key": "color.yellow",
-      "image": "color.yellow.png",
+      "image": "color.yellow.webp",
       "label": {
         "ar": "اللون الأصفر",
         "cs": "žlutá",
@@ -272,7 +282,7 @@
     },
     {
       "key": "color.orange",
-      "image": "color.orange.png",
+      "image": "color.orange.webp",
       "label": {
         "ar": "البرتقالي",
         "cs": "oranžová",
@@ -333,7 +343,7 @@
     },
     {
       "key": "color.purple",
-      "image": "color.purple.png",
+      "image": "color.purple.webp",
       "label": {
         "ar": "بنفسجية",
         "cs": "fialová",
@@ -394,7 +404,7 @@
     },
     {
       "key": "color.pink",
-      "image": "color.pink.png",
+      "image": "color.pink.webp",
       "label": {
         "ar": "رُزَوْفَا",
         "cs": "růžová",
@@ -455,7 +465,7 @@
     },
     {
       "key": "color.brown",
-      "image": "color.brown.png",
+      "image": "color.brown.webp",
       "label": {
         "ar": "البني",
         "cs": "hnědá",
@@ -516,7 +526,7 @@
     },
     {
       "key": "color.black",
-      "image": "color.black.png",
+      "image": "color.black.webp",
       "label": {
         "ar": "أسود",
         "cs": "černá",
@@ -577,7 +587,7 @@
     },
     {
       "key": "color.white",
-      "image": "color.white.png",
+      "image": "color.white.webp",
       "label": {
         "ar": "بيضاء",
         "cs": "bílá",
@@ -638,7 +648,7 @@
     },
     {
       "key": "color.grey",
-      "image": "color.grey.png",
+      "image": "color.grey.webp",
       "label": {
         "ar": "رَمْضِي",
         "cs": "šedá",
@@ -699,7 +709,7 @@
     },
     {
       "key": "color.beige",
-      "image": "color.beige.png",
+      "image": "color.beige.webp",
       "label": {
         "ar": "بَيْج",
         "cs": "béžová",
@@ -760,7 +770,7 @@
     },
     {
       "key": "color.ivory",
-      "image": "color.ivory.png",
+      "image": "color.ivory.webp",
       "label": {
         "ar": "أبيض كريم",
         "cs": "slonovinová",
@@ -821,7 +831,7 @@
     },
     {
       "key": "color.cream",
-      "image": "color.cream.png",
+      "image": "color.cream.webp",
       "label": {
         "ar": "كريمية",
         "cs": "krémová",
@@ -882,7 +892,7 @@
     },
     {
       "key": "color.maroon",
-      "image": "color.maroon.png",
+      "image": "color.maroon.webp",
       "label": {
         "ar": "كاشتنوفي",
         "cs": "kaštanová",
@@ -943,7 +953,7 @@
     },
     {
       "key": "color.navy",
-      "image": "color.navy.png",
+      "image": "color.navy.webp",
       "label": {
         "ar": "أزرق نافي",
         "cs": "námořnická modrá",
@@ -1004,7 +1014,7 @@
     },
     {
       "key": "color.teal",
-      "image": "color.teal.png",
+      "image": "color.teal.webp",
       "label": {
         "ar": "#008080",
         "cs": "modrozelená",
@@ -1065,7 +1075,7 @@
     },
     {
       "key": "color.turquoise",
-      "image": "color.turquoise.png",
+      "image": "color.turquoise.webp",
       "label": {
         "ar": "تيركونسي",
         "cs": "tyrkysová",
@@ -1126,7 +1136,7 @@
     },
     {
       "key": "color.lime",
-      "image": "color.lime.png",
+      "image": "color.lime.webp",
       "label": {
         "ar": "لّون لِمَوْنِي",
         "cs": "limetková",
@@ -1187,7 +1197,7 @@
     },
     {
       "key": "color.olive",
-      "image": "color.olive.png",
+      "image": "color.olive.webp",
       "label": {
         "ar": "أوليف",
         "cs": "olivová",
@@ -1248,7 +1258,7 @@
     },
     {
       "key": "color.gold",
-      "image": "color.gold.png",
+      "image": "color.gold.webp",
       "label": {
         "ar": "ذهبي",
         "cs": "zlatá",
@@ -1309,7 +1319,7 @@
     },
     {
       "key": "color.silver",
-      "image": "color.silver.png",
+      "image": "color.silver.webp",
       "label": {
         "ar": "{\"label\": \"فضّي\"}",
         "cs": "stříbrná",
@@ -1370,7 +1380,7 @@
     },
     {
       "key": "color.copper",
-      "image": "color.copper.png",
+      "image": "color.copper.webp",
       "label": {
         "ar": "مُعَطِّرٌ بالنِّحَا س",
         "cs": "měděná",
@@ -1431,7 +1441,7 @@
     },
     {
       "key": "color.bronze",
-      "image": "color.bronze.png",
+      "image": "color.bronze.webp",
       "label": {
         "ar": "برونزية",
         "cs": "bronzová",
@@ -1492,7 +1502,7 @@
     },
     {
       "key": "color.coral",
-      "image": "color.coral.png",
+      "image": "color.coral.webp",
       "label": {
         "ar": "لون المرجان",
         "cs": "korálová",
@@ -1553,7 +1563,7 @@
     },
     {
       "key": "color.salmon",
-      "image": "color.salmon.png",
+      "image": "color.salmon.webp",
       "label": {
         "ar": "السلموني",
         "cs": "lososová",
@@ -1614,7 +1624,7 @@
     },
     {
       "key": "color.rose",
-      "image": "color.rose.png",
+      "image": "color.rose.webp",
       "label": {
         "ar": "rosy",
         "cs": "růžová",
@@ -1675,7 +1685,7 @@
     },
     {
       "key": "color.magenta",
-      "image": "color.magenta.png",
+      "image": "color.magenta.webp",
       "label": {
         "ar": "ماجينتا",
         "cs": "purpurová",
@@ -1736,7 +1746,7 @@
     },
     {
       "key": "color.violet",
-      "image": "color.violet.png",
+      "image": "color.violet.webp",
       "label": {
         "ar": "الأرجواني",
         "cs": "fialová",
@@ -1797,7 +1807,7 @@
     },
     {
       "key": "color.indigo",
-      "image": "color.indigo.png",
+      "image": "color.indigo.webp",
       "label": {
         "ar": "أنديغو",
         "cs": "indigová",
@@ -1858,7 +1868,7 @@
     },
     {
       "key": "color.lavender",
-      "image": "color.lavender.png",
+      "image": "color.lavender.webp",
       "label": {
         "ar": "ليلكي",
         "cs": "levandulová",
@@ -1919,7 +1929,7 @@
     },
     {
       "key": "color.mint",
-      "image": "color.mint.png",
+      "image": "color.mint.webp",
       "label": {
         "ar": "ماتو",
         "cs": "mátová",
@@ -1980,7 +1990,7 @@
     },
     {
       "key": "color.khaki",
-      "image": "color.khaki.png",
+      "image": "color.khaki.webp",
       "label": {
         "ar": "كاكي",
         "cs": "khaki",
@@ -2041,7 +2051,7 @@
     },
     {
       "key": "color.tan",
-      "image": "color.tan.png",
+      "image": "color.tan.webp",
       "label": {
         "ar": "بونيتو",
         "cs": "pískovaná",
@@ -2102,7 +2112,7 @@
     },
     {
       "key": "color.amber",
-      "image": "color.amber.png",
+      "image": "color.amber.webp",
       "label": {
         "ar": "أحمر جنتاري",
         "cs": "jantarová",
@@ -2163,7 +2173,7 @@
     },
     {
       "key": "color.crimson",
-      "image": "color.crimson.png",
+      "image": "color.crimson.webp",
       "label": {
         "ar": "كرميزوني",
         "cs": "karmínová",
@@ -2224,7 +2234,7 @@
     },
     {
       "key": "color.scarlet",
-      "image": "color.scarlet.png",
+      "image": "color.scarlet.webp",
       "label": {
         "ar": "شارلاتي",
         "cs": "šarlatová",
@@ -2285,7 +2295,7 @@
     },
     {
       "key": "color.cobalt",
-      "image": "color.cobalt.png",
+      "image": "color.cobalt.webp",
       "label": {
         "ar": "كوبلت",
         "cs": "kobaltová",
@@ -2346,7 +2356,7 @@
     },
     {
       "key": "color.aqua",
-      "image": "color.aqua.png",
+      "image": "color.aqua.webp",
       "label": {
         "ar": "\"أكوا\"",
         "cs": "aqua",
@@ -2407,7 +2417,7 @@
     },
     {
       "key": "color.chartreuse",
-      "image": "color.chartreuse.png",
+      "image": "color.chartreuse.webp",
       "label": {
         "ar": "_chartreuse_",
         "cs": "žlutozelená",
@@ -2468,7 +2478,7 @@
     },
     {
       "key": "color.mauve",
-      "image": "color.mauve.png",
+      "image": "color.mauve.webp",
       "label": {
         "ar": "بنفسج",
         "cs": "lila",
@@ -2529,7 +2539,7 @@
     },
     {
       "key": "color.periwinkle",
-      "image": "color.periwinkle.png",
+      "image": "color.periwinkle.webp",
       "label": {
         "ar": "أزرق برتقال",
         "cs": "periwinkle modrá",
@@ -2590,7 +2600,7 @@
     },
     {
       "key": "color.fuchsia",
-      "image": "color.fuchsia.png",
+      "image": "color.fuchsia.webp",
       "label": {
         "ar": "فوشي",
         "cs": "fuchsiová",
@@ -2651,7 +2661,7 @@
     },
     {
       "key": "color.cyan",
-      "image": "color.cyan.png",
+      "image": "color.cyan.webp",
       "label": {
         "ar": "أزرق سماقي",
         "cs": "azurová",
@@ -2712,7 +2722,7 @@
     },
     {
       "key": "color.vermillion",
-      "image": "color.vermillion.png",
+      "image": "color.vermillion.webp",
       "label": {
         "ar": "رملية",
         "cs": "rumělková",
@@ -2773,7 +2783,7 @@
     },
     {
       "key": "color.ochre",
-      "image": "color.ochre.png",
+      "image": "color.ochre.webp",
       "label": {
         "ar": "أوكري",
         "cs": "okrová",
@@ -2834,7 +2844,7 @@
     },
     {
       "key": "color.sienna",
-      "image": "color.sienna.png",
+      "image": "color.sienna.webp",
       "label": {
         "ar": "سيانسكا حنئة",
         "cs": "sienská hněď",
@@ -2895,7 +2905,7 @@
     },
     {
       "key": "color.azure",
-      "image": "color.azure.png",
+      "image": "color.azure.webp",
       "label": {
         "ar": "أزرق سماوي",
         "cs": "azurová modrá",
@@ -2956,7 +2966,7 @@
     },
     {
       "key": "color.charcoal",
-      "image": "color.charcoal.png",
+      "image": "color.charcoal.webp",
       "label": {
         "ar": "أنتراستي",
         "cs": "antracitová",
@@ -3017,7 +3027,7 @@
     },
     {
       "key": "color.burgundy",
-      "image": "color.burgundy.png",
+      "image": "color.burgundy.webp",
       "label": {
         "ar": "бургундская",
         "cs": "burgundská",

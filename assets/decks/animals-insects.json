@@ -3,9 +3,34 @@
   "version": 1,
   "tier": 1,
   "styles": [
-    "pony-cartoon",
-    "flux-real"
+    "flux-real",
+    "illustrious-flat",
+    "illustrious-ink",
+    "illustrious-pastel",
+    "illustrious-watercolor"
   ],
+  "styleAvailability": {
+    "flux-real": {
+      "bundled": true,
+      "cdn": true
+    },
+    "illustrious-flat": {
+      "bundled": true,
+      "cdn": true
+    },
+    "illustrious-ink": {
+      "bundled": true,
+      "cdn": true
+    },
+    "illustrious-pastel": {
+      "bundled": true,
+      "cdn": true
+    },
+    "illustrious-watercolor": {
+      "bundled": true,
+      "cdn": true
+    }
+  },
   "defaultStyle": "flux-real",
   "titles": {
     "ar": "الحشرات",
@@ -42,7 +67,7 @@
   "cards": [
     {
       "key": "insect.butterfly",
-      "image": "insect.butterfly.png",
+      "image": "insect.butterfly.webp",
       "label": {
         "ar": "فراشة",
         "bg": "пеперуда",
@@ -142,7 +167,7 @@
     },
     {
       "key": "insect.bee",
-      "image": "insect.bee.png",
+      "image": "insect.bee.webp",
       "label": {
         "ar": "نحلة",
         "bg": "пчела",
@@ -242,7 +267,7 @@
     },
     {
       "key": "insect.ladybug",
-      "image": "insect.ladybug.png",
+      "image": "insect.ladybug.webp",
       "label": {
         "ar": "الدعسوقة",
         "bg": "калинка",
@@ -342,7 +367,7 @@
     },
     {
       "key": "insect.dragonfly",
-      "image": "insect.dragonfly.png",
+      "image": "insect.dragonfly.webp",
       "label": {
         "ar": "اليعسوب",
         "bg": "водно конче",
@@ -442,7 +467,7 @@
     },
     {
       "key": "insect.ant",
-      "image": "insect.ant.png",
+      "image": "insect.ant.webp",
       "label": {
         "ar": "نملة",
         "bg": "мравка",
@@ -542,7 +567,7 @@
     },
     {
       "key": "insect.beetle",
-      "image": "insect.beetle.png",
+      "image": "insect.beetle.webp",
       "label": {
         "ar": "خنفساء",
         "bg": "бръмбар",
@@ -642,7 +667,7 @@
     },
     {
       "key": "insect.grasshopper",
-      "image": "insect.grasshopper.png",
+      "image": "insect.grasshopper.webp",
       "label": {
         "ar": "الجُندب",
         "bg": "скакалец",
@@ -742,7 +767,7 @@
     },
     {
       "key": "insect.cricket",
-      "image": "insect.cricket.png",
+      "image": "insect.cricket.webp",
       "label": {
         "ar": "الجُدجُد",
         "bg": "щурец",
@@ -842,7 +867,7 @@
     },
     {
       "key": "insect.mosquito",
-      "image": "insect.mosquito.png",
+      "image": "insect.mosquito.webp",
       "label": {
         "ar": "البعوضة",
         "bg": "комар",
@@ -942,7 +967,7 @@
     },
     {
       "key": "insect.fly",
-      "image": "insect.fly.png",
+      "image": "insect.fly.webp",
       "label": {
         "ar": "الذبابة المنزلية",
         "bg": "муха",
@@ -1042,7 +1067,7 @@
     },
     {
       "key": "insect.moth",
-      "image": "insect.moth.png",
+      "image": "insect.moth.webp",
       "label": {
         "ar": "العُثّة",
         "bg": "нощна пеперуда",
@@ -1142,7 +1167,7 @@
     },
     {
       "key": "insect.caterpillar",
-      "image": "insect.caterpillar.png",
+      "image": "insect.caterpillar.webp",
       "label": {
         "ar": "يرقة",
         "bg": "гъсеница",
@@ -1242,7 +1267,7 @@
     },
     {
       "key": "insect.praying_mantis",
-      "image": "insect.praying_mantis.png",
+      "image": "insect.praying_mantis.webp",
       "label": {
         "ar": "فرس النبي",
         "bg": "богомолка",
@@ -1342,7 +1367,7 @@
     },
     {
       "key": "insect.stick_insect",
-      "image": "insect.stick_insect.png",
+      "image": "insect.stick_insect.webp",
       "label": {
         "ar": "حشرة العصا",
         "bg": "пръчковидно насекомо",
@@ -1442,7 +1467,7 @@
     },
     {
       "key": "insect.firefly",
-      "image": "insect.firefly.png",
+      "image": "insect.firefly.webp",
       "label": {
         "ar": "اليراعة",
         "bg": "светулка",
@@ -1542,7 +1567,7 @@
     },
     {
       "key": "insect.wasp",
-      "image": "insect.wasp.png",
+      "image": "insect.wasp.webp",
       "label": {
         "ar": "الزنبور",
         "bg": "оса",
@@ -1642,7 +1667,7 @@
     },
     {
       "key": "insect.cockroach",
-      "image": "insect.cockroach.png",
+      "image": "insect.cockroach.webp",
       "label": {
         "ar": "صرصور",
         "bg": "хлебарка",
@@ -1742,7 +1767,7 @@
     },
     {
       "key": "insect.spider",
-      "image": "insect.spider.png",
+      "image": "insect.spider.webp",
       "label": {
         "ar": "العنكبوت",
         "bg": "паяк",
@@ -1842,7 +1867,7 @@
     },
     {
       "key": "insect.scorpion",
-      "image": "insect.scorpion.png",
+      "image": "insect.scorpion.webp",
       "label": {
         "ar": "العقرب",
         "bg": "скорпион",
@@ -1942,7 +1967,7 @@
     },
     {
       "key": "insect.centipede",
-      "image": "insect.centipede.png",
+      "image": "insect.centipede.webp",
       "label": {
         "ar": "حريش",
         "bg": "стоножка",
@@ -2042,7 +2067,7 @@
     },
     {
       "key": "insect.flea",
-      "image": "insect.flea.png",
+      "image": "insect.flea.webp",
       "label": {
         "ar": "البرغوث",
         "bg": "бълха",
@@ -2142,7 +2167,7 @@
     },
     {
       "key": "insect.termite",
-      "image": "insect.termite.png",
+      "image": "insect.termite.webp",
       "label": {
         "ar": "النمل الأبيض",
         "bg": "термит",
@@ -2242,7 +2267,7 @@
     },
     {
       "key": "insect.bumblebee",
-      "image": "insect.bumblebee.png",
+      "image": "insect.bumblebee.webp",
       "label": {
         "ar": "النحلة الطنانة",
         "bg": "земна пчела",
@@ -2342,7 +2367,7 @@
     },
     {
       "key": "insect.hornet",
-      "image": "insect.hornet.png",
+      "image": "insect.hornet.webp",
       "label": {
         "ar": "الدبّور",
         "bg": "стършел",
@@ -2442,7 +2467,7 @@
     },
     {
       "key": "insect.cicada",
-      "image": "insect.cicada.png",
+      "image": "insect.cicada.webp",
       "label": {
         "ar": "الزيز",
         "bg": "цикада",
@@ -2542,7 +2567,7 @@
     },
     {
       "key": "insect.locust",
-      "image": "insect.locust.png",
+      "image": "insect.locust.webp",
       "label": {
         "ar": "الجراد",
         "bg": "прелетен скакалец",
@@ -2642,7 +2667,7 @@
     },
     {
       "key": "insect.aphid",
-      "image": "insect.aphid.png",
+      "image": "insect.aphid.webp",
       "label": {
         "ar": "المَنّ",
         "bg": "листна въшка",
@@ -2742,7 +2767,7 @@
     },
     {
       "key": "insect.earwig",
-      "image": "insect.earwig.png",
+      "image": "insect.earwig.webp",
       "label": {
         "ar": "أبو مقص",
         "bg": "щипалка",
@@ -2842,7 +2867,7 @@
     },
     {
       "key": "insect.silverfish",
-      "image": "insect.silverfish.png",
+      "image": "insect.silverfish.webp",
       "label": {
         "ar": "سمكة الفضة",
         "bg": "сребърна рибка",
@@ -2942,7 +2967,7 @@
     },
     {
       "key": "insect.water_strider",
-      "image": "insect.water_strider.png",
+      "image": "insect.water_strider.webp",
       "label": {
         "ar": "عدّاء الماء",
         "bg": "водомерка",
@@ -3042,7 +3067,7 @@
     },
     {
       "key": "insect.dung_beetle",
-      "image": "insect.dung_beetle.png",
+      "image": "insect.dung_beetle.webp",
       "label": {
         "ar": "الجُعران",
         "bg": "торен бръмбар",
@@ -3142,7 +3167,7 @@
     },
     {
       "key": "insect.stag_beetle",
-      "image": "insect.stag_beetle.png",
+      "image": "insect.stag_beetle.webp",
       "label": {
         "ar": "خنفساء الأيّل",
         "bg": "еленов рогач",
@@ -3242,7 +3267,7 @@
     },
     {
       "key": "insect.atlas_moth",
-      "image": "insect.atlas_moth.png",
+      "image": "insect.atlas_moth.webp",
       "label": {
         "ar": "عثة أطلس",
         "bg": "атлас пеперуда",
@@ -3342,7 +3367,7 @@
     },
     {
       "key": "insect.weevil",
-      "image": "insect.weevil.png",
+      "image": "insect.weevil.webp",
       "label": {
         "ar": "السوسة",
         "bg": "дългоносик",
@@ -3442,7 +3467,7 @@
     },
     {
       "key": "insect.lacewing",
-      "image": "insect.lacewing.png",
+      "image": "insect.lacewing.webp",
       "label": {
         "ar": "أسد المَنّ",
         "bg": "златоочка",
@@ -3542,7 +3567,7 @@
     },
     {
       "key": "insect.crane_fly",
-      "image": "insect.crane_fly.png",
+      "image": "insect.crane_fly.webp",
       "label": {
         "ar": "ذبابة الرافعة",
         "bg": "типула",
@@ -3642,7 +3667,7 @@
     },
     {
       "key": "insect.mayfly",
-      "image": "insect.mayfly.png",
+      "image": "insect.mayfly.webp",
       "label": {
         "ar": "ذبابة مايو",
         "bg": "еднодневка",
@@ -3742,7 +3767,7 @@
     },
     {
       "key": "insect.damselfly",
-      "image": "insect.damselfly.png",
+      "image": "insect.damselfly.webp",
       "label": {
         "ar": "اليعسوب الرشيق",
         "bg": "водна девойка",
@@ -3842,7 +3867,7 @@
     },
     {
       "key": "insect.robber_fly",
-      "image": "insect.robber_fly.png",
+      "image": "insect.robber_fly.webp",
       "label": {
         "ar": "الذبابة اللصّة",
         "bg": "хищна муха",
@@ -3942,7 +3967,7 @@
     },
     {
       "key": "insect.ground_beetle",
-      "image": "insect.ground_beetle.png",
+      "image": "insect.ground_beetle.webp",
       "label": {
         "ar": "خنفساء أرضية",
         "bg": "бегач",
@@ -4042,7 +4067,7 @@
     },
     {
       "key": "insect.tiger_beetle",
-      "image": "insect.tiger_beetle.png",
+      "image": "insect.tiger_beetle.webp",
       "label": {
         "ar": "خنفساء النمر",
         "bg": "бързобегач",
@@ -4142,7 +4167,7 @@
     },
     {
       "key": "insect.hoverfly",
-      "image": "insect.hoverfly.png",
+      "image": "insect.hoverfly.webp",
       "label": {
         "ar": "ذبابة الأزهار",
         "bg": "сирфидна муха",
@@ -4242,7 +4267,7 @@
     },
     {
       "key": "insect.whirligig_beetle",
-      "image": "insect.whirligig_beetle.png",
+      "image": "insect.whirligig_beetle.webp",
       "label": {
         "ar": "الخنفساء الدوّارة",
         "bg": "въртящ бръмбар",
@@ -4342,7 +4367,7 @@
     },
     {
       "key": "insect.louse",
-      "image": "insect.louse.png",
+      "image": "insect.louse.webp",
       "label": {
         "ar": "القملة",
         "bg": "въшка",
@@ -4442,7 +4467,7 @@
     },
     {
       "key": "insect.bedbug",
-      "image": "insect.bedbug.png",
+      "image": "insect.bedbug.webp",
       "label": {
         "ar": "بق الفراش",
         "bg": "дървеница",
@@ -4542,7 +4567,7 @@
     },
     {
       "key": "insect.antlion",
-      "image": "insect.antlion.png",
+      "image": "insect.antlion.webp",
       "label": {
         "ar": "أسد النمل",
         "bg": "мравколъв",
@@ -4642,7 +4667,7 @@
     },
     {
       "key": "insect.goliath_beetle",
-      "image": "insect.goliath_beetle.png",
+      "image": "insect.goliath_beetle.webp",
       "label": {
         "ar": "خنفساء جالوت",
         "bg": "голиатов бръмбар",
@@ -4742,7 +4767,7 @@
     },
     {
       "key": "insect.bombardier_beetle",
-      "image": "insect.bombardier_beetle.png",
+      "image": "insect.bombardier_beetle.webp",
       "label": {
         "ar": "الخنفساء القاذفة",
         "bg": "бръмбар бомбардировач",
@@ -4842,7 +4867,7 @@
     },
     {
       "key": "insect.diving_beetle",
-      "image": "insect.diving_beetle.png",
+      "image": "insect.diving_beetle.webp",
       "label": {
         "ar": "خنفساء الغوص",
         "bg": "плавунец",
@@ -4942,7 +4967,7 @@
     },
     {
       "key": "insect.velvet_ant",
-      "image": "insect.velvet_ant.png",
+      "image": "insect.velvet_ant.webp",
       "label": {
         "ar": "النملة المخملية",
         "bg": "кадифена мравка",

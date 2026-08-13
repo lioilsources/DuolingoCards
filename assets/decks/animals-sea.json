@@ -6,6 +6,16 @@
     "pony-cartoon",
     "flux-real"
   ],
+  "styleAvailability": {
+    "flux-real": {
+      "bundled": true,
+      "cdn": false
+    },
+    "pony-cartoon": {
+      "bundled": false,
+      "cdn": false
+    }
+  },
   "defaultStyle": "flux-real",
   "titles": {
     "ar": "الحيوانات البحرية",
@@ -29,7 +39,7 @@
   "cards": [
     {
       "key": "animal.dolphin",
-      "image": "animal.dolphin.png",
+      "image": "animal.dolphin.webp",
       "label": {
         "ar": "دلفين",
         "cs": "delfín",
@@ -90,7 +100,7 @@
     },
     {
       "key": "animal.shark",
-      "image": "animal.shark.png",
+      "image": "animal.shark.webp",
       "label": {
         "ar": "أسماك القرش",
         "cs": "žralok",
@@ -151,7 +161,7 @@
     },
     {
       "key": "animal.whale",
-      "image": "animal.whale.png",
+      "image": "animal.whale.webp",
       "label": {
         "ar": "الحيتان",
         "cs": "velryba",
@@ -212,7 +222,7 @@
     },
     {
       "key": "animal.octopus",
-      "image": "animal.octopus.png",
+      "image": "animal.octopus.webp",
       "label": {
         "ar": "الخراز",
         "cs": "chobotnice",
@@ -273,7 +283,7 @@
     },
     {
       "key": "animal.seahorse",
-      "image": "animal.seahorse.png",
+      "image": "animal.seahorse.webp",
       "label": {
         "ar": " حصان البحر",
         "cs": "mořský koník",
@@ -334,7 +344,7 @@
     },
     {
       "key": "animal.sea_turtle",
-      "image": "animal.sea_turtle.png",
+      "image": "animal.sea_turtle.webp",
       "label": {
         "ar": "السمكة المخططة",
         "cs": "mořská želva",
@@ -395,7 +405,7 @@
     },
     {
       "key": "animal.crab",
-      "image": "animal.crab.png",
+      "image": "animal.crab.webp",
       "label": {
         "ar": "كраб",
         "cs": "krab",
@@ -456,7 +466,7 @@
     },
     {
       "key": "animal.jellyfish",
-      "image": "animal.jellyfish.png",
+      "image": "animal.jellyfish.webp",
       "label": {
         "ar": "الجَرادِيَّة",
         "cs": "medúza",
@@ -517,7 +527,7 @@
     },
     {
       "key": "animal.lobster",
-      "image": "animal.lobster.png",
+      "image": "animal.lobster.webp",
       "label": {
         "ar": "الحمار",
         "cs": "humr",
@@ -578,7 +588,7 @@
     },
     {
       "key": "animal.shrimp",
-      "image": "animal.shrimp.png",
+      "image": "animal.shrimp.webp",
       "label": {
         "ar": "\"كرفو\"",
         "cs": "kreveta",
@@ -639,7 +649,7 @@
     },
     {
       "key": "animal.starfish",
-      "image": "animal.starfish.png",
+      "image": "animal.starfish.webp",
       "label": {
         "ar": "النجوم البحرية",
         "cs": "hvězdice",
@@ -700,7 +710,7 @@
     },
     {
       "key": "animal.sea_urchin",
-      "image": "animal.sea_urchin.png",
+      "image": "animal.sea_urchin.webp",
       "label": {
         "ar": "جَرْبِيّة",
         "cs": "ježovka",
@@ -761,7 +771,7 @@
     },
     {
       "key": "animal.clownfish",
-      "image": "animal.clownfish.png",
+      "image": "animal.clownfish.webp",
       "label": {
         "ar": "الكلاون العيني",
         "cs": "klaun očkatý",
@@ -822,7 +832,7 @@
     },
     {
       "key": "animal.seal",
-      "image": "animal.seal.png",
+      "image": "animal.seal.webp",
       "label": {
         "ar": "التُمْلَص",
         "cs": "tuleň",
@@ -883,7 +893,7 @@
     },
     {
       "key": "animal.walrus",
-      "image": "animal.walrus.png",
+      "image": "animal.walrus.webp",
       "label": {
         "ar": "دب بحر",
         "cs": "mrož",
@@ -944,7 +954,7 @@
     },
     {
       "key": "animal.orca",
-      "image": "animal.orca.png",
+      "image": "animal.orca.webp",
       "label": {
         "ar": "كوستكا",
         "cs": "kosatka",
@@ -1005,7 +1015,7 @@
     },
     {
       "key": "animal.narwhal",
-      "image": "animal.narwhal.png",
+      "image": "animal.narwhal.webp",
       "label": {
         "ar": "نرف",
         "cs": "narval",
@@ -1066,7 +1076,7 @@
     },
     {
       "key": "animal.manatee",
-      "image": "animal.manatee.png",
+      "image": "animal.manatee.webp",
       "label": {
         "ar": "دغونج / كابوستناك",
         "cs": "dugong/kapustňák",
@@ -1127,7 +1137,7 @@
     },
     {
       "key": "animal.sea_lion",
-      "image": "animal.sea_lion.png",
+      "image": "animal.sea_lion.webp",
       "label": {
         "ar": "لختان",
         "cs": "lachtan",
@@ -1188,7 +1198,7 @@
     },
     {
       "key": "animal.manta_ray",
-      "image": "animal.manta_ray.png",
+      "image": "animal.manta_ray.webp",
       "label": {
         "ar": "رائي مانتا",
         "cs": "rai manta",
@@ -1249,7 +1259,7 @@
     },
     {
       "key": "animal.swordfish",
-      "image": "animal.swordfish.png",
+      "image": "animal.swordfish.webp",
       "label": {
         "ar": "المُقَطِّعة",
         "cs": "mečoun",
@@ -1310,7 +1320,7 @@
     },
     {
       "key": "animal.tuna",
-      "image": "animal.tuna.png",
+      "image": "animal.tuna.webp",
       "label": {
         "ar": "تونا",
         "cs": "tuňák",
@@ -1371,7 +1381,7 @@
     },
     {
       "key": "animal.salmon",
-      "image": "animal.salmon.png",
+      "image": "animal.salmon.webp",
       "label": {
         "ar": "سمكة سالمون",
         "cs": "losos",
@@ -1432,7 +1442,7 @@
     },
     {
       "key": "animal.eel",
-      "image": "animal.eel.png",
+      "image": "animal.eel.webp",
       "label": {
         "ar": "ปลาไหล / มูเรนา",
         "cs": "úhoř/murénа",
@@ -1493,7 +1503,7 @@
     },
     {
       "key": "animal.squid",
-      "image": "animal.squid.png",
+      "image": "animal.squid.webp",
       "label": {
         "ar": "جرانييه",
         "cs": "olihně",
@@ -1554,7 +1564,7 @@
     },
     {
       "key": "animal.nautilus",
-      "image": "animal.nautilus.png",
+      "image": "animal.nautilus.webp",
       "label": {
         "ar": "نايتليس",
         "cs": "nautilus",
@@ -1615,7 +1625,7 @@
     },
     {
       "key": "animal.clam",
-      "image": "animal.clam.png",
+      "image": "animal.clam.webp",
       "label": {
         "ar": "المحار الضخم",
         "cs": "mlž obří",
@@ -1676,7 +1686,7 @@
     },
     {
       "key": "animal.oyster",
-      "image": "animal.oyster.png",
+      "image": "animal.oyster.webp",
       "label": {
         "ar": "oyster",
         "cs": "ústřice",
@@ -1737,7 +1747,7 @@
     },
     {
       "key": "animal.mussel",
-      "image": "animal.mussel.png",
+      "image": "animal.mussel.webp",
       "label": {
         "ar": "سلوفك",
         "cs": "slávka",
@@ -1798,7 +1808,7 @@
     },
     {
       "key": "animal.sea_anemone",
-      "image": "animal.sea_anemone.png",
+      "image": "animal.sea_anemone.webp",
       "label": {
         "ar": "سحلية البحر",
         "cs": "sasanka mořská",
@@ -1859,7 +1869,7 @@
     },
     {
       "key": "animal.stingray",
-      "image": "animal.stingray.png",
+      "image": "animal.stingray.webp",
       "label": {
         "ar": "رجنة",
         "cs": "rejnok",
@@ -1920,7 +1930,7 @@
     },
     {
       "key": "animal.hammerhead_shark",
-      "image": "animal.hammerhead_shark.png",
+      "image": "animal.hammerhead_shark.webp",
       "label": {
         "ar": "قرش ذي حافة مستديرة",
         "cs": "žralok kladivoun",
@@ -1981,7 +1991,7 @@
     },
     {
       "key": "animal.beluga_whale",
-      "image": "animal.beluga_whale.png",
+      "image": "animal.beluga_whale.webp",
       "label": {
         "ar": "بلواجا",
         "cs": "beluga",
@@ -2042,7 +2052,7 @@
     },
     {
       "key": "animal.puffer_fish",
-      "image": "animal.puffer_fish.png",
+      "image": "animal.puffer_fish.webp",
       "label": {
         "ar": "سمكة الفوجو",
         "cs": "ryba fugu",
@@ -2103,7 +2113,7 @@
     },
     {
       "key": "animal.anglerfish",
-      "image": "animal.anglerfish.png",
+      "image": "animal.anglerfish.webp",
       "label": {
         "ar": "الأسد البحري",
         "cs": "mořský ďábel",
@@ -2164,7 +2174,7 @@
     },
     {
       "key": "animal.sea_cucumber",
-      "image": "animal.sea_cucumber.png",
+      "image": "animal.sea_cucumber.webp",
       "label": {
         "ar": "أسد",
         "cs": "sumýš",
@@ -2225,7 +2235,7 @@
     },
     {
       "key": "animal.sea_slug",
-      "image": "animal.sea_slug.png",
+      "image": "animal.sea_slug.webp",
       "label": {
         "ar": "Placophore/Naked-gill",
         "cs": "plakofora/nahožáber",
@@ -2286,7 +2296,7 @@
     },
     {
       "key": "animal.barnacle",
-      "image": "animal.barnacle.png",
+      "image": "animal.barnacle.webp",
       "label": {
         "ar": "ركايين",
         "cs": "rak světlonoš",
@@ -2347,7 +2357,7 @@
     },
     {
       "key": "animal.sea_otter",
-      "image": "animal.sea_otter.png",
+      "image": "animal.sea_otter.webp",
       "label": {
         "ar": "فأرة البحر",
         "cs": "vydra mořská",
@@ -2408,7 +2418,7 @@
     },
     {
       "key": "animal.dugong",
-      "image": "animal.dugong.png",
+      "image": "animal.dugong.webp",
       "label": {
         "ar": "الدوغنيج",
         "cs": "dugong",
@@ -2469,7 +2479,7 @@
     },
     {
       "key": "animal.piranha",
-      "image": "animal.piranha.png",
+      "image": "animal.piranha.webp",
       "label": {
         "ar": "برانيا",
         "cs": "piráňa",
@@ -2530,7 +2540,7 @@
     },
     {
       "key": "animal.catfish",
-      "image": "animal.catfish.png",
+      "image": "animal.catfish.webp",
       "label": {
         "ar": "سمك",
         "cs": "sumec",
@@ -2591,7 +2601,7 @@
     },
     {
       "key": "animal.carp_river",
-      "image": "animal.carp_river.png",
+      "image": "animal.carp_river.webp",
       "label": {
         "ar": "\"كارب نهري\"",
         "cs": "kapr říční",
@@ -2652,7 +2662,7 @@
     },
     {
       "key": "animal.frogfish",
-      "image": "animal.frogfish.png",
+      "image": "animal.frogfish.webp",
       "label": {
         "ar": "ضفدع بحري",
         "cs": "žabičník",
@@ -2713,7 +2723,7 @@
     },
     {
       "key": "animal.lionfish",
-      "image": "animal.lionfish.png",
+      "image": "animal.lionfish.webp",
       "label": {
         "ar": "أسد البحر",
         "cs": "krutopásek",
@@ -2774,7 +2784,7 @@
     },
     {
       "key": "animal.clown_triggerfish",
-      "image": "animal.clown_triggerfish.png",
+      "image": "animal.clown_triggerfish.webp",
       "label": {
         "ar": "'splayf clown'",
         "cs": "spoušťovka klaun",
@@ -2835,7 +2845,7 @@
     },
     {
       "key": "animal.blue_tang",
-      "image": "animal.blue_tang.png",
+      "image": "animal.blue_tang.webp",
       "label": {
         "ar": "كانيك ازرق",
         "cs": "kanic modrý",
@@ -2896,7 +2906,7 @@
     },
     {
       "key": "animal.horseshoe_crab",
-      "image": "animal.horseshoe_crab.png",
+      "image": "animal.horseshoe_crab.webp",
       "label": {
         "ar": "الحيوان المتشابك",
         "cs": "podkožec",
@@ -2957,7 +2967,7 @@
     },
     {
       "key": "animal.giant_squid",
-      "image": "animal.giant_squid.png",
+      "image": "animal.giant_squid.webp",
       "label": {
         "ar": "خرافية كبيرة",
         "cs": "obří chobotnice",
@@ -3018,7 +3028,7 @@
     },
     {
       "key": "animal.flying_fish",
-      "image": "animal.flying_fish.png",
+      "image": "animal.flying_fish.webp",
       "label": {
         "ar": "سمكة طائرة",
         "cs": "letoun",

@@ -6,6 +6,16 @@
     "pony-cartoon",
     "flux-real"
   ],
+  "styleAvailability": {
+    "flux-real": {
+      "bundled": true,
+      "cdn": false
+    },
+    "pony-cartoon": {
+      "bundled": false,
+      "cdn": false
+    }
+  },
   "defaultStyle": "flux-real",
   "titles": {
     "ar": "الطيور",
@@ -29,7 +39,7 @@
   "cards": [
     {
       "key": "animal.eagle",
-      "image": "animal.eagle.png",
+      "image": "animal.eagle.webp",
       "label": {
         "ar": "النسر",
         "cs": "orel",
@@ -90,7 +100,7 @@
     },
     {
       "key": "animal.owl",
-      "image": "animal.owl.png",
+      "image": "animal.owl.webp",
       "label": {
         "ar": "عُقاب",
         "cs": "sova",
@@ -151,7 +161,7 @@
     },
     {
       "key": "animal.penguin",
-      "image": "animal.penguin.png",
+      "image": "animal.penguin.webp",
       "label": {
         "ar": "企鹅",
         "cs": "tučňák",
@@ -212,7 +222,7 @@
     },
     {
       "key": "animal.parrot",
-      "image": "animal.parrot.png",
+      "image": "animal.parrot.webp",
       "label": {
         "ar": "صقر",
         "cs": "papoušek",
@@ -273,7 +283,7 @@
     },
     {
       "key": "animal.flamingo",
-      "image": "animal.flamingo.png",
+      "image": "animal.flamingo.webp",
       "label": {
         "ar": " flamingo",
         "cs": "plameňák",
@@ -334,7 +344,7 @@
     },
     {
       "key": "animal.toucan",
-      "image": "animal.toucan.png",
+      "image": "animal.toucan.webp",
       "label": {
         "ar": "توكان",
         "cs": "tukan",
@@ -395,7 +405,7 @@
     },
     {
       "key": "animal.peacock",
-      "image": "animal.peacock.png",
+      "image": "animal.peacock.webp",
       "label": {
         "ar": "البومة",
         "cs": "páv",
@@ -456,7 +466,7 @@
     },
     {
       "key": "animal.hummingbird",
-      "image": "animal.hummingbird.png",
+      "image": "animal.hummingbird.webp",
       "label": {
         "ar": "كوليبري",
         "cs": "kolibřík",
@@ -517,7 +527,7 @@
     },
     {
       "key": "animal.crow",
-      "image": "animal.crow.png",
+      "image": "animal.crow.webp",
       "label": {
         "ar": "الكركي",
         "cs": "vrána",
@@ -578,7 +588,7 @@
     },
     {
       "key": "animal.pigeon",
-      "image": "animal.pigeon.png",
+      "image": "animal.pigeon.webp",
       "label": {
         "ar": "الحمام",
         "cs": "holub",
@@ -639,7 +649,7 @@
     },
     {
       "key": "animal.sparrow",
-      "image": "animal.sparrow.png",
+      "image": "animal.sparrow.webp",
       "label": {
         "ar": "الغراب",
         "cs": "vrabec",
@@ -700,7 +710,7 @@
     },
     {
       "key": "animal.robin",
-      "image": "animal.robin.png",
+      "image": "animal.robin.webp",
       "label": {
         "ar": "الصقر الأحمر",
         "cs": "červenka",
@@ -761,7 +771,7 @@
     },
     {
       "key": "animal.duck",
-      "image": "animal.duck.png",
+      "image": "animal.duck.webp",
       "label": {
         "ar": "كُرْدَة",
         "cs": "kachna",
@@ -822,7 +832,7 @@
     },
     {
       "key": "animal.swan",
-      "image": "animal.swan.png",
+      "image": "animal.swan.webp",
       "label": {
         "ar": "البط",
         "cs": "labuť",
@@ -883,7 +893,7 @@
     },
     {
       "key": "animal.goose",
-      "image": "animal.goose.png",
+      "image": "animal.goose.webp",
       "label": {
         "ar": "الغَاز",
         "cs": "husa",
@@ -944,7 +954,7 @@
     },
     {
       "key": "animal.stork",
-      "image": "animal.stork.png",
+      "image": "animal.stork.webp",
       "label": {
         "ar": "البطريق",
         "cs": "čáp",
@@ -1005,7 +1015,7 @@
     },
     {
       "key": "animal.heron",
-      "image": "animal.heron.png",
+      "image": "animal.heron.webp",
       "label": {
         "ar": "النسر",
         "cs": "volavka",
@@ -1066,7 +1076,7 @@
     },
     {
       "key": "animal.crane",
-      "image": "animal.crane.png",
+      "image": "animal.crane.webp",
       "label": {
         "ar": "الجراب",
         "cs": "jeřáb",
@@ -1127,7 +1137,7 @@
     },
     {
       "key": "animal.ostrich",
-      "image": "animal.ostrich.png",
+      "image": "animal.ostrich.webp",
       "label": {
         "ar": "البطريق",
         "cs": "pštros",
@@ -1188,7 +1198,7 @@
     },
     {
       "key": "animal.emu",
-      "image": "animal.emu.png",
+      "image": "animal.emu.webp",
       "label": {
         "ar": "emu",
         "cs": "emu",
@@ -1249,7 +1259,7 @@
     },
     {
       "key": "animal.pelican",
-      "image": "animal.pelican.png",
+      "image": "animal.pelican.webp",
       "label": {
         "ar": "البطريق",
         "cs": "pelikán",
@@ -1310,7 +1320,7 @@
     },
     {
       "key": "animal.puffin",
-      "image": "animal.puffin.png",
+      "image": "animal.puffin.webp",
       "label": {
         "ar": "بوبو",
         "cs": "papuchalk",
@@ -1371,7 +1381,7 @@
     },
     {
       "key": "animal.albatross",
-      "image": "animal.albatross.png",
+      "image": "animal.albatross.webp",
       "label": {
         "ar": "ألفانتوس",
         "cs": "albatros",
@@ -1432,7 +1442,7 @@
     },
     {
       "key": "animal.seagull",
-      "image": "animal.seagull.png",
+      "image": "animal.seagull.webp",
       "label": {
         "ar": "راكي",
         "cs": "racek",
@@ -1493,7 +1503,7 @@
     },
     {
       "key": "animal.hawk",
-      "image": "animal.hawk.png",
+      "image": "animal.hawk.webp",
       "label": {
         "ar": "الصقر",
         "cs": "jestřáb",
@@ -1554,7 +1564,7 @@
     },
     {
       "key": "animal.falcon",
-      "image": "animal.falcon.png",
+      "image": "animal.falcon.webp",
       "label": {
         "ar": "الصقر",
         "cs": "sokol",
@@ -1615,7 +1625,7 @@
     },
     {
       "key": "animal.woodpecker",
-      "image": "animal.woodpecker.png",
+      "image": "animal.woodpecker.webp",
       "label": {
         "ar": "داتيل",
         "cs": "datel",
@@ -1676,7 +1686,7 @@
     },
     {
       "key": "animal.cuckoo",
-      "image": "animal.cuckoo.png",
+      "image": "animal.cuckoo.webp",
       "label": {
         "ar": "كُوكَاچَکَا",
         "cs": "kukačka",
@@ -1737,7 +1747,7 @@
     },
     {
       "key": "animal.kingfisher",
-      "image": "animal.kingfisher.png",
+      "image": "animal.kingfisher.webp",
       "label": {
         "ar": "الصقر الأزرق",
         "cs": "ledňáček",
@@ -1798,7 +1808,7 @@
     },
     {
       "key": "animal.canary",
-      "image": "animal.canary.png",
+      "image": "animal.canary.webp",
       "label": {
         "ar": "كناري",
         "cs": "kanárek",
@@ -1859,7 +1869,7 @@
     },
     {
       "key": "animal.nightingale",
-      "image": "animal.nightingale.png",
+      "image": "animal.nightingale.webp",
       "label": {
         "ar": "الصبي",
         "cs": "slavík",
@@ -1920,7 +1930,7 @@
     },
     {
       "key": "animal.dove",
-      "image": "animal.dove.png",
+      "image": "animal.dove.webp",
       "label": {
         "ar": "الحمامة البيضاء",
         "cs": "holubice",
@@ -1981,7 +1991,7 @@
     },
     {
       "key": "animal.raven",
-      "image": "animal.raven.png",
+      "image": "animal.raven.webp",
       "label": {
         "ar": "كركاع",
         "cs": "krkavec",
@@ -2042,7 +2052,7 @@
     },
     {
       "key": "animal.magpie",
-      "image": "animal.magpie.png",
+      "image": "animal.magpie.webp",
       "label": {
         "ar": "الغواص",
         "cs": "straka",
@@ -2103,7 +2113,7 @@
     },
     {
       "key": "animal.swallow",
-      "image": "animal.swallow.png",
+      "image": "animal.swallow.webp",
       "label": {
         "ar": "النحل",
         "cs": "vlaštovka",
@@ -2164,7 +2174,7 @@
     },
     {
       "key": "animal.condor",
-      "image": "animal.condor.png",
+      "image": "animal.condor.webp",
       "label": {
         "ar": "كوندور",
         "cs": "kondor",
@@ -2225,7 +2235,7 @@
     },
     {
       "key": "animal.macaw",
-      "image": "animal.macaw.png",
+      "image": "animal.macaw.webp",
       "label": {
         "ar": "أرا",
         "cs": "ara",
@@ -2286,7 +2296,7 @@
     },
     {
       "key": "animal.cockatoo",
-      "image": "animal.cockatoo.png",
+      "image": "animal.cockatoo.webp",
       "label": {
         "ar": "كاكادو",
         "cs": "kakadu",
@@ -2347,7 +2357,7 @@
     },
     {
       "key": "animal.budgerigar",
-      "image": "animal.budgerigar.png",
+      "image": "animal.budgerigar.webp",
       "label": {
         "ar": "أوندولا",
         "cs": "andulka",
@@ -2408,7 +2418,7 @@
     },
     {
       "key": "animal.hornbill",
-      "image": "animal.hornbill.png",
+      "image": "animal.hornbill.webp",
       "label": {
         "ar": "زبروجِي",
         "cs": "zoborožec",
@@ -2469,7 +2479,7 @@
     },
     {
       "key": "animal.roadrunner",
-      "image": "animal.roadrunner.png",
+      "image": "animal.roadrunner.webp",
       "label": {
         "ar": "كواكا تربية",
         "cs": "kukačka zemní",
@@ -2530,7 +2540,7 @@
     },
     {
       "key": "animal.kookaburra",
-      "image": "animal.kookaburra.png",
+      "image": "animal.kookaburra.webp",
       "label": {
         "ar": "الدِّرَّاجُ الْمُضْحِك",
         "cs": "ledňáček smějící se",
@@ -2591,7 +2601,7 @@
     },
     {
       "key": "animal.lorikeet",
-      "image": "animal.lorikeet.png",
+      "image": "animal.lorikeet.webp",
       "label": {
         "ar": "لوري",
         "cs": "lori",
@@ -2652,7 +2662,7 @@
     },
     {
       "key": "animal.ibis",
-      "image": "animal.ibis.png",
+      "image": "animal.ibis.webp",
       "label": {
         "ar": "إيبس",
         "cs": "ibis",
@@ -2713,7 +2723,7 @@
     },
     {
       "key": "animal.spoonbill",
-      "image": "animal.spoonbill.png",
+      "image": "animal.spoonbill.webp",
       "label": {
         "ar": "كولبيك",
         "cs": "kolpík",
@@ -2774,7 +2784,7 @@
     },
     {
       "key": "animal.secretary_bird",
-      "image": "animal.secretary_bird.png",
+      "image": "animal.secretary_bird.webp",
       "label": {
         "ar": "النسر الكاتب",
         "cs": "ptáček sekretář",
@@ -2835,7 +2845,7 @@
     },
     {
       "key": "animal.cassowary",
-      "image": "animal.cassowary.png",
+      "image": "animal.cassowary.webp",
       "label": {
         "ar": "كاسوار",
         "cs": "kasuár",
@@ -2896,7 +2906,7 @@
     },
     {
       "key": "animal.lyrebird",
-      "image": "animal.lyrebird.png",
+      "image": "animal.lyrebird.webp",
       "label": {
         "ar": "الليروكفوست",
         "cs": "lyrochvost",
@@ -2957,7 +2967,7 @@
     },
     {
       "key": "animal.quail",
-      "image": "animal.quail.png",
+      "image": "animal.quail.webp",
       "label": {
         "ar": "كُرْبَلَا",
         "cs": "křepelka",
@@ -3018,7 +3028,7 @@
     },
     {
       "key": "animal.pheasant",
-      "image": "animal.pheasant.png",
+      "image": "animal.pheasant.webp",
       "label": {
         "ar": "بازانت",
         "cs": "bažant",
