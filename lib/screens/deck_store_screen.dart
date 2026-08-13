@@ -65,7 +65,12 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
     });
     try {
       await _entitlements.initialize();
-      final decks = await _deckService.loadAll();
+      // A deck with no deliverable style has nothing to sell: every image would
+      // be a placeholder and unlocking would download nothing. Keep it out of
+      // the store rather than letting the detail page dead-end.
+      final decks = (await _deckService.loadAll())
+          .where((d) => d.offerableStyles.isNotEmpty)
+          .toList();
       final index = await _searchService.buildIndex(decks);
       setState(() {
         _allDecks = decks;

@@ -103,8 +103,7 @@ flutter:
     # Tier-0 (free, fully bundled): colors-basic pilot — full images + preview
     - assets/decks/colors-basic.json
     - assets/previews/colors-basic/flux-real/
-    - decks/colors-basic/images/flux-real/
-    - decks/colors-basic/images/pony-cartoon/
+    - assets/previews/colors-basic/pony-cartoon/
     # Tier-0 free decks — JSON + 3-card preview bundled, full images via CDN
     - assets/decks/animals-wild.json
     - assets/previews/animals-wild/flux-real/
@@ -114,6 +113,10 @@ flutter:
     - assets/previews/emotions/flux-real/
     - assets/decks/food-fruits.json
     - assets/previews/food-fruits/flux-real/
+    - assets/previews/food-fruits/illustrious-flat/
+    - assets/previews/food-fruits/illustrious-ink/
+    - assets/previews/food-fruits/illustrious-pastel/
+    - assets/previews/food-fruits/illustrious-watercolor/
     - assets/decks/food-vegetables.json
     - assets/previews/food-vegetables/flux-real/
     - assets/decks/numbers-1-10.json
@@ -127,6 +130,10 @@ flutter:
     - assets/previews/animals-farm/flux-real/
     - assets/decks/animals-insects.json
     - assets/previews/animals-insects/flux-real/
+    - assets/previews/animals-insects/illustrious-flat/
+    - assets/previews/animals-insects/illustrious-ink/
+    - assets/previews/animals-insects/illustrious-pastel/
+    - assets/previews/animals-insects/illustrious-watercolor/
     - assets/decks/animals-pets.json
     - assets/previews/animals-pets/flux-real/
     - assets/decks/animals-reptiles.json

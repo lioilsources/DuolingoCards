@@ -4,6 +4,7 @@ import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:path_provider/path_provider.dart';
 
+import '../models/card_style.dart';
 import '../models/language_deck.dart';
 import '../services/deck_download_service.dart';
 import '../services/entitlement_service.dart';
@@ -54,9 +55,9 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     _l2 = langs.length > 1
         ? langs.firstWhere((l) => l != _l1, orElse: () => langs.first)
         : _l1;
-    _style = widget.deck.defaultStyle.isNotEmpty
-        ? widget.deck.defaultStyle
-        : (widget.deck.styles.isNotEmpty ? widget.deck.styles.first : '');
+    // Never start on a style the app cannot render: preferredStyle falls back
+    // to the first style that can actually reach this device.
+    _style = widget.deck.preferredStyle;
     _checkAvailability();
   }
 
@@ -88,6 +89,10 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
   EntitlementService get _ent => widget.entitlements;
 
   bool get _isActivated => _ent.isActivated(_deck.slug, _l1, _l2, _style);
+
+  /// Styles this device can actually render — see [LanguageDeck.offerableStyles].
+  List<String> get _offerableStyles =>
+      CardStyle.sorted(_deck.offerableStyles);
 
   int get _cost => _ent.creditCostForTier(_deck.tier);
 
@@ -185,17 +190,18 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                   }),
                 ),
 
-                if (_deck.styles.length > 1) ...[
+                if (_offerableStyles.length > 1) ...[
                   const SizedBox(height: 10),
-                  Wrap(
-                    spacing: 8,
-                    children: _deck.styles.map((s) {
-                      return ChoiceChip(
-                        label: Text(s),
-                        selected: _style == s,
-                        onSelected: (_) => setState(() => _style = s),
-                      );
-                    }).toList(),
+                  _StylePicker(
+                    styles: _offerableStyles,
+                    selected: _style,
+                    onSelected: (s) => setState(() {
+                      _style = s;
+                      // Availability is per (deck, style): the newly picked
+                      // style may not be downloaded even though the old one was.
+                      _isAvailableLocally = false;
+                      _checkAvailability();
+                    }),
                   ),
                 ],
 
@@ -304,6 +310,61 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
           ),
         ],
       ),
+    );
+  }
+}
+
+// ── Style picker ──────────────────────────────────────────────────────────────
+
+/// Chips for the image styles this deck can actually deliver, with the selected
+/// style's description underneath so the names mean something on first read.
+class _StylePicker extends StatelessWidget {
+  final List<String> styles;
+  final String selected;
+  final ValueChanged<String> onSelected;
+
+  const _StylePicker({
+    required this.styles,
+    required this.selected,
+    required this.onSelected,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final description = CardStyle.of(selected).description;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text('Styl obrázků', style: theme.textTheme.labelLarge),
+        const SizedBox(height: 6),
+        Wrap(
+          spacing: 8,
+          runSpacing: 4,
+          children: styles.map((s) {
+            final style = CardStyle.of(s);
+            return ChoiceChip(
+              avatar: Icon(
+                style.icon,
+                size: 18,
+                color: selected == s ? theme.colorScheme.onSecondaryContainer : null,
+              ),
+              label: Text(style.label),
+              selected: selected == s,
+              onSelected: (_) => onSelected(s),
+            );
+          }).toList(),
+        ),
+        if (description.isNotEmpty) ...[
+          const SizedBox(height: 4),
+          Text(
+            description,
+            style: theme.textTheme.bodySmall
+                ?.copyWith(color: theme.colorScheme.outline),
+          ),
+        ],
+      ],
     );
   }
 }

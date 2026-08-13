@@ -69,6 +69,19 @@ func (d *Deck) Lint(opts LintOptions) []Issue {
 		add(Error, "default_style %q is not in styles %v", d.Meta.DefaultStyle, d.Meta.Styles)
 	}
 
+	// A declared style with no complete image set never reaches deck.json, so
+	// say so here rather than letting the style silently vanish from the store.
+	for _, s := range d.Meta.Styles {
+		switch have, want := d.StyleImageCoverage(s); {
+		case want == 0:
+			// No card declares an image at all; the per-card check below covers it.
+		case have == 0:
+			add(Warn, "style %q is declared but has no images; it will not ship", s)
+		case have < want:
+			add(Warn, "style %q has only %d/%d images; it will not ship until complete", s, have, want)
+		}
+	}
+
 	// Card spine checks + duplicate keys.
 	seen := map[string]bool{}
 	for i, c := range d.Meta.Cards {

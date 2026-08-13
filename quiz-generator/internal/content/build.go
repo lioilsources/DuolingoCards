@@ -17,15 +17,43 @@ import (
 // languages are simply omitted from the per-field maps — run Lint first to
 // guarantee completeness.
 func (d *Deck) Build() *RuntimeDeck {
+	return d.BuildFor(AppLayout{})
+}
+
+// WebPImages makes Build emit .webp filenames in deck.json. Set it when the
+// publish step re-encodes (PublishOptions.WebPQuality), so the app asks for the
+// file that actually shipped rather than the PNG master.
+func (a AppLayout) WebPImages(on bool) AppLayout {
+	a.webp = on
+	return a
+}
+
+// BuildFor is Build with delivery probing: app locates the Flutter trees that
+// decide whether a style's images can reach a phone, and the result is recorded
+// per style in StyleAvailability so the store can hide what it cannot show.
+func (d *Deck) BuildFor(app AppLayout) *RuntimeDeck {
 	supported := langs.SupportedSet()
 	out := &RuntimeDeck{
 		Deck:         d.Meta.Slug,
 		Version:      d.Meta.Version,
 		Tier:         d.Meta.Tier,
-		Styles:       d.Meta.Styles,
+		Styles:       d.ImageStyles(),
 		DefaultStyle: d.Meta.DefaultStyle,
 		Titles:       map[string]string{},
 		Cards:        make([]RuntimeCard, 0, len(d.Meta.Cards)),
+	}
+	// Omit the field entirely when the app tree is not where we were told: the
+	// app reads a missing map as "offer everything", which is the pre-existing
+	// behaviour, whereas an all-false map would empty the store.
+	if app.Valid() {
+		out.StyleAvailability = map[string]StyleAvailability{}
+		for _, s := range out.Styles {
+			out.StyleAvailability[s] = app.Availability(d.Meta.Slug, s)
+		}
+	}
+	// deck.yaml's default_style is intent; it may name a style nobody rendered.
+	if !contains(out.Styles, out.DefaultStyle) {
+		out.DefaultStyle = ""
 	}
 	if out.DefaultStyle == "" && len(out.Styles) > 0 {
 		out.DefaultStyle = out.Styles[0]
@@ -43,7 +71,7 @@ func (d *Deck) Build() *RuntimeDeck {
 	for _, c := range d.Meta.Cards {
 		rc := RuntimeCard{
 			Key:     c.Key,
-			Image:   c.Image,
+			Image:   PublishedImageName(c.Image, app.webp),
 			Label:   map[string]string{},
 			Summary: map[string]string{},
 			Info:    map[string]string{},

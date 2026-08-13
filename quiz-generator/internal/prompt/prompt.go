@@ -194,18 +194,135 @@ var (
 		ControlStrength: 0.90,
 		ControlEnd:      0.85,
 	}
+
+	// The medium and artist presets below push much harder than the four above,
+	// which sat close to the FLUX base because ControlNet stayed applied for
+	// 80-90% of sampling — the style model never got unconstrained steps to lay
+	// down its own surface. These hold the structure only through the early
+	// composition steps (ControlEnd 0.45-0.60) and then let go, at a denoise
+	// high enough (0.86-0.92) for the medium to actually assert itself. The
+	// silhouette still comes from the base; the paint no longer does.
+
+	StyleIllustriousInk = Style{
+		Name:    "illustrious-ink",
+		Backend: BackendIllustrious,
+		PositiveSuffix: "(sumi-e ink wash painting:1.5), (black ink on rice paper:1.3), " +
+			"(monochrome:1.2), expressive loose brushstrokes, wet ink bleeding into fibres, " +
+			"dry brush texture, large areas of empty paper, minimal restrained composition, " +
+			"single accent of vermilion seal",
+		ExtraNegative: "(photorealistic:1.4), (photograph:1.3), 3d render, hdr, realistic texture, " +
+			"(colorful:1.2), saturated colors, digital vector, flat solid fill, smooth gradient, " +
+			"busy background, hard mechanical outlines",
+		Img2Img:         true,
+		BaseStyle:       "flux-real",
+		Denoise:         0.90,
+		ControlNet:      true,
+		ControlStrength: 0.70,
+		ControlEnd:      0.50,
+	}
+	StyleIllustriousWatercolor = Style{
+		Name:    "illustrious-watercolor",
+		Backend: BackendIllustrious,
+		PositiveSuffix: "(watercolor painting:1.5), (wet-on-wet washes:1.3), " +
+			"luminous translucent pigment, blooming color bleeds, granulating pigment settling, " +
+			"soft feathered edges, white paper showing through, cold-press paper grain, " +
+			"loose botanical illustration",
+		ExtraNegative: "(photorealistic:1.4), (photograph:1.3), 3d render, hdr, realistic texture, " +
+			"opaque paint, hard crisp outlines, digital vector, flat solid fill, cel shading, " +
+			"heavy black lineart, plastic shading",
+		Img2Img:         true,
+		BaseStyle:       "flux-real",
+		Denoise:         0.88,
+		ControlNet:      true,
+		ControlStrength: 0.72,
+		ControlEnd:      0.55,
+	}
+	StyleIllustriousOil = Style{
+		Name:    "illustrious-oil",
+		Backend: BackendIllustrious,
+		PositiveSuffix: "(oil painting:1.5), (thick impasto:1.3), (visible palette knife strokes:1.2), " +
+			"loaded brush, rich buttery pigment, glazed layers, deep chiaroscuro, " +
+			"warm earthy palette, coarse canvas weave, classical still life",
+		ExtraNegative: "(photorealistic:1.4), (photograph:1.3), 3d render, hdr, realistic texture, " +
+			"thin transparent washes, watercolor, digital vector, flat solid fill, cel shading, " +
+			"clean lineart, smooth digital gradient",
+		Img2Img:         true,
+		BaseStyle:       "flux-real",
+		Denoise:         0.88,
+		ControlNet:      true,
+		ControlStrength: 0.75,
+		ControlEnd:      0.55,
+	}
+	StyleIllustriousPastel = Style{
+		Name:    "illustrious-pastel",
+		Backend: BackendIllustrious,
+		PositiveSuffix: "(soft pastel drawing:1.5), (chalk pastel on toned paper:1.3), " +
+			"velvety powdery pigment, visible chalk strokes, smudged blended edges, " +
+			"tooth of the paper breaking the color, muted dusty palette, " +
+			"warm grey paper showing through",
+		ExtraNegative: "(photorealistic:1.4), (photograph:1.3), 3d render, hdr, realistic texture, " +
+			"glossy, wet paint, hard crisp outlines, digital vector, flat solid fill, " +
+			"cel shading, high contrast, neon colors",
+		Img2Img:         true,
+		BaseStyle:       "flux-real",
+		Denoise:         0.88,
+		ControlNet:      true,
+		ControlStrength: 0.72,
+		ControlEnd:      0.52,
+	}
+	// Artist presets. Naming a movement plus its signature marks works better on
+	// Illustrious than the artist's name alone, which mostly moves the palette.
+	StyleIllustriousMucha = Style{
+		Name:    "illustrious-mucha",
+		Backend: BackendIllustrious,
+		PositiveSuffix: "(art nouveau:1.5), (alphonse mucha style:1.4), " +
+			"ornamental decorative panel, sinuous whiplash linework, flowing organic arabesques, " +
+			"gold leaf accents, muted mauve and sage and cream palette, " +
+			"circular halo motif behind the subject, stylized floral border, flat decorative background",
+		ExtraNegative: "(photorealistic:1.4), (photograph:1.3), 3d render, hdr, realistic texture, " +
+			"harsh contrast, neon colors, chaotic composition, modern digital art, cel shading",
+		Img2Img:         true,
+		BaseStyle:       "flux-real",
+		Denoise:         0.90,
+		ControlNet:      true,
+		ControlStrength: 0.68,
+		ControlEnd:      0.48,
+	}
+	StyleIllustriousVanGogh = Style{
+		Name:    "illustrious-vangogh",
+		Backend: BackendIllustrious,
+		PositiveSuffix: "(post-impressionism:1.5), (van gogh style:1.4), " +
+			"(swirling thick impasto brushstrokes:1.3), short rhythmic directional strokes, " +
+			"turbulent swirling background, vivid complementary colors, cobalt blue and chrome yellow, " +
+			"heavy paint ridges catching light, expressive distorted energy",
+		ExtraNegative: "(photorealistic:1.4), (photograph:1.3), 3d render, hdr, realistic texture, " +
+			"smooth blending, flat solid fill, digital vector, cel shading, clean lineart, " +
+			"muted desaturated colors",
+		Img2Img:         true,
+		BaseStyle:       "flux-real",
+		Denoise:         0.92,
+		ControlNet:      true,
+		ControlStrength: 0.65,
+		ControlEnd:      0.45,
+	}
 )
 
 // DefaultStyles maps style name → Style for the built-ins.
 var DefaultStyles = map[string]Style{
-	StyleFluxReal.Name:             StyleFluxReal,
-	StylePonyCartoon.Name:          StylePonyCartoon,
-	StylePonyWatercolor.Name:       StylePonyWatercolor,
-	StylePonyOil.Name:              StylePonyOil,
-	StyleIllustriousAnime.Name:     StyleIllustriousAnime,
-	StyleIllustriousStorybook.Name: StyleIllustriousStorybook,
-	StyleIllustriousFlat.Name:      StyleIllustriousFlat,
-	StyleIllustriousUkiyoe.Name:    StyleIllustriousUkiyoe,
+	StyleFluxReal.Name:              StyleFluxReal,
+	StylePonyCartoon.Name:           StylePonyCartoon,
+	StylePonyWatercolor.Name:        StylePonyWatercolor,
+	StylePonyOil.Name:               StylePonyOil,
+	StyleIllustriousAnime.Name:      StyleIllustriousAnime,
+	StyleIllustriousStorybook.Name:  StyleIllustriousStorybook,
+	StyleIllustriousFlat.Name:       StyleIllustriousFlat,
+	StyleIllustriousUkiyoe.Name:     StyleIllustriousUkiyoe,
+	StyleIllustriousInk.Name:        StyleIllustriousInk,
+	StyleIllustriousWatercolor.Name: StyleIllustriousWatercolor,
+	StyleIllustriousOil.Name:        StyleIllustriousOil,
+	StyleIllustriousPastel.Name:     StyleIllustriousPastel,
+	StyleIllustriousMucha.Name:      StyleIllustriousMucha,
+	StyleIllustriousVanGogh.Name:    StyleIllustriousVanGogh,
 }
 
 // ponyQualityTags is the conventional Pony quality preamble.

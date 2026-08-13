@@ -14,7 +14,16 @@ class LanguageDeck {
   final String slug;
   final int version;
   final int tier;
+
+  /// Styles whose images exist in the content repo. Not every one of these can
+  /// necessarily be shown on this device — see [offerableStyles].
   final List<String> styles;
+
+  /// Per-style delivery, keyed by style id. Written by `content build`; absent
+  /// in decks built before it existed, which is why [offerableStyles] treats a
+  /// missing entry as offerable rather than hiding everything.
+  final Map<String, StyleAvailability> styleAvailability;
+
   final String defaultStyle;
   final Map<String, String> titles; // lang → deck title
   final List<LanguageCard> cards;
@@ -24,10 +33,26 @@ class LanguageDeck {
     required this.version,
     this.tier = 0,
     this.styles = const [],
+    this.styleAvailability = const {},
     required this.defaultStyle,
     required this.titles,
     required this.cards,
   });
+
+  /// Styles the store may present: those whose images can actually reach this
+  /// device, either bundled in the binary or downloadable from the CDN. A style
+  /// that is neither would show placeholders and download nothing on unlock.
+  List<String> get offerableStyles => styles
+      .where((s) => styleAvailability[s]?.offerable ?? true)
+      .toList(growable: false);
+
+  /// [defaultStyle] when it is offerable, else the first style that is.
+  /// Empty when the deck ships no usable style at all.
+  String get preferredStyle {
+    final offerable = offerableStyles;
+    if (offerable.contains(defaultStyle)) return defaultStyle;
+    return offerable.isNotEmpty ? offerable.first : '';
+  }
 
   /// Deck title in [lang], falling back to English then the first available.
   String title(String lang) {
@@ -48,6 +73,7 @@ class LanguageDeck {
       styles:
           (json['styles'] as List<dynamic>?)?.map((e) => e as String).toList() ??
               const [],
+      styleAvailability: _availabilityMap(json['styleAvailability']),
       defaultStyle: json['defaultStyle'] as String? ?? '',
       titles: _stringMap(json['titles']),
       cards: (json['cards'] as List<dynamic>? ?? const [])
@@ -55,6 +81,40 @@ class LanguageDeck {
           .toList(),
     );
   }
+}
+
+/// How one style's images reach the device.
+///
+/// Mirrors `content.StyleAvailability` on the Go side. [bundled] means the
+/// images ship inside the app binary (a preview, or a full set for the pilot
+/// decks); [cdn] means they can be downloaded after unlock.
+class StyleAvailability {
+  final bool bundled;
+  final bool cdn;
+
+  const StyleAvailability({this.bundled = false, this.cdn = false});
+
+  bool get offerable => bundled || cdn;
+
+  factory StyleAvailability.fromJson(Map<String, dynamic> json) =>
+      StyleAvailability(
+        bundled: json['bundled'] as bool? ?? false,
+        cdn: json['cdn'] as bool? ?? false,
+      );
+}
+
+Map<String, StyleAvailability> _availabilityMap(dynamic raw) {
+  if (raw is! Map) return const {};
+  final out = <String, StyleAvailability>{};
+  raw.forEach((k, v) {
+    if (v is Map<String, dynamic>) {
+      out[k as String] = StyleAvailability.fromJson(v);
+    } else if (v is Map) {
+      out[k as String] = StyleAvailability.fromJson(
+          v.map((mk, mv) => MapEntry(mk.toString(), mv)));
+    }
+  });
+  return out;
 }
 
 /// One concept with per-language `label`, `summary` and `info`.

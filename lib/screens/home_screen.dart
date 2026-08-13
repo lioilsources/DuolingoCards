@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import '../models/card_style.dart';
 import '../models/language_deck.dart';
 import '../models/deck_entitlement.dart';
 import '../services/deck_download_service.dart';
@@ -274,12 +275,14 @@ class _LangDeckTile extends StatelessWidget {
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      '${tile.deck.cards.length} karet · ${tile.l1.toUpperCase()} → ${tile.l2.toUpperCase()} · ${tile.style}',
+                      '${tile.deck.cards.length} karet · ${tile.l1.toUpperCase()} → ${tile.l2.toUpperCase()}',
                       style: TextStyle(
                         color: Colors.grey.shade600,
                         fontSize: 14,
                       ),
                     ),
+                    const SizedBox(height: 6),
+                    _StyleTag(style: tile.style),
                     if (tile.stats != null) ...[
                       const SizedBox(height: 8),
                       _KnowledgeProgressBar(stats: tile.stats!),
@@ -292,6 +295,38 @@ class _LangDeckTile extends StatelessWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+/// The image style a deck was unlocked with.
+///
+/// Style is part of the entitlement key, so the same deck can appear twice in
+/// this list differing only by look — the tag is what tells them apart.
+class _StyleTag extends StatelessWidget {
+  final String style;
+  const _StyleTag({required this.style});
+
+  @override
+  Widget build(BuildContext context) {
+    final meta = CardStyle.of(style);
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+      decoration: BoxDecoration(
+        color: Colors.grey.shade200,
+        borderRadius: BorderRadius.circular(10),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(meta.icon, size: 13, color: Colors.grey.shade700),
+          const SizedBox(width: 4),
+          Text(
+            meta.label,
+            style: TextStyle(fontSize: 12, color: Colors.grey.shade700),
+          ),
+        ],
       ),
     );
   }

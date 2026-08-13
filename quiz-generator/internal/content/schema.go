@@ -71,13 +71,19 @@ type CardI18n struct {
 
 // RuntimeDeck is the merged build artifact shipped in the app binary.
 type RuntimeDeck struct {
-	Deck         string            `json:"deck"`
-	Version      int               `json:"version"`
-	Tier         int               `json:"tier,omitempty"`
-	Styles       []string          `json:"styles"`
-	DefaultStyle string            `json:"defaultStyle"`
-	Titles       map[string]string `json:"titles"` // lang → deck title
-	Cards        []RuntimeCard     `json:"cards"`
+	Deck    string `json:"deck"`
+	Version int    `json:"version"`
+	Tier    int    `json:"tier,omitempty"`
+	// Styles are the styles whose images actually exist in this repo, derived
+	// from disk rather than copied from deck.yaml — see availability.go.
+	Styles []string `json:"styles"`
+	// StyleAvailability says, per style in Styles, how the images reach the
+	// app. Older app builds ignore this field and fall back to Styles, which
+	// is why Styles stays a plain string list.
+	StyleAvailability map[string]StyleAvailability `json:"styleAvailability,omitempty"`
+	DefaultStyle      string                       `json:"defaultStyle"`
+	Titles            map[string]string            `json:"titles"` // lang → deck title
+	Cards             []RuntimeCard                `json:"cards"`
 }
 
 // RuntimeCard is one concept with all languages folded into per-field maps.

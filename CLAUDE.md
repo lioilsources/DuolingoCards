@@ -61,8 +61,12 @@ make prompts DECK=animals-sea STYLE=flux-real   # print expanded prompts (no gen
 ```
 
 Spark servers (defined in Makefile, local network):
-- LLM / translate: `http://192.168.88.66:8080`
-- ComfyUI / images: `http://192.168.88.66:8188`
+- LLM / translate: `http://spark-99bb:8080` — text models only (translate, tune validator/builder)
+- ComfyUI / images: `http://spark-99bb:8188`
+
+**Every image goes through ComfyUI.** `imagegen.ImageGenerator` has exactly one
+implementation (`comfyuiimage.Client`); the LLM server never generates images.
+FLUX is a ComfyUI checkpoint driven by `flux_dev.json`, not a vLLM endpoint.
 
 Direct invocation (if needed):
 ```bash
@@ -101,7 +105,62 @@ FLUX can. So FLUX supplies the subject and the style model supplies the look:
 |---|---|---|
 | `flux-real`, `pony-cartoon` | text2img | `flux_dev.json`, `flux_card.json` |
 | `pony-watercolor`, `pony-oil` | img2img | `pony_img2img.json` |
-| `illustrious-anime`, `-storybook`, `-flat`, `-ukiyoe` | img2img + ControlNet | `illustrious_cn_img2img.json` |
+| ten `illustrious-*` styles | img2img + ControlNet | `illustrious_cn_img2img.json` |
+
+`make styles` prints every style with its denoise / ControlNet knobs. Use
+`make restyle DECK=<slug> STYLE=<style>` for any of them; `anime`, `storybook`,
+`flat` and `ukiyoe` also have shorthand targets.
+
+**`ControlEnd` is the knob that decides whether a style reads as a style.** The
+first four presets (`anime`, `storybook`, `flat`, `ukiyoe`) hold ControlNet for
+80-90% of sampling, which pins the surface as well as the silhouette — they came
+out looking like graded versions of the base. The medium and artist presets
+(`ink`, `watercolor`, `oil`, `pastel`, `mucha`, `vangogh`) release it at 0.45-0.55
+and run denoise 0.88-0.92: structure is locked while the composition forms, then
+the model is free to lay down its own brushwork.
+
+**Deck-level `brief_attrs` never reach a restyle.** They are scaffolding for the
+text-to-image base ("macro photography", "(photorealistic texture:1.1)", "soft
+studio lighting"), and carrying them into a repaint fights the style outright —
+food-fruits asks for "(vibrant colors:1.3)" while `illustrious-ink` asks for
+"(monochrome:1.2)". `mergedBrief` drops them whenever `Style.Img2Img` is set; the
+card's own brief attrs always survive, since those describe the concept.
+
+**A declared style is not a shipped style.** `deck.yaml` states intent; `build`
+derives `deck.json`'s `styles` from the images actually on disk, so a style
+listed but never rendered (or rendered for only some cards) silently drops out
+instead of reaching the store as a dead chip. `lint` warns about the gap.
+
+`build` also records `styleAvailability` per style — `bundled` (in the app
+binary, via `assets/previews/<slug>/<style>/` or a full image dir listed in
+`pubspec.yaml`) and `cdn` (published under `docs/decks/`). The store offers only
+styles where at least one is true (`LanguageDeck.offerableStyles`); a style in
+the repo but neither bundled nor published would show placeholders and download
+nothing. Pass `-app-root` to point `build` at the Flutter tree (default `.`).
+
+#### Shipping a style
+
+Generating images is not shipping them — they still have to reach a phone:
+
+```bash
+make restyle DECK=animals-sea STYLE=illustrious-pastel   # 1. render all 50 cards
+make ship    DECK=animals-sea                            # 2. publish + build + publish
+```
+
+`ship` is ordered publish-images → build → publish-json and that order matters:
+`build` reads the published trees to decide availability, so building first
+would mark the new style undeliverable and the store would hide it. `publish`
+copies the leading `-preview-cards` (default 3) into `assets/previews/` and the
+full set plus `deck.json` into `docs/decks/`, skipping any style whose image set
+is incomplete — the same rule `build` uses, so the two cannot disagree. Copies
+are size/mtime-guarded, so re-publishing does not churn Git.
+
+One manual step remains: a brand-new `assets/previews/<slug>/<style>/` folder
+needs its own line under `flutter.assets` in `pubspec.yaml`, or Flutter will not
+bundle it and `bundled` stays false.
+
+User-facing style names live in `lib/models/card_style.dart` — the pipeline's
+ids (`illustrious-ukiyoe`) are model names, not labels for a buyer.
 
 The Illustrious pass additionally runs the base image through Canny into
 `ControlNetApplyAdvanced`, which pins the subject's silhouette independently of
