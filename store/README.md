@@ -7,50 +7,68 @@ per-style products.
 Free decks — nothing to create in App Store Connect: `numbers-1-10`,
 `colors-basic`, `animals-pets`.
 
-## Files
+The product IDs below must match `assets/catalog.json` character for character.
+A mismatch does not fail loudly: `queryProductDetails` just returns the id under
+`notFoundIDs`, the store shows no price, and the buy button cannot complete.
 
-| file | what it is |
+## Same for every product
+
+| Field | Value |
 |---|---|
-| `iap_products.csv` | 11 products x 17 locales, one row per localization |
-| `review_screenshots/<slug>.png` | the required review screenshot, 1242x1656 |
+| Type | Non-Consumable |
+| Availability | All territories |
+| Price | your choice — not stored in this repo; the app reads it from the store |
+| Tax Category | App Store Software (default) |
+| Description (en) | `50 illustrated cards in 17 languages.` |
+| Review notes | see below |
 
-Regenerate the screenshots with `python3 tools/iap_review_shot.py`.
-The product list is generated from `assets/catalog.json` + `assets/decks/*.json`,
-so it stays in step with what the app actually ships.
+Review notes text (same for all 11):
+
+> This unlocks one flashcard deck: 50 cards with images, available in 17
+> languages. The deck is visible in the app's Deck Store before purchase, with
+> the first three cards shown as a preview. No account or server is involved —
+> the purchase is verified on device and unlocks content already in the app or
+> downloaded from our CDN.
 
 ## Per product
 
-Type: **Non-Consumable**. Availability: all territories. Pick your own price tier.
-Each one needs its review screenshot uploaded (App Review only — never shown on
-the store) and at least one localization; the CSV carries all 17.
+Screenshots are in `store/review_screenshots/`. They are review-only — Apple
+never shows them on the store — and each is 1242x1656 (the minimum is 640x920).
 
-| Product ID (both stores) | Reference name | English display name |
-|---|---|---|
-| `com.ol1n.duolingocards.deck.animals_birds` | Deck Birds | Birds |
-| `com.ol1n.duolingocards.deck.animals_farm` | Deck Livestock Animals | Livestock Animals |
-| `com.ol1n.duolingocards.deck.animals_insects` | Deck Insects | Insects |
-| `com.ol1n.duolingocards.deck.animals_reptiles` | Deck Reptiles and Amphibians | Reptiles and Amphibians |
-| `com.ol1n.duolingocards.deck.animals_sea` | Deck Marine Animals | Marine Animals |
-| `com.ol1n.duolingocards.deck.animals_wild` | Deck Wild animals | Wild animals |
-| `com.ol1n.duolingocards.deck.body_parts` | Deck Parts of the Body | Parts of the Body |
-| `com.ol1n.duolingocards.deck.emotions` | Deck Emotions | Emotions |
-| `com.ol1n.duolingocards.deck.food_fruits` | Deck Fruit | Fruit |
-| `com.ol1n.duolingocards.deck.food_vegetables` | Deck Vegetables | Vegetables |
-| `com.ol1n.duolingocards.deck.weather` | Deck Weather | Weather |
+| Product ID | Reference Name | Display Name (en) | Screenshot |
+|---|---|---|---|
+| `com.ol1n.duolingocards.deck.animals_birds` | Deck Birds | Birds | `animals-birds.png` |
+| `com.ol1n.duolingocards.deck.animals_farm` | Deck Livestock Animals | Livestock Animals | `animals-farm.png` |
+| `com.ol1n.duolingocards.deck.animals_insects` | Deck Insects | Insects | `animals-insects.png` |
+| `com.ol1n.duolingocards.deck.animals_reptiles` | Deck Reptiles and Amphibians | Reptiles and Amphibians | `animals-reptiles.png` |
+| `com.ol1n.duolingocards.deck.animals_sea` | Deck Marine Animals | Marine Animals | `animals-sea.png` |
+| `com.ol1n.duolingocards.deck.animals_wild` | Deck Wild animals | Wild animals | `animals-wild.png` |
+| `com.ol1n.duolingocards.deck.body_parts` | Deck Parts of the Body | Parts of the Body | `body-parts.png` |
+| `com.ol1n.duolingocards.deck.emotions` | Deck Emotions | Emotions | `emotions.png` |
+| `com.ol1n.duolingocards.deck.food_fruits` | Deck Fruit | Fruit | `food-fruits.png` |
+| `com.ol1n.duolingocards.deck.food_vegetables` | Deck Vegetables | Vegetables | `food-vegetables.png` |
+| `com.ol1n.duolingocards.deck.weather` | Deck Weather | Weather | `weather.png` |
 
 ## Localizations
 
-Display name is capped at 30 characters and description at 45; every row in the
-CSV is inside both limits. Locale names in the CSV are spelled the way App Store
-Connect spells them, so they can be matched by eye when clicking through.
-
-Description text is one sentence per language, e.g. English:
-`50 illustrated cards in 17 languages.`
+At least one localization is required; `iap_products.csv` carries all 17, one row
+per (product, locale). Display name is capped at 30 characters and description at
+45 — every row is inside both. Locale names are spelled the way App Store Connect
+spells them, so they can be matched by eye while clicking through.
 
 ## Google Play
 
 The same product ID works on both stores. It is lowercase throughout, which is
-what lets it satisfy Play's stricter rule as well as Apple's — Play rejects
-uppercase, so a camelCase, bundle-id-shaped ID could not be shared. Product IDs
-need not match the app's bundle ID (`com.ol1n.duolingoCards`), which still has
-its capital C. Product type on Play is **one-time product**.
+what lets one string satisfy Play's stricter rule as well as Apple's — Play
+rejects uppercase. Product IDs need not match the app's bundle ID
+(`com.ol1n.duolingoCards`), which keeps its capital C. Product type on Play is
+**one-time product**.
+
+## Regenerating
+
+```
+python3 tools/iap_review_shot.py     # screenshots, one per paid deck
+```
+
+The product list is derived from `assets/catalog.json` and `assets/decks/*.json`,
+so it cannot drift from what the app ships.
