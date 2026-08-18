@@ -6,11 +6,19 @@ sold. Ours is a fan of three cards from the deck: the leading three cards of
 the bundled preview set, in the deck's illustrated style, laid out the way the
 app stacks them.
 
-    python3 tools/iap_review_shot.py            # every paid deck
+    python3 tools/iap_review_shot.py                    # every paid deck
     python3 tools/iap_review_shot.py animals-sea
+    python3 tools/iap_review_shot.py --size 640x920    # other canvas
 
-Output: store/review_screenshots/<slug>.png at 1242x1656 (App Store Connect
-requires at least 640x920).
+Output: store/review_screenshots/<slug>.png.
+
+The default is 1242x2208, a canonical App Store screenshot size (5.5" iPhone).
+App Store Connect documents a 640x920 minimum for the in-app purchase review
+screenshot but rejects some sizes that clear it, so a size it already knows is
+the safer default; --size covers the rest.
+
+The card size adapts to the canvas: the fan is laid out at the largest width
+that still clears the canvas edge, measured rather than assumed.
 """
 import json
 import pathlib
@@ -21,25 +29,24 @@ from PIL import Image, ImageChops, ImageDraw, ImageFont
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "store" / "review_screenshots"
 
-W, H = 1242, 1656
+W, H = 1242, 2208  # overridden by --size
 BG_TOP = (247, 249, 252)
 BG_BOTTOM = (226, 233, 243)
 INK = (24, 32, 46)
 MUTED = (108, 122, 143)
 
-CARD_W = 480
-PAD = 22
+MARGIN = 40  # smallest gap the fan may leave at the canvas edge
 # Back-to-front: the middle card lands on top of the two behind it.
 #
-# (angle, dx, dy). Rotation alone had the middle card hiding almost all of the
-# other two, so the wings also step outward and the middle one drops — that is
-# what lets all three subjects show at once. The dx values are capped by the
-# canvas width, not chosen for looks: past ~215px the rotated top corner of a
-# wing card runs off the edge.
-FAN = [(-12, -215, -22), (12, 215, -22), (0, 0, 44)]
+# (angle, dx, dy) with the offsets as fractions of card width. Rotation alone
+# had the middle card hiding almost all of the other two, so the wings also step
+# outward and the middle one drops — that is what lets all three subjects show
+# at once.
+FAN = [(-12, -0.45, -0.046), (12, 0.45, -0.046), (0, 0, 0.092)]
 # The fan pivots about each card's bottom centre, the way a hand of cards
 # splays: tops spread apart, bottoms stay together.
-HEADER_BOTTOM = 350
+def HEADER_BOTTOM(h):
+    return round(350 * h / 2208)
 
 FONT_BOLD = "/System/Library/Fonts/SFNS.ttf"
 FONT_TEXT = "/System/Library/Fonts/SFNS.ttf"
@@ -73,36 +80,41 @@ def wrap(draw, text, f, width):
     return lines
 
 
-def rounded_card(img, label, sub):
-    """One card: square image, label, two lines of summary.
+def rounded_card(img, label, sub, card_w):
+    """One card: square image, label, up to three lines of summary.
 
     Height follows the content — a fixed height left the fan's top card half
-    empty, which reads as a rendering bug rather than a card.
+    empty, which reads as a rendering bug rather than a card. Every metric is
+    proportional to card_w so the same layout survives a change of canvas.
     """
-    side = CARD_W - 2 * PAD
+    k = card_w / 480  # 480 is the width these numbers were tuned at
+    pad = round(22 * k)
+    side = card_w - 2 * pad
     probe = ImageDraw.Draw(Image.new("RGB", (1, 1)))
-    body = font(FONT_TEXT, 24, 400)
+    body = font(FONT_TEXT, round(24 * k), 400)
     lines = wrap(probe, sub, body, side)
 
-    label_y = PAD + side + 32
-    body_y = label_y + 58
-    height = body_y + len(lines) * 32 + PAD + 10
+    label_y = pad + side + round(32 * k)
+    body_y = label_y + round(58 * k)
+    step = round(32 * k)
+    height = body_y + len(lines) * step + pad + round(10 * k)
 
-    card = Image.new("RGBA", (CARD_W, height), (255, 255, 255, 255))
+    card = Image.new("RGBA", (card_w, height), (255, 255, 255, 255))
     draw = ImageDraw.Draw(card)
 
     photo = img.convert("RGB").resize((side, side), Image.LANCZOS)
     mask = Image.new("L", (side, side), 0)
-    ImageDraw.Draw(mask).rounded_rectangle([0, 0, side, side], radius=20, fill=255)
-    card.paste(photo, (PAD, PAD), mask)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, side, side], radius=round(20 * k), fill=255)
+    card.paste(photo, (pad, pad), mask)
 
-    draw.text((PAD, label_y), label, font=font(FONT_BOLD, 40, 700), fill=INK)
+    draw.text((pad, label_y), label, font=font(FONT_BOLD, round(40 * k), 700), fill=INK)
     for i, line in enumerate(lines):
-        draw.text((PAD, body_y + i * 32), line, font=body, fill=MUTED)
+        draw.text((pad, body_y + i * step), line, font=body, fill=MUTED)
 
-    rounded = Image.new("RGBA", (CARD_W, height), (0, 0, 0, 0))
-    m = Image.new("L", (CARD_W, height), 0)
-    ImageDraw.Draw(m).rounded_rectangle([0, 0, CARD_W - 1, height - 1], radius=32, fill=255)
+    rounded = Image.new("RGBA", (card_w, height), (0, 0, 0, 0))
+    m = Image.new("L", (card_w, height), 0)
+    ImageDraw.Draw(m).rounded_rectangle(
+        [0, 0, card_w - 1, height - 1], radius=round(32 * k), fill=255)
     rounded.paste(card, (0, 0), m)
     return rounded
 
@@ -124,65 +136,87 @@ def shadow_of(layer, blur=22):
     return shadow.filter(ImageFilter.GaussianBlur(blur))
 
 
-def background():
-    bg = Image.new("RGB", (W, H), BG_TOP)
+def background(size):
+    w, h = size
+    bg = Image.new("RGB", size, BG_TOP)
     draw = ImageDraw.Draw(bg)
-    for y in range(H):
-        t = y / H
+    for y in range(h):
+        t = y / h
         draw.line(
-            [(0, y), (W, y)],
+            [(0, y), (w, y)],
             fill=tuple(int(a + (b - a) * t) for a, b in zip(BG_TOP, BG_BOTTOM)),
         )
     return bg
 
 
-def render(slug, deck, style, lang="en"):
-    cards = deck["cards"][:3]
-    if len(cards) < 3:
-        raise SystemExit(f"{slug}: needs 3 cards, has {len(cards)}")
-
-    img_dir = ROOT / "assets" / "previews" / slug / style
-    canvas = background()
-    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-
+def fan_layer(cards, img_dir, lang, card_w, size):
+    """Compose the fan on a transparent layer and report its bounding box."""
+    w, h = size
     art = [
         rounded_card(
             Image.open(img_dir / c["image"]),
             c["label"].get(lang, c["key"]),
             c["summary"].get(lang, ""),
+            card_w,
         )
         for c in cards
     ]
+    layer = Image.new("RGBA", size, (0, 0, 0, 0))
+    pivot_y = (HEADER_BOTTOM(h) + h) // 2 + max(a.height for a in art) // 2
+
+    for (angle, fx, fy), a in zip(FAN, art):
+        rot = pivoted(a, angle)
+        pos = (
+            w // 2 + round(fx * card_w) - rot.width // 2,
+            pivot_y + round(fy * card_w) - rot.height // 2,
+        )
+        layer.alpha_composite(shadow_of(rot, blur=max(8, round(22 * card_w / 480))),
+                              (pos[0], pos[1] + round(16 * card_w / 480)))
+        layer.alpha_composite(rot, pos)
+    return layer, layer.getbbox()
+
+
+def render(slug, deck, style, size, lang="en"):
+    cards = deck["cards"][:3]
+    if len(cards) < 3:
+        raise SystemExit(f"{slug}: needs 3 cards, has {len(cards)}")
+
+    w, h = size
+    img_dir = ROOT / "assets" / "previews" / slug / style
     for c in cards:
         if not (img_dir / c["image"]).exists():
             raise SystemExit(f"missing preview image: {img_dir / c['image']}")
 
-    # Lay the fan out around a nominal pivot, then measure what was actually
-    # drawn and recentre it. Predicting the extent is not worth it: rotation,
-    # the per-card dy and the blurred shadow all move the real bounds.
-    pivot = (W // 2, (HEADER_BOTTOM + H) // 2 + max(a.height for a in art) // 2)
+    # Try progressively narrower cards until the fan clears the canvas edge.
+    # Measuring beats predicting: rotation, the per-card offsets and the blurred
+    # shadow all move the real bounds, and the binding limit flips between the
+    # canvas width and its height depending on the size asked for.
+    target = min(round(w * 0.52), round((h - HEADER_BOTTOM(h)) * 0.42))
+    layer = bbox = None
+    for card_w in range(target, 200, -16):
+        layer, bbox = fan_layer(cards, img_dir, lang, card_w, size)
+        if bbox and bbox[0] >= MARGIN and bbox[2] <= w - MARGIN and \
+           (bbox[3] - bbox[1]) <= h - HEADER_BOTTOM(h) - MARGIN:
+            break
+    if layer is None or bbox is None:
+        raise SystemExit(f"{slug}: cannot fit the fan into {w}x{h}")
 
-    for (angle, dx, dy), a in zip(FAN, art):
-        rot = pivoted(a, angle)
-        pos = (pivot[0] + dx - rot.width // 2, pivot[1] + dy - rot.height // 2)
-        layer.alpha_composite(shadow_of(rot), (pos[0], pos[1] + 16))
-        layer.alpha_composite(rot, pos)
-
-    bbox = layer.getbbox()
-    if bbox:
-        shift = (HEADER_BOTTOM + H) // 2 - (bbox[1] + bbox[3]) // 2
-        layer = ImageChops.offset(layer, 0, shift)
-
+    canvas = background(size)
+    shift = (HEADER_BOTTOM(h) + h) // 2 - (bbox[1] + bbox[3]) // 2
+    layer = ImageChops.offset(layer, 0, shift)
     canvas.paste(layer, (0, 0), layer)
 
     draw = ImageDraw.Draw(canvas)
+    k = w / 1242
     title = deck["titles"].get(lang, slug)
-    tf = font(FONT_BOLD, 82, 700)
-    draw.text(((W - draw.textlength(title, font=tf)) / 2, 150), title, font=tf, fill=INK)
+    tf = font(FONT_BOLD, round(82 * k), 700)
+    draw.text(((w - draw.textlength(title, font=tf)) / 2, round(150 * k)),
+              title, font=tf, fill=INK)
 
-    sf = font(FONT_TEXT, 36, 400)
+    sf = font(FONT_TEXT, round(36 * k), 400)
     sub = f"{len(deck['cards'])} cards · {len(deck['titles'])} languages · {style}"
-    draw.text(((W - draw.textlength(sub, font=sf)) / 2, 268), sub, font=sf, fill=MUTED)
+    draw.text(((w - draw.textlength(sub, font=sf)) / 2, round(268 * k)),
+              sub, font=sf, fill=MUTED)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out = OUT_DIR / f"{slug}.png"
@@ -191,17 +225,24 @@ def render(slug, deck, style, lang="en"):
 
 
 def main():
+    argv = sys.argv[1:]
+    size = (W, H)
+    if "--size" in argv:
+        i = argv.index("--size")
+        w, _, h = argv[i + 1].partition("x")
+        size = (int(w), int(h))
+        del argv[i:i + 2]
+
     catalog = json.loads((ROOT / "assets" / "catalog.json").read_text())
     paid = [p["unlocks"][0] for p in catalog["products"]]
-    wanted = sys.argv[1:] or paid
 
-    for slug in wanted:
+    for slug in argv or paid:
         deck = json.loads((ROOT / "assets" / "decks" / f"{slug}.json").read_text())
         # The illustrated style is the one that distinguishes the deck visually;
         # photo is the base every deck shares.
         style = next((s for s in deck["styles"] if s != "photo"), deck["styles"][0])
-        out = render(slug, deck, style)
-        print(f"{slug:<17} {style:<11} -> {out.relative_to(ROOT)}")
+        out = render(slug, deck, style, size)
+        print(f"{slug:<17} {style:<11} {size[0]}x{size[1]} -> {out.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

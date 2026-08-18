@@ -33,7 +33,7 @@ Review notes text (same for all 11):
 ## Per product
 
 Screenshots are in `store/review_screenshots/`. They are review-only — Apple
-never shows them on the store — and each is 1242x1656 (the minimum is 640x920).
+never shows them on the store — and each is 1242x2208, a canonical App Store screenshot size.
 
 | Product ID | Reference Name | Display Name (en) | Screenshot |
 |---|---|---|---|
@@ -67,7 +67,8 @@ rejects uppercase. Product IDs need not match the app's bundle ID
 ## Regenerating
 
 ```
-python3 tools/iap_review_shot.py     # screenshots, one per paid deck
+python3 tools/iap_review_shot.py                  # 1242x2208 (default)
+python3 tools/iap_review_shot.py --size 640x920   # if ASC rejects the size
 ```
 
 The product list is derived from `assets/catalog.json` and `assets/decks/*.json`,
