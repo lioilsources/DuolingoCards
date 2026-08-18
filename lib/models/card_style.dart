@@ -25,12 +25,34 @@ class CardStyle {
 
   /// Registry order is presentation order: photographic first, then the
   /// illustrated looks from most to least literal.
+  /// Registry order is presentation order. The four styles the decks actually
+  /// declare come first — every deck ships [photo] plus exactly one illustrated
+  /// look. The rest are presets the pipeline can render but no deck.yaml lists;
+  /// they stay here so a deck that adopts one later renders sanely.
   static const List<CardStyle> all = [
     CardStyle(
-      id: 'flux-real',
-      label: 'Fotorealistický',
+      id: 'photo',
+      label: 'Fotografie',
       description: 'Ostrá fotografie, nejblíž skutečnosti',
       icon: Icons.photo_camera_outlined,
+    ),
+    CardStyle(
+      id: 'ink',
+      label: 'Štětec a tuš',
+      description: 'Tahy štětcem, prázdný papír, barevný akcent',
+      icon: Icons.water_outlined,
+    ),
+    CardStyle(
+      id: 'pastel',
+      label: 'Pastel',
+      description: 'Suchý pastel na tónovaném papíře',
+      icon: Icons.gradient_outlined,
+    ),
+    CardStyle(
+      id: 'watercolor',
+      label: 'Akvarel',
+      description: 'Rozpité lazury, prosvítající papír',
+      icon: Icons.local_florist_outlined,
     ),
     CardStyle(
       id: 'pony-cartoon',
@@ -46,21 +68,9 @@ class CardStyle {
     ),
     CardStyle(
       id: 'pony-watercolor',
-      label: 'Akvarel',
+      label: 'Akvarel – měkký',
       description: 'Měkká malba vodovkami',
       icon: Icons.water_drop_outlined,
-    ),
-    CardStyle(
-      id: 'illustrious-watercolor',
-      label: 'Botanický akvarel',
-      description: 'Rozpité lazury, prosvítající papír',
-      icon: Icons.local_florist_outlined,
-    ),
-    CardStyle(
-      id: 'illustrious-pastel',
-      label: 'Pastel',
-      description: 'Suchý pastel na tónovaném papíře',
-      icon: Icons.gradient_outlined,
     ),
     CardStyle(
       id: 'pony-oil',
@@ -73,12 +83,6 @@ class CardStyle {
       label: 'Olej – impasto',
       description: 'Nanesená pastózní barva, šerosvit',
       icon: Icons.format_paint_outlined,
-    ),
-    CardStyle(
-      id: 'illustrious-ink',
-      label: 'Štětec a tuš',
-      description: 'Tahy štětcem, prázdný papír, barevný akcent',
-      icon: Icons.water_outlined,
     ),
     CardStyle(
       id: 'illustrious-anime',

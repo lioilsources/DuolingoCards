@@ -1,27 +1,26 @@
 {
   "deck": "animals-pets",
   "version": 1,
-  "tier": 1,
   "styles": [
-    "pony-cartoon",
-    "flux-real"
+    "photo",
+    "ink"
   ],
   "styleAvailability": {
-    "flux-real": {
+    "ink": {
       "bundled": true,
-      "cdn": false
+      "cdn": true
     },
-    "pony-cartoon": {
-      "bundled": false,
-      "cdn": false
+    "photo": {
+      "bundled": true,
+      "cdn": true
     }
   },
-  "defaultStyle": "flux-real",
+  "defaultStyle": "photo",
   "titles": {
     "ar": "الحيوانات الأليفة",
     "cs": "Domácí zvířata",
     "de": "Haustiere",
-    "el": "Σπίτι Ζώα Pets σε μορφή φλάσχου!",
+    "el": "Κατοικίδια ζώα",
     "en": "Pets",
     "es-419": "Animales domésticos",
     "fr": "Animaux de compagnie",

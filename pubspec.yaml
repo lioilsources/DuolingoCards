@@ -98,49 +98,56 @@ flutter:
 
   # Assets
   assets:
-    # No-backend content (v2): bundled product catalog + language decks
+    # No-backend content (v2): bundled catalog + built deck packs.
+    # Each deck bundles its deck.json plus a 3-card preview per style;
+    # the full image set arrives from the CDN on first open. A preview
+    # folder missing from this list is NOT bundled, which silently makes
+    # the style undeliverable — `content build` trusts these paths.
     - assets/catalog.json
-    # Tier-0 (free, fully bundled): colors-basic pilot — full images + preview
-    - assets/decks/colors-basic.json
-    - assets/previews/colors-basic/flux-real/
-    - assets/previews/colors-basic/pony-cartoon/
-    # Tier-0 free decks — JSON + 3-card preview bundled, full images via CDN
-    - assets/decks/animals-wild.json
-    - assets/previews/animals-wild/flux-real/
-    - assets/decks/body-parts.json
-    - assets/previews/body-parts/flux-real/
-    - assets/decks/emotions.json
-    - assets/previews/emotions/flux-real/
-    - assets/decks/food-fruits.json
-    - assets/previews/food-fruits/flux-real/
-    - assets/previews/food-fruits/illustrious-flat/
-    - assets/previews/food-fruits/illustrious-ink/
-    - assets/previews/food-fruits/illustrious-pastel/
-    - assets/previews/food-fruits/illustrious-watercolor/
-    - assets/decks/food-vegetables.json
-    - assets/previews/food-vegetables/flux-real/
-    - assets/decks/numbers-1-10.json
-    - assets/previews/numbers-1-10/flux-real/
-    - assets/decks/weather.json
-    - assets/previews/weather/flux-real/
-    # Tier-1 paid decks — JSON + 3-card preview bundled, full images via CDN
-    - assets/decks/animals-birds.json
-    - assets/previews/animals-birds/flux-real/
-    - assets/decks/animals-farm.json
-    - assets/previews/animals-farm/flux-real/
-    - assets/decks/animals-insects.json
-    - assets/previews/animals-insects/flux-real/
-    - assets/previews/animals-insects/illustrious-flat/
-    - assets/previews/animals-insects/illustrious-ink/
-    - assets/previews/animals-insects/illustrious-pastel/
-    - assets/previews/animals-insects/illustrious-watercolor/
+    # Free decks
     - assets/decks/animals-pets.json
-    - assets/previews/animals-pets/flux-real/
+    - assets/previews/animals-pets/photo/
+    - assets/previews/animals-pets/ink/
+    - assets/decks/colors-basic.json
+    - assets/previews/colors-basic/photo/
+    - assets/previews/colors-basic/watercolor/
+    - assets/decks/numbers-1-10.json
+    - assets/previews/numbers-1-10/photo/
+    - assets/previews/numbers-1-10/ink/
+    # Paid decks (one non-consumable IAP each)
+    - assets/decks/animals-birds.json
+    - assets/previews/animals-birds/photo/
+    - assets/previews/animals-birds/pastel/
+    - assets/decks/animals-farm.json
+    - assets/previews/animals-farm/photo/
+    - assets/previews/animals-farm/ink/
+    - assets/decks/animals-insects.json
+    - assets/previews/animals-insects/photo/
+    - assets/previews/animals-insects/pastel/
     - assets/decks/animals-reptiles.json
-    - assets/previews/animals-reptiles/flux-real/
+    - assets/previews/animals-reptiles/photo/
+    - assets/previews/animals-reptiles/pastel/
     - assets/decks/animals-sea.json
-    - assets/previews/animals-sea/flux-real/
-
+    - assets/previews/animals-sea/photo/
+    - assets/previews/animals-sea/pastel/
+    - assets/decks/animals-wild.json
+    - assets/previews/animals-wild/photo/
+    - assets/previews/animals-wild/pastel/
+    - assets/decks/body-parts.json
+    - assets/previews/body-parts/photo/
+    - assets/previews/body-parts/watercolor/
+    - assets/decks/emotions.json
+    - assets/previews/emotions/photo/
+    - assets/previews/emotions/watercolor/
+    - assets/decks/food-fruits.json
+    - assets/previews/food-fruits/photo/
+    - assets/previews/food-fruits/pastel/
+    - assets/decks/food-vegetables.json
+    - assets/previews/food-vegetables/photo/
+    - assets/previews/food-vegetables/pastel/
+    - assets/decks/weather.json
+    - assets/previews/weather/photo/
+    - assets/previews/weather/watercolor/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 

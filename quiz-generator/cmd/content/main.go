@@ -43,7 +43,7 @@ import (
 // "(photorealistic texture:1.1)", "soft studio lighting", "clean white
 // background". A restyle pass does not need it (the subject arrives via the
 // base image and ControlNet) and is actively harmed by it — food-fruits asks
-// for "(vibrant colors:1.3)" while illustrious-ink asks for "(monochrome:1.2)",
+// for "(vibrant colors:1.3)" while ink asks for "(monochrome:1.2)",
 // and the two cancel. Carrying photoreal scaffolding into every repaint is a
 // large part of why restyles drift back toward the look of the base.
 func mergedBrief(c content.CardYAML, d *content.Deck, style prompt.Style) content.VisualBrief {
@@ -98,10 +98,10 @@ func imageFilenamePrefix(deckSlug, cardKey, style string) string {
 	if i := strings.LastIndex(cardKey, "."); i >= 0 {
 		keyPart = cardKey[i+1:]
 	}
-	// Short style alias: "flux-real" → "flux", "pony-cartoon" → "pony"
+	// Short style alias: "photo" → "flux", "pony-cartoon" → "pony"
 	styleAlias := style
 	switch style {
-	case "flux-real":
+	case "photo":
 		styleAlias = "flux"
 	case "pony-cartoon":
 		styleAlias = "pony"
@@ -117,13 +117,13 @@ func imageFilenamePrefix(deckSlug, cardKey, style string) string {
 		styleAlias = "flat"
 	case "illustrious-ukiyoe":
 		styleAlias = "ukiyoe"
-	case "illustrious-ink":
+	case "ink":
 		styleAlias = "ink"
-	case "illustrious-watercolor":
+	case "watercolor":
 		styleAlias = "watercolor-illu"
 	case "illustrious-oil":
 		styleAlias = "oil-illu"
-	case "illustrious-pastel":
+	case "pastel":
 		styleAlias = "pastel"
 	case "illustrious-mucha":
 		styleAlias = "mucha"
@@ -220,7 +220,7 @@ Common flags:
   -strict      Treat missing target-language translations as errors.
 
 Restyle styles (images):
-  pony-watercolor, pony-oil          img2img repaint of the flux-real base through Pony SDXL.
+  pony-watercolor, pony-oil          img2img repaint of the photo base through Pony SDXL.
   illustrious-anime, -storybook,     img2img repaint through Illustrious with a ControlNet
   -flat, -ukiyoe                     structure lock, so a high denoise keeps the base anatomy.
   Tune with -denoise / -control-strength; pick models with

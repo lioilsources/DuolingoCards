@@ -13,8 +13,8 @@ func publishFixture(t *testing.T) *Deck {
 	dir := t.TempDir()
 	mustWrite(t, filepath.Join(dir, "deck.yaml"), `slug: test-deck
 version: 1
-styles: [flux-real, illustrious-ink]
-default_style: flux-real
+styles: [photo, ink]
+default_style: photo
 cards:
   - {key: a.one,   image: a.one.png,   brief: {subject: one}}
   - {key: a.two,   image: a.two.png,   brief: {subject: two}}
@@ -28,8 +28,8 @@ cards:
   a.two: {label: b, summary: s, info: i}
   a.three: {label: c, summary: s, info: i}
 `)
-	writeStyleImages(t, dir, "flux-real", "a.one.png", "a.two.png", "a.three.png")
-	writeStyleImages(t, dir, "illustrious-ink", "a.one.png") // incomplete on purpose
+	writeStyleImages(t, dir, "photo", "a.one.png", "a.two.png", "a.three.png")
+	writeStyleImages(t, dir, "ink", "a.one.png") // incomplete on purpose
 	d, err := Load(dir)
 	if err != nil {
 		t.Fatal(err)
@@ -50,19 +50,19 @@ func TestPublishCopiesPreviewsAndFullSet(t *testing.T) {
 		t.Fatalf("Publish: %v", err)
 	}
 
-	if res.Previews["flux-real"] != 2 {
-		t.Errorf("previews = %d, want 2 (preview-cards)", res.Previews["flux-real"])
+	if res.Previews["photo"] != 2 {
+		t.Errorf("previews = %d, want 2 (preview-cards)", res.Previews["photo"])
 	}
-	if res.CDN["flux-real"] != 3 {
-		t.Errorf("cdn = %d, want all 3 cards", res.CDN["flux-real"])
+	if res.CDN["photo"] != 3 {
+		t.Errorf("cdn = %d, want all 3 cards", res.CDN["photo"])
 	}
 	// The preview set is the leading cards, not an arbitrary subset.
 	for _, name := range []string{"a.one.png", "a.two.png"} {
-		if _, err := os.Stat(filepath.Join(previews, "test-deck", "flux-real", name)); err != nil {
+		if _, err := os.Stat(filepath.Join(previews, "test-deck", "photo", name)); err != nil {
 			t.Errorf("preview %s missing: %v", name, err)
 		}
 	}
-	if _, err := os.Stat(filepath.Join(previews, "test-deck", "flux-real", "a.three.png")); err == nil {
+	if _, err := os.Stat(filepath.Join(previews, "test-deck", "photo", "a.three.png")); err == nil {
 		t.Error("a.three.png should be past the preview cutoff")
 	}
 }
@@ -81,10 +81,10 @@ func TestPublishSkipsIncompleteStyles(t *testing.T) {
 	if err != nil {
 		t.Fatalf("Publish: %v", err)
 	}
-	if n, ok := res.CDN["illustrious-ink"]; ok && n > 0 {
+	if n, ok := res.CDN["ink"]; ok && n > 0 {
 		t.Errorf("incomplete style was published (%d files)", n)
 	}
-	if _, err := os.Stat(filepath.Join(root, "cdn", "test-deck", "images", "illustrious-ink")); err == nil {
+	if _, err := os.Stat(filepath.Join(root, "cdn", "test-deck", "images", "ink")); err == nil {
 		t.Error("incomplete style got a CDN directory")
 	}
 }
@@ -105,14 +105,14 @@ func TestPublishThenBuildAgree(t *testing.T) {
 	}
 
 	rd := d.BuildFor(AppLayout{Root: root})
-	got, ok := rd.StyleAvailability["flux-real"]
+	got, ok := rd.StyleAvailability["photo"]
 	if !ok {
-		t.Fatal("flux-real missing from StyleAvailability")
+		t.Fatal("photo missing from StyleAvailability")
 	}
 	if !got.Bundled || !got.CDN {
-		t.Errorf("flux-real = %+v, want bundled and cdn after publishing both", got)
+		t.Errorf("photo = %+v, want bundled and cdn after publishing both", got)
 	}
-	if _, ok := rd.StyleAvailability["illustrious-ink"]; ok {
+	if _, ok := rd.StyleAvailability["ink"]; ok {
 		t.Error("incomplete style leaked into the built deck")
 	}
 }
@@ -127,7 +127,7 @@ func TestPublishIsIdempotent(t *testing.T) {
 	if _, err := d.Publish(opts); err != nil {
 		t.Fatal(err)
 	}
-	target := filepath.Join(root, "cdn", "test-deck", "images", "flux-real", "a.one.png")
+	target := filepath.Join(root, "cdn", "test-deck", "images", "photo", "a.one.png")
 	first, err := os.Stat(target)
 	if err != nil {
 		t.Fatal(err)
@@ -168,13 +168,13 @@ func TestWebPPublishAndBuildAgreeOnNames(t *testing.T) {
 		if filepath.Ext(c.Image) != ".webp" {
 			t.Fatalf("deck.json still names %q", c.Image)
 		}
-		p := filepath.Join(root, "docs", "decks", "test-deck", "images", "flux-real", c.Image)
+		p := filepath.Join(root, "docs", "decks", "test-deck", "images", "photo", c.Image)
 		if _, err := os.Stat(p); err != nil {
 			t.Errorf("deck.json names %s but it was not published: %v", c.Image, err)
 		}
 	}
 	// The PNG masters must be untouched — only what ships is re-encoded.
-	if _, err := os.Stat(filepath.Join(d.Dir, "images", "flux-real", "a.one.png")); err != nil {
+	if _, err := os.Stat(filepath.Join(d.Dir, "images", "photo", "a.one.png")); err != nil {
 		t.Errorf("master PNG disturbed: %v", err)
 	}
 }

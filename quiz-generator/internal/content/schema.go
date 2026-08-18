@@ -16,7 +16,7 @@ package content
 type DeckYAML struct {
 	Slug         string     `yaml:"slug"`
 	Version      int        `yaml:"version"`
-	Styles       []string   `yaml:"styles"`        // named image style configs, e.g. flux-real, pony-cartoon
+	Styles       []string   `yaml:"styles"`        // named image style configs, e.g. photo, pony-cartoon
 	DefaultStyle string     `yaml:"default_style"` // style used at runtime when no override
 	Tier         int        `yaml:"tier"`          // localization tier 0-3 (see plan §8)
 	BriefAttrs   []string   `yaml:"brief_attrs"`   // extra attrs merged into every card's brief (e.g. feral, cute)

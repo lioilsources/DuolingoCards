@@ -16,8 +16,8 @@ func writeDeck(t *testing.T) string {
 	deckYAML := `slug: test-deck
 version: 2
 tier: 0
-styles: [flux-real]
-default_style: flux-real
+styles: [photo]
+default_style: photo
 cards:
   - key: a.one
     image: a.one.webp
@@ -58,7 +58,7 @@ cards:
 	mustWrite(t, filepath.Join(dir, "i18n", "en.yaml"), enYAML)
 	// Build derives the shipped style list from the images on disk, so a deck
 	// fixture without image files would ship no styles at all.
-	writeStyleImages(t, dir, "flux-real", "a.one.webp", "a.two.webp")
+	writeStyleImages(t, dir, "photo", "a.one.webp", "a.two.webp")
 	return dir
 }
 
@@ -116,7 +116,7 @@ func TestLoadAndBuild(t *testing.T) {
 	}
 
 	rd := d.Build()
-	if rd.DefaultStyle != "flux-real" {
+	if rd.DefaultStyle != "photo" {
 		t.Fatalf("DefaultStyle = %q", rd.DefaultStyle)
 	}
 	if len(rd.Cards) != 2 {
@@ -179,13 +179,13 @@ func TestBuildShipsOnlyCompleteStyles(t *testing.T) {
 	dir := writeDeck(t)
 	mustWrite(t, filepath.Join(dir, "deck.yaml"), `slug: test-deck
 version: 2
-styles: [flux-real, pony-cartoon, illustrious-flat]
+styles: [photo, pony-cartoon, illustrious-flat]
 default_style: pony-cartoon
 cards:
   - {key: a.one, image: a.one.webp, brief: {subject: one}}
   - {key: a.two, image: a.two.webp, brief: {subject: two}}
 `)
-	// flux-real complete (from writeDeck), illustrious-flat partial, pony-cartoon absent.
+	// photo complete (from writeDeck), illustrious-flat partial, pony-cartoon absent.
 	writeStyleImages(t, dir, "illustrious-flat", "a.one.webp")
 
 	d, err := Load(dir)
@@ -193,13 +193,13 @@ cards:
 		t.Fatalf("Load: %v", err)
 	}
 	rd := d.Build()
-	if len(rd.Styles) != 1 || rd.Styles[0] != "flux-real" {
-		t.Fatalf("Styles = %v, want [flux-real]", rd.Styles)
+	if len(rd.Styles) != 1 || rd.Styles[0] != "photo" {
+		t.Fatalf("Styles = %v, want [photo]", rd.Styles)
 	}
 	// default_style named a style that does not ship; it must fall back rather
 	// than leave the app pointing at an empty image directory.
-	if rd.DefaultStyle != "flux-real" {
-		t.Fatalf("DefaultStyle = %q, want flux-real", rd.DefaultStyle)
+	if rd.DefaultStyle != "photo" {
+		t.Fatalf("DefaultStyle = %q, want photo", rd.DefaultStyle)
 	}
 
 	issues := d.Lint(LintOptions{})
@@ -222,18 +222,18 @@ func TestBuildRecordsDelivery(t *testing.T) {
 	writeStyleImages(t, deckDir, "pony-cartoon", "a.one.webp", "a.two.webp")
 	mustWrite(t, filepath.Join(deckDir, "deck.yaml"), `slug: test-deck
 version: 2
-styles: [flux-real, pony-cartoon]
-default_style: flux-real
+styles: [photo, pony-cartoon]
+default_style: photo
 cards:
   - {key: a.one, image: a.one.webp, brief: {subject: one}}
   - {key: a.two, image: a.two.webp, brief: {subject: two}}
 `)
 
-	// An app tree where flux-real has a bundled preview and pony-cartoon has
+	// An app tree where photo has a bundled preview and pony-cartoon has
 	// neither a preview nor a CDN publish.
 	root := t.TempDir()
-	mustWrite(t, filepath.Join(root, "pubspec.yaml"), "flutter:\n  assets:\n    - assets/previews/test-deck/flux-real/\n")
-	mustWrite(t, filepath.Join(root, "assets", "previews", "test-deck", "flux-real", "a.one.webp"), "png")
+	mustWrite(t, filepath.Join(root, "pubspec.yaml"), "flutter:\n  assets:\n    - assets/previews/test-deck/photo/\n")
+	mustWrite(t, filepath.Join(root, "assets", "previews", "test-deck", "photo", "a.one.webp"), "png")
 
 	d, _ := Load(deckDir)
 	rd := d.BuildFor(AppLayout{Root: root})
@@ -241,8 +241,8 @@ cards:
 	if len(rd.Styles) != 2 {
 		t.Fatalf("Styles = %v, want both (images exist for both)", rd.Styles)
 	}
-	if got := rd.StyleAvailability["flux-real"]; !got.Bundled || got.CDN || !got.Offerable() {
-		t.Fatalf("flux-real availability = %+v, want bundled only", got)
+	if got := rd.StyleAvailability["photo"]; !got.Bundled || got.CDN || !got.Offerable() {
+		t.Fatalf("photo availability = %+v, want bundled only", got)
 	}
 	if got := rd.StyleAvailability["pony-cartoon"]; got.Offerable() {
 		t.Fatalf("pony-cartoon availability = %+v, want unreachable", got)
@@ -260,14 +260,14 @@ cards:
 // pilot ships this way), but only when the directory actually holds files.
 func TestBundledFullImagesRequireFiles(t *testing.T) {
 	root := t.TempDir()
-	mustWrite(t, filepath.Join(root, "pubspec.yaml"), "flutter:\n  assets:\n    - decks/colors-basic/images/flux-real/\n")
+	mustWrite(t, filepath.Join(root, "pubspec.yaml"), "flutter:\n  assets:\n    - decks/colors-basic/images/photo/\n")
 	app := AppLayout{Root: root}
 
-	if got := app.Availability("colors-basic", "flux-real"); got.Bundled {
+	if got := app.Availability("colors-basic", "photo"); got.Bundled {
 		t.Fatalf("stale pubspec entry with no files counted as bundled: %+v", got)
 	}
-	mustWrite(t, filepath.Join(root, "decks", "colors-basic", "images", "flux-real", "red.webp"), "png")
-	if got := app.Availability("colors-basic", "flux-real"); !got.Bundled {
+	mustWrite(t, filepath.Join(root, "decks", "colors-basic", "images", "photo", "red.webp"), "png")
+	if got := app.Availability("colors-basic", "photo"); !got.Bundled {
 		t.Fatalf("pubspec-listed full image set not counted as bundled: %+v", got)
 	}
 }
@@ -276,8 +276,8 @@ func TestBundledFullImagesRequireFiles(t *testing.T) {
 func TestLintDuplicateKey(t *testing.T) {
 	dir := t.TempDir()
 	mustWrite(t, filepath.Join(dir, "deck.yaml"), `slug: dup
-styles: [flux-real]
-default_style: flux-real
+styles: [photo]
+default_style: photo
 cards:
   - {key: a.x, image: x.webp, brief: {subject: x}}
   - {key: a.x, image: x.webp, brief: {subject: x}}

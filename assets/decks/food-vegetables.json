@@ -1,26 +1,27 @@
 {
   "deck": "food-vegetables",
   "version": 1,
+  "tier": 1,
   "styles": [
-    "pony-cartoon",
-    "flux-real"
+    "photo",
+    "pastel"
   ],
   "styleAvailability": {
-    "flux-real": {
+    "pastel": {
       "bundled": true,
-      "cdn": false
+      "cdn": true
     },
-    "pony-cartoon": {
-      "bundled": false,
-      "cdn": false
+    "photo": {
+      "bundled": true,
+      "cdn": true
     }
   },
-  "defaultStyle": "flux-real",
+  "defaultStyle": "photo",
   "titles": {
     "ar": "الخضروات",
     "cs": "Zelenina",
     "de": "Gemüse",
-    "el": "Λαχανικά σε φρέσκο χωρίς να έχουμε πληγώσει τη γη;  \nΠότε επιβλήθηκε αυτό με βίαιο και δύσφημο τρόπο?  \n\nΣτη Γερμανία λέμε \"Grünkohl\" - ίδιος ορισμός!",
+    "el": "Λαχανικά",
     "en": "Vegetables",
     "es-419": "Verdura",
     "fr": "Légumes verts",

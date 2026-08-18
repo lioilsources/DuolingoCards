@@ -17,7 +17,7 @@ var lionBrief = content.VisualBrief{
 // FLUX folds "avoid" into the positive prompt (distilled FLUX ignores negatives)
 // and emits no negative prompt.
 func TestExpandFlux(t *testing.T) {
-	p := Expand(lionBrief, StyleFluxReal)
+	p := Expand(lionBrief, StylePhoto)
 	if p.Backend != BackendFlux {
 		t.Fatalf("backend = %s", p.Backend)
 	}
@@ -80,7 +80,7 @@ func TestExpandIllustrious(t *testing.T) {
 // with CardStyle.all in lib/models/card_style.dart, which names them for users.
 var illustriousStyleNames = []string{
 	"illustrious-anime", "illustrious-storybook", "illustrious-flat", "illustrious-ukiyoe",
-	"illustrious-ink", "illustrious-watercolor", "illustrious-oil", "illustrious-pastel",
+	"ink", "watercolor", "illustrious-oil", "pastel",
 	"illustrious-mucha", "illustrious-vangogh",
 }
 

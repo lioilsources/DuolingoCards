@@ -1,9 +1,11 @@
-/// An owned (deck, source_lang, target_lang, style) combination.
+/// An activated (deck, source_lang, target_lang, style) combination — one tile
+/// on the home screen.
 ///
 /// Stored as a pipe-delimited key in SharedPreferences so the full set can be
-/// kept as a flat `List<String>`. Each (slug, l1, l2, style) quad is a
-/// distinct entitlement — buying the same deck with a different style costs
-/// another credit and creates a new entry.
+/// kept as a flat `List<String>`. Activation is free and says nothing about
+/// ownership: buying a deck covers every language pair and every style, and the
+/// same deck may be activated several times to study it in two languages at
+/// once. See EntitlementService for the ownership half.
 class DeckEntitlement {
   final String deckSlug;
   final String sourceLang;

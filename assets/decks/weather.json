@@ -1,26 +1,27 @@
 {
   "deck": "weather",
   "version": 1,
+  "tier": 1,
   "styles": [
-    "pony-cartoon",
-    "flux-real"
+    "photo",
+    "watercolor"
   ],
   "styleAvailability": {
-    "flux-real": {
+    "photo": {
       "bundled": true,
-      "cdn": false
+      "cdn": true
     },
-    "pony-cartoon": {
-      "bundled": false,
-      "cdn": false
+    "watercolor": {
+      "bundled": true,
+      "cdn": true
     }
   },
-  "defaultStyle": "flux-real",
+  "defaultStyle": "photo",
   "titles": {
     "ar": "الطقس",
     "cs": "Počasí",
     "de": "Wetter",
-    "el": "Πολύ Καλός Προγνωστικός Μηχανισμός για τους Δυνάμεις και τη Γήϊνη!",
+    "el": "Καιρός",
     "en": "Weather",
     "es-419": "Clima",
     "fr": "Météo",

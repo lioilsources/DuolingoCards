@@ -4,9 +4,9 @@ version: 1
 tier: 0
 brief_attrs: ["(simple illustration:1.2)", "(clean design:1.2)", "(flat color:1.1)", "(centered composition:1.2)"]
 styles:
-  - pony-cartoon
-  - flux-real
-default_style: flux-real
+  - photo
+  - watercolor
+default_style: photo
 
 cards:
   - key: color.red

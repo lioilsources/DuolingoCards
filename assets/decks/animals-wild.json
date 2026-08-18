@@ -1,26 +1,27 @@
 {
   "deck": "animals-wild",
   "version": 1,
+  "tier": 1,
   "styles": [
-    "pony-cartoon",
-    "flux-real"
+    "photo",
+    "pastel"
   ],
   "styleAvailability": {
-    "flux-real": {
+    "pastel": {
       "bundled": true,
-      "cdn": false
+      "cdn": true
     },
-    "pony-cartoon": {
-      "bundled": false,
-      "cdn": false
+    "photo": {
+      "bundled": true,
+      "cdn": true
     }
   },
-  "defaultStyle": "flux-real",
+  "defaultStyle": "photo",
   "titles": {
     "ar": "الحيوانات البرية",
     "cs": "Divoká zvířata",
     "de": "Wildtiere",
-    "el": "Διά της Φύσεως Ζώα",
+    "el": "Άγρια ζώα",
     "en": "Wild animals",
     "es-419": "Animales salvajes",
     "fr": "Animaux sauvages",

@@ -1,26 +1,27 @@
 {
   "deck": "emotions",
   "version": 1,
+  "tier": 1,
   "styles": [
-    "pony-cartoon",
-    "flux-real"
+    "photo",
+    "watercolor"
   ],
   "styleAvailability": {
-    "flux-real": {
+    "photo": {
       "bundled": true,
-      "cdn": false
+      "cdn": true
     },
-    "pony-cartoon": {
-      "bundled": false,
-      "cdn": false
+    "watercolor": {
+      "bundled": true,
+      "cdn": true
     }
   },
-  "defaultStyle": "flux-real",
+  "defaultStyle": "photo",
   "titles": {
     "ar": "العواطف",
     "cs": "Emoce",
     "de": "Emotionen",
-    "el": "Συναισθήματα / Σοβαρά συναισθηματικά ψεύδη που τώρα δεν είπα να αλέξω! 😂",
+    "el": "Συναισθήματα",
     "en": "Emotions",
     "es-419": "Emociones básicas",
     "fr": "Émotions",

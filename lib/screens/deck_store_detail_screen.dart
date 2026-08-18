@@ -11,14 +11,16 @@ import '../services/entitlement_service.dart';
 import '../services/language_deck_service.dart';
 import '../utils/language_names.dart';
 import '../utils/locale_direction.dart';
-import '../widgets/credit_pack_sheet.dart';
 import '../widgets/pronounce_button.dart';
 import 'language_deck_study_screen.dart';
 
 /// Detail page for a deck in the store.
 ///
 /// Lets the user pick source/target language and style, browse a preview of the
-/// first three cards, and unlock or open the deck.
+/// first three cards, and buy, add or open the deck.
+///
+/// Buying is per deck, not per (language, style): one purchase covers every
+/// combination, so the picker above stays free to change afterwards.
 class DeckStoreDetailScreen extends StatefulWidget {
   final LanguageDeck deck;
   final EntitlementService entitlements;
@@ -38,7 +40,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
   late String _l2;
   late String _style;
   int _previewIndex = 0;
-  bool _unlocking = false;
+  bool _purchasing = false;
   bool _isDownloading = false;
   double _downloadProgress = 0.0;
   bool _isAvailableLocally = false;
@@ -58,7 +60,28 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     // Never start on a style the app cannot render: preferredStyle falls back
     // to the first style that can actually reach this device.
     _style = widget.deck.preferredStyle;
+    widget.entitlements.addListener(_onEntitlementsChanged);
     _checkAvailability();
+  }
+
+  @override
+  void dispose() {
+    widget.entitlements.removeListener(_onEntitlementsChanged);
+    super.dispose();
+  }
+
+  /// A purchase completes asynchronously through the store's purchase stream,
+  /// so the confirmation arrives here rather than from [_buy]. Finish the job
+  /// the user actually asked for: put the deck on the home screen and fetch it.
+  void _onEntitlementsChanged() {
+    if (!mounted) return;
+    final owned = _ent.ownsDeck(_deck.slug, tier: _deck.tier);
+    if (_purchasing && owned) {
+      setState(() => _purchasing = false);
+      _add();
+    } else {
+      setState(() {});
+    }
   }
 
   Future<void> _checkAvailability() async {
@@ -94,28 +117,32 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
   List<String> get _offerableStyles =>
       CardStyle.sorted(_deck.offerableStyles);
 
-  int get _cost => _ent.creditCostForTier(_deck.tier);
+  bool get _ownsDeck => _ent.ownsDeck(_deck.slug, tier: _deck.tier);
+  bool get _isFree => _ent.isFree(_deck.slug, tier: _deck.tier);
 
   List<LanguageCard> get _previewCards => _deck.cards.take(3).toList();
 
-  Future<void> _unlock() async {
-    setState(() => _unlocking = true);
-    final err = await _ent.unlockWithCredits(
+  Future<void> _buy() async {
+    setState(() => _purchasing = true);
+    final started = await _ent.purchaseDeck(_deck.slug);
+    if (!mounted) return;
+    if (!started) {
+      setState(() => _purchasing = false);
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Nákup se nepodařilo zahájit')),
+      );
+    }
+    // On success the store sheet is now up; _onEntitlementsChanged finishes.
+  }
+
+  Future<void> _add() async {
+    final err = await _ent.activate(
       _deck.slug, _l1, _l2, _style,
       tier: _deck.tier,
     );
     if (!mounted) return;
-    setState(() => _unlocking = false);
     if (err != null) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(err),
-          action: SnackBarAction(
-            label: 'Koupit kredity',
-            onPressed: () => showCreditPackSheet(context, _ent),
-          ),
-        ),
-      );
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(err)));
     } else if (!_isAvailableLocally) {
       _startDownload();
     } else {
@@ -261,9 +288,16 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                   children: [
                     Row(
                       children: [
-                        const Icon(Icons.toll_rounded, size: 18),
+                        Icon(
+                          _ownsDeck
+                              ? Icons.check_circle_outline
+                              : Icons.lock_outline,
+                          size: 18,
+                        ),
                         const SizedBox(width: 6),
-                        Text('${_ent.creditBalance} kreditů'),
+                        Text(_ownsDeck
+                            ? (_isFree ? 'Zdarma' : 'Zakoupeno')
+                            : (_ent.priceForDeck(_deck.slug) ?? 'Placený deck')),
                         const Spacer(),
                         if (activatedCount > 0)
                           Container(
@@ -283,10 +317,6 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                               ),
                             ),
                           ),
-                        TextButton(
-                          onPressed: () => showCreditPackSheet(context, _ent),
-                          child: const Text('+ Koupit kredity'),
-                        ),
                       ],
                     ),
                     const SizedBox(height: 8),
@@ -294,12 +324,14 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                       _DownloadProgress(progress: _downloadProgress)
                     else
                       _ActionButton(
-                        tier: _deck.tier,
+                        isOwned: _ownsDeck,
+                        isFree: _isFree,
                         isActivated: _isActivated,
                         isAvailableLocally: _isAvailableLocally,
-                        cost: _cost,
-                        unlocking: _unlocking,
-                        onUnlock: _unlock,
+                        price: _ent.priceForDeck(_deck.slug),
+                        busy: _purchasing,
+                        onBuy: _buy,
+                        onAdd: _add,
                         onDownload: _startDownload,
                         onOpen: _openStudyScreen,
                       ),
@@ -553,22 +585,26 @@ class _DownloadProgress extends StatelessWidget {
 }
 
 class _ActionButton extends StatelessWidget {
-  final int tier;
+  final bool isOwned;
+  final bool isFree;
   final bool isActivated;
   final bool isAvailableLocally;
-  final int cost;
-  final bool unlocking;
-  final VoidCallback onUnlock;
+  final String? price;
+  final bool busy;
+  final VoidCallback onBuy;
+  final VoidCallback onAdd;
   final VoidCallback onDownload;
   final VoidCallback onOpen;
 
   const _ActionButton({
-    required this.tier,
+    required this.isOwned,
+    required this.isFree,
     required this.isActivated,
     required this.isAvailableLocally,
-    required this.cost,
-    required this.unlocking,
-    required this.onUnlock,
+    required this.price,
+    required this.busy,
+    required this.onBuy,
+    required this.onAdd,
     required this.onDownload,
     required this.onOpen,
   });
@@ -589,28 +625,25 @@ class _ActionButton extends StatelessWidget {
         label: const Text('Stáhnout'),
       );
     }
-    if (tier == 0) {
+    if (isOwned) {
+      // Free, or already bought in some other language/style pairing.
       return FilledButton.icon(
-        onPressed: unlocking ? null : onUnlock,
-        icon: unlocking
-            ? const SizedBox(
-                width: 18,
-                height: 18,
-                child: CircularProgressIndicator(strokeWidth: 2),
-              )
-            : const Icon(Icons.add_rounded),
-        label: const Text('Přidat zdarma'),
+        onPressed: onAdd,
+        icon: const Icon(Icons.add_rounded),
+        label: Text(isFree ? 'Přidat zdarma' : 'Přidat'),
       );
     }
     return FilledButton.tonal(
-      onPressed: unlocking ? null : onUnlock,
-      child: unlocking
+      onPressed: busy ? null : onBuy,
+      child: busy
           ? const SizedBox(
               width: 20,
               height: 20,
               child: CircularProgressIndicator(strokeWidth: 2),
             )
-          : Text('Odemknout za $cost kr.'),
+          // Without store metadata there is no honest price to show, so the
+          // button says what it does and lets the store sheet name the amount.
+          : Text(price == null ? 'Koupit' : 'Koupit za $price'),
     );
   }
 }

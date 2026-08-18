@@ -28,7 +28,7 @@ func testCard() content.CardYAML {
 // The text-to-image pass needs the deck's scaffolding: it is what makes the
 // base photographic in the first place.
 func TestMergedBriefKeepsDeckAttrsForBaseStyle(t *testing.T) {
-	b := mergedBrief(testCard(), testDeck(), prompt.StyleFluxReal)
+	b := mergedBrief(testCard(), testDeck(), prompt.StylePhoto)
 	joined := strings.Join(b.Attrs, ", ")
 	for _, want := range []string{"(vibrant colors:1.3)", "(photorealistic texture:1.1)", "shiny"} {
 		if !strings.Contains(joined, want) {
@@ -38,11 +38,11 @@ func TestMergedBriefKeepsDeckAttrsForBaseStyle(t *testing.T) {
 }
 
 // A restyle must not inherit it: "(vibrant colors:1.3)" fights
-// illustrious-ink's "(monochrome:1.2)", and photoreal tags pull every repaint
+// ink's "(monochrome:1.2)", and photoreal tags pull every repaint
 // back toward the look of the base.
 func TestMergedBriefDropsDeckAttrsForRestyle(t *testing.T) {
 	for _, style := range []prompt.Style{
-		prompt.StyleIllustriousInk,
+		prompt.StyleInk,
 		prompt.StyleIllustriousVanGogh,
 		prompt.StylePonyWatercolor,
 	} {

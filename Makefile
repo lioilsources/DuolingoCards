@@ -84,10 +84,10 @@ images-force: $(CONTENT)
 	  -url $(SPARK_IMG) -workers 2 $(RESTYLE_FLAGS) -force
 
 # ── restyle: flux base → Pony watercolor / oil (img2img) ──────────────────────
-# Repaints each card's flux-real image through Pony SDXL in a paint medium,
+# Repaints each card's photo image through Pony SDXL in a paint medium,
 # preserving the composition (ComfyUI img2img: LoadImage → VAEEncode → KSampler).
-# Inspired by Kiran's flux2pony pass. The flux-real base images must exist first:
-#   make images DECK=animals-sea STYLE=flux-real
+# Inspired by Kiran's flux2pony pass. The photo base images must exist first:
+#   make images DECK=animals-sea STYLE=photo
 # Then, writing to images/pony-watercolor/ and images/pony-oil/:
 #   make watercolor DECK=animals-sea
 #   make oil        DECK=animals-sea
@@ -97,26 +97,19 @@ images-force: $(CONTENT)
 # For a structure-locked repaint that survives a much higher denoise, see the
 # Illustrious ControlNet targets below.
 
-.PHONY: watercolor
-watercolor: $(CONTENT)
-	$(CONTENT) images -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
-	  -style pony-watercolor -url $(SPARK_IMG) -workers 2 \
-	  $(RESTYLE_FLAGS) $(if $(FORCE),-force)
-
-.PHONY: oil
-oil: $(CONTENT)
-	$(CONTENT) images -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
-	  -style pony-oil -url $(SPARK_IMG) -workers 2 \
-	  $(RESTYLE_FLAGS) $(if $(FORCE),-force)
+# The Pony media have no shorthand target: `watercolor` now names the
+# Illustrious preset we actually ship. Reach the Pony ones explicitly:
+#   make restyle DECK=animals-sea STYLE=pony-watercolor
+#   make restyle DECK=animals-sea STYLE=pony-oil
 
 # ── restyle: flux base → Illustrious art styles (ControlNet img2img) ──────────
 # Illustrious knows far more art styles than Pony but far fewer real-world
 # objects — it cannot draw an ant. So it never generates from text: it repaints
-# the flux-real base, with a Canny ControlNet pinning the subject's shape
+# the photo base, with a Canny ControlNet pinning the subject's shape
 # (LoadImage → Canny → ControlNetApplyAdvanced → KSampler). The structure lock is
 # what lets denoise run at 0.75-0.85 so the style actually takes; plain img2img
-# would dissolve the subject first. The flux-real base must exist:
-#   make images DECK=animals-insects STYLE=flux-real
+# would dissolve the subject first. The photo base must exist:
+#   make images DECK=animals-insects STYLE=photo
 # Then, writing to images/illustrious-<style>/:
 #   make anime     DECK=animals-insects
 #   make storybook DECK=animals-insects
@@ -125,6 +118,27 @@ oil: $(CONTENT)
 # FORCE=1 overwrites. Pick models with ILLU_CKPT=<name> CONTROLNET=<name>.
 # Balance style vs. subject with DENOISE=<0..1> (higher = more style) and
 # CONTROL_STRENGTH=<0..1+> (higher = stricter adherence to the base anatomy).
+
+# ── the three illustrated styles we ship ─────────────────────────────────────
+# Every deck ships `photo` plus exactly one of these (see each deck.yaml).
+
+.PHONY: ink
+ink: $(CONTENT)
+	$(CONTENT) images -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
+	  -style ink -url $(SPARK_IMG) -workers 2 \
+	  $(RESTYLE_FLAGS) $(if $(FORCE),-force)
+
+.PHONY: pastel
+pastel: $(CONTENT)
+	$(CONTENT) images -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
+	  -style pastel -url $(SPARK_IMG) -workers 2 \
+	  $(RESTYLE_FLAGS) $(if $(FORCE),-force)
+
+.PHONY: watercolor
+watercolor: $(CONTENT)
+	$(CONTENT) images -decks $(DECKS_SRC) $(if $(DECK),-deck $(DECK)) \
+	  -style watercolor -url $(SPARK_IMG) -workers 2 \
+	  $(RESTYLE_FLAGS) $(if $(FORCE),-force)
 
 .PHONY: anime
 anime: $(CONTENT)
@@ -150,8 +164,8 @@ ukiyoe: $(CONTENT)
 	  -style illustrious-ukiyoe -url $(SPARK_IMG) -workers 2 \
 	  $(RESTYLE_FLAGS) $(if $(FORCE),-force)
 
-# The medium and artist presets (ink, watercolor, oil, pastel, mucha, vangogh)
-# have no shorthand target — there are too many to keep naming. Use `restyle`:
+# The remaining artist presets (illustrious-oil, -mucha, -vangogh, pony-*) have
+# no shorthand target — there are too many to keep naming. Use `restyle`:
 #   make restyle DECK=animals-insects STYLE=illustrious-vangogh
 # It works for every style, including the four above.
 .PHONY: restyle

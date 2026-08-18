@@ -7,7 +7,7 @@ import 'package:duolingo_cards/models/language_deck.dart';
 Map<String, dynamic> deckJson({
   required List<String> styles,
   Map<String, dynamic>? availability,
-  String defaultStyle = 'flux-real',
+  String defaultStyle = 'photo',
 }) =>
     {
       'deck': 'test-deck',
@@ -31,45 +31,45 @@ void main() {
   group('offerableStyles', () {
     test('hides a style that is neither bundled nor on the CDN', () {
       final deck = LanguageDeck.fromJson(deckJson(
-        styles: ['flux-real', 'pony-cartoon'],
+        styles: ['photo', 'pony-cartoon'],
         availability: {
-          'flux-real': {'bundled': true, 'cdn': false},
+          'photo': {'bundled': true, 'cdn': false},
           'pony-cartoon': {'bundled': false, 'cdn': false},
         },
       ));
 
-      expect(deck.styles, ['flux-real', 'pony-cartoon']);
-      expect(deck.offerableStyles, ['flux-real']);
+      expect(deck.styles, ['photo', 'pony-cartoon']);
+      expect(deck.offerableStyles, ['photo']);
     });
 
     test('a CDN-only style is offerable', () {
       final deck = LanguageDeck.fromJson(deckJson(
-        styles: ['flux-real'],
+        styles: ['photo'],
         availability: {
-          'flux-real': {'bundled': false, 'cdn': true},
+          'photo': {'bundled': false, 'cdn': true},
         },
       ));
-      expect(deck.offerableStyles, ['flux-real']);
+      expect(deck.offerableStyles, ['photo']);
     });
 
     test('decks built before styleAvailability existed keep every style', () {
       final deck = LanguageDeck.fromJson(
-          deckJson(styles: ['flux-real', 'pony-cartoon']));
-      expect(deck.offerableStyles, ['flux-real', 'pony-cartoon']);
+          deckJson(styles: ['photo', 'pony-cartoon']));
+      expect(deck.offerableStyles, ['photo', 'pony-cartoon']);
     });
   });
 
   group('preferredStyle', () {
     test('falls back when the default style cannot be delivered', () {
       final deck = LanguageDeck.fromJson(deckJson(
-        styles: ['pony-cartoon', 'flux-real'],
+        styles: ['pony-cartoon', 'photo'],
         defaultStyle: 'pony-cartoon',
         availability: {
           'pony-cartoon': {'bundled': false, 'cdn': false},
-          'flux-real': {'bundled': true, 'cdn': false},
+          'photo': {'bundled': true, 'cdn': false},
         },
       ));
-      expect(deck.preferredStyle, 'flux-real');
+      expect(deck.preferredStyle, 'photo');
     });
 
     test('is empty when nothing can be delivered', () {
@@ -88,7 +88,7 @@ void main() {
     test('names every style the pipeline can render', () {
       // Must stay in step with prompt.DefaultStyles on the Go side.
       const pipelineStyles = [
-        'flux-real',
+        'photo',
         'pony-cartoon',
         'pony-watercolor',
         'pony-oil',
@@ -96,10 +96,10 @@ void main() {
         'illustrious-storybook',
         'illustrious-flat',
         'illustrious-ukiyoe',
-        'illustrious-ink',
-        'illustrious-watercolor',
+        'ink',
+        'watercolor',
         'illustrious-oil',
-        'illustrious-pastel',
+        'pastel',
         'illustrious-mucha',
         'illustrious-vangogh',
       ];
@@ -122,9 +122,9 @@ void main() {
 
     test('sorts into registry order, unknown ids last', () {
       final sorted = CardStyle.sorted(
-          ['illustrious-ukiyoe', 'zzz-custom', 'flux-real', 'pony-cartoon']);
+          ['illustrious-ukiyoe', 'zzz-custom', 'photo', 'pony-cartoon']);
       expect(sorted,
-          ['flux-real', 'pony-cartoon', 'illustrious-ukiyoe', 'zzz-custom']);
+          ['photo', 'pony-cartoon', 'illustrious-ukiyoe', 'zzz-custom']);
     });
   });
 }

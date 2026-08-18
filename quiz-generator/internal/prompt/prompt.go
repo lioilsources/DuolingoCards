@@ -33,7 +33,7 @@ const (
 // Style is a named image configuration: which backend dialect to emit and the
 // positive suffix / extra negatives that give the style its look.
 type Style struct {
-	Name           string  // e.g. "flux-real", "pony-cartoon"
+	Name           string  // e.g. "photo", "pony-cartoon"
 	Backend        Backend // prompt dialect
 	PositiveSuffix string  // appended to the positive prompt (look & feel)
 	ExtraNegative  string  // appended to the negative prompt (Pony only)
@@ -45,7 +45,7 @@ type Style struct {
 	// flux2pony restyle pass.
 	Img2Img bool
 	// BaseStyle is the style whose images/<BaseStyle>/ outputs feed the img2img
-	// pass (e.g. "flux-real"). Only meaningful when Img2Img is true.
+	// pass (e.g. "photo"). Only meaningful when Img2Img is true.
 	BaseStyle string
 	// Denoise is the KSampler denoise (0..1) for the img2img pass. Lower keeps more
 	// of the base structure; higher repaints more freely. Only used when Img2Img.
@@ -81,8 +81,8 @@ type Prompt struct {
 // to exercise the dual-prompting path and so a second visual can be added
 // later without touching the briefs.
 var (
-	StyleFluxReal = Style{
-		Name:           "flux-real",
+	StylePhoto = Style{
+		Name:           "photo",
 		Backend:        BackendFlux,
 		PositiveSuffix: "natural lighting, soft focus background, high detail, friendly children's book illustration style",
 	}
@@ -93,7 +93,7 @@ var (
 	}
 
 	// StylePonyWatercolor and StylePonyOil are img2img restyle presets: they take
-	// each card's flux-real base image and repaint it through Pony SDXL in a paint
+	// each card's photo base image and repaint it through Pony SDXL in a paint
 	// medium (see Style.Img2Img). Goal: keep the subject/composition of the base
 	// but push the medium hard. The medium tags are attention-weighted (SDXL
 	// (tag:1.4) syntax) so the limited repaint commits to the style, the extra
@@ -110,7 +110,7 @@ var (
 			"sharp focus, hdr, realistic texture, digital vector, flat solid fill, smooth digital gradient, " +
 			"harsh lines, plastic shading",
 		Img2Img:   true,
-		BaseStyle: "flux-real",
+		BaseStyle: "photo",
 		Denoise:   0.62,
 	}
 	StylePonyOil = Style{
@@ -122,7 +122,7 @@ var (
 		ExtraNegative: "thin washes, watercolor, flat solid fill, digital vector, 3d render, (photorealistic:1.3), " +
 			"(photograph:1.2), sharp focus, hdr, realistic texture, smooth digital gradient, plastic shading, clean lineart",
 		Img2Img:   true,
-		BaseStyle: "flux-real",
+		BaseStyle: "photo",
 		Denoise:   0.65,
 	}
 
@@ -144,7 +144,7 @@ var (
 		ExtraNegative: "(photorealistic:1.3), (photograph:1.2), 3d render, hdr, realistic texture, " +
 			"muted colors, soft focus, depth of field",
 		Img2Img:         true,
-		BaseStyle:       "flux-real",
+		BaseStyle:       "photo",
 		Denoise:         0.80,
 		ControlNet:      true,
 		ControlStrength: 0.85,
@@ -159,7 +159,7 @@ var (
 		ExtraNegative: "(photorealistic:1.3), (photograph:1.2), 3d render, hdr, realistic texture, " +
 			"harsh contrast, dark gritty, sharp digital edges",
 		Img2Img:         true,
-		BaseStyle:       "flux-real",
+		BaseStyle:       "photo",
 		Denoise:         0.75,
 		ControlNet:      true,
 		ControlStrength: 0.90,
@@ -174,7 +174,7 @@ var (
 		ExtraNegative: "(photorealistic:1.3), (photograph:1.2), 3d render, hdr, realistic texture, " +
 			"gradient, soft shading, detailed background, volumetric lighting, noise, grain",
 		Img2Img:         true,
-		BaseStyle:       "flux-real",
+		BaseStyle:       "photo",
 		Denoise:         0.85,
 		ControlNet:      true,
 		ControlStrength: 0.95,
@@ -188,7 +188,7 @@ var (
 		ExtraNegative: "(photorealistic:1.3), (photograph:1.2), 3d render, hdr, realistic texture, " +
 			"volumetric lighting, smooth digital gradient, western oil painting",
 		Img2Img:         true,
-		BaseStyle:       "flux-real",
+		BaseStyle:       "photo",
 		Denoise:         0.85,
 		ControlNet:      true,
 		ControlStrength: 0.90,
@@ -211,8 +211,8 @@ var (
 	// being drawn as literal bowls of rice. So the preset is what it reliably is:
 	// brush-and-ink graphics that keep the subject's colour, sliding into near
 	// monochrome on its own whenever the subject has a limited palette.
-	StyleIllustriousInk = Style{
-		Name:    "illustrious-ink",
+	StyleInk = Style{
+		Name:    "ink",
 		Backend: BackendIllustrious,
 		PositiveSuffix: "(ink brush painting:1.5), (sumi-e brushwork:1.3), " +
 			"(black ink outlines:1.2), expressive loose brushstrokes, wet ink bleeding into fibres, " +
@@ -222,14 +222,14 @@ var (
 			"digital vector, flat solid fill, smooth gradient, " +
 			"busy background, hard mechanical outlines, (rice:1.2), bowl of rice, food",
 		Img2Img:         true,
-		BaseStyle:       "flux-real",
+		BaseStyle:       "photo",
 		Denoise:         0.90,
 		ControlNet:      true,
 		ControlStrength: 0.70,
 		ControlEnd:      0.50,
 	}
-	StyleIllustriousWatercolor = Style{
-		Name:    "illustrious-watercolor",
+	StyleWatercolor = Style{
+		Name:    "watercolor",
 		Backend: BackendIllustrious,
 		PositiveSuffix: "(watercolor painting:1.5), (wet-on-wet washes:1.3), " +
 			"luminous translucent pigment, blooming color bleeds, granulating pigment settling, " +
@@ -239,7 +239,7 @@ var (
 			"opaque paint, hard crisp outlines, digital vector, flat solid fill, cel shading, " +
 			"heavy black lineart, plastic shading",
 		Img2Img:         true,
-		BaseStyle:       "flux-real",
+		BaseStyle:       "photo",
 		Denoise:         0.88,
 		ControlNet:      true,
 		ControlStrength: 0.72,
@@ -255,14 +255,14 @@ var (
 			"thin transparent washes, watercolor, digital vector, flat solid fill, cel shading, " +
 			"clean lineart, smooth digital gradient",
 		Img2Img:         true,
-		BaseStyle:       "flux-real",
+		BaseStyle:       "photo",
 		Denoise:         0.88,
 		ControlNet:      true,
 		ControlStrength: 0.75,
 		ControlEnd:      0.55,
 	}
-	StyleIllustriousPastel = Style{
-		Name:    "illustrious-pastel",
+	StylePastel = Style{
+		Name:    "pastel",
 		Backend: BackendIllustrious,
 		PositiveSuffix: "(soft pastel drawing:1.5), (chalk pastel on toned paper:1.3), " +
 			"velvety powdery pigment, visible chalk strokes, smudged blended edges, " +
@@ -272,7 +272,7 @@ var (
 			"glossy, wet paint, hard crisp outlines, digital vector, flat solid fill, " +
 			"cel shading, high contrast, neon colors",
 		Img2Img:         true,
-		BaseStyle:       "flux-real",
+		BaseStyle:       "photo",
 		Denoise:         0.88,
 		ControlNet:      true,
 		ControlStrength: 0.72,
@@ -290,7 +290,7 @@ var (
 		ExtraNegative: "(photorealistic:1.4), (photograph:1.3), 3d render, hdr, realistic texture, " +
 			"harsh contrast, neon colors, chaotic composition, modern digital art, cel shading",
 		Img2Img:         true,
-		BaseStyle:       "flux-real",
+		BaseStyle:       "photo",
 		Denoise:         0.90,
 		ControlNet:      true,
 		ControlStrength: 0.68,
@@ -307,7 +307,7 @@ var (
 			"smooth blending, flat solid fill, digital vector, cel shading, clean lineart, " +
 			"muted desaturated colors",
 		Img2Img:         true,
-		BaseStyle:       "flux-real",
+		BaseStyle:       "photo",
 		Denoise:         0.92,
 		ControlNet:      true,
 		ControlStrength: 0.65,
@@ -317,7 +317,7 @@ var (
 
 // DefaultStyles maps style name → Style for the built-ins.
 var DefaultStyles = map[string]Style{
-	StyleFluxReal.Name:              StyleFluxReal,
+	StylePhoto.Name:              StylePhoto,
 	StylePonyCartoon.Name:           StylePonyCartoon,
 	StylePonyWatercolor.Name:        StylePonyWatercolor,
 	StylePonyOil.Name:               StylePonyOil,
@@ -325,10 +325,10 @@ var DefaultStyles = map[string]Style{
 	StyleIllustriousStorybook.Name:  StyleIllustriousStorybook,
 	StyleIllustriousFlat.Name:       StyleIllustriousFlat,
 	StyleIllustriousUkiyoe.Name:     StyleIllustriousUkiyoe,
-	StyleIllustriousInk.Name:        StyleIllustriousInk,
-	StyleIllustriousWatercolor.Name: StyleIllustriousWatercolor,
+	StyleInk.Name:        StyleInk,
+	StyleWatercolor.Name: StyleWatercolor,
 	StyleIllustriousOil.Name:        StyleIllustriousOil,
-	StyleIllustriousPastel.Name:     StyleIllustriousPastel,
+	StylePastel.Name:     StylePastel,
 	StyleIllustriousMucha.Name:      StyleIllustriousMucha,
 	StyleIllustriousVanGogh.Name:    StyleIllustriousVanGogh,
 }

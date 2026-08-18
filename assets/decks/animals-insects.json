@@ -3,35 +3,20 @@
   "version": 1,
   "tier": 1,
   "styles": [
-    "flux-real",
-    "illustrious-flat",
-    "illustrious-ink",
-    "illustrious-pastel",
-    "illustrious-watercolor"
+    "photo",
+    "pastel"
   ],
   "styleAvailability": {
-    "flux-real": {
+    "pastel": {
       "bundled": true,
       "cdn": true
     },
-    "illustrious-flat": {
-      "bundled": true,
-      "cdn": true
-    },
-    "illustrious-ink": {
-      "bundled": true,
-      "cdn": true
-    },
-    "illustrious-pastel": {
-      "bundled": true,
-      "cdn": true
-    },
-    "illustrious-watercolor": {
+    "photo": {
       "bundled": true,
       "cdn": true
     }
   },
-  "defaultStyle": "flux-real",
+  "defaultStyle": "photo",
   "titles": {
     "ar": "الحشرات",
     "bg": "Насекоми",

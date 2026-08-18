@@ -3,38 +3,38 @@
   "version": 1,
   "tier": 1,
   "styles": [
-    "pony-cartoon",
-    "flux-real"
+    "photo",
+    "pastel"
   ],
   "styleAvailability": {
-    "flux-real": {
+    "pastel": {
       "bundled": true,
-      "cdn": false
+      "cdn": true
     },
-    "pony-cartoon": {
-      "bundled": false,
-      "cdn": false
+    "photo": {
+      "bundled": true,
+      "cdn": true
     }
   },
-  "defaultStyle": "flux-real",
+  "defaultStyle": "photo",
   "titles": {
-    "ar": "اللافقاريات والحيوانات Amphibians",
+    "ar": "الزواحف والبرمائيات",
     "cs": "Plazi a obojživelníci",
-    "de": "Insekten und Amphibien",
-    "el": "Πληγούντα και αμφίβια ζώα",
-    "en": "Parasites and Amphibians",
-    "es-419": "Anfibios y anélidos",
-    "fr": "Les invertébrés et les amphibiens",
-    "he": "פלאזמה ודו-חיים",
-    "hi": "मकौड़े और सांप",
-    "id": "Amfibi dan Katak",
-    "ja": "昆虫と両生類",
-    "ko": "곤충과 양서류",
-    "pt-BR": "Anfíbios e anelídeos",
-    "ru": "Черви и амфибии",
-    "tr": "Böcekler ve Kurbağalar",
-    "vi": "Bò sát và Ếch nhái",
-    "zh-CN": "昆虫和两栖动物"
+    "de": "Reptilien und Amphibien",
+    "el": "Ερπετά και αμφίβια",
+    "en": "Reptiles and Amphibians",
+    "es-419": "Reptiles y anfibios",
+    "fr": "Reptiles et amphibiens",
+    "he": "זוחלים ודו-חיים",
+    "hi": "सरीसृप और उभयचर",
+    "id": "Reptil dan amfibi",
+    "ja": "爬虫類と両生類",
+    "ko": "파충류와 양서류",
+    "pt-BR": "Répteis e anfíbios",
+    "ru": "Рептилии и амфибии",
+    "tr": "Sürüngenler ve amfibiler",
+    "vi": "Bò sát và lưỡng cư",
+    "zh-CN": "爬行动物和两栖动物"
   },
   "cards": [
     {

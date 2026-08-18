@@ -3,25 +3,25 @@
   "version": 1,
   "tier": 1,
   "styles": [
-    "pony-cartoon",
-    "flux-real"
+    "photo",
+    "ink"
   ],
   "styleAvailability": {
-    "flux-real": {
+    "ink": {
       "bundled": true,
-      "cdn": false
+      "cdn": true
     },
-    "pony-cartoon": {
-      "bundled": false,
-      "cdn": false
+    "photo": {
+      "bundled": true,
+      "cdn": true
     }
   },
-  "defaultStyle": "flux-real",
+  "defaultStyle": "photo",
   "titles": {
     "ar": "الحيوانات الاقتصادية",
     "cs": "Hospodářská zvířata",
-    "de": "Haustiere",
-    "el": "Εμπορικά ζώα χωρίς περαιτέρω εξήγηση του μόνο δυο λέξεις αλλά σχεδόν καθ' ού φαίνεται να βγάζει ἀφῆναν γὰρ τὸν ὄϊνον· ᾧ δὲ ἐβοῦλον ἔδωκαν τὴν ὔψῳσιν. 1975-04-26T13:28:00Z",
+    "de": "Nutztiere",
+    "el": "Ζώα φάρμας",
     "en": "Livestock Animals",
     "es-419": "Animales de granja",
     "fr": "Animaux d'élevage",
