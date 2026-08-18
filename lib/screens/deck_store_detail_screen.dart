@@ -78,7 +78,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     final owned = _ent.ownsDeck(_deck.slug, tier: _deck.tier);
     if (_purchasing && owned) {
       setState(() => _purchasing = false);
-      _add();
+      _add(confirmed: true);
     } else {
       setState(() {});
     }
@@ -122,7 +122,62 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
 
   List<LanguageCard> get _previewCards => _deck.cards.take(3).toList();
 
+  /// Confirm the (language pair, style) selection. [buying] switches the copy:
+  /// a purchase unlocks the whole deck, an add only places one combination.
+  Future<bool> _confirmSelection({required bool buying}) async {
+    final styleMeta = CardStyle.of(_style);
+    final price = _ent.priceForDeck(_deck.slug);
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text(_deck.title(_l1)),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _ConfirmRow(
+              icon: Icons.translate,
+              label: 'Jazyky',
+              value:
+                  '${kLangNames[_l1] ?? _l1}  →  ${kLangNames[_l2] ?? _l2}',
+            ),
+            const SizedBox(height: 10),
+            _ConfirmRow(
+              icon: styleMeta.icon,
+              label: 'Styl obrázků',
+              value: styleMeta.label,
+            ),
+            const SizedBox(height: 14),
+            Text(
+              buying
+                  ? 'Nákup odemkne celý deck — všechny jazyky i styly. '
+                        'Tahle kombinace se přidá na domovskou obrazovku.'
+                  : 'Tahle kombinace se přidá na domovskou obrazovku. '
+                        'Kdykoli později můžeš přidat další jazyk nebo styl.',
+              style: TextStyle(fontSize: 13, color: Colors.grey.shade600),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(false),
+            child: const Text('Zpět'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.of(context).pop(true),
+            child: Text(buying
+                ? (price == null ? 'Koupit' : 'Koupit za $price')
+                : 'Přidat'),
+          ),
+        ],
+      ),
+    );
+    return confirmed ?? false;
+  }
+
   Future<void> _buy() async {
+    if (!await _confirmSelection(buying: true)) return;
+    if (!mounted) return;
     setState(() => _purchasing = true);
     final started = await _ent.purchaseDeck(_deck.slug);
     if (!mounted) return;
@@ -135,7 +190,11 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     // On success the store sheet is now up; _onEntitlementsChanged finishes.
   }
 
-  Future<void> _add() async {
+  Future<void> _add({bool confirmed = false}) async {
+    // The post-purchase path arrives pre-confirmed: the user approved the
+    // combination before paying, asking again would read as doubt.
+    if (!confirmed && !await _confirmSelection(buying: false)) return;
+    if (!mounted) return;
     final err = await _ent.activate(
       _deck.slug, _l1, _l2, _style,
       tier: _deck.tier,
@@ -644,6 +703,39 @@ class _ActionButton extends StatelessWidget {
           // Without store metadata there is no honest price to show, so the
           // button says what it does and lets the store sheet name the amount.
           : Text(price == null ? 'Koupit' : 'Koupit za $price'),
+    );
+  }
+}
+
+
+class _ConfirmRow extends StatelessWidget {
+  final IconData icon;
+  final String label;
+  final String value;
+
+  const _ConfirmRow({
+    required this.icon,
+    required this.label,
+    required this.value,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Icon(icon, size: 20, color: Colors.grey.shade700),
+        const SizedBox(width: 10),
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(label,
+                style: TextStyle(fontSize: 11, color: Colors.grey.shade500)),
+            Text(value,
+                style: const TextStyle(
+                    fontSize: 15, fontWeight: FontWeight.w600)),
+          ],
+        ),
+      ],
     );
   }
 }

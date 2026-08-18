@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
 import '../models/search_index.dart';
 import '../services/entitlement_service.dart';
@@ -207,6 +208,7 @@ class _DeckTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       margin: const EdgeInsets.only(bottom: 10),
+      color: DeckPalette.of(deck.slug).background,
       child: ListTile(
         onTap: onTap,
         title: Text(

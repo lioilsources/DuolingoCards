@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import '../models/card_style.dart';
+import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
 import '../models/deck_entitlement.dart';
 import '../services/deck_download_service.dart';
@@ -207,8 +208,10 @@ class _LangDeckTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final langCode = tile.l2.split('-').first.toUpperCase();
+    final palette = DeckPalette.of(tile.deck.slug);
     return Card(
       margin: const EdgeInsets.only(bottom: 12),
+      color: palette.background,
       child: InkWell(
         onTap: onTap,
         borderRadius: BorderRadius.circular(12),
@@ -220,16 +223,17 @@ class _LangDeckTile extends StatelessWidget {
                 width: 50,
                 height: 50,
                 decoration: BoxDecoration(
-                  color: Colors.blue.shade100,
+                  color: Colors.white.withValues(alpha: 0.65),
+                  border: Border.all(color: palette.accent),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Center(
                   child: Text(
                     langCode,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
-                      color: Colors.blue.shade700,
+                      color: Colors.black87,
                     ),
                   ),
                 ),
@@ -337,30 +341,91 @@ class _KnowledgeProgressBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ClipRRect(
-      borderRadius: BorderRadius.circular(4),
-      child: SizedBox(
-        height: 6,
-        child: Row(
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        ClipRRect(
+          borderRadius: BorderRadius.circular(4),
+          child: SizedBox(
+            height: 6,
+            child: Row(
+              children: [
+                if (stats.knownPercent > 0)
+                  Expanded(
+                    flex: (stats.knownPercent * 100).round(),
+                    child: Container(color: Colors.green.shade400),
+                  ),
+                if (stats.learningPercent > 0)
+                  Expanded(
+                    flex: (stats.learningPercent * 100).round(),
+                    child: Container(color: Colors.amber.shade400),
+                  ),
+                if (stats.unknownPercent > 0)
+                  Expanded(
+                    flex: (stats.unknownPercent * 100).round(),
+                    child: Container(color: Colors.red.shade400),
+                  ),
+              ],
+            ),
+          ),
+        ),
+        const SizedBox(height: 5),
+        // The bar alone reads as a divider on a fresh deck (everything starts
+        // at priority 5 → one solid amber strip); the counts are what make it
+        // legible as progress.
+        Row(
           children: [
-            if (stats.knownPercent > 0)
-              Expanded(
-                flex: (stats.knownPercent * 100).round(),
-                child: Container(color: Colors.green.shade400),
-              ),
-            if (stats.learningPercent > 0)
-              Expanded(
-                flex: (stats.learningPercent * 100).round(),
-                child: Container(color: Colors.amber.shade400),
-              ),
-            if (stats.unknownPercent > 0)
-              Expanded(
-                flex: (stats.unknownPercent * 100).round(),
-                child: Container(color: Colors.red.shade400),
-              ),
+            _LegendEntry(
+              color: Colors.green.shade400,
+              label: 'umím',
+              count: stats.known,
+            ),
+            const SizedBox(width: 10),
+            _LegendEntry(
+              color: Colors.amber.shade400,
+              label: 'učím se',
+              count: stats.learning,
+            ),
+            const SizedBox(width: 10),
+            _LegendEntry(
+              color: Colors.red.shade400,
+              label: 'neznám',
+              count: stats.unknown,
+            ),
           ],
         ),
-      ),
+      ],
+    );
+  }
+}
+
+class _LegendEntry extends StatelessWidget {
+  final Color color;
+  final String label;
+  final int count;
+
+  const _LegendEntry({
+    required this.color,
+    required this.label,
+    required this.count,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Container(
+          width: 8,
+          height: 8,
+          decoration: BoxDecoration(color: color, shape: BoxShape.circle),
+        ),
+        const SizedBox(width: 4),
+        Text(
+          '$count $label',
+          style: TextStyle(fontSize: 11.5, color: Colors.grey.shade700),
+        ),
+      ],
     );
   }
 }
