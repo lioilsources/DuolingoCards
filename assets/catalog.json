@@ -1,5 +1,5 @@
 {
-  "_comment": "No-backend product catalog. Every paid deck is one non-consumable IAP that unlocks the deck for all language pairs and all styles. Decks not listed here are free (deck.json tier 0).",
+  "_comment": "No-backend product catalog. Every paid deck is one non-consumable IAP that unlocks the deck for all language pairs and all styles. Decks not listed here are free (deck.json tier 0). Product ids are lowercase so the same string is valid on both stores — Play rejects uppercase.",
   "free": [
     "numbers-1-10",
     "colors-basic",
@@ -9,8 +9,8 @@
     {
       "code": "deck.animals-birds",
       "sku": {
-        "apple": "com.ol1n.duolingoCards.deck.animals_birds",
-        "google": "deck_animals_birds"
+        "apple": "com.ol1n.duolingocards.deck.animals_birds",
+        "google": "com.ol1n.duolingocards.deck.animals_birds"
       },
       "unlocks": [
         "animals-birds"
@@ -19,8 +19,8 @@
     {
       "code": "deck.animals-farm",
       "sku": {
-        "apple": "com.ol1n.duolingoCards.deck.animals_farm",
-        "google": "deck_animals_farm"
+        "apple": "com.ol1n.duolingocards.deck.animals_farm",
+        "google": "com.ol1n.duolingocards.deck.animals_farm"
       },
       "unlocks": [
         "animals-farm"
@@ -29,8 +29,8 @@
     {
       "code": "deck.animals-insects",
       "sku": {
-        "apple": "com.ol1n.duolingoCards.deck.animals_insects",
-        "google": "deck_animals_insects"
+        "apple": "com.ol1n.duolingocards.deck.animals_insects",
+        "google": "com.ol1n.duolingocards.deck.animals_insects"
       },
       "unlocks": [
         "animals-insects"
@@ -39,8 +39,8 @@
     {
       "code": "deck.animals-reptiles",
       "sku": {
-        "apple": "com.ol1n.duolingoCards.deck.animals_reptiles",
-        "google": "deck_animals_reptiles"
+        "apple": "com.ol1n.duolingocards.deck.animals_reptiles",
+        "google": "com.ol1n.duolingocards.deck.animals_reptiles"
       },
       "unlocks": [
         "animals-reptiles"
@@ -49,8 +49,8 @@
     {
       "code": "deck.animals-sea",
       "sku": {
-        "apple": "com.ol1n.duolingoCards.deck.animals_sea",
-        "google": "deck_animals_sea"
+        "apple": "com.ol1n.duolingocards.deck.animals_sea",
+        "google": "com.ol1n.duolingocards.deck.animals_sea"
       },
       "unlocks": [
         "animals-sea"
@@ -59,8 +59,8 @@
     {
       "code": "deck.animals-wild",
       "sku": {
-        "apple": "com.ol1n.duolingoCards.deck.animals_wild",
-        "google": "deck_animals_wild"
+        "apple": "com.ol1n.duolingocards.deck.animals_wild",
+        "google": "com.ol1n.duolingocards.deck.animals_wild"
       },
       "unlocks": [
         "animals-wild"
@@ -69,8 +69,8 @@
     {
       "code": "deck.body-parts",
       "sku": {
-        "apple": "com.ol1n.duolingoCards.deck.body_parts",
-        "google": "deck_body_parts"
+        "apple": "com.ol1n.duolingocards.deck.body_parts",
+        "google": "com.ol1n.duolingocards.deck.body_parts"
       },
       "unlocks": [
         "body-parts"
@@ -79,8 +79,8 @@
     {
       "code": "deck.emotions",
       "sku": {
-        "apple": "com.ol1n.duolingoCards.deck.emotions",
-        "google": "deck_emotions"
+        "apple": "com.ol1n.duolingocards.deck.emotions",
+        "google": "com.ol1n.duolingocards.deck.emotions"
       },
       "unlocks": [
         "emotions"
@@ -89,8 +89,8 @@
     {
       "code": "deck.food-fruits",
       "sku": {
-        "apple": "com.ol1n.duolingoCards.deck.food_fruits",
-        "google": "deck_food_fruits"
+        "apple": "com.ol1n.duolingocards.deck.food_fruits",
+        "google": "com.ol1n.duolingocards.deck.food_fruits"
       },
       "unlocks": [
         "food-fruits"
@@ -99,8 +99,8 @@
     {
       "code": "deck.food-vegetables",
       "sku": {
-        "apple": "com.ol1n.duolingoCards.deck.food_vegetables",
-        "google": "deck_food_vegetables"
+        "apple": "com.ol1n.duolingocards.deck.food_vegetables",
+        "google": "com.ol1n.duolingocards.deck.food_vegetables"
       },
       "unlocks": [
         "food-vegetables"
@@ -109,8 +109,8 @@
     {
       "code": "deck.weather",
       "sku": {
-        "apple": "com.ol1n.duolingoCards.deck.weather",
-        "google": "deck_weather"
+        "apple": "com.ol1n.duolingocards.deck.weather",
+        "google": "com.ol1n.duolingocards.deck.weather"
       },
       "unlocks": [
         "weather"
