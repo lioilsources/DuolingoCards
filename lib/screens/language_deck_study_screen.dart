@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
+import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
 import '../services/priority_service.dart';
+import '../widgets/card_feedback_sheet.dart';
 import '../widgets/card_stack.dart';
 import '../widgets/language_card_widget.dart';
 
@@ -113,7 +115,7 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
     }
 
     return Scaffold(
-      backgroundColor: Colors.grey.shade100,
+      backgroundColor: DeckPalette.of(widget.deck.slug).background,
       appBar: AppBar(
         title: Text(widget.deck.title(widget.l1)),
         centerTitle: true,
@@ -150,6 +152,14 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
               style: widget.style,
               showFront: showFront,
               onTap: _onDoubleTap,
+              onReport: () => showCardFeedbackSheet(
+                context,
+                deck: widget.deck,
+                card: card,
+                l1: widget.l1,
+                l2: widget.l2,
+                style: widget.style,
+              ),
               docsDir: _docsPath,
             ),
             badgeBuilder: (card) => _PriorityBadge(priority: card.priority),

@@ -15,6 +15,10 @@ class LanguageCardWidget extends StatefulWidget {
   final String style;
   final bool showFront;
   final VoidCallback? onTap;
+
+  /// When set, a small flag button sits in the card's corner and reports a
+  /// problem with this card (wrong translation, image, ...).
+  final VoidCallback? onReport;
   /// Path to the app documents directory. When provided, images are loaded
   /// from `docsDir/decks/slug/images/style/` if the file exists; otherwise
   /// the bundled asset is used with a CDN fallback.
@@ -29,6 +33,7 @@ class LanguageCardWidget extends StatefulWidget {
     required this.style,
     required this.showFront,
     this.onTap,
+    this.onReport,
     this.docsDir,
   });
 
@@ -125,28 +130,52 @@ class _LanguageCardWidgetState extends State<LanguageCardWidget>
 
   @override
   Widget build(BuildContext context) {
+    final flipCard = AnimatedBuilder(
+      animation: _animation,
+      builder: (context, _) {
+        final angle = _animation.value * pi;
+        final isFrontVisible = angle < pi / 2;
+        return Transform(
+          alignment: Alignment.center,
+          transform: Matrix4.identity()
+            ..setEntry(3, 2, 0.001)
+            ..rotateY(angle),
+          child: isFrontVisible
+              ? _buildFront()
+              : Transform(
+                  alignment: Alignment.center,
+                  transform: Matrix4.identity()..rotateY(pi),
+                  child: _buildBack(),
+                ),
+        );
+      },
+    );
+
     return GestureDetector(
       onLongPress: widget.onTap, // parent toggles showFront → didUpdateWidget → _doFlip
-      child: AnimatedBuilder(
-        animation: _animation,
-        builder: (context, _) {
-          final angle = _animation.value * pi;
-          final isFrontVisible = angle < pi / 2;
-          return Transform(
-            alignment: Alignment.center,
-            transform: Matrix4.identity()
-              ..setEntry(3, 2, 0.001)
-              ..rotateY(angle),
-            child: isFrontVisible
-                ? _buildFront()
-                : Transform(
-                    alignment: Alignment.center,
-                    transform: Matrix4.identity()..rotateY(pi),
-                    child: _buildBack(),
+      child: widget.onReport == null
+          ? flipCard
+          // The button lives outside the flip Transform: it must not mirror
+          // with the card, and IconButton swallows its own taps so swipes and
+          // long-press elsewhere on the card are unaffected.
+          : Stack(
+              children: [
+                flipCard,
+                Positioned(
+                  top: 4,
+                  right: 4,
+                  child: IconButton(
+                    onPressed: widget.onReport,
+                    tooltip: 'Nahlásit chybu',
+                    icon: Icon(
+                      Icons.flag_outlined,
+                      size: 18,
+                      color: Colors.grey.shade400,
+                    ),
                   ),
-          );
-        },
-      ),
+                ),
+              ],
+            ),
     );
   }
 
