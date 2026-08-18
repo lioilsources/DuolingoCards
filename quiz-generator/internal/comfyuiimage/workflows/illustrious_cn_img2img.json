@@ -1,0 +1,76 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": { "title": "Load Checkpoint (Illustrious)" },
+    "inputs": { "ckpt_name": "Illustrious-XL-v1.0.safetensors" }
+  },
+  "2": {
+    "class_type": "LoadImage",
+    "_meta": { "title": "Load Base Image" },
+    "inputs": { "image": "placeholder.png" }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "_meta": { "title": "Positive Prompt" },
+    "inputs": { "text": "placeholder prompt", "clip": ["1", 1] }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "_meta": { "title": "Negative Prompt" },
+    "inputs": { "text": "bad quality, worst quality, text, watermark, signature, 1girl, 1boy, human, face, hands", "clip": ["1", 1] }
+  },
+  "5": {
+    "class_type": "VAEEncode",
+    "_meta": { "title": "VAE Encode" },
+    "inputs": { "pixels": ["2", 0], "vae": ["1", 2] }
+  },
+  "6": {
+    "class_type": "ControlNetLoader",
+    "_meta": { "title": "Load ControlNet" },
+    "inputs": { "control_net_name": "controlnet-union-sdxl-1.0.safetensors" }
+  },
+  "7": {
+    "class_type": "Canny",
+    "_meta": { "title": "Canny Edges (structure lock)" },
+    "inputs": { "image": ["2", 0], "low_threshold": 0.4, "high_threshold": 0.8 }
+  },
+  "8": {
+    "class_type": "ControlNetApplyAdvanced",
+    "_meta": { "title": "Apply ControlNet" },
+    "inputs": {
+      "strength": 0.9,
+      "start_percent": 0,
+      "end_percent": 0.85,
+      "positive": ["3", 0],
+      "negative": ["4", 0],
+      "control_net": ["6", 0],
+      "image": ["7", 0]
+    }
+  },
+  "9": {
+    "class_type": "KSampler",
+    "_meta": { "title": "KSampler" },
+    "inputs": {
+      "seed": 0,
+      "steps": 30,
+      "cfg": 6.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 0.8,
+      "model": ["1", 0],
+      "positive": ["8", 0],
+      "negative": ["8", 1],
+      "latent_image": ["5", 0]
+    }
+  },
+  "10": {
+    "class_type": "VAEDecode",
+    "_meta": { "title": "VAE Decode" },
+    "inputs": { "samples": ["9", 0], "vae": ["1", 2] }
+  },
+  "11": {
+    "class_type": "SaveImage",
+    "_meta": { "title": "Save Image" },
+    "inputs": { "filename_prefix": "cards", "images": ["10", 0] }
+  }
+}

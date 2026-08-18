@@ -3,10 +3,12 @@
 //
 //	content lint    [-decks DIR] [-strict] [-images]   validate decks (DB-constraint replacement)
 //	content build   [-decks DIR] [-out DIR] [-strict]  merge deck.yaml + i18n/*.yaml → deck.json
-//	content prompts [-decks DIR] [-style NAME]          expand visual briefs → FLUX/Pony prompts
+//	content prompts [-decks DIR] [-style NAME]          expand visual briefs → FLUX/Pony/Illustrious prompts
 //	content images  [-decks DIR] [-deck SLUG] [-style NAME] [-url URL] [-workers N] [-force]
 //	                [-tune [-max-iters N] [-score-threshold F] [-llm-url URL]
 //	                       [-validator-model M] [-builder-model M] [-tune-log-json]]
+//	                [-pony-checkpoint NAME] [-illustrious-checkpoint NAME] [-controlnet NAME]
+//	                [-denoise F] [-control-strength F]
 //
 // All commands run entirely offline on local files in Git, except `images`
 // which calls a ComfyUI server (and, with -tune, an OpenAI-compatible LLM server
@@ -19,6 +21,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 	"sync"
 	"time"
@@ -33,16 +36,35 @@ import (
 	"github.com/duolingocards/quiz-generator/internal/translate"
 )
 
-// mergedBrief returns a copy of the card brief with deck-level BriefAttrs prepended.
-func mergedBrief(c content.CardYAML, d *content.Deck) content.VisualBrief {
+// mergedBrief returns a copy of the card brief with deck-level BriefAttrs
+// prepended — but only for the text-to-image pass that produces the base.
+//
+// brief_attrs is scaffolding for that base: "macro photography",
+// "(photorealistic texture:1.1)", "soft studio lighting", "clean white
+// background". A restyle pass does not need it (the subject arrives via the
+// base image and ControlNet) and is actively harmed by it — food-fruits asks
+// for "(vibrant colors:1.3)" while ink asks for "(monochrome:1.2)",
+// and the two cancel. Carrying photoreal scaffolding into every repaint is a
+// large part of why restyles drift back toward the look of the base.
+func mergedBrief(c content.CardYAML, d *content.Deck, style prompt.Style) content.VisualBrief {
 	b := c.Brief
-	if len(d.Meta.BriefAttrs) > 0 {
-		merged := make([]string, 0, len(d.Meta.BriefAttrs)+len(b.Attrs))
-		merged = append(merged, d.Meta.BriefAttrs...)
-		merged = append(merged, b.Attrs...)
-		b.Attrs = merged
+	if style.Img2Img || len(d.Meta.BriefAttrs) == 0 {
+		return b
 	}
+	merged := make([]string, 0, len(d.Meta.BriefAttrs)+len(b.Attrs))
+	merged = append(merged, d.Meta.BriefAttrs...)
+	merged = append(merged, b.Attrs...)
+	b.Attrs = merged
 	return b
+}
+
+// briefFor resolves the style by name and merges the brief accordingly.
+func briefFor(c content.CardYAML, d *content.Deck, styleName string) (content.VisualBrief, prompt.Style, error) {
+	s, ok := prompt.DefaultStyles[styleName]
+	if !ok {
+		return content.VisualBrief{}, prompt.Style{}, fmt.Errorf("unknown style %q", styleName)
+	}
+	return mergedBrief(c, d, s), s, nil
 }
 
 // buildTarget assembles the tuning Target for a card: the concept the image must
@@ -76,10 +98,10 @@ func imageFilenamePrefix(deckSlug, cardKey, style string) string {
 	if i := strings.LastIndex(cardKey, "."); i >= 0 {
 		keyPart = cardKey[i+1:]
 	}
-	// Short style alias: "flux-real" → "flux", "pony-cartoon" → "pony"
+	// Short style alias: "photo" → "flux", "pony-cartoon" → "pony"
 	styleAlias := style
 	switch style {
-	case "flux-real":
+	case "photo":
 		styleAlias = "flux"
 	case "pony-cartoon":
 		styleAlias = "pony"
@@ -87,6 +109,26 @@ func imageFilenamePrefix(deckSlug, cardKey, style string) string {
 		styleAlias = "watercolor"
 	case "pony-oil":
 		styleAlias = "oil"
+	case "illustrious-anime":
+		styleAlias = "anime"
+	case "illustrious-storybook":
+		styleAlias = "storybook"
+	case "illustrious-flat":
+		styleAlias = "flat"
+	case "illustrious-ukiyoe":
+		styleAlias = "ukiyoe"
+	case "ink":
+		styleAlias = "ink"
+	case "watercolor":
+		styleAlias = "watercolor-illu"
+	case "illustrious-oil":
+		styleAlias = "oil-illu"
+	case "pastel":
+		styleAlias = "pastel"
+	case "illustrious-mucha":
+		styleAlias = "mucha"
+	case "illustrious-vangogh":
+		styleAlias = "vangogh"
 	}
 	return fmt.Sprintf("cards-%s-%s-%s", deckSlug, keyPart, styleAlias)
 }
@@ -138,6 +180,10 @@ func main() {
 		err = runImages(args)
 	case "translate":
 		err = runTranslate(args)
+	case "styles":
+		err = runStyles(args)
+	case "publish":
+		err = runPublish(args)
 	case "-h", "--help", "help":
 		usage()
 		return
@@ -161,6 +207,7 @@ Usage:
   content prompts [-decks DIR] [-deck SLUG] [-style NAME]
   content images     [-decks DIR] [-deck SLUG] [-style NAME] [-url URL] [-workers N] [-force]
   content translate  [-decks DIR] [-deck SLUG] [-lang CODE] [-url URL] [-workers N] [-force]
+  content styles
 
 Commands:
   lint     Validate decks: card spine, translation coverage, orphan keys, schema.
@@ -171,6 +218,13 @@ Commands:
 Common flags:
   -decks DIR   Root folder containing deck-per-folder subfolders (default "decks").
   -strict      Treat missing target-language translations as errors.
+
+Restyle styles (images):
+  pony-watercolor, pony-oil          img2img repaint of the photo base through Pony SDXL.
+  illustrious-anime, -storybook,     img2img repaint through Illustrious with a ControlNet
+  -flat, -ukiyoe                     structure lock, so a high denoise keeps the base anatomy.
+  Tune with -denoise / -control-strength; pick models with
+  -pony-checkpoint / -illustrious-checkpoint / -controlnet.
 `)
 }
 
@@ -235,6 +289,8 @@ func runBuild(args []string) error {
 	decksDir := fs.String("decks", "decks", "root folder of deck-per-folder subfolders")
 	outDir := fs.String("out", "output/decks", "output folder for deck.json files")
 	strict := fs.Bool("strict", false, "fail the build if any deck has lint errors")
+	appRoot := fs.String("app-root", ".", "Flutter repo root (pubspec.yaml, assets/previews, docs/decks) used to record per-style delivery")
+	webp := fs.Bool("webp", false, "emit .webp image names in deck.json (match this to publish -webp-quality)")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -242,6 +298,13 @@ func runBuild(args []string) error {
 	decks, err := loadDecks(*decksDir)
 	if err != nil {
 		return err
+	}
+
+	app := content.AppLayout{Root: *appRoot}.WebPImages(*webp)
+	if !app.Valid() {
+		fmt.Fprintf(os.Stderr,
+			"warning: no pubspec.yaml under -app-root %q; deck.json will omit styleAvailability and the store will offer every style\n",
+			*appRoot)
 	}
 
 	opts := content.LintOptions{RequireAllTargets: *strict}
@@ -256,16 +319,142 @@ func runBuild(args []string) error {
 			}
 			return fmt.Errorf("deck %q has lint errors; not building", d.Meta.Slug)
 		}
-		rd := d.Build()
+		rd := d.BuildFor(app)
 		path, err := rd.SaveJSON(*outDir)
 		if err != nil {
 			return err
 		}
-		fmt.Printf("built %s → %s (%d cards, %d supported languages)\n", d.Meta.Slug, path, len(d.Meta.Cards), len(rd.Titles))
+		fmt.Printf("built %s → %s (%d cards, %d supported languages, styles: %s)\n",
+			d.Meta.Slug, path, len(d.Meta.Cards), len(rd.Titles), describeStyles(rd))
 		built++
 	}
 	fmt.Printf("\nbuilt %d deck(s) into %s\n", built, *outDir)
 	return nil
+}
+
+// runPublish copies complete styles into the app's preview tree and the CDN
+// tree, which is what makes them offerable in the store.
+func runPublish(args []string) error {
+	fs := newFlagSet("publish")
+	decksDir := fs.String("decks", "decks", "root folder of deck-per-folder subfolders")
+	deckSlug := fs.String("deck", "", "only publish this deck slug (default: all)")
+	style := fs.String("style", "", "only publish this style (default: every complete style)")
+	previews := fs.String("previews", "assets/previews", "app-bundled preview root (empty to skip)")
+	cdn := fs.String("cdn", "docs/decks", "published CDN tree root (empty to skip)")
+	built := fs.String("built", "assets/decks", "folder holding built deck.json files")
+	previewCards := fs.Int("preview-cards", 3, "how many leading cards go into the preview set")
+	what := fs.String("what", "all", "what to publish: images, json, or all")
+	webpQuality := fs.Int("webp-quality", 0, "re-encode published images to WebP at this quality (0 = copy PNG unchanged; 85 is the shipping default)")
+	if err := fs.Parse(args); err != nil {
+		return err
+	}
+	if *what != "images" && *what != "json" && *what != "all" {
+		return fmt.Errorf("-what must be images, json or all (got %q)", *what)
+	}
+
+	decks, err := loadDecks(*decksDir)
+	if err != nil {
+		return err
+	}
+
+	opts := content.PublishOptions{
+		PreviewsDir:  *previews,
+		CDNDir:       *cdn,
+		BuiltDir:     *built,
+		PreviewCards: *previewCards,
+		Style:        *style,
+		Images:       *what == "images" || *what == "all",
+		WebPQuality:  *webpQuality,
+		JSON:         *what == "json" || *what == "all",
+	}
+
+	published := 0
+	for _, d := range decks {
+		if *deckSlug != "" && d.Meta.Slug != *deckSlug {
+			continue
+		}
+		res, err := d.Publish(opts)
+		if err != nil {
+			return fmt.Errorf("deck %s: %w", d.Meta.Slug, err)
+		}
+		for _, s := range d.ImageStyles() {
+			if opts.Style != "" && opts.Style != s {
+				continue
+			}
+			fmt.Printf("%s / %-24s previews %2d  cdn %3d\n", d.Meta.Slug, s, res.Previews[s], res.CDN[s])
+		}
+		if res.JSON {
+			fmt.Printf("%s / deck.json → %s\n", d.Meta.Slug, filepath.Join(*cdn, d.Meta.Slug, "deck.json"))
+		}
+		published++
+	}
+	fmt.Printf("\npublished %d deck(s)\n", published)
+	return nil
+}
+
+// runStyles lists every registered style with the knobs that decide how far a
+// restyle drifts from its base, so picking one does not mean reading the source.
+func runStyles(args []string) error {
+	fs := newFlagSet("styles")
+	if err := fs.Parse(args); err != nil {
+		return err
+	}
+
+	names := make([]string, 0, len(prompt.DefaultStyles))
+	for name := range prompt.DefaultStyles {
+		names = append(names, name)
+	}
+	sort.Strings(names)
+
+	fmt.Printf("%-26s %-12s %-11s %-8s %-6s %s\n",
+		"STYLE", "BACKEND", "PASS", "DENOISE", "CN", "CN-END")
+	for _, name := range names {
+		s := prompt.DefaultStyles[name]
+		pass := "text2img"
+		if s.Img2Img && s.ControlNet {
+			pass = "cn-img2img"
+		} else if s.Img2Img {
+			pass = "img2img"
+		}
+		dash := func(f float64) string {
+			if f == 0 {
+				return "-"
+			}
+			return fmt.Sprintf("%.2f", f)
+		}
+		fmt.Printf("%-26s %-12s %-11s %-8s %-6s %s\n",
+			name, s.Backend, pass, dash(s.Denoise), dash(s.ControlStrength), dash(s.ControlEnd))
+	}
+	return nil
+}
+
+// describeStyles renders the built style list with how each one reaches the
+// app, so a style that is authored but undeliverable is visible in build output
+// instead of only showing up as a missing chip in the store.
+func describeStyles(rd *content.RuntimeDeck) string {
+	if len(rd.Styles) == 0 {
+		return "none"
+	}
+	parts := make([]string, 0, len(rd.Styles))
+	for _, s := range rd.Styles {
+		a, ok := rd.StyleAvailability[s]
+		if !ok {
+			parts = append(parts, s)
+			continue
+		}
+		var how []string
+		if a.Bundled {
+			how = append(how, "bundled")
+		}
+		if a.CDN {
+			how = append(how, "cdn")
+		}
+		if len(how) == 0 {
+			how = append(how, "undelivered")
+		}
+		parts = append(parts, fmt.Sprintf("%s[%s]", s, strings.Join(how, "+")))
+	}
+	return strings.Join(parts, " ")
 }
 
 func runPrompts(args []string) error {
@@ -302,7 +491,11 @@ func runPrompts(args []string) error {
 			return fmt.Errorf("deck %q has no default_style; pass -style", d.Meta.Slug)
 		}
 		for _, c := range d.Meta.Cards {
-			p, err := prompt.ExpandByName(mergedBrief(c, d), style)
+			b, _, err := briefFor(c, d, style)
+			if err != nil {
+				return err
+			}
+			p, err := prompt.ExpandByName(b, style)
 			if err != nil {
 				return err
 			}
@@ -342,7 +535,10 @@ func runImages(args []string) error {
 	builderModel := fs.String("builder-model", "nemotron", "tuning: instruct model that rewrites prompts")
 	tuneLogJSON := fs.Bool("tune-log-json", false, "tuning: also write a machine-readable JSON transcript per card")
 	ponyCheckpoint := fs.String("pony-checkpoint", "ponyDiffusionV6XL_v6StartWithThisOne.safetensors", "Pony SDXL checkpoint for img2img restyle styles (pony-watercolor, pony-oil)")
+	illustriousCheckpoint := fs.String("illustrious-checkpoint", "Illustrious-XL-v2.0.safetensors", "Illustrious checkpoint for ControlNet restyle styles (illustrious-*)")
+	controlNetModel := fs.String("controlnet", "controlnet-union-sdxl-promax-xinsir.safetensors", "SDXL ControlNet model used by the illustrious-* restyle styles")
 	denoiseOverride := fs.Float64("denoise", 0, "img2img restyle: override the style's KSampler denoise (0..1; 0 = style default). Higher repaints more freely; lower keeps more of the base.")
+	controlStrengthOverride := fs.Float64("control-strength", 0, "ControlNet restyle: override the style's ControlNet strength (0 = style default). Higher keeps the base anatomy more strictly.")
 	if err := fs.Parse(args); err != nil {
 		return err
 	}
@@ -354,11 +550,20 @@ func runImages(args []string) error {
 
 	ponyClient := comfyuiimage.NewClient(*comfyURL, "", "")
 	fluxClient := comfyuiimage.NewClient(*comfyURL, "", "", comfyuiimage.WithFluxDev())
-	// restyleClient runs the Pony SDXL img2img workflow (flux base → paint medium).
-	restyleClient := comfyuiimage.NewClient(*comfyURL, "", "",
-		comfyuiimage.WithWorkflow(comfyuiimage.PonyImg2ImgWorkflow()),
-		comfyuiimage.WithNodeRoles(comfyuiimage.Img2ImgNodeRoles()),
-		comfyuiimage.WithCheckpoint(*ponyCheckpoint))
+	// restyleClients run the img2img restyle passes over a flux base image, one per
+	// style backend: Pony repaints in a paint medium, Illustrious repaints in an art
+	// style with a ControlNet holding the subject's shape.
+	restyleClients := map[prompt.Backend]*comfyuiimage.Client{
+		prompt.BackendPony: comfyuiimage.NewClient(*comfyURL, "", "",
+			comfyuiimage.WithWorkflow(comfyuiimage.PonyImg2ImgWorkflow()),
+			comfyuiimage.WithNodeRoles(comfyuiimage.Img2ImgNodeRoles()),
+			comfyuiimage.WithCheckpoint(*ponyCheckpoint)),
+		prompt.BackendIllustrious: comfyuiimage.NewClient(*comfyURL, "", "",
+			comfyuiimage.WithWorkflow(comfyuiimage.IllustriousControlNetWorkflow()),
+			comfyuiimage.WithNodeRoles(comfyuiimage.IllustriousControlNetNodeRoles()),
+			comfyuiimage.WithCheckpoint(*illustriousCheckpoint),
+			comfyuiimage.WithControlNet(*controlNetModel)),
+	}
 
 	var validator *imagetune.Validator
 	var builder *imagetune.Builder
@@ -376,10 +581,13 @@ func runImages(args []string) error {
 		positive string
 		negative string
 		seed     int64 // from a tuned sidecar override; 0 = random
-		// img2img restyle (e.g. pony-watercolor / pony-oil): repaint basePath.
+		// img2img restyle (e.g. pony-watercolor / illustrious-anime): repaint basePath.
 		img2img  bool
 		basePath string  // base image to restyle (images/<baseStyle>/<image>)
 		denoise  float64 // KSampler denoise for the restyle pass
+		// ControlNet structure lock (illustrious-* styles); 0 = graph default.
+		controlStrength float64
+		controlEnd      float64
 	}
 
 	var jobs []job
@@ -419,7 +627,11 @@ func runImages(args []string) error {
 					continue
 				}
 			}
-			p, err := prompt.ExpandByName(mergedBrief(c, d), style)
+			b, _, err := briefFor(c, d, style)
+			if err != nil {
+				return err
+			}
+			p, err := prompt.ExpandByName(b, style)
 			if err != nil {
 				return fmt.Errorf("expand prompt for %s/%s: %w", d.Meta.Slug, c.Key, err)
 			}
@@ -436,6 +648,13 @@ func runImages(args []string) error {
 				j.denoise = st.Denoise
 				if *denoiseOverride > 0 {
 					j.denoise = *denoiseOverride
+				}
+				if st.ControlNet {
+					j.controlStrength = st.ControlStrength
+					j.controlEnd = st.ControlEnd
+					if *controlStrengthOverride > 0 {
+						j.controlStrength = *controlStrengthOverride
+					}
 				}
 			}
 			if entry, ok := tuned[c.Key]; ok {
@@ -470,9 +689,17 @@ func runImages(args []string) error {
 			for j := range work {
 				label := fmt.Sprintf("%s/%s", j.deck.Meta.Slug, j.card.Key)
 
-				// img2img restyle pass (pony-watercolor / pony-oil): repaint the
-				// base image through Pony SDXL instead of text-to-image.
+				// img2img restyle pass (pony-* / illustrious-*): repaint the base
+				// image through an SDXL model instead of text-to-image.
 				if j.img2img {
+					restyleClient, ok := restyleClients[j.backend]
+					if !ok {
+						mu.Lock()
+						failed++
+						fmt.Printf("  FAIL %s: no restyle client for backend %q\n", label, j.backend)
+						mu.Unlock()
+						continue
+					}
 					baseBytes, rerr := os.ReadFile(j.basePath)
 					if rerr != nil {
 						mu.Lock()
@@ -486,13 +713,15 @@ func runImages(args []string) error {
 						keyPart = keyPart[i+1:]
 					}
 					out, gerr := restyleClient.GenerateImg2Img(context.Background(), comfyuiimage.Img2ImgRequest{
-						BaseImage:      baseBytes,
-						BaseFilename:   fmt.Sprintf("restyle-%s-%s.png", j.deck.Meta.Slug, keyPart),
-						Prompt:         j.positive,
-						NegativePrompt: j.negative,
-						FilenamePrefix: imageFilenamePrefix(j.deck.Meta.Slug, j.card.Key, j.style),
-						Denoise:        j.denoise,
-						Seed:           j.seed,
+						BaseImage:       baseBytes,
+						BaseFilename:    fmt.Sprintf("restyle-%s-%s.png", j.deck.Meta.Slug, keyPart),
+						Prompt:          j.positive,
+						NegativePrompt:  j.negative,
+						FilenamePrefix:  imageFilenamePrefix(j.deck.Meta.Slug, j.card.Key, j.style),
+						Denoise:         j.denoise,
+						Seed:            j.seed,
+						ControlStrength: j.controlStrength,
+						ControlEnd:      j.controlEnd,
 					})
 					mu.Lock()
 					if gerr != nil {
@@ -503,7 +732,11 @@ func runImages(args []string) error {
 						fmt.Printf("  FAIL %s: write: %v\n", label, werr)
 					} else {
 						generated++
-						fmt.Printf("  OK   %s → %s (img2img, denoise %.2f)\n", label, j.outPath, j.denoise)
+						if j.controlStrength > 0 {
+							fmt.Printf("  OK   %s → %s (img2img, denoise %.2f, controlnet %.2f)\n", label, j.outPath, j.denoise, j.controlStrength)
+						} else {
+							fmt.Printf("  OK   %s → %s (img2img, denoise %.2f)\n", label, j.outPath, j.denoise)
+						}
 					}
 					mu.Unlock()
 					continue

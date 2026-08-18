@@ -51,6 +51,9 @@ var fluxDevWorkflow []byte
 //go:embed workflows/pony_img2img.json
 var ponyImg2ImgWorkflow []byte
 
+//go:embed workflows/illustrious_cn_img2img.json
+var illustriousCNWorkflow []byte
+
 // FluxDevNodeRoles are the node IDs for the flux_dev.json workflow.
 var FluxDevNodeRoles = NodeRoles{
 	PositivePrompt: "4",
@@ -89,6 +92,34 @@ var img2ImgNodeRoles = NodeRoles{
 // Img2ImgNodeRoles returns the NodeRoles for the embedded pony_img2img.json workflow.
 func Img2ImgNodeRoles() NodeRoles { return img2ImgNodeRoles }
 
+// IllustriousControlNetWorkflow returns the embedded Illustrious ControlNet
+// img2img graph. The base image feeds two branches: VAEEncode for the sampler's
+// latent, and Canny → ControlNetApplyAdvanced to pin the subject's shape. That
+// structure lock is what lets the pass run at a denoise high enough for the
+// style to actually take (plain img2img dissolves the subject well before that).
+// Pair it with IllustriousControlNetNodeRoles.
+func IllustriousControlNetWorkflow() []byte { return illustriousCNWorkflow }
+
+// illustriousCNNodeRoles matches illustrious_cn_img2img.json. Like the Pony
+// img2img graph it has no Latent role (the latent comes from VAEEncode), but it
+// adds the two ControlNet roles.
+var illustriousCNNodeRoles = NodeRoles{
+	PositivePrompt:   "3",
+	NegativePrompt:   "4",
+	Sampler:          "9",
+	SaveImage:        "11",
+	CheckpointNode:   "1",
+	CheckpointKey:    "ckpt_name",
+	LoadImageNode:    "2",
+	ControlNetNode:   "6",
+	ControlNetKey:    "control_net_name",
+	ControlApplyNode: "8",
+}
+
+// IllustriousControlNetNodeRoles returns the NodeRoles for the embedded
+// illustrious_cn_img2img.json workflow.
+func IllustriousControlNetNodeRoles() NodeRoles { return illustriousCNNodeRoles }
+
 // NodeRoles maps logical roles to node IDs in the workflow graph.
 // Defaults match the embedded flux_card.json workflow.
 type NodeRoles struct {
@@ -100,6 +131,10 @@ type NodeRoles struct {
 	CheckpointNode string // loader node to override when WithCheckpoint is used (empty = none)
 	CheckpointKey  string // input key on that node (e.g. "ckpt_name" or "unet_name")
 	LoadImageNode  string // img2img only: LoadImage node whose inputs.image = uploaded file
+
+	ControlNetNode   string // ControlNetLoader node to override when WithControlNet is used (empty = none)
+	ControlNetKey    string // input key on that node (e.g. "control_net_name")
+	ControlApplyNode string // ControlNetApplyAdvanced node carrying strength / end_percent
 }
 
 var defaultNodeRoles = NodeRoles{
@@ -123,6 +158,7 @@ type Client struct {
 	workflowJSON []byte
 	roles        NodeRoles
 	checkpoint   string // optional: overrides the checkpoint loader node named in roles
+	controlNet   string // optional: overrides the ControlNet loader node named in roles
 }
 
 // ClientOption configures the Client.
@@ -168,6 +204,13 @@ func WithNodeRoles(r NodeRoles) ClientOption {
 // checkpoint for the img2img workflow). No-op if those roles are unset.
 func WithCheckpoint(name string) ClientOption {
 	return func(c *Client) { c.checkpoint = name }
+}
+
+// WithControlNet overrides the ControlNet model name in the loader node
+// identified by NodeRoles.ControlNetNode / NodeRoles.ControlNetKey. No-op if
+// those roles are unset (e.g. on the plain Pony img2img graph).
+func WithControlNet(name string) ClientOption {
+	return func(c *Client) { c.controlNet = name }
 }
 
 // NewClient creates a client for a ComfyUI server. cfClientID and cfSecret are
@@ -365,12 +408,19 @@ type Img2ImgRequest struct {
 	FilenamePrefix string  // SaveImage filename_prefix
 	Denoise        float64 // KSampler denoise (0..1); <=0 keeps the workflow default
 	Seed           int64   // sampler seed; 0 = random
+
+	// ControlStrength and ControlEnd tune the structure lock on ControlNet-backed
+	// graphs. Both are ignored when the workflow has no ControlApplyNode role, and
+	// <=0 keeps whatever the graph already carries.
+	ControlStrength float64 // ControlNetApplyAdvanced strength
+	ControlEnd      float64 // ControlNetApplyAdvanced end_percent (0..1)
 }
 
 // GenerateImg2Img uploads the base image, runs the img2img workflow and returns
 // the single repainted image as raw bytes. The client must be configured with an
-// img2img workflow + roles: WithWorkflow(PonyImg2ImgWorkflow()),
-// WithNodeRoles(Img2ImgNodeRoles()).
+// img2img workflow + roles: WithWorkflow(PonyImg2ImgWorkflow()) +
+// WithNodeRoles(Img2ImgNodeRoles()), or WithWorkflow(IllustriousControlNetWorkflow())
+// + WithNodeRoles(IllustriousControlNetNodeRoles()) for the structure-locked pass.
 func (c *Client) GenerateImg2Img(ctx context.Context, req Img2ImgRequest) ([]byte, error) {
 	if c.roles.LoadImageNode == "" {
 		return nil, fmt.Errorf("img2img requires a workflow with a LoadImageNode role (use WithWorkflow/WithNodeRoles)")
@@ -445,6 +495,23 @@ func (c *Client) buildImg2ImgWorkflow(imageRef string, req Img2ImgRequest) (map[
 	if c.checkpoint != "" && c.roles.CheckpointNode != "" {
 		if err := setNodeInput(graph, c.roles.CheckpointNode, c.roles.CheckpointKey, c.checkpoint); err != nil {
 			return nil, err
+		}
+	}
+	if c.controlNet != "" && c.roles.ControlNetNode != "" {
+		if err := setNodeInput(graph, c.roles.ControlNetNode, c.roles.ControlNetKey, c.controlNet); err != nil {
+			return nil, err
+		}
+	}
+	if c.roles.ControlApplyNode != "" {
+		if req.ControlStrength > 0 {
+			if err := setNodeInput(graph, c.roles.ControlApplyNode, "strength", req.ControlStrength); err != nil {
+				return nil, err
+			}
+		}
+		if req.ControlEnd > 0 {
+			if err := setNodeInput(graph, c.roles.ControlApplyNode, "end_percent", req.ControlEnd); err != nil {
+				return nil, err
+			}
 		}
 	}
 	return graph, nil

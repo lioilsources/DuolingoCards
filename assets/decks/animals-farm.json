@@ -3,15 +3,25 @@
   "version": 1,
   "tier": 1,
   "styles": [
-    "pony-cartoon",
-    "flux-real"
+    "photo",
+    "ink"
   ],
-  "defaultStyle": "flux-real",
+  "styleAvailability": {
+    "ink": {
+      "bundled": true,
+      "cdn": true
+    },
+    "photo": {
+      "bundled": true,
+      "cdn": true
+    }
+  },
+  "defaultStyle": "photo",
   "titles": {
     "ar": "الحيوانات الاقتصادية",
     "cs": "Hospodářská zvířata",
-    "de": "Haustiere",
-    "el": "Εμπορικά ζώα χωρίς περαιτέρω εξήγηση του μόνο δυο λέξεις αλλά σχεδόν καθ' ού φαίνεται να βγάζει ἀφῆναν γὰρ τὸν ὄϊνον· ᾧ δὲ ἐβοῦλον ἔδωκαν τὴν ὔψῳσιν. 1975-04-26T13:28:00Z",
+    "de": "Nutztiere",
+    "el": "Ζώα φάρμας",
     "en": "Livestock Animals",
     "es-419": "Animales de granja",
     "fr": "Animaux d'élevage",
@@ -29,7 +39,7 @@
   "cards": [
     {
       "key": "farm.cow",
-      "image": "farm.cow.png",
+      "image": "farm.cow.webp",
       "label": {
         "ar": "بقرة",
         "cs": "kráva",
@@ -90,7 +100,7 @@
     },
     {
       "key": "farm.pig",
-      "image": "farm.pig.png",
+      "image": "farm.pig.webp",
       "label": {
         "ar": "خنزير",
         "cs": "prase",
@@ -151,7 +161,7 @@
     },
     {
       "key": "farm.sheep",
-      "image": "farm.sheep.png",
+      "image": "farm.sheep.webp",
       "label": {
         "ar": "绵羊",
         "cs": "ovce",
@@ -212,7 +222,7 @@
     },
     {
       "key": "farm.chicken",
-      "image": "farm.chicken.png",
+      "image": "farm.chicken.webp",
       "label": {
         "ar": "دجاجة",
         "cs": "slepice",
@@ -273,7 +283,7 @@
     },
     {
       "key": "farm.goat",
-      "image": "farm.goat.png",
+      "image": "farm.goat.webp",
       "label": {
         "ar": "الغنم",
         "cs": "koza",
@@ -334,7 +344,7 @@
     },
     {
       "key": "farm.horse",
-      "image": "farm.horse.png",
+      "image": "farm.horse.webp",
       "label": {
         "ar": "ال حصو",
         "cs": "kůň",
@@ -395,7 +405,7 @@
     },
     {
       "key": "farm.donkey",
-      "image": "farm.donkey.png",
+      "image": "farm.donkey.webp",
       "label": {
         "ar": "حمار",
         "cs": "osel",
@@ -456,7 +466,7 @@
     },
     {
       "key": "farm.duck",
-      "image": "farm.duck.png",
+      "image": "farm.duck.webp",
       "label": {
         "ar": "كُرّة",
         "cs": "kachna",
@@ -517,7 +527,7 @@
     },
     {
       "key": "farm.turkey",
-      "image": "farm.turkey.png",
+      "image": "farm.turkey.webp",
       "label": {
         "ar": "كروكان",
         "cs": "krocan",
@@ -578,7 +588,7 @@
     },
     {
       "key": "farm.rabbit",
-      "image": "farm.rabbit.png",
+      "image": "farm.rabbit.webp",
       "label": {
         "ar": "أرنب",
         "cs": "králík",
@@ -639,7 +649,7 @@
     },
     {
       "key": "farm.rooster",
-      "image": "farm.rooster.png",
+      "image": "farm.rooster.webp",
       "label": {
         "ar": "كُوهَوت",
         "cs": "kohout",
@@ -700,7 +710,7 @@
     },
     {
       "key": "farm.goose",
-      "image": "farm.goose.png",
+      "image": "farm.goose.webp",
       "label": {
         "ar": "الغَازلُ الْخانِي",
         "cs": "husa domácí",
@@ -761,7 +771,7 @@
     },
     {
       "key": "farm.guinea_fowl",
-      "image": "farm.guinea_fowl.png",
+      "image": "farm.guinea_fowl.webp",
       "label": {
         "ar": "الدجاجة المُقَطّعة",
         "cs": "perlička",
@@ -822,7 +832,7 @@
     },
     {
       "key": "farm.quail",
-      "image": "farm.quail.png",
+      "image": "farm.quail.webp",
       "label": {
         "ar": "كريبيلكا اليابانية",
         "cs": "křepelka japonská",
@@ -883,7 +893,7 @@
     },
     {
       "key": "farm.llama",
-      "image": "farm.llama.png",
+      "image": "farm.llama.webp",
       "label": {
         "ar": "لاما",
         "cs": "lama",
@@ -944,7 +954,7 @@
     },
     {
       "key": "farm.alpaca",
-      "image": "farm.alpaca.png",
+      "image": "farm.alpaca.webp",
       "label": {
         "ar": "ألفاكا",
         "cs": "alpaka",
@@ -1005,7 +1015,7 @@
     },
     {
       "key": "farm.yak",
-      "image": "farm.yak.png",
+      "image": "farm.yak.webp",
       "label": {
         "ar": "ياك",
         "cs": "jak",
@@ -1066,7 +1076,7 @@
     },
     {
       "key": "farm.ox",
-      "image": "farm.ox.png",
+      "image": "farm.ox.webp",
       "label": {
         "ar": "بقرة مذبوحة",
         "cs": "vůl",
@@ -1127,7 +1137,7 @@
     },
     {
       "key": "farm.mule",
-      "image": "farm.mule.png",
+      "image": "farm.mule.webp",
       "label": {
         "ar": "مزيك",
         "cs": "mezek",
@@ -1188,7 +1198,7 @@
     },
     {
       "key": "farm.pony",
-      "image": "farm.pony.png",
+      "image": "farm.pony.webp",
       "label": {
         "ar": "بوني",
         "cs": "poník",
@@ -1249,7 +1259,7 @@
     },
     {
       "key": "farm.lamb",
-      "image": "farm.lamb.png",
+      "image": "farm.lamb.webp",
       "label": {
         "ar": "جَهْنُم",
         "cs": "jehně",
@@ -1310,7 +1320,7 @@
     },
     {
       "key": "farm.piglet",
-      "image": "farm.piglet.png",
+      "image": "farm.piglet.webp",
       "label": {
         "ar": "صِلُو",
         "cs": "sele",
@@ -1371,7 +1381,7 @@
     },
     {
       "key": "farm.calf",
-      "image": "farm.calf.png",
+      "image": "farm.calf.webp",
       "label": {
         "ar": "تيل",
         "cs": "tele",
@@ -1432,7 +1442,7 @@
     },
     {
       "key": "farm.foal",
-      "image": "farm.foal.png",
+      "image": "farm.foal.webp",
       "label": {
         "ar": "حصان صغير",
         "cs": "hříbě",
@@ -1493,7 +1503,7 @@
     },
     {
       "key": "farm.peacock",
-      "image": "farm.peacock.png",
+      "image": "farm.peacock.webp",
       "label": {
         "ar": "البوق الأزرق المنزلي",
         "cs": "páv domácí",
@@ -1554,7 +1564,7 @@
     },
     {
       "key": "farm.pheasant",
-      "image": "farm.pheasant.png",
+      "image": "farm.pheasant.webp",
       "label": {
         "ar": "بازانط مزارعي",
         "cs": "bažant farmový",
@@ -1615,7 +1625,7 @@
     },
     {
       "key": "farm.emu",
-      "image": "farm.emu.png",
+      "image": "farm.emu.webp",
       "label": {
         "ar": "鸸鹋 تجارياً",
         "cs": "emu farmové",
@@ -1676,7 +1686,7 @@
     },
     {
       "key": "farm.ostrich",
-      "image": "farm.ostrich.png",
+      "image": "farm.ostrich.webp",
       "label": {
         "ar": " ostrich farmed",
         "cs": "pštros farmový",
@@ -1737,7 +1747,7 @@
     },
     {
       "key": "farm.deer",
-      "image": "farm.deer.png",
+      "image": "farm.deer.webp",
       "label": {
         "ar": "الغزال المربى",
         "cs": "jelen farmový",
@@ -1798,7 +1808,7 @@
     },
     {
       "key": "farm.boar",
-      "image": "farm.boar.png",
+      "image": "farm.boar.webp",
       "label": {
         "ar": "كُرَّاس",
         "cs": "kanec",
@@ -1859,7 +1869,7 @@
     },
     {
       "key": "farm.barn_cat",
-      "image": "farm.barn_cat.png",
+      "image": "farm.barn_cat.webp",
       "label": {
         "ar": "قطة مزرعة",
         "cs": "kočka stájová",
@@ -1920,7 +1930,7 @@
     },
     {
       "key": "farm.sheepdog",
-      "image": "farm.sheepdog.png",
+      "image": "farm.sheepdog.webp",
       "label": {
         "ar": "كلب رعاية الأغنام",
         "cs": "ovčácký pes",
@@ -1981,7 +1991,7 @@
     },
     {
       "key": "farm.beehive",
-      "image": "farm.beehive.png",
+      "image": "farm.beehive.webp",
       "label": {
         "ar": "حوض النحل",
         "cs": "včelí úl",
@@ -2042,7 +2052,7 @@
     },
     {
       "key": "farm.silkworm",
-      "image": "farm.silkworm.png",
+      "image": "farm.silkworm.webp",
       "label": {
         "ar": "بُورِك موروشوفى",
         "cs": "bource morušový",
@@ -2103,7 +2113,7 @@
     },
     {
       "key": "farm.garden_snail",
-      "image": "farm.garden_snail.png",
+      "image": "farm.garden_snail.webp",
       "label": {
         "ar": "الحلزون الحديقي",
         "cs": "šnek zahradní",
@@ -2164,7 +2174,7 @@
     },
     {
       "key": "farm.freshwater_crayfish",
-      "image": "farm.freshwater_crayfish.png",
+      "image": "farm.freshwater_crayfish.webp",
       "label": {
         "ar": "رجل النهر",
         "cs": "rak říční",
@@ -2225,7 +2235,7 @@
     },
     {
       "key": "farm.trout",
-      "image": "farm.trout.png",
+      "image": "farm.trout.webp",
       "label": {
         "ar": "سمك السلمون",
         "cs": "pstruh",
@@ -2286,7 +2296,7 @@
     },
     {
       "key": "farm.salmon",
-      "image": "farm.salmon.png",
+      "image": "farm.salmon.webp",
       "label": {
         "ar": "سمك السلمون",
         "cs": "losos",
@@ -2347,7 +2357,7 @@
     },
     {
       "key": "farm.tilapia",
-      "image": "farm.tilapia.png",
+      "image": "farm.tilapia.webp",
       "label": {
         "ar": "تيلابيا",
         "cs": "tilapie",
@@ -2408,7 +2418,7 @@
     },
     {
       "key": "farm.carp",
-      "image": "farm.carp.png",
+      "image": "farm.carp.webp",
       "label": {
         "ar": "كابر",
         "cs": "kapr",
@@ -2469,7 +2479,7 @@
     },
     {
       "key": "farm.farm_shrimp",
-      "image": "farm.farm_shrimp.png",
+      "image": "farm.farm_shrimp.webp",
       "label": {
         "ar": "كُرْفِيتَّا فارموفَا",
         "cs": "krevetka farmová",
@@ -2530,7 +2540,7 @@
     },
     {
       "key": "farm.oyster",
-      "image": "farm.oyster.png",
+      "image": "farm.oyster.webp",
       "label": {
         "ar": "المحار المزروع",
         "cs": "ústřice farmová",
@@ -2591,7 +2601,7 @@
     },
     {
       "key": "farm.mussel",
-      "image": "farm.mussel.png",
+      "image": "farm.mussel.webp",
       "label": {
         "ar": "الحلزون",
         "cs": "slávka",
@@ -2652,7 +2662,7 @@
     },
     {
       "key": "farm.pigeon_farm",
-      "image": "farm.pigeon_farm.png",
+      "image": "farm.pigeon_farm.webp",
       "label": {
         "ar": "البجع المنزلي",
         "cs": "holub domestikovaný",
@@ -2713,7 +2723,7 @@
     },
     {
       "key": "farm.guinea_pig_farm",
-      "image": "farm.guinea_pig_farm.png",
+      "image": "farm.guinea_pig_farm.webp",
       "label": {
         "ar": "خنزير غينيا المربى",
         "cs": "morče farmové",
@@ -2774,7 +2784,7 @@
     },
     {
       "key": "farm.water_buffalo",
-      "image": "farm.water_buffalo.png",
+      "image": "farm.water_buffalo.webp",
       "label": {
         "ar": "بوفالو المنزلي",
         "cs": "buvol domácí",
@@ -2835,7 +2845,7 @@
     },
     {
       "key": "farm.goat_dairy",
-      "image": "farm.goat_dairy.png",
+      "image": "farm.goat_dairy.webp",
       "label": {
         "ar": "الغنم المُنتج للحليب",
         "cs": "koza dojná",
@@ -2896,7 +2906,7 @@
     },
     {
       "key": "farm.highland_cattle",
-      "image": "farm.highland_cattle.png",
+      "image": "farm.highland_cattle.webp",
       "label": {
         "ar": "سكوت شوسيان هايленد",
         "cs": "skot Scottish Highland",
@@ -2957,7 +2967,7 @@
     },
     {
       "key": "farm.ram",
-      "image": "farm.ram.png",
+      "image": "farm.ram.webp",
       "label": {
         "ar": "بران",
         "cs": "beran",
@@ -3018,7 +3028,7 @@
     },
     {
       "key": "farm.sow",
-      "image": "farm.sow.png",
+      "image": "farm.sow.webp",
       "label": {
         "ar": "خنزير أنثى",
         "cs": "prasnice",

@@ -1,16 +1,27 @@
 {
   "deck": "food-vegetables",
   "version": 1,
+  "tier": 1,
   "styles": [
-    "pony-cartoon",
-    "flux-real"
+    "photo",
+    "pastel"
   ],
-  "defaultStyle": "flux-real",
+  "styleAvailability": {
+    "pastel": {
+      "bundled": true,
+      "cdn": true
+    },
+    "photo": {
+      "bundled": true,
+      "cdn": true
+    }
+  },
+  "defaultStyle": "photo",
   "titles": {
     "ar": "الخضروات",
     "cs": "Zelenina",
     "de": "Gemüse",
-    "el": "Λαχανικά σε φρέσκο χωρίς να έχουμε πληγώσει τη γη;  \nΠότε επιβλήθηκε αυτό με βίαιο και δύσφημο τρόπο?  \n\nΣτη Γερμανία λέμε \"Grünkohl\" - ίδιος ορισμός!",
+    "el": "Λαχανικά",
     "en": "Vegetables",
     "es-419": "Verdura",
     "fr": "Légumes verts",
@@ -28,7 +39,7 @@
   "cards": [
     {
       "key": "veg.carrot",
-      "image": "veg.carrot.png",
+      "image": "veg.carrot.webp",
       "label": {
         "ar": "الخس",
         "cs": "mrkev",
@@ -89,7 +100,7 @@
     },
     {
       "key": "veg.potato",
-      "image": "veg.potato.png",
+      "image": "veg.potato.webp",
       "label": {
         "ar": "بطاطس",
         "cs": "brambor",
@@ -150,7 +161,7 @@
     },
     {
       "key": "veg.broccoli",
-      "image": "veg.broccoli.png",
+      "image": "veg.broccoli.webp",
       "label": {
         "ar": "بروكلي",
         "cs": "brokolice",
@@ -211,7 +222,7 @@
     },
     {
       "key": "veg.tomato",
-      "image": "veg.tomato.png",
+      "image": "veg.tomato.webp",
       "label": {
         "ar": "طماطم",
         "cs": "rajče",
@@ -272,7 +283,7 @@
     },
     {
       "key": "veg.onion",
-      "image": "veg.onion.png",
+      "image": "veg.onion.webp",
       "label": {
         "ar": "ثوم",
         "cs": "cibule",
@@ -333,7 +344,7 @@
     },
     {
       "key": "veg.cucumber",
-      "image": "veg.cucumber.png",
+      "image": "veg.cucumber.webp",
       "label": {
         "ar": "خيار",
         "cs": "okurka",
@@ -394,7 +405,7 @@
     },
     {
       "key": "veg.corn",
-      "image": "veg.corn.png",
+      "image": "veg.corn.webp",
       "label": {
         "ar": "ذرة",
         "cs": "kukuřice",
@@ -455,7 +466,7 @@
     },
     {
       "key": "veg.pepper",
-      "image": "veg.pepper.png",
+      "image": "veg.pepper.webp",
       "label": {
         "ar": "فلفل بابريكا",
         "cs": "paprika",
@@ -516,7 +527,7 @@
     },
     {
       "key": "veg.mushroom",
-      "image": "veg.mushroom.png",
+      "image": "veg.mushroom.webp",
       "label": {
         "ar": "فطر",
         "cs": "houba",
@@ -577,7 +588,7 @@
     },
     {
       "key": "veg.garlic",
-      "image": "veg.garlic.png",
+      "image": "veg.garlic.webp",
       "label": {
         "ar": "ثوم",
         "cs": "česnek",
@@ -638,7 +649,7 @@
     },
     {
       "key": "veg.spinach",
-      "image": "veg.spinach.png",
+      "image": "veg.spinach.webp",
       "label": {
         "ar": "سبنكس",
         "cs": "špenát",
@@ -699,7 +710,7 @@
     },
     {
       "key": "veg.lettuce",
-      "image": "veg.lettuce.png",
+      "image": "veg.lettuce.webp",
       "label": {
         "ar": "خس",
         "cs": "hlávkový salát",
@@ -760,7 +771,7 @@
     },
     {
       "key": "veg.cabbage",
-      "image": "veg.cabbage.png",
+      "image": "veg.cabbage.webp",
       "label": {
         "ar": "كرنب ملفوف",
         "cs": "hlávkové zelí",
@@ -821,7 +832,7 @@
     },
     {
       "key": "veg.cauliflower",
-      "image": "veg.cauliflower.png",
+      "image": "veg.cauliflower.webp",
       "label": {
         "ar": "كربوه",
         "cs": "květák",
@@ -882,7 +893,7 @@
     },
     {
       "key": "veg.eggplant",
-      "image": "veg.eggplant.png",
+      "image": "veg.eggplant.webp",
       "label": {
         "ar": "ليله",
         "cs": "lilek",
@@ -943,7 +954,7 @@
     },
     {
       "key": "veg.zucchini",
-      "image": "veg.zucchini.png",
+      "image": "veg.zucchini.webp",
       "label": {
         "ar": "\"كوزيتا\"",
         "cs": "cuketa",
@@ -1004,7 +1015,7 @@
     },
     {
       "key": "veg.pumpkin",
-      "image": "veg.pumpkin.png",
+      "image": "veg.pumpkin.webp",
       "label": {
         "ar": "\"كيوا\"",
         "cs": "dýně",
@@ -1065,7 +1076,7 @@
     },
     {
       "key": "veg.squash",
-      "image": "veg.squash.png",
+      "image": "veg.squash.webp",
       "label": {
         "ar": "كارنب",
         "cs": "tykev",
@@ -1126,7 +1137,7 @@
     },
     {
       "key": "veg.beet",
-      "image": "veg.beet.png",
+      "image": "veg.beet.webp",
       "label": {
         "ar": "الجزر الأحمر",
         "cs": "červená řepa",
@@ -1187,7 +1198,7 @@
     },
     {
       "key": "veg.radish",
-      "image": "veg.radish.png",
+      "image": "veg.radish.webp",
       "label": {
         "ar": "-radish",
         "cs": "ředkev",
@@ -1248,7 +1259,7 @@
     },
     {
       "key": "veg.turnip",
-      "image": "veg.turnip.png",
+      "image": "veg.turnip.webp",
       "label": {
         "ar": "водница",
         "cs": "vodnice",
@@ -1309,7 +1320,7 @@
     },
     {
       "key": "veg.celery",
-      "image": "veg.celery.png",
+      "image": "veg.celery.webp",
       "label": {
         "ar": "الريحان",
         "cs": "řapíkatý celer",
@@ -1370,7 +1381,7 @@
     },
     {
       "key": "veg.leek",
-      "image": "veg.leek.png",
+      "image": "veg.leek.webp",
       "label": {
         "ar": "\"سبانخي\"",
         "cs": "pórek",
@@ -1431,7 +1442,7 @@
     },
     {
       "key": "veg.asparagus",
-      "image": "veg.asparagus.png",
+      "image": "veg.asparagus.webp",
       "label": {
         "ar": "سبراي",
         "cs": "chřest",
@@ -1492,7 +1503,7 @@
     },
     {
       "key": "veg.artichoke",
-      "image": "veg.artichoke.png",
+      "image": "veg.artichoke.webp",
       "label": {
         "ar": "أرتوكوش",
         "cs": "artyčok",
@@ -1553,7 +1564,7 @@
     },
     {
       "key": "veg.peas",
-      "image": "veg.peas.png",
+      "image": "veg.peas.webp",
       "label": {
         "ar": "فاصولياء",
         "cs": "hrách",
@@ -1614,7 +1625,7 @@
     },
     {
       "key": "veg.green_beans",
-      "image": "veg.green_beans.png",
+      "image": "veg.green_beans.webp",
       "label": {
         "ar": "فلافل",
         "cs": "fazolové lusky",
@@ -1675,7 +1686,7 @@
     },
     {
       "key": "veg.lentils",
-      "image": "veg.lentils.png",
+      "image": "veg.lentils.webp",
       "label": {
         "ar": "عدس",
         "cs": "čočka",
@@ -1736,7 +1747,7 @@
     },
     {
       "key": "veg.chickpeas",
-      "image": "veg.chickpeas.png",
+      "image": "veg.chickpeas.webp",
       "label": {
         "ar": "حمصة",
         "cs": "cizrna",
@@ -1797,7 +1808,7 @@
     },
     {
       "key": "veg.sweet_potato",
-      "image": "veg.sweet_potato.png",
+      "image": "veg.sweet_potato.webp",
       "label": {
         "ar": "البطاطا الحلوة",
         "cs": "batát",
@@ -1858,7 +1869,7 @@
     },
     {
       "key": "veg.yam",
-      "image": "veg.yam.png",
+      "image": "veg.yam.webp",
       "label": {
         "ar": "جام",
         "cs": "jam",
@@ -1919,7 +1930,7 @@
     },
     {
       "key": "veg.ginger",
-      "image": "veg.ginger.png",
+      "image": "veg.ginger.webp",
       "label": {
         "ar": "زنجبيل",
         "cs": "zázvor",
@@ -1980,7 +1991,7 @@
     },
     {
       "key": "veg.parsley",
-      "image": "veg.parsley.png",
+      "image": "veg.parsley.webp",
       "label": {
         "ar": " parsley",
         "cs": "petržel",
@@ -2041,7 +2052,7 @@
     },
     {
       "key": "veg.chili",
-      "image": "veg.chili.png",
+      "image": "veg.chili.webp",
       "label": {
         "ar": "فلفل",
         "cs": "chilli",
@@ -2102,7 +2113,7 @@
     },
     {
       "key": "veg.spring_onion",
-      "image": "veg.spring_onion.png",
+      "image": "veg.spring_onion.webp",
       "label": {
         "ar": "بصل مقطوف صغير",
         "cs": "jarní cibulka",
@@ -2163,7 +2174,7 @@
     },
     {
       "key": "veg.kale",
-      "image": "veg.kale.png",
+      "image": "veg.kale.webp",
       "label": {
         "ar": "كابوستا مُعَجِّل",
         "cs": "kapusta kadeřavá",
@@ -2224,7 +2235,7 @@
     },
     {
       "key": "veg.chard",
-      "image": "veg.chard.png",
+      "image": "veg.chard.webp",
       "label": {
         "ar": "\"مانجولد\"",
         "cs": "mangold",
@@ -2285,7 +2296,7 @@
     },
     {
       "key": "veg.endive",
-      "image": "veg.endive.png",
+      "image": "veg.endive.webp",
       "label": {
         "ar": "شيكونا",
         "cs": "čekanka",
@@ -2346,7 +2357,7 @@
     },
     {
       "key": "veg.watercress",
-      "image": "veg.watercress.png",
+      "image": "veg.watercress.webp",
       "label": {
         "ar": "\"ريزيكا المياه\"",
         "cs": "řeřicha vodní",
@@ -2407,7 +2418,7 @@
     },
     {
       "key": "veg.arugula",
-      "image": "veg.arugula.png",
+      "image": "veg.arugula.webp",
       "label": {
         "ar": "روكولا",
         "cs": "rukola",
@@ -2468,7 +2479,7 @@
     },
     {
       "key": "veg.bok_choy",
-      "image": "veg.bok_choy.png",
+      "image": "veg.bok_choy.webp",
       "label": {
         "ar": "باكى تشوى",
         "cs": "pak choi",
@@ -2529,7 +2540,7 @@
     },
     {
       "key": "veg.kohlrabi",
-      "image": "veg.kohlrabi.png",
+      "image": "veg.kohlrabi.webp",
       "label": {
         "ar": "\"كرنب أسطواني\"",
         "cs": "kedluben",
@@ -2590,7 +2601,7 @@
     },
     {
       "key": "veg.celeriac",
-      "image": "veg.celeriac.png",
+      "image": "veg.celeriac.webp",
       "label": {
         "ar": "كريفس كتوفي",
         "cs": "bulvový celer",
@@ -2651,7 +2662,7 @@
     },
     {
       "key": "veg.parsnip",
-      "image": "veg.parsnip.png",
+      "image": "veg.parsnip.webp",
       "label": {
         "ar": "_pastinak_",
         "cs": "pastinák",
@@ -2712,7 +2723,7 @@
     },
     {
       "key": "veg.swede",
-      "image": "veg.swede.png",
+      "image": "veg.swede.webp",
       "label": {
         "ar": "توروتن",
         "cs": "tuřín",
@@ -2773,7 +2784,7 @@
     },
     {
       "key": "veg.fennel",
-      "image": "veg.fennel.png",
+      "image": "veg.fennel.webp",
       "label": {
         "ar": "الفنيكل",
         "cs": "fenykl",
@@ -2834,7 +2845,7 @@
     },
     {
       "key": "veg.okra",
-      "image": "veg.okra.png",
+      "image": "veg.okra.webp",
       "label": {
         "ar": "قرونبيا",
         "cs": "okra",
@@ -2895,7 +2906,7 @@
     },
     {
       "key": "veg.lotus_root",
-      "image": "veg.lotus_root.png",
+      "image": "veg.lotus_root.webp",
       "label": {
         "ar": "جذرة النيلوبما",
         "cs": "lotosový kořen",
@@ -2956,7 +2967,7 @@
     },
     {
       "key": "veg.bamboo_shoot",
-      "image": "veg.bamboo_shoot.png",
+      "image": "veg.bamboo_shoot.webp",
       "label": {
         "ar": "شتلات الباميتوسيد",
         "cs": "bambusové výhonky",
@@ -3017,7 +3028,7 @@
     },
     {
       "key": "veg.taro",
-      "image": "veg.taro.png",
+      "image": "veg.taro.webp",
       "label": {
         "ar": "كاروت",
         "cs": "taro",

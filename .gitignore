@@ -46,3 +46,12 @@ app.*.map.json
 
 .env
 quiz-generator/bin/
+
+# Generated image masters (decks/<slug>/images/<style>/).
+#
+# These are ~4.4 GB of PNGs and re-renderable from the briefs at any time
+# (`make restyle DECK=<slug> STYLE=<style>`). What the app actually consumes is
+# the published WebP under assets/previews/ and docs/, which is committed.
+# Git ignores only untracked paths, so the flux-real and pony-* sets that were
+# already in history stay tracked and keep working.
+decks/*/images/

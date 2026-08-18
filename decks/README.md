@@ -64,6 +64,18 @@ Build the tool once, then run from the repo root:
 /tmp/content prompts -decks decks -deck animals-wild -style pony-cartoon
 ```
 
+Image styles come in two kinds. `flux-real` and `pony-cartoon` generate from
+text; every other style **repaints the `flux-real` base image** through an SDXL
+model, so the subject comes from FLUX (which knows real objects) and the look
+from the style model (which knows art styles). The `illustrious-*` styles add a
+Canny ControlNet that pins the subject's shape, which is what lets them repaint
+hard enough for the style to take without losing the concept:
+
+```bash
+make images DECK=animals-insects STYLE=flux-real   # base, required first
+make anime  DECK=animals-insects                   # → images/illustrious-anime/
+```
+
 `build` runs lint first and refuses decks with errors. The output `deck.json`
 folds every language into per-field maps and is committed under `assets/decks/`
 so it ships in the app binary (distribution variant B).

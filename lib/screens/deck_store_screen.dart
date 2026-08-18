@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../models/language_deck.dart';
@@ -6,8 +5,6 @@ import '../models/search_index.dart';
 import '../services/entitlement_service.dart';
 import '../services/language_deck_service.dart';
 import '../services/search_service.dart';
-import '../widgets/credit_balance_header.dart';
-import '../widgets/credit_pack_sheet.dart';
 import 'deck_store_detail_screen.dart';
 
 /// Deck store: searchable list of all bundled decks.
@@ -65,7 +62,12 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
     });
     try {
       await _entitlements.initialize();
-      final decks = await _deckService.loadAll();
+      // A deck with no deliverable style has nothing to sell: every image would
+      // be a placeholder and unlocking would download nothing. Keep it out of
+      // the store rather than letting the detail page dead-end.
+      final decks = (await _deckService.loadAll())
+          .where((d) => d.offerableStyles.isNotEmpty)
+          .toList();
       final index = await _searchService.buildIndex(decks);
       setState(() {
         _allDecks = decks;
@@ -98,17 +100,6 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
       appBar: AppBar(
         title: const Text('Deck Store'),
         actions: [
-          if (kDebugMode)
-            ListenableBuilder(
-              listenable: _entitlements,
-              builder: (context, _) => TextButton.icon(
-                onPressed: () => _entitlements.debugAddCredits(5),
-                icon: const Icon(Icons.science_outlined, size: 16),
-                label: Text('+5 kr (${_entitlements.creditBalance})'),
-                style: TextButton.styleFrom(
-                    foregroundColor: Colors.orange.shade700),
-              ),
-            ),
           IconButton(
             icon: const Icon(Icons.restore),
             tooltip: 'Restore Purchases',
@@ -119,13 +110,6 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
       ),
       body: Column(
         children: [
-          ListenableBuilder(
-            listenable: _entitlements,
-            builder: (context, _) => CreditBalanceHeader(
-              balance: _entitlements.creditBalance,
-              onBuyCredits: () => showCreditPackSheet(context, _entitlements),
-            ),
-          ),
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
             child: TextField(
@@ -193,8 +177,9 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
           );
           return _DeckTile(
             deck: deck,
-            isFree: _entitlements.creditCostForTier(deck.tier) == 0,
-            cost: _entitlements.creditCostForTier(deck.tier),
+            isFree: _entitlements.isFree(deck.slug, tier: deck.tier),
+            isOwned: _entitlements.ownsDeck(deck.slug, tier: deck.tier),
+            price: _entitlements.priceForDeck(deck.slug),
             onTap: () => _openDetail(deck),
           );
         },
@@ -206,13 +191,15 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
 class _DeckTile extends StatelessWidget {
   final LanguageDeck deck;
   final bool isFree;
-  final int cost;
+  final bool isOwned;
+  final String? price;
   final VoidCallback onTap;
 
   const _DeckTile({
     required this.deck,
     required this.isFree,
-    required this.cost,
+    required this.isOwned,
+    required this.price,
     required this.onTap,
   });
 
@@ -234,9 +221,13 @@ class _DeckTile extends StatelessWidget {
           children: [
             if (isFree)
               _Badge(label: 'Zdarma', color: Colors.green.shade600)
+            else if (isOwned)
+              _Badge(label: 'Zakoupeno', color: Colors.green.shade600)
             else
+              // Falls back to a neutral label while store metadata loads, or
+              // when the device cannot reach the store at all.
               _Badge(
-                label: '$cost kr.',
+                label: price ?? 'Koupit',
                 color: Theme.of(context).colorScheme.primary,
               ),
             const SizedBox(width: 4),

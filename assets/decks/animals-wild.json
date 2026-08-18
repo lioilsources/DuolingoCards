@@ -1,16 +1,27 @@
 {
   "deck": "animals-wild",
   "version": 1,
+  "tier": 1,
   "styles": [
-    "pony-cartoon",
-    "flux-real"
+    "photo",
+    "pastel"
   ],
-  "defaultStyle": "flux-real",
+  "styleAvailability": {
+    "pastel": {
+      "bundled": true,
+      "cdn": true
+    },
+    "photo": {
+      "bundled": true,
+      "cdn": true
+    }
+  },
+  "defaultStyle": "photo",
   "titles": {
     "ar": "الحيوانات البرية",
     "cs": "Divoká zvířata",
     "de": "Wildtiere",
-    "el": "Διά της Φύσεως Ζώα",
+    "el": "Άγρια ζώα",
     "en": "Wild animals",
     "es-419": "Animales salvajes",
     "fr": "Animaux sauvages",
@@ -28,7 +39,7 @@
   "cards": [
     {
       "key": "animal.lion",
-      "image": "animal.lion.png",
+      "image": "animal.lion.webp",
       "label": {
         "ar": "الأسد",
         "cs": "lev",
@@ -89,7 +100,7 @@
     },
     {
       "key": "animal.elephant",
-      "image": "animal.elephant.png",
+      "image": "animal.elephant.webp",
       "label": {
         "ar": "الفيل",
         "cs": "slon",
@@ -150,7 +161,7 @@
     },
     {
       "key": "animal.giraffe",
-      "image": "animal.giraffe.png",
+      "image": "animal.giraffe.webp",
       "label": {
         "ar": "الزرافة",
         "cs": "žirafa",
@@ -211,7 +222,7 @@
     },
     {
       "key": "animal.zebra",
-      "image": "animal.zebra.png",
+      "image": "animal.zebra.webp",
       "label": {
         "ar": "الزرافة المخططة",
         "cs": "zebra",
@@ -272,7 +283,7 @@
     },
     {
       "key": "animal.wolf",
-      "image": "animal.wolf.png",
+      "image": "animal.wolf.webp",
       "label": {
         "ar": "الذئب",
         "cs": "vlk",
@@ -333,7 +344,7 @@
     },
     {
       "key": "animal.bear",
-      "image": "animal.bear.png",
+      "image": "animal.bear.webp",
       "label": {
         "ar": "دب",
         "cs": "medvěd",
@@ -394,7 +405,7 @@
     },
     {
       "key": "animal.tiger",
-      "image": "animal.tiger.png",
+      "image": "animal.tiger.webp",
       "label": {
         "ar": "تايجر",
         "cs": "tygr",
@@ -455,7 +466,7 @@
     },
     {
       "key": "animal.hippopotamus",
-      "image": "animal.hippopotamus.png",
+      "image": "animal.hippopotamus.webp",
       "label": {
         "ar": "ال حصان النهر",
         "cs": "hroch",
@@ -516,7 +527,7 @@
     },
     {
       "key": "animal.rhinoceros",
-      "image": "animal.rhinoceros.png",
+      "image": "animal.rhinoceros.webp",
       "label": {
         "ar": "носорог",
         "cs": "nosorožec",
@@ -577,7 +588,7 @@
     },
     {
       "key": "animal.gorilla",
-      "image": "animal.gorilla.png",
+      "image": "animal.gorilla.webp",
       "label": {
         "ar": "غورية",
         "cs": "gorila",
@@ -638,7 +649,7 @@
     },
     {
       "key": "animal.chimpanzee",
-      "image": "animal.chimpanzee.png",
+      "image": "animal.chimpanzee.webp",
       "label": {
         "ar": "شيمنزانس",
         "cs": "šimpanz",
@@ -699,7 +710,7 @@
     },
     {
       "key": "animal.kangaroo",
-      "image": "animal.kangaroo.png",
+      "image": "animal.kangaroo.webp",
       "label": {
         "ar": "كوالا",
         "cs": "klokan",
@@ -760,7 +771,7 @@
     },
     {
       "key": "animal.koala",
-      "image": "animal.koala.png",
+      "image": "animal.koala.webp",
       "label": {
         "ar": "كوала",
         "cs": "koala",
@@ -821,7 +832,7 @@
     },
     {
       "key": "animal.giant_panda",
-      "image": "animal.giant_panda.png",
+      "image": "animal.giant_panda.webp",
       "label": {
         "ar": "الفأر الأسود والأبيض",
         "cs": "panda velká",
@@ -882,7 +893,7 @@
     },
     {
       "key": "animal.cheetah",
-      "image": "animal.cheetah.png",
+      "image": "animal.cheetah.webp",
       "label": {
         "ar": "غيبرد",
         "cs": "gepard",
@@ -943,7 +954,7 @@
     },
     {
       "key": "animal.leopard",
-      "image": "animal.leopard.png",
+      "image": "animal.leopard.webp",
       "label": {
         "ar": " leopard",
         "cs": "leopard",
@@ -1004,7 +1015,7 @@
     },
     {
       "key": "animal.jaguar",
-      "image": "animal.jaguar.png",
+      "image": "animal.jaguar.webp",
       "label": {
         "ar": "جاكار",
         "cs": "jaguár",
@@ -1065,7 +1076,7 @@
     },
     {
       "key": "animal.hyena",
-      "image": "animal.hyena.png",
+      "image": "animal.hyena.webp",
       "label": {
         "ar": "حيونات",
         "cs": "hyena",
@@ -1126,7 +1137,7 @@
     },
     {
       "key": "animal.buffalo",
-      "image": "animal.buffalo.png",
+      "image": "animal.buffalo.webp",
       "label": {
         "ar": "بُوْفل أفريقِي",
         "cs": "buvol africký",
@@ -1187,7 +1198,7 @@
     },
     {
       "key": "animal.bison",
-      "image": "animal.bison.png",
+      "image": "animal.bison.webp",
       "label": {
         "ar": " Bison",
         "cs": "bizon",
@@ -1248,7 +1259,7 @@
     },
     {
       "key": "animal.moose",
-      "image": "animal.moose.png",
+      "image": "animal.moose.webp",
       "label": {
         "ar": "لوز",
         "cs": "los",
@@ -1309,7 +1320,7 @@
     },
     {
       "key": "animal.deer",
-      "image": "animal.deer.png",
+      "image": "animal.deer.webp",
       "label": {
         "ar": "أيل",
         "cs": "jelen",
@@ -1370,7 +1381,7 @@
     },
     {
       "key": "animal.fox",
-      "image": "animal.fox.png",
+      "image": "animal.fox.webp",
       "label": {
         "ar": "fox",
         "cs": "liška",
@@ -1431,7 +1442,7 @@
     },
     {
       "key": "animal.raccoon",
-      "image": "animal.raccoon.png",
+      "image": "animal.raccoon.webp",
       "label": {
         "ar": "\"قنفاذ\"",
         "cs": "mýval",
@@ -1492,7 +1503,7 @@
     },
     {
       "key": "animal.otter",
-      "image": "animal.otter.png",
+      "image": "animal.otter.webp",
       "label": {
         "ar": "الفأر",
         "cs": "vydra",
@@ -1553,7 +1564,7 @@
     },
     {
       "key": "animal.beaver",
-      "image": "animal.beaver.png",
+      "image": "animal.beaver.webp",
       "label": {
         "ar": "\"bobr\"",
         "cs": "bobr",
@@ -1614,7 +1625,7 @@
     },
     {
       "key": "animal.meerkat",
-      "image": "animal.meerkat.png",
+      "image": "animal.meerkat.webp",
       "label": {
         "ar": "سوركيتا",
         "cs": "surikata",
@@ -1675,7 +1686,7 @@
     },
     {
       "key": "animal.warthog",
-      "image": "animal.warthog.png",
+      "image": "animal.warthog.webp",
       "label": {
         "ar": "الخنزير المتململ",
         "cs": "prase bradavičnaté",
@@ -1736,7 +1747,7 @@
     },
     {
       "key": "animal.wildebeest",
-      "image": "animal.wildebeest.png",
+      "image": "animal.wildebeest.webp",
       "label": {
         "ar": "جنوا",
         "cs": "pakůň",
@@ -1797,7 +1808,7 @@
     },
     {
       "key": "animal.baboon",
-      "image": "animal.baboon.png",
+      "image": "animal.baboon.webp",
       "label": {
         "ar": "بابوين",
         "cs": "pavián",
@@ -1858,7 +1869,7 @@
     },
     {
       "key": "animal.orangutan",
-      "image": "animal.orangutan.png",
+      "image": "animal.orangutan.webp",
       "label": {
         "ar": "gorilla",
         "cs": "orangutan",
@@ -1919,7 +1930,7 @@
     },
     {
       "key": "animal.camel",
-      "image": "animal.camel.png",
+      "image": "animal.camel.webp",
       "label": {
         "ar": "جمال",
         "cs": "velbloud",
@@ -1980,7 +1991,7 @@
     },
     {
       "key": "animal.polar_bear",
-      "image": "animal.polar_bear.png",
+      "image": "animal.polar_bear.webp",
       "label": {
         "ar": "دب قطبي",
         "cs": "lední medvěd",
@@ -2041,7 +2052,7 @@
     },
     {
       "key": "animal.reindeer",
-      "image": "animal.reindeer.png",
+      "image": "animal.reindeer.webp",
       "label": {
         "ar": "سُب",
         "cs": "sob",
@@ -2102,7 +2113,7 @@
     },
     {
       "key": "animal.gazelle",
-      "image": "animal.gazelle.png",
+      "image": "animal.gazelle.webp",
       "label": {
         "ar": "غزال",
         "cs": "gazela",
@@ -2163,7 +2174,7 @@
     },
     {
       "key": "animal.lynx",
-      "image": "animal.lynx.png",
+      "image": "animal.lynx.webp",
       "label": {
         "ar": "ليونس",
         "cs": "rys",
@@ -2224,7 +2235,7 @@
     },
     {
       "key": "animal.wolverine",
-      "image": "animal.wolverine.png",
+      "image": "animal.wolverine.webp",
       "label": {
         "ar": "روسومك",
         "cs": "rosomák",
@@ -2285,7 +2296,7 @@
     },
     {
       "key": "animal.coyote",
-      "image": "animal.coyote.png",
+      "image": "animal.coyote.webp",
       "label": {
         "ar": "كوياوت",
         "cs": "kojot",
@@ -2346,7 +2357,7 @@
     },
     {
       "key": "animal.snow_leopard",
-      "image": "animal.snow_leopard.png",
+      "image": "animal.snow_leopard.webp",
       "label": {
         "ar": "ثعلب أبيض",
         "cs": "sněžný leopard",
@@ -2407,7 +2418,7 @@
     },
     {
       "key": "animal.wild_boar",
-      "image": "animal.wild_boar.png",
+      "image": "animal.wild_boar.webp",
       "label": {
         "ar": "ديكايا",
         "cs": "divočák",
@@ -2468,7 +2479,7 @@
     },
     {
       "key": "animal.giant_anteater",
-      "image": "animal.giant_anteater.png",
+      "image": "animal.giant_anteater.webp",
       "label": {
         "ar": "المراعنة الكبيرة",
         "cs": "mravenečník velký",
@@ -2529,7 +2540,7 @@
     },
     {
       "key": "animal.tapir",
-      "image": "animal.tapir.png",
+      "image": "animal.tapir.webp",
       "label": {
         "ar": "تاڤير",
         "cs": "tapír",
@@ -2590,7 +2601,7 @@
     },
     {
       "key": "animal.okapi",
-      "image": "animal.okapi.png",
+      "image": "animal.okapi.webp",
       "label": {
         "ar": "أوكابي",
         "cs": "okapi",
@@ -2651,7 +2662,7 @@
     },
     {
       "key": "animal.aardvark",
-      "image": "animal.aardvark.png",
+      "image": "animal.aardvark.webp",
       "label": {
         "ar": "خرزية",
         "cs": "hrabáč",
@@ -2712,7 +2723,7 @@
     },
     {
       "key": "animal.sloth",
-      "image": "animal.sloth.png",
+      "image": "animal.sloth.webp",
       "label": {
         "ar": "لينوكود",
         "cs": "lenochod",
@@ -2773,7 +2784,7 @@
     },
     {
       "key": "animal.capybara",
-      "image": "animal.capybara.png",
+      "image": "animal.capybara.webp",
       "label": {
         "ar": "كابيبارا",
         "cs": "kapybara",
@@ -2834,7 +2845,7 @@
     },
     {
       "key": "animal.armadillo",
-      "image": "animal.armadillo.png",
+      "image": "animal.armadillo.webp",
       "label": {
         "ar": "خنزير مدرعة",
         "cs": "pásovec",
@@ -2895,7 +2906,7 @@
     },
     {
       "key": "animal.fennec_fox",
-      "image": "animal.fennec_fox.png",
+      "image": "animal.fennec_fox.webp",
       "label": {
         "ar": "الفيك",
         "cs": "fenek",
@@ -2956,7 +2967,7 @@
     },
     {
       "key": "animal.mandrill",
-      "image": "animal.mandrill.png",
+      "image": "animal.mandrill.webp",
       "label": {
         "ar": "منдрول",
         "cs": "mandril",
@@ -3017,7 +3028,7 @@
     },
     {
       "key": "animal.porcupine",
-      "image": "animal.porcupine.png",
+      "image": "animal.porcupine.webp",
       "label": {
         "ar": "ديكوبراز",
         "cs": "dikobraz",

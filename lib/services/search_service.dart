@@ -28,7 +28,9 @@ class SearchService {
       return DeckSearchEntry(
         slug: deck.slug,
         tier: deck.tier,
-        styles: deck.styles,
+        // Index only what the store will actually offer, so a search can't
+        // surface a deck by a style the user could never pick.
+        styles: deck.offerableStyles,
         titles: deck.titles,
         corpus: buf.toString().toLowerCase(),
       );
