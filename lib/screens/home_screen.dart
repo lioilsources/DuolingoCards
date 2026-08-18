@@ -32,7 +32,6 @@ class _HomeScreenState extends State<HomeScreen> {
   final LanguageDeckService _langDeckService = LanguageDeckService.instance;
 
   List<_LangTile> _langTiles = [];
-  Map<String, PriorityStats> _deckStats = {};
   bool _isLoading = true;
 
   @override
@@ -101,7 +100,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
       setState(() {
         _langTiles = langTiles;
-        _deckStats = stats;
         _isLoading = false;
       });
     } catch (e) {
