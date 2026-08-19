@@ -30,10 +30,10 @@ the merge — no separate deploy step.
 Editable without a new build — use it for what changed most recently.
 
 ```
-Ten decks of 50 illustrated cards, in 17 languages. Swipe to sort what you
-know from what you don't — the cards you miss come back sooner.
+Fourteen decks of 50 illustrated cards, in 17 languages. Swipe to sort what
+you know from what you don't — the cards you miss come back sooner.
 ```
-[141]
+[143]
 
 ## Keywords (100, comma-separated, no spaces after commas)
 
@@ -70,7 +70,7 @@ French, German, Greek, Hebrew, Hindi, Indonesian, Japanese, Korean,
 Portuguese, Russian, Spanish, Turkish, and Vietnamese. Add the same deck twice
 in different pairs at no extra cost.
 
-TEN DECKS, FIFTY CARDS EACH
+FOURTEEN DECKS, FIFTY CARDS EACH
 Pets, colours, and numbers are free. Birds, farm animals, insects, reptiles
 and amphibians, marine animals, wild animals, parts of the body, emotions,
 fruit, vegetables, and weather are one-time purchases — buy a deck once and
