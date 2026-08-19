@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'screens/home_screen.dart';
 
 void main() {
-  runApp(const DuolingoCardsApp());
+  runApp(const LexifyApp());
 }
 
-class DuolingoCardsApp extends StatelessWidget {
-  const DuolingoCardsApp({super.key});
+class LexifyApp extends StatelessWidget {
+  const LexifyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'DuolingoCards',
+      title: 'Lexify',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),

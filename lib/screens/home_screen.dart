@@ -132,7 +132,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
-        title: const Text('DuolingoCards'),
+        title: const Text('Lexify'),
         centerTitle: true,
         backgroundColor: Colors.transparent,
         elevation: 0,
