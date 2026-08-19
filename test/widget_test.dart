@@ -5,7 +5,7 @@ import 'package:duolingo_cards/screens/home_screen.dart';
 
 void main() {
   testWidgets('App boots into HomeScreen', (WidgetTester tester) async {
-    await tester.pumpWidget(const DuolingoCardsApp());
+    await tester.pumpWidget(const LexifyApp());
 
     // First frame: the deck list is still loading (entitlements + assets are
     // resolved asynchronously), so assert on the boot path, not on deck names.
