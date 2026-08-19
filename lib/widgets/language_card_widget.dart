@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import '../config/cdn_config.dart';
+import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
 import '../utils/locale_direction.dart';
 import 'pronounce_button.dart';
@@ -184,8 +185,15 @@ class _LanguageCardWidgetState extends State<LanguageCardWidget>
     final summary = widget.card.foreignSummary(widget.l2) ?? '';
     final theme = Theme.of(context);
 
+    // Both faces belong to the deck: the front stays near-white so the artwork
+    // reads cleanly, the back takes the hue outright. The back was
+    // Colors.blue.shade50 for every deck, which fought the deck's own colour
+    // once the study screen gained one.
     return _CardFace(
-      color: Colors.white,
+      color: Color.alphaBlend(
+        DeckPalette.of(widget.slug).background.withValues(alpha: 0.35),
+        Colors.white,
+      ),
       child: Column(
         children: [
           if (widget.card.image.isNotEmpty)
@@ -243,7 +251,7 @@ class _LanguageCardWidgetState extends State<LanguageCardWidget>
     final theme = Theme.of(context);
 
     return _CardFace(
-      color: Colors.blue.shade50,
+      color: DeckPalette.of(widget.slug).background,
       child: Column(
         children: [
           if (widget.card.image.isNotEmpty)

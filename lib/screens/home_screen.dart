@@ -8,6 +8,7 @@ import '../services/deck_download_service.dart';
 import '../services/entitlement_service.dart';
 import '../services/language_deck_service.dart';
 import '../services/priority_service.dart';
+import '../utils/language_names.dart';
 import 'deck_store_screen.dart';
 import 'language_deck_study_screen.dart';
 
@@ -207,6 +208,9 @@ class _LangDeckTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Flag when we have one; the code is the fallback for languages that
+    // no single flag represents.
+    final flag = langFlag(tile.l2);
     final langCode = tile.l2.split('-').first.toUpperCase();
     final palette = DeckPalette.of(tile.deck.slug);
     return Card(
@@ -229,9 +233,9 @@ class _LangDeckTile extends StatelessWidget {
                 ),
                 child: Center(
                   child: Text(
-                    langCode,
-                    style: const TextStyle(
-                      fontSize: 18,
+                    flag ?? langCode,
+                    style: TextStyle(
+                      fontSize: flag != null ? 28 : 18,
                       fontWeight: FontWeight.bold,
                       color: Colors.black87,
                     ),

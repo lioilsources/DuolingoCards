@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+import 'package:flutter/foundation.dart' show visibleForTesting;
 import 'package:flutter/services.dart' show rootBundle, AssetManifest;
 import 'package:path_provider/path_provider.dart';
 
@@ -7,9 +8,16 @@ import '../models/language_deck.dart';
 
 /// Loads no-backend [LanguageDeck]s.
 ///
-/// Priority order for [load]:
-///   1. Documents directory (downloaded from CDN via [DeckDownloadService])
-///   2. Bundled asset (`assets/decks/<slug>.json`)
+/// A deck can exist twice: bundled in the app binary, and downloaded from the
+/// CDN into the documents directory. [load] takes whichever declares the
+/// higher `version`, and the bundled copy wins a tie.
+///
+/// Preferring the download unconditionally — what this did before — meant a
+/// deck downloaded by an older build kept overriding the app forever. When the
+/// image styles were renamed, devices carried on offering the vanished
+/// `flux-real` and `pony-cartoon`, drawing placeholders for images that no
+/// longer existed under those names. Nothing invalidated that copy, because
+/// nothing was comparing the two.
 class LanguageDeckService {
   LanguageDeckService._();
   static final LanguageDeckService instance = LanguageDeckService._();
@@ -24,14 +32,40 @@ class LanguageDeckService {
     final docsPath = (await getApplicationDocumentsDirectory()).path;
     final docFile = File('$docsPath/decks/$slug/deck.json');
 
-    final raw = docFile.existsSync()
-        ? await docFile.readAsString()
-        : await rootBundle.loadString('assets/decks/$slug.json');
+    LanguageDeck? downloaded;
+    if (docFile.existsSync()) {
+      try {
+        downloaded = LanguageDeck.fromJson(
+            jsonDecode(await docFile.readAsString()) as Map<String, dynamic>);
+      } catch (_) {
+        // A truncated download must not make the deck unopenable.
+      }
+    }
 
-    final deck =
-        LanguageDeck.fromJson(jsonDecode(raw) as Map<String, dynamic>);
+    LanguageDeck? bundled;
+    try {
+      bundled = LanguageDeck.fromJson(
+          jsonDecode(await rootBundle.loadString('assets/decks/$slug.json'))
+              as Map<String, dynamic>);
+    } catch (_) {
+      // Deck delivered purely over the air; the download is all there is.
+    }
+
+    final deck = newerOf(bundled, downloaded);
+    if (deck == null) {
+      throw StateError('deck $slug is neither bundled nor downloaded');
+    }
     _cache[slug] = deck;
     return deck;
+  }
+
+  /// The deck with the higher version. Ties go to [bundled], which ships with
+  /// the code that reads it and so cannot disagree with the app about styles.
+  @visibleForTesting
+  static LanguageDeck? newerOf(LanguageDeck? bundled, LanguageDeck? downloaded) {
+    if (bundled == null) return downloaded;
+    if (downloaded == null) return bundled;
+    return downloaded.version > bundled.version ? downloaded : bundled;
   }
 
   /// True if the deck is available locally — either downloaded or bundled.
