@@ -140,20 +140,15 @@ class _HomeScreenState extends State<HomeScreen> {
         foregroundColor: Colors.black87,
         actions: [
           IconButton(
-            icon: const Icon(Icons.store),
+            icon: const Icon(Icons.shopping_cart_outlined),
             onPressed: _openStore,
-            tooltip: 'Deck Store',
+            tooltip: 'Obchod s decky',
           ),
         ],
       ),
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
           : _buildDeckList(),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: _openStore,
-        icon: const Icon(Icons.add),
-        label: const Text('Get More Decks'),
-      ),
     );
   }
 
