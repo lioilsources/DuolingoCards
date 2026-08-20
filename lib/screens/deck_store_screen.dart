@@ -101,12 +101,13 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
       appBar: AppBar(
         title: const Text('Deck Store'),
         actions: [
-          IconButton(
-            icon: const Icon(Icons.restore),
-            tooltip: 'Restore Purchases',
+          // Apple requires a way to restore non-consumables, and a bare clock
+          // glyph did not say what it restored. Refresh lived next to it and
+          // did the same thing as pulling the list down, so it is gone.
+          TextButton(
             onPressed: () => _entitlements.restore(),
+            child: const Text('Obnovit nákupy'),
           ),
-          IconButton(icon: const Icon(Icons.refresh), onPressed: _init),
         ],
       ),
       body: Column(

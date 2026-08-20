@@ -89,3 +89,17 @@ const kLangNames = <String, String>{
   'lo': '🇱🇦 Lao',
   'ms': '🇲🇾 Malay',
 };
+
+/// The flag emoji [kLangNames] carries for [code], or null when the language
+/// has no entry. The name is stored as "🇩🇪 German", so the flag is everything
+/// before the first space.
+String? langFlag(String code) {
+  final name = kLangNames[code];
+  if (name == null) return null;
+  final space = name.indexOf(' ');
+  if (space <= 0) return null;
+  final flag = name.substring(0, space);
+  // Regional-indicator pairs only; a name that starts with a plain word has no
+  // flag to give.
+  return flag.runes.every((r) => r >= 0x1F1E6 && r <= 0x1F1FF) ? flag : null;
+}
