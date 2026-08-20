@@ -34,13 +34,23 @@ jobs:
       - name: Package as ZIP
         run: |
           cd "./build/macos/Build/Products/Release"
-          zip -r "$OLDPWD/DuolingoCards-${{ github.ref_name }}-macOS.zip" "duolingo_cards.app"
+          # The bundle is named after PRODUCT_NAME; hardcoding it here meant the
+          # Lexify rename broke packaging with a zip "name not matched" and
+          # nothing else to point at the cause.
+          shopt -s nullglob
+          apps=(*.app)
+          if [ ${#apps[@]} -ne 1 ]; then
+            echo "expected exactly one .app, found: ${apps[*]:-none}" >&2
+            exit 1
+          fi
+          echo "packaging ${apps[0]}"
+          zip -r "$OLDPWD/Lexify-${{ github.ref_name }}-macOS.zip" "${apps[0]}"
 
       - name: Upload to GitHub Release
         uses: softprops/action-gh-release@v3
         with:
-          files: DuolingoCards-${{ github.ref_name }}-macOS.zip
-          name: DuolingoCards ${{ github.ref_name }}
+          files: Lexify-${{ github.ref_name }}-macOS.zip
+          name: Lexify ${{ github.ref_name }}
           tag_name: ${{ github.ref_name }}
           draft: false
           prerelease: true
