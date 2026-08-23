@@ -41,14 +41,14 @@ jobs:
         shell: pwsh
         run: |
           $src = ".\build\windows\x64\runner\Release"
-          $dest = "DuolingoCards-${{ github.ref_name }}-Windows.zip"
+          $dest = "Lexify-${{ github.ref_name }}-Windows.zip"
           Compress-Archive -Path "$src\*" -DestinationPath $dest
 
       - name: Upload to GitHub Release
         uses: softprops/action-gh-release@v3
         with:
-          files: DuolingoCards-${{ github.ref_name }}-Windows.zip
-          name: DuolingoCards ${{ github.ref_name }}
+          files: Lexify-${{ github.ref_name }}-Windows.zip
+          name: Lexify ${{ github.ref_name }}
           tag_name: ${{ github.ref_name }}
           draft: false
           prerelease: true
