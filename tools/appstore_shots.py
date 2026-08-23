@@ -33,6 +33,11 @@ OUT_DIR = ROOT / "store" / "appstore_screenshots"
 TARGETS = {
     "iphone-6.9": ((1290, 2796), "cover"),
     "ipad-13": ((2064, 2752), "frame"),
+    # Google Play caps phone screenshots at a 2:1 aspect; the raw captures are
+    # 2.165:1, so they cannot be uploaded as-is and cannot be cover-cropped to
+    # 9:16 without losing a third of the screen. Framing keeps all of it.
+    "play-phone": ((1080, 1920), "frame"),
+    "play-tablet": ((1920, 1200), "frame"),
 }
 
 # Display order in the listing — what the deck looks like before why it is

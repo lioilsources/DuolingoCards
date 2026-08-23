@@ -55,3 +55,7 @@ quiz-generator/bin/
 # Git ignores only untracked paths, so the flux-real and pony-* sets that were
 # already in history stay tracked and keep working.
 decks/*/images/
+
+# Store binaries pulled down for manual upload (60 MB each, always
+# re-downloadable from the GitHub Release they came from).
+store/play_upload/
