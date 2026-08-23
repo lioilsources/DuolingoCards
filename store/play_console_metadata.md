@@ -84,9 +84,27 @@ the full description translates one-to-one.
 
 ## In-app products
 
-`store/play_products.csv` — 11 products × 17 locales, one row per
-localization. Every row is inside Play's limits (name 55, description 200),
-checked rather than eyeballed.
+Two files, because 17 locales is 187 rows to type by hand and most of them
+buy very little:
+
+| file | rows | when |
+|---|---|---|
+| `play_products_minimal.csv` | 22 | what to actually enter — en-US + cs-CZ |
+| `play_products.csv` | 187 | the full 17 locales, if it is ever automated |
+
+**English alone is safe.** Play falls back to the default language for any
+locale you have not translated, so nothing breaks and no policy is violated.
+The product name and description only surface in Google's purchase sheet — the
+deck names *inside* the app are localized regardless, because those come from
+`deck.json`, not from Play. So the cost of English-only is one dialog reading
+"Marine Animals" while the app around it says "Mořská zvířata".
+
+Add cs-CZ if the launch audience is Czech; that is the one place the mismatch
+would be noticed. The rest can be filled in later — adding a localization is
+never destructive.
+
+Every row is inside Play's limits (name 55, description 200), checked rather
+than eyeballed.
 
 | Field | Value |
 |---|---|
