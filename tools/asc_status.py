@@ -167,6 +167,23 @@ def main():
         verdicts.append((state, whose))
         print(f"  {a.get('versionString','?'):<10} {state:<32} waiting on: {whose}")
 
+    # In-app purchases carry their own review state, and a paid deck stuck in
+    # MISSING_METADATA is exactly the kind of thing that reads as "Apple is
+    # slow" while the ball is actually here.
+    iaps = get(f"apps/{app_id}/inAppPurchasesV2?limit=200", jwt)["data"]
+    if iaps:
+        print("\nIn-app purchases")
+        by_state = {}
+        for p in iaps:
+            by_state.setdefault(p["attributes"].get("state", "?"), []).append(
+                p["attributes"].get("productId", "?"))
+        for state, ids in sorted(by_state.items()):
+            print(f"  {state:<28} {len(ids)}")
+            if state not in ("APPROVED", "READY_FOR_SALE", "WAITING_FOR_REVIEW",
+                             "IN_REVIEW", "READY_FOR_REVIEW"):
+                for pid in sorted(ids):
+                    print(f"      {pid}")
+
     builds = get(f"apps/{app_id}/builds?limit=5", jwt)["data"]
     print("\nBuilds")
     for b in builds:
