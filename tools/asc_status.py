@@ -6,10 +6,15 @@ chat window:
 
     ! python3 tools/asc_status.py
 
-It unlocks Bitwarden interactively (you type the master password into your own
-terminal), reads the App Store Connect issuer id from it, signs a short-lived
-read-only token with the .p8 key already on disk, and prints the state of the
-app's versions and its most recent builds.
+Unlock the vault in your own shell first — this script never asks for a
+password:
+
+    export BW_SESSION=$(bw unlock --raw)
+    python3 tools/asc_status.py
+
+It reads the App Store Connect issuer id from the unlocked vault, signs a
+short-lived read-only token with the .p8 key already on disk, and prints the
+state of the app's versions and its most recent builds.
 
 Nothing is written and nothing is stored: the token lives 10 minutes and only
 GET requests are made.
@@ -22,6 +27,7 @@ Bitwarden is skipped entirely:
 import argparse
 import base64
 import json
+import os
 import pathlib
 import re
 import subprocess
@@ -48,23 +54,29 @@ YOUR_TURN = {
 
 
 def issuer_from_bitwarden():
-    """Ask Bitwarden for the issuer id. Interactive by design."""
-    status = json.loads(subprocess.run(
-        ["bw", "status"], capture_output=True, text=True).stdout)
-    session = None
-    if status.get("status") == "locked":
-        print("Bitwarden is locked. bw will prompt you directly.")
-        # Only stdout is captured, so bw owns the terminal for its own prompt:
-        # the master password goes from your keyboard straight into bw and is
-        # never held by this script.
-        r = subprocess.run(["bw", "unlock", "--raw"],
-                           stdout=subprocess.PIPE, text=True)
-        if r.returncode != 0:
-            raise SystemExit("bw unlock failed")
-        session = r.stdout.strip()
+    """Read the issuer id from an already-unlocked vault.
 
-    env_args = ["--session", session] if session else []
-    r = subprocess.run(["bw", "list", "items", "--search", "appstore", *env_args],
+    This deliberately never prompts. Driving `bw`'s password prompt from
+    inside a subprocess proved unreliable — it asked twice and rejected a
+    pasted password — so unlocking stays where it belongs: your own shell.
+    """
+    session = os.environ.get("BW_SESSION")
+    status = json.loads(subprocess.run(
+        ["bw", "status"], capture_output=True, text=True).stdout or "{}")
+
+    if not session and status.get("status") != "unlocked":
+        raise SystemExit(
+            "Bitwarden is locked, and this script will not prompt for your\n"
+            "master password. Unlock it in your own shell first:\n\n"
+            "    export BW_SESSION=$(bw unlock --raw)\n"
+            "    python3 tools/asc_status.py\n\n"
+            "Or skip the vault altogether — App Store Connect >\n"
+            "Users and Access > Integrations > App Store Connect API, the\n"
+            "Issuer ID is above the key list:\n\n"
+            "    python3 tools/asc_status.py --issuer <uuid>")
+
+    args = ["--session", session] if session else []
+    r = subprocess.run(["bw", "list", "items", "--search", "appstore", *args],
                        capture_output=True, text=True)
     if r.returncode != 0:
         raise SystemExit(f"bw list failed: {r.stderr.strip()}")
@@ -72,22 +84,21 @@ def issuer_from_bitwarden():
     uuid = re.compile(r"\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-"
                       r"[0-9a-f]{4}-[0-9a-f]{12}\b", re.I)
     for item in json.loads(r.stdout or "[]"):
-        haystack = json.dumps(item)
         for field in item.get("fields") or []:
             if "issuer" in (field.get("name") or "").lower():
                 found = uuid.search(field.get("value") or "")
                 if found:
                     print(f"issuer id from vault item: {item.get('name')}")
                     return found.group(0)
-        # Fall back to any UUID in an item that mentions "issuer" anywhere.
-        if "issuer" in haystack.lower():
-            found = uuid.search(haystack)
+        blob = json.dumps(item)
+        if "issuer" in blob.lower():
+            found = uuid.search(blob)
             if found and found.group(0) != item.get("id"):
                 print(f"issuer id from vault item: {item.get('name')}")
                 return found.group(0)
     raise SystemExit(
-        "No issuer id found in Bitwarden. Pass it directly:\n"
-        "  python3 tools/asc_status.py --issuer <uuid>")
+        "No issuer id found in the vault items matching 'appstore'.\n"
+        "Pass it directly:  python3 tools/asc_status.py --issuer <uuid>")
 
 
 def der_to_raw(der: bytes) -> bytes:
