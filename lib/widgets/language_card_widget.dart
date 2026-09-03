@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import '../config/cdn_config.dart';
+import '../l10n/app_localizations.dart';
 import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
 import '../utils/locale_direction.dart';
@@ -167,7 +168,7 @@ class _LanguageCardWidgetState extends State<LanguageCardWidget>
                   right: 4,
                   child: IconButton(
                     onPressed: widget.onReport,
-                    tooltip: 'Nahlásit chybu',
+                    tooltip: AppLocalizations.of(context).reportIssue,
                     icon: Icon(
                       Icons.flag_outlined,
                       size: 18,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import '../l10n/app_localizations.dart';
 import '../models/card_style.dart';
 import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
@@ -130,10 +131,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     return Scaffold(
       backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
-        title: const Text('Lexify'),
+        title: Text(l10n.appTitle),
         centerTitle: true,
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -142,7 +144,7 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(
             icon: const Icon(Icons.shopping_cart_outlined),
             onPressed: _openStore,
-            tooltip: 'Obchod s decky',
+            tooltip: l10n.homeStoreTooltip,
           ),
         ],
       ),
@@ -153,6 +155,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildDeckList() {
+    final l10n = AppLocalizations.of(context);
     if (_langTiles.isEmpty) {
       return Center(
         child: Column(
@@ -161,12 +164,12 @@ class _HomeScreenState extends State<HomeScreen> {
             Icon(Icons.library_books_outlined,
                 size: 64, color: Colors.grey.shade400),
             const SizedBox(height: 16),
-            Text('No decks yet',
+            Text(l10n.homeEmptyTitle,
                 style: TextStyle(fontSize: 18, color: Colors.grey.shade600)),
             const SizedBox(height: 8),
             ElevatedButton(
               onPressed: _openStore,
-              child: const Text('Browse Deck Store'),
+              child: Text(l10n.homeBrowseStore),
             ),
           ],
         ),
@@ -205,9 +208,13 @@ class _LangDeckTile extends StatelessWidget {
   Widget build(BuildContext context) {
     // Flag when we have one; the code is the fallback for languages that
     // no single flag represents.
+    final l10n = AppLocalizations.of(context);
     final flag = langFlag(tile.l2);
     final langCode = tile.l2.split('-').first.toUpperCase();
     final palette = DeckPalette.of(tile.deck.slug);
+    // Deck titles are chrome, so they follow the UI language like every other
+    // label on the tile; the pair itself is spelled out in the subtitle.
+    final uiLang = Localizations.localeOf(context).languageCode;
     return Card(
       margin: const EdgeInsets.only(bottom: 12),
       color: palette.background,
@@ -246,7 +253,7 @@ class _LangDeckTile extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Text(
-                            tile.deck.title(tile.l1),
+                            tile.deck.title(uiLang),
                             style: const TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -263,7 +270,7 @@ class _LangDeckTile extends StatelessWidget {
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: Text(
-                            isFree ? 'Zdarma' : 'Odemčeno',
+                            isFree ? l10n.badgeFree : l10n.badgeUnlocked,
                             style: TextStyle(
                               fontSize: 12,
                               color: isFree
@@ -276,7 +283,11 @@ class _LangDeckTile extends StatelessWidget {
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      '${tile.deck.cards.length} karet · ${tile.l1.toUpperCase()} → ${tile.l2.toUpperCase()}',
+                      l10n.tileCardsAndPair(
+                        tile.deck.cards.length,
+                        tile.l1.toUpperCase(),
+                        tile.l2.toUpperCase(),
+                      ),
                       style: TextStyle(
                         color: Colors.grey.shade600,
                         fontSize: 14,
@@ -324,7 +335,7 @@ class _StyleTag extends StatelessWidget {
           Icon(meta.icon, size: 13, color: Colors.grey.shade700),
           const SizedBox(width: 4),
           Text(
-            meta.label,
+            meta.label(AppLocalizations.of(context)),
             style: TextStyle(fontSize: 12, color: Colors.grey.shade700),
           ),
         ],
@@ -340,6 +351,7 @@ class _KnowledgeProgressBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -376,20 +388,17 @@ class _KnowledgeProgressBar extends StatelessWidget {
           children: [
             _LegendEntry(
               color: Colors.green.shade400,
-              label: 'umím',
-              count: stats.known,
+              text: l10n.legendKnown(stats.known),
             ),
             const SizedBox(width: 10),
             _LegendEntry(
               color: Colors.amber.shade400,
-              label: 'učím se',
-              count: stats.learning,
+              text: l10n.legendLearning(stats.learning),
             ),
             const SizedBox(width: 10),
             _LegendEntry(
               color: Colors.red.shade400,
-              label: 'neznám',
-              count: stats.unknown,
+              text: l10n.legendUnknown(stats.unknown),
             ),
           ],
         ),
@@ -400,14 +409,9 @@ class _KnowledgeProgressBar extends StatelessWidget {
 
 class _LegendEntry extends StatelessWidget {
   final Color color;
-  final String label;
-  final int count;
+  final String text;
 
-  const _LegendEntry({
-    required this.color,
-    required this.label,
-    required this.count,
-  });
+  const _LegendEntry({required this.color, required this.text});
 
   @override
   Widget build(BuildContext context) {
@@ -421,7 +425,7 @@ class _LegendEntry extends StatelessWidget {
         ),
         const SizedBox(width: 4),
         Text(
-          '$count $label',
+          text,
           style: TextStyle(fontSize: 11.5, color: Colors.grey.shade700),
         ),
       ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../l10n/app_localizations.dart';
 
 enum SwipeDirection { up, down, left, right }
 
@@ -380,12 +381,13 @@ class _CardStackState<T> extends State<CardStack<T>>
                     color: Colors.blue,
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  child: const Row(
+                  child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.arrow_upward, color: Colors.white, size: 24),
-                      SizedBox(width: 8),
-                      Text('NEXT', style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold)),
+                      const Icon(Icons.arrow_upward, color: Colors.white, size: 24),
+                      const SizedBox(width: 8),
+                      Text(AppLocalizations.of(context).swipeNext,
+                          style: const TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold)),
                     ],
                   ),
                 ),
@@ -407,12 +409,13 @@ class _CardStackState<T> extends State<CardStack<T>>
                     color: Colors.grey.shade600,
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  child: const Row(
+                  child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.arrow_downward, color: Colors.white, size: 24),
-                      SizedBox(width: 8),
-                      Text('BACK', style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold)),
+                      const Icon(Icons.arrow_downward, color: Colors.white, size: 24),
+                      const SizedBox(width: 8),
+                      Text(AppLocalizations.of(context).swipeBack,
+                          style: const TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold)),
                     ],
                   ),
                 ),

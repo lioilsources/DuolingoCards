@@ -110,16 +110,16 @@ class EntitlementService extends ChangeNotifier {
     );
   }
 
-  /// Put (slug, l1, l2, style) on the home screen. Returns null on success or
-  /// an error string when the deck is not owned.
-  Future<String?> activate(
+  /// Put (slug, l1, l2, style) on the home screen. Returns false when the deck
+  /// is not owned; the caller words the message, this service has no locale.
+  Future<bool> activate(
     String slug,
     String l1,
     String l2,
     String style, {
     int tier = 1,
   }) async {
-    if (!ownsDeck(slug, tier: tier)) return 'Deck není zakoupený';
+    if (!ownsDeck(slug, tier: tier)) return false;
     final key = DeckEntitlement(
       deckSlug: slug,
       sourceLang: l1,
@@ -130,7 +130,7 @@ class EntitlementService extends ChangeNotifier {
       await _prefs?.setStringList(_deckEntitlementsKey, _activatedKeys.toList());
       notifyListeners();
     }
-    return null;
+    return true;
   }
 
   /// Take (slug, l1, l2, style) off the home screen. Ownership is untouched.

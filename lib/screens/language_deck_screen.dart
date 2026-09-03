@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../l10n/app_localizations.dart';
 import '../models/language_deck.dart';
 import '../utils/language_names.dart';
 import '../utils/locale_direction.dart';
@@ -53,12 +54,15 @@ class _LanguageDeckScreenState extends State<LanguageDeckScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     final deck = widget.deck;
     final cards = deck.cards;
     final card = cards.isEmpty ? null : cards[_index % cards.length];
 
     return Scaffold(
-      appBar: AppBar(title: Text(deck.title(_l1))),
+      appBar: AppBar(
+        title: Text(deck.title(Localizations.localeOf(context).languageCode)),
+      ),
       body: Column(
         children: [
           _LangPairPicker(
@@ -73,7 +77,7 @@ class _LanguageDeckScreenState extends State<LanguageDeckScreen> {
           const Divider(height: 1),
           Expanded(
             child: card == null
-                ? const Center(child: Text('This deck has no cards.'))
+                ? Center(child: Text(l10n.deckHasNoCards))
                 : _CardView(
                     card: card,
                     l1: _l1,
@@ -92,14 +96,14 @@ class _LanguageDeckScreenState extends State<LanguageDeckScreen> {
                     onPressed: () => setState(
                         () => _index = (_index - 1 + cards.length) % cards.length),
                     icon: const Icon(Icons.chevron_left),
-                    label: const Text('Prev'),
+                    label: Text(l10n.previous),
                   ),
                   Text('${(_index % cards.length) + 1} / ${cards.length}'),
                   TextButton.icon(
                     onPressed: () =>
                         setState(() => _index = (_index + 1) % cards.length),
                     icon: const Icon(Icons.chevron_right),
-                    label: const Text('Next'),
+                    label: Text(l10n.next),
                   ),
                 ],
               ),
@@ -215,27 +219,35 @@ class _LangPairPicker extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       child: Row(
         children: [
-          const Text('I speak '),
-          _dropdown(l1, (v) => onChanged(v, l2)),
-          const Text('  learning '),
-          _dropdown(l2, (v) => onChanged(l1, v)),
+          Text('${l10n.pickerIKnow} '),
+          _dropdown(l1, (v) => onChanged(v, l2), l10n),
+          Text('  ${l10n.pickerLearning} '),
+          _dropdown(l2, (v) => onChanged(l1, v), l10n),
         ],
       ),
     );
   }
 
-  Widget _dropdown(String value, ValueChanged<String> onChanged) {
+  Widget _dropdown(
+    String value,
+    ValueChanged<String> onChanged,
+    AppLocalizations l10n,
+  ) {
     return DropdownButton<String>(
       value: value,
       onChanged: (v) {
         if (v != null) onChanged(v);
       },
       items: languages
-          .map((l) => DropdownMenuItem(value: l, child: Text(kLangNames[l] ?? l)))
+          .map((l) => DropdownMenuItem(
+                value: l,
+                child: Text(langDisplayName(l, l10n)),
+              ))
           .toList(),
     );
   }

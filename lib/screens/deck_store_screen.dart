@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../l10n/app_localizations.dart';
 import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
 import '../models/search_index.dart';
@@ -97,16 +98,17 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Deck Store'),
+        title: Text(l10n.storeTitle),
         actions: [
           // Apple requires a way to restore non-consumables, and a bare clock
           // glyph did not say what it restored. Refresh lived next to it and
           // did the same thing as pulling the list down, so it is gone.
           TextButton(
             onPressed: () => _entitlements.restore(),
-            child: const Text('Obnovit nákupy'),
+            child: Text(l10n.storeRestorePurchases),
           ),
         ],
       ),
@@ -117,7 +119,7 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
             child: TextField(
               controller: _searchCtrl,
               decoration: InputDecoration(
-                hintText: 'Hledat decky...',
+                hintText: l10n.storeSearchHint,
                 prefixIcon: const Icon(Icons.search),
                 suffixIcon: _searchCtrl.text.isNotEmpty
                     ? IconButton(
@@ -144,15 +146,16 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
   }
 
   Widget _buildBody() {
+    final l10n = AppLocalizations.of(context);
     if (_isLoading) return const Center(child: CircularProgressIndicator());
     if (_error != null) {
       return Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Error: $_error'),
+            Text(l10n.storeLoadError(_error ?? '')),
             const SizedBox(height: 16),
-            ElevatedButton(onPressed: _init, child: const Text('Retry')),
+            ElevatedButton(onPressed: _init, child: Text(l10n.retry)),
           ],
         ),
       );
@@ -160,7 +163,7 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
     if (_results.isEmpty) {
       return Center(
         child: Text(
-          _searchCtrl.text.isEmpty ? 'No decks available.' : 'Nothing found.',
+          _searchCtrl.text.isEmpty ? l10n.storeNoDecks : l10n.storeNothingFound,
           style: TextStyle(color: Colors.grey.shade600),
         ),
       );
@@ -207,6 +210,7 @@ class _DeckTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     return Card(
       margin: const EdgeInsets.only(bottom: 10),
       color: DeckPalette.of(deck.slug).background,
@@ -217,20 +221,23 @@ class _DeckTile extends StatelessWidget {
           style: const TextStyle(fontWeight: FontWeight.w600),
         ),
         subtitle: Text(
-          '${deck.cards.length} karet · ${deck.availableLanguages.length} jazyků',
+          l10n.tileCardsAndLanguages(
+            deck.cards.length,
+            deck.availableLanguages.length,
+          ),
         ),
         trailing: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
             if (isFree)
-              _Badge(label: 'Zdarma', color: Colors.green.shade600)
+              _Badge(label: l10n.badgeFree, color: Colors.green.shade600)
             else if (isOwned)
-              _Badge(label: 'Zakoupeno', color: Colors.green.shade600)
+              _Badge(label: l10n.badgePurchased, color: Colors.green.shade600)
             else
               // Falls back to a neutral label while store metadata loads, or
               // when the device cannot reach the store at all.
               _Badge(
-                label: price ?? 'Koupit',
+                label: price ?? l10n.buy,
                 color: Theme.of(context).colorScheme.primary,
               ),
             const SizedBox(width: 4),

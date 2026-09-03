@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'dart:math';
 import 'package:flutter/material.dart';
+import '../l10n/app_localizations.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:audioplayers/audioplayers.dart';
 import '../models/flashcard.dart';
@@ -289,7 +290,7 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
                       : Colors.grey.shade600,
                   size: 28,
                 ),
-                tooltip: 'Play pronunciation',
+                tooltip: AppLocalizations.of(context).playPronunciation,
               ),
             ),
         ],

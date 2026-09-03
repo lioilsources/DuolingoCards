@@ -3,6 +3,7 @@ import 'package:flutter/services.dart' show Clipboard, ClipboardData;
 import 'package:url_launcher/url_launcher.dart';
 
 import '../config/support_config.dart';
+import '../l10n/app_localizations.dart';
 import '../models/language_deck.dart';
 
 /// Bottom-sheet form for reporting a broken card.
@@ -57,16 +58,12 @@ class _FeedbackForm extends StatefulWidget {
   State<_FeedbackForm> createState() => _FeedbackFormState();
 }
 
-class _FeedbackFormState extends State<_FeedbackForm> {
-  static const _issueTypes = [
-    'Překlad',
-    'Obrázek',
-    'Výslovnost',
-    'Význam / fakta',
-    'Jiné',
-  ];
+/// What can be wrong with a card. The label is looked up per locale in
+/// [_FeedbackFormState._issueLabel]; the enum keeps the choice language-free.
+enum _IssueType { translation, image, pronunciation, meaning, other }
 
-  String _issueType = _issueTypes.first;
+class _FeedbackFormState extends State<_FeedbackForm> {
+  _IssueType _issueType = _IssueType.translation;
   final TextEditingController _comment = TextEditingController();
   bool _sending = false;
 
@@ -76,33 +73,51 @@ class _FeedbackFormState extends State<_FeedbackForm> {
     super.dispose();
   }
 
-  String get _subject =>
-      '[Lexify] Chyba na kartě ${widget.card.key} (${widget.deck.slug})';
+  String _issueLabel(_IssueType type, AppLocalizations l10n) => switch (type) {
+        _IssueType.translation => l10n.issueTranslation,
+        _IssueType.image => l10n.issueImage,
+        _IssueType.pronunciation => l10n.issuePronunciation,
+        _IssueType.meaning => l10n.issueMeaning,
+        _IssueType.other => l10n.issueOther,
+      };
 
-  String get _body {
+  String _subject(AppLocalizations l10n) =>
+      l10n.feedbackSubject(widget.card.key, widget.deck.slug);
+
+  String _body(AppLocalizations l10n) {
     final c = widget.card;
     return [
-      'Deck: ${widget.deck.slug} v${widget.deck.version}'
-          ' (${widget.deck.title(widget.l1)})',
-      'Karta: ${c.key}',
-      'Jazyky: ${widget.l1} → ${widget.l2}',
-      'Zobrazeno: ${c.foreignLabel(widget.l2) ?? '—'}'
-          ' / ${c.foreignLabel(widget.l1) ?? '—'}',
-      'Styl: ${widget.style}',
-      'Typ chyby: $_issueType',
+      l10n.feedbackBodyDeck(
+        widget.deck.slug,
+        '${widget.deck.version}',
+        widget.deck.title(widget.l1),
+      ),
+      l10n.feedbackBodyCard(c.key),
+      l10n.feedbackBodyLanguages(widget.l1, widget.l2),
+      l10n.feedbackBodyShown(
+        c.foreignLabel(widget.l2) ?? '—',
+        c.foreignLabel(widget.l1) ?? '—',
+      ),
+      l10n.feedbackBodyStyle(widget.style),
+      l10n.feedbackBodyIssue(_issueLabel(_issueType, l10n)),
       '',
       _comment.text.trim(),
     ].join('\n');
   }
 
   Future<void> _send() async {
+    // Resolved before the first await: the sheet may be gone by the time the
+    // mail client hands control back.
+    final l10n = AppLocalizations.of(context);
+    final subject = _subject(l10n);
+    final body = _body(l10n);
     setState(() => _sending = true);
     final uri = Uri(
       scheme: 'mailto',
       path: kSupportEmail,
       // Uri.queryParameters encodes spaces as '+', which mail clients render
       // literally; encodeComponent keeps them as %20.
-      query: {'subject': _subject, 'body': _body}
+      query: {'subject': subject, 'body': body}
           .entries
           .map((e) =>
               '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
@@ -125,23 +140,23 @@ class _FeedbackFormState extends State<_FeedbackForm> {
     // No mail client (typical on tablets and simulators) — the report still
     // has to leave the device somehow, so hand it over via the clipboard.
     await Clipboard.setData(
-      ClipboardData(text: 'Komu: $kSupportEmail\n\n$_subject\n\n$_body'),
+      ClipboardData(
+        text: '${l10n.feedbackClipboardTo(kSupportEmail)}\n\n$subject\n\n$body',
+      ),
     );
     if (!mounted) return;
     Navigator.of(context).pop();
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text(
-          'E-mailová aplikace není k dispozici — hlášení je zkopírované '
-          'do schránky, pošli ho prosím na $kSupportEmail.',
-        ),
-        duration: Duration(seconds: 6),
+      SnackBar(
+        content: Text(l10n.feedbackNoMailApp(kSupportEmail)),
+        duration: const Duration(seconds: 6),
       ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     return SafeArea(
       child: Padding(
         padding: const EdgeInsets.fromLTRB(20, 16, 20, 20),
@@ -153,11 +168,11 @@ class _FeedbackFormState extends State<_FeedbackForm> {
               children: [
                 const Icon(Icons.flag_outlined, size: 20),
                 const SizedBox(width: 8),
-                const Expanded(
+                Expanded(
                   child: Text(
-                    'Nahlásit chybu',
-                    style:
-                        TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
+                    l10n.reportIssue,
+                    style: const TextStyle(
+                        fontSize: 17, fontWeight: FontWeight.w600),
                   ),
                 ),
                 Text(
@@ -171,9 +186,9 @@ class _FeedbackFormState extends State<_FeedbackForm> {
               spacing: 8,
               runSpacing: 4,
               children: [
-                for (final type in _issueTypes)
+                for (final type in _IssueType.values)
                   ChoiceChip(
-                    label: Text(type),
+                    label: Text(_issueLabel(type, l10n)),
                     selected: _issueType == type,
                     onSelected: (_) => setState(() => _issueType = type),
                   ),
@@ -185,7 +200,7 @@ class _FeedbackFormState extends State<_FeedbackForm> {
               maxLines: 3,
               textInputAction: TextInputAction.newline,
               decoration: InputDecoration(
-                hintText: 'Co je špatně? (nepovinné)',
+                hintText: l10n.feedbackCommentHint,
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
@@ -198,7 +213,7 @@ class _FeedbackFormState extends State<_FeedbackForm> {
               child: FilledButton.icon(
                 onPressed: _sending ? null : _send,
                 icon: const Icon(Icons.mail_outline),
-                label: const Text('Odeslat e-mailem'),
+                label: Text(l10n.feedbackSend),
               ),
             ),
           ],

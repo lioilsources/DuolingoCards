@@ -35,6 +35,13 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+  # UI strings. Every user-visible string lives in lib/l10n/app_*.arb and is
+  # compiled by gen-l10n (see l10n.yaml) into lib/l10n/app_localizations*.dart.
+  # `intl: any` lets flutter_localizations pin the version it needs.
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
   # Audio playback (legacy decks with bundled audio assets)
   audioplayers: ^6.0.0
 
@@ -59,6 +66,10 @@ dependencies:
 
 dev_dependencies:
   flutter_test:
+    sdk: flutter
+  # On-device screenshots of every screen in every UI language
+  # (integration_test/l10n_screenshots_test.dart, `make screenshots`).
+  integration_test:
     sdk: flutter
 
   # The "flutter_lints" package below contains a set of recommended lints to
@@ -96,6 +107,9 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  # Run gen-l10n on `flutter pub get` / build (l10n.yaml).
+  generate: true
 
   # Assets
   assets:

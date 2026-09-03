@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../l10n/app_localizations.dart';
 import '../services/tts_service.dart';
 
 /// Speaker button that pronounces [text] in [lang] using on-device TTS.
@@ -58,15 +59,11 @@ class _PronounceButtonState extends State<PronounceButton> {
     }
     // No voice installed → offer to install (the chosen fallback).
     final messenger = ScaffoldMessenger.of(context);
+    final l10n = AppLocalizations.of(context);
     final started = await _tts.promptInstallVoice(widget.lang);
     if (!started && mounted) {
       messenger.showSnackBar(
-        SnackBar(
-          content: Text(
-            'No "${widget.lang}" voice installed. Add one in Settings → '
-            'Accessibility → Spoken Content → Voices, then try again.',
-          ),
-        ),
+        SnackBar(content: Text(l10n.noVoiceInstalled(widget.lang))),
       );
     }
     await _refreshAvailability();
@@ -84,9 +81,10 @@ class _PronounceButtonState extends State<PronounceButton> {
         ),
       );
     }
+    final l10n = AppLocalizations.of(context);
     return IconButton(
       iconSize: widget.size,
-      tooltip: _available ? 'Pronounce' : 'Install voice',
+      tooltip: _available ? l10n.pronounce : l10n.installVoice,
       icon: Icon(_available ? Icons.volume_up : Icons.volume_off_outlined),
       color: _available ? null : Theme.of(context).disabledColor,
       onPressed: widget.text.isEmpty ? null : _onTap,
