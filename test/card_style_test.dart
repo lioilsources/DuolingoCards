@@ -1,5 +1,7 @@
+import 'package:flutter/material.dart' show Locale;
 import 'package:flutter_test/flutter_test.dart';
 
+import 'package:duolingo_cards/l10n/app_localizations.dart';
 import 'package:duolingo_cards/models/card_style.dart';
 import 'package:duolingo_cards/models/language_deck.dart';
 
@@ -85,7 +87,10 @@ void main() {
   });
 
   group('CardStyle', () {
-    test('names every style the pipeline can render', () {
+    final en = lookupAppLocalizations(const Locale('en'));
+    final cs = lookupAppLocalizations(const Locale('cs'));
+
+    test('names every style the pipeline can render, in every UI language', () {
       // Must stay in step with prompt.DefaultStyles on the Go side.
       const pipelineStyles = [
         'photo',
@@ -105,19 +110,28 @@ void main() {
       ];
       for (final id in pipelineStyles) {
         final style = CardStyle.of(id);
-        expect(style.label, isNotEmpty, reason: '$id has no label');
-        expect(style.description, isNotEmpty, reason: '$id has no description');
-        // A raw slug leaking into the UI is the bug this registry exists to fix.
-        expect(style.label, isNot(equals(id)), reason: '$id shows its slug');
-        expect(style.label, isNot(contains(RegExp(r'^(flux|pony|illustrious)-'))),
-            reason: '$id shows its backend prefix');
+        for (final l10n in [en, cs]) {
+          final label = style.label(l10n);
+          expect(label, isNotEmpty, reason: '$id has no label');
+          expect(style.description(l10n), isNotEmpty,
+              reason: '$id has no description');
+          // A raw slug leaking into the UI is the bug this registry exists to fix.
+          expect(label, isNot(equals(id)), reason: '$id shows its slug');
+          expect(label, isNot(contains(RegExp(r'^(flux|pony|illustrious)-'))),
+              reason: '$id shows its backend prefix');
+        }
       }
+    });
+
+    test('follows the UI language', () {
+      expect(CardStyle.of('photo').label(en), 'Photo');
+      expect(CardStyle.of('photo').label(cs), 'Fotografie');
     });
 
     test('degrades gracefully for a style this build does not know', () {
       final style = CardStyle.of('illustrious-future');
-      expect(style.label, 'Illustrious future');
-      expect(style.description, isEmpty);
+      expect(style.label(en), 'Illustrious future');
+      expect(style.description(en), isEmpty);
     });
 
     test('sorts into registry order, unknown ids last', () {

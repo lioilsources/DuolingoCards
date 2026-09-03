@@ -1,7 +1,10 @@
-/// Shared language display names with flag emoji, keyed by BCP-47 code.
+import '../l10n/app_localizations.dart';
+
+/// English language display names with flag emoji, keyed by BCP-47 code.
 ///
-/// Used by language pickers throughout the app. Falls back to the raw code
-/// when a language is not listed here.
+/// This is the fallback table: pickers show [langDisplayName], which names the
+/// 17 shipped languages in the UI language and only reaches for this map for
+/// codes the UI has no word for.
 const kLangNames = <String, String>{
   // Pivot / authoring language
   'cs': '🇨🇿 Czech',
@@ -103,3 +106,37 @@ String? langFlag(String code) {
   // flag to give.
   return flag.runes.every((r) => r >= 0x1F1E6 && r <= 0x1F1FF) ? flag : null;
 }
+
+/// Display name for [code] in the UI language, with its flag when it has one:
+/// "🇩🇪 German" on an English device, the Czech name on a Czech one.
+///
+/// Codes the UI cannot name fall back to the English entry in [kLangNames],
+/// then to the raw code, so a picker never shows an empty item.
+String langDisplayName(String code, AppLocalizations l10n) {
+  final localized = _localizedName(code, l10n);
+  if (localized == null) return kLangNames[code] ?? code;
+  final flag = langFlag(code);
+  return flag == null ? localized : '$flag $localized';
+}
+
+/// The 17 languages every deck ships in. Keep in step with the ARB files.
+String? _localizedName(String code, AppLocalizations l10n) => switch (code) {
+      'ar' => l10n.langAr,
+      'cs' => l10n.langCs,
+      'de' => l10n.langDe,
+      'el' => l10n.langEl,
+      'en' => l10n.langEn,
+      'es-419' => l10n.langEs419,
+      'fr' => l10n.langFr,
+      'he' => l10n.langHe,
+      'hi' => l10n.langHi,
+      'id' => l10n.langId,
+      'ja' => l10n.langJa,
+      'ko' => l10n.langKo,
+      'pt-BR' => l10n.langPtBR,
+      'ru' => l10n.langRu,
+      'tr' => l10n.langTr,
+      'vi' => l10n.langVi,
+      'zh-CN' => l10n.langZhCN,
+      _ => null,
+    };

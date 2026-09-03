@@ -1,0 +1,9 @@
+# gen-l10n configuration. English is the template; every other locale must
+# define every key (CI runs `flutter gen-l10n` and fails on an untranslated
+# message, see test/l10n_test.dart). Output lands next to the ARB files.
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false
+untranslated-messages-file: build/l10n_untranslated.json

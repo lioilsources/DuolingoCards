@@ -249,3 +249,18 @@ run-macos: build
 .PHONY: analyze
 analyze:
 	flutter analyze
+
+# ── app screenshots ──────────────────────────────────────────────────────────
+# Every screen with UI chrome, once per UI language, on a booted iOS simulator.
+# App Review rejected 2.2.2 for mixed languages on one screen; look at these
+# before uploading a build. Output: build/screenshots/<lang>_<n>_<screen>.png
+# (boot the simulator first: `open -a Simulator`).
+
+SIM ?= iPhone 17 Pro Max
+
+.PHONY: screenshots
+screenshots:
+	flutter drive \
+	  --driver=test_driver/integration_test.dart \
+	  --target=integration_test/l10n_screenshots_test.dart \
+	  -d "$(SIM)"

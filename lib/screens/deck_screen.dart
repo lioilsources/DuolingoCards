@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../l10n/app_localizations.dart';
 import '../models/deck.dart';
 import '../models/flashcard.dart';
 import '../services/deck_service.dart';
@@ -120,10 +121,11 @@ class _DeckScreenState extends State<DeckScreen> {
       );
     }
 
+    final l10n = AppLocalizations.of(context);
     return Scaffold(
       backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
-        title: Text(_deck?.name ?? 'Flashcards'),
+        title: Text(_deck?.name ?? l10n.flashcards),
         centerTitle: true,
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -133,7 +135,7 @@ class _DeckScreenState extends State<DeckScreen> {
             IconButton(
               icon: Icon(_showFront ? Icons.translate : Icons.abc),
               onPressed: _onDoubleTap,
-              tooltip: _showFront ? 'Zobrazit překlad' : 'Zobrazit originál',
+              tooltip: _showFront ? l10n.showTranslation : l10n.showOriginal,
             ),
         ],
       ),
@@ -157,7 +159,7 @@ class _DeckScreenState extends State<DeckScreen> {
                   onDoubleTap: _onDoubleTap,
                   onPeekNext: _ensureNextCardReady,
                 )
-              : const Center(child: Text('Žádné karty')),
+              : Center(child: Text(l10n.noCards)),
         ),
       ),
     );

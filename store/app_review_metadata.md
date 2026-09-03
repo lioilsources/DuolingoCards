@@ -91,7 +91,18 @@ card.
 ```
 [~1450]
 
-## What's New (4000) — for the 2.2.1 submission
+## What's New (4000) — for the resubmission after the guideline 4 rejection
+
+App Review rejected 2.2.2 because buttons and labels appeared in mixed
+languages (Czech and English on one screen). The UI is now fully localized.
+
+```
+• Every button and label now follows your device language. The app speaks
+  English or Czech; any other device language gets English throughout.
+• Language names in the deck picker are translated too.
+```
+
+### Previous — 2.2.1
 
 ```
 • Report a problem straight from a card — pick what is wrong and send it in
@@ -122,9 +133,15 @@ that deck for all 17 languages and both of its image styles. Purchases are
 verified on device by StoreKit; there is no receipt forwarding. "Restore
 Purchases" is in the deck store's top bar.
 
-To try a purchase: open the app, tap "Get More Decks", choose any deck marked
-with a price, pick a language pair and style, and confirm. Free decks (Pets,
-Basic Colors, Numbers) need no purchase and show the same flow.
+The interface is localized in English and Czech and follows the device
+language; every other device language sees English. Card content (the words
+being learned) is in the language pair the user picks — that is the product,
+not the interface.
+
+To try a purchase: open the app, tap the shopping-cart icon in the top-right
+corner to open the Deck Store, choose any deck marked with a price, pick a
+language pair and style, and confirm. Free decks (Pets, Basic Colors, Numbers)
+need no purchase and show the same flow.
 ```
 
 ## App Privacy (the questionnaire)

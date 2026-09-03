@@ -4,6 +4,7 @@ import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:path_provider/path_provider.dart';
 
+import '../l10n/app_localizations.dart';
 import '../models/card_style.dart';
 import '../models/language_deck.dart';
 import '../services/deck_download_service.dart';
@@ -46,14 +47,19 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
   bool _isAvailableLocally = false;
   String? _docsPath;
 
+  /// The learner's default L1: the device language, whatever the UI speaks.
   String get _deviceLang =>
       SchedulerBinding.instance.platformDispatcher.locale.languageCode;
+
+  /// The language the chrome is in — deck titles in app bars and dialogs use
+  /// this, not [_l1], so a screen never mixes two languages.
+  String get _uiLang => Localizations.localeOf(context).languageCode;
 
   @override
   void initState() {
     super.initState();
     final langs = widget.deck.availableLanguages;
-    _l1 = langs.contains(_deviceLang) ? _deviceLang : langs.firstOrNull ?? 'cs';
+    _l1 = langs.contains(_deviceLang) ? _deviceLang : langs.firstOrNull ?? 'en';
     _l2 = langs.length > 1
         ? langs.firstWhere((l) => l != _l1, orElse: () => langs.first)
         : _l1;
@@ -125,35 +131,32 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
   /// Confirm the (language pair, style) selection. [buying] switches the copy:
   /// a purchase unlocks the whole deck, an add only places one combination.
   Future<bool> _confirmSelection({required bool buying}) async {
+    final l10n = AppLocalizations.of(context);
     final styleMeta = CardStyle.of(_style);
     final price = _ent.priceForDeck(_deck.slug);
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: Text(_deck.title(_l1)),
+        title: Text(_deck.title(_uiLang)),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             _ConfirmRow(
               icon: Icons.translate,
-              label: 'Jazyky',
+              label: l10n.confirmLanguagesLabel,
               value:
-                  '${kLangNames[_l1] ?? _l1}  →  ${kLangNames[_l2] ?? _l2}',
+                  '${langDisplayName(_l1, l10n)}  →  ${langDisplayName(_l2, l10n)}',
             ),
             const SizedBox(height: 10),
             _ConfirmRow(
               icon: styleMeta.icon,
-              label: 'Styl obrázků',
-              value: styleMeta.label,
+              label: l10n.styleSectionTitle,
+              value: styleMeta.label(l10n),
             ),
             const SizedBox(height: 14),
             Text(
-              buying
-                  ? 'Nákup odemkne celý deck — všechny jazyky i styly. '
-                        'Tahle kombinace se přidá na domovskou obrazovku.'
-                  : 'Tahle kombinace se přidá na domovskou obrazovku. '
-                        'Kdykoli později můžeš přidat další jazyk nebo styl.',
+              buying ? l10n.confirmBuyNote : l10n.confirmAddNote,
               style: TextStyle(fontSize: 13, color: Colors.grey.shade600),
             ),
           ],
@@ -161,13 +164,13 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(false),
-            child: const Text('Zpět'),
+            child: Text(l10n.back),
           ),
           FilledButton(
             onPressed: () => Navigator.of(context).pop(true),
             child: Text(buying
-                ? (price == null ? 'Koupit' : 'Koupit za $price')
-                : 'Přidat'),
+                ? (price == null ? l10n.buy : l10n.buyFor(price))
+                : l10n.add),
           ),
         ],
       ),
@@ -184,7 +187,8 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     if (!started) {
       setState(() => _purchasing = false);
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Nákup se nepodařilo zahájit')),
+        SnackBar(
+            content: Text(AppLocalizations.of(context).purchaseFailedToStart)),
       );
     }
     // On success the store sheet is now up; _onEntitlementsChanged finishes.
@@ -195,18 +199,21 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     // combination before paying, asking again would read as doubt.
     if (!confirmed && !await _confirmSelection(buying: false)) return;
     if (!mounted) return;
-    final err = await _ent.activate(
+    final ok = await _ent.activate(
       _deck.slug, _l1, _l2, _style,
       tier: _deck.tier,
     );
     if (!mounted) return;
-    if (err != null) {
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(err)));
+    final l10n = AppLocalizations.of(context);
+    if (!ok) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text(l10n.deckNotPurchased)),
+      );
     } else if (!_isAvailableLocally) {
       _startDownload();
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Přidáno na domovskou obrazovku')),
+        SnackBar(content: Text(l10n.addedToHome)),
       );
     }
   }
@@ -233,7 +240,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
       widget.entitlements.notifyDeckReady();
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Stahování selhalo. Zkus to znovu.')),
+        SnackBar(content: Text(AppLocalizations.of(context).downloadFailed)),
       );
     }
   }
@@ -253,12 +260,13 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     final langs = _deck.availableLanguages;
     final cards = _previewCards;
     final card = cards.isEmpty ? null : cards[_previewIndex % cards.length];
 
     return Scaffold(
-      appBar: AppBar(title: Text(_deck.title(_deviceLang))),
+      appBar: AppBar(title: Text(_deck.title(_uiLang))),
       body: Column(
         children: [
           Expanded(
@@ -303,7 +311,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                               ? () => setState(() => _previewIndex--)
                               : null,
                           icon: const Icon(Icons.chevron_left),
-                          label: const Text('Předchozí'),
+                          label: Text(l10n.previous),
                         ),
                         Text(
                           '${_previewIndex + 1} / ${cards.length}',
@@ -314,7 +322,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                               ? () => setState(() => _previewIndex++)
                               : null,
                           icon: const Icon(Icons.chevron_right),
-                          label: const Text('Další'),
+                          label: Text(l10n.next),
                         ),
                       ],
                     ),
@@ -355,8 +363,9 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                         ),
                         const SizedBox(width: 6),
                         Text(_ownsDeck
-                            ? (_isFree ? 'Zdarma' : 'Zakoupeno')
-                            : (_ent.priceForDeck(_deck.slug) ?? 'Placený deck')),
+                            ? (_isFree ? l10n.badgeFree : l10n.badgePurchased)
+                            : (_ent.priceForDeck(_deck.slug) ??
+                                l10n.badgePaidDeck)),
                         const Spacer(),
                         if (activatedCount > 0)
                           Container(
@@ -368,7 +377,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                               borderRadius: BorderRadius.circular(10),
                             ),
                             child: Text(
-                              '$activatedCount aktivní',
+                              l10n.activeCount(activatedCount),
                               style: TextStyle(
                                 fontSize: 12,
                                 color: Colors.green.shade700,
@@ -423,12 +432,13 @@ class _StylePicker extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final description = CardStyle.of(selected).description;
+    final l10n = AppLocalizations.of(context);
+    final description = CardStyle.of(selected).description(l10n);
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text('Styl obrázků', style: theme.textTheme.labelLarge),
+        Text(l10n.styleSectionTitle, style: theme.textTheme.labelLarge),
         const SizedBox(height: 6),
         Wrap(
           spacing: 8,
@@ -441,7 +451,7 @@ class _StylePicker extends StatelessWidget {
                 size: 18,
                 color: selected == s ? theme.colorScheme.onSecondaryContainer : null,
               ),
-              label: Text(style.label),
+              label: Text(style.label(l10n)),
               selected: selected == s,
               onSelected: (_) => onSelected(s),
             );
@@ -592,30 +602,79 @@ class _LangPairPicker extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    final l10n = AppLocalizations.of(context);
+    // Two full-width fields, caption above each. The inline sentence
+    // ("I know [x] learning [y]") overflowed a 6.9" phone by ~200 px: a
+    // DropdownButton sizes itself to its widest item, and seventeen language
+    // names plus two captions do not fit on one line in any language. Side by
+    // side they fit a Pro Max but ellipsise the longest Czech names on a 4.7"
+    // phone; stacked, nothing is ever cut.
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const Text('Znám '),
-        _dropdown(l1, (v) => onChanged(v, l2)),
-        const Text('  učím se '),
-        _dropdown(l2, (v) => onChanged(l1, v)),
+        _LangField(
+          caption: l10n.pickerIKnow,
+          value: l1,
+          languages: languages,
+          onChanged: (v) => onChanged(v, l2),
+        ),
+        const SizedBox(height: 6),
+        _LangField(
+          caption: l10n.pickerLearning,
+          value: l2,
+          languages: languages,
+          onChanged: (v) => onChanged(l1, v),
+        ),
       ],
     );
   }
+}
 
-  Widget _dropdown(String value, ValueChanged<String> onChanged) {
+class _LangField extends StatelessWidget {
+  final String caption;
+  final String value;
+  final List<String> languages;
+  final ValueChanged<String> onChanged;
+
+  const _LangField({
+    required this.caption,
+    required this.value,
+    required this.languages,
+    required this.onChanged,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final l10n = AppLocalizations.of(context);
     final safeValue =
         languages.contains(value) ? value : languages.firstOrNull ?? value;
-    return DropdownButton<String>(
-      value: safeValue,
-      onChanged: (v) {
-        if (v != null) onChanged(v);
-      },
-      items: languages
-          .map((l) => DropdownMenuItem(
-                value: l,
-                child: Text(kLangNames[l] ?? l),
-              ))
-          .toList(),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          caption,
+          style: theme.textTheme.bodySmall
+              ?.copyWith(color: theme.colorScheme.outline),
+        ),
+        DropdownButton<String>(
+          value: safeValue,
+          isExpanded: true,
+          onChanged: (v) {
+            if (v != null) onChanged(v);
+          },
+          items: languages
+              .map((l) => DropdownMenuItem(
+                    value: l,
+                    child: Text(
+                      langDisplayName(l, l10n),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ))
+              .toList(),
+        ),
+      ],
     );
   }
 }
@@ -634,7 +693,7 @@ class _DownloadProgress extends StatelessWidget {
         LinearProgressIndicator(value: progress),
         const SizedBox(height: 6),
         Text(
-          'Stahuji... ${(progress * 100).round()}%',
+          AppLocalizations.of(context).downloading((progress * 100).round()),
           style: Theme.of(context).textTheme.bodySmall,
           textAlign: TextAlign.center,
         ),
@@ -670,18 +729,20 @@ class _ActionButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    final price = this.price; // local copy so the null check promotes
     if (isActivated && isAvailableLocally) {
       return FilledButton.icon(
         onPressed: onOpen,
         icon: const Icon(Icons.play_arrow_rounded),
-        label: const Text('Studovat'),
+        label: Text(l10n.study),
       );
     }
     if (isActivated && !isAvailableLocally) {
       return FilledButton.icon(
         onPressed: onDownload,
         icon: const Icon(Icons.download_rounded),
-        label: const Text('Stáhnout'),
+        label: Text(l10n.download),
       );
     }
     if (isOwned) {
@@ -689,7 +750,7 @@ class _ActionButton extends StatelessWidget {
       return FilledButton.icon(
         onPressed: onAdd,
         icon: const Icon(Icons.add_rounded),
-        label: Text(isFree ? 'Přidat zdarma' : 'Přidat'),
+        label: Text(isFree ? l10n.addFree : l10n.add),
       );
     }
     return FilledButton.tonal(
@@ -702,7 +763,7 @@ class _ActionButton extends StatelessWidget {
             )
           // Without store metadata there is no honest price to show, so the
           // button says what it does and lets the store sheet name the amount.
-          : Text(price == null ? 'Koupit' : 'Koupit za $price'),
+          : Text(price == null ? l10n.buy : l10n.buyFor(price)),
     );
   }
 }
@@ -722,18 +783,24 @@ class _ConfirmRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Icon(icon, size: 20, color: Colors.grey.shade700),
         const SizedBox(width: 10),
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(label,
-                style: TextStyle(fontSize: 11, color: Colors.grey.shade500)),
-            Text(value,
-                style: const TextStyle(
-                    fontSize: 15, fontWeight: FontWeight.w600)),
-          ],
+        // Expanded so a long value ("Indonesian → Vietnamese" with flags)
+        // wraps inside the dialog instead of overflowing it.
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(label,
+                  style: TextStyle(fontSize: 11, color: Colors.grey.shade500)),
+              Text(value,
+                  softWrap: true,
+                  style: const TextStyle(
+                      fontSize: 15, fontWeight: FontWeight.w600)),
+            ],
+          ),
         ),
       ],
     );
