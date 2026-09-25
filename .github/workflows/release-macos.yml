@@ -34,7 +34,15 @@ jobs:
       - name: Package as ZIP
         run: |
           cd "./build/macos/Build/Products/Release"
-          zip -r "$OLDPWD/DuolingoCards-${{ github.ref_name }}-macOS.zip" "duolingo_cards.app"
+          # Bundle name comes from PRODUCT_NAME (Lexify), not the pubspec name —
+          # hardcoding duolingo_cards.app made zip exit 12 with "Nothing to do!"
+          # and v2.2.4 shipped without a macOS asset. Take whatever was built.
+          app="$(ls -d *.app 2>/dev/null | head -1)"
+          if [ -z "$app" ]; then
+            echo "::error::no .app bundle in $(pwd)"; ls -la; exit 1
+          fi
+          echo "Packaging $app"
+          zip -r "$OLDPWD/DuolingoCards-${{ github.ref_name }}-macOS.zip" "$app"
 
       - name: Upload to GitHub Release
         uses: softprops/action-gh-release@v3
