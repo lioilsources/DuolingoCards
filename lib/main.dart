@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'l10n/app_localizations.dart';
 import 'screens/home_screen.dart';
+import 'theme/app_theme.dart';
 
 void main() {
   runApp(const LexifyApp());
@@ -26,10 +27,7 @@ class LexifyApp extends StatelessWidget {
       // mixing Czech and English on the same screen (guideline 4).
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: supportedLocales,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        useMaterial3: true,
-      ),
+      theme: AppTheme.light(),
       home: const HomeScreen(),
     );
   }

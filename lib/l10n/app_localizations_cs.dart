@@ -308,6 +308,12 @@ class AppLocalizationsCs extends AppLocalizations {
   String get styleWatercolorDesc => 'Rozpité lazury, prosvítající papír';
 
   @override
+  String get styleFlag => 'Vlajky';
+
+  @override
+  String get styleFlagDesc => 'Skutečné státní vlajky';
+
+  @override
   String get stylePonyCartoon => 'Kreslený';
 
   @override

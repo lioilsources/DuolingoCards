@@ -1,5 +1,7 @@
 import 'package:flutter/widgets.dart';
 
+import '../theme/app_theme.dart';
+
 /// Text-direction helpers for all target languages.
 ///
 /// Card text is rendered in whatever language is on that side, so direction is
@@ -65,7 +67,12 @@ class DirectionalText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Directionality(
       textDirection: LocaleDirection.directionFor(lang),
-      child: Text(text, style: style, textAlign: textAlign),
+      // Card content is the one text the theme cannot pick a face for.
+      child: Text(
+        text,
+        style: AppTheme.forContent(context, style, text),
+        textAlign: textAlign,
+      ),
     );
   }
 }

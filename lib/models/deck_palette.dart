@@ -51,6 +51,10 @@ class DeckPalette {
       background: Color(0xFFE6F4EC), // pastel mint
       accent: Color(0xFF97CDAF),
     ),
+    'geo': DeckPalette(
+      background: Color(0xFFEDF3E1), // pastel olive
+      accent: Color(0xFFB4C98C),
+    ),
     'weather': DeckPalette(
       background: Color(0xFFE4F2F5), // pastel cyan
       accent: Color(0xFF92C4CF),

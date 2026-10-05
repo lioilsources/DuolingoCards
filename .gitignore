@@ -59,3 +59,6 @@ decks/*/images/
 # Store binaries pulled down for manual upload (60 MB each, always
 # re-downloadable from the GitHub Release they came from).
 store/play_upload/
+
+# Local path overrides for sibling packages (CuteKidFonts)
+pubspec_overrides.yaml

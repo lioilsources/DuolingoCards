@@ -560,6 +560,18 @@ abstract class AppLocalizations {
   /// **'Blooming washes, paper showing through'**
   String get styleWatercolorDesc;
 
+  /// No description provided for @styleFlag.
+  ///
+  /// In en, this message translates to:
+  /// **'Flags'**
+  String get styleFlag;
+
+  /// No description provided for @styleFlagDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'The real national flags'**
+  String get styleFlagDesc;
+
   /// No description provided for @stylePonyCartoon.
   ///
   /// In en, this message translates to:

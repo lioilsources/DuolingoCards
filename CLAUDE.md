@@ -287,6 +287,37 @@ Steps: create package in `internal/`, implement the interface, add case to switc
 | geography | OpenStreetMap Overpass API | None |
 | pokemon | PokéAPI (pokeapi.co) | None |
 
+### Typography
+
+**No widget names a font family.** Every text style comes from the shared
+`cute_kid_fonts` package through `AppTheme.light()` (`lib/theme/app_theme.dart`):
+titles in DynaPuff, body and labels in Baloo 2. A bare `TextStyle(fontSize: 18)`
+inherits the face, so do not add `fontFamily` anywhere else.
+
+- The theme must not carry a `wght` font variation: a variation outranks
+  `fontWeight` and is inherited, so it turns every `FontWeight.bold` in the app
+  regular. `KidTextTheme.apply` stopped setting one in cute_kid_fonts 0.2.1;
+  `test/app_theme_test.dart` guards it.
+- Card content goes through `DirectionalText`, which calls
+  `AppTheme.forContent` to draw each string in **one** face: DynaPuff lacks
+  Vietnamese and Cyrillic, so those move wholesale to Baloo 2 / Nunito, and
+  scripts no kid face covers (Greek, Hebrew, Arabic, CJK) use the platform font
+  rather than mixing in the odd stray glyph.
+- The package is a git dependency pinned to a tag. To work against the sibling
+  checkout, put a `dependency_overrides` path entry in `pubspec_overrides.yaml`
+  (git-ignored) — and never commit a `pubspec.lock` that says `source: path`.
+
+### Generated decks (`geo-flags`)
+
+`geo-flags` (50 most populous countries: flag → country, capital, populations)
+is the one deck not authored by hand or drawn by ComfyUI.
+`python3 tools/gen_flags_deck.py` writes its `deck.yaml`, all `i18n/*.yaml` and
+the flag PNGs: country names from Unicode CLDR, capital names from Wikidata
+labels, flags from Wikimedia Commons, populations from a curated table in the
+script (Wikidata's capital populations mix city, district and metro figures).
+Its only style is `flag`. Edit the script, not the generated files, then
+`make ship DECK=geo-flags`.
+
 ### UI strings (localization)
 
 **No user-visible string is hardcoded in a widget.** App Review rejected 2.2.2

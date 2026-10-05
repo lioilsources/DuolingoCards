@@ -304,6 +304,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get styleWatercolorDesc => 'Blooming washes, paper showing through';
 
   @override
+  String get styleFlag => 'Flags';
+
+  @override
+  String get styleFlagDesc => 'The real national flags';
+
+  @override
   String get stylePonyCartoon => 'Cartoon';
 
   @override
