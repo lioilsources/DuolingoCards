@@ -151,6 +151,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _reorder(int oldIndex, int newIndex) {
     setState(() {
+      // onReorder reports the index before the dragged tile is removed.
+      if (newIndex > oldIndex) newIndex--;
       final tile = _langTiles.removeAt(oldIndex);
       _langTiles.insert(newIndex, tile);
     });
@@ -238,7 +240,10 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
         buildDefaultDragHandles: false,
         itemCount: _langTiles.length,
-        onReorderItem: _reorder,
+        // onReorderItem replaces this from Flutter 3.44, but CI and the
+        // desktop releases are pinned to 3.41, which only has onReorder.
+        // ignore: deprecated_member_use
+        onReorder: _reorder,
         onReorderStart: (_) => HapticFeedback.mediumImpact(),
         proxyDecorator: (child, index, animation) => AnimatedBuilder(
           animation: animation,
