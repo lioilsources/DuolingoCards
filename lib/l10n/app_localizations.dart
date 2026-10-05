@@ -116,6 +116,12 @@ abstract class AppLocalizations {
   /// **'No decks yet'**
   String get homeEmptyTitle;
 
+  /// No description provided for @homeReorderHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Long-press a deck and drag it to reorder'**
+  String get homeReorderHint;
+
   /// No description provided for @homeBrowseStore.
   ///
   /// In en, this message translates to:

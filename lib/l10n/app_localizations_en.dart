@@ -18,6 +18,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get homeEmptyTitle => 'No decks yet';
 
   @override
+  String get homeReorderHint => 'Long-press a deck and drag it to reorder';
+
+  @override
   String get homeBrowseStore => 'Browse the Deck Store';
 
   @override

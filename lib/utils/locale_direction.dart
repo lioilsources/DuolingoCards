@@ -54,6 +54,8 @@ class DirectionalText extends StatelessWidget {
   final String lang;
   final TextStyle? style;
   final TextAlign? textAlign;
+  final int? maxLines;
+  final TextOverflow? overflow;
 
   const DirectionalText(
     this.text, {
@@ -61,6 +63,8 @@ class DirectionalText extends StatelessWidget {
     required this.lang,
     this.style,
     this.textAlign,
+    this.maxLines,
+    this.overflow,
   });
 
   @override
@@ -72,6 +76,8 @@ class DirectionalText extends StatelessWidget {
         text,
         style: AppTheme.forContent(context, style, text),
         textAlign: textAlign,
+        maxLines: maxLines,
+        overflow: overflow,
       ),
     );
   }

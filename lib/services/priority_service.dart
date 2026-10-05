@@ -57,6 +57,37 @@ class PriorityService {
     return cards.first;
   }
 
+  /// The [count] cards the learner knows least: highest priority first, then
+  /// the ones seen longest ago (never seen counts as oldest).
+  ///
+  /// Ties — every card of a fresh deck sits at priority 5, never seen — are
+  /// broken by a shuffle seeded with [seed], so the home cover shows a stable
+  /// trio that the caller can rotate (e.g. per day) instead of always the
+  /// deck's first three cards.
+  static List<T> leastKnown<T extends PrioritizableCard>(
+    List<T> cards,
+    int count, {
+    int seed = 0,
+  }) {
+    final order = List<T>.of(cards)..shuffle(Random(seed));
+    final tieBreak = {
+      for (var i = 0; i < order.length; i++) order[i].priorityId: i,
+    };
+    order.sort((a, b) {
+      final byPriority = b.priority.compareTo(a.priority);
+      if (byPriority != 0) return byPriority;
+      final aSeen = a.lastSeen, bSeen = b.lastSeen;
+      if (aSeen != bSeen) {
+        if (aSeen == null) return -1;
+        if (bSeen == null) return 1;
+        final bySeen = aSeen.compareTo(bSeen);
+        if (bySeen != 0) return bySeen;
+      }
+      return tieBreak[a.priorityId]!.compareTo(tieBreak[b.priorityId]!);
+    });
+    return order.take(count).toList();
+  }
+
   /// Returns knowledge stats: (known, learning, unknown) counts.
   /// Known: priority 1-2, Learning: 3-7, Unknown: 8-10
   PriorityStats getStats<T extends PrioritizableCard>(List<T> cards) {

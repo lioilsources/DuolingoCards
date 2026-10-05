@@ -18,6 +18,9 @@ class AppLocalizationsCs extends AppLocalizations {
   String get homeEmptyTitle => 'Zatím žádné balíčky';
 
   @override
+  String get homeReorderHint => 'Podrž balíček a přetáhni ho jinam';
+
+  @override
   String get homeBrowseStore => 'Otevřít obchod';
 
   @override
