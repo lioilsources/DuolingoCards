@@ -115,17 +115,10 @@ class DeckCoverTile extends StatelessWidget {
                   _StyleTag(style: style),
                 ],
               ),
-              const SizedBox(height: 12),
-              Row(
-                children: [
-                  if (stats != null)
-                    Expanded(child: _KnowledgeProgressBar(stats: stats!))
-                  else
-                    const Spacer(),
-                  const SizedBox(width: 12),
-                  _PlayButton(color: palette.accent),
-                ],
-              ),
+              if (stats != null) ...[
+                const SizedBox(height: 12),
+                _KnowledgeProgressBar(stats: stats!),
+              ],
             ],
           ),
         ),
@@ -314,32 +307,6 @@ class _Badge extends StatelessWidget {
         style: TextStyle(
           fontSize: 12,
           color: isFree ? Colors.green.shade800 : Colors.blue.shade800,
-        ),
-      ),
-    );
-  }
-}
-
-class _PlayButton extends StatelessWidget {
-  const _PlayButton({required this.color});
-  final Color color;
-
-  @override
-  Widget build(BuildContext context) {
-    // Decorative: the whole tile is the tap target.
-    return ExcludeSemantics(
-      child: Container(
-        width: 44,
-        height: 44,
-        decoration: BoxDecoration(
-          color: Colors.white,
-          shape: BoxShape.circle,
-          border: Border.all(color: color, width: 2),
-        ),
-        child: Icon(
-          Icons.play_arrow_rounded,
-          size: 28,
-          color: Colors.grey.shade800,
         ),
       ),
     );
