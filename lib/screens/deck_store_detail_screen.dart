@@ -126,7 +126,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
   bool get _ownsDeck => _ent.ownsDeck(_deck.slug, tier: _deck.tier);
   bool get _isFree => _ent.isFree(_deck.slug, tier: _deck.tier);
 
-  List<LanguageCard> get _previewCards => _deck.cards.take(3).toList();
+  List<LanguageCard> get _previewCards => _deck.previewCards;
 
   /// Confirm the (language pair, style) selection. [buying] switches the copy:
   /// a purchase unlocks the whole deck, an add only places one combination.

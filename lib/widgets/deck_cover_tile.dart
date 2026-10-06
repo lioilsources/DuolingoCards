@@ -9,6 +9,7 @@ import '../l10n/app_localizations.dart';
 import '../models/card_style.dart';
 import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
+import '../models/store_cover.dart';
 import '../services/priority_service.dart';
 import '../utils/language_names.dart';
 import '../utils/locale_direction.dart';
@@ -74,11 +75,10 @@ class DeckCoverTile extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              _CoverStrip(
-                cards: coverCards,
+              DeckCoverStrip(
+                thumbs: [for (final c in coverCards) (card: c, style: style)],
                 slug: deck.slug,
-                style: style,
-                l2: l2,
+                lang: l2,
                 docsDir: docsDir,
                 palette: palette,
               ),
@@ -130,22 +130,29 @@ class DeckCoverTile extends StatelessWidget {
 /// Three thumbnails side by side, the outer two tilted outwards a little and
 /// the middle one lifted — the in-app-review fan opened up so every picture
 /// stays fully visible.
-class _CoverStrip extends StatelessWidget {
-  const _CoverStrip({
-    required this.cards,
+///
+/// Home draws all three in the style the deck was unlocked with; the store
+/// mixes styles (see `storeCover`) and sets [showStyle] so the same card
+/// appearing twice reads as "two looks", not as a glitch.
+class DeckCoverStrip extends StatelessWidget {
+  const DeckCoverStrip({
+    super.key,
+    required this.thumbs,
     required this.slug,
-    required this.style,
-    required this.l2,
-    required this.docsDir,
+    required this.lang,
     required this.palette,
+    this.docsDir,
+    this.showStyle = false,
   });
 
-  final List<LanguageCard> cards;
+  final List<CoverThumb> thumbs;
   final String slug;
-  final String style;
-  final String l2;
+
+  /// Language of the word under each picture.
+  final String lang;
   final String? docsDir;
   final DeckPalette palette;
+  final bool showStyle;
 
   static const _gap = 12.0;
   static const _tilt = [-4.0, 0.0, 4.0]; // degrees
@@ -163,21 +170,22 @@ class _CoverStrip extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              for (var i = 0; i < cards.length && i < 3; i++) ...[
+              for (var i = 0; i < thumbs.length && i < 3; i++) ...[
                 if (i > 0) const SizedBox(width: _gap),
                 Transform.translate(
                   offset: Offset(0, _lift[i]),
                   child: Transform.rotate(
                     angle: _tilt[i] * math.pi / 180,
                     child: _Thumb(
-                      card: cards[i],
+                      card: thumbs[i].card,
                       width: thumb,
                       cacheWidth: (thumb * dpr).round(),
                       slug: slug,
-                      style: style,
-                      l2: l2,
+                      style: thumbs[i].style,
+                      l2: lang,
                       docsDir: docsDir,
                       palette: palette,
+                      showStyle: showStyle,
                     ),
                   ),
                 ),
@@ -200,6 +208,7 @@ class _Thumb extends StatelessWidget {
     required this.l2,
     required this.docsDir,
     required this.palette,
+    required this.showStyle,
   });
 
   final LanguageCard card;
@@ -210,6 +219,7 @@ class _Thumb extends StatelessWidget {
   final String l2;
   final String? docsDir;
   final DeckPalette palette;
+  final bool showStyle;
 
   @override
   Widget build(BuildContext context) {
@@ -235,7 +245,24 @@ class _Thumb extends StatelessWidget {
             borderRadius: BorderRadius.circular(10),
             child: AspectRatio(
               aspectRatio: 1,
-              child: ColoredBox(color: palette.background, child: _image()),
+              child: ColoredBox(
+                color: palette.background,
+                child: showStyle
+                    ? Stack(
+                        fit: StackFit.expand,
+                        children: [
+                          _image(),
+                          Align(
+                            alignment: AlignmentDirectional.topStart,
+                            child: Padding(
+                              padding: const EdgeInsets.all(4),
+                              child: _StyleTag(style: style, compact: true),
+                            ),
+                          ),
+                        ],
+                      )
+                    : _image(),
+              ),
             ),
           ),
           if (word != null)
@@ -319,25 +346,37 @@ class _Badge extends StatelessWidget {
 /// home differing only by look — the tag is what tells them apart.
 class _StyleTag extends StatelessWidget {
   final String style;
-  const _StyleTag({required this.style});
+
+  /// Smaller and more opaque, for sitting on top of a picture.
+  final bool compact;
+  const _StyleTag({required this.style, this.compact = false});
 
   @override
   Widget build(BuildContext context) {
     final meta = CardStyle.of(style);
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+      padding: compact
+          ? const EdgeInsets.symmetric(horizontal: 6, vertical: 2)
+          : const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
       decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.7),
+        color: Colors.white.withValues(alpha: compact ? 0.88 : 0.7),
         borderRadius: BorderRadius.circular(10),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(meta.icon, size: 13, color: Colors.grey.shade700),
+          Icon(meta.icon, size: compact ? 11 : 13, color: Colors.grey.shade700),
           const SizedBox(width: 4),
-          Text(
-            meta.label(AppLocalizations.of(context)),
-            style: TextStyle(fontSize: 12, color: Colors.grey.shade700),
+          Flexible(
+            child: Text(
+              meta.label(AppLocalizations.of(context)),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                fontSize: compact ? 10.5 : 12,
+                color: Colors.grey.shade700,
+              ),
+            ),
           ),
         ],
       ),

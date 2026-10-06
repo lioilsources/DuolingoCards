@@ -54,6 +54,22 @@ class LanguageDeck {
     return offerable.isNotEmpty ? offerable.first : '';
   }
 
+  /// Leading cards whose pictures ship in the binary for every bundled style
+  /// (`content publish -preview-cards`), so the store can show them offline.
+  static const int previewCardCount = 3;
+
+  List<LanguageCard> get previewCards =>
+      cards.take(previewCardCount).toList(growable: false);
+
+  /// Styles with a bundled preview; falls back to [offerableStyles] (the CDN
+  /// then supplies the pictures) when the build bundles none.
+  List<String> get previewStyles {
+    final bundled = offerableStyles
+        .where((s) => styleAvailability[s]?.bundled ?? false)
+        .toList(growable: false);
+    return bundled.isNotEmpty ? bundled : offerableStyles;
+  }
+
   /// Deck title in [lang], falling back to English then the first available.
   String title(String lang) {
     return titles[lang] ??

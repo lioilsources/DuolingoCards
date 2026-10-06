@@ -1,12 +1,16 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 import '../l10n/app_localizations.dart';
 import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
 import '../models/search_index.dart';
+import '../models/store_cover.dart';
 import '../services/entitlement_service.dart';
 import '../services/language_deck_service.dart';
 import '../services/search_service.dart';
+import '../widgets/deck_cover_tile.dart';
 import 'deck_store_detail_screen.dart';
 
 /// Deck store: searchable list of all bundled decks.
@@ -27,6 +31,11 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
   final TextEditingController _searchCtrl = TextEditingController();
 
   List<LanguageDeck> _allDecks = [];
+
+  /// Cover per deck slug, drawn once per visit (and per pull-to-refresh) so
+  /// the store looks different each time without reshuffling under the
+  /// learner's finger on every rebuild.
+  Map<String, List<CoverThumb>> _covers = {};
   SearchIndex? _index;
   List<DeckSearchEntry> _results = [];
   bool _isLoading = true;
@@ -71,13 +80,18 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
           .where((d) => d.offerableStyles.isNotEmpty)
           .toList();
       final index = await _searchService.buildIndex(decks);
+      final rng = Random();
+      final covers = {for (final d in decks) d.slug: storeCover(d, rng)};
+      if (!mounted) return;
       setState(() {
         _allDecks = decks;
+        _covers = covers;
         _index = index;
         _results = index.search(_searchCtrl.text);
         _isLoading = false;
       });
     } catch (e) {
+      if (!mounted) return;
       setState(() {
         _error = e.toString();
         _isLoading = false;
@@ -100,8 +114,13 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     return Scaffold(
+      backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
         title: Text(l10n.storeTitle),
+        centerTitle: true,
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        foregroundColor: Colors.black87,
         actions: [
           // Apple requires a way to restore non-consumables, and a bare clock
           // glyph did not say what it restored. Refresh lived next to it and
@@ -135,6 +154,7 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
                   borderSide: BorderSide.none,
                 ),
                 filled: true,
+                fillColor: Colors.white,
                 isDense: true,
               ),
             ),
@@ -172,7 +192,7 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
     return RefreshIndicator(
       onRefresh: _init,
       child: ListView.builder(
-        padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+        padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
         itemCount: _results.length,
         itemBuilder: (context, i) {
           final entry = _results[i];
@@ -182,6 +202,7 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
           );
           return _DeckTile(
             deck: deck,
+            cover: _covers[deck.slug] ?? const [],
             isFree: _entitlements.isFree(deck.slug, tier: deck.tier),
             isOwned: _entitlements.ownsDeck(deck.slug, tier: deck.tier),
             price: _entitlements.priceForDeck(deck.slug),
@@ -195,6 +216,7 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
 
 class _DeckTile extends StatelessWidget {
   final LanguageDeck deck;
+  final List<CoverThumb> cover;
   final bool isFree;
   final bool isOwned;
   final String? price;
@@ -202,6 +224,7 @@ class _DeckTile extends StatelessWidget {
 
   const _DeckTile({
     required this.deck,
+    required this.cover,
     required this.isFree,
     required this.isOwned,
     required this.price,
@@ -211,38 +234,72 @@ class _DeckTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
+    final theme = Theme.of(context);
+    final palette = DeckPalette.of(deck.slug);
+    // The store has no language pair yet, so the words under the pictures are
+    // chrome like the title: UI language, never a second one on the screen.
+    final uiLang = Localizations.localeOf(context).languageCode;
     return Card(
-      margin: const EdgeInsets.only(bottom: 10),
-      color: DeckPalette.of(deck.slug).background,
-      child: ListTile(
+      margin: const EdgeInsets.only(bottom: 16),
+      color: palette.background,
+      elevation: 1.5,
+      clipBehavior: Clip.antiAlias,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(22),
+        side: BorderSide(color: palette.accent.withValues(alpha: 0.5)),
+      ),
+      child: InkWell(
         onTap: onTap,
-        title: Text(
-          deck.title(Localizations.localeOf(context).languageCode),
-          style: const TextStyle(fontWeight: FontWeight.w600),
-        ),
-        subtitle: Text(
-          l10n.tileCardsAndLanguages(
-            deck.cards.length,
-            deck.availableLanguages.length,
-          ),
-        ),
-        trailing: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            if (isFree)
-              _Badge(label: l10n.badgeFree, color: Colors.green.shade600)
-            else if (isOwned)
-              _Badge(label: l10n.badgePurchased, color: Colors.green.shade600)
-            else
-              // Falls back to a neutral label while store metadata loads, or
-              // when the device cannot reach the store at all.
-              _Badge(
-                label: price ?? l10n.buy,
-                color: Theme.of(context).colorScheme.primary,
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(16, 20, 16, 16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              if (cover.isNotEmpty) ...[
+                DeckCoverStrip(
+                  thumbs: cover,
+                  slug: deck.slug,
+                  lang: uiLang,
+                  palette: palette,
+                  showStyle: true,
+                ),
+                const SizedBox(height: 18),
+              ],
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Expanded(
+                    child: Text(
+                      deck.title(uiLang),
+                      style: theme.textTheme.titleLarge?.copyWith(
+                        fontSize: 22,
+                        height: 1.15,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  if (isFree)
+                    _Badge(label: l10n.badgeFree, color: Colors.green)
+                  else if (isOwned)
+                    _Badge(label: l10n.badgePurchased, color: Colors.green)
+                  else
+                    // Falls back to a neutral label while store metadata
+                    // loads, or when the device cannot reach the store at all.
+                    _Badge(label: price ?? l10n.buy, color: Colors.blue),
+                ],
               ),
-            const SizedBox(width: 4),
-            const Icon(Icons.chevron_right),
-          ],
+              const SizedBox(height: 6),
+              Text(
+                l10n.tileCardsAndLanguages(
+                  deck.cards.length,
+                  deck.availableLanguages.length,
+                ),
+                style: theme.textTheme.bodyMedium?.copyWith(
+                  color: Colors.grey.shade700,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
@@ -251,26 +308,21 @@ class _DeckTile extends StatelessWidget {
 
 class _Badge extends StatelessWidget {
   final String label;
-  final Color color;
+  final MaterialColor color;
 
   const _Badge({required this.label, required this.color});
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
       decoration: BoxDecoration(
-        color: color.withValues(alpha: 0.12),
-        borderRadius: BorderRadius.circular(10),
-        border: Border.all(color: color.withValues(alpha: 0.4)),
+        color: color.shade100,
+        borderRadius: BorderRadius.circular(12),
       ),
       child: Text(
         label,
-        style: TextStyle(
-          fontSize: 11,
-          fontWeight: FontWeight.w600,
-          color: color,
-        ),
+        style: TextStyle(fontSize: 12, color: color.shade800),
       ),
     );
   }
