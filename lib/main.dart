@@ -8,7 +8,11 @@ void main() {
 }
 
 class LexifyApp extends StatelessWidget {
-  const LexifyApp({super.key});
+  const LexifyApp({super.key, this.theme});
+
+  /// Replaces [AppTheme.light]. Only the screenshot harness passes one (see
+  /// `test_driver/site_app.dart`).
+  final ThemeData? theme;
 
   /// UI languages, English first. Flutter's default resolution hands a device
   /// language we do not ship (German, say) the *first* entry of this list, and
@@ -27,7 +31,7 @@ class LexifyApp extends StatelessWidget {
       // mixing Czech and English on the same screen (guideline 4).
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: supportedLocales,
-      theme: AppTheme.light(),
+      theme: theme ?? AppTheme.light(),
       home: const HomeScreen(),
     );
   }

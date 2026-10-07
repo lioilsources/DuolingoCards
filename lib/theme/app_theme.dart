@@ -1,5 +1,6 @@
 import 'package:cute_kid_fonts/cute_kid_fonts.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show SystemUiOverlayStyle;
 
 /// The app's one theme, and the one place that knows about typefaces.
 ///
@@ -13,6 +14,12 @@ abstract final class AppTheme {
       useMaterial3: true,
     );
     return base.copyWith(
+      // The theme is light and so is every bar, but several screens make
+      // theirs transparent, which the framework reads as dark — and paints the
+      // clock and battery white on a pale background.
+      appBarTheme: base.appBarTheme.copyWith(
+        systemOverlayStyle: SystemUiOverlayStyle.dark,
+      ),
       textTheme: KidTextTheme.apply(base.textTheme),
       primaryTextTheme: KidTextTheme.apply(base.primaryTextTheme),
     );

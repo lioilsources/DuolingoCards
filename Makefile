@@ -264,3 +264,24 @@ screenshots:
 	  --driver=test_driver/integration_test.dart \
 	  --target=integration_test/l10n_screenshots_test.dart \
 	  -d "$(SIM)"
+
+# The phone screenshots on the app's olin.now page (and the source for
+# tools/appstore_shots.py): home, shop, language picker, style picker, a card
+# and a swipe, in Czech. The real app is driven from the host (flutter_driver)
+# and captured by simctl, so fonts, emoji and the status bar are a phone's.
+SITE_SHOTS ?= ../ol1n.now/apps/lexify/screenshots/raw/mobile/ios
+SITE_SIM   ?= iPhone 17 Pro
+
+.PHONY: site-screenshots
+site-screenshots:
+	xcrun simctl status_bar "$(SITE_SIM)" override --time 9:41 \
+	  --batteryState charged --batteryLevel 100 --cellularBars 4 --wifiBars 3
+	xcrun simctl spawn "$(SITE_SIM)" defaults write -g AppleLanguages -array cs
+	xcrun simctl spawn "$(SITE_SIM)" defaults write -g AppleLocale cs_CZ
+	SHOTS_DIR="$(SITE_SHOTS)" SHOTS_DEVICE="$(SITE_SIM)" flutter drive \
+	  --driver=test_driver/site_app_test.dart \
+	  --target=test_driver/site_app.dart \
+	  -d "$(SITE_SIM)"; rc=$$?; \
+	xcrun simctl spawn "$(SITE_SIM)" defaults delete -g AppleLanguages; \
+	xcrun simctl spawn "$(SITE_SIM)" defaults delete -g AppleLocale; \
+	xcrun simctl status_bar "$(SITE_SIM)" clear; exit $$rc

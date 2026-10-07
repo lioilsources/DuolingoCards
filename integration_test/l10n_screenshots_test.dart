@@ -6,6 +6,7 @@ import 'package:duolingo_cards/l10n/app_localizations.dart';
 import 'package:duolingo_cards/main.dart';
 import 'package:duolingo_cards/services/deck_download_service.dart';
 import 'package:duolingo_cards/services/entitlement_service.dart';
+import 'package:duolingo_cards/widgets/deck_cover_tile.dart';
 
 /// On-device screenshots of every screen that carries UI chrome, once per UI
 /// language, so a build can be eyeballed for mixed languages before it goes to
@@ -60,7 +61,7 @@ void main() {
       await settle(tester);
       await binding.takeScreenshot('${tag}_2_store');
 
-      await tester.tap(find.byType(ListTile).first);
+      await tester.tap(find.byType(DeckCoverStrip).first);
       await settle(tester);
       await binding.takeScreenshot('${tag}_3_detail');
 

@@ -77,6 +77,9 @@ dev_dependencies:
   # (integration_test/l10n_screenshots_test.dart, `make screenshots`).
   integration_test:
     sdk: flutter
+  # Host-driven screenshots of the real app (`make site-screenshots`).
+  flutter_driver:
+    sdk: flutter
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
