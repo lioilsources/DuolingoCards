@@ -19,6 +19,7 @@ flutter pub get                      # Dependencies (also regenerates lib/l10n)
 flutter gen-l10n                     # UI strings: lib/l10n/app_*.arb → app_localizations*.dart
 make screenshots                     # Every screen in every UI language on a booted iOS simulator → build/screenshots/
 make site-screenshots                # The six phone shots for the olin.now page → ../ol1n.now/apps/lexify/screenshots/raw/mobile/ios/
+make site-screenshots-macos          # Same walk on the Mac build (window capture; Mac awake, terminal needs Accessibility + Screen Recording) → build/site_screenshots_macos/
 ```
 
 ### Quiz Generator (Go CLI)

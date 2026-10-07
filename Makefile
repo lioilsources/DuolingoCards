@@ -285,3 +285,18 @@ site-screenshots:
 	xcrun simctl spawn "$(SITE_SIM)" defaults delete -g AppleLanguages; \
 	xcrun simctl spawn "$(SITE_SIM)" defaults delete -g AppleLocale; \
 	xcrun simctl status_bar "$(SITE_SIM)" clear; exit $$rc
+
+# The same walk on the Mac build, for the page's desktop gallery. Sizing and
+# capturing the window needs Accessibility and Screen Recording for the
+# terminal, and the Mac awake and unlocked.
+SITE_SHOTS_MAC ?= build/site_screenshots_macos
+MAC_BUNDLE     ?= com.example.duolingoCards
+
+.PHONY: site-screenshots-macos
+site-screenshots-macos:
+	defaults write $(MAC_BUNDLE) AppleLanguages -array cs
+	SHOTS_DIR="$(SITE_SHOTS_MAC)" SHOTS_MODE=desktop flutter drive \
+	  --driver=test_driver/site_app_test.dart \
+	  --target=test_driver/site_app.dart \
+	  -d macos; rc=$$?; \
+	defaults delete $(MAC_BUNDLE) AppleLanguages; exit $$rc
