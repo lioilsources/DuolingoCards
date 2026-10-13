@@ -105,6 +105,13 @@ Future<void> main() async {
     await driver.requestData('drag');
     await shot('card_like');
     await driver.requestData('release');
+
+    // The free flags deck: a flag and the country it belongs to.
+    await driver.tap(back);
+    await driver.scrollIntoView(find.text(t('flags')));
+    await driver.tap(find.text(t('flags')));
+    await driver.waitFor(find.byType('LanguageDeckStudyScreen'));
+    await shot('flags');
   } finally {
     await driver.close();
   }

@@ -20,10 +20,12 @@ import 'package:duolingo_cards/utils/language_names.dart';
 /// extension on and a learner's home screen already set up.
 ///
 /// Home shows three free decks, each in a different language pair and look.
+/// The learner's own language is the device's, so a Czech run teaches from
+/// Czech and an English one (the App Store listing) from English.
 const _home = [
-  ('numbers-1-10', 'cs', 'es', 'ink'),
-  ('geo-flags', 'cs', 'de', 'flag'),
-  ('animals-pets', 'cs', 'en', 'photo'),
+  ('numbers-1-10', 'es', 'ink'),
+  ('geo-flags', 'de', 'flag'),
+  ('animals-pets', 'en', 'photo'),
 ];
 
 const _pointer = 4242;
@@ -44,6 +46,7 @@ Future<String> _handle(String? message) async {
         'watercolor': l10n.styleWatercolor,
         'pets': await title('animals-pets'),
         'weather': await title('weather'),
+        'flags': await title('geo-flags'),
         'l2': langDisplayName('ar', l10n),
         'l2pick': langDisplayName('ja', l10n),
       });
@@ -116,9 +119,11 @@ Future<void> main() async {
   final theme = await _themeWithLentEmoji();
   final ent = EntitlementService();
   await ent.initialize();
-  for (final (slug, l1, l2, style) in _home) {
+  final l1 = PlatformDispatcher.instance.locale.languageCode;
+  for (final (slug, l2, style) in _home) {
     await DeckDownloadService.instance.downloadDeck(slug, style);
-    await ent.activate(slug, l1, l2, style, tier: 0);
+    // Never a deck that teaches a language from itself.
+    await ent.activate(slug, l1, l2 == l1 ? 'fr' : l2, style, tier: 0);
   }
   runApp(LexifyApp(theme: theme));
 }
