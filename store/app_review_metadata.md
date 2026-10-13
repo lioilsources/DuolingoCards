@@ -30,10 +30,11 @@ the merge — no separate deploy step.
 Editable without a new build — use it for what changed most recently.
 
 ```
-Fourteen decks of 50 illustrated cards, in 17 languages. Swipe to sort what
-you know from what you don't — the cards you miss come back sooner.
+New and free: Flags of the World — 50 countries with capitals and populations.
+Fifteen decks of 50 picture cards in 17 languages; the words you miss come
+back sooner.
 ```
-[143]
+[166]
 
 ## Keywords (100, comma-separated, no spaces after commas)
 
@@ -91,7 +92,23 @@ card.
 ```
 [~1450]
 
-## What's New (4000) — for the resubmission after the guideline 4 rejection
+## What's New (4000) — 2.3.2
+
+Everything since 2.2.4, the last version that reached the store.
+
+```
+• New free deck: Flags of the World. Fifty countries — learn the flag, the
+  country, its capital and how many people live there.
+• A new home screen. Each deck now shows the three cards you know least, so
+  you can see at a glance what to practise. Tap a deck to start.
+• Put your decks in your own order: press and hold one, then drag it.
+• The Deck Store shows real cards from every deck, in each of its picture
+  styles.
+• Friendlier, rounder lettering throughout the app.
+• Fixed: the clock and battery icons were hard to see on some screens.
+```
+
+### Previous — 2.2.4 (the resubmission after the guideline 4 rejection)
 
 App Review rejected 2.2.2 because buttons and labels appeared in mixed
 languages (Czech and English on one screen). The UI is now fully localized.
