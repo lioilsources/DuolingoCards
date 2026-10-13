@@ -6,6 +6,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/services.dart' show FontLoader;
 import 'package:flutter/material.dart';
 import 'package:flutter_driver/driver_extension.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:duolingo_cards/l10n/app_localizations.dart';
 import 'package:duolingo_cards/main.dart';
@@ -26,6 +27,12 @@ const _home = [
   ('animals-pets', 'cs', 'en', 'photo'),
 ];
 
+/// The card the study shots show. The study screen draws at random, and the
+/// draw once landed on the deck's darkest picture.
+const _studyDeck = 'animals-pets';
+const _studyCard = 'pet.hamster';
+const _studyPrefs = 'card_priorities_$_studyDeck';
+
 const _pointer = 4242;
 Offset _dragAt = Offset.zero;
 
@@ -43,10 +50,27 @@ Future<String> _handle(String? message) async {
         'store': l10n.homeStoreTooltip,
         'watercolor': l10n.styleWatercolor,
         'pets': await title('animals-pets'),
+        'flags': await title('geo-flags'),
         'weather': await title('weather'),
         'l2': langDisplayName('ar', l10n),
         'l2pick': langDisplayName('ja', l10n),
       });
+    // Weight every other card of the study deck to zero, so the draw can only
+    // return [_studyCard]. Done after the home shot — the tile's progress bar
+    // reads the same numbers — and undone by 'unpin'.
+    case 'pin':
+      final deck = await LanguageDeckService.instance.load(_studyDeck);
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setString(
+          _studyPrefs,
+          jsonEncode({
+            for (final c in deck.cards)
+              c.priorityId: {'priority': c.priorityId == _studyCard ? 10 : 0},
+          }));
+      return 'ok';
+    case 'unpin':
+      await (await SharedPreferences.getInstance()).remove(_studyPrefs);
+      return 'ok';
     // Hold a card mid-swipe to the right, far enough for the heart to show.
     case 'drag':
       final size = view.physicalSize / view.devicePixelRatio;
