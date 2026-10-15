@@ -29,7 +29,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.ol1n.duolingoCards"
+        applicationId = "com.ab.duolingoCards"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
