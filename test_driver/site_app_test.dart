@@ -88,6 +88,11 @@ Future<void> main() async {
     await driver.tap(find.text(t('l2pick')));
     await driver.tap(back);
 
+    // The free flags deck as the store offers it.
+    await openFromStore(t('flags'));
+    await shot('flags_deck');
+    await driver.tap(back);
+
     // Style picker: a paid deck in its illustrated look.
     await openFromStore(t('weather'));
     await driver.tap(find.text(t('watercolor')));
@@ -99,6 +104,7 @@ Future<void> main() async {
     await driver.scrollUntilVisible(
         find.byType('ReorderableListView'), find.text(t('pets')),
         dyScroll: -250);
+    await driver.requestData('pin');
     await driver.tap(find.text(t('pets')));
     await driver.waitFor(find.byType('LanguageDeckStudyScreen'));
     await shot('card');
@@ -106,12 +112,12 @@ Future<void> main() async {
     await shot('card_like');
     await driver.requestData('release');
 
-    // The free flags deck: a flag and the country it belongs to.
+    // And a flag card in study.
     await driver.tap(back);
-    await driver.scrollIntoView(find.text(t('flags')));
+    await driver.requestData('unpin');
     await driver.tap(find.text(t('flags')));
     await driver.waitFor(find.byType('LanguageDeckStudyScreen'));
-    await shot('flags');
+    await shot('flags_card');
   } finally {
     await driver.close();
   }

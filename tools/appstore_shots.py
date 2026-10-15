@@ -5,7 +5,7 @@ Raw captures are the wrong size for the store and carry an alpha channel from
 the device's rounded corners — App Store Connect rejects both. This flattens
 them onto white and produces every size the app's device families require.
 
-    python3 tools/appstore_shots.py
+    python3 tools/appstore_shots.py [--src DIR] [--targets iphone-6.9,ipad-13]
 
 Input:  ../ol1n.now/apps/lexify/screenshots/raw/mobile/ios/*.png  (--src to change)
 Output: store/appstore_screenshots/<size>/NN_<name>.png
@@ -32,6 +32,9 @@ OUT_DIR = ROOT / "store" / "appstore_screenshots"
 # mandatory too because the Xcode target declares TARGETED_DEVICE_FAMILY "1,2".
 TARGETS = {
     "iphone-6.9": ((1290, 2796), "cover"),
+    # App Store Connect's "iPhone with Dynamic Island (medium display)" slot
+    # (6.1" / 6.3") takes 1206x2622 or 1179x2556 and nothing larger.
+    "iphone-6.3": ((1206, 2622), "cover"),
     "ipad-13": ((2064, 2752), "frame"),
     # Google Play caps phone screenshots at a 2:1 aspect; the raw captures are
     # 2.165:1, so they cannot be uploaded as-is and cannot be cover-cropped to
@@ -42,7 +45,8 @@ TARGETS = {
 
 # Display order in the listing — what the deck looks like before why it is
 # worth buying. Anything not listed is appended alphabetically.
-ORDER = ["home", "card", "card_like", "akvarel_style", "shop_languages"]
+ORDER = ["home", "shop", "flags_deck", "flags_card", "card", "card_like",
+         "akvarel_style", "shop_languages"]
 
 FRAME_BG = (243, 240, 248)  # pastel lavender, neutral against every deck hue
 
@@ -104,13 +108,22 @@ def main():
         i = argv.index("--src")
         src = pathlib.Path(argv[i + 1])
 
+    targets = dict(TARGETS)
+    if "--targets" in argv:
+        names = argv[argv.index("--targets") + 1].split(",")
+        targets = {n: TARGETS[n] for n in names}
+
     shots = sorted(src.glob("*.png"), key=sort_key)
     if not shots:
         raise SystemExit(f"no screenshots in {src}")
 
-    for name, (size, mode) in TARGETS.items():
+    for name, (size, mode) in targets.items():
         out = OUT_DIR / name
         out.mkdir(parents=True, exist_ok=True)
+        # The numbering shifts whenever a scene is added; drop the old set so
+        # no stale NN_<name>.png is left to be uploaded by mistake.
+        for old in out.glob("*.png"):
+            old.unlink()
         for i, path in enumerate(shots, start=1):
             im = flatten(Image.open(path))
             result = cover(im, size) if mode == "cover" else frame(im, size)
