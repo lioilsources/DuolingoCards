@@ -61,7 +61,7 @@ spells them, so they can be matched by eye while clicking through.
 The same product ID works on both stores. It is lowercase throughout, which is
 what lets one string satisfy Play's stricter rule as well as Apple's — Play
 rejects uppercase. Product IDs need not match the app's bundle ID
-(`com.ol1n.duolingoCards`), which keeps its capital C. Product type on Play is
+(`com.ol1n.duolingoCards`; on Android `com.ab.duolingoCards`), which keeps its capital C. Product type on Play is
 **one-time product**.
 
 ## Regenerating
