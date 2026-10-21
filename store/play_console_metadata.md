@@ -46,8 +46,8 @@ Obrázkové kartičky v 17 jazycích. Učení swipem, funguje offline.
 Lexify teaches vocabulary with picture flashcards you sort by swiping.
 
 Every flashcard pairs a word with an illustration, a short definition, and
-pronunciation from your device's own voice. Swipe up when you know a word,
-down when you don't — spaced repetition brings back the words you miss more
+pronunciation from your device's own voice. Swipe right when you know a word,
+left when you don't — spaced repetition brings back the words you miss more
 often and the ones you know less often, so your study time goes where it is
 actually needed.
 
@@ -58,15 +58,19 @@ Greek, Hebrew, Hindi, Indonesian, Japanese, Korean, Portuguese, Russian,
 Spanish, Turkish and Vietnamese. Add the same deck twice in different pairs at
 no extra cost.
 
-FOURTEEN VOCABULARY DECKS, FIFTY CARDS EACH
-Pets, basic colours and numbers are free. Birds, farm animals, insects,
+FIFTEEN VOCABULARY DECKS, FIFTY CARDS EACH
+Pets, basic colours, numbers and flags of the world are free. Birds, farm animals, insects,
 reptiles and amphibians, marine animals, wild animals, parts of the body,
 emotions, fruit, vegetables and weather are one-time purchases — buy a deck
 once and it unlocks for every language pair and every image style, forever.
 No subscription.
 
+NEW: FLAGS OF THE WORLD
+The fifty most populous countries: learn the flag, the country, its capital
+and how many people live there. Free.
+
 TWO IMAGE STYLES PER DECK
-Each deck comes with photographs and one illustrated style — brush-and-ink,
+Each illustrated deck comes with photographs and one illustrated style — brush-and-ink,
 soft pastel or watercolour, depending on the deck. Switch whenever you like.
 
 LEARN OFFLINE
