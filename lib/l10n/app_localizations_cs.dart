@@ -24,6 +24,9 @@ class AppLocalizationsCs extends AppLocalizations {
   String get homeBrowseStore => 'Otevřít obchod';
 
   @override
+  String get homeDownloadingDecks => 'Chystám tvoje balíčky…';
+
+  @override
   String get badgeFree => 'Zdarma';
 
   @override

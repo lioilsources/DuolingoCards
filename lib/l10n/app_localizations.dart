@@ -128,6 +128,12 @@ abstract class AppLocalizations {
   /// **'Browse the Deck Store'**
   String get homeBrowseStore;
 
+  /// No description provided for @homeDownloadingDecks.
+  ///
+  /// In en, this message translates to:
+  /// **'Getting your decks ready…'**
+  String get homeDownloadingDecks;
+
   /// No description provided for @badgeFree.
   ///
   /// In en, this message translates to:
