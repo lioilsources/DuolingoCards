@@ -33,6 +33,7 @@ class EntitlementService extends ChangeNotifier {
   static const String _deckEntitlementsKey = 'deck_entitlements';
   static const String _stylePrefsKey = 'deck_style_prefs';
   static const String _migrationKey = 'credits_migration_v2_done';
+  static const String _freeSeededKey = 'free_decks_seeded_v1';
 
   /// Styles renamed when the pipeline ids stopped naming models. Stored
   /// activation quads embed the style id, so they need rewriting or a user's
@@ -146,6 +147,44 @@ class EntitlementService extends ChangeNotifier {
       await _prefs?.setStringList(_deckEntitlementsKey, _activatedKeys.toList());
       notifyListeners();
     }
+  }
+
+  // ── First run ─────────────────────────────────────────────────────────────
+
+  /// The catalog's free decks, in catalog order.
+  List<String> get freeDeckSlugs => _catalog?.free ?? const [];
+
+  /// True on a fresh install only: nothing was ever put on home and the free
+  /// decks have not been seeded yet. A learner who later clears home keeps an
+  /// empty home — the flag stays set.
+  bool get shouldSeedFreeDecks =>
+      _prefs?.getBool(_freeSeededKey) != true && _activatedKeys.isEmpty;
+
+  Future<void> markFreeDecksSeeded() async {
+    await _prefs?.setBool(_freeSeededKey, true);
+  }
+
+  /// The language pair a deck gets when it is put on home without asking:
+  /// the device language as L1 (matching `es` to `es-419`), and English as L2
+  /// — or Spanish for a learner who already speaks English.
+  static (String, String) defaultPair(List<String> langs, String deviceLang) {
+    String? match(String code) {
+      for (final l in langs) {
+        if (l == code) return l;
+      }
+      for (final l in langs) {
+        if (l.split('-').first == code) return l;
+      }
+      return null;
+    }
+
+    final l1 = match(deviceLang) ??
+        match('en') ??
+        (langs.isNotEmpty ? langs.first : 'en');
+    final l2 = (l1 != 'en' ? match('en') : null) ??
+        match('es') ??
+        langs.firstWhere((l) => l != l1, orElse: () => l1);
+    return (l1, l2);
   }
 
   // ── Style preference ──────────────────────────────────────────────────────

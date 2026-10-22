@@ -93,4 +93,26 @@ void main() {
       expect(out, {'animals-sea|cs|en|photo'});
     });
   });
+
+  group('EntitlementService.defaultPair', () {
+    const langs = ['ar', 'cs', 'de', 'en', 'es-419', 'pt-BR', 'zh-CN'];
+
+    test('the device language is L1 and English is L2', () {
+      expect(EntitlementService.defaultPair(langs, 'cs'), ('cs', 'en'));
+    });
+
+    test('a bare device language matches its regional deck code', () {
+      expect(EntitlementService.defaultPair(langs, 'es'), ('es-419', 'en'));
+      expect(EntitlementService.defaultPair(langs, 'pt'), ('pt-BR', 'en'));
+    });
+
+    test('an English speaker learns Spanish', () {
+      expect(EntitlementService.defaultPair(langs, 'en'), ('en', 'es-419'));
+    });
+
+    test('a language the deck lacks falls back to English', () {
+      // Not the deck's first language: that is Arabic, alphabetically.
+      expect(EntitlementService.defaultPair(langs, 'sw'), ('en', 'es-419'));
+    });
+  });
 }

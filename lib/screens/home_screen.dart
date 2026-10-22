@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart' show SchedulerBinding;
 import 'package:flutter/services.dart' show HapticFeedback, rootBundle;
 import 'package:path_provider/path_provider.dart';
 import '../l10n/app_localizations.dart';
@@ -51,6 +52,12 @@ class _HomeScreenState extends State<HomeScreen> {
   bool _isLoading = true;
   String? _docsDir;
 
+  /// Home decks whose pictures are being fetched right now, and every one
+  /// tried this session — a failed download is retried on the next launch,
+  /// not in a loop.
+  final Set<String> _fetching = {};
+  final Set<String> _attempted = {};
+
   @override
   void initState() {
     super.initState();
@@ -94,6 +101,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     try {
       await _entitlements.initialize();
+      if (_entitlements.shouldSeedFreeDecks) await _seedFreeDecks();
       _docsDir ??= await getApplicationDocumentsDirectory()
           .then((d) => d.path)
           .catchError((Object _) => '');
@@ -133,6 +141,14 @@ class _HomeScreenState extends State<HomeScreen> {
         }),
       );
 
+      // A deck on home without its pictures (the free decks on first launch,
+      // or a download cut short) is fetched in the background; its tile
+      // appears when it is done.
+      _fetchMissing([
+        for (var i = 0; i < owned.length; i++)
+          if (rawTiles[i] == null) owned[i],
+      ]);
+
       final langTiles = HomeOrderService.apply(
         rawTiles.whereType<_LangTile>().toList(),
         await _order.load(),
@@ -146,6 +162,45 @@ class _HomeScreenState extends State<HomeScreen> {
       });
     } catch (e) {
       if (mounted) setState(() => _isLoading = false);
+    }
+  }
+
+  /// Put every free deck on home, so a first launch opens on something to
+  /// learn instead of an empty screen and a trip to the store.
+  Future<void> _seedFreeDecks() async {
+    final deviceLang =
+        SchedulerBinding.instance.platformDispatcher.locale.languageCode;
+    for (final slug in _entitlements.freeDeckSlugs) {
+      try {
+        final deck = await _langDeckService.load(slug);
+        final style = deck.preferredStyle;
+        if (style.isEmpty) continue;
+        final (l1, l2) = EntitlementService.defaultPair(
+            deck.availableLanguages, deviceLang);
+        await _entitlements.activate(slug, l1, l2, style, tier: deck.tier);
+      } catch (_) {
+        // A free deck missing from the bundle is skipped, not fatal.
+      }
+    }
+    await _entitlements.markFreeDecksSeeded();
+  }
+
+  /// Download [missing] one at a time, so the first deck shows up as soon as
+  /// it is ready rather than after all of them.
+  Future<void> _fetchMissing(List<DeckEntitlement> missing) async {
+    final todo = [
+      for (final e in missing)
+        if (_attempted.add(e.storageKey)) e,
+    ];
+    if (todo.isEmpty || !mounted) return;
+    setState(() => _fetching.addAll(todo.map((e) => e.storageKey)));
+    for (final e in todo) {
+      final ok =
+          await DeckDownloadService.instance.downloadDeck(e.deckSlug, e.style);
+      if (ok) _langDeckService.invalidateCache(e.deckSlug);
+      if (!mounted) return;
+      setState(() => _fetching.remove(e.storageKey));
+      if (ok) await _loadDecks(quiet: true);
     }
   }
 
@@ -207,6 +262,21 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _buildDeckList() {
     final l10n = AppLocalizations.of(context);
+    if (_langTiles.isEmpty && _fetching.isNotEmpty) {
+      return Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const CircularProgressIndicator(),
+            const SizedBox(height: 16),
+            Text(
+              l10n.homeDownloadingDecks,
+              style: TextStyle(fontSize: 18, color: Colors.grey.shade600),
+            ),
+          ],
+        ),
+      );
+    }
     if (_langTiles.isEmpty) {
       return Center(
         child: Column(

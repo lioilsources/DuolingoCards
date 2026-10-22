@@ -24,6 +24,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get homeBrowseStore => 'Browse the Deck Store';
 
   @override
+  String get homeDownloadingDecks => 'Getting your decks ready…';
+
+  @override
   String get badgeFree => 'Free';
 
   @override
