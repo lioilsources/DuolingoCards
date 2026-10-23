@@ -54,7 +54,6 @@ Future<String> _handle(String? message) async {
         'pets': await title('animals-pets'),
         'flags': await title('geo-flags'),
         'weather': await title('weather'),
-        'flags': await title('geo-flags'),
         'l2': langDisplayName('ar', l10n),
         'l2pick': langDisplayName('ja', l10n),
       });
