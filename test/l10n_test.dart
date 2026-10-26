@@ -30,11 +30,12 @@ void main() {
     final template = keysOf('lib/l10n/app_en.arb');
     for (final locale in AppLocalizations.supportedLocales) {
       if (locale.languageCode == 'en') continue;
-      final keys = keysOf('lib/l10n/app_${locale.languageCode}.arb');
+      // Locale.toString() is the ARB suffix: pt_PT, zh_Hant.
+      final keys = keysOf('lib/l10n/app_$locale.arb');
       expect(template.difference(keys), isEmpty,
-          reason: '${locale.languageCode} is missing keys');
+          reason: '$locale is missing keys');
       expect(keys.difference(template), isEmpty,
-          reason: '${locale.languageCode} has keys en does not');
+          reason: '$locale has keys en does not');
     }
   });
 
@@ -120,9 +121,36 @@ void main() {
       expect(find.text('Restore Purchases'), findsOneWidget);
     });
 
+    testWidgets('a German device gets German', (tester) async {
+      await tester.pumpWidget(probe(const Locale('de', 'DE')));
+      await tester.pump();
+      expect(find.text(lookupAppLocalizations(const Locale('de'))
+          .storeRestorePurchases), findsOneWidget);
+    });
+
+    testWidgets('a Traditional Chinese device gets zh_Hant, not zh',
+        (tester) async {
+      await tester.pumpWidget(probe(const Locale.fromSubtags(
+          languageCode: 'zh', scriptCode: 'Hant', countryCode: 'TW')));
+      await tester.pump();
+      final hant = lookupAppLocalizations(
+              const Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'))
+          .storeRestorePurchases;
+      expect(hant, isNot(lookupAppLocalizations(const Locale('zh'))
+          .storeRestorePurchases));
+      expect(find.text(hant), findsOneWidget);
+    });
+
+    testWidgets('a European Portuguese device gets pt_PT', (tester) async {
+      await tester.pumpWidget(probe(const Locale('pt', 'PT')));
+      await tester.pump();
+      expect(find.text(lookupAppLocalizations(const Locale('pt', 'PT'))
+          .storeRestorePurchases), findsOneWidget);
+    });
+
     testWidgets('a device language the UI does not ship gets English',
         (tester) async {
-      await tester.pumpWidget(probe(const Locale('de')));
+      await tester.pumpWidget(probe(const Locale('nl')));
       await tester.pump();
       expect(find.text('Restore Purchases'), findsOneWidget);
     });

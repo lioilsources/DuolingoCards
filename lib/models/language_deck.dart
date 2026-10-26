@@ -72,8 +72,10 @@ class LanguageDeck {
 
   /// Deck title in [lang], falling back to English then the first available.
   String title(String lang) {
-    return titles[lang] ??
-        titles[_baseLang(lang)] ??
+    // _pick also maps a bare UI language onto a regional deck code
+    // ('es' → 'es-419', 'zh' → 'zh-CN'), so a Spanish UI never falls through
+    // to an English title.
+    return _pick(titles, lang) ??
         titles['en'] ??
         (titles.isNotEmpty ? titles.values.first : slug);
   }

@@ -59,7 +59,12 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
   void initState() {
     super.initState();
     final langs = widget.deck.availableLanguages;
-    _l1 = langs.contains(_deviceLang) ? _deviceLang : langs.firstOrNull ?? 'en';
+    // A Spanish phone reports plain 'es' while decks ship 'es-419': match on
+    // the base language too, or the default L1 lands on whatever comes first.
+    _l1 = langs.contains(_deviceLang)
+        ? _deviceLang
+        : langs.firstWhere((l) => l.split('-').first == _deviceLang,
+            orElse: () => langs.firstOrNull ?? 'en');
     _l2 = langs.length > 1
         ? langs.firstWhere((l) => l != _l1, orElse: () => langs.first)
         : _l1;
@@ -369,7 +374,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                         const Spacer(),
                         if (activatedCount > 0)
                           Container(
-                            margin: const EdgeInsets.only(right: 8),
+                            margin: const EdgeInsetsDirectional.only(end: 8),
                             padding: const EdgeInsets.symmetric(
                                 horizontal: 8, vertical: 3),
                             decoration: BoxDecoration(

@@ -42,7 +42,7 @@ void main() {
   });
 
   for (final locale in LexifyApp.supportedLocales) {
-    final tag = locale.languageCode;
+    final tag = locale.toString(); // pt_PT and pt must not share a file name
     testWidgets('$tag: home, store, detail, confirm dialog', (tester) async {
       final dispatcher = tester.binding.platformDispatcher;
       dispatcher.localeTestValue = locale;
