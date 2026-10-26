@@ -17,8 +17,29 @@ class LexifyApp extends StatelessWidget {
   /// UI languages, English first. Flutter's default resolution hands a device
   /// language we do not ship (German, say) the *first* entry of this list, and
   /// the generated [AppLocalizations.supportedLocales] is alphabetical — which
-  /// would make Czech the fallback for the whole world.
-  static const List<Locale> supportedLocales = [Locale('en'), Locale('cs')];
+  /// would make Czech the fallback for the whole world. New languages are
+  /// appended; they mirror the App Store listing locales.
+  static const List<Locale> supportedLocales = [
+    Locale('en'),
+    Locale('cs'),
+    Locale('ar'),
+    Locale('de'),
+    Locale('el'),
+    Locale('es'),
+    Locale('fr'),
+    Locale('he'),
+    Locale('hi'),
+    Locale('id'),
+    Locale('ja'),
+    Locale('ko'),
+    Locale('pt'),
+    Locale.fromSubtags(languageCode: 'pt', countryCode: 'PT'),
+    Locale('ru'),
+    Locale('tr'),
+    Locale('vi'),
+    Locale('zh'),
+    Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
+  ];
 
   @override
   Widget build(BuildContext context) {

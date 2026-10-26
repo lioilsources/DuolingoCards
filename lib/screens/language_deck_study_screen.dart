@@ -109,7 +109,7 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
   Widget build(BuildContext context) {
     if (_history.isEmpty) {
       return Scaffold(
-        appBar: AppBar(title: Text(widget.deck.title(widget.l1))),
+        appBar: AppBar(title: Text(widget.deck.title(Localizations.localeOf(context).languageCode))),
         body: const Center(child: CircularProgressIndicator()),
       );
     }
@@ -117,14 +117,14 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
     return Scaffold(
       backgroundColor: DeckPalette.of(widget.deck.slug).background,
       appBar: AppBar(
-        title: Text(widget.deck.title(widget.l1)),
+        title: Text(widget.deck.title(Localizations.localeOf(context).languageCode)),
         centerTitle: true,
         backgroundColor: Colors.transparent,
         elevation: 0,
         foregroundColor: Colors.black87,
         actions: [
           Padding(
-            padding: const EdgeInsets.only(right: 16),
+            padding: const EdgeInsetsDirectional.only(end: 16),
             child: Center(
               child: Text(
                 '${widget.l1.toUpperCase()} → ${widget.l2.toUpperCase()}',

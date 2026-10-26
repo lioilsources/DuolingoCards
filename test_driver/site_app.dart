@@ -44,7 +44,8 @@ Future<String> _handle(String? message) async {
     // Everything the host needs to find widgets by their visible text.
     case 'strings':
       final locale = PlatformDispatcher.instance.locale;
-      final l10n = lookupAppLocalizations(Locale(locale.languageCode));
+      // The full device locale, so zh-Hant and pt-PT pick their own ARB.
+      final l10n = lookupAppLocalizations(locale);
       final decks = LanguageDeckService.instance;
       Future<String> title(String slug) async =>
           (await decks.load(slug)).title(locale.languageCode);
