@@ -77,8 +77,8 @@ Direct invocation (if needed):
 BIN=quiz-generator/bin/content
 $BIN lint    -decks decks [-strict] [-images]
 $BIN build   -decks decks -out assets/decks
-$BIN translate -decks decks -deck animals-sea -url http://192.168.88.66:8080
-$BIN images    -decks decks -deck animals-sea -style photo -url http://192.168.88.66:8188
+$BIN translate -decks decks -deck animals-sea -url http://SPARK_HOST:8080
+$BIN images    -decks decks -deck animals-sea -style photo -url http://SPARK_HOST:8188
 ```
 
 Authoring layout (top-level `decks/`, versioned in Git):

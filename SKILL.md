@@ -74,7 +74,7 @@ make translate DECK=food-vegetables WORKERS=10  # more parallel workers (default
 
 - Source: CS pivot in `i18n/cs.yaml`
 - Output: `i18n/<lang>.yaml` for each of the 30 target languages
-- LLM server: `http://192.168.88.66:8080` (OpenAI-compatible)
+- LLM server: `http://SPARK_HOST:8080` (OpenAI-compatible)
 - Idempotent — only generates missing keys; use `translate-force` to regenerate all
 
 ```bash
@@ -94,7 +94,7 @@ make images DECK=food-vegetables STYLE=flux-real     # generate flux-real images
 make images DECK=food-vegetables STYLE=pony-cartoon  # generate pony-cartoon images
 ```
 
-- ComfyUI server: `http://192.168.88.66:8188`
+- ComfyUI server: `http://SPARK_HOST:8188`
 - Output: `decks/<slug>/images/<style>/*.png`
 - Skips already-generated images; use `images-force` to regenerate
 
