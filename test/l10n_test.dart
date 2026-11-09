@@ -73,6 +73,13 @@ void main() {
       expect(cs.tileCardsAndPair(50, 'CS', 'DE'), '50 karet · CS → DE');
     });
 
+    test('Polish uses one, few and many', () {
+      final pl = lookupAppLocalizations(const Locale('pl'));
+      expect(pl.tileCardsAndPair(1, 'PL', 'EN'), '1 karta · PL → EN');
+      expect(pl.tileCardsAndPair(3, 'PL', 'EN'), '3 karty · PL → EN');
+      expect(pl.tileCardsAndPair(50, 'PL', 'EN'), '50 kart · PL → EN');
+    });
+
     test('name every shipped language in every UI language', () {
       const shipped = [
         'ar', 'cs', 'de', 'el', 'en', 'es-419', 'fr', 'he', 'hi', 'id', 'ja',
@@ -150,7 +157,7 @@ void main() {
 
     testWidgets('a device language the UI does not ship gets English',
         (tester) async {
-      await tester.pumpWidget(probe(const Locale('nl')));
+      await tester.pumpWidget(probe(const Locale('sw')));
       await tester.pump();
       expect(find.text('Restore Purchases'), findsOneWidget);
     });
