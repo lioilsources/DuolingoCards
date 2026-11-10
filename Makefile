@@ -222,6 +222,19 @@ tune: $(CONTENT)
 	  -llm-url $(SPARK_LLM) \
 	  -validator-model $(VALIDATOR_MODEL) -builder-model $(BUILDER_MODEL)
 
+# ── review ────────────────────────────────────────────────────────────────────
+# Local page with every card in its shipped styles: flag unsafe images, edit the
+# prompt, regenerate (as a candidate), accept. State lives in build/review/.
+# Accepted images still need `make ship DECK=<slug>`.
+REVIEW_ADDR ?= 127.0.0.1:8790
+
+.PHONY: review
+review: $(CONTENT)
+	$(CONTENT) review -decks $(DECKS_SRC) -url $(SPARK_IMG) -addr $(REVIEW_ADDR) \
+	  $(if $(PONY_CKPT),-pony-checkpoint $(PONY_CKPT)) \
+	  $(if $(ILLU_CKPT),-illustrious-checkpoint $(ILLU_CKPT)) \
+	  $(if $(CONTROLNET),-controlnet $(CONTROLNET))
+
 # ── prompts (debug) ───────────────────────────────────────────────────────────
 
 .PHONY: prompts

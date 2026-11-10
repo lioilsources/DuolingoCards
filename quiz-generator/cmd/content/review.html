@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontrola karet</title>
+<style>
+:root {
+  --bg: #f4f3ef; --panel: #ffffff; --ink: #1d1d1b; --muted: #6d6b64; --line: #dcd9d0;
+  --accent: #2c5cc5; --unsafe: #c4322b; --unsafe-bg: #fde8e6; --stale: #b7791f; --stale-bg: #fdf2dc;
+  --ok: #2f7d4a; --ok-bg: #e2f3e7; --cand: #6b46c1; --cand-bg: #eee8fb;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161615; --panel: #212120; --ink: #ecebe6; --muted: #9a988f; --line: #3a3936;
+    --accent: #7ea2f0; --unsafe: #f2796f; --unsafe-bg: #3d1f1c; --stale: #e3b25c; --stale-bg: #3a2e17;
+    --ok: #6cc28a; --ok-bg: #1b3324; --cand: #b39cf5; --cand-bg: #2b2442;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.4 -apple-system, system-ui, sans-serif; }
+button, select, input, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 5px 10px; }
+button:hover { border-color: var(--muted); }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+button:disabled { opacity: .45; cursor: default; }
+select, input, textarea { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; }
+
+header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line);
+  padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; }
+header h1 { font-size: 16px; margin: 0 8px 0 0; }
+header label { display: flex; gap: 6px; align-items: center; color: var(--muted); }
+.stats { display: flex; gap: 12px; color: var(--muted); margin-left: auto; flex-wrap: wrap; }
+.stats b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.help { color: var(--muted); font-size: 12px; padding: 6px 16px 0; }
+kbd { border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; font-size: 11px; }
+
+main { padding: 8px 16px 60px; }
+section h2 { font-size: 15px; margin: 22px 0 10px; display: flex; gap: 10px; align-items: baseline; }
+section h2 small { color: var(--muted); font-weight: normal; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--tile, 330px), 1fr)); gap: 10px; }
+.tile { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px; }
+.tile .name { display: flex; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+.tile .name b { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tile .name code { color: var(--muted); font-size: 11px; white-space: nowrap; }
+.cells { display: grid; grid-template-columns: repeat(var(--n, 2), 1fr); gap: 6px; }
+.cell { position: relative; border-radius: 6px; overflow: hidden; outline: 3px solid transparent; outline-offset: -3px; background: var(--line); aspect-ratio: 1; }
+.cell img { width: 100%; height: 100%; object-fit: cover; display: block; cursor: zoom-in; }
+.cell.unsafe { outline-color: var(--unsafe); }
+.cell.stale { outline-color: var(--stale); }
+.cell.ok { outline-color: var(--ok); }
+.cell .style { position: absolute; left: 4px; top: 4px; font-size: 10px; background: rgba(0,0,0,.6); color: #fff; padding: 1px 5px; border-radius: 4px; }
+.cell .badge { position: absolute; right: 4px; top: 4px; font-size: 10px; font-weight: 600; padding: 1px 5px; border-radius: 4px; }
+.cell.unsafe .badge { background: var(--unsafe); color: #fff; }
+.cell.stale .badge { background: var(--stale); color: #fff; }
+.cell.ok .badge { background: var(--ok); color: #fff; }
+.cell .missing { display: grid; place-items: center; height: 100%; color: var(--muted); font-size: 12px; }
+.cell .actions { position: absolute; left: 0; right: 0; bottom: 0; display: flex; gap: 3px; padding: 4px; justify-content: center;
+  background: linear-gradient(transparent, rgba(0,0,0,.55)); opacity: 0; transition: opacity .1s; }
+.cell:hover .actions, .cell:focus-within .actions { opacity: 1; }
+.cell .actions button { padding: 2px 7px; font-size: 12px; background: rgba(255,255,255,.92); color: #111; border: 0; }
+.cell .busy { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(0,0,0,.45); color: #fff; font-size: 12px; }
+.cell .cand { position: absolute; right: 4px; bottom: 34px; width: 42%; aspect-ratio: 1; border: 2px solid var(--cand); border-radius: 5px; overflow: hidden; cursor: zoom-in; }
+.cell .cand img { cursor: zoom-in; }
+.cell .cand span { position: absolute; left: 0; top: 0; background: var(--cand); color: #fff; font-size: 9px; padding: 0 4px; }
+
+dialog { border: 1px solid var(--line); border-radius: 10px; background: var(--panel); color: var(--ink); padding: 0; width: min(1200px, 96vw); max-height: 94vh; }
+dialog::backdrop { background: rgba(0,0,0,.6); }
+.dlg { display: grid; grid-template-columns: 1fr 380px; gap: 0; max-height: 94vh; }
+.dlg .imgs { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 14px; align-content: start; overflow: auto; }
+.dlg .imgs.single { grid-template-columns: 1fr; }
+.dlg figure { margin: 0; }
+.dlg figure img { width: 100%; border-radius: 6px; display: block; background: var(--line); }
+.dlg figcaption { color: var(--muted); font-size: 12px; margin-top: 4px; display: flex; justify-content: space-between; gap: 6px; }
+.dlg figure.candidate img { outline: 3px solid var(--cand); outline-offset: -3px; }
+.dlg .form { border-left: 1px solid var(--line); padding: 14px; overflow: auto; display: flex; flex-direction: column; gap: 10px; }
+.dlg .form h3 { margin: 0; font-size: 16px; }
+.dlg .meta { color: var(--muted); font-size: 12px; }
+.dlg textarea { width: 100%; min-height: 120px; resize: vertical; font: 12px/1.4 ui-monospace, Menlo, monospace; }
+.dlg textarea.neg { min-height: 80px; }
+.dlg .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.dlg .row input[type=number], .dlg .row input.seed { width: 100%; }
+.dlg .knobs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.dlg .knobs label, .dlg .lbl { font-size: 12px; color: var(--muted); display: flex; flex-direction: column; gap: 2px; }
+.dlg .err { color: var(--unsafe); font-size: 12px; white-space: pre-wrap; }
+.dlg .flagrow button.on { background: var(--ink); color: var(--bg); }
+.toast { position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 8px 14px; border-radius: 8px; z-index: 50; max-width: 90vw; }
+@media (max-width: 800px) {
+  .dlg { grid-template-columns: 1fr; }
+  .dlg .form { border-left: 0; border-top: 1px solid var(--line); }
+  .dlg .imgs { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Kontrola karet</h1>
+  <label>Balíček <select id="deckSel"><option value="">Všechny balíčky</option></select></label>
+  <label>Zobrazit <select id="viewSel">
+    <option value="all">Vše</option>
+    <option value="unreviewed">Zatím neoznačené</option>
+    <option value="unsafe">Nevhodné</option>
+    <option value="stale">Zastaralé (nová fotka)</option>
+    <option value="cand">Mají kandidáta</option>
+    <option value="todo">K řešení (nevhodné + zastaralé + kandidáti)</option>
+  </select></label>
+  <label>Styly <select id="styleSel">
+    <option value="declared">Vydávané (deck.yaml)</option>
+    <option value="all">Vše na disku</option>
+  </select></label>
+  <label>Velikost <input id="sizeSel" type="range" min="220" max="560" step="20" value="330"></label>
+  <button id="regenFlagged" class="primary">Přegenerovat označené</button>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="help">
+  Najeď myší na obrázek: <kbd>U</kbd> nevhodný · <kbd>O</kbd> v pořádku · <kbd>R</kbd> přegenerovat (stejný prompt, nový seed) · <kbd>A</kbd>/<kbd>D</kbd> přijmout/zahodit kandidáta · <kbd>0</kbd> zrušit označení.
+  Kliknutím na obrázek ho porovnáš a upravíš prompt. Přijaté obrázky se do aplikace dostanou až po <code>make ship DECK=…</code>.
+</div>
+<main id="main"></main>
+
+<dialog id="dlg"></dialog>
+
+<script>
+const state = { decks: [], busy: new Map(), hover: null };
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const cellId = (d, k, s) => `${d}/${s}/${k}`;
+
+function pref(k, v) {
+  try { if (v === undefined) return localStorage.getItem('review.' + k); localStorage.setItem('review.' + k, v); } catch { return null; }
+}
+
+async function api(path, body) {
+  const res = await fetch(path, body ? { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body) } : undefined);
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.error || res.statusText);
+  return data;
+}
+
+function toast(msg) {
+  const t = document.createElement('div');
+  t.className = 'toast'; t.textContent = msg;
+  document.body.append(t); setTimeout(() => t.remove(), 4000);
+}
+
+// Generation queue: long ComfyUI requests would otherwise hog the browser's
+// six connections and starve thumbnail loading.
+const queue = []; let running = 0; const MAX_RUNNING = 2;
+function enqueue(id, fn) {
+  return new Promise((resolve, reject) => {
+    state.busy.set(id, 'queued'); repaintCell(id); renderStats();
+    queue.push({ id, fn, resolve, reject }); pump();
+  });
+}
+function pump() {
+  while (running < MAX_RUNNING && queue.length) {
+    const job = queue.shift(); running++;
+    state.busy.set(job.id, 'rendering'); repaintCell(job.id); renderStats();
+    job.fn().then(job.resolve, job.reject).finally(() => {
+      running--; state.busy.delete(job.id); repaintCell(job.id); renderStats(); pump();
+    });
+  }
+}
+
+function findCell(id) {
+  const [slug, style, ...rest] = id.split('/');
+  const key = rest.join('/');
+  const deck = state.decks.find(d => d.slug === slug);
+  const card = deck?.cards.find(c => c.key === key);
+  return { deck, card, style, cell: card?.styles[style] };
+}
+
+function stylesFor(deck) {
+  const mode = $('#styleSel').value;
+  const list = mode === 'all' ? deck.onDisk : deck.declared.filter(s => deck.onDisk.includes(s));
+  return list.length ? list : deck.onDisk;
+}
+
+function cellVisible(c, view) {
+  switch (view) {
+    case 'unreviewed': return !c.flag;
+    case 'unsafe': return c.flag === 'unsafe';
+    case 'stale': return c.flag === 'stale';
+    case 'cand': return c.cand > 0;
+    case 'todo': return c.flag === 'unsafe' || c.flag === 'stale' || c.cand > 0;
+    default: return true;
+  }
+}
+
+function imgUrl(slug, style, image, v, opts = '') {
+  return `/img/${encodeURIComponent(slug)}/${encodeURIComponent(style)}/${encodeURIComponent(image)}?v=${v}${opts}`;
+}
+
+function cellHTML(deck, card, style) {
+  const c = card.styles[style] || { v: 0, cand: 0 };
+  const id = cellId(deck.slug, card.key, style);
+  const busy = state.busy.get(id);
+  const label = { unsafe: 'NEVHODNÉ', stale: 'ZASTARALÉ', ok: 'OK' }[c.flag] || '';
+  return `<div class="cell ${c.flag || ''}" data-id="${esc(id)}" tabindex="0">
+    ${c.v ? `<img loading="lazy" src="${imgUrl(deck.slug, style, card.image, c.v, '&thumb=1')}" alt="" data-open>` : `<div class="missing">chybí</div>`}
+    <span class="style">${esc(style)}</span>
+    ${label ? `<span class="badge">${label}</span>` : ''}
+    ${c.cand ? `<div class="cand" data-open><img loading="lazy" src="${imgUrl(deck.slug, style, card.image, c.cand, '&thumb=1&cand=1')}" alt=""><span>NOVÝ</span></div>` : ''}
+    <div class="actions">
+      ${c.cand ? `<button data-act="accept" title="Přijmout kandidáta (A)">✓ Přijmout</button><button data-act="discard" title="Zahodit kandidáta (D)">✗</button>`
+               : `<button data-act="unsafe" title="Nevhodný (U)">⚑</button><button data-act="ok" title="V pořádku (O)">✓</button>`}
+      <button data-act="regen" title="Přegenerovat s novým seedem (R)">↻</button>
+      <button data-act="open" title="Upravit prompt">✎</button>
+    </div>
+    ${busy ? `<div class="busy">${busy === 'queued' ? 've frontě…' : 'generuje se…'}</div>` : ''}
+  </div>`;
+}
+
+function render() {
+  const deckF = $('#deckSel').value, view = $('#viewSel').value;
+  const out = [];
+  for (const deck of state.decks) {
+    if (deckF && deck.slug !== deckF) continue;
+    const styles = stylesFor(deck);
+    const tiles = [];
+    for (const card of deck.cards) {
+      if (!styles.some(s => cellVisible(card.styles[s] || {}, view))) continue;
+      tiles.push(`<div class="tile" id="tile-${esc(deck.slug)}-${esc(card.key)}">
+        <div class="name"><b title="${esc([card.labelEn, card.hint].filter(Boolean).join(' — '))}">${esc(card.label || card.key)}</b><code>${esc(card.key)}</code></div>
+        <div class="cells" style="--n:${styles.length}">${styles.map(s => cellHTML(deck, card, s)).join('')}</div>
+      </div>`);
+    }
+    if (!tiles.length) continue;
+    out.push(`<section><h2>${esc(deck.slug)} <small>${tiles.length} karet · ${styles.join(' + ')}</small></h2><div class="grid">${tiles.join('')}</div></section>`);
+  }
+  $('#main').innerHTML = out.join('') || '<p style="color:var(--muted)">Filtru nic neodpovídá.</p>';
+  renderStats();
+}
+
+function repaintCell(id) {
+  const el = document.querySelector(`.cell[data-id="${CSS.escape(id)}"]`);
+  if (!el) return;
+  const { deck, card, style } = findCell(id);
+  const tmp = document.createElement('div');
+  tmp.innerHTML = cellHTML(deck, card, style);
+  el.replaceWith(tmp.firstElementChild);
+}
+
+function visibleCells() {
+  const deckF = $('#deckSel').value; const out = [];
+  for (const deck of state.decks) {
+    if (deckF && deck.slug !== deckF) continue;
+    for (const card of deck.cards) for (const s of stylesFor(deck)) out.push({ deck, card, style: s, c: card.styles[s] || {} });
+  }
+  return out;
+}
+
+function renderStats() {
+  const cells = visibleCells();
+  const n = f => cells.filter(f).length;
+  const flagged = n(x => (x.c.flag === 'unsafe' || x.c.flag === 'stale') && !x.c.cand);
+  $('#stats').innerHTML = [
+    ['obrázků', cells.length], ['v pořádku', n(x => x.c.flag === 'ok')], ['nevhodných', n(x => x.c.flag === 'unsafe')],
+    ['zastaralých', n(x => x.c.flag === 'stale')], ['kandidátů', n(x => x.c.cand)],
+    ['generuje se', running], ['ve frontě', queue.length],
+  ].map(([k, v]) => `<span>${k} <b>${v}</b></span>`).join('');
+  $('#regenFlagged').textContent = `Přegenerovat označené (${flagged})`;
+  $('#regenFlagged').disabled = flagged === 0;
+}
+
+async function setFlag(id, flag) {
+  const { deck, card, style, cell } = findCell(id);
+  const prev = cell.flag;
+  cell.flag = flag || undefined; repaintCell(id); renderStats();
+  try { await api('/api/flag', { deck: deck.slug, card: card.key, style, flag }); }
+  catch (e) { cell.flag = prev; repaintCell(id); renderStats(); toast('Označení selhalo: ' + e.message); }
+}
+
+// regenerate renders a candidate. With params omitted it reuses the cell's
+// current prompt (tuned or from the brief) with a fresh seed.
+function regenerate(id, params) {
+  if (state.busy.has(id)) return Promise.resolve();
+  const { deck, card, style, cell } = findCell(id);
+  return enqueue(id, async () => {
+    let p = params;
+    if (!p) { const info = await api(`/api/card?deck=${encodeURIComponent(deck.slug)}&card=${encodeURIComponent(card.key)}&style=${encodeURIComponent(style)}`); p = { ...info.current, seed: 0 }; }
+    const res = await api('/api/generate', { deck: deck.slug, card: card.key, style, ...p });
+    cell.cand = res.cand;
+    if (dlgId === id) openDialog(id, { keepForm: true });
+    return res;
+  }).catch(e => { toast(`${card.key} / ${style}: ${e.message}`); if (dlgId === id) showDlgError(e.message); });
+}
+
+async function accept(id) {
+  const { deck, card, style, cell } = findCell(id);
+  try {
+    const res = await api('/api/accept', { deck: deck.slug, card: card.key, style });
+    cell.v = res.v; cell.cand = 0; cell.flag = 'ok';
+    for (const s of res.stale || []) {
+      if (card.styles[s]) { card.styles[s].flag = 'stale'; repaintCell(cellId(deck.slug, card.key, s)); }
+    }
+    repaintCell(id); renderStats();
+    if (res.stale?.length) toast(`Přijato. ${res.stale.join(', ')} je teď zastaralé — přegeneruj ho nad novou fotkou.`);
+    return true;
+  } catch (e) { toast('Přijetí selhalo: ' + e.message); return false; }
+}
+
+async function discard(id) {
+  const { deck, card, style, cell } = findCell(id);
+  try { await api('/api/discard', { deck: deck.slug, card: card.key, style }); cell.cand = 0; repaintCell(id); renderStats(); }
+  catch (e) { toast('Zahození selhalo: ' + e.message); }
+}
+
+// ── dialog ────────────────────────────────────────────────────────────────
+let dlgId = null;
+const dlg = $('#dlg');
+
+async function openDialog(id, { keepForm } = {}) {
+  const { deck, card, style, cell } = findCell(id);
+  let info;
+  try { info = await api(`/api/card?deck=${encodeURIComponent(deck.slug)}&card=${encodeURIComponent(card.key)}&style=${encodeURIComponent(style)}`); }
+  catch (e) { toast(e.message); return; }
+  const kept = keepForm && dlgId === id ? readForm() : null;
+  dlgId = id;
+  const p = kept || info.current;
+  const busy = state.busy.get(id);
+  const cand = info.candidate;
+  const flagBtn = (f, t) => `<button data-flag="${f}" class="${(cell.flag || '') === f ? 'on' : ''}">${t}</button>`;
+  dlg.innerHTML = `<div class="dlg">
+    <div class="imgs ${cell.cand ? '' : 'single'}">
+      <figure>${cell.v ? `<img src="${imgUrl(deck.slug, style, card.image, cell.v)}" alt="">` : '<div class="missing">chybí</div>'}
+        <figcaption><span>současný · ${esc(style)}</span><span>${info.source === 'tuned' ? 'prompt z tuned sidecaru' : 'prompt rozepsaný z briefu'}${info.current.seed ? ' · seed ' + info.current.seed : ''}</span></figcaption></figure>
+      ${cell.cand ? `<figure class="candidate"><img src="${imgUrl(deck.slug, style, card.image, cell.cand, '&cand=1')}" alt="">
+        <figcaption><span>kandidát</span><span>seed ${cand?.seed ?? '?'} · <a href="#" data-x="usecand">načíst jeho prompt</a></span></figcaption></figure>` : ''}
+    </div>
+    <div class="form">
+      <div><h3>${esc(card.label || card.key)} <small class="meta">${esc(card.key)}</small></h3>
+        <div class="meta">${esc(deck.slug)} · ${esc(style)} · ${esc(info.backend)}${info.img2img ? ` · restyle z <b>${esc(info.baseStyle)}</b>` : ''}</div>
+        <div class="meta">${card.labelEn ? `EN: ${esc(card.labelEn)} · ` : ''}${esc(card.hint)}</div></div>
+      <div class="row flagrow">${flagBtn('unsafe', '⚑ Nevhodný')}${flagBtn('ok', '✓ V pořádku')}${flagBtn('', 'Zrušit')}</div>
+      <label class="lbl">Pozitivní prompt<textarea id="fPos">${esc(p.positive)}</textarea></label>
+      <label class="lbl">Negativní prompt${info.backend === 'flux' ? ' (FLUX ho ignoruje — vyloučení napiš do pozitivního)' : ''}<textarea id="fNeg" class="neg">${esc(p.negative)}</textarea></label>
+      <div class="row">
+        <label class="lbl" style="flex:1">Seed (0 = nový náhodný)<input id="fSeed" class="seed" type="number" value="${kept ? kept.seed : 0}"></label>
+        <button data-x="keepseed" title="Použít seed současného obrázku">současný seed</button>
+      </div>
+      ${info.img2img ? `<div class="knobs">
+        <label>Denoise<input id="fDen" type="number" step="0.01" min="0" max="1" value="${p.denoise ?? ''}"></label>
+        ${info.controlNet ? `<label>CN strength<input id="fCS" type="number" step="0.01" min="0" max="2" value="${p.controlStrength ?? ''}"></label>
+        <label>CN end<input id="fCE" type="number" step="0.01" min="0" max="1" value="${p.controlEnd ?? ''}"></label>` : ''}
+      </div>` : ''}
+      <div class="row">
+        <button class="primary" data-x="regen" ${busy ? 'disabled' : ''}>${busy ? (busy === 'queued' ? 'Ve frontě…' : 'Generuje se…') : '↻ Přegenerovat'}</button>
+        <button data-x="reset" title="Nahradit pole briefem rozepsaným pro tento styl">Vrátit na brief</button>
+      </div>
+      ${cell.cand ? `<div class="row"><button class="primary" data-x="accept">✓ Přijmout kandidáta</button><button data-x="discard">✗ Zahodit</button></div>` : ''}
+      <div class="err" id="dlgErr"></div>
+      <div class="meta">Přijetí nahradí obrázek, uloží prompt + seed do <code>tuned/${esc(style)}.yaml</code> a starý soubor nechá v <code>build/review/replaced/</code>.
+        <kbd>⌘↵</kbd> přegenerovat · <kbd>Esc</kbd> zavřít</div>
+    </div></div>`;
+  dlg._info = info;
+  if (!dlg.open) dlg.showModal();
+}
+
+function readForm() {
+  const num = sel => { const el = $(sel, dlg); return el && el.value !== '' ? Number(el.value) : undefined; };
+  return { positive: $('#fPos', dlg).value, negative: $('#fNeg', dlg).value, seed: num('#fSeed') || 0,
+           denoise: num('#fDen'), controlStrength: num('#fCS'), controlEnd: num('#fCE') };
+}
+function fillForm(p) {
+  $('#fPos', dlg).value = p.positive ?? ''; $('#fNeg', dlg).value = p.negative ?? '';
+  if (p.seed !== undefined) $('#fSeed', dlg).value = p.seed;
+  for (const [sel, k] of [['#fDen', 'denoise'], ['#fCS', 'controlStrength'], ['#fCE', 'controlEnd']]) {
+    const el = $(sel, dlg); if (el && p[k] !== undefined) el.value = p[k];
+  }
+}
+function showDlgError(msg) { const el = $('#dlgErr', dlg); if (el) el.textContent = msg; }
+
+dlg.addEventListener('click', async e => {
+  if (e.target === dlg) { dlg.close(); return; }
+  const flag = e.target.closest('[data-flag]');
+  if (flag) { await setFlag(dlgId, flag.dataset.flag); openDialog(dlgId, { keepForm: true }); return; }
+  const x = e.target.closest('[data-x]')?.dataset.x;
+  if (!x) return;
+  e.preventDefault();
+  const info = dlg._info;
+  if (x === 'regen') { regenerate(dlgId, readForm()); openDialog(dlgId, { keepForm: true }); }
+  if (x === 'reset') fillForm({ ...info.fromBrief, seed: 0 });
+  if (x === 'keepseed') $('#fSeed', dlg).value = info.current.seed || 0;
+  if (x === 'usecand' && info.candidate) fillForm(info.candidate);
+  if (x === 'accept') { if (await accept(dlgId)) openDialog(dlgId); }
+  if (x === 'discard') { await discard(dlgId); openDialog(dlgId, { keepForm: true }); }
+});
+dlg.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) { e.preventDefault(); $('[data-x=regen]', dlg)?.click(); }
+});
+dlg.addEventListener('close', () => { dlgId = null; });
+
+// ── grid interactions ────────────────────────────────────────────────────
+$('#main').addEventListener('click', e => {
+  const cellEl = e.target.closest('.cell'); if (!cellEl) return;
+  const id = cellEl.dataset.id;
+  const act = e.target.closest('[data-act]')?.dataset.act;
+  if (act === 'unsafe') setFlag(id, findCell(id).cell.flag === 'unsafe' ? '' : 'unsafe');
+  else if (act === 'ok') setFlag(id, 'ok');
+  else if (act === 'regen') regenerate(id);
+  else if (act === 'accept') accept(id);
+  else if (act === 'discard') discard(id);
+  else if (act === 'open' || e.target.closest('[data-open]')) openDialog(id);
+});
+$('#main').addEventListener('mouseover', e => { const c = e.target.closest('.cell'); if (c) state.hover = c.dataset.id; });
+$('#main').addEventListener('mouseleave', () => { state.hover = null; });
+document.addEventListener('keydown', e => {
+  if (dlg.open || e.target.matches('input, textarea, select') || e.metaKey || e.ctrlKey || e.altKey) return;
+  const id = state.hover || document.activeElement?.closest?.('.cell')?.dataset.id;
+  if (!id) return;
+  const { cell } = findCell(id);
+  const k = e.key.toLowerCase();
+  if (k === 'u') setFlag(id, cell.flag === 'unsafe' ? '' : 'unsafe');
+  else if (k === 'o') setFlag(id, 'ok');
+  else if (k === '0') setFlag(id, '');
+  else if (k === 'r') regenerate(id);
+  else if (k === 'a' && cell.cand) accept(id);
+  else if (k === 'd' && cell.cand) discard(id);
+  else return;
+  e.preventDefault();
+});
+
+$('#regenFlagged').addEventListener('click', () => {
+  // Bases first: a stale restyle should be painted over an accepted base, and
+  // an unsafe base usually takes its restyle down with it.
+  const todo = visibleCells().filter(x => (x.c.flag === 'unsafe' || x.c.flag === 'stale') && !x.c.cand);
+  todo.sort((a, b) => (a.style === 'photo' ? 0 : 1) - (b.style === 'photo' ? 0 : 1));
+  for (const x of todo) regenerate(cellId(x.deck.slug, x.card.key, x.style));
+});
+
+for (const [id, ev] of [['deckSel', 'change'], ['viewSel', 'change'], ['styleSel', 'change']]) {
+  const el = $('#' + id);
+  const saved = pref(id); if (saved !== null && [...el.options].some(o => o.value === saved)) el.value = saved;
+  el.addEventListener(ev, () => { pref(id, el.value); render(); });
+}
+const size = $('#sizeSel');
+const applySize = () => document.documentElement.style.setProperty('--tile', size.value + 'px');
+size.value = pref('size') || 330; applySize();
+size.addEventListener('input', () => { pref('size', size.value); applySize(); });
+window.addEventListener('beforeunload', e => { if (running || queue.length) { e.preventDefault(); e.returnValue = ''; } });
+
+(async () => {
+  state.decks = await api('/api/decks');
+  const sel = $('#deckSel'); const saved = pref('deckSel');
+  for (const d of state.decks) sel.add(new Option(d.slug, d.slug));
+  if (saved) sel.value = saved;
+  render();
+})();
+</script>
+</body>
+</html>

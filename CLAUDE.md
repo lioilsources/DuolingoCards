@@ -62,6 +62,7 @@ make ukiyoe     DECK=animals-insects
 make tune   DECK=animals-sea STYLE=photo # iterative generate → VL-validate → refine loop
 make new-deck DECK=animals-sea STYLE=photo  # translate + images (photo) + build in one shot
 make prompts DECK=animals-sea STYLE=photo   # print expanded prompts (no generation)
+make review                                  # localhost:8790 (REVIEW_ADDR=…) — every card × shipped styles: flag, edit prompt, regenerate, accept
 ```
 
 Spark servers (defined in Makefile, local network):

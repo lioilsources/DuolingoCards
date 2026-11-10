@@ -9,6 +9,7 @@
 //	                       [-validator-model M] [-builder-model M] [-tune-log-json]]
 //	                [-pony-checkpoint NAME] [-illustrious-checkpoint NAME] [-controlnet NAME]
 //	                [-denoise F] [-control-strength F]
+//	content review  [-decks DIR] [-addr HOST:PORT] [-url URL] [-state DIR]  review/regenerate page
 //
 // All commands run entirely offline on local files in Git, except `images`
 // which calls a ComfyUI server (and, with -tune, an OpenAI-compatible LLM server
@@ -184,6 +185,8 @@ func main() {
 		err = runStyles(args)
 	case "publish":
 		err = runPublish(args)
+	case "review":
+		err = runReview(args)
 	case "-h", "--help", "help":
 		usage()
 		return
@@ -208,12 +211,14 @@ Usage:
   content images     [-decks DIR] [-deck SLUG] [-style NAME] [-url URL] [-workers N] [-force]
   content translate  [-decks DIR] [-deck SLUG] [-lang CODE] [-url URL] [-workers N] [-force]
   content styles
+  content review     [-decks DIR] [-addr HOST:PORT] [-url URL] [-state DIR]
 
 Commands:
   lint     Validate decks: card spine, translation coverage, orphan keys, schema.
   build    Merge deck.yaml + i18n/*.yaml into runtime deck.json files.
   prompts  Expand language-neutral visual briefs into FLUX + Pony prompts.
   images   Generate card images via ComfyUI (FLUX) and save to decks/<slug>/images/<style>/.
+  review   Local web page: every card in its shipped styles, flag, edit prompt, regenerate.
 
 Common flags:
   -decks DIR   Root folder containing deck-per-folder subfolders (default "decks").
@@ -519,6 +524,23 @@ func runPrompts(args []string) error {
 	return nil
 }
 
+// newRestyleClients builds the img2img restyle clients that repaint a flux base
+// image, one per style backend: Pony repaints in a paint medium, Illustrious
+// repaints in an art style with a ControlNet holding the subject's shape.
+func newRestyleClients(comfyURL, ponyCheckpoint, illustriousCheckpoint, controlNetModel string) map[prompt.Backend]*comfyuiimage.Client {
+	return map[prompt.Backend]*comfyuiimage.Client{
+		prompt.BackendPony: comfyuiimage.NewClient(comfyURL, "", "",
+			comfyuiimage.WithWorkflow(comfyuiimage.PonyImg2ImgWorkflow()),
+			comfyuiimage.WithNodeRoles(comfyuiimage.Img2ImgNodeRoles()),
+			comfyuiimage.WithCheckpoint(ponyCheckpoint)),
+		prompt.BackendIllustrious: comfyuiimage.NewClient(comfyURL, "", "",
+			comfyuiimage.WithWorkflow(comfyuiimage.IllustriousControlNetWorkflow()),
+			comfyuiimage.WithNodeRoles(comfyuiimage.IllustriousControlNetNodeRoles()),
+			comfyuiimage.WithCheckpoint(illustriousCheckpoint),
+			comfyuiimage.WithControlNet(controlNetModel)),
+	}
+}
+
 func runImages(args []string) error {
 	fs := newFlagSet("images")
 	decksDir := fs.String("decks", "decks", "root folder of deck-per-folder subfolders")
@@ -550,20 +572,7 @@ func runImages(args []string) error {
 
 	ponyClient := comfyuiimage.NewClient(*comfyURL, "", "")
 	fluxClient := comfyuiimage.NewClient(*comfyURL, "", "", comfyuiimage.WithFluxDev())
-	// restyleClients run the img2img restyle passes over a flux base image, one per
-	// style backend: Pony repaints in a paint medium, Illustrious repaints in an art
-	// style with a ControlNet holding the subject's shape.
-	restyleClients := map[prompt.Backend]*comfyuiimage.Client{
-		prompt.BackendPony: comfyuiimage.NewClient(*comfyURL, "", "",
-			comfyuiimage.WithWorkflow(comfyuiimage.PonyImg2ImgWorkflow()),
-			comfyuiimage.WithNodeRoles(comfyuiimage.Img2ImgNodeRoles()),
-			comfyuiimage.WithCheckpoint(*ponyCheckpoint)),
-		prompt.BackendIllustrious: comfyuiimage.NewClient(*comfyURL, "", "",
-			comfyuiimage.WithWorkflow(comfyuiimage.IllustriousControlNetWorkflow()),
-			comfyuiimage.WithNodeRoles(comfyuiimage.IllustriousControlNetNodeRoles()),
-			comfyuiimage.WithCheckpoint(*illustriousCheckpoint),
-			comfyuiimage.WithControlNet(*controlNetModel)),
-	}
+	restyleClients := newRestyleClients(*comfyURL, *ponyCheckpoint, *illustriousCheckpoint, *controlNetModel)
 
 	var validator *imagetune.Validator
 	var builder *imagetune.Builder
@@ -661,6 +670,17 @@ func runImages(args []string) error {
 				j.positive = entry.Positive
 				j.negative = entry.Negative
 				j.seed = entry.Seed
+				if j.img2img && entry.Denoise > 0 && *denoiseOverride == 0 {
+					j.denoise = entry.Denoise
+				}
+				if j.controlStrength > 0 {
+					if entry.ControlStrength > 0 && *controlStrengthOverride == 0 {
+						j.controlStrength = entry.ControlStrength
+					}
+					if entry.ControlEnd > 0 {
+						j.controlEnd = entry.ControlEnd
+					}
+				}
 			}
 			jobs = append(jobs, j)
 		}

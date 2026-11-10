@@ -20,6 +20,12 @@ type TunedEntry struct {
 	Model     string  `yaml:"model,omitempty"` // builder model that authored the prompt
 	Iters     int     `yaml:"iters,omitempty"` // iterations it took to reach this prompt
 	UpdatedAt string  `yaml:"updated_at,omitempty"`
+
+	// Restyle knobs, recorded only when they differ from the style preset (e.g.
+	// a card re-rendered from the review page with a lower denoise). 0 = preset.
+	Denoise         float64 `yaml:"denoise,omitempty"`
+	ControlStrength float64 `yaml:"control_strength,omitempty"`
+	ControlEnd      float64 `yaml:"control_end,omitempty"`
 }
 
 // tunedFile is the on-disk shape of decks/<slug>/tuned/<style>.yaml.
