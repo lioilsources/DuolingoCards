@@ -58,6 +58,10 @@ class _HomeScreenState extends State<HomeScreen> {
   final Set<String> _fetching = {};
   final Set<String> _attempted = {};
 
+  /// Guards [_offerFreeDecks] against the reload its own activations trigger.
+  bool _offering = false;
+  final Set<String> _offerFetched = {};
+
   @override
   void initState() {
     super.initState();
@@ -101,7 +105,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     try {
       await _entitlements.initialize();
-      if (_entitlements.shouldSeedFreeDecks) await _seedFreeDecks();
+      if (_entitlements.unofferedFreeSlugs.isNotEmpty) await _offerFreeDecks();
       _docsDir ??= await getApplicationDocumentsDirectory()
           .then((d) => d.path)
           .catchError((Object _) => '');
@@ -165,24 +169,52 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-  /// Put every free deck on home, so a first launch opens on something to
-  /// learn instead of an empty screen and a trip to the store.
-  Future<void> _seedFreeDecks() async {
-    final deviceLang =
-        SchedulerBinding.instance.platformDispatcher.locale.languageCode;
-    for (final slug in _entitlements.freeDeckSlugs) {
-      try {
-        final deck = await _langDeckService.load(slug);
-        final style = deck.preferredStyle;
-        if (style.isEmpty) continue;
-        final (l1, l2) = EntitlementService.defaultPair(
-            deck.availableLanguages, deviceLang);
-        await _entitlements.activate(slug, l1, l2, style, tier: deck.tier);
-      } catch (_) {
-        // A free deck missing from the bundle is skipped, not fatal.
+  /// Put every free deck the learner has not been offered yet on home: all of
+  /// them on a first launch, so it opens on something to learn instead of an
+  /// empty screen; later, only decks the catalog has since made free.
+  ///
+  /// A deck is marked offered once it lands on home, so removing it is final.
+  /// One that cannot be loaded yet (a remote-only deck whose deck.json did not
+  /// download) stays unoffered and is tried again on the next load.
+  Future<void> _offerFreeDecks() async {
+    if (_offering) return;
+    _offering = true;
+    try {
+      final deviceLang =
+          SchedulerBinding.instance.platformDispatcher.locale.languageCode;
+      for (final slug in _entitlements.unofferedFreeSlugs) {
+        try {
+          if (!await _langDeckService.isAvailableLocally(slug)) {
+            // One network try per session; the next launch tries again.
+            if (!_offerFetched.add(slug)) continue;
+            if (!await DeckDownloadService.instance.downloadDeckJson(slug)) {
+              continue;
+            }
+            _langDeckService.invalidateCache(slug);
+          }
+          final deck = await _langDeckService.load(slug);
+          final style = deck.preferredStyle;
+          if (style.isEmpty) continue;
+          final (l1, l2) = EntitlementService.defaultPair(
+            deck.availableLanguages,
+            deviceLang,
+          );
+          if (await _entitlements.activate(
+            slug,
+            l1,
+            l2,
+            style,
+            tier: deck.tier,
+          )) {
+            await _entitlements.markFreeDeckOffered(slug);
+          }
+        } catch (_) {
+          // A free deck that fails to load is skipped, not fatal.
+        }
       }
+    } finally {
+      _offering = false;
     }
-    await _entitlements.markFreeDecksSeeded();
   }
 
   /// Download [missing] one at a time, so the first deck shows up as soon as
@@ -195,8 +227,10 @@ class _HomeScreenState extends State<HomeScreen> {
     if (todo.isEmpty || !mounted) return;
     setState(() => _fetching.addAll(todo.map((e) => e.storageKey)));
     for (final e in todo) {
-      final ok =
-          await DeckDownloadService.instance.downloadDeck(e.deckSlug, e.style);
+      final ok = await DeckDownloadService.instance.downloadDeck(
+        e.deckSlug,
+        e.style,
+      );
       if (ok) _langDeckService.invalidateCache(e.deckSlug);
       if (!mounted) return;
       setState(() => _fetching.remove(e.storageKey));

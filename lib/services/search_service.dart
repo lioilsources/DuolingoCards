@@ -12,10 +12,14 @@ class SearchService {
   static final SearchService instance = SearchService._();
 
   SearchIndex? _index;
+  String? _key;
 
-  /// Build the index from [decks] (no-op if already built for this session).
+  /// Build the index from [decks]; reused while the deck set (slugs, versions
+  /// and order) is unchanged — the remote catalog can add decks mid-session.
   Future<SearchIndex> buildIndex(List<LanguageDeck> decks) async {
-    if (_index != null) return _index!;
+    final key = decks.map((d) => '${d.slug}@${d.version}').join(',');
+    if (_index != null && _key == key) return _index!;
+    _key = key;
 
     final entries = decks.map((deck) {
       final buf = StringBuffer();

@@ -37,6 +37,9 @@ class AppLocalizationsId extends AppLocalizations {
   String get badgePurchased => 'Dibeli';
 
   @override
+  String get badgeNew => 'Baru';
+
+  @override
   String get badgePaidDeck => 'Dek berbayar';
 
   @override

@@ -36,6 +36,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get badgePurchased => '購入済み';
 
   @override
+  String get badgeNew => '新着';
+
+  @override
   String get badgePaidDeck => '有料デッキ';
 
   @override
