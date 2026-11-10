@@ -4,6 +4,7 @@
 //	content lint    [-decks DIR] [-strict] [-images]   validate decks (DB-constraint replacement)
 //	content build   [-decks DIR] [-out DIR] [-strict]  merge deck.yaml + i18n/*.yaml → deck.json
 //	content prompts [-decks DIR] [-style NAME]          expand visual briefs → FLUX/Pony/Illustrious prompts
+//	content publish [-decks DIR] [-deck SLUG] [-what images|json|all] [-catalog FILE]  previews + CDN tree + docs/catalog.json
 //	content images  [-decks DIR] [-deck SLUG] [-style NAME] [-url URL] [-workers N] [-force]
 //	                [-tune [-max-iters N] [-score-threshold F] [-llm-url URL]
 //	                       [-validator-model M] [-builder-model M] [-tune-log-json]]
@@ -345,8 +346,19 @@ func runPublish(args []string) error {
 	previewCards := fs.Int("preview-cards", 3, "how many leading cards go into the preview set")
 	what := fs.String("what", "all", "what to publish: images, json, or all")
 	webpQuality := fs.Int("webp-quality", 0, "re-encode published images to WebP at this quality (0 = copy PNG unchanged; 85 is the shipping default)")
+	catalog := fs.String("catalog", "docs/catalog.json", "remote catalog written alongside deck.json (empty to skip)")
+	catalogSrc := fs.String("catalog-src", "assets/catalog.json", "bundled catalog the remote one is derived from")
+	today := fs.String("today", "", "date stamped on newly published decks, YYYY-MM-DD (default: today, UTC)")
 	if err := fs.Parse(args); err != nil {
 		return err
+	}
+	addedOn := time.Now().UTC()
+	if *today != "" {
+		t, err := time.Parse("2006-01-02", *today)
+		if err != nil {
+			return fmt.Errorf("-today: %w", err)
+		}
+		addedOn = t
 	}
 	if *what != "images" && *what != "json" && *what != "all" {
 		return fmt.Errorf("-what must be images, json or all (got %q)", *what)
@@ -389,6 +401,25 @@ func runPublish(args []string) error {
 		published++
 	}
 	fmt.Printf("\npublished %d deck(s)\n", published)
+
+	// The remote catalog indexes every published deck, not just -deck, so it
+	// is regenerated whenever deck.json files are published.
+	if opts.JSON && *catalog != "" && *cdn != "" {
+		wrote, err := content.WriteRemoteCatalog(*catalog, content.CatalogOptions{
+			Source:   *catalogSrc,
+			BuiltDir: *built,
+			CDNDir:   *cdn,
+			Today:    addedOn,
+		})
+		if err != nil {
+			return fmt.Errorf("remote catalog: %w", err)
+		}
+		if wrote {
+			fmt.Printf("catalog → %s\n", *catalog)
+		} else {
+			fmt.Printf("catalog unchanged (%s)\n", *catalog)
+		}
+	}
 	return nil
 }
 
