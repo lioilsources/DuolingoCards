@@ -1,0 +1,214 @@
+lang: pl
+pivot: false
+title: Dinozaury
+cards:
+  dino.t_rex:
+    label: Tyranozaur
+    summary: Późna kreda · mięsożerca
+    info: |
+      Tyranozaur miał do 12 metrów długości i żył w Ameryce Północnej.
+      Jego zęby były wielkie jak banany, a jego ugryzienie było najsilniejsze ze wszystkich zwierząt lądowych.
+      Miał krótkie łapy, ale były one silne.
+  dino.triceratops:
+    label: Triceratops
+    summary: Późna kreda · roślinożerca
+    info: |
+      Triceratops miał około 9 metrów długości i żył w Ameryce Północnej.
+      Jego nazwa znaczy „trójroga twarz”, a dwa górne rogi miały około metra długości.
+      Żył w tym samym czasie i w tych samych miejscach co tyranozaur.
+  dino.stegosaurus:
+    label: Stegozaur
+    summary: Późna jura · roślinożerca
+    info: |
+      Stegozaur miał około 9 metrów długości i żył w Ameryce Północnej i w Portugalii.
+      Na grzbiecie miał duże płyty, a na ogonie ostre kolce.
+      Żył tak dawno, że od tyranozaura dzieliło go więcej czasu niż nas dzisiaj.
+  dino.brachiosaurus:
+    label: Brachiozaur
+    summary: Późna jura · roślinożerca
+    info: |
+      Brachiozaur miał około 22 metrów długości i żył w Ameryce Północnej.
+      Przednie nogi miał dłuższe od tylnych, więc sięgał liści tak wysoko jak czteropiętrowy dom.
+      Jego nazwa znaczy „ramienny jaszczur”.
+  dino.velociraptor:
+    label: Welociraptor
+    summary: Późna kreda · mięsożerca
+    info: |
+      Welociraptor miał tylko około 2 metrów długości, był wielkości indyka i żył w Mongolii i Chinach.
+      Był pokryty piórami, ale nie umiał latać.
+      Na każdej stopie miał duży zakrzywiony pazur do łapania zdobyczy.
+  dino.ankylosaurus:
+    label: Ankylozaur
+    summary: Późna kreda · roślinożerca
+    info: |
+      Ankylozaur miał około 7 metrów długości i żył w Ameryce Północnej.
+      Jego grzbiet pokrywał kostny pancerz, jak u żywego czołgu.
+      Na końcu ogona miał ciężką kostną maczugę do obrony.
+  dino.spinosaurus:
+    label: Spinozaur
+    summary: Późna kreda · mięsożerca
+    info: |
+      Spinozaur miał około 14 metrów długości, więcej niż tyranozaur, i żył w Afryce Północnej.
+      Na grzbiecie miał wysoki żagiel i mieszkał nad rzekami, gdzie łowił ryby.
+      Jego pierwsze skamieniałości zniszczono podczas drugiej wojny światowej.
+  dino.parasaurolophus:
+    label: Parazaurolof
+    summary: Późna kreda · roślinożerca
+    info: |
+      Parazaurolof miał około 9 metrów długości i żył w Ameryce Północnej.
+      Na głowie miał długi pusty w środku grzebień, a pysk zakończony dziobem jak u kaczki.
+      Gdy przedmuchiwał powietrze przez grzebień, wydawał głośne dźwięki podobne do trąbki.
+  dino.pteranodon:
+    label: Pteranodon
+    summary: Późna kreda · mięsożerca
+    info: |
+      Pteranodon był latającym gadem, a nie dinozaurem, a jego skrzydła miały do 7 metrów rozpiętości.
+      Żył w Ameryce Północnej i latał nad morzem, żeby łowić ryby.
+      Jego nazwa znaczy „skrzydło bez zębów”, bo miał dziób bez zębów.
+  dino.diplodocus:
+    label: Diplodok
+    summary: Późna jura · roślinożerca
+    info: |
+      Diplodok miał około 25 metrów długości, tyle co dwa autobusy, i żył w Ameryce Północnej.
+      Większość tej długości to jego bardzo długa szyja i cienki ogon podobny do bicza.
+      Miał małe zęby jak kołki, którymi zdzierał liście z roślin.
+  dino.brontosaurus:
+    label: Brontozaur
+    summary: Późna jura · roślinożerca
+    info: |
+      Brontozaur miał około 22 metrów długości i żył w Ameryce Północnej.
+      Jego nazwa znaczy „jaszczur grzmotów”, a ważył mniej więcej tyle co trzy słonie.
+      Przez ponad 100 lat naukowcy uważali go za apatozaura, ale w 2015 roku odzyskał własną nazwę.
+  dino.iguanodon:
+    label: Iguanodon
+    summary: Wczesna kreda · roślinożerca
+    info: |
+      Iguanodon miał około 10 metrów długości i żył w Europie.
+      Na każdym kciuku miał ostry kolec, który naukowcy najpierw wzięli za róg na nosie.
+      W 1825 roku stał się jednym z pierwszych dinozaurów, jakie w ogóle nazwano.
+  dino.pachycephalosaurus:
+    label: Pachycefalozaur
+    summary: Późna kreda · roślinożerca
+    info: |
+      Pachycefalozaur miał około 4,5 metra długości i żył w Ameryce Północnej.
+      Kość na czubku jego głowy miała do 25 centymetrów grubości.
+      Jego nazwa znaczy „grubogłowy jaszczur”.
+  dino.archaeopteryx:
+    label: Archeopteryks
+    summary: Późna jura · mięsożerca
+    info: |
+      Archeopteryks był wielkości kruka i żył na terenie dzisiejszych Niemiec.
+      Miał pióra i skrzydła jak ptak, ale też zęby, pazury na skrzydłach i długi kostny ogon.
+      Pokazuje, że ptaki są żyjącymi krewnymi dinozaurów.
+  dino.allosaurus:
+    label: Allozaur
+    summary: Późna jura · mięsożerca
+    info: |
+      Allozaur miał około 9 metrów długości i żył w Ameryce Północnej i w Portugalii.
+      Był największym drapieżnikiem swoich czasów i miał małe różki nad oczami.
+      Na jednej skamieniałości allozaura widać ranę zadaną kolczastym ogonem stegozaura.
+  dino.mosasaurus:
+    label: Mozazaur
+    summary: Późna kreda · mięsożerca
+    info: |
+      Mozazaur był olbrzymim gadem morskim, a nie dinozaurem, i miał około 13 metrów długości.
+      Jego krewnymi są jaszczurki i węże, a do oddychania musiał wypływać na powierzchnię.
+      Jego pierwszą skamieniałość znaleziono w Holandii, nad rzeką Mozą.
+  dino.plesiosaurus:
+    label: Plezjozaur
+    summary: Wczesna jura · mięsożerca
+    info: |
+      Plezjozaur był gadem morskim, a nie dinozaurem, i miał około 3 metrów długości.
+      Miał długą szyję, małą głowę i cztery duże płetwy do pływania.
+      Jego pierwszy kompletny szkielet znalazła w Anglii poszukiwaczka skamieniałości Mary Anning.
+  dino.ichthyosaurus:
+    label: Ichtiozaur
+    summary: Wczesna jura · mięsożerca
+    info: |
+      Ichtiozaur był gadem morskim, a nie dinozaurem ani rybą, i miał około 2 metrów długości.
+      Wyglądał jak delfin i miał bardzo duże oczy, którymi widział w ciemnej wodzie.
+      Zamiast składać jaja, rodził w morzu żywe młode.
+  dino.dimetrodon:
+    label: Dimetrodon
+    summary: Wczesny perm · mięsożerca
+    info: |
+      Dimetrodon nie był dinozaurem: żył około 40 milionów lat przed pierwszymi dinozaurami.
+      Miał do 4 metrów długości, wysoki żagiel na grzbiecie i żył w Ameryce Północnej i w Europie.
+      Jest bliżej spokrewniony ze ssakami, takimi jak my, niż z dinozaurami.
+  dino.carnotaurus:
+    label: Karnotaur
+    summary: Późna kreda · mięsożerca
+    info: |
+      Karnotaur miał około 8 metrów długości i żył w Argentynie, w Ameryce Południowej.
+      Jego nazwa znaczy „mięsożerny byk”, bo nad oczami miał dwa rogi.
+      Jego łapy były malutkie, jeszcze mniejsze niż u tyranozaura.
+  dino.therizinosaurus:
+    label: Teryzinozaur
+    summary: Późna kreda · roślinożerca
+    info: |
+      Teryzinozaur miał około 9 metrów długości i żył w Mongolii.
+      Jego pazury były dłuższe niż szkolna linijka – to najdłuższe pazury spośród wszystkich znanych zwierząt.
+      Choć był spokrewniony z tyranozaurem, jadł rośliny.
+  dino.gallimimus:
+    label: Galimim
+    summary: Późna kreda · wszystkożerca
+    info: |
+      Galimim miał około 6 metrów długości i żył w Mongolii.
+      Wyglądał jak wielki struś, miał bezzębny dziób i długie nogi.
+      Był jednym z najszybszych biegaczy wśród dinozaurów.
+  dino.dilophosaurus:
+    label: Dilofozaur
+    summary: Wczesna jura · mięsożerca
+    info: |
+      Dilofozaur miał około 7 metrów długości i żył w Ameryce Północnej.
+      Na głowie miał dwa cienkie grzebienie, a jego nazwa znaczy „jaszczur z dwoma grzebieniami”.
+      W filmach pluje jadem i ma kołnierz na szyi, ale nie ma dowodów ani na jedno, ani na drugie.
+  dino.styracosaurus:
+    label: Styrakozaur
+    summary: Późna kreda · roślinożerca
+    info: |
+      Styrakozaur miał około 5,5 metra długości i żył w Kanadzie.
+      Z kostnej kryzy wokół jego szyi sterczały długie kolce.
+      Miał też jeden długi róg na nosie, mierzący do 60 centymetrów.
+  dino.quetzalcoatlus:
+    label: Quetzalcoatlus
+    summary: Późna kreda · mięsożerca
+    info: |
+      Quetzalcoatlus był latającym gadem, a nie dinozaurem, i żył w Ameryce Północnej.
+      Jego skrzydła miały około 10 metrów rozpiętości, a stojąc na ziemi, był wysoki jak żyrafa.
+      Nazwano go na cześć Quetzalcoatla, pierzastego węża, boga Azteków.
+  dino.compsognathus:
+    label: Kompsognat
+    summary: Późna jura · mięsożerca
+    info: |
+      Kompsognat miał tylko około 1 metra długości, był wielkości kury i żył w Niemczech i Francji.
+      Był jednym z najmniejszych dinozaurów i szybko biegał na dwóch nogach.
+      Jedna skamieniałość wciąż ma w żołądku małą jaszczurkę – jego ostatni posiłek.
+  dino.oviraptor:
+    label: Owiraptor
+    summary: Późna kreda · wszystkożerca
+    info: |
+      Owiraptor miał około 2 metrów długości, pióra i dziób, i żył w Mongolii.
+      Jego nazwa znaczy „złodziej jaj”, bo znaleziono go na gnieździe pełnym jaj.
+      Później naukowcy odkryli, że to były jaja jego własnego gatunku, więc był troskliwym rodzicem, a nie złodziejem.
+  dino.kentrosaurus:
+    label: Kentrozaur
+    summary: Późna jura · roślinożerca
+    info: |
+      Kentrozaur miał około 4,5 metra długości i żył w Tanzanii, w Afryce.
+      Był mniejszym krewnym stegozaura, z płytami na szyi i długimi kolcami na grzbiecie i ogonie.
+      Jego nazwa znaczy „kolczasty jaszczur”.
+  dino.microraptor:
+    label: Mikroraptor
+    summary: Wczesna kreda · mięsożerca
+    info: |
+      Mikroraptor miał mniej niż 1 metr długości i żył w Chinach.
+      Pierzaste skrzydła miał i na przednich, i na tylnych kończynach, więc miał cztery skrzydła.
+      Jego pióra były czarne i lśniące jak u wrony.
+  dino.protoceratops:
+    label: Protoceratops
+    summary: Późna kreda · roślinożerca
+    info: |
+      Protoceratops miał około 2 metrów długości, był wielkości owcy i żył w Mongolii i Chinach.
+      Miał kostną kryzę i dziób jak u papugi, ale nie miał prawdziwych rogów.
+      Słynna skamieniałość pokazuje protoceratopsa i welociraptora zwartych w walce.
