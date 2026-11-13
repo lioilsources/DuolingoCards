@@ -1,0 +1,214 @@
+lang: de
+pivot: false
+title: Dinosaurier
+cards:
+  dino.t_rex:
+    label: Tyrannosaurus
+    summary: Späte Kreidezeit · Fleischfresser
+    info: |
+      Tyrannosaurus rex war bis zu 12 Meter lang und lebte in Nordamerika.
+      Seine Zähne waren so groß wie Bananen, und er hatte den stärksten Biss aller Landtiere.
+      Seine Arme waren kurz, aber kräftig.
+  dino.triceratops:
+    label: Triceratops
+    summary: Späte Kreidezeit · Pflanzenfresser
+    info: |
+      Triceratops war etwa 9 Meter lang und lebte in Nordamerika.
+      Sein Name bedeutet „Dreihorngesicht“, und seine beiden oberen Hörner waren etwa einen Meter lang.
+      Er lebte zur selben Zeit und an denselben Orten wie Tyrannosaurus.
+  dino.stegosaurus:
+    label: Stegosaurus
+    summary: Später Jura · Pflanzenfresser
+    info: |
+      Stegosaurus war etwa 9 Meter lang und lebte in Nordamerika und Portugal.
+      Er hatte große Platten auf dem Rücken und spitze Stacheln am Schwanz.
+      Er lebte so lange vor T. rex, dass er zeitlich weiter von ihm entfernt ist als wir.
+  dino.brachiosaurus:
+    label: Brachiosaurus
+    summary: Später Jura · Pflanzenfresser
+    info: |
+      Brachiosaurus war etwa 22 Meter lang und lebte in Nordamerika.
+      Seine Vorderbeine waren länger als die Hinterbeine, so kam er an Blätter so hoch wie ein vierstöckiges Haus.
+      Sein Name bedeutet „Armechse“.
+  dino.velociraptor:
+    label: Velociraptor
+    summary: Späte Kreidezeit · Fleischfresser
+    info: |
+      Velociraptor war nur etwa 2 Meter lang, ungefähr so groß wie ein Truthahn, und lebte in der Mongolei und in China.
+      Er war mit Federn bedeckt, konnte aber nicht fliegen.
+      An jedem Fuß hatte er eine große gebogene Kralle, um Beute zu fangen.
+  dino.ankylosaurus:
+    label: Ankylosaurus
+    summary: Späte Kreidezeit · Pflanzenfresser
+    info: |
+      Ankylosaurus war etwa 7 Meter lang und lebte in Nordamerika.
+      Sein Rücken war mit einem Knochenpanzer bedeckt, wie bei einem lebenden Panzer.
+      Am Ende seines Schwanzes hatte er eine schwere Knochenkeule, mit der er sich verteidigte.
+  dino.spinosaurus:
+    label: Spinosaurus
+    summary: Späte Kreidezeit · Fleischfresser
+    info: |
+      Spinosaurus war etwa 14 Meter lang, sogar länger als T. rex, und lebte in Nordafrika.
+      Er hatte ein hohes Segel auf dem Rücken und lebte an Flüssen, wo er Fische fing.
+      Seine ersten Fossilien wurden im Zweiten Weltkrieg zerstört.
+  dino.parasaurolophus:
+    label: Parasaurolophus
+    summary: Späte Kreidezeit · Pflanzenfresser
+    info: |
+      Parasaurolophus war etwa 9 Meter lang und lebte in Nordamerika.
+      Er hatte einen langen, hohlen Kamm auf dem Kopf und einen Schnabel wie eine Ente.
+      Wenn er Luft durch seinen Kamm blies, konnte er laute Töne wie eine Trompete machen.
+  dino.pteranodon:
+    label: Pteranodon
+    summary: Späte Kreidezeit · Fleischfresser
+    info: |
+      Pteranodon war ein Flugsaurier und kein Dinosaurier, seine Flügel waren bis zu 7 Meter breit.
+      Er lebte in Nordamerika und flog über das Meer, um Fische zu fangen.
+      Sein Name bedeutet „Flügel ohne Zähne“, denn sein Schnabel hatte keine Zähne.
+  dino.diplodocus:
+    label: Diplodocus
+    summary: Später Jura · Pflanzenfresser
+    info: |
+      Diplodocus war etwa 25 Meter lang, so lang wie zwei Busse, und lebte in Nordamerika.
+      Den größten Teil seiner Länge machten sein sehr langer Hals und sein dünner Peitschenschwanz aus.
+      Mit seinen kleinen, stiftförmigen Zähnen streifte er Blätter von den Pflanzen.
+  dino.brontosaurus:
+    label: Brontosaurus
+    summary: Später Jura · Pflanzenfresser
+    info: |
+      Brontosaurus war etwa 22 Meter lang und lebte in Nordamerika.
+      Sein Name bedeutet „Donnerechse“, und er wog ungefähr so viel wie drei Elefanten.
+      Über 100 Jahre lang hielten Forscher ihn für Apatosaurus, doch 2015 bekam er seinen eigenen Namen zurück.
+  dino.iguanodon:
+    label: Iguanodon
+    summary: Frühe Kreidezeit · Pflanzenfresser
+    info: |
+      Iguanodon war etwa 10 Meter lang und lebte in Europa.
+      An jedem Daumen hatte er einen spitzen Dorn, den Forscher zuerst für ein Horn auf der Nase hielten.
+      1825 wurde er als einer der allerersten Dinosaurier benannt.
+  dino.pachycephalosaurus:
+    label: Pachycephalosaurus
+    summary: Späte Kreidezeit · Pflanzenfresser
+    info: |
+      Pachycephalosaurus war etwa 4,5 Meter lang und lebte in Nordamerika.
+      Der Knochen oben auf seinem Kopf war bis zu 25 Zentimeter dick.
+      Sein Name bedeutet „Dickkopfechse“.
+  dino.archaeopteryx:
+    label: Archaeopteryx
+    summary: Später Jura · Fleischfresser
+    info: |
+      Archaeopteryx war etwa so groß wie ein Rabe und lebte im heutigen Deutschland.
+      Er hatte Federn und Flügel wie ein Vogel, aber auch Zähne, Krallen an den Flügeln und einen langen Knochenschwanz.
+      Er zeigt, dass Vögel die lebenden Verwandten der Dinosaurier sind.
+  dino.allosaurus:
+    label: Allosaurus
+    summary: Später Jura · Fleischfresser
+    info: |
+      Allosaurus war etwa 9 Meter lang und lebte in Nordamerika und Portugal.
+      Er war der größte Jäger seiner Zeit und hatte kleine Hörner über den Augen.
+      Ein Allosaurus-Fossil hat eine Wunde vom Stachelschwanz eines Stegosaurus.
+  dino.mosasaurus:
+    label: Mosasaurus
+    summary: Späte Kreidezeit · Fleischfresser
+    info: |
+      Mosasaurus war ein riesiges Meeresreptil und kein Dinosaurier, etwa 13 Meter lang.
+      Seine Verwandten sind Echsen und Schlangen, und er musste zum Atmen an die Oberfläche kommen.
+      Sein erstes Fossil wurde in den Niederlanden gefunden, in der Nähe des Flusses Maas.
+  dino.plesiosaurus:
+    label: Plesiosaurus
+    summary: Früher Jura · Fleischfresser
+    info: |
+      Plesiosaurus war ein Meeresreptil und kein Dinosaurier, etwa 3 Meter lang.
+      Er hatte einen langen Hals, einen kleinen Kopf und vier große Flossen zum Schwimmen.
+      Sein erstes vollständiges Skelett fand die Fossiliensammlerin Mary Anning in England.
+  dino.ichthyosaurus:
+    label: Ichthyosaurus
+    summary: Früher Jura · Fleischfresser
+    info: |
+      Ichthyosaurus war ein Meeresreptil, weder Dinosaurier noch Fisch, und etwa 2 Meter lang.
+      Er sah aus wie ein Delfin und hatte sehr große Augen, um im dunklen Wasser zu sehen.
+      Statt Eier zu legen, brachte er im Meer lebende Junge zur Welt.
+  dino.dimetrodon:
+    label: Dimetrodon
+    summary: Frühes Perm · Fleischfresser
+    info: |
+      Dimetrodon war kein Dinosaurier: Er lebte etwa 40 Millionen Jahre vor den ersten Dinosauriern.
+      Er war bis zu 4 Meter lang, hatte ein hohes Rückensegel und lebte in Nordamerika und Europa.
+      Er ist mit den Säugetieren, also auch mit uns, enger verwandt als mit den Dinosauriern.
+  dino.carnotaurus:
+    label: Carnotaurus
+    summary: Späte Kreidezeit · Fleischfresser
+    info: |
+      Carnotaurus war etwa 8 Meter lang und lebte in Argentinien in Südamerika.
+      Sein Name bedeutet „Fleischfressender Stier“, weil er zwei Hörner über den Augen hatte.
+      Seine Arme waren winzig, sogar kleiner als die von T. rex.
+  dino.therizinosaurus:
+    label: Therizinosaurus
+    summary: Späte Kreidezeit · Pflanzenfresser
+    info: |
+      Therizinosaurus war etwa 9 Meter lang und lebte in der Mongolei.
+      Seine Krallen waren länger als ein Schullineal, die längsten Krallen aller bekannten Tiere.
+      Obwohl er mit T. rex verwandt war, fraß er Pflanzen.
+  dino.gallimimus:
+    label: Gallimimus
+    summary: Späte Kreidezeit · Allesfresser
+    info: |
+      Gallimimus war etwa 6 Meter lang und lebte in der Mongolei.
+      Er sah aus wie ein großer Strauß, mit einem zahnlosen Schnabel und langen Beinen.
+      Er war einer der schnellsten Läufer unter den Dinosauriern.
+  dino.dilophosaurus:
+    label: Dilophosaurus
+    summary: Früher Jura · Fleischfresser
+    info: |
+      Dilophosaurus war etwa 7 Meter lang und lebte in Nordamerika.
+      Er hatte zwei dünne Kämme auf dem Kopf, und sein Name bedeutet „Zweikammechse“.
+      Im Film spuckt er Gift und hat einen Halskragen, aber für beides gibt es keinen Beweis.
+  dino.styracosaurus:
+    label: Styracosaurus
+    summary: Späte Kreidezeit · Pflanzenfresser
+    info: |
+      Styracosaurus war etwa 5,5 Meter lang und lebte in Kanada.
+      Aus dem Knochenkragen um seinen Hals ragten lange Stacheln heraus.
+      Außerdem hatte er ein langes Horn auf der Nase, bis zu 60 Zentimeter lang.
+  dino.quetzalcoatlus:
+    label: Quetzalcoatlus
+    summary: Späte Kreidezeit · Fleischfresser
+    info: |
+      Quetzalcoatlus war ein Flugsaurier und kein Dinosaurier und lebte in Nordamerika.
+      Seine Flügel waren etwa 10 Meter breit, und auf dem Boden stehend war er so groß wie eine Giraffe.
+      Er wurde nach Quetzalcoatl benannt, einem gefiederten Schlangengott der Azteken.
+  dino.compsognathus:
+    label: Compsognathus
+    summary: Später Jura · Fleischfresser
+    info: |
+      Compsognathus war nur etwa 1 Meter lang, ungefähr so groß wie ein Huhn, und lebte in Deutschland und Frankreich.
+      Er war einer der kleinsten Dinosaurier und lief schnell auf zwei Beinen.
+      In einem Fossil steckt noch eine kleine Echse im Magen, seine letzte Mahlzeit.
+  dino.oviraptor:
+    label: Oviraptor
+    summary: Späte Kreidezeit · Allesfresser
+    info: |
+      Oviraptor war etwa 2 Meter lang, hatte Federn und einen Schnabel und lebte in der Mongolei.
+      Sein Name bedeutet „Eierdieb“, weil man ihn auf einem Nest mit Eiern fand.
+      Später fanden Forscher heraus, dass es Eier seiner eigenen Art waren: Er war also ein fürsorglicher Elternteil und kein Dieb.
+  dino.kentrosaurus:
+    label: Kentrosaurus
+    summary: Später Jura · Pflanzenfresser
+    info: |
+      Kentrosaurus war etwa 4,5 Meter lang und lebte in Tansania in Afrika.
+      Er war ein kleinerer Verwandter von Stegosaurus, mit Platten am Hals und langen Stacheln auf Rücken und Schwanz.
+      Sein Name bedeutet „Stachelechse“.
+  dino.microraptor:
+    label: Microraptor
+    summary: Frühe Kreidezeit · Fleischfresser
+    info: |
+      Microraptor war weniger als 1 Meter lang und lebte in China.
+      Er hatte befiederte Flügel an Armen und Beinen, also vier Flügel.
+      Seine Federn waren schwarz und glänzend, wie bei einer Krähe.
+  dino.protoceratops:
+    label: Protoceratops
+    summary: Späte Kreidezeit · Pflanzenfresser
+    info: |
+      Protoceratops war etwa 2 Meter lang, ungefähr so groß wie ein Schaf, und lebte in der Mongolei und in China.
+      Er hatte einen Knochenkragen und einen Schnabel wie ein Papagei, aber keine echten Hörner.
+      Ein berühmtes Fossil zeigt einen Protoceratops und einen Velociraptor mitten im Kampf.

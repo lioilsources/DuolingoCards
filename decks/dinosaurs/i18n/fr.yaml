@@ -1,0 +1,214 @@
+lang: fr
+pivot: false
+title: Dinosaures
+cards:
+  dino.t_rex:
+    label: Tyrannosaure
+    summary: Crétacé supérieur · carnivore
+    info: |
+      Le Tyrannosaurus rex mesurait jusqu'à 12 mètres de long et vivait en Amérique du Nord.
+      Ses dents étaient aussi grandes que des bananes, et il avait la morsure la plus puissante de tous les animaux terrestres.
+      Ses bras étaient courts, mais ils étaient forts.
+  dino.triceratops:
+    label: Tricératops
+    summary: Crétacé supérieur · herbivore
+    info: |
+      Le Tricératops mesurait environ 9 mètres de long et vivait en Amérique du Nord.
+      Son nom veut dire « visage à trois cornes », et ses deux cornes du haut mesuraient environ un mètre.
+      Il vivait à la même époque et aux mêmes endroits que le Tyrannosaure.
+  dino.stegosaurus:
+    label: Stégosaure
+    summary: Jurassique supérieur · herbivore
+    info: |
+      Le Stégosaure mesurait environ 9 mètres de long et vivait en Amérique du Nord et au Portugal.
+      Il avait de grandes plaques sur le dos et des pointes acérées sur la queue.
+      Il a vécu il y a si longtemps qu'il est plus éloigné du T. rex dans le temps que nous.
+  dino.brachiosaurus:
+    label: Brachiosaure
+    summary: Jurassique supérieur · herbivore
+    info: |
+      Le Brachiosaure mesurait environ 22 mètres de long et vivait en Amérique du Nord.
+      Ses pattes avant étaient plus longues que ses pattes arrière : il pouvait atteindre des feuilles aussi hautes qu'un immeuble de quatre étages.
+      Son nom veut dire « lézard à bras ».
+  dino.velociraptor:
+    label: Vélociraptor
+    summary: Crétacé supérieur · carnivore
+    info: |
+      Le Vélociraptor ne mesurait qu'environ 2 mètres de long, à peu près la taille d'une dinde, et vivait en Mongolie et en Chine.
+      Il était couvert de plumes, mais il ne pouvait pas voler.
+      Sur chaque pied, il avait une grande griffe recourbée pour attraper ses proies.
+  dino.ankylosaurus:
+    label: Ankylosaure
+    summary: Crétacé supérieur · herbivore
+    info: |
+      L'Ankylosaure mesurait environ 7 mètres de long et vivait en Amérique du Nord.
+      Son dos était couvert d'une armure d'os, comme un char d'assaut vivant.
+      Au bout de sa queue, il avait une lourde massue osseuse pour se défendre.
+  dino.spinosaurus:
+    label: Spinosaure
+    summary: Crétacé supérieur · carnivore
+    info: |
+      Le Spinosaure mesurait environ 14 mètres de long, encore plus que le T. rex, et vivait en Afrique du Nord.
+      Il avait une grande voile sur le dos et vivait près des rivières, où il attrapait des poissons.
+      Ses premiers fossiles ont été détruits pendant la Seconde Guerre mondiale.
+  dino.parasaurolophus:
+    label: Parasaurolophus
+    summary: Crétacé supérieur · herbivore
+    info: |
+      Le Parasaurolophus mesurait environ 9 mètres de long et vivait en Amérique du Nord.
+      Il avait une longue crête creuse sur la tête et un bec comme celui d'un canard.
+      En soufflant de l'air dans sa crête, il pouvait faire des sons puissants, comme une trompette.
+  dino.pteranodon:
+    label: Ptéranodon
+    summary: Crétacé supérieur · carnivore
+    info: |
+      Le Ptéranodon était un reptile volant, pas un dinosaure, et ses ailes mesuraient jusqu'à 7 mètres d'envergure.
+      Il vivait en Amérique du Nord et volait au-dessus de la mer pour attraper des poissons.
+      Son nom veut dire « aile sans dents », car il avait un bec sans aucune dent.
+  dino.diplodocus:
+    label: Diplodocus
+    summary: Jurassique supérieur · herbivore
+    info: |
+      Le Diplodocus mesurait environ 25 mètres de long, autant que deux bus, et vivait en Amérique du Nord.
+      La plus grande partie de sa longueur, c'était son très long cou et sa queue fine comme un fouet.
+      Il avait de petites dents en forme de crayon pour arracher les feuilles des plantes.
+  dino.brontosaurus:
+    label: Brontosaure
+    summary: Jurassique supérieur · herbivore
+    info: |
+      Le Brontosaure mesurait environ 22 mètres de long et vivait en Amérique du Nord.
+      Son nom veut dire « lézard tonnerre », et il pesait à peu près autant que trois éléphants.
+      Pendant plus de 100 ans, les scientifiques l'ont pris pour l'Apatosaure, mais en 2015 il a retrouvé son propre nom.
+  dino.iguanodon:
+    label: Iguanodon
+    summary: Crétacé inférieur · herbivore
+    info: |
+      L'Iguanodon mesurait environ 10 mètres de long et vivait en Europe.
+      Il avait une pointe acérée sur chaque pouce, que les scientifiques ont d'abord prise pour une corne sur son nez.
+      En 1825, il est devenu l'un des tout premiers dinosaures à recevoir un nom.
+  dino.pachycephalosaurus:
+    label: Pachycéphalosaure
+    summary: Crétacé supérieur · herbivore
+    info: |
+      Le Pachycéphalosaure mesurait environ 4,5 mètres de long et vivait en Amérique du Nord.
+      L'os du dessus de sa tête faisait jusqu'à 25 centimètres d'épaisseur.
+      Son nom veut dire « lézard à tête épaisse ».
+  dino.archaeopteryx:
+    label: Archéoptéryx
+    summary: Jurassique supérieur · carnivore
+    info: |
+      L'Archéoptéryx était à peu près de la taille d'un corbeau et vivait dans l'actuelle Allemagne.
+      Il avait des plumes et des ailes comme un oiseau, mais aussi des dents, des griffes sur les ailes et une longue queue osseuse.
+      Il montre que les oiseaux sont les parents vivants des dinosaures.
+  dino.allosaurus:
+    label: Allosaure
+    summary: Jurassique supérieur · carnivore
+    info: |
+      L'Allosaure mesurait environ 9 mètres de long et vivait en Amérique du Nord et au Portugal.
+      C'était le plus grand chasseur de son époque, et il avait de petites cornes au-dessus des yeux.
+      Un fossile d'Allosaure porte une blessure faite par la queue à pointes d'un Stégosaure.
+  dino.mosasaurus:
+    label: Mosasaure
+    summary: Crétacé supérieur · carnivore
+    info: |
+      Le Mosasaure était un reptile marin géant, pas un dinosaure, d'environ 13 mètres de long.
+      Ses cousins sont les lézards et les serpents, et il devait remonter à la surface pour respirer de l'air.
+      Son premier fossile a été trouvé aux Pays-Bas, près de la Meuse.
+  dino.plesiosaurus:
+    label: Plésiosaure
+    summary: Jurassique inférieur · carnivore
+    info: |
+      Le Plésiosaure était un reptile marin, pas un dinosaure, d'environ 3 mètres de long.
+      Il avait un long cou, une petite tête et quatre grandes nageoires pour nager.
+      Son premier squelette complet a été trouvé en Angleterre par la chasseuse de fossiles Mary Anning.
+  dino.ichthyosaurus:
+    label: Ichtyosaure
+    summary: Jurassique inférieur · carnivore
+    info: |
+      L'Ichtyosaure était un reptile marin, ni un dinosaure ni un poisson, d'environ 2 mètres de long.
+      Il ressemblait à un dauphin et avait de très grands yeux pour voir dans l'eau sombre.
+      Au lieu de pondre des œufs, il donnait naissance à des bébés vivants dans la mer.
+  dino.dimetrodon:
+    label: Dimétrodon
+    summary: Permien inférieur · carnivore
+    info: |
+      Le Dimétrodon n'était pas un dinosaure : il a vécu environ 40 millions d'années avant les premiers dinosaures.
+      Il mesurait jusqu'à 4 mètres de long, avait une grande voile sur le dos et vivait en Amérique du Nord et en Europe.
+      Il est plus proche des mammifères, comme nous, que des dinosaures.
+  dino.carnotaurus:
+    label: Carnotaurus
+    summary: Crétacé supérieur · carnivore
+    info: |
+      Le Carnotaurus mesurait environ 8 mètres de long et vivait en Argentine, en Amérique du Sud.
+      Son nom veut dire « taureau carnivore », car il avait deux cornes au-dessus des yeux.
+      Ses bras étaient minuscules, encore plus petits que ceux du T. rex.
+  dino.therizinosaurus:
+    label: Therizinosaure
+    summary: Crétacé supérieur · herbivore
+    info: |
+      Le Therizinosaure mesurait environ 9 mètres de long et vivait en Mongolie.
+      Ses griffes étaient plus longues qu'une règle d'écolier : ce sont les plus longues griffes de tous les animaux connus.
+      Même s'il était parent du T. rex, il mangeait des plantes.
+  dino.gallimimus:
+    label: Gallimimus
+    summary: Crétacé supérieur · omnivore
+    info: |
+      Le Gallimimus mesurait environ 6 mètres de long et vivait en Mongolie.
+      Il ressemblait à une grande autruche, avec un bec sans dents et de longues pattes.
+      C'était l'un des coureurs les plus rapides parmi les dinosaures.
+  dino.dilophosaurus:
+    label: Dilophosaure
+    summary: Jurassique inférieur · carnivore
+    info: |
+      Le Dilophosaure mesurait environ 7 mètres de long et vivait en Amérique du Nord.
+      Il avait deux fines crêtes sur la tête, et son nom veut dire « lézard à deux crêtes ».
+      Dans les films, il crache du venin et a une collerette autour du cou, mais rien ne le prouve.
+  dino.styracosaurus:
+    label: Styracosaure
+    summary: Crétacé supérieur · herbivore
+    info: |
+      Le Styracosaure mesurait environ 5,5 mètres de long et vivait au Canada.
+      De longues pointes dépassaient de la collerette osseuse autour de son cou.
+      Il avait aussi une longue corne sur le nez, jusqu'à 60 centimètres de long.
+  dino.quetzalcoatlus:
+    label: Quetzalcoatlus
+    summary: Crétacé supérieur · carnivore
+    info: |
+      Le Quetzalcoatlus était un reptile volant, pas un dinosaure, et vivait en Amérique du Nord.
+      Ses ailes mesuraient environ 10 mètres d'envergure, et debout sur le sol, il était aussi grand qu'une girafe.
+      Il doit son nom à Quetzalcoatl, un dieu serpent à plumes des Aztèques.
+  dino.compsognathus:
+    label: Compsognathus
+    summary: Jurassique supérieur · carnivore
+    info: |
+      Le Compsognathus ne mesurait qu'environ 1 mètre de long, à peu près la taille d'une poule, et vivait en Allemagne et en France.
+      C'était l'un des plus petits dinosaures, et il courait vite sur deux pattes.
+      Un fossile a encore un petit lézard dans son ventre : son dernier repas.
+  dino.oviraptor:
+    label: Oviraptor
+    summary: Crétacé supérieur · omnivore
+    info: |
+      L'Oviraptor mesurait environ 2 mètres de long, avait des plumes et un bec, et vivait en Mongolie.
+      Son nom veut dire « voleur d'œufs », car on l'a trouvé sur un nid d'œufs.
+      Plus tard, les scientifiques ont découvert que c'étaient les œufs de son espèce : c'était un parent attentionné, pas un voleur.
+  dino.kentrosaurus:
+    label: Kentrosaure
+    summary: Jurassique supérieur · herbivore
+    info: |
+      Le Kentrosaure mesurait environ 4,5 mètres de long et vivait en Tanzanie, en Afrique.
+      C'était un cousin plus petit du Stégosaure, avec des plaques sur le cou et de longues pointes sur le dos et la queue.
+      Son nom veut dire « lézard à pointes ».
+  dino.microraptor:
+    label: Microraptor
+    summary: Crétacé inférieur · carnivore
+    info: |
+      Le Microraptor mesurait moins de 1 mètre de long et vivait en Chine.
+      Il avait des ailes de plumes sur les bras et sur les pattes : il avait donc quatre ailes.
+      Ses plumes étaient noires et brillantes, comme celles d'une corneille.
+  dino.protoceratops:
+    label: Protocératops
+    summary: Crétacé supérieur · herbivore
+    info: |
+      Le Protocératops mesurait environ 2 mètres de long, à peu près la taille d'un mouton, et vivait en Mongolie et en Chine.
+      Il avait une collerette osseuse et un bec comme un perroquet, mais pas de vraies cornes.
+      Un célèbre fossile montre un Protocératops et un Vélociraptor pris en plein combat.
