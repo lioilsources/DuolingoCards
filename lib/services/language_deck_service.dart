@@ -5,6 +5,7 @@ import 'package:flutter/services.dart' show rootBundle, AssetManifest;
 import 'package:path_provider/path_provider.dart';
 
 import '../models/language_deck.dart';
+import '../models/store_catalog.dart';
 
 /// Loads no-backend [LanguageDeck]s.
 ///
@@ -36,7 +37,8 @@ class LanguageDeckService {
     if (docFile.existsSync()) {
       try {
         downloaded = LanguageDeck.fromJson(
-            jsonDecode(await docFile.readAsString()) as Map<String, dynamic>);
+          jsonDecode(await docFile.readAsString()) as Map<String, dynamic>,
+        );
       } catch (_) {
         // A truncated download must not make the deck unopenable.
       }
@@ -45,8 +47,9 @@ class LanguageDeckService {
     LanguageDeck? bundled;
     try {
       bundled = LanguageDeck.fromJson(
-          jsonDecode(await rootBundle.loadString('assets/decks/$slug.json'))
-              as Map<String, dynamic>);
+        jsonDecode(await rootBundle.loadString('assets/decks/$slug.json'))
+            as Map<String, dynamic>,
+      );
     } catch (_) {
       // Deck delivered purely over the air; the download is all there is.
     }
@@ -62,7 +65,10 @@ class LanguageDeckService {
   /// The deck with the higher version. Ties go to [bundled], which ships with
   /// the code that reads it and so cannot disagree with the app about styles.
   @visibleForTesting
-  static LanguageDeck? newerOf(LanguageDeck? bundled, LanguageDeck? downloaded) {
+  static LanguageDeck? newerOf(
+    LanguageDeck? bundled,
+    LanguageDeck? downloaded,
+  ) {
     if (bundled == null) return downloaded;
     if (downloaded == null) return bundled;
     return downloaded.version > bundled.version ? downloaded : bundled;
@@ -89,10 +95,57 @@ class LanguageDeckService {
     return manifest
         .listAssets()
         .where((p) => p.startsWith('assets/decks/') && p.endsWith('.json'))
-        .map((p) =>
-            p.substring('assets/decks/'.length, p.length - '.json'.length))
+        .map(
+          (p) => p.substring('assets/decks/'.length, p.length - '.json'.length),
+        )
         .toList()
       ..sort();
+  }
+
+  /// Every deck the store can list: the bundled ones plus each deck of
+  /// [remote] (the remote catalog's index) the binary does not carry.
+  ///
+  /// A remote-only deck needs its deck.json on the device before it can be
+  /// drawn; [fetchJson] downloads it when there is none yet or when the copy
+  /// is older than the catalog's version. A deck that cannot be fetched and
+  /// was never fetched before is left out rather than failing the store.
+  Future<List<LanguageDeck>> loadForStore(
+    List<CatalogDeck> remote, {
+    required Future<bool> Function(String slug) fetchJson,
+  }) async {
+    final bundled = await availableSlugs();
+    final extra = remoteOnly(bundled, remote);
+    final decks = <LanguageDeck>[...await Future.wait(bundled.map(load))];
+    for (final entry in extra) {
+      LanguageDeck? deck;
+      try {
+        deck = await load(entry.slug);
+      } catch (_) {}
+      if (deck == null || deck.version < entry.version) {
+        if (await fetchJson(entry.slug)) {
+          invalidateCache(entry.slug);
+          try {
+            deck = await load(entry.slug);
+          } catch (_) {}
+        }
+      }
+      if (deck != null) decks.add(deck);
+    }
+    return decks;
+  }
+
+  /// Entries of [remote] that are not among [bundled], in slug order.
+  @visibleForTesting
+  static List<CatalogDeck> remoteOnly(
+    List<String> bundled,
+    List<CatalogDeck> remote,
+  ) {
+    final have = bundled.toSet();
+    final seen = <String>{};
+    return [
+      for (final d in remote)
+        if (!have.contains(d.slug) && seen.add(d.slug)) d,
+    ]..sort((a, b) => a.slug.compareTo(b.slug));
   }
 
   /// Load every bundled deck.

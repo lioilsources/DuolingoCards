@@ -184,6 +184,12 @@ abstract class AppLocalizations {
   /// **'Purchased'**
   String get badgePurchased;
 
+  /// Store tile badge on a deck published in the last 14 days.
+  ///
+  /// In en, this message translates to:
+  /// **'New'**
+  String get badgeNew;
+
   /// No description provided for @badgePaidDeck.
   ///
   /// In en, this message translates to:

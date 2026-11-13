@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -6,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/deck_entitlement.dart';
 import '../models/store_catalog.dart';
 import 'iap_service.dart';
+import 'remote_catalog_service.dart';
 
 /// Decides which decks the user may open, and which (deck, l1, l2, style)
 /// combinations sit on the home screen.
@@ -25,15 +27,19 @@ import 'iap_service.dart';
 class EntitlementService extends ChangeNotifier {
   static final EntitlementService _instance = EntitlementService._internal();
   factory EntitlementService() => _instance;
-  EntitlementService._internal() : _iap = IAPService();
+  EntitlementService._internal()
+    : _iap = IAPService(),
+      _remoteService = RemoteCatalogService();
 
   final IAPService _iap;
+  final RemoteCatalogService _remoteService;
 
   static const String _ownedKey = 'owned_product_codes';
   static const String _deckEntitlementsKey = 'deck_entitlements';
   static const String _stylePrefsKey = 'deck_style_prefs';
   static const String _migrationKey = 'credits_migration_v2_done';
   static const String _freeSeededKey = 'free_decks_seeded_v1';
+  static const String _offeredFreeKey = 'offered_free_decks_v1';
 
   /// Styles renamed when the pipeline ids stopped naming models. Stored
   /// activation quads embed the style id, so they need rewriting or a user's
@@ -46,9 +52,14 @@ class EntitlementService extends ChangeNotifier {
     'illustrious-watercolor': 'watercolor',
   };
 
+  /// Bundled ∪ remote (see [StoreCatalog.merge]); what every check reads.
   StoreCatalog? _catalog;
+  StoreCatalog? _bundled;
+  StoreCatalog? _remote;
   SharedPreferences? _prefs;
   bool _initialized = false;
+  Future<bool>? _refreshing;
+  DateTime? _lastRefresh;
 
   final Set<String> _ownedCodes = {};
   final Set<String> _activatedKeys = {};
@@ -128,7 +139,10 @@ class EntitlementService extends ChangeNotifier {
       style: style,
     ).storageKey;
     if (_activatedKeys.add(key)) {
-      await _prefs?.setStringList(_deckEntitlementsKey, _activatedKeys.toList());
+      await _prefs?.setStringList(
+        _deckEntitlementsKey,
+        _activatedKeys.toList(),
+      );
       notifyListeners();
     }
     return true;
@@ -136,7 +150,11 @@ class EntitlementService extends ChangeNotifier {
 
   /// Take (slug, l1, l2, style) off the home screen. Ownership is untouched.
   Future<void> deactivate(
-      String slug, String l1, String l2, String style) async {
+    String slug,
+    String l1,
+    String l2,
+    String style,
+  ) async {
     final key = DeckEntitlement(
       deckSlug: slug,
       sourceLang: l1,
@@ -144,25 +162,57 @@ class EntitlementService extends ChangeNotifier {
       style: style,
     ).storageKey;
     if (_activatedKeys.remove(key)) {
-      await _prefs?.setStringList(_deckEntitlementsKey, _activatedKeys.toList());
+      await _prefs?.setStringList(
+        _deckEntitlementsKey,
+        _activatedKeys.toList(),
+      );
       notifyListeners();
     }
   }
 
-  // ── First run ─────────────────────────────────────────────────────────────
+  // ── Free decks on home ────────────────────────────────────────────────────
 
   /// The catalog's free decks, in catalog order.
   List<String> get freeDeckSlugs => _catalog?.free ?? const [];
 
-  /// True on a fresh install only: nothing was ever put on home and the free
-  /// decks have not been seeded yet. A learner who later clears home keeps an
-  /// empty home — the flag stays set.
-  bool get shouldSeedFreeDecks =>
-      _prefs?.getBool(_freeSeededKey) != true && _activatedKeys.isEmpty;
+  /// Free decks never yet put on home for this user, in catalog order.
+  ///
+  /// A fresh install gets every free deck this way (first-run seeding); an
+  /// existing user gets only those the catalog made free later. A deck counts
+  /// as offered once and forever, so one the user removed stays removed.
+  List<String> get unofferedFreeSlugs =>
+      pendingFreeSlugs(freeDeckSlugs, _offered());
 
-  Future<void> markFreeDecksSeeded() async {
-    await _prefs?.setBool(_freeSeededKey, true);
+  Future<void> markFreeDeckOffered(String slug) async {
+    final offered = _offered();
+    if (!offered.add(slug)) return;
+    await _prefs?.setStringList(_offeredFreeKey, offered.toList()..sort());
   }
+
+  Set<String> _offered() =>
+      (_prefs?.getStringList(_offeredFreeKey) ?? const []).toSet();
+
+  @visibleForTesting
+  static List<String> pendingFreeSlugs(
+    List<String> free,
+    Set<String> offered,
+  ) => [
+    for (final s in free)
+      if (!offered.contains(s)) s,
+  ];
+
+  /// The offered set an install starts with when it has none recorded yet.
+  ///
+  /// Builds before the remote catalog only seeded on first run, guarded by
+  /// [_freeSeededKey]. Such an install has already been offered every free
+  /// deck it bundled — counting them as unoffered would re-add the ones the
+  /// learner removed. A fresh install starts empty, so it seeds them all.
+  @visibleForTesting
+  static Set<String> initialOffered({
+    required bool seededBefore,
+    required bool hasActivations,
+    required List<String> bundledFree,
+  }) => seededBefore || hasActivations ? bundledFree.toSet() : <String>{};
 
   /// The language pair a deck gets when it is put on home without asking:
   /// the device language as L1 (matching `es` to `es-419`), and English as L2
@@ -178,10 +228,12 @@ class EntitlementService extends ChangeNotifier {
       return null;
     }
 
-    final l1 = match(deviceLang) ??
+    final l1 =
+        match(deviceLang) ??
         match('en') ??
         (langs.isNotEmpty ? langs.first : 'en');
-    final l2 = (l1 != 'en' ? match('en') : null) ??
+    final l2 =
+        (l1 != 'en' ? match('en') : null) ??
         match('es') ??
         langs.firstWhere((l) => l != l1, orElse: () => l1);
     return (l1, l2);
@@ -208,8 +260,9 @@ class EntitlementService extends ChangeNotifier {
     final raw = _prefs?.getString(_stylePrefsKey);
     if (raw == null) return {};
     try {
-      return (jsonDecode(raw) as Map<String, dynamic>)
-          .map((k, v) => MapEntry(k, v as String));
+      return (jsonDecode(raw) as Map<String, dynamic>).map(
+        (k, v) => MapEntry(k, v as String),
+      );
     } catch (_) {
       return {};
     }
@@ -227,11 +280,25 @@ class EntitlementService extends ChangeNotifier {
 
     _prefs = await SharedPreferences.getInstance();
     _ownedCodes.addAll(_prefs?.getStringList(_ownedKey) ?? const []);
-    _activatedKeys
-        .addAll(_prefs?.getStringList(_deckEntitlementsKey) ?? const []);
+    _activatedKeys.addAll(
+      _prefs?.getStringList(_deckEntitlementsKey) ?? const [],
+    );
 
     final raw = await rootBundle.loadString(catalogAsset);
-    _catalog = StoreCatalog.fromJson(jsonDecode(raw) as Map<String, dynamic>);
+    _bundled = StoreCatalog.fromJson(jsonDecode(raw) as Map<String, dynamic>);
+    _remote = _remoteService.cached(_prefs!);
+    _catalog = StoreCatalog.merge(_bundled!, _remote);
+
+    if (_prefs?.getStringList(_offeredFreeKey) == null) {
+      await _prefs?.setStringList(
+        _offeredFreeKey,
+        initialOffered(
+          seededBefore: _prefs?.getBool(_freeSeededKey) == true,
+          hasActivations: _activatedKeys.isNotEmpty,
+          bundledFree: _bundled!.free,
+        ).toList()..sort(),
+      );
+    }
 
     await _migrateFromCredits();
 
@@ -243,7 +310,57 @@ class EntitlementService extends ChangeNotifier {
       await _iap.loadProducts(_catalog!.skusForCurrentPlatform());
     }
     notifyListeners();
+
+    // Not awaited: home must not wait on the network. A fresh catalog lands
+    // through notifyListeners, and the store refreshes again when opened.
+    unawaited(refreshRemoteCatalog());
   }
+
+  /// Fetch the remote catalog and fold it in. Returns true when it arrived.
+  ///
+  /// Calls within [minInterval] of a successful refresh, and calls while one
+  /// is in flight, share its result instead of hitting the network again.
+  Future<bool> refreshRemoteCatalog({
+    Duration minInterval = const Duration(minutes: 5),
+  }) {
+    final inFlight = _refreshing;
+    if (inFlight != null) return inFlight;
+    final last = _lastRefresh;
+    if (last != null && DateTime.now().difference(last) < minInterval) {
+      return Future.value(true);
+    }
+    return _refreshing = _refresh().whenComplete(() => _refreshing = null);
+  }
+
+  Future<bool> _refresh() async {
+    final prefs = _prefs;
+    final bundled = _bundled;
+    if (prefs == null || bundled == null) return false;
+    final remote = await _remoteService.fetch(prefs);
+    if (remote == null) return false;
+    _lastRefresh = DateTime.now();
+    _remote = remote;
+    _catalog = StoreCatalog.merge(bundled, remote);
+    // A deck sold only by the remote catalog has a SKU the first query did not
+    // ask about; re-query so its price shows and it can be bought.
+    if (_iap.isAvailable) {
+      await _iap.loadProducts(_catalog!.skusForCurrentPlatform());
+    }
+    // A purchase replayed before its product was known found no deck to
+    // unlock; it can now.
+    for (final sku in _iap.ownedSkus) {
+      _handleOwned(sku, restored: true);
+    }
+    notifyListeners();
+    return true;
+  }
+
+  /// Published decks the remote catalog lists (cached or fresh).
+  List<CatalogDeck> get remoteDecks => _remote?.decks ?? const [];
+
+  /// Whether [slug] was published recently enough for the "New" badge.
+  bool isNewDeck(String slug, {DateTime? now}) =>
+      _catalog?.isNew(slug, now ?? DateTime.now()) ?? false;
 
   /// One-time upgrade from the credit-based model.
   ///
@@ -259,8 +376,11 @@ class EntitlementService extends ChangeNotifier {
 
     _activatedKeys
       ..clear()
-      ..addAll(migrateActivationKeys(
-          _prefs?.getStringList(_deckEntitlementsKey) ?? const []));
+      ..addAll(
+        migrateActivationKeys(
+          _prefs?.getStringList(_deckEntitlementsKey) ?? const [],
+        ),
+      );
 
     var granted = 0;
     for (final ent in ownedEntitlements) {

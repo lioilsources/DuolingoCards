@@ -37,6 +37,9 @@ class AppLocalizationsEl extends AppLocalizations {
   String get badgePurchased => 'Αγορασμένη';
 
   @override
+  String get badgeNew => 'Νέο';
+
+  @override
   String get badgePaidDeck => 'Επί πληρωμή';
 
   @override

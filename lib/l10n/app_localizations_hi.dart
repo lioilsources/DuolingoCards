@@ -37,6 +37,9 @@ class AppLocalizationsHi extends AppLocalizations {
   String get badgePurchased => 'खरीदा गया';
 
   @override
+  String get badgeNew => 'नया';
+
+  @override
   String get badgePaidDeck => 'पेड डेक';
 
   @override
