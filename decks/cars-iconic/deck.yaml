@@ -1,0 +1,284 @@
+# cars-iconic - 30 iconic world cars for kids 4-10 and car-loving adults.
+# One concrete model and year per card, photographed whole in a plain studio, so
+# FLUX draws a specific, heavily photographed car instead of a generic one (the
+# 1937 Tatra 87 probe came back as a generic 1930s saloon and was left out).
+# Side profile is the most reliable view; three-quarter front is used where the
+# face or open doors carry the identity. Two Porsche 911 generations on purpose.
+slug: cars-iconic
+version: 1
+tier: 1
+brief_attrs: ["(professional automotive studio photography:1.3)", "(entire car in frame:1.2)", "(accurate proportions:1.2)", "(highly detailed:1.1)"]
+styles:
+  - photo
+default_style: photo
+
+cards:
+  - key: car.ford_model_t
+    hint: Ford Model T, the early 1900s American car that put the world on wheels
+    image: car.ford_model_t.png
+    brief:
+      subject: 1915 Ford Model T touring car
+      attrs: [black paint, open top with folding fabric roof, tall narrow spoked wheels, upright windscreen, brass radiator, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.vw_beetle
+    hint: Volkswagen Beetle, the small round German car shaped like a beetle
+    image: car.vw_beetle.png
+    brief:
+      subject: 1967 Volkswagen Beetle
+      attrs: [light blue paint, round curved roof, round headlights on the front wings, chrome bumpers, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.vw_bus
+    hint: Volkswagen Type 2 bus, the friendly split-windscreen camper van
+    image: car.vw_bus.png
+    brief:
+      subject: 1965 Volkswagen Type 2 split-windscreen bus
+      attrs: [two-tone red and white paint, V-shaped front panel, two-piece split windscreen, row of small side windows, flat boxy body, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.jeep_willys
+    hint: Willys MB Jeep, the small open military car from the Second World War
+    image: car.jeep_willys.png
+    brief:
+      subject: 1943 Willys MB jeep
+      attrs: [olive drab paint, open top without doors, flat fold-down windscreen, vertical slotted grille, round headlights, spare wheel on the back, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.land_rover_defender
+    hint: Land Rover Defender, the boxy British off-road car
+    image: car.land_rover_defender.png
+    brief:
+      subject: 1995 Land Rover Defender 90
+      attrs: [dark green paint, boxy flat-sided body, short wheelbase, round headlights, white roof, chunky off-road tyres, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.mini_cooper
+    hint: Mini Cooper S, the tiny British car that won rallies
+    image: car.mini_cooper.png
+    brief:
+      subject: 1964 Mini Cooper S
+      attrs: [red paint, white roof, very small boxy body, tiny wheels at the corners, round headlights, chrome grille, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.fiat_500
+    hint: Fiat 500, the tiny Italian city car from 1957
+    image: car.fiat_500.png
+    brief:
+      subject: 1957 Fiat 500 Nuova
+      attrs: [pale yellow paint, tiny rounded body, folded fabric sunroof, round headlights, small wheels, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.citroen_2cv
+    hint: Citroen 2CV, the simple French car with a roll-back canvas roof
+    image: car.citroen_2cv.png
+    brief:
+      subject: 1960 Citroen 2CV
+      attrs: [grey paint, corrugated bonnet, separate curved front wings, canvas roll-back roof, thin tall wheels, round headlights on stalks, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.citroen_ds
+    hint: Citroen DS, the smooth futuristic French car from the 1950s
+    image: car.citroen_ds.png
+    brief:
+      subject: 1960 Citroen DS 19
+      attrs: [light grey-blue paint, smooth streamlined body, low sloping nose, rear wheels half covered by the body, white roof, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.mercedes_300sl
+    hint: Mercedes-Benz 300 SL, the silver sports car with doors that open upwards
+    image: car.mercedes_300sl.png
+    brief:
+      subject: 1955 Mercedes-Benz 300 SL Gullwing coupe
+      attrs: [silver paint, both gull-wing doors raised open, long bonnet, chrome grille, low two-seat body, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.jaguar_e_type
+    hint: Jaguar E-Type, the long sleek British sports car
+    image: car.jaguar_e_type.png
+    brief:
+      subject: 1961 Jaguar E-Type Series 1 coupe
+      attrs: [dark British racing green paint, very long bonnet, covered oval headlights, small oval grille, wire wheels, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.aston_martin_db5
+    hint: Aston Martin DB5, the elegant British car driven by James Bond
+    image: car.aston_martin_db5.png
+    brief:
+      subject: 1964 Aston Martin DB5
+      attrs: [silver paint, chrome wire wheels, covered headlights, characteristic Aston Martin grille, two-door coupe, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.shelby_cobra
+    hint: Shelby Cobra, the small muscular roadster with a big engine
+    image: car.shelby_cobra.png
+    brief:
+      subject: 1965 Shelby Cobra 427 roadster
+      attrs: [dark blue paint, two white racing stripes over the body, open top, wide flared wheel arches, oval grille opening, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.ford_mustang
+    hint: Ford Mustang, the American sporty car that started the pony car craze
+    image: car.ford_mustang.png
+    brief:
+      subject: 1965 Ford Mustang fastback
+      attrs: [red paint, long bonnet, short tail, sloping fastback roof, chrome bumpers, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.corvette_c2
+    hint: Chevrolet Corvette Sting Ray, the American sports car with a split rear window
+    image: car.corvette_c2.png
+    brief:
+      subject: 1963 Chevrolet Corvette C2 Sting Ray split-window coupe
+      attrs: [silver-blue paint, sharp body crease along the side, hidden headlights, sloping fastback roof, low sports car body, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.cadillac_eldorado
+    hint: Cadillac Eldorado, the huge American car with giant tail fins
+    image: car.cadillac_eldorado.png
+    brief:
+      subject: 1959 Cadillac Eldorado Biarritz convertible
+      attrs: [pink paint, enormous pointed tail fins, twin bullet tail lights, lots of chrome, very long low body, roof down, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.chevrolet_bel_air
+    hint: Chevrolet Bel Air, the 1950s American car with chrome and tail fins
+    image: car.chevrolet_bel_air.png
+    brief:
+      subject: 1957 Chevrolet Bel Air two-door hardtop
+      attrs: [two-tone turquoise and white paint, small tail fins, wide chrome grille, whitewall tyres, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.ford_gt40
+    hint: Ford GT40, the very low American race car that won Le Mans
+    image: car.ford_gt40.png
+    brief:
+      subject: 1966 Ford GT40 Mk II race car
+      attrs: [black paint, two silver stripes over the body, very low body, curved windscreen, mid-engine racing shape, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.porsche_911_classic
+    hint: Porsche 911 Carrera RS from 1973, the classic sports car with a ducktail spoiler
+    image: car.porsche_911_classic.png
+    brief:
+      subject: 1973 Porsche 911 Carrera RS 2.7
+      attrs: [white paint, green-painted wheels, small ducktail rear spoiler, round headlights, sloping rear, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.porsche_911_modern
+    hint: Porsche 911 from 2020, the modern version of the famous sports car
+    image: car.porsche_911_modern.png
+    brief:
+      subject: 2020 Porsche 911 Carrera (992)
+      attrs: [dark blue paint, round headlights, full-width rear light bar, sloping roofline, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.lamborghini_countach
+    hint: Lamborghini Countach, the flat wedge-shaped Italian supercar
+    image: car.lamborghini_countach.png
+    brief:
+      subject: 1978 Lamborghini Countach LP400 S
+      attrs: [yellow paint, sharp flat wedge shape, air intakes behind the doors, very low body, wide rear tyres, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.ferrari_testarossa
+    hint: Ferrari Testarossa, the wide 1980s Italian sports car with side strakes
+    image: car.ferrari_testarossa.png
+    brief:
+      subject: 1984 Ferrari Testarossa
+      attrs: [red paint, long horizontal strakes along the doors, very wide low body, pop-up headlights closed, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.ferrari_f40
+    hint: Ferrari F40, the red Italian supercar with a big rear wing
+    image: car.ferrari_f40.png
+    brief:
+      subject: 1987 Ferrari F40
+      attrs: [red paint, large rear wing, slatted rear window, very low wide body, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.delorean
+    hint: DeLorean DMC-12, the stainless steel car with gull-wing doors
+    image: car.delorean.png
+    brief:
+      subject: 1981 DeLorean DMC-12
+      attrs: [unpainted brushed stainless steel body, both gull-wing doors raised open, sharp wedge shape, black louvres over the rear window, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.london_taxi
+    hint: London taxi, the black cab of London
+    image: car.london_taxi.png
+    brief:
+      subject: 1975 Austin FX4 London taxi
+      attrs: [black paint, tall rounded body, upright roof, chrome grille, round headlights, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.toyota_land_cruiser
+    hint: Toyota Land Cruiser FJ40, the tough Japanese off-road car
+    image: car.toyota_land_cruiser.png
+    brief:
+      subject: 1975 Toyota Land Cruiser FJ40
+      attrs: [light blue paint, white roof, boxy short body, round headlights, chunky off-road tyres, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.mazda_mx5
+    hint: Mazda MX-5, the small Japanese two-seat roadster with pop-up headlights
+    image: car.mazda_mx5.png
+    brief:
+      subject: 1990 Mazda MX-5 Miata
+      attrs: [blue paint, small two-seat roadster, roof down, pop-up headlights raised, small oval air intake, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.trabant
+    hint: Trabant, the small East German car with a plastic body
+    image: car.trabant.png
+    brief:
+      subject: 1975 Trabant 601
+      attrs: [beige paint, small boxy body, white roof, small round headlights, narrow wheels, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.bugatti_veyron
+    hint: Bugatti Veyron, the super-fast French hypercar
+    image: car.bugatti_veyron.png
+    brief:
+      subject: 2006 Bugatti Veyron 16.4
+      attrs: [two-tone dark blue and light blue paint, horseshoe-shaped grille, rounded low body, large air intakes on the roof, side profile, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
+
+  - key: car.tesla_model_s
+    hint: Tesla Model S, the electric car from America
+    image: car.tesla_model_s.png
+    brief:
+      subject: 2012 Tesla Model S
+      attrs: [white paint, smooth sleek four-door body, no front grille, glass roof, three-quarter front view, whole car in frame]
+      setting: [plain light grey studio background, soft even lighting, subtle floor shadow]
+      avoid: [text, badges, logos, emblems, license plates, people]
