@@ -1,9 +1,18 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
+import 'package:ol1n_telemetry/ol1n_telemetry.dart';
 import 'l10n/app_localizations.dart';
 import 'screens/home_screen.dart';
+import 'telemetry/telemetry_dictionary.dart';
+import 'telemetry/telemetry_setup.dart';
 import 'theme/app_theme.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  // Anonymous usage statistics (docs/telemetry.md). Never on Android (Google
+  // Play Families policy) or the web; silent in any build without a key.
+  unawaited(startTelemetry());
   runApp(const LexifyApp());
 }
 
@@ -53,6 +62,11 @@ class LexifyApp extends StatelessWidget {
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: supportedLocales,
       theme: theme ?? AppTheme.light(),
+      navigatorObservers: [TelemetryNavigatorObserver(kScreenRoutes)],
+      builder: (context, child) {
+        telemetryLang = telemetryLocaleId(Localizations.localeOf(context));
+        return child ?? const SizedBox.shrink();
+      },
       home: const HomeScreen(),
     );
   }

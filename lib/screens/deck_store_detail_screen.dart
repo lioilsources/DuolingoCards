@@ -8,6 +8,8 @@ import '../l10n/app_localizations.dart';
 import '../models/card_style.dart';
 import '../models/language_deck.dart';
 import '../services/deck_download_service.dart';
+import '../telemetry/telemetry_dictionary.dart';
+import 'package:ol1n_telemetry/ol1n_telemetry.dart';
 import '../services/entitlement_service.dart';
 import '../services/language_deck_service.dart';
 import '../utils/language_names.dart';
@@ -72,6 +74,11 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     // to the first style that can actually reach this device.
     _style = widget.deck.preferredStyle;
     widget.entitlements.addListener(_onEntitlementsChanged);
+    Telemetry.track('deck_view', {
+      'deck': telemetryDeck(widget.deck.slug),
+      'free': _isFree,
+      'owned': _ownsDeck,
+    });
     _checkAvailability();
   }
 
@@ -191,6 +198,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     if (!mounted) return;
     if (!started) {
       setState(() => _purchasing = false);
+      Telemetry.errorShown('purchase_start');
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
             content: Text(AppLocalizations.of(context).purchaseFailedToStart)),
@@ -210,7 +218,16 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     );
     if (!mounted) return;
     final l10n = AppLocalizations.of(context);
+    if (ok) {
+      Telemetry.track('deck_add', {
+        'deck': telemetryDeck(_deck.slug),
+        'style': telemetryStyle(_style),
+        'l2': telemetryCardLang(_l2),
+        'free': _isFree,
+      });
+    }
     if (!ok) {
+      Telemetry.errorShown('deck_not_owned');
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(l10n.deckNotPurchased)),
       );
@@ -228,6 +245,11 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
       _isDownloading = true;
       _downloadProgress = 0.0;
     });
+    final flow = Telemetry.flow('download', {
+      'deck': telemetryDeck(_deck.slug),
+      'style': telemetryStyle(_style),
+      'from': 'store',
+    });
     final success = await DeckDownloadService.instance.downloadDeck(
       _deck.slug,
       _style,
@@ -235,6 +257,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
         if (mounted) setState(() => _downloadProgress = p);
       },
     );
+    flow.end(success ? 'ok' : 'error');
     if (!mounted) return;
     LanguageDeckService.instance.invalidateCache(_deck.slug);
     setState(() {
@@ -244,6 +267,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     if (success) {
       widget.entitlements.notifyDeckReady();
     } else {
+      Telemetry.errorShown('download');
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(AppLocalizations.of(context).downloadFailed)),
       );
@@ -254,11 +278,13 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     final deck = await LanguageDeckService.instance.load(_deck.slug);
     if (!mounted) return;
     Navigator.of(context).push(MaterialPageRoute(
+      settings: const RouteSettings(name: '/study'),
       builder: (_) => LanguageDeckStudyScreen(
         deck: deck,
         l1: _l1,
         l2: _l2,
         style: _style,
+        from: 'store',
       ),
     ));
   }
@@ -283,6 +309,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                   l1: _l1,
                   l2: _l2,
                   onChanged: (l1, l2) => setState(() {
+                    Telemetry.feature('lang_pick');
                     _l1 = l1;
                     _l2 = l2;
                     _previewIndex = 0;
@@ -295,6 +322,7 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                     styles: _offerableStyles,
                     selected: _style,
                     onSelected: (s) => setState(() {
+                      Telemetry.feature('style_pick');
                       _style = s;
                       // Availability is per (deck, style): the newly picked
                       // style may not be downloaded even though the old one was.

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show Clipboard, ClipboardData;
+import 'package:ol1n_telemetry/ol1n_telemetry.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../config/support_config.dart';
@@ -131,6 +132,13 @@ class _FeedbackFormState extends State<_FeedbackForm> {
 
     if (!mounted) return;
     setState(() => _sending = false);
+
+    // Only the issue type and the channel; the comment and the card never
+    // reach the statistics.
+    Telemetry.track('card_report', {
+      'issue': _issueType.name,
+      'via': launched ? 'mail' : 'clipboard',
+    });
 
     if (launched) {
       Navigator.of(context).pop();

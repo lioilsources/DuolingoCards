@@ -52,6 +52,8 @@ jobs:
           echo -n "$KEYSTORE_BASE64" | tr -d '[:space:]' | base64 --decode --ignore-garbage > ./android/app/release.keystore
           printf "storePassword=%s\nkeyPassword=%s\nkeyAlias=%s\nstoreFile=release.keystore\n" "$KEYSTORE_PASSWORD" "$KEY_PASSWORD" "$KEY_ALIAS" > ./android/key.properties
 
+      # No TELEMETRY_KEY / TELEMETRY_HOST here, on purpose: Lexify is never
+      # measured on Android (Google Play Families policy, docs/telemetry.md).
       - name: Build release AAB
         working-directory: .
         run: flutter build appbundle --release

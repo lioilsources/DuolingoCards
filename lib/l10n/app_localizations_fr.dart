@@ -429,4 +429,14 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get langZhCN => 'Chinois';
+
+  @override
+  String get settingsTitle => 'Réglages';
+
+  @override
+  String get statsToggle => 'Statistiques d’utilisation anonymes';
+
+  @override
+  String get statsToggleSubtitle =>
+      'Elles aident à améliorer l’app. Pas de compte, pas d’identifiant, rien de ce que vous tapez. Les désactiver efface aussi ce qui n’a pas encore été envoyé.';
 }

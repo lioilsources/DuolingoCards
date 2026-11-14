@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 2.3.4
 
 environment:
-  sdk: ^3.10.7
+  sdk: ^3.11.0
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -69,6 +69,12 @@ dependencies:
     git:
       url: https://github.com/lioilsources/CuteKidFonts.git
       ref: v0.2.1
+  # Anonymous usage statistics (docs/telemetry.md). Silent without
+  # TELEMETRY_KEY / TELEMETRY_HOST; never started on Android or the web.
+  ol1n_telemetry:
+    git:
+      url: https://github.com/lioilsources/Ol1nTelemetry.git
+      ref: v0.1.0
 
 dev_dependencies:
   flutter_test:

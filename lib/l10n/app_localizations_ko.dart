@@ -420,4 +420,14 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get langZhCN => '중국어';
+
+  @override
+  String get settingsTitle => '설정';
+
+  @override
+  String get statsToggle => '익명 사용 통계';
+
+  @override
+  String get statsToggleSubtitle =>
+      '앱 개선에 도움이 됩니다. 계정, 식별자, 입력한 내용은 포함되지 않습니다. 끄면 아직 보내지 않은 데이터도 삭제됩니다.';
 }

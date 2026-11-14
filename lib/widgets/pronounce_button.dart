@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ol1n_telemetry/ol1n_telemetry.dart';
 
 import '../l10n/app_localizations.dart';
 import '../services/tts_service.dart';
@@ -54,6 +55,7 @@ class _PronounceButtonState extends State<PronounceButton> {
 
   Future<void> _onTap() async {
     if (_available) {
+      Telemetry.feature('pronounce');
       await _tts.speak(widget.text, widget.lang);
       return;
     }
@@ -62,6 +64,7 @@ class _PronounceButtonState extends State<PronounceButton> {
     final l10n = AppLocalizations.of(context);
     final started = await _tts.promptInstallVoice(widget.lang);
     if (!started && mounted) {
+      Telemetry.errorShown('no_voice');
       messenger.showSnackBar(
         SnackBar(content: Text(l10n.noVoiceInstalled(widget.lang))),
       );

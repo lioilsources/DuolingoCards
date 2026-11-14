@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:ol1n_telemetry/ol1n_telemetry.dart';
 
 import '../l10n/app_localizations.dart';
 import '../models/deck_palette.dart';
@@ -63,6 +64,8 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
   void _onSearch() {
     final idx = _index;
     if (idx == null) return;
+    // Only that search was used; the query itself never leaves the device.
+    if (_searchCtrl.text.isNotEmpty) Telemetry.feature('search');
     setState(() => _results = idx.search(_searchCtrl.text));
   }
 
@@ -92,6 +95,7 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
       });
     } catch (e) {
       if (!mounted) return;
+      Telemetry.errorShown('store_load');
       setState(() {
         _error = e.toString();
         _isLoading = false;
@@ -100,8 +104,12 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
   }
 
   void _openDetail(LanguageDeck deck) {
+    if (!_entitlements.ownsDeck(deck.slug, tier: deck.tier)) {
+      Telemetry.lockedTap('paid_deck');
+    }
     Navigator.of(context).push(
       MaterialPageRoute(
+        settings: const RouteSettings(name: '/store/deck'),
         builder: (_) => DeckStoreDetailScreen(
           deck: deck,
           entitlements: _entitlements,
@@ -126,7 +134,10 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
           // glyph did not say what it restored. Refresh lived next to it and
           // did the same thing as pulling the list down, so it is gone.
           TextButton(
-            onPressed: () => _entitlements.restore(),
+            onPressed: () {
+              Telemetry.feature('restore');
+              _entitlements.restore();
+            },
             child: Text(l10n.storeRestorePurchases),
           ),
         ],

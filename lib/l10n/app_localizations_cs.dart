@@ -429,4 +429,14 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get langZhCN => 'Čínština';
+
+  @override
+  String get settingsTitle => 'Nastavení';
+
+  @override
+  String get statsToggle => 'Anonymní statistiky používání';
+
+  @override
+  String get statsToggleSubtitle =>
+      'Pomáhají appku zlepšovat. Žádný účet, žádný identifikátor, nic z toho, co napíšete. Vypnutím se smaže i to, co ještě nebylo odesláno.';
 }

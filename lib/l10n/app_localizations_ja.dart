@@ -420,4 +420,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get langZhCN => '中国語';
+
+  @override
+  String get settingsTitle => '設定';
+
+  @override
+  String get statsToggle => '匿名の利用統計';
+
+  @override
+  String get statsToggleSubtitle =>
+      'アプリの改善に役立ちます。アカウントも識別子も、入力した内容も含みません。オフにすると未送信の分も削除されます。';
 }

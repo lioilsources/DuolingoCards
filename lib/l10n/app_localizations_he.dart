@@ -429,4 +429,14 @@ class AppLocalizationsHe extends AppLocalizations {
 
   @override
   String get langZhCN => 'סינית';
+
+  @override
+  String get settingsTitle => 'הגדרות';
+
+  @override
+  String get statsToggle => 'סטטיסטיקות שימוש אנונימיות';
+
+  @override
+  String get statsToggleSubtitle =>
+      'עוזרות לשפר את האפליקציה. בלי חשבון, בלי מזהה, בלי שום דבר שאתם מקלידים. כיבוי מוחק גם את מה שעוד לא נשלח.';
 }

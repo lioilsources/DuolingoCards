@@ -427,4 +427,14 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get langZhCN => 'Bahasa Mandarin';
+
+  @override
+  String get settingsTitle => 'Pengaturan';
+
+  @override
+  String get statsToggle => 'Statistik penggunaan anonim';
+
+  @override
+  String get statsToggleSubtitle =>
+      'Membantu menyempurnakan aplikasi. Tanpa akun, tanpa pengenal, tanpa apa pun yang Anda ketik. Menonaktifkan juga menghapus data yang belum terkirim.';
 }

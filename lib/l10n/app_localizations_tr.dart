@@ -426,4 +426,14 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get langZhCN => 'Çince';
+
+  @override
+  String get settingsTitle => 'Ayarlar';
+
+  @override
+  String get statsToggle => 'Anonim kullanım istatistikleri';
+
+  @override
+  String get statsToggleSubtitle =>
+      'Uygulamayı geliştirmeye yardımcı olur. Hesap yok, tanımlayıcı yok, yazdığınız hiçbir şey yok. Kapatınca henüz gönderilmemiş olanlar da silinir.';
 }

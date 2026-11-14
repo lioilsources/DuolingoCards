@@ -22,6 +22,9 @@ class IAPService {
 
   void Function(String error)? onPurchaseError;
 
+  /// Fires when the user closes the store sheet without buying.
+  void Function(String sku)? onPurchaseCanceled;
+
   bool _isAvailable = false;
   Map<String, ProductDetails> _products = {};
   final Set<String> _ownedSkus = {};
@@ -115,6 +118,7 @@ class IAPService {
         break;
       case PurchaseStatus.canceled:
         debugPrint('Purchase canceled: ${purchase.productID}');
+        onPurchaseCanceled?.call(purchase.productID);
         break;
     }
 

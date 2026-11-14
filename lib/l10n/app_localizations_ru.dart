@@ -435,4 +435,14 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get langZhCN => 'Китайский';
+
+  @override
+  String get settingsTitle => 'Настройки';
+
+  @override
+  String get statsToggle => 'Анонимная статистика использования';
+
+  @override
+  String get statsToggleSubtitle =>
+      'Помогает улучшать приложение. Без аккаунта, без идентификатора, без того, что вы вводите. При отключении удаляется и то, что ещё не отправлено.';
 }

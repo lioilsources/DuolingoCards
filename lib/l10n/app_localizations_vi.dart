@@ -426,4 +426,14 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get langZhCN => 'Tiếng Trung';
+
+  @override
+  String get settingsTitle => 'Cài đặt';
+
+  @override
+  String get statsToggle => 'Thống kê sử dụng ẩn danh';
+
+  @override
+  String get statsToggleSubtitle =>
+      'Giúp cải thiện ứng dụng. Không tài khoản, không mã định danh, không có gì bạn nhập. Tắt đi sẽ xóa luôn những gì chưa được gửi.';
 }

@@ -1,10 +1,12 @@
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:ol1n_telemetry/ol1n_telemetry.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../models/deck_entitlement.dart';
 import '../models/store_catalog.dart';
+import '../telemetry/telemetry_dictionary.dart';
 import 'iap_service.dart';
 
 /// Decides which decks the user may open, and which (deck, l1, l2, style)
@@ -90,7 +92,25 @@ class EntitlementService extends ChangeNotifier {
   Future<bool> purchaseDeck(String slug) async {
     final sku = _catalog?.productForDeck(slug)?.skuForCurrentPlatform();
     if (sku == null) return false;
-    return _iap.buy(sku);
+    _endPurchaseFlow('cancel');
+    _purchaseSku = sku;
+    _purchaseFlow =
+        Telemetry.flow('purchase', {'deck': telemetryDeck(slug)});
+    final started = await _iap.buy(sku);
+    if (!started) _endPurchaseFlow('error');
+    return started;
+  }
+
+  /// Anonymous statistics only: the purchase in progress, ended by the
+  /// store's answer. Nothing in the app reads it.
+  TelemetryFlow? _purchaseFlow;
+  String? _purchaseSku;
+
+  void _endPurchaseFlow(String result, {String? sku}) {
+    if (sku != null && sku != _purchaseSku) return;
+    _purchaseFlow?.end(result);
+    _purchaseFlow = null;
+    _purchaseSku = null;
   }
 
   /// Ask the store to replay owned non-consumables (App Store "Restore").
@@ -236,7 +256,11 @@ class EntitlementService extends ChangeNotifier {
     await _migrateFromCredits();
 
     _iap.onProductOwned = _handleOwned;
-    _iap.onPurchaseError = (e) => debugPrint('IAP error: $e');
+    _iap.onPurchaseError = (e) {
+      debugPrint('IAP error: $e');
+      _endPurchaseFlow('error');
+    };
+    _iap.onPurchaseCanceled = (sku) => _endPurchaseFlow('cancel', sku: sku);
 
     await _iap.initialize();
     if (_iap.isAvailable) {
@@ -297,6 +321,7 @@ class EntitlementService extends ChangeNotifier {
   }
 
   void _handleOwned(String sku, {required bool restored}) {
+    if (!restored) _endPurchaseFlow('ok', sku: sku);
     final product = _catalog?.productForSku(sku);
     if (product == null) return;
     if (_ownedCodes.add(product.code)) {
