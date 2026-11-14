@@ -157,6 +157,12 @@ Declare **no data collected and no data shared**. There is no analytics SDK,
 no crash reporting and no ad network in the build; the only network traffic is
 downloading deck images from GitHub Pages, which is not tied to a user.
 
+This stays true with the anonymous usage statistics of the iOS, macOS and
+desktop builds: **the Android app never starts them** (Families policy, see
+Target audience). `startTelemetry` returns before `Telemetry.init` on Android,
+`release-android.yml` gets no statistics key, and `test/telemetry_test.dart`
+checks both. Do not change this answer unless that rule changes.
+
 Answer the follow-ups: no data collected → the questionnaire ends. Purchases
 are processed by Google and we never receive payment data.
 
@@ -172,7 +178,9 @@ a PEGI 3 / ESRB Everyone rating.
 Age groups: all, including under 13. Because children are in the audience,
 Play applies its Families policy — which the app already satisfies: no ads, no
 analytics, no data collection, no external links inside the app apart from the
-report-a-card e-mail.
+report-a-card e-mail. The anonymous statistics other platforms send are off on
+Android by design (`docs/telemetry.md`, "Where it runs"); the Play listing
+text ("no tracking, no analytics") is therefore accurate for the Android app.
 
 ## Uploading a build to internal testing
 
