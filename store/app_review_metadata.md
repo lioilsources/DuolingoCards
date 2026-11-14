@@ -83,11 +83,11 @@ soft pastel, or watercolour, depending on the deck. Switch whenever you like.
 
 WORKS OFFLINE
 Deck images download once, then everything runs on your device. No account, no
-sign-up, no server. Your progress never leaves your phone.
+sign-up. Which words you know never leaves your phone.
 
 BUILT FOR CHILDREN AND ADULTS
-No ads, no tracking, no analytics, no data collection of any kind. Pronounce
-any word with a tap. Report a wrong translation or image straight from the
+No ads, no account, no third-party analytics. Anonymous usage statistics help
+us improve Lexify and switch off in Settings. Pronounce any word with a tap. Report a wrong translation or image straight from the
 card.
 ```
 [~1450]
@@ -142,8 +142,11 @@ languages (Czech and English on one screen). The UI is now fully localized.
 Notes for the reviewer:
 
 ```
-Lexify has no backend, no accounts, and no server. All content ships with the
-app or downloads from a public GitHub Pages CDN.
+Lexify has no backend and no accounts. All content ships with the app or
+downloads from a public GitHub Pages CDN. The app sends anonymous usage
+statistics (no identifiers, no personal data) to the developer's own server;
+they can be turned off under Settings (gear icon on the home screen).
+
 
 In-app purchases: each paid deck is one non-consumable product that unlocks
 that deck for all 17 languages and both of its image styles. Purchases are
@@ -163,10 +166,43 @@ need no purchase and show the same flow.
 
 ## App Privacy (the questionnaire)
 
-Answer **"No, we do not collect data from this app"**. Nothing in the app
-sends data anywhere: no analytics SDK, no crash reporting, no ad network. The
-only network traffic is downloading deck images from GitHub Pages, which is
-not tied to a user.
+Answers for the first build with anonymous usage statistics (iOS and macOS,
+`docs/telemetry.md`). **Fill in before that build is submitted, and only
+after the new `docs/privacy.html` is live.** They match
+`ios/Runner/PrivacyInfo.xcprivacy` and `macos/Runner/PrivacyInfo.xcprivacy`.
+Until the statistics key is set in CI, the builds send nothing and the old
+answer ("No, we do not collect data") is still accurate.
 
-The one thing to declare correctly if asked: in-app purchases are processed by
-Apple, and we never see payment data.
+**Privacy Policy URL:** unchanged (`privacy.html` above).
+
+**Do you or your third-party partners collect data from this app?** **Yes.**
+
+**Data types collected** (tick exactly these):
+
+| Category → type | Linked to the user? | Used for tracking? | Purpose |
+|---|---|---|---|
+| Usage Data → **Product Interaction** | **No** | **No** | **Analytics** |
+| Diagnostics → **Performance Data** | **No** | **No** | **Analytics** |
+| Location → **Coarse Location** | **No** | **No** | **Analytics** |
+
+- *Product Interaction*: launches, screens and seconds on them, deck pages
+  opened, decks added, study sessions (deck, style, language, cards rated),
+  purchase started / finished / cancelled, card reports (kind only), first
+  use of features, errors shown (kind only).
+- *Performance Data*: how long deck pictures take to download.
+- *Coarse Location*: the receiver derives the country from the connection's
+  IP address and keeps only the country; the IP address itself is neither
+  stored nor logged. Declared the same way in every ol1n app.
+
+Not collected (leave unticked): Contact Info, Health & Fitness, Financial
+Info, Precise Location, Sensitive Info, Contacts, User Content, Browsing
+History, Search History (the store search query is never sent), Identifiers
+(no User ID, no Device ID: the session id is random, lives in memory only and
+is never reused), Purchases, Other Usage Data, Crash Data, Other Diagnostic
+Data, Other Data.
+
+**Linked to the user: No** for every type. **Tracking: No**: nothing is
+combined with other companies' data, there is no advertising, no App Tracking
+Transparency prompt (`NSPrivacyTracking` is `false`).
+
+In-app purchases are processed by Apple; we never see payment data.

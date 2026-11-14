@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy — Lexify</title>
-  <meta name="description" content="Lexify Privacy Policy — we don't collect personal data.">
+  <meta name="description" content="Lexify Privacy Policy — no personal data, no account; anonymous usage statistics on iOS, macOS and desktop that you can turn off; nothing at all on Android.">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -100,10 +100,10 @@
 <main>
   <p class="page-label">Legal</p>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: June 27, 2026</p>
+  <p class="updated">Last updated: November 14, 2026</p>
 
   <div class="highlight-box">
-    <strong>Short version:</strong> Lexify does not collect, store, or share any personal data. The app works entirely on your device. No account is required.
+    <strong>Short version:</strong> Lexify does not collect, store, or share any personal data, and no account is required. On iPhone, iPad, Mac, Windows and Linux the app sends anonymous usage statistics to the developer, described in section 3, which you can turn off at any time in Settings. <strong>On Android, Lexify sends no statistics at all.</strong>
   </div>
 
   <h2>1. Who we are</h2>
@@ -112,48 +112,58 @@
   <h2>2. Data we do NOT collect</h2>
   <p>Lexify does not collect, transmit, or share:</p>
   <ul>
-    <li>Personal identifiers (name, email, phone number)</li>
-    <li>Location data</li>
-    <li>Usage analytics or telemetry</li>
-    <li>Crash reports or diagnostics sent to us</li>
-    <li>Device identifiers</li>
-    <li>Any data entered into the app</li>
+    <li>Personal identifiers (name, email, phone number, account)</li>
+    <li>Precise location (the statistics keep only the country, see section 3)</li>
+    <li>Device identifiers, the advertising ID or the exact device model</li>
+    <li>Crash reports</li>
+    <li>Anything you type: store searches and the comment in a card report never reach the statistics</li>
+    <li>Your card content or which individual cards you know</li>
   </ul>
-  <p>We have no server, no backend, and no database. There is nothing to collect.</p>
 
-  <h2>3. Data stored locally on your device</h2>
+  <h2>3. Anonymous usage statistics (iOS, macOS, Windows, Linux)</h2>
+  <p><strong>On Android, none of this applies: the Android app sends no statistics at all.</strong> Lexify on Google Play is offered to families with children, so we do not measure anything there.</p>
+  <p><strong>What is sent.</strong> Short records of how the app is used: the app was opened or went to the background, which screen was shown and for how many seconds (home, store, deck page, study, settings), a deck's store page was opened, a deck was added to the home screen, a study session started or ended (deck, picture style, the language being learned, how many cards were rated as known or not known, and seconds spent), a purchase was started and whether it went through, was cancelled or failed, deck pictures were downloaded (and how long that took), a card problem was reported (only the kind of problem, such as translation or image), a feature such as pronunciation, card flip or search was used for the first time in a session, and that an error message was shown (its kind, not its text). Each record also carries the app version, platform (for example iOS or Windows), app language, and two coarse bands: roughly how many times Lexify has been opened on this device (1, 2, 3–5, 6–10, 11+) and roughly how many days ago measuring started (0, 1, 2–6, 7–29, 30+). The full list is published in the app's source repository (<a href="https://github.com/lioilsources/DuolingoCards/blob/main/docs/telemetry.md" target="_blank" rel="noopener">docs/telemetry.md</a>).</p>
+  <p><strong>Why.</strong> To see whether new users get to their first study session, where they stop, which decks and features are used, and where downloads or purchases fail, so we can fix them.</p>
+  <p><strong>No identifiers.</strong> The statistics contain no name, no email, no account, no text you type, no device or advertising identifier and no exact device model. Each session of use gets a random number that exists only while the app runs, so two sessions cannot be linked to each other or to you. The statistics are not used for advertising or tracking and are not sold or shared.</p>
+  <p><strong>Who receives them, and where.</strong> The statistics are received and stored by the developer on the developer's own server in the EU (Czech Republic). Nobody else receives them; no analytics company is involved. Sending them, like any internet connection, reveals your IP address to that server. The server works out only which country the connection comes from and stores that country; the IP address itself is not stored or logged. The country is the only location information kept: no city, region or precise location.</p>
+  <p><strong>How long.</strong> Statistics are kept for 12 months and then deleted.</p>
+  <p><strong>Offline.</strong> Lexify works offline. Without a connection, up to 500 recent records wait on your device and are sent later; older ones are discarded.</p>
+  <p><strong>How to turn them off.</strong> On the home screen, tap the gear icon (Settings) and switch off <em>Anonymous usage statistics</em> (the label is in your app language). This takes effect immediately: records waiting on your device are deleted and nothing more is sent, until you turn it back on. Builds of the app without statistics have no Settings icon.</p>
+
+  <h2>4. Data stored locally on your device</h2>
   <p>Lexify stores the following data locally on your device only — this data never leaves your device:</p>
   <ul>
     <li><strong>Card priorities</strong> — which cards you found easy or difficult, stored in your device's local storage (SharedPreferences). Used for spaced repetition.</li>
     <li><strong>Downloaded deck content</strong> — deck JSON and images saved to app storage so the app works offline.</li>
+    <li><strong>Statistics state</strong> (iOS, macOS, desktop only) — the on/off switch, the day measuring began, a session counter, which features have been used, and records waiting to be sent. The bands in section 3 are worked out from these on your device.</li>
   </ul>
   <p>Uninstalling the app removes all locally stored data.</p>
 
-  <h2>4. In-app purchases</h2>
+  <h2>5. In-app purchases</h2>
   <p>Lexify offers optional in-app purchases to unlock additional deck packs. All purchases are processed by Apple (App Store) or Google (Google Play). We do not receive or store any payment information. Purchase verification happens entirely on-device.</p>
   <p>Apple's privacy policy: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a></p>
   <p>Google's privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></p>
 
-  <h2>5. Text-to-speech pronunciation</h2>
+  <h2>6. Text-to-speech pronunciation</h2>
   <p>Lexify can pronounce vocabulary words using your device's built-in text-to-speech (TTS) engine. This processing happens entirely on-device. No audio is recorded or transmitted.</p>
 
-  <h2>6. Third-party services</h2>
-  <p>Lexify does not integrate any third-party analytics, advertising, or tracking SDKs. The only third-party services involved are:</p>
+  <h2>7. Third-party services</h2>
+  <p>Lexify does not integrate any third-party analytics, advertising, or tracking SDKs. The anonymous statistics in section 3 go only to the developer's own server. The only third-party services involved are:</p>
   <ul>
     <li><strong>Apple App Store / Google Play</strong> — for app distribution and in-app purchase processing</li>
     <li><strong>Device TTS engine</strong> — provided by your operating system, used on-device only</li>
   </ul>
 
-  <h2>7. Children's privacy</h2>
-  <p>Lexify does not collect any personal data from anyone, including children. The app is safe for use by children of all ages. We comply with COPPA, GDPR-K, and similar regulations.</p>
+  <h2>8. Children's privacy</h2>
+  <p>Lexify does not collect any personal data from anyone, including children. On Android, where Lexify is offered to families on Google Play, the app sends no statistics at all. On other platforms the anonymous statistics in section 3 contain nothing that identifies a person, and they can be switched off in Settings.</p>
 
-  <h2>8. GDPR (European users)</h2>
-  <p>Because Lexify does not collect any personal data, there is no data to access, correct, export, or delete under GDPR. If you have any questions, contact us at <a href="mailto:business@olin.now">business@olin.now</a>.</p>
+  <h2>9. GDPR (European users)</h2>
+  <p>Lexify does not collect personal data. The anonymous statistics carry no identifier, so we cannot find, export or delete the records of one person: there is nothing that links them to you. You can stop them at any time with the switch in Settings, which also deletes records not yet sent. If you have any questions, contact us at <a href="mailto:business@olin.now">business@olin.now</a>.</p>
 
-  <h2>9. Changes to this policy</h2>
+  <h2>10. Changes to this policy</h2>
   <p>If we make material changes to this policy, we will update the "Last updated" date above and, where appropriate, notify users through the app or App Store release notes.</p>
 
-  <h2>10. Contact</h2>
+  <h2>11. Contact</h2>
   <p>Questions about this privacy policy? Contact us at <a href="mailto:business@olin.now">business@olin.now</a>.</p>
 </main>
 
