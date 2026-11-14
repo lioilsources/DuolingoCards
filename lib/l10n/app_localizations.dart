@@ -837,6 +837,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Chinese'**
   String get langZhCN;
+
+  /// No description provided for @settingsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings'**
+  String get settingsTitle;
+
+  /// No description provided for @statsToggle.
+  ///
+  /// In en, this message translates to:
+  /// **'Anonymous usage statistics'**
+  String get statsToggle;
+
+  /// Under the anonymous statistics switch in settings. Shown only on iOS, macOS and desktop builds that measure.
+  ///
+  /// In en, this message translates to:
+  /// **'Helps improve the app. No account, no identifier, nothing you type. Switching off deletes what has not been sent yet.'**
+  String get statsToggleSubtitle;
 }
 
 class _AppLocalizationsDelegate

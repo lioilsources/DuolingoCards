@@ -426,6 +426,16 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get langZhCN => 'Chinês';
+
+  @override
+  String get settingsTitle => 'Ajustes';
+
+  @override
+  String get statsToggle => 'Estatísticas de uso anônimas';
+
+  @override
+  String get statsToggleSubtitle =>
+      'Ajudam a melhorar o app. Sem conta, sem identificador, nada do que você digita. Ao desativar, o que ainda não foi enviado também é apagado.';
 }
 
 /// The translations for Portuguese, as used in Portugal (`pt_PT`).
@@ -850,4 +860,14 @@ class AppLocalizationsPtPt extends AppLocalizationsPt {
 
   @override
   String get langZhCN => 'Chinês';
+
+  @override
+  String get settingsTitle => 'Definições';
+
+  @override
+  String get statsToggle => 'Estatísticas de utilização anónimas';
+
+  @override
+  String get statsToggleSubtitle =>
+      'Ajudam a melhorar a app. Sem conta, sem identificador, nada do que escreve. Ao desativar, o que ainda não foi enviado também é apagado.';
 }

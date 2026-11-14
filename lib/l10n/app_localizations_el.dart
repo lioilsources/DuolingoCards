@@ -428,4 +428,14 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get langZhCN => 'Κινεζικά';
+
+  @override
+  String get settingsTitle => 'Ρυθμίσεις';
+
+  @override
+  String get statsToggle => 'Ανώνυμα στατιστικά χρήσης';
+
+  @override
+  String get statsToggleSubtitle =>
+      'Βοηθούν να βελτιωθεί η εφαρμογή. Χωρίς λογαριασμό, χωρίς αναγνωριστικό, τίποτα από όσα πληκτρολογείτε. Η απενεργοποίηση διαγράφει ό,τι δεν έχει σταλεί ακόμη.';
 }

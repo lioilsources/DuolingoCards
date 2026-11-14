@@ -426,4 +426,14 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get langZhCN => 'चीनी';
+
+  @override
+  String get settingsTitle => 'सेटिंग्स';
+
+  @override
+  String get statsToggle => 'गुमनाम उपयोग आँकड़े';
+
+  @override
+  String get statsToggleSubtitle =>
+      'ऐप को बेहतर बनाने में मदद करते हैं। कोई खाता नहीं, कोई पहचानकर्ता नहीं, आपका लिखा कुछ भी नहीं। बंद करने पर जो अभी भेजा नहीं गया, वह भी मिट जाता है।';
 }

@@ -419,6 +419,16 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get langZhCN => '中文';
+
+  @override
+  String get settingsTitle => '设置';
+
+  @override
+  String get statsToggle => '匿名使用统计';
+
+  @override
+  String get statsToggleSubtitle =>
+      '帮助改进应用。没有账户、没有标识符，也不含你输入的任何内容。关闭后，尚未发送的数据也会被删除。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -836,4 +846,14 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get langZhCN => '中文';
+
+  @override
+  String get settingsTitle => '設定';
+
+  @override
+  String get statsToggle => '匿名使用統計';
+
+  @override
+  String get statsToggleSubtitle =>
+      '協助改善 App。沒有帳號、沒有識別碼，也不含你輸入的任何內容。關閉後，尚未傳送的資料也會一併刪除。';
 }

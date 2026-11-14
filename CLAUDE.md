@@ -396,3 +396,13 @@ Legacy fields (`imageUrl`, `frontAudio`, `backAudio`) supported for backwards co
 | Card priorities | `SharedPreferences` key `card_priorities_{deckId}` |
 | Downloaded decks | `{appDocDir}/decks/{deckId}/deck.json` |
 | Deck media | `{appDocDir}/decks/{deckId}/media/` |
+
+### Anonymous statistics
+
+`ol1n_telemetry` (`lib/telemetry/`, dictionary and rules in
+`docs/telemetry.md`). **Never on Android** (Google Play Families policy) and
+never on the web: `startTelemetry` returns before `Telemetry.init`, and the
+settings entry is hidden. Every `push` names its route (`kScreenRoutes`). A
+new event or property is a privacy policy change; `test/telemetry_test.dart`
+keeps code, dictionary and doc in step and fails on a new deck slug missing
+from `kDeckIds`.

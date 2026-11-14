@@ -32,7 +32,7 @@ jobs:
 
       - name: Build Windows (release)
         working-directory: .
-        run: flutter build windows --release
+        run: flutter build windows --release --dart-define=TELEMETRY_KEY=${{ secrets.TELEMETRY_KEY }} --dart-define=TELEMETRY_HOST=${{ secrets.TELEMETRY_HOST }}
         env:
           # audioplayers_windows uses <experimental/coroutine>, a hard error on new MSVC
           CL: /D_SILENCE_EXPERIMENTAL_COROUTINE_DEPRECATION_WARNINGS

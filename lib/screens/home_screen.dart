@@ -10,9 +10,13 @@ import '../services/entitlement_service.dart';
 import '../services/home_order_service.dart';
 import '../services/language_deck_service.dart';
 import '../services/priority_service.dart';
+import '../telemetry/telemetry_dictionary.dart';
+import '../telemetry/telemetry_setup.dart';
 import '../widgets/deck_cover_tile.dart';
 import 'deck_store_screen.dart';
 import 'language_deck_study_screen.dart';
+import 'settings_screen.dart';
+import 'package:ol1n_telemetry/ol1n_telemetry.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -195,8 +199,14 @@ class _HomeScreenState extends State<HomeScreen> {
     if (todo.isEmpty || !mounted) return;
     setState(() => _fetching.addAll(todo.map((e) => e.storageKey)));
     for (final e in todo) {
+      final flow = Telemetry.flow('download', {
+        'deck': telemetryDeck(e.deckSlug),
+        'style': telemetryStyle(e.style),
+        'from': 'home',
+      });
       final ok =
           await DeckDownloadService.instance.downloadDeck(e.deckSlug, e.style);
+      flow.end(ok ? 'ok' : 'error');
       if (ok) _langDeckService.invalidateCache(e.deckSlug);
       if (!mounted) return;
       setState(() => _fetching.remove(e.storageKey));
@@ -205,6 +215,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void _reorder(int oldIndex, int newIndex) {
+    Telemetry.feature('reorder');
     setState(() {
       // onReorder reports the index before the dragged tile is removed.
       if (newIndex > oldIndex) newIndex--;
@@ -217,6 +228,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Future<void> _openLangDeck(_LangTile tile) async {
     await Navigator.of(context).push(
       MaterialPageRoute(
+        settings: const RouteSettings(name: '/study'),
         builder: (context) => LanguageDeckStudyScreen(
           deck: tile.deck,
           l1: tile.l1,
@@ -232,7 +244,17 @@ class _HomeScreenState extends State<HomeScreen> {
   void _openStore() {
     Navigator.of(
       context,
-    ).push(MaterialPageRoute(builder: (context) => const DeckStoreScreen()));
+    ).push(MaterialPageRoute(
+          settings: const RouteSettings(name: '/store'),
+          builder: (context) => const DeckStoreScreen(),
+        ));
+  }
+
+  Future<void> _openSettings() async {
+    await Navigator.of(context).push(MaterialPageRoute(
+      settings: const RouteSettings(name: '/settings'),
+      builder: (context) => const SettingsScreen(),
+    ));
   }
 
   @override
@@ -252,6 +274,15 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: _openStore,
             tooltip: l10n.homeStoreTooltip,
           ),
+          // The only setting is the statistics switch, so the entry exists
+          // only where measuring can run (never on Android, never without
+          // a key).
+          if (telemetryToggleVisible())
+            IconButton(
+              icon: const Icon(Icons.settings_outlined),
+              onPressed: _openSettings,
+              tooltip: l10n.settingsTitle,
+            ),
         ],
       ),
       body: _isLoading

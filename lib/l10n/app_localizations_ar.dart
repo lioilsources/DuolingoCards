@@ -441,4 +441,14 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get langZhCN => 'الصينية';
+
+  @override
+  String get settingsTitle => 'الإعدادات';
+
+  @override
+  String get statsToggle => 'إحصاءات استخدام مجهولة';
+
+  @override
+  String get statsToggleSubtitle =>
+      'تساعد على تحسين التطبيق. بلا حساب ولا معرّف ولا أي شيء تكتبه. الإيقاف يحذف ما لم يُرسل بعد.';
 }

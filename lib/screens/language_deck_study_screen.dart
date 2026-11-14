@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:ol1n_telemetry/ol1n_telemetry.dart';
 import 'package:path_provider/path_provider.dart';
 import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
 import '../services/priority_service.dart';
+import '../telemetry/telemetry_dictionary.dart';
 import '../widgets/card_feedback_sheet.dart';
 import '../widgets/card_stack.dart';
 import '../widgets/language_card_widget.dart';
@@ -13,12 +15,17 @@ class LanguageDeckStudyScreen extends StatefulWidget {
   final String l2;
   final String style;
 
+  /// Where the study session was opened from (`home` or `store`), for the
+  /// anonymous statistics only.
+  final String from;
+
   const LanguageDeckStudyScreen({
     super.key,
     required this.deck,
     required this.l1,
     required this.l2,
     required this.style,
+    this.from = 'home',
   });
 
   @override
@@ -33,12 +40,44 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
   bool _showFront = true;
   String? _docsPath;
 
+  /// Anonymous statistics: one `study` flow per visit, with how many cards
+  /// were rated. The study logic never reads them.
+  late final TelemetryFlow _flow;
+  int _known = 0;
+  int _unknown = 0;
+
+  Map<String, Object> _counts() =>
+      {'rated': _known + _unknown, 'known': _known, 'unknown': _unknown};
+
   List<LanguageCard> get _cards => widget.deck.cards;
 
   @override
   void initState() {
     super.initState();
+    _flow = Telemetry.flow(
+      'study',
+      {
+        'deck': telemetryDeck(widget.deck.slug),
+        'style': telemetryStyle(widget.style),
+        'l2': telemetryCardLang(widget.l2),
+        'free': widget.deck.tier == 0,
+        'from': widget.from,
+      },
+      _counts,
+    );
     _loadPriorities();
+  }
+
+  @override
+  void dispose() {
+    _flow.end(_known + _unknown > 0 ? 'ok' : 'cancel', _counts());
+    super.dispose();
+  }
+
+  void _rated({required bool known}) {
+    known ? _known++ : _unknown++;
+    // The first rated card on this install is Lexify's activation.
+    Telemetry.activation();
   }
 
   Future<void> _loadPriorities() async {
@@ -75,16 +114,21 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
   }
 
   void _goPrev() {
-    if (_historyIndex > 0) setState(() => _historyIndex--);
+    if (_historyIndex > 0) {
+      Telemetry.feature('card_back');
+      setState(() => _historyIndex--);
+    }
   }
 
   void _markUnknown() {
+    _rated(known: false);
     _history[_historyIndex].increasePriority();
     _priorityService.savePriorities(widget.deck.slug, _cards);
     _goNext();
   }
 
   void _markKnown() {
+    _rated(known: true);
     _history[_historyIndex].decreasePriority();
     _priorityService.savePriorities(widget.deck.slug, _cards);
     _goNext();
@@ -103,7 +147,10 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
     }
   }
 
-  void _onDoubleTap() => setState(() => _showFront = !_showFront);
+  void _onDoubleTap() {
+    Telemetry.feature('flip');
+    setState(() => _showFront = !_showFront);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -152,14 +199,17 @@ class _LanguageDeckStudyScreenState extends State<LanguageDeckStudyScreen> {
               style: widget.style,
               showFront: showFront,
               onTap: _onDoubleTap,
-              onReport: () => showCardFeedbackSheet(
+              onReport: () {
+                Telemetry.feature('card_report');
+                showCardFeedbackSheet(
                 context,
                 deck: widget.deck,
                 card: card,
                 l1: widget.l1,
                 l2: widget.l2,
                 style: widget.style,
-              ),
+                );
+              },
               docsDir: _docsPath,
             ),
             badgeBuilder: (card) => _PriorityBadge(priority: card.priority),
