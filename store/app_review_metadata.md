@@ -183,17 +183,16 @@ answer ("No, we do not collect data") is still accurate.
 |---|---|---|---|
 | Usage Data → **Product Interaction** | **No** | **No** | **Analytics** |
 | Diagnostics → **Performance Data** | **No** | **No** | **Analytics** |
+| Location → **Coarse Location** | **No** | **No** | **Analytics** |
 
 - *Product Interaction*: launches, screens and seconds on them, deck pages
   opened, decks added, study sessions (deck, style, language, cards rated),
   purchase started / finished / cancelled, card reports (kind only), first
   use of features, errors shown (kind only).
 - *Performance Data*: how long deck pictures take to download.
-- The receiver keeps the country derived from the IP address (the IP itself is
-  not stored). Apple counts a location derived from an IP address as *Coarse
-  Location*; Kirian declares it, this template does not. **Owner's call:**
-  tick Location → Coarse Location (not linked, no tracking, Analytics) and add
-  `NSPrivacyCollectedDataTypeCoarseLocation` to both manifests, or leave it.
+- *Coarse Location*: the receiver derives the country from the connection's
+  IP address and keeps only the country; the IP address itself is neither
+  stored nor logged. Declared the same way in every ol1n app.
 
 Not collected (leave unticked): Contact Info, Health & Fitness, Financial
 Info, Precise Location, Sensitive Info, Contacts, User Content, Browsing
