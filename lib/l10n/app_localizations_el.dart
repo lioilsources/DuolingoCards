@@ -18,8 +18,7 @@ class AppLocalizationsEl extends AppLocalizations {
   String get homeEmptyTitle => 'Δεν υπάρχουν τράπουλες ακόμα';
 
   @override
-  String get homeReorderHint =>
-      'Πατήστε παρατεταμένα μια τράπουλα και σύρετέ τη για αλλαγή σειράς';
+  String get homeReorderHint => 'Πατήστε παρατεταμένα μια τράπουλα και σύρετέ τη για αλλαγή σειράς';
 
   @override
   String get homeBrowseStore => 'Δείτε το κατάστημα τράπουλων';
@@ -141,12 +140,10 @@ class AppLocalizationsEl extends AppLocalizations {
   String get styleSectionTitle => 'Στυλ εικόνων';
 
   @override
-  String get confirmBuyNote =>
-      'Η αγορά ξεκλειδώνει όλη την τράπουλα — κάθε γλώσσα και κάθε στυλ. Αυτός ο συνδυασμός θα προστεθεί στην αρχική οθόνη.';
+  String get confirmBuyNote => 'Η αγορά ξεκλειδώνει όλη την τράπουλα — κάθε γλώσσα και κάθε στυλ. Αυτός ο συνδυασμός θα προστεθεί στην αρχική οθόνη.';
 
   @override
-  String get confirmAddNote =>
-      'Αυτός ο συνδυασμός θα προστεθεί στην αρχική οθόνη. Μπορείτε να προσθέσετε άλλη γλώσσα ή στυλ οποιαδήποτε στιγμή.';
+  String get confirmAddNote => 'Αυτός ο συνδυασμός θα προστεθεί στην αρχική οθόνη. Μπορείτε να προσθέσετε άλλη γλώσσα ή στυλ οποιαδήποτε στιγμή.';
 
   @override
   String get purchaseFailedToStart => 'Δεν ήταν δυνατή η έναρξη της αγοράς.';
@@ -290,8 +287,7 @@ class AppLocalizationsEl extends AppLocalizations {
   String get stylePhoto => 'Φωτογραφία';
 
   @override
-  String get stylePhotoDesc =>
-      'Καθαρή φωτογραφία, πιο κοντά στην πραγματικότητα';
+  String get stylePhotoDesc => 'Καθαρή φωτογραφία, πιο κοντά στην πραγματικότητα';
 
   @override
   String get styleInk => 'Πινέλο και μελάνι';
@@ -309,8 +305,7 @@ class AppLocalizationsEl extends AppLocalizations {
   String get styleWatercolor => 'Ακουαρέλα';
 
   @override
-  String get styleWatercolorDesc =>
-      'Απλωμένα χρώματα, το χαρτί φαίνεται από κάτω';
+  String get styleWatercolorDesc => 'Απλωμένα χρώματα, το χαρτί φαίνεται από κάτω';
 
   @override
   String get styleFlag => 'Σημαίες';
@@ -428,4 +423,24 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get langZhCN => 'Κινεζικά';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

@@ -18,8 +18,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get homeEmptyTitle => 'Aún no tienes mazos';
 
   @override
-  String get homeReorderHint =>
-      'Mantén pulsado un mazo y arrástralo para cambiar el orden';
+  String get homeReorderHint => 'Mantén pulsado un mazo y arrástralo para cambiar el orden';
 
   @override
   String get homeBrowseStore => 'Ver la tienda de mazos';
@@ -141,12 +140,10 @@ class AppLocalizationsEs extends AppLocalizations {
   String get styleSectionTitle => 'Estilo de imagen';
 
   @override
-  String get confirmBuyNote =>
-      'Al comprar desbloqueas el mazo completo: todos los idiomas y todos los estilos. Esta combinación se añadirá a tu pantalla de inicio.';
+  String get confirmBuyNote => 'Al comprar desbloqueas el mazo completo: todos los idiomas y todos los estilos. Esta combinación se añadirá a tu pantalla de inicio.';
 
   @override
-  String get confirmAddNote =>
-      'Esta combinación se añadirá a tu pantalla de inicio. Puedes añadir otro idioma u otro estilo cuando quieras.';
+  String get confirmAddNote => 'Esta combinación se añadirá a tu pantalla de inicio. Puedes añadir otro idioma u otro estilo cuando quieras.';
 
   @override
   String get purchaseFailedToStart => 'No se pudo iniciar la compra.';
@@ -426,4 +423,24 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get langZhCN => 'Chino';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

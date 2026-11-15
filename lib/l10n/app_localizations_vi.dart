@@ -140,12 +140,10 @@ class AppLocalizationsVi extends AppLocalizations {
   String get styleSectionTitle => 'Phong cách hình ảnh';
 
   @override
-  String get confirmBuyNote =>
-      'Mua sẽ mở khóa toàn bộ bộ thẻ — mọi ngôn ngữ và mọi phong cách. Tổ hợp này sẽ được thêm vào màn hình chính.';
+  String get confirmBuyNote => 'Mua sẽ mở khóa toàn bộ bộ thẻ — mọi ngôn ngữ và mọi phong cách. Tổ hợp này sẽ được thêm vào màn hình chính.';
 
   @override
-  String get confirmAddNote =>
-      'Tổ hợp này sẽ được thêm vào màn hình chính. Bạn có thể thêm ngôn ngữ hoặc phong cách khác bất cứ lúc nào.';
+  String get confirmAddNote => 'Tổ hợp này sẽ được thêm vào màn hình chính. Bạn có thể thêm ngôn ngữ hoặc phong cách khác bất cứ lúc nào.';
 
   @override
   String get purchaseFailedToStart => 'Không thể bắt đầu giao dịch mua.';
@@ -343,8 +341,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get styleIllustriousOil => 'Sơn dầu – impasto';
 
   @override
-  String get styleIllustriousOilDesc =>
-      'Lớp sơn impasto dày, tương phản sáng tối';
+  String get styleIllustriousOilDesc => 'Lớp sơn impasto dày, tương phản sáng tối';
 
   @override
   String get styleAnime => 'Anime';
@@ -426,4 +423,24 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get langZhCN => 'Tiếng Trung';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

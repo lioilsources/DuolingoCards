@@ -49,6 +49,41 @@ never shows them on the store — and each is 1242x2208, a canonical App Store s
 | `com.ol1n.duolingocards.deck.food_vegetables` | Deck Vegetables | Vegetables | `food-vegetables.png` |
 | `com.ol1n.duolingocards.deck.weather` | Deck Weather | Weather | `weather.png` |
 
+## All decks bundle (complete-the-set) — manual step, NOT DONE YET
+
+> Status: none of these five products exists in App Store Connect or Play
+> Console yet. The app already asks the store for them and simply hides the
+> offer while the store returns nothing. Create them by hand; IDs and the
+> number of tiers are irreversible once created.
+
+Five non-consumables that unlock the **same** content: every paid deck,
+including decks added later. The app offers exactly one, chosen by how many
+paid decks the user already owns, and shows that product's store price (plus
+tier 0's price struck through on tiers 1-4). Defined in `assets/catalog.json`
+under `all_decks`; the choice is `lib/services/set_ladder.dart`.
+
+| Tier | Product ID (App Store = Play) | Price (USD price point) | Offered when owned decks |
+|---|---|---|---|
+| 0 | `com.ol1n.duolingocards.decks_all` | 4.99 | 0 |
+| 1 | `com.ol1n.duolingocards.decks_all_s1` | 3.99 | 1 |
+| 2 | `com.ol1n.duolingocards.decks_all_s2` | 2.99 | 2 |
+| 3 | `com.ol1n.duolingocards.decks_all_s3` | 1.99 | 3 |
+| 4 | `com.ol1n.duolingocards.decks_all_s4` | 0.99 | 4 or more |
+
+- Type: Non-Consumable (App Store) / one-time product (Play), all territories.
+  Prices are USD price points; let the store convert other currencies, do not
+  hand-tune local prices.
+- Same display name (en: `All decks`) and the same paywall review screenshot
+  for all five.
+- **Do not** enable tiers 1-4 as promoted in-app purchases, or they could be
+  bought from the App Store page at the reduced price.
+
+Review notes text (same for all five):
+
+> Complete-the-set pricing: these products unlock identical content. The app
+> offers exactly one of them, chosen by how many items the customer already
+> owns, so earlier purchases are credited.
+
 ## Localizations
 
 At least one localization is required; `iap_products.csv` carries all 17, one row

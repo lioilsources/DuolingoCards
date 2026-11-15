@@ -18,8 +18,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get homeEmptyTitle => 'Колод пока нет';
 
   @override
-  String get homeReorderHint =>
-      'Удерживайте колоду и перетащите, чтобы изменить порядок';
+  String get homeReorderHint => 'Удерживайте колоду и перетащите, чтобы изменить порядок';
 
   @override
   String get homeBrowseStore => 'Открыть магазин колод';
@@ -147,12 +146,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get styleSectionTitle => 'Стиль картинок';
 
   @override
-  String get confirmBuyNote =>
-      'Покупка открывает всю колоду — все языки и все стили. Эта комбинация появится на главном экране.';
+  String get confirmBuyNote => 'Покупка открывает всю колоду — все языки и все стили. Эта комбинация появится на главном экране.';
 
   @override
-  String get confirmAddNote =>
-      'Эта комбинация появится на главном экране. Другой язык или стиль можно добавить в любое время.';
+  String get confirmAddNote => 'Эта комбинация появится на главном экране. Другой язык или стиль можно добавить в любое время.';
 
   @override
   String get purchaseFailedToStart => 'Не удалось начать покупку.';
@@ -316,8 +313,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get styleWatercolor => 'Акварель';
 
   @override
-  String get styleWatercolorDesc =>
-      'Растекающиеся заливки, сквозь них видна бумага';
+  String get styleWatercolorDesc => 'Растекающиеся заливки, сквозь них видна бумага';
 
   @override
   String get styleFlag => 'Флаги';
@@ -435,4 +431,24 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get langZhCN => 'Китайский';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

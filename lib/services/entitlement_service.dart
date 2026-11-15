@@ -6,6 +6,37 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/deck_entitlement.dart';
 import '../models/store_catalog.dart';
 import 'iap_service.dart';
+import 'set_ladder.dart';
+
+/// The "All decks" offer for a user who does not own the bundle yet.
+///
+/// Every amount is the store's localized string; the app never computes one.
+class AllDecksOffer {
+  /// The tier SKU to buy.
+  final String sku;
+
+  /// Store price of [sku]. Never null: an offer the store did not return a
+  /// product for is not made at all.
+  final String price;
+
+  /// Store price of tier 0, to show struck through. Null on tier 0 itself
+  /// and whenever the store did not return tier 0's price.
+  final String? fullPrice;
+
+  /// Paid decks the user already owns, i.e. what was credited.
+  final int ownedDecks;
+
+  /// Index of the offered tier in the catalog; 0 is the full price.
+  final int tierIndex;
+
+  const AllDecksOffer({
+    required this.sku,
+    required this.price,
+    required this.fullPrice,
+    required this.ownedDecks,
+    required this.tierIndex,
+  });
+}
 
 /// Decides which decks the user may open, and which (deck, l1, l2, style)
 /// combinations sit on the home screen.
@@ -14,7 +45,9 @@ import 'iap_service.dart';
 ///
 /// - **Ownership** is per deck. A free deck is owned by everyone; a paid deck
 ///   is owned once its non-consumable IAP product has been purchased. One
-///   purchase covers every language pair and every style of that deck.
+///   purchase covers every language pair and every style of that deck. Owning
+///   any tier of the "All decks" bundle owns every paid deck, including ones
+///   added to the catalog later.
 /// - **Activation** is per (slug, l1, l2, style) quad and costs nothing. It is
 ///   only the user saying "put this combination on my home screen", so the same
 ///   deck can sit there twice in two languages.
@@ -27,7 +60,12 @@ class EntitlementService extends ChangeNotifier {
   factory EntitlementService() => _instance;
   EntitlementService._internal() : _iap = IAPService();
 
-  final IAPService _iap;
+  /// A standalone instance over [backend], for tests. The app uses the
+  /// singleton, which talks to the real store through [IAPService].
+  @visibleForTesting
+  EntitlementService.withBackend(PurchaseBackend backend) : _iap = backend;
+
+  final PurchaseBackend _iap;
 
   static const String _ownedKey = 'owned_product_codes';
   static const String _deckEntitlementsKey = 'deck_entitlements';
@@ -71,7 +109,55 @@ class EntitlementService extends ChangeNotifier {
     if (cat == null) return false;
     if (cat.isFree(slug, tier: tier)) return true;
     final product = cat.productForDeck(slug);
-    return product != null && _ownedCodes.contains(product.code);
+    if (product == null) return false;
+    return ownsAllDecks || _ownedCodes.contains(product.code);
+  }
+
+  /// Whether any tier of the "All decks" bundle is owned.
+  bool get ownsAllDecks {
+    final code = _catalog?.allDecks?.code;
+    return code != null && _ownedCodes.contains(code);
+  }
+
+  /// Paid decks bought one by one — the count the "All decks" ladder credits.
+  int get ownedPaidDeckCount =>
+      _catalog?.ownedPaidDeckCount(_ownedCodes) ?? 0;
+
+  /// The "All decks" tier to offer now, with store prices, or null when the
+  /// catalog has no bundle, the user already owns it, or the store did not
+  /// return the offered tier. Recomputed on every call, so a single-deck
+  /// purchase moves the offer one tier down without a restart.
+  AllDecksOffer? get allDecksOffer {
+    final bundle = _catalog?.allDecks;
+    if (bundle == null || ownsAllDecks) return null;
+    final steps = <SetLadderStep>[
+      for (final t in bundle.tiers)
+        if (t.skuForCurrentPlatform() case final sku?)
+          (threshold: t.threshold, productId: sku),
+    ];
+    final owned = ownedPaidDeckCount;
+    final sku = setLadderOffer(owned, steps);
+    if (sku == null) return null;
+    final price = _iap.localizedPrice(sku);
+    if (price == null) return null;
+    final index = bundle.tiers.indexWhere((t) => t.skuForCurrentPlatform() == sku);
+    final fullSku =
+        bundle.tiers.isEmpty ? null : bundle.tiers.first.skuForCurrentPlatform();
+    return AllDecksOffer(
+      sku: sku,
+      price: price,
+      fullPrice: index > 0 && fullSku != null ? _iap.localizedPrice(fullSku) : null,
+      ownedDecks: owned,
+      tierIndex: index,
+    );
+  }
+
+  /// Start the purchase of the currently offered "All decks" tier. Like
+  /// [purchaseDeck], true only means the store sheet was presented.
+  Future<bool> purchaseAllDecks() async {
+    final offer = allDecksOffer;
+    if (offer == null) return false;
+    return _iap.buy(offer.sku);
   }
 
   bool isFree(String slug, {int tier = 1}) =>
@@ -221,7 +307,12 @@ class EntitlementService extends ChangeNotifier {
   // ── Initialization ────────────────────────────────────────────────────────
 
   /// Load catalog, restore cached state, wire IAP. Safe to call repeatedly.
-  Future<void> initialize({String catalogAsset = 'assets/catalog.json'}) async {
+  ///
+  /// [catalog] replaces the bundled asset; tests pass one in.
+  Future<void> initialize({
+    String catalogAsset = 'assets/catalog.json',
+    @visibleForTesting StoreCatalog? catalog,
+  }) async {
     if (_initialized) return;
     _initialized = true;
 
@@ -230,8 +321,9 @@ class EntitlementService extends ChangeNotifier {
     _activatedKeys
         .addAll(_prefs?.getStringList(_deckEntitlementsKey) ?? const []);
 
-    final raw = await rootBundle.loadString(catalogAsset);
-    _catalog = StoreCatalog.fromJson(jsonDecode(raw) as Map<String, dynamic>);
+    _catalog = catalog ??
+        StoreCatalog.fromJson(jsonDecode(await rootBundle.loadString(
+            catalogAsset)) as Map<String, dynamic>);
 
     await _migrateFromCredits();
 
@@ -296,10 +388,16 @@ class EntitlementService extends ChangeNotifier {
     }).toSet();
   }
 
+  /// Record ownership of [sku]. Every "All decks" tier records the bundle's
+  /// one code, so which tier was paid for never matters afterwards — and a
+  /// restore that replays any tier unlocks everything.
   void _handleOwned(String sku, {required bool restored}) {
-    final product = _catalog?.productForSku(sku);
-    if (product == null) return;
-    if (_ownedCodes.add(product.code)) {
+    final cat = _catalog;
+    if (cat == null) return;
+    final String? code = cat.productForSku(sku)?.code ??
+        (cat.allDecks?.tierForSku(sku) != null ? cat.allDecks!.code : null);
+    if (code == null) return;
+    if (_ownedCodes.add(code)) {
       _prefs?.setStringList(_ownedKey, _ownedCodes.toList());
       notifyListeners();
     }

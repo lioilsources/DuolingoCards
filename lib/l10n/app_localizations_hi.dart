@@ -18,8 +18,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get homeEmptyTitle => 'अभी कोई डेक नहीं';
 
   @override
-  String get homeReorderHint =>
-      'क्रम बदलने के लिए डेक को देर तक दबाएँ और खींचें';
+  String get homeReorderHint => 'क्रम बदलने के लिए डेक को देर तक दबाएँ और खींचें';
 
   @override
   String get homeBrowseStore => 'डेक स्टोर देखें';
@@ -141,12 +140,10 @@ class AppLocalizationsHi extends AppLocalizations {
   String get styleSectionTitle => 'चित्र शैली';
 
   @override
-  String get confirmBuyNote =>
-      'खरीदने पर पूरा डेक अनलॉक हो जाता है — हर भाषा और हर शैली। यह संयोजन आपकी होम स्क्रीन पर जोड़ दिया जाएगा।';
+  String get confirmBuyNote => 'खरीदने पर पूरा डेक अनलॉक हो जाता है — हर भाषा और हर शैली। यह संयोजन आपकी होम स्क्रीन पर जोड़ दिया जाएगा।';
 
   @override
-  String get confirmAddNote =>
-      'यह संयोजन आपकी होम स्क्रीन पर जोड़ दिया जाएगा। आप कभी भी कोई और भाषा या शैली जोड़ सकते हैं।';
+  String get confirmAddNote => 'यह संयोजन आपकी होम स्क्रीन पर जोड़ दिया जाएगा। आप कभी भी कोई और भाषा या शैली जोड़ सकते हैं।';
 
   @override
   String get purchaseFailedToStart => 'खरीदारी शुरू नहीं हो सकी।';
@@ -426,4 +423,24 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get langZhCN => 'चीनी';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

@@ -143,12 +143,10 @@ class AppLocalizationsHe extends AppLocalizations {
   String get styleSectionTitle => 'סגנון תמונות';
 
   @override
-  String get confirmBuyNote =>
-      'הקנייה פותחת את כל החפיסה — כל השפות וכל הסגנונות. השילוב הזה יתווסף למסך הבית שלך.';
+  String get confirmBuyNote => 'הקנייה פותחת את כל החפיסה — כל השפות וכל הסגנונות. השילוב הזה יתווסף למסך הבית שלך.';
 
   @override
-  String get confirmAddNote =>
-      'השילוב הזה יתווסף למסך הבית שלך. אפשר להוסיף שפה או סגנון נוספים בכל עת.';
+  String get confirmAddNote => 'השילוב הזה יתווסף למסך הבית שלך. אפשר להוסיף שפה או סגנון נוספים בכל עת.';
 
   @override
   String get purchaseFailedToStart => 'לא ניתן להתחיל את הרכישה.';
@@ -429,4 +427,24 @@ class AppLocalizationsHe extends AppLocalizations {
 
   @override
   String get langZhCN => 'סינית';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

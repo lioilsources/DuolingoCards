@@ -18,8 +18,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get homeEmptyTitle => 'Nenhum baralho ainda';
 
   @override
-  String get homeReorderHint =>
-      'Toque e segure um baralho e arraste para reordenar';
+  String get homeReorderHint => 'Toque e segure um baralho e arraste para reordenar';
 
   @override
   String get homeBrowseStore => 'Ver a loja de baralhos';
@@ -141,12 +140,10 @@ class AppLocalizationsPt extends AppLocalizations {
   String get styleSectionTitle => 'Estilo de imagem';
 
   @override
-  String get confirmBuyNote =>
-      'A compra desbloqueia o baralho inteiro — todos os idiomas e todos os estilos. Esta combinação será adicionada à sua tela inicial.';
+  String get confirmBuyNote => 'A compra desbloqueia o baralho inteiro — todos os idiomas e todos os estilos. Esta combinação será adicionada à sua tela inicial.';
 
   @override
-  String get confirmAddNote =>
-      'Esta combinação será adicionada à sua tela inicial. Você pode adicionar outro idioma ou estilo quando quiser.';
+  String get confirmAddNote => 'Esta combinação será adicionada à sua tela inicial. Você pode adicionar outro idioma ou estilo quando quiser.';
 
   @override
   String get purchaseFailedToStart => 'Não foi possível iniciar a compra.';
@@ -426,11 +423,31 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get langZhCN => 'Chinês';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }
 
 /// The translations for Portuguese, as used in Portugal (`pt_PT`).
 class AppLocalizationsPtPt extends AppLocalizationsPt {
-  AppLocalizationsPtPt() : super('pt_PT');
+  AppLocalizationsPtPt(): super('pt_PT');
 
   @override
   String get appTitle => 'Lexify';
@@ -442,8 +459,7 @@ class AppLocalizationsPtPt extends AppLocalizationsPt {
   String get homeEmptyTitle => 'Ainda não há baralhos';
 
   @override
-  String get homeReorderHint =>
-      'Mantenha premido um baralho e arraste-o para reordenar';
+  String get homeReorderHint => 'Mantenha premido um baralho e arraste-o para reordenar';
 
   @override
   String get homeBrowseStore => 'Ver a loja de baralhos';
@@ -565,12 +581,10 @@ class AppLocalizationsPtPt extends AppLocalizationsPt {
   String get styleSectionTitle => 'Estilo de imagem';
 
   @override
-  String get confirmBuyNote =>
-      'A compra desbloqueia o baralho inteiro — todos os idiomas e todos os estilos. Esta combinação será adicionada ao seu ecrã principal.';
+  String get confirmBuyNote => 'A compra desbloqueia o baralho inteiro — todos os idiomas e todos os estilos. Esta combinação será adicionada ao seu ecrã principal.';
 
   @override
-  String get confirmAddNote =>
-      'Esta combinação será adicionada ao seu ecrã principal. Pode adicionar outro idioma ou estilo a qualquer momento.';
+  String get confirmAddNote => 'Esta combinação será adicionada ao seu ecrã principal. Pode adicionar outro idioma ou estilo a qualquer momento.';
 
   @override
   String get purchaseFailedToStart => 'Não foi possível iniciar a compra.';
@@ -850,4 +864,24 @@ class AppLocalizationsPtPt extends AppLocalizationsPt {
 
   @override
   String get langZhCN => 'Chinês';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

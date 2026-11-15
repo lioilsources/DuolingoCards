@@ -135,14 +135,20 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
 
   /// Confirm the (language pair, style) selection. [buying] switches the copy:
   /// a purchase unlocks the whole deck, an add only places one combination.
-  Future<bool> _confirmSelection({required bool buying}) async {
+  ///
+  /// [allDecks] confirms the "All decks" bundle instead of this deck, at the
+  /// offered tier's store price.
+  Future<bool> _confirmSelection({
+    required bool buying,
+    AllDecksOffer? allDecks,
+  }) async {
     final l10n = AppLocalizations.of(context);
     final styleMeta = CardStyle.of(_style);
-    final price = _ent.priceForDeck(_deck.slug);
+    final price = allDecks?.price ?? _ent.priceForDeck(_deck.slug);
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: Text(_deck.title(_uiLang)),
+        title: Text(allDecks != null ? l10n.allDecksTitle : _deck.title(_uiLang)),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -161,7 +167,9 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
             ),
             const SizedBox(height: 14),
             Text(
-              buying ? l10n.confirmBuyNote : l10n.confirmAddNote,
+              allDecks != null
+                  ? l10n.confirmBuyAllNote
+                  : (buying ? l10n.confirmBuyNote : l10n.confirmAddNote),
               style: TextStyle(fontSize: 13, color: Colors.grey.shade600),
             ),
           ],
@@ -197,6 +205,23 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
       );
     }
     // On success the store sheet is now up; _onEntitlementsChanged finishes.
+  }
+
+  /// Buy the "All decks" bundle at the tier on offer. Owning it owns this
+  /// deck too, so [_onEntitlementsChanged] finishes the same way as [_buy].
+  Future<void> _buyAll(AllDecksOffer offer) async {
+    if (!await _confirmSelection(buying: true, allDecks: offer)) return;
+    if (!mounted) return;
+    setState(() => _purchasing = true);
+    final started = await _ent.purchaseAllDecks();
+    if (!mounted) return;
+    if (!started) {
+      setState(() => _purchasing = false);
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+            content: Text(AppLocalizations.of(context).purchaseFailedToStart)),
+      );
+    }
   }
 
   Future<void> _add({bool confirmed = false}) async {
@@ -352,6 +377,9 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
               final activatedCount = _ent.ownedEntitlements
                   .where((e) => e.deckSlug == _deck.slug)
                   .length;
+              // Recomputed on every entitlement change, so buying one deck
+              // elsewhere moves this offer down a tier without a restart.
+              final allDecks = _ownsDeck ? null : _ent.allDecksOffer;
               return Padding(
                 padding: const EdgeInsets.fromLTRB(16, 10, 16, 16),
                 child: Column(
@@ -408,6 +436,14 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
                         onDownload: _startDownload,
                         onOpen: _openStudyScreen,
                       ),
+                    if (allDecks != null && !_isDownloading) ...[
+                      const SizedBox(height: 8),
+                      _AllDecksOfferButton(
+                        offer: allDecks,
+                        busy: _purchasing,
+                        onBuy: () => _buyAll(allDecks),
+                      ),
+                    ],
                   ],
                 ),
               );
@@ -773,6 +809,79 @@ class _ActionButton extends StatelessWidget {
   }
 }
 
+/// The "All decks" bundle next to this deck's own price: the offered tier's
+/// store price and, on a credited tier, tier 0's price struck through plus a
+/// line saying how many decks were credited. No amount is computed here.
+class _AllDecksOfferButton extends StatelessWidget {
+  final AllDecksOffer offer;
+  final bool busy;
+  final VoidCallback onBuy;
+
+  const _AllDecksOfferButton({
+    required this.offer,
+    required this.busy,
+    required this.onBuy,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    final theme = Theme.of(context);
+    final fullPrice = offer.fullPrice;
+    final credited = offer.tierIndex > 0 && offer.ownedDecks > 0;
+    return OutlinedButton(
+      onPressed: busy ? null : onBuy,
+      style: OutlinedButton.styleFrom(
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+      ),
+      child: Row(
+        children: [
+          const Icon(Icons.collections_bookmark_outlined, size: 22),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  l10n.allDecksTitle,
+                  style: theme.textTheme.titleSmall
+                      ?.copyWith(fontWeight: FontWeight.bold),
+                ),
+                Text(
+                  credited
+                      ? l10n.allDecksCredited(offer.ownedDecks)
+                      : l10n.allDecksSubtitle,
+                  style: theme.textTheme.bodySmall
+                      ?.copyWith(color: theme.colorScheme.outline),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(width: 8),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: [
+              if (fullPrice != null && fullPrice != offer.price)
+                Text(
+                  fullPrice,
+                  style: theme.textTheme.bodySmall?.copyWith(
+                    decoration: TextDecoration.lineThrough,
+                    color: theme.colorScheme.outline,
+                  ),
+                ),
+              Text(
+                offer.price,
+                style: theme.textTheme.titleMedium
+                    ?.copyWith(fontWeight: FontWeight.bold),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
 
 class _ConfirmRow extends StatelessWidget {
   final IconData icon;

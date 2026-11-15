@@ -143,12 +143,10 @@ class AppLocalizationsCs extends AppLocalizations {
   String get styleSectionTitle => 'Styl obrázků';
 
   @override
-  String get confirmBuyNote =>
-      'Nákup odemkne celý balíček — všechny jazyky i styly. Tahle kombinace se přidá na domovskou obrazovku.';
+  String get confirmBuyNote => 'Nákup odemkne celý balíček — všechny jazyky i styly. Tahle kombinace se přidá na domovskou obrazovku.';
 
   @override
-  String get confirmAddNote =>
-      'Tahle kombinace se přidá na domovskou obrazovku. Kdykoli později můžeš přidat další jazyk nebo styl.';
+  String get confirmAddNote => 'Tahle kombinace se přidá na domovskou obrazovku. Kdykoli později můžeš přidat další jazyk nebo styl.';
 
   @override
   String get purchaseFailedToStart => 'Nákup se nepodařilo zahájit.';
@@ -429,4 +427,25 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get langZhCN => 'Čínština';
+
+  @override
+  String get allDecksTitle => 'Všechny balíčky';
+
+  @override
+  String get allDecksSubtitle => 'Každý balíček, i ty přidané později';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Už máš $count balíčků, odečetli jsme je',
+      few: 'Už máš $count balíčky, odečetli jsme je',
+      one: 'Už máš 1 balíček, odečetli jsme ho',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Nákup odemkne všechny balíčky, i ty přidané později — všechny jazyky i styly. Tahle kombinace se přidá na domovskou obrazovku.';
 }

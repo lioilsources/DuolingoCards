@@ -137,8 +137,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get styleSectionTitle => '이미지 스타일';
 
   @override
-  String get confirmBuyNote =>
-      '구입하면 덱 전체가 잠금 해제돼요. 모든 언어와 모든 스타일을 쓸 수 있어요. 이 조합은 홈 화면에 추가돼요.';
+  String get confirmBuyNote => '구입하면 덱 전체가 잠금 해제돼요. 모든 언어와 모든 스타일을 쓸 수 있어요. 이 조합은 홈 화면에 추가돼요.';
 
   @override
   String get confirmAddNote => '이 조합은 홈 화면에 추가돼요. 다른 언어나 스타일은 언제든지 추가할 수 있어요.';
@@ -420,4 +419,24 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get langZhCN => '중국어';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }
