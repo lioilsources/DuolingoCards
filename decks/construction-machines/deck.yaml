@@ -1,0 +1,283 @@
+# construction-machines - 30 construction and mining machines for kids 4-10.
+# Machine types, not brands: every brief asks for a generic yellow machine with
+# no badges, so FLUX draws the shape kids recognise instead of a dealer photo.
+# One whole machine per card on a plain site, three-quarter view, so the arm,
+# bucket or boom that names the machine is always visible.
+slug: construction-machines
+version: 1
+tier: 1
+brief_attrs: ["(professional photography:1.3)", "(entire machine in frame:1.2)", "(accurate proportions:1.2)", "(highly detailed:1.1)"]
+styles:
+  - photo
+default_style: photo
+
+cards:
+  - key: machine.excavator
+    hint: crawler excavator, the tracked digger with a long arm and a bucket
+    image: machine.excavator.png
+    brief:
+      subject: yellow crawler excavator digging soil
+      attrs: [long two-part hydraulic arm, toothed bucket, cab on a rotating body, steel crawler tracks, three-quarter view, whole machine in frame]
+      setting: [plain sandy construction site, clear sky, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.mini_excavator
+    hint: mini excavator, the small digger that fits through a garden gate
+    image: machine.mini_excavator.png
+    brief:
+      subject: small yellow mini excavator
+      attrs: [compact body, short arm with a small bucket, small blade at the front, rubber tracks, open cab with a roof, three-quarter view, whole machine in frame]
+      setting: [plain garden with dug soil, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.backhoe_loader
+    hint: backhoe loader, the tractor with a bucket in front and a digging arm behind
+    image: machine.backhoe_loader.png
+    brief:
+      subject: yellow backhoe loader
+      attrs: [wide loader bucket at the front, folded digging arm at the back, big rear wheels and smaller front wheels, glass cab in the middle, side profile, whole machine in frame]
+      setting: [plain gravel construction site, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.wheel_loader
+    hint: wheel loader, the big-wheeled machine that scoops and carries gravel
+    image: machine.wheel_loader.png
+    brief:
+      subject: large yellow wheel loader lifting a bucket of gravel
+      attrs: [huge front bucket on two lift arms, four giant tyres, body that bends in the middle, cab behind the arms, three-quarter view, whole machine in frame]
+      setting: [plain quarry with gravel piles, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.bulldozer
+    hint: bulldozer, the tracked machine that pushes earth with a wide blade
+    image: machine.bulldozer.png
+    brief:
+      subject: yellow bulldozer pushing a pile of earth
+      attrs: [wide curved steel blade at the front, ripper claw at the back, heavy crawler tracks, cab on top, three-quarter view, whole machine in frame]
+      setting: [plain earthworks site, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.skid_steer
+    hint: skid steer loader, the small box-shaped loader that turns on the spot
+    image: machine.skid_steer.png
+    brief:
+      subject: small yellow skid steer loader
+      attrs: [boxy compact body, cab between two lift arms, small bucket at the front, four small wheels, three-quarter view, whole machine in frame]
+      setting: [plain construction yard, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.dump_truck
+    hint: dump truck, the lorry that tips its load out of the back
+    image: machine.dump_truck.png
+    brief:
+      subject: orange dump truck with its tipper body raised
+      attrs: [steel tipper body tilted up at the back, sand pouring out, three axles, truck cab at the front, side profile, whole truck in frame]
+      setting: [plain construction site, soft daylight]
+      avoid: [text, badges, logos, brand names, license plates, people]
+
+  - key: machine.articulated_hauler
+    hint: articulated dump truck, the off-road hauler that bends in the middle
+    image: machine.articulated_hauler.png
+    brief:
+      subject: yellow articulated dump truck driving over rough ground
+      attrs: [front cab section joined to a rear dump body by a pivot, six large off-road tyres, high ground clearance, three-quarter view, whole machine in frame]
+      setting: [plain muddy earthworks site, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.mining_truck
+    hint: mining haul truck, the giant dump truck used in open-pit mines
+    image: machine.mining_truck.png
+    brief:
+      subject: giant yellow mining haul truck
+      attrs: [enormous tyres taller than a person, huge dump body with a canopy over the cab, small cab high on the front deck, ladder up to the cab, three-quarter view, whole truck in frame]
+      setting: [plain open-pit mine with terraced walls, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.concrete_mixer
+    hint: concrete mixer truck, the lorry with a big rotating drum
+    image: machine.concrete_mixer.png
+    brief:
+      subject: concrete mixer truck
+      attrs: [large tilted striped rotating drum on the back, chute at the rear, truck cab at the front, three axles, side profile, whole truck in frame]
+      setting: [plain construction site road, soft daylight]
+      avoid: [text, badges, logos, brand names, license plates, people]
+
+  - key: machine.concrete_pump
+    hint: concrete pump truck, the lorry with a long folding boom that pours concrete
+    image: machine.concrete_pump.png
+    brief:
+      subject: concrete pump truck with its boom unfolded high in the air
+      attrs: [long folding boom in several sections with a pipe along it, outrigger legs on the ground, truck chassis, three-quarter view, whole truck and boom in frame]
+      setting: [plain building site with a concrete floor slab, soft daylight]
+      avoid: [text, badges, logos, brand names, license plates, people]
+
+  - key: machine.tower_crane
+    hint: tower crane, the tall crane that stands over a building site
+    image: machine.tower_crane.png
+    brief:
+      subject: tall yellow tower crane
+      attrs: [lattice steel mast, long horizontal jib, short counter-jib with concrete weights, operator cab at the top of the mast, hook hanging on a cable, whole crane in frame]
+      setting: [unfinished concrete building below, clear blue sky]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.mobile_crane
+    hint: mobile crane, the crane on a truck with a telescopic boom
+    image: machine.mobile_crane.png
+    brief:
+      subject: yellow mobile crane with its telescopic boom extended
+      attrs: [telescopic boom raised at an angle, outrigger legs spread on the ground, many-axle truck chassis, crane cab beside the boom, three-quarter view, whole machine in frame]
+      setting: [plain construction site, clear sky]
+      avoid: [text, badges, logos, brand names, license plates, people]
+
+  - key: machine.crawler_crane
+    hint: crawler crane, the heavy crane on tracks with a long lattice boom
+    image: machine.crawler_crane.png
+    brief:
+      subject: large crawler crane
+      attrs: [very long lattice steel boom raised high, crawler tracks, counterweight at the back, cab at the base of the boom, hook on cables, whole machine in frame]
+      setting: [plain industrial construction site, clear sky]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.road_roller
+    hint: road roller, the heavy machine with smooth steel drums that flattens asphalt
+    image: machine.road_roller.png
+    brief:
+      subject: yellow tandem road roller on fresh asphalt
+      attrs: [two wide smooth steel drums front and back, operator seat with a roof in the middle, compact body, side profile, whole machine in frame]
+      setting: [freshly laid dark asphalt road, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.asphalt_paver
+    hint: asphalt paver, the machine that lays a new layer of road surface
+    image: machine.asphalt_paver.png
+    brief:
+      subject: yellow asphalt paver laying hot asphalt
+      attrs: [hopper at the front filled with black asphalt, wide screed at the back smoothing the road, crawler tracks, operator platform with a roof, three-quarter view, whole machine in frame]
+      setting: [road under construction with steaming fresh asphalt, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.motor_grader
+    hint: motor grader, the long machine with a blade under its belly that levels roads
+    image: machine.motor_grader.png
+    brief:
+      subject: yellow motor grader levelling a gravel road
+      attrs: [long frame, angled blade underneath the middle, cab at the back, six large wheels, front wheels far ahead of the cab, side profile, whole machine in frame]
+      setting: [plain gravel road, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.forklift
+    hint: forklift, the small truck that lifts pallets on two forks
+    image: machine.forklift.png
+    brief:
+      subject: yellow forklift lifting a wooden pallet of boxes
+      attrs: [two steel forks on an upright mast, overhead guard above the seat, heavy counterweight at the back, small wheels, three-quarter view, whole machine in frame]
+      setting: [plain warehouse floor, soft even lighting]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.telehandler
+    hint: telehandler, the loader with a long arm that slides out to lift things high
+    image: machine.telehandler.png
+    brief:
+      subject: yellow telehandler with its telescopic arm extended
+      attrs: [long telescopic boom with pallet forks at the end, cab on the left side, four large wheels, low body, three-quarter view, whole machine in frame]
+      setting: [plain construction site, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.boom_lift
+    hint: boom lift, the machine that lifts workers high in a basket
+    image: machine.boom_lift.png
+    brief:
+      subject: boom lift with an empty work basket raised high
+      attrs: [jointed boom arm, small railed work platform at the tip, compact wheeled base with a counterweight, three-quarter view, whole machine in frame]
+      setting: [plain paved yard, clear sky]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.scissor_lift
+    hint: scissor lift, the platform that rises straight up on criss-cross supports
+    image: machine.scissor_lift.png
+    brief:
+      subject: scissor lift with its platform raised
+      attrs: [criss-cross folding metal supports, railed rectangular platform on top, low wheeled base, side profile, whole machine in frame]
+      setting: [plain warehouse interior, soft even lighting]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.demolition_breaker
+    hint: excavator with a hydraulic breaker, the machine that hammers through concrete
+    image: machine.demolition_breaker.png
+    brief:
+      subject: yellow crawler excavator with a hydraulic breaker hammer instead of a bucket
+      attrs: [pointed steel hammer at the end of the arm, breaking a concrete slab, dust and broken concrete, crawler tracks, three-quarter view, whole machine in frame]
+      setting: [plain demolition site, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.pile_driver
+    hint: pile driver, the machine that hammers long posts deep into the ground
+    image: machine.pile_driver.png
+    brief:
+      subject: tracked pile driving rig
+      attrs: [tall vertical steel mast, heavy hammer at the top of the mast, steel pile being driven into the ground, crawler tracks, whole machine in frame]
+      setting: [plain muddy construction site, clear sky]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.drilling_rig
+    hint: drilling rig, the tracked machine that bores deep holes in the ground
+    image: machine.drilling_rig.png
+    brief:
+      subject: tracked foundation drilling rig
+      attrs: [tall vertical mast with a long spiral auger drill, pile of drilled soil at the base, crawler tracks, cab at the bottom, whole machine in frame]
+      setting: [plain construction site, clear sky]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.tunnel_boring_machine
+    hint: tunnel boring machine, the giant round machine that digs tunnels
+    image: machine.tunnel_boring_machine.png
+    brief:
+      subject: giant tunnel boring machine cutter head
+      attrs: [huge round rotating steel cutter head with many cutting discs, cylindrical body behind it, front view, whole cutter head in frame]
+      setting: [inside a large assembly shaft, bright work lights]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.cold_planer
+    hint: road milling machine, the machine that grinds off old asphalt
+    image: machine.cold_planer.png
+    brief:
+      subject: road milling machine removing old asphalt
+      attrs: [long low body on crawler tracks, conveyor belt reaching forward and up, operator platform with a roof, strip of milled road behind it, three-quarter view, whole machine in frame]
+      setting: [plain city road under repair, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.plate_compactor
+    hint: plate compactor, the small vibrating plate a worker pushes to pack down soil
+    image: machine.plate_compactor.png
+    brief:
+      subject: plate compactor standing on gravel
+      attrs: [flat heavy steel base plate, small engine on top, U-shaped steering handle, side view, whole machine in frame]
+      setting: [plain gravel path, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.sheepsfoot_roller
+    hint: padfoot roller, the roller with a spiky drum that packs soil
+    image: machine.sheepsfoot_roller.png
+    brief:
+      subject: yellow single-drum soil compactor with a padfoot drum
+      attrs: [front steel drum covered in rows of square pads, cab at the back, two big rear tyres, three-quarter view, whole machine in frame]
+      setting: [plain earthworks site with packed clay, soft daylight]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.bucket_wheel_excavator
+    hint: bucket wheel excavator, the gigantic machine with a spinning wheel of buckets
+    image: machine.bucket_wheel_excavator.png
+    brief:
+      subject: gigantic bucket wheel excavator in an open-pit coal mine
+      attrs: [huge rotating wheel with buckets at the end of a long boom, enormous steel lattice body, long conveyor bridge, crawler tracks, whole machine in frame, seen from far away]
+      setting: [terraced open-pit mine, clear sky]
+      avoid: [text, badges, logos, brand names, people]
+
+  - key: machine.loader_crane_truck
+    hint: truck with a loader crane, the lorry with a folding hydraulic arm
+    image: machine.loader_crane_truck.png
+    brief:
+      subject: flatbed truck with a folding hydraulic loader crane lifting a pallet of bricks
+      attrs: [jointed crane arm behind the cab, outrigger legs on the ground, flatbed with building materials, side profile, whole truck in frame]
+      setting: [plain building site, soft daylight]
+      avoid: [text, badges, logos, brand names, license plates, people]
