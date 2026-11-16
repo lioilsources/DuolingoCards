@@ -1,0 +1,501 @@
+{
+  "deck": "cars-iconic",
+  "version": 1,
+  "tier": 1,
+  "styles": [
+    "photo"
+  ],
+  "styleAvailability": {
+    "photo": {
+      "bundled": true,
+      "cdn": true
+    }
+  },
+  "defaultStyle": "photo",
+  "titles": {
+    "cs": "Slavná auta",
+    "en": "Iconic Cars"
+  },
+  "cards": [
+    {
+      "key": "car.ford_model_t",
+      "image": "car.ford_model_t.webp",
+      "label": {
+        "cs": "Ford Model T",
+        "en": "Ford Model T"
+      },
+      "summary": {
+        "cs": "Auto, díky kterému si mohly vůz koupit i obyčejné rodiny.",
+        "en": "The car that made driving possible for ordinary families."
+      },
+      "info": {
+        "cs": "Ford Model T se vyráběl v USA od roku 1908 do roku 1927.\nStavěl se na pohyblivé výrobní lince, a proto byl levný. Vyrobilo se ho přes 15 milionů.\nDlouhá léta se dal koupit jen v černé barvě.\n",
+        "en": "The Ford Model T was made in the USA from 1908 to 1927.\nIt was built on a moving assembly line, so it was cheap, and more than 15 million were made.\nFor many years you could buy it only in black.\n"
+      }
+    },
+    {
+      "key": "car.vw_beetle",
+      "image": "car.vw_beetle.webp",
+      "label": {
+        "cs": "Volkswagen Brouk",
+        "en": "Volkswagen Beetle"
+      },
+      "summary": {
+        "cs": "Malé kulaté auto, které lidé pojmenovali podle brouka.",
+        "en": "A small round car that people named after an insect."
+      },
+      "info": {
+        "cs": "Volkswagen Brouk pochází z Německa a vyráběl se od roku 1938 do roku 2003.\nVyrobilo se ho přes 21 milionů, víc než jakéhokoli jiného auta stejné konstrukce.\nMotor má vzadu, pod zadní kapotou.\n",
+        "en": "The Volkswagen Beetle comes from Germany and was made from 1938 to 2003.\nMore than 21 million were built, more than any other car of a single design.\nIts engine is at the back, under the rear lid.\n"
+      }
+    },
+    {
+      "key": "car.vw_bus",
+      "image": "car.vw_bus.webp",
+      "label": {
+        "cs": "Volkswagen Transporter",
+        "en": "Volkswagen bus"
+      },
+      "summary": {
+        "cs": "Přátelská dodávka pro rodiny, surfaře a výlety pod stan.",
+        "en": "A friendly van for families, surfers and camping trips."
+      },
+      "info": {
+        "cs": "Volkswagen Typ 2 pochází z Německa a poprvé se vyráběl v roce 1950.\nPrvní verze měly přední sklo rozdělené na dvě poloviny a vepředu velké V.\nSpousta lidí si z něj udělala malý domeček na kolech na cestování.\n",
+        "en": "The Volkswagen Type 2 comes from Germany and was first made in 1950.\nThe early ones had a windscreen split into two halves and a big V on the front.\nMany people turned it into a little house on wheels for travelling.\n"
+      }
+    },
+    {
+      "key": "car.jeep_willys",
+      "image": "car.jeep_willys.webp",
+      "label": {
+        "cs": "Jeep Willys",
+        "en": "Willys Jeep"
+      },
+      "summary": {
+        "cs": "Malé odolné vojenské auto, které projelo skoro všude.",
+        "en": "A small, tough army car that could drive almost anywhere."
+      },
+      "info": {
+        "cs": "Willys MB se vyráběl v USA za druhé světové války, od roku 1941 do roku 1945.\nPostavily se jich stovky tisíc, aby vozily vojáky po nerovném terénu.\nPodle něj dostala jméno všechna pozdější auta Jeep.\n",
+        "en": "The Willys MB was made in the USA for the Second World War, from 1941 to 1945.\nHundreds of thousands were built to carry soldiers over rough ground.\nIt gave its name to all the Jeep cars that came after it.\n"
+      }
+    },
+    {
+      "key": "car.land_rover_defender",
+      "image": "car.land_rover_defender.webp",
+      "label": {
+        "cs": "Land Rover Defender",
+        "en": "Land Rover Defender"
+      },
+      "summary": {
+        "cs": "Hranaté britské auto stavěné na jízdu přes pole a bláto.",
+        "en": "A boxy British car built to drive across fields and mud."
+      },
+      "info": {
+        "cs": "Land Rover pochází z Velké Británie, první vznikl v roce 1948.\nOd roku 1990 se jmenoval Defender a vyráběl se až do roku 2016.\nJezdili s ním farmáři, cestovatelé i záchranáři po celém světě.\n",
+        "en": "The Land Rover comes from the United Kingdom; the first one was made in 1948.\nFrom 1990 it was called the Defender, and it was made until 2016.\nFarmers, explorers and rescue teams used it all over the world.\n"
+      }
+    },
+    {
+      "key": "car.mini_cooper",
+      "image": "car.mini_cooper.webp",
+      "label": {
+        "cs": "Mini Cooper",
+        "en": "Mini Cooper"
+      },
+      "summary": {
+        "cs": "Malinké britské auto, které bylo nečekaně rychlé.",
+        "en": "A tiny British car that was surprisingly fast."
+      },
+      "info": {
+        "cs": "Mini pochází z Velké Británie a vyrábělo se od roku 1959 do roku 2000.\nMotor má uložený napříč, takže se do krátkého auta vejdou čtyři lidé.\nMini Cooper S vyhrálo v roce 1964 slavnou Rallye Monte Carlo.\n",
+        "en": "The Mini comes from the United Kingdom and was made from 1959 to 2000.\nIts engine sits sideways, so four people fit inside a very short car.\nA Mini Cooper S won the famous Monte Carlo Rally in 1964.\n"
+      }
+    },
+    {
+      "key": "car.fiat_500",
+      "image": "car.fiat_500.webp",
+      "label": {
+        "cs": "Fiat 500",
+        "en": "Fiat 500"
+      },
+      "summary": {
+        "cs": "Malinké italské auto do úzkých městských uliček.",
+        "en": "A tiny Italian car made for narrow city streets."
+      },
+      "info": {
+        "cs": "Fiat 500 pochází z Itálie a vyráběl se od roku 1957 do roku 1975.\nJe kratší než 3 metry, takže zaparkuje skoro všude.\nItalové mu říkají „Cinquecento“, což znamená „pět set“.\n",
+        "en": "The Fiat 500 comes from Italy and was made from 1957 to 1975.\nIt is less than 3 metres long, so it can park almost anywhere.\nItalians call it the \"Cinquecento\", which means \"five hundred\".\n"
+      }
+    },
+    {
+      "key": "car.citroen_2cv",
+      "image": "car.citroen_2cv.webp",
+      "label": {
+        "cs": "Citroën 2CV",
+        "en": "Citroën 2CV"
+      },
+      "summary": {
+        "cs": "Jednoduché francouzské auto se střechou, kterou jde srolovat.",
+        "en": "A simple French car with a roof you can roll back."
+      },
+      "info": {
+        "cs": "Citroën 2CV pochází z Francie a vyráběl se od roku 1948 do roku 1990.\nVznikl proto, aby vozil zemědělce a jejich náklad po hrbolatých venkovských cestách.\nJeho měkká plátěná střecha se roluje dozadu jako víčko od sardinek.\n",
+        "en": "The Citroën 2CV comes from France and was made from 1948 to 1990.\nIt was designed to carry farmers and their goods over bumpy country roads.\nIts soft cloth roof rolls back like a sardine tin lid.\n"
+      }
+    },
+    {
+      "key": "car.citroen_ds",
+      "image": "car.citroen_ds.webp",
+      "label": {
+        "cs": "Citroën DS",
+        "en": "Citroën DS"
+      },
+      "summary": {
+        "cs": "Hladké francouzské auto, které vypadalo jako z budoucnosti.",
+        "en": "A smooth French car that looked like it came from the future."
+      },
+      "info": {
+        "cs": "Citroën DS pochází z Francie a vyráběl se od roku 1955 do roku 1975.\nDíky zvláštnímu odpružení se po nastartování zvedne a po vypnutí zase klesne.\nFrancouzsky zní „DS“ stejně jako slovo „bohyně“.\n",
+        "en": "The Citroën DS comes from France and was made from 1955 to 1975.\nIts special suspension lets the car rise up and sink down when you start it.\nIn French, \"DS\" sounds like the word for \"goddess\".\n"
+      }
+    },
+    {
+      "key": "car.mercedes_300sl",
+      "image": "car.mercedes_300sl.webp",
+      "label": {
+        "cs": "Mercedes-Benz 300 SL",
+        "en": "Mercedes-Benz 300 SL"
+      },
+      "summary": {
+        "cs": "Stříbrné sportovní auto s dveřmi, které se otevírají nahoru jako křídla.",
+        "en": "A silver sports car with doors that open upwards like wings."
+      },
+      "info": {
+        "cs": "Mercedes-Benz 300 SL pochází z Německa, kupé se vyrábělo od roku 1954 do roku 1957.\nDveře se otevírají nahoru, proto se mu říká „Gullwing“, tedy racčí křídlo.\nVe své době patřil k nejrychlejším autům, jaká se dala koupit.\n",
+        "en": "The Mercedes-Benz 300 SL comes from Germany; the coupé was made from 1954 to 1957.\nIts doors open upwards, so people call it the \"Gullwing\".\nIt was one of the fastest cars you could buy in its time.\n"
+      }
+    },
+    {
+      "key": "car.jaguar_e_type",
+      "image": "car.jaguar_e_type.webp",
+      "label": {
+        "cs": "Jaguar E-Type",
+        "en": "Jaguar E-Type"
+      },
+      "summary": {
+        "cs": "Dlouhé elegantní britské sportovní auto.",
+        "en": "A long, sleek British sports car."
+      },
+      "info": {
+        "cs": "Jaguar E-Type pochází z Velké Británie a vyráběl se od roku 1961 do roku 1975.\nMá hodně dlouhou kapotu a pod ní velký motor.\nMnoho lidí o něm říká, že je to jedno z nejkrásnějších aut, jaká kdy vznikla.\n",
+        "en": "The Jaguar E-Type comes from the United Kingdom and was made from 1961 to 1975.\nIt has a very long bonnet with a big engine under it.\nMany people say it is one of the most beautiful cars ever made.\n"
+      }
+    },
+    {
+      "key": "car.aston_martin_db5",
+      "image": "car.aston_martin_db5.webp",
+      "label": {
+        "cs": "Aston Martin DB5",
+        "en": "Aston Martin DB5"
+      },
+      "summary": {
+        "cs": "Elegantní britské auto špiona Jamese Bonda.",
+        "en": "The elegant British car of the spy James Bond."
+      },
+      "info": {
+        "cs": "Aston Martin DB5 pochází z Velké Británie a vyráběl se od roku 1963 do roku 1965.\nSvětově proslul v bondovce „Goldfinger“ z roku 1964.\nVyrobilo se ho jen asi tisíc kusů.\n",
+        "en": "The Aston Martin DB5 comes from the United Kingdom and was made from 1963 to 1965.\nIt became world-famous in the James Bond film \"Goldfinger\" in 1964.\nOnly about a thousand were made.\n"
+      }
+    },
+    {
+      "key": "car.shelby_cobra",
+      "image": "car.shelby_cobra.webp",
+      "label": {
+        "cs": "Shelby Cobra",
+        "en": "Shelby Cobra"
+      },
+      "summary": {
+        "cs": "Malé otevřené auto s obrovským a hlučným motorem.",
+        "en": "A small open car with a huge, loud engine."
+      },
+      "info": {
+        "cs": "Shelby Cobru stavěl v 60. letech americký závodník Carroll Shelby.\nVzal lehké britské sportovní auto a dal do něj velký americký motor Ford.\nVyhrála spoustu závodů a lidé ji kopírují dodnes.\n",
+        "en": "The Shelby Cobra was made in the 1960s by the American racer Carroll Shelby.\nHe took a light British sports car and put a big American Ford engine in it.\nIt won many races and is still copied today.\n"
+      }
+    },
+    {
+      "key": "car.ford_mustang",
+      "image": "car.ford_mustang.webp",
+      "label": {
+        "cs": "Ford Mustang",
+        "en": "Ford Mustang"
+      },
+      "summary": {
+        "cs": "Sportovní americké auto pojmenované po divokém koni.",
+        "en": "A sporty American car named after a wild horse."
+      },
+      "info": {
+        "cs": "Ford Mustang pochází z USA a prodávat se začal v roce 1964.\nByl tak oblíbený, že se podle něj celé skupině podobných aut říká „pony cars“.\nMustang se vyrábí dodnes.\n",
+        "en": "The Ford Mustang comes from the USA and first went on sale in 1964.\nIt was so popular that a whole group of similar cars was named \"pony cars\" after it.\nThe Mustang is still made today.\n"
+      }
+    },
+    {
+      "key": "car.corvette_c2",
+      "image": "car.corvette_c2.webp",
+      "label": {
+        "cs": "Corvette Sting Ray",
+        "en": "Corvette Sting Ray"
+      },
+      "summary": {
+        "cs": "Americké sportovní auto se zadním oknem rozděleným na dvě části.",
+        "en": "An American sports car with a back window split in two."
+      },
+      "info": {
+        "cs": "Chevrolet Corvette Sting Ray pochází z USA.\nZadní okno rozdělené na dvě poloviny mělo jen kupé z roku 1963.\nKaroserii má ze skelného laminátu, ne z oceli.\n",
+        "en": "The Chevrolet Corvette Sting Ray comes from the USA.\nOnly the 1963 coupé had a rear window split into two halves.\nIts body is made of fibreglass instead of steel.\n"
+      }
+    },
+    {
+      "key": "car.cadillac_eldorado",
+      "image": "car.cadillac_eldorado.webp",
+      "label": {
+        "cs": "Cadillac Eldorado",
+        "en": "Cadillac Eldorado"
+      },
+      "summary": {
+        "cs": "Obrovské americké auto s největšími ocasními ploutvemi všech dob.",
+        "en": "A huge American car with the biggest tail fins ever."
+      },
+      "info": {
+        "cs": "Cadillac Eldorado z roku 1959 pochází z USA.\nJeho vysoké ploutve vzadu, tvarované jako u rakety, patří k nejvyšším, jaké kdy auto mělo.\nJe dlouhý víc než 5 a půl metru.\n",
+        "en": "The 1959 Cadillac Eldorado comes from the USA.\nIts tall tail fins, shaped like a rocket's, are among the tallest ever put on a car.\nIt is more than 5 and a half metres long.\n"
+      }
+    },
+    {
+      "key": "car.chevrolet_bel_air",
+      "image": "car.chevrolet_bel_air.webp",
+      "label": {
+        "cs": "Chevrolet Bel Air",
+        "en": "Chevrolet Bel Air"
+      },
+      "summary": {
+        "cs": "Lesklé americké auto z 50. let s chromem a malými ploutvemi.",
+        "en": "A shiny 1950s American car with chrome and little tail fins."
+      },
+      "info": {
+        "cs": "Chevrolet Bel Air z roku 1957 pochází z USA.\nDvoubarevným lakem a spoustou chromu se stal symbolem Ameriky 50. let.\nNa Kubě jich spousta jezdí po ulicích dodnes.\n",
+        "en": "The 1957 Chevrolet Bel Air comes from the USA.\nWith its two-tone paint and lots of chrome, it became a symbol of 1950s America.\nIn Cuba, many of these old cars are still driving on the streets today.\n"
+      }
+    },
+    {
+      "key": "car.ford_gt40",
+      "image": "car.ford_gt40.webp",
+      "label": {
+        "cs": "Ford GT40",
+        "en": "Ford GT40"
+      },
+      "summary": {
+        "cs": "Hodně nízké americké závodní auto, které porazilo Ferrari.",
+        "en": "A very low American race car that beat Ferrari."
+      },
+      "info": {
+        "cs": "Ford GT40 vznikl v 60. letech, aby vyhrál 24hodinový závod v Le Mans.\nLe Mans vyhrál čtyřikrát za sebou, od roku 1966 do roku 1969.\nJmenuje se GT40, protože je vysoký jen asi 40 palců (1 metr).\n",
+        "en": "The Ford GT40 was built in the 1960s to win the 24 Hours of Le Mans race.\nIt won Le Mans four years in a row, from 1966 to 1969.\nIt is called GT40 because it is only about 40 inches (1 metre) tall.\n"
+      }
+    },
+    {
+      "key": "car.porsche_911_classic",
+      "image": "car.porsche_911_classic.webp",
+      "label": {
+        "cs": "Porsche 911 Carrera RS",
+        "en": "Porsche 911 Carrera RS"
+      },
+      "summary": {
+        "cs": "Klasické německé sportovní auto s malým spoilerem jako kachní ocásek.",
+        "en": "A classic German sports car with a little \"ducktail\" spoiler."
+      },
+      "info": {
+        "cs": "Porsche 911 pochází z Německa, první se vyrobilo v roce 1964.\nCarrera RS z roku 1973 byla lehká a rychlá verze postavená na závody.\nJejí malý zadní spoiler připomíná kachní ocas.\n",
+        "en": "The Porsche 911 comes from Germany; the first one was made in 1964.\nThe 1973 Carrera RS was a light, fast version built for racing.\nIts small rear spoiler looks like a duck's tail.\n"
+      }
+    },
+    {
+      "key": "car.porsche_911_modern",
+      "image": "car.porsche_911_modern.webp",
+      "label": {
+        "cs": "Porsche 911",
+        "en": "Porsche 911"
+      },
+      "summary": {
+        "cs": "Moderní verze sportovního auta, které si drží svůj tvar už 60 let.",
+        "en": "The modern version of a sports car that has kept its shape for 60 years."
+      },
+      "info": {
+        "cs": "Porsche 911 pochází z Německa a tahle verze vyjela v roce 2019.\nPořád má kulatá světla a motor vzadu, stejně jako první 911.\nPatří k nejdéle vyráběným řadám sportovních aut na světě.\n",
+        "en": "The Porsche 911 comes from Germany, and this version came out in 2019.\nIt still has round headlights and its engine at the back, just like the first 911.\nIt is one of the longest-made sports car families in the world.\n"
+      }
+    },
+    {
+      "key": "car.lamborghini_countach",
+      "image": "car.lamborghini_countach.webp",
+      "label": {
+        "cs": "Lamborghini Countach",
+        "en": "Lamborghini Countach"
+      },
+      "summary": {
+        "cs": "Ploché ostré italské superauto s dveřmi, které se otevírají nahoru.",
+        "en": "A flat, sharp Italian supercar with doors that open upwards."
+      },
+      "info": {
+        "cs": "Lamborghini Countach pochází z Itálie a vyrábělo se od roku 1974 do roku 1990.\nDveře se vyklápějí nahoru a dopředu, podobně jako nůžky.\nSpousta dětí měla jeho plakát na zdi v pokojíčku.\n",
+        "en": "The Lamborghini Countach comes from Italy and was made from 1974 to 1990.\nIts doors swing up to the front, like a pair of scissors.\nMany children had a poster of it on their bedroom wall.\n"
+      }
+    },
+    {
+      "key": "car.ferrari_testarossa",
+      "image": "car.ferrari_testarossa.webp",
+      "label": {
+        "cs": "Ferrari Testarossa",
+        "en": "Ferrari Testarossa"
+      },
+      "summary": {
+        "cs": "Široké červené italské sportovní auto s žebrováním na bocích.",
+        "en": "A wide red Italian sports car with stripes on its sides."
+      },
+      "info": {
+        "cs": "Ferrari Testarossa pochází z Itálie a poprvé se vyrábělo v roce 1984.\n„Testarossa“ znamená italsky „červená hlava“, protože vršek motoru je natřený načerveno.\nDlouhá žebra na bocích pouštějí dovnitř vzduch, který chladí motor.\n",
+        "en": "The Ferrari Testarossa comes from Italy and was first made in 1984.\n\"Testarossa\" means \"red head\" in Italian, because the top of its engine is painted red.\nThe long stripes on its sides let air in to cool the engine.\n"
+      }
+    },
+    {
+      "key": "car.ferrari_f40",
+      "image": "car.ferrari_f40.webp",
+      "label": {
+        "cs": "Ferrari F40",
+        "en": "Ferrari F40"
+      },
+      "summary": {
+        "cs": "Červené italské superauto s velkým křídlem vzadu.",
+        "en": "A red Italian supercar with a big wing at the back."
+      },
+      "info": {
+        "cs": "Ferrari F40 pochází z Itálie a vyrábělo se od roku 1987 do roku 1992.\nVzniklo ke 40. narozeninám firmy Ferrari, odtud jeho jméno.\nBylo jedním z prvních silničních aut, která jela rychleji než 320 km/h.\n",
+        "en": "The Ferrari F40 comes from Italy and was made from 1987 to 1992.\nIt was made for Ferrari's 40th birthday, which is where its name comes from.\nIt was one of the first road cars that could go faster than 320 km/h.\n"
+      }
+    },
+    {
+      "key": "car.delorean",
+      "image": "car.delorean.webp",
+      "label": {
+        "cs": "DeLorean",
+        "en": "DeLorean"
+      },
+      "summary": {
+        "cs": "Lesklé ocelové auto, které se ve filmu stalo strojem času.",
+        "en": "A shiny steel car that became a time machine in a film."
+      },
+      "info": {
+        "cs": "DeLorean DMC-12 se vyráběl v Severním Irsku v letech 1981 a 1982.\nKaroserie je z holé nerezové oceli bez laku a dveře se otevírají nahoru.\nProslavil se jako stroj času ve filmu „Návrat do budoucnosti“.\n",
+        "en": "The DeLorean DMC-12 was made in Northern Ireland in 1981 and 1982.\nIts body is bare stainless steel, without any paint, and its doors open upwards.\nIt became famous as the time machine in the film \"Back to the Future\".\n"
+      }
+    },
+    {
+      "key": "car.london_taxi",
+      "image": "car.london_taxi.webp",
+      "label": {
+        "cs": "Londýnské taxi",
+        "en": "London taxi"
+      },
+      "summary": {
+        "cs": "Slavný černý taxík, který vozí lidi po Londýně.",
+        "en": "The famous black cab that drives people around London."
+      },
+      "info": {
+        "cs": "Austin FX4 pochází z Velké Británie a vyráběl se od roku 1958 do roku 1997.\nOtočí se na hodně malém kruhu, což pomáhá v úzkých londýnských ulicích.\nVysokou střechu má proto, aby se v něm dalo sedět i s kloboukem na hlavě.\n",
+        "en": "The Austin FX4 comes from the United Kingdom and was made from 1958 to 1997.\nIt can turn around in a very small circle, which helps in London's narrow streets.\nIts tall roof was made so passengers could sit inside wearing a hat.\n"
+      }
+    },
+    {
+      "key": "car.toyota_land_cruiser",
+      "image": "car.toyota_land_cruiser.webp",
+      "label": {
+        "cs": "Toyota Land Cruiser",
+        "en": "Toyota Land Cruiser"
+      },
+      "summary": {
+        "cs": "Odolné japonské auto, které projede pouští i džunglí.",
+        "en": "A tough Japanese car that can drive through deserts and jungles."
+      },
+      "info": {
+        "cs": "Toyota Land Cruiser FJ40 pochází z Japonska a vyráběla se od roku 1960 do roku 1984.\nProdávala se po celém světě a je známá tím, že se jen tak nerozbije.\nSpousta z nich dodnes jezdí po rozbitých cestách.\n",
+        "en": "The Toyota Land Cruiser FJ40 comes from Japan and was made from 1960 to 1984.\nIt was sold all over the world and is known for being very hard to break.\nMany are still driving on rough roads today.\n"
+      }
+    },
+    {
+      "key": "car.mazda_mx5",
+      "image": "car.mazda_mx5.webp",
+      "label": {
+        "cs": "Mazda MX-5",
+        "en": "Mazda MX-5"
+      },
+      "summary": {
+        "cs": "Malé veselé japonské dvousedadlové auto s vyklápěcími světly.",
+        "en": "A small, cheerful Japanese two-seater with headlights that pop up."
+      },
+      "info": {
+        "cs": "Mazda MX-5 pochází z Japonska a prodávat se začala v roce 1989.\nPrvní verze měla světla, která se vyklápějí z kapoty.\nJe to nejprodávanější dvousedadlové sportovní auto na světě.\n",
+        "en": "The Mazda MX-5 comes from Japan and first went on sale in 1989.\nThe first version had headlights that flip up out of the bonnet.\nIt is the best-selling two-seat sports car in the world.\n"
+      }
+    },
+    {
+      "key": "car.trabant",
+      "image": "car.trabant.webp",
+      "label": {
+        "cs": "Trabant",
+        "en": "Trabant"
+      },
+      "summary": {
+        "cs": "Malé východoněmecké auto s karoserií zčásti z plastu.",
+        "en": "A small East German car with a body made partly of plastic."
+      },
+      "info": {
+        "cs": "Trabant pochází z Východního Německa a vyráběl se od roku 1957 do roku 1991.\nKaroserii měl místo z oceli z tvrdého plastu smíchaného s bavlněnými vlákny.\nLidé na něj často museli čekat mnoho let.\n",
+        "en": "The Trabant comes from East Germany and was made from 1957 to 1991.\nIts body was made of a hard plastic mixed with cotton fibres instead of steel.\nPeople often had to wait many years to buy one.\n"
+      }
+    },
+    {
+      "key": "car.bugatti_veyron",
+      "image": "car.bugatti_veyron.webp",
+      "label": {
+        "cs": "Bugatti Veyron",
+        "en": "Bugatti Veyron"
+      },
+      "summary": {
+        "cs": "Neuvěřitelně rychlé auto, které jede přes 400 km/h.",
+        "en": "An incredibly fast car that can go over 400 km/h."
+      },
+      "info": {
+        "cs": "Bugatti Veyron pochází z Francie a vyrábělo se od roku 2005 do roku 2015.\nJeho motor má 16 válců a víc než 1 000 koní.\nKdyž vyjelo, bylo to nejrychlejší silniční auto na světě.\n",
+        "en": "The Bugatti Veyron comes from France and was made from 2005 to 2015.\nIts engine has 16 cylinders and more than 1,000 horsepower.\nWhen it came out, it was the fastest road car in the world.\n"
+      }
+    },
+    {
+      "key": "car.tesla_model_s",
+      "image": "car.tesla_model_s.webp",
+      "label": {
+        "cs": "Tesla Model S",
+        "en": "Tesla Model S"
+      },
+      "summary": {
+        "cs": "Rychlé americké auto, které jezdí na elektřinu místo benzinu.",
+        "en": "A fast American car that runs on electricity instead of petrol."
+      },
+      "info": {
+        "cs": "Tesla Model S pochází z USA a prodávat se začala v roce 2012.\nJezdí na velké baterie pod podlahou, takže nemá výfuk.\nProtože vepředu nemá motor, má tam druhý kufr.\n",
+        "en": "The Tesla Model S comes from the USA and went on sale in 2012.\nIt runs on big batteries under the floor, so it has no exhaust pipe.\nBecause there is no engine at the front, there is a second boot there.\n"
+      }
+    }
+  ]
+}
