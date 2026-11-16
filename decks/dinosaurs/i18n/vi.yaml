@@ -1,0 +1,214 @@
+lang: vi
+pivot: false
+title: Khủng long
+cards:
+  dino.t_rex:
+    label: Khủng long bạo chúa
+    summary: Cuối kỷ Phấn Trắng · ăn thịt
+    info: |
+      Khủng long bạo chúa (Tyrannosaurus rex) dài tới 12 mét và sống ở Bắc Mỹ.
+      Răng của nó to bằng quả chuối, và nó có cú cắn mạnh nhất trong các loài vật trên cạn.
+      Hai tay của nó ngắn nhưng rất khỏe.
+  dino.triceratops:
+    label: Khủng long ba sừng
+    summary: Cuối kỷ Phấn Trắng · ăn cỏ
+    info: |
+      Khủng long ba sừng (Triceratops) dài khoảng 9 mét và sống ở Bắc Mỹ.
+      Tên của nó có nghĩa là "mặt có ba sừng", và hai chiếc sừng phía trên dài khoảng một mét.
+      Nó sống cùng thời và cùng nơi với khủng long bạo chúa.
+  dino.stegosaurus:
+    label: Stegosaurus
+    summary: Cuối kỷ Jura · ăn cỏ
+    info: |
+      Stegosaurus dài khoảng 9 mét và sống ở Bắc Mỹ và Bồ Đào Nha.
+      Trên lưng nó có những tấm xương lớn, còn trên đuôi có những chiếc gai nhọn.
+      Nó sống từ rất lâu, đến mức nó cách khủng long bạo chúa còn xa hơn chúng ta cách khủng long bạo chúa.
+  dino.brachiosaurus:
+    label: Brachiosaurus
+    summary: Cuối kỷ Jura · ăn cỏ
+    info: |
+      Brachiosaurus dài khoảng 22 mét và sống ở Bắc Mỹ.
+      Chân trước của nó dài hơn chân sau, nên nó có thể với tới lá cây cao bằng một tòa nhà bốn tầng.
+      Tên của nó có nghĩa là "thằn lằn cánh tay".
+  dino.velociraptor:
+    label: Velociraptor
+    summary: Cuối kỷ Phấn Trắng · ăn thịt
+    info: |
+      Velociraptor chỉ dài khoảng 2 mét, to cỡ con gà tây, và sống ở Mông Cổ và Trung Quốc.
+      Người nó phủ đầy lông vũ, nhưng nó không biết bay.
+      Mỗi bàn chân của nó có một chiếc móng vuốt cong lớn để bắt con mồi.
+  dino.ankylosaurus:
+    label: Ankylosaurus
+    summary: Cuối kỷ Phấn Trắng · ăn cỏ
+    info: |
+      Ankylosaurus dài khoảng 7 mét và sống ở Bắc Mỹ.
+      Lưng của nó được phủ một lớp áo giáp bằng xương, giống như một chiếc xe tăng sống.
+      Ở cuối đuôi nó có một cái chùy xương nặng để tự vệ.
+  dino.spinosaurus:
+    label: Spinosaurus
+    summary: Cuối kỷ Phấn Trắng · ăn thịt
+    info: |
+      Spinosaurus dài khoảng 14 mét, còn dài hơn cả khủng long bạo chúa, và sống ở Bắc Phi.
+      Trên lưng nó có một cánh buồm cao, và nó sống gần sông để bắt cá.
+      Những hóa thạch đầu tiên của nó đã bị phá hủy trong Chiến tranh thế giới thứ hai.
+  dino.parasaurolophus:
+    label: Parasaurolophus
+    summary: Cuối kỷ Phấn Trắng · ăn cỏ
+    info: |
+      Parasaurolophus dài khoảng 9 mét và sống ở Bắc Mỹ.
+      Trên đầu nó có một chiếc mào dài và rỗng, còn miệng có mỏ giống mỏ vịt.
+      Khi thổi hơi qua chiếc mào, nó có thể phát ra tiếng kêu to như tiếng kèn.
+  dino.pteranodon:
+    label: Pteranodon
+    summary: Cuối kỷ Phấn Trắng · ăn thịt
+    info: |
+      Pteranodon là một loài bò sát biết bay, không phải khủng long, và sải cánh của nó rộng tới 7 mét.
+      Nó sống ở Bắc Mỹ và bay trên biển để bắt cá.
+      Tên của nó có nghĩa là "cánh không răng", vì mỏ của nó không có răng.
+  dino.diplodocus:
+    label: Diplodocus
+    summary: Cuối kỷ Jura · ăn cỏ
+    info: |
+      Diplodocus dài khoảng 25 mét, dài bằng hai chiếc xe buýt, và sống ở Bắc Mỹ.
+      Phần lớn chiều dài đó là chiếc cổ rất dài và chiếc đuôi mảnh như roi.
+      Nó có những chiếc răng nhỏ hình chốt để tuốt lá cây.
+  dino.brontosaurus:
+    label: Brontosaurus
+    summary: Cuối kỷ Jura · ăn cỏ
+    info: |
+      Brontosaurus dài khoảng 22 mét và sống ở Bắc Mỹ.
+      Tên của nó có nghĩa là "thằn lằn sấm", và nó nặng gần bằng ba con voi.
+      Suốt hơn 100 năm, các nhà khoa học nghĩ rằng nó là Apatosaurus, nhưng năm 2015 nó đã được lấy lại tên riêng của mình.
+  dino.iguanodon:
+    label: Iguanodon
+    summary: Đầu kỷ Phấn Trắng · ăn cỏ
+    info: |
+      Iguanodon dài khoảng 10 mét và sống ở châu Âu.
+      Mỗi ngón cái của nó có một chiếc gai nhọn, mà lúc đầu các nhà khoa học tưởng là chiếc sừng trên mũi.
+      Năm 1825, nó trở thành một trong những loài khủng long đầu tiên được đặt tên.
+  dino.pachycephalosaurus:
+    label: Pachycephalosaurus
+    summary: Cuối kỷ Phấn Trắng · ăn cỏ
+    info: |
+      Pachycephalosaurus dài khoảng 4,5 mét và sống ở Bắc Mỹ.
+      Phần xương trên đỉnh đầu của nó dày tới 25 xăng-ti-mét.
+      Tên của nó có nghĩa là "thằn lằn đầu dày".
+  dino.archaeopteryx:
+    label: Archaeopteryx
+    summary: Cuối kỷ Jura · ăn thịt
+    info: |
+      Archaeopteryx to cỡ con quạ và sống ở vùng đất nay là nước Đức.
+      Nó có lông vũ và đôi cánh như chim, nhưng cũng có răng, móng vuốt trên cánh và chiếc đuôi dài có xương.
+      Nó cho thấy chim là họ hàng còn sống của khủng long.
+  dino.allosaurus:
+    label: Allosaurus
+    summary: Cuối kỷ Jura · ăn thịt
+    info: |
+      Allosaurus dài khoảng 9 mét và sống ở Bắc Mỹ và Bồ Đào Nha.
+      Nó là thợ săn lớn nhất thời bấy giờ và có những chiếc sừng nhỏ phía trên mắt.
+      Có một hóa thạch Allosaurus mang vết thương do chiếc đuôi gai của Stegosaurus gây ra.
+  dino.mosasaurus:
+    label: Mosasaurus
+    summary: Cuối kỷ Phấn Trắng · ăn thịt
+    info: |
+      Mosasaurus là một loài bò sát biển khổng lồ, không phải khủng long, dài khoảng 13 mét.
+      Họ hàng của nó là thằn lằn và rắn, và nó phải ngoi lên mặt nước để thở.
+      Hóa thạch đầu tiên của nó được tìm thấy ở Hà Lan, gần sông Meuse.
+  dino.plesiosaurus:
+    label: Plesiosaurus
+    summary: Đầu kỷ Jura · ăn thịt
+    info: |
+      Plesiosaurus là một loài bò sát biển, không phải khủng long, dài khoảng 3 mét.
+      Nó có cổ dài, đầu nhỏ và bốn chiếc vây lớn để bơi.
+      Bộ xương hoàn chỉnh đầu tiên của nó được nhà săn hóa thạch Mary Anning tìm thấy ở Anh.
+  dino.ichthyosaurus:
+    label: Ichthyosaurus
+    summary: Đầu kỷ Jura · ăn thịt
+    info: |
+      Ichthyosaurus là một loài bò sát biển, không phải khủng long cũng không phải cá, dài khoảng 2 mét.
+      Nó trông giống cá heo và có đôi mắt rất to để nhìn trong nước tối.
+      Nó đẻ con dưới biển chứ không đẻ trứng.
+  dino.dimetrodon:
+    label: Dimetrodon
+    summary: Đầu kỷ Permi · ăn thịt
+    info: |
+      Dimetrodon không phải khủng long: nó sống khoảng 40 triệu năm trước khi có những con khủng long đầu tiên.
+      Nó dài tới 4 mét, trên lưng có một cánh buồm cao, và sống ở Bắc Mỹ và châu Âu.
+      Nó có họ hàng gần với động vật có vú, như chúng ta, hơn là với khủng long.
+  dino.carnotaurus:
+    label: Carnotaurus
+    summary: Cuối kỷ Phấn Trắng · ăn thịt
+    info: |
+      Carnotaurus dài khoảng 8 mét và sống ở Argentina, Nam Mỹ.
+      Tên của nó có nghĩa là "bò ăn thịt", vì nó có hai chiếc sừng phía trên mắt.
+      Tay của nó rất nhỏ, còn nhỏ hơn cả tay của khủng long bạo chúa.
+  dino.therizinosaurus:
+    label: Therizinosaurus
+    summary: Cuối kỷ Phấn Trắng · ăn cỏ
+    info: |
+      Therizinosaurus dài khoảng 9 mét và sống ở Mông Cổ.
+      Móng vuốt của nó dài hơn cây thước kẻ ở trường, là móng vuốt dài nhất trong các loài vật mà ta biết.
+      Dù là họ hàng của khủng long bạo chúa, nó lại ăn thực vật.
+  dino.gallimimus:
+    label: Gallimimus
+    summary: Cuối kỷ Phấn Trắng · ăn tạp
+    info: |
+      Gallimimus dài khoảng 6 mét và sống ở Mông Cổ.
+      Nó trông giống một con đà điểu lớn, có mỏ không răng và đôi chân dài.
+      Nó là một trong những loài khủng long chạy nhanh nhất.
+  dino.dilophosaurus:
+    label: Dilophosaurus
+    summary: Đầu kỷ Jura · ăn thịt
+    info: |
+      Dilophosaurus dài khoảng 7 mét và sống ở Bắc Mỹ.
+      Trên đầu nó có hai chiếc mào mỏng, và tên của nó có nghĩa là "thằn lằn hai mào".
+      Trong phim, nó phun nọc độc và có diềm cổ, nhưng không có bằng chứng nào cho cả hai điều đó.
+  dino.styracosaurus:
+    label: Styracosaurus
+    summary: Cuối kỷ Phấn Trắng · ăn cỏ
+    info: |
+      Styracosaurus dài khoảng 5,5 mét và sống ở Canada.
+      Những chiếc gai dài chĩa ra từ chiếc diềm xương quanh cổ của nó.
+      Nó còn có một chiếc sừng dài trên mũi, dài tới 60 xăng-ti-mét.
+  dino.quetzalcoatlus:
+    label: Quetzalcoatlus
+    summary: Cuối kỷ Phấn Trắng · ăn thịt
+    info: |
+      Quetzalcoatlus là một loài bò sát biết bay, không phải khủng long, và sống ở Bắc Mỹ.
+      Sải cánh của nó rộng khoảng 10 mét, và khi đứng trên mặt đất, nó cao bằng một con hươu cao cổ.
+      Nó được đặt tên theo Quetzalcoatl, vị thần rắn có lông vũ của người Aztec.
+  dino.compsognathus:
+    label: Compsognathus
+    summary: Cuối kỷ Jura · ăn thịt
+    info: |
+      Compsognathus chỉ dài khoảng 1 mét, to cỡ con gà, và sống ở Đức và Pháp.
+      Nó là một trong những loài khủng long nhỏ nhất và chạy nhanh bằng hai chân.
+      Trong bụng một hóa thạch của nó vẫn còn một con thằn lằn nhỏ, bữa ăn cuối cùng của nó.
+  dino.oviraptor:
+    label: Oviraptor
+    summary: Cuối kỷ Phấn Trắng · ăn tạp
+    info: |
+      Oviraptor dài khoảng 2 mét, có lông vũ và mỏ, và sống ở Mông Cổ.
+      Tên của nó có nghĩa là "kẻ trộm trứng", vì người ta tìm thấy nó nằm trên một ổ trứng.
+      Sau đó các nhà khoa học phát hiện ra đó là trứng của chính loài nó, nên nó là một bố mẹ chăm con chứ không phải kẻ trộm.
+  dino.kentrosaurus:
+    label: Kentrosaurus
+    summary: Cuối kỷ Jura · ăn cỏ
+    info: |
+      Kentrosaurus dài khoảng 4,5 mét và sống ở Tanzania, châu Phi.
+      Nó là họ hàng nhỏ hơn của Stegosaurus, có những tấm xương trên cổ và những chiếc gai dài trên lưng và đuôi.
+      Tên của nó có nghĩa là "thằn lằn gai".
+  dino.microraptor:
+    label: Microraptor
+    summary: Đầu kỷ Phấn Trắng · ăn thịt
+    info: |
+      Microraptor dài chưa đến 1 mét và sống ở Trung Quốc.
+      Nó có cánh phủ lông vũ ở cả tay lẫn chân, nên nó có bốn cánh.
+      Lông của nó màu đen và óng ánh, giống lông con quạ.
+  dino.protoceratops:
+    label: Protoceratops
+    summary: Cuối kỷ Phấn Trắng · ăn cỏ
+    info: |
+      Protoceratops dài khoảng 2 mét, to cỡ con cừu, và sống ở Mông Cổ và Trung Quốc.
+      Nó có một chiếc diềm xương và cái mỏ giống mỏ vẹt, nhưng không có sừng thật sự.
+      Một hóa thạch nổi tiếng cho thấy một con Protoceratops và một con Velociraptor đang vật lộn với nhau.

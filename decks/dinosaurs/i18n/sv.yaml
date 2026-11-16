@@ -1,0 +1,214 @@
+lang: sv
+pivot: false
+title: Dinosaurier
+cards:
+  dino.t_rex:
+    label: Tyrannosaurus
+    summary: Sen krita · köttätare
+    info: |
+      Tyrannosaurus rex var upp till 12 meter lång och levde i Nordamerika.
+      Dess tänder var stora som bananer, och den hade det starkaste bettet av alla landdjur.
+      Armarna var korta, men de var starka.
+  dino.triceratops:
+    label: Triceratops
+    summary: Sen krita · växtätare
+    info: |
+      Triceratops var ungefär 9 meter lång och levde i Nordamerika.
+      Namnet betyder ”ansikte med tre horn”, och de två övre hornen var ungefär en meter långa.
+      Den levde på samma tid och på samma platser som Tyrannosaurus.
+  dino.stegosaurus:
+    label: Stegosaurus
+    summary: Sen jura · växtätare
+    info: |
+      Stegosaurus var ungefär 9 meter lång och levde i Nordamerika och Portugal.
+      Den hade stora plattor på ryggen och vassa taggar på svansen.
+      Den levde så länge sedan att den ligger längre bort i tiden från T. rex än vad vi gör.
+  dino.brachiosaurus:
+    label: Brachiosaurus
+    summary: Sen jura · växtätare
+    info: |
+      Brachiosaurus var ungefär 22 meter lång och levde i Nordamerika.
+      Frambenen var längre än bakbenen, så den nådde löv lika högt upp som ett hus med fyra våningar.
+      Namnet betyder ”armödla”.
+  dino.velociraptor:
+    label: Velociraptor
+    summary: Sen krita · köttätare
+    info: |
+      Velociraptor var bara ungefär 2 meter lång, ungefär lika stor som en kalkon, och levde i Mongoliet och Kina.
+      Den var täckt av fjädrar, men den kunde inte flyga.
+      På varje fot hade den en stor böjd klo för att fånga byten.
+  dino.ankylosaurus:
+    label: Ankylosaurus
+    summary: Sen krita · växtätare
+    info: |
+      Ankylosaurus var ungefär 7 meter lång och levde i Nordamerika.
+      Ryggen var täckt av ett benpansar, som en levande stridsvagn.
+      Längst ut på svansen hade den en tung klubba av ben som den försvarade sig med.
+  dino.spinosaurus:
+    label: Spinosaurus
+    summary: Sen krita · köttätare
+    info: |
+      Spinosaurus var ungefär 14 meter lång, ännu längre än T. rex, och levde i Nordafrika.
+      Den hade ett högt segel på ryggen och levde vid floder, där den fångade fisk.
+      De första fossilen av den förstördes under andra världskriget.
+  dino.parasaurolophus:
+    label: Parasaurolophus
+    summary: Sen krita · växtätare
+    info: |
+      Parasaurolophus var ungefär 9 meter lång och levde i Nordamerika.
+      Den hade en lång ihålig kam på huvudet och en näbb som en anka.
+      Genom att blåsa luft genom kammen kunde den låta högt, som en trumpet.
+  dino.pteranodon:
+    label: Pteranodon
+    summary: Sen krita · köttätare
+    info: |
+      Pteranodon var en flygödla och inte en dinosaurie, och vingarna var upp till 7 meter breda.
+      Den levde i Nordamerika och flög över havet för att fånga fisk.
+      Namnet betyder ”vinge utan tänder”, eftersom näbben saknade tänder.
+  dino.diplodocus:
+    label: Diplodocus
+    summary: Sen jura · växtätare
+    info: |
+      Diplodocus var ungefär 25 meter lång, lika lång som två bussar, och levde i Nordamerika.
+      Det mesta av längden var den jättelånga halsen och den tunna, piskliknande svansen.
+      Den hade små stiftformade tänder som den rev av löv från växterna med.
+  dino.brontosaurus:
+    label: Brontosaurus
+    summary: Sen jura · växtätare
+    info: |
+      Brontosaurus var ungefär 22 meter lång och levde i Nordamerika.
+      Namnet betyder ”åsködla”, och den vägde ungefär lika mycket som tre elefanter.
+      I över 100 år trodde forskarna att den var en Apatosaurus, men 2015 fick den tillbaka sitt eget namn.
+  dino.iguanodon:
+    label: Iguanodon
+    summary: Tidig krita · växtätare
+    info: |
+      Iguanodon var ungefär 10 meter lång och levde i Europa.
+      På varje tumme hade den en vass tagg, som forskarna först trodde var ett horn på nosen.
+      År 1825 blev den en av de allra första dinosaurierna som fick ett namn.
+  dino.pachycephalosaurus:
+    label: Pachycephalosaurus
+    summary: Sen krita · växtätare
+    info: |
+      Pachycephalosaurus var ungefär 4,5 meter lång och levde i Nordamerika.
+      Benet ovanpå huvudet var upp till 25 centimeter tjockt.
+      Namnet betyder ”tjockhuvad ödla”.
+  dino.archaeopteryx:
+    label: Archaeopteryx
+    summary: Sen jura · köttätare
+    info: |
+      Archaeopteryx var ungefär lika stor som en korp och levde i det som i dag är Tyskland.
+      Den hade fjädrar och vingar som en fågel, men också tänder, klor på vingarna och en lång svans av ben.
+      Den visar att fåglarna är dinosauriernas levande släktingar.
+  dino.allosaurus:
+    label: Allosaurus
+    summary: Sen jura · köttätare
+    info: |
+      Allosaurus var ungefär 9 meter lång och levde i Nordamerika och Portugal.
+      Den var sin tids största jägare och hade små horn ovanför ögonen.
+      Ett fossil av en Allosaurus har ett sår från taggsvansen på en Stegosaurus.
+  dino.mosasaurus:
+    label: Mosasaurus
+    summary: Sen krita · köttätare
+    info: |
+      Mosasaurus var en jättelik havsödla och inte en dinosaurie, ungefär 13 meter lång.
+      Den var släkt med ödlor och ormar och måste upp till ytan för att andas luft.
+      Det första fossilet hittades i Nederländerna, nära floden Maas.
+  dino.plesiosaurus:
+    label: Plesiosaurus
+    summary: Tidig jura · köttätare
+    info: |
+      Plesiosaurus var en havsödla och inte en dinosaurie, ungefär 3 meter lång.
+      Den hade lång hals, litet huvud och fyra stora simfötter att simma med.
+      Det första hela skelettet hittades i England av fossilsamlaren Mary Anning.
+  dino.ichthyosaurus:
+    label: Ichthyosaurus
+    summary: Tidig jura · köttätare
+    info: |
+      Ichthyosaurus var en havsödla, varken dinosaurie eller fisk, ungefär 2 meter lång.
+      Den liknade en delfin och hade väldigt stora ögon för att se i mörkt vatten.
+      Den lade inga ägg utan födde levande ungar i havet.
+  dino.dimetrodon:
+    label: Dimetrodon
+    summary: Tidig perm · köttätare
+    info: |
+      Dimetrodon var inte en dinosaurie: den levde ungefär 40 miljoner år före de första dinosaurierna.
+      Den var upp till 4 meter lång, hade ett högt segel på ryggen och levde i Nordamerika och Europa.
+      Den är närmare släkt med däggdjur, som vi, än med dinosaurier.
+  dino.carnotaurus:
+    label: Carnotaurus
+    summary: Sen krita · köttätare
+    info: |
+      Carnotaurus var ungefär 8 meter lång och levde i Argentina, i Sydamerika.
+      Namnet betyder ”köttätande tjur”, eftersom den hade två horn ovanför ögonen.
+      Armarna var pyttesmå, ännu mindre än hos T. rex.
+  dino.therizinosaurus:
+    label: Therizinosaurus
+    summary: Sen krita · växtätare
+    info: |
+      Therizinosaurus var ungefär 9 meter lång och levde i Mongoliet.
+      Klorna var längre än en skollinjal, de längsta klorna hos något känt djur.
+      Fast den var släkt med T. rex, åt den växter.
+  dino.gallimimus:
+    label: Gallimimus
+    summary: Sen krita · allätare
+    info: |
+      Gallimimus var ungefär 6 meter lång och levde i Mongoliet.
+      Den liknade en stor struts, med en tandlös näbb och långa ben.
+      Den var en av de snabbaste löparna bland dinosaurierna.
+  dino.dilophosaurus:
+    label: Dilophosaurus
+    summary: Tidig jura · köttätare
+    info: |
+      Dilophosaurus var ungefär 7 meter lång och levde i Nordamerika.
+      Den hade två tunna kammar på huvudet, och namnet betyder ”ödla med två kammar”.
+      På film spottar den gift och har en halskrage, men det finns inga bevis för något av det.
+  dino.styracosaurus:
+    label: Styracosaurus
+    summary: Sen krita · växtätare
+    info: |
+      Styracosaurus var ungefär 5,5 meter lång och levde i Kanada.
+      Långa taggar stack ut från benkragen runt halsen.
+      Den hade också ett långt horn på nosen, upp till 60 centimeter långt.
+  dino.quetzalcoatlus:
+    label: Quetzalcoatlus
+    summary: Sen krita · köttätare
+    info: |
+      Quetzalcoatlus var en flygödla och inte en dinosaurie, och levde i Nordamerika.
+      Vingarna var ungefär 10 meter breda, och när den stod på marken var den lika hög som en giraff.
+      Den fick sitt namn efter Quetzalcoatl, aztekernas fjädrade ormgud.
+  dino.compsognathus:
+    label: Compsognathus
+    summary: Sen jura · köttätare
+    info: |
+      Compsognathus var bara ungefär 1 meter lång, lika stor som en höna, och levde i Tyskland och Frankrike.
+      Den var en av de minsta dinosaurierna och sprang snabbt på två ben.
+      I ett fossil finns fortfarande en liten ödla i magen, dess sista måltid.
+  dino.oviraptor:
+    label: Oviraptor
+    summary: Sen krita · allätare
+    info: |
+      Oviraptor var ungefär 2 meter lång, hade fjädrar och näbb, och levde i Mongoliet.
+      Namnet betyder ”äggtjuv”, eftersom den hittades på ett bo med ägg.
+      Senare upptäckte forskarna att äggen var av dess egen sort, så den var en omtänksam förälder och ingen tjuv.
+  dino.kentrosaurus:
+    label: Kentrosaurus
+    summary: Sen jura · växtätare
+    info: |
+      Kentrosaurus var ungefär 4,5 meter lång och levde i Tanzania, i Afrika.
+      Den var en mindre släkting till Stegosaurus, med plattor på halsen och långa taggar på ryggen och svansen.
+      Namnet betyder ”taggig ödla”.
+  dino.microraptor:
+    label: Microraptor
+    summary: Tidig krita · köttätare
+    info: |
+      Microraptor var mindre än 1 meter lång och levde i Kina.
+      Den hade fjäderklädda vingar både på armarna och på benen, alltså fyra vingar.
+      Fjädrarna var svarta och glänsande, som en kråkas.
+  dino.protoceratops:
+    label: Protoceratops
+    summary: Sen krita · växtätare
+    info: |
+      Protoceratops var ungefär 2 meter lång, lika stor som ett får, och levde i Mongoliet och Kina.
+      Den hade en benkrage och en näbb som en papegoja, men inga riktiga horn.
+      Ett berömt fossil visar en Protoceratops och en Velociraptor som slåss med varandra.

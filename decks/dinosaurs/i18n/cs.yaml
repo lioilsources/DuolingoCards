@@ -1,0 +1,214 @@
+lang: cs
+pivot: false
+title: Dinosauři
+cards:
+  dino.t_rex:
+    label: Tyranosaurus
+    summary: Pozdní křída · masožravec
+    info: |
+      Tyranosaurus rex byl dlouhý až 12 metrů a žil v Severní Americe.
+      Jeho zuby byly velké jako banány a měl nejsilnější stisk čelistí ze všech suchozemských zvířat.
+      Přední nohy měl krátké, ale silné.
+  dino.triceratops:
+    label: Triceratops
+    summary: Pozdní křída · býložravec
+    info: |
+      Triceratops byl dlouhý asi 9 metrů a žil v Severní Americe.
+      Jeho jméno znamená „tvář se třemi rohy“ a dva horní rohy měřily asi metr.
+      Žil ve stejné době a na stejných místech jako tyranosaurus.
+  dino.stegosaurus:
+    label: Stegosaurus
+    summary: Pozdní jura · býložravec
+    info: |
+      Stegosaurus byl dlouhý asi 9 metrů a žil v Severní Americe a Portugalsku.
+      Na zádech měl velké destičky a na ocase ostré bodce.
+      Žil tak dávno, že od tyranosaura ho dělí víc času než nás.
+  dino.brachiosaurus:
+    label: Brachiosaurus
+    summary: Pozdní jura · býložravec
+    info: |
+      Brachiosaurus byl dlouhý asi 22 metrů a žil v Severní Americe.
+      Přední nohy měl delší než zadní, takže dosáhl na listí ve výšce čtyřpatrového domu.
+      Jeho jméno znamená „ještěr s pažemi“.
+  dino.velociraptor:
+    label: Velociraptor
+    summary: Pozdní křída · masožravec
+    info: |
+      Velociraptor byl dlouhý jen asi 2 metry, velký zhruba jako krocan, a žil v Mongolsku a Číně.
+      Byl pokrytý peřím, ale létat neuměl.
+      Na každé noze měl velký zahnutý dráp, kterým chytal kořist.
+  dino.ankylosaurus:
+    label: Ankylosaurus
+    summary: Pozdní křída · býložravec
+    info: |
+      Ankylosaurus byl dlouhý asi 7 metrů a žil v Severní Americe.
+      Záda měl pokrytá kostěným pancířem jako živý tank.
+      Na konci ocasu měl těžký kostěný palcát, kterým se bránil.
+  dino.spinosaurus:
+    label: Spinosaurus
+    summary: Pozdní křída · masožravec
+    info: |
+      Spinosaurus byl dlouhý asi 14 metrů, dokonce víc než tyranosaurus, a žil v severní Africe.
+      Na zádech měl vysokou plachtu a žil u řek, kde lovil ryby.
+      Jeho první zkameněliny byly zničeny za druhé světové války.
+  dino.parasaurolophus:
+    label: Parasaurolophus
+    summary: Pozdní křída · býložravec
+    info: |
+      Parasaurolophus byl dlouhý asi 9 metrů a žil v Severní Americe.
+      Na hlavě měl dlouhý dutý hřeben a zobák jako kachna.
+      Když foukal vzduch hřebenem, vydával hlasité zvuky podobné trubce.
+  dino.pteranodon:
+    label: Pteranodon
+    summary: Pozdní křída · masožravec
+    info: |
+      Pteranodon byl létající plaz, ne dinosaurus, a jeho křídla měřila až 7 metrů.
+      Žil v Severní Americe a létal nad mořem, kde lovil ryby.
+      Jeho jméno znamená „křídlo bez zubů“, protože měl zobák úplně bez zubů.
+  dino.diplodocus:
+    label: Diplodocus
+    summary: Pozdní jura · býložravec
+    info: |
+      Diplodocus byl dlouhý asi 25 metrů, jako dva autobusy, a žil v Severní Americe.
+      Většinu té délky tvořil jeho dlouhý krk a tenký ocas podobný biči.
+      Měl malé kolíkovité zuby, kterými strhával listí z rostlin.
+  dino.brontosaurus:
+    label: Brontosaurus
+    summary: Pozdní jura · býložravec
+    info: |
+      Brontosaurus byl dlouhý asi 22 metrů a žil v Severní Americe.
+      Jeho jméno znamená „hromový ještěr“ a vážil zhruba jako tři sloni.
+      Přes 100 let si vědci mysleli, že je to apatosaurus, ale v roce 2015 dostal své jméno zpět.
+  dino.iguanodon:
+    label: Iguanodon
+    summary: Raná křída · býložravec
+    info: |
+      Iguanodon byl dlouhý asi 10 metrů a žil v Evropě.
+      Na každém palci měl ostrý bodec, který vědci nejdřív považovali za roh na nose.
+      V roce 1825 se stal jedním z vůbec prvních pojmenovaných dinosaurů.
+  dino.pachycephalosaurus:
+    label: Pachycefalosaurus
+    summary: Pozdní křída · býložravec
+    info: |
+      Pachycefalosaurus byl dlouhý asi 4,5 metru a žil v Severní Americe.
+      Kost na temeni hlavy měl silnou až 25 centimetrů.
+      Jeho jméno znamená „ještěr s tlustou hlavou“.
+  dino.archaeopteryx:
+    label: Archeopteryx
+    summary: Pozdní jura · masožravec
+    info: |
+      Archeopteryx byl velký asi jako havran a žil na území dnešního Německa.
+      Měl peří a křídla jako pták, ale také zuby, drápky na křídlech a dlouhý kostěný ocas.
+      Ukazuje, že ptáci jsou žijící příbuzní dinosaurů.
+  dino.allosaurus:
+    label: Allosaurus
+    summary: Pozdní jura · masožravec
+    info: |
+      Allosaurus byl dlouhý asi 9 metrů a žil v Severní Americe a Portugalsku.
+      Byl největším lovcem své doby a nad očima měl malé růžky.
+      Jedna zkamenělina allosaura nese ránu od ostnatého ocasu stegosaura.
+  dino.mosasaurus:
+    label: Mosasaurus
+    summary: Pozdní křída · masožravec
+    info: |
+      Mosasaurus byl obří mořský plaz, ne dinosaurus, dlouhý asi 13 metrů.
+      Jeho příbuzní jsou ještěrky a hadi a musel se vynořovat, aby se nadechl vzduchu.
+      Jeho první zkamenělina byla nalezena v Nizozemsku u řeky Mázy.
+  dino.plesiosaurus:
+    label: Plesiosaurus
+    summary: Raná jura · masožravec
+    info: |
+      Plesiosaurus byl mořský plaz, ne dinosaurus, dlouhý asi 3 metry.
+      Měl dlouhý krk, malou hlavu a čtyři velké ploutve na plavání.
+      Jeho první celou kostru našla v Anglii sběratelka zkamenělin Mary Anningová.
+  dino.ichthyosaurus:
+    label: Ichtyosaurus
+    summary: Raná jura · masožravec
+    info: |
+      Ichtyosaurus byl mořský plaz, ne dinosaurus ani ryba, dlouhý asi 2 metry.
+      Vypadal jako delfín a měl obrovské oči, aby viděl v tmavé vodě.
+      Místo kladení vajec rodil v moři živá mláďata.
+  dino.dimetrodon:
+    label: Dimetrodon
+    summary: Raný perm · masožravec
+    info: |
+      Dimetrodon nebyl dinosaurus: žil asi 40 milionů let před prvními dinosaury.
+      Byl dlouhý až 4 metry, na zádech měl vysokou plachtu a žil v Severní Americe a Evropě.
+      Je bližším příbuzným savců, jako jsme my, než dinosaurů.
+  dino.carnotaurus:
+    label: Carnotaurus
+    summary: Pozdní křída · masožravec
+    info: |
+      Carnotaurus byl dlouhý asi 8 metrů a žil v Argentině v Jižní Americe.
+      Jeho jméno znamená „masožravý býk“, protože měl nad očima dva rohy.
+      Přední nohy měl malinkaté, ještě menší než má tyranosaurus.
+  dino.therizinosaurus:
+    label: Therizinosaurus
+    summary: Pozdní křída · býložravec
+    info: |
+      Therizinosaurus byl dlouhý asi 9 metrů a žil v Mongolsku.
+      Jeho drápy byly delší než školní pravítko, nejdelší ze všech známých zvířat.
+      Přestože byl příbuzný tyranosaura, živil se rostlinami.
+  dino.gallimimus:
+    label: Gallimimus
+    summary: Pozdní křída · všežravec
+    info: |
+      Gallimimus byl dlouhý asi 6 metrů a žil v Mongolsku.
+      Vypadal jako velký pštros, měl bezzubý zobák a dlouhé nohy.
+      Patřil k nejrychlejším běžcům mezi dinosaury.
+  dino.dilophosaurus:
+    label: Dilophosaurus
+    summary: Raná jura · masožravec
+    info: |
+      Dilophosaurus byl dlouhý asi 7 metrů a žil v Severní Americe.
+      Na hlavě měl dva tenké hřebeny a jeho jméno znamená „ještěr se dvěma hřebeny“.
+      Ve filmech plive jed a má límec kolem krku, ale pro nic z toho nejsou důkazy.
+  dino.styracosaurus:
+    label: Styracosaurus
+    summary: Pozdní křída · býložravec
+    info: |
+      Styracosaurus byl dlouhý asi 5,5 metru a žil v Kanadě.
+      Z kostěného límce kolem krku mu trčely dlouhé bodce.
+      Na nose měl také jeden dlouhý roh, měřící až 60 centimetrů.
+  dino.quetzalcoatlus:
+    label: Quetzalcoatlus
+    summary: Pozdní křída · masožravec
+    info: |
+      Quetzalcoatlus byl létající plaz, ne dinosaurus, a žil v Severní Americe.
+      Jeho křídla měřila asi 10 metrů, a když stál na zemi, byl vysoký jako žirafa.
+      Dostal jméno po Quetzalcoatlovi, opeřeném hadím bohu Aztéků.
+  dino.compsognathus:
+    label: Compsognathus
+    summary: Pozdní jura · masožravec
+    info: |
+      Compsognathus byl dlouhý jen asi 1 metr, velký zhruba jako slepice, a žil v Německu a Francii.
+      Patřil k nejmenším dinosaurům a rychle běhal po dvou nohách.
+      Jedna zkamenělina má v žaludku ještě malou ještěrku, jeho poslední jídlo.
+  dino.oviraptor:
+    label: Oviraptor
+    summary: Pozdní křída · všežravec
+    info: |
+      Oviraptor byl dlouhý asi 2 metry, měl peří a zobák a žil v Mongolsku.
+      Jeho jméno znamená „zloděj vajec“, protože ho našli na hnízdě s vejci.
+      Později vědci zjistili, že vejce byla jeho vlastního druhu, takže to byl starostlivý rodič, ne zloděj.
+  dino.kentrosaurus:
+    label: Kentrosaurus
+    summary: Pozdní jura · býložravec
+    info: |
+      Kentrosaurus byl dlouhý asi 4,5 metru a žil v Tanzanii v Africe.
+      Byl menším příbuzným stegosaura, s destičkami na krku a dlouhými bodci na zádech a ocase.
+      Jeho jméno znamená „ostnatý ještěr“.
+  dino.microraptor:
+    label: Microraptor
+    summary: Raná křída · masožravec
+    info: |
+      Microraptor byl dlouhý necelý 1 metr a žil v Číně.
+      Opeřená křídla měl na předních i zadních nohách, takže měl čtyři křídla.
+      Jeho peří bylo černé a lesklé jako u vrány.
+  dino.protoceratops:
+    label: Protoceratops
+    summary: Pozdní křída · býložravec
+    info: |
+      Protoceratops byl dlouhý asi 2 metry, velký zhruba jako ovce, a žil v Mongolsku a Číně.
+      Měl kostěný límec a zobák jako papoušek, ale žádné opravdové rohy.
+      Jedna slavná zkamenělina ukazuje protoceratopse a velociraptora uprostřed souboje.

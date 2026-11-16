@@ -1,0 +1,283 @@
+# dinosaurs — 30 dinosaurs and other prehistoric reptiles for kids 4-10.
+# Briefs ask for modern, scientifically accurate reconstructions (feathers where
+# current science supports them), full body in side view, in a natural setting.
+# The non-dinosaurs (pterosaurs, marine reptiles, Dimetrodon) are kept on
+# purpose — kids file them under "dinosaurs", and the info text sets it straight.
+slug: dinosaurs
+version: 1
+tier: 1
+brief_attrs: ["(scientifically accurate paleoart reconstruction:1.3)", "(full body side view:1.2)", "(realistic animal anatomy:1.2)", "(natural proportions:1.2)", "(highly detailed:1.1)"]
+styles:
+  - photo
+default_style: photo
+
+cards:
+  - key: dino.t_rex
+    hint: Tyrannosaurus rex, the huge two-legged meat-eating dinosaur with tiny arms
+    image: dino.t_rex.png
+    brief:
+      subject: Tyrannosaurus rex
+      attrs: [massive head, short two-fingered arms, scaly skin, walking on two legs, tail held level]
+      setting: [Cretaceous forest clearing, ferns, morning light]
+      avoid: [text, humans]
+
+  - key: dino.triceratops
+    hint: Triceratops, the plant-eating dinosaur with three horns and a bony frill
+    image: dino.triceratops.png
+    brief:
+      subject: Triceratops
+      attrs: [three facial horns, large solid bony neck frill, parrot-like beak, sturdy four-legged stance]
+      setting: [open Cretaceous plain, low shrubs, warm daylight]
+      avoid: [text, humans]
+
+  - key: dino.stegosaurus
+    hint: Stegosaurus, the dinosaur with tall plates along its back and a spiked tail
+    image: dino.stegosaurus.png
+    brief:
+      subject: Stegosaurus
+      attrs: [two rows of tall alternating back plates, spiked tail, small head held low, four-legged]
+      setting: [Jurassic floodplain, cycads and conifers, soft sunlight]
+      avoid: [text, humans]
+
+  - key: dino.brachiosaurus
+    hint: Brachiosaurus, the giant long-necked dinosaur with front legs longer than back legs
+    image: dino.brachiosaurus.png
+    brief:
+      subject: Brachiosaurus
+      attrs: [very long neck raised upward, front legs longer than hind legs, sloping back, small head]
+      setting: [tall Jurassic conifer trees, browsing high leaves, hazy daylight]
+      avoid: [text, humans]
+
+  - key: dino.velociraptor
+    hint: Velociraptor, the small feathered raptor dinosaur with a sickle claw (not the movie version)
+    image: dino.velociraptor.png
+    brief:
+      subject: Velociraptor
+      attrs: [turkey-sized, fully feathered body, feathered wing-like arms, large curved claw on each foot, long stiff tail, slender snout]
+      setting: [Gobi desert sand dunes, sparse shrubs, golden light]
+      avoid: [text, humans]
+
+  - key: dino.ankylosaurus
+    hint: Ankylosaurus, the armoured dinosaur with a bony club at the end of its tail
+    image: dino.ankylosaurus.png
+    brief:
+      subject: Ankylosaurus
+      attrs: [low wide armoured body, bony plates and short spikes on back, heavy bony tail club, short legs]
+      setting: [Cretaceous forest floor, ferns, overcast light]
+      avoid: [text, humans]
+
+  - key: dino.spinosaurus
+    hint: Spinosaurus, the huge fish-eating dinosaur with a tall sail on its back
+    image: dino.spinosaurus.png
+    brief:
+      subject: Spinosaurus
+      attrs: [tall sail on its back, long narrow crocodile-like snout, paddle-like tail, wading]
+      setting: [wide shallow Cretaceous river, mangrove banks, humid daylight]
+      avoid: [text, humans]
+
+  - key: dino.parasaurolophus
+    hint: Parasaurolophus, the duck-billed dinosaur with a long tube-shaped crest on its head
+    image: dino.parasaurolophus.png
+    brief:
+      subject: Parasaurolophus
+      attrs: [long curved hollow tube crest sweeping back from the head, duck-like beak, standing on all fours]
+      setting: [Cretaceous swamp edge, reeds and ferns, soft morning mist]
+      avoid: [text, humans]
+
+  - key: dino.pteranodon
+    hint: Pteranodon, the toothless flying reptile (pterosaur) with a long head crest; not a dinosaur, not a bird
+    image: dino.pteranodon.png
+    brief:
+      subject: Pteranodon pterosaur
+      attrs: [flying with wide leathery wings spread, long backward-pointing head crest, long toothless beak, furry body]
+      setting: [above a Cretaceous sea, sea cliffs, bright sky]
+      avoid: [text, humans, feathers]
+
+  - key: dino.diplodocus
+    hint: Diplodocus, the very long sauropod dinosaur with a long neck and a whip-like tail
+    image: dino.diplodocus.png
+    brief:
+      subject: Diplodocus
+      attrs: [extremely long neck held forward, very long thin whip-like tail, small head, slender body]
+      setting: [Jurassic plain, scattered conifers, warm afternoon light]
+      avoid: [text, humans]
+
+  - key: dino.brontosaurus
+    hint: Brontosaurus, the "thunder lizard", a heavy long-necked sauropod dinosaur
+    image: dino.brontosaurus.png
+    brief:
+      subject: Brontosaurus
+      attrs: [very long thick deep neck, bulky heavy body, column-like legs, long tail, small head]
+      setting: [Jurassic riverbank, horsetails and ferns, soft daylight]
+      avoid: [text, humans]
+
+  - key: dino.iguanodon
+    hint: Iguanodon, the large plant-eating dinosaur with spiky thumbs
+    image: dino.iguanodon.png
+    brief:
+      subject: Iguanodon
+      attrs: [cone-shaped thumb spike on each hand, horse-like head with beak, bulky body, standing on all fours]
+      setting: [Early Cretaceous woodland, ferns, dappled light]
+      avoid: [text, humans]
+
+  - key: dino.pachycephalosaurus
+    hint: Pachycephalosaurus, the dinosaur with a thick domed skull
+    image: dino.pachycephalosaurus.png
+    brief:
+      subject: Pachycephalosaurus
+      attrs: [high thick rounded bony dome on top of the head, small knobs around the dome, walking on two legs]
+      setting: [rocky Cretaceous hillside, low shrubs, clear daylight]
+      avoid: [text, humans]
+
+  - key: dino.archaeopteryx
+    hint: Archaeopteryx, the early bird-like feathered dinosaur with teeth and wing claws
+    image: dino.archaeopteryx.png
+    brief:
+      subject: Archaeopteryx
+      attrs: [raven-sized, dark feathered wings, small clawed fingers on the wings, long feathered bony tail, toothed beak]
+      setting: [perched on a branch, Jurassic island scrub, lagoon in the background]
+      avoid: [text, humans]
+
+  - key: dino.allosaurus
+    hint: Allosaurus, the big Jurassic meat-eating dinosaur with small horns above its eyes
+    image: dino.allosaurus.png
+    brief:
+      subject: Allosaurus
+      attrs: [large narrow head, small horn-like crests above the eyes, three-fingered arms, walking on two legs, tail held level]
+      setting: [Jurassic floodplain, conifers, late afternoon light]
+      avoid: [text, humans]
+
+  - key: dino.mosasaurus
+    hint: Mosasaurus, the giant sea reptile of the Cretaceous; not a dinosaur
+    image: dino.mosasaurus.png
+    brief:
+      subject: Mosasaurus marine reptile
+      attrs: [long streamlined body, four flippers, shark-like tail fin, long jaws with conical teeth, swimming]
+      setting: [underwater, Cretaceous ocean, sunbeams from the surface]
+      avoid: [text, humans, boats]
+
+  - key: dino.plesiosaurus
+    hint: Plesiosaurus, the long-necked sea reptile with four flippers; not a dinosaur
+    image: dino.plesiosaurus.png
+    brief:
+      subject: Plesiosaurus marine reptile
+      attrs: [long slender neck, small head, broad flat body, four large flippers, short tail, swimming]
+      setting: [underwater, Jurassic sea, blue water, sunbeams]
+      avoid: [text, humans, boats]
+
+  - key: dino.ichthyosaurus
+    hint: Ichthyosaurus, the dolphin-shaped sea reptile; not a dinosaur, not a fish
+    image: dino.ichthyosaurus.png
+    brief:
+      subject: Ichthyosaurus marine reptile
+      attrs: [dolphin-like body, very large eyes, long narrow toothed snout, dorsal fin, crescent tail fin, swimming]
+      setting: [underwater, Jurassic sea, clear blue water]
+      avoid: [text, humans, boats]
+
+  - key: dino.dimetrodon
+    hint: Dimetrodon, the sail-backed Permian animal; not a dinosaur (a relative of mammals)
+    image: dino.dimetrodon.png
+    brief:
+      subject: Dimetrodon
+      attrs: [tall sail on its back, sprawling legs, low long body, large head with sharp teeth, long tail]
+      setting: [Permian red riverbed, muddy bank, early plants, warm light]
+      avoid: [text, humans]
+
+  - key: dino.carnotaurus
+    hint: Carnotaurus, the meat-eating dinosaur with two bull-like horns and very short arms
+    image: dino.carnotaurus.png
+    brief:
+      subject: Carnotaurus
+      attrs: [two thick horns above the eyes, short deep head, extremely tiny arms, scaly skin, long legs, running]
+      setting: [Patagonian Cretaceous scrubland, dry plain, clear sky]
+      avoid: [text, humans]
+
+  - key: dino.therizinosaurus
+    hint: Therizinosaurus, the plant-eating dinosaur with enormous long claws
+    image: dino.therizinosaurus.png
+    brief:
+      subject: Therizinosaurus
+      attrs: [enormous long curved claws on its hands, pot-bellied body, long neck, small head with beak, shaggy feathered coat]
+      setting: [Cretaceous forest edge, reaching into a tree, soft daylight]
+      avoid: [text, humans]
+
+  - key: dino.gallimimus
+    hint: Gallimimus, the fast ostrich-like dinosaur with a toothless beak
+    image: dino.gallimimus.png
+    brief:
+      subject: Gallimimus
+      attrs: [ostrich-like build, long neck, small head with toothless beak, long slender legs, feathered body, running fast]
+      setting: [open Gobi plain, dust trail, morning light]
+      avoid: [text, humans]
+
+  - key: dino.dilophosaurus
+    hint: Dilophosaurus, the Jurassic meat-eating dinosaur with two thin crests on its head
+    image: dino.dilophosaurus.png
+    brief:
+      subject: Dilophosaurus
+      attrs: [pair of thin rounded crests on top of the head, slender body, walking on two legs, long tail]
+      setting: [Early Jurassic riverbank, red rocks, sparse plants]
+      avoid: [text, humans, neck frill]
+
+  - key: dino.styracosaurus
+    hint: Styracosaurus, the horned dinosaur with long spikes around its frill
+    image: dino.styracosaurus.png
+    brief:
+      subject: Styracosaurus
+      attrs: [long spikes radiating from the edge of the neck frill, one long nose horn, beak, four-legged stance]
+      setting: [Cretaceous floodplain, flowering shrubs, bright daylight]
+      avoid: [text, humans]
+
+  - key: dino.quetzalcoatlus
+    hint: Quetzalcoatlus, the giant flying reptile (pterosaur) as tall as a giraffe; not a dinosaur
+    image: dino.quetzalcoatlus.png
+    brief:
+      subject: Quetzalcoatlus pterosaur
+      attrs: [giant, standing on all fours on the ground, wings folded, very long neck, huge long pointed beak, fuzzy body]
+      setting: [Cretaceous fern prairie, open landscape, clear sky]
+      avoid: [text, humans, feathers]
+
+  - key: dino.compsognathus
+    hint: Compsognathus, the tiny chicken-sized meat-eating dinosaur
+    image: dino.compsognathus.png
+    brief:
+      subject: Compsognathus
+      attrs: [very small, slender body, long tail, short arms, light coat of fuzzy filaments, running]
+      setting: [Jurassic island beach, low scrub, bright sunlight]
+      avoid: [text, humans]
+
+  - key: dino.oviraptor
+    hint: Oviraptor, the feathered beaked dinosaur known for sitting on its eggs
+    image: dino.oviraptor.png
+    brief:
+      subject: Oviraptor
+      attrs: [feathered body, short toothless parrot-like beak, small rounded head crest, feathered arms, sitting on a nest of eggs]
+      setting: [Gobi desert sandstone, nest on the ground, warm evening light]
+      avoid: [text, humans]
+
+  - key: dino.kentrosaurus
+    hint: Kentrosaurus, the African stegosaur relative covered with long spikes
+    image: dino.kentrosaurus.png
+    brief:
+      subject: Kentrosaurus
+      attrs: [small plates on the neck and front of the back, long sharp spikes on the hips and tail, shoulder spikes, four-legged]
+      setting: [Jurassic coastal plain, cycads, warm daylight]
+      avoid: [text, humans]
+
+  - key: dino.microraptor
+    hint: Microraptor, the small four-winged feathered dinosaur
+    image: dino.microraptor.png
+    brief:
+      subject: Microraptor
+      attrs: [small, glossy black iridescent feathers, long flight feathers on both arms and legs, long tail with a feather fan, gliding]
+      setting: [between tall trees, Early Cretaceous forest, misty light]
+      avoid: [text, humans]
+
+  - key: dino.protoceratops
+    hint: Protoceratops, the small sheep-sized horned-dinosaur relative with a frill and beak
+    image: dino.protoceratops.png
+    brief:
+      subject: Protoceratops
+      attrs: [sheep-sized, broad bony neck frill, parrot-like beak, no horns, sturdy four-legged stance]
+      setting: [Gobi desert sand dunes, sparse shrubs, golden light]
+      avoid: [text, humans]
