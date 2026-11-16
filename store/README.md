@@ -17,7 +17,7 @@ A mismatch does not fail loudly: `queryProductDetails` just returns the id under
 |---|---|
 | Type | Non-Consumable |
 | Availability | All territories |
-| Price | your choice — not stored in this repo; the app reads it from the store |
+| Price | your choice — not stored in this repo; the app reads it from the store. New decks from 2026-11 (dinosaurs, cars, construction machines and later ones): **$0.99** (Tier 1) |
 | Tax Category | App Store Software (default) |
 | Description (en) | `50 illustrated cards in 17 languages.` |
 | Review notes | see below |
