@@ -134,6 +134,7 @@ com.ol1n.duolingocards.deck.emotions
 com.ol1n.duolingocards.deck.food_fruits
 com.ol1n.duolingocards.deck.food_vegetables
 com.ol1n.duolingocards.deck.weather
+com.ol1n.duolingocards.deck.cars_iconic
 ```
 
 Free decks — nothing to create: `numbers-1-10`, `colors-basic`,
