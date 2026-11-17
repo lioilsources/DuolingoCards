@@ -36,6 +36,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get badgePurchased => 'Куплено';
 
   @override
+  String get badgeNew => 'Новинка';
+
+  @override
   String get badgePaidDeck => 'Платная колода';
 
   @override

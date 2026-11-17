@@ -1,0 +1,214 @@
+lang: it
+pivot: false
+title: Dinosauri
+cards:
+  dino.t_rex:
+    label: Tirannosauro
+    summary: Cretaceo superiore · carnivoro
+    info: |
+      Il Tyrannosaurus rex era lungo fino a 12 metri e viveva in Nord America.
+      I suoi denti erano grandi come banane, e aveva il morso più forte di tutti gli animali di terra.
+      Le sue braccia erano corte, ma molto forti.
+  dino.triceratops:
+    label: Triceratopo
+    summary: Cretaceo superiore · erbivoro
+    info: |
+      Il Triceratopo era lungo circa 9 metri e viveva in Nord America.
+      Il suo nome significa «faccia con tre corna», e le due corna in alto erano lunghe circa un metro.
+      Viveva nello stesso periodo e negli stessi luoghi del Tirannosauro.
+  dino.stegosaurus:
+    label: Stegosauro
+    summary: Giurassico superiore · erbivoro
+    info: |
+      Lo Stegosauro era lungo circa 9 metri e viveva in Nord America e in Portogallo.
+      Aveva grandi placche sulla schiena e spine appuntite sulla coda.
+      Visse così tanto tempo fa che è più lontano nel tempo dal T. rex di quanto lo siamo noi.
+  dino.brachiosaurus:
+    label: Brachiosauro
+    summary: Giurassico superiore · erbivoro
+    info: |
+      Il Brachiosauro era lungo circa 22 metri e viveva in Nord America.
+      Le sue zampe anteriori erano più lunghe di quelle posteriori, così arrivava alle foglie alte quanto un palazzo di quattro piani.
+      Il suo nome significa «lucertola con le braccia».
+  dino.velociraptor:
+    label: Velociraptor
+    summary: Cretaceo superiore · carnivoro
+    info: |
+      Il Velociraptor era lungo solo circa 2 metri, più o meno come un tacchino, e viveva in Mongolia e in Cina.
+      Era coperto di piume, ma non sapeva volare.
+      Su ogni piede aveva un grande artiglio ricurvo per catturare le prede.
+  dino.ankylosaurus:
+    label: Anchilosauro
+    summary: Cretaceo superiore · erbivoro
+    info: |
+      L'Anchilosauro era lungo circa 7 metri e viveva in Nord America.
+      La sua schiena era coperta da una corazza di osso, come un carro armato vivente.
+      In fondo alla coda aveva una pesante mazza d'osso per difendersi.
+  dino.spinosaurus:
+    label: Spinosauro
+    summary: Cretaceo superiore · carnivoro
+    info: |
+      Lo Spinosauro era lungo circa 14 metri, persino più del T. rex, e viveva nel Nord Africa.
+      Aveva un'alta vela sulla schiena e viveva vicino ai fiumi, dove catturava i pesci.
+      I suoi primi fossili furono distrutti durante la Seconda guerra mondiale.
+  dino.parasaurolophus:
+    label: Parasaurolofo
+    summary: Cretaceo superiore · erbivoro
+    info: |
+      Il Parasaurolofo era lungo circa 9 metri e viveva in Nord America.
+      Aveva una lunga cresta vuota sulla testa e un becco come quello di un'anatra.
+      Soffiando aria nella cresta, poteva fare forti suoni simili a una tromba.
+  dino.pteranodon:
+    label: Pteranodonte
+    summary: Cretaceo superiore · carnivoro
+    info: |
+      Lo Pteranodonte era un rettile volante, non un dinosauro, e le sue ali erano larghe fino a 7 metri.
+      Viveva in Nord America e volava sopra il mare per pescare.
+      Il suo nome significa «ala senza denti», perché aveva un becco senza denti.
+  dino.diplodocus:
+    label: Diplodoco
+    summary: Giurassico superiore · erbivoro
+    info: |
+      Il Diplodoco era lungo circa 25 metri, come due autobus, e viveva in Nord America.
+      Gran parte della sua lunghezza era data dal collo lunghissimo e dalla coda sottile come una frusta.
+      Aveva piccoli denti a forma di piolo per strappare le foglie dalle piante.
+  dino.brontosaurus:
+    label: Brontosauro
+    summary: Giurassico superiore · erbivoro
+    info: |
+      Il Brontosauro era lungo circa 22 metri e viveva in Nord America.
+      Il suo nome significa «lucertola del tuono», e pesava più o meno come tre elefanti.
+      Per oltre 100 anni gli scienziati pensarono che fosse un Apatosauro, ma nel 2015 ha riavuto il suo nome.
+  dino.iguanodon:
+    label: Iguanodonte
+    summary: Cretaceo inferiore · erbivoro
+    info: |
+      L'Iguanodonte era lungo circa 10 metri e viveva in Europa.
+      Aveva una spina appuntita su ogni pollice, che all'inizio gli scienziati scambiarono per un corno sul naso.
+      Nel 1825 diventò uno dei primissimi dinosauri a ricevere un nome.
+  dino.pachycephalosaurus:
+    label: Pachicefalosauro
+    summary: Cretaceo superiore · erbivoro
+    info: |
+      Il Pachicefalosauro era lungo circa 4,5 metri e viveva in Nord America.
+      L'osso sulla cima della sua testa era spesso fino a 25 centimetri.
+      Il suo nome significa «lucertola dalla testa spessa».
+  dino.archaeopteryx:
+    label: Archeopterige
+    summary: Giurassico superiore · carnivoro
+    info: |
+      L'Archeopterige era grande più o meno come un corvo e viveva nell'attuale Germania.
+      Aveva piume e ali come un uccello, ma anche denti, artigli sulle ali e una lunga coda ossea.
+      Ci mostra che gli uccelli sono i parenti viventi dei dinosauri.
+  dino.allosaurus:
+    label: Allosauro
+    summary: Giurassico superiore · carnivoro
+    info: |
+      L'Allosauro era lungo circa 9 metri e viveva in Nord America e in Portogallo.
+      Era il cacciatore più grande del suo tempo e aveva piccole corna sopra gli occhi.
+      Un fossile di Allosauro ha una ferita fatta dalla coda con le spine di uno Stegosauro.
+  dino.mosasaurus:
+    label: Mosasauro
+    summary: Cretaceo superiore · carnivoro
+    info: |
+      Il Mosasauro era un gigantesco rettile marino, non un dinosauro, lungo circa 13 metri.
+      I suoi parenti sono le lucertole e i serpenti, e doveva salire in superficie per respirare l'aria.
+      Il suo primo fossile fu trovato nei Paesi Bassi, vicino al fiume Mosa.
+  dino.plesiosaurus:
+    label: Plesiosauro
+    summary: Giurassico inferiore · carnivoro
+    info: |
+      Il Plesiosauro era un rettile marino, non un dinosauro, lungo circa 3 metri.
+      Aveva un collo lungo, una testa piccola e quattro grandi pinne per nuotare.
+      Il suo primo scheletro completo fu trovato in Inghilterra dalla cacciatrice di fossili Mary Anning.
+  dino.ichthyosaurus:
+    label: Ittiosauro
+    summary: Giurassico inferiore · carnivoro
+    info: |
+      L'Ittiosauro era un rettile marino, né un dinosauro né un pesce, lungo circa 2 metri.
+      Somigliava a un delfino e aveva occhi molto grandi per vedere nell'acqua buia.
+      Invece di deporre le uova, partoriva i suoi piccoli direttamente nel mare.
+  dino.dimetrodon:
+    label: Dimetrodonte
+    summary: Permiano inferiore · carnivoro
+    info: |
+      Il Dimetrodonte non era un dinosauro: visse circa 40 milioni di anni prima dei primi dinosauri.
+      Era lungo fino a 4 metri, aveva un'alta vela sulla schiena e viveva in Nord America e in Europa.
+      È più vicino ai mammiferi, come noi, che ai dinosauri.
+  dino.carnotaurus:
+    label: Carnotauro
+    summary: Cretaceo superiore · carnivoro
+    info: |
+      Il Carnotauro era lungo circa 8 metri e viveva in Argentina, in Sud America.
+      Il suo nome significa «toro carnivoro», perché aveva due corna sopra gli occhi.
+      Le sue braccia erano minuscole, ancora più piccole di quelle del T. rex.
+  dino.therizinosaurus:
+    label: Terizinosauro
+    summary: Cretaceo superiore · erbivoro
+    info: |
+      Il Terizinosauro era lungo circa 9 metri e viveva in Mongolia.
+      I suoi artigli erano più lunghi di un righello di scuola: sono gli artigli più lunghi di tutti gli animali conosciuti.
+      Anche se era parente del T. rex, mangiava piante.
+  dino.gallimimus:
+    label: Gallimimo
+    summary: Cretaceo superiore · onnivoro
+    info: |
+      Il Gallimimo era lungo circa 6 metri e viveva in Mongolia.
+      Somigliava a un grande struzzo, con un becco senza denti e zampe lunghe.
+      Era uno dei corridori più veloci tra i dinosauri.
+  dino.dilophosaurus:
+    label: Dilofosauro
+    summary: Giurassico inferiore · carnivoro
+    info: |
+      Il Dilofosauro era lungo circa 7 metri e viveva in Nord America.
+      Aveva due creste sottili sulla testa, e il suo nome significa «lucertola con due creste».
+      Nei film sputa veleno e ha un collare intorno al collo, ma non ci sono prove di nessuna delle due cose.
+  dino.styracosaurus:
+    label: Stiracosauro
+    summary: Cretaceo superiore · erbivoro
+    info: |
+      Lo Stiracosauro era lungo circa 5,5 metri e viveva in Canada.
+      Lunghe spine spuntavano dal collare d'osso intorno al suo collo.
+      Aveva anche un lungo corno sul naso, lungo fino a 60 centimetri.
+  dino.quetzalcoatlus:
+    label: Quetzalcoatlus
+    summary: Cretaceo superiore · carnivoro
+    info: |
+      Il Quetzalcoatlus era un rettile volante, non un dinosauro, e viveva in Nord America.
+      Le sue ali erano larghe circa 10 metri, e in piedi a terra era alto come una giraffa.
+      Prende il nome da Quetzalcoatl, un dio serpente piumato degli Aztechi.
+  dino.compsognathus:
+    label: Compsognato
+    summary: Giurassico superiore · carnivoro
+    info: |
+      Il Compsognato era lungo solo circa 1 metro, più o meno come una gallina, e viveva in Germania e in Francia.
+      Era uno dei dinosauri più piccoli e correva veloce su due zampe.
+      Un fossile ha ancora una piccola lucertola nello stomaco: il suo ultimo pasto.
+  dino.oviraptor:
+    label: Oviraptor
+    summary: Cretaceo superiore · onnivoro
+    info: |
+      L'Oviraptor era lungo circa 2 metri, aveva piume e un becco, e viveva in Mongolia.
+      Il suo nome significa «ladro di uova», perché fu trovato sopra un nido di uova.
+      Più tardi gli scienziati scoprirono che le uova erano della sua specie: era un genitore premuroso, non un ladro.
+  dino.kentrosaurus:
+    label: Kentrosauro
+    summary: Giurassico superiore · erbivoro
+    info: |
+      Il Kentrosauro era lungo circa 4,5 metri e viveva in Tanzania, in Africa.
+      Era un parente più piccolo dello Stegosauro, con placche sul collo e lunghe spine sulla schiena e sulla coda.
+      Il suo nome significa «lucertola spinosa».
+  dino.microraptor:
+    label: Microraptor
+    summary: Cretaceo inferiore · carnivoro
+    info: |
+      Il Microraptor era lungo meno di 1 metro e viveva in Cina.
+      Aveva ali di piume sia sulle braccia sia sulle zampe, quindi aveva quattro ali.
+      Le sue piume erano nere e lucide, come quelle di un corvo.
+  dino.protoceratops:
+    label: Protoceratopo
+    summary: Cretaceo superiore · erbivoro
+    info: |
+      Il Protoceratopo era lungo circa 2 metri, più o meno come una pecora, e viveva in Mongolia e in Cina.
+      Aveva un collare d'osso e un becco come un pappagallo, ma niente vere corna.
+      Un famoso fossile mostra un Protoceratopo e un Velociraptor bloccati in piena lotta.

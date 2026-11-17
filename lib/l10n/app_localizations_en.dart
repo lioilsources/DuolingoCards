@@ -36,6 +36,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get badgePurchased => 'Purchased';
 
   @override
+  String get badgeNew => 'New';
+
+  @override
   String get badgePaidDeck => 'Paid deck';
 
   @override

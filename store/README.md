@@ -17,7 +17,7 @@ A mismatch does not fail loudly: `queryProductDetails` just returns the id under
 |---|---|
 | Type | Non-Consumable |
 | Availability | All territories |
-| Price | your choice — not stored in this repo; the app reads it from the store |
+| Price | your choice — not stored in this repo; the app reads it from the store. New decks from 2026-11 (dinosaurs, cars, construction machines and later ones): **$0.99** (Tier 1) |
 | Tax Category | App Store Software (default) |
 | Description (en) | `50 illustrated cards in 17 languages.` |
 | Review notes | see below |
@@ -44,10 +44,13 @@ never shows them on the store — and each is 1242x2208, a canonical App Store s
 | `com.ol1n.duolingocards.deck.animals_sea` | Deck Marine Animals | Marine Animals | `animals-sea.png` |
 | `com.ol1n.duolingocards.deck.animals_wild` | Deck Wild animals | Wild animals | `animals-wild.png` |
 | `com.ol1n.duolingocards.deck.body_parts` | Deck Parts of the Body | Parts of the Body | `body-parts.png` |
+| `com.ol1n.duolingocards.deck.construction_machines` | Deck Construction Machines | Construction Machines | `construction-machines.png` (chybí) |
 | `com.ol1n.duolingocards.deck.emotions` | Deck Emotions | Emotions | `emotions.png` |
+| `com.ol1n.duolingocards.deck.dinosaurs` | Deck Dinosaurs | Dinosaurs | `dinosaurs.png` (chybí) |
 | `com.ol1n.duolingocards.deck.food_fruits` | Deck Fruit | Fruit | `food-fruits.png` |
 | `com.ol1n.duolingocards.deck.food_vegetables` | Deck Vegetables | Vegetables | `food-vegetables.png` |
 | `com.ol1n.duolingocards.deck.weather` | Deck Weather | Weather | `weather.png` |
+| `com.ol1n.duolingocards.deck.cars_iconic` | Deck Iconic Cars | Iconic Cars | `cars-iconic.png` (chybí) |
 
 ## All decks bundle (complete-the-set) — manual step, NOT DONE YET
 

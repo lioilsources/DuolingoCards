@@ -36,6 +36,9 @@ class AppLocalizationsTr extends AppLocalizations {
   String get badgePurchased => 'Satın alındı';
 
   @override
+  String get badgeNew => 'Yeni';
+
+  @override
   String get badgePaidDeck => 'Ücretli deste';
 
   @override

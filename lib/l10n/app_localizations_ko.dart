@@ -36,6 +36,9 @@ class AppLocalizationsKo extends AppLocalizations {
   String get badgePurchased => '구입함';
 
   @override
+  String get badgeNew => '신규';
+
+  @override
   String get badgePaidDeck => '유료 덱';
 
   @override

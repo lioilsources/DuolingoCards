@@ -2,11 +2,14 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
+import 'package:http/http.dart' as http;
+import 'package:http/testing.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:duolingo_cards/models/store_catalog.dart';
 import 'package:duolingo_cards/services/entitlement_service.dart';
 import 'package:duolingo_cards/services/iap_service.dart';
+import 'package:duolingo_cards/services/remote_catalog_service.dart';
 
 const _tier0 = 'com.ol1n.duolingocards.decks_all';
 String _tier(int k) => k == 0 ? _tier0 : '${_tier0}_s$k';
@@ -47,11 +50,13 @@ class FakeStore implements PurchaseBackend {
 
   final Map<String, String> prices;
   final Set<String> owned;
+  final Set<String> _reported = {};
   Set<String> _loaded = {};
 
   static Map<String, String> _defaultPrices() => {
         for (var i = 0; i < 20; i++) _deckSku(i): r'$0.99',
         for (var k = 0; k < 5; k++) _tier(k): _usd[k]!,
+        _remoteSku: r'$0.99',
       };
 
   @override
@@ -67,6 +72,9 @@ class FakeStore implements PurchaseBackend {
   Future<void> initialize() async {}
 
   @override
+  Set<String> get ownedSkus => Set.unmodifiable(_reported);
+
+  @override
   Future<void> loadProducts(Set<String> skus) async => _loaded = skus;
 
   @override
@@ -77,6 +85,7 @@ class FakeStore implements PurchaseBackend {
   Future<bool> buy(String sku) async {
     if (localizedPrice(sku) == null) return false;
     owned.add(sku);
+    _reported.add(sku);
     onProductOwned?.call(sku, restored: false);
     return true;
   }
@@ -84,16 +93,48 @@ class FakeStore implements PurchaseBackend {
   @override
   Future<void> restorePurchases() async {
     for (final sku in owned) {
+      _reported.add(sku);
       onProductOwned?.call(sku, restored: true);
     }
   }
 }
 
-Future<EntitlementService> _service(FakeStore store, {int decks = 11}) async {
-  final ent = EntitlementService.withBackend(store);
+Future<EntitlementService> _service(
+  FakeStore store, {
+  int decks = 11,
+  RemoteCatalogService? remote,
+}) async {
+  final ent = EntitlementService.withBackend(store, remote: remote);
   await ent.initialize(catalog: _catalog(decks));
   return ent;
 }
+
+const _remoteSlug = 'remote-only';
+const _remoteSku = 'com.ol1n.duolingocards.deck.remote_only';
+
+/// The CDN catalog of a later publish: sells one paid deck the bundled
+/// catalog has never heard of, and defines no bundle of its own.
+Map<String, dynamic> _remoteJson() => {
+      'free': const [],
+      'products': [
+        {
+          'code': 'deck.$_remoteSlug',
+          'sku': {'apple': _remoteSku, 'google': _remoteSku},
+          'unlocks': [_remoteSlug],
+        },
+      ],
+      'decks': [
+        {'slug': _remoteSlug, 'version': 1, 'tier': 1},
+      ],
+    };
+
+RemoteCatalogService _remoteService(Map<String, dynamic> json) =>
+    RemoteCatalogService(
+      client: MockClient(
+        (_) async => http.Response(jsonEncode(json), 200),
+      ),
+      url: Uri.parse('https://cdn.test/catalog.json'),
+    );
 
 Future<void> _buyDecks(EntitlementService ent, FakeStore store, int n) async {
   for (var i = 0; i < n; i++) {
@@ -252,6 +293,61 @@ void main() {
       final after = await _service(store, decks: 12);
       expect(after.ownsDeck(_deckSlug(11)), isTrue);
       expect(after.allDecksOffer, isNull);
+    });
+  });
+
+  group('remote catalog', () {
+    test('merge keeps the bundled bundle when the remote has none', () {
+      final merged = StoreCatalog.merge(
+        _catalog(2),
+        StoreCatalog.fromJson(_remoteJson()),
+      );
+      expect(merged.allDecks?.code, 'bundle.all-decks');
+      expect(merged.allDecks?.tiers, hasLength(5));
+      expect(merged.isPaidDeck(_remoteSlug), isTrue);
+      expect(merged.skusForCurrentPlatform(), containsAll([_remoteSku, _tier0]));
+    });
+
+    test('merge takes the remote bundle when the remote defines one', () {
+      final remote = StoreCatalog.fromJson({
+        ..._remoteJson(),
+        'all_decks': {
+          'code': 'bundle.all-decks',
+          'tiers': [
+            {
+              'threshold': 0,
+              'sku': {'apple': 'x.all', 'google': 'x.all'},
+            },
+          ],
+        },
+      });
+      final merged = StoreCatalog.merge(_catalog(2), remote);
+      expect(merged.allDecks?.tiers.single.sku['apple'], 'x.all');
+    });
+
+    test('a remote-only paid deck is unlocked for a bundle owner', () async {
+      final store = FakeStore();
+      final ent = await _service(store, remote: _remoteService(_remoteJson()));
+      expect(await ent.refreshRemoteCatalog(), isTrue);
+      expect(ent.catalog!.isPaidDeck(_remoteSlug), isTrue);
+      expect(ent.ownsDeck(_remoteSlug), isFalse);
+
+      expect(await ent.purchaseAllDecks(), isTrue);
+      expect(ent.ownsDeck(_remoteSlug), isTrue);
+    });
+
+    test('a remote-only deck bought earlier counts toward the ladder',
+        () async {
+      // Restored before the remote catalog arrived: no product yet, so the
+      // replay credits nothing until the refresh re-reads owned SKUs.
+      final store = FakeStore(owned: {_remoteSku});
+      final ent = await _service(store, remote: _remoteService(_remoteJson()));
+      await ent.restore();
+      await ent.refreshRemoteCatalog();
+
+      expect(ent.ownsDeck(_remoteSlug), isTrue);
+      expect(ent.ownedPaidDeckCount, 1);
+      expect(ent.allDecksOffer?.sku, _tier(1));
     });
   });
 

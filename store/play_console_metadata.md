@@ -130,10 +130,13 @@ com.ol1n.duolingocards.deck.animals_reptiles
 com.ol1n.duolingocards.deck.animals_sea
 com.ol1n.duolingocards.deck.animals_wild
 com.ol1n.duolingocards.deck.body_parts
+com.ol1n.duolingocards.deck.construction_machines
 com.ol1n.duolingocards.deck.emotions
+com.ol1n.duolingocards.deck.dinosaurs
 com.ol1n.duolingocards.deck.food_fruits
 com.ol1n.duolingocards.deck.food_vegetables
 com.ol1n.duolingocards.deck.weather
+com.ol1n.duolingocards.deck.cars_iconic
 ```
 
 Free decks — nothing to create: `numbers-1-10`, `colors-basic`,

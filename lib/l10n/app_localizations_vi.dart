@@ -36,6 +36,9 @@ class AppLocalizationsVi extends AppLocalizations {
   String get badgePurchased => 'Đã mua';
 
   @override
+  String get badgeNew => 'Mới';
+
+  @override
   String get badgePaidDeck => 'Bộ thẻ trả phí';
 
   @override

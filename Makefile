@@ -184,7 +184,8 @@ styles: $(CONTENT)
 # `ship` is the only correct order, because the three steps depend on each other:
 #   1. publish images  → previews land in assets/, full sets in docs/
 #   2. build           → reads those trees, records styleAvailability per style
-#   3. publish json    → copies the freshly built deck.json to docs/
+#   3. publish json    → copies the freshly built deck.json to docs/ and
+#                        regenerates docs/catalog.json (the remote catalog)
 # Running build before step 1 would mark the new styles undeliverable and the
 # store would hide them. Pass DECK=<slug> to ship one deck.
 

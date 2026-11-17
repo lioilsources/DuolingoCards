@@ -36,6 +36,9 @@ class AppLocalizationsAr extends AppLocalizations {
   String get badgePurchased => 'تم الشراء';
 
   @override
+  String get badgeNew => 'جديد';
+
+  @override
   String get badgePaidDeck => 'مجموعة مدفوعة';
 
   @override

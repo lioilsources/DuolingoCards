@@ -1,0 +1,501 @@
+{
+  "deck": "construction-machines",
+  "version": 1,
+  "tier": 1,
+  "styles": [
+    "photo"
+  ],
+  "styleAvailability": {
+    "photo": {
+      "bundled": true,
+      "cdn": true
+    }
+  },
+  "defaultStyle": "photo",
+  "titles": {
+    "cs": "Bagry a stavební stroje",
+    "en": "Construction Machines"
+  },
+  "cards": [
+    {
+      "key": "machine.excavator",
+      "image": "machine.excavator.webp",
+      "label": {
+        "cs": "bagr",
+        "en": "excavator"
+      },
+      "summary": {
+        "cs": "Stroj, který kope dlouhým ramenem a lžící se zuby.",
+        "en": "A digging machine with a long arm and a bucket full of teeth."
+      },
+      "info": {
+        "cs": "Bagr jezdí na pásech, takže se nepropadne do měkkého bláta.\nCelá horní část s kabinou a ramenem se umí otočit dokola.\nRameno pohání hydraulika: olej, který se pod velkým tlakem tlačí trubkami.\n",
+        "en": "An excavator runs on tracks, so it does not sink into soft mud.\nThe whole top part with the cab and the arm can turn all the way round.\nThe arm is moved by hydraulics: oil pushed through pipes under high pressure.\n"
+      }
+    },
+    {
+      "key": "machine.mini_excavator",
+      "image": "machine.mini_excavator.webp",
+      "label": {
+        "cs": "minibagr",
+        "en": "mini excavator"
+      },
+      "summary": {
+        "cs": "Malý bagr, který projede i zahradní brankou.",
+        "en": "A small digger that fits through a garden gate."
+      },
+      "info": {
+        "cs": "Minibagr kope tam, kam by se velký bagr nevešel: na zahradách, dvorech a v úzkých ulicích.\nVětšinou jezdí na gumových pásech, aby nepoškodil dlažbu.\nMalou radlicí vpředu shrnuje hlínu zpátky do díry.\n",
+        "en": "A mini excavator digs where a big one would not fit, such as gardens, yards and narrow streets.\nIt usually runs on rubber tracks, so it does not damage paved ground.\nThe small blade at the front pushes soil back into the hole.\n"
+      }
+    },
+    {
+      "key": "machine.backhoe_loader",
+      "image": "machine.backhoe_loader.webp",
+      "label": {
+        "cs": "traktorbagr",
+        "en": "backhoe loader"
+      },
+      "summary": {
+        "cs": "Traktor s lžící vpředu a kopacím ramenem vzadu.",
+        "en": "A tractor with a scoop at the front and a digging arm at the back."
+      },
+      "info": {
+        "cs": "Traktorbagr jsou dva stroje v jednom: vpředu nakladač, vzadu bagr.\nKdyž řidič pracuje se zadním ramenem, otočí se i se sedačkou dozadu.\nJezdí na kolech, takže z jedné stavby na druhou dojede po silnici.\n",
+        "en": "A backhoe loader is two machines in one: a loader in front and an excavator behind.\nThe driver turns the seat round to work with the back arm.\nIt runs on wheels, so it can drive along roads from one job to the next.\n"
+      }
+    },
+    {
+      "key": "machine.wheel_loader",
+      "image": "machine.wheel_loader.webp",
+      "label": {
+        "cs": "kolový nakladač",
+        "en": "wheel loader"
+      },
+      "summary": {
+        "cs": "Stroj s obrovskými koly, který nabírá a vozí písek a štěrk.",
+        "en": "A machine with huge tyres that scoops and carries sand and gravel."
+      },
+      "info": {
+        "cs": "Kolový nakladač nabere do velké přední lžíce štěrk a vysype ho do nákladního auta.\nUprostřed se ohýbá, a proto se otočí i v těsném prostoru.\nNejvětší nakladače mají kola vyšší než dospělý člověk.\n",
+        "en": "A wheel loader fills its big front bucket and tips it into trucks.\nIts body bends in the middle, which lets it turn in tight spaces.\nThe largest wheel loaders have tyres taller than a grown-up.\n"
+      }
+    },
+    {
+      "key": "machine.bulldozer",
+      "image": "machine.bulldozer.webp",
+      "label": {
+        "cs": "buldozer",
+        "en": "bulldozer"
+      },
+      "summary": {
+        "cs": "Silný stroj na pásech, který tlačí zeminu širokou radlicí.",
+        "en": "A strong machine on tracks that pushes earth with a wide blade."
+      },
+      "info": {
+        "cs": "Buldozer tlačí hlínu, kameny a písek ocelovou radlicí vpředu.\nDrápem vzadu, kterému se říká rozrývač, rozbíjí tvrdou zem.\nŠiroké pásy rozloží jeho váhu, takže projede i sypkou zeminou.\n",
+        "en": "A bulldozer pushes soil, rocks and sand with the steel blade at its front.\nThe claw at the back, called a ripper, breaks up hard ground.\nIts wide tracks spread its weight, so it can drive over loose earth.\n"
+      }
+    },
+    {
+      "key": "machine.skid_steer",
+      "image": "machine.skid_steer.webp",
+      "label": {
+        "cs": "smykový nakladač",
+        "en": "skid steer loader"
+      },
+      "summary": {
+        "cs": "Malý hranatý nakladač, který se otočí na místě.",
+        "en": "A small box-shaped loader that can turn on the spot."
+      },
+      "info": {
+        "cs": "Smykový nakladač zatáčí tak, že kola na jedné straně se točí rychleji než na druhé.\nDíky tomu se umí otočit na místě, skoro jako tank.\nMísto lžíce na něj jde připevnit i jiné nářadí, třeba vidle, kartáč nebo vrták.\n",
+        "en": "A skid steer loader turns by spinning its wheels on one side faster than on the other.\nThat lets it spin round on the spot, almost like a tank.\nInstead of the bucket it can carry many other tools, such as forks, brushes or a drill.\n"
+      }
+    },
+    {
+      "key": "machine.dump_truck",
+      "image": "machine.dump_truck.webp",
+      "label": {
+        "cs": "sklápěčka",
+        "en": "dump truck"
+      },
+      "summary": {
+        "cs": "Nákladní auto, které vysype náklad dozadu.",
+        "en": "A truck that tips its load out of the back."
+      },
+      "info": {
+        "cs": "Sklápěčka vozí písek, štěrk nebo hlínu v ocelové korbě.\nHydraulické písty zvednou přední část korby a náklad se vysype dozadu.\nPak korba zase klesne a auto jede pro další.\n",
+        "en": "A dump truck carries sand, gravel or earth in a steel box called a tipper.\nHydraulic pistons lift the front of the box, and the load slides out at the back.\nThen the box drops down again and the truck drives off for more.\n"
+      }
+    },
+    {
+      "key": "machine.articulated_hauler",
+      "image": "machine.articulated_hauler.webp",
+      "label": {
+        "cs": "kloubový dampr",
+        "en": "articulated dump truck"
+      },
+      "summary": {
+        "cs": "Terénní sklápěčka, která se ohýbá uprostřed.",
+        "en": "A rough-ground dump truck that bends in the middle."
+      },
+      "info": {
+        "cs": "Kloubový dampr má dvě části spojené kloubem, takže se uprostřed ohýbá.\nDíky tomu projede blátem a přes hrboly, kde by obyčejné auto uvízlo.\nJe postavený pro stavby a lomy, ne pro silnice.\n",
+        "en": "An articulated dump truck has two parts joined by a pivot, so it bends in the middle.\nThis helps it drive through mud and over bumps where an ordinary truck would get stuck.\nIt is built for building sites and quarries, not for roads.\n"
+      }
+    },
+    {
+      "key": "machine.mining_truck",
+      "image": "machine.mining_truck.webp",
+      "label": {
+        "cs": "důlní dampr",
+        "en": "mining dump truck"
+      },
+      "summary": {
+        "cs": "Obří sklápěčka, která pracuje ve velkých povrchových dolech.",
+        "en": "A giant dump truck that works in huge open-pit mines."
+      },
+      "info": {
+        "cs": "Důlní dampry patří k největším nákladním autům na světě.\nJejich kola jsou vyšší než dospělý člověk a řidič leze do kabiny po žebříku.\nTy největší uvezou najednou přes 400 tun horniny.\n",
+        "en": "Mining dump trucks are some of the biggest trucks in the world.\nTheir tyres are taller than a grown-up, and the driver climbs a ladder to the cab.\nThe largest ones can carry more than 400 tonnes of rock at once.\n"
+      }
+    },
+    {
+      "key": "machine.concrete_mixer",
+      "image": "machine.concrete_mixer.webp",
+      "label": {
+        "cs": "domíchávač",
+        "en": "concrete mixer truck"
+      },
+      "summary": {
+        "cs": "Nákladní auto s velkým bubnem, který se pořád točí.",
+        "en": "A truck with a big drum that keeps turning."
+      },
+      "info": {
+        "cs": "Domíchávač přiváží na stavbu čerstvý beton.\nBuben se cestou pořád točí, aby beton uvnitř neztuhl.\nKdyž se buben roztočí opačně, beton vyteče ven po skluzu.\n",
+        "en": "A concrete mixer truck brings fresh concrete to a building site.\nThe drum keeps turning on the way, so the concrete does not set inside it.\nWhen the drum turns the other way, the concrete pours out down the chute.\n"
+      }
+    },
+    {
+      "key": "machine.concrete_pump",
+      "image": "machine.concrete_pump.webp",
+      "label": {
+        "cs": "čerpadlo betonu",
+        "en": "concrete pump"
+      },
+      "summary": {
+        "cs": "Nákladní auto s dlouhým skládacím ramenem, které lije beton do výšky.",
+        "en": "A truck with a long folding arm that pours concrete high up."
+      },
+      "info": {
+        "cs": "Čerpadlo betonu tlačí mokrý beton trubkou, která vede po jeho dlouhém rameni.\nRameno se rozloží jako obří prst a dosáhne až do horních pater domu.\nOcelové nohy po stranách drží auto, aby se nepřevrátilo.\n",
+        "en": "A concrete pump pushes wet concrete through a pipe along its long arm.\nThe arm unfolds like a giant finger and reaches the upper floors of a building.\nSteel legs on the sides keep the truck from tipping over.\n"
+      }
+    },
+    {
+      "key": "machine.tower_crane",
+      "image": "machine.tower_crane.webp",
+      "label": {
+        "cs": "věžový jeřáb",
+        "en": "tower crane"
+      },
+      "summary": {
+        "cs": "Vysoký jeřáb, který stojí nad stavbou.",
+        "en": "A tall crane that stands over a building site."
+      },
+      "info": {
+        "cs": "Věžový jeřáb zvedá těžké náklady, jako jsou ocelové nosníky a beton, až na vršek stavby.\nJeřábník šplhá uvnitř věže nahoru do malé kabiny.\nTěžké betonové bloky na krátkém rameni vyvažují náklad na dlouhém rameni.\n",
+        "en": "A tower crane lifts heavy loads such as steel beams and concrete to the top of a building.\nThe operator climbs up inside the tower to a small cab at the top.\nHeavy concrete blocks on the short arm balance the load on the long arm.\n"
+      }
+    },
+    {
+      "key": "machine.mobile_crane",
+      "image": "machine.mobile_crane.webp",
+      "label": {
+        "cs": "autojeřáb",
+        "en": "mobile crane"
+      },
+      "summary": {
+        "cs": "Jeřáb na nákladním autě s ramenem, které se vysouvá čím dál delší.",
+        "en": "A crane on a truck with an arm that slides out longer and longer."
+      },
+      "info": {
+        "cs": "Autojeřáb přijede na stavbu po vlastních kolech.\nJeho rameno je teleskopické: vysouvá se jako dalekohled a je pak mnohem delší.\nNež začne zvedat, vysune do stran silné nohy, aby se nepřevrátil.\n",
+        "en": "A mobile crane drives to the building site on its own wheels.\nIts arm is telescopic: it slides out like a telescope to become much longer.\nBefore lifting, it puts strong legs out on both sides so it does not tip over.\n"
+      }
+    },
+    {
+      "key": "machine.crawler_crane",
+      "image": "machine.crawler_crane.webp",
+      "label": {
+        "cs": "pásový jeřáb",
+        "en": "crawler crane"
+      },
+      "summary": {
+        "cs": "Velmi silný jeřáb na pásech s vysokým příhradovým ramenem.",
+        "en": "A very strong crane on tracks with a tall frame-shaped arm."
+      },
+      "info": {
+        "cs": "Pásový jeřáb stojí na pásech, které rozloží jeho obrovskou váhu do země.\nJeho dlouhé rameno je z ocelové příhradové konstrukce, lehké, ale velmi pevné.\nVelké pásové jeřáby zvedají části mostů a větrných elektráren.\n",
+        "en": "A crawler crane stands on tracks, which spread its huge weight over the ground.\nIts long arm is made of steel lattice, light but very strong.\nLarge crawler cranes lift parts of bridges and wind turbines.\n"
+      }
+    },
+    {
+      "key": "machine.road_roller",
+      "image": "machine.road_roller.webp",
+      "label": {
+        "cs": "silniční válec",
+        "en": "road roller"
+      },
+      "summary": {
+        "cs": "Těžký stroj s hladkými ocelovými válci, který uválcuje asfalt.",
+        "en": "A heavy machine with smooth steel drums that flattens asphalt."
+      },
+      "info": {
+        "cs": "Silniční válec pomalu přejíždí čerstvý asfalt a stlačí ho do roviny a natvrdo.\nJeho ocelové válce umí velmi rychle vibrovat, a tak silnici zhutní ještě líp.\nNa válce stříká voda, aby se na ně horký asfalt nelepil.\n",
+        "en": "A road roller drives slowly over fresh asphalt and presses it flat and hard.\nIts steel drums can shake very fast, which packs the road down even better.\nWater is sprayed on the drums so the hot asphalt does not stick to them.\n"
+      }
+    },
+    {
+      "key": "machine.asphalt_paver",
+      "image": "machine.asphalt_paver.webp",
+      "label": {
+        "cs": "finišer",
+        "en": "asphalt paver"
+      },
+      "summary": {
+        "cs": "Stroj, který pokládá novou vrstvu silnice.",
+        "en": "A machine that lays a new layer of road."
+      },
+      "info": {
+        "cs": "Nákladní auta vysypou horký asfalt do přední části finišeru.\nFinišer jede pomalu dopředu a za sebou ho rozprostře do rovnoměrné vrstvy.\nHned za ním obvykle jede silniční válec.\n",
+        "en": "Trucks tip hot asphalt into the front of the paver.\nThe paver spreads it out behind itself in an even layer as it moves slowly forward.\nA road roller usually follows right behind it.\n"
+      }
+    },
+    {
+      "key": "machine.motor_grader",
+      "image": "machine.motor_grader.webp",
+      "label": {
+        "cs": "grejdr",
+        "en": "grader"
+      },
+      "summary": {
+        "cs": "Dlouhý stroj s radlicí pod břichem, který srovnává cesty.",
+        "en": "A long machine with a blade under its belly that levels roads."
+      },
+      "info": {
+        "cs": "Grejdr má dlouhou radlici vespod, mezi předními a zadními koly.\nRadlice se umí naklonit i natočit, takže srovná zem do roviny nebo do mírného sklonu.\nGrejdry srovnávají štěrkové cesty a připravují zem pro stavbu nové silnice.\n",
+        "en": "A grader has a long blade underneath, between its front and back wheels.\nThe blade can tilt and turn, so it can make the ground perfectly flat or slightly sloped.\nGraders level gravel roads and prepare the ground before a new road is built.\n"
+      }
+    },
+    {
+      "key": "machine.forklift",
+      "image": "machine.forklift.webp",
+      "label": {
+        "cs": "vysokozdvižný vozík",
+        "en": "forklift"
+      },
+      "summary": {
+        "cs": "Malý vozík, který zvedá náklad na dvou vidlích.",
+        "en": "A small truck that lifts loads on two forks."
+      },
+      "info": {
+        "cs": "Vysokozdvižný vozík zasune dvě vidle pod paletu a zvedne ji.\nPracuje ve skladech, továrnách a obchodech.\nTěžké závaží vzadu ho drží, aby se s nákladem nepřevrátil dopředu.\n",
+        "en": "A forklift slides its two forks under a pallet and lifts it up.\nIt works in warehouses, factories and shops.\nA heavy weight at the back keeps it from tipping forward under the load.\n"
+      }
+    },
+    {
+      "key": "machine.telehandler",
+      "image": "machine.telehandler.webp",
+      "label": {
+        "cs": "teleskopický manipulátor",
+        "en": "telehandler"
+      },
+      "summary": {
+        "cs": "Nakladač s dlouhým ramenem, které se vysouvá do výšky.",
+        "en": "A loader with a long arm that slides out to lift things high."
+      },
+      "info": {
+        "cs": "Teleskopický manipulátor je jako vysokozdvižný vozík s dlouhým vysouvacím ramenem.\nZvedne paletu cihel až na střechu nebo daleko dovnitř stavby.\nPoužívá se na stavbách i na farmách, kde zvedá balíky sena.\n",
+        "en": "A telehandler is like a forklift with a long telescopic arm.\nIt can lift a pallet of bricks onto a roof or far into a building.\nIt is used on building sites and farms, where it lifts hay bales.\n"
+      }
+    },
+    {
+      "key": "machine.boom_lift",
+      "image": "machine.boom_lift.webp",
+      "label": {
+        "cs": "pracovní plošina",
+        "en": "boom lift"
+      },
+      "summary": {
+        "cs": "Stroj, který vyveze dělníky vysoko v koši.",
+        "en": "A machine that lifts workers high up in a basket."
+      },
+      "info": {
+        "cs": "Pracovní plošina zvedne malý koš se zábradlím vysoko do vzduchu.\nDělníci v něm stojí, když natírají zdi, opravují světla nebo řežou větve.\nJejí kloubové rameno dosáhne nahoru i přes překážky.\n",
+        "en": "A boom lift raises a small platform with a railing high into the air.\nWorkers stand in it to paint walls, mend lights or cut branches.\nIts jointed arm can reach up and also over obstacles.\n"
+      }
+    },
+    {
+      "key": "machine.scissor_lift",
+      "image": "machine.scissor_lift.webp",
+      "label": {
+        "cs": "nůžková plošina",
+        "en": "scissor lift"
+      },
+      "summary": {
+        "cs": "Plošina, která jede rovně nahoru na zkřížených podpěrách.",
+        "en": "A platform that rises straight up on criss-cross supports."
+      },
+      "info": {
+        "cs": "Nůžková plošina má zkřížené kovové podpěry, které se rozevírají jako nůžky.\nKdyž se rozevřou, plošina nahoře vyjede rovně vzhůru.\nDělníci ji používají v halách a skladech, aby dosáhli ke stropu.\n",
+        "en": "A scissor lift has crossed metal supports that open like scissors.\nAs they open, the platform on top rises straight up.\nWorkers use it in halls and warehouses to reach the ceiling.\n"
+      }
+    },
+    {
+      "key": "machine.demolition_breaker",
+      "image": "machine.demolition_breaker.webp",
+      "label": {
+        "cs": "bourací kladivo",
+        "en": "hydraulic breaker"
+      },
+      "summary": {
+        "cs": "Bagr, který má místo lžíce kladivo a rozbíjí beton.",
+        "en": "An excavator with a hammer instead of a bucket that breaks concrete."
+      },
+      "info": {
+        "cs": "Bourací kladivo je obří kladivo připevněné na rameno bagru.\nBuší do betonu a skály mnohokrát za sekundu, dokud nepraskne.\nPomáhá bourat staré domy a lámat kámen v lomech.\n",
+        "en": "A hydraulic breaker is a huge hammer fixed to the arm of an excavator.\nIt hits concrete and rock many times a second until they crack.\nIt helps knock down old buildings and break rock in quarries.\n"
+      }
+    },
+    {
+      "key": "machine.pile_driver",
+      "image": "machine.pile_driver.webp",
+      "label": {
+        "cs": "beranidlo",
+        "en": "pile driver"
+      },
+      "summary": {
+        "cs": "Stroj, který zatlouká dlouhé sloupy hluboko do země.",
+        "en": "A machine that hammers long posts deep into the ground."
+      },
+      "info": {
+        "cs": "Beranidlo zatlouká nebo zatlačuje do země dlouhé ocelové nebo betonové sloupy, kterým se říká piloty.\nPiloty drží domy a mosty tam, kde je měkká půda.\nVysoký stožár drží pilotu úplně rovně.\n",
+        "en": "A pile driver pushes or hammers long steel or concrete posts, called piles, into the ground.\nThe piles hold up buildings and bridges where the ground is soft.\nIt has a tall mast that keeps the pile perfectly straight.\n"
+      }
+    },
+    {
+      "key": "machine.drilling_rig",
+      "image": "machine.drilling_rig.webp",
+      "label": {
+        "cs": "vrtná souprava",
+        "en": "drilling rig"
+      },
+      "summary": {
+        "cs": "Stroj na pásech, který vrtá hluboké díry do země.",
+        "en": "A machine on tracks that drills deep holes in the ground."
+      },
+      "info": {
+        "cs": "Vrtná souprava otáčí dlouhým spirálovým vrtákem, který vyvrtá hlubokou díru.\nHlína vyjíždí nahoru po spirále a hromadí se kolem díry.\nDíry se pak vyplní betonem a vzniknou z nich pevné základy.\n",
+        "en": "A drilling rig turns a long spiral drill that bores a deep hole.\nThe soil comes up along the spiral and piles up around the hole.\nThe holes are filled with concrete to make strong foundations.\n"
+      }
+    },
+    {
+      "key": "machine.tunnel_boring_machine",
+      "image": "machine.tunnel_boring_machine.webp",
+      "label": {
+        "cs": "tunelovací stroj",
+        "en": "tunnel boring machine"
+      },
+      "summary": {
+        "cs": "Obří kulatý stroj, který kope tunely pod zemí.",
+        "en": "A giant round machine that digs tunnels under the ground."
+      },
+      "info": {
+        "cs": "Vpředu má tunelovací stroj obrovské kulaté kolo s řeznými disky, které se pomalu točí a drtí skálu.\nZa sebou stroj obkládá stěny tunelu betonovými díly.\nTunelovací stroje často dostávají ženská jména.\n",
+        "en": "The front of a tunnel boring machine is a huge round wheel with cutting discs that slowly turns and grinds through rock.\nBehind it the machine lines the tunnel walls with concrete pieces.\nTunnel boring machines are often given girls' names.\n"
+      }
+    },
+    {
+      "key": "machine.cold_planer",
+      "image": "machine.cold_planer.webp",
+      "label": {
+        "cs": "silniční fréza",
+        "en": "road milling machine"
+      },
+      "summary": {
+        "cs": "Stroj, který odfrézuje starý, opotřebovaný asfalt.",
+        "en": "A machine that grinds off old, worn-out asphalt."
+      },
+      "info": {
+        "cs": "Silniční fréza má vespod rychle se točící válec s ostrými zuby.\nObrousí vrchní vrstvu staré silnice a pás naloží kousky do nákladního auta.\nStarý asfalt se dá znovu použít v nové silnici.\n",
+        "en": "A road milling machine has a spinning drum with sharp teeth underneath.\nIt grinds off the top layer of an old road, and a conveyor belt loads the pieces into a truck.\nThe old asphalt can be used again in a new road.\n"
+      }
+    },
+    {
+      "key": "machine.plate_compactor",
+      "image": "machine.plate_compactor.webp",
+      "label": {
+        "cs": "vibrační deska",
+        "en": "plate compactor"
+      },
+      "summary": {
+        "cs": "Malá třesoucí se deska, kterou dělník tlačí, aby zhutnil zem.",
+        "en": "A small shaking plate that a worker pushes to pack down the ground."
+      },
+      "info": {
+        "cs": "Vibrační deska má těžkou ocelovou desku, která se velmi rychle třese.\nDělník jde za ní a řídí ji držadlem.\nZhutňuje písek a štěrk pod cestičkami, terasami a chodníky.\n",
+        "en": "A plate compactor has a heavy steel plate that shakes very fast.\nA worker walks behind it and steers it by the handle.\nIt packs down sand and gravel under paths, patios and pavements.\n"
+      }
+    },
+    {
+      "key": "machine.sheepsfoot_roller",
+      "image": "machine.sheepsfoot_roller.webp",
+      "label": {
+        "cs": "ježkový válec",
+        "en": "padfoot roller"
+      },
+      "summary": {
+        "cs": "Válec s hrbolatým bubnem, který zhutňuje zeminu.",
+        "en": "A roller with a bumpy drum that packs down soil."
+      },
+      "info": {
+        "cs": "Buben ježkového válce je pokrytý výstupky.\nVýstupky se zaboří hluboko do zeminy a zhutní ji líp než hladký válec.\nPoužívá se na hlínu a jíl, třeba pod nové silnice nebo na hráze.\n",
+        "en": "The drum of a padfoot roller is covered with blocks, called pads.\nThe pads push deep into the soil and pack it down better than a smooth drum.\nIt is used on earth and clay, for example under new roads or for dams.\n"
+      }
+    },
+    {
+      "key": "machine.bucket_wheel_excavator",
+      "image": "machine.bucket_wheel_excavator.webp",
+      "label": {
+        "cs": "kolesové rypadlo",
+        "en": "bucket wheel excavator"
+      },
+      "summary": {
+        "cs": "Gigantický stroj s otáčejícím se kolem plným korečků.",
+        "en": "A gigantic machine with a spinning wheel full of buckets."
+      },
+      "info": {
+        "cs": "Kolesové rypadlo těží uhlí a zeminu ve velkých povrchových dolech.\nNa konci jeho ramene se točí velké kolo s korečky a plní dlouhý pásový dopravník.\nTa největší jsou dlouhá přes 200 metrů a patří k největším strojům na souši.\n",
+        "en": "A bucket wheel excavator digs coal and soil in huge open-pit mines.\nA big wheel with buckets turns at the end of its arm and fills a long conveyor belt.\nThe biggest ones are more than 200 metres long, which makes them some of the largest machines on land.\n"
+      }
+    },
+    {
+      "key": "machine.loader_crane_truck",
+      "image": "machine.loader_crane_truck.webp",
+      "label": {
+        "cs": "auto s hydraulickou rukou",
+        "en": "truck with a crane"
+      },
+      "summary": {
+        "cs": "Nákladní auto se skládacím ramenem, které nakládá a vykládá náklad.",
+        "en": "A truck with a folding arm that lifts loads on and off."
+      },
+      "info": {
+        "cs": "Auto s hydraulickou rukou má za kabinou vlastní skládací rameno.\nVyloží cihly, trubky nebo palety bez pomoci jiného stroje.\nNež začne zvedat, vysune do stran nohy, aby stálo pevně.\n",
+        "en": "A truck with a crane carries its own folding hydraulic arm behind the cab.\nIt can unload bricks, pipes or pallets without any other machine.\nBefore it lifts, it puts legs out on the sides so it stays steady.\n"
+      }
+    }
+  ]
+}

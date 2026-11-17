@@ -1,0 +1,214 @@
+lang: cs
+pivot: false
+title: Slavná auta
+cards:
+  car.ford_model_t:
+    label: Ford Model T
+    summary: Auto, díky kterému si mohly vůz koupit i obyčejné rodiny.
+    info: |
+      Ford Model T se vyráběl v USA od roku 1908 do roku 1927.
+      Stavěl se na pohyblivé výrobní lince, a proto byl levný. Vyrobilo se ho přes 15 milionů.
+      Dlouhá léta se dal koupit jen v černé barvě.
+  car.vw_beetle:
+    label: Volkswagen Brouk
+    summary: Malé kulaté auto, které lidé pojmenovali podle brouka.
+    info: |
+      Volkswagen Brouk pochází z Německa a vyráběl se od roku 1938 do roku 2003.
+      Vyrobilo se ho přes 21 milionů, víc než jakéhokoli jiného auta stejné konstrukce.
+      Motor má vzadu, pod zadní kapotou.
+  car.vw_bus:
+    label: Volkswagen Transporter
+    summary: Přátelská dodávka pro rodiny, surfaře a výlety pod stan.
+    info: |
+      Volkswagen Typ 2 pochází z Německa a poprvé se vyráběl v roce 1950.
+      První verze měly přední sklo rozdělené na dvě poloviny a vepředu velké V.
+      Spousta lidí si z něj udělala malý domeček na kolech na cestování.
+  car.jeep_willys:
+    label: Jeep Willys
+    summary: Malé odolné vojenské auto, které projelo skoro všude.
+    info: |
+      Willys MB se vyráběl v USA za druhé světové války, od roku 1941 do roku 1945.
+      Postavily se jich stovky tisíc, aby vozily vojáky po nerovném terénu.
+      Podle něj dostala jméno všechna pozdější auta Jeep.
+  car.land_rover_defender:
+    label: Land Rover Defender
+    summary: Hranaté britské auto stavěné na jízdu přes pole a bláto.
+    info: |
+      Land Rover pochází z Velké Británie, první vznikl v roce 1948.
+      Od roku 1990 se jmenoval Defender a vyráběl se až do roku 2016.
+      Jezdili s ním farmáři, cestovatelé i záchranáři po celém světě.
+  car.mini_cooper:
+    label: Mini Cooper
+    summary: Malinké britské auto, které bylo nečekaně rychlé.
+    info: |
+      Mini pochází z Velké Británie a vyrábělo se od roku 1959 do roku 2000.
+      Motor má uložený napříč, takže se do krátkého auta vejdou čtyři lidé.
+      Mini Cooper S vyhrálo v roce 1964 slavnou Rallye Monte Carlo.
+  car.fiat_500:
+    label: Fiat 500
+    summary: Malinké italské auto do úzkých městských uliček.
+    info: |
+      Fiat 500 pochází z Itálie a vyráběl se od roku 1957 do roku 1975.
+      Je kratší než 3 metry, takže zaparkuje skoro všude.
+      Italové mu říkají „Cinquecento“, což znamená „pět set“.
+  car.citroen_2cv:
+    label: Citroën 2CV
+    summary: Jednoduché francouzské auto se střechou, kterou jde srolovat.
+    info: |
+      Citroën 2CV pochází z Francie a vyráběl se od roku 1948 do roku 1990.
+      Vznikl proto, aby vozil zemědělce a jejich náklad po hrbolatých venkovských cestách.
+      Jeho měkká plátěná střecha se roluje dozadu jako víčko od sardinek.
+  car.citroen_ds:
+    label: Citroën DS
+    summary: Hladké francouzské auto, které vypadalo jako z budoucnosti.
+    info: |
+      Citroën DS pochází z Francie a vyráběl se od roku 1955 do roku 1975.
+      Díky zvláštnímu odpružení se po nastartování zvedne a po vypnutí zase klesne.
+      Francouzsky zní „DS“ stejně jako slovo „bohyně“.
+  car.mercedes_300sl:
+    label: Mercedes-Benz 300 SL
+    summary: Stříbrné sportovní auto s dveřmi, které se otevírají nahoru jako křídla.
+    info: |
+      Mercedes-Benz 300 SL pochází z Německa, kupé se vyrábělo od roku 1954 do roku 1957.
+      Dveře se otevírají nahoru, proto se mu říká „Gullwing“, tedy racčí křídlo.
+      Ve své době patřil k nejrychlejším autům, jaká se dala koupit.
+  car.jaguar_e_type:
+    label: Jaguar E-Type
+    summary: Dlouhé elegantní britské sportovní auto.
+    info: |
+      Jaguar E-Type pochází z Velké Británie a vyráběl se od roku 1961 do roku 1975.
+      Má hodně dlouhou kapotu a pod ní velký motor.
+      Mnoho lidí o něm říká, že je to jedno z nejkrásnějších aut, jaká kdy vznikla.
+  car.aston_martin_db5:
+    label: Aston Martin DB5
+    summary: Elegantní britské auto špiona Jamese Bonda.
+    info: |
+      Aston Martin DB5 pochází z Velké Británie a vyráběl se od roku 1963 do roku 1965.
+      Světově proslul v bondovce „Goldfinger“ z roku 1964.
+      Vyrobilo se ho jen asi tisíc kusů.
+  car.shelby_cobra:
+    label: Shelby Cobra
+    summary: Malé otevřené auto s obrovským a hlučným motorem.
+    info: |
+      Shelby Cobru stavěl v 60. letech americký závodník Carroll Shelby.
+      Vzal lehké britské sportovní auto a dal do něj velký americký motor Ford.
+      Vyhrála spoustu závodů a lidé ji kopírují dodnes.
+  car.ford_mustang:
+    label: Ford Mustang
+    summary: Sportovní americké auto pojmenované po divokém koni.
+    info: |
+      Ford Mustang pochází z USA a prodávat se začal v roce 1964.
+      Byl tak oblíbený, že se podle něj celé skupině podobných aut říká „pony cars“.
+      Mustang se vyrábí dodnes.
+  car.corvette_c2:
+    label: Corvette Sting Ray
+    summary: Americké sportovní auto se zadním oknem rozděleným na dvě části.
+    info: |
+      Chevrolet Corvette Sting Ray pochází z USA.
+      Zadní okno rozdělené na dvě poloviny mělo jen kupé z roku 1963.
+      Karoserii má ze skelného laminátu, ne z oceli.
+  car.cadillac_eldorado:
+    label: Cadillac Eldorado
+    summary: Obrovské americké auto s největšími ocasními ploutvemi všech dob.
+    info: |
+      Cadillac Eldorado z roku 1959 pochází z USA.
+      Jeho vysoké ploutve vzadu, tvarované jako u rakety, patří k nejvyšším, jaké kdy auto mělo.
+      Je dlouhý víc než 5 a půl metru.
+  car.chevrolet_bel_air:
+    label: Chevrolet Bel Air
+    summary: Lesklé americké auto z 50. let s chromem a malými ploutvemi.
+    info: |
+      Chevrolet Bel Air z roku 1957 pochází z USA.
+      Dvoubarevným lakem a spoustou chromu se stal symbolem Ameriky 50. let.
+      Na Kubě jich spousta jezdí po ulicích dodnes.
+  car.ford_gt40:
+    label: Ford GT40
+    summary: Hodně nízké americké závodní auto, které porazilo Ferrari.
+    info: |
+      Ford GT40 vznikl v 60. letech, aby vyhrál 24hodinový závod v Le Mans.
+      Le Mans vyhrál čtyřikrát za sebou, od roku 1966 do roku 1969.
+      Jmenuje se GT40, protože je vysoký jen asi 40 palců (1 metr).
+  car.porsche_911_classic:
+    label: Porsche 911 Carrera RS
+    summary: Klasické německé sportovní auto s malým spoilerem jako kachní ocásek.
+    info: |
+      Porsche 911 pochází z Německa, první se vyrobilo v roce 1964.
+      Carrera RS z roku 1973 byla lehká a rychlá verze postavená na závody.
+      Její malý zadní spoiler připomíná kachní ocas.
+  car.porsche_911_modern:
+    label: Porsche 911
+    summary: Moderní verze sportovního auta, které si drží svůj tvar už 60 let.
+    info: |
+      Porsche 911 pochází z Německa a tahle verze vyjela v roce 2019.
+      Pořád má kulatá světla a motor vzadu, stejně jako první 911.
+      Patří k nejdéle vyráběným řadám sportovních aut na světě.
+  car.lamborghini_countach:
+    label: Lamborghini Countach
+    summary: Ploché ostré italské superauto s dveřmi, které se otevírají nahoru.
+    info: |
+      Lamborghini Countach pochází z Itálie a vyrábělo se od roku 1974 do roku 1990.
+      Dveře se vyklápějí nahoru a dopředu, podobně jako nůžky.
+      Spousta dětí měla jeho plakát na zdi v pokojíčku.
+  car.ferrari_testarossa:
+    label: Ferrari Testarossa
+    summary: Široké červené italské sportovní auto s žebrováním na bocích.
+    info: |
+      Ferrari Testarossa pochází z Itálie a poprvé se vyrábělo v roce 1984.
+      „Testarossa“ znamená italsky „červená hlava“, protože vršek motoru je natřený načerveno.
+      Dlouhá žebra na bocích pouštějí dovnitř vzduch, který chladí motor.
+  car.ferrari_f40:
+    label: Ferrari F40
+    summary: Červené italské superauto s velkým křídlem vzadu.
+    info: |
+      Ferrari F40 pochází z Itálie a vyrábělo se od roku 1987 do roku 1992.
+      Vzniklo ke 40. narozeninám firmy Ferrari, odtud jeho jméno.
+      Bylo jedním z prvních silničních aut, která jela rychleji než 320 km/h.
+  car.delorean:
+    label: DeLorean
+    summary: Lesklé ocelové auto, které se ve filmu stalo strojem času.
+    info: |
+      DeLorean DMC-12 se vyráběl v Severním Irsku v letech 1981 a 1982.
+      Karoserie je z holé nerezové oceli bez laku a dveře se otevírají nahoru.
+      Proslavil se jako stroj času ve filmu „Návrat do budoucnosti“.
+  car.london_taxi:
+    label: Londýnské taxi
+    summary: Slavný černý taxík, který vozí lidi po Londýně.
+    info: |
+      Austin FX4 pochází z Velké Británie a vyráběl se od roku 1958 do roku 1997.
+      Otočí se na hodně malém kruhu, což pomáhá v úzkých londýnských ulicích.
+      Vysokou střechu má proto, aby se v něm dalo sedět i s kloboukem na hlavě.
+  car.toyota_land_cruiser:
+    label: Toyota Land Cruiser
+    summary: Odolné japonské auto, které projede pouští i džunglí.
+    info: |
+      Toyota Land Cruiser FJ40 pochází z Japonska a vyráběla se od roku 1960 do roku 1984.
+      Prodávala se po celém světě a je známá tím, že se jen tak nerozbije.
+      Spousta z nich dodnes jezdí po rozbitých cestách.
+  car.mazda_mx5:
+    label: Mazda MX-5
+    summary: Malé veselé japonské dvousedadlové auto s vyklápěcími světly.
+    info: |
+      Mazda MX-5 pochází z Japonska a prodávat se začala v roce 1989.
+      První verze měla světla, která se vyklápějí z kapoty.
+      Je to nejprodávanější dvousedadlové sportovní auto na světě.
+  car.trabant:
+    label: Trabant
+    summary: Malé východoněmecké auto s karoserií zčásti z plastu.
+    info: |
+      Trabant pochází z Východního Německa a vyráběl se od roku 1957 do roku 1991.
+      Karoserii měl místo z oceli z tvrdého plastu smíchaného s bavlněnými vlákny.
+      Lidé na něj často museli čekat mnoho let.
+  car.bugatti_veyron:
+    label: Bugatti Veyron
+    summary: Neuvěřitelně rychlé auto, které jede přes 400 km/h.
+    info: |
+      Bugatti Veyron pochází z Francie a vyrábělo se od roku 2005 do roku 2015.
+      Jeho motor má 16 válců a víc než 1 000 koní.
+      Když vyjelo, bylo to nejrychlejší silniční auto na světě.
+  car.tesla_model_s:
+    label: Tesla Model S
+    summary: Rychlé americké auto, které jezdí na elektřinu místo benzinu.
+    info: |
+      Tesla Model S pochází z USA a prodávat se začala v roce 2012.
+      Jezdí na velké baterie pod podlahou, takže nemá výfuk.
+      Protože vepředu nemá motor, má tam druhý kufr.

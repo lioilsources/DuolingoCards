@@ -36,6 +36,9 @@ class AppLocalizationsPt extends AppLocalizations {
   String get badgePurchased => 'Comprado';
 
   @override
+  String get badgeNew => 'Novo';
+
+  @override
   String get badgePaidDeck => 'Baralho pago';
 
   @override
@@ -475,6 +478,9 @@ class AppLocalizationsPtPt extends AppLocalizationsPt {
 
   @override
   String get badgePurchased => 'Comprado';
+
+  @override
+  String get badgeNew => 'Novo';
 
   @override
   String get badgePaidDeck => 'Baralho pago';

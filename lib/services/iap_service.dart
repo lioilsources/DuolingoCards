@@ -15,6 +15,10 @@ abstract interface class PurchaseBackend {
   bool get isAvailable;
   Future<void> initialize();
 
+  /// Every SKU reported owned (purchased or restored) since launch, so a
+  /// product the catalog learns about later can still be credited.
+  Set<String> get ownedSkus;
+
   /// Query store metadata. An id the store does not return has no price.
   Future<void> loadProducts(Set<String> skus);
 
@@ -52,6 +56,7 @@ class IAPService implements PurchaseBackend {
 
   @override
   bool get isAvailable => _isAvailable;
+  @override
   Set<String> get ownedSkus => Set.unmodifiable(_ownedSkus);
 
   @override

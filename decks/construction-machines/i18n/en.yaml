@@ -1,0 +1,214 @@
+lang: en
+pivot: true
+title: Construction Machines
+cards:
+  machine.excavator:
+    label: excavator
+    summary: A digging machine with a long arm and a bucket full of teeth.
+    info: |
+      An excavator runs on tracks, so it does not sink into soft mud.
+      The whole top part with the cab and the arm can turn all the way round.
+      The arm is moved by hydraulics: oil pushed through pipes under high pressure.
+  machine.mini_excavator:
+    label: mini excavator
+    summary: A small digger that fits through a garden gate.
+    info: |
+      A mini excavator digs where a big one would not fit, such as gardens, yards and narrow streets.
+      It usually runs on rubber tracks, so it does not damage paved ground.
+      The small blade at the front pushes soil back into the hole.
+  machine.backhoe_loader:
+    label: backhoe loader
+    summary: A tractor with a scoop at the front and a digging arm at the back.
+    info: |
+      A backhoe loader is two machines in one: a loader in front and an excavator behind.
+      The driver turns the seat round to work with the back arm.
+      It runs on wheels, so it can drive along roads from one job to the next.
+  machine.wheel_loader:
+    label: wheel loader
+    summary: A machine with huge tyres that scoops and carries sand and gravel.
+    info: |
+      A wheel loader fills its big front bucket and tips it into trucks.
+      Its body bends in the middle, which lets it turn in tight spaces.
+      The largest wheel loaders have tyres taller than a grown-up.
+  machine.bulldozer:
+    label: bulldozer
+    summary: A strong machine on tracks that pushes earth with a wide blade.
+    info: |
+      A bulldozer pushes soil, rocks and sand with the steel blade at its front.
+      The claw at the back, called a ripper, breaks up hard ground.
+      Its wide tracks spread its weight, so it can drive over loose earth.
+  machine.skid_steer:
+    label: skid steer loader
+    summary: A small box-shaped loader that can turn on the spot.
+    info: |
+      A skid steer loader turns by spinning its wheels on one side faster than on the other.
+      That lets it spin round on the spot, almost like a tank.
+      Instead of the bucket it can carry many other tools, such as forks, brushes or a drill.
+  machine.dump_truck:
+    label: dump truck
+    summary: A truck that tips its load out of the back.
+    info: |
+      A dump truck carries sand, gravel or earth in a steel box called a tipper.
+      Hydraulic pistons lift the front of the box, and the load slides out at the back.
+      Then the box drops down again and the truck drives off for more.
+  machine.articulated_hauler:
+    label: articulated dump truck
+    summary: A rough-ground dump truck that bends in the middle.
+    info: |
+      An articulated dump truck has two parts joined by a pivot, so it bends in the middle.
+      This helps it drive through mud and over bumps where an ordinary truck would get stuck.
+      It is built for building sites and quarries, not for roads.
+  machine.mining_truck:
+    label: mining dump truck
+    summary: A giant dump truck that works in huge open-pit mines.
+    info: |
+      Mining dump trucks are some of the biggest trucks in the world.
+      Their tyres are taller than a grown-up, and the driver climbs a ladder to the cab.
+      The largest ones can carry more than 400 tonnes of rock at once.
+  machine.concrete_mixer:
+    label: concrete mixer truck
+    summary: A truck with a big drum that keeps turning.
+    info: |
+      A concrete mixer truck brings fresh concrete to a building site.
+      The drum keeps turning on the way, so the concrete does not set inside it.
+      When the drum turns the other way, the concrete pours out down the chute.
+  machine.concrete_pump:
+    label: concrete pump
+    summary: A truck with a long folding arm that pours concrete high up.
+    info: |
+      A concrete pump pushes wet concrete through a pipe along its long arm.
+      The arm unfolds like a giant finger and reaches the upper floors of a building.
+      Steel legs on the sides keep the truck from tipping over.
+  machine.tower_crane:
+    label: tower crane
+    summary: A tall crane that stands over a building site.
+    info: |
+      A tower crane lifts heavy loads such as steel beams and concrete to the top of a building.
+      The operator climbs up inside the tower to a small cab at the top.
+      Heavy concrete blocks on the short arm balance the load on the long arm.
+  machine.mobile_crane:
+    label: mobile crane
+    summary: A crane on a truck with an arm that slides out longer and longer.
+    info: |
+      A mobile crane drives to the building site on its own wheels.
+      Its arm is telescopic: it slides out like a telescope to become much longer.
+      Before lifting, it puts strong legs out on both sides so it does not tip over.
+  machine.crawler_crane:
+    label: crawler crane
+    summary: A very strong crane on tracks with a tall frame-shaped arm.
+    info: |
+      A crawler crane stands on tracks, which spread its huge weight over the ground.
+      Its long arm is made of steel lattice, light but very strong.
+      Large crawler cranes lift parts of bridges and wind turbines.
+  machine.road_roller:
+    label: road roller
+    summary: A heavy machine with smooth steel drums that flattens asphalt.
+    info: |
+      A road roller drives slowly over fresh asphalt and presses it flat and hard.
+      Its steel drums can shake very fast, which packs the road down even better.
+      Water is sprayed on the drums so the hot asphalt does not stick to them.
+  machine.asphalt_paver:
+    label: asphalt paver
+    summary: A machine that lays a new layer of road.
+    info: |
+      Trucks tip hot asphalt into the front of the paver.
+      The paver spreads it out behind itself in an even layer as it moves slowly forward.
+      A road roller usually follows right behind it.
+  machine.motor_grader:
+    label: grader
+    summary: A long machine with a blade under its belly that levels roads.
+    info: |
+      A grader has a long blade underneath, between its front and back wheels.
+      The blade can tilt and turn, so it can make the ground perfectly flat or slightly sloped.
+      Graders level gravel roads and prepare the ground before a new road is built.
+  machine.forklift:
+    label: forklift
+    summary: A small truck that lifts loads on two forks.
+    info: |
+      A forklift slides its two forks under a pallet and lifts it up.
+      It works in warehouses, factories and shops.
+      A heavy weight at the back keeps it from tipping forward under the load.
+  machine.telehandler:
+    label: telehandler
+    summary: A loader with a long arm that slides out to lift things high.
+    info: |
+      A telehandler is like a forklift with a long telescopic arm.
+      It can lift a pallet of bricks onto a roof or far into a building.
+      It is used on building sites and farms, where it lifts hay bales.
+  machine.boom_lift:
+    label: boom lift
+    summary: A machine that lifts workers high up in a basket.
+    info: |
+      A boom lift raises a small platform with a railing high into the air.
+      Workers stand in it to paint walls, mend lights or cut branches.
+      Its jointed arm can reach up and also over obstacles.
+  machine.scissor_lift:
+    label: scissor lift
+    summary: A platform that rises straight up on criss-cross supports.
+    info: |
+      A scissor lift has crossed metal supports that open like scissors.
+      As they open, the platform on top rises straight up.
+      Workers use it in halls and warehouses to reach the ceiling.
+  machine.demolition_breaker:
+    label: hydraulic breaker
+    summary: An excavator with a hammer instead of a bucket that breaks concrete.
+    info: |
+      A hydraulic breaker is a huge hammer fixed to the arm of an excavator.
+      It hits concrete and rock many times a second until they crack.
+      It helps knock down old buildings and break rock in quarries.
+  machine.pile_driver:
+    label: pile driver
+    summary: A machine that hammers long posts deep into the ground.
+    info: |
+      A pile driver pushes or hammers long steel or concrete posts, called piles, into the ground.
+      The piles hold up buildings and bridges where the ground is soft.
+      It has a tall mast that keeps the pile perfectly straight.
+  machine.drilling_rig:
+    label: drilling rig
+    summary: A machine on tracks that drills deep holes in the ground.
+    info: |
+      A drilling rig turns a long spiral drill that bores a deep hole.
+      The soil comes up along the spiral and piles up around the hole.
+      The holes are filled with concrete to make strong foundations.
+  machine.tunnel_boring_machine:
+    label: tunnel boring machine
+    summary: A giant round machine that digs tunnels under the ground.
+    info: |
+      The front of a tunnel boring machine is a huge round wheel with cutting discs that slowly turns and grinds through rock.
+      Behind it the machine lines the tunnel walls with concrete pieces.
+      Tunnel boring machines are often given girls' names.
+  machine.cold_planer:
+    label: road milling machine
+    summary: A machine that grinds off old, worn-out asphalt.
+    info: |
+      A road milling machine has a spinning drum with sharp teeth underneath.
+      It grinds off the top layer of an old road, and a conveyor belt loads the pieces into a truck.
+      The old asphalt can be used again in a new road.
+  machine.plate_compactor:
+    label: plate compactor
+    summary: A small shaking plate that a worker pushes to pack down the ground.
+    info: |
+      A plate compactor has a heavy steel plate that shakes very fast.
+      A worker walks behind it and steers it by the handle.
+      It packs down sand and gravel under paths, patios and pavements.
+  machine.sheepsfoot_roller:
+    label: padfoot roller
+    summary: A roller with a bumpy drum that packs down soil.
+    info: |
+      The drum of a padfoot roller is covered with blocks, called pads.
+      The pads push deep into the soil and pack it down better than a smooth drum.
+      It is used on earth and clay, for example under new roads or for dams.
+  machine.bucket_wheel_excavator:
+    label: bucket wheel excavator
+    summary: A gigantic machine with a spinning wheel full of buckets.
+    info: |
+      A bucket wheel excavator digs coal and soil in huge open-pit mines.
+      A big wheel with buckets turns at the end of its arm and fills a long conveyor belt.
+      The biggest ones are more than 200 metres long, which makes them some of the largest machines on land.
+  machine.loader_crane_truck:
+    label: truck with a crane
+    summary: A truck with a folding arm that lifts loads on and off.
+    info: |
+      A truck with a crane carries its own folding hydraulic arm behind the cab.
+      It can unload bricks, pipes or pallets without any other machine.
+      Before it lifts, it puts legs out on the sides so it stays steady.
