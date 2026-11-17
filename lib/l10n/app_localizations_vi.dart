@@ -380,6 +380,124 @@ class AppLocalizationsVi extends AppLocalizations {
   String get styleVanGoghDesc => 'Nét cọ xoáy hậu ấn tượng';
 
   @override
+  String get styleVectorFlat => 'Vector phẳng';
+
+  @override
+  String get styleVectorFlatDesc =>
+      'Hình phẳng sắc nét với đường viền gọn gàng';
+
+  @override
+  String get styleGouache => 'Màu bột';
+
+  @override
+  String get styleGouacheDesc => 'Màu đục, lì, sắc độ đậm';
+
+  @override
+  String get styleWatercolorWet => 'Màu nước loang';
+
+  @override
+  String get styleWatercolorWetDesc => 'Màu loang nhẹ trên giấy ướt';
+
+  @override
+  String get styleWatercolorInkLine => 'Mực và màu nước';
+
+  @override
+  String get styleWatercolorInkLineDesc => 'Nét mực mảnh cùng lớp màu nước nhẹ';
+
+  @override
+  String get styleEtching => 'Khắc axit';
+
+  @override
+  String get styleEtchingDesc => 'Nét khắc mảnh như bản in cổ';
+
+  @override
+  String get styleLinocut => 'Khắc lino';
+
+  @override
+  String get styleLinocutDesc => 'Hình khắc đậm in bằng ít màu';
+
+  @override
+  String get styleCrayon => 'Bút sáp';
+
+  @override
+  String get styleCrayonDesc => 'Nét bút sáp như tranh của trẻ em';
+
+  @override
+  String get styleLowPoly => 'Low poly';
+
+  @override
+  String get styleLowPolyDesc => 'Ghép từ các tam giác tô phẳng';
+
+  @override
+  String get styleClaymation => 'Đất nặn';
+
+  @override
+  String get styleClaymationDesc => 'Nặn từ đất sét mềm';
+
+  @override
+  String get styleStickerCollage => 'Cắt dán sticker';
+
+  @override
+  String get styleStickerCollageDesc => 'Sticker cắt rời có viền trắng';
+
+  @override
+  String get stylePressedFlowers => 'Hoa ép';
+
+  @override
+  String get stylePressedFlowersDesc => 'Làm từ cánh hoa và lá khô';
+
+  @override
+  String get stylePaperSculptureLayered => 'Giấy cắt lớp';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'Nhiều lớp giấy cắt với bóng đổ dịu';
+
+  @override
+  String get stylePolishPoster => 'Áp phích cổ điển';
+
+  @override
+  String get stylePolishPosterDesc => 'Nghệ thuật áp phích táo bạo giữa thế kỷ';
+
+  @override
+  String get styleChalkboard => 'Bảng đen';
+
+  @override
+  String get styleChalkboardDesc => 'Tranh vẽ phấn trên bảng tối';
+
+  @override
+  String get styleBlueprint => 'Bản vẽ kỹ thuật';
+
+  @override
+  String get styleBlueprintDesc => 'Nét kỹ thuật trắng trên nền xanh';
+
+  @override
+  String get styleIllumination => 'Sách chép tay minh họa';
+
+  @override
+  String get styleIlluminationDesc => 'Nghệ thuật sách trung cổ dát vàng';
+
+  @override
+  String get styleRackham => 'Mực truyện cổ tích';
+
+  @override
+  String get styleRackhamDesc =>
+      'Nét mực tinh tế và màu dịu như sách cổ tích xưa';
+
+  @override
+  String get styleMoebius => 'Nét truyện tranh';
+
+  @override
+  String get styleMoebiusDesc => 'Nét truyện tranh gọn và màu phẳng tươi sáng';
+
+  @override
+  String get styleHiroshige => 'Tranh khắc gỗ';
+
+  @override
+  String get styleHiroshigeDesc =>
+      'Phong cảnh Nhật Bản khắc gỗ với chuyển màu dịu';
+
+  @override
   String get langAr => 'Tiếng Ả Rập';
 
   @override

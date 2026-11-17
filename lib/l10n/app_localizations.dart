@@ -742,6 +742,234 @@ abstract class AppLocalizations {
   /// **'Post-impressionist swirling strokes'**
   String get styleVanGoghDesc;
 
+  /// No description provided for @styleVectorFlat.
+  ///
+  /// In en, this message translates to:
+  /// **'Flat vector'**
+  String get styleVectorFlat;
+
+  /// No description provided for @styleVectorFlatDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Crisp flat shapes with clean outlines'**
+  String get styleVectorFlatDesc;
+
+  /// No description provided for @styleGouache.
+  ///
+  /// In en, this message translates to:
+  /// **'Gouache'**
+  String get styleGouache;
+
+  /// No description provided for @styleGouacheDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Opaque matte paint in bold colours'**
+  String get styleGouacheDesc;
+
+  /// No description provided for @styleWatercolorWet.
+  ///
+  /// In en, this message translates to:
+  /// **'Wet watercolour'**
+  String get styleWatercolorWet;
+
+  /// No description provided for @styleWatercolorWetDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Colours bleeding softly into wet paper'**
+  String get styleWatercolorWetDesc;
+
+  /// No description provided for @styleWatercolorInkLine.
+  ///
+  /// In en, this message translates to:
+  /// **'Ink & watercolour'**
+  String get styleWatercolorInkLine;
+
+  /// No description provided for @styleWatercolorInkLineDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Fine ink lines with light colour washes'**
+  String get styleWatercolorInkLineDesc;
+
+  /// No description provided for @styleEtching.
+  ///
+  /// In en, this message translates to:
+  /// **'Etching'**
+  String get styleEtching;
+
+  /// No description provided for @styleEtchingDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Fine engraved lines, like an old print'**
+  String get styleEtchingDesc;
+
+  /// No description provided for @styleLinocut.
+  ///
+  /// In en, this message translates to:
+  /// **'Linocut'**
+  String get styleLinocut;
+
+  /// No description provided for @styleLinocutDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Bold carved shapes printed in few colours'**
+  String get styleLinocutDesc;
+
+  /// No description provided for @styleCrayon.
+  ///
+  /// In en, this message translates to:
+  /// **'Crayon'**
+  String get styleCrayon;
+
+  /// No description provided for @styleCrayonDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Waxy crayon strokes, like a child\'s drawing'**
+  String get styleCrayonDesc;
+
+  /// No description provided for @styleLowPoly.
+  ///
+  /// In en, this message translates to:
+  /// **'Low poly'**
+  String get styleLowPoly;
+
+  /// No description provided for @styleLowPolyDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Built from flat-shaded triangles'**
+  String get styleLowPolyDesc;
+
+  /// No description provided for @styleClaymation.
+  ///
+  /// In en, this message translates to:
+  /// **'Clay'**
+  String get styleClaymation;
+
+  /// No description provided for @styleClaymationDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Modelled from soft plasticine'**
+  String get styleClaymationDesc;
+
+  /// No description provided for @styleStickerCollage.
+  ///
+  /// In en, this message translates to:
+  /// **'Sticker collage'**
+  String get styleStickerCollage;
+
+  /// No description provided for @styleStickerCollageDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Cut-out stickers with white edges'**
+  String get styleStickerCollageDesc;
+
+  /// No description provided for @stylePressedFlowers.
+  ///
+  /// In en, this message translates to:
+  /// **'Pressed flowers'**
+  String get stylePressedFlowers;
+
+  /// No description provided for @stylePressedFlowersDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Made from dried petals and leaves'**
+  String get stylePressedFlowersDesc;
+
+  /// No description provided for @stylePaperSculptureLayered.
+  ///
+  /// In en, this message translates to:
+  /// **'Paper cut-out'**
+  String get stylePaperSculptureLayered;
+
+  /// No description provided for @stylePaperSculptureLayeredDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Layers of cut paper with soft shadows'**
+  String get stylePaperSculptureLayeredDesc;
+
+  /// No description provided for @stylePolishPoster.
+  ///
+  /// In en, this message translates to:
+  /// **'Retro poster'**
+  String get stylePolishPoster;
+
+  /// No description provided for @stylePolishPosterDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Bold mid-century poster art'**
+  String get stylePolishPosterDesc;
+
+  /// No description provided for @styleChalkboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Chalkboard'**
+  String get styleChalkboard;
+
+  /// No description provided for @styleChalkboardDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Chalk drawing on a dark board'**
+  String get styleChalkboardDesc;
+
+  /// No description provided for @styleBlueprint.
+  ///
+  /// In en, this message translates to:
+  /// **'Blueprint'**
+  String get styleBlueprint;
+
+  /// No description provided for @styleBlueprintDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'White technical lines on blue'**
+  String get styleBlueprintDesc;
+
+  /// No description provided for @styleIllumination.
+  ///
+  /// In en, this message translates to:
+  /// **'Illuminated manuscript'**
+  String get styleIllumination;
+
+  /// No description provided for @styleIlluminationDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Medieval book art with gold leaf'**
+  String get styleIlluminationDesc;
+
+  /// No description provided for @styleRackham.
+  ///
+  /// In en, this message translates to:
+  /// **'Fairy-tale ink & wash'**
+  String get styleRackham;
+
+  /// No description provided for @styleRackhamDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Delicate ink lines and muted washes from old fairy-tale books'**
+  String get styleRackhamDesc;
+
+  /// No description provided for @styleMoebius.
+  ///
+  /// In en, this message translates to:
+  /// **'Comic line art'**
+  String get styleMoebius;
+
+  /// No description provided for @styleMoebiusDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Clean comic lines and bright flat colours'**
+  String get styleMoebiusDesc;
+
+  /// No description provided for @styleHiroshige.
+  ///
+  /// In en, this message translates to:
+  /// **'Woodblock print'**
+  String get styleHiroshige;
+
+  /// No description provided for @styleHiroshigeDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Japanese landscape print with soft gradients'**
+  String get styleHiroshigeDesc;
+
   /// No description provided for @langAr.
   ///
   /// In en, this message translates to:

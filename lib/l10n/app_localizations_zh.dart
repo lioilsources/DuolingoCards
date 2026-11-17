@@ -373,6 +373,120 @@ class AppLocalizationsZh extends AppLocalizations {
   String get styleVanGoghDesc => '后印象派的旋转笔触';
 
   @override
+  String get styleVectorFlat => '扁平矢量';
+
+  @override
+  String get styleVectorFlatDesc => '轮廓干净、清晰的扁平图形';
+
+  @override
+  String get styleGouache => '水粉';
+
+  @override
+  String get styleGouacheDesc => '色彩浓烈的不透明哑光颜料';
+
+  @override
+  String get styleWatercolorWet => '湿画水彩';
+
+  @override
+  String get styleWatercolorWetDesc => '在湿纸上柔和晕开的色彩';
+
+  @override
+  String get styleWatercolorInkLine => '钢笔淡彩';
+
+  @override
+  String get styleWatercolorInkLineDesc => '纤细的墨线配上淡淡的水彩';
+
+  @override
+  String get styleEtching => '蚀刻版画';
+
+  @override
+  String get styleEtchingDesc => '像老版画一样的细腻刻线';
+
+  @override
+  String get styleLinocut => '麻胶版画';
+
+  @override
+  String get styleLinocutDesc => '用少量颜色印出的粗犷刻痕';
+
+  @override
+  String get styleCrayon => '蜡笔';
+
+  @override
+  String get styleCrayonDesc => '像孩子画作一样的蜡笔笔触';
+
+  @override
+  String get styleLowPoly => '低多边形';
+
+  @override
+  String get styleLowPolyDesc => '由平面三角形拼成';
+
+  @override
+  String get styleClaymation => '黏土';
+
+  @override
+  String get styleClaymationDesc => '用软黏土捏成';
+
+  @override
+  String get styleStickerCollage => '贴纸拼贴';
+
+  @override
+  String get styleStickerCollageDesc => '带白边的剪切贴纸';
+
+  @override
+  String get stylePressedFlowers => '压花';
+
+  @override
+  String get stylePressedFlowersDesc => '用干花瓣和叶子拼成';
+
+  @override
+  String get stylePaperSculptureLayered => '剪纸';
+
+  @override
+  String get stylePaperSculptureLayeredDesc => '层层叠叠的剪纸与柔和阴影';
+
+  @override
+  String get stylePolishPoster => '复古海报';
+
+  @override
+  String get stylePolishPosterDesc => '二十世纪中叶的大胆海报艺术';
+
+  @override
+  String get styleChalkboard => '黑板画';
+
+  @override
+  String get styleChalkboardDesc => '在深色黑板上的粉笔画';
+
+  @override
+  String get styleBlueprint => '蓝图';
+
+  @override
+  String get styleBlueprintDesc => '蓝底上的白色技术线条';
+
+  @override
+  String get styleIllumination => '泥金手抄本';
+
+  @override
+  String get styleIlluminationDesc => '饰以金箔的中世纪书籍艺术';
+
+  @override
+  String get styleRackham => '童话墨水淡彩';
+
+  @override
+  String get styleRackhamDesc => '像古老童话书一样的细腻墨线与柔和色调';
+
+  @override
+  String get styleMoebius => '漫画线稿';
+
+  @override
+  String get styleMoebiusDesc => '干净的漫画线条和明亮的平涂色彩';
+
+  @override
+  String get styleHiroshige => '木版画';
+
+  @override
+  String get styleHiroshigeDesc => '色彩渐变柔和的日本风景版画';
+
+  @override
   String get langAr => '阿拉伯语';
 
   @override
@@ -791,6 +905,120 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get styleVanGoghDesc => '後印象派的漩渦筆觸';
+
+  @override
+  String get styleVectorFlat => '扁平向量';
+
+  @override
+  String get styleVectorFlatDesc => '輪廓乾淨、清晰的扁平圖形';
+
+  @override
+  String get styleGouache => '不透明水彩';
+
+  @override
+  String get styleGouacheDesc => '色彩濃烈的霧面不透明顏料';
+
+  @override
+  String get styleWatercolorWet => '濕畫水彩';
+
+  @override
+  String get styleWatercolorWetDesc => '在濕紙上柔和暈開的色彩';
+
+  @override
+  String get styleWatercolorInkLine => '鋼筆淡彩';
+
+  @override
+  String get styleWatercolorInkLineDesc => '纖細的墨線搭配淡淡的水彩';
+
+  @override
+  String get styleEtching => '蝕刻版畫';
+
+  @override
+  String get styleEtchingDesc => '像老版畫一樣的細膩刻線';
+
+  @override
+  String get styleLinocut => '麻膠版畫';
+
+  @override
+  String get styleLinocutDesc => '用少量顏色印出的粗獷刻痕';
+
+  @override
+  String get styleCrayon => '蠟筆';
+
+  @override
+  String get styleCrayonDesc => '像孩子畫作一樣的蠟筆筆觸';
+
+  @override
+  String get styleLowPoly => '低多邊形';
+
+  @override
+  String get styleLowPolyDesc => '由平面三角形拼成';
+
+  @override
+  String get styleClaymation => '黏土';
+
+  @override
+  String get styleClaymationDesc => '用軟黏土捏成';
+
+  @override
+  String get styleStickerCollage => '貼紙拼貼';
+
+  @override
+  String get styleStickerCollageDesc => '帶白邊的剪切貼紙';
+
+  @override
+  String get stylePressedFlowers => '壓花';
+
+  @override
+  String get stylePressedFlowersDesc => '用乾燥花瓣和葉子拼成';
+
+  @override
+  String get stylePaperSculptureLayered => '剪紙';
+
+  @override
+  String get stylePaperSculptureLayeredDesc => '層層疊疊的剪紙與柔和陰影';
+
+  @override
+  String get stylePolishPoster => '復古海報';
+
+  @override
+  String get stylePolishPosterDesc => '二十世紀中葉的大膽海報藝術';
+
+  @override
+  String get styleChalkboard => '黑板畫';
+
+  @override
+  String get styleChalkboardDesc => '在深色黑板上的粉筆畫';
+
+  @override
+  String get styleBlueprint => '藍圖';
+
+  @override
+  String get styleBlueprintDesc => '藍底上的白色技術線條';
+
+  @override
+  String get styleIllumination => '泥金手抄本';
+
+  @override
+  String get styleIlluminationDesc => '飾以金箔的中世紀書籍藝術';
+
+  @override
+  String get styleRackham => '童話墨水淡彩';
+
+  @override
+  String get styleRackhamDesc => '像古老童話書一樣的細膩墨線與柔和色調';
+
+  @override
+  String get styleMoebius => '漫畫線稿';
+
+  @override
+  String get styleMoebiusDesc => '乾淨的漫畫線條和明亮的平塗色彩';
+
+  @override
+  String get styleHiroshige => '木刻版畫';
+
+  @override
+  String get styleHiroshigeDesc => '色彩漸層柔和的日本風景版畫';
 
   @override
   String get langAr => '阿拉伯文';

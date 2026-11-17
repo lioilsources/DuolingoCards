@@ -380,6 +380,122 @@ class AppLocalizationsHi extends AppLocalizations {
   String get styleVanGoghDesc => 'पोस्ट-इम्प्रेशनिस्ट घुमावदार स्ट्रोक';
 
   @override
+  String get styleVectorFlat => 'फ़्लैट वेक्टर';
+
+  @override
+  String get styleVectorFlatDesc => 'साफ़ रूपरेखा वाली स्पष्ट सपाट आकृतियाँ';
+
+  @override
+  String get styleGouache => 'गुआश';
+
+  @override
+  String get styleGouacheDesc => 'गाढ़े रंगों में अपारदर्शी, मैट पेंट';
+
+  @override
+  String get styleWatercolorWet => 'गीला जलरंग';
+
+  @override
+  String get styleWatercolorWetDesc => 'गीले कागज़ पर धीरे-धीरे फैलते रंग';
+
+  @override
+  String get styleWatercolorInkLine => 'स्याही और जलरंग';
+
+  @override
+  String get styleWatercolorInkLineDesc => 'बारीक स्याही रेखाएँ और हल्के जलरंग';
+
+  @override
+  String get styleEtching => 'एचिंग';
+
+  @override
+  String get styleEtchingDesc => 'पुराने प्रिंट जैसी बारीक उकेरी रेखाएँ';
+
+  @override
+  String get styleLinocut => 'लिनोकट';
+
+  @override
+  String get styleLinocutDesc => 'कम रंगों में छपी गहरी कटी आकृतियाँ';
+
+  @override
+  String get styleCrayon => 'क्रेयॉन';
+
+  @override
+  String get styleCrayonDesc => 'बच्चे की ड्राइंग जैसे क्रेयॉन स्ट्रोक';
+
+  @override
+  String get styleLowPoly => 'लो पॉली';
+
+  @override
+  String get styleLowPolyDesc => 'सपाट त्रिकोणों से बना';
+
+  @override
+  String get styleClaymation => 'क्ले';
+
+  @override
+  String get styleClaymationDesc => 'मुलायम क्ले से गढ़ा हुआ';
+
+  @override
+  String get styleStickerCollage => 'स्टिकर कोलाज';
+
+  @override
+  String get styleStickerCollageDesc => 'सफ़ेद किनारों वाले कटे हुए स्टिकर';
+
+  @override
+  String get stylePressedFlowers => 'दबाए हुए फूल';
+
+  @override
+  String get stylePressedFlowersDesc => 'सूखी पंखुड़ियों और पत्तियों से बना';
+
+  @override
+  String get stylePaperSculptureLayered => 'कटे कागज़ की कला';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'नरम छायाओं वाली कटे कागज़ की परतें';
+
+  @override
+  String get stylePolishPoster => 'रेट्रो पोस्टर';
+
+  @override
+  String get stylePolishPosterDesc => 'बीसवीं सदी के मध्य की बोल्ड पोस्टर कला';
+
+  @override
+  String get styleChalkboard => 'चॉकबोर्ड';
+
+  @override
+  String get styleChalkboardDesc => 'गहरे बोर्ड पर चॉक से बना चित्र';
+
+  @override
+  String get styleBlueprint => 'ब्लूप्रिंट';
+
+  @override
+  String get styleBlueprintDesc => 'नीले पर सफ़ेद तकनीकी रेखाएँ';
+
+  @override
+  String get styleIllumination => 'सचित्र पांडुलिपि';
+
+  @override
+  String get styleIlluminationDesc => 'सोने की पत्ती वाली मध्ययुगीन पुस्तक कला';
+
+  @override
+  String get styleRackham => 'परीकथा स्याही चित्र';
+
+  @override
+  String get styleRackhamDesc =>
+      'पुरानी परीकथा पुस्तकों जैसी नाज़ुक स्याही रेखाएँ और हल्के रंग';
+
+  @override
+  String get styleMoebius => 'कॉमिक रेखाचित्र';
+
+  @override
+  String get styleMoebiusDesc => 'साफ़ कॉमिक रेखाएँ और चमकीले सपाट रंग';
+
+  @override
+  String get styleHiroshige => 'काष्ठ छापा';
+
+  @override
+  String get styleHiroshigeDesc => 'हल्के रंग-ढाल वाला जापानी परिदृश्य प्रिंट';
+
+  @override
   String get langAr => 'अरबी';
 
   @override

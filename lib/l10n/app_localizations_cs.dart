@@ -383,6 +383,128 @@ class AppLocalizationsCs extends AppLocalizations {
   String get styleVanGoghDesc => 'Postimpresionistické vířivé tahy';
 
   @override
+  String get styleVectorFlat => 'Vektorová grafika';
+
+  @override
+  String get styleVectorFlatDesc => 'Čisté ploché tvary s ostrými obrysy';
+
+  @override
+  String get styleGouache => 'Kvaš';
+
+  @override
+  String get styleGouacheDesc => 'Krycí matná barva v sytých tónech';
+
+  @override
+  String get styleWatercolorWet => 'Akvarel do mokra';
+
+  @override
+  String get styleWatercolorWetDesc =>
+      'Barvy se jemně rozpíjejí v mokrém papíře';
+
+  @override
+  String get styleWatercolorInkLine => 'Tuš a akvarel';
+
+  @override
+  String get styleWatercolorInkLineDesc =>
+      'Jemná kresba tuší s lehkými akvarelovými tóny';
+
+  @override
+  String get styleEtching => 'Lept';
+
+  @override
+  String get styleEtchingDesc => 'Jemné ryté linie jako na staré grafice';
+
+  @override
+  String get styleLinocut => 'Linoryt';
+
+  @override
+  String get styleLinocutDesc =>
+      'Výrazné vyřezávané tvary tištěné v několika barvách';
+
+  @override
+  String get styleCrayon => 'Voskovky';
+
+  @override
+  String get styleCrayonDesc => 'Tahy voskovkami jako na dětském obrázku';
+
+  @override
+  String get styleLowPoly => 'Low poly';
+
+  @override
+  String get styleLowPolyDesc => 'Poskládané z plochých trojúhelníků';
+
+  @override
+  String get styleClaymation => 'Modelína';
+
+  @override
+  String get styleClaymationDesc => 'Jako vymodelované z měkké plastelíny';
+
+  @override
+  String get styleStickerCollage => 'Koláž ze samolepek';
+
+  @override
+  String get styleStickerCollageDesc => 'Vystřižené samolepky s bílým okrajem';
+
+  @override
+  String get stylePressedFlowers => 'Lisované květiny';
+
+  @override
+  String get stylePressedFlowersDesc =>
+      'Poskládané ze sušených okvětních lístků a listů';
+
+  @override
+  String get stylePaperSculptureLayered => 'Papírová vystřihovánka';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'Vrstvy vystřiženého papíru s jemnými stíny';
+
+  @override
+  String get stylePolishPoster => 'Retro plakát';
+
+  @override
+  String get stylePolishPosterDesc =>
+      'Výrazná plakátová grafika z poloviny 20. století';
+
+  @override
+  String get styleChalkboard => 'Křída na tabuli';
+
+  @override
+  String get styleChalkboardDesc => 'Kresba křídou na tmavé tabuli';
+
+  @override
+  String get styleBlueprint => 'Technický výkres';
+
+  @override
+  String get styleBlueprintDesc => 'Bílé technické linky na modrém podkladu';
+
+  @override
+  String get styleIllumination => 'Iluminovaný rukopis';
+
+  @override
+  String get styleIlluminationDesc => 'Středověká knižní malba se zlatem';
+
+  @override
+  String get styleRackham => 'Pohádková kresba tuší';
+
+  @override
+  String get styleRackhamDesc =>
+      'Jemné linky tuší a tlumené lavírování jako ve starých pohádkových knihách';
+
+  @override
+  String get styleMoebius => 'Komiksová kresba';
+
+  @override
+  String get styleMoebiusDesc => 'Čisté komiksové linky a ploché zářivé barvy';
+
+  @override
+  String get styleHiroshige => 'Dřevoryt';
+
+  @override
+  String get styleHiroshigeDesc =>
+      'Japonská krajina s jemnými barevnými přechody';
+
+  @override
   String get langAr => 'Arabština';
 
   @override

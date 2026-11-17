@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart' show Locale;
+import 'package:flutter/material.dart' show Icons, Locale;
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:duolingo_cards/l10n/app_localizations.dart';
@@ -121,6 +121,44 @@ void main() {
               reason: '$id shows its backend prefix');
         }
       }
+    });
+
+    test('names every technique preset in English and Czech', () {
+      const techniqueStyles = [
+        'vector-flat',
+        'gouache',
+        'watercolor-wet',
+        'watercolor-ink-line',
+        'etching',
+        'linocut',
+        'crayon',
+        'low-poly',
+        'claymation',
+        'sticker-collage',
+        'pressed-flowers',
+        'paper-sculpture-layered',
+        'polish-poster',
+        'chalkboard',
+        'blueprint',
+        'illumination',
+        'rackham',
+        'moebius',
+        'hiroshige',
+      ];
+      for (final id in techniqueStyles) {
+        final style = CardStyle.of(id);
+        expect(style.icon, isNot(Icons.image_outlined),
+            reason: '$id is not in the registry');
+        for (final l10n in [en, cs]) {
+          final label = style.label(l10n);
+          expect(label, isNotEmpty, reason: '$id has no label');
+          expect(label, isNot(equals(id)), reason: '$id shows its slug');
+          expect(style.description(l10n), isNotEmpty,
+              reason: '$id has no description');
+        }
+      }
+      expect(CardStyle.of('claymation').label(en), 'Clay');
+      expect(CardStyle.of('claymation').label(cs), 'Modelína');
     });
 
     test('follows the UI language', () {
