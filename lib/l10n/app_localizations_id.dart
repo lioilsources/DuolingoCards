@@ -18,8 +18,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get homeEmptyTitle => 'Belum ada dek';
 
   @override
-  String get homeReorderHint =>
-      'Tekan lama dek lalu seret untuk mengubah urutan';
+  String get homeReorderHint => 'Tekan lama dek lalu seret untuk mengubah urutan';
 
   @override
   String get homeBrowseStore => 'Jelajahi Toko Dek';
@@ -144,12 +143,10 @@ class AppLocalizationsId extends AppLocalizations {
   String get styleSectionTitle => 'Gaya gambar';
 
   @override
-  String get confirmBuyNote =>
-      'Pembelian membuka seluruh dek — semua bahasa dan semua gaya. Kombinasi ini akan ditambahkan ke layar utama.';
+  String get confirmBuyNote => 'Pembelian membuka seluruh dek — semua bahasa dan semua gaya. Kombinasi ini akan ditambahkan ke layar utama.';
 
   @override
-  String get confirmAddNote =>
-      'Kombinasi ini akan ditambahkan ke layar utama. Kamu bisa menambah bahasa atau gaya lain kapan saja.';
+  String get confirmAddNote => 'Kombinasi ini akan ditambahkan ke layar utama. Kamu bisa menambah bahasa atau gaya lain kapan saja.';
 
   @override
   String get purchaseFailedToStart => 'Pembelian tidak dapat dimulai.';
@@ -311,8 +308,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get styleWatercolor => 'Cat air';
 
   @override
-  String get styleWatercolorDesc =>
-      'Sapuan warna mengalir, kertas tampak di baliknya';
+  String get styleWatercolorDesc => 'Sapuan warna mengalir, kertas tampak di baliknya';
 
   @override
   String get styleFlag => 'Bendera';
@@ -430,4 +426,24 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get langZhCN => 'Bahasa Mandarin';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

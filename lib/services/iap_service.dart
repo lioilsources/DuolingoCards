@@ -4,12 +4,39 @@ import 'package:flutter/foundation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:in_app_purchase_storekit/store_kit_wrappers.dart';
 
+/// What [EntitlementService] needs from a store. [IAPService] is the real
+/// one; tests drive entitlements through a fake without touching a plugin.
+abstract interface class PurchaseBackend {
+  /// Fires for every purchased or restored product.
+  abstract void Function(String sku, {required bool restored})? onProductOwned;
+
+  abstract void Function(String error)? onPurchaseError;
+
+  bool get isAvailable;
+  Future<void> initialize();
+
+  /// Every SKU reported owned (purchased or restored) since launch, so a
+  /// product the catalog learns about later can still be credited.
+  Set<String> get ownedSkus;
+
+  /// Query store metadata. An id the store does not return has no price.
+  Future<void> loadProducts(Set<String> skus);
+
+  /// The store's localized price for [sku], or null when it is unknown.
+  String? localizedPrice(String sku);
+
+  Future<bool> buy(String sku);
+  Future<void> restorePurchases();
+}
+
 /// No-backend in-app purchase client.
 ///
 /// Deck products are non-consumable: bought once, restorable forever. There are
 /// no consumables. Purchases are verified on-device by StoreKit 2 / Play
-/// Billing; the product-to-deck mapping lives in [EntitlementService].
-class IAPService {
+/// Billing; the product-to-deck mapping lives in [EntitlementService], which
+/// also knows that several "All decks" tier SKUs unlock the same content —
+/// to this class every SKU is just a non-consumable.
+class IAPService implements PurchaseBackend {
   static final IAPService _instance = IAPService._internal();
   factory IAPService() => _instance;
   IAPService._internal();
@@ -17,18 +44,22 @@ class IAPService {
   final InAppPurchase _iap = InAppPurchase.instance;
   StreamSubscription<List<PurchaseDetails>>? _subscription;
 
-  /// Fires for every purchased or restored product.
+  @override
   void Function(String sku, {required bool restored})? onProductOwned;
 
+  @override
   void Function(String error)? onPurchaseError;
 
   bool _isAvailable = false;
   Map<String, ProductDetails> _products = {};
   final Set<String> _ownedSkus = {};
 
+  @override
   bool get isAvailable => _isAvailable;
+  @override
   Set<String> get ownedSkus => Set.unmodifiable(_ownedSkus);
 
+  @override
   Future<void> initialize() async {
     _isAvailable = await _iap.isAvailable();
     if (!_isAvailable) {
@@ -53,6 +84,7 @@ class IAPService {
   }
 
   /// Query store metadata for the given platform SKUs.
+  @override
   Future<void> loadProducts(Set<String> skus) async {
     if (!_isAvailable || skus.isEmpty) return;
     final response = await _iap.queryProductDetails(skus);
@@ -64,9 +96,11 @@ class IAPService {
   }
 
   ProductDetails? product(String sku) => _products[sku];
+  @override
   String? localizedPrice(String sku) => _products[sku]?.price;
 
   /// Start a non-consumable purchase.
+  @override
   Future<bool> buy(String sku) async {
     if (!_isAvailable) {
       onPurchaseError?.call('In-App Purchases not available');
@@ -88,6 +122,7 @@ class IAPService {
   }
 
   /// Ask the store to replay owned non-consumable products.
+  @override
   Future<void> restorePurchases() async {
     if (!_isAvailable) return;
     await _iap.restorePurchases();

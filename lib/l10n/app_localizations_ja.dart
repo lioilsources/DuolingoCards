@@ -140,8 +140,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get styleSectionTitle => '画像スタイル';
 
   @override
-  String get confirmBuyNote =>
-      '購入するとデッキ全体が解放されます。すべての言語とすべてのスタイルが使えます。この組み合わせはホーム画面に追加されます。';
+  String get confirmBuyNote => '購入するとデッキ全体が解放されます。すべての言語とすべてのスタイルが使えます。この組み合わせはホーム画面に追加されます。';
 
   @override
   String get confirmAddNote => 'この組み合わせはホーム画面に追加されます。ほかの言語やスタイルはいつでも追加できます。';
@@ -423,4 +422,24 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get langZhCN => '中国語';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

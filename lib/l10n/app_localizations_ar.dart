@@ -155,12 +155,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get styleSectionTitle => 'نمط الصور';
 
   @override
-  String get confirmBuyNote =>
-      'الشراء يفتح المجموعة كاملة — كل اللغات وكل الأنماط. ستُضاف هذه التركيبة إلى شاشتك الرئيسية.';
+  String get confirmBuyNote => 'الشراء يفتح المجموعة كاملة — كل اللغات وكل الأنماط. ستُضاف هذه التركيبة إلى شاشتك الرئيسية.';
 
   @override
-  String get confirmAddNote =>
-      'ستُضاف هذه التركيبة إلى شاشتك الرئيسية. يمكنك إضافة لغة أو نمط آخر في أي وقت.';
+  String get confirmAddNote => 'ستُضاف هذه التركيبة إلى شاشتك الرئيسية. يمكنك إضافة لغة أو نمط آخر في أي وقت.';
 
   @override
   String get purchaseFailedToStart => 'تعذّر بدء عملية الشراء.';
@@ -444,4 +442,24 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get langZhCN => 'الصينية';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

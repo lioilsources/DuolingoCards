@@ -18,8 +18,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get homeEmptyTitle => 'Aucun deck pour l’instant';
 
   @override
-  String get homeReorderHint =>
-      'Appuie longuement sur un deck et fais-le glisser pour le déplacer';
+  String get homeReorderHint => 'Appuie longuement sur un deck et fais-le glisser pour le déplacer';
 
   @override
   String get homeBrowseStore => 'Voir la boutique';
@@ -144,12 +143,10 @@ class AppLocalizationsFr extends AppLocalizations {
   String get styleSectionTitle => 'Style d’image';
 
   @override
-  String get confirmBuyNote =>
-      'L’achat débloque tout le deck : toutes les langues et tous les styles. Cette combinaison sera ajoutée à ton écran d’accueil.';
+  String get confirmBuyNote => 'L’achat débloque tout le deck : toutes les langues et tous les styles. Cette combinaison sera ajoutée à ton écran d’accueil.';
 
   @override
-  String get confirmAddNote =>
-      'Cette combinaison sera ajoutée à ton écran d’accueil. Tu peux ajouter une autre langue ou un autre style à tout moment.';
+  String get confirmAddNote => 'Cette combinaison sera ajoutée à ton écran d’accueil. Tu peux ajouter une autre langue ou un autre style à tout moment.';
 
   @override
   String get purchaseFailedToStart => 'Impossible de lancer l’achat.';
@@ -299,8 +296,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get styleInk => 'Pinceau et encre';
 
   @override
-  String get styleInkDesc =>
-      'Coups de pinceau, papier nu, une touche de couleur';
+  String get styleInkDesc => 'Coups de pinceau, papier nu, une touche de couleur';
 
   @override
   String get stylePastel => 'Pastel';
@@ -336,8 +332,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get stylePonyWatercolor => 'Aquarelle douce';
 
   @override
-  String get stylePonyWatercolorDesc =>
-      'Peinture à l’aquarelle tout en douceur';
+  String get stylePonyWatercolorDesc => 'Peinture à l’aquarelle tout en douceur';
 
   @override
   String get stylePonyOil => 'Peinture à l’huile';
@@ -379,8 +374,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get styleVanGogh => 'Van Gogh';
 
   @override
-  String get styleVanGoghDesc =>
-      'Touches tourbillonnantes post-impressionnistes';
+  String get styleVanGoghDesc => 'Touches tourbillonnantes post-impressionnistes';
 
   @override
   String get langAr => 'Arabe';
@@ -432,4 +426,24 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get langZhCN => 'Chinois';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

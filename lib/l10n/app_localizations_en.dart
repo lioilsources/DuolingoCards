@@ -143,12 +143,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get styleSectionTitle => 'Image style';
 
   @override
-  String get confirmBuyNote =>
-      'Buying unlocks the whole deck — every language and every style. This combination will be added to your home screen.';
+  String get confirmBuyNote => 'Buying unlocks the whole deck — every language and every style. This combination will be added to your home screen.';
 
   @override
-  String get confirmAddNote =>
-      'This combination will be added to your home screen. You can add another language or style at any time.';
+  String get confirmAddNote => 'This combination will be added to your home screen. You can add another language or style at any time.';
 
   @override
   String get purchaseFailedToStart => 'The purchase could not be started.';
@@ -428,4 +426,24 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get langZhCN => 'Chinese';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

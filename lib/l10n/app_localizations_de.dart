@@ -18,8 +18,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get homeEmptyTitle => 'Noch keine Decks';
 
   @override
-  String get homeReorderHint =>
-      'Halte ein Deck gedrückt und ziehe es, um die Reihenfolge zu ändern';
+  String get homeReorderHint => 'Halte ein Deck gedrückt und ziehe es, um die Reihenfolge zu ändern';
 
   @override
   String get homeBrowseStore => 'Zum Deck-Shop';
@@ -144,12 +143,10 @@ class AppLocalizationsDe extends AppLocalizations {
   String get styleSectionTitle => 'Bildstil';
 
   @override
-  String get confirmBuyNote =>
-      'Mit dem Kauf schaltest du das ganze Deck frei – alle Sprachen und alle Stile. Diese Kombination wird zu deinem Startbildschirm hinzugefügt.';
+  String get confirmBuyNote => 'Mit dem Kauf schaltest du das ganze Deck frei – alle Sprachen und alle Stile. Diese Kombination wird zu deinem Startbildschirm hinzugefügt.';
 
   @override
-  String get confirmAddNote =>
-      'Diese Kombination wird zu deinem Startbildschirm hinzugefügt. Du kannst jederzeit eine weitere Sprache oder einen weiteren Stil hinzufügen.';
+  String get confirmAddNote => 'Diese Kombination wird zu deinem Startbildschirm hinzugefügt. Du kannst jederzeit eine weitere Sprache oder einen weiteren Stil hinzufügen.';
 
   @override
   String get purchaseFailedToStart => 'Der Kauf konnte nicht gestartet werden.';
@@ -158,8 +155,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get addedToHome => 'Zum Startbildschirm hinzugefügt.';
 
   @override
-  String get downloadFailed =>
-      'Download fehlgeschlagen. Bitte versuche es erneut.';
+  String get downloadFailed => 'Download fehlgeschlagen. Bitte versuche es erneut.';
 
   @override
   String get deckNotPurchased => 'Dieses Deck wurde noch nicht gekauft.';
@@ -312,8 +308,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get styleWatercolor => 'Aquarell';
 
   @override
-  String get styleWatercolorDesc =>
-      'Fließende Farbflächen, durchscheinendes Papier';
+  String get styleWatercolorDesc => 'Fließende Farbflächen, durchscheinendes Papier';
 
   @override
   String get styleFlag => 'Flaggen';
@@ -379,8 +374,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get styleVanGogh => 'Van Gogh';
 
   @override
-  String get styleVanGoghDesc =>
-      'Postimpressionistische, wirbelnde Pinselstriche';
+  String get styleVanGoghDesc => 'Postimpressionistische, wirbelnde Pinselstriche';
 
   @override
   String get langAr => 'Arabisch';
@@ -432,4 +426,24 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get langZhCN => 'Chinesisch';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

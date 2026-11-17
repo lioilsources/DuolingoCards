@@ -18,8 +18,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get homeEmptyTitle => 'Henüz deste yok';
 
   @override
-  String get homeReorderHint =>
-      'Sırayı değiştirmek için desteye uzun basıp sürükleyin';
+  String get homeReorderHint => 'Sırayı değiştirmek için desteye uzun basıp sürükleyin';
 
   @override
   String get homeBrowseStore => 'Deste Mağazasına göz at';
@@ -144,12 +143,10 @@ class AppLocalizationsTr extends AppLocalizations {
   String get styleSectionTitle => 'Görsel stili';
 
   @override
-  String get confirmBuyNote =>
-      'Satın alma tüm desteyi açar — her dili ve her stili. Bu kombinasyon ana ekranınıza eklenecek.';
+  String get confirmBuyNote => 'Satın alma tüm desteyi açar — her dili ve her stili. Bu kombinasyon ana ekranınıza eklenecek.';
 
   @override
-  String get confirmAddNote =>
-      'Bu kombinasyon ana ekranınıza eklenecek. İstediğiniz zaman başka bir dil veya stil ekleyebilirsiniz.';
+  String get confirmAddNote => 'Bu kombinasyon ana ekranınıza eklenecek. İstediğiniz zaman başka bir dil veya stil ekleyebilirsiniz.';
 
   @override
   String get purchaseFailedToStart => 'Satın alma başlatılamadı.';
@@ -429,4 +426,24 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get langZhCN => 'Çince';
+
+  @override
+  String get allDecksTitle => 'All decks';
+
+  @override
+  String get allDecksSubtitle => 'Every deck, including ones added later';
+
+  @override
+  String allDecksCredited(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You already own $count decks, we\'ve credited them',
+      one: 'You already own 1 deck, we\'ve credited it',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get confirmBuyAllNote => 'Buying unlocks every deck, including ones added later — every language and every style. This combination will be added to your home screen.';
 }

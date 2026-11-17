@@ -147,5 +147,46 @@
         "weather"
       ]
     }
-  ]
+  ],
+  "all_decks": {
+    "_comment": "Complete-the-set bundle. Owning ANY tier unlocks every deck that has an entry in products, including decks added later, so it lists no unlocks. Tiers unlock identical content at different store prices (4.99/3.99/2.99/1.99/0.99 USD); the app offers the highest tier whose threshold (number of paid decks already owned) is met and shows the store's price. Never enable tiers above 0 as promoted purchases.",
+    "code": "bundle.all-decks",
+    "tiers": [
+      {
+        "threshold": 0,
+        "sku": {
+          "apple": "com.ol1n.duolingocards.decks_all",
+          "google": "com.ol1n.duolingocards.decks_all"
+        }
+      },
+      {
+        "threshold": 1,
+        "sku": {
+          "apple": "com.ol1n.duolingocards.decks_all_s1",
+          "google": "com.ol1n.duolingocards.decks_all_s1"
+        }
+      },
+      {
+        "threshold": 2,
+        "sku": {
+          "apple": "com.ol1n.duolingocards.decks_all_s2",
+          "google": "com.ol1n.duolingocards.decks_all_s2"
+        }
+      },
+      {
+        "threshold": 3,
+        "sku": {
+          "apple": "com.ol1n.duolingocards.decks_all_s3",
+          "google": "com.ol1n.duolingocards.decks_all_s3"
+        }
+      },
+      {
+        "threshold": 4,
+        "sku": {
+          "apple": "com.ol1n.duolingocards.decks_all_s4",
+          "google": "com.ol1n.duolingocards.decks_all_s4"
+        }
+      }
+    ]
+  }
 }
