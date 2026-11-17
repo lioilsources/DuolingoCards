@@ -36,6 +36,9 @@ class AppLocalizationsCs extends AppLocalizations {
   String get badgePurchased => 'Zakoupeno';
 
   @override
+  String get badgeNew => 'Nové';
+
+  @override
   String get badgePaidDeck => 'Placený balíček';
 
   @override

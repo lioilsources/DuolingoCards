@@ -12,6 +12,10 @@
   "badgeFree": "Free",
   "badgeUnlocked": "Unlocked",
   "badgePurchased": "Purchased",
+  "badgeNew": "New",
+  "@badgeNew": {
+    "description": "Store tile badge on a deck published in the last 14 days."
+  },
   "badgePaidDeck": "Paid deck",
 
   "tileCardsAndPair": "{count, plural, =1{1 card} other{{count} cards}} · {l1} → {l2}",

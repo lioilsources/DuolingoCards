@@ -24,10 +24,8 @@ class DeckDownloadService {
     await Directory(imagesDir).create(recursive: true);
 
     // 1. Download and save deck.json
-    final deckJsonUrl = '$kCdnBaseUrl/decks/$slug/deck.json';
-    final jsonResponse = await _get(deckJsonUrl);
+    final jsonResponse = await _fetchDeckJson(slug, deckDir);
     if (jsonResponse == null) return false;
-    await File('$deckDir/deck.json').writeAsBytes(jsonResponse);
 
     // 2. Extract image filenames
     final deckData =
@@ -51,6 +49,31 @@ class DeckDownloadService {
     return true;
   }
 
+  /// Download only deck.json for [slug] — enough for the store to list a deck
+  /// the app does not bundle; its pictures come from the CDN until unlocked.
+  Future<bool> downloadDeckJson(String slug) async {
+    final docsPath = (await getApplicationDocumentsDirectory()).path;
+    return await _fetchDeckJson(slug, '$docsPath/decks/$slug') != null;
+  }
+
+  Future<List<int>?> _fetchDeckJson(String slug, String deckDir) async {
+    final bytes = await _get('$kCdnBaseUrl/decks/$slug/deck.json');
+    if (bytes == null) return null;
+    try {
+      // Never overwrite a good copy with something that is not a deck.
+      final json = jsonDecode(utf8.decode(bytes));
+      if (json is! Map<String, dynamic> || json['deck'] != slug) return null;
+    } catch (_) {
+      return null;
+    }
+    await Directory(deckDir).create(recursive: true);
+    final file = File('$deckDir/deck.json');
+    final tmp = File('$deckDir/deck.json.tmp');
+    await tmp.writeAsBytes(bytes);
+    await tmp.rename(file.path);
+    return bytes;
+  }
+
   /// True when deck.json exists in the documents directory for [slug].
   Future<bool> isDownloaded(String slug) async {
     final docsPath = (await getApplicationDocumentsDirectory()).path;
@@ -66,7 +89,9 @@ class DeckDownloadService {
 
   Future<List<int>?> _get(String url) async {
     try {
-      final response = await http.get(Uri.parse(url));
+      final response = await http
+          .get(Uri.parse(url))
+          .timeout(const Duration(seconds: 30));
       if (response.statusCode != 200) return null;
       return response.bodyBytes;
     } catch (_) {

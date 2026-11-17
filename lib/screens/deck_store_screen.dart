@@ -7,6 +7,7 @@ import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
 import '../models/search_index.dart';
 import '../models/store_cover.dart';
+import '../services/deck_download_service.dart';
 import '../services/entitlement_service.dart';
 import '../services/language_deck_service.dart';
 import '../services/search_service.dart';
@@ -73,12 +74,19 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
     });
     try {
       await _entitlements.initialize();
+      // Short timeout inside; offline falls back to the cached catalog.
+      await _entitlements.refreshRemoteCatalog();
       // A deck with no deliverable style has nothing to sell: every image would
       // be a placeholder and unlocking would download nothing. Keep it out of
       // the store rather than letting the detail page dead-end.
-      final decks = (await _deckService.loadAll())
-          .where((d) => d.offerableStyles.isNotEmpty)
-          .toList();
+      final now = DateTime.now();
+      final decks = newFirst(
+        (await _deckService.loadForStore(
+          _entitlements.remoteDecks,
+          fetchJson: DeckDownloadService.instance.downloadDeckJson,
+        )).where((d) => d.offerableStyles.isNotEmpty).toList(),
+        (slug) => _entitlements.isNewDeck(slug, now: now),
+      );
       final index = await _searchService.buildIndex(decks);
       final rng = Random();
       final covers = {for (final d in decks) d.slug: storeCover(d, rng)};
@@ -102,10 +110,8 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
   void _openDetail(LanguageDeck deck) {
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (_) => DeckStoreDetailScreen(
-          deck: deck,
-          entitlements: _entitlements,
-        ),
+        builder: (_) =>
+            DeckStoreDetailScreen(deck: deck, entitlements: _entitlements),
       ),
     );
   }
@@ -206,6 +212,7 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
             isFree: _entitlements.isFree(deck.slug, tier: deck.tier),
             isOwned: _entitlements.ownsDeck(deck.slug, tier: deck.tier),
             price: _entitlements.priceForDeck(deck.slug),
+            isNew: _entitlements.isNewDeck(deck.slug),
             onTap: () => _openDetail(deck),
           );
         },
@@ -214,12 +221,25 @@ class _DeckStoreScreenState extends State<DeckStoreScreen> {
   }
 }
 
+/// [decks] with the new ones moved to the top, otherwise in their order.
+@visibleForTesting
+List<LanguageDeck> newFirst(
+  List<LanguageDeck> decks,
+  bool Function(String slug) isNew,
+) {
+  return [
+    ...decks.where((d) => isNew(d.slug)),
+    ...decks.where((d) => !isNew(d.slug)),
+  ];
+}
+
 class _DeckTile extends StatelessWidget {
   final LanguageDeck deck;
   final List<CoverThumb> cover;
   final bool isFree;
   final bool isOwned;
   final String? price;
+  final bool isNew;
   final VoidCallback onTap;
 
   const _DeckTile({
@@ -228,6 +248,7 @@ class _DeckTile extends StatelessWidget {
     required this.isFree,
     required this.isOwned,
     required this.price,
+    required this.isNew,
     required this.onTap,
   });
 
@@ -278,6 +299,10 @@ class _DeckTile extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(width: 8),
+                  if (isNew) ...[
+                    _Badge(label: l10n.badgeNew, color: Colors.orange),
+                    const SizedBox(width: 6),
+                  ],
                   if (isFree)
                     _Badge(label: l10n.badgeFree, color: Colors.green)
                   else if (isOwned)
@@ -320,10 +345,7 @@ class _Badge extends StatelessWidget {
         color: color.shade100,
         borderRadius: BorderRadius.circular(12),
       ),
-      child: Text(
-        label,
-        style: TextStyle(fontSize: 12, color: color.shade800),
-      ),
+      child: Text(label, style: TextStyle(fontSize: 12, color: color.shade800)),
     );
   }
 }

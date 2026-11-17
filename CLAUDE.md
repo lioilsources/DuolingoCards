@@ -175,6 +175,27 @@ One manual step remains: a brand-new `assets/previews/<slug>/<style>/` folder
 needs its own line under `flutter.assets` in `pubspec.yaml`, or Flutter will not
 bundle it and `bundled` stays false.
 
+#### Remote catalog (new decks without an app release)
+
+`publish -what json` (so every `make ship`) also writes `docs/catalog.json`:
+`assets/catalog.json`'s `free` + `products` plus a `decks` index (slug,
+version, tier, titles, CDN styles, `added`) of every deck under `docs/decks/`.
+`added` is carried over from the previous file — a deck gets today's date once,
+on first publish — so re-running does not churn Git (`-today` overrides).
+
+The app (`EntitlementService` + `RemoteCatalogService`) uses the cached copy at
+start, refreshes in the background (4 s timeout) and again when the store opens;
+offline it keeps the cache, then the bundled catalog. `StoreCatalog.merge`:
+union of free decks and products, and the remote verdict wins for any slug it
+prices. The store lists bundled ∪ remote decks; a remote-only deck's
+`deck.json` is fetched on demand and its images go through the normal download.
+Decks `added` within 14 days get the "New" badge and sort first. A slug newly
+on the free list lands on home once (`offered_free_decks_v1` in prefs); a deck
+the user removed is never re-added.
+
+A new **paid** deck still needs its IAP product created in App Store Connect /
+Play Console and listed in `assets/catalog.json` before `make ship`.
+
 User-facing style names live in `lib/models/card_style.dart` — the pipeline's
 ids (`illustrious-ukiyoe`) are model names, not labels for a buyer.
 

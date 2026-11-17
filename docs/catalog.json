@@ -1,0 +1,626 @@
+{
+  "schema": 1,
+  "free": [
+    "numbers-1-10",
+    "colors-basic",
+    "animals-pets",
+    "geo-flags"
+  ],
+  "products": [
+    {
+      "code": "deck.animals-birds",
+      "sku": {
+        "apple": "com.ol1n.duolingocards.deck.animals_birds",
+        "google": "com.ol1n.duolingocards.deck.animals_birds"
+      },
+      "unlocks": [
+        "animals-birds"
+      ]
+    },
+    {
+      "code": "deck.animals-farm",
+      "sku": {
+        "apple": "com.ol1n.duolingocards.deck.animals_farm",
+        "google": "com.ol1n.duolingocards.deck.animals_farm"
+      },
+      "unlocks": [
+        "animals-farm"
+      ]
+    },
+    {
+      "code": "deck.animals-insects",
+      "sku": {
+        "apple": "com.ol1n.duolingocards.deck.animals_insects",
+        "google": "com.ol1n.duolingocards.deck.animals_insects"
+      },
+      "unlocks": [
+        "animals-insects"
+      ]
+    },
+    {
+      "code": "deck.animals-reptiles",
+      "sku": {
+        "apple": "com.ol1n.duolingocards.deck.animals_reptiles",
+        "google": "com.ol1n.duolingocards.deck.animals_reptiles"
+      },
+      "unlocks": [
+        "animals-reptiles"
+      ]
+    },
+    {
+      "code": "deck.animals-sea",
+      "sku": {
+        "apple": "com.ol1n.duolingocards.deck.animals_sea",
+        "google": "com.ol1n.duolingocards.deck.animals_sea"
+      },
+      "unlocks": [
+        "animals-sea"
+      ]
+    },
+    {
+      "code": "deck.animals-wild",
+      "sku": {
+        "apple": "com.ol1n.duolingocards.deck.animals_wild",
+        "google": "com.ol1n.duolingocards.deck.animals_wild"
+      },
+      "unlocks": [
+        "animals-wild"
+      ]
+    },
+    {
+      "code": "deck.body-parts",
+      "sku": {
+        "apple": "com.ol1n.duolingocards.deck.body_parts",
+        "google": "com.ol1n.duolingocards.deck.body_parts"
+      },
+      "unlocks": [
+        "body-parts"
+      ]
+    },
+    {
+      "code": "deck.emotions",
+      "sku": {
+        "apple": "com.ol1n.duolingocards.deck.emotions",
+        "google": "com.ol1n.duolingocards.deck.emotions"
+      },
+      "unlocks": [
+        "emotions"
+      ]
+    },
+    {
+      "code": "deck.food-fruits",
+      "sku": {
+        "apple": "com.ol1n.duolingocards.deck.food_fruits",
+        "google": "com.ol1n.duolingocards.deck.food_fruits"
+      },
+      "unlocks": [
+        "food-fruits"
+      ]
+    },
+    {
+      "code": "deck.food-vegetables",
+      "sku": {
+        "apple": "com.ol1n.duolingocards.deck.food_vegetables",
+        "google": "com.ol1n.duolingocards.deck.food_vegetables"
+      },
+      "unlocks": [
+        "food-vegetables"
+      ]
+    },
+    {
+      "code": "deck.weather",
+      "sku": {
+        "apple": "com.ol1n.duolingocards.deck.weather",
+        "google": "com.ol1n.duolingocards.deck.weather"
+      },
+      "unlocks": [
+        "weather"
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "slug": "animals-birds",
+      "version": 1,
+      "tier": 1,
+      "added": "2026-08-18",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "pastel"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "الطيور",
+        "cs": "Ptáci",
+        "de": "Vögel",
+        "el": "Πτηνά",
+        "en": "Birds",
+        "es-419": "Aves",
+        "fr": "Oiseaux",
+        "he": "עופות",
+        "hi": "पक्षी",
+        "id": "Burung-burung",
+        "ja": "鳥類",
+        "ko": "새",
+        "pt-BR": "Aves",
+        "ru": "Птицы",
+        "tr": "Kuşlar",
+        "vi": "Chim chóc",
+        "zh-CN": "鸟类"
+      }
+    },
+    {
+      "slug": "animals-farm",
+      "version": 1,
+      "tier": 1,
+      "added": "2026-08-18",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "ink"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "الحيوانات الاقتصادية",
+        "cs": "Hospodářská zvířata",
+        "de": "Nutztiere",
+        "el": "Ζώα φάρμας",
+        "en": "Livestock Animals",
+        "es-419": "Animales de granja",
+        "fr": "Animaux d'élevage",
+        "he": "חיות תרבות אקזוטיות",
+        "hi": "अर्थवृद्धि पशु",
+        "id": "Hewan Ternak",
+        "ja": "家畜",
+        "ko": "가축",
+        "pt-BR": "Animais de fazenda",
+        "ru": "Хозяйственные животные",
+        "tr": "Ekonomik Hayvanlar",
+        "vi": "Động vật chăn nuôi",
+        "zh-CN": "经济动物"
+      }
+    },
+    {
+      "slug": "animals-insects",
+      "version": 1,
+      "tier": 1,
+      "added": "2026-06-22",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "pastel"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "الحشرات",
+        "bg": "Насекоми",
+        "cs": "Hmyz",
+        "da": "Insekter",
+        "de": "Insekten",
+        "el": "Έντομα",
+        "en": "Insects",
+        "es-419": "Insectos",
+        "fr": "Insectes",
+        "he": "חרקים",
+        "hi": "कीट",
+        "hr": "Kukci",
+        "id": "Serangga",
+        "it": "Insetti",
+        "ja": "昆虫",
+        "ko": "곤충",
+        "nb": "Insekter",
+        "nl": "Insecten",
+        "pl": "Owady",
+        "pt-BR": "Insetos",
+        "ro": "Insecte",
+        "ru": "Насекомые",
+        "sk": "Hmyz",
+        "sl": "Žuželke",
+        "sr": "Инсекти",
+        "sv": "Insekter",
+        "tr": "Böcekler",
+        "uk": "Комахи",
+        "vi": "Côn trùng",
+        "zh-CN": "昆虫"
+      }
+    },
+    {
+      "slug": "animals-pets",
+      "version": 1,
+      "tier": 0,
+      "added": "2026-08-18",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "ink"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "الحيوانات الأليفة",
+        "cs": "Domácí zvířata",
+        "de": "Haustiere",
+        "el": "Κατοικίδια ζώα",
+        "en": "Pets",
+        "es-419": "Animales domésticos",
+        "fr": "Animaux de compagnie",
+        "he": "חיות מחמד ביתיים",
+        "hi": "पालतू जानवर",
+        "id": "Hewan Peliharaan",
+        "ja": "ペット動物",
+        "ko": "가정용 애완동물",
+        "pt-BR": "Animais de estimação",
+        "ru": "Домашние животные",
+        "tr": "Ev Hayvanları",
+        "vi": "Động vật nuôi trong nhà",
+        "zh-CN": "家养动物"
+      }
+    },
+    {
+      "slug": "animals-reptiles",
+      "version": 1,
+      "tier": 1,
+      "added": "2026-08-18",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "pastel"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "الزواحف والبرمائيات",
+        "cs": "Plazi a obojživelníci",
+        "de": "Reptilien und Amphibien",
+        "el": "Ερπετά και αμφίβια",
+        "en": "Reptiles and Amphibians",
+        "es-419": "Reptiles y anfibios",
+        "fr": "Reptiles et amphibiens",
+        "he": "זוחלים ודו-חיים",
+        "hi": "सरीसृप और उभयचर",
+        "id": "Reptil dan amfibi",
+        "ja": "爬虫類と両生類",
+        "ko": "파충류와 양서류",
+        "pt-BR": "Répteis e anfíbios",
+        "ru": "Рептилии и амфибии",
+        "tr": "Sürüngenler ve amfibiler",
+        "vi": "Bò sát và lưỡng cư",
+        "zh-CN": "爬行动物和两栖动物"
+      }
+    },
+    {
+      "slug": "animals-sea",
+      "version": 1,
+      "tier": 1,
+      "added": "2026-08-18",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "pastel"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "الحيوانات البحرية",
+        "cs": "Mořská zvířata",
+        "de": "Meeresgetier",
+        "el": "Θαλάσσια ζώα",
+        "en": "Marine Animals",
+        "es-419": "Animales marinos",
+        "fr": "Animaux marins",
+        "he": "สัตว์ในทะเล",
+        "hi": "समुद्री जानवर",
+        "id": "Hewan Laut",
+        "ja": "海洋動物",
+        "ko": "해양 동물",
+        "pt-BR": "Animais Marinhos",
+        "ru": "Морские животные",
+        "tr": "Deniz Hayvanları",
+        "vi": "Động vật biển",
+        "zh-CN": "海洋动物"
+      }
+    },
+    {
+      "slug": "animals-wild",
+      "version": 1,
+      "tier": 1,
+      "added": "2026-08-18",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "pastel"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "الحيوانات البرية",
+        "cs": "Divoká zvířata",
+        "de": "Wildtiere",
+        "el": "Άγρια ζώα",
+        "en": "Wild animals",
+        "es-419": "Animales salvajes",
+        "fr": "Animaux sauvages",
+        "he": "חיות יער מזדחלות",
+        "hi": "विलग जानवर",
+        "id": "Hewan Liar",
+        "ja": "野生動物",
+        "ko": "야생 동물",
+        "pt-BR": "Animais Selvagens",
+        "ru": "Дикие животные",
+        "tr": "Yaban Hayvanları",
+        "vi": "Động vật hoang dã",
+        "zh-CN": "野生动物"
+      }
+    },
+    {
+      "slug": "body-parts",
+      "version": 1,
+      "tier": 1,
+      "added": "2026-08-18",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "watercolor"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "أجزاء الجسد",
+        "cs": "Části těla",
+        "de": "Körperstellen",
+        "el": "Μέρη του σώματος",
+        "en": "Parts of the Body",
+        "es-419": "Partes del cuerpo",
+        "fr": "Parties du corps",
+        "he": "חלקים בגוף האדם",
+        "hi": "शरीर के अंग",
+        "id": "Bagian Tubuh",
+        "ja": "体の部位",
+        "ko": "신체 부위",
+        "pt-BR": "Partes do corpo",
+        "ru": "Части тела",
+        "tr": "Vücut Bölümleri",
+        "vi": "Các phần của cơ thể",
+        "zh-CN": "身体部位"
+      }
+    },
+    {
+      "slug": "colors-basic",
+      "version": 1,
+      "tier": 0,
+      "added": "2026-08-18",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "watercolor"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "الألوان الأساسية",
+        "cs": "Základní barvy",
+        "de": "Basisfarben",
+        "el": "Βασικά χρώματα",
+        "en": "Basic Colors",
+        "es-419": "Colores básicos",
+        "fr": "Couleurs de base",
+        "he": "צבעים בסיסיים",
+        "hi": "मूल रंग",
+        "id": "Warna Dasar",
+        "ja": "基本的な色",
+        "ko": "기본 색상",
+        "pt-BR": "Cores básicas",
+        "ru": "Основные цвета",
+        "tr": "Temel Renkler",
+        "vi": "Các màu cơ bản",
+        "zh-CN": "基本颜色"
+      }
+    },
+    {
+      "slug": "emotions",
+      "version": 1,
+      "tier": 1,
+      "added": "2026-08-18",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "watercolor"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "العواطف",
+        "cs": "Emoce",
+        "de": "Emotionen",
+        "el": "Συναισθήματα",
+        "en": "Emotions",
+        "es-419": "Emociones básicas",
+        "fr": "Émotions",
+        "he": "הרגשות",
+        "hi": "भावनाen",
+        "id": "Emosi",
+        "ja": "感情",
+        "ko": "감정",
+        "pt-BR": "Emoções",
+        "ru": "Эмоции",
+        "tr": "Duygular",
+        "vi": "Cảm xúc",
+        "zh-CN": "情绪"
+      }
+    },
+    {
+      "slug": "food-fruits",
+      "version": 1,
+      "tier": 1,
+      "added": "2026-06-24",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "pastel"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "الفاكهة",
+        "bg": "Плодове",
+        "cs": "Ovoce",
+        "da": "Frugt",
+        "de": "Obst",
+        "el": "Φρούτα",
+        "en": "Fruit",
+        "es-419": "Frutas",
+        "fr": "Fruits",
+        "he": "פירות",
+        "hi": "फल",
+        "hr": "Voće",
+        "id": "Buah-buahan",
+        "it": "Frutta",
+        "ja": "果物",
+        "ko": "과일",
+        "nb": "Frukt",
+        "nl": "Fruit",
+        "pl": "Owoce",
+        "pt-BR": "Frutas",
+        "ro": "Fructe",
+        "ru": "Фрукты",
+        "sk": "Ovocie",
+        "sl": "Sadje",
+        "sr": "Воће",
+        "sv": "Frukt",
+        "tr": "Meyve",
+        "uk": "Фрукти",
+        "vi": "Trái cây",
+        "zh-CN": "水果"
+      }
+    },
+    {
+      "slug": "food-vegetables",
+      "version": 1,
+      "tier": 1,
+      "added": "2026-08-18",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "pastel"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "الخضروات",
+        "cs": "Zelenina",
+        "de": "Gemüse",
+        "el": "Λαχανικά",
+        "en": "Vegetables",
+        "es-419": "Verdura",
+        "fr": "Légumes verts",
+        "he": "ירקות",
+        "hi": "सब्जियाँ",
+        "id": "Sayuran",
+        "ja": "野菜",
+        "ko": "채소",
+        "pt-BR": "Verdura",
+        "ru": "Овощи",
+        "tr": "Sebze",
+        "vi": "Rau xanh",
+        "zh-CN": "蔬菜"
+      }
+    },
+    {
+      "slug": "geo-flags",
+      "version": 1,
+      "tier": 0,
+      "added": "2026-10-05",
+      "defaultStyle": "flag",
+      "styles": [
+        "flag"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "أعلام العالم",
+        "bg": "Знамена на света",
+        "cs": "Vlajky světa",
+        "da": "Verdens flag",
+        "de": "Flaggen der Welt",
+        "el": "Σημαίες του κόσμου",
+        "en": "Flags of the World",
+        "es-419": "Banderas del mundo",
+        "fr": "Drapeaux du monde",
+        "he": "דגלי העולם",
+        "hi": "दुनिया के झंडे",
+        "hr": "Zastave svijeta",
+        "id": "Bendera dunia",
+        "it": "Bandiere del mondo",
+        "ja": "世界の国旗",
+        "ko": "세계의 국기",
+        "nb": "Verdens flagg",
+        "nl": "Vlaggen van de wereld",
+        "pl": "Flagi świata",
+        "pt-BR": "Bandeiras do mundo",
+        "ro": "Steagurile lumii",
+        "ru": "Флаги мира",
+        "sk": "Vlajky sveta",
+        "sl": "Zastave sveta",
+        "sr": "Заставе света",
+        "sv": "Världens flaggor",
+        "tr": "Dünya bayrakları",
+        "uk": "Прапори світу",
+        "vi": "Quốc kỳ các nước",
+        "zh-CN": "世界国旗"
+      }
+    },
+    {
+      "slug": "numbers-1-10",
+      "version": 1,
+      "tier": 0,
+      "added": "2026-08-18",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "ink"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "الأرقام من ١ إلى ٥٠",
+        "cs": "Čísla 1–50",
+        "de": "Zahlen 1–50",
+        "el": "Αριθμοί 1-50",
+        "en": "Numbers 1–50",
+        "es-419": "Números del 1 al 10",
+        "fr": "Nombres de 1 à 10",
+        "he": "מספרים ١-٩",
+        "hi": "संख्याएँ १-५०",
+        "id": "Angka 1-50",
+        "ja": "数字 1～10",
+        "ko": "숫자 1-50",
+        "pt-BR": "Números de 1 a 10",
+        "ru": "Числа от 1 до 10",
+        "tr": "Sayılar 1-50",
+        "vi": "Số từ 1 đến 10",
+        "zh-CN": "数字 1-50"
+      }
+    },
+    {
+      "slug": "weather",
+      "version": 1,
+      "tier": 1,
+      "added": "2026-08-18",
+      "defaultStyle": "photo",
+      "styles": [
+        "photo",
+        "watercolor"
+      ],
+      "cards": 50,
+      "titles": {
+        "ar": "الطقس",
+        "cs": "Počasí",
+        "de": "Wetter",
+        "el": "Καιρός",
+        "en": "Weather",
+        "es-419": "Clima",
+        "fr": "Météo",
+        "he": "מזג האווירה",
+        "hi": "मौसम",
+        "id": "Cuaca",
+        "ja": "天気",
+        "ko": "날씨",
+        "pt-BR": "Clima",
+        "ru": "Погода",
+        "tr": "Hava Durumu",
+        "vi": "Thời tiết",
+        "zh-CN": "天气"
+      }
+    }
+  ]
+}

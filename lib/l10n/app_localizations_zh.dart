@@ -36,6 +36,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get badgePurchased => '已购买';
 
   @override
+  String get badgeNew => '新';
+
+  @override
   String get badgePaidDeck => '付费卡组';
 
   @override
@@ -451,6 +454,9 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get badgePurchased => '已購買';
+
+  @override
+  String get badgeNew => '新';
 
   @override
   String get badgePaidDeck => '付費卡組';
