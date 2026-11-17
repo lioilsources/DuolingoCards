@@ -1,0 +1,214 @@
+lang: fr
+pivot: false
+title: Voitures de légende
+cards:
+  car.ford_model_t:
+    label: Ford T
+    summary: La voiture qui a permis aux familles ordinaires de rouler en auto.
+    info: |
+      La Ford T a été fabriquée aux États-Unis de 1908 à 1927.
+      Elle était construite sur une chaîne de montage qui avançait toute seule, alors elle coûtait peu cher, et on en a fabriqué plus de 15 millions.
+      Pendant de nombreuses années, on ne pouvait l'acheter qu'en noir.
+  car.vw_beetle:
+    label: Volkswagen Coccinelle
+    summary: Une petite voiture toute ronde qui porte le nom d'un insecte.
+    info: |
+      La Coccinelle vient d'Allemagne et a été fabriquée de 1938 à 2003.
+      On en a construit plus de 21 millions, plus que n'importe quelle autre voiture d'un seul modèle.
+      Son moteur est à l'arrière, sous le capot de derrière.
+  car.vw_bus:
+    label: Combi Volkswagen
+    summary: Un fourgon sympa pour les familles, les surfeurs et le camping.
+    info: |
+      Le Volkswagen Type 2 vient d'Allemagne et a été fabriqué pour la première fois en 1950.
+      Les premiers avaient un pare-brise coupé en deux moitiés et un grand V sur l'avant.
+      Beaucoup de gens l'ont transformé en petite maison sur roues pour voyager.
+  car.jeep_willys:
+    label: Jeep Willys
+    summary: Une petite voiture militaire très solide, capable de rouler presque partout.
+    info: |
+      La Willys MB a été fabriquée aux États-Unis pour la Seconde Guerre mondiale, de 1941 à 1945.
+      On en a construit des centaines de milliers pour transporter les soldats sur des terrains difficiles.
+      Elle a donné son nom à toutes les voitures Jeep qui sont venues après elle.
+  car.land_rover_defender:
+    label: Land Rover Defender
+    summary: Une voiture britannique toute carrée, faite pour rouler dans les champs et la boue.
+    info: |
+      La Land Rover vient du Royaume-Uni ; la première a été fabriquée en 1948.
+      À partir de 1990, elle s'est appelée Defender, et elle a été fabriquée jusqu'en 2016.
+      Les fermiers, les explorateurs et les équipes de secours l'ont utilisée partout dans le monde.
+  car.mini_cooper:
+    label: Mini Cooper
+    summary: Une toute petite voiture britannique, étonnamment rapide.
+    info: |
+      La Mini vient du Royaume-Uni et a été fabriquée de 1959 à 2000.
+      Son moteur est placé en travers, alors quatre personnes tiennent dans une voiture très courte.
+      Une Mini Cooper S a gagné le célèbre rallye de Monte-Carlo en 1964.
+  car.fiat_500:
+    label: Fiat 500
+    summary: Une toute petite voiture italienne faite pour les rues étroites des villes.
+    info: |
+      La Fiat 500 vient d'Italie et a été fabriquée de 1957 à 1975.
+      Elle mesure moins de 3 mètres de long, alors elle peut se garer presque partout.
+      Les Italiens l'appellent la « Cinquecento », ce qui veut dire « cinq cents ».
+  car.citroen_2cv:
+    label: Citroën 2CV
+    summary: Une voiture française toute simple, avec un toit qu'on peut enrouler.
+    info: |
+      La Citroën 2CV vient de France et a été fabriquée de 1948 à 1990.
+      Elle a été conçue pour transporter les fermiers et leurs marchandises sur les routes de campagne pleines de bosses.
+      Son toit en toile souple s'enroule comme le couvercle d'une boîte de sardines.
+  car.citroen_ds:
+    label: Citroën DS
+    summary: Une voiture française toute douce qui semblait venir du futur.
+    info: |
+      La Citroën DS vient de France et a été fabriquée de 1955 à 1975.
+      Grâce à sa suspension spéciale, la voiture se soulève et s'abaisse quand on la démarre.
+      En français, « DS » se prononce comme le mot « déesse ».
+  car.mercedes_300sl:
+    label: Mercedes-Benz 300 SL
+    summary: Une voiture de sport argentée dont les portes s'ouvrent vers le haut comme des ailes.
+    info: |
+      La Mercedes-Benz 300 SL vient d'Allemagne ; le coupé a été fabriqué de 1954 à 1957.
+      Ses portes s'ouvrent vers le haut, alors on la surnomme « Papillon ».
+      C'était l'une des voitures les plus rapides qu'on pouvait acheter à son époque.
+  car.jaguar_e_type:
+    label: Jaguar Type E
+    summary: Une voiture de sport britannique longue et élégante.
+    info: |
+      La Jaguar Type E vient du Royaume-Uni et a été fabriquée de 1961 à 1975.
+      Elle a un capot très long avec un gros moteur dessous.
+      Beaucoup de gens disent que c'est l'une des plus belles voitures jamais fabriquées.
+  car.aston_martin_db5:
+    label: Aston Martin DB5
+    summary: L'élégante voiture britannique de l'espion James Bond.
+    info: |
+      L'Aston Martin DB5 vient du Royaume-Uni et a été fabriquée de 1963 à 1965.
+      Elle est devenue célèbre dans le monde entier grâce au film de James Bond « Goldfinger », en 1964.
+      On en a fabriqué seulement un millier environ.
+  car.shelby_cobra:
+    label: Shelby Cobra
+    summary: Une petite voiture décapotable avec un énorme moteur très bruyant.
+    info: |
+      La Shelby Cobra a été fabriquée dans les années 1960 par le pilote américain Carroll Shelby.
+      Il a pris une petite voiture de sport britannique, légère, et il y a mis un gros moteur Ford américain.
+      Elle a gagné beaucoup de courses, et on la copie encore aujourd'hui.
+  car.ford_mustang:
+    label: Ford Mustang
+    summary: Une voiture sportive américaine qui porte le nom d'un cheval sauvage.
+    info: |
+      La Ford Mustang vient des États-Unis et a été mise en vente pour la première fois en 1964.
+      Elle a eu tellement de succès que tout un groupe de voitures qui lui ressemblaient a été appelé « pony cars », d'après elle.
+      La Mustang est toujours fabriquée aujourd'hui.
+  car.corvette_c2:
+    label: Corvette Sting Ray
+    summary: Une voiture de sport américaine avec une vitre arrière coupée en deux.
+    info: |
+      La Chevrolet Corvette Sting Ray vient des États-Unis.
+      Seul le coupé de 1963 avait une vitre arrière coupée en deux moitiés.
+      Sa carrosserie est en fibre de verre au lieu d'acier.
+  car.cadillac_eldorado:
+    label: Cadillac Eldorado
+    summary: Une énorme voiture américaine avec les plus grands ailerons de tous les temps.
+    info: |
+      La Cadillac Eldorado de 1959 vient des États-Unis.
+      Ses grands ailerons arrière, en forme de fusée, sont parmi les plus hauts jamais mis sur une voiture.
+      Elle mesure plus de 5 mètres et demi de long.
+  car.chevrolet_bel_air:
+    label: Chevrolet Bel Air
+    summary: Une voiture américaine des années 1950, toute brillante, avec du chrome et de petits ailerons.
+    info: |
+      La Chevrolet Bel Air de 1957 vient des États-Unis.
+      Avec sa peinture de deux couleurs et tout son chrome, elle est devenue un symbole de l'Amérique des années 1950.
+      À Cuba, beaucoup de ces vieilles voitures roulent encore dans les rues aujourd'hui.
+  car.ford_gt40:
+    label: Ford GT40
+    summary: Une voiture de course américaine très basse qui a battu Ferrari.
+    info: |
+      La Ford GT40 a été construite dans les années 1960 pour gagner la course des 24 Heures du Mans.
+      Elle a gagné au Mans quatre années de suite, de 1966 à 1969.
+      Elle s'appelle GT40 parce qu'elle ne mesure qu'environ 40 pouces (1 mètre) de haut.
+  car.porsche_911_classic:
+    label: Porsche 911 Carrera RS
+    summary: Une voiture de sport allemande classique avec un petit aileron en « queue de canard ».
+    info: |
+      La Porsche 911 vient d'Allemagne ; la première a été fabriquée en 1964.
+      La Carrera RS de 1973 était une version légère et rapide, construite pour la course.
+      Son petit aileron arrière ressemble à la queue d'un canard.
+  car.porsche_911_modern:
+    label: Porsche 911
+    summary: La version moderne d'une voiture de sport qui garde la même forme depuis 60 ans.
+    info: |
+      La Porsche 911 vient d'Allemagne, et cette version est sortie en 2019.
+      Elle a toujours des phares ronds et son moteur à l'arrière, exactement comme la première 911.
+      C'est l'une des familles de voitures de sport fabriquées depuis le plus longtemps au monde.
+  car.lamborghini_countach:
+    label: Lamborghini Countach
+    summary: Une supercar italienne plate et pointue, avec des portes qui s'ouvrent vers le haut.
+    info: |
+      La Lamborghini Countach vient d'Italie et a été fabriquée de 1974 à 1990.
+      Ses portes se lèvent vers l'avant, comme une paire de ciseaux.
+      Beaucoup d'enfants avaient son poster sur le mur de leur chambre.
+  car.ferrari_testarossa:
+    label: Ferrari Testarossa
+    summary: Une large voiture de sport italienne rouge, avec des rayures sur les côtés.
+    info: |
+      La Ferrari Testarossa vient d'Italie et a été fabriquée pour la première fois en 1984.
+      « Testarossa » veut dire « tête rouge » en italien, parce que le dessus de son moteur est peint en rouge.
+      Les longues rayures sur ses côtés laissent entrer l'air pour refroidir le moteur.
+  car.ferrari_f40:
+    label: Ferrari F40
+    summary: Une supercar italienne rouge avec un grand aileron à l'arrière.
+    info: |
+      La Ferrari F40 vient d'Italie et a été fabriquée de 1987 à 1992.
+      Elle a été créée pour les 40 ans de Ferrari, et c'est de là que vient son nom.
+      C'était l'une des premières voitures de route capables de rouler à plus de 320 km/h.
+  car.delorean:
+    label: DeLorean
+    summary: Une voiture en acier toute brillante, devenue une machine à remonter le temps dans un film.
+    info: |
+      La DeLorean DMC-12 a été fabriquée en Irlande du Nord en 1981 et 1982.
+      Sa carrosserie est en acier inoxydable nu, sans aucune peinture, et ses portes s'ouvrent vers le haut.
+      Elle est devenue célèbre comme machine à remonter le temps dans le film « Retour vers le futur ».
+  car.london_taxi:
+    label: Taxi londonien
+    summary: Le célèbre taxi noir qui promène les gens dans Londres.
+    info: |
+      L'Austin FX4 vient du Royaume-Uni et a été fabriqué de 1958 à 1997.
+      Il peut faire demi-tour dans un tout petit cercle, ce qui aide dans les rues étroites de Londres.
+      Son toit est haut pour que les passagers puissent s'asseoir à l'intérieur avec un chapeau sur la tête.
+  car.toyota_land_cruiser:
+    label: Toyota Land Cruiser
+    summary: Une voiture japonaise très solide qui peut traverser les déserts et les jungles.
+    info: |
+      Le Toyota Land Cruiser FJ40 vient du Japon et a été fabriqué de 1960 à 1984.
+      Il a été vendu partout dans le monde et il est connu pour être presque incassable.
+      Beaucoup roulent encore aujourd'hui sur des routes difficiles.
+  car.mazda_mx5:
+    label: Mazda MX-5
+    summary: Une petite voiture japonaise joyeuse à deux places, avec des phares qui sortent d'un coup.
+    info: |
+      La Mazda MX-5 vient du Japon et a été mise en vente pour la première fois en 1989.
+      La première version avait des phares qui se relevaient hors du capot.
+      C'est la voiture de sport à deux places la plus vendue au monde.
+  car.trabant:
+    label: Trabant
+    summary: Une petite voiture d'Allemagne de l'Est dont la carrosserie est en partie en plastique.
+    info: |
+      La Trabant vient d'Allemagne de l'Est et a été fabriquée de 1957 à 1991.
+      Sa carrosserie était faite d'un plastique dur mélangé à des fibres de coton, au lieu d'acier.
+      Les gens devaient souvent attendre de nombreuses années pour en acheter une.
+  car.bugatti_veyron:
+    label: Bugatti Veyron
+    summary: Une voiture incroyablement rapide qui peut dépasser les 400 km/h.
+    info: |
+      La Bugatti Veyron vient de France et a été fabriquée de 2005 à 2015.
+      Son moteur a 16 cylindres et plus de 1 000 chevaux.
+      À sa sortie, c'était la voiture de route la plus rapide du monde.
+  car.tesla_model_s:
+    label: Tesla Model S
+    summary: Une voiture américaine rapide qui roule à l'électricité au lieu de l'essence.
+    info: |
+      La Tesla Model S vient des États-Unis et a été mise en vente en 2012.
+      Elle roule grâce à de grosses batteries sous le plancher, alors elle n'a pas de pot d'échappement.
+      Comme il n'y a pas de moteur à l'avant, il y a là un deuxième coffre.

@@ -1,0 +1,214 @@
+lang: tr
+pivot: false
+title: Ünlü arabalar
+cards:
+  car.ford_model_t:
+    label: Ford Model T
+    summary: Sıradan ailelerin de araba kullanabilmesini sağlayan araba.
+    info: |
+      Ford Model T, 1908'den 1927'ye kadar ABD'de üretildi.
+      Hareketli bir montaj hattında yapıldığı için ucuzdu ve 15 milyondan fazla üretildi.
+      Uzun yıllar boyunca onu yalnızca siyah renkte alabiliyordunuz.
+  car.vw_beetle:
+    label: Volkswagen Vosvos
+    summary: İngilizce adı bir böcek anlamına gelen küçük, yuvarlak bir araba.
+    info: |
+      Volkswagen Vosvos Almanya'dan geliyor ve 1938'den 2003'e kadar üretildi.
+      21 milyondan fazla yapıldı; aynı tasarımdaki hiçbir araba bundan fazla üretilmedi.
+      Motoru arkada, arka kapağın altında.
+  car.vw_bus:
+    label: Volkswagen minibüs
+    summary: Aileler, sörfçüler ve kamp gezileri için sevimli bir minibüs.
+    info: |
+      Volkswagen Type 2 Almanya'dan geliyor ve ilk kez 1950'de üretildi.
+      İlk modellerin ön camı ikiye bölünmüştü ve önlerinde büyük bir V vardı.
+      Pek çok kişi onu yolculuklar için tekerlekli küçük bir eve dönüştürdü.
+  car.jeep_willys:
+    label: Willys Jeep
+    summary: Neredeyse her yere gidebilen küçük, sağlam bir askeri araç.
+    info: |
+      Willys MB, İkinci Dünya Savaşı için 1941'den 1945'e kadar ABD'de üretildi.
+      Askerleri engebeli arazide taşımak için yüz binlercesi yapıldı.
+      Ondan sonra gelen bütün Jeep arabalar adını ondan aldı.
+  car.land_rover_defender:
+    label: Land Rover Defender
+    summary: Tarlalarda ve çamurda gitmek için yapılmış köşeli bir İngiliz arabası.
+    info: |
+      Land Rover Birleşik Krallık'tan geliyor; ilki 1948'de üretildi.
+      1990'dan itibaren adı Defender oldu ve 2016'ya kadar üretildi.
+      Çiftçiler, kâşifler ve kurtarma ekipleri onu dünyanın her yerinde kullandı.
+  car.mini_cooper:
+    label: Mini Cooper
+    summary: Şaşırtıcı derecede hızlı, minicik bir İngiliz arabası.
+    info: |
+      Mini Birleşik Krallık'tan geliyor ve 1959'dan 2000'e kadar üretildi.
+      Motoru yan yatırılarak yerleştirildiği için çok kısa bir arabaya dört kişi sığıyor.
+      Bir Mini Cooper S, 1964'te ünlü Monte Carlo Rallisi'ni kazandı.
+  car.fiat_500:
+    label: Fiat 500
+    summary: Dar şehir sokakları için yapılmış minicik bir İtalyan arabası.
+    info: |
+      Fiat 500 İtalya'dan geliyor ve 1957'den 1975'e kadar üretildi.
+      Boyu 3 metreden kısa olduğu için neredeyse her yere park edebiliyor.
+      İtalyanlar ona "Cinquecento" diyor; bu "beş yüz" demek.
+  car.citroen_2cv:
+    label: Citroën 2CV
+    summary: Tavanı geriye doğru sarılabilen sade bir Fransız arabası.
+    info: |
+      Citroën 2CV Fransa'dan geliyor ve 1948'den 1990'a kadar üretildi.
+      Çiftçileri ve mallarını tümsekli köy yollarında taşımak için tasarlandı.
+      Yumuşak kumaş tavanı, sardalya konservesinin kapağı gibi geriye sarılıyor.
+  car.citroen_ds:
+    label: Citroën DS
+    summary: Gelecekten gelmiş gibi görünen, kusursuz hatlı bir Fransız arabası.
+    info: |
+      Citroën DS Fransa'dan geliyor ve 1955'ten 1975'e kadar üretildi.
+      Özel süspansiyonu sayesinde araba çalıştırıldığında yükselip alçalıyor.
+      Fransızcada "DS", "tanrıça" anlamına gelen kelimeye benzer şekilde okunuyor.
+  car.mercedes_300sl:
+    label: Mercedes-Benz 300 SL
+    summary: Kapıları kanat gibi yukarı açılan gümüş renkli bir spor araba.
+    info: |
+      Mercedes-Benz 300 SL Almanya'dan geliyor; coupé modeli 1954'ten 1957'ye kadar üretildi.
+      Kapıları yukarı doğru açıldığı için insanlar ona "Gullwing", yani "martı kanadı" diyor.
+      Zamanının satın alınabilen en hızlı arabalarından biriydi.
+  car.jaguar_e_type:
+    label: Jaguar E-Type
+    summary: Uzun ve zarif bir İngiliz spor arabası.
+    info: |
+      Jaguar E-Type Birleşik Krallık'tan geliyor ve 1961'den 1975'e kadar üretildi.
+      Altında büyük bir motor olan çok uzun bir kaputu var.
+      Pek çok kişi onun şimdiye kadar yapılmış en güzel arabalardan biri olduğunu söylüyor.
+  car.aston_martin_db5:
+    label: Aston Martin DB5
+    summary: Casus James Bond'un zarif İngiliz arabası.
+    info: |
+      Aston Martin DB5 Birleşik Krallık'tan geliyor ve 1963'ten 1965'e kadar üretildi.
+      1964'teki James Bond filmi "Goldfinger" ile dünyaca ünlü oldu.
+      Yalnızca bin kadar üretildi.
+  car.shelby_cobra:
+    label: Shelby Cobra
+    summary: Kocaman, gürültülü bir motoru olan küçük, üstü açık bir araba.
+    info: |
+      Shelby Cobra, 1960'larda Amerikalı yarışçı Carroll Shelby tarafından yapıldı.
+      Shelby hafif bir İngiliz spor arabası aldı ve içine büyük bir Amerikan Ford motoru koydu.
+      Pek çok yarış kazandı ve bugün hâlâ kopyalanıyor.
+  car.ford_mustang:
+    label: Ford Mustang
+    summary: Adını vahşi bir attan alan sportif bir Amerikan arabası.
+    info: |
+      Ford Mustang ABD'den geliyor ve ilk kez 1964'te satışa çıktı.
+      O kadar sevildi ki benzer arabalardan oluşan koca bir gruba onun adından "pony car" dendi.
+      Mustang bugün hâlâ üretiliyor.
+  car.corvette_c2:
+    label: Corvette Sting Ray
+    summary: Arka camı ikiye bölünmüş bir Amerikan spor arabası.
+    info: |
+      Chevrolet Corvette Sting Ray ABD'den geliyor.
+      Arka camı iki yarıya bölünmüş olan yalnızca 1963 coupé modeliydi.
+      Gövdesi çelik yerine cam elyafından yapılmış.
+  car.cadillac_eldorado:
+    label: Cadillac Eldorado
+    summary: Tüm zamanların en büyük kuyruk kanatlarına sahip kocaman bir Amerikan arabası.
+    info: |
+      1959 model Cadillac Eldorado ABD'den geliyor.
+      Roket gibi biçimlenmiş yüksek kuyruk kanatları, bir arabaya takılmış en yüksek kanatlar arasında.
+      Boyu 5,5 metreden uzun.
+  car.chevrolet_bel_air:
+    label: Chevrolet Bel Air
+    summary: Kromlu ve küçük kuyruk kanatlı, parlak bir 1950'ler Amerikan arabası.
+    info: |
+      1957 model Chevrolet Bel Air ABD'den geliyor.
+      İki renkli boyası ve bol kromuyla 1950'ler Amerika'sının simgesi oldu.
+      Küba'da bu eski arabaların birçoğu bugün hâlâ sokaklarda dolaşıyor.
+  car.ford_gt40:
+    label: Ford GT40
+    summary: Ferrari'yi yenen, çok alçak bir Amerikan yarış arabası.
+    info: |
+      Ford GT40, 1960'larda Le Mans 24 Saat yarışını kazanmak için yapıldı.
+      1966'dan 1969'a kadar dört yıl üst üste Le Mans'ı kazandı.
+      Adı GT40, çünkü yüksekliği yalnızca 40 inç (1 metre) kadar.
+  car.porsche_911_classic:
+    label: Porsche 911 Carrera RS
+    summary: Küçük bir "ördek kuyruğu" rüzgârlığı olan klasik bir Alman spor arabası.
+    info: |
+      Porsche 911 Almanya'dan geliyor; ilki 1964'te üretildi.
+      1973 model Carrera RS, yarışlar için yapılmış hafif ve hızlı bir modeldi.
+      Arkadaki küçük rüzgârlığı ördek kuyruğuna benziyor.
+  car.porsche_911_modern:
+    label: Porsche 911
+    summary: 60 yıldır aynı şeklini koruyan bir spor arabanın modern hâli.
+    info: |
+      Porsche 911 Almanya'dan geliyor ve bu model 2019'da çıktı.
+      Tıpkı ilk 911 gibi hâlâ yuvarlak farları var ve motoru arkada.
+      Dünyada en uzun süredir üretilen spor araba ailelerinden biri.
+  car.lamborghini_countach:
+    label: Lamborghini Countach
+    summary: Kapıları yukarı açılan, basık ve keskin hatlı bir İtalyan süper arabası.
+    info: |
+      Lamborghini Countach İtalya'dan geliyor ve 1974'ten 1990'a kadar üretildi.
+      Kapıları bir makas gibi yukarı ve öne doğru açılıyor.
+      Pek çok çocuğun odasının duvarında onun posteri vardı.
+  car.ferrari_testarossa:
+    label: Ferrari Testarossa
+    summary: Yanlarında şeritler olan geniş, kırmızı bir İtalyan spor arabası.
+    info: |
+      Ferrari Testarossa İtalya'dan geliyor ve ilk kez 1984'te üretildi.
+      "Testarossa" İtalyancada "kırmızı kafa" demek, çünkü motorunun üstü kırmızıya boyalı.
+      Yanlarındaki uzun şeritler içeri hava alıp motoru soğutuyor.
+  car.ferrari_f40:
+    label: Ferrari F40
+    summary: Arkasında büyük bir kanat olan kırmızı bir İtalyan süper arabası.
+    info: |
+      Ferrari F40 İtalya'dan geliyor ve 1987'den 1992'ye kadar üretildi.
+      Ferrari'nin 40. yaş günü için yapıldı; adı da buradan geliyor.
+      Saatte 320 kilometreden hızlı gidebilen ilk yol arabalarından biriydi.
+  car.delorean:
+    label: DeLorean
+    summary: Bir filmde zaman makinesine dönüşen, parlak çelik bir araba.
+    info: |
+      DeLorean DMC-12, 1981 ve 1982'de Kuzey İrlanda'da üretildi.
+      Gövdesi hiç boyanmamış, çıplak paslanmaz çelikten yapılmış ve kapıları yukarı açılıyor.
+      "Geleceğe Dönüş" filmindeki zaman makinesi olarak ünlendi.
+  car.london_taxi:
+    label: Londra taksisi
+    summary: İnsanları Londra'da gezdiren ünlü siyah taksi.
+    info: |
+      Austin FX4 Birleşik Krallık'tan geliyor ve 1958'den 1997'ye kadar üretildi.
+      Çok küçük bir daire çizerek dönebiliyor; bu da Londra'nın dar sokaklarında işe yarıyor.
+      Yüksek tavanı, yolcular içeride şapkalarıyla oturabilsin diye yapıldı.
+  car.toyota_land_cruiser:
+    label: Toyota Land Cruiser
+    summary: Çöllerden ve ormanlardan geçebilen sağlam bir Japon arabası.
+    info: |
+      Toyota Land Cruiser FJ40 Japonya'dan geliyor ve 1960'tan 1984'e kadar üretildi.
+      Dünyanın her yerinde satıldı ve çok zor bozulmasıyla tanınıyor.
+      Birçoğu bugün hâlâ bozuk yollarda gidiyor.
+  car.mazda_mx5:
+    label: Mazda MX-5
+    summary: Farları açılıp kalkan küçük, neşeli, iki kişilik bir Japon arabası.
+    info: |
+      Mazda MX-5 Japonya'dan geliyor ve ilk kez 1989'da satışa çıktı.
+      İlk modelin farları kaputun içinden yukarı kalkıyordu.
+      Dünyada en çok satılan iki kişilik spor araba.
+  car.trabant:
+    label: Trabant
+    summary: Gövdesinin bir kısmı plastikten yapılmış küçük bir Doğu Alman arabası.
+    info: |
+      Trabant Doğu Almanya'dan geliyor ve 1957'den 1991'e kadar üretildi.
+      Gövdesi çelik yerine, pamuk lifleriyle karıştırılmış sert bir plastikten yapılmıştı.
+      İnsanlar bir tane alabilmek için çoğu zaman yıllarca beklemek zorunda kalıyordu.
+  car.bugatti_veyron:
+    label: Bugatti Veyron
+    summary: Saatte 400 kilometreden hızlı gidebilen inanılmaz hızlı bir araba.
+    info: |
+      Bugatti Veyron Fransa'dan geliyor ve 2005'ten 2015'e kadar üretildi.
+      Motorunda 16 silindir ve 1.000'den fazla beygir gücü var.
+      Çıktığında dünyanın en hızlı yol arabasıydı.
+  car.tesla_model_s:
+    label: Tesla Model S
+    summary: Benzin yerine elektrikle çalışan hızlı bir Amerikan arabası.
+    info: |
+      Tesla Model S ABD'den geliyor ve 2012'de satışa çıktı.
+      Tabanın altındaki büyük bataryalarla çalıştığı için egzoz borusu yok.
+      Önde motor olmadığı için orada ikinci bir bagaj var.

@@ -1,0 +1,214 @@
+lang: vi
+pivot: false
+title: Máy móc công trường
+cards:
+  machine.excavator:
+    label: Máy xúc
+    summary: Cỗ máy đào đất với cánh tay dài và chiếc gầu đầy răng.
+    info: |
+      Máy xúc chạy bằng bánh xích, nên nó không bị lún xuống bùn mềm.
+      Cả phần trên có ca-bin và cánh tay có thể xoay tròn một vòng.
+      Cánh tay được điều khiển bằng thủy lực, tức là dầu được đẩy qua các ống dưới áp suất cao.
+  machine.mini_excavator:
+    label: Máy xúc mini
+    summary: Chiếc máy đào nhỏ có thể đi lọt qua cổng vườn.
+    info: |
+      Máy xúc mini đào ở những nơi máy lớn không vào được, như vườn, sân và những con phố hẹp.
+      Nó thường chạy bằng bánh xích cao su, nên không làm hỏng mặt đường lát.
+      Chiếc lưỡi nhỏ ở phía trước đẩy đất trở lại xuống hố.
+  machine.backhoe_loader:
+    label: Máy xúc đào liên hợp
+    summary: Chiếc máy kéo có gầu xúc ở phía trước và cánh tay đào ở phía sau.
+    info: |
+      Máy xúc đào liên hợp là hai máy trong một, phía trước là máy xúc lật, phía sau là máy đào.
+      Người lái xoay ghế lại để làm việc với cánh tay phía sau.
+      Nó chạy bằng bánh lốp, nên có thể đi trên đường từ công trình này sang công trình khác.
+  machine.wheel_loader:
+    label: Máy xúc lật
+    summary: Cỗ máy có lốp khổng lồ, xúc và chở cát sỏi.
+    info: |
+      Máy xúc lật xúc đầy chiếc gầu lớn phía trước rồi đổ vào xe tải.
+      Thân máy gập lại được ở giữa, nên nó có thể quay đầu ở những chỗ chật hẹp.
+      Những chiếc máy xúc lật lớn nhất có lốp cao hơn cả người lớn.
+  machine.bulldozer:
+    label: Máy ủi
+    summary: Cỗ máy bánh xích rất khỏe, dùng lưỡi rộng để ủi đất.
+    info: |
+      Máy ủi đẩy đất, đá và cát bằng lưỡi thép ở phía trước.
+      Chiếc móc ở phía sau, gọi là lưỡi xới, phá vỡ những chỗ đất cứng.
+      Bánh xích rộng giúp chia đều sức nặng của nó, nên nó có thể chạy trên đất tơi xốp.
+  machine.skid_steer:
+    label: Máy xúc lật mini
+    summary: Chiếc máy xúc nhỏ hình hộp có thể xoay tại chỗ.
+    info: |
+      Máy xúc lật mini rẽ bằng cách cho bánh xe bên này quay nhanh hơn bánh xe bên kia.
+      Nhờ vậy nó có thể xoay tròn tại chỗ, gần giống như xe tăng.
+      Thay cho chiếc gầu, nó có thể lắp nhiều dụng cụ khác, như càng nâng, chổi quét hay mũi khoan.
+  machine.dump_truck:
+    label: Xe ben
+    summary: Chiếc xe tải đổ hàng ra từ phía sau.
+    info: |
+      Xe ben chở cát, sỏi hoặc đất trong một thùng thép gọi là thùng ben.
+      Các pít-tông thủy lực nâng phía trước thùng lên, và hàng trượt ra ở phía sau.
+      Sau đó thùng hạ xuống và xe lại chạy đi chở tiếp.
+  machine.articulated_hauler:
+    label: Xe ben khớp nối
+    summary: Chiếc xe ben chạy trên đất gồ ghề, gập được ở giữa.
+    info: |
+      Xe ben khớp nối có hai phần nối với nhau bằng một khớp xoay, nên nó gập được ở giữa.
+      Nhờ vậy nó đi qua được bùn lầy và chỗ gồ ghề, nơi một chiếc xe tải thường sẽ bị mắc kẹt.
+      Nó được làm cho công trường và mỏ đá, không phải để chạy trên đường.
+  machine.mining_truck:
+    label: Xe ben mỏ
+    summary: Chiếc xe ben khổng lồ làm việc trong những mỏ lộ thiên rộng lớn.
+    info: |
+      Xe ben mỏ là một trong những chiếc xe tải lớn nhất thế giới.
+      Lốp của nó cao hơn người lớn, và người lái phải trèo thang để lên ca-bin.
+      Những chiếc lớn nhất có thể chở hơn 400 tấn đá cùng một lúc.
+  machine.concrete_mixer:
+    label: Xe bồn trộn bê tông
+    summary: Chiếc xe tải có cái bồn lớn quay mãi không ngừng.
+    info: |
+      Xe bồn trộn bê tông chở bê tông tươi đến công trường.
+      Trên đường đi, bồn cứ quay liên tục để bê tông không bị đông cứng bên trong.
+      Khi bồn quay theo chiều ngược lại, bê tông chảy ra theo máng.
+  machine.concrete_pump:
+    label: Xe bơm bê tông
+    summary: Chiếc xe tải có cánh tay dài gập lại được, bơm bê tông lên thật cao.
+    info: |
+      Xe bơm bê tông đẩy bê tông ướt qua một đường ống chạy dọc cánh tay dài của nó.
+      Cánh tay duỗi ra như một ngón tay khổng lồ và vươn tới những tầng cao của tòa nhà.
+      Những chân thép ở hai bên giữ cho xe không bị lật.
+  machine.tower_crane:
+    label: Cần cẩu tháp
+    summary: Chiếc cần cẩu cao đứng sừng sững trên công trường.
+    info: |
+      Cần cẩu tháp nâng những vật nặng như dầm thép và bê tông lên tận đỉnh tòa nhà.
+      Người điều khiển trèo lên bên trong tháp để vào ca-bin nhỏ trên cao.
+      Những khối bê tông nặng ở cánh tay ngắn giữ thăng bằng cho vật nặng ở cánh tay dài.
+  machine.mobile_crane:
+    label: Xe cẩu
+    summary: Chiếc cần cẩu gắn trên xe tải, có cánh tay trượt ra dài thêm mãi.
+    info: |
+      Xe cẩu tự chạy đến công trường bằng bánh xe của mình.
+      Cánh tay của nó dạng ống lồng, trượt ra giống như chiếc kính viễn vọng để dài hơn rất nhiều.
+      Trước khi nâng, nó duỗi những chân khỏe ra hai bên để không bị lật.
+  machine.crawler_crane:
+    label: Cần cẩu bánh xích
+    summary: Chiếc cần cẩu bánh xích rất khỏe với cánh tay dạng khung cao vút.
+    info: |
+      Cần cẩu bánh xích đứng trên bánh xích, giúp chia đều sức nặng khổng lồ của nó xuống mặt đất.
+      Cánh tay dài của nó làm bằng khung thép dạng lưới, nhẹ nhưng rất chắc.
+      Những cần cẩu bánh xích lớn nâng các phần của cây cầu và tua-bin gió.
+  machine.road_roller:
+    label: Xe lu
+    summary: Cỗ máy nặng có trống thép nhẵn, cán phẳng nhựa đường.
+    info: |
+      Xe lu chạy chậm trên lớp nhựa đường mới và ép nó phẳng và chắc.
+      Trống thép của nó có thể rung rất nhanh, giúp nén mặt đường chặt hơn nữa.
+      Người ta phun nước lên trống để nhựa đường nóng không dính vào.
+  machine.asphalt_paver:
+    label: Máy rải nhựa đường
+    summary: Cỗ máy trải một lớp mặt đường mới.
+    info: |
+      Xe tải đổ nhựa đường nóng vào phía trước máy rải.
+      Máy rải trải nhựa đường ra phía sau thành một lớp đều khi nó chầm chậm tiến lên.
+      Thường có một chiếc xe lu đi ngay phía sau nó.
+  machine.motor_grader:
+    label: Máy san
+    summary: Cỗ máy dài có lưỡi ở dưới bụng, san phẳng mặt đường.
+    info: |
+      Máy san có một lưỡi dài ở bên dưới, nằm giữa bánh trước và bánh sau.
+      Lưỡi có thể nghiêng và xoay, nên nó có thể làm mặt đất thật phẳng hoặc hơi dốc.
+      Máy san làm phẳng đường sỏi và chuẩn bị mặt đất trước khi làm đường mới.
+  machine.forklift:
+    label: Xe nâng
+    summary: Chiếc xe nhỏ nâng hàng bằng hai càng.
+    info: |
+      Xe nâng luồn hai càng vào dưới tấm pallet rồi nâng nó lên.
+      Nó làm việc trong nhà kho, nhà máy và cửa hàng.
+      Một khối nặng ở phía sau giữ cho nó không bị chúi về phía trước khi chở hàng.
+  machine.telehandler:
+    label: Xe nâng tay cần
+    summary: Chiếc máy xúc có cánh tay dài trượt ra để nâng đồ lên cao.
+    info: |
+      Xe nâng tay cần giống như xe nâng nhưng có cánh tay dài dạng ống lồng.
+      Nó có thể nâng một pallet gạch lên mái nhà hoặc đưa vào sâu trong tòa nhà.
+      Nó được dùng ở công trường và ở trang trại, nơi nó nâng những kiện cỏ khô.
+  machine.boom_lift:
+    label: Xe nâng người dạng cần
+    summary: Cỗ máy nâng công nhân lên cao trong một chiếc giỏ.
+    info: |
+      Xe nâng người dạng cần nâng một sàn nhỏ có lan can lên cao trên không.
+      Công nhân đứng trên đó để sơn tường, sửa đèn hoặc cắt cành cây.
+      Cánh tay có khớp của nó có thể vươn lên cao và vươn qua cả chướng ngại vật.
+  machine.scissor_lift:
+    label: Xe nâng cắt kéo
+    summary: Chiếc sàn nâng thẳng lên trên những thanh đỡ bắt chéo nhau.
+    info: |
+      Xe nâng cắt kéo có những thanh kim loại bắt chéo, mở ra giống như chiếc kéo.
+      Khi chúng mở ra, cái sàn ở trên cùng nâng thẳng lên.
+      Công nhân dùng nó trong hội trường và nhà kho để với tới trần nhà.
+  machine.demolition_breaker:
+    label: Búa phá thủy lực
+    summary: Chiếc máy xúc có búa thay cho gầu, dùng để đập vỡ bê tông.
+    info: |
+      Búa phá thủy lực là một chiếc búa khổng lồ gắn vào cánh tay của máy xúc.
+      Nó đập vào bê tông và đá nhiều lần trong một giây cho đến khi chúng nứt ra.
+      Nó giúp phá dỡ những tòa nhà cũ và đập đá trong mỏ đá.
+  machine.pile_driver:
+    label: Máy đóng cọc
+    summary: Cỗ máy đóng những cây cột dài sâu xuống lòng đất.
+    info: |
+      Máy đóng cọc ép hoặc đóng những cây cột dài bằng thép hay bê tông, gọi là cọc, xuống đất.
+      Cọc đỡ các tòa nhà và cây cầu ở những nơi đất mềm.
+      Nó có một cột cao giữ cho cọc luôn thật thẳng.
+  machine.drilling_rig:
+    label: Máy khoan cọc nhồi
+    summary: Cỗ máy bánh xích khoan những lỗ sâu xuống đất.
+    info: |
+      Máy khoan cọc nhồi xoay một mũi khoan xoắn dài để khoan một lỗ sâu.
+      Đất đi lên theo đường xoắn và chất thành đống quanh miệng lỗ.
+      Các lỗ được đổ đầy bê tông để làm móng thật chắc.
+  machine.tunnel_boring_machine:
+    label: Máy đào hầm
+    summary: Cỗ máy tròn khổng lồ đào đường hầm dưới lòng đất.
+    info: |
+      Phía trước máy đào hầm là một bánh xe tròn khổng lồ có các đĩa cắt, nó quay chầm chậm và nghiền xuyên qua đá.
+      Phía sau, cỗ máy lát thành đường hầm bằng những tấm bê tông.
+      Máy đào hầm thường được đặt tên con gái.
+  machine.cold_planer:
+    label: Máy cào bóc mặt đường
+    summary: Cỗ máy mài bỏ lớp nhựa đường cũ đã mòn.
+    info: |
+      Máy cào bóc mặt đường có một trống quay với những chiếc răng sắc ở bên dưới.
+      Nó mài bỏ lớp trên cùng của con đường cũ, và một băng chuyền chất các mảnh vụn lên xe tải.
+      Nhựa đường cũ có thể được dùng lại để làm đường mới.
+  machine.plate_compactor:
+    label: Máy đầm bàn
+    summary: Tấm đầm nhỏ rung lắc, được công nhân đẩy đi để nén chặt mặt đất.
+    info: |
+      Máy đầm bàn có một tấm thép nặng rung rất nhanh.
+      Công nhân đi phía sau và lái nó bằng tay cầm.
+      Nó nén chặt cát và sỏi bên dưới lối đi, sân hiên và vỉa hè.
+  machine.sheepsfoot_roller:
+    label: Xe lu chân cừu
+    summary: Chiếc xe lu có trống lồi lõm, nén chặt đất.
+    info: |
+      Trống của xe lu chân cừu được phủ đầy những khối nhô lên, gọi là chân lu.
+      Những chân lu ấn sâu vào đất và nén nó chặt hơn trống nhẵn.
+      Nó được dùng cho đất và đất sét, ví dụ dưới những con đường mới hoặc để làm đập.
+  machine.bucket_wheel_excavator:
+    label: Máy xúc bánh gầu
+    summary: Cỗ máy khổng lồ có bánh xe quay đầy những chiếc gầu.
+    info: |
+      Máy xúc bánh gầu đào than và đất trong những mỏ lộ thiên rộng lớn.
+      Một bánh xe lớn có gầu quay ở đầu cánh tay và đổ đầy một băng chuyền dài.
+      Những chiếc lớn nhất dài hơn 200 mét, nên chúng là một trong những cỗ máy lớn nhất trên mặt đất.
+  machine.loader_crane_truck:
+    label: Xe tải gắn cẩu
+    summary: Chiếc xe tải có cánh tay gập lại được để nâng hàng lên và xuống.
+    info: |
+      Xe tải gắn cẩu mang theo cánh tay thủy lực gập được của riêng nó ở ngay sau ca-bin.
+      Nó có thể dỡ gạch, ống hay pallet mà không cần máy nào khác.
+      Trước khi nâng, nó duỗi chân ra hai bên để đứng thật vững.

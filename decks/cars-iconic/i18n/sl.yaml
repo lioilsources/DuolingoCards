@@ -1,0 +1,214 @@
+lang: sl
+pivot: false
+title: Slavni avtomobili
+cards:
+  car.ford_model_t:
+    label: Ford Model T
+    summary: Avto, s katerim so se lahko vozile tudi navadne družine.
+    info: |
+      Ford Model T so izdelovali v ZDA od leta 1908 do 1927.
+      Sestavljali so ga na tekočem traku, zato je bil poceni, in naredili so jih več kot 15 milijonov.
+      Veliko let si ga lahko kupil samo v črni barvi.
+  car.vw_beetle:
+    label: Volkswagen Hrošč
+    summary: Majhen okrogel avto, ki so ga ljudje poimenovali po žuželki.
+    info: |
+      Volkswagen Hrošč prihaja iz Nemčije in so ga izdelovali od leta 1938 do 2003.
+      Naredili so jih več kot 21 milijonov, več kot katerega koli drugega avta z isto obliko.
+      Motor ima zadaj, pod zadnjim pokrovom.
+  car.vw_bus:
+    label: Volkswagen kombi
+    summary: Prijazen kombi za družine, deskarje in izlete s kampiranjem.
+    info: |
+      Volkswagen Type 2 prihaja iz Nemčije in so ga prvič izdelali leta 1950.
+      Prvi so imeli vetrobransko steklo, razdeljeno na dve polovici, in velik V spredaj.
+      Veliko ljudi ga je za potovanja spremenilo v hišico na kolesih.
+  car.jeep_willys:
+    label: Jeep Willys
+    summary: Majhen, trpežen vojaški avto, ki je lahko vozil skoraj povsod.
+    info: |
+      Willys MB so izdelovali v ZDA za drugo svetovno vojno, od leta 1941 do 1945.
+      Naredili so jih več sto tisoč, da so vozili vojake po razdrapanem terenu.
+      Po njem so dobili ime vsi poznejši avtomobili Jeep.
+  car.land_rover_defender:
+    label: Land Rover Defender
+    summary: Oglat britanski avto, narejen za vožnjo čez polja in blato.
+    info: |
+      Land Rover prihaja iz Združenega kraljestva; prvega so naredili leta 1948.
+      Od leta 1990 se je imenoval Defender, izdelovali pa so ga do leta 2016.
+      Uporabljali so ga kmetje, raziskovalci in reševalci po vsem svetu.
+  car.mini_cooper:
+    label: Mini Cooper
+    summary: Drobcen britanski avto, ki je bil presenetljivo hiter.
+    info: |
+      Mini prihaja iz Združenega kraljestva in so ga izdelovali od leta 1959 do 2000.
+      Motor ima postavljen počez, zato se v zelo kratek avto usedejo štirje ljudje.
+      Mini Cooper S je leta 1964 zmagal na slavnem reliju Monte Carlo.
+  car.fiat_500:
+    label: Fiat 500
+    summary: Drobcen italijanski avto za ozke mestne ulice.
+    info: |
+      Fiat 500 prihaja iz Italije in so ga izdelovali od leta 1957 do 1975.
+      Dolg je manj kot 3 metre, zato lahko parkira skoraj kjer koli.
+      Italijani mu rečejo "Cinquecento", kar pomeni "petsto".
+  car.citroen_2cv:
+    label: Citroën 2CV
+    summary: Preprost francoski avto s streho, ki jo lahko zviješ nazaj.
+    info: |
+      Citroën 2CV prihaja iz Francije in so ga izdelovali od leta 1948 do 1990.
+      Narejen je bil za to, da je vozil kmete in njihov tovor po razdrapanih podeželskih cestah.
+      Mehka platnena streha se zvije nazaj kot pokrov konzerve sardin.
+  car.citroen_ds:
+    label: Citroën DS
+    summary: Gladek francoski avto, ki je bil videti, kot da je prišel iz prihodnosti.
+    info: |
+      Citroën DS prihaja iz Francije in so ga izdelovali od leta 1955 do 1975.
+      Zaradi posebnega vzmetenja se avto dvigne in spusti, ko ga prižgeš.
+      V francoščini se "DS" sliši kot beseda za "boginjo".
+  car.mercedes_300sl:
+    label: Mercedes-Benz 300 SL
+    summary: Srebrn športni avto z vrati, ki se odpirajo navzgor kot krila.
+    info: |
+      Mercedes-Benz 300 SL prihaja iz Nemčije; kupe so izdelovali od leta 1954 do 1957.
+      Vrata se odpirajo navzgor, zato mu ljudje rečejo "Gullwing", galebje krilo.
+      Bil je eden najhitrejših avtomobilov, ki si jih lahko takrat kupil.
+  car.jaguar_e_type:
+    label: Jaguar E-Type
+    summary: Dolg, vitek britanski športni avto.
+    info: |
+      Jaguar E-Type prihaja iz Združenega kraljestva in so ga izdelovali od leta 1961 do 1975.
+      Ima zelo dolg pokrov motorja, pod katerim je velik motor.
+      Veliko ljudi pravi, da je eden najlepših avtomobilov, kar so jih kdaj naredili.
+  car.aston_martin_db5:
+    label: Aston Martin DB5
+    summary: Eleganten britanski avto vohuna Jamesa Bonda.
+    info: |
+      Aston Martin DB5 prihaja iz Združenega kraljestva in so ga izdelovali od leta 1963 do 1965.
+      Svetovno slaven je postal leta 1964 v filmu o Jamesu Bondu "Goldfinger".
+      Naredili so jih samo okoli tisoč.
+  car.shelby_cobra:
+    label: Shelby Cobra
+    summary: Majhen odprt avto z ogromnim, glasnim motorjem.
+    info: |
+      Shelby Cobro je v šestdesetih letih 20. stoletja naredil ameriški dirkač Carroll Shelby.
+      Vzel je lahek britanski športni avto in vanj vgradil velik ameriški Fordov motor.
+      Zmagal je na veliko dirkah in ga še danes posnemajo.
+  car.ford_mustang:
+    label: Ford Mustang
+    summary: Športen ameriški avto, poimenovan po divjem konju.
+    info: |
+      Ford Mustang prihaja iz ZDA in je prvič prišel v prodajo leta 1964.
+      Bil je tako priljubljen, da so po njem celo skupino podobnih avtomobilov poimenovali "pony cars".
+      Mustanga izdelujejo še danes.
+  car.corvette_c2:
+    label: Corvette Sting Ray
+    summary: Ameriški športni avto z zadnjim steklom, razdeljenim na dva dela.
+    info: |
+      Chevrolet Corvette Sting Ray prihaja iz ZDA.
+      Samo kupe iz leta 1963 je imel zadnje steklo, razdeljeno na dve polovici.
+      Karoserija je iz steklenih vlaken namesto iz jekla.
+  car.cadillac_eldorado:
+    label: Cadillac Eldorado
+    summary: Ogromen ameriški avto z največjimi repnimi plavutmi vseh časov.
+    info: |
+      Cadillac Eldorado iz leta 1959 prihaja iz ZDA.
+      Njegove visoke repne plavuti v obliki rakete so med najvišjimi, kar so jih kdaj dali na avto.
+      Dolg je več kot pet metrov in pol.
+  car.chevrolet_bel_air:
+    label: Chevrolet Bel Air
+    summary: Bleščeč ameriški avto iz petdesetih let s kromom in majhnimi repnimi plavutmi.
+    info: |
+      Chevrolet Bel Air iz leta 1957 prihaja iz ZDA.
+      Z dvobarvnim lakom in veliko kroma je postal simbol Amerike v petdesetih letih.
+      Na Kubi se veliko teh starih avtomobilov še danes vozi po ulicah.
+  car.ford_gt40:
+    label: Ford GT40
+    summary: Zelo nizek ameriški dirkalnik, ki je premagal Ferrari.
+    info: |
+      Ford GT40 so v šestdesetih letih naredili zato, da bi zmagal na 24-urni dirki v Le Mansu.
+      V Le Mansu je zmagal štiri leta zapored, od leta 1966 do 1969.
+      Imenuje se GT40, ker je visok samo približno 40 palcev (1 meter).
+  car.porsche_911_classic:
+    label: Porsche 911 Carrera RS
+    summary: Klasičen nemški športni avto z majhnim spojlerjem "račji rep".
+    info: |
+      Porsche 911 prihaja iz Nemčije; prvega so naredili leta 1964.
+      Carrera RS iz leta 1973 je bila lahka, hitra različica za dirke.
+      Njen majhen zadnji spojler je videti kot račji rep.
+  car.porsche_911_modern:
+    label: Porsche 911
+    summary: Sodobna različica športnega avta, ki ima že 60 let isto obliko.
+    info: |
+      Porsche 911 prihaja iz Nemčije, ta različica pa je izšla leta 2019.
+      Še vedno ima okrogle žaromete in motor zadaj, prav kot prvi 911.
+      Je ena najdlje izdelovanih družin športnih avtomobilov na svetu.
+  car.lamborghini_countach:
+    label: Lamborghini Countach
+    summary: Ploščat, oster italijanski superšportni avto z vrati, ki se odpirajo navzgor.
+    info: |
+      Lamborghini Countach prihaja iz Italije in so ga izdelovali od leta 1974 do 1990.
+      Vrata se dvignejo navzgor in naprej, kot škarje.
+      Veliko otrok je imelo njegov plakat na steni v svoji sobi.
+  car.ferrari_testarossa:
+    label: Ferrari Testarossa
+    summary: Širok rdeč italijanski športni avto s črtami ob straneh.
+    info: |
+      Ferrari Testarossa prihaja iz Italije in so ga prvič izdelali leta 1984.
+      "Testarossa" po italijansko pomeni "rdeča glava", ker je vrh motorja pobarvan rdeče.
+      Dolge črte ob straneh spuščajo noter zrak, ki hladi motor.
+  car.ferrari_f40:
+    label: Ferrari F40
+    summary: Rdeč italijanski superšportni avto z velikim krilom zadaj.
+    info: |
+      Ferrari F40 prihaja iz Italije in so ga izdelovali od leta 1987 do 1992.
+      Narejen je bil za 40. rojstni dan Ferrarija, od tod tudi njegovo ime.
+      Bil je eden prvih cestnih avtomobilov, ki je lahko vozil hitreje od 320 km/h.
+  car.delorean:
+    label: DeLorean
+    summary: Bleščeč jeklen avto, ki je v filmu postal časovni stroj.
+    info: |
+      DeLorean DMC-12 so izdelovali na Severnem Irskem v letih 1981 in 1982.
+      Karoserija je iz golega nerjavnega jekla, brez barve, vrata pa se odpirajo navzgor.
+      Slaven je postal kot časovni stroj v filmu "Nazaj v prihodnost".
+  car.london_taxi:
+    label: Londonski taksi
+    summary: Slavni črni taksi, ki vozi ljudi po Londonu.
+    info: |
+      Austin FX4 prihaja iz Združenega kraljestva in so ga izdelovali od leta 1958 do 1997.
+      Lahko obrne v zelo majhnem krogu, kar pomaga na ozkih londonskih ulicah.
+      Visoko streho so mu naredili zato, da so potniki lahko v njem sedeli s klobukom na glavi.
+  car.toyota_land_cruiser:
+    label: Toyota Land Cruiser
+    summary: Trpežen japonski avto, ki se lahko pelje skozi puščave in džungle.
+    info: |
+      Toyota Land Cruiser FJ40 prihaja iz Japonske in so jo izdelovali od leta 1960 do 1984.
+      Prodajali so jo po vsem svetu in znana je po tem, da jo je zelo težko pokvariti.
+      Veliko jih še danes vozi po slabih cestah.
+  car.mazda_mx5:
+    label: Mazda MX-5
+    summary: Majhen, vesel japonski dvosed z žarometi, ki skočijo ven.
+    info: |
+      Mazda MX-5 prihaja iz Japonske in je prvič prišla v prodajo leta 1989.
+      Prva različica je imela žaromete, ki so se dvignili iz pokrova motorja.
+      Je najbolje prodajani dvosedežni športni avto na svetu.
+  car.trabant:
+    label: Trabant
+    summary: Majhen vzhodnonemški avto s karoserijo deloma iz plastike.
+    info: |
+      Trabant prihaja iz Vzhodne Nemčije in so ga izdelovali od leta 1957 do 1991.
+      Karoserija je bila namesto iz jekla iz trde plastike, pomešane z bombažnimi vlakni.
+      Ljudje so morali pogosto čakati veliko let, da so ga lahko kupili.
+  car.bugatti_veyron:
+    label: Bugatti Veyron
+    summary: Neverjetno hiter avto, ki lahko pelje več kot 400 km/h.
+    info: |
+      Bugatti Veyron prihaja iz Francije in so ga izdelovali od leta 2005 do 2015.
+      Njegov motor ima 16 valjev in več kot 1000 konjskih moči.
+      Ko je prišel na trg, je bil najhitrejši cestni avto na svetu.
+  car.tesla_model_s:
+    label: Tesla Model S
+    summary: Hiter ameriški avto, ki vozi na elektriko namesto na bencin.
+    info: |
+      Tesla Model S prihaja iz ZDA in je prišla v prodajo leta 2012.
+      Vozi na velike baterije pod podom, zato nima izpušne cevi.
+      Ker spredaj ni motorja, ima tam še en prtljažnik.

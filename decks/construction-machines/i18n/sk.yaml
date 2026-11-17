@@ -1,0 +1,214 @@
+lang: sk
+pivot: false
+title: Bagre a stavebné stroje
+cards:
+  machine.excavator:
+    label: bager
+    summary: Stroj na kopanie s dlhým ramenom a lyžicou plnou zubov.
+    info: |
+      Bager jazdí na pásoch, takže sa neborí do mäkkého blata.
+      Celá horná časť s kabínou a ramenom sa môže otočiť dookola.
+      Rameno poháňa hydraulika, teda olej, ktorý sa tlačí potrubím pod veľkým tlakom.
+  machine.mini_excavator:
+    label: minibager
+    summary: Malý bager, ktorý sa zmestí cez záhradnú bránku.
+    info: |
+      Minibager kope tam, kam by sa veľký nezmestil, napríklad v záhradách, na dvoroch a v úzkych uličkách.
+      Zvyčajne jazdí na gumových pásoch, takže nepoškodí dlažbu.
+      Malá radlica vpredu zahrnie zeminu späť do jamy.
+  machine.backhoe_loader:
+    label: traktorbager
+    summary: Traktor s lyžicou vpredu a kopacím ramenom vzadu.
+    info: |
+      Traktorbager sú dva stroje v jednom, vpredu nakladač a vzadu bager.
+      Vodič otočí sedadlo dozadu, keď chce pracovať so zadným ramenom.
+      Jazdí na kolesách, takže môže prejsť po ceste z jednej stavby na druhú.
+  machine.wheel_loader:
+    label: kolesový nakladač
+    summary: Stroj s obrovskými pneumatikami, ktorý naberá a vozí piesok a štrk.
+    info: |
+      Kolesový nakladač naplní svoju veľkú prednú lyžicu a vysype ju do nákladných áut.
+      Jeho telo sa v strede ohýba, a tak sa dokáže otočiť aj v tesnom priestore.
+      Najväčšie nakladače majú pneumatiky vyššie ako dospelý človek.
+  machine.bulldozer:
+    label: buldozér
+    summary: Silný stroj na pásoch, ktorý tlačí zeminu širokou radlicou.
+    info: |
+      Buldozér tlačí zeminu, kamene a piesok oceľovou radlicou vpredu.
+      Pazúr vzadu, ktorý sa volá rozrývač, rozbíja tvrdú zem.
+      Široké pásy rozložia jeho váhu, takže môže jazdiť aj po sypkej zemi.
+  machine.skid_steer:
+    label: šmykom riadený nakladač
+    summary: Malý nakladač v tvare krabice, ktorý sa otočí na mieste.
+    info: |
+      Šmykom riadený nakladač zatáča tak, že kolesá na jednej strane točí rýchlejšie ako na druhej.
+      Vďaka tomu sa dokáže otočiť na mieste, skoro ako tank.
+      Namiesto lyžice môže niesť aj veľa iných nástrojov, napríklad vidly, kefy alebo vrták.
+  machine.dump_truck:
+    label: sklápač
+    summary: Nákladné auto, ktoré vysype náklad dozadu.
+    info: |
+      Sklápač vozí piesok, štrk alebo zeminu v oceľovej korbe.
+      Hydraulické piesty zdvihnú prednú časť korby a náklad sa vzadu zošmykne von.
+      Potom korba zase klesne a sklápač ide po ďalší náklad.
+  machine.articulated_hauler:
+    label: kĺbový dumper
+    summary: Sklápač do terénu, ktorý sa v strede ohýba.
+    info: |
+      Kĺbový dumper má dve časti spojené kĺbom, takže sa v strede ohýba.
+      Vďaka tomu prejde blatom a cez hrbole tam, kde by obyčajné nákladné auto uviazlo.
+      Je stavaný na stavby a do lomov, nie na cesty.
+  machine.mining_truck:
+    label: banský dumper
+    summary: Obrovský sklápač, ktorý pracuje vo veľkých povrchových baniach.
+    info: |
+      Banské dumpery patria k najväčším nákladným autám na svete.
+      Ich pneumatiky sú vyššie ako dospelý človek a vodič lezie do kabíny po rebríku.
+      Tie najväčšie unesú naraz viac ako 400 ton horniny.
+  machine.concrete_mixer:
+    label: domiešavač
+    summary: Nákladné auto s veľkým bubnom, ktorý sa stále točí.
+    info: |
+      Domiešavač vozí čerstvý betón na stavbu.
+      Bubon sa po celej ceste točí, aby betón vnútri nestvrdol.
+      Keď sa bubon roztočí opačne, betón vyteká von žľabom.
+  machine.concrete_pump:
+    label: čerpadlo betónu
+    summary: Nákladné auto s dlhým skladacím ramenom, ktoré leje betón vysoko hore.
+    info: |
+      Čerpadlo betónu tlačí mokrý betón potrubím pozdĺž svojho dlhého ramena.
+      Rameno sa rozloží ako obrovský prst a dosiahne až na horné poschodia budovy.
+      Oceľové nohy po bokoch chránia auto, aby sa neprevrátilo.
+  machine.tower_crane:
+    label: vežový žeriav
+    summary: Vysoký žeriav, ktorý stojí nad stavbou.
+    info: |
+      Vežový žeriav dvíha ťažké bremená, napríklad oceľové nosníky a betón, až na vrch budovy.
+      Žeriavnik lezie vnútri veže hore do malej kabíny.
+      Ťažké betónové bloky na krátkom ramene vyvažujú bremeno na dlhom ramene.
+  machine.mobile_crane:
+    label: autožeriav
+    summary: Žeriav na nákladnom aute s ramenom, ktoré sa vysúva stále ďalej.
+    info: |
+      Autožeriav prichádza na stavbu po vlastných kolesách.
+      Jeho rameno je teleskopické, vysúva sa ako ďalekohľad a je oveľa dlhšie.
+      Skôr než začne dvíhať, vysunie na obe strany pevné nohy, aby sa neprevrátil.
+  machine.crawler_crane:
+    label: pásový žeriav
+    summary: Veľmi silný žeriav na pásoch s vysokým mriežkovým ramenom.
+    info: |
+      Pásový žeriav stojí na pásoch, ktoré rozložia jeho obrovskú váhu po zemi.
+      Jeho dlhé rameno je z oceľovej mriežky, ľahké, ale veľmi pevné.
+      Veľké pásové žeriavy dvíhajú časti mostov a veterných turbín.
+  machine.road_roller:
+    label: cestný valec
+    summary: Ťažký stroj s hladkými oceľovými valcami, ktorý uhladí asfalt.
+    info: |
+      Cestný valec pomaly prechádza po čerstvom asfalte a stláča ho, aby bol rovný a tvrdý.
+      Jeho oceľové valce sa môžu veľmi rýchlo triasť, a tak cestu udusajú ešte lepšie.
+      Valce sa kropia vodou, aby sa na ne horúci asfalt nelepil.
+  machine.asphalt_paver:
+    label: finišér
+    summary: Stroj, ktorý kladie novú vrstvu cesty.
+    info: |
+      Nákladné autá vysypú horúci asfalt do prednej časti finišéra.
+      Finišér ide pomaly dopredu a za sebou ho rozprestiera v rovnomernej vrstve.
+      Hneď za ním zvyčajne ide cestný valec.
+  machine.motor_grader:
+    label: grejder
+    summary: Dlhý stroj s radlicou pod bruchom, ktorý zarovnáva cesty.
+    info: |
+      Grejder má dole dlhú radlicu, medzi prednými a zadnými kolesami.
+      Radlica sa dá nakláňať a otáčať, takže zem urobí úplne rovnú alebo trochu šikmú.
+      Grejdre zarovnávajú štrkové cesty a pripravujú terén pred stavbou novej cesty.
+  machine.forklift:
+    label: vysokozdvižný vozík
+    summary: Malé vozidlo, ktoré dvíha náklad na dvoch vidliciach.
+    info: |
+      Vysokozdvižný vozík zasunie dve vidlice pod paletu a zdvihne ju.
+      Pracuje v skladoch, továrňach a obchodoch.
+      Ťažké závažie vzadu ho chráni, aby sa pod nákladom neprevrátil dopredu.
+  machine.telehandler:
+    label: teleskopický manipulátor
+    summary: Nakladač s dlhým vysúvacím ramenom, ktorý dvíha veci vysoko.
+    info: |
+      Teleskopický manipulátor je ako vysokozdvižný vozík s dlhým teleskopickým ramenom.
+      Dokáže zdvihnúť paletu tehál na strechu alebo ju podať ďaleko do budovy.
+      Používa sa na stavbách a na farmách, kde dvíha balíky sena.
+  machine.boom_lift:
+    label: pracovná plošina
+    summary: Stroj, ktorý dvíha robotníkov vysoko v koši.
+    info: |
+      Pracovná plošina zdvihne vysoko do vzduchu malý kôš so zábradlím.
+      Robotníci v nej stoja, keď maľujú steny, opravujú svetlá alebo strihajú konáre.
+      Jej kĺbové rameno dosiahne hore a aj ponad prekážky.
+  machine.scissor_lift:
+    label: nožnicová plošina
+    summary: Plošina, ktorá stúpa rovno hore na prekrížených podperách.
+    info: |
+      Nožnicová plošina má prekrížené kovové podpery, ktoré sa roztvárajú ako nožnice.
+      Keď sa roztvárajú, plošina navrchu stúpa rovno hore.
+      Robotníci ju používajú v halách a skladoch, aby dosiahli na strop.
+  machine.demolition_breaker:
+    label: búracie kladivo
+    summary: Bager s kladivom namiesto lyžice, ktorý rozbíja betón.
+    info: |
+      Búracie kladivo je obrovské kladivo pripevnené na rameno bagra.
+      Udiera do betónu a skaly veľakrát za sekundu, až kým nepopraskajú.
+      Pomáha búrať staré budovy a rozbíjať skaly v lomoch.
+  machine.pile_driver:
+    label: baranidlo
+    summary: Stroj, ktorý zatĺka dlhé stĺpy hlboko do zeme.
+    info: |
+      Baranidlo zatláča alebo zatĺka do zeme dlhé oceľové či betónové stĺpy, ktoré sa volajú piloty.
+      Piloty držia budovy a mosty tam, kde je zem mäkká.
+      Má vysoký stožiar, ktorý drží pilotu úplne rovno.
+  machine.drilling_rig:
+    label: vŕtacia súprava
+    summary: Stroj na pásoch, ktorý vŕta hlboké diery do zeme.
+    info: |
+      Vŕtacia súprava otáča dlhý špirálový vrták, ktorý vyvŕta hlbokú dieru.
+      Zemina vychádza hore po špirále a hromadí sa okolo diery.
+      Diery sa vyplnia betónom, aby vznikli pevné základy.
+  machine.tunnel_boring_machine:
+    label: tunelovací stroj
+    summary: Obrovský okrúhly stroj, ktorý razí tunely pod zemou.
+    info: |
+      Vpredu má tunelovací stroj obrovské okrúhle koleso s reznými kotúčmi, ktoré sa pomaly otáča a drví skalu.
+      Za ním stroj obkladá steny tunela betónovými dielmi.
+      Tunelovacie stroje často dostávajú dievčenské mená.
+  machine.cold_planer:
+    label: cestná fréza
+    summary: Stroj, ktorý zbrúsi starý, ošúchaný asfalt.
+    info: |
+      Cestná fréza má dole otáčajúci sa bubon s ostrými zubami.
+      Zbrúsi vrchnú vrstvu starej cesty a pásový dopravník nakladá kúsky do nákladného auta.
+      Starý asfalt sa dá znova použiť v novej ceste.
+  machine.plate_compactor:
+    label: vibračná doska
+    summary: Malá trasúca sa doska, ktorú robotník tlačí, aby udusal zem.
+    info: |
+      Vibračná doska má ťažkú oceľovú dosku, ktorá sa veľmi rýchlo trasie.
+      Robotník ide za ňou a riadi ju držadlom.
+      Udusá piesok a štrk pod chodníkmi, terasami a dlažbou.
+  machine.sheepsfoot_roller:
+    label: ježkový valec
+    summary: Valec s hrboľatým bubnom, ktorý udusá zeminu.
+    info: |
+      Bubon ježkového valca je pokrytý výstupkami, ktoré sa volajú ježky.
+      Ježky sa zatláčajú hlboko do zeme a udusajú ju lepšie ako hladký bubon.
+      Používa sa na zeminu a hlinu, napríklad pod nové cesty alebo pri stavbe hrádzí.
+  machine.bucket_wheel_excavator:
+    label: kolesové rýpadlo
+    summary: Gigantický stroj s otáčajúcim sa kolesom plným korčekov.
+    info: |
+      Kolesové rýpadlo ťaží uhlie a zeminu vo veľkých povrchových baniach.
+      Veľké koleso s korčekmi sa točí na konci jeho ramena a plní dlhý pásový dopravník.
+      Tie najväčšie sú dlhšie ako 200 metrov, takže patria k najväčším strojom na súši.
+  machine.loader_crane_truck:
+    label: auto s hydraulickou rukou
+    summary: Nákladné auto so skladacím ramenom, ktoré naloží aj vyloží náklad.
+    info: |
+      Auto s hydraulickou rukou vozí vlastné skladacie hydraulické rameno hneď za kabínou.
+      Dokáže vyložiť tehly, rúry alebo palety bez akéhokoľvek iného stroja.
+      Skôr než začne dvíhať, vysunie nohy do strán, aby stálo pevne.

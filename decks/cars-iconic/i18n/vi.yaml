@@ -1,0 +1,214 @@
+lang: vi
+pivot: false
+title: Những chiếc xe nổi tiếng
+cards:
+  car.ford_model_t:
+    label: Ford Model T
+    summary: Chiếc xe giúp những gia đình bình thường cũng có thể đi ô tô.
+    info: |
+      Ford Model T được sản xuất ở Mỹ từ năm 1908 đến năm 1927.
+      Xe được lắp ráp trên một dây chuyền chuyển động nên rất rẻ, và hơn 15 triệu chiếc đã được làm ra.
+      Trong nhiều năm, người ta chỉ có thể mua nó màu đen.
+  car.vw_beetle:
+    label: Xe con bọ Volkswagen
+    summary: Chiếc xe nhỏ tròn tròn được mọi người đặt tên theo một con côn trùng.
+    info: |
+      Volkswagen Beetle đến từ Đức và được sản xuất từ năm 1938 đến năm 2003.
+      Hơn 21 triệu chiếc đã được làm ra, nhiều hơn bất kỳ chiếc xe nào khác có cùng một kiểu thiết kế.
+      Động cơ của nó nằm ở phía sau, dưới nắp sau.
+  car.vw_bus:
+    label: Xe van Volkswagen
+    summary: Chiếc xe van thân thiện dành cho gia đình, người lướt sóng và những chuyến cắm trại.
+    info: |
+      Volkswagen Type 2 đến từ Đức và được sản xuất lần đầu vào năm 1950.
+      Những chiếc đầu tiên có kính chắn gió chia làm hai nửa và một chữ V lớn ở phía trước.
+      Nhiều người biến nó thành một ngôi nhà nhỏ có bánh xe để đi du lịch.
+  car.jeep_willys:
+    label: Xe Jeep Willys
+    summary: Chiếc xe quân sự nhỏ và khỏe, có thể chạy gần như ở mọi nơi.
+    info: |
+      Willys MB được sản xuất ở Mỹ cho Chiến tranh thế giới thứ hai, từ năm 1941 đến năm 1945.
+      Hàng trăm nghìn chiếc đã được làm ra để chở binh lính qua những vùng đất gồ ghề.
+      Tất cả những chiếc xe Jeep ra đời sau này đều mang tên theo nó.
+  car.land_rover_defender:
+    label: Land Rover Defender
+    summary: Chiếc xe Anh vuông vức, được làm để chạy qua đồng ruộng và bùn lầy.
+    info: |
+      Land Rover đến từ Vương quốc Anh; chiếc đầu tiên được làm vào năm 1948.
+      Từ năm 1990 nó được gọi là Defender, và được sản xuất đến năm 2016.
+      Nông dân, nhà thám hiểm và đội cứu hộ đã dùng nó trên khắp thế giới.
+  car.mini_cooper:
+    label: Mini Cooper
+    summary: Chiếc xe Anh tí hon nhưng nhanh đến bất ngờ.
+    info: |
+      Mini đến từ Vương quốc Anh và được sản xuất từ năm 1959 đến năm 2000.
+      Động cơ của nó được đặt nằm ngang, nên bốn người vẫn ngồi vừa trong một chiếc xe rất ngắn.
+      Một chiếc Mini Cooper S đã thắng cuộc đua Monte Carlo Rally nổi tiếng vào năm 1964.
+  car.fiat_500:
+    label: Fiat 500
+    summary: Chiếc xe Ý tí hon dành cho những con phố hẹp trong thành phố.
+    info: |
+      Fiat 500 đến từ Ý và được sản xuất từ năm 1957 đến năm 1975.
+      Nó dài chưa tới 3 mét, nên có thể đỗ gần như ở bất cứ đâu.
+      Người Ý gọi nó là "Cinquecento", nghĩa là "năm trăm".
+  car.citroen_2cv:
+    label: Citroën 2CV
+    summary: Chiếc xe Pháp đơn giản có mui xe cuộn lại được.
+    info: |
+      Citroën 2CV đến từ Pháp và được sản xuất từ năm 1948 đến năm 1990.
+      Nó được thiết kế để chở nông dân và hàng hóa của họ trên những con đường quê gập ghềnh.
+      Mui xe bằng vải mềm của nó cuộn lại giống như nắp hộp cá mòi.
+  car.citroen_ds:
+    label: Citroën DS
+    summary: Chiếc xe Pháp mềm mại, trông như đến từ tương lai.
+    info: |
+      Citroën DS đến từ Pháp và được sản xuất từ năm 1955 đến năm 1975.
+      Hệ thống treo đặc biệt giúp xe nâng lên và hạ xuống khi bạn khởi động.
+      Trong tiếng Pháp, "DS" nghe giống từ có nghĩa là "nữ thần".
+  car.mercedes_300sl:
+    label: Mercedes-Benz 300 SL
+    summary: Chiếc xe thể thao màu bạc có cửa mở hướng lên như đôi cánh.
+    info: |
+      Mercedes-Benz 300 SL đến từ Đức; bản coupé được sản xuất từ năm 1954 đến năm 1957.
+      Cửa của nó mở hướng lên trên, nên người ta gọi nó là "Gullwing", tức là "cánh chim hải âu".
+      Nó là một trong những chiếc xe nhanh nhất mà người ta có thể mua vào thời đó.
+  car.jaguar_e_type:
+    label: Jaguar E-Type
+    summary: Chiếc xe thể thao Anh dài và thon gọn.
+    info: |
+      Jaguar E-Type đến từ Vương quốc Anh và được sản xuất từ năm 1961 đến năm 1975.
+      Nó có nắp ca-pô rất dài với một động cơ lớn bên dưới.
+      Nhiều người nói đây là một trong những chiếc xe đẹp nhất từng được làm ra.
+  car.aston_martin_db5:
+    label: Aston Martin DB5
+    summary: Chiếc xe Anh sang trọng của điệp viên James Bond.
+    info: |
+      Aston Martin DB5 đến từ Vương quốc Anh và được sản xuất từ năm 1963 đến năm 1965.
+      Nó nổi tiếng khắp thế giới nhờ bộ phim James Bond "Goldfinger" năm 1964.
+      Chỉ có khoảng một nghìn chiếc được làm ra.
+  car.shelby_cobra:
+    label: Shelby Cobra
+    summary: Chiếc xe mui trần nhỏ với một động cơ khổng lồ và rất ồn.
+    info: |
+      Shelby Cobra được tay đua người Mỹ Carroll Shelby làm ra vào những năm 1960.
+      Ông lấy một chiếc xe thể thao nhẹ của Anh và lắp vào đó một động cơ Ford lớn của Mỹ.
+      Nó đã thắng nhiều cuộc đua và đến nay vẫn còn được làm theo.
+  car.ford_mustang:
+    label: Ford Mustang
+    summary: Chiếc xe thể thao Mỹ được đặt tên theo một loài ngựa hoang.
+    info: |
+      Ford Mustang đến từ Mỹ và được bán lần đầu vào năm 1964.
+      Nó được yêu thích đến mức cả một nhóm xe giống nó được gọi theo nó là "pony car".
+      Ngày nay Mustang vẫn còn được sản xuất.
+  car.corvette_c2:
+    label: Corvette Sting Ray
+    summary: Chiếc xe thể thao Mỹ có cửa kính sau chia làm hai.
+    info: |
+      Chevrolet Corvette Sting Ray đến từ Mỹ.
+      Chỉ có bản coupé năm 1963 mới có cửa kính sau chia làm hai nửa.
+      Thân xe làm bằng sợi thủy tinh chứ không phải bằng thép.
+  car.cadillac_eldorado:
+    label: Cadillac Eldorado
+    summary: Chiếc xe Mỹ khổng lồ có vây đuôi to nhất từ trước đến nay.
+    info: |
+      Cadillac Eldorado đời 1959 đến từ Mỹ.
+      Đôi vây đuôi cao hình tên lửa của nó thuộc loại cao nhất từng được gắn lên một chiếc xe.
+      Nó dài hơn 5 mét rưỡi.
+  car.chevrolet_bel_air:
+    label: Chevrolet Bel Air
+    summary: Chiếc xe Mỹ bóng loáng thập niên 1950 với nhiều chi tiết mạ crôm và vây đuôi nhỏ.
+    info: |
+      Chevrolet Bel Air đời 1957 đến từ Mỹ.
+      Với nước sơn hai màu và rất nhiều chi tiết mạ crôm, nó trở thành biểu tượng của nước Mỹ thập niên 1950.
+      Ở Cuba, ngày nay nhiều chiếc xe cũ như thế vẫn còn chạy trên đường phố.
+  car.ford_gt40:
+    label: Ford GT40
+    summary: Chiếc xe đua Mỹ rất thấp đã đánh bại Ferrari.
+    info: |
+      Ford GT40 được làm ra vào những năm 1960 để thắng cuộc đua 24 giờ Le Mans.
+      Nó thắng Le Mans bốn năm liền, từ năm 1966 đến năm 1969.
+      Nó được gọi là GT40 vì nó chỉ cao khoảng 40 inch (1 mét).
+  car.porsche_911_classic:
+    label: Porsche 911 Carrera RS
+    summary: Chiếc xe thể thao cổ điển của Đức với cánh gió nhỏ hình "đuôi vịt".
+    info: |
+      Porsche 911 đến từ Đức; chiếc đầu tiên được làm vào năm 1964.
+      Bản Carrera RS năm 1973 là một phiên bản nhẹ và nhanh, được làm để đua.
+      Cánh gió nhỏ phía sau của nó trông giống đuôi con vịt.
+  car.porsche_911_modern:
+    label: Porsche 911
+    summary: Phiên bản hiện đại của chiếc xe thể thao đã giữ nguyên dáng vẻ suốt 60 năm.
+    info: |
+      Porsche 911 đến từ Đức, và phiên bản này ra đời vào năm 2019.
+      Nó vẫn có đèn pha tròn và động cơ ở phía sau, giống hệt chiếc 911 đầu tiên.
+      Đây là một trong những dòng xe thể thao được sản xuất lâu nhất trên thế giới.
+  car.lamborghini_countach:
+    label: Lamborghini Countach
+    summary: Siêu xe Ý dẹt và góc cạnh, có cửa mở hướng lên.
+    info: |
+      Lamborghini Countach đến từ Ý và được sản xuất từ năm 1974 đến năm 1990.
+      Cửa của nó bật lên về phía trước, giống như một chiếc kéo.
+      Nhiều bạn nhỏ từng dán áp phích của nó trên tường phòng ngủ.
+  car.ferrari_testarossa:
+    label: Ferrari Testarossa
+    summary: Chiếc xe thể thao Ý màu đỏ, rộng, có những đường sọc ở hai bên.
+    info: |
+      Ferrari Testarossa đến từ Ý và được sản xuất lần đầu vào năm 1984.
+      "Testarossa" trong tiếng Ý nghĩa là "đầu đỏ", vì phần trên động cơ của nó được sơn màu đỏ.
+      Những đường sọc dài ở hai bên giúp không khí đi vào để làm mát động cơ.
+  car.ferrari_f40:
+    label: Ferrari F40
+    summary: Siêu xe Ý màu đỏ có cánh gió lớn ở phía sau.
+    info: |
+      Ferrari F40 đến từ Ý và được sản xuất từ năm 1987 đến năm 1992.
+      Nó được làm ra nhân dịp sinh nhật lần thứ 40 của Ferrari, và tên của nó cũng từ đó mà ra.
+      Nó là một trong những chiếc xe đường phố đầu tiên có thể chạy nhanh hơn 320 km/h.
+  car.delorean:
+    label: DeLorean
+    summary: Chiếc xe bằng thép sáng bóng đã trở thành cỗ máy thời gian trong một bộ phim.
+    info: |
+      DeLorean DMC-12 được sản xuất ở Bắc Ireland vào năm 1981 và 1982.
+      Thân xe bằng thép không gỉ để trần, không hề sơn, và cửa xe mở hướng lên.
+      Nó trở nên nổi tiếng là cỗ máy thời gian trong bộ phim "Trở về tương lai".
+  car.london_taxi:
+    label: Taxi London
+    summary: Chiếc taxi màu đen nổi tiếng chở mọi người đi khắp London.
+    info: |
+      Austin FX4 đến từ Vương quốc Anh và được sản xuất từ năm 1958 đến năm 1997.
+      Nó có thể quay đầu trong một vòng rất nhỏ, rất có ích trên những con phố hẹp của London.
+      Mui xe cao được thiết kế để hành khách có thể đội mũ khi ngồi bên trong.
+  car.toyota_land_cruiser:
+    label: Toyota Land Cruiser
+    summary: Chiếc xe Nhật bền bỉ có thể chạy qua sa mạc và rừng rậm.
+    info: |
+      Toyota Land Cruiser FJ40 đến từ Nhật Bản và được sản xuất từ năm 1960 đến năm 1984.
+      Nó được bán trên khắp thế giới và nổi tiếng là rất khó hỏng.
+      Ngày nay nhiều chiếc vẫn đang chạy trên những con đường gồ ghề.
+  car.mazda_mx5:
+    label: Mazda MX-5
+    summary: Chiếc xe hai chỗ nhỏ và vui vẻ của Nhật, có đèn pha bật lên được.
+    info: |
+      Mazda MX-5 đến từ Nhật Bản và được bán lần đầu vào năm 1989.
+      Phiên bản đầu tiên có đèn pha bật lên từ nắp ca-pô.
+      Đây là chiếc xe thể thao hai chỗ bán chạy nhất thế giới.
+  car.trabant:
+    label: Trabant
+    summary: Chiếc xe nhỏ của Đông Đức có thân xe làm một phần bằng nhựa.
+    info: |
+      Trabant đến từ Đông Đức và được sản xuất từ năm 1957 đến năm 1991.
+      Thân xe làm bằng một loại nhựa cứng trộn với sợi bông chứ không phải bằng thép.
+      Người ta thường phải chờ nhiều năm mới mua được một chiếc.
+  car.bugatti_veyron:
+    label: Bugatti Veyron
+    summary: Chiếc xe nhanh không tưởng, có thể chạy hơn 400 km/h.
+    info: |
+      Bugatti Veyron đến từ Pháp và được sản xuất từ năm 2005 đến năm 2015.
+      Động cơ của nó có 16 xi-lanh và hơn 1.000 mã lực.
+      Khi mới ra đời, nó là chiếc xe đường phố nhanh nhất thế giới.
+  car.tesla_model_s:
+    label: Tesla Model S
+    summary: Chiếc xe Mỹ nhanh nhẹn, chạy bằng điện thay vì xăng.
+    info: |
+      Tesla Model S đến từ Mỹ và được bán từ năm 2012.
+      Nó chạy bằng những bộ pin lớn dưới sàn xe, nên không có ống xả.
+      Vì phía trước không có động cơ, nên ở đó có thêm một cốp xe thứ hai.

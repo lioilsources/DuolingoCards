@@ -1,0 +1,214 @@
+lang: pl
+pivot: false
+title: Słynne samochody
+cards:
+  car.ford_model_t:
+    label: Ford Model T
+    summary: Samochód, dzięki któremu zwykłe rodziny mogły zacząć jeździć autem.
+    info: |
+      Ford Model T był produkowany w USA od 1908 do 1927 roku.
+      Budowano go na ruchomej taśmie montażowej, więc był tani, i powstało ponad 15 milionów sztuk.
+      Przez wiele lat można go było kupić tylko w kolorze czarnym.
+  car.vw_beetle:
+    label: Volkswagen Garbus
+    summary: Mały, okrągły samochód, który ludzie nazwali jak owada.
+    info: |
+      Volkswagen Garbus pochodzi z Niemiec i był produkowany od 1938 do 2003 roku.
+      Zbudowano ponad 21 milionów sztuk, więcej niż jakiegokolwiek innego samochodu o jednym kształcie.
+      Jego silnik jest z tyłu, pod tylną klapą.
+  car.vw_bus:
+    label: Volkswagen Ogórek
+    summary: Przyjazny bus dla rodzin, surferów i na wyprawy pod namiot.
+    info: |
+      Volkswagen Typ 2 pochodzi z Niemiec i pierwszy raz zrobiono go w 1950 roku.
+      Pierwsze egzemplarze miały przednią szybę podzieloną na dwie połówki i duże V z przodu.
+      Wiele osób zamieniło go w mały domek na kółkach do podróżowania.
+  car.jeep_willys:
+    label: Jeep Willys
+    summary: Mały, wytrzymały wojskowy samochód, który mógł jechać prawie wszędzie.
+    info: |
+      Willys MB był produkowany w USA na drugą wojnę światową, od 1941 do 1945 roku.
+      Zbudowano setki tysięcy sztuk, żeby wozić żołnierzy po wybojach i bezdrożach.
+      To od niego wzięły nazwę wszystkie późniejsze samochody Jeep.
+  car.land_rover_defender:
+    label: Land Rover Defender
+    summary: Kanciasty brytyjski samochód stworzony do jazdy po polach i błocie.
+    info: |
+      Land Rover pochodzi z Wielkiej Brytanii, a pierwszy powstał w 1948 roku.
+      Od 1990 roku nazywał się Defender i był produkowany do 2016 roku.
+      Używali go rolnicy, podróżnicy i ratownicy na całym świecie.
+  car.mini_cooper:
+    label: Mini Cooper
+    summary: Malutki brytyjski samochód, który był zaskakująco szybki.
+    info: |
+      Mini pochodzi z Wielkiej Brytanii i był produkowany od 1959 do 2000 roku.
+      Jego silnik stoi bokiem, więc w bardzo krótkim aucie mieszczą się cztery osoby.
+      Mini Cooper S wygrał słynny Rajd Monte Carlo w 1964 roku.
+  car.fiat_500:
+    label: Fiat 500
+    summary: Malutki włoski samochód zrobiony na wąskie miejskie uliczki.
+    info: |
+      Fiat 500 pochodzi z Włoch i był produkowany od 1957 do 1975 roku.
+      Ma mniej niż 3 metry długości, więc da się nim zaparkować prawie wszędzie.
+      Włosi nazywają go „Cinquecento”, co znaczy „pięćset”.
+  car.citroen_2cv:
+    label: Citroën 2CV
+    summary: Prosty francuski samochód z dachem, który można zwinąć.
+    info: |
+      Citroën 2CV pochodzi z Francji i był produkowany od 1948 do 1990 roku.
+      Zaprojektowano go, żeby woził rolników i ich towary po wyboistych wiejskich drogach.
+      Jego miękki dach z materiału zwija się jak wieczko puszki sardynek.
+  car.citroen_ds:
+    label: Citroën DS
+    summary: Gładki francuski samochód, który wyglądał jak z przyszłości.
+    info: |
+      Citroën DS pochodzi z Francji i był produkowany od 1955 do 1975 roku.
+      Ma specjalne zawieszenie, dzięki któremu po uruchomieniu auto unosi się i opada.
+      Po francusku „DS” brzmi jak słowo oznaczające „bogini”.
+  car.mercedes_300sl:
+    label: Mercedes-Benz 300 SL
+    summary: Srebrny samochód sportowy z drzwiami, które otwierają się w górę jak skrzydła.
+    info: |
+      Mercedes-Benz 300 SL pochodzi z Niemiec, a wersję coupé produkowano od 1954 do 1957 roku.
+      Jego drzwi otwierają się w górę, dlatego nazywa się go „Mewie Skrzydło”.
+      W swoich czasach był jednym z najszybszych samochodów, jakie można było kupić.
+  car.jaguar_e_type:
+    label: Jaguar E-Type
+    summary: Długi, smukły brytyjski samochód sportowy.
+    info: |
+      Jaguar E-Type pochodzi z Wielkiej Brytanii i był produkowany od 1961 do 1975 roku.
+      Ma bardzo długą maskę, a pod nią duży silnik.
+      Wiele osób mówi, że to jeden z najpiękniejszych samochodów, jakie kiedykolwiek zbudowano.
+  car.aston_martin_db5:
+    label: Aston Martin DB5
+    summary: Elegancki brytyjski samochód szpiega Jamesa Bonda.
+    info: |
+      Aston Martin DB5 pochodzi z Wielkiej Brytanii i był produkowany od 1963 do 1965 roku.
+      Stał się sławny na całym świecie dzięki filmowi o Jamesie Bondzie „Goldfinger” z 1964 roku.
+      Zbudowano tylko około tysiąca sztuk.
+  car.shelby_cobra:
+    label: Shelby Cobra
+    summary: Mały, otwarty samochód z ogromnym, głośnym silnikiem.
+    info: |
+      Shelby Cobrę zbudował w latach 60. amerykański kierowca wyścigowy Carroll Shelby.
+      Wziął lekki brytyjski samochód sportowy i włożył do niego duży amerykański silnik Forda.
+      Wygrała wiele wyścigów i do dziś ludzie ją kopiują.
+  car.ford_mustang:
+    label: Ford Mustang
+    summary: Sportowy amerykański samochód nazwany na cześć dzikiego konia.
+    info: |
+      Ford Mustang pochodzi z USA i pierwszy raz trafił do sprzedaży w 1964 roku.
+      Był tak popularny, że całą grupę podobnych aut nazwano od niego „pony cars”.
+      Mustang jest produkowany do dziś.
+  car.corvette_c2:
+    label: Corvette Sting Ray
+    summary: Amerykański samochód sportowy z tylną szybą podzieloną na dwie części.
+    info: |
+      Chevrolet Corvette Sting Ray pochodzi z USA.
+      Tylko coupé z 1963 roku miało tylną szybę podzieloną na dwie połówki.
+      Jego nadwozie jest zrobione z włókna szklanego zamiast ze stali.
+  car.cadillac_eldorado:
+    label: Cadillac Eldorado
+    summary: Ogromny amerykański samochód z największymi płetwami w historii.
+    info: |
+      Cadillac Eldorado z 1959 roku pochodzi z USA.
+      Jego wysokie tylne płetwy w kształcie rakiety należą do najwyższych, jakie kiedykolwiek miał samochód.
+      Ma ponad 5 i pół metra długości.
+  car.chevrolet_bel_air:
+    label: Chevrolet Bel Air
+    summary: Lśniący amerykański samochód z lat 50. z chromem i małymi płetwami.
+    info: |
+      Chevrolet Bel Air z 1957 roku pochodzi z USA.
+      Dzięki dwukolorowemu lakierowi i mnóstwu chromu stał się symbolem Ameryki lat 50.
+      Na Kubie wiele takich starych aut wciąż jeździ po ulicach.
+  car.ford_gt40:
+    label: Ford GT40
+    summary: Bardzo niski amerykański samochód wyścigowy, który pokonał Ferrari.
+    info: |
+      Ford GT40 zbudowano w latach 60., żeby wygrał 24-godzinny wyścig Le Mans.
+      Wygrywał Le Mans cztery lata z rzędu, od 1966 do 1969 roku.
+      Nazywa się GT40, bo ma tylko około 40 cali (1 metr) wysokości.
+  car.porsche_911_classic:
+    label: Porsche 911 Carrera RS
+    summary: Klasyczny niemiecki samochód sportowy z małym spojlerem „kaczy kuper”.
+    info: |
+      Porsche 911 pochodzi z Niemiec, a pierwsze powstało w 1964 roku.
+      Carrera RS z 1973 roku była lekką, szybką wersją zbudowaną do wyścigów.
+      Jej mały tylny spojler wygląda jak kaczy ogon.
+  car.porsche_911_modern:
+    label: Porsche 911
+    summary: Nowa wersja samochodu sportowego, który od 60 lat ma ten sam kształt.
+    info: |
+      Porsche 911 pochodzi z Niemiec, a ta wersja pojawiła się w 2019 roku.
+      Wciąż ma okrągłe reflektory i silnik z tyłu, tak jak pierwsze 911.
+      To jedna z najdłużej produkowanych rodzin samochodów sportowych na świecie.
+  car.lamborghini_countach:
+    label: Lamborghini Countach
+    summary: Płaski, ostry włoski supersamochód z drzwiami otwieranymi w górę.
+    info: |
+      Lamborghini Countach pochodzi z Włoch i było produkowane od 1974 do 1990 roku.
+      Jego drzwi unoszą się w górę i do przodu, jak nożyczki.
+      Wiele dzieci miało jego plakat na ścianie w swoim pokoju.
+  car.ferrari_testarossa:
+    label: Ferrari Testarossa
+    summary: Szerokie czerwone włoskie auto sportowe z paskami na bokach.
+    info: |
+      Ferrari Testarossa pochodzi z Włoch i pierwszy raz zrobiono je w 1984 roku.
+      „Testarossa” po włosku znaczy „ruda głowa”, bo wierzch jego silnika jest pomalowany na czerwono.
+      Długie paski na bokach wpuszczają powietrze, które chłodzi silnik.
+  car.ferrari_f40:
+    label: Ferrari F40
+    summary: Czerwony włoski supersamochód z dużym skrzydłem z tyłu.
+    info: |
+      Ferrari F40 pochodzi z Włoch i było produkowane od 1987 do 1992 roku.
+      Zrobiono je na 40. urodziny Ferrari i stąd wzięła się jego nazwa.
+      Było jednym z pierwszych samochodów drogowych, które mogły jechać szybciej niż 320 km/h.
+  car.delorean:
+    label: DeLorean
+    summary: Lśniący stalowy samochód, który w filmie stał się wehikułem czasu.
+    info: |
+      DeLorean DMC-12 był produkowany w Irlandii Północnej w 1981 i 1982 roku.
+      Jego nadwozie to goła stal nierdzewna bez żadnego lakieru, a drzwi otwierają się w górę.
+      Stał się sławny jako wehikuł czasu w filmie „Powrót do przyszłości”.
+  car.london_taxi:
+    label: Londyńska taksówka
+    summary: Słynna czarna taksówka, która wozi ludzi po Londynie.
+    info: |
+      Austin FX4 pochodzi z Wielkiej Brytanii i był produkowany od 1958 do 1997 roku.
+      Potrafi zawrócić na bardzo małym kole, co pomaga na wąskich ulicach Londynu.
+      Ma wysoki dach, żeby pasażerowie mogli siedzieć w środku w kapeluszu.
+  car.toyota_land_cruiser:
+    label: Toyota Land Cruiser
+    summary: Wytrzymały japoński samochód, który przejedzie przez pustynie i dżungle.
+    info: |
+      Toyota Land Cruiser FJ40 pochodzi z Japonii i była produkowana od 1960 do 1984 roku.
+      Sprzedawano ją na całym świecie i słynie z tego, że bardzo trudno ją zepsuć.
+      Wiele z nich wciąż jeździ po wyboistych drogach.
+  car.mazda_mx5:
+    label: Mazda MX-5
+    summary: Mały, wesoły japoński dwuosobowy samochód z wyskakującymi reflektorami.
+    info: |
+      Mazda MX-5 pochodzi z Japonii i pierwszy raz trafiła do sprzedaży w 1989 roku.
+      Pierwsza wersja miała reflektory, które wyskakiwały z maski.
+      To najlepiej sprzedający się dwuosobowy samochód sportowy na świecie.
+  car.trabant:
+    label: Trabant
+    summary: Mały samochód z NRD z nadwoziem zrobionym częściowo z plastiku.
+    info: |
+      Trabant pochodzi z NRD, czyli Niemiec Wschodnich, i był produkowany od 1957 do 1991 roku.
+      Jego nadwozie zrobiono z twardego plastiku zmieszanego z włóknami bawełny zamiast ze stali.
+      Ludzie często musieli czekać wiele lat, żeby go kupić.
+  car.bugatti_veyron:
+    label: Bugatti Veyron
+    summary: Niesamowicie szybki samochód, który może jechać ponad 400 km/h.
+    info: |
+      Bugatti Veyron pochodzi z Francji i było produkowane od 2005 do 2015 roku.
+      Jego silnik ma 16 cylindrów i ponad 1000 koni mechanicznych.
+      Kiedy się pojawiło, było najszybszym samochodem drogowym na świecie.
+  car.tesla_model_s:
+    label: Tesla Model S
+    summary: Szybki amerykański samochód, który jeździ na prąd zamiast na benzynę.
+    info: |
+      Tesla Model S pochodzi z USA i trafiła do sprzedaży w 2012 roku.
+      Jeździ dzięki dużym akumulatorom pod podłogą, więc nie ma rury wydechowej.
+      Ponieważ z przodu nie ma silnika, jest tam drugi bagażnik.

@@ -1,0 +1,214 @@
+lang: it
+pivot: false
+title: Macchine da cantiere
+cards:
+  machine.excavator:
+    label: escavatore
+    summary: Una macchina che scava, con un braccio lungo e una benna piena di denti.
+    info: |
+      L'escavatore va sui cingoli, così non affonda nel fango molle.
+      Tutta la parte di sopra, con la cabina e il braccio, può girare tutto intorno.
+      Il braccio si muove con l'idraulica: olio spinto nei tubi con una pressione fortissima.
+  machine.mini_excavator:
+    label: miniescavatore
+    summary: Un piccolo escavatore che passa dal cancello di un giardino.
+    info: |
+      Il miniescavatore scava dove uno grande non ci starebbe, come nei giardini, nei cortili e nelle strade strette.
+      Di solito va su cingoli di gomma, così non rovina il terreno pavimentato.
+      La piccola lama davanti spinge la terra di nuovo dentro la buca.
+  machine.backhoe_loader:
+    label: terna
+    summary: Un trattore con una pala davanti e un braccio che scava dietro.
+    info: |
+      La terna è due macchine in una: una pala davanti e un escavatore dietro.
+      Il conducente gira il sedile per lavorare con il braccio di dietro.
+      Va su ruote, così può spostarsi per strada da un cantiere all'altro.
+  machine.wheel_loader:
+    label: pala gommata
+    summary: Una macchina con gomme enormi che raccoglie e porta sabbia e ghiaia.
+    info: |
+      La pala gommata riempie la sua grande benna davanti e la svuota nei camion.
+      Il suo corpo si piega a metà, e questo la aiuta a girare negli spazi stretti.
+      Le pale gommate più grandi hanno gomme più alte di un adulto.
+  machine.bulldozer:
+    label: bulldozer
+    summary: Una macchina fortissima sui cingoli che spinge la terra con una lama larga.
+    info: |
+      Il bulldozer spinge terra, sassi e sabbia con la lama d'acciaio che ha davanti.
+      L'artiglio dietro si chiama ripper e rompe il terreno duro.
+      I suoi cingoli larghi distribuiscono il peso, così può andare sulla terra smossa.
+  machine.skid_steer:
+    label: minipala
+    summary: Una piccola pala a forma di scatola che può girare sul posto.
+    info: |
+      La minipala gira facendo andare le ruote di un lato più veloci di quelle dell'altro.
+      Così può girare su sé stessa, quasi come un carro armato.
+      Al posto della benna può portare tanti altri attrezzi, come forche, spazzole o una trivella.
+  machine.dump_truck:
+    label: camion ribaltabile
+    summary: Un camion che scarica il suo carico dal retro.
+    info: |
+      Il camion ribaltabile porta sabbia, ghiaia o terra in un cassone d'acciaio che si chiama cassone ribaltabile.
+      Dei pistoni idraulici sollevano il davanti del cassone, e il carico scivola fuori da dietro.
+      Poi il cassone si riabbassa e il camion riparte a prenderne altro.
+  machine.articulated_hauler:
+    label: dumper articolato
+    summary: Un camion ribaltabile da fuoristrada che si piega a metà.
+    info: |
+      Il dumper articolato ha due parti unite da uno snodo, così si piega a metà.
+      Questo lo aiuta a passare nel fango e sulle cunette, dove un camion normale resterebbe bloccato.
+      È fatto per i cantieri e le cave, non per le strade.
+  machine.mining_truck:
+    label: camion da miniera
+    summary: Un camion ribaltabile gigante che lavora in enormi miniere a cielo aperto.
+    info: |
+      I camion da miniera sono tra i camion più grandi del mondo.
+      Le loro gomme sono più alte di un adulto, e il conducente sale in cabina con una scaletta.
+      I più grandi possono portare più di 400 tonnellate di roccia in una volta sola.
+  machine.concrete_mixer:
+    label: betoniera
+    summary: Un camion con una grande botte che continua a girare.
+    info: |
+      La betoniera porta il cemento fresco al cantiere.
+      La botte continua a girare durante il viaggio, così il cemento non si indurisce dentro.
+      Quando la botte gira al contrario, il cemento scende giù dallo scivolo.
+  machine.concrete_pump:
+    label: pompa per cemento
+    summary: Un camion con un lungo braccio pieghevole che versa il cemento in alto.
+    info: |
+      La pompa per cemento spinge il cemento bagnato in un tubo lungo il suo grande braccio.
+      Il braccio si apre come un dito gigante e arriva ai piani alti di un palazzo.
+      Delle gambe d'acciaio sui lati impediscono al camion di ribaltarsi.
+  machine.tower_crane:
+    label: gru a torre
+    summary: Una gru altissima che sta sopra il cantiere.
+    info: |
+      La gru a torre solleva carichi pesanti, come travi d'acciaio e cemento, fino in cima a un palazzo.
+      Il gruista si arrampica dentro la torre fino a una piccola cabina in alto.
+      Dei pesanti blocchi di cemento sul braccio corto fanno da contrappeso al carico sul braccio lungo.
+  machine.mobile_crane:
+    label: autogrù
+    summary: Una gru su un camion, con un braccio che si allunga sempre di più.
+    info: |
+      L'autogrù arriva al cantiere sulle sue ruote.
+      Il suo braccio è telescopico: si allunga come un cannocchiale e diventa molto più lungo.
+      Prima di sollevare, apre delle gambe robuste su tutti e due i lati per non ribaltarsi.
+  machine.crawler_crane:
+    label: gru cingolata
+    summary: Una gru fortissima sui cingoli, con un alto braccio a traliccio.
+    info: |
+      La gru cingolata sta sui cingoli, che distribuiscono il suo peso enorme sul terreno.
+      Il suo lungo braccio è fatto di un traliccio d'acciaio, leggero ma molto robusto.
+      Le grandi gru cingolate sollevano pezzi di ponti e di pale eoliche.
+  machine.road_roller:
+    label: rullo compressore
+    summary: Una macchina pesante con rulli d'acciaio lisci che schiaccia l'asfalto.
+    info: |
+      Il rullo compressore passa piano sull'asfalto fresco e lo schiaccia, rendendolo piatto e duro.
+      I suoi rulli d'acciaio possono vibrare velocissimi, così la strada diventa ancora più compatta.
+      Sui rulli si spruzza acqua, così l'asfalto caldo non ci si attacca.
+  machine.asphalt_paver:
+    label: vibrofinitrice
+    summary: Una macchina che stende un nuovo strato di strada.
+    info: |
+      I camion scaricano l'asfalto caldo nella parte davanti della vibrofinitrice.
+      La vibrofinitrice lo stende dietro di sé in uno strato uniforme, mentre avanza piano.
+      Di solito un rullo compressore la segue subito dietro.
+  machine.motor_grader:
+    label: livellatrice
+    summary: Una macchina lunga con una lama sotto la pancia che livella le strade.
+    info: |
+      La livellatrice ha una lunga lama sotto, tra le ruote davanti e quelle dietro.
+      La lama può inclinarsi e girare, così può rendere il terreno perfettamente piatto o un po' in pendenza.
+      Le livellatrici sistemano le strade di ghiaia e preparano il terreno prima di costruire una strada nuova.
+  machine.forklift:
+    label: muletto
+    summary: Un piccolo veicolo che solleva i carichi su due forche.
+    info: |
+      Il muletto infila le sue due forche sotto un bancale e lo solleva.
+      Lavora nei magazzini, nelle fabbriche e nei negozi.
+      Un peso grosso dietro gli impedisce di ribaltarsi in avanti sotto il carico.
+  machine.telehandler:
+    label: sollevatore telescopico
+    summary: Una pala con un lungo braccio che si allunga per sollevare le cose in alto.
+    info: |
+      Il sollevatore telescopico è come un muletto con un lungo braccio telescopico.
+      Può mettere un bancale di mattoni su un tetto o lontano dentro un edificio.
+      Si usa nei cantieri e nelle fattorie, dove solleva le balle di fieno.
+  machine.boom_lift:
+    label: piattaforma aerea
+    summary: Una macchina che porta gli operai in alto dentro un cestello.
+    info: |
+      La piattaforma aerea solleva in aria una piccola piattaforma con la ringhiera.
+      Gli operai ci salgono per dipingere muri, aggiustare lampioni o tagliare rami.
+      Il suo braccio snodato può arrivare in alto e anche scavalcare gli ostacoli.
+  machine.scissor_lift:
+    label: piattaforma a forbice
+    summary: Una piattaforma che sale dritta su supporti incrociati.
+    info: |
+      La piattaforma a forbice ha dei supporti di metallo incrociati che si aprono come forbici.
+      Quando si aprono, la piattaforma in cima sale dritta verso l'alto.
+      Gli operai la usano nei capannoni e nei magazzini per arrivare al soffitto.
+  machine.demolition_breaker:
+    label: martello demolitore
+    summary: Un escavatore con un martello al posto della benna che rompe il cemento.
+    info: |
+      Il martello demolitore è un martello enorme attaccato al braccio di un escavatore.
+      Colpisce cemento e roccia tante volte al secondo, finché non si spaccano.
+      Aiuta a buttare giù i vecchi edifici e a rompere la roccia nelle cave.
+  machine.pile_driver:
+    label: battipalo
+    summary: Una macchina che pianta pali lunghi in profondità nel terreno.
+    info: |
+      Il battipalo spinge o martella nel terreno lunghi pali d'acciaio o di cemento.
+      I pali reggono palazzi e ponti dove il terreno è molle.
+      Ha un alto albero che tiene il palo perfettamente dritto.
+  machine.drilling_rig:
+    label: trivella
+    summary: Una macchina sui cingoli che fa buchi profondi nel terreno.
+    info: |
+      La trivella fa girare una lunga punta a spirale che scava un buco profondo.
+      La terra sale lungo la spirale e si ammucchia intorno al buco.
+      I buchi vengono riempiti di cemento per fare fondamenta solide.
+  machine.tunnel_boring_machine:
+    label: talpa meccanica
+    summary: Una gigantesca macchina rotonda che scava gallerie sotto terra.
+    info: |
+      Davanti, la talpa meccanica ha un'enorme ruota rotonda con dischi taglienti, che gira piano e macina la roccia.
+      Dietro, la macchina riveste le pareti della galleria con pezzi di cemento.
+      Alle talpe meccaniche si danno spesso nomi di donna.
+  machine.cold_planer:
+    label: fresatrice stradale
+    summary: Una macchina che gratta via l'asfalto vecchio e consumato.
+    info: |
+      La fresatrice stradale ha sotto un rullo che gira, con denti appuntiti.
+      Gratta via lo strato di sopra di una vecchia strada, e un nastro trasportatore carica i pezzi su un camion.
+      Il vecchio asfalto si può usare di nuovo per una strada nuova.
+  machine.plate_compactor:
+    label: piastra vibrante
+    summary: Una piccola piastra che vibra e che un operaio spinge per compattare il terreno.
+    info: |
+      La piastra vibrante ha una pesante piastra d'acciaio che trema velocissima.
+      Un operaio cammina dietro e la guida con il manico.
+      Compatta sabbia e ghiaia sotto i vialetti, i cortili e i marciapiedi.
+  machine.sheepsfoot_roller:
+    label: rullo a piede di montone
+    summary: Un rullo con un tamburo pieno di bozzi che compatta la terra.
+    info: |
+      Il tamburo di questo rullo è coperto di blocchetti, che si chiamano piedi.
+      I piedi affondano bene nella terra e la compattano meglio di un tamburo liscio.
+      Si usa sulla terra e sull'argilla, per esempio sotto le strade nuove o per le dighe.
+  machine.bucket_wheel_excavator:
+    label: escavatore a ruota di tazze
+    summary: Una macchina gigantesca con una ruota piena di secchi che gira.
+    info: |
+      L'escavatore a ruota di tazze scava carbone e terra in enormi miniere a cielo aperto.
+      Una grande ruota con i secchi gira in fondo al suo braccio e riempie un lungo nastro trasportatore.
+      I più grandi sono lunghi più di 200 metri, e sono tra le macchine più grandi sulla terraferma.
+  machine.loader_crane_truck:
+    label: camion con gru
+    summary: Un camion con un braccio pieghevole che carica e scarica le cose.
+    info: |
+      Il camion con gru porta il suo braccio idraulico pieghevole dietro la cabina.
+      Può scaricare mattoni, tubi o bancali senza nessun'altra macchina.
+      Prima di sollevare, apre delle gambe sui lati per stare ben fermo.

@@ -1,0 +1,214 @@
+lang: it
+pivot: false
+title: Auto leggendarie
+cards:
+  car.ford_model_t:
+    label: Ford Modello T
+    summary: L'auto che ha permesso anche alle famiglie normali di andare in macchina.
+    info: |
+      La Ford Modello T è stata costruita negli Stati Uniti dal 1908 al 1927.
+      Veniva montata su una catena di montaggio che si muoveva, così costava poco, e ne sono state fatte più di 15 milioni.
+      Per molti anni si poteva comprare solo nera.
+  car.vw_beetle:
+    label: Volkswagen Maggiolino
+    summary: Una piccola auto tutta tonda che ha preso il nome da un insetto.
+    info: |
+      Il Maggiolino viene dalla Germania ed è stato costruito dal 1938 al 2003.
+      Ne sono stati fatti più di 21 milioni, più di qualsiasi altra auto con un unico modello.
+      Il suo motore è dietro, sotto il cofano posteriore.
+  car.vw_bus:
+    label: Pulmino Volkswagen
+    summary: Un furgoncino simpatico per famiglie, surfisti e gite in campeggio.
+    info: |
+      Il Volkswagen Tipo 2 viene dalla Germania ed è stato costruito per la prima volta nel 1950.
+      I primi avevano il parabrezza diviso in due metà e una grande V sul davanti.
+      Molte persone lo hanno trasformato in una casetta su ruote per viaggiare.
+  car.jeep_willys:
+    label: Jeep Willys
+    summary: Una piccola auto militare robusta che poteva andare quasi dappertutto.
+    info: |
+      La Willys MB è stata costruita negli Stati Uniti per la Seconda guerra mondiale, dal 1941 al 1945.
+      Ne sono state fatte centinaia di migliaia per portare i soldati su terreni accidentati.
+      Ha dato il suo nome a tutte le auto Jeep che sono venute dopo.
+  car.land_rover_defender:
+    label: Land Rover Defender
+    summary: Un'auto inglese squadrata, fatta per andare nei campi e nel fango.
+    info: |
+      La Land Rover viene dal Regno Unito; la prima è stata costruita nel 1948.
+      Dal 1990 si è chiamata Defender, ed è stata costruita fino al 2016.
+      Contadini, esploratori e squadre di soccorso l'hanno usata in tutto il mondo.
+  car.mini_cooper:
+    label: Mini Cooper
+    summary: Un'auto inglese piccolissima e sorprendentemente veloce.
+    info: |
+      La Mini viene dal Regno Unito ed è stata costruita dal 1959 al 2000.
+      Il suo motore è messo di traverso, così quattro persone ci stanno in un'auto cortissima.
+      Una Mini Cooper S ha vinto il famoso Rally di Monte Carlo nel 1964.
+  car.fiat_500:
+    label: Fiat 500
+    summary: Un'auto italiana piccolissima, fatta per le strade strette delle città.
+    info: |
+      La Fiat 500 viene dall'Italia ed è stata costruita dal 1957 al 1975.
+      È lunga meno di 3 metri, così si può parcheggiare quasi ovunque.
+      Gli italiani la chiamano «Cinquecento», che vuol dire proprio «500».
+  car.citroen_2cv:
+    label: Citroën 2CV
+    summary: Un'auto francese semplice, con un tetto che si può arrotolare.
+    info: |
+      La Citroën 2CV viene dalla Francia ed è stata costruita dal 1948 al 1990.
+      È stata progettata per portare i contadini e la loro merce sulle strade di campagna piene di buche.
+      Il suo morbido tetto di tela si arrotola come il coperchio di una scatoletta di sardine.
+  car.citroen_ds:
+    label: Citroën DS
+    summary: Un'auto francese elegante che sembrava venire dal futuro.
+    info: |
+      La Citroën DS viene dalla Francia ed è stata costruita dal 1955 al 1975.
+      Le sue sospensioni speciali fanno alzare e abbassare l'auto quando la accendi.
+      In francese, «DS» si pronuncia come la parola che vuol dire «dea».
+  car.mercedes_300sl:
+    label: Mercedes-Benz 300 SL
+    summary: Un'auto sportiva argentata con le porte che si aprono verso l'alto come ali.
+    info: |
+      La Mercedes-Benz 300 SL viene dalla Germania; la versione coupé è stata costruita dal 1954 al 1957.
+      Le sue porte si aprono verso l'alto, per questo la chiamano «Ali di gabbiano».
+      Ai suoi tempi era una delle auto più veloci che si potessero comprare.
+  car.jaguar_e_type:
+    label: Jaguar E-Type
+    summary: Un'auto sportiva inglese lunga e slanciata.
+    info: |
+      La Jaguar E-Type viene dal Regno Unito ed è stata costruita dal 1961 al 1975.
+      Ha un cofano lunghissimo con sotto un motore grande.
+      Molti dicono che sia una delle auto più belle mai costruite.
+  car.aston_martin_db5:
+    label: Aston Martin DB5
+    summary: L'elegante auto inglese dell'agente segreto James Bond.
+    info: |
+      L'Aston Martin DB5 viene dal Regno Unito ed è stata costruita dal 1963 al 1965.
+      È diventata famosa in tutto il mondo nel 1964 con il film di James Bond «Agente 007 – Missione Goldfinger».
+      Ne sono state costruite solo un migliaio circa.
+  car.shelby_cobra:
+    label: Shelby Cobra
+    summary: Una piccola auto scoperta con un motore enorme e rumoroso.
+    info: |
+      La Shelby Cobra è stata costruita negli anni Sessanta dal pilota americano Carroll Shelby.
+      Lui ha preso una leggera auto sportiva inglese e ci ha messo dentro un grosso motore Ford americano.
+      Ha vinto molte gare e ancora oggi viene copiata.
+  car.ford_mustang:
+    label: Ford Mustang
+    summary: Un'auto sportiva americana che porta il nome di un cavallo selvaggio.
+    info: |
+      La Ford Mustang viene dagli Stati Uniti ed è stata messa in vendita per la prima volta nel 1964.
+      Ha avuto così tanto successo che un intero gruppo di auto simili è stato chiamato «pony car», proprio per lei.
+      La Mustang viene costruita ancora oggi.
+  car.corvette_c2:
+    label: Corvette Sting Ray
+    summary: Un'auto sportiva americana con il lunotto diviso in due.
+    info: |
+      La Chevrolet Corvette Sting Ray viene dagli Stati Uniti.
+      Solo la coupé del 1963 aveva il lunotto diviso in due metà.
+      La sua carrozzeria è fatta di vetroresina invece che di acciaio.
+  car.cadillac_eldorado:
+    label: Cadillac Eldorado
+    summary: Un'enorme auto americana con le pinne posteriori più grandi di sempre.
+    info: |
+      La Cadillac Eldorado del 1959 viene dagli Stati Uniti.
+      Le sue alte pinne posteriori, a forma di razzo, sono tra le più alte mai messe su un'auto.
+      È lunga più di 5 metri e mezzo.
+  car.chevrolet_bel_air:
+    label: Chevrolet Bel Air
+    summary: Un'auto americana degli anni Cinquanta, tutta lucida, con cromature e piccole pinne.
+    info: |
+      La Chevrolet Bel Air del 1957 viene dagli Stati Uniti.
+      Con la vernice a due colori e tante cromature, è diventata un simbolo dell'America degli anni Cinquanta.
+      A Cuba, molte di queste vecchie auto girano ancora oggi per le strade.
+  car.ford_gt40:
+    label: Ford GT40
+    summary: Un'auto da corsa americana bassissima che ha battuto la Ferrari.
+    info: |
+      La Ford GT40 è stata costruita negli anni Sessanta per vincere la 24 Ore di Le Mans.
+      Ha vinto a Le Mans per quattro anni di fila, dal 1966 al 1969.
+      Si chiama GT40 perché è alta solo circa 40 pollici (1 metro).
+  car.porsche_911_classic:
+    label: Porsche 911 Carrera RS
+    summary: Una classica auto sportiva tedesca con un piccolo spoiler a «coda d'anatra».
+    info: |
+      La Porsche 911 viene dalla Germania; la prima è stata costruita nel 1964.
+      La Carrera RS del 1973 era una versione leggera e veloce, fatta per le corse.
+      Il suo piccolo spoiler posteriore assomiglia alla coda di un'anatra.
+  car.porsche_911_modern:
+    label: Porsche 911
+    summary: La versione moderna di un'auto sportiva che ha la stessa forma da 60 anni.
+    info: |
+      La Porsche 911 viene dalla Germania, e questa versione è uscita nel 2019.
+      Ha ancora i fari rotondi e il motore dietro, proprio come la prima 911.
+      È una delle famiglie di auto sportive prodotte da più tempo al mondo.
+  car.lamborghini_countach:
+    label: Lamborghini Countach
+    summary: Una supercar italiana piatta e spigolosa, con le porte che si aprono verso l'alto.
+    info: |
+      La Lamborghini Countach viene dall'Italia ed è stata costruita dal 1974 al 1990.
+      Le sue porte si alzano in avanti, come un paio di forbici.
+      Molti bambini avevano il suo poster appeso in cameretta.
+  car.ferrari_testarossa:
+    label: Ferrari Testarossa
+    summary: Un'auto sportiva italiana larga e rossa, con delle strisce sui fianchi.
+    info: |
+      La Ferrari Testarossa viene dall'Italia ed è stata costruita per la prima volta nel 1984.
+      Si chiama così perché la parte di sopra del suo motore è dipinta di rosso.
+      Le lunghe strisce sui fianchi fanno entrare l'aria che raffredda il motore.
+  car.ferrari_f40:
+    label: Ferrari F40
+    summary: Una supercar italiana rossa con un grande alettone dietro.
+    info: |
+      La Ferrari F40 viene dall'Italia ed è stata costruita dal 1987 al 1992.
+      È stata fatta per i 40 anni della Ferrari, ed è da lì che viene il suo nome.
+      È stata una delle prime auto stradali capaci di andare a più di 320 km/h.
+  car.delorean:
+    label: DeLorean
+    summary: Un'auto d'acciaio tutta lucida che in un film è diventata una macchina del tempo.
+    info: |
+      La DeLorean DMC-12 è stata costruita in Irlanda del Nord nel 1981 e nel 1982.
+      La sua carrozzeria è di acciaio inossidabile nudo, senza vernice, e le porte si aprono verso l'alto.
+      È diventata famosa come macchina del tempo nel film «Ritorno al futuro».
+  car.london_taxi:
+    label: Taxi di Londra
+    summary: Il famoso taxi nero che porta la gente in giro per Londra.
+    info: |
+      L'Austin FX4 viene dal Regno Unito ed è stato costruito dal 1958 al 1997.
+      Può girarsi in un cerchio piccolissimo, e questo aiuta nelle strade strette di Londra.
+      Il suo tetto alto è stato fatto perché i passeggeri potessero sedersi dentro con il cappello in testa.
+  car.toyota_land_cruiser:
+    label: Toyota Land Cruiser
+    summary: Un'auto giapponese robusta che può attraversare deserti e giungle.
+    info: |
+      La Toyota Land Cruiser FJ40 viene dal Giappone ed è stata costruita dal 1960 al 1984.
+      È stata venduta in tutto il mondo ed è famosa perché è difficilissima da rompere.
+      Molte girano ancora oggi su strade difficili.
+  car.mazda_mx5:
+    label: Mazda MX-5
+    summary: Una piccola e allegra due posti giapponese con i fari che saltano fuori.
+    info: |
+      La Mazda MX-5 viene dal Giappone ed è stata messa in vendita per la prima volta nel 1989.
+      La prima versione aveva i fari che si sollevavano fuori dal cofano.
+      È l'auto sportiva a due posti più venduta al mondo.
+  car.trabant:
+    label: Trabant
+    summary: Una piccola auto della Germania dell'Est con la carrozzeria in parte di plastica.
+    info: |
+      La Trabant viene dalla Germania dell'Est ed è stata costruita dal 1957 al 1991.
+      La sua carrozzeria era fatta di una plastica dura mescolata con fibre di cotone, invece che di acciaio.
+      Spesso la gente doveva aspettare molti anni per comprarne una.
+  car.bugatti_veyron:
+    label: Bugatti Veyron
+    summary: Un'auto incredibilmente veloce che può superare i 400 km/h.
+    info: |
+      La Bugatti Veyron viene dalla Francia ed è stata costruita dal 2005 al 2015.
+      Il suo motore ha 16 cilindri e più di 1.000 cavalli.
+      Quando è uscita, era l'auto stradale più veloce del mondo.
+  car.tesla_model_s:
+    label: Tesla Model S
+    summary: Un'auto americana veloce che va a elettricità invece che a benzina.
+    info: |
+      La Tesla Model S viene dagli Stati Uniti ed è stata messa in vendita nel 2012.
+      Va con grandi batterie sotto il pavimento, così non ha il tubo di scappamento.
+      Siccome davanti non c'è il motore, lì c'è un secondo bagagliaio.

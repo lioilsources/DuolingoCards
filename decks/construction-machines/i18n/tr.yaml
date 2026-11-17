@@ -1,0 +1,214 @@
+lang: tr
+pivot: false
+title: Kepçeler ve iş makineleri
+cards:
+  machine.excavator:
+    label: ekskavatör
+    summary: Uzun bir kolu ve dişlerle dolu bir kovası olan kazı makinesi.
+    info: |
+      Ekskavatör paletlerle gider, bu yüzden yumuşak çamura gömülmez.
+      Kabini ve koluyla birlikte bütün üst kısmı tam tur dönebilir.
+      Kolu hidrolikle hareket eder, yani borulardan yüksek basınçla itilen yağla.
+  machine.mini_excavator:
+    label: mini ekskavatör
+    summary: Bir bahçe kapısından geçebilen küçük bir kazıcı.
+    info: |
+      Mini ekskavatör, büyüğünün sığmayacağı yerlerde kazı yapar; bahçelerde, avlularda ve dar sokaklarda.
+      Genellikle lastik paletlerle gider, bu yüzden döşeli zemine zarar vermez.
+      Önündeki küçük bıçak toprağı yeniden çukura iter.
+  machine.backhoe_loader:
+    label: beko loder
+    summary: Önünde bir kepçe, arkasında bir kazı kolu olan traktör.
+    info: |
+      Beko loder iki makine birden; önde bir yükleyici, arkada bir ekskavatör.
+      Sürücü arka kolla çalışmak için koltuğunu arkaya çevirir.
+      Tekerlekleri olduğu için bir işten diğerine yolda gidebilir.
+  machine.wheel_loader:
+    label: lastikli yükleyici
+    summary: Kocaman lastikleri olan, kum ve çakıl kepçeleyip taşıyan bir makine.
+    info: |
+      Lastikli yükleyici öndeki büyük kovasını doldurur ve kamyonlara boşaltır.
+      Gövdesi ortadan kırılır, bu da dar yerlerde dönmesini sağlar.
+      En büyük lastikli yükleyicilerin lastikleri bir yetişkinden daha uzundur.
+  machine.bulldozer:
+    label: buldozer
+    summary: Geniş bir bıçakla toprak iten, paletli güçlü bir makine.
+    info: |
+      Buldozer, önündeki çelik bıçakla toprak, taş ve kum iter.
+      Arkasındaki pençeye riper denir ve sert zemini parçalar.
+      Geniş paletleri ağırlığını yayar, böylece gevşek toprağın üstünde gidebilir.
+  machine.skid_steer:
+    label: mini yükleyici
+    summary: Olduğu yerde dönebilen, kutu biçiminde küçük bir yükleyici.
+    info: |
+      Mini yükleyici, bir taraftaki tekerleklerini diğer taraftakilerden daha hızlı döndürerek döner.
+      Böylece neredeyse bir tank gibi olduğu yerde dönebilir.
+      Kova yerine çatal, fırça ya da matkap gibi birçok başka alet takılabilir.
+  machine.dump_truck:
+    label: damperli kamyon
+    summary: Yükünü arkadan boşaltan bir kamyon.
+    info: |
+      Damperli kamyon kum, çakıl ya da toprağı damper denen çelik bir kasada taşır.
+      Hidrolik pistonlar kasanın ön tarafını kaldırır ve yük arkadan kayıp dökülür.
+      Sonra kasa yeniden iner ve kamyon yeni yük almaya gider.
+  machine.articulated_hauler:
+    label: belden kırma kamyon
+    summary: Engebeli arazi için yapılmış, ortadan kırılan bir damperli kamyon.
+    info: |
+      Belden kırma kamyonun bir mafsalla birleşen iki parçası vardır, bu yüzden ortadan kırılır.
+      Böylece sıradan bir kamyonun saplanıp kalacağı çamurdan ve tümseklerden geçebilir.
+      Yollar için değil, şantiyeler ve taş ocakları için yapılmıştır.
+  machine.mining_truck:
+    label: maden kamyonu
+    summary: Kocaman açık maden ocaklarında çalışan dev bir damperli kamyon.
+    info: |
+      Maden kamyonları dünyanın en büyük kamyonlarından bazılarıdır.
+      Lastikleri bir yetişkinden daha uzundur ve sürücü kabine bir merdivenle tırmanır.
+      En büyükleri bir seferde 400 tondan fazla kaya taşıyabilir.
+  machine.concrete_mixer:
+    label: beton mikseri
+    summary: Büyük bir tamburu sürekli dönen bir kamyon.
+    info: |
+      Beton mikseri şantiyeye taze beton getirir.
+      Tambur yol boyunca dönmeye devam eder, böylece beton içinde donmaz.
+      Tambur ters yöne döndüğünde beton oluktan aşağı akar.
+  machine.concrete_pump:
+    label: beton pompası
+    summary: Betonu yükseklere döken, uzun katlanır kollu bir kamyon.
+    info: |
+      Beton pompası ıslak betonu uzun kolu boyunca uzanan bir borudan iter.
+      Kolu dev bir parmak gibi açılır ve bir binanın üst katlarına uzanır.
+      Yanlardaki çelik ayaklar kamyonun devrilmesini önler.
+  machine.tower_crane:
+    label: kule vinç
+    summary: Bir şantiyenin üstünde yükselen uzun bir vinç.
+    info: |
+      Kule vinç, çelik kirişler ve beton gibi ağır yükleri binanın tepesine kaldırır.
+      Vinç operatörü kulenin içinden tırmanarak tepedeki küçük kabine çıkar.
+      Kısa koldaki ağır beton bloklar uzun koldaki yükü dengeler.
+  machine.mobile_crane:
+    label: mobil vinç
+    summary: Kolu gittikçe uzayan, kamyon üstünde bir vinç.
+    info: |
+      Mobil vinç şantiyeye kendi tekerlekleriyle gider.
+      Kolu teleskopiktir; bir dürbün gibi açılarak çok daha uzun hâle gelir.
+      Yük kaldırmadan önce devrilmemek için iki yanına güçlü ayaklar açar.
+  machine.crawler_crane:
+    label: paletli vinç
+    summary: Kafes biçiminde uzun bir kolu olan, paletli çok güçlü bir vinç.
+    info: |
+      Paletli vinç, kocaman ağırlığını zemine yayan paletlerin üstünde durur.
+      Uzun kolu çelik kafesten yapılmıştır; hafif ama çok sağlamdır.
+      Büyük paletli vinçler köprü ve rüzgâr türbini parçalarını kaldırır.
+  machine.road_roller:
+    label: silindir
+    summary: Asfaltı düzleştiren, pürüzsüz çelik tamburlu ağır bir makine.
+    info: |
+      Silindir taze asfaltın üstünden yavaşça geçer ve onu bastırarak düz ve sert yapar.
+      Çelik tamburları çok hızlı titreyebilir, bu da yolu daha iyi sıkıştırır.
+      Sıcak asfalt yapışmasın diye tamburlara su püskürtülür.
+  machine.asphalt_paver:
+    label: asfalt serici
+    summary: Yola yeni bir katman seren bir makine.
+    info: |
+      Kamyonlar sıcak asfaltı asfalt sericinin ön tarafına döker.
+      Asfalt serici yavaşça ilerlerken asfaltı arkasına düzgün bir katman hâlinde serer.
+      Genellikle hemen arkasından bir silindir gelir.
+  machine.motor_grader:
+    label: greyder
+    summary: Karnının altında bir bıçak olan, yolları düzleyen uzun bir makine.
+    info: |
+      Greyderin altında, ön ve arka tekerlekleri arasında uzun bir bıçak vardır.
+      Bıçak eğilip dönebilir, böylece zemini tamamen düz ya da hafif eğimli yapabilir.
+      Greyderler toprak yolları düzler ve yeni bir yol yapılmadan önce zemini hazırlar.
+  machine.forklift:
+    label: forklift
+    summary: Yükleri iki çatalla kaldıran küçük bir araç.
+    info: |
+      Forklift iki çatalını bir paletin altına sokar ve onu kaldırır.
+      Depolarda, fabrikalarda ve mağazalarda çalışır.
+      Arkasındaki ağır bir ağırlık, yükün altında öne devrilmesini önler.
+  machine.telehandler:
+    label: teleskopik yükleyici
+    summary: Eşyaları yükseğe kaldırmak için uzayan uzun bir kolu olan yükleyici.
+    info: |
+      Teleskopik yükleyici, uzun teleskopik kolu olan bir forklift gibidir.
+      Bir palet tuğlayı çatıya ya da binanın içerilerine kadar kaldırabilir.
+      Şantiyelerde ve saman balyalarını kaldırdığı çiftliklerde kullanılır.
+  machine.boom_lift:
+    label: sepetli platform
+    summary: İşçileri bir sepetin içinde yükseğe kaldıran bir makine.
+    info: |
+      Sepetli platform, korkuluklu küçük bir platformu havaya yükseltir.
+      İşçiler duvar boyamak, lambaları onarmak ya da dal kesmek için onun içinde durur.
+      Eklemli kolu hem yukarı hem de engellerin üstünden uzanabilir.
+  machine.scissor_lift:
+    label: makaslı platform
+    summary: Çapraz desteklerin üstünde dümdüz yukarı çıkan bir platform.
+    info: |
+      Makaslı platformun makas gibi açılan çapraz metal destekleri vardır.
+      Destekler açıldıkça üstteki platform dümdüz yukarı çıkar.
+      İşçiler tavana ulaşmak için onu salonlarda ve depolarda kullanır.
+  machine.demolition_breaker:
+    label: hidrolik kırıcı
+    summary: Betonu kırmak için kova yerine çekici olan bir ekskavatör.
+    info: |
+      Hidrolik kırıcı, bir ekskavatörün koluna takılan kocaman bir çekiçtir.
+      Beton ve kayaya saniyede birçok kez vurur, ta ki çatlayana kadar.
+      Eski binaların yıkılmasına ve taş ocaklarında kayaların kırılmasına yardım eder.
+  machine.pile_driver:
+    label: kazık çakma makinesi
+    summary: Uzun direkleri toprağın derinliklerine çakan bir makine.
+    info: |
+      Kazık çakma makinesi, kazık denen uzun çelik ya da beton direkleri toprağa iter veya çakar.
+      Kazıklar, zeminin yumuşak olduğu yerlerde binaları ve köprüleri taşır.
+      Kazığı dimdik tutan uzun bir direği vardır.
+  machine.drilling_rig:
+    label: sondaj makinesi
+    summary: Toprakta derin delikler açan paletli bir makine.
+    info: |
+      Sondaj makinesi derin bir delik açan uzun, sarmal bir matkabı döndürür.
+      Toprak sarmal boyunca yukarı çıkar ve deliğin çevresinde yığılır.
+      Delikler betonla doldurularak sağlam temeller yapılır.
+  machine.tunnel_boring_machine:
+    label: tünel açma makinesi
+    summary: Yerin altında tünel kazan dev, yuvarlak bir makine.
+    info: |
+      Tünel açma makinesinin önünde, kesici diskleri olan kocaman yuvarlak bir çark vardır; yavaşça döner ve kayayı öğütür.
+      Çarkın arkasında makine, tünelin duvarlarını beton parçalarla kaplar.
+      Tünel açma makinelerine çoğu zaman kız isimleri verilir.
+  machine.cold_planer:
+    label: asfalt kazıma makinesi
+    summary: Eski, yıpranmış asfaltı kazıyıp söken bir makine.
+    info: |
+      Asfalt kazıma makinesinin altında keskin dişleri olan, dönen bir tambur vardır.
+      Eski bir yolun üst katmanını kazır ve bir konveyör bant parçaları kamyona yükler.
+      Eski asfalt yeni bir yolda yeniden kullanılabilir.
+  machine.plate_compactor:
+    label: kompaktör
+    summary: Bir işçinin iterek zemini sıkıştırdığı, titreyen küçük bir plaka.
+    info: |
+      Kompaktörün çok hızlı titreyen ağır bir çelik plakası vardır.
+      Bir işçi arkasından yürür ve onu sapından yönlendirir.
+      Patikaların, terasların ve kaldırımların altındaki kum ve çakılı sıkıştırır.
+  machine.sheepsfoot_roller:
+    label: keçi ayağı silindir
+    summary: Toprağı sıkıştıran, tamburu tümsekli bir silindir.
+    info: |
+      Keçi ayağı silindirin tamburu, ayak denen çıkıntılarla kaplıdır.
+      Ayaklar toprağa derin girer ve onu pürüzsüz bir tamburdan daha iyi sıkıştırır.
+      Toprak ve kil üzerinde kullanılır, örneğin yeni yolların altında ya da barajlarda.
+  machine.bucket_wheel_excavator:
+    label: kova tekerlekli ekskavatör
+    summary: Kovalarla dolu dönen bir çarkı olan devasa bir makine.
+    info: |
+      Kova tekerlekli ekskavatör, kocaman açık maden ocaklarında kömür ve toprak kazar.
+      Kolunun ucunda kovalı büyük bir çark döner ve uzun bir konveyör bandı doldurur.
+      En büyükleri 200 metreden uzundur; bu da onları karadaki en büyük makinelerden biri yapar.
+  machine.loader_crane_truck:
+    label: vinçli kamyon
+    summary: Yükleri indirip bindiren, katlanır kollu bir kamyon.
+    info: |
+      Vinçli kamyonun, kabinin arkasında kendi katlanır hidrolik kolu vardır.
+      Tuğla, boru ya da paletleri başka hiçbir makine olmadan indirebilir.
+      Yük kaldırmadan önce sağlam dursun diye yanlarına ayaklar açar.

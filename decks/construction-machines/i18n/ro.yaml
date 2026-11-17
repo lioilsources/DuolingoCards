@@ -1,0 +1,214 @@
+lang: ro
+pivot: false
+title: Excavatoare și utilaje de construcții
+cards:
+  machine.excavator:
+    label: excavator
+    summary: Un utilaj care sapă, cu un braț lung și o cupă plină de dinți.
+    info: |
+      Excavatorul merge pe șenile, așa că nu se afundă în noroiul moale.
+      Toată partea de sus, cu cabina și brațul, se poate roti de jur împrejur.
+      Brațul este mișcat de hidraulică, adică de ulei împins prin țevi cu presiune mare.
+  machine.mini_excavator:
+    label: miniexcavator
+    summary: Un excavator mic, care încape printr-o poartă de grădină.
+    info: |
+      Miniexcavatorul sapă acolo unde unul mare n-ar încăpea, cum ar fi în grădini, curți și pe străzi înguste.
+      De obicei merge pe șenile de cauciuc, ca să nu strice pavajul.
+      Lama mică din față împinge pământul înapoi în groapă.
+  machine.backhoe_loader:
+    label: buldoexcavator
+    summary: Un tractor cu o cupă în față și un braț de săpat în spate.
+    info: |
+      Buldoexcavatorul înseamnă două utilaje într-unul, un încărcător în față și un excavator în spate.
+      Șoferul își întoarce scaunul ca să lucreze cu brațul din spate.
+      Merge pe roți, așa că poate circula pe drum de la o lucrare la alta.
+  machine.wheel_loader:
+    label: încărcător frontal
+    summary: Un utilaj cu roți uriașe, care încarcă și cară nisip și pietriș.
+    info: |
+      Încărcătorul frontal își umple cupa mare din față și o golește în camioane.
+      Corpul lui se îndoaie la mijloc, așa că poate întoarce în locuri strâmte.
+      Cele mai mari încărcătoare au roți mai înalte decât un om mare.
+  machine.bulldozer:
+    label: buldozer
+    summary: Un utilaj puternic pe șenile, care împinge pământul cu o lamă lată.
+    info: |
+      Buldozerul împinge pământ, pietre și nisip cu lama de oțel din față.
+      Gheara din spate se numește scarificator și sparge pământul tare.
+      Șenilele lui late îi împart greutatea, așa că poate merge pe pământ afânat.
+  machine.skid_steer:
+    label: miniîncărcător
+    summary: Un încărcător mic, ca o cutie, care se poate întoarce pe loc.
+    info: |
+      Miniîncărcătorul virează învârtind roțile de pe o parte mai repede decât pe cele de pe cealaltă.
+      Așa se poate roti pe loc, aproape ca un tanc.
+      În loc de cupă poate purta multe alte unelte, cum ar fi furci, perii sau un burghiu.
+  machine.dump_truck:
+    label: basculantă
+    summary: Un camion care își varsă încărcătura prin spate.
+    info: |
+      Basculanta cară nisip, pietriș sau pământ într-o benă de oțel.
+      Niște pistoane hidraulice ridică partea din față a benei, iar încărcătura alunecă afară prin spate.
+      Apoi bena coboară la loc și camionul pleacă după încă o tură.
+  machine.articulated_hauler:
+    label: dumper articulat
+    summary: O basculantă pentru teren greu, care se îndoaie la mijloc.
+    info: |
+      Dumperul articulat are două părți prinse cu o articulație, așa că se îndoaie la mijloc.
+      Așa poate trece prin noroi și peste denivelări unde un camion obișnuit s-ar împotmoli.
+      Este făcut pentru șantiere și cariere, nu pentru drumuri.
+  machine.mining_truck:
+    label: basculantă de minerit
+    summary: O basculantă uriașă, care lucrează în cariere imense.
+    info: |
+      Basculantele de minerit sunt printre cele mai mari camioane din lume.
+      Roțile lor sunt mai înalte decât un om mare, iar șoferul urcă pe o scară până la cabină.
+      Cele mai mari pot căra peste 400 de tone de rocă dintr-odată.
+  machine.concrete_mixer:
+    label: autobetonieră
+    summary: Un camion cu o tobă mare care se tot învârte.
+    info: |
+      Autobetoniera aduce beton proaspăt pe șantier.
+      Toba se învârte tot drumul, ca betonul să nu se întărească înăuntru.
+      Când toba se învârte invers, betonul curge afară pe jgheab.
+  machine.concrete_pump:
+    label: pompă de beton
+    summary: Un camion cu un braț lung pliabil, care toarnă beton sus de tot.
+    info: |
+      Pompa de beton împinge betonul ud printr-o țeavă de-a lungul brațului ei lung.
+      Brațul se desface ca un deget uriaș și ajunge până la etajele de sus ale unei clădiri.
+      Picioarele de oțel din lateral nu lasă camionul să se răstoarne.
+  machine.tower_crane:
+    label: macara turn
+    summary: O macara înaltă, care stă deasupra unui șantier.
+    info: |
+      Macaraua turn ridică încărcături grele, cum ar fi grinzi de oțel și beton, până în vârful clădirii.
+      Macaragiul urcă prin interiorul turnului până la o cabină mică din vârf.
+      Blocurile grele de beton de pe brațul scurt echilibrează încărcătura de pe brațul lung.
+  machine.mobile_crane:
+    label: automacara
+    summary: O macara pe camion, cu un braț care iese tot mai lung.
+    info: |
+      Automacaraua merge singură pe șantier, pe roțile ei.
+      Brațul ei este telescopic, iese ca un telescop și devine mult mai lung.
+      Înainte să ridice ceva, își scoate picioare puternice pe ambele părți ca să nu se răstoarne.
+  machine.crawler_crane:
+    label: macara pe șenile
+    summary: O macara foarte puternică pe șenile, cu un braț înalt ca o rețea.
+    info: |
+      Macaraua pe șenile stă pe șenile, care îi împart greutatea uriașă pe pământ.
+      Brațul ei lung este făcut dintr-o rețea de bare de oțel, ușoară, dar foarte rezistentă.
+      Macaralele mari pe șenile ridică bucăți de poduri și de turbine eoliene.
+  machine.road_roller:
+    label: tăvălug
+    summary: Un utilaj greu cu cilindri netezi de oțel, care netezește asfaltul.
+    info: |
+      Tăvălugul merge încet peste asfaltul proaspăt și îl presează până devine neted și tare.
+      Cilindrii lui de oțel pot vibra foarte repede, ca drumul să fie presat și mai bine.
+      Pe cilindri se stropește apă, ca asfaltul fierbinte să nu se lipească de ei.
+  machine.asphalt_paver:
+    label: finisor de asfalt
+    summary: Un utilaj care așterne un strat nou de drum.
+    info: |
+      Camioanele varsă asfalt fierbinte în partea din față a finisorului.
+      Finisorul îl întinde în urma lui într-un strat egal, în timp ce înaintează încet.
+      De obicei, chiar în spatele lui vine un tăvălug.
+  machine.motor_grader:
+    label: autogreder
+    summary: Un utilaj lung cu o lamă sub burtă, care nivelează drumurile.
+    info: |
+      Autogrederul are dedesubt o lamă lungă, între roțile din față și cele din spate.
+      Lama se poate înclina și roti, așa că poate face pământul perfect plat sau puțin înclinat.
+      Autogrederele nivelează drumurile de pietriș și pregătesc terenul înainte să se facă un drum nou.
+  machine.forklift:
+    label: stivuitor
+    summary: Un vehicul mic care ridică încărcături pe două furci.
+    info: |
+      Stivuitorul își bagă cele două furci sub un palet și îl ridică.
+      Lucrează în depozite, fabrici și magazine.
+      O greutate mare în spate îl împiedică să se răstoarne în față sub încărcătură.
+  machine.telehandler:
+    label: încărcător telescopic
+    summary: Un încărcător cu un braț lung care iese ca să ridice lucruri sus.
+    info: |
+      Încărcătorul telescopic este ca un stivuitor cu un braț lung telescopic.
+      Poate ridica un palet de cărămizi pe un acoperiș sau departe în interiorul unei clădiri.
+      Se folosește pe șantiere și la ferme, unde ridică baloți de fân.
+  machine.boom_lift:
+    label: nacelă
+    summary: Un utilaj care ridică muncitorii sus de tot, într-un coș.
+    info: |
+      Nacela ridică sus în aer o platformă mică, cu balustradă.
+      Muncitorii stau în ea ca să vopsească pereți, să repare lămpi sau să taie crengi.
+      Brațul ei cu articulații poate ajunge în sus și chiar peste obstacole.
+  machine.scissor_lift:
+    label: platformă foarfecă
+    summary: O platformă care urcă drept în sus pe suporturi încrucișate.
+    info: |
+      Platforma foarfecă are suporturi de metal încrucișate, care se deschid ca o foarfecă.
+      Când se deschid, platforma de deasupra urcă drept în sus.
+      Muncitorii o folosesc în hale și depozite ca să ajungă la tavan.
+  machine.demolition_breaker:
+    label: ciocan hidraulic
+    summary: Un excavator cu un ciocan în loc de cupă, care sparge betonul.
+    info: |
+      Ciocanul hidraulic este un ciocan uriaș prins de brațul unui excavator.
+      Lovește betonul și piatra de multe ori pe secundă, până crapă.
+      Ajută la dărâmarea clădirilor vechi și la spargerea pietrei în cariere.
+  machine.pile_driver:
+    label: sonetă
+    summary: Un utilaj care bate stâlpi lungi adânc în pământ.
+    info: |
+      Soneta împinge sau bate în pământ stâlpi lungi din oțel sau beton, numiți piloți.
+      Piloții țin clădirile și podurile acolo unde pământul e moale.
+      Are un catarg înalt, care ține pilotul perfect drept.
+  machine.drilling_rig:
+    label: instalație de foraj
+    summary: Un utilaj pe șenile care face găuri adânci în pământ.
+    info: |
+      Instalația de foraj învârte un burghiu lung în spirală, care face o gaură adâncă.
+      Pământul urcă pe spirală și se adună grămadă în jurul găurii.
+      Găurile sunt umplute cu beton ca să devină fundații rezistente.
+  machine.tunnel_boring_machine:
+    label: mașină de forat tuneluri
+    summary: Un utilaj rotund și uriaș, care sapă tuneluri sub pământ.
+    info: |
+      În fața mașinii de forat tuneluri se află o roată rotundă uriașă cu discuri tăietoare, care se învârte încet și macină roca.
+      În spatele ei, mașina îmbracă pereții tunelului cu bucăți de beton.
+      Mașinile de forat tuneluri primesc adesea nume de fete.
+  machine.cold_planer:
+    label: freză de asfalt
+    summary: Un utilaj care rade asfaltul vechi și uzat.
+    info: |
+      Freza de asfalt are dedesubt un tambur care se învârte, cu dinți ascuțiți.
+      Rade stratul de sus al unui drum vechi, iar o bandă transportoare încarcă bucățile într-un camion.
+      Asfaltul vechi poate fi folosit din nou la un drum nou.
+  machine.plate_compactor:
+    label: placă compactoare
+    summary: O placă mică ce vibrează, pe care un muncitor o împinge ca să taseze pământul.
+    info: |
+      Placa compactoare are o placă grea de oțel care vibrează foarte repede.
+      Un muncitor merge în spatele ei și o conduce de mâner.
+      Tasează nisipul și pietrișul de sub alei, terase și trotuare.
+  machine.sheepsfoot_roller:
+    label: compactor picior de oaie
+    summary: Un compactor cu un cilindru plin de umflături, care tasează pământul.
+    info: |
+      Cilindrul unui compactor picior de oaie este acoperit cu blocuri numite picioare.
+      Blocurile intră adânc în pământ și îl tasează mai bine decât un cilindru neted.
+      Se folosește pe pământ și argilă, de exemplu sub drumuri noi sau la baraje.
+  machine.bucket_wheel_excavator:
+    label: excavator cu rotor
+    summary: Un utilaj gigantic cu o roată plină de cupe care se învârte.
+    info: |
+      Excavatorul cu rotor sapă cărbune și pământ în cariere imense.
+      La capătul brațului se învârte o roată mare cu cupe, care umple o bandă transportoare lungă.
+      Cele mai mari au peste 200 de metri lungime, așa că sunt printre cele mai mari mașini de pe uscat.
+  machine.loader_crane_truck:
+    label: camion cu macara
+    summary: Un camion cu un braț pliabil, care urcă și coboară încărcături.
+    info: |
+      Camionul cu macara are propriul braț hidraulic pliabil, în spatele cabinei.
+      Poate descărca cărămizi, țevi sau paleți fără niciun alt utilaj.
+      Înainte să ridice ceva, își scoate picioare în lateral ca să stea stabil.
