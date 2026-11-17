@@ -62,3 +62,16 @@ store/play_upload/
 
 # Local path overrides for sibling packages (CuteKidFonts)
 pubspec_overrides.yaml
+# devconv:start
+.env.*
+!.env.example
+*.p8
+*.p12
+*.jks
+key.properties
+.claude/settings.local.json
+CLAUDE.local.md
+build/
+.flutter-plugins
+lib/**/secrets.dart
+# devconv:end

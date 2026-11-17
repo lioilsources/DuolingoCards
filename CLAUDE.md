@@ -1,419 +1,56 @@
-# CLAUDE.md
+# DuolingoCards (Lexify)
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+<!-- Max 80 řádků. Co se nevejde, jde do docs/ a sem jeden odkaz. Veřejné repo: žádné LAN IP, domovské cesty, ID. -->
 
-## Build and Development Commands
+## Účel
+Flashcard appka (Flutter) se swipe kartami, prioritním opakováním a obchodem s balíčky
+bez backendu: obsah je v binárce a na GitHub Pages CDN, IAP se ověřuje na zařízení.
+Obsah staví build-time Go nástroj `content` v `quiz-generator/` přes LLM a ComfyUI na SPARKu.
 
-### Flutter App
-
+## Build a test
 ```bash
-flutter run                          # Debug mode
-flutter run -d chrome                # Web
-flutter run -d macos                 # macOS
-flutter run -d ios                   # iOS simulator
-flutter build apk / ios / web / macos  # Release builds
-flutter test                         # All tests
-flutter test test/widget_test.dart   # Single test
-flutter analyze                      # Lint
-flutter pub get                      # Dependencies (also regenerates lib/l10n)
-flutter gen-l10n                     # UI strings: lib/l10n/app_*.arb → app_localizations*.dart
-make screenshots                     # Every screen in every UI language on a booted iOS simulator → build/screenshots/
-make site-screenshots                # The six phone shots for the olin.now page → ../ol1n.now/apps/lexify/screenshots/raw/mobile/ios/
-make site-screenshots-macos          # Same walk on the Mac build (window capture; Mac awake, terminal needs Accessibility + Screen Recording) → build/site_screenshots_macos/
+flutter pub get                      # deps, regeneruje i lib/l10n
+flutter analyze && flutter test      # gate
+flutter gen-l10n                     # lib/l10n/app_*.arb → app_localizations*.dart
+make screenshots                     # každá obrazovka v každém UI jazyce (booted iOS simulátor) → build/screenshots/
+make site-screenshots                # šest shotů pro olin.now → ../ol1n.now/apps/lexify/screenshots/raw/mobile/ios/
+make site-screenshots-macos          # totéž na Mac buildu → build/site_screenshots_macos/
+
+make build-tool                      # quiz-generator/bin/content (git-ignored)
+make lint | lint-strict              # validace balíčků
+make build                           # deck.yaml + i18n/*.yaml → assets/decks/*.json
+make translate [DECK=…]              # LLM překlad chybějících jazyků
+make images DECK=… STYLE=photo       # text2img přes ComfyUI
+make restyle DECK=… STYLE=<style>    # img2img restyle z photo base; `make styles` vypíše styly
+make ship DECK=…                     # publish obrázků → build → publish json
 ```
-
-### Quiz Generator (Go CLI)
-
-```bash
-cd quiz-generator
-go build ./cmd/generator/                                    # Build
-go run cmd/generator/main.go -type capitals -limit 50        # World capitals
-go run cmd/generator/main.go -type dogbreeds -limit 50       # Dog breeds
-go run cmd/generator/main.go -type catbreeds -limit 50       # Cat breeds
-go run cmd/generator/main.go -type geography -category rivers -limit 3  # Geography
-go run cmd/generator/main.go -type pokemon -limit 151        # Pokémon Gen 1
-```
-
-Output goes to `quiz-generator/output/decks/` (JSON) and `quiz-generator/output/media/` (images).
-
-### Content pipeline (no-backend, build-time)
-
-The v2 architecture is **no-backend**: authored content is just files in Git
-(deck-per-folder), built into bundled `deck.json` packs — there is no runtime
-server. The `content` Go tool drives the build-time pipeline:
-
-Binary lives at `quiz-generator/bin/content` (git-ignored). Use `make` from the repo root:
-
-```bash
-make build-tool                              # compile quiz-generator/bin/content
-make lint                                    # validate all decks
-make lint-strict                             # + require all translations + images
-make build                                   # merge deck.yaml + i18n/*.yaml → assets/decks/*.json
-make translate                               # LLM-translate all missing languages
-make translate DECK=animals-sea              # only one deck
-make images DECK=animals-sea STYLE=photo # generate images via ComfyUI
-make images DECK=animals-sea STYLE=pony-cartoon
-make watercolor DECK=animals-sea             # img2img restyle of the photo base (Pony)
-make oil        DECK=animals-sea
-make anime      DECK=animals-insects         # ControlNet restyle of the photo base (Illustrious)
-make storybook  DECK=animals-insects
-make flat       DECK=animals-insects
-make ukiyoe     DECK=animals-insects
-make tune   DECK=animals-sea STYLE=photo # iterative generate → VL-validate → refine loop
-make new-deck DECK=animals-sea STYLE=photo  # translate + images (photo) + build in one shot
-make prompts DECK=animals-sea STYLE=photo   # print expanded prompts (no generation)
-```
-
-Spark servers (defined in Makefile, local network):
-- LLM / translate: `http://spark-99bb:8080` — text models only (translate, tune validator/builder)
-- ComfyUI / images: `http://spark-99bb:8188`
-
-**Every image goes through ComfyUI.** `imagegen.ImageGenerator` has exactly one
-implementation (`comfyuiimage.Client`); the LLM server never generates images.
-FLUX is a ComfyUI checkpoint driven by `flux_dev.json`, not a vLLM endpoint.
-
-Direct invocation (if needed):
-```bash
-BIN=quiz-generator/bin/content
-$BIN lint    -decks decks [-strict] [-images]
-$BIN build   -decks decks -out assets/decks
-$BIN translate -decks decks -deck animals-sea -url http://192.168.88.66:8080
-$BIN images    -decks decks -deck animals-sea -style photo -url http://192.168.88.66:8188
-```
-
-Authoring layout (top-level `decks/`, versioned in Git):
-
-```
-decks/<slug>/
-  deck.yaml            # language-neutral spine: slug, version, styles, cards (key, hint, visual brief)
-  i18n/<lang>.yaml     # label + summary + info per card, one file per language (cs is the pivot)
-  images/<style>/*.png # generated by ComfyUI; photo and pony-cartoon
-  tuned/<style>.yaml   # winning prompts from `make tune` (optional)
-```
-
-`label`/`summary`/`info` are authored in the **cs pivot**, fact-checked, then
-translated to the other 19 target languages (see `internal/langs`). `build`
-folds all languages into per-field maps in `deck.json`; `lint` enforces card
-spine, translation coverage, no orphan keys, and schema. Visual briefs are
-expanded into FLUX, Pony and Illustrious prompts via `internal/prompt` (dual
-prompting).
-
-#### Image styles
-
-Only `photo` and `pony-cartoon` generate from text. Everything else is a
-**restyle** of the `photo` base image, because the style models know far more
-art styles than they know real-world objects — Illustrious cannot draw an ant,
-FLUX can. So FLUX supplies the subject and the style model supplies the look:
-
-| style | pass | workflow |
-|---|---|---|
-| `photo`, `pony-cartoon` | text2img | `flux_dev.json`, `flux_card.json` |
-| `pony-watercolor`, `pony-oil` | img2img | `pony_img2img.json` |
-| ten `illustrious-*` styles | img2img + ControlNet | `illustrious_cn_img2img.json` |
-
-`make styles` prints every style with its denoise / ControlNet knobs. Use
-`make restyle DECK=<slug> STYLE=<style>` for any of them; `anime`, `storybook`,
-`flat` and `ukiyoe` also have shorthand targets.
-
-**`ControlEnd` is the knob that decides whether a style reads as a style.** The
-first four presets (`anime`, `storybook`, `flat`, `ukiyoe`) hold ControlNet for
-80-90% of sampling, which pins the surface as well as the silhouette — they came
-out looking like graded versions of the base. The medium and artist presets
-(`ink`, `watercolor`, `oil`, `pastel`, `mucha`, `vangogh`) release it at 0.45-0.55
-and run denoise 0.88-0.92: structure is locked while the composition forms, then
-the model is free to lay down its own brushwork.
-
-**`avoid` is not a negative prompt for FLUX.** Distilled FLUX ignores negatives,
-so `expandFlux` folds `avoid` into the positive sentence ("Clean composition
-without text, blood."). Diffusion does not do negation, so naming an unwanted
-*composition* there tends to summon it — `numbers-1-10` asked to avoid "hearts
-in a ring" and got a ring. Keep `avoid` to things that are simply absent or
-present (text, watermarks, other subjects), never to arrangements.
-
-**Exact object counts are not achievable.** FLUX cannot count reliably above
-about four, and no phrasing fixes it; explicit grids were tried on
-`numbers-1-10` and ignored. A card whose meaning depends on a count needs the
-`-tune` loop (generate → vision-validate → retry), not a better brief.
-
-**Deck-level `brief_attrs` never reach a restyle.** They are scaffolding for the
-text-to-image base ("macro photography", "(photorealistic texture:1.1)", "soft
-studio lighting"), and carrying them into a repaint fights the style outright —
-food-fruits asks for "(vibrant colors:1.3)" while `ink` asks for
-"(monochrome:1.2)". `mergedBrief` drops them whenever `Style.Img2Img` is set; the
-card's own brief attrs always survive, since those describe the concept.
-
-**A declared style is not a shipped style.** `deck.yaml` states intent; `build`
-derives `deck.json`'s `styles` from the images actually on disk, so a style
-listed but never rendered (or rendered for only some cards) silently drops out
-instead of reaching the store as a dead chip. `lint` warns about the gap.
-
-`build` also records `styleAvailability` per style — `bundled` (in the app
-binary, via `assets/previews/<slug>/<style>/` or a full image dir listed in
-`pubspec.yaml`) and `cdn` (published under `docs/decks/`). The store offers only
-styles where at least one is true (`LanguageDeck.offerableStyles`); a style in
-the repo but neither bundled nor published would show placeholders and download
-nothing. Pass `-app-root` to point `build` at the Flutter tree (default `.`).
-
-#### Shipping a style
-
-Generating images is not shipping them — they still have to reach a phone:
-
-```bash
-make restyle DECK=animals-sea STYLE=pastel   # 1. render all 50 cards
-make ship    DECK=animals-sea                            # 2. publish + build + publish
-```
-
-`ship` is ordered publish-images → build → publish-json and that order matters:
-`build` reads the published trees to decide availability, so building first
-would mark the new style undeliverable and the store would hide it. `publish`
-copies the leading `-preview-cards` (default 3) into `assets/previews/` and the
-full set plus `deck.json` into `docs/decks/`, skipping any style whose image set
-is incomplete — the same rule `build` uses, so the two cannot disagree. Copies
-are size/mtime-guarded, so re-publishing does not churn Git.
-
-One manual step remains: a brand-new `assets/previews/<slug>/<style>/` folder
-needs its own line under `flutter.assets` in `pubspec.yaml`, or Flutter will not
-bundle it and `bundled` stays false.
-
-#### Remote catalog (new decks without an app release)
-
-`publish -what json` (so every `make ship`) also writes `docs/catalog.json`:
-`assets/catalog.json`'s `free` + `products` plus a `decks` index (slug,
-version, tier, titles, CDN styles, `added`) of every deck under `docs/decks/`.
-`added` is carried over from the previous file — a deck gets today's date once,
-on first publish — so re-running does not churn Git (`-today` overrides).
-
-The app (`EntitlementService` + `RemoteCatalogService`) uses the cached copy at
-start, refreshes in the background (4 s timeout) and again when the store opens;
-offline it keeps the cache, then the bundled catalog. `StoreCatalog.merge`:
-union of free decks and products, and the remote verdict wins for any slug it
-prices. The store lists bundled ∪ remote decks; a remote-only deck's
-`deck.json` is fetched on demand and its images go through the normal download.
-Decks `added` within 14 days get the "New" badge and sort first. A slug newly
-on the free list lands on home once (`offered_free_decks_v1` in prefs); a deck
-the user removed is never re-added.
-
-A new **paid** deck still needs its IAP product created in App Store Connect /
-Play Console and listed in `assets/catalog.json` before `make ship`.
-
-User-facing style names live in `lib/models/card_style.dart` — the pipeline's
-ids (`illustrious-ukiyoe`) are model names, not labels for a buyer.
-
-The Illustrious pass additionally runs the base image through Canny into
-`ControlNetApplyAdvanced`, which pins the subject's silhouette independently of
-the latent. That structure lock is what lets denoise run at 0.75–0.85, where the
-style actually takes — plain img2img dissolves the subject above ~0.65. Tune the
-balance with `DENOISE=` and `CONTROL_STRENGTH=`; pick models with `ILLU_CKPT=`
-and `CONTROLNET=`.
-
-## Architecture Overview
-
-DuolingoCards is a flashcard app with swipeable cards, priority-based spaced
-repetition, and a **no-backend** deck store. Content ships in the app binary
-(distribution variant B); in-app purchases unlock decks **on-device** (StoreKit
-2 / Play Billing verified locally — no server, no receipt forwarding).
-Pronunciation uses on-device TTS (`flutter_tts`), so there are no audio assets.
-
-### Screen Flow
-
-```
-HomeScreen (entry point)
-├── Displays bundled deck + downloaded decks
-├── Tap deck → DeckScreen (study mode)
-└── Store button → DeckStoreScreen (no-backend)
-                   ├── Lists bundled decks (free + paid)
-                   ├── On-device IAP unlock (+ restore)
-                   └── Open → LanguageDeckScreen (lang pair, TTS, RTL)
-```
-
-### Flutter App Structure
-
-```
-lib/
-├── main.dart                    # App entry, MaterialApp (+ l10n delegates)
-├── l10n/
-│   ├── app_en.arb               # UI strings, English = template
-│   ├── app_cs.arb               # UI strings, Czech (must define every en key)
-│   └── app_localizations*.dart  # generated by gen-l10n, committed
-├── models/
-│   ├── language_deck.dart       # No-backend LanguageDeck/LanguageCard (label/summary/info ×20 langs)
-│   ├── store_catalog.dart       # Bundled catalog.json: free decks + product SKU → deck mapping
-│   ├── deck.dart                # Legacy quiz Deck with mediaBaseUrl
-│   └── flashcard.dart           # Legacy Flashcard + CardMedia (images, audio)
-├── screens/
-│   ├── home_screen.dart         # Deck list + store navigation
-│   ├── deck_store_screen.dart   # No-backend store (EntitlementService + bundled decks)
-│   ├── language_deck_screen.dart# No-backend deck viewer (lang pair, TTS, RTL)
-│   └── deck_screen.dart         # Legacy study/review with swipe gestures
-├── services/
-│   ├── language_deck_service.dart # Loads bundled deck.json packs from assets
-│   ├── entitlement_service.dart # On-device entitlements (catalog + IAP + restore), ChangeNotifier
-│   ├── iap_service.dart         # SKU-generic in_app_purchase wrapper (on-device verify, no server)
-│   ├── tts_service.dart         # flutter_tts pronunciation + isLanguageAvailable fallback
-│   ├── local_deck_service.dart  # File-based legacy deck storage in app documents
-│   ├── deck_service.dart        # Bundled asset deck loader (legacy)
-│   ├── priority_service.dart    # Spaced repetition + SharedPreferences
-│   └── audio_service.dart       # AudioPlayer wrapper (legacy audio decks)
-├── utils/
-│   └── locale_direction.dart    # RTL detection + DirectionalText (per-string Directionality)
-└── widgets/
-    ├── pronounce_button.dart    # TTS speaker button with install-voice fallback
-    ├── card_stack.dart          # Swipe gesture detection & animation
-    ├── flashcard_widget.dart    # 3D flip animation + media display
-    ├── card_widget_factory.dart # Factory pattern for card type widgets
-    └── quiz_card_widget.dart    # Quiz-style card rendering
-```
-
-> No-backend note: there is no `api_service`/`media_download_service` — the
-> runtime backend was removed. Decks and `catalog.json` are bundled assets;
-> `EntitlementService` decides access (free ∪ purchased) with the store as the
-> source of truth and SharedPreferences as the local cache.
-
-### Quiz Generator Structure (Go)
-
-```
-quiz-generator/
-├── cmd/generator/main.go        # CLI entry + dispatcher (switch on -type flag)
-└── internal/
-    ├── generator/interface.go   # QuizGenerator interface + QuizItem/Field/Options types
-    ├── deck/builder.go          # Deck JSON builder (NewBuilder → AddCard → SaveJSON)
-    ├── media/downloader.go      # HTTP file downloader + SVG→PNG conversion
-    ├── sparql/                  # Wikidata SPARQL client (used by capitals, breeds)
-    ├── capitals/                # World capitals from Wikidata
-    ├── dogbreeds/               # Dog breeds from Wikidata
-    ├── catbreeds/               # Cat breeds from Wikidata
-    ├── geography/               # Mountains/rivers from OpenStreetMap Overpass API
-    ├── overpass/                 # Overpass API client
-    ├── maps/                    # Map tile renderer for geography cards
-    └── pokemon/                 # Pokémon from PokéAPI (pokeapi.co)
-```
-
-#### Adding a New Generator
-
-Each generator implements `QuizGenerator` interface from `internal/generator/interface.go`:
-
-```go
-type QuizGenerator interface {
-    Name() string
-    FetchData(opts Options) ([]QuizItem, error)
-    DownloadMedia(items []QuizItem, outputDir string) ([]QuizItem, error)
-}
-```
-
-Steps: create package in `internal/`, implement the interface, add case to switch in `cmd/generator/main.go`.
-
-#### Data Sources by Generator
-
-| Generator | Data Source | Auth |
-|-----------|-------------|------|
-| capitals, dogbreeds, catbreeds | Wikidata SPARQL | None |
-| geography | OpenStreetMap Overpass API | None |
-| pokemon | PokéAPI (pokeapi.co) | None |
-
-### Typography
-
-**No widget names a font family.** Every text style comes from the shared
-`cute_kid_fonts` package through `AppTheme.light()` (`lib/theme/app_theme.dart`):
-titles in DynaPuff, body and labels in Baloo 2. A bare `TextStyle(fontSize: 18)`
-inherits the face, so do not add `fontFamily` anywhere else.
-
-- The theme must not carry a `wght` font variation: a variation outranks
-  `fontWeight` and is inherited, so it turns every `FontWeight.bold` in the app
-  regular. `KidTextTheme.apply` stopped setting one in cute_kid_fonts 0.2.1;
-  `test/app_theme_test.dart` guards it.
-- Card content goes through `DirectionalText`, which calls
-  `AppTheme.forContent` to draw each string in **one** face: DynaPuff lacks
-  Vietnamese and Cyrillic, so those move wholesale to Baloo 2 / Nunito, and
-  scripts no kid face covers (Greek, Hebrew, Arabic, CJK) use the platform font
-  rather than mixing in the odd stray glyph.
-- The package is a git dependency pinned to a tag. To work against the sibling
-  checkout, put a `dependency_overrides` path entry in `pubspec_overrides.yaml`
-  (git-ignored) — and never commit a `pubspec.lock` that says `source: path`.
-
-### Generated decks (`geo-flags`)
-
-`geo-flags` (50 most populous countries: flag → country, capital, populations)
-is the one deck not authored by hand or drawn by ComfyUI.
-`python3 tools/gen_flags_deck.py` writes its `deck.yaml`, all `i18n/*.yaml` and
-the flag PNGs: country names from Unicode CLDR, capital names from Wikidata
-labels, flags from Wikimedia Commons, populations from a curated table in the
-script (Wikidata's capital populations mix city, district and metro figures).
-Its only style is `flag`. Edit the script, not the generated files, then
-`make ship DECK=geo-flags`.
-
-### UI strings (localization)
-
-**No user-visible string is hardcoded in a widget.** App Review rejected 2.2.2
-under guideline 4 because one screen showed Czech and English side by side —
-the strings had simply been typed in whichever language the author was
-thinking in. Every label now comes from `AppLocalizations.of(context)`
-(`lib/l10n/app_localizations.dart`, generated by `flutter gen-l10n` from
-`lib/l10n/app_*.arb`; `flutter pub get` regenerates it too).
-
-- English (`app_en.arb`) is the template; Czech (`app_cs.arb`) must define the
-  same keys. `test/l10n_test.dart` fails on a missing key and on any Czech
-  diacritic in `lib/` outside `l10n/`.
-- The device locale picks the language; anything not shipped falls back to
-  English (`supportedLocales` in `main.dart`, `CFBundleLocalizations` in
-  `ios/Runner/Info.plist`). Adding a UI language = one new ARB file + one
-  plist entry.
-- Deck titles in chrome (app bars, tiles, dialogs) use the UI language
-  (`Localizations.localeOf(context)`), not the learner's L1, so a screen is
-  never in two languages. Card content stays in the chosen L1/L2 pair — that
-  is the product.
-- `CardStyle.label(l10n)` / `.description(l10n)` and
-  `langDisplayName(code, l10n)` are the two lookups that used to hold Czech
-  literals; services return booleans/enums, never message text.
-- Before uploading a build, `make screenshots` (with a simulator booted) runs
-  `integration_test/l10n_screenshots_test.dart` and drops home / store /
-  detail / confirm-dialog shots per language into `build/screenshots/` —
-  the quickest way to see what App Review will see.
-
-### Swipe Gestures (DeckScreen)
-
-- **Up**: Mark as known (decrease priority)
-- **Down**: Mark as unknown (increase priority)
-- **Left**: Next card (algorithm selection)
-- **Right**: Previous card (history navigation)
-- **Long press**: Flip card
-
-### Card Types
-
-- **Basic**: Traditional flashcard with front/back and 3D flip animation (`FlashcardWidget`)
-- **Quiz**: Visual knowledge cards displaying image → title/subtitle/fields (`QuizCardWidget`)
-
-`CardWidgetFactory` selects the appropriate widget based on `card.isQuiz`.
-
-### Key Services
-
-- **LanguageDeckService**: Loads bundled no-backend `deck.json` packs from `assets/decks/`
-- **EntitlementService**: `ChangeNotifier`; loads `assets/catalog.json`, resolves free ∪ purchased decks, drives IAP + restore (no server)
-- **IAPService**: SKU-generic `in_app_purchase` wrapper; purchases verified on-device, mapping to decks lives in `EntitlementService`
-- **TtsService**: `flutter_tts` pronunciation; `isLanguageAvailable` gates a button that offers to install the OS voice when missing
-- **LocalDeckService**: Legacy file storage as `{appDocDir}/decks/{deckId}/deck.json`
-- **PriorityService**: Weighted random selection where priority (1-10) = selection weight
-
-### State Management
-
-- Uses local `setState()` in StatefulWidgets (no Provider/Riverpod yet — plan §9 calls for Riverpod)
-- `IAPService` is a singleton; `EntitlementService` is a `ChangeNotifier` the store screen listens to
-
-### Flashcard Media
-
-Cards support structured media via `CardMedia`:
-```dart
-media: {
-  image: "url",
-  audioFront: "url",
-  audioBack: "url"
-}
-```
-Legacy fields (`imageUrl`, `frontAudio`, `backAudio`) supported for backwards compatibility.
-
-### Data Persistence
-
-| Data | Storage Location |
-|------|------------------|
-| Card priorities | `SharedPreferences` key `card_priorities_{deckId}` |
-| Downloaded decks | `{appDocDir}/decks/{deckId}/deck.json` |
-| Deck media | `{appDocDir}/decks/{deckId}/media/` |
+SPARK adresy: `SPARK_LLM` / `SPARK_IMG` v Makefile, přepsatelné z prostředí (`.env.example`).
+
+## Mapa
+- `lib/` — appka: `screens/`, `services/` (entitlementy, IAP, TTS, remote catalog), `models/`, `l10n/`, `theme/`.
+- `decks/<slug>/` — autorský obsah: `deck.yaml`, `i18n/<lang>.yaml`, `images/<style>/` (ignorováno), `tuned/`.
+- `assets/decks/`, `assets/previews/`, `assets/catalog.json` — bundlovaný obsah.
+- `docs/` — GitHub Pages: CDN balíčků (`docs/decks/`), `catalog.json`, privacy/support stránky.
+- `quiz-generator/` — Go: `cmd/content` (pipeline), `cmd/generator` (legacy quiz generátory).
+- `tools/gen_flags_deck.py` — generuje balíček `geo-flags`; edituj skript, ne výstup.
+- `store/` — metadata a assety pro App Store / Play.
+- `Prompts/` — plány; `SKILL.md` — postup na tvorbu balíčku.
+
+## Invarianty
+- Každý obrázek jde přes ComfyUI (`comfyuiimage.Client`); LLM server obrázky negeneruje.
+- `make ship` má pořadí publish-images → build → publish-json; `build` čte publikované stromy
+  a rozhoduje o dostupnosti stylu. Nový `assets/previews/<slug>/<style>/` potřebuje vlastní
+  řádek pod `flutter.assets` v `pubspec.yaml`.
+- Deklarovaný styl není dodaný styl: `deck.json` `styles` se odvozují z obrázků na disku.
+- Obsah se píše v pivotu `en` (`langs.Pivot`), shipují jen `Gold` jazyky.
+- Nový placený balíček: IAP produkt v ASC / Play Console a záznam v `assets/catalog.json` před `make ship`.
+- Žádný widget nejmenuje font family; vše přes `AppTheme` (`lib/theme/app_theme.dart`).
+  Theme nesmí nést `wght` font variation (`test/app_theme_test.dart`).
+- `app_en.arb` je šablona; každá další ARB musí mít stejné klíče (`test/l10n_test.dart`).
+  Titulky balíčků v chrome jsou v UI jazyce, obsah karet v páru L1/L2.
+- Uživatelské názvy stylů jsou v `lib/models/card_style.dart`, ne id z pipeline.
+
+## Kam dál
+- `docs/content-pipeline.md` — pipeline, styly, restyle knoby, shipping, remote catalog, `geo-flags`.
+- `docs/architecture.md` — struktura appky, typografie, l10n, služby, legacy quiz generátor.
+- `SKILL.md`, `README.md`, `Prompts/`.
