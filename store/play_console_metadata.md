@@ -131,6 +131,7 @@ com.ol1n.duolingocards.deck.animals_sea
 com.ol1n.duolingocards.deck.animals_wild
 com.ol1n.duolingocards.deck.body_parts
 com.ol1n.duolingocards.deck.emotions
+com.ol1n.duolingocards.deck.dinosaurs
 com.ol1n.duolingocards.deck.food_fruits
 com.ol1n.duolingocards.deck.food_vegetables
 com.ol1n.duolingocards.deck.weather

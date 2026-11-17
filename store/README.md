@@ -45,6 +45,7 @@ never shows them on the store — and each is 1242x2208, a canonical App Store s
 | `com.ol1n.duolingocards.deck.animals_wild` | Deck Wild animals | Wild animals | `animals-wild.png` |
 | `com.ol1n.duolingocards.deck.body_parts` | Deck Parts of the Body | Parts of the Body | `body-parts.png` |
 | `com.ol1n.duolingocards.deck.emotions` | Deck Emotions | Emotions | `emotions.png` |
+| `com.ol1n.duolingocards.deck.dinosaurs` | Deck Dinosaurs | Dinosaurs | `dinosaurs.png` (chybí) |
 | `com.ol1n.duolingocards.deck.food_fruits` | Deck Fruit | Fruit | `food-fruits.png` |
 | `com.ol1n.duolingocards.deck.food_vegetables` | Deck Vegetables | Vegetables | `food-vegetables.png` |
 | `com.ol1n.duolingocards.deck.weather` | Deck Weather | Weather | `weather.png` |
