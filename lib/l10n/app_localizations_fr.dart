@@ -383,6 +383,130 @@ class AppLocalizationsFr extends AppLocalizations {
       'Touches tourbillonnantes post-impressionnistes';
 
   @override
+  String get styleVectorFlat => 'Formes géométriques';
+
+  @override
+  String get styleVectorFlatDesc => 'Formes plates nettes aux contours propres';
+
+  @override
+  String get styleGouache => 'Gouache';
+
+  @override
+  String get styleGouacheDesc =>
+      'Peinture mate et couvrante aux couleurs vives';
+
+  @override
+  String get styleWatercolorWet => 'Aquarelle mouillée';
+
+  @override
+  String get styleWatercolorWetDesc =>
+      'Couleurs qui se diffusent dans le papier humide';
+
+  @override
+  String get styleWatercolorInkLine => 'Encre et aquarelle';
+
+  @override
+  String get styleWatercolorInkLineDesc =>
+      'Fins traits d\'encre et lavis légers';
+
+  @override
+  String get styleEtching => 'Gravure à l\'eau-forte';
+
+  @override
+  String get styleEtchingDesc =>
+      'Fines lignes gravées, comme une estampe ancienne';
+
+  @override
+  String get styleLinocut => 'Linogravure';
+
+  @override
+  String get styleLinocutDesc => 'Formes taillées imprimées en peu de couleurs';
+
+  @override
+  String get styleCrayon => 'Craies grasses';
+
+  @override
+  String get styleCrayonDesc =>
+      'Traits de craie grasse, comme un dessin d\'enfant';
+
+  @override
+  String get styleLowPoly => 'Low poly';
+
+  @override
+  String get styleLowPolyDesc => 'Construit de triangles aux facettes plates';
+
+  @override
+  String get styleClaymation => 'Pâte à modeler';
+
+  @override
+  String get styleClaymationDesc => 'Modelé dans une pâte à modeler souple';
+
+  @override
+  String get styleStickerCollage => 'Collage d\'autocollants';
+
+  @override
+  String get styleStickerCollageDesc => 'Autocollants découpés au bord blanc';
+
+  @override
+  String get stylePressedFlowers => 'Fleurs séchées';
+
+  @override
+  String get stylePressedFlowersDesc =>
+      'Composé de pétales et de feuilles séchés';
+
+  @override
+  String get stylePaperSculptureLayered => 'Papier découpé';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'Couches de papier découpé aux ombres douces';
+
+  @override
+  String get stylePolishPoster => 'Affiche rétro';
+
+  @override
+  String get stylePolishPosterDesc =>
+      'Art de l\'affiche audacieux du milieu du siècle';
+
+  @override
+  String get styleChalkboard => 'Tableau noir';
+
+  @override
+  String get styleChalkboardDesc => 'Dessin à la craie sur un tableau sombre';
+
+  @override
+  String get styleBlueprint => 'Plan d\'architecte';
+
+  @override
+  String get styleBlueprintDesc => 'Traits techniques blancs sur fond bleu';
+
+  @override
+  String get styleIllumination => 'Enluminure';
+
+  @override
+  String get styleIlluminationDesc => 'Art du livre médiéval rehaussé d\'or';
+
+  @override
+  String get styleRackham => 'Encre et lavis de conte';
+
+  @override
+  String get styleRackhamDesc =>
+      'Traits d\'encre délicats et lavis doux des vieux livres de contes';
+
+  @override
+  String get styleMoebius => 'Dessin de BD';
+
+  @override
+  String get styleMoebiusDesc => 'Traits nets de BD et couleurs vives en aplat';
+
+  @override
+  String get styleHiroshige => 'Estampe japonaise';
+
+  @override
+  String get styleHiroshigeDesc =>
+      'Paysage japonais gravé sur bois aux dégradés doux';
+
+  @override
   String get langAr => 'Arabe';
 
   @override

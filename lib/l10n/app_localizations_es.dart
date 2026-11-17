@@ -380,6 +380,128 @@ class AppLocalizationsEs extends AppLocalizations {
   String get styleVanGoghDesc => 'Pinceladas arremolinadas posimpresionistas';
 
   @override
+  String get styleVectorFlat => 'Formas geométricas';
+
+  @override
+  String get styleVectorFlatDesc =>
+      'Formas planas nítidas con contornos limpios';
+
+  @override
+  String get styleGouache => 'Gouache';
+
+  @override
+  String get styleGouacheDesc => 'Pintura opaca y mate en colores intensos';
+
+  @override
+  String get styleWatercolorWet => 'Acuarela húmeda';
+
+  @override
+  String get styleWatercolorWetDesc =>
+      'Colores que se funden en el papel mojado';
+
+  @override
+  String get styleWatercolorInkLine => 'Tinta y acuarela';
+
+  @override
+  String get styleWatercolorInkLineDesc =>
+      'Finas líneas de tinta con aguadas suaves';
+
+  @override
+  String get styleEtching => 'Grabado';
+
+  @override
+  String get styleEtchingDesc =>
+      'Finas líneas grabadas, como una estampa antigua';
+
+  @override
+  String get styleLinocut => 'Linograbado';
+
+  @override
+  String get styleLinocutDesc => 'Formas talladas impresas en pocos colores';
+
+  @override
+  String get styleCrayon => 'Crayones';
+
+  @override
+  String get styleCrayonDesc => 'Trazos de crayón, como un dibujo infantil';
+
+  @override
+  String get styleLowPoly => 'Low poly';
+
+  @override
+  String get styleLowPolyDesc => 'Hecho de triángulos con sombreado plano';
+
+  @override
+  String get styleClaymation => 'Plastilina';
+
+  @override
+  String get styleClaymationDesc => 'Modelado en plastilina suave';
+
+  @override
+  String get styleStickerCollage => 'Collage de stickers';
+
+  @override
+  String get styleStickerCollageDesc => 'Stickers recortados con borde blanco';
+
+  @override
+  String get stylePressedFlowers => 'Flores prensadas';
+
+  @override
+  String get stylePressedFlowersDesc => 'Hecho con pétalos y hojas secos';
+
+  @override
+  String get stylePaperSculptureLayered => 'Papel recortado';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'Capas de papel recortado con sombras suaves';
+
+  @override
+  String get stylePolishPoster => 'Póster retro';
+
+  @override
+  String get stylePolishPosterDesc => 'Cartelismo audaz de mediados de siglo';
+
+  @override
+  String get styleChalkboard => 'Pizarrón';
+
+  @override
+  String get styleChalkboardDesc => 'Dibujo con tiza en un pizarrón oscuro';
+
+  @override
+  String get styleBlueprint => 'Plano técnico';
+
+  @override
+  String get styleBlueprintDesc => 'Líneas técnicas blancas sobre azul';
+
+  @override
+  String get styleIllumination => 'Manuscrito iluminado';
+
+  @override
+  String get styleIlluminationDesc => 'Arte de libro medieval con pan de oro';
+
+  @override
+  String get styleRackham => 'Tinta de cuento';
+
+  @override
+  String get styleRackhamDesc =>
+      'Delicadas líneas de tinta y aguadas tenues de viejos libros de cuentos';
+
+  @override
+  String get styleMoebius => 'Dibujo de cómic';
+
+  @override
+  String get styleMoebiusDesc =>
+      'Líneas de cómic limpias y colores planos brillantes';
+
+  @override
+  String get styleHiroshige => 'Grabado japonés';
+
+  @override
+  String get styleHiroshigeDesc =>
+      'Paisaje japonés grabado en madera con degradados suaves';
+
+  @override
   String get langAr => 'Árabe';
 
   @override

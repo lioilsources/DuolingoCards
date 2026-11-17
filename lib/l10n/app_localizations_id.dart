@@ -381,6 +381,127 @@ class AppLocalizationsId extends AppLocalizations {
   String get styleVanGoghDesc => 'Sapuan berpusar pasca-impresionis';
 
   @override
+  String get styleVectorFlat => 'Bentuk geometris';
+
+  @override
+  String get styleVectorFlatDesc =>
+      'Bentuk datar yang tegas dengan garis tepi bersih';
+
+  @override
+  String get styleGouache => 'Guas';
+
+  @override
+  String get styleGouacheDesc => 'Cat buram dan doff dengan warna berani';
+
+  @override
+  String get styleWatercolorWet => 'Cat air basah';
+
+  @override
+  String get styleWatercolorWetDesc =>
+      'Warna yang meresap lembut di kertas basah';
+
+  @override
+  String get styleWatercolorInkLine => 'Tinta & cat air';
+
+  @override
+  String get styleWatercolorInkLineDesc =>
+      'Garis tinta halus dengan sapuan warna tipis';
+
+  @override
+  String get styleEtching => 'Etsa';
+
+  @override
+  String get styleEtchingDesc => 'Garis gores halus seperti cetakan kuno';
+
+  @override
+  String get styleLinocut => 'Cukil lino';
+
+  @override
+  String get styleLinocutDesc =>
+      'Bentuk ukiran tegas dicetak dengan sedikit warna';
+
+  @override
+  String get styleCrayon => 'Krayon';
+
+  @override
+  String get styleCrayonDesc => 'Goresan krayon seperti gambar anak-anak';
+
+  @override
+  String get styleLowPoly => 'Low poly';
+
+  @override
+  String get styleLowPolyDesc => 'Tersusun dari segitiga berbayang datar';
+
+  @override
+  String get styleClaymation => 'Plastisin';
+
+  @override
+  String get styleClaymationDesc => 'Dibentuk dari plastisin lembut';
+
+  @override
+  String get styleStickerCollage => 'Kolase stiker';
+
+  @override
+  String get styleStickerCollageDesc => 'Stiker guntingan dengan tepi putih';
+
+  @override
+  String get stylePressedFlowers => 'Bunga kering';
+
+  @override
+  String get stylePressedFlowersDesc => 'Terbuat dari kelopak dan daun kering';
+
+  @override
+  String get stylePaperSculptureLayered => 'Guntingan kertas';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'Lapisan kertas guntingan dengan bayangan lembut';
+
+  @override
+  String get stylePolishPoster => 'Poster retro';
+
+  @override
+  String get stylePolishPosterDesc => 'Seni poster tegas ala pertengahan abad';
+
+  @override
+  String get styleChalkboard => 'Papan tulis';
+
+  @override
+  String get styleChalkboardDesc => 'Gambar kapur di papan gelap';
+
+  @override
+  String get styleBlueprint => 'Cetak biru';
+
+  @override
+  String get styleBlueprintDesc => 'Garis teknis putih di atas biru';
+
+  @override
+  String get styleIllumination => 'Manuskrip iluminasi';
+
+  @override
+  String get styleIlluminationDesc => 'Seni buku abad pertengahan berhias emas';
+
+  @override
+  String get styleRackham => 'Tinta dongeng';
+
+  @override
+  String get styleRackhamDesc =>
+      'Garis tinta halus dan warna lembut seperti buku dongeng lama';
+
+  @override
+  String get styleMoebius => 'Garis komik';
+
+  @override
+  String get styleMoebiusDesc => 'Garis komik bersih dan warna datar cerah';
+
+  @override
+  String get styleHiroshige => 'Cetak kayu';
+
+  @override
+  String get styleHiroshigeDesc =>
+      'Lanskap Jepang cetak kayu dengan gradasi lembut';
+
+  @override
   String get langAr => 'Bahasa Arab';
 
   @override

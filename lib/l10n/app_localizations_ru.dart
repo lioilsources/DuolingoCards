@@ -389,6 +389,128 @@ class AppLocalizationsRu extends AppLocalizations {
   String get styleVanGoghDesc => 'Постимпрессионистские вихревые мазки';
 
   @override
+  String get styleVectorFlat => 'Геометрические фигуры';
+
+  @override
+  String get styleVectorFlatDesc =>
+      'Чёткие плоские формы с аккуратным контуром';
+
+  @override
+  String get styleGouache => 'Гуашь';
+
+  @override
+  String get styleGouacheDesc => 'Плотная матовая краска сочных цветов';
+
+  @override
+  String get styleWatercolorWet => 'Акварель по-мокрому';
+
+  @override
+  String get styleWatercolorWetDesc =>
+      'Краски мягко растекаются по влажной бумаге';
+
+  @override
+  String get styleWatercolorInkLine => 'Тушь и акварель';
+
+  @override
+  String get styleWatercolorInkLineDesc =>
+      'Тонкие линии тушью с лёгкой акварельной заливкой';
+
+  @override
+  String get styleEtching => 'Офорт';
+
+  @override
+  String get styleEtchingDesc =>
+      'Тонкие гравированные линии, как на старинной гравюре';
+
+  @override
+  String get styleLinocut => 'Линогравюра';
+
+  @override
+  String get styleLinocutDesc => 'Крупные вырезанные формы в несколько цветов';
+
+  @override
+  String get styleCrayon => 'Восковые мелки';
+
+  @override
+  String get styleCrayonDesc =>
+      'Штрихи восковыми мелками, как на детском рисунке';
+
+  @override
+  String get styleLowPoly => 'Лоу-поли';
+
+  @override
+  String get styleLowPolyDesc => 'Собрано из плоских треугольников';
+
+  @override
+  String get styleClaymation => 'Пластилин';
+
+  @override
+  String get styleClaymationDesc => 'Вылеплено из мягкого пластилина';
+
+  @override
+  String get styleStickerCollage => 'Коллаж из наклеек';
+
+  @override
+  String get styleStickerCollageDesc => 'Вырезанные наклейки с белой каймой';
+
+  @override
+  String get stylePressedFlowers => 'Засушенные цветы';
+
+  @override
+  String get stylePressedFlowersDesc => 'Из засушенных лепестков и листьев';
+
+  @override
+  String get stylePaperSculptureLayered => 'Вырезки из бумаги';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'Слои вырезанной бумаги с мягкими тенями';
+
+  @override
+  String get stylePolishPoster => 'Ретро-плакат';
+
+  @override
+  String get stylePolishPosterDesc => 'Яркое плакатное искусство середины века';
+
+  @override
+  String get styleChalkboard => 'Школьная доска';
+
+  @override
+  String get styleChalkboardDesc => 'Рисунок мелом на тёмной доске';
+
+  @override
+  String get styleBlueprint => 'Чертёж';
+
+  @override
+  String get styleBlueprintDesc => 'Белые технические линии на синем';
+
+  @override
+  String get styleIllumination => 'Книжная миниатюра';
+
+  @override
+  String get styleIlluminationDesc =>
+      'Средневековое книжное искусство с сусальным золотом';
+
+  @override
+  String get styleRackham => 'Сказочная тушь';
+
+  @override
+  String get styleRackhamDesc =>
+      'Тонкие линии тушью и приглушённые размывки, как в старых книгах сказок';
+
+  @override
+  String get styleMoebius => 'Комиксная графика';
+
+  @override
+  String get styleMoebiusDesc => 'Чёткие линии комикса и яркие плоские цвета';
+
+  @override
+  String get styleHiroshige => 'Гравюра на дереве';
+
+  @override
+  String get styleHiroshigeDesc => 'Японский пейзаж с мягкими переходами цвета';
+
+  @override
   String get langAr => 'Арабский';
 
   @override

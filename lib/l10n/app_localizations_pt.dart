@@ -380,6 +380,130 @@ class AppLocalizationsPt extends AppLocalizations {
   String get styleVanGoghDesc => 'Pinceladas em espiral pós-impressionistas';
 
   @override
+  String get styleVectorFlat => 'Formas geométricas';
+
+  @override
+  String get styleVectorFlatDesc =>
+      'Formas planas nítidas com contornos limpos';
+
+  @override
+  String get styleGouache => 'Guache';
+
+  @override
+  String get styleGouacheDesc => 'Tinta opaca e fosca em cores fortes';
+
+  @override
+  String get styleWatercolorWet => 'Aquarela molhada';
+
+  @override
+  String get styleWatercolorWetDesc => 'Cores que se espalham no papel molhado';
+
+  @override
+  String get styleWatercolorInkLine => 'Nanquim e aquarela';
+
+  @override
+  String get styleWatercolorInkLineDesc =>
+      'Traços finos de nanquim com aguadas leves';
+
+  @override
+  String get styleEtching => 'Gravura em metal';
+
+  @override
+  String get styleEtchingDesc =>
+      'Linhas finas gravadas, como uma estampa antiga';
+
+  @override
+  String get styleLinocut => 'Linogravura';
+
+  @override
+  String get styleLinocutDesc => 'Formas entalhadas impressas em poucas cores';
+
+  @override
+  String get styleCrayon => 'Giz de cera';
+
+  @override
+  String get styleCrayonDesc =>
+      'Traços de giz de cera, como um desenho infantil';
+
+  @override
+  String get styleLowPoly => 'Low poly';
+
+  @override
+  String get styleLowPolyDesc => 'Feito de triângulos com sombreamento plano';
+
+  @override
+  String get styleClaymation => 'Massinha';
+
+  @override
+  String get styleClaymationDesc => 'Modelado em massinha macia';
+
+  @override
+  String get styleStickerCollage => 'Colagem de adesivos';
+
+  @override
+  String get styleStickerCollageDesc => 'Adesivos recortados com borda branca';
+
+  @override
+  String get stylePressedFlowers => 'Flores prensadas';
+
+  @override
+  String get stylePressedFlowersDesc => 'Feito de pétalas e folhas secas';
+
+  @override
+  String get stylePaperSculptureLayered => 'Papel recortado';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'Camadas de papel recortado com sombras suaves';
+
+  @override
+  String get stylePolishPoster => 'Pôster retrô';
+
+  @override
+  String get stylePolishPosterDesc =>
+      'Arte de cartaz marcante de meados do século';
+
+  @override
+  String get styleChalkboard => 'Lousa';
+
+  @override
+  String get styleChalkboardDesc => 'Desenho a giz numa lousa escura';
+
+  @override
+  String get styleBlueprint => 'Planta técnica';
+
+  @override
+  String get styleBlueprintDesc => 'Linhas técnicas brancas sobre azul';
+
+  @override
+  String get styleIllumination => 'Manuscrito iluminado';
+
+  @override
+  String get styleIlluminationDesc =>
+      'Arte de livro medieval com folha de ouro';
+
+  @override
+  String get styleRackham => 'Nanquim de conto de fadas';
+
+  @override
+  String get styleRackhamDesc =>
+      'Traços delicados de nanquim e aguadas suaves de antigos livros de contos';
+
+  @override
+  String get styleMoebius => 'Traço de quadrinhos';
+
+  @override
+  String get styleMoebiusDesc =>
+      'Traços limpos de quadrinhos e cores chapadas vivas';
+
+  @override
+  String get styleHiroshige => 'Xilogravura japonesa';
+
+  @override
+  String get styleHiroshigeDesc =>
+      'Paisagem japonesa em xilogravura com degradês suaves';
+
+  @override
   String get langAr => 'Árabe';
 
   @override
@@ -805,6 +929,130 @@ class AppLocalizationsPtPt extends AppLocalizationsPt {
 
   @override
   String get styleVanGoghDesc => 'Pinceladas em espiral pós-impressionistas';
+
+  @override
+  String get styleVectorFlat => 'Vetor plano';
+
+  @override
+  String get styleVectorFlatDesc =>
+      'Formas planas nítidas com contornos limpos';
+
+  @override
+  String get styleGouache => 'Guache';
+
+  @override
+  String get styleGouacheDesc => 'Tinta opaca e mate em cores fortes';
+
+  @override
+  String get styleWatercolorWet => 'Aguarela molhada';
+
+  @override
+  String get styleWatercolorWetDesc => 'Cores que se espalham no papel molhado';
+
+  @override
+  String get styleWatercolorInkLine => 'Tinta-da-china e aguarela';
+
+  @override
+  String get styleWatercolorInkLineDesc =>
+      'Traços finos de tinta-da-china com aguadas leves';
+
+  @override
+  String get styleEtching => 'Água-forte';
+
+  @override
+  String get styleEtchingDesc =>
+      'Linhas finas gravadas, como uma estampa antiga';
+
+  @override
+  String get styleLinocut => 'Linogravura';
+
+  @override
+  String get styleLinocutDesc => 'Formas entalhadas impressas em poucas cores';
+
+  @override
+  String get styleCrayon => 'Lápis de cera';
+
+  @override
+  String get styleCrayonDesc =>
+      'Traços de lápis de cera, como um desenho infantil';
+
+  @override
+  String get styleLowPoly => 'Low poly';
+
+  @override
+  String get styleLowPolyDesc => 'Feito de triângulos com sombreado plano';
+
+  @override
+  String get styleClaymation => 'Plasticina';
+
+  @override
+  String get styleClaymationDesc => 'Modelado em plasticina macia';
+
+  @override
+  String get styleStickerCollage => 'Colagem de autocolantes';
+
+  @override
+  String get styleStickerCollageDesc =>
+      'Autocolantes recortados com rebordo branco';
+
+  @override
+  String get stylePressedFlowers => 'Flores prensadas';
+
+  @override
+  String get stylePressedFlowersDesc => 'Feito de pétalas e folhas secas';
+
+  @override
+  String get stylePaperSculptureLayered => 'Papel recortado';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'Camadas de papel recortado com sombras suaves';
+
+  @override
+  String get stylePolishPoster => 'Cartaz retro';
+
+  @override
+  String get stylePolishPosterDesc =>
+      'Arte de cartaz marcante de meados do século';
+
+  @override
+  String get styleChalkboard => 'Quadro de ardósia';
+
+  @override
+  String get styleChalkboardDesc => 'Desenho a giz num quadro escuro';
+
+  @override
+  String get styleBlueprint => 'Planta técnica';
+
+  @override
+  String get styleBlueprintDesc => 'Linhas técnicas brancas sobre azul';
+
+  @override
+  String get styleIllumination => 'Iluminura';
+
+  @override
+  String get styleIlluminationDesc =>
+      'Arte de livro medieval com folha de ouro';
+
+  @override
+  String get styleRackham => 'Tinta de conto de fadas';
+
+  @override
+  String get styleRackhamDesc =>
+      'Traços delicados de tinta e aguadas suaves de antigos livros de contos';
+
+  @override
+  String get styleMoebius => 'Traço de banda desenhada';
+
+  @override
+  String get styleMoebiusDesc => 'Traços limpos de BD e cores lisas vivas';
+
+  @override
+  String get styleHiroshige => 'Xilogravura japonesa';
+
+  @override
+  String get styleHiroshigeDesc =>
+      'Paisagem japonesa em xilogravura com gradientes suaves';
 
   @override
   String get langAr => 'Árabe';
