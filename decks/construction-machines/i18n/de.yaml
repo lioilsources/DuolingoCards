@@ -1,0 +1,214 @@
+lang: de
+pivot: false
+title: Baumaschinen
+cards:
+  machine.excavator:
+    label: Bagger
+    summary: Eine Grabmaschine mit einem langen Arm und einer Schaufel voller Zähne.
+    info: |
+      Ein Bagger fährt auf Ketten, deshalb sinkt er im weichen Matsch nicht ein.
+      Der ganze obere Teil mit der Kabine und dem Arm kann sich einmal ganz herumdrehen.
+      Der Arm wird mit Hydraulik bewegt, also mit Öl, das mit viel Druck durch Schläuche gepresst wird.
+  machine.mini_excavator:
+    label: Minibagger
+    summary: Ein kleiner Bagger, der durch ein Gartentor passt.
+    info: |
+      Ein Minibagger gräbt dort, wo ein großer nicht hinpasst, zum Beispiel in Gärten, Höfen und engen Straßen.
+      Meistens fährt er auf Gummiketten, damit er gepflasterten Boden nicht kaputtmacht.
+      Mit dem kleinen Schild vorne schiebt er die Erde wieder ins Loch.
+  machine.backhoe_loader:
+    label: Baggerlader
+    summary: Ein Traktor mit einer Schaufel vorne und einem Baggerarm hinten.
+    info: |
+      Ein Baggerlader ist zwei Maschinen in einer: vorne ein Lader und hinten ein Bagger.
+      Der Fahrer dreht seinen Sitz um, wenn er mit dem hinteren Arm arbeitet.
+      Er fährt auf Rädern, deshalb kann er auf der Straße von einer Baustelle zur nächsten fahren.
+  machine.wheel_loader:
+    label: Radlader
+    summary: Eine Maschine mit riesigen Reifen, die Sand und Kies aufschaufelt und wegfährt.
+    info: |
+      Ein Radlader füllt seine große Schaufel vorne und kippt sie in Lastwagen aus.
+      Er knickt in der Mitte ab, so kann er auch auf engem Platz lenken.
+      Die größten Radlader haben Reifen, die höher sind als ein Erwachsener.
+  machine.bulldozer:
+    label: Planierraupe
+    summary: Eine starke Maschine auf Ketten, die Erde mit einem breiten Schild schiebt.
+    info: |
+      Eine Planierraupe schiebt Erde, Steine und Sand mit dem Stahlschild vorne.
+      Die Kralle hinten heißt Aufreißer und bricht harten Boden auf.
+      Ihre breiten Ketten verteilen ihr Gewicht, deshalb kann sie über lockere Erde fahren.
+  machine.skid_steer:
+    label: Kompaktlader
+    summary: Ein kleiner, kastenförmiger Lader, der sich auf der Stelle drehen kann.
+    info: |
+      Ein Kompaktlader lenkt, indem sich die Räder auf einer Seite schneller drehen als auf der anderen.
+      So kann er sich auf der Stelle drehen, fast wie ein Panzer.
+      Statt der Schaufel kann er viele andere Werkzeuge tragen, zum Beispiel Gabeln, Besen oder einen Bohrer.
+  machine.dump_truck:
+    label: Kipplaster
+    summary: Ein Lastwagen, der seine Ladung hinten auskippt.
+    info: |
+      Ein Kipplaster fährt Sand, Kies oder Erde in einer Stahlmulde, die Kippmulde heißt.
+      Hydraulikzylinder heben die Mulde vorne hoch, und die Ladung rutscht hinten heraus.
+      Dann senkt sich die Mulde wieder, und der Laster fährt los, um neue Ladung zu holen.
+  machine.articulated_hauler:
+    label: Knickgelenkter Muldenkipper
+    summary: Ein Kipper fürs Gelände, der in der Mitte abknickt.
+    info: |
+      Ein knickgelenkter Muldenkipper besteht aus zwei Teilen mit einem Gelenk dazwischen, deshalb knickt er in der Mitte ab.
+      So kommt er durch Matsch und über Buckel, wo ein normaler Lastwagen stecken bleiben würde.
+      Er ist für Baustellen und Steinbrüche gebaut, nicht für Straßen.
+  machine.mining_truck:
+    label: Bergbau-Muldenkipper
+    summary: Ein riesiger Kipper, der in großen Tagebauen arbeitet.
+    info: |
+      Bergbau-Muldenkipper gehören zu den größten Lastwagen der Welt.
+      Ihre Reifen sind höher als ein Erwachsener, und der Fahrer steigt über eine Leiter in die Kabine.
+      Die größten können auf einmal mehr als 400 Tonnen Gestein transportieren.
+  machine.concrete_mixer:
+    label: Betonmischer
+    summary: Ein Lastwagen mit einer großen Trommel, die sich immer weiter dreht.
+    info: |
+      Ein Betonmischer bringt frischen Beton zur Baustelle.
+      Die Trommel dreht sich während der Fahrt weiter, damit der Beton darin nicht hart wird.
+      Wenn sich die Trommel andersherum dreht, fließt der Beton über die Rutsche heraus.
+  machine.concrete_pump:
+    label: Betonpumpe
+    summary: Ein Lastwagen mit einem langen Klapparm, der Beton hoch hinauf bringt.
+    info: |
+      Eine Betonpumpe drückt nassen Beton durch ein Rohr an ihrem langen Arm entlang.
+      Der Arm klappt sich auf wie ein riesiger Finger und reicht bis in die oberen Stockwerke eines Hauses.
+      Stahlstützen an den Seiten sorgen dafür, dass der Lastwagen nicht umkippt.
+  machine.tower_crane:
+    label: Baukran
+    summary: Ein hoher Kran, der über einer Baustelle steht.
+    info: |
+      Ein Baukran hebt schwere Lasten wie Stahlträger und Beton bis oben auf ein Haus.
+      Der Kranführer klettert im Turm nach oben in eine kleine Kabine.
+      Schwere Betonblöcke am kurzen Arm halten der Last am langen Arm das Gleichgewicht.
+  machine.mobile_crane:
+    label: Autokran
+    summary: Ein Kran auf einem Lastwagen mit einem Arm, der immer länger ausfährt.
+    info: |
+      Ein Autokran fährt auf seinen eigenen Rädern zur Baustelle.
+      Sein Arm ist ein Teleskoparm: Er fährt aus wie ein Fernrohr und wird viel länger.
+      Vor dem Heben stellt er auf beiden Seiten starke Stützen aus, damit er nicht umkippt.
+  machine.crawler_crane:
+    label: Raupenkran
+    summary: Ein sehr starker Kran auf Ketten mit einem hohen Gitterarm.
+    info: |
+      Ein Raupenkran steht auf Ketten, die sein riesiges Gewicht auf dem Boden verteilen.
+      Sein langer Arm ist aus einem Stahlgitter, leicht, aber sehr stabil.
+      Große Raupenkrane heben Teile von Brücken und Windrädern.
+  machine.road_roller:
+    label: Straßenwalze
+    summary: Eine schwere Maschine mit glatten Stahlwalzen, die Asphalt platt macht.
+    info: |
+      Eine Straßenwalze fährt langsam über frischen Asphalt und drückt ihn flach und fest.
+      Ihre Stahlwalzen können sehr schnell rütteln, so wird die Straße noch fester.
+      Auf die Walzen wird Wasser gesprüht, damit der heiße Asphalt nicht an ihnen kleben bleibt.
+  machine.asphalt_paver:
+    label: Straßenfertiger
+    summary: Eine Maschine, die eine neue Straßenschicht legt.
+    info: |
+      Lastwagen kippen heißen Asphalt vorne in den Straßenfertiger.
+      Der Fertiger verteilt ihn hinter sich in einer gleichmäßigen Schicht und fährt dabei langsam vorwärts.
+      Meistens fährt direkt dahinter eine Straßenwalze.
+  machine.motor_grader:
+    label: Grader
+    summary: Eine lange Maschine mit einem Schild unter dem Bauch, die Straßen glatt macht.
+    info: |
+      Ein Grader hat unten ein langes Schild, zwischen seinen Vorder- und Hinterrädern.
+      Das Schild kann sich neigen und drehen, so macht es den Boden ganz eben oder leicht schräg.
+      Grader machen Schotterstraßen glatt und bereiten den Boden vor, bevor eine neue Straße gebaut wird.
+  machine.forklift:
+    label: Gabelstapler
+    summary: Ein kleines Fahrzeug, das Lasten auf zwei Gabeln hebt.
+    info: |
+      Ein Gabelstapler schiebt seine zwei Gabeln unter eine Palette und hebt sie hoch.
+      Er arbeitet in Lagerhallen, Fabriken und Geschäften.
+      Ein schweres Gewicht hinten sorgt dafür, dass er unter der Last nicht nach vorne kippt.
+  machine.telehandler:
+    label: Teleskoplader
+    summary: Ein Lader mit einem langen Arm, der ausfährt und Dinge hoch hinauf hebt.
+    info: |
+      Ein Teleskoplader ist wie ein Gabelstapler mit einem langen Teleskoparm.
+      Er kann eine Palette Ziegel auf ein Dach oder weit in ein Gebäude hinein heben.
+      Man braucht ihn auf Baustellen und auf Bauernhöfen, wo er Heuballen hebt.
+  machine.boom_lift:
+    label: Hubsteiger
+    summary: Eine Maschine, die Arbeiter in einem Korb hoch hinauf hebt.
+    info: |
+      Ein Hubsteiger hebt eine kleine Plattform mit Geländer hoch in die Luft.
+      Arbeiter stehen darin, um Wände zu streichen, Lampen zu reparieren oder Äste abzuschneiden.
+      Sein Gelenkarm kann nach oben reichen und auch über Hindernisse hinweg.
+  machine.scissor_lift:
+    label: Scherenbühne
+    summary: Eine Plattform, die auf gekreuzten Stützen gerade nach oben fährt.
+    info: |
+      Eine Scherenbühne hat gekreuzte Metallstreben, die sich wie eine Schere öffnen.
+      Wenn sie sich öffnen, fährt die Plattform oben gerade nach oben.
+      Arbeiter benutzen sie in Hallen und Lagern, um an die Decke zu kommen.
+  machine.demolition_breaker:
+    label: Hydraulikhammer
+    summary: Ein Bagger mit einem Hammer statt einer Schaufel, der Beton zerschlägt.
+    info: |
+      Ein Hydraulikhammer ist ein riesiger Hammer am Arm eines Baggers.
+      Er schlägt viele Male pro Sekunde auf Beton und Fels, bis sie zerspringen.
+      Er hilft beim Abreißen alter Gebäude und beim Zerkleinern von Fels im Steinbruch.
+  machine.pile_driver:
+    label: Ramme
+    summary: Eine Maschine, die lange Pfähle tief in den Boden schlägt.
+    info: |
+      Eine Ramme drückt oder schlägt lange Pfähle aus Stahl oder Beton in den Boden.
+      Die Pfähle tragen Häuser und Brücken dort, wo der Boden weich ist.
+      Sie hat einen hohen Mast, der den Pfahl ganz gerade hält.
+  machine.drilling_rig:
+    label: Bohrgerät
+    summary: Eine Maschine auf Ketten, die tiefe Löcher in den Boden bohrt.
+    info: |
+      Ein Bohrgerät dreht einen langen Spiralbohrer, der ein tiefes Loch bohrt.
+      Die Erde kommt an der Spirale entlang nach oben und häuft sich um das Loch herum.
+      Die Löcher werden mit Beton gefüllt, damit daraus ein starkes Fundament wird.
+  machine.tunnel_boring_machine:
+    label: Tunnelbohrmaschine
+    summary: Eine riesige runde Maschine, die Tunnel unter der Erde gräbt.
+    info: |
+      Vorne an einer Tunnelbohrmaschine ist ein riesiges rundes Rad mit Schneidrollen, das sich langsam dreht und sich durch den Fels mahlt.
+      Dahinter kleidet die Maschine die Tunnelwände mit Betonteilen aus.
+      Tunnelbohrmaschinen bekommen oft Mädchennamen.
+  machine.cold_planer:
+    label: Straßenfräse
+    summary: Eine Maschine, die alten, kaputten Asphalt abfräst.
+    info: |
+      Eine Straßenfräse hat unten eine sich drehende Walze mit scharfen Zähnen.
+      Sie fräst die oberste Schicht einer alten Straße ab, und ein Förderband lädt die Stücke in einen Lastwagen.
+      Der alte Asphalt kann für eine neue Straße wiederverwendet werden.
+  machine.plate_compactor:
+    label: Rüttelplatte
+    summary: Eine kleine rüttelnde Platte, die ein Arbeiter schiebt, um den Boden festzudrücken.
+    info: |
+      Eine Rüttelplatte hat eine schwere Stahlplatte, die sehr schnell rüttelt.
+      Ein Arbeiter geht hinterher und lenkt sie am Griff.
+      Sie verdichtet Sand und Kies unter Wegen, Terrassen und Gehwegen.
+  machine.sheepsfoot_roller:
+    label: Stampffußwalze
+    summary: Eine Walze mit einer Trommel voller Buckel, die Erde festdrückt.
+    info: |
+      Die Trommel einer Stampffußwalze ist mit Klötzen bedeckt, die Stampffüße heißen.
+      Die Stampffüße drücken sich tief in die Erde und verdichten sie besser als eine glatte Walze.
+      Man benutzt sie auf Erde und Lehm, zum Beispiel unter neuen Straßen oder für Dämme.
+  machine.bucket_wheel_excavator:
+    label: Schaufelradbagger
+    summary: Eine gigantische Maschine mit einem drehenden Rad voller Schaufeln.
+    info: |
+      Ein Schaufelradbagger gräbt Kohle und Erde in riesigen Tagebauen.
+      Ein großes Rad mit Schaufeln dreht sich am Ende seines Arms und füllt ein langes Förderband.
+      Die größten sind mehr als 200 Meter lang und gehören damit zu den größten Maschinen an Land.
+  machine.loader_crane_truck:
+    label: Lkw mit Ladekran
+    summary: Ein Lastwagen mit einem Klapparm, der Lasten auf- und ablädt.
+    info: |
+      Ein Lkw mit Ladekran hat hinter der Kabine seinen eigenen hydraulischen Klapparm dabei.
+      Er kann Ziegel, Rohre oder Paletten ohne eine andere Maschine abladen.
+      Vor dem Heben stellt er an den Seiten Stützen aus, damit er sicher steht.

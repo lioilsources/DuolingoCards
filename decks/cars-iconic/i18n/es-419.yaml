@@ -1,0 +1,214 @@
+lang: es-419
+pivot: false
+title: Autos legendarios
+cards:
+  car.ford_model_t:
+    label: Ford Modelo T
+    summary: El auto que hizo posible que las familias comunes pudieran tener auto.
+    info: |
+      El Ford Modelo T se fabricó en Estados Unidos de 1908 a 1927.
+      Se armaba en una línea de montaje que avanzaba sola, así que era barato, y se fabricaron más de 15 millones.
+      Durante muchos años solo se podía comprar en color negro.
+  car.vw_beetle:
+    label: Volkswagen Vocho
+    summary: Un auto pequeño y redondito al que la gente le puso nombre de insecto.
+    info: |
+      El Vocho, también llamado Escarabajo, viene de Alemania y se fabricó de 1938 a 2003.
+      Se hicieron más de 21 millones, más que de cualquier otro auto con un mismo diseño.
+      Su motor está atrás, debajo de la tapa trasera.
+  car.vw_bus:
+    label: Combi Volkswagen
+    summary: Una camioneta amigable para familias, surfistas y viajes de campamento.
+    info: |
+      La Volkswagen Tipo 2 viene de Alemania y se fabricó por primera vez en 1950.
+      Las primeras tenían el parabrisas dividido en dos mitades y una gran V al frente.
+      Mucha gente la convirtió en una casita sobre ruedas para viajar.
+  car.jeep_willys:
+    label: Jeep Willys
+    summary: Un auto militar pequeño y resistente que podía andar casi por cualquier lugar.
+    info: |
+      El Willys MB se fabricó en Estados Unidos para la Segunda Guerra Mundial, de 1941 a 1945.
+      Se construyeron cientos de miles para llevar soldados por terrenos difíciles.
+      Les dio su nombre a todos los autos Jeep que vinieron después.
+  car.land_rover_defender:
+    label: Land Rover Defender
+    summary: Un auto británico cuadrado, hecho para andar por el campo y el lodo.
+    info: |
+      El Land Rover viene del Reino Unido; el primero se fabricó en 1948.
+      Desde 1990 se llamó Defender, y se fabricó hasta 2016.
+      Granjeros, exploradores y equipos de rescate lo usaron en todo el mundo.
+  car.mini_cooper:
+    label: Mini Cooper
+    summary: Un auto británico chiquito que era sorprendentemente rápido.
+    info: |
+      El Mini viene del Reino Unido y se fabricó de 1959 a 2000.
+      Su motor va de lado, así que caben cuatro personas en un auto muy corto.
+      Un Mini Cooper S ganó el famoso Rally de Montecarlo en 1964.
+  car.fiat_500:
+    label: Fiat 500
+    summary: Un auto italiano chiquito hecho para las calles angostas de la ciudad.
+    info: |
+      El Fiat 500 viene de Italia y se fabricó de 1957 a 1975.
+      Mide menos de 3 metros de largo, así que se puede estacionar casi en cualquier lugar.
+      Los italianos lo llaman «Cinquecento», que quiere decir «quinientos».
+  car.citroen_2cv:
+    label: Citroën 2CV
+    summary: Un auto francés sencillo con un techo que se puede enrollar.
+    info: |
+      El Citroën 2CV viene de Francia y se fabricó de 1948 a 1990.
+      Se diseñó para llevar a los granjeros y sus productos por caminos rurales llenos de baches.
+      Su techo de tela suave se enrolla como la tapa de una lata de sardinas.
+  car.citroen_ds:
+    label: Citroën DS
+    summary: Un auto francés elegante que parecía venir del futuro.
+    info: |
+      El Citroën DS viene de Francia y se fabricó de 1955 a 1975.
+      Su suspensión especial hace que el auto suba y baje cuando lo enciendes.
+      En francés, «DS» suena como la palabra que significa «diosa».
+  car.mercedes_300sl:
+    label: Mercedes-Benz 300 SL
+    summary: Un auto deportivo plateado con puertas que se abren hacia arriba como alas.
+    info: |
+      El Mercedes-Benz 300 SL viene de Alemania; el cupé se fabricó de 1954 a 1957.
+      Sus puertas se abren hacia arriba, por eso lo llaman «Alas de Gaviota».
+      Fue uno de los autos más rápidos que se podían comprar en su época.
+  car.jaguar_e_type:
+    label: Jaguar E-Type
+    summary: Un auto deportivo británico largo y elegante.
+    info: |
+      El Jaguar E-Type viene del Reino Unido y se fabricó de 1961 a 1975.
+      Tiene un cofre muy largo con un motor grande debajo.
+      Mucha gente dice que es uno de los autos más bonitos que se han hecho.
+  car.aston_martin_db5:
+    label: Aston Martin DB5
+    summary: El elegante auto británico del espía James Bond.
+    info: |
+      El Aston Martin DB5 viene del Reino Unido y se fabricó de 1963 a 1965.
+      Se hizo famoso en todo el mundo en 1964 con la película de James Bond «Goldfinger».
+      Solo se fabricaron unos mil.
+  car.shelby_cobra:
+    label: Shelby Cobra
+    summary: Un auto descapotable pequeño con un motor enorme y ruidoso.
+    info: |
+      El Shelby Cobra lo hizo en los años sesenta el piloto estadounidense Carroll Shelby.
+      Tomó un auto deportivo británico ligero y le puso un gran motor Ford estadounidense.
+      Ganó muchas carreras y todavía hoy lo copian.
+  car.ford_mustang:
+    label: Ford Mustang
+    summary: Un auto deportivo estadounidense que lleva el nombre de un caballo salvaje.
+    info: |
+      El Ford Mustang viene de Estados Unidos y salió a la venta por primera vez en 1964.
+      Fue tan popular que a todo un grupo de autos parecidos se le llamó «pony cars» por él.
+      El Mustang se sigue fabricando hoy.
+  car.corvette_c2:
+    label: Corvette Sting Ray
+    summary: Un auto deportivo estadounidense con la ventana trasera partida en dos.
+    info: |
+      El Chevrolet Corvette Sting Ray viene de Estados Unidos.
+      Solo el cupé de 1963 tenía la ventana trasera dividida en dos mitades.
+      Su carrocería es de fibra de vidrio en lugar de acero.
+  car.cadillac_eldorado:
+    label: Cadillac Eldorado
+    summary: Un auto estadounidense enorme con las aletas traseras más grandes de la historia.
+    info: |
+      El Cadillac Eldorado de 1959 viene de Estados Unidos.
+      Sus altas aletas traseras, con forma de cohete, están entre las más altas que ha tenido un auto.
+      Mide más de 5 metros y medio de largo.
+  car.chevrolet_bel_air:
+    label: Chevrolet Bel Air
+    summary: Un auto estadounidense de los años cincuenta, brillante, con cromo y pequeñas aletas.
+    info: |
+      El Chevrolet Bel Air de 1957 viene de Estados Unidos.
+      Con su pintura de dos colores y mucho cromo, se convirtió en un símbolo de los Estados Unidos de los años cincuenta.
+      En Cuba, muchos de estos autos viejos todavía circulan hoy por las calles.
+  car.ford_gt40:
+    label: Ford GT40
+    summary: Un auto de carreras estadounidense muy bajito que le ganó a Ferrari.
+    info: |
+      El Ford GT40 se construyó en los años sesenta para ganar la carrera de las 24 Horas de Le Mans.
+      Ganó en Le Mans cuatro años seguidos, de 1966 a 1969.
+      Se llama GT40 porque mide solo unas 40 pulgadas (1 metro) de alto.
+  car.porsche_911_classic:
+    label: Porsche 911 Carrera RS
+    summary: Un clásico auto deportivo alemán con un pequeño alerón de «cola de pato».
+    info: |
+      El Porsche 911 viene de Alemania; el primero se fabricó en 1964.
+      El Carrera RS de 1973 era una versión ligera y rápida, hecha para competir en carreras.
+      Su pequeño alerón trasero parece la cola de un pato.
+  car.porsche_911_modern:
+    label: Porsche 911
+    summary: La versión moderna de un auto deportivo que conserva su forma desde hace 60 años.
+    info: |
+      El Porsche 911 viene de Alemania, y esta versión salió en 2019.
+      Todavía tiene faros redondos y el motor atrás, igual que el primer 911.
+      Es una de las familias de autos deportivos que se fabrican desde hace más tiempo en el mundo.
+  car.lamborghini_countach:
+    label: Lamborghini Countach
+    summary: Un superdeportivo italiano plano y puntiagudo, con puertas que se abren hacia arriba.
+    info: |
+      El Lamborghini Countach viene de Italia y se fabricó de 1974 a 1990.
+      Sus puertas se levantan hacia adelante, como unas tijeras.
+      Muchos niños tenían un póster de él en la pared de su cuarto.
+  car.ferrari_testarossa:
+    label: Ferrari Testarossa
+    summary: Un auto deportivo italiano ancho y rojo, con rayas a los lados.
+    info: |
+      El Ferrari Testarossa viene de Italia y se fabricó por primera vez en 1984.
+      «Testarossa» significa «cabeza roja» en italiano, porque la parte de arriba de su motor está pintada de rojo.
+      Las rayas largas de sus costados dejan entrar aire para enfriar el motor.
+  car.ferrari_f40:
+    label: Ferrari F40
+    summary: Un superdeportivo italiano rojo con un gran alerón atrás.
+    info: |
+      El Ferrari F40 viene de Italia y se fabricó de 1987 a 1992.
+      Se hizo para el cumpleaños número 40 de Ferrari, y de ahí viene su nombre.
+      Fue uno de los primeros autos de calle que podían ir a más de 320 km/h.
+  car.delorean:
+    label: DeLorean
+    summary: Un auto de acero brillante que se convirtió en máquina del tiempo en una película.
+    info: |
+      El DeLorean DMC-12 se fabricó en Irlanda del Norte en 1981 y 1982.
+      Su carrocería es de acero inoxidable al natural, sin nada de pintura, y sus puertas se abren hacia arriba.
+      Se hizo famoso como la máquina del tiempo de la película «Volver al futuro».
+  car.london_taxi:
+    label: Taxi de Londres
+    summary: El famoso taxi negro que lleva a la gente por Londres.
+    info: |
+      El Austin FX4 viene del Reino Unido y se fabricó de 1958 a 1997.
+      Puede dar la vuelta en un círculo muy pequeño, lo que ayuda en las calles angostas de Londres.
+      Su techo alto se hizo para que los pasajeros pudieran ir sentados adentro con sombrero.
+  car.toyota_land_cruiser:
+    label: Toyota Land Cruiser
+    summary: Un auto japonés resistente que puede cruzar desiertos y selvas.
+    info: |
+      El Toyota Land Cruiser FJ40 viene de Japón y se fabricó de 1960 a 1984.
+      Se vendió en todo el mundo y es famoso porque es muy difícil de descomponer.
+      Muchos todavía andan hoy por caminos difíciles.
+  car.mazda_mx5:
+    label: Mazda MX-5
+    summary: Un pequeño y alegre auto japonés de dos asientos con faros que se levantan.
+    info: |
+      El Mazda MX-5 viene de Japón y salió a la venta por primera vez en 1989.
+      La primera versión tenía faros que se levantaban y salían del cofre.
+      Es el auto deportivo de dos asientos más vendido del mundo.
+  car.trabant:
+    label: Trabant
+    summary: Un auto pequeño de Alemania del Este con una carrocería hecha en parte de plástico.
+    info: |
+      El Trabant viene de Alemania del Este y se fabricó de 1957 a 1991.
+      Su carrocería era de un plástico duro mezclado con fibras de algodón, en lugar de acero.
+      Muchas veces la gente tenía que esperar muchos años para poder comprar uno.
+  car.bugatti_veyron:
+    label: Bugatti Veyron
+    summary: Un auto increíblemente rápido que puede pasar de los 400 km/h.
+    info: |
+      El Bugatti Veyron viene de Francia y se fabricó de 2005 a 2015.
+      Su motor tiene 16 cilindros y más de 1000 caballos de fuerza.
+      Cuando salió, era el auto de calle más rápido del mundo.
+  car.tesla_model_s:
+    label: Tesla Model S
+    summary: Un auto estadounidense rápido que funciona con electricidad en lugar de gasolina.
+    info: |
+      El Tesla Model S viene de Estados Unidos y salió a la venta en 2012.
+      Funciona con grandes baterías debajo del piso, así que no tiene tubo de escape.
+      Como no hay motor adelante, ahí tiene una segunda cajuela.

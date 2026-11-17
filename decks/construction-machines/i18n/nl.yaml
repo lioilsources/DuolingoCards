@@ -1,0 +1,214 @@
+lang: nl
+pivot: false
+title: Bouwmachines
+cards:
+  machine.excavator:
+    label: graafmachine
+    summary: Een machine die graaft, met een lange arm en een bak vol tanden.
+    info: |
+      Een graafmachine rijdt op rupsbanden, zodat hij niet wegzakt in zachte modder.
+      Het hele bovenstuk met de cabine en de arm kan helemaal rond draaien.
+      De arm beweegt met hydrauliek: olie die met hoge druk door leidingen wordt geperst.
+  machine.mini_excavator:
+    label: minigraver
+    summary: Een kleine graafmachine die door een tuinhek past.
+    info: |
+      Een minigraver graaft waar een grote niet past, zoals in tuinen, op erven en in smalle straten.
+      Meestal rijdt hij op rubberen rupsbanden, zodat hij bestrating niet beschadigt.
+      Met het kleine blad aan de voorkant duwt hij de aarde terug in het gat.
+  machine.backhoe_loader:
+    label: graaflaadcombinatie
+    summary: Een tractor met een schep aan de voorkant en een graafarm aan de achterkant.
+    info: |
+      Een graaflaadcombinatie is twee machines in één: voorin een shovel en achterin een graafmachine.
+      De bestuurder draait zijn stoel om als hij met de achterste arm werkt.
+      Hij rijdt op wielen, dus hij kan over de weg van het ene werk naar het andere rijden.
+  machine.wheel_loader:
+    label: shovel
+    summary: Een machine met enorme banden die zand en grind opschept en wegbrengt.
+    info: |
+      Een shovel vult zijn grote bak aan de voorkant en kiept hem leeg in vrachtwagens.
+      Hij kan in het midden knikken, zodat hij op een kleine plek kan draaien.
+      De grootste shovels hebben banden die hoger zijn dan een volwassene.
+  machine.bulldozer:
+    label: bulldozer
+    summary: Een sterke machine op rupsbanden die aarde duwt met een breed blad.
+    info: |
+      Een bulldozer duwt aarde, stenen en zand weg met het stalen blad aan zijn voorkant.
+      De klauw aan de achterkant heet een ripper en breekt harde grond open.
+      Zijn brede rupsbanden verdelen zijn gewicht, zodat hij over losse aarde kan rijden.
+  machine.skid_steer:
+    label: minishovel
+    summary: Een kleine shovel in de vorm van een doos die op de plek kan draaien.
+    info: |
+      Een minishovel stuurt door de wielen aan de ene kant sneller te laten draaien dan aan de andere kant.
+      Zo kan hij op de plek rondtollen, bijna als een tank.
+      In plaats van de bak kan hij allerlei ander gereedschap dragen, zoals vorken, borstels of een boor.
+  machine.dump_truck:
+    label: kiepwagen
+    summary: Een vrachtwagen die zijn lading aan de achterkant eruit kiept.
+    info: |
+      Een kiepwagen vervoert zand, grind of aarde in een stalen bak die de kieper heet.
+      Hydraulische cilinders tillen de voorkant van de bak op, en de lading glijdt er aan de achterkant uit.
+      Daarna zakt de bak weer omlaag en rijdt de vrachtwagen weg om meer te halen.
+  machine.articulated_hauler:
+    label: knikdumper
+    summary: Een kiepwagen voor ruw terrein die in het midden knikt.
+    info: |
+      Een knikdumper bestaat uit twee delen met een scharnier ertussen, daardoor knikt hij in het midden.
+      Zo komt hij door modder en over hobbels waar een gewone vrachtwagen vast zou komen te zitten.
+      Hij is gemaakt voor bouwplaatsen en steengroeves, niet voor de weg.
+  machine.mining_truck:
+    label: mijndumper
+    summary: Een reusachtige kiepwagen die werkt in enorme open mijnen.
+    info: |
+      Mijndumpers horen bij de grootste vrachtwagens ter wereld.
+      Hun banden zijn hoger dan een volwassene, en de bestuurder klimt via een ladder naar de cabine.
+      De grootste kunnen in één keer meer dan 400 ton steen vervoeren.
+  machine.concrete_mixer:
+    label: betonmixer
+    summary: Een vrachtwagen met een grote trommel die blijft draaien.
+    info: |
+      Een betonmixer brengt vers beton naar de bouwplaats.
+      Onderweg blijft de trommel draaien, zodat het beton er niet in hard wordt.
+      Als de trommel de andere kant op draait, stroomt het beton via de goot naar buiten.
+  machine.concrete_pump:
+    label: betonpomp
+    summary: Een vrachtwagen met een lange vouwarm die beton hoog omhoog brengt.
+    info: |
+      Een betonpomp duwt nat beton door een buis langs zijn lange arm.
+      De arm vouwt uit als een reuzenvinger en komt tot bij de bovenste verdiepingen van een gebouw.
+      Stalen poten aan de zijkanten zorgen ervoor dat de vrachtwagen niet omvalt.
+  machine.tower_crane:
+    label: torenkraan
+    summary: Een hoge kraan die boven een bouwplaats uittorent.
+    info: |
+      Een torenkraan tilt zware dingen zoals stalen balken en beton naar de bovenkant van een gebouw.
+      De kraanmachinist klimt binnen in de toren omhoog naar een klein hokje bovenin.
+      Zware betonblokken aan de korte arm houden de last aan de lange arm in evenwicht.
+  machine.mobile_crane:
+    label: mobiele kraan
+    summary: Een kraan op een vrachtwagen met een arm die steeds verder uitschuift.
+    info: |
+      Een mobiele kraan rijdt op zijn eigen wielen naar de bouwplaats.
+      Zijn arm is telescopisch: hij schuift uit zoals een verrekijker en wordt veel langer.
+      Voordat hij iets optilt, zet hij aan beide kanten sterke poten uit, zodat hij niet omvalt.
+  machine.crawler_crane:
+    label: rupskraan
+    summary: Een heel sterke kraan op rupsbanden met een hoge vakwerkarm.
+    info: |
+      Een rupskraan staat op rupsbanden, die zijn enorme gewicht over de grond verdelen.
+      Zijn lange arm is gemaakt van stalen vakwerk, licht maar heel sterk.
+      Grote rupskranen tillen stukken van bruggen en windmolens op.
+  machine.road_roller:
+    label: wals
+    summary: Een zware machine met gladde stalen rollen die asfalt platdrukt.
+    info: |
+      Een wals rijdt langzaam over vers asfalt en drukt het plat en hard.
+      Zijn stalen rollen kunnen heel snel trillen, zodat de weg nog steviger wordt.
+      Er wordt water op de rollen gespoten, zodat het hete asfalt er niet aan blijft plakken.
+  machine.asphalt_paver:
+    label: asfaltmachine
+    summary: Een machine die een nieuwe laag weg legt.
+    info: |
+      Vrachtwagens kiepen heet asfalt in de voorkant van de asfaltmachine.
+      De asfaltmachine strijkt het achter zich uit in een gelijkmatige laag, terwijl hij langzaam vooruitrijdt.
+      Meestal rijdt er vlak achter hem een wals.
+  machine.motor_grader:
+    label: grader
+    summary: Een lange machine met een blad onder zijn buik die wegen vlak maakt.
+    info: |
+      Een grader heeft een lang blad aan de onderkant, tussen zijn voor- en achterwielen.
+      Het blad kan kantelen en draaien, zodat hij de grond helemaal vlak of een beetje schuin kan maken.
+      Graders maken grindwegen vlak en maken de grond klaar voordat er een nieuwe weg wordt aangelegd.
+  machine.forklift:
+    label: heftruck
+    summary: Een klein voertuig dat lasten optilt op twee vorken.
+    info: |
+      Een heftruck schuift zijn twee vorken onder een pallet en tilt hem op.
+      Hij werkt in magazijnen, fabrieken en winkels.
+      Een zwaar gewicht aan de achterkant zorgt ervoor dat hij niet voorover kantelt onder de last.
+  machine.telehandler:
+    label: verreiker
+    summary: Een shovel met een lange arm die uitschuift om dingen hoog op te tillen.
+    info: |
+      Een verreiker is net een heftruck met een lange telescopische arm.
+      Hij kan een pallet bakstenen op een dak zetten of ver een gebouw in.
+      Hij wordt gebruikt op bouwplaatsen en op boerderijen, waar hij hooibalen optilt.
+  machine.boom_lift:
+    label: hoogwerker
+    summary: Een machine die werkers hoog de lucht in tilt in een bak.
+    info: |
+      Een hoogwerker tilt een klein platform met een hek eromheen hoog de lucht in.
+      Werkers staan erin om muren te schilderen, lampen te repareren of takken af te zagen.
+      Zijn arm met scharnieren kan omhoog reiken en ook over obstakels heen.
+  machine.scissor_lift:
+    label: schaarlift
+    summary: Een platform dat recht omhoog gaat op gekruiste steunen.
+    info: |
+      Een schaarlift heeft gekruiste metalen steunen die opengaan als een schaar.
+      Als ze opengaan, gaat het platform bovenop recht omhoog.
+      Werkers gebruiken hem in hallen en magazijnen om bij het plafond te komen.
+  machine.demolition_breaker:
+    label: sloophamer
+    summary: Een graafmachine met een hamer in plaats van een bak die beton kapotslaat.
+    info: |
+      Een sloophamer is een enorme hamer aan de arm van een graafmachine.
+      Hij slaat vele keren per seconde op beton en steen, tot ze barsten.
+      Hij helpt om oude gebouwen te slopen en steen te breken in steengroeves.
+  machine.pile_driver:
+    label: heimachine
+    summary: Een machine die lange palen diep de grond in slaat.
+    info: |
+      Een heimachine duwt of slaat lange palen van staal of beton de grond in.
+      De palen houden gebouwen en bruggen omhoog waar de grond zacht is.
+      Hij heeft een hoge mast die de paal precies recht houdt.
+  machine.drilling_rig:
+    label: boormachine
+    summary: Een machine op rupsbanden die diepe gaten in de grond boort.
+    info: |
+      Een boormachine draait een lange spiraalboor die een diep gat boort.
+      De aarde komt langs de spiraal naar boven en stapelt zich op rond het gat.
+      De gaten worden gevuld met beton, zodat er een sterke fundering ontstaat.
+  machine.tunnel_boring_machine:
+    label: tunnelboormachine
+    summary: Een reusachtige ronde machine die tunnels onder de grond graaft.
+    info: |
+      De voorkant van een tunnelboormachine is een enorm rond wiel met snijschijven dat langzaam draait en zich door steen heen maalt.
+      Daarachter bekleedt de machine de tunnelwanden met stukken beton.
+      Tunnelboormachines krijgen vaak een meisjesnaam.
+  machine.cold_planer:
+    label: freesmachine
+    summary: Een machine die oud, versleten asfalt wegfreest.
+    info: |
+      Een freesmachine heeft aan de onderkant een draaiende trommel met scherpe tanden.
+      Hij freest de bovenste laag van een oude weg weg, en een lopende band laadt de stukken in een vrachtwagen.
+      Het oude asfalt kan opnieuw worden gebruikt in een nieuwe weg.
+  machine.plate_compactor:
+    label: trilplaat
+    summary: Een kleine trillende plaat die een werker voortduwt om de grond aan te stampen.
+    info: |
+      Een trilplaat heeft een zware stalen plaat die heel snel trilt.
+      Een werker loopt erachter en stuurt hem aan het handvat.
+      Hij stampt zand en grind aan onder paden, terrassen en stoepen.
+  machine.sheepsfoot_roller:
+    label: schapenpootwals
+    summary: Een wals met een hobbelige trommel die aarde aandrukt.
+    info: |
+      De trommel van een schapenpootwals zit vol blokken, die poten heten.
+      De poten drukken diep in de grond en maken hem beter vast dan een gladde trommel.
+      Hij wordt gebruikt op aarde en klei, bijvoorbeeld onder nieuwe wegen of voor dammen.
+  machine.bucket_wheel_excavator:
+    label: emmerwielgraafmachine
+    summary: Een gigantische machine met een draaiend wiel vol emmers.
+    info: |
+      Een emmerwielgraafmachine graaft kolen en aarde in enorme open mijnen.
+      Een groot wiel met emmers draait aan het eind van zijn arm en vult een lange lopende band.
+      De grootste zijn meer dan 200 meter lang, en daarmee horen ze bij de grootste machines op het land.
+  machine.loader_crane_truck:
+    label: vrachtwagen met kraan
+    summary: Een vrachtwagen met een vouwarm die lasten op- en aflaadt.
+    info: |
+      Een vrachtwagen met kraan heeft zijn eigen hydraulische vouwarm achter de cabine.
+      Hij kan bakstenen, buizen of pallets uitladen zonder een andere machine.
+      Voordat hij iets optilt, zet hij poten uit aan de zijkanten, zodat hij stevig blijft staan.

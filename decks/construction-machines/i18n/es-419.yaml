@@ -1,0 +1,214 @@
+lang: es-419
+pivot: false
+title: Máquinas de construcción
+cards:
+  machine.excavator:
+    label: excavadora
+    summary: Una máquina que excava, con un brazo largo y un cucharón lleno de dientes.
+    info: |
+      La excavadora anda sobre orugas, así que no se hunde en el lodo blando.
+      Toda la parte de arriba, con la cabina y el brazo, puede dar la vuelta completa.
+      El brazo se mueve con hidráulica: aceite empujado por tubos con mucha presión.
+  machine.mini_excavator:
+    label: miniexcavadora
+    summary: Una excavadora pequeña que cabe por la puerta de un jardín.
+    info: |
+      La miniexcavadora excava donde una grande no cabría, como en jardines, patios y calles angostas.
+      Casi siempre anda sobre orugas de goma, así que no daña el suelo pavimentado.
+      La pequeña pala de adelante empuja la tierra de vuelta al hoyo.
+  machine.backhoe_loader:
+    label: retroexcavadora
+    summary: Un tractor con una pala adelante y un brazo para excavar atrás.
+    info: |
+      La retroexcavadora es dos máquinas en una: un cargador adelante y una excavadora atrás.
+      El conductor gira su asiento para trabajar con el brazo de atrás.
+      Anda sobre ruedas, así que puede ir por la carretera de una obra a otra.
+  machine.wheel_loader:
+    label: cargador frontal
+    summary: Una máquina con llantas enormes que recoge y lleva arena y grava.
+    info: |
+      El cargador frontal llena su gran cucharón de adelante y lo vacía en los camiones.
+      Su cuerpo se dobla por la mitad, y eso le permite girar en lugares estrechos.
+      Los cargadores más grandes tienen llantas más altas que una persona adulta.
+  machine.bulldozer:
+    label: bulldozer
+    summary: Una máquina fuerte sobre orugas que empuja la tierra con una hoja ancha.
+    info: |
+      El bulldozer empuja tierra, piedras y arena con la hoja de acero que tiene adelante.
+      La garra de atrás se llama desgarrador y rompe el suelo duro.
+      Sus orugas anchas reparten su peso, así que puede andar sobre tierra suelta.
+  machine.skid_steer:
+    label: minicargador
+    summary: Un cargador pequeño con forma de caja que puede girar en su lugar.
+    info: |
+      El minicargador gira haciendo que las ruedas de un lado den vueltas más rápido que las del otro.
+      Así puede girar sobre su lugar, casi como un tanque.
+      En vez del cucharón puede llevar muchas otras herramientas, como horquillas, cepillos o un taladro.
+  machine.dump_truck:
+    label: camión de volteo
+    summary: Un camión que vacía su carga por atrás.
+    info: |
+      El camión de volteo lleva arena, grava o tierra en una caja de acero llamada caja de volteo.
+      Unos pistones hidráulicos levantan el frente de la caja, y la carga se resbala por atrás.
+      Luego la caja vuelve a bajar y el camión se va por más.
+  machine.articulated_hauler:
+    label: camión articulado
+    summary: Un camión de volteo todoterreno que se dobla por la mitad.
+    info: |
+      El camión articulado tiene dos partes unidas por una articulación, así que se dobla por la mitad.
+      Eso lo ayuda a pasar por el lodo y los baches donde un camión normal se quedaría atorado.
+      Está hecho para obras y canteras, no para carreteras.
+  machine.mining_truck:
+    label: camión minero
+    summary: Un camión de volteo gigante que trabaja en enormes minas a cielo abierto.
+    info: |
+      Los camiones mineros son de los camiones más grandes del mundo.
+      Sus llantas son más altas que una persona adulta, y el conductor sube a la cabina por una escalera.
+      Los más grandes pueden llevar más de 400 toneladas de roca a la vez.
+  machine.concrete_mixer:
+    label: camión mezclador
+    summary: Un camión con un gran tambor que no deja de girar.
+    info: |
+      El camión mezclador lleva concreto fresco a la obra.
+      El tambor sigue girando en el camino, para que el concreto no se endurezca adentro.
+      Cuando el tambor gira al revés, el concreto sale por el canal.
+  machine.concrete_pump:
+    label: bomba de concreto
+    summary: Un camión con un brazo largo y plegable que vierte concreto muy alto.
+    info: |
+      La bomba de concreto empuja el concreto mojado por un tubo a lo largo de su brazo largo.
+      El brazo se despliega como un dedo gigante y llega a los pisos altos de un edificio.
+      Unas patas de acero a los lados evitan que el camión se voltee.
+  machine.tower_crane:
+    label: grúa torre
+    summary: Una grúa altísima que se levanta sobre la obra.
+    info: |
+      La grúa torre sube cargas pesadas, como vigas de acero y concreto, hasta lo alto de un edificio.
+      El operador sube por dentro de la torre hasta una pequeña cabina arriba.
+      Unos bloques pesados de concreto en el brazo corto equilibran la carga del brazo largo.
+  machine.mobile_crane:
+    label: grúa móvil
+    summary: Una grúa sobre un camión, con un brazo que se alarga más y más.
+    info: |
+      La grúa móvil llega a la obra con sus propias ruedas.
+      Su brazo es telescópico: se alarga como un telescopio y se hace mucho más largo.
+      Antes de levantar algo, saca patas fuertes a los dos lados para no voltearse.
+  machine.crawler_crane:
+    label: grúa sobre orugas
+    summary: Una grúa muy fuerte sobre orugas, con un brazo alto de celosía.
+    info: |
+      La grúa sobre orugas se apoya en orugas, que reparten su enorme peso sobre el suelo.
+      Su brazo largo está hecho de celosía de acero, ligera pero muy resistente.
+      Las grúas sobre orugas grandes levantan partes de puentes y de aerogeneradores.
+  machine.road_roller:
+    label: aplanadora
+    summary: Una máquina pesada con rodillos de acero lisos que aplana el asfalto.
+    info: |
+      La aplanadora pasa despacio sobre el asfalto fresco y lo aprieta hasta dejarlo plano y duro.
+      Sus rodillos de acero pueden vibrar muy rápido, y así compactan todavía mejor el camino.
+      A los rodillos se les rocía agua para que el asfalto caliente no se les pegue.
+  machine.asphalt_paver:
+    label: pavimentadora
+    summary: Una máquina que pone una capa nueva de carretera.
+    info: |
+      Los camiones vacían asfalto caliente en la parte de adelante de la pavimentadora.
+      La pavimentadora lo extiende detrás de ella en una capa pareja mientras avanza despacio.
+      Normalmente, una aplanadora va justo detrás de ella.
+  machine.motor_grader:
+    label: motoniveladora
+    summary: Una máquina larga con una hoja debajo de la panza que empareja los caminos.
+    info: |
+      La motoniveladora tiene una hoja larga abajo, entre sus ruedas de adelante y las de atrás.
+      La hoja se puede inclinar y girar, así que puede dejar el suelo perfectamente plano o un poco inclinado.
+      Las motoniveladoras emparejan los caminos de grava y preparan el suelo antes de construir una carretera nueva.
+  machine.forklift:
+    label: montacargas
+    summary: Un vehículo pequeño que levanta cargas sobre dos horquillas.
+    info: |
+      El montacargas mete sus dos horquillas debajo de una tarima y la levanta.
+      Trabaja en bodegas, fábricas y tiendas.
+      Un peso grande atrás evita que se vaya hacia adelante con la carga.
+  machine.telehandler:
+    label: manipulador telescópico
+    summary: Un cargador con un brazo largo que se alarga para subir cosas muy alto.
+    info: |
+      El manipulador telescópico es como un montacargas con un brazo telescópico largo.
+      Puede subir una tarima de ladrillos a un techo o meterla hasta el fondo de un edificio.
+      Se usa en las obras y en las granjas, donde levanta pacas de heno.
+  machine.boom_lift:
+    label: plataforma de brazo
+    summary: Una máquina que sube a los trabajadores muy alto en una canastilla.
+    info: |
+      La plataforma de brazo levanta por el aire una pequeña plataforma con barandal.
+      Los trabajadores se suben para pintar paredes, arreglar lámparas o cortar ramas.
+      Su brazo articulado puede llegar hacia arriba y también pasar por encima de obstáculos.
+  machine.scissor_lift:
+    label: plataforma de tijera
+    summary: Una plataforma que sube derecho sobre soportes cruzados.
+    info: |
+      La plataforma de tijera tiene soportes de metal cruzados que se abren como unas tijeras.
+      Cuando se abren, la plataforma de arriba sube derecho.
+      Los trabajadores la usan en naves y bodegas para llegar al techo.
+  machine.demolition_breaker:
+    label: martillo hidráulico
+    summary: Una excavadora con un martillo en vez de cucharón, que rompe el concreto.
+    info: |
+      El martillo hidráulico es un martillo enorme sujeto al brazo de una excavadora.
+      Golpea el concreto y la roca muchas veces por segundo hasta que se rompen.
+      Ayuda a tirar edificios viejos y a romper roca en las canteras.
+  machine.pile_driver:
+    label: piloteadora
+    summary: Una máquina que clava postes largos muy profundo en el suelo.
+    info: |
+      La piloteadora empuja o martilla postes largos de acero o de concreto, llamados pilotes, en el suelo.
+      Los pilotes sostienen edificios y puentes donde el suelo es blando.
+      Tiene un mástil alto que mantiene el pilote perfectamente derecho.
+  machine.drilling_rig:
+    label: perforadora
+    summary: Una máquina sobre orugas que hace hoyos profundos en el suelo.
+    info: |
+      La perforadora hace girar una broca larga en espiral que hace un hoyo profundo.
+      La tierra sube por la espiral y se amontona alrededor del hoyo.
+      Los hoyos se rellenan de concreto para hacer cimientos fuertes.
+  machine.tunnel_boring_machine:
+    label: tuneladora
+    summary: Una máquina redonda gigante que excava túneles bajo tierra.
+    info: |
+      El frente de una tuneladora es una enorme rueda redonda con discos cortadores que gira despacio y va moliendo la roca.
+      Detrás, la máquina va cubriendo las paredes del túnel con piezas de concreto.
+      A las tuneladoras muchas veces les ponen nombres de niña.
+  machine.cold_planer:
+    label: fresadora de asfalto
+    summary: Una máquina que raspa el asfalto viejo y gastado.
+    info: |
+      La fresadora de asfalto tiene abajo un tambor que gira, con dientes afilados.
+      Raspa la capa de arriba de una carretera vieja, y una banda transportadora carga los pedazos en un camión.
+      El asfalto viejo se puede volver a usar en una carretera nueva.
+  machine.plate_compactor:
+    label: placa compactadora
+    summary: Una placa pequeña que vibra y que un trabajador empuja para apretar el suelo.
+    info: |
+      La placa compactadora tiene una placa de acero pesada que vibra muy rápido.
+      Un trabajador camina detrás y la guía con el manubrio.
+      Compacta la arena y la grava debajo de caminos, patios y banquetas.
+  machine.sheepsfoot_roller:
+    label: rodillo pata de cabra
+    summary: Un rodillo con un tambor lleno de bultos que compacta la tierra.
+    info: |
+      El tambor de este rodillo está cubierto de bloques, llamados patas.
+      Las patas se meten hondo en la tierra y la compactan mejor que un tambor liso.
+      Se usa en tierra y arcilla, por ejemplo debajo de carreteras nuevas o para hacer presas.
+  machine.bucket_wheel_excavator:
+    label: excavadora de rueda de cangilones
+    summary: Una máquina gigantesca con una rueda llena de cubetas que gira.
+    info: |
+      La excavadora de rueda de cangilones saca carbón y tierra en enormes minas a cielo abierto.
+      Una gran rueda con cubetas gira en la punta de su brazo y llena una banda transportadora larga.
+      Las más grandes miden más de 200 metros de largo, así que están entre las máquinas terrestres más grandes del mundo.
+  machine.loader_crane_truck:
+    label: camión grúa
+    summary: Un camión con un brazo plegable que sube y baja cargas.
+    info: |
+      El camión grúa lleva su propio brazo hidráulico plegable detrás de la cabina.
+      Puede descargar ladrillos, tubos o tarimas sin ninguna otra máquina.
+      Antes de levantar algo, saca patas a los lados para mantenerse firme.

@@ -1,0 +1,214 @@
+lang: id
+pivot: false
+title: Mobil Terkenal
+cards:
+  car.ford_model_t:
+    label: Ford Model T
+    summary: Mobil yang membuat keluarga biasa juga bisa punya mobil.
+    info: |
+      Ford Model T dibuat di Amerika Serikat dari tahun 1908 sampai 1927.
+      Mobil ini dirakit di jalur perakitan yang bergerak, jadi harganya murah, dan lebih dari 15 juta dibuat.
+      Selama bertahun-tahun, kamu hanya bisa membelinya dalam warna hitam.
+  car.vw_beetle:
+    label: Volkswagen Kodok
+    summary: Mobil kecil yang bulat; dalam bahasa Inggris namanya berarti kumbang.
+    info: |
+      Volkswagen Kodok berasal dari Jerman dan dibuat dari tahun 1938 sampai 2003.
+      Lebih dari 21 juta dibuat, lebih banyak daripada mobil lain mana pun dengan desain yang sama.
+      Mesinnya ada di belakang, di bawah tutup belakang.
+  car.vw_bus:
+    label: Volkswagen Kombi
+    summary: Mobil van yang ramah untuk keluarga, peselancar, dan perjalanan berkemah.
+    info: |
+      Volkswagen Type 2 berasal dari Jerman dan pertama kali dibuat pada tahun 1950.
+      Yang pertama punya kaca depan yang terbagi dua dan huruf V besar di bagian depan.
+      Banyak orang mengubahnya menjadi rumah kecil beroda untuk bepergian.
+  car.jeep_willys:
+    label: Willys Jeep
+    summary: Mobil tentara kecil dan tangguh yang bisa melaju hampir ke mana saja.
+    info: |
+      Willys MB dibuat di Amerika Serikat untuk Perang Dunia Kedua, dari tahun 1941 sampai 1945.
+      Ratusan ribu dibuat untuk mengangkut tentara melewati medan yang berat.
+      Semua mobil Jeep yang datang sesudahnya mendapat nama dari mobil ini.
+  car.land_rover_defender:
+    label: Land Rover Defender
+    summary: Mobil Inggris berbentuk kotak yang dibuat untuk melewati ladang dan lumpur.
+    info: |
+      Land Rover berasal dari Britania Raya; yang pertama dibuat pada tahun 1948.
+      Sejak tahun 1990 namanya Defender, dan mobil ini dibuat sampai tahun 2016.
+      Petani, penjelajah, dan tim penyelamat memakainya di seluruh dunia.
+  car.mini_cooper:
+    label: Mini Cooper
+    summary: Mobil Inggris mungil yang ternyata sangat cepat.
+    info: |
+      Mini berasal dari Britania Raya dan dibuat dari tahun 1959 sampai 2000.
+      Mesinnya dipasang menyamping, jadi empat orang muat di dalam mobil yang sangat pendek.
+      Sebuah Mini Cooper S memenangkan Reli Monte Carlo yang terkenal pada tahun 1964.
+  car.fiat_500:
+    label: Fiat 500
+    summary: Mobil Italia mungil yang dibuat untuk jalan-jalan kota yang sempit.
+    info: |
+      Fiat 500 berasal dari Italia dan dibuat dari tahun 1957 sampai 1975.
+      Panjangnya kurang dari 3 meter, jadi mobil ini bisa parkir hampir di mana saja.
+      Orang Italia menyebutnya "Cinquecento", yang artinya "lima ratus".
+  car.citroen_2cv:
+    label: Citroën 2CV
+    summary: Mobil Prancis sederhana dengan atap yang bisa digulung ke belakang.
+    info: |
+      Citroën 2CV berasal dari Prancis dan dibuat dari tahun 1948 sampai 1990.
+      Mobil ini dirancang untuk membawa petani dan barang-barang mereka di jalan desa yang bergelombang.
+      Atap kainnya yang lembut bisa digulung ke belakang seperti tutup kaleng sarden.
+  car.citroen_ds:
+    label: Citroën DS
+    summary: Mobil Prancis yang mulus dan tampak seperti datang dari masa depan.
+    info: |
+      Citroën DS berasal dari Prancis dan dibuat dari tahun 1955 sampai 1975.
+      Suspensinya yang istimewa membuat mobil ini naik dan turun saat mesinnya dinyalakan.
+      Dalam bahasa Prancis, "DS" terdengar seperti kata untuk "dewi".
+  car.mercedes_300sl:
+    label: Mercedes-Benz 300 SL
+    summary: Mobil sport perak dengan pintu yang terbuka ke atas seperti sayap.
+    info: |
+      Mercedes-Benz 300 SL berasal dari Jerman; versi coupé-nya dibuat dari tahun 1954 sampai 1957.
+      Pintunya terbuka ke atas, jadi orang menyebutnya "Gullwing", artinya "sayap camar".
+      Pada masanya, mobil ini termasuk mobil tercepat yang bisa dibeli.
+  car.jaguar_e_type:
+    label: Jaguar E-Type
+    summary: Mobil sport Inggris yang panjang dan ramping.
+    info: |
+      Jaguar E-Type berasal dari Britania Raya dan dibuat dari tahun 1961 sampai 1975.
+      Kap mesinnya sangat panjang, dengan mesin besar di bawahnya.
+      Banyak orang bilang ini salah satu mobil terindah yang pernah dibuat.
+  car.aston_martin_db5:
+    label: Aston Martin DB5
+    summary: Mobil Inggris yang elegan milik mata-mata James Bond.
+    info: |
+      Aston Martin DB5 berasal dari Britania Raya dan dibuat dari tahun 1963 sampai 1965.
+      Mobil ini terkenal di seluruh dunia lewat film James Bond "Goldfinger" pada tahun 1964.
+      Hanya sekitar seribu yang dibuat.
+  car.shelby_cobra:
+    label: Shelby Cobra
+    summary: Mobil kecil terbuka dengan mesin yang sangat besar dan keras.
+    info: |
+      Shelby Cobra dibuat pada tahun 1960-an oleh pembalap Amerika, Carroll Shelby.
+      Ia mengambil mobil sport Inggris yang ringan lalu memasang mesin Ford Amerika yang besar.
+      Mobil ini memenangkan banyak balapan dan masih ditiru sampai sekarang.
+  car.ford_mustang:
+    label: Ford Mustang
+    summary: Mobil Amerika yang sporty dan dinamai seperti kuda liar.
+    info: |
+      Ford Mustang berasal dari Amerika Serikat dan pertama kali dijual pada tahun 1964.
+      Mobil ini begitu populer sampai sekelompok mobil yang mirip dengannya disebut "pony car".
+      Mustang masih dibuat sampai sekarang.
+  car.corvette_c2:
+    label: Corvette Sting Ray
+    summary: Mobil sport Amerika dengan kaca belakang yang terbagi dua.
+    info: |
+      Chevrolet Corvette Sting Ray berasal dari Amerika Serikat.
+      Hanya versi coupé tahun 1963 yang punya kaca belakang terbagi menjadi dua bagian.
+      Bodinya terbuat dari serat kaca, bukan dari baja.
+  car.cadillac_eldorado:
+    label: Cadillac Eldorado
+    summary: Mobil Amerika yang sangat besar dengan sirip ekor terbesar sepanjang masa.
+    info: |
+      Cadillac Eldorado tahun 1959 berasal dari Amerika Serikat.
+      Sirip ekornya yang tinggi, berbentuk seperti roket, termasuk yang paling tinggi yang pernah dipasang pada mobil.
+      Panjangnya lebih dari 5,5 meter.
+  car.chevrolet_bel_air:
+    label: Chevrolet Bel Air
+    summary: Mobil Amerika tahun 1950-an yang mengilap, dengan krom dan sirip ekor kecil.
+    info: |
+      Chevrolet Bel Air tahun 1957 berasal dari Amerika Serikat.
+      Dengan cat dua warna dan banyak krom, mobil ini menjadi lambang Amerika tahun 1950-an.
+      Di Kuba, banyak mobil tua seperti ini masih berjalan di jalanan sampai sekarang.
+  car.ford_gt40:
+    label: Ford GT40
+    summary: Mobil balap Amerika yang sangat rendah dan berhasil mengalahkan Ferrari.
+    info: |
+      Ford GT40 dibuat pada tahun 1960-an untuk memenangkan balapan 24 Jam Le Mans.
+      Mobil ini menang di Le Mans empat tahun berturut-turut, dari tahun 1966 sampai 1969.
+      Namanya GT40 karena tingginya hanya sekitar 40 inci (1 meter).
+  car.porsche_911_classic:
+    label: Porsche 911 Carrera RS
+    summary: Mobil sport klasik Jerman dengan spoiler kecil "ekor bebek".
+    info: |
+      Porsche 911 berasal dari Jerman; yang pertama dibuat pada tahun 1964.
+      Carrera RS tahun 1973 adalah versi yang ringan dan cepat, dibuat untuk balapan.
+      Spoiler kecil di belakangnya mirip ekor bebek.
+  car.porsche_911_modern:
+    label: Porsche 911
+    summary: Versi modern dari mobil sport yang bentuknya tetap sama selama 60 tahun.
+    info: |
+      Porsche 911 berasal dari Jerman, dan versi ini keluar pada tahun 2019.
+      Lampu depannya masih bulat dan mesinnya masih di belakang, sama seperti 911 yang pertama.
+      Ini salah satu keluarga mobil sport yang paling lama dibuat di dunia.
+  car.lamborghini_countach:
+    label: Lamborghini Countach
+    summary: Mobil super Italia yang pipih dan tajam, dengan pintu yang terbuka ke atas.
+    info: |
+      Lamborghini Countach berasal dari Italia dan dibuat dari tahun 1974 sampai 1990.
+      Pintunya terangkat ke atas dan ke depan, seperti gunting.
+      Banyak anak memasang posternya di dinding kamar mereka.
+  car.ferrari_testarossa:
+    label: Ferrari Testarossa
+    summary: Mobil sport Italia merah yang lebar, dengan garis-garis di sampingnya.
+    info: |
+      Ferrari Testarossa berasal dari Italia dan pertama kali dibuat pada tahun 1984.
+      "Testarossa" dalam bahasa Italia artinya "kepala merah", karena bagian atas mesinnya dicat merah.
+      Garis-garis panjang di sampingnya memasukkan udara untuk mendinginkan mesin.
+  car.ferrari_f40:
+    label: Ferrari F40
+    summary: Mobil super Italia berwarna merah dengan sayap besar di belakang.
+    info: |
+      Ferrari F40 berasal dari Italia dan dibuat dari tahun 1987 sampai 1992.
+      Mobil ini dibuat untuk ulang tahun Ferrari yang ke-40, dan dari situlah namanya berasal.
+      Ini salah satu mobil jalan raya pertama yang bisa melaju lebih dari 320 km/jam.
+  car.delorean:
+    label: DeLorean
+    summary: Mobil baja yang mengilap dan menjadi mesin waktu dalam sebuah film.
+    info: |
+      DeLorean DMC-12 dibuat di Irlandia Utara pada tahun 1981 dan 1982.
+      Bodinya dari baja tahan karat tanpa cat sama sekali, dan pintunya terbuka ke atas.
+      Mobil ini terkenal sebagai mesin waktu dalam film "Back to the Future".
+  car.london_taxi:
+    label: Taksi London
+    summary: Taksi hitam terkenal yang mengantar orang berkeliling London.
+    info: |
+      Austin FX4 berasal dari Britania Raya dan dibuat dari tahun 1958 sampai 1997.
+      Mobil ini bisa berputar dalam lingkaran yang sangat kecil, dan itu membantu di jalan-jalan sempit London.
+      Atapnya yang tinggi dibuat supaya penumpang bisa duduk di dalam sambil memakai topi.
+  car.toyota_land_cruiser:
+    label: Toyota Land Cruiser
+    summary: Mobil Jepang yang tangguh dan bisa melewati gurun dan hutan rimba.
+    info: |
+      Toyota Land Cruiser FJ40 berasal dari Jepang dan dibuat dari tahun 1960 sampai 1984.
+      Mobil ini dijual di seluruh dunia dan terkenal sangat susah rusak.
+      Banyak yang masih melaju di jalan yang rusak sampai sekarang.
+  car.mazda_mx5:
+    label: Mazda MX-5
+    summary: Mobil Jepang kecil dan ceria untuk dua orang, dengan lampu depan yang bisa muncul.
+    info: |
+      Mazda MX-5 berasal dari Jepang dan pertama kali dijual pada tahun 1989.
+      Versi pertamanya punya lampu depan yang terangkat keluar dari kap mesin.
+      Ini mobil sport dua kursi yang paling laris di dunia.
+  car.trabant:
+    label: Trabant
+    summary: Mobil kecil dari Jerman Timur yang bodinya sebagian terbuat dari plastik.
+    info: |
+      Trabant berasal dari Jerman Timur dan dibuat dari tahun 1957 sampai 1991.
+      Bodinya terbuat dari plastik keras yang dicampur serat kapas, bukan dari baja.
+      Orang sering harus menunggu bertahun-tahun untuk bisa membelinya.
+  car.bugatti_veyron:
+    label: Bugatti Veyron
+    summary: Mobil yang luar biasa cepat dan bisa melaju lebih dari 400 km/jam.
+    info: |
+      Bugatti Veyron berasal dari Prancis dan dibuat dari tahun 2005 sampai 2015.
+      Mesinnya punya 16 silinder dan lebih dari 1.000 tenaga kuda.
+      Saat pertama keluar, ini mobil jalan raya tercepat di dunia.
+  car.tesla_model_s:
+    label: Tesla Model S
+    summary: Mobil Amerika yang cepat dan berjalan dengan listrik, bukan bensin.
+    info: |
+      Tesla Model S berasal dari Amerika Serikat dan mulai dijual pada tahun 2012.
+      Mobil ini berjalan dengan baterai besar di bawah lantainya, jadi tidak punya knalpot.
+      Karena tidak ada mesin di depan, di sana ada bagasi kedua.

@@ -1,0 +1,214 @@
+lang: sv
+pivot: false
+title: Kända bilar
+cards:
+  car.ford_model_t:
+    label: Ford Model T
+    summary: Bilen som gjorde att vanliga familjer kunde åka bil.
+    info: |
+      Ford Model T tillverkades i USA från 1908 till 1927.
+      Den byggdes på ett löpande band, så den var billig, och det tillverkades mer än 15 miljoner.
+      I många år kunde man bara köpa den i svart.
+  car.vw_beetle:
+    label: Volkswagen Bubbla
+    summary: En liten rund bil som fick namn efter en insekt.
+    info: |
+      Bubblan kommer från Tyskland och tillverkades från 1938 till 2003.
+      Det byggdes mer än 21 miljoner, fler än av någon annan bil med samma utformning.
+      Motorn sitter baktill, under bakluckan.
+  car.vw_bus:
+    label: Folkabuss
+    summary: En trevlig minibuss för familjer, surfare och campingresor.
+    info: |
+      Volkswagen Typ 2 kommer från Tyskland och tillverkades första gången 1950.
+      De första hade en vindruta delad i två halvor och ett stort V på fronten.
+      Många byggde om den till ett litet hus på hjul att resa i.
+  car.jeep_willys:
+    label: Willys Jeep
+    summary: En liten, tålig militärbil som kunde köra nästan överallt.
+    info: |
+      Willys MB tillverkades i USA för andra världskriget, från 1941 till 1945.
+      Hundratusentals byggdes för att köra soldater över ojämn terräng.
+      Den gav sitt namn åt alla Jeep-bilar som kom efter den.
+  car.land_rover_defender:
+    label: Land Rover Defender
+    summary: En kantig brittisk bil byggd för att köra över åkrar och i lera.
+    info: |
+      Land Rover kommer från Storbritannien; den första tillverkades 1948.
+      Från 1990 hette den Defender, och den tillverkades fram till 2016.
+      Bönder, upptäcktsresande och räddningsteam använde den över hela världen.
+  car.mini_cooper:
+    label: Mini Cooper
+    summary: En pytteliten brittisk bil som var förvånansvärt snabb.
+    info: |
+      Mini kommer från Storbritannien och tillverkades från 1959 till 2000.
+      Motorn sitter på tvären, så fyra personer får plats i en väldigt kort bil.
+      En Mini Cooper S vann det berömda Monte Carlo-rallyt 1964.
+  car.fiat_500:
+    label: Fiat 500
+    summary: En pytteliten italiensk bil gjord för trånga stadsgator.
+    info: |
+      Fiat 500 kommer från Italien och tillverkades från 1957 till 1975.
+      Den är kortare än 3 meter, så den kan parkera nästan var som helst.
+      Italienarna kallar den ”Cinquecento”, som betyder ”femhundra”.
+  car.citroen_2cv:
+    label: Citroën 2CV
+    summary: En enkel fransk bil med ett tak som man kan rulla upp.
+    info: |
+      Citroën 2CV kommer från Frankrike och tillverkades från 1948 till 1990.
+      Den gjordes för att köra bönder och deras varor på gropiga landsvägar.
+      Det mjuka tygtaket rullas upp som locket på en sardinburk.
+  car.citroen_ds:
+    label: Citroën DS
+    summary: En mjuk och elegant fransk bil som såg ut att komma från framtiden.
+    info: |
+      Citroën DS kommer från Frankrike och tillverkades från 1955 till 1975.
+      Dess speciella fjädring gör att bilen höjer sig och sänker sig när man startar den.
+      På franska låter ”DS” som ordet för ”gudinna”.
+  car.mercedes_300sl:
+    label: Mercedes-Benz 300 SL
+    summary: En silverfärgad sportbil med dörrar som öppnas uppåt som vingar.
+    info: |
+      Mercedes-Benz 300 SL kommer från Tyskland; kupén tillverkades från 1954 till 1957.
+      Dörrarna öppnas uppåt, därför kallas den ”Måsvinge”.
+      Den var en av de snabbaste bilarna man kunde köpa på sin tid.
+  car.jaguar_e_type:
+    label: Jaguar E-Type
+    summary: En lång och slank brittisk sportbil.
+    info: |
+      Jaguar E-Type kommer från Storbritannien och tillverkades från 1961 till 1975.
+      Den har en väldigt lång motorhuv med en stor motor under.
+      Många säger att den är en av de vackraste bilar som någonsin har byggts.
+  car.aston_martin_db5:
+    label: Aston Martin DB5
+    summary: Spionen James Bonds eleganta brittiska bil.
+    info: |
+      Aston Martin DB5 kommer från Storbritannien och tillverkades från 1963 till 1965.
+      Den blev världsberömd 1964 i James Bond-filmen ”Goldfinger”.
+      Bara ungefär tusen stycken tillverkades.
+  car.shelby_cobra:
+    label: Shelby Cobra
+    summary: En liten öppen bil med en jättestor, högljudd motor.
+    info: |
+      Shelby Cobra byggdes på 1960-talet av den amerikanske racerföraren Carroll Shelby.
+      Han tog en lätt brittisk sportbil och satte in en stor amerikansk Ford-motor i den.
+      Den vann många lopp och kopieras än i dag.
+  car.ford_mustang:
+    label: Ford Mustang
+    summary: En sportig amerikansk bil uppkallad efter en vild häst.
+    info: |
+      Ford Mustang kommer från USA och började säljas 1964.
+      Den var så populär att en hel grupp liknande bilar fick namnet ”pony cars” efter den.
+      Mustangen tillverkas fortfarande i dag.
+  car.corvette_c2:
+    label: Corvette Sting Ray
+    summary: En amerikansk sportbil med en bakruta delad i två.
+    info: |
+      Chevrolet Corvette Sting Ray kommer från USA.
+      Bara kupén från 1963 hade en bakruta delad i två halvor.
+      Karossen är gjord av glasfiber i stället för stål.
+  car.cadillac_eldorado:
+    label: Cadillac Eldorado
+    summary: En jättestor amerikansk bil med de största stjärtfenorna någonsin.
+    info: |
+      Cadillac Eldorado från 1959 kommer från USA.
+      Dess höga stjärtfenor, formade som på en raket, är bland de högsta som någonsin satts på en bil.
+      Den är mer än fem och en halv meter lång.
+  car.chevrolet_bel_air:
+    label: Chevrolet Bel Air
+    summary: En blank amerikansk 1950-talsbil med krom och små stjärtfenor.
+    info: |
+      Chevrolet Bel Air från 1957 kommer från USA.
+      Med sin tvåfärgade lack och mycket krom blev den en symbol för 1950-talets Amerika.
+      På Kuba kör många av de här gamla bilarna fortfarande på gatorna i dag.
+  car.ford_gt40:
+    label: Ford GT40
+    summary: En väldigt låg amerikansk racerbil som slog Ferrari.
+    info: |
+      Ford GT40 byggdes på 1960-talet för att vinna 24-timmarsloppet i Le Mans.
+      Den vann Le Mans fyra år i rad, från 1966 till 1969.
+      Den heter GT40 för att den bara är ungefär 40 tum (1 meter) hög.
+  car.porsche_911_classic:
+    label: Porsche 911 Carrera RS
+    summary: En klassisk tysk sportbil med en liten ”andstjärt”-spoiler.
+    info: |
+      Porsche 911 kommer från Tyskland; den första tillverkades 1964.
+      Carrera RS från 1973 var en lätt och snabb version byggd för racing.
+      Den lilla bakspoilern ser ut som stjärten på en anka.
+  car.porsche_911_modern:
+    label: Porsche 911
+    summary: Den moderna versionen av en sportbil som har behållit sin form i 60 år.
+    info: |
+      Porsche 911 kommer från Tyskland, och den här versionen kom ut 2019.
+      Den har fortfarande runda strålkastare och motorn baktill, precis som den första 911:an.
+      Den är en av de sportbilsfamiljer i världen som har tillverkats längst.
+  car.lamborghini_countach:
+    label: Lamborghini Countach
+    summary: En platt och spetsig italiensk superbil med dörrar som öppnas uppåt.
+    info: |
+      Lamborghini Countach kommer från Italien och tillverkades från 1974 till 1990.
+      Dörrarna svänger upp och framåt, som en sax.
+      Många barn hade en affisch med den på väggen i sitt rum.
+  car.ferrari_testarossa:
+    label: Ferrari Testarossa
+    summary: En bred, röd italiensk sportbil med ränder på sidorna.
+    info: |
+      Ferrari Testarossa kommer från Italien och tillverkades första gången 1984.
+      ”Testarossa” betyder ”rött huvud” på italienska, eftersom ovansidan av motorn är rödmålad.
+      De långa ränderna på sidorna släpper in luft som kyler motorn.
+  car.ferrari_f40:
+    label: Ferrari F40
+    summary: En röd italiensk superbil med en stor vinge baktill.
+    info: |
+      Ferrari F40 kommer från Italien och tillverkades från 1987 till 1992.
+      Den gjordes till Ferraris 40-årsdag, och det är därifrån namnet kommer.
+      Den var en av de första vanliga bilarna som kunde köra fortare än 320 km/h.
+  car.delorean:
+    label: DeLorean
+    summary: En blank stålbil som blev en tidsmaskin i en film.
+    info: |
+      DeLorean DMC-12 tillverkades i Nordirland 1981 och 1982.
+      Karossen är av blankt rostfritt stål utan någon färg, och dörrarna öppnas uppåt.
+      Den blev berömd som tidsmaskinen i filmen ”Tillbaka till framtiden”.
+  car.london_taxi:
+    label: Londontaxi
+    summary: Den berömda svarta taxin som kör folk runt i London.
+    info: |
+      Austin FX4 kommer från Storbritannien och tillverkades från 1958 till 1997.
+      Den kan vända på en väldigt liten yta, och det hjälper på Londons smala gator.
+      Det höga taket gjordes för att passagerarna skulle kunna sitta inne med hatt på.
+  car.toyota_land_cruiser:
+    label: Toyota Land Cruiser
+    summary: En tålig japansk bil som kan köra genom öknar och djungler.
+    info: |
+      Toyota Land Cruiser FJ40 kommer från Japan och tillverkades från 1960 till 1984.
+      Den såldes över hela världen och är känd för att vara nästan omöjlig att få sönder.
+      Många kör fortfarande på dåliga vägar i dag.
+  car.mazda_mx5:
+    label: Mazda MX-5
+    summary: En liten, glad japansk tvåsitsig bil med strålkastare som fälls upp.
+    info: |
+      Mazda MX-5 kommer från Japan och började säljas 1989.
+      Den första versionen hade strålkastare som fälldes upp ur motorhuven.
+      Den är världens mest sålda tvåsitsiga sportbil.
+  car.trabant:
+    label: Trabant
+    summary: En liten östtysk bil med en kaross som delvis är gjord av plast.
+    info: |
+      Trabant kommer från Östtyskland och tillverkades från 1957 till 1991.
+      Karossen var gjord av en hård plast blandad med bomullsfibrer i stället för stål.
+      Folk fick ofta vänta i många år för att kunna köpa en.
+  car.bugatti_veyron:
+    label: Bugatti Veyron
+    summary: En otroligt snabb bil som kan köra över 400 km/h.
+    info: |
+      Bugatti Veyron kommer från Frankrike och tillverkades från 2005 till 2015.
+      Motorn har 16 cylindrar och mer än 1 000 hästkrafter.
+      När den kom ut var den världens snabbaste vanliga bil.
+  car.tesla_model_s:
+    label: Tesla Model S
+    summary: En snabb amerikansk bil som går på el i stället för bensin.
+    info: |
+      Tesla Model S kommer från USA och började säljas 2012.
+      Den drivs av stora batterier under golvet, så den har inget avgasrör.
+      Eftersom det inte finns någon motor fram, finns det ett andra bagageutrymme där.

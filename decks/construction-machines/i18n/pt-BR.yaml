@@ -1,0 +1,214 @@
+lang: pt-BR
+pivot: false
+title: Máquinas de construção
+cards:
+  machine.excavator:
+    label: escavadeira
+    summary: Uma máquina que cava, com um braço comprido e uma caçamba cheia de dentes.
+    info: |
+      A escavadeira anda sobre esteiras, por isso não afunda na lama mole.
+      Toda a parte de cima, com a cabine e o braço, consegue dar uma volta completa.
+      O braço se move com hidráulica, ou seja, óleo empurrado por canos com muita pressão.
+  machine.mini_excavator:
+    label: miniescavadeira
+    summary: Uma escavadeira pequena que passa pelo portão de um jardim.
+    info: |
+      A miniescavadeira cava onde uma grande não caberia, como em jardins, quintais e ruas estreitas.
+      Ela geralmente anda sobre esteiras de borracha, por isso não estraga o chão calçado.
+      A pequena lâmina da frente empurra a terra de volta para o buraco.
+  machine.backhoe_loader:
+    label: retroescavadeira
+    summary: Um trator com uma pá na frente e um braço que cava atrás.
+    info: |
+      A retroescavadeira é duas máquinas em uma, com uma pá carregadeira na frente e uma escavadeira atrás.
+      O operador gira o banco para trabalhar com o braço de trás.
+      Ela anda sobre rodas, por isso pode ir pela estrada de uma obra para outra.
+  machine.wheel_loader:
+    label: pá carregadeira
+    summary: Uma máquina com pneus enormes que pega e carrega areia e cascalho.
+    info: |
+      A pá carregadeira enche a grande caçamba da frente e despeja tudo nos caminhões.
+      O corpo dela dobra no meio, o que ajuda a fazer curvas em lugares apertados.
+      As maiores pás carregadeiras têm pneus mais altos que um adulto.
+  machine.bulldozer:
+    label: trator de esteira
+    summary: Uma máquina forte sobre esteiras que empurra a terra com uma lâmina larga.
+    info: |
+      O trator de esteira empurra terra, pedras e areia com a lâmina de aço da frente.
+      A garra de trás se chama escarificador e quebra o chão duro.
+      As esteiras largas espalham o peso dele, por isso ele consegue andar sobre terra solta.
+  machine.skid_steer:
+    label: minicarregadeira
+    summary: Uma carregadeira pequena, em forma de caixa, que gira no mesmo lugar.
+    info: |
+      A minicarregadeira faz curva girando as rodas de um lado mais rápido que as do outro.
+      Assim ela consegue girar no mesmo lugar, quase como um tanque de guerra.
+      No lugar da caçamba, ela pode levar muitas outras ferramentas, como garfos, vassouras ou uma broca.
+  machine.dump_truck:
+    label: caminhão caçamba
+    summary: Um caminhão que despeja a carga pela parte de trás.
+    info: |
+      O caminhão caçamba carrega areia, cascalho ou terra numa caixa de aço chamada caçamba basculante.
+      Pistões hidráulicos levantam a frente da caçamba, e a carga escorrega para fora por trás.
+      Depois a caçamba desce de novo e o caminhão vai buscar mais.
+  machine.articulated_hauler:
+    label: caminhão articulado
+    summary: Um caminhão caçamba para terreno ruim que dobra no meio.
+    info: |
+      O caminhão articulado tem duas partes unidas por uma articulação, por isso dobra no meio.
+      Isso ajuda ele a passar pela lama e pelos buracos, onde um caminhão comum ficaria atolado.
+      Ele é feito para obras e pedreiras, não para estradas.
+  machine.mining_truck:
+    label: caminhão fora de estrada
+    summary: Um caminhão caçamba gigante que trabalha em enormes minas a céu aberto.
+    info: |
+      Os caminhões fora de estrada das minas estão entre os maiores caminhões do mundo.
+      Os pneus deles são mais altos que um adulto, e o motorista sobe uma escada para chegar à cabine.
+      Os maiores conseguem levar mais de 400 toneladas de pedra de uma vez.
+  machine.concrete_mixer:
+    label: caminhão betoneira
+    summary: Um caminhão com um tambor grande que não para de girar.
+    info: |
+      O caminhão betoneira leva concreto fresco até a obra.
+      O tambor continua girando no caminho, para o concreto não endurecer lá dentro.
+      Quando o tambor gira para o outro lado, o concreto sai pela calha.
+  machine.concrete_pump:
+    label: bomba de concreto
+    summary: Um caminhão com um braço comprido e dobrável que despeja concreto lá no alto.
+    info: |
+      A bomba de concreto empurra o concreto molhado por um cano ao longo do braço comprido.
+      O braço se desdobra como um dedo gigante e alcança os andares de cima de um prédio.
+      Pés de aço nas laterais impedem que o caminhão tombe.
+  machine.tower_crane:
+    label: grua
+    summary: Um guindaste altíssimo que fica em pé sobre a obra.
+    info: |
+      A grua levanta cargas pesadas, como vigas de aço e concreto, até o alto de um prédio.
+      O operador sobe por dentro da torre até uma cabine pequena lá em cima.
+      Blocos pesados de concreto no braço curto equilibram a carga no braço comprido.
+  machine.mobile_crane:
+    label: guindaste
+    summary: Um guindaste sobre um caminhão, com um braço que estica cada vez mais.
+    info: |
+      O guindaste vai até a obra com as próprias rodas.
+      O braço dele é telescópico, ou seja, desliza para fora como uma luneta e fica muito mais comprido.
+      Antes de levantar algo, ele abre pés fortes dos dois lados para não tombar.
+  machine.crawler_crane:
+    label: guindaste de esteira
+    summary: Um guindaste muito forte sobre esteiras, com um braço alto de treliça.
+    info: |
+      O guindaste de esteira fica sobre esteiras, que espalham o peso enorme dele pelo chão.
+      O braço comprido é feito de treliça de aço, leve mas muito resistente.
+      Os grandes guindastes de esteira levantam partes de pontes e de turbinas eólicas.
+  machine.road_roller:
+    label: rolo compressor
+    summary: Uma máquina pesada com cilindros lisos de aço que achata o asfalto.
+    info: |
+      O rolo compressor passa devagar sobre o asfalto novo e aperta ele até ficar plano e duro.
+      Os cilindros de aço conseguem vibrar muito rápido, e assim a estrada fica ainda mais compacta.
+      Os cilindros recebem um jato de água para o asfalto quente não grudar neles.
+  machine.asphalt_paver:
+    label: vibroacabadora
+    summary: Uma máquina que coloca uma camada nova de estrada.
+    info: |
+      Os caminhões despejam asfalto quente na frente da vibroacabadora.
+      A vibroacabadora espalha o asfalto atrás dela numa camada bem igual, enquanto anda devagar para a frente.
+      Normalmente um rolo compressor vem logo atrás dela.
+  machine.motor_grader:
+    label: motoniveladora
+    summary: Uma máquina comprida com uma lâmina embaixo da barriga que nivela as estradas.
+    info: |
+      A motoniveladora tem uma lâmina comprida embaixo, entre as rodas da frente e as de trás.
+      A lâmina pode inclinar e girar, por isso ela deixa o chão perfeitamente plano ou um pouco inclinado.
+      As motoniveladoras nivelam estradas de cascalho e preparam o chão antes de construírem uma estrada nova.
+  machine.forklift:
+    label: empilhadeira
+    summary: Um veículo pequeno que levanta cargas em dois garfos.
+    info: |
+      A empilhadeira enfia os dois garfos embaixo de um palete e levanta ele.
+      Ela trabalha em depósitos, fábricas e lojas.
+      Um peso grande atrás impede que ela tombe para a frente com a carga.
+  machine.telehandler:
+    label: manipulador telescópico
+    summary: Uma carregadeira com um braço comprido que estica para levantar coisas bem alto.
+    info: |
+      O manipulador telescópico é como uma empilhadeira com um braço telescópico comprido.
+      Ele consegue colocar um palete de tijolos em cima de um telhado ou bem lá dentro de um prédio.
+      Ele é usado em obras e em fazendas, onde levanta fardos de feno.
+  machine.boom_lift:
+    label: plataforma articulada
+    summary: Uma máquina que leva os trabalhadores lá no alto dentro de um cesto.
+    info: |
+      A plataforma articulada levanta bem alto uma pequena plataforma com grade de proteção.
+      Os trabalhadores ficam nela para pintar paredes, consertar luzes ou cortar galhos.
+      O braço articulado dela alcança o alto e também passa por cima de obstáculos.
+  machine.scissor_lift:
+    label: plataforma tesoura
+    summary: Uma plataforma que sobe reto sobre suportes cruzados.
+    info: |
+      A plataforma tesoura tem suportes de metal cruzados que abrem como uma tesoura.
+      Quando eles abrem, a plataforma em cima sobe reto.
+      Os trabalhadores usam ela em galpões e depósitos para alcançar o teto.
+  machine.demolition_breaker:
+    label: rompedor hidráulico
+    summary: Uma escavadeira com um martelo no lugar da caçamba, que quebra concreto.
+    info: |
+      O rompedor hidráulico é um martelo enorme preso no braço de uma escavadeira.
+      Ele bate no concreto e na rocha muitas vezes por segundo, até eles racharem.
+      Ele ajuda a derrubar prédios velhos e a quebrar rocha nas pedreiras.
+  machine.pile_driver:
+    label: bate-estaca
+    summary: Uma máquina que crava estacas compridas bem fundo no chão.
+    info: |
+      O bate-estaca empurra ou martela no chão postes compridos de aço ou de concreto, chamados estacas.
+      As estacas seguram prédios e pontes onde o chão é mole.
+      Ele tem um mastro alto que deixa a estaca perfeitamente reta.
+  machine.drilling_rig:
+    label: perfuratriz
+    summary: Uma máquina sobre esteiras que faz buracos fundos no chão.
+    info: |
+      A perfuratriz gira uma broca comprida em espiral que abre um buraco fundo.
+      A terra sobe pela espiral e se amontoa em volta do buraco.
+      Os buracos são enchidos de concreto para fazer fundações fortes.
+  machine.tunnel_boring_machine:
+    label: tatuzão
+    summary: Uma máquina redonda gigante que cava túneis debaixo da terra.
+    info: |
+      A frente do tatuzão é uma roda redonda enorme com discos cortantes, que gira devagar e vai moendo a rocha.
+      Atrás dela, a máquina reveste as paredes do túnel com peças de concreto.
+      Os tatuzões muitas vezes ganham nomes de menina.
+  machine.cold_planer:
+    label: fresadora de asfalto
+    summary: Uma máquina que raspa o asfalto velho e gasto.
+    info: |
+      A fresadora de asfalto tem embaixo um tambor que gira, com dentes afiados.
+      Ela raspa a camada de cima de uma estrada velha, e uma esteira transportadora joga os pedaços num caminhão.
+      O asfalto velho pode ser usado de novo numa estrada nova.
+  machine.plate_compactor:
+    label: placa vibratória
+    summary: Uma placa pequena que vibra e que um trabalhador empurra para compactar o chão.
+    info: |
+      A placa vibratória tem uma placa de aço pesada que treme muito rápido.
+      Um trabalhador anda atrás dela e guia pela alça.
+      Ela compacta areia e cascalho embaixo de caminhos, pátios e calçadas.
+  machine.sheepsfoot_roller:
+    label: rolo pé de carneiro
+    summary: Um rolo com um cilindro cheio de calombos que compacta a terra.
+    info: |
+      O cilindro deste rolo é coberto de blocos, chamados patas.
+      As patas entram fundo na terra e compactam melhor do que um cilindro liso.
+      Ele é usado em terra e argila, por exemplo embaixo de estradas novas ou em barragens.
+  machine.bucket_wheel_excavator:
+    label: escavadeira de roda de caçambas
+    summary: Uma máquina gigantesca com uma roda cheia de caçambas que gira.
+    info: |
+      A escavadeira de roda de caçambas cava carvão e terra em enormes minas a céu aberto.
+      Uma roda grande com caçambas gira na ponta do braço dela e enche uma esteira transportadora comprida.
+      As maiores têm mais de 200 metros de comprimento e estão entre as maiores máquinas que andam em terra.
+  machine.loader_crane_truck:
+    label: caminhão munck
+    summary: Um caminhão com um braço dobrável que coloca e tira cargas.
+    info: |
+      O caminhão munck leva o próprio braço hidráulico dobrável atrás da cabine.
+      Ele consegue descarregar tijolos, canos ou paletes sem nenhuma outra máquina.
+      Antes de levantar, ele abre pés nas laterais para ficar bem firme.

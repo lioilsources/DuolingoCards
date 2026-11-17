@@ -1,0 +1,214 @@
+lang: sl
+pivot: false
+title: Bagri in gradbeni stroji
+cards:
+  machine.excavator:
+    label: bager
+    summary: Stroj za kopanje z dolgo roko in žlico, polno zob.
+    info: |
+      Bager vozi na gosenicah, zato se ne pogrezne v mehko blato.
+      Ves zgornji del s kabino in roko se lahko obrne čisto naokrog.
+      Roko premika hidravlika, to je olje, ki ga pod visokim tlakom potiskajo po ceveh.
+  machine.mini_excavator:
+    label: mini bager
+    summary: Majhen bager, ki gre skozi vrtna vrata.
+    info: |
+      Mini bager koplje tam, kamor velik ne bi prišel, na primer na vrtovih, dvoriščih in v ozkih ulicah.
+      Navadno vozi na gumijastih gosenicah, zato ne poškoduje tlakovanih tal.
+      Majhna deska spredaj potiska zemljo nazaj v jamo.
+  machine.backhoe_loader:
+    label: rovokopač
+    summary: Traktor z žlico spredaj in roko za kopanje zadaj.
+    info: |
+      Rovokopač je dva stroja v enem, spredaj nakladalnik in zadaj bager.
+      Voznik obrne sedež, ko dela z zadnjo roko.
+      Vozi na kolesih, zato se lahko po cesti pelje od enega dela do drugega.
+  machine.wheel_loader:
+    label: kolesni nakladalnik
+    summary: Stroj z ogromnimi gumami, ki zajema in vozi pesek in gramoz.
+    info: |
+      Kolesni nakladalnik napolni svojo veliko sprednjo žlico in jo strese v tovornjake.
+      Na sredini se upogne, zato lahko zavije tudi v tesnem prostoru.
+      Največji kolesni nakladalniki imajo gume, ki so višje od odraslega človeka.
+  machine.bulldozer:
+    label: buldožer
+    summary: Močan stroj na gosenicah, ki s široko desko potiska zemljo.
+    info: |
+      Buldožer z jekleno desko spredaj potiska zemljo, kamenje in pesek.
+      Krempelj zadaj se imenuje riper in razbija trda tla.
+      Široke gosenice porazdelijo njegovo težo, zato lahko vozi po rahli zemlji.
+  machine.skid_steer:
+    label: mini nakladalnik
+    summary: Majhen nakladalnik v obliki škatle, ki se lahko obrne na mestu.
+    info: |
+      Mini nakladalnik zavija tako, da se kolesa na eni strani vrtijo hitreje kot na drugi.
+      Tako se lahko zavrti na mestu, skoraj kot tank.
+      Namesto žlice ima lahko veliko drugih priključkov, na primer vilice, krtače ali sveder.
+  machine.dump_truck:
+    label: prekucnik
+    summary: Tovornjak, ki tovor strese zadaj ven.
+    info: |
+      Prekucnik vozi pesek, gramoz ali zemljo v jekleni posodi, ki se imenuje keson.
+      Hidravlični bati dvignejo sprednji del kesona in tovor zdrsne ven zadaj.
+      Potem se keson spet spusti in tovornjak odpelje po nov tovor.
+  machine.articulated_hauler:
+    label: zgibni demper
+    summary: Prekucnik za razdrapan teren, ki se na sredini upogne.
+    info: |
+      Zgibni demper ima dva dela, spojena z zglobom, zato se na sredini upogne.
+      Tako lahko vozi skozi blato in čez grbine, kjer bi se navaden tovornjak zataknil.
+      Narejen je za gradbišča in kamnolome, ne za ceste.
+  machine.mining_truck:
+    label: rudniški demper
+    summary: Velikanski prekucnik, ki dela v ogromnih površinskih kopih.
+    info: |
+      Rudniški demperji so med največjimi tovornjaki na svetu.
+      Njihove gume so višje od odraslega človeka, voznik pa se do kabine povzpne po lestvi.
+      Največji lahko naenkrat peljejo več kot 400 ton kamenja.
+  machine.concrete_mixer:
+    label: avtomešalnik
+    summary: Tovornjak z velikim bobnom, ki se ves čas vrti.
+    info: |
+      Avtomešalnik pripelje svež beton na gradbišče.
+      Boben se med vožnjo ves čas vrti, da se beton v njem ne strdi.
+      Ko se boben zavrti v drugo smer, beton steče ven po žlebu.
+  machine.concrete_pump:
+    label: črpalka za beton
+    summary: Tovornjak z dolgo zložljivo roko, ki vlije beton visoko gor.
+    info: |
+      Črpalka za beton potiska moker beton po cevi vzdolž svoje dolge roke.
+      Roka se razpre kot velikanski prst in seže do zgornjih nadstropij stavbe.
+      Jeklene noge ob straneh preprečujejo, da bi se tovornjak prevrnil.
+  machine.tower_crane:
+    label: stolpni žerjav
+    summary: Visok žerjav, ki stoji nad gradbiščem.
+    info: |
+      Stolpni žerjav dviguje težke tovore, kot so jeklene grede in beton, na vrh stavbe.
+      Žerjavist spleza po notranjosti stolpa do majhne kabine na vrhu.
+      Težki betonski bloki na kratki roki uravnotežijo tovor na dolgi roki.
+  machine.mobile_crane:
+    label: avtodvigalo
+    summary: Žerjav na tovornjaku z roko, ki se izvleče vedno dlje.
+    info: |
+      Avtodvigalo se na gradbišče pripelje na svojih kolesih.
+      Njegova roka je teleskopska, izvleče se kot daljnogled in postane veliko daljša.
+      Preden dvigne tovor, na obeh straneh iztegne močne noge, da se ne prevrne.
+  machine.crawler_crane:
+    label: gosenični žerjav
+    summary: Zelo močan žerjav na gosenicah z visoko rešetkasto roko.
+    info: |
+      Gosenični žerjav stoji na gosenicah, ki njegovo ogromno težo porazdelijo po tleh.
+      Njegova dolga roka je iz jeklene rešetke, lahka, a zelo močna.
+      Veliki gosenični žerjavi dvigujejo dele mostov in vetrnih elektrarn.
+  machine.road_roller:
+    label: valjar
+    summary: Težak stroj z gladkimi jeklenimi valji, ki splošči asfalt.
+    info: |
+      Valjar počasi vozi po svežem asfaltu in ga stiska, da postane raven in trd.
+      Njegovi jekleni valji se lahko zelo hitro tresejo, zato cesto še bolje zgostijo.
+      Na valje škropijo vodo, da se vroč asfalt ne prime nanje.
+  machine.asphalt_paver:
+    label: finišer
+    summary: Stroj, ki položi novo plast ceste.
+    info: |
+      Tovornjaki stresejo vroč asfalt v sprednji del finišerja.
+      Finišer ga za seboj razgrne v enakomerno plast, medtem ko počasi pelje naprej.
+      Takoj za njim navadno pelje valjar.
+  machine.motor_grader:
+    label: grejder
+    summary: Dolg stroj z desko pod trebuhom, ki ravna ceste.
+    info: |
+      Grejder ima spodaj dolgo desko, med sprednjimi in zadnjimi kolesi.
+      Deska se lahko nagne in obrne, zato lahko tla naredi čisto ravna ali rahlo nagnjena.
+      Grejderji ravnajo makadamske ceste in pripravijo tla, preden zgradijo novo cesto.
+  machine.forklift:
+    label: viličar
+    summary: Majhno vozilo, ki dviguje tovor na dveh vilicah.
+    info: |
+      Viličar potisne svoji dve vilici pod paleto in jo dvigne.
+      Dela v skladiščih, tovarnah in trgovinah.
+      Težka utež zadaj preprečuje, da bi se pod tovorom prevrnil naprej.
+  machine.telehandler:
+    label: teleskopski nakladalnik
+    summary: Nakladalnik z dolgo roko, ki se izvleče, da dvigne stvari visoko.
+    info: |
+      Teleskopski nakladalnik je kot viličar z dolgo teleskopsko roko.
+      Paleto opeke lahko dvigne na streho ali globoko v stavbo.
+      Uporabljajo ga na gradbiščih in kmetijah, kjer dviguje bale sena.
+  machine.boom_lift:
+    label: dvižna košara
+    summary: Stroj, ki dvigne delavce visoko v košari.
+    info: |
+      Dvižna košara dvigne majhno ploščad z ograjo visoko v zrak.
+      Delavci stojijo v njej, ko barvajo stene, popravljajo luči ali režejo veje.
+      Njena roka s sklepi seže navzgor in tudi čez ovire.
+  machine.scissor_lift:
+    label: škarjasta ploščad
+    summary: Ploščad, ki se na prekrižanih oporah dvigne naravnost navzgor.
+    info: |
+      Škarjasta ploščad ima prekrižane kovinske opore, ki se odpirajo kot škarje.
+      Ko se odprejo, se ploščad na vrhu dvigne naravnost navzgor.
+      Delavci jo uporabljajo v halah in skladiščih, da dosežejo strop.
+  machine.demolition_breaker:
+    label: hidravlično kladivo
+    summary: Bager s kladivom namesto žlice, ki razbija beton.
+    info: |
+      Hidravlično kladivo je ogromno kladivo, pritrjeno na roko bagra.
+      V beton in skalo udari večkrat na sekundo, dokler ne počita.
+      Pomaga rušiti stare stavbe in razbijati skalo v kamnolomih.
+  machine.pile_driver:
+    label: zabijač pilotov
+    summary: Stroj, ki zabija dolge stebre globoko v zemljo.
+    info: |
+      Zabijač pilotov potiska ali zabija v zemljo dolge jeklene ali betonske stebre, ki se imenujejo piloti.
+      Piloti držijo stavbe in mostove tam, kjer so tla mehka.
+      Ima visok jambor, ki drži pilot čisto naravnost.
+  machine.drilling_rig:
+    label: vrtalni stroj
+    summary: Stroj na gosenicah, ki vrta globoke luknje v zemljo.
+    info: |
+      Vrtalni stroj vrti dolg spiralni sveder, ki izvrta globoko luknjo.
+      Zemlja pride gor po spirali in se nakopiči okrog luknje.
+      Luknje napolnijo z betonom, da nastanejo trdni temelji.
+  machine.tunnel_boring_machine:
+    label: stroj za vrtanje predorov
+    summary: Velikanski okrogel stroj, ki koplje predore pod zemljo.
+    info: |
+      Spredaj ima stroj za vrtanje predorov ogromno okroglo kolo z rezalnimi koluti, ki se počasi vrti in melje skozi skalo.
+      Za njim stroj obloži stene predora z betonskimi kosi.
+      Stroji za vrtanje predorov pogosto dobijo dekliška imena.
+  machine.cold_planer:
+    label: cestni rezkar
+    summary: Stroj, ki zbrusi star, obrabljen asfalt.
+    info: |
+      Cestni rezkar ima spodaj vrteč se boben z ostrimi zobmi.
+      S stare ceste zbrusi zgornjo plast, tekoči trak pa naloži koščke v tovornjak.
+      Star asfalt lahko spet uporabijo v novi cesti.
+  machine.plate_compactor:
+    label: vibracijska plošča
+    summary: Majhna tresoča se plošča, ki jo delavec potiska, da utrdi tla.
+    info: |
+      Vibracijska plošča ima težko jekleno ploščo, ki se zelo hitro trese.
+      Delavec hodi za njo in jo usmerja z ročajem.
+      Utrdi pesek in gramoz pod potmi, terasami in pločniki.
+  machine.sheepsfoot_roller:
+    label: ježevi valjar
+    summary: Valjar z grbastim bobnom, ki utrjuje zemljo.
+    info: |
+      Boben ježevega valjarja je prekrit z bloki, ki se imenujejo ježi.
+      Ježi se globoko zarijejo v zemljo in jo utrdijo bolje kot gladek boben.
+      Uporabljajo ga na zemlji in glini, na primer pod novimi cestami ali za jezove.
+  machine.bucket_wheel_excavator:
+    label: rotorni bager
+    summary: Velikanski stroj z vrtečim se kolesom, polnim vedrov.
+    info: |
+      Rotorni bager koplje premog in zemljo v ogromnih površinskih kopih.
+      Na koncu njegove roke se vrti veliko kolo z vedri in polni dolg tekoči trak.
+      Največji so dolgi več kot 200 metrov, zato so med največjimi stroji na kopnem.
+  machine.loader_crane_truck:
+    label: tovornjak z dvigalom
+    summary: Tovornjak z zložljivo roko, ki naklada in razklada tovor.
+    info: |
+      Tovornjak z dvigalom ima za kabino svojo zložljivo hidravlično roko.
+      Opeko, cevi ali palete lahko razloži brez kakega drugega stroja.
+      Preden dvigne tovor, ob straneh iztegne noge, da stoji trdno.

@@ -1,0 +1,214 @@
+lang: ro
+pivot: false
+title: Mașini celebre
+cards:
+  car.ford_model_t:
+    label: Ford Model T
+    summary: Mașina datorită căreia și familiile obișnuite au putut avea un automobil.
+    info: |
+      Ford Model T a fost fabricat în SUA între 1908 și 1927.
+      A fost construit pe o bandă de asamblare care se mișca, așa că era ieftin, și s-au făcut peste 15 milioane.
+      Mulți ani a putut fi cumpărat doar în negru.
+  car.vw_beetle:
+    label: Volkswagen Broscuța
+    summary: O mașină mică și rotundă, al cărei nume englezesc înseamnă "gândac".
+    info: |
+      Volkswagen Broscuța vine din Germania și a fost fabricată între 1938 și 2003.
+      S-au construit peste 21 de milioane, mai multe decât din orice altă mașină cu același design.
+      Motorul ei este în spate, sub capota din spate.
+  car.vw_bus:
+    label: Volkswagen Transporter
+    summary: O dubiță prietenoasă pentru familii, surferi și excursii cu cortul.
+    info: |
+      Volkswagen Type 2 vine din Germania și a fost fabricat pentru prima dată în 1950.
+      Primele aveau parbrizul împărțit în două jumătăți și un V mare în față.
+      Mulți oameni l-au transformat într-o căsuță pe roți pentru călătorii.
+  car.jeep_willys:
+    label: Jeep Willys
+    summary: O mașină militară mică și rezistentă, care putea merge aproape oriunde.
+    info: |
+      Willys MB a fost fabricat în SUA pentru Al Doilea Război Mondial, între 1941 și 1945.
+      S-au construit sute de mii, ca să ducă soldații pe teren accidentat.
+      De la el și-au luat numele toate mașinile Jeep care au urmat.
+  car.land_rover_defender:
+    label: Land Rover Defender
+    summary: O mașină britanică pătrățoasă, făcută să meargă pe câmp și prin noroi.
+    info: |
+      Land Rover vine din Regatul Unit; primul a fost fabricat în 1948.
+      Din 1990 s-a numit Defender și a fost fabricat până în 2016.
+      Fermierii, exploratorii și echipele de salvare l-au folosit în toată lumea.
+  car.mini_cooper:
+    label: Mini Cooper
+    summary: O mașină britanică micuță, care era surprinzător de rapidă.
+    info: |
+      Mini vine din Regatul Unit și a fost fabricat între 1959 și 2000.
+      Motorul lui stă așezat de-a curmezișul, așa că patru oameni încap într-o mașină foarte scurtă.
+      Un Mini Cooper S a câștigat faimosul Raliu Monte Carlo în 1964.
+  car.fiat_500:
+    label: Fiat 500
+    summary: O mașină italiană micuță, făcută pentru străzile înguste ale orașelor.
+    info: |
+      Fiat 500 vine din Italia și a fost fabricat între 1957 și 1975.
+      Are mai puțin de 3 metri lungime, așa că poate parca aproape oriunde.
+      Italienii îi spun "Cinquecento", adică "cinci sute".
+  car.citroen_2cv:
+    label: Citroën 2CV
+    summary: O mașină franțuzească simplă, cu un acoperiș care se rulează pe spate.
+    info: |
+      Citroën 2CV vine din Franța și a fost fabricat între 1948 și 1990.
+      A fost gândit să ducă fermierii și marfa lor pe drumurile de țară pline de gropi.
+      Acoperișul lui moale, din pânză, se rulează ca un capac de conservă de sardine.
+  car.citroen_ds:
+    label: Citroën DS
+    summary: O mașină franțuzească lină, care arăta de parcă venea din viitor.
+    info: |
+      Citroën DS vine din Franța și a fost fabricat între 1955 și 1975.
+      Suspensia lui specială face mașina să se ridice și să coboare când o pornești.
+      În franceză, "DS" sună ca un cuvânt care înseamnă "zeiță".
+  car.mercedes_300sl:
+    label: Mercedes-Benz 300 SL
+    summary: O mașină sport argintie, cu uși care se deschid în sus ca niște aripi.
+    info: |
+      Mercedes-Benz 300 SL vine din Germania; varianta coupé a fost fabricată între 1954 și 1957.
+      Ușile i se deschid în sus, așa că oamenii îi spun "Gullwing", adică "aripă de pescăruș".
+      Pe vremea lui, era una dintre cele mai rapide mașini pe care le puteai cumpăra.
+  car.jaguar_e_type:
+    label: Jaguar E-Type
+    summary: O mașină sport britanică, lungă și elegantă.
+    info: |
+      Jaguar E-Type vine din Regatul Unit și a fost fabricat între 1961 și 1975.
+      Are o capotă foarte lungă, cu un motor mare sub ea.
+      Mulți spun că este una dintre cele mai frumoase mașini făcute vreodată.
+  car.aston_martin_db5:
+    label: Aston Martin DB5
+    summary: Mașina britanică elegantă a spionului James Bond.
+    info: |
+      Aston Martin DB5 vine din Regatul Unit și a fost fabricat între 1963 și 1965.
+      A devenit celebru în toată lumea în filmul cu James Bond "Goldfinger", din 1964.
+      S-au făcut doar cam o mie.
+  car.shelby_cobra:
+    label: Shelby Cobra
+    summary: O mașină mică, decapotabilă, cu un motor uriaș și zgomotos.
+    info: |
+      Shelby Cobra a fost făcută în anii 1960 de pilotul american Carroll Shelby.
+      El a luat o mașină sport britanică ușoară și i-a pus un motor Ford american mare.
+      A câștigat multe curse și este copiată și astăzi.
+  car.ford_mustang:
+    label: Ford Mustang
+    summary: O mașină americană sportivă, care poartă numele unui cal sălbatic.
+    info: |
+      Ford Mustang vine din SUA și a fost pus în vânzare prima dată în 1964.
+      A fost atât de iubit, încât un întreg grup de mașini asemănătoare a fost numit după el "pony cars".
+      Mustangul se fabrică și astăzi.
+  car.corvette_c2:
+    label: Corvette Sting Ray
+    summary: O mașină sport americană cu luneta împărțită în două.
+    info: |
+      Chevrolet Corvette Sting Ray vine din SUA.
+      Doar varianta coupé din 1963 avea luneta împărțită în două jumătăți.
+      Caroseria lui este din fibră de sticlă, nu din oțel.
+  car.cadillac_eldorado:
+    label: Cadillac Eldorado
+    summary: O mașină americană uriașă, cu cele mai mari aripioare din spate din toate timpurile.
+    info: |
+      Cadillac Eldorado din 1959 vine din SUA.
+      Aripioarele lui înalte din spate, în formă de rachetă, sunt printre cele mai înalte puse vreodată pe o mașină.
+      Are peste 5 metri și jumătate lungime.
+  car.chevrolet_bel_air:
+    label: Chevrolet Bel Air
+    summary: O mașină americană strălucitoare din anii 1950, cu crom și aripioare mici.
+    info: |
+      Chevrolet Bel Air din 1957 vine din SUA.
+      Cu vopseaua în două culori și mult crom, a devenit un simbol al Americii anilor 1950.
+      În Cuba, multe dintre aceste mașini vechi circulă și astăzi pe străzi.
+  car.ford_gt40:
+    label: Ford GT40
+    summary: O mașină de curse americană foarte joasă, care a învins Ferrari.
+    info: |
+      Ford GT40 a fost construit în anii 1960 ca să câștige cursa de 24 de ore de la Le Mans.
+      A câștigat la Le Mans patru ani la rând, din 1966 până în 1969.
+      Se numește GT40 pentru că are doar cam 40 de țoli (1 metru) înălțime.
+  car.porsche_911_classic:
+    label: Porsche 911 Carrera RS
+    summary: O mașină sport germană clasică, cu un mic eleron în formă de "coadă de rață".
+    info: |
+      Porsche 911 vine din Germania; primul a fost fabricat în 1964.
+      Carrera RS din 1973 era o variantă ușoară și rapidă, construită pentru curse.
+      Micul eleron din spate seamănă cu o coadă de rață.
+  car.porsche_911_modern:
+    label: Porsche 911
+    summary: Varianta modernă a unei mașini sport care își păstrează forma de 60 de ani.
+    info: |
+      Porsche 911 vine din Germania, iar această variantă a apărut în 2019.
+      Are tot faruri rotunde și motorul în spate, exact ca primul 911.
+      Este una dintre familiile de mașini sport fabricate de cel mai mult timp din lume.
+  car.lamborghini_countach:
+    label: Lamborghini Countach
+    summary: O supermașină italiană plată și ascuțită, cu uși care se deschid în sus.
+    info: |
+      Lamborghini Countach vine din Italia și a fost fabricat între 1974 și 1990.
+      Ușile i se ridică în sus și spre față, ca o foarfecă.
+      Mulți copii aveau un poster cu el pe peretele camerei lor.
+  car.ferrari_testarossa:
+    label: Ferrari Testarossa
+    summary: O mașină sport italiană lată și roșie, cu dungi pe laterale.
+    info: |
+      Ferrari Testarossa vine din Italia și a fost fabricat prima dată în 1984.
+      "Testarossa" înseamnă în italiană "cap roșu", pentru că partea de sus a motorului este vopsită în roșu.
+      Dungile lungi de pe laterale lasă aerul să intre și să răcească motorul.
+  car.ferrari_f40:
+    label: Ferrari F40
+    summary: O supermașină italiană roșie, cu o aripă mare în spate.
+    info: |
+      Ferrari F40 vine din Italia și a fost fabricat între 1987 și 1992.
+      A fost făcut pentru a 40-a aniversare a firmei Ferrari, de aici îi vine și numele.
+      A fost una dintre primele mașini de stradă care puteau merge cu peste 320 km/h.
+  car.delorean:
+    label: DeLorean
+    summary: O mașină strălucitoare din oțel, care a devenit mașina timpului într-un film.
+    info: |
+      DeLorean DMC-12 a fost fabricat în Irlanda de Nord în 1981 și 1982.
+      Caroseria lui este din oțel inoxidabil, fără nicio vopsea, iar ușile se deschid în sus.
+      A devenit celebru ca mașina timpului din filmul "Înapoi în viitor".
+  car.london_taxi:
+    label: Taxi londonez
+    summary: Celebrul taxi negru care plimbă oamenii prin Londra.
+    info: |
+      Austin FX4 vine din Regatul Unit și a fost fabricat între 1958 și 1997.
+      Se poate întoarce într-un cerc foarte mic, ceea ce ajută pe străzile înguste ale Londrei.
+      Acoperișul lui înalt a fost făcut ca pasagerii să poată sta înăuntru cu pălăria pe cap.
+  car.toyota_land_cruiser:
+    label: Toyota Land Cruiser
+    summary: O mașină japoneză rezistentă, care poate trece prin deșerturi și jungle.
+    info: |
+      Toyota Land Cruiser FJ40 vine din Japonia și a fost fabricată între 1960 și 1984.
+      S-a vândut în toată lumea și e cunoscută pentru că se strică foarte greu.
+      Multe circulă și astăzi pe drumuri proaste.
+  car.mazda_mx5:
+    label: Mazda MX-5
+    summary: O mașină japoneză mică și veselă, cu două locuri și faruri care se ridică.
+    info: |
+      Mazda MX-5 vine din Japonia și a fost pusă în vânzare prima dată în 1989.
+      Prima variantă avea faruri care se ridicau din capotă.
+      Este cea mai vândută mașină sport cu două locuri din lume.
+  car.trabant:
+    label: Trabant
+    summary: O mașină mică din Germania de Est, cu caroseria făcută parțial din plastic.
+    info: |
+      Trabantul vine din Germania de Est și a fost fabricat între 1957 și 1991.
+      Caroseria lui era făcută dintr-un plastic tare amestecat cu fibre de bumbac, nu din oțel.
+      Oamenii trebuiau adesea să aștepte mulți ani ca să cumpere unul.
+  car.bugatti_veyron:
+    label: Bugatti Veyron
+    summary: O mașină incredibil de rapidă, care poate merge cu peste 400 km/h.
+    info: |
+      Bugatti Veyron vine din Franța și a fost fabricat între 2005 și 2015.
+      Motorul lui are 16 cilindri și peste 1.000 de cai putere.
+      Când a apărut, era cea mai rapidă mașină de stradă din lume.
+  car.tesla_model_s:
+    label: Tesla Model S
+    summary: O mașină americană rapidă, care merge cu electricitate în loc de benzină.
+    info: |
+      Tesla Model S vine din SUA și a fost pusă în vânzare în 2012.
+      Merge cu baterii mari, așezate sub podea, așa că nu are țeavă de eșapament.
+      Pentru că nu are motor în față, acolo are un al doilea portbagaj.
