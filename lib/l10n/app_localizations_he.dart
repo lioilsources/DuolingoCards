@@ -383,7 +383,7 @@ class AppLocalizationsHe extends AppLocalizations {
   String get styleVanGoghDesc => 'משיכות מסתלסלות בסגנון פוסט־אימפרסיוניסטי';
 
   @override
-  String get styleVectorFlat => 'וקטור שטוח';
+  String get styleVectorFlat => 'צורות גאומטריות';
 
   @override
   String get styleVectorFlatDesc => 'צורות שטוחות וחדות עם קווי מתאר נקיים';

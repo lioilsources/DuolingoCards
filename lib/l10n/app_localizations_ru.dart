@@ -389,7 +389,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get styleVanGoghDesc => 'Постимпрессионистские вихревые мазки';
 
   @override
-  String get styleVectorFlat => 'Плоский вектор';
+  String get styleVectorFlat => 'Геометрические фигуры';
 
   @override
   String get styleVectorFlatDesc =>

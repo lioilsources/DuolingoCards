@@ -380,7 +380,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get styleVanGoghDesc => 'Nét cọ xoáy hậu ấn tượng';
 
   @override
-  String get styleVectorFlat => 'Vector phẳng';
+  String get styleVectorFlat => 'Hình học phẳng';
 
   @override
   String get styleVectorFlatDesc =>

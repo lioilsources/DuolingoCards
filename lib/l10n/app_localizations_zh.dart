@@ -373,7 +373,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get styleVanGoghDesc => '后印象派的旋转笔触';
 
   @override
-  String get styleVectorFlat => '扁平矢量';
+  String get styleVectorFlat => '几何图形';
 
   @override
   String get styleVectorFlatDesc => '轮廓干净、清晰的扁平图形';
@@ -907,7 +907,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get styleVanGoghDesc => '後印象派的漩渦筆觸';
 
   @override
-  String get styleVectorFlat => '扁平向量';
+  String get styleVectorFlat => '幾何圖形';
 
   @override
   String get styleVectorFlatDesc => '輪廓乾淨、清晰的扁平圖形';

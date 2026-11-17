@@ -382,7 +382,7 @@ class AppLocalizationsEl extends AppLocalizations {
   String get styleVanGoghDesc => 'Μετα-ιμπρεσιονιστικές στροβιλιστές πινελιές';
 
   @override
-  String get styleVectorFlat => 'Επίπεδο διανυσματικό';
+  String get styleVectorFlat => 'Γεωμετρικά σχήματα';
 
   @override
   String get styleVectorFlatDesc =>

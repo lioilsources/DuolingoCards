@@ -745,7 +745,7 @@ abstract class AppLocalizations {
   /// No description provided for @styleVectorFlat.
   ///
   /// In en, this message translates to:
-  /// **'Flat vector'**
+  /// **'Geometric shapes'**
   String get styleVectorFlat;
 
   /// No description provided for @styleVectorFlatDesc.

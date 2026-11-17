@@ -379,7 +379,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get styleVanGoghDesc => 'Post-impressionist swirling strokes';
 
   @override
-  String get styleVectorFlat => 'Flat vector';
+  String get styleVectorFlat => 'Geometric shapes';
 
   @override
   String get styleVectorFlatDesc => 'Crisp flat shapes with clean outlines';

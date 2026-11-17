@@ -383,7 +383,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get styleVanGoghDesc => 'Postimpresionistické vířivé tahy';
 
   @override
-  String get styleVectorFlat => 'Vektorová grafika';
+  String get styleVectorFlat => 'Geometrické tvary';
 
   @override
   String get styleVectorFlatDesc => 'Čisté ploché tvary s ostrými obrysy';

@@ -374,7 +374,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get styleVanGoghDesc => '소용돌이치는 후기 인상주의 붓 터치';
 
   @override
-  String get styleVectorFlat => '플랫 벡터';
+  String get styleVectorFlat => '기하학 도형';
 
   @override
   String get styleVectorFlatDesc => '깔끔한 윤곽의 선명한 평면 도형';

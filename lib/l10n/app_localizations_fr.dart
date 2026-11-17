@@ -383,7 +383,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Touches tourbillonnantes post-impressionnistes';
 
   @override
-  String get styleVectorFlat => 'Vectoriel plat';
+  String get styleVectorFlat => 'Formes géométriques';
 
   @override
   String get styleVectorFlatDesc => 'Formes plates nettes aux contours propres';

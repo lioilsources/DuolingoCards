@@ -380,7 +380,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get styleVanGoghDesc => 'Post-empresyonist girdaplı fırça darbeleri';
 
   @override
-  String get styleVectorFlat => 'Düz vektör';
+  String get styleVectorFlat => 'Geometrik şekiller';
 
   @override
   String get styleVectorFlatDesc => 'Temiz hatlı, net düz şekiller';

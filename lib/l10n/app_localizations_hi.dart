@@ -380,7 +380,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get styleVanGoghDesc => 'पोस्ट-इम्प्रेशनिस्ट घुमावदार स्ट्रोक';
 
   @override
-  String get styleVectorFlat => 'फ़्लैट वेक्टर';
+  String get styleVectorFlat => 'ज्यामितीय आकृतियाँ';
 
   @override
   String get styleVectorFlatDesc => 'साफ़ रूपरेखा वाली स्पष्ट सपाट आकृतियाँ';

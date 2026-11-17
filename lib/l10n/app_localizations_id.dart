@@ -381,7 +381,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get styleVanGoghDesc => 'Sapuan berpusar pasca-impresionis';
 
   @override
-  String get styleVectorFlat => 'Vektor datar';
+  String get styleVectorFlat => 'Bentuk geometris';
 
   @override
   String get styleVectorFlatDesc =>

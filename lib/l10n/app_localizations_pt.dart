@@ -380,7 +380,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get styleVanGoghDesc => 'Pinceladas em espiral pós-impressionistas';
 
   @override
-  String get styleVectorFlat => 'Vetor plano';
+  String get styleVectorFlat => 'Formas geométricas';
 
   @override
   String get styleVectorFlatDesc =>
