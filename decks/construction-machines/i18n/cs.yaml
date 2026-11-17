@@ -1,0 +1,214 @@
+lang: cs
+pivot: false
+title: Bagry a stavební stroje
+cards:
+  machine.excavator:
+    label: bagr
+    summary: Stroj, který kope dlouhým ramenem a lžící se zuby.
+    info: |
+      Bagr jezdí na pásech, takže se nepropadne do měkkého bláta.
+      Celá horní část s kabinou a ramenem se umí otočit dokola.
+      Rameno pohání hydraulika: olej, který se pod velkým tlakem tlačí trubkami.
+  machine.mini_excavator:
+    label: minibagr
+    summary: Malý bagr, který projede i zahradní brankou.
+    info: |
+      Minibagr kope tam, kam by se velký bagr nevešel: na zahradách, dvorech a v úzkých ulicích.
+      Většinou jezdí na gumových pásech, aby nepoškodil dlažbu.
+      Malou radlicí vpředu shrnuje hlínu zpátky do díry.
+  machine.backhoe_loader:
+    label: traktorbagr
+    summary: Traktor s lžící vpředu a kopacím ramenem vzadu.
+    info: |
+      Traktorbagr jsou dva stroje v jednom: vpředu nakladač, vzadu bagr.
+      Když řidič pracuje se zadním ramenem, otočí se i se sedačkou dozadu.
+      Jezdí na kolech, takže z jedné stavby na druhou dojede po silnici.
+  machine.wheel_loader:
+    label: kolový nakladač
+    summary: Stroj s obrovskými koly, který nabírá a vozí písek a štěrk.
+    info: |
+      Kolový nakladač nabere do velké přední lžíce štěrk a vysype ho do nákladního auta.
+      Uprostřed se ohýbá, a proto se otočí i v těsném prostoru.
+      Největší nakladače mají kola vyšší než dospělý člověk.
+  machine.bulldozer:
+    label: buldozer
+    summary: Silný stroj na pásech, který tlačí zeminu širokou radlicí.
+    info: |
+      Buldozer tlačí hlínu, kameny a písek ocelovou radlicí vpředu.
+      Drápem vzadu, kterému se říká rozrývač, rozbíjí tvrdou zem.
+      Široké pásy rozloží jeho váhu, takže projede i sypkou zeminou.
+  machine.skid_steer:
+    label: smykový nakladač
+    summary: Malý hranatý nakladač, který se otočí na místě.
+    info: |
+      Smykový nakladač zatáčí tak, že kola na jedné straně se točí rychleji než na druhé.
+      Díky tomu se umí otočit na místě, skoro jako tank.
+      Místo lžíce na něj jde připevnit i jiné nářadí, třeba vidle, kartáč nebo vrták.
+  machine.dump_truck:
+    label: sklápěčka
+    summary: Nákladní auto, které vysype náklad dozadu.
+    info: |
+      Sklápěčka vozí písek, štěrk nebo hlínu v ocelové korbě.
+      Hydraulické písty zvednou přední část korby a náklad se vysype dozadu.
+      Pak korba zase klesne a auto jede pro další.
+  machine.articulated_hauler:
+    label: kloubový dampr
+    summary: Terénní sklápěčka, která se ohýbá uprostřed.
+    info: |
+      Kloubový dampr má dvě části spojené kloubem, takže se uprostřed ohýbá.
+      Díky tomu projede blátem a přes hrboly, kde by obyčejné auto uvízlo.
+      Je postavený pro stavby a lomy, ne pro silnice.
+  machine.mining_truck:
+    label: důlní dampr
+    summary: Obří sklápěčka, která pracuje ve velkých povrchových dolech.
+    info: |
+      Důlní dampry patří k největším nákladním autům na světě.
+      Jejich kola jsou vyšší než dospělý člověk a řidič leze do kabiny po žebříku.
+      Ty největší uvezou najednou přes 400 tun horniny.
+  machine.concrete_mixer:
+    label: domíchávač
+    summary: Nákladní auto s velkým bubnem, který se pořád točí.
+    info: |
+      Domíchávač přiváží na stavbu čerstvý beton.
+      Buben se cestou pořád točí, aby beton uvnitř neztuhl.
+      Když se buben roztočí opačně, beton vyteče ven po skluzu.
+  machine.concrete_pump:
+    label: čerpadlo betonu
+    summary: Nákladní auto s dlouhým skládacím ramenem, které lije beton do výšky.
+    info: |
+      Čerpadlo betonu tlačí mokrý beton trubkou, která vede po jeho dlouhém rameni.
+      Rameno se rozloží jako obří prst a dosáhne až do horních pater domu.
+      Ocelové nohy po stranách drží auto, aby se nepřevrátilo.
+  machine.tower_crane:
+    label: věžový jeřáb
+    summary: Vysoký jeřáb, který stojí nad stavbou.
+    info: |
+      Věžový jeřáb zvedá těžké náklady, jako jsou ocelové nosníky a beton, až na vršek stavby.
+      Jeřábník šplhá uvnitř věže nahoru do malé kabiny.
+      Těžké betonové bloky na krátkém rameni vyvažují náklad na dlouhém rameni.
+  machine.mobile_crane:
+    label: autojeřáb
+    summary: Jeřáb na nákladním autě s ramenem, které se vysouvá čím dál delší.
+    info: |
+      Autojeřáb přijede na stavbu po vlastních kolech.
+      Jeho rameno je teleskopické: vysouvá se jako dalekohled a je pak mnohem delší.
+      Než začne zvedat, vysune do stran silné nohy, aby se nepřevrátil.
+  machine.crawler_crane:
+    label: pásový jeřáb
+    summary: Velmi silný jeřáb na pásech s vysokým příhradovým ramenem.
+    info: |
+      Pásový jeřáb stojí na pásech, které rozloží jeho obrovskou váhu do země.
+      Jeho dlouhé rameno je z ocelové příhradové konstrukce, lehké, ale velmi pevné.
+      Velké pásové jeřáby zvedají části mostů a větrných elektráren.
+  machine.road_roller:
+    label: silniční válec
+    summary: Těžký stroj s hladkými ocelovými válci, který uválcuje asfalt.
+    info: |
+      Silniční válec pomalu přejíždí čerstvý asfalt a stlačí ho do roviny a natvrdo.
+      Jeho ocelové válce umí velmi rychle vibrovat, a tak silnici zhutní ještě líp.
+      Na válce stříká voda, aby se na ně horký asfalt nelepil.
+  machine.asphalt_paver:
+    label: finišer
+    summary: Stroj, který pokládá novou vrstvu silnice.
+    info: |
+      Nákladní auta vysypou horký asfalt do přední části finišeru.
+      Finišer jede pomalu dopředu a za sebou ho rozprostře do rovnoměrné vrstvy.
+      Hned za ním obvykle jede silniční válec.
+  machine.motor_grader:
+    label: grejdr
+    summary: Dlouhý stroj s radlicí pod břichem, který srovnává cesty.
+    info: |
+      Grejdr má dlouhou radlici vespod, mezi předními a zadními koly.
+      Radlice se umí naklonit i natočit, takže srovná zem do roviny nebo do mírného sklonu.
+      Grejdry srovnávají štěrkové cesty a připravují zem pro stavbu nové silnice.
+  machine.forklift:
+    label: vysokozdvižný vozík
+    summary: Malý vozík, který zvedá náklad na dvou vidlích.
+    info: |
+      Vysokozdvižný vozík zasune dvě vidle pod paletu a zvedne ji.
+      Pracuje ve skladech, továrnách a obchodech.
+      Těžké závaží vzadu ho drží, aby se s nákladem nepřevrátil dopředu.
+  machine.telehandler:
+    label: teleskopický manipulátor
+    summary: Nakladač s dlouhým ramenem, které se vysouvá do výšky.
+    info: |
+      Teleskopický manipulátor je jako vysokozdvižný vozík s dlouhým vysouvacím ramenem.
+      Zvedne paletu cihel až na střechu nebo daleko dovnitř stavby.
+      Používá se na stavbách i na farmách, kde zvedá balíky sena.
+  machine.boom_lift:
+    label: pracovní plošina
+    summary: Stroj, který vyveze dělníky vysoko v koši.
+    info: |
+      Pracovní plošina zvedne malý koš se zábradlím vysoko do vzduchu.
+      Dělníci v něm stojí, když natírají zdi, opravují světla nebo řežou větve.
+      Její kloubové rameno dosáhne nahoru i přes překážky.
+  machine.scissor_lift:
+    label: nůžková plošina
+    summary: Plošina, která jede rovně nahoru na zkřížených podpěrách.
+    info: |
+      Nůžková plošina má zkřížené kovové podpěry, které se rozevírají jako nůžky.
+      Když se rozevřou, plošina nahoře vyjede rovně vzhůru.
+      Dělníci ji používají v halách a skladech, aby dosáhli ke stropu.
+  machine.demolition_breaker:
+    label: bourací kladivo
+    summary: Bagr, který má místo lžíce kladivo a rozbíjí beton.
+    info: |
+      Bourací kladivo je obří kladivo připevněné na rameno bagru.
+      Buší do betonu a skály mnohokrát za sekundu, dokud nepraskne.
+      Pomáhá bourat staré domy a lámat kámen v lomech.
+  machine.pile_driver:
+    label: beranidlo
+    summary: Stroj, který zatlouká dlouhé sloupy hluboko do země.
+    info: |
+      Beranidlo zatlouká nebo zatlačuje do země dlouhé ocelové nebo betonové sloupy, kterým se říká piloty.
+      Piloty drží domy a mosty tam, kde je měkká půda.
+      Vysoký stožár drží pilotu úplně rovně.
+  machine.drilling_rig:
+    label: vrtná souprava
+    summary: Stroj na pásech, který vrtá hluboké díry do země.
+    info: |
+      Vrtná souprava otáčí dlouhým spirálovým vrtákem, který vyvrtá hlubokou díru.
+      Hlína vyjíždí nahoru po spirále a hromadí se kolem díry.
+      Díry se pak vyplní betonem a vzniknou z nich pevné základy.
+  machine.tunnel_boring_machine:
+    label: tunelovací stroj
+    summary: Obří kulatý stroj, který kope tunely pod zemí.
+    info: |
+      Vpředu má tunelovací stroj obrovské kulaté kolo s řeznými disky, které se pomalu točí a drtí skálu.
+      Za sebou stroj obkládá stěny tunelu betonovými díly.
+      Tunelovací stroje často dostávají ženská jména.
+  machine.cold_planer:
+    label: silniční fréza
+    summary: Stroj, který odfrézuje starý, opotřebovaný asfalt.
+    info: |
+      Silniční fréza má vespod rychle se točící válec s ostrými zuby.
+      Obrousí vrchní vrstvu staré silnice a pás naloží kousky do nákladního auta.
+      Starý asfalt se dá znovu použít v nové silnici.
+  machine.plate_compactor:
+    label: vibrační deska
+    summary: Malá třesoucí se deska, kterou dělník tlačí, aby zhutnil zem.
+    info: |
+      Vibrační deska má těžkou ocelovou desku, která se velmi rychle třese.
+      Dělník jde za ní a řídí ji držadlem.
+      Zhutňuje písek a štěrk pod cestičkami, terasami a chodníky.
+  machine.sheepsfoot_roller:
+    label: ježkový válec
+    summary: Válec s hrbolatým bubnem, který zhutňuje zeminu.
+    info: |
+      Buben ježkového válce je pokrytý výstupky.
+      Výstupky se zaboří hluboko do zeminy a zhutní ji líp než hladký válec.
+      Používá se na hlínu a jíl, třeba pod nové silnice nebo na hráze.
+  machine.bucket_wheel_excavator:
+    label: kolesové rypadlo
+    summary: Gigantický stroj s otáčejícím se kolem plným korečků.
+    info: |
+      Kolesové rypadlo těží uhlí a zeminu ve velkých povrchových dolech.
+      Na konci jeho ramene se točí velké kolo s korečky a plní dlouhý pásový dopravník.
+      Ta největší jsou dlouhá přes 200 metrů a patří k největším strojům na souši.
+  machine.loader_crane_truck:
+    label: auto s hydraulickou rukou
+    summary: Nákladní auto se skládacím ramenem, které nakládá a vykládá náklad.
+    info: |
+      Auto s hydraulickou rukou má za kabinou vlastní skládací rameno.
+      Vyloží cihly, trubky nebo palety bez pomoci jiného stroje.
+      Než začne zvedat, vysune do stran nohy, aby stálo pevně.
