@@ -369,7 +369,13 @@ func runPublish(args []string) error {
 		return err
 	}
 
+	free, err := content.BundledFreeDecks(*catalogSrc)
+	if err != nil {
+		return err
+	}
+
 	opts := content.PublishOptions{
+		FreeDecks:    free,
 		PreviewsDir:  *previews,
 		CDNDir:       *cdn,
 		BuiltDir:     *built,

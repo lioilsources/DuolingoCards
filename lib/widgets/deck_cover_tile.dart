@@ -11,6 +11,7 @@ import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
 import '../models/store_cover.dart';
 import '../services/priority_service.dart';
+import '../utils/bundled_images.dart';
 import '../utils/language_names.dart';
 import '../utils/locale_direction.dart';
 
@@ -303,7 +304,7 @@ class _Thumb extends StatelessWidget {
       }
     }
     return Image.asset(
-      'assets/previews/$slug/$style/$image',
+      bundledImagePath(slug, style, image),
       fit: BoxFit.cover,
       cacheWidth: cacheWidth,
       errorBuilder: (_, _, _) => CachedNetworkImage(

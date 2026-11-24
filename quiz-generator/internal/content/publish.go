@@ -33,6 +33,11 @@ type PublishOptions struct {
 	BuiltDir string
 	// PreviewCards is how many leading cards go into the preview set.
 	PreviewCards int
+	// FreeDecks are the catalog's free decks. Their default style is bundled
+	// whole into PreviewsDir, not just the leading cards: they land on home on
+	// first launch, and a home tile waits for every picture — bundling them
+	// means a fresh install shows them at once, even offline.
+	FreeDecks []string
 	// Style limits publishing to one style (empty = every complete style).
 	Style string
 	// Images publishes preview and full image sets.
@@ -95,11 +100,28 @@ func (d *Deck) Publish(opts PublishOptions) (*PublishResult, error) {
 	return res, nil
 }
 
+// BundledStyle is the style whose full image set ships in the app binary:
+// the default style of a deck in [free], or "" for every other deck.
+func (d *Deck) BundledStyle(free []string) string {
+	if !contains(free, d.Meta.Slug) {
+		return ""
+	}
+	styles := d.ImageStyles()
+	if contains(styles, d.Meta.DefaultStyle) {
+		return d.Meta.DefaultStyle
+	}
+	if len(styles) > 0 {
+		return styles[0]
+	}
+	return ""
+}
+
 type styleCounts struct{ previews, cdn int }
 
 func (d *Deck) publishStyle(style string, opts PublishOptions) (styleCounts, error) {
 	var n styleCounts
 	srcDir := filepath.Join(d.Dir, "images", style)
+	full := style == d.BundledStyle(opts.FreeDecks)
 
 	for i, c := range d.Meta.Cards {
 		if c.Image == "" {
@@ -108,7 +130,7 @@ func (d *Deck) publishStyle(style string, opts PublishOptions) (styleCounts, err
 		src := filepath.Join(srcDir, c.Image)
 		out := PublishedImageName(c.Image, opts.WebPQuality > 0)
 
-		if opts.PreviewsDir != "" && i < opts.PreviewCards {
+		if opts.PreviewsDir != "" && (i < opts.PreviewCards || full) {
 			dst := filepath.Join(opts.PreviewsDir, d.Meta.Slug, style, out)
 			if err := placeFile(src, dst, opts.WebPQuality); err != nil {
 				return n, fmt.Errorf("preview %s/%s: %w", style, c.Image, err)

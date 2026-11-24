@@ -188,3 +188,31 @@ func TestBuildKeepsPNGNamesByDefault(t *testing.T) {
 		t.Fatalf("default build renamed image to %q", rd.Cards[0].Image)
 	}
 }
+
+// A free deck's default style ships whole, so home can show it on first launch.
+func TestPublishBundlesFreeDeckDefaultStyleWhole(t *testing.T) {
+	d := publishFixture(t)
+	previews := filepath.Join(t.TempDir(), "previews")
+
+	res, err := d.Publish(PublishOptions{
+		PreviewsDir: previews, PreviewCards: 1, Images: true,
+		FreeDecks: []string{"test-deck"},
+	})
+	if err != nil {
+		t.Fatalf("Publish: %v", err)
+	}
+	if res.Previews["photo"] != 3 {
+		t.Errorf("photo previews = %d, want all 3 (free deck default style)", res.Previews["photo"])
+	}
+
+	res, err = d.Publish(PublishOptions{
+		PreviewsDir: filepath.Join(t.TempDir(), "p2"), PreviewCards: 1, Images: true,
+		FreeDecks: []string{"other-deck"},
+	})
+	if err != nil {
+		t.Fatalf("Publish: %v", err)
+	}
+	if res.Previews["photo"] != 1 {
+		t.Errorf("paid deck photo previews = %d, want 1", res.Previews["photo"])
+	}
+}

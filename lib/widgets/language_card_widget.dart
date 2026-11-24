@@ -6,6 +6,7 @@ import '../config/cdn_config.dart';
 import '../l10n/app_localizations.dart';
 import '../models/deck_palette.dart';
 import '../models/language_deck.dart';
+import '../utils/bundled_images.dart';
 import '../utils/locale_direction.dart';
 import 'pronounce_button.dart';
 
@@ -102,7 +103,7 @@ class _LanguageCardWidgetState extends State<LanguageCardWidget>
 
     // Try bundled asset, fall back to CDN.
     return Image.asset(
-      'decks/${widget.slug}/images/${widget.style}/$image',
+      bundledImagePath(widget.slug, widget.style, image),
       fit: BoxFit.contain,
       errorBuilder: (_, _, _) => CachedNetworkImage(
         imageUrl:

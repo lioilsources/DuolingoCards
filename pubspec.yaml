@@ -124,7 +124,9 @@ flutter:
   assets:
     # No-backend content (v2): bundled catalog + built deck packs.
     # Each deck bundles its deck.json plus a 3-card preview per style;
-    # the full image set arrives from the CDN on first open. A preview
+    # the full image set arrives from the CDN on first open. Free decks
+    # bundle their default style whole, so first launch has a full home
+    # (test/free_decks_bundled_test.dart). A preview
     # folder missing from this list is NOT bundled, which silently makes
     # the style undeliverable — `content build` trusts these paths.
     - assets/catalog.json
