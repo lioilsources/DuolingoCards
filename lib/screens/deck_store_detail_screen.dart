@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:flutter/services.dart' show rootBundle;
 import 'package:path_provider/path_provider.dart';
 
 import '../l10n/app_localizations.dart';
@@ -10,6 +9,7 @@ import '../models/language_deck.dart';
 import '../services/deck_download_service.dart';
 import '../services/entitlement_service.dart';
 import '../services/language_deck_service.dart';
+import '../utils/bundled_images.dart';
 import '../utils/language_names.dart';
 import '../utils/locale_direction.dart';
 import '../widgets/pronounce_button.dart';
@@ -100,16 +100,10 @@ class _DeckStoreDetailScreenState extends State<DeckStoreDetailScreen> {
     final slug = _deck.slug;
 
     // Images are "available locally" if they are in docsDir (CDN-downloaded) OR
-    // fully bundled as assets (e.g. colors-basic). Probe the bundle for the latter.
-    bool imagesReady =
-        await DeckDownloadService.instance.isImagesDownloaded(slug, _style);
-    if (!imagesReady && _deck.cards.isNotEmpty) {
-      try {
-        await rootBundle.load(
-            'decks/$slug/images/$_style/${_deck.cards.first.image}');
-        imagesReady = true;
-      } catch (_) {}
-    }
+    // fully bundled as assets (a free deck's default style).
+    final imagesReady =
+        await DeckDownloadService.instance.isImagesDownloaded(slug, _style) ||
+            await isFullyBundled(_deck, _style);
 
     if (mounted) {
       setState(() {
@@ -604,15 +598,10 @@ class _CardPreview extends StatelessWidget {
       }
     }
     return Image.asset(
-      'assets/previews/$slug/$style/$image',
+      bundledImagePath(slug, style, image),
       height: 180,
       fit: BoxFit.contain,
-      errorBuilder: (_, e, st) => Image.asset(
-        'decks/$slug/images/$style/$image',
-        height: 180,
-        fit: BoxFit.contain,
-        errorBuilder: (_, e, st) => _placeholder(),
-      ),
+      errorBuilder: (_, e, st) => _placeholder(),
     );
   }
 

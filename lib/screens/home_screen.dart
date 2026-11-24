@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart' show SchedulerBinding;
-import 'package:flutter/services.dart' show HapticFeedback, rootBundle;
+import 'package:flutter/services.dart' show HapticFeedback;
 import 'package:path_provider/path_provider.dart';
 import '../l10n/app_localizations.dart';
 import '../models/language_deck.dart';
@@ -10,6 +10,7 @@ import '../services/entitlement_service.dart';
 import '../services/home_order_service.dart';
 import '../services/language_deck_service.dart';
 import '../services/priority_service.dart';
+import '../utils/bundled_images.dart';
 import '../widgets/deck_cover_tile.dart';
 import 'deck_store_screen.dart';
 import 'language_deck_study_screen.dart';
@@ -87,15 +88,7 @@ class _HomeScreenState extends State<HomeScreen> {
     )) {
       return true;
     }
-    if (deck.cards.isEmpty) return false;
-    try {
-      await rootBundle.load(
-        'decks/${deck.slug}/images/$style/${deck.cards.first.image}',
-      );
-      return true;
-    } catch (_) {
-      return false;
-    }
+    return isFullyBundled(deck, style);
   }
 
   /// [quiet] keeps the current tiles on screen while reloading (after a study

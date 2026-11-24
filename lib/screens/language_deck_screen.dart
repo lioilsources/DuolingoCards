@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../l10n/app_localizations.dart';
 import '../models/language_deck.dart';
+import '../utils/bundled_images.dart';
 import '../utils/language_names.dart';
 import '../utils/locale_direction.dart';
 import '../widgets/pronounce_button.dart';
@@ -144,7 +145,7 @@ class _CardView extends StatelessWidget {
           borderRadius: BorderRadius.circular(12),
           child: card.image.isNotEmpty
               ? Image.asset(
-                  'decks/$slug/images/$style/${card.image}',
+                  bundledImagePath(slug, style, card.image),
                   height: 220,
                   width: double.infinity,
                   fit: BoxFit.cover,

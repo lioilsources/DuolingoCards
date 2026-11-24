@@ -214,3 +214,22 @@ func nonNil(s []string) []string {
 	}
 	return s
 }
+
+// BundledFreeDecks reads the free list from the bundled catalog at path. An
+// empty path means no catalog, so no deck is bundled whole.
+func BundledFreeDecks(path string) ([]string, error) {
+	if path == "" {
+		return nil, nil
+	}
+	raw, err := os.ReadFile(path)
+	if err != nil {
+		return nil, fmt.Errorf("reading %s: %w", path, err)
+	}
+	var src struct {
+		Free []string `json:"free"`
+	}
+	if err := json.Unmarshal(raw, &src); err != nil {
+		return nil, fmt.Errorf("parsing %s: %w", path, err)
+	}
+	return src.Free, nil
+}
