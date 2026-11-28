@@ -1,0 +1,214 @@
+lang: fr
+pivot: false
+title: Engins de chantier
+cards:
+  machine.excavator:
+    label: pelleteuse
+    summary: Une machine qui creuse, avec un long bras et un godet plein de dents.
+    info: |
+      La pelleteuse roule sur des chenilles, alors elle ne s'enfonce pas dans la boue molle.
+      Toute la partie du haut, avec la cabine et le bras, peut tourner sur elle-même.
+      Le bras bouge grâce à l'hydraulique : de l'huile poussée très fort dans des tuyaux.
+  machine.mini_excavator:
+    label: mini-pelle
+    summary: Une petite pelleteuse qui passe par le portail d'un jardin.
+    info: |
+      La mini-pelle creuse là où une grande ne passerait pas, comme dans les jardins, les cours et les rues étroites.
+      Elle roule en général sur des chenilles en caoutchouc, alors elle n'abîme pas le sol pavé.
+      La petite lame à l'avant repousse la terre dans le trou.
+  machine.backhoe_loader:
+    label: tractopelle
+    summary: Un tracteur avec une pelle à l'avant et un bras qui creuse à l'arrière.
+    info: |
+      Le tractopelle, c'est deux machines en une : une chargeuse devant et une pelleteuse derrière.
+      Le conducteur fait tourner son siège pour travailler avec le bras de derrière.
+      Il roule sur des roues, alors il peut aller d'un chantier à l'autre par la route.
+  machine.wheel_loader:
+    label: chargeuse sur pneus
+    summary: Une machine aux pneus énormes qui ramasse et transporte le sable et le gravier.
+    info: |
+      La chargeuse remplit son grand godet avant et le vide dans les camions.
+      Son corps se plie au milieu, ce qui l'aide à tourner dans les endroits étroits.
+      Les plus grandes chargeuses ont des pneus plus hauts qu'un adulte.
+  machine.bulldozer:
+    label: bulldozer
+    summary: Une machine très forte sur chenilles qui pousse la terre avec une large lame.
+    info: |
+      Le bulldozer pousse la terre, les pierres et le sable avec la lame en acier à l'avant.
+      La griffe à l'arrière, qu'on appelle un ripper, casse le sol dur.
+      Ses larges chenilles répartissent son poids, alors il peut rouler sur la terre meuble.
+  machine.skid_steer:
+    label: mini-chargeuse
+    summary: Une petite chargeuse en forme de boîte qui peut tourner sur place.
+    info: |
+      La mini-chargeuse tourne en faisant aller les roues d'un côté plus vite que celles de l'autre côté.
+      Comme ça, elle peut pivoter sur place, presque comme un char d'assaut.
+      À la place du godet, elle peut porter beaucoup d'autres outils, comme des fourches, des balais ou une tarière.
+  machine.dump_truck:
+    label: camion-benne
+    summary: Un camion qui vide son chargement par l'arrière.
+    info: |
+      Le camion-benne transporte du sable, du gravier ou de la terre dans une caisse en acier qu'on appelle une benne.
+      Des vérins hydrauliques soulèvent l'avant de la benne, et le chargement glisse dehors par l'arrière.
+      Ensuite, la benne redescend et le camion repart en chercher encore.
+  machine.articulated_hauler:
+    label: tombereau articulé
+    summary: Un camion-benne tout-terrain qui se plie au milieu.
+    info: |
+      Le tombereau articulé a deux parties reliées par une articulation, alors il se plie au milieu.
+      Ça l'aide à passer dans la boue et sur les bosses, là où un camion ordinaire resterait coincé.
+      Il est fait pour les chantiers et les carrières, pas pour les routes.
+  machine.mining_truck:
+    label: tombereau minier
+    summary: Un camion-benne géant qui travaille dans d'immenses mines à ciel ouvert.
+    info: |
+      Les tombereaux miniers sont parmi les plus gros camions du monde.
+      Leurs pneus sont plus hauts qu'un adulte, et le conducteur monte à la cabine par une échelle.
+      Les plus grands peuvent transporter plus de 400 tonnes de roche d'un coup.
+  machine.concrete_mixer:
+    label: camion toupie
+    summary: Un camion avec une grosse cuve qui tourne sans arrêt.
+    info: |
+      Le camion toupie apporte du béton frais sur le chantier.
+      La cuve continue de tourner pendant le trajet, pour que le béton ne durcisse pas dedans.
+      Quand la cuve tourne dans l'autre sens, le béton coule par la goulotte.
+  machine.concrete_pump:
+    label: pompe à béton
+    summary: Un camion avec un long bras pliant qui verse le béton tout en haut.
+    info: |
+      La pompe à béton pousse le béton liquide dans un tuyau le long de son grand bras.
+      Le bras se déplie comme un doigt géant et atteint les étages du haut d'un immeuble.
+      Des pieds en acier sur les côtés empêchent le camion de se renverser.
+  machine.tower_crane:
+    label: grue à tour
+    summary: Une grande grue qui se dresse au-dessus du chantier.
+    info: |
+      La grue à tour soulève des charges lourdes, comme des poutres en acier et du béton, jusqu'en haut d'un immeuble.
+      Le grutier grimpe à l'intérieur de la tour jusqu'à une petite cabine tout en haut.
+      De lourds blocs de béton sur le bras court font contrepoids à la charge sur le bras long.
+  machine.mobile_crane:
+    label: grue mobile
+    summary: Une grue sur un camion, avec un bras qui s'allonge de plus en plus.
+    info: |
+      La grue mobile va jusqu'au chantier sur ses propres roues.
+      Son bras est télescopique : il s'allonge comme une longue-vue pour devenir beaucoup plus long.
+      Avant de soulever, elle sort des pieds solides des deux côtés pour ne pas se renverser.
+  machine.crawler_crane:
+    label: grue sur chenilles
+    summary: Une grue très forte sur chenilles, avec un grand bras en treillis.
+    info: |
+      La grue sur chenilles repose sur des chenilles, qui répartissent son énorme poids sur le sol.
+      Son long bras est fait d'un treillis en acier, léger mais très solide.
+      Les grandes grues sur chenilles soulèvent des morceaux de ponts et d'éoliennes.
+  machine.road_roller:
+    label: rouleau compresseur
+    summary: Une machine lourde avec des cylindres en acier lisses qui aplatit le goudron.
+    info: |
+      Le rouleau compresseur roule lentement sur le goudron frais et l'écrase pour le rendre plat et dur.
+      Ses cylindres en acier peuvent vibrer très vite, ce qui tasse encore mieux la route.
+      On arrose les cylindres d'eau pour que le goudron chaud ne colle pas dessus.
+  machine.asphalt_paver:
+    label: finisseur
+    summary: Une machine qui pose une nouvelle couche de route.
+    info: |
+      Des camions versent le goudron chaud à l'avant du finisseur.
+      Le finisseur l'étale derrière lui en une couche bien égale, en avançant lentement.
+      En général, un rouleau compresseur le suit juste derrière.
+  machine.motor_grader:
+    label: niveleuse
+    summary: Une longue machine avec une lame sous le ventre qui aplanit les routes.
+    info: |
+      La niveleuse a une longue lame en dessous, entre ses roues avant et ses roues arrière.
+      La lame peut s'incliner et tourner, alors elle peut rendre le sol parfaitement plat ou un peu en pente.
+      Les niveleuses aplanissent les chemins de gravier et préparent le sol avant de construire une nouvelle route.
+  machine.forklift:
+    label: chariot élévateur
+    summary: Un petit engin qui soulève les charges sur deux fourches.
+    info: |
+      Le chariot élévateur glisse ses deux fourches sous une palette et la soulève.
+      Il travaille dans les entrepôts, les usines et les magasins.
+      Un gros poids à l'arrière l'empêche de basculer en avant sous la charge.
+  machine.telehandler:
+    label: chariot télescopique
+    summary: Une chargeuse avec un long bras qui s'allonge pour soulever les choses très haut.
+    info: |
+      Le chariot télescopique ressemble à un chariot élévateur avec un long bras télescopique.
+      Il peut poser une palette de briques sur un toit ou loin à l'intérieur d'un bâtiment.
+      On l'utilise sur les chantiers et dans les fermes, où il soulève les bottes de foin.
+  machine.boom_lift:
+    label: nacelle articulée
+    summary: Une machine qui monte les ouvriers très haut dans un panier.
+    info: |
+      La nacelle articulée soulève une petite plateforme avec une rambarde haut dans les airs.
+      Les ouvriers montent dedans pour peindre des murs, réparer des lampadaires ou couper des branches.
+      Son bras articulé peut monter tout droit et aussi passer par-dessus les obstacles.
+  machine.scissor_lift:
+    label: nacelle ciseaux
+    summary: Une plateforme qui monte tout droit sur des barres croisées.
+    info: |
+      La nacelle ciseaux a des barres en métal croisées qui s'ouvrent comme des ciseaux.
+      Quand elles s'ouvrent, la plateforme du dessus monte tout droit.
+      Les ouvriers l'utilisent dans les halls et les entrepôts pour atteindre le plafond.
+  machine.demolition_breaker:
+    label: brise-roche hydraulique
+    summary: Une pelleteuse avec un marteau à la place du godet, qui casse le béton.
+    info: |
+      Le brise-roche hydraulique est un énorme marteau fixé au bras d'une pelleteuse.
+      Il frappe le béton et la roche plusieurs fois par seconde, jusqu'à ce qu'ils se fendent.
+      Il aide à démolir les vieux bâtiments et à casser la roche dans les carrières.
+  machine.pile_driver:
+    label: sonnette de battage
+    summary: Une machine qui enfonce de longs poteaux profondément dans le sol.
+    info: |
+      La sonnette de battage pousse ou tape de longs poteaux en acier ou en béton, qu'on appelle des pieux, dans le sol.
+      Les pieux soutiennent les immeubles et les ponts là où le sol est mou.
+      Elle a un grand mât qui garde le pieu parfaitement droit.
+  machine.drilling_rig:
+    label: foreuse
+    summary: Une machine sur chenilles qui perce des trous profonds dans le sol.
+    info: |
+      La foreuse fait tourner une longue vis en spirale qui creuse un trou profond.
+      La terre remonte le long de la spirale et s'entasse autour du trou.
+      On remplit les trous de béton pour faire des fondations solides.
+  machine.tunnel_boring_machine:
+    label: tunnelier
+    summary: Une machine ronde géante qui creuse des tunnels sous la terre.
+    info: |
+      L'avant du tunnelier est une énorme roue ronde avec des disques coupants, qui tourne lentement et broie la roche.
+      Derrière, la machine recouvre les murs du tunnel avec des morceaux de béton.
+      On donne souvent des prénoms de filles aux tunneliers.
+  machine.cold_planer:
+    label: raboteuse
+    summary: Une machine qui gratte le vieux goudron tout usé.
+    info: |
+      La raboteuse a, en dessous, un cylindre qui tourne avec des dents pointues.
+      Elle arrache la couche du dessus d'une vieille route, et un tapis roulant charge les morceaux dans un camion.
+      Le vieux goudron peut resservir pour faire une nouvelle route.
+  machine.plate_compactor:
+    label: plaque vibrante
+    summary: Une petite plaque qui vibre, poussée par un ouvrier pour tasser le sol.
+    info: |
+      La plaque vibrante a une lourde plaque en acier qui tremble très vite.
+      Un ouvrier marche derrière et la dirige avec la poignée.
+      Elle tasse le sable et le gravier sous les allées, les terrasses et les trottoirs.
+  machine.sheepsfoot_roller:
+    label: rouleau à pieds de mouton
+    summary: Un rouleau avec un cylindre plein de bosses qui tasse la terre.
+    info: |
+      Le cylindre de ce rouleau est couvert de gros plots, qu'on appelle des pieds.
+      Les pieds s'enfoncent profondément dans la terre et la tassent mieux qu'un cylindre lisse.
+      On l'utilise sur la terre et l'argile, par exemple sous les nouvelles routes ou pour les barrages.
+  machine.bucket_wheel_excavator:
+    label: excavatrice à roue-pelle
+    summary: Une machine gigantesque avec une roue pleine de godets qui tourne.
+    info: |
+      L'excavatrice à roue-pelle creuse le charbon et la terre dans d'immenses mines à ciel ouvert.
+      Une grande roue à godets tourne au bout de son bras et remplit un long tapis roulant.
+      Les plus grandes mesurent plus de 200 mètres de long, ce qui en fait parmi les plus grosses machines sur terre.
+  machine.loader_crane_truck:
+    label: camion-grue
+    summary: Un camion avec un bras pliant qui charge et décharge les marchandises.
+    info: |
+      Le camion-grue transporte son propre bras hydraulique pliant derrière la cabine.
+      Il peut décharger des briques, des tuyaux ou des palettes sans aucune autre machine.
+      Avant de soulever, il sort des pieds sur les côtés pour rester bien stable.

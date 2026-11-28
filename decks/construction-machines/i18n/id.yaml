@@ -1,0 +1,214 @@
+lang: id
+pivot: false
+title: Ekskavator dan Alat Berat
+cards:
+  machine.excavator:
+    label: ekskavator
+    summary: Mesin penggali dengan lengan panjang dan ember penuh gigi.
+    info: |
+      Ekskavator berjalan dengan roda rantai, jadi tidak tenggelam di lumpur yang lembek.
+      Seluruh bagian atasnya, dengan kabin dan lengannya, bisa berputar penuh.
+      Lengannya digerakkan oleh hidrolik, yaitu oli yang didorong lewat pipa dengan tekanan tinggi.
+  machine.mini_excavator:
+    label: ekskavator mini
+    summary: Ekskavator kecil yang muat lewat pintu pagar kebun.
+    info: |
+      Ekskavator mini menggali di tempat yang tidak muat untuk ekskavator besar, seperti kebun, halaman, dan jalan sempit.
+      Biasanya ia berjalan dengan roda rantai karet, jadi tidak merusak jalan yang sudah diaspal atau dipaving.
+      Bilah kecil di depannya mendorong tanah kembali ke dalam lubang.
+  machine.backhoe_loader:
+    label: backhoe loader
+    summary: Traktor dengan sekop di depan dan lengan penggali di belakang.
+    info: |
+      Backhoe loader adalah dua mesin dalam satu, pemuat di depan dan ekskavator di belakang.
+      Pengemudinya memutar kursinya ke belakang untuk bekerja dengan lengan belakang.
+      Mesin ini beroda, jadi bisa melaju di jalan raya dari satu pekerjaan ke pekerjaan berikutnya.
+  machine.wheel_loader:
+    label: wheel loader
+    summary: Mesin dengan ban raksasa yang menyendok dan membawa pasir serta kerikil.
+    info: |
+      Wheel loader mengisi ember besar di depannya lalu menuangkannya ke truk.
+      Badannya bisa menekuk di tengah, jadi ia bisa berbelok di tempat yang sempit.
+      Wheel loader yang paling besar punya ban yang lebih tinggi daripada orang dewasa.
+  machine.bulldozer:
+    label: buldoser
+    summary: Mesin kuat beroda rantai yang mendorong tanah dengan bilah lebar.
+    info: |
+      Buldoser mendorong tanah, batu, dan pasir dengan bilah baja di depannya.
+      Cakar di belakangnya disebut ripper, dan gunanya untuk memecah tanah yang keras.
+      Roda rantainya yang lebar menyebarkan beratnya, jadi ia bisa melaju di atas tanah yang gembur.
+  machine.skid_steer:
+    label: loader mini
+    summary: Pemuat kecil berbentuk kotak yang bisa berputar di tempat.
+    info: |
+      Loader mini berbelok dengan memutar roda di satu sisi lebih cepat daripada di sisi lainnya.
+      Dengan begitu, ia bisa berputar di tempat, hampir seperti tank.
+      Selain ember, ia bisa memakai banyak alat lain, seperti garpu, sikat, atau bor.
+  machine.dump_truck:
+    label: dump truck
+    summary: Truk yang menumpahkan muatannya dari belakang.
+    info: |
+      Dump truck membawa pasir, kerikil, atau tanah di dalam bak baja yang bisa dijungkitkan.
+      Piston hidrolik mengangkat bagian depan bak, lalu muatannya meluncur keluar dari belakang.
+      Setelah itu bak turun lagi dan truk pergi untuk mengambil muatan berikutnya.
+  machine.articulated_hauler:
+    label: dump truck artikulasi
+    summary: Dump truck untuk medan berat yang bisa menekuk di tengah.
+    info: |
+      Dump truck artikulasi punya dua bagian yang disambung dengan sendi, jadi ia bisa menekuk di tengah.
+      Karena itu ia bisa melewati lumpur dan jalan bergelombang, tempat truk biasa akan terjebak.
+      Truk ini dibuat untuk proyek bangunan dan tambang batu, bukan untuk jalan raya.
+  machine.mining_truck:
+    label: truk tambang
+    summary: Dump truck raksasa yang bekerja di tambang terbuka yang sangat luas.
+    info: |
+      Truk tambang adalah beberapa truk terbesar di dunia.
+      Bannya lebih tinggi daripada orang dewasa, dan pengemudinya naik tangga untuk sampai ke kabin.
+      Yang paling besar bisa membawa lebih dari 400 ton batu sekaligus.
+  machine.concrete_mixer:
+    label: truk molen
+    summary: Truk dengan tabung besar yang terus berputar.
+    info: |
+      Truk molen membawa beton segar ke proyek bangunan.
+      Tabungnya terus berputar selama perjalanan, supaya betonnya tidak mengeras di dalam.
+      Saat tabungnya berputar ke arah sebaliknya, beton mengalir keluar lewat talang.
+  machine.concrete_pump:
+    label: pompa beton
+    summary: Truk dengan lengan panjang yang bisa dilipat untuk menuang beton tinggi-tinggi.
+    info: |
+      Pompa beton mendorong beton basah lewat pipa di sepanjang lengannya yang panjang.
+      Lengannya terbuka seperti jari raksasa dan bisa mencapai lantai atas sebuah gedung.
+      Kaki-kaki baja di sampingnya menjaga truk supaya tidak terguling.
+  machine.tower_crane:
+    label: crane menara
+    summary: Crane tinggi yang berdiri di atas proyek bangunan.
+    info: |
+      Crane menara mengangkat muatan berat seperti balok baja dan beton sampai ke puncak gedung.
+      Operatornya memanjat di dalam menara sampai ke kabin kecil di puncaknya.
+      Balok beton yang berat di lengan pendek menyeimbangkan muatan di lengan panjang.
+  machine.mobile_crane:
+    label: crane mobil
+    summary: Crane di atas truk dengan lengan yang bisa memanjang terus.
+    info: |
+      Crane mobil datang ke proyek bangunan dengan rodanya sendiri.
+      Lengannya teleskopik, artinya bisa ditarik keluar seperti teropong sampai jauh lebih panjang.
+      Sebelum mengangkat, ia mengeluarkan kaki-kaki kuat di kedua sisinya supaya tidak terguling.
+  machine.crawler_crane:
+    label: crawler crane
+    summary: Crane yang sangat kuat dengan roda rantai dan lengan tinggi berbentuk rangka.
+    info: |
+      Crawler crane berdiri di atas roda rantai yang menyebarkan beratnya yang sangat besar ke tanah.
+      Lengannya yang panjang terbuat dari rangka baja, ringan tetapi sangat kuat.
+      Crawler crane yang besar mengangkat bagian-bagian jembatan dan kincir angin.
+  machine.road_roller:
+    label: mesin gilas
+    summary: Mesin berat dengan silinder baja yang licin untuk meratakan aspal.
+    info: |
+      Mesin gilas melaju pelan di atas aspal baru dan menekannya sampai rata dan keras.
+      Silinder bajanya bisa bergetar sangat cepat, jadi jalannya jadi lebih padat lagi.
+      Silindernya disemprot air supaya aspal yang panas tidak menempel.
+  machine.asphalt_paver:
+    label: mesin penghampar aspal
+    summary: Mesin yang memasang lapisan jalan yang baru.
+    info: |
+      Truk menuangkan aspal panas ke bagian depan mesin penghampar aspal.
+      Sambil maju pelan-pelan, mesin ini meratakan aspal di belakangnya menjadi lapisan yang rata.
+      Biasanya mesin gilas mengikuti tepat di belakangnya.
+  machine.motor_grader:
+    label: motor grader
+    summary: Mesin panjang dengan bilah di bawah perutnya untuk meratakan jalan.
+    info: |
+      Motor grader punya bilah panjang di bagian bawah, di antara roda depan dan roda belakangnya.
+      Bilahnya bisa dimiringkan dan diputar, jadi bisa membuat tanah benar-benar rata atau sedikit miring.
+      Motor grader meratakan jalan berkerikil dan menyiapkan tanah sebelum jalan baru dibangun.
+  machine.forklift:
+    label: forklift
+    summary: Kendaraan kecil yang mengangkat barang dengan dua garpu.
+    info: |
+      Forklift menyelipkan dua garpunya di bawah palet lalu mengangkatnya.
+      Ia bekerja di gudang, pabrik, dan toko.
+      Pemberat yang berat di belakangnya menjaganya supaya tidak terjungkal ke depan saat membawa muatan.
+  machine.telehandler:
+    label: telehandler
+    summary: Pemuat dengan lengan panjang yang bisa memanjang untuk mengangkat barang tinggi-tinggi.
+    info: |
+      Telehandler mirip forklift dengan lengan teleskopik yang panjang.
+      Ia bisa mengangkat satu palet batu bata ke atas atap atau jauh ke dalam gedung.
+      Alat ini dipakai di proyek bangunan dan di peternakan, tempat ia mengangkat bal jerami.
+  machine.boom_lift:
+    label: boom lift
+    summary: Mesin yang mengangkat pekerja tinggi-tinggi di dalam keranjang.
+    info: |
+      Boom lift mengangkat panggung kecil berpagar tinggi ke udara.
+      Para pekerja berdiri di dalamnya untuk mengecat dinding, memperbaiki lampu, atau memotong dahan.
+      Lengannya yang bersendi bisa menjangkau ke atas dan juga melewati rintangan.
+  machine.scissor_lift:
+    label: scissor lift
+    summary: Panggung yang naik lurus ke atas di atas penyangga bersilang.
+    info: |
+      Scissor lift punya penyangga logam bersilang yang membuka seperti gunting.
+      Saat penyangganya membuka, panggung di atasnya naik lurus ke atas.
+      Para pekerja memakainya di aula dan gudang untuk mencapai langit-langit.
+  machine.demolition_breaker:
+    label: breaker hidrolik
+    summary: Ekskavator dengan palu, bukan ember, untuk memecahkan beton.
+    info: |
+      Breaker hidrolik adalah palu raksasa yang dipasang di lengan ekskavator.
+      Palu ini memukul beton dan batu berkali-kali dalam satu detik sampai retak.
+      Alat ini membantu merobohkan gedung tua dan memecah batu di tambang batu.
+  machine.pile_driver:
+    label: mesin pancang
+    summary: Mesin yang memukul tiang-tiang panjang jauh ke dalam tanah.
+    info: |
+      Mesin pancang menekan atau memukul tiang panjang dari baja atau beton, yang disebut tiang pancang, ke dalam tanah.
+      Tiang pancang menopang gedung dan jembatan di tempat yang tanahnya lembek.
+      Mesin ini punya tiang tinggi yang menjaga tiang pancang tetap lurus.
+  machine.drilling_rig:
+    label: mesin bor
+    summary: Mesin beroda rantai yang mengebor lubang dalam di tanah.
+    info: |
+      Mesin bor memutar mata bor spiral yang panjang untuk membuat lubang yang dalam.
+      Tanahnya naik lewat spiral itu lalu menumpuk di sekeliling lubang.
+      Lubang-lubangnya diisi beton untuk membuat fondasi yang kuat.
+  machine.tunnel_boring_machine:
+    label: mesin bor terowongan
+    summary: Mesin bulat raksasa yang menggali terowongan di bawah tanah.
+    info: |
+      Bagian depan mesin bor terowongan adalah roda bulat raksasa dengan cakram pemotong yang berputar pelan dan menggerus batu.
+      Di belakangnya, mesin ini melapisi dinding terowongan dengan potongan-potongan beton.
+      Mesin bor terowongan sering diberi nama perempuan.
+  machine.cold_planer:
+    label: mesin pengupas aspal
+    summary: Mesin yang mengupas aspal lama yang sudah rusak.
+    info: |
+      Mesin pengupas aspal punya silinder berputar dengan gigi tajam di bagian bawahnya.
+      Mesin ini mengupas lapisan atas jalan lama, lalu ban berjalan memasukkan potongannya ke truk.
+      Aspal lama itu bisa dipakai lagi untuk jalan yang baru.
+  machine.plate_compactor:
+    label: stamper pelat
+    summary: Pelat kecil yang bergetar dan didorong pekerja untuk memadatkan tanah.
+    info: |
+      Stamper pelat punya pelat baja berat yang bergetar sangat cepat.
+      Seorang pekerja berjalan di belakangnya dan mengarahkannya dengan pegangan.
+      Alat ini memadatkan pasir dan kerikil di bawah jalan setapak, teras, dan trotoar.
+  machine.sheepsfoot_roller:
+    label: mesin gilas kaki kambing
+    summary: Mesin gilas dengan silinder bertonjolan untuk memadatkan tanah.
+    info: |
+      Silinder mesin gilas kaki kambing ditutupi tonjolan-tonjolan yang disebut kaki.
+      Kaki-kaki itu masuk dalam ke tanah dan memadatkannya lebih baik daripada silinder yang licin.
+      Mesin ini dipakai di tanah dan tanah liat, misalnya di bawah jalan baru atau untuk bendungan.
+  machine.bucket_wheel_excavator:
+    label: ekskavator roda timba
+    summary: Mesin raksasa dengan roda penuh timba yang terus berputar.
+    info: |
+      Ekskavator roda timba menggali batu bara dan tanah di tambang terbuka yang sangat luas.
+      Di ujung lengannya, roda besar penuh timba berputar dan mengisi ban berjalan yang panjang.
+      Yang paling besar panjangnya lebih dari 200 meter, jadi termasuk mesin terbesar di daratan.
+  machine.loader_crane_truck:
+    label: truk crane
+    summary: Truk dengan lengan lipat untuk menaikkan dan menurunkan muatan.
+    info: |
+      Truk crane membawa lengan hidrolik lipatnya sendiri di belakang kabin.
+      Ia bisa menurunkan batu bata, pipa, atau palet tanpa bantuan mesin lain.
+      Sebelum mengangkat, ia mengeluarkan kaki-kaki di sampingnya supaya tetap kokoh.

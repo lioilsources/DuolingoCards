@@ -1,0 +1,214 @@
+lang: pl
+pivot: false
+title: Koparki i maszyny budowlane
+cards:
+  machine.excavator:
+    label: koparka
+    summary: Maszyna do kopania z długim ramieniem i łyżką pełną zębów.
+    info: |
+      Koparka jeździ na gąsienicach, więc nie zapada się w miękkie błoto.
+      Cała górna część z kabiną i ramieniem może obracać się dookoła.
+      Ramieniem porusza hydraulika, czyli olej wtłaczany do rur pod wysokim ciśnieniem.
+  machine.mini_excavator:
+    label: minikoparka
+    summary: Mała koparka, która zmieści się w furtce do ogrodu.
+    info: |
+      Minikoparka kopie tam, gdzie duża by się nie zmieściła, na przykład w ogrodach, na podwórkach i w wąskich uliczkach.
+      Zwykle jeździ na gumowych gąsienicach, więc nie niszczy chodników ani kostki.
+      Mały lemiesz z przodu zgarnia ziemię z powrotem do dołu.
+  machine.backhoe_loader:
+    label: koparko-ładowarka
+    summary: Traktor z łyżką z przodu i ramieniem do kopania z tyłu.
+    info: |
+      Koparko-ładowarka to dwie maszyny w jednej, z przodu ładowarka, a z tyłu koparka.
+      Kierowca obraca fotel, żeby pracować tylnym ramieniem.
+      Jeździ na kołach, więc może przejechać drogą z jednej budowy na drugą.
+  machine.wheel_loader:
+    label: ładowarka kołowa
+    summary: Maszyna z ogromnymi oponami, która nabiera i wozi piasek i żwir.
+    info: |
+      Ładowarka kołowa napełnia swoją dużą przednią łyżkę i wysypuje ją do ciężarówek.
+      Jej nadwozie zgina się w środku, dzięki czemu może skręcać w ciasnych miejscach.
+      Największe ładowarki mają opony wyższe niż dorosły człowiek.
+  machine.bulldozer:
+    label: spycharka
+    summary: Silna maszyna na gąsienicach, która pcha ziemię szerokim lemieszem.
+    info: |
+      Spycharka pcha ziemię, kamienie i piasek stalowym lemieszem z przodu.
+      Pazur z tyłu, zwany zrywakiem, rozbija twardą ziemię.
+      Szerokie gąsienice rozkładają jej ciężar, więc może jeździć po luźnej ziemi.
+  machine.skid_steer:
+    label: miniładowarka
+    summary: Mała ładowarka w kształcie pudełka, która obraca się w miejscu.
+    info: |
+      Miniładowarka skręca, kręcąc kołami po jednej stronie szybciej niż po drugiej.
+      Dzięki temu może obrócić się w miejscu, prawie jak czołg.
+      Zamiast łyżki może nosić wiele innych narzędzi, na przykład widły, szczotki albo wiertło.
+  machine.dump_truck:
+    label: wywrotka
+    summary: Ciężarówka, która wysypuje ładunek do tyłu.
+    info: |
+      Wywrotka wozi piasek, żwir albo ziemię w stalowej skrzyni zwanej kiprem.
+      Hydrauliczne siłowniki podnoszą przód skrzyni, a ładunek zsuwa się z tyłu.
+      Potem skrzynia opada i wywrotka jedzie po kolejny ładunek.
+  machine.articulated_hauler:
+    label: wozidło przegubowe
+    summary: Wywrotka na bezdroża, która zgina się w środku.
+    info: |
+      Wozidło przegubowe ma dwie części połączone przegubem, więc zgina się w środku.
+      Dzięki temu przejeżdża przez błoto i wyboje tam, gdzie zwykła ciężarówka by utknęła.
+      Jest zbudowane na place budowy i do kamieniołomów, a nie na drogi.
+  machine.mining_truck:
+    label: wozidło górnicze
+    summary: Olbrzymia wywrotka, która pracuje w wielkich kopalniach odkrywkowych.
+    info: |
+      Wozidła górnicze to jedne z największych ciężarówek na świecie.
+      Ich opony są wyższe niż dorosły człowiek, a kierowca wchodzi do kabiny po drabince.
+      Największe mogą przewieźć naraz ponad 400 ton skał.
+  machine.concrete_mixer:
+    label: betonomieszarka
+    summary: Ciężarówka z dużym bębnem, który cały czas się kręci.
+    info: |
+      Betonomieszarka przywozi świeży beton na plac budowy.
+      Bęben kręci się przez całą drogę, żeby beton nie stwardniał w środku.
+      Kiedy bęben kręci się w drugą stronę, beton wylewa się rynną.
+  machine.concrete_pump:
+    label: pompa do betonu
+    summary: Ciężarówka z długim składanym ramieniem, która wylewa beton wysoko.
+    info: |
+      Pompa do betonu tłoczy mokry beton rurą biegnącą wzdłuż długiego ramienia.
+      Ramię rozkłada się jak olbrzymi palec i sięga wyższych pięter budynku.
+      Stalowe nogi po bokach chronią ciężarówkę przed przewróceniem.
+  machine.tower_crane:
+    label: dźwig wieżowy
+    summary: Wysoki dźwig, który stoi nad placem budowy.
+    info: |
+      Dźwig wieżowy podnosi ciężkie ładunki, na przykład stalowe belki i beton, na szczyt budynku.
+      Operator wspina się wewnątrz wieży do małej kabiny na górze.
+      Ciężkie betonowe bloki na krótkim ramieniu równoważą ładunek na długim ramieniu.
+  machine.mobile_crane:
+    label: dźwig samochodowy
+    summary: Dźwig na ciężarówce z ramieniem, które wysuwa się coraz dalej.
+    info: |
+      Dźwig samochodowy dojeżdża na plac budowy na własnych kołach.
+      Jego ramię jest teleskopowe, czyli wysuwa się jak luneta i robi się dużo dłuższe.
+      Zanim coś podniesie, wysuwa mocne nogi na obie strony, żeby się nie przewrócić.
+  machine.crawler_crane:
+    label: dźwig gąsienicowy
+    summary: Bardzo silny dźwig na gąsienicach z wysokim ramieniem w kształcie kratownicy.
+    info: |
+      Dźwig gąsienicowy stoi na gąsienicach, które rozkładają jego ogromny ciężar na ziemi.
+      Jego długie ramię jest zrobione ze stalowej kratownicy, lekkiej, ale bardzo mocnej.
+      Duże dźwigi gąsienicowe podnoszą części mostów i turbin wiatrowych.
+  machine.road_roller:
+    label: walec drogowy
+    summary: Ciężka maszyna z gładkimi stalowymi bębnami, która spłaszcza asfalt.
+    info: |
+      Walec drogowy jedzie powoli po świeżym asfalcie i ugniata go na płasko i twardo.
+      Jego stalowe bębny mogą bardzo szybko drgać, dzięki czemu droga jest jeszcze lepiej ubita.
+      Bębny są polewane wodą, żeby gorący asfalt się do nich nie przyklejał.
+  machine.asphalt_paver:
+    label: rozkładarka asfaltu
+    summary: Maszyna, która kładzie nową warstwę drogi.
+    info: |
+      Ciężarówki wysypują gorący asfalt do przedniej części rozkładarki.
+      Rozkładarka powoli jedzie do przodu i rozściela go za sobą równą warstwą.
+      Zwykle tuż za nią jedzie walec drogowy.
+  machine.motor_grader:
+    label: równiarka
+    summary: Długa maszyna z lemieszem pod brzuchem, która wyrównuje drogi.
+    info: |
+      Równiarka ma pod spodem długi lemiesz, między przednimi a tylnymi kołami.
+      Lemiesz może się przechylać i obracać, więc ziemia wychodzi idealnie płaska albo lekko pochyła.
+      Równiarki wyrównują drogi szutrowe i przygotowują teren przed budową nowej drogi.
+  machine.forklift:
+    label: wózek widłowy
+    summary: Mały pojazd, który podnosi ładunki na dwóch widłach.
+    info: |
+      Wózek widłowy wsuwa dwie widły pod paletę i podnosi ją do góry.
+      Pracuje w magazynach, fabrykach i sklepach.
+      Ciężka przeciwwaga z tyłu chroni go przed przewróceniem się do przodu pod ładunkiem.
+  machine.telehandler:
+    label: ładowarka teleskopowa
+    summary: Ładowarka z długim wysuwanym ramieniem, która podnosi rzeczy wysoko.
+    info: |
+      Ładowarka teleskopowa jest jak wózek widłowy z długim teleskopowym ramieniem.
+      Może podnieść paletę cegieł na dach albo wsunąć ją daleko w głąb budynku.
+      Pracuje na budowach i w gospodarstwach, gdzie podnosi bele siana.
+  machine.boom_lift:
+    label: podnośnik koszowy
+    summary: Maszyna, która podnosi ludzi wysoko w koszu.
+    info: |
+      Podnośnik koszowy unosi wysoko w powietrze mały podest z barierką.
+      Robotnicy stoją w nim, żeby malować ściany, naprawiać lampy albo przycinać gałęzie.
+      Jego łamane ramię może sięgać w górę, a także ponad przeszkodami.
+  machine.scissor_lift:
+    label: podnośnik nożycowy
+    summary: Podest, który unosi się prosto w górę na skrzyżowanych podporach.
+    info: |
+      Podnośnik nożycowy ma skrzyżowane metalowe podpory, które rozkładają się jak nożyczki.
+      Kiedy się rozkładają, podest na górze unosi się prosto w górę.
+      Robotnicy używają go w halach i magazynach, żeby dosięgnąć sufitu.
+  machine.demolition_breaker:
+    label: młot hydrauliczny
+    summary: Koparka z młotem zamiast łyżki, która rozbija beton.
+    info: |
+      Młot hydrauliczny to ogromny młot przymocowany do ramienia koparki.
+      Uderza w beton i skałę wiele razy na sekundę, aż popękają.
+      Pomaga burzyć stare budynki i rozbijać skały w kamieniołomach.
+  machine.pile_driver:
+    label: kafar
+    summary: Maszyna, która wbija długie słupy głęboko w ziemię.
+    info: |
+      Kafar wciska albo wbija w ziemię długie słupy ze stali lub betonu, zwane palami.
+      Pale podtrzymują budynki i mosty tam, gdzie ziemia jest miękka.
+      Ma wysoki maszt, który trzyma pal idealnie prosto.
+  machine.drilling_rig:
+    label: wiertnica
+    summary: Maszyna na gąsienicach, która wierci głębokie dziury w ziemi.
+    info: |
+      Wiertnica obraca długie spiralne wiertło, które wierci głęboki otwór.
+      Ziemia wychodzi do góry po spirali i usypuje się wokół otworu.
+      Otwory wypełnia się betonem, żeby powstały mocne fundamenty.
+  machine.tunnel_boring_machine:
+    label: maszyna do drążenia tuneli
+    summary: Olbrzymia okrągła maszyna, która drąży tunele pod ziemią.
+    info: |
+      Z przodu maszyny do drążenia tuneli jest ogromne okrągłe koło z tarczami tnącymi, które powoli się obraca i ściera skałę.
+      Za nim maszyna wykłada ściany tunelu betonowymi elementami.
+      Maszyny do drążenia tuneli często dostają dziewczęce imiona.
+  machine.cold_planer:
+    label: frezarka drogowa
+    summary: Maszyna, która ściera stary, zniszczony asfalt.
+    info: |
+      Frezarka drogowa ma pod spodem obracający się bęben z ostrymi zębami.
+      Ściera wierzchnią warstwę starej drogi, a taśmociąg ładuje kawałki na ciężarówkę.
+      Stary asfalt można znowu wykorzystać w nowej drodze.
+  machine.plate_compactor:
+    label: zagęszczarka
+    summary: Mała drgająca płyta, którą robotnik pcha, żeby ubić ziemię.
+    info: |
+      Zagęszczarka ma ciężką stalową płytę, która bardzo szybko drga.
+      Robotnik idzie za nią i kieruje nią za uchwyt.
+      Ubija piasek i żwir pod ścieżkami, tarasami i chodnikami.
+  machine.sheepsfoot_roller:
+    label: walec okołkowany
+    summary: Walec z bębnem pełnym wypustek, który ubija ziemię.
+    info: |
+      Bęben walca okołkowanego jest pokryty klockami, zwanymi kołkami.
+      Kołki wciskają się głęboko w ziemię i ubijają ją lepiej niż gładki bęben.
+      Używa się go na ziemi i glinie, na przykład pod nowymi drogami albo przy budowie zapór.
+  machine.bucket_wheel_excavator:
+    label: koparka kołowa wielonaczyniowa
+    summary: Gigantyczna maszyna z obracającym się kołem pełnym czerpaków.
+    info: |
+      Koparka kołowa wielonaczyniowa wydobywa węgiel i ziemię w wielkich kopalniach odkrywkowych.
+      Duże koło z czerpakami kręci się na końcu jej ramienia i napełnia długi taśmociąg.
+      Największe mają ponad 200 metrów długości, więc należą do największych maszyn na lądzie.
+  machine.loader_crane_truck:
+    label: ciężarówka z dźwigiem
+    summary: Ciężarówka ze składanym ramieniem, która sama ładuje i rozładowuje towar.
+    info: |
+      Ciężarówka z dźwigiem wozi własne składane hydrauliczne ramię tuż za kabiną.
+      Może rozładować cegły, rury albo palety bez żadnej innej maszyny.
+      Zanim coś podniesie, wysuwa nogi na boki, żeby stać stabilnie.

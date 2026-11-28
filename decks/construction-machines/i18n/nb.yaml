@@ -1,0 +1,214 @@
+lang: nb
+pivot: false
+title: Gravemaskiner og anleggsmaskiner
+cards:
+  machine.excavator:
+    label: gravemaskin
+    summary: En maskin som graver, med en lang arm og en skuff full av tenner.
+    info: |
+      En gravemaskin går på belter, så den ikke synker ned i bløt gjørme.
+      Hele den øverste delen med førerhuset og armen kan snu seg helt rundt.
+      Armen beveges med hydraulikk, altså olje som presses gjennom rør med høyt trykk.
+  machine.mini_excavator:
+    label: minigraver
+    summary: En liten gravemaskin som kommer seg gjennom en hageport.
+    info: |
+      En minigraver graver der en stor gravemaskin ikke får plass, for eksempel i hager, på tun og i trange gater.
+      Den går som regel på gummibelter, så den ikke ødelegger asfalt og heller.
+      Det lille skjæret foran skyver jorda tilbake i hullet.
+  machine.backhoe_loader:
+    label: traktorgraver
+    summary: En traktor med en skuff foran og en graverarm bak.
+    info: |
+      En traktorgraver er to maskiner i én, en laster foran og en gravemaskin bak.
+      Føreren snur setet rundt for å jobbe med armen bak.
+      Den går på hjul, så den kan kjøre på veien fra den ene jobben til den neste.
+  machine.wheel_loader:
+    label: hjullaster
+    summary: En maskin med kjempestore dekk som tar opp og frakter sand og grus.
+    info: |
+      En hjullaster fyller den store skuffen foran og tømmer den i lastebiler.
+      Den kan knekke på midten, og det gjør at den kan svinge på trange plasser.
+      De største hjullasterne har dekk som er høyere enn en voksen.
+  machine.bulldozer:
+    label: bulldoser
+    summary: En sterk maskin på belter som skyver jord med et bredt skjær.
+    info: |
+      En bulldoser skyver jord, stein og sand med stålskjæret foran.
+      Kloa bak heter en ripper, og den bryter opp hard jord.
+      De brede beltene fordeler vekten, så den kan kjøre på løs jord.
+  machine.skid_steer:
+    label: minilaster
+    summary: En liten, firkantet laster som kan snu på stedet.
+    info: |
+      En minilaster svinger ved at hjulene på den ene siden går fortere enn på den andre.
+      Da kan den snurre rundt på stedet, nesten som en stridsvogn.
+      I stedet for skuffen kan den ha mange andre redskaper, for eksempel gafler, koster eller et bor.
+  machine.dump_truck:
+    label: tippbil
+    summary: En lastebil som tipper lasset ut bak.
+    info: |
+      En tippbil frakter sand, grus eller jord i en stålkasse som kalles et lasteplan.
+      Hydrauliske sylindre løfter den fremre enden av kassen, og lasset sklir ut bak.
+      Så går kassen ned igjen, og bilen kjører for å hente mer.
+  machine.articulated_hauler:
+    label: dumper
+    summary: En tippbil for ulendt terreng som kan knekke på midten.
+    info: |
+      En dumper har to deler som er festet sammen med et ledd, så den kan knekke på midten.
+      Det hjelper den å kjøre gjennom gjørme og over humper der en vanlig lastebil ville satt seg fast.
+      Den er laget for anleggsplasser og steinbrudd, ikke for veier.
+  machine.mining_truck:
+    label: gruvedumper
+    summary: En kjempestor dumper som jobber i enorme dagbrudd.
+    info: |
+      Gruvedumpere er noen av de største lastebilene i verden.
+      Dekkene er høyere enn en voksen, og føreren klatrer opp en stige til førerhuset.
+      De største kan frakte mer enn 400 tonn stein på én gang.
+  machine.concrete_mixer:
+    label: betongbil
+    summary: En lastebil med en stor trommel som snurrer hele tiden.
+    info: |
+      En betongbil kommer med fersk betong til en byggeplass.
+      Trommelen snurrer hele veien, så betongen ikke stivner inni den.
+      Når trommelen snurrer andre veien, renner betongen ut gjennom renna.
+  machine.concrete_pump:
+    label: betongpumpe
+    summary: En lastebil med en lang arm som kan brettes ut og helle betong høyt oppe.
+    info: |
+      En betongpumpe presser våt betong gjennom et rør langs den lange armen.
+      Armen folder seg ut som en kjempefinger og når opp til de øverste etasjene i et hus.
+      Bein av stål på sidene hindrer at bilen velter.
+  machine.tower_crane:
+    label: tårnkran
+    summary: En høy kran som står over en byggeplass.
+    info: |
+      En tårnkran løfter tunge ting som stålbjelker og betong opp til toppen av et bygg.
+      Kranføreren klatrer opp inni tårnet til et lite førerhus på toppen.
+      Tunge betongblokker på den korte armen holder balansen mot lasset på den lange armen.
+  machine.mobile_crane:
+    label: mobilkran
+    summary: En kran på en lastebil med en arm som kan skyves ut lenger og lenger.
+    info: |
+      En mobilkran kjører til byggeplassen på sine egne hjul.
+      Armen er teleskopisk, den skyves ut som en kikkert og blir mye lengre.
+      Før den løfter, setter den ut sterke bein på begge sider så den ikke velter.
+  machine.crawler_crane:
+    label: beltekran
+    summary: En veldig sterk kran på belter med en høy arm av gitterverk.
+    info: |
+      En beltekran står på belter som fordeler den enorme vekten på bakken.
+      Den lange armen er laget av gitterverk av stål, lett men veldig sterk.
+      Store beltekraner løfter deler til bruer og vindturbiner.
+  machine.road_roller:
+    label: veivals
+    summary: En tung maskin med glatte ståltromler som gjør asfalten flat.
+    info: |
+      En veivals kjører sakte over fersk asfalt og presser den flat og hard.
+      Ståltromlene kan riste veldig fort, og da blir veien presset enda bedre sammen.
+      Det sprutes vann på tromlene så den varme asfalten ikke setter seg fast på dem.
+  machine.asphalt_paver:
+    label: asfaltutlegger
+    summary: En maskin som legger et nytt lag på veien.
+    info: |
+      Lastebiler tipper varm asfalt inn foran i asfaltutleggeren.
+      Asfaltutleggeren sprer den ut bak seg i et jevnt lag mens den kjører sakte framover.
+      Som regel kjører en veivals rett bak den.
+  machine.motor_grader:
+    label: veihøvel
+    summary: En lang maskin med et skjær under magen som gjør veier jevne.
+    info: |
+      En veihøvel har et langt skjær under seg, mellom forhjulene og bakhjulene.
+      Skjæret kan vippes og snus, så det kan gjøre bakken helt flat eller litt skrå.
+      Veihøvler jevner grusveier og gjør bakken klar før en ny vei blir bygget.
+  machine.forklift:
+    label: gaffeltruck
+    summary: En liten truck som løfter ting på to gafler.
+    info: |
+      En gaffeltruck skyver de to gaflene inn under en pall og løfter den opp.
+      Den jobber på lagre, i fabrikker og i butikker.
+      En tung vekt bak hindrer at den tipper forover med lasset.
+  machine.telehandler:
+    label: teleskoptruck
+    summary: En laster med en lang arm som skyves ut for å løfte ting høyt opp.
+    info: |
+      En teleskoptruck er som en gaffeltruck med en lang teleskoparm.
+      Den kan løfte en pall med murstein opp på et tak eller langt inn i et bygg.
+      Den brukes på byggeplasser og gårder, der den løfter høyballer.
+  machine.boom_lift:
+    label: bomlift
+    summary: En maskin som løfter arbeidere høyt opp i en kurv.
+    info: |
+      En bomlift løfter en liten plattform med rekkverk høyt opp i lufta.
+      Arbeiderne står i den for å male vegger, reparere lys eller kappe greiner.
+      Den leddede armen kan nå oppover og også over ting som står i veien.
+  machine.scissor_lift:
+    label: sakselift
+    summary: En plattform som går rett opp på stag i kryss.
+    info: |
+      En sakselift har metallstag i kryss som åpner seg som en saks.
+      Når de åpner seg, går plattformen på toppen rett opp.
+      Arbeidere bruker den i haller og på lagre for å nå opp til taket.
+  machine.demolition_breaker:
+    label: hydraulisk hammer
+    summary: En gravemaskin med en hammer i stedet for skuff som knuser betong.
+    info: |
+      En hydraulisk hammer er en kjempestor hammer festet på armen til en gravemaskin.
+      Den slår på betong og stein mange ganger i sekundet til de sprekker.
+      Den hjelper til med å rive gamle bygninger og knuse stein i steinbrudd.
+  machine.pile_driver:
+    label: peleramme
+    summary: En maskin som slår lange påler dypt ned i bakken.
+    info: |
+      En peleramme presser eller slår lange påler av stål eller betong ned i bakken.
+      Pålene holder oppe bygninger og bruer der bakken er bløt.
+      Den har en høy mast som holder pålen helt rett.
+  machine.drilling_rig:
+    label: borerigg
+    summary: En maskin på belter som borer dype hull i bakken.
+    info: |
+      En borerigg snurrer et langt, spiralformet bor som borer et dypt hull.
+      Jorda kommer opp langs spiralen og hoper seg opp rundt hullet.
+      Hullene fylles med betong og blir til sterke fundamenter.
+  machine.tunnel_boring_machine:
+    label: tunnelboremaskin
+    summary: En kjempestor, rund maskin som graver tunneler under bakken.
+    info: |
+      Foran på en tunnelboremaskin sitter et kjempestort, rundt hjul med kutteskiver som sakte snurrer og maler seg gjennom fjellet.
+      Bak hjulet kler maskinen tunnelveggene med deler av betong.
+      Tunnelboremaskiner får ofte jentenavn.
+  machine.cold_planer:
+    label: asfaltfres
+    summary: En maskin som freser bort gammel, slitt asfalt.
+    info: |
+      En asfaltfres har en trommel med skarpe tenner under seg som snurrer rundt.
+      Den freser bort det øverste laget av en gammel vei, og et transportbånd laster bitene opp i en lastebil.
+      Den gamle asfalten kan brukes på nytt i en ny vei.
+  machine.plate_compactor:
+    label: vibroplate
+    summary: En liten plate som rister, og som en arbeider skyver for å pakke bakken.
+    info: |
+      En vibroplate har en tung stålplate som rister veldig fort.
+      En arbeider går bak den og styrer den med håndtaket.
+      Den pakker sand og grus under stier, terrasser og fortau.
+  machine.sheepsfoot_roller:
+    label: piggvals
+    summary: En vals med en humpete trommel som pakker jorda.
+    info: |
+      Trommelen på en piggvals er dekket av klosser som kalles føtter.
+      Føttene trykker seg dypt ned i jorda og pakker den bedre enn en glatt trommel.
+      Den brukes på jord og leire, for eksempel under nye veier eller til demninger.
+  machine.bucket_wheel_excavator:
+    label: skuffehjulsgraver
+    summary: En gigantisk maskin med et hjul fullt av skuffer som snurrer rundt.
+    info: |
+      En skuffehjulsgraver graver kull og jord i enorme dagbrudd.
+      Ytterst på armen snurrer et stort hjul med skuffer, og det fyller et langt transportbånd.
+      De største er mer enn 200 meter lange, og det gjør dem til noen av de største maskinene på land.
+  machine.loader_crane_truck:
+    label: lastebil med kran
+    summary: En lastebil med en arm som kan brettes ut og løfte ting av og på.
+    info: |
+      En lastebil med kran har sin egen sammenleggbare hydrauliske arm bak førerhuset.
+      Den kan losse murstein, rør eller paller uten noen annen maskin.
+      Før den løfter, setter den ut bein på sidene så den står stødig.

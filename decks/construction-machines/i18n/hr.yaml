@@ -1,0 +1,214 @@
+lang: hr
+pivot: false
+title: Bageri i građevinski strojevi
+cards:
+  machine.excavator:
+    label: bager
+    summary: Stroj za kopanje s dugačkom rukom i žlicom punom zuba.
+    info: |
+      Bager se kreće na gusjenicama, pa ne tone u meko blato.
+      Cijeli gornji dio s kabinom i rukom može se okrenuti ukrug.
+      Ruku pokreće hidraulika, odnosno ulje koje se pod velikim tlakom gura kroz cijevi.
+  machine.mini_excavator:
+    label: mini bager
+    summary: Mali bager koji prolazi kroz vrtna vrata.
+    info: |
+      Mini bager kopa ondje gdje veliki ne bi stao, na primjer u vrtovima, dvorištima i uskim ulicama.
+      Obično se kreće na gumenim gusjenicama, pa ne oštećuje popločene površine.
+      Mala daska sprijeda gura zemlju natrag u rupu.
+  machine.backhoe_loader:
+    label: rovokopač
+    summary: Traktor sa žlicom sprijeda i rukom za kopanje straga.
+    info: |
+      Rovokopač je dva stroja u jednom, sprijeda utovarivač, a straga bager.
+      Vozač okrene sjedalo kad želi raditi stražnjom rukom.
+      Kreće se na kotačima, pa se cestom može odvesti s jednog gradilišta na drugo.
+  machine.wheel_loader:
+    label: utovarivač
+    summary: Stroj s golemim gumama koji zahvaća i prevozi pijesak i šljunak.
+    info: |
+      Utovarivač napuni svoju veliku prednju žlicu i istrese je u kamione.
+      Tijelo mu se savija u sredini, pa može skretati na uskim mjestima.
+      Najveći utovarivači imaju gume više od odraslog čovjeka.
+  machine.bulldozer:
+    label: buldožer
+    summary: Snažan stroj na gusjenicama koji gura zemlju širokom daskom.
+    info: |
+      Buldožer gura zemlju, kamenje i pijesak čeličnom daskom sprijeda.
+      Pandža straga, koja se zove riper, razbija tvrdo tlo.
+      Široke gusjenice raspoređuju njegovu težinu, pa može voziti po rastresitoj zemlji.
+  machine.skid_steer:
+    label: mini utovarivač
+    summary: Mali utovarivač u obliku kutije koji se može okrenuti u mjestu.
+    info: |
+      Mini utovarivač skreće tako da kotače s jedne strane vrti brže nego s druge.
+      Zato se može okrenuti u mjestu, gotovo kao tenk.
+      Umjesto žlice može nositi mnogo drugih alata, na primjer vilice, četke ili bušilicu.
+  machine.dump_truck:
+    label: kiper
+    summary: Kamion koji istovaruje teret prema natrag.
+    info: |
+      Kiper vozi pijesak, šljunak ili zemlju u čeličnom sanduku.
+      Hidraulični klipovi podignu prednji dio sanduka, a teret sklizne straga.
+      Zatim se sanduk spusti i kiper odlazi po još.
+  machine.articulated_hauler:
+    label: zglobni damper
+    summary: Kiper za neravan teren koji se savija u sredini.
+    info: |
+      Zglobni damper ima dva dijela spojena zglobom, pa se savija u sredini.
+      Zato prolazi kroz blato i preko neravnina gdje bi se običan kamion zaglavio.
+      Napravljen je za gradilišta i kamenolome, a ne za ceste.
+  machine.mining_truck:
+    label: rudarski damper
+    summary: Divovski kiper koji radi u golemim površinskim rudnicima.
+    info: |
+      Rudarski damperi spadaju među najveće kamione na svijetu.
+      Gume su im više od odraslog čovjeka, a vozač se do kabine penje ljestvama.
+      Najveći mogu odjednom prevesti više od 400 tona kamena.
+  machine.concrete_mixer:
+    label: mješalica za beton
+    summary: Kamion s velikim bubnjem koji se stalno okreće.
+    info: |
+      Mješalica za beton dovozi svjež beton na gradilište.
+      Bubanj se okreće cijelim putem da se beton unutra ne stvrdne.
+      Kad se bubanj okrene na drugu stranu, beton se izlijeva niz žlijeb.
+  machine.concrete_pump:
+    label: pumpa za beton
+    summary: Kamion s dugačkom sklopivom rukom koji izlijeva beton visoko.
+    info: |
+      Pumpa za beton gura mokri beton kroz cijev duž svoje dugačke ruke.
+      Ruka se rasklopi kao divovski prst i dosegne gornje katove zgrade.
+      Čelične noge sa strane čuvaju kamion da se ne prevrne.
+  machine.tower_crane:
+    label: toranjska dizalica
+    summary: Visoka dizalica koja stoji iznad gradilišta.
+    info: |
+      Toranjska dizalica podiže teške terete, kao što su čelične grede i beton, do vrha zgrade.
+      Dizaličar se penje kroz toranj do male kabine na vrhu.
+      Teški betonski blokovi na kraćoj ruci uravnotežuju teret na duljoj ruci.
+  machine.mobile_crane:
+    label: autodizalica
+    summary: Dizalica na kamionu s rukom koja se izvlači sve dulje i dulje.
+    info: |
+      Autodizalica dolazi na gradilište na vlastitim kotačima.
+      Ruka joj je teleskopska, izvlači se kao dalekozor i postaje mnogo dulja.
+      Prije podizanja izvuče jake noge na obje strane da se ne bi prevrnula.
+  machine.crawler_crane:
+    label: gusjenična dizalica
+    summary: Vrlo snažna dizalica na gusjenicama s visokom rešetkastom rukom.
+    info: |
+      Gusjenična dizalica stoji na gusjenicama koje raspoređuju njezinu golemu težinu po tlu.
+      Njezina dugačka ruka napravljena je od čelične rešetke, lagane, ali vrlo čvrste.
+      Velike gusjenične dizalice podižu dijelove mostova i vjetroturbina.
+  machine.road_roller:
+    label: cestovni valjak
+    summary: Težak stroj s glatkim čeličnim bubnjevima koji izravnava asfalt.
+    info: |
+      Cestovni valjak polako vozi po svježem asfaltu i sabija ga da bude ravan i tvrd.
+      Njegovi čelični bubnjevi mogu vrlo brzo vibrirati, pa još bolje nabijaju cestu.
+      Bubnjevi se prskaju vodom da se vrući asfalt ne bi lijepio za njih.
+  machine.asphalt_paver:
+    label: finišer
+    summary: Stroj koji polaže novi sloj ceste.
+    info: |
+      Kamioni istresaju vrući asfalt u prednji dio finišera.
+      Finišer polako ide naprijed i razastire ga iza sebe u ravnomjernom sloju.
+      Odmah iza njega obično ide cestovni valjak.
+  machine.motor_grader:
+    label: grejder
+    summary: Dugačak stroj s nožem ispod trbuha koji izravnava ceste.
+    info: |
+      Grejder ima dugačak nož odozdo, između prednjih i stražnjih kotača.
+      Nož se može naginjati i okretati, pa tlo bude savršeno ravno ili blago nagnuto.
+      Grejderi izravnavaju makadamske ceste i pripremaju tlo prije gradnje nove ceste.
+  machine.forklift:
+    label: viličar
+    summary: Malo vozilo koje podiže teret na dvjema vilicama.
+    info: |
+      Viličar podvuče dvije vilice ispod palete i podigne je.
+      Radi u skladištima, tvornicama i trgovinama.
+      Težak protuuteg straga čuva ga da se pod teretom ne prevrne naprijed.
+  machine.telehandler:
+    label: teleskopski utovarivač
+    summary: Utovarivač s dugačkom rukom koja se izvlači da podiže stvari visoko.
+    info: |
+      Teleskopski utovarivač je kao viličar s dugačkom teleskopskom rukom.
+      Može podignuti paletu cigala na krov ili je dodati duboko u zgradu.
+      Koristi se na gradilištima i farmama, gdje podiže bale sijena.
+  machine.boom_lift:
+    label: dizalica s košarom
+    summary: Stroj koji podiže radnike visoko u košari.
+    info: |
+      Dizalica s košarom podiže visoko u zrak malu platformu s ogradom.
+      Radnici stoje u njoj dok boje zidove, popravljaju svjetla ili režu grane.
+      Njezina zglobna ruka može dosegnuti uvis, ali i preko prepreka.
+  machine.scissor_lift:
+    label: škarasta platforma
+    summary: Platforma koja se diže ravno prema gore na prekriženim nosačima.
+    info: |
+      Škarasta platforma ima prekrižene metalne nosače koji se otvaraju kao škare.
+      Kad se otvaraju, platforma na vrhu diže se ravno prema gore.
+      Radnici je koriste u halama i skladištima da bi dohvatili strop.
+  machine.demolition_breaker:
+    label: hidraulični čekić
+    summary: Bager s čekićem umjesto žlice koji razbija beton.
+    info: |
+      Hidraulični čekić je golem čekić pričvršćen na ruku bagera.
+      Udara po betonu i stijeni mnogo puta u sekundi dok ne napuknu.
+      Pomaže rušiti stare zgrade i razbijati stijenu u kamenolomima.
+  machine.pile_driver:
+    label: zabijač pilota
+    summary: Stroj koji zabija dugačke stupove duboko u zemlju.
+    info: |
+      Zabijač pilota utiskuje ili zabija u zemlju dugačke čelične ili betonske stupove, koji se zovu piloti.
+      Piloti drže zgrade i mostove ondje gdje je tlo meko.
+      Ima visok jarbol koji drži pilot savršeno uspravno.
+  machine.drilling_rig:
+    label: bušilica za tlo
+    summary: Stroj na gusjenicama koji buši duboke rupe u zemlji.
+    info: |
+      Bušilica za tlo okreće dugačko spiralno svrdlo koje buši duboku rupu.
+      Zemlja izlazi prema gore duž spirale i gomila se oko rupe.
+      Rupe se pune betonom da bi se dobili čvrsti temelji.
+  machine.tunnel_boring_machine:
+    label: stroj za bušenje tunela
+    summary: Divovski okrugli stroj koji kopa tunele pod zemljom.
+    info: |
+      Sprijeda stroj za bušenje tunela ima golemi okrugli kotač s reznim pločama, koji se polako okreće i melje stijenu.
+      Iza njega stroj oblaže zidove tunela betonskim dijelovima.
+      Strojevi za bušenje tunela često dobivaju ženska imena.
+  machine.cold_planer:
+    label: glodalica za asfalt
+    summary: Stroj koji struže stari, istrošeni asfalt.
+    info: |
+      Glodalica za asfalt ima odozdo bubanj koji se okreće i ima oštre zube.
+      Ona sastruže gornji sloj stare ceste, a pokretna traka utovaruje komade u kamion.
+      Stari asfalt može se ponovno iskoristiti u novoj cesti.
+  machine.plate_compactor:
+    label: vibracijska ploča
+    summary: Mala ploča koja se trese, koju radnik gura da nabije tlo.
+    info: |
+      Vibracijska ploča ima tešku čeličnu ploču koja se vrlo brzo trese.
+      Radnik hoda iza nje i upravlja njome pomoću ručke.
+      Ona nabija pijesak i šljunak ispod staza, terasa i pločnika.
+  machine.sheepsfoot_roller:
+    label: valjak ježevac
+    summary: Valjak s kvrgavim bubnjem koji nabija zemlju.
+    info: |
+      Bubanj valjka ježevca prekriven je izbočinama koje se zovu papuče.
+      Papuče se utiskuju duboko u zemlju i nabijaju je bolje od glatkog bubnja.
+      Koristi se za zemlju i glinu, na primjer ispod novih cesta ili za brane.
+  machine.bucket_wheel_excavator:
+    label: rotorni bager
+    summary: Gigantski stroj s kotačem punim žlica koji se okreće.
+    info: |
+      Rotorni bager kopa ugljen i zemlju u golemim površinskim kopovima.
+      Veliki kotač sa žlicama okreće se na kraju njegove ruke i puni dugačku pokretnu traku.
+      Najveći su dulji od 200 metara, pa spadaju među najveće strojeve na kopnu.
+  machine.loader_crane_truck:
+    label: kamion s dizalicom
+    summary: Kamion sa sklopivom rukom koji sam utovaruje i istovaruje teret.
+    info: |
+      Kamion s dizalicom nosi vlastitu sklopivu hidrauličnu ruku odmah iza kabine.
+      Može istovariti cigle, cijevi ili palete bez ikakvog drugog stroja.
+      Prije podizanja izvuče noge sa strane da bi stajao stabilno.
