@@ -393,6 +393,123 @@ class AppLocalizationsAr extends AppLocalizations {
   String get styleVanGoghDesc => 'ضربات دوّامية على طريقة ما بعد الانطباعية';
 
   @override
+  String get styleVectorFlat => 'رسوم متجهة مسطحة';
+
+  @override
+  String get styleVectorFlatDesc => 'أشكال مسطحة واضحة بحدود نظيفة';
+
+  @override
+  String get styleGouache => 'غواش';
+
+  @override
+  String get styleGouacheDesc => 'طلاء معتم وغير لامع بألوان جريئة';
+
+  @override
+  String get styleWatercolorWet => 'ألوان مائية مبللة';
+
+  @override
+  String get styleWatercolorWetDesc => 'ألوان تنتشر بنعومة على الورق المبلل';
+
+  @override
+  String get styleWatercolorInkLine => 'حبر وألوان مائية';
+
+  @override
+  String get styleWatercolorInkLineDesc =>
+      'خطوط حبر رفيعة مع لمسات لونية خفيفة';
+
+  @override
+  String get styleEtching => 'حفر حمضي';
+
+  @override
+  String get styleEtchingDesc => 'خطوط محفورة دقيقة كمطبوعة قديمة';
+
+  @override
+  String get styleLinocut => 'طباعة لينوليوم';
+
+  @override
+  String get styleLinocutDesc => 'أشكال محفورة جريئة مطبوعة بألوان قليلة';
+
+  @override
+  String get styleCrayon => 'أقلام شمعية';
+
+  @override
+  String get styleCrayonDesc => 'ضربات أقلام شمعية كرسم طفل';
+
+  @override
+  String get styleLowPoly => 'مضلعات منخفضة';
+
+  @override
+  String get styleLowPolyDesc => 'مبني من مثلثات مسطحة الظل';
+
+  @override
+  String get styleClaymation => 'صلصال';
+
+  @override
+  String get styleClaymationDesc => 'مشكّل من صلصال طري';
+
+  @override
+  String get styleStickerCollage => 'كولاج ملصقات';
+
+  @override
+  String get styleStickerCollageDesc => 'ملصقات مقصوصة بحواف بيضاء';
+
+  @override
+  String get stylePressedFlowers => 'زهور مضغوطة';
+
+  @override
+  String get stylePressedFlowersDesc => 'مصنوع من بتلات وأوراق مجففة';
+
+  @override
+  String get stylePaperSculptureLayered => 'ورق مقصوص';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'طبقات من الورق المقصوص بظلال ناعمة';
+
+  @override
+  String get stylePolishPoster => 'ملصق ريترو';
+
+  @override
+  String get stylePolishPosterDesc => 'فن ملصقات جريء من منتصف القرن';
+
+  @override
+  String get styleChalkboard => 'سبورة';
+
+  @override
+  String get styleChalkboardDesc => 'رسم بالطباشير على سبورة داكنة';
+
+  @override
+  String get styleBlueprint => 'مخطط أزرق';
+
+  @override
+  String get styleBlueprintDesc => 'خطوط هندسية بيضاء على الأزرق';
+
+  @override
+  String get styleIllumination => 'مخطوطة مزخرفة';
+
+  @override
+  String get styleIlluminationDesc => 'فن كتب من العصور الوسطى بورق الذهب';
+
+  @override
+  String get styleRackham => 'حبر الحكايات الخيالية';
+
+  @override
+  String get styleRackhamDesc =>
+      'خطوط حبر رقيقة وألوان هادئة كما في كتب الحكايات القديمة';
+
+  @override
+  String get styleMoebius => 'رسم كوميكس';
+
+  @override
+  String get styleMoebiusDesc => 'خطوط كوميكس نظيفة وألوان مسطحة زاهية';
+
+  @override
+  String get styleHiroshige => 'طباعة خشبية';
+
+  @override
+  String get styleHiroshigeDesc => 'منظر ياباني بالطباعة الخشبية بتدرجات ناعمة';
+
+  @override
   String get langAr => 'العربية';
 
   @override

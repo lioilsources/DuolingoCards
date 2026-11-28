@@ -377,6 +377,130 @@ class AppLocalizationsEl extends AppLocalizations {
   String get styleVanGoghDesc => 'Μετα-ιμπρεσιονιστικές στροβιλιστές πινελιές';
 
   @override
+  String get styleVectorFlat => 'Γεωμετρικά σχήματα';
+
+  @override
+  String get styleVectorFlatDesc =>
+      'Καθαρά επίπεδα σχήματα με σαφές περίγραμμα';
+
+  @override
+  String get styleGouache => 'Γκουάς';
+
+  @override
+  String get styleGouacheDesc => 'Αδιαφανές, ματ χρώμα σε έντονους τόνους';
+
+  @override
+  String get styleWatercolorWet => 'Υγρή ακουαρέλα';
+
+  @override
+  String get styleWatercolorWetDesc =>
+      'Χρώματα που απλώνονται απαλά σε υγρό χαρτί';
+
+  @override
+  String get styleWatercolorInkLine => 'Μελάνι και ακουαρέλα';
+
+  @override
+  String get styleWatercolorInkLineDesc =>
+      'Λεπτές γραμμές μελανιού με ελαφριά χρώματα';
+
+  @override
+  String get styleEtching => 'Οξυγραφία';
+
+  @override
+  String get styleEtchingDesc =>
+      'Λεπτές χαραγμένες γραμμές, σαν παλιό χαρακτικό';
+
+  @override
+  String get styleLinocut => 'Λινοχαρακτική';
+
+  @override
+  String get styleLinocutDesc => 'Έντονα σκαλισμένα σχήματα σε λίγα χρώματα';
+
+  @override
+  String get styleCrayon => 'Κηρομπογιές';
+
+  @override
+  String get styleCrayonDesc => 'Γραμμές με κηρομπογιά, σαν παιδική ζωγραφιά';
+
+  @override
+  String get styleLowPoly => 'Low poly';
+
+  @override
+  String get styleLowPolyDesc => 'Φτιαγμένο από επίπεδα τρίγωνα';
+
+  @override
+  String get styleClaymation => 'Πλαστελίνη';
+
+  @override
+  String get styleClaymationDesc => 'Πλασμένο από μαλακή πλαστελίνη';
+
+  @override
+  String get styleStickerCollage => 'Κολάζ αυτοκόλλητων';
+
+  @override
+  String get styleStickerCollageDesc =>
+      'Κομμένα αυτοκόλλητα με λευκό περίγραμμα';
+
+  @override
+  String get stylePressedFlowers => 'Αποξηραμένα λουλούδια';
+
+  @override
+  String get stylePressedFlowersDesc => 'Από αποξηραμένα πέταλα και φύλλα';
+
+  @override
+  String get stylePaperSculptureLayered => 'Κομμένο χαρτί';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'Στρώσεις κομμένου χαρτιού με απαλές σκιές';
+
+  @override
+  String get stylePolishPoster => 'Ρετρό αφίσα';
+
+  @override
+  String get stylePolishPosterDesc =>
+      'Τολμηρή τέχνη αφίσας των μέσων του αιώνα';
+
+  @override
+  String get styleChalkboard => 'Μαυροπίνακας';
+
+  @override
+  String get styleChalkboardDesc => 'Σχέδιο με κιμωλία σε σκούρο πίνακα';
+
+  @override
+  String get styleBlueprint => 'Τεχνικό σχέδιο';
+
+  @override
+  String get styleBlueprintDesc => 'Λευκές τεχνικές γραμμές σε μπλε φόντο';
+
+  @override
+  String get styleIllumination => 'Εικονογραφημένο χειρόγραφο';
+
+  @override
+  String get styleIlluminationDesc =>
+      'Μεσαιωνική τέχνη βιβλίου με φύλλα χρυσού';
+
+  @override
+  String get styleRackham => 'Παραμυθένιο μελάνι';
+
+  @override
+  String get styleRackhamDesc =>
+      'Λεπτές γραμμές μελανιού και απαλά χρώματα, όπως στα παλιά βιβλία παραμυθιών';
+
+  @override
+  String get styleMoebius => 'Σχέδιο κόμικ';
+
+  @override
+  String get styleMoebiusDesc =>
+      'Καθαρές γραμμές κόμικ και φωτεινά επίπεδα χρώματα';
+
+  @override
+  String get styleHiroshige => 'Ξυλογραφία';
+
+  @override
+  String get styleHiroshigeDesc => 'Ιαπωνικό τοπίο με απαλές διαβαθμίσεις';
+
+  @override
   String get langAr => 'Αραβικά';
 
   @override

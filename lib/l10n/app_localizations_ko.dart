@@ -373,6 +373,120 @@ class AppLocalizationsKo extends AppLocalizations {
   String get styleVanGoghDesc => '소용돌이치는 후기 인상주의 붓 터치';
 
   @override
+  String get styleVectorFlat => '기하학 도형';
+
+  @override
+  String get styleVectorFlatDesc => '깔끔한 윤곽의 선명한 평면 도형';
+
+  @override
+  String get styleGouache => '과슈';
+
+  @override
+  String get styleGouacheDesc => '선명한 색의 불투명하고 매트한 물감';
+
+  @override
+  String get styleWatercolorWet => '번지기 수채화';
+
+  @override
+  String get styleWatercolorWetDesc => '젖은 종이에 부드럽게 번지는 색';
+
+  @override
+  String get styleWatercolorInkLine => '펜 수채화';
+
+  @override
+  String get styleWatercolorInkLineDesc => '가는 펜 선과 옅은 수채 물감';
+
+  @override
+  String get styleEtching => '에칭';
+
+  @override
+  String get styleEtchingDesc => '옛 판화 같은 섬세한 새김 선';
+
+  @override
+  String get styleLinocut => '리노컷';
+
+  @override
+  String get styleLinocutDesc => '적은 색으로 찍은 굵은 조각 형태';
+
+  @override
+  String get styleCrayon => '크레용';
+
+  @override
+  String get styleCrayonDesc => '아이 그림 같은 크레용 터치';
+
+  @override
+  String get styleLowPoly => '로우 폴리';
+
+  @override
+  String get styleLowPolyDesc => '평평한 삼각형으로 만든 모양';
+
+  @override
+  String get styleClaymation => '클레이';
+
+  @override
+  String get styleClaymationDesc => '말랑한 점토로 빚은 모습';
+
+  @override
+  String get styleStickerCollage => '스티커 콜라주';
+
+  @override
+  String get styleStickerCollageDesc => '흰 테두리의 오려 붙인 스티커';
+
+  @override
+  String get stylePressedFlowers => '압화';
+
+  @override
+  String get stylePressedFlowersDesc => '말린 꽃잎과 잎으로 만든 그림';
+
+  @override
+  String get stylePaperSculptureLayered => '종이 오리기';
+
+  @override
+  String get stylePaperSculptureLayeredDesc => '부드러운 그림자가 있는 겹겹의 종이';
+
+  @override
+  String get stylePolishPoster => '레트로 포스터';
+
+  @override
+  String get stylePolishPosterDesc => '20세기 중반의 대담한 포스터 아트';
+
+  @override
+  String get styleChalkboard => '칠판';
+
+  @override
+  String get styleChalkboardDesc => '어두운 칠판에 그린 분필 그림';
+
+  @override
+  String get styleBlueprint => '청사진';
+
+  @override
+  String get styleBlueprintDesc => '파란 바탕의 하얀 설계선';
+
+  @override
+  String get styleIllumination => '채색 필사본';
+
+  @override
+  String get styleIlluminationDesc => '금박을 입힌 중세 책 그림';
+
+  @override
+  String get styleRackham => '동화풍 펜화';
+
+  @override
+  String get styleRackhamDesc => '옛 동화책 같은 섬세한 펜 선과 은은한 색';
+
+  @override
+  String get styleMoebius => '만화 선화';
+
+  @override
+  String get styleMoebiusDesc => '깔끔한 만화 선과 밝은 단색';
+
+  @override
+  String get styleHiroshige => '목판화';
+
+  @override
+  String get styleHiroshigeDesc => '부드러운 그러데이션의 일본 풍경 판화';
+
+  @override
   String get langAr => '아랍어';
 
   @override

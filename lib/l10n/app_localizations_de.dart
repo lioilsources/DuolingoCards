@@ -377,6 +377,132 @@ class AppLocalizationsDe extends AppLocalizations {
   String get styleVanGoghDesc => 'Postimpressionistische, wirbelnde Pinselstriche';
 
   @override
+  String get styleVectorFlat => 'Flache Vektorgrafik';
+
+  @override
+  String get styleVectorFlatDesc => 'Klare flache Formen mit sauberen Umrissen';
+
+  @override
+  String get styleGouache => 'Gouache';
+
+  @override
+  String get styleGouacheDesc => 'Deckende, matte Farbe in kräftigen Tönen';
+
+  @override
+  String get styleWatercolorWet => 'Nass-in-Nass-Aquarell';
+
+  @override
+  String get styleWatercolorWetDesc =>
+      'Farben, die sanft ins nasse Papier fließen';
+
+  @override
+  String get styleWatercolorInkLine => 'Tusche & Aquarell';
+
+  @override
+  String get styleWatercolorInkLineDesc =>
+      'Feine Tuschelinien mit zarten Farblasuren';
+
+  @override
+  String get styleEtching => 'Radierung';
+
+  @override
+  String get styleEtchingDesc =>
+      'Feine geätzte Linien wie auf einem alten Druck';
+
+  @override
+  String get styleLinocut => 'Linolschnitt';
+
+  @override
+  String get styleLinocutDesc =>
+      'Kräftige geschnittene Formen in wenigen Farben';
+
+  @override
+  String get styleCrayon => 'Wachsmalstifte';
+
+  @override
+  String get styleCrayonDesc => 'Wachsmalstriche wie auf einer Kinderzeichnung';
+
+  @override
+  String get styleLowPoly => 'Low Poly';
+
+  @override
+  String get styleLowPolyDesc => 'Aus flach schattierten Dreiecken gebaut';
+
+  @override
+  String get styleClaymation => 'Knete';
+
+  @override
+  String get styleClaymationDesc => 'Aus weicher Knetmasse modelliert';
+
+  @override
+  String get styleStickerCollage => 'Sticker-Collage';
+
+  @override
+  String get styleStickerCollageDesc =>
+      'Ausgeschnittene Sticker mit weißem Rand';
+
+  @override
+  String get stylePressedFlowers => 'Gepresste Blumen';
+
+  @override
+  String get stylePressedFlowersDesc =>
+      'Aus getrockneten Blüten und Blättern gelegt';
+
+  @override
+  String get stylePaperSculptureLayered => 'Papierschnitt';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'Schichten aus geschnittenem Papier mit weichen Schatten';
+
+  @override
+  String get stylePolishPoster => 'Retro-Plakat';
+
+  @override
+  String get stylePolishPosterDesc =>
+      'Kräftige Plakatkunst der Jahrhundertmitte';
+
+  @override
+  String get styleChalkboard => 'Kreidetafel';
+
+  @override
+  String get styleChalkboardDesc => 'Kreidezeichnung auf dunkler Tafel';
+
+  @override
+  String get styleBlueprint => 'Blaupause';
+
+  @override
+  String get styleBlueprintDesc => 'Weiße technische Linien auf Blau';
+
+  @override
+  String get styleIllumination => 'Buchmalerei';
+
+  @override
+  String get styleIlluminationDesc =>
+      'Mittelalterliche Buchkunst mit Blattgold';
+
+  @override
+  String get styleRackham => 'Märchen-Tuschezeichnung';
+
+  @override
+  String get styleRackhamDesc =>
+      'Zarte Tuschelinien und gedämpfte Lasuren wie in alten Märchenbüchern';
+
+  @override
+  String get styleMoebius => 'Comic-Strichzeichnung';
+
+  @override
+  String get styleMoebiusDesc =>
+      'Klare Comiclinien und leuchtende Flächenfarben';
+
+  @override
+  String get styleHiroshige => 'Holzschnitt';
+
+  @override
+  String get styleHiroshigeDesc =>
+      'Japanischer Landschaftsdruck mit sanften Verläufen';
+
+  @override
   String get langAr => 'Arabisch';
 
   @override

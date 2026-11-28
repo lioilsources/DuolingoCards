@@ -381,6 +381,122 @@ class AppLocalizationsHe extends AppLocalizations {
   String get styleVanGoghDesc => 'משיכות מסתלסלות בסגנון פוסט־אימפרסיוניסטי';
 
   @override
+  String get styleVectorFlat => 'צורות גאומטריות';
+
+  @override
+  String get styleVectorFlatDesc => 'צורות שטוחות וחדות עם קווי מתאר נקיים';
+
+  @override
+  String get styleGouache => 'גואש';
+
+  @override
+  String get styleGouacheDesc => 'צבע אטום ומט בגוונים עזים';
+
+  @override
+  String get styleWatercolorWet => 'צבעי מים רטובים';
+
+  @override
+  String get styleWatercolorWetDesc => 'צבעים שמתפשטים ברכות על נייר רטוב';
+
+  @override
+  String get styleWatercolorInkLine => 'דיו וצבעי מים';
+
+  @override
+  String get styleWatercolorInkLineDesc => 'קווי דיו דקים עם שכבות צבע קלות';
+
+  @override
+  String get styleEtching => 'תחריט';
+
+  @override
+  String get styleEtchingDesc => 'קווים חרוטים עדינים כמו בהדפס ישן';
+
+  @override
+  String get styleLinocut => 'חיתוך לינוליאום';
+
+  @override
+  String get styleLinocutDesc => 'צורות חרותות נועזות שהודפסו בצבעים מעטים';
+
+  @override
+  String get styleCrayon => 'צבעי שעווה';
+
+  @override
+  String get styleCrayonDesc => 'משיכות צבעי שעווה כמו בציור של ילד';
+
+  @override
+  String get styleLowPoly => 'לואו פולי';
+
+  @override
+  String get styleLowPolyDesc => 'בנוי ממשולשים שטוחים';
+
+  @override
+  String get styleClaymation => 'פלסטלינה';
+
+  @override
+  String get styleClaymationDesc => 'מפוסל מפלסטלינה רכה';
+
+  @override
+  String get styleStickerCollage => 'קולאז\' מדבקות';
+
+  @override
+  String get styleStickerCollageDesc => 'מדבקות גזורות עם שוליים לבנים';
+
+  @override
+  String get stylePressedFlowers => 'פרחים מיובשים';
+
+  @override
+  String get stylePressedFlowersDesc => 'עשוי מעלי כותרת ועלים מיובשים';
+
+  @override
+  String get stylePaperSculptureLayered => 'נייר גזור';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'שכבות של נייר גזור עם צללים רכים';
+
+  @override
+  String get stylePolishPoster => 'פוסטר רטרו';
+
+  @override
+  String get stylePolishPosterDesc => 'אמנות כרזות נועזת מאמצע המאה';
+
+  @override
+  String get styleChalkboard => 'לוח גיר';
+
+  @override
+  String get styleChalkboardDesc => 'ציור בגיר על לוח כהה';
+
+  @override
+  String get styleBlueprint => 'שרטוט טכני';
+
+  @override
+  String get styleBlueprintDesc => 'קווים טכניים לבנים על רקע כחול';
+
+  @override
+  String get styleIllumination => 'כתב יד מעוטר';
+
+  @override
+  String get styleIlluminationDesc => 'אמנות ספרים מימי הביניים עם עלי זהב';
+
+  @override
+  String get styleRackham => 'דיו של אגדות';
+
+  @override
+  String get styleRackhamDesc =>
+      'קווי דיו עדינים וצבעים מעומעמים כמו בספרי אגדות ישנים';
+
+  @override
+  String get styleMoebius => 'קו קומיקס';
+
+  @override
+  String get styleMoebiusDesc => 'קווי קומיקס נקיים וצבעים שטוחים ובהירים';
+
+  @override
+  String get styleHiroshige => 'הדפס עץ';
+
+  @override
+  String get styleHiroshigeDesc => 'נוף יפני בהדפס עץ עם מעברי צבע רכים';
+
+  @override
   String get langAr => 'ערבית';
 
   @override

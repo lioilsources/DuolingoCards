@@ -373,6 +373,120 @@ class AppLocalizationsJa extends AppLocalizations {
   String get styleVanGoghDesc => 'うねるような後期印象派の筆づかい';
 
   @override
+  String get styleVectorFlat => 'フラットベクター';
+
+  @override
+  String get styleVectorFlatDesc => 'くっきりした平面と整った輪郭';
+
+  @override
+  String get styleGouache => 'ガッシュ';
+
+  @override
+  String get styleGouacheDesc => '鮮やかな色の不透明でマットな絵の具';
+
+  @override
+  String get styleWatercolorWet => 'にじみ水彩';
+
+  @override
+  String get styleWatercolorWetDesc => '濡れた紙にやわらかく広がる色';
+
+  @override
+  String get styleWatercolorInkLine => 'ペン淡彩';
+
+  @override
+  String get styleWatercolorInkLineDesc => '細いペン線とうすい水彩';
+
+  @override
+  String get styleEtching => 'エッチング';
+
+  @override
+  String get styleEtchingDesc => '古い版画のような細い線';
+
+  @override
+  String get styleLinocut => 'リノカット';
+
+  @override
+  String get styleLinocutDesc => '少ない色で刷った力強い彫りの形';
+
+  @override
+  String get styleCrayon => 'クレヨン';
+
+  @override
+  String get styleCrayonDesc => '子どもの絵のようなクレヨンのタッチ';
+
+  @override
+  String get styleLowPoly => 'ローポリ';
+
+  @override
+  String get styleLowPolyDesc => '平らな三角形で組み立てた形';
+
+  @override
+  String get styleClaymation => 'ねんど';
+
+  @override
+  String get styleClaymationDesc => 'やわらかい粘土でつくった形';
+
+  @override
+  String get styleStickerCollage => 'ステッカーコラージュ';
+
+  @override
+  String get styleStickerCollageDesc => '白いふちの切り抜きステッカー';
+
+  @override
+  String get stylePressedFlowers => '押し花';
+
+  @override
+  String get stylePressedFlowersDesc => '乾かした花びらと葉でつくった絵';
+
+  @override
+  String get stylePaperSculptureLayered => '切り絵';
+
+  @override
+  String get stylePaperSculptureLayeredDesc => '切った紙を重ねたやわらかな陰影';
+
+  @override
+  String get stylePolishPoster => 'レトロポスター';
+
+  @override
+  String get stylePolishPosterDesc => '20世紀半ばの大胆なポスターアート';
+
+  @override
+  String get styleChalkboard => '黒板アート';
+
+  @override
+  String get styleChalkboardDesc => '暗い黒板にチョークで描いた絵';
+
+  @override
+  String get styleBlueprint => '青写真';
+
+  @override
+  String get styleBlueprintDesc => '青地に白い製図の線';
+
+  @override
+  String get styleIllumination => '装飾写本';
+
+  @override
+  String get styleIlluminationDesc => '金箔をあしらった中世の本の絵';
+
+  @override
+  String get styleRackham => 'おとぎ話のペン画';
+
+  @override
+  String get styleRackhamDesc => '昔の童話の本のような繊細なペン線と淡い色';
+
+  @override
+  String get styleMoebius => 'コミック線画';
+
+  @override
+  String get styleMoebiusDesc => 'すっきりした漫画の線と明るいベタ塗り';
+
+  @override
+  String get styleHiroshige => '木版画';
+
+  @override
+  String get styleHiroshigeDesc => 'やわらかなグラデーションの日本の風景版画';
+
+  @override
   String get langAr => 'アラビア語';
 
   @override

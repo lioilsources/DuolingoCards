@@ -377,6 +377,126 @@ class AppLocalizationsTr extends AppLocalizations {
   String get styleVanGoghDesc => 'Post-empresyonist girdaplı fırça darbeleri';
 
   @override
+  String get styleVectorFlat => 'Geometrik şekiller';
+
+  @override
+  String get styleVectorFlatDesc => 'Temiz hatlı, net düz şekiller';
+
+  @override
+  String get styleGouache => 'Guaj';
+
+  @override
+  String get styleGouacheDesc => 'Canlı renklerde örtücü, mat boya';
+
+  @override
+  String get styleWatercolorWet => 'Islak suluboya';
+
+  @override
+  String get styleWatercolorWetDesc =>
+      'Islak kâğıtta yumuşakça yayılan renkler';
+
+  @override
+  String get styleWatercolorInkLine => 'Mürekkep ve suluboya';
+
+  @override
+  String get styleWatercolorInkLineDesc =>
+      'İnce mürekkep çizgileri ve hafif renk lekeleri';
+
+  @override
+  String get styleEtching => 'Gravür';
+
+  @override
+  String get styleEtchingDesc => 'Eski bir baskı gibi ince kazınmış çizgiler';
+
+  @override
+  String get styleLinocut => 'Linol baskı';
+
+  @override
+  String get styleLinocutDesc => 'Az renkle basılmış güçlü oyma şekiller';
+
+  @override
+  String get styleCrayon => 'Mum boya';
+
+  @override
+  String get styleCrayonDesc => 'Çocuk çizimi gibi mum boya darbeleri';
+
+  @override
+  String get styleLowPoly => 'Low poly';
+
+  @override
+  String get styleLowPolyDesc => 'Düz gölgeli üçgenlerden oluşur';
+
+  @override
+  String get styleClaymation => 'Oyun hamuru';
+
+  @override
+  String get styleClaymationDesc => 'Yumuşak oyun hamurundan şekillendirilmiş';
+
+  @override
+  String get styleStickerCollage => 'Çıkartma kolajı';
+
+  @override
+  String get styleStickerCollageDesc => 'Beyaz kenarlı kesilmiş çıkartmalar';
+
+  @override
+  String get stylePressedFlowers => 'Preslenmiş çiçekler';
+
+  @override
+  String get stylePressedFlowersDesc =>
+      'Kurutulmuş taç yaprakları ve yapraklardan';
+
+  @override
+  String get stylePaperSculptureLayered => 'Kâğıt kesme';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'Yumuşak gölgeli kesilmiş kâğıt katmanları';
+
+  @override
+  String get stylePolishPoster => 'Retro afiş';
+
+  @override
+  String get stylePolishPosterDesc => 'Yüzyıl ortasının cesur afiş sanatı';
+
+  @override
+  String get styleChalkboard => 'Kara tahta';
+
+  @override
+  String get styleChalkboardDesc => 'Koyu tahtada tebeşir çizimi';
+
+  @override
+  String get styleBlueprint => 'Teknik çizim';
+
+  @override
+  String get styleBlueprintDesc => 'Mavi üzerine beyaz teknik çizgiler';
+
+  @override
+  String get styleIllumination => 'Tezhipli el yazması';
+
+  @override
+  String get styleIlluminationDesc => 'Altın varaklı Orta Çağ kitap sanatı';
+
+  @override
+  String get styleRackham => 'Masalsı mürekkep';
+
+  @override
+  String get styleRackhamDesc =>
+      'Eski masal kitaplarındaki gibi narin mürekkep çizgileri ve soluk renkler';
+
+  @override
+  String get styleMoebius => 'Çizgi roman';
+
+  @override
+  String get styleMoebiusDesc =>
+      'Temiz çizgi roman hatları ve parlak düz renkler';
+
+  @override
+  String get styleHiroshige => 'Ahşap baskı';
+
+  @override
+  String get styleHiroshigeDesc => 'Yumuşak geçişli Japon manzara baskısı';
+
+  @override
   String get langAr => 'Arapça';
 
   @override

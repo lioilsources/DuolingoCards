@@ -377,6 +377,124 @@ class AppLocalizationsEn extends AppLocalizations {
   String get styleVanGoghDesc => 'Post-impressionist swirling strokes';
 
   @override
+  String get styleVectorFlat => 'Geometric shapes';
+
+  @override
+  String get styleVectorFlatDesc => 'Crisp flat shapes with clean outlines';
+
+  @override
+  String get styleGouache => 'Gouache';
+
+  @override
+  String get styleGouacheDesc => 'Opaque matte paint in bold colours';
+
+  @override
+  String get styleWatercolorWet => 'Wet watercolour';
+
+  @override
+  String get styleWatercolorWetDesc => 'Colours bleeding softly into wet paper';
+
+  @override
+  String get styleWatercolorInkLine => 'Ink & watercolour';
+
+  @override
+  String get styleWatercolorInkLineDesc =>
+      'Fine ink lines with light colour washes';
+
+  @override
+  String get styleEtching => 'Etching';
+
+  @override
+  String get styleEtchingDesc => 'Fine engraved lines, like an old print';
+
+  @override
+  String get styleLinocut => 'Linocut';
+
+  @override
+  String get styleLinocutDesc => 'Bold carved shapes printed in few colours';
+
+  @override
+  String get styleCrayon => 'Crayon';
+
+  @override
+  String get styleCrayonDesc => 'Waxy crayon strokes, like a child\'s drawing';
+
+  @override
+  String get styleLowPoly => 'Low poly';
+
+  @override
+  String get styleLowPolyDesc => 'Built from flat-shaded triangles';
+
+  @override
+  String get styleClaymation => 'Clay';
+
+  @override
+  String get styleClaymationDesc => 'Modelled from soft plasticine';
+
+  @override
+  String get styleStickerCollage => 'Sticker collage';
+
+  @override
+  String get styleStickerCollageDesc => 'Cut-out stickers with white edges';
+
+  @override
+  String get stylePressedFlowers => 'Pressed flowers';
+
+  @override
+  String get stylePressedFlowersDesc => 'Made from dried petals and leaves';
+
+  @override
+  String get stylePaperSculptureLayered => 'Paper cut-out';
+
+  @override
+  String get stylePaperSculptureLayeredDesc =>
+      'Layers of cut paper with soft shadows';
+
+  @override
+  String get stylePolishPoster => 'Retro poster';
+
+  @override
+  String get stylePolishPosterDesc => 'Bold mid-century poster art';
+
+  @override
+  String get styleChalkboard => 'Chalkboard';
+
+  @override
+  String get styleChalkboardDesc => 'Chalk drawing on a dark board';
+
+  @override
+  String get styleBlueprint => 'Blueprint';
+
+  @override
+  String get styleBlueprintDesc => 'White technical lines on blue';
+
+  @override
+  String get styleIllumination => 'Illuminated manuscript';
+
+  @override
+  String get styleIlluminationDesc => 'Medieval book art with gold leaf';
+
+  @override
+  String get styleRackham => 'Fairy-tale ink & wash';
+
+  @override
+  String get styleRackhamDesc =>
+      'Delicate ink lines and muted washes from old fairy-tale books';
+
+  @override
+  String get styleMoebius => 'Comic line art';
+
+  @override
+  String get styleMoebiusDesc => 'Clean comic lines and bright flat colours';
+
+  @override
+  String get styleHiroshige => 'Woodblock print';
+
+  @override
+  String get styleHiroshigeDesc =>
+      'Japanese landscape print with soft gradients';
+
+  @override
   String get langAr => 'Arabic';
 
   @override
